@@ -14,6 +14,7 @@ import Results from './components/Results'
 import Builder from './components/Builder'
 import { AudienceScreen, useAudienceWindow } from './components/Audience'
 import { HOST_EDITION, type Live } from './lib/edition'
+import { setFavicon } from './lib/favicon'
 
 export default function App() {
   const initial = useMemo(loadSettings, [])
@@ -40,6 +41,7 @@ export default function App() {
   useEffect(() => {
     themeRef.current = theme
     document.documentElement.dataset.theme = theme
+    setFavicon(document, theme)
     document.querySelector('meta[name="theme-color"]')?.setAttribute('content', getComputedStyle(document.documentElement).getPropertyValue('--bg').trim())
     saveSettings({ theme, lang, reduceFx })
   }, [theme, lang, reduceFx])

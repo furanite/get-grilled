@@ -83,7 +83,7 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
       <section className="stage">
         <div className="sadu-band" aria-hidden="true" />
         <div className="board-scroll">
-          <div className="board" ref={boardRef} style={{ gridTemplateColumns: `repeat(${cols},minmax(0,1fr))`, ['--cols' as string]: cols }}>
+          <div className="board" ref={boardRef} style={{ gridTemplateColumns: `repeat(${cols},minmax(0,var(--colmax)))`, ['--cols' as string]: cols }}>
             {game.cats.map((c, i) => {
               const [main, sub] = lang === 'ar' && c.nameAr ? [c.nameAr, c.name] : [c.name, c.nameAr]
               return (

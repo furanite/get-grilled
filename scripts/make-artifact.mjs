@@ -6,6 +6,8 @@ rmSync(out, { recursive: true, force: true })
 mkdirSync(out, { recursive: true })
 cpSync(`${dist}/assets`, `${out}/assets`, { recursive: true })
 cpSync(`${dist}/packs`, `${out}/packs`, { recursive: true })
+const ICON_FILES = ['favicon.svg', 'favicon-32.png', 'apple-touch-icon.png']
+for (const f of ICON_FILES) cpSync(`${dist}/${f}`, `${out}/${f}`)
 const html = readFileSync(`${dist}/index.html`, 'utf8')
 const head = /<head>([\s\S]*?)<\/head>/.exec(html)[1]
   .split('\n').map((l) => l.trim()).filter((l) => l && !l.startsWith('<meta charset') && !l.startsWith('<meta name="viewport"'))
@@ -16,4 +18,5 @@ console.log(page)
 import { readdirSync } from 'node:fs'
 const files = {}
 for (const dir of ['assets', 'packs']) for (const f of readdirSync(`${out}/${dir}`)) files[`${dir}/${f}`] = `${dir}/${f}`
+for (const f of ICON_FILES) files[f] = f
 writeFileSync(`${out}-files.json`, JSON.stringify(files))

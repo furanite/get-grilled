@@ -6,6 +6,7 @@ import type { Strings } from '../lib/i18n'
 import { num } from '../lib/i18n'
 import { standings, tileKey } from '../lib/game'
 import type { Live } from '../lib/edition'
+import { setFavicon } from '../lib/favicon'
 
 /**
  * Opens a second browser window that the host drags onto the projector.
@@ -96,6 +97,7 @@ interface Props {
 export function AudienceScreen({ win, root, t, lang, theme, reduceFx, screen, game, live }: Props) {
   const html = win.document.documentElement
   html.dataset.theme = theme
+  setFavicon(win.document, theme)
   html.dataset.reduceFx = reduceFx ? 'on' : 'off'
   html.lang = lang
   html.dir = lang === 'ar' ? 'rtl' : 'ltr'
@@ -164,7 +166,7 @@ function AudienceView({ t, lang, screen, game, live, win }: { t: Strings; lang: 
       {help}
       <section className="stage aud-stage">
         <div className="sadu-band" aria-hidden="true" />
-        <div className="board" style={{ gridTemplateColumns: `repeat(${game.cats.length},minmax(0,1fr))`, ['--cols' as string]: game.cats.length, minWidth: 0 }}>
+        <div className="board" style={{ gridTemplateColumns: `repeat(${game.cats.length},minmax(0,var(--colmax)))`, ['--cols' as string]: game.cats.length, minWidth: 0 }}>
           {game.cats.map((c, i) => {
             const [main, sub] = lang === 'ar' && c.nameAr ? [c.nameAr, c.name] : [c.name, c.nameAr]
             return (

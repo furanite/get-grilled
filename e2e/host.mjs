@@ -35,10 +35,10 @@ async function openAudience(page) {
   await aud.waitForSelector('[data-testid="audience"]')
   return aud
 }
-async function startGame(page) {
+async function startGame(page, n = 6) {
   await page.getByRole('button', { name: /new game|لعبة جديدة/i }).click()
   await page.waitForSelector('.cat-pick')
-  for (let i = 0; i < 6; i++) await page.locator('.cat-pick:not([disabled])').nth(i).click()
+  for (let i = 0; i < n; i++) await page.locator('.cat-pick:not([disabled])').nth(i).click()
   await page.getByTestId('start').click()
   await page.waitForSelector('.tile')
 }
@@ -113,6 +113,7 @@ try {
     const aud = await openAudience(page)
     await page.click('[data-theme-id="neon"]')
     await aud.waitForFunction(() => document.documentElement.dataset.theme === 'neon', null, { timeout: 4000 })
+    await aud.waitForFunction(() => decodeURIComponent(document.querySelector('link[rel="icon"][type="image/svg+xml"]')?.getAttribute('href') ?? '').includes('gg-neon'), null, { timeout: 4000 })
     await page.getByRole('button', { name: 'العربية' }).click()
     await aud.waitForFunction(() => document.documentElement.dir === 'rtl')
     await startGame(page)
@@ -124,6 +125,18 @@ try {
     await page.getByTestId('end').click()
     await aud.waitForSelector('[data-testid="audience-winner"]')
     await aud.screenshot({ path: `${SHOTS}/host-audience-results.png` })
+    await page.context().close()
+  })
+
+  await test('a one-category game does not stretch one tile across the projector', async () => {
+    const page = await hostPage()
+    const aud = await openAudience(page)
+    await aud.setViewportSize({ width: 1920, height: 1080 })
+    await startGame(page, 1)
+    await aud.waitForSelector('[data-aud-tile="0-4"]')
+    const w = await aud.locator('[data-aud-tile]').first().evaluate((e) => e.getBoundingClientRect().width)
+    assert(w <= 0.35 * 1920, 'tile is ' + w + 'px wide')
+    await aud.screenshot({ path: `${SHOTS}/host-audience-one-cat.png` })
     await page.context().close()
   })
 

@@ -22,6 +22,7 @@ const DEFAULT_TEAMS = { en: ['Team 1', 'Team 2', 'Team 3'], ar: ['الفريق �
 
 export default function Setup({ t, lang, index, indexError, custom, onBack, onStart }: Props) {
   const [picked, setPicked] = useState<string[]>([])
+  const [closed, setClosed] = useState<PackGroup[]>([])
   const [teams, setTeams] = useState<string[]>(DEFAULT_TEAMS[lang])
   const [timer, setTimer] = useState(30)
   const [golden, setGolden] = useState(1)
@@ -86,10 +87,21 @@ export default function Setup({ t, lang, index, indexError, custom, onBack, onSt
             let n = 0
             const sections = GROUP_ORDER.map((g) => [g, index.filter((c) => (c.group ?? 'general') === g)] as const).filter(([, list]) => list.length > 0)
             return sections.map(([g, list]) => (
-              <div className="cat-group stack" key={g} data-group={g}>
-                <h3 className="group-title">{groupName[g]}</h3>
+              <details className="cat-group" key={g} data-group={g} open={!closed.includes(g)} onToggle={(e) => {
+                const open = (e.currentTarget as HTMLDetailsElement).open
+                setClosed((cur) => (open ? cur.filter((x) => x !== g) : cur.includes(g) ? cur : [...cur, g]))
+              }}>
+                <summary className="group-title">
+                  <span>{groupName[g]}</span>
+                  <span className="group-count">
+                    {(() => {
+                      const k = list.filter((c) => picked.includes(c.id)).length
+                      return k > 0 ? `${num(k, lang)} ${t.groupPicked}` : num(list.length, lang)
+                    })()}
+                  </span>
+                </summary>
                 <div className="cat-grid">{list.map((c) => card(c, n++))}</div>
-              </div>
+              </details>
             ))
           })()}
         {customSummaries.length > 0 && (
