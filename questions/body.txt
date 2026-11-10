@@ -1,0 +1,514 @@
+id: body
+name: Human Body & Health
+nameAr: جسم الإنسان والصحة
+group: general
+
+## 100
+The organ that pumps blood around the body. :: Heart
+The organ you think with. :: Brain
+The organs you breathe with. :: Lungs
+The number of eyes a person has. :: 2
+The hard white things in your mouth used for chewing. :: Teeth
+The number of fingers on one hand, including the thumb. :: 5
+The body part you smell with. :: Nose
+The body part you hear with. :: Ears
+The sense you use your tongue for. :: Taste
+The red liquid that flows in your veins. :: Blood
+The frame of bones that holds up the body. :: Skeleton
+The largest organ of the body, which covers it. :: Skin
+The joint in the middle of your arm. :: Elbow
+The joint in the middle of your leg. :: Knee
+The body part at the end of your leg that you stand on. :: Foot
+The number of toes on two feet. :: 10
+The coloured part of the eye. :: Iris
+The black circle in the middle of the eye. :: Pupil
+The bag-like organ that holds food after you swallow. :: Stomach
+The tube that carries food from the mouth to the stomach. :: Oesophagus (food pipe)
+The doctor who treats teeth. :: Dentist
+The doctor who looks after children. :: Paediatrician
+The person who helps doctors care for patients in hospital. :: Nurse
+The tool a doctor uses to listen to your heartbeat. :: Stethoscope
+The instrument used to measure body temperature. :: Thermometer
+The normal body temperature in °C, roughly. :: 37
+The thing you get when you are sick with a runny nose and sneezing. :: A cold
+The tiny germs that can cause illness and are killed by antibiotics. :: Bacteria
+The medicine given by a needle to protect you from diseases. :: Vaccine
+The thing you should do with your hands with soap to stop germs. :: Wash them
+The number of times a day dentists recommend brushing your teeth. :: 2
+The bone that protects the brain. :: Skull
+The bones that form a cage around your heart and lungs. :: Ribs
+The long column of bones down your back. :: Spine (backbone)
+The tissue that lets you move by pulling on bones. :: Muscle
+The hair above your eyes. :: Eyebrows
+The hair on the edge of your eyelids. :: Eyelashes
+The hard covering on the tips of your fingers. :: Nails
+The organ that cleans the blood and makes urine; you have two. :: Kidneys
+The gas your body needs to breathe in. :: Oxygen
+The gas you breathe out. :: Carbon dioxide
+The number of hours of sleep adults are advised to get, at least. :: 7
+The part of the body that connects the head to the shoulders. :: Neck
+The part of the arm between the hand and the elbow. :: Forearm
+The joint that connects the hand to the arm. :: Wrist
+The joint that connects the foot to the leg. :: Ankle
+The salty liquid that cools you down when you are hot. :: Sweat
+The liquid in your mouth that helps you swallow food. :: Saliva
+The body part used to taste and speak. :: Tongue
+The pain in the head. :: Headache
+The plaster put over a small cut. :: Bandage (plaster)
+The vehicle that takes sick people to hospital in an emergency. :: Ambulance
+The emergency phone number in Saudi Arabia for an ambulance. :: 997
+The sticky red-brown crust that forms over a healing cut. :: Scab
+The small spots on the face that often appear in teenagers. :: Pimples (acne)
+The sound made by the heart. :: Heartbeat
+The number of chambers in the human heart. :: 4
+The type of tooth at the very back, used for grinding. :: Molar
+The first set of teeth children have. :: Baby teeth (milk teeth)
+The broken bone is put in this hard white cover to heal. :: Cast
+The picture of your bones taken in hospital. :: X-ray
+The body part with a palm and five fingers. :: Hand
+The flat bone at the front of the knee. :: Kneecap (patella)
+The part of the body where food is broken down after the stomach, very long and coiled. :: Intestines
+The illness of a high temperature. :: Fever
+The vitamin you get from sunshine. :: Vitamin D
+The mineral in milk that builds strong bones. :: Calcium
+The body part that holds the brain. :: Head
+The part of the face below the mouth. :: Chin
+The red part around the mouth. :: Lips
+The part of the body where the belly button is. :: Belly (abdomen)
+The thing you catch when you are bitten by an infected mosquito, causing fever. :: Malaria
+The sudden noisy push of air from the nose. :: Sneeze
+The involuntary repeated sound when the diaphragm spasms. :: Hiccups
+The drink that is the healthiest for staying hydrated. :: Water
+The tiny cells that carry oxygen in blood are this colour. :: Red
+The cells in blood that fight infection are this colour. :: White
+The shortest bones are in this part of the body. :: Ear
+The number of senses humans are traditionally said to have. :: 5
+The body part that blinks. :: Eyelid
+The body part where you wear a ring. :: Finger
+The part of the body you sit on. :: Buttocks
+The muscle at the front of the upper arm that bulges. :: Biceps
+The big muscle at the back of the lower leg. :: Calf
+The colour hair often turns with age. :: Grey (white)
+The small hole in the middle of your stomach left by the umbilical cord. :: Belly button (navel)
+The medicine taken to reduce pain and fever, also called acetaminophen. :: Paracetamol
+The walking aid used by people with a broken leg, held under the arms. :: Crutches
+The chair with wheels for people who cannot walk. :: Wheelchair
+The person who gives you glasses after an eye test. :: Optician (optometrist)
+The illness where the body cannot control blood sugar. :: Diabetes
+The hormone injected by people with type 1 diabetes. :: Insulin
+The exercise of running slowly for fitness. :: Jogging
+The fluid-filled bump on the skin caused by rubbing shoes. :: Blister
+The bone in your upper leg, the longest in the body. :: Femur (thigh bone)
+The condition that turns the skin and eyes yellow, often from liver trouble. :: Jaundice
+The muscle under the lungs that helps you breathe. :: Diaphragm
+One of the two openings of your nose where air enters. :: Nostril
+The body part that shows your fingerprints. :: Fingertips
+The part of the leg between the knee and the ankle at the front. :: Shin
+
+## 200
+The number of bones in the adult human body. :: 206
+The number of bones babies are born with, roughly. :: 300
+The smallest bone in the body, in the ear. :: Stapes (stirrup)
+The largest internal organ. :: Liver
+The organ that makes insulin. :: Pancreas
+The organ that stores bile. :: Gallbladder
+The small finger-shaped pouch on the large intestine that can become inflamed. :: Appendix
+The blood vessels that carry blood away from the heart. :: Arteries
+The blood vessels that carry blood back to the heart. :: Veins
+The tiniest blood vessels. :: Capillaries
+The largest artery in the body. :: Aorta
+The protein in red blood cells that carries oxygen. :: Haemoglobin
+The blood cells that help blood clot. :: Platelets
+The liquid part of blood. :: Plasma
+The universal donor blood type. :: O negative
+The universal recipient blood type. :: AB positive
+The scientist who discovered the ABO blood groups. :: Karl Landsteiner
+The scientist who first described the circulation of blood in 1628. :: William Harvey
+The Arab physician who first described pulmonary circulation in the 13th century. :: Ibn al-Nafis
+The Persian physician who wrote "The Canon of Medicine". :: Ibn Sina (Avicenna)
+The ancient Greek known as the father of medicine. :: Hippocrates
+The oath doctors traditionally take. :: Hippocratic Oath
+The scientist who discovered penicillin in 1928. :: Alexander Fleming
+The scientist who made the first vaccine, against smallpox. :: Edward Jenner
+The disease declared eradicated by the WHO in 1980. :: Smallpox
+The disease caused by the poliovirus, nearly eradicated. :: Polio
+The scientist who made the first polio vaccine. :: Jonas Salk
+The nurse called "the Lady with the Lamp". :: Florence Nightingale
+The organisation of the UN that deals with health. :: WHO (World Health Organization)
+The city where the WHO is headquartered. :: Geneva
+The largest muscle in the body. :: Gluteus maximus
+The tendon at the back of the heel, named after a Greek hero. :: Achilles tendon
+The tissue that connects muscles to bones. :: Tendons
+The tissue that connects bones to bones. :: Ligaments
+The flexible tissue in your nose and ears. :: Cartilage
+The part of the brain that controls balance and coordination. :: Cerebellum
+The largest part of the brain. :: Cerebrum
+The part of the brain that connects to the spinal cord and controls breathing. :: Brainstem (medulla)
+The two halves of the brain are called this. :: Hemispheres
+The cells that carry nerve signals. :: Neurons
+The number of pairs of chromosomes in a human cell. :: 23
+The molecule that carries genetic information. :: DNA
+The sex chromosomes of a typical male. :: XY
+The pigment that gives skin its colour. :: Melanin
+The protein that makes up hair and nails. :: Keratin
+The gland in the neck that controls metabolism. :: Thyroid
+The glands on top of the kidneys that make adrenaline. :: Adrenal glands
+The "master gland" at the base of the brain. :: Pituitary gland
+The hormone that controls the sleep cycle. :: Melatonin
+The hormone called the "stress hormone". :: Cortisol
+The part of the eye that focuses light, behind the pupil. :: Lens
+The layer at the back of the eye that senses light. :: Retina
+The clear dome at the front of the eye. :: Cornea
+The cells in the retina that see colour. :: Cones
+The cells in the retina that see in dim light. :: Rods
+The condition of being unable to tell some colours apart, often red and green. :: Colour blindness
+The cloudy lens condition that causes blurry vision in older people. :: Cataract
+The condition of being short-sighted. :: Myopia
+The tube that connects the throat to the middle ear. :: Eustachian tube
+The snail-shaped part of the inner ear. :: Cochlea
+The eardrum's medical name. :: Tympanic membrane
+The flap that stops food going into the windpipe. :: Epiglottis
+The windpipe's medical name. :: Trachea
+The tiny air sacs in the lungs. :: Alveoli
+The voice box. :: Larynx
+The part of the small intestine right after the stomach. :: Duodenum
+The finger-like projections lining the small intestine. :: Villi
+The organ that filters old red blood cells and helps immunity, on the left side. :: Spleen
+The units in the kidney that filter blood. :: Nephrons
+The normal resting heart rate range for adults, in beats per minute. :: 60 to 100
+The normal blood pressure reading for adults. :: 120/80
+The device that measures blood pressure. :: Sphygmomanometer
+The emergency procedure of chest compressions and rescue breaths. :: CPR
+The device that shocks the heart back into rhythm. :: Defibrillator (AED)
+The move used to help a choking person. :: Heimlich manoeuvre (abdominal thrusts)
+The condition of having too little water in the body. :: Dehydration
+The dangerous condition of the body overheating, common in Gulf summers. :: Heatstroke
+The condition of having too few red blood cells, often from low iron. :: Anaemia
+The measure of weight relative to height. :: BMI (body mass index)
+The disease of weak, brittle bones. :: Osteoporosis
+The swelling and pain in joints. :: Arthritis
+The illness of the airways that causes wheezing, treated with an inhaler. :: Asthma
+The viral disease that caused a global pandemic starting in 2019. :: COVID-19
+The respiratory virus first identified in Saudi Arabia in 2012. :: MERS
+The disease spread by Aedes mosquitoes, causing high fever and joint pain, found in Jeddah. :: Dengue fever
+The vitamin needed for blood clotting. :: Vitamin K
+The vitamin good for eyesight, found in carrots. :: Vitamin A
+The class of medicine that kills bacteria. :: Antibiotics
+The drug made from willow bark used for pain and to thin blood. :: Aspirin
+The doctor who specialises in the heart. :: Cardiologist
+The doctor who specialises in skin. :: Dermatologist
+The doctor who specialises in the brain and nerves. :: Neurologist
+The doctor who specialises in bones. :: Orthopaedic surgeon
+The doctor who specialises in the eyes. :: Ophthalmologist
+The doctor who gives anaesthetic. :: Anaesthetist
+The scan that uses magnets to image the body. :: MRI
+The scan that uses sound waves, often used in pregnancy. :: Ultrasound
+The number of weeks in a typical full-term pregnancy. :: 40
+The number of baby teeth children usually have. :: 20
+The number of adult teeth, including wisdom teeth. :: 32
+
+## 300
+The number of litres of blood in an average adult, roughly. :: 5
+The bone in the upper arm. :: Humerus
+The two bones of the forearm. :: Radius and ulna
+The two bones of the lower leg. :: Tibia and fibula
+The collarbone's medical name. :: Clavicle
+The shoulder blade's medical name. :: Scapula
+The breastbone's medical name. :: Sternum
+The tailbone's medical name. :: Coccyx
+The number of vertebrae in the human spine, usually. :: 33
+The number of vertebrae in the neck, same as in a giraffe. :: 7
+The bone in the throat not connected to any other bone. :: Hyoid
+The three tiny bones of the middle ear: hammer, anvil, and this. :: Stirrup (stapes)
+The bones of the fingers and toes. :: Phalanges
+The number of bones in one human hand, including the wrist. :: 27
+The cells that build new bone. :: Osteoblasts
+The soft tissue inside bones that makes blood cells. :: Bone marrow
+The heart's natural pacemaker. :: Sinoatrial node
+The upper chambers of the heart. :: Atria
+The lower chambers of the heart. :: Ventricles
+The valve between the left atrium and left ventricle. :: Mitral valve
+The blood vessel that carries blood from the heart to the lungs. :: Pulmonary artery
+The vessels that supply the heart muscle itself with blood. :: Coronary arteries
+The medical term for a heart attack. :: Myocardial infarction
+The fatty build-up inside arteries. :: Atherosclerosis (plaque)
+The lipoprotein known as "bad cholesterol". :: LDL
+The lipoprotein known as "good cholesterol". :: HDL
+The test that records the heart's electrical activity. :: ECG (electrocardiogram)
+The test that records the brain's electrical activity. :: EEG
+The tool used to look inside the gut with a camera on a tube. :: Endoscope
+The surgeon who performed the first human heart transplant in 1967. :: Christiaan Barnard
+The country where the first heart transplant took place. :: South Africa
+The Saudi surgical team became famous for separating these kinds of twins. :: Conjoined twins
+The Saudi surgeon who led many conjoined-twin separations. :: Dr. Abdullah Al-Rabeeah
+The gland behind the stomach with both digestive and hormone roles. :: Pancreas
+The cells in the pancreas that make insulin. :: Beta cells
+The hormone that raises blood sugar, the opposite of insulin. :: Glucagon
+The type of diabetes linked mostly to lifestyle and weight. :: Type 2
+The blood test that shows average blood sugar over about three months. :: HbA1c
+The hormone that makes you feel hungry. :: Ghrelin
+The hormone that makes you feel full. :: Leptin
+The "love hormone" released during bonding. :: Oxytocin
+The brain chemical linked to reward and pleasure. :: Dopamine
+The brain chemical linked to mood, targeted by many antidepressants. :: Serotonin
+The gap between two nerve cells. :: Synapse
+The fatty coating on nerve fibres that speeds signals. :: Myelin sheath
+The disease where the immune system attacks myelin. :: Multiple sclerosis
+The part of the brain shaped like a seahorse, key for memory. :: Hippocampus
+The part of the brain that processes fear. :: Amygdala
+The lobe of the brain at the back that processes vision. :: Occipital lobe
+The lobe at the front of the brain that handles planning and personality. :: Frontal lobe
+The language area in the frontal lobe for speech production. :: Broca's area
+The sleep stage when most vivid dreams happen. :: REM sleep
+The disease that causes memory loss in older people, the most common form of dementia. :: Alzheimer's disease
+The disease of tremors caused by loss of dopamine cells. :: Parkinson's disease
+The longest nerve in the body, running down the leg. :: Sciatic nerve
+The nerve that wanders from the brain to the gut. :: Vagus nerve
+The number of pairs of cranial nerves. :: 12
+The number of pairs of spinal nerves. :: 31
+The immune cells that make antibodies. :: B cells
+The immune cells matured in the thymus. :: T cells
+The virus that attacks T cells and causes AIDS. :: HIV
+The Y-shaped proteins that bind to germs. :: Antibodies
+The body's overreaction to a harmless substance. :: Allergy
+The severe, life-threatening allergic reaction. :: Anaphylaxis
+The drug in auto-injector pens for severe allergies. :: Epinephrine (adrenaline)
+The fluid system that drains tissue and carries white blood cells. :: Lymphatic system
+The gland behind the breastbone where T cells mature. :: Thymus
+The disease that the BCG vaccine protects against. :: Tuberculosis
+The disease that the MMR vaccine protects against, besides mumps and rubella. :: Measles
+The vaccine required for pilgrims to Saudi Arabia for Hajj and Umrah. :: Meningococcal (meningitis) vaccine
+The bacterium that causes most stomach ulcers. :: Helicobacter pylori
+The doctors who shared the 2005 Nobel for discovering it: Marshall and this man. :: Robin Warren
+The insect that spreads malaria. :: Anopheles mosquito
+The parasite that causes malaria. :: Plasmodium
+The disease spread by rats' fleas that caused the Black Death. :: Plague
+The clusters of cells in the pancreas that make hormones. :: Islets of Langerhans
+The Canadian scientists who discovered insulin in 1921: Banting and this man. :: Charles Best
+The scientists who discovered the structure of DNA in 1953: Watson and this man. :: Francis Crick
+The woman whose X-ray image helped reveal DNA's structure. :: Rosalind Franklin
+The project that mapped all human genes, completed in 2003. :: Human Genome Project
+The approximate number of protein-coding genes in humans. :: 20,000
+The "powerhouse of the cell". :: Mitochondria
+The genetic material passed only from mother to child. :: Mitochondrial DNA
+The genetic blood disorder common in the Gulf in which red cells are sickle-shaped. :: Sickle cell disease
+The genetic blood disorder that reduces haemoglobin, also common in the region. :: Thalassaemia
+The premarital test made mandatory in Saudi Arabia in 2004 screens for these disorders. :: Sickle cell and thalassaemia
+The surgeon's hand-washing pioneer who reduced deaths in maternity wards. :: Ignaz Semmelweis
+The British surgeon who pioneered antiseptic surgery with carbolic acid. :: Joseph Lister
+The gas, called "laughing gas", used as an early anaesthetic. :: Nitrous oxide
+The 10th-century Andalusian surgeon called "the father of surgery". :: Al-Zahrawi (Abulcasis)
+The Persian physician who first told smallpox from measles. :: Al-Razi (Rhazes)
+The scientist who developed the rabies vaccine. :: Louis Pasteur
+The scientist who identified the bacterium that causes tuberculosis. :: Robert Koch
+The world's most common blood type. :: O positive
+The rare blood type nicknamed "golden blood". :: Rh-null
+The condition in which the heart's beat is irregular. :: Arrhythmia
+The test that uses a small sample of tissue to check for disease. :: Biopsy
+The year the WHO declared COVID-19 a pandemic. :: 2020
+The muscle tissue found only in the heart. :: Cardiac muscle
+The type of muscle in the gut and blood vessels that you cannot control. :: Smooth muscle
+
+## 400
+The total length of the small intestine in an adult, roughly, in metres. :: 6
+The surface area of the lungs, roughly the size of this sports court. :: Tennis court
+The number of lobes in the right lung. :: 3
+The number of lobes in the left lung. :: 2
+The notch in the left lung that makes room for the heart. :: Cardiac notch
+The substance that stops alveoli from collapsing, lacking in premature babies. :: Surfactant
+The part of the brain that controls body temperature and hunger. :: Hypothalamus
+The brain's relay station for sensory signals. :: Thalamus
+The band of nerve fibres joining the two brain hemispheres. :: Corpus callosum
+The fluid that cushions the brain and spinal cord. :: Cerebrospinal fluid
+The three membranes covering the brain. :: Meninges
+The barrier that stops many substances in blood from entering the brain. :: Blood-brain barrier
+The area of the brain for understanding language, in the temporal lobe. :: Wernicke's area
+The famous railway worker whose personality changed after an iron rod went through his frontal lobe in 1848. :: Phineas Gage
+The patient known as "H.M." helped scientists learn about memory after surgery removed this part of his brain. :: Hippocampus
+The Spanish scientist who showed the brain is made of separate neurons. :: Santiago Ramón y Cajal
+The Italian scientist whose staining method let Cajal see neurons, sharing the 1906 Nobel. :: Camillo Golgi
+The point on the retina with no light receptors. :: Blind spot (optic disc)
+The small pit in the retina with the sharpest vision. :: Fovea
+The jelly that fills the eyeball. :: Vitreous humour
+The eye disease linked to high pressure that damages the optic nerve. :: Glaucoma
+The scientist who first described colour blindness, which he had himself. :: John Dalton
+The Arab scholar whose "Book of Optics" explained that we see by light entering the eye. :: Ibn al-Haytham
+The structure of the inner ear that senses balance. :: Semicircular canals
+The decibel level above which long exposure can damage hearing. :: 85
+The sense of the body's position in space. :: Proprioception
+The sense of smell's scientific name. :: Olfaction
+The number of taste receptor cells that make up a typical taste bud, roughly. :: 50 to 100
+The kidney hormone that tells the body to make red blood cells. :: Erythropoietin (EPO)
+The hormone from the pituitary that controls water balance. :: ADH (antidiuretic hormone, vasopressin)
+The hormone that controls calcium levels, from four small glands in the neck. :: Parathyroid hormone
+The element the thyroid needs to make its hormones. :: Iodine
+The disease caused by an overactive thyroid. :: Hyperthyroidism (Graves' disease)
+The swelling of the thyroid caused by lack of iodine. :: Goitre
+The red blood cell's lifespan, in days, roughly. :: 120
+The organ where most red blood cells are made in adults. :: Bone marrow
+The test that counts red cells, white cells, and platelets. :: Complete blood count (CBC)
+The protein that forms the mesh of a blood clot. :: Fibrin
+The inherited disease in which blood does not clot properly, once called "the royal disease". :: Haemophilia
+The British queen whose descendants spread haemophilia to European royals. :: Queen Victoria
+The Rh factor is named after this monkey. :: Rhesus macaque
+The blood vessel that carries nutrient-rich blood from the gut to the liver. :: Hepatic portal vein
+The main vein bringing blood back from the body to the heart, upper and lower. :: Vena cava
+The pressure in a blood pressure reading when the heart contracts. :: Systolic
+The pressure in a blood pressure reading when the heart relaxes. :: Diastolic
+The approximate number of times the heart beats in a day. :: 100,000
+The muscle protein that pulls on actin to make muscle contract. :: Myosin
+The molecule that cells use for energy. :: ATP
+The acid that builds up in muscles during hard exercise without enough oxygen. :: Lactic acid
+The process of breaking glucose down without oxygen. :: Anaerobic respiration (glycolysis)
+The stiffening of muscles after death. :: Rigor mortis
+The main muscle that pulls the corners of the mouth up when you smile. :: Zygomaticus major
+The smallest muscle in the body, in the middle ear. :: Stapedius
+The longest muscle in the body, crossing the thigh. :: Sartorius
+The number of muscles in the human body, roughly. :: 600
+The chemical in the stomach that kills germs and breaks down food. :: Hydrochloric acid
+The enzyme in saliva that breaks down starch. :: Amylase
+The enzyme in the stomach that breaks down proteins. :: Pepsin
+The enzyme that breaks down fats. :: Lipase
+The ring of muscle between the stomach and small intestine. :: Pyloric sphincter
+The trillions of microbes living in the gut. :: Gut microbiome
+The autoimmune reaction to gluten that damages the small intestine. :: Coeliac disease
+The organ that can regrow from as little as a quarter of its tissue. :: Liver
+The disease caused by long-term liver damage that scars it. :: Cirrhosis
+The viruses that infect the liver are named A to E with this word. :: Hepatitis
+The protein the kidneys must filter that shows kidney damage in urine. :: Albumin
+The hard mineral deposits that form in the kidney. :: Kidney stones
+The process that filters the blood with a machine when kidneys fail. :: Dialysis
+The American surgeon who performed the first successful kidney transplant in 1954. :: Joseph Murray
+The cells that line blood vessels. :: Endothelial cells
+The fatty layer of skin beneath the dermis. :: Hypodermis (subcutaneous layer)
+The outermost layer of skin. :: Epidermis
+The type of skin cancer that is the most dangerous. :: Melanoma
+The glands in skin that produce oil. :: Sebaceous glands
+The doctor who proved mosquitoes spread malaria, winning the 1902 Nobel. :: Ronald Ross
+The sensory nerve endings that detect pain. :: Nociceptors
+The year Edward Jenner tested his smallpox vaccine. :: 1796
+The type of vaccine used by Pfizer and Moderna against COVID-19. :: mRNA vaccine
+The Hungarian-born scientist who won the 2023 Nobel for mRNA work with Drew Weissman. :: Katalin Karikó
+The technology for editing genes, earning the 2020 Nobel in Chemistry. :: CRISPR
+The two women who won the 2020 Nobel in Chemistry for CRISPR. :: Emmanuelle Charpentier and Jennifer Doudna
+The woman whose cells, taken in 1951, became the first immortal human cell line. :: Henrietta Lacks
+The name of the cell line from Henrietta Lacks. :: HeLa
+The sheep that was the first cloned mammal from an adult cell. :: Dolly
+The year Dolly the sheep was born. :: 1996
+The first "test-tube baby", born in 1978. :: Louise Brown
+The term for the protective caps on the ends of chromosomes. :: Telomeres
+The type of cell that can become many other cell types. :: Stem cell
+The process by which cells divide to make two identical cells. :: Mitosis
+The process by which cells divide to make sperm and eggs. :: Meiosis
+The genetic condition caused by an extra copy of chromosome 21. :: Down syndrome
+The scientist who discovered the cause of Down syndrome in 1959. :: Jérôme Lejeune
+The monk who founded the science of genetics with pea plants. :: Gregor Mendel
+The Islamic-era hospitals, such as the one in Baghdad, were called this. :: Bimaristan
+The 13th-century Cairo hospital founded by Sultan Qalawun. :: Al-Mansuri Hospital
+The 11th-century medical encyclopedia by Ibn Sina was used in European universities until this century. :: 17th century
+The ancient Egyptian medical text about surgery, named after a dealer who bought it. :: Edwin Smith Papyrus
+The Greek physician whose ideas on the four humours dominated medicine for centuries. :: Galen
+The ridges on the inside of the stomach wall. :: Rugae
+The scientist who discovered X-rays in 1895. :: Wilhelm Röntgen
+
+## 500
+The number of alveoli in a pair of adult lungs, roughly. :: About 480 million
+The approximate number of neurons in the human brain. :: 86 billion
+The approximate number of cells in the human body. :: 37 trillion
+The percentage of the body's energy the brain uses, roughly, though it is about 2% of body weight. :: 20
+The total length of blood vessels in an adult, roughly, in kilometres. :: 100,000
+The fastest nerve signals travel at roughly this many metres per second. :: 120
+The scientists who won the 1963 Nobel for explaining how nerve impulses travel, studying squid axons: Hodgkin and this man. :: Andrew Huxley
+The gaps in the myelin sheath where nerve signals jump. :: Nodes of Ranvier
+The cells that make myelin in the brain and spinal cord. :: Oligodendrocytes
+The cells that make myelin in the peripheral nerves. :: Schwann cells
+The star-shaped support cells of the brain. :: Astrocytes
+The brain's own immune cells. :: Microglia
+The neurotransmitter that triggers muscle contraction at the nerve-muscle junction. :: Acetylcholine
+The main excitatory neurotransmitter in the brain. :: Glutamate
+The main inhibitory neurotransmitter in the brain. :: GABA
+The scientist who proved chemical transmission between nerves with frog hearts in 1921. :: Otto Loewi
+The 2014 Nobel winners discovered the brain's "GPS" cells: grid cells and these. :: Place cells
+The brain's master clock, in the hypothalamus. :: Suprachiasmatic nucleus
+The gland in the brain that makes melatonin. :: Pineal gland
+The philosopher who called the pineal gland "the seat of the soul". :: René Descartes
+The disease that affected Stephen Hawking. :: ALS (motor neurone disease)
+The protein that clumps into plaques in Alzheimer's disease. :: Amyloid beta
+The protein that forms tangles inside neurons in Alzheimer's disease. :: Tau
+The misfolded proteins that cause mad cow disease. :: Prions
+The scientist who won the 1997 Nobel for discovering prions. :: Stanley Prusiner
+The sleep disorder in which people suddenly fall asleep, linked to loss of orexin. :: Narcolepsy
+The condition of mixing senses, like seeing colours when hearing sounds. :: Synaesthesia
+The inability to recognise faces. :: Prosopagnosia
+The condition of feeling pain in an amputated limb. :: Phantom limb pain
+The neuroscientist who used a mirror box to treat phantom limb pain. :: V. S. Ramachandran
+The map of the body drawn across the brain's motor and sensory strips. :: Homunculus
+The Canadian neurosurgeon who mapped the brain by stimulating awake patients. :: Wilder Penfield
+The heart's electrical relay between atria and ventricles. :: Atrioventricular node
+The fibres that carry the heartbeat signal through the ventricles. :: Purkinje fibres
+The small heart sound "lub" is made by these valves closing. :: Atrioventricular valves (mitral and tricuspid)
+The German surgeon who put a catheter into his own heart in 1929. :: Werner Forssmann
+The Dutch inventor of the electrocardiogram, Nobel 1924. :: Willem Einthoven
+The surgeon who did the first successful open-heart operation with a heart-lung machine in 1953. :: John Gibbon
+The chamber of the heart with the thickest wall. :: Left ventricle
+The hole between the atria in a fetus that closes after birth. :: Foramen ovale
+The blood vessel in a fetus that bypasses the lungs, closing after birth. :: Ductus arteriosus
+The organ that supplies a fetus with oxygen and food. :: Placenta
+The hormone detected by pregnancy tests. :: hCG (human chorionic gonadotropin)
+The cell type that eats bacteria and dead cells, its name means "big eater". :: Macrophage
+The most common type of white blood cell. :: Neutrophil
+The scientist who discovered phagocytosis by poking starfish larvae with thorns. :: Élie Metchnikoff
+The proteins that "interfere" with virus replication. :: Interferons
+The proteins on cells that the immune system uses to recognise "self". :: MHC (HLA)
+The disease where a transplanted organ's immune cells attack the host. :: Graft-versus-host disease
+The drug discovered in a soil fungus from Norway that made organ transplants practical. :: Ciclosporin
+The cancer drug discovered from the Pacific yew tree. :: Paclitaxel (Taxol)
+The malaria drug from sweet wormwood, earning Tu Youyou the 2015 Nobel. :: Artemisinin
+The malaria drug from cinchona bark. :: Quinine
+The heart drug made from the foxglove plant. :: Digoxin (digitalis)
+The painkiller first isolated from opium in 1804. :: Morphine
+The German chemist who first made aspirin in a pure, stable form at Bayer in 1897. :: Felix Hoffmann
+The drug whose 1950s use in pregnancy caused birth defects and led to tighter drug laws. :: Thalidomide
+The American pharmacologist who blocked thalidomide's approval in the US. :: Frances Kelsey
+The first antibiotic made synthetically, a sulfa drug, discovered by Gerhard Domagk. :: Prontosil
+The scientists who turned penicillin into a usable drug in the 1940s: Florey and this man. :: Ernst Chain
+The antibiotic discovered in soil by Selman Waksman, the first cure for tuberculosis. :: Streptomycin
+The "superbug" whose initials stand for methicillin-resistant Staphylococcus aureus. :: MRSA
+The Saudi city where MERS was first identified, in a patient in 2012. :: Jeddah
+The animal believed to pass MERS to humans. :: Camel (dromedary)
+The Egyptian virologist who first isolated MERS in Jeddah. :: Ali Mohamed Zaki
+The Saudi Ministry of Health's call-centre number. :: 937
+The disease eradicated in 2011, the second after smallpox, which affected cattle. :: Rinderpest
+The Guinea worm disease is close to eradication thanks to a campaign led by this former US president. :: Jimmy Carter
+The Scottish doctor who discovered that a lack of vitamin C caused scurvy in a 1747 trial. :: James Lind
+The Dutch scientist who showed that beriberi was caused by polished rice, Nobel 1929. :: Christiaan Eijkman
+The doctor who mapped the 1854 London cholera outbreak to a water pump. :: John Snow
+The street of that cholera pump. :: Broad Street
+The bacterium that causes cholera. :: Vibrio cholerae
+The 1918 pandemic that killed tens of millions was this disease. :: Influenza (Spanish flu)
+The two types of the influenza surface proteins that give flu strains names like H1N1. :: Haemagglutinin and neuraminidase
+The 14th-century plague that killed about a third of Europe. :: Black Death
+The bacterium that causes plague. :: Yersinia pestis
+The word "quarantine" comes from the Italian for this number of days. :: 40
+The Andalusian scholar Ibn al-Khatib wrote that the plague spread by this. :: Contagion (contact)
+The 9th-century Baghdad physician who chose a hospital site by hanging meat in different districts. :: Al-Razi
+The Andalusian physician who first described the scabies mite and wrote "Al-Taysir". :: Ibn Zuhr (Avenzoar)
+The Andalusian philosopher-physician known in Europe as Averroes. :: Ibn Rushd
+The Jewish philosopher-physician who served Saladin's court in Cairo. :: Maimonides
+The companion of the Prophet regarded as the first Muslim nurse, who set up a tent for the wounded. :: Rufaida Al-Aslamia
+The Flemish anatomist who wrote "De humani corporis fabrica" in 1543. :: Andreas Vesalius
+The Italian anatomist whose name is on the tubes that connect ovaries to the uterus. :: Gabriele Falloppio
+The Italian whose 17th-century microscope work found capillaries, completing Harvey's circuit. :: Marcello Malpighi
+The Dutch draper who first saw bacteria with his own microscopes. :: Antonie van Leeuwenhoek
+The English scientist who coined the word "cell" in 1665. :: Robert Hooke
+The German scientists who proposed cell theory in 1838–39: Schwann and this man. :: Matthias Schleiden
+The German doctor who said "every cell comes from a cell". :: Rudolf Virchow
+The bones in the wrist are called this. :: Carpals
+The bones in the ankle are called this. :: Tarsals
+The heaviest bone in the foot, the heel bone. :: Calcaneus
+The only joint in the skull that moves. :: Temporomandibular joint (jaw)
+The soft spots on a baby's skull. :: Fontanelles
+The protein that carries oxygen in muscle tissue. :: Myoglobin
+The bone at the base of the skull with the large hole the spinal cord passes through. :: Occipital bone
+The large hole at the base of the skull. :: Foramen magnum
+The pair of tiny almond-sized lymph tissue lumps at the back of the throat, often removed in children. :: Tonsils

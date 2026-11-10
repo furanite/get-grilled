@@ -1,0 +1,50 @@
+{
+  "name": "get-grilled",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "packs": "node scripts/build-packs.mjs",
+    "prebuild": "node scripts/build-packs.mjs",
+    "test": "vitest run",
+    "e2e": "vite build && node e2e/run.mjs",
+    "build:host": "tsc -b && vite build --mode host --outDir dist-host",
+    "e2e:host": "vite build --mode host --outDir dist-host && node e2e/host.mjs",
+    "build:site": "npm run build && npm run build:host && node scripts/make-site.mjs"
+  },
+  "dependencies": {
+    "@fontsource/aref-ruqaa": "^5.3.0",
+    "@fontsource/big-shoulders-display": "^5.3.0",
+    "@fontsource/bricolage-grotesque": "^5.3.0",
+    "@fontsource/chakra-petch": "^5.3.0",
+    "@fontsource/cinzel": "^5.3.0",
+    "@fontsource/el-messiri": "^5.3.0",
+    "@fontsource/ibm-plex-sans-arabic": "^5.3.0",
+    "@fontsource/inter": "^5.3.0",
+    "@fontsource/jetbrains-mono": "^5.3.0",
+    "@fontsource/manrope": "^5.3.0",
+    "@fontsource/marcellus": "^5.3.0",
+    "@fontsource/reem-kufi": "^5.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "eslint": "^9.13.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "globals": "^15.11.0",
+    "jsdom": "^25.0.1",
+    "typescript": "~5.6.2",
+    "typescript-eslint": "^8.11.0",
+    "vite": "^5.4.10",
+    "vitest": "^2.1.8"
+  }
+}

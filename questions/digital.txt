@@ -1,0 +1,514 @@
+id: digital
+name: Digital Logic & Computer Architecture
+nameAr: المنطق الرقمي وتنظيم الحاسب
+group: cces
+
+## 100
+The number system with only 0 and 1. :: Binary
+The number system with base 10. :: Decimal
+The number system with base 16. :: Hexadecimal
+The number system with base 8. :: Octal
+A single binary digit. :: Bit
+A group of 8 bits. :: Byte
+A group of 4 bits. :: Nibble
+The decimal value of binary 101. :: 5
+The decimal value of binary 1111. :: 15
+The decimal value of binary 1000. :: 8
+The binary form of decimal 6. :: 110
+The binary form of decimal 10. :: 1010
+The decimal value of hexadecimal A. :: 10
+The decimal value of hexadecimal F. :: 15
+The decimal value of hexadecimal 10. :: 16
+The number of different values one byte can hold. :: 256
+The largest decimal number one byte can hold when unsigned. :: 255
+The two voltage states in digital logic are often called high and this. :: Low
+The basic building block of digital circuits that performs a logic function. :: Logic gate
+The gate whose output is 1 only when all inputs are 1. :: AND gate
+The gate whose output is 1 when at least one input is 1. :: OR gate
+The gate that flips its single input. :: NOT gate (inverter)
+The gate that is AND followed by NOT. :: NAND gate
+The gate that is OR followed by NOT. :: NOR gate
+The gate whose output is 1 when its two inputs differ. :: XOR gate
+The gate whose output is 1 when its two inputs are the same. :: XNOR gate
+The output of 1 AND 0. :: 0
+The output of 1 OR 0. :: 1
+The output of NOT 1. :: 0
+The output of 1 XOR 1. :: 0
+A table listing a circuit's output for every input combination. :: Truth table
+The number of rows in a truth table for 2 inputs. :: 4
+The number of rows in a truth table for 3 inputs. :: 8
+The algebra of true and false used in logic design, named after George. :: Boolean algebra
+The English mathematician who invented Boolean algebra. :: George Boole
+The two gates called "universal" because they can build any other gate: NAND and this. :: NOR
+The tiny electronic switch that logic gates are made from. :: Transistor
+The material most chips are made from. :: Silicon
+A small chip containing many circuits, shortened to two letters. :: IC (integrated circuit)
+The main brain of a computer, shortened to three letters. :: CPU
+The part of the CPU that does arithmetic and logic, shortened to three letters. :: ALU
+The part of the CPU that directs the other parts. :: Control unit
+Tiny, very fast storage locations inside the CPU. :: Registers
+The register that holds the address of the next instruction, shortened to two letters. :: PC (program counter)
+The main memory of a computer, shortened to three letters. :: RAM
+Memory that keeps its contents without power. :: Non-volatile memory
+Memory that loses its contents when power is off. :: Volatile memory
+The small fast memory between the CPU and RAM. :: Cache
+The set of wires that carries data between computer parts. :: Bus
+The speed at which a CPU's clock ticks is measured in this unit. :: Hertz
+The number of cycles per second in 1 gigahertz. :: One billion
+The repeated three-step CPU cycle. :: Fetch, decode, execute
+A CPU with several processors on one chip. :: Multi-core processor
+The basic commands a CPU understands, as a set. :: Instruction set
+The language of short names like ADD and MOV that maps to machine code. :: Assembly language
+The program that converts assembly language into machine code. :: Assembler
+The 1945 design in which programs and data share the same memory. :: Von Neumann architecture
+The design with separate memory for instructions and data. :: Harvard architecture
+The company that makes Core and Xeon processors. :: Intel
+The company that makes Ryzen processors. :: AMD
+The UK company whose processor designs are in most phones. :: Arm
+The chip that combines a CPU, GPU and more on one piece of silicon, shortened to three letters. :: SoC (system on a chip)
+The processor made for graphics, shortened to three letters. :: GPU
+The circuit board that holds the CPU and memory. :: Motherboard
+The flat silicon disc on which many chips are made. :: Wafer
+The observation that transistor counts double about every two years. :: Moore's law
+The Intel co-founder behind that law. :: Gordon Moore
+The first commercial single-chip microprocessor, made by Intel in 1971. :: Intel 4004
+The number of bits the Intel 4004 processed at a time. :: 4
+A circuit whose output depends only on its current inputs. :: Combinational circuit
+A circuit whose output also depends on past inputs, because it has memory. :: Sequential circuit
+The basic one-bit memory circuit that flips between two states. :: Flip-flop
+The simplest latch, with Set and Reset inputs. :: SR latch
+The signal that keeps all parts of a sequential circuit in step. :: Clock
+A circuit that adds two bits and gives a sum and a carry. :: Half adder
+A circuit that adds two bits plus a carry in. :: Full adder
+The output of a half adder that goes to the next column. :: Carry
+A circuit that picks one of several inputs to pass to the output, shortened to three letters. :: MUX (multiplexer)
+A circuit that sends one input to one of several outputs. :: Demultiplexer
+A circuit that turns a binary code into one active output line. :: Decoder
+A circuit that turns one active input line into a binary code. :: Encoder
+A circuit that counts clock pulses. :: Counter
+A group of flip-flops that stores a binary word. :: Register
+A register that moves its bits left or right. :: Shift register
+Shifting a binary number one place left does this to its value. :: Doubles it
+The number display with seven bars, used in calculators. :: Seven-segment display
+The light that shows the state of a digital output, shortened to three letters. :: LED
+The code that gives each letter a number, such as 65 for "A". :: ASCII
+The number of bits in standard ASCII. :: 7
+The international character code that includes Arabic letters. :: Unicode
+The way computers store negative integers by flipping bits and adding one. :: Two's complement
+The leftmost bit of a signed number, which shows if it is negative. :: Sign bit
+The error when a result is too big for the bits available. :: Overflow
+The number of bytes in a kibibyte, often loosely called a kilobyte. :: 1,024
+The unit equal to about 1,024 megabytes. :: Gigabyte
+A tool that shows signals on a screen as waves over time. :: Oscilloscope
+The digital world uses discrete values; the real world mostly uses this kind of signal. :: Analogue
+The device that converts analogue signals to digital, shortened to three letters. :: ADC
+The device that converts digital signals to analogue, shortened to three letters. :: DAC
+The binary form of the hexadecimal digit F. :: 1111
+
+## 200
+The hexadecimal form of decimal 255. :: FF
+The decimal value of hexadecimal 2F. :: 47
+The binary form of hexadecimal 3C. :: 00111100
+The decimal value of octal 17. :: 15
+The binary form of decimal 25. :: 11001
+The decimal value of binary 110110. :: 54
+The range of an 8-bit two's complement number. :: −128 to 127
+The 8-bit two's complement form of −1. :: 11111111
+The 8-bit two's complement form of −5. :: 11111011
+The 4-bit two's complement value of 1000. :: −8
+The range of a 16-bit unsigned integer. :: 0 to 65,535
+The code in which each decimal digit is stored as 4 bits, shortened to three letters. :: BCD
+The BCD form of decimal 59. :: 0101 1001
+The code in which consecutive values differ by only one bit. :: Gray code
+The 3-bit Gray code that follows 011. :: 010
+The extra bit added to make the number of 1s even or odd. :: Parity bit
+The even parity bit for the data 1011. :: 1
+The law that says NOT (A AND B) equals NOT A OR NOT B. :: De Morgan's law
+The Boolean result of A + A·B, by the absorption law. :: A
+The Boolean result of A AND (NOT A). :: 0
+The Boolean result of A OR (NOT A). :: 1
+The Boolean result of A ⊕ A. :: 0
+The Boolean result of A ⊕ 0. :: A
+The grid method used to simplify Boolean expressions. :: Karnaugh map
+The American who introduced the Karnaugh map in 1953. :: Maurice Karnaugh
+A product term that contains every variable once. :: Minterm
+The standard form written as an OR of ANDs, shortened to three letters. :: SOP (sum of products)
+The standard form written as an AND of ORs, shortened to three letters. :: POS (product of sums)
+An input combination that never happens, so its output can be 0 or 1. :: Don't care
+The minimum number of 2-input NAND gates to build a NOT gate. :: 1
+The minimum number of 2-input NAND gates to build an XOR gate. :: 4
+The number of select lines an 8-to-1 multiplexer needs. :: 3
+The number of outputs from a 3-to-8 decoder. :: 8
+The number of full adders needed to add two 8-bit numbers with ripple carry. :: 8
+The Boolean expression for the sum of a half adder. :: A ⊕ B
+The Boolean expression for the carry of a half adder. :: A · B
+The adder made by chaining full adders so each waits for the previous carry. :: Ripple-carry adder
+The faster adder that computes carries in advance using generate and propagate. :: Carry-lookahead adder
+A circuit that compares two binary numbers. :: Magnitude comparator
+The flip-flop whose output copies its input on each clock edge. :: D flip-flop
+The flip-flop with J and K inputs that toggles when both are 1. :: JK flip-flop
+The flip-flop that changes state on every clock pulse when its input is 1. :: T flip-flop
+A latch is level-triggered, while a flip-flop is this. :: Edge-triggered
+The problem in a JK latch when both inputs are 1 and the output keeps toggling. :: Race-around condition
+The output of a D flip-flop after a clock edge when D is 1. :: 1
+The number of flip-flops needed for a counter that counts from 0 to 15. :: 4
+A counter whose flip-flops are all driven by the same clock. :: Synchronous counter
+A counter in which each flip-flop is clocked by the one before it. :: Ripple (asynchronous) counter
+A counter that counts 0 to 9 and repeats. :: Decade (mod-10) counter
+A ring counter with 4 flip-flops has this many states. :: 4
+A Johnson counter with 4 flip-flops has this many states. :: 8
+The type of state machine whose outputs depend only on the current state. :: Moore machine
+The type of state machine whose outputs depend on state and inputs. :: Mealy machine
+The minimum number of flip-flops to store 6 states. :: 3
+The number of 2-input AND gates needed to build a 4-input AND. :: 3
+The output state of a tri-state buffer when disabled. :: High impedance (Z)
+The logic family that uses both n-type and p-type transistors. :: CMOS
+The older logic family made from bipolar transistors, shortened to three letters. :: TTL
+The common chip series number for TTL logic gates. :: 7400
+The 7400-series chip that holds six NOT gates. :: 7404
+The delay between an input change and the output change of a gate. :: Propagation delay
+A brief unwanted pulse on an output caused by different path delays. :: Glitch (hazard)
+The number of gate inputs that one output can drive. :: Fan-out
+A chip that can be programmed after manufacture to become any digital circuit, shortened to four letters. :: FPGA
+A chip designed for one specific task, shortened to four letters. :: ASIC
+The hardware description language developed for the US Department of Defense. :: VHDL
+The hardware description language whose name joins "verify" and "logic". :: Verilog
+The memory that is programmed once at the factory, shortened to three letters. :: ROM
+Read-only memory that can be erased with electricity, shortened to six letters. :: EEPROM
+The type of memory used in USB drives and SSDs. :: Flash memory
+RAM that needs refreshing many times a second, shortened to four letters. :: DRAM
+Fast RAM made of flip-flops that needs no refreshing, shortened to four letters. :: SRAM
+A DRAM cell stores each bit as charge on this component. :: Capacitor
+The number of address lines needed for 1,024 memory locations. :: 10
+The number of bytes addressable with a 32-bit address. :: 4 GB (2^32)
+Instructions that move data between memory and registers. :: Load and store
+The part of an instruction that says what to do. :: Opcode
+The values an instruction works on. :: Operands
+The addressing mode in which the value is inside the instruction itself. :: Immediate addressing
+The addressing mode in which the instruction holds the memory address of the value. :: Direct addressing
+The register that holds the instruction being executed, shortened to two letters. :: IR (instruction register)
+The register that holds the memory address being accessed, shortened to three letters. :: MAR
+The register that holds data read from or written to memory, shortened to three letters. :: MDR (MBR)
+The register of flags such as zero, carry and overflow. :: Status register (flags)
+The flag set when a result is zero. :: Zero flag
+The special memory area used for function calls and return addresses. :: Stack
+The register that points to the top of the stack, shortened to two letters. :: SP (stack pointer)
+A signal that pauses the CPU to handle an urgent event. :: Interrupt
+The routine that runs when an interrupt happens, shortened to three letters. :: ISR
+Moving data between memory and devices without the CPU, shortened to three letters. :: DMA
+Processor designs with simple instructions that each take about one cycle. :: RISC
+Processor designs with many complex instructions. :: CISC
+The open instruction set begun at UC Berkeley in 2010. :: RISC-V
+Intel's main instruction set family for PCs. :: x86
+The byte order that stores the most significant byte first. :: Big-endian
+The byte order used by x86 processors. :: Little-endian
+The measure of average clock cycles per instruction, shortened to three letters. :: CPI
+Overlapping the stages of several instructions like an assembly line. :: Pipelining
+The number of stages in the classic MIPS pipeline. :: 5
+The flag set when an unsigned addition carries out of the top bit. :: Carry flag
+
+## 300
+The number of distinct Boolean functions of two variables. :: 16
+The number of distinct Boolean functions of three variables. :: 256
+The minimal SOP for F(A,B,C) = Σm(0, 1, 2, 3). :: A′ (NOT A)
+The minimal SOP for F(A,B) = Σm(1, 2, 3). :: A + B
+The minimal SOP for F(A,B,C) = Σm(1, 3, 5, 7). :: C
+The simplification of AB + AB′. :: A
+The simplification of (A + B)(A + C). :: A + BC
+The consensus theorem says AB + A′C + BC equals this. :: AB + A′C
+The dual of the Boolean expression A + 0 = A. :: A · 1 = A
+The tabular method for minimising Boolean functions, used when K-maps get too big. :: Quine–McCluskey method
+A prime implicant that covers a minterm no other prime implicant covers. :: Essential prime implicant
+The largest practical size of K-map for hand use, in variables. :: 6
+The adjacent cells in a K-map differ by one bit because the rows and columns use this. :: Gray code
+The hazard where an output should stay 1 but briefly drops to 0. :: Static-1 hazard
+The way to remove a static hazard in a K-map design. :: Add a redundant (consensus) term
+The full adder sum output as an XOR expression. :: A ⊕ B ⊕ Cin
+The full adder carry-out expression. :: AB + Cin(A ⊕ B)
+The number of full adders in a 32-bit ripple-carry adder. :: 32
+The "generate" signal in a carry-lookahead adder, for bits A and B. :: A · B
+The "propagate" signal in a carry-lookahead adder. :: A ⊕ B (or A + B)
+To subtract with an adder, invert B and set the carry-in to this. :: 1
+The condition for overflow when adding two signed numbers. :: Carry into the sign bit differs from carry out
+The result of 0110 + 0011 in 4-bit binary. :: 1001
+The sum 0111 + 0001 in 4-bit two's complement causes this. :: Overflow
+The value added to a BCD digit sum above 9 to correct it. :: 6
+The multiplication algorithm that handles two's complement numbers by recoding runs of 1s. :: Booth's algorithm
+The divider that never restores the remainder after a negative result. :: Non-restoring division
+The IEEE 754 single-precision format has this many bits. :: 32
+The number of exponent bits in IEEE 754 single precision. :: 8
+The number of fraction bits in IEEE 754 single precision. :: 23
+The exponent bias in IEEE 754 single precision. :: 127
+The exponent bias in IEEE 754 double precision. :: 1,023
+The IEEE 754 single-precision hex value for 1.0. :: 3F800000
+The hidden bit in normalised IEEE 754 numbers is always this. :: 1
+The IEEE 754 values with exponent all 1s and a non-zero fraction. :: NaN
+Very small IEEE 754 numbers with exponent all 0s, which lose the hidden 1. :: Denormal (subnormal) numbers
+The D flip-flop timing rule that the input must be stable for a time before the clock edge. :: Setup time
+The time the input must stay stable after the clock edge. :: Hold time
+The unstable state when setup or hold time is violated. :: Metastability
+The circuit of two flip-flops in a row used to pass signals between clock domains. :: Synchroniser
+The maximum clock frequency is set by the slowest path between registers, called this. :: Critical path
+The difference in clock arrival times at different flip-flops. :: Clock skew
+The characteristic equation of a JK flip-flop: Q next = JQ′ + this. :: K′Q
+The characteristic equation of a T flip-flop. :: Q next = T ⊕ Q
+The number of unused states in a 3-flip-flop mod-6 counter. :: 2
+The modulus of a counter made from 4 flip-flops that resets on reaching 1010. :: 10
+The number of flip-flops in a ring counter that divides frequency by 8. :: 8
+State machine design technique that gives each state its own flip-flop. :: One-hot encoding
+The minimum number of flip-flops for a 10-state machine with binary encoding. :: 4
+The CPU performance equation: time = instruction count × CPI × this. :: Clock cycle time
+The speed-up law that says the gain is limited by the part you cannot improve. :: Amdahl's law
+By Amdahl's law, if 50% of a program is sped up infinitely, the overall speed-up is this. :: 2 times
+The measure of floating-point operations per second, shortened to five letters. :: FLOPS
+The benchmark suite from a non-profit corporation used to compare CPUs, shortened to four letters. :: SPEC
+The 1980s Stanford processor project led by John Hennessy. :: MIPS
+The 1980s Berkeley processor project led by David Patterson. :: RISC (Berkeley RISC)
+The five MIPS pipeline stages: IF, ID, EX, MEM and this. :: WB (write back)
+A situation that stops the next instruction from running in its planned cycle. :: Hazard
+The three kinds of pipeline hazards: structural, data and this. :: Control
+The data hazard when an instruction reads a register before an earlier one writes it, shortened to three letters. :: RAW (read after write)
+Passing a result straight from one pipeline stage to another without waiting for write-back. :: Forwarding (bypassing)
+A pipeline bubble inserted to wait for data. :: Stall
+The hazard type caused by branches. :: Control hazard
+The slot after a branch in MIPS that always executes. :: Branch delay slot
+Guessing the outcome of a branch to keep the pipeline full. :: Branch prediction
+A 2-bit predictor changes its guess only after this many wrong predictions in a row. :: 2
+The cache that stores branch target addresses, shortened to three letters. :: BTB
+Executing instructions in a different order from the program when they are ready. :: Out-of-order execution
+The algorithm by Robert Tomasulo for dynamic scheduling, used first in the IBM 360/91. :: Tomasulo's algorithm
+The structure that lets out-of-order instructions finish in program order, shortened to three letters. :: ROB (reorder buffer)
+Renaming registers removes WAR and this kind of hazard. :: WAW (write after write)
+A processor that issues more than one instruction per cycle. :: Superscalar
+The architecture that packs several operations into one long instruction, shortened to four letters. :: VLIW
+Running two threads on one core at once, Intel's version called Hyper-Threading, shortened to three letters. :: SMT
+Flynn's class for one instruction acting on many data items at once. :: SIMD
+Flynn's class for multi-core processors running different programs. :: MIMD
+The Flynn class with no common practical machines. :: MISD
+The three Cs of cache misses: compulsory, capacity and this. :: Conflict
+The cache in which each block can go in exactly one place. :: Direct-mapped cache
+The cache in which a block can go anywhere. :: Fully associative cache
+The cache in which a block can go in any line of one set. :: Set-associative cache
+The three parts of a cache address: tag, index and this. :: Offset
+The cache write policy that updates memory at the same time as the cache. :: Write-through
+The write policy that updates memory only when a dirty block is evicted. :: Write-back
+The bit that marks a cache block as changed. :: Dirty bit
+The average memory access time formula: hit time + miss rate × this. :: Miss penalty
+The AMAT for a hit time of 1 cycle, a miss rate of 5% and a miss penalty of 100 cycles. :: 6 cycles
+The cache that holds address translations, shortened to three letters. :: TLB
+The number of offset bits in an address for a 4 KB page. :: 12
+The memory chip organisation that sends data on both clock edges, shortened to three letters. :: DDR
+The protocol that keeps many caches consistent, with Modified, Exclusive, Shared and Invalid states. :: MESI
+The problem when two cores cache the same memory and one changes it. :: Cache coherence
+The performance problem when two cores write different variables in the same cache line. :: False sharing
+The interconnect standard for graphics cards and SSDs, shortened to four letters. :: PCIe
+The type of I/O in which the CPU repeatedly checks a device's status. :: Polling
+The method of mapping device registers into the normal address space. :: Memory-mapped I/O
+The number of address bits needed for 64 KB of byte-addressable memory. :: 16
+The fast multiplier design that adds partial products with carry-save adders in a tree, named after its inventor. :: Wallace tree
+The cache replacement policy that evicts the block unused for the longest time, shortened to three letters. :: LRU
+The principle that data near recently used data is likely to be used soon. :: Spatial locality
+
+## 400
+The number of 2-input NOR gates needed to build an XNOR gate, at minimum. :: 4
+The number of 2-input NAND gates needed to build a full adder, at minimum. :: 9
+The number of 2-to-1 multiplexers needed to build an 8-to-1 multiplexer. :: 7
+The number of 2-to-4 decoders needed to build a 4-to-16 decoder, including one for selection. :: 5
+Any Boolean function of n variables can be built with one multiplexer with this many select lines, using inputs of 0, 1, x and x′. :: n − 1
+Shannon's expansion writes F = x·F(x=1) + x′·this. :: F(x=0)
+The 1937 MIT master's thesis that showed relay circuits could implement Boolean algebra; its author. :: Claude Shannon
+The diagram that represents Boolean functions as a reduced, ordered decision graph, shortened to four letters. :: ROBDD
+The researcher who made binary decision diagrams practical in 1986. :: Randal Bryant
+The NP-complete problem of deciding whether a Boolean formula can be true. :: SAT
+The number of minterms in the function A ⊕ B ⊕ C ⊕ D. :: 8
+A function whose output stays the same when all inputs are inverted and the output is inverted. :: Self-dual function
+The function that outputs 1 when most inputs are 1. :: Majority function
+The full adder carry-out is this function of A, B and Cin. :: Majority function of three inputs
+The worst-case delay of an n-bit ripple-carry adder grows in this order. :: O(n)
+The delay of a carry-lookahead adder built as a tree grows in this order. :: O(log n)
+The parallel prefix adder with minimum depth and fan-out of 2, named after two researchers in 1973. :: Kogge–Stone adder
+The adder that splits bits into blocks and computes each block's sum for both possible carries. :: Carry-select adder
+The adder that saves carries for later, used in multipliers. :: Carry-save adder
+The adder that skips blocks when all propagate signals are 1. :: Carry-skip (carry-bypass) adder
+The radix-4 version of Booth's algorithm halves this. :: The number of partial products
+The 8-bit two's complement result of multiplying −3 by 5. :: 11110001
+The IEEE 754 single-precision bit pattern of −2.0, in hex. :: C0000000
+The decimal value of the IEEE 754 single-precision number 0x40400000. :: 3.0
+The smallest positive normal single-precision float is 2 to the power of this. :: −126
+The IEEE 754 rounding mode used by default. :: Round to nearest, ties to even
+The three extra bits used in floating-point rounding: guard, round and this. :: Sticky bit
+The IEEE 754 operation that computes a × b + c with only one rounding, shortened to three letters. :: FMA (fused multiply-add)
+The 16-bit float format with 8 exponent bits used in machine learning. :: bfloat16
+The 1994 Pentium flaw in its floating-point division hardware. :: FDIV bug
+The cause of the Pentium FDIV bug: missing entries in this. :: Lookup table (SRT division table)
+The maximum clock frequency formula: 1 divided by (clock-to-Q + logic delay + this). :: Setup time
+The timing check that fails when the clock skew is larger than the shortest path delay. :: Hold time violation
+The mean time between failures for a synchroniser grows exponentially with this. :: Resolution time (time allowed to settle)
+The design style that uses no global clock, relying on handshakes. :: Asynchronous (self-timed) design
+The circuit that is the key element of asynchronous design, output changing only when all inputs agree. :: Muller C-element
+The Gray code is used in FIFO pointers that cross clock domains because only this many bits change at a time. :: 1
+The formula for the power used by switching CMOS logic. :: α C V² f
+Reducing the supply voltage by half reduces dynamic power by this factor. :: 4
+The 1974 rule that power density stays constant as transistors shrink, now broken. :: Dennard scaling
+The term for parts of a chip that must stay powered off because of heat limits. :: Dark silicon
+Turning off the clock to idle parts of a chip to save power. :: Clock gating
+Changing voltage and frequency on the fly to save power, shortened to four letters. :: DVFS
+The power lost through transistors that are supposed to be off. :: Leakage (static) power
+The 3D transistor that replaced planar transistors at Intel's 22 nm node. :: FinFET
+The next transistor design after FinFET, with the gate surrounding the channel on all sides, shortened. :: GAAFET (gate-all-around)
+The light used by the newest chipmaking machines, at 13.5 nm wavelength, shortened to three letters. :: EUV
+The Dutch company that is the only maker of EUV lithography machines. :: ASML
+The world's largest contract chipmaker, from Taiwan. :: TSMC
+The measure of chips that work on a wafer as a share of all chips made. :: Yield
+The MIPS instruction formats are R, I and this. :: J
+The number of general-purpose registers in MIPS32. :: 32
+The MIPS register that always reads as zero. :: $zero ($0)
+The MIPS register that holds the return address after jal. :: $ra ($31)
+The number of bits in a MIPS instruction. :: 32
+The number of bits for the immediate field in a MIPS I-type instruction. :: 16
+The MIPS instruction that loads a 16-bit constant into the upper half of a register. :: lui
+The MIPS instruction that jumps to a function and saves the return address in $ra. :: jal
+The RISC-V base integer instruction set for 32-bit cores. :: RV32I
+The RISC-V extension letter for integer multiply and divide. :: M
+The RISC-V extension letter for compressed 16-bit instructions. :: C
+The ARM instruction set of 16-bit instructions for smaller code. :: Thumb
+The 64-bit ARM architecture name. :: AArch64 (ARMv8-A)
+Apple's first custom processor for Macs, released in 2020. :: M1
+The 64-bit extension of x86 first designed by AMD, by its AMD name. :: AMD64 (x86-64)
+The 1978 Intel processor that began the x86 family. :: Intel 8086
+The CPI of a pipelined processor with no hazards, ideally. :: 1
+The speed-up of a 5-stage pipeline over a non-pipelined design with ideal conditions and many instructions. :: 5
+The effective CPI if 20% of instructions are branches that each cost 2 stall cycles. :: 1.4
+The branch predictor that uses global history combined with the address by XOR, from McFarling. :: Gshare
+The predictor that chooses between local and global predictors, used in the Alpha 21264. :: Tournament predictor
+The modern branch predictor family that uses tagged tables with geometric history lengths. :: TAGE
+The 2018 vulnerability that abused speculative execution to read kernel memory on Intel chips. :: Meltdown
+The 2018 vulnerability that tricks branch prediction into leaking data across programs. :: Spectre
+The side channel that measures cache access times, such as Flush+Reload. :: Cache timing attack
+The rowhammer attack flips bits in this kind of memory by repeatedly accessing nearby rows. :: DRAM
+The cache organisation in which the L2 holds a copy of everything in L1. :: Inclusive cache
+The cache that holds blocks evicted from L1, by Norman Jouppi in 1990. :: Victim cache
+The number of sets in a 32 KB, 4-way set-associative cache with 64-byte blocks. :: 128
+The number of tag bits for a 32-bit address in that 32 KB, 4-way cache with 64-byte blocks. :: 19
+The cache optimisation in which the CPU starts using the requested word before the whole block arrives. :: Critical word first (early restart)
+The cache that lets the CPU continue working during a miss. :: Non-blocking (lockup-free) cache
+Fetching data into the cache before it is needed. :: Prefetching
+The Intel cache coherence protocol extension of MESI with a Forward state. :: MESIF
+The AMD extension of MESI with an Owned state. :: MOESI
+The kind of coherence protocol that keeps a central record of which caches hold each block. :: Directory-based coherence
+The memory consistency model in which all processors see operations in one order that respects each program's order. :: Sequential consistency
+The memory model of x86 processors, shortened to three letters. :: TSO (total store order)
+The instruction used to enforce ordering of memory operations. :: Memory fence (barrier)
+The atomic instruction pair used in MIPS and ARM instead of compare-and-swap. :: Load-linked / store-conditional
+The 2006 Intel microarchitecture that replaced NetBurst. :: Core
+The GPU execution model in which groups of threads run the same instruction, called this by NVIDIA. :: SIMT
+NVIDIA's name for a group of 32 threads that run together. :: Warp
+The slowdown when threads in a warp take different branches. :: Branch divergence
+The specialised units in NVIDIA GPUs since Volta for matrix multiply. :: Tensor cores
+The Google chip for neural networks built around a systolic array, shortened to three letters. :: TPU
+The 1978 array design by Kung and Leiserson in which data pulses through a grid of cells. :: Systolic array
+The bottleneck between CPU and memory named after a famous design. :: Von Neumann bottleneck
+The "memory wall" describes processor speed growing much faster than this. :: Memory speed (latency)
+The graph that plots performance against arithmetic intensity, with a sloped and a flat part. :: Roofline model
+
+## 500
+The number of Boolean functions of n variables, as a formula. :: 2^(2^n)
+The number of distinct Boolean functions of 2 variables that are symmetric in their inputs. :: 8
+The number of self-dual Boolean functions of 3 variables. :: 16
+The set of gates {AND, OR} is not functionally complete because it cannot make this. :: NOT (it is monotone)
+Post's theorem names five classes; a set of gates is complete only if it is not entirely inside one of them. The class of functions with f(0,…,0) = 0 is called this. :: 0-preserving
+The minimum number of 2-input gates of any type needed for a 3-input XOR. :: 2
+The number of prime implicants of the function A ⊕ B ⊕ C. :: 4
+The cost of the minimal SOP of A ⊕ B ⊕ C, in AND gates, with no sharing. :: 4
+The heuristic two-level logic minimiser developed at IBM and Berkeley in the 1980s. :: Espresso
+The method of covering prime implicants when no essential ones remain, using branching. :: Petrick's method
+In a K-map with variables A, B, C, D, the cell for minterm 13 has this binary code. :: 1101
+The number of cells grouped by an implicant with 2 variables in a 5-variable K-map. :: 8
+The kind of hazard where an output changes more than once when it should change once. :: Dynamic hazard
+A circuit free of static hazards in two-level SOP form has every pair of adjacent 1-cells covered by this. :: A common product term
+The Kogge–Stone adder for 64 bits needs this many prefix levels. :: 6
+The parallel prefix adder that minimises wires by using about 2 log n levels, from 1982. :: Brent–Kung adder
+The adder family that trades between Kogge–Stone and Brent–Kung, by Han and Carlson. :: Han–Carlson adder
+The adder by Ladner and Fischer that has minimum depth but high fan-out. :: Sklansky (Ladner–Fischer) adder
+The operator that combines (G, P) pairs in prefix adders: (G, P) • (G′, P′) = (G + P·G′, P·P′). :: Fundamental carry (dot) operator
+A Wallace tree reduces n partial products to two in a number of levels that grows as this. :: O(log n)
+The improvement on Wallace trees by Luigi Dadda that uses fewer half adders. :: Dadda multiplier
+The 3:2 counter is another name for this circuit. :: Full adder
+The division algorithm used in the Pentium that produces quotient digits from a table. :: SRT division
+SRT division is named after Sweeney, Robertson and this person. :: Tocher
+The division method that uses repeated multiplication to double the correct bits each step, used in the AMD K7. :: Goldschmidt division
+The IEEE 754 standard was first published in this year. :: 1985
+The Berkeley professor known as the "father of floating point" who won the 1989 Turing Award. :: William Kahan
+The summation algorithm by Kahan that reduces rounding error. :: Kahan (compensated) summation
+The machine epsilon for IEEE 754 single precision. :: 2^−23
+The largest finite single-precision float, roughly. :: 3.4 × 10^38
+The decimal digits of precision of IEEE 754 double, roughly. :: 15 to 17
+The 8-bit floating-point formats used in AI training are called E4M3 and this. :: E5M2
+The number of bits in the exponent of IEEE 754 half precision. :: 5
+The 1996 failure caused by converting a 64-bit float to a 16-bit integer. :: Ariane 5 Flight 501
+The time between a clock edge and a flip-flop output changing. :: Clock-to-Q delay
+Synchroniser MTBF = e^(t/τ) ÷ (T0 × clock frequency × this). :: Data (input change) frequency
+The metastability time constant, written as this Greek letter. :: Tau (τ)
+The FIFO used to pass data between clock domains, using Gray-coded pointers. :: Asynchronous FIFO
+The flip-flop design that captures data on both clock edges. :: Double-edge-triggered flip-flop
+A flip-flop made of two latches in series is called this. :: Master–slave flip-flop
+The 6-transistor memory cell is used in this memory type. :: SRAM
+The number of transistors in a standard CMOS NAND2 gate. :: 4
+The CMOS gate is faster with NAND than NOR because these carriers have higher mobility. :: Electrons
+The ratio of electron to hole mobility in silicon, roughly. :: 2 to 3
+The logical effort of a 2-input NAND gate. :: 4/3
+The logical effort of a 2-input NOR gate. :: 5/3
+The optimal stage effort in a chain of inverters, by logical effort theory, close to this. :: 4
+The 1999 book on logical effort by Sutherland, Sproull and this author. :: David Harris
+The logic style that precharges a node and then evaluates it. :: Dynamic (domino) logic
+The problem in dynamic logic when charge spreads to internal nodes. :: Charge sharing
+The CMOS failure in which a parasitic thyristor shorts power to ground. :: Latch-up
+The voltage below which a transistor is said to be off. :: Threshold voltage
+Operating transistors below threshold voltage for ultra-low power. :: Subthreshold (near-threshold) computing
+The Mead–Conway book of 1980 that started VLSI design courses. :: Introduction to VLSI Systems
+The scalable layout design rules of Mead and Conway, named after a Greek letter. :: Lambda rules
+The process step in which wires are made from copper by filling trenches, named after a metalworking art. :: Damascene process
+Intel's 1971 4004 had about this many transistors. :: 2,300
+Apple's M1 chip of 2020 had this many billion transistors. :: 16
+The 1964 IBM line that introduced a single architecture across many models. :: System/360
+The architect of the IBM System/360 with Fred Brooks and Gerrit Blaauw. :: Gene Amdahl
+The 1964 Seymour Cray computer, often called the first supercomputer. :: CDC 6600
+The hardware technique of the CDC 6600 that tracked dependences for out-of-order issue. :: Scoreboarding
+The machine that first used Tomasulo's algorithm for floating-point. :: IBM System/360 Model 91
+The 1985 MIPS R2000 was the first commercial chip of this design approach from Stanford. :: RISC
+The 2017 Turing Award was given to Hennessy and Patterson for this. :: RISC architecture
+Hennessy and Patterson's 2018 Turing lecture called this era "A New Golden Age for" this. :: Computer Architecture
+The Intel processor of 2000 with a 20-stage pipeline. :: Pentium 4 (NetBurst)
+The trace cache in the Pentium 4 stored decoded these. :: Micro-operations (µops)
+The fusion of two x86 instructions, such as compare and jump, into one micro-op. :: Macro-fusion
+The Itanium architecture used this approach, shortened to four letters. :: EPIC
+The structure that holds instructions waiting for operands in out-of-order cores. :: Reservation station (issue queue)
+The table that maps architectural to physical registers. :: Register alias table (rename table)
+The method for recovering from mispredicted branches using checkpoints of the rename map. :: Checkpoint recovery
+The predictor that guesses whether a load depends on an earlier store. :: Memory dependence predictor (store sets)
+The perceptron branch predictor was proposed in 2001 by Jiménez and this researcher. :: Calvin Lin
+The Spectre variant that poisons the branch target buffer. :: Variant 2 (branch target injection)
+The kernel defence against Meltdown that separates user and kernel page tables. :: KPTI (kernel page-table isolation)
+The 2014 paper that first showed rowhammer flipping bits in DRAM came from Carnegie Mellon and this company. :: Intel
+The cache replacement policy called "pseudo-LRU" uses this kind of structure in hardware. :: Binary tree of bits
+The policy that inserts new blocks at the LRU position to resist scanning, shortened to three letters. :: LIP (LRU insertion policy)
+The 2010 policy from Intel that predicts re-reference intervals, shortened to four letters. :: RRIP
+The problem when several virtual addresses map to one physical address in a virtually indexed cache. :: Aliasing (synonyms)
+The cache addressed by virtual index and physical tag, shortened to four letters. :: VIPT
+The maximum size of a VIPT L1 cache without aliasing is page size times this. :: Associativity
+The memory consistency model of ARM and POWER, weaker than TSO. :: Relaxed (weak) memory model
+The litmus test in which two threads each store then load the other's variable, both reading 0 under TSO. :: Store buffering (Dekker test)
+The scalable directory scheme that stores a bit for each processor per memory block. :: Full bit-vector directory
+The coherence approach for many cores using a linked list of sharers, from IEEE 1596. :: SCI (Scalable Coherent Interface)
+The interconnect topology in which each node links to neighbours in a grid with wrap-around. :: Torus
+The 1966 classification of computer architectures by single or multiple instruction and data streams. :: Flynn's taxonomy
+Gustafson's law answers Amdahl's law by assuming this grows with the number of processors. :: Problem size
+The 1988 law that says scaled speed-up is s + p × N. Its author. :: John Gustafson
+The term for memory chips stacked on a logic die with through-silicon vias, shortened to three letters. :: HBM
+The computing approach that performs calculations inside memory arrays. :: Processing-in-memory (in-memory computing)
+NVIDIA's name for each GPU processor block that runs warps, shortened to two letters. :: SM (streaming multiprocessor)
+The number of multiply-accumulate units in the first Google TPU's systolic array. :: 65,536
+The Cerebras chip notable for being a whole wafer. :: Wafer-Scale Engine
+The number of transistors in a CMOS inverter. :: 2
+The number of address lines on the Intel 8086, giving 1 MB of memory. :: 20
+The number of transistors in the cross-coupled inverter pair of a 6T SRAM cell. :: 4

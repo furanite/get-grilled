@@ -1,0 +1,514 @@
+id: science
+name: Science & Nature
+nameAr: العلوم والطبيعة
+group: general
+
+## 100
+The gas that plants take in from the air to make food. :: Carbon dioxide
+The gas that humans need to breathe in to live. :: Oxygen
+The process plants use to make food from sunlight. :: Photosynthesis
+The green substance in leaves that captures sunlight. :: Chlorophyll
+The chemical formula for water. :: H₂O
+Water boils at this temperature in Celsius at sea level. :: 100 °C
+Water freezes at this temperature in Celsius. :: 0 °C
+The three common states of matter. :: Solid, liquid and gas
+The force that pulls objects towards the Earth. :: Gravity
+The scientist famous for the laws of motion and gravity. :: Isaac Newton
+The closest star to the Earth. :: The Sun
+The planet we live on. :: Earth
+The part of the atom with a negative charge. :: Electron
+The part of the atom with a positive charge. :: Proton
+The part of the atom with no charge. :: Neutron
+The centre of an atom. :: Nucleus
+The table that lists all the chemical elements. :: The periodic table
+The chemical symbol for gold. :: Au
+The chemical symbol for iron. :: Fe
+The chemical symbol for sodium. :: Na
+The chemical symbol for oxygen. :: O
+The most common gas in Earth's air. :: Nitrogen
+The lightest element. :: Hydrogen
+The metal that is liquid at room temperature. :: Mercury
+The hardest natural substance. :: Diamond
+Diamonds are made of this element. :: Carbon
+Table salt is made of sodium and this element. :: Chlorine
+The colours of the rainbow in order start with red and end with this. :: Violet
+The number of colours usually listed in a rainbow. :: Seven
+A tool used to make small things look bigger. :: Microscope
+A tool used to look at faraway stars. :: Telescope
+A tool that measures temperature. :: Thermometer
+The unit used to measure electric current. :: Ampere (amp)
+The unit of force named after Newton. :: Newton
+The speed of light is about this many kilometres per second. :: About 300,000 km/s
+Sound cannot travel through this, because it has no particles. :: A vacuum (empty space)
+The name for animals that eat only plants. :: Herbivores
+The name for animals that eat only meat. :: Carnivores
+The name for animals that eat both plants and meat. :: Omnivores
+The young of a frog. :: Tadpole
+The process of a caterpillar turning into a butterfly. :: Metamorphosis
+The part of a plant that takes in water from the soil. :: Roots
+The part of a flower that makes pollen. :: Stamen (anther)
+Insects that carry pollen between flowers, making honey. :: Bees
+The number of legs an insect has. :: Six
+The number of legs a spider has. :: Eight
+The largest planet in the Solar System. :: Jupiter
+The study of living things. :: Biology
+The study of matter and chemical reactions. :: Chemistry
+The study of energy, force and motion. :: Physics
+The study of rocks and the Earth. :: Geology
+The study of weather. :: Meteorology
+The layer of gases around the Earth. :: The atmosphere
+The layer of the atmosphere that protects us from much of the sun's UV light. :: The ozone layer
+The type of rock formed from cooled lava. :: Igneous rock
+The type of rock formed from layers of sand and mud. :: Sedimentary rock
+The type of rock changed by heat and pressure. :: Metamorphic rock
+The hot liquid rock below the Earth's surface. :: Magma
+The hot liquid rock that comes out of a volcano. :: Lava
+The centre of the Earth. :: The core
+A sudden shaking of the ground. :: Earthquake
+A giant sea wave usually caused by an undersea earthquake. :: Tsunami
+A spinning column of air that touches the ground. :: Tornado
+The name for a tropical storm in the Atlantic with winds over 119 km/h. :: Hurricane
+The same kind of storm in the western Pacific is called this. :: Typhoon
+Water falling as ice balls from storm clouds. :: Hail
+The water cycle step where water turns into vapour. :: Evaporation
+The water cycle step where vapour turns into droplets. :: Condensation
+The name for rain, snow, sleet and hail together. :: Precipitation
+The energy from the sun used to make electricity with panels. :: Solar energy
+The energy from moving air used by turbines. :: Wind energy
+Fuels formed from ancient plants and animals, like oil and coal. :: Fossil fuels
+The main gas blamed for global warming. :: Carbon dioxide
+The metal most attracted to magnets. :: Iron
+A material that lets electricity flow easily. :: Conductor
+A material that does not let electricity flow easily. :: Insulator
+The form of energy stored in food. :: Chemical energy
+The energy of a moving object. :: Kinetic energy
+The organ that pumps blood around the body. :: The heart
+The largest organ of the human body. :: The skin
+The number of bones in an adult human body. :: 206
+The scientist who discovered penicillin. :: Alexander Fleming
+The scientist famous for the theory of relativity. :: Albert Einstein
+The scientist who proposed evolution by natural selection. :: Charles Darwin
+The scientist who discovered radium and polonium. :: Marie Curie
+The famous equation linking energy and mass. :: E = mc²
+The tiny building blocks of all living things. :: Cells
+The molecule that carries genetic information. :: DNA
+The animal kingdom group with backbones. :: Vertebrates
+Animals without backbones. :: Invertebrates
+Warm-blooded animals with hair that feed milk to their young. :: Mammals
+Cold-blooded animals with scales that lay eggs on land, like lizards. :: Reptiles
+Animals that live both in water and on land, like frogs. :: Amphibians
+The largest animal ever known to have lived. :: Blue whale
+The fastest land animal. :: Cheetah
+The tallest animal. :: Giraffe
+The pH of pure water. :: 7
+Lemon juice is this: an acid or a base? :: An acid
+The colour litmus paper turns in an acid. :: Red
+A mixture of metals, like brass or steel. :: Alloy
+
+## 200
+The element with atomic number 1. :: Hydrogen
+The element with atomic number 6. :: Carbon
+The noble gas used in bright advertising signs. :: Neon
+The gas that makes balloons float, lighter than air and not flammable. :: Helium
+The chemical symbol for silver. :: Ag
+The chemical symbol for lead. :: Pb
+The chemical symbol for potassium. :: K
+The chemical symbol for copper. :: Cu
+The most abundant element in the Earth's crust. :: Oxygen
+The most abundant metal in the Earth's crust. :: Aluminium
+The most abundant element in the universe. :: Hydrogen
+The scientist who created the first widely used periodic table. :: Dmitri Mendeleev
+The name for the rows of the periodic table. :: Periods
+The name for the columns of the periodic table. :: Groups
+The group of very unreactive gases on the right of the periodic table. :: Noble gases
+The gas produced when baking soda reacts with vinegar. :: Carbon dioxide
+The common name for sodium bicarbonate. :: Baking soda
+The common name for sodium chloride. :: Table salt
+The common name for calcium carbonate rock used in buildings. :: Limestone
+The process of rusting needs iron, water and this. :: Oxygen
+A reaction that gives out heat. :: Exothermic reaction
+A reaction that takes in heat. :: Endothermic reaction
+A substance that speeds up a reaction without being used up. :: Catalyst
+The proteins that act as catalysts in living things. :: Enzymes
+The unit for measuring the amount of a substance in chemistry. :: Mole
+The number of particles in one mole, about 6.022 × 10²³. :: Avogadro's number
+The change of a solid directly into a gas. :: Sublimation
+Dry ice is the solid form of this. :: Carbon dioxide
+The temperature at which all molecular motion is lowest, 0 kelvin. :: Absolute zero
+The SI unit of power. :: Watt
+The SI unit of electrical resistance. :: Ohm
+The SI unit of frequency. :: Hertz
+The SI unit of pressure. :: Pascal
+The law that says voltage equals current times resistance. :: Ohm's law
+The bending of light as it passes from one material into another. :: Refraction
+The bouncing back of light from a surface. :: Reflection
+The splitting of white light into colours by a prism. :: Dispersion
+The scientist who showed that white light is made of colours using prisms. :: Isaac Newton
+The colour of light with the longest wavelength we can see. :: Red
+Light waves just beyond violet that cause sunburn. :: Ultraviolet (UV)
+Waves just beyond red that we feel as heat. :: Infrared
+The rays used to take pictures of bones. :: X-rays
+The change in a sound's pitch as a source moves past you. :: Doppler effect
+The speed of sound in air is about this many metres per second. :: About 343 m/s
+Sound waves too high for humans to hear. :: Ultrasound
+The unit for measuring loudness. :: Decibel
+The tendency of an object to keep doing what it is doing unless a force acts. :: Inertia
+Newton's third law says every action has an equal and opposite this. :: Reaction
+Acceleration due to gravity on Earth is about this. :: 9.8 m/s²
+The force that slows down two surfaces sliding past each other. :: Friction
+The point where an object's weight seems to act. :: Centre of gravity (centre of mass)
+A simple machine made of a bar turning on a pivot. :: Lever
+The pivot point of a lever. :: Fulcrum
+The organelle called the powerhouse of the cell. :: Mitochondrion
+The part of the cell that holds DNA. :: Nucleus
+The part of a plant cell where photosynthesis happens. :: Chloroplast
+The stiff outer layer of a plant cell. :: Cell wall
+The shape of the DNA molecule. :: Double helix
+The two scientists credited with the DNA double helix model in 1953. :: James Watson and Francis Crick
+The scientist whose X-ray photo helped reveal DNA's structure. :: Rosalind Franklin
+The monk known as the father of genetics, who studied pea plants. :: Gregor Mendel
+A section of DNA that codes for a trait. :: Gene
+The number of chromosomes in most human cells. :: 46
+The type of cell division that makes sex cells. :: Meiosis
+The type of cell division that makes identical body cells. :: Mitosis
+Living things made of only one cell. :: Unicellular organisms
+The kingdom that includes mushrooms and yeast. :: Fungi
+The tiny living things that cause strep throat and can be killed by antibiotics. :: Bacteria
+Germs that are not cells and need host cells to copy themselves. :: Viruses
+The system that scientists use to give every species two names. :: Binomial nomenclature
+The Swedish scientist who created the two-name system for species. :: Carl Linnaeus
+The scientific name for humans. :: Homo sapiens
+The place where an animal or plant naturally lives. :: Habitat
+A community of living things and their environment. :: Ecosystem
+The diagram showing who eats whom. :: Food chain (food web)
+Living things that make their own food, like plants. :: Producers
+Living things that break down dead matter, like fungi and bacteria. :: Decomposers
+A long period of sleep that some animals use to survive winter. :: Hibernation
+The seasonal journey of animals from one region to another. :: Migration
+Animals that are active at night. :: Nocturnal animals
+The ability of an animal to blend into its surroundings. :: Camouflage
+The name for a species that has died out completely. :: Extinct
+The prehistoric reptiles that ruled Earth for over 150 million years. :: Dinosaurs
+The event about 66 million years ago that wiped out most dinosaurs is linked to this. :: An asteroid impact
+The preserved remains of ancient life in rock. :: Fossils
+The scientist who studies fossils. :: Palaeontologist
+The scale for mineral hardness from 1 to 10. :: Mohs scale
+The softest mineral on the Mohs scale. :: Talc
+The mineral that quartz is made of, a compound of silicon and oxygen. :: Silica (silicon dioxide)
+The layer of the Earth between the crust and the core. :: The mantle
+The outer core of the Earth is mostly liquid iron and this metal. :: Nickel
+The Earth's large moving pieces of crust. :: Tectonic plates
+The type of cloud that looks like fluffy cotton. :: Cumulus
+The tall storm cloud that brings thunder. :: Cumulonimbus
+The thin wispy high clouds made of ice. :: Cirrus
+The instrument that measures air pressure. :: Barometer
+The instrument that measures wind speed. :: Anemometer
+The layer of the atmosphere where we live and weather happens. :: Troposphere
+The instrument that measures humidity. :: Hygrometer
+The main gas in natural gas used for cooking. :: Methane
+
+## 300
+The element with the highest melting point. :: Tungsten
+The most reactive non-metal element. :: Fluorine
+The only two elements that are liquid at room temperature. :: Mercury and bromine
+The element named after the Sun, first found in the Sun's spectrum. :: Helium
+The element with the symbol W. :: Tungsten
+The element with the symbol Sn. :: Tin
+The element with the symbol Hg. :: Mercury
+The element whose isotope carbon-14 is used to date old organic objects. :: Carbon
+The half-life of carbon-14 is about this many years. :: About 5,730 years
+The particles that are helium nuclei, given off in some radioactive decay. :: Alpha particles
+The high-energy electromagnetic rays given off by radioactive nuclei. :: Gamma rays
+The splitting of a heavy atomic nucleus to release energy. :: Nuclear fission
+The joining of light nuclei, which powers the Sun. :: Nuclear fusion
+The type of bond formed when atoms share electrons. :: Covalent bond
+The type of bond formed when electrons are transferred between atoms. :: Ionic bond
+The weak attraction that holds water molecules together and explains its high boiling point. :: Hydrogen bonding
+Atoms of the same element with different numbers of neutrons. :: Isotopes
+The number of protons in an atom is called this. :: Atomic number
+A solution with a pH below 7 is this. :: Acidic
+The acid found in the human stomach. :: Hydrochloric acid
+The acid in vinegar. :: Acetic acid (ethanoic acid)
+The acid in car batteries. :: Sulfuric acid
+The gas that smells like rotten eggs. :: Hydrogen sulfide
+The poisonous colourless gas that comes from incomplete burning. :: Carbon monoxide
+The scientist who named oxygen and hydrogen and helped found modern chemistry. :: Antoine Lavoisier
+The law that says matter is neither created nor destroyed in a reaction. :: Law of conservation of mass
+The gas law that says pressure times volume is constant at fixed temperature. :: Boyle's law
+The scientist who discovered the electron in 1897. :: J. J. Thomson
+The scientist who discovered the atomic nucleus with his gold foil experiment. :: Ernest Rutherford
+The scientist who discovered the neutron in 1932. :: James Chadwick
+The Danish physicist whose 1913 model put electrons in fixed orbits. :: Niels Bohr
+The principle that you cannot know a particle's exact position and momentum at once. :: Heisenberg's uncertainty principle
+The physicist who said light is made of particles called photons to explain the photoelectric effect. :: Albert Einstein
+The constant h that links a photon's energy to its frequency. :: Planck's constant
+The scientist who discovered electromagnetic induction in 1831. :: Michael Faraday
+The scientist whose four equations united electricity and magnetism. :: James Clerk Maxwell
+The scientist who first produced radio waves in a lab, giving his name to the unit of frequency. :: Heinrich Hertz
+The scientist who discovered X-rays in 1895. :: Wilhelm Röntgen
+The scientist who discovered radioactivity in uranium in 1896. :: Henri Becquerel
+The first person to win Nobel Prizes in two different sciences. :: Marie Curie
+The force that holds the nucleus together. :: The strong nuclear force
+The four fundamental forces are gravity, electromagnetism, the strong force and this. :: The weak nuclear force
+The particle whose discovery at CERN in 2012 confirmed a key part of the Standard Model. :: Higgs boson
+The world's largest particle accelerator, near Geneva. :: Large Hadron Collider
+The particles that make up protons and neutrons. :: Quarks
+The antiparticle of the electron. :: Positron
+The energy an object has because of its position. :: Potential energy
+The rate of doing work. :: Power
+The quantity that is mass times velocity. :: Momentum
+The bending of waves around obstacles. :: Diffraction
+The colour you get by mixing red and green light. :: Yellow
+The three primary colours of light. :: Red, green and blue
+The lens that is thicker in the middle and brings light together. :: Convex (converging) lens
+The eye problem where you see near things clearly but far things blurry. :: Short-sightedness (myopia)
+The device that changes the voltage of alternating current. :: Transformer
+Materials that conduct electricity with zero resistance when very cold. :: Superconductors
+The scientist who first described the cell, looking at cork in 1665. :: Robert Hooke
+The Dutch scientist who first saw bacteria with his own microscopes. :: Antonie van Leeuwenhoek
+The French scientist who showed germs cause disease and made a rabies vaccine. :: Louis Pasteur
+The molecule that carries energy inside cells. :: ATP (adenosine triphosphate)
+The organelles that make proteins. :: Ribosomes
+The four bases of DNA are adenine, thymine, guanine and this. :: Cytosine
+In RNA, uracil replaces this base. :: Thymine
+The process of copying DNA into RNA. :: Transcription
+The process of building a protein from RNA. :: Translation
+The international project that mapped all human genes, finished in 2003. :: Human Genome Project
+The gene-editing tool adapted from bacteria, which won the 2020 Chemistry Nobel. :: CRISPR-Cas9
+The two scientists who won the 2020 Nobel for CRISPR. :: Emmanuelle Charpentier and Jennifer Doudna
+The first mammal cloned from an adult cell, born in 1996. :: Dolly the sheep
+The theory that all life shares a common ancestor and changes over time. :: Evolution
+The Galápagos birds whose beaks helped inspire Darwin. :: Finches
+The scientist who came up with natural selection at the same time as Darwin. :: Alfred Russel Wallace
+The name for a group of organisms that can breed and have fertile young. :: Species
+The level of classification just above species. :: Genus
+The relationship where both species benefit. :: Mutualism
+The relationship where one benefits and the other is harmed. :: Parasitism
+The pigment that gives human skin its colour. :: Melanin
+The plant hormone that makes shoots grow towards light. :: Auxin
+The tubes that carry water up a plant. :: Xylem
+The tubes that carry sugar around a plant. :: Phloem
+The tiny holes in leaves that let gases in and out. :: Stomata
+The loss of water from a plant's leaves. :: Transpiration
+The process plants use to turn nitrogen gas into usable nitrogen with bacteria. :: Nitrogen fixation
+The oldest living trees, some over 4,000 years old in California. :: Bristlecone pines
+The tallest living trees, found in California. :: Coast redwoods
+The largest flower in the world, which smells like rotting meat. :: Rafflesia
+The part of the Earth where life exists. :: Biosphere
+The rise in Earth's average temperature caused by greenhouse gases. :: Global warming
+The 2015 agreement to limit global warming to well below 2 °C. :: Paris Agreement
+The chemicals once used in fridges that damaged the ozone layer. :: CFCs (chlorofluorocarbons)
+The 1987 treaty that phased out ozone-damaging chemicals. :: Montreal Protocol
+The type of plate boundary where plates move apart. :: Divergent boundary
+The type of plate boundary where plates slide past each other, like the San Andreas Fault. :: Transform boundary
+The German scientist who proposed continental drift in 1912. :: Alfred Wegener
+The underwater mountain range in the middle of the Atlantic. :: Mid-Atlantic Ridge
+The boundary between the Earth's crust and mantle. :: Moho (Mohorovičić discontinuity)
+The age of the Earth, roughly. :: About 4.5 billion years
+The geological era called the Age of Reptiles. :: Mesozoic Era
+The period in which Tyrannosaurus rex lived. :: Cretaceous
+The vitamin the skin makes in sunlight. :: Vitamin D
+
+## 400
+The element with atomic number 79. :: Gold
+The element with atomic number 26. :: Iron
+The element with atomic number 92. :: Uranium
+The first element made artificially, in 1937. :: Technetium
+The heaviest naturally occurring element in significant amounts. :: Uranium
+The element named after Marie Curie's homeland. :: Polonium
+The element named after Albert Einstein. :: Einsteinium
+The element named after Dmitri Mendeleev. :: Mendelevium
+The element with the highest electronegativity. :: Fluorine
+The allotrope of carbon made of single sheets of atoms, isolated in 2004. :: Graphene
+The football-shaped carbon molecule C₆₀. :: Buckminsterfullerene (buckyball)
+The process that makes ammonia from nitrogen and hydrogen. :: Haber process
+The process that makes sulfuric acid industrially. :: Contact process
+The rule that a system at equilibrium shifts to undo a change. :: Le Chatelier's principle
+The quantity that measures disorder in a system. :: Entropy
+The law that says entropy of an isolated system never decreases. :: Second law of thermodynamics
+The scale that measures the acidity of a solution from 0 to 14. :: pH scale
+The chemist who invented the pH scale in 1909. :: Søren Sørensen
+The type of isomers that are mirror images of each other. :: Enantiomers (optical isomers)
+The bonds between amino acids in proteins. :: Peptide bonds
+The simplest amino acid. :: Glycine
+The sugar found in DNA. :: Deoxyribose
+The sugar in milk. :: Lactose
+The main sugar in the blood. :: Glucose
+The polymer plants use for structure, the most common organic compound on Earth. :: Cellulose
+The polymer of glucose that animals store in the liver. :: Glycogen
+The hormone that lowers blood sugar. :: Insulin
+The scientists who isolated insulin in Toronto in 1921. :: Frederick Banting and Charles Best
+The Krebs cycle takes place in this organelle. :: Mitochondria
+The 1953 experiment that made amino acids from simple gases and sparks. :: Miller–Urey experiment
+The domain of single-celled life that often lives in extreme places. :: Archaea
+The theory that mitochondria were once free-living bacteria. :: Endosymbiotic theory
+The scientist who proposed the endosymbiotic theory in modern form. :: Lynn Margulis
+The bacterium often used in labs, which lives in the human gut. :: E. coli (Escherichia coli)
+The parasite that causes malaria. :: Plasmodium
+The insect that spreads malaria. :: Anopheles mosquito
+The cells that make antibodies. :: B cells (plasma cells)
+The virus that causes AIDS. :: HIV
+The first disease wiped out worldwide by vaccination. :: Smallpox
+The year smallpox was declared eradicated. :: 1980
+The second disease declared eradicated, affecting cattle, in 2011. :: Rinderpest
+The type of vaccine used by Pfizer-BioNTech and Moderna for COVID-19. :: mRNA vaccine
+The scientist who won a 2023 Nobel with Drew Weissman for mRNA work. :: Katalin Karikó
+The waves with the shortest wavelength in the electromagnetic spectrum. :: Gamma rays
+The effect where light knocks electrons off a metal surface. :: Photoelectric effect
+The experiment that showed light acts as a wave by passing through two slits. :: Young's double-slit experiment
+The famous 1887 experiment that found no 'luminiferous ether'. :: Michelson–Morley experiment
+The time slowing down for objects moving close to light speed. :: Time dilation
+The theory by Einstein that describes gravity as curved spacetime. :: General relativity
+The year Einstein published special relativity, his 'miracle year'. :: 1905
+The ripples in spacetime first detected directly in 2015. :: Gravitational waves
+The observatory that first detected gravitational waves. :: LIGO
+The constant that describes the strength of gravity in Newton's law. :: The gravitational constant (G)
+The scientist who first measured G in 1798 using a torsion balance. :: Henry Cavendish
+The temperature at which Celsius and Fahrenheit are equal. :: −40 degrees
+The scientist who invented the Kelvin scale. :: Lord Kelvin (William Thomson)
+The law that says the force between charges falls with the square of distance. :: Coulomb's law
+The rule that finds the direction of force on a current in a magnetic field. :: Fleming's left-hand rule
+The law that says induced current opposes the change that made it. :: Lenz's law
+The material property that measures how much it stretches under stress. :: Young's modulus (elasticity)
+The physicist who discovered superconductivity in 1911. :: Heike Kamerlingh Onnes
+The state of matter made of ionised gas, as in the Sun. :: Plasma
+The state of matter formed near absolute zero where atoms act as one. :: Bose–Einstein condensate
+The particle that carries the electromagnetic force. :: Photon
+The tiny, nearly massless particles that pass through the Earth in huge numbers. :: Neutrinos
+The Pakistani physicist who shared the 1979 Nobel for electroweak unification. :: Abdus Salam
+The Arab scholar who wrote the Book of Optics around 1021. :: Ibn al-Haytham
+The Andalusian scholar who wrote a famous book on medicinal plants and foods, al-Jami'. :: Ibn al-Baytar
+The Persian scholar who estimated the Earth's radius using a mountain. :: Al-Biruni
+The Abbasid scientist known for early chemistry, called Geber in Latin. :: Jabir ibn Hayyan
+The Persian physician who first told measles and smallpox apart. :: Al-Razi (Rhazes)
+The layer of the Earth's atmosphere where the Northern Lights happen. :: Thermosphere (ionosphere)
+The particles from the Sun that cause the auroras. :: Solar wind (charged particles)
+The southern lights are called this. :: Aurora australis
+The scale for measuring hurricanes from 1 to 5. :: Saffir–Simpson scale
+The scale for measuring tornado strength. :: Enhanced Fujita scale
+The circulation of ocean water driven by temperature and salt. :: Thermohaline circulation
+The deepest point in the ocean is about this many metres deep. :: About 11,000 m
+The rock that is the most common on the ocean floor. :: Basalt
+The most common group of minerals in the Earth's crust. :: Feldspar
+The mineral that is the main ore of aluminium. :: Bauxite
+The gemstone that is a red form of corundum. :: Ruby
+The blue gemstone that is also corundum. :: Sapphire
+The gemstone that is green beryl. :: Emerald
+The organic gem formed inside oysters. :: Pearl
+The mass extinction that wiped out about 90% of species 252 million years ago. :: Permian–Triassic extinction (the Great Dying)
+The crater in Mexico linked to the dinosaurs' extinction. :: Chicxulub crater
+The first bird-like dinosaur fossil found in Germany in 1861. :: Archaeopteryx
+The 3.2-million-year-old fossil skeleton found in Ethiopia in 1974. :: Lucy (Australopithecus afarensis)
+The deepest hole humans have drilled, in Russia. :: Kola Superdeep Borehole
+The first antibiotic made from a mould. :: Penicillin
+The scientist who discovered that blood circulates around the body, in 1628. :: William Harvey
+The plant whose bark gave the first malaria medicine, quinine. :: Cinchona
+The tree whose bark led to aspirin. :: Willow
+The noble gas that is radioactive and can build up in basements. :: Radon
+The metal that makes up most of the Earth's core. :: Iron
+The scientist who created the first synthetic dye, mauveine, in 1856. :: William Henry Perkin
+The father of modern taxonomy's book of 1735. :: Systema Naturae
+The cell organelle that packages and ships proteins. :: Golgi apparatus
+The theory of how continents float and move on the mantle was confirmed by this 1960s discovery. :: Seafloor spreading
+
+## 500
+The element with the symbol Sb. :: Antimony
+The element with the symbol Ta, named after a figure from Greek myth. :: Tantalum
+The rare earth element used in strong magnets with iron and boron. :: Neodymium
+The element whose atom defines the second in atomic clocks. :: Caesium
+The element with the highest density. :: Osmium
+The heaviest element officially named, with atomic number 118. :: Oganesson
+The element named after Japan, element 113. :: Nihonium
+The noble gas used in powerful car headlights and ion thrusters. :: Xenon
+The only metal other than iron and cobalt that is strongly magnetic at room temperature. :: Nickel
+The chemist who discovered oxygen in 1774 and called it 'dephlogisticated air'. :: Joseph Priestley
+The chemist who first isolated many elements, including sodium and potassium, using electricity. :: Humphry Davy
+The rule that the volume of a gas is proportional to its temperature at constant pressure. :: Charles's law
+The equation PV = nRT is called this. :: The ideal gas law
+The temperature and pressure at which a substance's three phases coexist. :: Triple point
+The point beyond which liquid and gas cannot be told apart. :: Critical point
+The quantity that combines internal energy and pressure–volume work, H. :: Enthalpy
+The energy needed to start a reaction. :: Activation energy
+The scientist who explained reaction rates with an equation using activation energy. :: Svante Arrhenius
+The chemist who won Nobel Prizes in Chemistry and Peace and studied chemical bonds. :: Linus Pauling
+The chemist who won the 1999 Nobel for femtochemistry. :: Ahmed Zewail
+The theory that explains molecular shapes by electron-pair repulsion. :: VSEPR theory
+The shape of a methane molecule. :: Tetrahedral
+The bond angle in a water molecule, roughly. :: About 104.5°
+The organic reaction that makes soap from fats and a strong base. :: Saponification
+The polymer used in non-stick pans. :: PTFE (Teflon)
+The chemist who accidentally discovered Teflon in 1938. :: Roy Plunkett
+The class of compounds with a benzene ring. :: Aromatic compounds
+The chemist who dreamed of a snake biting its tail and proposed benzene's ring structure. :: August Kekulé
+The equation that describes how a quantum system's wave function changes. :: Schrödinger equation
+The principle that no two electrons can share the same set of quantum numbers. :: Pauli exclusion principle
+The famous thought experiment about a cat that is both alive and dead. :: Schrödinger's cat
+The value of the speed of light in a vacuum in metres per second, exactly. :: 299,792,458 m/s
+The physicist who first measured the charge of the electron with oil drops. :: Robert Millikan
+The scientist who predicted antimatter in 1928. :: Paul Dirac
+The force carried by gluons. :: The strong nuclear force
+The type of quark found with the 'up' quark in protons and neutrons. :: Down quark
+The heaviest known elementary particle, found in 1995. :: Top quark
+The Indian physicist after whom bosons are named. :: Satyendra Nath Bose
+The effect where electrons tunnel through barriers they could not classically cross. :: Quantum tunnelling
+The physicist who described black hole radiation in 1974. :: Stephen Hawking
+The unusual 'spooky action at a distance' that Einstein doubted. :: Quantum entanglement
+The 2022 Nobel in Physics was for experiments on this. :: Entangled photons (quantum entanglement)
+The effect where a magnetic field changes a material's electrical resistance a lot, used in hard drives. :: Giant magnetoresistance
+The Hall effect produces a voltage across a conductor in this kind of field. :: Magnetic field
+The phenomenon where a superconductor pushes out magnetic fields. :: Meissner effect
+The temperature scale's zero point in Fahrenheit was set using a mix of ice, water and this. :: Ammonium chloride (salt)
+The ratio of an object's speed to the speed of sound. :: Mach number
+The principle that faster-moving fluid has lower pressure. :: Bernoulli's principle
+The Greek scientist who discovered the law of buoyancy. :: Archimedes
+The scientist who showed in 1643 that air has pressure using mercury in a tube. :: Evangelista Torricelli
+The scientist who studied blood circulation through the lungs in 13th-century Cairo. :: Ibn al-Nafis
+The enzyme that unzips DNA before copying. :: Helicase
+The enzyme that builds new DNA strands. :: DNA polymerase
+The method invented by Kary Mullis to copy DNA quickly. :: PCR (polymerase chain reaction)
+The method of reading DNA invented by Frederick Sanger. :: Sanger sequencing
+The scientist who won two Chemistry Nobels for protein and DNA sequencing. :: Frederick Sanger
+The Japanese scientist who made stem cells from adult cells in 2006. :: Shinya Yamanaka
+The protein that carries oxygen in red blood cells. :: Haemoglobin
+The protein that stores oxygen in muscles. :: Myoglobin
+The neurotransmitter linked to reward and pleasure. :: Dopamine
+The Australian scientist who, with Ernst Chain, made penicillin into a usable medicine. :: Howard Florey
+The theory that infectious diseases are caused by microbes. :: Germ theory
+The Hungarian doctor who showed in 1847 that hand-washing saves mothers' lives. :: Ignaz Semmelweis
+The bacterium that causes stomach ulcers, found by Marshall and Warren. :: Helicobacter pylori
+The scientist who drank H. pylori to prove it causes gastritis. :: Barry Marshall
+The disease caused by prions that affects cattle. :: Bovine spongiform encephalopathy (mad cow disease)
+The scientist who won the Nobel for discovering prions. :: Stanley Prusiner
+The tiny roundworm used as a model organism in biology. :: C. elegans (Caenorhabditis elegans)
+The fruit fly used widely in genetics. :: Drosophila melanogaster
+The plant used as a model organism in plant biology. :: Arabidopsis thaliana
+The 'Cambrian explosion' happened about this many million years ago. :: About 540 million years ago
+The supercontinent before Pangaea, about 1 billion years ago. :: Rodinia
+The southern supercontinent that included Africa, South America and Antarctica. :: Gondwana
+The period of 'Snowball Earth' happened in this era, before animals spread. :: Cryogenian (Neoproterozoic)
+The event about 2.4 billion years ago when oxygen first built up in the air. :: Great Oxidation Event
+The bacteria that made Earth's early oxygen. :: Cyanobacteria
+The layered rocks built by ancient bacterial mats. :: Stromatolites
+The hottest temperature reliably recorded on Earth's surface was in this place. :: Death Valley (Furnace Creek)
+The coldest natural temperature recorded on Earth's surface was at this Antarctic station. :: Vostok Station
+The wind that blows down mountain slopes and warms, as in the Alps. :: Foehn wind
+The effect that makes winds curve because of Earth's rotation. :: Coriolis effect
+The boundary layer where the troposphere ends. :: Tropopause
+The sudden release of a cold air flow from a storm, dangerous to planes. :: Microburst (downburst)
+The geologist who wrote Principles of Geology, influencing Darwin. :: Charles Lyell
+The idea that the same natural laws shaping the Earth today worked in the past. :: Uniformitarianism
+The scientist who founded modern geology with the idea of 'deep time' in 1788. :: James Hutton
+The volcanic eruption type with sticky lava and explosive ash columns, like Vesuvius in 79 CE. :: Plinian eruption
+The scale used to measure the size of volcanic eruptions. :: Volcanic Explosivity Index (VEI)
+The ocean's 'twilight zone', where sunlight fades, is this zone. :: Mesopelagic zone
+The deep-sea vents that support life without sunlight. :: Hydrothermal vents (black smokers)
+The process by which vent bacteria make food from chemicals. :: Chemosynthesis
+The coral's partner algae that live inside its tissues. :: Zooxanthellae
+The loss of these algae from coral in hot water is called this. :: Coral bleaching
+The number of base pairs in the human genome, roughly. :: About 3 billion
+The enzyme that joins DNA fragments together. :: DNA ligase
+The cell death programme that removes unwanted cells. :: Apoptosis
+The caps at the ends of chromosomes that shorten with age. :: Telomeres
+The mineral form of calcium phosphate in bones and teeth. :: Hydroxyapatite
+The enzyme in blood that speeds up turning carbon dioxide into bicarbonate. :: Carbonic anhydrase
+The light-sensitive protein in the rod cells of the eye. :: Rhodopsin

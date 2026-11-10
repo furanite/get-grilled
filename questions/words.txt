@@ -1,0 +1,514 @@
+id: words
+name: Words & Language
+nameAr: الكلمات واللغة
+group: general
+
+## 100
+The opposite of hot. :: Cold
+The opposite of up. :: Down
+The opposite of happy. :: Sad
+The opposite of day. :: Night
+The opposite of big. :: Small
+The opposite of fast. :: Slow
+The opposite of open. :: Closed
+The opposite of full. :: Empty
+The opposite of early. :: Late
+The opposite of heavy. :: Light
+The number of letters in the English alphabet. :: 26
+The number of letters in the Arabic alphabet. :: 28
+The first letter of the English alphabet. :: A
+The last letter of the English alphabet. :: Z
+The first letter of the Arabic alphabet. :: Alif
+The last letter of the Arabic alphabet. :: Ya
+The language spoken in Saudi Arabia. :: Arabic
+The language spoken in Brazil. :: Portuguese
+The language spoken in Mexico. :: Spanish
+The language spoken in Germany. :: German
+The language spoken in Japan. :: Japanese
+The main language of China. :: Mandarin Chinese
+The language spoken in Iran. :: Persian (Farsi)
+The language spoken in Turkey. :: Turkish
+The main language of Pakistan, besides English. :: Urdu
+The language spoken in France. :: French
+The direction Arabic is written in. :: Right to left
+The direction English is written in. :: Left to right
+The book that lists words and their meanings. :: Dictionary
+The book that lists words with similar meanings. :: Thesaurus
+A word that means the same as another. :: Synonym
+A word that means the opposite of another. :: Antonym
+The word for a group of words with a subject and verb that expresses a full thought. :: Sentence
+The punctuation mark at the end of a question. :: Question mark
+The punctuation mark at the end of most sentences. :: Full stop (period)
+The punctuation mark that shows strong feeling. :: Exclamation mark
+The word type that names a person, place, or thing. :: Noun
+The word type that shows an action. :: Verb
+The word type that describes a noun. :: Adjective
+The plural of "child". :: Children
+The plural of "mouse". :: Mice
+The plural of "tooth". :: Teeth
+The plural of "foot". :: Feet
+The plural of "man". :: Men
+The past tense of "go". :: Went
+The past tense of "eat". :: Ate
+The past tense of "see". :: Saw
+The past tense of "run". :: Ran
+The number of vowels in the English alphabet (A, E, I, O, U). :: 5
+The greeting in Arabic meaning "peace be upon you". :: As-salamu alaykum
+The Arabic word for "thank you". :: Shukran
+The Spanish word for "hello". :: Hola
+The French word for "hello". :: Bonjour
+The Japanese word for "thank you". :: Arigatou
+The Italian word for "goodbye" or "hello". :: Ciao
+The German word for "thank you". :: Danke
+The Spanish word for "thank you". :: Gracias
+The French word for "thank you". :: Merci
+The Arabic word for "book". :: Kitab
+The Arabic word for "sun". :: Shams
+The Arabic word for "moon". :: Qamar
+The Arabic word for "water". :: Ma'
+The Arabic word for "house". :: Bayt
+The Arabic word for "school". :: Madrasa
+The word for a baby cat. :: Kitten
+The word for a baby dog. :: Puppy
+The word for a baby cow. :: Calf
+The word for a baby sheep. :: Lamb
+The word for a baby horse. :: Foal
+The Arabic word for a baby camel. :: Huwar
+The word for a group of lions. :: Pride
+The word for a group of fish. :: School (shoal)
+The word for a group of birds. :: Flock
+The word for a group of wolves. :: Pack
+The word for a group of bees. :: Swarm (hive)
+The word for a word that sounds the same as another but means something different, like "sea" and "see". :: Homophone
+The word for a word that reads the same backwards, like "level". :: Palindrome
+The word for the name of a person, which starts with a capital letter. :: Proper noun
+The capital-letter abbreviation for "as soon as possible". :: ASAP
+The abbreviation "Dr." stands for this. :: Doctor
+The abbreviation "Mr." is used for this. :: Mister (a man)
+The month that comes after January. :: February
+The day that comes after Friday. :: Saturday
+The weekend in Saudi Arabia is these two days. :: Friday and Saturday
+The word for the day before today. :: Yesterday
+The word for the day after today. :: Tomorrow
+The number of days in a week. :: 7
+The number of months in a year. :: 12
+The word for ten years. :: Decade
+The word for one hundred years. :: Century
+The word for one thousand years. :: Millennium
+The word for a person who writes books. :: Author (writer)
+The word for a person who draws pictures for books. :: Illustrator
+The word for a story that is not true, like a fairy tale. :: Fiction
+The word for writing that is true, like history books. :: Non-fiction
+The word for a short story with animals that teaches a lesson, like Aesop's. :: Fable
+The word for a word made from the first letters of other words, like NASA. :: Acronym
+The word for a book of a person's life written by someone else. :: Biography
+The word for a book of a person's life written by themselves. :: Autobiography
+The opposite of question. :: Answer
+
+## 200
+The most spoken language in the world by total speakers. :: English
+The language with the most native speakers. :: Mandarin Chinese
+The number of official languages of the United Nations. :: 6
+The day the UN celebrates Arabic Language Day each year. :: 18 December
+The year Arabic became an official UN language. :: 1973
+The language of the Quran. :: Arabic
+The script used to write Russian. :: Cyrillic
+The script used to write Hindi. :: Devanagari
+The Korean alphabet. :: Hangul
+The Japanese writing system of Chinese characters. :: Kanji
+The language spoken in most of Austria. :: German
+The two official languages of Canada. :: English and French
+The official language of Egypt. :: Arabic
+The official language of Tanzania and Kenya, alongside English. :: Swahili
+The language spoken in Argentina. :: Spanish
+The language spoken by most people in Iran's eastern neighbour, Afghanistan, besides Pashto. :: Dari (Persian)
+The language spoken in Israel besides Arabic. :: Hebrew
+The ancient language of the Romans. :: Latin
+The language of ancient Egypt's hieroglyphs. :: Egyptian
+The stone that helped decode Egyptian hieroglyphs. :: Rosetta Stone
+The language of the New Testament's original text. :: Greek
+The international auxiliary language created by L. L. Zamenhof. :: Esperanto
+The system of raised dots read by touch. :: Braille
+The man who invented the raised-dot reading system. :: Louis Braille
+The code of dots and dashes used in telegraphs. :: Morse code
+The distress signal in Morse code. :: SOS
+The language of hand signs used by deaf people in the US. :: American Sign Language (ASL)
+The word in the NATO phonetic alphabet for the letter A. :: Alfa
+The word in the NATO phonetic alphabet for the letter Z. :: Zulu
+The word in the NATO phonetic alphabet for the letter D. :: Delta
+The word for a word or phrase that is no longer in common use. :: Archaic
+The letter that appears most often in English. :: E
+The two letters worth 10 points in English Scrabble. :: Q and Z
+The word for a sentence that uses every letter of the alphabet. :: Pangram
+The word for a word formed by rearranging another word's letters, like "listen" and "silent". :: Anagram
+The word for a word that imitates a sound, like "buzz". :: Onomatopoeia
+The figure of speech that compares using "like" or "as". :: Simile
+The figure of speech that says one thing is another, like "time is money". :: Metaphor
+The figure of speech that gives human qualities to things. :: Personification
+The figure of speech of extreme exaggeration. :: Hyperbole
+The repeating of the first sound in nearby words, like "Peter Piper picked". :: Alliteration
+The words "bear" (animal) and "bear" (carry) are this kind of word. :: Homonym (homograph)
+The word "smog" blends "smoke" and this. :: Fog
+The word "brunch" blends "breakfast" and this. :: Lunch
+The word "motel" blends "motor" and this. :: Hotel
+The word "emoji" comes from this language. :: Japanese
+The word "tsunami" comes from this language. :: Japanese
+The word "safari" comes from this language, which took it from Arabic "safar". :: Swahili
+The word "kindergarten" comes from this language. :: German
+The word "ballet" comes from this language. :: French
+The word "piano" comes from this language. :: Italian
+The word "shampoo" comes from this language. :: Hindi
+The word "robot" comes from this language. :: Czech
+The word "algebra" comes from this Arabic word. :: Al-jabr
+The word "zero" comes from this Arabic word. :: Sifr
+The word "coffee" comes from this Arabic word. :: Qahwa
+The word "giraffe" comes from this Arabic word. :: Zarafa
+The word "admiral" comes from this Arabic title meaning "commander of". :: Amir al-
+The word "alcohol" comes from this Arabic word. :: Al-kuhl
+The word "magazine" comes from this Arabic word meaning storehouses. :: Makhazin
+The word "cotton" comes from this Arabic word. :: Qutn
+The word "sofa" comes from this Arabic word. :: Suffa
+The word "algorithm" comes from the name of this Arab-era mathematician. :: Al-Khwarizmi
+The word "monsoon" comes from this Arabic word meaning season. :: Mawsim
+The word "sugar" comes from this Arabic word. :: Sukkar
+The word "lemon" comes from this Arabic word. :: Laymun
+The word "jar" comes from this Arabic word for an earthen vessel. :: Jarra
+The word for the smallest unit of sound that changes meaning in a language. :: Phoneme
+The longest-running English dictionary, with first edition completed in 1928. :: Oxford English Dictionary
+The author of the first great English dictionary in 1755. :: Samuel Johnson
+The American who wrote a famous dictionary in 1828 and changed "colour" to "color". :: Noah Webster
+The classic Arabic dictionary "Lisan al-Arab" was compiled by this scholar. :: Ibn Manzur
+The founder of Arabic grammar, traditionally credited, who invented the dots for vowels. :: Abu al-Aswad al-Du'ali
+The scholar who wrote the first Arabic dictionary, "Kitab al-Ayn". :: Al-Khalil ibn Ahmad
+The Persian scholar whose "Al-Kitab" is the founding book of Arabic grammar. :: Sibawayh
+The marks added above or below Arabic letters for short vowels. :: Harakat (tashkeel)
+The Arabic mark that doubles a letter. :: Shadda
+The Arabic mark that shows no vowel. :: Sukun
+Arabic is called "the language of" this letter, said to be unique to it. :: Dad (ض)
+The type of Arabic used in news and books, shared across the Arab world. :: Modern Standard Arabic (Fusha)
+The Arabic dialect spoken in Najd and Riyadh is called this. :: Najdi
+The Arabic dialect spoken in Jeddah and Makkah is called this. :: Hejazi
+The word for a person who speaks two languages fluently. :: Bilingual
+The word for a person who speaks many languages. :: Polyglot
+The person who translates speech out loud as it happens. :: Interpreter
+The study of language. :: Linguistics
+The study of the origin of words. :: Etymology
+The study of handwriting is called this. :: Graphology
+The art of beautiful handwriting, highly prized in Arabic. :: Calligraphy
+The angular early Arabic script used in old Qurans. :: Kufic
+The rounded Arabic script used in most printed books. :: Naskh
+The ornate Arabic script developed for Ottoman court documents. :: Diwani
+The fictional language spoken by Klingons was created for this series. :: Star Trek
+The fictional language of elves created by Tolkien. :: Elvish (Quenya and Sindarin)
+The word for a pen name used by a writer. :: Pseudonym (nom de plume)
+The word for a phrase whose meaning is not literal, like "break a leg". :: Idiom
+The word "candy" comes from this Arabic word, via Persian. :: Qandi
+The word "mattress" comes from this Arabic word meaning a place where something is thrown. :: Matrah
+The word "tariff" comes from this Arabic word meaning notification. :: Ta'rif
+The word "assassin" comes from this Arabic word. :: Hashashin
+
+## 300
+The language family that includes Arabic, Hebrew, and Amharic. :: Semitic
+The language family that includes English, Hindi, and Persian. :: Indo-European
+The language family that includes Turkish, Uzbek, and Kazakh. :: Turkic
+The language family that includes Finnish, Estonian, and Hungarian. :: Uralic
+The language family that includes Swahili, Zulu, and Xhosa. :: Bantu (Niger-Congo)
+The isolated language of northern Spain and south-west France, unrelated to any other. :: Basque
+The ancient Semitic language Jesus is believed to have spoken. :: Aramaic
+The ancient language of the Babylonian and Assyrian empires. :: Akkadian
+The earliest known writing system, from Sumer. :: Cuneiform
+The writing system of the Phoenicians gave rise to the Greek, Latin, and this alphabet. :: Arabic (via Aramaic)
+The ancient script found at Al-'Ula and Hegra, carved by the Nabataeans, was an ancestor of this script. :: Arabic
+The ancient South Arabian script used by the kingdom of Sheba. :: Musnad
+The term for a writing system with only consonants, like Arabic and Hebrew. :: Abjad
+The term for a writing system in which each symbol is a syllable, like Japanese kana. :: Syllabary
+The two Japanese syllabaries. :: Hiragana and katakana
+The Korean king who created Hangul in the 15th century. :: Sejong the Great
+The number of tones in Mandarin Chinese, not counting the neutral tone. :: 4
+The Chinese system for writing Mandarin with Latin letters. :: Pinyin
+The language of the Mughal court in India before Urdu rose. :: Persian
+Pakistan's national poet, Allama Iqbal, wrote in Urdu and this language. :: Persian
+The second most spoken language in the United States. :: Spanish
+The indigenous language that is official in Paraguay alongside Spanish. :: Guarani
+The country with the most Arabic speakers. :: Egypt
+The country with the most Portuguese speakers. :: Brazil
+The country with the most Spanish speakers. :: Mexico
+The country with the most English speakers as a first language. :: United States
+The country with the most languages spoken, over 800. :: Papua New Guinea
+The language of the Mongol Empire. :: Mongolian
+The Maltese language is unique in Europe for coming from this language. :: Arabic
+The language of Malta is written in this script. :: Latin
+The language spoken in Somalia besides Arabic. :: Somali
+The country where Amharic is the main official language. :: Ethiopia
+The North African indigenous language family including Kabyle and Tamazight. :: Berber (Amazigh)
+The script used to write Tamazight in Morocco. :: Tifinagh
+The language in which "Shahnameh" was written. :: Persian
+The language in which "One Thousand and One Nights" first spread in written form. :: Arabic
+The language "Don Quixote" was written in. :: Spanish
+The language "War and Peace" was written in. :: Russian
+The language "The Divine Comedy" was written in. :: Italian
+The poet who wrote "The Divine Comedy". :: Dante Alighieri
+The poet called "the Bard of Avon". :: William Shakespeare
+The number of lines in a sonnet. :: 14
+The Japanese poem of three lines with 5, 7, and 5 syllables. :: Haiku
+The Arabic poem form with one rhyme and metre throughout, the classic ode. :: Qasida
+The pre-Islamic poems hung, according to tradition, on the Kaaba. :: Mu'allaqat
+The pre-Islamic poet of the most famous Mu'allaqa, "Qifa nabki". :: Imru' al-Qais
+The great Abbasid poet known for pride, whose name means "the would-be prophet". :: Al-Mutanabbi
+The Persian poet of the "Masnavi". :: Rumi
+The Persian poet of the "Rubaiyat", also a mathematician. :: Omar Khayyam
+The Arab poet called "the prince of poets", from Egypt. :: Ahmed Shawqi
+The Egyptian writer who won the 1988 Nobel Prize in Literature. :: Naguib Mahfouz
+The Palestinian national poet who wrote "Identity Card". :: Mahmoud Darwish
+The Syrian poet famous for love poems, from Damascus. :: Nizar Qabbani
+The Lebanese-American author of "The Prophet". :: Kahlil Gibran
+The Arabic rhythmic metres of poetry are called this. :: Buhur (al-'arud)
+The scholar who first defined the Arabic poetic metres. :: Al-Khalil ibn Ahmad al-Farahidi
+The number of metres Al-Khalil first defined. :: 15
+The Arabic term for the root letters of a word, usually three. :: Jidhr (root)
+The three root letters behind kataba, kitab, and maktab. :: K-T-B
+The Arabic grammatical case ending marked with a damma. :: Raf' (nominative)
+The Arabic grammatical case ending marked with a fatha. :: Nasb (accusative)
+The Arabic grammatical case ending marked with a kasra. :: Jarr (genitive)
+The Arabic sentence that starts with a noun. :: Nominal sentence (jumla ismiyya)
+The Arabic sentence that starts with a verb. :: Verbal sentence (jumla fi'liyya)
+The Arabic plural that is irregular, like kutub from kitab. :: Broken plural
+The Arabic dual ending for nouns, like "kitaban". :: -an
+The Arabic letters that blend with "al-", like the "sh" in "ash-shams". :: Sun letters
+The Arabic letters that do not blend with "al-", like the "q" in "al-qamar". :: Moon letters
+The number of Arabic sun letters. :: 14
+The Latin phrase meaning "seize the day". :: Carpe diem
+The Latin phrase meaning "and so on". :: Et cetera
+The Latin abbreviation "e.g." stands for this phrase. :: Exempli gratia (for example)
+The Latin abbreviation "i.e." stands for this phrase. :: Id est (that is)
+The Latin phrase meaning "I came, I saw, I conquered". :: Veni, vidi, vici
+The French phrase for "already seen", the feeling of having lived something before. :: Déjà vu
+The French phrase for the joy of living. :: Joie de vivre
+The German word for joy at others' misfortune. :: Schadenfreude
+The German word for the spirit of the times. :: Zeitgeist
+The Japanese word for death from overwork. :: Karoshi
+The Danish word for cosy contentment. :: Hygge
+The word for a word that is spelled the same but has different meanings and sounds, like "lead" (metal) and "lead" (guide). :: Heteronym
+The word for the shortening of a word, like "phone" for "telephone". :: Clipping
+The word for a mild word used in place of a harsh one, like "passed away". :: Euphemism
+The word for a combination of contradictory words, like "deafening silence". :: Oxymoron
+The word for a statement that seems to contradict itself but may be true. :: Paradox
+The word for a play on words. :: Pun
+The word for an overused phrase, like "at the end of the day". :: Cliché
+The word for a word that comes from a person's name, like "sandwich". :: Eponym
+The word for words that rhyme in Arabic prose, used in the Quran and sermons. :: Saj'
+The Arabic genre of rhymed-prose tales made famous by Badi al-Zaman al-Hamadhani. :: Maqama
+The poet whose "Maqamat" were famously illustrated in the 13th century by al-Wasiti. :: Al-Hariri
+The Saudi poet and diplomat who wrote "The Apartment of Freedom" (Shiqqat al-Hurriya). :: Ghazi Al-Gosaibi
+The Saudi novelist who wrote "Cities of Salt". :: Abdul Rahman Munif
+The Saudi novelist who shared the 2011 International Prize for Arabic Fiction for "The Doves' Necklace". :: Raja Alem
+The prize known as "the Arabic Booker". :: International Prize for Arabic Fiction
+The Saudi poet who wrote the lyrics of many songs as "Al-Badr". :: Prince Badr bin Abdulmohsen
+The six Arabic letters that never join to the letter after them include alif, dal, dhal, ra, zay, and this. :: Waw
+The Arabic letter that has the same shape as "ba" but with two dots on top. :: Ta
+The Arabic numerals used in the West came to Europe from this region, after being developed in India. :: The Arab world (North Africa and Andalusia)
+The Italian mathematician who popularised Hindu-Arabic numerals in Europe in 1202. :: Fibonacci
+
+## 400
+The word that appears most often in written English. :: The
+The longest word in major English dictionaries, a lung disease from volcanic dust, has this many letters. :: 45
+The 1960s Disney film that made "supercalifragilisticexpialidocious" famous. :: Mary Poppins
+The English word with the most definitions in the Oxford English Dictionary, by most counts. :: Set (or run)
+The only English word that ends in "-mt". :: Dreamt
+The language from which English got "shampoo", "pyjamas", and "bungalow". :: Hindi (Hindustani)
+The language from which English got "ketchup", via Malay. :: Hokkien Chinese
+The language from which English got "kayak". :: Inuit (Inuktitut)
+The language from which English got "tomato" and "chocolate". :: Nahuatl
+The language from which English got "boomerang" and "kangaroo". :: Guugu Yimidhirr (Aboriginal Australian)
+The language from which English got "ski". :: Norwegian
+The language from which English got "tycoon". :: Japanese
+The language from which English got "caravan" and "bazaar". :: Persian
+The language from which English got "loot" and "jungle". :: Hindi
+The language from which English got "yacht" and "cookie". :: Dutch
+The Old English epic poem about a hero fighting Grendel. :: Beowulf
+The writer of "The Canterbury Tales", called the father of English literature. :: Geoffrey Chaucer
+The event of 1066 that brought thousands of French words into English. :: Norman Conquest
+The historic change in English vowel sounds between 1400 and 1700. :: Great Vowel Shift
+The English printer who set up the first press in England in 1476. :: William Caxton
+The German who invented the movable-type printing press around 1440. :: Johannes Gutenberg
+The first major book printed by Gutenberg. :: The Gutenberg Bible
+The Ottoman-era Hungarian-born printer who set up the first Arabic-script press in Istanbul in 1727. :: İbrahim Müteferrika
+The French linguist who deciphered Egyptian hieroglyphs in 1822. :: Jean-François Champollion
+The British architect who deciphered the Linear B script in 1952. :: Michael Ventris
+The three scripts on the Rosetta Stone: hieroglyphic, Demotic, and this. :: Greek
+The undeciphered script of the ancient Indus Valley. :: Indus script
+The undeciphered illustrated manuscript of the 15th century, named after a book dealer. :: Voynich manuscript
+The Polish-Jewish doctor who created Esperanto in 1887. :: L. L. Zamenhof
+The constructed language for Game of Thrones' Dothraki was created by this linguist. :: David J. Peterson
+The American linguist known for "universal grammar". :: Noam Chomsky
+The Swiss linguist who founded modern structural linguistics. :: Ferdinand de Saussure
+The hypothesis that language shapes thought, named after two linguists. :: Sapir-Whorf hypothesis
+The 14th-century Arab historian who wrote on language in his "Muqaddimah". :: Ibn Khaldun
+The name for a language that develops from a pidgin and becomes native. :: Creole
+The simplified mixed language used between groups with no common language. :: Pidgin
+The word for a common language used between speakers of different languages. :: Lingua franca
+The language that was the lingua franca of the Near East before Arabic. :: Aramaic
+The language that was the lingua franca of the Mediterranean in Roman times in the east. :: Greek (Koine)
+The word for a language variety with high and low forms used in different settings, like Fusha and dialects. :: Diglossia
+The linguist who coined "diglossia" in 1959, using Arabic as an example. :: Charles Ferguson
+The term for switching between two languages in one conversation. :: Code-switching
+The Latin-letter way of writing Arabic online using numbers like 3 and 7. :: Arabizi (Franco-Arabic)
+In Arabizi, the number 3 stands for this Arabic letter. :: Ayn (ع)
+In Arabizi, the number 7 stands for this Arabic letter. :: Ha (ح)
+The word for a dead language revived as a national language in the 20th century. :: Hebrew
+The country where Irish is the first official language. :: Ireland
+The Celtic language spoken in Wales. :: Welsh
+The Welsh village with the longest place name in Europe. :: Llanfairpwllgwyngyll
+The language spoken on the Faroe Islands. :: Faroese
+The language that is the closest living relative of Old Norse, spoken in Iceland. :: Icelandic
+The language of Pakistan's largest province by population, Punjab. :: Punjabi
+The language of Bangladesh. :: Bengali (Bangla)
+The 1952 movement in Dhaka is remembered on International Mother Language Day, this date. :: 21 February
+The language spoken by the Tamil people of India and Sri Lanka. :: Tamil
+The language spoken in the Philippines, the base of Filipino. :: Tagalog
+The language spoken in Indonesia. :: Indonesian (Bahasa Indonesia)
+The language spoken in Afghanistan besides Dari. :: Pashto
+The language of the Kurds. :: Kurdish
+The Iranian language that uses the Arabic script but has extra letters like پ and چ. :: Persian
+The Persian letter پ makes this sound, missing in Arabic. :: P
+The Arabic letter used for the "g" sound in Egypt's dialect. :: Jim (ج)
+The Arabic letter qaf is often said as "g" in this region's dialects. :: The Gulf and Bedouin dialects (Najd)
+The Arabic word that became "check" and "cheque" in English. :: Sakk
+The English word for a graveyard monster, from the Arabic "ghul". :: Ghoul
+The English word "sherbet" comes from this Arabic word. :: Sharba (drink)
+The Spanish word "ojalá" comes from this Arabic phrase. :: In sha' Allah
+The number of Spanish words of Arabic origin, roughly. :: 4,000
+The Spanish word "aceite" (oil) comes from this Arabic word. :: Al-zayt
+The Swahili word "kitabu" comes from this Arabic word. :: Kitab
+The Turkish language switched from Arabic script to Latin in this year. :: 1928
+The leader who ordered the Turkish alphabet reform. :: Mustafa Kemal Atatürk
+The Central Asian country that announced in 2017 it would move its language from Cyrillic to Latin letters. :: Kazakhstan
+The language the Azerbaijanis speak, written in Latin since 1991. :: Azerbaijani
+The country that changed Malay's official script from Jawi to Latin. :: Malaysia
+The Arabic-based script once used to write Malay. :: Jawi
+The Arabic-based script used to write Urdu, a slanted style. :: Nastaliq
+The Arabic calligraphy style most used for headings and mosques, large and flowing. :: Thuluth
+The famous 13th-century calligrapher who refined the six classical scripts. :: Yaqut al-Musta'simi
+The 10th-century vizier who set rules of proportion for Arabic letters using dots. :: Ibn Muqla
+The tool traditionally used in Arabic calligraphy, cut from reed. :: Qalam
+The Arabic letter that is a single vertical stroke, used as the unit of proportion in calligraphy. :: Alif
+The year the Saudi Ministry of Culture began the "Year of Arabic Calligraphy". :: 2020
+The year the Saudi Ministry of Culture celebrated the "Year of Arabic Poetry". :: 2023
+The King Salman centre in Riyadh devoted to the Arabic language is called this. :: King Salman Global Academy for Arabic Language
+The international Arabic poetry TV competition from Abu Dhabi. :: Prince of Poets (Amir al-Shu'ara)
+The Nabati poetry TV competition from Abu Dhabi, "The Poet of the Million". :: Sha'ir al-Milyun
+The style of Gulf vernacular poetry. :: Nabati poetry
+The famous pre-Islamic market where poets competed, near Ta'if. :: Souq Ukaz
+The Arabic grammarian whose book "Alfiyya" taught grammar in a thousand verses. :: Ibn Malik
+The grammar school of Basra had a famous rival school in this city. :: Kufa
+The Arabic science of rhetoric and eloquence. :: Balagha
+The Arabic dictionary "Al-Qamus al-Muhit" was compiled by this scholar. :: Al-Fayruzabadi
+The English word "racket" (in tennis) comes from this Arabic word for the palm of the hand. :: Raha
+The English word "elixir" comes from this Arabic word. :: Al-iksir
+The English word "arsenal" comes from this Arabic phrase meaning "house of manufacture". :: Dar al-sina'a
+The English word "average" may come from this Arabic word for damaged goods. :: Awariya
+The French word "chiffre" (number) comes from this Arabic word. :: Sifr
+The language from which English got "pundit" and "guru". :: Sanskrit
+The word for a word borrowed from another language, like "café" in English. :: Loanword
+
+## 500
+The number of living languages in the world, roughly, according to Ethnologue. :: 7,000
+The approximate share of the world's languages considered endangered. :: 40 percent
+The South African language of Nelson Mandela, famous for its click sounds. :: Xhosa
+The Amazonian language studied by Daniel Everett, said to lack numbers. :: Pirahã
+The Pacific language with one of the smallest sound inventories, just 11 phonemes. :: Rotokas
+The language family of the Pacific and Southeast Asia including Malay, Tagalog, and Hawaiian. :: Austronesian
+The island where the Austronesian languages are believed to have begun. :: Taiwan
+The extinct ancient language of Anatolia, the oldest written Indo-European language. :: Hittite
+The 18th-century British judge in India who noticed the link between Sanskrit, Greek, and Latin. :: Sir William Jones
+The ancient grammarian of Sanskrit, author of the "Ashtadhyayi". :: Panini
+The German, also famous for fairy tales, after whom the law of Germanic sound changes is named. :: Jacob Grimm
+The ancient Semitic language of Ugarit, written in a cuneiform alphabet. :: Ugaritic
+The Semitic language of the Kingdom of Aksum, still used in Ethiopian church liturgy. :: Ge'ez
+The ancient North Arabian scripts used across the Arabian Peninsula, found in Tayma and Dedan. :: Dadanitic and Taymanitic
+The ancient Arabian kingdom whose capital was at Dedan, modern Al-'Ula. :: Lihyan
+The script of the Namara inscription of 328 CE, the oldest long text in the Arabic language. :: Nabataean
+The ruler named in the Namara inscription, "king of all the Arabs". :: Imru' al-Qays ibn Amr
+The script of the earliest Quran manuscripts, slanted and without dots. :: Hijazi
+The Umayyad caliph whose reforms made Arabic the language of government administration. :: Abd al-Malik ibn Marwan
+The governor of Iraq who ordered the dots added to distinguish Arabic letters, by tradition. :: Al-Hajjaj ibn Yusuf
+The House of Wisdom in Baghdad, which translated Greek works into Arabic, was called this in Arabic. :: Bayt al-Hikma
+The Nestorian Christian translator who led the translation of Galen into Arabic. :: Hunayn ibn Ishaq
+The Andalusian city that became the centre of translation from Arabic into Latin in the 12th century. :: Toledo
+The Italian translator in Toledo who translated over 70 Arabic works, including Ptolemy's Almagest. :: Gerard of Cremona
+The book "Almagest" got its name from this Arabic form of a Greek word. :: Al-Majisti
+The star in Orion whose name comes from Arabic "yad al-jawza'", the hand of the giant. :: Betelgeuse
+The bright star whose name comes from Arabic "al-dabaran", "the follower". :: Aldebaran
+The star whose name comes from Arabic "al-nasr al-wa'i", the swooping eagle. :: Vega
+The star whose name comes from Arabic "dhanab al-dajaja", "tail of the hen". :: Deneb
+The star in Perseus whose name comes from Arabic "ra's al-ghul", "the demon's head". :: Algol
+The English word "nadir" comes from this Arabic word meaning "opposite". :: Nazir
+The English word "zenith" comes from a misreading of this Arabic word meaning "path". :: Samt
+The English word "azimuth" comes from this Arabic phrase meaning "the directions". :: Al-sumut
+The English word "alchemy" comes from Arabic "al-kimiya", which may come from this Greek word. :: Khemeia (Chemeia)
+The English word "carat" comes from this Arabic word, from the Greek for carob seed. :: Qirat
+The English word "mummy" comes from this Persian-Arabic word for bitumen. :: Mumiya
+The English word "talisman" comes from this Arabic word, from Greek "telesma". :: Tilsam
+The English word "sequin" comes from this Arabic word for a coin mint. :: Sikka
+The English word "tare" (packaging weight) comes from this Arabic word meaning "what is thrown away". :: Tarha
+The Spanish word "alcalde" (mayor) comes from this Arabic word. :: Al-qadi
+The Spanish word "almohada" (pillow) comes from this Arabic word. :: Al-mikhadda
+The Portuguese and Spanish word "azulejo" (tile) comes from this Arabic word. :: Al-zulayj
+The linguistic term for the Arabic system of deriving words from roots by fitting them into patterns. :: Awzan (wazn, morphological patterns)
+The Arabic verb pattern used as the model for all others, built on the letters F-'-L. :: Fa'ala
+The Arabic verb form, the tenth, that often means "to seek", like istaghfara. :: Istaf'ala
+The number of commonly used Arabic verb forms in Western grammars. :: 10
+The Arabic term for the "rules" of Quranic recitation. :: Tajwid
+The seven or ten canonical ways of reciting the Quran. :: Qira'at
+The most widely used Quran recitation today, from Kufa through Hafs. :: Hafs 'an 'Asim
+The Quran recitation used in much of North and West Africa. :: Warsh 'an Nafi'
+The Saudi complex in Madinah that prints the Quran. :: King Fahd Complex for the Printing of the Holy Quran
+The script of the Madinah Mushaf's calligrapher, Uthman Taha. :: Naskh
+The Syrian calligrapher who wrote the Madinah Mushaf. :: Uthman Taha
+The Arabic dictionary "Taj al-Arus", the largest classical dictionary, was compiled by this scholar. :: Murtada al-Zabidi
+The oldest Arabic language academy, founded in Damascus in this year. :: 1919
+The Arabic Language Academy of Cairo, nicknamed "the Academy of the Immortals", was founded in this year. :: 1932
+The Egyptian writer called "the Dean of Arabic Literature", blind from childhood. :: Taha Hussein
+The Saudi scholar who compiled a dictionary of Saudi place names and was a pioneer of Saudi journalism. :: Hamad Al-Jasser
+The Saudi female novelist of "Girls of Riyadh". :: Rajaa Alsanea
+The Saudi novelist who won the 2010 International Prize for Arabic Fiction for "Throwing Sparks". :: Abdo Khal
+The poetry of the pre-Islamic "brigand poets" is called this, after the poets' name. :: Sa'alik poetry
+The pre-Islamic brigand poet famous for "Lamiyyat al-Arab". :: Al-Shanfara
+The pre-Islamic poet known for generosity, from the tribe of Tayy. :: Hatim al-Ta'i
+The pre-Islamic knight-poet who loved Abla. :: Antara ibn Shaddad
+The pre-Islamic poetess famous for elegies for her brother Sakhr. :: Al-Khansa
+The poet who praised the Prophet in "Banat Su'ad", receiving his cloak. :: Ka'b ibn Zuhayr
+The poet known as "the poet of the Prophet". :: Hassan ibn Thabit
+The love poet of the Umayyad era who loved Layla, called "Majnun". :: Qays ibn al-Mulawwah
+The Umayyad poets famous for their poetry duels (naqa'id): Jarir and this rival. :: Al-Farazdaq
+The blind Abbasid poet-philosopher of Ma'arra. :: Abu al-Ala al-Ma'arri
+The Abbasid poet known for wine and wit at Harun al-Rashid's court. :: Abu Nuwas
+The Andalusian poetic form with refrains, sung in strophes. :: Muwashshah
+The Andalusian poet who loved the princess Wallada. :: Ibn Zaydun
+The literary critic and writer of "Al-Bayan wa al-Tabyin" and "The Book of Animals". :: Al-Jahiz
+The writer of "Kalila wa Dimna" in Arabic, from the Persian. :: Ibn al-Muqaffa'
+The original Sanskrit collection of fables that became "Kalila wa Dimna". :: Panchatantra
+The author of the Arabic novel "Season of Migration to the North". :: Tayeb Salih
+The Saudi poet who wrote the lyrics of the Saudi national anthem. :: Ibrahim Khafaji
+The year the current Saudi national anthem lyrics were adopted. :: 1984
+The first words of the Saudi national anthem. :: Sari'i lil-majd wal-'alya'
+The English phrase "check mate" comes from this Persian phrase. :: Shah mat
+The language family of Georgian. :: Kartvelian
+The language spoken by the most people in Africa as a native tongue. :: Arabic
+The Nigerian language with the most speakers in West Africa, widely used in trade. :: Hausa
+The word for a language with no living speakers but still studied, like Latin. :: Dead language (extinct, classical)
+The linguist's term for the smallest unit of meaning, like "un-" or "-ed". :: Morpheme
+The study of meaning in language. :: Semantics
+The study of how context shapes meaning. :: Pragmatics
+The study of sentence structure. :: Syntax
+The International Phonetic Alphabet is known by these initials. :: IPA
+The IPA symbol "ʔ" stands for this sound, like the Arabic hamza. :: Glottal stop
+The sound in Arabic "ع" is called this in phonetics. :: Voiced pharyngeal fricative
+The Arabic "emphatic" letters like ص and ط are made with this tongue movement. :: Pharyngealisation (velarisation)
+The French writer of "The Little Prince", one of the most translated books in the world. :: Antoine de Saint-Exupéry
+The ancient Greek historian who wrote that Egyptian priests told of a king testing which language babies speak first. :: Herodotus
+The Pharaoh in Herodotus' language experiment. :: Psamtik I
+The Quran describes its Arabic tongue as "mubin", meaning this. :: Clear
+The scholar of Basra whose "Al-Kitab" is called "the Quran of grammar". :: Sibawayh
+The Arabic proverb "Al-waqt kal-sayf" says time is like this. :: A sword
+The Arabic name for the letter "hamza" comes from a root meaning this. :: To press (or prick)

@@ -1,0 +1,514 @@
+id: statics
+name: Statics
+nameAr: الاستاتيكا
+group: engineering
+
+## 100
+A wall that holds back soil. :: Retaining wall
+The pressure at the bottom of a liquid increases with this. :: Depth
+The SI unit of force. :: Newton (N)
+The SI unit of mass. :: Kilogram (kg)
+The SI unit of length. :: Metre (m)
+A quantity with both size and direction. :: Vector
+A quantity with size only, like mass or temperature. :: Scalar
+The force with which gravity pulls on an object. :: Weight
+Standard acceleration due to gravity on Earth, to one decimal place, in m/s². :: 9.8 m/s²
+The state of a body when all forces on it balance and it does not accelerate. :: Equilibrium
+Newton's law that says every action has an equal and opposite reaction. :: Third law
+The force that resists two surfaces sliding over each other. :: Friction
+A pull transmitted through a rope or cable. :: Tension
+A push that squeezes a member and tends to shorten it. :: Compression
+The turning effect of a force about a point. :: Moment (torque)
+Force multiplied by this distance gives a moment. :: Perpendicular distance
+The SI unit of a moment. :: Newton-metre (N·m)
+The support force a surface pushes back with, at right angles to the surface. :: Normal force
+A diagram that isolates a body and shows every force acting on it. :: Free-body diagram
+A rigid bar that turns about a fixed point. :: Lever
+The fixed turning point of a lever. :: Fulcrum
+A simple machine made of a wheel with a grooved rim and a rope. :: Pulley
+A sloping surface used to raise loads with less force. :: Inclined plane
+The simple machine that is an inclined plane wrapped around a cylinder. :: Screw
+The simple machine that is two inclined planes back to back, like an axe head. :: Wedge
+A horizontal structural member that carries loads mainly by bending. :: Beam
+A vertical structural member that carries loads mainly in compression. :: Column
+A structure made of members joined to form triangles. :: Truss
+The shape that makes a truss rigid. :: Triangle
+A support that lets a beam roll sideways but not move up or down. :: Roller support
+A support that stops movement in all directions and also stops rotation. :: Fixed support
+A support that stops movement in all directions but lets the member rotate. :: Pin support
+Force divided by the area it acts on. :: Stress (or pressure)
+The SI unit of stress and pressure. :: Pascal (Pa)
+One pascal equals one newton per this. :: Square metre
+The change in length divided by the original length. :: Strain
+The unit of strain. :: None (it is dimensionless)
+A material that returns to its original shape when the load is removed is behaving like this. :: Elastically
+Permanent deformation that stays after the load is removed. :: Plastic deformation
+The law saying extension is proportional to load for a spring. :: Hooke's law
+The constant k in F = kx for a spring. :: Spring constant (stiffness)
+A beam supported at both ends, free to rotate at the supports. :: Simply supported beam
+A load spread evenly along a beam. :: Uniformly distributed load
+A load that acts at a single point. :: Point (concentrated) load
+The point where the whole mass of a body can be taken to act in a uniform gravity field. :: Centre of mass
+The geometric centre of a shape. :: Centroid
+Where is the centroid of a circle? :: At its centre
+Where is the centroid of a rectangle? :: Where its diagonals cross
+Two equal, opposite, parallel forces that are not in line. :: A couple
+The overall effect of a couple on a body. :: Pure rotation (a moment)
+Combining several forces into one force with the same effect. :: Finding the resultant
+The single force that has the same effect as a set of forces. :: Resultant
+Splitting a force into horizontal and vertical parts. :: Resolving into components
+The horizontal component of a force F at angle θ to the horizontal. :: F cos θ
+The vertical component of a force F at angle θ to the horizontal. :: F sin θ
+A body that does not deform under load, as assumed in statics. :: Rigid body
+The branch of mechanics that studies bodies at rest or moving at constant velocity. :: Statics
+The branch of mechanics that studies accelerating bodies. :: Dynamics
+For a body in equilibrium, the sum of all forces equals this. :: Zero
+How many equilibrium equations exist for a rigid body in two dimensions? :: Three
+How many equilibrium equations exist for a rigid body in three dimensions? :: Six
+The kind of friction acting on a body that is not yet sliding. :: Static friction
+The kind of friction acting on a body that is sliding. :: Kinetic (dynamic) friction
+Friction force divided by normal force. :: Coefficient of friction
+Does friction usually depend on contact area in the simple Coulomb model? :: No
+A lubricant mainly does this to friction. :: Reduces it
+The mechanical advantage of a lever is load divided by this. :: Effort
+In a seesaw, the fulcrum sits between these two things. :: The effort and the load
+A wheelbarrow is a lever of this class. :: Second class
+Tweezers and fishing rods are levers of this class. :: Third class
+A crowbar used over a fulcrum near the load is a lever of this class. :: First class
+The everyday name for a moment that twists a shaft. :: Torque
+The tool used to apply a set amount of torque to a bolt. :: Torque wrench
+A cable hanging under its own weight takes this shape. :: Catenary
+A structure designed to carry a road or rail over an obstacle. :: Bridge
+The part of a structure that spreads its loads into the ground. :: Foundation
+A beam built into a wall at one end with the other end free. :: Cantilever
+A diving board is an everyday example of this kind of beam. :: Cantilever
+The force pair that keeps a ladder from sliding is friction at the ground and this at the wall. :: Normal reaction
+The weight of a 10 kg mass on Earth, to the nearest newton, using g = 9.81. :: 98 N
+A 2 m spanner with 50 N applied at right angles gives this torque. :: 100 N·m
+Resultant of a 3 N force east and a 4 N force north. :: 5 N
+A force of 20 N at 1.5 m from a pivot gives this moment. :: 30 N·m
+The mass per unit volume of a material. :: Density
+The ratio of a material's density to the density of water. :: Specific gravity
+The upward force a fluid exerts on a submerged object. :: Buoyancy
+The principle that a floating body displaces its own weight of fluid. :: Archimedes' principle
+A force that acts on every particle of a body, like gravity. :: Body force
+A force that acts only where two bodies touch. :: Contact (surface) force
+Moving a force along its line of action does not change its effect. What is this called? :: Principle of transmissibility
+The common name for a two-dimensional system of forces in one flat plane. :: Coplanar forces
+Forces whose lines of action all pass through one point. :: Concurrent forces
+The device that measures force using a spring. :: Spring balance (newton meter)
+The point at which a hanging object's support line always passes. :: Centre of gravity
+An object is most stable when its centre of gravity is like this. :: Low
+A body tips over when its centre of gravity moves outside this. :: Its base (of support)
+The famous tower in Italy that leans but has not toppled. :: Leaning Tower of Pisa
+The material most used for reinforcing concrete. :: Steel
+Concrete is strong in compression but weak in this. :: Tension
+Steel bars cast inside concrete. :: Rebar (reinforcing bars)
+
+## 200
+A bolt loaded so that it tends to be cut across its shank is in this. :: Shear
+The internal moment that bends a beam into a curve. :: Bending moment
+The joint type in a truss that is assumed frictionless and unable to carry moment. :: Pin joint
+For static equilibrium, the sum of forces and the sum of these must both be zero. :: Moments
+A diagram that plots shear force along a beam. :: Shear force diagram
+A diagram that plots bending moment along a beam. :: Bending moment diagram
+The theorem that the moment of a force equals the sum of the moments of its components. :: Varignon's theorem
+A member with forces at only two points, so the forces act along the line between them. :: Two-force member
+In a pin-jointed truss, every member is assumed to be this kind of member. :: Two-force member
+The truss analysis method that solves equilibrium at each joint in turn. :: Method of joints
+The truss analysis method that cuts through the truss and takes moments. :: Method of sections
+A truss member that carries no load under a given loading. :: Zero-force member
+If two non-collinear members meet at an unloaded joint, the force in each is this. :: Zero
+The maximum bending moment in a simply supported beam with central point load P and span L. :: PL/4
+The maximum bending moment in a simply supported beam with uniform load w over span L. :: wL²/8
+The maximum bending moment in a cantilever of length L with an end load P. :: PL (at the fixed end)
+The maximum bending moment in a cantilever of length L with uniform load w. :: wL²/2
+Where is the bending moment zero on a simply supported beam? :: At the supports
+Where does the maximum bending moment occur relative to the shear force? :: Where shear force is zero
+The slope of the bending moment diagram equals this. :: Shear force
+The slope of the shear force diagram equals the negative of this. :: Distributed load intensity
+The reactions of a simply supported beam with a central point load P. :: P/2 at each support
+A point on a beam where the bending moment changes sign. :: Point of contraflexure
+The name for a structure whose reactions cannot be found from equilibrium alone. :: Statically indeterminate
+The name for a structure whose reactions can be found from equilibrium alone. :: Statically determinate
+A structure with fewer supports than needed for stability. :: Mechanism (unstable)
+Maximum static friction force equals μs times this. :: Normal force
+The angle of a slope at which a block just starts to slide. :: Angle of repose (friction angle)
+tan of the angle of repose equals this. :: Coefficient of static friction
+The belt friction equation T2/T1 = e^(μβ) is named after this mathematician. :: Euler (Euler–Eytelwein)
+In the belt friction equation, β is measured in this unit. :: Radians
+The tight side of a belt carries more of this. :: Tension
+A friction device that uses a band wrapped around a drum. :: Band brake
+A screw thread's lead divided by its circumference gives the tangent of this angle. :: Lead (helix) angle
+A screw that will not unwind on its own under load is called this. :: Self-locking
+The second moment of area of a rectangle about its centroidal axis, width b and depth h. :: bh³/12
+The second moment of area of a solid circle of diameter d about a diameter. :: πd⁴/64
+The polar moment of area of a solid circular shaft of diameter d. :: πd⁴/32
+The theorem used to move a second moment of area to a parallel axis. :: Parallel axis theorem
+The parallel axis theorem adds this term to the centroidal second moment of area. :: Area × distance²
+Second moment of area is measured in this unit in SI. :: m⁴
+The centroid of a triangle lies this fraction of the height from its base. :: One third
+The centroid of a semicircle lies this distance from its flat edge. :: 4r/(3π)
+The theorems of Pappus and Guldinus find these two quantities for solids and surfaces of revolution. :: Volume and surface area
+Bending stress in a beam equals My divided by this. :: I (second moment of area)
+The layer in a bent beam with zero bending stress. :: Neutral axis
+In a symmetric section the neutral axis passes through this. :: The centroid
+I divided by the distance to the outermost fibre. :: Section modulus
+Why are steel I-beams shaped like an I? :: Most material is far from the neutral axis, giving high stiffness for the weight
+The flat top and bottom plates of an I-beam. :: Flanges
+The vertical plate of an I-beam. :: Web
+In an I-beam, the web mainly carries this kind of force. :: Shear
+The stress that acts parallel to a surface. :: Shear stress
+The stress that acts at right angles to a surface. :: Normal stress
+Shear strain is measured as a change in this. :: Angle
+The ratio of shear stress to shear strain. :: Shear modulus (modulus of rigidity)
+Young's modulus of structural steel, to the nearest 10 GPa. :: About 200 GPa
+Young's modulus of aluminium, roughly. :: About 70 GPa
+The ratio of lateral strain to axial strain. :: Poisson's ratio
+A typical Poisson's ratio for steel. :: About 0.3
+The highest Poisson's ratio an isotropic stable material can have. :: 0.5
+A material with the same properties in all directions. :: Isotropic
+Wood, with different properties along and across the grain, is this. :: Anisotropic (orthotropic)
+The stress at which a material starts to deform permanently. :: Yield strength
+The maximum stress on an engineering stress–strain curve. :: Ultimate tensile strength
+Local narrowing of a bar just before it fractures in tension. :: Necking
+Failure stress divided by allowable working stress. :: Factor of safety
+A material that breaks with little plastic deformation. :: Brittle
+A material that stretches a lot before it breaks. :: Ductile
+Cast iron is usually this kind of material. :: Brittle
+Strain caused by a temperature change equals α times this. :: Temperature change (ΔT)
+The symbol α in thermal strain stands for this. :: Coefficient of thermal expansion
+Gaps left in bridges and rails to allow thermal growth. :: Expansion joints
+Stress that builds up when thermal expansion is prevented. :: Thermal stress
+The extension of a bar equals PL divided by this. :: AE
+Twisting stress in a circular shaft equals Tr divided by this. :: J (polar moment of area)
+Angle of twist of a shaft equals TL divided by this. :: GJ
+Power transmitted by a shaft equals torque times this. :: Angular velocity
+A tall slender column fails suddenly by bending sideways. What is this called? :: Buckling
+The engineer whose formula predicts the buckling load of slender columns. :: Leonhard Euler
+Euler's buckling load is proportional to E times I divided by this squared. :: Effective length
+A column fixed at both ends has an effective length of this fraction of its real length. :: 0.5
+A column fixed at one end and free at the other has an effective length of this multiple of its length. :: 2
+Effective length divided by radius of gyration. :: Slenderness ratio
+Radius of gyration equals the square root of I divided by this. :: Area
+A thin-walled cylinder under internal pressure has hoop stress pr divided by this. :: t (wall thickness)
+In a thin-walled cylinder, hoop stress is this many times the longitudinal stress. :: Two
+Hoop stress in a thin sphere under pressure p, radius r, wall t. :: pr/2t
+The device that measures strain by a change in electrical resistance. :: Strain gauge
+The circuit usually used to read a strain gauge. :: Wheatstone bridge
+The angle between the line of the resultant reaction and the normal when sliding is about to start. :: Angle of friction
+For a block on an incline with no friction, the force down the slope is mg times this. :: sin θ
+A load that changes with time and causes failure below the static strength. :: Fatigue loading
+The graph used to show fatigue life against stress. :: S–N curve
+Sudden changes in a part's shape raise local stress. What is the factor called? :: Stress concentration factor
+A hole in a wide plate under tension raises the local stress by about this factor. :: Three
+The method that adds the effects of separate loads on a linear structure. :: Superposition
+In a frame, a member that carries loads at more than two points is called this. :: Multi-force member
+The load per unit length on a beam is usually given this symbol. :: w
+The internal force that tends to slide one part of a beam past the next. :: Shear force
+
+## 300
+The total strain energy in a beam in bending is the integral of M² divided by this. :: 2EI
+The angle of twist per unit length of a shaft equals T divided by this. :: GJ
+A beam fixed at one end and free at the other. :: Cantilever
+The method for beam deflection that integrates the bending moment twice. :: Double integration method
+The differential equation EI y'' = M relates curvature to this. :: Bending moment
+The product EI is called this. :: Flexural rigidity
+Maximum deflection of a simply supported beam with central load P. :: PL³/48EI
+Maximum deflection of a cantilever with an end load P. :: PL³/3EI
+Maximum deflection of a simply supported beam with uniform load w. :: 5wL⁴/384EI
+Maximum deflection of a cantilever with uniform load w. :: wL⁴/8EI
+The method that uses the area of the M/EI diagram to find slopes and deflections. :: Moment-area method
+The beam method that loads an imaginary beam with M/EI. :: Conjugate beam method
+The functions used to write a beam's bending moment in one expression across discontinuities. :: Macaulay (singularity) functions
+The theorem that the deflection at A due to a load at B equals the deflection at B due to the same load at A. :: Maxwell's reciprocal theorem
+Castigliano's theorem says the partial derivative of strain energy with respect to a load gives this. :: The deflection at that load
+Strain energy stored in a bar of length L under axial load P. :: P²L/2AE
+Strain energy per unit volume at stress σ in the elastic range. :: σ²/2E
+The area under the stress–strain curve up to the elastic limit, per unit volume. :: Modulus of resilience
+The area under the whole stress–strain curve, per unit volume. :: Modulus of toughness
+The principle that the work of external forces in a small virtual displacement is zero for a body in equilibrium. :: Principle of virtual work
+A circle that shows how normal and shear stresses change with orientation. :: Mohr's circle
+The maximum and minimum normal stresses at a point. :: Principal stresses
+The planes on which the principal stresses act carry zero of this. :: Shear stress
+The maximum in-plane shear stress equals half the difference of these. :: Principal stresses
+On Mohr's circle, a rotation of θ in the element corresponds to this angle on the circle. :: 2θ
+The failure theory that predicts yield when maximum shear stress reaches half the yield stress. :: Tresca (maximum shear stress) theory
+The failure theory based on distortion energy. :: von Mises theory
+The von Mises theory is more accurate for this kind of material. :: Ductile materials
+The failure theory for brittle materials that uses the largest principal stress. :: Rankine (maximum normal stress) theory
+The beam whose bending stress formula assumes plane sections stay plane. :: Euler–Bernoulli beam
+The beam theory that also includes shear deformation and rotary inertia. :: Timoshenko beam theory
+Shear stress in a beam equals VQ divided by this. :: It (I times width)
+In a rectangular beam, the maximum shear stress is this multiple of the average. :: 1.5
+In a rectangular beam, shear stress is highest at this location. :: The neutral axis
+The point on a section through which a load must act to cause bending without twisting. :: Shear centre
+For a channel section, the shear centre lies here. :: Outside the web, on the side away from the flanges
+The formula for shear flow in a thin-walled section. :: q = VQ/I
+The theory used for torsion of thin-walled closed tubes. :: Bredt–Batho theory
+In Bredt–Batho theory, shear flow equals T divided by twice this. :: The enclosed area
+An open thin-walled section is much weaker than a closed one in this kind of loading. :: Torsion
+Hollow shafts are more efficient than solid ones because shear stress is zero here. :: At the centre
+A material that strains slowly over time under constant load. :: Creep
+Stress that falls over time under constant strain. :: Stress relaxation
+A curved beam's neutral axis shifts toward this. :: The centre of curvature
+The equation for buckling of columns of intermediate length, combining crushing and buckling. :: Rankine–Gordon formula
+The secant formula is used for columns with this kind of load. :: Eccentric load
+A load applied off the centroid causes both direct stress and this. :: Bending stress
+The kern or core of a section is the region where a compressive load causes no stress of this type. :: Tensile stress
+The kern of a rectangular section extends this fraction of the width each side of the centre. :: One sixth (middle third rule)
+The rule that masonry stays in compression if the resultant falls inside the middle third. :: Middle third rule
+The number of unknown reactions minus the number of equilibrium equations. :: Degree of static indeterminacy
+For a plane truss, m + r = 2j checks this. :: Static determinacy
+A fixed-ended beam with a central point load has a maximum moment of this. :: PL/8
+A fixed-ended beam with a uniform load has a support moment of this. :: wL²/12
+The moment at the centre of a fixed-ended beam with uniform load w. :: wL²/24
+The method of analysis that distributes fixed-end moments at joints until balance. :: Moment distribution (Hardy Cross) method
+The engineer who introduced moment distribution in 1930. :: Hardy Cross
+In moment distribution, the share of a moment taken by each member depends on this. :: Distribution factor (stiffness)
+The carry-over factor for a prismatic member with a fixed far end. :: One half
+The equations that relate end moments to rotations and deflections in frames. :: Slope-deflection equations
+The method of structural analysis that uses member stiffness matrices. :: Direct stiffness method
+The numerical method that divides a structure into small elements. :: Finite element method
+A line that shows how a reaction or moment changes as a unit load moves across a beam. :: Influence line
+The principle that an influence line has the shape of the deflected beam when the restraint is released. :: Müller-Breslau principle
+For a two-hinged parabolic arch with uniform load, the bending moment is this. :: Zero
+The horizontal thrust of a three-hinged arch with uniform load w, span L and rise h. :: wL²/8h
+A cable with a uniform load along its horizontal span takes this shape. :: Parabola
+The tension in a cable is lowest here. :: At the lowest point
+Increasing the sag of a cable does this to its tension. :: Reduces it
+The point where a hanging chain's tension equals its horizontal component. :: The lowest point
+A space truss joint has this many equilibrium equations. :: Three
+A tetrahedron is the basic stable unit of this kind of structure. :: Space truss
+A structure that carries load mainly through membrane forces in a curved shell. :: Shell (dome)
+Hoop stresses in a hemispherical dome under its own weight become tensile below this angle from the crown. :: About 52 degrees
+Friction on a journal bearing is often modelled with this circle. :: Friction circle
+A rope wrapped 1.5 turns around a post with μ = 0.3 multiplies the holding force by about this. :: About 17 times
+The ratio of the friction coefficient for rolling to that for sliding is usually like this. :: Much smaller
+The wedge angle at which a wedge becomes self-locking depends on this. :: Friction angle
+The mechanical advantage of an ideal block and tackle equals the number of these. :: Supporting rope segments
+A differential pulley gets its advantage from two pulleys of slightly different this. :: Diameter
+Efficiency of a machine equals mechanical advantage divided by this. :: Velocity ratio
+The energy method that sets the total potential energy to a minimum for stable equilibrium. :: Minimum potential energy
+An equilibrium where a small push leads to return. :: Stable equilibrium
+An equilibrium where a small push leads to falling away. :: Unstable equilibrium
+An equilibrium where a small push leads to a new position that is also at rest. :: Neutral equilibrium
+Stress concentrations matter most for this kind of failure. :: Fatigue (and brittle fracture)
+The limit below which steel can survive an unlimited number of stress cycles. :: Endurance (fatigue) limit
+The rule that adds the fractions of fatigue life used at each stress level. :: Miner's rule
+The Goodman line accounts for this in fatigue design. :: Mean stress
+The property that measures resistance to crack growth. :: Fracture toughness
+The mode of crack opening in which the crack faces pull straight apart. :: Mode I
+The theory of fracture based on energy released as a crack grows. :: Griffith theory
+A composite beam of steel and timber is analysed with this method. :: Transformed section method
+The modular ratio in a composite section is the ratio of these two values. :: Young's moduli
+In reinforced concrete design, concrete in tension is usually assumed to be this. :: Cracked (carrying no tension)
+The steel in prestressed concrete is tensioned to put the concrete into this. :: Compression
+The relationship between E, G and Poisson's ratio for isotropic materials. :: E = 2G(1 + ν)
+The bulk modulus relates pressure to this. :: Volumetric strain
+Bulk modulus in terms of E and ν. :: E/3(1 − 2ν)
+The generalised Hooke's law for 3D stress relates six stresses to this many strains. :: Six
+
+## 400
+The stress state where only one principal stress is non-zero. :: Uniaxial stress
+The yield criterion that predicts yield at a lower shear stress than von Mises, making it more conservative. :: Tresca
+Elastic strain energy that changes only volume is called this. :: Dilatational (volumetric) strain energy
+Stress divided by strain in the linear elastic region. :: Young's modulus
+The ratio of plastic moment to yield moment for a section. :: Shape factor
+The shape factor of a rectangular section. :: 1.5
+The shape factor of a solid circular section. :: About 1.7
+The shape factor of a typical I-section. :: About 1.12 to 1.15
+The moment at which a section becomes fully yielded. :: Plastic moment
+A location where the whole section has yielded and rotation happens freely. :: Plastic hinge
+The collapse load of a simply supported beam with central load and plastic moment Mp. :: 4Mp/L
+The collapse load of a fixed-ended beam with central point load and plastic moment Mp. :: 8Mp/L
+The theorem stating that any load from a statically admissible moment field is a lower bound to collapse. :: Lower bound (static) theorem
+The theorem stating that any mechanism gives an upper bound to the collapse load. :: Upper bound (kinematic) theorem
+The plastic section modulus of a rectangle of width b and depth h. :: bh²/4
+In plastic analysis, the plastic neutral axis divides the section into these. :: Equal areas
+The phenomenon where a beam buckles sideways and twists under bending. :: Lateral-torsional buckling
+The local failure of a thin plate element in compression. :: Local (plate) buckling
+The concept that a thin plate carries load beyond first buckling using its edges. :: Post-buckling (effective width)
+The buckling stress of a plate depends on (t/b) to this power. :: Two
+The engineer who studied the post-buckling effective width of plates in 1932. :: Theodore von Kármán
+The stiffness quantity used in the warping torsion of open sections. :: Warping constant
+The torsion constant of a thin open section is approximately the sum of bt³ times this. :: One third
+The analogy that relates torsion stress to the slope of a soap film. :: Prandtl's membrane analogy
+The function whose Laplacian equals a constant in Saint-Venant torsion. :: Prandtl stress function
+The principle that the effect of a load's exact distribution fades a short distance away. :: Saint-Venant's principle
+The stress function whose fourth-order equation solves 2D elasticity. :: Airy stress function
+The Airy stress function satisfies this equation. :: Biharmonic equation
+The compatibility equations ensure that strains correspond to this. :: A continuous displacement field
+The tensor that describes the state of stress at a point. :: Cauchy stress tensor
+The number of independent components in a symmetric stress tensor. :: Six
+The quantities of a stress tensor that do not change with axis rotation. :: Stress invariants
+The first stress invariant equals the sum of these. :: Normal stresses (the trace)
+The part of stress that changes shape, not volume. :: Deviatoric stress
+The part of stress that changes volume, equal to the mean normal stress. :: Hydrostatic (spherical) stress
+The second deviatoric invariant is the basis of this yield criterion. :: von Mises
+The surface in principal stress space at which a material yields. :: Yield surface
+The von Mises yield surface is this shape in principal stress space. :: Cylinder
+The Tresca yield surface is this shape in principal stress space. :: Hexagonal prism
+The flow rule that says plastic strain increments are normal to the yield surface. :: Associated flow rule (normality)
+A material that gets stronger as it is plastically deformed. :: Strain hardening (work hardening)
+The phenomenon where yield strength in compression drops after tensile yielding. :: Bauschinger effect
+The hardening model in which the yield surface grows evenly in all directions. :: Isotropic hardening
+The hardening model in which the yield surface shifts without growing. :: Kinematic hardening
+The stress concentration factor at the tip of an elliptical hole is 1 + 2a divided by this. :: b
+The equation that gives the stress concentration at an elliptical hole. :: Inglis solution
+The equations for thick-walled cylinders under pressure. :: Lamé equations
+In a thick cylinder under internal pressure, hoop stress is largest here. :: At the inner surface
+The process of pressurising a gun barrel past yield to leave helpful residual stress. :: Autofrettage
+The equation for contact stress between curved elastic bodies. :: Hertz contact theory
+Hertzian contact pressure under a ball grows with load to this power. :: One third
+Maximum shear under a Hertzian contact occurs at this location. :: Just below the surface
+The theory of thin plate bending that assumes normals stay normal. :: Kirchhoff–Love plate theory
+The plate theory that includes transverse shear deformation. :: Mindlin–Reissner plate theory
+The flexural rigidity of a plate is Et³ divided by this. :: 12(1 − ν²)
+The membrane theory of shells neglects this. :: Bending
+The length over which edge bending effects decay in a cylindrical shell is proportional to this. :: √(rt)
+The buckling load of a thin cylinder in axial compression in practice is much lower than theory because of this. :: Imperfection sensitivity
+The engineer whose theory explained imperfection sensitivity in buckling in 1945. :: Warner Koiter
+A point on a load–deflection path where the stiffness becomes zero and the load drops. :: Limit point (snap-through)
+A point where two equilibrium paths cross. :: Bifurcation point
+Shallow arches and domes under load can suddenly flip shape. What is this called? :: Snap-through buckling
+The energy-based method for estimating buckling loads with an assumed shape. :: Rayleigh–Ritz method
+The ratio of the Euler load of a pin-ended strut to that of a cantilever of the same length. :: Four
+The tangent modulus theory applies to buckling of this kind of column. :: Inelastic (intermediate) columns
+The engineer who proposed the double-modulus (reduced modulus) theory. :: Friedrich Engesser
+The engineer who resolved the tangent and reduced modulus paradox in 1947. :: Francis Shanley
+The column curve used in design to account for residual stress and imperfections. :: Perry–Robertson (or multiple column curves)
+Residual stresses in hot-rolled I-sections are compressive here. :: At the flange tips
+The matrix that relates nodal forces to nodal displacements in FEM. :: Stiffness matrix
+A global stiffness matrix for a stable structure must have this property. :: Positive definite (non-singular after supports)
+The stiffness matrix of a linear elastic structure is symmetric because of this theorem. :: Maxwell–Betti reciprocal theorem
+The local axial stiffness of a bar element is this. :: AE/L
+The bending stiffness term 12EI/L³ in a beam element relates shear to this. :: Transverse displacement
+The 4EI/L term relates end moment to this at the same end. :: Rotation
+The flexibility method treats these as primary unknowns. :: Redundant forces
+The stiffness method treats these as primary unknowns. :: Displacements
+The extra stiffness matrix used for buckling analysis in FEM. :: Geometric stiffness matrix
+The first-order shape functions in a two-node bar element are this kind of function. :: Linear
+The beam element shape functions that give cubic deflection. :: Hermite cubic polynomials
+The FEM test that checks an element can reproduce constant strain. :: Patch test
+The problem where low-order elements become too stiff in bending. :: Shear locking
+A common fix for shear locking. :: Reduced integration
+A spurious zero-energy mode that can come from reduced integration. :: Hourglass mode
+The analysis that accounts for large displacements changing the equilibrium. :: Geometric nonlinear analysis
+The P-delta effect comes from axial load acting through this. :: Lateral displacement
+The iterative method most used to solve nonlinear FEM equations. :: Newton–Raphson method
+The path-following method that can pass limit points. :: Arc-length (Riks) method
+The theorem that minimizing complementary energy enforces this. :: Compatibility
+The theorem that minimizing potential energy enforces this. :: Equilibrium
+The engineer who gave his name to the virtual work method for truss deflections with a unit load. :: James Clerk Maxwell (and Otto Mohr)
+The ratio of the plastic collapse load to the working load. :: Load factor
+The design approach that uses partial factors on loads and resistances. :: Limit state design (LRFD)
+The serviceability limit for floor beam deflection in many codes is span divided by this. :: 360
+In composite beams, shear connectors transfer this between steel and concrete. :: Longitudinal shear
+The effective flange width concept accounts for this in wide flanges. :: Shear lag
+The phenomenon where stress in a wide flange is higher near the web. :: Shear lag
+The Rankine earth pressure coefficient for active pressure with friction angle φ. :: (1 − sin φ)/(1 + sin φ)
+The angle a frictionless retaining wall's failure wedge makes with the horizontal in active Rankine conditions. :: 45° + φ/2
+The engineer who developed wedge theory for retaining walls in 1776. :: Charles-Augustin de Coulomb
+
+## 500
+The Roman engineer whose book De Architectura described cranes and hoists. :: Vitruvius
+The Greek scientist who said 'Give me a place to stand and I will move the Earth.' :: Archimedes
+The point where the whole weight of a body can be taken to act. :: Centre of gravity
+The scientist whose 1676 Latin anagram 'ceiiinosssttuv' stated the law of springs. :: Robert Hooke
+Hooke's anagram decodes to this Latin phrase. :: Ut tensio, sic vis
+The engineer who first stated the beam bending problem in his 1638 book Two New Sciences. :: Galileo Galilei
+Galileo's mistake about beam bending was assuming the beam turns about this point. :: Its bottom (compression) edge
+The French engineer who correctly located the neutral axis in 1826 lecture notes. :: Claude-Louis Navier
+The Scottish engineer who published the first systematic textbook on applied mechanics in 1858. :: William Rankine
+The British engineer whose 1850 tubular bridge tests helped found plate buckling knowledge. :: William Fairbairn
+The 1850 tubular bridge across the Menai Strait designed by Robert Stephenson. :: Britannia Bridge
+The 1907 bridge collapse in Canada caused by buckling of a compression chord. :: Quebec Bridge
+The 1940 suspension bridge failure caused by aeroelastic flutter. :: Tacoma Narrows Bridge
+The 1981 Kansas City hotel disaster caused by a change in hanger rod connections. :: Hyatt Regency walkway collapse
+The engineer who designed the Firth of Forth cantilever bridge with Benjamin Baker. :: John Fowler
+The 1879 bridge in Scotland that fell in a storm, leading to better wind load design. :: Tay Bridge
+The New York skyscraper whose wind bracing was quietly repaired in 1978 after a student's question. :: Citicorp Center
+The engineer of the Citicorp Center who led the secret repairs. :: William LeMessurier
+The structural engineer who pioneered tube structures for Chicago skyscrapers in the 1960s. :: Fazlur Rahman Khan
+Fazlur Khan was born in this present-day country. :: Bangladesh
+The structural system Fazlur Khan used for the John Hancock Center, with big diagonal braces. :: Trussed (braced) tube
+The structural system of the Willis (Sears) Tower. :: Bundled tube
+The structural system of the Burj Khalifa that braces three wings around a central core. :: Buttressed core
+The engineer whose firm, SOM, led the structural design of Burj Khalifa. :: William F. Baker
+Jeddah Tower uses a structural system descended from this one. :: Buttressed core (as in Burj Khalifa)
+The Swiss engineer known for graphic statics and thin concrete bridges like Salginatobel. :: Robert Maillart
+The graphical method for finding resultants and truss forces with force polygons. :: Graphic statics
+The German engineer who formalised graphic statics in 1866. :: Karl Culmann
+The diagram of a truss where each member force appears as a line in a combined force polygon. :: Maxwell–Cremona diagram
+The Catalan architect who used hanging chain models to find arch shapes. :: Antoni Gaudí
+The 1675 rule 'as hangs the flexible line, so but inverted will stand the rigid arch'. :: Hooke's law of the hanging chain
+The Spanish engineer famous for thin concrete shells such as the Los Manantiales restaurant. :: Félix Candela
+The shell shape Candela used most often, a doubly ruled saddle. :: Hyperbolic paraboloid (hypar)
+The Uruguayan engineer famous for thin brick vaults called Gaussian vaults. :: Eladio Dieste
+The designer who coined the word tensegrity. :: Buckminster Fuller
+A structure whose members are in pure tension or pure compression, with struts not touching. :: Tensegrity
+The German architect-engineer who pioneered lightweight cable-net roofs such as the Munich Olympic Stadium. :: Frei Otto
+The physicist whose 1864 counting rule tells whether a pin-jointed frame is just rigid. :: James Clerk Maxwell
+Maxwell's rule for a pin-jointed plane frame to be just rigid. :: m = 2j − 3
+An apparently rigid frame satisfying Maxwell's rule but still able to move has this kind of mechanism. :: Infinitesimal (finite) mechanism
+The engineer who wrote the classic 1936 book Theory of Elastic Stability. :: Stephen Timoshenko
+Timoshenko was born in this country, then part of the Russian Empire. :: Ukraine
+The engineer who formulated the theory of thin elastic shells in 1888. :: Augustus Love
+The 1821 equations of linear elasticity were first derived by this French engineer. :: Claude-Louis Navier
+The mathematician who introduced the stress tensor concept in 1822. :: Augustin-Louis Cauchy
+The French engineer for whom the torsion and bending solution of 1855 is named. :: Adhémar Barré de Saint-Venant
+The German engineer who devised the graphical stress circle in 1882. :: Christian Otto Mohr
+Mohr's circle was anticipated by this engineer's work on stress trajectories. :: Karl Culmann
+The British physicist who in 1864 published the reciprocal theorem for frames. :: James Clerk Maxwell
+The Italian engineer who extended the reciprocal theorem in 1872. :: Enrico Betti
+The Italian railway engineer who published his energy theorem in 1873. :: Carlo Alberto Castigliano
+The Russian engineer who built the first hyperboloid steel towers in 1896. :: Vladimir Shukhov
+The British engineer who developed the theory of plastic design of steel frames at Cambridge. :: John Baker
+The two British engineers who wrote the 1931 Treatise on Photo-Elasticity. :: Coker and Filon
+Photoelasticity uses this property of transparent materials under stress. :: Birefringence
+The coloured bands seen in a photoelastic model. :: Isochromatic fringes
+The dark lines in photoelasticity that show principal stress directions. :: Isoclinics
+Torsional-flexural buckling is most likely in this kind of cross-section. :: Thin-walled open sections, such as angles and channels
+The Wagner hypothesis concerns this kind of buckling of open sections. :: Torsional (and torsional-flexural) buckling
+The term for a thin web that keeps carrying shear after buckling, using diagonal tension. :: Tension field action
+The engineer whose 1929 tension field theory explained post-buckled aircraft webs. :: Herbert Wagner
+The phenomenon named after Brazier where a bent tube flattens and loses stiffness. :: Brazier effect
+The engineer who solved the buckling of a simply supported plate in compression in 1891. :: George Bryan
+The buckling coefficient k of a long simply supported plate in uniform compression. :: 4
+The buckling coefficient of a long plate in shear with simply supported edges. :: About 5.35
+The critical buckling stress of a thin cylinder under axial load is about 0.6Et divided by this. :: The radius
+The knockdown factor applied to cylinder buckling in NASA SP-8007 accounts for this. :: Imperfections
+The lowest natural frequency of a simply supported beam depends on √(EI/m) divided by this. :: L²
+The engineer whose method of successive approximations finds natural frequencies of beams. :: Lord Rayleigh (Rayleigh's method)
+The theorem that the Rayleigh quotient is stationary at eigenvectors. :: Rayleigh's principle
+The Japanese engineer called the father of earthquake-resistant design, whose bank building survived the 1923 Kanto earthquake. :: Tachu Naito
+The theory that predicts dynamic amplification of loads suddenly applied to an elastic system. :: Dynamic load factor of 2
+A suddenly applied load on an undamped elastic bar produces this many times the static stress. :: Two
+The theory of failure based on total strain energy. :: Beltrami theory
+The yield criterion for soils and rocks that adds pressure dependence. :: Mohr–Coulomb criterion
+The smooth version of Mohr–Coulomb used in plasticity. :: Drucker–Prager criterion
+The postulate that defines stable plastic materials. :: Drucker's stability postulate
+The method that solves plane plasticity problems with characteristic lines. :: Slip-line field theory
+The upper bound for punch indentation pressure on a rigid–plastic half-space. :: (2 + π)k (Prandtl solution)
+The stress intensity factor for a centre crack in an infinite plate under stress σ. :: σ√(πa)
+The fracture parameter that extends LEFM to elastic-plastic materials. :: J-integral
+The engineer who introduced the J-integral in 1968. :: James Rice
+The Paris law relates crack growth per cycle to this quantity. :: Range of stress intensity factor (ΔK)
+The WWII ships that cracked in two in cold water, revealing brittle fracture. :: Liberty ships
+The 1954 airliner crashes caused by fatigue cracks near square windows. :: de Havilland Comet
+The 1988 Aloha Airlines incident was caused by this kind of fatigue. :: Multiple-site fatigue damage
+The temperature below which steels switch from ductile to brittle fracture. :: Ductile-to-brittle transition temperature
+The test that measures impact toughness with a notched bar and pendulum. :: Charpy test
+The test used to measure hardness with a diamond pyramid. :: Vickers hardness test
+The test that measures hardness with a steel ball and gives a number HB. :: Brinell hardness test
+The name of the effect where a rope wound on a capstan can hold a ship with little force. :: Capstan effect
+The minimum number of non-concurrent, non-parallel forces for a stable 2D rigid body support. :: Three
+A plane frame with r reactions, m members and j joints is unstable if r + m is less than this. :: 2j
+The ratio of the Euler loads of a fixed–pinned column to a pinned–pinned column. :: About 2.05
+The effective length factor K of a fixed–pinned column. :: About 0.7
+The torsional stiffness of a closed thin tube is 4A²G divided by this integral. :: ∮ ds/t
+The unit of the warping constant in SI. :: m⁶
+The first published finite element paper (1956) by Turner, Clough, Martin and Topp was for this industry. :: Aircraft (Boeing)
+The engineer who coined the term 'finite element' in 1960. :: Ray Clough
+The general-purpose finite element program developed for NASA in the late 1960s. :: NASTRAN

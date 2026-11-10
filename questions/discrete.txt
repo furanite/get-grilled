@@ -1,0 +1,514 @@
+id: discrete
+name: Discrete Mathematics
+nameAr: الرياضيات المتقطعة
+group: cces
+
+## 100
+The branch of maths that studies separate, countable objects rather than continuous ones. :: Discrete mathematics
+A collection of distinct objects. :: Set
+An object that belongs to a set. :: Element (member)
+The set with no elements. :: Empty set
+The number of elements in the set {∅}, which contains only the empty set. :: 1
+The number of elements in a set. :: Cardinality
+The set of everything under discussion. :: Universal set
+A set whose elements all belong to another set. :: Subset
+The set of elements in A or B or both. :: Union
+The set of elements in both A and B. :: Intersection
+The elements of A that are not in B. :: Set difference
+The elements not in A, within the universal set. :: Complement
+The number of elements in {1, 2, 3} ∪ {3, 4}. :: 4
+The number of elements in {1, 2, 3} ∩ {2, 3, 4}. :: 2
+The diagram of overlapping circles used to show sets. :: Venn diagram
+The English logician the Venn diagram is named after. :: John Venn
+The set of whole numbers 0, 1, 2, 3 and so on, by one common definition. :: Natural numbers
+The set of all positive and negative whole numbers and zero. :: Integers
+The letter used for the set of integers. :: Z
+The letter used for the set of rational numbers. :: Q
+A statement that is either true or false. :: Proposition
+The logical connective meaning "and". :: Conjunction
+The logical connective meaning "or". :: Disjunction
+The logical operation that flips true to false. :: Negation
+The "if p then q" statement. :: Conditional (implication)
+The only case in which "if p then q" is false. :: p true and q false
+The statement "p if and only if q". :: Biconditional
+A statement that is always true. :: Tautology
+A statement that is always false. :: Contradiction
+The truth value of "true OR false". :: True
+The truth value of "true AND false". :: False
+The number of rows in a truth table for 3 propositions. :: 8
+The converse of "if p then q". :: If q then p
+The contrapositive of "if p then q". :: If not q then not p
+The statement that is logically equivalent to "if p then q": converse or contrapositive? :: Contrapositive
+The upside-down A symbol (∀) in logic means this. :: For all
+The backwards E symbol (∃) in logic means this. :: There exists
+The kind of logic that uses "for all" and "there exists". :: Predicate logic
+A proof that shows a statement holds for 1, then for n + 1 if it holds for n. :: Mathematical induction
+The first step of an induction proof. :: Base case
+A proof that assumes the opposite and reaches something impossible. :: Proof by contradiction
+An example that shows a general statement is false. :: Counterexample
+The ancient Greek who proved there are infinitely many primes. :: Euclid
+A whole number greater than 1 whose only divisors are 1 and itself. :: Prime number
+The smallest prime number. :: 2
+The only even prime number. :: 2
+The number of primes less than 20. :: 8
+The largest number that divides two numbers, shortened to three letters. :: GCD
+The smallest number that both of two numbers divide into, shortened to three letters. :: LCM
+The GCD of 12 and 18. :: 6
+The LCM of 4 and 6. :: 12
+The remainder when 17 is divided by 5. :: 2
+The operation that gives the remainder after division. :: Modulo
+Two numbers whose GCD is 1 are called this. :: Coprime (relatively prime)
+The theorem that every integer above 1 has a unique prime factorisation. :: Fundamental theorem of arithmetic
+The prime factorisation of 12. :: 2² × 3
+The ancient algorithm for finding the GCD of two numbers. :: Euclidean algorithm
+The value of 5! (five factorial). :: 120
+The value of 0!. :: 1
+The number of ways to arrange 3 different books on a shelf. :: 6
+The number of ways to choose 2 people from 4. :: 6
+An arrangement where order matters. :: Permutation
+A selection where order does not matter. :: Combination
+The triangle of numbers in which each is the sum of the two above it. :: Pascal's triangle
+The number at the top of Pascal's triangle. :: 1
+The principle that if 5 pigeons go into 4 holes, one hole has at least 2. :: Pigeonhole principle
+The rule that if one task has m ways and another n ways, doing both has m × n ways. :: Product rule (multiplication principle)
+The number of possible outcomes when flipping a coin 3 times. :: 8
+The number of subsets of a set with 3 elements. :: 8
+The set of all subsets of a set. :: Power set
+The sequence 1, 1, 2, 3, 5, 8, named after an Italian. :: Fibonacci sequence
+The next number in the Fibonacci sequence after 13. :: 21
+A list of numbers that goes up by the same amount each time. :: Arithmetic sequence
+A list of numbers that is multiplied by the same amount each time. :: Geometric sequence
+The sum of the numbers 1 to 10. :: 55
+A formula that defines each term from earlier terms. :: Recurrence relation
+A rule that pairs each input with exactly one output. :: Function
+The set of allowed inputs of a function. :: Domain
+The set of possible outputs a function may be aimed at. :: Codomain
+A function in which different inputs always give different outputs. :: One-to-one (injective)
+A function in which every output is reached. :: Onto (surjective)
+A function that is both one-to-one and onto. :: Bijection
+A set of ordered pairs linking elements of two sets. :: Relation
+A relation that is reflexive, symmetric and transitive. :: Equivalence relation
+A set of points joined by lines, in discrete maths. :: Graph
+A point in a graph. :: Vertex (node)
+A line joining two points in a graph. :: Edge
+The number of edges at a vertex. :: Degree
+A graph with an edge between every pair of vertices. :: Complete graph
+A connected graph with no cycles. :: Tree
+A path that starts and ends at the same vertex. :: Cycle
+The Prussian city whose seven bridges started graph theory. :: Königsberg
+The Swiss mathematician who solved the bridges problem in 1736. :: Leonhard Euler
+The number of edges in a tree with 10 vertices. :: 9
+A graph whose edges have directions. :: Directed graph (digraph)
+A graph with numbers on its edges, such as distances. :: Weighted graph
+The 1976 theorem saying any flat map can be coloured so that neighbours differ, using at most this many colours. :: 4
+The number system used by computers, with base 2. :: Binary
+The value of 2 to the power 10. :: 1,024
+In any graph, the sum of all vertex degrees equals twice this. :: The number of edges
+
+## 200
+The number of subsets of a set with 5 elements. :: 32
+The number of non-empty proper subsets of a set with 4 elements. :: 14
+The size of A × B when A has 3 elements and B has 4. :: 12
+The set A × B of all ordered pairs is called this. :: Cartesian product
+The law that says the complement of A ∪ B is the complement of A intersected with the complement of B. :: De Morgan's law
+The principle |A ∪ B| = |A| + |B| − |A ∩ B|. :: Inclusion–exclusion principle
+The number of integers from 1 to 100 divisible by 3 or 5. :: 47
+The set difference that keeps elements in exactly one of A and B. :: Symmetric difference
+The paradox about the set of all sets that do not contain themselves. :: Russell's paradox
+Two sets with no common elements are called this. :: Disjoint
+The negation of "for all x, P(x)". :: There exists x such that not P(x)
+The negation of "p and q", by De Morgan's law. :: Not p or not q
+The negation of "if p then q". :: p and not q
+The statement equivalent to "if p then q" using only "not" and "or". :: Not p or q
+The rule of inference: from p and "if p then q", conclude q. :: Modus ponens
+The rule of inference: from "not q" and "if p then q", conclude "not p". :: Modus tollens
+The rule: from "if p then q" and "if q then r", conclude "if p then r". :: Hypothetical syllogism
+The rule: from "p or q" and "not p", conclude q. :: Disjunctive syllogism
+A set of connectives that can express every truth function. :: Functionally complete set
+The single connective, also called the Sheffer stroke, that is functionally complete alone. :: NAND
+The normal form written as an AND of ORs, shortened to three letters. :: CNF
+The normal form written as an OR of ANDs, shortened to three letters. :: DNF
+A proof that shows "if not q then not p" to prove "if p then q". :: Proof by contraposition
+The type of induction that assumes the statement for all smaller values. :: Strong induction
+The principle that every non-empty set of positive integers has a least element. :: Well-ordering principle
+The proof that √2 is irrational is a classic proof of this type. :: Proof by contradiction
+The method Cantor used to show the real numbers are uncountable. :: Diagonal argument
+A set that can be put in one-to-one match with the natural numbers. :: Countably infinite
+The cardinality of the natural numbers, written with a Hebrew letter. :: Aleph-null (ℵ₀)
+The sum 1 + 2 + … + n as a formula. :: n(n + 1)/2
+The sum of the first n odd numbers. :: n²
+The sum 1 + 2 + 4 + … + 2^n. :: 2^(n+1) − 1
+The value of C(5, 2). :: 10
+The value of C(6, 3). :: 20
+The value of P(5, 2). :: 20
+The number of distinct arrangements of the letters in "LEVEL". :: 30
+The number of ways to arrange 5 people around a round table. :: 24
+The number of 4-digit PINs using digits 0 to 9 with repetition. :: 10,000
+The number of ways to pick 3 items from 5 types with repetition allowed. :: 35
+The counting method of placing dividers between objects. :: Stars and bars
+The theorem that expands (x + y)^n using combinations. :: Binomial theorem
+The coefficient of x² in (1 + x)^5. :: 10
+The sum of the numbers in row n of Pascal's triangle. :: 2^n
+The identity C(n, k) = C(n−1, k−1) + C(n−1, k). :: Pascal's identity
+The minimum number of people needed to be sure two share a birth month. :: 13
+A permutation in which no element stays in its place. :: Derangement
+The number of derangements of 3 items. :: 2
+The recurrence relation of the Fibonacci numbers. :: F(n) = F(n−1) + F(n−2)
+The closed form for the Fibonacci numbers, named after a French mathematician. :: Binet's formula
+The ratio that consecutive Fibonacci numbers approach. :: Golden ratio
+The solution to a(n) = 2a(n−1) with a(0) = 1. :: 2^n
+The puzzle with discs on three pegs needing 2^n − 1 moves. :: Tower of Hanoi
+The number of moves to solve the Tower of Hanoi with 4 discs. :: 15
+The sequence 1, 1, 2, 5, 14, 42 named after a Belgian mathematician. :: Catalan numbers
+The GCD of 48 and 180. :: 12
+The LCM of 12 and 15. :: 60
+The identity that the GCD of a and b can be written as ax + by. :: Bézout's identity
+The value of 23 mod 7. :: 2
+The value of −1 mod 5. :: 4
+The last digit of 7 to the power 4. :: 1
+The multiplicative inverse of 3 modulo 7. :: 5
+The theorem that says a^(p−1) ≡ 1 mod p when p is prime and does not divide a. :: Fermat's little theorem
+The theorem that solves systems of congruences with coprime moduli. :: Chinese remainder theorem
+The function that counts integers up to n that are coprime to n. :: Euler's totient function
+The value of φ(10). :: 4
+The value of φ(13). :: 12
+The ancient Greek sieve for finding primes. :: Sieve of Eratosthenes
+The number of primes below 100. :: 25
+Primes that differ by 2, such as 11 and 13. :: Twin primes
+The unproven claim that every even number above 2 is the sum of two primes. :: Goldbach's conjecture
+A number equal to the sum of its proper divisors, such as 6 or 28. :: Perfect number
+Primes of the form 2^p − 1. :: Mersenne primes
+A relation in which every element relates to itself. :: Reflexive
+A relation in which a R b implies b R a. :: Symmetric
+A relation in which a R b and b R c imply a R c. :: Transitive
+A relation that is reflexive, antisymmetric and transitive. :: Partial order
+A set with a partial order, shortened to five letters. :: Poset
+The diagram that draws a partial order without loops or implied edges. :: Hasse diagram
+The groups that an equivalence relation splits a set into. :: Equivalence classes
+The number of equivalence classes of integers modulo 5. :: 5
+The composition (g ∘ f)(x) means applying f first, then this. :: g
+A function that undoes another function. :: Inverse function
+The function that rounds down to the nearest integer. :: Floor function
+The value of ⌈2.1⌉. :: 3
+The number of functions from a 3-element set to a 2-element set. :: 8
+The number of one-to-one functions from a 2-element set to a 4-element set. :: 12
+The number of edges in a complete graph with 5 vertices. :: 10
+A graph whose vertices split into two groups with edges only between groups. :: Bipartite graph
+A walk that uses every edge exactly once. :: Euler path
+The condition for a connected graph to have an Euler circuit. :: Every vertex has even degree
+A cycle that visits every vertex exactly once. :: Hamiltonian cycle
+A graph that can be drawn with no edges crossing. :: Planar graph
+Euler's formula for connected planar graphs: V − E + F equals this. :: 2
+The smallest number of colours needed to colour a graph's vertices so neighbours differ. :: Chromatic number
+The chromatic number of a bipartite graph with at least one edge. :: 2
+A tree that includes all vertices of a graph. :: Spanning tree
+The number of leaves in a full binary tree with 7 internal nodes. :: 8
+The maximum number of nodes in a binary tree of height 3, with the root at height 0. :: 15
+A table that shows which vertices are joined, as 0s and 1s. :: Adjacency matrix
+The sum of all vertex degrees in a graph with 6 edges. :: 12
+
+## 300
+The number of relations on a set with 3 elements. :: 512
+The number of reflexive relations on a set with 3 elements. :: 64
+The number of symmetric relations on a set with 3 elements. :: 64
+The number of equivalence relations on a set with 3 elements. :: 5
+The numbers that count the partitions of a set, named after Eric Temple Bell. :: Bell numbers
+The Bell number B4, the number of partitions of a 4-element set. :: 15
+The numbers that count ways to split n items into k non-empty groups. :: Stirling numbers of the second kind
+The Stirling number S(4, 2). :: 7
+The number of onto functions from a 4-element set to a 2-element set. :: 14
+The number of onto functions from a 4-element set to a 3-element set. :: 36
+The number of derangements of 4 items. :: 9
+The fraction of permutations that are derangements, as n grows, approaches this. :: 1/e
+The Catalan number C5, counting from C0 = 1. :: 42
+The formula for the nth Catalan number. :: C(2n, n)/(n + 1)
+The number of distinct binary trees with 3 nodes. :: 5
+The number of ways to triangulate a convex hexagon. :: 14
+The number of lattice paths from (0, 0) to (3, 3) moving only right or up. :: 20
+The number of non-negative integer solutions to x + y + z = 5. :: 21
+The number of positive integer solutions to x + y + z = 5. :: 6
+The number of bit strings of length 8 with exactly three 1s. :: 56
+The number of bit strings of length 5 with no two consecutive 1s. :: 13
+The number of ways to make change for 10 using coins of 1, 2 and 5, in any order counted once. :: 10
+The coefficient of x³y² in (x + y)^5. :: 10
+The coefficient of x²y²z in (x + y + z)^5. :: 30
+The generalisation of the binomial theorem to more than two terms. :: Multinomial theorem
+The generating function for the sequence 1, 1, 1, 1, …. :: 1/(1 − x)
+The generating function for the Fibonacci numbers starting 0, 1. :: x/(1 − x − x²)
+The exponential generating function for the sequence 1, 1, 1, …. :: e^x
+The characteristic equation of a(n) = 5a(n−1) − 6a(n−2). :: r² − 5r + 6 = 0
+The general solution of a(n) = 5a(n−1) − 6a(n−2). :: a(n) = A·2^n + B·3^n
+The solution to a(n) = a(n−1) + 2 with a(0) = 1. :: a(n) = 2n + 1
+The theorem used to solve divide-and-conquer recurrences like T(n) = aT(n/b) + f(n). :: Master theorem
+The solution of T(n) = 2T(n/2) + n, in Θ notation. :: Θ(n log n)
+The solution of T(n) = T(n/2) + 1, in Θ notation. :: Θ(log n)
+The solution of T(n) = 4T(n/2) + n, in Θ notation. :: Θ(n²)
+The pigeonhole result that among any 5 integers, two have the same remainder mod this number. :: 4
+The number of edges in the Petersen graph. :: 15
+The Ramsey number R(3, 3). :: 6
+The Ramsey number R(4, 4). :: 18
+The generalised pigeonhole principle: N objects in k boxes put at least this many in one box. :: ⌈N/k⌉
+The theorem by Erdős and Szekeres says any sequence of n² + 1 distinct numbers has a monotone subsequence of this length. :: n + 1
+The value of 3^100 mod 7. :: 4
+The value of 2^10 mod 11. :: 1
+The last two digits of 3^20. :: 01
+The multiplicative inverse of 7 modulo 26. :: 15
+The solution x of x ≡ 2 mod 3 and x ≡ 3 mod 5, between 0 and 14. :: 8
+The value of φ(36). :: 12
+Euler's theorem: a^φ(n) ≡ 1 mod n when a and n are this. :: Coprime
+The number of steps of the Euclidean algorithm is largest when the inputs are consecutive numbers of this kind. :: Fibonacci numbers
+The theorem that names Euclid's algorithm's worst case after a French mathematician, from 1844. :: Lamé's theorem
+The number of positive divisors of 72. :: 12
+The sum of the positive divisors of 12. :: 28
+The smallest pair of amicable numbers: 220 and this. :: 284
+The prime-counting function π(n) is roughly n divided by this. :: ln n
+The theorem that says π(n) ~ n / ln n. :: Prime number theorem
+The smallest Carmichael number, which fools Fermat's primality test. :: 561
+The fast primality test used in practice, named after two mathematicians, which is probabilistic. :: Miller–Rabin test
+The 2002 deterministic polynomial-time primality test from India. :: AKS primality test
+The public-key system whose security rests on factoring large numbers. :: RSA
+In RSA with p = 3 and q = 11, the value of n. :: 33
+In RSA with p = 3 and q = 11, the value of φ(n). :: 20
+In RSA with φ(n) = 20 and e = 3, the private key d. :: 7
+The value of the discrete logarithm of 4 base 2 modulo 7. :: 2
+The number of elements of order 2 in the group Z₈ under addition. :: 1
+A set with an associative operation, an identity and inverses. :: Group
+A group whose operation is commutative. :: Abelian group
+The number of elements in a group. :: Order
+Lagrange's theorem: the order of a subgroup divides this. :: The order of the group
+A group generated by one element. :: Cyclic group
+The number of generators of the cyclic group Z₁₂. :: 4
+A structure with addition and multiplication where every non-zero element has an inverse. :: Field
+The number of elements in a finite field must be this. :: A prime power
+A relation that is a partial order where every two elements are comparable. :: Total (linear) order
+In a poset, an element with nothing above it is called this. :: Maximal element
+A poset in which every pair has a least upper bound and greatest lower bound. :: Lattice
+The number of total orders on a 4-element set. :: 24
+The transitive closure of a relation can be computed with this algorithm named after Warshall. :: Warshall's algorithm
+The number of labelled trees on n vertices, by Cayley's formula. :: n^(n−2)
+The number of labelled trees on 4 vertices. :: 16
+The number of spanning trees of a cycle with 5 vertices. :: 5
+The graph that is not planar and has 5 vertices all joined. :: K₅
+The complete bipartite graph that is not planar, from the utilities puzzle. :: K₃,₃
+The theorem that a graph is planar if and only if it has no subdivision of K₅ or K₃,₃. :: Kuratowski's theorem
+The maximum number of edges in a simple planar graph with 6 vertices. :: 12
+The chromatic number of the complete graph K₇. :: 7
+The chromatic number of a cycle with 5 vertices. :: 3
+The chromatic number of the Petersen graph. :: 3
+The number of vertices of the Petersen graph. :: 10
+A graph is bipartite if and only if it has no cycles of this kind. :: Odd-length cycles
+The theorem that a bipartite graph has a perfect matching under a certain condition on neighbourhoods. :: Hall's marriage theorem
+The theorem by Dirac about Hamiltonian cycles requires each vertex to have degree at least this. :: n/2
+The problem of finding a shortest route that uses every edge at least once. :: Chinese postman problem
+The theorem that the maximum matching equals the minimum vertex cover in bipartite graphs. :: Kőnig's theorem
+A vertex whose removal disconnects a graph. :: Cut vertex (articulation point)
+An edge whose removal disconnects a graph. :: Bridge
+Two graphs with a structure-preserving bijection between their vertices are this. :: Isomorphic
+The number of edges in the complete bipartite graph K₃,₄. :: 12
+The number of perfect matchings in K₄. :: 3
+The number of Hamiltonian cycles in K₄, ignoring starting point and direction. :: 3
+The number of 2-element subsets of a 10-element set. :: 45
+
+## 400
+The number of antisymmetric relations on a set with 3 elements. :: 216
+The number of relations on a 3-element set that are both reflexive and symmetric. :: 8
+The number of partial orders on a 3-element set. :: 19
+The number of equivalence relations on a 5-element set. :: 52
+The Stirling number of the second kind S(5, 3). :: 25
+The Stirling numbers of the first kind count permutations by this. :: Number of cycles
+The number of permutations of 4 elements with exactly 2 cycles. :: 11
+The number of derangements of 5 items. :: 44
+The recurrence for derangements: D(n) = (n − 1)(D(n−1) + this). :: D(n−2)
+The number of ways to seat 4 couples in a row so that each couple sits together. :: 384
+The number of surjections from a 5-element set onto a 3-element set. :: 150
+The number of integer partitions of 5. :: 7
+The number of integer partitions of 10. :: 42
+The theorem that the number of partitions into odd parts equals the number into distinct parts. :: Euler's partition theorem
+The diagram of dots used to picture integer partitions. :: Ferrers (Young) diagram
+The number of ways to colour the 4 corners of a square with 2 colours, counting rotations as the same. :: 6
+The lemma that counts orbits as the average number of fixed points. :: Burnside's lemma
+The generalisation of Burnside's lemma using cycle index polynomials. :: Pólya enumeration theorem
+The number of distinct necklaces with 6 beads in 2 colours under rotation. :: 14
+The rook polynomial is used to count placements of these that do not attack each other. :: Rooks
+The number of balanced strings made of 3 pairs of parentheses. :: 5
+The number of Dyck paths of length 8. :: 14
+The number of ways to fully parenthesise a product of 5 factors. :: 14
+The asymptotic growth of the Catalan numbers C(n) is about 4^n divided by this. :: n^(3/2)√π
+The formula that approximates n! as √(2πn)(n/e)^n. :: Stirling's approximation
+The number of trailing zeros in 100!. :: 24
+The highest power of 2 dividing 20!. :: 18
+The formula that gives the exponent of a prime p in n!, named after a French mathematician. :: Legendre's formula
+The theorem on binomial coefficients mod a prime using base-p digits. :: Lucas's theorem
+The value of C(10, 3) mod 3. :: 0
+The number of odd entries in row 7 of Pascal's triangle, counting from row 0. :: 8
+The pattern of odd numbers in Pascal's triangle forms this fractal. :: Sierpiński triangle
+The identity Σ C(m, k) C(n, r − k) = C(m + n, r). :: Vandermonde's identity
+The identity Σ from i = r to n of C(i, r) = C(n + 1, r + 1). :: Hockey-stick identity
+The sum Σ k·C(n, k) for k from 0 to n. :: n·2^(n−1)
+The sum of the squares of the numbers in row n of Pascal's triangle. :: C(2n, n)
+The solution of a(n) = 4a(n−1) − 4a(n−2) has this form because of the repeated root 2. :: (A + Bn)·2^n
+The closed form of a(n) = 2a(n−1) + 1 with a(0) = 0. :: 2^n − 1
+The closed form of a(n) = a(n−1) + n with a(0) = 0. :: n(n + 1)/2
+The solution of T(n) = 2T(n/2) + n log n, in Θ notation. :: Θ(n log² n)
+The solution of T(n) = T(n − 1) + n, in Θ notation. :: Θ(n²)
+The solution of T(n) = 3T(n/2) + n, in Θ notation. :: Θ(n^(log₂3))
+The method for divide-and-conquer recurrences that handles uneven splits, named after two researchers in 1998. :: Akra–Bazzi method
+The value of the sum 1/1·2 + 1/2·3 + … + 1/99·100. :: 99/100
+The harmonic number H(n) grows like this. :: ln n
+The theorem that a graph's edges can be coloured with Δ or Δ + 1 colours. :: Vizing's theorem
+The edge chromatic number of K₄. :: 3
+The edge chromatic number of K₅. :: 5
+The theorem that every planar graph can be 5-coloured has an easy proof, but 4 colours was proved in 1976 by Appel and this man. :: Wolfgang Haken
+The upper bound on the chromatic number of a graph by Brooks's theorem, for graphs that are not complete or odd cycles. :: Δ (maximum degree)
+The chromatic polynomial of a tree with n vertices. :: k(k − 1)^(n−1)
+The chromatic polynomial of the complete graph K₃. :: k(k − 1)(k − 2)
+The number of ways to properly colour a path of 4 vertices with 3 colours. :: 24
+The theorem that the maximum flow equals the capacity of the minimum cut. :: Max-flow min-cut theorem
+The theorem that the minimum number of vertices separating two vertices equals the maximum number of disjoint paths between them. :: Menger's theorem
+The theorem that the size of the largest antichain in a poset equals the minimum number of chains covering it. :: Dilworth's theorem
+The theorem about the largest family of subsets where none contains another. :: Sperner's theorem
+The size of the largest antichain of subsets of a 4-element set. :: 6
+The number of edges a triangle-free graph on n vertices can have at most, by Mantel's theorem. :: ⌊n²/4⌋
+The generalisation of Mantel's theorem to graphs without a complete subgraph Kr. :: Turán's theorem
+The number of edges in a 3-regular graph with 10 vertices. :: 15
+The number of non-isomorphic simple graphs on 3 vertices. :: 4
+The number of non-isomorphic simple graphs on 4 vertices. :: 11
+The number of non-isomorphic trees with 5 vertices. :: 3
+The number of non-isomorphic trees with 6 vertices. :: 6
+The minimum number of edges for a connected graph on n vertices. :: n − 1
+The maximum number of edges in a disconnected simple graph on n vertices. :: (n − 1)(n − 2)/2
+The planar graph theorem says every simple planar graph has a vertex of degree at most this. :: 5
+The number of faces of a connected planar graph with 8 vertices and 12 edges, such as a cube. :: 6
+The theorem that a graph can be drawn in the plane with straight-line edges if it is planar. :: Fáry's theorem
+The smallest genus surface on which K₅ can be embedded without crossings. :: Torus
+The crossing number of K₅. :: 1
+The crossing number of K₃,₃. :: 1
+The graph theory result by Ore about Hamiltonian cycles uses the sum of degrees of non-adjacent vertices being at least this. :: n
+The problem of deciding whether a graph has a Hamiltonian cycle is in this complexity class. :: NP-complete
+The Euler characteristic of a sphere. :: 2
+The Euler characteristic of a torus. :: 0
+The number of regular convex polyhedra, proved using Euler's formula. :: 5
+The adjacency matrix power A^k gives this in entry (i, j). :: Number of walks of length k from i to j
+The matrix-tree theorem counts spanning trees using the determinant of a reduced version of this matrix. :: Laplacian matrix
+The theorem by Kirchhoff that counts spanning trees. :: Matrix-tree theorem
+The largest eigenvalue of the adjacency matrix of a d-regular graph. :: d
+The number of perfect matchings in K₆. :: 15
+The number of perfect matchings in the 3-dimensional cube graph Q₃. :: 9
+The number of vertices of the hypercube graph Q₄. :: 16
+The number of edges of the hypercube graph Q₄. :: 32
+The order of the symmetric group S₄. :: 24
+The order of the dihedral group of a square. :: 8
+The number of elements of order 2 in S₃. :: 3
+The smallest non-abelian group has this order. :: 6
+The number of subgroups of the cyclic group Z₁₂. :: 6
+The number of primitive roots modulo 13. :: 4
+The smallest primitive root modulo 7. :: 3
+The value of the Legendre symbol (2/7). :: 1
+The law relating the Legendre symbols (p/q) and (q/p), called the "golden theorem" by Gauss. :: Quadratic reciprocity
+The solution of 3x ≡ 4 mod 7. :: 6
+The value of 2^(2^5) + 1 has this prime factor found by Euler. :: 641
+The largest known primes are usually of this type. :: Mersenne primes
+The theorem by Wilson: (p − 1)! ≡ this mod p for prime p. :: −1
+The number of labelled simple graphs on 4 vertices. :: 64
+
+## 500
+The number of partial orders on a 4-element set. :: 219
+The number of non-isomorphic posets on 4 elements. :: 16
+The number of transitive relations on a 2-element set. :: 13
+The number of topologies on a 3-element set. :: 29
+The Bell number B6. :: 203
+The formula expressing Bell numbers as an infinite series, by Dobiński. :: B(n) = (1/e) Σ k^n / k!
+The number of permutations of 6 elements that are involutions, squaring to the identity. :: 76
+The number of permutations of 5 elements with no fixed points and order 2. :: 0
+The number of permutations of 1 to 6 with exactly 3 cycles. :: 225
+The number of alternating (zigzag) permutations of 5 elements counted by the Euler zigzag number E5. :: 16
+The numbers that count permutations with a given number of ascents. :: Eulerian numbers
+The number of permutations of 4 elements with exactly one ascent. :: 11
+The number of standard Young tableaux of shape (3, 2). :: 5
+The formula that counts standard Young tableaux using cell hook lengths. :: Hook length formula
+The number of ways to tile a 2 × 10 strip with 1 × 2 dominoes. :: 89
+The number of domino tilings of a standard 8 × 8 chessboard. :: 12,988,816
+The number of spanning trees of the hypercube graph Q₃. :: 384
+The number of spanning trees of the wheel graph with 5 vertices, W₄ (a 4-cycle plus hub). :: 45
+The number of spanning trees of K₂,₃. :: 12
+The formula for spanning trees of the complete bipartite graph Km,n. :: m^(n−1) n^(m−1)
+The number of labelled forests on 3 vertices. :: 7
+The number of unlabelled rooted trees with 4 vertices. :: 4
+The number of non-isomorphic simple graphs on 5 vertices. :: 34
+The number of non-isomorphic trees with 8 vertices. :: 23
+The Ramsey number R(3, 4). :: 9
+The Ramsey number R(3, 5). :: 14
+The lower and upper bounds known for R(5, 5) as of 2024 are 43 and this. :: 46
+Erdős's 1947 lower bound for R(k, k) used this new method. :: Probabilistic method
+The van der Waerden number W(2, 3), the smallest n such that any 2-colouring of 1 to n has a 3-term same-coloured arithmetic progression. :: 9
+The 2016 computer proof of the Boolean Pythagorean triples problem found this to be the largest n that can be 2-coloured with no single-coloured triple. :: 7,824
+The Schur number S(3), the largest n such that 1 to n can be 3-coloured with no single-coloured x + y = z. :: 13
+The theorem that any 2-colouring of the edges of K6 has at least this many single-coloured triangles. :: 2
+The Zarankiewicz-style theorem by Kővári, Sós and Turán bounds edges in graphs without this subgraph. :: Complete bipartite subgraph K(s,t)
+The Erdős–Stone theorem says the Turán density depends on this graph parameter. :: Chromatic number
+The theorem that dense enough graphs can be split into pieces that behave randomly. :: Szemerédi regularity lemma
+The 2004 theorem that the primes contain arbitrarily long arithmetic progressions. :: Green–Tao theorem
+The friendship theorem says if every two people have exactly one common friend, the graph is this. :: A windmill (friendship) graph
+The number of edges in the Petersen graph's complement. :: 30
+The girth of the Petersen graph. :: 5
+The Petersen graph is a famous example of a graph that is not this, despite being 3-regular and bridgeless. :: 3-edge-colourable (it is a snark)
+The name for bridgeless cubic graphs that need 4 colours for their edges. :: Snarks
+The number of vertices of the Heawood graph, the (3, 6)-cage. :: 14
+The genus of the complete graph K₇. :: 1
+The formula for the genus of Kn, proved by Ringel and Youngs. :: ⌈(n − 3)(n − 4)/12⌉
+The Heawood number giving the chromatic number of a torus. :: 7
+The crossing number of K₆. :: 3
+The Zarankiewicz conjecture gives the crossing number of this family of graphs. :: Complete bipartite graphs Km,n
+The theorem that a graph is planar if and only if it has no K₅ or K₃,₃ minor. :: Wagner's theorem
+The theorem by Robertson and Seymour that any minor-closed family has finitely many forbidden minors. :: Graph minor theorem
+The parameter that measures how tree-like a graph is. :: Treewidth
+The treewidth of a tree with at least one edge. :: 1
+The treewidth of the complete graph Kn. :: n − 1
+The 2002 theorem that a graph is perfect if and only if it has no odd hole and no odd antihole. :: Strong perfect graph theorem
+The graph whose vertices are sets and edges join disjoint sets, used in Lovász's 1978 topological proof. :: Kneser graph
+The chromatic number of the Kneser graph KG(5, 2), which is the Petersen graph. :: 3
+The Lovász number of the 5-cycle, which bounds its Shannon capacity. :: √5
+The theorem by Tutte that gives a condition for a perfect matching in any graph. :: Tutte's theorem
+The algorithm by Jack Edmonds for maximum matching in general graphs. :: Blossom algorithm
+The theorem that 3-connected planar graphs are exactly the graphs of convex polyhedra. :: Steinitz's theorem
+The number of non-isomorphic 3-regular graphs on 6 vertices. :: 2
+The theorem that counts Eulerian circuits in directed graphs using arborescences and factorials of out-degrees. :: BEST theorem
+The probability that a random graph G(n, 1/2) has a given labelled edge set. :: 2^(−n(n−1)/2)
+The threshold for connectivity in the random graph G(n, p) is p equal to this. :: ln n / n
+The threshold at which G(n, p) gets a giant component is p equal to this. :: 1/n
+The 1959 paper on random graphs by Erdős and this mathematician. :: Alfréd Rényi
+The inequality P(X ≥ a) ≤ E[X]/a used in the probabilistic method. :: Markov's inequality
+The local lemma by Lovász that shows rare dependent events can all be avoided. :: Lovász local lemma
+The order of the general linear group GL(2, 2). :: 6
+The order of the alternating group A₅. :: 60
+The smallest non-abelian simple group. :: A₅
+The number of groups of order 8, up to isomorphism. :: 5
+The number of abelian groups of order 72, up to isomorphism. :: 6
+The order of the rotation group of a cube. :: 24
+The number of distinct colourings of a cube's faces with 2 colours, up to rotation. :: 10
+The number of distinct colourings of a cube's faces with 3 colours, up to rotation. :: 57
+The Sylow theorem says the number of Sylow p-subgroups is congruent to this mod p. :: 1
+The number of Sylow 5-subgroups of A₅. :: 6
+The number of elements in the finite field GF(16) that are primitive. :: 8
+The irreducible polynomial x² + x + 1 over GF(2) is used to build this field. :: GF(4)
+The number of monic irreducible polynomials of degree 3 over GF(2). :: 2
+The polynomial used in AES to build GF(2^8). :: x^8 + x^4 + x^3 + x + 1
+The Carmichael function λ(15). :: 4
+The value of φ(1000). :: 400
+The number of quadratic residues modulo 11, excluding 0. :: 5
+The value of 2^1000 mod 13. :: 3
+The last three digits of 7^100. :: 001
+The smallest positive x with x ≡ 1 mod 2, 2 mod 3, 3 mod 4, 4 mod 5, 5 mod 6. :: 59
+The number of Fermat primes known. :: 5
+The 2^2^n + 1 primes are named after this mathematician. :: Pierre de Fermat
+The largest known Fermat prime. :: 65,537
+The number of known Mersenne primes as of late 2024, after the discovery of M136279841. :: 52
+In the Königsberg bridges problem, the number of land masses touched by an odd number of bridges. :: 4
+The fewest extra bridges Königsberg needed for a walk that crosses each bridge once and returns home. :: 2
+The degree of every vertex in K₅, which is why K₅ has an Euler circuit. :: 4
+The halting problem was shown undecidable using this technique also used by Cantor. :: Diagonalisation
+The cardinality of the power set of the natural numbers. :: Continuum (2^ℵ₀)
+The hypothesis that there is no set size strictly between ℵ₀ and the continuum. :: Continuum hypothesis
+The two mathematicians whose results show the continuum hypothesis is independent of ZFC. :: Gödel and Cohen
+The axiom equivalent to Zorn's lemma and the well-ordering theorem. :: Axiom of choice
+The paradox that a ball can be split and reassembled into two identical balls, using the axiom of choice. :: Banach–Tarski paradox

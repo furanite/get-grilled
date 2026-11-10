@@ -1,0 +1,514 @@
+id: circuits
+name: Circuits
+nameAr: الدوائر الكهربائية
+group: engineering
+
+## 100
+The SI unit of energy. :: Joule (J)
+Voltage equals current times this. :: Resistance
+The SI unit of electric current. :: Ampere (A)
+The SI unit of voltage. :: Volt (V)
+The SI unit of resistance. :: Ohm (Ω)
+The SI unit of electric charge. :: Coulomb (C)
+The SI unit of power. :: Watt (W)
+The SI unit of capacitance. :: Farad (F)
+The SI unit of inductance. :: Henry (H)
+The SI unit of frequency. :: Hertz (Hz)
+The flow of electric charge. :: Current
+The particle that carries current in a metal wire. :: Electron
+The instrument that measures current. :: Ammeter
+The instrument that measures voltage. :: Voltmeter
+The instrument that measures resistance. :: Ohmmeter
+The meter that measures voltage, current and resistance. :: Multimeter
+An ammeter is connected this way in a circuit. :: In series
+A voltmeter is connected this way in a circuit. :: In parallel
+A complete path for current to flow. :: Closed circuit
+A break in a circuit that stops current. :: Open circuit
+An unintended low-resistance path that lets too much current flow. :: Short circuit
+A device that melts to protect a circuit from too much current. :: Fuse
+A switch that trips automatically on overcurrent and can be reset. :: Circuit breaker
+A material that lets current flow easily. :: Conductor
+A material that blocks current flow. :: Insulator
+A material between a conductor and an insulator, like silicon. :: Semiconductor
+The most common metal used in electrical wiring. :: Copper
+The type of current that flows in one direction only. :: Direct current (DC)
+The type of current that reverses direction regularly. :: Alternating current (AC)
+Mains frequency in Saudi Arabia. :: 60 Hz
+Standard household voltage in Saudi Arabia since the national conversion. :: 230 V
+Mains frequency in most of Europe. :: 50 Hz
+Power equals voltage times this. :: Current
+Power in a resistor equals current squared times this. :: Resistance
+The component that resists current flow. :: Resistor
+The component that stores energy in an electric field. :: Capacitor
+The component that stores energy in a magnetic field. :: Inductor
+The component that lets current flow in one direction only. :: Diode
+A diode that gives off light. :: LED
+LED stands for this. :: Light-emitting diode
+The three-terminal semiconductor device used as an amplifier or switch. :: Transistor
+A device that changes AC voltage from one level to another. :: Transformer
+A device that changes AC into DC. :: Rectifier
+A source of DC made from chemical cells. :: Battery
+The positive terminal of a battery is marked with this sign. :: + (plus)
+The voltage of a standard AA alkaline cell. :: 1.5 V
+The voltage of a typical car battery. :: 12 V
+Resistors in series: total resistance is the sum or the reciprocal sum? :: The sum
+Two 10 Ω resistors in series give this. :: 20 Ω
+Two 10 Ω resistors in parallel give this. :: 5 Ω
+In a series circuit, this quantity is the same through every component. :: Current
+In a parallel circuit, this quantity is the same across every branch. :: Voltage
+The current through a 6 Ω resistor with 12 V across it. :: 2 A
+The power used by a 100 W bulb in 10 hours, in kilowatt-hours. :: 1 kWh
+The unit electricity companies use to bill energy. :: Kilowatt-hour (kWh)
+A resistor that changes with temperature. :: Thermistor
+A resistor that changes with light. :: LDR (light-dependent resistor)
+A variable resistor with three terminals used as a volume knob. :: Potentiometer
+The coloured stripes on a resistor show this. :: Its resistance value
+On the resistor colour code, black stands for this digit. :: 0
+On the resistor colour code, brown stands for this digit. :: 1
+On the resistor colour code, red stands for this digit. :: 2
+On the resistor colour code, a gold tolerance band means this. :: ±5%
+The symbol for a resistor in IEC drawings. :: A rectangle
+The wire in a plug that connects metal cases to the ground for safety. :: Earth (ground) wire
+In IEC wiring the earth wire is coloured like this. :: Green and yellow
+In IEC wiring the live wire is usually this colour. :: Brown
+In IEC wiring the neutral wire is this colour. :: Blue
+A safety device that trips when current leaks to earth. :: RCD (residual current device)
+The scientist the unit of current is named after. :: André-Marie Ampère
+The scientist the unit of voltage is named after. :: Alessandro Volta
+The scientist the unit of resistance is named after. :: Georg Ohm
+The scientist the unit of power is named after. :: James Watt
+The scientist who invented the first electric battery in 1800. :: Alessandro Volta
+The inventor who promoted DC in the 'war of the currents'. :: Thomas Edison
+The inventor who promoted AC in the 'war of the currents'. :: Nikola Tesla
+The rate at which energy is transferred. :: Power
+Electric potential difference is also called this. :: Voltage
+1 milliamp is this fraction of an amp. :: One thousandth
+1 kilohm equals this many ohms. :: 1,000
+A microfarad is written with this Greek letter. :: μ (mu)
+A printed board that holds and connects electronic components. :: PCB (printed circuit board)
+Joining components with melted metal alloy. :: Soldering
+A board for building circuits without solder. :: Breadboard
+A switch that is operated by an electromagnet. :: Relay
+A coil of wire that becomes a magnet when current flows. :: Electromagnet (solenoid)
+A machine that turns electrical energy into motion. :: Electric motor
+A machine that turns motion into electrical energy. :: Generator
+Static electricity jumping from a cloud to the ground. :: Lightning
+The rod on a building that safely carries lightning to the ground. :: Lightning rod (conductor)
+The scientist who flew a kite in a storm to study lightning. :: Benjamin Franklin
+Like charges do this to each other. :: Repel
+Opposite charges do this to each other. :: Attract
+A chip that holds many transistors on one piece of silicon. :: Integrated circuit (IC)
+A solar cell turns light into this. :: Electricity
+The device that turns sound into an electrical signal. :: Microphone
+The device that turns an electrical signal into sound. :: Loudspeaker
+The longer leg of an LED is usually this terminal. :: Anode (positive)
+Current is said to flow from positive to negative in this convention. :: Conventional current
+The opposition to AC current that includes resistance and reactance. :: Impedance
+
+## 200
+A capacitor that must be connected the right way round, marked with a stripe. :: Electrolytic capacitor
+The voltage at which a reverse-biased diode suddenly conducts heavily. :: Breakdown voltage
+Current flowing through a 2 kΩ resistor with 10 V across it. :: 5 mA
+The law saying currents into a node sum to zero. :: Kirchhoff's current law
+The law saying voltages around any closed loop sum to zero. :: Kirchhoff's voltage law
+Kirchhoff's current law follows from conservation of this. :: Charge
+Kirchhoff's voltage law follows from conservation of this. :: Energy
+A circuit that splits an input voltage using two resistors. :: Voltage divider
+Output of a divider with R1 = R2 and 10 V input. :: 5 V
+A circuit that splits current between parallel branches. :: Current divider
+The equivalent of any linear two-terminal network as a voltage source and series resistance. :: Thévenin equivalent
+The equivalent of any linear two-terminal network as a current source and parallel resistance. :: Norton equivalent
+Thévenin resistance equals Thévenin voltage divided by this. :: Norton (short-circuit) current
+The theorem that maximum power reaches a load when its resistance equals the source resistance. :: Maximum power transfer theorem
+At maximum power transfer the efficiency is this. :: 50%
+The analysis method that writes KCL at each node. :: Nodal analysis
+The analysis method that writes KVL around each loop. :: Mesh analysis
+The theorem that finds the response to several sources by adding the effect of each alone. :: Superposition
+In superposition, an independent voltage source is turned off by replacing it with this. :: A short circuit
+In superposition, an independent current source is turned off by replacing it with this. :: An open circuit
+Capacitance of a parallel-plate capacitor equals εA divided by this. :: Plate separation (d)
+Energy stored in a capacitor. :: ½CV²
+Energy stored in an inductor. :: ½LI²
+Charge on a capacitor equals C times this. :: Voltage
+Capacitors in parallel combine like resistors in this arrangement. :: Series (they add)
+Two 10 μF capacitors in series give this. :: 5 μF
+The time constant of an RL circuit. :: L/R
+After one time constant, a charging capacitor reaches about this percentage of its final voltage. :: 63%
+After about this many time constants a capacitor is considered fully charged. :: Five
+Current through a capacitor equals C times the rate of change of this. :: Voltage
+Voltage across an inductor equals L times the rate of change of this. :: Current
+A capacitor in steady DC behaves like this. :: An open circuit
+An inductor in steady DC behaves like this. :: A short circuit
+Capacitive reactance equals 1 divided by this. :: 2πfC
+Inductive reactance equals this. :: 2πfL
+As frequency rises, capacitive reactance does this. :: Decreases
+As frequency rises, inductive reactance does this. :: Increases
+The frequency at which inductive and capacitive reactances are equal. :: Resonant frequency
+Resonant frequency of an LC circuit. :: 1/(2π√(LC))
+At resonance, a series RLC circuit has its impedance at this. :: Minimum (equal to R)
+At resonance, a parallel RLC circuit has its impedance at this. :: Maximum
+The quality factor Q measures how sharp this is. :: Resonance
+The RMS value of a sine wave is its peak divided by this. :: √2
+Peak voltage of 230 V RMS mains, roughly. :: About 325 V
+The ratio of real power to apparent power. :: Power factor
+The unit of apparent power. :: Volt-ampere (VA)
+The unit of reactive power. :: Volt-ampere reactive (var)
+In a purely inductive circuit, current does this relative to voltage. :: Lags by 90°
+In a purely capacitive circuit, current does this relative to voltage. :: Leads by 90°
+The memory aid for voltage and current phase in L and C circuits. :: ELI the ICE man
+Industrial plants add these to correct a lagging power factor. :: Capacitors
+The ratio of a transformer's voltages equals the ratio of these. :: Turns
+A transformer with more turns on the secondary is this kind. :: Step-up transformer
+Transformers do not work on steady DC because they need this. :: A changing magnetic flux
+The law that says a changing magnetic flux induces a voltage. :: Faraday's law
+The law that says induced current opposes the change that caused it. :: Lenz's law
+Power lines use high voltage to reduce this. :: Current (and so I²R losses)
+The three-phase line voltage is this multiple of the phase voltage in a star connection. :: √3
+Three-phase power systems use phases separated by this angle. :: 120°
+The two ways of connecting three-phase windings. :: Star (wye) and delta
+A diode's forward voltage drop for silicon, roughly. :: 0.7 V
+A diode's forward voltage drop for germanium, roughly. :: 0.3 V
+A diode designed to work in reverse breakdown to hold a fixed voltage. :: Zener diode
+A rectifier using four diodes. :: Bridge rectifier
+A half-wave rectifier uses this many diodes. :: One
+The component added after a rectifier to smooth the output. :: Capacitor (filter capacitor)
+The leftover AC on a smoothed DC supply. :: Ripple
+The three terminals of a bipolar junction transistor. :: Emitter, base, collector
+The three terminals of a MOSFET. :: Gate, drain, source
+The two types of BJT. :: NPN and PNP
+The current gain of a BJT is given this symbol. :: β (or hFE)
+A MOSFET is controlled by this quantity at its gate. :: Voltage
+A BJT is controlled by this quantity at its base. :: Current
+The amplifier with very high gain and two inputs, used with feedback. :: Operational amplifier (op-amp)
+The gain of an inverting op-amp amplifier. :: −Rf/Rin
+The gain of a non-inverting op-amp amplifier. :: 1 + Rf/Rin
+An op-amp circuit with gain of exactly one, used as a buffer. :: Voltage follower
+The two golden rules of an ideal op-amp with negative feedback. :: No input current, and equal input voltages
+A filter that passes low frequencies and blocks high ones. :: Low-pass filter
+A filter that passes high frequencies and blocks low ones. :: High-pass filter
+A filter that passes only a range of frequencies. :: Band-pass filter
+The cut-off frequency of an RC filter. :: 1/(2πRC)
+At the cut-off frequency, the output power falls to this fraction. :: Half (−3 dB)
+A voltage gain of 10 in decibels. :: 20 dB
+A power gain of 100 in decibels. :: 20 dB
+The logic gate that outputs 1 only when all inputs are 1. :: AND
+The logic gate that outputs 1 when any input is 1. :: OR
+The logic gate that inverts its input. :: NOT (inverter)
+The two gates called universal because any logic can be built from them. :: NAND and NOR
+The table that lists a gate's output for every input combination. :: Truth table
+The algebra of true and false used in digital logic. :: Boolean algebra
+The device that converts analogue signals to digital. :: ADC (analogue-to-digital converter)
+The instrument that shows a voltage changing over time on a screen. :: Oscilloscope
+The colour bands brown, black, red mean this resistance. :: 1 kΩ
+The ratio of output power to input power. :: Efficiency
+The heating effect of current in a resistor is named after this scientist. :: James Joule
+Resistance of a wire is proportional to length and inversely to this. :: Cross-sectional area
+The material property that sets a wire's resistance for its shape. :: Resistivity
+Most metals' resistance does this as temperature rises. :: Increases
+A material with zero resistance below a critical temperature. :: Superconductor
+
+## 300
+The component that stores energy in an electric field and blocks DC. :: Capacitor
+The complex number method for analysing AC circuits in steady state. :: Phasors
+The impedance of a capacitor as a complex number. :: 1/(jωC)
+The impedance of an inductor as a complex number. :: jωL
+Engineers use j instead of i for √−1 because i stands for this. :: Current
+The real part of admittance. :: Conductance
+The imaginary part of admittance. :: Susceptance
+The unit of conductance. :: Siemens (S)
+The Q factor of a series RLC circuit. :: (1/R)√(L/C)
+The bandwidth of a resonant circuit equals resonant frequency divided by this. :: Q
+The plot of gain and phase against log frequency. :: Bode plot
+A first-order low-pass filter rolls off at this rate above cut-off. :: −20 dB per decade
+A second-order filter rolls off at this rate. :: −40 dB per decade
+The filter design with the flattest possible passband. :: Butterworth
+The filter design with ripple in the passband but a steeper roll-off. :: Chebyshev
+The filter design with the most linear phase. :: Bessel
+The transform that turns differential equations of circuits into algebra. :: Laplace transform
+In the Laplace domain, an inductor's impedance is this. :: sL
+In the Laplace domain, a capacitor's impedance is this. :: 1/(sC)
+The values of s that make a transfer function infinite. :: Poles
+The values of s that make a transfer function zero. :: Zeros
+A system is stable if all its poles lie here. :: In the left half of the s-plane
+A second-order system with damping ratio less than one is this. :: Underdamped
+A second-order system with damping ratio exactly one is this. :: Critically damped
+The response of a circuit with no source, caused by stored energy. :: Natural response
+The full response is the natural response plus this. :: Forced response
+The damping ratio of a series RLC circuit. :: (R/2)√(C/L)
+The theorem that turns a delta network into an equivalent star. :: Delta–wye (Δ–Y) transformation
+Each star resistor from equal delta resistors R equals this. :: R/3
+The bridge circuit used to measure an unknown resistance precisely. :: Wheatstone bridge
+A Wheatstone bridge is balanced when the ratios of opposite arms are this. :: Equal
+The oscillator that uses an RC bridge and an op-amp to make a sine wave. :: Wien bridge oscillator
+The condition for oscillation: loop gain of one and this total phase shift. :: 0° (or 360°)
+The criterion that states those oscillation conditions. :: Barkhausen criterion
+A crystal oscillator uses this effect in quartz. :: Piezoelectric effect
+The op-amp limit on how fast its output can change. :: Slew rate
+The product of an op-amp's gain and bandwidth stays roughly this. :: Constant
+The op-amp's ability to ignore signals common to both inputs. :: Common-mode rejection ratio (CMRR)
+An op-amp circuit whose output is the integral of its input uses this feedback component. :: Capacitor
+An op-amp comparator with hysteresis. :: Schmitt trigger
+The BJT region used for amplification. :: Active region
+The BJT regions used when it acts as a switch. :: Cut-off and saturation
+In an NPN BJT, collector current is about β times this. :: Base current
+The amplifier configuration of a BJT with the emitter shared by input and output. :: Common emitter
+The BJT amplifier with voltage gain near one, used as a buffer. :: Common collector (emitter follower)
+Adding an emitter resistor to a common-emitter stage gives this kind of feedback. :: Negative feedback (emitter degeneration)
+The MOSFET region used for amplification. :: Saturation region
+The MOSFET region used as a switch that is fully on. :: Triode (linear/ohmic) region
+CMOS logic combines these two types of MOSFET. :: NMOS and PMOS
+CMOS draws almost no power except during this. :: Switching
+The amplifier class that conducts for the full 360° of the input. :: Class A
+The amplifier class where each of two transistors conducts for half the cycle. :: Class B
+The distortion of class B amplifiers near zero crossing. :: Crossover distortion
+The switching amplifier class with very high efficiency. :: Class D
+The maximum theoretical efficiency of a class B amplifier. :: About 78.5% (π/4)
+The DC–DC converter that steps voltage down. :: Buck converter
+The DC–DC converter that steps voltage up. :: Boost converter
+The converter that can step voltage up or down with inverted output. :: Buck-boost converter
+A circuit that turns DC into AC. :: Inverter
+The switching technique that controls average power by changing pulse width. :: PWM (pulse-width modulation)
+The output voltage of an ideal buck converter with duty cycle D and input V. :: DV
+The output voltage of an ideal boost converter with duty cycle D and input V. :: V/(1 − D)
+The power semiconductor with a gate that can only turn it on, used in old high-power rectifiers. :: Thyristor (SCR)
+The transistor that combines a MOSFET input with a BJT output, used in inverters. :: IGBT
+A digital circuit whose output depends only on present inputs. :: Combinational circuit
+A digital circuit whose output depends on past inputs too. :: Sequential circuit
+The basic one-bit memory element in sequential logic. :: Flip-flop
+The flip-flop that copies its D input on the clock edge. :: D flip-flop
+The flip-flop that toggles when both inputs are 1. :: JK flip-flop
+A chain of flip-flops that shifts data along on each clock. :: Shift register
+A circuit that selects one of several inputs to pass to the output. :: Multiplexer
+The map used to simplify Boolean expressions by grouping ones. :: Karnaugh map
+De Morgan's law says NOT (A AND B) equals this. :: (NOT A) OR (NOT B)
+The circuit that adds two bits and an incoming carry. :: Full adder
+The binary representation used for negative numbers in most computers. :: Two's complement
+A finite state machine whose outputs depend only on the current state. :: Moore machine
+A finite state machine whose outputs depend on state and inputs. :: Mealy machine
+The problem where an input changes too close to a clock edge, leaving a flip-flop undecided. :: Metastability
+The minimum time data must be steady before the clock edge. :: Setup time
+The ADC type that compares against a DAC using a binary search. :: Successive approximation ADC
+The fastest ADC type, using many comparators at once. :: Flash ADC
+The sampling theorem says you must sample at more than twice this. :: The highest signal frequency
+The false low frequency that appears when sampling too slowly. :: Aliasing
+The smallest voltage step an n-bit ADC can resolve is the range divided by this. :: 2ⁿ
+The language used to describe digital hardware, along with Verilog. :: VHDL
+A chip whose logic can be configured after manufacture. :: FPGA
+The flux linkage of an inductor equals L times this. :: Current
+Mutual inductance between two coils is M = k√(L1L2). What is k? :: Coupling coefficient
+The dot convention on coupled coils shows this. :: Winding polarity
+The losses in a transformer core caused by circulating currents. :: Eddy current losses
+Transformer cores are made from thin sheets to reduce this. :: Eddy currents
+The core loss caused by magnetising and demagnetising each cycle. :: Hysteresis loss
+The test that finds a transformer's copper losses. :: Short-circuit test
+The test that finds a transformer's core losses. :: Open-circuit test
+Real power in a single-phase AC circuit. :: VI cos φ
+Total power in a balanced three-phase load. :: √3 VL IL cos φ
+The meter method that measures three-phase power with two wattmeters. :: Two-wattmeter method
+The speed of the magnetic field in an AC machine. :: Synchronous speed
+Synchronous speed in rpm equals 120f divided by this. :: Number of poles
+The difference between synchronous speed and rotor speed in an induction motor, as a fraction. :: Slip
+
+## 400
+The common-mode voltage range of an op-amp limits these. :: The input voltages it can handle
+The amplifier class used in most RF power amplifiers for maximum efficiency at a single frequency, with conduction under half the cycle. :: Class C
+The noise bandwidth of a single-pole RC filter is this multiple of its −3 dB bandwidth. :: π/2
+The rule of thumb for the minimum rise time an oscilloscope should have relative to the signal. :: About five times faster
+The time constant of an RC circuit. :: R × C
+The theorem that a network's response to a source at one port equals the response at another when swapped. :: Reciprocity theorem
+The theorem that lets you replace any branch with a source of equal voltage or current. :: Substitution theorem
+The theorem stating that the sum of complex powers in a network is zero. :: Tellegen's theorem
+The two-port parameters that use short-circuit currents. :: Y-parameters (admittance)
+The two-port parameters that use open-circuit voltages. :: Z-parameters (impedance)
+The two-port parameters used for transistors, mixing Z and Y. :: h-parameters (hybrid)
+The two-port parameters that are easy to cascade by multiplication. :: ABCD (transmission) parameters
+The two-port parameters measured with travelling waves at high frequency. :: S-parameters (scattering)
+For a reciprocal network, Z12 equals this. :: Z21
+The chart used to plot impedance and design matching on transmission lines. :: Smith chart
+The engineer who created that chart in 1939. :: Phillip Smith
+The impedance of a lossless line seen as √(L/C). :: Characteristic impedance
+The common characteristic impedance of coaxial cable for RF test equipment. :: 50 Ω
+The common characteristic impedance for TV antenna coax. :: 75 Ω
+The reflection coefficient when a line ends in a short circuit. :: −1
+The reflection coefficient when a line ends in an open circuit. :: +1
+The reflection coefficient of a matched load. :: 0
+The ratio of maximum to minimum voltage along a mismatched line. :: VSWR
+A quarter-wave line transforms a load Z_L into this input impedance. :: Z0²/Z_L
+A quarter-wave shorted stub looks like this at its input. :: An open circuit
+The matching technique that adds a shorted line in parallel at the right distance. :: Single-stub matching
+The equations that describe voltage and current on transmission lines. :: Telegrapher's equations
+The engineer who developed the telegrapher's equations. :: Oliver Heaviside
+Heaviside also introduced the use of this mathematical tool in circuit analysis. :: Operational calculus
+The phenomenon where AC flows mostly near a conductor's surface. :: Skin effect
+Skin depth decreases as this increases. :: Frequency
+The effect where nearby conductors push current to one side. :: Proximity effect
+Wire made of many insulated strands to reduce skin effect. :: Litz wire
+Thermal noise in a resistor is also named after these two scientists. :: Johnson and Nyquist
+Thermal noise voltage is proportional to the square root of this product. :: 4kTRB
+The noise caused by the random arrival of charge carriers across a junction. :: Shot noise
+The noise that rises at low frequency in transistors. :: Flicker (1/f) noise
+The figure that measures how much an amplifier degrades signal-to-noise ratio. :: Noise figure
+Friis formula says the first stage of a receiver should have high gain and low this. :: Noise figure
+The stability criterion that counts encirclements of −1 in the Nyquist plot. :: Nyquist stability criterion
+The margin of extra phase lag before an amplifier becomes unstable. :: Phase margin
+The margin of extra gain before instability. :: Gain margin
+A typical phase margin target for well-behaved feedback amplifiers. :: About 45° to 60°
+The compensation method that adds a dominant pole to an op-amp. :: Dominant-pole compensation
+A capacitor across a stage that makes a small capacitance look large at the input. :: Miller effect
+The Miller effect multiplies a feedback capacitance by this. :: 1 + gain
+The method that finds the bandwidth of an amplifier by summing time constants seen at each capacitor. :: Open-circuit time constants
+The small-signal model of a BJT often used at low frequency. :: Hybrid-π model
+In the hybrid-π model, transconductance gm equals Ic divided by this. :: Thermal voltage (VT, about 26 mV)
+The early voltage of a BJT accounts for this effect. :: Base-width modulation (output resistance)
+The MOSFET equivalent of the Early effect. :: Channel-length modulation
+The amplifier stage that stacks a common-emitter and a common-base for wide bandwidth. :: Cascode
+A pair of transistors sharing an emitter resistor, amplifying the difference of two inputs. :: Differential pair (long-tailed pair)
+The circuit that copies a reference current into another branch. :: Current mirror
+The two transistors whose combined β is the product of their gains. :: Darlington pair
+A reference circuit that gives a voltage nearly independent of temperature using VBE and VT. :: Bandgap reference
+The bandgap reference voltage for silicon is close to this. :: About 1.2 V
+A linear regulator with a small input–output voltage difference. :: LDO (low-dropout regulator)
+The control loop that locks an oscillator's phase to a reference. :: Phase-locked loop (PLL)
+The three main blocks of a PLL. :: Phase detector, loop filter, VCO
+A PLL with a divider in its feedback multiplies frequency by this. :: The divide ratio N
+The ADC type that oversamples heavily and pushes noise to high frequencies. :: Sigma-delta (ΔΣ) ADC
+Moving quantisation noise out of the signal band is called this. :: Noise shaping
+Each extra bit of an ideal ADC adds about this much SNR. :: 6 dB (6.02 dB)
+The ideal SNR of an N-bit ADC for a full-scale sine. :: 6.02N + 1.76 dB
+The DAC made from a ladder of resistors of only two values. :: R–2R ladder
+The digital filter with only zeros and guaranteed stability. :: FIR filter
+The digital filter that uses feedback and can be unstable. :: IIR filter
+The transform used to analyse discrete-time systems. :: Z-transform
+A discrete-time system is stable if its poles lie here. :: Inside the unit circle
+The fast algorithm for the discrete Fourier transform. :: FFT
+The engineers credited with the 1965 FFT paper. :: Cooley and Tukey
+The method that turns an analogue filter into a digital one by mapping s to z with a fractional formula. :: Bilinear transform
+The distortion of frequencies caused by the bilinear transform. :: Frequency warping
+The clock-related signal problem where edges arrive at slightly different times in different places. :: Clock skew
+The random variation of clock edge timing. :: Jitter
+The maximum clock frequency of a synchronous circuit depends on the delay of this path. :: Critical path
+The digital technique that splits work into stages to raise clock speed. :: Pipelining
+The circuit that safely passes a signal between two clock domains. :: Synchroniser (two flip-flop)
+A memory that uses a capacitor per bit and must be refreshed. :: DRAM
+A memory that uses a flip-flop of six transistors per bit. :: SRAM
+The non-volatile memory used in USB drives and SSDs. :: Flash memory
+The scaling law that said transistor counts double about every two years. :: Moore's law
+The scaling rule that kept power density constant as transistors shrank. :: Dennard scaling
+CMOS dynamic power is proportional to C, frequency and this squared. :: Supply voltage
+The leakage effect that grew important as gate oxides became very thin. :: Gate tunnelling leakage
+The 3D transistor structure that replaced planar MOSFETs at 22 nm. :: FinFET
+The transistor structure that surrounds the channel on all sides, used after FinFET. :: Gate-all-around (nanosheet)
+The induction motor torque–speed curve has maximum torque at this slip. :: Slip where R2 equals X2 (breakdown slip)
+The motor that runs at exactly synchronous speed. :: Synchronous motor
+Synchronous reactance is a key parameter of this machine. :: Synchronous generator (alternator)
+The equivalent circuit that models a power line of medium length with shunt capacitance at both ends. :: Nominal π model
+The per-unit system is used in power systems to simplify this. :: Calculations across voltage levels
+The method of breaking unbalanced three-phase systems into balanced sets. :: Symmetrical components
+The engineer who introduced symmetrical components in 1918. :: Charles Fortescue
+The three sets in symmetrical components. :: Positive, negative and zero sequence
+The fault type that is most common in power systems. :: Single line-to-ground fault
+The fault type that is usually most severe. :: Three-phase fault
+The iterative method most used for power-flow (load-flow) studies. :: Newton–Raphson method
+The bus in a load-flow study that balances losses. :: Slack (swing) bus
+
+## 500
+The first commercial transistor radio, sold in 1954. :: Regency TR-1
+The Japanese company whose 1957 transistor radio TR-63 made pocket radios popular. :: Sony
+The Italian inventor who shared the 1909 Nobel Prize in Physics with Ferdinand Braun for wireless telegraphy. :: Guglielmo Marconi
+The year the first successful transatlantic radio signal was received by Marconi. :: 1901
+The engineer who demonstrated the first working television in 1926. :: John Logie Baird
+The engineer who invented the fully electronic television system. :: Philo Farnsworth
+The engineer who co-developed the Yagi–Uda antenna with Hidetsugu Yagi. :: Shintaro Uda
+The pioneer of radar whose 1935 Daventry experiment showed aircraft could be detected. :: Robert Watson-Watt
+The logic gate that outputs 1 only when its two inputs differ. :: XOR
+The engineer who showed in his 1937 master's thesis that Boolean algebra could design switching circuits. :: Claude Shannon
+The engineers who built the first point-contact transistor at Bell Labs in 1947. :: Bardeen, Brattain and Shockley
+The year the three transistor inventors won the Nobel Prize in Physics. :: 1956
+The Texas Instruments engineer who built the first integrated circuit in 1958. :: Jack Kilby
+The Fairchild engineer who invented the planar silicon integrated circuit in 1959. :: Robert Noyce
+The process at Fairchild that made the planar IC possible, invented by Jean Hoerni. :: Planar process
+The Egyptian-born engineer who co-invented the MOSFET at Bell Labs in 1959. :: Mohamed Atalla
+Mohamed Atalla's co-inventor of the MOSFET. :: Dawon Kahng
+The first commercial microprocessor, released by Intel in 1971. :: Intel 4004
+The Intel 4004 was a processor with this many bits. :: Four
+The engineer who led the design of the Intel 4004. :: Federico Faggin
+The engineer who patented CMOS logic in 1963. :: Frank Wanlass
+The engineer whose 1927 negative feedback amplifier patent made long-distance telephony practical. :: Harold Black
+Harold Black reportedly sketched his feedback idea on this, while on a ferry. :: A page of the New York Times
+The engineer who gave his name to the stability criterion of 1932 for feedback amplifiers. :: Harry Nyquist
+The engineer who developed asymptotic gain–phase plots at Bell Labs. :: Hendrik Bode
+The Bode gain–phase relationship ties phase to the slope of this. :: Gain (magnitude) on a log scale
+The engineer who invented the superheterodyne receiver. :: Edwin Armstrong
+Armstrong also invented this modulation method to reduce static in radio. :: Frequency modulation (FM)
+The engineer who invented the triode vacuum tube, the Audion, in 1906. :: Lee de Forest
+The English engineer who invented the thermionic diode valve in 1904. :: John Ambrose Fleming
+The German physicist who first observed rectification in a crystal contact in 1874. :: Ferdinand Braun
+The Indian scientist who used semiconductor crystal detectors for microwaves in the 1890s. :: Jagadish Chandra Bose
+The French telegraph engineer who published the equivalent-circuit theorem in 1883. :: Léon Charles Thévenin
+The German scientist who stated the equivalent-source idea in 1853, before Thévenin. :: Hermann von Helmholtz
+The Bell Labs engineer who published the current-source equivalent in 1926. :: Edward Lawry Norton
+The American engineer who first worked out the AC circuit analysis with complex numbers in 1893. :: Charles Proteus Steinmetz
+Steinmetz also gave his name to this law for hysteresis loss. :: Steinmetz's law
+Steinmetz's hysteresis loss law uses peak flux density raised to about this power. :: 1.6
+The inventor whose AC induction motor patents George Westinghouse bought in 1888. :: Nikola Tesla
+The first large hydroelectric AC plant opened at Niagara Falls in this decade. :: 1890s (1895)
+The American scientist who discovered self-inductance and gave his name to its unit. :: Joseph Henry
+The Hungarian engineers who built the first efficient closed-core transformer in 1885. :: Zipernowsky, Bláthy and Déri (ZBD)
+The world's first public electricity supply began in 1881 in this English town. :: Godalming
+Edison's first US central power station opened in 1882 on this New York street. :: Pearl Street
+The highest commercial AC transmission voltage in use, in China. :: 1,000 kV (1,100 kV)
+The highest HVDC transmission voltage in commercial use, from Changji to Guquan in China. :: ±1,100 kV
+The device used in HVDC converters before thyristors. :: Mercury-arc valve
+The first commercial HVDC link, opened in 1954. :: Gotland link (Sweden)
+The GCC Interconnection links the grids of six countries. Its back-to-back converter in Saudi Arabia connects 60 Hz to this frequency. :: 50 Hz
+The GCC Interconnection Authority is headquartered in this Eastern Province city. :: Dammam
+The theorem stating that a capacitor network's total stored energy is minimal for the actual charge distribution. :: Thomson's theorem
+The reactance theorem that says a lossless one-port's reactance always increases with frequency. :: Foster's reactance theorem
+The engineer whose 1924 theorem underlies synthesis of lossless networks. :: Ronald Foster
+The engineer who in 1931 showed how to synthesise any positive real impedance. :: Otto Brune
+The method of synthesising RLC networks without transformers, found in 1949. :: Bott–Duffin synthesis
+A function that must be positive real to be realisable as a passive impedance. :: Driving-point impedance
+The fourth basic passive circuit element, proposed in 1971. :: Memristor
+The engineer who proposed the memristor. :: Leon Chua
+The circuit by Leon Chua that shows chaotic behaviour. :: Chua's circuit
+The oscillator equation studied by Balthasar van der Pol in valve circuits. :: Van der Pol oscillator
+The relaxation oscillator built from two cross-coupled transistors. :: Astable multivibrator
+The engineers who invented the multivibrator circuit in 1917. :: Abraham and Bloch
+The equalisation problem in telephone lines that Pupin solved with coils. :: Loading (Pupin coils)
+The condition for a distortionless transmission line found by Heaviside. :: R/L = G/C
+The coaxial cable was patented by this engineer in 1880. :: Oliver Heaviside
+The 1965 prediction about chip complexity was published by this person. :: Gordon Moore
+The engineers who wrote the 1974 paper on scaling MOSFETs. :: Robert Dennard and colleagues
+Robert Dennard also invented this memory cell in 1966. :: One-transistor DRAM cell
+The Japanese engineer who invented flash memory at Toshiba. :: Fujio Masuoka
+The Japanese engineer who invented the efficient blue LED, winning the 2014 Nobel Prize. :: Shuji Nakamura
+The material used in efficient blue LEDs. :: Gallium nitride (GaN)
+The engineer who made the first visible-spectrum (red) LED in 1962. :: Nick Holonyak
+The figure of merit that compares power MOSFETs by on-resistance times gate charge. :: RDS(on) × Qg
+The wide-bandgap material now common in electric-vehicle inverters. :: Silicon carbide (SiC)
+The amplifier topology invented by Bernard Tellegen in 1948 that has no reciprocity. :: Gyrator
+A gyrator loaded with a capacitor behaves like this. :: An inductor
+The class of switching power amplifier with zero-voltage switching, published by Sokal in 1975. :: Class E
+The DC–DC converter named after Slobodan Ćuk. :: Ćuk converter
+The theorem that a passive network's reflection can't be made small over a wide band beyond a limit. :: Bode–Fano limit
+The fundamental limit on antenna bandwidth versus size. :: Chu limit (Chu–Harrington)
+The paradox in which two charged capacitors connected together lose half their energy. :: Two-capacitor paradox
+In the two-capacitor paradox, the lost energy goes to these. :: Resistance (heat) and radiation
+The material property in Ohm's original 1827 work that he called 'reduced length'. :: Resistance
+Ohm used this kind of source, invented by Seebeck, for steady voltage in his experiments. :: Thermocouple
+The unit 'mho', ohm spelled backwards, is now called this. :: Siemens
+The first practical electric telegraph in Britain was built by these two in 1837. :: Cooke and Wheatstone
+The first transatlantic telegraph cable was completed in this year. :: 1858
+The engineer whose theory of signal propagation saved later Atlantic cables. :: William Thomson (Lord Kelvin)
+The device Kelvin invented to detect weak cable signals. :: Mirror galvanometer
+The fastest current semiconductor transistors for RF, using materials like InP, reach this frequency range. :: Terahertz (around 1 THz)
+The method that solves for every node voltage of a circuit as a matrix in SPICE. :: Modified nodal analysis
+SPICE was developed at this university in the early 1970s. :: University of California, Berkeley
+The engineer who led the SPICE project. :: Donald Pederson (with Laurence Nagel)
+The integration method SPICE uses by default for transient analysis. :: Trapezoidal rule
+The SPICE analysis that finds the DC operating point. :: .OP analysis
+The noise figure of a matched passive attenuator at room temperature equals this. :: Its loss (attenuation)
+The ratio of the speed of signals in a coax with polyethylene to the speed of light. :: About 0.66
+A transmission line whose length is under this fraction of a wavelength can usually be treated as lumped. :: About one tenth
+The power factor correction requirement for many devices is set in the EU by this standard. :: IEC 61000-3-2
+The Saudi standards body that sets technical rules for electrical products. :: SASO

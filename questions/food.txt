@@ -1,0 +1,514 @@
+id: food
+name: Food & Drink
+nameAr: الطعام والشراب
+group: general
+
+## 100
+The yellow fruit monkeys are famous for eating. :: Banana
+The Italian dish of flat dough topped with tomato and cheese. :: Pizza
+The drink made by steeping dried leaves in hot water, popular in Britain. :: Tea
+The white drink that comes from cows. :: Milk
+The sweet food made by bees. :: Honey
+The red fruit often mistaken for a vegetable, used in ketchup. :: Tomato
+The frozen dessert usually served in a cone. :: Ice cream
+The fruit that keeps the doctor away, according to the saying. :: Apple
+The orange root vegetable rabbits are said to love. :: Carrot
+The meal eaten in the morning. :: Breakfast
+The sweet fruit of the palm, eaten to break the fast in Ramadan. :: Dates
+The popular brown sweet made from cocoa. :: Chocolate
+The grain that is the staple food of most of Asia. :: Rice
+The food made from flour, water, and yeast, then baked. :: Bread
+The bird whose eggs are most commonly eaten. :: Chicken
+The citrus fruit that shares its name with a colour. :: Orange
+The sour yellow citrus fruit used to make lemonade. :: Lemon
+The long Italian pasta often served with meatballs. :: Spaghetti
+The salty white crystal used to season food. :: Salt
+The hot drink made from roasted beans. :: Coffee
+The sweet baked treat often topped with candles for a birthday. :: Cake
+The small round green vegetable that grows in pods. :: Peas
+The vegetable that can make you cry when you cut it. :: Onion
+The large green fruit with red flesh and black seeds. :: Watermelon
+The dairy food made by curdling milk, such as cheddar. :: Cheese
+The tuber used to make French fries. :: Potato
+The round flat bread with a pocket, common in the Middle East. :: Pita (Arabic bread)
+The breakfast food made from oats. :: Oatmeal (porridge)
+The fizzy drink often flavoured with cola. :: Soda (soft drink)
+The kitchen appliance used to make bread crispy. :: Toaster
+The fruit that grows in bunches and can be made into raisins. :: Grapes
+The utensil with prongs used to pick up food. :: Fork
+The utensil with a bowl used to eat soup. :: Spoon
+The meal eaten in the middle of the day. :: Lunch
+The sandwich of a meat patty in a bun. :: Hamburger (burger)
+The thick dairy food made by fermenting milk with bacteria. :: Yogurt
+The tropical fruit with a spiky crown. :: Pineapple
+The small red fruit with seeds on the outside. :: Strawberry
+The spice that gives food a hot taste, ground from black seeds. :: Pepper
+The green fruit used to make guacamole. :: Avocado
+The crunchy snack made from heated corn kernels. :: Popcorn
+The frozen water added to cold drinks. :: Ice
+The vegetable Popeye ate to grow strong. :: Spinach
+The Japanese dish of vinegared rice, often with raw fish. :: Sushi
+The yellow grain that grows on a cob. :: Corn (maize)
+The Mexican folded tortilla filled with meat or beans. :: Taco
+The ball-shaped fried chickpea snack popular across the Middle East. :: Falafel
+The dip made from chickpeas and tahini. :: Hummus
+The liquid made by pressing olives. :: Olive oil
+The sweet spread made from crushed peanuts. :: Peanut butter
+The juicy fruit with fuzzy skin and a large stone. :: Peach
+The breakfast food of flat round cakes, often served with syrup. :: Pancakes
+The leafy green used as the base of most salads. :: Lettuce
+The ring-shaped fried sweet with a hole in the middle. :: Doughnut
+The food that comes in yolks and whites. :: Eggs
+The white sweet crystals made from cane or beet. :: Sugar
+The green vegetable that looks like a small tree. :: Broccoli
+The drink pressed from fruit, such as apple or orange. :: Juice
+The meat that comes from cows. :: Beef
+The sea creature with a shell and claws, often boiled red. :: Lobster
+The cold dish of mixed raw vegetables. :: Salad
+The thin, crispy fried potato slices sold in bags. :: Chips (crisps)
+The meal eaten in the evening. :: Dinner
+The liquid food often eaten from a bowl when you are sick. :: Soup
+The sticky sweet on a stick. :: Lollipop
+The breakfast dish of beaten eggs cooked flat and folded. :: Omelette
+The Italian rice dish cooked slowly in broth. :: Risotto
+The fruit with a hard brown hairy shell and white flesh. :: Coconut
+The red sauce served with fries. :: Ketchup
+The yellow sauce made from mustard seeds. :: Mustard
+The Middle Eastern rolled sandwich of sliced roasted meat. :: Shawarma
+The small dried grape. :: Raisin
+The baked sweet made with chocolate chips. :: Cookie
+The tall glass of blended milk and ice cream. :: Milkshake
+The sour fruit that is small and green, cousin of the lemon. :: Lime
+The herb used in pesto. :: Basil
+The kitchen tool used to cut food. :: Knife
+The orange vegetable carved at Halloween. :: Pumpkin
+The meat from sheep, very popular in Saudi dishes. :: Lamb (mutton)
+The Saudi national dish of spiced rice and meat. :: Kabsa
+The small green or black fruit pressed for oil. :: Olive
+The breakfast cereal flakes made from corn. :: Cornflakes
+The cooking method of using the dry heat of an oven. :: Baking
+The appliance that keeps food cold. :: Refrigerator (fridge)
+The fruit called "the king of fruits" in South Asia, with a large flat stone. :: Mango
+The Arabic coffee is often flavoured with this green spice pod. :: Cardamom
+The cream-filled pastry of France, long and covered in chocolate. :: Éclair
+The Indian bread baked in a tandoor oven. :: Naan
+The dried fruit made from plums. :: Prune
+The pasta shaped like tubes, cut at an angle. :: Penne
+The bread roll shaped like a crescent, from France. :: Croissant
+The vegetable with green and white stalks, often eaten with dips. :: Celery
+The red berry often made into a sauce for turkey. :: Cranberry
+The sweet syrup from maple trees. :: Maple syrup
+The pink fish often smoked or grilled. :: Salmon
+The fish usually sold in cans for sandwiches. :: Tuna
+The sweet made of layers of filo pastry, nuts, and syrup. :: Baklava
+The fruit with brown skin and green flesh with tiny black seeds. :: Kiwi
+The flat round Mexican bread. :: Tortilla
+The breakfast food of squares with a grid pattern. :: Waffles
+
+## 200
+The country where sushi originated. :: Japan
+The country famous for paella. :: Spain
+The country that gave the world the croissant's ancestor, the kipferl. :: Austria
+The Italian word for "little strings", a type of flat pasta. :: Linguine
+The cheese traditionally used on pizza Margherita. :: Mozzarella
+The Greek dish of layered aubergine and minced meat with béchamel. :: Moussaka
+The Middle Eastern salad of bulgur, parsley, and tomato. :: Tabbouleh
+The Levantine dip made from roasted aubergine. :: Baba ghanoush
+The sesame paste used in hummus. :: Tahini
+The Indian spice that gives curry a yellow colour. :: Turmeric
+The most expensive spice by weight, from crocus flowers. :: Saffron
+The German city that gave the hamburger its name. :: Hamburg
+The French term for a meal's starter. :: Hors d'oeuvre (entrée)
+The Japanese soup made from fermented soybean paste. :: Miso soup
+The Korean dish of fermented spicy cabbage. :: Kimchi
+The Mexican dip made from mashed avocado. :: Guacamole
+The Italian dessert meaning "pick me up". :: Tiramisu
+The type of bean used to make chocolate. :: Cocoa (cacao)
+The drink that made Yemen's port of Mocha famous. :: Coffee
+The country that is the world's largest coffee producer. :: Brazil
+The nut used to make marzipan. :: Almond
+The Italian flatbread dimpled with olive oil and rosemary. :: Focaccia
+The grain used to make couscous. :: Wheat (semolina)
+The North African clay pot and the stew cooked in it. :: Tagine
+The Saudi dish of cracked wheat and meat cooked to a paste. :: Harees
+The flat folded dough filled with meat, sold in Saudi street stalls as "mutabbaq". :: Murtabak (mutabbaq)
+The Egyptian dish of rice, lentils, pasta, and tomato sauce. :: Koshari
+The Lebanese flatbread topped with thyme and oil. :: Manakish (manaqeesh)
+The sweet cheese pastry soaked in syrup, popular in the Levant. :: Kunafa
+The Turkish dessert of chewy cubes dusted with sugar. :: Turkish delight (lokum)
+The fried dough balls in syrup known in the Gulf as "luqaimat". :: Luqaimat
+The Lebanese strained yogurt, thick enough to spread. :: Labneh
+The Indian rice dish layered with meat and spices. :: Biryani
+The Indian clarified butter. :: Ghee
+The Japanese green tea powder. :: Matcha
+The fruit that durian lovers say tastes like heaven but smells awful, popular in Southeast Asia. :: Durian
+The rice wrap with vegetables, fried, known in China and Vietnam. :: Spring roll
+The Chinese steamed or fried dumplings. :: Dim sum (jiaozi)
+The Vietnamese noodle soup. :: Pho
+The Thai stir-fried noodle dish with tamarind and peanuts. :: Pad thai
+The Spanish cold tomato soup. :: Gazpacho
+The small Spanish dishes served as snacks. :: Tapas
+The French dish of snails. :: Escargots
+The French pancake. :: Crêpe
+The Swiss dish of melted cheese for dipping bread. :: Fondue
+The Belgian food sold in cones with mayonnaise. :: Fries (frites)
+The British dish of fried fish served with chips. :: Fish and chips
+The American dessert of baked apples in pastry. :: Apple pie
+The Italian cured ham. :: Prosciutto
+The blue cheese from Italy. :: Gorgonzola
+The French blue cheese aged in caves in Roquefort. :: Roquefort
+The Dutch cheese with a red wax coat. :: Edam
+The Greek cheese made from sheep's milk, often in salads. :: Feta
+The Italian hard cheese grated on pasta. :: Parmesan (Parmigiano-Reggiano)
+The leavening agent that makes bread rise. :: Yeast
+The protein in wheat that gives dough its stretch. :: Gluten
+The process of heating milk to kill germs. :: Pasteurisation
+The vitamin found in high amounts in oranges. :: Vitamin C
+The cooking method of submerging food in hot oil. :: Deep frying
+The cooking method of cooking food in a sealed bag in a water bath. :: Sous vide
+The French term for cooking quickly in a little fat. :: Sauté
+The French knife skill of cutting vegetables into thin sticks. :: Julienne
+The kitchen tool used to whip egg whites. :: Whisk
+The Chinese round-bottomed pan. :: Wok
+The type of rice used for risotto. :: Arborio
+The long-grain fragrant rice from India and Pakistan. :: Basmati
+The long-grain fragrant rice from Thailand. :: Jasmine rice
+The fruit used to make guava paste. :: Guava
+The red-skinned fruit full of juicy seeds, called rumman in Arabic. :: Pomegranate
+The purple vegetable called "eggplant" in the US. :: Aubergine
+The yellow summer squash called courgette in Britain. :: Zucchini
+The root used to make wasabi's cheaper substitute. :: Horseradish
+The spice from the dried bark of a tree. :: Cinnamon
+The spice made from dried flower buds, shaped like small nails. :: Cloves
+The seed used to make the black and white topping on bagels. :: Sesame (and poppy)
+The Middle Eastern spice mix of thyme, sumac, and sesame. :: Za'atar
+The tangy red spice made from ground berries, used on fattoush. :: Sumac
+The Lebanese salad with toasted bread pieces. :: Fattoush
+The mix of spices in Indian cooking meaning "warm spice". :: Garam masala
+The Ethiopian spongy flatbread. :: Injera
+The Moroccan spice mix whose name means "head of the shop". :: Ras el hanout
+The Italian pasta stuffed in square pillows. :: Ravioli
+The Italian pasta shaped like bow ties. :: Farfalle
+The Italian dumplings made from potato. :: Gnocchi
+The pasta sauce made from eggs, cheese, and black pepper. :: Carbonara
+The German knotted bread snack. :: Pretzel
+The fizzy drink invented in Atlanta in 1886. :: Coca-Cola
+The country where tea drinking began. :: China
+The drink of steamed milk and espresso, with foam. :: Cappuccino
+The espresso with a splash of milk foam. :: Macchiato
+The coffee made by pouring hot water over espresso. :: Americano
+The Gulf custom of shaking the cup to say you have had enough of this drink. :: Arabic coffee (gahwa)
+The sweet drink of Ramadan made from apricot paste. :: Qamar al-Din
+The Hejazi Ramadan drink made from fermented bread or barley. :: Sobia
+The fruit of the date palm when fresh and yellow is called this in Arabic. :: Khalal (or busr)
+The famous date variety grown in Madinah. :: Ajwa
+The world's largest producer of dates. :: Egypt
+The main ingredient of the Saudi dish jareesh. :: Crushed wheat
+The meat dish slow-cooked underground in Yemen and Saudi Arabia. :: Mandi
+The Hungarian stew seasoned with paprika. :: Goulash
+
+## 300
+The Italian region where Parmigiano-Reggiano is made. :: Emilia-Romagna
+The Italian city where pizza Margherita was created. :: Naples
+The queen the pizza Margherita was named after. :: Margherita of Savoy
+The country that produces the most olive oil. :: Spain
+The Spanish saffron rice dish from Valencia, cooked in a wide pan. :: Paella
+The country famous for Darjeeling and Assam teas. :: India
+The tea named after a British prime minister, flavoured with bergamot. :: Earl Grey
+The Japanese clear stock of kelp and bonito flakes. :: Dashi
+The type of coffee bean that makes up most of the world's coffee. :: Arabica
+The hardier coffee species with more caffeine. :: Robusta
+The legend says coffee was discovered by a goatherd from this country. :: Ethiopia (Kaldi)
+The capital of Yemen's coffee trade in the 1600s, a Red Sea port. :: Mocha
+The chemical in chillies that makes them hot. :: Capsaicin
+The scale used to measure the heat of chilli peppers. :: Scoville scale
+The sugar found naturally in milk. :: Lactose
+The sugar found naturally in fruit. :: Fructose
+The chemical reaction that browns seared meat and toasted bread. :: Maillard reaction
+The fifth basic taste, meaning "savoury" in Japanese. :: Umami
+The flavour enhancer known by the initials MSG. :: Monosodium glutamate
+The gas bubbles in bread dough are made of this. :: Carbon dioxide
+The chef's term for having all ingredients prepared before cooking. :: Mise en place
+The French "mother sauce" made from butter, flour, and milk. :: Béchamel
+The emulsion sauce of egg yolk, butter, and lemon, used on eggs Benedict. :: Hollandaise
+The mix of butter and flour used to thicken sauces. :: Roux
+The cold sauce of oil and egg yolk. :: Mayonnaise
+The French mix of diced onion, carrot, and celery. :: Mirepoix
+The Italian word for pasta cooked "to the tooth". :: Al dente
+The Japanese breaded pork cutlet. :: Tonkatsu
+The Japanese battered and deep-fried seafood and vegetables. :: Tempura
+The Japanese raw fish served without rice. :: Sashimi
+The thick Japanese wheat noodles. :: Udon
+The thin Japanese buckwheat noodles. :: Soba
+The Japanese fermented soybeans with a sticky texture. :: Natto
+The Chinese dish of roasted duck with crispy skin, from the capital. :: Peking duck
+The Chinese province famous for spicy food with numbing peppercorns. :: Sichuan
+The Indonesian fried rice dish. :: Nasi goreng
+The Malaysian coconut rice dish, often called the national dish. :: Nasi lemak
+The Indonesian skewered grilled meat with peanut sauce. :: Satay
+The Indian yogurt drink, sweet or salty. :: Lassi
+The Indian cottage cheese used in palak dishes. :: Paneer
+The Indian lentil stew. :: Dal
+The Indian deep-fried triangle pastry, popular in Ramadan as "sambousa". :: Samosa
+The Persian rice crust at the bottom of the pot. :: Tahdig
+The Persian stew of pomegranate and walnuts. :: Fesenjan
+The Turkish meat dish whose name means "turning". :: Döner kebab
+The Turkish yogurt drink. :: Ayran
+The Levantine dish of fried minced meat and bulgur shells. :: Kibbeh
+The vine leaves stuffed with rice. :: Dolma (warak enab)
+The Egyptian dish of mashed fava beans. :: Ful medames
+The green Egyptian soup made from jute leaves. :: Mulukhiyah
+The Palestinian upside-down rice dish. :: Maqluba
+The Jordanian national dish of lamb in fermented yogurt sauce. :: Mansaf
+The dried fermented yogurt used to make mansaf. :: Jameed
+The Emirati dish of rice and meat similar to kabsa. :: Machboos
+The Hejazi dish of rice cooked in milk and broth, served with chicken. :: Saleeg
+The Hejazi dish of bean stew eaten for breakfast. :: Ful (foul)
+The Saudi dish of meat and wheat dumplings in tomato broth, from Najd. :: Marqooq
+The Najdi dish of wheat dough pieces stewed with vegetables and meat, similar to marqooq. :: Qursan
+The wild truffle prized in the Saudi desert after rain. :: Faq'a (desert truffle)
+The Saudi date-and-flour sweet from Qassim. :: Kleicha
+The region of Saudi Arabia most famous for its date festival in Buraidah. :: Qassim
+The Saudi coffee is lightly roasted and served in small cups called this. :: Finjan
+The pot with a long spout used to serve Arabic coffee. :: Dallah
+The Moroccan pastry pie of pigeon or chicken dusted with sugar. :: Pastilla (bastilla)
+The Tunisian hot chilli paste. :: Harissa
+The Moroccan soup traditionally eaten to break the fast. :: Harira
+The French dish of beef stewed in red wine from Burgundy. :: Boeuf bourguignon
+The French vegetable stew from Provence. :: Ratatouille
+The French fish stew from Marseille. :: Bouillabaisse
+The French sweet egg dish that rises in the oven. :: Soufflé
+The French custard with a burnt sugar top. :: Crème brûlée
+The French almond meringue sandwich cookies. :: Macarons
+The Austrian breaded veal cutlet. :: Wiener schnitzel
+The Austrian chocolate cake from the Hotel Sacher. :: Sachertorte
+The German cake named after a forest. :: Black Forest cake
+The Russian beet soup. :: Borscht
+The Russian thin pancakes served with caviar. :: Blini
+The fish eggs prized as caviar mostly come from this fish. :: Sturgeon
+The Polish dumplings. :: Pierogi
+The Danish open-faced sandwich on rye bread. :: Smørrebrød
+The Swedish meatballs are traditionally served with this berry jam. :: Lingonberry
+The Scottish dish of sheep's offal cooked in a stomach. :: Haggis
+The Irish stew is traditionally made with this meat. :: Lamb (mutton)
+The Peruvian dish of raw fish cured in citrus juice. :: Ceviche
+The Argentinian herbal drink sipped through a metal straw. :: Yerba mate
+The Brazilian black bean stew. :: Feijoada
+The Mexican sauce of chillies and chocolate. :: Mole
+The Mexican corn dough steamed in husks. :: Tamales
+The Canadian dish of fries, cheese curds, and gravy. :: Poutine
+The American city famous for deep-dish pizza. :: Chicago
+The American city famous for cheesesteak. :: Philadelphia
+The Hawaiian dish of diced raw fish. :: Poke
+The Australian spread made from yeast extract. :: Vegemite
+The meringue dessert claimed by both Australia and New Zealand. :: Pavlova
+The South African dried cured meat. :: Biltong
+The Nigerian rice dish cooked in tomato sauce. :: Jollof rice
+The fruit called "the queen of fruits", with a purple rind. :: Mangosteen
+The fruit used to make the sour paste in pad thai. :: Tamarind
+The Chinese fruit with red spiky skin and white flesh. :: Lychee
+The fruit called "dragon fruit" grows on this kind of plant. :: Cactus
+
+## 400
+The French chef called "the king of chefs and chef of kings", who wrote Le Guide Culinaire. :: Auguste Escoffier
+The guide that awards restaurants up to three stars, first published by a tyre company. :: Michelin Guide
+The year the first Michelin Guide was published. :: 1900
+The kitchen system of chef de partie and sous-chef, organised by Escoffier. :: Brigade de cuisine
+The French title for the second-in-command in a kitchen. :: Sous-chef
+The scientist who invented pasteurisation. :: Louis Pasteur
+The inventor of the sandwich, according to legend, was an earl of this town. :: Sandwich (John Montagu)
+The 19th-century French chef who wrote about the "mother sauces". :: Marie-Antoine Carême
+The food scientist's name for the gel made from seaweed, used in vegan jelly. :: Agar
+The gelling agent made from animal collagen. :: Gelatin
+The process of keeping vegetables in salt brine until they sour. :: Lacto-fermentation (pickling)
+The fungus used to make soy sauce and miso. :: Koji (Aspergillus oryzae)
+The mould that gives blue cheese its veins. :: Penicillium (roqueforti)
+The enzyme from calves' stomachs used to make cheese. :: Rennet
+The protein that makes up most of milk's solids and forms curds. :: Casein
+The liquid left over after milk curdles. :: Whey
+The Italian cheese made from the whey of other cheeses. :: Ricotta
+The English cheese named after a village in Somerset. :: Cheddar
+The French soft cheese from Normandy in a round wooden box. :: Camembert
+The Swiss cheese famous for its holes. :: Emmental
+The bacteria that make the holes in Swiss cheese release this gas. :: Carbon dioxide (Propionibacterium)
+The Spanish sheep's milk cheese from La Mancha. :: Manchego
+The Cypriot cheese that can be grilled without melting. :: Halloumi
+The hard, salty sheep's milk cheese from the region around Rome. :: Pecorino Romano
+The cured Spanish ham from black Iberian pigs. :: Jamón ibérico
+The type of vinegar aged in barrels in Modena. :: Balsamic vinegar
+The Japanese condiment made from fermented soybeans and wheat. :: Soy sauce
+The Southeast Asian sauce made from fermented anchovies. :: Fish sauce
+The Korean fermented chilli paste. :: Gochujang
+The Japanese seaweed sheets used to wrap sushi. :: Nori
+The citrus fruit used in Japanese ponzu sauce. :: Yuzu
+The Japanese term for a chef's choice set menu. :: Omakase
+The Japanese pufferfish that must be prepared by licensed chefs. :: Fugu
+The beef from Japan famous for its marbling. :: Wagyu (Kobe beef)
+The cut of beef that includes both sirloin and tenderloin, shaped like a T. :: T-bone steak
+The most tender cut of beef, used for filet mignon. :: Tenderloin
+The steak doneness with a warm red centre. :: Medium rare
+The internal temperature in °C that makes poultry safe to eat. :: 74
+The temperature in °C at which water boils at sea level. :: 100
+The temperature range in °C called the food "danger zone". :: 5 to 60
+The French term for food cooked wrapped in parchment paper. :: En papillote
+The country that is the world's largest producer of cocoa beans. :: Ivory Coast (Côte d'Ivoire)
+The ancient civilisation that drank chocolate as a bitter drink called xocolatl. :: Aztecs
+The Swiss chocolatier who invented milk chocolate with Henri Nestlé's condensed milk. :: Daniel Peter
+The country that consumes the most chocolate per person. :: Switzerland
+The country that drinks the most coffee per person. :: Finland
+The country that drinks the most tea per person. :: Turkey
+The Chinese tea that is partly oxidised, between green and black. :: Oolong
+The aged, fermented Chinese tea from Yunnan, pressed into cakes. :: Pu-erh
+The South African red tea from a shrub, caffeine-free. :: Rooibos
+The Moroccan tea is green tea brewed with this herb. :: Mint
+The Gulf tea spiced with cardamom and saffron, served with milk. :: Karak
+The stimulant in coffee and tea. :: Caffeine
+The stimulant in chocolate besides caffeine. :: Theobromine
+The vitamin made in your skin by sunlight, also added to milk. :: Vitamin D
+The disease caused by lack of vitamin C, once common on ships. :: Scurvy
+The fruit British sailors ate to prevent scurvy, earning them a nickname. :: Lime ("limeys")
+The disease caused by a lack of vitamin B1 (thiamine), linked to white rice. :: Beriberi
+The mineral that is added to salt to prevent goitre. :: Iodine
+The unit used to measure food energy on labels in Europe besides calories. :: Kilojoules
+The number of kilocalories in one gram of fat. :: 9
+The number of kilocalories in one gram of protein or carbohydrate. :: 4
+The sugar substitute that is about 200 times sweeter than sugar, sold as Equal. :: Aspartame
+The plant-based sweetener from South American leaves. :: Stevia
+The grain-like seed from the Andes, called "the mother grain" by the Incas. :: Quinoa
+The ancient grain that is the main ingredient in Ethiopian injera. :: Teff
+The Scottish porridge and oatcakes are made from this grain. :: Oats
+The type of wheat used for pasta. :: Durum wheat
+The flour with the most protein, best for bread. :: Bread flour (strong flour)
+The French bread that by law in France contains only flour, water, salt, and yeast. :: Baguette
+The year the baguette was added to UNESCO's intangible heritage list. :: 2022
+The Arabic coffee was added to UNESCO's list in this year, nominated by Saudi Arabia and others. :: 2015
+The Neapolitan art of pizza-making was added to UNESCO's list in this year. :: 2017
+The Japanese cuisine "washoku" was added to UNESCO's list in this year. :: 2013
+The meal that UNESCO listed for France in 2010. :: The gastronomic meal of the French
+The diet listed by UNESCO in 2010, shared by Mediterranean countries. :: Mediterranean diet
+The date palm was added to UNESCO's list in 2019, nominated by this many Arab countries. :: 14
+The Spanish rice dish's name comes from the Latin word for this. :: Pan (patella)
+The word "ketchup" likely comes from a sauce from this country. :: China (Hokkien "ke-tsiap")
+The sweet food whose English name comes from the Arabic "sukkar". :: Sugar
+The fruit whose name comes from the Arabic "naranj". :: Orange
+The vegetable whose name comes from the Arabic "al-kharshuf". :: Artichoke
+The drink whose English name comes from Arabic "qahwa" via Turkish. :: Coffee
+The sweet dessert whose name comes from Arabic "sharbat". :: Sorbet (sherbet)
+The fruit whose name comes from the Arabic "laymun". :: Lemon
+The spice whose name means "nail" in Latin and French, due to its shape. :: Clove
+The pepper that is not related to black pepper, the name comes from Nahuatl. :: Chilli
+The country where potatoes were first domesticated. :: Peru
+The country where tomatoes were first domesticated. :: Mexico
+The region where coffee plants originally grew wild. :: Ethiopia
+The country where bananas were first domesticated. :: Papua New Guinea
+The crescent-shaped region of the Middle East where wheat was first farmed. :: The Fertile Crescent
+The crop introduced to Europe from the Americas that caused the Irish famine when it failed. :: Potato
+The Irish Potato Famine began in this year. :: 1845
+The rare fruit that sells for thousands of dollars in Japan, grown in Yubari. :: Yubari King melon
+The fungus that grows underground and is hunted with pigs or dogs. :: Truffle
+The Italian city famous for white truffles. :: Alba
+The French region famous for black truffles. :: Périgord
+The Spanish smoked paprika is called this. :: Pimentón
+The Japanese art of decorative bento boxes shaped like characters. :: Kyaraben
+
+## 500
+The Danish restaurant in Copenhagen named World's Best Restaurant several times, run by René Redzepi. :: Noma
+The Spanish restaurant of Ferran Adrià, famous for molecular gastronomy. :: elBulli
+The British chef known for triple-cooked chips and The Fat Duck. :: Heston Blumenthal
+The French chef who held three Michelin stars at the Auberge du Pont de Collonges for over 50 years. :: Paul Bocuse
+The international cooking competition founded by Paul Bocuse in 1987. :: Bocuse d'Or
+The technique of turning liquids into gel spheres with sodium alginate and calcium. :: Spherification
+The Hungarian-born physicist who co-coined "molecular gastronomy" with Hervé This. :: Nicholas Kurti
+The 1825 book "The Physiology of Taste" was written by this French gastronome. :: Jean Anthelme Brillat-Savarin
+The Japanese multi-course haute cuisine meal that grew out of the tea ceremony. :: Kaiseki
+The oldest known cookbook in Arabic, compiled in 10th-century Baghdad. :: Kitab al-Tabikh (Ibn Sayyar al-Warraq)
+The Roman cookbook attributed to a gourmet named Apicius is known by this Latin title. :: De re coquinaria
+The musician from Baghdad who brought new table manners and dishes to Córdoba in the 9th century. :: Ziryab
+The sugar was first refined into crystals in this country around 350 CE. :: India
+The Arab-ruled island where Europeans first learned sugar refining and pasta making, according to many historians. :: Sicily
+The 12th-century geographer who described pasta-like "itriya" made in Sicily. :: Al-Idrisi
+The Venetian explorer wrongly credited with bringing pasta from China. :: Marco Polo
+The Italian scientist who wrote "Science in the Kitchen and the Art of Eating Well" in 1891. :: Pellegrino Artusi
+The French chef who invented the canning method of preserving food in sealed jars. :: Nicolas Appert
+The emperor who offered a prize that led to the invention of canned food. :: Napoleon Bonaparte
+The American who invented the flash-freezing of food after watching Inuit fishermen. :: Clarence Birdseye
+The engineer who invented the microwave oven after a chocolate bar melted in his pocket. :: Percy Spencer
+The year Percy Spencer filed his patent for the microwave oven. :: 1945
+The pharmacist who invented Coca-Cola. :: John Pemberton
+The German chemist who first isolated caffeine in 1819. :: Friedlieb Ferdinand Runge
+The Japanese chemist who identified umami and isolated glutamate in 1908. :: Kikunae Ikeda
+The seaweed broth in which Kikunae Ikeda found glutamate. :: Kombu dashi
+The French chemist who discovered the browning reaction between sugars and amino acids in 1912. :: Louis-Camille Maillard
+The sugar used as the reference sweetness of 1 on sweetness scales. :: Sucrose
+The world's hottest chilli as certified by Guinness in 2023. :: Pepper X
+The chilli that held the Guinness hottest record from 2013 to 2023. :: Carolina Reaper
+The cocoa variety considered the rarest and finest. :: Criollo
+The most widely grown cocoa variety. :: Forastero
+The hybrid cocoa variety first developed in Trinidad. :: Trinitario
+The process that separates cocoa butter from cocoa powder, invented by Coenraad van Houten. :: Cocoa press (Dutch process)
+The Swiss chocolatier who invented conching in 1879. :: Rodolphe Lindt
+The process of heating and cooling chocolate so it sets shiny and snaps. :: Tempering
+The coffee from beans eaten and passed by the Asian palm civet. :: Kopi luwak
+The Ethiopian region whose name may have given coffee its name. :: Kaffa
+The Yemeni Sufi mystics used coffee to stay awake for prayers in this century. :: 15th century
+The first coffeehouse in Istanbul opened in this year. :: 1554
+The highest grade of Japanese green tea, shaded before harvest. :: Gyokuro
+The Chinese emperor who, legend says, discovered tea in 2737 BCE. :: Shennong
+The Japanese tea master who perfected the tea ceremony in the 16th century. :: Sen no Rikyū
+The British event in 1773 when tea was thrown into a harbour. :: Boston Tea Party
+The Indian state that grows the most tea. :: Assam
+The tea plant's scientific name. :: Camellia sinensis
+The coffee plant's main species' scientific name. :: Coffea arabica
+The scientific name of the date palm. :: Phoenix dactylifera
+The Saudi city whose dates festival is often called the largest in the world. :: Buraidah
+The soft, very sweet Saudi date whose name means "sugary". :: Sukkari
+The large soft date called "the king of dates", originally from Morocco. :: Medjool
+The Iraqi city historically famous for having the most date palms in the world. :: Basra
+The oasis in Saudi Arabia's Eastern Province with one of the largest date palm groves in the world. :: Al-Ahsa
+The region of Saudi Arabia famous for its coffee farms in the mountains. :: Jazan
+The coffee variety grown in Saudi Arabia's southern mountains, named after a region. :: Khawlani coffee
+The year Saudi Arabia declared the "Year of Saudi Coffee". :: 2022
+The country that produces the most saffron. :: Iran
+The number of crocus flower stigmas in each flower used for saffron. :: 3
+The spice that was once worth more than gold and led the Dutch to trade Manhattan for an island growing it. :: Nutmeg (Run Island)
+The Indonesian islands once called the "Spice Islands". :: Maluku (Moluccas)
+The Portuguese explorer who first reached India by sea in 1498, opening the spice trade. :: Vasco da Gama
+The spice made from the red covering of the nutmeg seed. :: Mace
+The vanilla orchid is native to this country. :: Mexico
+The 12-year-old enslaved boy who invented hand-pollination of vanilla in 1841 on Réunion. :: Edmond Albius
+The country that produces the most vanilla. :: Madagascar
+The pepper variety that is green, black, and white depending on processing comes from this vine. :: Piper nigrum
+The Indian coast that was the main source of black pepper in ancient trade. :: Malabar Coast
+The ancient Roman fish sauce. :: Garum
+The French cheese made in caves in the town of Roquefort-sur-Soulzon uses milk from this animal. :: Sheep
+The English blue cheese that is "the king of English cheeses". :: Stilton
+Feta has had protected EU status since this year. :: 2002
+The EU label that protects names like Champagne and Parmigiano-Reggiano. :: PDO (Protected Designation of Origin)
+The age in months that Parmigiano-Reggiano must be aged at minimum. :: 12
+The Spanish ham from acorn-fed Iberian pigs is called this grade. :: Bellota
+The French goose or duck liver dish that is banned in several countries. :: Foie gras
+The caviar species that produces the most expensive caviar. :: Beluga
+The sea where most wild beluga caviar came from. :: Caspian Sea
+The Japanese dish of fermented fish and rice, the ancestor of sushi. :: Narezushi
+The Japanese chef whose life is told in "Jiro Dreams of Sushi". :: Jiro Ono
+The style of Indian cooking in a clay oven, popularised by Moti Mahal in Delhi. :: Tandoori
+The British dish invented in Glasgow by a chef of Pakistani heritage, by most accounts. :: Chicken tikka masala
+The Thai soup of shrimp, lemongrass, and lime leaves. :: Tom yum
+The Thai curry made with tamarind and peanuts, with Persian influence. :: Massaman curry
+The Peruvian dish of guinea pig. :: Cuy
+The Philippine national dish of meat stewed in vinegar and soy. :: Adobo
+The Hawaiian staple made from pounded taro root. :: Poi
+The Inuit dish of fermented seabirds stuffed inside a seal. :: Kiviak
+The Icelandic dish of fermented shark. :: Hákarl
+The Swedish fermented herring in cans. :: Surströmming
+The Sardinian cheese containing live insect larvae. :: Casu marzu
+The century egg is a preserved egg from this country. :: China
+The Korean royal court dish of marinated grilled beef. :: Bulgogi
+The ancient Egyptians paid pyramid workers partly in bread and this drink. :: Beer
+The ancient Mesopotamian goddess of beer. :: Ninkasi
+The dish of rice cooked with meat and spices that the word "pilaf" comes from, in Persian. :: Polow
+The Afghan national rice dish with carrots and raisins. :: Kabuli pulao
+The meal before dawn in Ramadan. :: Suhoor
+The ancient grain the Prophet Muhammad recommended in a broth called "talbina". :: Barley
+The dish of bread pieces soaked in broth that the Prophet Muhammad liked. :: Tharid
+The French "mother sauce" made from a light stock thickened with roux. :: Velouté

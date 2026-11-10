@@ -1,0 +1,514 @@
+id: animals
+name: Animals
+nameAr: الحيوانات
+group: general
+
+## 100
+The largest land animal. :: African elephant
+The animal known as the king of the jungle. :: Lion
+The animal known as the ship of the desert. :: Camel
+The black-and-white bear from China that eats bamboo. :: Giant panda
+The bird that cannot fly and is the largest bird in the world. :: Ostrich
+The largest cat in the world. :: Tiger
+The animal with black and white stripes that lives in Africa. :: Zebra
+The animal that carries its baby in a pouch and hops. :: Kangaroo
+The sea animal with eight arms. :: Octopus
+The fish-like mammal known for its intelligence and clicks. :: Dolphin
+The largest fish in the sea. :: Whale shark
+The animal famous for changing colour, a type of lizard. :: Chameleon
+The bird famous for copying human speech. :: Parrot
+The bird that is a symbol of peace. :: Dove
+The national bird often used in Gulf falconry. :: Falcon
+The baby of a cat. :: Kitten
+The baby of a dog. :: Puppy
+The baby of a sheep. :: Lamb
+The baby of a cow. :: Calf
+The baby of a horse. :: Foal
+The baby of a goat. :: Kid
+The baby of a lion. :: Cub
+The baby of a duck. :: Duckling
+The baby of a kangaroo. :: Joey
+The baby of a camel. :: Calf (in Arabic, huwar)
+The male of a chicken. :: Rooster
+The female of a horse. :: Mare
+The female of a lion. :: Lioness
+A group of lions is called this. :: Pride
+A group of fish is called this. :: School (shoal)
+A group of wolves is called this. :: Pack
+A group of bees is called this. :: Swarm (colony)
+A group of sheep is called this. :: Flock
+A group of cows is called this. :: Herd
+The home of a bee. :: Hive
+The home of a bird. :: Nest
+The home of a spider made of silk. :: Web
+The home of a rabbit underground. :: Burrow (warren)
+The animal that produces honey. :: Bee
+The animal that makes silk for clothing. :: Silkworm
+The animal whose milk is most drunk worldwide. :: Cow
+The animal that gives us wool. :: Sheep
+The insect that glows at night. :: Firefly
+The insect that turns into a butterfly. :: Caterpillar
+The farm animal that can sleep standing up and is ridden by people. :: Horse
+The only mammal that can truly fly. :: Bat
+The slowest-moving mammal, which hangs in trees. :: Sloth
+The animal with the longest neck. :: Giraffe
+The animal with a trunk. :: Elephant
+The big grey animal with a horn on its nose. :: Rhinoceros
+The large African animal that spends its days in rivers. :: Hippopotamus
+The animal that builds dams with wood. :: Beaver
+The black-and-white bird that cannot fly and swims in Antarctica. :: Penguin
+The bird that hoots at night. :: Owl
+The pink bird that stands on one leg. :: Flamingo
+The pink bird gets its colour from this in its food. :: Pigments in shrimp and algae (carotenoids)
+The colourful bird that spreads its tail feathers to show off. :: Peacock
+The fastest bird when diving. :: Peregrine falcon
+The tiny bird that can fly backwards. :: Hummingbird
+The animal with the longest lifespan among land animals, a reptile. :: Tortoise
+The reptile with a shell that lives mostly in the sea. :: Sea turtle
+The large reptile that lives in rivers in Africa and has a long snout. :: Crocodile
+The snake with a rattle on its tail. :: Rattlesnake
+The snake that can spread a hood. :: Cobra
+The largest snake by weight. :: Green anaconda
+The animal that changes from tadpole to adult. :: Frog
+The insect that carries malaria. :: Mosquito
+The insect that lives in colonies and can carry many times its weight. :: Ant
+The eight-legged animal with a stinger in its tail that lives in deserts. :: Scorpion
+The animal that is the closest living relative of humans. :: Chimpanzee (and bonobo)
+The largest ape. :: Gorilla
+The orange ape from Borneo and Sumatra. :: Orangutan
+The furry Australian animal that eats eucalyptus leaves. :: Koala
+The egg-laying mammal with a duck bill. :: Platypus
+The animal that is a symbol of Australia along with the kangaroo. :: Emu
+The 'man's best friend'. :: Dog
+The cat's whiskers help it to do this. :: Sense its surroundings (feel its way)
+Cats purr and dogs do this. :: Bark
+Lions make this sound. :: Roar
+Sheep make this sound. :: Bleat (baa)
+The desert fox with very big ears. :: Fennec fox
+The white antelope of the Arabian deserts. :: Arabian oryx
+The small fast deer-like animal of Arabia. :: Gazelle
+The famous Arabian horse breed is known for this shape of head. :: Dished face (concave profile)
+The animal that is the national animal of Saudi Arabia. :: Camel (Arabian camel)
+The hump of a camel stores this. :: Fat
+The camel with one hump. :: Dromedary (Arabian camel)
+The camel with two humps. :: Bactrian camel
+The black-and-white whale also called the killer whale. :: Orca
+The largest animal on Earth today. :: Blue whale
+The sea animal with a hard shell and claws that walks sideways. :: Crab
+The sea creature shaped like a star. :: Starfish (sea star)
+The jelly-like sea animal that can sting. :: Jellyfish
+The fish that can puff up into a ball. :: Pufferfish
+The orange-and-white fish that lives in sea anemones. :: Clownfish
+The fierce sea predator with rows of teeth. :: Shark
+The dangerous shark that is the biggest predatory fish. :: Great white shark
+The animal with black spots that is the fastest on land. :: Cheetah
+The big cat with rosette spots that climbs trees with its food. :: Leopard
+The striped dog-like animal known for its 'laugh'. :: Hyena
+
+## 200
+The only big cat that lives in groups. :: Lion
+The big cat of the Americas with rosettes and a strong bite. :: Jaguar
+The wild cat of the Americas also called the cougar or puma. :: Mountain lion
+The big cat that lives high in Central Asian mountains. :: Snow leopard
+The rare big cat still found in small numbers in Arabia's mountains. :: Arabian leopard
+The wild dog of Australia. :: Dingo
+The large wild dog of Africa with patchy coat. :: African wild dog (painted dog)
+The animal sometimes called the 'river horse'. :: Hippopotamus
+The animal whose name means 'man of the forest' in Malay. :: Orangutan
+The African animal that looks like a cross between a giraffe and a zebra. :: Okapi
+The animal with the thickest fur of any animal. :: Sea otter
+The animal that sleeps the most, up to 22 hours a day. :: Koala
+The animal that can turn its head around about 270 degrees. :: Owl
+The bird with the largest wingspan. :: Wandering albatross
+The bird that lays the largest eggs. :: Ostrich
+The bird whose males sit on the eggs in the Antarctic winter. :: Emperor penguin
+The bird that cannot fly and is the national symbol of New Zealand. :: Kiwi
+The large bird of prey that is the national bird of the US. :: Bald eagle
+The bird that eats dead animals, often seen circling. :: Vulture
+The bird that builds nests that hang like bags. :: Weaver bird
+The bird that lays its eggs in other birds' nests. :: Cuckoo
+The bird that migrates the farthest, from Arctic to Antarctic. :: Arctic tern
+The colourful bird with a huge bill from South America. :: Toucan
+The national bird of India. :: Peacock (Indian peafowl)
+The flightless bird of New Guinea and Australia called the most dangerous bird. :: Cassowary
+The bird used to carry messages long ago. :: Pigeon (homing pigeon)
+The falcon type prized most by Gulf falconers. :: Saker falcon (and gyrfalcon)
+The hood placed on a falcon's head is called this in Arabic. :: Burqa
+The famous Arabian horse breed's region of origin. :: Najd (the Arabian Peninsula)
+The camel's long eyelashes protect it from this. :: Sand
+A camel can drink up to this many litres of water at once. :: About 100 litres or more
+The animal that gives mohair and cashmere wool. :: Goat
+The animal that gives alpaca wool, a relative of the llama. :: Alpaca
+The South American animal used to carry loads in the Andes. :: Llama
+The animal domesticated first by humans, according to most evidence. :: Dog
+The animal domesticated in ancient Egypt and worshipped there. :: Cat
+The cat breed with no tail, from the Isle of Man. :: Manx
+The large dog breed used by Swiss monks to rescue travellers. :: St Bernard
+The fastest dog breed. :: Greyhound
+The Arabian hunting dog breed with long feathery ears. :: Saluki
+The dog breed with a blue-black tongue. :: Chow Chow
+The dog breed known for herding sheep in Scotland and Wales, very smart. :: Border Collie
+The tiny Mexican dog breed. :: Chihuahua
+The animal group that includes frogs and salamanders. :: Amphibians
+The salamander that can regrow its limbs and stays a 'baby' all its life. :: Axolotl
+The lizard that can run on water. :: Basilisk lizard
+The largest lizard in the world. :: Komodo dragon
+The country home to the Komodo dragon. :: Indonesia
+The lizard of Arabian deserts with a spiny tail, eaten by Bedouin. :: Dhub (spiny-tailed lizard)
+The most venomous snake on land, from Australia. :: Inland taipan
+The longest venomous snake. :: King cobra
+The longest snake in the world. :: Reticulated python
+The snake in Arabia with horns above its eyes. :: Horned viper
+The reptile from New Zealand often called a 'living fossil'. :: Tuatara
+The turtle that is the largest, with a leathery shell. :: Leatherback turtle
+The sea turtle that nests on Saudi and Omani beaches, named for its green fat. :: Green turtle
+The fish famous for swimming upstream to breed. :: Salmon
+The fish with a long sword-like bill. :: Swordfish
+The fastest fish in the sea. :: Sailfish
+The fish that can give an electric shock of hundreds of volts. :: Electric eel
+The flat fish that hides on the sea floor and has a stinging tail. :: Stingray
+The largest ray, which can be 7 metres wide. :: Manta ray
+The fish whose male carries the eggs in a pouch. :: Seahorse
+The deep-sea fish with a glowing lure on its head. :: Anglerfish
+The famous gold fish kept in ponds, from China. :: Goldfish (and koi)
+The large sea mammal that eats seagrass and is found in the Red Sea and Gulf. :: Dugong
+The large whale famous for its songs. :: Humpback whale
+The whale with a long tusk, called the unicorn of the sea. :: Narwhal
+The toothed whale that dives the deepest and has the largest brain. :: Sperm whale
+The tiny shrimp-like animals that blue whales eat. :: Krill
+The animal with three hearts and blue blood. :: Octopus
+The animal with ten arms that squirts ink. :: Squid
+The shellfish that makes pearls. :: Oyster
+The animals that build coral reefs. :: Coral polyps
+The insect that makes a 'waggle dance' to share where flowers are. :: Honeybee
+The queen ant's main job. :: Laying eggs
+The insect that can live for weeks without its head. :: Cockroach
+The desert insect that travels in huge swarms and eats crops. :: Locust
+The insect that rolls balls of dung. :: Dung beetle
+The beetle that was sacred in ancient Egypt. :: Scarab
+The insect that makes a clicking song on hot nights. :: Cricket (and cicada)
+The insect that lives in huge mounds in Africa and eats wood. :: Termite
+The butterfly famous for migrating thousands of kilometres across North America. :: Monarch butterfly
+The spider with a red hourglass on its belly. :: Black widow
+The largest spider by weight. :: Goliath birdeater
+The animal that has more legs than any other, up to about 1,300. :: Millipede
+The worms that help soil by eating and loosening it. :: Earthworms
+The animal that has no brain, heart or bones and is mostly water. :: Jellyfish
+The mammal group with pouches. :: Marsupials
+The two mammals that lay eggs. :: Platypus and echidna
+The Australian marsupial that is a fierce little scavenger. :: Tasmanian devil
+The scaly mammal that rolls into a ball and is the most trafficked mammal. :: Pangolin
+The animal that eats ants with a long sticky tongue in South America. :: Giant anteater
+The small spiny mammal of Arabian deserts that rolls into a ball. :: Desert hedgehog
+The desert rodent that hops on long back legs like a tiny kangaroo. :: Jerboa
+The largest rodent in the world. :: Capybara
+The Arabic name for the Nubian ibex. :: Al-Wa'l
+The goat-like animal that climbs cliffs with huge curved horns. :: Ibex
+The small wild cat of Arabian sand deserts with furry feet. :: Sand cat
+The wolf found across Arabia is a smaller kind of this animal. :: Grey wolf
+
+## 300
+The scientific name for the domestic dog's wild ancestor. :: Canis lupus (grey wolf)
+The animal group that includes spiders, scorpions and ticks. :: Arachnids
+The animal group that includes insects, crabs and spiders, with jointed legs. :: Arthropods
+The animal group that includes snails, clams and octopuses. :: Molluscs
+The animal group of starfish and sea urchins. :: Echinoderms
+The animal group of jellyfish and corals. :: Cnidarians
+The hard outer skeleton of insects and crabs. :: Exoskeleton
+The material that makes up insect exoskeletons. :: Chitin
+The breathing organs of fish. :: Gills
+The organ that lets many fish float at the right depth. :: Swim bladder
+The line of sense organs along a fish's side. :: Lateral line
+The skeleton of a shark is made of this. :: Cartilage
+The sense that sharks use to detect electric fields. :: Electroreception (ampullae of Lorenzini)
+The way bats and dolphins find things using sound. :: Echolocation
+The way snakes 'smell' with their tongues uses this organ. :: Jacobson's organ (vomeronasal organ)
+The heat-sensing pits of some snakes let them see this. :: Infrared (body heat)
+The cold-blooded animals' word for depending on outside heat. :: Ectothermic
+The mammal that has the longest pregnancy, about 22 months. :: Elephant
+The mammal with the shortest pregnancy, about 12 days. :: Virginia opossum
+The bird that can stay in the air for ten months without landing. :: Common swift
+The penguin species that is the largest. :: Emperor penguin
+The only penguin that lives on the African mainland's coast. :: African penguin
+The bird that hammers holes in tree trunks. :: Woodpecker
+The bird that is the fastest runner. :: Ostrich
+The ostrich can run at about this speed. :: About 70 km/h
+The bird of paradise lives mainly on this island. :: New Guinea
+The bird famous for building decorated 'bowers' to attract mates. :: Bowerbird
+The parrot that cannot fly and is nocturnal, from New Zealand. :: Kākāpō
+The extinct flightless bird from Mauritius. :: Dodo
+The extinct bird that once flew in flocks of billions in North America. :: Passenger pigeon
+The last passenger pigeon, Martha, died in this year. :: 1914
+The Arabian ostrich became extinct in this century. :: The 20th century
+The large wild sheep of Central Asia with huge curled horns. :: Argali (Marco Polo sheep)
+The Asian wild horse that was saved from extinction. :: Przewalski's horse
+The extinct zebra-like animal from South Africa. :: Quagga
+The extinct marsupial also called the Tasmanian tiger. :: Thylacine
+The extinct elephant relative with long woolly fur. :: Woolly mammoth
+The giant extinct shark with teeth as big as a hand. :: Megalodon
+The animal that is the biggest predator on land. :: Polar bear
+The polar bear's skin is this colour. :: Black
+The bear that is the smallest, from South-East Asia. :: Sun bear
+The animal whose fingerprints look very similar to humans'. :: Koala
+The animal with the strongest bite measured. :: Saltwater crocodile
+The fish that can walk on land between ponds and breathe air. :: Walking catfish (or mudskipper)
+The fish with the most venom, which looks like a rock. :: Stonefish
+The fish known for its 'parrot-like' beak that eats coral and makes sand. :: Parrotfish
+The small fish that cleans other fish at 'cleaning stations'. :: Cleaner wrasse
+The colourful sea slugs. :: Nudibranchs
+The blue-ringed animal that is one of the most venomous in the sea. :: Blue-ringed octopus
+The animal that can survive in space and extreme cold, also called a water bear. :: Tardigrade
+The jellyfish that can return to its young stage and is called 'immortal'. :: Turritopsis dohrnii
+The animal with the largest eyes of any animal. :: Colossal squid
+The insect with the longest migration, flying across oceans. :: Globe skimmer dragonfly
+The bee species that makes most honey worldwide. :: Western honeybee (Apis mellifera)
+The honey from Yemen made from this tree's flowers is very prized. :: Sidr (jujube)
+The number of eyes a honeybee has. :: Five
+The insect that is the strongest for its size, lifting 1,000 times its weight. :: Horned dung beetle
+The butterfly's tongue, coiled like a spring. :: Proboscis
+The insects that live in colonies with a queen, workers and soldiers, and fungus gardens. :: Leafcutter ants
+The ant that sews leaves together with silk from its larvae. :: Weaver ant
+The spider that uses a trapdoor to catch prey. :: Trapdoor spider
+The spider silk is stronger than this metal of the same weight. :: Steel
+The arachnid that glows under ultraviolet light. :: Scorpion
+The animal whose bite spreads Lyme disease. :: Tick
+The disease spread by rats' fleas that caused the Black Death. :: Plague
+The animal that spreads rabies most often to people. :: Dog
+The animal that is the deadliest to humans. :: Mosquito
+The snake that killed Cleopatra, according to legend. :: Egyptian cobra (asp)
+The snake that can 'fly' by gliding between trees. :: Paradise tree snake
+The snake that hides in sand with only its eyes showing in Arabian deserts. :: Sand viper (Arabian horned viper)
+The scorpion species of North Africa and Arabia called the deathstalker. :: Leiurus quinquestriatus
+The camel's nose can close to keep out this. :: Sand
+The camel's body temperature can change by this much in a day to save water. :: About 6 °C
+The Arabian camel breed famous for racing, from Oman. :: Omani camel
+The famous camel beauty contest in Saudi Arabia. :: King Abdulaziz Camel Festival
+The Gulf waters are home to the largest population of this sea mammal outside Australia. :: Dugong
+The shark that has a hammer-shaped head. :: Hammerhead shark
+The shark species seen near Saudi Arabia's Red Sea reefs, the largest fish. :: Whale shark
+The animal whose horn is made of keratin, like hair. :: Rhinoceros
+The animal whose tusks are long teeth. :: Elephant
+The animal known for 'laughing' calls that is actually a skilled hunter. :: Spotted hyena
+The African animal that pronks, jumping straight up. :: Springbok
+The large African antelope with spiral horns. :: Greater kudu
+The great migration in the Serengeti is mostly made of this animal. :: Wildebeest
+The bird that rides on large animals and eats ticks. :: Oxpecker
+The small animal that lives in groups and stands guard on its back legs. :: Meerkat
+The small animal from Madagascar with a long ringed tail. :: Ring-tailed lemur
+The animal that is the only living member of its order and has an 'aardvark' name meaning 'earth pig'. :: Aardvark
+The Asian animal similar to a rhino, with a short trunk. :: Tapir
+The animal that can live without water its whole life, getting water from seeds. :: Kangaroo rat
+The process of animals getting larger in colder climates is described by this rule. :: Bergmann's rule
+The term for animals that eat insects. :: Insectivores
+The term for animals that eat fruit. :: Frugivores
+The animal that lays the largest egg relative to its body. :: Kiwi
+The famous parrot that could say over 100 words, studied by Irene Pepperberg. :: Alex (African grey parrot)
+The chimp researcher famous for her study in Gombe. :: Jane Goodall
+The gorilla researcher killed in Rwanda in 1985. :: Dian Fossey
+The scientist who studied orangutans in Borneo, one of 'Leakey's Angels'. :: Biruté Galdikas
+The zoologist who studied imprinting in geese. :: Konrad Lorenz
+The scientist who studied the waggle dance of bees. :: Karl von Frisch
+
+## 400
+The scientific name of the Arabian oryx. :: Oryx leucoryx
+The scientific name of the lion. :: Panthera leo
+The scientific name of the house cat. :: Felis catus
+The scientific name of the dromedary camel. :: Camelus dromedarius
+The genus of the big cats that can roar. :: Panthera
+The year the Arabian oryx was declared extinct in the wild. :: 1972
+The 1962 rescue project that saved the Arabian oryx by breeding it in zoos. :: Operation Oryx
+The Arabian oryx was the first animal to go from 'extinct in the wild' to this IUCN status. :: Vulnerable
+The international list of threatened species. :: IUCN Red List
+The 1973 treaty that controls trade in endangered species. :: CITES
+The Saudi reserve in the Empty Quarter where oryx were reintroduced. :: Uruq Bani Ma'arid
+The Saudi royal reserve in the north named after a king, one of the largest in the Middle East. :: King Salman bin Abdulaziz Royal Natural Reserve
+The Saudi leopard conservation programme centres on this region. :: AlUla
+The wild ass of Asia, also called the onager, once lived in Arabia; it is this kind of animal. :: Wild donkey (Asiatic wild ass)
+The gazelle species found in Arabian sand deserts, with white coat. :: Arabian sand gazelle (reem)
+The mountain gazelle's Arabic name. :: Idmi
+The bird of the Arabian deserts prized by falconers as prey, the houbara, is this kind of bird. :: Bustard
+The fastest-flying bird in level flight. :: White-throated needletail (or common swift)
+The bird that can see ultraviolet light to find prey's urine trails. :: Kestrel
+The owl species that lives in burrows in deserts. :: Burrowing owl
+The bird family of the hoopoe, a crested bird mentioned in the Qur'an. :: Upupidae
+The bird mentioned in the story of Prophet Sulayman ﷺ. :: Hoopoe (hudhud)
+The bird whose nests are eaten as bird's-nest soup. :: Swiftlet
+The pigeon-like bird of deserts that carries water to chicks in its belly feathers. :: Sandgrouse
+The world's smallest bird. :: Bee hummingbird
+The world's smallest mammal by mass. :: Etruscan shrew
+The world's smallest primate. :: Madame Berthe's mouse lemur
+The fish that is the smallest vertebrate, found in Indonesia. :: Paedocypris
+The frog that is the most poisonous, from Colombia. :: Golden poison frog
+The largest frog in the world. :: Goliath frog
+The amphibian group with no legs that looks like worms. :: Caecilians
+The 'four-eyed fish' can see above and below water at once; its genus is this. :: Anableps
+The ability of clownfish to change from male to female is called this. :: Sequential hermaphroditism
+The fish that is a 'living fossil' rediscovered in 1938. :: Coelacanth
+The Red Sea is home to over this many species of fish. :: About 1,200
+The colour change in cuttlefish is controlled by cells called this. :: Chromatophores
+The cuttlefish's internal shell, given to pet birds. :: Cuttlebone
+The nautilus has a shell divided into chambers it fills with this to float. :: Gas
+The animal that has the most teeth, a snail with thousands of tiny ones. :: Snail (on its radula)
+The tongue-like ribbon of teeth in snails. :: Radula
+The sea animal that throws out its insides to defend itself. :: Sea cucumber
+The barnacle is closely related to this group of animals. :: Crustaceans
+The crab that lives in empty shells. :: Hermit crab
+The largest arthropod, with legs spanning almost 4 metres. :: Japanese spider crab
+The largest land arthropod, a crab that climbs palms. :: Coconut crab
+The krill-eating whales filter food with these plates. :: Baleen
+The family that the orca (killer whale) belongs to. :: Dolphins (Delphinidae)
+The whale species that migrates farthest of any mammal. :: Grey whale (or humpback)
+The 'canary of the sea', a white whale. :: Beluga
+The dolphin species living in fresh water in the Amazon, pink in colour. :: Amazon river dolphin (boto)
+The seal relative with long tusks living in the Arctic. :: Walrus
+The animal that holds hands while sleeping on water. :: Sea otter
+The primate that uses tools to fish for termites. :: Chimpanzee
+The bird that uses twigs as tools in New Caledonia. :: New Caledonian crow
+The animal that recognises itself in a mirror, like apes, dolphins and this bird. :: Eurasian magpie
+The animal known to bury its dead and mourn, according to many studies. :: Elephant
+Elephants communicate over long distances using this. :: Low-frequency rumbles (infrasound)
+The animal whose milk is the fattiest, about 60% fat. :: Hooded seal
+The male animal that gives birth. :: Seahorse
+The production of light by living things. :: Bioluminescence
+The animal with the longest tongue relative to its body. :: Chameleon
+The chameleon's eyes can do this. :: Move independently
+The lizard that squirts blood from its eyes. :: Horned lizard
+The lizard that drops its tail to escape. :: Gecko (and many lizards)
+The gecko's sticky feet work thanks to tiny hairs using this force. :: Van der Waals forces
+The snake that eats eggs and has no teeth to speak of. :: Egg-eating snake
+The way snakes are born live in some species and from eggs in others; boas give birth this way. :: Live birth (viviparous)
+The temperature of the nest decides this in many turtles. :: Whether the young are male or female
+The Galápagos animal that swims and feeds on seaweed. :: Marine iguana
+The tortoise species from the Galápagos that can live over 150 years. :: Galápagos giant tortoise
+The famous tortoise Lonesome George was the last of his kind from this island. :: Pinta Island
+The animal that may be the longest-living vertebrate, living about 400 years. :: Greenland shark
+The clam found to be 507 years old, named after a Chinese dynasty. :: Ming the clam
+The naked rodent that hardly ages and rarely gets cancer. :: Naked mole-rat
+The animal that is the only known mammal with venom-spurs on males. :: Platypus
+The shrew and solenodon are among the few mammals with this. :: Venomous saliva
+The mammal that can glide between trees using skin flaps, in Asia. :: Colugo (flying lemur)
+The bat that drinks blood. :: Vampire bat
+The largest bat, with a wingspan of 1.5 metres. :: Giant golden-crowned flying fox
+The fruit bats are also called this. :: Flying foxes
+The study of birds. :: Ornithology
+The study of insects. :: Entomology
+The study of fish. :: Ichthyology
+The study of reptiles and amphibians. :: Herpetology
+The study of animal behaviour. :: Ethology
+The study of mammals. :: Mammalogy
+The organisation that founded the 'Panda' logo for conservation. :: WWF
+The study of spiders and scorpions. :: Arachnology
+The term for animals active at dawn and dusk. :: Crepuscular
+The term for an animal that lives in trees. :: Arboreal
+The summer version of hibernation, used by desert animals in heat. :: Aestivation
+The term for animals that keep a steady body temperature. :: Endothermic (warm-blooded)
+The animal that changes its coat from brown to white in winter, in the Arctic. :: Arctic fox (and stoat, hare)
+The process where an animal grows a new tail or limb. :: Regeneration
+The flatworm that can regrow its whole body from a small piece. :: Planarian
+The animal with the largest brain of any animal. :: Sperm whale
+The mammal with the biggest brain relative to body size among large animals, after humans. :: Dolphin
+The animal that holds the record for the loudest sound made by an animal. :: Sperm whale
+The insect that makes the loudest sound. :: Cicada
+The animal that can see the most colours, with up to 16 types of colour receptor. :: Mantis shrimp
+
+## 500
+The scientific name of the cheetah. :: Acinonyx jubatus
+The scientific name of the Arabian leopard's species and subspecies. :: Panthera pardus nimr
+The scientific name of the dugong. :: Dugong dugon
+The scientific name of the blue whale. :: Balaenoptera musculus
+The scientific name of the honeybee. :: Apis mellifera
+The scientific name of the house mouse. :: Mus musculus
+The order of mammals that includes bats. :: Chiroptera
+The order of mammals that includes whales and dolphins, now grouped with even-toed hoofed animals. :: Cetacea (Artiodactyla)
+The order that includes rabbits and hares. :: Lagomorpha
+The order that includes elephants. :: Proboscidea
+The order that includes primates such as humans and lemurs. :: Primates
+The closest living relatives of elephants, besides each other. :: Hyraxes and sea cows (sirenians)
+The rock hyrax of Arabia is called this in Arabic. :: Wabr
+The closest living relative of whales. :: Hippopotamus
+The closest living relatives of birds. :: Crocodilians
+The group of dinosaurs that gave rise to birds. :: Theropods
+The famous feathered dinosaur fossils come from this Chinese province. :: Liaoning
+The animal phylum with the most known species. :: Arthropods
+The order of insects with the most described species. :: Beetles (Coleoptera)
+The biologist who, asked about God, said He has 'an inordinate fondness for beetles'. :: J. B. S. Haldane
+The scientist who first described the Arabian oryx scientifically in 1777. :: Peter Simon Pallas
+The 18th-century Danish expedition to Arabia whose naturalist Peter Forsskål described many Red Sea species. :: Danish Arabia Expedition (Carsten Niebuhr's expedition)
+The Arabian Gulf's coral reefs survive the hottest sea temperatures for corals in the world, up to about this. :: About 35 °C
+The fish of the Gulf that is the most popular food fish in Saudi Arabia, a grouper. :: Hamour
+The prized Gulf fish also called the silver pomfret. :: Zubaidi
+The Gulf's 'kingfish', a mackerel, is called this in Arabic. :: Kanaad
+The shrimp species fished in the Gulf, often called 'jumbo'. :: Green tiger prawn
+The coral reef-building corals are mostly in this order. :: Scleractinia (stony corals)
+The world's longest reef system after the Great Barrier Reef, in Belize. :: Mesoamerican Barrier Reef
+The animal phylum of sponges. :: Porifera
+The sponges have no true tissues; they filter food through these. :: Pores
+The animal used to find the first evidence of learning in invertebrates at the cell level, by Eric Kandel. :: Sea slug (Aplysia)
+The squid whose giant nerve fibres helped scientists understand nerve signals. :: Longfin inshore squid (giant axon)
+The bird that Darwin collected that helped explain evolution, though he did not label them well at first. :: Galápagos finches
+The moth that changed colour in Britain during the Industrial Revolution. :: Peppered moth
+The term for animals that look like dangerous ones to stay safe. :: Batesian mimicry
+The term for two harmful species that look alike. :: Müllerian mimicry
+The bright colours that warn predators an animal is toxic. :: Aposematism
+The 'red queen' idea in evolution describes this. :: Constant evolutionary arms races
+The theory by Hamilton that explains why worker bees help their sisters. :: Kin selection
+The scientist who wrote 'The Selfish Gene'. :: Richard Dawkins
+The animal with the largest genome known, about 50 times the human's. :: Marbled lungfish
+The two dogs that were the first animals to orbit Earth and return alive, in 1960. :: Belka and Strelka
+The animals that first reached space and returned alive, in 1947 on a V-2 rocket. :: Fruit flies
+The chimpanzee that flew in a Mercury capsule in 1961. :: Ham
+The number of species of camel in the world, counting the wild Bactrian. :: Three
+The wild camel species that survives in the Gobi Desert. :: Wild Bactrian camel
+The camel's red blood cells are this shape, unlike other mammals'. :: Oval
+The camel's antibodies are unusual because they are small; these are called this. :: Nanobodies
+The proportion of water a camel can lose from its body and survive. :: About 25–30%
+The term for the camel's ability to let its body heat up by day. :: Adaptive heterothermy
+The traditional Bedouin term for a female camel prized for milk. :: Naqa
+The camel's stomach has this many compartments. :: Three
+The horse's ancestor, a small forest animal from about 55 million years ago. :: Eohippus (Hyracotherium)
+The 'Five Founding Strains' of the Arabian horse are called this in Arabic. :: Al-Khamsa
+The founding lines of the Thoroughbred horse are three Arabian-type stallions; one is the Darley Arabian. Name another. :: The Byerley Turk or the Godolphin Arabian
+The Saudi stud farm in Dirab that preserves pure Arabian horses. :: King Abdulaziz Arabian Horse Centre
+The world's oldest known breed of domesticated dog, linked to Arabian hunting. :: Saluki
+The lion subspecies that once lived in Iraq and Iran and now survives only in India. :: Asiatic lion
+The Indian forest where the last Asiatic lions live. :: Gir Forest
+The cat that was found in Arabia, hunting with dogs and called the 'hunting leopard'. :: Cheetah
+The Asiatic cheetah now survives only in this country. :: Iran
+The large antelope species that are horned in both sexes in Arabia. :: Oryx
+The bird of prey that migrates over Saudi Arabia in huge numbers each autumn, the steppe eagle, breeds in this region. :: Central Asia (Kazakhstan and Russia)
+The 'Red Sea's island' famous for nesting seabirds and turtles in Saudi waters. :: Farasan Islands
+The gazelle found only on the Farasan Islands. :: Farasan gazelle (Idmi subspecies)
+The Saudi agency for wildlife today. :: National Center for Wildlife (NCW)
+The scientific study of animal and plant distribution across the Earth. :: Biogeography
+The line between Asian and Australian animals in Indonesia. :: Wallace Line
+The term for animals found only in one place. :: Endemic
+The Hawaiian bird group that evolved many beak shapes. :: Hawaiian honeycreepers
+The large lake in Africa famous for hundreds of cichlid fish species. :: Lake Malawi (and Lake Victoria)
+The island with the most unique mammals, like lemurs and fossas. :: Madagascar
+The fossa is a predator that looks like a cat but is related to this. :: Mongooses
+The South American animals that are 'camels' without humps. :: Llamas, alpacas, guanacos and vicuñas
+The deep-sea worm that lives on whale bones. :: Osedax (bone-eating worm)
+The giant tube worms at hydrothermal vents rely on these partners for food. :: Bacteria (chemosynthetic)
+The snail with an iron-plated shell living at hot vents. :: Scaly-foot gastropod
+The animal that survives without oxygen, a tiny parasite of salmon. :: Henneguya salminicola
+The animal that sleeps with half its brain at a time. :: Dolphin
+The bird that sleeps with one eye open and half its brain awake. :: Mallard duck (and many birds)
+The term for the cluster of eggs of a frog. :: Frogspawn
+The name for a baby echidna or platypus. :: Puggle
+The name for a baby hare. :: Leveret
+The name for a baby swan. :: Cygnet
+The name for a baby eel. :: Elver
+The name for a young pigeon. :: Squab
+The name for a male donkey. :: Jack
+The name for a female donkey. :: Jenny (jennet)
+The name for a group of crows. :: Murder
+The name for a group of owls. :: Parliament
+The name for a group of flamingos. :: Flamboyance
+The name for a group of jellyfish. :: Smack (bloom)
+The name for a group of camels. :: Caravan (or flock)
+The name for a group of zebras. :: Dazzle
+The name for a group of rhinos. :: Crash
+The bird with the longest bill relative to its body. :: Sword-billed hummingbird
+The bird with the longest bill overall. :: Australian pelican
+The animal whose fur grows algae, making it look green. :: Sloth
+The heaviest insect in the world, from New Zealand. :: Giant weta

@@ -1,0 +1,514 @@
+id: softeng
+name: Software Engineering
+nameAr: هندسة البرمجيات
+group: cces
+
+## 100
+The field that applies engineering methods to building software. :: Software engineering
+A mistake in a program that makes it behave wrongly. :: Bug
+The process of finding and fixing mistakes in code. :: Debugging
+The people who will actually use a software product. :: Users (end users)
+A written list of what a system must do. :: Requirements
+A requirement that describes what the system does, such as "users can log in". :: Functional requirement
+A requirement about qualities such as speed or security. :: Non-functional requirement
+The step-by-step stages from idea to retired product, shortened to four letters. :: SDLC
+The classic model in which each phase finishes before the next starts. :: Waterfall model
+The family of methods that delivers software in small, frequent steps. :: Agile
+The popular Agile framework that works in sprints. :: Scrum
+A fixed time box in Scrum, usually two to four weeks. :: Sprint
+The short daily Scrum meeting. :: Daily stand-up (daily scrum)
+The Scrum role that owns the product backlog. :: Product owner
+The Scrum role that coaches the team and removes obstacles. :: Scrum master
+The ordered list of everything that might be built in a product. :: Product backlog
+A short description of a feature from the user's point of view. :: User story
+The usual template of a user story starts "As a ..., I want ...". It ends "so that" this. :: The benefit (reason)
+The board with columns such as To Do, Doing and Done. :: Kanban board
+The Japanese word meaning "signboard" used for a visual workflow method. :: Kanban
+A first, rough working model of a product. :: Prototype
+A simple drawing of a screen layout before design. :: Wireframe
+A product with just enough features to test with real users, shortened to three letters. :: MVP
+Checking that software works correctly. :: Testing
+A test of one small piece of code on its own. :: Unit test
+A test that checks how parts work together. :: Integration test
+Testing done by the customer to decide whether to accept the product. :: Acceptance testing
+Re-running old tests to make sure new changes did not break anything. :: Regression testing
+Testing without looking at the code inside. :: Black-box testing
+Testing with full knowledge of the code inside. :: White-box testing
+Testing done by real users before the official release, after alpha. :: Beta testing
+A system that tracks every change to files over time. :: Version control
+The most popular version control system, made by Linus Torvalds. :: Git
+The website owned by Microsoft that hosts Git repositories. :: GitHub
+A project folder tracked by Git. :: Repository
+A saved snapshot of changes in Git. :: Commit
+A separate line of development in Git. :: Branch
+The usual name of Git's main branch today. :: main
+The Git command that uploads commits to a remote. :: git push
+The Git command that downloads and merges remote changes. :: git pull
+The situation when two people changed the same lines and Git cannot merge them alone. :: Merge conflict
+A plain text file that explains a project, usually in Markdown. :: README
+Notes in code that explain what it does, ignored by the computer. :: Comments
+Written guides that explain how software works or how to use it. :: Documentation
+Improving code structure without changing what it does. :: Refactoring
+A numbered release of software, such as 2.1.0. :: Version
+The versioning scheme MAJOR.MINOR.PATCH. :: Semantic versioning
+Putting new software live for users. :: Deployment
+The live system that real users use. :: Production
+A copy of production used for final checks. :: Staging environment
+The computer program that turns source code into machine code. :: Compiler
+Software tools that bundle an editor, compiler and debugger, shortened to three letters. :: IDE
+Code that is freely available for anyone to read and change. :: Open source
+The legal permission that says how software may be used. :: Software licence
+The very permissive open-source licence named after a university in Massachusetts. :: MIT License
+The "copyleft" licence used by Linux. :: GNU GPL
+A drawing of a program's logic using boxes and arrows. :: Flowchart
+Plain-language steps that describe an algorithm before coding. :: Pseudocode
+The standard visual modelling language for software, shortened to three letters. :: UML
+A UML diagram that shows actors and what they can do with a system. :: Use case diagram
+A UML diagram that shows classes and their relationships. :: Class diagram
+A person or system outside the software that uses it in a use case diagram. :: Actor
+The part of software the user sees and touches, shortened to two letters. :: UI
+How easy and pleasant software is to use, shortened to two letters. :: UX
+The part of a web app that runs in the browser. :: Front end
+The part of a web app that runs on the server. :: Back end
+A developer who works on both front end and back end. :: Full-stack developer
+A set of rules that lets programs talk to each other, shortened to three letters. :: API
+The person who manages a software project's schedule and budget. :: Project manager
+A rough guess of how long a task will take. :: Estimate
+A planned date by which something must be done. :: Deadline
+A key checkpoint in a project plan. :: Milestone
+The bar chart used to show a project schedule over time. :: Gantt chart
+When a project keeps growing beyond its original plan. :: Scope creep
+Something that could go wrong in a project. :: Risk
+Someone with an interest in a project, such as a customer or manager. :: Stakeholder
+The meeting at the end of a sprint where the team reflects on how to improve. :: Sprint retrospective
+The meeting at the end of a sprint where the team shows the work. :: Sprint review
+An agreed checklist that must be met before a story counts as finished. :: Definition of done
+Two programmers sharing one computer, one typing and one reviewing. :: Pair programming
+Another developer reading your code to find problems before it is merged. :: Code review
+A request on GitHub to merge a branch, shortened to two letters. :: PR (pull request)
+Automatically building and testing every change, shortened to two letters. :: CI (continuous integration)
+The practice that joins development and operations teams. :: DevOps
+Renting servers and services over the internet. :: Cloud computing
+Amazon's cloud platform, shortened to three letters. :: AWS
+Microsoft's cloud platform. :: Azure
+The term for software that is sold as an online service, such as Gmail, shortened to four letters. :: SaaS
+Software that makes a computer harmful, such as a virus. :: Malware
+A small update that closes a security hole. :: Security patch
+The process of making software work in many languages and regions. :: Localisation
+The direction Arabic text is written. :: Right to left
+The coding standard that sets names, spacing and layout rules. :: Style guide (coding conventions)
+Naming that joins words with capitals, like userName. :: camelCase
+Naming that joins words with underscores, like user_name. :: snake_case
+The principle "Don't Repeat Yourself", shortened. :: DRY
+The principle "Keep It Simple, Stupid", shortened. :: KISS
+The principle "You Aren't Gonna Need It", shortened. :: YAGNI
+Old code that is hard to change but still in use. :: Legacy code
+Shortcuts in code that will cost extra work later. :: Technical debt
+
+## 200
+The model that adds risk analysis to each loop of development, proposed by Barry Boehm. :: Spiral model
+The model that pairs each development phase with a matching test phase. :: V-model
+Building software in repeated cycles, each improving the last. :: Iterative development
+The 2001 document that started the Agile movement. :: Agile Manifesto
+The US ski resort where the Agile Manifesto was written. :: Snowbird, Utah
+The Agile Manifesto values working software over this. :: Comprehensive documentation
+The Agile Manifesto values customer collaboration over this. :: Contract negotiation
+The Agile Manifesto values responding to change over this. :: Following a plan
+The Agile method by Kent Beck that includes pair programming and TDD, shortened to two letters. :: XP (Extreme Programming)
+The unit used in Scrum to estimate the effort of a story, not hours. :: Story points
+The number sequence often used for story points. :: Fibonacci sequence
+The estimation game in which team members reveal cards at the same time. :: Planning poker
+The amount of work a Scrum team finishes in a sprint, used for planning. :: Velocity
+The chart that shows work remaining over a sprint. :: Burndown chart
+The list of items chosen for the current sprint. :: Sprint backlog
+A large user story that is too big for one sprint. :: Epic
+The criteria a user story must meet to be accepted. :: Acceptance criteria
+The acronym for good user stories: Independent, Negotiable, Valuable, Estimable, Small and Testable. :: INVEST
+The Kanban rule that caps how many tasks can be in progress, shortened to three letters. :: WIP limit
+The time from when work starts on a task to when it is done. :: Cycle time
+The prioritisation method with Must, Should, Could and Won't. :: MoSCoW
+The document that lists all software requirements, shortened to three letters. :: SRS
+Ways of gathering requirements such as interviews, surveys and workshops. :: Requirements elicitation
+Checking that requirements are correct and complete with stakeholders. :: Requirements validation
+The question "Are we building the product right?" :: Verification
+The question "Are we building the right product?" :: Validation
+A table linking each requirement to its design and tests. :: Traceability matrix
+The test approach that writes a failing test first, then code, then refactors. :: TDD
+The three-step TDD cycle. :: Red, green, refactor
+The approach that writes tests in plain language as Given, When, Then. :: BDD (behaviour-driven development)
+The tool that runs BDD scenarios written in the Gherkin language. :: Cucumber
+The share of code that is run by tests. :: Code coverage
+Coverage that checks every if and else outcome has been run. :: Branch coverage
+A fake object that records how it was called in a test. :: Mock
+A simple fake that returns fixed answers in a test. :: Stub
+Testing the whole application from the user interface down to the database. :: End-to-end testing
+The testing model with many unit tests at the base and few UI tests at the top. :: Test pyramid
+A quick test that checks the basic functions work after a build. :: Smoke test
+Testing how a system behaves under expected numbers of users. :: Load testing
+Testing a system beyond its limits to see how it fails. :: Stress testing
+Testing values at the edges of allowed ranges. :: Boundary value analysis
+Dividing inputs into groups expected to behave the same and testing one from each. :: Equivalence partitioning
+Feeding random or malformed inputs to find crashes. :: Fuzz testing (fuzzing)
+Checking code without running it. :: Static analysis
+A tool that flags style problems and likely bugs in code. :: Linter
+The popular linter for JavaScript. :: ESLint
+The Java testing framework whose name ends in "Unit". :: JUnit
+The Python testing framework that uses plain assert statements. :: pytest
+The JavaScript testing framework from Meta. :: Jest
+The practice of automatically releasing every change that passes tests to production. :: Continuous deployment
+Keeping every change ready to release at any time, with a manual go-live step. :: Continuous delivery
+The automated series of build, test and deploy steps, shortened. :: CI/CD pipeline
+GitHub's built-in automation service. :: GitHub Actions
+The open-source automation server written in Java, named after a butler. :: Jenkins
+The tool that packages an app with everything it needs to run in a container. :: Docker
+The file that describes how to build a Docker image. :: Dockerfile
+A full simulated computer running on another one. :: Virtual machine
+Managing servers using code files instead of manual setup, shortened to three letters. :: IaC (infrastructure as code)
+The HashiCorp tool for infrastructure as code. :: Terraform
+A Git command that makes a copy of a remote repository. :: git clone
+The Git command that shows changed files. :: git status
+The Git command that shows the history of commits. :: git log
+The Git command that puts changes in the staging area. :: git add
+The Git command that temporarily shelves uncommitted changes. :: git stash
+The Git command that moves commits onto a new base. :: git rebase
+A copy of someone else's repository under your own account on GitHub. :: Fork
+A file listing files Git should not track. :: .gitignore
+A branching model with main, develop, feature, release and hotfix branches. :: Git flow
+A short-lived branch for one new feature. :: Feature branch
+An urgent fix to production, often on its own branch. :: Hotfix
+A label in Git that marks a release, such as v1.0. :: Tag
+A way of hiding unfinished features in production that can be turned on later. :: Feature flag (toggle)
+Releasing a new version to a small group of users first. :: Canary release
+Running two identical production environments and switching traffic between them. :: Blue–green deployment
+Going back to the previous version after a bad release. :: Rollback
+How much each part of a system depends on other parts. :: Coupling
+How closely the tasks within one module belong together. :: Cohesion
+The goal for good design: low coupling and this. :: High cohesion
+Splitting a program into independent parts. :: Modularity
+Hiding the details of how something works behind a simple interface. :: Abstraction
+Keeping data and the code that changes it together, hiding internal details. :: Encapsulation
+The book by the "Gang of Four" published in 1994. :: Design Patterns
+The number of authors in the "Gang of Four". :: 4
+The pattern that makes sure a class has only one instance. :: Singleton
+The pattern that creates objects without naming their exact class. :: Factory
+The pattern that converts one interface into another. :: Adapter
+The pattern that adds behaviour to an object by wrapping it. :: Decorator
+The pattern that notifies many objects when one changes. :: Observer
+The pattern that lets an algorithm be swapped at runtime. :: Strategy
+The architecture that splits an app into Model, View and Controller. :: MVC
+An architecture where a client requests and a server responds. :: Client–server
+The style of web API that uses HTTP verbs on resources. :: REST
+An app built as one big unit that is deployed together. :: Monolith
+An architecture of many small services that are deployed separately. :: Microservices
+Code that measures how long something takes to run. :: Benchmark
+Recording events and errors from a running program. :: Logging
+Watching live systems for errors, slowdowns and outages. :: Monitoring
+The share of time a service is working, often given as a number of nines. :: Availability (uptime)
+A written agreement on service uptime, shortened to three letters. :: SLA
+A report that records the cause and fixes of an outage without blame. :: Postmortem
+
+## 300
+The US engineer whose 1970 paper is often cited as the origin of the Waterfall model. :: Winston Royce
+The 1968 NATO conference location where the term "software engineering" was popularised. :: Garmisch, Germany
+The term for the 1960s problems of late, over-budget, unreliable software. :: Software crisis
+The NASA software engineer often credited with coining "software engineering" during Apollo. :: Margaret Hamilton
+The 1975 book by Fred Brooks about managing the IBM OS/360 project. :: The Mythical Man-Month
+Brooks's law: adding people to a late software project makes it this. :: Later
+The 1986 essay by Fred Brooks saying no single technique will give a tenfold gain. :: No Silver Bullet
+The law that systems mirror the communication structure of the organisations that build them. :: Conway's law
+The law that work expands to fill the time available. :: Parkinson's law
+The rule that the first 90% of code takes 90% of the time and the last 10% takes the other 90%. :: Ninety-ninety rule
+The law that every observable behaviour of an API will be depended on by somebody. :: Hyrum's law
+The principle "be conservative in what you send, liberal in what you accept". :: Robustness principle (Postel's law)
+The principle that a module should know as little as possible about other modules' insides. :: Law of Demeter
+The SOLID principle that classes should be open for extension but closed for modification. :: Open–closed principle
+The SOLID principle that subtypes must be usable wherever their base type is expected. :: Liskov substitution principle
+The SOLID principle that clients should not depend on methods they do not use. :: Interface segregation principle
+The SOLID principle that high-level modules should depend on abstractions, not details. :: Dependency inversion principle
+The engineer who gathered the SOLID principles, known as "Uncle Bob". :: Robert C. Martin
+The 2008 book by Robert C. Martin about writing readable code. :: Clean Code
+The 1999 book by Martin Fowler that catalogued code smells and fixes. :: Refactoring
+A sign in code that may point to a deeper problem, such as a very long method. :: Code smell
+The code smell of a class that knows and does too much. :: God object (God class)
+The smell where one change forces many small edits across many classes. :: Shotgun surgery
+The design advice "favour composition over" this. :: Inheritance
+The design pattern that provides a simplified interface to a complex subsystem. :: Facade
+The pattern that wraps a request as an object, enabling undo and queues. :: Command
+The pattern that builds a complex object step by step. :: Builder
+The pattern that creates objects by copying an existing one. :: Prototype
+The pattern that controls access to another object, such as for lazy loading. :: Proxy
+The pattern that treats single objects and groups the same way in a tree. :: Composite
+The pattern that defines an algorithm's skeleton and lets subclasses fill in steps. :: Template method
+The pattern that lets an object change behaviour when its internal state changes. :: State
+The pattern that passes a request along a chain of handlers. :: Chain of responsibility
+The pattern that walks through a collection without exposing its structure. :: Iterator
+The pattern that shares many small objects to save memory. :: Flyweight
+The pattern that adds new operations to a class hierarchy without changing it. :: Visitor
+The pattern that lets objects talk through a central object instead of directly. :: Mediator
+The pattern that saves and restores an object's earlier state. :: Memento
+The three groups of Gang of Four patterns: creational, structural and this. :: Behavioural
+A common but bad solution to a recurring problem. :: Anti-pattern
+The anti-pattern of tangled, unstructured code. :: Spaghetti code
+The architecture with presentation, business logic and data layers. :: Three-tier (layered) architecture
+The architecture by Alistair Cockburn also called "ports and adapters". :: Hexagonal architecture
+The design approach by Eric Evans built around a shared business language. :: Domain-driven design (DDD)
+In DDD, the shared vocabulary between developers and experts. :: Ubiquitous language
+In DDD, the boundary within which a particular model applies. :: Bounded context
+The pattern that separates commands that change data from queries that read it. :: CQRS
+Storing every change as an event instead of only the current state. :: Event sourcing
+An architecture in which components react to published events. :: Event-driven architecture
+A service that sits in front of microservices and routes requests to them. :: API gateway
+The pattern that stops calls to a failing service for a while. :: Circuit breaker
+A helper process that runs beside each service in a service mesh. :: Sidecar
+Running code as functions without managing servers. :: Serverless
+The 12-factor app principle says configuration should be stored here. :: In environment variables
+The metric that counts independent paths through code, by Thomas McCabe. :: Cyclomatic complexity
+The cyclomatic complexity of a function with no branches. :: 1
+The cyclomatic complexity formula E − N + 2P uses E for edges, N for nodes and P for this. :: Connected components
+The estimation model by Barry Boehm, shortened to six letters. :: COCOMO
+The measure of software size based on inputs, outputs, files and queries. :: Function points
+The size measure counting lines of code, shortened to four letters. :: SLOC (KLOC)
+The planning technique that uses optimistic, likely and pessimistic estimates. :: PERT
+The PERT estimate formula: (O + 4M + P) divided by this. :: 6
+The longest chain of dependent tasks, which sets the shortest project duration. :: Critical path
+The amount a task can slip without delaying the project. :: Float (slack)
+The project triangle has scope, time and this. :: Cost
+The breakdown of a project into smaller deliverables, shortened to three letters. :: WBS
+The model of five maturity levels for software processes, shortened. :: CMMI
+The number of maturity levels in CMMI. :: 5
+The international standard for software product quality, ISO/IEC 250 and this number. :: 10
+The IEEE standard for software requirements specifications, IEEE this number. :: 830
+The Linux kernel's version control before Git. :: BitKeeper
+The year Git was first released. :: 2005
+The data structure Git uses to link commits to their parents. :: Directed acyclic graph
+The hash algorithm Git has traditionally used to name objects. :: SHA-1
+The Git command that finds the commit that introduced a bug by binary search. :: git bisect
+The Git command that applies one chosen commit to another branch. :: git cherry-pick
+The Git command that shows who last changed each line. :: git blame
+The Git command that records every movement of HEAD, useful for recovery. :: git reflog
+The Git state when HEAD points to a commit rather than a branch. :: Detached HEAD
+The branching style where everyone commits to one main branch often. :: Trunk-based development
+The format for commit messages like "feat:" and "fix:". :: Conventional Commits
+Testing that changes code slightly to check whether tests catch it. :: Mutation testing
+Tests that pass and fail randomly without code changes. :: Flaky tests
+Testing that generates many random inputs to check general rules hold. :: Property-based testing
+The Haskell library that introduced property-based testing. :: QuickCheck
+Testing that compares screenshots to catch visual changes. :: Visual regression testing
+The browser automation tool released by Microsoft in 2020. :: Playwright
+The older browser automation project with a WebDriver API. :: Selenium
+The coverage criterion required for the most critical avionics software, shortened to four letters. :: MC/DC
+The safety standard for airborne software. :: DO-178C
+The functional safety standard for road vehicles. :: ISO 26262
+The medical device whose software faults gave fatal radiation overdoses in the 1980s. :: Therac-25
+The 1996 rocket that blew up because of a 64-bit to 16-bit conversion error. :: Ariane 5
+The 1999 NASA probe lost because of a mix-up between metric and imperial units. :: Mars Climate Orbiter
+The problem of storing years with two digits that worried the world in 1999. :: Y2K bug
+The date in 2038 when signed 32-bit Unix time overflows. :: 19 January 2038
+The number of value statements in the Agile Manifesto. :: 4
+The number of principles behind the Agile Manifesto. :: 12
+The software engineer who created Extreme Programming. :: Kent Beck
+A short, time-boxed piece of research to reduce uncertainty in Agile. :: Spike
+
+## 400
+The 1972 paper by David Parnas on decomposing systems into modules introduced this idea. :: Information hiding
+The 1968 letter by Dijkstra in Communications of the ACM titled "Go To Statement Considered" this. :: Harmful
+The theorem by Böhm and Jacopini that any program can use sequence, selection and iteration only. :: Structured program theorem
+The method of proving programs correct with preconditions and postconditions, named after Tony Hoare. :: Hoare logic
+The three-part form {P} C {Q} in Hoare logic. :: Hoare triple
+The programming approach by Bertrand Meyer using preconditions, postconditions and invariants. :: Design by contract
+The language created by Bertrand Meyer with built-in contracts. :: Eiffel
+The formal specification language from Oxford based on set theory, written with boxes called schemas. :: Z notation
+The formal method by Leslie Lamport for specifying concurrent systems. :: TLA+
+Automatically checking every reachable state of a system model against a property. :: Model checking
+The French researcher who shared the 2007 Turing Award for model checking with Clarke and Emerson. :: Joseph Sifakis
+The model checker developed at Bell Labs by Gerard Holzmann. :: SPIN
+The French formal method used to verify the driverless Paris Métro line 14. :: B method
+The proof assistant used to build the verified CompCert C compiler. :: Coq (Rocq)
+The verified microkernel proved correct in 2009 by researchers in Australia. :: seL4
+The 1981 book by Barry Boehm that introduced COCOMO. :: Software Engineering Economics
+The COCOMO formula: effort = a × (KLOC)^b. The mode for small teams on familiar projects is this. :: Organic
+The two other COCOMO modes besides organic. :: Semi-detached and embedded
+The SEI at Carnegie Mellon created the Capability Maturity Model; SEI stands for this. :: Software Engineering Institute
+The CMMI level at which processes are measured and controlled with statistics. :: Level 4 (Quantitatively managed)
+The highest CMMI maturity level. :: Optimising
+The method created by Watts Humphrey for individual engineers' discipline, shortened to three letters. :: PSP (Personal Software Process)
+The large-scale Agile framework, shortened to four letters. :: SAFe
+The Scrum guide was written by Ken Schwaber and this man. :: Jeff Sutherland
+The 1986 Harvard Business Review article whose rugby metaphor gave Scrum its name: "The New New Product Development" this. :: Game
+The two Japanese authors of that 1986 article. :: Takeuchi and Nonaka
+The car maker whose production system inspired lean software development. :: Toyota
+Lean's seven wastes include this, for code written but never released. :: Partially done work (inventory)
+The value stream measure of how long from request to delivery. :: Lead time
+Little's law: average work in progress equals throughput times this. :: Average cycle time (lead time)
+The four DORA metrics include deployment frequency, lead time for changes, change failure rate and this. :: Time to restore service (MTTR)
+The SRE term for the allowed amount of unreliability under an SLO. :: Error budget
+The Google practice that applies software engineering to operations, shortened to three letters. :: SRE
+The SRE term for repetitive manual operational work that should be automated. :: Toil
+The difference between an SLI, an SLO and an SLA: the SLO is this. :: The target value for a service level indicator
+Availability of "five nines" allows roughly this many minutes of downtime per year. :: 5.26
+The three pillars of observability: logs, metrics and this. :: Traces
+The open standard for collecting traces, metrics and logs, shortened to five letters. :: OTel (OpenTelemetry)
+The Netflix tool that randomly shuts down production instances to test resilience. :: Chaos Monkey
+The practice of deliberately injecting failures into systems to build confidence. :: Chaos engineering
+The 2011 methodology of 12 rules for cloud apps from Heroku. :: Twelve-Factor App
+The term for infrastructure that is replaced, not changed, when updated. :: Immutable infrastructure
+Managing deployments by storing desired state in Git and syncing it automatically. :: GitOps
+The deployment strategy that gradually replaces old instances with new ones. :: Rolling update
+The pattern of gradually replacing a legacy system piece by piece, named by Martin Fowler after a plant. :: Strangler fig pattern
+The anti-corruption layer is a DDD pattern used when integrating with this. :: A legacy or external system
+In DDD, a cluster of objects treated as one unit with a single root. :: Aggregate
+In DDD, an object defined by its attributes rather than an identity. :: Value object
+The pattern for distributed transactions as a series of local steps with compensating actions. :: Saga pattern
+The pattern that writes a message to a database table in the same transaction, then publishes it. :: Transactional outbox
+The guarantee most message queues offer, which requires consumers to handle duplicates. :: At-least-once delivery
+The property of an operation that gives the same result if repeated. :: Idempotence
+The pattern of keeping each microservice's data private to it. :: Database per service
+Tests that check a service still meets what its consumers expect. :: Consumer-driven contract tests
+The contract testing tool named after a word for an agreement. :: Pact
+The deployment practice of comparing new and old versions on live traffic without users seeing the new output. :: Shadow (dark) launch
+The 1990s architecture style built from reusable services connected by an enterprise bus, shortened to three letters. :: SOA
+The PhD thesis of 2000 that defined REST; its author. :: Roy Fielding
+The REST constraint that each request carries all the information needed to process it. :: Statelessness
+The REST maturity model with levels 0 to 3; its namer. :: Leonard Richardson
+The top level of the Richardson maturity model, using links in responses. :: HATEOAS
+The specification for describing REST APIs, formerly called Swagger. :: OpenAPI
+The Google RPC framework that uses protocol buffers. :: gRPC
+The process of slowly removing a feature after warning users. :: Deprecation
+The semantic versioning part that must increase for a breaking change. :: Major version
+The file in npm projects that pins exact dependency versions. :: package-lock.json
+The 2016 npm incident in which removing an 11-line package broke many builds. :: left-pad
+The 2021 Java logging library flaw with a CVSS score of 10. :: Log4Shell
+The list of all components in a piece of software, shortened to four letters. :: SBOM
+The 2020 attack that hid malware in updates of SolarWinds' product. :: Orion (SolarWinds supply chain attack)
+The 2024 backdoor found in a compression library before it reached most Linux distributions. :: XZ Utils backdoor
+The security practice of building security into every stage of development, shortened to three letters. :: SSDLC (secure SDLC)
+The Microsoft threat modelling method with six categories, named as an acronym. :: STRIDE
+The "R" in STRIDE. :: Repudiation
+The OWASP list of the most critical web application security risks. :: OWASP Top 10
+The number one risk in the OWASP Top 10 of 2021. :: Broken access control
+Testing an app's source code for security flaws, shortened to four letters. :: SAST
+Testing a running app for security flaws from outside, shortened to four letters. :: DAST
+The 1979 book by Glenford Myers on software testing. :: The Art of Software Testing
+The Wisconsin professor who coined the term "fuzz" for random-input testing in 1988. :: Barton Miller
+The fuzzer from Google's Michał Zalewski using genetic algorithms, shortened to three letters. :: AFL (American Fuzzy Lop)
+The ratio of defects found before release to all defects, used to measure testing. :: Defect removal efficiency
+The software reliability metric for average time between failures, shortened to four letters. :: MTBF
+The Fagan method, from IBM in 1976, is a formal kind of this. :: Code inspection
+The reading technique in reviews in which the author walks reviewers through the code. :: Walkthrough
+The Google study found this team factor mattered most for effective teams. :: Psychological safety
+The developer productivity framework from GitHub and Microsoft, shortened to five letters. :: SPACE
+The measure of how hard code is to understand, created by SonarSource as an alternative to cyclomatic complexity. :: Cognitive complexity
+The metric suite with WMC, DIT, NOC, CBO, RFC and LCOM. :: CK metrics (Chidamber and Kemerer)
+The "D" in the CK metric DIT. :: Depth (depth of inheritance tree)
+The metric that measures how much a module is depended on versus depends on others, from Robert Martin. :: Instability
+The 1977 software science metrics based on operators and operands. :: Halstead metrics
+The index combining Halstead volume, cyclomatic complexity and lines of code. :: Maintainability index
+The four types of maintenance: corrective, adaptive, perfective and this. :: Preventive
+Lehman's laws describe this aspect of software over time. :: Software evolution
+The Lehman law saying a system's complexity grows unless work is done to reduce it. :: Increasing complexity
+The SEI method for evaluating software architectures against quality goals, shortened to four letters. :: ATAM
+The author of the 1995 "4+1" view model of software architecture. :: Philippe Kruchten
+The process from Rational Software with inception, elaboration, construction and transition phases. :: RUP (Rational Unified Process)
+UML's "Three Amigos" were Grady Booch, James Rumbaugh and this man. :: Ivar Jacobson
+
+## 500
+With n people a team has n(n − 1)/2 communication paths. The number of paths for 10 people. :: 45
+The 1987 Brooks essay distinguished essential complexity from this kind. :: Accidental complexity
+The term Brooks used for the elegant design held by one mind, which he called the most important consideration in system design. :: Conceptual integrity
+The Brooks team structure modelled on a surgeon and supporting staff. :: Surgical team
+Brooks's advice to plan for this, "because you will, anyhow". :: Throwing one away
+The 1986 paper by Parnas and Clements: "A Rational Design Process: How and Why to" do this. :: Fake It
+The software engineer who received the 1999 Turing Award for the IBM System/360 and The Mythical Man-Month. :: Fred Brooks
+The year Barry Boehm published the spiral model in IEEE Computer. :: 1988
+Boehm's curve says a requirements error fixed in operation can cost up to this many times more than fixing it early. :: 100
+The 1976 paper by Boehm titled simply this, published in IEEE Transactions on Computers. :: Software Engineering
+The COCOMO II scale factor that rewards a team's familiarity with similar past work, shortened to four letters. :: PREC (precedentedness)
+The highest level of the Personal Software Process, counting up from PSP0. :: PSP3
+The function point method was introduced at IBM in 1979 by this man. :: Allan Albrecht
+The ISO standard for COSMIC functional size measurement, ISO/IEC this number. :: 19761
+The estimation method of anonymous expert rounds, named after a Greek oracle and refined by Boehm. :: Wideband Delphi
+The cone that shows estimates narrowing from 4x to 1x as a project progresses. :: Cone of uncertainty
+The Putnam model of software effort is also called this, after a curve. :: SLIM (Rayleigh curve)
+The 1994 Standish Group report on how many IT projects fail. :: CHAOS report
+The researcher who led a 1968 study with Erikson and Grant that found huge differences in programmer productivity. :: Harold Sackman
+The Unix philosophy rule "Write programs that do one thing and do it well" is credited to this man. :: Doug McIlroy
+The Unix build tool written by Stuart Feldman in 1976 that rebuilds only changed files. :: Make
+The 1974 Turing Award lecture by Donald Knuth: "Computer Programming as an" this. :: Art
+Knuth's saying that premature optimisation is the root of all this. :: Evil
+The 1984 approach by Knuth that mixes code and explanation in one document. :: Literate programming
+Dijkstra's 1972 Turing lecture title. :: The Humble Programmer
+Dijkstra's remark: testing can show the presence of bugs but never their this. :: Absence
+The 1980 Turing lecture by Tony Hoare: "The Emperor's Old" these. :: Clothes
+Hoare's saying: there are two ways to design software; one makes it so simple there are obviously no deficiencies, the other makes it so complicated there are no obvious these. :: Deficiencies
+The 1971 Wirth paper "Program Development by Stepwise" this. :: Refinement
+Wirth's law says software is getting slower more rapidly than this is getting faster. :: Hardware
+The 1980 Lehman classification of programs into S, P and this type. :: E (embedded in the real world)
+The theorem that says it is impossible to decide any non-trivial property of a program's behaviour. :: Rice's theorem
+Weakest precondition calculus was introduced in 1975 by this man. :: Edsger Dijkstra
+The 1967 paper by Robert Floyd that founded program verification: "Assigning Meanings to" these. :: Programs
+The temporal logic introduced to computer science by Amir Pnueli in 1977, shortened to three letters. :: LTL (linear temporal logic)
+The kind of property in temporal logic that says "something good eventually happens". :: Liveness
+The kind of property that says "something bad never happens". :: Safety
+The 1980s problem in model checking where states grow exponentially with components. :: State explosion
+The technique using BDDs that let model checkers handle 10^20 states in 1990. :: Symbolic model checking
+The company whose engineers reported in 2014 using TLA+ to find subtle bugs in S3 and DynamoDB. :: Amazon Web Services
+The Microsoft tool that verified Windows device drivers, shortened to three letters. :: SLAM (Static Driver Verifier)
+The Facebook static analyser based on separation logic. :: Infer
+The logic behind Infer, developed by John Reynolds and Peter O'Hearn around 2000. :: Separation logic
+The verified C compiler written in Coq by Xavier Leroy. :: CompCert
+The approach to testing that runs a program on symbolic inputs instead of concrete ones. :: Symbolic execution
+The combination of concrete and symbolic execution. :: Concolic testing
+The symbolic execution engine from Stanford built on LLVM. :: KLEE
+Mutation testing was introduced in 1978 by DeMillo, Sayward and this computer scientist. :: Richard Lipton
+The hypothesis in mutation testing that programmers write nearly correct programs. :: Competent programmer hypothesis
+The mutation testing assumption that complex faults are coupled to simple ones. :: Coupling effect
+The name for a mutant that behaves exactly like the original program. :: Equivalent mutant
+The problem of deciding whether a test's output is correct. :: Oracle problem
+Testing that uses relations between outputs of related inputs instead of a full oracle. :: Metamorphic testing
+The test design technique using a matrix that covers every pair of parameter values. :: Pairwise (all-pairs) testing
+The technique invented by Mark Weiser in 1981 that keeps only the statements affecting a chosen variable. :: Program slicing
+The data-flow coverage criterion that covers every path from a definition to each use. :: All-du-paths
+The fault localisation technique that ranks lines by how often they run in failing tests. :: Spectrum-based fault localisation
+The well-known suspiciousness formula for fault localisation named after a 2002 tool. :: Tarantula
+The delta-debugging algorithm by Andreas Zeller that minimises failure-inducing input. :: ddmin
+The term for a defect that seems to disappear when you try to study it. :: Heisenbug
+The term for a bug that appears only after someone reads the code and realises it should never have worked. :: Schrödinbug
+The 2003 north-east US blackout was worsened by a race condition in this company's alarm software. :: General Electric (XA/21)
+The trading firm that lost 440 million dollars in 45 minutes in 2012 after a bad deployment. :: Knight Capital
+The 2018 and 2019 crashes of the Boeing 737 MAX were linked to this automated system. :: MCAS
+The 1991 Patriot missile failure at Dhahran was caused by this kind of error accumulating over 100 hours. :: Clock (floating-point rounding) drift
+The 2024 outage that crashed about 8.5 million Windows machines came from an update by this company. :: CrowdStrike
+The Google paper of 2015 on technical debt in machine learning: "Hidden Technical Debt in Machine Learning" these. :: Systems
+The 1992 term for technical debt was coined by this Agile Manifesto signer. :: Ward Cunningham
+Ward Cunningham also invented this kind of website in 1995. :: Wiki
+The person who first described design patterns for buildings, inspiring software patterns. :: Christopher Alexander
+The 1977 book by Christopher Alexander that inspired the patterns movement. :: A Pattern Language
+The 2002 Martin Fowler book that named Active Record and Data Mapper. :: Patterns of Enterprise Application Architecture
+The 2003 Gregor Hohpe and Bobby Woolf book on messaging patterns. :: Enterprise Integration Patterns
+The four authors of Design Patterns: Gamma, Helm, Johnson and this man. :: John Vlissides
+The pattern Fowler named for an object that wraps a database row with domain logic. :: Active Record
+The concurrency pattern that decouples method execution from invocation with its own thread. :: Active object
+The cloud pattern of retrying with growing waits plus randomness. :: Exponential backoff with jitter
+The theorem extended by PACELC: if there is no partition, a system trades latency against this. :: Consistency
+The 2012 paper by Daniel Abadi proposed this extension of the CAP theorem. :: PACELC
+The "fallacies of distributed computing" list begins with this fallacy. :: The network is reliable
+The Sun Microsystems engineer who listed the fallacies of distributed computing. :: Peter Deutsch
+Google's internal version control system that holds its huge monorepo. :: Piper
+Google's build system, open-sourced in 2015. :: Bazel
+The Google book of 2020 that says "software engineering is programming integrated over" this. :: Time
+The Google code review tool used internally. :: Critique
+The Facebook code review tool later open-sourced, also called Differential. :: Phabricator
+The 2013 study of code review at Microsoft found a main benefit was this, not finding defects. :: Knowledge transfer
+The 2018 book by Forsgren, Humble and Kim that introduced the DORA metrics. :: Accelerate
+The 2013 novel about DevOps by Gene Kim, Kevin Behr and George Spafford. :: The Phoenix Project
+The Three Ways of DevOps are flow, feedback and this. :: Continual learning and experimentation
+The 2009 talk at Velocity by Allspaw and Hammond that sparked DevOps reported this many deploys per day at Flickr. :: 10
+The Belgian consultant who named DevOps by organising DevOpsDays in 2009. :: Patrick Debois
+The language by Ole-Johan Dahl and Kristen Nygaard that introduced classes and objects in 1967. :: Simula
+The Bell Labs engineer who created C++. :: Bjarne Stroustrup
+The 1997 essay by Eric Raymond comparing two styles of open-source development. :: The Cathedral and the Bazaar
+Linus's law: given enough eyeballs, all bugs are this. :: Shallow
+The Netflix suite of failure-injection tools that included Chaos Monkey. :: Simian Army
+The Amazon rule says a team should be small enough to be fed by this many pizzas. :: 2
+The 1999 book by Andrew Hunt and David Thomas that introduced the DRY principle. :: The Pragmatic Programmer
+The debugging method of explaining code line by line to a toy. :: Rubber duck debugging

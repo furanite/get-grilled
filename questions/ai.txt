@@ -1,0 +1,514 @@
+id: ai
+name: Artificial Intelligence
+nameAr: الذكاء الاصطناعي
+group: cces
+
+## 100
+The field of making computers perform tasks that normally need human intelligence, shortened to two letters. :: AI
+The branch of AI in which computers learn from data instead of fixed rules. :: Machine learning
+Machine learning with many-layered neural networks. :: Deep learning
+A computing model loosely inspired by the brain's neurons. :: Neural network
+The data used to teach a machine learning model. :: Training data
+The process of teaching a model with data. :: Training
+Learning from examples that come with the correct answers. :: Supervised learning
+Learning from data with no correct answers given. :: Unsupervised learning
+Learning by trial and error with rewards and penalties. :: Reinforcement learning
+The correct answer attached to a training example. :: Label
+Predicting a category, such as "spam" or "not spam". :: Classification
+Predicting a number, such as a house price. :: Regression
+Grouping similar items together without labels. :: Clustering
+A program that chats with people in natural language. :: Chatbot
+The AI field that deals with understanding human language, shortened to three letters. :: NLP
+The AI field that lets computers understand images and video. :: Computer vision
+Turning spoken words into text. :: Speech recognition
+Turning written text into spoken words. :: Text-to-speech
+A large AI model trained on huge amounts of text to generate language, shortened to three letters. :: LLM
+The chatbot released by OpenAI in November 2022. :: ChatGPT
+The AI assistant made by Anthropic. :: Claude
+Google's family of AI models that followed Bard. :: Gemini
+AI that creates new text, images or music. :: Generative AI
+The text you type to instruct a generative AI model. :: Prompt
+When an AI confidently states something false. :: Hallucination
+The Apple voice assistant. :: Siri
+The Amazon voice assistant. :: Alexa
+The test proposed in 1950 to judge whether a machine can imitate a human in conversation. :: Turing test
+The British mathematician who proposed the imitation game. :: Alan Turing
+The IBM computer that beat chess champion Garry Kasparov in 1997. :: Deep Blue
+The IBM system that beat two champions of an American TV quiz show in 2011. :: Watson
+The DeepMind program that beat Go champion Lee Sedol in 2016. :: AlphaGo
+The company that created AlphaGo, owned by Google. :: DeepMind
+The DeepMind system that predicts protein shapes. :: AlphaFold
+The ancient board game in which AlphaGo beat human champions. :: Go
+A machine that can sense, think and act in the physical world. :: Robot
+The Czech play that gave us the word "robot". :: R.U.R.
+The humanoid robot granted Saudi citizenship in 2017. :: Sophia
+A car that drives itself. :: Self-driving (autonomous) car
+The company of Elon Musk with the Autopilot driver-assistance system. :: Tesla
+Using face images to identify a person. :: Facial recognition
+Detecting the letters in a photo of text and turning them into text, shortened to three letters. :: OCR
+A system that suggests films or products you might like. :: Recommendation system
+A filter that uses machine learning to sort junk email. :: Spam filter
+AI that creates realistic fake videos of real people. :: Deepfake
+The AI model by OpenAI that makes images from text descriptions. :: DALL·E
+The image generator popular on Discord, made by an independent lab. :: Midjourney
+The open image-generation model released by Stability AI in 2022. :: Stable Diffusion
+The unit of text an LLM reads, often part of a word. :: Token
+The "GPT" in ChatGPT stands for Generative Pre-trained this. :: Transformer
+The company that makes ChatGPT. :: OpenAI
+The company that makes most of the chips used to train AI. :: NVIDIA
+The kind of processor most used to train neural networks, shortened to three letters. :: GPU
+Google's custom AI chip, shortened to three letters. :: TPU
+The popular programming language for AI and data science. :: Python
+The open-source machine learning library from Google. :: TensorFlow
+The open-source deep learning library from Meta. :: PyTorch
+The Python library with simple tools for classic machine learning. :: scikit-learn
+The website that hosts thousands of open AI models, named after an emoji. :: Hugging Face
+The website that hosts data science competitions, owned by Google. :: Kaggle
+A table of data, with rows and columns, used to train a model. :: Dataset
+A single measurable property of the data, such as age or height. :: Feature
+A model that has memorised the training data and does poorly on new data. :: Overfitting
+A model that is too simple to capture the pattern in the data. :: Underfitting
+The data held back to check how well a model works on new examples. :: Test set
+The fraction of predictions a model gets right. :: Accuracy
+The unfair patterns a model learns from skewed data. :: Bias
+The term for AI systems that are fair, safe and accountable. :: Responsible AI (AI ethics)
+The algorithm that classifies a point by the votes of its closest neighbours. :: k-nearest neighbours
+The model shaped like a flowchart of yes/no questions. :: Decision tree
+A collection of many decision trees voting together. :: Random forest
+The clustering algorithm that groups points around k centres. :: k-means
+The method of drawing the best straight line through data points. :: Linear regression
+The connections in a neural network that are adjusted during training. :: Weights
+The layer of a neural network that receives the raw data. :: Input layer
+The layer of a neural network that gives the final answer. :: Output layer
+The layers between input and output in a neural network. :: Hidden layers
+The neural network type best known for images, shortened to three letters. :: CNN
+The 2012 neural network that won the ImageNet challenge and started the deep learning boom. :: AlexNet
+The huge labelled image database used in a famous yearly challenge. :: ImageNet
+The three researchers called the "godfathers of deep learning": Hinton, LeCun and this man. :: Yoshua Bengio
+The year Geoffrey Hinton shared the Nobel Prize in Physics. :: 2024
+The DeepMind leader who shared the 2024 Nobel Prize in Chemistry for AlphaFold. :: Demis Hassabis
+The 1956 workshop where the term "artificial intelligence" was born. :: Dartmouth workshop
+The scientist who coined the term "artificial intelligence". :: John McCarthy
+The 1960s chatbot that imitated a psychotherapist. :: ELIZA
+The periods when funding and interest in AI dropped sharply. :: AI winters
+A program that copies the decisions of a human expert using rules. :: Expert system
+The Saudi authority for data and artificial intelligence, shortened to five letters. :: SDAIA
+The Saudi Arabic large language model developed by SDAIA. :: ALLaM
+The Saudi AI company launched by the Public Investment Fund in 2025. :: HUMAIN
+The global AI summit held in Riyadh by SDAIA. :: Global AI Summit
+AI that equals humans at almost every intellectual task, shortened to three letters. :: AGI
+AI built for one narrow task, such as playing chess. :: Narrow AI
+The field that studies how to make advanced AI systems safe and aligned with human values. :: AI safety
+The European law of 2024 that regulates AI by risk level. :: EU AI Act
+Teaching an existing model a new task with a smaller dataset. :: Fine-tuning
+Using a model that learned one task as a starting point for another. :: Transfer learning
+The AI technique that finds an object and draws a box around it in an image. :: Object detection
+Giving an AI model a few worked examples inside the prompt. :: Few-shot prompting
+
+## 200
+The simplest neural network unit, invented by Frank Rosenblatt in 1958. :: Perceptron
+The function applied to a neuron's output to add non-linearity. :: Activation function
+The popular activation function that outputs max(0, x). :: ReLU
+The S-shaped activation function that squashes values between 0 and 1. :: Sigmoid
+The activation function that turns scores into probabilities that add up to 1. :: Softmax
+The activation function that squashes values between −1 and 1. :: Tanh
+The algorithm that computes how much each weight contributed to the error. :: Backpropagation
+The optimisation method that moves weights a small step against the slope of the loss. :: Gradient descent
+The size of each step taken in gradient descent. :: Learning rate
+The version of gradient descent that uses small random batches of data. :: Stochastic gradient descent (SGD)
+The popular optimiser that adapts the learning rate for each weight, published in 2014. :: Adam
+One full pass through the whole training dataset. :: Epoch
+The number of training examples used in one update step. :: Batch size
+The function that measures how wrong a model's predictions are. :: Loss function
+The loss function most often used for regression. :: Mean squared error
+The loss function most often used for classification. :: Cross-entropy
+Settings chosen before training, such as learning rate, rather than learned. :: Hyperparameters
+The extra data split used to tune hyperparameters. :: Validation set
+Splitting data into k parts and training k times, each time testing on a different part. :: k-fold cross-validation
+Adding a penalty for large weights to reduce overfitting. :: Regularisation
+The regularisation that penalises the sum of absolute weights and can make some zero. :: L1 (lasso)
+The regularisation that penalises the sum of squared weights. :: L2 (ridge)
+Randomly switching off neurons during training to prevent overfitting. :: Dropout
+Stopping training when the validation error starts to rise. :: Early stopping
+Normalising each layer's inputs over a mini-batch to speed up training. :: Batch normalisation
+The problem in deep networks where gradients become tiny in early layers. :: Vanishing gradient problem
+The trade-off between a model being too simple and too sensitive to data. :: Bias–variance trade-off
+The table of true positives, false positives, true negatives and false negatives. :: Confusion matrix
+Of all items predicted positive, the fraction that really are. :: Precision
+Of all items that really are positive, the fraction the model found. :: Recall
+The harmonic mean of precision and recall. :: F1 score
+The curve of true positive rate against false positive rate. :: ROC curve
+The area under the ROC curve, shortened to three letters. :: AUC
+The statistical method for predicting a yes/no outcome with an S-shaped curve. :: Logistic regression
+The classifier based on Bayes's theorem that assumes features are independent. :: Naive Bayes
+The classifier that finds the widest margin between classes. :: Support vector machine (SVM)
+The trick that lets SVMs separate data that is not linearly separable. :: Kernel trick
+The method that builds trees one after another, each fixing the last one's errors. :: Gradient boosting
+The popular gradient boosting library that won many Kaggle contests. :: XGBoost
+Combining several models to get a better prediction. :: Ensemble learning
+Training many models on random samples of the data and averaging them. :: Bagging
+The technique that reduces many features to a few that keep the most variation, shortened to three letters. :: PCA
+The problem that data becomes sparse as the number of features grows. :: Curse of dimensionality
+The clustering method that builds a tree of nested groups. :: Hierarchical clustering
+The clustering algorithm that finds dense regions and marks outliers. :: DBSCAN
+The plot used to choose k in k-means, named after a body part. :: Elbow method
+Rescaling features to have mean 0 and standard deviation 1. :: Standardisation
+Turning a category into separate 0/1 columns. :: One-hot encoding
+Data points that are very different from the rest. :: Outliers
+Creating new training examples by flipping or rotating images. :: Data augmentation
+The layer type in a CNN that slides small filters over an image. :: Convolutional layer
+The CNN layer that shrinks the image by keeping the largest value in each patch. :: Max pooling
+The small grid of weights slid over an image in a CNN. :: Kernel (filter)
+The neural network type for sequences that feeds its output back in, shortened to three letters. :: RNN
+The RNN variant with gates that remembers long sequences, shortened to four letters. :: LSTM
+The simpler gated RNN variant introduced in 2014, shortened to three letters. :: GRU
+The 2017 paper that introduced the transformer was titled "Attention Is All You" this. :: Need
+The mechanism that lets a model weigh the importance of different words in a sentence. :: Attention
+The transformer model from Google in 2018 that reads text in both directions. :: BERT
+Representing words as vectors so that similar words are close together. :: Word embeddings
+The 2013 word embedding method from Google. :: Word2vec
+The famous example of word vector arithmetic: king minus man plus woman equals this. :: Queen
+Splitting text into words or pieces before feeding it to a model. :: Tokenisation
+The neural network with two parts, a generator and a discriminator, shortened to three letters. :: GAN
+The researcher who invented GANs in 2014. :: Ian Goodfellow
+The network that learns to compress data and rebuild it. :: Autoencoder
+The image generation method that learns to remove noise step by step. :: Diffusion model
+In reinforcement learning, the one that takes actions. :: Agent
+In reinforcement learning, the world the agent acts in. :: Environment
+In reinforcement learning, the agent's rule for choosing actions. :: Policy
+The reinforcement learning algorithm that learns a table of action values. :: Q-learning
+The dilemma between trying new actions and using known good ones. :: Exploration versus exploitation
+Training a language model with human ratings of its answers, shortened to four letters. :: RLHF
+The maximum amount of text a language model can consider at once. :: Context window
+The setting that controls how random a language model's output is. :: Temperature
+Fetching documents and adding them to a prompt so a model can answer from them, shortened to three letters. :: RAG
+The type of database that stores embeddings for similarity search. :: Vector database
+An AI system that plans and takes actions with tools on its own. :: AI agent
+Asking a model to show its reasoning step by step. :: Chain-of-thought prompting
+Tricking a chatbot into ignoring its rules with crafted text. :: Jailbreak (prompt injection)
+A model that handles text, images and audio together. :: Multimodal model
+Giving a model no examples, only instructions. :: Zero-shot
+Shrinking a model by storing its weights with fewer bits. :: Quantisation
+Training a small model to copy a large one. :: Knowledge distillation
+The fine-tuning method that trains small added matrices instead of all weights, shortened to four letters. :: LoRA
+The search algorithm that finds the shortest path using a heuristic, used in games. :: A* search
+The game-playing algorithm that assumes the opponent plays their best move. :: Minimax
+The method that skips branches of the game tree that cannot affect the result. :: Alpha–beta pruning
+The search strategy that explores all neighbours before going deeper. :: Breadth-first search
+An estimate of the cost from a state to the goal, used to guide search. :: Heuristic
+The problem-solving method inspired by natural selection. :: Genetic algorithm
+A network of probabilities showing how variables depend on each other. :: Bayesian network
+The rule for updating a probability given new evidence. :: Bayes's theorem
+Logic that allows values between true and false. :: Fuzzy logic
+The early AI programming language created by John McCarthy in 1958. :: Lisp
+The logic programming language popular in AI, created in France in 1972. :: Prolog
+Making an AI model's decisions understandable to people, shortened to three letters. :: XAI (explainable AI)
+The measure of how surprised a language model is by text, lower being better. :: Perplexity
+The classic method for deciding the next word in a sentence using counts of short word sequences. :: n-gram model
+The famous dataset of handwritten digits used to teach machine learning. :: MNIST
+
+## 300
+The 1969 book by Minsky and Papert that showed single-layer perceptrons cannot learn XOR. :: Perceptrons
+The simple logic function a single perceptron cannot learn. :: XOR
+The theorem that a network with one hidden layer can approximate any continuous function. :: Universal approximation theorem
+The 1986 paper that popularised backpropagation: Rumelhart, Hinton and this man. :: Ronald Williams
+The researcher who built LeNet in the late 1980s to read handwritten digits on cheques. :: Yann LeCun
+The three researchers who shared the 2018 Turing Award for deep learning. :: Hinton, LeCun and Bengio
+The graduate students who built AlexNet with Geoffrey Hinton: Alex Krizhevsky and this man. :: Ilya Sutskever
+The top-5 error rate of AlexNet on ImageNet in 2012, roughly, as a percentage. :: 15.3
+The network architecture from Microsoft in 2015 that added skip connections to train 152 layers. :: ResNet
+The researcher who led the ResNet paper. :: Kaiming He
+The Oxford network of 2014 built from many small 3 × 3 convolutions. :: VGG
+The Google network of 2014 built from "Inception" modules. :: GoogLeNet
+The fast object detector whose name means "You Only Look Once". :: YOLO
+The network shaped like a letter, used for segmenting medical images. :: U-Net
+The task of labelling every pixel of an image with a class. :: Semantic segmentation
+The vision transformer that splits images into patches, shortened to three letters. :: ViT
+The OpenAI model of 2021 that links images and text in one embedding space. :: CLIP
+The two researchers who invented the LSTM in 1997: Hochreiter and this man. :: Jürgen Schmidhuber
+The problem LSTMs were designed to solve. :: Vanishing gradients
+The 2014 architecture that turns one sequence into another with an encoder and a decoder. :: Sequence-to-sequence (seq2seq)
+The researcher who introduced attention for translation in 2014. :: Dzmitry Bahdanau
+The number of authors of "Attention Is All You Need". :: 8
+The three inputs to transformer attention, shortened to three letters. :: Q, K, V (query, key, value)
+The scaling factor in transformer attention divides by the square root of this. :: Key dimension (d_k)
+Running several attention operations in parallel and joining them. :: Multi-head attention
+The information added to transformer inputs so they know word order. :: Positional encoding
+The kind of transformer GPT uses: encoder-only, decoder-only, or both. :: Decoder-only
+The training objective of BERT that hides words and asks the model to guess them. :: Masked language modelling
+The training objective of GPT models: predicting this. :: The next token
+The tokenisation method used by GPT models, from data compression. :: Byte-pair encoding (BPE)
+The year GPT-3 was released. :: 2020
+The number of parameters in GPT-3. :: 175 billion
+The 2020 finding that model loss falls predictably as size, data and compute grow. :: Scaling laws
+The 2022 DeepMind model that showed models should be trained on more data for their size. :: Chinchilla
+The roughly optimal number of training tokens per parameter suggested by the Chinchilla paper. :: 20
+The surprising abilities that appear only in larger models are called this. :: Emergent abilities
+Training a model to follow instructions using example prompts and answers. :: Instruction tuning
+The training method from Anthropic that uses a written set of principles to guide AI feedback. :: Constitutional AI
+The alternative to RLHF that trains directly on preference pairs without a reward model, shortened to three letters. :: DPO
+The reinforcement learning algorithm used in most RLHF, shortened to three letters. :: PPO
+The model trained to predict human preference scores in RLHF. :: Reward model
+The architecture that sends each token to only a few of many expert sub-networks. :: Mixture of experts
+The memory that stores past keys and values to speed up text generation. :: KV cache
+The decoding method that picks from the smallest set of tokens whose probabilities add up to p. :: Nucleus (top-p) sampling
+The decoding method that always picks the single most likely next token. :: Greedy decoding
+The decoding method that keeps several best partial sentences at each step. :: Beam search
+The positional method used in many modern LLMs that rotates query and key vectors. :: RoPE (rotary position embedding)
+The fast, memory-saving way of computing attention on GPUs, introduced in 2022. :: FlashAttention
+The attack that hides instructions in a web page or document so an AI agent follows them. :: Indirect prompt injection
+The open protocol, introduced by Anthropic in 2024, for connecting AI apps to tools and data. :: Model Context Protocol (MCP)
+The pattern in which a model alternates between reasoning and taking actions with tools. :: ReAct
+The benchmark of multiple-choice questions on 57 subjects used to test LLMs. :: MMLU
+The benchmark of Python programming problems released by OpenAI in 2021. :: HumanEval
+The benchmark of real GitHub issues that coding agents must fix. :: SWE-bench
+The benchmark designed to be a final, very hard test of expert knowledge, released in 2025. :: Humanity's Last Exam
+The 2022 diffusion paper that made models practical by working in a compressed space. :: Latent diffusion
+The 2020 paper that showed diffusion models could rival GANs: "Denoising Diffusion Probabilistic" these. :: Models
+The guidance method that mixes conditioned and unconditioned predictions to follow prompts more closely. :: Classifier-free guidance
+The 2013 generative model that learns a probabilistic latent space, shortened to three letters. :: VAE
+The trick that lets gradients flow through random sampling in a VAE. :: Reparameterisation trick
+The GAN failure in which the generator produces only a few kinds of output. :: Mode collapse
+The DeepMind system that taught itself chess, shogi and Go from scratch in 2017. :: AlphaZero
+The DeepMind system that learned to play games without being told their rules. :: MuZero
+The DeepMind agent that reached Grandmaster level in StarCraft II. :: AlphaStar
+The OpenAI team of agents that beat world champions at Dota 2 in 2019. :: OpenAI Five
+The 2013 DeepMind system that learned to play Atari games from pixels. :: Deep Q-Network (DQN)
+The technique of storing past experiences and replaying them during training. :: Experience replay
+The equation that relates a state's value to the values of the next states. :: Bellman equation
+The factor that reduces the value of future rewards in reinforcement learning. :: Discount factor (gamma)
+The framework of states, actions, rewards and transitions behind reinforcement learning, shortened to three letters. :: MDP
+The family of methods that learn a policy and a value function together. :: Actor–critic
+The search method used by AlphaGo that combines random play-outs with a tree. :: Monte Carlo tree search
+The mathematician who proposed the "Chinese room" argument against strong AI. :: John Searle
+The early robot at SRI that could plan its own actions. :: Shakey
+The 1980s expert system from Stanford that diagnosed blood infections. :: MYCIN
+The Japanese government project of the 1980s to build AI computers using logic programming. :: Fifth Generation Computer Systems
+The 1997 chess match was the second between Kasparov and Deep Blue; Kasparov won the first in this year. :: 1996
+The Go move in game 2 against Lee Sedol that experts first thought was a mistake. :: Move 37
+The researcher who created ImageNet. :: Fei-Fei Li
+The Stanford course that taught a generation about convolutional networks, numbered this. :: CS231n
+The researcher behind the "Bitter Lesson" essay of 2019 arguing that general methods using computation win. :: Richard Sutton
+The two researchers who won the 2024 Turing Award for reinforcement learning: Sutton and this man. :: Andrew Barto
+The researcher who shared the 2024 Nobel Prize in Physics with Hinton for work on associative memory networks. :: John Hopfield
+The DeepMind researcher who shared the 2024 Chemistry Nobel with Hassabis and David Baker. :: John Jumper
+The open-weight model family released by Meta in 2023. :: Llama
+The French AI company that releases open-weight models. :: Mistral AI
+The Chinese company whose R1 reasoning model caused a stir in January 2025. :: DeepSeek
+The Abu Dhabi research institute that released the Falcon language models. :: Technology Innovation Institute (TII)
+The family of Arabic-centric language models released by the UAE's Inception and partners in 2023. :: Jais
+The Saudi strategy that aims to make the kingdom a leader in data and AI by 2030, shortened to five letters. :: NSDAI
+The Saudi university in Thuwal with a large AI research initiative. :: KAUST
+The method of explaining predictions with Shapley values from game theory. :: SHAP
+The method that explains a single prediction by fitting a simple model nearby. :: LIME
+The technique that highlights which parts of an image a CNN looked at. :: Grad-CAM
+The small, deliberately crafted change to an input that fools a neural network. :: Adversarial example
+The attack that hides a trigger in training data to control a model later. :: Data poisoning (backdoor)
+The training approach in which data stays on users' devices and only updates are shared. :: Federated learning
+The university in Abu Dhabi founded in 2019 as the world's first graduate university devoted to AI. :: MBZUAI
+The 2015 deep learning library with a simple interface that later became part of TensorFlow. :: Keras
+The NVIDIA programming platform that made GPUs practical for deep learning. :: CUDA
+
+## 400
+The year of the Dartmouth Summer Research Project on Artificial Intelligence. :: 1956
+The four organisers of the Dartmouth proposal: McCarthy, Minsky, Rochester and this man. :: Claude Shannon
+The 1950 paper in which Turing proposed his test: "Computing Machinery and" this. :: Intelligence
+The journal that published Turing's 1950 paper. :: Mind
+The 1943 paper that described the first mathematical model of a neuron: McCulloch and this man. :: Walter Pitts
+The 1949 book that proposed "cells that fire together wire together". :: The Organization of Behavior (Hebb)
+The program of 1956 by Newell, Simon and Shaw that proved theorems from Principia Mathematica. :: Logic Theorist
+The program by Newell and Simon meant to solve any problem, from 1957. :: General Problem Solver
+The two AI pioneers who won the 1975 Turing Award. :: Allen Newell and Herbert Simon
+The year Marvin Minsky received the Turing Award. :: 1969
+The machine that Frank Rosenblatt built to run the perceptron, with a camera of 400 photocells. :: Mark I Perceptron
+The 1973 British report that criticised AI and led to cuts in funding. :: Lighthill report
+The MIT professor who wrote ELIZA and later warned about trusting computers too much. :: Joseph Weizenbaum
+The script of ELIZA that played a therapist. :: DOCTOR
+The 1970 program by Terry Winograd that understood commands in a block world. :: SHRDLU
+The 1972 program that simulated a paranoid patient, sometimes "talking" to ELIZA. :: PARRY
+The expert system from Carnegie Mellon that configured DEC computers and saved millions in the 1980s. :: XCON (R1)
+The ambitious project started by Douglas Lenat in 1984 to encode common-sense knowledge. :: Cyc
+The company of the 1980s that sold specialised machines for running Lisp. :: Symbolics (Lisp machines)
+The 1988 book by Judea Pearl that brought probability into AI. :: Probabilistic Reasoning in Intelligent Systems
+The year Judea Pearl received the Turing Award. :: 2011
+The statistician who introduced the expectation–maximisation algorithm with Laird and Rubin in 1977. :: Arthur Dempster
+The algorithm for finding the most likely sequence of hidden states in a hidden Markov model. :: Viterbi algorithm
+The model behind most speech recognition before deep learning, shortened to three letters. :: HMM
+The 1995 paper by Cortes and Vapnik introduced this classifier in its modern form. :: Support vector machine
+The statistician who invented random forests in 2001. :: Leo Breiman
+The 1997 boosting algorithm by Freund and Schapire. :: AdaBoost
+The 2009 Netflix Prize, worth one million dollars, was won by a team called this. :: BellKor's Pragmatic Chaos
+The matrix technique widely used in the Netflix Prize for recommendations. :: Matrix factorisation
+The 2006 paper by Hinton and colleagues that revived deep learning with layer-by-layer pretraining. :: Deep belief networks
+The 2012 Google experiment in which a network learned to recognise cats from YouTube videos. :: Google Brain cat experiment
+The company that bought DeepMind in 2014. :: Google
+The approximate price Google paid for DeepMind, in pounds. :: 400 million
+The year OpenAI was founded. :: 2015
+The year Anthropic was founded. :: 2021
+The company that invested 13 billion dollars in OpenAI by 2023. :: Microsoft
+The 2019 OpenAI model first held back over misuse concerns. :: GPT-2
+The 2022 OpenAI speech recognition model released as open source. :: Whisper
+The 2024 OpenAI model that introduced reasoning with long hidden chains of thought. :: o1
+The DeepMind language model of 2021 with 280 billion parameters. :: Gopher
+The Google model of 2022 with 540 billion parameters. :: PaLM
+The 2021 model from Google that showed a mixture of experts with over a trillion parameters. :: Switch Transformer
+The 2018 OpenAI paper "Improving Language Understanding by Generative Pre-Training" introduced this model. :: GPT-1
+The physicist who was first author of the 2020 OpenAI paper "Scaling Laws for Neural Language Models". :: Jared Kaplan
+The Google researchers who wrote the 2017 transformer paper included Ashish Vaswani and this man who later co-founded Character.AI. :: Noam Shazeer
+The Google researcher behind Word2vec. :: Tomas Mikolov
+The Stanford word vectors released in 2014, shortened to five letters. :: GloVe
+The Allen Institute's 2018 contextual embeddings named after a Sesame Street character. :: ELMo
+The 2019 model from Google that framed every NLP task as text-to-text. :: T5
+The 2014 dropout paper's lead author, a student of Hinton. :: Nitish Srivastava
+The two researchers who introduced batch normalisation in 2015: Ioffe and this man. :: Christian Szegedy
+The Adam optimiser was introduced by Kingma and this researcher. :: Jimmy Ba
+The 2010 weight initialisation scheme named after Xavier Glorot. :: Xavier (Glorot) initialisation
+The 2015 initialisation for ReLU networks named after Kaiming He. :: He initialisation
+The DeepMind protein structure competition AlphaFold 2 dominated in 2020. :: CASP14
+The approximate number of protein structures AlphaFold's database had predicted by 2022. :: 200 million
+The DeepMind system of 2023 that discovered faster sorting routines added to the C++ library. :: AlphaDev
+The DeepMind system that reached silver-medal level at the 2024 International Mathematical Olympiad with AlphaGeometry. :: AlphaProof
+The DeepMind system that found new materials, predicting 2.2 million crystal structures in 2023. :: GNoME
+The DeepMind weather model of 2023 that beat traditional forecasts on many measures. :: GraphCast
+The Tesla AI director who later popularised "vibe coding". :: Andrej Karpathy
+The year the EU AI Act entered into force. :: 2024
+The category of AI uses that the EU AI Act bans outright, such as social scoring. :: Unacceptable risk
+The country that hosted the first global AI Safety Summit in 2023. :: United Kingdom
+The 2021 Stanford term for large models trained on broad data and adapted to many tasks. :: Foundation models
+The year SDAIA, the Saudi Data and AI Authority, was established. :: 2019
+The 2023 Stanford model fine-tuned from LLaMA on 52,000 instruction examples, named after a South American animal. :: Alpaca
+The term for an AI model whose trained weights are published for anyone to download. :: Open-weight model
+The concept of a test that asks an AI to make coffee in an unfamiliar home, proposed by Steve Wozniak. :: Coffee test
+The paradox that hard reasoning is easy for computers but simple perception and movement are hard. :: Moravec's paradox
+The thought experiment about an AI that turns everything into paperclips. :: Paperclip maximiser
+The law that a measure stops being a good measure when it becomes a target, relevant to AI rewards. :: Goodhart's law
+The term for when an AI system finds loopholes in its reward instead of doing the intended task. :: Reward hacking (specification gaming)
+The field that tries to understand neural networks by reverse-engineering their internal circuits. :: Mechanistic interpretability
+The idea that a single neuron can represent several unrelated concepts. :: Polysemanticity (superposition)
+The technique used to pull interpretable features out of model activations, based on sparse dictionaries. :: Sparse autoencoders
+The 2016 dataset of questions about Wikipedia passages from Stanford. :: SQuAD
+The benchmark of language understanding tasks released in 2018, shortened to four letters. :: GLUE
+The metric that compares machine translations with human ones by counting shared word sequences. :: BLEU
+The metric used to evaluate summaries, also named after a colour. :: ROUGE
+The 2009 dataset of 60,000 small labelled images in 10 classes. :: CIFAR-10
+The number of classes in the main ImageNet challenge. :: 1,000
+The number of images in the ImageNet challenge training set, roughly. :: 1.2 million
+The year a machine first beat the human error rate estimate on ImageNet classification. :: 2015
+The method that samples several reasoning chains and takes the majority answer. :: Self-consistency
+The year Amazon launched the Echo with Alexa. :: 2014
+The company Waymo grew out of, launched as a project in 2009. :: Google self-driving car project
+The level of driving automation at which the car handles everything under certain conditions with no driver attention needed. :: Level 4
+The number of levels of driving automation defined by SAE, counting from 0. :: 6
+The country that produced the open-weight Qwen model family. :: China
+The company that makes the Grok chatbot. :: xAI
+The AI image tool built into Adobe products. :: Firefly
+The pattern in which test error falls, rises, then falls again as a model grows. :: Double descent
+The activation function used in many transformers that multiplies the input by a Gaussian CDF. :: GELU
+The term for a network suddenly generalising long after it has memorised its training data. :: Grokking
+The normalisation used in transformers that works across the features of each token rather than across the batch. :: Layer normalisation
+The loss of earlier skills when a neural network is trained on a new task. :: Catastrophic forgetting
+The 2014 DeepMind model that joined a neural network to an external memory, named after a pioneer. :: Neural Turing Machine
+The decoding method that has a small draft model propose tokens for a large model to check. :: Speculative decoding
+The OpenAI video generation model announced in 2024. :: Sora
+
+## 500
+The scaling factor applied to dot products in transformer attention, in terms of the key dimension. :: 1/√d_k
+The number of layers in the encoder of the original 2017 transformer base model. :: 6
+The model dimension, d_model, of the original transformer base model. :: 512
+The constant used in the sinusoidal positional encoding of the original transformer. :: 10,000
+The number of parameters in BERT-base, roughly. :: 110 million
+The share of input tokens BERT masks during pretraining, as a percentage. :: 15
+The second pretraining task of the original BERT besides masked language modelling. :: Next sentence prediction
+The 2019 study that retrained BERT longer without next sentence prediction, from Facebook. :: RoBERTa
+The context length, in tokens, of the original GPT-3. :: 2,048
+The number of layers in the largest GPT-3 model. :: 96
+The 2022 OpenAI paper that described the instruction-following model behind early ChatGPT. :: InstructGPT
+The term in the RLHF objective that keeps the policy close to the original model. :: KL penalty (KL divergence)
+The PPO trick that limits how far the probability ratio can move in one update. :: Clipping (clipped objective)
+The 2024 DeepSeek reinforcement learning method that drops the critic and compares answers within a group. :: GRPO
+The DeepSeek-R1 precursor trained with reinforcement learning alone, without supervised fine-tuning. :: DeepSeek-R1-Zero
+The routing loss used in mixture-of-experts models to stop all tokens going to the same expert. :: Load-balancing (auxiliary) loss
+The attention variant that shares one key and value head across all query heads. :: Multi-query attention
+The middle ground between multi-head and multi-query attention, shortened to three letters. :: GQA (grouped-query attention)
+The attention method from DeepSeek-V2 that compresses keys and values into a latent vector. :: Multi-head latent attention (MLA)
+The normalisation that scales by the root mean square only, used in Llama. :: RMSNorm
+The gated activation used in the feed-forward layers of Llama and PaLM. :: SwiGLU
+The placement of layer normalisation before each sub-layer, which made deep transformers easier to train. :: Pre-LN (pre-norm)
+The 2022 paper that showed "Let's think step by step" improves reasoning without examples. :: Zero-shot chain-of-thought
+The Google researcher who was first author of the chain-of-thought prompting paper of 2022. :: Jason Wei
+The 2023 prompting method that explores a branching search of reasoning steps. :: Tree of Thoughts
+The 2023 paper that showed models can learn to use tools by inserting API calls into text. :: Toolformer
+The 2020 Facebook paper that coined the term RAG; its first author. :: Patrick Lewis
+The search algorithm behind many vector databases that builds layered small-world graphs. :: HNSW
+The distance usually used to compare sentence embeddings, ignoring their length. :: Cosine similarity
+The 2017 loss that improves object detectors by down-weighting easy examples. :: Focal loss
+The YOLO paper's first author. :: Joseph Redmon
+The 2015 two-stage detector that introduced the region proposal network. :: Faster R-CNN
+The 2023 Meta model that can segment any object from a click or box. :: Segment Anything (SAM)
+The 2020 paper on 3D scenes from photos, using a network that outputs colour and density. :: NeRF
+The 2023 3D rendering method that replaced NeRF networks with millions of blobs. :: Gaussian splatting
+The patch size, in pixels, in the "An Image is Worth 16x16 Words" paper. :: 16
+The number of parameters in the largest PaLM model of 2022. :: 540 billion
+The contrastive loss used by CLIP that matches images and captions within a batch. :: InfoNCE (contrastive loss)
+The self-supervised vision method from Meta whose name means "self-distillation with no labels". :: DINO
+The 2020 self-supervised method from Hinton's group that contrasts augmented views of images. :: SimCLR
+The 2021 model that hides 75% of image patches and reconstructs them. :: Masked autoencoder (MAE)
+The number of noise steps used in the original DDPM paper. :: 1,000
+The 2020 sampler that made diffusion faster by skipping steps deterministically. :: DDIM
+The 2023 method that adds spatial control like edges or poses to Stable Diffusion. :: ControlNet
+The 2022 Google method that fine-tunes a diffusion model on a few photos of one subject. :: DreamBooth
+The generative training method from 2022 that learns to map noise to data along straight paths. :: Flow matching (rectified flow)
+The architecture that replaced the U-Net with a transformer in diffusion models, shortened to three letters. :: DiT
+The score used to judge how realistic generated images are, by comparing feature statistics. :: FID (Fréchet Inception Distance)
+The 2017 GAN variant that uses Earth Mover's distance. :: Wasserstein GAN (WGAN)
+The NVIDIA GAN of 2018 that produced realistic faces with style mixing. :: StyleGAN
+The 2017 GAN that translated horses to zebras without paired data. :: CycleGAN
+The quantity a VAE maximises, a lower bound on the data likelihood. :: ELBO (evidence lower bound)
+The number of tokens the Chinchilla model was trained on. :: 1.4 trillion
+The algorithm that updates Q using the action actually taken next, not the best one. :: SARSA
+The 2015 fix to DQN that separates action choice from action evaluation. :: Double DQN
+The number of Atari games DeepMind's 2015 Nature DQN paper played. :: 49
+The 2020 DeepMind agent that beat the human baseline on all 57 Atari games. :: Agent57
+The policy gradient estimator introduced by Ronald Williams in 1992. :: REINFORCE
+The 2015 algorithm that limits each policy update with a KL trust region, shortened to four letters. :: TRPO
+The off-policy actor–critic algorithm of 2018 that maximises entropy, shortened to three letters. :: SAC (soft actor-critic)
+The technique that reuses failed goals as if they had been the target, from 2017. :: Hindsight experience replay
+The number of matches in the 2016 AlphaGo–Lee Sedol series that AlphaGo won. :: 4
+The game in which Libratus beat top professionals in 2017. :: Heads-up no-limit Texas hold'em poker
+The Meta AI that reached human level in the board game Diplomacy in 2022. :: CICERO
+The 1992 backgammon program by Gerald Tesauro trained by self-play. :: TD-Gammon
+The checkers program that proved the game a draw in 2007. :: Chinook
+The 1959 checkers program author who popularised the term "machine learning". :: Arthur Samuel
+The 1997 result by Wolpert and Macready that no algorithm is best on all problems. :: No free lunch theorem
+The learning framework of Leslie Valiant from 1984, shortened to three letters. :: PAC learning
+The measure of a model class's capacity named after Vapnik and Chervonenkis. :: VC dimension
+The 2018 theory that wide networks trained by gradient descent act like kernel methods. :: Neural tangent kernel
+The hypothesis that dense networks contain small subnetworks that train as well on their own. :: Lottery ticket hypothesis
+The 2017 Shazeer paper whose title called mixture-of-experts layers "Outrageously Large" these. :: Neural Networks
+The year the Dartmouth proposal was written, one year before the workshop. :: 1955
+The computer on which Arthur Samuel's checkers program first ran. :: IBM 701
+The 1958 programming idea by McCarthy for a system that takes advice, published as "Programs with" this. :: Common Sense
+The number of the first 52 theorems in Principia Mathematica that the Logic Theorist proved. :: 38
+The Japanese programme of 1982 that bet on Prolog-based parallel machines ended in this year. :: 1992
+The 1985 stochastic network of Hinton and Sejnowski, named after a physicist. :: Boltzmann machine
+The British 1973 report blamed for cutting AI funding; its author. :: James Lighthill
+The algorithm Pearl introduced for exact inference on tree-shaped Bayesian networks. :: Belief propagation
+The 1995 paper by Cortes and Vapnik introduced this soft-margin classifier name. :: Support-vector networks
+The 1977 algorithm for maximum likelihood with hidden variables, by Dempster, Laird and Rubin. :: Expectation–maximisation (EM)
+The mathematician whose 1989 paper proved one hidden layer can approximate any continuous function. :: George Cybenko
+The 2011 Turing Award winner's "ladder of causation" has three rungs: association, intervention and this. :: Counterfactuals
+The 2023 paper "Sparks of Artificial General Intelligence" studied this model. :: GPT-4
+The Anthropic paper of 2022 that described "superposition" in toy models; its title starts "Toy Models of" this. :: Superposition
+The 2024 Anthropic research that found millions of features in Claude 3 Sonnet: "Scaling" this. :: Monosemanticity
+The famous feature found in that 2024 research tied to a bridge in San Francisco. :: Golden Gate Bridge
+The interpretability method that patches activations from one run into another to find causes. :: Activation patching
+The 2022 discovery of attention heads that copy patterns from earlier in the text. :: Induction heads
+The method that reads out a model's intermediate predictions by applying the output layer early. :: Logit lens
+The 2023 technique that steers a model by adding a direction to its activations. :: Activation steering
+The problem of an AI pursuing a goal learned in training that differs from the intended one. :: Goal misgeneralisation (inner misalignment)
+The 2016 paper "Concrete Problems in AI" this. :: Safety
+The thesis that intelligence and final goals can vary independently, from Nick Bostrom. :: Orthogonality thesis
+The tendency of agents with many goals to seek power and resources as sub-goals. :: Instrumental convergence
+The 2018 OpenAI proposal in which two AIs argue and a human judges. :: AI safety via debate
+The US government's NIST document of January 2023 for managing AI risk, shortened. :: AI RMF (AI Risk Management Framework)
+The UAE company behind the Jais model alongside MBZUAI and Cerebras. :: G42 (Inception)

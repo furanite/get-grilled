@@ -1,0 +1,514 @@
+id: os
+name: Operating Systems
+nameAr: أنظمة التشغيل
+group: cces
+
+## 100
+The software that manages a computer's hardware and runs all other programs. :: Operating system
+The core part of an operating system that is always in memory. :: Kernel
+A program that is currently running. :: Process
+The operating system made by Apple for Mac computers. :: macOS
+The family of free operating systems based on the kernel written by Linus Torvalds. :: Linux
+The penguin mascot of Linux. :: Tux
+The operating system that ran on most IBM PCs before Windows, made by Microsoft. :: MS-DOS
+The 1969 operating system from Bell Labs that inspired Linux and macOS. :: Unix
+The text window where you type commands. :: Command line (terminal)
+The program that reads commands typed by a user and runs them. :: Shell
+The default shell on most Linux systems. :: Bash
+The kind of interface with windows, icons and a mouse pointer, shortened to three letters. :: GUI
+The Windows tool that shows running programs and lets you end them. :: Task Manager
+The keyboard shortcut that opens the security screen in Windows. :: Ctrl+Alt+Delete
+Starting up a computer and loading the operating system. :: Booting
+The small program that loads the operating system when a computer starts. :: Bootloader
+The firmware that replaced BIOS on modern PCs. :: UEFI
+A small program that lets the operating system talk to a piece of hardware. :: Device driver
+The way an operating system arranges files on a disk. :: File system
+The default file system of modern Windows. :: NTFS
+The old file system still used on many USB sticks. :: FAT32
+A container that holds files and other folders. :: Directory (folder)
+The top folder of a Linux file system, written as a single slash. :: Root directory
+The full location of a file, such as C:\Users\Ali\notes.txt. :: Path
+The letter usually given to the main drive in Windows. :: C
+The part of a file name after the dot that shows its type. :: Extension
+The Linux command that lists files in a folder. :: ls
+The Linux command that changes the current folder. :: cd
+The Linux command that shows the current folder. :: pwd
+The Linux command that copies files. :: cp
+The Linux command that moves or renames files. :: mv
+The Linux command that deletes files. :: rm
+The Linux command that makes a new folder. :: mkdir
+The Linux command that prints a file's contents to the screen. :: cat
+The Linux command that runs another command as the superuser. :: sudo
+The all-powerful administrator account on Linux. :: root
+The Linux command that shows the manual page for a command. :: man
+The Linux command that lists running processes. :: ps
+The Linux command that shows a live view of running processes and resource use. :: top
+The Linux command that searches text for a pattern. :: grep
+The Linux command that changes a file's permissions. :: chmod
+The three basic Linux file permissions: read, write and this. :: Execute
+The Windows command-line program that replaced Command Prompt as the default in many versions. :: PowerShell
+A smaller unit of a process that can run at the same time as others in it. :: Thread
+Running several programs seemingly at the same time. :: Multitasking
+A processor chip with several independent processing units. :: Multi-core processor
+The part of the operating system that decides which process runs next. :: Scheduler
+The temporary storage that holds running programs and their data. :: RAM (main memory)
+Disk space used as extra memory when RAM is full. :: Virtual memory
+The Windows file on disk used for virtual memory. :: Page file (pagefile.sys)
+The disk area Linux uses when RAM is full. :: Swap
+An error that happens when a program uses memory it has not been given. :: Segmentation fault
+The famous Windows error screen with a blue background. :: Blue Screen of Death
+The Linux equivalent of a fatal system crash. :: Kernel panic
+A program that runs in the background without a user interface on Linux. :: Daemon
+The Windows name for a background program like a Linux daemon. :: Service
+The first process started by the Linux kernel. :: init (systemd)
+The number that identifies each process. :: Process ID (PID)
+The Linux command that sends a signal to end a process. :: kill
+The Linux command that shows how much disk space is free. :: df
+The new versions of software that fix bugs and security holes. :: Updates (patches)
+The tool for installing software on Linux, such as apt or dnf. :: Package manager
+The app store of Ubuntu and many Linux systems that uses snaps. :: Snap Store
+The most popular desktop Linux distribution, made by Canonical. :: Ubuntu
+The Linux distribution sponsored by Red Hat for enthusiasts. :: Fedora
+The Linux distribution named after Ian Murdock and his wife Debra. :: Debian
+The operating system for phones made by Google, built on Linux. :: Android
+The operating system of Apple's iPhone. :: iOS
+The lightweight operating system made by Google for laptops. :: ChromeOS
+The operating system Microsoft released in 2021 with a centred Start button. :: Windows 11
+The Windows version released in 2015, followed by Windows 11. :: Windows 10
+The Windows version that introduced the Start button in 1995. :: Windows 95
+An operating system that must respond within strict time limits, such as in cars and planes. :: Real-time operating system (RTOS)
+Software that lets one computer run several operating systems at once. :: Virtual machine software (hypervisor)
+A complete computer simulated in software. :: Virtual machine
+A lightweight package that runs an app with its own libraries but shares the host kernel. :: Container
+The popular tool for building and running containers, with a whale logo. :: Docker
+The account type that can change system settings in Windows. :: Administrator
+A collection of user settings and files for one person. :: User profile
+The record of events that the operating system keeps for troubleshooting. :: Log
+Turning off a computer while saving its state to disk. :: Hibernate
+A low-power state that keeps memory powered so the computer wakes quickly. :: Sleep
+The clipboard actions that move text: cut and this. :: Paste
+The deleted files folder in Windows. :: Recycle Bin
+The deleted files folder in macOS. :: Trash
+The macOS search tool opened with Command+Space. :: Spotlight
+The macOS file manager. :: Finder
+The Windows file manager. :: File Explorer
+A shortcut that opens a program without going through its folder. :: Shortcut (alias)
+The process of rearranging a hard disk's files so their pieces sit together. :: Defragmentation
+Preparing a disk for use by creating a fresh file system. :: Formatting
+A section of a disk treated as a separate drive. :: Partition
+The time a computer has been running since it last started. :: Uptime
+The amount of processor time a program uses, shown as a percentage. :: CPU usage
+A program that hangs and will not respond. :: Not responding (frozen)
+The message passed to a process in Linux, such as SIGKILL. :: Signal
+The Linux signal sent when you press Ctrl+C. :: SIGINT
+The operating system of most of the world's web servers and supercomputers. :: Linux
+The share of the world's top 500 supercomputers that run Linux, as a percentage. :: 100
+The operating system released by Microsoft in 2001 and supported until 2014. :: Windows XP
+
+## 200
+The states a process moves between: new, ready, running, waiting and this. :: Terminated
+The data structure the kernel keeps for each process, shortened to three letters. :: PCB (process control block)
+Saving one process's state and loading another's. :: Context switch
+The Unix system call that creates a copy of the current process. :: fork
+The Unix system call that replaces a process's program with a new one. :: exec
+The system call a parent uses to wait for a child process to finish. :: wait
+A finished process whose parent has not yet collected its exit status. :: Zombie process
+A process whose parent has ended before it. :: Orphan process
+The way a program asks the kernel for a service, such as reading a file. :: System call
+The privileged processor mode in which the kernel runs. :: Kernel mode
+The restricted processor mode in which ordinary programs run. :: User mode
+A signal from hardware that makes the CPU stop and handle an event. :: Interrupt
+The scheduling algorithm that runs processes in the order they arrive. :: First-come, first-served (FCFS)
+The scheduling algorithm that runs the job with the least work next. :: Shortest job first (SJF)
+The scheduling algorithm that gives each process a fixed time slice in turn. :: Round robin
+The fixed time slice in round-robin scheduling. :: Time quantum
+Scheduling that can take the CPU away from a running process. :: Preemptive scheduling
+A low-priority process that never gets to run. :: Starvation
+Gradually raising the priority of waiting processes to prevent starvation. :: Aging
+The convoy problem is a weakness of this scheduling algorithm. :: FCFS
+The time from a process's arrival to its completion. :: Turnaround time
+The time a process spends in the ready queue. :: Waiting time
+The number of processes completed per unit of time. :: Throughput
+The part of code that touches shared data and must not run in two threads at once. :: Critical section
+A bug in which the result depends on the timing of threads. :: Race condition
+The guarantee that only one thread is in the critical section at a time. :: Mutual exclusion
+A lock that allows only one thread at a time. :: Mutex
+An integer variable with wait and signal operations, invented by Dijkstra. :: Semaphore
+A semaphore whose value is only 0 or 1. :: Binary semaphore
+A situation in which processes wait for each other forever. :: Deadlock
+The four conditions needed for deadlock: mutual exclusion, hold and wait, no preemption and this. :: Circular wait
+The algorithm by Dijkstra that avoids deadlock by checking for a safe state. :: Banker's algorithm
+The classic problem of five thinkers sharing five forks. :: Dining philosophers problem
+The classic problem of a shared buffer between a maker and a user of items. :: Producer–consumer problem (bounded buffer)
+The lock that waits in a loop, checking again and again. :: Spinlock
+A high-level synchronisation construct with a lock and condition variables. :: Monitor
+Communication between processes, shortened to three letters. :: IPC
+A one-way channel between processes, made with the | symbol in a shell. :: Pipe
+A region of memory that several processes can read and write. :: Shared memory
+Splitting memory into fixed-size blocks. :: Paging
+A fixed-size block of physical memory. :: Frame
+A fixed-size block of virtual memory. :: Page
+The table that maps virtual pages to physical frames. :: Page table
+The error that happens when a needed page is not in memory. :: Page fault
+The cache that stores recent page table lookups, shortened to three letters. :: TLB
+The hardware unit that translates virtual addresses to physical ones, shortened to three letters. :: MMU
+The common page size on x86 processors, in kilobytes. :: 4
+Loading pages only when they are first used. :: Demand paging
+The page replacement algorithm that removes the oldest loaded page. :: FIFO
+The page replacement algorithm that removes the page not used for the longest time. :: LRU (least recently used)
+The ideal page replacement algorithm that removes the page used furthest in the future. :: Optimal (Belady's) algorithm
+The odd case in which adding frames causes more page faults with FIFO. :: Belady's anomaly
+Constant swapping of pages that leaves no time for real work. :: Thrashing
+The set of pages a process is actively using. :: Working set
+Dividing memory into variable-sized parts such as code, data and stack. :: Segmentation
+Wasted space inside an allocated block. :: Internal fragmentation
+Free memory broken into small scattered pieces. :: External fragmentation
+Moving allocated blocks together to remove external fragmentation. :: Compaction
+The allocation strategy that uses the first free block big enough. :: First fit
+The allocation strategy that uses the smallest free block big enough. :: Best fit
+The memory area for local variables and function calls. :: Stack
+The memory area for memory allocated at run time with malloc or new. :: Heap
+The C function that frees memory from malloc. :: free
+Memory a program allocated but never freed. :: Memory leak
+The trick that lets parent and child share pages until one writes. :: Copy-on-write
+The structure that stores a file's information in Unix, but not its name. :: Inode
+A second name pointing to the same inode. :: Hard link
+A small file that points to another file's path. :: Symbolic link
+The Linux file permissions written as 755 give the owner these rights. :: Read, write and execute
+The number used for read in Linux octal permissions. :: 4
+The Linux command that changes the owner of a file. :: chown
+The file system feature that records changes before making them, for crash safety. :: Journaling
+The default file system of most Linux systems. :: ext4
+The file system Apple introduced in 2017. :: APFS
+Mounting means attaching a file system at this point in the folder tree. :: Mount point
+The Linux folder that holds configuration files. :: /etc
+The Linux folder that holds users' home folders. :: /home
+The Linux folder that holds device files. :: /dev
+The virtual folder in Linux that shows process information. :: /proc
+The three standard streams of a process: standard input, standard output and this. :: Standard error
+The shell symbol that sends output to a file, replacing it. :: >
+The shell symbol that adds output to the end of a file. :: >>
+The Linux scheduler that has been the default since 2007, until EEVDF replaced it in 2023. :: Completely Fair Scheduler (CFS)
+The Linux tool that runs commands at set times. :: cron
+The Linux system and service manager that most distributions now use. :: systemd
+A kernel that keeps most services, such as drivers, in user space. :: Microkernel
+A kernel that runs most services in kernel mode in one large program. :: Monolithic kernel
+The type of kernel used by Linux. :: Monolithic (modular)
+The kernel of macOS and iOS. :: XNU
+The kernel used by modern Windows. :: Windows NT kernel
+The Windows database of system and program settings. :: Registry
+The hypervisor that runs directly on hardware, such as VMware ESXi. :: Type 1 hypervisor
+The hypervisor that runs on top of an ordinary operating system, such as VirtualBox. :: Type 2 hypervisor
+The tool that runs and manages containers across many machines, created by Google. :: Kubernetes
+The Linux kernel feature that limits a group of processes' CPU and memory. :: cgroups
+The Linux kernel feature that gives processes their own view of the system, used by containers. :: Namespaces
+The Windows feature that runs a real Linux kernel inside Windows, shortened to three letters. :: WSL
+The scheduling method that uses several queues of different priorities and moves jobs between them. :: Multilevel feedback queue
+The Linux command that changes a process's scheduling priority, whose name suggests politeness. :: nice
+The number that a process returns when it ends, where 0 usually means success. :: Exit status (exit code)
+
+## 300
+The average waiting time, in milliseconds, under FCFS for jobs of 24, 3 and 3 ms arriving in that order. :: 17
+The average waiting time, in milliseconds, under SJF for jobs of 24, 3 and 3 ms all arriving at time 0. :: 3
+The scheduling algorithm that is provably optimal for minimising average waiting time. :: Shortest job first
+The preemptive version of shortest job first. :: Shortest remaining time first
+The formula SJF uses to predict the next CPU burst, a weighted average of past bursts. :: Exponential averaging
+The problem in which a low-priority task holds a lock needed by a high-priority task. :: Priority inversion
+The 1997 space mission whose computer kept resetting because of priority inversion. :: Mars Pathfinder
+The fix in which a lock holder temporarily takes the priority of the highest waiter. :: Priority inheritance
+The real-time scheduling algorithm that gives higher priority to tasks with shorter periods. :: Rate-monotonic scheduling
+The real-time scheduling algorithm that runs the task whose deadline is soonest. :: Earliest deadline first (EDF)
+The CPU utilisation bound for rate-monotonic scheduling as the number of tasks grows large, about 69 percent, equals this. :: ln 2
+The utilisation up to which EDF can always meet all deadlines on one processor, as a percentage. :: 100
+The software-only mutual exclusion algorithm for two threads using a flag array and a turn variable. :: Peterson's algorithm
+The first known correct software solution to mutual exclusion for two processes, credited by Dijkstra. :: Dekker's algorithm
+The mutual exclusion algorithm for many processes that works like taking a numbered ticket. :: Lamport's bakery algorithm
+The atomic hardware instruction that reads a value and sets it to 1 in one step. :: Test-and-set
+The atomic instruction that writes a new value only if the current value matches an expected one. :: Compare-and-swap (CAS)
+The problem with compare-and-swap when a value changes from A to B and back to A. :: ABA problem
+Data structures that guarantee some thread always makes progress without locks. :: Lock-free
+The synchronisation problem about many readers or one writer at a time. :: Readers–writers problem
+The classic problem of a barber, chairs and waiting customers. :: Sleeping barber problem
+The monitor style in which a signalled thread runs immediately, named after its inventor. :: Hoare semantics
+The monitor style in which a signalled thread waits until the signaller leaves, named after a programming language. :: Mesa semantics
+The reason condition-variable waits should be in a while loop, not an if. :: Spurious wakeups (Mesa semantics)
+The graph used to detect deadlocks among processes and resources. :: Resource-allocation graph
+The state in which the system can give every process its maximum need in some order. :: Safe state
+The deadlock strategy of simply ignoring the problem, used by most operating systems. :: Ostrich algorithm
+A situation in which processes keep changing state in response to each other but make no progress. :: Livelock
+The number of page faults for the reference string 1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5 with FIFO and 3 frames. :: 9
+The number of page faults for the same string with FIFO and 4 frames, showing Belady's anomaly. :: 10
+The class of page replacement algorithms that never suffer Belady's anomaly, such as LRU. :: Stack algorithms
+The page replacement algorithm that gives pages a second chance using a reference bit. :: Clock (second-chance) algorithm
+The page table design that uses one entry per physical frame instead of per virtual page. :: Inverted page table
+The page table design used by x86-64, with several levels. :: Multi-level (hierarchical) page table
+The number of page table levels in standard x86-64 paging. :: 4
+The number of virtual address bits used by standard x86-64 four-level paging. :: 48
+The size of a huge page on x86-64, besides 1 GB, in megabytes. :: 2
+The effective memory access time, in nanoseconds, with an 80 percent TLB hit rate, a 20 ns TLB, 100 ns memory and a one-level page table. :: 140
+The policy of writing a changed page to disk only when it is evicted. :: Write-back
+The bit that marks a page as changed since it was loaded. :: Dirty bit (modify bit)
+The bit that marks a page as recently used. :: Reference bit (accessed bit)
+The allocator that splits memory into halves and merges "buddies" when freed. :: Buddy system
+The kernel allocator that keeps caches of ready-made objects of the same size. :: Slab allocator
+The Linux kernel feature that kills a process when memory runs out. :: OOM killer
+The Linux system call that maps a file into memory. :: mmap
+The security technique that places program parts at random addresses. :: ASLR
+The CPU feature that marks memory pages as not executable. :: NX bit
+The 2018 processor flaw that let programs read kernel memory, fixed with page table isolation. :: Meltdown
+The 2018 processor flaw that abuses speculative execution across many CPU makers. :: Spectre
+The disk scheduling algorithm that serves the request closest to the head. :: Shortest seek time first (SSTF)
+The disk scheduling algorithm that moves the head back and forth like a lift. :: SCAN (elevator algorithm)
+The variant of SCAN that jumps back to the start instead of reversing. :: C-SCAN
+The time for the disk to spin the right sector under the head. :: Rotational latency
+The average rotational latency of a 7,200 RPM disk, in milliseconds, roughly. :: 4.17
+The RAID level that stripes data with no redundancy. :: RAID 0
+The RAID level that mirrors data on two disks. :: RAID 1
+The RAID level that stripes data with one parity block spread across disks. :: RAID 5
+The RAID level that can survive two disk failures with double parity. :: RAID 6
+The minimum number of disks for RAID 5. :: 3
+The SSD command that tells the drive which blocks are no longer in use. :: TRIM
+The technique SSDs use to spread writes evenly to extend life. :: Wear levelling
+The file allocation method in which each block points to the next, as in FAT. :: Linked allocation
+The file allocation method that stores all block pointers in one index block. :: Indexed allocation
+The number of direct block pointers in a classic ext2 inode. :: 12
+The block of a file system that describes its overall layout. :: Superblock
+The Linux tool that checks and repairs a file system. :: fsck
+The file system technique that never overwrites data in place, used by ZFS and Btrfs. :: Copy-on-write
+The file system created by Sun Microsystems with built-in checksums and snapshots. :: ZFS
+The Linux layer that lets many file systems share one interface, shortened to three letters. :: VFS
+The Linux mechanism by which one process watches files for changes. :: inotify
+The I/O method in which the CPU keeps checking a device's status. :: Polling (programmed I/O)
+The method that lets devices transfer data to memory without the CPU, shortened to three letters. :: DMA
+The memory area that holds data on its way between devices. :: Buffer
+Holding output for a slow device such as a printer in a queue on disk. :: Spooling
+The Linux system call interface for scalable I/O event notification. :: epoll
+The new Linux asynchronous I/O interface with shared rings, added in 2019. :: io_uring
+The Unix kernel interface for sending a signal from one process to another. :: kill
+The Unix signal that cannot be caught or ignored. :: SIGKILL
+The Unix signal number of SIGKILL. :: 9
+The Unix signal sent to a parent when its child ends. :: SIGCHLD
+The thread model in which each user thread maps to its own kernel thread. :: One-to-one
+The thread model that maps many user threads to fewer kernel threads. :: Many-to-many
+The standard C threads library on Unix, shortened from POSIX threads. :: pthreads
+The pthreads function that waits for a thread to finish. :: pthread_join
+Memory private to each thread, though shared address space is the norm. :: Thread-local storage
+The cooperative, lightweight threads managed by a program rather than the kernel. :: Green threads (coroutines)
+The law that limits speedup from parallel processors by the serial part of a program. :: Amdahl's law
+The maximum speedup when 10 percent of a program is serial, however many processors are used. :: 10
+The arrangement in which every processor shares one memory and one copy of the OS, shortened to three letters. :: SMP
+The memory design in which access time depends on which processor's memory is used. :: NUMA
+The standard that defines Unix-compatible operating system interfaces. :: POSIX
+The founder of the GNU Project who started it in 1983. :: Richard Stallman
+The licence of the Linux kernel. :: GPL version 2
+The year Linus Torvalds released Linux. :: 1991
+The university in Finland where Torvalds studied when he created Linux. :: University of Helsinki
+The teaching operating system by Andrew Tanenbaum that inspired Linux. :: MINIX
+The Unix system call that creates a pipe and returns two file descriptors. :: pipe
+The file descriptor number of standard error. :: 2
+The Unix system call that duplicates a file descriptor onto a chosen number, used for redirection. :: dup2
+The number of the Linux runlevel that shuts the system down. :: 0
+
+## 400
+The two Bell Labs researchers who created Unix in 1969: Ken Thompson and this man. :: Dennis Ritchie
+The programming language created alongside Unix and used to rewrite it in 1973. :: C
+The year Thompson and Ritchie received the Turing Award. :: 1983
+The ambitious time-sharing project of MIT, Bell Labs and GE that Unix's name punned on. :: Multics
+The computer on which Unix was first written. :: PDP-7
+The Unix variant from the University of California that introduced TCP/IP sockets. :: BSD
+The two groups whose rival Unix versions led to the "Unix wars": AT&T System V and this. :: BSD
+The 1992 lawsuit by Unix System Laboratories that slowed BSD's spread. :: USL v. BSDi
+The year Linus Torvalds posted his "just a hobby" message announcing Linux. :: 1991
+The Usenet newsgroup where Torvalds announced Linux. :: comp.os.minix
+The computer scientist who debated Torvalds in 1992 by saying "Linux is obsolete". :: Andrew Tanenbaum
+The version control system Torvalds wrote in 2005 to manage the Linux kernel. :: Git
+The proprietary tool the Linux kernel used before Git. :: BitKeeper
+The engineer who led the design of Windows NT after working on VMS at DEC. :: Dave Cutler
+The year Windows NT 3.1 was released. :: 1993
+The operating system from Digital Equipment Corporation whose ideas shaped Windows NT. :: VMS
+The early 1960s time-sharing system from MIT that pioneered many OS ideas. :: CTSS
+The computer scientist who led CTSS and won the 1990 Turing Award. :: Fernando Corbató
+The British computer of 1962 that first used virtual memory with paging. :: Atlas
+The university that built the Atlas computer with Ferranti. :: University of Manchester
+The operating system for the IBM System/360, announced in 1964. :: OS/360
+The manager of OS/360 who wrote "The Mythical Man-Month". :: Fred Brooks
+Dijkstra's 1968 operating system built in layers, named after his university. :: THE multiprogramming system
+The operating system developed by Per Brinch Hansen that introduced the microkernel idea in 1969. :: RC 4000 Multiprogramming System
+The microkernel developed at Carnegie Mellon that became part of macOS's XNU. :: Mach
+The family of microkernels started by Jochen Liedtke, known for fast IPC. :: L4
+The microkernel that in 2009 became the first general-purpose OS kernel with a formal proof of correctness. :: seL4
+The real-time operating system based on a microkernel used in many cars, now owned by BlackBerry. :: QNX
+The operating system design in which applications link the OS as a library, as in MIT's Exokernel. :: Library operating system
+Google's operating system based on the Zircon microkernel, used on Nest Hub devices. :: Fuchsia
+The Huawei operating system launched in 2019. :: HarmonyOS
+The real-time operating system used on NASA's Mars rovers. :: VxWorks
+The popular free real-time OS for microcontrollers, now maintained by Amazon. :: FreeRTOS
+The operating system that runs on Intel's Management Engine inside many PCs. :: MINIX
+The company that made the Macintosh operating system's ancestor, NeXTSTEP. :: NeXT
+The year Apple bought NeXT, bringing back Steve Jobs. :: 1996
+The year Mac OS X was first released to the public. :: 2001
+The open-source core of macOS. :: Darwin
+The year the first Android phone, the HTC Dream, went on sale. :: 2008
+The company that created Android before Google bought it in 2005. :: Android Inc.
+The co-founder of Android Inc. who led it at Google. :: Andy Rubin
+The Android runtime that replaced Dalvik in 2014. :: ART (Android Runtime)
+The kernel of Android. :: Linux
+The Windows file system feature that lets one file have several data streams. :: Alternate data streams
+The year the Linux kernel reached version 1.0. :: 1994
+The Linux kernel version released in 2011 after 2.6.39. :: 3.0
+The second programming language accepted into the Linux kernel, in 2022. :: Rust
+The Linux kernel's own system for running sandboxed programs safely inside the kernel. :: eBPF
+The Linux scheduler that replaced CFS in kernel 6.6. :: EEVDF
+The Linux real-time patch set merged into the main kernel in 2024. :: PREEMPT_RT
+The Linux kernel's mechanism for reading shared data without locks, with deferred freeing. :: RCU (read-copy-update)
+The researcher who co-invented RCU and maintains it in Linux. :: Paul McKenney
+The Linux security module from the NSA that enforces mandatory access control. :: SELinux
+The Linux security module used by Ubuntu that confines programs by path. :: AppArmor
+The Linux feature that restricts which system calls a process may make. :: seccomp
+The Linux feature that splits root's power into separate privileges. :: Capabilities
+The Unix command, from 1979, that changes the apparent root directory of a process. :: chroot
+The FreeBSD feature from 2000 that was an early form of containers. :: Jails
+The Solaris feature for OS-level virtualisation, launched in 2005. :: Zones
+The year Docker was released. :: 2013
+The Linux container technology Docker first used. :: LXC
+The Google internal cluster manager that inspired Kubernetes. :: Borg
+The lightweight virtual machine monitor from Amazon used by AWS Lambda. :: Firecracker
+The hardware features from Intel that support virtualisation, shortened to two letters. :: VT-x
+The hardware feature that speeds up address translation for virtual machines, called EPT by Intel. :: Second-level address translation
+The virtualisation technique in which the guest OS is modified to call the hypervisor directly. :: Paravirtualisation
+The Cambridge hypervisor that popularised paravirtualisation in 2003. :: Xen
+The Linux hypervisor built into the kernel since 2007. :: KVM
+The 1974 paper that set the requirements for virtualisable architectures: Popek and this man. :: Robert Goldberg
+The IBM operating system of 1972 that gave each user a virtual machine running CMS. :: VM/370
+The 1974 paper by Ritchie and Thompson describing Unix appeared in this journal. :: Communications of the ACM
+The 1965 paper by Dijkstra that introduced the critical section problem. :: Solution of a Problem in Concurrent Programming Control
+The two computer scientists who described monitors: Per Brinch Hansen and this man. :: Tony Hoare
+The 1971 paper that set out the four conditions for deadlock: Coffman and others. :: System Deadlocks
+The computer scientist who proposed the working set model in 1968. :: Peter Denning
+The IBM researcher who showed in 1969 that FIFO can get worse with more frames. :: László Bélády
+The two inventors of the LFS log-structured file system in 1991: Rosenblum and this man. :: John Ousterhout
+The Sun network file system released in 1984, shortened to three letters. :: NFS
+The Google distributed file system paper published in 2003. :: Google File System (GFS)
+The Plan 9 idea that everything, including the network, is a file. :: Everything is a file
+The Bell Labs operating system that followed Unix, named after a film. :: Plan 9
+The text encoding invented by Ken Thompson and Rob Pike for Plan 9 in 1992. :: UTF-8
+The epoch from which Unix time counts. :: 1 January 1970
+The Unix philosophy rule: write programs that do one thing and do it this way. :: Well
+The Unix shell written by Stephen Bourne at Bell Labs. :: Bourne shell (sh)
+The shell that is now the default on macOS, since 2019. :: Zsh
+The year Bash was first released. :: 1989
+The 2014 security flaw in Bash that let attackers run commands through environment variables. :: Shellshock
+The 2016 Linux bug in copy-on-write that let users gain root, named after a cow. :: Dirty COW
+The 2024 backdoor discovered in a compression library that nearly reached many Linux distributions. :: XZ Utils backdoor
+The engineer at Microsoft who found the XZ backdoor by noticing slow SSH logins. :: Andres Freund
+The 2024 faulty update that crashed about 8.5 million Windows computers worldwide. :: CrowdStrike update
+The Windows version that introduced the Ribbon to File Explorer and Start screen tiles in 2012. :: Windows 8
+The macOS version names were based on big cats until this 2013 release named after a California place. :: OS X Mavericks
+The first version of Windows, released in 1985. :: Windows 1.0
+The year Microsoft ended support for Windows 10. :: 2025
+The Apple operating system for the Vision Pro headset. :: visionOS
+The Microsoft operating system for phones that was discontinued in 2017. :: Windows Phone (Windows 10 Mobile)
+The operating system that BlackBerry phones used from 2013, based on QNX. :: BlackBerry 10
+The Linux distribution made for security testing, maintained by Offensive Security. :: Kali Linux
+
+## 500
+The average turnaround time, in milliseconds, under round robin with a quantum of 4 for jobs of 24, 3 and 3 ms arriving at time 0 in that order. :: 15.67
+The average waiting time, in milliseconds, for that same round-robin example. :: 5.67
+The maximum number of processes created by calling fork() three times in a row in the original process and its children, counting the original. :: 8
+The number of times "hello" prints when a program calls fork() twice and then prints "hello" once. :: 4
+The number of children the original process has after fork(); fork(); fork(); runs. :: 3
+The value fork() returns in the child process. :: 0
+The value fork() returns in the parent if the call fails. :: −1
+The exit status a shell reports when a process is killed by signal 9, under Bash's convention. :: 137
+The signal number of SIGTERM. :: 15
+The signal number of SIGSEGV on Linux x86. :: 11
+The signal number of SIGINT. :: 2
+The octal permission number for rw-r--r--. :: 644
+The octal permission number for rwxr-x---. :: 750
+The permissions rwsr-xr-x show this special bit set on an executable. :: Setuid
+The octal value of the sticky bit, as on /tmp. :: 1000
+The default umask on many Linux systems, which gives new files 644. :: 022
+The maximum file size, in gigabytes, on FAT32, roughly. :: 4
+The maximum size of a file system on ext4 with 4 KB blocks, in exbibytes. :: 1
+The maximum length of a file name on ext4, in bytes. :: 255
+The largest file reachable with 12 direct pointers, one single and one double indirect block, 4 KB blocks and 4-byte pointers, about this many gigabytes. :: 4
+The number of block pointers that fit in one 4 KB block with 4-byte pointers. :: 1,024
+The number of entries in each level of an x86-64 page table. :: 512
+The number of bits of a virtual address used to index each level of x86-64 paging. :: 9
+The number of bits of a virtual address used for the offset within a 4 KB page. :: 12
+The number of virtual address bits used with five-level paging on x86-64. :: 57
+The size of the virtual address space with 48-bit addressing, in tebibytes. :: 256
+The size of a one-level page table, in megabytes, for a 32-bit address space with 4 KB pages and 4-byte entries. :: 4
+The number of pages in a 32-bit address space with 4 KB pages. :: 1,048,576
+The page fault rate at which effective access time doubles, given 100 ns memory and an 8 ms fault service time, roughly one fault in this many accesses. :: 80,000
+The number of page faults for the string 7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3, 2 with LRU and 3 frames. :: 9
+The number of page faults for that same string with the optimal algorithm and 3 frames. :: 7
+The number of page faults for 1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5 with LRU and 3 frames. :: 10
+The number of page faults for 1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5 with LRU and 4 frames. :: 8
+The total head movement, in cylinders, using FCFS from 53 to 98, 183, 37, 122, 14, 124, 65 and 67. :: 640
+The total head movement, in cylinders, using SSTF for that same request queue starting at 53. :: 236
+The time, in milliseconds, for one full rotation of a 15,000 RPM disk. :: 4
+The usable capacity, in terabytes, of RAID 5 built from five 4 TB disks. :: 16
+The usable capacity, in terabytes, of RAID 6 built from six 4 TB disks. :: 16
+The usable capacity, in terabytes, of RAID 10 built from eight 2 TB disks. :: 8
+The probability, as a percentage, that RAID 0 on two disks survives a year if each disk fails with 10 percent probability. :: 81
+The number of processes in the dining philosophers problem. :: 5
+The number of semaphores in the classic bounded-buffer solution. :: 3
+The initial value of the "empty" semaphore in a bounded buffer with 10 slots. :: 10
+The initial value of the "mutex" semaphore in the bounded-buffer solution. :: 1
+The minimum number of resources of one type that guarantees no deadlock when 3 processes each need at most 2. :: 4
+The maximum number of processes that can share 6 identical resources, each needing at most 3, with no possibility of deadlock. :: 2
+The number of necessary conditions for deadlock, listed by Coffman. :: 4
+The Banker's algorithm's time complexity per safety check, with m resource types and n processes. :: O(m × n²)
+The theoretical maximum speedup of a program that is 80 percent parallel on 4 processors, by Amdahl's law. :: 2.5
+The theoretical maximum speedup of a program that is 95 percent parallel on unlimited processors. :: 20
+The law that says speedup grows with problem size, answering Amdahl. :: Gustafson's law
+The classic default maximum process ID on Linux, 32,768, is 2 to this power. :: 15
+The default maximum PID value on 64-bit Linux systems after systemd raised it, 2 to the 22nd power. :: 4,194,304
+The default time slice in classic Linux CFS was based on a target latency of this many milliseconds. :: 6
+The number of nice levels in Linux, from −20 to 19. :: 40
+The weight ratio between neighbouring nice levels in Linux CFS, roughly. :: 1.25
+The number of real-time priority levels in Linux, 1 to 99. :: 99
+The year the Y2K38 problem will cause 32-bit signed Unix time to overflow. :: 2038
+The exact date and UTC time when 32-bit Unix time overflows: 19 January 2038 at this time. :: 03:14:07
+The Linux system call number of read on x86-64. :: 0
+The Linux system call number of write on x86-64. :: 1
+The x86-64 instruction used to make a system call. :: syscall
+The register that holds the system call number on x86-64 Linux. :: RAX
+The interrupt number used for system calls on 32-bit Linux. :: 0x80
+The number of protection rings on x86 processors. :: 4
+The x86 ring in which the kernel runs. :: Ring 0
+The x86 ring in which user programs run. :: Ring 3
+The name given to the hypervisor's privilege level, below ring 0, informally. :: Ring −1
+The ARM privilege level at which a hypervisor runs. :: EL2
+The secure area of an ARM processor that runs trusted code. :: TrustZone
+The Intel feature that creates protected memory enclaves. :: SGX
+The kernel page table isolation patch for Meltdown is known by these four letters. :: KPTI
+The variant of Spectre that tricks the branch target buffer. :: Variant 2 (branch target injection)
+The 2018 Intel flaw that targets SGX enclaves through the L1 cache. :: Foreshadow (L1TF)
+The 2014 flaw that flips bits in DRAM by repeatedly accessing nearby rows. :: Rowhammer
+The Linux system call that copies data from a file to a socket inside the kernel, without user-space buffers. :: sendfile
+The I/O model in which one thread handles many connections using readiness notifications. :: Event-driven (reactor)
+The problem of serving ten thousand simultaneous connections, named in 1999 by Dan Kegel. :: C10k problem
+The BSD equivalent of epoll. :: kqueue
+The Windows equivalent of io_uring, introduced in Windows 11. :: IoRing
+The Windows I/O model based on completion ports. :: IOCP
+The Linux tool that traces system calls a process makes. :: strace
+The Linux performance tool that samples CPU stacks and hardware counters. :: perf
+The graph of stack samples invented by Brendan Gregg. :: Flame graph
+The Windows debugging tool used to analyse crash dumps. :: WinDbg
+The memory error detector created by Julian Seward. :: Valgrind
+The compiler-based tool from Google that finds memory errors quickly, shortened to four letters. :: ASan (AddressSanitizer)
+The number of bytes in a typical Linux kernel stack on x86-64. :: 16,384
+The default stack size for a main thread on many Linux systems, in megabytes. :: 8
+The number of entries in the TLB of many modern cores' first-level data TLB, roughly. :: 64
+The cost of a TLB miss on x86-64 with four-level paging, in memory references, before caches help. :: 4
+The system call that a process uses to set aside more heap memory in classic Unix. :: brk (sbrk)
+By the 50-percent rule, about this fraction of memory can be lost to external fragmentation with first fit. :: One-third
+The paper by Lampson and Redell describing monitors in the Mesa language was published in this year. :: 1980
+The country where QNX was created. :: Canada
+The number of page faults for 7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3, 2 with FIFO and 3 frames. :: 10
+The usable capacity, in terabytes, of RAID 1 built from two 8 TB disks. :: 8
+The octal permission number for rwx------. :: 700
+The signal number of SIGHUP. :: 1
+The number of bits in a standard Linux user ID. :: 32

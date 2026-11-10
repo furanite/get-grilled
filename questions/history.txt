@@ -1,0 +1,514 @@
+id: history
+name: World History
+nameAr: تاريخ العالم
+group: general
+
+## 100
+The ancient people who built the pyramids of Giza. :: The ancient Egyptians
+The title of the kings of ancient Egypt. :: Pharaoh
+The boy pharaoh whose tomb was found almost untouched in 1922. :: Tutankhamun
+The writing system of ancient Egypt that used pictures. :: Hieroglyphs
+The stone that helped scholars read hieroglyphs. :: The Rosetta Stone
+The ancient city whose army hid inside a wooden horse, according to legend. :: Troy (the Greeks hid inside)
+The ancient Greek city famous for its warriors. :: Sparta
+The ancient Greek city famous for democracy. :: Athens
+The sporting games first held at Olympia in ancient Greece. :: The Olympic Games
+The Macedonian king who built a huge empire by age 30. :: Alexander the Great
+The city in Egypt founded by Alexander the Great. :: Alexandria
+The empire ruled from Rome. :: The Roman Empire
+The Roman leader killed on the Ides of March, 44 BCE. :: Julius Caesar
+The first Roman emperor. :: Augustus
+The arena in Rome where gladiators fought. :: The Colosseum
+The language of the ancient Romans. :: Latin
+The Egyptian queen who allied with Julius Caesar and Mark Antony. :: Cleopatra
+The wall built across northern Britain by the Romans. :: Hadrian's Wall
+The great wall built over centuries to protect China. :: The Great Wall of China
+The Chinese emperor buried with the Terracotta Army. :: Qin Shi Huang
+The trade route that linked China with the Mediterranean. :: The Silk Road
+The Italian traveller who wrote about his visit to Kublai Khan's China. :: Marco Polo
+The Mongol leader who founded the largest land empire in history. :: Genghis Khan
+The Moroccan traveller who journeyed for nearly 30 years in the 14th century. :: Ibn Battuta
+The year the Prophet Muhammad ﷺ migrated from Makkah to Madinah, starting the Hijri calendar. :: 622 CE
+The migration from Makkah to Madinah is called this. :: The Hijrah
+The first caliph after the Prophet Muhammad ﷺ. :: Abu Bakr al-Siddiq
+The caliph who ruled after Abu Bakr. :: Umar ibn al-Khattab
+The dynasty of caliphs that ruled from Damascus. :: The Umayyads
+The dynasty of caliphs that built Baghdad as its capital. :: The Abbasids
+The famous library and academy of Abbasid Baghdad. :: The House of Wisdom (Bayt al-Hikma)
+The Muslim leader who retook Jerusalem in 1187. :: Salah al-Din (Saladin)
+The religious wars fought by European armies in the Levant from 1096. :: The Crusades
+The Turkish empire that lasted from about 1299 to 1922. :: The Ottoman Empire
+The Ottoman sultan who conquered Constantinople in 1453. :: Mehmed II (the Conqueror)
+The year Constantinople fell to the Ottomans. :: 1453
+The Italian explorer who reached the Americas in 1492. :: Christopher Columbus
+The Portuguese explorer who reached India by sea in 1498. :: Vasco da Gama
+The expedition that first sailed around the world was led at first by this explorer. :: Ferdinand Magellan
+The period of European 'rebirth' in art and learning from the 14th century. :: The Renaissance
+The Italian artist who painted the Mona Lisa. :: Leonardo da Vinci
+The artist who painted the Sistine Chapel ceiling. :: Michelangelo
+The German who printed the first major book with movable type in Europe. :: Johannes Gutenberg
+The change from farm work to factories that began in Britain in the 1700s. :: The Industrial Revolution
+The invention that powered the Industrial Revolution's factories and trains. :: The steam engine
+The revolution that began in 1789 with the storming of the Bastille. :: The French Revolution
+The French emperor defeated at Waterloo in 1815. :: Napoleon Bonaparte
+The battle where Napoleon was finally defeated. :: The Battle of Waterloo
+The first President of the United States. :: George Washington
+The year the US Declaration of Independence was signed. :: 1776
+The US president who led the country through its Civil War. :: Abraham Lincoln
+The British queen who reigned from 1837 to 1901. :: Queen Victoria
+The British queen who reigned for 70 years until 2022. :: Queen Elizabeth II
+The war fought from 1914 to 1918. :: World War I
+The war fought from 1939 to 1945. :: World War II
+The assassination that sparked World War I took place in this city. :: Sarajevo
+The British prime minister during most of World War II. :: Winston Churchill
+The US president who died in April 1945, shortly before World War II ended. :: Franklin D. Roosevelt
+The international organisation founded in 1945 to keep world peace. :: The United Nations
+The city where the United Nations has its headquarters. :: New York City
+The organisation founded before the UN after World War I. :: The League of Nations
+The long rivalry between the US and the USSR after World War II. :: The Cold War
+The wall that divided a German city from 1961 to 1989. :: The Berlin Wall
+The year the Berlin Wall fell. :: 1989
+The country that split into 15 states in 1991. :: The Soviet Union (USSR)
+The first person to walk on the Moon, in 1969. :: Neil Armstrong
+The Indian leader famous for non-violent resistance. :: Mahatma Gandhi
+The year India became independent from Britain. :: 1947
+The South African leader released from prison in 1990 who became president. :: Nelson Mandela
+The system of racial segregation in South Africa until the 1990s. :: Apartheid
+The American civil rights leader who gave the 'I Have a Dream' speech. :: Martin Luther King Jr.
+The ship that sank on its first voyage in 1912. :: Titanic
+The brothers who made the first powered flight in 1903. :: The Wright brothers
+The Egyptian president who nationalised the Suez Canal in 1956. :: Gamal Abdel Nasser
+The year the Kingdom of Saudi Arabia was named and unified. :: 1932
+The year the United Arab Emirates was formed. :: 1971
+The founder of the United Arab Emirates and its first president. :: Sheikh Zayed bin Sultan Al Nahyan
+The founder of modern Turkey. :: Mustafa Kemal Atatürk
+The year the Republic of Turkey was founded. :: 1923
+The people who sailed from Scandinavia and raided Europe around 800–1050. :: The Vikings
+The ancient civilisation that built Machu Picchu. :: The Inca
+The ancient civilisation of Mexico known for its calendar and pyramids like Chichén Itzá. :: The Maya
+The empire whose capital was Tenochtitlan, now Mexico City. :: The Aztec Empire
+The Spanish conquistador who defeated the Aztecs. :: Hernán Cortés
+The deadly plague that swept Europe and the Middle East in the 1340s. :: The Black Death
+The disease pandemic that began in 2019 and spread worldwide. :: COVID-19
+The 1918 pandemic that killed tens of millions. :: The Spanish flu
+The French heroine who led armies in the Hundred Years' War and was burned in 1431. :: Joan of Arc
+The English document of 1215 that limited the king's power. :: Magna Carta
+The ancient wonder that is the only one still standing. :: The Great Pyramid of Giza
+The famous lighthouse that was one of the Seven Wonders, in Egypt. :: The Lighthouse (Pharos) of Alexandria
+The city in Iraq that was home to the Hanging Gardens, according to legend. :: Babylon
+The Babylonian king famous for an early written law code. :: Hammurabi
+The land between the Tigris and Euphrates, called the cradle of civilisation. :: Mesopotamia
+The early writing system of Mesopotamia pressed into clay. :: Cuneiform
+The ancient people who invented the earliest known writing, in southern Iraq. :: The Sumerians
+The Persian king who founded the Achaemenid Empire. :: Cyrus the Great
+The ancient Phoenician city in Tunisia that fought Rome. :: Carthage
+The Carthaginian general who crossed the Alps with elephants. :: Hannibal
+The ancient Greek philosopher who taught Alexander the Great. :: Aristotle
+
+## 200
+The ancient wonder at Olympia was a giant statue of this god. :: Zeus
+The Greek historian called the 'Father of History'. :: Herodotus
+The battle in 480 BCE where 300 Spartans held a narrow pass. :: Battle of Thermopylae
+The Athenian leader who gave his name to Athens' golden age. :: Pericles
+The philosopher sentenced to death in Athens in 399 BCE. :: Socrates
+The student of Socrates who founded the Academy. :: Plato
+The Roman general who crossed the Rubicon in 49 BCE. :: Julius Caesar
+The Roman city buried by Vesuvius in 79 CE. :: Pompeii
+The Roman emperor who made Christianity legal in 313. :: Constantine the Great
+The city Constantine made the new capital of the Roman Empire. :: Constantinople
+The year traditionally given for the fall of the Western Roman Empire. :: 476 CE
+The eastern half of the Roman Empire, which lasted until 1453. :: The Byzantine Empire
+The great church built in Constantinople by Justinian in 537. :: Hagia Sophia
+The battle in 732 where the Franks stopped the Umayyad advance in France. :: Battle of Tours (Poitiers)
+The Frankish king crowned emperor in 800. :: Charlemagne
+The Abbasid caliph famous from 'One Thousand and One Nights'. :: Harun al-Rashid
+The city founded by the Abbasid caliph al-Mansur in 762. :: Baghdad
+The Umayyad prince who escaped to Spain and founded the Emirate of Córdoba. :: Abd al-Rahman I
+The Arabic name for Muslim-ruled Spain. :: Al-Andalus
+The great mosque in Spain later turned into a cathedral. :: Great Mosque of Córdoba (Mezquita)
+The palace in Granada built by the Nasrids. :: The Alhambra
+The year Granada fell, ending Muslim rule in Spain. :: 1492
+The Mongol leader who destroyed Baghdad in 1258. :: Hulagu Khan
+The battle in 1260 where the Mamluks defeated the Mongols in Palestine. :: Battle of Ain Jalut
+The Mamluk sultan who led at Ain Jalut and later ruled Egypt. :: Baybars
+The battle in 1187 where Saladin defeated the Crusaders before taking Jerusalem. :: Battle of Hattin
+The Norman duke who conquered England in 1066. :: William the Conqueror
+The battle in 1066 that gave England a Norman king. :: Battle of Hastings
+The long war between England and France from 1337 to 1453. :: The Hundred Years' War
+The German monk who began the Protestant Reformation in 1517. :: Martin Luther
+The Ottoman sultan known in the West as 'the Magnificent'. :: Suleiman the Magnificent
+The Ottoman sultan who conquered Mamluk Egypt in 1517. :: Selim I
+The Mughal emperor who built the Taj Mahal. :: Shah Jahan
+The founder of the Mughal Empire in India. :: Babur
+The Mughal emperor famous for religious tolerance, who ruled from 1556. :: Akbar
+The Persian dynasty that made Isfahan its capital. :: The Safavids
+The Spanish conquistador who defeated the Inca. :: Francisco Pizarro
+The English ship that carried settlers to America in 1620. :: The Mayflower
+The year of the Great Fire of London. :: 1666
+The English king executed in 1649. :: Charles I
+The Russian tsar who founded St Petersburg. :: Peter the Great
+The French queen executed in 1793. :: Marie Antoinette
+The French king executed in 1793. :: Louis XVI
+The British admiral killed at the Battle of Trafalgar in 1805. :: Horatio Nelson
+The South American liberator called 'El Libertador'. :: Simón Bolívar
+The year the American Civil War ended. :: 1865
+The US president who signed the Emancipation Proclamation. :: Abraham Lincoln
+The British scientist whose 1859 book changed biology. :: Charles Darwin
+The war in Crimea from 1853 to 1856 where Florence Nightingale nursed soldiers. :: The Crimean War
+The nurse called 'the Lady with the Lamp'. :: Florence Nightingale
+The rush to California for gold began in this year. :: 1848
+The canal that opened in Egypt in 1869. :: The Suez Canal
+The year the Panama Canal opened. :: 1914
+The Japanese period of fast modernisation that began in 1868. :: The Meiji Restoration
+The last emperor of China. :: Puyi
+The year China's last dynasty fell. :: 1912
+The last dynasty to rule China. :: The Qing dynasty
+The revolution in Russia in 1917 led by Lenin. :: The October (Bolshevik) Revolution
+The leader of the Soviet Union during World War II. :: Joseph Stalin
+The ship sunk by a German submarine in 1915, angering Americans. :: Lusitania
+The treaty signed in 1919 that ended World War I with Germany. :: Treaty of Versailles
+The stock market crash of 1929 began this decade-long slump. :: The Great Depression
+The Japanese attack in December 1941 that brought the US into World War II. :: Pearl Harbor
+The Allied landings in Normandy on 6 June 1944. :: D-Day
+The two Japanese cities hit by atomic bombs in 1945. :: Hiroshima and Nagasaki
+The trials of Nazi leaders held after World War II. :: The Nuremberg trials
+The US plan to rebuild Western Europe after World War II. :: The Marshall Plan
+The military alliance formed in 1949 by the US, Canada and European states. :: NATO
+The war in Korea began in this year. :: 1950
+The 1962 crisis over Soviet missiles in the Caribbean. :: Cuban Missile Crisis
+The US president assassinated in Dallas in 1963. :: John F. Kennedy
+The war that the US fought in South-East Asia until 1973. :: The Vietnam War
+The first artificial satellite, launched by the USSR in 1957. :: Sputnik 1
+The first woman prime minister in the world, in Sri Lanka in 1960. :: Sirimavo Bandaranaike
+The first female prime minister of the United Kingdom. :: Margaret Thatcher
+The Soviet leader who started glasnost and perestroika. :: Mikhail Gorbachev
+The year Germany was reunified. :: 1990
+The 1991 war to free Kuwait from Iraqi occupation. :: The Gulf War (Operation Desert Storm)
+The year Hong Kong returned from British to Chinese rule. :: 1997
+The European currency that went into circulation in 2002. :: The euro
+The terrorist attacks in the United States on 11 September happened in this year. :: 2001
+The website launched in 2004 that became the largest social network. :: Facebook
+The Apple phone first released in 2007. :: iPhone
+The wave of protests across Arab countries that began in Tunisia in late 2010. :: The Arab Spring
+The year the United Kingdom formally left the European Union. :: 2020
+The Arabian Peninsula's first Saudi state was founded in this town near Riyadh. :: Diriyah
+The Saudi king who captured Riyadh in 1902. :: King Abdulaziz (Ibn Saud)
+The year the first Saudi state was founded, now marked on Founding Day. :: 1727
+The year oil was first struck in commercial amounts in Saudi Arabia. :: 1938
+The country where oil was first found in the Gulf region, in 1908. :: Iran (Persia)
+The Gulf country where oil was found in 1932, the first on the Arab side. :: Bahrain
+The year Kuwait became independent from Britain. :: 1961
+The year Qatar and Bahrain became independent. :: 1971
+The year Oman's Sultan Qaboos came to power. :: 1970
+The pact of 1945 that set up the Arab League in this city. :: Cairo
+The organisation of Muslim-majority countries founded in 1969, headquartered in Jeddah. :: Organisation of Islamic Cooperation (OIC)
+The Ottoman railway built from Damascus to Madinah. :: Hejaz Railway
+The British officer known as 'Lawrence of Arabia'. :: T. E. Lawrence
+The Arab Revolt against the Ottomans began in this year. :: 1916
+The sharif of Makkah who launched the Arab Revolt. :: Sharif Hussein bin Ali
+
+## 300
+The first known empire in history, founded by Sargon in Mesopotamia. :: The Akkadian Empire
+The ancient Assyrian capital whose library held thousands of clay tablets. :: Nineveh
+The Assyrian king whose library at Nineveh is famous. :: Ashurbanipal
+The oldest known story, written in Mesopotamia, about a king of Uruk. :: Epic of Gilgamesh
+The Egyptian female pharaoh who ruled about 1479–1458 BCE. :: Hatshepsut
+The pharaoh who tried to make Egypt worship only the sun disc, the Aten. :: Akhenaten
+The pharaoh often linked to the great temple of Abu Simbel. :: Ramesses II
+The ancient kingdom south of Egypt, in today's Sudan, whose kings once ruled Egypt. :: Kush
+The ancient Arabian kingdom in Yemen linked to the Queen of Sheba. :: Saba (Sheba)
+The ancient dam in Yemen whose collapse is remembered in Arab history. :: Ma'rib Dam
+The Nabataean capital carved in rock in Jordan. :: Petra
+The ancient kingdom in Ethiopia and Eritrea that minted its own coins. :: Aksum
+The king of Aksum (the Negus) who sheltered early Muslim emigrants. :: Ashama ibn Abjar (al-Najashi)
+The first migration of Muslims, to Abyssinia, took place around this year. :: 615 CE
+The battle in 624 CE, the first major battle of the early Muslims. :: Battle of Badr
+The treaty signed in 628 CE between the Muslims and Quraysh. :: Treaty of Hudaybiyyah
+The battle in 636 CE where Muslim armies defeated the Byzantines in Syria. :: Battle of Yarmouk
+The battle in 636 CE where Muslim armies defeated the Sasanian Persians. :: Battle of al-Qadisiyyah
+The Umayyad general who crossed into Spain in 711. :: Tariq ibn Ziyad
+The rock in southern Spain named after Tariq ibn Ziyad. :: Gibraltar (Jabal Tariq)
+The Umayyad caliph who built the Dome of the Rock. :: Abd al-Malik ibn Marwan
+The Umayyad caliph known for justice who ruled 717–720. :: Umar ibn Abd al-Aziz
+The Abbasid caliph who supported the House of Wisdom and translation. :: Al-Ma'mun
+The dynasty that founded Cairo in 969. :: The Fatimids
+The mosque and university founded in Cairo by the Fatimids in 970. :: Al-Azhar
+The Turkish dynasty that defeated the Byzantines at Manzikert in 1071. :: The Seljuks
+The Seljuk sultan who won at Manzikert. :: Alp Arslan
+The Persian vizier of the Seljuks who founded the Nizamiyya schools. :: Nizam al-Mulk
+The dynasty founded by Saladin. :: The Ayyubids
+The slave-soldier dynasty that ruled Egypt and Syria from 1250 to 1517. :: The Mamluks
+The Mongol leader who sacked Baghdad was a grandson of this ruler. :: Genghis Khan
+The Turco-Mongol conqueror who built a capital at Samarkand. :: Timur (Tamerlane)
+The Ottoman sultan captured by Timur at Ankara in 1402. :: Bayezid I
+The Moroccan scholar who wrote the Muqaddimah. :: Ibn Khaldun
+The Andalusian philosopher known in Europe as Averroes. :: Ibn Rushd
+The Persian polymath known in Europe as Avicenna. :: Ibn Sina
+The ruler of Mali famous for his lavish pilgrimage to Makkah in 1324. :: Mansa Musa
+The city in Mali famous for its manuscripts and Sankore Mosque. :: Timbuktu
+The Chinese admiral who led huge treasure fleets to Arabia and Africa in the 1400s. :: Zheng He
+The Chinese dynasty that built most of the Great Wall we see today. :: The Ming dynasty
+The Chinese dynasty under which the Tang poetry and Silk Road flourished, 618–907. :: The Tang dynasty
+The battle in 751 between the Abbasids and Tang China, linked to the spread of paper-making. :: Battle of Talas
+The Japanese military rulers who governed from 1603 to 1868. :: The Tokugawa shogunate
+The Japanese warrior class. :: Samurai
+The Khmer temple complex built in the 12th century. :: Angkor Wat
+The European plague that struck in 1347–1351 is thought to have killed about this fraction of Europe. :: About one-third (or more)
+The Italian city-state ruled by the Medici. :: Florence
+The Portuguese prince who sponsored early ocean exploration. :: Henry the Navigator
+The Portuguese explorer who rounded the Cape of Good Hope in 1488. :: Bartolomeu Dias
+The Arab navigator often linked to guiding Vasco da Gama to India. :: Ahmad ibn Majid
+The 1494 treaty that divided new lands between Spain and Portugal. :: Treaty of Tordesillas
+The Spanish fleet defeated by England in 1588. :: The Spanish Armada
+The English queen who reigned during the defeat of the Armada. :: Elizabeth I
+The Ottoman siege of Vienna that failed in 1683 was ended by this Polish king. :: John III Sobieski
+The Ottoman naval battle lost to a Christian alliance in 1571. :: Battle of Lepanto
+The war of 1618–1648 that devastated Central Europe. :: The Thirty Years' War
+The 1648 peace treaties that ended the Thirty Years' War. :: Peace of Westphalia
+The English scientist whose 1687 Principia set out the laws of motion. :: Isaac Newton
+The Prussian king called 'the Great' who ruled from 1740 to 1786. :: Frederick the Great
+The Russian empress called 'the Great' who ruled from 1762 to 1796. :: Catherine the Great
+The war of 1756–1763 fought across Europe, America and India. :: The Seven Years' War
+The British company that came to rule much of India. :: East India Company
+The 1757 battle that began British rule in Bengal. :: Battle of Plassey
+The Indian uprising of 1857 against British company rule. :: The Indian Rebellion of 1857
+The Haitian leader of the revolution that ended slavery there. :: Toussaint Louverture
+The year Haiti declared independence. :: 1804
+The Egyptian ruler who modernised Egypt from 1805. :: Muhammad Ali Pasha
+The French general who invaded Egypt in 1798. :: Napoleon Bonaparte
+The 1815 meeting that redrew Europe after Napoleon. :: Congress of Vienna
+The revolutions that spread across Europe in this year, called the Springtime of Peoples. :: 1848
+The two thinkers who wrote The Communist Manifesto. :: Karl Marx and Friedrich Engels
+The Italian general who led the 'Thousand' to unify Italy. :: Giuseppe Garibaldi
+The Prussian chancellor who unified Germany in 1871. :: Otto von Bismarck
+The 1884–85 conference where European powers divided Africa. :: Berlin Conference
+The only African countries not colonised during the Scramble for Africa. :: Ethiopia and Liberia
+The 1896 battle where Ethiopia defeated Italy. :: Battle of Adwa
+The 1899–1902 war between Britain and the Boer republics. :: The Second Boer War
+The Ottoman reform period from 1839 to 1876. :: The Tanzimat
+The 1916 secret agreement between Britain and France on the Middle East. :: Sykes–Picot Agreement
+The 1915–16 campaign where Allied forces failed to take the Dardanelles. :: Gallipoli campaign
+The Ottoman commander at Gallipoli who later founded Turkey. :: Mustafa Kemal (Atatürk)
+The 1923 treaty that recognised the Republic of Turkey. :: Treaty of Lausanne
+The year the Ottoman caliphate was abolished. :: 1924
+The Chinese leader who founded the People's Republic of China in 1949. :: Mao Zedong
+The 1934–35 retreat of China's Communist army. :: The Long March
+The founder of Pakistan, called Quaid-e-Azam. :: Muhammad Ali Jinnah
+The first prime minister of India. :: Jawaharlal Nehru
+The 1955 conference of Asian and African nations held in Indonesia. :: Bandung Conference
+The group of countries that refused to join either Cold War bloc. :: Non-Aligned Movement
+The war of 1973 between Egypt, Syria and Israel. :: October War (Yom Kippur War)
+The 1978 agreements between Egypt and Israel brokered by the US. :: Camp David Accords
+The Iranian revolution took place in this year. :: 1979
+The war between Iran and Iraq lasted from 1980 to this year. :: 1988
+The year the Gulf Cooperation Council was founded. :: 1981
+The Polish trade union led by Lech Wałęsa. :: Solidarity
+The 1986 nuclear accident in Ukraine. :: Chernobyl
+The year Nelson Mandela became President of South Africa. :: 1994
+The treaty that created the European Union in 1992. :: Maastricht Treaty
+The year the Soviet Union dissolved. :: 1991
+The Persian empire conquered by Alexander the Great. :: The Achaemenid Empire
+
+## 400
+The ancient Sumerian city-state ruled by Gilgamesh, according to legend. :: Uruk
+The Sumerian city whose royal tombs were excavated by Leonard Woolley. :: Ur
+The stepped temple towers of Mesopotamia. :: Ziggurats
+The Hittite and Egyptian armies fought this great chariot battle around 1274 BCE. :: Battle of Kadesh
+The first known peace treaty was signed between Egypt and this empire. :: The Hittite Empire
+The sea peoples' raids are linked to this collapse around 1200 BCE. :: The Late Bronze Age collapse
+The Phoenician alphabet developed in this region, today's Lebanon coast. :: Phoenicia (the Levant)
+The Persian king whose fleet was defeated at Salamis in 480 BCE. :: Xerxes I
+The Persian royal road ran from Sardis to this capital. :: Susa
+The Persian ceremonial capital burned by Alexander. :: Persepolis
+The Indian emperor who turned to Buddhism after the Kalinga war. :: Ashoka
+The Indian empire founded by Chandragupta Maurya. :: The Maurya Empire
+The Indian 'golden age' empire of the 4th–6th centuries. :: The Gupta Empire
+The Chinese dynasty that gave its name to the main ethnic group of China. :: The Han dynasty
+The Chinese philosopher whose teachings shaped government and family life. :: Confucius
+The Roman province that included today's Tunisia, capital Carthage. :: Africa (Africa Proconsularis)
+The Palmyrene queen who rebelled against Rome in the 270s. :: Zenobia
+The Persian dynasty that fought Rome and Byzantium until the 7th century. :: The Sasanian Empire
+The Byzantine emperor who rebuilt Hagia Sophia and codified Roman law. :: Justinian I
+The Arab kingdom of the Ghassanids allied with this empire. :: The Byzantine Empire
+The Arab kingdom of the Lakhmids, based at al-Hira, allied with this empire. :: The Sasanian Empire
+The year of the Battle of the Trench (al-Khandaq) at Madinah. :: 627 CE
+The companion who suggested digging the trench at Madinah. :: Salman al-Farisi
+The general called 'the Sword of God' in early Islam. :: Khalid ibn al-Walid
+The companion who led the conquest of Egypt in 640s. :: Amr ibn al-As
+The city founded by Amr ibn al-As in Egypt. :: Fustat
+The garrison city founded in southern Iraq in 636 that became a centre of learning. :: Basra
+The garrison city in Iraq founded in 638, also a great school of Arabic grammar. :: Kufa
+The Umayyad mosque in Damascus was built under this caliph. :: Al-Walid I
+The battle in 750 where the Abbasids defeated the Umayyads. :: Battle of the Zab
+The Abbasid capital moved from Baghdad to this city in 836. :: Samarra
+The famous spiral minaret in Samarra. :: Malwiya Minaret
+The North African dynasty that built the Great Mosque of Kairouan's later form. :: The Aghlabids
+The city in Tunisia that was an early centre of Islam in North Africa. :: Kairouan
+The Umayyad caliph of Córdoba who declared the caliphate in 929. :: Abd al-Rahman III
+The palace-city built near Córdoba by Abd al-Rahman III. :: Madinat al-Zahra
+The Berber dynasty that founded Marrakesh. :: The Almoravids
+The Berber dynasty that followed the Almoravids in Morocco and Spain. :: The Almohads
+The last Muslim ruler of Granada. :: Muhammad XII (Boabdil)
+The 1212 battle that weakened Almohad power in Spain. :: Battle of Las Navas de Tolosa
+The Crusader kingdom founded in 1099. :: Kingdom of Jerusalem
+The Crusade that sacked Constantinople in 1204. :: The Fourth Crusade
+The English king who led the Third Crusade. :: Richard I (the Lionheart)
+The Mamluk sultan who took Acre in 1291, ending the Crusader states. :: Al-Ashraf Khalil
+The Ottoman founder who gave the empire its name. :: Osman I
+The first Ottoman capital after Bursa, in Europe. :: Edirne (Adrianople)
+The Ottoman elite infantry recruited through the devshirme. :: The Janissaries
+The 1514 battle where the Ottomans defeated the Safavids. :: Battle of Chaldiran
+The 1526 battle where Suleiman defeated Hungary. :: Battle of Mohács
+The Ottoman admiral known in Europe as Barbarossa. :: Hayreddin Barbarossa
+The Ottoman sultan who closed the Janissary corps in 1826. :: Mahmud II
+The 1826 destruction of the Janissaries is called this. :: The Auspicious Incident
+The Ottoman constitution was first declared in this year. :: 1876
+The Ottoman sultan who ruled from 1876 to 1909 and built the Hejaz Railway. :: Abdul Hamid II
+The reformist group that took power in the Ottoman Empire in 1908. :: The Young Turks (Committee of Union and Progress)
+The Saudi-Ottoman battle of 1904 in Qassim. :: Battle of al-Bukayriyah
+The 1915 treaty between Ibn Saud and Britain. :: Treaty of Darin
+The 1927 treaty in which Britain recognised Ibn Saud's independence. :: Treaty of Jeddah
+The year Ibn Saud took the Hejaz, entering Makkah. :: 1924
+The ruler who ordered the 1811 massacre of the Mamluks in Cairo. :: Muhammad Ali Pasha
+The Egyptian army under Ibrahim Pasha destroyed this Saudi capital in 1818. :: Diriyah
+The Imam of the first Saudi state taken to Istanbul and executed in 1818. :: Imam Abdullah bin Saud
+The founder of the second Saudi state in 1824. :: Imam Turki bin Abdullah
+The British protectorate over Aden began in this year. :: 1839
+The 1820 treaty between Britain and Gulf sheikhdoms that led to the name 'Trucial States'. :: General Maritime Treaty
+The Gulf emirates were called this before forming the UAE. :: The Trucial States
+The Kuwaiti ruler who signed the 1899 agreement with Britain. :: Sheikh Mubarak Al-Sabah (Mubarak the Great)
+The Mughal emperor who ruled during the empire's widest extent, until 1707. :: Aurangzeb
+The Persian ruler who sacked Delhi in 1739 and took the Peacock Throne. :: Nader Shah
+The famous diamond taken from Delhi by Nader Shah. :: Koh-i-Noor
+The Indian ruler called the 'Tiger of Mysore'. :: Tipu Sultan
+The Chinese rebellion of 1850–64, one of the deadliest civil wars. :: The Taiping Rebellion
+The wars between Britain and China over the opium trade began in this year. :: 1839
+The treaty of 1842 that gave Hong Kong to Britain. :: Treaty of Nanking
+The 1899–1901 Chinese uprising against foreign influence. :: The Boxer Rebellion
+The US naval officer who forced Japan to open in 1853–54. :: Matthew Perry
+The war in which Japan defeated Russia, 1904–05. :: The Russo-Japanese War
+The battle where Japan's navy destroyed Russia's Baltic fleet in 1905. :: Battle of Tsushima
+The Russian revolution of February 1917 ended the rule of this tsar. :: Nicholas II
+The 1918 treaty in which Russia left World War I. :: Treaty of Brest-Litovsk
+The 1922 march that brought Mussolini to power. :: The March on Rome
+The Spanish general who won the Spanish Civil War. :: Francisco Franco
+The 1938 agreement that let Germany take the Sudetenland. :: Munich Agreement
+The 1940 evacuation of Allied troops from France. :: Dunkirk evacuation
+The 1942–43 battle that turned World War II in the east. :: Battle of Stalingrad
+The 1942 battle in Egypt that turned the North African war. :: Second Battle of El Alamein
+The German general called the 'Desert Fox'. :: Erwin Rommel
+The 1942 naval battle where the US defeated Japan's carriers. :: Battle of Midway
+The 1945 conference of Churchill, Roosevelt and Stalin in Crimea. :: Yalta Conference
+The 1948–49 Soviet blockade answered by an airlift. :: The Berlin Blockade (Berlin Airlift)
+The 1956 crisis after Egypt nationalised the canal. :: Suez Crisis
+The 1956 uprising crushed by Soviet tanks in Budapest. :: Hungarian Revolution
+The 1968 reform movement in Czechoslovakia. :: The Prague Spring
+The 1967 war between Israel and Egypt, Jordan and Syria lasted this many days. :: Six
+The Saudi king assassinated in 1975. :: King Faisal
+The organisation of Arab oil exporters behind the 1973 embargo. :: OAPEC
+The Lebanese civil war lasted from 1975 to this year. :: 1990
+The 1990 invasion of Kuwait was ordered by this Iraqi leader. :: Saddam Hussein
+The 1994 genocide in this African country killed about 800,000 people. :: Rwanda
+The 1995 massacre in Bosnia of about 8,000 Muslim men and boys. :: Srebrenica massacre
+
+## 500
+The Mesopotamian king called Sargon ruled from this city, whose site is still unknown. :: Akkad (Agade)
+The Neo-Babylonian king who built the Ishtar Gate. :: Nebuchadnezzar II
+The last king of the Neo-Babylonian Empire, who spent years at Tayma in Arabia. :: Nabonidus
+The oasis in north-west Saudi Arabia where Nabonidus lived for about ten years. :: Tayma
+The ancient north Arabian kingdom centred at al-Ula before the Nabataeans. :: Lihyan (Dedan)
+The ancient trading city in eastern Arabia, likely near al-Uqair, mentioned by Greek writers. :: Gerrha
+The Bronze Age civilisation centred on Bahrain. :: Dilmun
+The Bronze Age copper-producing land in Oman known from Mesopotamian texts. :: Magan
+The Indus Valley city in Pakistan with a 'Great Bath'. :: Mohenjo-daro
+The Indus Valley civilisation is also called this, after a site in Punjab. :: Harappan civilisation
+The Greek general who wrote the Anabasis about the march of the Ten Thousand. :: Xenophon
+The Greek historian of the Peloponnesian War. :: Thucydides
+The Hellenistic kingdom that ruled Egypt after Alexander. :: The Ptolemaic Kingdom
+The Hellenistic kingdom that ruled Syria and Mesopotamia after Alexander. :: The Seleucid Empire
+The Roman general who failed to conquer Arabia Felix in 26–25 BCE. :: Aelius Gallus
+The Roman emperor born in Lepcis Magna in Libya. :: Septimius Severus
+The Roman emperor known as 'Philip the Arab'. :: Philip I (Marcus Julius Philippus)
+The Persian king who captured the Roman emperor Valerian in 260. :: Shapur I
+The Kindite poet-prince, author of one of the Mu'allaqat. :: Imru' al-Qais
+The year of the Elephant, when Abraha marched on Makkah, is traditionally dated to about this year. :: 570 CE
+The Aksumite general who ruled Yemen and marched on Makkah with an elephant. :: Abraha
+The pre-Islamic Arab victory over the Sasanians, around 609 CE. :: Battle of Dhi Qar
+The first written constitution-like agreement in Madinah. :: Constitution of Madinah (Sahifat al-Madinah)
+The battle in 625 CE near Madinah. :: Battle of Uhud
+The year of the conquest of Makkah. :: 630 CE (8 AH)
+The battle in 630 CE after the conquest of Makkah, in a valley near Taif. :: Battle of Hunayn
+The expedition of 630 CE to the north, the Prophet's ﷺ last campaign. :: Expedition of Tabuk
+The caliph who compiled the Qur'an into one standard copy. :: Uthman ibn Affan
+The fourth caliph, who moved the capital to Kufa. :: Ali ibn Abi Talib
+The first Umayyad caliph. :: Muawiya ibn Abi Sufyan
+The Umayyad governor of Iraq under whom dots and vowel marks were added to Arabic writing. :: Al-Hajjaj ibn Yusuf
+The Umayyad general who conquered Sindh in 711–712. :: Muhammad ibn al-Qasim
+The Umayyad general who reached Central Asia and conquered Samarkand. :: Qutayba ibn Muslim
+The Abbasid revolution began in this eastern province. :: Khurasan
+The general who led the Abbasid revolution's army. :: Abu Muslim al-Khurasani
+The first Abbasid caliph. :: Abu al-Abbas al-Saffah
+The Abbasid mathematician whose name gave us the word 'algorithm'. :: Al-Khwarizmi
+The translator who led the House of Wisdom's Greek translations, a Christian physician. :: Hunayn ibn Ishaq
+The dynasty that controlled the Abbasid caliphs from 945 in Baghdad. :: The Buyids
+The Ghaznavid sultan famous for raids into India around 1000. :: Mahmud of Ghazni
+The Seljuk sultan under whom Nizam al-Mulk served, after Alp Arslan. :: Malik-Shah I
+The Persian poet-mathematician who reformed the calendar for Malik-Shah. :: Omar Khayyam
+The Zengid ruler who united Syria against the Crusaders before Saladin. :: Nur al-Din Zengi
+The Andalusian geographer who made a world map for Roger II of Sicily. :: Al-Idrisi
+The famous book of al-Idrisi's world map. :: Tabula Rogeriana (Nuzhat al-Mushtaq)
+The Mamluk queen who ruled Egypt briefly in 1250. :: Shajar al-Durr
+The Mongol khanate that ruled Persia after 1256. :: The Ilkhanate
+The Ilkhan who converted to Islam in 1295. :: Ghazan Khan
+The Persian historian-vizier who wrote the Compendium of Chronicles. :: Rashid al-Din Hamadani
+The Mamluk sultan who built many works in Cairo and ruled three times, 1293–1341. :: Al-Nasir Muhammad
+The kingdom in West Africa that came before Mali, known for gold. :: Ghana Empire
+The West African empire that followed Mali, with its capital at Gao. :: Songhai Empire
+The Songhai ruler who made the pilgrimage in 1496. :: Askia Muhammad
+The East African trading city-state whose ruins include the Great Mosque of Kilwa. :: Kilwa Kisiwani
+The stone city in southern Africa that gave a modern country its name. :: Great Zimbabwe
+The Portuguese captured this Gulf island port in 1507 and held it until 1622. :: Hormuz
+The Safavid shah who took Hormuz back from the Portuguese with English help. :: Shah Abbas I
+The Omani dynasty that drove the Portuguese from Muscat in 1650. :: The Ya'rubids
+The Omani dynasty founded in 1744 that still rules today. :: Al Bu Said
+The Omani sultan who moved his capital to Zanzibar in the 1830s–1840s. :: Said bin Sultan
+The year the Ottomans took al-Ahsa from the second Saudi state. :: 1871
+The Rashidi emirate was based in this city. :: Ha'il
+The 1891 battle where the Rashidis defeated the second Saudi state's allies. :: Battle of Mulayda
+The Saudi ruler who went into exile in Kuwait with his son Abdulaziz after 1891. :: Imam Abdulrahman bin Faisal
+The Ikhwan revolt was defeated at this 1929 battle. :: Battle of Sabilla
+The 1934 war between Saudi Arabia and this country ended with the Treaty of Taif. :: Yemen
+The Ottoman governor of Iraq who invaded al-Ahsa in 1871. :: Midhat Pasha
+The Dutch East India Company's founding year, the first company to issue public shares. :: 1602
+The Chinese emperor of the Kangxi era ruled for this many years, among the longest. :: 61
+The Japanese reformer emperor whose reign began in 1868. :: Emperor Meiji
+The 1857 Indian revolt began among these soldiers in British service. :: Sepoys
+The last Mughal emperor, exiled to Rangoon in 1858. :: Bahadur Shah Zafar
+The founder of the Afghan state in 1747. :: Ahmad Shah Durrani
+The Sikh empire's founder, the 'Lion of Punjab'. :: Ranjit Singh
+The Algerian leader who resisted French conquest from 1832 to 1847. :: Emir Abdelkader
+The Libyan resistance leader against Italy, executed in 1931. :: Omar Mukhtar
+The Moroccan leader of the Rif War against Spain in the 1920s. :: Abd el-Krim
+The Sudanese leader who took Khartoum in 1885. :: Muhammad Ahmad (the Mahdi)
+The British general killed at Khartoum in 1885. :: Charles Gordon
+The 1898 battle where Britain defeated the Mahdist state. :: Battle of Omdurman
+The Egyptian revolution of 1919 was led by this nationalist. :: Saad Zaghloul
+The Iraqi kingdom was created under this king in 1921. :: Faisal I
+The 1920 battle at which France defeated the Arab Kingdom of Syria. :: Battle of Maysalun
+The Syrian minister of war killed at Maysalun. :: Yusuf al-Azma
+The Emirate of Transjordan was founded in 1921 under this ruler. :: Abdullah I
+The 1955 pact linking Iraq, Turkey, Iran, Pakistan and Britain. :: Baghdad Pact
+The 1958 union of Egypt and Syria. :: United Arab Republic
+The 1964 founding of the Palestine Liberation Organization took place in this city. :: Jerusalem (East)
+The Algerian war of independence ended in this year. :: 1962
+The 1968 student protests famously shook this European capital in May. :: Paris
+The 1971 war that led to Bangladesh's independence was between India and this country. :: Pakistan
+The 1979 seizure of the Grand Mosque in Makkah lasted about this many weeks. :: Two
+The 1980s war in Afghanistan ended with the Soviet withdrawal in this year. :: 1989
+The year Yemen's north and south united. :: 1990
+The 1993 agreement signed on the White House lawn between Israel and the PLO. :: Oslo Accords
+The year the World Trade Organization was founded. :: 1995
+The Byzantine emperor who received the Prophet's ﷺ letter, according to tradition. :: Heraclius
+The 1258 fall of Baghdad ended the rule of this last Abbasid caliph in Baghdad. :: Al-Musta'sim
+The 1453 siege of Constantinople used a giant cannon built by this Hungarian engineer. :: Orban
+The Ottoman sultan who ordered ships dragged overland into the Golden Horn in 1453. :: Mehmed II

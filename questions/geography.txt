@@ -1,0 +1,514 @@
+id: geography
+name: World Geography
+nameAr: جغرافيا العالم
+group: general
+
+## 100
+The largest ocean on Earth. :: Pacific Ocean
+The largest continent by area. :: Asia
+The longest river in Africa. :: The Nile
+The capital of France. :: Paris
+The capital of Japan. :: Tokyo
+The capital of the United Kingdom. :: London
+The capital of Egypt. :: Cairo
+The capital of the United States. :: Washington, D.C.
+The capital of Italy. :: Rome
+The capital of Germany. :: Berlin
+The capital of Spain. :: Madrid
+The capital of Russia. :: Moscow
+The capital of China. :: Beijing
+The capital of India. :: New Delhi
+The capital of Canada. :: Ottawa
+The capital of Australia. :: Canberra
+The capital of Turkey. :: Ankara
+The capital of the United Arab Emirates. :: Abu Dhabi
+The capital of Kuwait. :: Kuwait City
+The capital of Qatar. :: Doha
+The capital of Bahrain. :: Manama
+The capital of Oman. :: Muscat
+The capital of Jordan. :: Amman
+The tallest mountain in the world above sea level. :: Mount Everest
+The largest hot desert in the world. :: The Sahara
+The country shaped like a boot. :: Italy
+The number of continents in the usual English-language model. :: Seven
+The continent where Brazil is. :: South America
+The continent where Kenya is. :: Africa
+The coldest continent. :: Antarctica
+The smallest continent. :: Australia (Oceania)
+The ocean between Europe and North America. :: Atlantic Ocean
+The ocean south of India. :: Indian Ocean
+The imaginary line around the middle of the Earth. :: The Equator
+The country with the largest population in the world since 2023. :: India
+The largest country in the world by area. :: Russia
+The country famous for the Great Wall. :: China
+The country home to the Eiffel Tower. :: France
+The country home to the pyramids of Giza. :: Egypt
+The country home to the Taj Mahal. :: India
+The country home to the Colosseum. :: Italy
+The city where the Statue of Liberty stands. :: New York City
+The city home to Big Ben. :: London
+The country famous for kangaroos. :: Australia
+The country famous for tulips and windmills. :: The Netherlands
+The country with a maple leaf on its flag. :: Canada
+The country whose flag is a red circle on white. :: Japan
+The river that flows through London. :: The Thames
+The river that flows through Paris. :: The Seine
+The river that flows through Baghdad. :: The Tigris
+The largest country in South America. :: Brazil
+The largest country in Africa by area. :: Algeria
+The sea between Africa and Europe. :: Mediterranean Sea
+The sea that is so salty people float easily in it. :: The Dead Sea
+The holy city in western Saudi Arabia visited by millions of pilgrims. :: Makkah
+The language spoken in Brazil. :: Portuguese
+The main language of Mexico. :: Spanish
+The currency of Japan. :: Yen
+The currency used by most countries of the European Union. :: Euro
+The currency of the United States. :: US dollar
+The currency of the United Kingdom. :: Pound sterling
+The country north of the United States. :: Canada
+The country south of the United States. :: Mexico
+The island country south of India. :: Sri Lanka
+The country made of thousands of islands, with Jakarta as its capital. :: Indonesia
+The largest island in the world. :: Greenland
+The country Greenland belongs to. :: Denmark
+The mountain range that runs along western South America. :: The Andes
+The mountain range between France and Italy and Switzerland. :: The Alps
+The mountain range with Mount Everest. :: The Himalayas
+The waterfall on the US–Canada border. :: Niagara Falls
+The rainforest that covers much of northern Brazil. :: The Amazon rainforest
+The longest river in South America. :: The Amazon
+The country with the city of Istanbul. :: Turkey
+The country with the city of Dubai. :: United Arab Emirates
+The country with the city of Casablanca. :: Morocco
+The country with the city of Mumbai. :: India
+The country with the city of Rio de Janeiro. :: Brazil
+The country with the city of Sydney. :: Australia
+The country with the city of Toronto. :: Canada
+The country with the city of Barcelona. :: Spain
+The country with the city of Munich. :: Germany
+The tool that shows directions using Earth's magnetism. :: Compass
+The direction the sun rises. :: East
+A large body of land surrounded by water on all sides. :: Island
+A piece of land almost surrounded by water, like the Arabian one. :: Peninsula
+A mountain that can erupt lava. :: Volcano
+The study of the Earth's surface, places and people. :: Geography
+A book of maps. :: Atlas
+The imaginary lines on a map that run north to south. :: Lines of longitude (meridians)
+The imaginary lines on a map that run east to west. :: Lines of latitude (parallels)
+The point at the very top of the Earth's axis. :: The North Pole
+The country between Spain and France in the Pyrenees. :: Andorra
+The city-state at the southern tip of the Malay Peninsula. :: Singapore
+The smallest country in the world. :: Vatican City
+The capital of Iraq. :: Baghdad
+The capital of Lebanon. :: Beirut
+The neighbouring country to the north of Saudi Arabia, with Amman as capital. :: Jordan
+The country on the Arabian Peninsula's south-west corner. :: Yemen
+The famous canal that links the Mediterranean and the Red Sea. :: Suez Canal
+
+## 200
+The capital of Brazil. :: Brasília
+The capital of Argentina. :: Buenos Aires
+The capital of South Korea. :: Seoul
+The capital of Pakistan. :: Islamabad
+The capital of Indonesia. :: Jakarta
+The capital of Morocco. :: Rabat
+The capital of Kenya. :: Nairobi
+The capital of Nigeria. :: Abuja
+The capital of South Africa where the government sits. :: Pretoria
+The capital of Mexico. :: Mexico City
+The capital of Greece. :: Athens
+The capital of Portugal. :: Lisbon
+The capital of the Netherlands. :: Amsterdam
+The capital of Sweden. :: Stockholm
+The capital of Norway. :: Oslo
+The capital of Switzerland. :: Bern
+The capital of Austria. :: Vienna
+The capital of Poland. :: Warsaw
+The capital of Iran. :: Tehran
+The capital of Syria. :: Damascus
+The capital of Tunisia. :: Tunis
+The capital of Algeria. :: Algiers
+The capital of Sudan. :: Khartoum
+The capital of Thailand. :: Bangkok
+The capital of Malaysia. :: Kuala Lumpur
+The capital of the Philippines. :: Manila
+The capital of New Zealand. :: Wellington
+The capital of Ireland. :: Dublin
+The capital of Belgium. :: Brussels
+The capital of Ukraine. :: Kyiv
+The longest river in the world by most measurements. :: The Nile
+The longest river in the United States. :: The Missouri River
+The river that flows through Cairo. :: The Nile
+The river that flows through Vienna and Budapest. :: The Danube
+The river sacred to Hindus that flows through Varanasi. :: The Ganges
+The longest river in Asia. :: The Yangtze
+The highest mountain in Africa. :: Mount Kilimanjaro
+The highest mountain in North America. :: Denali
+The volcano in Japan that is its highest mountain. :: Mount Fuji
+The volcano that buried Pompeii in 79 CE. :: Mount Vesuvius
+The largest lake in Africa. :: Lake Victoria
+The deepest lake in the world, in Siberia. :: Lake Baikal
+The largest lake in the world by area, though called a sea. :: The Caspian Sea
+The five Great Lakes are shared by Canada and this country. :: The United States
+The world's largest coral reef system, off Australia. :: The Great Barrier Reef
+The strait that separates Europe and Africa. :: Strait of Gibraltar
+The strait that links the Arabian Gulf to the Gulf of Oman. :: Strait of Hormuz
+The strait at the southern end of the Red Sea. :: Bab-el-Mandeb
+The canal that links the Atlantic and Pacific in Central America. :: Panama Canal
+The deepest part of the world's oceans. :: The Mariana Trench
+The country with the most time zones, including overseas lands. :: France
+The country with the longest coastline in the world. :: Canada
+The two countries that share the longest international border. :: Canada and the United States
+The country completely surrounded by South Africa. :: Lesotho
+The city that is both in Europe and Asia, across the Bosporus. :: Istanbul
+The landlocked country between India and China, home of Everest's south side. :: Nepal
+The Himalayan kingdom that measures Gross National Happiness. :: Bhutan
+The country known as the Land of the Rising Sun. :: Japan
+The country with the most islands, by some counts over 200,000. :: Sweden
+The desert that covers most of Botswana. :: The Kalahari
+The cold desert in Mongolia and northern China. :: The Gobi Desert
+The driest non-polar desert in the world, in Chile. :: The Atacama Desert
+The country whose capital is Reykjavík. :: Iceland
+The country with the city of Marrakesh. :: Morocco
+The country with the city of Alexandria. :: Egypt
+The country with the city of Petra. :: Jordan
+The country with the city of Cape Town. :: South Africa
+The country with the city of St Petersburg. :: Russia
+The country with the city of Kyoto. :: Japan
+The country with the city of Lahore. :: Pakistan
+The country with the city of Mosul. :: Iraq
+The country with the city of Aleppo. :: Syria
+The country with the city of Zanzibar Town. :: Tanzania
+The tallest waterfall in the world, in Venezuela. :: Angel Falls
+The waterfall on the Zambia–Zimbabwe border. :: Victoria Falls
+The large Arctic island country that is part of the Kingdom of Denmark. :: Greenland
+The large island off south-east Africa. :: Madagascar
+The island country in the Mediterranean south of Sicily. :: Malta
+The Mediterranean island divided between Greek and Turkish communities. :: Cyprus
+The country that the island of Sicily belongs to. :: Italy
+The country that the Canary Islands belong to. :: Spain
+The Indian Ocean island nation famous for its overwater resorts. :: Maldives
+The line of 0° longitude. :: The Prime Meridian
+The town in London that the Prime Meridian passes through. :: Greenwich
+The line roughly along 180° longitude where the date changes. :: International Date Line
+The line of latitude at 23.4° north. :: Tropic of Cancer
+A narrow strip of land connecting two larger land areas. :: Isthmus
+A place where a river splits into many channels before the sea. :: Delta
+A river's starting point. :: Source
+A dry riverbed in the desert that floods after rain. :: Wadi
+A fertile spot in a desert with water. :: Oasis
+A steep-sided valley carved by a river, like the Grand Canyon. :: Canyon
+A large flat-topped hill with steep sides. :: Mesa (plateau)
+The river that carved the Grand Canyon. :: The Colorado River
+The country with the most volcanoes on land, in the Pacific Ring of Fire. :: Indonesia
+The ring of volcanoes and earthquakes around the Pacific Ocean. :: Ring of Fire
+The point where the Blue Nile and the White Nile meet. :: Khartoum (Sudan)
+The country with the most lakes in the world. :: Canada
+The second-largest country in the world by area. :: Canada
+The largest country in Europe entirely within Europe. :: Ukraine
+
+## 300
+The capital of Vietnam. :: Hanoi
+The capital of Ethiopia. :: Addis Ababa
+The capital of Colombia. :: Bogotá
+The capital of Peru. :: Lima
+The capital of Chile. :: Santiago
+The capital of Venezuela. :: Caracas
+The capital of Cuba. :: Havana
+The capital of Afghanistan. :: Kabul
+The capital of Bangladesh. :: Dhaka
+The capital of Libya. :: Tripoli
+The capital of Yemen. :: Sanaa
+The capital of Mauritania. :: Nouakchott
+The capital of Somalia. :: Mogadishu
+The capital of Finland. :: Helsinki
+The capital of Denmark. :: Copenhagen
+The capital of Hungary. :: Budapest
+The capital of the Czech Republic. :: Prague
+The capital of Romania. :: Bucharest
+The capital of Uzbekistan. :: Tashkent
+The capital of Kazakhstan. :: Astana
+The capital of Azerbaijan. :: Baku
+The capital of Georgia, the country. :: Tbilisi
+The capital of Ghana. :: Accra
+The capital of Senegal. :: Dakar
+The capital of Tanzania. :: Dodoma
+The capital of Myanmar since 2006. :: Naypyidaw
+The official capital of Sri Lanka, where parliament sits. :: Sri Jayawardenepura Kotte
+The highest mountain in South America. :: Aconcagua
+The highest mountain in Europe, in the Caucasus. :: Mount Elbrus
+The highest mountain in the Alps. :: Mont Blanc
+The second-highest mountain in the world. :: K2
+The highest mountain in Antarctica. :: Mount Vinson (Vinson Massif)
+The highest peak in the Arabian Peninsula, in Yemen. :: Jabal an-Nabi Shu'ayb
+The longest mountain range in the world on land. :: The Andes
+The mountain range that separates Europe from Asia in Russia. :: The Ural Mountains
+The mountain range in north-west Africa across Morocco and Algeria. :: The Atlas Mountains
+The river that forms much of the border between Mexico and the US. :: Rio Grande
+The river on which Baghdad stands that joins the Euphrates to form the Shatt al-Arab. :: The Tigris
+The waterway formed where the Tigris and Euphrates meet. :: Shatt al-Arab
+The river that flows through Khartoum, Aswan and Cairo. :: The Nile
+The largest river in West Africa. :: The Niger
+The second-longest river in Africa. :: The Congo
+The river that flows through Moscow. :: The Moskva
+The longest river in Europe. :: The Volga
+The river on which Rome stands. :: The Tiber
+The river that flows through Budapest, Belgrade and Bratislava. :: The Danube
+The lake shared by Peru and Bolivia, the highest large navigable lake. :: Lake Titicaca
+The salt lake in Utah. :: Great Salt Lake
+The largest salt flat in the world, in Bolivia. :: Salar de Uyuni
+The lowest point on land on Earth. :: The shore of the Dead Sea
+The country with the highest capital city in the world. :: Bolivia (La Paz)
+The southernmost city in the world often named, in Argentina. :: Ushuaia
+The northernmost capital city in the world. :: Reykjavík
+The tip of South America famous for rough seas. :: Cape Horn
+The southern tip of Africa, where two oceans meet. :: Cape Agulhas
+The cape near Cape Town once called the Cape of Storms. :: Cape of Good Hope
+The narrow channel between England and France. :: The English Channel
+The strait between Asia and North America. :: Bering Strait
+The strait linking the Black Sea and the Sea of Marmara. :: The Bosporus
+The strait between Malaysia and Sumatra, a key shipping route. :: Strait of Malacca
+The sea between Saudi Arabia and Africa. :: The Red Sea
+The sea surrounded by Turkey, Ukraine, Russia, Georgia, Romania and Bulgaria. :: The Black Sea
+The sea off the east coast of Oman and India's west coast. :: The Arabian Sea
+The gulf between Yemen and Somalia. :: Gulf of Aden
+The gulf at the northern tip of the Red Sea, near Tabuk and Aqaba. :: Gulf of Aqaba
+The gulf in the Red Sea's north between Egypt's mainland and Sinai. :: Gulf of Suez
+The peninsula between the Gulf of Suez and the Gulf of Aqaba. :: Sinai Peninsula
+The world's largest peninsula. :: The Arabian Peninsula
+The volcanic island country in the North Atlantic with geysers and glaciers. :: Iceland
+The country that has both the Amazon and the Andes and its capital is Quito. :: Ecuador
+The islands belonging to Ecuador, famous for Darwin's studies. :: The Galápagos Islands
+The country that owns the Falkland Islands. :: The United Kingdom
+The island country east of Australia whose capital is Suva. :: Fiji
+The largest country in Central America by area. :: Nicaragua
+The only country in Central America where English is the official language. :: Belize
+The country with the most pyramids in the world. :: Sudan
+The landlocked country with Lake Malawi along its east side. :: Malawi
+The double-landlocked country in Europe, with Vaduz as its capital. :: Liechtenstein
+The only other doubly landlocked country besides Liechtenstein. :: Uzbekistan
+The country with the most borders on land, tied with Russia at 14. :: China
+The country made of two main islands called the North Island and the South Island. :: New Zealand
+The capital of Australia was purpose-built because these two cities both wanted to be capital. :: Sydney and Melbourne
+The Indian Ocean country that is home to the lemur. :: Madagascar
+The term for a sea inlet between high cliffs, common in Norway. :: Fjord
+The term for a ring-shaped coral island. :: Atoll
+The flat treeless Arctic region with frozen subsoil. :: Tundra
+The ground that stays frozen all year in the Arctic. :: Permafrost
+The tropical grassland of East Africa with scattered trees. :: Savanna
+The wide grassy plains of Argentina. :: The Pampas
+The wide grassy plains of Russia and Central Asia. :: The Steppe
+The sand dune shaped like a crescent. :: Barchan
+The wind that brings heavy summer rain to South Asia. :: The monsoon
+The hot dusty wind that blows from the Sahara across North Africa in spring. :: Khamsin (or sirocco)
+The scale used to measure earthquake strength today. :: Moment magnitude scale
+The name for the single giant continent that existed about 300 million years ago. :: Pangaea
+The theory that Earth's crust is split into moving pieces. :: Plate tectonics
+The point on the surface directly above where an earthquake starts. :: Epicentre
+The line on a map joining places of equal height. :: Contour line
+The Saudi region on the Red Sea that borders Yemen, known for mountains and coffee. :: Jazan
+The city in Iraq that is the country's main port, on the Shatt al-Arab. :: Basra
+
+## 400
+The capital of Mongolia. :: Ulaanbaatar
+The capital of Kyrgyzstan. :: Bishkek
+The capital of Tajikistan. :: Dushanbe
+The capital of Turkmenistan. :: Ashgabat
+The capital of Armenia. :: Yerevan
+The capital of Slovakia. :: Bratislava
+The capital of Slovenia. :: Ljubljana
+The capital of Croatia. :: Zagreb
+The capital of Serbia. :: Belgrade
+The capital of Bosnia and Herzegovina. :: Sarajevo
+The capital of Albania. :: Tirana
+The capital of Bulgaria. :: Sofia
+The capital of Lithuania. :: Vilnius
+The capital of Latvia. :: Riga
+The capital of Estonia. :: Tallinn
+The capital of Belarus. :: Minsk
+The capital of Moldova. :: Chișinău
+The capital of Ecuador. :: Quito
+The capital of Bolivia where the government sits. :: La Paz
+The constitutional capital of Bolivia. :: Sucre
+The capital of Paraguay. :: Asunción
+The capital of Uruguay. :: Montevideo
+The capital of Côte d'Ivoire. :: Yamoussoukro
+The capital of Cameroon. :: Yaoundé
+The capital of Uganda. :: Kampala
+The capital of Rwanda. :: Kigali
+The capital of Zimbabwe. :: Harare
+The capital of Zambia. :: Lusaka
+The capital of Angola. :: Luanda
+The capital of Madagascar. :: Antananarivo
+The capital of Djibouti. :: Djibouti City
+The capital of Eritrea. :: Asmara
+The capital of Chad. :: N'Djamena
+The capital of Niger. :: Niamey
+The capital of Mali. :: Bamako
+The capital of Laos. :: Vientiane
+The capital of Cambodia. :: Phnom Penh
+The capital of Brunei. :: Bandar Seri Begawan
+The capital of Papua New Guinea. :: Port Moresby
+The capital of Jamaica. :: Kingston
+The river that flows through Raqqa and Fallujah. :: The Euphrates
+The Euphrates rises in this country. :: Turkey
+The large dam on the Euphrates in Turkey. :: Atatürk Dam
+The river that forms part of the border between Iraq and Iran before the Gulf. :: Shatt al-Arab
+The river that flows into the Dead Sea. :: The Jordan River
+The lake in Israel and Syria's border region fed by the Jordan River. :: Sea of Galilee (Lake Tiberias)
+The source lake of the Blue Nile, in Ethiopia. :: Lake Tana
+The artificial lake behind the Aswan High Dam. :: Lake Nasser
+The river that flows through Damascus. :: The Barada
+The longest river in France. :: The Loire
+The river that flows through Cologne and Basel. :: The Rhine
+The river that flows through Warsaw. :: The Vistula
+The river on which Kyiv stands. :: The Dnieper
+The longest river in Australia. :: The Murray
+The river that flows through Lahore. :: The Ravi
+The meaning of the name Punjab. :: Five rivers (five waters)
+The great river of Pakistan. :: The Indus
+The river that flows through six countries and ends in a delta in southern Vietnam. :: The Mekong
+The river that flows through Bangkok. :: The Chao Phraya
+The second-longest river in China, called the Mother River. :: The Yellow River (Huang He)
+The highest mountain on the island of New Guinea. :: Puncak Jaya
+The highest mountain in Australia's mainland. :: Mount Kosciuszko
+The highest mountain in Turkey. :: Mount Ararat
+The highest mountain in Iran. :: Mount Damavand
+The highest mountain in Saudi Arabia. :: Jabal Sawda (or Jabal Ferwa)
+The mountain range along the western Arabian Peninsula. :: The Sarawat Mountains
+The mountain range in Oman. :: The Hajar Mountains
+The mountain in Ras Al Khaimah with the highest point in the UAE. :: Jebel Jais
+The highest mountain in South Korea, on Jeju Island. :: Hallasan
+The mountain range across northern Spain and southern France. :: The Pyrenees
+The mountain range that forms Italy's spine. :: The Apennines
+The large plateau north of the Himalayas. :: Tibetan Plateau
+The plateau that covers most of central Turkey. :: Anatolian Plateau
+The rift valley that runs from Syria to Mozambique. :: Great Rift Valley
+The Dead Sea lies in this rift valley. :: Jordan Rift Valley (Great Rift Valley)
+The ocean current that warms western Europe. :: Gulf Stream
+The cold ocean current off Peru. :: Humboldt Current
+The periodic warming of the eastern Pacific that changes world weather. :: El Niño
+The sea between Italy and the Balkans. :: The Adriatic Sea
+The sea between Greece and Turkey. :: The Aegean Sea
+The sea north of Poland and Germany. :: The Baltic Sea
+The sea between the Korean Peninsula and Japan. :: Sea of Japan (East Sea)
+The sea between the Philippines and Vietnam. :: South China Sea
+The sea in the Atlantic with no coastline, near Bermuda. :: Sargasso Sea
+The large bay in north-east Canada. :: Hudson Bay
+The largest bay in the world. :: Bay of Bengal
+The country made of 7,000-plus islands, including Luzon and Mindanao. :: The Philippines
+The island divided between Indonesia, Malaysia and Brunei. :: Borneo
+The island divided between Haiti and the Dominican Republic. :: Hispaniola
+The island divided between Indonesia and Papua New Guinea. :: New Guinea
+The island divided between Indonesia and Timor-Leste. :: Timor
+The world's most populous island. :: Java
+The archipelago in the Arabian Sea belonging to Yemen, famous for dragon's blood trees. :: Socotra
+The largest island in the Mediterranean. :: Sicily
+The largest island in the Arabian Gulf. :: Qeshm
+The country directly across the Red Sea from Jeddah. :: Sudan
+The emirate that is the largest of the seven in the UAE. :: Abu Dhabi
+The capital of the Faroe Islands. :: Tórshavn
+The country whose capital is Port Louis. :: Mauritius
+The country whose capital is Victoria, in the Indian Ocean. :: Seychelles
+
+## 500
+The capital of Burkina Faso. :: Ouagadougou
+The capital of Burundi. :: Gitega
+The capital of Togo. :: Lomé
+The capital of Malawi. :: Lilongwe
+The capital of Botswana. :: Gaborone
+The capital of Namibia. :: Windhoek
+The capital of Lesotho. :: Maseru
+The capital of Eswatini where the government sits. :: Mbabane
+The capital of Gabon. :: Libreville
+The capital of the Central African Republic. :: Bangui
+The capital of South Sudan. :: Juba
+The capital of the Comoros. :: Moroni
+The capital of Sierra Leone. :: Freetown
+The capital of Liberia. :: Monrovia
+The capital of Guinea-Bissau. :: Bissau
+The capital of Bhutan. :: Thimphu
+The capital of Timor-Leste. :: Dili
+The capital of Kiribati. :: South Tarawa
+The capital of Vanuatu. :: Port Vila
+The capital of Samoa. :: Apia
+The capital of Suriname. :: Paramaribo
+The capital of Guyana. :: Georgetown
+The capital of Honduras. :: Tegucigalpa
+The capital of Belize. :: Belmopan
+The capital of North Macedonia. :: Skopje
+The capital of Montenegro. :: Podgorica
+The name Kazakhstan's capital used from 2019 to 2022. :: Nur-Sultan
+The former capital of Nigeria before Abuja. :: Lagos
+The former capital of Brazil before Brasília. :: Rio de Janeiro
+The former capital of Pakistan before Islamabad. :: Karachi
+The former capital of Turkey, the Ottoman capital. :: Istanbul
+The former capital of Tanzania, still its biggest city. :: Dar es Salaam
+The former capital of Myanmar. :: Yangon
+The former capital of Côte d'Ivoire, still its main city. :: Abidjan
+The former name of Sri Lanka. :: Ceylon
+The former name of Myanmar. :: Burma
+The former name of Thailand. :: Siam
+The former name of Iran used in the West until 1935. :: Persia
+The former name of Ghana. :: Gold Coast
+The former name of the Democratic Republic of the Congo from 1971 to 1997. :: Zaire
+The former name of Ho Chi Minh City. :: Saigon
+The former name of Mumbai. :: Bombay
+The former name of Istanbul under the Byzantines. :: Constantinople
+The former name of Tokyo. :: Edo
+The former name of Jakarta under the Dutch. :: Batavia
+The Pacific country that lies in all four hemispheres. :: Kiribati
+The country that changed sides of the International Date Line in 2011 to align with Australia. :: Samoa
+The country that has the longest land border with Saudi Arabia. :: Yemen
+The number of countries that share a land border with Saudi Arabia. :: Seven
+The only Gulf country that borders only Saudi Arabia by land. :: Qatar
+The country made of an Arabian Gulf archipelago of about 30 natural islands plus reclaimed ones. :: Bahrain
+The exclave of Oman at the tip of the Strait of Hormuz. :: Musandam
+The Omani exclave entirely surrounded by the UAE. :: Madha
+The UAE village inside Madha, an enclave within an enclave. :: Nahwa
+The Russian exclave between Poland and Lithuania. :: Kaliningrad
+The Azerbaijani exclave bordering Iran, Armenia and Turkey. :: Nakhchivan
+The two Spanish cities on the north coast of Africa. :: Ceuta and Melilla
+The British territory at the southern tip of Spain. :: Gibraltar
+The country that was split into two in 2011, creating Africa's newest state. :: Sudan
+The year East Timor (Timor-Leste) became independent. :: 2002
+The deepest canyon in the world by some measures, in Tibet. :: Yarlung Tsangpo Grand Canyon
+The world's largest sand island, in Queensland. :: K'gari (Fraser Island)
+The giant red rock in central Australia. :: Uluru
+The highest navigable pass in the Himalayas linking Pakistan and China by road. :: Khunjerab Pass
+The road that crosses the Khunjerab Pass. :: Karakoram Highway
+The pass between Afghanistan and Pakistan famous in history. :: Khyber Pass
+The active volcano in Sicily, Europe's tallest active volcano. :: Mount Etna
+The Icelandic volcano whose 2010 eruption grounded flights across Europe. :: Eyjafjallajökull
+The volcano whose 1883 eruption was heard thousands of kilometres away. :: Krakatoa
+The volcano whose 1815 eruption caused the 'Year Without a Summer'. :: Mount Tambora
+The colourful hot spring field in Ethiopia's Danakil Depression. :: Dallol
+The point on Earth farthest from the centre of the Earth. :: The summit of Chimborazo
+Chimborazo is in this country. :: Ecuador
+The largest desert in the world, counting cold deserts. :: Antarctica
+The largest country in the world with no permanent rivers. :: Saudi Arabia
+The largest continuous sand desert, in Arabia. :: Rub' al Khali
+The sand desert in Oman's east, near the coast. :: Wahiba Sands (Sharqiya Sands)
+The salt flat in the UAE and Saudi border region near Liwa. :: Sabkhat Matti
+The oasis region in Abu Dhabi famous for giant dunes like Moreeb. :: Liwa Oasis
+The Chinese basin with the Taklamakan Desert. :: Tarim Basin
+The country with the city of Timbuktu. :: Mali
+The country with the ancient city of Samarkand. :: Uzbekistan
+The country with the ancient city of Persepolis. :: Iran
+The country with the ancient city of Carthage. :: Tunisia
+The country with the ancient city of Leptis Magna. :: Libya
+The country with the ancient city of Babylon. :: Iraq
+The country with the ancient city of Palmyra. :: Syria
+The country with the ancient city of Baalbek. :: Lebanon
+The country with the ancient city of Ephesus. :: Turkey
+The country with the ancient Incan city of Machu Picchu. :: Peru
+The country with Angkor Wat. :: Cambodia
+The country with the Mayan city of Chichén Itzá. :: Mexico
+The country with the rock-hewn churches of Lalibela. :: Ethiopia
+The country with the ancient city of Shibam, the 'Manhattan of the Desert'. :: Yemen
+The mountain fortress city in Oman famous for its round tower. :: Nizwa
+The Iranian city famous for its 'half the world' square. :: Isfahan
+The Turkish region famous for fairy chimneys and hot-air balloons. :: Cappadocia
+The Jordanian desert valley also called the Valley of the Moon. :: Wadi Rum
+The city at the northern tip of the Gulf of Aqaba in Jordan. :: Aqaba
+The Egyptian city at the southern tip of Sinai, a resort on the Red Sea. :: Sharm El Sheikh

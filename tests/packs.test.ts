@@ -1,0 +1,74 @@
+import { describe, expect, it } from 'vitest'
+import { existsSync, readdirSync, readFileSync } from 'node:fs'
+import { join } from 'node:path'
+// @ts-expect-error plain JS build script
+import { parsePack, mergeArabic } from '../scripts/build-packs.mjs'
+
+const dir = join(__dirname, '..', 'questions')
+
+describe('question file parser', () => {
+  it('reads a valid file', () => {
+    const r = parsePack('id: t\nname: T\nnameAr: ت\ngroup: cces\n## 100\nA? :: a\n## 200\nB? :: b\n## 300\nC? :: c\n## 400\nD? :: d\n## 500\nE? :: e\n')
+    expect(r.errors).toEqual([])
+    expect(r.meta).toEqual({ id: 't', name: 'T', nameAr: 'ت', group: 'cces' })
+    expect(r.levels.map((l: unknown[]) => l.length)).toEqual([1, 1, 1, 1, 1])
+  })
+  it('reports every kind of problem', () => {
+    const r = parsePack('name: T\nbefore :: x\n## 100\nno separator\na :: \nx :: y :: z\nSame clue! :: 1\nsame clue :: 2\n## 600\n', 'f')
+    const all = r.errors.join('\n')
+    expect(all).toMatch(/invalid "id:"/)
+    expect(all).toMatch(/before any "## level"/)
+    expect(all).toMatch(/exactly one " :: "/)
+    expect(all).toMatch(/empty clue or answer/)
+    expect(all).toMatch(/duplicate clue/)
+    expect(all).toMatch(/unknown level "600"/)
+    expect(all).toMatch(/level 200 has 0 questions/)
+    expect(all).toMatch(/"group:" must be one of/)
+  })
+})
+
+describe('answers that contain "::"', () => {
+  it('only a standalone " :: " separates clue and answer, so IPv6 addresses work', () => {
+    const r = parsePack('id: t\nname: T\ngroup: cces\n## 100\nLoopback? :: ::1\n## 200\nPrefix? :: fe80::/10\n## 300\nC? :: c\n## 400\nD? :: d\n## 500\nE? :: 2001:db8::1\n')
+    expect(r.errors).toEqual([])
+    expect(r.levels[0][0]).toEqual({ q: 'Loopback?', a: '::1' })
+    expect(r.levels[4][0].a).toBe('2001:db8::1')
+  })
+})
+
+describe('Arabic question files', () => {
+  const en = parsePack('id: t\nname: T\ngroup: general\n## 100\nOne :: 1938\nTwo :: b\n## 200\nB :: b\n## 300\nC :: c\n## 400\nD :: d\n## 500\nE :: e\n').levels
+  it('pairs each Arabic line with its English question', () => {
+    const r = mergeArabic(en, '## 100\nواحد :: ١٩٣٨\nاثنان :: ب\n## 200\nب :: ب\n## 300\nج :: ج\n## 400\nد :: د\n## 500\nه :: ه\n')
+    expect(r.errors).toEqual([])
+    expect(r.levels[0][0]).toEqual({ q: 'One', a: '1938', qAr: 'واحد', aAr: '١٩٣٨' })
+    expect(r.levels[0][1].aAr).toBe('ب')
+  })
+  it('catches missing lines and lines out of step', () => {
+    const short = mergeArabic(en, '## 100\nواحد :: 1938\n## 200\nب :: ب\n## 300\nج :: ج\n## 400\nد :: د\n## 500\nه :: ه\n')
+    expect(short.errors.join()).toMatch(/level 100 has 1 Arabic lines but 2/)
+    const swapped = mergeArabic(en, '## 100\nاثنان :: ب\nواحد :: 1938\n## 200\nب :: ب\n## 300\nج :: ج\n## 400\nد :: د\n## 500\nه :: ه\n')
+    expect(swapped.errors.join()).toMatch(/out of step/)
+    expect(mergeArabic(en, 'بلا عنوان :: x\n').errors.join()).toMatch(/before any/)
+  })
+})
+
+describe('built-in question files', () => {
+  const files = readdirSync(dir).filter((f) => f.endsWith('.txt'))
+  it('exist', () => expect(files.length).toBeGreaterThanOrEqual(6))
+  // CCES categories are English-only by the owner's choice; the others must have Arabic.
+  it('every group has categories and non-CCES files have Arabic', () => {
+    const groups = files.map((f) => /^group:\s*(\S+)/m.exec(readFileSync(join(dir, f), 'utf8'))?.[1])
+    for (const g of ['engineering', 'cces', 'general']) expect(groups).toContain(g)
+    files.forEach((f, i) => { if (groups[i] !== 'cces') expect(existsSync(join(dir, 'ar', f)), f).toBe(true) })
+  })
+  for (const f of files) {
+    it(`${f} has no problems`, () => {
+      const r = parsePack(readFileSync(join(dir, f), 'utf8'), f)
+      expect(r.errors).toEqual([])
+      expect(r.levels.map((l: unknown[]) => l.length)).toEqual([100, 100, 100, 100, 100])
+      const arPath = join(dir, 'ar', f)
+      if (existsSync(arPath)) expect(mergeArabic(r.levels, readFileSync(arPath, 'utf8'), f).errors).toEqual([])
+    })
+  }
+})

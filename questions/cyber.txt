@@ -1,0 +1,514 @@
+id: cyber
+name: Cybersecurity
+nameAr: الأمن السيبراني
+group: cces
+
+## 100
+Protecting computers, networks and data from attacks. :: Cybersecurity
+A secret word or phrase used to log in. :: Password
+Malicious software, shortened from two words. :: Malware
+A program that attaches itself to files and spreads when they are run. :: Virus
+Malware that spreads across networks on its own without user action. :: Worm
+Malware disguised as useful software, named after a wooden horse. :: Trojan horse
+Malware that locks your files and demands payment. :: Ransomware
+Software that secretly watches what you do and steals information. :: Spyware
+Software that shows unwanted advertisements. :: Adware
+Software that detects and removes malware. :: Antivirus
+Fake emails that trick people into giving away passwords. :: Phishing
+Phishing aimed at one specific person or organisation. :: Spear phishing
+Phishing done through text messages. :: Smishing
+Phishing done through phone calls. :: Vishing
+Tricking people into breaking security rules, rather than hacking computers. :: Social engineering
+Following someone through a secure door without using your own pass. :: Tailgating
+Looking over someone's shoulder to see their password. :: Shoulder surfing
+A person who breaks into computer systems. :: Hacker
+An ethical hacker who tests systems with permission. :: White hat hacker
+A criminal hacker who breaks in for harm or profit. :: Black hat hacker
+Logging in with a password plus a second proof, such as a code on your phone. :: Two-factor authentication (2FA)
+Logging in with your fingerprint or face. :: Biometrics
+A program that stores and creates strong passwords for you. :: Password manager
+Scrambling data so only someone with the key can read it. :: Encryption
+Turning encrypted data back into readable form. :: Decryption
+The scrambled, unreadable form of a message. :: Ciphertext
+The readable form of a message before encryption. :: Plaintext
+The secret value used to encrypt and decrypt. :: Key
+The barrier that filters network traffic by rules. :: Firewall
+A secure tunnel over the internet, used on public Wi-Fi. :: VPN
+The "S" in HTTPS stands for this. :: Secure
+A weakness that an attacker could use. :: Vulnerability
+A piece of code or technique that takes advantage of a weakness. :: Exploit
+A software update that fixes a security weakness. :: Patch
+A weakness that is unknown to the maker and has no fix yet. :: Zero-day
+A network of infected computers controlled by an attacker. :: Botnet
+An infected computer in a botnet. :: Zombie (bot)
+Flooding a service from many computers to knock it offline. :: DDoS attack
+Secretly recording every key a user presses. :: Keylogging
+An attack that tries every possible password. :: Brute-force attack
+An attack that tries common words as passwords. :: Dictionary attack
+The most common weak password in many leaked lists. :: 123456
+Using stolen passwords from one site to log into other sites. :: Credential stuffing
+An attacker secretly placing themselves between two people talking. :: Man-in-the-middle attack
+Pretending to be someone or something else, such as faking an email address. :: Spoofing
+A website that looks like a real one to steal logins. :: Fake (spoofed) website
+Unwanted junk email. :: Spam
+A test that checks you are human, with wobbly letters or pictures. :: CAPTCHA
+A secret way into a system that bypasses normal login. :: Backdoor
+Malware that hides deep in a system to keep control. :: Rootkit
+Code that triggers its damage on a certain date or event. :: Logic bomb
+A copy of important data stored separately in case of attack. :: Backup
+The rule of keeping three copies of data on two kinds of media with one offsite. :: 3-2-1 backup rule
+The three goals of information security: confidentiality, integrity and this. :: Availability
+The goal that only authorised people can read data. :: Confidentiality
+The goal that data is not changed without permission. :: Integrity
+Proving who you are to a system. :: Authentication
+Deciding what an authenticated user is allowed to do. :: Authorisation
+The principle of giving users only the access they need. :: Least privilege
+Keeping a record of who did what on a system. :: Logging (auditing)
+The insider who poses a risk from within an organisation. :: Insider threat
+Data that can identify a person, shortened to three letters. :: PII
+An event in which private data is stolen or exposed. :: Data breach
+A fake system set up to attract and study attackers. :: Honeypot
+Testing a system's defences by attacking it with permission. :: Penetration testing
+A team that plays the attacker in a security exercise. :: Red team
+A team that defends in a security exercise. :: Blue team
+A contest in which teams solve security puzzles to find hidden flags. :: Capture the flag (CTF)
+The Saudi national body responsible for cybersecurity, shortened to four letters. :: NCA
+The Saudi federation that runs cybersecurity and programming competitions and camps. :: SAFCSP
+Public Wi-Fi is risky because attackers can do this to the traffic. :: Eavesdrop (sniff)
+Clicking an unknown link in a message can lead to this. :: Malware infection (phishing site)
+The small file that stores login sessions in a browser and can be stolen. :: Cookie
+Turning this setting off on a phone stops strangers from sending you files nearby. :: Bluetooth (AirDrop)
+A plug-in device that records keystrokes from a keyboard cable. :: Hardware keylogger
+Locking a computer screen when you walk away prevents this. :: Unauthorised access
+The type of attack that leaves infected USB sticks in a car park for people to find. :: Baiting
+A message that falsely claims your account will be closed unless you act now uses this trick. :: Urgency (pressure)
+Checking the sender's address and links before clicking helps stop this attack. :: Phishing
+A long password made of several random words. :: Passphrase
+The famous 2017 ransomware that hit hospitals in the UK. :: WannaCry
+The cryptocurrency often demanded in ransomware attacks. :: Bitcoin
+The deep part of the internet reached with special software such as Tor. :: Dark web
+The browser that routes traffic through many relays to hide the user. :: Tor Browser
+A file's unique fingerprint made with a hash function. :: Hash
+A digital document that proves a website's identity. :: Digital certificate
+The lock icon in the browser means the connection is this. :: Encrypted
+Software that monitors a network for suspicious activity, shortened to three letters. :: IDS
+Software that blocks suspicious activity automatically, shortened to three letters. :: IPS
+A team that responds to security incidents, shortened to four letters. :: CERT (or CSIRT)
+A centre that watches an organisation's security around the clock, shortened to three letters. :: SOC
+Malware that uses the computer to mine cryptocurrency secretly. :: Cryptojacking
+The practice of checking a file in a safe, isolated space before trusting it. :: Sandboxing
+Hiding a secret message inside a picture or sound file. :: Steganography
+The science of writing secret codes. :: Cryptography
+The ancient cipher that shifts each letter by a fixed number. :: Caesar cipher
+The German cipher machine broken by codebreakers in the Second World War. :: Enigma
+The British mathematician who helped break Enigma at Bletchley Park. :: Alan Turing
+A code that changes every 30 seconds in an authenticator app, shortened to four letters. :: TOTP
+The setting that installs security fixes without the user having to remember. :: Automatic updates
+
+## 200
+The three-letter acronym for the core security goals of confidentiality, integrity and availability. :: CIA triad
+Encryption that uses the same key to lock and unlock. :: Symmetric encryption
+Encryption that uses a public key and a private key. :: Asymmetric encryption
+The widely used symmetric cipher chosen as a US standard in 2001. :: AES
+The key sizes allowed by AES, in bits: 128, 192 and this. :: 256
+The block size of AES, in bits. :: 128
+The old US encryption standard with a 56-bit key, replaced by AES. :: DES
+The asymmetric algorithm named after Rivest, Shamir and Adleman. :: RSA
+The hard maths problem on which RSA's security rests. :: Factoring large numbers
+The family of public-key methods based on curves, shortened to three letters. :: ECC
+The key exchange method published in 1976 that lets two strangers agree on a secret. :: Diffie–Hellman
+A one-way function that turns any data into a fixed-length fingerprint. :: Hash function
+The widely used hash function whose output is 256 bits. :: SHA-256
+The old hash function, broken for collisions, whose output is 128 bits. :: MD5
+Two different inputs that give the same hash. :: Collision
+Random data added to a password before hashing. :: Salt
+A precomputed table of hashes used to crack unsalted passwords. :: Rainbow table
+The slow password-hashing function based on Blowfish. :: bcrypt
+The password-hashing function that won a 2015 competition. :: Argon2
+A value that proves who signed a message and that it was not changed. :: Digital signature
+A keyed hash used to check message integrity, shortened to four letters. :: HMAC
+The system of certificates and authorities that supports public keys, shortened to three letters. :: PKI
+A trusted organisation that issues digital certificates. :: Certificate authority
+A list of certificates that were cancelled before expiry, shortened to three letters. :: CRL
+The online protocol for checking whether a certificate is revoked. :: OCSP
+The property that past sessions stay safe even if a long-term key is later stolen. :: Forward secrecy
+The attack that injects database commands through input fields. :: SQL injection
+The classic SQL injection text that makes a condition always true. :: ' OR '1'='1
+The attack that runs an attacker's script in another user's browser. :: Cross-site scripting (XSS)
+The attack that tricks a logged-in user's browser into sending an unwanted request. :: Cross-site request forgery (CSRF)
+The secret value added to forms to stop CSRF. :: CSRF token (anti-forgery token)
+The attack that writes past the end of a memory buffer. :: Buffer overflow
+The attack that makes a server fetch internal URLs on the attacker's behalf, shortened to four letters. :: SSRF
+The attack that reads files outside the intended folder using "../". :: Path traversal
+The attack that hides a real page under a fake button in an invisible frame. :: Clickjacking
+The attack that makes a server run system commands through input. :: Command injection
+The organisation that publishes the "Top 10" web application risks. :: OWASP
+The browser rule that stops a page from reading data from another site. :: Same-origin policy
+The HTTP header that tells the browser which script sources are allowed. :: Content-Security-Policy (CSP)
+The cookie attribute that stops JavaScript from reading a cookie. :: HttpOnly
+The cookie attribute that sends the cookie only over HTTPS. :: Secure
+The cookie attribute that limits sending cookies on cross-site requests. :: SameSite
+Stealing a valid session ID to impersonate a user. :: Session hijacking
+Checking and cleaning user input before using it. :: Input validation
+Converting special characters so the browser shows them as text, such as < into &lt;. :: Output encoding (escaping)
+The access model in which permissions are given to roles rather than people. :: Role-based access control (RBAC)
+The access model in which the system enforces labels such as "Secret". :: Mandatory access control (MAC)
+The security model that trusts no device or user by default, even inside the network. :: Zero trust
+Layering several defences so one failure does not expose everything. :: Defence in depth
+The network zone that holds public servers between the internet and the internal network. :: DMZ
+A firewall that tracks connections and allows replies automatically. :: Stateful firewall
+A firewall designed to protect websites from attacks such as XSS. :: Web application firewall (WAF)
+A system that collects and analyses logs from many sources, shortened to four letters. :: SIEM
+The software on laptops and servers that detects and responds to threats, shortened to three letters. :: EDR
+The public list of known vulnerabilities, each with an ID like CVE-2021-44228. :: CVE
+The scoring system that rates vulnerabilities from 0 to 10. :: CVSS
+The 2021 vulnerability in a Java logging library, rated 10.0. :: Log4Shell
+The 2014 OpenSSL bug that leaked memory from servers. :: Heartbleed
+The worm discovered in 2010 that damaged Iranian nuclear centrifuges. :: Stuxnet
+The malware that wiped about 30,000 Saudi Aramco computers in 2012. :: Shamoon
+The 2017 attack, disguised as ransomware, that spread from Ukrainian accounting software. :: NotPetya
+The 2020 supply-chain attack that hid malware in network management software updates. :: SolarWinds (Sunburst)
+An attack that compromises a trusted supplier to reach its customers. :: Supply-chain attack
+A long, stealthy campaign by a well-funded group, shortened to three letters. :: APT
+The stages of an attack described by Lockheed Martin. :: Cyber kill chain
+The knowledge base of attacker tactics and techniques from MITRE. :: ATT&CK
+Signs that a system has been compromised, such as a bad IP address, shortened to three letters. :: IOC
+The first step in an incident response plan, after preparation. :: Identification (detection)
+Isolating an infected machine to stop the attack spreading. :: Containment
+Making an exact copy of a disk for investigation. :: Forensic image
+The record that shows who handled evidence and when. :: Chain of custody
+Software that scans systems for known weaknesses. :: Vulnerability scanner
+The penetration-testing framework with many ready-made exploits. :: Metasploit
+The tool that intercepts and modifies web traffic for testing. :: Burp Suite
+The password-cracking tool named after a famous ripper. :: John the Ripper
+The fast GPU password-cracking tool. :: Hashcat
+The Linux distribution made for penetration testing. :: Kali Linux
+Collecting public information about a target before an attack, shortened to five letters. :: OSINT
+Rules attackers or defenders write to match malware patterns, named after a fruit. :: YARA rules
+Testing in which the tester knows nothing about the system's internals. :: Black-box testing
+Testing in which the tester has full access to source code. :: White-box testing
+Sending random or malformed input to find crashes. :: Fuzzing
+A reward paid by companies to people who report security flaws. :: Bug bounty
+Telling a vendor about a flaw privately and giving them time to fix it. :: Responsible (coordinated) disclosure
+The Wi-Fi security protocol introduced in 2018. :: WPA3
+The protocol that lets you log into one service using an account from another, such as "Sign in with Google". :: OAuth (OpenID Connect)
+The standard for passwordless logins with passkeys, from the FIDO Alliance. :: FIDO2 (WebAuthn)
+A login credential stored on your device that replaces passwords. :: Passkey
+The short-lived token format used in web APIs, made of three dot-separated parts. :: JWT
+Logging in once to reach many services. :: Single sign-on (SSO)
+The standard set of controls for securing card payments. :: PCI DSS
+The international standard for information security management systems. :: ISO 27001
+The Saudi NCA framework of essential cybersecurity controls, shortened to three letters. :: ECC
+The year Saudi Arabia established the National Cybersecurity Authority. :: 2017
+The Saudi law that protects personal data, shortened to four letters. :: PDPL
+The 1988 program that was the first worm to spread widely on the internet. :: Morris worm
+The 2000 email worm that spread with the subject line "ILOVEYOU". :: ILOVEYOU (Love Bug)
+The attack in which an attacker reuses a captured message to repeat an action. :: Replay attack
+The process of removing unneeded services and settings to reduce a system's attack surface. :: Hardening
+The sum of all the points where an attacker could try to get in. :: Attack surface
+
+## 300
+The block cipher mode that encrypts identical blocks to identical outputs, revealing patterns. :: ECB
+The famous image that shows why ECB mode is unsafe. :: ECB penguin (Tux)
+The block cipher mode that XORs each block with the previous ciphertext block. :: CBC
+The random starting value used in CBC mode. :: Initialisation vector (IV)
+The authenticated encryption mode widely used in TLS, combining counter mode with a hash. :: GCM
+The stream cipher designed by Daniel Bernstein, used with Poly1305 in TLS. :: ChaCha20
+The one cipher proven to be perfectly secure, if the key is truly random and never reused. :: One-time pad
+The attack that decrypts CBC data by watching whether padding errors occur. :: Padding oracle attack
+The property of a hash that makes it hard to find any input for a given output. :: Preimage resistance
+The birthday bound says a collision in an n-bit hash takes about 2 to this many tries. :: n/2
+The year Google and CWI announced the first practical SHA-1 collision. :: 2017
+The name of the 2017 SHA-1 collision project. :: SHAttered
+The hash standard selected in 2012 from the Keccak design. :: SHA-3
+The key derivation function that repeats HMAC many times, from PKCS #5. :: PBKDF2
+The two primes multiplied together to make an RSA modulus are called p and this. :: q
+The public exponent most RSA keys use. :: 65,537
+The padding scheme that makes RSA encryption secure against chosen-ciphertext attacks. :: OAEP
+The 1998 attack on RSA PKCS #1 v1.5 padding, by Daniel Bleichenbacher. :: Bleichenbacher's attack (million-message attack)
+The elliptic curve designed by Daniel Bernstein, used in modern key exchange. :: Curve25519
+The signature scheme based on Curve25519's twisted Edwards form. :: Ed25519
+The signature algorithm whose reuse of a random value let hackers extract Sony's PlayStation 3 key. :: ECDSA
+The US agency's random-number generator suspected of containing a backdoor, withdrawn in 2014. :: Dual_EC_DRBG
+The quantum algorithm that would break RSA and elliptic-curve cryptography. :: Shor's algorithm
+The cryptography designed to resist quantum computers. :: Post-quantum cryptography
+The lattice-based key encapsulation standard chosen by NIST in 2024, formerly called Kyber. :: ML-KEM
+The lattice-based signature standard chosen by NIST in 2024, formerly called Dilithium. :: ML-DSA
+The threat of collecting encrypted data now to decrypt it once quantum computers exist. :: Harvest now, decrypt later
+The cryptographic technique that lets someone prove they know a secret without revealing it. :: Zero-knowledge proof
+Encryption that allows computing on encrypted data without decrypting it. :: Homomorphic encryption
+The method that splits a secret into parts so that any k of n parts rebuild it. :: Shamir's secret sharing
+The attack that guesses secrets by measuring how long operations take. :: Timing attack
+The attack that learns keys by measuring a device's power use. :: Power analysis (side-channel attack)
+The attack that freezes memory chips to read keys after power off. :: Cold boot attack
+The TLS downgrade attack of 2015 that forced weak "export-grade" Diffie–Hellman. :: Logjam
+The 2015 attack that forced TLS to use 512-bit export RSA keys. :: FREAK
+The 2011 attack on TLS 1.0's CBC mode by Duong and Rizzo. :: BEAST
+The attack on TLS compression that recovers secrets from compressed sizes. :: CRIME
+The memory-safety flaw in which a program uses memory after it has been freed. :: Use-after-free
+The flaw in which a program frees the same memory twice. :: Double free
+The flaw in which a format string such as %n is taken from user input. :: Format string vulnerability
+The flaw in which an arithmetic result wraps around the largest value. :: Integer overflow
+The value placed before a return address to detect stack smashing. :: Stack canary
+The exploit technique that chains small existing code snippets ending in "return". :: Return-oriented programming (ROP)
+The defence that marks the stack as not executable, also called NX. :: Data Execution Prevention (DEP)
+The defence that checks indirect jumps go only to valid targets. :: Control-flow integrity (CFI)
+The bug class in which code checks a file, then uses it after it may have changed. :: TOCTOU (time-of-check to time-of-use)
+The attack that tricks an XML parser into reading local files through external entities. :: XXE
+The attack that runs code by feeding crafted objects into a program's object loader. :: Insecure deserialisation
+The XSS type in which the script is saved on the server and served to every visitor. :: Stored XSS
+The XSS type in which the payload travels only in a link's URL. :: Reflected XSS
+The XSS type that happens entirely in the browser's JavaScript. :: DOM-based XSS
+The SQL injection technique that learns data from true-or-false page differences. :: Blind SQL injection
+The SQL injection technique that learns data from how long the database takes to respond. :: Time-based blind SQL injection
+The open-source tool that automates finding and exploiting SQL injection. :: sqlmap
+The flaw in which changing an ID in a URL lets a user see someone else's record, shortened to four letters. :: IDOR
+The OWASP Top 10 category that ranked first in 2021. :: Broken access control
+The attack in which a JWT is accepted with its algorithm set to "none". :: JWT "none" algorithm attack
+The OAuth parameter that protects against CSRF during login. :: state
+The extension to OAuth that protects public clients from code interception, shortened to four letters. :: PKCE
+The header that stops a page being framed by other sites. :: X-Frame-Options
+The browser feature that checks a script file has not been altered, using a hash. :: Subresource Integrity (SRI)
+The mechanism that lets a server allow certain other origins to read its responses. :: CORS
+The attack that tricks a user into installing a lookalike package with a misspelled name. :: Typosquatting
+The attack in which an internal package name is published publicly so the build pulls the attacker's version. :: Dependency confusion
+A list of all components in a piece of software, shortened to four letters. :: SBOM
+The security model that splits the network into small zones to limit spread. :: Microsegmentation
+The attack in which an attacker moves from one compromised machine to others. :: Lateral movement
+The technique of using a stolen password hash to log in on Windows without cracking it. :: Pass-the-hash
+The Windows authentication protocol that uses tickets. :: Kerberos
+The forged Kerberos ticket that gives near-unlimited access to a domain. :: Golden ticket
+The tool by Benjamin Delpy that pulls passwords from Windows memory. :: Mimikatz
+The attack that requests service tickets and cracks them offline. :: Kerberoasting
+The Windows directory service that attackers often target. :: Active Directory
+The technique of using a computer's built-in tools to avoid detection. :: Living off the land
+The server attackers use to control their malware remotely, shortened to two letters. :: C2 (command and control)
+The technique that hides command-and-control traffic inside DNS queries. :: DNS tunnelling
+The technique of rapidly changing domain names generated by code to reach C2 servers. :: Domain generation algorithm (DGA)
+The technique of quickly changing a domain's IP addresses to hide servers. :: Fast flux
+The malware analysis that studies a file without running it. :: Static analysis
+The malware analysis that runs a file in a sandbox and watches it. :: Dynamic analysis
+The free reverse-engineering tool released by the NSA in 2019. :: Ghidra
+The commercial disassembler widely used for reverse engineering. :: IDA Pro
+The website that scans a file with many antivirus engines. :: VirusTotal
+The technique malware uses to change its code each time it spreads. :: Polymorphism
+The tool that compresses or encrypts malware to hide it from scanners. :: Packer
+The memory forensics framework written in Python. :: Volatility
+The Windows feature that records detailed process and network activity, from Sysinternals. :: Sysmon
+The open-source network intrusion detection system created by Martin Roesch in 1998. :: Snort
+The model of security levels "no read up, no write down", designed for military secrecy. :: Bell–LaPadula model
+The integrity model "no read down, no write up". :: Biba model
+The commercial security model designed to prevent conflicts of interest. :: Brewer–Nash (Chinese Wall) model
+The principle that a system's security should not depend on keeping its design secret. :: Kerckhoffs's principle
+The two authors of the 1975 paper listing principles such as least privilege: Saltzer and this man. :: Michael Schroeder
+The Saudi NCA controls for critical systems, shortened to four letters. :: CSCC
+The attack that floods a switch with fake source addresses so it sends traffic to every port. :: MAC flooding
+The attack that sends forged ARP replies to redirect a network's traffic. :: ARP poisoning
+The attack that sets up a fake Wi-Fi access point with the same name as a real one. :: Evil twin
+The attack that guesses a Wi-Fi password offline after capturing the WPA2 handshake. :: Dictionary (handshake cracking) attack
+The attack that copies the radio signal of a car key fob to unlock the car. :: Relay attack
+The attack in which a website's DNS records are changed to point to an attacker's server. :: DNS hijacking
+
+## 400
+The three inventors of RSA published it in this year. :: 1977
+The British GCHQ mathematician who invented an RSA-like system in 1973, kept secret until 1997. :: Clifford Cocks
+The GCHQ researcher who first proposed "non-secret encryption" in 1970. :: James Ellis
+The two Stanford researchers who published "New Directions in Cryptography" in 1976. :: Whitfield Diffie and Martin Hellman
+The third researcher whose name some add to Diffie–Hellman for his idea of public key distribution. :: Ralph Merkle
+The year Diffie and Hellman received the Turing Award. :: 2015
+The year Rivest, Shamir and Adleman received the Turing Award. :: 2002
+The two Belgian cryptographers who designed Rijndael, which became AES. :: Joan Daemen and Vincent Rijmen
+The number of rounds in AES-128. :: 10
+The number of rounds in AES-256. :: 14
+The four steps of an AES round: SubBytes, ShiftRows, MixColumns and this. :: AddRoundKey
+The cipher that was the runner-up in the AES competition, by Ross Anderson, Eli Biham and Lars Knudsen. :: Serpent
+The cipher by Bruce Schneier that was an AES finalist. :: Twofish
+The block cipher structure used by DES, named after an IBM cryptographer. :: Feistel network
+The number of rounds in DES. :: 16
+The EFF machine that broke a DES key in 56 hours in 1998. :: Deep Crack
+The version of DES that runs DES three times. :: Triple DES (3DES)
+The stream cipher designed by Ron Rivest in 1987, now banned in TLS. :: RC4
+The 2001 attack that broke WEP's use of RC4: Fluhrer, Mantin and this man. :: Adi Shamir
+The block-cipher attack technique that Eli Biham and Adi Shamir published in 1990. :: Differential cryptanalysis
+The cryptanalysis technique introduced by Mitsuru Matsui in 1993 that broke DES with known plaintexts. :: Linear cryptanalysis
+The Polish mathematician who first broke Enigma in 1932. :: Marian Rejewski
+The electromechanical machine designed by Turing to find Enigma settings. :: Bombe
+The first programmable electronic computer, built to break the German Lorenz cipher. :: Colossus
+The engineer who built Colossus. :: Tommy Flowers
+The 9th-century Arab scholar who wrote the first known description of frequency analysis. :: Al-Kindi
+The 14th-century Arab scholar whose encyclopedia described many ciphers, rediscovered in modern times. :: Ibn al-Durayhim
+The French cipher of the 16th century that uses a keyword to shift letters by different amounts. :: Vigenère cipher
+The man who first published a general method of breaking the Vigenère cipher in 1863. :: Friedrich Kasiski
+The cipher used by the US Marines in the Pacific in the Second World War, based on a Native American language. :: Navajo code
+The American cryptanalyst who led the breaking of Japan's PURPLE cipher. :: William Friedman
+The founder of information theory who proved the one-time pad perfectly secure in 1949. :: Claude Shannon
+The two properties of a good cipher that Shannon named: confusion and this. :: Diffusion
+The 1990s US push to require government backdoors in encryption chips. :: Clipper chip
+The period in the 1990s of public battles over encryption export controls. :: Crypto Wars
+The programmer who released PGP in 1991. :: Phil Zimmermann
+The contractor who leaked NSA documents in 2013. :: Edward Snowden
+The NSA programme revealed in 2013 that collected data from tech companies. :: PRISM
+The secure messaging protocol by Open Whisper Systems used by WhatsApp. :: Signal Protocol
+The key-update algorithm in the Signal Protocol that gives each message a new key. :: Double Ratchet
+The 1983 film about a teenager who nearly starts a nuclear war by hacking, which prompted US policy. :: WarGames
+The 1986 US law that made unauthorised computer access a federal crime. :: Computer Fraud and Abuse Act
+The hacker caught in 1986 by astronomer Clifford Stoll, as told in "The Cuckoo's Egg". :: Markus Hess
+The famous American hacker arrested in 1995 after a long FBI chase. :: Kevin Mitnick
+The Cornell student who released the first internet worm in 1988. :: Robert Tappan Morris
+The share of internet computers the Morris worm infected, roughly, as a percentage. :: 10
+The 2003 worm that spread worldwide in about ten minutes through SQL Server. :: SQL Slammer
+The 2008 worm that infected millions of Windows computers and built a huge botnet. :: Conficker
+The banking malware family whose source code leaked in 2011. :: Zeus
+The 2013 ransomware that popularised demanding Bitcoin payments. :: CryptoLocker
+The NSA exploit leaked by the Shadow Brokers and used by WannaCry. :: EternalBlue
+The Windows protocol flaw EternalBlue targeted. :: SMBv1
+The researcher who stopped WannaCry by registering a "kill switch" domain. :: Marcus Hutchins
+The 2013 data breach at a US retailer that began through a heating contractor's access. :: Target
+The 2017 breach of a US credit agency that exposed about 147 million people's data. :: Equifax
+The 2014 hack of a film studio linked to North Korea. :: Sony Pictures
+The 2015 attack that cut power to about 230,000 people in Ukraine. :: Ukrainian power grid attack
+The malware of 2017 designed to attack safety systems at a Saudi petrochemical plant. :: Triton (Trisis)
+The newer version of Shamoon that struck Saudi organisations in 2016 and 2018. :: Shamoon 2 (and 3)
+The 2021 ransomware attack that shut down a major US fuel pipeline. :: Colonial Pipeline
+The ransomware gang behind the Colonial Pipeline attack. :: DarkSide
+The 2021 attack on a US software firm's remote management tool that spread ransomware to about 1,500 businesses. :: Kaseya
+The spyware made by Israel's NSO Group. :: Pegasus
+The 2021 zero-click iPhone exploit used by Pegasus that abused image parsing. :: FORCEDENTRY
+The 2018 Facebook breach exploited a bug in this feature that let users see their profile as others do. :: "View As"
+The 2019 breach at Capital One was caused by this cloud server-side attack. :: SSRF
+The 2023 file-transfer software flaw that the Cl0p gang used to steal data from hundreds of organisations. :: MOVEit
+The 2024 backdoor hidden in a Linux compression library. :: XZ Utils backdoor
+The 2020 attack that compromised Twitter accounts of Barack Obama and Elon Musk. :: Twitter Bitcoin scam (2020 Twitter hack)
+The conference in Las Vegas that is the world's best-known hacker gathering. :: DEF CON
+The large cybersecurity conference held in Riyadh every year since 2022. :: Black Hat MEA
+The framework from NIST with five functions: identify, protect, detect, respond and recover. :: NIST Cybersecurity Framework
+The sixth function added to the NIST Cybersecurity Framework in version 2.0 in 2024. :: Govern
+The EU directive on network and information security updated in 2022. :: NIS2
+The Common Criteria levels of evaluation assurance are known by these three letters. :: EAL
+The US government standard for cryptographic modules. :: FIPS 140
+The US agency that publishes the Known Exploited Vulnerabilities catalogue. :: CISA
+The computer security incident response team set up at Carnegie Mellon after the Morris worm. :: CERT/CC
+The non-profit that runs the CVE program. :: MITRE
+The year the CVE list was launched. :: 1999
+The original author of the Metasploit Framework. :: H. D. Moore
+The creator of the Nmap scanner. :: Gordon Lyon (Fyodor)
+The researchers who demonstrated the remote hack of a Jeep Cherokee in 2015: Charlie Miller and this man. :: Chris Valasek
+The mobile phone attack that tricks a carrier into moving a number to a new SIM. :: SIM swapping
+The approach of automating responses to alerts with playbooks, shortened to four letters. :: SOAR
+The combination of endpoint, network and cloud detection in one platform, shortened to three letters. :: XDR
+The protocol for sharing threat intelligence in structured form, paired with TAXII. :: STIX
+The pyramid model of indicators that ranks hashes at the bottom and TTPs at the top. :: Pyramid of Pain
+The analyst who created the Pyramid of Pain. :: David Bianco
+The model with four corners, adversary, capability, infrastructure and victim. :: Diamond Model
+The privacy-enhancing technique that tests whether two sets share items without revealing them, shortened to three letters. :: PSI (private set intersection)
+The 1949 paper in which Shannon laid the foundations of modern cryptography: "Communication Theory of" this. :: Secrecy Systems
+The cryptographer who wrote "Applied Cryptography" in 1994. :: Bruce Schneier
+The Israeli cryptographer who is the "S" in RSA. :: Adi Shamir
+The MIT cryptographer who is the "R" in RSA and designed the MD5 hash. :: Ron Rivest
+The 2004 researcher who led the team that found practical MD5 collisions. :: Wang Xiaoyun
+The malware of 2012, related to Stuxnet, that forged a Microsoft certificate using an MD5 collision. :: Flame
+The 2016 heist that used the SWIFT network to steal 81 million dollars from Bangladesh's central bank. :: Bangladesh Bank heist
+The North Korean group blamed for the Sony hack and WannaCry. :: Lazarus Group
+The Russian intelligence group, also called Fancy Bear, by its industry number. :: APT28
+
+## 500
+The result of encrypting the letter A with a Caesar shift of 3. :: D
+The ROT13 encoding of the word "HELLO". :: URYYB
+The number of possible keys in a Caesar cipher on the English alphabet, excluding the identity. :: 25
+The number of possible keys in a general substitution cipher on 26 letters. :: 26! (about 4 × 10²⁶)
+The most common letter in English text, used in frequency analysis. :: E
+The most common letter in Arabic text, used in frequency analysis. :: Alif (ا)
+The number of rotors in the standard Wehrmacht Enigma machine in use at one time. :: 3
+The rule of the Enigma machine that helped codebreakers: a letter could never be encrypted as this. :: Itself
+The number of bits of security of a 128-bit key against brute force on a classical computer. :: 128
+The effective security, in bits, of a 128-bit symmetric key against Grover's quantum search. :: 64
+The number of bits of security offered by a 256-bit elliptic-curve key, roughly. :: 128
+The RSA modulus length, in bits, that gives about 128 bits of security. :: 3,072
+The largest RSA number factored publicly by 2020, RSA-250, has this many decimal digits. :: 250
+The number of possible 8-character passwords using only lowercase letters, roughly. :: 208 billion
+The number of possible 4-digit PINs. :: 10,000
+The bits of entropy in a password chosen at random from 94 printable characters, per character, rounded to one decimal. :: 6.6
+The bits of entropy in a 4-word passphrase chosen from a 7,776-word Diceware list, roughly. :: 51.7
+The number of words in the standard Diceware list. :: 7,776
+The length, in hexadecimal characters, of a SHA-256 hash. :: 64
+The length, in hexadecimal characters, of an MD5 hash. :: 32
+The output size, in bits, of SHA-1. :: 160
+The number of people needed for a 50 percent chance that two share a birthday. :: 23
+The number of hash attempts to find an MD5 collision by the birthday bound alone. :: 2⁶⁴
+The number of key-setup rounds that a bcrypt cost factor of 12 means. :: 4,096
+The cost factor of a bcrypt hash that begins with "$2b$10$". :: 10
+The prefix that identifies an Argon2id hash in its encoded form. :: $argon2id$
+The salt length NIST recommends at minimum, in bits. :: 32
+The minimum password length NIST's 2024 guidance requires when a password is the only factor. :: 15
+The minimum number of characters NIST requires verifiers to accept as a maximum password length. :: 64
+The value of 3⁴ mod 7, as used in modular exponentiation for Diffie–Hellman. :: 4
+The shared secret when Alice and Bob use p = 23, g = 5 and private keys 6 and 15. :: 2
+Euler's totient of 15. :: 8
+Euler's totient of a prime p. :: p − 1
+The RSA private exponent d when p = 3, q = 11 and e = 7. :: 3
+The RSA modulus n when p = 61 and q = 53. :: 3,233
+The RSA ciphertext of the message 4 with e = 3 and n = 33. :: 31
+The modular inverse of 3 modulo 7. :: 5
+The theorem that a^(p−1) ≡ 1 mod p for a prime p and a not divisible by p. :: Fermat's little theorem
+The theorem used to speed up RSA decryption by working modulo p and q separately. :: Chinese remainder theorem
+The value of 7 XOR 5. :: 2
+The output of XORing any value with itself. :: 0
+The CVSS v3 score range that counts as "Critical". :: 9.0 to 10.0
+The CVSS v3 score range that counts as "High". :: 7.0 to 8.9
+The CVSS score given to Log4Shell. :: 10.0
+The CVE number of Log4Shell. :: CVE-2021-44228
+The CVE number of Heartbleed. :: CVE-2014-0160
+The Microsoft bulletin number of EternalBlue's patch. :: MS17-010
+The TCP port EternalBlue attacked. :: 445
+The port used by SMB over NetBIOS sessions in older Windows networks. :: 139
+The TCP port of LDAP. :: 389
+The TCP port of LDAPS. :: 636
+The TCP port of Kerberos. :: 88
+The TCP port of MySQL, often found exposed by scanners. :: 3306
+The Nmap option that runs a SYN "half-open" scan. :: -sS
+The Nmap option that detects service versions. :: -sV
+The Nmap option that detects the operating system. :: -O
+The number of TCP ports Nmap scans by default. :: 1,000
+The hashcat mode number for NTLM hashes. :: 1000
+The hashcat mode number for MD5. :: 0
+The Windows event ID for a successful logon. :: 4624
+The Windows event ID for a failed logon. :: 4625
+The Windows event ID recorded when a scheduled task is created. :: 4698
+The Windows event ID when the security audit log is cleared. :: 1102
+The Linux file that stores password hashes. :: /etc/shadow
+The hash format in /etc/shadow that begins with "$6$". :: SHA-512 crypt
+The Linux command that finds files with the setuid bit set, using find with this permission value. :: -perm -4000
+The famous reverse shell one-liner in Bash redirects to this special device path. :: /dev/tcp
+The x86 opcode for a NOP instruction, used in "NOP sleds". :: 0x90
+The string often used to test whether a page is vulnerable to XSS: a script tag calling this function. :: alert
+The test file that every antivirus should detect, named after a European research institute. :: EICAR test file
+The TLS version that removed RSA key exchange and CBC-mode ciphers. :: TLS 1.3
+The year TLS 1.3 was published as RFC 8446. :: 2018
+The year major browsers disabled TLS 1.0 and 1.1 by default. :: 2020
+The default validity of a Let's Encrypt certificate, in days. :: 90
+The length of the shared secret produced by X25519, in bytes. :: 32
+The tag length of AES-GCM in bits, by default. :: 128
+The nonce length of AES-GCM recommended by NIST, in bits. :: 96
+The maximum number of messages that can safely use one AES-GCM key with random 96-bit nonces, as a power of two. :: 2³²
+The number of the NIST special publication on digital identity and passwords. :: 800-63
+The number of the NIST special publication that catalogues security controls. :: 800-53
+The number of controls in the 2018 edition of the Saudi NCA Essential Cybersecurity Controls. :: 114
+The number of main domains in the Saudi NCA Essential Cybersecurity Controls. :: 5
+The ISO standard that lists controls to support ISO 27001. :: ISO 27002
+The number of controls in Annex A of ISO 27001:2022. :: 93
+The number of themes those Annex A controls are grouped into. :: 4
+The number of categories in the OWASP Top 10. :: 10
+The OWASP Top 10 2021 category into which XML external entities was merged. :: Security misconfiguration
+The highest number of tactics in the MITRE ATT&CK Enterprise matrix as of 2024. :: 14
+The first tactic in the MITRE ATT&CK Enterprise matrix. :: Reconnaissance
+The number of steps in the Lockheed Martin cyber kill chain. :: 7
+The final step of the cyber kill chain. :: Actions on objectives
+The number of phases in the incident response life cycle of NIST SP 800-61 revision 2. :: 4
+The 2021 Microsoft Exchange vulnerabilities exploited by the Hafnium group were nicknamed this. :: ProxyLogon
+The 2022 OpenSSL vulnerability series announced as "critical" but downgraded to high. :: Spooky SSL
+The 2019 BlueKeep vulnerability affected this Windows remote access service. :: Remote Desktop Protocol (RDP)
+The TCP port of the Microsoft SQL Server database, a frequent scanning target. :: 1433
+The Windows event ID recorded when a new service is installed. :: 7045
+The Nmap option that scans all 65,535 TCP ports. :: -p-
+The HTTP status code a web application firewall commonly returns when it blocks a request. :: 403
+The length, in bits, of the key used by AES-256 in the XTS mode that many disk encryption tools use, since XTS needs two keys. :: 512

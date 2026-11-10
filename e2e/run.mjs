@@ -1,0 +1,622 @@
+// End-to-end checks in a real browser. Run: npm run build && node e2e/run.mjs
+import { createRequire } from 'node:module'
+const { chromium } = createRequire(import.meta.url)('playwright')
+import { spawn } from 'node:child_process'
+import { writeFileSync, mkdirSync } from 'node:fs'
+
+const PORT = 4179
+const URL = `http://localhost:${PORT}/`
+const SHOTS = process.env.SHOTS || 'e2e/shots'
+mkdirSync(SHOTS, { recursive: true })
+const server = spawn('npx', ['vite', 'preview', '--port', String(PORT), '--strictPort'], { stdio: 'ignore' })
+await new Promise((r) => setTimeout(r, 2500))
+
+const results = []
+let browser
+async function test(name, fn) {
+  const t0 = Date.now()
+  try {
+    await fn()
+    results.push({ name, ok: true, ms: Date.now() - t0 })
+    console.log('PASS', name)
+  } catch (e) {
+    results.push({ name, ok: false, err: String(e.message || e).split('\n')[0] })
+    console.log('FAIL', name, '\n   ', String(e.message || e).split('\n').slice(0, 3).join('\n    '))
+  }
+}
+function assert(c, msg) { if (!c) throw new Error(msg) }
+
+async function newPage(opts = {}) {
+  const { noConsent, ...ctxOpts } = opts
+  const ctx = await browser.newContext({ viewport: { width: 1280, height: 860 }, ...ctxOpts })
+  // Most tests start as a player who has already accepted the current Terms.
+  if (!noConsent) await ctx.addInitScript(() => { if (!localStorage.getItem('gg.consent.v1')) localStorage.setItem('gg.consent.v1', JSON.stringify({ version: '1.1', date: '2026-11-10T00:00:00Z' })) })
+  const page = await ctx.newPage()
+  page.requests = []
+  page.on('request', (r) => page.requests.push(r.url()))
+  page.errors = []
+  page.on('pageerror', (e) => page.errors.push(e.message))
+  page.on('console', (m) => m.type() === 'error' && page.errors.push(m.text()))
+  return page
+}
+const FRIDAY_AFTERNOON = new Date('2026-11-13T10:00:00Z') // 13:00 Riyadh
+const TUESDAY = new Date('2026-11-10T10:00:00Z')
+
+async function setupGame(page, cats = 6, teams) {
+  await page.getByRole('button', { name: /new game|لعبة جديدة/i }).click()
+  await page.waitForSelector('.cat-pick')
+  const picks = page.locator('.cat-pick:not([disabled])')
+  for (let i = 0; i < cats; i++) await picks.nth(i).click()
+  if (teams) for (let i = 0; i < teams.length; i++) await page.fill(`#team-${i}`, teams[i])
+  await page.getByTestId('start').click()
+  await page.waitForSelector('.tile')
+}
+async function openTile(page, key) {
+  await page.click(`[data-tile="${key}"]`)
+  await page.waitForSelector('.card.open')
+  await page.waitForTimeout(700)
+}
+async function scores(page) {
+  return page.$$eval('.team span', (els) => els.map((e) => e.textContent))
+}
+async function waitClosed(page) {
+  await page.waitForSelector('[data-testid="clue"]', { state: 'detached', timeout: 4000 })
+}
+
+try {
+  browser = await chromium.launch()
+
+  await test('home loads with no errors and the logo flips to the tagline', async () => {
+    const page = await newPage()
+    await page.goto(URL)
+    await page.waitForSelector('.logo-title')
+    await page.getByTestId('logo').click()
+    await page.waitForTimeout(1100)
+    assert(await page.locator('.logo-card.flipped').count() === 1, 'logo did not flip')
+    assert((await page.textContent('.logo-answer')).includes('What does it mean to get questioned?'), 'tagline missing')
+    await page.screenshot({ path: `${SHOTS}/home.png` })
+    assert(page.errors.length === 0, 'console errors: ' + page.errors.join(' | '))
+    await page.context().close()
+  })
+
+  await test('heritage is locked on a Tuesday and shows a countdown', async () => {
+    const page = await newPage()
+    await page.clock.install({ time: TUESDAY })
+    await page.goto(URL)
+    const btn = page.locator('[data-theme-id="heritage"]')
+    assert(await btn.isDisabled(), 'heritage should be disabled')
+    assert(/2d 2[23]h/.test(await btn.textContent()), 'countdown wrong: ' + (await btn.textContent()))
+    await page.context().close()
+  })
+
+  await test('a saved heritage theme falls back outside Friday afternoon', async () => {
+    const page = await newPage()
+    await page.clock.install({ time: TUESDAY })
+    await page.addInitScript(() => localStorage.setItem('gg.settings.v1', JSON.stringify({ theme: 'heritage', lang: 'en' })))
+    await page.goto(URL)
+    assert((await page.getAttribute('html', 'data-theme')) === 'amethyst', 'did not fall back')
+    await page.context().close()
+  })
+
+  await test('every theme can be chosen, renders a board, and is remembered', async () => {
+    const page = await newPage()
+    await page.clock.install({ time: FRIDAY_AFTERNOON })
+    await page.goto(URL)
+    for (const id of ['emerald', 'neon', 'onyx', 'rivals', 'ember', 'heritage', 'amethyst']) {
+      await page.click(`[data-theme-id="${id}"]`)
+      await page.clock.runFor(1500)
+      await page.waitForFunction((id) => document.documentElement.dataset.theme === id, id, { timeout: 3000 })
+      const saved = await page.evaluate(() => JSON.parse(localStorage.getItem('gg.settings.v1')).theme)
+      assert(saved === id, `theme ${id} not saved`)
+    }
+    for (const id of ['amethyst', 'emerald', 'neon', 'onyx', 'rivals', 'ember', 'heritage']) {
+      await page.evaluate((id) => localStorage.setItem('gg.settings.v1', JSON.stringify({ theme: id, lang: id === 'heritage' ? 'ar' : 'en' })), id)
+      await page.evaluate(() => localStorage.removeItem('gg.game.v1'))
+      await page.reload()
+      await setupGame(page, 6)
+      await page.clock.runFor(2500)
+      await page.screenshot({ path: `${SHOTS}/board-${id}.png` })
+      await openTile(page, '2-2')
+      await page.clock.runFor(800)
+      await page.getByTestId('reveal').click()
+      await page.clock.runFor(1200)
+      await page.screenshot({ path: `${SHOTS}/clue-${id}.png` })
+      await page.getByTestId('back').click()
+      await page.clock.runFor(1200)
+    }
+    assert(page.errors.length === 0, 'console errors: ' + page.errors.join(' | '))
+    await page.context().close()
+  })
+
+  await test('setup asks for a category and for team names', async () => {
+    const page = await newPage()
+    await page.goto(URL)
+    await page.getByRole('button', { name: /new game/i }).click()
+    await page.waitForSelector('.cat-pick')
+    await page.getByTestId('start').click()
+    assert((await page.textContent('[role="alert"]')).includes('Pick at least one'), 'no category error')
+    await page.locator('.cat-pick').first().click()
+    await page.fill('#team-0', '   ')
+    await page.getByTestId('start').click()
+    assert((await page.textContent('[role="alert"]')).includes('needs a name'), 'no team error')
+    // Seventh pick is blocked
+    for (let i = 1; i < 6; i++) await page.locator('.cat-pick').nth(i).click()
+    const sel = await page.locator('.cat-pick[aria-pressed="true"]').count()
+    assert(sel === 6, 'expected 6 picked, got ' + sel)
+    // Team add and remove
+    await page.getByRole('button', { name: /add team/i }).click()
+    assert(await page.locator('.team-row').count() === 4, 'add team failed')
+    assert(await page.getByRole('button', { name: /add team/i }).count() === 0, 'should cap at 4 teams')
+    await page.locator('.team-row .mini').first().click()
+    assert(await page.locator('.team-row').count() === 3, 'remove team failed')
+    await page.context().close()
+  })
+
+  await test('built-in categories are shown in Engineering, CCES and General sections', async () => {
+    const page = await newPage()
+    await page.goto(URL)
+    await page.getByRole('button', { name: /new game/i }).click()
+    await page.waitForSelector('.cat-group')
+    const groups = await page.$$eval('.cat-group', (els) => els.map((e) => [e.getAttribute('data-group'), e.querySelector('.group-title').textContent, e.querySelectorAll('.cat-pick').length]))
+    assert(JSON.stringify(groups.map((g) => g[0])) === JSON.stringify(['engineering', 'cces', 'general']), 'group order: ' + JSON.stringify(groups))
+    assert(groups[1][1].includes('CCES'), 'cces title: ' + groups[1][1])
+    const counts = groups.map((g) => g[2])
+    assert(counts[0] === 4 && counts[1] === 10 && counts[2] === 11, 'counts: ' + counts)
+    const cces = await page.$$eval('.cat-group[data-group="cces"] .cat-pick b', (els) => els.map((e) => e.textContent))
+    for (const n of ['Artificial Intelligence', 'Software Engineering', 'Discrete Mathematics', 'Cybersecurity']) assert(cces.includes(n), 'missing ' + n + ' in ' + cces)
+    await page.screenshot({ path: `${SHOTS}/setup-groups.png`, fullPage: true })
+    await page.context().close()
+  })
+
+  await test('an English-only CCES category plays in Arabic mode with left-to-right clues', async () => {
+    const page = await newPage()
+    await page.goto(URL)
+    await page.getByRole('button', { name: 'العربية' }).click()
+    await page.getByRole('button', { name: 'لعبة جديدة' }).click()
+    await page.waitForSelector('.cat-group[data-group="cces"]')
+    const titles = await page.$$eval('.group-title', (els) => els.map((e) => e.textContent))
+    assert(titles[0] === 'الهندسة' && titles[2] === 'فئات عامة', 'arabic titles: ' + titles)
+    await page.locator('.cat-group[data-group="cces"] .cat-pick').first().click()
+    await page.getByTestId('start').click()
+    await page.waitForSelector('.tile')
+    await openTile(page, '0-0')
+    const q = await page.textContent('[data-testid="question"]')
+    assert(/[A-Za-z]/.test(q) && q.length > 5, 'expected English clue, got ' + q)
+    const dir = await page.$eval('[data-testid="question"]', (e) => getComputedStyle(e).direction)
+    assert(dir === 'ltr', 'clue direction ' + dir)
+    assert(page.errors.length === 0, page.errors.join('; '))
+    await page.context().close()
+  })
+
+  await test('scoring: right, wrong with deduction, nobody, back, and keyboard', async () => {
+    const page = await newPage()
+    await page.goto(URL)
+    await setupGame(page, 2, ['Civil', 'Electrical', 'Mechanical'])
+    assert(await page.locator('.tile').count() === 10, 'expected 10 tiles')
+    const golden = await page.evaluate(() => JSON.parse(localStorage.getItem('gg.game.v1')).clues.flat().filter((c) => c.golden).length)
+    assert(golden === 1, 'expected 1 golden tile, got ' + golden)
+    const val = (k) => page.evaluate((k) => { const [c, l] = k.split('-').map(Number); return JSON.parse(localStorage.getItem('gg.game.v1')).clues[c][l].value }, k)
+
+    // Wrong for team 1 (deducts), then right for team 2
+    const v1 = await val('0-1')
+    await openTile(page, '0-1')
+    await page.click('[data-judge="0-no"]')
+    assert(await page.locator('[data-judge="0-ok"]').isDisabled(), 'team stays enabled after wrong')
+    await page.click('[data-judge="1-ok"]')
+    await waitClosed(page)
+    let s = await scores(page)
+    assert(s[0] === String(-v1) && s[1] === String(v1) && s[2] === '0', 'scores after tile 1: ' + s)
+    assert(await page.locator('[data-tile="0-1"].used').count() === 1, 'tile not marked used')
+
+    // Back to board does not use the tile or change scores
+    await openTile(page, '1-0')
+    await page.getByTestId('back').click()
+    await waitClosed(page)
+    assert(await page.locator('[data-tile="1-0"].used').count() === 0, 'back should not use tile')
+
+    // Nobody uses the tile
+    await openTile(page, '1-0')
+    await page.getByTestId('reveal').click()
+    assert(await page.locator('[data-testid="answer"].show').count() === 1, 'answer not shown')
+    await page.getByTestId('nobody').click()
+    await waitClosed(page)
+    assert(await page.locator('[data-tile="1-0"].used').count() === 1, 'nobody should use tile')
+
+    // Keyboard: Space reveals, Shift+3 wrong, 3 ignored after wrong, 1 right
+    const v2 = await val('0-4')
+    await openTile(page, '0-4')
+    await page.keyboard.press('Space')
+    assert(await page.locator('[data-testid="answer"].show').count() === 1, 'space did not reveal')
+    await page.keyboard.press('Shift+Digit3')
+    await page.keyboard.press('Digit3')
+    await page.keyboard.press('Digit1')
+    await waitClosed(page)
+    s = await scores(page)
+    assert(s[0] === String(-v1 + v2) && s[2] === String(-v2), 'keyboard scores: ' + s)
+
+    // Escape closes without using; Digit4 ignored with 3 teams
+    await openTile(page, '1-1')
+    await page.keyboard.press('Digit4')
+    await page.keyboard.press('Escape')
+    await waitClosed(page)
+    assert(await page.locator('[data-tile="1-1"].used').count() === 0, 'escape should not use tile')
+    assert(page.errors.length === 0, 'console errors: ' + page.errors.join(' | '))
+    await page.context().close()
+  })
+
+  await test('no deduction when that setting is off', async () => {
+    const page = await newPage()
+    await page.goto(URL)
+    await page.getByRole('button', { name: /new game/i }).click()
+    await page.waitForSelector('.cat-pick')
+    await page.locator('.cat-pick').first().click()
+    await page.uncheck('#deduct')
+    await page.getByTestId('start').click()
+    await page.waitForSelector('.tile')
+    await openTile(page, '0-0')
+    await page.click('[data-judge="0-no"]')
+    await page.getByTestId('nobody').click()
+    await waitClosed(page)
+    assert((await scores(page))[0] === '0', 'should not deduct')
+    await page.context().close()
+  })
+
+  await test('a full game reaches the results screen, survives a reload, and picks the winner', async () => {
+    const page = await newPage()
+    await page.goto(URL)
+    await setupGame(page, 6, ['Alpha', 'Beta'])
+    let n = 0
+    for (let l = 0; l < 5; l++) for (let c = 0; c < 6; c++) {
+      if (n === 12) {
+        await page.reload()
+        await page.getByRole('button', { name: /resume game/i }).click()
+        await page.waitForSelector('.tile')
+        assert(await page.locator('.tile.used').count() === 12, 'progress lost on reload')
+      }
+      await openTile(page, `${c}-${l}`)
+      await page.keyboard.press(n % 3 === 0 ? 'Digit2' : 'Digit1')
+      await waitClosed(page)
+      n++
+    }
+    await page.waitForSelector('[data-testid="winner"]', { timeout: 5000 })
+    const state = await page.evaluate(() => JSON.parse(localStorage.getItem('gg.game.v1')))
+    const [a, b] = state.teams.map((t) => t.score)
+    const total = state.clues.flat().reduce((s, c) => s + c.value, 0)
+    assert(a + b === total, `points do not add up: ${a}+${b} vs ${total}`)
+    const text = await page.textContent('[data-testid="winner"]')
+    assert(text.includes(a > b ? 'Alpha' : 'Beta') || (a === b && text.includes('tie')), 'wrong winner: ' + text)
+    await page.screenshot({ path: `${SHOTS}/results.png` })
+    await page.getByRole('button', { name: /play again/i }).click()
+    await page.waitForSelector('.cat-pick')
+    assert(await page.evaluate(() => localStorage.getItem('gg.game.v1')) === null, 'finished game not cleared')
+    await page.context().close()
+  })
+
+  await test('a second game avoids questions from the first', async () => {
+    const page = await newPage()
+    await page.goto(URL)
+    await setupGame(page, 1)
+    const first = await page.evaluate(() => JSON.parse(localStorage.getItem('gg.game.v1')).clues[0].map((c) => c.id))
+    await page.getByTestId('end').click()
+    await page.getByRole('button', { name: /play again/i }).click()
+    await page.waitForSelector('.cat-pick')
+    await page.locator('.cat-pick').first().click()
+    await page.getByTestId('start').click()
+    await page.waitForSelector('.tile')
+    const second = await page.evaluate(() => JSON.parse(localStorage.getItem('gg.game.v1')).clues[0].map((c) => c.id))
+    const pool = await page.evaluate(async () => (await (await fetch('packs/index.json')).json())[0].counts)
+    if (pool.every((n) => n >= 2)) assert(first.every((id, i) => id !== second[i]), 'repeated a question')
+    await page.context().close()
+  })
+
+  await test('Arabic switches the layout to right to left with Arabic numerals', async () => {
+    const page = await newPage()
+    await page.goto(URL)
+    await page.getByRole('button', { name: 'العربية' }).click()
+    assert((await page.getAttribute('html', 'dir')) === 'rtl', 'not rtl')
+    await page.getByRole('button', { name: 'لعبة جديدة' }).click()
+    await page.waitForSelector('.cat-pick')
+    await page.locator('.cat-pick').first().click()
+    await page.getByTestId('start').click()
+    await page.waitForSelector('.tile')
+    const v = await page.textContent('[data-tile="0-0"] .v')
+    assert(v === '١٠٠', 'numeral: ' + v)
+    await openTile(page, '0-0')
+    await page.click('[data-judge="0-ok"]')
+    await waitClosed(page)
+    assert((await scores(page))[0] === '١٠٠' || (await scores(page))[0] === '٢٠٠', 'arabic score: ' + (await scores(page))[0])
+    await page.screenshot({ path: `${SHOTS}/arabic-board.png` })
+    await page.context().close()
+  })
+
+  await test('category builder: create, add, edit, delete, rename, and play it', async () => {
+    const page = await newPage()
+    await page.goto(URL)
+    await page.getByRole('button', { name: /category builder/i }).click()
+    await page.getByTestId('new-cat').click()
+    await page.fill('#cat-name', 'Fluid Mechanics')
+    await page.fill('#cat-name-ar', 'ميكانيكا الموائع')
+    for (let l = 0; l < 5; l++) {
+      for (let k = 0; k < 2; k++) {
+        await page.selectOption('#level', String(l))
+        await page.fill('#new-q', `Clue ${l}-${k}`)
+        await page.fill('#new-a', `Answer ${l}-${k}`)
+        await page.getByRole('button', { name: 'Add', exact: true }).click()
+      }
+    }
+    const counts = await page.$$eval('.level .count', (els) => els.map((e) => e.textContent))
+    assert(counts.every((c) => c.startsWith('2')), 'counts: ' + counts)
+    // Empty fields do nothing
+    await page.fill('#new-q', '')
+    await page.getByRole('button', { name: 'Add', exact: true }).click()
+    // Edit a question
+    await page.locator('[data-level="0"] .qrow').first().getByRole('button', { name: 'Edit' }).click()
+    await page.fill('#new-q', 'Edited clue')
+    await page.getByRole('button', { name: 'Save' }).click()
+    assert(await page.locator('.qrow', { hasText: 'Edited clue' }).count() === 1, 'edit failed')
+    // Delete a question
+    await page.locator('[data-level="1"] .qrow').first().locator('button[aria-label^="Delete"]').click()
+    assert((await page.textContent('[data-level="1"] .count')).startsWith('1'), 'delete failed')
+    // Search
+    await page.fill('#search', 'Edited')
+    assert(await page.locator('.qrow').count() === 1, 'search failed')
+    await page.fill('#search', '')
+    // Persisted
+    await page.reload()
+    await page.getByRole('button', { name: /category builder/i }).click()
+    assert(await page.locator('.cat-item', { hasText: 'Fluid Mechanics' }).count() === 1, 'not saved')
+    await page.screenshot({ path: `${SHOTS}/builder.png` })
+    // Play it
+    await page.getByRole('button', { name: 'Back' }).click()
+    await page.getByRole('button', { name: /new game/i }).click()
+    await page.locator('.cat-pick', { hasText: 'Fluid Mechanics' }).click()
+    await page.getByTestId('start').click()
+    await page.waitForSelector('.tile')
+    await openTile(page, '0-0')
+    const q = await page.textContent('[data-testid="question"]')
+    assert(/Clue 0-|Edited clue/.test(q), 'custom question not used: ' + q)
+    assert(page.errors.length === 0, 'console errors: ' + page.errors.join(' | '))
+    await page.context().close()
+  })
+
+  await test('builder: incomplete categories cannot be played; delete needs confirmation', async () => {
+    const page = await newPage()
+    await page.goto(URL)
+    await page.getByRole('button', { name: /category builder/i }).click()
+    await page.getByTestId('new-cat').click()
+    await page.fill('#cat-name', 'Half done')
+    await page.getByRole('button', { name: 'Back' }).click()
+    await page.getByRole('button', { name: /new game/i }).click()
+    assert(await page.locator('.cat-pick', { hasText: 'Half done' }).isDisabled(), 'incomplete category is pickable')
+    await page.getByRole('button', { name: 'Back' }).click()
+    await page.getByRole('button', { name: /category builder/i }).click()
+    await page.locator('.cat-item', { hasText: 'Half done' }).click()
+    await page.getByTestId('delete').click()
+    assert(await page.locator('.cat-item', { hasText: 'Half done' }).count() === 1, 'deleted without confirm')
+    await page.getByTestId('confirm-delete').click()
+    assert(await page.locator('.cat-item', { hasText: 'Half done' }).count() === 0, 'confirm delete failed')
+    await page.context().close()
+  })
+
+  await test('builder: built-ins are read-only, can be copied, exported and imported', async () => {
+    const page = await newPage()
+    await page.goto(URL)
+    await page.getByRole('button', { name: /category builder/i }).click()
+    await page.locator('.cat-item').first().click()
+    await page.waitForSelector('[data-testid="duplicate"]')
+    assert(await page.locator('#new-q').count() === 0, 'built-in should be read-only')
+    await page.getByTestId('duplicate').click()
+    assert(await page.locator('.cat-item', { hasText: '(copy)' }).count() === 1, 'copy failed')
+    await page.getByTestId('export').click()
+    const text = await page.inputValue('textarea[readonly]')
+    const data = JSON.parse(text)
+    assert(data.format === 'get-grilled-category' && data.levels.length === 5, 'bad export')
+    // Import that export
+    writeFileSync('/tmp/gg-import.json', text)
+    await page.setInputFiles('[data-testid="import"]', '/tmp/gg-import.json')
+    await page.waitForSelector('.toast')
+    assert(await page.locator('.cat-item', { hasText: '(copy)' }).count() === 2, 'import failed')
+    // Bad import
+    writeFileSync('/tmp/gg-bad.json', '{"name":"x","levels":[]}')
+    await page.setInputFiles('[data-testid="import"]', '/tmp/gg-bad.json')
+    assert((await page.textContent('[role="alert"]')).includes('5 difficulty'), 'bad import not explained')
+    writeFileSync('/tmp/gg-bad2.json', 'not json')
+    await page.setInputFiles('[data-testid="import"]', '/tmp/gg-bad2.json')
+    assert((await page.textContent('[role="alert"]')).includes('not valid JSON'), 'invalid json not explained')
+    await page.context().close()
+  })
+
+  await test('phone width: no sideways scrolling on any screen', async () => {
+    const page = await newPage({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 1, isMobile: true, hasTouch: true })
+    await page.goto(URL)
+    const check = async (where) => {
+      const w = await page.evaluate(() => document.documentElement.scrollWidth)
+      assert(w <= 390, `${where} is ${w}px wide`)
+    }
+    await check('home')
+    await page.screenshot({ path: `${SHOTS}/phone-home.png` })
+    await page.getByRole('button', { name: /new game/i }).click()
+    await page.waitForSelector('.cat-pick')
+    await check('setup')
+    for (let i = 0; i < 6; i++) await page.locator('.cat-pick').nth(i).tap()
+    await page.getByTestId('start').tap()
+    await page.waitForSelector('.tile')
+    await page.waitForTimeout(2500)
+    await check('board')
+    await page.screenshot({ path: `${SHOTS}/phone-board.png` })
+    await page.locator('[data-tile="0-0"]').tap()
+    await page.waitForTimeout(1300)
+    await page.getByTestId('reveal').tap()
+    await page.waitForTimeout(900)
+    const box = await page.locator('[data-testid="clue"]').boundingBox()
+    assert(box.x >= 0 && box.x + box.width <= 390, 'clue card off screen')
+    await page.screenshot({ path: `${SHOTS}/phone-clue.png` })
+    await page.getByTestId('back').tap()
+    await page.waitForTimeout(1000)
+    await page.locator('.brand').tap()
+    await page.getByRole('button', { name: /category builder/i }).tap()
+    await check('builder')
+    await page.context().close()
+  })
+
+  await test('reduced motion still plays correctly', async () => {
+    const page = await newPage({ reducedMotion: 'reduce' })
+    await page.goto(URL)
+    await setupGame(page, 1)
+    await page.click('[data-tile="0-0"]')
+    await page.waitForSelector('.card.open')
+    await page.keyboard.press('Digit1')
+    await waitClosed(page)
+    assert((await scores(page))[0] !== '0', 'score not applied')
+    await page.context().close()
+  })
+  await test('terms pop-up blocks play until the box is ticked and Accept is pressed', async () => {
+    const page = await newPage({ noConsent: true })
+    await page.goto(URL)
+    const dlg = page.getByTestId('consent')
+    await dlg.waitFor()
+    assert(await page.locator('.app[inert]').count() === 1, 'app behind the pop-up is not blocked')
+    assert(await page.getByTestId('consent-accept').isDisabled(), 'Accept should start disabled')
+    assert((await page.getByTestId('photo-warning').textContent()).includes('Photosensitivity warning'), 'no photosensitivity warning')
+    await page.getByTestId('consent-decline').click()
+    assert((await page.getByTestId('declined').textContent()).includes('You need to accept the Terms to play Get Grilled.'), 'decline message missing')
+    await page.keyboard.press('Escape')
+    assert(await dlg.isVisible(), 'Esc closed the pop-up')
+    for (let i = 0; i < 12; i++) {
+      await page.keyboard.press('Tab')
+      assert(await page.evaluate(() => !!document.activeElement?.closest('[data-testid="consent"]')), 'focus left the pop-up')
+    }
+    await page.getByTestId('open-terms').click()
+    const terms = await page.getByTestId('legal-doc').textContent()
+    assert(terms.includes('13. Independence.') && terms.includes('not affiliated with, endorsed by, or connected to any television show'), 'independence clause missing')
+    assert(terms.includes('Acceptable') || terms.includes('You must not create or share content'), 'acceptable-use rules missing')
+    assert(terms.includes('Moinuddeen'), 'owner name missing')
+    await page.getByTestId('legal-back').click()
+    await page.getByTestId('open-privacy').click()
+    assert((await page.getByTestId('legal-doc').textContent()).includes('What we collect.'), 'privacy notice missing')
+    await page.getByTestId('legal-back').click()
+    await page.screenshot({ path: `${SHOTS}/consent.png` })
+    await page.getByTestId('consent-agree').check()
+    assert(!(await page.getByTestId('consent-accept').isDisabled()), 'Accept still disabled after ticking')
+    await page.getByTestId('consent-accept').click()
+    await dlg.waitFor({ state: 'detached' })
+    const saved = await page.evaluate(() => JSON.parse(localStorage.getItem('gg.consent.v1')))
+    assert(saved.version === '1.1' && !isNaN(Date.parse(saved.date)), 'consent not saved with version and date')
+    assert(await page.locator('.app[inert]').count() === 0, 'app still blocked after accepting')
+    await page.reload()
+    await page.waitForSelector('.logo-title')
+    assert(await page.getByTestId('consent').count() === 0, 'pop-up came back after accepting')
+    assert(page.errors.length === 0, 'console errors: ' + page.errors.join(' | '))
+    await page.context().close()
+  })
+
+  await test('terms pop-up comes back when the Terms version changes', async () => {
+    const page = await newPage({ noConsent: true })
+    await page.addInitScript(() => localStorage.setItem('gg.consent.v1', JSON.stringify({ version: '0.9', date: '2026-01-01T00:00:00Z' })))
+    await page.goto(URL)
+    await page.getByTestId('consent').waitFor()
+    await page.context().close()
+  })
+
+  await test('terms pop-up and Terms work in Arabic, with Arabic stated as prevailing', async () => {
+    const page = await newPage({ noConsent: true })
+    await page.goto(URL)
+    await page.getByTestId('consent-lang').click()
+    const dlg = page.getByTestId('consent')
+    assert((await dlg.getAttribute('dir')) === 'rtl', 'pop-up not right-to-left')
+    assert((await dlg.textContent()).includes('أهلًا بك في Get Grilled'), 'Arabic title missing')
+    await page.getByTestId('open-terms').click()
+    const t = await page.getByTestId('legal-doc').textContent()
+    assert(t.includes('الاستقلالية') && t.includes('يُعتمد النص العربي'), 'Arabic Terms incomplete')
+    await page.screenshot({ path: `${SHOTS}/consent-ar.png` })
+    await page.getByTestId('legal-back').click()
+    await page.getByTestId('consent-agree').check()
+    await page.getByTestId('consent-accept').click()
+    await dlg.waitFor({ state: 'detached' })
+    assert((await page.getAttribute('html', 'dir')) === 'rtl', 'app language did not follow the pop-up')
+    await page.context().close()
+  })
+
+  await test('footer shows the owner with no contact line and opens Terms and Privacy', async () => {
+    const page = await newPage()
+    await page.goto(URL)
+    const f = await page.getByTestId('footer').textContent()
+    assert(f.includes('© 2026 Moinuddeen') && !f.includes('Contact') && !f.includes('@') && !f.includes('[EMAIL]'), 'footer text wrong: ' + f)
+    await page.getByTestId('footer-terms').click()
+    await page.getByTestId('legal-viewer').waitFor()
+    assert((await page.getByTestId('legal-doc').textContent()).includes('Terms and Conditions'), 'terms not shown')
+    await page.keyboard.press('Escape')
+    await page.getByTestId('legal-viewer').waitFor({ state: 'detached' })
+    await page.getByTestId('footer-privacy').click()
+    assert((await page.getByTestId('legal-doc').textContent()).includes('Privacy Notice'), 'privacy not shown')
+    await page.getByTestId('legal-close').click()
+    await page.getByTestId('legal-viewer').waitFor({ state: 'detached' })
+    await page.context().close()
+  })
+
+  await test('Reduce effects stops sparkles and the background, and is remembered', async () => {
+    const page = await newPage()
+    await page.goto(URL)
+    await setupGame(page, 2)
+    await page.waitForTimeout(1500)
+    assert(await page.locator('.glint').count() > 0, 'expected glints with effects on')
+    await page.getByTestId('reduce-fx').click()
+    assert((await page.getAttribute('html', 'data-reduce-fx')) === 'on', 'switch did not turn on')
+    await page.waitForTimeout(1500)
+    assert(await page.locator('.glint').count() === 0, 'glints still appear with Reduce effects on')
+    const anim = await page.evaluate(() => document.getAnimations().filter((a) => a.playState === 'running' && a.effect?.getTiming().iterations === Infinity).length)
+    assert(anim === 0, anim + ' repeating animations still running')
+    const a = await page.evaluate(() => document.getElementById('bg').toDataURL())
+    await page.waitForTimeout(600)
+    const b = await page.evaluate(() => document.getElementById('bg').toDataURL())
+    assert(a === b, 'background still moving')
+    await page.click('[data-tile="0-0"]')
+    await page.waitForSelector('.card.open')
+    await page.keyboard.press('Digit1')
+    await waitClosed(page)
+    await page.reload()
+    await page.waitForSelector('.tile, .logo-title')
+    assert((await page.getAttribute('html', 'data-reduce-fx')) === 'on', 'setting not remembered')
+    assert(page.errors.length === 0, 'console errors: ' + page.errors.join(' | '))
+    await page.context().close()
+  })
+
+  await test('the pop-up can turn on Reduce effects before playing', async () => {
+    const page = await newPage({ noConsent: true })
+    await page.goto(URL)
+    await page.getByTestId('consent-reduce').check()
+    assert((await page.getAttribute('html', 'data-reduce-fx')) === 'on', 'not turned on from the pop-up')
+    await page.context().close()
+  })
+
+  await test('each clue tells players to take disputes to the host, with no email link', async () => {
+    const page = await newPage()
+    await page.goto(URL)
+    await setupGame(page, 1)
+    await openTile(page, '0-0')
+    const note = page.getByTestId('report')
+    assert((await note.textContent()).includes("Tell your host. The host's ruling is final."), 'note wrong')
+    assert((await page.locator('a[href^="mailto:"]').count()) === 0, 'mailto link still present')
+    await page.context().close()
+  })
+
+  await test('no request goes to Google Fonts or any other outside host', async () => {
+    const page = await newPage()
+    await page.goto(URL)
+    await setupGame(page, 6)
+    await page.waitForTimeout(800)
+    const outside = page.requests.filter((u) => !u.startsWith(URL) && !u.startsWith('data:'))
+    assert(outside.length === 0, 'outside requests: ' + outside.join(', '))
+    const fontsOk = await page.evaluate(() => Promise.all(['Marcellus', 'Reem Kufi', 'IBM Plex Sans Arabic', 'Aref Ruqaa'].map(async (f) => (await document.fonts.load(`16px "${f}"`, 'Aب')).length > 0)))
+    assert(fontsOk.every(Boolean), 'bundled fonts not available: ' + fontsOk)
+    await page.context().close()
+  })
+} finally {
+  await browser?.close()
+  server.kill()
+}
+
+const failed = results.filter((r) => !r.ok)
+console.log(`\n${results.length - failed.length}/${results.length} browser tests passed`)
+writeFileSync(`${SHOTS}/results.json`, JSON.stringify(results, null, 2))
+process.exit(failed.length ? 1 : 0)

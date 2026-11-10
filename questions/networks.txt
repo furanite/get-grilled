@@ -1,0 +1,514 @@
+id: networks
+name: Computer Networks
+nameAr: شبكات الحاسب
+group: cces
+
+## 100
+Two or more computers connected so they can share data. :: Network
+The global network of networks. :: Internet
+The wireless technology that connects laptops and phones to a local network. :: Wi-Fi
+The cable standard used for most wired local networks. :: Ethernet
+The device that sends data between different networks and connects a home to the internet. :: Router
+The device that connects computers inside one local network and sends data only to the right port. :: Switch
+The device that converts signals between a home network and the internet provider's line. :: Modem
+A network covering a small area such as a home or office, shortened to three letters. :: LAN
+A network covering a large area such as a country, shortened to three letters. :: WAN
+The unique number that identifies a device on a network. :: IP address
+The number of parts, separated by dots, in an IPv4 address. :: 4
+The largest value any one part of an IPv4 address can have. :: 255
+The system that turns website names into IP addresses. :: DNS
+DNS stands for this. :: Domain Name System
+The address of a web page, shortened to three letters. :: URL
+The protocol used to load web pages. :: HTTP
+The secure version of HTTP. :: HTTPS
+The small picture in a browser's address bar that shows a connection is secure. :: Padlock
+The company that provides your internet connection, shortened to three letters. :: ISP
+A computer that provides services to other computers. :: Server
+A computer that requests services from a server. :: Client
+The program used to view websites. :: Web browser
+The amount of data a connection can carry per second. :: Bandwidth
+The unit usually used to measure internet speed. :: Megabits per second (Mbps)
+Moving a file from the internet to your computer. :: Download
+Moving a file from your computer to the internet. :: Upload
+The delay before data starts to arrive, important in online games. :: Latency (ping)
+The short-range wireless technology used for headphones and keyboards. :: Bluetooth
+The name of a Wi-Fi network that you see in a list. :: SSID
+The security system that blocks unwanted network traffic. :: Firewall
+A private, encrypted tunnel over the internet, shortened to three letters. :: VPN
+The small unit into which data is split for sending over a network. :: Packet
+The hardware address built into every network card. :: MAC address
+The connector at the end of an Ethernet cable. :: RJ45
+The cable that carries data as pulses of light. :: Fibre-optic cable
+The thin glass threads inside a fibre-optic cable carry this. :: Light
+The copper cable with pairs of wires twisted together. :: Twisted pair
+The way devices are arranged and connected in a network. :: Topology
+The topology in which every device connects to one central device. :: Star
+The topology in which devices are connected in a closed loop. :: Ring
+The topology in which all devices share one main cable. :: Bus
+The topology in which devices have many connections to each other. :: Mesh
+A set of rules for how devices communicate. :: Protocol
+The pair of protocols on which the internet is built. :: TCP/IP
+The protocol used to send email. :: SMTP
+The older protocol for transferring files between computers. :: FTP
+The service that gives devices an IP address automatically. :: DHCP
+The command that tests whether another computer can be reached. :: ping
+The part of an email address after the @ sign. :: Domain
+The ending of a web address such as .com or .sa. :: Top-level domain
+The top-level domain of Saudi Arabia. :: .sa
+The top-level domain meant for educational institutions. :: .edu
+The top-level domain originally meant for non-profit organisations. :: .org
+The "www" in a web address stands for this. :: World Wide Web
+The inventor of the World Wide Web. :: Tim Berners-Lee
+The language used to write web pages. :: HTML
+A link on a web page that takes you to another page. :: Hyperlink
+A small file a website saves in your browser to remember you. :: Cookie
+The place a browser keeps copies of pages to load them faster next time. :: Cache
+A device, such as a phone, sharing its mobile internet with other devices. :: Hotspot (tethering)
+The generation of mobile network that followed 4G. :: 5G
+The mobile network generation also called LTE. :: 4G
+The card in a phone that identifies you to the mobile network. :: SIM card
+The technology that carries phone calls over the internet, shortened to four letters. :: VoIP
+Watching video over the internet without downloading the whole file first. :: Streaming
+Storing files on remote servers reached through the internet. :: Cloud
+A building full of servers. :: Data centre
+A network in which computers share files directly with each other without a central server. :: Peer-to-peer (P2P)
+The address 127.0.0.1 refers to this. :: Localhost (your own computer)
+The newer version of IP with much longer addresses. :: IPv6
+The older, most widely used version of IP. :: IPv4
+The number of bits in an IPv4 address. :: 32
+The number of bits in an IPv6 address. :: 128
+A number that identifies a particular service on a computer, such as 80 for web. :: Port
+The standard port for HTTP. :: 80
+The standard port for HTTPS. :: 443
+The connected physical objects such as smart lights and sensors, shortened to three letters. :: IoT
+A wireless network device that lets Wi-Fi devices join a wired network. :: Access point
+The password-based security standard used by most home Wi-Fi today. :: WPA2 (or WPA3)
+The two radio bands most home Wi-Fi uses, in gigahertz. :: 2.4 and 5
+A device that repeats a Wi-Fi signal to extend its range. :: Repeater (range extender)
+The old, slow way of connecting to the internet through a phone call. :: Dial-up
+The always-on, high-speed kind of internet connection. :: Broadband
+The internet technology that uses ordinary telephone lines at high speed, shortened to three letters. :: DSL
+Internet delivered from space by companies such as Starlink. :: Satellite internet
+A private network inside an organisation that uses web technology. :: Intranet
+Sending the same data to every device on a network. :: Broadcast
+Lost or damaged data being sent again. :: Retransmission
+An attack that floods a server with traffic to make it unavailable. :: Denial of service (DoS)
+Unwanted bulk email. :: Spam
+The first network that grew into the internet, built in the United States in 1969. :: ARPANET
+The organisation that maintains web standards, shortened to three characters. :: W3C
+The undersea links that carry most international internet traffic. :: Submarine cables
+The symbol used in every email address. :: @ (at sign)
+The first page of a website. :: Home page
+The device in a home that usually combines router, switch, access point and modem. :: Home gateway (Wi-Fi router)
+The service that lets you type a name like google.com instead of numbers. :: DNS
+A program that crawls the web to build a search index. :: Web crawler (spider)
+Two devices agreeing on how to communicate before data is sent. :: Handshake
+The unit equal to one thousand megabits per second. :: Gigabit per second (Gbps)
+
+## 200
+The number of layers in the OSI model. :: 7
+The lowest layer of the OSI model, dealing with cables and signals. :: Physical layer
+The OSI layer that handles frames and MAC addresses. :: Data link layer
+The OSI layer that handles IP addresses and routing. :: Network layer
+The OSI layer that handles TCP and UDP. :: Transport layer
+The top layer of the OSI model, where HTTP and email live. :: Application layer
+The OSI layer between transport and presentation. :: Session layer
+The OSI layer that handles encryption and data formats. :: Presentation layer
+The number of layers in the TCP/IP model as usually taught. :: 4
+The name for a unit of data at the data link layer. :: Frame
+The name for a unit of data at the network layer. :: Packet
+The name for a unit of data in TCP. :: Segment
+The name for a unit of data in UDP. :: Datagram
+Wrapping data with a header at each layer on the way down. :: Encapsulation
+The reliable, connection-oriented transport protocol. :: TCP
+The fast, connectionless transport protocol with no delivery guarantee. :: UDP
+The three messages of the TCP handshake, in order. :: SYN, SYN-ACK, ACK
+The TCP flag used to close a connection politely. :: FIN
+The TCP flag that abruptly resets a connection. :: RST
+The number TCP uses to put bytes back in order. :: Sequence number
+The message that confirms data was received. :: Acknowledgement (ACK)
+The TCP mechanism that stops a sender overwhelming a slow receiver. :: Flow control
+The TCP mechanism that slows sending when the network is overloaded. :: Congestion control
+The moving range of bytes a sender may send before waiting for acknowledgements. :: Sliding window
+The number of bits in a MAC address. :: 48
+The number of bits in a port number. :: 16
+The highest possible port number. :: 65,535
+The range of "well-known" ports. :: 0 to 1023
+The standard port for SSH. :: 22
+The standard port for DNS. :: 53
+The standard port for SMTP. :: 25
+The standard port for Telnet. :: 23
+The standard port for FTP control. :: 21
+The standard port for Remote Desktop (RDP). :: 3389
+The protocol that finds the MAC address for a known IP address. :: ARP
+The protocol used by ping. :: ICMP
+The command that shows each router on the path to a destination. :: traceroute (tracert)
+The field in an IP packet that is reduced by one at every router to stop endless loops. :: TTL (time to live)
+The technique that lets many private addresses share one public address. :: NAT
+The private IPv4 range most home routers use, starting with these two numbers. :: 192.168
+The private IPv4 range that starts with 10 has this many bits in its network prefix. :: 8
+The mask 255.255.255.0 written in slash notation. :: /24
+The number of usable host addresses in a /24 network. :: 254
+The number of usable host addresses in a /30 network. :: 2
+The first address of a subnet, which identifies the subnet itself. :: Network address
+The last address of a subnet, which reaches every host on it. :: Broadcast address
+The router address a device sends to when the destination is outside its own network. :: Default gateway
+The IPv4 addresses a device gives itself, starting 169.254, when no DHCP server answers. :: Link-local (APIPA)
+The four steps of DHCP, known by this four-letter word. :: DORA
+The DNS record that maps a name to an IPv4 address. :: A record
+The DNS record that maps a name to an IPv6 address. :: AAAA record
+The DNS record that names a domain's mail servers. :: MX record
+The DNS record that makes one name an alias of another. :: CNAME record
+The DNS record used for reverse lookups, from address to name. :: PTR record
+The number of root server names in the DNS, labelled A to M. :: 13
+The time a DNS answer may be kept in a cache. :: TTL
+The email protocol that keeps messages on the server and syncs folders. :: IMAP
+The email protocol that usually downloads messages and removes them from the server. :: POP3
+The secure replacement for Telnet. :: SSH
+The protocol that secures HTTPS, the successor to SSL. :: TLS
+The digital document that proves a website's identity in HTTPS. :: Certificate
+The HTTP method that requests a page. :: GET
+The HTTP method that sends form data to the server. :: POST
+The HTTP status code for "OK". :: 200
+The HTTP status code for "Not Found". :: 404
+The HTTP status code for "Internal Server Error". :: 500
+The HTTP status code for "Moved Permanently". :: 301
+The HTTP status code for "Forbidden". :: 403
+The protocol that keeps computer clocks in sync. :: NTP
+The protocol used to monitor and manage network devices. :: SNMP
+A logical network that splits one switch into separate groups. :: VLAN
+The IEEE standard for VLAN tagging. :: 802.1Q
+The IEEE family of standards for Wi-Fi. :: 802.11
+The IEEE standard for Ethernet. :: 802.3
+The protocol that stops loops in switched networks. :: Spanning Tree Protocol (STP)
+The table a switch uses to remember which MAC address is on which port. :: MAC address table (CAM table)
+The table a router uses to decide where to send packets. :: Routing table
+A route entered by hand by an administrator. :: Static route
+The simple routing protocol that counts hops, with a limit of 15. :: RIP
+The link-state routing protocol widely used inside organisations. :: OSPF
+The routing protocol that connects the networks of the internet together. :: BGP
+A network run by one organisation under one routing policy, identified by a number. :: Autonomous system
+The algorithm link-state routing protocols use to find shortest paths. :: Dijkstra's algorithm
+The Ethernet cable category that supports 10 gigabits per second up to 100 metres. :: Cat 6a
+The maximum length of a twisted-pair Ethernet cable run, in metres. :: 100
+The kind of fibre used for long distances, with a very thin core. :: Single-mode fibre
+The mode in which data flows both ways at the same time. :: Full duplex
+The mode in which data flows both ways but only one way at a time. :: Half duplex
+The access method of classic Ethernet that listens before sending and detects collisions. :: CSMA/CD
+The access method of Wi-Fi that tries to avoid collisions. :: CSMA/CA
+The Wi-Fi generation also called 802.11ax. :: Wi-Fi 6
+The weak, broken Wi-Fi security standard from 1997. :: WEP
+The largest packet size a link can carry without splitting, 1,500 bytes on Ethernet. :: MTU
+The error check added to the end of an Ethernet frame. :: CRC (frame check sequence)
+The simple error check that adds one bit to make the count of 1s even or odd. :: Parity bit
+The measure of variation in packet delay, which harms voice calls. :: Jitter
+The set of techniques that give some traffic priority, shortened to three letters. :: QoS
+The server that sits between clients and the internet and forwards their requests. :: Proxy server
+The device that spreads incoming requests across several servers. :: Load balancer
+A network of servers around the world that delivers content from a location near the user. :: CDN
+
+## 300
+The subnet mask of a /26 network. :: 255.255.255.192
+The number of usable hosts in a /26 network. :: 62
+The number of usable hosts in a /28 network. :: 14
+The number of /26 subnets that fit in a /24 network. :: 4
+The network address of the host 192.168.1.130/25. :: 192.168.1.128
+The broadcast address of the network 10.0.0.0/8. :: 10.255.255.255
+The private IPv4 range in the 172 block, written in slash notation. :: 172.16.0.0/12
+The default subnet mask of a Class B address. :: 255.255.0.0
+The first octet range of Class C addresses. :: 192 to 223
+The address range reserved for multicast in IPv4, known as this class. :: Class D
+The method, introduced in 1993, that replaced address classes with flexible prefixes. :: CIDR
+The practice of using different subnet sizes inside one network. :: VLSM
+Combining several routes into one shorter prefix. :: Route summarisation (supernetting)
+The rule a router uses when several routes match: it picks the most specific. :: Longest prefix match
+The number of hexadecimal digits in a full IPv6 address. :: 32
+The IPv6 loopback address. :: ::1
+The prefix of IPv6 link-local addresses. :: fe80::/10
+The IPv6 mechanism that lets a host configure its own address without DHCP. :: SLAAC
+The IPv6 protocol that replaces ARP. :: Neighbour Discovery Protocol (NDP)
+The type of address IPv6 does not have, which IPv4 uses to reach all hosts. :: Broadcast
+The address type that delivers to the nearest of several servers sharing one address. :: Anycast
+The size in bytes of an IPv4 header without options. :: 20
+The size in bytes of an IPv6 header. :: 40
+The size in bytes of a UDP header. :: 8
+The size in bytes of a TCP header without options. :: 20
+The size in bytes of an Ethernet MAC address. :: 6
+The minimum size of an Ethernet frame, in bytes. :: 64
+The IP protocol number for TCP. :: 6
+The IP protocol number for UDP. :: 17
+The EtherType value for IPv4, in hexadecimal. :: 0x0800
+The MAC address used for Ethernet broadcast. :: FF:FF:FF:FF:FF:FF
+The first half of a MAC address identifies this. :: Manufacturer (OUI)
+The first phase of TCP congestion control, in which the window doubles each round trip. :: Slow start
+The phase of TCP congestion control in which the window grows by one segment per round trip. :: Congestion avoidance
+The scheme "additive increase, multiplicative decrease" is shortened to this. :: AIMD
+The number of duplicate ACKs that triggers TCP fast retransmit. :: 3
+The TCP option that lets a receiver report non-contiguous blocks it has received. :: Selective acknowledgement (SACK)
+The TCP algorithm that delays small packets to combine them. :: Nagle's algorithm
+The Linux default congestion control algorithm since 2006, named after a polynomial. :: CUBIC
+The congestion control algorithm from Google that models bottleneck bandwidth and round-trip time. :: BBR
+The TCP state a server socket is in while waiting for connections. :: LISTEN
+The TCP state that lasts twice the maximum segment lifetime after closing. :: TIME_WAIT
+The attack that sends many SYN packets and never completes the handshake. :: SYN flood
+The defence against SYN floods that encodes state in the sequence number. :: SYN cookies
+The transport protocol developed by Google that runs over UDP and carries HTTP/3. :: QUIC
+The version of HTTP that introduced multiplexed streams over one TCP connection. :: HTTP/2
+The problem in which one lost packet delays all streams on a TCP connection. :: Head-of-line blocking
+The HTTP header that tells the server which site name is wanted. :: Host
+The HTTP status code for "Too Many Requests". :: 429
+The HTTP status code for "Service Unavailable". :: 503
+The HTTP status code for "Not Modified", used with caching. :: 304
+The HTTP status code for "Unauthorized". :: 401
+The protocol for two-way, long-lived connections between browser and server, started with an HTTP upgrade. :: WebSocket
+The architectural style for web APIs defined by Roy Fielding in 2000. :: REST
+The TLS extension that tells the server which hostname the client wants before encryption begins. :: SNI
+The number of round trips in a full TLS 1.3 handshake. :: 1
+The key exchange method that gives forward secrecy in TLS. :: Diffie–Hellman (ephemeral)
+The organisation type that signs website certificates. :: Certificate authority (CA)
+The free, automated certificate authority launched in 2015. :: Let's Encrypt
+The standard format of web certificates. :: X.509
+The extension that adds signatures to DNS answers. :: DNSSEC
+The protocol that sends DNS queries inside HTTPS. :: DNS over HTTPS (DoH)
+The kind of DNS server that answers from its own zone data rather than a cache. :: Authoritative server
+The kind of DNS query in which the resolver does all the work for the client. :: Recursive query
+The attack that puts false records into a DNS cache. :: DNS cache poisoning
+The email authentication record listing which servers may send mail for a domain. :: SPF
+The email authentication method that signs messages with a domain key. :: DKIM
+The OSPF area to which all other areas must connect. :: Area 0 (backbone)
+The messages OSPF routers send to discover neighbours. :: Hello packets
+The metric OSPF uses, based on link bandwidth. :: Cost
+The Cisco routing protocol that uses the DUAL algorithm. :: EIGRP
+The link-state protocol used inside many large internet providers, an alternative to OSPF. :: IS-IS
+The algorithm used by distance-vector routing protocols. :: Bellman–Ford
+The problem in distance-vector routing where bad news spreads slowly. :: Count to infinity
+The rule that a router does not advertise a route back out of the interface it learned it from. :: Split horizon
+The BGP attribute that lists the autonomous systems a route has passed through. :: AS path
+The TCP port BGP uses. :: 179
+The value Cisco routers use to rank the trustworthiness of route sources. :: Administrative distance
+The administrative distance of a directly connected route on Cisco devices. :: 0
+The technique that forwards packets using short labels instead of IP lookups. :: MPLS
+The tunnelling protocol developed by Cisco that wraps packets in a simple header. :: GRE
+The protocol suite that encrypts IP packets for site-to-site VPNs. :: IPsec
+The modern, lightweight VPN protocol built into the Linux kernel in 2020. :: WireGuard
+The Cisco protocol that bundles several links into one, standardised as LACP. :: EtherChannel (link aggregation)
+The protocol that gives hosts a virtual default gateway shared by two routers, an open standard. :: VRRP
+The switch feature that copies traffic to a monitoring port. :: Port mirroring (SPAN)
+The switch attack that floods the MAC table so the switch acts like a hub. :: MAC flooding
+The attack that sends fake ARP replies to intercept traffic. :: ARP spoofing
+The IEEE standard for port-based network access control. :: 802.1X
+The server protocol commonly used to authenticate Wi-Fi and VPN users. :: RADIUS
+The Wi-Fi technique that uses several antennas to send several data streams. :: MIMO
+The modulation scheme used by Wi-Fi 6 that divides a channel among several users. :: OFDMA
+The three non-overlapping channels in the 2.4 GHz Wi-Fi band. :: 1, 6 and 11
+The handshake that sets up encryption keys in WPA2. :: Four-way handshake
+The 2017 attack that broke WPA2 by replaying handshake messages. :: KRACK
+The approach of controlling network devices from central software, shortened to three letters. :: SDN
+The protocol that first let controllers program switch flow tables in SDN. :: OpenFlow
+The data-centre network design with two layers of switches, replacing the three-tier model. :: Spine–leaf
+The popular free tool for capturing and inspecting packets. :: Wireshark
+The port that email programs use to submit outgoing mail to a server. :: 587
+
+## 400
+The year ARPANET sent its first message. :: 1969
+The first message sent over ARPANET was meant to be "LOGIN" but only these two letters arrived. :: LO
+The university that sent the first ARPANET message. :: UCLA
+The number of nodes ARPANET had at the end of 1969. :: 4
+The two "fathers of the internet" who designed TCP/IP: Vint Cerf and this man. :: Bob Kahn
+The year Cerf and Kahn published their paper on TCP. :: 1974
+The date ARPANET switched to TCP/IP, known as "flag day". :: 1 January 1983
+The engineer who invented Ethernet at Xerox PARC in 1973. :: Robert Metcalfe
+The law that says a network's value grows with the square of its users. :: Metcalfe's law
+The Hawaiian radio network that inspired Ethernet's design. :: ALOHAnet
+The engineer who sent the first network email and chose the @ sign. :: Ray Tomlinson
+The year Ray Tomlinson sent the first network email. :: 1971
+The engineer who conceived packet switching at RAND and the British scientist who named it: Paul Baran and this man. :: Donald Davies
+The engineer who invented the Spanning Tree Protocol and wrote a poem about it. :: Radia Perlman
+The year Tim Berners-Lee proposed the World Wide Web at CERN. :: 1989
+The name of the first web browser, written by Tim Berners-Lee. :: WorldWideWeb (later Nexus)
+The graphical browser of 1993 that made the web popular. :: Mosaic
+The computer scientist who managed IANA for decades and edited the RFC series. :: Jon Postel
+The name of the documents that define internet standards. :: RFCs (Requests for Comments)
+The number of the RFC that defined IPv4. :: 791
+The number of the RFC that defined TCP in 1981. :: 793
+The number of the RFC that defines UDP. :: 768
+The organisation that develops internet standards through working groups. :: IETF
+The organisation that coordinates domain names and IP addresses worldwide. :: ICANN
+The regional internet registry that serves Europe and the Middle East, including Saudi Arabia. :: RIPE NCC
+The number of regional internet registries. :: 5
+The year IANA handed out its last blocks of IPv4 addresses to the regional registries. :: 2011
+The Saudi authority that regulates telecommunications and manages .sa domains. :: CST (Communications, Space and Technology Commission)
+The Arabic-script top-level domain of Saudi Arabia. :: .السعودية
+The system that encodes non-Latin domain names in ASCII, starting with "xn--". :: Punycode
+The year the first internationalised country domains, including Arabic ones, entered the DNS root. :: 2010
+The number of the RFC that defined the private address ranges. :: 1918
+The number of the RFC that defined IPv6 in 2017 as an internet standard. :: 8200
+The two types of TCP timer that guard against lost segments and idle connections: retransmission and this. :: Keepalive
+The formula for TCP's timeout uses a smoothed round-trip time and its variance, from this 1988 paper's author. :: Van Jacobson
+The event of 1986 in which internet throughput fell a thousandfold, leading to TCP congestion control. :: Congestion collapse
+The queue management scheme that drops packets early at random to signal congestion. :: RED (random early detection)
+The mechanism that marks packets instead of dropping them to signal congestion. :: ECN
+The problem of huge router buffers causing high latency. :: Bufferbloat
+The queue management algorithm designed by Nichols and Jacobson to fight bufferbloat. :: CoDel
+The formula that limits TCP throughput to about MSS divided by RTT times the square root of loss. :: Mathis formula
+The product of bandwidth and round-trip time, which sets how much data must be in flight. :: Bandwidth–delay product
+The TCP option that allows windows larger than 65,535 bytes. :: Window scaling
+The TCP option that sets the largest segment a host can receive. :: MSS (maximum segment size)
+The usual MSS on an Ethernet link with IPv4. :: 1,460
+The process of discovering the smallest MTU on a path. :: Path MTU discovery
+The IPv4 header field that, when set, forbids routers from fragmenting a packet. :: Don't Fragment (DF)
+The error-checking method used in the IPv4 header. :: Ones' complement checksum
+The field IPv6 removed from the IP header because link layers already check errors. :: Header checksum
+The field in IPv6 that replaces IPv4's TTL. :: Hop limit
+The field in the IPv4 header that marks priority and congestion, formerly called type of service. :: DSCP (differentiated services)
+The DSCP class used for voice traffic, named "expedited forwarding". :: EF
+The technique that sends one packet to a group of receivers who joined, using addresses from 224.0.0.0. :: Multicast
+The protocol hosts use to join IPv4 multicast groups. :: IGMP
+The protocol that builds multicast trees between routers. :: PIM
+The BGP attribute set locally to prefer one exit over another inside an AS. :: Local preference
+The BGP attribute that suggests to a neighbour which entry point to use. :: MED (multi-exit discriminator)
+The incident of 2008 in which Pakistan Telecom accidentally took YouTube offline worldwide. :: BGP hijack
+The security system that signs which AS may announce which prefixes. :: RPKI
+The company whose services vanished for about six hours in October 2021 after it withdrew its own BGP routes. :: Facebook (Meta)
+The technique of announcing a more specific prefix to steal traffic. :: Prefix hijacking (more-specific announcement)
+The places where networks meet to swap traffic, shortened to three letters. :: IXP (internet exchange point)
+The arrangement in which two networks exchange traffic without payment. :: Peering
+The arrangement in which one network pays another for access to the whole internet. :: Transit
+The network tier for the largest providers that reach the whole internet without buying transit. :: Tier 1
+The submarine cable system with a landing in Jeddah that links South-East Asia to Europe through Egypt. :: AAE-1 (Asia–Africa–Europe 1)
+The Linux command-line packet capture tool. :: tcpdump
+The tool used to scan networks for open ports. :: Nmap
+The tool that measures bandwidth between two hosts. :: iperf
+The command that shows open connections and listening ports. :: netstat (or ss)
+The DNS lookup tool that shows the full answer, the name of which stands for "domain information groper". :: dig
+The Windows command that shows a computer's IP configuration. :: ipconfig
+The Cisco command that saves the running configuration. :: copy running-config startup-config
+The Cisco mode reached with the "enable" command. :: Privileged EXEC mode
+The open standard that replaced Cisco's CDP for discovering neighbours. :: LLDP
+The NetFlow standard published by the IETF. :: IPFIX
+The technique in which switches forward frames before receiving them completely. :: Cut-through switching
+The technique in which switches receive whole frames and check them before forwarding. :: Store-and-forward
+The standard that sends power to devices over Ethernet cables. :: PoE
+The Ethernet speed reached by 802.3ba in 2010. :: 100 Gbps
+The technique that carries several wavelengths of light on one fibre. :: WDM (wavelength-division multiplexing)
+The scientist who shared the 2009 Nobel Prize for work on fibre-optic communication. :: Charles Kao
+The theorem giving the maximum data rate of a noisy channel. :: Shannon–Hartley theorem
+The Nyquist formula gives the maximum rate of a noiseless channel as twice the bandwidth times log₂ of this. :: Number of signal levels
+The coding used on Fast Ethernet that maps 4 bits to 5. :: 4B/5B
+The line coding used by original 10 Mbps Ethernet. :: Manchester encoding
+The Hamming distance needed to correct one-bit errors. :: 3
+The CRC length used by Ethernet, in bits. :: 32
+The cellular technology of 3G based on code-division, used in many countries. :: CDMA (WCDMA/UMTS)
+The 5G technique of splitting one physical network into isolated virtual networks. :: Network slicing
+The 5G frequency range above 24 GHz with very high speed but short range. :: Millimetre wave
+The organisation that writes the standards for 4G and 5G. :: 3GPP
+The Wi-Fi generation that added the 6 GHz band. :: Wi-Fi 6E
+The Wi-Fi generation based on 802.11be. :: Wi-Fi 7
+The scientist at CERN who co-proposed the web with Tim Berners-Lee in 1990. :: Robert Cailliau
+The year CERN put the World Wide Web software in the public domain. :: 1993
+The first domain ever registered, in 1985, was symbolics followed by this ending. :: .com
+The Hollywood actress who co-invented frequency hopping, an ancestor of Wi-Fi and Bluetooth. :: Hedy Lamarr
+The Danish king whose nickname gave Bluetooth its name. :: Harald Bluetooth
+The engineer at Ericsson who invented Bluetooth. :: Jaap Haartsen
+
+## 500
+The number of usable hosts in a /22 network. :: 1,022
+The number of /27 subnets in a /24 network. :: 8
+The smallest prefix length that gives at least 500 usable host addresses. :: /23
+The wildcard mask that matches a /20 network in a Cisco access list. :: 0.0.15.255
+The network address of the host 172.20.37.200/20. :: 172.20.32.0
+The broadcast address of the network 192.168.10.64/27. :: 192.168.10.95
+The summary route for 10.1.4.0/24, 10.1.5.0/24, 10.1.6.0/24 and 10.1.7.0/24. :: 10.1.4.0/22
+The number of IPv4 addresses in total, about 4.3 billion, is 2 to this power. :: 32
+The number of /64 subnets in an IPv6 /48 allocation. :: 65,536
+The usual prefix length of an IPv6 subnet for hosts. :: /64
+The shortened form of the IPv6 address 2001:0db8:0000:0000:0000:0000:0000:0001. :: 2001:db8::1
+The IPv6 documentation prefix, reserved for examples. :: 2001:db8::/32
+The IPv6 multicast address that reaches all nodes on a link. :: ff02::1
+The 64-bit interface identifier made from a 48-bit MAC address by inserting FFFE in the middle. :: Modified EUI-64
+The IPv4 range reserved for carrier-grade NAT. :: 100.64.0.0/10
+The IPv4 block reserved for documentation as "TEST-NET-1". :: 192.0.2.0/24
+The maximum number of hops RIP allows before a route is unreachable. :: 15
+The interval in seconds at which RIP sends its whole routing table. :: 30
+The default OSPF hello interval on broadcast links, in seconds. :: 10
+The default OSPF reference bandwidth, in megabits per second, that makes all fast links cost 1. :: 100
+The OSPF cost of a 10 Mbps link with the default reference bandwidth. :: 10
+The multicast address OSPF routers use to reach all OSPF routers. :: 224.0.0.5
+The OSPF router that reduces the number of adjacencies on a broadcast network. :: Designated router (DR)
+The OSPF LSA type that a router generates to describe its own links. :: Type 1 (router LSA)
+The first attribute Cisco checks in BGP path selection, local to the router. :: Weight
+The number of 32-bit AS numbers available, compared with 65,536 in the 16-bit range. :: About 4.3 billion
+The private AS number range in the 16-bit space starts at this number. :: 64,512
+The TCP sequence number field has this many bits. :: 32
+The receive window field in the TCP header has this many bits. :: 16
+The largest window possible with TCP window scaling, about 1 gigabyte, uses a scale factor of this. :: 14
+The maximum segment lifetime commonly assumed by TCP, in seconds. :: 120
+The TCP throughput limit, in megabits per second, of a 64-kilobyte window on a 100 ms round trip, roughly. :: 5
+The bandwidth–delay product, in megabytes, of a 1 Gbps link with a 40 ms round trip. :: 5
+The time in milliseconds for light to cross 1,000 km of fibre, roughly. :: 5
+The speed of light in fibre as a fraction of its speed in vacuum, roughly. :: Two-thirds
+The utilisation of pure ALOHA at its best, as a percentage, roughly. :: 18
+The utilisation of slotted ALOHA at its best, as a percentage, roughly. :: 37
+The binary exponential backoff in Ethernet gives up after this many attempts. :: 16
+The slot time of 10 Mbps Ethernet, in bits. :: 512
+The size of an Ethernet frame's preamble and start delimiter together, in bytes. :: 8
+The gap between Ethernet frames, in bit times. :: 96
+The maximum send window of Go-Back-N with 3-bit sequence numbers. :: 7
+The maximum send window of Selective Repeat with 3-bit sequence numbers. :: 4
+The maximum data rate, in kilobits per second, of a 3 kHz channel with a signal-to-noise ratio of 30 dB, roughly. :: 30
+The Nyquist maximum data rate, in kilobits per second, of a 4 kHz noiseless channel with 8 signal levels. :: 24
+The number of bits per symbol in 256-QAM. :: 8
+The number of bits per symbol in 1024-QAM, used by Wi-Fi 6. :: 10
+The number of bits per symbol in 4096-QAM, used by Wi-Fi 7. :: 12
+The width, in megahertz, of the widest channel in Wi-Fi 7. :: 320
+The number of check bits a Hamming code needs to protect 7 data bits for single-error correction. :: 4
+The number of 1 bits in the codeword of the generator polynomial x³ + x + 1. :: 3
+The remainder when 1101 is divided by 101 in CRC division. :: 10
+The Internet checksum of the two 16-bit words 0x0001 and 0xFFFE. :: 0x0000
+The algorithm that the Internet checksum is based on, adding 16-bit words with end-around carry. :: Ones' complement sum
+The maximum length of a full domain name, in characters. :: 253
+The maximum length of a single DNS label, in characters. :: 63
+The traditional maximum size of a DNS message over UDP before EDNS, in bytes. :: 512
+The DNS record type that holds a domain's public signing key in DNSSEC. :: DNSKEY
+The 2008 DNS flaw found by Dan Kaminsky concerned this kind of attack. :: Cache poisoning
+The year the Morris worm infected about a tenth of the internet. :: 1988
+The 2016 botnet made of insecure cameras and routers that knocked out Dyn's DNS. :: Mirai
+The amplification factor of memcached reflection attacks in 2018, roughly. :: 50,000
+The attack named after the 2014 bug in OpenSSL's heartbeat extension. :: Heartbleed
+The 2014 attack that forced connections down to SSL 3.0. :: POODLE
+The cipher suite naming in TLS 1.3 removed the key exchange and this part. :: Authentication (signature) algorithm
+The TLS 1.3 feature that lets a returning client send data in its first message. :: 0-RTT (early data)
+The certificate field that lists all the hostnames a certificate covers. :: Subject Alternative Name (SAN)
+The public logs that record every issued certificate. :: Certificate Transparency
+The maximum validity of public TLS certificates set by the CA/Browser Forum from 2020. :: 398 days
+The HTTP header that tells browsers to use HTTPS only for a site. :: Strict-Transport-Security (HSTS)
+The header compression scheme used by HTTP/2. :: HPACK
+The header compression scheme used by HTTP/3. :: QPACK
+The year HTTP/3 was published as RFC 9114. :: 2022
+The feature of QUIC that keeps a connection alive when a phone switches from Wi-Fi to mobile data. :: Connection migration
+The number of round trips QUIC needs to set up a new secure connection. :: 1
+The Linux kernel framework for fast packet processing at the driver level, shortened to three letters. :: XDP
+The in-kernel virtual machine used for programmable networking in Linux. :: eBPF
+The library from Intel for packet processing in user space, bypassing the kernel. :: DPDK
+The routing approach in data centres that uses many equal-cost paths at once. :: ECMP
+The protocol that extends Layer 2 networks over Layer 3 in data centres, using a 24-bit network identifier. :: VXLAN
+The number of usable VLAN IDs, a limit that VXLAN's 24-bit identifier raises to about 16 million. :: 4,094
+The protocol that carries remote direct memory access over Ethernet. :: RoCE
+The interconnect widely used in supercomputers and AI clusters, an alternative to Ethernet. :: InfiniBand
+The year Ethernet's 400 Gbps standard, 802.3bs, was approved. :: 2017
+The Ethernet speed defined by IEEE 802.3df in 2024. :: 800 Gbps
+The submarine cable owned by Google that links the US and Spain, named after an American computer pioneer. :: Grace Hopper
+The longest submarine cable system, linking more than 30 countries around Africa, launched by Meta and partners. :: 2Africa
+The Saudi company that is the kingdom's largest telecom operator. :: stc
+The number of usable hosts in a /29 network. :: 6
+The number of addresses in the whole 10.0.0.0/8 private block. :: 16,777,216
+The number of usable hosts on a /31 point-to-point link under RFC 3021. :: 2
+The subnet mask of a /21 network. :: 255.255.248.0
+The number of bits in the flow label field of the IPv6 header. :: 20
+The number of bits in the DSCP field. :: 6
+The number of bits in a VLAN ID. :: 12
+The number of priority levels the 802.1p field in a VLAN tag allows. :: 8
+The default administrative distance of OSPF on Cisco routers. :: 110
+The default administrative distance of external BGP on Cisco routers. :: 20
+The default administrative distance of RIP on Cisco routers. :: 120
+The number of round trips needed to fetch a web page over a new TCP connection with TLS 1.2 before the first byte of HTTP data arrives, counting the TCP handshake. :: 3

@@ -1,0 +1,514 @@
+id: arabworld
+name: The Arab World
+nameAr: العالم العربي
+group: general
+
+## 100
+The capital of Saudi Arabia. :: Riyadh
+The capital of Egypt. :: Cairo
+The capital of the United Arab Emirates. :: Abu Dhabi
+The capital of Jordan. :: Amman
+The capital of Lebanon. :: Beirut
+The capital of Iraq. :: Baghdad
+The capital of Syria. :: Damascus
+The capital of Kuwait. :: Kuwait City
+The capital of Qatar. :: Doha
+The capital of Bahrain. :: Manama
+The capital of Oman. :: Muscat
+The capital of Yemen. :: Sana'a
+The capital of Morocco. :: Rabat
+The capital of Tunisia. :: Tunis
+The capital of Algeria. :: Algiers
+The capital of Libya. :: Tripoli
+The capital of Sudan. :: Khartoum
+The famous river that flows through Egypt. :: Nile
+The ancient tombs built for pharaohs near Cairo. :: Pyramids
+The statue with a lion's body and a human head near the pyramids. :: Sphinx
+The tallest building in the world, in Dubai. :: Burj Khalifa
+The holiest city in Islam. :: Makkah
+The city of the Prophet's Mosque. :: Madinah
+The city where the Al-Aqsa Mosque stands. :: Jerusalem (Al-Quds)
+The ancient rose-red city carved in rock in Jordan. :: Petra
+The sea between Saudi Arabia and Africa. :: Red Sea
+The gulf on Saudi Arabia's east coast. :: Arabian Gulf
+The language spoken across the Arab world. :: Arabic
+The number of countries in the Arab League. :: 22
+The animal called "the ship of the desert". :: Camel
+The national bird of many Gulf countries, used in hunting. :: Falcon
+The tree that produces dates. :: Date palm
+The traditional white robe worn by men in the Gulf. :: Thobe
+The red-and-white or white headscarf worn by Gulf men. :: Ghutra (shemagh)
+The black cord that holds the ghutra in place. :: Agal
+The traditional Gulf coffee pot. :: Dallah
+The traditional Gulf drink served with dates. :: Arabic coffee (gahwa)
+The holy month of fasting. :: Ramadan
+The festival at the end of Ramadan. :: Eid al-Fitr
+The festival during Hajj. :: Eid al-Adha
+The currency of Saudi Arabia. :: Riyal
+The currency of Egypt. :: Egyptian pound
+The currency of the UAE. :: Dirham
+The currency of Kuwait, the highest-valued currency in the world. :: Kuwaiti dinar
+The colour of most of the Saudi flag. :: Green
+The weapon shown on the Saudi flag. :: Sword
+The largest country in the Arab world by area. :: Algeria
+The Arab country with the most people. :: Egypt
+The largest country in the Arabian Peninsula. :: Saudi Arabia
+The desert that covers much of North Africa. :: Sahara
+The largest sand desert in the world, in Arabia. :: Rub' al Khali (Empty Quarter)
+The Lebanese city famous for its ancient ruins of the Temple of Bacchus. :: Baalbek
+The famous Egyptian city on the Mediterranean founded by Alexander the Great. :: Alexandria
+The Moroccan city famous for its red walls and Jemaa el-Fnaa square. :: Marrakesh
+The country whose flag shows a cedar tree. :: Lebanon
+The country whose flag has an eagle and is red, white, and black, home to the pyramids. :: Egypt
+The country whose flag has a green star on red. :: Morocco
+The country whose flag has a red crescent and star on white circle, on red. :: Tunisia
+The maroon-and-white flag belongs to this Gulf country. :: Qatar
+The country whose flag has red, white, green, and black with a vertical red bar. :: UAE
+The famous Egyptian singer called "the Star of the East". :: Umm Kulthum
+The famous Lebanese singer called "the Ambassador to the Stars". :: Fairuz
+The Egyptian footballer who plays for Liverpool. :: Mohamed Salah
+The Saudi football team won against this country at the 2022 World Cup in a famous upset. :: Argentina
+The country that hosted the 2022 FIFA World Cup. :: Qatar
+The country that will host the 2034 FIFA World Cup. :: Saudi Arabia
+The Arab country that reached the World Cup semi-final in 2022. :: Morocco
+The UAE city that hosted Expo 2020. :: Dubai
+The Saudi city chosen to host Expo 2030. :: Riyadh
+The famous island shaped like a palm tree in Dubai. :: Palm Jumeirah
+The Saudi city on the Red Sea known as "the Bride of the Red Sea". :: Jeddah
+The country home to the ancient city of Babylon. :: Iraq
+The two great rivers of Iraq. :: Tigris and Euphrates
+The Arab country made up of 33 islands in the Gulf. :: Bahrain
+The Arab country that sits on the Strait of Hormuz with Musandam. :: Oman
+The Arab country in the Horn of Africa whose capital is Mogadishu. :: Somalia
+The tiny Arab country in the Horn of Africa next to Eritrea. :: Djibouti
+The island Arab country in the Indian Ocean. :: Comoros
+The Arab country on the Atlantic between Morocco and Senegal. :: Mauritania
+The day of the week for Friday prayer. :: Friday
+The famous storyteller of "One Thousand and One Nights". :: Shahrazad (Scheherazade)
+The boy with a magic lamp in the Arabian Nights tales. :: Aladdin
+The sailor of the Arabian Nights who made seven voyages. :: Sinbad
+The thief who said "Open, sesame" in the famous story. :: Ali Baba
+The famous Arab dish of chickpea dip. :: Hummus
+The sweet pastry of filo, nuts, and syrup popular across the Arab world. :: Baklava
+The traditional Gulf sweet of fried dough balls with date syrup. :: Luqaimat
+The famous Saudi spiced rice and meat dish. :: Kabsa
+The sport of racing these animals is popular in the Gulf. :: Camels
+The strait that separates Morocco from Spain. :: Strait of Gibraltar
+The canal in Egypt that joins the Mediterranean and the Red Sea. :: Suez Canal
+The mosque in Abu Dhabi famous for its white domes. :: Sheikh Zayed Grand Mosque
+The country where the ancient city of Carthage stood. :: Tunisia
+The Gulf country whose capital has the Avenues mall and Liberation Tower. :: Kuwait
+The Arab country where the Dead Sea's eastern shore lies. :: Jordan
+The North African dish of steamed semolina grains, listed by UNESCO in 2020. :: Couscous
+The country where the Atlas Mountains mostly lie. :: Morocco
+The Arab capital called "the city of a thousand minarets". :: Cairo
+The ancient city of Palmyra is in this country. :: Syria
+The Saudi city where the King Fahd Causeway to Bahrain begins. :: Al Khobar
+
+## 200
+The year the Arab League was founded. :: 1945
+The city where the Arab League is headquartered. :: Cairo
+The number of founding members of the Arab League. :: 7
+The year the Gulf Cooperation Council was founded. :: 1981
+The number of member states of the GCC. :: 6
+The city where the GCC is headquartered. :: Riyadh
+The year the UAE was founded. :: 1971
+The number of emirates in the UAE. :: 7
+The emirate that joined the UAE in 1972, the last one to join. :: Ras Al Khaimah
+The first president of the UAE. :: Sheikh Zayed bin Sultan Al Nahyan
+The year the Kingdom of Saudi Arabia was unified. :: 1932
+The founder of modern Saudi Arabia. :: King Abdulaziz (Ibn Saud)
+The year Kuwait gained independence from Britain. :: 1961
+The year Qatar and Bahrain gained independence. :: 1971
+The group of army officers who led Egypt's 1952 revolution. :: Free Officers
+The Egyptian president who nationalised the Suez Canal in 1956. :: Gamal Abdel Nasser
+The year the Suez Canal opened. :: 1869
+The dam built on the Nile in the 1960s. :: Aswan High Dam
+The lake created by the Aswan High Dam. :: Lake Nasser
+The temple moved to save it from Lake Nasser's waters. :: Abu Simbel
+The pharaoh whose tomb was found almost untouched in 1922. :: Tutankhamun
+The British archaeologist who found Tutankhamun's tomb. :: Howard Carter
+The largest pyramid at Giza, built for this pharaoh. :: Khufu
+The new museum near the pyramids that fully opened in 2025. :: Grand Egyptian Museum
+The ancient Phoenician city in Lebanon whose name gave us the word "Bible". :: Byblos
+The ancient Phoenician city famous for purple dye. :: Tyre
+The Jordanian city with well-preserved Roman ruins, called Gerasa. :: Jerash
+The desert valley in Jordan where "Lawrence of Arabia" was filmed. :: Wadi Rum
+The lowest point on land on Earth. :: Dead Sea
+The Lebanese mountain range famous for cedars. :: Mount Lebanon
+The Syrian city famous for its huge citadel and souq, among the oldest cities in the world. :: Aleppo
+The Umayyad Mosque is in this capital. :: Damascus
+The Iraqi city that was the capital of the Abbasid Caliphate. :: Baghdad
+The Iraqi city with the spiral minaret of its Great Mosque. :: Samarra
+The ancient Iraqi city with the great ziggurat, home of the Sumerians. :: Ur
+The marshes of southern Iraq, on UNESCO's list since 2016. :: Mesopotamian Marshes (Ahwar)
+The Yemeni city famous for its mud-brick "skyscrapers". :: Shibam
+The Yemeni island famous for its dragon's blood trees. :: Socotra
+The Omani city famous for its fort and old souq, once Oman's capital. :: Nizwa
+The Omani region famous for frankincense trees. :: Dhofar
+The Omani city that is the capital of Dhofar. :: Salalah
+The ancient spice traded from southern Arabia, burned as incense. :: Frankincense
+The Qatari museum shaped like a desert rose. :: National Museum of Qatar
+The famous museum in Abu Dhabi linked with the Paris museum. :: Louvre Abu Dhabi
+The Dubai museum shaped like a ring with Arabic calligraphy. :: Museum of the Future
+The Kuwaiti towers that are a symbol of the country. :: Kuwait Towers
+The Bahraini fort on the UNESCO list, once Dilmun's capital. :: Qal'at al-Bahrain
+The ancient civilisation centred on Bahrain. :: Dilmun
+The Moroccan city famous for its blue-painted streets. :: Chefchaouen
+The Moroccan city with the world's oldest university still running. :: Fez
+The university founded in Fez by Fatima al-Fihri in 859. :: University of al-Qarawiyyin
+The mosque in Casablanca with one of the world's tallest minarets. :: Hassan II Mosque
+The Tunisian island famous for its beaches and Jewish synagogue of El Ghriba. :: Djerba
+The Tunisian city with the great mosque that is one of the oldest in North Africa. :: Kairouan
+The Algerian mountain region famous for Kabyle Berber culture. :: Kabylie
+The Algerian city known as "the city of bridges". :: Constantine
+The Libyan ancient Roman city on the coast, a UNESCO site. :: Leptis Magna
+The ancient Kushite city in Sudan famous for its steep pyramids. :: Meroë
+The two Niles meet in this city. :: Khartoum
+The White Nile begins near this lake. :: Lake Victoria
+The Blue Nile begins at this lake in Ethiopia. :: Lake Tana
+The Mauritanian iron ore train is one of the longest in the world, running to this port. :: Nouadhibou
+The Mauritanian ancient city with desert libraries. :: Chinguetti
+The Sheikh who led Dubai's growth and is the UAE's vice president. :: Sheikh Mohammed bin Rashid Al Maktoum
+The emir of Qatar since 2013. :: Sheikh Tamim bin Hamad Al Thani
+The king of Jordan since 1999. :: King Abdullah II
+The king of Morocco since 1999. :: King Mohammed VI
+The sultan of Oman since 2020. :: Sultan Haitham bin Tarik
+The king of Bahrain. :: King Hamad bin Isa Al Khalifa
+The famous Egyptian actor of "Lawrence of Arabia" and "Doctor Zhivago". :: Omar Sharif
+The Egyptian Nobel Peace Prize winner who led the IAEA. :: Mohamed ElBaradei
+The Egyptian chemist who won the 1999 Nobel Prize in Chemistry. :: Ahmed Zewail
+The Tunisian group that won the 2015 Nobel Peace Prize. :: National Dialogue Quartet
+The Yemeni journalist who shared the 2011 Nobel Peace Prize. :: Tawakkol Karman
+The Arab satellite news channel founded in Qatar in 1996. :: Al Jazeera
+The Arab satellite news channel based in Dubai, founded in 2003. :: Al Arabiya
+The famous Lebanese-born author of "The Prophet". :: Kahlil Gibran
+The Iraqi-British architect who designed the Guangzhou Opera House. :: Zaha Hadid
+The Emirati airline based in Dubai. :: Emirates
+The Qatari national airline. :: Qatar Airways
+The Saudi national airline. :: Saudia
+The famous Moroccan football club from Casablanca, rival of Raja. :: Wydad
+The Egyptian club that has won the most CAF Champions League titles. :: Al Ahly
+The Saudi club Cristiano Ronaldo joined in 2023. :: Al Nassr
+The Algerian-born French footballer who won the 1998 World Cup. :: Zinedine Zidane
+The Moroccan runner who holds the 1500 m world record. :: Hicham El Guerrouj
+The Moroccan coach who led the team to the 2022 World Cup semi-final. :: Walid Regragui
+The Arab country that won the 2021 FIFA Arab Cup. :: Algeria
+The Qatari high jumper who shared Olympic gold in 2021. :: Mutaz Essa Barshim
+The Tunisian tennis player called "the Minister of Happiness". :: Ons Jabeur
+The Lebanese capital's famous seaside promenade. :: Corniche (Beirut)
+The Lebanese rock formation off Beirut's coast. :: Pigeon Rocks (Raouché)
+The grotto in Lebanon famous for limestone caves. :: Jeita Grotto
+The Syrian ancient city famous for its water wheels (norias). :: Hama
+The highest mountain in North Africa, in Morocco's Atlas. :: Toubkal
+The Omani mountain range that includes Jebel Shams. :: Hajar Mountains
+The Emirati island that is home to the Louvre Abu Dhabi. :: Saadiyat Island
+The Gulf strait between Oman and Iran. :: Strait of Hormuz
+The strait between Yemen and Djibouti, linking the Red Sea to the Gulf of Aden. :: Bab al-Mandab
+The ancient kingdom of southern Arabia linked with the Queen of Sheba. :: Saba (Sheba)
+
+## 300
+The dynasty that ruled from Damascus from 661 to 750. :: Umayyad
+The dynasty that ruled from Baghdad from 750. :: Abbasid
+The Abbasid caliph who founded Baghdad in 762. :: Al-Mansur
+The original name of Baghdad meaning "City of Peace". :: Madinat al-Salam
+The Abbasid caliph of the Arabian Nights, ruler from 786 to 809. :: Harun al-Rashid
+The Mongol leader who sacked Baghdad in 1258. :: Hulagu Khan
+The dynasty that founded Cairo in 969. :: Fatimid
+The mosque-university founded in Cairo by the Fatimids in 970. :: Al-Azhar
+The Kurdish-born sultan who retook Jerusalem in 1187. :: Saladin (Salah al-Din)
+The battle of 1187 where Saladin defeated the Crusaders. :: Battle of Hattin
+The Mamluk victory over the Mongols in 1260 in Palestine. :: Battle of Ain Jalut
+The Mamluk sultan who won at Ain Jalut alongside Qutuz. :: Baybars
+The empire that ruled most of the Arab world from the 1500s to 1918. :: Ottoman Empire
+The 1916 secret agreement that divided Arab lands between Britain and France. :: Sykes-Picot Agreement
+The Sharif of Makkah who launched the Arab Revolt in 1916. :: Sharif Hussein bin Ali
+The British officer known as "Lawrence of Arabia". :: T. E. Lawrence
+The son of Sharif Hussein who became the first king of Iraq. :: Faisal I
+The son of Sharif Hussein who founded the emirate of Transjordan. :: Abdullah I
+The year Jordan gained full independence. :: 1946
+The year Lebanon gained independence from France. :: 1943
+The year the last French troops left Syria, marked as its Evacuation Day. :: 1946
+The year Morocco and Tunisia gained independence from France. :: 1956
+The year Algeria gained independence after an eight-year war. :: 1962
+The year Libya became independent, the first country to do so through the UN. :: 1951
+The year Sudan became independent. :: 1956
+The year Oman's Sultan Qaboos came to power. :: 1970
+The year the Kingdom of Saudi Arabia joined the United Nations as a founding member. :: 1945
+The year oil was discovered in commercial amounts in Saudi Arabia at Dammam Well No. 7. :: 1938
+The year oil was first discovered in Bahrain, the first in the Arab Gulf. :: 1932
+The world's largest conventional oil field, in Saudi Arabia. :: Ghawar
+The world's largest offshore oil field, in Saudi Arabia. :: Safaniya
+The gas field shared between Qatar and Iran, the world's largest. :: North Field (South Pars)
+The organisation of oil-exporting countries founded in Baghdad in 1960. :: OPEC
+The Saudi oil minister who led OPEC policy in the 1970s. :: Ahmed Zaki Yamani
+The year of the Arab oil embargo. :: 1973
+The Moroccan traveller who journeyed for nearly 30 years in the 14th century. :: Ibn Battuta
+The Tunisian scholar who wrote the "Muqaddimah". :: Ibn Khaldun
+The Andalusian philosopher known as Averroes. :: Ibn Rushd
+The mathematician of Baghdad whose name gave us "algorithm". :: Al-Khwarizmi
+The Arab scholar of Basra called "the father of optics". :: Ibn al-Haytham
+The Arab philosopher called "the philosopher of the Arabs". :: Al-Kindi
+The palace and fortress in Granada built by the Nasrid dynasty. :: Alhambra
+The year Granada, the last Muslim kingdom in Spain, fell. :: 1492
+The Great Mosque in Spain that became a cathedral. :: Mosque of Córdoba (Mezquita)
+The Umayyad prince who escaped to found the emirate of Córdoba. :: Abd al-Rahman I
+The Muslim general who crossed into Spain in 711, giving his name to Gibraltar. :: Tariq ibn Ziyad
+The Arabic name from which "Gibraltar" comes. :: Jabal Tariq
+The Arab-ruled island of Italy from the 9th to 11th centuries. :: Sicily
+The famous Iraqi singer called "the Caesar of Arabic song". :: Kadim Al Sahir
+The Egyptian composer and singer of "Ya Msafer Wahdak", called "the musician of generations". :: Mohammed Abdel Wahab
+The Egyptian singer called "the Dark-skinned Nightingale". :: Abdel Halim Hafez
+The Saudi singer called "the Artist of the Arabs". :: Mohammed Abdu
+The Saudi singer known as "the Voice of the Land", who died in 2000. :: Talal Maddah
+The Algerian music genre made famous by Cheb Khaled. :: Raï
+The Lebanese musical family of composers, the Rahbani brothers, worked with this singer. :: Fairuz
+The Moroccan Gnawa music festival is held in this coastal city. :: Essaouira
+The Lebanese festival held among Roman temples. :: Baalbeck International Festival
+The Saudi heritage and culture festival held at Al-Janadriyah. :: National Festival for Heritage and Culture (Janadriyah)
+The Saudi date festival city in Qassim. :: Buraidah
+The Saudi festival that is the world's largest camel beauty contest. :: King Abdulaziz Camel Festival
+The Saudi region of green mountains home to the "flower men" of Tihama. :: Asir
+The Saudi city called "the city of roses". :: Ta'if
+The Omani rose water comes from roses grown on this mountain. :: Jebel Akhdar
+The UAE oasis city on the UNESCO list, near Oman. :: Al Ain
+The Saudi oasis of Al-Ahsa is on UNESCO's list since this year. :: 2018
+The first Saudi site on UNESCO's World Heritage List, in 2008. :: Hegra (Al-Hijr, Mada'in Salih)
+The Nabataean city in Saudi Arabia with over 100 tombs. :: Hegra
+The ancient Arab trading people who built Petra and Hegra. :: Nabataeans
+The capital of the first Saudi state, now a UNESCO site. :: Diriyah (At-Turaif)
+The Jeddah old town listed by UNESCO in 2014. :: Al-Balad (Historic Jeddah)
+The coral-stone houses of old Jeddah are famous for these wooden window screens. :: Rawasheen (mashrabiya)
+The Kuwaiti island with Bronze Age ruins and a Greek temple. :: Failaka
+The pearl diving was the main industry of the Gulf until this was discovered. :: Oil
+The Japanese invention of this in the 1920s ruined the Gulf pearl trade. :: Cultured pearls
+The Bahraini UNESCO site linked to pearling. :: Pearling Path (Muharraq)
+The traditional Gulf wooden ship. :: Dhow
+The Kuwaiti boat-building tradition is famous for this kind of dhow. :: Boom
+The traditional Emirati wind-tower houses used for cooling. :: Barjeel
+The Moroccan riad houses are built around this. :: Courtyard (garden)
+The famous Tunisian village painted in blue and white. :: Sidi Bou Said
+The famous Algerian old city of Algiers, a UNESCO site. :: Casbah
+The Moroccan city whose medina is said to be the largest car-free urban area. :: Fez (Fes el-Bali)
+The Egyptian city famous for the Valley of the Kings. :: Luxor
+The temple complex in Luxor with the great hypostyle hall. :: Karnak
+The female pharaoh with a temple at Deir el-Bahari. :: Hatshepsut
+The last active pharaoh of Ptolemaic Egypt. :: Cleopatra VII
+The famous library of ancient Alexandria was rebuilt in modern form in this year. :: 2002
+The famous lighthouse of Alexandria, one of the Seven Wonders, stood on this island. :: Pharos
+The Egyptian peninsula with Mount Sinai and Sharm El Sheikh. :: Sinai
+The Jordanian port city on the Red Sea. :: Aqaba
+The Saudi giga-project on the northwest Red Sea coast. :: NEOM
+The Saudi project of luxury resorts on Red Sea islands. :: Red Sea Global (The Red Sea project)
+The Saudi entertainment city project near Riyadh. :: Qiddiya
+The Saudi Vision for the country's future launched in 2016. :: Vision 2030
+The Emirati space mission that reached Mars in 2021. :: Hope Probe (Emirates Mars Mission)
+The first Arab woman in space, from Saudi Arabia, in 2023. :: Rayyanah Barnawi
+The first Arab astronaut, a Saudi prince, flew in 1985. :: Prince Sultan bin Salman
+The first Emirati to go to space, in 2019. :: Hazza Al Mansouri
+The Iraqi city on the Tigris, home of the Great Mosque of al-Nuri and its leaning minaret. :: Mosul
+The Kurdish city in Iraq whose citadel is one of the oldest lived-in places on Earth. :: Erbil
+
+## 400
+The founder of the Umayyad dynasty. :: Mu'awiya ibn Abi Sufyan
+The Umayyad caliph who built the Dome of the Rock. :: Abd al-Malik ibn Marwan
+The year the Dome of the Rock was completed. :: 691
+The Umayyad caliph who built the Great Mosque of Damascus. :: Al-Walid I
+The Umayyad caliph famous for his justice, called "the fifth rightly guided caliph". :: Umar ibn Abd al-Aziz
+The Battle of 750 on a river in Iraq where the Abbasids defeated the Umayyads. :: Battle of the Zab
+The battle of 751 against the Tang Chinese that brought papermaking to the Arabs. :: Battle of Talas
+The first paper mill of the Arab world was built in this city in 794. :: Baghdad
+The Abbasid caliph who led the House of Wisdom's golden age and began the Mihna. :: Al-Ma'mun
+The Abbasid caliph who moved the capital to Samarra in 836. :: Al-Mu'tasim
+The Turkish dynasty whose sultans held power over the Abbasid caliphs from 1055. :: Seljuks
+The Abbasid caliphate continued in name in this city after 1258, under the Mamluks. :: Cairo
+The Fatimid caliph who founded Cairo, through his general Jawhar. :: Al-Mu'izz li-Din Allah
+The Ayyubid ruler's wife who ruled Egypt as sultana in 1250. :: Shajar al-Durr
+The Mamluk sultan who built a famous complex and hospital in Cairo, the Qalawun complex. :: Qalawun
+The Ottoman sultan who conquered Egypt and Syria in 1516–1517. :: Selim I
+The battle of 1516 in Syria where the Ottomans beat the Mamluks. :: Marj Dabiq
+The Albanian-born ruler called "the founder of modern Egypt". :: Muhammad Ali Pasha
+The year Napoleon invaded Egypt. :: 1798
+The French scholars on Napoleon's expedition found this famous stone in 1799. :: Rosetta Stone
+The Egyptian scholar who went to Paris in 1826 and wrote about French society. :: Rifa'a al-Tahtawi
+The Arab cultural revival of the 19th century. :: Al-Nahda
+The 1919 Egyptian revolution was led by this nationalist. :: Saad Zaghloul
+The year the British protectorate over Egypt was ended, with nominal independence. :: 1922
+The Moroccan leader of the Rif War against Spain in the 1920s. :: Abd el-Krim
+The Libyan resistance leader against Italy, called "the Lion of the Desert". :: Omar Mukhtar
+The Algerian emir who resisted French colonisation from 1832. :: Emir Abdelkader
+The Algerian revolution began on this date in 1954. :: 1 November
+The Algerian front that led the independence war. :: FLN (National Liberation Front)
+The Tunisian leader who became the first president in 1957. :: Habib Bourguiba
+The Moroccan sultan exiled by France in 1953, who returned to lead the country to independence. :: Mohammed V
+The Moroccan "Green March" of 1975 was into this territory. :: Western Sahara
+The Libyan king overthrown by Gaddafi in 1969. :: King Idris
+The Iraqi monarchy ended in this year's revolution. :: 1958
+The Syrian-Egyptian union of 1958 to 1961. :: United Arab Republic
+The war of 1967 lasted this many days. :: 6
+The war of October 1973 is called this in Egypt. :: October War (Ramadan War)
+The Saudi king who used the oil embargo in 1973. :: King Faisal
+The treaty between Egypt and Israel signed in 1979 after these accords. :: Camp David Accords
+The Lebanese civil war lasted from 1975 until this year. :: 1990
+The Saudi city where the agreement ending Lebanon's civil war was signed. :: Ta'if
+The year Iraq invaded Kuwait. :: 1990
+The 1991 operation to free Kuwait. :: Operation Desert Storm
+The North and South Yemen united in this year. :: 1990
+The capital of South Yemen before unification. :: Aden
+The ancient dam in Yemen whose collapse is mentioned in the Quran. :: Marib Dam
+The ancient city of Yemen that was the capital of Saba. :: Marib
+The ancient spice route city in Saudi Arabia with the Taymanitic inscriptions and a Babylonian king's residence. :: Tayma
+The Babylonian king who lived in Tayma for ten years. :: Nabonidus
+The ancient kingdom of the Kindah, with capital at Qaryat al-Faw. :: Kindah
+The ancient city near Najran, a Himyarite-era site called "Al-Ukhdud". :: Al-Ukhdud
+The ancient rock art region near Ha'il on UNESCO's list since 2015. :: Jubbah (and Shuwaymis)
+The Saudi city in the north with the Qishlah palace and Aja and Salma mountains. :: Ha'il
+The famous Arab poet-knight of Ha'il known for generosity. :: Hatim al-Ta'i
+The ancient Arab capital of the Lakhmids in Iraq. :: Al-Hira
+The Arab dynasty allied with Byzantium, rivals of the Lakhmids. :: Ghassanids
+The Arabian queen of Palmyra who rebelled against Rome. :: Zenobia
+The emperor who defeated Zenobia in 272. :: Aurelian
+The Arab-born Roman emperor from the 3rd century, called "the Arab". :: Philip the Arab
+The Phoenician princess who founded Carthage, by legend. :: Dido (Elissa)
+The Carthaginian general who crossed the Alps with elephants. :: Hannibal
+The Berber queen who resisted the Arab conquest in the 7th century. :: Al-Kahina (Dihya)
+The Arab general who founded Kairouan in 670. :: Uqba ibn Nafi
+The Berber dynasty that founded Marrakesh. :: Almoravids
+The Berber dynasty that built the Giralda in Seville and the Koutoubia. :: Almohads
+The Moroccan dynasty that has ruled since the 17th century. :: Alaouite
+The Omani dynasty that ruled Zanzibar. :: Al Bu Said
+The island off East Africa that was the capital of Oman's empire in the 19th century. :: Zanzibar
+The Omani sultan who moved the capital to Zanzibar in 1840. :: Said bin Sultan
+The Kuwaiti ruling family. :: Al Sabah
+The Qatari ruling family. :: Al Thani
+The Bahraini ruling family. :: Al Khalifa
+The ruling family of Abu Dhabi. :: Al Nahyan
+The ruling family of Dubai. :: Al Maktoum
+The Jordanian royal family, descended from the Prophet. :: Hashemites
+The year the Second Saudi State was founded by Imam Turki bin Abdullah. :: 1824
+The year the First Saudi State was founded, now marked as Founding Day. :: 1727
+The day Saudi Founding Day is celebrated. :: 22 February
+The day Saudi National Day is celebrated. :: 23 September
+The fort in Riyadh that King Abdulaziz captured in 1902. :: Masmak Fort
+The year King Abdulaziz recaptured Riyadh. :: 1902
+The Arab state whose national day is 2 December. :: UAE
+The Arab state whose national day is 18 December. :: Qatar
+The Arab state whose national day is 25 February. :: Kuwait
+The Arab state whose national day is 16 December. :: Bahrain
+The Egyptian writer of "The Cairo Trilogy". :: Naguib Mahfouz
+The Sudanese writer of "Season of Migration to the North". :: Tayeb Salih
+The Lebanese-French writer of "Leo Africanus" and "Samarkand". :: Amin Maalouf
+The Algerian writer of "Nedjma". :: Kateb Yacine
+The Egyptian feminist writer of "Woman at Point Zero". :: Nawal El Saadawi
+The Lebanese writer called "the Dean of Arabic letters in the diaspora", founder of the Pen League with Gibran. :: Mikhail Naimy
+The Iraqi poet who pioneered free verse with "Rain Song". :: Badr Shakir al-Sayyab
+The Iraqi woman poet who pioneered Arabic free verse alongside Al-Sayyab. :: Nazik Al-Malaika
+The Tunisian poet who wrote "The Will of Life", quoted in Tunisia's anthem. :: Abu al-Qasim al-Shabbi
+The Egyptian composer of "Bilady, Bilady", Egypt's anthem. :: Sayed Darwish
+The Arab state whose Independence Day, 30 November, marks the British withdrawal from Aden in 1967. :: Yemen
+The Saudi port city where the OIC is headquartered. :: Jeddah
+The Saudi king who launched the Arab Peace Initiative as crown prince in 2002. :: King Abdullah
+The emir of Qatar from 1995 to 2013, father of Sheikh Tamim. :: Sheikh Hamad bin Khalifa Al Thani
+The sultan who ruled Oman from 1970 to 2020. :: Sultan Qaboos bin Said
+
+## 500
+The year the Treaty of Darin was signed between Ibn Saud and Britain. :: 1915
+The 1927 treaty in which Britain recognised Ibn Saud's independence. :: Treaty of Jeddah
+The year King Abdulaziz took the Hejaz from the Hashemites. :: 1925
+The British adviser of King Abdulaziz who wrote "Arabian Jubilee". :: St John Philby
+The American company that became Aramco began as this subsidiary in 1933. :: CASOC (California Arabian Standard Oil Company)
+The year Saudi Arabia took full ownership of Aramco. :: 1980
+The year Saudi Aramco listed shares on the Tadawul stock exchange. :: 2019
+The 1945 meeting between King Abdulaziz and President Roosevelt took place on this ship. :: USS Quincy
+The lake in Egypt where the Quincy meeting happened. :: Great Bitter Lake
+The Ottoman railway built to Madinah from Damascus, opened in 1908. :: Hejaz Railway
+The ancient Arabian kingdom whose capital Qaryat al-Faw lay on the edge of the Empty Quarter. :: Kindah
+The inscription of 328 CE found at Namara in Syria names this king as "king of all the Arabs". :: Imru' al-Qays ibn Amr
+The Assyrian king whose inscription of 853 BCE first names "Arabs" (Gindibu the Arab). :: Shalmaneser III
+The battle of 853 BCE where Gindibu the Arab brought 1,000 camels. :: Battle of Qarqar
+The ancient Arabian queen of Qedar who fought the Assyrians. :: Zabibe (or Samsi)
+The Nabataean king whose reign saw Hegra's greatest tombs, ruling from 9 BCE to 40 CE. :: Aretas IV
+The Roman emperor who annexed the Nabataean kingdom in 106 CE. :: Trajan
+The Roman province created from the Nabataean kingdom. :: Arabia Petraea
+The Roman general who led a failed expedition into Arabia in 26–25 BCE. :: Aelius Gallus
+The ancient South Arabian kingdom famous for frankincense, with capital at Shabwa. :: Hadramawt
+The ancient South Arabian kingdom with capital at Timna. :: Qataban
+The kingdom that unified Yemen in the 3rd century CE. :: Himyar
+The Himyarite king who converted to Judaism and attacked Najran's Christians. :: Dhu Nuwas
+The Aksumite general who invaded Makkah in the "Year of the Elephant". :: Abraha
+The Year of the Elephant is traditionally dated to this year. :: 570
+The Umayyad desert palace in Jordan famous for its frescoes. :: Qusayr Amra
+The Umayyad palace near Jericho with a famous "Tree of Life" mosaic. :: Hisham's Palace (Khirbat al-Mafjar)
+The Umayyad caliph whose reign saw the conquest of Spain and Sindh. :: Al-Walid I
+The Arab general who conquered Sindh in 711. :: Muhammad ibn al-Qasim
+The Arab general who reached Central Asia and took Samarkand. :: Qutayba ibn Muslim
+The battle of 732 in France where the Umayyad advance was stopped. :: Battle of Tours (Poitiers)
+The Umayyad governor of Andalusia killed at Tours. :: Abd al-Rahman al-Ghafiqi
+The palace city near Córdoba built by Abd al-Rahman III. :: Madinat al-Zahra
+The first ruler of Córdoba to take the title caliph, in 929. :: Abd al-Rahman III
+The Andalusian vizier who effectively ruled Córdoba under Hisham II. :: Al-Mansur (Almanzor)
+The small Muslim kingdoms after Córdoba's caliphate broke up in 1031. :: Taifas
+The last Nasrid sultan of Granada, called Boabdil. :: Muhammad XII
+The Andalusian polymath who tried to fly with wings in the 9th century. :: Abbas ibn Firnas
+The Andalusian musician who founded a music school in Córdoba, from Baghdad. :: Ziryab
+The Abbasid caliph who sent an elephant named Abul-Abbas to Charlemagne. :: Harun al-Rashid
+The Abbasid general family of Persian viziers, ruined in 803. :: Barmakids
+The Abbasid capital built by Al-Mu'tasim is now a UNESCO site in this country. :: Iraq (Samarra)
+The Zanj rebellion of enslaved workers took place near this Iraqi city in 869–883. :: Basra
+The Qarmatians stole the Black Stone from Makkah in this year. :: 930
+The Qarmatian state was based in this region of eastern Arabia. :: Al-Ahsa (Bahrain region)
+The Kurdish dynasty founded by Saladin. :: Ayyubid
+The Crusader who signed the Treaty of Jaffa with Saladin in 1192. :: Richard the Lionheart
+The Ottoman sultan who ordered the walls of Jerusalem built in the 1530s. :: Suleiman the Magnificent
+The Ottoman governor of Acre who held off Napoleon in 1799. :: Ahmad Pasha al-Jazzar
+The Egyptian commander, son of Muhammad Ali, who destroyed Diriyah in 1818. :: Ibrahim Pasha
+The imam of the First Saudi State when Diriyah fell in 1818. :: Abdullah bin Saud
+The Rashidi dynasty ruled from this city, rival of the Al Saud. :: Ha'il
+The battle of 1906 in which Ibn Rashid was killed. :: Battle of Rawdat Muhanna
+The battle of 1904 in Qassim between Ibn Saud and the Rashidis with Ottoman support. :: Battle of Bukayriyah
+The 1929 battle where King Abdulaziz defeated the Ikhwan rebels. :: Battle of Sabilla
+The Saudi king who abolished slavery in 1962 as prime minister. :: King Faisal
+The wife of King Faisal who championed girls' education in Saudi Arabia. :: Queen Effat
+The first Saudi university, founded in Riyadh in 1957. :: King Saud University
+The year Saudi women were first allowed to drive. :: 2018
+The Saudi Shura Council first included women in this year. :: 2013
+The first Saudi woman ambassador, sent to the US in 2019. :: Princess Reema bint Bandar
+The British colonial port in Yemen ruled from 1839. :: Aden
+The British treaties with Gulf sheikhdoms gave the region this name. :: Trucial States
+The Omani empire's 17th-century ruling dynasty that expelled the Portuguese from Muscat. :: Ya'ariba (Yarubid)
+The Portuguese captured Hormuz under this admiral in 1507. :: Afonso de Albuquerque
+The Ottoman-Portuguese naval battles in the Red Sea were fought to control this trade. :: Spice trade
+The 16th-century Ottoman admiral who wrote a book of maps and sailed in the Indian Ocean. :: Piri Reis
+The Arab navigator from Julfar, who wrote a famous guide to the Indian Ocean. :: Ahmad ibn Majid
+The Arab navigator's home town Julfar is near this modern emirate. :: Ras Al Khaimah
+The Arab geographer who made a world map for King Roger of Sicily. :: Al-Idrisi
+The book of Al-Idrisi's world geography for Roger II. :: Tabula Rogeriana (Nuzhat al-Mushtaq)
+The Arab astronomer whose star catalogue "Book of Fixed Stars" was written in 964. :: Abd al-Rahman al-Sufi
+The Syrian astronomer from Raqqa whose measurements of the year were used by Copernicus. :: Al-Battani
+The 14th-century Damascus astronomer whose planetary models resemble Copernicus's. :: Ibn al-Shatir
+The Persian scholar who built the Maragha observatory. :: Nasir al-Din al-Tusi
+The Kuwaiti emir who led the country from 1977 to 2006. :: Sheikh Jaber Al-Ahmad Al-Sabah
+The Iraqi king killed in the 1958 revolution. :: Faisal II
+The Egyptian president assassinated in 1981. :: Anwar Sadat
+The Algerian president from 1999 to 2019. :: Abdelaziz Bouteflika
+The Tunisian street vendor whose protest sparked the 2010–11 uprisings. :: Mohamed Bouazizi
+The Jordanian city that was Philadelphia in Roman times. :: Amman
+The Lebanese city known as Heliopolis in Roman times. :: Baalbek
+The ancient Syrian city with the oldest known alphabet tablets. :: Ugarit
+The ancient Syrian city whose 1970s-discovered archive of clay tablets revealed a lost kingdom. :: Ebla
+The Egyptian city that was the capital under Akhenaten. :: Amarna (Akhetaten)
+The Sudanese kingdom that ruled Egypt as the 25th Dynasty. :: Kush
+The Kushite queen-mothers were given this title, used by the Romans. :: Kandake (Candace)
+The Sudanese religious leader who took Khartoum in 1885. :: The Mahdi (Muhammad Ahmad)
+The British general killed at Khartoum in 1885. :: Charles Gordon
+The battle of 1898 where the British defeated the Mahdists. :: Battle of Omdurman
+The year Saudi Arabia opened its first state schools for girls. :: 1960
+The Lebanese emir who ruled Mount Lebanon in the 1600s and built ties with Tuscany. :: Fakhr al-Din II
+The Lebanese emir of the Shihab family who built the Beiteddine Palace. :: Bashir Shihab II
+The Syrian city famous for its Krak des Chevaliers Crusader castle nearby. :: Homs
+The Algerian city where Saint Augustine was bishop, then called Hippo. :: Annaba
+The ancient Roman city in Algeria, a UNESCO site called "the Pompeii of Africa". :: Timgad
+The Mauritanian ancient caravan city that is a UNESCO site with Chinguetti and Wadan. :: Oualata
+The Omani port famous for shipbuilding of dhows. :: Sur
+The UNESCO-listed Omani irrigation channels. :: Aflaj
+The Omani fort that is a UNESCO site, on the edge of the Hajar mountains. :: Bahla Fort

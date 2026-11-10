@@ -1,0 +1,514 @@
+id: space
+name: Space & Astronomy
+nameAr: الفضاء والفلك
+group: general
+
+## 100
+The planet closest to the Sun. :: Mercury
+The hottest planet in the Solar System. :: Venus
+The Red Planet. :: Mars
+The planet famous for its bright rings. :: Saturn
+The planet we live on is this number from the Sun. :: Third
+The number of planets in the Solar System. :: Eight
+The former ninth planet, now called a dwarf planet. :: Pluto
+The natural satellite that orbits the Earth. :: The Moon
+The star at the centre of our Solar System. :: The Sun
+The galaxy that contains our Solar System. :: The Milky Way
+The first person in space. :: Yuri Gagarin
+The first person to walk on the Moon. :: Neil Armstrong
+The second person to walk on the Moon. :: Buzz Aldrin
+The name of the mission that first landed people on the Moon. :: Apollo 11
+The year humans first landed on the Moon. :: 1969
+The US space agency. :: NASA
+The big space station that orbits the Earth with crews on board. :: International Space Station (ISS)
+A person trained to travel into space. :: Astronaut
+The Russian word for an astronaut. :: Cosmonaut
+The telescope launched in 1990 that orbits the Earth. :: Hubble Space Telescope
+The time it takes the Earth to go once around the Sun. :: About 365 days (one year)
+The time it takes the Earth to spin once on its axis. :: About 24 hours (one day)
+The Moon takes about this long to orbit the Earth. :: About 27 days (a month)
+The shape of the Moon when it is fully lit. :: Full moon
+The shape of the Moon in Ramadan's first sighting. :: Crescent (hilal)
+When the Moon blocks the Sun, it is called this. :: Solar eclipse
+When the Earth's shadow falls on the Moon, it is called this. :: Lunar eclipse
+A rock from space that lands on Earth. :: Meteorite
+A streak of light from a space rock burning in the air. :: Meteor (shooting star)
+An icy body with a glowing tail when near the Sun. :: Comet
+A small rocky body that orbits the Sun, mostly between Mars and Jupiter. :: Asteroid
+The region between Mars and Jupiter with many asteroids. :: The asteroid belt
+The force that keeps planets in orbit around the Sun. :: Gravity
+A group of stars forming a pattern in the sky. :: Constellation
+The bright star that shows north. :: Polaris (the North Star)
+The group of seven bright stars in Ursa Major that looks like a ladle or plough. :: The Big Dipper (the Plough)
+The constellation called the Hunter, with a three-star belt. :: Orion
+The brightest star in the night sky. :: Sirius
+The brightest natural object in the night sky. :: The Moon
+The planet often seen as the 'morning star' or 'evening star'. :: Venus
+The largest planet in the Solar System. :: Jupiter
+The giant storm on Jupiter. :: The Great Red Spot
+The planet that spins on its side. :: Uranus
+The planet farthest from the Sun. :: Neptune
+The smallest planet. :: Mercury
+Planets made mostly of gas, like Jupiter. :: Gas giants
+The four rocky planets. :: Mercury, Venus, Earth and Mars
+The NASA rover that landed on Mars in 2021. :: Perseverance
+The small helicopter that flew on Mars in 2021. :: Ingenuity
+The first artificial satellite. :: Sputnik 1
+The first animal to orbit the Earth, a dog. :: Laika
+The first woman in space. :: Valentina Tereshkova
+The first Arab and first Muslim in space. :: Prince Sultan bin Salman
+The first Saudi woman in space. :: Rayyanah Barnawi
+The UAE's Mars probe. :: Hope Probe (Al-Amal)
+A huge group of stars, gas and dust held together by gravity. :: Galaxy
+The galaxy that is nearest large neighbour to the Milky Way. :: Andromeda Galaxy
+The place in space where gravity is so strong that light cannot escape. :: Black hole
+The distance light travels in one year. :: Light-year
+The scientist who first used a telescope to study the night sky. :: Galileo Galilei
+The name for the four large moons of Jupiter that Galileo found. :: The Galilean moons
+The rocket company founded by Elon Musk. :: SpaceX
+The giant rocket that took Apollo astronauts to the Moon. :: Saturn V
+The NASA programme that will return people to the Moon. :: Artemis
+The study of stars, planets and space. :: Astronomy
+A scientist who studies space. :: Astronomer
+The belief that stars control people's lives, which is not science. :: Astrology
+The building where people watch shows about the night sky on a dome. :: Planetarium
+The suit astronauts wear outside a spacecraft. :: Spacesuit
+The feeling of floating in orbit is called this. :: Weightlessness (microgravity)
+Going outside a spacecraft in space is called this. :: Spacewalk (EVA)
+The part of the sky where the Sun appears to travel during the year. :: The ecliptic (zodiac)
+The Sun is mostly made of hydrogen and this gas. :: Helium
+The Sun is this kind of star. :: Yellow dwarf
+The colour of the hottest stars. :: Blue
+The light from the Sun takes about this long to reach the Earth. :: About 8 minutes
+The dark areas on the Sun's surface. :: Sunspots
+The longest day of the year in the Northern Hemisphere is the summer this. :: Solstice
+The two days a year when day and night are about equal. :: Equinoxes
+Earth has seasons because its axis is this. :: Tilted
+The Moon's gravity causes these daily rises and falls of the sea. :: Tides
+The dark flat areas on the Moon, once thought to be seas. :: Maria (lunar seas)
+The craters on the Moon were made by these. :: Impacts from space rocks
+The side of the Moon we never see from Earth. :: The far side
+The planet with the largest volcano, Olympus Mons. :: Mars
+The planet with a moon called Titan. :: Saturn
+The two moons of Mars. :: Phobos and Deimos
+The Moon of Earth is about this fraction of Earth's width. :: About a quarter
+The famous Indian space agency. :: ISRO
+The European space agency. :: ESA
+The space agency of Saudi Arabia. :: Saudi Space Agency
+The space agency of China. :: CNSA
+The Chinese space station. :: Tiangong
+The NASA telescope launched in 2021. :: James Webb Space Telescope
+The first spacecraft to leave the Solar System's heliosphere, in 2012. :: Voyager 1
+The space shuttle that broke up after launch in 1986. :: Challenger
+The number of people who have walked on the Moon. :: Twelve
+The last year people walked on the Moon. :: 1972
+The famous words Armstrong said were 'one small step for' this. :: Man (one giant leap for mankind)
+The planet known for being blue because of methane, with the fastest winds. :: Neptune
+
+## 200
+The largest moon of Saturn, with a thick atmosphere. :: Titan
+The largest moon in the Solar System. :: Ganymede
+The moon of Jupiter with active volcanoes. :: Io
+The icy moon of Jupiter thought to hide an ocean. :: Europa
+The moon of Saturn that shoots water plumes from its south pole. :: Enceladus
+The largest moon of Neptune, which orbits backwards. :: Triton
+The largest moon of Pluto. :: Charon
+The dwarf planet that is the largest object in the asteroid belt. :: Ceres
+The NASA spacecraft that flew past Pluto in 2015. :: New Horizons
+The region of icy bodies beyond Neptune. :: The Kuiper Belt
+The far-off cloud of comets thought to surround the Solar System. :: The Oort Cloud
+The famous comet seen every 75–76 years. :: Halley's Comet
+The year Halley's Comet will next come close to the Sun. :: 2061
+The meteor shower in August linked to comet Swift–Tuttle. :: Perseids
+The meteor shower in December, from asteroid Phaethon. :: Geminids
+The distance from the Earth to the Sun, about 150 million km, is called this. :: One astronomical unit (AU)
+The distance to the Moon, roughly. :: About 384,000 km
+The planet with the longest day, longer than its year. :: Venus
+The planet with the shortest year. :: Mercury
+The planet with the most known moons, as of the mid-2020s. :: Saturn
+Venus spins in this direction compared with most planets. :: Backwards (retrograde)
+The thick gas that makes up most of Venus's atmosphere. :: Carbon dioxide
+The gas that makes Uranus and Neptune look blue. :: Methane
+The deep canyon system on Mars. :: Valles Marineris
+The Mars rover that landed in 2012 in Gale Crater. :: Curiosity
+The first rover to drive on Mars, in 1997. :: Sojourner
+The twin rovers that landed on Mars in 2004. :: Spirit and Opportunity
+The Chinese rover that landed on Mars in 2021. :: Zhurong
+The NASA mission that orbited Saturn from 2004 to 2017. :: Cassini
+The probe that landed on Titan in 2005. :: Huygens
+The NASA probe orbiting Jupiter since 2016. :: Juno
+The first spacecraft to land softly on a comet, in 2014. :: Philae (from Rosetta)
+The first country to land a spacecraft on the far side of the Moon. :: China
+The Chinese Moon lander that first touched down on the far side in 2019. :: Chang'e 4
+The Indian Moon lander that touched down near the south pole in 2023. :: Chandrayaan-3
+The Soviet spacecraft that first reached the Moon's surface by impact in 1959. :: Luna 2
+The first woman to walk in space. :: Svetlana Savitskaya
+The first American woman in space. :: Sally Ride
+The first American to orbit the Earth. :: John Glenn
+The first American in space. :: Alan Shepard
+The first person to do a spacewalk. :: Alexei Leonov
+The Apollo mission that had an explosion and returned safely in 1970. :: Apollo 13
+The famous phrase from Apollo 13. :: Houston, we've had a problem
+The Apollo 11 astronaut who stayed in orbit around the Moon. :: Michael Collins
+The name of the Apollo 11 lunar module. :: Eagle
+The first space station, launched by the USSR in 1971. :: Salyut 1
+The Soviet and Russian space station from 1986 to 2001. :: Mir
+The first US space station. :: Skylab
+The reusable US spacecraft that flew from 1981 to 2011. :: Space Shuttle
+The first Space Shuttle to fly in space. :: Columbia
+The Russian spacecraft that carries crews to the ISS. :: Soyuz
+The SpaceX capsule that carries astronauts. :: Crew Dragon
+The SpaceX rocket whose first stage lands back on Earth. :: Falcon 9
+The SpaceX giant rocket tested from 2023. :: Starship
+The rocket launch base in Kazakhstan used by Russia. :: Baikonur Cosmodrome
+The US launch site in Florida. :: Kennedy Space Center (Cape Canaveral)
+The European launch site in French Guiana. :: Guiana Space Centre (Kourou)
+The speed needed to escape the Earth's gravity, about 11.2 km/s. :: Escape velocity
+The path an object takes around another in space. :: Orbit
+The orbit where a satellite stays above the same spot on Earth. :: Geostationary orbit
+The height of geostationary orbit, roughly. :: About 36,000 km
+The network of satellites used for finding your location. :: GPS
+The SpaceX satellite internet network. :: Starlink
+The boundary often used as the edge of space, 100 km up. :: The Kármán line
+The Sun's outer atmosphere, seen in a total eclipse. :: The corona
+A huge burst of energy on the Sun's surface. :: Solar flare
+The 11-year rise and fall of sunspots. :: The solar cycle
+The Sun is about this old. :: About 4.6 billion years
+The Sun will one day swell into this kind of star. :: A red giant
+The leftover core of a star like the Sun after it dies. :: White dwarf
+The explosion of a massive star. :: Supernova
+The very dense star made of neutrons. :: Neutron star
+A spinning neutron star that sends out regular radio pulses. :: Pulsar
+A cloud of gas and dust in space where stars form. :: Nebula
+The nebula in Orion's sword visible to the naked eye. :: Orion Nebula
+The famous 'Pillars of Creation' are in this nebula. :: Eagle Nebula
+The star cluster also called the Seven Sisters. :: The Pleiades (Thurayya)
+The nearest star system to the Sun. :: Alpha Centauri
+The nearest single star to the Sun. :: Proxima Centauri
+The red supergiant star in Orion's shoulder. :: Betelgeuse
+The bright blue star at Orion's foot. :: Rigel
+The bright star in the constellation Lyra. :: Vega
+The brightest star in Taurus, the bull's eye. :: Aldebaran
+The planets orbiting other stars. :: Exoplanets
+The NASA telescope that found thousands of exoplanets from 2009. :: Kepler
+The zone around a star where water could be liquid. :: Habitable zone (Goldilocks zone)
+The type of galaxy the Milky Way is. :: Barred spiral galaxy
+The supermassive black hole at the centre of the Milky Way. :: Sagittarius A*
+The first image of a black hole was released in this year. :: 2019
+The two small galaxies near the Milky Way visible from the south. :: The Magellanic Clouds
+The theory that the universe began from a hot dense state. :: The Big Bang
+The universe is about this old. :: About 13.8 billion years
+The astronomer who showed the universe is expanding. :: Edwin Hubble
+The faint glow left over from the Big Bang. :: Cosmic microwave background
+The unknown matter that makes galaxies spin faster than expected. :: Dark matter
+The unknown force making the universe's expansion speed up. :: Dark energy
+The Hijri calendar is based on the cycles of this. :: The Moon
+The constellation of the scorpion with the red star Antares. :: Scorpius
+Many star names, like Aldebaran and Altair, come from this language. :: Arabic
+The instrument used by medieval astronomers to measure star heights and tell time. :: Astrolabe
+
+## 300
+The astronomer who placed the Sun at the centre of the Solar System in 1543. :: Nicolaus Copernicus
+The astronomer whose laws showed planets move in ellipses. :: Johannes Kepler
+The Danish astronomer whose careful observations Kepler used. :: Tycho Brahe
+The Greek astronomer whose Earth-centred model was used for 1,400 years. :: Ptolemy
+The Arabic name of Ptolemy's great astronomy book. :: Almagest
+The Greek who measured the Earth's size using shadows in Egypt. :: Eratosthenes
+The Greek who first proposed a Sun-centred model, around 270 BCE. :: Aristarchus of Samos
+The Persian astronomer whose star catalogue, the Book of Fixed Stars, appeared in 964. :: Abd al-Rahman al-Sufi
+The galaxy first recorded by al-Sufi as a 'little cloud'. :: Andromeda Galaxy
+The Syrian astronomer whose precise measurements of the year were used in Europe. :: Al-Battani
+The Damascus astronomer whose planetary models resemble Copernicus's. :: Ibn al-Shatir
+The Persian scholar who built the Maragheh Observatory. :: Nasir al-Din al-Tusi
+The geometric device of al-Tusi used later by Copernicus. :: Tusi couple
+The Timurid ruler who built a great observatory in Samarkand. :: Ulugh Beg
+The astronomer who discovered Uranus in 1781. :: William Herschel
+The planet discovered by mathematics before it was seen, in 1846. :: Neptune
+The astronomer who discovered Pluto in 1930. :: Clyde Tombaugh
+The year Pluto was reclassified as a dwarf planet. :: 2006
+The dwarf planet whose discovery led to Pluto's reclassification. :: Eris
+The astronomer who measured the speed of light first, using Jupiter's moons, in 1676. :: Ole Rømer
+The astronomer who first predicted a comet's return. :: Edmond Halley
+The British astronomer who found the 'pulsar' with Antony Hewish in 1967. :: Jocelyn Bell Burnell
+The American astronomer who showed that 'nebulae' were other galaxies. :: Edwin Hubble
+The law that links a galaxy's distance to its speed of recession. :: Hubble's law (Hubble–Lemaître law)
+The Belgian priest who first proposed the Big Bang idea. :: Georges Lemaître
+The two scientists who discovered the cosmic microwave background in 1965. :: Arno Penzias and Robert Wilson
+The astronomer whose galaxy rotation studies gave strong evidence for dark matter. :: Vera Rubin
+The limit of about 1.4 solar masses above which a white dwarf collapses. :: Chandrasekhar limit
+The boundary around a black hole beyond which nothing escapes. :: Event horizon
+The theory that predicts black holes slowly lose energy. :: Hawking radiation
+The project that took the first black hole picture. :: Event Horizon Telescope
+The galaxy whose black hole was the first imaged. :: M87 (Messier 87)
+The star's colour and temperature diagram named after two astronomers. :: Hertzsprung–Russell diagram
+The main stage in a star's life when it fuses hydrogen. :: Main sequence
+The unit of distance equal to about 3.26 light-years. :: Parsec
+The shift of light from receding objects towards longer wavelengths. :: Redshift
+The measure of a star's brightness as seen from Earth. :: Apparent magnitude
+The brightest objects in the universe, powered by black holes. :: Quasars
+The star system that has two stars orbiting each other. :: Binary star
+The variable stars used to measure distances to galaxies. :: Cepheid variables
+The astronomer who found the period–brightness rule of Cepheids. :: Henrietta Swan Leavitt
+The supernova seen in 1054 that formed the Crab Nebula. :: SN 1054
+The supernova in 1987 in the Large Magellanic Cloud. :: SN 1987A
+The first exoplanet found around a Sun-like star, in 1995. :: 51 Pegasi b
+The two astronomers who found 51 Pegasi b. :: Michel Mayor and Didier Queloz
+The red dwarf star with seven Earth-sized planets. :: TRAPPIST-1
+The exoplanet-hunting satellite launched by NASA in 2018. :: TESS
+The point between two bodies where gravity balances, used to park telescopes. :: Lagrange point
+The Lagrange point where the James Webb Space Telescope sits. :: L2
+The James Webb Space Telescope's mirror is made of this many hexagon segments. :: 18
+The metal coating on Webb's mirrors. :: Gold
+The Hubble Space Telescope's mirror problem was fixed by astronauts in this year. :: 1993
+The radio telescope array in Chile's Atacama Desert. :: ALMA
+The giant radio telescope in Puerto Rico that collapsed in 2020. :: Arecibo Observatory
+The world's largest single-dish radio telescope, in China. :: FAST
+The NASA spacecraft that touched the Sun's corona in 2021. :: Parker Solar Probe
+The European spacecraft that landed Philae on a comet. :: Rosetta
+The Japanese mission that brought back samples from asteroid Ryugu. :: Hayabusa2
+The NASA mission that brought samples back from asteroid Bennu in 2023. :: OSIRIS-REx
+The NASA mission that crashed into an asteroid moonlet to change its orbit in 2022. :: DART
+The asteroid moonlet hit by DART. :: Dimorphos
+The asteroid that might pass very close to Earth in 2029. :: Apophis
+The 1908 airburst over Siberia that flattened forests. :: Tunguska event
+The 2013 meteor that exploded over a Russian city and broke windows. :: Chelyabinsk meteor
+The biggest known impact crater on Earth, in South Africa. :: Vredefort crater
+The famous well-preserved meteor crater in Arizona. :: Barringer Crater (Meteor Crater)
+The craters at Wabar in Saudi Arabia are in this desert. :: Rub' al Khali (Empty Quarter)
+The record for the longest single spaceflight is held by this Russian cosmonaut. :: Valeri Polyakov
+The Apollo mission that first used the Lunar Roving Vehicle. :: Apollo 15
+The last Apollo mission to the Moon. :: Apollo 17
+The only scientist (a geologist) to walk on the Moon. :: Harrison Schmitt
+The fire that killed three astronauts in a 1967 Apollo test. :: Apollo 1
+The Space Shuttle lost on re-entry in 2003. :: Columbia
+The first Space Shuttle launch was in this year. :: 1981
+The NASA plan of the 1960s to land on the Moon was announced by this president. :: John F. Kennedy
+The famous 1962 speech: 'We choose to go to the Moon' was given in this city. :: Houston (Rice University)
+The first spacecraft to fly past Mars, in 1965. :: Mariner 4
+The first spacecraft to land successfully on Mars, the Soviet Mars 3, did so in this year. :: 1971
+The first US landers on Mars in 1976. :: Viking 1 and Viking 2
+The probe that flew past all four giant planets. :: Voyager 2
+The golden record on the Voyager probes carries this. :: Sounds and images of Earth
+The famous 'Pale Blue Dot' photo was taken by this spacecraft. :: Voyager 1
+The astronomer who asked Voyager to take the Pale Blue Dot photo. :: Carl Sagan
+The equation that estimates how many alien civilisations might exist. :: Drake equation
+The search for radio signals from aliens. :: SETI
+The first UAE astronaut in space, in 2019. :: Hazza Al Mansouri
+The Space Shuttle that carried the first Arab astronaut in 1985. :: Discovery
+The Space Shuttle flight STS-51-G carried the first Arab astronaut and launched this satellite for Arabsat. :: Arabsat-1B
+The Arab satellite organisation based in Riyadh. :: Arabsat
+The Islamic months begin when this is seen after sunset. :: The new crescent moon
+The prayer times depend on the position of this. :: The Sun
+The Iranian-American who became the first female space tourist in 2006. :: Anousheh Ansari
+The ring system of Saturn is mostly made of this. :: Ice (water ice)
+The gap between Saturn's two brightest rings. :: Cassini Division
+The planet whose moon Miranda has huge cliffs. :: Uranus
+The kind of eclipse where the Moon looks like a ring of fire around the Sun. :: Annular eclipse
+The shadow region of total darkness in an eclipse. :: Umbra
+The red colour of the Moon in a total lunar eclipse is often called this. :: Blood moon
+The point in the Moon's orbit closest to Earth. :: Perigee
+The point in Earth's orbit farthest from the Sun. :: Aphelion
+
+## 400
+Kepler's third law links a planet's orbital period to this. :: The size (semi-major axis) of its orbit
+The force that Newton used to explain both falling apples and the Moon's orbit. :: Universal gravitation
+The famous problem of predicting the motion of three bodies under gravity. :: The three-body problem
+The shift in Mercury's orbit explained by general relativity. :: Precession of Mercury's perihelion
+The 1919 eclipse expedition that confirmed Einstein's light bending was led by this astronomer. :: Arthur Eddington
+The bending of light from distant objects by massive galaxies. :: Gravitational lensing
+The ring of light formed when lensing is perfect. :: Einstein ring
+The rocket equation was first published by this Russian teacher. :: Konstantin Tsiolkovsky
+The rocket pioneer who launched the first liquid-fuelled rocket in 1926. :: Robert Goddard
+The German V-2 rocket designer who later led NASA's Saturn V work. :: Wernher von Braun
+The Soviet chief designer behind Sputnik and Vostok. :: Sergei Korolev
+The spacecraft that carried Yuri Gagarin. :: Vostok 1
+The date of Gagarin's flight, now International Day of Human Space Flight. :: 12 April 1961
+The name of the first US crewed spacecraft programme. :: Project Mercury
+The two-person US programme before Apollo. :: Project Gemini
+The book by Apollo 11's Michael Collins about his spaceflights. :: Carrying the Fire
+The scientist who calculated trajectories for Mercury and Apollo, shown in Hidden Figures. :: Katherine Johnson
+The software engineer who led Apollo's onboard flight software. :: Margaret Hamilton
+The 1975 joint US–Soviet docking mission. :: Apollo–Soyuz Test Project
+The first module of the ISS, launched in 1998. :: Zarya
+The ISS orbits the Earth about this many times a day. :: About 16
+The ISS travels at about this speed. :: About 28,000 km/h
+The ISS orbits at about this height. :: About 400 km
+The robotic arm on the ISS built by Canada. :: Canadarm2
+The first private company to send a spacecraft to the ISS, in 2012. :: SpaceX (Dragon)
+The first all-private crew mission to the ISS, in 2022. :: Axiom Mission 1 (Ax-1)
+The mission that carried Rayyanah Barnawi and Ali AlQarni to the ISS. :: Axiom Mission 2 (Ax-2)
+The Emirati astronaut who did a long-duration ISS mission in 2023. :: Sultan Al Neyadi
+The European Space Agency's first rover planned for Mars. :: Rosalind Franklin rover
+The Mars sample return idea relies on samples gathered by this rover. :: Perseverance
+The crater where Perseverance landed. :: Jezero Crater
+The Martian moon that is slowly spiralling towards Mars. :: Phobos
+The polar caps on Mars are made of water ice and this. :: Carbon dioxide ice (dry ice)
+The 'face on Mars' was seen in images from this mission in 1976. :: Viking 1
+The Venus lander series that sent back the first pictures from its surface. :: Venera
+The surface temperature of Venus is about this. :: About 465 °C
+The ESA–JAXA mission heading to Mercury. :: BepiColombo
+The first NASA probe to orbit Mercury. :: MESSENGER
+The 1994 comet that crashed into Jupiter. :: Shoemaker–Levy 9
+The NASA probe that dropped a probe into Jupiter's atmosphere in 1995. :: Galileo
+The ESA mission launched in 2023 to Jupiter's icy moons. :: JUICE
+The NASA mission launched in 2024 to Europa. :: Europa Clipper
+The NASA drone mission planned to fly on Titan. :: Dragonfly
+The lakes on Titan are made of liquid methane and this. :: Ethane
+The hexagon-shaped storm sits at this pole of Saturn. :: The north pole
+The planet with the most extreme axial tilt, about 98°. :: Uranus
+The only spacecraft to have visited Uranus and Neptune. :: Voyager 2
+The Great Dark Spot was seen on this planet in 1989. :: Neptune
+The heart-shaped plain on Pluto. :: Tombaugh Regio (Sputnik Planitia)
+The most distant object visited by a spacecraft, a Kuiper Belt object. :: Arrokoth
+The first interstellar object seen passing through the Solar System, in 2017. :: ʻOumuamua
+The first interstellar comet, found in 2019. :: 2I/Borisov
+The asteroid that the OSIRIS-REx mission sampled. :: Bennu
+The Japanese mission that first returned asteroid dust, from Itokawa. :: Hayabusa
+The largest asteroid visited by a spacecraft besides Ceres. :: Vesta
+The NASA mission that orbited both Vesta and Ceres. :: Dawn
+The NASA mission launched in 2021 to study Jupiter's Trojan asteroids. :: Lucy
+The NASA mission to a metal-rich asteroid launched in 2023. :: Psyche
+The point where the solar wind meets interstellar space. :: Heliopause
+The bubble of solar wind around the Solar System. :: Heliosphere
+The Sun's core temperature is about this. :: About 15 million °C
+The process by which the Sun turns hydrogen into helium. :: Proton–proton chain
+The light from the Sun's core takes thousands of years to reach the surface because of this. :: Random scattering through the radiative zone
+The layer of the Sun where heat rises in bubbles. :: Convective zone
+The visible surface of the Sun. :: Photosphere
+The powerful solar storm of 1859 that disrupted telegraphs. :: Carrington Event
+The ESA–NASA observatory that has watched the Sun since 1995. :: SOHO
+The biggest star known by size is often given as this red hypergiant. :: UY Scuti (or Stephenson 2-18)
+The most massive known star, in the Tarantula Nebula. :: R136a1
+The brightest star in the constellation Cygnus, the swan. :: Deneb
+The star Suhail in Arabic tradition, which marks the end of summer heat. :: Canopus
+The bright star rising before dawn that marked the Nile flood in Egypt. :: Sirius
+The Arabic name of the Pleiades. :: Al-Thurayya
+The star in the Little Dipper's handle that marks north. :: Polaris
+Polaris will not always be the pole star because of this slow wobble of the Earth's axis. :: Precession
+The Earth's axis tilt is about this many degrees. :: About 23.4 degrees
+The scientist who proposed that cycles in Earth's orbit cause ice ages. :: Milutin Milanković
+The star nearest to Earth after the Sun, by itself. :: Proxima Centauri
+The planet found orbiting Proxima Centauri in its habitable zone. :: Proxima Centauri b
+The type of exoplanet that is a hot gas giant close to its star. :: Hot Jupiter
+The method of finding planets by a star's brightness dipping. :: Transit method
+The method of finding planets by a star's wobble. :: Radial velocity method
+The group of galaxies that includes the Milky Way and Andromeda. :: The Local Group
+The supercluster that contains the Local Group. :: Laniakea Supercluster
+The Milky Way and Andromeda will collide in about this many years. :: About 4–5 billion years
+The Milky Way is about this many light-years across. :: About 100,000 light-years
+The Sun takes about this long to orbit the centre of the Milky Way. :: About 230 million years
+The deepest image of the universe released by Webb in 2022 shows this galaxy cluster. :: SMACS 0723
+The famous Hubble image of thousands of galaxies in a small dark patch. :: Hubble Deep Field
+The period after the Big Bang before stars formed. :: Cosmic dark ages
+The period of very fast expansion right after the Big Bang. :: Cosmic inflation
+The 2011 Nobel was for discovering this about the universe's expansion. :: It is speeding up (accelerating)
+The satellite that mapped the cosmic microwave background in great detail from 2009 to 2013. :: Planck
+The number used for the universe's expansion rate. :: Hubble constant
+The disagreement between measurements of the expansion rate is called this. :: Hubble tension
+The 2020 Nobel in Physics honoured work on this object at the centre of our galaxy. :: Supermassive black hole (Sagittarius A*)
+The first gravitational waves detected came from two merging objects of this kind. :: Black holes
+The 2017 neutron star merger was seen in gravitational waves and this. :: Light (gamma rays and other light)
+The three bright stars Vega, Deneb and Altair form this asterism. :: The Summer Triangle
+The Moon is moving away from the Earth by about this much each year. :: About 3.8 cm
+
+## 500
+The mathematician who predicted Neptune's position along with John Couch Adams. :: Urbain Le Verrier
+The astronomer at Berlin who first saw Neptune in 1846. :: Johann Galle
+The astronomer who discovered Saturn's moon Titan in 1655. :: Christiaan Huygens
+The astronomer who discovered four of Saturn's moons and its ring gap. :: Giovanni Cassini
+The astronomer who catalogued 110 fuzzy objects to avoid confusing them with comets. :: Charles Messier
+The Andromeda Galaxy's Messier number. :: M31
+The Crab Nebula's Messier number. :: M1
+The Orion Nebula's Messier number. :: M42
+The 'New General Catalogue' of nebulae and galaxies is known by these letters. :: NGC
+The astronomer who first described 'black stars' that light could not escape, in 1783. :: John Michell
+The physicist who first solved Einstein's equations for a black hole in 1916. :: Karl Schwarzschild
+The radius of the event horizon of a non-spinning black hole. :: Schwarzschild radius
+The solution for a spinning black hole was found by this mathematician in 1963. :: Roy Kerr
+The first black hole confirmed, an X-ray source in Cygnus. :: Cygnus X-1
+The bet between Stephen Hawking and Kip Thorne was about this object. :: Cygnus X-1
+The limit above which a neutron star collapses into a black hole. :: Tolman–Oppenheimer–Volkoff limit
+The type of supernova used as 'standard candles' to measure the universe. :: Type Ia supernova
+The type of star whose explosion makes a Type Ia supernova. :: White dwarf
+The nuclear process in big stars that builds elements up to iron. :: Stellar nucleosynthesis
+The 1957 paper explaining how stars make elements, called B²FH, had this British astronomer as an author. :: Fred Hoyle
+Fred Hoyle coined the term 'Big Bang' while supporting this rival theory. :: Steady state theory
+The element made in neutron star mergers in large amounts, along with platinum. :: Gold
+The number of the neutron star merger seen in 2017. :: GW170817
+The first gravitational wave event, detected on 14 September 2015. :: GW150914
+The three physicists who won the 2017 Nobel for gravitational waves. :: Rainer Weiss, Barry Barish and Kip Thorne
+The Indian astrophysicist who won the 1983 Nobel for work on stars. :: Subrahmanyan Chandrasekhar
+The astronomer who discovered that stars are mostly hydrogen and helium in her 1925 thesis. :: Cecilia Payne-Gaposchkin
+The star classification letters from hottest to coolest. :: O, B, A, F, G, K, M
+The Sun's spectral class. :: G2V
+The brightest star in Scorpius. :: Antares
+The Arabic origin of the name Betelgeuse refers to this. :: The hand (or armpit) of al-Jawza
+The star Altair's name comes from the Arabic for this. :: The flying (eagle)
+The star Deneb's name comes from the Arabic for this. :: Tail (of the hen)
+The star Algol's name comes from the Arabic for this. :: The demon's head (ra's al-ghul)
+Algol is famous because its brightness changes for this reason. :: It is an eclipsing binary
+The star Fomalhaut's name comes from the Arabic for this. :: The mouth of the (southern) fish
+The star Rigel's name comes from the Arabic for this. :: The foot (of the giant)
+The Persian astronomer who catalogued over 1,000 stars with Arabic names in 964. :: Abd al-Rahman al-Sufi
+The Andalusian astronomer who made the Toledan Tables. :: Al-Zarqali (Arzachel)
+The Arab astronomer who corrected Ptolemy's value for the precession of the equinoxes. :: Al-Battani
+The Moon crater named after Ibn al-Haytham's European name. :: Alhazen crater
+The angle of the Moon's orbit to the ecliptic, about 5°, means eclipses happen only near these points. :: Lunar nodes
+The roughly 18-year cycle after which eclipses repeat. :: Saros cycle
+The 19-year cycle after which Moon phases fall on the same dates. :: Metonic cycle
+The Moon's slight rocking that lets us see about 59% of its surface. :: Libration
+The Moon's spin matches its orbit because of this. :: Tidal locking
+The leading theory for how the Moon formed. :: Giant-impact hypothesis
+The Mars-sized body thought to have hit the early Earth. :: Theia
+The period of many impacts about 4 billion years ago. :: Late Heavy Bombardment
+The idea that the giant planets moved early in the Solar System's history. :: Nice model
+The point where the Earth's orbit crosses the ecliptic plane's line with the equator in March. :: Vernal equinox (First Point of Aries)
+The coordinate on the sky like longitude. :: Right ascension
+The coordinate on the sky like latitude. :: Declination
+The time based on the stars rather than the Sun. :: Sidereal time
+A sidereal day is shorter than a solar day by about this. :: About 4 minutes
+The famous 'Wow!' signal was detected in this year. :: 1977
+The radio telescope in Ohio that recorded the Wow! signal. :: Big Ear
+The question of why we have seen no aliens despite many possible worlds. :: The Fermi paradox
+The 1961 meeting where the Drake equation was first presented. :: Green Bank conference
+The NASA mission that sent the first close-up images of Pluto. :: New Horizons
+The two halves of Arrokoth are nicknamed this. :: Ultima and Thule
+The comet visited by Rosetta. :: 67P/Churyumov–Gerasimenko
+The ESA probe that flew close to Halley's Comet in 1986. :: Giotto
+The NASA mission that collected comet dust from Wild 2. :: Stardust
+The NASA mission that slammed an impactor into comet Tempel 1 in 2005. :: Deep Impact
+The NASA mission that collected solar wind particles but crash-landed in 2004. :: Genesis
+The Japanese solar sail spacecraft that flew to Venus in 2010. :: IKAROS
+The first private lunar lander to soft-land, in 2024. :: Odysseus (Intuitive Machines IM-1)
+The Japanese lander that touched down on the Moon on its nose in 2024. :: SLIM
+The far-side sample return mission by China in 2024. :: Chang'e 6
+The Soviet Lunokhod 1, in 1970, was the first of these on another world. :: Robotic rover
+The crew of Apollo 8 were the first humans to see this. :: The far side of the Moon (and Earthrise)
+The famous photo taken by Apollo 8 in 1968. :: Earthrise
+The 'Blue Marble' photo was taken by the crew of this mission. :: Apollo 17
+The Apollo 12 crew visited this robotic probe on the Moon. :: Surveyor 3
+The Apollo astronaut who played golf on the Moon. :: Alan Shepard
+The NASA planned lunar space station for Artemis. :: Gateway (Lunar Gateway)
+The Artemis II mission planned to fly four astronauts around this. :: The Moon
+The rocket for Artemis missions. :: Space Launch System (SLS)
+The Space Shuttle's main engines burned liquid hydrogen and this. :: Liquid oxygen
+The rocket engine cycle used by SpaceX Raptor engines. :: Full-flow staged combustion
+The fuel used by SpaceX Raptor engines. :: Liquid methane (with liquid oxygen)
+The measure of rocket engine efficiency in seconds. :: Specific impulse
+The manoeuvre using a planet's gravity to change speed. :: Gravity assist (slingshot)
+The most fuel-efficient transfer between two circular orbits. :: Hohmann transfer
+The type of propulsion used by the Dawn spacecraft. :: Ion propulsion
+The number of satellites needed at minimum for a GPS position fix. :: Four
+The famous 2009 collision between two satellites happened between Iridium 33 and this. :: Kosmos 2251
+The runaway chain of space debris collisions is called this. :: Kessler syndrome
+The Saudi satellites built with KACST, first launched in 2000. :: SaudiSat
+The Chinese Moon mission whose small satellite carried a Saudi camera from KACST in 2018. :: Chang'e 4
+The UAE's planned mission to the asteroid belt. :: Emirates Mission to the Asteroid Belt (MBR Explorer)
+The UAE's first lunar rover, launched in 2022. :: Rashid
+The world's first space tourist, who flew to the ISS in 2001. :: Dennis Tito
+The two astronauts who share the record of seven spaceflights. :: Jerry Ross and Franklin Chang-Díaz
+The galaxy cluster whose collision gave strong visual evidence for dark matter. :: The Bullet Cluster
+The large structure of galaxies first mapped in 1989, a 'wall' of galaxies. :: Great Wall (CfA2 Great Wall)
+The huge empty regions between galaxy filaments. :: Cosmic voids
+The rare star type that may be the brightest stars of the early universe. :: Population III stars
+The record-distant galaxy confirmed by Webb in 2024. :: JADES-GS-z14-0

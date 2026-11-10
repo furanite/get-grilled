@@ -1,0 +1,514 @@
+id: engineers
+name: Engineers & Inventors
+nameAr: مهندسون ومخترعون
+group: engineering
+
+## 100
+The engineer whose firm built the 1889 Paris tower. :: Gustave Eiffel
+The inventor of the telephone, who got the patent in 1876. :: Alexander Graham Bell
+The inventor of the practical light bulb and the phonograph. :: Thomas Edison
+The brothers who made the first powered aeroplane flight in 1903. :: The Wright brothers
+The first names of the Wright brothers. :: Orville and Wilbur
+The inventor of dynamite, who founded the Nobel Prizes. :: Alfred Nobel
+The scientist famous for the theory of relativity. :: Albert Einstein
+The scientist who described gravity after, according to legend, an apple fell. :: Isaac Newton
+The inventor of the printing press with movable type in Europe. :: Johannes Gutenberg
+The Italian inventor known for long-distance radio. :: Guglielmo Marconi
+The car maker who made the moving assembly line famous. :: Henry Ford
+The car Henry Ford made popular from 1908. :: Model T
+The inventor of the first practical car with a petrol engine in 1886. :: Karl Benz
+The scientist who discovered penicillin. :: Alexander Fleming
+The scientist who studied radioactivity and won two Nobel Prizes. :: Marie Curie
+The inventor of the World Wide Web. :: Tim Berners-Lee
+The co-founder of Apple known for the iPhone. :: Steve Jobs
+The co-founder of Microsoft. :: Bill Gates
+The co-founder of Apple who built the Apple I computer. :: Steve Wozniak
+The founder of Tesla and SpaceX's best-known leader. :: Elon Musk
+The founder of Amazon. :: Jeff Bezos
+The founder of Facebook. :: Mark Zuckerberg
+The founders of Google. :: Larry Page and Sergey Brin
+The Italian artist who drew flying machines and helicopters 500 years ago. :: Leonardo da Vinci
+The Greek scientist who shouted 'Eureka!' in his bath. :: Archimedes
+The saloon owner from Ohio who invented the cash register in 1879. :: James Ritty
+The scientist who first used a telescope to study Jupiter's moons. :: Galileo Galilei
+The 12th-century Muslim engineer famous for his elephant clock. :: Al-Jazari
+The Arab scientist known as the father of optics, who studied the camera obscura. :: Ibn al-Haytham
+The Andalusian inventor who tried to fly with wings in the 9th century. :: Abbas ibn Firnas
+The inventor of the steam locomotive 'Rocket' in 1829. :: George Stephenson (with his son Robert)
+The engineer who improved the steam engine and gave his name to the unit of power. :: James Watt
+The scientist who discovered electromagnetic induction. :: Michael Faraday
+The inventor of alternating current motors and the Tesla coil. :: Nikola Tesla
+The chemist who invented a safety lamp for coal miners in 1815. :: Humphry Davy
+The scientist who invented the lightning rod. :: Benjamin Franklin
+The engineer who designed many bridges and the ship Great Britain. :: Isambard Kingdom Brunel
+The inventor who built the first working television in 1926. :: John Logie Baird
+The inventor of the jet engine in Britain. :: Frank Whittle
+The first person to walk on the Moon. :: Neil Armstrong
+The space agency of the United States. :: NASA
+The first artificial satellite, launched in 1957. :: Sputnik 1
+The first human in space, in 1961. :: Yuri Gagarin
+The company that launches the Falcon 9 rocket. :: SpaceX
+The scientist who created the theory of evolution by natural selection. :: Charles Darwin
+The engineer and mathematician who designed the Difference Engine. :: Charles Babbage
+The engineer known as the 'father of the iPod' at Apple. :: Tony Fadell
+The mathematician who cracked Enigma codes and imagined thinking machines. :: Alan Turing
+The inventor of the safety razor with throwaway blades. :: King C. Gillette
+The scientist who invented the mercury thermometer. :: Daniel Gabriel Fahrenheit
+The inventor of the sewing machine with the lockstitch, patented in 1846. :: Elias Howe
+The inventor of the cotton gin. :: Eli Whitney
+The inventor of Morse code and the electric telegraph in America. :: Samuel Morse
+The inventor of the safety elevator brake. :: Elisha Otis
+The inventor of the pneumatic tyre for bicycles in 1888. :: John Boyd Dunlop
+The inventor of the diesel engine. :: Rudolf Diesel
+The inventor of the windscreen wiper. :: Mary Anderson
+The inventor of the modern air conditioner. :: Willis Carrier
+The inventor of the microwave oven, who noticed a chocolate bar melting. :: Percy Spencer
+The inventor of the ballpoint pen. :: László Bíró
+The inventor of Velcro, inspired by burrs on his dog. :: George de Mestral
+The inventor of the zip fastener in its modern form. :: Gideon Sundback
+The scientist who invented the X-ray image, discovering X-rays in 1895. :: Wilhelm Röntgen
+The inventor of the daguerreotype, an early practical photograph process. :: Louis Daguerre
+The brothers who made the first motion picture shows in 1895. :: The Lumière brothers
+The inventor of the first successful dishwasher, patented in 1886. :: Josephine Cochrane
+The inventor of the bicycle with pedals on a crank, a Scottish blacksmith, according to legend. :: Kirkpatrick Macmillan
+The engineer who designed the Volkswagen Beetle. :: Ferdinand Porsche
+The engineer who founded the Japanese car company Honda. :: Soichiro Honda
+The founder of the Toyota car company. :: Kiichiro Toyoda
+The inventor of the Rubik's Cube. :: Ernő Rubik
+The Danish carpenter who founded the LEGO company. :: Ole Kirk Christiansen
+The inventor of the Game Boy at Nintendo. :: Gunpei Yokoi
+The game designer who created Mario. :: Shigeru Miyamoto
+The engineer who made the first handheld mobile phone call in 1973. :: Martin Cooper
+The inventor of the computer mouse. :: Douglas Engelbart
+The engineer who sent the first network email and chose the '@' sign. :: Ray Tomlinson
+The scientist who invented the first vaccine, for smallpox. :: Edward Jenner
+The scientist who invented pasteurisation. :: Louis Pasteur
+The inventor of the stethoscope. :: René Laennec
+The inventor of the hot air balloon, brothers from France. :: The Montgolfier brothers
+The Wright brothers' first flight took place in this US state. :: North Carolina (Kitty Hawk)
+The engineer who led the Apollo Saturn V rocket's design. :: Wernher von Braun
+The female mathematician whose calculations helped John Glenn orbit the Earth. :: Katherine Johnson
+The film about Katherine Johnson and NASA's Black women mathematicians. :: Hidden Figures
+The chemist who published the periodic table in 1869. :: Dmitri Mendeleev
+The inventor of the light-emitting diode for visible light in 1962. :: Nick Holonyak
+The guitarist and inventor who pioneered the solid-body electric guitar. :: Les Paul
+The founder of the Chinese company Huawei. :: Ren Zhengfei
+The founder of Alibaba. :: Jack Ma
+The businessman who founded Samsung in 1938. :: Lee Byung-chul
+The first Arab and first Muslim in space, in 1985. :: Prince Sultan bin Salman
+The Iraqi-British architect known as the 'Queen of the Curve'. :: Zaha Hadid
+The architect of the Burj Khalifa at SOM. :: Adrian Smith
+The architect who designed the Louvre glass pyramid. :: I. M. Pei
+The Egyptian-American scientist who won the 1999 Chemistry Nobel for femtochemistry. :: Ahmed Zewail
+The inventor who patented the S-bend toilet trap in 1775. :: Alexander Cumming
+The company founded by Steve Jobs and Steve Wozniak in 1976. :: Apple
+The inventor of the raised-dot reading system for blind people. :: Louis Braille
+The first woman in space, in 1963. :: Valentina Tereshkova
+
+## 200
+The inventor of the gramophone, which played flat discs. :: Emile Berliner
+The French sculptor who designed the Statue of Liberty. :: Frédéric Auguste Bartholdi
+The engineer who designed the Brooklyn Bridge. :: John Roebling
+The engineer who finished the Brooklyn Bridge after his father's death. :: Washington Roebling
+The woman who managed the Brooklyn Bridge's construction for her sick husband. :: Emily Warren Roebling
+The engineer who built the Suez Canal. :: Ferdinand de Lesseps
+The Suez Canal opened in this year. :: 1869
+The army engineer who completed the Panama Canal, opened in 1914. :: George Washington Goethals
+The engineer who built the Golden Gate Bridge. :: Joseph Strauss
+The Golden Gate Bridge opened in this year. :: 1937
+The engineer who designed the Sydney Harbour Bridge. :: John Bradfield
+The Danish architect who designed the Sydney Opera House. :: Jørn Utzon
+The engineer who solved the Sydney Opera House shells' structure. :: Ove Arup
+The engineer who built Britain's first major canal, the Bridgewater Canal. :: James Brindley
+The Scottish engineer known as the 'Colossus of Roads'. :: Thomas Telford
+The engineer who invented the macadam road surface. :: John Loudon McAdam
+The engineer who built the Thames Tunnel with his son, using a tunnelling shield. :: Marc Brunel
+The engineer who built London's sewer system after the Great Stink of 1858. :: Joseph Bazalgette
+The engineer whose 1813 'Puffing Billy' is the oldest surviving steam locomotive. :: William Hedley
+The designer of London's Crystal Palace for the 1851 Great Exhibition. :: Joseph Paxton
+Brunel's giant ship that laid the first lasting transatlantic cable. :: SS Great Eastern
+The inventor of the Bessemer process for cheap steel. :: Henry Bessemer
+The steel tycoon who funded thousands of libraries. :: Andrew Carnegie
+The inventor of the spinning jenny. :: James Hargreaves
+The inventor of the water frame and the factory system. :: Richard Arkwright
+The inventor of the flying shuttle for weaving. :: John Kay
+The inventor of the power loom. :: Edmund Cartwright
+The engineer who built the first high-pressure steam locomotive in 1804. :: Richard Trevithick
+The inventor of the first practical steamboat in America, the Clermont. :: Robert Fulton
+The inventor of the revolver whose company made the Colt. :: Samuel Colt
+The inventor of the mechanical reaper for harvesting grain in 1831. :: Cyrus McCormick
+The father of scientific management, who timed workers with a stopwatch. :: Frederick Winslow Taylor
+The couple who studied motion in work and inspired 'Cheaper by the Dozen'. :: Frank and Lillian Gilbreth
+The first woman to work as a professor of electrical engineering in the US. :: Edith Clarke
+The inventor of the Gantt chart. :: Henry Gantt
+The statistician who taught quality control to Japanese industry after WWII. :: W. Edwards Deming
+The Toyota engineer who created the Toyota Production System. :: Taiichi Ohno
+The 'just-in-time' production method came from this company. :: Toyota
+The engineer who invented the four-stroke petrol engine cycle in 1876. :: Nicolaus Otto
+The engineer who built the first motorcycle and a high-speed petrol engine with Wilhelm Maybach. :: Gottlieb Daimler
+The engineer known as the 'king of designers' who built the first Mercedes. :: Wilhelm Maybach
+The inventor of the rotary engine used in Mazda cars. :: Felix Wankel
+The engineer who designed the Mini car with front-wheel drive and a transverse engine. :: Alec Issigonis
+The inventor of the three-point seatbelt at Volvo. :: Nils Bohlin
+The engineer who patented a car safety cushion in 1952, an early airbag. :: John Hetrick
+The inventor of the helicopter with a single main rotor, built in 1939. :: Igor Sikorsky
+The engineer who designed the Spitfire fighter. :: R. J. Mitchell
+The engineer who designed the bouncing bomb for the Dambusters raid. :: Barnes Wallis
+The engineer who led the Lockheed Skunk Works and designed the SR-71. :: Kelly Johnson
+The two countries that built the Concorde together. :: Britain and France
+The engineer who invented the hovercraft. :: Christopher Cockerell
+The engineer who invented the jet engine in Germany. :: Hans von Ohain
+The engineer who launched the first liquid-fuelled rocket in 1926. :: Robert Goddard
+The Russian teacher who wrote the rocket equation in 1903. :: Konstantin Tsiolkovsky
+The Soviet chief designer behind Sputnik and Gagarin's flight. :: Sergei Korolev
+The NASA engineer who led Apollo flight control, famous for 'failure is not an option' (a film line). :: Gene Kranz
+The MIT engineer who led the Apollo guidance software team. :: Margaret Hamilton
+The space telescope launched in 1990 that later needed corrective optics. :: Hubble Space Telescope
+The telescope launched in 2021 that sees in infrared. :: James Webb Space Telescope
+The inventor of the transistor's junction version at Bell Labs. :: William Shockley
+The inventor of the integrated circuit at Texas Instruments. :: Jack Kilby
+The co-founder of Intel who predicted chip growth. :: Gordon Moore
+The co-founder of Intel who co-invented the integrated circuit. :: Robert Noyce
+The engineer who founded Hewlett-Packard with David Packard in a garage. :: Bill Hewlett
+The engineer who founded Taiwan's TSMC. :: Morris Chang
+The founder of NVIDIA. :: Jensen Huang
+The two Acorn engineers who designed the first ARM chip. :: Sophie Wilson and Steve Furber
+The engineer who invented the laser in 1960. :: Theodore Maiman
+The inventor of the optical fibre for communications, a Nobel winner in 2009. :: Charles Kao
+The inventor of the CCD image sensor, with George Smith. :: Willard Boyle
+The inventor of the digital camera at Kodak in 1975. :: Steven Sasson
+The Air Force engineer called one of the fathers of GPS. :: Bradford Parkinson
+The inventor of Wi-Fi's key technology in Australia's CSIRO. :: John O'Sullivan
+The actress who co-invented frequency hopping used in later wireless tech. :: Hedy Lamarr
+The inventor of the pacemaker, the first implantable one in 1958. :: Rune Elmqvist (with Åke Senning)
+The engineer who invented the CT scanner. :: Godfrey Hounsfield
+Peter Mansfield's co-winner of the 2003 Nobel Prize for MRI. :: Paul Lauterbur
+The inventor of the electrocardiograph, the ECG. :: Willem Einthoven
+The inventor of the artificial kidney, the dialysis machine. :: Willem Kolff
+The inventor of the polio vaccine that was injected. :: Jonas Salk
+The engineer who invented the bagless cyclone vacuum cleaner. :: James Dyson
+The inventor of the Post-it note's glue at 3M. :: Spencer Silver
+The inventor of the Kevlar fibre at DuPont. :: Stephanie Kwolek
+The inventor of nylon at DuPont. :: Wallace Carothers
+The inventor of the first plastic made from synthetic materials, Bakelite. :: Leo Baekeland
+The inventor of the Haber process for ammonia. :: Fritz Haber
+The engineer who scaled up the Haber process. :: Carl Bosch
+The inventor of the lithium-ion battery's cathode, a Nobel winner at 97. :: John Goodenough
+The Japanese chemist who made the first commercial lithium-ion battery design. :: Akira Yoshino
+The inventor of the solar cell at Bell Labs in 1954, with Fuller and Pearson. :: Daryl Chapin
+The inventor of the Fresnel lens for lighthouses. :: Augustin-Jean Fresnel
+The French gardener who patented reinforced concrete flower pots in 1867. :: Joseph Monier
+The engineer who built the first skyscraper in Chicago, the Home Insurance Building. :: William Le Baron Jenney
+The architect whose Chicago motto was 'form follows function'. :: Louis Sullivan
+The architect who designed Fallingwater. :: Frank Lloyd Wright
+The dam on the Colorado River finished in 1936. :: Hoover Dam
+The Indian engineer whose birthday is Engineers' Day in India. :: M. Visvesvaraya
+The undertaker who invented the automatic telephone exchange in 1891. :: Almon Strowger
+The test pilot who first broke the sound barrier, in 1947. :: Chuck Yeager
+The inventor of xerography, the photocopying process, in 1938. :: Chester Carlson
+
+## 300
+The grandson of Ferdinand Porsche who designed the Porsche 911. :: Ferdinand Alexander 'Butzi' Porsche
+The Bangladeshi-American engineer who designed the Sears Tower's bundled tube. :: Fazlur Rahman Khan
+The architect who designed the Guggenheim Museum in Bilbao. :: Frank Gehry
+Zaha Hadid designed this Riyadh metro station. :: KAFD Metro Station
+The Brazilian architect who designed the main buildings of Brasília. :: Oscar Niemeyer
+The Egyptian engineer and architect known for designing mud-brick housing for the poor in New Gourna. :: Hassan Fathy
+The Egyptian-born engineer who co-invented the MOSFET at Bell Labs. :: Mohamed Atalla
+The Egyptian-American geologist who helped NASA choose the Apollo landing sites. :: Farouk El-Baz
+The Saudi woman scientist who invented a tiny sensor for diseases at Harvard, a UNESCO Ambassador. :: Hayat Sindi
+The Pakistani physicist who won the 1979 Nobel Prize. :: Abdus Salam
+The Turkish-German scientists who co-founded BioNTech, which made a COVID vaccine. :: Uğur Şahin and Özlem Türeci
+The Jordanian-American chemist who pioneered metal–organic frameworks, winning the 2025 Chemistry Nobel. :: Omar Yaghi
+The 9th-century Baghdad brothers who wrote the Book of Ingenious Devices. :: The Banu Musa brothers
+The 13th-century Persian scholar who built the Maragheh observatory. :: Nasir al-Din al-Tusi
+The 15th-century ruler-astronomer who built a giant observatory in Samarkand. :: Ulugh Beg
+The 16th-century Ottoman engineer who built the Selimiye Mosque. :: Mimar Sinan
+The Ottoman astronomer whose Istanbul observatory was destroyed in 1580. :: Taqi al-Din
+The Andalusian surgeon who invented many surgical instruments in the 10th century. :: Al-Zahrawi
+The Persian scholar who wrote The Canon of Medicine. :: Ibn Sina (Avicenna)
+The astronomer who measured the Earth's radius in the 11th century with a mountain. :: Al-Biruni
+The Muslim woman astrolabe maker from 10th-century Aleppo. :: Mariam al-Astrulabi (al-Ijliya)
+The founder of the University of al-Qarawiyyin in Fez, a woman. :: Fatima al-Fihri
+The Arab navigator who wrote famous guides to sailing the Indian Ocean. :: Ahmad ibn Majid
+The Greek engineer who built a steam-powered aeolipile and a vending machine. :: Hero of Alexandria
+The Greek engineer who invented the force pump and water clock. :: Ctesibius
+The Roman engineer who wrote De Architectura. :: Vitruvius
+The ancient Chinese engineer who invented the seismometer in 132 CE. :: Zhang Heng
+The Chinese inventor credited with making paper in 105 CE. :: Cai Lun
+The Chinese engineer who built the Dujiangyan irrigation system. :: Li Bing
+The Chinese engineer who designed the Anji Bridge, the oldest open-spandrel stone arch bridge. :: Li Chun
+The Egyptian architect credited with the first pyramid, at Saqqara. :: Imhotep
+The Soviet engineers helped build this famous Egyptian dam. :: Aswan High Dam
+The world's largest hydroelectric dam by capacity, on China's Yangtze River. :: Three Gorges Dam
+The Swiss engineer who designed elegant concrete arch bridges like Salginatobel. :: Robert Maillart
+The Spanish engineer famous for thin concrete shells in Mexico. :: Félix Candela
+The Spanish architect-engineer who designed the Turning Torso in Malmö. :: Santiago Calatrava
+The Italian engineer who designed the Palazzetto dello Sport with ribbed concrete. :: Pier Luigi Nervi
+The German engineer who designed the Munich Olympic Stadium's cable-net roof. :: Frei Otto
+The French engineer who designed the Millau Viaduct with architect Norman Foster. :: Michel Virlogeux
+The bridge in southern France with the world's tallest bridge structure, opened in 2004. :: Millau Viaduct
+The engineer who built Japan's first bullet train, the Shinkansen. :: Hideo Shima
+The Shinkansen opened in this year, just before the Tokyo Olympics. :: 1964
+The German engineer who patented magnetic levitation trains in 1934. :: Hermann Kemper
+The French engineer who built the Canal du Midi in the 17th century. :: Pierre-Paul Riquet
+The French engineer who built a famous system of forts in the 17th century. :: Vauban
+The Dutch engineer who led the Afsluitdijk dam closing off the Zuiderzee. :: Cornelis Lely
+The Dutch flood protection project built after the 1953 flood. :: Delta Works
+The town built in Nevada for Hoover Dam workers. :: Boulder City
+The firm whose engineer Fazlur Khan designed Jeddah's tent-roofed Hajj Terminal. :: Skidmore, Owings & Merrill (SOM)
+The Hajj Terminal at King Abdulaziz Airport uses this type of tent-like roof. :: Fabric (tensile) roof
+The Hajj Terminal won this famous architecture award in 1983. :: Aga Khan Award for Architecture
+The Saudi company founded by Mohammed bin Laden in 1931. :: Saudi Binladin Group
+The chief engineer who designed the Hejaz Railway. :: Heinrich Meissner (Meissner Pasha)
+The Hejaz Railway's chief engineer was from this country. :: Germany
+The engineer who pioneered the use of reinforced concrete for buildings in France around 1900. :: François Hennebique
+The Caltech seismologist who created a famous earthquake magnitude scale in 1935. :: Charles Richter
+The seismologist who created the moment magnitude scale with Hiroo Kanamori in 1979. :: Thomas Hanks
+The British engineer who invented the cat's eye road reflector. :: Percy Shaw
+The Black American inventor who patented a three-position traffic signal in 1923. :: Garrett Morgan
+The Florida doctor who built an ice-making machine to cool yellow fever patients. :: John Gorrie
+The engineer who invented the first practical typewriter. :: Christopher Latham Sholes
+The QWERTY layout was designed by this inventor. :: Christopher Latham Sholes
+Joseph Woodland's partner in patenting the barcode. :: Bernard Silver
+The inventor of the QR code at Denso Wave in 1994. :: Masahiro Hara
+The Sony co-founder who asked for a portable player to use on flights, leading to the Walkman. :: Masaru Ibuka
+The Dutch engineer at Philips known as the father of the cassette tape. :: Lou Ottens
+The engineer who invented MP3 compression at Fraunhofer. :: Karlheinz Brandenburg
+The engineer who co-designed the internet's TCP/IP protocols with Bob Kahn. :: Vint Cerf
+The German engineer who founded the company Siemens in 1847. :: Werner von Siemens
+The engineer who founded Bosch. :: Robert Bosch
+The engineer who founded Rolls-Royce with Charles Rolls. :: Henry Royce
+The engineer who founded Ferrari. :: Enzo Ferrari
+The engineer who founded Lamborghini after making tractors. :: Ferruccio Lamborghini
+The American who built early crawler tractors and called them 'Caterpillar'. :: Benjamin Holt
+Tanks were first used in battle in this year. :: 1916
+The Scottish engineer who patented the pneumatic tyre in 1845, before Dunlop. :: Robert William Thomson
+The engineer who built the giant wheel for Chicago's 1893 World's Fair. :: George Ferris
+The French engineer who flew a steam-powered airship in 1852. :: Henri Giffard
+The engineer who built the first practical steam engine to pump mine water, in 1712. :: Thomas Newcomen
+The engineer who patented the 'Miner's Friend' steam pump in 1698. :: Thomas Savery
+The French engineer who built the first self-propelled steam vehicle in 1769. :: Nicolas-Joseph Cugnot
+The blacksmith who made the first successful steel plough in 1837. :: John Deere
+The farmer who patented the most successful barbed wire design in 1874. :: Joseph Glidden
+The inventor of vulcanised rubber. :: Charles Goodyear
+The Scottish chemist whose waterproof fabric gave raincoats a name. :: Charles Macintosh
+The Swedish engineer who invented the adjustable spanner. :: Johan Petter Johansson
+The Swedish businessman who founded Tetra Pak. :: Ruben Rausing
+The Danish scientist who found in 1820 that an electric current moves a compass needle. :: Hans Christian Ørsted
+The Australian engineer who invented the flight data recorder, the 'black box'. :: David Warren
+The Swiss chemist who invented cellophane in 1908. :: Jacques Brandenberger
+The engineer who built an implantable pacemaker after fitting the wrong resistor by mistake. :: Wilson Greatbatch
+The Scottish scientist who invented the vacuum flask in 1892. :: James Dewar
+The Spanish engineer who invented the autogyro in 1923. :: Juan de la Cierva
+The Brazilian aviator who flew the 14-bis in Paris in 1906. :: Alberto Santos-Dumont
+The German glider pioneer known as the 'Glider King'. :: Otto Lilienthal
+The Irish-American engineer whose submarine was bought by the US Navy in 1900. :: John Philip Holland
+The Japanese engineer who shared the 2014 Nobel Prize for the blue LED. :: Shuji Nakamura
+The brothers who founded the Michelin tyre company in 1889. :: André and Édouard Michelin
+The Italian engineer who designed the Fiat 500 of 1957. :: Dante Giacosa
+The Indian-American engineer who co-founded Hotmail in 1996. :: Sabeer Bhatia
+
+## 400
+The Swiss-French architect who designed the Villa Savoye. :: Le Corbusier
+The structural engineer who led the design of Burj Khalifa at SOM. :: William F. Baker
+The Burj Khalifa's height. :: 828 m
+The Burj Khalifa opened in this year. :: 2010
+The planned height of Jeddah Tower, roughly. :: About 1,000 m
+The Riyadh tower with a sky bridge across the top of its arch. :: Kingdom Centre
+The architect of Al Faisaliah Tower in Riyadh. :: Norman Foster
+The architect of the King Abdullah Petroleum Studies and Research Center (KAPSARC) in Riyadh. :: Zaha Hadid
+The architect of Ithra in Dhahran. :: Snøhetta
+The architect of the Kingdom Centre, Riyadh, working with Omrania. :: Ellerbe Becket
+The Japanese-American architect who designed Dhahran airport's 1961 terminal. :: Minoru Yamasaki
+The American firm that designed the KAUST campus. :: HOK
+The Riyadh architecture firm, founded in 1974, that worked on Kingdom Centre. :: Omrania
+The Egyptian architect who designed many traditional-style mosques in Jeddah, such as the Island Mosque. :: Abdel-Wahed El-Wakil
+The Japanese architect who designed Tokyo's National Stadium for the 2020 Olympics. :: Kengo Kuma
+The engineer who designed the Tacoma Narrows Bridge that collapsed in 1940. :: Leon Moisseiff
+The engineer whose Quebec Bridge design collapsed in 1907. :: Theodore Cooper
+The engineer who designed the Firth of Forth Bridge with John Fowler. :: Benjamin Baker
+The engineer who designed the Tay Bridge that fell in 1879. :: Thomas Bouch
+The engineer who invented the Bailey bridge in WWII. :: Donald Bailey
+The bridge that took the longest suspension span title in 2022, in Turkey. :: 1915 Çanakkale Bridge
+The longest bridge in the world, a high-speed rail viaduct in China. :: Danyang–Kunshan Grand Bridge
+The bridge-tunnel linking Hong Kong, Zhuhai and Macau opened in this year. :: 2018
+The London tunnel opened in 1843, the first known tunnel under a navigable river. :: Thames Tunnel
+The tunnelling method that uses the rock's own strength with shotcrete. :: New Austrian Tunnelling Method (NATM)
+The longest railway tunnel in the world, opened in Switzerland in 2016. :: Gotthard Base Tunnel
+The Channel Tunnel opened in this year. :: 1994
+The length of the Channel Tunnel, roughly. :: About 50 km
+The engineer who designed the Hoover Dam's construction as superintendent. :: Frank Crowe
+The engineer called the father of American civil engineering, chief engineer of the Erie Canal. :: Benjamin Wright
+The engineer who designed Washington DC's street plan. :: Pierre Charles L'Enfant
+The official who rebuilt Paris with wide boulevards in the 1850s and 1860s. :: Georges-Eugène Haussmann
+The world's first underground railway, opened in London in 1863. :: Metropolitan Railway
+The architect of the Kansai airport terminal, built on an artificial island. :: Renzo Piano
+The Swiss architects who designed Beijing's 'Bird's Nest' stadium. :: Herzog & de Meuron
+The architect who designed the Centre Pompidou with Renzo Piano. :: Richard Rogers
+The engineering firm that worked on the Centre Pompidou and Sydney Opera House. :: Arup
+The engineer at Arup who designed the Pompidou's structure. :: Peter Rice
+The engineer who invented the geodesic dome. :: Buckminster Fuller
+The architect who designed the Gateway Arch in St. Louis. :: Eero Saarinen
+The Russian engineer who built the Shukhov radio tower in Moscow. :: Vladimir Shukhov
+The German who built the first all-metal aircraft, the J 1, in 1915. :: Hugo Junkers
+The British designer whose company built the first jet airliner, the Comet. :: Geoffrey de Havilland
+The engineer who led the design of the Boeing 747. :: Joe Sutter
+The 747 first flew in this year. :: 1969
+The European aircraft company's largest plane, the A380, first flew in this year. :: 2005
+The engineer who designed the first practical helicopter in Germany in 1936. :: Henrich Focke
+The Indian engineer who led India's missile programme and became President. :: A. P. J. Abdul Kalam
+The Indian engineer who founded India's space programme. :: Vikram Sarabhai
+The Indian spacecraft that landed near the Moon's south pole in 2023. :: Chandrayaan-3
+The UAE probe that reached Mars orbit in 2021. :: Hope Probe (Al-Amal)
+The Emirati minister who led the science team of the Hope Mars mission. :: Sarah Al Amiri
+The UAE astronaut who did the first Arab spacewalk in 2023. :: Sultan Al Neyadi
+The Saudi astronauts' 2023 mission was called this. :: Axiom Mission 2 (Ax-2)
+The car company that built the ASIMO robot. :: Honda
+The engineer who invented the industrial robot Unimate. :: George Devol (with Joseph Engelberger)
+The engineer called the father of robotics. :: Joseph Engelberger
+The engineer who founded Boston Dynamics. :: Marc Raibert
+The engineer who invented the Segway. :: Dean Kamen
+The engineer who founded Tesla Motors with Marc Tarpenning in 2003. :: Martin Eberhard
+The designer of the Tesla Model S. :: Franz von Holzhausen
+The engineer who designed the world's first nuclear reactor, Chicago Pile-1. :: Enrico Fermi
+The physicist who led the Manhattan Project's scientific work. :: J. Robert Oppenheimer
+The engineer who led the Manhattan Project as general. :: Leslie Groves
+Leslie Groves also oversaw building this huge US military office building. :: The Pentagon
+The architect who designed the Pentagon. :: George Bergstrom
+The engineer who invented the first nuclear submarine programme, called the father of the nuclear navy. :: Hyman Rickover
+The first nuclear-powered submarine. :: USS Nautilus
+The first nuclear power plant to make electricity for a grid. :: Obninsk
+The engineer who invented the Geiger counter with Walther Müller. :: Hans Geiger
+The engineer who developed the radar cavity magnetron in 1940. :: John Randall and Harry Boot
+The engineer who invented the first practical radar in Britain. :: Robert Watson-Watt
+The engineer who invented the Yagi antenna in Japan. :: Hidetsugu Yagi
+The engineer who invented FM radio. :: Edwin Armstrong
+The engineer who invented the vacuum triode. :: Lee de Forest
+The two GE engineers who invented the moving-coil loudspeaker in 1925. :: Chester Rice and Edward Kellogg
+The Vermont blacksmith who patented an early electric motor in 1837. :: Thomas Davenport
+The scientist who built the first electromagnet in 1824. :: William Sturgeon
+The two British inventors of the needle telegraph, used on railways from 1838. :: Cooke and Wheatstone
+The engineer at Eiffel's firm who drew the first design of the Eiffel Tower. :: Maurice Koechlin
+The Scottish engineer who built the Bell Rock Lighthouse in 1810. :: Robert Stevenson
+The Swiss-American engineer who designed the George Washington and Verrazzano-Narrows bridges. :: Othmar Ammann
+The Argentine-American architect who designed the Petronas Towers. :: César Pelli
+The Taiwanese architect who designed Taipei 101. :: C. Y. Lee
+The American engineer whose 1952 machine for South Dakota's Oahe Dam began the modern tunnel boring machine. :: James S. Robbins
+The French engineer who pioneered prestressed concrete. :: Eugène Freyssinet
+The ironmaster who built the world's first major iron bridge, at Coalbrookdale in 1779. :: Abraham Darby III
+The Swedish engineer called the father of high-voltage DC transmission. :: Uno Lamm
+The Serbian-American physicist whose loading coils let telephone calls travel far. :: Mihajlo Pupin
+The French aviator who first flew across the English Channel, in 1909. :: Louis Blériot
+The British pair who made the first non-stop transatlantic flight in 1919. :: Alcock and Brown
+The aviator who flew solo non-stop from New York to Paris in 1927. :: Charles Lindbergh
+The Grumman engineer called the father of the Apollo Lunar Module. :: Thomas Kelly
+The NASA engineer who designed the Mercury space capsule. :: Maxime Faget
+The NASA flight director who created Mission Control. :: Christopher Kraft
+The engineer whose 1960 filter is used to track spacecraft and phones. :: Rudolf Kálmán
+The Xerox engineer who invented the laser printer. :: Gary Starkweather
+The architect who gave the Golden Gate Bridge its Art Deco towers and orange colour. :: Irving Morrow
+The Danish engineer who recorded sound on steel wire in 1898 with the telegraphone. :: Valdemar Poulsen
+The French scientist who made the first crewed hydrogen balloon flight in 1783. :: Jacques Charles
+
+## 500
+The 12th-century author of The Book of Knowledge of Ingenious Mechanical Devices. :: Al-Jazari
+Al-Jazari worked for the Artuqid rulers in this city in present-day Turkey. :: Diyarbakır
+Al-Jazari's water-raising machine, an early use of a crank and connecting rod. :: Twin-cylinder water pump
+The year Al-Jazari finished his book. :: 1206
+The Muslim engineer from Andalusia who designed water clocks in Toledo in the 11th century. :: Al-Zarqali (Arzachel)
+The Andalusian engineer who wrote 'The Book of Secrets' about gears, around 1000 CE. :: Ibn Khalaf al-Muradi
+The Damascus astronomer who built a sundial for the Umayyad Mosque in 1371. :: Ibn al-Shatir
+The underground channels that carried water from hills in ancient Persia. :: Qanats
+The engineer-scholar who flew from Galata Tower with artificial wings, according to legend, in the 1630s. :: Hezârfen Ahmed Çelebi
+Abbas ibn Firnas lived in this Andalusian city. :: Córdoba
+The region of Persia where the earliest known windmills were described. :: Sistan
+The Arab chemist credited with the alembic and early distillation methods. :: Jabir ibn Hayyan
+The architect often credited as chief designer of the Taj Mahal. :: Ustad Ahmad Lahori
+The Dutch scientist who built the first pendulum clock in 1656. :: Christiaan Huygens
+The engineer who solved the longitude problem with marine chronometers. :: John Harrison
+The engineer who invented the hydraulic press in 1795. :: Joseph Bramah
+The engineer who invented the screw-cutting lathe that standardised threads. :: Henry Maudslay
+The engineer who standardised screw threads in Britain in 1841. :: Joseph Whitworth
+The engineer who invented the steam hammer. :: James Nasmyth
+The line opened in 1825 as the first public steam railway. :: Stockton and Darlington Railway
+The engineer who invented the first practical water turbine in 1827. :: Benoît Fourneyron
+The engineer who invented the Pelton wheel. :: Lester Pelton
+The engineer who invented the Francis turbine. :: James Francis
+The engineer who invented the Kaplan turbine. :: Viktor Kaplan
+The engineer who built the first electric streetcar system in Richmond, Virginia, in 1888. :: Frank Sprague
+The engineer who built the first air brake for trains. :: George Westinghouse
+The Russian engineer whose 'candle' arc lamps lit Paris streets in 1878. :: Pavel Yablochkov
+The engineer who invented the incandescent bulb in Britain before Edison. :: Joseph Swan
+The engineer who invented the transformer type that made AC grids practical in Hungary in 1885. :: Ottó Bláthy (with Zipernowsky and Déri)
+The engineer who invented the induction motor independently of Tesla in Italy. :: Galileo Ferraris
+The engineer who invented the steam turbine's practical form in 1884. :: Charles Parsons
+The Swedish engineer who invented the impulse steam turbine and the milk separator. :: Gustaf de Laval
+The German engineer who invented the gyrocompass in 1908. :: Hermann Anschütz-Kaempfe
+The engineer who invented the autopilot. :: Lawrence Sperry
+The engineer who invented the turbocharger in 1905. :: Alfred Büchi
+The British engineer who patented the disc brake for cars in 1902. :: Frederick Lanchester
+The French clockmaker who patented a differential gear for vehicles in 1827. :: Onésiphore Pecqueur
+The Hungarian pair who patented a carburettor in 1893. :: Donát Bánki and János Csonka
+The engineer who invented the spark plug ignition with high voltage magneto at Bosch. :: Gottlob Honold
+The engineer who invented the hydraulic crane and founded Armstrong Whitworth. :: William Armstrong
+William Armstrong's house Cragside was the first in the world lit by this. :: Hydroelectric power
+The engineer who built the Eddystone Lighthouse in 1759 using interlocking stones. :: John Smeaton
+John Smeaton was the first to call himself this. :: A civil engineer
+The world's first engineering society, founded in London in 1818. :: Institution of Civil Engineers (ICE)
+The first president of the Institution of Civil Engineers. :: Thomas Telford
+The world's oldest engineering school, founded in Paris in 1747. :: École des Ponts et Chaussées
+The French engineer who wrote a prize-winning study of friction in 1781. :: Charles-Augustin de Coulomb
+The engineer whose 1840s experiments with bridges showed the strength of wrought iron tubes. :: William Fairbairn
+The German engineer who built the Z3, the first working programmable computer, in 1941. :: Konrad Zuse
+The engineer who built Colossus at Bletchley Park. :: Tommy Flowers
+The engineers who built ENIAC. :: John Mauchly and J. Presper Eckert
+The MIT engineer who invented magnetic core memory for the Whirlwind computer. :: Jay Forrester
+The engineer who invented the hard disk drive at IBM in 1956. :: Reynold Johnson
+The engineer who invented the first microprocessor's design with Ted Hoff and Stan Mazor. :: Federico Faggin
+The engineer who invented the Ethernet at Xerox PARC. :: Bob Metcalfe
+The British engineer who invented the capacitive touchscreen in 1965. :: E. A. Johnson
+The Nintendo engineer who designed the Famicom console. :: Masayuki Uemura
+The engineer who invented the quartz clock at Bell Labs in 1927. :: Warren Marrison
+The engineer who invented the atomic clock with caesium in 1955. :: Louis Essen
+The Saudi engineer who served as Aramco's president and then oil minister for 21 years. :: Ali Al-Naimi
+The Saudi engineer and KFUPM graduate who became Aramco CEO in 2015. :: Amin Nasser
+The Saudi engineer and astronaut who flew to the ISS in 2023 and was a fighter pilot. :: Ali AlQarni
+The breast cancer stem cell researcher who became the first Saudi woman in space. :: Rayyanah Barnawi
+The ancient Greek engineer whose tunnel on Samos was dug from both ends. :: Eupalinos
+The Roman water commissioner who wrote a book about Rome's aqueducts. :: Frontinus
+The ancient geared device from a Greek shipwreck, called the oldest known analogue computer. :: Antikythera mechanism
+The two architects of Hagia Sophia, finished in 537. :: Isidore of Miletus and Anthemius of Tralles
+The Renaissance architect who built Florence Cathedral's dome. :: Filippo Brunelleschi
+The German scholar who wrote 'De re metallica' on mining in 1556. :: Georgius Agricola
+The Italian engineer who moved the Vatican obelisk in 1586. :: Domenico Fontana
+The Belgian carpenter who built the Machine de Marly to pump water for Versailles. :: Rennequin Sualem
+The Chinese engineer who built an astronomical clock tower in Kaifeng in 1088. :: Su Song
+The Indian ruler who built the Jantar Mantar observatories. :: Maharaja Jai Singh II
+The Persian astronomer who calculated pi to 16 decimal places in the 1400s. :: Jamshid al-Kashi
+The Arab physician who described how blood flows through the lungs in the 13th century. :: Ibn al-Nafis
+The Ottoman admiral who drew a famous world map in 1513. :: Piri Reis
+The Persian mathematician who wrote 'The Extraction of Hidden Waters' about qanats. :: Al-Karaji
+The scholar who wrote 'The Book of the Balance of Wisdom' about weighing in 1121. :: Al-Khazini
+The Belgian engineer who built a working gas engine in 1860. :: Étienne Lenoir
+The Belgian engineer who built the Gramme dynamo in 1871. :: Zénobe Gramme
+The Hungarian engineer who worked with Edison and built Budapest's telephone exchange. :: Tivadar Puskás
+The French engineer who invented the zinc–carbon cell that led to the dry battery. :: Georges Leclanché
+The French physicist who invented the rechargeable lead–acid battery in 1859. :: Gaston Planté
+The Italian priest who invented the pantelegraph, an early fax machine. :: Giovanni Caselli
+The Scottish clockmaker who patented the electric clock in 1841. :: Alexander Bain
+The inventor who used punched cards to count the 1890 US census. :: Herman Hollerith
+The English clergyman who invented the slide rule in the 1620s. :: William Oughtred
+The French mathematician who built a calculating machine in 1642 at age 19. :: Blaise Pascal
+The German who built a stepped-drum calculator and wrote about binary numbers. :: Gottfried Wilhelm Leibniz
+The Scottish mathematician who invented logarithms. :: John Napier
+The English engineer who built a practical seismograph in Japan in the 1880s. :: John Milne
+The Swedish-American engineer who designed the ironclad USS Monitor. :: John Ericsson
+The English farmer who patented a ship's screw propeller in 1836. :: Francis Pettit Smith
+The American who invented a steelmaking process like Bessemer's on his own. :: William Kelly
+The two men behind the open-hearth steelmaking process. :: Siemens and Martin
+The French engineer who invented the Bourdon pressure gauge in 1849. :: Eugène Bourdon
+The American engineer who invented the Venturi flow meter in 1887. :: Clemens Herschel
+The British engineer who led the work that stopped the Leaning Tower of Pisa from falling. :: John Burland
+The American engineer who invented the Link Trainer flight simulator in 1929. :: Edwin Link
+The Swedish engineer who invented the safety match's modern form in 1844. :: Gustaf Erik Pasch

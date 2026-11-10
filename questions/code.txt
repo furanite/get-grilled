@@ -1,0 +1,514 @@
+id: code
+name: Code & Computing
+nameAr: البرمجة والحوسبة
+group: cces
+
+## 100
+Decimal 5 written in binary. :: 101
+The number system computers use, with only 0 and 1. :: Binary
+A single binary digit. :: Bit
+A group of 8 bits. :: Byte
+About 1,000 bytes. :: Kilobyte
+About one million bytes. :: Megabyte
+About one billion bytes. :: Gigabyte
+CPU stands for this. :: Central processing unit
+RAM stands for this. :: Random-access memory
+ROM stands for this. :: Read-only memory
+GPU stands for this. :: Graphics processing unit
+The part of a computer that does calculations and runs instructions. :: CPU (processor)
+Memory that loses its contents when the power is off. :: Volatile memory (RAM)
+A storage drive with no moving parts. :: SSD (solid-state drive)
+The main circuit board in a computer. :: Motherboard
+The software that manages a computer's hardware and runs programs. :: Operating system
+The operating system made by Microsoft. :: Windows
+The operating system on iPhones. :: iOS
+The operating system on most non-Apple smartphones. :: Android
+The free operating system kernel started by Linus Torvalds. :: Linux
+A set of step-by-step instructions to solve a problem. :: Algorithm
+A mistake in a program. :: Bug
+Finding and fixing mistakes in a program. :: Debugging
+A named storage location for a value in a program. :: Variable
+A value that cannot change while a program runs. :: Constant
+A loop that repeats a fixed number of times. :: For loop
+A loop that repeats while a condition is true. :: While loop
+The statement that chooses between two paths. :: If statement (if–else)
+A named block of code you can call again and again. :: Function
+A data type that is either true or false. :: Boolean
+A data type for whole numbers. :: Integer
+A data type for text. :: String
+A data type for numbers with a decimal point. :: Float (floating point)
+An ordered collection of items in Python written in square brackets. :: List
+A collection of key–value pairs in Python. :: Dictionary
+The language created by Guido van Rossum. :: Python
+The language that runs in every web browser. :: JavaScript
+The language used to describe the structure of web pages. :: HTML
+HTML stands for this. :: HyperText Markup Language
+The language used to style web pages. :: CSS
+CSS stands for this. :: Cascading Style Sheets
+The language used to query databases. :: SQL
+The language made by Sun Microsystems with the slogan 'write once, run anywhere'. :: Java
+The language Apple introduced in 2014 for iPhone apps. :: Swift
+The language created by Dennis Ritchie at Bell Labs. :: C
+The extension of C created by Bjarne Stroustrup. :: C++
+The engineering software for matrix maths named 'matrix laboratory'. :: MATLAB
+The symbol used for comments in Python. :: # (hash)
+The symbol used for single-line comments in C, Java and JavaScript. :: // (two slashes)
+The function that displays text in Python. :: print()
+In most languages, the first item of an array has this index. :: 0
+The operator that gives the remainder of a division. :: Modulo (%)
+7 modulo 3 equals this. :: 1
+A program that translates a whole program to machine code before running it. :: Compiler
+A program that runs code line by line without compiling it first. :: Interpreter
+The world wide network of computer networks. :: Internet
+WWW stands for this. :: World Wide Web
+The scientist who invented the World Wide Web. :: Tim Berners-Lee
+The program used to view web pages. :: Web browser
+URL stands for this. :: Uniform Resource Locator
+The protocol for secure web pages, shown as a lock in the browser. :: HTTPS
+The unique number that identifies a device on a network. :: IP address
+The system that turns website names into IP addresses. :: DNS
+Wireless networking for local areas. :: Wi-Fi
+The short-range wireless technology for headphones and keyboards. :: Bluetooth
+A device that sends data between networks. :: Router
+Storing files and running software on remote servers over the internet. :: Cloud computing
+A program that copies itself and harms computers. :: Virus (malware)
+A fake email that tries to steal your password. :: Phishing
+A security system that filters network traffic. :: Firewall
+Scrambling data so only the right people can read it. :: Encryption
+Using a password plus a code sent to your phone. :: Two-factor authentication
+A secret word or phrase used to log in. :: Password
+The basic unit of an image on a screen. :: Pixel
+The keyboard shortcut to copy on Windows. :: Ctrl + C
+The keyboard shortcut to paste on Windows. :: Ctrl + V
+The keyboard shortcut to undo on Windows. :: Ctrl + Z
+The name for the first program that prints a greeting in a new language. :: Hello, World!
+The site where developers host code with Git. :: GitHub
+The version control system created by Linus Torvalds. :: Git
+A small program you install on a phone. :: App
+The company that makes the Galaxy phones. :: Samsung
+The company founded by Bill Gates and Paul Allen. :: Microsoft
+The company founded by Steve Jobs and Steve Wozniak. :: Apple
+The company whose search engine name comes from the number googol. :: Google
+A googol is 1 followed by this many zeros. :: 100
+The field of making computers that learn from data. :: Machine learning
+AI stands for this. :: Artificial intelligence
+The test proposed in 1950 to judge whether a machine can think like a human. :: Turing test
+The scientist the Turing test is named after. :: Alan Turing
+The woman often called the first computer programmer. :: Ada Lovelace
+The machine Charles Babbage designed that Ada Lovelace wrote programs for. :: Analytical Engine
+A grid of rows and columns in a spreadsheet. :: Cells
+The spreadsheet program made by Microsoft. :: Excel
+The formula =SUM(A1:A3) does this. :: Adds cells A1 to A3
+The machine code that a CPU runs is made of these. :: Instructions in binary
+A robot programmed with blocks in many school classrooms, made by LEGO. :: LEGO Mindstorms (or SPIKE)
+A tiny single-board computer made for education in Britain. :: Raspberry Pi
+The open-source microcontroller board from Italy used in many student projects. :: Arduino
+QR in QR code stands for this. :: Quick Response
+
+## 200
+The value printed by print(len('hello')) in Python. :: 5
+The keyword that skips to the next loop iteration. :: continue
+The data structure that is last in, first out. :: Stack
+The data structure that is first in, first out. :: Queue
+Adding an item to a stack. :: Push
+Removing the top item from a stack. :: Pop
+A data structure of nodes where each points to the next. :: Linked list
+A data structure with a root and children, with no cycles. :: Tree
+A tree where each node has at most two children. :: Binary tree
+A binary tree where left children are smaller and right children larger. :: Binary search tree
+A set of vertices connected by edges. :: Graph
+A data structure that maps keys to values using a hash function. :: Hash table
+The average time to look up a key in a hash table. :: O(1)
+The time complexity of searching an unsorted list one by one. :: O(n)
+The time complexity of binary search. :: O(log n)
+Binary search only works on data that is this. :: Sorted
+The simple sort that repeatedly swaps adjacent items that are out of order. :: Bubble sort
+The worst-case time of bubble sort. :: O(n²)
+The divide-and-conquer sort that splits a list in half and merges the halves. :: Merge sort
+The time complexity of merge sort. :: O(n log n)
+The sort that picks a pivot and partitions around it. :: Quicksort
+The worst-case time of quicksort. :: O(n²)
+The sort that builds the sorted list one item at a time, like sorting cards in your hand. :: Insertion sort
+A function that calls itself. :: Recursion
+The condition that stops a recursive function. :: Base case
+The error when recursion goes too deep. :: Stack overflow
+The sequence where each number is the sum of the two before it. :: Fibonacci sequence
+The 10th Fibonacci number, starting 1, 1, 2... :: 55
+Factorial of 5. :: 120
+The notation used to describe how an algorithm's time grows with input size. :: Big-O notation
+Decimal 255 in hexadecimal. :: FF
+The base of the hexadecimal number system. :: 16
+The base of the octal number system. :: 8
+Binary 1111 in decimal. :: 15
+Binary 1010 in decimal. :: 10
+The number of different values one byte can hold. :: 256
+The largest unsigned number one byte can hold. :: 255
+The character encoding that uses 7 bits for English text. :: ASCII
+The ASCII code for the capital letter A. :: 65
+The character encoding that covers almost all writing systems, including Arabic. :: Unicode (UTF-8)
+The programming style built around objects with data and methods. :: Object-oriented programming
+A blueprint for creating objects. :: Class
+A function that belongs to a class. :: Method
+The OOP idea of hiding an object's internal data. :: Encapsulation
+The OOP idea of a class getting features from a parent class. :: Inheritance
+The OOP idea that one interface can have many forms. :: Polymorphism
+The special method that runs when an object is created. :: Constructor
+The keyword in Python that defines a function. :: def
+The keyword in Python that defines a class. :: class
+The keyword that returns a value from a function. :: return
+An error that happens while a program is running. :: Runtime error (exception)
+The keyword pair in Python used to handle exceptions. :: try and except
+A Python error raised when you divide by zero. :: ZeroDivisionError
+The Python function that gives the number of items in a list. :: len()
+The result of 7 // 2 in Python. :: 3
+The result of 2 ** 3 in Python. :: 8
+The result of 'ab' * 3 in Python. :: 'ababab'
+The value of True and False in Python. :: False
+The value of True or False in Python. :: True
+Python uses this, instead of braces, to group code blocks. :: Indentation
+A variable that can be used anywhere in a program. :: Global variable
+A database table row is also called this. :: Record
+A column that uniquely identifies each row in a table. :: Primary key
+A column that links to the primary key of another table. :: Foreign key
+The SQL command that reads data. :: SELECT
+The SQL command that adds a row. :: INSERT
+The SQL clause that filters rows. :: WHERE
+The SQL command that combines rows from two tables. :: JOIN
+A database system that stores data in tables with relations. :: Relational database
+A database that does not use fixed tables, like MongoDB. :: NoSQL database
+The model of the internet with 7 layers. :: OSI model
+The protocol that makes sure packets arrive reliably and in order. :: TCP
+The fast protocol that does not guarantee delivery, used for video calls. :: UDP
+The default port for HTTP. :: 80
+The default port for HTTPS. :: 443
+An IPv4 address has this many bits. :: 32
+The protocol that gives devices an IP address automatically. :: DHCP
+A small piece of data a website stores in your browser. :: Cookie
+The data format that looks like JavaScript objects, used in web APIs. :: JSON
+API stands for this. :: Application programming interface
+The web request method used to fetch data. :: GET
+The HTTP status code for 'not found'. :: 404
+The HTTP status code for 'OK'. :: 200
+The HTTP status code for a server error. :: 500
+A program that runs on the server side to answer web requests. :: Backend (server)
+The part of a website users see and interact with. :: Frontend
+A copy of data kept close by for faster access. :: Cache
+The CPU's own very small, very fast storage. :: Registers
+The cycle a CPU repeats to run instructions. :: Fetch–decode–execute cycle
+The clock speed of a CPU is measured in this unit. :: Hertz (usually GHz)
+A CPU with several processing units on one chip. :: Multi-core processor
+A program running in memory is called this. :: Process
+A lightweight unit of execution inside a process. :: Thread
+A visual way to plan an algorithm with boxes and arrows. :: Flowchart
+Code written in plain language to plan an algorithm. :: Pseudocode
+Software whose source code anyone can see and change. :: Open-source software
+The company that created the Java language. :: Sun Microsystems
+The language used for statistics, with a one-letter name. :: R
+The popular Python library for numerical arrays. :: NumPy
+The popular Python library for data tables. :: pandas
+
+## 300
+The tool that tracks who changed which line of code and when. :: Version control (Git)
+Combining one Git branch's changes into another. :: Merge
+The Git command that copies a remote repository to your machine. :: git clone
+A request to merge your changes, reviewed on GitHub. :: Pull request
+The format that describes a regular pattern for matching text. :: Regular expression
+The time complexity of the best comparison-based sorting algorithms. :: O(n log n)
+The algorithm that finds shortest paths from one node with non-negative edges. :: Dijkstra's algorithm
+The shortest-path algorithm that works with negative edges. :: Bellman–Ford algorithm
+The algorithm that finds shortest paths between all pairs of nodes. :: Floyd–Warshall algorithm
+The search algorithm that uses a heuristic, popular in games and maps. :: A* search
+The graph search that explores level by level using a queue. :: Breadth-first search
+The graph search that goes deep first using a stack or recursion. :: Depth-first search
+The algorithm that finds a minimum spanning tree by adding the cheapest edges that don't make a cycle. :: Kruskal's algorithm
+The minimum spanning tree algorithm that grows one tree from a start node. :: Prim's algorithm
+The ordering of a directed acyclic graph so all edges point forward. :: Topological sort
+A tree-based structure where each parent is larger than its children. :: Max-heap
+A heap is commonly used to build this abstract data type. :: Priority queue
+The sorting algorithm that uses a heap. :: Heapsort
+A self-balancing binary search tree that uses rotations and colours. :: Red–black tree
+A self-balancing binary search tree named after two Soviet inventors. :: AVL tree
+The tree used by databases and file systems for fast disk lookups. :: B-tree
+A tree for storing strings by their prefixes. :: Trie
+A data structure that tracks which elements belong to which sets. :: Union–find (disjoint set)
+A probabilistic structure that can say 'definitely not' or 'maybe' for membership. :: Bloom filter
+The technique of storing results of subproblems to avoid repeat work. :: Dynamic programming (memoisation)
+The algorithm strategy that makes the best local choice at each step. :: Greedy algorithm
+The algorithm strategy that tries options and undoes them when they fail. :: Backtracking
+The classic puzzle of placing 8 chess pieces so none attack each other. :: Eight queens
+The classic problem of choosing items with weights to maximise value within a capacity. :: Knapsack problem
+The classic problem of finding the shortest tour of all cities. :: Travelling salesman problem
+The class of problems whose solutions can be checked quickly. :: NP
+The biggest open question in computer science, worth a million dollars. :: P versus NP
+A problem is NP-complete if it is in NP and this. :: NP-hard (every NP problem reduces to it)
+The first problem proven NP-complete. :: Boolean satisfiability (SAT)
+The theorem that proved SAT is NP-complete in 1971. :: Cook–Levin theorem
+The problem proved undecidable by Turing: will a program finish? :: Halting problem
+The abstract machine with an infinite tape that defines computability. :: Turing machine
+The simplest machine that recognises regular languages. :: Finite automaton
+The kind of grammar used to define most programming language syntax. :: Context-free grammar
+The notation used to write context-free grammars. :: BNF (Backus–Naur form)
+The part of a compiler that splits code into tokens. :: Lexer (scanner)
+The part of a compiler that builds a syntax tree. :: Parser
+The tree a parser produces. :: Abstract syntax tree
+The step that turns code into faster code without changing behaviour. :: Optimisation
+Compiling code at run time, as in Java's JVM. :: Just-in-time compilation
+Automatic freeing of memory that is no longer used. :: Garbage collection
+Memory for dynamic allocations, as opposed to the stack. :: Heap
+A bug where memory is allocated and never freed. :: Memory leak
+A bug where two threads change shared data at the same time and the result depends on timing. :: Race condition
+A lock that lets only one thread into a critical section. :: Mutex
+A situation where two processes wait on each other forever. :: Deadlock
+The four conditions for deadlock are named after this person. :: Coffman
+A counter used to control access to a shared resource, invented by Dijkstra. :: Semaphore
+The technique that lets a computer use disk as extra memory. :: Virtual memory
+Fixed-size blocks of virtual memory. :: Pages
+An access to a page not in RAM causes this. :: Page fault
+The page replacement policy that removes the least recently used page. :: LRU
+The part of an OS that decides which process runs next. :: Scheduler
+The scheduling method that gives each process a fixed time slice in turn. :: Round robin
+Switching the CPU from one process to another. :: Context switch
+The OS core that runs in privileged mode. :: Kernel
+The way a program asks the kernel for a service. :: System call
+The memory hierarchy level between registers and RAM. :: Cache
+A cache access where the data is found. :: Cache hit
+The principle that programs reuse data and code they used recently. :: Temporal locality
+The CPU design approach with a small set of simple instructions. :: RISC
+The CPU design approach with many complex instructions, like x86. :: CISC
+The open-source instruction set architecture from UC Berkeley. :: RISC-V
+The chip architecture used in most phones and Apple M-series Macs. :: ARM
+Overlapping the stages of several instructions in a CPU. :: Pipelining
+The CPU technique of guessing which way a branch will go. :: Branch prediction
+The architecture where programs and data share the same memory. :: Von Neumann architecture
+The architecture with separate memories for instructions and data. :: Harvard architecture
+The law that limits speed-up from parallel computing by the serial fraction. :: Amdahl's law
+Two's complement of 8-bit 00000001 is this. :: 11111111
+The range of an 8-bit signed two's complement integer. :: −128 to 127
+The IEEE standard for floating-point numbers. :: IEEE 754
+0.1 + 0.2 does not equal 0.3 exactly in floating point because of this. :: Binary rounding error
+The special floating-point value that means 'not a number'. :: NaN
+The bit-level operation that flips every bit. :: NOT (bitwise complement)
+Shifting a binary number left by one place does this to its value. :: Doubles it
+The hash function family used to check file integrity, like SHA-256. :: Cryptographic hash functions
+Encryption where the same key locks and unlocks. :: Symmetric encryption
+Encryption with a public key and a private key. :: Asymmetric (public-key) encryption
+The public-key algorithm based on factoring large numbers. :: RSA
+The widely used symmetric cipher chosen as a US standard in 2001. :: AES
+The attack that tries every possible password. :: Brute-force attack
+The web attack that injects database commands through input fields. :: SQL injection
+The web attack that injects scripts into pages other users see. :: Cross-site scripting (XSS)
+Adding random data to passwords before hashing. :: Salting
+The design pattern that ensures a class has only one instance. :: Singleton
+The design pattern where objects subscribe to events from another object. :: Observer pattern
+The architecture pattern that splits an app into model, view and controller. :: MVC
+The software process with short iterations and frequent feedback. :: Agile
+The Agile framework with sprints and daily stand-ups. :: Scrum
+Testing a single function or class in isolation. :: Unit testing
+Writing tests before writing the code. :: Test-driven development
+Automatically building and testing code on every change. :: Continuous integration
+A lightweight package that bundles an app and its dependencies, like Docker. :: Container
+The tool most used to run containers at scale. :: Kubernetes
+
+## 400
+The cache replacement policy that evicts the item used least often. :: LFU
+The technique of sending the same request again after a delay that grows each time. :: Exponential backoff
+The number of bits in an IPv6 address. :: 128
+The theorem that a distributed system can guarantee only two of consistency, availability and partition tolerance. :: CAP theorem
+The algorithm for agreement in distributed systems designed to be easier to understand than Paxos. :: Raft
+The consensus algorithm by Leslie Lamport, named after a Greek island. :: Paxos
+The problem of reaching agreement when some participants may lie. :: Byzantine generals problem
+The clocks that order events in a distributed system by counting. :: Lamport clocks
+Vector clocks can detect this, which Lamport clocks cannot. :: Concurrent events
+The database guarantees named by the acronym ACID. :: Atomicity, consistency, isolation, durability
+The weaker consistency model often used by NoSQL systems. :: Eventual consistency
+The protocol that makes all nodes commit or abort a distributed transaction. :: Two-phase commit
+The highest SQL isolation level. :: Serializable
+The read anomaly where a query sees rows appear between two reads. :: Phantom read
+The technique that lets readers see a snapshot while writers make new versions. :: MVCC (multiversion concurrency control)
+The log that databases write before changes, for crash recovery. :: Write-ahead log
+The storage structure used by many NoSQL databases that turns random writes into sequential ones. :: LSM tree
+The normal form that removes partial dependencies on a composite key. :: Second normal form
+The normal form where every determinant is a candidate key. :: Boyce–Codd normal form
+The method of distributing keys across servers so few move when servers change. :: Consistent hashing
+Splitting a database horizontally across machines. :: Sharding
+The programming model from Google for processing big data with two functions. :: MapReduce
+The open-source framework that implemented MapReduce. :: Hadoop
+The big data engine that keeps data in memory between steps. :: Apache Spark
+The streaming platform that stores events in partitioned logs. :: Apache Kafka
+The idea of building an app from many small independent services. :: Microservices
+The style of web API built on resources and HTTP verbs. :: REST
+The query language for APIs developed by Facebook. :: GraphQL
+The protocol that lets a browser keep a two-way connection open with a server. :: WebSocket
+The algorithm TCP uses to avoid flooding the network, starting slowly. :: Congestion control (slow start)
+TCP's three-way handshake uses these three messages. :: SYN, SYN-ACK, ACK
+The routing protocol that holds the internet together between networks. :: BGP
+The routing protocol based on link state used inside organisations. :: OSPF
+The technique that lets many devices share one public IP address. :: NAT
+The size of an Ethernet MTU in bytes, usually. :: 1,500
+The protocol that maps IP addresses to MAC addresses. :: ARP
+The key exchange method that lets two parties agree a secret over a public channel. :: Diffie–Hellman
+The public-key method based on elliptic curves. :: Elliptic curve cryptography
+The protocol that secures HTTPS connections. :: TLS
+The attack that intercepts messages between two parties. :: Man-in-the-middle attack
+The structure that links blocks with hashes in cryptocurrencies. :: Blockchain
+The consensus method Bitcoin uses. :: Proof of work
+A function that is easy to compute but hard to reverse. :: One-way function
+The algorithm that factors numbers quickly on a quantum computer. :: Shor's algorithm
+The quantum search algorithm with a square-root speed-up. :: Grover's algorithm
+The basic unit of quantum information. :: Qubit
+The quantum effect that links two qubits' states. :: Entanglement
+The machine learning approach that learns from labelled examples. :: Supervised learning
+The machine learning approach that finds patterns in unlabelled data. :: Unsupervised learning
+The machine learning approach that learns from rewards and penalties. :: Reinforcement learning
+The algorithm used to train neural networks by passing errors backwards. :: Backpropagation
+The optimisation method that steps against the gradient. :: Gradient descent
+A model that fits training data too closely and fails on new data. :: Overfitting
+The technique that randomly turns off neurons during training. :: Dropout
+The activation function max(0, x). :: ReLU
+The neural network type designed for images, using filters. :: Convolutional neural network
+The neural network architecture behind modern language models, using attention. :: Transformer
+The 2017 paper that introduced the transformer. :: Attention Is All You Need
+The method that splits data into k parts to test a model. :: K-fold cross-validation
+The simple clustering algorithm that assigns points to the nearest of k centres. :: K-means
+The method that reduces dimensions by finding directions of most variance. :: Principal component analysis
+The classifier that uses a maximum-margin boundary. :: Support vector machine
+The ensemble of many decision trees with random features. :: Random forest
+The measure of a classifier's true positives among predicted positives. :: Precision
+The measure of true positives among actual positives. :: Recall
+The harmonic mean of precision and recall. :: F1 score
+The plot of true positive rate against false positive rate. :: ROC curve
+The rule for updating probabilities with new evidence. :: Bayes' theorem
+The algorithm that finds the longest common subsequence uses this technique. :: Dynamic programming
+The edit distance between two strings, counting insertions, deletions and substitutions. :: Levenshtein distance
+The string search algorithm that never moves backwards in the text, using a failure table. :: Knuth–Morris–Pratt
+The string search algorithm that uses a rolling hash. :: Rabin–Karp
+The algorithm used to find maximum flow in a network. :: Ford–Fulkerson (Edmonds–Karp)
+The theorem that the maximum flow equals the minimum cut. :: Max-flow min-cut theorem
+The algorithm that finds strongly connected components with one DFS and low-link values. :: Tarjan's algorithm
+The algorithm that ranks web pages by links, used by early Google. :: PageRank
+The lossless compression method that gives short codes to common symbols. :: Huffman coding
+The compression family behind ZIP and GIF that uses a dictionary of repeated strings. :: Lempel–Ziv (LZ77/LZW)
+The lossy image compression standard based on the discrete cosine transform. :: JPEG
+The error-detecting code that adds a remainder from polynomial division. :: CRC (cyclic redundancy check)
+The error-correcting code that can fix any single-bit error with parity bits. :: Hamming code
+The error-correcting codes used on CDs and QR codes. :: Reed–Solomon codes
+The amortised cost of appending to a dynamic array. :: O(1)
+The lower bound on comparisons for sorting n items. :: Ω(n log n)
+The sorting algorithm that runs in linear time for small integer keys by counting. :: Counting sort
+The non-comparison sort that processes digits one at a time. :: Radix sort
+The expected time of quickselect for finding the kth smallest item. :: O(n)
+The theorem that solves recurrences like T(n) = aT(n/b) + f(n). :: Master theorem
+The type system feature that lets a function work with any type, as in List<T>. :: Generics
+The programming paradigm built on pure functions and immutable data. :: Functional programming
+A function that takes or returns other functions. :: Higher-order function
+The language feature that captures variables from an enclosing scope. :: Closure
+The calculus that is the theoretical basis of functional languages. :: Lambda calculus
+The functional language named after Haskell Curry. :: Haskell
+Turning a function of several arguments into a chain of one-argument functions. :: Currying
+The memory-safe systems language that uses ownership and borrowing. :: Rust
+The language created at Google in 2009 with goroutines. :: Go
+The programming principle that says a class should have only one reason to change. :: Single responsibility principle
+The five object-oriented design principles known by this acronym. :: SOLID
+The pattern of passing a class its dependencies instead of creating them inside. :: Dependency injection
+
+## 500
+The Unix command line tool whose name means 'global regular expression print'. :: grep
+The first computer virus to spread widely on PCs, written in Pakistan in 1986. :: Brain
+The programming language created by Guido van Rossum and named after a comedy group. :: Python (after Monty Python)
+The Persian mathematician whose name gave us the word algorithm. :: Al-Khwarizmi
+Al-Khwarizmi worked at this famous centre of learning in Baghdad. :: House of Wisdom (Bayt al-Hikma)
+The word algebra comes from 'al-jabr' in the title of a book by this scholar. :: Al-Khwarizmi
+The 9th-century Arab scholar who wrote the first known work on cryptanalysis using frequency analysis. :: Al-Kindi
+The Banu Musa brothers of Baghdad described this early programmable machine in the 9th century. :: An automatic flute player
+The engineer who built a programmable castle clock and musical robot band in 1206. :: Al-Jazari
+The weaving loom controlled by punched cards, invented in 1804. :: Jacquard loom
+The woman who wrote the first published computer program, for the Bernoulli numbers. :: Ada Lovelace
+The 1936 paper in which Turing defined his machine. :: On Computable Numbers
+The mathematician who invented lambda calculus. :: Alonzo Church
+The thesis that anything computable can be computed by a Turing machine. :: Church–Turing thesis
+The British code-breaking centre where Turing worked in WWII. :: Bletchley Park
+The German cipher machine that Turing helped break. :: Enigma
+The first programmable electronic computer, built at Bletchley Park in 1943–44. :: Colossus
+The first general-purpose electronic computer, finished in 1945 in the USA. :: ENIAC
+The mathematician who wrote the 1945 report describing the stored-program computer. :: John von Neumann
+The first practical stored-program computer, run at Cambridge in 1949. :: EDSAC
+The first stored-program computer, nicknamed 'Baby', ran in 1948 in this city. :: Manchester
+The computer scientist who invented the first compiler and helped create COBOL. :: Grace Hopper
+Grace Hopper popularised this word after finding a moth in a relay. :: Bug
+The first widely used high-level language, released by IBM in 1957. :: FORTRAN
+The engineer who led the team that created FORTRAN. :: John Backus
+The language created by John McCarthy in 1958, the second-oldest high-level language still used. :: Lisp
+The person who coined the term 'artificial intelligence' in 1955. :: John McCarthy
+The 1956 workshop that founded AI as a field. :: Dartmouth workshop
+The man who created the first neural network machine, the Perceptron. :: Frank Rosenblatt
+The pair who created Unix at Bell Labs. :: Ken Thompson and Dennis Ritchie
+The computer scientist who wrote 'Go To Statement Considered Harmful' in 1968. :: Edsger Dijkstra
+The computer scientist who wrote The Art of Computer Programming. :: Donald Knuth
+Knuth created this typesetting system because he disliked how his books looked. :: TeX
+The computer scientist who invented quicksort in 1959. :: Tony Hoare
+Tony Hoare called this invention his 'billion-dollar mistake'. :: The null reference
+The computer scientist who created Pascal. :: Niklaus Wirth
+The Norwegian pair who created Simula, the first object-oriented language. :: Ole-Johan Dahl and Kristen Nygaard
+The language from Xerox PARC that made OOP popular. :: Smalltalk
+The computer scientist who led Smalltalk and imagined the Dynabook. :: Alan Kay
+The scientist who demonstrated the mouse and hypertext in 'The Mother of All Demos' in 1968. :: Douglas Engelbart
+The packet-switched network that became the internet, started in 1969. :: ARPANET
+The two engineers who designed TCP/IP. :: Vint Cerf and Bob Kahn
+The engineer who sent the first email between networked computers and chose the @ sign. :: Ray Tomlinson
+The year the World Wide Web was proposed at CERN. :: 1989
+The first widely popular graphical web browser, released in 1993. :: Mosaic
+The scientist who designed JavaScript in about ten days in 1995. :: Brendan Eich
+The Finnish student who started Linux in 1991. :: Linus Torvalds
+The founder of the GNU project and the Free Software Foundation. :: Richard Stallman
+The cryptographers who invented RSA in 1977. :: Rivest, Shamir and Adleman
+The pseudonymous creator of Bitcoin. :: Satoshi Nakamoto
+The mathematician whose 1948 paper founded information theory. :: Claude Shannon
+The unit of information Shannon named, a word suggested by John Tukey. :: Bit
+The highest award in computer science, often called its Nobel Prize. :: Turing Award
+The first woman to win the Turing Award, in 2006. :: Frances Allen
+The three 'godfathers of deep learning' who shared the 2018 Turing Award. :: Hinton, LeCun and Bengio
+The 2012 neural network that won ImageNet and started the deep learning boom. :: AlexNet
+The program that beat world chess champion Garry Kasparov in 1997. :: Deep Blue
+The DeepMind program that beat Go champion Lee Sedol in 2016. :: AlphaGo
+The DeepMind system that predicted protein structures and shared the 2024 Chemistry Nobel. :: AlphaFold
+The 2024 Nobel Prize in Physics went to Hopfield and this AI pioneer. :: Geoffrey Hinton
+The Saudi university near Jeddah known for its high-performance computing centre and Shaheen supercomputer. :: KAUST
+KAUST's supercomputer is named after this bird. :: Shaheen (peregrine falcon)
+The Saudi authority for data and AI, set up in 2019. :: SDAIA
+The Saudi Arabic large language model released by SDAIA. :: ALLaM
+The Saudi telecom company that changed its logo to lowercase letters in 2019. :: stc
+The national single sign-on system Saudi residents use for government services. :: Nafath
+The Saudi Ministry of Interior platform for services like renewing passports and iqamas. :: Absher
+The AI company launched by Saudi Arabia's Public Investment Fund in 2025. :: HUMAIN
+The Unicode block that includes the Arabic letters starts at this hexadecimal code point. :: U+0600
+The typographic feature that changes Arabic letter shapes by position in a word. :: Contextual shaping (joining)
+The algorithm that orders mixed right-to-left and left-to-right text for display. :: Unicode Bidirectional Algorithm
+The ranking list of the world's 500 fastest supercomputers. :: TOP500
+The unit of computing speed measured as 10¹⁸ operations per second. :: Exaflop
+The first exascale supercomputer on the TOP500, at Oak Ridge in 2022. :: Frontier
+The law saying that the number of transistors doubles roughly every two years. :: Moore's law
+The 'law' that software gets slower faster than hardware gets faster. :: Wirth's law
+The adage that adding people to a late software project makes it later. :: Brooks's law
+Brooks's law comes from this 1975 book. :: The Mythical Man-Month
+The law that organisations design systems that copy their communication structure. :: Conway's law
+The 'zero-day' in a zero-day exploit refers to this. :: The days the vendor has had to fix it (none)
+The 2010 computer worm that damaged Iranian centrifuges. :: Stuxnet
+The 2012 malware that wiped about 30,000 computers at Saudi Aramco. :: Shamoon
+The 2017 ransomware that spread through an NSA exploit called EternalBlue. :: WannaCry
+The 2014 bug in OpenSSL that leaked server memory. :: Heartbleed
+The 2021 bug in a Java logging library that let attackers run code remotely. :: Log4Shell
+The 2018 CPU flaws that used speculative execution to leak data. :: Spectre and Meltdown
+The famous 1999 worry that dates stored with two digits would fail. :: Y2K bug
+The date in 2038 when 32-bit Unix time overflows. :: 19 January 2038
+Unix time counts seconds since this date. :: 1 January 1970
+The 1996 rocket that exploded because a 64-bit float was converted to a 16-bit integer. :: Ariane 5 (Flight 501)
+The 1999 Mars probe lost because one team used imperial units and another metric. :: Mars Climate Orbiter
+The radiation therapy machine whose software race condition caused deadly overdoses in the 1980s. :: Therac-25
+The esoteric programming language with only eight commands and a rude name. :: Brainf*ck
+The cellular automaton invented by John Conway in 1970. :: Game of Life
+The pseudo-random number generator widely used in Python and MATLAB. :: Mersenne Twister
+The famous inverse square root trick with the constant 0x5F3759DF came from this game. :: Quake III Arena
+The algorithm that sorts by randomly shuffling until sorted, as a joke. :: Bogosort
+The number that ASCII 'DEL' has, the highest 7-bit value. :: 127
+The number of possible IPv4 addresses, roughly. :: About 4.3 billion
+The first domain name ever registered, in 1985. :: symbolics.com

@@ -1,0 +1,514 @@
+id: thermo
+name: Thermodynamics
+nameAr: الديناميكا الحرارية
+group: engineering
+
+## 100
+Absolute zero in degrees Celsius. :: −273.15 °C
+The SI unit of temperature. :: Kelvin (K)
+The SI unit of energy. :: Joule (J)
+The SI unit of pressure. :: Pascal (Pa)
+Water freezes at this temperature in Celsius at sea level. :: 0 °C
+Water boils at this temperature in Celsius at sea level. :: 100 °C
+Water boils at this temperature in Fahrenheit at sea level. :: 212 °F
+Water freezes at this temperature in kelvin. :: 273.15 K
+Normal human body temperature in Celsius, roughly. :: 37 °C
+The temperature at which Celsius and Fahrenheit read the same. :: −40
+Energy that flows because of a temperature difference. :: Heat
+Heat flows naturally from hot to this. :: Cold
+The instrument that measures temperature. :: Thermometer
+The instrument that measures air pressure. :: Barometer
+Standard atmospheric pressure in kilopascals. :: 101.325 kPa
+One bar is roughly equal to this. :: Atmospheric pressure (100 kPa)
+The three common states of matter. :: Solid, liquid, gas
+The change from solid to liquid. :: Melting
+The change from liquid to gas. :: Evaporation (boiling)
+The change from gas to liquid. :: Condensation
+The change from liquid to solid. :: Freezing (solidification)
+The change straight from solid to gas, like dry ice. :: Sublimation
+Dry ice is the solid form of this gas. :: Carbon dioxide
+Heat transfer through a solid by direct contact. :: Conduction
+Heat transfer by the movement of a fluid. :: Convection
+Heat transfer by electromagnetic waves, needing no medium. :: Radiation
+The way the Sun heats the Earth. :: Radiation
+A material that conducts heat poorly. :: Thermal insulator
+A metal pan handle is often made of plastic because plastic is a poor this. :: Conductor of heat
+The amount of heat needed to raise 1 kg of a substance by 1 °C. :: Specific heat capacity
+Specific heat of water, roughly, in kJ/kg·K. :: 4.18
+The heat absorbed during a change of state at constant temperature. :: Latent heat
+The heat needed to melt a solid without changing its temperature. :: Latent heat of fusion
+The heat needed to boil a liquid without changing its temperature. :: Latent heat of vaporisation
+The law that says energy cannot be created or destroyed. :: The first law
+The law that says heat cannot flow on its own from cold to hot. :: The second law
+The law that says two bodies each in equilibrium with a third are in equilibrium with each other. :: Zeroth law
+The law about the impossibility of reaching absolute zero. :: Third law
+The quantity that never decreases in an isolated system. :: Entropy
+A system that exchanges neither energy nor matter with its surroundings. :: Isolated system
+A system that exchanges energy but not matter. :: Closed system
+A system that exchanges both energy and matter. :: Open system
+A process at constant temperature. :: Isothermal
+A process at constant pressure. :: Isobaric
+A process at constant volume. :: Isochoric (isometric)
+A process with no heat transfer. :: Adiabatic
+A device that turns heat into work. :: Heat engine
+A device that moves heat from cold to hot using work. :: Heat pump (or refrigerator)
+The engine in most petrol cars. :: Internal combustion engine
+The fuel that ignites by compression alone in its engine. :: Diesel
+The part of a petrol engine that ignites the fuel. :: Spark plug
+The number of strokes in the cycle of most car engines. :: Four
+The four strokes of a four-stroke engine. :: Intake, compression, power, exhaust
+A gas that obeys PV = nRT. :: Ideal gas
+In PV = nRT, n stands for this. :: Number of moles
+The law that says pressure times volume is constant at constant temperature. :: Boyle's law
+The law that says volume is proportional to temperature at constant pressure. :: Charles's law
+The law that says pressure is proportional to temperature at constant volume. :: Gay-Lussac's law
+The device in a car that removes heat from the engine coolant. :: Radiator
+The fluid that circulates in a refrigerator to carry heat. :: Refrigerant
+The part of a fridge that gets cold inside. :: Evaporator
+The part of a fridge, usually at the back, that gets warm. :: Condenser
+The device that drives the refrigerant around a fridge. :: Compressor
+Air conditioners in Saudi homes remove heat from the room and dump it here. :: Outside
+The unit of cooling often used for air conditioners, equal to 12,000 BTU/h. :: Ton of refrigeration
+BTU stands for this. :: British thermal unit
+One calorie is the heat needed to raise 1 g of water by this. :: 1 °C
+One food Calorie equals this many calories. :: 1,000 (a kilocalorie)
+The temperature scale named after Lord Kelvin. :: Kelvin scale
+The scientist who proposed the Celsius scale. :: Anders Celsius
+The scientist who proposed the Fahrenheit scale. :: Daniel Gabriel Fahrenheit
+The engineer famous for improving the steam engine in the 1760s. :: James Watt
+The machine that powered the Industrial Revolution. :: Steam engine
+The machine in a power station that turns steam energy into rotation. :: Turbine
+A vessel in which water is boiled to make steam. :: Boiler
+The fuel burned in most Saudi power stations. :: Oil and natural gas
+The kind of power plant that uses mirrors to focus sunlight. :: Concentrated solar power
+A flask with double walls and a vacuum between them. :: Vacuum flask (thermos)
+Why does a vacuum flask keep drinks hot? :: The vacuum stops conduction and convection
+Why are houses in hot climates often painted white? :: White reflects sunlight (radiation)
+Dark surfaces are good at doing this to radiation. :: Absorbing (and emitting)
+Hot air rises because it is less this. :: Dense
+Land breezes and sea breezes are caused by this. :: Convection
+The tendency of materials to grow when heated. :: Thermal expansion
+Railway tracks have gaps to allow for this. :: Thermal expansion
+A strip of two metals that bends when heated. :: Bimetallic strip
+A switch that turns heating or cooling on and off to keep a set temperature. :: Thermostat
+Evaporation of sweat cools the body because it takes away this. :: Latent heat
+Why does a desert water bag (qirbah) keep water cool? :: Evaporation through the skin cools it
+Pressure cookers cook faster because they raise this. :: The boiling point of water
+Water boils at a lower temperature at high altitude because of lower this. :: Air pressure
+The temperature at which water vapour in air starts to condense. :: Dew point
+The amount of water vapour in air compared with the maximum it can hold. :: Relative humidity
+Energy stored in fuels is this kind of energy. :: Chemical energy
+Energy of motion. :: Kinetic energy
+Energy stored because of height. :: Gravitational potential energy
+The useful output divided by the total input. :: Efficiency
+Can a heat engine be 100% efficient? :: No
+Heat flow per unit time is measured in this unit. :: Watt
+Avogadro's number, roughly. :: 6.02 × 10²³
+
+## 200
+The energy needed to raise 2 kg of water by 10 °C, roughly. :: About 84 kJ
+A gas that is compressed quickly with no time for heat to escape gets this. :: Hotter
+The term for the temperature at which a liquid's vapour pressure equals the surrounding pressure. :: Boiling point
+The property that stays constant in a closed rigid tank heated from outside. :: Volume (and mass)
+The ideal cycle that sets the maximum efficiency between two reservoirs. :: Carnot cycle
+Carnot efficiency in terms of hot and cold absolute temperatures. :: 1 − Tc/Th
+The Carnot efficiency between 600 K and 300 K. :: 50%
+Temperatures in thermodynamic formulas must be in this scale. :: Kelvin (absolute)
+The first law for a closed system, in symbols. :: Q − W = ΔU
+The energy stored in the random motion of a substance's molecules. :: Internal energy
+Internal energy plus pressure times volume. :: Enthalpy
+The property used to describe energy in flowing fluids, U + PV. :: Enthalpy
+Entropy change equals heat added reversibly divided by this. :: Absolute temperature
+The unit of entropy. :: J/K
+A process that can be reversed with no change to system or surroundings. :: Reversible process
+Friction and heat transfer across a finite temperature difference make processes this. :: Irreversible
+A reversible adiabatic process is also called this. :: Isentropic
+The universal gas constant, roughly, in J/mol·K. :: 8.314
+The gas constant for air, roughly, in J/kg·K. :: 287
+The ratio of specific heats for air. :: About 1.4
+The ratio cp/cv is given this Greek letter. :: γ (gamma), or k
+For an ideal gas, cp − cv equals this. :: R
+For an isentropic ideal gas process, PV raised to this power is constant. :: γ (gamma)
+A process where PVⁿ is constant. :: Polytropic process
+Work done by a gas expanding at constant pressure. :: PΔV
+Work done in an isothermal ideal-gas expansion. :: nRT ln(V2/V1)
+In a constant-volume process, the work done by the gas is this. :: Zero
+In an isothermal ideal-gas process, the change in internal energy is this. :: Zero
+The heat engine cycle of a petrol engine. :: Otto cycle
+The heat engine cycle of a diesel engine. :: Diesel cycle
+The cycle used in gas turbines and jet engines. :: Brayton cycle
+The cycle used in most steam power plants. :: Rankine cycle
+The efficiency of the ideal Otto cycle depends only on this. :: Compression ratio
+The four main parts of a simple Rankine plant. :: Pump, boiler, turbine, condenser
+The four main parts of a vapour-compression refrigerator. :: Compressor, condenser, expansion valve, evaporator
+The measure of refrigerator performance, heat removed divided by work input. :: Coefficient of performance (COP)
+COP of a refrigerator can be this compared with one. :: Greater than one
+COP of a heat pump equals COP of a refrigerator plus this. :: One
+Throttling through an expansion valve keeps this property constant. :: Enthalpy
+The cooling of a real gas when it is throttled. :: Joule–Thomson effect
+The temperature above which a gas cannot be liquefied by pressure alone. :: Critical temperature
+The single point where solid, liquid and gas coexist. :: Triple point
+The triple point of water in kelvin. :: 273.16 K
+A liquid at its boiling point with no vapour yet. :: Saturated liquid
+Vapour at its boiling point with no liquid. :: Saturated vapour
+Vapour heated above its boiling temperature. :: Superheated vapour
+The mass fraction of vapour in a liquid–vapour mixture. :: Quality (dryness fraction)
+The tables engineers use for water properties. :: Steam tables
+The chart of enthalpy against entropy for steam. :: Mollier chart
+The chart of temperature against entropy is used to show this as area. :: Heat transfer
+On a P–V diagram, the area inside a cycle equals this. :: Net work
+Fourier's law says heat flux by conduction is proportional to this. :: Temperature gradient
+The material property in Fourier's law. :: Thermal conductivity
+Thermal conductivity of copper, roughly, in W/m·K. :: About 400
+Thermal conductivity of still air, roughly, in W/m·K. :: About 0.025
+Newton's law of cooling relates convective heat transfer to this. :: Temperature difference
+The coefficient in Newton's law of cooling. :: Heat transfer coefficient (h)
+Convection driven by a fan or pump. :: Forced convection
+Convection driven by buoyancy alone. :: Natural (free) convection
+The law that radiated power is proportional to T⁴. :: Stefan–Boltzmann law
+The Stefan–Boltzmann constant, roughly. :: 5.67 × 10⁻⁸ W/m²K⁴
+A perfect absorber and emitter of radiation. :: Black body
+The ratio of a surface's emission to a black body's at the same temperature. :: Emissivity
+The law that says hotter objects emit peak radiation at shorter wavelengths. :: Wien's displacement law
+Thermal resistance of a plane wall. :: L/(kA)
+Thermal resistances in series do this. :: Add
+The R-value of insulation measures this. :: Resistance to heat flow
+The U-value of a wall measures this. :: Overall heat transfer coefficient
+A device that transfers heat between two fluids without mixing them. :: Heat exchanger
+The heat exchanger where fluids flow in opposite directions. :: Counterflow heat exchanger
+The temperature difference used to size heat exchangers. :: Log mean temperature difference (LMTD)
+The extended surfaces added to increase heat transfer. :: Fins
+The device that rejects heat from power plants to the air using a tall hyperbolic shell. :: Cooling tower
+A cooling tower mainly cools water by this process. :: Evaporation
+The cooler that lowers air temperature by evaporating water, common in dry climates. :: Evaporative (desert) cooler
+Evaporative coolers work worse in humid places like Dammam in summer because of high this. :: Humidity
+The chart used for air-conditioning calculations of moist air. :: Psychrometric chart
+Temperature shown by an ordinary thermometer in air. :: Dry-bulb temperature
+Temperature shown by a thermometer with a wet wick. :: Wet-bulb temperature
+The comfort index used for heat stress that combines temperature, humidity and sun. :: Wet-bulb globe temperature (WBGT)
+Seawater desalination by boiling and condensing. :: Thermal distillation
+The Saudi city with one of the world's largest desalination plants, on the Gulf coast. :: Jubail
+The desalination method that pushes water through membranes. :: Reverse osmosis
+The engine cycle with heat added at constant volume. :: Otto cycle
+The engine cycle with heat added at constant pressure. :: Diesel cycle
+The ratio of cylinder volume at bottom to top dead centre. :: Compression ratio
+Engine knock in petrol engines is caused by this. :: Uncontrolled self-ignition of the fuel
+Petrol is rated for knock resistance by this number. :: Octane number
+Diesel fuel is rated for ignition quality by this number. :: Cetane number
+A gas turbine part that adds heat to compressed air. :: Combustion chamber (combustor)
+Using exhaust heat from a gas turbine to make steam for a second turbine. :: Combined cycle
+A typical efficiency for a modern combined cycle plant. :: About 60%
+Producing electricity and useful heat from the same fuel. :: Cogeneration (CHP)
+Reheating steam between turbine stages mainly reduces this. :: Moisture at the turbine exit
+Feedwater heaters raise efficiency by doing this. :: Preheating boiler water with bled steam
+The pressure in a steam condenser is usually this. :: Below atmospheric (a vacuum)
+Kelvin–Planck says no engine can do this. :: Turn all heat from one reservoir into work
+Clausius says no device can do this without work. :: Move heat from cold to hot
+A perpetual motion machine of the first kind would break this law. :: First law
+A perpetual motion machine of the second kind would break this law. :: Second law
+
+## 300
+The heat exchanger type with many tubes inside a large shell. :: Shell-and-tube heat exchanger
+The compact heat exchanger made of thin corrugated plates. :: Plate heat exchanger
+Fouling in heat exchangers adds this to the overall resistance. :: Fouling resistance
+Heat transfer by the bulk motion of a fluid. :: Convection
+The dimensionless number that compares inertial to viscous forces. :: Reynolds number
+The dimensionless number for convective versus conductive heat transfer at a surface. :: Nusselt number
+The dimensionless number that compares momentum and thermal diffusivity. :: Prandtl number
+Prandtl number of air, roughly. :: 0.7
+The dimensionless number that drives natural convection. :: Grashof number
+Grashof number times Prandtl number. :: Rayleigh number
+The dimensionless number comparing internal conduction to surface convection. :: Biot number
+Lumped capacitance analysis is valid when the Biot number is below this. :: 0.1
+The dimensionless time in transient conduction. :: Fourier number
+The thermal diffusivity equals k divided by this. :: ρcp
+The correlation Nu = 0.023 Re^0.8 Pr^n for turbulent pipe flow is named after these. :: Dittus–Boelter
+Laminar flow in a pipe changes to turbulent above a Reynolds number of about this. :: 2,300
+The Nusselt number for fully developed laminar flow in a tube with constant wall heat flux. :: 4.36
+The Nusselt number for fully developed laminar flow in a tube with constant wall temperature. :: 3.66
+The heat exchanger method based on effectiveness and NTU. :: ε–NTU method
+NTU stands for this. :: Number of transfer units
+The ratio of actual heat transfer to the maximum possible in an exchanger. :: Effectiveness
+Fin efficiency compares actual heat transfer to this. :: Heat transfer if the whole fin were at base temperature
+Adding insulation to a small pipe can increase heat loss up to this radius. :: Critical radius of insulation
+Critical radius of insulation for a cylinder. :: k/h
+Boiling in which bubbles form at the surface and break away. :: Nucleate boiling
+The peak heat flux before a vapour blanket forms on a heater. :: Critical heat flux
+Boiling in which a vapour film covers the surface. :: Film boiling
+The effect where water droplets skate on a very hot pan. :: Leidenfrost effect
+The fraction of radiation leaving one surface that strikes another. :: View factor
+A surface whose emissivity is the same at all wavelengths. :: Grey surface
+Kirchhoff's law of radiation says that, at equilibrium, emissivity equals this. :: Absorptivity
+The greenhouse effect happens because glass and CO₂ are transparent to visible light but absorb this. :: Infrared radiation
+Gibbs free energy equals enthalpy minus this. :: TS (temperature times entropy)
+Helmholtz free energy equals internal energy minus this. :: TS
+At constant temperature and pressure, a process is spontaneous if this decreases. :: Gibbs free energy
+The equations that relate partial derivatives of thermodynamic properties. :: Maxwell relations
+The Clapeyron equation gives the slope of this. :: A phase boundary (saturation curve)
+The Clausius–Clapeyron equation estimates how this changes with temperature. :: Vapour pressure
+The equation of state that adds molecular size and attraction to the ideal gas law. :: Van der Waals equation
+The factor that measures how far a real gas departs from ideal. :: Compressibility factor (Z)
+The principle that gases at the same reduced pressure and temperature have similar Z. :: Principle of corresponding states
+The maximum useful work obtainable as a system comes to equilibrium with its surroundings. :: Exergy (availability)
+Exergy destroyed equals T₀ times this. :: Entropy generated
+The efficiency that compares actual performance to the reversible limit. :: Second-law (exergetic) efficiency
+Isentropic efficiency of a turbine compares actual work to this. :: Ideal isentropic work
+The steady-flow energy equation includes enthalpy, kinetic energy and this. :: Potential energy
+A device that speeds up a fluid by reducing its pressure. :: Nozzle
+A device that slows a fluid to raise its pressure. :: Diffuser
+For subsonic flow, a nozzle has this shape. :: Converging
+For supersonic flow, a nozzle has this shape. :: Diverging
+The nozzle that accelerates flow from subsonic to supersonic. :: Converging–diverging (de Laval) nozzle
+The flow condition at the throat of a choked nozzle. :: Mach 1
+The ratio of throat pressure to stagnation pressure for choked air flow. :: About 0.528
+The temperature a moving gas reaches if brought to rest adiabatically. :: Stagnation temperature
+The thin, nearly discontinuous jump in pressure in supersonic flow. :: Shock wave
+Across a normal shock, the flow goes from supersonic to this. :: Subsonic
+Across a normal shock, this property increases even though it is adiabatic. :: Entropy
+The air-standard cycle that combines constant-volume and constant-pressure heat addition. :: Dual (Sabathé) cycle
+The ideal cycle with two isothermal and two constant-volume processes, using a regenerator. :: Stirling cycle
+The ideal cycle with two isothermal and two constant-pressure processes. :: Ericsson cycle
+The cycle used in absorption chillers that use heat instead of a compressor. :: Absorption refrigeration cycle
+A common working pair in absorption chillers. :: Lithium bromide and water
+The refrigeration cycle that uses gas expansion instead of evaporation, used in aircraft. :: Reverse Brayton (air) cycle
+The refrigerant phased out because it damages the ozone layer. :: CFCs (such as R-12)
+The international treaty that phased out CFCs. :: Montreal Protocol
+The amendment to the Montreal Protocol that phases down HFCs. :: Kigali Amendment
+The measure of a refrigerant's contribution to warming relative to CO₂. :: GWP (global warming potential)
+The natural refrigerant used in many supermarkets with a GWP of 1. :: CO₂ (R-744)
+The organic Rankine cycle uses this instead of water. :: An organic fluid with a low boiling point
+Using a heat exchanger to transfer exhaust heat to compressed air in a gas turbine. :: Regeneration (recuperation)
+Cooling air between compressor stages to reduce work. :: Intercooling
+The pressure ratio that maximises net work in an ideal Brayton cycle depends on this. :: Temperature ratio (Tmax/Tmin)
+The turbine inlet temperature of modern gas turbines is limited by this. :: Blade material and cooling
+Gas turbine blades are often made of this alloy family. :: Nickel superalloys
+The thrust of a jet engine comes from changing this. :: Momentum of the air
+The engine type with a large fan where most air bypasses the core. :: High-bypass turbofan
+The engine with no moving parts that needs high speed to work. :: Ramjet
+The ratio of air to fuel needed for complete combustion. :: Stoichiometric air–fuel ratio
+The stoichiometric air–fuel ratio for petrol, by mass, roughly. :: 14.7 to 1
+Using more air than needed for complete combustion. :: Excess air (lean mixture)
+The heat released by burning fuel when the water in the products is condensed. :: Higher heating value
+The heat released when the water stays as vapour. :: Lower heating value
+The highest temperature a flame can reach with no heat loss. :: Adiabatic flame temperature
+The ideal efficiency of a fuel cell is limited by this, not Carnot. :: Gibbs free energy (ΔG/ΔH)
+The device that turns a temperature difference directly into electricity. :: Thermoelectric generator
+The effect where a current through a junction pumps heat. :: Peltier effect
+The effect where a temperature difference across a junction makes a voltage. :: Seebeck effect
+The figure of merit for thermoelectric materials. :: ZT
+A loop that carries heat by evaporating and condensing a fluid in a sealed tube. :: Heat pipe
+The SI unit of thermal conductivity. :: W/m·K
+Heat lost per square metre by a black body at 300 K, roughly. :: About 460 W/m²
+The solar constant above the atmosphere, roughly. :: About 1,361 W/m²
+Peak solar irradiance at ground level on a clear day, roughly. :: About 1,000 W/m²
+The steam turbine stage that uses fixed nozzles and moving blades with no pressure drop in the blades. :: Impulse stage
+The steam turbine stage where pressure drops in both fixed and moving blades. :: Reaction stage
+The engineer who built the first practical steam turbine in 1884. :: Charles Parsons
+The ship that showed off Parsons's turbine at the 1897 naval review. :: Turbinia
+The temperature of steam in a modern ultra-supercritical plant, roughly. :: About 600 °C or more
+The critical pressure of water, roughly. :: About 22.1 MPa
+The critical temperature of water, roughly. :: About 374 °C
+
+## 400
+The equation of state written as a power series in density. :: Virial equation of state
+The second virial coefficient becomes zero at this temperature. :: Boyle temperature
+The thermodynamic potential that is minimised at constant entropy and pressure. :: Enthalpy
+The response function equal to −(1/V)(∂V/∂P) at constant temperature. :: Isothermal compressibility
+The relation cp − cv = TVβ²/κ links specific heats to these two properties. :: Thermal expansion and compressibility
+The point where the distinction between liquid and gas disappears. :: Critical point
+The fluid state above both the critical temperature and pressure. :: Supercritical fluid
+The quantity that never decreases in an isolated system, measured in J/K. :: Entropy
+The statistical formula for entropy carved on Boltzmann's grave. :: S = k log W
+In Boltzmann's formula, W stands for this. :: Number of microstates
+Boltzmann's constant, roughly. :: 1.38 × 10⁻²³ J/K
+Boltzmann's constant times Avogadro's number gives this. :: The gas constant R
+The statistical distribution of molecular speeds in an ideal gas. :: Maxwell–Boltzmann distribution
+The theorem that each quadratic degree of freedom has ½kT of energy on average. :: Equipartition theorem
+Molar cv of a monatomic ideal gas. :: 3R/2
+Molar cv of a diatomic gas at room temperature. :: 5R/2
+γ for a monatomic ideal gas. :: 5/3
+Vibrational modes of diatomic gases become active at high temperature because of this. :: Quantisation of energy levels
+The quantity that the third law says approaches a constant (often zero) as temperature approaches absolute zero. :: Entropy
+The law that the specific heat of a solid at high temperature is 3R per mole. :: Dulong–Petit law
+The model that explains why the heat capacity of solids falls as T³ at low temperature. :: Debye model
+The thought experiment that seems to break the second law by sorting fast and slow molecules. :: Maxwell's demon
+The principle that erasing one bit of information costs at least kT ln 2 of energy. :: Landauer's principle
+The function from which all thermodynamic properties of a system can be derived in statistical mechanics. :: Partition function
+Helmholtz free energy in terms of the partition function. :: −kT ln Z
+The Gibbs–Duhem equation relates changes in these for a mixture. :: Chemical potentials
+The quantity that drives mass transfer, the partial molar Gibbs energy. :: Chemical potential
+The rule F = C − P + 2 is named after this scientist. :: Josiah Willard Gibbs
+For pure water at its triple point, the Gibbs phase rule gives this many degrees of freedom. :: Zero
+Raoult's law relates a component's partial vapour pressure to its mole fraction and this. :: Its pure vapour pressure
+Henry's law applies to gases dissolving in this. :: A liquid (dilute solutions)
+The equilibrium constant is related to standard Gibbs energy change by this. :: ΔG° = −RT ln K
+The van 't Hoff equation shows how this changes with temperature. :: Equilibrium constant
+Le Chatelier's principle says a system at equilibrium does this when disturbed. :: Shifts to oppose the change
+The fugacity is a corrected form of this for real gases. :: Pressure
+The cubic equation of state widely used in oil and gas engineering. :: Peng–Robinson
+The engineering coefficient that measures how temperature changes with pressure at constant enthalpy. :: Joule–Thomson coefficient
+The temperature where the Joule–Thomson coefficient changes sign. :: Inversion temperature
+Hydrogen and helium warm up when throttled at room temperature because they are above this. :: Their inversion temperature
+The process that liquefies air by repeated throttling and heat exchange. :: Linde (Hampson–Linde) process
+The process that liquefies natural gas for export, cooling it to about −162 °C. :: LNG liquefaction
+The gas separated from air at Saudi plants by cryogenic distillation for industry. :: Oxygen and nitrogen
+The quantity that measures the reversible work rate of a flow stream per unit mass. :: Flow exergy
+The Gouy–Stodola theorem relates lost work to this. :: Entropy generation
+The design approach that minimises entropy generation in heat exchangers and flows. :: Entropy generation minimisation
+The engineer who wrote widely on entropy generation minimisation and the constructal law. :: Adrian Bejan
+The efficiency of a Carnot engine running at maximum power, found by Curzon and Ahlborn. :: 1 − √(Tc/Th)
+The boundary layer thickness ratio of velocity to thermal layers depends on this number. :: Prandtl number
+The analogy that relates friction to heat transfer in turbulent flow. :: Reynolds analogy (Chilton–Colburn)
+The Colburn j-factor equals Stanton number times Pr raised to this. :: 2/3
+The Stanton number equals Nusselt divided by this. :: Re × Pr
+The turbulent heat transfer correlation more accurate than Dittus–Boelter for wide ranges. :: Gnielinski correlation
+The boiling curve was first described in 1934 by this Japanese engineer. :: Shiro Nukiyama
+The correlation for nucleate pool boiling heat flux. :: Rohsenow correlation
+The engineer who derived the theory of the critical heat flux by hydrodynamic instability. :: Novak Zuber
+The theory of laminar film condensation on a vertical plate. :: Nusselt's film condensation theory
+Condensation that forms droplets instead of a film gives this much higher heat transfer. :: Several times (up to about 10×) higher
+The instability between a heavy fluid above a light one that matters in film boiling. :: Rayleigh–Taylor instability
+The analytic solution for heat conduction into a semi-infinite solid uses this function. :: Error function (erf)
+The series solution for transient conduction in a slab uses this kind of series. :: Fourier series
+The charts used for transient conduction in plates, cylinders and spheres. :: Heisler charts
+The number of radiation surfaces' net exchange is found with this network method. :: Oppenheim's radiosity network
+Total energy leaving a surface by emission and reflection. :: Radiosity
+The rule that the sum of view factors from a surface in an enclosure is one. :: Summation rule
+The rule A₁F₁₂ = A₂F₂₁. :: Reciprocity rule
+A thin shield placed between two surfaces cuts radiation heat transfer roughly by this factor for one shield of equal emissivity. :: Half
+The radiation from a gas like CO₂ or water vapour happens in these. :: Specific wavelength bands
+The sky temperature at night in deserts can be well below air temperature, allowing this kind of cooling. :: Radiative cooling
+Passive daytime radiative cooling materials emit strongly in this atmospheric window. :: 8 to 13 μm
+The traditional wind tower used to cool buildings in Arabia and Persia. :: Windcatcher (malqaf / badgir)
+Traditional Najdi houses use thick walls made of this to delay heat entering. :: Mud brick (adobe)
+The delay in heat flow through a thick wall. :: Thermal lag (time lag)
+The ice-storing structures of ancient Persia that kept ice into summer. :: Yakhchal
+The method of storing cold by making ice at night for daytime cooling. :: Thermal energy storage
+Material that stores heat by melting and freezing. :: Phase change material
+The molten salts used for storing heat in CSP plants are mostly a mix of these. :: Sodium and potassium nitrate
+The thermodynamic cycle in a supercritical CO₂ power plant. :: Brayton cycle (sCO₂)
+The cycle with the highest theoretical efficiency between two temperatures. :: Carnot cycle
+The Kalina cycle uses this mixture as its working fluid. :: Ammonia and water
+The Lorenz cycle is the ideal for refrigeration with this kind of heat source and sink. :: Varying-temperature (gliding) streams
+Refrigerant mixtures that change temperature while boiling at constant pressure have this. :: Temperature glide
+The refrigerant blend that replaced R-22 in many air conditioners. :: R-410A
+The low-GWP refrigerant now replacing R-410A in many split units. :: R-32
+The Saudi body that sets minimum energy efficiency standards for air conditioners. :: SASO (with the Saudi Energy Efficiency Center)
+The efficiency rating used for air conditioners that combines seasonal performance. :: SEER
+In a vapour-compression cycle, subcooling the liquid does this to the cooling capacity. :: Increases it
+Superheat at the compressor inlet is kept to avoid this. :: Liquid entering the compressor (slugging)
+The refrigerant flow device that adjusts opening to keep superheat constant. :: Thermostatic expansion valve
+The ideal COP of a refrigerator between 25 °C and 45 °C. :: About 14.9
+The ideal COP of a heat pump between 0 °C and 40 °C. :: About 7.8
+The engine knock limit sets the compression ratio of petrol engines to about this. :: 10 to 13
+The engine that uses a different expansion ratio from compression ratio by closing the intake valve late. :: Atkinson (Miller) cycle engine
+Hybrid cars often use this engine cycle for better efficiency. :: Atkinson cycle
+The heat release per kilogram of hydrogen (LHV), roughly. :: About 120 MJ/kg
+The heat release per kilogram of natural gas (LHV), roughly. :: About 50 MJ/kg
+The Wobbe index is used to compare this property of fuel gases. :: Interchangeability (heat input through a burner)
+The pollutant formed at high flame temperatures from nitrogen and oxygen. :: NOx
+The mechanism of thermal NOx formation named after this scientist. :: Zeldovich mechanism
+Lean premixed combustion in gas turbines is used mainly to reduce this. :: NOx
+Power and desalination plants on the Gulf coast use this as their cooling medium. :: Seawater
+
+## 500
+The physicist who explained Brownian motion in 1905, confirming that atoms exist. :: Albert Einstein
+The French physicist whose 1908 experiments on Brownian motion won him the 1926 Nobel Prize. :: Jean Perrin
+The 'Clausius inequality' says the cyclic integral of δQ/T is this for any cycle. :: Less than or equal to zero
+The Austrian physicist after whom the T⁴ radiation law is jointly named, a student of Stefan. :: Ludwig Boltzmann
+The English chemist whose 1802 law described thermal expansion of gases, published independently of Charles. :: John Dalton (and Gay-Lussac)
+The French physicist who measured specific heats of gases precisely for the 1847 steam tables. :: Henri Victor Regnault
+The engineer who wrote the 1859 Manual of the Steam Engine and Other Prime Movers. :: William Rankine
+The physicist who first measured the speed of molecules with a rotating drum experiment in 1920. :: Otto Stern
+The temperature at which liquid water is densest. :: About 4 °C
+The industrial process to make ammonia that depends on high-pressure equilibrium thermodynamics. :: Haber–Bosch process
+The highest air temperature reliably recorded on Earth, in Death Valley in 1913. :: 56.7 °C
+The temperature of the Earth's core, roughly. :: About 5,000 to 6,000 °C
+The world's first nuclear power plant to supply a grid opened in 1954 in this Soviet town. :: Obninsk
+The thermodynamic cycle used in pressurised-water nuclear plants. :: Rankine cycle
+The coolant pressure in a typical pressurised-water reactor, roughly. :: About 15.5 MPa
+The process in which ions inside the Sun fuse hydrogen into helium. :: Nuclear fusion
+The Scottish physicist who derived the distribution of molecular speeds in a gas in 1860. :: James Clerk Maxwell
+The French engineer whose 1824 book Reflections on the Motive Power of Fire founded thermodynamics. :: Sadi Carnot
+Carnot believed in this theory of heat, which was later proved wrong. :: Caloric theory
+The German physicist who introduced the word entropy in 1865. :: Rudolf Clausius
+Clausius made up the word entropy from the Greek word for this. :: Transformation
+The physicist who measured the mechanical equivalent of heat with a falling weight and paddle wheel. :: James Prescott Joule
+The German doctor who first stated the conservation of energy in 1842 after a voyage to Java. :: Julius Robert von Mayer
+The scientist who proposed absolute temperature in 1848. :: William Thomson (Lord Kelvin)
+The American count who showed in 1798 that boring cannons made endless heat. :: Count Rumford (Benjamin Thompson)
+The Austrian physicist who took his own life in 1906 after attacks on his atomic theory. :: Ludwig Boltzmann
+The American whose 1876 paper On the Equilibrium of Heterogeneous Substances founded chemical thermodynamics. :: Josiah Willard Gibbs
+The German chemist who stated the third law (heat theorem) in 1906. :: Walther Nernst
+The physicist who coined the zeroth law name in the 1930s. :: Ralph Fowler
+The Scottish engineer who worked out the Rankine cycle and wrote a steam engine manual. :: William Rankine
+The German engineer whose 1876 four-stroke engine became the basis for car engines. :: Nicolaus Otto
+The German engineer who patented the compression-ignition engine in 1892. :: Rudolf Diesel
+The American engineer who proposed the gas turbine cycle in 1872. :: George Brayton
+The Scottish minister who invented the hot-air engine with a regenerator in 1816. :: Robert Stirling
+The English inventor of the first commercial steam engine in 1712. :: Thomas Newcomen
+The engineer who patented a steam pump called 'The Miner's Friend' in 1698. :: Thomas Savery
+James Watt's key improvement to the Newcomen engine. :: The separate condenser
+The unit of power Watt invented to compare engines with horses. :: Horsepower
+One mechanical horsepower is about this many watts. :: 746
+The Muslim engineer who described a steam turbine-like device for turning a spit in 1551. :: Taqi al-Din
+The ancient Greek inventor of the aeolipile, a spinning steam ball. :: Hero of Alexandria
+The physicist who explained the colour of black-body radiation by quantising energy in 1900. :: Max Planck
+The 'ultraviolet catastrophe' was a failed prediction of this law. :: Rayleigh–Jeans law
+The inventor who patented the first vapour-compression refrigerator, using ether, in London in 1834. :: Jacob Perkins
+The American doctor who built an ice-making machine to cool yellow fever patients in the 1840s. :: John Gorrie
+The engineer who invented modern air conditioning in 1902. :: Willis Carrier
+Carrier's first air-conditioning system was built to control humidity at this kind of business. :: A printing plant
+The chemist who developed CFC refrigerants and also leaded petrol. :: Thomas Midgley Jr.
+The scientists who won the 1995 Nobel Prize for showing CFCs destroy ozone. :: Crutzen, Molina and Rowland
+The scientist who built an absorption refrigerator with Albert Einstein. :: Leó Szilárd
+The physicist who liquefied helium for the first time in 1908. :: Heike Kamerlingh Onnes
+The first gas liquefied was this, by Faraday in 1823. :: Chlorine
+The temperature of liquid nitrogen at atmospheric pressure. :: About −196 °C (77 K)
+The boiling point of liquid helium-4 at atmospheric pressure. :: About 4.2 K
+The lowest temperature reached in a lab is on this scale of kelvin. :: Picokelvin (below a nanokelvin)
+The state of matter formed by atoms cooled to near absolute zero, first made in 1995. :: Bose–Einstein condensate
+The Indian physicist who, with Einstein, predicted that state of matter. :: Satyendra Nath Bose
+The unusual kind of temperature that Purcell and Pound demonstrated in nuclear spins in 1951. :: Negative absolute temperature
+The Swiss company that built the first utility gas turbine for power generation, at Neuchâtel in 1939. :: Brown Boveri (BBC)
+The engineers who independently invented the turbojet in the 1930s. :: Frank Whittle and Hans von Ohain
+The first jet-powered aircraft to fly, in 1939. :: Heinkel He 178
+The engineer who developed the theory of heat conduction in 1822. :: Joseph Fourier
+Fourier's 1822 book on heat introduced this mathematical tool. :: Fourier series
+The engineer whose boundary layer concept of 1904 transformed convection analysis. :: Ludwig Prandtl
+The German engineer who founded modern heat transfer theory with dimensionless analysis in 1915. :: Wilhelm Nusselt
+The Austrian physicist who found the T⁴ radiation law experimentally in 1879. :: Josef Stefan
+The engineer who invented the Thermos flask in 1892. :: James Dewar
+The French engineer who discovered the Peltier effect. :: Jean Charles Athanase Peltier
+The German physicist who discovered thermoelectricity in 1821. :: Thomas Johann Seebeck
+The space probes that use radioisotope thermoelectric generators to run in deep space. :: Voyager (and Cassini, Curiosity)
+The fuel in most RTGs. :: Plutonium-238
+The Saudi giga-project in Tabuk Province planned to run entirely on renewable energy. :: NEOM
+The full name of the Saudi body known as K.A.CARE, set up in 2010. :: King Abdullah City for Atomic and Renewable Energy
+The Eastern Province plant that is one of the world's largest hybrid power and desalination plants. :: Ras Al-Khair
+Ras Al-Khair uses both thermal desalination and this membrane method. :: Reverse osmosis
+The thermal desalination method that flashes brine to steam in many stages. :: Multi-stage flash (MSF)
+The thermal desalination method that evaporates water on tubes in several effects. :: Multi-effect distillation (MED)
+The minimum theoretical energy to desalinate seawater at 50% recovery, roughly. :: About 1 kWh per cubic metre
+Modern seawater reverse osmosis uses roughly this much energy per cubic metre. :: About 3 kWh
+The device that recovers pressure from RO brine and made SWRO much cheaper. :: Pressure exchanger (energy recovery device)
+The 'heat death of the universe' idea follows from this law. :: Second law
+The arrow of time is often linked to the increase of this. :: Entropy
+The physicist who argued that the second law holds 'the supreme position among the laws of Nature'. :: Arthur Eddington
+The writer and scientist who popularised the 'two cultures' by asking about the second law. :: C. P. Snow
+The theorem showing fluctuations that briefly decrease entropy follow exact probability rules. :: Fluctuation theorem
+The Jarzynski equality links free energy differences to this. :: Non-equilibrium work
+The theorem of Onsager relates coefficients in coupled transport such as thermoelectricity. :: Onsager reciprocal relations
+Lars Onsager won the Nobel Prize in Chemistry in this year for those relations. :: 1968
+The principle of minimum entropy production near equilibrium is due to this Nobel laureate. :: Ilya Prigogine
+Structures like convection cells that form far from equilibrium were called this by Prigogine. :: Dissipative structures
+The hexagonal cells that form when a thin fluid layer is heated from below. :: Bénard cells
+The Rayleigh number at which convection starts between two rigid plates. :: About 1,708
+The relation for black-body peak wavelength times temperature. :: About 2,898 μm·K
+The Sun's surface temperature, roughly. :: About 5,800 K
+The temperature of the cosmic microwave background. :: About 2.7 K
+The physicist who showed that black holes have entropy proportional to horizon area. :: Jacob Bekenstein
+The radiation by which black holes slowly lose energy. :: Hawking radiation
+The International Temperature Scale in use today. :: ITS-90
+Since 2019 the kelvin has been defined by fixing the value of this constant. :: Boltzmann constant
+Before 2019 the kelvin was defined using this point of water. :: Triple point

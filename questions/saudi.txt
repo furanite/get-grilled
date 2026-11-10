@@ -1,0 +1,514 @@
+id: saudi
+name: Saudi & Eastern Province
+nameAr: السعودية والمنطقة الشرقية
+group: general
+
+## 100
+The Saudi Arabian flag shows a sword and this written text. :: The Shahada (declaration of faith)
+The energy company headquartered in Dhahran. :: Saudi Aramco
+The capital city of Saudi Arabia. :: Riyadh
+The capital of the Eastern Province. :: Dammam
+The body of water on the Eastern Province coast. :: The Arabian Gulf
+The sea on Saudi Arabia's western coast. :: The Red Sea
+The Saudi port city on the Red Sea known as the gateway to Makkah. :: Jeddah
+The currency of Saudi Arabia. :: Saudi riyal
+The colour of the Saudi flag. :: Green
+Saudi National Day is celebrated on this date. :: 23 September
+Saudi Founding Day is celebrated on this date. :: 22 February
+The year the Kingdom of Saudi Arabia was unified and named. :: 1932
+The founder of the modern Kingdom of Saudi Arabia. :: King Abdulaziz (Ibn Saud)
+The national plan launched in 2016 to diversify the economy. :: Vision 2030
+The largest sand desert in the world, covering much of southern Saudi Arabia. :: Rub' al Khali (the Empty Quarter)
+The sand desert in northern Saudi Arabia. :: An-Nafud
+The national animal of Saudi Arabia, known as the ship of the desert. :: Camel
+The traditional Saudi coffee, flavoured with cardamom. :: Qahwa (Arabic coffee)
+The pot used to serve Arabic coffee. :: Dallah
+The fruit Saudi Arabia is famous for growing in palm trees. :: Dates
+The Eastern Province oasis that is one of the world's largest, famous for dates. :: Al-Ahsa
+The bridge that links Saudi Arabia to Bahrain. :: King Fahd Causeway
+The country connected to Saudi Arabia by the King Fahd Causeway. :: Bahrain
+The Eastern Province city where Prince Mohammad bin Fahd University is located. :: Al Khobar
+The three cities that make up the Dammam metropolitan area. :: Dammam, Al Khobar and Dhahran
+The university in Dhahran famous for petroleum and engineering. :: KFUPM (King Fahd University of Petroleum and Minerals)
+The tallest tower in Saudi Arabia, the clock tower in Makkah. :: Abraj Al Bait (Makkah Royal Clock Tower)
+The Riyadh tower with a big opening at the top, often called the bottle opener. :: Kingdom Centre
+The Riyadh tower with a golden sphere near the top. :: Al Faisaliah Tower
+The tower under construction in Jeddah planned to be the world's tallest. :: Jeddah Tower
+The planned smart city in the north-west of Saudi Arabia. :: NEOM
+The 170 km linear city planned inside NEOM. :: The Line
+The ancient Nabataean city in AlUla with tombs carved in rock. :: Hegra (Al-Hijr / Mada'in Salih)
+Hegra was the first Saudi site listed by UNESCO. In what year? :: 2008
+The Saudi region famous for its mirrored concert hall, Maraya. :: AlUla
+The historic Riyadh district that was the first capital of the Saudi state. :: Diriyah
+The mud-brick district of Diriyah listed by UNESCO. :: At-Turaif
+The Eastern Province city that is home to the world's largest industrial city on the Gulf. :: Jubail
+The industrial city in the west, on the Red Sea, paired with Jubail. :: Yanbu
+The Saudi national airline. :: Saudia
+The new Saudi airline launched in 2023 by the Public Investment Fund. :: Riyadh Air
+The main airport serving the Eastern Province. :: King Fahd International Airport
+King Fahd International Airport is famous for being one of the largest airports by this measure. :: Land area
+The main international airport of Riyadh. :: King Khalid International Airport
+The main international airport of Jeddah. :: King Abdulaziz International Airport
+The railway company that runs the Riyadh to Dammam line. :: Saudi Arabia Railways (SAR)
+The high-speed railway linking Makkah and Madinah. :: Haramain High-Speed Railway
+The metro system that opened in the Saudi capital in 2024 and 2025. :: Riyadh Metro
+The Saudi sovereign wealth fund. :: Public Investment Fund (PIF)
+The Saudi football league's top division. :: Saudi Pro League
+The Eastern Province football club based in Dammam, one of the oldest in the Kingdom. :: Al-Ettifaq
+The Eastern Province football club based in Al-Ahsa. :: Al-Fateh
+The Al Khobar football club in the Pro League. :: Al-Qadsiah
+The Saudi national football team's nickname. :: The Green Falcons
+The country Saudi Arabia beat 2–1 at the 2022 World Cup in Qatar. :: Argentina
+The country chosen to host the 2034 FIFA World Cup. :: Saudi Arabia
+The traditional Saudi men's white robe. :: Thobe
+The traditional red-and-white checked headscarf worn by Saudi men. :: Shemagh
+The black cord that holds a headscarf in place. :: Agal
+The Saudi national dish of rice and meat. :: Kabsa
+The traditional Saudi folk dance with swords and drums. :: Al-Ardah
+Al-Ardah was listed by UNESCO as this kind of heritage. :: Intangible cultural heritage
+The bird often used in falconry, a strong Gulf tradition. :: Falcon
+The famous Saudi camel festival held near Riyadh. :: King Abdulaziz Camel Festival
+The cultural festival in Riyadh known for heritage, poetry and crafts. :: Janadriyah
+The entertainment season held in the capital every winter. :: Riyadh Season
+The Eastern Province's major seaside walkway in Al Khobar. :: Al Khobar Corniche
+The landmark tower on the Al Khobar Corniche that was built to store water. :: Khobar Water Tower
+The ancient island near Qatif with a castle and one of the oldest settlements in the Gulf. :: Tarout Island
+The Eastern Province governorate famous for its gardens and as an old trading port. :: Qatif
+The Saudi oil field that is the largest conventional oil field in the world. :: Ghawar
+Ghawar is located in this province. :: Eastern Province
+The world's largest offshore oil field, in the Gulf off Saudi Arabia. :: Safaniya
+The Aramco cultural centre in Dhahran, famous for its unusual pebble-like shape. :: Ithra (King Abdulaziz Center for World Culture)
+The Saudi company that is one of the world's largest petrochemical makers. :: SABIC
+The Saudi mining company. :: Ma'aden
+The Saudi electricity company. :: Saudi Electricity Company (SEC)
+The main language spoken in Saudi Arabia. :: Arabic
+The highest mountain region in Saudi Arabia, around Abha. :: Asir
+The Saudi city known as the 'city of roses'. :: Taif
+The month of the Hijri calendar when Muslims fast. :: Ramadan
+The religious pilgrimage to Makkah performed once a year. :: Hajj
+The smaller pilgrimage that can be done any time of year. :: Umrah
+The holiest city in Islam. :: Makkah
+The city of the Prophet's Mosque. :: Madinah
+The title of the King of Saudi Arabia that refers to the two holy mosques. :: Custodian of the Two Holy Mosques
+The current King of Saudi Arabia. :: King Salman bin Abdulaziz
+The Crown Prince and Prime Minister of Saudi Arabia. :: Mohammed bin Salman
+The Saudi city in the north famous for its rock art, Jubbah and Shuwaymis. :: Ha'il
+The traditional Bedouin tent made of goat hair. :: Bayt al-sha'ar (house of hair)
+The Bedouin weaving craft listed by UNESCO in 2020. :: Al Sadu
+The colourful wall painting tradition of women in Asir listed by UNESCO in 2017. :: Al-Qatt Al-Asiri
+The number of regions (provinces) in Saudi Arabia. :: 13
+The largest region of Saudi Arabia by area. :: Eastern Province
+Saudi Arabia shares a land border with this many countries. :: Seven
+The country to the south of Saudi Arabia. :: Yemen
+The small country on the peninsula east of Saudi Arabia, connected by the Salwa border. :: Qatar
+The Saudi city that was the summer capital, high in the mountains near Makkah. :: Taif
+The longest valley in Saudi Arabia, Wadi this. :: Wadi Al-Rummah
+The organisation of six Gulf countries founded in 1981. :: Gulf Cooperation Council (GCC)
+
+## 200
+The Saudi riyal is divided into 100 of these. :: Halalas
+The Saudi king whose portrait appears on current banknotes. :: King Salman
+The Eastern Province city at the north end of the King Fahd Causeway's land approach, where it starts. :: Al Khobar
+Saudi Arabia's time zone is this many hours ahead of GMT. :: Three
+Saudi Arabia does not use this seasonal clock change. :: Daylight saving time
+The Saudi weekend has been on these two days since 2013. :: Friday and Saturday
+The Saudi Arabian international dialling code. :: +966
+The country code top-level domain for Saudi Arabia. :: .sa
+Saudi Arabia drives on this side of the road. :: Right
+The 25 km bridge linking Al Khobar to Bahrain. :: King Fahd Causeway
+The year the King Fahd Causeway opened. :: 1986
+The original name of Saudi Aramco, from 1933. :: California-Arabian Standard Oil Company (CASOC)
+The year Aramco became fully owned by the Saudi government. :: 1980
+Aramco's initial public offering took place in this year. :: 2019
+The stock exchange where Aramco is listed. :: Tadawul (Saudi Exchange)
+The year the Saudi Ministry of Petroleum and Mineral Resources was set up. :: 1960
+The Saudi oil minister who led OPEC policy during the 1970s. :: Ahmed Zaki Yamani
+The first Saudi CEO of Aramco, appointed in 1988. :: Ali Al-Naimi
+OPEC was founded in 1960 in this city. :: Baghdad
+Saudi Arabia was one of OPEC's this many founding members. :: Five
+The Aramco oil processing plant attacked in 2019. :: Abqaiq
+The oil terminal on the Gulf, near Dammam, that has been a major export port since the 1930s. :: Ras Tanura
+The Aramco refinery in the Eastern Province that is one of the world's oldest and largest. :: Ras Tanura Refinery
+The pipeline that carries crude oil from the east to Yanbu on the Red Sea. :: East–West Pipeline (Petroline)
+The pipeline from Saudi Arabia to Lebanon that operated from 1950. :: Trans-Arabian Pipeline (Tapline)
+The Aramco gas programme that collects associated gas for power and industry. :: Master Gas System
+The first Saudi gas plant to process non-associated gas, near Ghawar. :: Hawiyah Gas Plant
+The large gas field being developed by Aramco near Al-Ahsa with shale-style methods. :: Jafurah
+The Aramco research centre in Dhahran that studies drilling and reservoirs. :: EXPEC Advanced Research Center
+The Aramco technology and innovation hub area in Dhahran shared with KFUPM. :: Dhahran Techno Valley
+KFUPM's famous landmark, a water tower that looks like a tall pencil or candle. :: KFUPM Water Tower
+KFUPM was founded in this year as the College of Petroleum and Minerals. :: 1963
+Prince Mohammad bin Fahd University opened to students in this year. :: 2006
+PMU is named after this former governor of the Eastern Province. :: Prince Mohammad bin Fahd
+Imam Abdulrahman Bin Faisal University was formerly known as this. :: University of Dammam
+The Eastern Province's main public university in Al-Ahsa. :: King Faisal University
+The Eastern Province's industrial cities are run by this Royal Commission. :: Royal Commission for Jubail and Yanbu
+The year the Royal Commission for Jubail and Yanbu was founded. :: 1975
+The Jubail-based joint venture of Aramco and Dow, one of the world's largest chemical complexes. :: Sadara
+The Aramco–TotalEnergies refinery in Jubail. :: SATORP
+The port in Dammam that is the largest port on the Gulf coast of Saudi Arabia. :: King Abdulaziz Port
+The port in Jubail that serves the industrial city. :: King Fahd Industrial Port
+The Saudi city known as the oil capital, home to Aramco's headquarters. :: Dhahran
+The Aramco housing camp in Dhahran where many expatriates lived. :: Dhahran Camp
+The well in Dammam where commercial oil was first found in Saudi Arabia. :: Dammam Well No. 7
+The year oil was struck at Dammam Well No. 7. :: 1938
+Dammam Well No. 7 was nicknamed this. :: Prosperity Well
+The American geologist who found the oil at Dammam No. 7. :: Max Steineke
+The Bedouin guide who helped Aramco geologists find oil fields. :: Khamis bin Rimthan
+The first tanker loaded with Saudi crude at Ras Tanura in 1939 was this ship. :: D.G. Scofield
+King Abdulaziz opened the first oil shipment valve in this year. :: 1939
+The famous Al-Ahsa landmark mountain with cool caves. :: Jabal Al-Qarah
+Al-Ahsa Oasis was listed by UNESCO in this year. :: 2018
+The Al-Ahsa palace and Ottoman fortress, a heritage site in Hofuf. :: Qasr Ibrahim
+The main city of Al-Ahsa. :: Hofuf
+The historic mosque in Al-Ahsa, one of the oldest in the region, believed to date from the 7th century. :: Jawatha Mosque
+The castle on Tarout Island near Qatif. :: Tarout Castle
+The traditional pearl diving that was the main Gulf industry before oil. :: Pearling
+The traditional wooden boats of the Gulf. :: Dhows
+The Saudi city that hosts a major Formula 1 Grand Prix on a street circuit. :: Jeddah
+The famous car rally that has been held in Saudi Arabia since 2020. :: Dakar Rally
+The Saudi architectural style known for triangular openings and mud walls. :: Najdi architecture
+The architectural style of Jeddah's old city, with wooden latticed windows. :: Hejazi architecture (rawasheen)
+The UNESCO-listed old town of Jeddah. :: Al-Balad (Historic Jeddah)
+The Saudi region known for its coffee, honey and the Fifa mountains. :: Jazan
+The Saudi island group in the Red Sea famous for diving. :: Farasan Islands
+The luxury tourism project on the Red Sea coast with resorts on islands. :: Red Sea Global (The Red Sea project)
+The giga-project near Riyadh planned as an entertainment and sports city. :: Qiddiya
+The new downtown project in Riyadh with a huge cube building. :: New Murabba (The Mukaab)
+The Saudi city that hosted the G20 Summit (virtually) in 2020. :: Riyadh
+The world expo Riyadh will host in 2030. :: Expo 2030
+The 2029 Asian Winter Games are planned at this NEOM mountain resort. :: Trojena
+The Saudi standards body. :: SASO (Saudi Standards, Metrology and Quality Organization)
+The Saudi body that licenses engineers. :: Saudi Council of Engineers
+The agency that runs the national weather and environment services. :: National Center for Meteorology
+The highest temperature in Saudi summers in the Eastern Province often goes above this. :: 50 °C
+The hot humid wind season in the Gulf summer is called this. :: Al-Bawarih (shamal winds)
+The sea in the Gulf is shallow; its average depth is about this. :: 50 metres
+The Saudi government's programme to localise jobs for citizens. :: Saudization (Nitaqat)
+The year Saudi women started driving legally. :: 2018
+The year cinemas reopened in Saudi Arabia. :: 2018
+The tourist visa first offered to many countries in this year. :: 2019
+The Vision 2030 programme launched in 2018 to improve culture, sport and entertainment. :: Quality of Life Program
+The Saudi Green Initiative aims to plant this many trees in the Kingdom. :: 10 billion
+The Saudi city that will host most stadiums for the 2034 World Cup. :: Riyadh
+The first Saudi astronauts flew to the ISS in this year. :: 2023
+The first Saudi woman in space. :: Rayyanah Barnawi
+The first Saudi and first Arab in space, in 1985. :: Prince Sultan bin Salman
+The Saudi astronaut who flew with Rayyanah Barnawi. :: Ali AlQarni
+The Saudi space agency. :: Saudi Space Agency
+The number of member states in the GCC. :: Six
+The Saudi city that hosts the headquarters of the GCC Secretariat. :: Riyadh
+The Saudi city with the headquarters of the Organisation of Islamic Cooperation. :: Jeddah
+The first Saudi woman to compete at the Olympics, in judo in 2012. :: Wojdan Shaherkani
+The Saudi karateka who won silver at the Tokyo 2020 Olympics. :: Tareg Hamedi
+The Saudi Pro League club that signed Cristiano Ronaldo in 2022. :: Al-Nassr
+The Saudi club that signed Neymar in 2023. :: Al-Hilal
+The Saudi club that signed Karim Benzema in 2023. :: Al-Ittihad
+The Eastern Province club that signed Jordan Henderson in 2023. :: Al-Ettifaq
+The Saudi national emblem has two crossed swords and this tree. :: Palm tree
+
+## 300
+The year Saudi Arabia joined the World Trade Organization. :: 2005
+The main index of the Saudi stock exchange. :: TASI
+The 1989 agreement signed in a Saudi city that ended Lebanon's civil war. :: Taif Agreement
+Ghawar produces about this many million barrels of oil per day, roughly. :: About 3.8 million (estimates vary)
+The Saudi Pro League club from Al-Ahsa that won the league title in 2013. :: Al-Fateh
+Saudi Arabia first qualified for the World Cup in this year. :: 1994
+Saudi player Saeed Al-Owairan scored a famous solo goal against this team in 1994. :: Belgium
+The number of times Saudi Arabia has won the AFC Asian Cup. :: Three
+Saudi Arabia's area is about this many million square kilometres. :: About 2.15 million
+The year the first Saudi oil concession was signed with Standard Oil of California. :: 1933
+The minister of finance who signed the 1933 concession for King Abdulaziz. :: Abdullah Al-Sulaiman
+The American company that won the 1933 Saudi oil concession. :: Standard Oil of California (SOCAL)
+The year CASOC was renamed Arabian American Oil Company (Aramco). :: 1944
+Aramco became Saudi Aramco in this year. :: 1988
+The year the Ghawar field was discovered. :: 1948
+Ghawar is about this long, from north to south. :: About 280 km
+Safaniya was discovered in this year. :: 1951
+The field 'Manifa', developed with causeways and artificial islands, is in this water body. :: The Arabian Gulf
+The Aramco megaproject that built 27 artificial islands for drilling. :: Manifa
+The Saudi oil field deep in the Empty Quarter that came on stream in 1998. :: Shaybah
+Shaybah is near this neighbouring country's border. :: United Arab Emirates
+The Saudi oil grade that is the main export blend. :: Arab Light
+The heavier Saudi crude from offshore fields like Safaniya. :: Arab Heavy
+Aramco's maximum sustainable capacity target was set at this many million barrels per day. :: 12 million
+One barrel of oil holds this many US gallons. :: 42
+One barrel of oil is about this many litres. :: About 159
+The process Aramco uses to inject water around fields to keep pressure up. :: Peripheral water injection
+The 'smart field' technology Aramco uses to monitor wells in real time. :: Intelligent fields
+The world's largest single-site oil processing plant, near Dhahran. :: Abqaiq
+The offshore gas field that was Aramco's first non-associated offshore gas development. :: Karan
+The largest crude oil terminal in the world, on the Gulf north of Jubail. :: Ras Tanura (with Ju'aymah)
+The offshore loading platform near Ras Tanura used for very large tankers. :: Ju'aymah Terminal
+The name of the Saudi national shipping company. :: Bahri
+The world's largest shipyard project being built at Ras Al-Khair. :: King Salman International Complex for Maritime Industries
+Ras Al-Khair hosts Ma'aden's processing of these two main minerals. :: Phosphate and aluminium
+The railway that carries phosphate and bauxite from the north to Ras Al-Khair. :: North–South Railway
+The rail link planned to connect Riyadh to Jeddah through the Kingdom. :: Saudi Landbridge
+The first Saudi railway, from Dammam to Riyadh, opened in this year. :: 1951
+The Dammam–Riyadh railway was built with this company's support. :: Aramco
+The Gulf railway project planned to link all GCC countries. :: GCC Railway
+The planned high-speed rail link between Riyadh and Doha announced in 2024. :: Riyadh–Doha high-speed railway
+The King Fahd Causeway includes an artificial island in the middle called this. :: Passport (Border) Island
+The Saudi government agency that ran the causeway. :: King Fahd Causeway Authority
+The planned second bridge to Bahrain, mostly for rail. :: King Hamad Causeway
+KFUPM's Dhahran campus is on a small hill called this. :: Jabal Dhahran (the jebel)
+KFUPM's original name when founded in 1963. :: College of Petroleum and Minerals
+The year KFUPM took its current name. :: 1986
+The Saudi Commission that accredits engineering programmes nationally. :: ETEC (Education and Training Evaluation Commission)
+The US body that accredits engineering programmes worldwide, used by many Saudi universities. :: ABET
+Hofuf is famous for this traditional craft of men's cloaks. :: Bisht making
+The traditional cloak worn on formal occasions. :: Bisht
+The variety of dates Al-Ahsa is most famous for. :: Khalas
+The famous hot spring in Al-Ahsa. :: Ain Najm
+The irrigation project of Al-Ahsa built in the 1970s. :: Al-Ahsa Irrigation and Drainage Project
+Al-Ahsa was the capital of this medieval Gulf state that fought the Abbasids. :: The Qarmatians
+The Ottoman province that included Al-Ahsa until 1913. :: Lahsa Eyalet (Ottoman Al-Ahsa)
+King Abdulaziz captured Al-Ahsa from the Ottomans in this year. :: 1913
+King Abdulaziz recaptured Riyadh in this year, beginning the third Saudi state. :: 1902
+The fort he captured in Riyadh in 1902. :: Masmak Fort
+The first Saudi state was founded in this year by Imam Muhammad bin Saud. :: 1727
+Founding Day marks the founding of the first Saudi state in this place. :: Diriyah
+The year the first Saudi state ended with the fall of Diriyah. :: 1818
+The second Saudi state was centred in this city. :: Riyadh
+The Treaty that set Saudi borders with Kuwait and Iraq in 1922. :: Treaty of Uqair
+The Uqair Treaty was signed in this Eastern Province place. :: Al-Uqair (near Al-Ahsa)
+The historic port near Al-Ahsa that was its link to the sea. :: Al-Uqair
+The Saudi–Kuwaiti zone shared for oil production. :: The Neutral Zone (Partitioned Zone)
+The Eastern Province's huge Al-Ahsa National Park is planted mainly to stop this. :: Sand dunes moving (desertification)
+The marine park on the Gulf coast protecting coral and dugongs. :: Jubail Marine Wildlife Sanctuary
+The marine mammal found in the Gulf, often called a sea cow. :: Dugong
+The Saudi museum in Dammam showing regional heritage. :: Dammam Regional Museum
+Ithra was designed by this Norwegian architecture firm. :: Snøhetta
+Ithra opened to the public in this year. :: 2018
+The architect of the Kingdom Centre in Riyadh. :: Ellerbe Becket (with Omrania)
+The architect of Al Faisaliah Tower. :: Norman Foster
+Saudi Arabia's first skyscraper, finished in 2000. :: Al Faisaliah Tower
+The Riyadh TV tower opened in 1978. :: Riyadh TV Tower
+The Saudi Ministry of Foreign Affairs building in Riyadh was designed by this Danish architect. :: Henning Larsen
+The water towers of Riyadh designed by Sune Lindström. :: Riyadh Water Tower
+The large dam in Bisha, Asir region, completed in 2009. :: King Fahd Dam
+The world's largest single desalination plant by capacity is in this Saudi city. :: Ras Al-Khair (or Jubail)
+The Riyadh to Jubail water pipeline carries desalinated water about this far. :: About 400 km
+The Saudi city that gets most of its water from desalination pumped from Jubail. :: Riyadh
+Saudi Arabia grew this crop on huge centre-pivot farms in the 1980s, even exporting it. :: Wheat
+Saudi Arabia stopped domestic wheat production subsidies to save water in this decade. :: 2010s (2016)
+The Saudi company that farms dairy and makes juice, one of the world's largest integrated dairy firms. :: Almarai
+The Saudi petrochemical company founded in 1976 in Riyadh. :: SABIC
+Aramco bought 70% of SABIC in this year. :: 2020
+The Saudi aluminium smelter at Ras Al-Khair is a joint venture with this company. :: Alcoa
+The Saudi solar plant in Al Jouf that set a record low tariff. :: Sakaka Solar Plant
+The Saudi wind farm in Al Jouf, the Kingdom's first utility-scale wind project. :: Dumat Al Jandal
+NEOM's industrial port city is called this. :: Oxagon
+NEOM's luxury island destination in the Red Sea. :: Sindalah
+The Saudi Ministry that runs schools, universities and education. :: Ministry of Education
+The national scholarship programme that sent many Saudis abroad from 2005. :: King Abdullah Scholarship Program
+The research centre in Riyadh for science and technology. :: KACST (King Abdulaziz City for Science and Technology)
+The Saudi satellites launched by KACST. :: SaudiSat
+The new Saudi electric car brand formed by PIF and Foxconn. :: Ceer
+The electric car maker with a factory in King Abdullah Economic City. :: Lucid Motors
+The economic city north of Jeddah developed by Emaar. :: King Abdullah Economic City (KAEC)
+
+## 400
+The 1934 treaty that ended the war between Saudi Arabia and Yemen. :: Treaty of Taif
+The country that buys the most Saudi crude oil in the 2020s. :: China
+The Saudi province that contains NEOM. :: Tabuk Province
+Saudi Arabia's longer coastline is on this sea. :: Red Sea
+The Ottoman-built fort in Hofuf that also has a mosque with a dome, built around 1556. :: Qasr Ibrahim (Ibrahim Palace)
+Minoru Yamasaki also designed this famous New York building that fell in 2001. :: World Trade Center
+Yamasaki also designed the original terminal of this Eastern Province airport, opened 1961. :: Dhahran International Airport
+The first oil export pipeline from Saudi Arabia ran from Dhahran to this country's island. :: Bahrain
+Bahrain's refinery received Saudi crude through an undersea pipeline from this year. :: 1945
+The Arab Gulf's deepest point is near this strait. :: Strait of Hormuz
+Historically, the whole Eastern Arabian coast from Kuwait to Qatar was called this region. :: Al-Bahrain
+Saudi Arabia's first national park, opened in 1981 in Asir. :: Asir National Park
+The Saudi agency that protects wildlife and runs reserves, formerly the NCWCD. :: National Center for Wildlife
+The Arabian oryx was saved from extinction in Saudi Arabia at this protected area in the Empty Quarter. :: Uruq Bani Ma'arid
+The industrial city north of Dammam known for petrochemicals. :: Jubail
+The archaeological site near Jubail with a 4th-century church, one of the oldest in the world. :: Jubail Church
+The Bronze Age civilisation centred on Bahrain and the Eastern Province coast. :: Dilmun
+The ancient city on Tarout Island has finds dating back about this many years. :: About 5,000 years (to 3000 BCE)
+The famous pre-Islamic trading city in the Eastern Province known from Greek writers. :: Gerrha
+The Ottoman fortress in Hofuf built in the 16th century. :: Qasr Ibrahim
+The 'Bayt Al-Bay'ah' in Hofuf is famous as the place where people pledged allegiance to King Abdulaziz in 1913. :: Bayt Al-Bay'ah
+The Qatif oasis's historical old quarter, now largely gone. :: Qal'at Al-Qatif
+The Darin harbour was famous in old times for this trade. :: Pearls (and musk/spices)
+The traditional Gulf pearl diving season was called this. :: Al-Ghous
+The captain of a pearling boat. :: Nokhada
+The traditional fishing trap made of palm fronds in Gulf shallows. :: Hadra (fish trap)
+The name of the traditional Eastern Province coastal music and songs of pearl divers. :: Fijiri
+The Al-Ahsa traditional handicraft of weaving with palm leaves. :: Khoos (palm frond weaving)
+The Saudi oil field discovered in 1940 near Abqaiq. :: Abqaiq field
+The oil field discovered in 1948 that confirmed Ghawar as a giant. :: Ain Dar
+Aramco's oil production first passed one million barrels a day in this year. :: 1958
+Aramco's largest-ever single-day production record of about 12 million barrels was set in this year. :: 2020
+The Saudi oil company that operates in the neutral zone with Kuwait. :: Aramco Gulf Operations Company (AGOC)
+Saudi Arabia's proven oil reserves are about this many billion barrels. :: About 260 billion
+The percentage of Saudi Arabia's government revenue that came from oil in the early 2010s was about this. :: Around 90%
+The Saudi crude price benchmark for Asia is set relative to this. :: Oman/Dubai average
+The Fadhili gas plant is in this province. :: Eastern Province
+The Aramco Jazan Refinery is linked to this economic city. :: Jazan City for Primary and Downstream Industries
+The Aramco joint venture refinery in Jubail with Shell, formerly called SASREF. :: SASREF (Saudi Aramco Jubail Refinery)
+Ma'aden's phosphate mine near the northern border. :: Al Jalamid (and Umm Wu'al)
+Ma'aden's bauxite mine in Qassim region. :: Al Ba'itha
+Saudi Arabia's oldest known gold mine, worked since ancient times. :: Mahd adh-Dhahab
+The Saudi gold mine name Mahd adh-Dhahab means this. :: Cradle of Gold
+The geological region of western Saudi Arabia with old rocks and minerals. :: Arabian Shield
+The geological region of eastern Saudi Arabia with sedimentary rocks and oil. :: Arabian Platform (Shelf)
+The rock formation that holds most of Ghawar's oil. :: Arab-D (Arab Formation, Jurassic)
+The rock type of Ghawar's reservoir. :: Limestone (carbonate)
+The geological period of Ghawar's reservoir rocks. :: Jurassic
+The cap rock that seals the Arab-D reservoir. :: Anhydrite (Hith Formation)
+The Saudi sand dune type shaped like a star, common in the Empty Quarter. :: Star dunes
+The Rub' al Khali covers about this many square kilometres. :: About 650,000 km²
+The Saudi lava fields called harrat are found mainly in this part of the country. :: West (Hejaz)
+The Saudi volcanic field near Madinah that erupted in 1256. :: Harrat Rahat
+The highest peak in Saudi Arabia. :: Jabal Sawda (or Jabal Ferwa)
+The height of Jabal Sawda, roughly. :: About 3,000 m
+The Saudi province that is smallest by area. :: Al-Bahah
+The Saudi province named after a 'border' in the north. :: Northern Borders Province
+The town grew up around a Tapline pumping station, now the capital of the Northern Borders. :: Arar
+Tapline stopped operating to Lebanon in this decade. :: 1980s (1983)
+The King Faisal Prize was first awarded in this year. :: 1979
+The King of Saudi Arabia who launched the national 'Saudi Electricity Company' merger in 2000. :: King Fahd
+The king who ruled from 2005 to 2015. :: King Abdullah
+The king who ruled from 1964 to 1975. :: King Faisal
+The king who ruled from 1953 to 1964. :: King Saud
+The king who ruled from 1975 to 1982. :: King Khalid
+The king who ruled from 1982 to 2005. :: King Fahd
+King Salman became king in this year. :: 2015
+Before becoming king, King Salman was governor of this region for about 50 years. :: Riyadh
+The Eastern Province's first governor appointed by King Abdulaziz, famous in early oil history. :: Abdullah bin Jiluwi
+Prince Mohammad bin Fahd was governor of the Eastern Province from 1985 to this year. :: 2013
+The current governor of the Eastern Province. :: Prince Saud bin Nayef
+The Saudi Shura Council has this many members. :: 150
+Saudi Arabia's population is about this many million. :: About 35 million
+The Eastern Province's population is about this many million. :: About 5 million
+The Saudi Census in 2022 found the median age was about this. :: About 29
+Vision 2030 aims to raise the non-oil share of exports to this percentage. :: 50%
+Vision 2030 aims to lift home ownership to this percentage. :: 70%
+Vision 2030 aims for renewables to supply this share of electricity. :: About 50%
+The Saudi Green Initiative aims for net-zero emissions by this year. :: 2060
+The Middle East Green Initiative plans to plant this many trees across the region. :: 50 billion
+The Saudi plan to host 150 million visits by this year. :: 2030
+The Saudi tourism authority's slogan. :: Visit Saudi
+The 2024 Saudi Expo bid won with this many votes out of 165. :: 119
+The FIFA vote that confirmed Saudi Arabia as 2034 host was held in this year. :: 2024
+Saudi Arabia hosted the 2023 FIFA Club World Cup in this city. :: Jeddah
+The Saudi Grand Prix street circuit is called this. :: Jeddah Corniche Circuit
+The Saudi Pro League began its big star signings in this year. :: 2023
+The Saudi esports event held in Riyadh with a huge prize pool since 2024. :: Esports World Cup
+The Saudi woman who became the first Saudi female ambassador, to the United States. :: Princess Reema bint Bandar
+The Saudi Hajj railway that runs between Makkah and the holy sites. :: Al Mashaaer Al Mugaddassah Metro
+The Haramain High-Speed Railway runs about this many kilometres. :: About 450 km
+The Haramain trains reach this top speed. :: 300 km/h
+The Riyadh Metro has this many lines. :: Six
+The architect firm that designed KAFD Metro Station in Riyadh. :: Zaha Hadid Architects
+The financial district of Riyadh. :: King Abdullah Financial District (KAFD)
+The Saudi central bank. :: Saudi Central Bank (SAMA)
+SAMA originally stood for this. :: Saudi Arabian Monetary Agency (now Authority)
+The Saudi riyal is pegged to the US dollar at this rate. :: 3.75 riyals per dollar
+The year the riyal peg to the dollar was fixed at 3.75. :: 1986
+The Saudi value added tax rate since 2020. :: 15%
+
+## 500
+The cost of building the King Fahd Causeway, roughly, in US dollars. :: About $1.2 billion
+The British prime minister King Abdulaziz met in Egypt in February 1945. :: Winston Churchill
+The SOCAL negotiator who signed the 1933 concession in Jeddah. :: Lloyd Hamilton
+Construction of the King Fahd Causeway began in this year. :: 1981
+The Dutch company that was the main contractor for the King Fahd Causeway. :: Ballast Nedam
+The businessman who started out working for Aramco and founded the Olayan Group in 1947. :: Suliman Olayan
+The year Aramco moved its headquarters from New York to Dhahran. :: 1952
+The Dhahran air base built by the US in the 1940s, later Saudi Arabia's first international airport. :: Dhahran Airfield
+The famous 1945 meeting between King Abdulaziz and US President Roosevelt took place on this ship. :: USS Quincy
+The Great Bitter Lake meeting in 1945 was in this country. :: Egypt
+The Saudi king who visited Dhahran to open the valve of the first oil shipment, 1 May 1939. :: King Abdulaziz
+The Eastern Province governorate at the far north of the coast near Kuwait. :: Al Khafji
+Al Khafji was the site of a famous battle in this year. :: 1991
+The 1991 war in the Gulf that involved Eastern Province bases. :: Gulf War (Operation Desert Storm)
+The 1991 Gulf War oil spill came ashore on this coast. :: The Saudi Gulf coast (Eastern Province)
+The tower in Al Khobar built to hold water, now a landmark. :: Khobar Water Tower
+The two American geologists who landed at Jubail in 1933 to start exploring for oil. :: Robert Miller and Schuyler Henry
+The first American oil geologists landed at this Eastern Province port in September 1933. :: Jubail
+The Dammam Dome was the first geological structure explored. It is a hill also called this. :: Jabal Dhahran
+The famous 'Seven Wells' saga: Dammam No. 7 kept flowing until this year. :: 1982
+Dammam No. 7 produced about this many million barrels over its life. :: About 32 million
+The British company that first held a concession in Eastern Arabia in 1923. :: Eastern and General Syndicate (Frank Holmes)
+The New Zealander known as 'Abu Naft' who sought oil in Arabia in the 1920s. :: Frank Holmes
+The first Aramco aircraft used for geological mapping in 1934. :: Fairchild 71
+The Aramco company town built in 1940s around oil processing, west of Dhahran. :: Abqaiq camp
+The Aramco town on the Gulf for refinery workers. :: Ras Tanura (Najmah)
+The Aramco town in the north of the Eastern Province near Safaniya. :: Tanajib
+The year Saudi Aramco took full control of the Aramco concession. :: 1980
+Aramco's cultural magazine published since 1949. :: AramcoWorld (Saudi Aramco World)
+The first Saudi president of Aramco after full nationalisation. :: Ali Al-Naimi
+The CEO of Aramco since 2015. :: Amin Nasser
+The Saudi minister of energy since 2019. :: Prince Abdulaziz bin Salman
+The first oil minister of Saudi Arabia, appointed in 1960. :: Abdullah Tariki
+Abdullah Tariki co-founded this organisation. :: OPEC
+The Saudi oil embargo of 1973 was linked to this war. :: October (Yom Kippur) War
+The 1973 embargo quadrupled oil prices to about this many dollars a barrel. :: About $12
+The 2019 drone and missile attack hit Abqaiq and this oil field. :: Khurais
+Khurais is one of the largest oil field projects in the world, opened in this year. :: 2009
+The Aramco gas–oil separation plant is called this, by its short name. :: GOSP
+Saudi Arabia burns a lot of crude oil in summer to meet this demand. :: Air-conditioning electricity demand
+The Saudi Electricity Company was formed in 2000 by merging this many regional companies. :: Ten (SCECOs)
+The Eastern Province regional electricity company before the merger. :: SCECO East
+The Saudi grid operating frequency. :: 60 Hz
+The Saudi distribution voltage changed from 220/127 V to this standard. :: 230/400 V
+The Saudi utilities regulator. :: Water and Electricity Regulatory Authority (WERA)
+The GCC power grid interconnection was completed in this year. :: 2009
+The GCC Interconnection's main HVDC back-to-back station in Saudi Arabia is at this place. :: Al Fadhili
+The Saudi–Egyptian power interconnection uses this technology. :: HVDC
+The largest Saudi PV plant under construction in Mecca region in the 2020s, named after a city. :: Shuaibah Solar
+Saudi Arabia's first nuclear research reactor is being built at this institution. :: KACST (Low Power Research Reactor)
+The famous Saudi rock art site in Ha'il listed by UNESCO in 2015. :: Rock Art in the Hail Region (Jubbah and Shuwaymis)
+The neolithic stone structures in north-western Saudi Arabia shaped like rectangles, older than the pyramids. :: Mustatils
+The 'camel sculptures' carved in rock near Al Jouf, about 7,000 years old. :: Camel Site
+The ancient Kingdom of Dedan and Lihyan was centred in this valley. :: AlUla
+The Nabataean capital was Petra; their southern city in Saudi Arabia is this. :: Hegra
+The oldest known Arabic inscription, in the Nabataean script near Al-Ula, dated 267 CE. :: Raqush inscription
+The ancient incense trade route ran through this western Saudi region. :: Hejaz
+The Saudi city historically known as Yathrib. :: Madinah
+The pre-Islamic market town near Taif famous for poetry contests. :: Souq Okaz
+The famous pre-Islamic poems hung on the Kaaba, according to tradition. :: Mu'allaqat
+The Bedouin poetry form in colloquial Arabic. :: Nabati poetry
+The Saudi national poet who wrote many national songs, also known as Badr bin Abdulmohsen. :: Prince Badr bin Abdulmohsen
+The Saudi singer known as 'the Voice of the Earth'. :: Talal Maddah
+The Saudi singer known as 'the artist of the Arabs'. :: Mohammed Abdu
+The first Saudi feature film to be shot entirely in Saudi Arabia, by Haifaa al-Mansour. :: Wadjda
+The Saudi film festival held in Jeddah since 2021. :: Red Sea International Film Festival
+The Saudi film festival in Dhahran organised by Ithra. :: Saudi Film Festival
+The Saudi author of the novel 'Cities of Salt' about oil in the Gulf. :: Abdul Rahman Munif
+'Cities of Salt' is set in a fictional town based on this city. :: Dhahran
+The Saudi woman who won the International Prize for Arabic Fiction in 2011. :: Raja Alem
+The novel by Raja Alem that won that prize. :: The Dove's Necklace
+The Saudi poet-diplomat who wrote 'An Apartment Called Freedom' and was ambassador to the UK. :: Ghazi Al-Gosaibi
+Ghazi Al-Gosaibi was born in this Eastern Province city. :: Al-Ahsa (Hofuf)
+Ghazi Al-Gosaibi's first ministerial post, in 1975. :: Minister of Industry and Electricity
+The famous Saudi merchant families of the Eastern Province include the Kanoo, Al-Gosaibi and this family. :: Al-Zamil
+Zamil Group, a major Eastern Province company, is headquartered in this city. :: Al Khobar
+The Eastern Province's first hospital built by Aramco in Dhahran opened in this decade. :: 1940s
+The Johns Hopkins Aramco Healthcare joint venture started in this year. :: 2014
+The King Fahd Specialist Hospital in the Eastern Province is in this city. :: Dammam
+The Saudi university hospital in Al Khobar run by Imam Abdulrahman bin Faisal University. :: King Fahd Hospital of the University
+The Al Khobar shopping mall and tower near the corniche. :: Al Rashid Mall
+The Half Moon Bay is a famous beach near this city. :: Al Khobar (south of Dhahran)
+The Eastern Province's Salwa Bay borders this country. :: Qatar
+The planned canal along the Qatar border was named this project. :: Salwa Canal (Salwa Marine Canal)
+The traditional Hasawi donkey breed is famous in this oasis. :: Al-Ahsa
+The Hasawi rice variety, red and grown with spring water, comes from here. :: Al-Ahsa
+The Ahsa oasis has about this many palm trees. :: About 2.5 to 3 million
+The Ahsa oasis is in the Guinness World Records as the largest self-contained oasis in the world since this year. :: 2020
+Al-Ahsa was named Capital of Arab Tourism in this year. :: 2019
+Al-Ahsa joined UNESCO Creative Cities for crafts and folk art in this year. :: 2015
+The Ottoman-era railway that did not reach the Eastern Province but ended in Madinah. :: Hejaz Railway
+The Hejaz Railway opened to Madinah in this year. :: 1908
+The British explorer who crossed the Rub' al Khali in the 1940s. :: Wilfred Thesiger
+The first Westerner to cross the Rub' al Khali, in 1931. :: Bertram Thomas
+The British explorer and adviser to King Abdulaziz who became Abdullah Philby. :: Harry St John Philby
+The Danish expedition that studied Dilmun sites in Bahrain and Eastern Arabia in the 1950s. :: Danish Archaeological Expedition (Bibby and Glob)
+The pottery-rich mounds near Dhahran are burial sites from this civilisation. :: Dilmun
+The archaeological site near Al-Ahsa called 'Ain Qannas is one of the oldest of this period. :: Neolithic (Ubaid period)
+Painted pottery from Mesopotamia's Ubaid culture was found along this coast. :: The Eastern Province Gulf coast
+The 'Sabkha' landscape common on the Eastern Province coast is this. :: Salt flat

@@ -1,0 +1,514 @@
+id: dsa
+name: Data Structures & Algorithms
+nameAr: هياكل البيانات والخوارزميات
+group: cces
+
+## 100
+The data structure that stores items in numbered slots next to each other in memory. :: Array
+The position number used to reach an item in an array. :: Index
+The index of the first item in an array in most programming languages. :: 0
+The piece of a linked list that holds one value and a link. :: Node
+The link in a linked list node that points to the following node. :: Next pointer
+The first node of a linked list. :: Head
+The last node of a linked list. :: Tail
+A stack of plates in a cafeteria works like this data structure. :: Stack
+A line of people waiting at a bank works like this data structure. :: Queue
+Adding an item to the back of a queue. :: Enqueue
+Removing an item from the front of a queue. :: Dequeue
+Looking at the top item of a stack without removing it. :: Peek
+The top node of a tree, which has no parent. :: Root
+A tree node with no children. :: Leaf
+A tree in which each node has at most two children. :: Binary tree
+A collection of points joined by lines, used to model road maps. :: Graph
+The points of a graph. :: Vertices (nodes)
+The lines that join the points of a graph. :: Edges
+A graph whose edges have a direction, like one-way streets. :: Directed graph
+A graph whose edges carry numbers such as distances. :: Weighted graph
+The search that checks every item one by one from the start. :: Linear search
+The search that halves a sorted list at each step. :: Binary search
+Arranging items into order, such as smallest to largest. :: Sorting
+Order from smallest to largest. :: Ascending
+Order from largest to smallest. :: Descending
+The notation used to describe how an algorithm's running time grows. :: Big O notation
+The Big O of an algorithm that takes the same time whatever the input size. :: O(1)
+The Big O of looking at every item in a list once. :: O(n)
+The Big O of two nested loops over the same list. :: O(n²)
+The kind of complexity that measures how much memory an algorithm uses. :: Space complexity
+The kind of complexity that measures how long an algorithm takes. :: Time complexity
+The case in recursion that stops the function calling itself. :: Base case
+The mathematical function often written recursively as n × f(n − 1). :: Factorial
+The number sequence 0, 1, 1, 2, 3, 5, 8, often used to teach recursion. :: Fibonacci sequence
+The next number after 0, 1, 1, 2, 3, 5, 8 in the Fibonacci sequence. :: 13
+The value of 5 factorial. :: 120
+The puzzle of moving a stack of discs between three pegs, used to teach recursion. :: Tower of Hanoi
+The minimum number of moves to solve the Tower of Hanoi with 3 discs. :: 7
+The data structure of key and value pairs called a dictionary in Python. :: Map (dictionary)
+The part of a key–value pair used to look up the value. :: Key
+A collection that holds no duplicate items. :: Set
+A list that can grow and shrink, like Python's list or Java's ArrayList. :: Dynamic array
+A table of rows and columns stored as an array of arrays. :: 2D array (matrix)
+A sequence of characters, like a word or sentence. :: String
+The number of items in a list or characters in a string. :: Length
+The "first in, first out" rule is shortened to these four letters. :: FIFO
+The "last in, first out" rule is shortened to these four letters. :: LIFO
+The Undo button in an editor is usually built with this data structure. :: Stack
+A printer handling jobs in arrival order uses this data structure. :: Queue
+The browser Back button is usually built with this data structure. :: Stack
+A linked list where each node links both forwards and backwards. :: Doubly linked list
+A linked list whose last node links back to the first. :: Circular linked list
+The value of a pointer that points to nothing. :: Null
+The relationship between a node and the node directly above it in a tree. :: Parent
+Nodes in a tree that share the same parent. :: Siblings
+The number of edges on the longest path from the root to a leaf. :: Height (of a tree)
+The tree walk that visits left subtree, node, then right subtree. :: In-order traversal
+The tree walk that visits the node before its subtrees. :: Pre-order traversal
+The tree walk that visits the node after its subtrees. :: Post-order traversal
+The tree walk that visits nodes level by level. :: Level-order traversal
+An in-order walk of a binary search tree gives the values in this order. :: Sorted order
+The structure that shows a family's generations is an example of this data structure. :: Tree
+A path in a graph that starts and ends at the same vertex. :: Cycle
+A graph in which every vertex can be reached from every other. :: Connected graph
+The number of edges touching a vertex. :: Degree
+A grid of 0s and 1s that shows which vertices are joined. :: Adjacency matrix
+A list for each vertex of the vertices it is joined to. :: Adjacency list
+The sort that repeatedly finds the smallest item and moves it to the front. :: Selection sort
+The sort that swaps neighbouring items until no swaps are needed. :: Bubble sort
+The sort that splits a list in half, sorts each half, and merges them. :: Merge sort
+The item a quicksort chooses to split the list around. :: Pivot
+A sort that keeps equal items in their original order is called this. :: Stable
+A sort that needs no extra memory beyond the input is called this. :: In-place
+The strategy of splitting a problem into smaller parts, solving them, and combining. :: Divide and conquer
+The strategy of always taking the best-looking choice right now. :: Greedy algorithm
+The strategy of trying every possible answer. :: Brute force
+The strategy of storing answers to subproblems so they are not solved twice. :: Dynamic programming
+Saving the results of function calls to reuse them. :: Memoisation
+A step-by-step description of an algorithm in plain, code-like language. :: Pseudocode
+A diagram of an algorithm drawn with boxes and arrows. :: Flowchart
+The flowchart shape used for a yes/no decision. :: Diamond
+The flowchart shape used for start and end. :: Oval (terminator)
+The Big O of binary search. :: O(log n)
+The maximum number of guesses binary search needs to find a number from 1 to 100. :: 7
+A loop inside another loop. :: Nested loop
+A loop that never stops because its condition stays true. :: Infinite loop
+The error when an index is outside the array's range. :: Index out of bounds
+The Persian mathematician whose name gave us the word "algorithm". :: Al-Khwarizmi
+The ancient Greek method for finding the greatest common divisor of two numbers. :: Euclidean algorithm
+The greatest common divisor of 12 and 18. :: 6
+The ancient method for finding all primes up to a limit by crossing out multiples. :: Sieve of Eratosthenes
+The smallest prime number. :: 2
+A data structure used for autocomplete that stores words letter by letter in a tree. :: Trie
+The data structure a GPS app uses to model roads and junctions. :: Graph
+The problem of finding the quickest route between two places on a map. :: Shortest path problem
+A function that turns a key into an index in a table. :: Hash function
+Two keys that hash to the same index cause this. :: Collision
+The step-by-step check of an algorithm by hand, writing down each variable. :: Dry run (trace table)
+The name for the input size in Big O notation. :: n
+An algorithm must always finish after a finite number of steps; this property is called this. :: Finiteness
+
+## 200
+The Big O of finding an item in a balanced binary search tree. :: O(log n)
+The Big O of finding an item in a very unbalanced binary search tree, shaped like a list. :: O(n)
+The Big O of adding an item to the end of a dynamic array, on average. :: O(1) (amortised)
+The Big O of inserting at the front of an array. :: O(n)
+The Big O of inserting at the head of a linked list. :: O(1)
+The Big O of reaching the k-th item of a linked list. :: O(k) (linear)
+The Big O of reaching any item in an array by its index. :: O(1)
+The usual growth factor when a dynamic array runs out of room, in many languages. :: 2 (doubling)
+The data structure that keeps the smallest item at the top, ready to remove. :: Min-heap
+The data structure that keeps the largest item at the top. :: Max-heap
+The shape rule of a binary heap: every level full except perhaps the last, filled left to right. :: Complete binary tree
+In an array-based heap starting at index 1, the left child of node i is at this index. :: 2i
+In an array-based heap starting at index 1, the parent of node i is at this index. :: i/2 (rounded down)
+The Big O of removing the top item from a binary heap. :: O(log n)
+The Big O of building a heap from n items with the bottom-up method. :: O(n)
+The tree in which every node's left subtree holds smaller keys and right subtree larger. :: Binary search tree
+The difference in height between a node's subtrees, used by AVL trees. :: Balance factor
+The largest balance factor an AVL tree allows. :: 1
+The operation that restructures a tree to restore balance. :: Rotation
+The colours used to mark the nodes of a red–black tree. :: Red and black
+The colour of the root of a red–black tree. :: Black
+The tree used by databases and file systems that keeps many keys in each node. :: B-tree
+The B-tree variant that keeps all data in its leaves, linked together. :: B+ tree
+The tree that stores intervals of an array to answer range sums quickly. :: Segment tree
+The tree also called a Binary Indexed Tree. :: Fenwick tree
+The hash table method that keeps colliding keys in a linked list at each slot. :: Separate chaining
+The hash table method that searches for another empty slot on a collision. :: Open addressing
+The open-addressing method that tries the next slot, then the next. :: Linear probing
+The clumping of filled slots that linear probing suffers from. :: Primary clustering
+The ratio of stored items to slots in a hash table. :: Load factor
+The worst-case Big O of a hash table lookup when every key collides. :: O(n)
+The graph search that uses a queue. :: Breadth-first search (BFS)
+The graph search that uses a stack or recursion. :: Depth-first search (DFS)
+BFS finds shortest paths in graphs whose edges are like this. :: Unweighted
+The algorithm for shortest paths from one vertex when no edge weights are negative. :: Dijkstra's algorithm
+The Dutch computer scientist who published his shortest-path algorithm in 1959. :: Edsger Dijkstra
+The shortest-path algorithm that also handles negative edge weights. :: Bellman–Ford
+The algorithm that finds shortest paths between every pair of vertices with three nested loops. :: Floyd–Warshall
+The search algorithm used in games and maps that adds a heuristic to Dijkstra's idea. :: A* search
+A tree that connects all vertices of a weighted graph with the least total weight. :: Minimum spanning tree
+The minimum spanning tree algorithm that adds the cheapest edge that does not form a cycle. :: Kruskal's algorithm
+The minimum spanning tree algorithm that grows one tree from a starting vertex. :: Prim's algorithm
+The data structure Kruskal's algorithm uses to check whether two vertices are already joined. :: Union–find (disjoint set)
+The two tricks that make union–find almost constant time: union by rank and this. :: Path compression
+A directed graph with no cycles, shortened to three letters. :: DAG
+The ordering of a DAG in which every edge goes from earlier to later. :: Topological sort
+The number of edges in a tree with n vertices. :: n − 1
+The maximum number of edges in a simple undirected graph with n vertices. :: n(n − 1)/2
+A graph with very few edges compared with the maximum. :: Sparse graph
+The graph representation that uses less memory for sparse graphs. :: Adjacency list
+The graph whose vertices split into two groups with edges only between the groups. :: Bipartite graph
+The famous 1736 problem of seven bridges that started graph theory. :: Seven Bridges of Königsberg
+The mathematician who solved the Königsberg bridge problem. :: Leonhard Euler
+A path that uses every edge of a graph exactly once. :: Euler path
+A cycle that visits every vertex exactly once. :: Hamiltonian cycle
+The problem of finding the shortest round trip through every city once. :: Travelling salesman problem
+The Big O of merge sort in the worst case. :: O(n log n)
+The Big O of quicksort in the worst case. :: O(n²)
+The Big O of quicksort on average. :: O(n log n)
+The Big O of insertion sort on a list that is already sorted. :: O(n)
+The sort that is fast on nearly sorted data and is used inside hybrid sorts for small parts. :: Insertion sort
+The hybrid of merge sort and insertion sort used by Python and Java for objects. :: Timsort
+The software engineer who created Timsort in 2002. :: Tim Peters
+The hybrid sort used by the C++ standard library's sort function, mixing quicksort, heapsort and insertion sort. :: Introsort
+The sort that gaps items far apart, then closer, invented in 1959. :: Shell sort
+The sort that drops numbers into ranges and sorts each range. :: Bucket sort
+Merge sort is stable; this fast in-place sort usually is not. :: Quicksort
+The extra memory merge sort needs on an array. :: O(n)
+The problem of choosing items with weights and values to fit a bag's capacity. :: Knapsack problem
+The dynamic programming problem of the fewest coins to make an amount. :: Coin change problem
+The dynamic programming problem of the longest sequence two strings share in order. :: Longest common subsequence
+The number of edits to turn one word into another, used in spell checkers. :: Edit distance (Levenshtein distance)
+The edit distance between "cat" and "cut". :: 1
+The algorithm design method that builds a solution step by step and undoes bad choices. :: Backtracking
+The classic backtracking puzzle of placing queens so none attack each other. :: Eight queens puzzle
+The number of solutions to the eight queens puzzle. :: 92
+The number of ways to arrange 4 different books on a shelf. :: 24
+The number of subsets of a set with n items. :: 2ⁿ
+The Big O of the naive recursive Fibonacci function. :: O(2ⁿ) (exponential)
+The Big O of Fibonacci with memoisation. :: O(n)
+The approach of dynamic programming that fills a table from the smallest subproblems up. :: Bottom-up (tabulation)
+The two-pointer trick for checking whether a linked list has a loop, using a slow and a fast pointer. :: Floyd's cycle detection (tortoise and hare)
+The technique of keeping a moving range over an array to solve problems in one pass. :: Sliding window
+The problem of finding the contiguous subarray with the largest sum. :: Maximum subarray problem
+The linear-time algorithm for the maximum subarray problem. :: Kadane's algorithm
+The queue where both ends allow adding and removing. :: Deque (double-ended queue)
+The queue whose last slot wraps around to the first in a fixed array. :: Circular queue (ring buffer)
+A stack can be used to check that these are balanced in an expression. :: Brackets (parentheses)
+The notation 3 4 + that puts operators after operands, evaluated with a stack. :: Postfix (reverse Polish notation)
+The algorithm by Dijkstra that converts infix expressions to postfix. :: Shunting-yard algorithm
+The memory area that stores function calls and local variables. :: Call stack
+The kind of analysis that averages the cost of operations over a long sequence. :: Amortised analysis
+The notation for a lower bound on growth, the Greek letter omega. :: Big Omega (Ω)
+The notation for a tight bound, the Greek letter theta. :: Big Theta (Θ)
+The equation that gives T(n) = 2T(n/2) + n for merge sort is called this. :: Recurrence relation
+The theorem used to solve divide-and-conquer recurrences. :: Master theorem
+An algorithm that uses random choices, like randomised quicksort. :: Randomised algorithm
+The fastest way to search a sorted array that is evenly spread, guessing the position. :: Interpolation search
+The data structure behind a priority queue in most libraries. :: Binary heap
+The class of problems whose answers can be checked quickly. :: NP
+
+## 300
+The data structure that gives O(log n) search, insert and delete using towers of linked lists and coin flips. :: Skip list
+The computer scientist who described the skip list in 1989. :: William Pugh
+The binary search tree that moves each accessed node to the root. :: Splay tree
+The inventors of the splay tree, Tarjan and this man. :: Daniel Sleator
+The tree that combines a binary search tree on keys with a heap on random priorities. :: Treap
+The probabilistic data structure that can say an item is "definitely not present" or "maybe present". :: Bloom filter
+A Bloom filter can give this kind of error, but never the other kind. :: False positive
+The man who proposed the Bloom filter in 1970. :: Burton Howard Bloom
+The probabilistic structure that estimates how many distinct items a stream contains. :: HyperLogLog
+The structure that estimates how often items appear in a stream, using several hash rows. :: Count–min sketch
+The hashing scheme that uses two tables and two hash functions, kicking keys out to the other table. :: Cuckoo hashing
+The open-addressing variant that steals slots from "richer" keys to reduce probe lengths. :: Robin Hood hashing
+The hash table probing that jumps 1, 4, 9, 16 slots ahead. :: Quadratic probing
+The probing that uses a second hash function to set the step size. :: Double hashing
+The ideal hash function for a fixed set of keys with no collisions at all. :: Perfect hash function
+The tree that stores all suffixes of a string for fast substring search. :: Suffix tree
+The sorted array of all suffixes of a string, a space-saving alternative to a suffix tree. :: Suffix array
+The linear-time string search algorithm that uses a failure table to avoid re-checking. :: Knuth–Morris–Pratt (KMP)
+The string search algorithm that compares from the end of the pattern and skips ahead. :: Boyer–Moore
+The algorithm that searches for many patterns at once using a trie with failure links. :: Aho–Corasick
+The algorithm that finds the longest palindromic substring in linear time. :: Manacher's algorithm
+The heap that supports decrease-key in O(1) amortised time, speeding up Dijkstra's algorithm. :: Fibonacci heap
+The Big O of Dijkstra's algorithm using a Fibonacci heap. :: O(E + V log V)
+The Big O of Dijkstra's algorithm using a binary heap. :: O((V + E) log V)
+The Big O of the Floyd–Warshall algorithm. :: O(V³)
+The Big O of the Bellman–Ford algorithm. :: O(VE)
+Bellman–Ford reports this when a cycle's total weight is below zero. :: Negative cycle
+The algorithm that finds strongly connected components with one depth-first search and a stack. :: Tarjan's algorithm
+The algorithm that finds strongly connected components with two depth-first searches. :: Kosaraju's algorithm
+A vertex whose removal disconnects a graph. :: Articulation point (cut vertex)
+An edge whose removal disconnects a graph. :: Bridge
+The maximum flow from source to sink equals the capacity of this. :: Minimum cut
+The method of finding maximum flow by repeatedly pushing flow along augmenting paths. :: Ford–Fulkerson method
+The version of Ford–Fulkerson that uses BFS to choose the shortest augmenting path. :: Edmonds–Karp algorithm
+The algorithm for maximum matching in bipartite graphs with O(E√V) time. :: Hopcroft–Karp algorithm
+The algorithm that solves the assignment problem in polynomial time, named after a nationality. :: Hungarian algorithm
+The algorithm by Gale and Shapley pairs people so no two prefer each other over their partners. :: Stable marriage algorithm
+The year Gale and Shapley published the stable matching algorithm. :: 1962
+The minimum spanning tree algorithm, the oldest known, published in 1926 for an electricity network. :: Borůvka's algorithm
+The Big O of Kruskal's algorithm, dominated by sorting the edges. :: O(E log E)
+The theorem that every planar map can be coloured with this many colours so no neighbours match. :: 4 (Four colour theorem)
+The year the four colour theorem was proved with a computer. :: 1976
+The problem of deciding whether a graph's vertices can be coloured with k colours is this kind of problem. :: NP-complete
+The first problem proved NP-complete, about true/false formulas. :: Boolean satisfiability (SAT)
+The theorem of 1971 that proved SAT is NP-complete. :: Cook–Levin theorem
+The open question of whether every quickly checkable problem is also quickly solvable. :: P versus NP
+The prize money in US dollars offered by the Clay Institute for solving P versus NP. :: 1,000,000
+The scientist who listed 21 NP-complete problems in 1972. :: Richard Karp
+A problem at least as hard as every problem in NP. :: NP-hard
+The problem proved undecidable by Alan Turing in 1936. :: Halting problem
+An algorithm guaranteed to give an answer within a fixed factor of the best. :: Approximation algorithm
+The simple 2-approximation for vertex cover takes both ends of each uncovered edge in this structure. :: Maximal matching
+The metaheuristic that slowly lowers a "temperature" to escape local minima. :: Simulated annealing
+The metaheuristic inspired by evolution, with crossover and mutation. :: Genetic algorithm
+The search that keeps only the best k partial solutions at each step. :: Beam search
+The game-tree search that skips branches that cannot change the result. :: Alpha–beta pruning
+The game-tree rule where one player maximises the score and the other minimises it. :: Minimax
+The search method that plays random games to estimate moves, used by AlphaGo. :: Monte Carlo tree search
+The randomised algorithm that always gives the right answer but has a random running time. :: Las Vegas algorithm
+The randomised algorithm that runs in fixed time but may give a wrong answer with small probability. :: Monte Carlo algorithm
+The randomised prime test widely used in cryptography. :: Miller–Rabin test
+The 2002 algorithm that proved primality can be tested in polynomial time. :: AKS primality test
+The algorithm that selects the k-th smallest item in linear worst-case time using groups of five. :: Median of medians
+The quicksort-like algorithm for finding the k-th smallest item. :: Quickselect
+The inventor of quicksort and quickselect. :: Tony Hoare
+The partition scheme of quicksort that uses one pointer moving left to right, named after a computer scientist. :: Lomuto partition
+The variant of quicksort that splits into three parts: less than, equal to and greater than the pivot. :: Three-way partitioning (Dutch national flag)
+The problem of sorting red, white and blue items in one pass, posed by Dijkstra. :: Dutch national flag problem
+The sorting algorithm that uses O(n log n) comparisons in the worst case and O(1) extra space. :: Heapsort
+The algorithm that multiplies big numbers faster than the schoolbook method by splitting them in half. :: Karatsuba algorithm
+The year Karatsuba found his multiplication algorithm. :: 1960
+The algorithm that multiplies matrices with 7 multiplications instead of 8 per split. :: Strassen algorithm
+The algorithm that computes a discrete Fourier transform in O(n log n). :: Fast Fourier transform (FFT)
+The two mathematicians who published the FFT in 1965. :: Cooley and Tukey
+The trick of computing a large power by repeated squaring. :: Exponentiation by squaring
+The algorithm that finds integers x and y with ax + by = gcd(a, b). :: Extended Euclidean algorithm
+The algorithm that finds the convex hull by sorting points by angle. :: Graham scan
+The convex hull algorithm also called the gift-wrapping algorithm. :: Jarvis march
+The technique of sweeping a line across the plane to solve geometry problems. :: Sweep line algorithm
+The data structure for nearest-neighbour search that splits space by alternating axes. :: k-d tree
+The tree that splits 2D space into four parts at each node. :: Quadtree
+The tree used in databases for indexing rectangles and maps. :: R-tree
+The compression algorithm that gives frequent symbols shorter codes using a tree. :: Huffman coding
+The student who invented Huffman coding as a term paper in 1952. :: David Huffman
+The compression method behind ZIP files that replaces repeats with back-references. :: LZ77 (DEFLATE)
+The cache-replacement policy that removes the least recently used item, built with a hash map and a linked list. :: LRU cache
+The data structure that lets you query past versions after updates. :: Persistent data structure
+The analysis method that stores "credit" in the data structure to pay for later costly steps. :: Potential method
+A function that grows so slowly it is below 5 for any practical input, from union–find's analysis. :: Inverse Ackermann function
+The model of computation used to prove lower bounds on comparison sorting. :: Decision tree
+The minimum height of a decision tree for sorting n items is about log₂ of this. :: n!
+The pair of structures used to keep the running median of a stream. :: Two heaps (a max-heap and a min-heap)
+The Big O of checking an item in a Bloom filter that uses k hash functions. :: O(k)
+The search that finds a value in a function that first rises and then falls by cutting thirds. :: Ternary search
+The number of distinct binary search trees with 3 keys. :: 5
+The number sequence that counts binary trees, named after a Belgian mathematician. :: Catalan numbers
+The algorithm for evaluating a polynomial with the fewest multiplications. :: Horner's method
+The technique that answers range-minimum queries in O(1) after O(n log n) preprocessing. :: Sparse table
+The technique that splits an array into √n blocks to answer queries. :: Square root decomposition
+The offline query ordering trick for range queries, named after a Chinese competitive programmer. :: Mo's algorithm
+
+## 400
+The author of "The Art of Computer Programming", first volume published in 1968. :: Donald Knuth
+The typesetting system Donald Knuth created because he disliked the look of his printed books. :: TeX
+The four authors of the textbook "Introduction to Algorithms" are known by these initials. :: CLRS
+The computer scientist who wrote "Algorithms + Data Structures = Programs" in 1976. :: Niklaus Wirth
+The Turing Award winners of 1986 for the design and analysis of algorithms and data structures: Tarjan and this man. :: John Hopcroft
+The award known as the "Nobel Prize of computing". :: Turing Award
+The first person to receive the Turing Award, in 1966. :: Alan Perlis
+The computer scientist who invented the A* search algorithm with Nils Nilsson and Bertram Raphael, at SRI in 1968. :: Peter Hart
+The robot for which A* search was first developed. :: Shakey
+The year Dijkstra's shortest-path paper was published. :: 1959
+Dijkstra said he designed his algorithm in about this many minutes, at a café in Amsterdam. :: 20
+The computer scientist who invented merge sort in 1945. :: John von Neumann
+The computer scientist known for the saying "premature optimisation is the root of all evil". :: Donald Knuth
+The computer scientist who coined the term "dynamic programming" in the 1950s. :: Richard Bellman
+The Russian mathematicians whose 1962 paper introduced AVL trees: Adelson-Velsky and this man. :: Evgenii Landis
+The computer scientist who invented the B-tree with Edward McCreight at Boeing in 1970. :: Rudolf Bayer
+The computer scientist who invented the red–black tree's ancestor, the "symmetric binary B-tree", in 1972. :: Rudolf Bayer
+The computer scientists who named red–black trees in 1978: Guibas and this man. :: Robert Sedgewick
+The left-leaning red–black tree was introduced in 2008 by this computer scientist. :: Robert Sedgewick
+The hashing method whose average cost Donald Knuth first analysed in 1963. :: Linear probing
+The hash function family chosen at random to give good average behaviour against any input. :: Universal hashing
+The computer scientists who introduced universal hashing in 1977: Carter and this man. :: Mark Wegman
+The fast non-cryptographic hash function family whose name stands for "multiply, rotate". :: MurmurHash
+The hash table attack that sends many keys with the same hash to slow a server. :: Hash flooding (HashDoS)
+The keyed hash function that Python and Rust use for dictionaries to resist hash flooding. :: SipHash
+The year Python made dictionaries keep insertion order as a language guarantee, in version 3.7. :: 2018
+The approach Python's dictionary uses for collisions: chaining or open addressing. :: Open addressing
+The order in which Java's HashMap stores long chains after Java 8 to cap them at O(log n). :: Red–black tree (treeified bins)
+The minimum chain length that makes Java 8's HashMap turn a bucket into a tree. :: 8
+The default load factor of Java's HashMap before it resizes. :: 0.75
+The default initial capacity of Java's HashMap. :: 16
+The sorting algorithm used by Java's Arrays.sort for primitives since Java 7. :: Dual-pivot quicksort
+The Russian programmer who invented dual-pivot quicksort. :: Vladimir Yaroslavskiy
+The minimum run length Timsort aims for, roughly, before merging. :: 32 to 64
+The merging technique in Timsort that speeds up merges when one run keeps winning. :: Galloping
+The sort network that sorts in O(log² n) parallel steps, invented by Ken Batcher in 1968. :: Bitonic sorter
+The 1983 sorting network that sorts in O(log n) depth, named after its three inventors. :: AKS sorting network
+The time of Chazelle's minimum spanning tree algorithm involves this slow-growing function. :: Inverse Ackermann function
+The 1995 randomised algorithm that finds a minimum spanning tree in expected linear time: Karger, Klein and this man. :: Robert Tarjan
+The algorithm that finds a minimum cut in a graph by randomly merging edges. :: Karger's algorithm
+The Big O of Hopcroft–Tarjan planarity testing. :: O(n)
+The algorithm that finds all-pairs shortest paths faster on sparse graphs by reweighting with Bellman–Ford, then running Dijkstra. :: Johnson's algorithm
+The year Orlin published an O(VE) maximum flow algorithm. :: 2013
+The 2022 breakthrough gave a maximum flow algorithm whose running time is described this way. :: Almost-linear time
+The Dutch computer scientist who invented the semaphore. :: Edsger Dijkstra
+The computer scientist who invented the hash table idea in an IBM memo in 1953. :: Hans Peter Luhn
+The checksum formula for credit card numbers invented by Hans Peter Luhn. :: Luhn algorithm
+The sorting algorithm that performs best on data loaded from tape drives by merging long runs. :: External merge sort (polyphase merge)
+The model of computation that counts transfers between fast and slow memory. :: External memory model (I/O model)
+Algorithms that perform well on any cache size without knowing it are called this. :: Cache-oblivious algorithms
+The researcher who introduced cache-oblivious algorithms in 1999 with Leiserson, Prokop and Ramachandran. :: Matteo Frigo
+The layout that stores a binary tree in memory by recursive blocks for cache efficiency. :: Van Emde Boas layout
+The tree that supports predecessor queries in O(log log U) time. :: Van Emde Boas tree
+The trie-based structure that answers predecessor queries with hashing in O(log log U): x-fast and this. :: Y-fast trie
+The compressed trie in which nodes with one child are merged. :: Radix tree (Patricia trie)
+The acronym PATRICIA stands for "Practical Algorithm to Retrieve Information Coded in" this. :: Alphanumeric
+The data structure that keeps the sum of any range and allows updates in O(log n) using the lowest set bit. :: Fenwick tree
+The bit trick i & (−i) gives this part of i. :: Lowest set bit
+The man who described the Fenwick tree in 1994. :: Peter Fenwick
+The data structure that answers lowest common ancestor queries using an Euler tour and range-minimum queries. :: Sparse table (Euler tour technique)
+The technique that answers LCA queries by jumping up powers of two. :: Binary lifting
+The technique that splits a tree into chains so path queries take O(log² n). :: Heavy–light decomposition
+The tree data structure for dynamic trees with link and cut operations, by Sleator and Tarjan. :: Link–cut tree
+The data structure that supports merge of two heaps in O(log n), favouring the shorter right spine. :: Leftist heap
+The heap made from a forest of binomial trees. :: Binomial heap
+The number of nodes in a binomial tree of order k. :: 2ᵏ
+The heap whose amortised bounds are easy to code and match Fibonacci heaps in practice, built by "pairing" roots. :: Pairing heap
+The amortised Big O of decrease-key in a Fibonacci heap. :: O(1)
+Deciding whether some subset of numbers adds up to a target belongs to this complexity class. :: NP-complete (subset sum)
+The pseudo-polynomial time of the dynamic programming solution to 0/1 knapsack. :: O(nW)
+The scheme that solves knapsack within (1 − ε) of best in polynomial time. :: FPTAS (fully polynomial-time approximation scheme)
+The best approximation ratio for metric travelling salesman known for decades, from Christofides's 1976 algorithm. :: 1.5
+The greedy algorithm for set cover gives this approximation ratio, about ln n. :: H(n) (harmonic number)
+The complexity class of problems solvable with polynomial memory. :: PSPACE
+The complexity class of problems with fast randomised algorithms that err with probability under one third. :: BPP
+The 1979 algorithm that first showed linear programming can be solved in polynomial time. :: Ellipsoid method
+The man who developed the ellipsoid method for linear programming. :: Leonid Khachiyan
+The 1984 interior-point method for linear programming by Narendra Karmarkar. :: Karmarkar's algorithm
+The algorithm for linear programming invented by George Dantzig in 1947. :: Simplex method
+The time complexity of the simplex method in the worst case, shown by Klee and Minty. :: Exponential
+The idea from Spielman and Teng that explains why simplex is fast in practice. :: Smoothed analysis
+The theorem that no algorithm beats all others when averaged over all problems. :: No free lunch theorem
+The 3SUM conjecture says no algorithm solves 3SUM much faster than this. :: O(n²)
+The hypothesis that SAT cannot be solved in time much below 2ⁿ. :: Strong exponential time hypothesis (SETH)
+The computer scientist who announced in 2015 that graph isomorphism is in quasi-polynomial time. :: László Babai
+The AKS result proved that primality testing is in P; its authors were Agrawal, Kayal and this man. :: Nitin Saxena
+The country where the AKS primality test was developed. :: India
+The institute where Agrawal, Kayal and Saxena worked. :: IIT Kanpur
+The algorithm that factors integers in polynomial time on a quantum computer. :: Shor's algorithm
+The quantum search algorithm that finds an item among n in about √n steps. :: Grover's algorithm
+The year Peter Shor published his factoring algorithm. :: 1994
+The Big O lower bound on searching an unsorted list with a quantum computer. :: Ω(√n)
+The minimum number of moves that always suffices to solve any Rubik's Cube position, proved in 2010. :: 20
+The name given to the number 20 in the Rubik's Cube proof. :: God's number
+The computer scientist who invented heapsort in 1964. :: J. W. J. Williams
+The computer scientist who published Shell sort in 1959. :: Donald Shell
+The computer scientist who coined the name "trie", from the word "retrieval". :: Edward Fredkin
+The third member, with Newell and Simon, of the team that invented the linked list in the 1950s. :: Cliff Shaw
+The German number theorist who popularised Big O notation after Paul Bachmann introduced it. :: Edmund Landau
+The inventors of the Fibonacci heap in 1984: Fredman and this man. :: Robert Tarjan
+
+## 500
+The fewest nodes an AVL tree of height 4 can have, counting a single node as height 0. :: 12
+The number of distinct binary search trees that can be built from 4 different keys. :: 14
+The number of distinct binary search trees that can be built from 5 different keys. :: 42
+The maximum number of nodes in a binary tree of height 5, counting a single node as height 0. :: 63
+The number of leaves in a full binary tree with 15 internal nodes. :: 16
+The worst-case number of comparisons merge sort makes to sort 8 items. :: 17
+The minimum number of comparisons needed in the worst case to sort 5 items. :: 7
+The minimum number of comparisons needed to find both the smallest and the largest of 8 items. :: 10
+The minimum number of comparisons needed to find the second-largest of 8 items. :: 9
+The number of comparisons binary search needs in the worst case on a sorted array of 1,000 items. :: 10
+The number of inversions in the list 3, 1, 2. :: 2
+The maximum number of inversions in a list of 5 different numbers. :: 10
+The number of swaps bubble sort makes on a list equals the number of these in it. :: Inversions
+The number of moves needed to solve the Tower of Hanoi with 10 discs. :: 1,023
+The number of edges in a complete graph with 10 vertices. :: 45
+The number of spanning trees of a complete graph with 4 vertices. :: 16
+The formula n^(n−2) for the number of spanning trees of a complete graph is named after this mathematician. :: Arthur Cayley
+The theorem that counts spanning trees with a determinant of a matrix built from the graph. :: Kirchhoff's matrix tree theorem
+The number of colours needed to colour the vertices of a cycle with 5 vertices. :: 3
+The number of edges in a hypercube graph of dimension 4. :: 32
+The minimum possible height of a B-tree is achieved when every node is this. :: Full
+The maximum number of keys in a node of a B-tree of order 5, where order means maximum children. :: 4
+The number of nodes in a perfect binary tree with 4 levels. :: 15
+The optimal number of hash functions for a Bloom filter with 10 bits per item, rounded. :: 7
+The false positive rate of a Bloom filter with 10 bits per item and optimal hashing, roughly, in percent. :: 1
+The expected number of people needed for a 50 percent chance of a shared birthday, which explains hash collisions. :: 23
+The expected number of probes for a successful search in separate chaining with load factor 1, roughly. :: 1.5
+The amortised cost analysis of a dynamic array that doubles shows each append costs at most about this many copies. :: 3
+The growth factor used by CPython's list, roughly, instead of doubling. :: 1.125
+The growth factor commonly used by Microsoft's C++ vector implementation. :: 1.5
+The golden ratio is linked to the worst-case height of this balanced tree, about 1.44 log₂ n. :: AVL tree
+The maximum height of a red–black tree with n nodes is at most this multiple of log₂(n + 1). :: 2
+The recurrence T(n) = 2T(n/2) + n solves to this. :: Θ(n log n)
+The recurrence T(n) = T(n/2) + 1 solves to this. :: Θ(log n)
+The recurrence T(n) = 2T(n/2) + 1 solves to this. :: Θ(n)
+The recurrence T(n) = 4T(n/2) + n solves to this. :: Θ(n²)
+The recurrence T(n) = 3T(n/2) + n, from Karatsuba multiplication, solves to n to this power, to two decimals. :: 1.58
+The exponent in Strassen's matrix multiplication running time, to two decimals. :: 2.81
+The recurrence T(n) = T(n − 1) + n solves to this. :: Θ(n²)
+The recurrence T(n) = 2T(n − 1) + 1, from the Tower of Hanoi, solves to this. :: Θ(2ⁿ)
+The recurrence T(n) = T(n/5) + T(7n/10) + n, from median of medians, solves to this. :: Θ(n)
+The group size used in the classic median-of-medians algorithm. :: 5
+The sum 1 + 2 + 4 + … + 2ᵏ equals 2 to this power, minus one. :: k + 1
+The sum 1 + 1/2 + 1/3 + … + 1/n grows like this function. :: ln n (harmonic series)
+The expected number of comparisons randomised quicksort makes is about this multiple of n ln n. :: 2
+The probability that a random pivot gives a split no worse than 1 to 3. :: 1/2
+The expected height of a random binary search tree is this order. :: O(log n)
+The expected number of levels in a skip list with n items. :: O(log n)
+The probability used to promote a node to the next level in a standard skip list. :: 1/2
+The number of rotations a single insertion into an AVL tree needs at most, counting a double rotation as two. :: 2
+The number of rotations a single insertion into a red–black tree needs at most. :: 2
+The maximum number of rotations a single deletion from a red–black tree needs. :: 3
+The postfix form of the expression (2 + 3) × 4. :: 2 3 + 4 ×
+The value of the postfix expression 5 1 2 + 4 × + 3 −. :: 14
+The prefix form of the expression a + b × c. :: + a × b c
+The order in which a stack returns the items 1, 2, 3 pushed in that order. :: 3, 2, 1
+The number of different orders in which a stack can output 1, 2, 3 pushed in that order. :: 5
+The in-order traversal of a tree whose pre-order is A B C and post-order is B C A. :: B A C
+The traversal that, together with in-order, is enough to rebuild a binary tree. :: Pre-order (or post-order)
+The Huffman code length of the rarest symbol when four symbols have frequencies 1, 1, 2 and 4. :: 3
+The number of bits Huffman coding needs in total for frequencies 1, 1, 2 and 4. :: 14
+The lower bound on the average code length of any prefix code, named after the founder of information theory. :: Shannon entropy
+The edit distance between "kitten" and "sitting". :: 3
+The length of the longest common subsequence of "ABCBDAB" and "BDCABA". :: 4
+The length of the longest increasing subsequence of 10, 9, 2, 5, 3, 7, 101, 18. :: 4
+The fewest coins needed to make 6 with coins of 1, 3 and 4. :: 2
+The number of ways to climb 5 stairs taking 1 or 2 steps at a time. :: 8
+The number of paths from one corner of a 3 by 3 grid of squares to the opposite corner, moving only right or down. :: 20
+The best time known for the longest increasing subsequence using patience sorting. :: O(n log n)
+The card game that gives its name to an algorithm for the longest increasing subsequence. :: Patience
+The maximum subarray sum of −2, 1, −3, 4, −1, 2, 1, −5, 4. :: 6
+The greatest common divisor of 1,071 and 462. :: 21
+The number of division steps Euclid's algorithm takes on consecutive Fibonacci numbers is the worst case, proved by this French mathematician in 1844. :: Gabriel Lamé
+The number of primes below 100. :: 25
+The Big O of the Sieve of Eratosthenes. :: O(n log log n)
+The value of 2¹⁰. :: 1,024
+The value of log₂ of one million, rounded to the nearest whole number. :: 20
+The number of binary strings of length 8. :: 256
+The number of permutations of 5 items. :: 120
+The number of ways to choose 3 items from 10. :: 120
+The shortest path length from corner to opposite corner of a cube graph, in edges. :: 3
+The shortest-path algorithm that can give wrong answers when an edge has a negative weight, because it never revisits finished vertices. :: Dijkstra's algorithm
+The number of passes over all edges that Bellman–Ford needs on a graph with V vertices. :: V − 1
+The matrix power in which entry (i, j) counts the walks of length k from i to j. :: k-th power of the adjacency matrix
+The theorem that a graph has an Euler circuit exactly when it is connected and every vertex has this. :: Even degree
+The number of vertices of odd degree in any graph is always this. :: Even
+The theorem that a graph is bipartite exactly when it has no cycle of this kind. :: Odd length
+The theorem that the size of a maximum matching equals the size of a minimum vertex cover in bipartite graphs. :: Kőnig's theorem
+The theorem that gives the condition for a perfect matching in a bipartite graph, named after an English mathematician. :: Hall's marriage theorem
+The theorem that maximum flow equals minimum cut was proved in 1956 by Ford and this man. :: Delbert Fulkerson
+The formula V − E + F = 2 for planar graphs is named after this mathematician. :: Leonhard Euler
+The maximum number of edges in a planar graph with 10 vertices. :: 24
+The two graphs that Kuratowski's theorem says every non-planar graph contains: K₃,₃ and this. :: K₅
+The chromatic number of a complete graph with 6 vertices. :: 6
+The property of a hash function that a small change in input flips about half the output bits. :: Avalanche effect
+The FNV hash function is named after Fowler, Noll and this man. :: Kiem-Phong Vo
+The bit operation that tests whether a positive integer n is a power of two: n AND this equals zero. :: n − 1
+The bit operation that swaps two integers without a temporary variable, used three times. :: XOR
+The algorithm that counts set bits by repeatedly clearing the lowest one is named after this computer scientist. :: Brian Kernighan
+The data structure with operations "find" and "union" has this amortised cost per operation with both optimisations, written with the Greek letter alpha. :: O(α(n))

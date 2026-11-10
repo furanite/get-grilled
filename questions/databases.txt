@@ -1,0 +1,514 @@
+id: databases
+name: Databases
+nameAr: قواعد البيانات
+group: cces
+
+## 100
+An organised collection of data stored on a computer. :: Database
+The software that creates and manages databases, shortened to four letters. :: DBMS
+The language used to ask questions of a relational database. :: SQL
+SQL stands for this. :: Structured Query Language
+The grid of rows and columns that holds data in a relational database. :: Table
+One horizontal line of data in a table, describing a single item. :: Row (record)
+One vertical line of data in a table, holding one kind of value. :: Column (field)
+The column that uniquely identifies each row in a table. :: Primary key
+A column that points to the primary key of another table. :: Foreign key
+The SQL command that reads data from a table. :: SELECT
+The SQL command that adds a new row. :: INSERT
+The SQL command that changes existing rows. :: UPDATE
+The SQL command that removes rows. :: DELETE
+The SQL keyword that names the table to read from. :: FROM
+The SQL keyword that filters rows by a condition. :: WHERE
+The SQL keywords that sort the results. :: ORDER BY
+The SQL symbol that means "all columns". :: * (asterisk)
+The SQL command that makes a new table. :: CREATE TABLE
+The SQL command that removes a whole table. :: DROP TABLE
+The special marker for a missing or unknown value. :: NULL
+The data type for whole numbers. :: Integer
+The data type for text of varying length. :: VARCHAR
+The data type that is either true or false. :: Boolean
+The data type for calendar days. :: DATE
+The SQL function that counts rows. :: COUNT
+The SQL function that adds up a column. :: SUM
+The SQL function that gives the average of a column. :: AVG
+The SQL function that gives the largest value. :: MAX
+The SQL function that gives the smallest value. :: MIN
+The SQL keyword that removes duplicate rows from results. :: DISTINCT
+The SQL operation that combines rows from two tables using a related column. :: JOIN
+The SQL keyword that groups rows that share a value. :: GROUP BY
+The SQL keyword that sorts from largest to smallest. :: DESC
+The SQL keyword used with WHERE to match a text pattern. :: LIKE
+The wildcard that matches any number of characters in a LIKE pattern. :: % (percent sign)
+The SQL keyword that requires two conditions to both be true. :: AND
+The SQL keyword that requires at least one of two conditions to be true. :: OR
+The SQL keyword that limits how many rows are returned in MySQL and PostgreSQL. :: LIMIT
+The type of database that stores data in related tables. :: Relational database
+The popular open-source database with a dolphin logo. :: MySQL
+The open-source database with an elephant logo. :: PostgreSQL
+The database made by Microsoft for servers. :: SQL Server
+The simple desktop database in Microsoft Office. :: Access
+The company whose database shares its name and was co-founded by Larry Ellison. :: Oracle
+The tiny database engine built into phones and browsers, stored in a single file. :: SQLite
+The popular document database whose name comes from "humongous". :: MongoDB
+The data format MongoDB documents look like. :: JSON
+The term for databases that do not use the traditional table model. :: NoSQL
+A copy of data kept in case the original is lost. :: Backup
+The person who manages an organisation's databases, shortened to three letters. :: DBA
+A request for data from a database. :: Query
+A saved query that behaves like a virtual table. :: View
+The structure that speeds up searching a table, like the one at the back of a book. :: Index
+A rule on a column, such as "must not be empty". :: Constraint
+The constraint that stops a column being left empty. :: NOT NULL
+The constraint that stops two rows having the same value in a column. :: UNIQUE
+The value a column takes when none is given. :: Default value
+The feature that gives each new row the next number automatically. :: Auto-increment
+The four basic operations on data: create, read, update and delete, shortened to four letters. :: CRUD
+A diagram of entities and how they relate, shortened to two or three letters. :: ER diagram (ERD)
+In an ER diagram, a thing we store data about, such as Student. :: Entity
+In an ER diagram, a property of an entity, such as Name. :: Attribute
+The relationship type between one department and its many employees. :: One-to-many
+The relationship type between students and courses, where each can have many of the other. :: Many-to-many
+The relationship type between a person and their passport. :: One-to-one
+The extra table used to store a many-to-many relationship. :: Junction table (link table)
+The plan of a database's tables and columns. :: Schema
+The process of organising tables to cut repeated data. :: Normalisation
+Storing the same fact in more than one place. :: Redundancy
+A group of database steps that must all succeed or all fail together. :: Transaction
+The SQL command that makes a transaction's changes permanent. :: COMMIT
+The SQL command that undoes a transaction's changes. :: ROLLBACK
+The attack that sneaks commands into a query through user input. :: SQL injection
+The process of proving who a user is before granting access. :: Authentication
+The SQL command that gives a user permissions. :: GRANT
+The SQL command that takes permissions away. :: REVOKE
+The row-and-column program by Microsoft often used as a simple database. :: Excel
+The file format of plain text values separated by commas. :: CSV
+A computer that stores a database and answers requests from other computers. :: Server
+A program that connects to a database server to send queries. :: Client
+The scientist at IBM who proposed the relational model in 1970. :: Edgar F. Codd
+The decade in which SQL was first developed at IBM. :: 1970s
+The spreadsheet-like tool by Google sometimes used as a tiny database. :: Google Sheets
+Storing data on remote servers reached over the internet. :: Cloud storage
+The cloud database service from Amazon, shortened to three letters. :: RDS
+Data about data, such as a file's size and date. :: Metadata
+The process of moving data from one system to another. :: Migration
+Checking that data entered is sensible, such as an age not being negative. :: Validation
+The accuracy and consistency of data over its life. :: Data integrity
+A very large store of data from many sources, used for reports and analysis. :: Data warehouse
+Finding patterns in large amounts of data. :: Data mining
+Very large and fast-growing data sets, described by "three Vs". :: Big data
+The SQL keyword that renames a column in the results. :: AS
+The SQL operator that checks whether a value lies within a range. :: BETWEEN
+The SQL operator that checks whether a value is in a list. :: IN
+The SQL test used to find missing values, since "= NULL" does not work. :: IS NULL
+The SQL command that changes a table's structure, such as adding a column. :: ALTER TABLE
+The SQL command that empties a table but keeps its structure. :: TRUNCATE
+The name of the column that both tables share in a join is called this. :: Join key (common column)
+The Saudi law, abbreviated PDPL, protects this kind of data in databases. :: Personal data
+
+## 200
+The four properties of reliable transactions, shortened to four letters. :: ACID
+The "A" in ACID: a transaction happens completely or not at all. :: Atomicity
+The "C" in ACID: a transaction leaves the database obeying all its rules. :: Consistency
+The "I" in ACID: concurrent transactions do not interfere with each other. :: Isolation
+The "D" in ACID: committed changes survive a crash. :: Durability
+The normal form that requires every cell to hold a single value. :: First normal form (1NF)
+The normal form that removes partial dependencies on part of a composite key. :: Second normal form (2NF)
+The normal form that removes dependencies between non-key columns. :: Third normal form (3NF)
+The stricter version of third normal form named after two people. :: Boyce–Codd normal form (BCNF)
+A primary key made of more than one column. :: Composite key
+Any column or set of columns that could serve as the primary key. :: Candidate key
+A made-up key, such as an ID number, with no real-world meaning. :: Surrogate key
+A key that has meaning in the real world, such as a national ID number. :: Natural key
+A set of columns that uniquely identifies rows but may contain extra columns. :: Superkey
+The relationship "X determines Y" between columns. :: Functional dependency
+The rule that every foreign key value must match an existing primary key. :: Referential integrity
+The foreign key option that deletes child rows when the parent row is deleted. :: ON DELETE CASCADE
+The join that returns only rows with a match in both tables. :: INNER JOIN
+The join that returns all rows from the left table, matched or not. :: LEFT JOIN
+The join that returns all rows from both tables, matched or not. :: FULL OUTER JOIN
+The join that pairs every row of one table with every row of another. :: CROSS JOIN
+A join of a table with itself. :: Self join
+The result of a cross join is called this product. :: Cartesian product
+The number of rows produced by a cross join of a 3-row table and a 4-row table. :: 12
+The SQL clause that filters groups after GROUP BY. :: HAVING
+A query written inside another query. :: Subquery
+A subquery that refers to a column of the outer query. :: Correlated subquery
+The SQL operator that combines two result sets and removes duplicates. :: UNION
+The SQL operator that combines two result sets and keeps duplicates. :: UNION ALL
+The SQL operator that returns only rows found in both result sets. :: INTERSECT
+The SQL operator that tests whether a subquery returns any row. :: EXISTS
+The SQL expression that works like if–then–else. :: CASE
+The SQL function that returns the first value that is not NULL. :: COALESCE
+The part of SQL that defines structures: CREATE, ALTER, DROP. :: DDL (Data Definition Language)
+The part of SQL that changes data: INSERT, UPDATE, DELETE. :: DML (Data Manipulation Language)
+The part of SQL that handles permissions: GRANT, REVOKE. :: DCL (Data Control Language)
+The part of SQL that handles COMMIT and ROLLBACK. :: TCL (Transaction Control Language)
+A named block of SQL stored in the database and run on demand. :: Stored procedure
+A block of code that runs automatically when a table changes. :: Trigger
+A view whose results are stored on disk and refreshed. :: Materialised view
+A pointer that steps through query results one row at a time. :: Cursor
+A named point inside a transaction to which you can roll back. :: Savepoint
+The data structure most relational databases use for indexes. :: B-tree (B+ tree)
+The index that decides the physical order of rows in a table. :: Clustered index
+The number of clustered indexes a table can have. :: 1
+An index built on more than one column. :: Composite index
+The index type best for exact-match lookups but not for ranges. :: Hash index
+The SQL keyword that shows how the database will run a query. :: EXPLAIN
+Reading every row of a table because no index helps. :: Full table scan
+The component of a DBMS that chooses the fastest way to run a query. :: Query optimiser
+The problem when two transactions each wait for a lock held by the other. :: Deadlock
+A lock that lets many transactions read but none write. :: Shared lock
+A lock that lets one transaction write and blocks all others. :: Exclusive lock
+Reading data that another transaction has changed but not yet committed. :: Dirty read
+Reading the same row twice in a transaction and getting different values. :: Non-repeatable read
+New rows appearing in a repeated query within the same transaction. :: Phantom read
+The strictest SQL isolation level. :: Serializable
+The weakest SQL isolation level. :: Read uncommitted
+The default isolation level of PostgreSQL. :: Read committed
+The default isolation level of MySQL's InnoDB engine. :: Repeatable read
+The default storage engine of MySQL. :: InnoDB
+The file in which a database records changes before applying them, used for recovery. :: Write-ahead log (transaction log)
+Copying data to other servers so there are spare copies. :: Replication
+Splitting a large database across several servers by a key. :: Sharding
+Splitting one large table into smaller pieces inside one database. :: Partitioning
+Adding more power to one server to handle more load. :: Vertical scaling
+Adding more servers to handle more load. :: Horizontal scaling
+The theorem that a distributed store can guarantee only two of consistency, availability and partition tolerance. :: CAP theorem
+The NoSQL alternative to ACID, standing for "Basically Available, Soft state" and this. :: Eventual consistency
+The NoSQL type that stores simple key and value pairs, like Redis. :: Key–value store
+The NoSQL type that stores JSON-like documents, like MongoDB. :: Document database
+The NoSQL type that stores nodes and relationships, like Neo4j. :: Graph database
+The NoSQL type that stores data by column families, like Cassandra. :: Wide-column store
+The in-memory key–value store often used as a cache, whose name means "Remote Dictionary Server". :: Redis
+The query language used by the Neo4j graph database. :: Cypher
+The search engine built on Apache Lucene, widely used for log search. :: Elasticsearch
+The pooling of open database connections for reuse. :: Connection pooling
+A tool that maps database tables to objects in code, shortened to three letters. :: ORM
+The Java API for connecting to databases. :: JDBC
+The Microsoft standard API for connecting to databases, from 1992. :: ODBC
+A query with placeholders for values, which defends against SQL injection. :: Prepared statement (parameterised query)
+The principle of giving each user only the permissions they need. :: Least privilege
+Scrambling stored data so it cannot be read without a key. :: Encryption
+The way passwords should be stored in a database, never as plain text. :: Hashed (with a salt)
+The three-step process of moving data into a warehouse. :: ETL (extract, transform, load)
+The type of system tuned for many small everyday transactions. :: OLTP
+The type of system tuned for analysis of large amounts of data. :: OLAP
+The warehouse design with one fact table surrounded by dimension tables. :: Star schema
+The central table of a star schema that holds measurements. :: Fact table
+Deliberately adding redundancy to speed up reads. :: Denormalisation
+The SQL feature that performs calculations across rows related to the current row, using OVER. :: Window function
+The window function that numbers the rows in each partition. :: ROW_NUMBER
+A temporary named result defined with the WITH keyword. :: Common table expression (CTE)
+The file format of key and value pairs used by many web APIs and document databases. :: JSON
+The older markup format with tags once widely used to exchange data. :: XML
+The year Edgar Codd published his paper on the relational model. :: 1970
+The research database project at IBM in the 1970s that first implemented SQL. :: System R
+The original name of SQL, a pun still heard in its pronunciation. :: SEQUEL
+The two IBM researchers who created SQL: Donald Chamberlin and this man. :: Raymond Boyce
+The symbol with crow's feet in ER diagrams means this. :: Many
+
+## 300
+The relational algebra operation that picks rows, written with the Greek letter sigma. :: Selection
+The relational algebra operation that picks columns, written with the Greek letter pi. :: Projection
+The relational algebra operation that renames a relation, written with the Greek letter rho. :: Rename
+The join in relational algebra that matches on all columns with the same name. :: Natural join
+The relational algebra operation that finds rows related to every row of another table. :: Division
+The formal word for a row in the relational model. :: Tuple
+The formal word for a table in the relational model. :: Relation
+The number of columns in a relation. :: Degree (arity)
+The number of rows in a relation. :: Cardinality
+The set of allowed values for a column. :: Domain
+The three inference rules for functional dependencies: reflexivity, augmentation and transitivity. :: Armstrong's axioms
+The set of all columns determined by a given set of columns. :: Attribute closure
+The smallest set of functional dependencies equivalent to a given set. :: Minimal cover (canonical cover)
+The property of a decomposition that lets the original table be rebuilt exactly by joining. :: Lossless join
+The normal form that deals with multivalued dependencies. :: Fourth normal form (4NF)
+The normal form that deals with join dependencies. :: Fifth normal form (5NF)
+The number of rules in Codd's famous list for relational databases, counting rule zero. :: 13
+The name of Codd's list of rules. :: Codd's twelve rules
+The year Edgar Codd received the Turing Award. :: 1981
+The scientist who introduced the entity–relationship model in 1976. :: Peter Chen
+The textbook authors of "Fundamentals of Database Systems": Elmasri and this man. :: Shamkant Navathe
+The concurrency method that keeps old versions of rows so readers never block writers. :: MVCC (multiversion concurrency control)
+The locking protocol with a growing phase and a shrinking phase. :: Two-phase locking (2PL)
+The protocol that makes a transaction commit on all servers or none, using a coordinator. :: Two-phase commit (2PC)
+The two phases of two-phase commit: prepare and this. :: Commit
+The concurrency approach that assumes conflicts are rare and checks only at commit time. :: Optimistic concurrency control
+The graph used to detect deadlocks among transactions. :: Wait-for graph
+The property of a schedule that gives the same result as running transactions one after another. :: Serializability
+The graph that tests conflict serializability by looking for cycles. :: Precedence graph
+The recovery algorithm from IBM with analysis, redo and undo phases. :: ARIES
+The saved point from which crash recovery begins reading the log. :: Checkpoint
+The rule that a log record must reach disk before the data page it describes. :: Write-ahead logging
+The number that identifies each record in the transaction log. :: LSN (log sequence number)
+The area of memory where a DBMS caches disk pages. :: Buffer pool
+The usual size of a database page in PostgreSQL, in kilobytes. :: 8
+The default page size of InnoDB, in kilobytes. :: 16
+The storage structure in which a table's rows are kept in no particular order. :: Heap file
+The index that contains all the columns a query needs, so the table is never read. :: Covering index
+An index on only the rows that meet a condition. :: Partial index
+The fraction of rows a condition is expected to match, used by the optimiser. :: Selectivity
+The join algorithm that builds a hash table on the smaller input. :: Hash join
+The join algorithm that walks two sorted inputs together. :: Sort–merge join
+The simplest join algorithm, with one loop inside another. :: Nested loop join
+The summary of a column's value distribution that the optimiser keeps. :: Histogram
+The PostgreSQL command that collects statistics for the optimiser. :: ANALYZE
+The PostgreSQL process that removes dead row versions. :: VACUUM
+The famous query optimiser design from System R, published in 1979 by this researcher. :: Patricia Selinger
+The storage structure used by Cassandra and RocksDB that turns random writes into sequential ones. :: LSM tree (log-structured merge tree)
+The in-memory part of an LSM tree. :: Memtable
+The sorted files on disk in an LSM tree. :: SSTables
+The background process that merges SSTables. :: Compaction
+The probabilistic structure LSM stores use to skip files that cannot contain a key. :: Bloom filter
+The Google paper of 2006 that described a wide-column store. :: Bigtable
+The Amazon paper of 2007 that described a highly available key–value store. :: Dynamo
+The Google database that offers global transactions using atomic clocks. :: Spanner
+The clock API in Spanner that exposes time uncertainty. :: TrueTime
+The consensus algorithm by Leslie Lamport used in many distributed databases. :: Paxos
+The consensus algorithm designed in 2014 to be easier to understand than Paxos. :: Raft
+The number of servers that must agree in a 5-node cluster to form a majority. :: 3
+The situation in which two parts of a cluster each believe they are the leader. :: Split brain
+The technique that spreads keys around a ring so adding a node moves few keys. :: Consistent hashing
+The setting in Cassandra-style stores written as R + W > N guarantees this. :: Strong consistency (quorum overlap)
+The extension of CAP that adds the latency trade-off when there is no partition. :: PACELC
+The computer scientist who proposed the CAP theorem in 2000. :: Eric Brewer
+The type of clock that orders events by counters instead of real time. :: Lamport clock (logical clock)
+The clock that can tell whether two events are concurrent, kept as one counter per node. :: Vector clock
+Data types that merge automatically without conflicts, shortened to four letters. :: CRDT
+The replication style in which one node accepts writes and others copy it. :: Leader–follower (primary–replica)
+The delay before a replica shows a change made on the leader. :: Replication lag
+The storage layout that keeps each column together, used for analytics. :: Columnar storage
+The open columnar file format widely used with Hadoop and Spark. :: Parquet
+The Google programming model of 2004 for processing huge data sets with two functions. :: MapReduce
+The open-source framework that implemented MapReduce, named after a toy elephant. :: Hadoop
+The Hadoop component that stores files across many machines. :: HDFS
+The fast in-memory data processing engine that largely replaced MapReduce. :: Apache Spark
+The distributed log system from LinkedIn used for streaming data. :: Apache Kafka
+The data cube operation that summarises data to a higher level. :: Roll-up
+The data cube operation that goes from summary to more detail. :: Drill-down
+The warehouse design in which dimension tables are themselves normalised. :: Snowflake schema
+A dimension whose history of changes is kept, shortened to three letters. :: SCD (slowly changing dimension)
+The two leading figures of data warehouse design: Bill Inmon and this man. :: Ralph Kimball
+The benchmark family used to compare database performance, such as TPC-C. :: TPC
+The SQL isolation level implemented in many systems by giving each transaction a consistent picture of the data. :: Snapshot isolation
+The anomaly that snapshot isolation still allows, in which two transactions each break a rule the other checks. :: Write skew
+The SQL standard is published by ISO and this American body. :: ANSI
+The year the first SQL standard was published by ANSI. :: 1986
+The SQL standard version that added recursive queries and triggers. :: SQL:1999
+The SQL keyword pair that starts a recursive query. :: WITH RECURSIVE
+The SQL keyword that splits rows into groups for a window function. :: PARTITION BY
+The window function that leaves gaps in ranking after ties. :: RANK
+The window function that leaves no gaps in ranking after ties. :: DENSE_RANK
+The window function that reads a value from the previous row. :: LAG
+The logic with three values that NULL brings to SQL: true, false and this. :: Unknown
+The result of comparing NULL = NULL in SQL. :: Unknown (NULL)
+The procedural language of Oracle databases. :: PL/SQL
+The procedural language of Microsoft SQL Server. :: T-SQL
+The database first released in 1979 as Oracle Version 2 by a company then called this. :: Relational Software, Inc.
+The university where the Ingres and Postgres projects began. :: University of California, Berkeley
+The computer scientist who led Ingres and Postgres and won the 2014 Turing Award. :: Michael Stonebraker
+The creator of MySQL, who later forked it as MariaDB. :: Michael "Monty" Widenius
+
+## 400
+The title of Codd's 1970 paper: "A Relational Model of Data for Large Shared" these. :: Data Banks
+The journal in which Codd's 1970 paper appeared. :: Communications of the ACM
+The IBM laboratory in California where Codd worked. :: San Jose Research Laboratory
+The older IBM database product, hierarchical in design, built for the Apollo programme. :: IMS
+The database model before the relational one in which records were linked in a graph, standardised by CODASYL. :: Network model
+The computer scientist who led CODASYL's database work and won the 1973 Turing Award. :: Charles Bachman
+The title of Bachman's Turing lecture: "The Programmer as" this. :: Navigator
+The IBM relational product released in 1983 for mainframes. :: DB2
+The query language of the original Ingres system, a rival to SQL. :: QUEL
+The year the Postgres project started at Berkeley. :: 1986
+The year PostgreSQL took its current name, adding SQL support. :: 1996
+The year MySQL was first released. :: 1995
+The daughter after whom MySQL is named. :: My
+The company that bought MySQL AB in 2008. :: Sun Microsystems
+The company that acquired Sun, and with it MySQL, in 2010. :: Oracle
+The creator of SQLite. :: D. Richard Hipp
+The year SQLite was first released. :: 2000
+The maker of the guided-missile destroyer software for which SQLite was first designed. :: General Dynamics
+The licence status of SQLite's source code. :: Public domain
+The scientist who won the 1998 Turing Award for transaction processing and coined much of its theory. :: Jim Gray
+The 1981 paper by Jim Gray: "The Transaction Concept: Virtues and" these. :: Limitations
+The two researchers who coined the acronym ACID in 1983: Theo Härder and this man. :: Andreas Reuter
+The 1976 paper by Eswaran, Gray, Lorie and Traiger introduced this locking protocol. :: Two-phase locking
+The researcher who led the design of ARIES at IBM. :: C. Mohan
+The year the ARIES paper was published. :: 1992
+The 1995 paper "A Critique of ANSI SQL Isolation Levels" defined this isolation level. :: Snapshot isolation
+The two MIT researchers who formally proved the CAP theorem in 2002: Seth Gilbert and this woman. :: Nancy Lynch
+The 1985 result that consensus is impossible in an asynchronous system with one faulty process, known by three initials. :: FLP
+The three authors of the FLP result: Fischer, Lynch and this man. :: Michael Paterson
+The Greek island whose fictional parliament Lamport used to explain Paxos. :: Paxos
+The title of Lamport's paper introducing Paxos. :: The Part-Time Parliament
+The two authors of the Raft paper: Diego Ongaro and this man. :: John Ousterhout
+The Google lock service built on Paxos. :: Chubby
+The open-source coordination service inspired by Chubby, from Yahoo. :: ZooKeeper
+The distributed key–value store that uses Raft and backs Kubernetes. :: etcd
+The Facebook-born wide-column database that combines Dynamo's and Bigtable's ideas. :: Cassandra
+The year Cassandra was released as open source. :: 2008
+The NoSQL database modelled directly on Bigtable, part of the Hadoop family. :: HBase
+The year the term "NoSQL" was revived for a meetup about distributed non-relational databases. :: 2009
+The class of databases that keep SQL and ACID but scale out like NoSQL. :: NewSQL
+The open-source distributed SQL database inspired by Spanner, named after a hardy insect. :: CockroachDB
+The two creators of Hadoop: Doug Cutting and this man. :: Mike Cafarella
+The two Google engineers who wrote the MapReduce paper: Jeffrey Dean and this man. :: Sanjay Ghemawat
+The university lab where Apache Spark began. :: AMPLab (UC Berkeley)
+The creator of Apache Spark. :: Matei Zaharia
+The core data abstraction of early Spark, shortened to three letters. :: RDD
+The author after whom Apache Kafka is named. :: Franz Kafka
+The Amazon cloud data warehouse launched in 2012. :: Redshift
+The Google serverless data warehouse based on the Dremel paper. :: BigQuery
+The embedded analytical database often called "SQLite for analytics". :: DuckDB
+The research column store from MIT that became the product Vertica. :: C-Store
+The research column store from CWI in Amsterdam, a pioneer of the approach. :: MonetDB
+The technique of processing a batch of column values at a time instead of one row. :: Vectorised execution
+The classic query execution model in which each operator has open, next and close. :: Volcano (iterator) model
+The researcher who designed the Volcano and Cascades optimiser frameworks. :: Goetz Graefe
+The join ordering search space that System R limited itself to. :: Left-deep trees
+The technique the System R optimiser used to find the cheapest join order. :: Dynamic programming
+The term for sort orders that the System R optimiser kept because they might help later. :: Interesting orders
+The buffer replacement policy that approximates LRU with a circular list and a reference bit. :: Clock algorithm
+The buffer replacement policy that tracks the last two references to each page. :: LRU-2 (LRU-K)
+The B-tree variant with sibling links that allows concurrent access without locking whole paths. :: B-link tree
+The two researchers who introduced the B-link tree in 1981: Lehman and this man. :: S. Bing Yao
+The technique of briefly held locks on tree nodes during index traversal. :: Latch coupling (crabbing)
+The index type in PostgreSQL suited to full-text search and arrays. :: GIN
+The extensible index framework in PostgreSQL used for geometric data. :: GiST
+The PostgreSQL index that stores only summaries of block ranges, good for huge ordered tables. :: BRIN
+The PostgreSQL extension that adds geographic objects. :: PostGIS
+The technique by which PostgreSQL stores large field values out of line. :: TOAST
+The problem PostgreSQL must prevent by freezing old rows, caused by 32-bit transaction IDs. :: Transaction ID wraparound
+The structure in InnoDB where old row versions are kept for MVCC. :: Undo log
+The InnoDB structure that protects against half-written pages. :: Doublewrite buffer
+The type of index InnoDB always builds on the primary key. :: Clustered index
+The MySQL storage engine that was the default before InnoDB. :: MyISAM
+The MySQL version that made InnoDB the default engine. :: 5.5
+The Oracle feature that lets a query see data as it was at an earlier time. :: Flashback query
+The Oracle clustering technology that lets several servers share one database. :: Real Application Clusters (RAC)
+The pseudo-table in Oracle with exactly one row. :: DUAL
+The Microsoft SQL Server system database that holds temporary objects. :: tempdb
+The technique in which the database compiles a query to machine code at run time. :: JIT compilation
+The data structure used for geospatial indexing that divides the globe into hexagons, from Uber. :: H3
+The curve that maps two dimensions to one while keeping nearby points close, used in spatial indexes. :: Z-order curve (Morton order)
+The hashing method that estimates similarity between sets, used to find near-duplicate records. :: MinHash
+The privacy model that requires each record to be indistinguishable from at least k − 1 others. :: k-anonymity
+The privacy technique that adds calibrated noise to query answers. :: Differential privacy
+The EU regulation of 2018 that gave people the right to have their data erased. :: GDPR
+The Saudi authority that oversees the Personal Data Protection Law. :: SDAIA
+The security feature that encrypts database files at rest without changing applications, shortened to three letters. :: TDE
+The technique of replacing sensitive values with realistic fake ones for testing. :: Data masking
+The record of who changed what and when in a database. :: Audit trail
+The recovery measure that states the maximum acceptable amount of lost data. :: RPO (recovery point objective)
+The recovery measure that states the maximum acceptable downtime. :: RTO (recovery time objective)
+The backup type that copies only what changed since the last full backup. :: Differential backup
+The backup type that copies only what changed since the last backup of any kind. :: Incremental backup
+The recovery feature that restores a database to any chosen moment. :: Point-in-time recovery
+The pattern of recording every change as an event instead of storing only current state. :: Event sourcing
+The pattern that separates the write model from the read model. :: CQRS
+The technique of capturing row changes from the log and streaming them elsewhere. :: Change data capture (CDC)
+The pattern for long transactions across services that uses compensating actions. :: Saga
+The anti-pattern in which code runs one query for a list and then one more for each item. :: N+1 query problem
+The design in which each attribute is a row of entity, attribute and value. :: EAV (entity–attribute–value)
+
+## 500
+The number of rows returned by SELECT COUNT(*) on an empty table. :: 1
+The value returned by SELECT SUM(x) over zero rows. :: NULL
+The value of COUNT(x) when x is NULL in all 5 rows of a table. :: 0
+The result of the SQL expression NULL OR TRUE. :: TRUE
+The result of the SQL expression NULL AND FALSE. :: FALSE
+The result of the SQL expression NULL AND TRUE. :: Unknown (NULL)
+The result of the SQL expression 5 + NULL. :: NULL
+The result of WHERE x NOT IN (1, NULL) when x is 2: the row is this. :: Excluded (not returned)
+The number of rows a LEFT JOIN returns when the left table has 4 rows and none match. :: 4
+The number of rows an INNER JOIN returns when 3-row and 5-row tables have no matching values. :: 0
+The number of rows from joining two tables on a column where the left has the value 7 twice and the right has it three times. :: 6
+The number of possible join orders for 4 tables, counting only left-deep trees. :: 24
+The number of superkeys of a relation with 3 attributes whose only candidate key is one attribute. :: 4
+The number of candidate keys of R(A, B) when A → B and B → A. :: 2
+The highest normal form of R(A, B, C) with key A and dependencies A → B and B → C. :: Second normal form
+The highest normal form guaranteed for any relation with only two attributes. :: BCNF
+The normal form that a decomposition can always reach while keeping both lossless join and all dependencies. :: Third normal form
+The closure of {A} given A → B and B → C. :: {A, B, C}
+The number of functional dependencies in the minimal cover of A → BC, B → C, A → B. :: 2
+The logical order in which SQL processes clauses puts this clause first. :: FROM
+The SQL clause logically processed after GROUP BY and before SELECT. :: HAVING
+The SQL clause logically processed last among SELECT, ORDER BY and LIMIT. :: LIMIT
+The reason a column alias from SELECT cannot be used in WHERE in standard SQL. :: WHERE is evaluated before SELECT
+The maximum number of children of a B+ tree node holding 100 keys. :: 101
+The minimum number of keys in a non-root node of a B-tree of minimum degree 3. :: 2
+The maximum number of keys in a node of a B-tree of minimum degree 3. :: 5
+The height of a B+ tree with fan-out 100 needed to index one million rows, counting levels. :: 3
+The number of disk reads to find a record through a 3-level B+ tree whose root is cached, plus one for the row. :: 3
+The number of phases in the ARIES recovery algorithm. :: 3
+The ARIES table that lists pages changed in memory but not yet written. :: Dirty page table
+The log records ARIES writes during undo so that undo is never repeated. :: Compensation log records (CLRs)
+The buffer policy that allows writing uncommitted pages to disk before commit. :: Steal
+The buffer policy that does not require all of a transaction's pages to be written at commit. :: No-force
+The pair of buffer policies that ARIES is designed for. :: Steal and no-force
+The variant of two-phase locking that holds exclusive locks until commit, preventing cascading aborts. :: Strict two-phase locking
+The deadlock prevention scheme in which an older transaction waits for a younger one, but a younger one aborts. :: Wait-die
+The deadlock prevention scheme in which an older transaction forces a younger one to abort. :: Wound-wait
+The rule that makes a later write with an older timestamp simply be ignored. :: Thomas write rule
+The lock mode a transaction takes on a table before taking shared locks on its rows. :: Intention shared (IS)
+The lock mode that is compatible with IS and with itself but not with IX or X, taken to read a whole table. :: Shared (S)
+The anomaly in which two transactions read a value and both write back, one overwriting the other. :: Lost update
+The isolation level at which phantoms are still allowed by the SQL standard but dirty and non-repeatable reads are not. :: Repeatable read
+The PostgreSQL implementation of true serializability, shortened to three letters. :: SSI (serializable snapshot isolation)
+The 2008 paper introducing SSI was written by Cahill, Röhm and this man. :: Alan Fekete
+The number of messages the coordinator sends in total in two-phase commit with 3 participants and no failures. :: 6
+The weakness of two-phase commit when the coordinator fails after participants vote yes. :: Blocking
+The protocol that adds a pre-commit phase to reduce blocking. :: Three-phase commit
+The minimum number of nodes needed to tolerate 2 crash failures with majority quorums. :: 5
+The minimum number of nodes needed to tolerate 1 Byzantine failure. :: 4
+The quorum condition, with N replicas, that ensures a read sees the latest write. :: R + W > N
+With N = 3 and W = 2, the smallest R that guarantees reading the latest write. :: 2
+The "ELC" in PACELC means that, when there is no partition, a system trades off these two. :: Latency and consistency
+The consistency model in which every read sees the most recent completed write, in real-time order. :: Linearizability
+The two researchers who defined linearizability in 1990: Maurice Herlihy and this woman. :: Jeannette Wing
+The testing tool by Kyle Kingsbury that checks distributed databases for consistency bugs. :: Jepsen
+The 1978 paper by Lamport that introduced logical clocks: "Time, Clocks, and the Ordering of Events in" this. :: A Distributed System
+The uncertainty bound that Spanner waits out before committing, called this. :: Commit wait
+The data structure used to compare replicas efficiently by hashing ranges, used in Dynamo. :: Merkle tree
+The Dynamo technique in which another node temporarily accepts writes for a node that is down. :: Hinted handoff
+The protocol by which cluster nodes spread membership information to random peers. :: Gossip protocol
+The number of virtual nodes each Cassandra node used by default in older versions. :: 256
+The part of a Cassandra primary key that decides which node stores a row. :: Partition key
+The Redis persistence option that logs every write command. :: AOF (append-only file)
+The Redis persistence option that saves point-in-time snapshots. :: RDB
+The default port of PostgreSQL. :: 5432
+The default port of MySQL. :: 3306
+The default port of Microsoft SQL Server. :: 1433
+The default port of MongoDB. :: 27017
+The default port of Redis. :: 6379
+The default port of Oracle's listener. :: 1521
+The maximum size of a single BSON document in MongoDB, in megabytes. :: 16
+The number of bytes in a MongoDB ObjectId. :: 12
+The number of bits in a standard UUID. :: 128
+The number of bytes used by a 64-bit integer column. :: 8
+The largest value of a signed 32-bit integer, the limit that famous ID columns have overflowed. :: 2,147,483,647
+The year in which 32-bit Unix timestamps overflow. :: 2038
+The SQL standard name of the 2011 feature for tables that keep history by time period. :: Temporal tables
+The SQL standard revision of 2016 that added JSON functions and row pattern matching. :: SQL:2016
+The SQL standard revision of 2023 that added property graph queries. :: SQL:2023
+The graph query language adopted as an ISO standard in 2024. :: GQL
+The W3C query language for RDF data. :: SPARQL
+The three parts of an RDF statement: subject, predicate and this. :: Object
+The logic-based query language with rules and recursion that influenced SQL's recursive queries. :: Datalog
+The declarative query language of Codd's first relational proposals, based on predicate calculus. :: Relational calculus
+The theorem that relational algebra and safe relational calculus have the same expressive power. :: Codd's theorem
+The query that relational algebra cannot express, which motivated recursive SQL. :: Transitive closure
+The join technique for many-table queries that is worst-case optimal, unlike pairwise joins. :: Leapfrog triejoin (worst-case optimal join)
+The bound on the output size of a join query in terms of its input sizes, named after three researchers. :: AGM bound
+The class of join queries that Yannakakis's algorithm evaluates in linear time. :: Acyclic queries
+The technique that estimates the number of distinct values using the position of the first 1 bit in hashes. :: Flajolet–Martin (HyperLogLog)
+The standard error of HyperLogLog with m registers is about 1.04 divided by this. :: √m
+The storage layout proposed in 2001 that groups each attribute within a page for cache performance. :: PAX
+The encoding that stores a repeated value once with a count. :: Run-length encoding
+The encoding that replaces column values with small integer codes from a lookup table. :: Dictionary encoding
+The small per-block summaries of minimum and maximum values that let scans skip blocks. :: Zone maps
+The memory-optimised index from Microsoft's Hekaton that is latch-free. :: Bw-tree
+The adaptive radix tree index was introduced in 2013 by researchers in this German city. :: Munich
+The research database from TU Munich that pioneered compiling queries to machine code. :: HyPer
+The model of query compilation that Thomas Neumann introduced in 2011, in which operators push rows upward. :: Data-centric (produce/consume) model
+The index learned from data distribution, proposed by Kraska and others in 2018. :: Learned index
