@@ -92,11 +92,11 @@ This file is rewritten by `npm run packs`.
 
 ## Fiqh: Sadaqah (charity) (questions/isl-sadaqah.txt)
 
-- **300**, line 64: Our Beloved Prophet ﷺ said the best charity is to feed this. **Answer:** A hungry living being _(Source: Shu'ab al-Iman (al-Bayhaqi); wording to be checked)_
-- **400**, line 84: The Companion who sold his garden for a palm in Paradise after that verse came down. **Answer:** Abu al-Dahdah (رِضْوَانُ اللَّهِ عَلَيْهِ) _(Source: Musnad Ahmad; to be checked)_
-- **500**, line 106: The Companion who brought a sa' of dates that he earned by drawing water, and was mocked by the hypocrites. **Answer:** Abu 'Aqil (رِضْوَانُ اللَّهِ عَلَيْهِ) _(Source: Sahih al-Bukhari (Fath al-Bari); name to be checked)_
-- **500**, line 111: Our Beloved Prophet ﷺ said the miser is far from Allah and from this. **Answer:** Paradise and people _(Source: Sunan al-Tirmidhi; grade to be checked)_
-- **500**, line 112: Our Beloved Master ﷺ told Bilal (رِضْوَانُ اللَّهِ عَلَيْهِ) to spend and not fear that the Lord of the Throne would do this (paraphrased). **Answer:** Leave him in want _(Source: al-Mu'jam al-Kabir (al-Tabarani); to be checked)_
+- **300**, line 127: Our Beloved Prophet ﷺ said the best charity is to feed this. **Answer:** A hungry living being _(Source: Shu'ab al-Iman (al-Bayhaqi); wording to be checked)_
+- **400**, line 178: The Companion who sold his garden for a palm in Paradise after that verse came down. **Answer:** Abu al-Dahdah (رِضْوَانُ اللَّهِ عَلَيْهِ) _(Source: Musnad Ahmad; to be checked)_
+- **500**, line 231: The Companion who brought a sa' of dates that he earned by drawing water, and was mocked by the hypocrites. **Answer:** Abu 'Aqil (رِضْوَانُ اللَّهِ عَلَيْهِ) _(Source: Sahih al-Bukhari (Fath al-Bari); name to be checked)_
+- **500**, line 236: Our Beloved Prophet ﷺ said the miser is far from Allah and from this. **Answer:** Paradise and people _(Source: Sunan al-Tirmidhi; grade to be checked)_
+- **500**, line 237: Our Beloved Master ﷺ told Bilal (رِضْوَانُ اللَّهِ عَلَيْهِ) to spend and not fear that the Lord of the Throne would do this (paraphrased). **Answer:** Leave him in want _(Source: al-Mu'jam al-Kabir (al-Tabarani); to be checked)_
 
 ## The Companions (questions/isl-sahabah.txt)
 

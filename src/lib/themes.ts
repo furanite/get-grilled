@@ -1,6 +1,7 @@
 import type { ThemeId } from './types'
 import { ISLAMIC_SET } from './edition'
 import { ISLAMIC_THEME_TEXT } from './islamic'
+import { currentPlace } from './place'
 
 export interface ThemeInfo {
   id: ThemeId
@@ -40,68 +41,85 @@ export const THEMES: ThemeInfo[] = ISLAMIC_SET
 /** The theme to fall back to when a timed theme closes. */
 export const DEFAULT_THEME: ThemeId = 'amethyst'
 
-// ---------- Maghrib in Riyadh ----------
+// ---------- Maghrib at the host's or player's own location ----------
 
-const RIYADH = { lat: 24.7136, lon: 46.6753 }
 const RAD = Math.PI / 180
 
-/** Sunset (Maghrib) in Riyadh on the given Riyadh calendar day, from the standard sunrise equation (within a minute or two). */
-export function maghribRiyadh(y: number, m: number, d: number): Date {
+/** Sunset (Maghrib) on the given calendar day at `place`, from the standard sunrise equation (within a minute or two). */
+export function maghribAt(y: number, m: number, d: number, place: { lat: number; lon: number }): Date {
   const jd = Date.UTC(y, m - 1, d, 12) / 86400_000 + 2440587.5
   const n = Math.round(jd - 2451545.0 + 0.0008)
-  const js = n - RIYADH.lon / 360
+  const js = n - place.lon / 360
   const M = (357.5291 + 0.98560028 * js) % 360
   const C = 1.9148 * Math.sin(M * RAD) + 0.02 * Math.sin(2 * M * RAD) + 0.0003 * Math.sin(3 * M * RAD)
   const L = (M + C + 180 + 102.9372) % 360
   const transit = 2451545.0 + js + 0.0053 * Math.sin(M * RAD) - 0.0069 * Math.sin(2 * L * RAD)
   const decl = Math.asin(Math.sin(L * RAD) * Math.sin(23.4397 * RAD))
-  const cosW = (Math.sin(-0.833 * RAD) - Math.sin(RIYADH.lat * RAD) * Math.sin(decl)) / (Math.cos(RIYADH.lat * RAD) * Math.cos(decl))
-  const w = Math.acos(cosW) / RAD
+  const cosW = (Math.sin(-0.833 * RAD) - Math.sin(place.lat * RAD) * Math.sin(decl)) / (Math.cos(place.lat * RAD) * Math.cos(decl))
+  // Far north or south the sun may not set or rise; clamp so the window still has an edge.
+  const w = Math.acos(Math.max(-1, Math.min(1, cosW))) / RAD
   return new Date((transit + w / 360 - 2440587.5) * 86400_000)
 }
 
-/** The Riyadh calendar date (UTC+3, no daylight saving) that is `days` days after the one containing `now`. */
-function riyadhDay(now: Date, days = 0) {
-  const r = new Date(now.getTime() + 3 * 3600_000 + days * 86400_000)
-  return { y: r.getUTCFullYear(), m: r.getUTCMonth() + 1, d: r.getUTCDate(), dow: r.getUTCDay() }
+/** Sunset in Riyadh (kept for reference and tests). */
+export const maghribRiyadh = (y: number, m: number, d: number) => maghribAt(y, m, d, { lat: 24.7136, lon: 46.6753 })
+
+const DOW: Record<string, number> = { Sun: 0, Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6 }
+
+/** The calendar date, in time zone `tz` (the device's own when empty), that is `days` days after the one containing `now`. */
+function localDay(now: Date, days: number, tz: string) {
+  const at = new Date(now.getTime() + days * 86400_000)
+  let parts: Intl.DateTimeFormatPart[]
+  try {
+    parts = new Intl.DateTimeFormat('en-US', { timeZone: tz || undefined, year: 'numeric', month: 'numeric', day: 'numeric', weekday: 'short' }).formatToParts(at)
+  } catch {
+    parts = new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'numeric', day: 'numeric', weekday: 'short' }).formatToParts(at)
+  }
+  const get = (t: string) => parts.find((p) => p.type === t)?.value ?? ''
+  return { y: Number(get('year')), m: Number(get('month')), d: Number(get('day')), dow: DOW[get('weekday')] ?? at.getDay() }
 }
 
+export type Where = { place?: { lat: number; lon: number }; tz?: string }
+const resolve = (w: Where) => ({ place: w.place ?? currentPlace(), tz: w.tz ?? '' })
+
 /** Open from Maghrib on weekday `eve` until Maghrib the next day (the Islamic day starts at Maghrib). */
-function maghribWindowOpen(eve: number, now: Date) {
-  const t = riyadhDay(now)
-  const sunset = maghribRiyadh(t.y, t.m, t.d).getTime()
+function maghribWindowOpen(eve: number, now: Date, where: Where) {
+  const { place, tz } = resolve(where)
+  const t = localDay(now, 0, tz)
+  const sunset = maghribAt(t.y, t.m, t.d, place).getTime()
   if (t.dow === eve) return now.getTime() >= sunset
   if (t.dow === (eve + 1) % 7) return now.getTime() < sunset
   return false
 }
 
-function msUntilMaghribOf(eve: number, now: Date) {
-  for (let i = 0; i <= 7; i++) {
-    const t = riyadhDay(now, i)
+function msUntilMaghribOf(eve: number, now: Date, where: Where) {
+  const { place, tz } = resolve(where)
+  for (let i = 0; i <= 8; i++) {
+    const t = localDay(now, i, tz)
     if (t.dow !== eve) continue
-    const ms = maghribRiyadh(t.y, t.m, t.d).getTime() - now.getTime()
+    const ms = maghribAt(t.y, t.m, t.d, place).getTime() - now.getTime()
     if (ms > 0) return ms
   }
   return 0
 }
 
-/** Blessed Mawlid: from Maghrib on Sunday to Maghrib on Monday, Riyadh time. */
-export const mawlidOpen = (now = new Date()) => maghribWindowOpen(0, now)
-/** Eid of the Mu'mineen: from Maghrib on Thursday to Maghrib on Friday, Riyadh time. */
-export const jumuahOpen = (now = new Date()) => maghribWindowOpen(4, now)
+/** Blessed Mawlid: from Maghrib on Sunday to Maghrib on Monday, at the host's or player's own location. */
+export const mawlidOpen = (now = new Date(), where: Where = {}) => maghribWindowOpen(0, now, where)
+/** Eid of the Mu'mineen: from Maghrib on Thursday to Maghrib on Friday, at the host's or player's own location. */
+export const jumuahOpen = (now = new Date(), where: Where = {}) => maghribWindowOpen(4, now, where)
 
 /** Whether a theme can be picked now. Only the timed themes are ever closed. */
-export function themeOpen(id: ThemeId, now = new Date()) {
+export function themeOpen(id: ThemeId, now = new Date(), where: Where = {}) {
   if (id === 'heritage') return heritageOpen(now)
-  if (id === 'jumuah') return jumuahOpen(now)
-  if (id === 'mawlid') return mawlidOpen(now)
+  if (id === 'jumuah') return jumuahOpen(now, where)
+  if (id === 'mawlid') return mawlidOpen(now, where)
   return true
 }
 
 /** Milliseconds until a timed theme next opens. */
-export function msUntilOpen(id: ThemeId, now = new Date()) {
-  if (id === 'jumuah') return msUntilMaghribOf(4, now)
-  if (id === 'mawlid') return msUntilMaghribOf(0, now)
+export function msUntilOpen(id: ThemeId, now = new Date(), where: Where = {}) {
+  if (id === 'jumuah') return msUntilMaghribOf(4, now, where)
+  if (id === 'mawlid') return msUntilMaghribOf(0, now, where)
   return msUntilHeritage(now)
 }
 

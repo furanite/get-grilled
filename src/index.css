@@ -518,3 +518,5 @@ textarea.input{resize:vertical;min-height:44px}
 .review-checks .btn.warn{background:#e0705a;border-color:#e0705a;color:#1a0a06}
 .review-notes{display:grid;gap:6px;margin-top:10px}
 .review-notes textarea{resize:vertical}
+.maghrib-place{margin:.25rem 0 0;font-size:.85rem;opacity:.85;line-height:1.5}
+.maghrib-note{opacity:.8}

@@ -4,6 +4,7 @@ import type { Strings } from '../lib/i18n'
 import { THEMES, formatCountdown, msUntilOpen, themeOpen } from '../lib/themes'
 import { burstAt } from '../lib/fx'
 import { Ambient, Flourish, FlourishAbove, Mark } from './Brand'
+import { clearPlace, currentPlace, requestExactPlace } from '../lib/place'
 import { APP_NAME, APP_NAME_AR, HAS_AR_NAME, ISLAMIC_SET, appName } from '../lib/edition'
 
 interface Props {
@@ -99,7 +100,26 @@ export default function Home({ t, lang, theme, setTheme, hasGame, onNew, onResum
             )
           })}
         </div>
+        {THEMES.some((th) => th.id === 'jumuah' || th.id === 'mawlid') && <MaghribPlace t={t} onChange={() => tick((n) => n + 1)} />}
       </section>
     </main>
+  )
+}
+
+/** Says where Maghrib is reckoned from, and lets the player share an exact location (kept only on this device). */
+function MaghribPlace({ t, onChange }: { t: Strings; onChange: () => void }) {
+  const place = currentPlace()
+  const [note, setNote] = useState('')
+  const where = place.exact ? t.maghribExact : place.label === 'your time zone' ? t.maghribZone : `${place.label} (${t.maghribZone})`
+  return (
+    <p className="maghrib-place" data-testid="maghrib-place">
+      {t.maghribFor} <b>{where}</b>.{' '}
+      {place.exact ? (
+        <button type="button" className="linkish" onClick={() => { clearPlace(); setNote(''); onChange() }}>{t.useZone}</button>
+      ) : (
+        <button type="button" className="linkish" data-testid="use-location" onClick={async () => { const ok = await requestExactPlace(); setNote(ok ? '' : t.locationFailed); onChange() }}>{t.useLocation}</button>
+      )}
+      {note && <span className="maghrib-note"> {note}</span>}
+    </p>
   )
 }
