@@ -48,10 +48,10 @@ This file is rewritten by `npm run packs`.
 
 ## Pillars of faith (questions/isl-iman.txt)
 
-- **500**, line 102: The book by Ibn Kamal Pasha رحمة الله عليه on the differences between Ash'aris and Maturidis. **Answer:** Risalah fil-Ikhtilaf bayn al-Asha'irah wal-Maturidiyyah _(Source: Title to be checked)_
-- **500**, line 103: The number of points of difference listed between the two schools in many works, mostly in wording. **Answer:** About 12 _(Source: Commonly cited in works on Ash'ari-Maturidi differences; to be checked)_
-- **500**, line 104: On "Is faith (iman) created?", the Maturidi scholars of Bukhara differed with those of this city. **Answer:** Samarqand _(Source: Isharat al-Maram (al-Bayadi); to be checked)_
-- **500**, line 110: Al-Maturidi's teacher in the chain back to Abu Hanifah رحمة الله عليه. **Answer:** Abu Nasr al-'Iyadi رحمة الله عليه _(Source: Taj al-Tarajim (Ibn Qutlubugha); chain to be checked)_
+- **500**, line 118: The book by Ibn Kamal Pasha رحمة الله عليه on the differences between Ash'aris and Maturidis. **Answer:** Risalah fil-Ikhtilaf bayn al-Asha'irah wal-Maturidiyyah _(Source: Title to be checked)_
+- **500**, line 119: The number of points of difference listed between the two schools in many works, mostly in wording. **Answer:** About 12 _(Source: Commonly cited in works on Ash'ari-Maturidi differences; to be checked)_
+- **500**, line 120: On "Is faith (iman) created?", the Maturidi scholars of Bukhara differed with those of this city. **Answer:** Samarqand _(Source: Isharat al-Maram (al-Bayadi); to be checked)_
+- **500**, line 126: Al-Maturidi's teacher in the chain back to Abu Hanifah رحمة الله عليه. **Answer:** Abu Nasr al-'Iyadi رحمة الله عليه _(Source: Taj al-Tarajim (Ibn Qutlubugha); chain to be checked)_
 
 ## Fiqh: Kinship and family (questions/isl-kinship.txt)
 
