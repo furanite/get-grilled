@@ -5,7 +5,7 @@ group: kids
 
 ## 100
 The number of pillars of Islam. :: 5 || H: Sahih al-Bukhari
-The first pillar of Islam, saying "There is no god but Allah, Muhammad is the Messenger of Allah". :: The Shahadah || H: Sahih al-Bukhari
+The first pillar of Islam, saying "There is no god but Allah, Muhammad ﷺ is the Messenger of Allah" (meaning). :: The Shahadah || H: Sahih al-Bukhari
 The pillar of praying five times a day. :: Salah || H: Sahih al-Bukhari
 The pillar of fasting in Ramadan. :: Sawm || H: Sahih al-Bukhari
 The pillar of giving part of your wealth to the poor. :: Zakat || H: Sahih al-Bukhari
@@ -17,9 +17,9 @@ The month when Muslims fast. :: Ramadan || H: Qur'an 2:185
 Muslims pray facing this. :: The Ka'bah (the qiblah) || H: Qur'an 2:144
 The place where Muslims pray together. :: The mosque (masjid) || H: Standard term
 The call to prayer. :: The adhan || H: Sunan Abi Dawud
-The Arabic word for "God is the Greatest". :: Allahu Akbar || H: Standard term
-What we say before we start something: "In the name of Allah". :: Bismillah || H: Sahih al-Bukhari
-What we say to thank Allah: "All praise is for Allah". :: Alhamdulillah || H: Sahih Muslim
+The Arabic word for "God is the Greatest" (meaning). :: Allahu Akbar || H: Standard term
+What we say before we start something: "In the name of Allah" (meaning). :: Bismillah || H: Sahih al-Bukhari
+What we say to thank Allah: "All praise is for Allah" (meaning). :: Alhamdulillah || H: Sahih Muslim
 Allah is the One who made the sky, the earth and this. :: Everything (all that is in them) || H: Qur'an 6:1
 Allah has no son and no this. :: Father (no parent) || H: Qur'an 112:3
 Nothing is like this One. :: Allah || H: Qur'an 42:11
@@ -34,12 +34,12 @@ The Arabic word for the angels. :: Mala'ikah || H: Standard term
 The Arabic word for Paradise. :: Jannah || H: Qur'an 2:35
 The Arabic word for the Fire. :: Jahannam (al-Nar) || H: Qur'an 4:55
 Giving money or food to help someone, any time you like. :: Sadaqah || H: Qur'an 2:271
-What we say when someone gives us something good: "May Allah reward you". :: Jazak Allahu khayran || H: Sunan al-Tirmidhi
-What we say when we hear bad news: "We belong to Allah and to Him we return". :: Inna lillahi wa inna ilayhi raji'un || H: Qur'an 2:156
-What we say when we see something we like: "What Allah has willed". :: Masha' Allah || H: Qur'an 18:39
+What we say when someone gives us something good: "May Allah reward you" (meaning). :: Jazak Allahu khayran || H: Sunan al-Tirmidhi
+What we say when we hear bad news: "We belong to Allah and to Him we return" (meaning). :: Inna lillahi wa inna ilayhi raji'un || H: Qur'an 2:156
+What we say when we see something we like: "What Allah has willed" (meaning). :: Masha' Allah || H: Qur'an 18:39
 Asking Allah for something is called this. :: Du'a || H: Qur'an 40:60
 Remembering Allah often, with words like Subhan Allah. :: Dhikr || H: Qur'an 33:41
-The Arabic word for "Peace be upon you". :: As-salamu 'alaykum || H: Sahih al-Bukhari
+The Arabic word for "Peace be upon you" (meaning). :: As-salamu 'alaykum || H: Sahih al-Bukhari
 Allah is the One who gives us this to stay alive: food and drink. :: Rizq (provision) || H: Qur'an 51:58
 Shirk is the opposite of this. :: Tawhid (believing Allah is One) || H: Qur'an 4:48
 The angels are made from this. :: Light || H: Sahih Muslim
@@ -51,7 +51,7 @@ The Qur'an is the word of this One. :: Allah || H: Qur'an 9:6
 Life after death is called this. :: The Akhirah (Hereafter) || H: Qur'an 2:4
 In the Hereafter, people will be asked about what they did in this. :: This life (the dunya) || H: Qur'an 99:7-8
 A Muslim's day of the week for the big prayer together. :: Friday (Jumu'ah) || H: Qur'an 62:9
-The Arabic word for "the Most Merciful", in Bismillah. :: al-Rahman || H: Qur'an 1:1
+The Arabic word for "the Most Merciful", in Bismillah (meaning). :: al-Rahman || H: Qur'an 1:1
 The building on top of a mosque from where the adhan was called. :: The minaret || H: Standard term
 The book we read the Qur'an from. :: The Mushaf || H: Standard term
 
@@ -73,7 +73,7 @@ The angel who brought the Qur'an. :: Jibril (عليه السلام) || H: Qur'an
 What we say when we make a mistake and ask Allah to forgive us. :: Astaghfirullah || H: Sahih Muslim
 What we say when we hope to do something in the future: "If Allah wills". :: In sha' Allah || H: Qur'an 18:23-24
 The second pillar of Islam. :: Salah || H: Sahih al-Bukhari
-The third pillar of Islam, in the hadith "Islam is built on five". :: Zakat || H: Sahih al-Bukhari
+The third pillar of Islam, in the hadith "Islam is built on five" (meaning). :: Zakat || H: Sahih al-Bukhari
 The first pillar of Iman. :: Belief in Allah || H: Sahih Muslim
 The second pillar of Iman. :: Belief in the angels || H: Sahih Muslim
 The third pillar of Iman. :: Belief in the books || H: Sahih Muslim
@@ -95,7 +95,7 @@ The biggest joy in Jannah will be seeing this. :: Allah || H: Sahih Muslim
 After death, a person stays in this until the Day of Judgement. :: The grave (Barzakh) || H: Qur'an 23:100
 The three questions in the grave: Who is your Lord? What is your religion? And this. :: Who is your Prophet? || H: Sunan Abi Dawud
 Believing that only Allah knows the future is part of believing in this. :: The unseen (al-ghayb) || H: Qur'an 27:65
-Our Beloved Master ﷺ said the first thing to teach is "There is no god but" this. :: Allah || H: Sahih al-Bukhari
+Our Beloved Master ﷺ said the first thing to teach is "There is no god but" this (meaning). :: Allah || H: Sahih al-Bukhari
 A person who says the Shahadah and acts on it becomes this. :: A Muslim || H: Sahih al-Bukhari
 Islam means this to Allah. :: Submission (giving yourself to Allah) || H: Qur'an 2:112
 Zakat is given once every this. :: Year (lunar year) || H: Sunan Abi Dawud
@@ -115,7 +115,7 @@ The gate of Paradise for people who fast. :: al-Rayyan || H: Sahih al-Bukhari
 The scale that weighs our deeds. :: al-Mizan || H: Qur'an 21:47
 Giving up shirk means not doing this. :: Worshipping anything besides Allah || H: Qur'an 4:48
 The famous hadith of the angel who asked our Beloved Prophet ﷺ about Islam, Iman and Ihsan. :: The hadith of Jibril || H: Sahih Muslim
-In that hadith, the angel came looking like this. :: A man in very white clothes with very black hair || H: Sahih Muslim
+In the hadith of Jibril (عليه السلام), the angel came looking like this. :: A man in very white clothes with very black hair || H: Sahih Muslim
 The verse called "the greatest verse of the Qur'an". :: Ayat al-Kursi || H: Sahih Muslim
 The number of times we must pray each day. :: 5 || H: Sahih al-Bukhari
 Zakat is usually this much of your saved money. :: 2.5% || H: Sunan Abi Dawud
@@ -161,12 +161,12 @@ The surah that tells us about the Day the earth will shake. :: Surah al-Zalzalah
 
 ## 400
 Our Beloved Master ﷺ said Islam is built on this many things. :: 5 || H: Sahih al-Bukhari
-The Companion who told us the hadith "Islam is built on five". :: 'Abdullah ibn 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: Sahih al-Bukhari
-The book Allah keeps of all things, "the Preserved Tablet". :: al-Lawh al-Mahfuz || H: Qur'an 85:22
+The Companion who told us the hadith "Islam is built on five" (meaning). :: 'Abdullah ibn 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: Sahih al-Bukhari
+The book Allah keeps of all things, "the Preserved Tablet" (meaning). :: al-Lawh al-Mahfuz || H: Qur'an 85:22
 The number of gates of Paradise. :: 8 || H: Sahih al-Bukhari
 Our Beloved Prophet ﷺ said faith has seventy-odd branches; the highest is saying this. :: La ilaha illa Allah || H: Sahih Muslim
-In that hadith, the lowest branch is this. :: Removing something harmful from the road || H: Sahih Muslim
-In that hadith, this is also a branch of faith. :: Modesty (haya') || H: Sahih Muslim
+Our Beloved Prophet ﷺ said faith has seventy-odd branches; the lowest is this. :: Removing something harmful from the road || H: Sahih Muslim
+In the hadith of the branches of faith, this is also named as a branch of faith. :: Modesty (haya') || H: Sahih Muslim
 The pond of our Beloved Prophet ﷺ in the Hereafter. :: al-Kawthar (al-Hawd) || H: Sahih al-Bukhari
 The bridge over the Fire that people cross. :: al-Sirat || H: Sahih al-Bukhari
 The Arabic name for the 99 beautiful Names of Allah. :: al-Asma' al-Husna || H: Qur'an 7:180
@@ -183,8 +183,8 @@ Our Beloved Prophet ﷺ said: "Religion is" this. :: Sincere advice (al-nasihah)
 Doing a good deed only for Allah, not to show off, is called this. :: Ikhlas (sincerity) || H: Qur'an 98:5
 Doing good to show off to people is called this. :: Riya' || H: Sahih Muslim
 Our Beloved Prophet ﷺ said actions are judged by these. :: Intentions || H: Sahih al-Bukhari
-The Companion who narrated "Actions are by intentions". :: Our master 'Umar ibn al-Khattab (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
-Our Beloved Master ﷺ said: "Say: I believe in Allah, then" do this. :: Stand firm (be upright) || H: Sahih Muslim
+The Companion who narrated "Actions are by intentions" (meaning). :: Our master 'Umar ibn al-Khattab (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+Our Beloved Master ﷺ said: "Say: I believe in Allah, then" do this (meaning). :: Stand firm (be upright) || H: Sahih Muslim
 The book of all deeds that Allah has written, before anything happened. :: al-Lawh al-Mahfuz || H: Qur'an 57:22
 Allah wrote everyone's decree this long before creating the heavens and earth. :: 50,000 years || H: Sahih Muslim
 The first thing Allah created, by a famous hadith, and told to write. :: The Pen || H: Sunan Abi Dawud
@@ -216,8 +216,8 @@ The surah called "a third of the Qur'an". :: Surah al-Ikhlas || H: Sahih al-Bukh
 The surah we read in every rak'ah of prayer. :: Surah al-Fatihah || H: Sahih al-Bukhari
 Our Beloved Prophet ﷺ said the strong believer is better and more loved by Allah than this (paraphrased). :: The weak believer || H: Sahih Muslim
 Our Beloved Prophet ﷺ said: "Be mindful of Allah, and He will" do this (paraphrased). :: Protect you || H: Sunan al-Tirmidhi
-The young Companion our Beloved Master ﷺ gave that advice to. :: 'Abdullah ibn 'Abbas (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: Sunan al-Tirmidhi
-Our Beloved Prophet ﷺ told him: "If you ask, ask" this One. :: Allah || H: Sunan al-Tirmidhi
+The young Companion to whom our Beloved Master ﷺ said "Be mindful of Allah, and He will protect you" (meaning). :: 'Abdullah ibn 'Abbas (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: Sunan al-Tirmidhi
+Our Beloved Prophet ﷺ told young Ibn 'Abbas (رِضْوَانُ اللَّهِ عَلَيْهِمَا): "If you ask, ask" this One (meaning). :: Allah || H: Sunan al-Tirmidhi
 The Name "al-Quddus" means this. :: The Most Pure (Holy) || H: Qur'an 59:23
 The Name "al-Salam" means this. :: The Source of Peace || H: Qur'an 59:23
 The Name "al-Wadud" means this. :: The Most Loving || H: Qur'an 85:14
@@ -229,20 +229,20 @@ The surah that ends the Qur'an, asking Allah's protection from whispering. :: Su
 The surah where we ask Allah's protection from the evil of the night and of envy. :: Surah al-Falaq || H: Qur'an 113
 Our Beloved Master ﷺ said none of you truly believes until he loves for his brother what he loves for this. :: Himself || H: Sahih al-Bukhari
 The hadith of Jibril says Ihsan is to worship Allah as if you this. :: See Him || H: Sahih Muslim
-In that hadith, one sign of the Hour is that barefoot shepherds compete in building these. :: Tall buildings || H: Sahih Muslim
+In the hadith of Jibril (عليه السلام), one sign of the Hour is that barefoot shepherds compete in building these. :: Tall buildings || H: Sahih Muslim
 The scholars of creed say Allah's Attributes are without this. :: Likeness to creation (and without "how") || H: al-Tahawi, al-'Aqidah al-Tahawiyyah
 The famous creed book by Imam al-Tahawi رحمة الله عليه. :: al-'Aqidah al-Tahawiyyah || H: Standard reference
 The imam of creed whose school is followed by many Shafi'is and Malikis. :: Abu al-Hasan al-Ash'ari رحمة الله عليه || H: Standard reference
 The imam of creed whose school is followed by many Hanafis. :: Abu Mansur al-Maturidi رحمة الله عليه || H: Standard reference
 Believing in Allah's decree, there are levels: His knowledge, His writing, His will and this. :: His creating || D: Common teaching summary in creed texts
 Asking help from Allah and not giving up, our Beloved Prophet ﷺ said: do not say "if only", say this. :: Qaddara Allah wa ma sha'a fa'al (Allah decreed and did what He willed) || H: Sahih Muslim
-Our Beloved Prophet ﷺ said: "Know that if the whole nation gathered to help you" they could only help with what this. :: Allah has already written for you || H: Sunan al-Tirmidhi
-Our Beloved Master ﷺ said: "The pens have been lifted and the pages have" done this. :: Dried || H: Sunan al-Tirmidhi
+Our Beloved Prophet ﷺ said: "Know that if the whole nation gathered to help you" they could only help with what this (meaning). :: Allah has already written for you || H: Sunan al-Tirmidhi
+Our Beloved Master ﷺ said: "The pens have been lifted and the pages have" done this (meaning). :: Dried || H: Sunan al-Tirmidhi
 Our Beloved Prophet ﷺ said a believer's affair is all good: if good comes he thanks Allah, and if harm comes he does this. :: Is patient || H: Sahih Muslim
-A Muslim says this when something bad happens: "Allah is enough for us, and the best Guardian". :: Hasbuna Allah wa ni'm al-wakil || H: Qur'an 3:173
+A Muslim says this when something bad happens: "Allah is enough for us, and the best Guardian" (meaning). :: Hasbuna Allah wa ni'm al-wakil || H: Qur'an 3:173
 Relying on Allah while doing your part is called this. :: Tawakkul || H: Qur'an 65:3
 Our Beloved Prophet ﷺ said: tie your camel and then do this. :: Trust in Allah || H: Sunan al-Tirmidhi
-The "Book of the righteous" where good deeds are recorded is called this. :: 'Illiyyun || H: Qur'an 83:18-19
+The "Book of the righteous" where good deeds are recorded is called this (meaning). :: 'Illiyyun || H: Qur'an 83:18-19
 The record of the wicked is called this. :: Sijjin || H: Qur'an 83:7
 Our Beloved Master ﷺ said Allah's mercy has this many parts, and one came down to the world. :: 100 || H: Sahih al-Bukhari
 Because of that one part, a mother animal does this. :: Lifts its hoof so it does not hurt its baby || H: Sahih al-Bukhari
@@ -251,10 +251,10 @@ Allah wrote above His Throne: "My mercy" does this to "My anger". :: Comes befor
 Our Beloved Prophet ﷺ said the people of Jannah will have no spit, no this. :: No tiredness, no sickness (no waste) || H: Sahih Muslim
 The people of Jannah will all be this age, by the hadith. :: 33 || H: Sunan al-Tirmidhi
 On the Day, death will be brought in the form of this animal and slaughtered. :: A ram || H: Sahih al-Bukhari
-After that, the people of Jannah and the Fire will be told this. :: "Forever, no more death" || H: Sahih al-Bukhari
+After death is brought as a ram and slaughtered, the people of Jannah and the Fire will be told this. :: "Forever, no more death" || H: Sahih al-Bukhari
 The angels Harut and Marut were in this city. :: Babil (Babylon) || H: Qur'an 2:102
-The angels asked about Adam: "Will You place on it one who will cause" this. :: Corruption and bloodshed || H: Qur'an 2:30
-Allah answered the angels: "I know what" this. :: You do not know || H: Qur'an 2:30
+The angels asked about Adam (عليه السلام): "Will You place on it one who will cause" this (meaning). :: Corruption and bloodshed || H: Qur'an 2:30
+Allah answered the angels: "I know what" this (meaning). :: You do not know || H: Qur'an 2:30
 The house in the seventh heaven where 70,000 angels pray each day. :: al-Bayt al-Ma'mur || H: Sahih al-Bukhari
 The tree at the farthest boundary that our Beloved Prophet ﷺ saw on the Mi'raj. :: Sidrat al-Muntaha || H: Qur'an 53:14
 The animal our Beloved Master ﷺ rode on the Night Journey. :: al-Buraq || H: Sahih al-Bukhari

@@ -99,6 +99,15 @@ const en = {
   audienceFull: 'Full screen',
   hostOnly: 'Only you can see this',
   showOnScreen: 'Show answer on screen',
+  adjust: 'Adjust scores',
+  adjustHelp: 'Fix a score by hand, for example after the judge overturns a ruling. Changes show on the audience screen straight away.',
+  adjustAmount: 'Points',
+  adjustAdd: 'Add',
+  adjustTake: 'Take away',
+  adjustLog: 'Changes made here',
+  adjustNone: 'No changes yet.',
+  undo: 'Undo',
+  done: 'Done',
 }
 
 const ar: typeof en = {
@@ -200,6 +209,15 @@ const ar: typeof en = {
   audienceFull: 'ملء الشاشة',
   hostOnly: 'هذا ظاهر لك فقط',
   showOnScreen: 'اعرض الإجابة على الشاشة',
+  adjust: 'تعديل النقاط',
+  adjustHelp: 'عدّل النقاط يدوياً، مثلاً عندما يُلغي الحَكَم قراراً. تظهر التعديلات على شاشة الجمهور فوراً.',
+  adjustAmount: 'النقاط',
+  adjustAdd: 'إضافة',
+  adjustTake: 'خصم',
+  adjustLog: 'التعديلات التي أُجريت هنا',
+  adjustNone: 'لا توجد تعديلات بعد.',
+  undo: 'تراجع',
+  done: 'تم',
 }
 
 export const STRINGS = { en, ar }

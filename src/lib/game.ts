@@ -80,6 +80,20 @@ export function score(game: Game, team: number, delta: number): Game {
   return { ...game, teams: game.teams.map((t, i) => (i === team ? { ...t, score: t.score + delta } : t)) }
 }
 
+/** Largest single hand adjustment the host can make, so a typo can't wreck a score. */
+export const MAX_ADJUST = 10_000
+
+/**
+ * Host's manual correction (an overturned ruling, a wrong answer key, a penalty).
+ * Rounds to whole points; ignores amounts that are zero, not numbers, too large, or for a team that doesn't exist.
+ */
+export function adjustScore(game: Game, team: number, delta: number): Game {
+  const d = Math.round(delta)
+  if (!Number.isFinite(d) || d === 0 || Math.abs(d) > MAX_ADJUST) return game
+  if (!Number.isInteger(team) || team < 0 || team >= game.teams.length) return game
+  return score(game, team, d)
+}
+
 export function markUsed(game: Game, c: number, l: number): Game {
   const key = tileKey(c, l)
   return game.used.includes(key) ? game : { ...game, used: [...game.used, key] }

@@ -5,7 +5,9 @@ import type { Game, Lang } from '../lib/types'
 import { VALUES } from '../lib/types'
 import type { Strings } from '../lib/i18n'
 import { num } from '../lib/i18n'
-import { isFinished, markUsed, score, tileKey } from '../lib/game'
+import { adjustScore, isFinished, markUsed, score, tileKey } from '../lib/game'
+import { createPortal } from 'react-dom'
+import AdjustScores, { type Adjustment } from './AdjustScores'
 import { burst, burstAt, reducedMotion } from '../lib/fx'
 import { CONSENT_TEXT } from '../lib/legal'
 import { HOST_EDITION, type Live } from '../lib/edition'
@@ -29,6 +31,8 @@ interface Open {
 export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) {
   const [open, setOpen] = useState<Open | null>(null)
   const [intro] = useState(() => game.used.length === 0)
+  const [adjusting, setAdjusting] = useState(false)
+  const [adjustLog, setAdjustLog] = useState<Adjustment[]>([])
   const boardRef = useRef<HTMLDivElement>(null)
   const cols = game.cats.length
   const left = cols * 5 - game.used.length
@@ -72,16 +76,40 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
     })
   }
 
+  const adjust = (team: number, delta: number) => {
+    const before = game.teams[team]?.score
+    const next = adjustScore(game, team, delta)
+    if (next.teams[team]?.score === before) return
+    setGame(next)
+    setAdjustLog((l) => [...l, { team, delta }])
+  }
+  const undoAdjust = () => {
+    const last = adjustLog[adjustLog.length - 1]
+    if (!last) return
+    setGame((g) => adjustScore(g, last.team, -last.delta))
+    setAdjustLog((l) => l.slice(0, -1))
+  }
+
   return (
     <main className="stack">
       <div className="game-top">
         <span className="label">
           {num(left, lang)} {t.round}
         </span>
-        <button className="ghost" onClick={onEnd} data-testid="end">
-          {t.endGame}
-        </button>
+        <div className="game-top-actions">
+          <button className="ghost" onClick={() => setAdjusting(true)} disabled={!!open} data-testid="adjust-open">
+            {t.adjust}
+          </button>
+          <button className="ghost" onClick={onEnd} data-testid="end">
+            {t.endGame}
+          </button>
+        </div>
       </div>
+      {adjusting &&
+        createPortal(
+          <AdjustScores t={t} lang={lang} game={game} log={adjustLog} onAdjust={adjust} onUndo={undoAdjust} onClose={() => setAdjusting(false)} />,
+          document.body,
+        )}
       <section className="stage">
         <div className="sadu-band" aria-hidden="true" />
         <div className="board-scroll">

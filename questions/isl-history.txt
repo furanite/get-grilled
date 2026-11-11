@@ -9,7 +9,6 @@ The Islamic calendar follows this heavenly body. :: The moon || H: Qur'an 2:189
 The number of months in the Islamic year. :: 12 || H: Qur'an 9:36
 The first month of the Islamic year. :: Muharram || H: Tarikh al-Tabari
 The month of fasting. :: Ramadan || H: Qur'an 2:185
-The month of Hajj. :: Dhul-Hijjah || H: Sahih al-Bukhari
 The number of sacred months. :: 4 || H: Qur'an 9:36
 The dynasty that ruled from Damascus after the Rightly Guided Caliphs. :: The Umayyads || H: Tarikh al-Tabari
 The dynasty that ruled from Baghdad. :: The Abbasids || H: Tarikh al-Tabari
@@ -21,7 +20,7 @@ The Ayyubid sultan who freed Jerusalem in 583 AH / 1187 CE. :: Salah al-Din al-A
 The battle that opened the way for Salah al-Din to Jerusalem. :: The Battle of Hattin || H: al-Nawadir al-Sultaniyyah (Ibn Shaddad)
 The empire that ruled from Istanbul. :: The Ottoman Empire || H: Standard history
 The Ottoman sultan who conquered Constantinople in 857 AH / 1453 CE. :: Sultan Muhammad al-Fatih || H: Standard history
-The famous "House of Wisdom" was in this city. :: Baghdad (Bayt al-Hikmah) || H: Standard history
+The famous "House of Wisdom" was in this city (meaning). :: Baghdad (Bayt al-Hikmah) || H: Standard history
 The Umayyad caliph known for justice, sometimes called the fifth Rightly Guided Caliph. :: 'Umar ibn 'Abd al-'Aziz رحمة الله عليه || H: Siyar A'lam al-Nubala' (al-Dhahabi)
 The city in North Africa founded by 'Uqbah ibn Nafi' as a base. :: al-Qayrawan || H: Tarikh al-Tabari
 A hijri month lasts 29 days or this many. :: 30 || H: Sahih al-Bukhari
@@ -57,7 +56,7 @@ The Muslim navy first won a great sea battle against the Byzantines under our ma
 The scholar of history who wrote Tarikh al-Rusul wal-Muluk. :: Ibn Jarir al-Tabari رحمة الله عليه || H: Tarikh al-Tabari
 The scholar who wrote al-Muqaddimah on history and society. :: Ibn Khaldun رحمة الله عليه || H: al-Muqaddimah
 Ibn Khaldun رحمة الله عليه was born in this city. :: Tunis || H: al-Ta'rif bi-Ibn Khaldun
-Ibn Khaldun's idea of group feeling that builds states. :: 'Asabiyyah || H: al-Muqaddimah
+Ibn Khaldun's رحمة الله عليه idea of group feeling that builds states. :: 'Asabiyyah || H: al-Muqaddimah
 The traveller and judge of Tangier who journeyed for nearly 30 years. :: Ibn Battutah رحمة الله عليه || H: Rihlat Ibn Battutah
 The Andalusian traveller who wrote a famous Rihlah on his Hajj journey. :: Ibn Jubayr رحمة الله عليه || H: Rihlat Ibn Jubayr
 The Umayyad general who conquered Sind in 92 AH / 711 CE. :: Muhammad ibn al-Qasim al-Thaqafi || H: Futuh al-Buldan (al-Baladhuri)
@@ -119,7 +118,7 @@ The scholar-scientist of Ghazni's court who wrote on India. :: al-Biruni || H: T
 The Muslim geographer who made a world map for King Roger of Sicily. :: al-Idrisi || H: Nuzhat al-Mushtaq
 The Muslim polymath of Basrah who wrote the Book of Optics. :: Ibn al-Haytham || H: Kitab al-Manazir
 The scholar of Khwarazm whose name gave us "algorithm". :: al-Khwarizmi || H: al-Kitab al-Mukhtasar fi Hisab al-Jabr
-The Muslim physician whose "Canon of Medicine" was taught for centuries. :: Ibn Sina || H: al-Qanun fil-Tibb
+The Muslim physician whose "Canon of Medicine" was taught for centuries (meaning). :: Ibn Sina || H: al-Qanun fil-Tibb
 The surgeon of al-Andalus who wrote al-Tasrif. :: al-Zahrawi || H: al-Tasrif
 The Ottoman architect of the Süleymaniye Mosque. :: Mimar Sinan || H: Standard history
 The madrasah founded in 457 AH / 1065 CE in Baghdad by Nizam al-Mulk. :: al-Nizamiyyah || H?: Wafayat al-A'yan (Ibn Khallikan); founding year 457 or 459 AH

@@ -1,6 +1,7 @@
 node_modules
 dist
 dist-host
+dist-artifact
 artifact
 e2e/shots
 site

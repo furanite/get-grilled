@@ -7,7 +7,7 @@ group: quran
 The science of explaining the meanings of the Qur'an. :: Tafsir || H: al-Itqan (al-Suyuti)
 The sciences about the Qur'an, its revelation, collection and reading, together called this. :: 'Ulum al-Qur'an || H: al-Itqan (al-Suyuti)
 A scholar who explains the Qur'an. :: Mufassir || H: Standard term
-The "occasions of revelation", the events that verses came down about. :: Asbab al-Nuzul || H: Asbab al-Nuzul (al-Wahidi)
+The "occasions of revelation", the events that verses came down about (meaning). :: Asbab al-Nuzul || H: Asbab al-Nuzul (al-Wahidi)
 The Companion called "Tarjuman al-Qur'an", the interpreter of the Qur'an. :: 'Abdullah ibn 'Abbas (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: al-Itqan (al-Suyuti)
 Our Beloved Master ﷺ prayed that Allah teach this Companion understanding of the religion and interpretation (paraphrased). :: 'Abdullah ibn 'Abbas (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari; Musnad Ahmad
 Explaining the Qur'an by the Qur'an, the Sunnah and the Companions is called this kind of tafsir. :: Tafsir bil-ma'thur || H: al-Itqan (al-Suyuti)
@@ -35,11 +35,11 @@ In Surah al-Nas, "al-waswas al-khannas" is the whisperer who does this. :: Withd
 "Al-Kawthar" is explained in the hadith as this. :: A river in Paradise || H: Sahih Muslim
 In Surah al-'Asr, people are in loss except those with faith, good deeds, truth and this. :: Patience || H: Qur'an 103:3
 "Taqwa" is often explained as this. :: Guarding oneself from Allah's displeasure (mindfulness) || H: Tafsir al-Tabari, 2:2
-"Al-ghayb" in "those who believe in the unseen" means this. :: What cannot be seen (Allah, angels, the Hereafter) || H: Tafsir al-Tabari, 2:3
+"Al-ghayb" in "those who believe in the unseen" means this (meaning). :: What cannot be seen (Allah, angels, the Hereafter) || H: Tafsir al-Tabari, 2:3
 The Qur'an calls the hypocrites people with a disease in this. :: Their hearts || H: Qur'an 2:10
 "Ayat al-Kursi" is so named because it mentions this. :: The Kursi (Footstool) || H: Qur'an 2:255
 The "Kursi" is wider than the heavens and the earth; the verse says it does not tire Him to preserve this. :: The heavens and the earth || H: Qur'an 2:255
-The Qur'an calls itself "a guidance for" these. :: The God-fearing (muttaqin) || H: Qur'an 2:2
+The Qur'an calls itself "a guidance for" these (meaning). :: The God-fearing (muttaqin) || H: Qur'an 2:2
 "Alif Lam Mim" and similar letters: many scholars say their meaning is known to this One. :: Allah || H: Tafsir al-Tabari, 2:1 (one of the views)
 "Sabr" in the Qur'an is explained as holding oneself to obedience, away from sin, and this. :: Patience in hardship || H: Tafsir al-Qurtubi, 2:45
 The Qur'an says Allah does not change a people's state until they change this. :: What is in themselves || H: Qur'an 13:11
@@ -50,15 +50,15 @@ The Qur'an says the believers are those whose hearts tremble when this is mentio
 "Ummah wasat" in al-Baqarah means a nation that is this. :: Just and balanced (the best) || H: Sahih al-Bukhari, 2:143
 "Fitrah" in Surah al-Rum means this. :: The natural way (the religion) Allah created people on || H: Qur'an 30:30
 "Jihad al-nafs" is struggling against this. :: The self (one's desires) || H: Sunan al-Tirmidhi
-"Dhikr" in "Remember Me and I will remember you" means this. :: Remembrance || H: Qur'an 2:152
-The Qur'an says, "Indeed, in the remembrance of Allah do hearts find" this. :: Rest (peace) || H: Qur'an 13:28
-"Ihsan" in "Allah commands justice and ihsan" means this. :: Doing good (excellence) || H: Qur'an 16:90
-That verse (16:90) is read in many Friday sermons; it also forbids immorality, wrong and this. :: Oppression (transgression) || H: Qur'an 16:90
-"Al-birr" in "Righteousness is not turning your faces east or west" means this. :: Righteousness (goodness) || H: Qur'an 2:177
+"Dhikr" in "Remember Me and I will remember you" means this (meaning). :: Remembrance || H: Qur'an 2:152
+The Qur'an says, "Indeed, in the remembrance of Allah do hearts find" this (meaning). :: Rest (peace) || H: Qur'an 13:28
+"Ihsan" in "Allah commands justice and ihsan" means this (meaning). :: Doing good (excellence) || H: Qur'an 16:90
+The verse "Allah commands justice and ihsan" (16:90, meaning) is read in many Friday sermons; it also forbids immorality, wrong and this. :: Oppression (transgression) || H: Qur'an 16:90
+"Al-birr" in "Righteousness is not turning your faces east or west" means this (meaning). :: Righteousness (goodness) || H: Qur'an 2:177
 "Al-'urwah al-wuthqa" means this. :: The firmest handhold || H: Qur'an 2:256
 
 ## 200
-The Successor (Tabi'i) and student of Ibn 'Abbas who read the Qur'an to him three times, stopping at each verse. :: Mujahid ibn Jabr رحمة الله عليه || H: Jami' al-Bayan (al-Tabari), introduction
+The Successor (Tabi'i) and student of Ibn 'Abbas (رِضْوَانُ اللَّهِ عَلَيْهِمَا) who read the Qur'an to him three times, stopping at each verse. :: Mujahid ibn Jabr رحمة الله عليه || H: Jami' al-Bayan (al-Tabari), introduction
 The famous tafsir by Imam al-Qurtubi رحمة الله عليه, focused on rulings. :: al-Jami' li-Ahkam al-Qur'an || H: Tafsir al-Qurtubi
 The tafsir by Fakhr al-Din al-Razi رحمة الله عليه, also called Mafatih al-Ghayb. :: al-Tafsir al-Kabir || H: Mafatih al-Ghayb (al-Razi)
 The tafsir by al-Baydawi رحمة الله عليه. :: Anwar al-Tanzil || H: Anwar al-Tanzil (al-Baydawi)
@@ -78,37 +78,37 @@ How our Beloved Master ﷺ told the believers to treat reports from the People o
 The word "tafsir" comes from a root meaning this. :: To uncover or make clear || H: Lisan al-'Arab
 The term for the interpretation of a verse to one of its possible meanings. :: Ta'wil || H: al-Itqan (al-Suyuti)
 The early tafsir school of Makkah was built around this Companion. :: 'Abdullah ibn 'Abbas (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: al-Itqan (al-Suyuti)
-The cause of revelation of "They ask you about the new moons" (2:189). :: Questions about the moon's phases || H: Tafsir al-Tabari, 2:189
+The cause of revelation of "They ask you about the new moons" (2:189) (meaning). :: Questions about the moon's phases || H: Tafsir al-Tabari, 2:189
 Surah 'Abasa came down about this blind Companion. :: 'Abdullah ibn Umm Maktum (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sunan al-Tirmidhi
 Surah al-Kafirun came down when Quraysh offered this. :: To worship each other's gods in turns || H: Tafsir al-Tabari, 109
 Surah al-Duha came down after a pause in revelation, when someone said this. :: His Lord had left him || H: Sahih al-Bukhari
 Surah al-Kawthar came down after an enemy called our Beloved Prophet ﷺ this, after His ﷺ sons died. :: Abtar (cut off) || H: Tafsir al-Tabari, 108:3
-The verse "Our Lord, do not take us to task if we forget" came down to ease this. :: The worry over thoughts they could not control || H: Sahih Muslim
-The verse "Allah does not burden a soul beyond its capacity" is the end of this surah. :: Surah al-Baqarah || H: Qur'an 2:286
+The verse "Our Lord, do not take us to task if we forget" came down to ease this (meaning). :: The worry over thoughts they could not control || H: Sahih Muslim
+The verse "Allah does not burden a soul beyond its capacity" is the end of this surah (meaning). :: Surah al-Baqarah || H: Qur'an 2:286
 The verse of the "lending a goodly loan" made this Companion give his garden of 600 palms. :: Abu al-Dahdah (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Musnad Ahmad
-The verse "You will never attain righteousness until you spend from what you love" made Abu Talhah give this. :: His garden of Bayruha' || H: Sahih al-Bukhari
-The verse about "those who remained behind" from Tabuk and were forgiven named this many. :: 3 || H: Qur'an 9:118; Sahih al-Bukhari
-The verse "There is no blame on the blind" was revealed about this Companion and others. :: Ibn Umm Maktum (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
-The "verse of the sword" is said by many to be in this surah. :: Surah al-Tawbah || H: Qur'an 9:5
-The verse "And among them is he who says: Permit me" refers to these people at Tabuk. :: The hypocrites || H: Qur'an 9:49
+The verse "You will never attain righteousness until you spend from what you love" made Abu Talhah (رِضْوَانُ اللَّهِ عَلَيْهِ) give this (meaning). :: His garden of Bayruha' || H: Sahih al-Bukhari
+The verse about "those who remained behind" from Tabuk and were forgiven named this many (meaning). :: 3 || H: Qur'an 9:118; Sahih al-Bukhari
+The verse "There is no blame on the blind" was revealed about this Companion and others (meaning). :: Ibn Umm Maktum (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+The "verse of the sword" is said by many to be in this surah (meaning). :: Surah al-Tawbah || H: Qur'an 9:5
+The verse "And among them is he who says: Permit me" refers to these people at Tabuk (meaning). :: The hypocrites || H: Qur'an 9:49
 "Ashab al-Kahf" were young men who fled from a king who forced this. :: Idol worship || H: Qur'an 18:13-16
 "Dhu al-Qarnayn" means "the one with" these. :: Two horns (two ends, east and west) || H: Tafsir al-Tabari, 18:83
 Most mufassirun say al-Khidr was this. :: A righteous servant (many say a Prophet) || H: Tafsir al-Qurtubi, 18:65
-The "Ma'idah" was asked for by these people. :: The disciples of 'Isa (al-Hawariyyun) || H: Qur'an 5:112
-The people "who were turned into apes" broke the rule of this day. :: The Sabbath (Saturday) || H: Qur'an 2:65
+The "Ma'idah" was asked for by these people. :: The disciples of 'Isa (عليه السلام) (al-Hawariyyun) || H: Qur'an 5:112
+The people "who were turned into apes" broke the rule of this day (meaning). :: The Sabbath (Saturday) || H: Qur'an 2:65
 "Al-Mujadilah" refers to the woman who argued about this practice. :: Zihar || H: Qur'an 58:1-4
 The verses on the "Ifk" (slander) are in this surah. :: Surah al-Nur || H: Qur'an 24:11-20
 The verse of "li'an" (mutual cursing) came down about this Companion. :: Hilal ibn Umayyah (or 'Uwaymir al-'Ajlani) (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: Sahih al-Bukhari
-The verse "O you who believe, do not raise your voices" came down after Abu Bakr and 'Umar argued over this. :: Whom to make leader of a delegation (Banu Tamim) || H: Sahih al-Bukhari
-The verse "Do not say to one who greets you, 'You are not a believer'" came down after this happened. :: A man was killed who had given the greeting || H: Sahih al-Bukhari
-The verse "They ask you about wine and gambling" said that their sin is this. :: Greater than their benefit || H: Qur'an 2:219
-"Ya'juj and Ma'juj" were held back by this. :: A barrier (of iron and copper) || H: Qur'an 18:94-97
+The verse "O you who believe, do not raise your voices" came down after our masters Abu Bakr and 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِمَا) differed over this (meaning). :: Whom to make leader of a delegation (Banu Tamim) || H: Sahih al-Bukhari
+The verse "Do not say to one who greets you, 'You are not a believer'" came down after this happened (meaning). :: A man was killed who had given the greeting || H: Sahih al-Bukhari
+The verse "They ask you about wine and gambling" said that their sin is this (meaning). :: Greater than their benefit || H: Qur'an 2:219
+"Ya'juj and Ma'juj" were held back by this (meaning). :: A barrier (of iron and copper) || H: Qur'an 18:94-97
 "Luqman" taught his son not to turn his this away from people in pride. :: Cheek (face) || H: Qur'an 31:18
-The verse "Whoever kills a soul..., it is as if he killed all mankind" is in this surah. :: Surah al-Ma'idah || H: Qur'an 5:32
+The verse "Whoever kills a soul..., it is as if he killed all mankind" is in this surah (meaning). :: Surah al-Ma'idah || H: Qur'an 5:32
 "Al-amanah" in Surah al-Ahzab is often explained as this. :: The duties of religion (obligations) || H: Tafsir al-Tabari, 33:72
 "Al-sab' al-mathani" in Surah al-Hijr refers to this. :: Surah al-Fatihah || H: Sahih al-Bukhari
 "Al-Qadr" (the Night) is so named, some say, because it is the night of this. :: Decree (and of great honour) || H: Tafsir al-Tabari, 97:1
-"Al-ruh" in "The angels and the Ruh descend" refers to this angel, by most mufassirun. :: Jibril (عليه السلام) || H: Tafsir al-Tabari, 97:4
+"Al-ruh" in "The angels and the Ruh descend" refers to this angel, by most mufassirun (meaning). :: Jibril (عليه السلام) || H: Tafsir al-Tabari, 97:4
 
 ## 300
 The early tafsir school of Kufah was built around this Companion. :: 'Abdullah ibn Mas'ud (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: al-Itqan (al-Suyuti)
@@ -126,10 +126,9 @@ The verse of the turning of the qiblah is in this surah. :: Surah al-Baqarah || 
 The qiblah was changed this many months after the Hijrah, roughly. :: About 16 or 17 || H: Sahih al-Bukhari
 The term for a word that occurs only once in the Qur'an. :: Hapax (farid) || H?: Term to be checked with a Qur'an sciences teacher
 The tafsir of Ibn 'Atiyyah رحمة الله عليه of al-Andalus. :: al-Muharrar al-Wajiz || H: al-Muharrar al-Wajiz (Ibn 'Atiyyah)
-The Mu'tazili tafsir known for its grammar and rhetoric, read with care by Sunni scholars. :: al-Kashshaf (al-Zamakhshari) || H: al-Kashshaf; Anwar al-Tanzil (al-Baydawi) draws on it
 Al-Baydawi's tafsir summarised which earlier tafsir, removing its Mu'tazili views. :: al-Kashshaf || H: Kashf al-Zunun (Hajji Khalifah)
 The verse that ends "This day I have perfected your religion for you" (meaning) came down on this day. :: The Day of 'Arafah || H: Sahih al-Bukhari; Sahih Muslim
-That verse is in this surah. :: Surah al-Ma'idah (5:3) || H: Qur'an 5:3
+The verse "This day I have perfected your religion for you" (meaning) is in this surah. :: Surah al-Ma'idah (5:3) || H: Qur'an 5:3
 A general ('amm) word narrowed to some of its meaning is called this. :: Takhsis (specification) || H: al-Itqan (al-Suyuti)
 The tafsir of Ibn Kathir رحمة الله عليه was written by a scholar who died in this year. :: 774 AH / 1373 CE || H: Standard biography
 The tafsir al-Jalalayn was begun by al-Mahalli and finished by this scholar. :: Jalal al-Din al-Suyuti رحمة الله عليه || H: Standard reference
@@ -149,20 +148,20 @@ The tafsir of Sahl al-Tustari رحمة الله عليه is one of the first of 
 Al-Suyuti lists the Companions known for tafsir: the four Caliphs, Ibn Mas'ud, Ibn 'Abbas, Ubayy, Zayd, Abu Musa and this one. :: 'Abdullah ibn al-Zubayr (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: al-Suyuti, al-Itqan
 Al-Suyuti says the Caliph from whom most tafsir is reported is this one. :: Our master 'Ali ibn Abi Talib (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: al-Suyuti, al-Itqan
 The Successor Mujahid رحمة الله عليه died in this year, approximately. :: 104 AH / 722 CE || H: Standard biography
-The Successor known for tafsir in Kufah, student of Ibn Mas'ud's students, d. 96 AH. :: Ibrahim al-Nakha'i رحمة الله عليه || H: Standard biography
+The Successor known for tafsir in Kufah, student of Ibn Mas'ud's (رِضْوَانُ اللَّهِ عَلَيْهِ) students, d. 96 AH. :: Ibrahim al-Nakha'i رحمة الله عليه || H: Standard biography
 The Successor of Basrah, great preacher and mufassir, d. 110 AH / 728 CE. :: al-Hasan al-Basri رحمة الله عليه || H: Standard biography
 Zayd ibn Aslam رحمة الله عليه taught tafsir in this city. :: Madinah || H: Standard biography
 The famous early tafsir by Muqatil ibn Sulayman is treated with this by the hadith scholars. :: Caution (his narrations are weak) || H: Standard criticism (al-Dhahabi, Mizan)
 The tafsir by narrations of 'Abd al-Razzaq al-San'ani رحمة الله عليه is from this region. :: Yemen || H: Standard biography
-The verse of riba "Allah destroys riba and increases" this. :: Charity (sadaqat) || H: Qur'an 2:276
-The verse "Allah has permitted trade and forbidden riba" answers people who said this. :: Trade is just like riba || H: Qur'an 2:275
-The "verse of hijab" telling the Companions to ask our Beloved Prophet's ﷺ wives from behind a screen came down at this wedding. :: The wedding of Zaynab bint Jahsh (رِضْوَانُ اللَّهِ عَلَيْهَا) || H: Sahih al-Bukhari
-The verse "And do not think those killed in the way of Allah are dead" came down about the martyrs of this battle. :: Uhud || H: Sunan Abi Dawud
-The verse "Those to whom people said: 'The people have gathered against you'" came after this battle. :: Uhud (Hamra' al-Asad) || H: Sahih al-Bukhari
-The verse "So Allah has heard the word of the woman who disputes" was praised by 'A'ishah who said this of Allah's hearing. :: It encompasses all voices || H: Sunan al-Nasa'i
-The verse "And those who annoy the believing men and women" warns against this. :: Hurting them undeservedly || H: Qur'an 33:58
-The verse "Indeed, We have granted you a clear victory" referred to this event. :: The Treaty of Hudaybiyyah || H: Sahih al-Bukhari
-The verse on the "people of the mosque founded on taqwa" refers to this mosque, by one view. :: Masjid Quba' (or our Beloved Prophet's ﷺ mosque) || H: Sunan Abi Dawud; Sahih Muslim
+The verse of riba "Allah destroys riba and increases" this (meaning). :: Charity (sadaqat) || H: Qur'an 2:276
+The verse "Allah has permitted trade and forbidden riba" answers people who said this (meaning). :: Trade is just like riba || H: Qur'an 2:275
+The "verse of hijab" telling the Companions to ask our Beloved Prophet's ﷺ wives from behind a screen came down at this wedding (meaning). :: The wedding of Zaynab bint Jahsh (رِضْوَانُ اللَّهِ عَلَيْهَا) || H: Sahih al-Bukhari
+The verse "And do not think those killed in the way of Allah are dead" came down about the martyrs of this battle (meaning). :: Uhud || H: Sunan Abi Dawud
+The verse "Those to whom people said: 'The people have gathered against you'" came after this battle (meaning). :: Uhud (Hamra' al-Asad) || H: Sahih al-Bukhari
+The verse "So Allah has heard the word of the woman who disputes" was praised by our lady 'A'ishah (رِضْوَانُ اللَّهِ عَلَيْهَا), who said this of Allah's hearing (meaning). :: It encompasses all voices || H: Sunan al-Nasa'i
+The verse "And those who annoy the believing men and women" warns against this (meaning). :: Hurting them undeservedly || H: Qur'an 33:58
+The verse "Indeed, We have granted you a clear victory" referred to this event (meaning). :: The Treaty of Hudaybiyyah || H: Sahih al-Bukhari
+The verse on the "people of the mosque founded on taqwa" refers to this mosque, by one view (meaning). :: Masjid Quba' (or our Beloved Prophet's ﷺ mosque) || H: Sunan Abi Dawud; Sahih Muslim
 
 ## 400
 The term for verses that were revealed more than once. :: Ma nazala mukarraran || H: al-Itqan (al-Suyuti)
@@ -194,7 +193,7 @@ The term for a verse that is unrestricted, then restricted elsewhere. :: Mutlaq 
 The term for a brief verse explained in detail elsewhere. :: Mujmal and mubayyan || H: al-Suyuti, al-Itqan
 The term for what a verse means by its direct wording. :: Mantuq || H: al-Suyuti, al-Itqan
 The term for what a verse implies beyond its wording. :: Mafhum || H: al-Suyuti, al-Itqan
-The tafsir by Ibn 'Abd al-Salam رحمة الله عليه, the "Sultan of the Scholars", is a summary of this. :: al-Mawardi's tafsir al-Nukat wal-'Uyun || H?: Check which tafsir Ibn 'Abd al-Salam summarised
+The tafsir by Ibn 'Abd al-Salam رحمة الله عليه, the "Sultan of the Scholars", is a summary of this (meaning). :: al-Mawardi's tafsir al-Nukat wal-'Uyun || H?: Check which tafsir Ibn 'Abd al-Salam summarised
 The scholar who wrote "al-Kashf 'an Wujuh al-Qira'at" explaining readings, d. 437 AH. :: Makki ibn Abi Talib رحمة الله عليه || H: Standard reference
 The study of the different meanings a word can have in the Qur'an. :: al-Wujuh wal-Naza'ir || H: al-Suyuti, al-Itqan
 The book "al-Wujuh wal-Naza'ir" is attributed to this early mufassir. :: Muqatil ibn Sulayman || H: Standard reference
@@ -209,15 +208,15 @@ The tafsir "al-Siraj al-Munir" is by this Shafi'i scholar of Egypt. :: al-Khatib
 The tafsir by al-Biqa'i رحمة الله عليه focuses on this. :: The links between verses and surahs || H: Standard reference
 The tafsir by Abu al-Layth al-Samarqandi رحمة الله عليه is called this. :: Bahr al-'Ulum || H: Standard reference
 Abu al-Layth al-Samarqandi رحمة الله عليه followed this school of fiqh. :: Hanafi || H: Standard biography
-The verse "Is not Allah sufficient for His servant?" is in this surah. :: Surah al-Zumar || H: Qur'an 39:36
-The verse "Say: O My servants who have wronged themselves, do not despair of Allah's mercy" is in this surah. :: Surah al-Zumar || H: Qur'an 39:53
+The verse "Is not Allah sufficient for His servant?" is in this surah (meaning). :: Surah al-Zumar || H: Qur'an 39:36
+The verse "Say: O My servants who have wronged themselves, do not despair of Allah's mercy" is in this surah (meaning). :: Surah al-Zumar || H: Qur'an 39:53
 Many scholars call 39:53 the most hopeful verse; others name this verse in al-Duha. :: "Your Lord will give you, and you will be pleased" (93:5) || H: Tafsir al-Qurtubi
-The verse "Allah does not forgive that partners be associated with Him" is in this surah. :: Surah al-Nisa' || H: Qur'an 4:48
-The verse of "the seven heavens and of the earth the like of them" is in this surah. :: Surah al-Talaq || H: Qur'an 65:12
-The verse "Every day He is about some matter" is in this surah. :: Surah al-Rahman || H: Qur'an 55:29
-The verse "And hold firmly to the rope of Allah all together" is in this surah. :: Surah Al 'Imran || H: Qur'an 3:103
-The verse "You are the best nation brought forth for mankind" is in this surah. :: Surah Al 'Imran || H: Qur'an 3:110
-The verse "And consult them in the matter" refers to our Beloved Master ﷺ consulting the Companions after this battle. :: Uhud || H: Tafsir al-Tabari, 3:159
+The verse "Allah does not forgive that partners be associated with Him" is in this surah (meaning). :: Surah al-Nisa' || H: Qur'an 4:48
+The verse of "the seven heavens and of the earth the like of them" is in this surah (meaning). :: Surah al-Talaq || H: Qur'an 65:12
+The verse "Every day He is about some matter" is in this surah (meaning). :: Surah al-Rahman || H: Qur'an 55:29
+The verse "And hold firmly to the rope of Allah all together" is in this surah (meaning). :: Surah Al 'Imran || H: Qur'an 3:103
+The verse "You are the best nation brought forth for mankind" is in this surah (meaning). :: Surah Al 'Imran || H: Qur'an 3:110
+The verse "And consult them in the matter" refers to our Beloved Master ﷺ consulting the Companions after this battle (meaning). :: Uhud || H: Tafsir al-Tabari, 3:159
 
 ## 500
 The number of types of Qur'an sciences that al-Suyuti رحمة الله عليه lists in al-Itqan. :: 80 || H: al-Itqan (al-Suyuti), introduction
@@ -225,7 +224,7 @@ The number of types that al-Zarkashi رحمة الله عليه lists in al-Burh
 The teacher of al-Suyuti رحمة الله عليه who wrote on Qur'an sciences, al-Taysir fi 'Ilm al-Tafsir. :: al-Kafiyaji رحمة الله عليه || H: al-Itqan (al-Suyuti), introduction
 The Companion who said there is no verse but he knew where and about what it was revealed (paraphrased). :: 'Abdullah ibn Mas'ud (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari, Virtues of the Qur'an
 The Successor and student of Ibn 'Abbas (رِضْوَانُ اللَّهِ عَلَيْهِ), known for tafsir, killed by al-Hajjaj in 95 AH / 714 CE. :: Sa'id ibn Jubayr رحمة الله عليه || H: Siyar A'lam al-Nubala' (al-Dhahabi)
-The Successor, student of Ibn 'Abbas, known for tafsir and fiqh, d. 105 AH / 723 CE. :: 'Ikrimah رحمة الله عليه || H?: Siyar A'lam al-Nubala' (al-Dhahabi); date to be checked
+The Successor, student of Ibn 'Abbas (رِضْوَانُ اللَّهِ عَلَيْهِمَا), known for tafsir and fiqh, d. 105 AH / 723 CE. :: 'Ikrimah رحمة الله عليه || H?: Siyar A'lam al-Nubala' (al-Dhahabi); date to be checked
 The Successor of Basrah, known for tafsir, d. 117 AH / 735 CE, who was born blind. :: Qatadah ibn Di'amah رحمة الله عليه || H?: Siyar A'lam al-Nubala' (al-Dhahabi)
 The kind of naskh where both wording and ruling were lifted. :: Naskh al-tilawah wal-hukm || H: al-Itqan (al-Suyuti)
 The famous verse of Surah al-Ahzab on "the trust" offered to the heavens, earth and mountains. :: Qur'an 33:72 || H: Qur'an 33:72
@@ -241,8 +240,8 @@ The scholar of rhetoric whose Dala'il al-I'jaz explained the Qur'an's inimitabil
 The term for the way of reading a verse's sign meanings by the people of tasawwuf, kept within the outward meaning. :: Tafsir ishari || H: al-Itqan (al-Suyuti)
 A well-known ishari tafsir by Abu 'Abd al-Rahman al-Sulami رحمة الله عليه. :: Haqa'iq al-Tafsir || H: Haqa'iq al-Tafsir (al-Sulami)
 Ibn 'Abbas (رِضْوَانُ اللَّهِ عَلَيْهِمَا) said tafsir has four kinds: what the Arabs know from their language, what no one is excused for not knowing, what scholars know, and this. :: What only Allah knows || H: Tafsir al-Tabari (introduction)
-Al-Tabari رحمة الله عليه often says "the most correct of the views in my opinion" introducing this. :: His own preference (tarjih) || H: Tafsir al-Tabari
-The full title of al-Tabari's tafsir. :: Jami' al-Bayan 'an Ta'wil Ay al-Qur'an || H: Standard reference
+Al-Tabari رحمة الله عليه often says "the most correct of the views in my opinion" introducing this (meaning). :: His own preference (tarjih) || H: Tafsir al-Tabari
+The full title of al-Tabari's رحمة الله عليه tafsir. :: Jami' al-Bayan 'an Ta'wil Ay al-Qur'an || H: Standard reference
 The tafsir by Ibn Abi Hatim al-Razi رحمة الله عليه is valued for its chains from this generation. :: The Companions and Successors || H: Standard reference
 The Ash'ari scholar of tafsir who wrote al-Tafsir al-Kabir and debated the philosophers. :: Fakhr al-Din al-Razi رحمة الله عليه || H: Standard reference
 Al-Razi رحمة الله عليه did not finish his tafsir; it was completed by this scholar or his students. :: Shams al-Din al-Khuwayyi (and al-Qamuli) || H?: Check the completer named in the sources
@@ -257,21 +256,21 @@ The tafsir of Ibn 'Ashur رحمة الله عليه took this many years to writ
 The 20th-century Turkish tafsir "Hak Dini Kur'an Dili" is by this scholar. :: Elmalılı Hamdi Yazır رحمة الله عليه || H: Standard reference
 The tafsir "Safwat al-Bayan" is by this Egyptian Hanafi scholar, Mufti of Egypt. :: Hasanayn Makhluf رحمة الله عليه || H: Standard reference
 The study of verses Allah swears by, and what He swears by, is called this. :: Aqsam al-Qur'an || H: al-Suyuti, al-Itqan
-The tafsir term for "what the Arab could say" in the language of the Qur'an. :: Lughat al-'Arab (Arab usage) || H: Standard term
+The tafsir term for "what the Arab could say" in the language of the Qur'an (meaning). :: Lughat al-'Arab (Arab usage) || H: Standard term
 Ibn 'Abbas (رِضْوَانُ اللَّهِ عَلَيْهِمَا) said: if something of the Qur'an is unclear, look for it in this. :: Arab poetry || H: al-Suyuti, al-Itqan
-The questions of Nafi' ibn al-Azraq to Ibn 'Abbas, answered with lines of this. :: Poetry || H: al-Suyuti, al-Itqan
-The verse "And We sent down iron, in which is great strength" is in this surah. :: Surah al-Hadid || H: Qur'an 57:25
-The verse describing honey as "healing for people" is in this surah. :: Surah al-Nahl || H: Qur'an 16:69
-The verse "And of everything We created pairs" is in this surah. :: Surah al-Dhariyat || H: Qur'an 51:49
-The verse "And the sky We built with strength, and indeed We are expanding it" is in this surah. :: Surah al-Dhariyat || H: Qur'an 51:47
-The verse "Do they not look at the camels, how they were created" is in this surah. :: Surah al-Ghashiyah || H: Qur'an 88:17
-The verse about "the two seas" with a barrier is in al-Rahman and this surah. :: Surah al-Furqan || H: Qur'an 25:53
-The verse "We will show them Our signs in the horizons and in themselves" is in this surah. :: Surah Fussilat || H: Qur'an 41:53
-The verse "And whoever puts his trust in Allah, He is sufficient for him" is in this surah. :: Surah al-Talaq || H: Qur'an 65:3
-The verse "And whoever fears Allah, He will make for him a way out" is in this surah. :: Surah al-Talaq || H: Qur'an 65:2
-The verse "And your Lord is going to give you, and you will be pleased" is in this surah. :: Surah al-Duha || H: Qur'an 93:5
-The verse "Indeed, with hardship comes ease" is in this surah. :: Surah al-Sharh || H: Qur'an 94:6
-The verse "Read in the name of your Lord" came down in this place. :: The cave of Hira' || H: Sahih al-Bukhari
-The verse "O you wrapped in your cloak, arise and warn" came down after this. :: The pause in revelation || H: Sahih al-Bukhari
-The verse "And warn your nearest kin" led our Beloved Prophet ﷺ to call Quraysh from this hill. :: al-Safa || H: Sahih al-Bukhari
-The verse "Allah has bought from the believers their lives and their wealth" is in this surah. :: Surah al-Tawbah || H: Qur'an 9:111
+The questions of Nafi' ibn al-Azraq to Ibn 'Abbas (رِضْوَانُ اللَّهِ عَلَيْهِمَا), answered with lines of this. :: Poetry || H: al-Suyuti, al-Itqan
+The verse "And We sent down iron, in which is great strength" is in this surah (meaning). :: Surah al-Hadid || H: Qur'an 57:25
+The verse describing honey as "healing for people" is in this surah (meaning). :: Surah al-Nahl || H: Qur'an 16:69
+The verse "And of everything We created pairs" is in this surah (meaning). :: Surah al-Dhariyat || H: Qur'an 51:49
+The verse "And the sky We built with strength, and indeed We are expanding it" is in this surah (meaning). :: Surah al-Dhariyat || H: Qur'an 51:47
+The verse "Do they not look at the camels, how they were created" is in this surah (meaning). :: Surah al-Ghashiyah || H: Qur'an 88:17
+The verse about "the two seas" with a barrier is in al-Rahman and this surah (meaning). :: Surah al-Furqan || H: Qur'an 25:53
+The verse "We will show them Our signs in the horizons and in themselves" is in this surah (meaning). :: Surah Fussilat || H: Qur'an 41:53
+The verse "And whoever puts his trust in Allah, He is sufficient for him" is in this surah (meaning). :: Surah al-Talaq || H: Qur'an 65:3
+The verse "And whoever fears Allah, He will make for him a way out" is in this surah (meaning). :: Surah al-Talaq || H: Qur'an 65:2
+The verse "And your Lord is going to give you, and you will be pleased" is in this surah (meaning). :: Surah al-Duha || H: Qur'an 93:5
+The verse "Indeed, with hardship comes ease" is in this surah (meaning). :: Surah al-Sharh || H: Qur'an 94:6
+The verse "Read in the name of your Lord" came down in this place (meaning). :: The cave of Hira' || H: Sahih al-Bukhari
+The verse "O you wrapped in your cloak, arise and warn" came down after this (meaning). :: The pause in revelation || H: Sahih al-Bukhari
+The verse "And warn your nearest kin" led our Beloved Prophet ﷺ to call Quraysh from this hill (meaning). :: al-Safa || H: Sahih al-Bukhari
+The verse "Allah has bought from the believers their lives and their wealth" is in this surah (meaning). :: Surah al-Tawbah || H: Qur'an 9:111

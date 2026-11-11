@@ -759,3 +759,29 @@ textarea.input{resize:vertical;min-height:44px}
 :root[data-reduce="1"] .amb-x,:root[data-reduce="1"] .amb-x *{animation:none!important}
 @media (max-width:640px){.amb-swahili .door,.amb-suzani .med:nth-of-type(n+4){display:none}}
 .amb-x .row,.amb-x .mosque,.amb-x .skyline{filter:drop-shadow(0 -1px 10px var(--glow))}
+/* Host version explainer */
+.host-compare{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:12px;margin:12px 0}
+.host-compare section{padding:12px 14px;border-radius:14px;border:1px solid color-mix(in oklab,var(--edge) 40%,transparent);background:color-mix(in oklab,var(--bg) 50%,transparent);min-width:0}
+.host-compare section.is-host{border-color:color-mix(in oklab,var(--accent) 60%,transparent)}
+.host-compare h2{margin:0 0 4px;font-family:var(--fd);font-size:17px;letter-spacing:var(--track)}
+.host-compare ul{margin:6px 0 0;padding-inline-start:18px}
+.legal-actions a.btn{text-decoration:none;display:inline-flex;align-items:center}
+
+/* Host's score adjustment */
+.game-top-actions{display:flex;gap:8px;flex-wrap:wrap}
+.ghost:disabled{opacity:.45;cursor:not-allowed;transform:none}
+.adjust-panel{width:min(560px,100%)}
+.adjust-amount{display:grid;gap:8px;margin:12px 0 16px}
+.adjust-amount .input{max-width:200px;font-variant-numeric:tabular-nums;font-size:18px}
+.adjust-quick{display:flex;gap:6px;flex-wrap:wrap}
+.adjust-quick .chip{border:1px solid color-mix(in oklab,var(--text) 18%,transparent);background:transparent;color:var(--text);border-radius:999px;padding:6px 12px;font-size:13px;font-variant-numeric:tabular-nums}
+.adjust-quick .chip.on{border-color:var(--accent);color:var(--accent);background:color-mix(in oklab,var(--accent) 12%,transparent)}
+.adjust-teams{list-style:none;padding:0!important;margin:0 0 16px;display:grid;gap:8px}
+.adjust-teams li{display:grid;grid-template-columns:minmax(0,1fr) auto auto auto;align-items:center;gap:10px;margin:0!important;padding:10px 12px;border-radius:12px;border:1px solid color-mix(in oklab,var(--edge) 35%,transparent);background:color-mix(in oklab,var(--bg) 60%,transparent)}
+.adjust-teams b{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.adjust-score{font-family:var(--fd);font-size:22px;font-variant-numeric:tabular-nums;color:var(--accent);min-width:4ch;text-align:end}
+.adjust-score.neg,.adjust-log .neg{color:var(--accent2)}
+.adjust-teams .btn{padding:8px 14px;min-width:76px;font-variant-numeric:tabular-nums}
+.adjust-log-head{margin:4px 0 6px}
+.adjust-log{margin:0;padding:0!important;list-style:none;font-variant-numeric:tabular-nums}
+@media (max-width:480px){.adjust-teams li{grid-template-columns:minmax(0,1fr) auto}.adjust-teams .btn{min-width:0}}

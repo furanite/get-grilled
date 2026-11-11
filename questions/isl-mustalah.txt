@@ -42,7 +42,7 @@ An ahad report narrated by no fewer than two at each level. :: 'Aziz || H: Nukhb
 A report narrated by only one at some level. :: Gharib || H: Nukhbat al-Fikar (Ibn Hajar)
 A weak hadith that rises because of supporting chains. :: Hasan li-ghayrihi || H: Nukhbat al-Fikar (Ibn Hajar)
 A hasan hadith that rises because of supporting chains. :: Sahih li-ghayrihi || H: Nukhbat al-Fikar (Ibn Hajar)
-A hadith where the narrator conceals a gap in the chain, as by saying "from" instead of "he told me". :: Mudallas || H: Muqaddimah Ibn al-Salah
+A hadith where the narrator conceals a gap in the chain, as by saying "from" instead of "he told me" (meaning). :: Mudallas || H: Muqaddimah Ibn al-Salah
 The practice of hiding such a gap. :: Tadlis || H: Muqaddimah Ibn al-Salah
 A hadith with words of a narrator mixed into the text. :: Mudraj || H: Muqaddimah Ibn al-Salah
 A narrator accused of lying, whose hadith are dropped. :: Matruk || H: Nukhbat al-Fikar (Ibn Hajar)
@@ -70,7 +70,7 @@ The way of receiving where the student reads to the teacher. :: Qira'ah ('ard) |
 The permission a teacher gives to narrate his books. :: Ijazah || H: Muqaddimah Ibn al-Salah
 The way of receiving where the teacher hands over his written book. :: Munawalah || H: Muqaddimah Ibn al-Salah
 The way of receiving through a letter from the teacher. :: Mukatabah || H: Muqaddimah Ibn al-Salah
-The highest of the levels of sahih hadith. :: Those narrated by both al-Bukhari and Muslim || H: Nuzhat al-Nazar (Ibn Hajar)
+The highest of the levels of sahih hadith. :: Those narrated by both al-Bukhari and Muslim رحمة الله عليهماا || H: Nuzhat al-Nazar (Ibn Hajar)
 A hadith like sahih, but whose narrators' precision is a little lighter. :: Hasan li-dhatihi || H: Nuzhat al-Nazar (Ibn Hajar)
 A narrator in a chain who is mentioned but not named, like "a man". :: Mubham || H: Nuzhat al-Nazar (Ibn Hajar)
 'Abdullah ibn al-Mubarak رحمة الله عليه said the isnad is part of this. :: The religion || H: Muqaddimat Sahih Muslim
@@ -83,21 +83,21 @@ The book on hadith sciences by al-Hakim al-Naysaburi رحمة الله عليه.
 The book on the rules of narration by al-Khatib al-Baghdadi رحمة الله عليه. :: al-Kifayah fi 'Ilm al-Riwayah || H: al-Kifayah
 The poem in a thousand lines on hadith terms by al-'Iraqi رحمة الله عليه. :: Alfiyyat al-'Iraqi (al-Tabsirah wal-Tadhkirah) || H: Alfiyyat al-'Iraqi
 The commentary of al-Suyuti رحمة الله عليه on al-Nawawi's Taqrib. :: Tadrib al-Rawi || H: Tadrib al-Rawi
-Ibn Hajar's own commentary on his Nukhbat al-Fikar. :: Nuzhat al-Nazar || H: Nuzhat al-Nazar
+Ibn Hajar's رحمة الله عليه own commentary on his Nukhbat al-Fikar. :: Nuzhat al-Nazar || H: Nuzhat al-Nazar
 The commentary of al-Sakhawi رحمة الله عليه on the Alfiyyah of al-'Iraqi. :: Fath al-Mughith || H: Fath al-Mughith
 A Companion's statement about something only known by revelation takes this ruling. :: The ruling of marfu' (hukmuhu al-raf') || H: Nukhbat al-Fikar (Ibn Hajar)
 The view of most scholars on all the Companions' reliability. :: All are upright ('udul) || H: al-Isabah (Ibn Hajar), introduction
-The highest level of praise for a narrator, such as "most reliable of people". :: Awthaq al-nas (af'al form) || H: Nuzhat al-Nazar (Ibn Hajar)
-A hadith that al-Bukhari and Muslim both narrate from the same Companion. :: Muttafaq 'alayh || H: Standard term
-A hadith that meets al-Bukhari's and Muslim's conditions but neither narrated it. :: 'Ala shart al-shaykhayn || H: al-Mustadrak (al-Hakim)
-The category of hadith al-Tirmidhi often calls "hasan sahih". :: Both hasan and sahih by different chains or views || H: Nuzhat al-Nazar (Ibn Hajar)
+The highest level of praise for a narrator, such as "most reliable of people" (meaning). :: Awthaq al-nas (af'al form) || H: Nuzhat al-Nazar (Ibn Hajar)
+A hadith that al-Bukhari and Muslim رحمة الله عليهماا both narrate from the same Companion. :: Muttafaq 'alayh || H: Standard term
+A hadith that meets al-Bukhari's رحمة الله عليه and Muslim's conditions but neither narrated it. :: 'Ala shart al-shaykhayn || H: al-Mustadrak (al-Hakim)
+The category of hadith al-Tirmidhi رحمة الله عليه often calls "hasan sahih". :: Both hasan and sahih by different chains or views || H: Nuzhat al-Nazar (Ibn Hajar)
 A narrator whose name is known but whose state is not. :: Majhul al-hal (mastur) || H: Nukhbat al-Fikar (Ibn Hajar)
 A narrator known by only one student. :: Majhul al-'ayn || H: Nukhbat al-Fikar (Ibn Hajar)
 Most scholars accept the narration of a truthful innovator on this condition. :: He does not call others to his innovation || H: Nuzhat al-Nazar (Ibn Hajar)
 The rule for acting on a weak hadith in virtuous deeds, under conditions. :: Allowed by most scholars (fada'il al-a'mal) || H: al-Adhkar (al-Nawawi), introduction
-"Actions are by intentions" is mass-narrated later in its chain, but at its first levels it is this kind of report. :: Gharib (fard) || H: Nuzhat al-Nazar (Ibn Hajar)
-The number of ways of receiving hadith that Ibn al-Salah lists. :: 8 || H: Muqaddimah Ibn al-Salah
-Hadith of al-Bukhari with only three narrators between him and our Beloved Prophet ﷺ are called this. :: Thulathiyyat (there are 22) || H: Fath al-Bari (Ibn Hajar)
+"Actions are by intentions" is mass-narrated later in its chain, but at its first levels it is this kind of report (meaning). :: Gharib (fard) || H: Nuzhat al-Nazar (Ibn Hajar)
+The number of ways of receiving hadith that Ibn al-Salah رحمة الله عليه lists. :: 8 || H: Muqaddimah Ibn al-Salah
+Hadith of al-Bukhari رحمة الله عليه with only three narrators between him and our Beloved Prophet ﷺ are called this. :: Thulathiyyat (there are 22) || H: Fath al-Bari (Ibn Hajar)
 An extra word narrated by one reliable narrator that others did not narrate. :: Ziyadat al-thiqah || H: Nuzhat al-Nazar (Ibn Hajar)
 Receiving hadith by finding a scholar's writing, without hearing or permission. :: Wijadah || H: Muqaddimat Ibn al-Salah
 
@@ -120,7 +120,7 @@ The study of the unusual words in hadith. :: Gharib al-Hadith || H: al-Nihayah (
 The famous dictionary of unusual hadith words by Ibn al-Athir رحمة الله عليه. :: al-Nihayah fi Gharib al-Hadith || H: al-Nihayah
 The term for when a student narrates from a teacher younger than himself. :: Riwayat al-akabir 'an al-asaghir || H: Muqaddimah Ibn al-Salah
 The term for two peers narrating from each other. :: al-Mudabbaj || H: Muqaddimah Ibn al-Salah
-Ibn Hajar's term in al-Taqrib for a narrator whose hadith is accepted only when supported. :: Maqbul || H: Taqrib al-Tahdhib (introduction)
-The number of levels (tabaqat) of narrators in Ibn Hajar's Taqrib. :: 12 || H: Taqrib al-Tahdhib (introduction)
+Ibn Hajar's رحمة الله عليه term in al-Taqrib for a narrator whose hadith is accepted only when supported. :: Maqbul || H: Taqrib al-Tahdhib (introduction)
+The number of levels (tabaqat) of narrators in Ibn Hajar's رحمة الله عليه Taqrib. :: 12 || H: Taqrib al-Tahdhib (introduction)
 Receiving hadith when a teacher leaves his books to someone at his death. :: Wasiyyah || H: Muqaddimat Ibn al-Salah
 Abu Dawud رحمة الله عليه said the hadith in his Sunan that he passed over in silence are this. :: Salih (fit to use) || H: Risalat Abi Dawud ila Ahl Makkah

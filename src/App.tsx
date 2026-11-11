@@ -3,7 +3,6 @@ import type { Category, CategorySummary, Game, Lang, Screen, ThemeId } from './l
 import { hasConsent, loadCustom, loadGame, loadSettings, saveCustom, saveGame, saveSettings } from './lib/store'
 import { CONSENT_TEXT, LEGAL } from './lib/legal'
 import { ConsentDialog, Footer, LegalViewer } from './components/Legal'
-import { HostInfo, hostButtonLabel } from './components/HostInfo'
 import Review from './components/Review'
 import { DEFAULT_THEME, THEMES, themeOpen } from './lib/themes'
 import { loadIndex } from './lib/packs'
@@ -18,6 +17,7 @@ import { AudienceScreen, useAudienceWindow } from './components/Audience'
 import { APP_NAME, HOST_EDITION, appName, type Live } from './lib/edition'
 import { setFavicon } from './lib/favicon'
 import { Mark } from './components/Brand'
+import { HostLink } from './components/HostLink'
 
 export default function App() {
   const initial = useMemo(loadSettings, [])
@@ -26,7 +26,6 @@ export default function App() {
   const [reduceFx, setReduceFx] = useState<boolean>(!!initial.reduceFx)
   const [consented, setConsented] = useState(() => hasConsent(LEGAL.termsVersion))
   const [legalView, setLegalView] = useState<'terms' | 'privacy' | null>(null)
-  const [hostInfo, setHostInfo] = useState(false)
   // #review opens the Scholar review page directly (a link the owner can send to scholars).
   const [screen, setScreen] = useState<Screen>(() => (location.hash === '#review' ? 'review' : 'home'))
   const [custom, setCustomState] = useState<Category[]>(loadCustom)
@@ -135,11 +134,7 @@ export default function App() {
                   {audience.isOpen ? t.audienceClose : t.audienceOpen}
                 </button>
               )}
-              {!HOST_EDITION && (
-                <button className="ghost" onClick={() => setHostInfo(true)} data-testid="host-link">
-                  {hostButtonLabel(lang)}
-                </button>
-              )}
+              {!HOST_EDITION && <HostLink lang={lang} />}
               {screen === 'game' && (
                 <button
                   className="ghost"
@@ -208,7 +203,6 @@ export default function App() {
       </div>
       {!consented && <ConsentDialog lang={lang} setLang={setLang} reduceFx={reduceFx} setReduceFx={setReduceFx} onAccept={() => setConsented(true)} />}
       {consented && legalView && <LegalViewer which={legalView} lang={lang} onClose={() => setLegalView(null)} />}
-      {hostInfo && <HostInfo lang={lang} onClose={() => setHostInfo(false)} />}
       {HOST_EDITION && audience.win && audience.root && (
         <AudienceScreen win={audience.win} root={audience.root} t={t} lang={lang} theme={theme} reduceFx={reduceFx} screen={screen} game={game} live={screen === 'game' ? live : null} />
       )}
