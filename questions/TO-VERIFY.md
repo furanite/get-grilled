@@ -130,16 +130,17 @@ This file is rewritten by `npm run packs`.
 
 ## Seerah: the Madinan years (questions/isl-seerah-madinah.txt)
 
-- **500**, line 99: Usamah (رِضْوَانُ اللَّهِ عَلَيْهِ) was about this age when he led it. **Answer:** 18 _(Source: Siyar A'lam al-Nubala' (al-Dhahabi); reports say 17 to 20)_
-- **500**, line 109: Our Beloved Prophet ﷺ said to Quraysh at the opening of Makkah: "Go, you are free" (meaning); this freedom is called this. **Answer:** al-Tulaqa' (those set free) _(Source: Sirat Ibn Hisham; wording to be checked)_
-- **500**, line 113: The Companion of Badr who was the first to die in Madinah from the Muhajirun, by one view, and was kissed by our Beloved Master ﷺ. **Answer:** Our master 'Uthman ibn Maz'un (رِضْوَانُ اللَّهِ عَلَيْهِ) _(Source: Sunan Abi Dawud; to be checked)_
+- **500**, line 117: Usamah (رِضْوَانُ اللَّهِ عَلَيْهِ) was about this age when he led it. **Answer:** 18 _(Source: Siyar A'lam al-Nubala' (al-Dhahabi); reports say 17 to 20)_
+- **500**, line 127: Our Beloved Prophet ﷺ said to Quraysh at the opening of Makkah: "Go, you are free" (meaning); this freedom is called this. **Answer:** al-Tulaqa' (those set free) _(Source: Sirat Ibn Hisham; wording to be checked)_
+- **500**, line 131: The Companion of Badr who was the first to die in Madinah from the Muhajirun, by one view, and was kissed by our Beloved Master ﷺ. **Answer:** Our master 'Uthman ibn Maz'un (رِضْوَانُ اللَّهِ عَلَيْهِ) _(Source: Sunan Abi Dawud; to be checked)_
 
 ## Seerah: the Makkan years (questions/isl-seerah-makkah.txt)
 
-- **300**, line 69: The woman whose dry goat gave milk when our Beloved Prophet ﷺ passed her tent. **Answer:** Umm Ma'bad (رِضْوَانُ اللَّهِ عَلَيْهَا) _(Source: al-Mustadrak (al-Hakim); to be checked)_
-- **400**, line 89: Our Beloved Prophet ﷺ left Makkah on the Hijrah in this month. **Answer:** Safar (arrived in Rabi' al-Awwal) _(Source: Sirat Ibn Hisham; reports differ)_
-- **500**, line 97: Ibn Hisham رحمة الله عليه died in this year. **Answer:** 218 AH / 833 CE _(Source: Wafayat al-A'yan (Ibn Khallikan); to be checked)_
-- **500**, line 110: The Ansari Companion who led the second pledge, among the twelve leaders (nuqaba'). **Answer:** al-Bara' ibn Ma'rur (رِضْوَانُ اللَّهِ عَلَيْهِ) _(Source: Sirat Ibn Hisham; to be checked)_
+- **300**, line 85: The woman whose dry goat gave milk when our Beloved Prophet ﷺ passed her tent. **Answer:** Umm Ma'bad (رِضْوَانُ اللَّهِ عَلَيْهَا) _(Source: al-Mustadrak (al-Hakim); to be checked)_
+- **400**, line 112: Our Beloved Prophet ﷺ left Makkah on the Hijrah in this month. **Answer:** Safar (arrived in Rabi' al-Awwal) _(Source: Sirat Ibn Hisham; reports differ)_
+- **500**, line 127: Ibn Hisham رحمة الله عليه died in this year. **Answer:** 218 AH / 833 CE _(Source: Wafayat al-A'yan (Ibn Khallikan); to be checked)_
+- **500**, line 140: The Ansari Companion who led the second pledge, among the twelve leaders (nuqaba'). **Answer:** al-Bara' ibn Ma'rur (رِضْوَانُ اللَّهِ عَلَيْهِ) _(Source: Sirat Ibn Hisham; to be checked)_
+- **500**, line 150: Ibn Ishaq رحمة الله عليه died in about this year. **Answer:** 150 AH / 767 CE _(Source: Tarikh Baghdad (al-Khatib al-Baghdadi); reports say 150 to 153)_
 
 ## Tafsir and Ulum al-Qur'an (questions/isl-tafsir.txt)
 
