@@ -25,11 +25,11 @@ The chain of narrators that carries a hadith. :: Isnad || H: Muqaddimah Ibn al-S
 Imam al-Bukhari رحمة الله عليه was born in this city of Central Asia. :: Bukhara || H: Tarikh Baghdad (al-Khatib)
 Imam Muslim رحمة الله عليه was born in this city of Khurasan. :: Nishapur || H: Tarikh Baghdad (al-Khatib)
 Our Beloved Prophet ﷺ said a Muslim is one from whose tongue and this other Muslims are safe. :: Hand || H: Sahih al-Bukhari
-Allah does not look at your bodies or forms, but at these. :: Your hearts and deeds || H: Sahih Muslim
-Whoever Allah wants good for, He gives him understanding in this. :: The religion || H: Sahih al-Bukhari
-Whoever takes a path seeking knowledge, Allah makes easy for him a path to this. :: Paradise || H: Sahih Muslim
-"Convey from me, even if" this (meaning). :: One verse || H: Sahih al-Bukhari
-Seeking knowledge is an obligation on this person. :: Every Muslim || H: Sunan Ibn Majah
+Our Beloved Prophet ﷺ said Allah does not look at your bodies or forms, but at these (meaning). :: Your hearts and deeds || H: Sahih Muslim
+Our Beloved Prophet ﷺ said that whoever Allah wants good for, He gives understanding in this (meaning). :: The religion || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ said that whoever takes a path seeking knowledge, Allah makes easy for him a path to this (meaning). :: Paradise || H: Sahih Muslim
+Our Beloved Prophet ﷺ said: "Convey from me, even if" this (meaning). :: One verse || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ said seeking knowledge is an obligation on this person (meaning). :: Every Muslim || H: Sunan Ibn Majah (graded hasan by some through its many chains, weak by others)
 
 ## 200
 Imam al-Bukhari رحمة الله عليه died in this year. :: 256 AH / 870 CE || H: Tarikh Baghdad (al-Khatib)
@@ -65,7 +65,7 @@ The full title of Sahih al-Bukhari begins with these words. :: al-Jami' al-Musna
 Imam al-Bukhari رحمة الله عليه spent about this many years compiling his Sahih. :: 16 || H: Tarikh Baghdad (al-Khatib)
 It is reported that Imam al-Bukhari رحمة الله عليه prayed this before writing each hadith in his Sahih (paraphrased). :: Two rak'ahs (after ghusl) || H: Tarikh Baghdad (al-Khatib)
 The number of hadith in Sahih al-Bukhari with repeats, by the common count. :: About 7,563 || H: Fath al-Bari (numbering of Muhammad Fu'ad 'Abd al-Baqi)
-The scholar who numbered the hadith of Sahih Muslim in the common modern edition. :: Muhammad Fu'ad 'Abd al-Baqi || H: Sahih Muslim (ed. 'Abd al-Baqi)
+The scholar who numbered the hadith of Sahih Muslim in the common modern edition. :: Muhammad Fu'ad 'Abd al-Baqi رحمة الله عليه || H: Sahih Muslim (ed. 'Abd al-Baqi)
 The hadith book on prophetic prayers and remembrance by Imam al-Nawawi رحمة الله عليه. :: al-Adhkar || H: al-Adhkar (al-Nawawi)
 The book of al-Hakim رحمة الله عليه that adds hadith he judged to meet the conditions of the two Sahihs. :: al-Mustadrak 'ala al-Sahihayn || H: al-Mustadrak (al-Hakim)
 The scholar who checked al-Mustadrak in his Talkhis. :: al-Dhahabi رحمة الله عليه || H: Talkhis al-Mustadrak (al-Dhahabi)
@@ -79,7 +79,7 @@ The commentary on Sahih al-Bukhari by al-Qastallani رحمة الله عليه. 
 The famous Maliki commentary on al-Muwatta' by Ibn 'Abd al-Barr رحمة الله عليه. :: al-Tamhid || H: al-Tamhid (Ibn 'Abd al-Barr)
 The transmission of al-Muwatta' most used today, through Yahya ibn Yahya al-Laythi رحمة الله عليه, came from this land. :: al-Andalus || H: al-Tamhid (Ibn 'Abd al-Barr)
 By the common count, Abu Hurayrah (رِضْوَانُ اللَّهِ عَلَيْهِ) narrated about this many hadith. :: 5,374 || H: Tadrib al-Rawi (al-Suyuti)
-After Abu Hurayrah, the Companion with the most narrations by the common count. :: 'Abdullah ibn 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: Tadrib al-Rawi (al-Suyuti)
+After Abu Hurayrah (رِضْوَانُ اللَّهِ عَلَيْهِ), the Companion with the most narrations by the common count. :: 'Abdullah ibn 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: Tadrib al-Rawi (al-Suyuti)
 Al-Shafi'i رحمة الله عليه said, before al-Bukhari's رحمة الله عليه time, that no book after the Book of Allah is more correct than this. :: The Muwatta' of Malik || H: al-Tamhid (Ibn 'Abd al-Barr)
 
 ## 400
@@ -118,7 +118,7 @@ The Imam of hadith called "Amir al-Mu'minin fil-Hadith", d. 161 AH / 778 CE. :: 
 The scholar of Basrah called the "commander of the believers in hadith", d. 160 AH / 776 CE (meaning). :: Shu'bah ibn al-Hajjaj رحمة الله عليه || H: Siyar A'lam al-Nubala' (al-Dhahabi)
 The Successor whom 'Umar ibn 'Abd al-'Aziz رحمة الله عليه tasked with collecting hadith officially. :: Ibn Shihab al-Zuhri رحمة الله عليه || H: Fath al-Bari, Book of Knowledge
 The Umayyad caliph who ordered hadith to be written down officially, d. 101 AH / 720 CE. :: 'Umar ibn 'Abd al-'Aziz رحمة الله عليه || H: Sahih al-Bukhari, Book of Knowledge (ta'liq)
-The chain "Malik from Nafi' from Ibn 'Umar" (رِضْوَانُ اللَّهِ عَلَيْهِمَا) was called this by al-Bukhari رحمة الله عليه. :: The golden chain (silsilat al-dhahab) || H: Muqaddimah Ibn al-Salah
+The chain "Malik from Nafi' from Ibn 'Umar" (رِضْوَانُ اللَّهِ عَلَيْهِمَا), which al-Bukhari رحمة الله عليه called the soundest of chains, is known by this name. :: The golden chain (silsilat al-dhahab) || H: Muqaddimah Ibn al-Salah
 The early written page of hadith that Hammam ibn Munabbih رحمة الله عليه took from Abu Hurayrah (رِضْوَانُ اللَّهِ عَلَيْهِ). :: Sahifat Hammam ibn Munabbih || H: Sahifat Hammam ibn Munabbih
 The Companion who wrote hadith in a page called al-Sadiqah. :: 'Abdullah ibn 'Amr ibn al-'As (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: Sunan al-Darimi; Musnad Ahmad
 The book by Ibn Abi Hatim رحمة الله عليه on praising and criticising narrators. :: al-Jarh wal-Ta'dil || H: al-Jarh wal-Ta'dil

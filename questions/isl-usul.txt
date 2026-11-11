@@ -50,7 +50,7 @@ Custom as an evidence. :: 'Urf || H: al-Ashbah wal-Naza'ir (Ibn Nujaym)
 ## 300
 Assuming a state continues until proven otherwise. :: Istishab || H: al-Mustasfa (al-Ghazali)
 In the new Shafi'i school, a Companion's opinion on its own is this. :: Not a binding proof || H: al-Mustasfa (al-Ghazali)
-Laws of earlier nations told in the Qur'an, and not abrogated, bind us in this school. :: The Hanafi school || H: Usul al-Sarakhsi
+Laws of earlier nations told in the Qur'an, and not abrogated, bind us in this school, among others. :: The Hanafi school (also the Maliki) || H: Usul al-Sarakhsi
 The four parts of qiyas. :: The original case, the new case, the ruling and the 'illah || H: al-Mustasfa (al-Ghazali)
 The original case in qiyas. :: Asl || H: al-Mustasfa (al-Ghazali)
 The new case in qiyas. :: Far' || H: al-Mustasfa (al-Ghazali)
@@ -70,7 +70,7 @@ The Shafi'i usul text for beginners by Imam al-Haramayn رحمة الله علي
 The Hanafi usul book by Shams al-A'immah al-Sarakhsi رحمة الله عليه. :: Usul al-Sarakhsi || H: Usul al-Sarakhsi
 
 ## 400
-The method of the "mutakallimin" (theologians) in usul is followed mostly by these schools. :: The Shafi'i (and Maliki) || H: al-Muqaddimah (Ibn Khaldun)
+The method of the "mutakallimin" (theologians) in usul is followed mostly by these schools. :: The Shafi'i, Maliki and Hanbali || H: al-Muqaddimah (Ibn Khaldun)
 The method of the "fuqaha'" in usul, built from the rulings of the Imams, is the way of this school. :: The Hanafi school || H: al-Muqaddimah (Ibn Khaldun)
 The books that joined both methods include Ibn al-Sa'ati's al-Badi' and this by Ibn al-Humam رحمة الله عليهما. :: al-Tahrir || H: al-Tahrir (Ibn al-Humam)
 The Hanafi view on a single (ahad) hadith that seems to go against strong principles. :: It may be left if the narrator is not a jurist, in some cases || H?: Usul al-Sarakhsi; to be checked
@@ -97,7 +97,7 @@ The Shafi'i usul book by Sayf al-Din al-Amidi رحمة الله عليه. :: al-
 The Maliki usul book by al-Qarafi رحمة الله عليه, a commentary on his own text. :: Sharh Tanqih al-Fusul || H: Sharh Tanqih al-Fusul
 The Maliki scholar al-Baji رحمة الله عليه wrote this on usul. :: Ihkam al-Fusul || H: Ihkam al-Fusul
 The Hanbali usul book by Abu Ya'la رحمة الله عليه. :: al-'Uddah || H: al-'Uddah
-The Hanafi usul book by al-Jassas رحمة الله عليه. :: al-Fusul fil-Usul || H: al-Fusul fil-Usul
+The Hanafi usul book by al-Jassas رحمة الله عليه. :: al-Fusul fil-Usul || H?: al-Fusul fil-Usul; some biographers say al-Jassas leaned to Mu'tazili views, so check before using
 The Hanafi principle that the general ('amm) is "qat'i" (certain) like the specific. :: The general is certain in its meaning || H: Usul al-Sarakhsi
 The Shafi'i principle that the general is this. :: Probable (zanni) in its meaning || H: al-Mustasfa (al-Ghazali)
 In the Hanafi school, a later specific text that narrows a general one is called this. :: Naskh juz'i (partial abrogation) || H: Usul al-Sarakhsi
@@ -105,8 +105,8 @@ Al-Shatibi's رحمة الله عليه book on innovations, besides al-Muwafaqa
 The great Hanafi commentary by 'Abd al-'Aziz al-Bukhari رحمة الله عليه on Usul al-Bazdawi. :: Kashf al-Asrar || H: Kashf al-Asrar
 The Hanafi book "Musallam al-Thubut" was written by this Indian scholar. :: Muhibbullah al-Bihari رحمة الله عليه || H: Musallam al-Thubut
 The commentary on Musallam al-Thubut by 'Abd al-'Ali al-Ansari رحمة الله عليه. :: Fawatih al-Rahamut || H: Fawatih al-Rahamut
-The number of main maxims Ibn Nujaym رحمة الله عليه sets out at the start of his al-Ashbah. :: 6 || H?: al-Ashbah wal-Naza'ir (Ibn Nujaym); to be checked
-The Hanafi scholar al-Karkhi رحمة الله عليه wrote a short treatise of these, on which the school's rulings turn. :: Principles (al-Usul) || H: Usul al-Karkhi
+The number of main maxims Ibn Nujaym رحمة الله عليه sets out at the start of his al-Ashbah. :: 6 || H: al-Ashbah wal-Naza'ir (Ibn Nujaym)
+The Hanafi scholar al-Karkhi رحمة الله عليه wrote a short treatise of these, on which the school's rulings turn. :: Principles (al-Usul) || H?: Usul al-Karkhi; some biographers say al-Karkhi leaned to Mu'tazili views, so check before using
 The Hanafi scholar al-Dabusi رحمة الله عليه wrote this, on the causes of the Imams' differences. :: Ta'sis al-Nazar || H: Ta'sis al-Nazar
 The book of Ibn Rushd al-Hafid رحمة الله عليه on the reasons for the differences of the schools. :: Bidayat al-Mujtahid || H?: Bidayat al-Mujtahid; check creed before honorific
 The Shafi'i book "al-Bahr al-Muhit" on usul was written by this scholar. :: Badr al-Din al-Zarkashi رحمة الله عليه || H: al-Bahr al-Muhit

@@ -70,7 +70,7 @@ The way of receiving where the student reads to the teacher. :: Qira'ah ('ard) |
 The permission a teacher gives to narrate his books. :: Ijazah || H: Muqaddimah Ibn al-Salah
 The way of receiving where the teacher hands over his written book. :: Munawalah || H: Muqaddimah Ibn al-Salah
 The way of receiving through a letter from the teacher. :: Mukatabah || H: Muqaddimah Ibn al-Salah
-The highest of the levels of sahih hadith. :: Those narrated by both al-Bukhari and Muslim رحمة الله عليهماا || H: Nuzhat al-Nazar (Ibn Hajar)
+The highest of the levels of sahih hadith. :: Those narrated by both al-Bukhari and Muslim رحمة الله عليهما || H: Nuzhat al-Nazar (Ibn Hajar)
 A hadith like sahih, but whose narrators' precision is a little lighter. :: Hasan li-dhatihi || H: Nuzhat al-Nazar (Ibn Hajar)
 A narrator in a chain who is mentioned but not named, like "a man". :: Mubham || H: Nuzhat al-Nazar (Ibn Hajar)
 'Abdullah ibn al-Mubarak رحمة الله عليه said the isnad is part of this. :: The religion || H: Muqaddimat Sahih Muslim
@@ -88,8 +88,8 @@ The commentary of al-Sakhawi رحمة الله عليه on the Alfiyyah of al-'I
 A Companion's statement about something only known by revelation takes this ruling. :: The ruling of marfu' (hukmuhu al-raf') || H: Nukhbat al-Fikar (Ibn Hajar)
 The view of most scholars on all the Companions' reliability. :: All are upright ('udul) || H: al-Isabah (Ibn Hajar), introduction
 The highest level of praise for a narrator, such as "most reliable of people" (meaning). :: Awthaq al-nas (af'al form) || H: Nuzhat al-Nazar (Ibn Hajar)
-A hadith that al-Bukhari and Muslim رحمة الله عليهماا both narrate from the same Companion. :: Muttafaq 'alayh || H: Standard term
-A hadith that meets al-Bukhari's رحمة الله عليه and Muslim's conditions but neither narrated it. :: 'Ala shart al-shaykhayn || H: al-Mustadrak (al-Hakim)
+A hadith that al-Bukhari and Muslim رحمة الله عليهما both narrate from the same Companion. :: Muttafaq 'alayh || H: Standard term
+A hadith that meets the conditions of al-Bukhari and Muslim رحمة الله عليهما, but neither narrated it. :: 'Ala shart al-shaykhayn || H: al-Mustadrak (al-Hakim)
 The category of hadith al-Tirmidhi رحمة الله عليه often calls "hasan sahih". :: Both hasan and sahih by different chains or views || H: Nuzhat al-Nazar (Ibn Hajar)
 A narrator whose name is known but whose state is not. :: Majhul al-hal (mastur) || H: Nukhbat al-Fikar (Ibn Hajar)
 A narrator known by only one student. :: Majhul al-'ayn || H: Nukhbat al-Fikar (Ibn Hajar)

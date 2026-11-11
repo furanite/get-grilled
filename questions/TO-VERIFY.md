@@ -25,8 +25,6 @@ This file is rewritten by `npm run packs`.
 ## Fiqh: Inheritance (Fara'id) (questions/isl-faraid.txt)
 
 - **100**, line 26: Our Beloved Prophet ﷺ said learn the fara'id, for it is half of this (paraphrased). **Answer:** Knowledge _(Source: Sunan Ibn Majah; grade to be checked)_
-- **500**, line 109: The case of al-Kharqa' (mother, grandfather and sister) is also called al-Mukhammasah because this many Companions differed on it. **Answer:** 5 _(Source: al-Sirajiyyah; to be checked)_
-- **500**, line 112: The commentary on al-Rahbiyyah by Sibt al-Maridini رحمة الله عليه. **Answer:** Sharh al-Rahbiyyah _(Source: Title to be checked)_
 
 ## Hadith books and narrators (questions/isl-hadith.txt)
 
@@ -67,11 +65,8 @@ This file is rewritten by `npm run packs`.
 
 ## Blessed Prophets (عليهم السلام): Adam to Ibrahim (questions/isl-prophets-early.txt)
 
-- **400**, line 74: Adam (عليه السلام) lived to this age, according to a hadith. **Answer:** 1,000 years _(Source: Sunan al-Tirmidhi; to be checked)_
-- **400**, line 75: The number of years between Adam and Nuh (عليهما السلام), per a report. **Answer:** Ten centuries _(Source: Sahih Ibn Hibban; to be checked)_
 - **400**, line 77: In a report of Abu Dharr (رِضْوَانُ اللَّهِ عَلَيْهِ), four Arab Blessed Prophets (عليهم السلام) are named: Hud, Salih, Shu'ayb and this one. **Answer:** Our Beloved Prophet Muhammad ﷺ _(Source: Sahih Ibn Hibban; to be checked)_
 - **400**, line 81: The city Ibrahim (عليه السلام) came from, by the common view of historians. **Answer:** Ur (in Iraq) _(Source: Tarikh al-Tabari; to be checked)_
-- **400**, line 83: Ibrahim (عليه السلام) was the first to receive guests, to wear these, and to see grey hair, per a report. **Answer:** Trousers (sarawil) _(Source: Muwatta' Malik (report of Sa'id ibn al-Musayyib); to be checked)_
 
 ## The Qur'an (questions/isl-quran.txt)
 
@@ -127,6 +122,7 @@ This file is rewritten by `npm run packs`.
 
 - **300**, line 120: The verse that, by the most famous view, was the last of the rulings on riba to come down. **Answer:** Qur'an 2:278-279 _(Source: Sahih al-Bukhari (report of Ibn 'Abbas on the verse of riba); wording to check)_
 - **300**, line 127: The term for a word that occurs only once in the Qur'an. **Answer:** Hapax (farid) _(Source: Term to be checked with a Qur'an sciences teacher)_
+- **400**, line 168: The Hanafi scholar who wrote Ahkam al-Qur'an, d. 370 AH / 981 CE. **Answer:** Abu Bakr al-Jassas رحمة الله عليه _(Source: Ahkam al-Qur'an (al-Jassas); some biographers say al-Jassas leaned to Mu'tazili views, so check before using)_
 - **400**, line 195: The tafsir by Ibn 'Abd al-Salam رحمة الله عليه, the "Sultan of the Scholars", is a summary of this (meaning). **Answer:** al-Mawardi's رحمة الله عليه tafsir al-Nukat wal-'Uyun _(Source: Check which tafsir Ibn 'Abd al-Salam summarised)_
 - **400**, line 201: The tafsir of al-Baydawi رحمة الله عليه was finished in this city. **Answer:** Tabriz _(Source: Check: al-Baydawi died in Tabriz; where he finished it is uncertain)_
 - **500**, line 250: The tafsir "Tafsir al-Mawahib al-'Aliyyah" (in Persian) is by this Herat scholar. **Answer:** Husayn Wa'iz al-Kashifi _(Source: Check his creed before giving an honorific)_
@@ -143,7 +139,8 @@ This file is rewritten by `npm run packs`.
 ## Usul al-Fiqh (questions/isl-usul.txt)
 
 - **400**, line 76: The Hanafi view on a single (ahad) hadith that seems to go against strong principles. **Answer:** It may be left if the narrator is not a jurist, in some cases _(Source: Usul al-Sarakhsi; to be checked)_
-- **500**, line 108: The number of main maxims Ibn Nujaym رحمة الله عليه sets out at the start of his al-Ashbah. **Answer:** 6 _(Source: al-Ashbah wal-Naza'ir (Ibn Nujaym); to be checked)_
+- **500**, line 100: The Hanafi usul book by al-Jassas رحمة الله عليه. **Answer:** al-Fusul fil-Usul _(Source: al-Fusul fil-Usul; some biographers say al-Jassas leaned to Mu'tazili views, so check before using)_
+- **500**, line 109: The Hanafi scholar al-Karkhi رحمة الله عليه wrote a short treatise of these, on which the school's rulings turn. **Answer:** Principles (al-Usul) _(Source: Usul al-Karkhi; some biographers say al-Karkhi leaned to Mu'tazili views, so check before using)_
 - **500**, line 111: The book of Ibn Rushd al-Hafid رحمة الله عليه on the reasons for the differences of the schools. **Answer:** Bidayat al-Mujtahid _(Source: Bidayat al-Mujtahid; check creed before honorific)_
 
 ## Fiqh: Work and earning (questions/isl-work.txt)
@@ -152,6 +149,7 @@ This file is rewritten by `npm run packs`.
 - **200**, line 45: Our Beloved Master ﷺ said the best earning is a man's work with his hand and every this. **Answer:** Honest sale (bay' mabrur) _(Source: Musnad Ahmad; to be checked)_
 - **300**, line 63: The Companion who said "I hate to see a man idle, not in worldly work nor in work for the Hereafter" (meaning). **Answer:** 'Abdullah ibn Mas'ud (رِضْوَانُ اللَّهِ عَلَيْهِ) _(Source: Musannaf Ibn Abi Shaybah; to be checked)_
 - **300**, line 64: Our Beloved Prophet ﷺ said one who strives to support his family is like this (paraphrased). **Answer:** One striving in the way of Allah _(Source: al-Mu'jam al-Kabir (al-Tabarani); to be checked)_
+- **300**, line 84: The Hanafi author of Ahkam al-Qur'an, named after work with plaster. **Answer:** Abu Bakr al-Jassas رحمة الله عليه _(Source: Standard biography (al-Jawahir al-Mudiyyah); some biographers say al-Jassas leaned to Mu'tazili views, so check before using)_
 - **400**, line 97: Our master 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِ) appointed this woman to oversee the market of Madinah, by one report. **Answer:** al-Shifa' bint 'Abdullah (رِضْوَانُ اللَّهِ عَلَيْهَا) _(Source: al-Isti'ab (Ibn 'Abd al-Barr); report to be checked)_
 - **500**, line 116: Imam Ahmad رحمة الله عليه said of a man who sits in his house saying his provision will come: he is this. **Answer:** Ignorant of knowledge (he has not understood) _(Source: Reported in Hanbali works; to be checked)_
 - **500**, line 118: In the Hanafi school, a muzara'ah needs these conditions, including the share and the seed's owner known. **Answer:** 8 _(Source: al-Hidayah (al-Marghinani); count to be checked)_
