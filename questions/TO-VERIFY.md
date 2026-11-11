@@ -131,10 +131,14 @@ This file is rewritten by `npm run packs`.
 
 ## Tafsir and Ulum al-Qur'an (questions/isl-tafsir.txt)
 
-- **300**, line 57: The verse that, by the most famous view, was the last of the rulings on riba to come down. **Answer:** Qur'an 2:278-279 _(Source: Sahih al-Bukhari (report of Ibn 'Abbas on the verse of riba); wording to check)_
-- **300**, line 64: The term for a word that occurs only once in the Qur'an. **Answer:** Hapax (farid) _(Source: Term to be checked with a Qur'an sciences teacher)_
-- **500**, line 100: The Successor, student of Ibn 'Abbas, known for tafsir and fiqh, d. 105 AH / 723 CE. **Answer:** 'Ikrimah رحمة الله عليه _(Source: Siyar A'lam al-Nubala' (al-Dhahabi); date to be checked)_
-- **500**, line 101: The Successor of Basrah, known for tafsir, d. 117 AH / 735 CE, who was born blind. **Answer:** Qatadah ibn Di'amah رحمة الله عليه _(Source: Siyar A'lam al-Nubala' (al-Dhahabi))_
+- **300**, line 120: The verse that, by the most famous view, was the last of the rulings on riba to come down. **Answer:** Qur'an 2:278-279 _(Source: Sahih al-Bukhari (report of Ibn 'Abbas on the verse of riba); wording to check)_
+- **300**, line 127: The term for a word that occurs only once in the Qur'an. **Answer:** Hapax (farid) _(Source: Term to be checked with a Qur'an sciences teacher)_
+- **400**, line 197: The tafsir by Ibn 'Abd al-Salam رحمة الله عليه, the "Sultan of the Scholars", is a summary of this. **Answer:** al-Mawardi's tafsir al-Nukat wal-'Uyun _(Source: Check which tafsir Ibn 'Abd al-Salam summarised)_
+- **400**, line 204: The tafsir of al-Baydawi رحمة الله عليه was finished in this city. **Answer:** Tabriz _(Source: Check: al-Baydawi died in Tabriz; where he finished it is uncertain)_
+- **500**, line 228: The Successor, student of Ibn 'Abbas, known for tafsir and fiqh, d. 105 AH / 723 CE. **Answer:** 'Ikrimah رحمة الله عليه _(Source: Siyar A'lam al-Nubala' (al-Dhahabi); date to be checked)_
+- **500**, line 229: The Successor of Basrah, known for tafsir, d. 117 AH / 735 CE, who was born blind. **Answer:** Qatadah ibn Di'amah رحمة الله عليه _(Source: Siyar A'lam al-Nubala' (al-Dhahabi))_
+- **500**, line 248: Al-Razi رحمة الله عليه did not finish his tafsir; it was completed by this scholar or his students. **Answer:** Shams al-Din al-Khuwayyi (and al-Qamuli) _(Source: Check the completer named in the sources)_
+- **500**, line 254: The tafsir "Tafsir al-Mawahib al-'Aliyyah" (in Persian) is by this Herat scholar. **Answer:** Husayn Wa'iz al-Kashifi _(Source: Check his creed before giving an honorific)_
 
 ## Fiqh: Cleanliness (Taharah) (questions/isl-taharah.txt)
 
