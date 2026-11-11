@@ -24,6 +24,8 @@ The person who narrates a hadith is called this. :: Rawi || H: Standard term
 A scholar who has mastered hadith is called this. :: Muhaddith || H: Standard term
 The short poem on hadith terms by al-Bayquni رحمة الله عليه. :: al-Manzumah al-Bayquniyyah || H: al-Bayquniyyah
 The short book on hadith terms by Ibn Hajar al-'Asqalani رحمة الله عليه. :: Nukhbat al-Fikar || H: Nukhbat al-Fikar
+Reports from the Companions and Successors are often called this. :: Athar || H: Tadrib al-Rawi (al-Suyuti)
+The generation after the Successors. :: Atba' al-Tabi'in || H: Muqaddimat Ibn al-Salah
 
 ## 200
 The number of conditions for a hadith to be sahih. :: 5 || H: Muqaddimah Ibn al-Salah
@@ -68,6 +70,11 @@ The way of receiving where the student reads to the teacher. :: Qira'ah ('ard) |
 The permission a teacher gives to narrate his books. :: Ijazah || H: Muqaddimah Ibn al-Salah
 The way of receiving where the teacher hands over his written book. :: Munawalah || H: Muqaddimah Ibn al-Salah
 The way of receiving through a letter from the teacher. :: Mukatabah || H: Muqaddimah Ibn al-Salah
+The highest of the levels of sahih hadith. :: Those narrated by both al-Bukhari and Muslim || H: Nuzhat al-Nazar (Ibn Hajar)
+A hadith like sahih, but whose narrators' precision is a little lighter. :: Hasan li-dhatihi || H: Nuzhat al-Nazar (Ibn Hajar)
+A narrator in a chain who is mentioned but not named, like "a man". :: Mubham || H: Nuzhat al-Nazar (Ibn Hajar)
+'Abdullah ibn al-Mubarak رحمة الله عليه said the isnad is part of this. :: The religion || H: Muqaddimat Sahih Muslim
+Muhammad ibn Sirin رحمة الله عليه said this knowledge is religion, so look at this. :: From whom you take your religion || H: Muqaddimat Sahih Muslim
 
 ## 400
 The most famous book of hadith terms, by Ibn al-Salah رحمة الله عليه (d. 643 AH / 1245 CE). :: 'Ulum al-Hadith (Muqaddimah Ibn al-Salah) || H: Muqaddimah Ibn al-Salah
@@ -90,6 +97,9 @@ Most scholars accept the narration of a truthful innovator on this condition. ::
 The rule for acting on a weak hadith in virtuous deeds, under conditions. :: Allowed by most scholars (fada'il al-a'mal) || H: al-Adhkar (al-Nawawi), introduction
 "Actions are by intentions" is mass-narrated later in its chain, but at its first levels it is this kind of report. :: Gharib (fard) || H: Nuzhat al-Nazar (Ibn Hajar)
 The number of ways of receiving hadith that Ibn al-Salah lists. :: 8 || H: Muqaddimah Ibn al-Salah
+Hadith of al-Bukhari with only three narrators between him and our Beloved Prophet ﷺ are called this. :: Thulathiyyat (there are 22) || H: Fath al-Bari (Ibn Hajar)
+An extra word narrated by one reliable narrator that others did not narrate. :: Ziyadat al-thiqah || H: Nuzhat al-Nazar (Ibn Hajar)
+Receiving hadith by finding a scholar's writing, without hearing or permission. :: Wijadah || H: Muqaddimat Ibn al-Salah
 
 ## 500
 The book in which Imam al-Shafi'i رحمة الله عليه set conditions for accepting a mursal hadith. :: al-Risalah (al-Shafi'i) || H: al-Risalah (al-Shafi'i)
@@ -112,3 +122,5 @@ The term for when a student narrates from a teacher younger than himself. :: Riw
 The term for two peers narrating from each other. :: al-Mudabbaj || H: Muqaddimah Ibn al-Salah
 Ibn Hajar's term in al-Taqrib for a narrator whose hadith is accepted only when supported. :: Maqbul || H: Taqrib al-Tahdhib (introduction)
 The number of levels (tabaqat) of narrators in Ibn Hajar's Taqrib. :: 12 || H: Taqrib al-Tahdhib (introduction)
+Receiving hadith when a teacher leaves his books to someone at his death. :: Wasiyyah || H: Muqaddimat Ibn al-Salah
+Abu Dawud رحمة الله عليه said the hadith in his Sunan that he passed over in silence are this. :: Salih (fit to use) || H: Risalat Abi Dawud ila Ahl Makkah

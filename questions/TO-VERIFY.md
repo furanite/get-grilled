@@ -33,7 +33,7 @@ This file is rewritten by `npm run packs`.
 
 ## Hadith books and narrators (questions/isl-hadith.txt)
 
-- **500**, line 95: The teacher of al-Bukhari, nicknamed "Commander of the Believers in hadith", famed for criticism of narrators. **Answer:** 'Ali ibn al-Madini رحمة الله عليه _(Source: Siyar A'lam al-Nubala' (al-Dhahabi); title to be checked)_
+- **500**, line 116: The teacher of al-Bukhari, nicknamed "Commander of the Believers in hadith", famed for criticism of narrators. **Answer:** 'Ali ibn al-Madini رحمة الله عليه _(Source: Siyar A'lam al-Nubala' (al-Dhahabi); title to be checked)_
 
 ## Fiqh: Hajj and Umrah (questions/isl-hajj.txt)
 
