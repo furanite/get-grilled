@@ -13,7 +13,7 @@ import Board from './components/Board'
 import Results from './components/Results'
 import Builder from './components/Builder'
 import { AudienceScreen, useAudienceWindow } from './components/Audience'
-import { HOST_EDITION, type Live } from './lib/edition'
+import { APP_NAME, HOST_EDITION, appName, type Live } from './lib/edition'
 import { setFavicon } from './lib/favicon'
 import { Mark } from './components/Brand'
 
@@ -31,7 +31,7 @@ export default function App() {
   const [game, setGameState] = useState<Game | null>(loadGame)
   const [toast, setToast] = useState<{ text: string; id: number } | null>(null)
   const [live, setLive] = useState<Live | null>(null)
-  const audience = useAudienceWindow('Get Grilled')
+  const audience = useAudienceWindow(APP_NAME)
   const themeRef = useRef(theme)
   const t = STRINGS[lang]
 
@@ -115,7 +115,7 @@ export default function App() {
           <header className="topbar">
             <button className="brand" onClick={() => setScreen('home')} aria-label={t.home}>
               <Mark theme={theme} className="brand-mark" />
-              <span className="brand-word">Get Grilled</span>
+              <span className="brand-word">{appName(lang)}</span>
             </button>
             <div className="row">
               {HOST_EDITION && (

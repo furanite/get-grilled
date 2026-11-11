@@ -6,7 +6,7 @@ import { VALUES } from '../lib/types'
 import type { Strings } from '../lib/i18n'
 import { num } from '../lib/i18n'
 import { standings, tileKey } from '../lib/game'
-import type { Live } from '../lib/edition'
+import { appName, type Live } from '../lib/edition'
 import { setFavicon } from '../lib/favicon'
 import { Ambient, Flourish, FlourishAbove, Mark } from './Brand'
 
@@ -159,7 +159,7 @@ function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings;
         <div className="title-screen">
           <Mark theme={theme} className="ts-mark" />
           <FlourishAbove theme={theme} />
-          <h1 className="aud-title">Get Grilled</h1>
+          <h1 className="aud-title">{appName(lang)}</h1>
           <Flourish theme={theme} />
           <p className="aud-tagline">{t.audienceWaiting}</p>
         </div>

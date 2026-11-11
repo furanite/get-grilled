@@ -4,6 +4,7 @@ import type { Strings } from '../lib/i18n'
 import { THEMES, formatCountdown, heritageOpen, msUntilHeritage } from '../lib/themes'
 import { burstAt } from '../lib/fx'
 import { Ambient, Flourish, FlourishAbove, Mark } from './Brand'
+import { APP_NAME, APP_NAME_AR, HAS_AR_NAME, appName } from '../lib/edition'
 
 interface Props {
   t: Strings
@@ -17,6 +18,8 @@ interface Props {
 }
 
 export default function Home({ t, lang, theme, setTheme, hasGame, onNew, onResume, onBuilder }: Props) {
+  // The Islamic site shows its Arabic name on the back of the logo instead of the Get Grilled tagline.
+  const tagline = HAS_AR_NAME ? APP_NAME_AR : t.tagline
   const [flipped, setFlipped] = useState(false)
   const [, tick] = useState(0)
   useEffect(() => {
@@ -36,23 +39,25 @@ export default function Home({ t, lang, theme, setTheme, hasGame, onNew, onResum
             setFlipped((f) => !f)
             if (!flipped) burstAt(e.currentTarget, 30, 220)
           }}
-          aria-label={flipped ? 'Get Grilled' : t.tagline}
+          aria-label={flipped ? appName(lang) : tagline}
           data-testid="logo"
         >
           <span className="logo-inner">
             <span className="logo-face">
               <FlourishAbove theme={theme} />
-              <span className="logo-title">Get Grilled</span>
+              <span className="logo-title" style={{ ['--ns' as string]: Math.min(1, 11 / APP_NAME.length) }}>{APP_NAME}</span>
               <Flourish theme={theme} />
             </span>
             <span className="logo-face back">
-              <span className="logo-answer">{t.tagline}</span>
+              <span className="logo-answer" dir="auto">{tagline}</span>
             </span>
           </span>
         </button>
-        <p className="muted" style={{ margin: 0, fontSize: 13 }}>
-          {t.tapLogo}
-        </p>
+        {!HAS_AR_NAME && (
+          <p className="muted" style={{ margin: 0, fontSize: 13 }}>
+            {t.tapLogo}
+          </p>
+        )}
         <div className="home-actions">
           <button className="btn big" onClick={onNew}>
             {t.newGame}
