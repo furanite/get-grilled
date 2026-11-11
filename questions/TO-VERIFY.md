@@ -104,9 +104,9 @@ This file is rewritten by `npm run packs`.
 
 ## Fiqh: Prayer (Salah) (questions/isl-salah.txt)
 
-- **400**, line 91: In the Shafi'i school, the number of pillars (arkan) of prayer, by a common count. **Answer:** 17 _(Source: Safinat al-Naja; counts differ in Shafi'i texts)_
-- **400**, line 92: Our Beloved Prophet ﷺ prayed the "fear prayer" (salat al-khawf) in this many ways, by reports. **Answer:** Several (scholars count about six to sixteen) _(Source: Sunan Abi Dawud; to be checked)_
-- **500**, line 114: The prayer our Beloved Prophet ﷺ taught His ﷺ uncle our master al-'Abbas (رِضْوَانُ اللَّهِ عَلَيْهِ), with 300 tasbihs. **Answer:** Salat al-tasabih _(Source: Sunan Abi Dawud; grade differs among scholars)_
+- **400**, line 185: In the Shafi'i school, the number of pillars (arkan) of prayer, by a common count. **Answer:** 17 _(Source: Safinat al-Naja; counts differ in Shafi'i texts)_
+- **400**, line 186: Our Beloved Prophet ﷺ prayed the "fear prayer" (salat al-khawf) in this many ways, by reports. **Answer:** Several (scholars count about six to sixteen) _(Source: Sunan Abi Dawud; to be checked)_
+- **500**, line 240: The prayer our Beloved Prophet ﷺ taught His ﷺ uncle our master al-'Abbas (رِضْوَانُ اللَّهِ عَلَيْهِ), with 300 tasbihs. **Answer:** Salat al-tasabih _(Source: Sunan Abi Dawud; grade differs among scholars)_
 
 ## Sarf (morphology) (questions/isl-sarf.txt)
 
@@ -142,7 +142,8 @@ This file is rewritten by `npm run packs`.
 
 ## Fiqh: Cleanliness (Taharah) (questions/isl-taharah.txt)
 
-- **400**, line 77: The two qullahs are about this much water in today's measures, by a common estimate. **Answer:** About 190 to 270 litres _(Source: Modern estimates differ; to be checked)_
+- **400**, line 171: The two qullahs are about this much water in today's measures, by a common estimate. **Answer:** About 190 to 270 litres _(Source: Modern estimates differ; to be checked)_
+- **500**, line 272: The famous chapter in the books of hadith on wiping over khuffs says this many Companions narrated it, by al-Hasan al-Basri's رحمة الله عليه count. **Answer:** 70 _(Source: Fath al-Bari (Ibn Hajar); check the wording of al-Hasan's report)_
 
 ## Tajwid (questions/isl-tajwid.txt)
 

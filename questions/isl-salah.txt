@@ -25,6 +25,38 @@ Ending the prayer by saying "As-salamu 'alaykum wa rahmatullah". :: Taslim || H:
 The weekly congregational prayer. :: Jumu'ah || H: Qur'an 62:9
 The one who leads the prayer. :: Imam || H: Sahih al-Bukhari
 Our Beloved Prophet ﷺ said prayer in congregation is better than prayer alone by this many degrees (paraphrased). :: 27 || H: Sahih al-Bukhari
+The number of rak'ahs of 'Isha' for a resident. :: 4 || H: Sahih al-Bukhari
+The number of rak'ahs of 'Asr for a resident. :: 4 || H: Sahih al-Bukhari
+The total number of obligatory rak'ahs in a day for a resident. :: 17 || H: Sahih al-Bukhari (by the count of the five prayers)
+Washing set parts of the body with water before prayer. :: Wudu' || H: Qur'an 5:6
+A building for congregational prayer. :: Masjid (mosque) || H: Standard term
+The tower from which the adhan was traditionally called. :: Minaret (manarah) || H: Standard term
+The niche in a mosque wall that shows the qiblah. :: Mihrab || H: Standard term
+The pulpit from which the khutbah is given. :: Minbar || H: Sahih al-Bukhari
+The person who calls the adhan. :: Mu'adhdhin || H: Standard term
+The Companion who was the first mu'adhdhin of our Beloved Prophet ﷺ. :: Bilal ibn Rabah (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sunan Abi Dawud
+Standing upright in prayer. :: Qiyam || H: Standard term
+Sitting between the two prostrations. :: Jalsah || H: Standard term
+In ruku' one says "Subhana Rabbiyal-'Azim": glory be to my Lord, this. :: The Most Great || H: Sunan Abi Dawud
+In sujud one says "Subhana Rabbiyal-A'la": glory be to my Lord, this. :: The Most High || H: Sunan Abi Dawud
+On rising from ruku' one says "Sami'a Allahu liman" this. :: Hamidah || H: Sahih al-Bukhari
+The day of the week of the Jumu'ah prayer. :: Friday || H: Qur'an 62:9
+The words added to the adhan of Fajr: "Prayer is better than" this. :: Sleep || H: Sunan Abi Dawud
+The two rak'ahs prayed on entering a mosque before sitting. :: Tahiyyat al-masjid || H: Sahih al-Bukhari
+The voluntary prayer at night after sleeping. :: Tahajjud || H: Qur'an 17:79
+The number of prostrations in each rak'ah. :: 2 || H: Sahih al-Bukhari
+The number of times one bows (ruku') in each rak'ah of an ordinary prayer. :: 1 || H: Sahih al-Bukhari
+The side one turns the head to first at the taslim. :: The right || H: Sahih Muslim
+Praying a missed prayer after its time. :: Qada' || H: Standard term
+Praying a prayer within its time. :: Ada' || H: Standard term
+In congregation, the imam stands here. :: In front of the rows || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ said straightening these is part of perfecting the prayer (paraphrased). :: The rows || H: Sahih al-Bukhari
+The person praying behind an imam. :: Ma'mum (follower) || H: Standard term
+A duty that falls on every adult, sane Muslim, like the five prayers. :: Fard 'ayn || H: Standard term
+Our Beloved Prophet ﷺ said the coolness of His ﷺ eyes was placed in this (paraphrased). :: Prayer || H: Sunan al-Nasa'i
+The 'Asr prayer is named in a hadith as this prayer mentioned in Qur'an 2:238. :: The middle prayer (al-salat al-wusta) || H: Sahih Muslim
+The first thing a servant will be asked about on the Day of Judgement, among his deeds (paraphrased). :: The prayer || H: Sunan al-Tirmidhi
+The prayer said over the dead is a duty on the community, called this. :: Fard kifayah || H: Standard term (all four schools)
 
 ## 200
 The sitting in which "at-tahiyyatu lillah" is recited. :: Tashahhud || H: Sahih al-Bukhari
@@ -47,6 +79,37 @@ The sunnah prayers before and after the fard prayers. :: Sunan rawatib || H: Sah
 Our Beloved Prophet ﷺ said the two rak'ahs before Fajr are better than this (paraphrased). :: The world and all in it || H: Sahih Muslim
 The forenoon voluntary prayer. :: Salat al-duha || H: Sahih Muslim
 Covering the body in prayer, the 'awrah, is this. :: A condition of the prayer || H: Qur'an 7:31
+The Eid prayer is held at this time of day. :: The forenoon, after sunrise || H: Sunan Abi Dawud
+Unlike Jumu'ah, the khutbah of Eid comes here. :: After the prayer || H: Sahih al-Bukhari
+The prayer at an eclipse of the moon. :: Salat al-khusuf || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ told the sick man to pray standing, and if unable, this way (paraphrased). :: Sitting || H: Sahih al-Bukhari
+If one cannot pray sitting, the same hadith says to pray this way. :: On one's side || H: Sahih al-Bukhari
+A woman in her monthly period does this about prayer. :: Does not pray, and does not make it up || H: Sahih Muslim
+The end of the chosen time of 'Isha' in a hadith of Sahih Muslim. :: Half the night || H: Sahih Muslim
+Fajr time begins with this. :: True dawn (al-fajr al-sadiq) || H: Sahih Muslim
+Maghrib time begins with this. :: Sunset || H: Sahih Muslim
+Zuhr time begins when the sun does this. :: Passes the zenith (zawal) || H: Sahih Muslim
+The first light that rises upwards, then darkens again, before true dawn. :: False dawn (al-fajr al-kadhib) || H: Standard term in the fiqh books
+In the Hanafi school, the stressed sunnah before Zuhr has this many rak'ahs. :: 4 || H: al-Hidayah (al-Marghinani)
+In the Shafi'i school, the stressed sunnah before Zuhr has this many rak'ahs. :: 2 || H: Minhaj al-Talibin (al-Nawawi)
+In the Shafi'i school, the stressed sunnah rak'ahs with the daily prayers number this many. :: 10 || H: Minhaj al-Talibin (al-Nawawi)
+In the Hanafi school, the stressed sunnah rak'ahs with the daily prayers number this many. :: 12 || H: al-Hidayah; Sunan al-Tirmidhi
+Our Beloved Prophet ﷺ said whoever prays twelve voluntary rak'ahs a day has this built for him (paraphrased). :: A house in Paradise || H: Sahih Muslim
+Saying "Amin" after al-Fatihah is this ruling. :: Sunnah || H: Sahih al-Bukhari
+In the Hanafi school, "Amin" is said this way. :: Quietly || H: al-Hidayah (al-Marghinani)
+In the Shafi'i school, "Amin" in a prayer recited aloud is said this way. :: Aloud || H: al-Majmu' (al-Nawawi)
+The three prayers whose first two rak'ahs are recited aloud. :: Fajr, Maghrib and 'Isha' || H: Standard fiqh (all four schools)
+Zuhr and 'Asr are recited this way. :: Silently || H: Standard fiqh (all four schools)
+The Jumu'ah prayer takes the place of this prayer. :: Zuhr || H: Standard fiqh (all four schools)
+The number of rak'ahs of the Jumu'ah prayer. :: 2 || H: Sunan al-Nasa'i
+Our Beloved Prophet ﷺ said whoever tells his neighbour "Be quiet" while the imam gives the khutbah has done this (paraphrased). :: Spoken idly (laghw) || H: Sahih al-Bukhari
+One strong view on the hour of Friday in which du'a is answered. :: The last hour after 'Asr || H: Sunan Abi Dawud (other views are reported)
+Our Beloved Prophet ﷺ said the best day on which the sun rises is this (paraphrased). :: Friday || H: Sahih Muslim
+Praying while holding back the need of the toilet is this ruling. :: Disliked (makruh) || H: Sahih Muslim
+An object placed in front of a person praying, so others pass beyond it. :: Sutrah || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ said one passing in front of a person praying would rather wait this many, if he knew the sin (paraphrased). :: Forty || H: Sahih al-Bukhari
+A follower catches a rak'ah with the imam if he joins him in this position. :: Ruku' || H: Sunan Abi Dawud (all four schools)
+A follower who joined late, after some rak'ahs had passed. :: Masbuq || H: Standard term
 
 ## 300
 In the Hanafi school, witr is this ruling. :: Wajib || H: Nur al-Idah (al-Shurunbulali)
@@ -69,6 +132,37 @@ The times when voluntary prayer is forbidden include sunrise, sunset and this. :
 Our Beloved Master ﷺ said "Pray as you have seen me pray" (meaning) to this group. :: Malik ibn al-Huwayrith and his companions || H: Sahih al-Bukhari
 The man our Beloved Prophet ﷺ told "Go back and pray, for you have not prayed" (meaning). :: The man who prayed badly (al-musi' salatahu) || H: Sahih al-Bukhari
 The Companion who saw the words of the adhan in a dream. :: 'Abdullah ibn Zayd (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sunan Abi Dawud
+In the Hanafi school, reciting a surah after al-Fatihah in these rak'ahs of a fard prayer is wajib. :: The first two || H: Nur al-Idah (al-Shurunbulali)
+In the Shafi'i school, reciting a surah after al-Fatihah is this ruling. :: Sunnah || H: Minhaj al-Talibin (al-Nawawi)
+In the Hanafi school, by Abu Hanifah's view, the least recitation that fulfils the fard is this. :: One verse || H: al-Hidayah (al-Marghinani)
+In the Hanafi school, being still in each position (ta'dil al-arkan) is this ruling, by Abu Hanifah and Muhammad. :: Wajib || H: al-Hidayah (al-Marghinani)
+In the Shafi'i school, stillness (tuma'ninah) in ruku' and sujud is this. :: A pillar (rukn) || H: Minhaj al-Talibin (al-Nawawi)
+The seven parts of the body one prostrates on. :: Forehead (with the nose), two hands, two knees and two feet || H: Sahih al-Bukhari
+In the Hanafi school, Fajr is best prayed at this time. :: When the light has spread (isfar) || H: Sunan al-Tirmidhi; al-Hidayah
+In the Shafi'i school, Fajr is best prayed at this time. :: Early, while still dark (taghlis) || H: Sahih al-Bukhari; Minhaj al-Talibin
+Our Beloved Prophet ﷺ told us to delay Zuhr in this condition (paraphrased). :: Intense heat || H: Sahih al-Bukhari
+By Abu Hanifah's view, Maghrib time ends when this disappears. :: The white twilight || H: al-Hidayah (al-Marghinani)
+In the Shafi'i school, Maghrib time ends when this disappears. :: The red twilight || H: Minhaj al-Talibin (al-Nawawi)
+In the Hanafi school, a follower who was present from the start but missed rak'ahs, for example through sleep. :: Lahiq || H: Nur al-Idah (al-Shurunbulali)
+In the Hanafi school, laughing aloud in a prayer with ruku' and sujud breaks the prayer and also this. :: The wudu' || H: al-Hidayah (al-Marghinani)
+In the Shafi'i school, laughing aloud breaks the prayer but not this. :: The wudu' || H: al-Majmu' (al-Nawawi)
+In the Maliki school, the travel distance for shortening the prayer, in miles. :: 48 miles || H: Mukhtasar Khalil
+In the Maliki school, shortening the prayer while travelling is this ruling. :: A stressed sunnah || H: Mukhtasar Khalil
+In the Hanbali school, shortening the prayer while travelling is this. :: Better than praying in full || H: al-Mughni (Ibn Qudamah)
+Joining 'Asr with Zuhr in Zuhr's time is called this. :: Jam' al-taqdim (bringing forward) || H: Minhaj al-Talibin (al-Nawawi)
+Joining Zuhr with 'Asr in 'Asr's time is called this. :: Jam' al-ta'khir (delaying) || H: Minhaj al-Talibin (al-Nawawi)
+In the Hanbali school, joining prayers is also allowed for this, besides travel. :: Illness (and some other needs) || H: al-Mughni (Ibn Qudamah)
+In the Shafi'i school, joining prayers in congregation at the mosque is allowed in this weather. :: Rain || H: Minhaj al-Talibin (al-Nawawi)
+In the Hanafi school, the qunut of witr is said on these nights. :: Every night of the year || H: al-Hidayah (al-Marghinani)
+In the Shafi'i school, the qunut of witr is said on these nights. :: The second half of Ramadan || H: Minhaj al-Talibin (al-Nawawi)
+The qunut said in the prayers at a time of calamity. :: Qunut al-nawazil || H: Sahih al-Bukhari
+The qunut taught to our master al-Hasan ibn 'Ali (رِضْوَانُ اللَّهِ عَلَيْهِمَا) begins "Allahumma ihdini" and then this. :: "fiman hadayt" || H: Sunan Abi Dawud
+In the Hanafi school, eating in prayer breaks it in this case. :: Even a little, and even by forgetting || H: al-Hidayah (al-Marghinani)
+The opening supplication "Subhanaka Allahumma wa bihamdik", used by the Hanafis. :: The thana' || H: Sunan Abi Dawud
+The opening supplication beginning "Wajjahtu wajhiya", favoured by the Shafi'is. :: Du'a' al-istiftah (Wajjahtu) || H: Sahih Muslim
+In the Maliki school, the opening supplication in a fard prayer is this ruling. :: Disliked (it is not said) || H: Mukhtasar Khalil
+In the Maliki school, reciting the basmalah before al-Fatihah in a fard prayer is this. :: Disliked || H: Mukhtasar Khalil
+In the Shafi'i school, the basmalah is this in relation to al-Fatihah. :: A verse of it (recited aloud in loud prayers) || H: al-Majmu' (al-Nawawi)
 
 ## 400
 In the Hanafi school, the wajib acts of prayer, if missed by mistake, are made up by this. :: Sujud al-sahw || H: Nur al-Idah (al-Shurunbulali)
@@ -91,6 +185,38 @@ In the Shafi'i school, the hands are also raised at these two points. :: Going i
 In the Shafi'i school, the number of pillars (arkan) of prayer, by a common count. :: 17 || H?: Safinat al-Naja; counts differ in Shafi'i texts
 Our Beloved Prophet ﷺ prayed the "fear prayer" (salat al-khawf) in this many ways, by reports. :: Several (scholars count about six to sixteen) || H?: Sunan Abi Dawud; to be checked
 The verse of the fear prayer is in this surah. :: Surah al-Nisa' (4:102) || H: Qur'an 4:102
+In the Hanafi school, the rak'ahs a late follower makes up count as this for recitation. :: The start of his prayer || H: al-Hidayah (al-Marghinani)
+In the Shafi'i school, what the late follower prays with the imam counts as this. :: The start of his own prayer || H: Minhaj al-Talibin (al-Nawawi)
+In the Shafi'i school, the sunnahs of prayer whose omission calls for sujud al-sahw. :: The ab'ad || H: Minhaj al-Talibin (al-Nawawi)
+In the Shafi'i school, the sunnahs of prayer whose omission needs no sujud al-sahw. :: The hay'at || H: Minhaj al-Talibin (al-Nawawi)
+For the followers, the imam's sutrah serves as this. :: Their sutrah too || H: Sahih al-Bukhari (chapter heading)
+In the Hanafi school, the extra takbirs of Eid in the second rak'ah come here. :: After the recitation || H: al-Hidayah (al-Marghinani)
+In the Maliki and Hanbali schools, the extra takbirs in the first rak'ah of Eid, not counting the opening takbir. :: 6 || H: Mukhtasar Khalil; al-Mughni (Ibn Qudamah)
+In the classic Hanafi view, Jumu'ah needs the permission of this authority. :: The ruler or his deputy || H: al-Hidayah (al-Marghinani)
+In the Hanafi school, Jumu'ah is valid only in this kind of place. :: A town or city (misr) || H: al-Hidayah (al-Marghinani)
+In the Maliki school, the number of men needed for Jumu'ah besides the imam. :: 12 || H: Mukhtasar Khalil
+In the Shafi'i school, the khutbah of Jumu'ah has this many pillars. :: 5 || H: Minhaj al-Talibin (al-Nawawi)
+By Abu Hanifah's view, the least khutbah that counts is this. :: Any remembrance of Allah, even brief || H: al-Hidayah (al-Marghinani)
+The two khutbahs of Jumu'ah are separated by this. :: A short sitting || H: Sahih al-Bukhari
+A traveller praying behind a resident imam does this. :: Prays the full four || H: al-Hidayah; al-Mughni (all four schools)
+Residents praying behind a travelling imam who prays two rak'ahs do this. :: Complete their prayer after his salam || H: Muwatta' Malik
+In the Hanafi and Maliki schools, the funeral prayer over a body that is not present is this. :: Not prayed || H: al-Hidayah; Mukhtasar Khalil
+In the Shafi'i and Hanbali schools, the funeral prayer over an absent body is this. :: Valid || H: Minhaj al-Talibin; al-Mughni
+Our Beloved Prophet ﷺ prayed the funeral prayer in absence for this king of Abyssinia. :: The Negus (al-Najashi) رحمة الله عليه || H: Sahih al-Bukhari
+In the Shafi'i school, al-Fatihah in the funeral prayer is recited after this takbir. :: The first || H: Minhaj al-Talibin (al-Nawawi)
+In the funeral prayer, the blessings on our Beloved Prophet ﷺ come after this takbir. :: The second || H: Minhaj al-Talibin; Nur al-Idah
+In the funeral prayer, the du'a for the deceased comes after this takbir. :: The third || H: Minhaj al-Talibin; Nur al-Idah
+In the Hanafi school, a woman standing level with a man in the same congregational prayer, under its conditions, invalidates this. :: The man's prayer (the issue of muhadhat) || H: al-Hidayah (al-Marghinani)
+By Abu Hanifah's view, voluntary prayer at night is best in units of this many rak'ahs. :: 4 || H: al-Hidayah (al-Marghinani)
+Our Beloved Prophet ﷺ said the night prayer is prayed in units of this many (paraphrased). :: 2 ("two by two") || H: Sahih al-Bukhari
+In the Shafi'i school, the least witr. :: 1 rak'ah || H: Minhaj al-Talibin (al-Nawawi)
+In the Shafi'i school, the most witr. :: 11 rak'ahs || H: Minhaj al-Talibin (al-Nawawi)
+Sitting on the left foot with the right foot upright, between the prostrations. :: Iftirash || H: Sahih al-Bukhari
+Sitting on the left hip with the left foot under the right shin, in the last tashahhud. :: Tawarruk || H: Sahih al-Bukhari
+In the Hanafi school, men sit this way in both tashahhuds. :: Iftirash || H: al-Hidayah (al-Marghinani)
+In the Maliki school, the way of sitting in every tashahhud. :: Tawarruk || H: Mukhtasar Khalil
+A brief sitting after the second prostration before rising, a sunnah in the Shafi'i school. :: Jalsat al-istirahah || H: Sahih al-Bukhari; Minhaj al-Talibin
+A prayer prayed before its time has come in, even by mistake, must be done this way. :: Prayed again in its time || H: Standard fiqh (all four schools)
 
 ## 500
 In the Hanafi school, the opening takbir is counted among these, not among the pillars. :: The conditions (shurut) || H: Nur al-Idah (al-Shurunbulali)
@@ -113,3 +239,35 @@ In the Hanafi school, sujud al-tilawah is this ruling. :: Wajib || H: Nur al-Ida
 In the Shafi'i school, the second prostration of Surah al-Hajj is a prostration, while this surah's is not. :: Surah Sad || H: Matn Abi Shuja'; al-Minhaj
 The prayer our Beloved Prophet ﷺ taught His ﷺ uncle our master al-'Abbas (رِضْوَانُ اللَّهِ عَلَيْهِ), with 300 tasbihs. :: Salat al-tasabih || H?: Sunan Abi Dawud; grade differs among scholars
 The Hanafi book Maraqi al-Falah is a commentary on this text. :: Nur al-Idah || H: Maraqi al-Falah
+The famous Hanafi book of fiqh by al-Marghinani رحمة الله عليه. :: al-Hidayah || H: al-Hidayah
+The Hanafi text by al-Quduri رحمة الله عليه, studied by beginners. :: Mukhtasar al-Quduri || H: Mukhtasar al-Quduri
+The Shafi'i text by al-Nawawi رحمة الله عليه on which many commentaries were written. :: Minhaj al-Talibin || H: Minhaj al-Talibin
+The short Shafi'i text by Abu Shuja' رحمة الله عليه. :: Matn Abi Shuja' (al-Ghayah wa al-Taqrib) || H: Matn Abi Shuja'
+The Maliki text by Khalil ibn Ishaq رحمة الله عليه. :: Mukhtasar Khalil || H: Mukhtasar Khalil
+The Maliki text by Ibn Abi Zayd al-Qayrawani رحمة الله عليه. :: al-Risalah || H: al-Risalah
+The Hanbali text by Ibn Qudamah رحمة الله عليه for beginners. :: 'Umdat al-Fiqh || H: 'Umdat al-Fiqh
+The great Hanbali work of fiqh with the views of the schools, by Ibn Qudamah رحمة الله عليه. :: al-Mughni || H: al-Mughni
+The Hanafi gloss by Ibn 'Abidin رحمة الله عليه on al-Durr al-Mukhtar. :: Radd al-Muhtar || H: Radd al-Muhtar
+The Shafi'i encyclopaedia by al-Nawawi رحمة الله عليه, a commentary on al-Muhadhdhab. :: al-Majmu' || H: al-Majmu'
+The commentary on al-Minhaj by Ibn Hajar al-Haytami رحمة الله عليه. :: Tuhfat al-Muhtaj || H: Tuhfat al-Muhtaj
+The commentary on al-Minhaj by Shams al-Din al-Ramli رحمة الله عليه. :: Nihayat al-Muhtaj || H: Nihayat al-Muhtaj
+The book in which Imam al-Shafi'i رحمة الله عليه set down his later fiqh in Egypt. :: al-Umm || H: al-Umm
+Imam Malik's رحمة الله عليه own collection of hadith and fiqh. :: al-Muwatta' || H: al-Muwatta'
+The Maliki collection of Imam Malik's answers, recorded by Sahnun رحمة الله عليه. :: al-Mudawwanah || H: al-Mudawwanah
+The six books of Imam Muhammad al-Shaybani رحمة الله عليه holding the Hanafi school's main reports. :: Zahir al-Riwayah || H: Radd al-Muhtar (Ibn 'Abidin)
+In the Hanafi, Maliki and Shafi'i schools, one who leaves a prayer out of laziness while believing it is obligatory is judged this. :: A sinful Muslim, not a disbeliever || H: al-Majmu' (al-Nawawi)
+In the Hanafi school, the first sitting in a four-rak'ah prayer is this ruling. :: Wajib || H: Nur al-Idah (al-Shurunbulali)
+In the Shafi'i school, the first tashahhud is this. :: A sunnah of the ab'ad || H: Minhaj al-Talibin (al-Nawawi)
+In the Hanbali school, the first tashahhud is this ruling. :: Wajib || H: al-Mughni (Ibn Qudamah)
+In the Hanbali school, the takbirs said when moving between positions are this ruling. :: Wajib || H: al-Mughni (Ibn Qudamah)
+In the Hanbali school, saying "Subhana Rabbiyal-'Azim" once in ruku' is this. :: Wajib || H: al-Mughni (Ibn Qudamah)
+In the Shafi'i school, the tasbih of ruku' is this. :: Sunnah || H: Minhaj al-Talibin (al-Nawawi)
+In the Hanafi school, the follower reciting behind the imam is this ruling. :: Makruh tahriman || H: al-Hidayah (al-Marghinani)
+The Companion who narrated the hadith of the blind man who was taught a du'a asking through our Beloved Prophet ﷺ. :: 'Uthman ibn Hunayf (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sunan al-Tirmidhi
+The Eid prayer must be prayed before the sun does this. :: Passes the zenith || H: al-Hidayah; al-Mughni
+In the Hanafi school, Eid al-Adha prayer may be delayed for an excuse until this day. :: The third day of Eid || H: al-Hidayah (al-Marghinani)
+In the Hanafi school, Eid al-Fitr prayer may be delayed for an excuse until this day. :: The second day || H: al-Hidayah (al-Marghinani)
+The Hanafi text by al-Shurunbulali رحمة الله عليه on worship, often studied first. :: Nur al-Idah || H: Nur al-Idah
+The Hanafi text al-Durr al-Mukhtar was written by this scholar رحمة الله عليه. :: al-Haskafi || H: al-Durr al-Mukhtar
+The Maliki commentary on Mukhtasar Khalil by al-Dardir رحمة الله عليه. :: al-Sharh al-Kabir || H: al-Sharh al-Kabir
+The Hanbali text Zad al-Mustaqni' was written by this scholar رحمة الله عليه. :: al-Hajjawi || H: Zad al-Mustaqni'
