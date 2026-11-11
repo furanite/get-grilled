@@ -32,7 +32,8 @@ This file is rewritten by `npm run packs`.
 
 ## Fiqh: Hajj and Umrah (questions/isl-hajj.txt)
 
-- **500**, line 248: The caliph who was advised by Imam Malik رحمة الله عليه not to rebuild the Ka'bah again, so it would not become a plaything of kings. **Answer:** Harun al-Rashid (or al-Mahdi, by reports) _(Source: check which caliph the reports name)_
+- **300**, line 151: In the Shafi'i school, the sacrifice for tamattu' is this kind. **Answer:** A dam of compensation (jubran) _(Source: Minhaj al-Talibin (al-Nawawi))_
+- **500**, line 243: The caliph who was advised by Imam Malik رحمة الله عليه not to rebuild the Ka'bah again, so it would not become a plaything of kings. **Answer:** Harun al-Rashid (or al-Mahdi, by reports) _(Source: check which caliph the reports name)_
 
 ## Islamic history (questions/isl-history.txt)
 
@@ -98,11 +99,11 @@ This file is rewritten by `npm run packs`.
 
 ## Fiqh: Fasting (Sawm) (questions/isl-sawm.txt)
 
-- **400**, line 187: The famous Ramadan khutbah "O people, a great month has come upon you" (meaning) is narrated by this Companion. **Answer:** Salman al-Farisi (رِضْوَانُ اللَّهِ عَلَيْهِ) _(Source: Sahih Ibn Khuzaymah; its chain is weak, check the grading)_
-- **400**, line 213: Our Beloved Prophet ﷺ said the du'a of the fasting person when breaking his fast is this (paraphrased). **Answer:** Not turned back _(Source: Sunan Ibn Majah; check the grading)_
-- **500**, line 252: The scholar al-Subki رحمة الله عليه wrote that a witness's claim to see the moon is rejected when this says it is impossible. **Answer:** Definite astronomical calculation _(Source: al-'Alam al-Manshur (al-Subki); check the book's title)_
-- **500**, line 264: The fast was first prescribed as 'Ashura' and three days a month, then replaced by Ramadan, in the view of this Companion. **Answer:** Mu'adh ibn Jabal (رِضْوَانُ اللَّهِ عَلَيْهِ) _(Source: Sunan Abi Dawud; check the chain)_
-- **500**, line 266: Our master 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِ) gathered the people for Tarawih behind one imam in this year. **Answer:** 14 AH / 635 CE _(Source: Ta'rikh al-Tabari; check the year)_
+- **400**, line 181: The famous Ramadan khutbah "O people, a great month has come upon you" (meaning) is narrated by this Companion. **Answer:** Salman al-Farisi (رِضْوَانُ اللَّهِ عَلَيْهِ) _(Source: Sahih Ibn Khuzaymah; its chain is weak, check the grading)_
+- **400**, line 207: Our Beloved Prophet ﷺ said the du'a of the fasting person when breaking his fast is this (paraphrased). **Answer:** Not turned back _(Source: Sunan Ibn Majah; check the grading)_
+- **500**, line 246: The scholar al-Subki رحمة الله عليه wrote that a witness's claim to see the moon is rejected when this says it is impossible. **Answer:** Definite astronomical calculation _(Source: al-'Alam al-Manshur (al-Subki); check the book's title)_
+- **500**, line 258: The fast was first prescribed as 'Ashura' and three days a month, then replaced by Ramadan, in the view of this Companion. **Answer:** Mu'adh ibn Jabal (رِضْوَانُ اللَّهِ عَلَيْهِ) _(Source: Sunan Abi Dawud; check the chain)_
+- **500**, line 260: Our master 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِ) gathered the people for Tarawih behind one imam in this year. **Answer:** 14 AH / 635 CE _(Source: Ta'rikh al-Tabari; check the year)_
 
 ## Scholars of Islam (questions/isl-scholars.txt)
 
@@ -129,8 +130,9 @@ This file is rewritten by `npm run packs`.
 
 ## Fiqh: Cleanliness (Taharah) (questions/isl-taharah.txt)
 
-- **400**, line 171: The two qullahs are about this much water in today's measures, by a common estimate. **Answer:** About 190 to 270 litres _(Source: Modern estimates differ; to be checked)_
-- **500**, line 272: The famous chapter in the books of hadith on wiping over khuffs says this many Companions narrated it, by al-Hasan al-Basri's رحمة الله عليه count. **Answer:** 70 _(Source: Fath al-Bari (Ibn Hajar); check the wording of al-Hasan's report)_
+- **400**, line 164: The two qullahs are about this much water in today's measures, by a common estimate. **Answer:** About 190 to 270 litres _(Source: Modern estimates differ; to be checked)_
+- **400**, line 189: In the Hanafi school, a woman's habit ('adah) in hayd is set by it happening this many times. **Answer:** Once _(Source: al-Hidayah (al-Marghinani); check Abu Yusuf's view (once) against that of Abu Hanifah and Muhammad (twice))_
+- **500**, line 263: The famous chapter in the books of hadith on wiping over khuffs says this many Companions narrated it, by al-Hasan al-Basri's رحمة الله عليه count. **Answer:** 70 _(Source: Fath al-Bari (Ibn Hajar); check the wording of al-Hasan's report)_
 
 ## Tajwid (questions/isl-tajwid.txt)
 
