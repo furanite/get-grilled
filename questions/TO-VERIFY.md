@@ -63,7 +63,7 @@ This file is rewritten by `npm run packs`.
 
 ## Fiqh: Money and trade (questions/isl-money.txt)
 
-- **500**, line 164: In the Hanafi school, salam requires this many conditions, including a known term and place. **Answer:** 7 _(Source: al-Hidayah (al-Marghinani); count to be checked)_
+- **500**, line 158: In the Hanafi school, salam requires this many conditions, including a known term and place. **Answer:** 7 _(Source: al-Hidayah (al-Marghinani); count to be checked)_
 
 ## Nahw (grammar) (questions/isl-nahw.txt)
 
@@ -176,14 +176,14 @@ This file is rewritten by `npm run packs`.
 ## Fiqh: Work and earning (questions/isl-work.txt)
 
 - **100**, line 17: Our Beloved Master ﷺ said Allah loves that when one of you does a job, he does it with this (paraphrased). **Answer:** Excellence (itqan) _(Source: al-Mu'jam al-Awsat (al-Tabarani); grade to be checked)_
-- **200**, line 41: Our Beloved Master ﷺ said the best earning is a man's work with his hand and every this. **Answer:** Honest sale (bay' mabrur) _(Source: Musnad Ahmad; to be checked)_
-- **300**, line 52: The Companion who said "I hate to see a man idle, not in worldly work nor in work for the Hereafter" (meaning). **Answer:** 'Abdullah ibn Mas'ud (رِضْوَانُ اللَّهِ عَلَيْهِ) _(Source: Musannaf Ibn Abi Shaybah; to be checked)_
-- **300**, line 53: Our Beloved Prophet ﷺ said one who strives to support his family is like this (paraphrased). **Answer:** One striving in the way of Allah _(Source: al-Mu'jam al-Kabir (al-Tabarani); to be checked)_
-- **400**, line 83: Our master 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِ) appointed this woman to oversee the market of Madinah, by one report. **Answer:** al-Shifa' bint 'Abdullah (رِضْوَانُ اللَّهِ عَلَيْهَا) _(Source: al-Isti'ab (Ibn 'Abd al-Barr); report to be checked)_
-- **500**, line 99: Imam Ahmad رحمة الله عليه said of a man who sits in his house saying his provision will come: he is this. **Answer:** Ignorant of knowledge (he has not understood) _(Source: Reported in Hanbali works; to be checked)_
-- **500**, line 101: In the Hanafi school, a muzara'ah needs these conditions, including the share and the seed's owner known. **Answer:** 8 _(Source: al-Hidayah (al-Marghinani); count to be checked)_
-- **500**, line 105: The Companion who ran the first diwan with 'Umar, by some reports. **Answer:** 'Aqil ibn Abi Talib and others (genealogists) _(Source: Futuh al-Buldan (al-Baladhuri); to be checked)_
-- **500**, line 115: Our master 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِ) said "The sky does not rain gold or" this. **Answer:** Silver _(Source: Ihya' 'Ulum al-Din (report of 'Umar); to be checked)_
+- **200**, line 46: Our Beloved Master ﷺ said the best earning is a man's work with his hand and every this. **Answer:** Honest sale (bay' mabrur) _(Source: Musnad Ahmad; to be checked)_
+- **300**, line 64: The Companion who said "I hate to see a man idle, not in worldly work nor in work for the Hereafter" (meaning). **Answer:** 'Abdullah ibn Mas'ud (رِضْوَانُ اللَّهِ عَلَيْهِ) _(Source: Musannaf Ibn Abi Shaybah; to be checked)_
+- **300**, line 65: Our Beloved Prophet ﷺ said one who strives to support his family is like this (paraphrased). **Answer:** One striving in the way of Allah _(Source: al-Mu'jam al-Kabir (al-Tabarani); to be checked)_
+- **400**, line 98: Our master 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِ) appointed this woman to oversee the market of Madinah, by one report. **Answer:** al-Shifa' bint 'Abdullah (رِضْوَانُ اللَّهِ عَلَيْهَا) _(Source: al-Isti'ab (Ibn 'Abd al-Barr); report to be checked)_
+- **500**, line 117: Imam Ahmad رحمة الله عليه said of a man who sits in his house saying his provision will come: he is this. **Answer:** Ignorant of knowledge (he has not understood) _(Source: Reported in Hanbali works; to be checked)_
+- **500**, line 119: In the Hanafi school, a muzara'ah needs these conditions, including the share and the seed's owner known. **Answer:** 8 _(Source: al-Hidayah (al-Marghinani); count to be checked)_
+- **500**, line 123: The Companion who ran the first diwan with 'Umar, by some reports. **Answer:** 'Aqil ibn Abi Talib and others (genealogists) _(Source: Futuh al-Buldan (al-Baladhuri); to be checked)_
+- **500**, line 133: Our master 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِ) said "The sky does not rain gold or" this. **Answer:** Silver _(Source: Ihya' 'Ulum al-Din (report of 'Umar); to be checked)_
 
 ## Fiqh: Zakat (questions/isl-zakat.txt)
 
