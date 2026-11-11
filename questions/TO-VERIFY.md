@@ -63,7 +63,7 @@ This file is rewritten by `npm run packs`.
 
 ## Fiqh: Money and trade (questions/isl-money.txt)
 
-- **500**, line 103: In the Hanafi school, salam requires this many conditions, including a known term and place. **Answer:** 7 _(Source: al-Hidayah (al-Marghinani); count to be checked)_
+- **500**, line 164: In the Hanafi school, salam requires this many conditions, including a known term and place. **Answer:** 7 _(Source: al-Hidayah (al-Marghinani); count to be checked)_
 
 ## Nahw (grammar) (questions/isl-nahw.txt)
 
