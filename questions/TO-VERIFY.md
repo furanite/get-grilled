@@ -15,9 +15,9 @@ This file is rewritten by `npm run packs`.
 
 ## Akhlaq and Adab (questions/isl-akhlaq.txt)
 
-- **200**, line 39: Our Beloved Master ﷺ said Paradise is at the feet of these (paraphrased). **Answer:** Mothers _(Source: Sunan al-Nasa'i (hadith of Mu'awiyah ibn Jahimah); wording to check)_
-- **400**, line 88: The book by Ibn Abi al-Dunya رحمة الله عليه on the faults of the tongue. **Answer:** Dhamm al-Ghibah wal-Namimah _(Source: Title to be checked)_
-- **500**, line 102: Our Beloved Prophet ﷺ said the people most beloved to Allah are those most this to people (paraphrased). **Answer:** Beneficial _(Source: al-Mu'jam al-Awsat (al-Tabarani); grade to be checked)_
+- **200**, line 50: Our Beloved Master ﷺ said Paradise is at the feet of these (paraphrased). **Answer:** Mothers _(Source: Sunan al-Nasa'i (hadith of Mu'awiyah ibn Jahimah); wording to check)_
+- **400**, line 123: The book by Ibn Abi al-Dunya رحمة الله عليه on the faults of the tongue. **Answer:** Dhamm al-Ghibah wal-Namimah _(Source: Title to be checked)_
+- **500**, line 140: Our Beloved Prophet ﷺ said the people most beloved to Allah are those most this to people (paraphrased). **Answer:** Beneficial _(Source: al-Mu'jam al-Awsat (al-Tabarani); grade to be checked)_
 
 ## Balagha (rhetoric) (questions/isl-balagha.txt)
 
