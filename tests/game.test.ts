@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { chooseGolden, createGame, drawCategory, exportCategory, isFinished, isPlayable, markUsed, parseImportedCategory, score, standings } from '../src/lib/game'
+import { adjustScore, MAX_ADJUST, chooseGolden, createGame, drawCategory, exportCategory, isFinished, isPlayable, markUsed, parseImportedCategory, score, standings } from '../src/lib/game'
 import type { Category } from '../src/lib/types'
 
 function seeded(seed = 1) {
@@ -208,5 +208,31 @@ describe('import limits', () => {
   it('keeps markup as plain text', () => {
     const c = parseImportedCategory({ name: '<b>x</b>', levels: lv('<img src=x onerror=alert(1)>') }, () => 'i')
     expect(c.levels[0][0].q).toBe('<img src=x onerror=alert(1)>')
+  })
+})
+
+describe('adjustScore', () => {
+  const base = createGame(
+    [{ id: 'x', name: 'X', builtIn: false, levels: [0, 1, 2, 3, 4].map((l) => [{ id: `q${l}`, q: 'q', a: 'a' }]) }],
+    ['One', 'Two'],
+    { timer: 0, deduct: true, golden: 0 },
+    {},
+  ).game
+
+  it('adds and takes away points for one team', () => {
+    let g = adjustScore(base, 1, 400)
+    g = adjustScore(g, 0, -250)
+    expect(g.teams.map((t) => t.score)).toEqual([-250, 400])
+    expect(base.teams.map((t) => t.score)).toEqual([0, 0])
+  })
+
+  it('rounds to whole points', () => {
+    expect(adjustScore(base, 0, 99.6).teams[0].score).toBe(100)
+  })
+
+  it('ignores zero, non-numbers, huge amounts and unknown teams', () => {
+    for (const [team, d] of [[0, 0], [0, NaN], [0, Infinity], [0, MAX_ADJUST + 1], [2, 100], [-1, 100], [0.5, 100]] as const) {
+      expect(adjustScore(base, team, d)).toBe(base)
+    }
   })
 })
