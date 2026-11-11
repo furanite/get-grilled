@@ -1,0 +1,114 @@
+id: isl-tasawwuf
+name: Tasawwuf and Ihsan
+nameAr: التصوف والإحسان
+group: tazkiyah
+
+## 100
+The level of the religion where you worship Allah as though you see Him. :: Ihsan || H: Sahih Muslim, hadith of Jibril
+The science of purifying the heart, also called 'ilm al-suluk. :: Tasawwuf (Tazkiyah) || H: al-Risalah al-Qushayriyyah
+Purification of the soul in Arabic, from Surah al-Shams. :: Tazkiyat al-nafs || H: Qur'an 91:9
+Remembrance of Allah. :: Dhikr || H: Qur'an 13:28
+The verse "Truly in the remembrance of Allah do hearts find rest" (meaning) is in this surah. :: Surah al-Ra'd (13:28) || H: Qur'an 13:28
+Turning back to Allah from sin. :: Tawbah (repentance) || H: Qur'an 66:8
+Asking Allah's forgiveness. :: Istighfar || H: Qur'an 71:10
+Trust in Allah. :: Tawakkul || H: Qur'an 65:3
+Sincerity, doing deeds only for Allah. :: Ikhlas || H: Qur'an 98:5
+Fear and awareness of Allah that guards from sin. :: Taqwa || H: Qur'an 2:197
+Doing without the love of the world in the heart. :: Zuhd || H: Sunan Ibn Majah
+Being careful to avoid doubtful things. :: Wara' || H: Sunan al-Tirmidhi
+A person on the path to Allah. :: Salik (murid) || H: al-Risalah al-Qushayriyyah
+The teacher who guides the seeker. :: Shaykh (murshid) || H: al-Risalah al-Qushayriyyah
+A friend of Allah, close to Him through obedience. :: Wali || H: Qur'an 10:62
+The verse "the friends of Allah: no fear shall be on them, nor shall they grieve" (meaning) is in this surah. :: Surah Yunus (10:62) || H: Qur'an 10:62
+Love of Allah. :: Mahabbah || H: Qur'an 5:54
+Staying awake at night for prayer. :: Qiyam al-layl || H: Qur'an 73:2
+Hope in Allah's mercy. :: Raja' || H: Qur'an 39:53
+The heart that will be saved on the Day, in Surah al-Shu'ara'. :: Qalb salim (a sound heart) || H: Qur'an 26:89
+
+## 200
+The great scholar called "Hujjat al-Islam", author of the Ihya'. :: Imam Abu Hamid al-Ghazali رحمة الله عليه || H: Tabaqat al-Shafi'iyyah (al-Subki)
+Imam al-Ghazali رحمة الله عليه died in this year. :: 505 AH / 1111 CE || H: Tabaqat al-Shafi'iyyah (al-Subki)
+The book of al-Ghazali رحمة الله عليه telling how he found certainty. :: al-Munqidh min al-Dalal || H: al-Munqidh min al-Dalal
+The leader of the Sufis of Baghdad, called "Sayyid al-Ta'ifah", d. 298 AH / 910 CE. :: al-Junayd al-Baghdadi رحمة الله عليه || H: al-Risalah al-Qushayriyyah
+Al-Junayd رحمة الله عليه said this path is bound by the Book and this (paraphrased). :: The Sunnah || H: al-Risalah al-Qushayriyyah
+The famous handbook of tasawwuf by Abu al-Qasim al-Qushayri رحمة الله عليه. :: al-Risalah al-Qushayriyyah || H: al-Risalah al-Qushayriyyah
+The Successor of Basrah known for his sermons on the heart, d. 110 AH / 728 CE. :: al-Hasan al-Basri رحمة الله عليه || H: Siyar A'lam al-Nubala' (al-Dhahabi)
+The woman of Basrah famed for her love of Allah. :: Rabi'ah al-'Adawiyyah رحمة الله عليها || H: al-Risalah al-Qushayriyyah
+The man of Khurasan who left his kingdom for a life of zuhd. :: Ibrahim ibn Adham رحمة الله عليه || H: al-Risalah al-Qushayriyyah
+The scholar of Baghdad known as "al-Hafi" (the barefoot), d. 227 AH / 841 CE. :: Bishr al-Hafi رحمة الله عليه || H: al-Risalah al-Qushayriyyah
+The book of Hikam (wise sayings) by Ibn 'Ata' Allah al-Iskandari رحمة الله عليه. :: al-Hikam al-'Ata'iyyah || H: al-Hikam
+The great Hanbali scholar and Sufi of Baghdad whose name is given to the Qadiri order. :: Shaykh 'Abd al-Qadir al-Jilani رحمة الله عليه || H: Siyar A'lam al-Nubala' (al-Dhahabi)
+Shaykh 'Abd al-Qadir al-Jilani رحمة الله عليه died in this year. :: 561 AH / 1166 CE || H: Siyar A'lam al-Nubala' (al-Dhahabi)
+The Sufi order named after Abu al-Hasan al-Shadhili رحمة الله عليه. :: The Shadhili order (al-Shadhiliyyah) || H: Lata'if al-Minan (Ibn 'Ata' Allah)
+The Sufi order named after Baha' al-Din Naqshband رحمة الله عليه. :: The Naqshbandi order || H: Rashahat 'Ayn al-Hayat
+The Sufi order named after Ahmad al-Rifa'i رحمة الله عليه. :: The Rifa'i order || H: Tabaqat al-Shafi'iyyah (al-Subki)
+The Sufi order of India named after Mu'in al-Din Chishti رحمة الله عليه. :: The Chishti order || H?: Siyar al-Awliya'; to be checked
+A gathering for remembering Allah together. :: Majlis al-dhikr || H: Sahih Muslim
+The prayer for the Prophet ﷺ. :: Salawat (al-salah 'ala al-Nabi) || H: Qur'an 33:56
+The verse "Allah and His angels send blessings on the Prophet" (meaning). :: Qur'an 33:56 || H: Qur'an 33:56
+
+## 300
+The stations of the path, gained by effort, are called this. :: Maqamat || H: al-Risalah al-Qushayriyyah
+The passing states of the heart, given as gifts, are called this. :: Ahwal || H: al-Risalah al-Qushayriyyah
+Watching over oneself, knowing Allah sees. :: Muraqabah || H: al-Risalah al-Qushayriyyah
+Taking oneself to account. :: Muhasabah || H: Ihya' 'Ulum al-Din
+Struggle against the lower self. :: Mujahadah || H: Qur'an 29:69
+The soul that commands evil, from Surah Yusuf. :: al-Nafs al-ammarah || H: Qur'an 12:53
+The soul that blames itself, from Surah al-Qiyamah. :: al-Nafs al-lawwamah || H: Qur'an 75:2
+The soul at peace, from Surah al-Fajr. :: al-Nafs al-mutma'innah || H: Qur'an 89:27
+Contentment with Allah's decree. :: Rida || H: al-Risalah al-Qushayriyyah
+Certainty of faith. :: Yaqin || H: al-Risalah al-Qushayriyyah
+Being in Allah's presence with the heart. :: Hudur || H: al-Risalah al-Qushayriyyah
+Seclusion for worship for a time. :: Khalwah || H: al-Risalah al-Qushayriyyah
+The Prophet ﷺ spent time in seclusion in this cave before revelation. :: The Cave of Hira' || H: Sahih al-Bukhari
+Retreat in the mosque in the last ten nights of Ramadan. :: I'tikaf || H: Sahih al-Bukhari
+A daily set portion of dhikr or Qur'an. :: Wird (awrad) || H: Ihya' 'Ulum al-Din
+The chain of a Sufi order back to the Prophet ﷺ. :: Silsilah || H: al-Risalah al-Qushayriyyah
+The famous ode in praise of the Prophet ﷺ by Imam al-Busiri رحمة الله عليه. :: Qasidat al-Burdah || H: al-Burdah
+The scholar of Basrah and Baghdad who wrote Qut al-Qulub. :: Abu Talib al-Makki رحمة الله عليه || H: Qut al-Qulub
+The early book on Sufism by al-Sarraj رحمة الله عليه. :: Kitab al-Luma' || H: al-Luma'
+The book by al-Kalabadhi رحمة الله عليه explaining the beliefs of the Sufis. :: al-Ta'arruf li-Madhhab Ahl al-Tasawwuf || H: al-Ta'arruf
+
+## 400
+Al-Qushayri رحمة الله عليه died in this year. :: 465 AH / 1072 CE || H: Tabaqat al-Shafi'iyyah (al-Subki)
+The early Persian book on Sufism by al-Hujwiri رحمة الله عليه of Lahore. :: Kashf al-Mahjub || H: Kashf al-Mahjub
+The book by Shihab al-Din 'Umar al-Suhrawardi رحمة الله عليه on the Sufi path. :: 'Awarif al-Ma'arif || H: 'Awarif al-Ma'arif
+The book of 'Abd al-Qadir al-Jilani رحمة الله عليه on the path and on fiqh. :: al-Ghunyah li-Talibi Tariq al-Haqq || H: al-Ghunyah
+His collection of sermons, "The Opening from the Lord". :: al-Fath al-Rabbani || H: al-Fath al-Rabbani
+Al-Ghazali's book on the "Forty Principles of the Religion". :: Kitab al-Arba'in fi Usul al-Din || H: Kitab al-Arba'in
+Al-Ghazali's book "The Ladder of the Worshippers". :: Minhaj al-'Abidin || H: Minhaj al-'Abidin
+Al-Ghazali's teacher in Nishapur. :: Imam al-Haramayn al-Juwayni رحمة الله عليه || H: Tabaqat al-Shafi'iyyah (al-Subki)
+The madrasah of Baghdad where al-Ghazali taught before leaving. :: al-Nizamiyyah || H: al-Munqidh min al-Dalal
+The early Sufi of Baghdad called "al-Muhasibi" because he took himself to account. :: al-Harith al-Muhasibi رحمة الله عليه || H: al-Risalah al-Qushayriyyah
+The Egyptian Sufi Dhul-Nun al-Misri رحمة الله عليه died in this century AH. :: 3rd century AH (245 AH / 859 CE) || H: al-Risalah al-Qushayriyyah
+The uncle of al-Junayd and his teacher. :: Sari al-Saqati رحمة الله عليه || H: al-Risalah al-Qushayriyyah
+The teacher of Sari al-Saqati, of the Karkh quarter of Baghdad. :: Ma'ruf al-Karkhi رحمة الله عليه || H: al-Risalah al-Qushayriyyah
+The commentary on al-Hikam by Ibn 'Ajibah رحمة الله عليه. :: Iqaz al-Himam || H: Iqaz al-Himam
+The commentary on al-Hikam by Ibn 'Abbad al-Rundi رحمة الله عليه. :: Ghayth al-Mawahib al-'Aliyyah || H: Ghayth al-Mawahib
+The book of Shaykh Ahmad Zarruq رحمة الله عليه setting out the rules of tasawwuf. :: Qawa'id al-Tasawwuf || H: Qawa'id al-Tasawwuf
+The Prophet ﷺ said the best remembrance is this (paraphrased). :: La ilaha illa Allah || H: Sunan al-Tirmidhi
+The hadith "I am as My servant thinks of Me" (meaning) is this kind of hadith. :: Hadith qudsi || H: Sahih al-Bukhari
+The hadith of the wali, "My servant draws near to Me with nothing more beloved than the obligations" (meaning), is in this book. :: Sahih al-Bukhari || H: Sahih al-Bukhari, Book of Softening the Hearts
+In that hadith, after the obligations the servant keeps drawing near through these. :: Voluntary deeds (nawafil) || H: Sahih al-Bukhari
+
+## 500
+Al-Ghazali's younger brother, also a Sufi and preacher. :: Ahmad al-Ghazali رحمة الله عليه || H: Wafayat al-A'yan (Ibn Khallikan)
+The Sufi and scholar of Morocco called "Muhtasib al-'Ulama' wal-Awliya'". :: Ahmad Zarruq رحمة الله عليه || H?: Nayl al-Ibtihaj (al-Tinbukti); title to be checked
+Ibn 'Ata' Allah al-Iskandari رحمة الله عليه died in this year. :: 709 AH / 1309 CE || H: al-Durar al-Kaminah (Ibn Hajar)
+Ibn 'Ata' Allah's teacher, successor of al-Shadhili. :: Abu al-'Abbas al-Mursi رحمة الله عليه || H: Lata'if al-Minan
+The book of Ibn 'Ata' Allah رحمة الله عليه on dhikr. :: Miftah al-Falah || H: Miftah al-Falah
+His book on giving up self-direction to Allah. :: al-Tanwir fi Isqat al-Tadbir || H: al-Tanwir
+Al-Qushayri's teacher in tasawwuf, whose daughter he married. :: Abu 'Ali al-Daqqaq رحمة الله عليه || H: Tabaqat al-Shafi'iyyah (al-Subki)
+The Sufi of Nishapur who wrote Tabaqat al-Sufiyyah. :: Abu 'Abd al-Rahman al-Sulami رحمة الله عليه || H: Tabaqat al-Sufiyyah
+The book of Abu Nu'aym al-Asbahani رحمة الله عليه on the lives of the saints. :: Hilyat al-Awliya' || H: Hilyat al-Awliya'
+The Naqshbandi principle "khalwat dar anjuman" means this. :: Solitude in the crowd || H: Rashahat 'Ayn al-Hayat
+The Naqshbandi order is known for this kind of dhikr. :: Silent dhikr (of the heart) || H: Rashahat 'Ayn al-Hayat
+The Indian Naqshbandi scholar called "Mujaddid Alf Thani". :: Shaykh Ahmad Sirhindi رحمة الله عليه || H: al-Maktubat
+His letters, a famous work. :: al-Maktubat || H: al-Maktubat
+The Hanafi Sufi scholar of Damascus who wrote "al-Hadiqah al-Nadiyyah". :: 'Abd al-Ghani al-Nabulusi رحمة الله عليه || H: al-Hadiqah al-Nadiyyah
+The book of al-Sha'rani رحمة الله عليه on the lives of the Sufis. :: al-Tabaqat al-Kubra (Lawaqih al-Anwar) || H: al-Tabaqat al-Kubra
+The Successor of Basrah whose letters on zuhd to 'Umar ibn 'Abd al-'Aziz رحمة الله عليه are famous. :: al-Hasan al-Basri رحمة الله عليه || H: Hilyat al-Awliya'
+The Companion the Prophet ﷺ described as the most truthful in speech under the sky (paraphrased). :: Abu Dharr al-Ghifari (رضي الله عنه) || H: Sunan al-Tirmidhi
+The Hikam begins: a sign of relying on one's deeds is this, when one slips (paraphrased). :: Losing hope when one slips || H: al-Hikam, first saying
+The Shafi'i scholar who wrote "Tabaqat al-Shafi'iyyah al-Kubra" and defended the Sufis. :: Taj al-Din al-Subki رحمة الله عليه || H: Tabaqat al-Shafi'iyyah al-Kubra
+The ode "al-Hamziyyah" in praise of the Prophet ﷺ is also by this poet. :: Imam al-Busiri رحمة الله عليه || H: al-Hamziyyah

@@ -1,0 +1,115 @@
+id: isl-scholars
+name: Scholars of Islam
+nameAr: علماء الإسلام
+group: islamichistory
+# Every Sunni scholar's name carries رحمة الله عليه (رحمة الله عليها for a woman). Dates: hijri first, then CE.
+
+## 100
+The founder of the Hanafi school. :: Imam Abu Hanifah رحمة الله عليه || H: Tarikh Baghdad (al-Khatib)
+The founder of the Maliki school. :: Imam Malik ibn Anas رحمة الله عليه || H: Tartib al-Madarik (Qadi 'Iyad)
+The founder of the Shafi'i school. :: Imam Muhammad ibn Idris al-Shafi'i رحمة الله عليه || H: Tabaqat al-Shafi'iyyah (al-Subki)
+The founder of the Hanbali school. :: Imam Ahmad ibn Hanbal رحمة الله عليه || H: Siyar A'lam al-Nubala' (al-Dhahabi)
+The four schools of fiqh are called this. :: The four madhhabs || H: Standard term
+Imam Malik رحمة الله عليه lived and taught in this city. :: Madinah || H: Tartib al-Madarik (Qadi 'Iyad)
+Imam Abu Hanifah رحمة الله عليه lived and taught in this city. :: Kufah || H: Tarikh Baghdad (al-Khatib)
+Imam al-Shafi'i رحمة الله عليه is buried in this city. :: Cairo || H: Tabaqat al-Shafi'iyyah (al-Subki)
+Imam Ahmad رحمة الله عليه lived in this city. :: Baghdad || H: Siyar A'lam al-Nubala' (al-Dhahabi)
+The compiler of Sahih al-Bukhari. :: Imam al-Bukhari رحمة الله عليه || H: Sahih al-Bukhari
+The scholar called "Hujjat al-Islam". :: Imam al-Ghazali رحمة الله عليه || H: Tabaqat al-Shafi'iyyah (al-Subki)
+The scholar who wrote Riyad al-Salihin. :: Imam al-Nawawi رحمة الله عليه || H: Riyad al-Salihin
+The scholar who wrote Fath al-Bari. :: Ibn Hajar al-'Asqalani رحمة الله عليه || H: Fath al-Bari
+The scholar who wrote more than 500 works including Tafsir al-Jalalayn (with al-Mahalli). :: Jalal al-Din al-Suyuti رحمة الله عليه || H: Husn al-Muhadarah (al-Suyuti)
+The founder of the Ash'ari school of creed. :: Imam Abu al-Hasan al-Ash'ari رحمة الله عليه || H: Tabyin Kadhib al-Muftari
+The founder of the Maturidi school of creed. :: Imam Abu Mansur al-Maturidi رحمة الله عليه || H: Taj al-Tarajim
+The famous scholar of Baghdad known as "Sayyid al-Ta'ifah" of the Sufis. :: al-Junayd al-Baghdadi رحمة الله عليه || H: al-Risalah al-Qushayriyyah
+The Successor of Basrah famous for his sermons. :: al-Hasan al-Basri رحمة الله عليه || H: Siyar A'lam al-Nubala' (al-Dhahabi)
+The scholar who wrote the poem al-Burdah. :: Imam al-Busiri رحمة الله عليه || H: al-Burdah
+The scholar of Morocco who wrote al-Shifa about the Prophet ﷺ. :: Qadi 'Iyad رحمة الله عليه || H: al-Shifa
+
+## 200
+Imam Abu Hanifah رحمة الله عليه died in this year. :: 150 AH / 767 CE || H: Tarikh Baghdad (al-Khatib)
+Imam Malik رحمة الله عليه died in this year. :: 179 AH / 795 CE || H: Tartib al-Madarik (Qadi 'Iyad)
+Imam al-Shafi'i رحمة الله عليه died in this year. :: 204 AH / 820 CE || H: Tabaqat al-Shafi'iyyah (al-Subki)
+Imam Ahmad رحمة الله عليه died in this year. :: 241 AH / 855 CE || H: Siyar A'lam al-Nubala' (al-Dhahabi)
+Imam Abu Hanifah's real name. :: al-Nu'man ibn Thabit رحمة الله عليه || H: Tarikh Baghdad (al-Khatib)
+Imam al-Shafi'i رحمة الله عليه was born in this place in 150 AH / 767 CE. :: Gaza || H: Tabaqat al-Shafi'iyyah (al-Subki)
+The great student of Abu Hanifah who became chief judge under Harun al-Rashid. :: Imam Abu Yusuf رحمة الله عليه || H: Tarikh Baghdad (al-Khatib)
+The student of Abu Hanifah who wrote the "Zahir al-Riwayah" books. :: Imam Muhammad ibn al-Hasan al-Shaybani رحمة الله عليه || H: Taj al-Tarajim (Ibn Qutlubugha)
+Imam al-Shafi'i رحمة الله عليه studied under this Imam in Madinah. :: Imam Malik رحمة الله عليه || H: Tabaqat al-Shafi'iyyah (al-Subki)
+Imam Ahmad رحمة الله عليه studied under this Imam. :: Imam al-Shafi'i رحمة الله عليه || H: Siyar A'lam al-Nubala' (al-Dhahabi)
+The book on usul al-fiqh by Imam al-Shafi'i رحمة الله عليه. :: al-Risalah || H: al-Risalah
+The great book of fiqh by Imam al-Shafi'i رحمة الله عليه. :: al-Umm || H: al-Umm
+The book of Maliki fiqh compiled by Sahnun رحمة الله عليه. :: al-Mudawwanah || H: al-Mudawwanah
+The famous Hanafi book al-Hidayah was written by this scholar. :: Burhan al-Din al-Marghinani رحمة الله عليه || H: al-Hidayah
+The Hanafi book of fiqh by al-Quduri رحمة الله عليه, studied by beginners. :: Mukhtasar al-Quduri || H: Mukhtasar al-Quduri
+The Shafi'i scholar who wrote Minhaj al-Talibin. :: Imam al-Nawawi رحمة الله عليه || H: Minhaj al-Talibin
+The Maliki scholar who wrote the short book al-Risalah, called "the small Malik". :: Ibn Abi Zayd al-Qayrawani رحمة الله عليه || H: Tartib al-Madarik (Qadi 'Iyad)
+The Hanbali scholar who wrote al-Mughni. :: Ibn Qudamah al-Maqdisi رحمة الله عليه || H: al-Mughni
+The Hanafi scholar of Damascus who wrote Radd al-Muhtar (Hashiyat Ibn 'Abidin). :: Ibn 'Abidin رحمة الله عليه || H: Radd al-Muhtar
+The Maliki scholar of Egypt who wrote the Mukhtasar studied across North and West Africa. :: Khalil ibn Ishaq رحمة الله عليه || H: Mukhtasar Khalil
+
+## 300
+Imam Malik رحمة الله عليه was flogged by the governor of Madinah over this fatwa. :: That a forced oath of divorce does not count || H: Tartib al-Madarik (Qadi 'Iyad)
+Imam Abu Hanifah رحمة الله عليه refused this post and was imprisoned. :: Chief judge (qadi) || H: Tarikh Baghdad (al-Khatib)
+Imam Abu Hanifah's main teacher in fiqh. :: Hammad ibn Abi Sulayman رحمة الله عليه || H: Tarikh Baghdad (al-Khatib)
+Imam Abu Hanifah رحمة الله عليه worked in this trade. :: Silk cloth (khazz) || H: Tarikh Baghdad (al-Khatib)
+Imam al-Shafi'i رحمة الله عليه is from this tribe, sharing an ancestor with the Prophet ﷺ. :: Quraysh (Banu al-Muttalib) || H: Tabaqat al-Shafi'iyyah (al-Subki)
+Al-Shafi'i's views after moving to Egypt are called this. :: al-Qawl al-Jadid (the new school) || H: Tabaqat al-Shafi'iyyah (al-Subki)
+His earlier views in Iraq are called this. :: al-Qawl al-Qadim (the old school) || H: Tabaqat al-Shafi'iyyah (al-Subki)
+Imam Ahmad's great hadith collection. :: al-Musnad || H: Musnad Ahmad
+The teacher before whom al-Bukhari said he never felt small (paraphrased). :: 'Ali ibn al-Madini رحمة الله عليه || H: Tarikh Baghdad (al-Khatib)
+Imam al-Nawawi رحمة الله عليه was born in this village of Syria. :: Nawa || H: Tabaqat al-Shafi'iyyah (al-Subki)
+Imam al-Nawawi رحمة الله عليه died at about this age. :: 45 || H: Tabaqat al-Shafi'iyyah (al-Subki)
+Ibn Hajar al-'Asqalani رحمة الله عليه was chief judge in this city. :: Cairo || H: al-Daw' al-Lami' (al-Sakhawi)
+Ibn Hajar's title meaning "commander of the believers in hadith" in his time. :: Amir al-Mu'minin fil-Hadith || H: al-Jawahir wal-Durar (al-Sakhawi)
+The Hanafi scholar Badr al-Din al-'Ayni رحمة الله عليه wrote this commentary on al-Bukhari. :: 'Umdat al-Qari || H: 'Umdat al-Qari
+Imam al-Ghazali رحمة الله عليه was born in this city of Khurasan. :: Tus || H: Tabaqat al-Shafi'iyyah (al-Subki)
+Al-Suyuti رحمة الله عليه wrote a book on the scholars of Egypt. :: Husn al-Muhadarah || H: Husn al-Muhadarah
+The Shafi'i scholar known as "Sultan al-'Ulama'". :: al-'Izz ibn 'Abd al-Salam رحمة الله عليه || H: Tabaqat al-Shafi'iyyah (al-Subki)
+Al-'Izz ibn 'Abd al-Salam's book on the principles of rulings. :: Qawa'id al-Ahkam || H: Qawa'id al-Ahkam
+The Maliki scholar of Granada who wrote al-Muwafaqat on the aims of the Shari'ah. :: Abu Ishaq al-Shatibi رحمة الله عليه || H: al-Muwafaqat
+The Hanafi scholar of Bukhara who wrote al-Mabsut in prison. :: Shams al-A'immah al-Sarakhsi رحمة الله عليه || H: al-Mabsut
+
+## 400
+The Hanafi scholar Ibn Nujaym رحمة الله عليه wrote this book on legal maxims. :: al-Ashbah wal-Naza'ir || H: al-Ashbah wal-Naza'ir (Ibn Nujaym)
+The Shafi'i scholar al-Suyuti رحمة الله عليه also wrote a book with this title. :: al-Ashbah wal-Naza'ir || H: al-Ashbah wal-Naza'ir (al-Suyuti)
+The Hanafi scholar al-Kasani رحمة الله عليه wrote this. :: Bada'i' al-Sana'i' || H: Bada'i' al-Sana'i'
+The Hanafi scholar Ibn al-Humam رحمة الله عليه wrote this commentary on al-Hidayah. :: Fath al-Qadir || H: Fath al-Qadir
+The Shafi'i scholar Ibn Hajar al-Haytami رحمة الله عليه wrote this commentary on al-Minhaj. :: Tuhfat al-Muhtaj || H: Tuhfat al-Muhtaj
+The Shafi'i scholar al-Ramli رحمة الله عليه wrote this commentary on al-Minhaj. :: Nihayat al-Muhtaj || H: Nihayat al-Muhtaj
+The Shafi'i scholar al-Rafi'i رحمة الله عليه wrote this commentary on al-Wajiz. :: Fath al-'Aziz (al-Sharh al-Kabir) || H: Fath al-'Aziz
+The book of al-Ghazali رحمة الله عليه on usul al-fiqh. :: al-Mustasfa || H: al-Mustasfa
+The Maliki scholar al-Qarafi رحمة الله عليه wrote this book on differences of rules. :: al-Furuq || H: al-Furuq
+The Maliki scholar al-Dardir رحمة الله عليه wrote this commentary on Khalil. :: al-Sharh al-Kabir || H: al-Sharh al-Kabir
+The Hanbali scholar al-Buhuti رحمة الله عليه wrote this. :: Kashshaf al-Qina' || H: Kashshaf al-Qina'
+The Hanbali scholar Ibn al-Jawzi رحمة الله عليه wrote this book on the mind and the soul. :: Sayd al-Khatir || H: Sayd al-Khatir
+The Hanafi scholar al-Haskafi رحمة الله عليه wrote this, on which Ibn 'Abidin wrote his Hashiyah. :: al-Durr al-Mukhtar || H: al-Durr al-Mukhtar
+The Hanafi scholar al-Tahawi رحمة الله عليه was born in this land. :: Egypt || H: Taj al-Tarajim
+The Hanafi scholar al-Tahawi رحمة الله عليه was first a student of this Shafi'i uncle. :: al-Muzani رحمة الله عليه || H: Taj al-Tarajim
+The student of al-Shafi'i who wrote al-Mukhtasar. :: al-Muzani رحمة الله عليه || H: Tabaqat al-Shafi'iyyah (al-Subki)
+The student of Malik who spread his school in Egypt and narrated al-Mudawwanah's base. :: Ibn al-Qasim رحمة الله عليه || H: Tartib al-Madarik (Qadi 'Iyad)
+The Hanbali scholar Abu Ya'la رحمة الله عليه was known by this title. :: al-Qadi || H: Tabaqat al-Hanabilah (Ibn Abi Ya'la)
+Al-Hidayah by al-Marghinani رحمة الله عليه is his own commentary on this short text of his. :: Bidayat al-Mubtadi || H: al-Hidayah, introduction
+The great Shafi'i scholar al-Juwayni رحمة الله عليه wrote this in usul al-fiqh. :: al-Burhan || H: al-Burhan (al-Juwayni)
+
+## 500
+The Hanafi principle book by al-Dabusi رحمة الله عليه. :: Ta'sis al-Nazar || H: Ta'sis al-Nazar
+The Hanafi usul book by al-Bazdawi رحمة الله عليه. :: Kanz al-Wusul (Usul al-Bazdawi) || H: Usul al-Bazdawi
+The Hanafi usul text by al-Nasafi رحمة الله عليه, with commentary Kashf al-Asrar. :: al-Manar || H: Manar al-Anwar
+The Hanafi usul text by Sadr al-Shari'ah رحمة الله عليه with his own commentary al-Tawdih. :: al-Tanqih || H: al-Tawdih
+Al-Taftazani's gloss on al-Tawdih. :: al-Talwih || H: al-Talwih
+The Shafi'i usul text by Taj al-Din al-Subki رحمة الله عليه. :: Jam' al-Jawami' || H: Jam' al-Jawami'
+The Shafi'i usul text by al-Baydawi رحمة الله عليه. :: Minhaj al-Wusul || H: Minhaj al-Wusul
+The Maliki usul text by Ibn al-Hajib رحمة الله عليه. :: Mukhtasar al-Muntaha || H: Mukhtasar Ibn al-Hajib
+The Hanbali usul text by Ibn Qudamah رحمة الله عليه. :: Rawdat al-Nazir || H: Rawdat al-Nazir
+Al-Suyuti رحمة الله عليه hoped to be the renewer (mujaddid) at the head of this century AH. :: The 9th || H: al-Tahadduth bi-Ni'mat Allah (al-Suyuti)
+The woman scholar of Makkah famed for teaching Sahih al-Bukhari to many students in the 5th century AH. :: Karimah al-Marwaziyyah رحمة الله عليها || H: Siyar A'lam al-Nubala' (al-Dhahabi)
+The woman scholar of Baghdad called "Fakhr al-Nisa'" (pride of women), a teacher of hadith. :: Shuhdah al-Katibah رحمة الله عليها || H: Siyar A'lam al-Nubala' (al-Dhahabi)
+The woman scholar of Damascus whose Juz' of hadith was heard by many. :: Zaynab bint al-Kamal رحمة الله عليها || H: al-Durar al-Kaminah (Ibn Hajar)
+The descendant of the Prophet ﷺ, a scholar in Egypt, whom al-Shafi'i رحمة الله عليه visited. :: Sayyidah Nafisah رحمة الله عليها || H: Wafayat al-A'yan (Ibn Khallikan)
+The scholar called "Shaykh al-Islam" who taught al-Suyuti and wrote Fath al-Wahhab. :: Zakariyya al-Ansari رحمة الله عليه || H: al-Kawakib al-Sa'irah (al-Ghazzi)
+The Hanafi Ottoman jurist and Shaykh al-Islam famous for his fatwas, d. 982 AH / 1574 CE. :: Abu al-Su'ud Efendi رحمة الله عليه || H: al-Shaqa'iq al-Nu'maniyyah
+The Shafi'i scholar who wrote Fath al-Mu'in, popular in South India and South-East Asia. :: Zayn al-Din al-Malibari رحمة الله عليه || H: Fath al-Mu'in
+The Hanafi scholar who wrote Nur al-Idah on worship. :: Hasan al-Shurunbulali رحمة الله عليه || H: Nur al-Idah
+The Maliki scholar who wrote al-Bayan wal-Tahsil. :: Ibn Rushd al-Jadd رحمة الله عليه || H: al-Bayan wal-Tahsil
+The scholar who wrote Bidayat al-Mujtahid on comparing the schools. :: Ibn Rushd (the grandson) || H?: Bidayat al-Mujtahid; check creed before adding an honorific

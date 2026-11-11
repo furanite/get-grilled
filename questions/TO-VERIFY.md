@@ -13,6 +13,12 @@ This file is rewritten by `npm run packs`.
 - **500**, line 103: The wind that takes the soul of every believer near the end blows from this direction, in one narration. **Answer:** Yemen _(Source: Sahih Muslim; other narrations name al-Sham)_
 - **500**, line 114: The day that is fifty thousand years long will feel as short as this for the believer (paraphrased). **Answer:** The time of a prescribed prayer _(Source: Musnad Ahmad; grade to be checked)_
 
+## Akhlaq and Adab (questions/isl-akhlaq.txt)
+
+- **200**, line 39: The Prophet ﷺ said Paradise is at the feet of these (paraphrased). **Answer:** Mothers _(Source: Sunan al-Nasa'i (hadith of Mu'awiyah ibn Jahimah); wording to check)_
+- **400**, line 88: The book by Ibn Abi al-Dunya رحمة الله عليه on the faults of the tongue. **Answer:** Dhamm al-Ghibah wal-Namimah _(Source: Title to be checked)_
+- **500**, line 102: The Prophet ﷺ said the people most beloved to Allah are those most this to people (paraphrased). **Answer:** Beneficial _(Source: al-Mu'jam al-Awsat (al-Tabarani); grade to be checked)_
+
 ## Balagha (rhetoric) (questions/isl-balagha.txt)
 
 - **300**, line 54: 'Abd al-Qahir al-Jurjani رحمة الله عليه died in this year. **Answer:** 471 AH / 1078 CE _(Source: Bughyat al-Wu'at (al-Suyuti); 471 or 474 AH)_
@@ -22,6 +28,13 @@ This file is rewritten by `npm run packs`.
 ## Hadith books and narrators (questions/isl-hadith.txt)
 
 - **500**, line 95: The teacher of al-Bukhari, nicknamed "Commander of the Believers in hadith", famed for criticism of narrators. **Answer:** 'Ali ibn al-Madini رحمة الله عليه _(Source: Siyar A'lam al-Nubala' (al-Dhahabi); title to be checked)_
+
+## Islamic history (questions/isl-history.txt)
+
+- **200**, line 46: The woman who founded al-Qarawiyyin in 245 AH / 859 CE. **Answer:** Fatimah al-Fihriyyah رحمة الله عليها _(Source: Rawd al-Qirtas; date to be checked)_
+- **300**, line 69: The Mali king famous for his Hajj journey in 724 AH / 1324 CE. **Answer:** Mansa Musa _(Source: Standard history; dates vary)_
+- **500**, line 96: The Ayyubid-era scholar who wrote "Mir'at al-Zaman". **Answer:** Sibt ibn al-Jawzi _(Source: Mir'at al-Zaman; creed to be checked before adding an honorific)_
+- **500**, line 114: The madrasah founded in 457 AH / 1065 CE in Baghdad by Nizam al-Mulk. **Answer:** al-Nizamiyyah _(Source: Wafayat al-A'yan (Ibn Khallikan); founding year 457 or 459 AH)_
 
 ## Pillars of faith (questions/isl-iman.txt)
 
@@ -54,9 +67,21 @@ This file is rewritten by `npm run packs`.
 - **500**, line 102: The verse many regard as the last revealed, according to a report from Ibn 'Abbas (رضي الله عنه). **Answer:** Qur'an 2:281 _(Source: al-Itqan (al-Suyuti), report of Ibn 'Abbas)_
 - **500**, line 103: The word said to mark the middle of the Qur'an by letters. **Answer:** Wal-yatalattaf (18:19) _(Source: Commonly stated in works on Qur'an counts)_
 
+## The Companions (questions/isl-sahabah.txt)
+
+- **400**, line 84: The great battle against the Persians in 15 AH / 636 CE. **Answer:** The Battle of al-Qadisiyyah _(Source: Tarikh al-Tabari; reports give 14, 15 or 16 AH)_
+- **400**, line 92: The last Companion to die in Madinah, by one view. **Answer:** Sahl ibn Sa'd (رضي الله عنه) _(Source: Muqaddimah Ibn al-Salah; to be checked)_
+- **500**, line 103: The Companion who said "I wish I were a tree that is cut down" (meaning) out of fear of Allah. **Answer:** Abu Dharr al-Ghifari (رضي الله عنه) _(Source: Sunan al-Tirmidhi; wording to be checked)_
+- **500**, line 107: The Battle of Dhat al-Sawari in 34 AH / 655 CE was this kind of battle. **Answer:** A sea battle _(Source: Tarikh al-Tabari; year given as 31 to 35 AH)_
+- **500**, line 115: The number of Companions whose lives are in al-Isabah, roughly. **Answer:** About 12,000 _(Source: al-Isabah (Ibn Hajar); count to be checked)_
+
 ## Sarf (morphology) (questions/isl-sarf.txt)
 
 - **500**, line 103: The early grammarian who first wrote a separate book on sarf, according to many. **Answer:** Mu'adh al-Harra' رحمة الله عليه _(Source: Commonly stated in histories of grammar; to be checked)_
+
+## Scholars of Islam (questions/isl-scholars.txt)
+
+- **500**, line 115: The scholar who wrote Bidayat al-Mujtahid on comparing the schools. **Answer:** Ibn Rushd (the grandson) _(Source: Bidayat al-Mujtahid; check creed before adding an honorific)_
 
 ## Seerah: the Madinan years (questions/isl-seerah-madinah.txt)
 
@@ -81,3 +106,8 @@ This file is rewritten by `npm run packs`.
 ## Tajwid (questions/isl-tajwid.txt)
 
 - **500**, line 113: Hafs ibn Sulayman رحمة الله عليه died in this year. **Answer:** 180 AH / 796 CE _(Source: al-Nashr (Ibn al-Jazari); date to be checked)_
+
+## Tasawwuf and Ihsan (questions/isl-tasawwuf.txt)
+
+- **200**, line 45: The Sufi order of India named after Mu'in al-Din Chishti رحمة الله عليه. **Answer:** The Chishti order _(Source: Siyar al-Awliya'; to be checked)_
+- **500**, line 96: The Sufi and scholar of Morocco called "Muhtasib al-'Ulama' wal-Awliya'". **Answer:** Ahmad Zarruq رحمة الله عليه _(Source: Nayl al-Ibtihaj (al-Tinbukti); title to be checked)_

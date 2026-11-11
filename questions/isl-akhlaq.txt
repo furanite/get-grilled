@@ -1,0 +1,114 @@
+id: isl-akhlaq
+name: Akhlaq and Adab
+nameAr: الأخلاق والآداب
+group: tazkiyah
+
+## 100
+Good character in Arabic. :: Husn al-khuluq || H: Sahih al-Bukhari
+The Prophet ﷺ said he was sent to perfect this (paraphrased). :: Noble character || H: Muwatta' Malik; Musnad Ahmad
+Truthfulness in Arabic. :: Sidq || H: Qur'an 9:119
+Trustworthiness in Arabic. :: Amanah || H: Qur'an 4:58
+Patience in Arabic. :: Sabr || H: Qur'an 2:153
+Gratitude in Arabic. :: Shukr || H: Qur'an 14:7
+Modesty, which the Prophet ﷺ called a branch of faith (paraphrased). :: Haya' || H: Sahih al-Bukhari; Sahih Muslim
+The greeting of Islam. :: As-salamu 'alaykum || H: Qur'an 24:61; Sahih al-Bukhari
+The reply to the greeting of Islam. :: Wa 'alaykum as-salam || H: Qur'an 4:86
+Before eating, a Muslim says this. :: Bismillah || H: Sahih al-Bukhari
+After eating, a Muslim says this. :: Al-hamdu lillah || H: Sahih Muslim
+A Muslim eats with this hand. :: The right hand || H: Sahih Muslim
+Talking about someone behind their back in a way they would dislike. :: Ghibah (backbiting) || H: Qur'an 49:12; Sahih Muslim
+Carrying tales to cause trouble between people. :: Namimah || H: Sahih al-Bukhari
+Wishing that someone loses a blessing. :: Hasad (envy) || H: Sunan Abi Dawud
+Showing off good deeds so people praise you. :: Riya' || H: Sahih Muslim
+Pride, thinking oneself above others. :: Kibr || H: Sahih Muslim
+Humility in Arabic. :: Tawadu' || H: Sahih Muslim
+The Prophet ﷺ said a smile at your brother is this (paraphrased). :: Charity (sadaqah) || H: Sunan al-Tirmidhi
+The Prophet ﷺ said the strong person is the one who controls himself in this state (paraphrased). :: Anger || H: Sahih al-Bukhari
+
+## 200
+The Prophet ﷺ said whoever believes in Allah and the Last Day should speak good or do this (paraphrased). :: Stay silent || H: Sahih al-Bukhari; Sahih Muslim
+The Prophet ﷺ said Jibril kept advising him about this person until he thought he would inherit (paraphrased). :: The neighbour || H: Sahih al-Bukhari
+The Prophet ﷺ said none of you truly believes until he loves for his brother what he loves for this (paraphrased). :: Himself || H: Sahih al-Bukhari
+Saying "Yarhamuk Allah" is the reply when someone does this and praises Allah. :: Sneezes || H: Sahih al-Bukhari
+The young greet the old, the walker greets the one sitting, and the few greet this. :: The many || H: Sahih al-Bukhari
+The Prophet ﷺ said the religion is this (paraphrased). :: Sincere advice (nasihah) || H: Sahih Muslim
+The rights of a Muslim on a Muslim include visiting the sick and following this. :: The funeral || H: Sahih al-Bukhari
+The Prophet ﷺ said do not be angry, three times, to the man who asked for this. :: Advice || H: Sahih al-Bukhari
+Ihsan to parents is commanded right after this in Surah al-Isra'. :: Worshipping Allah alone || H: Qur'an 17:23
+In Surah al-Isra', one must not say this small word of annoyance to parents. :: Uff || H: Qur'an 17:23
+The Prophet ﷺ said Paradise is at the feet of these (paraphrased). :: Mothers || H?: Sunan al-Nasa'i (hadith of Mu'awiyah ibn Jahimah); wording to check
+The Prophet ﷺ named this person three times when asked who most deserves good company. :: Your mother || H: Sahih al-Bukhari
+Lying, breaking promises and betraying trusts are signs of this. :: A hypocrite || H: Sahih al-Bukhari
+The Prophet ﷺ said the best of you are those best to these (paraphrased). :: Their families (wives) || H: Sunan al-Tirmidhi
+Covering the faults of a Muslim earns this from Allah (paraphrased). :: Allah covers your faults || H: Sahih Muslim
+Removing something harmful from this is a branch of faith (paraphrased). :: The road || H: Sahih Muslim
+The surah that gives manners like not raising voices above the Prophet's voice. :: Surah al-Hujurat || H: Qur'an 49:2
+The verse that says "the most honoured of you with Allah is the most God-fearing" (meaning). :: Qur'an 49:13 || H: Qur'an 49:13
+The Prophet ﷺ said do not hate each other, envy each other, or turn your backs, but be this (paraphrased). :: Brothers, servants of Allah || H: Sahih al-Bukhari; Sahih Muslim
+The wise man of the Qur'an whose advice to his son includes "do not walk proudly" (meaning). :: Luqman || H: Qur'an 31:18
+
+## 300
+The famous book on manners by Imam al-Bukhari رحمة الله عليه. :: al-Adab al-Mufrad || H: al-Adab al-Mufrad
+The book of Imam al-Nawawi رحمة الله عليه with chapters on manners and the heart. :: Riyad al-Salihin || H: Riyad al-Salihin
+The book of al-Ghazali رحمة الله عليه in forty books, on worship, customs, vices and virtues. :: Ihya' 'Ulum al-Din || H: Ihya' 'Ulum al-Din
+The quarter of the Ihya' about the destructive vices. :: Rub' al-Muhlikat || H: Ihya' 'Ulum al-Din
+The quarter of the Ihya' about the saving virtues. :: Rub' al-Munjiyat || H: Ihya' 'Ulum al-Din
+The book by Imam al-Nawawi رحمة الله عليه on remembrance and prayers for every occasion. :: al-Adhkar || H: al-Adhkar
+The book of al-Zarnuji رحمة الله عليه on the manners of the student. :: Ta'lim al-Muta'allim || H: Ta'lim al-Muta'allim
+The book of Imam al-Nawawi رحمة الله عليه on the manners of the carriers of the Qur'an. :: al-Tibyan fi Adab Hamalat al-Qur'an || H: al-Tibyan
+The book of Imam al-Ghazali رحمة الله عليه "O Son", a letter to a student. :: Ayyuha al-Walad || H: Ayyuha al-Walad
+The book of al-Muhasibi رحمة الله عليه on keeping the rights of Allah. :: al-Ri'ayah li-Huquq Allah || H: al-Ri'ayah
+Keeping ties of kinship in Arabic. :: Silat al-rahim || H: Sahih al-Bukhari
+Cutting off kin is called this. :: Qat' al-rahim || H: Sahih Muslim
+Disobedience to parents, among the major sins. :: 'Uquq al-walidayn || H: Sahih al-Bukhari
+A Muslim may not cut off his brother for more than this many days. :: 3 || H: Sahih al-Bukhari
+The Prophet ﷺ said avoid suspicion, for it is this (paraphrased). :: The most false of speech || H: Sahih al-Bukhari
+The Prophet ﷺ said the worst of people is this, showing one face to some and another to others (paraphrased). :: Two-faced (dhul-wajhayn) || H: Sahih al-Bukhari
+Selflessness, preferring others to oneself, as the Ansar did. :: Ithar || H: Qur'an 59:9
+Contentment with what one has. :: Qana'ah || H: Sahih Muslim
+The Prophet ﷺ said wealth is not having much, but richness of this (paraphrased). :: The soul || H: Sahih al-Bukhari
+Gentleness, which the Prophet ﷺ said beautifies everything it is in (paraphrased). :: Rifq || H: Sahih Muslim
+
+## 400
+The Prophet ﷺ said the heaviest thing on the scale on the Day of Judgement is this (paraphrased). :: Good character || H: Sunan Abi Dawud; Sunan al-Tirmidhi
+The Prophet ﷺ said the closest to him on the Day of Judgement are those best in this (paraphrased). :: Character || H: Sunan al-Tirmidhi
+The answer of 'A'ishah (رضي الله عنها) when asked about the Prophet's character. :: His character was the Qur'an || H: Sahih Muslim
+The verse "And indeed you are of a great moral character" (meaning) is in this surah. :: Surah al-Qalam (68:4) || H: Qur'an 68:4
+The hadith "Leave what makes you doubt for what does not" (meaning) is narrated by this grandson of the Prophet ﷺ. :: al-Hasan ibn 'Ali (رضي الله عنهما) || H: Sunan al-Tirmidhi; Sunan al-Nasa'i
+The hadith "Part of the excellence of a person's Islam is leaving what does not concern him" (meaning) is in this collection of al-Nawawi. :: al-Arba'in al-Nawawiyyah || H: Sunan al-Tirmidhi; al-Arba'in
+The hadith "Fear Allah wherever you are..." (meaning) was said to these two Companions. :: Abu Dharr and Mu'adh ibn Jabal (رضي الله عنهما) || H: Sunan al-Tirmidhi
+The hadith "Be in this world as a stranger or a traveller" (meaning) was said to this Companion. :: 'Abdullah ibn 'Umar (رضي الله عنهما) || H: Sahih al-Bukhari
+The Prophet ﷺ said "Allah is beautiful and loves beauty" (meaning) while explaining this sin. :: Pride (kibr) || H: Sahih Muslim
+Pride, the Prophet ﷺ said, is rejecting the truth and this (paraphrased). :: Looking down on people || H: Sahih Muslim
+The Prophet ﷺ said he is not one of us who does not show mercy to our young and respect to these (paraphrased). :: Our elders || H: Sunan al-Tirmidhi
+Al-Zarnuji's book was written for students of this school. :: Hanafi || H: Ta'lim al-Muta'allim
+The book by Ibn Jama'ah رحمة الله عليه on the manners of teacher and student. :: Tadhkirat al-Sami' wal-Mutakallim || H: Tadhkirat al-Sami'
+The book by al-Khatib al-Baghdadi رحمة الله عليه on the manners of narrators and listeners. :: al-Jami' li-Akhlaq al-Rawi wa Adab al-Sami' || H: al-Jami' (al-Khatib)
+The book of al-Ghazali رحمة الله عليه, a shorter guide to worship and character, "The Beginning of Guidance". :: Bidayat al-Hidayah || H: Bidayat al-Hidayah
+The book by Ibn Abi al-Dunya رحمة الله عليه on the faults of the tongue. :: Dhamm al-Ghibah wal-Namimah || H?: Title to be checked
+The kind of lie that the Prophet ﷺ allowed to make peace between people. :: Saying good to reconcile || H: Sahih al-Bukhari; Sahih Muslim
+The Prophet ﷺ cursed the one who takes and the one who gives this. :: A bribe (rishwah) || H: Sunan Abi Dawud; Sunan al-Tirmidhi
+Spying on others, forbidden in Surah al-Hujurat. :: Tajassus || H: Qur'an 49:12
+Mocking other people, forbidden in Surah al-Hujurat. :: Sukhriyah || H: Qur'an 49:11
+
+## 500
+The four roots of good character in al-Ghazali's Ihya'. :: Wisdom, courage, chastity and justice || H: Ihya' 'Ulum al-Din, Book of Disciplining the Soul
+Al-Ghazali's name for the book in the Ihya' on disciplining the soul. :: Kitab Riyadat al-Nafs || H: Ihya' 'Ulum al-Din
+The book of al-Raghib al-Isfahani رحمة الله عليه on the paths to the noble law and character. :: al-Dhari'ah ila Makarim al-Shari'ah || H: al-Dhari'ah
+The book by al-Kharaiti رحمة الله عليه on noble character. :: Makarim al-Akhlaq || H: Makarim al-Akhlaq
+The book of al-Tabarani رحمة الله عليه with the same title. :: Makarim al-Akhlaq || H: Makarim al-Akhlaq (al-Tabarani)
+The hadith "The believer is not one who taunts, curses, is obscene or crude" (meaning) is narrated by this Companion. :: 'Abdullah ibn Mas'ud (رضي الله عنه) || H: Sunan al-Tirmidhi
+The Companion who asked, "What is the deliverance?" and was told "Hold your tongue" (meaning). :: 'Uqbah ibn 'Amir (رضي الله عنه) || H: Sunan al-Tirmidhi
+The Prophet ﷺ said the people most beloved to Allah are those most this to people (paraphrased). :: Beneficial || H?: al-Mu'jam al-Awsat (al-Tabarani); grade to be checked
+The Prophet ﷺ said "Make things easy and do not make them hard" (meaning) when sending these two to Yemen. :: Mu'adh and Abu Musa (رضي الله عنهما) || H: Sahih al-Bukhari
+The Companion whom the Prophet ﷺ told, "You have two qualities Allah loves: forbearance and deliberation" (meaning). :: Ashajj 'Abd al-Qays (رضي الله عنه) || H: Sahih Muslim
+The Prophet ﷺ said the one who is not grateful to people is not grateful to this. :: Allah || H: Sunan Abi Dawud; Sunan al-Tirmidhi
+Ihsan to animals: a man was forgiven for giving water to this animal. :: A thirsty dog || H: Sahih al-Bukhari
+A woman entered the Fire for locking up this animal without food. :: A cat || H: Sahih al-Bukhari
+The Prophet ﷺ said Allah has written ihsan in everything, even in this. :: Slaughtering (and killing) || H: Sahih Muslim
+The rights of the road include lowering the gaze, not harming, returning greetings and this. :: Enjoining good and forbidding evil || H: Sahih al-Bukhari
+The manner of entering a home: asking permission this many times. :: 3 || H: Sahih al-Bukhari
+The verse on asking permission before entering homes is in this surah. :: Surah al-Nur (24:27) || H: Qur'an 24:27
+The Companion who stood at the door of 'Umar (رضي الله عنه), asked three times, and left. :: Abu Musa al-Ash'ari (رضي الله عنه) || H: Sahih al-Bukhari
+The Prophet ﷺ said "the Muslim is the brother of the Muslim: he does not wrong him or" do this to him (paraphrased). :: Hand him over (abandon him) || H: Sahih al-Bukhari
+The hadith of the seventy-odd branches of faith says the highest is "La ilaha illa Allah" and the lowest is this. :: Removing harm from the road || H: Sahih Muslim
