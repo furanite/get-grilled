@@ -1,4 +1,6 @@
 import type { ThemeId } from './types'
+import { ISLAMIC_SET } from './edition'
+import { ISLAMIC_MARKS } from './islamic'
 
 /**
  * Each theme's logo mark, drawn in a 100 x 100 box, as an SVG string.
@@ -41,7 +43,7 @@ function leaves(cx: number, cy: number, r: number, a0: number, a1: number, n: nu
 
 type Mark = { bg: [string, string]; draw: (g: string) => string }
 
-export const MARKS: Record<ThemeId, Mark> = {
+export const MARKS: Record<Exclude<ThemeId, 'rawdah'>, Mark> = {
   // Laurel wreath around the flame.
   amethyst: {
     bg: ['#3a1a6e', '#160a2c'],
@@ -135,7 +137,7 @@ let uid = 0
 
 /** The mark as a full SVG. `tile: true` puts it on the rounded app-icon background. */
 export function markSvg(theme: ThemeId, opts: { tile?: boolean; id?: string } = {}): string {
-  const m = MARKS[theme] ?? MARKS.amethyst
+  const m = ISLAMIC_SET || theme === 'rawdah' ? ISLAMIC_MARKS[theme] : MARKS[theme]
   const g = opts.id ?? `gg-${theme}-${++uid}-`
   const inner = m.draw(g)
   const body = opts.tile

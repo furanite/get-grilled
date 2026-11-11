@@ -1,4 +1,6 @@
 import type { ThemeId } from './types'
+import { ISLAMIC_SET } from './edition'
+import { ISLAMIC_THEME_TEXT } from './islamic'
 
 export interface ThemeInfo {
   id: ThemeId
@@ -8,7 +10,7 @@ export interface ThemeInfo {
   blurb: string
 }
 
-export const THEMES: ThemeInfo[] = [
+const BASE_THEMES: ThemeInfo[] = [
   { id: 'amethyst', name: 'Royal Amethyst', nameAr: 'الجمشت الملكي', swatch: 'linear-gradient(135deg,#3c1b72,#f5cd72)', blurb: 'Plum, violet and gold foil' },
   { id: 'emerald', name: 'Emerald Oasis', nameAr: 'واحة الزمرد', swatch: 'linear-gradient(135deg,#105a4a,#e9c47f)', blurb: 'Emerald, teal and brass' },
   { id: 'neon', name: 'Neon Circuit', nameAr: 'دائرة النيون', swatch: 'linear-gradient(135deg,#14164a,#2ef2ff 60%,#ff3fd8)', blurb: 'Indigo, cyan and magenta' },
@@ -17,6 +19,11 @@ export const THEMES: ThemeInfo[] = [
   { id: 'ember', name: 'Molten Ember', nameAr: 'الجمر المنصهر', swatch: 'linear-gradient(135deg,#6e1322,#ffb64a)', blurb: 'Crimson and molten orange' },
   { id: 'heritage', name: 'Heritage', nameAr: 'التراث', swatch: 'linear-gradient(135deg,#0f5257,#e5b95e)', blurb: 'Najdi, Sadu and Asiri art' },
 ]
+
+/** The themes on offer. The Islamic site renames them and adds the Garden theme (leaves and flowers). */
+export const THEMES: ThemeInfo[] = ISLAMIC_SET
+  ? [...BASE_THEMES.slice(0, 6), { id: 'rawdah', name: '', nameAr: '', swatch: '', blurb: '' } as ThemeInfo, BASE_THEMES[6]].map((th): ThemeInfo => ({ ...th, ...ISLAMIC_THEME_TEXT[th.id] }))
+  : BASE_THEMES
 
 /** Day of week and hour in Riyadh, whatever the device's own time zone is. */
 function riyadhNow(now = new Date()) {

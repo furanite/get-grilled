@@ -396,3 +396,50 @@ textarea.input{resize:vertical;min-height:44px}
 .coll-tabs button{padding:7px 14px;border-radius:999px;border:1px solid color-mix(in oklab,var(--text) 18%,transparent);background:none;color:var(--text);font:inherit;font-weight:600;cursor:pointer}
 .coll-tabs button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--bg)}
 .coll-tabs .n{opacity:.7;font-weight:400;margin-inline-start:6px}
+
+/* ---------- Category icons (Islamic and Kids collections) ---------- */
+.cat-icon{display:inline-flex;width:30px;height:30px;color:var(--accent);margin-bottom:4px}
+.cat-icon svg{width:100%;height:100%}
+.group-icon{width:18px;height:18px;margin:0 8px 0 0;vertical-align:-3px}
+[dir="rtl"] .group-icon{margin:0 0 0 8px}
+.cat .cat-icon{width:24px;height:24px;margin-bottom:2px}
+
+/* ---------- Munaafasatul Ilm: the Islamic look (html[data-set="islamic"]) ---------- */
+/* A faint girih lattice of eight-point stars behind every page. */
+:root[data-set="islamic"]{--girih:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60'%3E%3Cg fill='none' stroke='%23ffffff' stroke-opacity='.05' stroke-width='1'%3E%3Cpath d='M30 12 42.7 17.3 48 30 42.7 42.7 30 48 17.3 42.7 12 30 17.3 17.3Z'/%3E%3Cpath d='M17.3 12H42.7L48 17.3V42.7L42.7 48H17.3L12 42.7V17.3Z'/%3E%3Cpath d='M30 12V0M30 48V60M12 30H0M48 30H60'/%3E%3C/g%3E%3C/svg%3E")}
+:root[data-set="islamic"] body{background-image:var(--girih);background-size:60px 60px}
+/* The Arabic name in Ruq'ah calligraphy above the title. */
+.isl-callig{display:block;font-family:'Aref Ruqaa','El Messiri',serif;font-weight:700;font-size:clamp(30px,6.4cqw,64px);line-height:1.2;color:var(--accent);text-shadow:0 0 18px var(--glow);margin-bottom:.1em;animation:flFade 1s ease both}
+.logo-card .isl-callig{font-size:clamp(28px,7cqw,66px)}
+.aud-title + .fl-wrap,.title-screen .isl-callig{font-size:clamp(40px,7vw,90px)}
+.fl-isl{width:min(62cqw,420px);height:auto;overflow:visible}
+/* Tiles: an eight-point star rosette faintly in each corner. */
+:root[data-set="islamic"][data-theme] .tile{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2 15 6.9 20.5 6.5 18.9 12 20.5 17.5 15 17.1 12 22 9 17.1 3.5 17.5 5.1 12 3.5 6.5 9 6.9Z' fill='none' stroke='%23ffffff' stroke-opacity='.28' stroke-width='1.1'/%3E%3C/svg%3E") left 8px top 8px/18px no-repeat,url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2 15 6.9 20.5 6.5 18.9 12 20.5 17.5 15 17.1 12 22 9 17.1 3.5 17.5 5.1 12 3.5 6.5 9 6.9Z' fill='none' stroke='%23ffffff' stroke-opacity='.28' stroke-width='1.1'/%3E%3C/svg%3E") right 8px bottom 8px/18px no-repeat,var(--girih) center/48px,linear-gradient(160deg,var(--tile-a),var(--tile-b))}
+:root[data-set="islamic"][data-theme="neon"] .tile{clip-path:none}
+/* The clue card and the audience card take the shape of a pointed arch. */
+:root[data-set="islamic"] .card,:root[data-set="islamic"] .aud-card{border-radius:50% 50% 16px 16px/90px 90px 16px 16px}
+:root[data-set="islamic"] .card-in{padding-top:clamp(64px,9vw,92px);align-items:center;text-align:center}
+:root[data-set="islamic"] .aud-card{padding-top:12vh;text-align:center;align-items:center}
+:root[data-set="islamic"] .card::after{content:"";position:absolute;inset:6px;border-radius:inherit;border:1px solid color-mix(in oklab,var(--accent) 35%,transparent);pointer-events:none}
+:root[data-set="islamic"] .cat-pick{background-image:var(--girih);background-size:40px 40px}
+:root[data-set="islamic"] .cat{border-radius:40% 40% 8px 8px/24px 24px 8px 8px}
+
+/* Iznik: cobalt, turquoise, coral red and white, replacing the neon colours. */
+:root[data-set="islamic"][data-theme="neon"]{--bg:#061630;--bg2:#0d2a6b;--tile-a:#173f99;--tile-b:#0a2257;--edge:#3fd0c9;--accent:#7fe3dc;--accent2:#ff7a6b;--text:#f4f8ff;--muted:#a8bde6;--glow:rgba(63,208,201,.45);--fd:'El Messiri','IBM Plex Sans Arabic',serif;--fb:'IBM Plex Sans Arabic',system-ui,sans-serif;--r:14px;--track:.02em}
+/* Samarkand: tile red and blue with gold. */
+:root[data-set="islamic"][data-theme="rivals"]{--tile-a:#a3271f;--tile-b:#1d3f8f;--accent:#f2d27a;--accent2:#ff7a6b;--edge:#f2d27a;--glow:rgba(242,210,122,.45);--fd:'El Messiri','IBM Plex Sans Arabic',serif}
+/* Ottoman tulip keeps its crimson and molten colours with a classical face. */
+:root[data-set="islamic"][data-theme="ember"]{--fd:'Marcellus','El Messiri',serif}
+
+/* The Garden (al-Rawdah): deep green, rose and gold, with vines and falling petals. */
+:root[data-theme="rawdah"]{--bg:#0b2418;--bg2:#14402a;--tile-a:#1d5a3a;--tile-b:#0c2b1c;--edge:#e7b8c4;--accent:#f3c8d3;--accent2:#e9cf8a;--text:#fbf3e6;--muted:#b9cdb9;--glow:rgba(243,200,211,.45);--fd:'El Messiri','IBM Plex Sans Arabic',Georgia,serif;--fb:'IBM Plex Sans Arabic',system-ui,sans-serif;--r:18px;--track:.03em;--tsz:10.6}
+:root[data-theme="rawdah"] body{background-image:radial-gradient(60% 50% at 50% 0%,rgba(243,200,211,.10),transparent),var(--girih,none)}
+:root[data-theme="rawdah"] .tile{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cpath d='M2 38C6 22 18 10 38 2' fill='none' stroke='%23e9cf8a' stroke-opacity='.55' stroke-width='1.2'/%3E%3Cpath d='M12 24C8 18 10 13 16 12 16 18 14 22 12 24Z' fill='%237cc489' fill-opacity='.6'/%3E%3Cpath d='M22 14C22 8 26 5 32 6 30 11 26 14 22 14Z' fill='%237cc489' fill-opacity='.6'/%3E%3Ccircle cx='8' cy='31' r='3' fill='%23f3c8d3' fill-opacity='.75'/%3E%3C/svg%3E") left 4px bottom 4px/36px no-repeat,url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cpath d='M38 2C34 18 22 30 2 38' fill='none' stroke='%23e9cf8a' stroke-opacity='.55' stroke-width='1.2'/%3E%3Cpath d='M28 16C32 22 30 27 24 28 24 22 26 18 28 16Z' fill='%237cc489' fill-opacity='.6'/%3E%3Cpath d='M18 26C18 32 14 35 8 34 10 29 14 26 18 26Z' fill='%237cc489' fill-opacity='.6'/%3E%3Ccircle cx='32' cy='9' r='3' fill='%23f3c8d3' fill-opacity='.75'/%3E%3C/svg%3E") right 4px top 4px/36px no-repeat,linear-gradient(160deg,var(--tile-a),var(--tile-b))!important}
+:root[data-theme="rawdah"] .card{background:radial-gradient(90% 70% at 50% 0%,#1d5a3a,var(--tile-b) 50%,var(--bg) 100%)}
+.amb-rw{overflow:hidden;pointer-events:none}
+.amb-rw i{position:absolute;top:-8%;display:block;animation:petalFall 14s linear infinite}
+.amb-rw i.lf{width:14px;height:6px;border-radius:0 100% 0 100%;background:#7cc489;opacity:.5}
+.amb-rw i.pt{width:9px;height:9px;border-radius:60% 0 60% 0;background:#f3c8d3;opacity:.6}
+@keyframes petalFall{0%{transform:translate(0,0) rotate(0)}50%{transform:translate(28px,55vh) rotate(200deg)}100%{transform:translate(-10px,112vh) rotate(380deg)}}
+@media (prefers-reduced-motion:reduce){.amb-rw i{animation:none;display:none}}
+:root[data-reduce="1"] .amb-rw i{display:none}

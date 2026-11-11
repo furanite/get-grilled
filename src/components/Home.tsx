@@ -4,7 +4,7 @@ import type { Strings } from '../lib/i18n'
 import { THEMES, formatCountdown, heritageOpen, msUntilHeritage } from '../lib/themes'
 import { burstAt } from '../lib/fx'
 import { Ambient, Flourish, FlourishAbove, Mark } from './Brand'
-import { APP_NAME, APP_NAME_AR, HAS_AR_NAME, appName } from '../lib/edition'
+import { APP_NAME, APP_NAME_AR, HAS_AR_NAME, ISLAMIC_SET, appName } from '../lib/edition'
 
 interface Props {
   t: Strings
@@ -31,7 +31,7 @@ export default function Home({ t, lang, theme, setTheme, hasGame, onNew, onResum
   return (
     <main className="stack" style={{ gap: 28 }}>
       <section className="hero">
-        {(theme === 'heritage' || theme === 'ember') && <Ambient theme={theme} />}
+        {(ISLAMIC_SET || theme === 'heritage' || theme === 'ember') && <Ambient theme={theme} />}
         <Mark theme={theme} className="hero-mark" key={'m' + theme} />
         <button
           className={`logo-card${flipped ? ' flipped' : ''}`}

@@ -5,6 +5,7 @@ import { num, qCount } from "../lib/i18n"
 import { createGame, isPlayable } from '../lib/game'
 import { loadPack } from '../lib/packs'
 import { loadUsed, saveUsed } from '../lib/store'
+import { CatIcon } from './Brand'
 
 interface Props {
   t: Strings
@@ -68,6 +69,7 @@ export default function Setup({ t, lang, index, indexError, custom, onBack, onSt
     const playable = c.counts.length === 5 && c.counts.every((n) => n > 0)
     return (
       <button key={c.id} className="cat-pick" aria-pressed={order >= 0} disabled={!playable || (order < 0 && picked.length >= 6)} onClick={() => toggle(c.id)} style={{ ['--d' as string]: `${i * 40}ms` }} data-cat={c.id}>
+        <CatIcon id={c.id} />
         <b>{lang === 'ar' && c.nameAr ? c.nameAr : c.name}</b>
         {c.nameAr && <small lang={lang === 'ar' ? 'en' : 'ar'}>{lang === 'ar' ? c.name : c.nameAr}</small>}
         <small>
@@ -121,7 +123,10 @@ export default function Setup({ t, lang, index, indexError, custom, onBack, onSt
                 setClosed((cur) => (open ? cur.filter((x) => x !== g) : cur.includes(g) ? cur : [...cur, g]))
               }}>
                 <summary className="group-title">
-                  <span>{groupName[g]}</span>
+                  <span>
+                    <CatIcon id={g} className="cat-icon group-icon" />
+                    {groupName[g]}
+                  </span>
                   <span className="group-count">
                     {(() => {
                       const k = list.filter((c) => picked.includes(c.id)).length

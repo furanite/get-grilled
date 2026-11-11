@@ -63,6 +63,6 @@ export interface Game {
   startedAt: number
 }
 
-export type ThemeId = 'amethyst' | 'emerald' | 'neon' | 'onyx' | 'rivals' | 'ember' | 'heritage'
+export type ThemeId = 'amethyst' | 'emerald' | 'neon' | 'onyx' | 'rivals' | 'ember' | 'heritage' | 'rawdah'
 export type Lang = 'en' | 'ar'
 export type Screen = 'home' | 'setup' | 'game' | 'results' | 'builder'

@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react'
 import Source from './Source'
+import { CatIcon } from './Brand'
 import type { Game, Lang } from '../lib/types'
 import { VALUES } from '../lib/types'
 import type { Strings } from '../lib/i18n'
@@ -89,6 +90,7 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
               const [main, sub] = lang === 'ar' && c.nameAr ? [c.nameAr, c.name] : [c.name, c.nameAr]
               return (
                 <div className="cat" key={'h' + i} style={{ ['--d' as string]: intro ? `${i * 60}ms` : '0ms' }}>
+                  <CatIcon id={c.id} />
                   <span>{main}</span>
                   {sub && <span className="sub">{sub}</span>}
                 </div>

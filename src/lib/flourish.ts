@@ -1,5 +1,7 @@
 import type { ThemeId } from './types'
 import { star } from './marks'
+import { APP_NAME_AR, ISLAMIC_SET } from './edition'
+import { islamicAbove, islamicAmbient, islamicFlourish } from './islamic'
 
 /**
  * Each theme's title ornament and its ambient background, as fixed markup strings (no user input).
@@ -13,6 +15,7 @@ const mirror = (inner: string) => `<g>${inner}</g><g transform="scale(-1 1)">${i
 let uid = 0
 
 export function flourishBelow(theme: ThemeId): string {
+  if (ISLAMIC_SET || theme === 'rawdah') return islamicFlourish(theme)
   const g = `fl${++uid}`
   switch (theme) {
     case 'amethyst':
@@ -78,6 +81,7 @@ export function flourishBelow(theme: ThemeId): string {
 
 /** Ornament above the title (only Black & Gold has one: a sunburst). */
 export function flourishAbove(theme: ThemeId): string {
+  if (ISLAMIC_SET) return islamicAbove(APP_NAME_AR)
   if (theme !== 'onyx') return ''
   let rays = ''
   const n = 21
@@ -91,6 +95,7 @@ export function flourishAbove(theme: ThemeId): string {
 
 /** Slow background motion behind a title. */
 export function ambient(theme: ThemeId): string {
+  if (ISLAMIC_SET || theme === 'rawdah') return islamicAmbient(theme)
   switch (theme) {
     case 'amethyst': {
       let s = ''

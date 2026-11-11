@@ -15,7 +15,7 @@
     "build:host": "tsc -b && vite build --mode host --outDir dist-host",
     "e2e:host": "vite build --mode host --outDir dist-host && node e2e/host.mjs",
     "build:site": "npm run build && npm run build:host && node scripts/make-site.mjs",
-    "build:islamic": "PACK_EDITION=islamic VITE_APP_NAME='Munaafasatul Ilm' VITE_APP_NAME_AR='منافسة العلم' VITE_TITLE='Munaafasatul Ilm' npm run build:site"
+    "build:islamic": "PACK_EDITION=islamic VITE_THEMESET=islamic VITE_APP_NAME='Munaafasatul Ilm' VITE_APP_NAME_AR='منافسة العلم' VITE_TITLE='Munaafasatul Ilm' npm run build:site"
   },
   "dependencies": {
     "@fontsource/aref-ruqaa": "^5.3.0",
