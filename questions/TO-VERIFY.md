@@ -81,9 +81,10 @@ This file is rewritten by `npm run packs`.
 
 ## The Qur'an (questions/isl-quran.txt)
 
-- **500**, line 101: The surah in which every verse contains the word "Allah". **Answer:** Surah al-Mujadilah _(Source: Commonly stated; count to be checked in the Mushaf)_
-- **500**, line 102: The verse many regard as the last revealed, according to a report from Ibn 'Abbas (رضي الله عنه). **Answer:** Qur'an 2:281 _(Source: al-Itqan (al-Suyuti), report of Ibn 'Abbas)_
-- **500**, line 103: The word said to mark the middle of the Qur'an by letters. **Answer:** Wal-yatalattaf (18:19) _(Source: Commonly stated in works on Qur'an counts)_
+- **500**, line 229: The surah in which every verse contains the word "Allah". **Answer:** Surah al-Mujadilah _(Source: Commonly stated; count to be checked in the Mushaf)_
+- **500**, line 230: The verse many regard as the last revealed, according to a report from Ibn 'Abbas (رضي الله عنه). **Answer:** Qur'an 2:281 _(Source: al-Itqan (al-Suyuti), report of Ibn 'Abbas)_
+- **500**, line 231: The word said to mark the middle of the Qur'an by letters. **Answer:** Wal-yatalattaf (18:19) _(Source: Commonly stated in works on Qur'an counts)_
+- **500**, line 245: The number of schools of verse-counting usually listed (Madinan first and second, Makkan, Kufan, Basran, Damascene...). **Answer:** 6 _(Source: al-Dani, al-Bayan fi 'Add Ay al-Qur'an; some count Damascus and Hims apart, making 7)_
 
 ## Fiqh: Sadaqah (charity) (questions/isl-sadaqah.txt)
 
