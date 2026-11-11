@@ -3,6 +3,7 @@ import type { Lang, ThemeId } from '../lib/types'
 import type { Strings } from '../lib/i18n'
 import { THEMES, formatCountdown, heritageOpen, msUntilHeritage } from '../lib/themes'
 import { burstAt } from '../lib/fx'
+import { Ambient, Flourish, FlourishAbove, Mark } from './Brand'
 
 interface Props {
   t: Strings
@@ -27,6 +28,8 @@ export default function Home({ t, lang, theme, setTheme, hasGame, onNew, onResum
   return (
     <main className="stack" style={{ gap: 28 }}>
       <section className="hero">
+        {(theme === 'heritage' || theme === 'ember') && <Ambient theme={theme} />}
+        <Mark theme={theme} className="hero-mark" key={'m' + theme} />
         <button
           className={`logo-card${flipped ? ' flipped' : ''}`}
           onClick={(e) => {
@@ -38,7 +41,9 @@ export default function Home({ t, lang, theme, setTheme, hasGame, onNew, onResum
         >
           <span className="logo-inner">
             <span className="logo-face">
+              <FlourishAbove theme={theme} />
               <span className="logo-title">Get Grilled</span>
+              <Flourish theme={theme} />
             </span>
             <span className="logo-face back">
               <span className="logo-answer">{t.tagline}</span>

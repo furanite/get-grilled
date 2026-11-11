@@ -7,6 +7,7 @@ import { num } from '../lib/i18n'
 import { standings, tileKey } from '../lib/game'
 import type { Live } from '../lib/edition'
 import { setFavicon } from '../lib/favicon'
+import { Ambient, Flourish, FlourishAbove, Mark } from './Brand'
 
 /**
  * Opens a second browser window that the host drags onto the projector.
@@ -102,10 +103,10 @@ export function AudienceScreen({ win, root, t, lang, theme, reduceFx, screen, ga
   html.lang = lang
   html.dir = lang === 'ar' ? 'rtl' : 'ltr'
 
-  return createPortal(<AudienceView t={t} lang={lang} screen={screen} game={game} live={live} win={win} />, root)
+  return createPortal(<AudienceView t={t} lang={lang} theme={theme} screen={screen} game={game} live={live} win={win} />, root)
 }
 
-function AudienceView({ t, lang, screen, game, live, win }: { t: Strings; lang: Lang; screen: Screen; game: Game | null; live: Live | null; win: Window }) {
+function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings; lang: Lang; theme: ThemeId; screen: Screen; game: Game | null; live: Live | null; win: Window }) {
   const [helpShown, setHelpShown] = useState(true)
   const helpTimer = useRef<number>()
   useEffect(() => {
@@ -151,10 +152,16 @@ function AudienceView({ t, lang, screen, game, live, win }: { t: Strings; lang: 
 
   if (screen !== 'game' || !game) {
     return (
-      <main className="aud-main aud-wait" data-testid="audience">
+      <main className="aud-main aud-wait" data-testid="audience" key={theme}>
+        <Ambient theme={theme} />
         {help}
-        <h1 className="aud-title">GET GRILLED</h1>
-        <p className="aud-tagline">{t.audienceWaiting}</p>
+        <div className="title-screen">
+          <Mark theme={theme} className="ts-mark" />
+          <FlourishAbove theme={theme} />
+          <h1 className="aud-title">Get Grilled</h1>
+          <Flourish theme={theme} />
+          <p className="aud-tagline">{t.audienceWaiting}</p>
+        </div>
       </main>
     )
   }

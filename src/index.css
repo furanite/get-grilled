@@ -291,3 +291,97 @@ textarea.input{resize:vertical;min-height:44px}
 /* Host edition: the host sees the answer before the room does */
 .answer.peek{clip-path:inset(0 0 0 0);opacity:.75;border:1px dashed var(--accent);background:none}
 .answer.peek::before{content:attr(data-peek);display:block;font-family:var(--fb);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:2px}
+
+/* ── Brand: marks, title flourishes and ambient motion (one set per theme) ── */
+.brand{display:inline-flex;align-items:center;gap:8px;background:none;-webkit-background-clip:border-box;background-clip:border-box;animation:none;color:inherit}
+.brand-word{font:inherit;letter-spacing:inherit;background:linear-gradient(100deg,var(--accent),var(--text) 45%,var(--accent2) 60%,var(--accent));background-size:200% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:shimmer 6s linear infinite}
+.brand-mark{display:block;width:28px;height:28px;flex:none}
+.brand-mark svg,.hero-mark svg,.ts-mark svg{display:block;width:100%;height:100%;overflow:visible}
+.hero{position:relative;isolation:isolate}
+.hero-mark{display:block;width:clamp(64px,9vw,92px);height:clamp(64px,9vw,92px);animation:markIn 1.1s var(--spring) both}
+@keyframes markIn{from{opacity:0;transform:scale(.5) rotate(-18deg)}}
+.logo-face{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:clamp(4px,1.2vw,12px)}
+.fl-wrap{display:block;position:relative;z-index:1;line-height:0}
+.fl{display:block;width:min(440px,72vw);height:auto;overflow:visible;margin-inline:auto}
+.fl-above .fl-rays,.fl-rays{display:block;width:min(200px,40vw);height:auto;margin-inline:auto}
+.fl-draw{stroke-dasharray:1;stroke-dashoffset:0;animation:flDraw var(--dur,1.6s) cubic-bezier(.6,0,.2,1) both;animation-delay:var(--d,0s)}
+@keyframes flDraw{from{stroke-dashoffset:1}}
+.fl-fade{animation:flFade .8s ease both;animation-delay:var(--d,0s)}
+@keyframes flFade{from{opacity:0}}
+.fl-pop{transform-box:fill-box;transform-origin:center;animation:flPop .45s var(--spring) both;animation-delay:var(--d,0s)}
+@keyframes flPop{from{opacity:0;scale:0}}
+/* Royal Amethyst */
+.fl-glint{transform-box:fill-box;transform-origin:center;opacity:0;animation:flTwinkle 4.6s ease-in-out infinite 2s}
+@keyframes flTwinkle{0%,70%,100%{opacity:0;transform:scale(.3) rotate(0)}80%{opacity:1;transform:scale(1) rotate(45deg)}}
+/* Emerald Oasis */
+.fl-em .fl-wave{opacity:.45;animation:flWave 5s ease-in-out infinite;animation-delay:calc(var(--i) * .12s)}
+.fl-em .fl-wave.dot{fill:#e9c47f;stroke:none}
+@keyframes flWave{0%,100%{opacity:.45}18%{opacity:1;filter:drop-shadow(0 0 3px #fff3c8)}}
+/* Neon Circuit */
+.fl-ne .base{fill:none;stroke:rgba(46,242,255,.35);stroke-width:1.4}
+.fl-ne .pulse{fill:none;stroke-width:2.4;stroke-linecap:round;stroke-dasharray:.07 .93;animation:flRun 3.2s linear infinite}
+@keyframes flRun{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+.fl-ne circle{fill:var(--bg);stroke:var(--accent);stroke-width:1.4}
+/* Black & Gold */
+.fl-on,.fl-he{width:min(500px,76vw)}
+/* Red vs Blue */
+.fl-rv{display:flex;align-items:center;gap:10px;width:min(440px,72vw);margin-inline:auto}
+.fl-rv .bar{flex:1;height:7px;transform:skewX(-30deg);animation:flShoot .55s cubic-bezier(.7,0,.2,1) both .3s}
+.fl-rv .bar.r{background:linear-gradient(90deg,transparent,#ff3d5a);transform-origin:left}
+.fl-rv .bar.b{background:linear-gradient(270deg,transparent,#5a7bff);transform-origin:right}
+@keyframes flShoot{from{transform:skewX(-30deg) scaleX(0)}}
+.fl-rv .vs{font:900 16px 'Big Shoulders Display',sans-serif;letter-spacing:.06em;color:#07081a;background:#f4f7ff;padding:1px 9px;transform:skewX(-12deg);box-shadow:-3px 0 0 #ff3d5a,3px 0 0 #5a7bff;line-height:1.3;animation:flVs .5s cubic-bezier(.2,1.6,.3,1) both .45s}
+@keyframes flVs{from{opacity:0;transform:skewX(-12deg) scale(.2)}}
+/* Molten Ember: grill bars with a wave of heat */
+.fl-mb{display:flex;flex-direction:column;gap:6px;width:min(400px,66vw);margin-inline:auto}
+.fl-mb i{display:block;height:5px;border-radius:3px;margin-inline:auto;width:100%;background:#2a1311;animation:flHot 3.2s ease-in-out infinite}
+.fl-mb i:nth-child(2){width:96%;animation-delay:.18s}.fl-mb i:nth-child(3){width:92%;animation-delay:.36s}.fl-mb i:nth-child(4){width:88%;animation-delay:.54s}.fl-mb i:nth-child(5){width:84%;animation-delay:.72s}
+@keyframes flHot{0%,100%{background:#2a1311;box-shadow:none}35%{background:linear-gradient(90deg,#5a1a12,#ff5a1f 30%,#ffb64a 50%,#ff5a1f 70%,#5a1a12);box-shadow:0 0 14px rgba(255,90,31,.6)}}
+/* Heritage: star rule */
+.fl-he .thin{stroke-width:.8;opacity:.7}
+.fl-he .fl-draw{fill:none;stroke-width:1.4}
+.fl-he .fl-pop{stroke:none}
+.fl-star{transform-box:fill-box;transform-origin:center;animation:flStar 1.1s var(--spring) both .3s}
+@keyframes flStar{from{opacity:0;transform:rotate(-135deg) scale(.2)}}
+
+/* Ambient layers */
+.amb-wrap{position:absolute;inset:0;z-index:-1;pointer-events:none;overflow:hidden;display:block}
+.amb{position:absolute;inset:0}
+.amb-am i{position:absolute;width:3px;height:3px;border-radius:50%;background:#f8dc93;box-shadow:0 0 6px #f8dc93;animation:flStarTw 4s ease-in-out infinite;animation-delay:calc(var(--i) * -.37s)}
+@keyframes flStarTw{50%{opacity:.15}}
+.amb-em svg{position:absolute;left:50%;top:50%;width:min(90vmin,900px);translate:-50% -50%;opacity:.2;animation:spin 120s linear infinite}
+.amb-em path{fill:none;stroke:#86f3d4;stroke-width:.45}
+.amb-ne{background:linear-gradient(transparent 0 calc(100% - 1px),rgba(46,242,255,.06) 0) 0 0/100% 32px,linear-gradient(90deg,transparent 0 calc(100% - 1px),rgba(46,242,255,.06) 0) 0 0/32px 100%}
+.amb-on i{position:absolute;left:50%;top:62%;width:220vmax;height:220vmax;translate:-50% -50%;opacity:.12;background:repeating-conic-gradient(from 0deg,#f2cd6b 0 .7deg,transparent .7deg 7.5deg);-webkit-mask:radial-gradient(circle,transparent 4%,#000 5%,transparent 40%);mask:radial-gradient(circle,transparent 4%,#000 5%,transparent 40%);animation:spin 220s linear infinite}
+.amb-rv i{position:absolute;height:3px;border-radius:2px;opacity:.5;animation:flStreak 2.4s linear infinite}
+.amb-rv i.r{left:-20%;background:linear-gradient(90deg,transparent,#ff3d5a);--dx:1}
+.amb-rv i.b{right:-20%;background:linear-gradient(270deg,transparent,#5a7bff);--dx:-1}
+@keyframes flStreak{to{translate:calc(var(--dx) * 140vw) 0}}
+.amb-mb svg{position:absolute;left:50%;top:6%;width:min(420px,70vw);translate:-50% 0}
+.amb-mb path{fill:none;stroke:rgba(255,235,220,.14);stroke-width:7;stroke-linecap:round;filter:blur(4px);animation:flSmoke 6.5s ease-in infinite}
+@keyframes flSmoke{0%{opacity:0;transform:translateY(30px) scaleY(.6)}30%{opacity:1}100%{opacity:0;transform:translateY(-40px) scaleY(1.1)}}
+.amb-he svg{position:absolute;left:50%;top:50%;width:160%;height:160%;translate:-50% -50%;opacity:.09;-webkit-mask:radial-gradient(closest-side,#000 30%,transparent);mask:radial-gradient(closest-side,#000 30%,transparent);animation:geoDrift 90s linear infinite}
+@keyframes geoDrift{from{transform:rotate(0) scale(1)}50%{transform:rotate(8deg) scale(1.06)}to{transform:rotate(0) scale(1)}}
+
+/* Projector title screen */
+.aud-wait{position:relative;isolation:isolate;overflow:hidden}
+.title-screen{display:flex;flex-direction:column;align-items:center;gap:2.2vh;text-align:center}
+.ts-mark{display:block;width:clamp(80px,12vh,150px);height:clamp(80px,12vh,150px);animation:markIn 1.2s var(--spring) both .2s}
+.title-screen .fl{width:min(46vw,900px)}
+.title-screen .fl-rays{width:min(22vw,420px)}
+.title-screen .fl-mb{width:min(40vw,800px)}
+.title-screen .aud-title{animation:shimmer 4s linear infinite,flRise 1s cubic-bezier(.2,.8,.2,1) both .6s}
+@keyframes flRise{from{opacity:0;transform:translateY(2vh)}}
+.title-screen .fl-wrap{animation:flFade 1s ease both .9s}
+
+/* Board tiles that match the picked flourishes */
+:root[data-theme="amethyst"] .tile{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 22 22'%3E%3Cpath d='M2 20V9C2 4 5 2 10 2h10M6 20v-8c0-4 2-6 6-6h8' fill='none' stroke='%23f3cd76' stroke-width='1.2' opacity='.85'/%3E%3C/svg%3E") left 8px top 8px/20px no-repeat,url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 22 22'%3E%3Cpath d='M20 2v11c0 5-3 7-8 7H2m14-18v8c0 4-2 6-6 6H2' fill='none' stroke='%23f3cd76' stroke-width='1.2' opacity='.85'/%3E%3C/svg%3E") right 8px bottom 8px/20px no-repeat,linear-gradient(160deg,var(--tile-a),var(--tile-b))}
+:root[data-theme="onyx"] .tile{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M1 19V1h18M5 19V5h14M9 19V9h10' fill='none' stroke='%23f2cd6b' stroke-width='1.2' opacity='.8'/%3E%3C/svg%3E") left 9px top 9px/18px no-repeat,url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M19 1v18H1M15 1v14H1M11 1v10H1' fill='none' stroke='%23f2cd6b' stroke-width='1.2' opacity='.8'/%3E%3C/svg%3E") right 9px bottom 9px/18px no-repeat,linear-gradient(160deg,#2a241a 0%,var(--tile-a) 30%,var(--tile-b) 100%)}
+:root[data-theme="ember"] .tile{background:repeating-linear-gradient(0deg,transparent 0 10px,rgba(255,255,255,.035) 10px 12px),linear-gradient(180deg,#221312,#140a09);border-color:#4a1e17;color:#ffcf9a}
+:root[data-theme="ember"] .tile::after{content:"";position:absolute;inset:auto 0 0;height:45%;background:radial-gradient(70% 100% at 50% 100%,rgba(255,90,31,.35),transparent);box-shadow:none;animation:emberBreathe 3.2s ease-in-out infinite;pointer-events:none}
+@keyframes emberBreathe{50%{opacity:.35}}
+.logo-card{container-type:inline-size}
+.logo-title{white-space:nowrap;font-size:calc(var(--tsz,11) * 1cqw)}
+:root[data-theme="emerald"]{--tsz:10.6}:root[data-theme="neon"]{--tsz:9.4}:root[data-theme="onyx"]{--tsz:8.2}:root[data-theme="rivals"]{--tsz:11.6}:root[data-theme="ember"]{--tsz:10.4}:root[data-theme="heritage"]{--tsz:10.6}
+.logo-face .fl-rays{width:22cqw}
+.logo-face .fl{width:62cqw}.logo-face .fl-mb,.logo-face .fl-rv{width:56cqw}

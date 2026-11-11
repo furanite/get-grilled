@@ -15,6 +15,7 @@ import Builder from './components/Builder'
 import { AudienceScreen, useAudienceWindow } from './components/Audience'
 import { HOST_EDITION, type Live } from './lib/edition'
 import { setFavicon } from './lib/favicon'
+import { Mark } from './components/Brand'
 
 export default function App() {
   const initial = useMemo(loadSettings, [])
@@ -113,7 +114,8 @@ export default function App() {
         <div className="shell">
           <header className="topbar">
             <button className="brand" onClick={() => setScreen('home')} aria-label={t.home}>
-              Get Grilled
+              <Mark theme={theme} className="brand-mark" />
+              <span className="brand-word">Get Grilled</span>
             </button>
             <div className="row">
               {HOST_EDITION && (
