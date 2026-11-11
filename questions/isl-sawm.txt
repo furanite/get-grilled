@@ -1,0 +1,115 @@
+id: isl-sawm
+name: Fiqh: Fasting (Sawm)
+nameAr: الفقه: الصيام
+group: fiqh
+# Fiqh files keep to points the four Sunni schools agree on. Where they differ, the clue names the school.
+
+## 100
+Fasting in Arabic. :: Sawm (Siyam) || H: Qur'an 2:183
+The month of obligatory fasting. :: Ramadan || H: Qur'an 2:185
+The pre-dawn meal. :: Suhur || H: Sahih al-Bukhari
+The meal that breaks the fast at sunset. :: Iftar || H: Sahih al-Bukhari
+The fast begins at this time. :: True dawn (Fajr) || H: Qur'an 2:187
+The fast ends at this time. :: Sunset || H: Qur'an 2:187
+The Prophet ﷺ broke his fast with these, or water. :: Dates || H: Sunan Abi Dawud
+The festival at the end of Ramadan. :: Eid al-Fitr || H: Sahih al-Bukhari
+The charity paid before Eid al-Fitr. :: Zakat al-fitr || H: Sahih al-Bukhari
+The month of Ramadan begins on sighting this. :: The new crescent moon || H: Sahih al-Bukhari
+The verse "Fasting is prescribed for you as it was for those before you" (meaning) is in this surah. :: Surah al-Baqarah (2:183) || H: Qur'an 2:183
+The aim of fasting, given in that verse. :: That you may gain taqwa || H: Qur'an 2:183
+Eating by mistake while fasting does this to the fast, by the majority. :: Nothing; the fast stays valid || H: Sahih al-Bukhari
+The Prophet ﷺ said there is a gate of Paradise for those who fast, named this. :: al-Rayyan || H: Sahih al-Bukhari
+Staying in the mosque for worship in the last ten nights. :: I'tikaf || H: Sahih al-Bukhari
+The night better than a thousand months is sought in these nights. :: The odd nights of the last ten || H: Sahih al-Bukhari
+A traveller may do this in Ramadan and make it up later. :: Break the fast || H: Qur'an 2:184
+A sick person may do this in Ramadan and make it up later. :: Break the fast || H: Qur'an 2:184
+The fast of a person who is too old to fast is replaced by this. :: Fidyah (feeding a poor person each day) || H: Qur'an 2:184
+Fasting on the day of Eid is this. :: Forbidden (haram) || H: Sahih al-Bukhari
+
+## 200
+Fasting in Ramadan became obligatory in this year. :: 2 AH / 624 CE || H: Tarikh al-Tabari
+The Prophet ﷺ said whoever fasts Ramadan with faith and hoping for reward is forgiven this (paraphrased). :: His past sins || H: Sahih al-Bukhari
+The Prophet ﷺ said Allah said fasting is for Him and He gives its reward (paraphrased); this is this kind of hadith. :: Hadith qudsi || H: Sahih al-Bukhari
+The smell of the fasting person's mouth is better with Allah than this (paraphrased). :: The scent of musk || H: Sahih al-Bukhari
+The voluntary fast on the 9th of Dhul-Hijjah. :: The fast of the Day of 'Arafah || H: Sahih Muslim
+The fast of the Day of 'Arafah wipes out the sins of this many years (paraphrased). :: Two (the past and the coming year) || H: Sahih Muslim
+The voluntary fast on the 10th of Muharram. :: 'Ashura' || H: Sahih Muslim
+The fast of 'Ashura' wipes out the sins of this (paraphrased). :: The past year || H: Sahih Muslim
+The Prophet ﷺ advised fasting this day too with 'Ashura', to differ from others. :: The 9th of Muharram || H: Sahih Muslim
+Fasting six days of this month after Ramadan is like fasting the whole year (paraphrased). :: Shawwal || H: Sahih Muslim
+The Prophet ﷺ used to fast these two days of the week. :: Monday and Thursday || H: Sunan al-Tirmidhi
+The "white days" of each month are these dates. :: 13th, 14th and 15th || H: Sunan al-Nasa'i; Sunan al-Tirmidhi
+Making up missed days of Ramadan is called this. :: Qada' || H: Qur'an 2:185
+The Prophet ﷺ said whoever does not give up false speech, Allah has no need of his leaving this (paraphrased). :: Food and drink || H: Sahih al-Bukhari
+A woman in her period does not fast and does this later. :: Makes up the days || H: Sahih Muslim (report of 'A'ishah)
+A woman in her period does not make up this, though she makes up fasts. :: The prayers || H: Sahih Muslim (report of 'A'ishah)
+Breaking the fast is a sunnah to hurry; delaying this is a sunnah. :: Suhur || H: Sahih al-Bukhari
+The Prophet ﷺ said the people will remain in good as long as they do this (paraphrased). :: Hasten to break the fast || H: Sahih al-Bukhari
+The Prophet ﷺ said to eat suhur, for in it there is this. :: Blessing (barakah) || H: Sahih al-Bukhari
+Zakat al-fitr is due on every Muslim who has more than his needs on this day. :: The day of Eid (al-Fitr) || H: Sahih al-Bukhari
+
+## 300
+Intentionally breaking a Ramadan fast by marital relations requires this expiation. :: Kaffarah || H: Sahih al-Bukhari
+The kaffarah is first freeing a slave, then fasting this many months in a row. :: Two || H: Sahih al-Bukhari
+If one cannot fast the two months, one feeds this many poor people. :: 60 || H: Sahih al-Bukhari
+In the Hanafi and Maliki schools, intentionally eating in Ramadan also requires this. :: Kaffarah (as well as qada') || H: Nur al-Idah; al-Risalah
+In the Shafi'i and Hanbali schools, kaffarah in Ramadan is only for this. :: Marital relations || H: Matn Abi Shuja'; Zad al-Mustaqni'
+The amount of zakat al-fitr in the hadith, of dates or barley. :: One sa' || H: Sahih al-Bukhari
+In the Hanafi school, zakat al-fitr may be paid in this. :: Its value in money || H: Nur al-Idah; al-Hidayah
+In the Shafi'i, Maliki and Hanbali schools, zakat al-fitr is paid in this. :: Staple food || H: Matn Abi Shuja'; Zad al-Mustaqni'
+In the Hanafi school, half a sa' of this grain is enough for zakat al-fitr. :: Wheat || H: al-Hidayah (al-Marghinani)
+The intention for the Ramadan fast, in the Shafi'i and Hanbali schools, must be made at this time. :: At night, before dawn || H: Matn Abi Shuja'; Zad al-Mustaqni'
+In the Hanafi school, the intention for a Ramadan fast can be made until this time. :: Before midday (al-dahwah al-kubra) || H: Nur al-Idah (al-Shurunbulali)
+In the Maliki school, one intention at the start of this is enough. :: The month of Ramadan || H: al-Risalah (Ibn Abi Zayd)
+The least time for i'tikaf in the Hanafi school for a voluntary i'tikaf. :: Any time, even a moment || H: Nur al-Idah (al-Shurunbulali)
+The sunnah i'tikaf in the last ten of Ramadan must be in this. :: A mosque || H: Qur'an 2:187
+In the Hanafi school, a woman's i'tikaf is in this. :: The prayer place of her home || H: Nur al-Idah (al-Shurunbulali)
+The Prophet ﷺ said Laylat al-Qadr should be sought in these nights (paraphrased). :: The odd nights of the last ten || H: Sahih al-Bukhari
+The du'a the Prophet ﷺ taught 'A'ishah (رضي الله عنها) for Laylat al-Qadr asks for this. :: Pardon ('afw) || H: Sunan al-Tirmidhi
+A pregnant or nursing woman who fears for herself or her child may do this. :: Break the fast and make it up || H: Sunan Abi Dawud; Sunan al-Tirmidhi
+In the Shafi'i school, a nursing woman who fears only for the child makes up and also does this. :: Pays fidyah || H: Matn Abi Shuja'
+The Prophet ﷺ forbade joining fasts day and night without eating, called this. :: Wisal || H: Sahih al-Bukhari
+
+## 400
+In the Hanafi school, swallowing something that reaches the stomach through the mouth or nose does this. :: Breaks the fast || H: Nur al-Idah (al-Shurunbulali)
+In the Hanafi school, eye drops do this to the fast. :: Do not break it || H: Nur al-Idah (al-Shurunbulali)
+Cupping (hijamah) breaks the fast in this school. :: The Hanbali school || H: Zad al-Mustaqni'; Sunan Abi Dawud
+In the Hanafi school, vomiting a mouthful on purpose does this. :: Breaks the fast || H: Nur al-Idah (al-Shurunbulali)
+Vomiting by accident does this to the fast. :: Nothing || H: Sunan Abi Dawud; Sunan al-Tirmidhi
+In the Hanafi school, a person who delays making up Ramadan until the next Ramadan owes this. :: Only the qada' || H: Nur al-Idah (al-Shurunbulali)
+In the Shafi'i school, delaying make-up without excuse until the next Ramadan adds this. :: A fidyah for each day || H: Matn Abi Shuja'
+In the Hanafi school, fasting on the "day of doubt" (30 Sha'ban) for Ramadan is this. :: Disliked (makruh) || H: Nur al-Idah (al-Shurunbulali)
+The Prophet ﷺ forbade singling out this day of the week for a voluntary fast. :: Friday || H: Sahih al-Bukhari
+The days of tashriq, on which fasting is forbidden. :: 11th, 12th and 13th of Dhul-Hijjah || H: Sahih Muslim
+The Prophet ﷺ called the days of tashriq days of eating, drinking and this. :: Remembrance of Allah || H: Sahih Muslim
+The best voluntary fast, after Ramadan, is in this month, the Prophet ﷺ said (paraphrased). :: Muharram || H: Sahih Muslim
+The fast of Dawud (عليه السلام) is fasting this pattern. :: Every other day || H: Sahih al-Bukhari
+The Companion whom the Prophet ﷺ advised not to fast every day, but as Dawud fasted. :: 'Abdullah ibn 'Amr (رضي الله عنهما) || H: Sahih al-Bukhari
+The Prophet ﷺ fasted most in this month outside Ramadan. :: Sha'ban || H: Sahih al-Bukhari
+The amount of fidyah per day in the Hanafi school. :: Half a sa' of wheat (or its value) || H: al-Hidayah (al-Marghinani)
+The amount of fidyah per day in the Shafi'i school. :: One mudd of staple food || H: Matn Abi Shuja'
+The Hanafi school allows breaking a voluntary fast but then requires this. :: Making it up || H: Nur al-Idah (al-Shurunbulali)
+In the Shafi'i school, breaking a voluntary fast without excuse is this. :: Allowed, with no make-up required || H: Matn Abi Shuja'
+The man who said "I am ruined" for breaking his fast was given dates to give away, but he said this. :: No family was poorer than his || H: Sahih al-Bukhari
+
+## 500
+Ramadan's moon in the Hanafi school, with a clear sky, needs the sighting of this. :: A large group || H: Nur al-Idah (al-Shurunbulali)
+Ramadan's moon in the Hanafi school, with a cloudy sky, needs this. :: One just witness || H: Nur al-Idah (al-Shurunbulali)
+In the Hanafi school, the Shawwal moon with a cloudy sky needs this. :: Two men, or a man and two women || H: Nur al-Idah (al-Shurunbulali)
+The Companion who said the people saw the moon, he told the Prophet ﷺ and he fasted. :: 'Abdullah ibn 'Umar (رضي الله عنهما) || H: Sunan Abi Dawud
+The report of Kurayb about sighting the moon in al-Sham and Madinah raises this issue. :: Differing sightings in different lands (ikhtilaf al-matali') || H: Sahih Muslim
+In the Hanafi school's main view, different horizons (matali') do this for the start of the month. :: Are not taken into account || H: Nur al-Idah; Radd al-Muhtar
+In the Shafi'i school, different horizons do this. :: Are taken into account || H: al-Minhaj (al-Nawawi)
+The Companion whose wish to give up marriage for worship the Prophet ﷺ refused (paraphrased). :: 'Uthman ibn Maz'un (رضي الله عنه) || H: Sahih al-Bukhari
+The Hanafi school counts these three things as not breaking the fast though they reach inside: dust, smoke and this. :: A fly entering the throat || H: Nur al-Idah (al-Shurunbulali)
+In the Hanafi school, tasting food without swallowing is this for one fasting. :: Disliked (makruh) without need || H: Nur al-Idah (al-Shurunbulali)
+In the Hanafi school, the six kinds of fast are fard, wajib, sunnah, mandub, nafl and this. :: Makruh || H: Nur al-Idah (al-Shurunbulali)
+A vow to fast is called this. :: Sawm al-nadhr || H: Nur al-Idah (al-Shurunbulali)
+The kaffarah for breaking an oath includes fasting this many days. :: 3 || H: Qur'an 5:89
+In the Hanafi school, those three days must be this. :: Consecutive || H: al-Hidayah (al-Marghinani)
+The verse that allowed eating and marital relations in the nights of Ramadan. :: Qur'an 2:187 || H: Qur'an 2:187
+The Companion who fell asleep before eating and fainted at work, leading to that verse. :: Qays ibn Sirmah (رضي الله عنه) || H: Sahih al-Bukhari
+The Companion who tied a white and a black thread to know the dawn. :: 'Adi ibn Hatim (رضي الله عنه) || H: Sahih al-Bukhari
+The verse "until the white thread becomes distinct from the black thread" (meaning) refers to this. :: The light of dawn from the dark of night || H: Qur'an 2:187; Sahih al-Bukhari
+The book that narrates the iftar du'a "The thirst has gone, the veins are moistened..." (meaning). :: Sunan Abi Dawud || H: Sunan Abi Dawud
+The Prophet ﷺ said Bilal (رضي الله عنه) calls at night, so eat and drink until this one calls. :: Ibn Umm Maktum (رضي الله عنه) || H: Sahih al-Bukhari

@@ -75,6 +75,12 @@ This file is rewritten by `npm run packs`.
 - **500**, line 107: The Battle of Dhat al-Sawari in 34 AH / 655 CE was this kind of battle. **Answer:** A sea battle _(Source: Tarikh al-Tabari; year given as 31 to 35 AH)_
 - **500**, line 115: The number of Companions whose lives are in al-Isabah, roughly. **Answer:** About 12,000 _(Source: al-Isabah (Ibn Hajar); count to be checked)_
 
+## Fiqh: Prayer (Salah) (questions/isl-salah.txt)
+
+- **400**, line 91: In the Shafi'i school, the number of pillars (arkan) of prayer, by a common count. **Answer:** 17 _(Source: Safinat al-Naja; counts differ in Shafi'i texts)_
+- **400**, line 92: The Prophet ﷺ prayed the "fear prayer" (salat al-khawf) in this many ways, by reports. **Answer:** Several (scholars count about six to sixteen) _(Source: Sunan Abi Dawud; to be checked)_
+- **500**, line 114: The prayer the Prophet ﷺ taught his uncle al-'Abbas (رضي الله عنه), with 300 tasbihs. **Answer:** Salat al-tasabih _(Source: Sunan Abi Dawud; grade differs among scholars)_
+
 ## Sarf (morphology) (questions/isl-sarf.txt)
 
 - **500**, line 103: The early grammarian who first wrote a separate book on sarf, according to many. **Answer:** Mu'adh al-Harra' رحمة الله عليه _(Source: Commonly stated in histories of grammar; to be checked)_
@@ -102,6 +108,10 @@ This file is rewritten by `npm run packs`.
 - **300**, line 64: The term for a word that occurs only once in the Qur'an. **Answer:** Hapax (farid) _(Source: Term to be checked with a Qur'an sciences teacher)_
 - **500**, line 100: The Successor, student of Ibn 'Abbas, known for tafsir and fiqh, d. 105 AH / 723 CE. **Answer:** 'Ikrimah رحمة الله عليه _(Source: Siyar A'lam al-Nubala' (al-Dhahabi); date to be checked)_
 - **500**, line 101: The Successor of Basrah, known for tafsir, d. 117 AH / 735 CE, who was born blind. **Answer:** Qatadah ibn Di'amah رحمة الله عليه _(Source: Siyar A'lam al-Nubala' (al-Dhahabi))_
+
+## Fiqh: Cleanliness (Taharah) (questions/isl-taharah.txt)
+
+- **400**, line 77: The two qullahs are about this much water in today's measures, by a common estimate. **Answer:** About 190 to 270 litres _(Source: Modern estimates differ; to be checked)_
 
 ## Tajwid (questions/isl-tajwid.txt)
 

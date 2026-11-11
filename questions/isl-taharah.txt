@@ -1,0 +1,115 @@
+id: isl-taharah
+name: Fiqh: Cleanliness (Taharah)
+nameAr: الفقه: الطهارة
+group: fiqh
+# Fiqh files keep to points the four Sunni schools agree on. Where they differ, the clue names the school.
+
+## 100
+Ritual purity in Arabic. :: Taharah || H: Nur al-Idah; al-Risalah (Ibn Abi Zayd)
+Washing before prayer, of face, arms, head and feet. :: Wudu' || H: Qur'an 5:6
+The full ritual bath. :: Ghusl || H: Qur'an 5:6
+Purifying with clean earth when there is no water. :: Tayammum || H: Qur'an 5:6
+The verse that sets out wudu', ghusl and tayammum is in this surah. :: Surah al-Ma'idah (5:6) || H: Qur'an 5:6
+Washing these is the first act of wudu' named in the Qur'an. :: The face || H: Qur'an 5:6
+The arms are washed up to and including these. :: The elbows || H: Qur'an 5:6
+The feet are washed up to and including these. :: The ankles || H: Qur'an 5:6
+The part of the body that is wiped, not washed, in wudu'. :: The head || H: Qur'an 5:6
+Passing wind does this to wudu'. :: Breaks it || H: Sahih al-Bukhari
+Using the toilet (urine or stool) does this to wudu'. :: Breaks it || H: Qur'an 5:6
+Impurity, like urine or blood, in Arabic. :: Najasah || H: Nur al-Idah
+Cleaning oneself after the toilet with water. :: Istinja' || H: Sahih al-Bukhari
+The tooth-stick the Prophet ﷺ loved to use. :: Siwak (miswak) || H: Sahih al-Bukhari
+The Prophet ﷺ said that purity is half of this (paraphrased). :: Faith (iman) || H: Sahih Muslim
+The prayer of one whose wudu' has broken is not accepted until he does this (paraphrased). :: Makes wudu' || H: Sahih al-Bukhari
+Wudu' is begun by saying this, as a sunnah. :: Bismillah || H: Sunan Abi Dawud; Nur al-Idah
+Rinsing the mouth in wudu'. :: Madmadah || H: Sahih al-Bukhari
+Rinsing the nose in wudu'. :: Istinshaq || H: Sahih al-Bukhari
+The state after marital relations that requires ghusl. :: Janabah || H: Qur'an 5:6
+
+## 200
+Wiping over leather socks instead of washing the feet. :: al-Mash 'ala al-khuffayn || H: Sahih Muslim
+The time limit for wiping over khuffs for a resident, by the majority. :: One day and night || H: Sahih Muslim (hadith of 'Ali)
+The time limit for wiping over khuffs for a traveller, by the majority. :: Three days and nights || H: Sahih Muslim (hadith of 'Ali)
+The khuffs must be put on in this state. :: With full purity (after wudu') || H: Sahih al-Bukhari
+Tayammum is done with this many main parts of the body wiped. :: Two (face and hands) || H: Qur'an 5:6
+Finding water does this to tayammum. :: Ends it || H: Sunan Abi Dawud
+Water that is pure and purifies, like rain or sea water. :: Tahur (mutlaq) || H: Nur al-Idah
+The Prophet ﷺ said its water is purifying and its dead animals lawful (paraphrased). :: The sea || H: Sunan Abi Dawud; Muwatta' Malik
+Deep sleep lying down does this to wudu'. :: Breaks it || H: Sunan Abi Dawud
+Losing one's mind or fainting does this to wudu'. :: Breaks it || H: Nur al-Idah; al-Mughni
+Ghusl is required after the end of a woman's monthly period, called this. :: Hayd || H: Qur'an 2:222
+Ghusl is required after the bleeding that follows childbirth, called this. :: Nifas || H: al-Mughni (Ibn Qudamah)
+The ghusl on this day of the week is a strong sunnah. :: Friday || H: Sahih al-Bukhari
+A dressing or splint over a wound is wiped over; it is called this. :: Jabirah || H: Nur al-Idah
+Leaving out a small part of a limb in wudu' makes it this. :: Invalid (it must be washed) || H: Sahih Muslim
+The Prophet ﷺ warned "Woe to the heels from the Fire" (meaning) about this. :: Not washing the feet fully || H: Sahih al-Bukhari
+Washing each limb three times in wudu' is this. :: Sunnah || H: Sahih al-Bukhari
+Washing a limb more than three times in wudu' is this. :: Disliked (makruh) || H: Sunan Abi Dawud; Sunan al-Nasa'i
+The Prophet ﷺ made wudu' with about this much water. :: One mudd || H: Sahih Muslim
+The Prophet ﷺ made ghusl with about this much water. :: One sa' (to five mudds) || H: Sahih Muslim
+
+## 300
+In the Hanafi school, the number of obligatory acts (fara'id) of wudu'. :: 4 || H: Nur al-Idah (al-Shurunbulali)
+In the Shafi'i school, the number of obligatory acts of wudu'. :: 6 || H: Matn Abi Shuja'
+The two acts the Shafi'i school adds to the four of the Qur'an. :: Intention and order (tartib) || H: Matn Abi Shuja'
+In the Maliki school, these two are among the obligatory acts of wudu', with intention. :: Continuity (muwalat) and rubbing (dalk) || H: al-Risalah (Ibn Abi Zayd)
+In the Hanafi school, the amount of the head that must be wiped. :: A quarter || H: Nur al-Idah (al-Shurunbulali)
+In the Maliki and Hanbali schools, the amount of the head that must be wiped. :: The whole head || H: al-Risalah; Zad al-Mustaqni'
+In the Shafi'i school, the amount of the head that must be wiped. :: Any part, even a little || H: Matn Abi Shuja'
+In the Hanafi school, intention (niyyah) in wudu' is this. :: Sunnah (not a condition) || H: Nur al-Idah (al-Shurunbulali)
+In the Hanbali school, rinsing the mouth and nose in wudu' is this. :: Obligatory || H: Zad al-Mustaqni'
+In the Hanafi school, rinsing the mouth and nose is obligatory in this. :: Ghusl || H: Nur al-Idah (al-Shurunbulali)
+In the Shafi'i school, the two obligations of ghusl. :: Intention and washing the whole body || H: Matn Abi Shuja'
+In the Hanafi school, bleeding that flows from the body does this to wudu'. :: Breaks it || H: Nur al-Idah (al-Shurunbulali)
+In the Shafi'i school, skin contact with an unrelated person of the opposite sex does this to wudu'. :: Breaks it || H: Matn Abi Shuja'
+In the Hanafi school, touching one's private part does this to wudu'. :: Does not break it || H: Nur al-Idah (al-Shurunbulali)
+In the Hanbali school, eating camel meat does this to wudu'. :: Breaks it || H: Sahih Muslim; Zad al-Mustaqni'
+In the Hanafi school, loud laughter during a prayer with ruku' and sujud does this. :: Breaks the prayer and wudu' || H: Nur al-Idah (al-Shurunbulali)
+In the Shafi'i school, sleep does not break wudu' if one sleeps in this position. :: Sitting firmly on one's seat || H: Matn Abi Shuja'
+Cleaning with stones instead of water after the toilet. :: Istijmar || H: Sahih al-Bukhari
+In the Shafi'i and Hanbali schools, the least number of wipes with stones. :: 3 || H: Sahih Muslim; Matn Abi Shuja'
+Animal skin becomes pure by this, except pig (and dog in the Shafi'i school). :: Tanning (dibagh) || H: Sahih Muslim
+
+## 400
+In the Shafi'i and Hanbali schools, a dog's saliva is washed this many times, one with earth. :: 7 || H: Sahih Muslim
+In the Hanafi school, a dog's saliva is washed this many times. :: 3 || H: Nur al-Idah (al-Shurunbulali)
+In the Shafi'i school, water is not affected by a small impurity if it reaches this amount. :: Two qullahs (qullatayn) || H: Sunan Abi Dawud; Matn Abi Shuja'
+The two qullahs are about this much water in today's measures, by a common estimate. :: About 190 to 270 litres || H?: Modern estimates differ; to be checked
+In the Hanafi school, a large pool is "ten by ten" in this unit. :: Cubits (dhira') || H: Nur al-Idah (al-Shurunbulali)
+In the Hanafi school, the most days of hayd. :: 10 || H: Nur al-Idah (al-Shurunbulali)
+In the Shafi'i and Hanbali schools, the most days of hayd. :: 15 || H: Matn Abi Shuja'; Zad al-Mustaqni'
+In the Hanafi school, the fewest days of hayd. :: 3 || H: Nur al-Idah (al-Shurunbulali)
+In the Shafi'i and Hanbali schools, the shortest hayd. :: One day and night || H: Matn Abi Shuja'; Zad al-Mustaqni'
+In the Hanafi and Hanbali schools, the most days of nifas. :: 40 || H: Nur al-Idah; Zad al-Mustaqni'
+In the Shafi'i and Maliki schools, the most days of nifas. :: 60 || H: Matn Abi Shuja'; al-Risalah
+Bleeding outside the normal days of hayd or nifas. :: Istihadah || H: Sahih al-Bukhari
+A woman with istihadah makes wudu' for this, in the Hanafi school. :: Each prayer time || H: Nur al-Idah (al-Shurunbulali)
+In the Shafi'i school, one tayammum is good for only this. :: One obligatory prayer || H: Matn Abi Shuja'
+In the Hanafi school, tayammum is like wudu' and lasts until this. :: It is broken or water is found || H: Nur al-Idah (al-Shurunbulali)
+In the Hanbali school, tayammum is done with this many strikes on the earth. :: One || H: Zad al-Mustaqni'
+In the Hanafi and Shafi'i schools, tayammum is done with this many strikes. :: Two || H: Nur al-Idah; Matn Abi Shuja'
+In the Hanafi school, heavy impurity on clothes is forgiven up to the size of this coin. :: A dirham || H: Nur al-Idah (al-Shurunbulali)
+In the Shafi'i school, the urine of this kind of child is cleaned by sprinkling water. :: A baby boy who only drinks milk || H: Sahih al-Bukhari; Matn Abi Shuja'
+The Companion whose report, "I was a man with much madhi" (meaning), set the ruling that it needs wudu', not ghusl. :: 'Ali ibn Abi Talib (رضي الله عنه) || H: Sahih al-Bukhari
+
+## 500
+In the Shafi'i school, the three levels of najasah. :: Heavy (dog, pig), light (baby boy's urine), middle (the rest) || H: Matn Abi Shuja'; al-Minhaj
+The Hanafi school divides najasah into these two levels. :: Ghalizah and khafifah || H: Nur al-Idah (al-Shurunbulali)
+In the Hanafi school, light (khafifah) najasah is forgiven up to this much of the garment. :: Less than a quarter || H: Nur al-Idah (al-Shurunbulali)
+In the Maliki school, the famous view on the time limit for wiping over khuffs. :: No fixed limit || H: al-Risalah (Ibn Abi Zayd)
+In the Hanafi school, wiping over thick socks (not leather) is allowed if they are this. :: Thick enough to walk in and stay up || H: Nur al-Idah (al-Shurunbulali)
+In the Hanafi school, wiping the khuff is done over this part. :: The top of the foot || H: Nur al-Idah (al-Shurunbulali)
+The Companion who said, "If religion were by opinion, the bottom of the khuff would be wiped rather than the top" (meaning). :: 'Ali ibn Abi Talib (رضي الله عنه) || H: Sunan Abi Dawud
+In the Hanafi school, the amount of the khuff that must be wiped. :: Three fingers' width || H: Nur al-Idah (al-Shurunbulali)
+Ghusl is required by the meeting of the two private parts even without release, based on this hadith's wording. :: "When the two circumcised parts meet" || H: Sahih Muslim
+In the Hanafi school, the parts of wudu' are washed in order as this. :: A sunnah, not an obligation || H: Nur al-Idah (al-Shurunbulali)
+In the Hanbali school, continuity (muwalat) in wudu' is this. :: Obligatory || H: Zad al-Mustaqni'
+The famous Hanafi short text on worship by al-Shurunbulali رحمة الله عليه. :: Nur al-Idah || H: Nur al-Idah
+The famous Shafi'i short text by Abu Shuja' al-Isfahani رحمة الله عليه. :: Matn al-Ghayah wal-Taqrib || H: Matn Abi Shuja'
+The famous Hanbali short text by al-Hajjawi رحمة الله عليه. :: Zad al-Mustaqni' || H: Zad al-Mustaqni'
+The famous Maliki short text on worship by Ibn 'Ashir رحمة الله عليه. :: al-Murshid al-Mu'in || H: al-Murshid al-Mu'in
+Something pure that has mixed with water and changed its name, such as tea, is this kind of water. :: Not purifying (not mutlaq) || H: Nur al-Idah; Matn Abi Shuja'
+Water already used for wudu' is called this. :: Ma' musta'mal || H: Nur al-Idah; Matn Abi Shuja'
+In the Shafi'i school, water heated by the sun in metal vessels in a hot land is this to use. :: Disliked (makruh) || H: Matn Abi Shuja'
+The Prophet ﷺ said "Do not urinate in still water" (meaning) and then this. :: Then wash in it || H: Sahih al-Bukhari
+The Companion woman who asked about ghusl, and 'A'ishah praised the women of the Ansar for not letting shyness stop them learning. :: Asma' bint Shakal (رضي الله عنها) || H: Sahih Muslim
