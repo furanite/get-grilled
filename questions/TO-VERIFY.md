@@ -172,6 +172,11 @@ This file is rewritten by `npm run packs`.
 - **200**, line 33: The nisab of silver in grams, by a common modern estimate. **Answer:** About 595 grams _(Source: Modern estimates differ; to be checked)_
 - **500**, line 99: The weight of a dinar (mithqal) in grams, by a common estimate. **Answer:** About 4.25 grams _(Source: Modern estimates; to be checked)_
 
+## My Qur'an (questions/kids-quran.txt)
+
+- **500**, line 241: The surah said to mention the Name "Allah" in every verse. **Answer:** Surah al-Mujadilah _(Source: Commonly said; count the verses before use)_
+
 ## Our Prophet ﷺ (questions/kids-seerah.txt)
 
 - **100**, line 14: The kind lady who fed the baby Prophet ﷺ in the desert. **Answer:** Halimah al-Sa'diyyah (رضي الله عنها) _(Source: Ibn Hisham, al-Sirah; check: her Islam and so the honorific are debated)_
+- **400**, line 188: The Prophet ﷺ and Khadijah (رضي الله عنها) had this many children. **Answer:** 6 (2 sons, 4 daughters) _(Source: Ibn Hisham, al-Sirah; reports differ on the number of sons)_
