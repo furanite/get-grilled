@@ -48,6 +48,7 @@ try {
     const page = await hostPage()
     assert((await page.title()) === 'Get Grilled Host', 'title: ' + (await page.title()))
     assert((await page.getByTestId('audience-toggle').textContent()) === 'Open audience screen', 'button text')
+    assert((await page.getByTestId('host-link').count()) === 0, 'host edition should not link to itself')
     await page.context().close()
   })
 

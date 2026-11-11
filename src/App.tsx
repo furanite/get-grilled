@@ -16,6 +16,7 @@ import { AudienceScreen, useAudienceWindow } from './components/Audience'
 import { HOST_EDITION, type Live } from './lib/edition'
 import { setFavicon } from './lib/favicon'
 import { Mark } from './components/Brand'
+import { HostLink } from './components/HostLink'
 
 export default function App() {
   const initial = useMemo(loadSettings, [])
@@ -131,6 +132,7 @@ export default function App() {
                   {audience.isOpen ? t.audienceClose : t.audienceOpen}
                 </button>
               )}
+              {!HOST_EDITION && <HostLink lang={lang} />}
               {screen === 'game' && (
                 <button
                   className="ghost"

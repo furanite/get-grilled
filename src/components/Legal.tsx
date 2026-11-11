@@ -8,7 +8,7 @@ type View = 'summary' | 'terms' | 'privacy'
 const FOCUSABLE = 'button:not([disabled]),a[href],input:not([disabled]),[tabindex]:not([tabindex="-1"])'
 
 /** Keeps keyboard focus inside the dialog and stops Esc from reaching the page. */
-function useDialog(ref: React.RefObject<HTMLDivElement>, onEsc?: () => void) {
+export function useDialog(ref: React.RefObject<HTMLDivElement>, onEsc?: () => void) {
   const escRef = useRef(onEsc)
   escRef.current = onEsc
   useLayoutEffect(() => {

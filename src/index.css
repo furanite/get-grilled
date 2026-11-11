@@ -385,3 +385,11 @@ textarea.input{resize:vertical;min-height:44px}
 :root[data-theme="emerald"]{--tsz:10.6}:root[data-theme="neon"]{--tsz:9.4}:root[data-theme="onyx"]{--tsz:8.2}:root[data-theme="rivals"]{--tsz:11.6}:root[data-theme="ember"]{--tsz:10.4}:root[data-theme="heritage"]{--tsz:10.6}
 .logo-face .fl-rays{width:22cqw}
 .logo-face .fl{width:62cqw}.logo-face .fl-mb,.logo-face .fl-rv{width:56cqw}
+
+/* Host version explainer */
+.host-compare{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:12px;margin:12px 0}
+.host-compare section{padding:12px 14px;border-radius:14px;border:1px solid color-mix(in oklab,var(--edge) 40%,transparent);background:color-mix(in oklab,var(--bg) 50%,transparent);min-width:0}
+.host-compare section.is-host{border-color:color-mix(in oklab,var(--accent) 60%,transparent)}
+.host-compare h2{margin:0 0 4px;font-family:var(--fd);font-size:17px;letter-spacing:var(--track)}
+.host-compare ul{margin:6px 0 0;padding-inline-start:18px}
+.legal-actions a.btn{text-decoration:none;display:inline-flex;align-items:center}
