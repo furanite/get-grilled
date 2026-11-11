@@ -1,4 +1,5 @@
 import type { IslamicOnlyTheme, ThemeId } from './types'
+import { cultureAmbient } from './ambient-isl'
 
 /**
  * Islamic art for the Munaafasatul Ilm site (built with VITE_THEMESET=islamic):
@@ -505,6 +506,8 @@ export function islamicAbove(nameAr: string): string {
 
 /** Background art: a slowly turning girih lattice, or falling petals and leaves in the Garden theme. */
 export function islamicAmbient(theme: ThemeId): string {
+  const own = cultureAmbient(theme)
+  if (own) return own
   if (theme === 'jumuah') {
     // Lanterns hanging from the top at different heights, swaying slowly, over a large faint "Jumu'ah Mubarakah".
     const spots = [8, 22, 78, 92, 36, 64]
