@@ -98,7 +98,7 @@ export default function Setup({ t, lang, index, indexError, custom, onBack, onSt
             const collName: Record<CollectionId, string> = { university: t.collUniversity, islamic: t.collIslamic, kids: t.collKids }
             const groupOf = (c: CategorySummary): PackGroup => c.group ?? 'general'
             const present = COLLECTIONS.filter((col) => index.some((c) => col.groups.includes(groupOf(c))))
-            const active = present.some((col) => col.id === coll) ? coll : 'university'
+            const active = present.some((col) => col.id === coll) ? coll : (present[0]?.id ?? 'university')
             let n = 0
             const groups = COLLECTIONS.find((col) => col.id === active)!.groups
             const sections = groups.map((g) => [g, index.filter((c) => groupOf(c) === g)] as const).filter(([, list]) => list.length > 0)

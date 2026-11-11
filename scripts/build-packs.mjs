@@ -14,7 +14,7 @@
 // Lines starting with # (but not ##) are comments. Exits non-zero on any problem.
 // Arabic: questions/ar/<same file name> has the same ## headings and one
 // "ClueAr :: AnswerAr" line per question, in the same order as the English file.
-import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync } from 'node:fs'
+import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync, rmSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -120,6 +120,7 @@ export function mergeArabic(levels, text, file = 'ar') {
 }
 
 function main() {
+  rmSync(outDir, { recursive: true, force: true })
   mkdirSync(outDir, { recursive: true })
   const files = readdirSync(srcDir).filter((f) => f.endsWith('.txt')).sort()
   const index = []
@@ -140,6 +141,8 @@ function main() {
       arCount = levels.reduce((s, l) => s + l.length, 0)
     }
     const respect = RESPECT_GROUPS.includes(meta.group) || undefined
+    // PACK_EDITION=islamic builds a site with only the Islamic and Kids collections (used by the Ilm Munfasah site).
+    if (process.env.PACK_EDITION === 'islamic' && !respect) continue
     const pack = { id: meta.id, name: meta.name, nameAr: meta.nameAr, group: meta.group, respect, levels }
     writeFileSync(join(outDir, `${meta.id}.json`), JSON.stringify(pack))
     index.push({ id: meta.id, name: meta.name, nameAr: meta.nameAr, group: meta.group, counts: levels.map((l) => l.length) })
