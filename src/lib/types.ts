@@ -63,6 +63,11 @@ export interface Game {
   startedAt: number
 }
 
-export type ThemeId = 'amethyst' | 'emerald' | 'neon' | 'onyx' | 'rivals' | 'ember' | 'heritage' | 'rawdah'
+/** Themes that exist only on the Islamic site (Munaafasatul Ilm). */
+export type PrayerTheme = 'fajr' | 'duha' | 'zuhr' | 'asr' | 'maghrib' | 'isha' | 'qiyam'
+export type CultureTheme = 'mughal' | 'sahel' | 'swahili' | 'nusantara' | 'zellige' | 'suzani' | 'bosnia' | 'tatar' | 'kubachi' | 'hui'
+export type IslamicOnlyTheme = 'rawdah' | 'jumuah' | 'mawlid' | PrayerTheme | CultureTheme
+export type BaseThemeId = Exclude<ThemeId, IslamicOnlyTheme>
+export type ThemeId = 'amethyst' | 'emerald' | 'neon' | 'onyx' | 'rivals' | 'ember' | 'heritage' | IslamicOnlyTheme
 export type Lang = 'en' | 'ar'
 export type Screen = 'home' | 'setup' | 'game' | 'results' | 'builder'

@@ -33,7 +33,7 @@ export interface Settings {
   reduceFx: boolean
 }
 
-const THEME_IDS: ThemeId[] = ['amethyst', 'emerald', 'neon', 'onyx', 'rivals', 'ember', 'heritage', 'rawdah']
+const THEME_IDS: ThemeId[] = ['amethyst', 'emerald', 'neon', 'onyx', 'rivals', 'ember', 'heritage', 'rawdah', 'jumuah', 'mawlid', 'fajr', 'duha', 'zuhr', 'asr', 'maghrib', 'isha', 'qiyam', 'mughal', 'sahel', 'swahili', 'nusantara', 'zellige', 'suzani', 'bosnia', 'tatar', 'kubachi', 'hui']
 const isObj = (v: unknown): v is Record<string, unknown> => !!v && typeof v === 'object' && !Array.isArray(v)
 const isStr = (v: unknown): v is string => typeof v === 'string'
 

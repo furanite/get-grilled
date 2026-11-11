@@ -220,6 +220,23 @@ try {
     await page.context().close()
   })
 
+  await test('the Host version button explains the two versions every time and links to /host/', async () => {
+    const page = await newPage()
+    await page.goto(URL)
+    for (let i = 0; i < 2; i++) {
+      await page.getByTestId('host-link').click()
+      const dlg = page.getByTestId('host-info')
+      await dlg.waitFor()
+      const text = await dlg.innerText()
+      assert(/standard version/i.test(text) && /projector/i.test(text), 'explains both versions')
+      const href = await page.getByTestId('host-info-go').getAttribute('href')
+      assert(href.endsWith('host/'), 'links to host/: ' + href)
+      await page.getByTestId('host-info-stay').click()
+      await dlg.waitFor({ state: 'detached' })
+    }
+    await page.context().close()
+  })
+
   await test('a one-category board keeps its tiles a sensible size', async () => {
     const page = await newPage()
     await page.goto(URL)

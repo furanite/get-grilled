@@ -3,7 +3,8 @@ import type { Category, CategorySummary, Game, Lang, Screen, ThemeId } from './l
 import { hasConsent, loadCustom, loadGame, loadSettings, saveCustom, saveGame, saveSettings } from './lib/store'
 import { CONSENT_TEXT, LEGAL } from './lib/legal'
 import { ConsentDialog, Footer, LegalViewer } from './components/Legal'
-import { heritageOpen } from './lib/themes'
+import { HostInfo, hostButtonLabel } from './components/HostInfo'
+import { DEFAULT_THEME, THEMES, themeOpen } from './lib/themes'
 import { loadIndex } from './lib/packs'
 import { reducedMotion, startBackground } from './lib/fx'
 import { STRINGS } from './lib/i18n'
@@ -19,11 +20,12 @@ import { Mark } from './components/Brand'
 
 export default function App() {
   const initial = useMemo(loadSettings, [])
-  const [theme, setThemeState] = useState<ThemeId>(initial.theme === 'heritage' && !heritageOpen() ? 'amethyst' : initial.theme)
+  const [theme, setThemeState] = useState<ThemeId>(!themeOpen(initial.theme) || !THEMES.some((th) => th.id === initial.theme) ? DEFAULT_THEME : initial.theme)
   const [lang, setLang] = useState<Lang>(initial.lang)
   const [reduceFx, setReduceFx] = useState<boolean>(!!initial.reduceFx)
   const [consented, setConsented] = useState(() => hasConsent(LEGAL.termsVersion))
   const [legalView, setLegalView] = useState<'terms' | 'privacy' | null>(null)
+  const [hostInfo, setHostInfo] = useState(false)
   const [screen, setScreen] = useState<Screen>('home')
   const [custom, setCustomState] = useState<Category[]>(loadCustom)
   const [index, setIndex] = useState<CategorySummary[] | null>(null)
@@ -55,7 +57,7 @@ export default function App() {
   // Leave the Heritage theme when Friday afternoon ends, but never in the middle of a game.
   useEffect(() => {
     const id = setInterval(() => {
-      if (themeRef.current === 'heritage' && !heritageOpen() && screen !== 'game') setThemeState('amethyst')
+      if (!themeOpen(themeRef.current) && screen !== 'game') setThemeState(DEFAULT_THEME)
     }, 30_000)
     return () => clearInterval(id)
   }, [screen])
@@ -75,7 +77,7 @@ export default function App() {
 
   const setTheme = (next: ThemeId, e?: { clientX: number; clientY: number }) => {
     if (next === theme) return
-    if (next === 'heritage' && !heritageOpen()) return
+    if (!themeOpen(next)) return
     if (reducedMotion()) return setThemeState(next)
     const x = e?.clientX ?? innerWidth / 2
     const y = e?.clientY ?? innerHeight / 2
@@ -129,6 +131,11 @@ export default function App() {
                   }}
                 >
                   {audience.isOpen ? t.audienceClose : t.audienceOpen}
+                </button>
+              )}
+              {!HOST_EDITION && (
+                <button className="ghost" onClick={() => setHostInfo(true)} data-testid="host-link">
+                  {hostButtonLabel(lang)}
                 </button>
               )}
               {screen === 'game' && (
@@ -198,6 +205,7 @@ export default function App() {
       </div>
       {!consented && <ConsentDialog lang={lang} setLang={setLang} reduceFx={reduceFx} setReduceFx={setReduceFx} onAccept={() => setConsented(true)} />}
       {consented && legalView && <LegalViewer which={legalView} lang={lang} onClose={() => setLegalView(null)} />}
+      {hostInfo && <HostInfo lang={lang} onClose={() => setHostInfo(false)} />}
       {HOST_EDITION && audience.win && audience.root && (
         <AudienceScreen win={audience.win} root={audience.root} t={t} lang={lang} theme={theme} reduceFx={reduceFx} screen={screen} game={game} live={screen === 'game' ? live : null} />
       )}

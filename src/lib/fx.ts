@@ -1,4 +1,5 @@
-import type { ThemeId } from './types'
+import type { BaseThemeId, ThemeId } from './types'
+import { isIslamicOnly } from './islamic'
 import { ISLAMIC_SET } from './edition'
 
 /** True when the system asks for less motion or the player turned on Reduce effects. */
@@ -23,13 +24,21 @@ interface Trace { pts: [number, number][]; len: number; pos: number; sp: number;
 /** Animated background for each theme, drawn on one full-screen canvas. */
 export function startBackground(canvas: HTMLCanvasElement, getThemeRaw: () => ThemeId) {
   // The Garden theme, and Iznik on the Islamic site, use the gentle rising motes (no neon circuit traces).
-  const getTheme = (): Exclude<ThemeId, 'rawdah'> => {
+  // Eid of the Mu'mineen uses the twinkling gold of Black & Gold, and Blessed Mawlid the starlight of Amethyst; the prayer themes borrow the nearest sky.
+  const getTheme = (): BaseThemeId => {
     const th = getThemeRaw()
-    return th === 'rawdah' || (ISLAMIC_SET && th === 'neon') ? 'emerald' : th
+    const map: Partial<Record<ThemeId, BaseThemeId>> = {
+      jumuah: 'onyx', mawlid: 'amethyst', fajr: 'amethyst', duha: 'emerald', zuhr: 'onyx', asr: 'ember', maghrib: 'ember', isha: 'amethyst', qiyam: 'onyx',
+      mughal: 'onyx', sahel: 'ember', swahili: 'emerald', nusantara: 'onyx', zellige: 'emerald', suzani: 'amethyst', bosnia: 'ember', tatar: 'emerald', kubachi: 'onyx', hui: 'ember',
+    }
+    const m = map[th]
+    if (m) return m
+    if (isIslamicOnly(th) || (ISLAMIC_SET && th === 'neon')) return 'emerald'
+    return th
   }
   const ctx = canvas.getContext('2d')
   if (!ctx) return () => {}
-  let W = 0, H = 0, parts: P[] = [], traces: Trace[] = [], theme: Exclude<ThemeId, 'rawdah'> | null = null, raf = 0, stopped = false
+  let W = 0, H = 0, parts: P[] = [], traces: Trace[] = [], theme: BaseThemeId | null = null, raf = 0, stopped = false
 
   const reset = () => {
     theme = getTheme()

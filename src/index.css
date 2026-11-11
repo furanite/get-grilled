@@ -2,13 +2,13 @@
 :root{color-scheme:dark;--ease:cubic-bezier(.7,0,.2,1);--spring:cubic-bezier(.2,.9,.25,1.15);
   --star:polygon(100% 50%,86.96% 65.31%,85.36% 85.36%,65.31% 86.96%,50% 100%,34.69% 86.96%,14.64% 85.36%,13.04% 65.31%,0 50%,13.04% 34.69%,14.64% 14.64%,34.69% 13.04%,50% 0,65.31% 13.04%,85.36% 14.64%,86.96% 34.69%);
   --spark:polygon(50% 0,58% 42%,100% 50%,58% 58%,50% 100%,42% 58%,0 50%,42% 42%);
-  --bg:#110920;--bg2:#2b1255;--tile-a:#3c1b72;--tile-b:#1c0c3b;--edge:#7a4fd6;--accent:#f5cd72;--accent2:#ff9fe3;--text:#f8f2ff;--muted:#b8a5dc;--glow:rgba(245,205,114,.45);--fd:'Marcellus',Georgia,serif;--fb:'Manrope',system-ui,sans-serif;--r:12px;--track:.06em}
-:root[data-theme="emerald"]{--bg:#03201a;--bg2:#0b4236;--tile-a:#105a4a;--tile-b:#052b23;--edge:#33b394;--accent:#e9c47f;--accent2:#86f3d4;--text:#effbf6;--muted:#9ccbbd;--glow:rgba(233,196,127,.45);--fd:'Reem Kufi','IBM Plex Sans Arabic',system-ui,sans-serif;--fb:'IBM Plex Sans Arabic',system-ui,sans-serif;--r:22px 22px 8px 8px;--track:.02em}
-:root[data-theme="neon"]{--bg:#060722;--bg2:#141050;--tile-a:#14164a;--tile-b:#080a26;--edge:#ff2bd6;--accent:#2ef2ff;--accent2:#ff3fd8;--text:#eafcff;--muted:#8d95cf;--glow:rgba(46,242,255,.55);--fd:'Chakra Petch',system-ui,sans-serif;--fb:'JetBrains Mono',ui-monospace,monospace;--r:4px;--track:.08em}
-:root[data-theme="onyx"]{--bg:#070605;--bg2:#221a0c;--tile-a:#1d1913;--tile-b:#050403;--edge:#c9a14a;--accent:#f2cd6b;--accent2:#fff1c2;--text:#fbf6ea;--muted:#b5a582;--glow:rgba(242,205,107,.5);--fd:'Cinzel',Georgia,serif;--fb:'Manrope',system-ui,sans-serif;--r:3px;--track:.1em}
-:root[data-theme="rivals"]{--bg:#07081a;--bg2:#1a0f3a;--tile-a:#8a1230;--tile-b:#14287a;--edge:#6d8cff;--accent:#f4f7ff;--accent2:#ff3d5a;--text:#f4f7ff;--muted:#a6addb;--glow:rgba(120,140,255,.5);--fd:'Big Shoulders Display','Chakra Petch',system-ui,sans-serif;--fb:'Inter',system-ui,sans-serif;--r:10px;--track:.05em}
-:root[data-theme="ember"]{--bg:#170507;--bg2:#430c13;--tile-a:#6e1322;--tile-b:#2a0509;--edge:#ff6a3d;--accent:#ffb64a;--accent2:#ff4d6d;--text:#fff4ee;--muted:#dba9a1;--glow:rgba(255,120,60,.5);--fd:'Bricolage Grotesque',system-ui,sans-serif;--fb:'Inter',system-ui,sans-serif;--r:6px;--track:0}
-:root[data-theme="heritage"]{--bg:#090c22;--bg2:#1a1740;--tile-a:#0f5257;--tile-b:#06272b;--edge:#e5b95e;--accent:#e5b95e;--accent2:#fff0c8;--text:#f3e6c8;--muted:#a9a6c4;--glow:rgba(229,185,94,.45);--fd:'El Messiri','IBM Plex Sans Arabic',Georgia,serif;--fb:'IBM Plex Sans Arabic',system-ui,sans-serif;--r:50% 50% 10px 10px/34% 34% 10px 10px;--track:0;
+  --bg:#110920;--bg2:#2b1255;--tile-a:#3c1b72;--tile-b:#1c0c3b;--edge:#7a4fd6;--accent:#f5cd72;--accent2:#ff9fe3;--text:#f8f2ff;--muted:#b8a5dc;--glow:rgba(245,205,114,.45);--fd:'GG Salawat','Marcellus',Georgia,serif;--fb:'GG Salawat','Manrope',system-ui,sans-serif;--r:12px;--track:.06em}
+:root[data-theme="emerald"]{--bg:#03201a;--bg2:#0b4236;--tile-a:#105a4a;--tile-b:#052b23;--edge:#33b394;--accent:#e9c47f;--accent2:#86f3d4;--text:#effbf6;--muted:#9ccbbd;--glow:rgba(233,196,127,.45);--fd:'GG Salawat','Reem Kufi','IBM Plex Sans Arabic',system-ui,sans-serif;--fb:'GG Salawat','IBM Plex Sans Arabic',system-ui,sans-serif;--r:22px 22px 8px 8px;--track:.02em}
+:root[data-theme="neon"]{--bg:#060722;--bg2:#141050;--tile-a:#14164a;--tile-b:#080a26;--edge:#ff2bd6;--accent:#2ef2ff;--accent2:#ff3fd8;--text:#eafcff;--muted:#8d95cf;--glow:rgba(46,242,255,.55);--fd:'GG Salawat','Chakra Petch',system-ui,sans-serif;--fb:'GG Salawat','JetBrains Mono',ui-monospace,monospace;--r:4px;--track:.08em}
+:root[data-theme="onyx"]{--bg:#070605;--bg2:#221a0c;--tile-a:#1d1913;--tile-b:#050403;--edge:#c9a14a;--accent:#f2cd6b;--accent2:#fff1c2;--text:#fbf6ea;--muted:#b5a582;--glow:rgba(242,205,107,.5);--fd:'GG Salawat','Cinzel',Georgia,serif;--fb:'GG Salawat','Manrope',system-ui,sans-serif;--r:3px;--track:.1em}
+:root[data-theme="rivals"]{--bg:#07081a;--bg2:#1a0f3a;--tile-a:#8a1230;--tile-b:#14287a;--edge:#6d8cff;--accent:#f4f7ff;--accent2:#ff3d5a;--text:#f4f7ff;--muted:#a6addb;--glow:rgba(120,140,255,.5);--fd:'GG Salawat','Big Shoulders Display','Chakra Petch',system-ui,sans-serif;--fb:'GG Salawat','Inter',system-ui,sans-serif;--r:10px;--track:.05em}
+:root[data-theme="ember"]{--bg:#170507;--bg2:#430c13;--tile-a:#6e1322;--tile-b:#2a0509;--edge:#ff6a3d;--accent:#ffb64a;--accent2:#ff4d6d;--text:#fff4ee;--muted:#dba9a1;--glow:rgba(255,120,60,.5);--fd:'GG Salawat','Bricolage Grotesque',system-ui,sans-serif;--fb:'GG Salawat','Inter',system-ui,sans-serif;--r:6px;--track:0}
+:root[data-theme="heritage"]{--bg:#090c22;--bg2:#1a1740;--tile-a:#0f5257;--tile-b:#06272b;--edge:#e5b95e;--accent:#e5b95e;--accent2:#fff0c8;--text:#f3e6c8;--muted:#a9a6c4;--glow:rgba(229,185,94,.45);--fd:'GG Salawat','El Messiri','IBM Plex Sans Arabic',Georgia,serif;--fb:'GG Salawat','IBM Plex Sans Arabic',system-ui,sans-serif;--r:50% 50% 10px 10px/34% 34% 10px 10px;--track:0;
   --crenel:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='16'%3E%3Cpath d='M0 16V12H4V8H8V4L14 0L20 4V8H24V12H28V16Z' fill='%23e5b95e' fill-opacity='.55'/%3E%3Cpath d='M12 9L14 6L16 9V12H12Z' fill='%23090c22'/%3E%3C/svg%3E");
   --sadu:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='18'%3E%3Crect width='40' height='18' fill='%23161010'/%3E%3Crect width='40' height='2' fill='%23f3e6c8'/%3E%3Crect y='16' width='40' height='2' fill='%23f3e6c8'/%3E%3Cpath d='M0 15L10 3L20 15Z M20 3L30 15L40 3Z' fill='%23b3262e'/%3E%3Cpath d='M10 7L12 9.5L10 12L8 9.5Z M30 5L32 7.5L30 10L28 7.5Z' fill='%23f3e6c8'/%3E%3C/svg%3E");
   --qatt:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='14'%3E%3Crect width='8' height='14' fill='%23e04a3a'/%3E%3Crect x='8' width='8' height='14' fill='%23f2c14b'/%3E%3Crect x='16' width='8' height='14' fill='%232f9e6b'/%3E%3Crect x='24' width='8' height='14' fill='%233b6fd8'/%3E%3Crect x='32' width='8' height='14' fill='%237a3fb0'/%3E%3Crect x='40' width='8' height='14' fill='%23f08a2c'/%3E%3Cpath d='M0 0L4 6L8 0Z M8 0L12 6L16 0Z M16 0L20 6L24 0Z M24 0L28 6L32 0Z M32 0L36 6L40 0Z M40 0L44 6L48 0Z' fill='%23fff'/%3E%3Crect y='12' width='48' height='2' fill='%23111'/%3E%3C/svg%3E")}
@@ -103,7 +103,7 @@ textarea.input{resize:vertical;min-height:44px}
 .board-scroll{overflow-x:auto;padding:8px 4px 14px;margin:-8px -4px 0}
 .board{--colmax:300px;justify-content:center;display:grid;gap:clamp(6px,1vw,12px);perspective:1400px;min-width:min(660px,calc(var(--cols)*110px))}
 .cat{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:2px;min-height:64px;padding:8px 6px;font-family:var(--fd);font-size:clamp(12px,1.25vw,16px);letter-spacing:var(--track);text-transform:uppercase;border-bottom:2px solid color-mix(in oklab,var(--accent) 55%,transparent);animation:catIn .7s var(--spring) both;animation-delay:var(--d);overflow-wrap:anywhere}
-.cat .sub{font-family:'IBM Plex Sans Arabic',sans-serif;text-transform:none;font-size:.9em;color:var(--accent);letter-spacing:0}
+.cat .sub{font-family:'GG Salawat','IBM Plex Sans Arabic',sans-serif;text-transform:none;font-size:.9em;color:var(--accent);letter-spacing:0}
 @keyframes catIn{from{opacity:0;transform:translateY(-18px)}}
 .tile{position:relative;aspect-ratio:16/10;border-radius:var(--r);border:1px solid color-mix(in oklab,var(--edge) 55%,transparent);background:linear-gradient(160deg,var(--tile-a),var(--tile-b));display:grid;place-items:center;overflow:hidden;font-family:var(--fd);font-weight:700;font-size:clamp(18px,2.6vw,36px);color:var(--accent);text-shadow:0 0 18px var(--glow);box-shadow:inset 0 1px 0 rgba(255,255,255,.12),0 8px 20px -10px rgba(0,0,0,.7);transition:transform .45s var(--spring),box-shadow .45s;animation:tileIn .8s var(--spring) both;animation-delay:var(--d);padding:0}
 .tile::before{content:"";position:absolute;inset:-40% -60%;background:linear-gradient(110deg,transparent 42%,rgba(255,255,255,.38) 50%,transparent 58%);transform:translateX(-70%);transition:transform 1s var(--ease);pointer-events:none;z-index:1}
@@ -409,7 +409,7 @@ textarea.input{resize:vertical;min-height:44px}
 :root[data-set="islamic"]{--girih:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60'%3E%3Cg fill='none' stroke='%23ffffff' stroke-opacity='.05' stroke-width='1'%3E%3Cpath d='M30 12 42.7 17.3 48 30 42.7 42.7 30 48 17.3 42.7 12 30 17.3 17.3Z'/%3E%3Cpath d='M17.3 12H42.7L48 17.3V42.7L42.7 48H17.3L12 42.7V17.3Z'/%3E%3Cpath d='M30 12V0M30 48V60M12 30H0M48 30H60'/%3E%3C/g%3E%3C/svg%3E")}
 :root[data-set="islamic"] body{background-image:var(--girih);background-size:60px 60px}
 /* The Arabic name in Ruq'ah calligraphy above the title. */
-.isl-callig{display:block;font-family:'Aref Ruqaa','El Messiri',serif;font-weight:700;font-size:clamp(30px,6.4cqw,64px);line-height:1.2;color:var(--accent);text-shadow:0 0 18px var(--glow);margin-bottom:.1em;animation:flFade 1s ease both}
+.isl-callig{display:block;font-family:'GG Salawat','Aref Ruqaa','El Messiri',serif;font-weight:700;font-size:clamp(30px,6.4cqw,64px);line-height:1.2;color:var(--accent);text-shadow:0 0 18px var(--glow);margin-bottom:.1em;animation:flFade 1s ease both}
 .logo-card .isl-callig{font-size:clamp(28px,7cqw,66px)}
 .aud-title + .fl-wrap,.title-screen .isl-callig{font-size:clamp(40px,7vw,90px)}
 .fl-isl{width:min(62cqw,420px);height:auto;overflow:visible}
@@ -425,16 +425,16 @@ textarea.input{resize:vertical;min-height:44px}
 :root[data-set="islamic"] .cat{border-radius:40% 40% 8px 8px/24px 24px 8px 8px}
 
 /* Iznik: cobalt, turquoise, coral red and white, replacing the neon colours. */
-:root[data-set="islamic"][data-theme="neon"]{--bg:#061630;--bg2:#0d2a6b;--tile-a:#173f99;--tile-b:#0a2257;--edge:#3fd0c9;--accent:#7fe3dc;--accent2:#ff7a6b;--text:#f4f8ff;--muted:#a8bde6;--glow:rgba(63,208,201,.45);--fd:'El Messiri','IBM Plex Sans Arabic',serif;--fb:'IBM Plex Sans Arabic',system-ui,sans-serif;--r:14px;--track:.02em}
+:root[data-set="islamic"][data-theme="neon"]{--bg:#061630;--bg2:#0d2a6b;--tile-a:#173f99;--tile-b:#0a2257;--edge:#3fd0c9;--accent:#7fe3dc;--accent2:#ff7a6b;--text:#f4f8ff;--muted:#a8bde6;--glow:rgba(63,208,201,.45);--fd:'GG Salawat','El Messiri','IBM Plex Sans Arabic',serif;--fb:'GG Salawat','IBM Plex Sans Arabic',system-ui,sans-serif;--r:14px;--track:.02em}
 /* Samarkand: tile red and blue with gold. */
-:root[data-set="islamic"][data-theme="rivals"]{--tile-a:#a3271f;--tile-b:#1d3f8f;--accent:#f2d27a;--accent2:#ff7a6b;--edge:#f2d27a;--glow:rgba(242,210,122,.45);--fd:'El Messiri','IBM Plex Sans Arabic',serif}
+:root[data-set="islamic"][data-theme="rivals"]{--tile-a:#a3271f;--tile-b:#1d3f8f;--accent:#f2d27a;--accent2:#ff7a6b;--edge:#f2d27a;--glow:rgba(242,210,122,.45);--fd:'GG Salawat','El Messiri','IBM Plex Sans Arabic',serif}
 /* Ottoman tulip keeps its crimson and molten colours with a classical face. */
-:root[data-set="islamic"][data-theme="ember"]{--fd:'Marcellus','El Messiri',serif}
+:root[data-set="islamic"][data-theme="ember"]{--fd:'GG Salawat','Marcellus','El Messiri',serif}
 
 /* The Garden (al-Rawdah): deep green, rose and gold, with vines and falling petals. */
-:root[data-theme="rawdah"]{--bg:#0b2418;--bg2:#14402a;--tile-a:#1d5a3a;--tile-b:#0c2b1c;--edge:#e7b8c4;--accent:#f3c8d3;--accent2:#e9cf8a;--text:#fbf3e6;--muted:#b9cdb9;--glow:rgba(243,200,211,.45);--fd:'El Messiri','IBM Plex Sans Arabic',Georgia,serif;--fb:'IBM Plex Sans Arabic',system-ui,sans-serif;--r:18px;--track:.03em;--tsz:10.6}
+:root[data-theme="rawdah"]{--bg:#0b2418;--bg2:#14402a;--tile-a:#1d5a3a;--tile-b:#0c2b1c;--edge:#e7b8c4;--accent:#f3c8d3;--accent2:#e9cf8a;--text:#fbf3e6;--muted:#b9cdb9;--glow:rgba(243,200,211,.45);--fd:'GG Salawat','El Messiri','IBM Plex Sans Arabic',Georgia,serif;--fb:'GG Salawat','IBM Plex Sans Arabic',system-ui,sans-serif;--r:18px;--track:.03em;--tsz:10.6}
 :root[data-theme="rawdah"] body{background-image:radial-gradient(60% 50% at 50% 0%,rgba(243,200,211,.10),transparent),var(--girih,none)}
-:root[data-theme="rawdah"] .tile{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cpath d='M2 38C6 22 18 10 38 2' fill='none' stroke='%23e9cf8a' stroke-opacity='.55' stroke-width='1.2'/%3E%3Cpath d='M12 24C8 18 10 13 16 12 16 18 14 22 12 24Z' fill='%237cc489' fill-opacity='.6'/%3E%3Cpath d='M22 14C22 8 26 5 32 6 30 11 26 14 22 14Z' fill='%237cc489' fill-opacity='.6'/%3E%3Ccircle cx='8' cy='31' r='3' fill='%23f3c8d3' fill-opacity='.75'/%3E%3C/svg%3E") left 4px bottom 4px/36px no-repeat,url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cpath d='M38 2C34 18 22 30 2 38' fill='none' stroke='%23e9cf8a' stroke-opacity='.55' stroke-width='1.2'/%3E%3Cpath d='M28 16C32 22 30 27 24 28 24 22 26 18 28 16Z' fill='%237cc489' fill-opacity='.6'/%3E%3Cpath d='M18 26C18 32 14 35 8 34 10 29 14 26 18 26Z' fill='%237cc489' fill-opacity='.6'/%3E%3Ccircle cx='32' cy='9' r='3' fill='%23f3c8d3' fill-opacity='.75'/%3E%3C/svg%3E") right 4px top 4px/36px no-repeat,linear-gradient(160deg,var(--tile-a),var(--tile-b))!important}
+:root[data-set="islamic"][data-theme="rawdah"] .tile{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cpath d='M2 38C6 22 18 10 38 2' fill='none' stroke='%23e9cf8a' stroke-opacity='.55' stroke-width='1.2'/%3E%3Cpath d='M12 24C8 18 10 13 16 12 16 18 14 22 12 24Z' fill='%237cc489' fill-opacity='.6'/%3E%3Cpath d='M22 14C22 8 26 5 32 6 30 11 26 14 22 14Z' fill='%237cc489' fill-opacity='.6'/%3E%3Ccircle cx='8' cy='31' r='3' fill='%23f3c8d3' fill-opacity='.75'/%3E%3C/svg%3E") left 4px bottom 4px/36px no-repeat,url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cpath d='M38 2C34 18 22 30 2 38' fill='none' stroke='%23e9cf8a' stroke-opacity='.55' stroke-width='1.2'/%3E%3Cpath d='M28 16C32 22 30 27 24 28 24 22 26 18 28 16Z' fill='%237cc489' fill-opacity='.6'/%3E%3Cpath d='M18 26C18 32 14 35 8 34 10 29 14 26 18 26Z' fill='%237cc489' fill-opacity='.6'/%3E%3Ccircle cx='32' cy='9' r='3' fill='%23f3c8d3' fill-opacity='.75'/%3E%3C/svg%3E") right 4px top 4px/36px no-repeat,linear-gradient(160deg,var(--tile-a),var(--tile-b))!important}
 :root[data-theme="rawdah"] .card{background:radial-gradient(90% 70% at 50% 0%,#1d5a3a,var(--tile-b) 50%,var(--bg) 100%)}
 .amb-rw{overflow:hidden;pointer-events:none}
 .amb-rw i{position:absolute;top:-8%;display:block;animation:petalFall 14s linear infinite}
@@ -443,3 +443,53 @@ textarea.input{resize:vertical;min-height:44px}
 @keyframes petalFall{0%{transform:translate(0,0) rotate(0)}50%{transform:translate(28px,55vh) rotate(200deg)}100%{transform:translate(-10px,112vh) rotate(380deg)}}
 @media (prefers-reduced-motion:reduce){.amb-rw i{animation:none;display:none}}
 :root[data-reduce="1"] .amb-rw i{display:none}
+/* "Host version" explainer */
+.host-info h2{margin:14px 0 6px;font-size:20px}
+.host-info h3{margin:14px 0 2px;font-size:15px;color:var(--accent)}
+.host-info .muted{color:var(--muted);font-size:13px}
+.host-info .legal-actions a.btn{text-decoration:none;display:inline-flex;align-items:center}
+
+/* ---------- Eid of the Mu'mineen (Friday, Thursday Maghrib to Friday Maghrib) ---------- */
+/* Deep emerald night, pearl and gold, with hanging lanterns and a glow of light from above. */
+:root[data-theme="jumuah"]{--bg:#03191a;--bg2:#0b3b31;--tile-a:#0f5244;--tile-b:#06302a;--edge:#f1d389;--accent:#f1d389;--accent2:#fff4dc;--text:#fffaf0;--muted:#bfd6cb;--glow:rgba(241,211,137,.5);--fd:'GG Salawat','Marcellus','El Messiri',Georgia,serif;--fb:'GG Salawat','IBM Plex Sans Arabic',system-ui,sans-serif;--r:16px;--track:.04em;--tsz:10.2}
+:root[data-theme="jumuah"] body{background-image:radial-gradient(70% 55% at 50% -5%,rgba(255,244,220,.16),transparent 70%),radial-gradient(40% 40% at 50% 110%,rgba(241,211,137,.10),transparent),var(--girih,none)}
+:root[data-set="islamic"][data-theme="jumuah"] .tile{background:
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cpath d='M3 37V16C3 8 8 3 16 3h21' fill='none' stroke='%23f1d389' stroke-width='1.3'/%3E%3Cpath d='M8 37V18c0-6 4-10 10-10h19' fill='none' stroke='%23f1d389' stroke-opacity='.5' stroke-width='.9'/%3E%3Cpath d='M16 3c-2 4-6 6-10 6M3 16c4 0 6 4 6 8' fill='none' stroke='%23f1d389' stroke-opacity='.7' stroke-width='.9'/%3E%3Ccircle cx='3' cy='3' r='2' fill='%23fff4dc'/%3E%3C/svg%3E") left 5px top 5px/34px no-repeat,
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cpath d='M37 3v21c0 8-5 13-13 13H3' fill='none' stroke='%23f1d389' stroke-width='1.3'/%3E%3Cpath d='M32 3v19c0 6-4 10-10 10H3' fill='none' stroke='%23f1d389' stroke-opacity='.5' stroke-width='.9'/%3E%3Ccircle cx='37' cy='37' r='2' fill='%23fff4dc'/%3E%3C/svg%3E") right 5px bottom 5px/34px no-repeat,
+  radial-gradient(90% 70% at 50% 0%,rgba(255,244,220,.12),transparent 70%),
+  linear-gradient(165deg,var(--tile-a),var(--tile-b))}
+:root[data-theme="jumuah"] .tile::after{content:"";position:absolute;inset:4px;border-radius:12px;border:1px solid rgba(241,211,137,.28);pointer-events:none}
+:root[data-theme="jumuah"] .card,:root[data-theme="jumuah"] .aud-card{background:radial-gradient(80% 60% at 50% 0%,rgba(255,244,220,.18),transparent 60%),radial-gradient(90% 80% at 50% 0%,#0f5244,var(--tile-b) 55%,var(--bg) 100%);border:2px solid var(--accent);box-shadow:0 0 0 6px rgba(241,211,137,.10),0 30px 90px -20px rgba(0,0,0,.85),0 0 90px -10px var(--glow)}
+:root[data-theme="jumuah"] .card::after{inset:9px;border:1px solid rgba(241,211,137,.55)}
+.amb-jm{overflow:hidden;pointer-events:none}
+.amb-jm .lt{position:absolute;top:0;translate:-50% 0;transform-origin:50% 0;filter:drop-shadow(0 0 10px rgba(255,236,180,.55));animation:lanternSway 8s ease-in-out infinite alternate;opacity:.9}
+@keyframes lanternSway{from{rotate:-2.5deg}to{rotate:2.5deg}}
+.amb-jm .sp i{position:absolute;width:3px;height:3px;border-radius:50%;background:#fff4dc;box-shadow:0 0 8px #f1d389;animation:flStarTw 6s ease-in-out infinite}
+.amb-word{position:absolute;left:50%;top:50%;translate:-50% -50%;white-space:nowrap;font-family:'GG Salawat','Aref Ruqaa','El Messiri',serif;font-weight:700;font-size:clamp(90px,18vw,260px);color:var(--accent);opacity:.06;pointer-events:none}
+@media (max-width:640px){.amb-jm .lt:nth-of-type(n+5){display:none}}
+
+/* ---------- Blessed Mawlid (Sunday Maghrib to Monday Maghrib) ---------- */
+/* Midnight blue and emerald, rose and gold: slow rays of light from above, roses, and petals drifting down. */
+:root[data-theme="mawlid"]{--bg:#070b22;--bg2:#16224f;--tile-a:#0f4a3a;--tile-b:#0a1c3c;--edge:#ffd98a;--accent:#ffd98a;--accent2:#ff9fb5;--text:#fff8ec;--muted:#c3c9e6;--glow:rgba(255,217,138,.5);--fd:'GG Salawat','Cinzel','El Messiri',Georgia,serif;--fb:'GG Salawat','IBM Plex Sans Arabic',system-ui,sans-serif;--r:18px;--track:.05em;--tsz:9.4}
+:root[data-theme="mawlid"] body{background-image:radial-gradient(60% 50% at 50% -8%,rgba(255,217,138,.22),transparent 70%),radial-gradient(50% 45% at 15% 105%,rgba(255,159,181,.12),transparent),radial-gradient(50% 45% at 85% 105%,rgba(63,159,107,.14),transparent),var(--girih,none)}
+:root[data-set="islamic"][data-theme="mawlid"] .tile{background:
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cpath d='M2 38C6 20 18 8 38 2' fill='none' stroke='%23ffd98a' stroke-opacity='.75' stroke-width='1.2'/%3E%3Cpath d='M13 25C9 19 11 14 17 13 17 19 15 23 13 25Z' fill='%233f9f6b'/%3E%3Cpath d='M23 15C23 9 27 6 33 7 31 12 27 15 23 15Z' fill='%235fbf86'/%3E%3Cg transform='translate(8 31)'%3E%3Ccircle r='5' fill='%23ff7f9f'/%3E%3Ccircle r='3.2' fill='%23ffb3c4'/%3E%3Ccircle r='1.4' fill='%23e0466f'/%3E%3C/g%3E%3C/svg%3E") left 4px bottom 4px/38px no-repeat,
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cpath d='M38 2C34 20 22 32 2 38' fill='none' stroke='%23ffd98a' stroke-opacity='.75' stroke-width='1.2'/%3E%3Cpath d='M27 15C31 21 29 26 23 27 23 21 25 17 27 15Z' fill='%233f9f6b'/%3E%3Cg transform='translate(32 9)'%3E%3Ccircle r='5' fill='%23ff7f9f'/%3E%3Ccircle r='3.2' fill='%23ffb3c4'/%3E%3Ccircle r='1.4' fill='%23e0466f'/%3E%3C/g%3E%3C/svg%3E") right 4px top 4px/38px no-repeat,
+  radial-gradient(80% 70% at 50% 0%,rgba(255,217,138,.16),transparent 70%),
+  linear-gradient(160deg,var(--tile-a),var(--tile-b))}
+:root[data-theme="mawlid"] .tile::after{content:"";position:absolute;inset:4px;border-radius:14px;border:1px solid rgba(255,217,138,.35);box-shadow:inset 0 0 0 3px rgba(255,159,181,.08);pointer-events:none}
+:root[data-theme="mawlid"] .card,:root[data-theme="mawlid"] .aud-card{background:radial-gradient(70% 55% at 50% 0%,rgba(255,217,138,.26),transparent 60%),radial-gradient(100% 90% at 50% 0%,#16224f,#0f2f3a 55%,var(--bg) 100%);border:2px solid var(--accent);box-shadow:0 0 0 5px rgba(255,159,181,.18),0 0 0 9px rgba(255,217,138,.14),0 30px 90px -20px rgba(0,0,0,.85),0 0 110px -10px var(--glow)}
+:root[data-theme="mawlid"] .card::after{inset:9px;border:1px solid rgba(255,217,138,.6)}
+.amb-ml{overflow:hidden;pointer-events:none}
+.amb-ml .nur{position:absolute;left:50%;top:-60vmax;width:120vmax;height:120vmax;translate:-50% 0;background:repeating-conic-gradient(from 0deg,rgba(255,217,138,.07) 0 4deg,transparent 4deg 15deg);-webkit-mask:radial-gradient(closest-side,#000 20%,transparent 85%);mask:radial-gradient(closest-side,#000 20%,transparent 85%);animation:spin 240s linear infinite}
+.amb-ml .amb-rw{position:absolute;inset:0}
+.amb-ml .amb-rw i.pt{background:#ff9fb5}
+.amb-ml .amb-rw i.lf{background:#3f9f6b}
+.amb-ml .amb-rw i.gd{width:5px;height:5px;border-radius:50%;background:#ffd98a;box-shadow:0 0 8px #ffd98a;opacity:.8}
+@media (prefers-reduced-motion:reduce){.amb-jm .lt,.amb-ml .nur,.amb-jm .sp i{animation:none}}
+:root[data-reduce="1"] .amb-jm .lt,:root[data-reduce="1"] .amb-ml .nur{animation:none}
+
+/* The salawat sign ﷺ (U+FDFA) is missing or drawn badly in most display fonts, so every font stack
+   starts with this face, which supplies only that one character from IBM Plex Sans Arabic. */
+@font-face{font-family:'GG Salawat';src:url('../node_modules/@fontsource/ibm-plex-sans-arabic/files/ibm-plex-sans-arabic-arabic-400-normal.woff2') format('woff2');font-weight:400;font-display:swap;unicode-range:U+FDFA}
+@font-face{font-family:'GG Salawat';src:url('../node_modules/@fontsource/ibm-plex-sans-arabic/files/ibm-plex-sans-arabic-arabic-700-normal.woff2') format('woff2');font-weight:700;font-display:swap;unicode-range:U+FDFA}

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import type { Lang, ThemeId } from '../lib/types'
 import type { Strings } from '../lib/i18n'
-import { THEMES, formatCountdown, heritageOpen, msUntilHeritage } from '../lib/themes'
+import { THEMES, formatCountdown, msUntilOpen, themeOpen } from '../lib/themes'
 import { burstAt } from '../lib/fx'
 import { Ambient, Flourish, FlourishAbove, Mark } from './Brand'
 import { APP_NAME, APP_NAME_AR, HAS_AR_NAME, ISLAMIC_SET, appName } from '../lib/edition'
@@ -26,7 +26,6 @@ export default function Home({ t, lang, theme, setTheme, hasGame, onNew, onResum
     const id = setInterval(() => tick((n) => n + 1), 30_000)
     return () => clearInterval(id)
   }, [])
-  const open = heritageOpen()
 
   return (
     <main className="stack" style={{ gap: 28 }}>
@@ -77,7 +76,7 @@ export default function Home({ t, lang, theme, setTheme, hasGame, onNew, onResum
         <span className="label">{t.theme}</span>
         <div className="themes">
           {THEMES.map((th) => {
-            const locked = th.id === 'heritage' && !open
+            const locked = !themeOpen(th.id)
             return (
               <button key={th.id} className="theme" aria-pressed={theme === th.id} disabled={locked} onClick={(e) => setTheme(th.id, e)} data-theme-id={th.id}>
                 <span className="sw" style={{ background: th.swatch }} />
@@ -86,7 +85,7 @@ export default function Home({ t, lang, theme, setTheme, hasGame, onNew, onResum
                   <small>{th.blurb}</small>
                   {locked && (
                     <span className="lock" style={{ display: 'block' }}>
-                      🔒 {t.lockedUntil} {formatCountdown(msUntilHeritage(), lang)}
+                      🔒 {th.id === 'jumuah' ? t.lockedJumuah : th.id === 'mawlid' ? t.lockedMawlid : t.lockedUntil} {formatCountdown(msUntilOpen(th.id), lang)}
                     </span>
                   )}
                 </span>
