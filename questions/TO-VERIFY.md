@@ -13,6 +13,12 @@ This file is rewritten by `npm run packs`.
 - **500**, line 103: The wind that takes the soul of every believer near the end blows from this direction, in one narration. **Answer:** Yemen _(Source: Sahih Muslim; other narrations name al-Sham)_
 - **500**, line 114: The day that is fifty thousand years long will feel as short as this for the believer (paraphrased). **Answer:** The time of a prescribed prayer _(Source: Musnad Ahmad; grade to be checked)_
 
+## Balagha (rhetoric) (questions/isl-balagha.txt)
+
+- **300**, line 54: 'Abd al-Qahir al-Jurjani رحمة الله عليه died in this year. **Answer:** 471 AH / 1078 CE _(Source: Bughyat al-Wu'at (al-Suyuti); 471 or 474 AH)_
+- **300**, line 55: The book of al-Sakkaki whose third part set out balagha in its classic form. **Answer:** Miftah al-'Ulum _(Source: Miftah al-'Ulum; check al-Sakkaki's creed before adding an honorific)_
+- **500**, line 95: The book of al-Rummani on the i'jaz of the Qur'an, one of the early three treatises. **Answer:** al-Nukat fi I'jaz al-Qur'an _(Source: Thalath Rasa'il fi I'jaz al-Qur'an; to be checked)_
+
 ## Hadith books and narrators (questions/isl-hadith.txt)
 
 - **500**, line 95: The teacher of al-Bukhari, nicknamed "Commander of the Believers in hadith", famed for criticism of narrators. **Answer:** 'Ali ibn al-Madini رحمة الله عليه _(Source: Siyar A'lam al-Nubala' (al-Dhahabi); title to be checked)_
@@ -23,6 +29,14 @@ This file is rewritten by `npm run packs`.
 - **500**, line 103: The number of points of difference listed between the two schools in many works, mostly in wording. **Answer:** About 12 _(Source: Commonly cited in works on Ash'ari-Maturidi differences; to be checked)_
 - **500**, line 104: On "Is faith (iman) created?", the Maturidi scholars of Bukhara differed with those of this city. **Answer:** Samarqand _(Source: Isharat al-Maram (al-Bayadi); to be checked)_
 - **500**, line 110: Al-Maturidi's teacher in the chain back to Abu Hanifah رحمة الله عليه. **Answer:** Abu Nasr al-'Iyadi رحمة الله عليه _(Source: Taj al-Tarajim (Ibn Qutlubugha); chain to be checked)_
+
+## Nahw (grammar) (questions/isl-nahw.txt)
+
+- **200**, line 30: The caliph said to have told Abu al-Aswad to set down grammar. **Answer:** 'Ali ibn Abi Talib (رضي الله عنه) _(Source: Nuzhat al-Alibba' (Ibn al-Anbari); to be checked)_
+- **400**, line 86: The word Sibawayh means this in Persian, by a common view. **Answer:** Scent of apples _(Source: Wafayat al-A'yan (Ibn Khallikan); to be checked)_
+- **500**, line 102: The commentary on al-Ajurrumiyyah by Khalid al-Azhari رحمة الله عليه. **Answer:** Sharh al-Azhariyyah _(Source: Title to be checked)_
+- **500**, line 111: The Kufan grammarian reported to have said he would die with something still in his heart about "hatta". **Answer:** al-Farra' _(Source: Mughni al-Labib (Ibn Hisham); to be checked)_
+- **500**, line 114: The Basran grammarian, student of al-Khalil, who wrote "Ma'ani al-Qur'an" and taught Sibawayh's book. **Answer:** al-Akhfash al-Awsat _(Source: Bughyat al-Wu'at (al-Suyuti); to be checked)_
 
 ## Prophets: Adam to Ibrahim (questions/isl-prophets-early.txt)
 
@@ -39,6 +53,10 @@ This file is rewritten by `npm run packs`.
 - **500**, line 101: The surah in which every verse contains the word "Allah". **Answer:** Surah al-Mujadilah _(Source: Commonly stated; count to be checked in the Mushaf)_
 - **500**, line 102: The verse many regard as the last revealed, according to a report from Ibn 'Abbas (رضي الله عنه). **Answer:** Qur'an 2:281 _(Source: al-Itqan (al-Suyuti), report of Ibn 'Abbas)_
 - **500**, line 103: The word said to mark the middle of the Qur'an by letters. **Answer:** Wal-yatalattaf (18:19) _(Source: Commonly stated in works on Qur'an counts)_
+
+## Sarf (morphology) (questions/isl-sarf.txt)
+
+- **500**, line 103: The early grammarian who first wrote a separate book on sarf, according to many. **Answer:** Mu'adh al-Harra' رحمة الله عليه _(Source: Commonly stated in histories of grammar; to be checked)_
 
 ## Seerah: the Madinan years (questions/isl-seerah-madinah.txt)
 

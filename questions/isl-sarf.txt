@@ -1,0 +1,114 @@
+id: isl-sarf
+name: Sarf (morphology)
+nameAr: الصرف
+group: arabic
+
+## 100
+The science of the forms of Arabic words and how they change. :: Sarf (Tasrif) || H: Shadha al-'Arf (al-Hamalawi)
+The three-letter pattern word used to weigh other words. :: Fa'ala (ف ع ل) || H: Shadha al-'Arf (al-Hamalawi)
+The first root letter is matched with this letter of the pattern. :: Fa' (ف) || H: Shadha al-'Arf
+The second root letter is matched with this letter. :: 'Ayn (ع) || H: Shadha al-'Arf
+The third root letter is matched with this letter. :: Lam (ل) || H: Shadha al-'Arf
+A verb in the past tense is called this. :: Fi'l madi || H: al-Ajurrumiyyah
+A verb in the present tense is called this. :: Fi'l mudari' || H: al-Ajurrumiyyah
+A command verb is called this. :: Fi'l amr || H: al-Ajurrumiyyah
+"Kataba" means "he wrote". Its present tense is this. :: Yaktubu || H: Shadha al-'Arf
+The doer of "kataba", meaning "writer". :: Katib || H: Shadha al-'Arf
+The thing done, from "kataba", meaning "written". :: Maktub || H: Shadha al-'Arf
+The verbal noun of "kataba". :: Kitabah (or katb) || H: Lisan al-'Arab
+The name for the pattern of the doer, like katib. :: Ism al-fa'il || H: Shadha al-'Arf
+The name for the pattern of the thing done, like maktub. :: Ism al-maf'ul || H: Shadha al-'Arf
+The name for the verbal noun. :: Masdar || H: Shadha al-'Arf
+A word whose root has three letters is called this. :: Thulathi || H: Shadha al-'Arf
+A word whose root has four letters is called this. :: Ruba'i || H: Shadha al-'Arf
+A root with no weak letter (alif, waw, ya') is called this. :: Sahih || H: Shadha al-'Arf
+A root with a weak letter is called this. :: Mu'tall || H: Shadha al-'Arf
+A noun for the place of an action, like "maktab" (office, desk). :: Ism al-makan || H: Shadha al-'Arf
+
+## 200
+The plural that keeps the singular whole and adds -una or -ina. :: Jam' mudhakkar salim (sound masculine plural) || H: al-Ajurrumiyyah
+The plural that adds -at. :: Jam' mu'annath salim (sound feminine plural) || H: al-Ajurrumiyyah
+The plural that changes the shape of the word, like kutub from kitab. :: Jam' taksir (broken plural) || H: Shadha al-'Arf
+The dual of "kitab". :: Kitaban (kitabayn) || H: al-Ajurrumiyyah
+The small form of a noun, like "kutayyib" (little book). :: Tasghir (diminutive) || H: Shadha al-'Arf
+The pattern of the diminutive of a three-letter noun. :: Fu'ayl || H: Shadha al-'Arf
+A noun ending in a long alif, like "fata". :: Ism maqsur || H: Shadha al-'Arf
+A noun ending in a ya' after kasrah, like "qadi". :: Ism manqus || H: Shadha al-'Arf
+A noun ending in alif then hamzah, like "sahra'". :: Ism mamdud || H: Shadha al-'Arf
+The pattern of a noun of instrument, like "miftah" (key). :: Mif'al || H: Shadha al-'Arf
+The name for the noun of instrument. :: Ism al-alah || H: Shadha al-'Arf
+The pattern of the noun of preference, like "akbar". :: Af'al (ism al-tafdil) || H: Shadha al-'Arf
+A root whose first letter is weak, like "wa'ada". :: Mithal || H: Shadha al-'Arf
+A root whose middle letter is weak, like "qala". :: Ajwaf (hollow) || H: Shadha al-'Arf
+A root whose last letter is weak, like "rama". :: Naqis (defective) || H: Shadha al-'Arf
+A root with two weak letters, like "waqa". :: Lafif || H: Shadha al-'Arf
+A root with a hamzah, like "akhadha". :: Mahmuz || H: Shadha al-'Arf
+A root whose second and third letters are the same, like "madda". :: Mud'af || H: Shadha al-'Arf
+A verb whose doer is not named, like "kutiba" (it was written). :: Majhul (passive) || H: al-Ajurrumiyyah
+The added letters in Arabic patterns are gathered in this phrase. :: Sa'altumuniha || H: Shadha al-'Arf
+
+## 300
+The number of patterns (bab) of the bare three-letter verb. :: 6 || H: Shadha al-'Arf
+The first bab, "nasara yansuru", has these vowels on the middle letter. :: Fathah in the past, dammah in the present || H: Shadha al-'Arf
+The bab "daraba yadribu" has these middle vowels. :: Fathah in the past, kasrah in the present || H: Shadha al-'Arf
+The bab "fataha yaftahu" usually needs one of these letters in the root. :: A throat letter || H: Shadha al-'Arf
+The bab "karuma yakrumu" shows this kind of meaning. :: A lasting quality || H: Shadha al-'Arf
+The bab "hasiba yahsibu" has these middle vowels. :: Kasrah in both || H: Shadha al-'Arf
+The added-letter form "af'ala", like "akrama". :: Form IV (if'al) || H: Shadha al-'Arf
+The form "fa''ala", like "'allama" (to teach). :: Form II (taf'il) || H: Shadha al-'Arf
+The form "fa'ala" with a long a, like "qatala" (to fight with). :: Form III (mufa'alah) || H: Shadha al-'Arf
+The form "istaf'ala", which often means to seek, like "istaghfara". :: Form X (istif'al) || H: Shadha al-'Arf
+The form "tafa'ala", which often means doing together, like "takataba". :: Form VI (tafa'ul) || H: Shadha al-'Arf
+The form "infa'ala", which often means a passive result, like "inkasara". :: Form VII (infi'al) || H: Shadha al-'Arf
+The form "ifta'ala", like "ijtama'a". :: Form VIII (ifti'al) || H: Shadha al-'Arf
+The form "if'alla", used for colours and defects, like "ihmarra". :: Form IX (if'ilal) || H: Shadha al-'Arf
+The form "tafa''ala", like "ta'allama" (to learn). :: Form V (tafa''ul) || H: Shadha al-'Arf
+The masdar of "'allama". :: Ta'lim || H: Shadha al-'Arf
+The masdar of "akrama". :: Ikram || H: Shadha al-'Arf
+The masdar of "istaghfara". :: Istighfar || H: Shadha al-'Arf
+The masdar of "qatala" (Form III), two forms. :: Muqatalah and qital || H: Shadha al-'Arf
+The ism al-fa'il of the added forms begins with this letter with dammah. :: Mim (mu-) || H: Shadha al-'Arf
+
+## 400
+The change of a weak letter into another for ease is called this. :: I'lal || H: Shadha al-'Arf
+Merging two like letters into one with shaddah is called this. :: Idgham || H: Shadha al-'Arf
+Replacing one letter with another, as in "istabara" from s-b-r, is called this. :: Ibdal || H: Shadha al-'Arf
+In "ittasala" from w-s-l, the waw changed into this letter. :: Ta' || H: Shadha al-'Arf
+In "istabara" from s-b-r, the ta' of Form VIII changed into this letter. :: The emphatic ta' (ط) || H: Shadha al-'Arf
+In "izdahama" from z-h-m, the ta' of Form VIII changed into this letter. :: Dal || H: Shadha al-'Arf
+"Qala" was originally this, before its waw became alif. :: Qawala || H: Shadha al-'Arf
+"Mizan" (scale) was originally this, before its waw became ya'. :: Miwzan || H: Shadha al-'Arf
+The present tense of "wa'ada" drops its waw: this. :: Ya'idu || H: Shadha al-'Arf
+The command of "wa'ada". :: 'Id || H: Shadha al-'Arf
+The command of "waqa" (to protect), a single letter with ha' of pause. :: Qih || H: Shadha al-'Arf
+The pattern of an intensive doer, like "ghaffar". :: Fa''al (sighat al-mubalaghah) || H: Shadha al-'Arf
+The intensive pattern of "ghafur" and "sabur". :: Fa'ul || H: Shadha al-'Arf
+A describing word that lasts, like "hasan" or "karim", is called this. :: al-Sifah al-mushabbahah || H: Shadha al-'Arf
+The masdar of a single act, like "jalsah" (one sitting). :: Ism al-marrah || H: Shadha al-'Arf
+The masdar of a manner of doing, like "jilsah" (a way of sitting). :: Ism al-hay'ah || H: Shadha al-'Arf
+A masdar that begins with mim, like "maw'id". :: al-Masdar al-mimi || H: Shadha al-'Arf
+The masdar made by adding -iyyah, like "insaniyyah". :: al-Masdar al-sina'i || H: Shadha al-'Arf
+The plural of a plural is called this. :: Jam' al-jam' || H: Shadha al-'Arf
+The broken plural patterns for 3 to 10 are called this. :: Jam' al-qillah (plural of paucity) || H: Shadha al-'Arf
+
+## 500
+The four patterns of jam' al-qillah. :: Af'ul, af'al, af'ilah, fi'lah || H: Shadha al-'Arf; Alfiyyat Ibn Malik
+The ultimate plural pattern, like "masajid" and "masabih". :: Sighat muntaha al-jumu' || H: Shadha al-'Arf
+Nouns on that pattern take this case behaviour. :: Diptote (mamnu' min al-sarf) || H: Alfiyyat Ibn Malik
+The famous poem on verb patterns by Ibn Malik رحمة الله عليه. :: Lamiyyat al-Af'al || H: Lamiyyat al-Af'al
+The well-known modern teaching book of sarf by Ahmad al-Hamalawi رحمة الله عليه. :: Shadha al-'Arf fi Fann al-Sarf || H: Shadha al-'Arf
+The classic beginners' book of sarf in the Ottoman and South Asian madrasahs, "The Foundation". :: al-Bina' wal-Asas (Matn al-Bina') || H: Matn al-Bina'
+The book of sarf by Ibn al-Hajib رحمة الله عليه. :: al-Shafiyah || H: al-Shafiyah
+The ism al-fa'il of "rama". :: Ramin (al-rami) || H: Shadha al-'Arf
+The early grammarian who first wrote a separate book on sarf, according to many. :: Mu'adh al-Harra' رحمة الله عليه || H?: Commonly stated in histories of grammar; to be checked
+The nisbah (relative adjective) of "Quraysh". :: Qurashi || H: Shadha al-'Arf
+The broken plural pattern of "kitab" (kutub). :: Fu'ul || H: Shadha al-'Arf
+The broken plural pattern of "rajul" (rijal). :: Fi'al || H: Shadha al-'Arf
+Moving a root letter to a different place, as in "ja'a" being treated as "ja'i", is called this. :: al-Qalb al-makani || H: Shadha al-'Arf
+Two consonants without a vowel meeting is avoided; this is called this. :: Iltiqa' al-sakinayn || H: Shadha al-'Arf
+The ism al-fa'il of "qala". :: Qa'il || H: Shadha al-'Arf
+The ism al-maf'ul of "qala". :: Maqul || H: Shadha al-'Arf
+The ism al-maf'ul of "rama". :: Marmiyy || H: Shadha al-'Arf
+The ism al-maf'ul of "da'a" (to call). :: Mad'uww || H: Shadha al-'Arf
+The diminutive of "kitab". :: Kutayyib || H: Shadha al-'Arf
+The relative adjective (nisbah) of "Makkah". :: Makki || H: Shadha al-'Arf

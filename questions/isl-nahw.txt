@@ -1,0 +1,114 @@
+id: isl-nahw
+name: Nahw (grammar)
+nameAr: النحو
+group: arabic
+
+## 100
+The science of Arabic word endings and sentence structure. :: Nahw || H: al-Ajurrumiyyah
+The three kinds of word in Arabic. :: Ism, fi'l, harf (noun, verb, particle) || H: al-Ajurrumiyyah
+A noun is called this. :: Ism || H: al-Ajurrumiyyah
+A verb is called this. :: Fi'l || H: al-Ajurrumiyyah
+A particle is called this. :: Harf || H: al-Ajurrumiyyah
+The case ending of the subject, usually dammah. :: Raf' (nominative) || H: al-Ajurrumiyyah
+The case of the object, usually fathah. :: Nasb (accusative) || H: al-Ajurrumiyyah
+The case after a preposition, usually kasrah. :: Jarr (genitive) || H: al-Ajurrumiyyah
+The mood of a present verb that ends in sukun after "lam". :: Jazm (jussive) || H: al-Ajurrumiyyah
+The famous short book of grammar for beginners by Ibn Ajurrum رحمة الله عليه. :: al-Ajurrumiyyah || H: al-Ajurrumiyyah
+A sentence that begins with a noun. :: Jumlah ismiyyah || H: Qatr al-Nada (Ibn Hisham)
+A sentence that begins with a verb. :: Jumlah fi'liyyah || H: Qatr al-Nada (Ibn Hisham)
+The subject at the start of a nominal sentence. :: Mubtada' || H: al-Ajurrumiyyah
+The part that tells us about the mubtada'. :: Khabar || H: al-Ajurrumiyyah
+The doer of a verb. :: Fa'il || H: al-Ajurrumiyyah
+The object of a verb. :: Maf'ul bihi || H: al-Ajurrumiyyah
+The word after a preposition is called this. :: Majrur || H: al-Ajurrumiyyah
+"Fi", "min" and "ila" are examples of these. :: Huruf al-jarr (prepositions) || H: al-Ajurrumiyyah
+The ending changes with case: this is called this. :: I'rab || H: al-Ajurrumiyyah
+A word whose ending never changes, like "hadha". :: Mabni || H: al-Ajurrumiyyah
+
+## 200
+The grammarian of Basrah credited with founding nahw, d. 69 AH / 688 CE. :: Abu al-Aswad al-Du'ali رحمة الله عليه || H: Tabaqat al-Nahwiyyin (al-Zubaydi)
+The caliph said to have told Abu al-Aswad to set down grammar. :: 'Ali ibn Abi Talib (رضي الله عنه) || H?: Nuzhat al-Alibba' (Ibn al-Anbari); to be checked
+The author of "al-Kitab", the first great book of Arabic grammar. :: Sibawayh رحمة الله عليه || H: al-Kitab (Sibawayh)
+Ibn Malik's poem of about a thousand lines on grammar. :: al-Alfiyyah || H: Alfiyyat Ibn Malik
+The most famous commentary on the Alfiyyah. :: Sharh Ibn 'Aqil || H: Sharh Ibn 'Aqil
+"Inna" and its sisters put the mubtada' in this case. :: Nasb || H: al-Ajurrumiyyah
+"Kana" and its sisters put the khabar in this case. :: Nasb || H: al-Ajurrumiyyah
+The particle "lam" before a present verb makes it this. :: Majzum (and past in meaning) || H: al-Ajurrumiyyah
+The particle "lan" before a present verb makes it this. :: Mansub (and future negative) || H: al-Ajurrumiyyah
+A noun followed by a noun in the genitive, like "kitab Allah". :: Idafah || H: al-Ajurrumiyyah
+The first noun of an idafah is called this. :: Mudaf || H: al-Ajurrumiyyah
+The second noun of an idafah is called this. :: Mudaf ilayh || H: al-Ajurrumiyyah
+An adjective that follows its noun in case. :: Na't (sifah) || H: al-Ajurrumiyyah
+The four kinds of followers (tawabi'). :: Na't, 'atf, tawkid, badal || H: al-Ajurrumiyyah
+"Wa", "fa" and "thumma" are particles of this. :: 'Atf (conjunction) || H: al-Ajurrumiyyah
+The five nouns include abun, akhun, hamun, fuh and this. :: Dhu || H: al-Ajurrumiyyah
+The five nouns take this letter in the raf' case. :: Waw || H: al-Ajurrumiyyah
+The sound masculine plural takes this letter in the raf' case. :: Waw || H: al-Ajurrumiyyah
+The dual takes this letter in the raf' case. :: Alif || H: al-Ajurrumiyyah
+The particle "ya" is used for this. :: Calling (nida') || H: al-Ajurrumiyyah
+
+## 300
+The word that explains the state of the doer or object when the action happens. :: Hal || H: al-Ajurrumiyyah
+A noun that removes vagueness, as in "a pound of honey". :: Tamyiz || H: al-Ajurrumiyyah
+The object that tells the reason for the action. :: Maf'ul li-ajlihi || H: al-Ajurrumiyyah
+The object that tells the time or place. :: Maf'ul fihi (zarf) || H: al-Ajurrumiyyah
+The verbal noun used for emphasis, as in "daraba darban". :: Maf'ul mutlaq || H: al-Ajurrumiyyah
+The object that comes after "with" (waw al-ma'iyyah). :: Maf'ul ma'ahu || H: al-Ajurrumiyyah
+The exception after "illa" is called this. :: Mustathna || H: al-Ajurrumiyyah
+The particle "la" that denies a whole kind, as in "la ilaha illa Allah". :: La al-nafiyah lil-jins || H: al-Ajurrumiyyah
+The noun after "la al-nafiyah lil-jins" is in this state. :: Mabni 'ala al-fath || H: al-Ajurrumiyyah
+The noun that names the doer of a passive verb. :: Na'ib al-fa'il || H: al-Ajurrumiyyah
+Nouns that cannot take tanwin or kasrah, called this. :: Mamnu' min al-sarf (diptote) || H: Alfiyyat Ibn Malik
+A diptote takes this in place of kasrah in the genitive. :: Fathah || H: Alfiyyat Ibn Malik
+The particles that make two present verbs jussive in a condition, like "in". :: Adawat al-shart || H: al-Ajurrumiyyah
+When a verb comes before a plural doer, it agrees in gender but stays in this number. :: Singular || H: Alfiyyat Ibn Malik
+The relative noun "alladhi" is for this. :: Masculine singular || H: al-Ajurrumiyyah
+The relative noun "allati" is for this. :: Feminine singular || H: al-Ajurrumiyyah
+The verbs of praise and blame. :: Ni'ma and bi'sa || H: Alfiyyat Ibn Malik
+The verb pattern of wonder, as in "ma ahsana". :: Ta'ajjub || H: Alfiyyat Ibn Malik
+The verbs "zanna" and its sisters take this many objects. :: Two || H: al-Ajurrumiyyah
+The two great early schools of grammar. :: Basrah and Kufah || H: al-Insaf (Ibn al-Anbari)
+
+## 400
+The leading Kufan grammarian, one of the seven readers, teacher of the sons of Harun al-Rashid. :: al-Kisa'i رحمة الله عليه || H: Tarikh Baghdad (al-Khatib)
+The famous debate in Baghdad between Sibawayh and al-Kisa'i is called this. :: al-Mas'alah al-Zunburiyyah || H: Mughni al-Labib (Ibn Hisham)
+The book by Ibn al-Anbari رحمة الله عليه on the disputes between Basrans and Kufans. :: al-Insaf fi Masa'il al-Khilaf || H: al-Insaf
+The great book of Ibn Hisham al-Ansari رحمة الله عليه on particles and sentences. :: Mughni al-Labib || H: Mughni al-Labib
+Ibn Hisham's shorter book with its own commentary, Sharh Qatr al-Nada. :: Qatr al-Nada || H: Qatr al-Nada
+Ibn Hisham's other short book with commentary, "Shudhur al-Dhahab". :: Shudhur al-Dhahab || H: Shudhur al-Dhahab
+Ibn Hisham's commentary on the Alfiyyah. :: Awdah al-Masalik || H: Awdah al-Masalik
+Ibn Malik رحمة الله عليه was born in this city of al-Andalus. :: Jayyan (Jaén) || H: Bughyat al-Wu'at (al-Suyuti)
+Ibn Malik رحمة الله عليه died in this year in Damascus. :: 672 AH / 1274 CE || H: Bughyat al-Wu'at (al-Suyuti)
+Ibn Ajurrum رحمة الله عليه lived in this city of Morocco. :: Fez || H: Bughyat al-Wu'at (al-Suyuti)
+The early book "al-Jumal" on grammar was written by this scholar. :: al-Zajjaji رحمة الله عليه || H: al-Jumal fil-Nahw
+Sibawayh رحمة الله عليه was of this origin, from near Shiraz. :: Persian || H: Tarikh Baghdad (al-Khatib)
+Sibawayh's main teacher. :: al-Khalil ibn Ahmad رحمة الله عليه || H: Tabaqat al-Nahwiyyin (al-Zubaydi)
+The word Sibawayh means this in Persian, by a common view. :: Scent of apples || H?: Wafayat al-A'yan (Ibn Khallikan); to be checked
+The great commentary on Ibn Malik's Alfiyyah by al-Ashmuni رحمة الله عليه. :: Manhaj al-Salik (Sharh al-Ashmuni) || H: Sharh al-Ashmuni
+The commentary on al-Ashmuni by al-Sabban رحمة الله عليه. :: Hashiyat al-Sabban || H: Hashiyat al-Sabban
+The book of al-Suyuti رحمة الله عليه on the biographies of grammarians. :: Bughyat al-Wu'at || H: Bughyat al-Wu'at
+The book of al-Suyuti on the principles of grammar. :: al-Iqtirah || H: al-Iqtirah (al-Suyuti)
+The grammar term for the hidden pronoun, as in "uktub" (you write). :: Damir mustatir || H: Qatr al-Nada (Ibn Hisham)
+The grammar term for the governing word that causes a case ending. :: 'Amil || H: Qatr al-Nada (Ibn Hisham)
+
+## 500
+The famous line "Kalamuna lafzun mufidun ka-istaqim" opens this poem. :: Alfiyyat Ibn Malik || H: Alfiyyat Ibn Malik
+Ibn Malik's larger poem on grammar, which his Alfiyyah summarises. :: al-Kafiyah al-Shafiyah || H: al-Kafiyah al-Shafiyah
+The Alfiyyah poem written before Ibn Malik's, which he mentions in his opening. :: Alfiyyat Ibn Mu'ti || H: Alfiyyat Ibn Malik, opening lines
+The book of Ibn al-Hajib رحمة الله عليه on grammar. :: al-Kafiyah || H: al-Kafiyah
+The famous Persian commentary on al-Kafiyah by Jami رحمة الله عليه, studied in madrasahs. :: al-Fawa'id al-Diya'iyyah (Sharh Jami) || H: al-Fawa'id al-Diya'iyyah
+The beginners' book on governing words by 'Abd al-Qahir al-Jurjani رحمة الله عليه. :: al-'Awamil al-Mi'ah || H: al-'Awamil al-Mi'ah
+The number of governing words in that book. :: 100 || H: al-'Awamil al-Mi'ah
+The commentary on al-Ajurrumiyyah by Khalid al-Azhari رحمة الله عليه. :: Sharh al-Azhariyyah || H?: Title to be checked
+The poem on al-Ajurrumiyyah by al-'Imriti رحمة الله عليه. :: Nazm al-Ajurrumiyyah (al-Durrah al-Bahiyyah) || H: Nazm al-'Imriti
+Ibn 'Aqil رحمة الله عليه was the chief judge of this land. :: Egypt || H: Bughyat al-Wu'at (al-Suyuti)
+Ibn Hisham al-Ansari رحمة الله عليه died in this year. :: 761 AH / 1360 CE || H: Bughyat al-Wu'at (al-Suyuti)
+The Kufan term for what Basrans call "damir al-fasl". :: 'Imad || H: al-Insaf (Ibn al-Anbari)
+The Kufan name for the genitive case (jarr). :: Khafd || H: al-Insaf (Ibn al-Anbari)
+The Basran view: the original of derivation is this. :: The masdar || H: al-Insaf (Ibn al-Anbari)
+The Kufan view: the original of derivation is this. :: The verb || H: al-Insaf (Ibn al-Anbari)
+Ibn Hisham said whoever studies "Mughni al-Labib" needs nothing else, describing it as a book on this. :: Particles and the rules of sentences || H: Mughni al-Labib, introduction
+The Kufan grammarian reported to have said he would die with something still in his heart about "hatta". :: al-Farra' || H?: Mughni al-Labib (Ibn Hisham); to be checked
+The verb "laysa" is called this, because it does not change form. :: Fi'l jamid || H: Qatr al-Nada (Ibn Hisham)
+In al-Mas'alah al-Zunburiyyah, Sibawayh held "fa-idha huwa hiya"; al-Kisa'i also allowed this. :: "Fa-idha huwa iyyaha" || H: Mughni al-Labib (Ibn Hisham)
+The Basran grammarian, student of al-Khalil, who wrote "Ma'ani al-Qur'an" and taught Sibawayh's book. :: al-Akhfash al-Awsat || H?: Bughyat al-Wu'at (al-Suyuti); to be checked

@@ -1,0 +1,114 @@
+id: isl-balagha
+name: Balagha (rhetoric)
+nameAr: البلاغة
+group: arabic
+
+## 100
+The science of eloquent Arabic, fitting speech to its situation. :: Balagha || H: Durus al-Balaghah
+The three branches of balagha. :: Ma'ani, bayan, badi' || H: Talkhis al-Miftah (al-Qazwini)
+A comparison of one thing with another, like "he is like a lion". :: Tashbih (simile) || H: Durus al-Balaghah
+A comparison with the "like" word and one side dropped, "a lion spoke". :: Isti'arah (metaphor) || H: Durus al-Balaghah
+Saying one thing but meaning something linked to it, like "long of sword-belt" for tall. :: Kinayah || H: Durus al-Balaghah
+Words that sound alike but differ in meaning. :: Jinas || H: Durus al-Balaghah
+Putting opposites together, like day and night. :: Tibaq || H: Durus al-Balaghah
+Rhyming endings in prose. :: Saj' || H: Durus al-Balaghah
+The four parts of a tashbih include the two things compared, the tool and this. :: The shared quality (wajh al-shabah) || H: Durus al-Balaghah
+The thing compared in a tashbih. :: Mushabbah || H: Durus al-Balaghah
+The thing it is compared to. :: Mushabbah bihi || H: Durus al-Balaghah
+"Like" (ka-) and "mithl" are examples of this. :: Adat al-tashbih || H: Durus al-Balaghah
+The branch of balagha about beautifying speech. :: 'Ilm al-badi' || H: Talkhis al-Miftah
+The branch about expressing one meaning in different clear ways. :: 'Ilm al-bayan || H: Talkhis al-Miftah
+The branch about fitting the sentence to the situation. :: 'Ilm al-ma'ani || H: Talkhis al-Miftah
+A sentence that can be true or false. :: Khabar || H: Durus al-Balaghah
+A sentence that cannot be true or false, like a command or question. :: Insha' || H: Durus al-Balaghah
+Speaking briefly with full meaning. :: Ijaz || H: Durus al-Balaghah
+Speaking at length for a purpose. :: Itnab || H: Durus al-Balaghah
+The modern school textbook of balagha by 'Ali al-Jarim and Mustafa Amin. :: al-Balaghah al-Wadihah || H: al-Balaghah al-Wadihah
+
+## 200
+A tashbih with both the tool and the shared quality dropped, the strongest kind. :: Tashbih baligh || H: Durus al-Balaghah
+A tashbih that compares a whole picture with a whole picture. :: Tashbih tamthili || H: Durus al-Balaghah
+A metaphor that names the thing compared to, dropping the thing compared. :: Isti'arah tasrihiyyah || H: Durus al-Balaghah
+A metaphor that drops the thing compared to, keeping one of its features. :: Isti'arah makniyyah || H: Durus al-Balaghah
+Using a word for something related, like "hand" for favour. :: Majaz mursal || H: Durus al-Balaghah
+Using a word in its first meaning. :: Haqiqah || H: Durus al-Balaghah
+Using a word outside its first meaning, with a link. :: Majaz || H: Durus al-Balaghah
+Putting a part for the whole, like "eye" for a spy. :: Juz'iyyah (part for whole) || H: Durus al-Balaghah
+Speaking of the place for its people, like "the village asked". :: Mahalliyyah || H: Durus al-Balaghah
+Words alike in letters, order and vowels, but different meanings. :: Jinas tamm || H: Durus al-Balaghah
+Words alike but not fully, differing in one feature. :: Jinas naqis || H: Durus al-Balaghah
+Putting two meanings side by side and then their opposites in order. :: Muqabalah || H: Durus al-Balaghah
+Giving a reason for something that is not its real reason, in a beautiful way. :: Husn al-ta'lil || H: Durus al-Balaghah
+Saying something with two meanings, a near and a far, and meaning the far one. :: Tawriyah || H: Durus al-Balaghah
+Praise that sounds like blame. :: Ta'kid al-madh bima yushbih al-dhamm || H: Durus al-Balaghah
+Putting a word first that usually comes later, to show focus. :: Taqdim || H: Talkhis al-Miftah
+Limiting, as in "innama" or "ma ... illa". :: Qasr (hasr) || H: Durus al-Balaghah
+Leaving words out because they are understood. :: Hadhf || H: Durus al-Balaghah
+Joining sentences with "wa". :: Wasl || H: Talkhis al-Miftah
+Leaving sentences unjoined. :: Fasl || H: Talkhis al-Miftah
+
+## 300
+The book of 'Abd al-Qahir al-Jurjani رحمة الله عليه on 'ilm al-bayan and imagery. :: Asrar al-Balaghah || H: Asrar al-Balaghah
+His book on 'ilm al-ma'ani and word order. :: Dala'il al-I'jaz || H: Dala'il al-I'jaz
+'Abd al-Qahir al-Jurjani's theory of meaning through word order. :: Nazm || H: Dala'il al-I'jaz
+'Abd al-Qahir al-Jurjani رحمة الله عليه died in this year. :: 471 AH / 1078 CE || H?: Bughyat al-Wu'at (al-Suyuti); 471 or 474 AH
+The book of al-Sakkaki whose third part set out balagha in its classic form. :: Miftah al-'Ulum || H?: Miftah al-'Ulum; check al-Sakkaki's creed before adding an honorific
+The summary of Miftah al-'Ulum by al-Khatib al-Qazwini رحمة الله عليه. :: Talkhis al-Miftah || H: Talkhis al-Miftah
+The long commentary of al-Taftazani رحمة الله عليه on al-Talkhis. :: al-Mutawwal || H: al-Mutawwal
+His shorter commentary on al-Talkhis. :: Mukhtasar al-Ma'ani || H: Mukhtasar al-Ma'ani
+The poem on balagha by al-Akhdari رحمة الله عليه. :: al-Jawhar al-Maknun || H: al-Jawhar al-Maknun
+The widely taught book of balagha by Hifni Nasif and others. :: Durus al-Balaghah || H: Durus al-Balaghah
+The early writer of al-Bayan wal-Tabyin. :: al-Jahiz || H: al-Bayan wal-Tabyin
+The caliph's son and poet who wrote Kitab al-Badi', one of the first books of badi'. :: Ibn al-Mu'tazz || H: Kitab al-Badi'
+The number of kinds of badi' Ibn al-Mu'tazz listed as the main ones. :: 5 || H: Kitab al-Badi'
+Asking a question not to learn but to show surprise or denial. :: Istifham inkari (rhetorical question) || H: Durus al-Balaghah
+A command that is not really a command, but a request from a lower to a higher. :: Du'a' (supplication) || H: Durus al-Balaghah
+A command from equal to equal. :: Iltimas || H: Durus al-Balaghah
+A command that means "do it if you can". :: Ta'jiz (showing inability) || H: Durus al-Balaghah
+A switch in the person spoken of, like from "He" to "You". :: Iltifat || H: Talkhis al-Miftah
+Surah al-Fatihah shows iltifat when it turns from "Him" to this. :: "You alone we worship" || H: Qur'an 1:5; Talkhis al-Miftah
+Repeating a word or idea to stress it. :: Takrar || H: Durus al-Balaghah
+
+## 400
+The figure in which the speaker ends with a line that fits its start. :: Radd al-'ajuz 'ala al-sadr || H: Durus al-Balaghah
+A line of verse containing a word that also points to a Qur'anic verse or hadith, used respectfully. :: Iqtibas || H: Durus al-Balaghah
+Borrowing a line of another poet into one's own poem. :: Tadmin || H: Durus al-Balaghah
+Starting a speech or poem with something that hints at its subject. :: Bara'at al-istihlal || H: Durus al-Balaghah
+Moving smoothly from the opening to the main subject. :: Husn al-takhallus || H: Durus al-Balaghah
+Ending in a way that feels complete. :: Husn al-khitam || H: Durus al-Balaghah
+A sentence that reads the same backwards, letter by letter. :: Ma la yastahil bil-in'ikas || H: Durus al-Balaghah
+Describing something beyond what is possible, as a figure of speech. :: Ghuluww (extreme mubalaghah) || H: Durus al-Balaghah
+The khabar told to a doubter needs this. :: One tool of emphasis || H: Talkhis al-Miftah
+The khabar told to one who denies needs this. :: More than one tool of emphasis || H: Talkhis al-Miftah
+The khabar told to one with no idea at all, needing no emphasis, is called this. :: Ibtida'i || H: Talkhis al-Miftah
+The kind of khabar for a doubter. :: Talabi || H: Talkhis al-Miftah
+The kind of khabar for a denier. :: Inkari || H: Talkhis al-Miftah
+"Musawah" means this kind of speech. :: Words equal to the meaning || H: Talkhis al-Miftah
+A metaphor carried on with features of the thing compared to. :: Isti'arah murashshahah || H: Talkhis al-Miftah
+A metaphor carried on with features of the thing compared. :: Isti'arah mujarradah || H: Talkhis al-Miftah
+A metaphor that compares a whole saying with a whole state, like a proverb. :: Isti'arah tamthiliyyah || H: Talkhis al-Miftah
+The scholar whose al-Idah expanded al-Talkhis. :: al-Khatib al-Qazwini رحمة الله عليه || H: al-Idah
+Al-Qazwini رحمة الله عليه was the chief judge of this city. :: Damascus (and later Cairo) || H: Bughyat al-Wu'at (al-Suyuti)
+The term for speech that fits its situation, the root of balagha. :: Muqtada al-hal || H: Talkhis al-Miftah
+
+## 500
+The book of al-Rummani on the i'jaz of the Qur'an, one of the early three treatises. :: al-Nukat fi I'jaz al-Qur'an || H?: Thalath Rasa'il fi I'jaz al-Qur'an; to be checked
+The Ash'ari Qadi who wrote I'jaz al-Qur'an. :: al-Baqillani رحمة الله عليه || H: I'jaz al-Qur'an (al-Baqillani)
+The poem by al-Suyuti رحمة الله عليه that puts al-Talkhis into verse. :: 'Uqud al-Juman || H: 'Uqud al-Juman (al-Suyuti)
+The book by al-'Askari on the two arts of poetry and prose. :: Kitab al-Sina'atayn || H: Kitab al-Sina'atayn
+The kind of jinas where one side is made of two words joined. :: Jinas murakkab || H: Durus al-Balaghah
+The kind of jinas where the words differ in the order of letters. :: Jinas al-qalb || H: Durus al-Balaghah
+The kind of jinas where the words differ in dots only. :: Jinas al-tashif || H: Durus al-Balaghah
+A tashbih where the comparison is hidden, not stated. :: Tashbih dimni || H: Durus al-Balaghah
+A tashbih that is reversed, making the weaker the model. :: Tashbih maqlub || H: Durus al-Balaghah
+The figure of listing items and then their matches in order. :: al-Laff wal-nashr || H: Durus al-Balaghah
+The figure of listing items and then their matches out of order. :: al-Laff wal-nashr ghayr al-murattab || H: Durus al-Balaghah
+The figure of gathering several things under one ruling. :: Jam' || H: Talkhis al-Miftah
+The figure of separating things that share a ruling. :: Tafriq || H: Talkhis al-Miftah
+A metaphor whose base word is a verb or particle, not a noun. :: Isti'arah taba'iyyah || H: Talkhis al-Miftah
+A metaphor whose base word is a noun. :: Isti'arah asliyyah || H: Talkhis al-Miftah
+The link that allows a majaz is called this. :: 'Alaqah || H: Talkhis al-Miftah
+The clue that shows a word is not meant literally. :: Qarinah || H: Talkhis al-Miftah
+A majaz of attribution, as in "the day fasted" (meaning the person fasted). :: Majaz 'aqli || H: Talkhis al-Miftah
+A kinayah for a quality, like "her earrings are far" for a long neck. :: Kinayah 'an sifah || H: Durus al-Balaghah
+Al-Akhdari رحمة الله عليه, author of al-Jawhar al-Maknun and al-Sullam, lived in this land. :: Algeria || H: Nayl al-Ibtihaj (al-Tinbukti)
