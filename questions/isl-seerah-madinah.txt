@@ -1,0 +1,115 @@
+id: isl-seerah-madinah
+name: Seerah: the Madinan years
+nameAr: السيرة: العهد المدني
+group: prophets
+# Dates: hijri first, then CE. The Prophet ﷺ and his Companions are never drawn or voiced.
+
+## 100
+The city the Prophet ﷺ migrated to, earlier called Yathrib. :: al-Madinah al-Munawwarah || H: Sirat Ibn Hisham
+The Muslims of Madinah who welcomed the emigrants. :: al-Ansar (the Helpers) || H: Qur'an 9:100
+The Muslims who migrated from Makkah. :: al-Muhajirun (the Emigrants) || H: Qur'an 9:100
+The first great battle of Islam, in 2 AH / 624 CE. :: The Battle of Badr || H: Qur'an 3:123
+The battle at the mountain near Madinah in 3 AH / 625 CE. :: The Battle of Uhud || H: Sirat Ibn Hisham
+The battle in which the Muslims dug a trench around Madinah. :: The Battle of the Trench (al-Khandaq) || H: Sahih al-Bukhari
+The Companion who suggested digging the trench. :: Salman al-Farisi (رضي الله عنه) || H: al-Tabaqat al-Kubra (Ibn Sa'd)
+The treaty with Quraysh in 6 AH / 628 CE. :: The Treaty of al-Hudaybiyah || H: Sahih al-Bukhari
+The opening of Makkah took place in this year. :: 8 AH / 630 CE || H: Sahih al-Bukhari
+The Prophet ﷺ made the Muhajirun and Ansar brothers; this is called this. :: al-Mu'akhah (brotherhood) || H: Sahih al-Bukhari
+The direction of prayer was changed to this. :: The Ka'bah || H: Qur'an 2:144
+Fasting in Ramadan was made obligatory in this year. :: 2 AH / 624 CE || H: Tarikh al-Tabari
+The farewell pilgrimage took place in this year. :: 10 AH / 632 CE || H: Sahih Muslim
+The Prophet ﷺ passed away in this year. :: 11 AH / 632 CE || H: Sahih al-Bukhari
+He passed away at this age. :: 63 || H: Sahih al-Bukhari
+He passed away in the room of this wife. :: 'A'ishah (رضي الله عنها) || H: Sahih al-Bukhari
+The first caliph after him. :: Abu Bakr al-Siddiq (رضي الله عنه) || H: Sahih al-Bukhari
+The uncle of the Prophet ﷺ martyred at Uhud. :: Hamzah (رضي الله عنه) || H: Sahih al-Bukhari
+The first Friday prayer of the Prophet ﷺ in Madinah was with this tribe, on the way from Quba'. :: Banu Salim ibn 'Awf || H: Sirat Ibn Hisham
+The first muezzin of Islam. :: Bilal ibn Rabah (رضي الله عنه) || H: Sunan Abi Dawud
+
+## 200
+The number of Muslims at Badr, roughly. :: About 313 || H: Sahih al-Bukhari
+The Quraysh leader and fiercest enemy of the Prophet ﷺ, killed at Badr. :: Abu Jahl || H: Sirat Ibn Hisham
+Badr took place in this month. :: Ramadan || H: Sahih Muslim
+Badr is called this in the Qur'an, "the day of the criterion". :: Yawm al-Furqan || H: Qur'an 8:41
+The archers at Uhud were told to stay on this hill. :: Jabal al-Rumah (the archers' hill) || H: Sahih al-Bukhari
+The Quraysh commander who attacked from behind at Uhud, later a great Companion. :: Khalid ibn al-Walid (رضي الله عنه) || H: Sahih al-Bukhari
+The Treaty of al-Hudaybiyah was meant to last this many years. :: 10 || H: Sirat Ibn Hisham
+The Pledge under the tree at al-Hudaybiyah. :: Bay'at al-Ridwan || H: Qur'an 48:18
+The Companion sent to Makkah as envoy before the pledge. :: 'Uthman ibn 'Affan (رضي الله عنه) || H: Sahih al-Bukhari
+The Quraysh envoy who wrote the treaty terms with the Prophet ﷺ. :: Suhayl ibn 'Amr (رضي الله عنه) || H: Sahih al-Bukhari
+The Jewish fortress town conquered in 7 AH / 628 CE. :: Khaybar || H: Sahih al-Bukhari
+The Companion given the banner at Khaybar. :: 'Ali ibn Abi Talib (رضي الله عنه) || H: Sahih al-Bukhari
+The battle in 8 AH / 629 CE where three commanders were martyred in turn. :: The Battle of Mu'tah || H: Sahih al-Bukhari
+The three commanders at Mu'tah. :: Zayd ibn Harithah, Ja'far ibn Abi Talib, 'Abdullah ibn Rawahah (رضي الله عنهم) || H: Sahih al-Bukhari
+The Companion called "Sayf Allah" (the Sword of Allah) after Mu'tah. :: Khalid ibn al-Walid (رضي الله عنه) || H: Sahih al-Bukhari
+The battle after the opening of Makkah, in the valley near Ta'if. :: The Battle of Hunayn || H: Qur'an 9:25
+The last expedition of the Prophet ﷺ, in 9 AH / 630 CE. :: Tabuk || H: Sahih al-Bukhari
+The year of delegations, when many tribes came to accept Islam. :: 9 AH / 630-631 CE || H: Sirat Ibn Hisham
+The place of the Farewell Sermon. :: 'Arafah || H: Sahih Muslim
+The Prophet ﷺ was buried here. :: In the room of 'A'ishah (رضي الله عنها) || H: Sahih al-Bukhari
+
+## 300
+The first mosque built in Madinah city by the Prophet ﷺ himself. :: al-Masjid al-Nabawi || H: Sahih al-Bukhari
+The covered area of the mosque where poor Companions lived. :: al-Suffah || H: Sahih al-Bukhari
+The agreement setting out the rights of Madinah's communities. :: The Constitution (Sahifah) of Madinah || H: Sirat Ibn Hisham
+The number of Quraysh killed at Badr. :: 70 || H: Sahih al-Bukhari
+The number of Muslims martyred at Uhud. :: About 70 || H: Sahih al-Bukhari
+The hypocrite leader who withdrew a third of the army before Uhud. :: 'Abdullah ibn Ubayy || H: Sirat Ibn Hisham
+The woman Companion who defended the Prophet ﷺ at Uhud with a sword. :: Nusaybah bint Ka'b (Umm 'Umarah) (رضي الله عنها) || H: Sirat Ibn Hisham
+The confederate army at the Trench numbered about this many. :: 10,000 || H: Sirat Ibn Hisham
+The Jewish tribe that broke its treaty during the Trench. :: Banu Qurayzah || H: Sahih al-Bukhari
+The Companion whose judgement was accepted on Banu Qurayzah. :: Sa'd ibn Mu'adh (رضي الله عنه) || H: Sahih al-Bukhari
+The first Jewish tribe expelled from Madinah, after Badr. :: Banu Qaynuqa' || H: Sirat Ibn Hisham
+The Jewish tribe expelled after it plotted to kill the Prophet ﷺ, in 4 AH / 625 CE. :: Banu al-Nadir || H: Qur'an 59:2; Sahih al-Bukhari
+The surah revealed about the expulsion of Banu al-Nadir. :: Surah al-Hashr || H: Sahih al-Bukhari
+The Muslim army at the opening of Makkah numbered about this many. :: 10,000 || H: Sahih al-Bukhari
+The Prophet ﷺ said whoever enters this man's house is safe, at the opening of Makkah. :: Abu Sufyan (رضي الله عنه) || H: Sahih Muslim
+The number of idols around the Ka'bah removed at the opening. :: 360 || H: Sahih al-Bukhari
+The verse recited as idols fell: "Truth has come and falsehood has vanished" (meaning). :: Qur'an 17:81 || H: Sahih al-Bukhari
+The Companion who gave the call to prayer on top of the Ka'bah. :: Bilal (رضي الله عنه) || H: Sirat Ibn Hisham
+The Companion who gave half his wealth for Tabuk, while Abu Bakr gave all. :: 'Umar ibn al-Khattab (رضي الله عنه) || H: Sunan Abi Dawud; Sunan al-Tirmidhi
+The Companion who equipped a large part of the army of Tabuk. :: 'Uthman ibn 'Affan (رضي الله عنه) || H: Sunan al-Tirmidhi
+
+## 400
+The three Companions who stayed behind from Tabuk and were forgiven in Surah al-Tawbah. :: Ka'b ibn Malik, Murarah ibn al-Rabi', Hilal ibn Umayyah (رضي الله عنهم) || H: Sahih al-Bukhari; Qur'an 9:118
+The Companion whose long narration tells the story of the three who stayed behind. :: Ka'b ibn Malik (رضي الله عنه) || H: Sahih al-Bukhari
+The number of days the three were boycotted. :: 50 || H: Sahih al-Bukhari
+The Quraysh trade caravan at Badr was led by this man. :: Abu Sufyan || H: Sahih al-Bukhari
+The shelter built for the Prophet ﷺ to command from at Badr. :: al-'Arish || H: Sirat Ibn Hisham
+The Companion who advised camping near the water at Badr. :: al-Hubab ibn al-Mundhir (رضي الله عنه) || H: Sirat Ibn Hisham
+The daughter of the Prophet ﷺ who died while the army was at Badr. :: Ruqayyah (رضي الله عنها) || H: Sahih al-Bukhari
+After Ruqayyah, 'Uthman (رضي الله عنه) married this daughter, and was called "Dhul-Nurayn". :: Umm Kulthum (رضي الله عنها) || H: Sirat Ibn Hisham
+The Companion who killed Hamzah (رضي الله عنه) at Uhud before he accepted Islam. :: Wahshi ibn Harb (رضي الله عنه) || H: Sahih al-Bukhari
+The Companion of Hudaybiyah who came in chains and was returned under the treaty. :: Abu Jandal (رضي الله عنه) || H: Sahih al-Bukhari
+The Companion who later formed a group on the coast, attacking Quraysh caravans, after Hudaybiyah. :: Abu Basir (رضي الله عنه) || H: Sahih al-Bukhari
+The Prophet ﷺ sent letters to rulers after Hudaybiyah; the Byzantine emperor was this. :: Heraclius (Hiraql) || H: Sahih al-Bukhari
+The Persian emperor who tore up the Prophet's letter. :: Khusraw (Kisra) || H: Sahih al-Bukhari
+The ruler of Egypt who sent gifts in reply. :: al-Muqawqis || H: Sirat Ibn Hisham
+The Companion who carried the letter to Heraclius. :: Dihyah al-Kalbi (رضي الله عنه) || H: Sahih al-Bukhari
+The Quraysh leader whom Heraclius questioned about the Prophet ﷺ. :: Abu Sufyan (رضي الله عنه) || H: Sahih al-Bukhari
+The Prophet's seal ring read this. :: Muhammad Rasul Allah || H: Sahih al-Bukhari
+The Muslims at Hunayn were at first pleased by this, then fled. :: Their large numbers || H: Qur'an 9:25
+The Companion who shouted to the Ansar at Hunayn to rally them. :: al-'Abbas ibn 'Abd al-Muttalib (رضي الله عنه) || H: Sahih Muslim
+The Companion appointed to lead the Hajj in 9 AH / 631 CE. :: Abu Bakr (رضي الله عنه) || H: Sahih al-Bukhari
+
+## 500
+The Companion sent after Abu Bakr in 9 AH to announce the opening of Surah Bara'ah. :: 'Ali ibn Abi Talib (رضي الله عنه) || H: Sunan al-Tirmidhi
+The Companion who taught the Qur'an in Yemen and was told "How will you judge?" (paraphrased). :: Mu'adh ibn Jabal (رضي الله عنه) || H: Sunan Abi Dawud
+The last army the Prophet ﷺ prepared, sent after his death by Abu Bakr. :: The army of Usamah ibn Zayd (رضي الله عنهما) || H: Sahih al-Bukhari
+Usamah (رضي الله عنه) was about this age when he led it. :: 18 || H?: Siyar A'lam al-Nubala' (al-Dhahabi); reports say 17 to 20
+The month in which the Prophet ﷺ passed away. :: Rabi' al-Awwal || H: Sahih al-Bukhari
+The day of the week he passed away. :: Monday || H: Sahih al-Bukhari
+The place where the Ansar met after his passing and chose Abu Bakr (رضي الله عنه). :: Saqifat Bani Sa'idah || H: Sahih al-Bukhari
+The Companion who said, "Whoever worshipped Muhammad, Muhammad has died..." (meaning) and recited 3:144. :: Abu Bakr (رضي الله عنه) || H: Sahih al-Bukhari
+The Muslims at Hudaybiyah numbered about this many. :: 1,400 || H: Sahih al-Bukhari
+The Treaty of al-Hudaybiyah was broken by Quraysh's allies attacking this tribe. :: Khuza'ah || H: Sirat Ibn Hisham
+The tribe of Quraysh's allies who attacked Khuza'ah. :: Banu Bakr || H: Sirat Ibn Hisham
+The Companion who wrote to warn Quraysh of the march on Makkah and was forgiven as a man of Badr. :: Hatib ibn Abi Balta'ah (رضي الله عنه) || H: Sahih al-Bukhari
+The surah revealed about Hatib's letter, opening "Do not take My enemy and your enemy as allies" (meaning). :: Surah al-Mumtahanah || H: Sahih al-Bukhari
+The Prophet ﷺ said to Quraysh at the opening of Makkah: "Go, you are free" (meaning); this freedom is called this. :: al-Tulaqa' (those set free) || H?: Sirat Ibn Hisham; wording to be checked
+The battle of the Trench is also called this in the Qur'an. :: al-Ahzab (the Confederates) || H: Qur'an 33:20
+The Companion who went out alone at night to spy on the Confederates. :: Hudhayfah ibn al-Yaman (رضي الله عنه) || H: Sahih Muslim
+The expedition in which the verse of tayammum came down, by one view. :: Banu al-Mustaliq (al-Muraysi') || H: Sahih al-Bukhari, Book of Tayammum (Fath al-Bari)
+The Companion of Badr who was the first to die in Madinah from the Muhajirun, by one view, and was kissed by the Prophet ﷺ. :: 'Uthman ibn Maz'un (رضي الله عنه) || H?: Sunan Abi Dawud; to be checked
+The Companion whose death made the Throne shake, as the Prophet ﷺ said (paraphrased). :: Sa'd ibn Mu'adh (رضي الله عنه) || H: Sahih al-Bukhari
+The Companion who led the Prophet's funeral bathing, with al-'Abbas and others. :: 'Ali ibn Abi Talib (رضي الله عنه) || H: Sunan Abi Dawud; Sirat Ibn Hisham

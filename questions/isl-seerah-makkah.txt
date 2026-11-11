@@ -1,0 +1,115 @@
+id: isl-seerah-makkah
+name: Seerah: the Makkan years
+nameAr: السيرة: العهد المكي
+group: prophets
+# Dates: hijri first (BH = before the Hijrah), then CE. The Prophet ﷺ and his Companions are never drawn or voiced.
+
+## 100
+The city where the Prophet ﷺ was born. :: Makkah || H: Sirat Ibn Hisham
+The year of his birth is known by this name. :: The Year of the Elephant || H: Sirat Ibn Hisham
+The month of his birth, by the most famous view. :: Rabi' al-Awwal || H: Sirat Ibn Hisham
+The father of the Prophet ﷺ, who died before he was born. :: 'Abdullah ibn 'Abd al-Muttalib || H: Sirat Ibn Hisham
+The mother of the Prophet ﷺ. :: Aminah bint Wahb || H: Sirat Ibn Hisham
+The wet-nurse of the Prophet ﷺ in the desert. :: Halimah al-Sa'diyyah (رضي الله عنها) || H: Sirat Ibn Hisham
+The grandfather who cared for him after his mother died. :: 'Abd al-Muttalib || H: Sirat Ibn Hisham
+The uncle who raised and protected him. :: Abu Talib || H: Sirat Ibn Hisham
+The title the people of Makkah gave him for his honesty. :: al-Amin (the Trustworthy) || H: Sirat Ibn Hisham
+His first wife, a noble merchant woman. :: Khadijah bint Khuwaylid (رضي الله عنها) || H: Sirat Ibn Hisham
+The age at which the first revelation came. :: 40 || H: Sahih al-Bukhari
+The first man (adult free man) to accept Islam. :: Abu Bakr al-Siddiq (رضي الله عنه) || H: Sirat Ibn Hisham
+The first child to accept Islam. :: 'Ali ibn Abi Talib (رضي الله عنه) || H: Sirat Ibn Hisham
+The first woman to accept Islam. :: Khadijah (رضي الله عنها) || H: Sirat Ibn Hisham
+The tribe of the Prophet ﷺ. :: Quraysh || H: Sirat Ibn Hisham
+His clan within Quraysh. :: Banu Hashim || H: Sirat Ibn Hisham
+The first muezzin, who was tortured for his faith in Makkah. :: Bilal ibn Rabah (رضي الله عنه) || H: Sirat Ibn Hisham
+The night journey from Makkah to Jerusalem. :: al-Isra' || H: Qur'an 17:1
+The ascent through the heavens. :: al-Mi'raj || H: Sahih al-Bukhari
+The migration to Madinah. :: The Hijrah || H: Sahih al-Bukhari
+
+## 200
+The Prophet ﷺ was born in this year, by the common estimate. :: 53 BH / 570 CE || H: Sirat Ibn Hisham; common estimate
+The Prophet ﷺ was this age when his mother died. :: 6 || H: Sirat Ibn Hisham
+The place where his mother died, on the way back from Madinah. :: al-Abwa' || H: Sirat Ibn Hisham
+He was this age when his grandfather 'Abd al-Muttalib died. :: 8 || H: Sirat Ibn Hisham
+He worked as a young man looking after these. :: Sheep || H: Sahih al-Bukhari
+He was this age when he married Khadijah (رضي الله عنها). :: 25 || H: Sirat Ibn Hisham
+The servant of Khadijah who travelled with him on her trade to al-Sham. :: Maysarah || H: Sirat Ibn Hisham
+The Christian scholar, cousin of Khadijah, who said the revelation was the same as came to Musa (paraphrased). :: Waraqah ibn Nawfal || H: Sahih al-Bukhari, Book of Revelation
+After a pause in revelation, the Prophet ﷺ said "Wrap me up" (meaning), and this surah came down. :: Surah al-Muddaththir || H: Sahih al-Bukhari; Qur'an 74:1
+For about this many years, the call to Islam was private. :: 3 || H: Sirat Ibn Hisham
+The hill from which he called Quraysh openly. :: al-Safa || H: Sahih al-Bukhari
+The house in Makkah where early Muslims met in secret. :: Dar al-Arqam || H: Sirat Ibn Hisham
+The first martyr in Islam, the mother of 'Ammar. :: Sumayyah (رضي الله عنها) || H: Sirat Ibn Hisham
+The country the first Muslims migrated to. :: Abyssinia (al-Habashah) || H: Sirat Ibn Hisham
+The just Christian king of Abyssinia who protected them. :: al-Najashi (Ashamah) || H: Sahih al-Bukhari; Sirat Ibn Hisham
+The Companion who spoke for the Muslims before al-Najashi. :: Ja'far ibn Abi Talib (رضي الله عنه) || H: Musnad Ahmad (report of Umm Salamah)
+The surah Ja'far (رضي الله عنه) recited to al-Najashi. :: Surah Maryam || H: Musnad Ahmad (report of Umm Salamah)
+The boycott of Banu Hashim lasted about this many years. :: 3 || H: Sirat Ibn Hisham
+The valley where Banu Hashim were besieged. :: Shi'b Abi Talib || H: Sirat Ibn Hisham
+The "Year of Sorrow" was when these two died. :: Khadijah (رضي الله عنها) and Abu Talib || H: Sirat Ibn Hisham
+
+## 300
+The town the Prophet ﷺ visited to call its people, where he was stoned. :: al-Ta'if || H: Sahih al-Bukhari; Sirat Ibn Hisham
+The Christian boy from Nineveh who offered him grapes at Ta'if. :: 'Addas || H: Sirat Ibn Hisham
+The animal he rode on the Isra'. :: al-Buraq || H: Sahih al-Bukhari
+On the Mi'raj, the prayers were reduced from fifty to this many. :: 5 || H: Sahih al-Bukhari
+The Prophet who advised him on the Mi'raj to ask for fewer prayers. :: Musa (عليه السلام) || H: Sahih al-Bukhari
+The Companion who believed the Isra' at once and got the title "al-Siddiq". :: Abu Bakr (رضي الله عنه) || H: al-Mustadrak (al-Hakim)
+The first pledge at 'Aqabah was made by this many people of Yathrib. :: 12 || H: Sirat Ibn Hisham
+The Companion sent to teach the people of Yathrib after the first pledge. :: Mus'ab ibn 'Umayr (رضي الله عنه) || H: Sirat Ibn Hisham
+The second pledge of 'Aqabah was made by about this many men and two women. :: 73 || H: Sirat Ibn Hisham
+The two tribes of Yathrib. :: al-Aws and al-Khazraj || H: Sirat Ibn Hisham
+The house where Quraysh met to plot against the Prophet ﷺ. :: Dar al-Nadwah || H: Sirat Ibn Hisham
+The Companion who slept in the Prophet's bed on the night of the Hijrah. :: 'Ali ibn Abi Talib (رضي الله عنه) || H: Sirat Ibn Hisham
+The cave where the Prophet ﷺ and Abu Bakr (رضي الله عنه) hid for three nights. :: The Cave of Thawr || H: Sahih al-Bukhari
+The verse "Do not grieve; Allah is with us" (meaning) is in this surah. :: Surah al-Tawbah (9:40) || H: Qur'an 9:40
+The daughter of Abu Bakr called "Dhat al-Nitaqayn". :: Asma' bint Abi Bakr (رضي الله عنها) || H: Sahih al-Bukhari
+The guide they hired for the Hijrah journey. :: 'Abdullah ibn Urayqit || H: Sahih al-Bukhari (named in Sirat Ibn Hisham)
+The rider who chased them and whose horse sank into the sand. :: Suraqah ibn Malik (رضي الله عنه) || H: Sahih al-Bukhari
+The woman whose dry goat gave milk when the Prophet ﷺ passed her tent. :: Umm Ma'bad (رضي الله عنها) || H?: al-Mustadrak (al-Hakim); to be checked
+The first mosque built in Islam. :: Masjid Quba' || H: Sahih al-Bukhari
+The Hijrah took place in this CE year. :: 622 CE (1 AH) || H: Sirat Ibn Hisham
+
+## 400
+The Companion who freed Bilal (رضي الله عنه) by buying him. :: Abu Bakr (رضي الله عنه) || H: Sahih al-Bukhari
+The master who tortured Bilal (رضي الله عنه) on the hot sand. :: Umayyah ibn Khalaf || H: Sirat Ibn Hisham
+The word Bilal (رضي الله عنه) repeated under torture. :: Ahad, ahad (One, One) || H: Sirat Ibn Hisham
+The Prophet ﷺ prayed that Islam be strengthened by one of two men: 'Umar ibn al-Khattab or this man. :: 'Amr ibn Hisham (Abu Jahl) || H: Sunan al-Tirmidhi
+'Umar (رضي الله عنه) accepted Islam after hearing this surah at his sister's house. :: Surah Taha || H: Sirat Ibn Hisham
+The uncle of the Prophet ﷺ who accepted Islam shortly before 'Umar and was called "Lion of Allah". :: Hamzah ibn 'Abd al-Muttalib (رضي الله عنه) || H: Sirat Ibn Hisham
+The Quraysh leader who said the Qur'an was magic after admitting its beauty, and about whom Surah al-Muddaththir speaks. :: al-Walid ibn al-Mughirah || H: Tafsir al-Tabari, Qur'an 74:11-25
+The Quraysh envoy sent to bring the Muslims back from Abyssinia, who later became a Companion. :: 'Amr ibn al-'As (رضي الله عنه) || H: Musnad Ahmad (report of Umm Salamah)
+The emigration to Abyssinia happened in this year of prophethood. :: The 5th year || H: Sirat Ibn Hisham
+The boycott document was eaten by this, except the name of Allah. :: Termites (al-ardah) || H: Sirat Ibn Hisham
+The man of Ta'if's journey who offered protection when the Prophet ﷺ returned to Makkah. :: al-Mut'im ibn 'Adi || H: Sahih al-Bukhari; Sirat Ibn Hisham
+The Prophet ﷺ was offered that the angel of the mountains crush the people of Ta'if; he hoped for this instead. :: That their descendants would worship Allah || H: Sahih al-Bukhari
+The Prophet ﷺ led the Prophets in prayer on the Isra' at this mosque. :: al-Masjid al-Aqsa || H: Sahih Muslim
+On the Mi'raj, he was offered milk and wine and chose this. :: Milk || H: Sahih al-Bukhari
+The first pledge of 'Aqabah is also called this, as it had no pledge to fight. :: Bay'at al-Nisa' || H: Sirat Ibn Hisham
+The Prophet ﷺ left Makkah on the Hijrah in this month. :: Safar (arrived in Rabi' al-Awwal) || H?: Sirat Ibn Hisham; reports differ
+The Prophet ﷺ arrived at Quba' on this day of the week, by the common view. :: Monday || H: Sahih al-Bukhari; Sirat Ibn Hisham
+The son of Abu Bakr who brought them news in the cave each night. :: 'Abdullah ibn Abi Bakr (رضي الله عنهما) || H: Sahih al-Bukhari
+The freedman of Abu Bakr who grazed sheep to hide their tracks. :: 'Amir ibn Fuhayrah (رضي الله عنه) || H: Sahih al-Bukhari
+The reward Quraysh offered for capturing the Prophet ﷺ and Abu Bakr. :: 100 camels for each || H: Sahih al-Bukhari
+
+## 500
+The scholar who wrote al-Sirah, the earliest major biography, later edited by Ibn Hisham. :: Ibn Ishaq رحمة الله عليه || H: Sirat Ibn Hisham, introduction
+Ibn Hisham رحمة الله عليه died in this year. :: 218 AH / 833 CE || H?: Wafayat al-A'yan (Ibn Khallikan); to be checked
+The Andalusian commentary on Ibn Hisham's Sirah by al-Suhayli رحمة الله عليه. :: al-Rawd al-Unuf || H: al-Rawd al-Unuf
+The book of Qadi 'Iyad رحمة الله عليه on the Prophet's rights and qualities. :: al-Shifa || H: al-Shifa
+The Seerah of al-Halabi رحمة الله عليه, widely read in Ottoman lands. :: al-Sirah al-Halabiyyah || H: al-Sirah al-Halabiyyah
+The book of al-Qastallani رحمة الله عليه on the Seerah and the Prophet's virtues. :: al-Mawahib al-Laduniyyah || H: al-Mawahib al-Laduniyyah
+The Christian monk of Busra who recognised signs of prophethood in the boy Muhammad ﷺ. :: Bahira || H: Sunan al-Tirmidhi; Sirat Ibn Hisham
+The pact of chivalry in Makkah to defend the wronged, which the Prophet ﷺ attended. :: Hilf al-Fudul || H: Sirat Ibn Hisham
+The Prophet ﷺ settled a dispute over placing this stone when the Ka'bah was rebuilt. :: al-Hajar al-Aswad (the Black Stone) || H: Sirat Ibn Hisham
+He settled it by putting the stone on this, so every clan could lift it. :: A cloak || H: Sirat Ibn Hisham
+The age of the Prophet ﷺ when Quraysh rebuilt the Ka'bah. :: 35 || H: Sirat Ibn Hisham
+The opening of the chest (shaqq al-sadr) first happened while he was with this nurse. :: Halimah al-Sa'diyyah (رضي الله عنها) || H: Sahih Muslim
+The first Muslim to recite the Qur'an aloud publicly in Makkah, according to Ibn Ishaq. :: 'Abdullah ibn Mas'ud (رضي الله عنه) || H: Sirat Ibn Hisham
+The tribe from al-Madinah whose six men met the Prophet ﷺ at 'Aqabah the year before the first pledge. :: al-Khazraj || H: Sirat Ibn Hisham
+The Ansari Companion who led the second pledge, among the twelve leaders (nuqaba'). :: al-Bara' ibn Ma'rur (رضي الله عنه) || H?: Sirat Ibn Hisham; to be checked
+The number of leaders (nuqaba') chosen at the second pledge. :: 12 || H: Sirat Ibn Hisham
+The Jewish rabbi of Madinah who accepted Islam soon after the Hijrah. :: 'Abdullah ibn Salam (رضي الله عنه) || H: Sahih al-Bukhari
+The Companion with whom the Prophet ﷺ first stayed in Madinah. :: Abu Ayyub al-Ansari (رضي الله عنه) || H: Sahih al-Bukhari; Sirat Ibn Hisham
+The Prophet's camel, which chose where he would stay. :: al-Qaswa' || H: Sirat Ibn Hisham
+The caliph who made the Hijrah the start of the Islamic calendar. :: 'Umar ibn al-Khattab (رضي الله عنه) || H: Tarikh al-Tabari
