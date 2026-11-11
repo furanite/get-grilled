@@ -24,6 +24,38 @@ The heavy (full-mouthed) way of pronouncing a letter. :: Tafkhim || H: al-Muqadd
 The light way of pronouncing a letter. :: Tarqiq || H: al-Muqaddimah al-Jazariyyah
 The natural lengthening of two counts. :: Madd tabi'i || H: Tuhfat al-Atfal
 The three letters of madd. :: Alif, waw and ya' || H: Tuhfat al-Atfal
+The vowel mark written above a letter for an "a" sound. :: Fathah || H: Standard term
+The vowel mark written below a letter for an "i" sound. :: Kasrah || H: Standard term
+The vowel mark for a "u" sound. :: Dammah || H: Standard term
+The doubled vowel at the end of a noun, sounding like "-an, -in, -un". :: Tanwin || H: Standard term
+A nun with no vowel is called this. :: Nun sakinah || H: Tuhfat al-Atfal
+A mim with no vowel is called this. :: Mim sakinah || H: Tuhfat al-Atfal
+The length of ghunnah in counts. :: 2 || H: Tuhfat al-Atfal
+The counting unit for madd, about the time to fold or open a finger. :: Harakah (count) || H: Standard teaching
+The Arabic alphabet has this many letters. :: 28 (29 with hamzah counted apart) || H: Standard teaching
+The letters pronounced from the throat are called this. :: Huruf halqiyyah || H: al-Muqaddimah al-Jazariyyah
+The letters pronounced from the lips are called this. :: Huruf shafawiyyah || H: al-Muqaddimah al-Jazariyyah
+The three lip letters. :: Fa', ba' and mim (and waw) || H: al-Muqaddimah al-Jazariyyah
+The mark in the Mushaf meaning "it is better to stop here". :: Qaf-lam (qili) || H: The Mushaf (Madinah print)
+The mark in the Mushaf meaning "it is better to continue". :: Sad-lam-ya (sila) || H: The Mushaf (Madinah print)
+The mark in the Mushaf meaning "do not stop here". :: Lam-alif (la) || H: The Mushaf (Madinah print)
+The mark "mim" in the Mushaf means stopping here is this. :: Necessary (lazim) || H: The Mushaf (Madinah print)
+The mark "jim" in the Mushaf means stopping here is this. :: Permitted (ja'iz) || H: The Mushaf (Madinah print)
+Three dots appearing twice mean you may stop at one of them, not both; this is called this. :: Ta'anuq al-waqf || H: The Mushaf (Madinah print)
+The small circle above a letter shows this. :: A letter not pronounced || H: The Mushaf (Madinah print)
+Reciting slowly and calmly is called this, the slowest pace. :: Tahqiq || H: Ibn al-Jazari, al-Nashr
+Reciting at a moderate pace is called this. :: Tadwir || H: Ibn al-Jazari, al-Nashr
+Reciting quickly while keeping the rules is called this. :: Hadr || H: Ibn al-Jazari, al-Nashr
+Reciting from memory to a teacher is called this. :: 'Ard || H: Standard term
+Listening to the teacher first, then repeating, is called this. :: Sama' (talqin) || H: Standard term
+The Prophet ﷺ said the one skilled in the Qur'an is with the noble righteous scribes (paraphrased). :: The angels || H: Sahih al-Bukhari
+Reading the Qur'an in a beautiful voice is called this. :: Tahsin al-sawt (tazyin) || H: Sunan Abi Dawud
+The Prophet ﷺ said: "Beautify the Qur'an with" this (paraphrased). :: Your voices || H: Sunan Abi Dawud
+Mistakes in recitation are called this. :: Lahn || H: Standard term
+A clear mistake that changes the vowel or meaning. :: Lahn jali || H: Standard teaching
+A hidden mistake against the finer rules of tajwid. :: Lahn khafi || H: Standard teaching
+Learning tajwid in practice is fard 'ayn on the reciter, says Ibn al-Jazari; learning its theory is this. :: Fard kifayah || D: Common teaching summary of al-Muqaddimah al-Jazariyyah
+The letter hamzah comes from this part of the throat. :: The deepest part (aqsa al-halq) || H: al-Muqaddimah al-Jazariyyah
 
 ## 200
 The four rules of nun sakinah and tanwin. :: Izhar, idgham, iqlab and ikhfa' || H: Tuhfat al-Atfal
@@ -46,6 +78,38 @@ The lam of "Allah" is read heavy after these two vowels. :: Fathah and dammah ||
 The lam of "Allah" is read light after this vowel. :: Kasrah || H: al-Muqaddimah al-Jazariyyah
 The lam of "al-" that is pronounced before "moon letters". :: Lam qamariyyah || H: Tuhfat al-Atfal
 The lam of "al-" that merges into "sun letters". :: Lam shamsiyyah || H: Tuhfat al-Atfal
+The six throat letters. :: Hamzah, ha', 'ayn, ha', ghayn, kha' || H: Tuhfat al-Atfal
+The two throat letters from the middle of the throat. :: 'Ayn and ha' || H: al-Muqaddimah al-Jazariyyah
+The two throat letters from the nearest part of the throat. :: Ghayn and kha' || H: al-Muqaddimah al-Jazariyyah
+The letters of qalqalah. :: Qaf, ta', ba', jim, dal || H: Tuhfat al-Atfal
+Qalqalah is strongest when the letter has shaddah at a stop; this is called this. :: Qalqalah akbar || H: Standard teaching
+Qalqalah in the middle of a word is called this. :: Qalqalah sughra || H: Standard teaching
+Qalqalah at the end when stopping is called this. :: Qalqalah kubra || H: Standard teaching
+The sun letters number this many. :: 14 || H: Tuhfat al-Atfal
+The moon letters number this many. :: 14 || H: Tuhfat al-Atfal
+The phrase that gathers the moon letters. :: Ibghi hajjaka wa khaf 'aqimah || H: Tuhfat al-Atfal
+"Al-shams" is an example of this kind of lam. :: Lam shamsiyyah || H: Tuhfat al-Atfal
+"Al-qamar" is an example of this kind of lam. :: Lam qamariyyah || H: Tuhfat al-Atfal
+The example of iqlab in "min ba'di". :: The nun becomes a hidden mim || H: Tuhfat al-Atfal
+"Man ya'mal" is an example of this rule. :: Idgham with ghunnah || H: Tuhfat al-Atfal
+"Min rabbihim" is an example of this rule. :: Idgham without ghunnah || H: Tuhfat al-Atfal
+"Min 'ilm" is an example of this rule. :: Izhar halqi || H: Tuhfat al-Atfal
+"Min qabl" is an example of this rule. :: Ikhfa' haqiqi || H: Tuhfat al-Atfal
+"Tarmihim bi-hijarah" is the classic example of this rule. :: Ikhfa' shafawi || H: Tuhfat al-Atfal
+"Lahum ma" is an example of this rule. :: Idgham shafawi (mithlayn saghir) || H: Tuhfat al-Atfal
+"Alam tara" is an example of this rule. :: Izhar shafawi || H: Tuhfat al-Atfal
+Izhar shafawi is strongest before these two letters, to avoid hiding. :: Waw and fa' || H: Tuhfat al-Atfal
+Mim mushaddadah and nun mushaddadah carry this. :: Ghunnah (2 counts) || H: Tuhfat al-Atfal
+The ra' is read heavy when it has fathah or this. :: Dammah || H: Standard teaching
+The ra' with sukun after a kasrah is read this way, as in "fir'awn". :: Light (tarqiq) || H: Standard teaching
+The ra' with sukun after kasrah but before a heavy letter is read heavy, as in this word. :: Qirtas (also mirsad) || H: Standard teaching
+The word "Allah" after "bismi" is read with this lam. :: Light (tarqiq), after kasrah || H: Standard teaching
+The madd tabi'i is also called this, the "original" madd. :: Madd asli || H: Tuhfat al-Atfal
+A madd that lengthens more than two counts because of a hamzah or sukun is called this. :: Madd far'i || H: Tuhfat al-Atfal
+The two causes of madd far'i. :: Hamzah and sukun || H: Tuhfat al-Atfal
+The madd 'iwad replaces tanwin fathah at a stop with this. :: An alif (2 counts) || H: Tuhfat al-Atfal
+Stopping on a word ending in ta' marbutah, it is read as this. :: Ha' (h sound) || H: Standard teaching
+Stopping on a word, its last vowel becomes this. :: Sukun || H: Standard teaching
 
 ## 300
 The lengthening when a madd letter is followed by hamzah in the same word. :: Madd muttasil (wajib) || H: Tuhfat al-Atfal
@@ -68,6 +132,38 @@ The phrase that gathers the letters of hams. :: Fahaththahu shakhsun sakat || H:
 The quality where the sound is held back strongly. :: Shiddah || H: al-Muqaddimah al-Jazariyyah
 The phrase that gathers the letters of shiddah. :: Ajid qatin bakat || H: al-Muqaddimah al-Jazariyyah
 The letter with the quality of istitalah (stretching along the tongue's side). :: Dad || H: al-Muqaddimah al-Jazariyyah
+Madd muttasil is lengthened in Hafs by way of al-Shatibiyyah by this many counts. :: 4 or 5 || H: al-Shatibi, Hirz al-Amani
+Madd munfasil in Hafs by way of al-Shatibiyyah. :: 4 or 5 (may be shortened via Tayyibah) || H: al-Shatibi, Hirz al-Amani; Ibn al-Jazari, Tayyibat al-Nashr
+Madd badal in Hafs is read with this many counts. :: 2 || H: al-Shatibi, Hirz al-Amani
+The madd lin ('arid) as in "khawf" when stopping. :: 2, 4 or 6 counts || H: Standard teaching
+The four kinds of madd lazim. :: Kalimi muthaqqal, kalimi mukhaffaf, harfi muthaqqal, harfi mukhaffaf || H: Tuhfat al-Atfal
+"Al-ana" in Surah Yunus (two places) is the example of this madd lazim. :: Kalimi mukhaffaf || H: Qur'an 10:51, 10:91
+"Al-taammah" in al-Nazi'at is an example of this madd lazim. :: Kalimi muthaqqal || H: Qur'an 79:34
+In "Alif Lam Mim", the "Mim" meeting the next mim with idgham is this kind. :: Harfi muthaqqal || H: Tuhfat al-Atfal
+The opening letter alif has this many counts. :: None (it is not lengthened) || H: Tuhfat al-Atfal
+The opening letters that take two counts are gathered in this phrase. :: Hayy tahur (ha', ya', ta', ha', ra') || H: Tuhfat al-Atfal
+The makhraj of qaf. :: Deepest part of the tongue with the soft palate || H: al-Muqaddimah al-Jazariyyah
+The makhraj of kaf. :: Just below qaf, a little forward || H: al-Muqaddimah al-Jazariyyah
+The makhraj of jim, shin and ya'. :: Middle of the tongue with the palate || H: al-Muqaddimah al-Jazariyyah
+The makhraj of dad. :: Side(s) of the tongue with the upper molars || H: al-Muqaddimah al-Jazariyyah
+The makhraj of lam. :: Edge of the tongue, front part, with the gums || H: al-Muqaddimah al-Jazariyyah
+The letters ta', dal and ta' (heavy) come from here. :: Tip of the tongue with the roots of the upper front teeth || H: al-Muqaddimah al-Jazariyyah
+The letters za', dhal and tha' come from here. :: Tip of the tongue with the edges of the upper front teeth || H: al-Muqaddimah al-Jazariyyah
+The letters sad, zay and sin come from here. :: Tip of the tongue near the lower front teeth || H: al-Muqaddimah al-Jazariyyah
+The makhraj of fa'. :: Inside of the lower lip with the edges of the upper front teeth || H: al-Muqaddimah al-Jazariyyah
+The ghunnah is strongest (most complete) in this case. :: Mushaddad (nun or mim with shaddah) || H: Standard teaching
+The quality of rakhawah (looseness) means the sound does this. :: Flows (runs on) || H: al-Muqaddimah al-Jazariyyah
+The opposite of hams (whispering). :: Jahr (audibility) || H: al-Muqaddimah al-Jazariyyah
+The opposite of itbaq. :: Infitah || H: al-Muqaddimah al-Jazariyyah
+The opposite of idhlaq. :: Ismat || H: al-Muqaddimah al-Jazariyyah
+The quality of deviation (inhiraf) is in these two letters. :: Lam and ra' || H: al-Muqaddimah al-Jazariyyah
+The quality of softness (lin) is in waw and ya' when they are this. :: Saakin after a fathah || H: al-Muqaddimah al-Jazariyyah
+Ibn al-Jazari's poem says "Whoever does not perfect the Qur'an is" this (paraphrased). :: Sinful (athim) || H: al-Muqaddimah al-Jazariyyah
+The heavy letters in order of strength begin with this kind. :: Letters of itbaq (sad, dad, ta', za') || H: Standard teaching
+The alif follows the letter before it in heaviness or lightness; this is called this. :: Tabi' (following) || H: Standard teaching
+The "silent" letters at the end, like alif in "ana", are kept when stopping but dropped when this. :: Joining (continuing) || H: Standard teaching
+The kind of stop where the reciter stops on a word against the rule to show its ruling. :: Waqf ikhtibari || H: Standard teaching
+A stop the reader picks freely, without need, at a fitting place. :: Waqf ikhtiyari || H: Standard teaching
 
 ## 400
 The quality of whistling found in sad, zay and sin. :: Safir || H: al-Muqaddimah al-Jazariyyah
@@ -90,6 +186,38 @@ Stopping on a word to test or teach a student. :: Waqf ikhtibari || H: Manar al-
 Stopping because breath runs out. :: Waqf idtirari || H: Manar al-Huda (al-Ashmuni)
 Restarting from a suitable point after a stop is called this. :: Ibtida' || H: Manar al-Huda (al-Ashmuni)
 The one word in Hafs read with imalah (tilting the alif toward ya'). :: Majraha (11:41) || H: al-Shatibiyyah
+The four saktat of Hafs: "'iwaja" (al-Kahf), "marqadina" (Yasin), "man raq" (al-Qiyamah) and this. :: "Bal ran" (al-Mutaffifin) || H: al-Shatibi, Hirz al-Amani
+"Man raq" is in this surah. :: Surah al-Qiyamah || H: Qur'an 75:27
+"Bal ran" is in this surah. :: Surah al-Mutaffifin || H: Qur'an 83:14
+"Marqadina" is in this surah. :: Surah Yasin || H: Qur'an 36:52
+In "nun wal-qalam" Hafs reads the nun with this rule, via al-Shatibiyyah. :: Izhar || H: al-Shatibi, Hirz al-Amani
+In "Ya Sin wal-Qur'an" Hafs reads the nun of "sin" with this rule. :: Izhar || H: al-Shatibi, Hirz al-Amani
+In "irkab ma'ana" (Hud), Hafs reads the ba' with this rule. :: Idgham into the mim || H: Qur'an 11:42; al-Shatibi
+In "yalhath dhalika" (al-A'raf), Hafs reads this rule. :: Idgham (tha' into dhal) || H: Qur'an 7:176; al-Shatibi
+In "ahattu" (al-Naml), the heavy ta' merges into the light ta' but keeps this quality. :: Its itbaq (covering) || H: Qur'an 27:22; Standard teaching
+In "alam nakhluqkum" (al-Mursalat), the qaf merges into kaf in this way, the preferred way. :: Complete (kamil) || H: Qur'an 77:20; al-Shatibi
+The word "da'f" in Surah al-Rum can be read by Hafs with fathah or this vowel. :: Dammah || H: Qur'an 30:54; al-Shatibi
+The word "al-musaytirun" (al-Tur) is read by Hafs with sin or this letter. :: Sad || H: Qur'an 52:37; al-Shatibi
+The word "yabsutu" (al-Baqarah) is written with sad but read by Hafs with this. :: Sin || H: Qur'an 2:245; al-Shatibi
+The word "bi-musaytir" (al-Ghashiyah) is read by Hafs with this letter. :: Sad || H: Qur'an 88:22; al-Shatibi
+The word "salasila" (al-Insan) may be stopped on by Hafs with an alif or this. :: Without alif (sukun on lam) || H: Qur'an 76:4; al-Shatibi
+The word "ana" (I) is read short when joining; its alif is read only when this. :: Stopping || H: Standard teaching
+The word "lakinna huwa" (al-Kahf) has the alif of "lakinna" read only when this. :: Stopping || H: Qur'an 18:38; Standard teaching
+The term for a hamzah that is pronounced only at the start of speech. :: Hamzat al-wasl || H: Standard teaching
+The term for a hamzah always pronounced. :: Hamzat al-qat' || H: Standard teaching
+Hamzat al-wasl in a verb is read with dammah when the third letter has this. :: A firm dammah || H: Standard teaching
+Hamzat al-wasl in "al-" is always read with this vowel when starting. :: Fathah || H: Standard teaching
+Hamzat al-wasl in nouns like "ibn" and "ism" is read with this vowel when starting. :: Kasrah || H: Standard teaching
+Two hamzahs where the second is hamzat al-wasl in "al-", as "a-al-dhakarayn", may be read with ibdal or this. :: Tashil || H: Qur'an 6:143; al-Shatibi
+The ruling of the nun in "ta'manna" in Surah Yusuf is ishmam or this (ikhtilas). :: Rawm || H: Qur'an 12:11; al-Shatibi
+Rawm means pronouncing part of a vowel at a stop, about this much. :: A third || H: Standard teaching
+Ishmam at a stop means rounding the lips after sukun without this. :: Sound || H: Standard teaching
+Rawm is allowed only on these two vowels. :: Dammah and kasrah || H: Standard teaching
+Ishmam at a stop is allowed only on this vowel. :: Dammah || H: Standard teaching
+The scholar who wrote the poem "al-Jazariyyah" also wrote this larger poem on the ten readings. :: Tayyibat al-Nashr || H: Standard reference
+Ibn al-Jazari رحمة الله عليه died in this city. :: Shiraz || H: Standard biography
+The book that explains al-Jazariyyah, by Zakariyya al-Ansari رحمة الله عليه. :: al-Daqa'iq al-Muhkamah || H: Standard reference
+The book by Ibn al-Jazari رحمة الله عليه on the ten readings that his poem summarises. :: al-Nashr fi al-Qira'at al-'Ashr || H: Standard reference
 
 ## 500
 The word in Surah Yusuf read with ishmam (lips rounded) in Hafs. :: Ta'manna (12:11) || H: al-Shatibiyyah
@@ -112,3 +240,37 @@ The ra' is read light when it has this vowel. :: Kasrah || H: al-Muqaddimah al-J
 The teacher of Hafs in recitation, from whom his reading comes. :: 'Asim ibn Abi al-Najud رحمة الله عليه || H: al-Nashr (Ibn al-Jazari)
 Hafs ibn Sulayman رحمة الله عليه died in this year. :: 180 AH / 796 CE || H?: al-Nashr (Ibn al-Jazari); date to be checked
 The name for the chain by which a reciter's reading reaches the Prophet ﷺ. :: Sanad || H: al-Nashr (Ibn al-Jazari)
+The early scholar whose poem al-Ra'iyyah is among the first works on tajwid, d. 325 AH / 937 CE. :: Abu Muzahim al-Khaqani رحمة الله عليه || H: Standard history of tajwid
+The scholar who wrote al-Ri'ayah on tajwid, d. 437 AH / 1045 CE. :: Makki ibn Abi Talib al-Qaysi رحمة الله عليه || H: Standard reference
+Abu 'Amr al-Dani رحمة الله عليه wrote this book on tajwid. :: al-Tahdid fi al-Itqan wa al-Tajwid || H: Standard reference
+Al-Shatibi رحمة الله عليه also wrote a poem on the 'Uthmani script called this. :: 'Aqilat Atrab al-Qasa'id || H: Standard reference
+The full chain of Hafs: Hafs from 'Asim, from Abu 'Abd al-Rahman al-Sulami, from this Companion among others. :: 'Ali, 'Uthman, Zayd, Ubayy and Ibn Mas'ud (رضي الله عنهم) || H: Ibn al-Jazari, al-Nashr
+'Asim's second teacher, from Ibn Mas'ud, through whom Shu'bah's reading comes. :: Zirr ibn Hubaysh رحمة الله عليه || H: Ibn al-Jazari, al-Nashr
+The reading of Hafs through the way of al-Shatibiyyah is called this "way". :: Tariq al-Shatibiyyah || H: Standard term
+The larger way of Hafs, with more options, comes through this poem. :: Tayyibat al-Nashr || H: Standard reference
+The lengthening of munfasil by two counts (qasr) is allowed for Hafs through this way. :: Tayyibat al-Nashr || H: Ibn al-Jazari, al-Nashr
+The longest madd allowed for madd muttasil in some ways of Hafs. :: 6 counts || H: Ibn al-Jazari, al-Nashr
+In Warsh's reading, madd badal is read with 2, 4 or this many counts. :: 6 || H: al-Shatibi, Hirz al-Amani
+In Warsh's reading, the ra' after a kasrah or ya' sakinah is often read this way. :: Light (tarqiq) || H: al-Shatibi, Hirz al-Amani
+In Warsh's reading, the lam is read heavy after these three letters. :: Sad, ta' and za' (heavy letters) || H: al-Shatibi, Hirz al-Amani
+Warsh softens or replaces the hamzah in many words; this is called this. :: Takhfif al-hamz (ibdal, tashil, naql) || H: al-Shatibi, Hirz al-Amani
+In Warsh, moving the hamzah's vowel to the sakin letter before it is called this. :: Naql || H: al-Shatibi, Hirz al-Amani
+Joining the plural mim with a waw, as in "'alayhimu", optional for Qalun, is called this. :: Silat mim al-jam' || H: al-Shatibi, Hirz al-Amani
+The number of the seven readers who read "maliki" in al-Fatihah without an alif. :: 5 || H: al-Shatibi, Hirz al-Amani
+'Asim and al-Kisa'i read this word in al-Fatihah with an alif. :: Maliki (Master) || H: al-Shatibi, Hirz al-Amani
+The reader of Kufah who reads "al-sirat" with a sound between sad and zay (ishmam). :: Hamzah || H: al-Shatibi, Hirz al-Amani
+Qunbul reads "al-sirat" with this letter. :: Sin || H: al-Shatibi, Hirz al-Amani
+The three readers added to the seven to make ten. :: Abu Ja'far, Ya'qub and Khalaf || H: Ibn al-Jazari, al-Nashr
+Ibn al-Jazari's poem on the three extra readings. :: al-Durrah al-Mudiyyah || H: Standard reference
+The reader of Madinah among the three extra ones. :: Abu Ja'far || H: Ibn al-Jazari, al-Nashr
+The reader of Basrah among the three extra ones. :: Ya'qub al-Hadrami || H: Ibn al-Jazari, al-Nashr
+Khalaf al-'Ashir was also a transmitter of this reader of the seven. :: Hamzah || H: Ibn al-Jazari, al-Nashr
+Ghunnah is a quality of nun and mim that has no this. :: Opposite || H: Standard teaching
+The number of qualities with opposites in al-Jazariyyah. :: 5 pairs (10) || H: al-Muqaddimah al-Jazariyyah
+The number of qualities without opposites in al-Jazariyyah. :: 7 || H: al-Muqaddimah al-Jazariyyah
+The letter that has the most "strong" qualities, said to be the strongest letter. :: Ta' (heavy) || D: Common teaching; some say dad
+The letter considered the weakest, as it has the fewest strong qualities. :: Ha' || D: Common teaching
+The Egyptian Mushaf of 1342 AH (1924 CE) whose stop marks many later prints follow. :: The King Fu'ad Mushaf || H?: Check the name of the scholar of the stop marks
+The famous reciter of Egypt known for the "mujawwad" style, d. 1409 AH / 1988 CE. :: 'Abd al-Basit 'Abd al-Samad رحمة الله عليه || H: Standard biography
+The Egyptian reciter known for the "murattal" recording of the whole Qur'an in several readings, d. 1401 AH / 1980 CE. :: Mahmud Khalil al-Husari رحمة الله عليه || H: Standard biography
+

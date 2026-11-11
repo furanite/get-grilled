@@ -142,7 +142,8 @@ This file is rewritten by `npm run packs`.
 
 ## Tajwid (questions/isl-tajwid.txt)
 
-- **500**, line 113: Hafs ibn Sulayman رحمة الله عليه died in this year. **Answer:** 180 AH / 796 CE _(Source: al-Nashr (Ibn al-Jazari); date to be checked)_
+- **500**, line 241: Hafs ibn Sulayman رحمة الله عليه died in this year. **Answer:** 180 AH / 796 CE _(Source: al-Nashr (Ibn al-Jazari); date to be checked)_
+- **500**, line 273: The Egyptian Mushaf of 1342 AH (1924 CE) whose stop marks many later prints follow. **Answer:** The King Fu'ad Mushaf _(Source: Check the name of the scholar of the stop marks)_
 
 ## Tasawwuf and Ihsan (questions/isl-tasawwuf.txt)
 
