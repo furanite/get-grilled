@@ -47,11 +47,11 @@ This file is rewritten by `npm run packs`.
 
 ## Fiqh: Kinship and family (questions/isl-kinship.txt)
 
-- **300**, line 120: The wife of Thabit ibn Qays (رِضْوَانُ اللَّهِ عَلَيْهِمَا) who asked for khul' and returned his garden. **Answer:** Jamilah (Habibah) bint Sahl or bint 'Abdullah _(Source: Sahih al-Bukhari; name differs in reports)_
-- **300**, line 121: Our Beloved Prophet ﷺ said the most hateful of lawful things to Allah is this (paraphrased). **Answer:** Divorce _(Source: Sunan Abi Dawud; grade differs among scholars)_
-- **500**, line 196: The Successor who would not eat with his mother lest his hand reach first for what she wanted (meaning). **Answer:** Our master 'Ali Zayn al-'Abidin ibn al-Husayn (رِضْوَانُ اللَّهِ عَلَيْهِ) _(Source: Siyar A'lam al-Nubala' (al-Dhahabi); to be checked)_
-- **500**, line 209: Our Beloved Prophet ﷺ said the best mahr is this (paraphrased). **Answer:** The easiest _(Source: Sunan Abi Dawud; wording to be checked)_
-- **500**, line 212: Later Hanafi scholars allowed fatwa on the missing husband by this school's view, for need. **Answer:** The Maliki school _(Source: Radd al-Muhtar (Ibn 'Abidin); to be checked)_
+- **300**, line 119: The wife of Thabit ibn Qays (رِضْوَانُ اللَّهِ عَلَيْهِمَا) who asked for khul' and returned his garden. **Answer:** Jamilah (Habibah) bint Sahl or bint 'Abdullah _(Source: Sahih al-Bukhari; name differs in reports)_
+- **300**, line 120: Our Beloved Prophet ﷺ said the most hateful of lawful things to Allah is this (paraphrased). **Answer:** Divorce _(Source: Sunan Abi Dawud; grade differs among scholars)_
+- **500**, line 195: The Successor who would not eat with his mother lest his hand reach first for what she wanted (meaning). **Answer:** Our master 'Ali Zayn al-'Abidin ibn al-Husayn (رِضْوَانُ اللَّهِ عَلَيْهِ) _(Source: Siyar A'lam al-Nubala' (al-Dhahabi); to be checked)_
+- **500**, line 208: Our Beloved Prophet ﷺ said the best mahr is this (paraphrased). **Answer:** The easiest _(Source: Sunan Abi Dawud; wording to be checked)_
+- **500**, line 211: Later Hanafi scholars allowed fatwa on the missing husband by this school's view, for need. **Answer:** The Maliki school _(Source: Radd al-Muhtar (Ibn 'Abidin); to be checked)_
 
 ## Fiqh: Money and trade (questions/isl-money.txt)
 
@@ -146,15 +146,15 @@ This file is rewritten by `npm run packs`.
 ## Fiqh: Work and earning (questions/isl-work.txt)
 
 - **100**, line 17: Our Beloved Master ﷺ said Allah loves that when one of you does a job, he does it with this (paraphrased). **Answer:** Excellence (itqan) _(Source: al-Mu'jam al-Awsat (al-Tabarani); grade to be checked)_
-- **200**, line 45: Our Beloved Master ﷺ said the best earning is a man's work with his hand and every this. **Answer:** Honest sale (bay' mabrur) _(Source: Musnad Ahmad; to be checked)_
-- **300**, line 63: The Companion who said "I hate to see a man idle, not in worldly work nor in work for the Hereafter" (meaning). **Answer:** 'Abdullah ibn Mas'ud (رِضْوَانُ اللَّهِ عَلَيْهِ) _(Source: Musannaf Ibn Abi Shaybah; to be checked)_
-- **300**, line 64: Our Beloved Prophet ﷺ said one who strives to support his family is like this (paraphrased). **Answer:** One striving in the way of Allah _(Source: al-Mu'jam al-Kabir (al-Tabarani); to be checked)_
-- **300**, line 84: The Hanafi author of Ahkam al-Qur'an, named after work with plaster. **Answer:** Abu Bakr al-Jassas رحمة الله عليه _(Source: Standard biography (al-Jawahir al-Mudiyyah); some biographers say al-Jassas leaned to Mu'tazili views, so check before using)_
-- **400**, line 97: Our master 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِ) appointed this woman to oversee the market of Madinah, by one report. **Answer:** al-Shifa' bint 'Abdullah (رِضْوَانُ اللَّهِ عَلَيْهَا) _(Source: al-Isti'ab (Ibn 'Abd al-Barr); report to be checked)_
-- **500**, line 116: Imam Ahmad رحمة الله عليه said of a man who sits in his house saying his provision will come: he is this. **Answer:** Ignorant of knowledge (he has not understood) _(Source: Reported in Hanbali works; to be checked)_
-- **500**, line 118: In the Hanafi school, a muzara'ah needs these conditions, including the share and the seed's owner known. **Answer:** 8 _(Source: al-Hidayah (al-Marghinani); count to be checked)_
-- **500**, line 122: The Companion who ran the first diwan with 'Umar, by some reports. **Answer:** 'Aqil ibn Abi Talib and others (genealogists) _(Source: Futuh al-Buldan (al-Baladhuri); to be checked)_
-- **500**, line 132: Our master 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِ) said "The sky does not rain gold or" this (meaning). **Answer:** Silver _(Source: Ihya' 'Ulum al-Din (report of 'Umar); to be checked)_
+- **200**, line 44: Our Beloved Master ﷺ said the best earning is a man's work with his hand and every this. **Answer:** Honest sale (bay' mabrur) _(Source: Musnad Ahmad; to be checked)_
+- **300**, line 62: The Companion who said "I hate to see a man idle, not in worldly work nor in work for the Hereafter" (meaning). **Answer:** 'Abdullah ibn Mas'ud (رِضْوَانُ اللَّهِ عَلَيْهِ) _(Source: Musannaf Ibn Abi Shaybah; to be checked)_
+- **300**, line 63: Our Beloved Prophet ﷺ said one who strives to support his family is like this (paraphrased). **Answer:** One striving in the way of Allah _(Source: al-Mu'jam al-Kabir (al-Tabarani); to be checked)_
+- **300**, line 83: The Hanafi author of Ahkam al-Qur'an, named after work with plaster. **Answer:** Abu Bakr al-Jassas رحمة الله عليه _(Source: Standard biography (al-Jawahir al-Mudiyyah); some biographers say al-Jassas leaned to Mu'tazili views, so check before using)_
+- **400**, line 96: Our master 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِ) appointed this woman to oversee the market of Madinah, by one report. **Answer:** al-Shifa' bint 'Abdullah (رِضْوَانُ اللَّهِ عَلَيْهَا) _(Source: al-Isti'ab (Ibn 'Abd al-Barr); report to be checked)_
+- **500**, line 115: Imam Ahmad رحمة الله عليه said of a man who sits in his house saying his provision will come: he is this. **Answer:** Ignorant of knowledge (he has not understood) _(Source: Reported in Hanbali works; to be checked)_
+- **500**, line 117: In the Hanafi school, a muzara'ah needs these conditions, including the share and the seed's owner known. **Answer:** 8 _(Source: al-Hidayah (al-Marghinani); count to be checked)_
+- **500**, line 121: The Companion who ran the first diwan with 'Umar, by some reports. **Answer:** 'Aqil ibn Abi Talib and others (genealogists) _(Source: Futuh al-Buldan (al-Baladhuri); to be checked)_
+- **500**, line 131: Our master 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِ) said "The sky does not rain gold or" this (meaning). **Answer:** Silver _(Source: Ihya' 'Ulum al-Din (report of 'Umar); to be checked)_
 
 ## Fiqh: Zakat (questions/isl-zakat.txt)
 
