@@ -99,3 +99,28 @@ describe('built-in question files', () => {
     })
   }
 })
+
+describe('scholar reviews', () => {
+  it('gives each question a stable id that changes when the text changes', async () => {
+    const { questionId } = await import('../scripts/build-packs.mjs')
+    expect(questionId('p', 'Q', 'A')).toMatch(/^[0-9a-f]{8}$/)
+    expect(questionId('p', 'Q', 'A')).toBe(questionId('p', 'Q', 'A'))
+    expect(questionId('p', 'Q', 'A')).not.toBe(questionId('p', 'Q', 'B'))
+  })
+  it('reads review files and lists flagged lines first', async () => {
+    const { loadReviews, reviewStatusMarkdown } = await import('../scripts/build-packs.mjs')
+    const { mkdtempSync, writeFileSync } = await import('node:fs')
+    const { tmpdir } = await import('node:os')
+    const { join } = await import('node:path')
+    const dir = mkdtempSync(join(tmpdir(), 'rev-'))
+    writeFileSync(join(dir, 'a.json'), JSON.stringify({ reviewer: 'Shaykh A', date: '2026-11-11', verdicts: { aaaaaaaa: { correct: 'issue', adab: 'ok', note: 'weak hadith' }, bbbbbbbb: { correct: 'ok', adab: 'ok' } } }))
+    const r = loadReviews(dir)
+    expect(r.get('aaaaaaaa')[0]).toMatchObject({ reviewer: 'Shaykh A', correct: 'issue', note: 'weak hadith' })
+    const md = reviewStatusMarkdown([
+      { pack: 'P', file: 'p.txt', level: '100', q: 'Q1', a: 'A1', id: 'aaaaaaaa', rs: r.get('aaaaaaaa') },
+      { pack: 'P', file: 'p.txt', level: '100', q: 'Q2', a: 'A2', id: 'bbbbbbbb', rs: r.get('bbbbbbbb') },
+    ])
+    expect(md).toContain('Flagged: 1. Approved: 1.')
+    expect(md.indexOf('weak hadith')).toBeLessThan(md.indexOf('## Approved'))
+  })
+})

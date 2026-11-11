@@ -4,6 +4,7 @@ import { hasConsent, loadCustom, loadGame, loadSettings, saveCustom, saveGame, s
 import { CONSENT_TEXT, LEGAL } from './lib/legal'
 import { ConsentDialog, Footer, LegalViewer } from './components/Legal'
 import { HostInfo, hostButtonLabel } from './components/HostInfo'
+import Review from './components/Review'
 import { DEFAULT_THEME, THEMES, themeOpen } from './lib/themes'
 import { loadIndex } from './lib/packs'
 import { reducedMotion, startBackground } from './lib/fx'
@@ -26,7 +27,8 @@ export default function App() {
   const [consented, setConsented] = useState(() => hasConsent(LEGAL.termsVersion))
   const [legalView, setLegalView] = useState<'terms' | 'privacy' | null>(null)
   const [hostInfo, setHostInfo] = useState(false)
-  const [screen, setScreen] = useState<Screen>('home')
+  // #review opens the Scholar review page directly (a link the owner can send to scholars).
+  const [screen, setScreen] = useState<Screen>(() => (location.hash === '#review' ? 'review' : 'home'))
   const [custom, setCustomState] = useState<Category[]>(loadCustom)
   const [index, setIndex] = useState<CategorySummary[] | null>(null)
   const [indexError, setIndexError] = useState('')
@@ -158,7 +160,7 @@ export default function App() {
           </header>
 
           {screen === 'home' && (
-            <Home t={t} lang={lang} theme={theme} setTheme={setTheme} hasGame={!!game} onNew={() => setScreen('setup')} onResume={() => setScreen('game')} onBuilder={() => setScreen('builder')} />
+            <Home t={t} lang={lang} theme={theme} setTheme={setTheme} hasGame={!!game} onNew={() => setScreen('setup')} onResume={() => setScreen('game')} onBuilder={() => setScreen('builder')} onReview={() => setScreen('review')} />
           )}
           {screen === 'setup' && (
             <Setup
@@ -199,6 +201,7 @@ export default function App() {
               }}
             />
           )}
+          {screen === 'review' && <Review lang={lang} notify={notify} onBack={() => setScreen('home')} />}
           {screen === 'builder' && <Builder t={t} lang={lang} index={index} custom={custom} setCustom={setCustom} notify={notify} onBack={() => setScreen('home')} />}
           <Footer lang={lang} onOpen={setLegalView} />
         </div>

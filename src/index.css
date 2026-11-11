@@ -493,3 +493,28 @@ textarea.input{resize:vertical;min-height:44px}
    starts with this face, which supplies only that one character from IBM Plex Sans Arabic. */
 @font-face{font-family:'GG Salawat';src:url('../node_modules/@fontsource/ibm-plex-sans-arabic/files/ibm-plex-sans-arabic-arabic-400-normal.woff2') format('woff2');font-weight:400;font-display:swap;unicode-range:U+FDFA}
 @font-face{font-family:'GG Salawat';src:url('../node_modules/@fontsource/ibm-plex-sans-arabic/files/ibm-plex-sans-arabic-arabic-700-normal.woff2') format('woff2');font-weight:700;font-display:swap;unicode-range:U+FDFA}
+/* Scholar review */
+.review{max-width:980px;margin:0 auto;width:100%}
+.review-title{margin:0;font-family:var(--fd);font-size:clamp(24px,4vw,34px);color:var(--accent)}
+.review .muted{color:var(--muted)}
+.review-field{display:grid;gap:4px;min-width:min(100%,260px);flex:1}
+.review-actions,.review-filters{flex-wrap:wrap;gap:10px;align-items:end}
+.review-list{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.review-item{border:1px solid color-mix(in oklab,var(--text) 14%,transparent);border-radius:14px;padding:14px 16px;background:color-mix(in oklab,var(--bg2) 55%,transparent)}
+.review-item.done{border-color:color-mix(in oklab,#5fbf86 60%,transparent)}
+.review-item.flag{border-color:#e0705a;box-shadow:inset 4px 0 0 #e0705a}
+.review-meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:12px}
+.review-meta .pill{padding:2px 8px;border-radius:999px;border:1px solid color-mix(in oklab,var(--text) 18%,transparent)}
+.review-meta .qid{margin-inline-start:auto;color:var(--muted);font-family:'JetBrains Mono',monospace}
+.review-held{margin:8px 0 0;color:#f2b46b;font-size:13px}
+.review-q{margin:8px 0 4px;font-size:17px;line-height:1.5}
+.review-a,.review-src{margin:2px 0;font-size:14px}
+.review-src{color:var(--muted)}
+.review-past{margin-top:6px;font-size:13px;color:var(--muted)}
+.review-checks{display:flex;flex-wrap:wrap;gap:16px;margin-top:10px}
+.review-checks [role="group"]{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.review-checks .label{min-width:84px}
+.review-checks button{padding:6px 12px;font-size:14px}
+.review-checks .btn.warn{background:#e0705a;border-color:#e0705a;color:#1a0a06}
+.review-notes{display:grid;gap:6px;margin-top:10px}
+.review-notes textarea{resize:vertical}

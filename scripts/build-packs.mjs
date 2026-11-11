@@ -21,6 +21,8 @@ import { fileURLToPath } from 'node:url'
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 const srcDir = join(root, 'questions')
 const outDir = join(root, 'public', 'packs')
+const reviewOut = join(root, 'public', 'review')
+const reviewsDir = join(root, 'reviews')
 const LEVELS = ['100', '200', '300', '400', '500']
 export const GROUPS = ['engineering', 'cces', 'general', 'quran', 'hadith', 'aqidah', 'fiqh', 'prophets', 'arabic', 'tazkiyah', 'islamichistory', 'kids']
 // Religious groups: every line needs a source tag, and the app plays these clues without spins or shakes.
@@ -119,9 +121,48 @@ export function mergeArabic(levels, text, file = 'ar') {
   return { levels: out, errors }
 }
 
+/** A short stable id for a question: changes whenever the clue or answer changes, so edited lines need a fresh review. */
+export function questionId(packId, q, a) {
+  let h = 0x811c9dc5
+  for (const ch of `${packId}|${q}|${a}`) {
+    h ^= ch.codePointAt(0)
+    h = Math.imul(h, 0x01000193) >>> 0
+  }
+  return h.toString(16).padStart(8, '0')
+}
+
+/**
+ * Scholar reviews: each file in reviews/ is a JSON export from the app's Scholar review page:
+ * { reviewer, date, verdicts: { [questionId]: { correct: 'ok'|'issue', adab: 'ok'|'issue', note?, fix? } } }.
+ * Returns, per question id, the list of reviews.
+ */
+export function loadReviews(dir = reviewsDir) {
+  const byId = new Map()
+  if (!existsSync(dir)) return byId
+  for (const f of readdirSync(dir).filter((x) => x.endsWith('.json')).sort()) {
+    let data
+    try { data = JSON.parse(readFileSync(join(dir, f), 'utf8')) } catch { console.error(`reviews/${f}: not valid JSON, skipped`); continue }
+    const reviewer = String(data.reviewer ?? f).slice(0, 80)
+    for (const [id, v] of Object.entries(data.verdicts ?? {})) {
+      if (!v || typeof v !== 'object') continue
+      const r = { reviewer, date: String(data.date ?? ''), correct: v.correct === 'issue' ? 'issue' : v.correct === 'ok' ? 'ok' : undefined, adab: v.adab === 'issue' ? 'issue' : v.adab === 'ok' ? 'ok' : undefined, note: v.note ? String(v.note).slice(0, 1000) : undefined, fix: v.fix ? String(v.fix).slice(0, 400) : undefined }
+      if (!byId.has(id)) byId.set(id, [])
+      byId.get(id).push(r)
+    }
+  }
+  return byId
+}
+
+const flagged = (rs) => (rs ?? []).some((r) => r.correct === 'issue' || r.adab === 'issue')
+
 function main() {
   rmSync(outDir, { recursive: true, force: true })
   mkdirSync(outDir, { recursive: true })
+  rmSync(reviewOut, { recursive: true, force: true })
+  mkdirSync(reviewOut, { recursive: true })
+  const reviews = loadReviews()
+  const reviewIndex = []
+  const status = []
   const files = readdirSync(srcDir).filter((f) => f.endsWith('.txt')).sort()
   const index = []
   const review = []
@@ -141,6 +182,22 @@ function main() {
       arCount = levels.reduce((s, l) => s + l.length, 0)
     }
     const respect = RESPECT_GROUPS.includes(meta.group) || undefined
+    if (respect) {
+      // The scholar review list holds every line, including ones held back, with what reviewers said so far.
+      const items = []
+      const add = (level, x, held) => {
+        const id = questionId(meta.id, x.q, x.a)
+        const rs = reviews.get(id) ?? []
+        items.push({ id, level, q: x.q, a: x.a, kind: x.kind, src: x.src, ...(held ? { held } : {}), ...(rs.length ? { reviews: rs } : {}) })
+        if (rs.length) status.push({ pack: meta.name, file: f, level, q: x.q, a: x.a, id, rs })
+      }
+      levels.forEach((lvl, li) => lvl.forEach((x) => add(LEVELS[li], x, flagged(reviews.get(questionId(meta.id, x.q, x.a))) ? 'flagged' : undefined)))
+      unchecked.forEach((x) => add(x.level, x, 'unchecked'))
+      writeFileSync(join(reviewOut, `${meta.id}.json`), JSON.stringify({ id: meta.id, name: meta.name, group: meta.group, items }))
+      reviewIndex.push({ id: meta.id, name: meta.name, group: meta.group, total: items.length })
+      // A line a scholar flagged for correctness or adab stays out of the game until the owner fixes or clears it.
+      levels = levels.map((lvl) => lvl.filter((x) => !flagged(reviews.get(questionId(meta.id, x.q, x.a)))))
+    }
     // PACK_EDITION=islamic builds a site with only the Islamic and Kids collections (used by the Ilm Munfasah site).
     if (process.env.PACK_EDITION === 'islamic' && !respect) continue
     const pack = { id: meta.id, name: meta.name, nameAr: meta.nameAr, group: meta.group, respect, levels }
@@ -156,9 +213,27 @@ function main() {
     process.exit(1)
   }
   writeFileSync(join(outDir, 'index.json'), JSON.stringify(index))
+  writeFileSync(join(reviewOut, 'index.json'), JSON.stringify(reviewIndex))
+  writeFileSync(join(srcDir, 'REVIEW-STATUS.md'), reviewStatusMarkdown(status))
   writeFileSync(join(srcDir, 'TO-VERIFY.md'), reviewMarkdown(review))
   const n = review.reduce((s, r) => s + r.items.length, 0)
   if (n) console.log(`\n${n} question(s) marked "?" are held back from the game; see questions/TO-VERIFY.md`)
+}
+
+// What the scholars said, for the owner: flagged lines first, then approvals.
+export function reviewStatusMarkdown(status) {
+  const lines = ['# Scholar review status', '', 'Built from the files in `reviews/` (exports from the Scholar review page). This file is rewritten by `npm run packs`.', 'A line flagged for correctness or adab by any reviewer is held out of the game until it is fixed (which gives it a new id) or the review file is updated.', '']
+  const bad = status.filter((x) => flagged(x.rs))
+  const good = status.filter((x) => !flagged(x.rs))
+  lines.push(`Reviewed lines: ${status.length}. Flagged: ${bad.length}. Approved: ${good.length}.`, '')
+  if (bad.length) lines.push('## Flagged', '')
+  for (const x of bad) {
+    lines.push(`- **${x.pack}** (questions/${x.file}), ${x.level}, id ${x.id}: ${x.q} **Answer:** ${x.a}`)
+    for (const r of x.rs) lines.push(`  - ${r.reviewer}${r.date ? ` (${r.date.slice(0, 10)})` : ''}: correctness ${r.correct ?? 'not checked'}, adab ${r.adab ?? 'not checked'}${r.note ? `. Note: ${r.note}` : ''}${r.fix ? `. Suggested: ${r.fix}` : ''}`)
+  }
+  if (good.length) lines.push('', '## Approved', '')
+  for (const x of good) lines.push(`- **${x.pack}**, ${x.level}: ${x.q} (${x.rs.map((r) => r.reviewer).join(', ')})`)
+  return lines.join('\n') + '\n'
 }
 
 // The list of held-back questions, for the owner to check.

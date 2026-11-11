@@ -70,4 +70,4 @@ export type IslamicOnlyTheme = 'rawdah' | 'jumuah' | 'mawlid' | PrayerTheme | Cu
 export type BaseThemeId = Exclude<ThemeId, IslamicOnlyTheme>
 export type ThemeId = 'amethyst' | 'emerald' | 'neon' | 'onyx' | 'rivals' | 'ember' | 'heritage' | IslamicOnlyTheme
 export type Lang = 'en' | 'ar'
-export type Screen = 'home' | 'setup' | 'game' | 'results' | 'builder'
+export type Screen = 'home' | 'setup' | 'game' | 'results' | 'builder' | 'review'

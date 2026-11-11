@@ -15,9 +15,10 @@ interface Props {
   onNew: () => void
   onResume: () => void
   onBuilder: () => void
+  onReview: () => void
 }
 
-export default function Home({ t, lang, theme, setTheme, hasGame, onNew, onResume, onBuilder }: Props) {
+export default function Home({ t, lang, theme, setTheme, hasGame, onNew, onResume, onBuilder, onReview }: Props) {
   // The Islamic site shows its Arabic name on the back of the logo instead of the Get Grilled tagline.
   const tagline = HAS_AR_NAME ? APP_NAME_AR : t.tagline
   const [flipped, setFlipped] = useState(false)
@@ -69,6 +70,11 @@ export default function Home({ t, lang, theme, setTheme, hasGame, onNew, onResum
           <button className="btn alt big" onClick={onBuilder}>
             {t.builder}
           </button>
+          {ISLAMIC_SET && (
+            <button className="btn alt big" onClick={onReview} data-testid="open-review">
+              {t.review}
+            </button>
+          )}
         </div>
       </section>
 
