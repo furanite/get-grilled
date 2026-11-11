@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react'
+import Source from './Source'
 import type { Game, Lang } from '../lib/types'
 import { VALUES } from '../lib/types'
 import type { Strings } from '../lib/i18n'
@@ -189,8 +190,8 @@ function ClueCard({ t, lang, game, open, onJudge, onClose, onReveal }: CardProps
       setPhase('open')
       Object.assign(card.style, { left: (innerWidth - W) / 2 + 'px', top: (innerHeight - H) / 2 + 'px', width: W + 'px', height: H + 'px' })
     })
-    if (clue.golden) setTimeout(() => burst(innerWidth / 2, innerHeight / 2, 46, 260), 500)
-  }, [open.el, clue.golden])
+    if (clue.golden && !cat.respect) setTimeout(() => burst(innerWidth / 2, innerHeight / 2, 46, 260), 500)
+  }, [open.el, clue.golden, cat.respect])
 
   // Timer bar
   useEffect(() => {
@@ -227,8 +228,8 @@ function ClueCard({ t, lang, game, open, onJudge, onClose, onReveal }: CardProps
     if (revealed) return
     setRevealed(true)
     stopTimer()
-    setTimeout(() => burstAt(document.getElementById('answer'), 14, 110), 350)
-  }, [revealed])
+    if (!cat.respect) setTimeout(() => burstAt(document.getElementById('answer'), 14, 110), 350)
+  }, [revealed, cat.respect])
 
   const close = useCallback(
     (used: boolean) => {
@@ -275,7 +276,7 @@ function ClueCard({ t, lang, game, open, onJudge, onClose, onReveal }: CardProps
   return (
     <>
       <div className={`scrim${phase === 'open' ? ' on' : ''}`} onClick={() => close(false)} />
-      <div ref={ref} className={`card${phase === 'open' ? ' open' : ''}${phase === 'closing' ? ' closing' : ''}${clue.golden && phase === 'open' ? ' golden' : ''}`} role="dialog" aria-modal="true" aria-label={cat.name} data-testid="clue">
+      <div ref={ref} className={`card${phase === 'open' ? ' open' : ''}${phase === 'closing' ? ' closing' : ''}${clue.golden && phase === 'open' ? ' golden' : ''}${cat.respect ? ' calm' : ''}`} role="dialog" aria-modal="true" aria-label={cat.name} data-testid="clue">
         <div className="card-in">
           <div className="meta">
             <span>{lang === 'ar' && cat.nameAr ? cat.nameAr : cat.name}</span>
@@ -287,6 +288,7 @@ function ClueCard({ t, lang, game, open, onJudge, onClose, onReveal }: CardProps
           <p className="q" data-testid="question" dir="auto">{q}</p>
           <div className={`answer${revealed ? ' show' : HOST_EDITION ? ' peek' : ''}`} dir="auto" id="answer" aria-hidden={!revealed && !HOST_EDITION} data-peek={t.hostOnly} data-testid="answer">
             {a}
+            <Source t={t} q={clue} />
           </div>
           {timerSecs > 0 && (
             <div className={`timer${low ? ' low' : ''}`}>

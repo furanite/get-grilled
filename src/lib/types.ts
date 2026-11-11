@@ -8,6 +8,9 @@ export interface Question {
   a: string
   qAr?: string
   aAr?: string
+  /** Source tag: H = historical or sourced fact, D = dramatised, F = fictional. */
+  kind?: 'H' | 'D' | 'F'
+  src?: string
 }
 
 /** A category holds five pools of questions, one per difficulty (100 to 500). */
@@ -16,10 +19,15 @@ export interface Category {
   name: string
   nameAr?: string
   builtIn: boolean
+  /** Religious content: shown without spins or shakes, with its source after the answer. */
+  respect?: boolean
   levels: Question[][]
 }
 
-export type PackGroup = 'engineering' | 'cces' | 'general'
+export type PackGroup =
+  | 'engineering' | 'cces' | 'general'
+  | 'quran' | 'hadith' | 'aqidah' | 'fiqh' | 'prophets' | 'arabic' | 'tazkiyah' | 'islamichistory'
+  | 'kids'
 
 export interface CategorySummary {
   id: string
@@ -46,7 +54,7 @@ export interface GameSettings {
 }
 
 export interface Game {
-  cats: { id: string; name: string; nameAr?: string }[]
+  cats: { id: string; name: string; nameAr?: string; respect?: boolean }[]
   /** clues[category][level] */
   clues: Clue[][]
   teams: Team[]

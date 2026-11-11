@@ -1,0 +1,114 @@
+id: isl-tajwid
+name: Tajwid
+nameAr: التجويد
+group: quran
+
+## 100
+The science of reciting the Qur'an correctly, giving each letter its due. :: Tajwid || H: al-Muqaddimah al-Jazariyyah
+The word "tajwid" comes from a root meaning this. :: To make good or excellent || H: Lisan al-'Arab
+Seeking refuge with Allah from Shaytan before reciting is called this. :: Isti'adhah (Ta'awwudh) || H: Qur'an 16:98
+Saying "Bismillah al-Rahman al-Rahim" is called this. :: Basmalah || H: Standard term
+A pause or stop while reciting is called this. :: Waqf || H: Tuhfat al-Atfal; al-Jazariyyah
+Lengthening a vowel sound is called this. :: Madd || H: Tuhfat al-Atfal
+The nasal sound made through the nose is called this. :: Ghunnah || H: Tuhfat al-Atfal
+A bouncing echo on certain letters when they carry sukun. :: Qalqalah || H: al-Muqaddimah al-Jazariyyah
+The number of qalqalah letters. :: 5 || H: al-Muqaddimah al-Jazariyyah
+The phrase that gathers the qalqalah letters. :: Qutb jad || H: al-Muqaddimah al-Jazariyyah
+The vowel mark that means a letter has no vowel. :: Sukun || H: Standard term
+The mark that doubles a letter. :: Shaddah || H: Standard term
+The two letters that always carry ghunnah when they have shaddah. :: Nun and Mim || H: Tuhfat al-Atfal
+The place in the mouth or throat where a letter's sound comes from. :: Makhraj || H: al-Muqaddimah al-Jazariyyah
+A teacher who passes on recitation with a connected chain gives this certificate. :: Ijazah || H: Standard practice of the reciters
+The verse of Surah al-Muzzammil that commands measured recitation. :: Qur'an 73:4 || H: Qur'an 73:4
+The heavy (full-mouthed) way of pronouncing a letter. :: Tafkhim || H: al-Muqaddimah al-Jazariyyah
+The light way of pronouncing a letter. :: Tarqiq || H: al-Muqaddimah al-Jazariyyah
+The natural lengthening of two counts. :: Madd tabi'i || H: Tuhfat al-Atfal
+The three letters of madd. :: Alif, waw and ya' || H: Tuhfat al-Atfal
+
+## 200
+The four rules of nun sakinah and tanwin. :: Izhar, idgham, iqlab and ikhfa' || H: Tuhfat al-Atfal
+The rule of pronouncing nun sakinah clearly, before the throat letters. :: Izhar halqi || H: Tuhfat al-Atfal
+The number of throat letters for izhar. :: 6 || H: Tuhfat al-Atfal
+The rule that turns nun sakinah into a mim sound before ba'. :: Iqlab || H: Tuhfat al-Atfal
+The one letter that causes iqlab. :: Ba' || H: Tuhfat al-Atfal
+The rule that merges nun sakinah into the next letter. :: Idgham || H: Tuhfat al-Atfal
+The word that gathers the six letters of idgham. :: Yarmalun || H: Tuhfat al-Atfal
+The idgham letters that keep a ghunnah. :: Ya', nun, mim, waw (yanmu) || H: Tuhfat al-Atfal
+The two idgham letters that merge with no ghunnah. :: Lam and ra' || H: Tuhfat al-Atfal
+The rule of hiding nun sakinah with ghunnah before 15 letters. :: Ikhfa' haqiqi || H: Tuhfat al-Atfal
+The number of letters of ikhfa' haqiqi. :: 15 || H: Tuhfat al-Atfal
+The rule of mim sakinah before ba'. :: Ikhfa' shafawi || H: Tuhfat al-Atfal
+The rule of mim sakinah before another mim. :: Idgham shafawi (mithlayn) || H: Tuhfat al-Atfal
+The rule of mim sakinah before all other letters. :: Izhar shafawi || H: Tuhfat al-Atfal
+The well-known poem on tajwid for beginners by al-Jamzuri رحمة الله عليه. :: Tuhfat al-Atfal || H: Tuhfat al-Atfal
+The famous tajwid poem by Ibn al-Jazari رحمة الله عليه. :: al-Muqaddimah al-Jazariyyah || H: al-Muqaddimah al-Jazariyyah
+The lam of "Allah" is read heavy after these two vowels. :: Fathah and dammah || H: al-Muqaddimah al-Jazariyyah
+The lam of "Allah" is read light after this vowel. :: Kasrah || H: al-Muqaddimah al-Jazariyyah
+The lam of "al-" that is pronounced before "moon letters". :: Lam qamariyyah || H: Tuhfat al-Atfal
+The lam of "al-" that merges into "sun letters". :: Lam shamsiyyah || H: Tuhfat al-Atfal
+
+## 300
+The lengthening when a madd letter is followed by hamzah in the same word. :: Madd muttasil (wajib) || H: Tuhfat al-Atfal
+The lengthening when a madd letter ends one word and hamzah begins the next. :: Madd munfasil (ja'iz) || H: Tuhfat al-Atfal
+The lengthening when a madd letter is followed by a sukun that stays in all cases. :: Madd lazim || H: Tuhfat al-Atfal
+The lengthening when the sukun comes only because you stop on the word. :: Madd 'arid lil-sukun || H: Tuhfat al-Atfal
+The length of madd lazim in counts. :: 6 || H: Tuhfat al-Atfal
+The lengths allowed in madd 'arid lil-sukun, in counts. :: 2, 4 or 6 || H: Tuhfat al-Atfal
+The lengthening for a madd letter that comes after a hamzah, as in "amanu". :: Madd badal || H: Tuhfat al-Atfal
+The soft letters waw and ya' with sukun after a fathah. :: Huruf al-lin || H: Tuhfat al-Atfal
+The number of main areas of articulation (makharij) in Ibn al-Jazari's scheme. :: 5 || H: al-Muqaddimah al-Jazariyyah
+The number of specific makharij in Ibn al-Jazari's scheme. :: 17 || H: al-Muqaddimah al-Jazariyyah
+The empty space of the mouth and throat from which the madd letters come. :: al-Jawf || H: al-Muqaddimah al-Jazariyyah
+The nasal passage, makhraj of ghunnah. :: al-Khayshum || H: al-Muqaddimah al-Jazariyyah
+The seven letters always read heavy. :: Isti'la' letters (khussa daghtin qiz) || H: al-Muqaddimah al-Jazariyyah
+The quality of the tongue rising toward the palate. :: Isti'la' || H: al-Muqaddimah al-Jazariyyah
+The quality of the tongue staying low. :: Istifal || H: al-Muqaddimah al-Jazariyyah
+The quality of a letter whose sound flows with breath. :: Hams || H: al-Muqaddimah al-Jazariyyah
+The phrase that gathers the letters of hams. :: Fahaththahu shakhsun sakat || H: al-Muqaddimah al-Jazariyyah
+The quality where the sound is held back strongly. :: Shiddah || H: al-Muqaddimah al-Jazariyyah
+The phrase that gathers the letters of shiddah. :: Ajid qatin bakat || H: al-Muqaddimah al-Jazariyyah
+The letter with the quality of istitalah (stretching along the tongue's side). :: Dad || H: al-Muqaddimah al-Jazariyyah
+
+## 400
+The quality of whistling found in sad, zay and sin. :: Safir || H: al-Muqaddimah al-Jazariyyah
+The quality of spreading found in shin. :: Tafashshi || H: al-Muqaddimah al-Jazariyyah
+The quality of repetition (trilling) in ra', which the reciter keeps light. :: Takrir || H: al-Muqaddimah al-Jazariyyah
+The quality of covering (tongue sealed to the palate) in four letters. :: Itbaq || H: al-Muqaddimah al-Jazariyyah
+The four letters of itbaq. :: Sad, dad, ta', za' || H: al-Muqaddimah al-Jazariyyah
+Idgham between two identical letters. :: Idgham mithlayn || H: Tuhfat al-Atfal
+Idgham between two letters with the same makhraj but different qualities, as ta' into dal. :: Idgham mutajanisayn || H: Tuhfat al-Atfal
+Idgham between two letters with close makharij, as lam into ra'. :: Idgham mutaqaribayn || H: Tuhfat al-Atfal
+The kind of idgham where the first letter vanishes fully. :: Idgham kamil || H: Tuhfat al-Atfal
+The kind of idgham where some of the first letter's quality stays, as nun into waw with ghunnah. :: Idgham naqis || H: Tuhfat al-Atfal
+The four words where nun sakinah meets waw or ya' in one word and stays clear, as in "dunya". :: Izhar mutlaq || H: Tuhfat al-Atfal
+The stop at a point where the meaning is complete and does not join the next. :: Waqf tamm || H: Manar al-Huda (al-Ashmuni)
+The stop that is complete in meaning but tied in meaning to what follows. :: Waqf kafi || H: Manar al-Huda (al-Ashmuni)
+A stop that is not allowed because it breaks or spoils the meaning. :: Waqf qabih || H: Manar al-Huda (al-Ashmuni)
+A short pause without breath, as in Hafs at "'iwaja" in al-Kahf. :: Saktah || H: al-Nashr (Ibn al-Jazari)
+The number of required saktat in Hafs by way of al-Shatibiyyah. :: 4 || H: al-Shatibiyyah; al-Nashr
+Stopping on a word to test or teach a student. :: Waqf ikhtibari || H: Manar al-Huda (al-Ashmuni)
+Stopping because breath runs out. :: Waqf idtirari || H: Manar al-Huda (al-Ashmuni)
+Restarting from a suitable point after a stop is called this. :: Ibtida' || H: Manar al-Huda (al-Ashmuni)
+The one word in Hafs read with imalah (tilting the alif toward ya'). :: Majraha (11:41) || H: al-Shatibiyyah
+
+## 500
+The word in Surah Yusuf read with ishmam (lips rounded) in Hafs. :: Ta'manna (12:11) || H: al-Shatibiyyah
+The word in Fussilat read with tashil (softening) of the second hamzah in Hafs. :: A'jamiyy (41:44) || H: al-Shatibiyyah
+The madd in the opening letters, as in "Lam" of Alif Lam Mim. :: Madd lazim harfi || H: Tuhfat al-Atfal
+The phrase gathering the letters of the opening verses that take six counts. :: Naqas 'asalukum || H: Tuhfat al-Atfal
+The phrase gathering the opening letters read with two counts. :: Hayy tahur || H: Tuhfat al-Atfal
+The opening letter that may take four or six counts. :: 'Ayn || H: Tuhfat al-Atfal
+The madd when a sukun follows a madd letter with shaddah inside a word, as in "al-dallin". :: Madd lazim kalimi muthaqqal || H: Tuhfat al-Atfal
+The madd for the ha' of the masculine pronoun between two vowels, as in "innahu huwa". :: Madd silah || H: Tuhfat al-Atfal
+The silah madd when hamzah follows, lengthened like munfasil. :: Silah tawilah || H: Tuhfat al-Atfal
+The word in al-Furqan where Hafs lengthens the ha' though it follows a sukun. :: Fihi muhana (25:69) || H: al-Shatibiyyah
+Lengthening by four or five counts in munfasil, the usual length in Hafs by way of al-Shatibiyyah. :: Tawassut || H: al-Shatibiyyah
+The author of Tuhfat al-Atfal, Sulayman al-Jamzuri رحمة الله عليه, lived in this century AH. :: 12th century AH (18th century CE) || H: Tuhfat al-Atfal
+The fluid quality of the letters fa', ra', mim, nun, lam and ba'. :: Idhlaq || H: al-Muqaddimah al-Jazariyyah
+The phrase gathering the letters of idhlaq. :: Farra min lubb || H: al-Muqaddimah al-Jazariyyah
+The quality between shiddah and rakhawah found in lam, nun, 'ayn, mim and ra'. :: Tawassut (bayniyyah) || H: al-Muqaddimah al-Jazariyyah
+The phrase gathering the letters of tawassut. :: Lin 'umar || H: al-Muqaddimah al-Jazariyyah
+The ra' is read light when it has this vowel. :: Kasrah || H: al-Muqaddimah al-Jazariyyah
+The teacher of Hafs in recitation, from whom his reading comes. :: 'Asim ibn Abi al-Najud رحمة الله عليه || H: al-Nashr (Ibn al-Jazari)
+Hafs ibn Sulayman رحمة الله عليه died in this year. :: 180 AH / 796 CE || H?: al-Nashr (Ibn al-Jazari); date to be checked
+The name for the chain by which a reciter's reading reaches the Prophet ﷺ. :: Sanad || H: al-Nashr (Ibn al-Jazari)

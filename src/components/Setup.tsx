@@ -16,13 +16,20 @@ interface Props {
   onStart: (g: Game) => void
 }
 
-const GROUP_ORDER: PackGroup[] = ['engineering', 'cces', 'general']
+type CollectionId = 'university' | 'islamic' | 'kids'
+const COLLECTIONS: { id: CollectionId; groups: PackGroup[] }[] = [
+  { id: 'university', groups: ['engineering', 'cces', 'general'] },
+  { id: 'islamic', groups: ['quran', 'hadith', 'aqidah', 'fiqh', 'prophets', 'arabic', 'tazkiyah', 'islamichistory'] },
+  { id: 'kids', groups: ['kids'] },
+]
+const collectionOf = (g: PackGroup) => COLLECTIONS.find((c) => c.groups.includes(g))?.id ?? 'university'
 
 const DEFAULT_TEAMS = { en: ['Team 1', 'Team 2', 'Team 3'], ar: ['الفريق ١', 'الفريق ٢', 'الفريق ٣'] }
 
 export default function Setup({ t, lang, index, indexError, custom, onBack, onStart }: Props) {
   const [picked, setPicked] = useState<string[]>([])
   const [closed, setClosed] = useState<PackGroup[]>([])
+  const [coll, setColl] = useState<CollectionId>('university')
   const [teams, setTeams] = useState<string[]>(DEFAULT_TEAMS[lang])
   const [timer, setTimer] = useState(30)
   const [golden, setGolden] = useState(1)
@@ -83,10 +90,32 @@ export default function Setup({ t, lang, index, indexError, custom, onBack, onSt
         {!index && !indexError && <p className="muted">{t.loading}</p>}
         {index &&
           (() => {
-            const groupName = { engineering: t.groupEngineering, cces: t.groupCces, general: t.groupGeneral }
+            const groupName: Record<PackGroup, string> = {
+              engineering: t.groupEngineering, cces: t.groupCces, general: t.groupGeneral,
+              quran: t.groupQuran, hadith: t.groupHadith, aqidah: t.groupAqidah, fiqh: t.groupFiqh, prophets: t.groupProphets,
+              arabic: t.groupArabic, tazkiyah: t.groupTazkiyah, islamichistory: t.groupIslamicHistory, kids: t.groupKids,
+            }
+            const collName: Record<CollectionId, string> = { university: t.collUniversity, islamic: t.collIslamic, kids: t.collKids }
+            const groupOf = (c: CategorySummary): PackGroup => c.group ?? 'general'
+            const present = COLLECTIONS.filter((col) => index.some((c) => col.groups.includes(groupOf(c))))
+            const active = present.some((col) => col.id === coll) ? coll : 'university'
             let n = 0
-            const sections = GROUP_ORDER.map((g) => [g, index.filter((c) => (c.group ?? 'general') === g)] as const).filter(([, list]) => list.length > 0)
-            return sections.map(([g, list]) => (
+            const groups = COLLECTIONS.find((col) => col.id === active)!.groups
+            const sections = groups.map((g) => [g, index.filter((c) => groupOf(c) === g)] as const).filter(([, list]) => list.length > 0)
+            const tabs = present.length > 1 && (
+              <div className="coll-tabs" role="group" aria-label={t.collections}>
+                {present.map((col) => {
+                  const k = index.filter((c) => picked.includes(c.id) && collectionOf(groupOf(c)) === col.id).length
+                  return (
+                    <button key={col.id} aria-pressed={col.id === active} data-coll={col.id} onClick={() => setColl(col.id)}>
+                      {collName[col.id]}
+                      {k > 0 && <span className="n">{num(k, lang)}</span>}
+                    </button>
+                  )
+                })}
+              </div>
+            )
+            return [tabs, ...sections.map(([g, list]) => (
               <details className="cat-group" key={g} data-group={g} open={!closed.includes(g)} onToggle={(e) => {
                 const open = (e.currentTarget as HTMLDetailsElement).open
                 setClosed((cur) => (open ? cur.filter((x) => x !== g) : cur.includes(g) ? cur : [...cur, g]))
@@ -102,7 +131,7 @@ export default function Setup({ t, lang, index, indexError, custom, onBack, onSt
                 </summary>
                 <div className="cat-grid">{list.map((c) => card(c, n++))}</div>
               </details>
-            ))
+            ))]
           })()}
         {customSummaries.length > 0 && (
           <>

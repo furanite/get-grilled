@@ -1,0 +1,114 @@
+id: isl-tafsir
+name: Tafsir and Ulum al-Qur'an
+nameAr: التفسير وعلوم القرآن
+group: quran
+
+## 100
+The science of explaining the meanings of the Qur'an. :: Tafsir || H: al-Itqan (al-Suyuti)
+The sciences about the Qur'an, its revelation, collection and reading, together called this. :: 'Ulum al-Qur'an || H: al-Itqan (al-Suyuti)
+A scholar who explains the Qur'an. :: Mufassir || H: Standard term
+The "occasions of revelation", the events that verses came down about. :: Asbab al-Nuzul || H: Asbab al-Nuzul (al-Wahidi)
+The Companion called "Tarjuman al-Qur'an", the interpreter of the Qur'an. :: 'Abdullah ibn 'Abbas (رضي الله عنه) || H: al-Itqan (al-Suyuti)
+The Prophet ﷺ prayed that Allah teach this Companion understanding of the religion and interpretation (paraphrased). :: 'Abdullah ibn 'Abbas (رضي الله عنه) || H: Sahih al-Bukhari; Musnad Ahmad
+Explaining the Qur'an by the Qur'an, the Sunnah and the Companions is called this kind of tafsir. :: Tafsir bil-ma'thur || H: al-Itqan (al-Suyuti)
+Explaining the Qur'an by sound reasoning within the rules is called this. :: Tafsir bil-ra'y (al-mahmud) || H: al-Itqan (al-Suyuti)
+The famous short tafsir written by two scholars both named Jalal al-Din. :: Tafsir al-Jalalayn || H: Tafsir al-Jalalayn
+The two authors of Tafsir al-Jalalayn. :: Jalal al-Din al-Mahalli and Jalal al-Din al-Suyuti رحمة الله عليهما || H: Tafsir al-Jalalayn
+The great early tafsir by Ibn Jarir al-Tabari رحمة الله عليه. :: Jami' al-Bayan || H: Jami' al-Bayan (al-Tabari)
+A verse revealed in Makkah is called this. :: Makki || H: al-Itqan (al-Suyuti)
+A verse revealed in Madinah is called this. :: Madani || H: al-Itqan (al-Suyuti)
+The first verses ever revealed. :: The opening verses of Surah al-'Alaq (96:1-5) || H: Sahih al-Bukhari, Book of Revelation
+A verse is called this when it replaces the ruling of an earlier one. :: Nasikh || H: al-Itqan (al-Suyuti)
+The verse whose ruling was replaced is called this. :: Mansukh || H: al-Itqan (al-Suyuti)
+The first thing the Prophet ﷺ saw of revelation was this (paraphrased from 'A'ishah (رضي الله عنها)). :: True dreams || H: Sahih al-Bukhari, Book of Revelation
+Putting the meanings of the Qur'an into another language is called this. :: Tarjamat al-ma'ani (translation of the meanings) || H: Standard term
+The Arabic word "wahy" means this. :: Revelation || H: Lisan al-'Arab
+The Qur'an came down to the lowest heaven all at once on Laylat al-Qadr, according to this Companion. :: 'Abdullah ibn 'Abbas (رضي الله عنه) || H: al-Mustadrak (al-Hakim); al-Itqan (al-Suyuti)
+
+## 200
+The Successor (Tabi'i) and student of Ibn 'Abbas who read the Qur'an to him three times, stopping at each verse. :: Mujahid ibn Jabr رحمة الله عليه || H: Jami' al-Bayan (al-Tabari), introduction
+The famous tafsir by Imam al-Qurtubi رحمة الله عليه, focused on rulings. :: al-Jami' li-Ahkam al-Qur'an || H: Tafsir al-Qurtubi
+The tafsir by Fakhr al-Din al-Razi رحمة الله عليه, also called Mafatih al-Ghayb. :: al-Tafsir al-Kabir || H: Mafatih al-Ghayb (al-Razi)
+The tafsir by al-Baydawi رحمة الله عليه. :: Anwar al-Tanzil || H: Anwar al-Tanzil (al-Baydawi)
+The Hanafi tafsir by al-Nasafi رحمة الله عليه. :: Madarik al-Tanzil || H: Madarik al-Tanzil (al-Nasafi)
+The tafsir by Imam al-Baghawi رحمة الله عليه. :: Ma'alim al-Tanzil || H: Ma'alim al-Tanzil (al-Baghawi)
+The tafsir by Imam al-Alusi رحمة الله عليه of Baghdad. :: Ruh al-Ma'ani || H: Ruh al-Ma'ani (al-Alusi)
+The best way to explain the Qur'an, according to the scholars of tafsir. :: The Qur'an by the Qur'an || H: al-Itqan (al-Suyuti)
+The surah whose cause of revelation was the slander against 'A'ishah (رضي الله عنها). :: Surah al-Nur || H: Sahih al-Bukhari; Asbab al-Nuzul (al-Wahidi)
+The verse of tayammum came down while the army searched for this lost item of 'A'ishah (رضي الله عنها). :: Her necklace || H: Sahih al-Bukhari, Book of Tayammum
+Surah al-Masad came down after this uncle insulted the Prophet ﷺ at a public call. :: Abu Lahab || H: Sahih al-Bukhari, Book of Tafsir
+The book by al-Wahidi رحمة الله عليه on the causes of revelation. :: Asbab al-Nuzul || H: Asbab al-Nuzul (al-Wahidi)
+The book by al-Suyuti رحمة الله عليه on the causes of revelation. :: Lubab al-Nuqul || H: Lubab al-Nuqul (al-Suyuti)
+The great handbook of Qur'an sciences by Jalal al-Din al-Suyuti رحمة الله عليه. :: al-Itqan fi 'Ulum al-Qur'an || H: al-Itqan (al-Suyuti)
+The handbook of Qur'an sciences by Badr al-Din al-Zarkashi رحمة الله عليه. :: al-Burhan fi 'Ulum al-Qur'an || H: al-Burhan (al-Zarkashi)
+The term for the reports from the People of the Book used in some old tafsirs. :: Isra'iliyyat || H: al-Itqan (al-Suyuti)
+How the Prophet ﷺ told the believers to treat reports from the People of the Book (paraphrased). :: Neither believe nor deny them || H: Sahih al-Bukhari, Book of Tafsir
+The word "tafsir" comes from a root meaning this. :: To uncover or make clear || H: Lisan al-'Arab
+The term for the interpretation of a verse to one of its possible meanings. :: Ta'wil || H: al-Itqan (al-Suyuti)
+The early tafsir school of Makkah was built around this Companion. :: 'Abdullah ibn 'Abbas (رضي الله عنه) || H: al-Itqan (al-Suyuti)
+
+## 300
+The early tafsir school of Kufah was built around this Companion. :: 'Abdullah ibn Mas'ud (رضي الله عنه) || H: al-Itqan (al-Suyuti)
+The early tafsir school of Madinah was built largely around this Companion. :: Ubayy ibn Ka'b (رضي الله عنه) || H: al-Itqan (al-Suyuti)
+Ibn Jarir al-Tabari رحمة الله عليه died in this year. :: 310 AH / 923 CE || H: Siyar A'lam al-Nubala' (al-Dhahabi)
+Imam al-Qurtubi رحمة الله عليه, author of al-Jami' li-Ahkam al-Qur'an, came from this land. :: al-Andalus (Cordoba) || H: al-Dibaj al-Mudhahhab (Ibn Farhun)
+Fakhr al-Din al-Razi رحمة الله عليه died in this year. :: 606 AH / 1210 CE || H: Wafayat al-A'yan (Ibn Khallikan)
+Jalal al-Din al-Suyuti رحمة الله عليه died in this year. :: 911 AH / 1505 CE || H: al-Kawakib al-Sa'irah (al-Ghazzi)
+The verse that, by the most famous view, was the last of the rulings on riba to come down. :: Qur'an 2:278-279 || H?: Sahih al-Bukhari (report of Ibn 'Abbas on the verse of riba); wording to check
+The term for a surah or verse revealed during a journey or at night, a branch of Makki and Madani study. :: Safari and layli || H: al-Itqan (al-Suyuti)
+The Companion whose question about wine led to verses on it, praying "O Allah, give us a clear ruling" (paraphrased). :: 'Umar ibn al-Khattab (رضي الله عنه) || H: Sunan Abi Dawud; Sunan al-Tirmidhi
+The three verses on wine came down in this many stages. :: Three || H: Qur'an 2:219, 4:43, 5:90-91
+The final verses forbidding wine are in this surah. :: Surah al-Ma'idah || H: Qur'an 5:90-91
+The verse of the turning of the qiblah is in this surah. :: Surah al-Baqarah || H: Qur'an 2:144
+The qiblah was changed this many months after the Hijrah, roughly. :: About 16 or 17 || H: Sahih al-Bukhari
+The term for a word that occurs only once in the Qur'an. :: Hapax (farid) || H?: Term to be checked with a Qur'an sciences teacher
+The tafsir of Ibn 'Atiyyah رحمة الله عليه of al-Andalus. :: al-Muharrar al-Wajiz || H: al-Muharrar al-Wajiz (Ibn 'Atiyyah)
+The Mu'tazili tafsir known for its grammar and rhetoric, read with care by Sunni scholars. :: al-Kashshaf (al-Zamakhshari) || H: al-Kashshaf; Anwar al-Tanzil (al-Baydawi) draws on it
+Al-Baydawi's tafsir summarised which earlier tafsir, removing its Mu'tazili views. :: al-Kashshaf || H: Kashf al-Zunun (Hajji Khalifah)
+The verse that ends "This day I have perfected your religion for you" (meaning) came down on this day. :: The Day of 'Arafah || H: Sahih al-Bukhari; Sahih Muslim
+That verse is in this surah. :: Surah al-Ma'idah (5:3) || H: Qur'an 5:3
+A general ('amm) word narrowed to some of its meaning is called this. :: Takhsis (specification) || H: al-Itqan (al-Suyuti)
+
+## 400
+The term for verses that were revealed more than once. :: Ma nazala mukarraran || H: al-Itqan (al-Suyuti)
+The scholar who wrote al-Durr al-Manthur, a tafsir by narrations. :: Jalal al-Din al-Suyuti رحمة الله عليه || H: al-Durr al-Manthur
+The Hanafi scholar who wrote Ahkam al-Qur'an, d. 370 AH / 981 CE. :: Abu Bakr al-Jassas رحمة الله عليه || H: Ahkam al-Qur'an (al-Jassas)
+The Maliki scholar who wrote Ahkam al-Qur'an, d. 543 AH / 1148 CE. :: Abu Bakr ibn al-'Arabi رحمة الله عليه || H: Ahkam al-Qur'an (Ibn al-'Arabi)
+The Shafi'i scholar who wrote Ahkam al-Qur'an, known as al-Kiya al-Harrasi رحمة الله عليه, died in this century AH. :: 6th century AH (504 AH / 1110 CE) || H: Wafayat al-A'yan (Ibn Khallikan)
+The term for a verse whose wording stays but whose ruling was replaced. :: Naskh al-hukm duna al-tilawah || H: al-Itqan (al-Suyuti)
+The Maturidi scholar who wrote Ta'wilat Ahl al-Sunnah. :: Abu Mansur al-Maturidi رحمة الله عليه || H: Ta'wilat Ahl al-Sunnah
+The tafsir by al-Tha'labi رحمة الله عليه. :: al-Kashf wal-Bayan || H: al-Kashf wal-Bayan (al-Tha'labi)
+The famous Ottoman tafsir by Abu al-Su'ud رحمة الله عليه. :: Irshad al-'Aql al-Salim || H: Irshad al-'Aql al-Salim
+The Ottoman Hanafi tafsir by Isma'il Haqqi رحمة الله عليه with Sufi reflections. :: Ruh al-Bayan || H: Ruh al-Bayan
+The tafsir by Imam al-Khazin رحمة الله عليه. :: Lubab al-Ta'wil || H: Lubab al-Ta'wil (al-Khazin)
+The principle that the lesson is in the general wording, not the specific cause (paraphrased). :: al-'Ibrah bi-'umum al-lafz la bi-khusus al-sabab || H: al-Itqan (al-Suyuti)
+The book by al-Suyuti رحمة الله عليه on words in the Qur'an that came into Arabic from other languages. :: al-Muhadhdhab fima Waqa'a fil-Qur'an min al-Mu'arrab || H: al-Muhadhdhab (al-Suyuti)
+The study of the links between verses and surahs. :: 'Ilm al-Munasabat || H: Nazm al-Durar (al-Biqa'i)
+The scholar who wrote Nazm al-Durar on the links between verses and surahs, d. 885 AH / 1480 CE. :: Burhan al-Din al-Biqa'i رحمة الله عليه || H: Nazm al-Durar (al-Biqa'i)
+The study of the unusual words of the Qur'an. :: Gharib al-Qur'an || H: al-Mufradat (al-Raghib al-Isfahani)
+The dictionary of Qur'anic words by al-Raghib al-Isfahani رحمة الله عليه. :: al-Mufradat fi Gharib al-Qur'an || H: al-Mufradat
+The verses about the ruling of zihar came down about Khawlah bint Tha'labah (رضي الله عنها) and her husband. :: Aws ibn al-Samit (رضي الله عنه) || H: Sunan Abi Dawud; Tafsir al-Tabari
+The study of oaths in the Qur'an. :: Aqsam al-Qur'an || H: al-Itqan (al-Suyuti)
+The study of the parables of the Qur'an. :: Amthal al-Qur'an || H: al-Itqan (al-Suyuti)
+
+## 500
+The number of types of Qur'an sciences that al-Suyuti رحمة الله عليه lists in al-Itqan. :: 80 || H: al-Itqan (al-Suyuti), introduction
+The number of types that al-Zarkashi رحمة الله عليه lists in al-Burhan. :: 47 || H: al-Burhan (al-Zarkashi), introduction
+The teacher of al-Suyuti رحمة الله عليه who wrote on Qur'an sciences, al-Taysir fi 'Ilm al-Tafsir. :: al-Kafiyaji رحمة الله عليه || H: al-Itqan (al-Suyuti), introduction
+The Companion who said there is no verse but he knew where and about what it was revealed (paraphrased). :: 'Abdullah ibn Mas'ud (رضي الله عنه) || H: Sahih al-Bukhari, Virtues of the Qur'an
+The Successor and student of Ibn 'Abbas (رضي الله عنه), known for tafsir, killed by al-Hajjaj in 95 AH / 714 CE. :: Sa'id ibn Jubayr رحمة الله عليه || H: Siyar A'lam al-Nubala' (al-Dhahabi)
+The Successor, student of Ibn 'Abbas, known for tafsir and fiqh, d. 105 AH / 723 CE. :: 'Ikrimah رحمة الله عليه || H?: Siyar A'lam al-Nubala' (al-Dhahabi); date to be checked
+The Successor of Basrah, known for tafsir, d. 117 AH / 735 CE, who was born blind. :: Qatadah ibn Di'amah رحمة الله عليه || H?: Siyar A'lam al-Nubala' (al-Dhahabi)
+The kind of naskh where both wording and ruling were lifted. :: Naskh al-tilawah wal-hukm || H: al-Itqan (al-Suyuti)
+The famous verse of Surah al-Ahzab on "the trust" offered to the heavens, earth and mountains. :: Qur'an 33:72 || H: Qur'an 33:72
+The scholar of Maliki fiqh and Ash'ari creed who wrote al-Tahrir wal-Tanwir, d. 1393 AH / 1973 CE. :: Muhammad al-Tahir ibn 'Ashur رحمة الله عليه || H: al-Tahrir wal-Tanwir
+The commentary (hashiyah) on al-Baydawi by Shihab al-Din al-Khafaji رحمة الله عليه. :: 'Inayat al-Qadi || H: Kashf al-Zunun (Hajji Khalifah)
+The famous commentary on al-Baydawi by Shaykh Zadah رحمة الله عليه, studied in Ottoman madrasahs. :: Hashiyat Shaykh Zadah || H: Kashf al-Zunun (Hajji Khalifah)
+The term for a verse that seems to contradict another until both are understood. :: Mushkil al-Qur'an || H: Ta'wil Mushkil al-Qur'an (Ibn Qutaybah)
+The scholar who wrote Ta'wil Mushkil al-Qur'an, d. 276 AH / 889 CE. :: Ibn Qutaybah رحمة الله عليه || H: Ta'wil Mushkil al-Qur'an
+The scholar who wrote Ma'ani al-Qur'an, the Kufan grammarian d. 207 AH / 822 CE. :: al-Farra' رحمة الله عليه || H: Ma'ani al-Qur'an (al-Farra')
+Imam Abu Ja'far al-Nahhas رحمة الله عليه wrote a famous book on this subject. :: al-Nasikh wal-Mansukh || H: al-Nasikh wal-Mansukh (al-Nahhas)
+The kind of tafsir that studies the sound and order of verses to show their beauty. :: Balaghi (rhetorical) tafsir || H: Dala'il al-I'jaz ('Abd al-Qahir al-Jurjani)
+The scholar of rhetoric whose Dala'il al-I'jaz explained the Qur'an's inimitability through word order (nazm). :: 'Abd al-Qahir al-Jurjani رحمة الله عليه || H: Dala'il al-I'jaz
+The term for the way of reading a verse's sign meanings by the people of tasawwuf, kept within the outward meaning. :: Tafsir ishari || H: al-Itqan (al-Suyuti)
+A well-known ishari tafsir by Abu 'Abd al-Rahman al-Sulami رحمة الله عليه. :: Haqa'iq al-Tafsir || H: Haqa'iq al-Tafsir (al-Sulami)

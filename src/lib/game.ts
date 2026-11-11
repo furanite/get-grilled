@@ -63,7 +63,7 @@ export function createGame(
     })
   })
   const game: Game = {
-    cats: cats.map(({ id, name, nameAr }) => ({ id, name, nameAr })),
+    cats: cats.map(({ id, name, nameAr, respect }) => ({ id, name, nameAr, ...(respect ? { respect } : {}) })),
     clues,
     teams: teamNames.map((name) => ({ name: name.trim() || 'Team', score: 0 })),
     used: [],

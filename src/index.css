@@ -385,3 +385,13 @@ textarea.input{resize:vertical;min-height:44px}
 :root[data-theme="emerald"]{--tsz:10.6}:root[data-theme="neon"]{--tsz:9.4}:root[data-theme="onyx"]{--tsz:8.2}:root[data-theme="rivals"]{--tsz:11.6}:root[data-theme="ember"]{--tsz:10.4}:root[data-theme="heritage"]{--tsz:10.6}
 .logo-face .fl-rays{width:22cqw}
 .logo-face .fl{width:62cqw}.logo-face .fl-mb,.logo-face .fl-rv{width:56cqw}
+
+/* Religious categories: the clue card never spins, glints or bursts, and the answer shows its source. */
+.card.calm,.aud-card.calm{animation:none!important}
+.card.calm::before{display:none}
+.answer .src{display:block;margin-top:6px;font-family:var(--fb);font-size:clamp(11px,1.1vw,14px);letter-spacing:.02em;color:var(--muted);text-transform:none}
+.aud-card .answer .src{font-size:clamp(14px,1.4vw,24px)}
+.coll-tabs{display:flex;flex-wrap:wrap;gap:6px}
+.coll-tabs button{padding:7px 14px;border-radius:999px;border:1px solid color-mix(in oklab,var(--text) 18%,transparent);background:none;color:var(--text);font:inherit;font-weight:600;cursor:pointer}
+.coll-tabs button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--bg)}
+.coll-tabs .n{opacity:.7;font-weight:400;margin-inline-start:6px}

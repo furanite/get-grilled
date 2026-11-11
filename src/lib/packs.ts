@@ -4,7 +4,8 @@ interface PackFile {
   id: string
   name: string
   nameAr?: string
-  levels: { q: string; a: string; qAr?: string; aAr?: string }[][]
+  respect?: boolean
+  levels: { q: string; a: string; qAr?: string; aAr?: string; kind?: 'H' | 'D' | 'F'; src?: string }[][]
 }
 
 const base = import.meta.env.BASE_URL
@@ -16,6 +17,7 @@ export function packToCategory(p: PackFile): Category {
     name: p.name,
     nameAr: p.nameAr,
     builtIn: true,
+    ...(p.respect ? { respect: true } : {}),
     levels: p.levels.map((lvl, li) => lvl.map((x, qi): Question => ({ id: `${p.id}-${li}-${qi}`, ...x }))),
   }
 }

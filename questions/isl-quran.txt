@@ -1,0 +1,115 @@
+id: isl-quran
+name: The Qur'an
+nameAr: القرآن الكريم
+group: quran
+# Style rules for every Islamic and kids file are in questions/ISLAMIC-STYLE.md.
+
+## 100
+The number of surahs in the Qur'an. :: 114 || H: The Mushaf (standard count)
+The opening surah of the Qur'an. :: Surah al-Fatihah || H: The Mushaf
+The longest surah of the Qur'an. :: Surah al-Baqarah || H: The Mushaf
+The angel who brought the revelation to the Prophet ﷺ. :: Jibril (عليه السلام) || H: Qur'an 2:97
+The month in which the Qur'an was first sent down. :: Ramadan || H: Qur'an 2:185
+The night better than a thousand months, in which the Qur'an was sent down. :: Laylat al-Qadr || H: Qur'an 97:1-3
+The language in which the Qur'an was revealed. :: Arabic || H: Qur'an 12:2
+The Qur'an is divided into this many juz' (parts). :: 30 || H: The Mushaf (standard division)
+The only surah that does not begin with the Basmalah. :: Surah al-Tawbah (Bara'ah) || H: The Mushaf
+The cave where the first revelation came to the Prophet ﷺ. :: The Cave of Hira' || H: Sahih al-Bukhari, Book of Revelation
+The first word revealed, meaning "Read!". :: Iqra' || H: Qur'an 96:1; Sahih al-Bukhari
+The surah named after the mother of Prophet 'Isa (عليه السلام). :: Surah Maryam || H: The Mushaf
+The surah whose name means "The Cave". :: Surah al-Kahf || H: The Mushaf
+The short surah the Prophet ﷺ said equals a third of the Qur'an (paraphrased). :: Surah al-Ikhlas || H: Sahih al-Bukhari
+The verse the Prophet ﷺ called the greatest verse of the Qur'an (paraphrased). :: Ayat al-Kursi (2:255) || H: Sahih Muslim
+The surah that calls its own story "the best of stories". :: Surah Yusuf || H: Qur'an 12:3
+A person who has memorised the whole Qur'an. :: Hafiz || H: Standard term
+The shortest surah of the Qur'an. :: Surah al-Kawthar || H: The Mushaf
+The last surah in the Mushaf. :: Surah al-Nas || H: The Mushaf
+The surah named after the Prophet who was swallowed by a great fish. :: Surah Yunus || H: The Mushaf; Qur'an 37:139-142
+
+## 200
+The number of verses in Surah al-Fatihah. :: 7 || H: Qur'an 15:87; the Mushaf
+Each juz' is split into two of these, giving 60 in all. :: Hizb || H: The Mushaf (standard division)
+Surahs revealed before the Hijrah are called this. :: Makki (Makkan) || H: al-Itqan (al-Suyuti)
+Surahs revealed after the Hijrah are called this. :: Madani (Madinan) || H: al-Itqan (al-Suyuti)
+The surah that has the Basmalah inside a verse, in the letter of Sulayman (عليه السلام). :: Surah al-Naml || H: Qur'an 27:30
+The surah named after the bee. :: Surah al-Nahl || H: The Mushaf
+The last two surahs, recited for protection, are together called this. :: al-Mu'awwidhatayn || H: Sahih Muslim (their virtue)
+The Companion who led the gathering of the Qur'an and was a chief scribe of revelation. :: Zayd ibn Thabit (رضي الله عنه) || H: Sahih al-Bukhari, Virtues of the Qur'an
+The caliph who had the Qur'an gathered into one volume after the Battle of Yamamah. :: Abu Bakr al-Siddiq (رضي الله عنه) || H: Sahih al-Bukhari, Virtues of the Qur'an
+The caliph who had standard copies of the Mushaf sent to the provinces. :: 'Uthman ibn 'Affan (رضي الله عنه) || H: Sahih al-Bukhari, Virtues of the Qur'an
+The Companion who urged Abu Bakr (رضي الله عنه) to collect the Qur'an after many reciters fell at Yamamah. :: 'Umar ibn al-Khattab (رضي الله عنه) || H: Sahih al-Bukhari, Virtues of the Qur'an
+The surah that names the Prophet's uncle who opposed him. :: Surah al-Masad (al-Lahab) || H: Qur'an 111:1
+The surah named after the elephant army. :: Surah al-Fil || H: Qur'an 105
+The surah named after the tribe of the Prophet ﷺ. :: Surah Quraysh || H: Qur'an 106
+The surah whose name means "Victory", revealed on the way back from Hudaybiyyah. :: Surah al-Fath || H: Sahih al-Bukhari, Book of Tafsir
+The verse that says there is no compulsion in religion. :: Qur'an 2:256 || H: Qur'an 2:256
+The number of years over which the Qur'an was revealed, roughly. :: About 23 || H: al-Itqan (al-Suyuti)
+The number of times the name "Muhammad" appears in the Qur'an. :: 4 || H: Qur'an 3:144, 33:40, 47:2, 48:29
+The surah in which 'Isa (عليه السلام) gives good news of a Messenger named Ahmad. :: Surah al-Saff || H: Qur'an 61:6
+The longest verse in the Qur'an, about writing down debts. :: Ayat al-Dayn (2:282) || H: Qur'an 2:282
+
+## 300
+The number of verses in Surah al-Baqarah. :: 286 || H: The Mushaf (Kufan count)
+The number of surahs that begin with "Ha Mim". :: 7 (al-Hawamim) || H: The Mushaf (Ghafir to al-Ahqaf)
+The name for the separate letters at the start of some surahs, such as Alif Lam Mim. :: al-Huruf al-Muqatta'at || H: al-Itqan (al-Suyuti)
+The number of surahs that begin with separate letters. :: 29 || H: al-Itqan (al-Suyuti)
+The surah named after iron. :: Surah al-Hadid || H: The Mushaf
+The surah that tells of the Table sent down for the disciples of 'Isa (عليه السلام). :: Surah al-Ma'idah || H: Qur'an 5:112-115
+The surah that tells of the Sleepers of the Cave, Musa with al-Khidr, and Dhul-Qarnayn. :: Surah al-Kahf || H: Qur'an 18
+The surah named after the Night Journey. :: Surah al-Isra' || H: Qur'an 17:1
+The surah whose opening verses were the first to be revealed. :: Surah al-'Alaq || H: Sahih al-Bukhari, Book of Revelation
+The Prophet named most often in the Qur'an. :: Musa (عليه السلام) || H: The Qur'an (over 130 mentions)
+The only woman named in the Qur'an. :: Maryam (عليها السلام) || H: Qur'an 19:16 and elsewhere
+The only Companion named in the Qur'an. :: Zayd ibn Harithah (رضي الله عنه) || H: Qur'an 33:37
+The surah that deals at length with the Battle of Badr. :: Surah al-Anfal || H: Tafsir al-Tabari, Surah al-Anfal
+The surah that tells of the Battle of the Trench. :: Surah al-Ahzab || H: Qur'an 33:9-27
+The surah that cleared 'A'ishah (رضي الله عنها) of the slander. :: Surah al-Nur || H: Qur'an 24:11-20; Sahih al-Bukhari
+The two surahs the Prophet ﷺ called al-Zahrawan, "the two bright ones". :: al-Baqarah and Al 'Imran || H: Sahih Muslim
+The surah in which a wise man advises his son. :: Surah Luqman || H: Qur'an 31:12-19
+The surah that opens with a woman pleading her case about her husband. :: Surah al-Mujadilah || H: Qur'an 58:1
+The surah beginning "Tabarak", recited at night by many for protection in the grave. :: Surah al-Mulk || H: Sunan al-Tirmidhi
+The Arabic word for a verse of the Qur'an, which also means "sign". :: Ayah || H: Lisan al-'Arab
+
+## 400
+When the scribes differed, 'Uthman (رضي الله عنه) told them to write in the dialect of this tribe. :: Quraysh || H: Sahih al-Bukhari, Virtues of the Qur'an
+The Companion named first among the four from whom the Prophet ﷺ said to learn the Qur'an (paraphrased). :: 'Abdullah ibn Mas'ud (رضي الله عنه) || H: Sahih al-Bukhari
+The Mother of the Believers who kept the compiled sheets of the Qur'an after 'Umar (رضي الله عنه). :: Hafsah bint 'Umar (رضي الله عنها) || H: Sahih al-Bukhari, Virtues of the Qur'an
+The scholar who chose the seven famous readers, d. 324 AH / 936 CE. :: Ibn Mujahid رحمة الله عليه || H: Kitab al-Sab'ah (Ibn Mujahid)
+The most widespread reading today is Hafs from this reader of Kufah. :: 'Asim رحمة الله عليه || H: al-Nashr (Ibn al-Jazari)
+The reading of Warsh, common in North and West Africa, comes from this reader of Madinah. :: Nafi' رحمة الله عليه || H: al-Nashr (Ibn al-Jazari)
+The number of mass-transmitted readings (qira'at) recognised by Ibn al-Jazari. :: 10 || H: al-Nashr fi al-Qira'at al-'Ashr
+The term for verses that are clear in meaning, from Qur'an 3:7. :: Muhkamat || H: Qur'an 3:7
+The term for verses that are open to more than one meaning, from Qur'an 3:7. :: Mutashabihat || H: Qur'an 3:7
+The surah that repeats "So which of the favours of your Lord will you deny?" (meaning). :: Surah al-Rahman || H: Qur'an 55
+The surah named after the Prophet ﷺ himself. :: Surah Muhammad || H: The Mushaf (surah 47)
+The surah that sets out most of the shares of inheritance. :: Surah al-Nisa' || H: Qur'an 4:11-12, 4:176
+The surah that lists the eight kinds of people who may receive zakat. :: Surah al-Tawbah || H: Qur'an 9:60
+The surah named after the Prophet sent to the people of 'Ad. :: Surah Hud || H: Qur'an 11:50
+The surah named after the rocky land where Thamud lived. :: Surah al-Hijr || H: Qur'an 15:80
+The surah whose name means "The Criterion", one of the names of the Qur'an. :: Surah al-Furqan || H: Qur'an 25:1
+The total number of verses in the Qur'an by the Kufan count. :: 6,236 || H: al-Bayan fi 'Add Ay al-Qur'an (al-Dani)
+The term for a later ruling that replaces an earlier one in the Qur'an. :: Naskh (abrogation) || H: al-Itqan (al-Suyuti)
+The word "Qur'an" comes from a root meaning this. :: To read or recite (qara'a) || H: Lisan al-'Arab
+The surah in which the Prophet ﷺ is told to say "I do not worship what you worship" (meaning). :: Surah al-Kafirun || H: Qur'an 109:2
+
+## 500
+The two transmitters of the reading of Nafi'. :: Qalun and Warsh || H: al-Nashr (Ibn al-Jazari)
+The two transmitters of the reading of 'Asim. :: Shu'bah and Hafs || H: al-Nashr (Ibn al-Jazari)
+The master of the readings who wrote al-Nashr and the poem al-Muqaddimah al-Jazariyyah, d. 833 AH / 1429 CE. :: Ibn al-Jazari رحمة الله عليه || H: al-Nashr (Ibn al-Jazari)
+The famous poem on the seven readings by Imam al-Shatibi رحمة الله عليه (d. 590 AH / 1194 CE). :: Hirz al-Amani (al-Shatibiyyah) || H: al-Shatibiyyah
+The scholar of al-Andalus who wrote al-Taysir on the seven readings, d. 444 AH / 1053 CE. :: Abu 'Amr al-Dani رحمة الله عليه || H: al-Taysir (al-Dani)
+The surah in which every verse contains the word "Allah". :: Surah al-Mujadilah || H?: Commonly stated; count to be checked in the Mushaf
+The verse many regard as the last revealed, according to a report from Ibn 'Abbas (رضي الله عنه). :: Qur'an 2:281 || H?: al-Itqan (al-Suyuti), report of Ibn 'Abbas
+The word said to mark the middle of the Qur'an by letters. :: Wal-yatalattaf (18:19) || H?: Commonly stated in works on Qur'an counts
+The term for the inimitability of the Qur'an. :: I'jaz || H: al-Itqan (al-Suyuti)
+In Surah Hud, the deniers are challenged to bring this many surahs like it. :: Ten || H: Qur'an 11:13
+In Surah al-Baqarah, the deniers are challenged to bring this many surahs like it. :: One || H: Qur'an 2:23
+A name of Surah al-Fatihah meaning "Mother of the Book". :: Umm al-Kitab || H: Sahih al-Bukhari, Book of Tafsir
+The surah also known as Surah Bani Isra'il. :: Surah al-Isra' || H: Sahih al-Bukhari, Book of Tafsir
+The two surahs named after a single letter. :: Sad and Qaf || H: The Mushaf (surahs 38 and 50)
+The term for the order of verses within each surah, fixed by the Prophet ﷺ by consensus. :: Tawqifi || H: al-Itqan (al-Suyuti)
+The Prophet ﷺ said these verses suffice whoever recites them at night (paraphrased). :: The last two verses of al-Baqarah || H: Sahih al-Bukhari
+The Companion to whom the Prophet ﷺ said Allah had told him to recite Surah al-Bayyinah, and he wept. :: Ubayy ibn Ka'b (رضي الله عنه) || H: Sahih al-Bukhari
+The grammarian of Basrah credited with the first vowel dots in the Mushaf, d. 69 AH / 688 CE. :: Abu al-Aswad al-Du'ali رحمة الله عليه || H: al-Muhkam fi Naqt al-Masahif (al-Dani)
+The scholar of Basrah credited with today's vowel signs (fathah, dammah, kasrah), 2nd century AH / 8th century CE. :: al-Khalil ibn Ahmad al-Farahidi رحمة الله عليه || H: al-Muhkam fi Naqt al-Masahif (al-Dani)
+The measured, unhurried recitation commanded in Surah al-Muzzammil. :: Tartil || H: Qur'an 73:4

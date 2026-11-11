@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
+import Source from './Source'
 import { createPortal } from 'react-dom'
 import type { Game, Lang, Screen, ThemeId } from '../lib/types'
 import { VALUES } from '../lib/types'
@@ -207,7 +208,7 @@ function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings;
       </section>
       {clue && cat && (
         <div className="aud-clue" data-testid="audience-clue" key={tileKey(live!.c, live!.l)}>
-          <div className={`aud-card${clue.golden ? ' golden' : ''}`}>
+          <div className={`aud-card${clue.golden ? ' golden' : ''}${cat.respect ? ' calm' : ''}`}>
             <div className="meta">
               <span>{lang === 'ar' && cat.nameAr ? cat.nameAr : cat.name}</span>
               <span className="row">
@@ -221,6 +222,7 @@ function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings;
             {live!.revealed ? (
               <div className="answer show" dir="auto" data-testid="audience-answer">
                 {lang === 'ar' && clue.aAr ? clue.aAr : clue.a}
+                <Source t={t} q={clue} />
               </div>
             ) : (
               <div className="answer aud-hidden" aria-hidden="true" />
