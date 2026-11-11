@@ -1,0 +1,95 @@
+id: kids-manners
+name: Good Manners (Adab)
+nameAr: الآداب
+group: kids
+# For children. Hadith are paraphrased and labelled, never quoted word for word.
+
+## 100
+The Islamic greeting. :: As-salamu 'alaykum || H: Sahih al-Bukhari
+The reply to the greeting. :: Wa 'alaykum as-salam || H: Qur'an 4:86
+We eat and drink with this hand. :: The right hand || H: Sahih Muslim
+We say this before eating. :: Bismillah || H: Sahih al-Bukhari
+We say this after eating. :: Alhamdulillah || H: Sahih Muslim
+We say this when we sneeze. :: Alhamdulillah || H: Sahih al-Bukhari
+When someone sneezes and says Alhamdulillah, we reply with this. :: Yarhamuk Allah || H: Sahih al-Bukhari
+We enter the mosque with this foot first. :: The right foot || H: al-Hakim; Sahih al-Bukhari (chapter heading)
+We enter the toilet with this foot first. :: The left foot || H: Standard adab in fiqh works
+Saying "thank you" in Islam: "May Allah reward you with good". :: Jazak Allahu khayran || H: Sunan al-Tirmidhi
+We should always tell this, not lies. :: The truth || H: Sahih al-Bukhari
+The Qur'an tells us to be kind and good to these two people most of all. :: Our parents || H: Qur'an 17:23
+Taking something without asking is this. :: Stealing (wrong) || H: Qur'an 5:38
+Keeping your room and body clean is part of this, says a popular saying. :: Iman (faith) || D: Popular saying; the sound hadith is "purity is half of faith" (Sahih Muslim)
+We should do this to an older person. :: Respect them || H: Sunan al-Tirmidhi
+We should do this to a younger child. :: Be kind and gentle (show mercy) || H: Sunan al-Tirmidhi
+
+## 200
+The Prophet ﷺ said: the one who is not grateful to people is not grateful to this One (paraphrased). :: Allah || H: Sunan Abi Dawud
+The Prophet ﷺ said a good word is this (paraphrased). :: Charity (sadaqah) || H: Sahih al-Bukhari
+The Prophet ﷺ said: whoever believes in Allah and the Last Day should say good or do this (paraphrased). :: Stay quiet || H: Sahih al-Bukhari
+Talking badly about someone behind their back is called this. :: Ghibah (backbiting) || H: Qur'an 49:12
+The Qur'an compares backbiting to eating the flesh of this. :: Your dead brother || H: Qur'an 49:12
+Carrying stories between people to cause trouble. :: Namimah (tale-carrying) || H: Sahih al-Bukhari
+The Prophet ﷺ said: "Do not get" this, many times, to a man who asked for advice. :: Angry || H: Sahih al-Bukhari
+The Prophet ﷺ said the strong person is not the wrestler but the one who controls this. :: Himself when angry || H: Sahih al-Bukhari
+When angry and standing, the Prophet ﷺ said to do this. :: Sit down (or lie down) || H: Sunan Abi Dawud
+Feeling shy to do wrong is called this, and it is part of faith. :: Haya' (modesty) || H: Sahih al-Bukhari
+Before going into someone's house, we do this. :: Ask permission (and greet) || H: Qur'an 24:27
+We should ask permission this many times, then go back if no answer. :: 3 || H: Sahih al-Bukhari
+The Prophet ﷺ said: "Make things easy, and do not make them" this. :: Hard || H: Sahih al-Bukhari
+Copying others in being proud is wrong; being humble is called this. :: Tawadu' (humility) || H: Sahih Muslim
+We should yawn and do this. :: Cover our mouth (and hold it back) || H: Sahih Muslim
+We should keep this, never break it. :: A promise || H: Qur'an 17:34
+
+## 300
+The Prophet ﷺ said: "The young greet the" this one, the walker greets the one sitting (paraphrased). :: Old || H: Sahih al-Bukhari
+The person riding greets this person. :: The one walking || H: Sahih al-Bukhari
+A small group greets this. :: A big group || H: Sahih al-Bukhari
+The Prophet ﷺ said: "Spread salam" and you will do this to each other (paraphrased). :: Love each other || H: Sahih Muslim
+The rights of a Muslim on a Muslim include visiting him when he is this. :: Ill (sick) || H: Sahih Muslim
+They also include following his funeral, answering his invitation and replying to this. :: His sneeze || H: Sahih Muslim
+The Prophet ﷺ said: whoever believes in Allah and the Last Day should honour this person (paraphrased). :: The guest || H: Sahih al-Bukhari
+And should not harm this person. :: The neighbour || H: Sahih al-Bukhari
+Jibril (عليه السلام) kept telling the Prophet ﷺ about this person, until he thought they might inherit. :: The neighbour || H: Sahih al-Bukhari
+We should not drink while doing this, according to the hadith (in most cases). :: Standing || H: Sahih Muslim
+We should not breathe into this while drinking. :: The cup || H: Sahih al-Bukhari
+The Prophet ﷺ drank in this many breaths, moving the cup away. :: 3 || H: Sahih Muslim
+We should not waste this, even at a flowing river (paraphrased). :: Water || D: Popular report (Sunan Ibn Majah); graded weak
+The Qur'an says: do not walk on the earth with this. :: Pride (arrogance) || H: Qur'an 17:37
+The Prophet ﷺ said: one who does not show this to people is not shown it by Allah. :: Mercy || H: Sahih al-Bukhari
+The Prophet ﷺ said a woman entered the Fire for locking up this animal without food. :: A cat || H: Sahih al-Bukhari
+
+## 400
+The Prophet ﷺ said a man was forgiven for giving water to this thirsty animal. :: A dog || H: Sahih al-Bukhari
+He gave it water using this. :: His leather sock (khuff) || H: Sahih al-Bukhari
+The Prophet ﷺ said: honesty leads to good, and good leads to this. :: Paradise || H: Sahih al-Bukhari
+And lying leads to bad, and bad leads to this. :: The Fire || H: Sahih al-Bukhari
+The Prophet ﷺ said the signs of a hypocrite are three: when he speaks he lies, when he promises he breaks it, and this. :: When trusted, he betrays || H: Sahih al-Bukhari
+The Prophet ﷺ said: "Allah is beautiful and loves" this. :: Beauty || H: Sahih Muslim
+The Prophet ﷺ said: "Allah is gentle and loves" this. :: Gentleness (rifq) || H: Sahih Muslim
+The Prophet ﷺ said gentleness makes things this. :: Beautiful (adorns them) || H: Sahih Muslim
+Saying "In sha' Allah" and not doing it on purpose is like breaking this. :: A promise || F: Teaching example for children
+The Prophet ﷺ said: "Leave what makes you doubt for" this. :: What does not make you doubt || H: Sunan al-Tirmidhi
+The man who asked the Prophet ﷺ who most deserves his kindness was told "your mother" this many times. :: 3 (then "your father") || H: Sahih al-Bukhari
+The Prophet ﷺ said Paradise is under the feet of these, in a well-known report. :: Mothers || H: Sunan al-Nasa'i
+The Prophet ﷺ said the best house is one where this person is treated well. :: An orphan || D: Popular report (Sunan Ibn Majah); graded weak
+Using the miswak (tooth-stick) cleans the mouth and pleases this One. :: Allah (the Lord) || H: Sunan al-Nasa'i; Sahih al-Bukhari (chapter heading)
+The Prophet ﷺ said: "Whoever does not thank people" has not thanked this One. :: Allah || H: Sunan al-Tirmidhi
+We say this to a person going on a trip: "I leave you in the care of" this One. :: Allah || H: Sunan al-Tirmidhi
+
+## 500
+The Prophet ﷺ said: "None of you truly believes until he loves for his brother" this. :: What he loves for himself || H: Sahih al-Bukhari
+The Prophet ﷺ said: the Muslim is the brother of the Muslim; he does not wrong him or do this. :: Leave him without help || H: Sahih al-Bukhari
+The Prophet ﷺ said: "Do not envy, do not hate, do not turn your backs; be" this. :: Servants of Allah, brothers || H: Sahih Muslim
+It is not allowed to stop speaking to a Muslim for more than this many days. :: 3 || H: Sahih al-Bukhari
+The better of the two is the one who does this first. :: Says salam first || H: Sahih al-Bukhari
+The Prophet ﷺ said: part of a person's good Islam is leaving what does not do this. :: Concern him || H: Sunan al-Tirmidhi
+The Prophet ﷺ said the heaviest thing on the Scale on the Day of Judgement is this. :: Good character || H: Sunan al-Tirmidhi
+The Prophet ﷺ said the people he loves most and who sit closest to him on the Day are the best in this. :: Character (manners) || H: Sunan al-Tirmidhi
+The Prophet ﷺ said: "The upper hand is better than" this. :: The lower hand || H: Sahih al-Bukhari
+The upper hand is the one that does this. :: Gives || H: Sahih al-Bukhari
+The Prophet ﷺ said: "Be in this world as if you were" this. :: A stranger or a traveller || H: Sahih al-Bukhari
+He said it to this Companion, holding his shoulder. :: 'Abdullah ibn 'Umar (رضي الله عنهما) || H: Sahih al-Bukhari
+The Prophet ﷺ said: "Fear Allah wherever you are, follow a bad deed with a good one" and treat people with this. :: Good character || H: Sunan al-Tirmidhi
+He said it to this Companion. :: Abu Dharr (رضي الله عنه) || H: Sunan al-Tirmidhi
+The Prophet ﷺ said: whoever removes a hardship from a believer, Allah removes from him a hardship of this. :: The Day of Judgement || H: Sahih Muslim
+The Prophet ﷺ said: whoever covers a Muslim's faults, Allah will do this. :: Cover his faults in this world and the next || H: Sahih Muslim

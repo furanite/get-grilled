@@ -1,0 +1,95 @@
+id: kids-seerah
+name: Our Prophet ﷺ
+nameAr: نبينا ﷺ
+group: kids
+# For children. The Prophet ﷺ and the Companions are never drawn or voiced. Dates are hijri first, then CE.
+
+## 100
+The name of our Prophet. :: Muhammad ﷺ || H: Qur'an 48:29
+The city where the Prophet ﷺ was born. :: Makkah al-Mukarramah || H: Ibn Hisham, al-Sirah
+The city the Prophet ﷺ moved to. :: Madinah al-Munawwarah || H: Sahih al-Bukhari
+The Prophet's ﷺ mother. :: Aminah || H: Ibn Hisham, al-Sirah
+The Prophet's ﷺ father. :: 'Abdullah || H: Ibn Hisham, al-Sirah
+The grandfather who looked after the Prophet ﷺ. :: 'Abd al-Muttalib || H: Ibn Hisham, al-Sirah
+The kind lady who fed the baby Prophet ﷺ in the desert. :: Halimah al-Sa'diyyah (رضي الله عنها) || H?: Ibn Hisham, al-Sirah; check: her Islam and so the honorific are debated
+The first wife of the Prophet ﷺ. :: Khadijah (رضي الله عنها) || H: Sahih al-Bukhari
+The Prophet's ﷺ best friend, who travelled with him to Madinah. :: Abu Bakr (رضي الله عنه) || H: Sahih al-Bukhari
+The nickname the people of Makkah gave him, "the trustworthy". :: al-Amin || H: Ibn Hisham, al-Sirah
+The journey from Makkah to Madinah is called this. :: The Hijrah || H: Sahih al-Bukhari
+The Prophet ﷺ was the last of these. :: The Prophets (Seal of the Prophets) || H: Qur'an 33:40
+The Prophet's ﷺ youngest daughter. :: Fatimah (رضي الله عنها) || H: Sahih al-Bukhari
+The Prophet ﷺ looked after these animals as a young man. :: Sheep || H: Sahih al-Bukhari
+The Prophet ﷺ became a Prophet at this age. :: 40 || H: Sahih al-Bukhari
+The first mosque the Prophet ﷺ built on the way to Madinah. :: Masjid Quba' || H: Sahih al-Bukhari
+
+## 200
+The Prophet ﷺ was born in this year, named after an animal. :: The Year of the Elephant || H: Ibn Hisham, al-Sirah
+The cousin who was the first boy to believe. :: 'Ali ibn Abi Talib (رضي الله عنه) || H: Ibn Hisham, al-Sirah
+The uncle who protected the Prophet ﷺ but did not become Muslim. :: Abu Talib || H: Sahih al-Bukhari
+The cave where the Prophet ﷺ and Abu Bakr hid on the Hijrah. :: The cave of Thawr || H: Sahih al-Bukhari
+The Hijrah happened in this year. :: 1 AH (622 CE) || H: Standard dating
+The Islamic calendar begins with this event. :: The Hijrah || H: Tarikh al-Tabari
+The people of Madinah who welcomed and helped the Muslims. :: The Ansar || H: Qur'an 9:100
+The Muslims who left Makkah for Madinah. :: The Muhajirun || H: Qur'an 9:100
+The Prophet ﷺ made each Muhajir and Ansari into these. :: Brothers || H: Sahih al-Bukhari
+The Prophet's ﷺ mosque in Madinah. :: al-Masjid al-Nabawi || H: Sahih al-Bukhari
+The animal the Prophet ﷺ rode into Madinah, which chose where to stop. :: His she-camel (al-Qaswa') || H: Ibn Hisham, al-Sirah
+The Prophet ﷺ is buried in this city. :: Madinah al-Munawwarah || H: Sahih al-Bukhari
+The first battle of the Muslims. :: Badr || H: Qur'an 3:123
+At Badr there were about this many Muslims. :: 313 || H: Sahih al-Bukhari
+The trench was dug around Madinah in this battle. :: al-Khandaq (the Trench) || H: Sahih al-Bukhari
+The Companion who suggested digging the trench. :: Salman al-Farisi (رضي الله عنه) || H: Tarikh al-Tabari
+
+## 300
+The Prophet's ﷺ mother died when he was this many years old. :: 6 || H: Ibn Hisham, al-Sirah
+The uncle who looked after the Prophet ﷺ after his grandfather died. :: Abu Talib || H: Ibn Hisham, al-Sirah
+The Prophet ﷺ traded goods for Khadijah (رضي الله عنها) in this land. :: al-Sham (Syria) || H: Ibn Hisham, al-Sirah
+The Prophet ﷺ put this stone back in the Ka'bah and stopped a fight. :: The Black Stone (al-Hajar al-Aswad) || H: Ibn Hisham, al-Sirah
+He did it by putting the stone on this, and each tribe held a corner. :: A cloth (his cloak) || H: Ibn Hisham, al-Sirah
+The city the Prophet ﷺ went to call to Islam, where children threw stones. :: Ta'if || H: Ibn Hisham, al-Sirah; Sahih al-Bukhari
+At Ta'if the Prophet ﷺ did not ask Allah to punish them, but hoped their children would do this. :: Worship Allah alone || H: Sahih al-Bukhari
+The year both Khadijah (رضي الله عنها) and Abu Talib died. :: The Year of Sorrow ('Am al-Huzn) || H: Ibn Hisham, al-Sirah
+The spider spun a web over this on the Hijrah, in a popular report. :: The mouth of the cave of Thawr || D: Popular report (Musnad Ahmad); details debated
+The Prophet ﷺ told Abu Bakr in the cave: "Do not be sad" because of this. :: Allah is with us || H: Qur'an 9:40
+The mountain near Madinah where a famous battle happened. :: Uhud || H: Sahih al-Bukhari
+The Prophet ﷺ said about Uhud: it is a mountain that does this. :: Loves us, and we love it || H: Sahih al-Bukhari
+The Prophet's ﷺ uncle known as "the Lion of Allah", who fell at Uhud. :: Hamzah (رضي الله عنه) || H: Sahih al-Bukhari
+The treaty with Makkah in 6 AH (628 CE). :: The Treaty of Hudaybiyyah || H: Sahih al-Bukhari
+The Muslims returned peacefully to Makkah al-Mukarramah in this year. :: 8 AH (630 CE) || H: Sahih al-Bukhari
+On that day the Prophet ﷺ said to the people of Makkah, "Go, you are" this (paraphrased). :: Free || D: Famous report in the seerah (Ibn Hisham); chain debated
+
+## 400
+The Prophet's ﷺ last Hajj is called this. :: The Farewell Hajj (Hajjat al-Wada') || H: Sahih al-Bukhari
+It was in this year. :: 10 AH (632 CE) || H: Sahih Muslim
+The Prophet ﷺ passed away in this year. :: 11 AH (632 CE) || H: Sahih al-Bukhari
+The Prophet ﷺ passed away at this age. :: 63 || H: Sahih al-Bukhari
+The wife in whose room he passed away. :: 'A'ishah (رضي الله عنها) || H: Sahih al-Bukhari
+The first Caliph after the Prophet ﷺ. :: Abu Bakr (رضي الله عنه) || H: Sahih al-Bukhari
+The Prophet's ﷺ two grandsons. :: al-Hasan and al-Husayn (رضي الله عنهما) || H: Sahih al-Bukhari
+The Prophet ﷺ said these two are the leaders of the youth of Paradise. :: al-Hasan and al-Husayn (رضي الله عنهما) || H: Sunan al-Tirmidhi
+The Prophet's ﷺ son who died as a baby in Madinah. :: Ibrahim || H: Sahih al-Bukhari
+When the Prophet ﷺ was sad for his son, he said the eyes weep and the heart is sad, but we only say this. :: What pleases our Lord || H: Sahih al-Bukhari
+The Prophet ﷺ said he was sent to complete this. :: Good character (manners) || H: Muwatta' Malik
+'A'ishah (رضي الله عنها) said his character was this. :: The Qur'an || H: Sahih Muslim
+At home, the Prophet ﷺ used to do this for his family. :: Help with the housework || H: Sahih al-Bukhari
+The Prophet ﷺ never did this to food he did not like. :: Criticise it (he just left it) || H: Sahih al-Bukhari
+The tree trunk that cried when the Prophet ﷺ stopped leaning on it. :: The palm trunk (al-jidh') || H: Sahih al-Bukhari
+Water came out from between the Prophet's ﷺ fingers; this is called this. :: A miracle (mu'jizah) || H: Sahih al-Bukhari
+
+## 500
+The Prophet ﷺ was born in this month, by the best-known report. :: Rabi' al-Awwal || H: Ibn Hisham, al-Sirah
+The Prophet ﷺ was born on this day of the week. :: Monday || H: Sahih Muslim
+The Prophet's ﷺ servant boy for ten years, who said he was never told "Uff". :: Anas ibn Malik (رضي الله عنه) || H: Sahih Muslim
+The young Companion the Prophet ﷺ taught "Say Bismillah, eat with your right hand, eat what is near you". :: 'Umar ibn Abi Salamah (رضي الله عنه) || H: Sahih al-Bukhari
+The young Companion the Prophet ﷺ hugged, asking Allah to teach him the Book. :: 'Abdullah ibn 'Abbas (رضي الله عنهما) || H: Sahih al-Bukhari
+The little boy whose pet bird died; the Prophet ﷺ asked him about it kindly. :: Abu 'Umayr || H: Sahih al-Bukhari
+The bird was this kind. :: A small bird (nughayr) || H: Sahih al-Bukhari
+The Prophet ﷺ made his prayer shorter when he heard this. :: A baby crying || H: Sahih al-Bukhari
+The Prophet ﷺ carried this granddaughter on his shoulder while praying. :: Umamah || H: Sahih al-Bukhari
+The man who said "I have ten children and never kissed one"; the Prophet ﷺ said whoever shows no mercy is shown none. :: al-Aqra' ibn Habis || H: Sahih al-Bukhari
+The Prophet ﷺ said he and the one who looks after an orphan will be in Paradise like these. :: Two fingers together || H: Sahih al-Bukhari
+The tribe of the Prophet ﷺ. :: Quraysh || H: Sahih Muslim
+The Prophet's ﷺ clan within Quraysh. :: Banu Hashim || H: Sahih Muslim
+The Prophet ﷺ married Khadijah (رضي الله عنها) when he was this age. :: 25 || H: Ibn Hisham, al-Sirah
+The Prophet ﷺ said the best of you are those who are best to these people. :: Their families || H: Sunan al-Tirmidhi
+The Prophet ﷺ said a smile to your brother is this. :: Charity (sadaqah) || H: Sunan al-Tirmidhi

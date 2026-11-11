@@ -171,3 +171,7 @@ This file is rewritten by `npm run packs`.
 - **200**, line 32: The nisab of gold in grams, by a common modern estimate. **Answer:** About 85 grams _(Source: Modern estimates differ (85 to 87.5 g); to be checked)_
 - **200**, line 33: The nisab of silver in grams, by a common modern estimate. **Answer:** About 595 grams _(Source: Modern estimates differ; to be checked)_
 - **500**, line 99: The weight of a dinar (mithqal) in grams, by a common estimate. **Answer:** About 4.25 grams _(Source: Modern estimates; to be checked)_
+
+## Our Prophet ﷺ (questions/kids-seerah.txt)
+
+- **100**, line 14: The kind lady who fed the baby Prophet ﷺ in the desert. **Answer:** Halimah al-Sa'diyyah (رضي الله عنها) _(Source: Ibn Hisham, al-Sirah; check: her Islam and so the honorific are debated)_

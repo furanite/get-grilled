@@ -1,0 +1,95 @@
+id: kids-calendar
+name: Months, Eids and Special Days
+nameAr: الشهور والأعياد
+group: kids
+# For children. Hijri dates first, then CE.
+
+## 100
+The Islamic calendar follows this in the sky. :: The moon || H: Qur'an 2:189
+The number of months in the Islamic year. :: 12 || H: Qur'an 9:36
+The month of fasting. :: Ramadan || H: Qur'an 2:185
+The Eid at the end of Ramadan. :: Eid al-Fitr || H: Sahih al-Bukhari
+The Eid of sacrifice. :: Eid al-Adha || H: Sahih al-Bukhari
+The number of Eids in the year. :: 2 || H: Sunan Abi Dawud
+The first month of the Islamic year. :: Muharram || H: Standard calendar
+The last month of the Islamic year. :: Dhu al-Hijjah || H: Standard calendar
+The month of Hajj. :: Dhu al-Hijjah || H: Qur'an 2:197
+The best day of the week. :: Friday (Jumu'ah) || H: Sahih Muslim
+The meal before dawn when fasting. :: Suhur || H: Sahih al-Bukhari
+The meal at sunset when we stop fasting. :: Iftar || H: Sahih al-Bukhari
+The Prophet ﷺ broke his fast with these fruits. :: Dates || H: Sunan Abi Dawud
+If there were no dates, he broke his fast with this. :: Water || H: Sunan Abi Dawud
+We greet each other on Eid with "Eid this". :: Eid Mubarak || H: Standard greeting
+Sighting this marks the start of a new month. :: The new crescent moon (hilal) || H: Sahih al-Bukhari
+
+## 200
+The month after Ramadan. :: Shawwal || H: Standard calendar
+The month before Ramadan. :: Sha'ban || H: Standard calendar
+The Sunnah fast of 6 days in this month. :: Shawwal || H: Sahih Muslim
+The day of the 10th of Muharram. :: 'Ashura' || H: Sahih al-Bukhari
+Fasting 'Ashura' wipes away the sins of this. :: The year before || H: Sahih Muslim
+The day of standing on the plain before Eid al-Adha. :: The Day of 'Arafah || H: Sahih Muslim
+Fasting on 'Arafah wipes away the sins of this. :: Two years (the year before and after) || H: Sahih Muslim
+Eid al-Adha is on this day of Dhu al-Hijjah. :: The 10th || H: Sahih al-Bukhari
+The animal sacrifice at Eid al-Adha is called this. :: Udhiyah (qurbani) || H: Sahih al-Bukhari
+The charity given before the Eid al-Fitr prayer. :: Zakat al-Fitr || H: Sahih al-Bukhari
+Zakat al-Fitr was given as one of these measures of food. :: A sa' || H: Sahih al-Bukhari
+The Night of Power is in this month. :: Ramadan || H: Qur'an 97:1; 2:185
+We look for it in these nights of Ramadan. :: The odd nights of the last ten || H: Sahih al-Bukhari
+The four sacred months include Muharram, Rajab, Dhu al-Qa'dah and this. :: Dhu al-Hijjah || H: Qur'an 9:36; Sahih al-Bukhari
+On Eid we say this many times, praising Allah. :: Allahu Akbar (takbir) || H: Qur'an 2:185
+The Prophet ﷺ ate this before going to the Eid al-Fitr prayer. :: Dates (an odd number) || H: Sahih al-Bukhari
+
+## 300
+The Islamic year has about this many days. :: 354 (or 355) || H: Standard calendar
+The month the Prophet ﷺ was born, by the best-known report. :: Rabi' al-Awwal || H: Ibn Hisham, al-Sirah
+The Caliph who started counting years from the Hijrah. :: 'Umar ibn al-Khattab (رضي الله عنه) || H: Tarikh al-Tabari
+The Hijri calendar is counted from this event. :: The Hijrah || H: Tarikh al-Tabari
+The Prophet ﷺ liked to fast on these two days of the week. :: Monday and Thursday || H: Sunan al-Tirmidhi
+He said deeds are shown to Allah on these days. :: Monday and Thursday || H: Sunan al-Tirmidhi
+The "white days" for fasting are the 13th, 14th and this day of each month. :: The 15th || H: Sunan al-Nasa'i
+The battle of Badr was in this month. :: Ramadan || H: Tarikh al-Tabari
+The battle of Badr was in this year. :: 2 AH (624 CE) || H: Tarikh al-Tabari
+The Muslims entered Makkah al-Mukarramah in peace in this month. :: Ramadan || H: Sahih al-Bukhari
+The day before Eid al-Adha, when pilgrims stand at 'Arafah, is this day of Dhu al-Hijjah. :: The 9th || H: Sahih Muslim
+The Prophet ﷺ said the best days of the year are these ten. :: The first ten of Dhu al-Hijjah || H: Sahih al-Bukhari
+The three days after Eid al-Adha. :: The Days of Tashriq || H: Sahih Muslim
+The Prophet ﷺ called the Days of Tashriq days of eating, drinking and this. :: Remembering Allah || H: Sahih Muslim
+Fasting is not allowed on these two days. :: The two Eids || H: Sahih al-Bukhari
+Musa (عليه السلام) and his people were saved from Fir'awn on this day. :: 'Ashura' || H: Sahih al-Bukhari
+
+## 400
+The month in which the Prophet ﷺ fasted the most outside Ramadan. :: Sha'ban || H: Sahih al-Bukhari
+The Prophet ﷺ said the best fast after Ramadan is in this month. :: Muharram ("the month of Allah") || H: Sahih Muslim
+The Prophet ﷺ said that to be different, we also fast this day with 'Ashura'. :: The 9th (Tasu'a') || H: Sahih Muslim
+The Night of Power is better than this. :: A thousand months || H: Qur'an 97:3
+The du'a the Prophet ﷺ taught 'A'ishah (رضي الله عنها) for the Night of Power (meaning). :: O Allah, You are Pardoning, You love to pardon, so pardon me || H: Sunan al-Tirmidhi
+Staying in the mosque in the last ten nights of Ramadan. :: I'tikaf || H: Sahih al-Bukhari
+The gate of Paradise for those who fast. :: al-Rayyan || H: Sahih al-Bukhari
+The Prophet ﷺ said the fasting person has two joys: when he breaks his fast and this. :: When he meets his Lord || H: Sahih Muslim
+The smell of the fasting person's mouth is better to Allah than this. :: Musk || H: Sahih al-Bukhari
+In Ramadan, these are opened and the gates of the Fire are closed. :: The gates of Paradise || H: Sahih al-Bukhari
+In Ramadan, these are chained up. :: The devils (shayatin) || H: Sahih al-Bukhari
+Fasting was made a duty in this year. :: 2 AH (624 CE) || H: Tarikh al-Tabari
+The Prophet ﷺ fasted this many Ramadans. :: 9 || H: Standard seerah (al-Nawawi, al-Majmu')
+The Prophet ﷺ said Ramadan begins when you see the moon, or when Sha'ban reaches this many days. :: 30 || H: Sahih al-Bukhari
+The two Eids that replaced the old festival days of Madinah. :: Eid al-Fitr and Eid al-Adha || H: Sunan Abi Dawud
+The Prophet ﷺ went to the Eid prayer by one road and came back by this. :: A different road || H: Sahih al-Bukhari
+
+## 500
+The month whose name means "the forbidden (sacred) one" and starts the year. :: Muharram || H: Standard meaning
+The month whose name comes from the heat of summer, when it was named. :: Ramadan || H: Lisan al-'Arab
+The month that sits alone between the other sacred months. :: Rajab || H: Sahih al-Bukhari
+Dhu al-Qa'dah's name means the month of this. :: Sitting (resting from war) || H: Lisan al-'Arab
+The Hijrah happened in this year of the CE calendar. :: 622 CE (1 AH) || H: Standard dating
+The month in which the Prophet ﷺ arrived in Madinah al-Munawwarah. :: Rabi' al-Awwal || H: Ibn Hisham, al-Sirah
+The Prophet ﷺ passed away in this month. :: Rabi' al-Awwal (11 AH, 632 CE) || H: Ibn Hisham, al-Sirah
+The day the Prophet ﷺ was born, began receiving revelation and passed away. :: Monday || H: Sahih Muslim; Sahih al-Bukhari
+The day on which Adam (عليه السلام) was created and the Hour will come. :: Friday || H: Sahih Muslim
+On Friday there is an hour when du'a is answered; many say it is at the end of this time. :: After 'Asr (before Maghrib) || H: Sunan Abi Dawud
+The Sunnah surah to read on Friday is this. :: Surah al-Kahf || H: Sunan al-Darimi; al-Hakim
+On Friday we should send many of these on the Prophet ﷺ. :: Salawat (blessings) || H: Sunan Abi Dawud
+The Prophet ﷺ said fasting 3 days each month is like fasting this. :: The whole year || H: Sahih al-Bukhari
+The Prophet ﷺ said Ramadan to Ramadan wipes away sins, if we avoid these. :: Major sins || H: Sahih Muslim
+The fast of Dawud (عليه السلام), the most loved fast, is this. :: Fasting one day and not the next || H: Sahih al-Bukhari
+The Prophet ﷺ said whoever fasts Ramadan with faith and hoping for reward has this forgiven. :: His past sins || H: Sahih al-Bukhari

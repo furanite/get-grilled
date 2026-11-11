@@ -1,0 +1,94 @@
+id: kids-pillars
+name: My Deen: Islam and Iman
+nameAr: ديني: الإسلام والإيمان
+group: kids
+
+## 100
+The number of pillars of Islam. :: 5 || H: Sahih al-Bukhari
+The first pillar of Islam, saying "There is no god but Allah, Muhammad is the Messenger of Allah". :: The Shahadah || H: Sahih al-Bukhari
+The pillar of praying five times a day. :: Salah || H: Sahih al-Bukhari
+The pillar of fasting in Ramadan. :: Sawm || H: Sahih al-Bukhari
+The pillar of giving part of your wealth to the poor. :: Zakat || H: Sahih al-Bukhari
+The pillar of the journey to the Ka'bah. :: Hajj || H: Sahih al-Bukhari
+The holy book of Muslims. :: The Qur'an || H: Qur'an 2:2
+Our religion is called this. :: Islam || H: Qur'an 3:19
+A person who follows Islam. :: A Muslim || H: Qur'an 22:78
+The month when Muslims fast. :: Ramadan || H: Qur'an 2:185
+Muslims pray facing this. :: The Ka'bah (the qiblah) || H: Qur'an 2:144
+The place where Muslims pray together. :: The mosque (masjid) || H: Standard term
+The call to prayer. :: The adhan || H: Sunan Abi Dawud
+The Arabic word for "God is the Greatest". :: Allahu Akbar || H: Standard term
+What we say before we start something: "In the name of Allah". :: Bismillah || H: Sahih al-Bukhari
+What we say to thank Allah: "All praise is for Allah". :: Alhamdulillah || H: Sahih Muslim
+
+## 200
+The number of pillars of Iman (faith). :: 6 || H: Sahih Muslim
+Believing in Allah, His angels, His books, His messengers, the Last Day and this. :: Qadar (Allah's decree) || H: Sahih Muslim
+Believing that Allah is One is called this. :: Tawhid || H: Qur'an 112:1
+The surah that says "Say: He is Allah, the One" (meaning). :: Surah al-Ikhlas || H: Qur'an 112:1
+Beings made of light who always obey Allah. :: Angels || H: Sahih Muslim
+Beings made of smokeless fire. :: Jinn || H: Qur'an 55:15
+The book given to Musa (عليه السلام). :: The Tawrah || H: Qur'an 5:44
+The book given to 'Isa (عليه السلام). :: The Injil || H: Qur'an 5:46
+The book given to Dawud (عليه السلام). :: The Zabur || H: Qur'an 4:163
+The beautiful garden Allah promises to the believers. :: Jannah (Paradise) || H: Qur'an 2:25
+The two angels who write our deeds. :: Kiraman Katibin || H: Qur'an 82:10-12
+The Day when everyone will be brought back to life. :: The Day of Judgement (Yawm al-Qiyamah) || H: Qur'an 75:1
+Doing your best as if you see Allah, knowing He sees you. :: Ihsan || H: Sahih Muslim
+The angel who brought the Qur'an. :: Jibril (عليه السلام) || H: Qur'an 2:97
+What we say when we make a mistake and ask Allah to forgive us. :: Astaghfirullah || H: Sahih Muslim
+What we say when we hope to do something in the future: "If Allah wills". :: In sha' Allah || H: Qur'an 18:23-24
+
+## 300
+The angel who will blow the Trumpet. :: Israfil (عليه السلام) || H: Sunan al-Tirmidhi
+The angel who brings rain. :: Mika'il (عليه السلام) || H: Qur'an 2:98; tafsir works
+The angels who will ask questions in the grave. :: Munkar and Nakir || H: Sunan al-Tirmidhi
+The gate of Paradise for people who fast. :: al-Rayyan || H: Sahih al-Bukhari
+The scale that weighs our deeds. :: al-Mizan || H: Qur'an 21:47
+Giving up shirk means not doing this. :: Worshipping anything besides Allah || H: Qur'an 4:48
+The famous hadith of the angel who asked the Prophet ﷺ about Islam, Iman and Ihsan. :: The hadith of Jibril || H: Sahih Muslim
+In that hadith, the angel came looking like this. :: A man in very white clothes with very black hair || H: Sahih Muslim
+The verse called "the greatest verse of the Qur'an". :: Ayat al-Kursi || H: Sahih Muslim
+The number of times we must pray each day. :: 5 || H: Sahih al-Bukhari
+Zakat is usually this much of your saved money. :: 2.5% || H: Sunan Abi Dawud
+Hajj is a must once in a life for people who are this. :: Able (to go) || H: Qur'an 3:97
+The last Messenger of Allah. :: Prophet Muhammad ﷺ || H: Qur'an 33:40
+Saying "Subhan Allah" means this. :: Glory be to Allah || H: Standard meaning
+Saying "Masha' Allah" means this. :: What Allah has willed || H: Qur'an 18:39
+The Prophet ﷺ said a Muslim is one who keeps others safe from his tongue and this (paraphrased). :: His hand || H: Sahih al-Bukhari
+
+## 400
+The Prophet ﷺ said Islam is built on this many things. :: 5 || H: Sahih al-Bukhari
+The Companion who told us the hadith "Islam is built on five". :: 'Abdullah ibn 'Umar (رضي الله عنهما) || H: Sahih al-Bukhari
+The book Allah keeps of all things, "the Preserved Tablet". :: al-Lawh al-Mahfuz || H: Qur'an 85:22
+The number of gates of Paradise. :: 8 || H: Sahih al-Bukhari
+The Prophet ﷺ said faith has seventy-odd branches; the highest is saying this. :: La ilaha illa Allah || H: Sahih Muslim
+In that hadith, the lowest branch is this. :: Removing something harmful from the road || H: Sahih Muslim
+In that hadith, this is also a branch of faith. :: Modesty (haya') || H: Sahih Muslim
+The pond of the Prophet ﷺ in the Hereafter. :: al-Kawthar (al-Hawd) || H: Sahih al-Bukhari
+The bridge over the Fire that people cross. :: al-Sirat || H: Sahih al-Bukhari
+The Arabic name for the 99 beautiful Names of Allah. :: al-Asma' al-Husna || H: Qur'an 7:180
+The Prophet ﷺ said Allah has this many Names that whoever learns them enters Paradise (paraphrased). :: 99 || H: Sahih al-Bukhari
+The Name "al-Rahman" means this. :: The Most Merciful || H: Qur'an 1:1
+The Name "al-Khaliq" means this. :: The Creator || H: Qur'an 59:24
+The Name "al-Razzaq" means this. :: The Provider || H: Qur'an 51:58
+The Name "al-Ghafur" means this. :: The Most Forgiving || H: Qur'an 2:173
+The Name "al-Samad" in Surah al-Ikhlas means this. :: The One all depend on, who needs no one || H: Qur'an 112:2
+
+## 500
+The surah called "a third of the Qur'an". :: Surah al-Ikhlas || H: Sahih al-Bukhari
+The surah we read in every rak'ah of prayer. :: Surah al-Fatihah || H: Sahih al-Bukhari
+The Prophet ﷺ said the strong believer is better and more loved by Allah than this (paraphrased). :: The weak believer || H: Sahih Muslim
+The Prophet ﷺ said: "Be mindful of Allah, and He will" do this (paraphrased). :: Protect you || H: Sunan al-Tirmidhi
+The young Companion the Prophet ﷺ gave that advice to. :: 'Abdullah ibn 'Abbas (رضي الله عنهما) || H: Sunan al-Tirmidhi
+The Prophet ﷺ told him: "If you ask, ask" this One. :: Allah || H: Sunan al-Tirmidhi
+The Name "al-Quddus" means this. :: The Most Pure (Holy) || H: Qur'an 59:23
+The Name "al-Salam" means this. :: The Source of Peace || H: Qur'an 59:23
+The Name "al-Wadud" means this. :: The Most Loving || H: Qur'an 85:14
+The Name "al-Hakim" means this. :: The All-Wise || H: Qur'an 2:32
+The three things that help a person after death: ongoing charity, useful knowledge and this. :: A good child who prays for him || H: Sahih Muslim
+The Prophet ﷺ said the first thing we will be asked about on the Day is this. :: The prayer || H: Sunan al-Tirmidhi
+Belief in al-Qadar means believing that both good and this happen by Allah's will. :: Bad (what seems bad) || H: Sahih Muslim
+The surah that ends the Qur'an, asking Allah's protection from whispering. :: Surah al-Nas || H: The Mushaf
+The surah where we ask Allah's protection from the evil of the night and of envy. :: Surah al-Falaq || H: Qur'an 113
+The Prophet ﷺ said none of you truly believes until he loves for his brother what he loves for this. :: Himself || H: Sahih al-Bukhari

@@ -1,0 +1,95 @@
+id: kids-wudu-salah
+name: Wudu and Salah
+nameAr: الوضوء والصلاة
+group: kids
+# For children. Simple points all four schools agree on, unless a school is named.
+
+## 100
+Washing before prayer is called this. :: Wudu || H: Qur'an 5:6
+The number of daily prayers. :: 5 || H: Sahih al-Bukhari
+The prayer at dawn, before sunrise. :: Fajr || H: Sahih Muslim
+The prayer just after midday. :: Dhuhr || H: Sahih Muslim
+The prayer in the afternoon. :: 'Asr || H: Sahih Muslim
+The prayer just after sunset. :: Maghrib || H: Sahih Muslim
+The prayer at night. :: 'Isha' || H: Sahih Muslim
+The direction we face when we pray. :: The qiblah (towards the Ka'bah) || H: Qur'an 2:144
+The mat many people pray on. :: A prayer mat (sajjadah) || H: Standard term
+The person who leads the prayer. :: The imam || H: Sahih al-Bukhari
+The special prayer in the mosque on Friday. :: Jumu'ah || H: Qur'an 62:9
+We start the prayer by saying this. :: Allahu Akbar || H: Sunan Abi Dawud
+Putting your forehead on the ground in prayer. :: Sujud (prostration) || H: Qur'an 22:77
+Bowing with your hands on your knees. :: Ruku' || H: Qur'an 22:77
+We end the prayer by saying this to the right and left. :: As-salamu 'alaykum wa rahmatullah || H: Sunan Abi Dawud
+One unit of prayer, with standing, bowing and two prostrations. :: A rak'ah || H: Standard term
+
+## 200
+In wudu we wash our face, our arms to the elbows, wipe our head, and wash this. :: Our feet (to the ankles) || H: Qur'an 5:6
+The number of rak'ahs in Fajr. :: 2 || H: Sahih al-Bukhari
+The number of rak'ahs in Maghrib. :: 3 || H: Sahih al-Bukhari
+The number of rak'ahs in Dhuhr. :: 4 || H: Sahih al-Bukhari
+The number of rak'ahs in 'Isha'. :: 4 || H: Sahih al-Bukhari
+The number of rak'ahs in 'Asr. :: 4 || H: Sahih al-Bukhari
+Wiping with clean earth when there is no water. :: Tayammum || H: Qur'an 5:6
+The person who calls the adhan. :: The mu'adhdhin || H: Sahih al-Bukhari
+The Companion famous for calling the adhan. :: Bilal (رضي الله عنه) || H: Sunan Abi Dawud
+The second call, said just before the prayer starts. :: The iqamah || H: Sunan Abi Dawud
+Praying together behind an imam is called this. :: Jama'ah (congregation) || H: Sahih al-Bukhari
+The Prophet ﷺ said praying in jama'ah is this many times better than praying alone. :: 27 || H: Sahih al-Bukhari
+Sitting at the end of the prayer to say the tashahhud. :: Julus (the sitting) || H: Standard term
+The surah we must read in every rak'ah. :: Surah al-Fatihah || H: Sahih al-Bukhari
+We say "Subhana Rabbiyal-'Azim" in this position. :: Ruku' (bowing) || H: Sunan Abi Dawud
+We say "Subhana Rabbiyal-A'la" in this position. :: Sujud (prostration) || H: Sunan Abi Dawud
+
+## 300
+In wudu, we start with this side first. :: The right || H: Sahih al-Bukhari
+Washing each part this many times is the Sunnah. :: 3 || H: Sahih al-Bukhari
+Rinsing the mouth in wudu is called this. :: Madmadah || H: Sahih al-Bukhari
+Rinsing the nose in wudu is called this. :: Istinshaq || H: Sahih al-Bukhari
+Going to the toilet, sleeping deeply and passing wind do this to wudu. :: Break it || H: Sahih al-Bukhari; Sunan Abi Dawud
+Wiping over leather socks instead of washing the feet. :: Mash 'ala al-khuffayn || H: Sahih Muslim
+The night prayer with an odd number of rak'ahs. :: Witr || H: Sahih al-Bukhari
+The special night prayers in Ramadan. :: Tarawih || H: Sahih al-Bukhari
+The words "Hayya 'ala al-salah" in the adhan mean this. :: Come to prayer || H: Sunan Abi Dawud
+The Prophet ﷺ said they are better than the world and all that is in it. :: The 2 Sunnah rak'ahs of Fajr || H: Sahih Muslim
+The words "Allahu Akbar" at the start of prayer are called this. :: Takbirat al-ihram || H: Sunan Abi Dawud
+The words "Sami' Allahu liman hamidah" are said when doing this. :: Rising from ruku' || H: Sahih al-Bukhari
+A traveller can shorten 4-rak'ah prayers to this many. :: 2 || H: Qur'an 4:101; Sahih al-Bukhari
+The prayer on the two Eid mornings. :: Salat al-'Id || H: Sahih al-Bukhari
+Praying to ask Allah for rain. :: Salat al-Istisqa' || H: Sahih al-Bukhari
+The Prophet ﷺ called the prayer the coolness of this. :: My eyes || H: Sunan al-Nasa'i
+
+## 400
+The Prophet ﷺ said the key to prayer is this (paraphrased). :: Purity (wudu) || H: Sunan al-Tirmidhi
+The Prophet ﷺ said that when we make wudu, these fall away with the water (paraphrased). :: Our sins || H: Sahih Muslim
+On the Day, the believers will shine on these places from wudu (paraphrased). :: Their faces, hands and feet || H: Sahih Muslim
+The prayer for asking Allah to help you choose. :: Salat al-Istikharah || H: Sahih al-Bukhari
+The prayer when the sun or moon is hidden (eclipse). :: Salat al-Kusuf || H: Sahih al-Bukhari
+The prayer for a Muslim who has died. :: Salat al-Janazah || H: Sahih al-Bukhari
+Salat al-Janazah has no ruku' or sujud, only these. :: Takbirs (said standing) || H: Sahih al-Bukhari
+Two rak'ahs when you enter the mosque, before sitting. :: Tahiyyat al-masjid || H: Sahih al-Bukhari
+Prostrating if you forget part of the prayer. :: Sujud al-sahw || H: Sahih al-Bukhari
+Prostrating when you read certain verses of the Qur'an. :: Sujud al-tilawah || H: Sahih Muslim
+The prayer in the late morning, after sunrise. :: Salat al-Duha || H: Sahih Muslim
+The night prayer when people are asleep. :: Tahajjud (Qiyam al-layl) || H: Qur'an 17:79
+The Prophet ﷺ prayed at night until this part of his body swelled. :: His feet || H: Sahih al-Bukhari
+When asked why, the Prophet ﷺ said: "Should I not be" this kind of servant? :: A thankful servant || H: Sahih al-Bukhari
+Joining Dhuhr with 'Asr when travelling is called this. :: Jam' (combining) || H: Sahih Muslim
+The khutbah (talk) is given before this prayer, not after. :: Jumu'ah || H: Sahih al-Bukhari
+
+## 500
+The Companion who told us the hadith "Pray as you have seen me pray". :: Malik ibn al-Huwayrith (رضي الله عنه) || H: Sahih al-Bukhari
+The Prophet ﷺ said: if a river ran by your door and you washed in it five times a day, this would be left on you. :: No dirt at all (like the 5 prayers wipe away sins) || H: Sahih al-Bukhari
+The prayer the Qur'an calls "the middle prayer", according to the hadith. :: 'Asr || H: Sahih Muslim
+The Prophet ﷺ taught children to start praying at this age. :: 7 || H: Sunan Abi Dawud
+The prayer that was made obligatory on the Night Journey. :: The 5 daily prayers || H: Sahih al-Bukhari
+The Night Journey and the rising through the heavens is called this. :: al-Isra' wa al-Mi'raj || H: Qur'an 17:1; Sahih al-Bukhari
+The prayers were first 50, then made this many. :: 5 || H: Sahih al-Bukhari
+The Prophet ﷺ said the closest a servant is to his Lord is when he is in this position. :: Sujud (prostration) || H: Sahih Muslim
+The words we say in the sitting, starting "al-Tahiyyatu lillah". :: The tashahhud || H: Sahih al-Bukhari
+The blessing on the Prophet ﷺ in the last sitting, like the blessing on Ibrahim. :: al-Salat al-Ibrahimiyyah || H: Sahih al-Bukhari
+The Companion the Prophet ﷺ taught the tashahhud to, holding his hand. :: 'Abdullah ibn Mas'ud (رضي الله عنه) || H: Sahih al-Bukhari
+The time just after the adhan and before the iqamah: du'a then is not turned back. :: Between the adhan and iqamah || H: Sunan Abi Dawud
+The Prophet ﷺ said that whoever prays Fajr is under this. :: The protection of Allah || H: Sahih Muslim
+The Prophet ﷺ said purity is this much of faith. :: Half || H: Sahih Muslim
+The two prayers the Prophet ﷺ said were hardest for the hypocrites. :: Fajr and 'Isha' || H: Sahih al-Bukhari
+Whoever prays the two "cool" prayers will enter Paradise; they are these. :: Fajr and 'Asr || H: Sahih al-Bukhari

@@ -1,0 +1,95 @@
+id: kids-prophets
+name: Stories of the Prophets
+nameAr: قصص الأنبياء
+group: kids
+# For children. Every Prophet's name carries (عليه السلام). No Prophet is ever drawn or voiced.
+
+## 100
+The first person Allah created. :: Adam (عليه السلام) || H: Qur'an 2:30
+The Prophet who built a big boat called the Ark. :: Nuh (عليه السلام) || H: Qur'an 11:37
+The Prophet who was swallowed by a big fish. :: Yunus (عليه السلام) || H: Qur'an 37:142
+The Prophet whose fire was made cool and safe. :: Ibrahim (عليه السلام) || H: Qur'an 21:69
+The Prophet whose stick turned into a snake. :: Musa (عليه السلام) || H: Qur'an 20:20
+The Prophet who could talk to ants and birds. :: Sulayman (عليه السلام) || H: Qur'an 27:16-19
+The Prophet whose brothers threw him into a well. :: Yusuf (عليه السلام) || H: Qur'an 12:15
+The last Prophet. :: Prophet Muhammad ﷺ || H: Qur'an 33:40
+The Prophet who spoke as a baby. :: 'Isa (عليه السلام) || H: Qur'an 19:29-30
+The mother of 'Isa (عليه السلام). :: Maryam (عليها السلام) || H: Qur'an 19:16-34
+The bird that told Sulayman (عليه السلام) about a queen. :: The hoopoe || H: Qur'an 27:20-22
+The Prophet who was very patient when he was ill. :: Ayyub (عليه السلام) || H: Qur'an 38:44
+The animals went into Nuh's Ark in this way. :: In pairs || H: Qur'an 11:40
+Musa (عليه السلام) hit the sea and it did this. :: Split open into a path || H: Qur'an 26:63
+The son of Ibrahim (عليه السلام) who helped him build the Ka'bah. :: Isma'il (عليه السلام) || H: Qur'an 2:127
+The Prophet who was given the Zabur. :: Dawud (عليه السلام) || H: Qur'an 4:163
+
+## 200
+The number of brothers Yusuf (عليه السلام) had, from his dream of stars. :: 11 || H: Qur'an 12:4
+Yusuf's father, who cried for him for years. :: Ya'qub (عليه السلام) || H: Qur'an 12:84
+The angel Allah sent with the Qur'an. :: Jibril (عليه السلام) || H: Qur'an 2:97
+Musa's brother, who helped him speak. :: Harun (عليه السلام) || H: Qur'an 20:29-32
+The bad king who said he was a god. :: Fir'awn (Pharaoh) || H: Qur'an 79:24
+Baby Musa (عليه السلام) was put in a box on this. :: The river || H: Qur'an 28:7
+The water that came out for baby Isma'il (عليه السلام). :: Zamzam || H: Sahih al-Bukhari
+Hajar ran between these two hills looking for water. :: Safa and Marwah || H: Sahih al-Bukhari
+The Prophet who made armour from iron. :: Dawud (عليه السلام) || H: Qur'an 34:10-11
+The bird that showed a son of Adam how to bury his brother. :: A crow || H: Qur'an 5:31
+Yunus (عليه السلام) prayed to Allah from inside the fish; his prayer is in this surah. :: Surah al-Anbiya' || H: Qur'an 21:87
+Ibrahim (عليه السلام) broke the idols but left this one. :: The biggest one || H: Qur'an 21:58
+The Prophet sent to the people of 'Ad. :: Hud (عليه السلام) || H: Qur'an 7:65
+The Prophet whose sign was a special she-camel. :: Salih (عليه السلام) || H: Qur'an 7:73
+The old Prophet who prayed for a son and was given Yahya. :: Zakariyya (عليه السلام) || H: Qur'an 19:2-7
+Maryam (عليها السلام) ate from this tree when 'Isa was born. :: A date palm || H: Qur'an 19:25
+
+## 300
+Yusuf (عليه السلام) understood the meaning of these. :: Dreams || H: Qur'an 12:6
+The king dreamt of seven fat cows being eaten by seven of these. :: Thin cows || H: Qur'an 12:43
+Ya'qub (عليه السلام) could see again when this was put on his face. :: Yusuf's shirt || H: Qur'an 12:93-96
+Musa's staff hit a rock and this many springs came out. :: 12 || H: Qur'an 2:60
+The food Allah sent down to Musa's people in the desert. :: Manna and quails (salwa) || H: Qur'an 2:57
+The man who made a golden calf for people to worship. :: al-Samiri || H: Qur'an 20:85-88
+The young man who beat the soldier Jalut. :: Dawud (عليه السلام) || H: Qur'an 2:251
+Sulayman (عليه السلام) could make this blow wherever he wanted. :: The wind || H: Qur'an 21:81
+The queen who came to Sulayman (عليه السلام). :: The Queen of Saba' (Bilqis) || H: Qur'an 27:23-44; name from Tafsir al-Tabari
+Nuh (عليه السلام) called his people to Allah for this many years. :: 950 || H: Qur'an 29:14
+The mountain where the Ark landed. :: al-Judi || H: Qur'an 11:44
+The young men who slept in a cave for many years. :: Ashab al-Kahf (the People of the Cave) || H: Qur'an 18:9-26
+Their dog stayed at this place in the cave. :: The entrance || H: Qur'an 18:18
+Allah sent this animal in place of Isma'il (عليه السلام). :: A ram || H: Qur'an 37:107; Tafsir al-Tabari
+'Isa (عليه السلام) made these from clay, and by Allah's permission they flew. :: Birds || H: Qur'an 3:49
+The surah named after the Prophet Ibrahim (عليه السلام). :: Surah Ibrahim || H: The Mushaf
+
+## 400
+The People of the Cave slept for this many years. :: 309 || H: Qur'an 18:25
+The wise man Musa (عليه السلام) travelled with to learn. :: al-Khidr || H: Qur'an 18:65; Sahih al-Bukhari
+Al-Khidr made a hole in this to save it from a bad king. :: A boat || H: Qur'an 18:79
+Yunus (عليه السلام) rested under this plant after leaving the fish. :: A gourd plant || H: Qur'an 37:146
+The termite (small creature) ate this, showing that Sulayman (عليه السلام) had died. :: His staff || H: Qur'an 34:14
+The rich man who was swallowed by the earth for his pride. :: Qarun || H: Qur'an 28:76-81
+The good wife of Fir'awn who believed in Allah. :: Asiyah || H: Qur'an 66:11; Sahih al-Bukhari
+Ibrahim (عليه السلام) asked Allah to show him how He gives life using these. :: Four birds || H: Qur'an 2:260
+Yusuf (عليه السلام) was put in charge of this in Egypt. :: The storehouses (food stores) || H: Qur'an 12:55
+The Prophet sent to the people of Madyan, who told them to measure fairly. :: Shu'ayb (عليه السلام) || H: Qur'an 11:84-85
+The number of Prophets named in the Qur'an. :: 25 || H: Commonly counted from the Qur'an
+The Prophet raised to a high place, mentioned in Surah Maryam. :: Idris (عليه السلام) || H: Qur'an 19:56-57
+'Isa (عليه السلام) told of a Messenger coming after him named this. :: Ahmad || H: Qur'an 61:6
+The Prophet called "Khalil Allah", the friend of Allah. :: Ibrahim (عليه السلام) || H: Qur'an 4:125
+The Prophet called "Kalim Allah", who spoke with Allah. :: Musa (عليه السلام) || H: Qur'an 4:164
+Ibrahim's nephew, also a Prophet. :: Lut (عليه السلام) || H: Qur'an 29:26
+
+## 500
+Musa (عليه السلام) took off these in the holy valley of Tuwa. :: His sandals || H: Qur'an 20:12
+Musa (عليه السلام) asked Allah to untie this from his tongue. :: A knot || H: Qur'an 20:27
+The number of signs given to Musa (عليه السلام). :: 9 || H: Qur'an 17:101
+Yusuf (عليه السلام) was sold for a few of these coins. :: Dirhams || H: Qur'an 12:20
+The Prophet whose people were the only ones saved after they believed in time. :: Yunus (عليه السلام) || H: Qur'an 10:98
+Yusuf's brother who was kept in Egypt, named in the reports. :: Binyamin || H: Tafsir al-Tabari, Qur'an 12:69-79
+Sulayman (عليه السلام) had a palace floor that looked like water, made of this. :: Glass || H: Qur'an 27:44
+Zakariyya (عليه السلام) did not speak for this many days as a sign. :: 3 || H: Qur'an 3:41
+The Prophet whose people lived in houses carved into rock. :: Salih (عليه السلام) || H: Qur'an 89:9; 7:74
+The wind that destroyed the people of 'Ad blew for this many nights. :: 7 nights (and 8 days) || H: Qur'an 69:7
+Nuh's son was not saved because he went up this. :: A mountain || H: Qur'an 11:43
+Musa (عليه السلام) worked for this many years in Madyan, or ten. :: 8 || H: Qur'an 28:27
+Ibrahim's father, named in the Qur'an. :: Azar || H: Qur'an 6:74
+Maryam (عليها السلام) was looked after by this Prophet. :: Zakariyya (عليه السلام) || H: Qur'an 3:37
+The surah named after the mother of 'Isa (عليه السلام). :: Surah Maryam || H: The Mushaf
+The Qur'an calls the story in this surah "the best of stories". :: Surah Yusuf || H: Qur'an 12:3

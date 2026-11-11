@@ -26,7 +26,16 @@ Built-in questions live in `questions/*.txt`, one file per category:
     ## 100
     Clue text :: Answer text
 
-`npm run packs` checks every file (duplicates, missing answers, empty levels) and writes `public/packs/`.
+A line can carry a source tag after ` || `:
+
+    Clue text :: Answer text || H: Sahih al-Bukhari
+
+`H:` is historical (give the source), `D:` dramatised, `F:` fictional. Add `?` (for example `H?:`)
+to hold a line back until someone checks it; held lines are listed in `questions/TO-VERIFY.md`.
+Every line in the Islamic and Kids collections must carry a tag. Read `questions/ISLAMIC-STYLE.md`
+before adding to them.
+
+`npm run packs` checks every file (duplicates, missing answers, empty levels, source tags) and writes `public/packs/`.
 A game draws one question per level from each pool and avoids repeats until a pool runs out.
 
 ## Tests
