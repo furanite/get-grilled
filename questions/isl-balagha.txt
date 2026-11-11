@@ -24,6 +24,8 @@ A sentence that cannot be true or false, like a command or question. :: Insha' |
 Speaking briefly with full meaning. :: Ijaz || H: Durus al-Balaghah
 Speaking at length for a purpose. :: Itnab || H: Durus al-Balaghah
 The modern school textbook of balagha by 'Ali al-Jarim and Mustafa Amin. :: al-Balaghah al-Wadihah || H: al-Balaghah al-Wadihah
+In "iyyaka na'budu", putting the object first gives this meaning. :: Restriction ("You alone") || H: Mukhtasar al-Ma'ani (al-Taftazani)
+"They are a garment for you" (2:187) is this kind of figure. :: Tashbih baligh || H: al-Balaghah al-Wadihah
 
 ## 200
 A tashbih with both the tool and the shared quality dropped, the strongest kind. :: Tashbih baligh || H: Durus al-Balaghah
@@ -46,6 +48,8 @@ Limiting, as in "innama" or "ma ... illa". :: Qasr (hasr) || H: Durus al-Balagha
 Leaving words out because they are understood. :: Hadhf || H: Durus al-Balaghah
 Joining sentences with "wa". :: Wasl || H: Talkhis al-Miftah
 Leaving sentences unjoined. :: Fasl || H: Talkhis al-Miftah
+"You would think them awake while they are asleep" (18:18) puts opposites together; this figure. :: Tibaq || H: al-Balaghah al-Wadihah
+"Let them laugh a little and weep much" (9:82) pairs two against two; this figure. :: Muqabalah || H: al-Balaghah al-Wadihah
 
 ## 300
 The book of 'Abd al-Qahir al-Jurjani رحمة الله عليه on 'ilm al-bayan and imagery. :: Asrar al-Balaghah || H: Asrar al-Balaghah
@@ -68,6 +72,9 @@ A command that means "do it if you can". :: Ta'jiz (showing inability) || H: Dur
 A switch in the person spoken of, like from "He" to "You". :: Iltifat || H: Talkhis al-Miftah
 Surah al-Fatihah shows iltifat when it turns from "Him" to this. :: "You alone we worship" || H: Qur'an 1:5; Talkhis al-Miftah
 Repeating a word or idea to stress it. :: Takrar || H: Durus al-Balaghah
+"Lower to them the wing of humility" (17:24) uses this figure. :: Isti'arah (makniyyah) || H: al-Balaghah al-Wadihah
+"And the head has blazed with grey hair" (19:4) uses this figure. :: Isti'arah || H: al-Balaghah al-Wadihah
+"They put their fingers in their ears" (2:19), meaning fingertips, is majaz of this link. :: Whole for part (kulliyyah) || H: al-Balaghah al-Wadihah
 
 ## 400
 The figure in which the speaker ends with a line that fits its start. :: Radd al-'ajuz 'ala al-sadr || H: Durus al-Balaghah
@@ -90,6 +97,8 @@ A metaphor that compares a whole saying with a whole state, like a proverb. :: I
 The scholar whose al-Idah expanded al-Talkhis. :: al-Khatib al-Qazwini رحمة الله عليه || H: al-Idah
 Al-Qazwini رحمة الله عليه was the chief judge of this city. :: Damascus (and later Cairo) || H: Bughyat al-Wu'at (al-Suyuti)
 The term for speech that fits its situation, the root of balagha. :: Muqtada al-hal || H: Talkhis al-Miftah
+"There is life for you in retribution" (2:179) is a famous example of this. :: Ijaz (rich brevity) || H: Mukhtasar al-Ma'ani (al-Taftazani)
+"The Hour (sa'ah) will come, and the wrongdoers will swear they stayed but an hour (sa'ah)" (30:55) shows this. :: Jinas tamm || H: al-Itqan (al-Suyuti)
 
 ## 500
 The book of al-Rummani on the i'jaz of the Qur'an, one of the early three treatises. :: al-Nukat fi I'jaz al-Qur'an || H?: Thalath Rasa'il fi I'jaz al-Qur'an; to be checked
@@ -112,3 +121,5 @@ The clue that shows a word is not meant literally. :: Qarinah || H: Talkhis al-M
 A majaz of attribution, as in "the day fasted" (meaning the person fasted). :: Majaz 'aqli || H: Talkhis al-Miftah
 A kinayah for a quality, like "her earrings are far" for a long neck. :: Kinayah 'an sifah || H: Durus al-Balaghah
 Al-Akhdari رحمة الله عليه, author of al-Jawhar al-Maknun and al-Sullam, lived in this land. :: Algeria || H: Nayl al-Ibtihaj (al-Tinbukti)
+"My Lord, I have delivered a girl" (3:36) is a khabar not meant to inform but to show this. :: Grief and humility (tahassur) || H: Mukhtasar al-Ma'ani (al-Taftazani)
+In Surah al-Kawthar, "We have given you" turns to "pray to your Lord"; this figure. :: Iltifat || H: al-Itqan (al-Suyuti)

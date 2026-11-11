@@ -24,6 +24,15 @@ The word after a preposition is called this. :: Majrur || H: al-Ajurrumiyyah
 "Fi", "min" and "ila" are examples of these. :: Huruf al-jarr (prepositions) || H: al-Ajurrumiyyah
 The ending changes with case: this is called this. :: I'rab || H: al-Ajurrumiyyah
 A word whose ending never changes, like "hadha". :: Mabni || H: al-Ajurrumiyyah
+In "Bismillah", the word "ism" is in this case. :: Jarr (after "bi") || H: Sharh al-Ajurrumiyyah
+In "al-hamdu lillah", "al-hamdu" is this. :: Mubtada' (marfu') || H: I'rab al-Qur'an (standard)
+The usual sign of raf' on a singular noun. :: Dammah || H: al-Ajurrumiyyah
+The usual sign of nasb on a singular noun. :: Fathah || H: al-Ajurrumiyyah
+The usual sign of jarr on a singular noun. :: Kasrah || H: al-Ajurrumiyyah
+The sign of jazm on a sound present verb. :: Sukun || H: al-Ajurrumiyyah
+The "n" sound added to the end of an indefinite noun. :: Tanwin || H: al-Ajurrumiyyah
+"Hadha" and "hadhihi" are this kind of noun. :: Demonstratives (asma' al-isharah) || H: Sharh Ibn 'Aqil
+"Huwa", "hiya" and "ana" are this kind of noun. :: Pronouns (dama'ir) || H: Sharh Ibn 'Aqil
 
 ## 200
 The grammarian of Basrah credited with founding nahw, d. 69 AH / 688 CE. :: Abu al-Aswad al-Du'ali رحمة الله عليه || H: Tabaqat al-Nahwiyyin (al-Zubaydi)
@@ -46,6 +55,15 @@ The five nouns take this letter in the raf' case. :: Waw || H: al-Ajurrumiyyah
 The sound masculine plural takes this letter in the raf' case. :: Waw || H: al-Ajurrumiyyah
 The dual takes this letter in the raf' case. :: Alif || H: al-Ajurrumiyyah
 The particle "ya" is used for this. :: Calling (nida') || H: al-Ajurrumiyyah
+"Kana" and its sisters are called this, because they need a khabar to complete them. :: al-Af'al al-naqisah || H: Sharh Ibn 'Aqil
+The noun of "kana" is in this case. :: Raf' || H: al-Ajurrumiyyah
+The khabar of "inna" is in this case. :: Raf' || H: al-Ajurrumiyyah
+"An", "lan", "kay" and "idhan" put the present verb in this mood. :: Nasb (mansub) || H: al-Ajurrumiyyah
+A present verb with nothing to put it in nasb or jazm is this. :: Marfu' || H: al-Ajurrumiyyah
+The past verb is always this, never changing for case. :: Mabni || H: al-Ajurrumiyyah
+The sign of nasb and jarr in the sound masculine plural. :: Ya' || H: al-Ajurrumiyyah
+The sound feminine plural takes this sign in nasb. :: Kasrah || H: al-Ajurrumiyyah
+"Lam al-amr", as in "li-yunfiq", puts the present verb in this mood. :: Jazm || H: al-Ajurrumiyyah
 
 ## 300
 The word that explains the state of the doer or object when the action happens. :: Hal || H: al-Ajurrumiyyah
@@ -68,6 +86,16 @@ The verbs of praise and blame. :: Ni'ma and bi'sa || H: Alfiyyat Ibn Malik
 The verb pattern of wonder, as in "ma ahsana". :: Ta'ajjub || H: Alfiyyat Ibn Malik
 The verbs "zanna" and its sisters take this many objects. :: Two || H: al-Ajurrumiyyah
 The two great early schools of grammar. :: Basrah and Kufah || H: al-Insaf (Ibn al-Anbari)
+The "five verbs", like "yaf'aluna", keep this letter in raf'. :: Nun || H: al-Ajurrumiyyah
+"Kada" and its sisters are verbs of this. :: Nearness (muqarabah) || H: Sharh Ibn 'Aqil
+"Ka'anna" means this. :: As if (likening) || H: Sharh Ibn 'Aqil
+"Layta" means this. :: If only (a wish) || H: Sharh Ibn 'Aqil
+"La'alla" means this. :: Perhaps (hope) || H: Sharh Ibn 'Aqil
+"Lakinna" means this. :: But (correction, istidrak) || H: Sharh Ibn 'Aqil
+In a complete positive sentence, the noun after "illa" is this. :: Mansub || H: al-Ajurrumiyyah
+After "ghayr" and "siwa", the excepted noun is in this case. :: Jarr (as mudaf ilayh) || H: al-Ajurrumiyyah
+A called noun that is a single proper name, as in "Ya Zaydu", is this. :: Mabni 'ala al-damm || H: al-Ajurrumiyyah
+"Lamma" before a present verb, meaning "not yet", makes it this. :: Majzum || H: Sharh Qatr al-Nada (Ibn Hisham)
 
 ## 400
 The leading Kufan grammarian, one of the seven readers, teacher of the sons of Harun al-Rashid. :: al-Kisa'i رحمة الله عليه || H: Tarikh Baghdad (al-Khatib)
@@ -90,6 +118,11 @@ The book of al-Suyuti رحمة الله عليه on the biographies of grammaria
 The book of al-Suyuti on the principles of grammar. :: al-Iqtirah || H: al-Iqtirah (al-Suyuti)
 The grammar term for the hidden pronoun, as in "uktub" (you write). :: Damir mustatir || H: Qatr al-Nada (Ibn Hisham)
 The grammar term for the governing word that causes a case ending. :: 'Amil || H: Qatr al-Nada (Ibn Hisham)
+In "la ilaha illa Allah", "ilaha" is this. :: Ism "la", mabni 'ala al-fath || H: Mughni al-Labib (Ibn Hisham)
+In "iyyaka na'budu", "iyyaka" is this. :: An object brought forward (maf'ul bihi muqaddam) || H: I'rab al-Qur'an (standard)
+After "hatta", a present verb is put in nasb by this hidden particle. :: An || H: Sharh Qatr al-Nada (Ibn Hisham)
+The "fa'" of cause after a command or a negation puts the verb in this mood. :: Nasb || H: Sharh Qatr al-Nada (Ibn Hisham)
+The "lam" in "lillah" is a preposition showing this meaning. :: Entitlement (istihqaq) || H: Mughni al-Labib (Ibn Hisham)
 
 ## 500
 The famous line "Kalamuna lafzun mufidun ka-istaqim" opens this poem. :: Alfiyyat Ibn Malik || H: Alfiyyat Ibn Malik
@@ -112,3 +145,8 @@ The Kufan grammarian reported to have said he would die with something still in 
 The verb "laysa" is called this, because it does not change form. :: Fi'l jamid || H: Qatr al-Nada (Ibn Hisham)
 In al-Mas'alah al-Zunburiyyah, Sibawayh held "fa-idha huwa hiya"; al-Kisa'i also allowed this. :: "Fa-idha huwa iyyaha" || H: Mughni al-Labib (Ibn Hisham)
 The Basran grammarian, student of al-Khalil, who wrote "Ma'ani al-Qur'an" and taught Sibawayh's book. :: al-Akhfash al-Awsat || H?: Bughyat al-Wu'at (al-Suyuti); to be checked
+Al-Mubarrad's رحمة الله عليه great book of grammar. :: al-Muqtadab || H: al-Muqtadab
+The Kufan grammarian of Baghdad, rival of al-Mubarrad, who wrote al-Fasih. :: Tha'lab رحمة الله عليه || H: Bughyat al-Wu'at (al-Suyuti)
+Ibn al-Sarraj's رحمة الله عليه book that set out grammar's principles in order. :: al-Usul fil-Nahw || H: al-Usul fil-Nahw
+Al-Hariri's رحمة الله عليه poem for beginners in grammar. :: Mulhat al-I'rab || H: Mulhat al-I'rab
+Khalid al-Azhari's رحمة الله عليه commentary on Ibn Hisham's Awdah al-Masalik. :: Sharh al-Tasrih 'ala al-Tawdih || H: Sharh al-Tasrih

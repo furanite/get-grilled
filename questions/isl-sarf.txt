@@ -24,6 +24,14 @@ A word whose root has four letters is called this. :: Ruba'i || H: Shadha al-'Ar
 A root with no weak letter (alif, waw, ya') is called this. :: Sahih || H: Shadha al-'Arf
 A root with a weak letter is called this. :: Mu'tall || H: Shadha al-'Arf
 A noun for the place of an action, like "maktab" (office, desk). :: Ism al-makan || H: Shadha al-'Arf
+The present tense of "fataha" (to open). :: Yaftahu || H: Shadha al-'Arf (al-Hamalawi)
+The command of "kataba". :: Uktub || H: Shadha al-'Arf (al-Hamalawi)
+The command of "jalasa". :: Ijlis || H: Shadha al-'Arf (al-Hamalawi)
+The three root letters of "maktabah". :: K-t-b || H: Standard usage
+The three root letters of "masjid". :: S-j-d || H: Standard usage
+"Masjid", the place of prostration, is this kind of noun. :: Ism al-makan || H: Shadha al-'Arf (al-Hamalawi)
+The broken plural of "masjid". :: Masajid || H: Standard usage
+The feminine of "kabir". :: Kabirah || H: Standard usage
 
 ## 200
 The plural that keeps the singular whole and adds -una or -ina. :: Jam' mudhakkar salim (sound masculine plural) || H: al-Ajurrumiyyah
@@ -46,6 +54,13 @@ A root with a hamzah, like "akhadha". :: Mahmuz || H: Shadha al-'Arf
 A root whose second and third letters are the same, like "madda". :: Mud'af || H: Shadha al-'Arf
 A verb whose doer is not named, like "kutiba" (it was written). :: Majhul (passive) || H: al-Ajurrumiyyah
 The added letters in Arabic patterns are gathered in this phrase. :: Sa'altumuniha || H: Shadha al-'Arf
+The letter at the end of "Fatimah" and "madrasah" usually marks this. :: The feminine (ta' marbutah) || H: Shadha al-'Arf (al-Hamalawi)
+The broken plural of "'alim" (scholar). :: 'Ulama' || H: Standard usage
+The ism al-tafdil of "kabir". :: Akbar || H: Shadha al-'Arf (al-Hamalawi)
+The feminine of "akbar". :: Kubra || H: Shadha al-'Arf (al-Hamalawi)
+The ism al-fa'il of "nasara" (to help). :: Nasir || H: Shadha al-'Arf (al-Hamalawi)
+The ism al-maf'ul of "nasara". :: Mansur || H: Shadha al-'Arf (al-Hamalawi)
+"Muslim" is the ism al-fa'il of this verb. :: Aslama || H: Shadha al-'Arf (al-Hamalawi)
 
 ## 300
 The number of patterns (bab) of the bare three-letter verb. :: 6 || H: Shadha al-'Arf
@@ -68,6 +83,13 @@ The masdar of "akrama". :: Ikram || H: Shadha al-'Arf
 The masdar of "istaghfara". :: Istighfar || H: Shadha al-'Arf
 The masdar of "qatala" (Form III), two forms. :: Muqatalah and qital || H: Shadha al-'Arf
 The ism al-fa'il of the added forms begins with this letter with dammah. :: Mim (mu-) || H: Shadha al-'Arf
+The place noun of "jalasa", on the pattern maf'il. :: Majlis || H: Shadha al-'Arf (al-Hamalawi)
+The masdar of "takallama". :: Takallum || H: Shadha al-'Arf (al-Hamalawi)
+The masdar of "ijtama'a". :: Ijtima' || H: Shadha al-'Arf (al-Hamalawi)
+The masdar of "inkasara". :: Inkisar || H: Shadha al-'Arf (al-Hamalawi)
+"Mujahid" is the ism al-fa'il of this verb. :: Jahada (Form III) || H: Shadha al-'Arf (al-Hamalawi)
+"Muta'allim" (learner) is the ism al-fa'il of this verb. :: Ta'allama (Form V) || H: Shadha al-'Arf (al-Hamalawi)
+"Qara'a" (to read) has a hamzah as its last root letter, so it is called this. :: Mahmuz al-lam || H: Shadha al-'Arf (al-Hamalawi)
 
 ## 400
 The change of a weak letter into another for ease is called this. :: I'lal || H: Shadha al-'Arf
@@ -90,6 +112,12 @@ A masdar that begins with mim, like "maw'id". :: al-Masdar al-mimi || H: Shadha 
 The masdar made by adding -iyyah, like "insaniyyah". :: al-Masdar al-sina'i || H: Shadha al-'Arf
 The plural of a plural is called this. :: Jam' al-jam' || H: Shadha al-'Arf
 The broken plural patterns for 3 to 10 are called this. :: Jam' al-qillah (plural of paucity) || H: Shadha al-'Arf
+"Yaqulu" was originally this. :: Yaqwulu || H: Shadha al-'Arf (al-Hamalawi)
+"Yabi'u" was originally this. :: Yabyi'u || H: Shadha al-'Arf (al-Hamalawi)
+"Mustaqim" was originally this. :: Mustaqwim || H: Shadha al-'Arf (al-Hamalawi)
+The hamzah at the end of "sama'" (sky) was originally this letter. :: Waw || H: Shadha al-'Arf (al-Hamalawi)
+The hamzah at the end of "du'a'" was originally this letter. :: Waw || H: Shadha al-'Arf (al-Hamalawi)
+The name "Husayn" is the diminutive of this name. :: Hasan || H: Standard usage
 
 ## 500
 The four patterns of jam' al-qillah. :: Af'ul, af'al, af'ilah, fi'lah || H: Shadha al-'Arf; Alfiyyat Ibn Malik
@@ -112,3 +140,5 @@ The ism al-maf'ul of "rama". :: Marmiyy || H: Shadha al-'Arf
 The ism al-maf'ul of "da'a" (to call). :: Mad'uww || H: Shadha al-'Arf
 The diminutive of "kitab". :: Kutayyib || H: Shadha al-'Arf
 The relative adjective (nisbah) of "Makkah". :: Makki || H: Shadha al-'Arf
+The nisbah of "Hanifah" drops its ya' to give this. :: Hanafi || H: Shadha al-'Arf (al-Hamalawi)
+The diminutive of "rajul". :: Rujayl || H: Shadha al-'Arf (al-Hamalawi)
