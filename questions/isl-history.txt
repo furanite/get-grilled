@@ -44,11 +44,11 @@ The Umayyad caliph who built the great mosque of Damascus. :: al-Walid ibn 'Abd 
 The Abbasid caliph famous in stories, who ruled 170-193 AH / 786-809 CE. :: Harun al-Rashid || H: Tarikh al-Tabari
 The Abbasid caliph who supported the House of Wisdom. :: al-Ma'mun || H: Tarikh al-Tabari
 The Islamic university in Fez, among the oldest in the world, founded by a woman. :: al-Qarawiyyin || H: Standard history
-The woman who founded al-Qarawiyyin in 245 AH / 859 CE. :: Fatimah al-Fihriyyah رحمة الله عليها || H?: Rawd al-Qirtas; date to be checked
+The woman who founded al-Qarawiyyin in 245 AH / 859 CE. :: Fatimah al-Fihriyyah رحمة الله عليها || H: Rawd al-Qirtas (Ibn Abi Zar')
 The great mosque and university of Cairo. :: al-Azhar || H: Standard history
 The Ottoman sultan called "the Lawgiver" (al-Qanuni). :: Sulayman al-Qanuni || H: Standard history
 The city where Salah al-Din رحمة الله عليه is buried. :: Damascus || H: al-Nawadir al-Sultaniyyah (Ibn Shaddad)
-The great mosque of Istanbul with six minarets, finished in 1026 AH / 1617 CE. :: The Sultan Ahmed Mosque (Blue Mosque) || H?: Standard history; year to be checked
+The great mosque of Istanbul with six minarets, finished about 1026 AH / 1617 CE. :: The Sultan Ahmed Mosque (Blue Mosque) || H: Standard history
 The travel book of Ibn Battutah رحمة الله عليه. :: Tuhfat al-Nuzzar (al-Rihlah) || H: Rihlat Ibn Battutah
 
 ## 300
@@ -70,7 +70,7 @@ The book of al-Dhahabi رحمة الله عليه on the lives of the nobles. ::
 The book of Ibn Khallikan رحمة الله عليه on the deaths of notables. :: Wafayat al-A'yan || H: Wafayat al-A'yan
 The Mughal emperor who compiled al-Fatawa al-Hindiyyah (al-'Alamgiriyyah). :: Awrangzeb 'Alamgir || H: al-Fatawa al-Hindiyyah
 The Delhi sultanate's famous minaret built by Qutb al-Din Aybak. :: Qutb Minar || H: Standard history
-The Mali king famous for his Hajj journey in 724 AH / 1324 CE. :: Mansa Musa || H?: Standard history; dates vary
+The Mali king famous for his Hajj journey in 724 AH / 1324 CE. :: Mansa Musa || H: al-Suluk (al-Maqrizi)
 The city of Mali famed for its manuscripts and scholars. :: Timbuktu || H: Nayl al-Ibtihaj (al-Tinbukti)
 The Crusaders took Jerusalem in this year. :: 492 AH / 1099 CE || H: al-Kamil fil-Tarikh (Ibn al-Athir)
 Salah al-Din رحمة الله عليه died in this year. :: 589 AH / 1193 CE || H: Wafayat al-A'yan (Ibn Khallikan)
@@ -121,5 +121,5 @@ The scholar of Khwarazm whose name gave us "algorithm". :: al-Khwarizmi || H: al
 The Muslim physician whose "Canon of Medicine" was taught for centuries (meaning). :: Ibn Sina || H: al-Qanun fil-Tibb
 The surgeon of al-Andalus who wrote al-Tasrif. :: al-Zahrawi || H: al-Tasrif
 The Ottoman architect of the Süleymaniye Mosque. :: Mimar Sinan || H: Standard history
-The madrasah founded in 457 AH / 1065 CE in Baghdad by Nizam al-Mulk. :: al-Nizamiyyah || H?: Wafayat al-A'yan (Ibn Khallikan); founding year 457 or 459 AH
+The madrasah of Baghdad built by Nizam al-Mulk and opened in 459 AH / 1067 CE. :: al-Nizamiyyah || H: al-Kamil fil-Tarikh (Ibn al-Athir)
 The scholar who taught and advised Sultan Muhammad al-Fatih and is said to have found the grave of Abu Ayyub (رِضْوَانُ اللَّهِ عَلَيْهِ). :: Aq Shams al-Din رحمة الله عليه || H?: al-Shaqa'iq al-Nu'maniyyah (Tashkopruzade); to be checked

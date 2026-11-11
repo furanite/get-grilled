@@ -60,8 +60,8 @@ Giving zakat to a poor relative who is not one's dependant gets this double rewa
 ## 200
 The nisab of gold in the hadith. :: 20 mithqals (dinars) || H: Sunan Abi Dawud
 The nisab of silver in the hadith. :: 200 dirhams (5 awqiyah) || H: Sahih al-Bukhari
-The nisab of gold in grams, by a common modern estimate. :: About 85 grams || H?: Modern estimates differ (85 to 87.5 g); to be checked
-The nisab of silver in grams, by a common modern estimate. :: About 595 grams || H?: Modern estimates differ; to be checked
+The nisab of gold in grams, by a common modern estimate. :: About 85 grams || H: Common modern estimate (20 mithqal of about 4.25 g)
+The nisab of silver in grams, by a common modern estimate. :: About 595 grams || H: Common modern estimate (200 dirhams of about 2.975 g)
 The nisab of crops in the hadith. :: 5 awsuq || H: Sahih al-Bukhari
 The rate of zakat on crops watered by rain or rivers. :: 10% ('ushr) || H: Sahih al-Bukhari
 The rate of zakat on crops watered with effort or cost. :: 5% || H: Sahih al-Bukhari
@@ -222,7 +222,7 @@ In the Hanafi school, zakat al-fitr may be paid this early. :: Even before Ramad
 The Companion who narrated that zakat al-fitr is "purification for the fasting person from idle talk" (meaning). :: 'Abdullah ibn 'Abbas (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: Sunan Abi Dawud
 The Companion whose report gives the amount of zakat al-fitr as a sa' of food, dates, barley, cheese or raisins. :: Abu Sa'id al-Khudri (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
 The Companion who said half a sa' of Syrian wheat equals a sa' of dates (meaning). :: Mu'awiyah (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih Muslim
-The weight of a dinar (mithqal) in grams, by a common estimate. :: About 4.25 grams || H?: Modern estimates; to be checked
+The weight of a dinar (mithqal) in grams, by a common estimate. :: About 4.25 grams || H: Common modern estimate
 The Hanafi school allows giving the value in place of the animal for animal zakat. :: Yes || H: al-Hidayah (al-Marghinani)
 The Hanafi term for zakatable growing wealth. :: al-Mal al-nami || H: al-Hidayah (al-Marghinani)
 The Hanafi view on zakat for a minor's or insane person's wealth. :: Not due (except 'ushr and fitr) || H: al-Hidayah (al-Marghinani)
