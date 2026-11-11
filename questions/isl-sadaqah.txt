@@ -1,0 +1,115 @@
+id: isl-sadaqah
+name: Fiqh: Sadaqah (charity)
+nameAr: الفقه: الصدقة
+group: fiqh
+# Fiqh files keep to points the four Sunni schools agree on. Where they differ, the clue names the school.
+
+## 100
+Voluntary charity in Arabic. :: Sadaqah || H: Qur'an 2:271
+The Prophet ﷺ said charity does not do this to wealth (paraphrased). :: Decrease it || H: Sahih Muslim
+The Prophet ﷺ said a smile for your brother is this (paraphrased). :: Charity || H: Sunan al-Tirmidhi
+The Prophet ﷺ said protect yourselves from the Fire even with half of this (paraphrased). :: A date || H: Sahih al-Bukhari
+The upper hand is better than this hand (paraphrased). :: The lower hand || H: Sahih al-Bukhari
+The Prophet ﷺ said the upper hand is this one. :: The one that gives || H: Sahih al-Bukhari
+A charity that keeps giving reward after death. :: Sadaqah jariyah || H: Sahih Muslim
+The three things that benefit a person after death: sadaqah jariyah, useful knowledge and this. :: A righteous child who prays for him || H: Sahih Muslim
+Giving charity in secret is praised; the Prophet ﷺ said the left hand should not know what this hand gave (paraphrased). :: The right hand || H: Sahih al-Bukhari
+A good word is this, the Prophet ﷺ said (paraphrased). :: Charity || H: Sahih al-Bukhari
+Removing harm from the road is this (paraphrased). :: Charity || H: Sahih al-Bukhari
+The surah that says righteousness is not reached until you spend from what you love. :: Surah Al 'Imran (3:92) || H: Qur'an 3:92
+Charity should not be followed by reminders of this, or hurt. :: The favour (al-mann) || H: Qur'an 2:264
+The Qur'an compares spending in Allah's way to a grain that grows this many ears. :: Seven || H: Qur'an 2:261
+Each ear in that parable holds this many grains. :: 100 || H: Qur'an 2:261
+The Companion who gave all his wealth for Tabuk. :: Abu Bakr (رضي الله عنه) || H: Sunan Abi Dawud; Sunan al-Tirmidhi
+The best charity is given while you are this, the Prophet ﷺ said (paraphrased). :: Healthy and hoping to live || H: Sahih al-Bukhari
+Giving water is among the best charities, the Prophet ﷺ said, to this Companion. :: Sa'd ibn 'Ubadah (رضي الله عنه) || H: Sunan Abi Dawud
+The person Allah shades on the Day who gives so secretly that his left hand does not know. :: One of the seven shaded || H: Sahih al-Bukhari
+The Prophet ﷺ was most generous in this month. :: Ramadan || H: Sahih al-Bukhari
+
+## 200
+An endowment whose income goes to good causes for ever. :: Waqf || H: Sahih al-Bukhari
+The Companion who made the first famous waqf, of land at Khaybar. :: 'Umar ibn al-Khattab (رضي الله عنه) || H: Sahih al-Bukhari
+The Prophet ﷺ told him: "Keep the land and give its fruits" (meaning); the land was called this. :: Thamgh || H: Sahih al-Bukhari
+The well 'Uthman (رضي الله عنه) bought and gave freely to the Muslims. :: Bi'r Rumah || H: Sunan al-Tirmidhi
+The Ansari Companion who gave his best garden, Bayruha', when 3:92 came down. :: Abu Talhah (رضي الله عنه) || H: Sahih al-Bukhari
+Charity given to a relative counts as two things: charity and this. :: Keeping the ties of kinship || H: Sunan al-Tirmidhi; Sunan al-Nasa'i
+The Prophet ﷺ said start with those you support, beginning with this. :: Yourself, then your family || H: Sahih Muslim
+Spending on one's family with the right intention is this. :: Charity (sadaqah) || H: Sahih al-Bukhari
+Even the morsel a man puts in his wife's mouth is this, the Prophet ﷺ said (paraphrased). :: Charity || H: Sahih al-Bukhari
+Giving gifts to one another causes this, the Prophet ﷺ said (paraphrased). :: Love || H: al-Adab al-Mufrad (al-Bukhari)
+Taking back a gift is likened in the hadith to a dog doing this. :: Returning to its vomit || H: Sahih al-Bukhari
+A gift in Arabic. :: Hadiyyah (hibah) || H: Sahih al-Bukhari
+The Prophet ﷺ accepted this, but did not eat sadaqah. :: Gifts (hadiyyah) || H: Sahih al-Bukhari
+Sadaqah is not lawful for the family of the Prophet ﷺ because it is this, he said (paraphrased). :: The dirt of people's wealth || H: Sahih Muslim
+The verse that says "Allah destroys riba and increases charities" (meaning). :: Qur'an 2:276 || H: Qur'an 2:276
+Spending openly or secretly, by night and day, is praised in this verse. :: Qur'an 2:274 || H: Qur'an 2:274
+Feeding the hungry, freeing a neck, or feeding an orphan relative is called "the steep path" in this surah. :: Surah al-Balad || H: Qur'an 90:11-16
+The surah that blames those who refuse small kindnesses (al-ma'un). :: Surah al-Ma'un || H: Qur'an 107:7
+The Prophet ﷺ said "every act of goodness" is this. :: Charity || H: Sahih al-Bukhari
+Each joint of a person owes a charity every day, and two rak'ahs of this prayer suffice for all. :: Duha || H: Sahih Muslim
+
+## 300
+Giving all one's wealth in charity is allowed in this condition, by the scholars. :: If one can bear poverty with patience and has no dependants in need || H: Sharh Sahih Muslim (al-Nawawi)
+The Prophet ﷺ told Sa'd (رضي الله عنه), who wished to give away most of his wealth, that this fraction is enough. :: One third, and a third is much || H: Sahih al-Bukhari
+A bequest (wasiyyah) for charity may not exceed this. :: One third of the estate || H: Sahih al-Bukhari
+A bequest to an heir is this without the other heirs' consent. :: Not valid || H: Sunan Abi Dawud; Sunan al-Tirmidhi
+The Prophet ﷺ said leaving your heirs rich is better than leaving them this. :: Poor and begging from people || H: Sahih al-Bukhari
+The Companion who took on a debt to make peace between people, and was told that asking is allowed for him until he pays it. :: Qabisah ibn Mukhariq (رضي الله عنه) || H: Sahih Muslim
+The other two allowed to ask: one struck by a disaster and this one. :: One struck by poverty, with three witnesses || H: Sahih Muslim
+The Prophet ﷺ said a man who keeps begging will come on the Day with no this on his face. :: Flesh || H: Sahih al-Bukhari
+The Prophet ﷺ said it is better for one to take a rope and gather firewood than to do this. :: Beg from people || H: Sahih al-Bukhari
+Charity on behalf of a dead parent does this, by the scholars. :: Reaches them and benefits them || H: Sahih al-Bukhari (Sa'd's mother)
+The Companion who asked if charity for his dead mother would benefit her, and dug a well. :: Sa'd ibn 'Ubadah (رضي الله عنه) || H: Sunan Abi Dawud; Sunan al-Nasa'i
+The two good deeds for the dead that the scholars agree reach them: du'a and this. :: Charity (sadaqah) || H: Sahih Muslim
+The Prophet ﷺ said the best charity is to feed this. :: A hungry living being || H?: Shu'ab al-Iman (al-Bayhaqi); wording to be checked
+A waqf for the family's own descendants is called this. :: Waqf ahli (dhurri) || H: Radd al-Muhtar; al-Mughni
+A waqf for public good is called this. :: Waqf khayri || H: Radd al-Muhtar; al-Mughni
+The manager of a waqf. :: Nazir (mutawalli) || H: Radd al-Muhtar
+In the Hanafi school, by Abu Hanifah's view, a waqf is binding only after this. :: A judge's ruling (or as a bequest) || H: al-Hidayah (al-Marghinani)
+The two students of Abu Hanifah held a waqf binding as soon as this. :: It is made (Abu Yusuf) or handed over (Muhammad) || H: al-Hidayah (al-Marghinani)
+The fatwa in the Hanafi school on waqf follows this view. :: That of the two students (binding) || H: Radd al-Muhtar (Ibn 'Abidin)
+The Ottoman cash waqf, allowed by many Hanafi scholars, was a waqf of this. :: Money (nuqud) || H: Radd al-Muhtar (Ibn 'Abidin)
+
+## 400
+A gift becomes binding in the Hanafi and Shafi'i schools on this. :: Taking possession (qabd) || H: al-Hidayah; Matn Abi Shuja'
+In the Maliki school, a gift becomes binding on this. :: The offer and acceptance (before possession) || H: al-Risalah (Ibn Abi Zayd)
+A father may take back a gift he gave his child in the Shafi'i and Hanbali schools. :: Yes || H: Sunan Abi Dawud; Matn Abi Shuja'
+In the Hanafi school, these seven things stop taking back a gift; one is if the giver and receiver are this. :: Close blood relatives (mahram) || H: al-Hidayah (al-Marghinani)
+Giving more to one child than others is this, the Prophet ﷺ said to al-Nu'man's father (paraphrased). :: Unfair (he would not witness it) || H: Sahih al-Bukhari
+The Companion whose father wanted the Prophet ﷺ to witness a gift to him alone. :: al-Nu'man ibn Bashir (رضي الله عنهما) || H: Sahih al-Bukhari
+A gift for life, which returns to the giver or goes to the receiver's heirs. :: 'Umra || H: Sahih Muslim
+A gift on condition it returns to the one who lives longer. :: Ruqba || H: Sunan Abi Dawud
+A loan given for Allah's sake is called this. :: Qard hasan || H: Qur'an 2:245
+The Qur'an asks, "Who will lend Allah a goodly loan?" (meaning), in this surah among others. :: Surah al-Baqarah (2:245) || H: Qur'an 2:245
+The Companion who sold his garden for a palm in Paradise after that verse came down. :: Abu al-Dahdah (رضي الله عنه) || H?: Musnad Ahmad; to be checked
+Lost property found and announced for a year is called this. :: Luqatah || H: Sahih al-Bukhari
+After a year of announcing, the finder may do this. :: Use it, but return it if the owner comes || H: Sahih al-Bukhari
+In the Hanafi school, a wealthy finder after a year must do this. :: Give it in charity || H: al-Hidayah (al-Marghinani)
+The ruling for a stray camel found in the desert. :: Leave it || H: Sahih al-Bukhari
+The ruling for a stray sheep found in the desert. :: It is for you, your brother, or the wolf || H: Sahih al-Bukhari
+Lost property in the Haram of Makkah may only be picked up to do this. :: Announce it || H: Sahih al-Bukhari
+The Companion who asked the Prophet ﷺ about lost property, in the famous hadith. :: Zayd ibn Khalid al-Juhani (رضي الله عنه) || H: Sahih al-Bukhari
+A vow (nadhr) to give charity must be fulfilled if it is for this. :: Obedience to Allah || H: Sahih al-Bukhari
+The Prophet ﷺ said a vow does not bring good but only this (paraphrased). :: Takes from the miser || H: Sahih al-Bukhari
+
+## 500
+The Hanafi scholar who wrote al-Is'af on the rulings of waqf. :: Burhan al-Din al-Tarabulusi رحمة الله عليه || H: al-Is'af fi Ahkam al-Awqaf
+The Hanafi scholar al-Khassaf رحمة الله عليه wrote a famous book on this. :: Ahkam al-Awqaf || H: Ahkam al-Awqaf (al-Khassaf)
+The Hanafi ruling that the words of the waqif are treated like this. :: The text of the Lawgiver (nass al-shari') || H: Radd al-Muhtar (Ibn 'Abidin)
+The great Ottoman shaykh al-Islam who gave a fatwa allowing cash waqf. :: Abu al-Su'ud Efendi رحمة الله عليه || H: Risalah fi Waqf al-Nuqud (Abu al-Su'ud)
+The hospital waqf of Damascus founded by Nur al-Din Zangi. :: al-Bimaristan al-Nuri || H: Standard history
+A waqf can be changed for a better one when it fails, in the Hanafi school; this is called this. :: Istibdal || H: Radd al-Muhtar (Ibn 'Abidin)
+In the Shafi'i school, the waqf of a mosque that falls into ruin does this. :: Stays a mosque for ever || H: al-Minhaj (al-Nawawi)
+In the Hanbali school, the waqf of a ruined mosque may do this. :: Be sold and its price used for another || H: al-Mughni (Ibn Qudamah)
+The Companion who said "We are told to spend; but we carried loads to earn something to give" (meaning). :: Abu Mas'ud al-Ansari (رضي الله عنه) || H: Sahih al-Bukhari
+The hypocrites mocked those who gave little, in this surah. :: Surah al-Tawbah (9:79) || H: Qur'an 9:79
+The Companion who brought a sa' of dates that he earned by drawing water, and was mocked by the hypocrites. :: Abu 'Aqil (رضي الله عنه) || H?: Sahih al-Bukhari (Fath al-Bari); name to be checked
+The Prophet ﷺ said "one dirham outstripped a hundred thousand" (meaning), because it was this. :: Given by a poor man from his two dirhams || H: Sunan al-Nasa'i
+The woman who was forgiven for giving water to a thirsty dog. :: A sinful woman of the Children of Isra'il || H: Sahih al-Bukhari
+A man gave charity at night, by mistake, to a thief, an adulteress and a rich man; his charity was this. :: Accepted || H: Sahih al-Bukhari
+The lesson of that hadith: charity is rewarded by this. :: The intention || H: Fath al-Bari (Ibn Hajar)
+The Prophet ﷺ said the miser is far from Allah and from this. :: Paradise and people || H?: Sunan al-Tirmidhi; grade to be checked
+The Prophet ﷺ told Bilal (رضي الله عنه) to spend and not fear that the Lord of the Throne would do this (paraphrased). :: Leave him in want || H?: al-Mu'jam al-Kabir (al-Tabarani); to be checked
+Zakat al-mal is due in the hawl; charity can be given this. :: At any time || H: Standard ruling
+Sadaqah to a non-Muslim in need is this, by the scholars. :: Allowed (voluntary charity) || H: Qur'an 76:8; Sahih al-Bukhari (Asma' and her mother)
+The Companion whose non-Muslim mother visited and the Prophet ﷺ told her to keep ties with her. :: Asma' bint Abi Bakr (رضي الله عنها) || H: Sahih al-Bukhari

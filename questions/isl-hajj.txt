@@ -1,0 +1,116 @@
+id: isl-hajj
+name: Fiqh: Hajj and Umrah
+nameAr: الفقه: الحج والعمرة
+group: fiqh
+# Fiqh files keep to points the four Sunni schools agree on. Where they differ, the clue names the school.
+# Text only: no picture of Makkah, Madinah or the holy sites is ever shown.
+
+## 100
+The pilgrimage, the fifth pillar of Islam. :: Hajj || H: Sahih al-Bukhari
+The lesser pilgrimage, which can be done at any time. :: 'Umrah || H: Sahih al-Bukhari
+Hajj is required once in a lifetime on one who is able, as said in this surah. :: Surah Al 'Imran (3:97) || H: Qur'an 3:97
+The month of Hajj. :: Dhul-Hijjah || H: Sahih al-Bukhari
+The state of consecration a pilgrim enters. :: Ihram || H: Sahih al-Bukhari
+The words the pilgrim repeats: "Labbayk Allahumma labbayk". :: Talbiyah || H: Sahih al-Bukhari
+Walking around the Ka'bah seven times. :: Tawaf || H: Qur'an 22:29
+Walking between Safa and Marwah. :: Sa'y || H: Qur'an 2:158
+The number of circuits in tawaf. :: 7 || H: Sahih Muslim
+The number of trips between Safa and Marwah. :: 7 || H: Sahih Muslim
+The day of standing, the main pillar of Hajj. :: The Day of 'Arafah (9th Dhul-Hijjah) || H: Sunan al-Tirmidhi
+The Prophet ﷺ said Hajj is this (paraphrased). :: 'Arafah || H: Sunan al-Tirmidhi; Sunan Abi Dawud
+The place where pilgrims spend the night after 'Arafah. :: Muzdalifah || H: Sahih Muslim
+The place where pilgrims stay in the days of tashriq. :: Mina || H: Sahih Muslim
+Throwing pebbles at the pillars is called this. :: Rami al-jamarat || H: Sahih Muslim
+The festival of sacrifice on the 10th of Dhul-Hijjah. :: Eid al-Adha || H: Sahih al-Bukhari
+The animal sacrifice of Eid al-Adha. :: Udhiyah (qurbani) || H: Sahih al-Bukhari
+Men cut or shave this at the end of Hajj or 'Umrah. :: Their hair || H: Qur'an 48:27
+The water of this well is drunk by pilgrims. :: Zamzam || H: Sahih Muslim
+The Prophet ﷺ said an accepted Hajj has no reward but this (paraphrased). :: Paradise || H: Sahih al-Bukhari
+
+## 200
+The Prophet ﷺ performed Hajj this many times after the Hijrah. :: Once || H: Sahih Muslim
+The Prophet's Hajj in 10 AH / 632 CE is called this. :: Hajjat al-Wada' (the Farewell Hajj) || H: Sahih Muslim
+The Companion whose long report is the main source on the Prophet's Hajj. :: Jabir ibn 'Abdullah (رضي الله عنهما) || H: Sahih Muslim
+The places where pilgrims must enter ihram. :: Miqat (mawaqit) || H: Sahih al-Bukhari
+The miqat for the people of Madinah. :: Dhul-Hulayfah || H: Sahih al-Bukhari
+The miqat for the people of al-Sham (and Egypt). :: al-Juhfah || H: Sahih al-Bukhari
+The miqat for the people of Najd. :: Qarn al-Manazil || H: Sahih al-Bukhari
+The miqat for the people of Yemen. :: Yalamlam || H: Sahih al-Bukhari
+The miqat for the people of Iraq, set by 'Umar (رضي الله عنه). :: Dhat 'Irq || H: Sahih al-Bukhari
+The three ways of doing Hajj. :: Ifrad, tamattu', qiran || H: Sahih Muslim
+Doing 'Umrah, leaving ihram, then Hajj in the same season. :: Tamattu' || H: Qur'an 2:196
+Joining Hajj and 'Umrah in one ihram. :: Qiran || H: Sahih Muslim
+Hajj alone. :: Ifrad || H: Sahih Muslim
+Men's ihram clothes are these two pieces. :: Two unstitched white cloths (izar and rida') || H: Sahih al-Bukhari
+The tawaf done on arrival in Makkah. :: Tawaf al-qudum || H: Sahih Muslim
+The main tawaf of Hajj, a pillar, done from the 10th of Dhul-Hijjah. :: Tawaf al-ifadah (al-ziyarah) || H: Qur'an 22:29
+The farewell tawaf before leaving Makkah. :: Tawaf al-wada' || H: Sahih al-Bukhari
+The stone in the corner of the Ka'bah where tawaf begins. :: The Black Stone (al-Hajar al-Aswad) || H: Sahih Muslim
+The corner of the Ka'bah before the Black Stone, touched in tawaf. :: al-Rukn al-Yamani || H: Sahih al-Bukhari
+The du'a between the Yemeni corner and the Black Stone, "Our Lord, give us good in this world..." (meaning), is from this surah. :: Surah al-Baqarah (2:201) || H: Sunan Abi Dawud; Qur'an 2:201
+
+## 300
+The pillars of Hajj in the Hanafi school. :: Standing at 'Arafah and tawaf al-ifadah || H: Nur al-Idah; al-Hidayah
+In the Shafi'i school, the pillars of Hajj include ihram, 'Arafah, tawaf, sa'y and this. :: Shaving or cutting the hair || H: Matn Abi Shuja'
+In the Hanafi school, sa'y is this. :: Wajib || H: al-Hidayah (al-Marghinani)
+The penalty for leaving a wajib of Hajj. :: Dam (sacrificing a sheep) || H: al-Hidayah; Matn Abi Shuja'
+The days of the "tarwiyah" (watering) are on this date. :: 8th Dhul-Hijjah || H: Sahih Muslim
+The pebbles are thrown on the 10th at this pillar only. :: Jamrat al-'Aqabah || H: Sahih Muslim
+The number of pebbles thrown at each jamrah. :: 7 || H: Sahih Muslim
+The size of each pebble, as the Prophet ﷺ described. :: Like a small bean or chickpea (hasa al-khadhf) || H: Sahih Muslim
+The pilgrim in tamattu' or qiran must offer this. :: A sacrifice (hady) || H: Qur'an 2:196
+If no sacrifice is found, the pilgrim fasts this many days in all. :: 10 (three in Hajj and seven at home) || H: Qur'an 2:196
+The four rites of the 10th are throwing, sacrifice, shaving and this. :: Tawaf al-ifadah || H: Sahih Muslim
+The first release from ihram (tahallul awwal) allows all but this. :: Marital relations || H: Sunan Abi Dawud; al-Hidayah
+Walking quickly in the first three circuits of tawaf al-qudum, for men. :: Raml || H: Sahih al-Bukhari
+Uncovering the right shoulder in tawaf, for men. :: Idtiba' || H: Sunan Abi Dawud
+The two rak'ahs after tawaf are prayed behind this. :: Maqam Ibrahim || H: Qur'an 2:125; Sahih Muslim
+The Prophet ﷺ combined Zuhr and 'Asr at this place on the 9th. :: 'Arafah (at Namirah) || H: Sahih Muslim
+The Prophet ﷺ combined Maghrib and 'Isha' at this place. :: Muzdalifah || H: Sahih Muslim
+The hill at Muzdalifah where the Prophet ﷺ stood in du'a at dawn. :: al-Mash'ar al-Haram || H: Qur'an 2:198; Sahih Muslim
+The valley between Muzdalifah and Mina where pilgrims hurry. :: Wadi Muhassir || H: Sahih Muslim
+The Prophet ﷺ said "Take your rites from me" (meaning) while doing this. :: Throwing the jamrah (on Hajj) || H: Sahih Muslim
+
+## 400
+Things forbidden in ihram include perfume, cutting hair or nails, and this for men. :: Stitched clothes and covering the head || H: Sahih al-Bukhari
+Hunting land animals in ihram is forbidden by this verse. :: Qur'an 5:95 || H: Qur'an 5:95
+The penalty for killing game in ihram is a like animal judged by this many just men. :: 2 || H: Qur'an 5:95
+The penalty for shaving the head for a reason in ihram: fasting, charity or this. :: A sacrifice || H: Qur'an 2:196
+The Companion with lice for whom the verse of shaving in ihram came down. :: Ka'b ibn 'Ujrah (رضي الله عنه) || H: Sahih al-Bukhari
+The fasting option for that penalty is this many days. :: 3 || H: Sahih al-Bukhari
+The charity option for that penalty is feeding this many poor people. :: 6 || H: Sahih al-Bukhari
+A woman's ihram: she may not cover her face with this or wear gloves. :: The niqab || H: Sahih al-Bukhari
+A woman in her period may do all the rites except this. :: Tawaf || H: Sahih al-Bukhari
+The Mother of the Believers whose period began at Sarif, and who was told to do all but tawaf. :: 'A'ishah (رضي الله عنها) || H: Sahih al-Bukhari
+A woman in her period may leave without this tawaf. :: Tawaf al-wada' || H: Sahih al-Bukhari
+The Mother of the Believers whose period came and the Prophet ﷺ let her leave without tawaf al-wada'. :: Safiyyah (رضي الله عنها) || H: Sahih al-Bukhari
+In the Hanafi school, tawaf al-wada' is this ruling. :: Wajib || H: al-Hidayah (al-Marghinani)
+In the Maliki school, tawaf al-wada' is this ruling. :: Sunnah || H: al-Risalah (Ibn Abi Zayd)
+In the Hanafi school, tawaf without wudu' is this. :: Valid but needs a penalty || H: al-Hidayah (al-Marghinani)
+In the Shafi'i, Maliki and Hanbali schools, tawaf without wudu' is this. :: Not valid || H: Matn Abi Shuja'; al-Risalah; Zad al-Mustaqni'
+The Prophet ﷺ said tawaf is like this, except that talking is allowed (paraphrased). :: Prayer || H: Sunan al-Tirmidhi
+The best of the three ways of Hajj in the Hanafi school. :: Qiran || H: al-Hidayah (al-Marghinani)
+The best of the three ways in the Shafi'i and Maliki schools. :: Ifrad || H: Matn Abi Shuja'; al-Risalah
+The best of the three ways in the Hanbali school. :: Tamattu' || H: Zad al-Mustaqni'
+
+## 500
+In the Hanafi school, the wajib acts of Hajj include staying at Muzdalifah, throwing, shaving and this. :: Sa'y (and tawaf al-wada') || H: al-Hidayah (al-Marghinani)
+In the Hanafi school, the wajib time at Muzdalifah is this. :: Between dawn and sunrise on the 10th || H: al-Hidayah (al-Marghinani)
+In the Shafi'i school, the wajib time at Muzdalifah is this. :: Some time after midnight || H: Matn Abi Shuja'
+The time of standing at 'Arafah begins at this time on the 9th. :: After midday (zawal) || H: Sahih Muslim; al-Hidayah
+The standing at 'Arafah lasts until this time. :: Dawn of the 10th || H: Sunan Abi Dawud; Sunan al-Tirmidhi
+The Companion who came late to 'Arafah at night and the Prophet ﷺ said his Hajj was complete. :: 'Urwah ibn Mudarris (رضي الله عنه) || H: Sunan Abi Dawud; Sunan al-Tirmidhi
+The Companion who fell from his camel and died in ihram; the Prophet ﷺ said he will rise saying the talbiyah (meaning). :: An unnamed Companion || H: Sahih al-Bukhari
+The Companion who had hady with him, so did not leave ihram, along with the Prophet ﷺ. :: 'Ali ibn Abi Talib (رضي الله عنه) || H: Sahih Muslim
+A pilgrim prevented from finishing, called this, sacrifices and leaves ihram. :: Muhsar || H: Qur'an 2:196
+The Prophet ﷺ and his Companions were prevented at this place in 6 AH / 628 CE. :: al-Hudaybiyah || H: Sahih al-Bukhari
+The 'Umrah done the next year in place of it. :: 'Umrat al-Qada' || H: Sahih al-Bukhari
+The number of 'Umrahs the Prophet ﷺ did, by Anas's count. :: 4 || H: Sahih al-Bukhari
+The month in which all of his 'Umrahs except the one with his Hajj were done. :: Dhul-Qa'dah || H: Sahih al-Bukhari
+The Prophet ﷺ said 'Umrah in Ramadan equals this (paraphrased). :: A Hajj (with me) || H: Sahih al-Bukhari
+Hajj on behalf of someone else, called this. :: Hajj al-badal || H: Sahih al-Bukhari
+The woman of Khath'am who asked to do Hajj for her old father, who could not sit on a mount. :: The Khath'ami woman || H: Sahih al-Bukhari
+The Companion who was riding behind the Prophet ﷺ when the Khath'ami woman asked. :: al-Fadl ibn 'Abbas (رضي الله عنهما) || H: Sahih al-Bukhari
+In the Hanafi school, a woman needs this to travel for Hajj. :: A mahram or her husband || H: al-Hidayah (al-Marghinani)
+In the Shafi'i school, a woman may travel for an obligatory Hajj with this. :: A group of trustworthy women || H: Matn Abi Shuja'; al-Minhaj
+The Hanafi book by Mulla 'Ali al-Qari رحمة الله عليه on the rites of Hajj. :: al-Maslak al-Mutaqassit || H: al-Maslak al-Mutaqassit

@@ -67,6 +67,14 @@ This file is rewritten by `npm run packs`.
 - **500**, line 102: The verse many regard as the last revealed, according to a report from Ibn 'Abbas (رضي الله عنه). **Answer:** Qur'an 2:281 _(Source: al-Itqan (al-Suyuti), report of Ibn 'Abbas)_
 - **500**, line 103: The word said to mark the middle of the Qur'an by letters. **Answer:** Wal-yatalattaf (18:19) _(Source: Commonly stated in works on Qur'an counts)_
 
+## Fiqh: Sadaqah (charity) (questions/isl-sadaqah.txt)
+
+- **300**, line 64: The Prophet ﷺ said the best charity is to feed this. **Answer:** A hungry living being _(Source: Shu'ab al-Iman (al-Bayhaqi); wording to be checked)_
+- **400**, line 84: The Companion who sold his garden for a palm in Paradise after that verse came down. **Answer:** Abu al-Dahdah (رضي الله عنه) _(Source: Musnad Ahmad; to be checked)_
+- **500**, line 106: The Companion who brought a sa' of dates that he earned by drawing water, and was mocked by the hypocrites. **Answer:** Abu 'Aqil (رضي الله عنه) _(Source: Sahih al-Bukhari (Fath al-Bari); name to be checked)_
+- **500**, line 111: The Prophet ﷺ said the miser is far from Allah and from this. **Answer:** Paradise and people _(Source: Sunan al-Tirmidhi; grade to be checked)_
+- **500**, line 112: The Prophet ﷺ told Bilal (رضي الله عنه) to spend and not fear that the Lord of the Throne would do this (paraphrased). **Answer:** Leave him in want _(Source: al-Mu'jam al-Kabir (al-Tabarani); to be checked)_
+
 ## The Companions (questions/isl-sahabah.txt)
 
 - **400**, line 84: The great battle against the Persians in 15 AH / 636 CE. **Answer:** The Battle of al-Qadisiyyah _(Source: Tarikh al-Tabari; reports give 14, 15 or 16 AH)_
@@ -121,3 +129,9 @@ This file is rewritten by `npm run packs`.
 
 - **200**, line 45: The Sufi order of India named after Mu'in al-Din Chishti رحمة الله عليه. **Answer:** The Chishti order _(Source: Siyar al-Awliya'; to be checked)_
 - **500**, line 96: The Sufi and scholar of Morocco called "Muhtasib al-'Ulama' wal-Awliya'". **Answer:** Ahmad Zarruq رحمة الله عليه _(Source: Nayl al-Ibtihaj (al-Tinbukti); title to be checked)_
+
+## Fiqh: Zakat (questions/isl-zakat.txt)
+
+- **200**, line 32: The nisab of gold in grams, by a common modern estimate. **Answer:** About 85 grams _(Source: Modern estimates differ (85 to 87.5 g); to be checked)_
+- **200**, line 33: The nisab of silver in grams, by a common modern estimate. **Answer:** About 595 grams _(Source: Modern estimates differ; to be checked)_
+- **500**, line 99: The weight of a dinar (mithqal) in grams, by a common estimate. **Answer:** About 4.25 grams _(Source: Modern estimates; to be checked)_

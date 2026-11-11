@@ -1,0 +1,115 @@
+id: isl-zakat
+name: Fiqh: Zakat
+nameAr: الفقه: الزكاة
+group: fiqh
+# Fiqh files keep to points the four Sunni schools agree on. Where they differ, the clue names the school.
+
+## 100
+The obligatory alms, the third pillar of Islam. :: Zakat || H: Sahih al-Bukhari
+The word "zakat" means purification and this. :: Growth || H: Lisan al-'Arab
+The usual rate of zakat on money and trade goods. :: 2.5% (one fortieth) || H: Sunan Abi Dawud
+The least wealth on which zakat is due. :: Nisab || H: Sahih al-Bukhari
+The wealth must be held for this long before zakat is due. :: One lunar year (hawl) || H: Sunan Abi Dawud
+The verse that names the eight kinds of people who receive zakat. :: Qur'an 9:60 || H: Qur'an 9:60
+The first two kinds of zakat recipients in that verse. :: The poor and the needy (fuqara' and masakin) || H: Qur'an 9:60
+Zakat is often paired in the Qur'an with this. :: Prayer (salah) || H: Qur'an 2:43
+The caliph who fought those who refused to pay zakat. :: Abu Bakr al-Siddiq (رضي الله عنه) || H: Sahih al-Bukhari
+The charity paid at the end of Ramadan. :: Zakat al-fitr || H: Sahih al-Bukhari
+Zakat is paid on gold and this metal. :: Silver || H: Sahih Muslim
+Zakat is paid on these animals that graze freely. :: Camels, cattle, sheep and goats || H: Sahih al-Bukhari
+Zakat is paid on these crops at harvest. :: Grains and fruits (such as dates) || H: Qur'an 6:141
+Zakat on crops is due on the day of this. :: Harvest || H: Qur'an 6:141
+A person's own home is this, for zakat. :: Not zakatable || H: Sahih al-Bukhari
+A person's own riding animal or car is this, for zakat. :: Not zakatable || H: Sahih al-Bukhari
+The Prophet ﷺ sent this Companion to Yemen to teach that zakat is taken from the rich and given to the poor. :: Mu'adh ibn Jabal (رضي الله عنه) || H: Sahih al-Bukhari
+Zakat cannot be given to these close relatives one must support, by agreement. :: Parents and children || H: al-Mughni (Ibn Qudamah)
+Zakat may not be given to the family of this person. :: The Prophet ﷺ (Banu Hashim) || H: Sahih Muslim
+The intention to pay zakat is this. :: A condition || H: Nur al-Idah; Matn Abi Shuja'
+
+## 200
+The nisab of gold in the hadith. :: 20 mithqals (dinars) || H: Sunan Abi Dawud
+The nisab of silver in the hadith. :: 200 dirhams (5 awqiyah) || H: Sahih al-Bukhari
+The nisab of gold in grams, by a common modern estimate. :: About 85 grams || H?: Modern estimates differ (85 to 87.5 g); to be checked
+The nisab of silver in grams, by a common modern estimate. :: About 595 grams || H?: Modern estimates differ; to be checked
+The nisab of crops in the hadith. :: 5 awsuq || H: Sahih al-Bukhari
+The rate of zakat on crops watered by rain or rivers. :: 10% ('ushr) || H: Sahih al-Bukhari
+The rate of zakat on crops watered with effort or cost. :: 5% || H: Sahih al-Bukhari
+The nisab of sheep. :: 40 || H: Sahih al-Bukhari
+The zakat on 40 to 120 sheep. :: One sheep || H: Sahih al-Bukhari
+The nisab of camels. :: 5 || H: Sahih al-Bukhari
+The zakat on 5 to 9 camels. :: One sheep || H: Sahih al-Bukhari
+The nisab of cattle. :: 30 || H: Sunan al-Tirmidhi (hadith of Mu'adh)
+The rate of zakat on buried treasure (rikaz). :: One fifth (20%) || H: Sahih al-Bukhari
+The eight recipients include those employed to collect zakat, called this. :: al-'Amilin 'alayha || H: Qur'an 9:60
+The recipients whose hearts are to be won over. :: al-Mu'allafah qulubuhum || H: Qur'an 9:60
+The recipients who are in debt. :: al-Gharimin || H: Qur'an 9:60
+The recipient stranded on a journey. :: Ibn al-sabil || H: Qur'an 9:60
+The recipient "in the way of Allah". :: Fi sabil Allah || H: Qur'an 9:60
+Freeing slaves and captives is this recipient. :: Fil-riqab || H: Qur'an 9:60
+The letter of Abu Bakr (رضي الله عنه) setting out zakat on animals was given to this Companion. :: Anas ibn Malik (رضي الله عنه) || H: Sahih al-Bukhari
+
+## 300
+In the Hanafi school, zakat on women's gold jewellery is this. :: Due || H: Nur al-Idah; al-Hidayah
+In the Shafi'i, Maliki and Hanbali schools, zakat on women's permitted jewellery is this. :: Not due (by the main view) || H: Matn Abi Shuja'; al-Risalah; Zad al-Mustaqni'
+In the Hanafi school, the "nisab" for zakat al-fitr and qurbani is reached by owning this beyond needs. :: The value of the nisab || H: Nur al-Idah (al-Shurunbulali)
+In the Hanafi school, gold and silver are added together to reach nisab by this. :: Value || H: al-Hidayah (al-Marghinani)
+In the Shafi'i school, gold and silver are added together like this. :: They are not added together || H: Matn Abi Shuja'
+Trade goods are valued for zakat at this point. :: At the end of the year, at market value || H: Nur al-Idah; Matn Abi Shuja'
+Zakat on a debt owed to you that you expect to be paid, in the Hanafi school. :: Due when it is received, for past years || H: al-Hidayah (al-Marghinani)
+In the Hanafi school, zakat on crops is due on these, whatever the amount. :: All that the land produces || H: al-Hidayah (al-Marghinani)
+In the Shafi'i school, zakat on crops is due on these. :: Staple foods that can be stored, and dates and raisins || H: Matn Abi Shuja'
+Paying zakat before its year has passed is allowed by the majority, called this. :: Ta'jil al-zakat || H: Sunan Abi Dawud; Sunan al-Tirmidhi
+The Companion who asked the Prophet ﷺ to pay his zakat early. :: al-'Abbas (رضي الله عنه) || H: Sunan Abi Dawud
+In the Hanafi school, zakat may be given to one recipient type only. :: Yes, it may || H: al-Hidayah (al-Marghinani)
+In the Shafi'i school, zakat should be shared among this many recipient types when present. :: All eight (all present) || H: Matn Abi Shuja'
+In the Hanafi school, moving zakat to another town is disliked, except to these. :: Needy relatives or a more needy people || H: Nur al-Idah (al-Shurunbulali)
+In the Hanafi school, the poor person (faqir) owns this. :: Less than the nisab || H: Nur al-Idah (al-Shurunbulali)
+In the Hanafi school, the needy (miskin) owns this. :: Nothing || H: Nur al-Idah (al-Shurunbulali)
+In the Shafi'i school, the faqir is worse off than this. :: The miskin || H: Matn Abi Shuja'
+In the Shafi'i school, a wife may give her zakat to this person if he is poor. :: Her husband || H: Matn Abi Shuja'; Sahih al-Bukhari
+The wife of Ibn Mas'ud (رضي الله عنهما) who asked about giving charity to her husband. :: Zaynab (رضي الله عنها) || H: Sahih al-Bukhari
+In the Hanafi, Shafi'i and Hanbali schools, zakat on livestock is due only if they do this for most of the year. :: Graze freely (sa'imah) || H: al-Hidayah; Matn Abi Shuja'
+
+## 400
+In the Maliki school, zakat on working or fed animals is this. :: Still due || H: al-Risalah (Ibn Abi Zayd)
+The Hanafi school's term for the year passing on wealth. :: Hawalan al-hawl || H: Nur al-Idah (al-Shurunbulali)
+Wealth gained during the year, added to the nisab, in the Hanafi school. :: Is joined to the original wealth's year || H: al-Hidayah (al-Marghinani)
+In the Shafi'i school, new wealth gained in the year starts this. :: Its own year || H: Matn Abi Shuja'
+The zakat on 121 to 200 sheep. :: Two sheep || H: Sahih al-Bukhari
+The zakat on 201 to 300 sheep. :: Three sheep || H: Sahih al-Bukhari
+After 300 sheep, zakat is one sheep for each this many. :: 100 || H: Sahih al-Bukhari
+The female camel in its second year, given for 25 to 35 camels. :: Bint makhad || H: Sahih al-Bukhari
+The female camel in its third year, given for 36 to 45 camels. :: Bint labun || H: Sahih al-Bukhari
+The female camel in its fourth year, given for 46 to 60 camels. :: Hiqqah || H: Sahih al-Bukhari
+The female camel in its fifth year, given for 61 to 75 camels. :: Jadha'ah || H: Sahih al-Bukhari
+The zakat on 30 cattle. :: A one-year-old calf (tabi') || H: Sunan al-Tirmidhi (hadith of Mu'adh)
+The zakat on 40 cattle. :: A two-year-old (musinnah) || H: Sunan al-Tirmidhi (hadith of Mu'adh)
+The Prophet ﷺ forbade joining or separating flocks for this reason. :: To lower the zakat || H: Sahih al-Bukhari
+One wasq is this many sa'. :: 60 || H: Sunan Abi Dawud; al-Mughni
+In the Hanafi school, the crop zakat on land paying kharaj tax. :: Not due with kharaj || H: al-Hidayah (al-Marghinani)
+In the Hanafi and Hanbali schools, zakat is also due on this produce of bees. :: Honey || H: al-Hidayah; Sunan al-Tirmidhi
+In the Hanafi school, zakat al-fitr must be paid by the father for these. :: His young children || H: Nur al-Idah (al-Shurunbulali)
+In the Shafi'i school, a husband pays zakat al-fitr for this person too. :: His wife || H: Matn Abi Shuja'
+Zakat al-fitr is best paid at this time. :: Before the Eid prayer || H: Sahih al-Bukhari
+
+## 500
+The Companion who narrated that zakat al-fitr is "purification for the fasting person from idle talk" (meaning). :: 'Abdullah ibn 'Abbas (رضي الله عنهما) || H: Sunan Abi Dawud
+The Companion whose report gives the amount of zakat al-fitr as a sa' of food, dates, barley, cheese or raisins. :: Abu Sa'id al-Khudri (رضي الله عنه) || H: Sahih al-Bukhari
+The Companion who said half a sa' of Syrian wheat equals a sa' of dates (meaning). :: Mu'awiyah (رضي الله عنه) || H: Sahih Muslim
+The weight of a dinar (mithqal) in grams, by a common estimate. :: About 4.25 grams || H?: Modern estimates; to be checked
+The Hanafi school allows giving the value in place of the animal for animal zakat. :: Yes || H: al-Hidayah (al-Marghinani)
+The Hanafi term for zakatable growing wealth. :: al-Mal al-nami || H: al-Hidayah (al-Marghinani)
+The Hanafi view on zakat for a minor's or insane person's wealth. :: Not due (except 'ushr and fitr) || H: al-Hidayah (al-Marghinani)
+The Shafi'i, Maliki and Hanbali view on zakat in a minor's wealth. :: Due (the guardian pays it) || H: Matn Abi Shuja'; al-Mughni
+The Companion who told the guardians "Trade with the orphans' wealth so zakat does not eat it" (meaning). :: 'Umar ibn al-Khattab (رضي الله عنه) || H: Muwatta' Malik; Sunan al-Daraqutni
+The famous book on wealth and state revenue by Abu 'Ubayd al-Qasim ibn Sallam رحمة الله عليه. :: Kitab al-Amwal || H: Kitab al-Amwal
+The book by Abu Yusuf رحمة الله عليه on taxes for Harun al-Rashid. :: Kitab al-Kharaj || H: Kitab al-Kharaj
+The tax paid by non-Muslim subjects instead of zakat and military service. :: Jizyah || H: Qur'an 9:29
+The tithe taken from traders crossing borders, set by 'Umar (رضي الله عنه). :: 'Ushur || H: Kitab al-Amwal (Abu 'Ubayd)
+Zakat on minerals (ma'din) in the Shafi'i school. :: 2.5% on gold and silver from the mine || H: Matn Abi Shuja'
+Zakat on minerals in the Hanafi school. :: One fifth, like rikaz || H: al-Hidayah (al-Marghinani)
+The hadith "There is no zakat on wealth until a year passes" (meaning) is narrated by this Companion, among others. :: 'Ali ibn Abi Talib (رضي الله عنه) || H: Sunan Abi Dawud
+In the Hanafi school, zakat on debts owed by you is this. :: Debts are subtracted before counting nisab || H: al-Hidayah (al-Marghinani)
+In the Shafi'i school's new view, debts owed do this to zakat. :: Do not stop it || H: al-Minhaj (al-Nawawi)
+The surah that warns those who hoard gold and silver and do not spend it in the way of Allah. :: Surah al-Tawbah (9:34) || H: Qur'an 9:34
+The "fifth" of war gains is set out in this surah. :: Surah al-Anfal (8:41) || H: Qur'an 8:41
