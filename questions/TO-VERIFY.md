@@ -25,6 +25,12 @@ This file is rewritten by `npm run packs`.
 - **300**, line 55: The book of al-Sakkaki whose third part set out balagha in its classic form. **Answer:** Miftah al-'Ulum _(Source: Miftah al-'Ulum; check al-Sakkaki's creed before adding an honorific)_
 - **500**, line 95: The book of al-Rummani on the i'jaz of the Qur'an, one of the early three treatises. **Answer:** al-Nukat fi I'jaz al-Qur'an _(Source: Thalath Rasa'il fi I'jaz al-Qur'an; to be checked)_
 
+## Fiqh: Inheritance (Fara'id) (questions/isl-faraid.txt)
+
+- **100**, line 26: The Prophet ﷺ said learn the fara'id, for it is half of this (paraphrased). **Answer:** Knowledge _(Source: Sunan Ibn Majah; grade to be checked)_
+- **500**, line 109: The case of al-Kharqa' (mother, grandfather and sister) is also called al-Mukhammasah because this many Companions differed on it. **Answer:** 5 _(Source: al-Sirajiyyah; to be checked)_
+- **500**, line 112: The commentary on al-Rahbiyyah by Sibt al-Maridini رحمة الله عليه. **Answer:** Sharh al-Rahbiyyah _(Source: Title to be checked)_
+
 ## Hadith books and narrators (questions/isl-hadith.txt)
 
 - **500**, line 95: The teacher of al-Bukhari, nicknamed "Commander of the Believers in hadith", famed for criticism of narrators. **Answer:** 'Ali ibn al-Madini رحمة الله عليه _(Source: Siyar A'lam al-Nubala' (al-Dhahabi); title to be checked)_
@@ -42,6 +48,18 @@ This file is rewritten by `npm run packs`.
 - **500**, line 103: The number of points of difference listed between the two schools in many works, mostly in wording. **Answer:** About 12 _(Source: Commonly cited in works on Ash'ari-Maturidi differences; to be checked)_
 - **500**, line 104: On "Is faith (iman) created?", the Maturidi scholars of Bukhara differed with those of this city. **Answer:** Samarqand _(Source: Isharat al-Maram (al-Bayadi); to be checked)_
 - **500**, line 110: Al-Maturidi's teacher in the chain back to Abu Hanifah رحمة الله عليه. **Answer:** Abu Nasr al-'Iyadi رحمة الله عليه _(Source: Taj al-Tarajim (Ibn Qutlubugha); chain to be checked)_
+
+## Fiqh: Kinship and family (questions/isl-kinship.txt)
+
+- **300**, line 69: The wife of Thabit ibn Qays (رضي الله عنهما) who asked for khul' and returned his garden. **Answer:** Jamilah (Habibah) bint Sahl or bint 'Abdullah _(Source: Sahih al-Bukhari; name differs in reports)_
+- **300**, line 70: The Prophet ﷺ said the most hateful of lawful things to Allah is this (paraphrased). **Answer:** Divorce _(Source: Sunan Abi Dawud; grade differs among scholars)_
+- **500**, line 99: The Successor who would not eat with his mother lest his hand reach first for what she wanted (meaning). **Answer:** Zayn al-'Abidin 'Ali ibn al-Husayn رحمة الله عليه _(Source: Siyar A'lam al-Nubala' (al-Dhahabi); to be checked)_
+- **500**, line 112: The Prophet ﷺ said the best mahr is this (paraphrased). **Answer:** The easiest _(Source: Sunan Abi Dawud; wording to be checked)_
+- **500**, line 115: Later Hanafi scholars allowed fatwa on the missing husband by this school's view, for need. **Answer:** The Maliki school _(Source: Radd al-Muhtar (Ibn 'Abidin); to be checked)_
+
+## Fiqh: Money and trade (questions/isl-money.txt)
+
+- **500**, line 103: In the Hanafi school, salam requires this many conditions, including a known term and place. **Answer:** 7 _(Source: al-Hidayah (al-Marghinani); count to be checked)_
 
 ## Nahw (grammar) (questions/isl-nahw.txt)
 
@@ -129,6 +147,24 @@ This file is rewritten by `npm run packs`.
 
 - **200**, line 45: The Sufi order of India named after Mu'in al-Din Chishti رحمة الله عليه. **Answer:** The Chishti order _(Source: Siyar al-Awliya'; to be checked)_
 - **500**, line 96: The Sufi and scholar of Morocco called "Muhtasib al-'Ulama' wal-Awliya'". **Answer:** Ahmad Zarruq رحمة الله عليه _(Source: Nayl al-Ibtihaj (al-Tinbukti); title to be checked)_
+
+## Usul al-Fiqh (questions/isl-usul.txt)
+
+- **400**, line 76: The Hanafi view on a single (ahad) hadith that seems to go against strong principles. **Answer:** It may be left if the narrator is not a jurist, in some cases _(Source: Usul al-Sarakhsi; to be checked)_
+- **500**, line 108: The number of main maxims Ibn Nujaym رحمة الله عليه sets out at the start of his al-Ashbah. **Answer:** 6 _(Source: al-Ashbah wal-Naza'ir (Ibn Nujaym); to be checked)_
+- **500**, line 111: The book of Ibn Rushd al-Hafid on the reasons for the differences of the schools. **Answer:** Bidayat al-Mujtahid _(Source: Bidayat al-Mujtahid; check creed before honorific)_
+
+## Fiqh: Work and earning (questions/isl-work.txt)
+
+- **100**, line 17: The Prophet ﷺ said Allah loves that when one of you does a job, he does it with this (paraphrased). **Answer:** Excellence (itqan) _(Source: al-Mu'jam al-Awsat (al-Tabarani); grade to be checked)_
+- **200**, line 41: The Prophet ﷺ said the best earning is a man's work with his hand and every this. **Answer:** Honest sale (bay' mabrur) _(Source: Musnad Ahmad; to be checked)_
+- **300**, line 52: The Companion who said "I hate to see a man idle, not in worldly work nor in work for the Hereafter" (meaning). **Answer:** 'Abdullah ibn Mas'ud (رضي الله عنه) _(Source: Musannaf Ibn Abi Shaybah; to be checked)_
+- **300**, line 53: The Prophet ﷺ said one who strives to support his family is like this (paraphrased). **Answer:** One striving in the way of Allah _(Source: al-Mu'jam al-Kabir (al-Tabarani); to be checked)_
+- **400**, line 83: 'Umar (رضي الله عنه) appointed this woman to oversee the market of Madinah, by one report. **Answer:** al-Shifa' bint 'Abdullah (رضي الله عنها) _(Source: al-Isti'ab (Ibn 'Abd al-Barr); report to be checked)_
+- **500**, line 99: Imam Ahmad رحمة الله عليه said of a man who sits in his house saying his provision will come: he is this. **Answer:** Ignorant of knowledge (he has not understood) _(Source: Reported in Hanbali works; to be checked)_
+- **500**, line 101: In the Hanafi school, a muzara'ah needs these conditions, including the share and the seed's owner known. **Answer:** 8 _(Source: al-Hidayah (al-Marghinani); count to be checked)_
+- **500**, line 105: The Companion who ran the first diwan with 'Umar, by some reports. **Answer:** 'Aqil ibn Abi Talib and others (genealogists) _(Source: Futuh al-Buldan (al-Baladhuri); to be checked)_
+- **500**, line 115: 'Umar (رضي الله عنه) said "The sky does not rain gold or" this. **Answer:** Silver _(Source: Ihya' 'Ulum al-Din (report of 'Umar); to be checked)_
 
 ## Fiqh: Zakat (questions/isl-zakat.txt)
 

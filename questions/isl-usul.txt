@@ -1,0 +1,114 @@
+id: isl-usul
+name: Usul al-Fiqh
+nameAr: أصول الفقه
+group: fiqh
+
+## 100
+The science of the principles by which rulings are drawn from the sources. :: Usul al-Fiqh || H: al-Risalah (al-Shafi'i)
+The understanding of practical rulings from their detailed evidence. :: Fiqh || H: al-Mustasfa (al-Ghazali)
+The four main sources of rulings agreed by the Sunni schools. :: Qur'an, Sunnah, Ijma', Qiyas || H: al-Risalah (al-Shafi'i)
+The agreement of the qualified scholars of an age on a ruling. :: Ijma' (consensus) || H: al-Mustasfa (al-Ghazali)
+Applying a ruling to a new case because of a shared cause. :: Qiyas (analogy) || H: al-Risalah (al-Shafi'i)
+The shared cause in qiyas. :: 'Illah || H: al-Mustasfa (al-Ghazali)
+A scholar qualified to draw rulings from the sources. :: Mujtahid || H: al-Mustasfa (al-Ghazali)
+The effort of a mujtahid to reach a ruling. :: Ijtihad || H: Sunan Abi Dawud (hadith of Mu'adh)
+Following a qualified scholar's ruling without knowing the evidence. :: Taqlid || H: al-Mustasfa (al-Ghazali)
+A ruling given by a scholar in answer to a question. :: Fatwa || H: Standard term
+The one who gives fatwa. :: Mufti || H: Standard term
+A school of fiqh. :: Madhhab || H: Standard term
+The five rulings: obligatory, recommended, allowed, disliked and this. :: Forbidden (haram) || H: al-Mustasfa (al-Ghazali)
+An act rewarded if done and punished if left. :: Wajib (fard) || H: al-Mustasfa (al-Ghazali)
+An act rewarded if done but not punished if left. :: Mandub (mustahabb) || H: al-Mustasfa (al-Ghazali)
+An act neither rewarded nor punished. :: Mubah (allowed) || H: al-Mustasfa (al-Ghazali)
+An act rewarded if left, but not punished if done. :: Makruh (disliked) || H: al-Mustasfa (al-Ghazali)
+An act punished if done and rewarded if left. :: Haram (forbidden) || H: al-Mustasfa (al-Ghazali)
+The first book written on usul al-fiqh. :: al-Risalah (al-Shafi'i) || H: Tabaqat al-Shafi'iyyah (al-Subki)
+The Companion sent to Yemen who said he would judge by the Qur'an, then the Sunnah, then his own reasoning. :: Mu'adh ibn Jabal (رضي الله عنه) || H: Sunan Abi Dawud
+
+## 200
+The Hanafi school separates fard from this, a ruling proven by less certain evidence. :: Wajib || H: Usul al-Sarakhsi
+The Hanafi school separates makruh into two kinds: near to haram and this. :: Near to allowed (makruh tanzihi) || H: Radd al-Muhtar (Ibn 'Abidin)
+The Hanafi term for "disliked close to forbidden". :: Makruh tahrimi || H: Radd al-Muhtar (Ibn 'Abidin)
+A ruling that is general and covers all its members. :: 'Amm || H: al-Mustasfa (al-Ghazali)
+A ruling that is specific to some. :: Khass || H: al-Mustasfa (al-Ghazali)
+A word with no limit, like "a slave" without "believing". :: Mutlaq || H: al-Mustasfa (al-Ghazali)
+A word with a limit, like "a believing slave". :: Muqayyad || H: al-Mustasfa (al-Ghazali)
+A command, in usul, shows this by default. :: Obligation (wujub) || H: Usul al-Sarakhsi; al-Mustasfa
+A prohibition, in usul, shows this by default. :: Forbiddance (tahrim) || H: Usul al-Sarakhsi; al-Mustasfa
+A text that is clear with only one meaning. :: Nass || H: al-Mustasfa (al-Ghazali)
+A text with a likely meaning but open to another. :: Zahir || H: al-Mustasfa (al-Ghazali)
+A text with more than one equal meaning. :: Mujmal || H: al-Mustasfa (al-Ghazali)
+The aims of the Shari'ah. :: Maqasid al-Shari'ah || H: al-Muwafaqat (al-Shatibi)
+The five aims protected by the Shari'ah: religion, life, mind, lineage and this. :: Wealth || H: al-Mustasfa (al-Ghazali)
+Considering public benefit not named in the texts. :: Maslahah mursalah || H: al-Mustasfa (al-Ghazali)
+The school best known for using maslahah mursalah. :: The Maliki school || H: al-Muwafaqat (al-Shatibi)
+Leaving qiyas for a stronger evidence, a method of the Hanafis. :: Istihsan || H: Usul al-Sarakhsi
+Blocking the means to harm. :: Sadd al-dhara'i' || H: al-Furuq (al-Qarafi)
+The practice of the people of Madinah, an evidence in the Maliki school. :: 'Amal ahl al-Madinah || H: Tartib al-Madarik (Qadi 'Iyad)
+Custom as an evidence. :: 'Urf || H: al-Ashbah wal-Naza'ir (Ibn Nujaym)
+
+## 300
+Assuming a state continues until proven otherwise. :: Istishab || H: al-Mustasfa (al-Ghazali)
+In the new Shafi'i school, a Companion's opinion on its own is this. :: Not a binding proof || H: al-Mustasfa (al-Ghazali)
+Laws of earlier nations told in the Qur'an, and not abrogated, bind us in this school. :: The Hanafi school || H: Usul al-Sarakhsi
+The four parts of qiyas. :: The original case, the new case, the ruling and the 'illah || H: al-Mustasfa (al-Ghazali)
+The original case in qiyas. :: Asl || H: al-Mustasfa (al-Ghazali)
+The new case in qiyas. :: Far' || H: al-Mustasfa (al-Ghazali)
+A ruling of command or prohibition is called this kind of ruling. :: Hukm taklifi || H: al-Mustasfa (al-Ghazali)
+A ruling that sets a cause, condition or barrier is called this kind. :: Hukm wad'i || H: al-Mustasfa (al-Ghazali)
+The sun's setting is the "sabab" for this. :: The Maghrib prayer || H: al-Mustasfa (al-Ghazali)
+Wudu' is a "shart" (condition) for this. :: The prayer || H: al-Mustasfa (al-Ghazali)
+A concession given for hardship. :: Rukhsah || H: al-Mustasfa (al-Ghazali)
+The original ruling, before a concession. :: 'Azimah || H: al-Mustasfa (al-Ghazali)
+The Hanafi term for a text understood by its wording directly. :: 'Ibarat al-nass || H: Usul al-Shashi
+The Hanafi term for a meaning pointed to by the text, not its main purpose. :: Isharat al-nass || H: Usul al-Shashi
+The Hanafi term for a meaning understood a fortiori, like "do not say uff" meaning do not strike. :: Dalalat al-nass || H: Usul al-Shashi
+The Hanafi term for a meaning that must be assumed for the text to make sense. :: Iqtida' al-nass || H: Usul al-Shashi
+The opposite meaning of a text (mafhum al-mukhalafah) is not used as evidence in this school. :: The Hanafi school || H: Usul al-Sarakhsi
+The short Hanafi usul text studied by beginners, by al-Shashi رحمة الله عليه. :: Usul al-Shashi || H: Usul al-Shashi
+The Shafi'i usul text for beginners by Imam al-Haramayn رحمة الله عليه. :: al-Waraqat || H: al-Waraqat
+The Hanafi usul book by Shams al-A'immah al-Sarakhsi رحمة الله عليه. :: Usul al-Sarakhsi || H: Usul al-Sarakhsi
+
+## 400
+The method of the "mutakallimin" (theologians) in usul is followed mostly by these schools. :: The Shafi'i (and Maliki) || H: al-Muqaddimah (Ibn Khaldun)
+The method of the "fuqaha'" in usul, built from the rulings of the Imams, is the way of this school. :: The Hanafi school || H: al-Muqaddimah (Ibn Khaldun)
+The books that joined both methods include Ibn al-Sa'ati's al-Badi' and this by Ibn al-Humam. :: al-Tahrir || H: al-Tahrir (Ibn al-Humam)
+The Hanafi view on a single (ahad) hadith that seems to go against strong principles. :: It may be left if the narrator is not a jurist, in some cases || H?: Usul al-Sarakhsi; to be checked
+The Maliki view on an ahad hadith against the practice of Madinah. :: The practice of Madinah is put first || H: Tartib al-Madarik (Qadi 'Iyad)
+The Shafi'i view on a mursal hadith. :: Accepted only with support || H: al-Risalah (al-Shafi'i)
+The Hanafi view on the mursal of trustworthy early narrators. :: Accepted || H: Usul al-Sarakhsi
+The condition for qiyas that the 'illah be this. :: Clear, consistent and fitting || H: al-Mustasfa (al-Ghazali)
+Finding the 'illah by testing and removing possible causes. :: al-Sabr wal-taqsim || H: al-Mustasfa (al-Ghazali)
+Checking that the 'illah is present in the new case. :: Tahqiq al-manat || H: al-Muwafaqat (al-Shatibi)
+Refining the 'illah from what is not relevant. :: Tanqih al-manat || H: al-Mustasfa (al-Ghazali)
+Drawing out the 'illah from the text. :: Takhrij al-manat || H: al-Mustasfa (al-Ghazali)
+The three levels of maslahah: necessities, needs and this. :: Refinements (tahsiniyyat) || H: al-Muwafaqat (al-Shatibi)
+The famous five maxims of fiqh begin with "Matters are judged by" this. :: Their aims (intentions) || H: al-Ashbah wal-Naza'ir (al-Suyuti)
+Two evidences that seem to clash: the first step is this. :: Reconcile them (al-jam') || H: al-Mustasfa (al-Ghazali)
+If they cannot be reconciled and the date is known, this is used. :: Naskh (the later abrogates) || H: al-Mustasfa (al-Ghazali)
+In the Hanafi school, the first step when two evidences clash is this. :: Naskh, if the dates are known || H: Usul al-Sarakhsi
+Preferring one evidence over another. :: Tarjih || H: al-Mustasfa (al-Ghazali)
+The ranks of mujtahids include the absolute mujtahid and this one within a school. :: Mujtahid fil-madhhab || H: Radd al-Muhtar (Ibn 'Abidin)
+The Hanafi scholar Ibn Kamal Pasha رحمة الله عليه set out this many ranks of jurists. :: 7 || H: Radd al-Muhtar (Ibn 'Abidin)
+
+## 500
+Al-Ghazali's usul book "al-Mankhul" was written in the time of this teacher. :: Imam al-Haramayn al-Juwayni رحمة الله عليه || H: al-Mankhul
+The Shafi'i usul book by Sayf al-Din al-Amidi رحمة الله عليه. :: al-Ihkam fi Usul al-Ahkam || H: al-Ihkam (al-Amidi)
+The Maliki usul book by al-Qarafi رحمة الله عليه, a commentary on his own text. :: Sharh Tanqih al-Fusul || H: Sharh Tanqih al-Fusul
+The Maliki scholar al-Baji رحمة الله عليه wrote this on usul. :: Ihkam al-Fusul || H: Ihkam al-Fusul
+The Hanbali usul book by Abu Ya'la رحمة الله عليه. :: al-'Uddah || H: al-'Uddah
+The Hanafi usul book by al-Jassas رحمة الله عليه. :: al-Fusul fil-Usul || H: al-Fusul fil-Usul
+The Hanafi principle that the general ('amm) is "qat'i" (certain) like the specific. :: The general is certain in its meaning || H: Usul al-Sarakhsi
+The Shafi'i principle that the general is this. :: Probable (zanni) in its meaning || H: al-Mustasfa (al-Ghazali)
+In the Hanafi school, a later specific text that narrows a general one is called this. :: Naskh juz'i (partial abrogation) || H: Usul al-Sarakhsi
+Al-Shatibi's book on innovations, besides al-Muwafaqat. :: al-I'tisam || H: al-I'tisam
+The great Hanafi commentary by 'Abd al-'Aziz al-Bukhari رحمة الله عليه on Usul al-Bazdawi. :: Kashf al-Asrar || H: Kashf al-Asrar
+The Hanafi book "Musallam al-Thubut" was written by this Indian scholar. :: Muhibbullah al-Bihari رحمة الله عليه || H: Musallam al-Thubut
+The commentary on Musallam al-Thubut by 'Abd al-'Ali al-Ansari رحمة الله عليه. :: Fawatih al-Rahamut || H: Fawatih al-Rahamut
+The number of main maxims Ibn Nujaym رحمة الله عليه sets out at the start of his al-Ashbah. :: 6 || H?: al-Ashbah wal-Naza'ir (Ibn Nujaym); to be checked
+The Hanafi scholar al-Karkhi رحمة الله عليه wrote a short treatise of these, on which the school's rulings turn. :: Principles (al-Usul) || H: Usul al-Karkhi
+The Hanafi scholar al-Dabusi رحمة الله عليه wrote this, on the causes of the Imams' differences. :: Ta'sis al-Nazar || H: Ta'sis al-Nazar
+The book of Ibn Rushd al-Hafid on the reasons for the differences of the schools. :: Bidayat al-Mujtahid || H?: Bidayat al-Mujtahid; check creed before honorific
+The Shafi'i book "al-Bahr al-Muhit" on usul was written by this scholar. :: Badr al-Din al-Zarkashi رحمة الله عليه || H: al-Bahr al-Muhit
+The Shafi'i usul text "Lubb al-Usul" is a summary of this. :: Jam' al-Jawami' || H: Lubb al-Usul (Zakariyya al-Ansari)
+The commentary on Jam' al-Jawami' by Jalal al-Din al-Mahalli رحمة الله عليه. :: al-Badr al-Tali' (Sharh al-Mahalli) || H: Sharh al-Mahalli 'ala Jam' al-Jawami'
