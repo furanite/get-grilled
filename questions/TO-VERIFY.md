@@ -112,6 +112,14 @@ This file is rewritten by `npm run packs`.
 
 - **500**, line 103: The early grammarian who first wrote a separate book on sarf, according to many. **Answer:** Mu'adh al-Harra' رحمة الله عليه _(Source: Commonly stated in histories of grammar; to be checked)_
 
+## Fiqh: Fasting (Sawm) (questions/isl-sawm.txt)
+
+- **400**, line 187: The famous Ramadan khutbah "O people, a great month has come upon you" (meaning) is narrated by this Companion. **Answer:** Salman al-Farisi (رِضْوَانُ اللَّهِ عَلَيْهِ) _(Source: Sahih Ibn Khuzaymah; its chain is weak, check the grading)_
+- **400**, line 213: Our Beloved Prophet ﷺ said the du'a of the fasting person when breaking his fast is this (paraphrased). **Answer:** Not turned back _(Source: Sunan Ibn Majah; check the grading)_
+- **500**, line 252: The scholar al-Subki رحمة الله عليه wrote that a witness's claim to see the moon is rejected when this says it is impossible. **Answer:** Definite astronomical calculation _(Source: al-'Alam al-Manshur (al-Subki); check the book's title)_
+- **500**, line 264: The fast was first prescribed as 'Ashura' and three days a month, then replaced by Ramadan, in the view of this Companion. **Answer:** Mu'adh ibn Jabal (رِضْوَانُ اللَّهِ عَلَيْهِ) _(Source: Sunan Abi Dawud; check the chain)_
+- **500**, line 266: Our master 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِ) gathered the people for Tarawih behind one imam in this year. **Answer:** 14 AH / 635 CE _(Source: Ta'rikh al-Tabari; check the year)_
+
 ## Scholars of Islam (questions/isl-scholars.txt)
 
 - **500**, line 115: The scholar who wrote Bidayat al-Mujtahid on comparing the schools. **Answer:** Ibn Rushd (the grandson) _(Source: Bidayat al-Mujtahid; check creed before adding an honorific)_
@@ -175,9 +183,12 @@ This file is rewritten by `npm run packs`.
 
 ## Fiqh: Zakat (questions/isl-zakat.txt)
 
-- **200**, line 32: The nisab of gold in grams, by a common modern estimate. **Answer:** About 85 grams _(Source: Modern estimates differ (85 to 87.5 g); to be checked)_
-- **200**, line 33: The nisab of silver in grams, by a common modern estimate. **Answer:** About 595 grams _(Source: Modern estimates differ; to be checked)_
-- **500**, line 99: The weight of a dinar (mithqal) in grams, by a common estimate. **Answer:** About 4.25 grams _(Source: Modern estimates; to be checked)_
+- **200**, line 63: The nisab of gold in grams, by a common modern estimate. **Answer:** About 85 grams _(Source: Modern estimates differ (85 to 87.5 g); to be checked)_
+- **200**, line 64: The nisab of silver in grams, by a common modern estimate. **Answer:** About 595 grams _(Source: Modern estimates differ; to be checked)_
+- **200**, line 104: The share for the "hearts to be won over" was stopped in the time of this caliph, by the Hanafi view. **Answer:** Our master 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِ) (during Abu Bakr's caliphate) _(Source: al-Hidayah; check the wording of the report)_
+- **400**, line 211: In the Hanafi school, the amount of zakat al-fitr in raisins is half a sa', by Abu Hanifah's view in one report, and a full sa' by this. **Answer:** The two students (and the relied view) _(Source: al-Hidayah; check which view is relied upon)_
+- **500**, line 225: The weight of a dinar (mithqal) in grams, by a common estimate. **Answer:** About 4.25 grams _(Source: Modern estimates; to be checked)_
+- **500**, line 262: The Companion who said "Zakat is a bridge of Islam" (meaning). **Answer:** Abu al-Darda' (رِضْوَانُ اللَّهِ عَلَيْهِ) _(Source: check the source of this saying)_
 
 ## My Qur'an (questions/kids-quran.txt)
 
