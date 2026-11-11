@@ -55,11 +55,11 @@ This file is rewritten by `npm run packs`.
 
 ## Fiqh: Kinship and family (questions/isl-kinship.txt)
 
-- **300**, line 69: The wife of Thabit ibn Qays (رِضْوَانُ اللَّهِ عَلَيْهِمَا) who asked for khul' and returned his garden. **Answer:** Jamilah (Habibah) bint Sahl or bint 'Abdullah _(Source: Sahih al-Bukhari; name differs in reports)_
-- **300**, line 70: Our Beloved Prophet ﷺ said the most hateful of lawful things to Allah is this (paraphrased). **Answer:** Divorce _(Source: Sunan Abi Dawud; grade differs among scholars)_
-- **500**, line 99: The Successor who would not eat with his mother lest his hand reach first for what she wanted (meaning). **Answer:** Zayn al-'Abidin 'Ali ibn al-Husayn رحمة الله عليه _(Source: Siyar A'lam al-Nubala' (al-Dhahabi); to be checked)_
-- **500**, line 112: Our Beloved Prophet ﷺ said the best mahr is this (paraphrased). **Answer:** The easiest _(Source: Sunan Abi Dawud; wording to be checked)_
-- **500**, line 115: Later Hanafi scholars allowed fatwa on the missing husband by this school's view, for need. **Answer:** The Maliki school _(Source: Radd al-Muhtar (Ibn 'Abidin); to be checked)_
+- **300**, line 121: The wife of Thabit ibn Qays (رِضْوَانُ اللَّهِ عَلَيْهِمَا) who asked for khul' and returned his garden. **Answer:** Jamilah (Habibah) bint Sahl or bint 'Abdullah _(Source: Sahih al-Bukhari; name differs in reports)_
+- **300**, line 122: Our Beloved Prophet ﷺ said the most hateful of lawful things to Allah is this (paraphrased). **Answer:** Divorce _(Source: Sunan Abi Dawud; grade differs among scholars)_
+- **500**, line 197: The Successor who would not eat with his mother lest his hand reach first for what she wanted (meaning). **Answer:** Our master 'Ali Zayn al-'Abidin ibn al-Husayn (رِضْوَانُ اللَّهِ عَلَيْهِ) _(Source: Siyar A'lam al-Nubala' (al-Dhahabi); to be checked)_
+- **500**, line 210: Our Beloved Prophet ﷺ said the best mahr is this (paraphrased). **Answer:** The easiest _(Source: Sunan Abi Dawud; wording to be checked)_
+- **500**, line 213: Later Hanafi scholars allowed fatwa on the missing husband by this school's view, for need. **Answer:** The Maliki school _(Source: Radd al-Muhtar (Ibn 'Abidin); to be checked)_
 
 ## Fiqh: Money and trade (questions/isl-money.txt)
 
