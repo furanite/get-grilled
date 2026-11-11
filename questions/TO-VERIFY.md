@@ -30,7 +30,7 @@ This file is rewritten by `npm run packs`.
 
 ## Hadith books and narrators (questions/isl-hadith.txt)
 
-- **500**, line 116: The teacher of al-Bukhari, nicknamed "Commander of the Believers in hadith", famed for criticism of narrators. **Answer:** 'Ali ibn al-Madini رحمة الله عليه _(Source: Siyar A'lam al-Nubala' (al-Dhahabi); title to be checked)_
+- **500**, line 116: The teacher of al-Bukhari رحمة الله عليه, nicknamed "Commander of the Believers in hadith", famed for criticism of narrators. **Answer:** 'Ali ibn al-Madini رحمة الله عليه _(Source: Siyar A'lam al-Nubala' (al-Dhahabi); title to be checked)_
 
 ## Fiqh: Hajj and Umrah (questions/isl-hajj.txt)
 
@@ -39,7 +39,7 @@ This file is rewritten by `npm run packs`.
 ## Islamic history (questions/isl-history.txt)
 
 - **500**, line 106: The Ayyubid-era scholar who wrote "Mir'at al-Zaman". **Answer:** Sibt ibn al-Jawzi _(Source: Mir'at al-Zaman; creed to be checked before adding an honorific)_
-- **500**, line 125: The scholar who taught and advised Sultan Muhammad al-Fatih and is said to have found the grave of Abu Ayyub (رِضْوَانُ اللَّهِ عَلَيْهِ). **Answer:** Aq Shams al-Din رحمة الله عليه _(Source: al-Shaqa'iq al-Nu'maniyyah (Tashkopruzade); to be checked)_
+- **500**, line 124: The scholar who taught and advised Sultan Muhammad al-Fatih and is said to have found the grave of Abu Ayyub (رِضْوَانُ اللَّهِ عَلَيْهِ). **Answer:** Aq Shams al-Din رحمة الله عليه _(Source: al-Shaqa'iq al-Nu'maniyyah (Tashkopruzade); to be checked)_
 
 ## Pillars of faith (questions/isl-iman.txt)
 
@@ -88,7 +88,6 @@ This file is rewritten by `npm run packs`.
 
 ## The Companions (questions/isl-sahabah.txt)
 
-- **400**, line 100: The last Companion to die in Madinah, by one view. **Answer:** Sahl ibn Sa'd (رِضْوَانُ اللَّهِ عَلَيْهِ) _(Source: Muqaddimah Ibn al-Salah; to be checked)_
 - **500**, line 126: The number of Companions whose lives are in al-Isabah, roughly. **Answer:** About 12,000 _(Source: al-Isabah (Ibn Hajar); count to be checked)_
 - **500**, line 129: The cousin of our Beloved Prophet ﷺ, son of al-'Abbas, whose grave is honoured in Samarqand. **Answer:** Qutham ibn al-'Abbas (رِضْوَانُ اللَّهِ عَلَيْهِ) _(Source: al-Isabah (Ibn Hajar); place of death to be checked)_
 
@@ -128,9 +127,9 @@ This file is rewritten by `npm run packs`.
 
 - **300**, line 120: The verse that, by the most famous view, was the last of the rulings on riba to come down. **Answer:** Qur'an 2:278-279 _(Source: Sahih al-Bukhari (report of Ibn 'Abbas on the verse of riba); wording to check)_
 - **300**, line 127: The term for a word that occurs only once in the Qur'an. **Answer:** Hapax (farid) _(Source: Term to be checked with a Qur'an sciences teacher)_
-- **400**, line 196: The tafsir by Ibn 'Abd al-Salam رحمة الله عليه, the "Sultan of the Scholars", is a summary of this (meaning). **Answer:** al-Mawardi's tafsir al-Nukat wal-'Uyun _(Source: Check which tafsir Ibn 'Abd al-Salam summarised)_
-- **400**, line 203: The tafsir of al-Baydawi رحمة الله عليه was finished in this city. **Answer:** Tabriz _(Source: Check: al-Baydawi died in Tabriz; where he finished it is uncertain)_
-- **500**, line 253: The tafsir "Tafsir al-Mawahib al-'Aliyyah" (in Persian) is by this Herat scholar. **Answer:** Husayn Wa'iz al-Kashifi _(Source: Check his creed before giving an honorific)_
+- **400**, line 195: The tafsir by Ibn 'Abd al-Salam رحمة الله عليه, the "Sultan of the Scholars", is a summary of this (meaning). **Answer:** al-Mawardi's رحمة الله عليه tafsir al-Nukat wal-'Uyun _(Source: Check which tafsir Ibn 'Abd al-Salam summarised)_
+- **400**, line 201: The tafsir of al-Baydawi رحمة الله عليه was finished in this city. **Answer:** Tabriz _(Source: Check: al-Baydawi died in Tabriz; where he finished it is uncertain)_
+- **500**, line 250: The tafsir "Tafsir al-Mawahib al-'Aliyyah" (in Persian) is by this Herat scholar. **Answer:** Husayn Wa'iz al-Kashifi _(Source: Check his creed before giving an honorific)_
 
 ## Fiqh: Cleanliness (Taharah) (questions/isl-taharah.txt)
 
