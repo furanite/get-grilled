@@ -41,10 +41,12 @@ This file is rewritten by `npm run packs`.
 
 ## Islamic history (questions/isl-history.txt)
 
-- **200**, line 46: The woman who founded al-Qarawiyyin in 245 AH / 859 CE. **Answer:** Fatimah al-Fihriyyah رحمة الله عليها _(Source: Rawd al-Qirtas; date to be checked)_
-- **300**, line 69: The Mali king famous for his Hajj journey in 724 AH / 1324 CE. **Answer:** Mansa Musa _(Source: Standard history; dates vary)_
-- **500**, line 96: The Ayyubid-era scholar who wrote "Mir'at al-Zaman". **Answer:** Sibt ibn al-Jawzi _(Source: Mir'at al-Zaman; creed to be checked before adding an honorific)_
-- **500**, line 114: The madrasah founded in 457 AH / 1065 CE in Baghdad by Nizam al-Mulk. **Answer:** al-Nizamiyyah _(Source: Wafayat al-A'yan (Ibn Khallikan); founding year 457 or 459 AH)_
+- **200**, line 48: The woman who founded al-Qarawiyyin in 245 AH / 859 CE. **Answer:** Fatimah al-Fihriyyah رحمة الله عليها _(Source: Rawd al-Qirtas; date to be checked)_
+- **200**, line 52: The great mosque of Istanbul with six minarets, finished in 1026 AH / 1617 CE. **Answer:** The Sultan Ahmed Mosque (Blue Mosque) _(Source: Standard history; year to be checked)_
+- **300**, line 74: The Mali king famous for his Hajj journey in 724 AH / 1324 CE. **Answer:** Mansa Musa _(Source: Standard history; dates vary)_
+- **500**, line 107: The Ayyubid-era scholar who wrote "Mir'at al-Zaman". **Answer:** Sibt ibn al-Jawzi _(Source: Mir'at al-Zaman; creed to be checked before adding an honorific)_
+- **500**, line 125: The madrasah founded in 457 AH / 1065 CE in Baghdad by Nizam al-Mulk. **Answer:** al-Nizamiyyah _(Source: Wafayat al-A'yan (Ibn Khallikan); founding year 457 or 459 AH)_
+- **500**, line 126: The scholar who taught and advised Sultan Muhammad al-Fatih and is said to have found the grave of Abu Ayyub (رِضْوَانُ اللَّهِ عَلَيْهِ). **Answer:** Aq Shams al-Din رحمة الله عليه _(Source: al-Shaqa'iq al-Nu'maniyyah (Tashkopruzade); to be checked)_
 
 ## Pillars of faith (questions/isl-iman.txt)
 
@@ -100,11 +102,12 @@ This file is rewritten by `npm run packs`.
 
 ## The Companions (questions/isl-sahabah.txt)
 
-- **400**, line 84: The great battle against the Persians in 15 AH / 636 CE. **Answer:** The Battle of al-Qadisiyyah _(Source: Tarikh al-Tabari; reports give 14, 15 or 16 AH)_
-- **400**, line 92: The last Companion to die in Madinah, by one view. **Answer:** Sahl ibn Sa'd (رِضْوَانُ اللَّهِ عَلَيْهِ) _(Source: Muqaddimah Ibn al-Salah; to be checked)_
-- **500**, line 103: The Companion who said "I wish I were a tree that is cut down" (meaning) out of fear of Allah. **Answer:** Abu Dharr al-Ghifari (رِضْوَانُ اللَّهِ عَلَيْهِ) _(Source: Sunan al-Tirmidhi; wording to be checked)_
-- **500**, line 107: The Battle of Dhat al-Sawari in 34 AH / 655 CE was this kind of battle. **Answer:** A sea battle _(Source: Tarikh al-Tabari; year given as 31 to 35 AH)_
-- **500**, line 115: The number of Companions whose lives are in al-Isabah, roughly. **Answer:** About 12,000 _(Source: al-Isabah (Ibn Hajar); count to be checked)_
+- **400**, line 93: The great battle against the Persians in 15 AH / 636 CE. **Answer:** The Battle of al-Qadisiyyah _(Source: Tarikh al-Tabari; reports give 14, 15 or 16 AH)_
+- **400**, line 101: The last Companion to die in Madinah, by one view. **Answer:** Sahl ibn Sa'd (رِضْوَانُ اللَّهِ عَلَيْهِ) _(Source: Muqaddimah Ibn al-Salah; to be checked)_
+- **500**, line 115: The Companion who said "I wish I were a tree that is cut down" (meaning) out of fear of Allah. **Answer:** Abu Dharr al-Ghifari (رِضْوَانُ اللَّهِ عَلَيْهِ) _(Source: Sunan al-Tirmidhi; wording to be checked)_
+- **500**, line 119: The Battle of Dhat al-Sawari in 34 AH / 655 CE was this kind of battle. **Answer:** A sea battle _(Source: Tarikh al-Tabari; year given as 31 to 35 AH)_
+- **500**, line 127: The number of Companions whose lives are in al-Isabah, roughly. **Answer:** About 12,000 _(Source: al-Isabah (Ibn Hajar); count to be checked)_
+- **500**, line 130: The cousin of our Beloved Prophet ﷺ, son of al-'Abbas, whose grave is honoured in Samarqand. **Answer:** Qutham ibn al-'Abbas (رِضْوَانُ اللَّهِ عَلَيْهِ) _(Source: al-Isabah (Ibn Hajar); place of death to be checked)_
 
 ## Fiqh: Prayer (Salah) (questions/isl-salah.txt)
 
@@ -126,7 +129,7 @@ This file is rewritten by `npm run packs`.
 
 ## Scholars of Islam (questions/isl-scholars.txt)
 
-- **500**, line 115: The scholar who wrote Bidayat al-Mujtahid on comparing the schools. **Answer:** Ibn Rushd (the grandson) _(Source: Bidayat al-Mujtahid; check creed before adding an honorific)_
+- **500**, line 123: The scholar who wrote Bidayat al-Mujtahid on comparing the schools. **Answer:** Ibn Rushd (the grandson) _(Source: Bidayat al-Mujtahid; check creed before adding an honorific)_
 
 ## Seerah: the Madinan years (questions/isl-seerah-madinah.txt)
 
@@ -166,7 +169,7 @@ This file is rewritten by `npm run packs`.
 ## Tasawwuf and Ihsan (questions/isl-tasawwuf.txt)
 
 - **200**, line 45: The Sufi order of India named after Mu'in al-Din Chishti رحمة الله عليه. **Answer:** The Chishti order _(Source: Siyar al-Awliya'; to be checked)_
-- **500**, line 96: The Sufi and scholar of Morocco called "Muhtasib al-'Ulama' wal-Awliya'". **Answer:** Ahmad Zarruq رحمة الله عليه _(Source: Nayl al-Ibtihaj (al-Tinbukti); title to be checked)_
+- **500**, line 100: The Sufi and scholar of Morocco called "Muhtasib al-'Ulama' wal-Awliya'". **Answer:** Ahmad Zarruq رحمة الله عليه _(Source: Nayl al-Ibtihaj (al-Tinbukti); title to be checked)_
 
 ## Usul al-Fiqh (questions/isl-usul.txt)
 

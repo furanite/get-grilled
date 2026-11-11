@@ -24,6 +24,8 @@ The Ottoman sultan who conquered Constantinople in 857 AH / 1453 CE. :: Sultan M
 The famous "House of Wisdom" was in this city. :: Baghdad (Bayt al-Hikmah) || H: Standard history
 The Umayyad caliph known for justice, sometimes called the fifth Rightly Guided Caliph. :: 'Umar ibn 'Abd al-'Aziz رحمة الله عليه || H: Siyar A'lam al-Nubala' (al-Dhahabi)
 The city in North Africa founded by 'Uqbah ibn Nafi' as a base. :: al-Qayrawan || H: Tarikh al-Tabari
+A hijri month lasts 29 days or this many. :: 30 || H: Sahih al-Bukhari
+The white marble tomb in Agra built by the Mughal emperor Shah Jahan. :: The Taj Mahal || H: Standard history
 
 ## 200
 The four sacred months. :: Muharram, Rajab, Dhul-Qa'dah, Dhul-Hijjah || H: Sahih al-Bukhari
@@ -46,6 +48,9 @@ The Islamic university in Fez, among the oldest in the world, founded by a woman
 The woman who founded al-Qarawiyyin in 245 AH / 859 CE. :: Fatimah al-Fihriyyah رحمة الله عليها || H?: Rawd al-Qirtas; date to be checked
 The great mosque and university of Cairo. :: al-Azhar || H: Standard history
 The Ottoman sultan called "the Lawgiver" (al-Qanuni). :: Sulayman al-Qanuni || H: Standard history
+The city where Salah al-Din رحمة الله عليه is buried. :: Damascus || H: al-Nawadir al-Sultaniyyah (Ibn Shaddad)
+The great mosque of Istanbul with six minarets, finished in 1026 AH / 1617 CE. :: The Sultan Ahmed Mosque (Blue Mosque) || H?: Standard history; year to be checked
+The travel book of Ibn Battutah رحمة الله عليه. :: Tuhfat al-Nuzzar (al-Rihlah) || H: Rihlat Ibn Battutah
 
 ## 300
 The Muslim navy first won a great sea battle against the Byzantines under our master 'Uthman (رِضْوَانُ اللَّهِ عَلَيْهِ) at this battle. :: Dhat al-Sawari || H: Tarikh al-Tabari
@@ -68,6 +73,10 @@ The Mughal emperor who compiled al-Fatawa al-Hindiyyah (al-'Alamgiriyyah). :: Aw
 The Delhi sultanate's famous minaret built by Qutb al-Din Aybak. :: Qutb Minar || H: Standard history
 The Mali king famous for his Hajj journey in 724 AH / 1324 CE. :: Mansa Musa || H?: Standard history; dates vary
 The city of Mali famed for its manuscripts and scholars. :: Timbuktu || H: Nayl al-Ibtihaj (al-Tinbukti)
+The Crusaders took Jerusalem in this year. :: 492 AH / 1099 CE || H: al-Kamil fil-Tarikh (Ibn al-Athir)
+Salah al-Din رحمة الله عليه died in this year. :: 589 AH / 1193 CE || H: Wafayat al-A'yan (Ibn Khallikan)
+The English king who faced Salah al-Din رحمة الله عليه in the Third Crusade. :: Richard I || H: al-Nawadir al-Sultaniyyah (Ibn Shaddad)
+The Ottoman capital just before Istanbul. :: Edirne (Adrianople) || H: Standard history
 
 ## 400
 The battle in 37 AH / 657 CE at which arbitration was agreed. :: Siffin || H: Tarikh al-Tabari
@@ -90,6 +99,8 @@ The year the Ottoman caliphate was ended. :: 1342 AH / 1924 CE || H: Standard hi
 The Mughal emperor who built the Taj Mahal. :: Shah Jahan || H: Standard history
 The Mughal dynasty was founded by this ruler in 932 AH / 1526 CE. :: Babur || H: Standard history
 The battle of 932 AH / 1526 CE that founded Mughal rule. :: The First Battle of Panipat || H: Standard history
+The son of Babur who lost, then won back, the Mughal throne. :: Humayun || H: Standard history
+The battle in 922 AH / 1516 CE at which Selim I defeated the Mamluks in Syria. :: Marj Dabiq || H: Bada'i' al-Zuhur (Ibn Iyas)
 
 ## 500
 The scholar who wrote "al-Bidayah wal-Nihayah". :: Ibn Kathir رحمة الله عليه || H: al-Bidayah wal-Nihayah
@@ -112,3 +123,4 @@ The Muslim physician whose "Canon of Medicine" was taught for centuries. :: Ibn 
 The surgeon of al-Andalus who wrote al-Tasrif. :: al-Zahrawi || H: al-Tasrif
 The Ottoman architect of the Süleymaniye Mosque. :: Mimar Sinan || H: Standard history
 The madrasah founded in 457 AH / 1065 CE in Baghdad by Nizam al-Mulk. :: al-Nizamiyyah || H?: Wafayat al-A'yan (Ibn Khallikan); founding year 457 or 459 AH
+The scholar who taught and advised Sultan Muhammad al-Fatih and is said to have found the grave of Abu Ayyub (رِضْوَانُ اللَّهِ عَلَيْهِ). :: Aq Shams al-Din رحمة الله عليه || H?: al-Shaqa'iq al-Nu'maniyyah (Tashkopruzade); to be checked
