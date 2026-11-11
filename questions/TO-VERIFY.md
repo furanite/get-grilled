@@ -6,12 +6,12 @@ This file is rewritten by `npm run packs`.
 
 ## The unseen and the Hereafter (questions/isl-akhirah.txt)
 
-- **200**, line 41: The keeper of Paradise named in some reports. **Answer:** Ridwan _(Source: Reported in hadith; source to be checked)_
-- **400**, line 80: Our Beloved Prophet ﷺ said the grave is either a garden of Paradise or this (paraphrased). **Answer:** A pit of the Fire _(Source: Sunan al-Tirmidhi; grade to be checked)_
-- **400**, line 85: The plain on which Allah will gather people is said to be in this land. **Answer:** al-Sham _(Source: Musnad Ahmad; to be checked)_
-- **400**, line 86: The highest people of Paradise will see Allah morning and this. **Answer:** Evening _(Source: Sunan al-Tirmidhi; to be checked)_
-- **500**, line 103: The wind that takes the soul of every believer near the end blows from this direction, in one narration. **Answer:** Yemen _(Source: Sahih Muslim; other narrations name al-Sham)_
-- **500**, line 114: The day that is fifty thousand years long will feel as short as this for the believer (paraphrased). **Answer:** The time of a prescribed prayer _(Source: Musnad Ahmad; grade to be checked)_
+- **200**, line 55: The keeper of Paradise named in some reports. **Answer:** Ridwan _(Source: Reported in hadith; source to be checked)_
+- **400**, line 128: Our Beloved Prophet ﷺ said the grave is either a garden of Paradise or this (paraphrased). **Answer:** A pit of the Fire _(Source: Sunan al-Tirmidhi; grade to be checked)_
+- **400**, line 133: The plain on which Allah will gather people is said to be in this land. **Answer:** al-Sham _(Source: Musnad Ahmad; to be checked)_
+- **400**, line 134: The highest people of Paradise will see Allah morning and this. **Answer:** Evening _(Source: Sunan al-Tirmidhi; to be checked)_
+- **500**, line 160: The wind that takes the soul of every believer near the end blows from this direction, in one narration. **Answer:** Yemen _(Source: Sahih Muslim; other narrations name al-Sham)_
+- **500**, line 171: The day that is fifty thousand years long will feel as short as this for the believer (paraphrased). **Answer:** The time of a prescribed prayer _(Source: Musnad Ahmad; grade to be checked)_
 
 ## Akhlaq and Adab (questions/isl-akhlaq.txt)
 
