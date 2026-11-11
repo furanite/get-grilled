@@ -35,6 +35,10 @@ This file is rewritten by `npm run packs`.
 
 - **500**, line 95: The teacher of al-Bukhari, nicknamed "Commander of the Believers in hadith", famed for criticism of narrators. **Answer:** 'Ali ibn al-Madini رحمة الله عليه _(Source: Siyar A'lam al-Nubala' (al-Dhahabi); title to be checked)_
 
+## Fiqh: Hajj and Umrah (questions/isl-hajj.txt)
+
+- **500**, line 249: The caliph who was advised by Imam Malik رحمة الله عليه not to rebuild the Ka'bah again, so it would not become a plaything of kings. **Answer:** Harun al-Rashid (or al-Mahdi, by reports) _(Source: check which caliph the reports name)_
+
 ## Islamic history (questions/isl-history.txt)
 
 - **200**, line 46: The woman who founded al-Qarawiyyin in 245 AH / 859 CE. **Answer:** Fatimah al-Fihriyyah رحمة الله عليها _(Source: Rawd al-Qirtas; date to be checked)_
