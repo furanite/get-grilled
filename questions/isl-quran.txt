@@ -8,24 +8,24 @@ group: quran
 The number of surahs in the Qur'an. :: 114 || H: The Mushaf (standard count)
 The opening surah of the Qur'an. :: Surah al-Fatihah || H: The Mushaf
 The longest surah of the Qur'an. :: Surah al-Baqarah || H: The Mushaf
-The angel who brought the revelation to the Prophet ﷺ. :: Jibril (عليه السلام) || H: Qur'an 2:97
+The angel who brought the revelation to our Beloved Master ﷺ. :: Jibril (عليه السلام) || H: Qur'an 2:97
 The month in which the Qur'an was first sent down. :: Ramadan || H: Qur'an 2:185
 The night better than a thousand months, in which the Qur'an was sent down. :: Laylat al-Qadr || H: Qur'an 97:1-3
 The language in which the Qur'an was revealed. :: Arabic || H: Qur'an 12:2
 The Qur'an is divided into this many juz' (parts). :: 30 || H: The Mushaf (standard division)
 The only surah that does not begin with the Basmalah. :: Surah al-Tawbah (Bara'ah) || H: The Mushaf
-The cave where the first revelation came to the Prophet ﷺ. :: The Cave of Hira' || H: Sahih al-Bukhari, Book of Revelation
+The cave where the first revelation came to our Beloved Prophet ﷺ. :: The Cave of Hira' || H: Sahih al-Bukhari, Book of Revelation
 The first word revealed, meaning "Read!". :: Iqra' || H: Qur'an 96:1; Sahih al-Bukhari
 The surah named after the mother of Prophet 'Isa (عليه السلام). :: Surah Maryam || H: The Mushaf
 The surah whose name means "The Cave". :: Surah al-Kahf || H: The Mushaf
-The short surah the Prophet ﷺ said equals a third of the Qur'an (paraphrased). :: Surah al-Ikhlas || H: Sahih al-Bukhari
-The verse the Prophet ﷺ called the greatest verse of the Qur'an (paraphrased). :: Ayat al-Kursi (2:255) || H: Sahih Muslim
+The short surah our Beloved Prophet ﷺ said equals a third of the Qur'an (paraphrased). :: Surah al-Ikhlas || H: Sahih al-Bukhari
+The verse our Beloved Master ﷺ called the greatest verse of the Qur'an (paraphrased). :: Ayat al-Kursi (2:255) || H: Sahih Muslim
 The surah that calls its own story "the best of stories". :: Surah Yusuf || H: Qur'an 12:3
 A person who has memorised the whole Qur'an. :: Hafiz || H: Standard term
 The shortest surah of the Qur'an. :: Surah al-Kawthar || H: The Mushaf
 The last surah in the Mushaf. :: Surah al-Nas || H: The Mushaf
 The surah named after the Prophet who was swallowed by a great fish. :: Surah Yunus || H: The Mushaf; Qur'an 37:139-142
-The holy book revealed to the Prophet Muhammad ﷺ. :: The Qur'an || H: Qur'an 2:2
+The holy book revealed to our Beloved Prophet Muhammad ﷺ. :: The Qur'an || H: Qur'an 2:2
 The written copy of the Qur'an between two covers. :: The Mushaf || H: Standard term
 A chapter of the Qur'an. :: Surah || H: Standard term
 The phrase "Bismillah al-Rahman al-Rahim" is called this. :: The Basmalah || H: Standard term
@@ -35,8 +35,8 @@ The surah named after the family of 'Imran. :: Surah Al 'Imran || H: Qur'an 3:33
 The surah named after women. :: Surah al-Nisa' || H: The Mushaf
 The surah named after the ant. :: Surah al-Naml || H: Qur'an 27:18
 The surah named after the spider. :: Surah al-'Ankabut || H: Qur'an 29:41
-The surah named after the Prophet Ibrahim (عليه السلام). :: Surah Ibrahim || H: The Mushaf
-The surah named after the Prophet Nuh (عليه السلام). :: Surah Nuh || H: The Mushaf
+The surah named after our Master Ibrahim (عليه السلام). :: Surah Ibrahim || H: The Mushaf
+The surah named after our Master Nuh (عليه السلام). :: Surah Nuh || H: The Mushaf
 The surah named after the Romans. :: Surah al-Rum || H: Qur'an 30:2
 The surah named after the light. :: Surah al-Nur || H: Qur'an 24:35
 The surah named after the jinn. :: Surah al-Jinn || H: Qur'an 72:1
@@ -52,7 +52,7 @@ Juz' 30 is popularly named after its first word. :: Juz' 'Amma || H: Standard na
 The first surah of Juz' 'Amma. :: Surah al-Naba' || H: The Mushaf
 The surah recited in every rak'ah of the prayer. :: Surah al-Fatihah || H: Sahih al-Bukhari
 "Amin" said after al-Fatihah means this. :: O Allah, answer || H: Standard meaning
-The Prophet ﷺ said the best of you are those who learn the Qur'an and this (paraphrased). :: Teach it || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ said the best of you are those who learn the Qur'an and this (paraphrased). :: Teach it || H: Sahih al-Bukhari
 Reading the Qur'an with correct pronunciation rules is called this. :: Tajwid || H: Standard term
 Explaining the meanings of the Qur'an is called this. :: Tafsir || H: Standard term
 The Qur'an was sent down in stages over about 23 years; this whole process is called this. :: Tanzil (revelation) || H: Qur'an 17:106
@@ -66,13 +66,13 @@ Surahs revealed after the Hijrah are called this. :: Madani (Madinan) || H: al-I
 The surah that has the Basmalah inside a verse, in the letter of Sulayman (عليه السلام). :: Surah al-Naml || H: Qur'an 27:30
 The surah named after the bee. :: Surah al-Nahl || H: The Mushaf
 The last two surahs, recited for protection, are together called this. :: al-Mu'awwidhatayn || H: Sahih Muslim (their virtue)
-The Companion who led the gathering of the Qur'an and was a chief scribe of revelation. :: Zayd ibn Thabit (رضي الله عنه) || H: Sahih al-Bukhari, Virtues of the Qur'an
-The caliph who had the Qur'an gathered into one volume after the Battle of Yamamah. :: Abu Bakr al-Siddiq (رضي الله عنه) || H: Sahih al-Bukhari, Virtues of the Qur'an
-The caliph who had standard copies of the Mushaf sent to the provinces. :: 'Uthman ibn 'Affan (رضي الله عنه) || H: Sahih al-Bukhari, Virtues of the Qur'an
-The Companion who urged Abu Bakr (رضي الله عنه) to collect the Qur'an after many reciters fell at Yamamah. :: 'Umar ibn al-Khattab (رضي الله عنه) || H: Sahih al-Bukhari, Virtues of the Qur'an
-The surah that names the Prophet's uncle who opposed him. :: Surah al-Masad (al-Lahab) || H: Qur'an 111:1
+The Companion who led the gathering of the Qur'an and was a chief scribe of revelation. :: Zayd ibn Thabit (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari, Virtues of the Qur'an
+The caliph who had the Qur'an gathered into one volume after the Battle of Yamamah. :: Our master Abu Bakr al-Siddiq (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari, Virtues of the Qur'an
+The caliph who had standard copies of the Mushaf sent to the provinces. :: Our master 'Uthman ibn 'Affan (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari, Virtues of the Qur'an
+The Companion who urged our master Abu Bakr (رِضْوَانُ اللَّهِ عَلَيْهِ) to collect the Qur'an after many reciters fell at Yamamah. :: Our master 'Umar ibn al-Khattab (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari, Virtues of the Qur'an
+The surah that names our Beloved Prophet's ﷺ uncle who opposed Him ﷺ. :: Surah al-Masad (al-Lahab) || H: Qur'an 111:1
 The surah named after the elephant army. :: Surah al-Fil || H: Qur'an 105
-The surah named after the tribe of the Prophet ﷺ. :: Surah Quraysh || H: Qur'an 106
+The surah named after the tribe of our Beloved Prophet ﷺ. :: Surah Quraysh || H: Qur'an 106
 The surah whose name means "Victory", revealed on the way back from Hudaybiyyah. :: Surah al-Fath || H: Sahih al-Bukhari, Book of Tafsir
 The verse that says there is no compulsion in religion. :: Qur'an 2:256 || H: Qur'an 2:256
 The number of years over which the Qur'an was revealed, roughly. :: About 23 || H: al-Itqan (al-Suyuti)
@@ -91,7 +91,7 @@ The number of verses in Surah al-Ikhlas. :: 4 || H: The Mushaf
 The number of verses in Surah Yasin, by the Kufan count. :: 83 || H: The Mushaf
 The number of verses in Surah al-Kahf, by the Kufan count. :: 110 || H: The Mushaf
 The number of verses in Surah al-Mulk. :: 30 || H: The Mushaf
-The Prophet ﷺ said a surah of thirty verses interceded for a man until he was forgiven (paraphrased). :: Surah al-Mulk || H: Sunan al-Tirmidhi
+Our Beloved Master ﷺ said a surah of thirty verses interceded for a man until he was forgiven (paraphrased). :: Surah al-Mulk || H: Sunan al-Tirmidhi
 The surah many read on Friday for light between the two Fridays (paraphrased). :: Surah al-Kahf || H: al-Hakim, al-Mustadrak
 Memorising the first ten verses of this surah protects from the Dajjal (paraphrased). :: Surah al-Kahf || H: Sahih Muslim
 The surah in which the Qur'an says Allah taught the Qur'an and created man. :: Surah al-Rahman || H: Qur'an 55:1-3
@@ -102,12 +102,12 @@ The surah about a man who frowned when a blind man came. :: Surah 'Abasa || H: Q
 The surah that names Abu Lahab. :: Surah al-Masad || H: Qur'an 111:1
 The surah that says Maryam (عليها السلام) was chosen above the women of the worlds. :: Surah Al 'Imran || H: Qur'an 3:42
 The surah named after the "Groups" led to Paradise or to Hell. :: Surah al-Zumar || H: Qur'an 39:71
-The surah that describes the Prophet ﷺ splitting the moon as a sign. :: Surah al-Qamar || H: Qur'an 54:1
+The surah that describes our Beloved Prophet ﷺ splitting the moon as a sign. :: Surah al-Qamar || H: Qur'an 54:1
 The surah in which the Qur'an is said to be made easy for remembrance, repeated four times. :: Surah al-Qamar || H: Qur'an 54:17, 22, 32, 40
 The surah named after the "Kneeling" nations on the Day. :: Surah al-Jathiyah || H: Qur'an 45:28
 The surah named after the "Smoke". :: Surah al-Dukhan || H: Qur'an 44:10
 The surah named after the "Sand dunes". :: Surah al-Ahqaf || H: Qur'an 46:21
-The surah named after the "Private rooms" of the Prophet ﷺ. :: Surah al-Hujurat || H: Qur'an 49:4
+The surah named after the "Private rooms" of our Beloved Prophet ﷺ. :: Surah al-Hujurat || H: Qur'an 49:4
 The surah named after the "Clans" (Confederates). :: Surah al-Ahzab || H: Qur'an 33:20
 The surah named after "Those who drag forth" (angels). :: Surah al-Nazi'at || H: Qur'an 79:1
 The surah named after "Those ranged in rows". :: Surah al-Saffat || H: Qur'an 37:1
@@ -124,11 +124,11 @@ The surah named after the Night Journey. :: Surah al-Isra' || H: Qur'an 17:1
 The surah whose opening verses were the first to be revealed. :: Surah al-'Alaq || H: Sahih al-Bukhari, Book of Revelation
 The Prophet named most often in the Qur'an. :: Musa (عليه السلام) || H: The Qur'an (over 130 mentions)
 The only woman named in the Qur'an. :: Maryam (عليها السلام) || H: Qur'an 19:16 and elsewhere
-The only Companion named in the Qur'an. :: Zayd ibn Harithah (رضي الله عنه) || H: Qur'an 33:37
+The only Companion named in the Qur'an. :: Zayd ibn Harithah (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Qur'an 33:37
 The surah that deals at length with the Battle of Badr. :: Surah al-Anfal || H: Tafsir al-Tabari, Surah al-Anfal
 The surah that tells of the Battle of the Trench. :: Surah al-Ahzab || H: Qur'an 33:9-27
-The surah that cleared 'A'ishah (رضي الله عنها) of the slander. :: Surah al-Nur || H: Qur'an 24:11-20; Sahih al-Bukhari
-The two surahs the Prophet ﷺ called al-Zahrawan, "the two bright ones". :: al-Baqarah and Al 'Imran || H: Sahih Muslim
+The surah that cleared our lady 'A'ishah (رِضْوَانُ اللَّهِ عَلَيْهَا) of the slander. :: Surah al-Nur || H: Qur'an 24:11-20; Sahih al-Bukhari
+The two surahs our Beloved Master ﷺ called al-Zahrawan, "the two bright ones". :: al-Baqarah and Al 'Imran || H: Sahih Muslim
 The surah in which a wise man advises his son. :: Surah Luqman || H: Qur'an 31:12-19
 The surah that opens with a woman pleading her case about her husband. :: Surah al-Mujadilah || H: Qur'an 58:1
 The surah beginning "Tabarak", recited at night by many for protection in the grave. :: Surah al-Mulk || H: Sunan al-Tirmidhi
@@ -159,7 +159,7 @@ The surah that tells of Ayyub (عليه السلام) striking the ground with h
 The surah that has the "Verse of Light". :: Surah al-Nur || H: Qur'an 24:35
 The surah that has the verse "Today I have perfected your religion for you" (meaning). :: Surah al-Ma'idah || H: Qur'an 5:3
 The surah that has the verse "Allah and His angels send blessings on the Prophet" (meaning). :: Surah al-Ahzab || H: Qur'an 33:56
-The surah that has the verse saying Muhammad ﷺ is "the Seal of the Prophets". :: Surah al-Ahzab || H: Qur'an 33:40
+The surah that has the verse saying Muhammad ﷺ is "the Seal of the Prophets" (عليهم السلام). :: Surah al-Ahzab || H: Qur'an 33:40
 The surah that has the verse on hijab "draw their outer garments" (jalabib). :: Surah al-Ahzab || H: Qur'an 33:59
 The surah that commands fasting in Ramadan. :: Surah al-Baqarah || H: Qur'an 2:183-185
 The surah that describes the wudu step by step. :: Surah al-Ma'idah || H: Qur'an 5:6
@@ -167,9 +167,9 @@ The surah that commands Hajj "for whoever is able". :: Surah Al 'Imran || H: Qur
 The surah that changed the qiblah to al-Masjid al-Haram. :: Surah al-Baqarah || H: Qur'an 2:144
 
 ## 400
-When the scribes differed, 'Uthman (رضي الله عنه) told them to write in the dialect of this tribe. :: Quraysh || H: Sahih al-Bukhari, Virtues of the Qur'an
-The Companion named first among the four from whom the Prophet ﷺ said to learn the Qur'an (paraphrased). :: 'Abdullah ibn Mas'ud (رضي الله عنه) || H: Sahih al-Bukhari
-The Mother of the Believers who kept the compiled sheets of the Qur'an after 'Umar (رضي الله عنه). :: Hafsah bint 'Umar (رضي الله عنها) || H: Sahih al-Bukhari, Virtues of the Qur'an
+When the scribes differed, our master 'Uthman (رِضْوَانُ اللَّهِ عَلَيْهِ) told them to write in the dialect of this tribe. :: Quraysh || H: Sahih al-Bukhari, Virtues of the Qur'an
+The Companion named first among the four from whom our Beloved Prophet ﷺ said to learn the Qur'an (paraphrased). :: 'Abdullah ibn Mas'ud (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+The Mother of the Believers who kept the compiled sheets of the Qur'an after our master 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِ). :: Our lady Hafsah bint 'Umar (رِضْوَانُ اللَّهِ عَلَيْهَا) || H: Sahih al-Bukhari, Virtues of the Qur'an
 The scholar who chose the seven famous readers, d. 324 AH / 936 CE. :: Ibn Mujahid رحمة الله عليه || H: Kitab al-Sab'ah (Ibn Mujahid)
 The most widespread reading today is Hafs from this reader of Kufah. :: 'Asim رحمة الله عليه || H: al-Nashr (Ibn al-Jazari)
 The reading of Warsh, common in North and West Africa, comes from this reader of Madinah. :: Nafi' رحمة الله عليه || H: al-Nashr (Ibn al-Jazari)
@@ -177,7 +177,7 @@ The number of mass-transmitted readings (qira'at) recognised by Ibn al-Jazari. :
 The term for verses that are clear in meaning, from Qur'an 3:7. :: Muhkamat || H: Qur'an 3:7
 The term for verses that are open to more than one meaning, from Qur'an 3:7. :: Mutashabihat || H: Qur'an 3:7
 The surah that repeats "So which of the favours of your Lord will you deny?" (meaning). :: Surah al-Rahman || H: Qur'an 55
-The surah named after the Prophet ﷺ himself. :: Surah Muhammad || H: The Mushaf (surah 47)
+The surah named after our Beloved Prophet ﷺ Himself ﷺ. :: Surah Muhammad || H: The Mushaf (surah 47)
 The surah that sets out most of the shares of inheritance. :: Surah al-Nisa' || H: Qur'an 4:11-12, 4:176
 The surah that lists the eight kinds of people who may receive zakat. :: Surah al-Tawbah || H: Qur'an 9:60
 The surah named after the Prophet sent to the people of 'Ad. :: Surah Hud || H: Qur'an 11:50
@@ -186,12 +186,12 @@ The surah whose name means "The Criterion", one of the names of the Qur'an. :: S
 The total number of verses in the Qur'an by the Kufan count. :: 6,236 || H: al-Bayan fi 'Add Ay al-Qur'an (al-Dani)
 The term for a later ruling that replaces an earlier one in the Qur'an. :: Naskh (abrogation) || H: al-Itqan (al-Suyuti)
 The word "Qur'an" comes from a root meaning this. :: To read or recite (qara'a) || H: Lisan al-'Arab
-The surah in which the Prophet ﷺ is told to say "I do not worship what you worship" (meaning). :: Surah al-Kafirun || H: Qur'an 109:2
-The Companion who recited Surah al-Rahman openly at the Ka'bah and was beaten for it, by the seerah report. :: 'Abdullah ibn Mas'ud (رضي الله عنه) || H: Ibn Hisham, al-Sirah
-The Companion the Prophet ﷺ praised for his voice, saying he was given a flute of the family of Dawud (paraphrased). :: Abu Musa al-Ash'ari (رضي الله عنه) || H: Sahih al-Bukhari
-The Companion whose recitation the angels came down to hear like lamps in a cloud, by the hadith. :: Usayd ibn Hudayr (رضي الله عنه) || H: Sahih al-Bukhari
+The surah in which our Beloved Master ﷺ is told to say "I do not worship what you worship" (meaning). :: Surah al-Kafirun || H: Qur'an 109:2
+The Companion who recited Surah al-Rahman openly at the Ka'bah and was beaten for it, by the seerah report. :: 'Abdullah ibn Mas'ud (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Ibn Hisham, al-Sirah
+The Companion our Beloved Prophet ﷺ praised for his voice, saying he was given a flute of the family of Dawud (paraphrased). :: Abu Musa al-Ash'ari (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+The Companion whose recitation the angels came down to hear like lamps in a cloud, by the hadith. :: Usayd ibn Hudayr (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
 The surah he was reciting at the time, by the report. :: Surah al-Baqarah || H: Sahih al-Bukhari
-The Companion the Prophet ﷺ asked to recite to him, who wept at Qur'an 4:41. :: 'Abdullah ibn Mas'ud (رضي الله عنه) || H: Sahih al-Bukhari
+The Companion our Beloved Prophet ﷺ asked to recite to Him ﷺ, who wept at Qur'an 4:41. :: 'Abdullah ibn Mas'ud (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
 The number of sajdah (prostration) places in the Mushaf most widely printed today. :: 15 || H: The Mushaf (Madinah print)
 The Hanafi school counts this many obligatory sajdahs of recitation. :: 14 || H: Nur al-Idah
 The Mushaf name for the opening surah that means "the Seven Oft-Repeated". :: al-Sab' al-Mathani || H: Qur'an 15:87; Sahih al-Bukhari
@@ -213,11 +213,11 @@ The reading of al-Duri from Abu 'Amr is still read in this country today. :: Sud
 The script style in which the 'Uthmani Mushaf is written, following the Companions' spelling. :: al-Rasm al-'Uthmani || H: Standard term
 The three conditions for an accepted reading: sound chain, agreement with Arabic, and this. :: Agreement with the 'Uthmani script || H: Ibn al-Jazari, al-Nashr
 The hadith that says the Qur'an was revealed in this many ahruf (modes). :: 7 || H: Sahih al-Bukhari
-The two Companions whose dispute over Surah al-Furqan led to the hadith of the seven ahruf. :: 'Umar ibn al-Khattab and Hisham ibn Hakim (رضي الله عنهما) || H: Sahih al-Bukhari
-The Companion who brought news to 'Uthman (رضي الله عنه) of differences in recitation among the armies. :: Hudhayfah ibn al-Yaman (رضي الله عنه) || H: Sahih al-Bukhari
+The two Companions whose dispute over Surah al-Furqan led to the hadith of the seven ahruf. :: Our master 'Umar ibn al-Khattab and Hisham ibn Hakim (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: Sahih al-Bukhari
+The Companion who brought news to our master 'Uthman (رِضْوَانُ اللَّهِ عَلَيْهِ) of differences in recitation among the armies. :: Hudhayfah ibn al-Yaman (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
 Those armies were fighting in these regions. :: Armenia and Azerbaijan || H: Sahih al-Bukhari
-The year in which 'Uthman (رضي الله عنه) had the copies made, approximately. :: About 25 AH (645 CE) || H: Ibn Hajar, Fath al-Bari
-The Companion who said "Every verse, I know where and about what it came down" (paraphrased). :: 'Abdullah ibn Mas'ud (رضي الله عنه) || H: Sahih al-Bukhari
+The year in which our master 'Uthman (رِضْوَانُ اللَّهِ عَلَيْهِ) had the copies made, approximately. :: About 25 AH (645 CE) || H: Ibn Hajar, Fath al-Bari
+The Companion who said "Every verse, I know where and about what it came down" (paraphrased). :: 'Abdullah ibn Mas'ud (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
 The term for the Qur'an's verse endings, like rhymes. :: Fawasil || H: Standard term
 
 ## 500
@@ -227,7 +227,7 @@ The master of the readings who wrote al-Nashr and the poem al-Muqaddimah al-Jaza
 The famous poem on the seven readings by Imam al-Shatibi رحمة الله عليه (d. 590 AH / 1194 CE). :: Hirz al-Amani (al-Shatibiyyah) || H: al-Shatibiyyah
 The scholar of al-Andalus who wrote al-Taysir on the seven readings, d. 444 AH / 1053 CE. :: Abu 'Amr al-Dani رحمة الله عليه || H: al-Taysir (al-Dani)
 The surah in which every verse contains the word "Allah". :: Surah al-Mujadilah || H?: Commonly stated; count to be checked in the Mushaf
-The verse many regard as the last revealed, according to a report from Ibn 'Abbas (رضي الله عنه). :: Qur'an 2:281 || H?: al-Itqan (al-Suyuti), report of Ibn 'Abbas
+The verse many regard as the last revealed, according to a report from Ibn 'Abbas (رِضْوَانُ اللَّهِ عَلَيْهِ). :: Qur'an 2:281 || H?: al-Itqan (al-Suyuti), report of Ibn 'Abbas
 The word said to mark the middle of the Qur'an by letters. :: Wal-yatalattaf (18:19) || H?: Commonly stated in works on Qur'an counts
 The term for the inimitability of the Qur'an. :: I'jaz || H: al-Itqan (al-Suyuti)
 In Surah Hud, the deniers are challenged to bring this many surahs like it. :: Ten || H: Qur'an 11:13
@@ -235,9 +235,9 @@ In Surah al-Baqarah, the deniers are challenged to bring this many surahs like i
 A name of Surah al-Fatihah meaning "Mother of the Book". :: Umm al-Kitab || H: Sahih al-Bukhari, Book of Tafsir
 The surah also known as Surah Bani Isra'il. :: Surah al-Isra' || H: Sahih al-Bukhari, Book of Tafsir
 The two surahs named after a single letter. :: Sad and Qaf || H: The Mushaf (surahs 38 and 50)
-The term for the order of verses within each surah, fixed by the Prophet ﷺ by consensus. :: Tawqifi || H: al-Itqan (al-Suyuti)
-The Prophet ﷺ said these verses suffice whoever recites them at night (paraphrased). :: The last two verses of al-Baqarah || H: Sahih al-Bukhari
-The Companion to whom the Prophet ﷺ said Allah had told him to recite Surah al-Bayyinah, and he wept. :: Ubayy ibn Ka'b (رضي الله عنه) || H: Sahih al-Bukhari
+The term for the order of verses within each surah, fixed by our Beloved Master ﷺ by consensus. :: Tawqifi || H: al-Itqan (al-Suyuti)
+Our Beloved Prophet ﷺ said these verses suffice whoever recites them at night (paraphrased). :: The last two verses of al-Baqarah || H: Sahih al-Bukhari
+The Companion to whom our Beloved Prophet ﷺ said Allah had told Him ﷺ to recite Surah al-Bayyinah, and he wept. :: Ubayy ibn Ka'b (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
 The grammarian of Basrah credited with the first vowel dots in the Mushaf, d. 69 AH / 688 CE. :: Abu al-Aswad al-Du'ali رحمة الله عليه || H: al-Muhkam fi Naqt al-Masahif (al-Dani)
 The scholar of Basrah credited with today's vowel signs (fathah, dammah, kasrah), 2nd century AH / 8th century CE. :: al-Khalil ibn Ahmad al-Farahidi رحمة الله عليه || H: al-Muhkam fi Naqt al-Masahif (al-Dani)
 The measured, unhurried recitation commanded in Surah al-Muzzammil. :: Tartil || H: Qur'an 73:4
@@ -249,14 +249,14 @@ The book of Qur'anic sciences by al-Zarkashi رحمة الله عليه. :: al-B
 The surah with the verse "By your Lord, they will not believe until they make you judge" (meaning). :: Surah al-Nisa' || H: Qur'an 4:65
 The surah that contains two verses of sajdah, by the Shafi'i and Hanbali count. :: Surah al-Hajj || H: Matn Abi Shuja'; Zad al-Mustaqni'
 The sajdah in Surah Sad is counted as a sajdah of thankfulness, not recitation, in this school. :: The Shafi'i school || H: Matn Abi Shuja'
-The Prophet ﷺ prostrated in Surah al-Najm, and all present prostrated except this person. :: An old man (who lifted dust to his forehead) || H: Sahih al-Bukhari
+Our Beloved Master ﷺ prostrated in Surah al-Najm, and all present prostrated except this person. :: An old man (who lifted dust to his forehead) || H: Sahih al-Bukhari
 The surah that tells how a group of jinn listened to the Qur'an and believed. :: Surah al-Jinn || H: Qur'an 72:1-2
-The place where the jinn heard the Prophet ﷺ reciting, by the seerah. :: Nakhlah || H: Sahih al-Bukhari; Ibn Hisham
+The place where the jinn heard our Beloved Prophet ﷺ reciting, by the seerah. :: Nakhlah || H: Sahih al-Bukhari; Ibn Hisham
 The surah that mentions the "Two Easts and Two Wests". :: Surah al-Rahman || H: Qur'an 55:17
 The surah that mentions two seas that meet with a barrier between them, and pearls and coral. :: Surah al-Rahman || H: Qur'an 55:19-22
 The surah that says the heavens and earth were joined, then split apart. :: Surah al-Anbiya' || H: Qur'an 21:30
 The surah that describes the stages of the embryo, from drop to clot to lump. :: Surah al-Mu'minun || H: Qur'an 23:12-14
-The surah in which the Prophet ﷺ is told "And warn your nearest kin". :: Surah al-Shu'ara' || H: Qur'an 26:214
+The surah in which our Beloved Prophet ﷺ is told "And warn your nearest kin". :: Surah al-Shu'ara' || H: Qur'an 26:214
 The surah in which the Qur'an is called "a guidance and a healing" for the believers. :: Surah Fussilat || H: Qur'an 41:44
 The surah that says "We have not neglected anything in the Book". :: Surah al-An'am || H: Qur'an 6:38
 The surah in which Musa (عليه السلام) says "My Lord, expand my chest". :: Surah Ta Ha || H: Qur'an 20:25

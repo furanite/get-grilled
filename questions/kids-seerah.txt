@@ -1,108 +1,108 @@
 id: kids-seerah
-name: Our Prophet ﷺ
+name: Our Beloved Prophet ﷺ
 nameAr: نبينا ﷺ
 group: kids
 # For children. The Prophet ﷺ and the Companions are never drawn or voiced. Dates are hijri first, then CE.
 
 ## 100
 The name of our Prophet. :: Muhammad ﷺ || H: Qur'an 48:29
-The city where the Prophet ﷺ was born. :: Makkah al-Mukarramah || H: Ibn Hisham, al-Sirah
-The city the Prophet ﷺ moved to. :: Madinah al-Munawwarah || H: Sahih al-Bukhari
-The Prophet's ﷺ mother. :: Aminah || H: Ibn Hisham, al-Sirah
-The Prophet's ﷺ father. :: 'Abdullah || H: Ibn Hisham, al-Sirah
-The grandfather who looked after the Prophet ﷺ. :: 'Abd al-Muttalib || H: Ibn Hisham, al-Sirah
-The kind lady who fed the baby Prophet ﷺ in the desert. :: Halimah al-Sa'diyyah (رضي الله عنها) || H?: Ibn Hisham, al-Sirah; check: her Islam and so the honorific are debated
-The first wife of the Prophet ﷺ. :: Khadijah (رضي الله عنها) || H: Sahih al-Bukhari
-The Prophet's ﷺ best friend, who travelled with him to Madinah. :: Abu Bakr (رضي الله عنه) || H: Sahih al-Bukhari
+The city where our Beloved Master ﷺ was born. :: Makkah al-Mukarramah || H: Ibn Hisham, al-Sirah
+The city our Beloved Prophet ﷺ moved to. :: Madinah al-Munawwarah || H: Sahih al-Bukhari
+Our Beloved Prophet's ﷺ mother. :: Aminah || H: Ibn Hisham, al-Sirah
+Our Beloved Prophet's ﷺ father. :: 'Abdullah || H: Ibn Hisham, al-Sirah
+The grandfather who looked after our Beloved Prophet ﷺ. :: 'Abd al-Muttalib || H: Ibn Hisham, al-Sirah
+The kind lady who fed the baby Prophet ﷺ in the desert. :: Halimah al-Sa'diyyah (رِضْوَانُ اللَّهِ عَلَيْهَا) || H?: Ibn Hisham, al-Sirah; check: her Islam and so the honorific are debated
+The first wife of our Beloved Master ﷺ. :: Our lady Khadijah (رِضْوَانُ اللَّهِ عَلَيْهَا) || H: Sahih al-Bukhari
+Our Beloved Prophet's ﷺ best friend, who travelled with Him ﷺ to Madinah. :: Our master Abu Bakr (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
 The nickname the people of Makkah gave him, "the trustworthy". :: al-Amin || H: Ibn Hisham, al-Sirah
 The journey from Makkah to Madinah is called this. :: The Hijrah || H: Sahih al-Bukhari
-The Prophet ﷺ was the last of these. :: The Prophets (Seal of the Prophets) || H: Qur'an 33:40
-The Prophet's ﷺ youngest daughter. :: Fatimah (رضي الله عنها) || H: Sahih al-Bukhari
-The Prophet ﷺ looked after these animals as a young man. :: Sheep || H: Sahih al-Bukhari
-The Prophet ﷺ became a Prophet at this age. :: 40 || H: Sahih al-Bukhari
-The first mosque the Prophet ﷺ built on the way to Madinah. :: Masjid Quba' || H: Sahih al-Bukhari
-The Prophet ﷺ was born in this land. :: Arabia (the Hijaz) || H: Ibn Hisham, al-Sirah
-The Prophet ﷺ could not do this, yet he brought the Qur'an. :: Read and write || H: Qur'an 7:157; 29:48
-The Prophet ﷺ was called the "unlettered Prophet", in Arabic this. :: al-Nabi al-Ummi || H: Qur'an 7:157
-The wife of the Prophet ﷺ who was the daughter of Abu Bakr (رضي الله عنه). :: 'A'ishah (رضي الله عنها) || H: Sahih al-Bukhari
-The wife of the Prophet ﷺ who was the daughter of 'Umar (رضي الله عنه). :: Hafsah (رضي الله عنها) || H: Sahih al-Bukhari
-The Prophet's ﷺ wives are called the Mothers of these. :: The Believers || H: Qur'an 33:6
-The husband of Fatimah (رضي الله عنها). :: 'Ali ibn Abi Talib (رضي الله عنه) || H: Sahih al-Bukhari
-The Prophet's ﷺ uncle who became Muslim and was very brave. :: Hamzah (رضي الله عنه) || H: Ibn Hisham, al-Sirah
-The second Caliph. :: 'Umar ibn al-Khattab (رضي الله عنه) || H: Sahih al-Bukhari
-The third Caliph. :: 'Uthman ibn 'Affan (رضي الله عنه) || H: Sahih al-Bukhari
-The fourth Caliph. :: 'Ali ibn Abi Talib (رضي الله عنه) || H: Tarikh al-Tabari
-The people who lived with the Prophet ﷺ and believed in him are called this. :: The Sahabah (Companions) || H: Standard term
-The first woman to believe in the Prophet ﷺ. :: Khadijah (رضي الله عنها) || H: Ibn Hisham, al-Sirah
-The first free man to believe, by the best-known report. :: Abu Bakr (رضي الله عنه) || H: Ibn Hisham, al-Sirah
-The Prophet ﷺ was the kindest of people and the most this. :: Generous || H: Sahih al-Bukhari
-The Prophet ﷺ used to smile this much. :: A lot (very often) || H: Sunan al-Tirmidhi
-The Prophet ﷺ liked to start with this side in everything good. :: The right || H: Sahih al-Bukhari
-The Prophet ﷺ slept on a mat made of this. :: Palm fibre (leather filled with fibre) || H: Sahih al-Bukhari
-The Prophet ﷺ fixed his own sandals and sewed his own this. :: Clothes || H: Musnad Ahmad
-The Prophet ﷺ milked his own this. :: Goat (sheep) || H: Musnad Ahmad
-The Prophet ﷺ never hit a servant, a woman or this. :: Anyone (except in battle) || H: Sahih Muslim
-The Prophet ﷺ greeted these when he passed by them. :: Children || H: Sahih al-Bukhari
-The Prophet ﷺ loved this sweet food. :: Honey (and sweets) || H: Sahih al-Bukhari
-The Prophet ﷺ liked this cool drink. :: Sweet cool water (and milk) || H: Sunan al-Tirmidhi
-The Prophet's ﷺ hair was this colour. :: Black (with a few white hairs) || H: Sahih al-Bukhari
-The Prophet ﷺ had only a few white hairs, about this many. :: About 20 || H: Sahih al-Bukhari
-The Prophet ﷺ was neither very tall nor this. :: Very short || H: Sahih al-Bukhari
-The Prophet ﷺ is the Messenger to this many people. :: All people (all mankind) || H: Qur'an 34:28
-The Qur'an calls the Prophet ﷺ a "mercy to" these. :: The worlds || H: Qur'an 21:107
-The Qur'an says the Prophet ﷺ has a great this. :: Character || H: Qur'an 68:4
-We are told to send these on the Prophet ﷺ. :: Salawat (blessings) || H: Qur'an 33:56
-Whoever sends one blessing on the Prophet ﷺ, Allah sends this many on him. :: 10 || H: Sahih Muslim
-The Prophet ﷺ was a shepherd, like all Prophets, he said, in this city. :: Makkah al-Mukarramah || H: Sahih al-Bukhari
-The Prophet ﷺ prayed in the cave of Hira' on this mountain. :: Jabal al-Nur || H: Standard name; Sahih al-Bukhari (cave)
-The Prophet ﷺ lived in Madinah for this many years. :: 10 || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ was the last of these. :: The Blessed Prophets (عليهم السلام); He ﷺ is their Seal || H: Qur'an 33:40
+Our Beloved Prophet's ﷺ youngest daughter. :: Our lady Fatimah (رِضْوَانُ اللَّهِ عَلَيْهَا) || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ looked after these animals as a young man. :: Sheep || H: Sahih al-Bukhari
+Our Beloved Master ﷺ became a Prophet at this age. :: 40 || H: Sahih al-Bukhari
+The first mosque our Beloved Prophet ﷺ built on the way to Madinah. :: Masjid Quba' || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ was born in this land. :: Arabia (the Hijaz) || H: Ibn Hisham, al-Sirah
+Our Beloved Master ﷺ could not do this, yet He ﷺ brought the Qur'an. :: Read and write || H: Qur'an 7:157; 29:48
+Our Beloved Prophet ﷺ was called the "unlettered Prophet", in Arabic this. :: al-Nabi al-Ummi || H: Qur'an 7:157
+The wife of our Beloved Prophet ﷺ who was the daughter of our master Abu Bakr (رِضْوَانُ اللَّهِ عَلَيْهِ). :: Our lady 'A'ishah (رِضْوَانُ اللَّهِ عَلَيْهَا) || H: Sahih al-Bukhari
+The wife of our Beloved Master ﷺ who was the daughter of our master 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِ). :: Our lady Hafsah (رِضْوَانُ اللَّهِ عَلَيْهَا) || H: Sahih al-Bukhari
+Our Beloved Prophet's ﷺ wives are called the Mothers of these. :: The Believers || H: Qur'an 33:6
+The husband of our lady Fatimah (رِضْوَانُ اللَّهِ عَلَيْهَا). :: Our master 'Ali ibn Abi Talib (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+Our Beloved Prophet's ﷺ uncle who became Muslim and was very brave. :: Our master Hamzah (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Ibn Hisham, al-Sirah
+The second Caliph. :: Our master 'Umar ibn al-Khattab (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+The third Caliph. :: Our master 'Uthman ibn 'Affan (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+The fourth Caliph. :: Our master 'Ali ibn Abi Talib (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Tarikh al-Tabari
+The people who lived with our Beloved Prophet ﷺ and believed in Him ﷺ are called this. :: The Sahabah (Companions) || H: Standard term
+The first woman to believe in our Beloved Prophet ﷺ. :: Our lady Khadijah (رِضْوَانُ اللَّهِ عَلَيْهَا) || H: Ibn Hisham, al-Sirah
+The first free man to believe, by the best-known report. :: Our master Abu Bakr (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Ibn Hisham, al-Sirah
+Our Beloved Master ﷺ was the kindest of people and the most this. :: Generous || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ used to smile this much. :: A lot (very often) || H: Sunan al-Tirmidhi
+Our Beloved Prophet ﷺ liked to start with this side in everything good. :: The right || H: Sahih al-Bukhari
+Our Beloved Master ﷺ slept on a mat made of this. :: Palm fibre (leather filled with fibre) || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ fixed His ﷺ own sandals and sewed His ﷺ own this. :: Clothes || H: Musnad Ahmad
+Our Beloved Prophet ﷺ milked His ﷺ own this. :: Goat (sheep) || H: Musnad Ahmad
+Our Beloved Master ﷺ never hit a servant, a woman or this. :: Anyone (except in battle) || H: Sahih Muslim
+Our Beloved Prophet ﷺ greeted these when He ﷺ passed by them. :: Children || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ loved this sweet food. :: Honey (and sweets) || H: Sahih al-Bukhari
+Our Beloved Master ﷺ liked this cool drink. :: Sweet cool water (and milk) || H: Sunan al-Tirmidhi
+Our Beloved Prophet's ﷺ hair was this colour. :: Black (with a few white hairs) || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ had only a few white hairs, about this many. :: About 20 || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ was neither very tall nor this. :: Very short || H: Sahih al-Bukhari
+Our Beloved Master ﷺ is the Messenger to this many people. :: All people (all mankind) || H: Qur'an 34:28
+The Qur'an calls our Beloved Prophet ﷺ a "mercy to" these. :: The worlds || H: Qur'an 21:107
+The Qur'an says our Beloved Prophet ﷺ has a great this. :: Character || H: Qur'an 68:4
+We are told to send these on our Beloved Master ﷺ. :: Salawat (blessings) || H: Qur'an 33:56
+Whoever sends one blessing on our Beloved Prophet ﷺ, Allah sends this many on him. :: 10 || H: Sahih Muslim
+Our Beloved Prophet ﷺ was a shepherd, like all Blessed Prophets (عليهم السلام), He ﷺ said, in this city. :: Makkah al-Mukarramah || H: Sahih al-Bukhari
+Our Beloved Master ﷺ prayed in the cave of Hira' on this mountain. :: Jabal al-Nur || H: Standard name; Sahih al-Bukhari (cave)
+Our Beloved Prophet ﷺ lived in Madinah for this many years. :: 10 || H: Sahih al-Bukhari
 
 ## 200
-The Prophet ﷺ was born in this year, named after an animal. :: The Year of the Elephant || H: Ibn Hisham, al-Sirah
-The cousin who was the first boy to believe. :: 'Ali ibn Abi Talib (رضي الله عنه) || H: Ibn Hisham, al-Sirah
-The uncle who protected the Prophet ﷺ but did not become Muslim. :: Abu Talib || H: Sahih al-Bukhari
-The cave where the Prophet ﷺ and Abu Bakr hid on the Hijrah. :: The cave of Thawr || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ was born in this year, named after an animal. :: The Year of the Elephant || H: Ibn Hisham, al-Sirah
+The cousin who was the first boy to believe. :: Our master 'Ali ibn Abi Talib (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Ibn Hisham, al-Sirah
+The uncle who protected our Beloved Master ﷺ but did not become Muslim. :: Abu Talib || H: Sahih al-Bukhari
+The cave where our Beloved Prophet ﷺ and Abu Bakr hid on the Hijrah. :: The cave of Thawr || H: Sahih al-Bukhari
 The Hijrah happened in this year. :: 1 AH (622 CE) || H: Standard dating
 The Islamic calendar begins with this event. :: The Hijrah || H: Tarikh al-Tabari
 The people of Madinah who welcomed and helped the Muslims. :: The Ansar || H: Qur'an 9:100
 The Muslims who left Makkah for Madinah. :: The Muhajirun || H: Qur'an 9:100
-The Prophet ﷺ made each Muhajir and Ansari into these. :: Brothers || H: Sahih al-Bukhari
-The Prophet's ﷺ mosque in Madinah. :: al-Masjid al-Nabawi || H: Sahih al-Bukhari
-The animal the Prophet ﷺ rode into Madinah, which chose where to stop. :: His she-camel (al-Qaswa') || H: Ibn Hisham, al-Sirah
-The Prophet ﷺ is buried in this city. :: Madinah al-Munawwarah || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ made each Muhajir and Ansari into these. :: Brothers || H: Sahih al-Bukhari
+Our Beloved Prophet's ﷺ mosque in Madinah. :: al-Masjid al-Nabawi || H: Sahih al-Bukhari
+The animal our Beloved Master ﷺ rode into Madinah, which chose where to stop. :: His ﷺ she-camel (al-Qaswa') || H: Ibn Hisham, al-Sirah
+Our Beloved Prophet ﷺ is buried in this city. :: Madinah al-Munawwarah || H: Sahih al-Bukhari
 The first battle of the Muslims. :: Badr || H: Qur'an 3:123
 At Badr there were about this many Muslims. :: 313 || H: Sahih al-Bukhari
 The trench was dug around Madinah in this battle. :: al-Khandaq (the Trench) || H: Sahih al-Bukhari
-The Companion who suggested digging the trench. :: Salman al-Farisi (رضي الله عنه) || H: Tarikh al-Tabari
-The Prophet ﷺ was born about this many years before the Hijrah. :: 53 || H: Standard dating
-The Prophet's ﷺ father died before this. :: He was born || H: Ibn Hisham, al-Sirah
-'Abd al-Muttalib died when the Prophet ﷺ was this old. :: 8 || H: Ibn Hisham, al-Sirah
-The angel who came to the Prophet ﷺ in the cave of Hira'. :: Jibril (عليه السلام) || H: Sahih al-Bukhari
-After the first revelation, the Prophet ﷺ went home and said "Cover me". He went to this person. :: Khadijah (رضي الله عنها) || H: Sahih al-Bukhari
-Khadijah (رضي الله عنها) took him to her cousin, a Christian scholar. :: Waraqah ibn Nawfal || H: Sahih al-Bukhari
-For the first three years the Prophet ﷺ called people to Islam this way. :: Secretly || H: Ibn Hisham, al-Sirah
+The Companion who suggested digging the trench. :: Salman al-Farisi (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Tarikh al-Tabari
+Our Beloved Prophet ﷺ was born about this many years before the Hijrah. :: 53 || H: Standard dating
+Our Beloved Prophet's ﷺ father died before this. :: He ﷺ was born || H: Ibn Hisham, al-Sirah
+'Abd al-Muttalib died when our Beloved Master ﷺ was this old. :: 8 || H: Ibn Hisham, al-Sirah
+The angel who came to our Beloved Prophet ﷺ in the cave of Hira'. :: Jibril (عليه السلام) || H: Sahih al-Bukhari
+After the first revelation, our Beloved Prophet ﷺ went home and said "Cover me". He ﷺ went to this person. :: Our lady Khadijah (رِضْوَانُ اللَّهِ عَلَيْهَا) || H: Sahih al-Bukhari
+Our lady Khadijah (رِضْوَانُ اللَّهِ عَلَيْهَا) took him to her cousin, a Christian scholar. :: Waraqah ibn Nawfal || H: Sahih al-Bukhari
+For the first three years our Beloved Master ﷺ called people to Islam this way. :: Secretly || H: Ibn Hisham, al-Sirah
 The house where the early Muslims met in secret. :: Dar al-Arqam || H: Ibn Hisham, al-Sirah
-The Prophet ﷺ called his people from this hill. :: al-Safa || H: Sahih al-Bukhari
-The first martyr in Islam, a woman. :: Sumayyah (رضي الله عنها) || H: Ibn Hisham, al-Sirah
-The slave who said "Ahad, Ahad" while being tortured. :: Bilal ibn Rabah (رضي الله عنه) || H: Ibn Hisham, al-Sirah
-The one who bought Bilal and set him free. :: Abu Bakr (رضي الله عنه) || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ called His ﷺ people from this hill. :: al-Safa || H: Sahih al-Bukhari
+The first martyr in Islam, a woman. :: Sumayyah (رِضْوَانُ اللَّهِ عَلَيْهَا) || H: Ibn Hisham, al-Sirah
+The slave who said "Ahad, Ahad" while being tortured. :: Bilal ibn Rabah (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Ibn Hisham, al-Sirah
+The one who bought Bilal and set him free. :: Our master Abu Bakr (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
 The Muslims first moved to this land to be safe. :: Abyssinia (al-Habashah) || H: Ibn Hisham, al-Sirah
 The just king of Abyssinia who protected them. :: The Najashi (Negus) || H: Sahih al-Bukhari
 The Muslims in Abyssinia read him this surah. :: Surah Maryam || H: Musnad Ahmad
-The Prophet ﷺ prayed the funeral prayer in Madinah for this king, who died far away. :: The Najashi || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ prayed the funeral prayer in Madinah for this king, who died far away. :: The Najashi || H: Sahih al-Bukhari
 Quraysh boycotted the Muslims in this valley. :: The valley of Abu Talib (Shi'b Abi Talib) || H: Ibn Hisham, al-Sirah
 The boycott lasted about this many years. :: 3 || H: Ibn Hisham, al-Sirah
 The people of Madinah who made a pledge at 'Aqabah came from these two tribes. :: Aws and Khazraj || H: Ibn Hisham, al-Sirah
-The Companion the Prophet ﷺ sent to teach Islam in Madinah. :: Mus'ab ibn 'Umayr (رضي الله عنه) || H: Sahih al-Bukhari
-On the night of the Hijrah, this Companion slept in the Prophet's ﷺ bed. :: 'Ali ibn Abi Talib (رضي الله عنه) || H: Ibn Hisham, al-Sirah
-The daughter of Abu Bakr who brought food to the cave and was called "she of the two belts". :: Asma' bint Abi Bakr (رضي الله عنهما) || H: Sahih al-Bukhari
+The Companion our Beloved Master ﷺ sent to teach Islam in Madinah. :: Mus'ab ibn 'Umayr (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+On the night of the Hijrah, this Companion slept in our Beloved Prophet's ﷺ bed. :: Our master 'Ali ibn Abi Talib (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Ibn Hisham, al-Sirah
+The daughter of Abu Bakr who brought food to the cave and was called "she of the two belts". :: Asma' bint Abi Bakr (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: Sahih al-Bukhari
 The guide who showed the way on the Hijrah, though not yet Muslim. :: 'Abdullah ibn Urayqit || H: Ibn Hisham, al-Sirah
-The man who chased them but whose horse sank into the sand. :: Suraqah ibn Malik (رضي الله عنه) || H: Sahih al-Bukhari
-The Prophet ﷺ promised Suraqah the bracelets of this king. :: Kisra (the Persian king) || D: Famous seerah report; chain discussed
+The man who chased them but whose horse sank into the sand. :: Suraqah ibn Malik (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ promised Suraqah the bracelets of this king. :: Kisra (the Persian king) || D: Famous seerah report; chain discussed
 The people of Madinah sang to welcome him, in a famous later report. :: Tala'a al-badru 'alayna || D: Popular report (al-Bayhaqi); chain weak
-The Prophet ﷺ stayed first in the house of this Companion in Madinah. :: Abu Ayyub al-Ansari (رضي الله عنه) || H: Sahih Muslim
+Our Beloved Prophet ﷺ stayed first in the house of this Companion in Madinah. :: Abu Ayyub al-Ansari (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih Muslim
 The mosque in Madinah was built on land owned by two of these. :: Orphan boys || H: Sahih al-Bukhari
-The Prophet ﷺ himself carried these to build the mosque. :: Mud bricks || H: Sahih al-Bukhari
+Our Beloved Master ﷺ Himself ﷺ carried these to build the mosque. :: Mud bricks || H: Sahih al-Bukhari
 The roof of the first Prophet's ﷺ mosque was made of these. :: Palm branches || H: Sahih al-Bukhari
 The poor Companions who lived in the mosque. :: Ahl al-Suffah || H: Sahih al-Bukhari
 The battle of Badr was in this year. :: 2 AH (624 CE) || H: Sahih al-Bukhari
@@ -111,161 +111,161 @@ At Badr, Allah helped the Muslims with these. :: Angels || H: Qur'an 3:124; 8:9
 The leader of Quraysh killed at Badr. :: Abu Jahl || H: Sahih al-Bukhari
 
 ## 300
-The Prophet's ﷺ mother died when he was this many years old. :: 6 || H: Ibn Hisham, al-Sirah
-The uncle who looked after the Prophet ﷺ after his grandfather died. :: Abu Talib || H: Ibn Hisham, al-Sirah
-The Prophet ﷺ traded goods for Khadijah (رضي الله عنها) in this land. :: al-Sham (Syria) || H: Ibn Hisham, al-Sirah
-The Prophet ﷺ put this stone back in the Ka'bah and stopped a fight. :: The Black Stone (al-Hajar al-Aswad) || H: Ibn Hisham, al-Sirah
-He did it by putting the stone on this, and each tribe held a corner. :: A cloth (his cloak) || H: Ibn Hisham, al-Sirah
-The city the Prophet ﷺ went to call to Islam, where children threw stones. :: Ta'if || H: Ibn Hisham, al-Sirah; Sahih al-Bukhari
-At Ta'if the Prophet ﷺ did not ask Allah to punish them, but hoped their children would do this. :: Worship Allah alone || H: Sahih al-Bukhari
-The year both Khadijah (رضي الله عنها) and Abu Talib died. :: The Year of Sorrow ('Am al-Huzn) || H: Ibn Hisham, al-Sirah
+Our Beloved Prophet's ﷺ mother died when He ﷺ was this many years old. :: 6 || H: Ibn Hisham, al-Sirah
+The uncle who looked after our Beloved Prophet ﷺ after His ﷺ grandfather died. :: Abu Talib || H: Ibn Hisham, al-Sirah
+Our Beloved Prophet ﷺ traded goods for our lady Khadijah (رِضْوَانُ اللَّهِ عَلَيْهَا) in this land. :: al-Sham (Syria) || H: Ibn Hisham, al-Sirah
+Our Beloved Master ﷺ put this stone back in the Ka'bah and stopped a fight. :: The Black Stone (al-Hajar al-Aswad) || H: Ibn Hisham, al-Sirah
+Our Beloved Prophet ﷺ put the Black Stone on this, and each tribe held a corner. :: A cloth (His ﷺ cloak) || H: Ibn Hisham, al-Sirah
+The city our Beloved Prophet ﷺ went to call to Islam, where children threw stones. :: Ta'if || H: Ibn Hisham, al-Sirah; Sahih al-Bukhari
+At Ta'if our Beloved Prophet ﷺ did not ask Allah to punish them, but hoped their children would do this. :: Worship Allah alone || H: Sahih al-Bukhari
+The year both our lady Khadijah (رِضْوَانُ اللَّهِ عَلَيْهَا) and Abu Talib died. :: The Year of Sorrow ('Am al-Huzn) || H: Ibn Hisham, al-Sirah
 The spider spun a web over this on the Hijrah, in a popular report. :: The mouth of the cave of Thawr || D: Popular report (Musnad Ahmad); details debated
-The Prophet ﷺ told Abu Bakr in the cave: "Do not be sad" because of this. :: Allah is with us || H: Qur'an 9:40
+Our Beloved Master ﷺ told Abu Bakr in the cave: "Do not be sad" because of this. :: Allah is with us || H: Qur'an 9:40
 The mountain near Madinah where a famous battle happened. :: Uhud || H: Sahih al-Bukhari
-The Prophet ﷺ said about Uhud: it is a mountain that does this. :: Loves us, and we love it || H: Sahih al-Bukhari
-The Prophet's ﷺ uncle known as "the Lion of Allah", who fell at Uhud. :: Hamzah (رضي الله عنه) || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ said about Uhud: it is a mountain that does this. :: Loves us, and we love it || H: Sahih al-Bukhari
+Our Beloved Prophet's ﷺ uncle known as "the Lion of Allah", who fell at Uhud. :: Our master Hamzah (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
 The treaty with Makkah in 6 AH (628 CE). :: The Treaty of Hudaybiyyah || H: Sahih al-Bukhari
 The Muslims returned peacefully to Makkah al-Mukarramah in this year. :: 8 AH (630 CE) || H: Sahih al-Bukhari
-On that day the Prophet ﷺ said to the people of Makkah, "Go, you are" this (paraphrased). :: Free || D: Famous report in the seerah (Ibn Hisham); chain debated
+On that day our Beloved Prophet ﷺ said to the people of Makkah, "Go, you are" this (paraphrased). :: Free || D: Famous report in the seerah (Ibn Hisham); chain debated
 The battle of Uhud was in this year. :: 3 AH (625 CE) || H: Sahih al-Bukhari
 At Uhud, the archers were told not to leave this. :: The hill (their place) || H: Sahih al-Bukhari
-The leader of the archers at Uhud. :: 'Abdullah ibn Jubayr (رضي الله عنه) || H: Sahih al-Bukhari
-At Uhud, the Prophet ﷺ was hurt in his face and lost this. :: A tooth (part of a tooth) || H: Sahih Muslim
-The woman who fought to protect the Prophet ﷺ at Uhud. :: Nusaybah bint Ka'b (Umm 'Umarah) (رضي الله عنها) || H: Ibn Hisham, al-Sirah
+The leader of the archers at Uhud. :: 'Abdullah ibn Jubayr (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+At Uhud, our Beloved Master ﷺ was hurt in His ﷺ face and lost this. :: A tooth (part of a tooth) || H: Sahih Muslim
+The woman who fought to protect our Beloved Prophet ﷺ at Uhud. :: Nusaybah bint Ka'b (Umm 'Umarah) (رِضْوَانُ اللَّهِ عَلَيْهَا) || H: Ibn Hisham, al-Sirah
 The battle of the Trench was in this year. :: 5 AH (627 CE) || H: Ibn Hisham, al-Sirah
-At the Trench, the Prophet ﷺ tied this on his belly from hunger. :: A stone || H: Sahih al-Bukhari
-The Companion who fed the Prophet ﷺ and many people from a little food at the Trench. :: Jabir ibn 'Abdullah (رضي الله عنهما) || H: Sahih al-Bukhari
+At the Trench, our Beloved Prophet ﷺ tied this on His ﷺ belly from hunger. :: A stone || H: Sahih al-Bukhari
+The Companion who fed our Beloved Master ﷺ and many people from a little food at the Trench. :: Jabir ibn 'Abdullah (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: Sahih al-Bukhari
 At the Trench, Allah sent a strong this against the enemy. :: Wind || H: Qur'an 33:9
 At Hudaybiyyah, the Companions made a pledge under this. :: A tree || H: Qur'an 48:18
 The pledge at Hudaybiyyah is called this. :: Bay'at al-Ridwan || H: Qur'an 48:18
-The Companion who went to Makkah as messenger before the pledge. :: 'Uthman ibn 'Affan (رضي الله عنه) || H: Sahih al-Bukhari
-The Quraysh man who wrote the treaty with the Prophet ﷺ. :: Suhayl ibn 'Amr || H: Sahih al-Bukhari
+The Companion who went to Makkah as messenger before the pledge. :: Our master 'Uthman ibn 'Affan (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+The Quraysh man who wrote the treaty with our Beloved Prophet ﷺ. :: Suhayl ibn 'Amr || H: Sahih al-Bukhari
 The treaty said there would be no war for this many years. :: 10 || H: Sunan Abi Dawud
-The Prophet ﷺ sent letters to kings, sealed with this. :: A silver ring (seal) || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ sent letters to kings, sealed with this. :: A silver ring (seal) || H: Sahih al-Bukhari
 The ring said these three words. :: Muhammad Rasul Allah || H: Sahih al-Bukhari
 The Roman emperor who received a letter. :: Heraclius (Hiraql) || H: Sahih al-Bukhari
 The Persian king who tore the letter. :: Kisra || H: Sahih al-Bukhari
 The battle of Khaybar was in this year. :: 7 AH (628 CE) || H: Ibn Hisham, al-Sirah
-The Prophet ﷺ gave the flag at Khaybar to this Companion. :: 'Ali ibn Abi Talib (رضي الله عنه) || H: Sahih al-Bukhari
+Our Beloved Master ﷺ gave the flag at Khaybar to this Companion. :: Our master 'Ali ibn Abi Talib (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
 The battle of Mu'tah was against this empire. :: The Romans (Byzantines) || H: Sahih al-Bukhari
-The Companion called "the Sword of Allah" at Mu'tah. :: Khalid ibn al-Walid (رضي الله عنه) || H: Sahih al-Bukhari
+The Companion called "the Sword of Allah" at Mu'tah. :: Khalid ibn al-Walid (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
 On the day Makkah was opened, idols around the Ka'bah were this many. :: 360 || H: Sahih al-Bukhari
-The Prophet ﷺ broke them saying: "Truth has come and" this has gone. :: Falsehood || H: Sahih al-Bukhari; Qur'an 17:81
+Our Beloved Prophet ﷺ broke them saying: "Truth has come and" this has gone. :: Falsehood || H: Sahih al-Bukhari; Qur'an 17:81
 The battle after the opening of Makkah, in a valley. :: Hunayn || H: Qur'an 9:25
 The long journey to Tabuk was in this year. :: 9 AH (630 CE) || H: Sahih al-Bukhari
-The Companion who gave a huge amount for the army of Tabuk. :: 'Uthman ibn 'Affan (رضي الله عنه) || H: Sunan al-Tirmidhi
-Abu Bakr (رضي الله عنه) gave this much of his wealth for Tabuk. :: All of it || H: Sunan Abi Dawud
-The three Companions who stayed behind from Tabuk and were forgiven. :: Ka'b ibn Malik, Murarah and Hilal (رضي الله عنهم) || H: Sahih al-Bukhari
+The Companion who gave a huge amount for the army of Tabuk. :: Our master 'Uthman ibn 'Affan (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sunan al-Tirmidhi
+Our master Abu Bakr (رِضْوَانُ اللَّهِ عَلَيْهِ) gave this much of his wealth for Tabuk. :: All of it || H: Sunan Abi Dawud
+The three Companions who stayed behind from Tabuk and were forgiven. :: Ka'b ibn Malik, Murarah and Hilal (رِضْوَانُ اللَّهِ عَلَيْهِم) || H: Sahih al-Bukhari
 The year many tribes came to accept Islam is called this. :: The Year of Delegations || H: Ibn Hisham, al-Sirah
-At the Farewell Hajj, the Prophet ﷺ gave his speech at this place. :: 'Arafah || H: Sahih Muslim
+At the Farewell Hajj, our Beloved Prophet ﷺ gave His ﷺ speech at this place. :: 'Arafah || H: Sahih Muslim
 In that speech he said your blood and wealth are this, like this day. :: Sacred || H: Sahih Muslim
-He told men to be good to these. :: Women (their wives) || H: Sahih Muslim
-He said he left two things: the Book of Allah and this, in a famous report. :: My Sunnah (or my family, in other reports) || D: Reports differ (Muwatta' Malik; Sahih Muslim)
-The Prophet ﷺ asked the people: "Have I conveyed?" They said yes, and he said this. :: "O Allah, be witness" || H: Sahih Muslim
+Our Beloved Master ﷺ told men to be good to these. :: Women (their wives) || H: Sahih Muslim
+Our Beloved Prophet ﷺ said He ﷺ left two things: the Book of Allah and this, in a famous report. :: My Sunnah (or my family, in other reports) || D: Reports differ (Muwatta' Malik; Sahih Muslim)
+Our Beloved Master ﷺ asked the people: "Have I conveyed?" They said yes, and He ﷺ said this. :: "O Allah, be witness" || H: Sahih Muslim
 
 ## 400
-The Prophet's ﷺ last Hajj is called this. :: The Farewell Hajj (Hajjat al-Wada') || H: Sahih al-Bukhari
+Our Beloved Prophet's ﷺ last Hajj is called this. :: The Farewell Hajj (Hajjat al-Wada') || H: Sahih al-Bukhari
 It was in this year. :: 10 AH (632 CE) || H: Sahih Muslim
-The Prophet ﷺ passed away in this year. :: 11 AH (632 CE) || H: Sahih al-Bukhari
-The Prophet ﷺ passed away at this age. :: 63 || H: Sahih al-Bukhari
-The wife in whose room he passed away. :: 'A'ishah (رضي الله عنها) || H: Sahih al-Bukhari
-The first Caliph after the Prophet ﷺ. :: Abu Bakr (رضي الله عنه) || H: Sahih al-Bukhari
-The Prophet's ﷺ two grandsons. :: al-Hasan and al-Husayn (رضي الله عنهما) || H: Sahih al-Bukhari
-The Prophet ﷺ said these two are the leaders of the youth of Paradise. :: al-Hasan and al-Husayn (رضي الله عنهما) || H: Sunan al-Tirmidhi
-The Prophet's ﷺ son who died as a baby in Madinah. :: Ibrahim || H: Sahih al-Bukhari
-When the Prophet ﷺ was sad for his son, he said the eyes weep and the heart is sad, but we only say this. :: What pleases our Lord || H: Sahih al-Bukhari
-The Prophet ﷺ said he was sent to complete this. :: Good character (manners) || H: Muwatta' Malik
-'A'ishah (رضي الله عنها) said his character was this. :: The Qur'an || H: Sahih Muslim
-At home, the Prophet ﷺ used to do this for his family. :: Help with the housework || H: Sahih al-Bukhari
-The Prophet ﷺ never did this to food he did not like. :: Criticise it (he just left it) || H: Sahih al-Bukhari
-The tree trunk that cried when the Prophet ﷺ stopped leaning on it. :: The palm trunk (al-jidh') || H: Sahih al-Bukhari
-Water came out from between the Prophet's ﷺ fingers; this is called this. :: A miracle (mu'jizah) || H: Sahih al-Bukhari
-At about 12, the Prophet ﷺ travelled to al-Sham with this uncle. :: Abu Talib || H: Sunan al-Tirmidhi
+Our Beloved Prophet ﷺ passed away in this year. :: 11 AH (632 CE) || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ passed away at this age. :: 63 || H: Sahih al-Bukhari
+The wife in whose room he passed away. :: Our lady 'A'ishah (رِضْوَانُ اللَّهِ عَلَيْهَا) || H: Sahih al-Bukhari
+The first Caliph after our Beloved Master ﷺ. :: Our master Abu Bakr (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+Our Beloved Prophet's ﷺ two grandsons. :: Our master al-Hasan and al-Husayn (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ said these two are the leaders of the youth of Paradise. :: Our master al-Hasan and al-Husayn (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: Sunan al-Tirmidhi
+Our Beloved Prophet's ﷺ son who died as a baby in Madinah. :: Ibrahim || H: Sahih al-Bukhari
+When our Beloved Prophet ﷺ was sad for His ﷺ son, He ﷺ said the eyes weep and the heart is sad, but we only say this. :: What pleases our Lord || H: Sahih al-Bukhari
+Our Beloved Master ﷺ said He ﷺ was sent to complete this. :: Good character (manners) || H: Muwatta' Malik
+Our lady 'A'ishah (رِضْوَانُ اللَّهِ عَلَيْهَا) said his character was this. :: The Qur'an || H: Sahih Muslim
+At home, our Beloved Prophet ﷺ used to do this for His ﷺ family. :: Help with the housework || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ never did this to food He ﷺ did not like. :: Criticise it (He ﷺ just left it) || H: Sahih al-Bukhari
+The tree trunk that cried when our Beloved Master ﷺ stopped leaning on it. :: The palm trunk (al-jidh') || H: Sahih al-Bukhari
+Water came out from between our Beloved Prophet's ﷺ fingers; this is called this. :: A miracle (mu'jizah) || H: Sahih al-Bukhari
+At about 12, our Beloved Prophet ﷺ travelled to al-Sham with this uncle. :: Abu Talib || H: Sunan al-Tirmidhi
 On that trip a monk saw signs of prophethood in him; his name. :: Bahira || H: Sunan al-Tirmidhi
-The pact of Quraysh to help the oppressed, which the Prophet ﷺ joined as a young man. :: Hilf al-Fudul || H: Ibn Hisham, al-Sirah
-The Prophet ﷺ said he would join such a pact even in Islam if called for this. :: Justice (helping the wronged) || D: Report in al-Bayhaqi
-Khadijah's servant who travelled with the Prophet ﷺ to Syria. :: Maysarah || H: Ibn Hisham, al-Sirah
-The Prophet ﷺ and Khadijah (رضي الله عنها) had this many children. :: 6 (2 sons, 4 daughters) || H?: Ibn Hisham, al-Sirah; reports differ on the number of sons
-The Prophet's ﷺ daughters. :: Zaynab, Ruqayyah, Umm Kulthum and Fatimah (رضي الله عنهن) || H: Ibn Hisham, al-Sirah
-'Uthman (رضي الله عنه) married two daughters of the Prophet ﷺ, so he was called this. :: Dhu al-Nurayn (the one with two lights) || H: Standard title
-The son of the Prophet ﷺ named al-Qasim gave him this kunyah. :: Abu al-Qasim || H: Sahih al-Bukhari
-The Prophet ﷺ freed and adopted this young man before adoption was ended. :: Zayd ibn Harithah (رضي الله عنه) || H: Qur'an 33:37; Sahih al-Bukhari
-Zayd's son, the young leader the Prophet ﷺ chose for his last army. :: Usamah ibn Zayd (رضي الله عنهما) || H: Sahih al-Bukhari
-The Prophet ﷺ called this young man "the beloved son of the beloved". :: Usamah ibn Zayd (رضي الله عنهما) || H: Sahih al-Bukhari
-The Prophet's ﷺ nurse from childhood, whom he called "my mother after my mother". :: Umm Ayman (Barakah) (رضي الله عنها) || H: Ibn Sa'd, al-Tabaqat
-The Prophet ﷺ was given a she-mule by this ruler of Egypt. :: al-Muqawqis || H: Sahih Muslim (the mule); Ibn Sa'd
-The Prophet's ﷺ sword was called this. :: Dhu al-Fiqar || H: Sunan al-Tirmidhi
-The Prophet's ﷺ white mule at Hunayn. :: Duldul || H: Ibn Sa'd, al-Tabaqat
-At Hunayn, the Prophet ﷺ called "I am the Prophet, no lie; I am the son of" this. :: 'Abd al-Muttalib || H: Sahih al-Bukhari
-The Prophet ﷺ was the grandson of 'Abd al-Muttalib, whose real name was this. :: Shaybah || H: Ibn Hisham, al-Sirah
-The Prophet's ﷺ lineage: Muhammad son of 'Abdullah son of 'Abd al-Muttalib son of this. :: Hashim || H: Sahih al-Bukhari
-'A'ishah (رضي الله عنها) said that when the Prophet ﷺ chose between two things, he chose the this one, if it was not a sin. :: Easier || H: Sahih al-Bukhari
-'A'ishah (رضي الله عنها) said the Prophet ﷺ was "the most this of people". :: Gentle || H: Sahih Muslim
-The Prophet ﷺ raced with 'A'ishah (رضي الله عنها) and this happened the first time. :: She won || H: Sunan Abi Dawud
+The pact of Quraysh to help the oppressed, which our Beloved Prophet ﷺ joined as a young man. :: Hilf al-Fudul || H: Ibn Hisham, al-Sirah
+Our Beloved Master ﷺ said He ﷺ would join such a pact even in Islam if called for this. :: Justice (helping the wronged) || D: Report in al-Bayhaqi
+Khadijah's servant who travelled with our Beloved Prophet ﷺ to Syria. :: Maysarah || H: Ibn Hisham, al-Sirah
+Our Beloved Prophet ﷺ and our lady Khadijah (رِضْوَانُ اللَّهِ عَلَيْهَا) had this many children. :: 6 (2 sons, 4 daughters) || H?: Ibn Hisham, al-Sirah; reports differ on the number of sons
+Our Beloved Prophet's ﷺ daughters. :: Zaynab, Ruqayyah, Umm Kulthum and our lady Fatimah (رِضْوَانُ اللَّهِ عَلَيْهِنَّ) || H: Ibn Hisham, al-Sirah
+Our master 'Uthman (رِضْوَانُ اللَّهِ عَلَيْهِ) married two daughters of our Beloved Master ﷺ, so he was called this. :: Dhu al-Nurayn (the one with two lights) || H: Standard title
+The son of our Beloved Prophet ﷺ named al-Qasim gave Him ﷺ this kunyah. :: Abu al-Qasim || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ freed and adopted this young man before adoption was ended. :: Zayd ibn Harithah (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Qur'an 33:37; Sahih al-Bukhari
+Zayd's son, the young leader our Beloved Master ﷺ chose for His ﷺ last army. :: Usamah ibn Zayd (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ called this young man "the beloved son of the beloved". :: Usamah ibn Zayd (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: Sahih al-Bukhari
+Our Beloved Prophet's ﷺ nurse from childhood, whom He ﷺ called "my mother after my mother". :: Umm Ayman (Barakah) (رِضْوَانُ اللَّهِ عَلَيْهَا) || H: Ibn Sa'd, al-Tabaqat
+Our Beloved Prophet ﷺ was given a she-mule by this ruler of Egypt. :: al-Muqawqis || H: Sahih Muslim (the mule); Ibn Sa'd
+Our Beloved Prophet's ﷺ sword was called this. :: Dhu al-Fiqar || H: Sunan al-Tirmidhi
+Our Beloved Prophet's ﷺ white mule at Hunayn. :: Duldul || H: Ibn Sa'd, al-Tabaqat
+At Hunayn, our Beloved Master ﷺ called "I am the Prophet, no lie; I am the son of" this. :: 'Abd al-Muttalib || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ was the grandson of 'Abd al-Muttalib, whose real name was this. :: Shaybah || H: Ibn Hisham, al-Sirah
+Our Beloved Prophet's ﷺ lineage: Muhammad son of 'Abdullah son of 'Abd al-Muttalib son of this. :: Hashim || H: Sahih al-Bukhari
+Our lady 'A'ishah (رِضْوَانُ اللَّهِ عَلَيْهَا) said that when our Beloved Prophet ﷺ chose between two things, He ﷺ chose the this one, if it was not a sin. :: Easier || H: Sahih al-Bukhari
+Our lady 'A'ishah (رِضْوَانُ اللَّهِ عَلَيْهَا) said our Beloved Master ﷺ was "the most this of people". :: Gentle || H: Sahih Muslim
+Our Beloved Prophet ﷺ raced with our lady 'A'ishah (رِضْوَانُ اللَّهِ عَلَيْهَا) and this happened the first time. :: She won || H: Sunan Abi Dawud
 The second time, he won and said this. :: "This is for that" || H: Sunan Abi Dawud
-The Prophet ﷺ let the Abyssinians play with these in the mosque while 'A'ishah watched. :: Spears || H: Sahih al-Bukhari
-The Prophet ﷺ never refused when asked for something; he said this word. :: No (he never said no) || H: Sahih al-Bukhari
-The Prophet ﷺ once gave a man a valley full of these. :: Sheep (between two mountains) || H: Sahih Muslim
-The Prophet ﷺ ate sitting this way. :: Humbly (not leaning) || H: Sahih al-Bukhari
-The Prophet ﷺ said: "I am only" this, who eats like a servant eats. :: A servant || D: Report in Musnad Abi Ya'la; graded variously
-The Prophet ﷺ prayed until his feet swelled, though Allah forgave him; he said: "Should I not be" this. :: A thankful servant || H: Sahih al-Bukhari
-The Prophet ﷺ cried when Ibn Mas'ud read this verse about him being a witness. :: Qur'an 4:41 (Surah al-Nisa') || H: Sahih al-Bukhari
-The Prophet ﷺ said the best of people are those of his this, then those after them. :: Generation || H: Sahih al-Bukhari
-The Prophet ﷺ said: "Do not curse my Companions"; even gold like this mountain given would not reach their handful. :: Uhud || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ let the Abyssinians play with these in the mosque while 'A'ishah watched. :: Spears || H: Sahih al-Bukhari
+Our Beloved Master ﷺ never refused when asked for something; He ﷺ said this word. :: No (He ﷺ never said no) || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ once gave a man a valley full of these. :: Sheep (between two mountains) || H: Sahih Muslim
+Our Beloved Prophet ﷺ ate sitting this way. :: Humbly (not leaning) || H: Sahih al-Bukhari
+Our Beloved Master ﷺ said: "I am only" this, who eats like a servant eats. :: A servant || D: Report in Musnad Abi Ya'la; graded variously
+Our Beloved Prophet ﷺ prayed until His ﷺ feet swelled, though Allah forgave Him ﷺ; He ﷺ said: "Should I not be" this. :: A thankful servant || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ cried when Ibn Mas'ud read this verse about Him ﷺ being a witness. :: Qur'an 4:41 (Surah al-Nisa') || H: Sahih al-Bukhari
+Our Beloved Master ﷺ said the best of people are those of His ﷺ this, then those after them. :: Generation || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ said: "Do not curse my Companions"; even gold like this mountain given would not reach their handful. :: Uhud || H: Sahih al-Bukhari
 The ten Companions given good news of Jannah by name are called this. :: al-'Asharah al-Mubashsharah || H: Sunan al-Tirmidhi
-Among the ten: Abu Bakr, 'Umar, 'Uthman, 'Ali, Talhah, al-Zubayr, 'Abd al-Rahman, Sa'd, Sa'id and this one. :: Abu 'Ubaydah ibn al-Jarrah (رضي الله عنه) || H: Sunan al-Tirmidhi
-The Prophet ﷺ married Khadijah (رضي الله عنها) and stayed married only to her for about this many years. :: 25 || H: Ibn Hisham, al-Sirah
-The Prophet ﷺ said Khadijah (رضي الله عنها) was given good news of a house in Jannah made of this. :: Hollow pearl || H: Sahih al-Bukhari
+Among the ten: Abu Bakr, 'Umar, 'Uthman, 'Ali, Talhah, al-Zubayr, 'Abd al-Rahman, Sa'd, Sa'id and this one. :: Abu 'Ubaydah ibn al-Jarrah (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sunan al-Tirmidhi
+Our Beloved Prophet ﷺ married our lady Khadijah (رِضْوَانُ اللَّهِ عَلَيْهَا) and stayed married only to her for about this many years. :: 25 || H: Ibn Hisham, al-Sirah
+Our Beloved Master ﷺ said our lady Khadijah (رِضْوَانُ اللَّهِ عَلَيْهَا) was given good news of a house in Jannah made of this. :: Hollow pearl || H: Sahih al-Bukhari
 
 ## 500
-The Prophet ﷺ was born in this month, by the best-known report. :: Rabi' al-Awwal || H: Ibn Hisham, al-Sirah
-The Prophet ﷺ was born on this day of the week. :: Monday || H: Sahih Muslim
-The Prophet's ﷺ servant boy for ten years, who said he was never told "Uff". :: Anas ibn Malik (رضي الله عنه) || H: Sahih Muslim
-The young Companion the Prophet ﷺ taught "Say Bismillah, eat with your right hand, eat what is near you". :: 'Umar ibn Abi Salamah (رضي الله عنه) || H: Sahih al-Bukhari
-The young Companion the Prophet ﷺ hugged, asking Allah to teach him the Book. :: 'Abdullah ibn 'Abbas (رضي الله عنهما) || H: Sahih al-Bukhari
-The little boy whose pet bird died; the Prophet ﷺ asked him about it kindly. :: Abu 'Umayr || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ was born in this month, by the best-known report. :: Rabi' al-Awwal || H: Ibn Hisham, al-Sirah
+Our Beloved Prophet ﷺ was born on this day of the week. :: Monday || H: Sahih Muslim
+Our Beloved Prophet's ﷺ servant boy for ten years, who said he was never told "Uff". :: Anas ibn Malik (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih Muslim
+The young Companion our Beloved Master ﷺ taught "Say Bismillah, eat with your right hand, eat what is near you". :: Our master 'Umar ibn Abi Salamah (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+The young Companion our Beloved Prophet ﷺ hugged, asking Allah to teach him the Book. :: 'Abdullah ibn 'Abbas (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: Sahih al-Bukhari
+The little boy whose pet bird died; our Beloved Prophet ﷺ asked him about it kindly. :: Abu 'Umayr || H: Sahih al-Bukhari
 The bird was this kind. :: A small bird (nughayr) || H: Sahih al-Bukhari
-The Prophet ﷺ made his prayer shorter when he heard this. :: A baby crying || H: Sahih al-Bukhari
-The Prophet ﷺ carried this granddaughter on his shoulder while praying. :: Umamah || H: Sahih al-Bukhari
-The man who said "I have ten children and never kissed one"; the Prophet ﷺ said whoever shows no mercy is shown none. :: al-Aqra' ibn Habis || H: Sahih al-Bukhari
-The Prophet ﷺ said he and the one who looks after an orphan will be in Paradise like these. :: Two fingers together || H: Sahih al-Bukhari
-The tribe of the Prophet ﷺ. :: Quraysh || H: Sahih Muslim
-The Prophet's ﷺ clan within Quraysh. :: Banu Hashim || H: Sahih Muslim
-The Prophet ﷺ married Khadijah (رضي الله عنها) when he was this age. :: 25 || H: Ibn Hisham, al-Sirah
-The Prophet ﷺ said the best of you are those who are best to these people. :: Their families || H: Sunan al-Tirmidhi
-The Prophet ﷺ said a smile to your brother is this. :: Charity (sadaqah) || H: Sunan al-Tirmidhi
-The Prophet ﷺ was born in the year of the Elephant, about this CE year. :: 570 CE || H: Standard dating
+Our Beloved Master ﷺ made His ﷺ prayer shorter when He ﷺ heard this. :: A baby crying || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ carried this granddaughter on His ﷺ shoulder while praying. :: Umamah || H: Sahih al-Bukhari
+The man who said "I have ten children and never kissed one"; our Beloved Prophet ﷺ said whoever shows no mercy is shown none. :: al-Aqra' ibn Habis || H: Sahih al-Bukhari
+Our Beloved Master ﷺ said He ﷺ and the one who looks after an orphan will be in Paradise like these. :: Two fingers together || H: Sahih al-Bukhari
+The tribe of our Beloved Prophet ﷺ. :: Quraysh || H: Sahih Muslim
+Our Beloved Prophet's ﷺ clan within Quraysh. :: Banu Hashim || H: Sahih Muslim
+Our Beloved Prophet ﷺ married our lady Khadijah (رِضْوَانُ اللَّهِ عَلَيْهَا) when He ﷺ was this age. :: 25 || H: Ibn Hisham, al-Sirah
+Our Beloved Master ﷺ said the best of you are those who are best to these people. :: Their families || H: Sunan al-Tirmidhi
+Our Beloved Prophet ﷺ said a smile to your brother is this. :: Charity (sadaqah) || H: Sunan al-Tirmidhi
+Our Beloved Prophet ﷺ was born in the year of the Elephant, about this CE year. :: 570 CE || H: Standard dating
 The leader of the elephant army that came to destroy the Ka'bah. :: Abrahah || H: Ibn Hisham, al-Sirah
 'Abd al-Muttalib told Abrahah: "I own the camels, and the House has" this. :: A Lord who will protect it || H: Ibn Hisham, al-Sirah
-The Prophet's ﷺ chest was opened by angels when he was a child with this foster mother. :: Halimah || H: Sahih Muslim
+Our Beloved Prophet's ﷺ chest was opened by angels when He ﷺ was a child with this foster mother. :: Halimah || H: Sahih Muslim
 The angels washed his heart with this water. :: Zamzam || H: Sahih Muslim
 The "seal of prophethood" was found on this part of his body. :: Between his shoulders || H: Sahih al-Bukhari
 After the first revelation there was a pause in revelation called this. :: Fatrat al-Wahy || H: Sahih al-Bukhari
-The first public prayer of Muslims at the Ka'bah came after this Companion became Muslim. :: 'Umar ibn al-Khattab (رضي الله عنه) || H: Sahih al-Bukhari
-The Prophet ﷺ prayed: "O Allah, strengthen Islam with" one of these two men. :: 'Umar ibn al-Khattab or Abu Jahl ('Amr ibn Hisham) || H: Sunan al-Tirmidhi
-'Umar (رضي الله عنه) became Muslim after reading the opening of this surah at his sister's house. :: Surah Ta Ha || D: Famous seerah report (Ibn Hisham); chain discussed
-'Umar (رضي الله عنه) was called al-Faruq, meaning this. :: The one who separates truth from falsehood || H: Ibn Sa'd, al-Tabaqat
+The first public prayer of Muslims at the Ka'bah came after this Companion became Muslim. :: Our master 'Umar ibn al-Khattab (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+Our Beloved Master ﷺ prayed: "O Allah, strengthen Islam with" one of these two men. :: 'Umar ibn al-Khattab or Abu Jahl ('Amr ibn Hisham) || H: Sunan al-Tirmidhi
+Our master 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِ) became Muslim after reading the opening of this surah at his sister's house. :: Surah Ta Ha || D: Famous seerah report (Ibn Hisham); chain discussed
+Our master 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِ) was called al-Faruq, meaning this. :: The one who separates truth from falsehood || H: Ibn Sa'd, al-Tabaqat
 The title al-Siddiq was given to Abu Bakr after he believed this story at once. :: The Night Journey || H: al-Hakim, al-Mustadrak
 The Night Journey went from Makkah to this city. :: Jerusalem (Bayt al-Maqdis) || H: Qur'an 17:1
-The Prophet ﷺ met Musa (عليه السلام) in this heaven on the Mi'raj. :: The sixth || H: Sahih al-Bukhari
-He met Ibrahim (عليه السلام) in this heaven, leaning on al-Bayt al-Ma'mur. :: The seventh || H: Sahih al-Bukhari
-He met 'Isa and Yahya (عليهما السلام) in this heaven. :: The second || H: Sahih al-Bukhari
-He met Yusuf (عليه السلام) in this heaven and said he was given half of all beauty. :: The third || H: Sahih Muslim
-The first jumu'ah prayer the Prophet ﷺ led was in the land of this tribe on his way to Madinah. :: Banu Salim ibn 'Awf || H: Ibn Hisham, al-Sirah
-The Prophet ﷺ arrived in Quba' on this day of the week, in the reports. :: Monday || H: Sahih al-Bukhari; Ibn Hisham
-The agreement the Prophet ﷺ wrote for all the people of Madinah. :: The Charter of Madinah (Sahifah) || H: Ibn Hisham, al-Sirah
-At Badr, the Prophet ﷺ prayed all night in this shelter. :: The 'arish (a shade of palm leaves) || H: Ibn Hisham, al-Sirah
-The Companion who suggested a better place to camp at Badr. :: al-Hubab ibn al-Mundhir (رضي الله عنه) || H: Ibn Hisham, al-Sirah
+Our Beloved Prophet ﷺ met Musa (عليه السلام) in this heaven on the Mi'raj. :: The sixth || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ met Ibrahim (عليه السلام) in this heaven, leaning on al-Bayt al-Ma'mur. :: The seventh || H: Sahih al-Bukhari
+Our Beloved Master ﷺ met 'Isa and Yahya (عليهما السلام) in this heaven. :: The second || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ met Yusuf (عليه السلام) in this heaven and said Yusuf (عليه السلام) was given half of all beauty. :: The third || H: Sahih Muslim
+The first jumu'ah prayer our Beloved Prophet ﷺ led was in the land of this tribe on His ﷺ way to Madinah. :: Banu Salim ibn 'Awf || H: Ibn Hisham, al-Sirah
+Our Beloved Master ﷺ arrived in Quba' on this day of the week, in the reports. :: Monday || H: Sahih al-Bukhari; Ibn Hisham
+The agreement our Beloved Prophet ﷺ wrote for all the people of Madinah. :: The Charter of Madinah (Sahifah) || H: Ibn Hisham, al-Sirah
+At Badr, our Beloved Prophet ﷺ prayed all night in this shelter. :: The 'arish (a shade of palm leaves) || H: Ibn Hisham, al-Sirah
+The Companion who suggested a better place to camp at Badr. :: al-Hubab ibn al-Mundhir (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Ibn Hisham, al-Sirah
 At Uhud, the hypocrite who went back with a third of the army. :: 'Abdullah ibn Ubayy || H: Ibn Hisham, al-Sirah
-Hamzah (رضي الله عنه) was killed at Uhud by this man, who later became Muslim. :: Wahshi (رضي الله عنه) || H: Sahih al-Bukhari
-The Prophet ﷺ called Hamzah (رضي الله عنه) the master of these. :: The martyrs || H: al-Hakim, al-Mustadrak
-At Hudaybiyyah, the Prophet ﷺ was told to shave, and the Companions did it after he did this first. :: Shaved and sacrificed (as Umm Salamah advised) || H: Sahih al-Bukhari
-The wife who gave him that advice at Hudaybiyyah. :: Umm Salamah (رضي الله عنها) || H: Sahih al-Bukhari
+Our master Hamzah (رِضْوَانُ اللَّهِ عَلَيْهِ) was killed at Uhud by this man, who later became Muslim. :: Wahshi (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+Our Beloved Master ﷺ called our master Hamzah (رِضْوَانُ اللَّهِ عَلَيْهِ) the master of these. :: The martyrs || H: al-Hakim, al-Mustadrak
+At Hudaybiyyah, our Beloved Prophet ﷺ was told to shave, and the Companions did it after He ﷺ did this first. :: Shaved and sacrificed (as Umm Salamah advised) || H: Sahih al-Bukhari
+The wife who gave him that advice at Hudaybiyyah. :: Our lady Umm Salamah (رِضْوَانُ اللَّهِ عَلَيْهَا) || H: Sahih al-Bukhari
 The Muslims did the "fulfilled 'Umrah" in this year. :: 7 AH (629 CE) || H: Sahih al-Bukhari
-The Companion who was given the key of the Ka'bah to keep, and his family keep it to this day. :: 'Uthman ibn Talhah (رضي الله عنه) || H: Ibn Hisham, al-Sirah; Qur'an 4:58
-The Prophet ﷺ said "Whoever enters the house of" this man is safe, on the day of the opening. :: Abu Sufyan (رضي الله عنه) || H: Sahih Muslim
-In his last illness, the Prophet ﷺ asked to be nursed in the room of this wife. :: 'A'ishah (رضي الله عنها) || H: Sahih al-Bukhari
-In his last illness he asked this Companion to lead the prayer. :: Abu Bakr (رضي الله عنه) || H: Sahih al-Bukhari
-His last words included: "The prayer, the prayer, and" this. :: Those your right hands possess (servants) || H: Sunan Abi Dawud
+The Companion who was given the key of the Ka'bah to keep, and his family keep it to this day. :: Our master 'Uthman ibn Talhah (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Ibn Hisham, al-Sirah; Qur'an 4:58
+Our Beloved Prophet ﷺ said "Whoever enters the house of" this man is safe, on the day of the opening. :: Abu Sufyan (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih Muslim
+In His ﷺ last illness, our Beloved Master ﷺ asked to be nursed in the room of this wife. :: Our lady 'A'ishah (رِضْوَانُ اللَّهِ عَلَيْهَا) || H: Sahih al-Bukhari
+In his last illness he asked this Companion to lead the prayer. :: Our master Abu Bakr (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+Our Beloved Prophet's ﷺ last words included: "The prayer, the prayer, and" this. :: Those your right hands possess (servants) || H: Sunan Abi Dawud
 At the end he said: "with the highest" this. :: Companion (al-Rafiq al-A'la) || H: Sahih al-Bukhari
-Abu Bakr (رضي الله عنه) said: "Whoever worshipped Muhammad, Muhammad has died; whoever worshipped Allah," this. :: Allah is alive and does not die || H: Sahih al-Bukhari
+Our master Abu Bakr (رِضْوَانُ اللَّهِ عَلَيْهِ) said: "Whoever worshipped Muhammad, Muhammad has died; whoever worshipped Allah," this. :: Allah is alive and does not die || H: Sahih al-Bukhari

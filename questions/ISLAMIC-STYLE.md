@@ -15,15 +15,19 @@ tazkiyah, islamichistory or kids. A scholar should review the packs before they 
 
 | Who | Write after the name |
 | --- | --- |
-| The Prophet Muhammad | ﷺ |
-| Other Prophets and angels named as such | (عليه السلام) |
+| The Prophet Muhammad | ﷺ, after every mention, pronouns included ("He ﷺ", "His ﷺ"). Call him "our Beloved Prophet ﷺ", and sometimes "our Beloved Master ﷺ", never just "the Prophet" or "our Prophet". |
+| Other Prophets and angels named as such | (عليه السلام). Say "the Blessed Prophet X" or, where it fits, "our Master X". |
+| The Prophets as a group | "the Blessed Prophets (عليهم السلام)" |
 | Maryam | (عليها السلام) |
-| Companions | (رضي الله عنه), (رضي الله عنها), (رضي الله عنهما), (رضي الله عنهم) |
+| Companions | (رِضْوَانُ اللَّهِ عَلَيْهِ), (رِضْوَانُ اللَّهِ عَلَيْهَا), (رِضْوَانُ اللَّهِ عَلَيْهِمَا), (رِضْوَانُ اللَّهِ عَلَيْهِم), (رِضْوَانُ اللَّهِ عَلَيْهِنَّ) |
+| The four Khulafa' and the Blessed Family | as Companions, and "our master" before the name ("our lady" for a woman), for example "our master Abu Bakr", "our lady Fatimah" |
 | Sunni scholars | رحمة الله عليه, or رحمة الله عليها for a woman |
 
 Do not add رحمة الله عليه for Wahhabi or Deobandi scholars. Those figures, and modern sectarian
 figures, are left out of the packs entirely. Figures whose creed is not Sunni (for example
 Mu'tazili grammarians) are named without an honorific. If you are unsure, hold the line back with `?`.
+
+Never change wording inside a quotation of the Qur'an or a hadith to add an honorific; put the honorific after the closing quotation mark.
 
 ## Creed and fiqh
 
@@ -45,5 +49,5 @@ Mu'tazili grammarians) are named without an honorific. If you are unsure, hold t
 
 ## Pool size
 
-Religious packs keep at least 15 playable lines per level (about 16 to 20 is the target), so that
-each pool stays small enough to check by hand.
+Religious packs aim for at least 50 playable lines per level in every sub-category (the owner's
+request of 2026-11-11). The build itself only requires one.

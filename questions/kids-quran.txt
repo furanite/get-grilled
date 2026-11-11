@@ -9,7 +9,7 @@ The first surah of the Qur'an. :: Surah al-Fatihah || H: The Mushaf
 The last surah of the Qur'an. :: Surah al-Nas || H: The Mushaf
 The longest surah of the Qur'an. :: Surah al-Baqarah || H: The Mushaf
 The Qur'an was revealed in this language. :: Arabic || H: Qur'an 12:2
-The Qur'an was sent down to this Prophet. :: Prophet Muhammad ﷺ || H: Qur'an 47:2
+The Qur'an was sent down to this Prophet. :: Our Beloved Prophet Muhammad ﷺ || H: Qur'an 47:2
 The angel who brought the Qur'an. :: Jibril (عليه السلام) || H: Qur'an 2:97
 A chapter of the Qur'an is called this. :: A surah || H: Standard term
 A verse of the Qur'an is called this. :: An ayah || H: Standard term
@@ -22,10 +22,10 @@ The surah named after a small insect that talks in the story of Sulayman (علي
 The surah named after bees. :: Surah al-Nahl || H: The Mushaf
 The surah named after a spider. :: Surah al-'Ankabut || H: The Mushaf
 The Qur'an is the word of Allah; it is not written by this. :: Any person || H: Qur'an 17:88
-The surah named after the Prophet Yusuf (عليه السلام). :: Surah Yusuf || H: The Mushaf
-The surah named after the Prophet Nuh (عليه السلام). :: Surah Nuh || H: The Mushaf
-The surah named after the Prophet Yunus (عليه السلام). :: Surah Yunus || H: The Mushaf
-The surah named after the Prophet Muhammad ﷺ. :: Surah Muhammad || H: The Mushaf
+The surah named after our Master Yusuf (عليه السلام). :: Surah Yusuf || H: The Mushaf
+The surah named after our Master Nuh (عليه السلام). :: Surah Nuh || H: The Mushaf
+The surah named after our Master Yunus (عليه السلام). :: Surah Yunus || H: The Mushaf
+The surah named after our Beloved Prophet Muhammad ﷺ. :: Surah Muhammad || H: The Mushaf
 The surah named after the cave. :: Surah al-Kahf || H: The Mushaf
 The surah named after the sun. :: Surah al-Shams || H: The Mushaf
 The surah named after the moon. :: Surah al-Qamar || H: The Mushaf
@@ -46,8 +46,8 @@ The surah named after the light. :: Surah al-Nur || H: The Mushaf
 The surah named after the Romans. :: Surah al-Rum || H: The Mushaf
 The surah named after the poets. :: Surah al-Shu'ara' || H: The Mushaf
 The surah named after the believers. :: Surah al-Mu'minun || H: The Mushaf
-The surah named after the Prophets. :: Surah al-Anbiya' || H: The Mushaf
-The surah named after the Prophet's family of 'Imran. :: Surah Al 'Imran || H: The Mushaf
+The surah named after the Blessed Prophets (عليهم السلام). :: Surah al-Anbiya' || H: The Mushaf
+The surah named after our Beloved Prophet's ﷺ family of 'Imran. :: Surah Al 'Imran || H: The Mushaf
 The surah named after the wise man Luqman. :: Surah Luqman || H: The Mushaf
 The surah named after the Kingdom (Dominion). :: Surah al-Mulk || H: The Mushaf
 The surah named after the Most Merciful. :: Surah al-Rahman || H: The Mushaf
@@ -59,7 +59,7 @@ Learning the Qur'an by heart is called this. :: Hifz || H: Standard term
 ## 200
 The number of surahs in the Qur'an. :: 114 || H: The Mushaf
 The Qur'an is divided into this many juz' (parts). :: 30 || H: Standard division
-The first word that came down to the Prophet ﷺ. :: Iqra' (Read) || H: Sahih al-Bukhari
+The first word that came down to our Beloved Master ﷺ. :: Iqra' (Read) || H: Sahih al-Bukhari
 The cave where the first verses came down. :: The cave of Hira' || H: Sahih al-Bukhari
 Surah al-Ikhlas tells us that Allah is this. :: One || H: Qur'an 112:1
 Surah al-Kawthar is the shortest surah, with this many verses. :: 3 || H: The Mushaf
@@ -96,7 +96,7 @@ Surah al-Fil: Allah made the army like this, eaten up. :: Chewed-up straw (leave
 Surah al-Nas asks protection from the whisperer who does this. :: Hides (draws back) || H: Qur'an 114:4
 In Surah al-Falaq we ask protection from the evil of the envier when he does this. :: Envies || H: Qur'an 113:5
 Surah al-Ikhlas: "He does not give birth, nor was He" this. :: Born || H: Qur'an 112:3
-The Prophet ﷺ said reading this surah three times is like reading the whole Qur'an. :: Surah al-Ikhlas || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ said reading this surah three times is like reading the whole Qur'an. :: Surah al-Ikhlas || H: Sahih al-Bukhari
 Surah al-Fatihah is also called this, "the Opening". :: al-Fatihah || H: Standard name
 Surah al-Fatihah is also called "the seven" these, which are repeated. :: Oft-repeated verses (al-sab' al-mathani) || H: Qur'an 15:87; Sahih al-Bukhari
 In al-Fatihah we say: "You alone we worship and You alone we ask for" this. :: Help || H: Qur'an 1:5
@@ -113,9 +113,9 @@ Surah al-Asr says people are in loss, except those who believe, do good, and urg
 Surah al-Ma'un warns about people who push away this person. :: The orphan || H: Qur'an 107:2
 Surah al-Kafirun ends: "To you your religion, and to me" this (meaning). :: My religion || H: Qur'an 109:6
 Surah al-Nasr tells of people entering Islam in these. :: Crowds (large groups) || H: Qur'an 110:2
-Surah al-Masad is about this uncle of the Prophet ﷺ who opposed him. :: Abu Lahab || H: Qur'an 111:1
+Surah al-Masad is about this uncle of our Beloved Prophet ﷺ who opposed Him ﷺ. :: Abu Lahab || H: Qur'an 111:1
 Surah al-Falaq asks protection from those who blow on these. :: Knots || H: Qur'an 113:4
-Surah al-Duha tells the Prophet ﷺ: did He not find you an orphan and give you this? :: Shelter (a home) || H: Qur'an 93:6
+Surah al-Duha tells our Beloved Master ﷺ: did He not find you an orphan and give you this? :: Shelter (a home) || H: Qur'an 93:6
 In Surah al-Duha, we are told not to be harsh with this person. :: The orphan || H: Qur'an 93:9
 Surah al-Sharh says: with hardship comes this. :: Ease || H: Qur'an 94:5-6
 Surah al-Tin swears by the fig and this fruit. :: The olive || H: Qur'an 95:1
@@ -125,14 +125,14 @@ Surah al-'Adiyat swears by these running animals. :: Horses (that charge) || H: 
 Surah al-Takathur warns about people busy trying to have more of this. :: Things of this world (more and more) || H: Qur'an 102:1
 Surah al-Humazah warns people who do this. :: Mock and backbite others || H: Qur'an 104:1
 The two surahs together called al-Mu'awwidhatayn. :: Surah al-Falaq and Surah al-Nas || H: Sunan al-Nasa'i
-The surah where the Prophet ﷺ frowned when a blind man came. :: Surah 'Abasa || H: Qur'an 80:1-2
+The surah where our Beloved Prophet ﷺ frowned when a blind man came. :: Surah 'Abasa || H: Qur'an 80:1-2
 Surah al-Naba' says Allah made the mountains like these. :: Pegs (tent pegs) || H: Qur'an 78:7
 Surah al-Naba' says Allah made sleep for this. :: Rest || H: Qur'an 78:9
 Surah al-Naba' says Allah created us in these. :: Pairs || H: Qur'an 78:8
 Surah al-Ghashiyah asks: do they not look at this animal, how it was created? :: The camel || H: Qur'an 88:17
 Surah al-Ghashiyah also asks people to look at the sky, the mountains and this. :: The earth, how it was spread out || H: Qur'an 88:18-20
 Surah al-A'la tells us to glorify the name of our Lord, the Most this. :: High || H: Qur'an 87:1
-The Prophet ﷺ often read Surah al-A'la and this surah in Jumu'ah and Eid. :: Surah al-Ghashiyah || H: Sahih Muslim
+Our Beloved Prophet ﷺ often read Surah al-A'la and this surah in Jumu'ah and Eid. :: Surah al-Ghashiyah || H: Sahih Muslim
 Surah al-Tariq swears by the sky and the night-comer, which is this. :: A piercing star || H: Qur'an 86:1-3
 Surah al-Buruj swears by the sky full of these. :: Great stars (constellations) || H: Qur'an 85:1
 Surah al-Infitar says this will split apart on the Day. :: The sky || H: Qur'an 82:1
@@ -155,52 +155,52 @@ Surah al-Takathur says on that day you will be asked about these. :: The blessin
 Surah al-Humazah says wealth is gathered and counted by the one who thinks it will make him this. :: Live forever || H: Qur'an 104:3
 Surah al-Ma'un warns those who hold back this small help. :: Small kindnesses (al-ma'un) || H: Qur'an 107:7
 Surah al-Ma'un warns those who are careless about this. :: Their prayers || H: Qur'an 107:5
-Surah al-Kawthar tells the Prophet ﷺ to pray and do this. :: Sacrifice || H: Qur'an 108:2
-Surah al-Nasr tells the Prophet ﷺ to praise Allah and ask for this. :: Forgiveness || H: Qur'an 110:3
+Surah al-Kawthar tells our Beloved Master ﷺ to pray and do this. :: Sacrifice || H: Qur'an 108:2
+Surah al-Nasr tells our Beloved Prophet ﷺ to praise Allah and ask for this. :: Forgiveness || H: Qur'an 110:3
 Surah al-Masad says Abu Lahab's wife carried this. :: Firewood || H: Qur'an 111:4
 Around her neck, Surah al-Masad says, is a rope of this. :: Palm fibre || H: Qur'an 111:5
 
 ## 400
-The Companion who collected the Qur'an into one book for Abu Bakr (رضي الله عنه). :: Zayd ibn Thabit (رضي الله عنه) || H: Sahih al-Bukhari
-The Caliph who sent copies of the Qur'an to many cities. :: 'Uthman ibn 'Affan (رضي الله عنه) || H: Sahih al-Bukhari
+The Companion who collected the Qur'an into one book for our master Abu Bakr (رِضْوَانُ اللَّهِ عَلَيْهِ). :: Zayd ibn Thabit (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+The Caliph who sent copies of the Qur'an to many cities. :: Our master 'Uthman ibn 'Affan (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
 Reading the Qur'an beautifully with the right rules is called this. :: Tajwid || H: Standard term
-The Prophet ﷺ said the best of you are those who learn the Qur'an and do this. :: Teach it || H: Sahih al-Bukhari
-The Prophet ﷺ said each letter we read brings this many rewards. :: 10 || H: Sunan al-Tirmidhi
+Our Beloved Prophet ﷺ said the best of you are those who learn the Qur'an and do this. :: Teach it || H: Sahih al-Bukhari
+Our Beloved Master ﷺ said each letter we read brings this many rewards. :: 10 || H: Sunan al-Tirmidhi
 The Qur'an will come on the Day of Judgement to do this for its readers. :: Intercede for them || H: Sahih Muslim
 The verse of the Throne is in this surah. :: Surah al-Baqarah || H: Qur'an 2:255
 Reading Ayat al-Kursi before sleep keeps this away all night. :: Shaytan || H: Sahih al-Bukhari
 The last two verses of this surah are enough for whoever reads them at night. :: Surah al-Baqarah || H: Sahih al-Bukhari
 Surah al-Mulk protects its reader from this. :: The punishment of the grave || H: Sunan al-Tirmidhi; Sunan al-Nasa'i
 The Qur'an came down over about this many years. :: 23 || H: Tafsir al-Tabari; standard seerah
-The Prophet ﷺ revised the Qur'an with Jibril (عليه السلام) every year in this month. :: Ramadan || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ revised the Qur'an with Jibril (عليه السلام) every year in this month. :: Ramadan || H: Sahih al-Bukhari
 Surah al-Kawthar: "We have given you" this (meaning). :: al-Kawthar (abundant good, a river in Paradise) || H: Qur'an 108:1; Sahih Muslim
 Surah al-Layl says Allah will make easy the path to ease for whoever gives and is this. :: Mindful of Allah (has taqwa) || H: Qur'an 92:5-7
-Surah 'Abasa tells of a blind man who came to learn; his name. :: 'Abdullah ibn Umm Maktum (رضي الله عنه) || H: Sunan al-Tirmidhi
+Surah 'Abasa tells of a blind man who came to learn; his name. :: 'Abdullah ibn Umm Maktum (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sunan al-Tirmidhi
 Surah al-Qari'ah says people will be like scattered moths and mountains like this. :: Fluffed-up wool || H: Qur'an 101:4-5
 The first verses revealed were from this surah. :: Surah al-'Alaq || H: Sahih al-Bukhari
-The Prophet ﷺ said: "Read the Qur'an, for it will come on the Day as" this for its people. :: An intercessor || H: Sahih Muslim
-The two surahs the Prophet ﷺ called "the two bright ones". :: Surah al-Baqarah and Surah Al 'Imran || H: Sahih Muslim
-The Prophet ﷺ said Shaytan runs from a house where this surah is read. :: Surah al-Baqarah || H: Sahih Muslim
-The Prophet ﷺ said: "Do not make your houses into" these. :: Graves || H: Sahih Muslim
+Our Beloved Prophet ﷺ said: "Read the Qur'an, for it will come on the Day as" this for its people. :: An intercessor || H: Sahih Muslim
+The two surahs our Beloved Master ﷺ called "the two bright ones". :: Surah al-Baqarah and Surah Al 'Imran || H: Sahih Muslim
+Our Beloved Prophet ﷺ said Shaytan runs from a house where this surah is read. :: Surah al-Baqarah || H: Sahih Muslim
+Our Beloved Prophet ﷺ said: "Do not make your houses into" these. :: Graves || H: Sahih Muslim
 The longest verse in the Qur'an is about this. :: Writing down a debt || H: Qur'an 2:282
 The Qur'an has this many "Bismillah" at the start of surahs. :: 113 || H: The Mushaf
 Surah al-Shu'ara' has this many verses. :: 227 || H: The Mushaf
 The whole Qur'an has about this many verses, by the common count. :: 6,236 || H: Kufan count, standard Mushaf
 The person who reads the Qur'an well will be with the noble, righteous these. :: Angels (scribes) || H: Sahih al-Bukhari
 The person who finds it hard to read but keeps trying gets this many rewards. :: 2 || H: Sahih Muslim
-The Prophet ﷺ said the believer who reads the Qur'an is like this fruit, which smells and tastes good. :: The citron (utrujjah) || H: Sahih al-Bukhari
+Our Beloved Master ﷺ said the believer who reads the Qur'an is like this fruit, which smells and tastes good. :: The citron (utrujjah) || H: Sahih al-Bukhari
 The believer who does not read the Qur'an is like this fruit, good taste but no smell. :: The date || H: Sahih al-Bukhari
 The Qur'an was sent down on this night. :: Laylat al-Qadr || H: Qur'an 97:1
-The Qur'an came down first to the lowest heaven all at once, then to the Prophet ﷺ in parts, said this Companion. :: Ibn 'Abbas (رضي الله عنهما) || H: al-Hakim; al-Nasa'i al-Kubra
+The Qur'an came down first to the lowest heaven all at once, then to our Beloved Prophet ﷺ in parts, said this Companion. :: Ibn 'Abbas (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: al-Hakim; al-Nasa'i al-Kubra
 The surahs revealed before the Hijrah are called this. :: Makki (Makkan) || H: Standard term
 The surahs revealed after the Hijrah are called this. :: Madani (Madinan) || H: Standard term
 Surah al-Baqarah is Makki or Madani? :: Madani || H: Standard classification
 Surah al-Fil is Makki or Madani? :: Makki || H: Standard classification
-The Companion who had the most beautiful voice reading the Qur'an, said to be given a flute of Dawud's family. :: Abu Musa al-Ash'ari (رضي الله عنه) || H: Sahih al-Bukhari
-The Prophet ﷺ asked this Companion to read Qur'an to him, and he wept at Surah al-Nisa'. :: 'Abdullah ibn Mas'ud (رضي الله عنه) || H: Sahih al-Bukhari
-The Prophet ﷺ said: "Take the Qur'an from four": Ibn Mas'ud, Salim, Mu'adh and this Companion. :: Ubayy ibn Ka'b (رضي الله عنه) || H: Sahih al-Bukhari
-The young Companion who was a main scribe of the revelation in Madinah. :: Zayd ibn Thabit (رضي الله عنه) || H: Sahih al-Bukhari
-The surah the Prophet ﷺ read to the jinn who listened. :: Surah al-Rahman (in a report) || D: Report in Sunan al-Tirmidhi; graded weak by some
+The Companion who had the most beautiful voice reading the Qur'an, said to be given a flute of Dawud's family. :: Abu Musa al-Ash'ari (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ asked this Companion to read Qur'an to Him ﷺ, and he wept at Surah al-Nisa'. :: 'Abdullah ibn Mas'ud (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+Our Beloved Master ﷺ said: "Take the Qur'an from four": Ibn Mas'ud, Salim, Mu'adh and this Companion. :: Ubayy ibn Ka'b (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+The young Companion who was a main scribe of the revelation in Madinah. :: Zayd ibn Thabit (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+The surah our Beloved Prophet ﷺ read to the jinn who listened. :: Surah al-Rahman (in a report) || D: Report in Sunan al-Tirmidhi; graded weak by some
 The surah named after the jinn. :: Surah al-Jinn || H: The Mushaf
 The jinn said: "We have heard a wonderful" this. :: Qur'an (recitation) || H: Qur'an 72:1
 The surah that begins "Ya Ayyuha al-Muzzammil" (O you wrapped up). :: Surah al-Muzzammil || H: Qur'an 73:1
@@ -217,17 +217,17 @@ The verse that tells us to say "My Lord, increase me in" this. :: Knowledge || H
 The surah named after iron. :: Surah al-Hadid || H: The Mushaf
 The surah that mentions Zayd by name, the only Companion named in the Qur'an. :: Surah al-Ahzab || H: Qur'an 33:37
 The surah with two Bismillahs (one inside a letter). :: Surah al-Naml || H: Qur'an 27:30
-The surah named after a tribe of the Prophet ﷺ. :: Surah Quraysh || H: The Mushaf
+The surah named after a tribe of our Beloved Prophet ﷺ. :: Surah Quraysh || H: The Mushaf
 Surah al-Hujurat teaches us not to call each other these. :: Bad nicknames || H: Qur'an 49:11
 Surah Luqman: the wise man Luqman told his son not to do this, calling it a great wrong. :: Shirk (worship others with Allah) || H: Qur'an 31:13
 Luqman told his son to lower this, saying the worst sound is a donkey's. :: His voice || H: Qur'an 31:19
 Surah al-Isra' tells us not to say even this small word to our parents. :: "Uff" || H: Qur'an 17:23
 The surah that opens with the story of the Night Journey. :: Surah al-Isra' || H: Qur'an 17:1
-The surah named after the Prophet Hud (عليه السلام). :: Surah Hud || H: The Mushaf
+The surah named after our Master Hud (عليه السلام). :: Surah Hud || H: The Mushaf
 The surah with the story of the greedy garden owners who wanted to keep the poor away. :: Surah al-Qalam || H: Qur'an 68:17-33
 The surah called "the bride of the Qur'an" in a popular saying. :: Surah al-Rahman || D: Popular saying (weak report in al-Bayhaqi)
 Surah al-Fatihah is also called this, "the Mother of the Book". :: Umm al-Kitab || H: Sahih al-Bukhari
-The surah in which the Prophet ﷺ is told "Read in the name of your Lord" (meaning). :: Surah al-'Alaq || H: Qur'an 96:1
+The surah in which our Beloved Master ﷺ is told "Read in the name of your Lord" (meaning). :: Surah al-'Alaq || H: Qur'an 96:1
 The surah named after the prostration. :: Surah al-Sajdah || H: The Mushaf
 Qur'an means this. :: The Recitation (what is read) || H: Standard meaning
 The Qur'an calls itself al-Furqan, meaning this. :: The Criterion (between right and wrong) || H: Qur'an 25:1
@@ -239,8 +239,8 @@ The last verse revealed, in a report of Ibn 'Abbas, tells people to fear this da
 The verse "Today I have perfected your religion" came down on this day. :: The Day of 'Arafah || H: Sahih al-Bukhari
 It came down in this year. :: 10 AH (632 CE) || H: Sahih al-Bukhari
 The surah said to mention the Name "Allah" in every verse. :: Surah al-Mujadilah || H?: Commonly said; count the verses before use
-The surah named after a woman who argued with the Prophet ﷺ about her husband. :: Surah al-Mujadilah || H: Qur'an 58:1
-The woman in that story. :: Khawlah bint Tha'labah (رضي الله عنها) || H: Sunan Abi Dawud
+The surah named after a woman who argued with our Beloved Prophet ﷺ about her husband. :: Surah al-Mujadilah || H: Qur'an 58:1
+The woman in that story. :: Khawlah bint Tha'labah (رِضْوَانُ اللَّهِ عَلَيْهَا) || H: Sunan Abi Dawud
 The surah named after the Queen of Saba's people. :: Surah Saba' || H: The Mushaf
 The Qur'an says: "Allah is the Light of the heavens and the earth" in this surah. :: Surah al-Nur || H: Qur'an 24:35
 The verse of light compares Allah's light to a lamp in this. :: A niche (with a glass like a star) || H: Qur'an 24:35
@@ -258,10 +258,10 @@ The surah where the Qur'an says Allah taught the Qur'an, then created man. :: Su
 Surah al-Rahman says Allah set up this so we do not cheat. :: The balance (scale) || H: Qur'an 55:7-9
 Surah al-Rahman says everything on earth will pass away except this. :: The Face of your Lord || H: Qur'an 55:26-27
 Surah al-Waqi'ah divides people into this many groups on the Day. :: 3 || H: Qur'an 56:7
-Surah Yasin tells of a man who came running from the far end of the city to do this. :: Tell his people to follow the Messengers || H: Qur'an 36:20
+Surah Yasin tells of a man who came running from the far end of the city to do this. :: Tell his people to follow the Blessed Messengers (عليهم السلام) || H: Qur'an 36:20
 Surah al-Kahf has four stories: the cave, the two gardens, Musa and al-Khidr, and this. :: Dhu al-Qarnayn || H: Qur'an 18:83
 Dhu al-Qarnayn built a wall of iron and this. :: Molten copper || H: Qur'an 18:96
-Surah al-Hujurat tells us not to raise our voices above the voice of this person. :: The Prophet ﷺ || H: Qur'an 49:2
+Surah al-Hujurat tells us not to raise our voices above the voice of this person. :: Our Beloved Prophet ﷺ || H: Qur'an 49:2
 Surah al-Hujurat says the most noble of you with Allah is the one with the most this. :: Taqwa (mindfulness of Allah) || H: Qur'an 49:13
 Surah al-Hujurat tells us that if a wrongdoer brings news, we should do this. :: Check it (verify it) || H: Qur'an 49:6
 Surah al-Hujurat says the believers are these to each other. :: Brothers || H: Qur'an 49:10

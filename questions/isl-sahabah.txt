@@ -5,111 +5,111 @@ group: islamichistory
 # Every Companion's name carries (رضي الله عنه / عنها / عنهم). No Companion is ever drawn or voiced.
 
 ## 100
-The first caliph of Islam. :: Abu Bakr al-Siddiq (رضي الله عنه) || H: Sahih al-Bukhari
-The second caliph, called al-Faruq. :: 'Umar ibn al-Khattab (رضي الله عنه) || H: Tarikh al-Tabari
-The third caliph, called Dhul-Nurayn. :: 'Uthman ibn 'Affan (رضي الله عنه) || H: Tarikh al-Tabari
-The fourth caliph, cousin and son-in-law of the Prophet ﷺ. :: 'Ali ibn Abi Talib (رضي الله عنه) || H: Tarikh al-Tabari
+The first caliph of Islam. :: Our master Abu Bakr al-Siddiq (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+The second caliph, called al-Faruq. :: Our master 'Umar ibn al-Khattab (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Tarikh al-Tabari
+The third caliph, called Dhul-Nurayn. :: Our master 'Uthman ibn 'Affan (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Tarikh al-Tabari
+The fourth caliph, cousin and son-in-law of our Beloved Prophet ﷺ. :: Our master 'Ali ibn Abi Talib (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Tarikh al-Tabari
 The four caliphs together are called this. :: al-Khulafa' al-Rashidun || H: Sunan Abi Dawud (hadith of al-'Irbad)
 The ten Companions given glad tidings of Paradise by name. :: al-'Asharah al-Mubashsharah || H: Sunan al-Tirmidhi
-The Companion who gave the first call to prayer. :: Bilal ibn Rabah (رضي الله عنه) || H: Sunan Abi Dawud
-The daughter of the Prophet ﷺ, wife of 'Ali (رضي الله عنه). :: Fatimah al-Zahra' (رضي الله عنها) || H: Sahih al-Bukhari
-The two grandsons of the Prophet ﷺ. :: al-Hasan and al-Husayn (رضي الله عنهما) || H: Sahih al-Bukhari
-The Prophet ﷺ called them "the leaders of the youth of Paradise" (paraphrased). :: al-Hasan and al-Husayn (رضي الله عنهما) || H: Sunan al-Tirmidhi
-The Companion called "Sayf Allah" (Sword of Allah). :: Khalid ibn al-Walid (رضي الله عنه) || H: Sahih al-Bukhari
-The Persian Companion who searched for the truth across lands. :: Salman al-Farisi (رضي الله عنه) || H: Musnad Ahmad
-The Companion called "Amin hadhihi al-Ummah" (trustee of this Ummah). :: Abu 'Ubaydah ibn al-Jarrah (رضي الله عنه) || H: Sahih al-Bukhari
-The wives of the Prophet ﷺ are called this. :: Ummahat al-Mu'minin (Mothers of the Believers) || H: Qur'an 33:6
-The young Companion who became a great scholar of tafsir. :: 'Abdullah ibn 'Abbas (رضي الله عنهما) || H: Sahih al-Bukhari
-The Companion who narrated the most hadith. :: Abu Hurayrah (رضي الله عنه) || H: Siyar A'lam al-Nubala' (al-Dhahabi)
-The Prophet's servant for about ten years. :: Anas ibn Malik (رضي الله عنه) || H: Sahih Muslim
-The Companion the Prophet ﷺ called "the most knowledgeable of halal and haram" (paraphrased). :: Mu'adh ibn Jabal (رضي الله عنه) || H: Sunan al-Tirmidhi
-The uncle of the Prophet ﷺ called "Asad Allah" (Lion of Allah). :: Hamzah (رضي الله عنه) || H: al-Mustadrak (al-Hakim)
-The Companion who was the first ambassador of Islam, sent to teach Yathrib. :: Mus'ab ibn 'Umayr (رضي الله عنه) || H: Sirat Ibn Hisham
+The Companion who gave the first call to prayer. :: Bilal ibn Rabah (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sunan Abi Dawud
+The daughter of our Beloved Master ﷺ, wife of our master 'Ali (رِضْوَانُ اللَّهِ عَلَيْهِ). :: Our lady Fatimah al-Zahra' (رِضْوَانُ اللَّهِ عَلَيْهَا) || H: Sahih al-Bukhari
+The two grandsons of our Beloved Prophet ﷺ. :: Our master al-Hasan and al-Husayn (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ called them "the leaders of the youth of Paradise" (paraphrased). :: Our master al-Hasan and al-Husayn (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: Sunan al-Tirmidhi
+The Companion called "Sayf Allah" (Sword of Allah). :: Khalid ibn al-Walid (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+The Persian Companion who searched for the truth across lands. :: Salman al-Farisi (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Musnad Ahmad
+The Companion called "Amin hadhihi al-Ummah" (trustee of this Ummah). :: Abu 'Ubaydah ibn al-Jarrah (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+The wives of our Beloved Master ﷺ are called this. :: Ummahat al-Mu'minin (Mothers of the Believers) || H: Qur'an 33:6
+The young Companion who became a great scholar of tafsir. :: 'Abdullah ibn 'Abbas (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: Sahih al-Bukhari
+The Companion who narrated the most hadith. :: Abu Hurayrah (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Siyar A'lam al-Nubala' (al-Dhahabi)
+Our Beloved Prophet's ﷺ servant for about ten years. :: Anas ibn Malik (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih Muslim
+The Companion our Beloved Prophet ﷺ called "the most knowledgeable of halal and haram" (paraphrased). :: Mu'adh ibn Jabal (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sunan al-Tirmidhi
+The uncle of our Beloved Prophet ﷺ called "Asad Allah" (Lion of Allah). :: Our master Hamzah (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: al-Mustadrak (al-Hakim)
+The Companion who was the first ambassador of Islam, sent to teach Yathrib. :: Mus'ab ibn 'Umayr (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sirat Ibn Hisham
 
 ## 200
-The ten promised Paradise include the four caliphs, Talhah, al-Zubayr, 'Abd al-Rahman ibn 'Awf, Sa'd, Sa'id and this one. :: Abu 'Ubaydah ibn al-Jarrah (رضي الله عنه) || H: Sunan al-Tirmidhi
-The Companion who was the first to shoot an arrow in the way of Allah. :: Sa'd ibn Abi Waqqas (رضي الله عنه) || H: Sahih al-Bukhari
-The commander of the Muslims at al-Qadisiyyah. :: Sa'd ibn Abi Waqqas (رضي الله عنه) || H: Tarikh al-Tabari
-The Companion called the "disciple" (hawari) of the Prophet ﷺ. :: al-Zubayr ibn al-'Awwam (رضي الله عنه) || H: Sahih al-Bukhari
-The wealthy Companion who began life in Madinah asking to be shown the market. :: 'Abd al-Rahman ibn 'Awf (رضي الله عنه) || H: Sahih al-Bukhari
-The Companion who shielded the Prophet ﷺ with his hand at Uhud, which was left paralysed. :: Talhah ibn 'Ubaydullah (رضي الله عنه) || H: Sahih al-Bukhari
-The Companion who was the scribe of revelation and collected the Qur'an. :: Zayd ibn Thabit (رضي الله عنه) || H: Sahih al-Bukhari
-The Companion whose recitation the Prophet ﷺ loved and asked to hear. :: 'Abdullah ibn Mas'ud (رضي الله عنه) || H: Sahih al-Bukhari
-The Companion whose voice was compared to the flutes of the family of Dawud (عليه السلام). :: Abu Musa al-Ash'ari (رضي الله عنه) || H: Sahih al-Bukhari
-The poet of the Prophet ﷺ who answered the poets of Quraysh. :: Hassan ibn Thabit (رضي الله عنه) || H: Sahih al-Bukhari
-The Companion who conquered Egypt. :: 'Amr ibn al-'As (رضي الله عنه) || H: Tarikh al-Tabari
-The young Companion appointed by the Prophet ﷺ to lead an army including senior Companions. :: Usamah ibn Zayd (رضي الله عنهما) || H: Sahih al-Bukhari
-The first wife of the Prophet ﷺ, who supported him with her wealth. :: Khadijah (رضي الله عنها) || H: Sahih al-Bukhari
-The Mother of the Believers who was a great scholar and narrator. :: 'A'ishah (رضي الله عنها) || H: Sahih al-Bukhari
-The Mother of the Believers whose wise advice at al-Hudaybiyah helped the Muslims. :: Umm Salamah (رضي الله عنها) || H: Sahih al-Bukhari
-The Mother of the Believers called "Umm al-Masakin" for her charity. :: Zaynab bint Khuzaymah (رضي الله عنها) || H: Sirat Ibn Hisham
-The Ansari leader whose death shook the Throne. :: Sa'd ibn Mu'adh (رضي الله عنه) || H: Sahih al-Bukhari
-The host of the Prophet ﷺ in Madinah, who died near Constantinople. :: Abu Ayyub al-Ansari (رضي الله عنه) || H: Siyar A'lam al-Nubala' (al-Dhahabi)
-The first to recite the Qur'an aloud to Quraysh near the Ka'bah, according to Ibn Ishaq. :: 'Abdullah ibn Mas'ud (رضي الله عنه) || H: Sirat Ibn Hisham
-The Companion of the Ghifar tribe known for zuhd, called "the most truthful in speech". :: Abu Dharr al-Ghifari (رضي الله عنه) || H: Sunan al-Tirmidhi
+The ten promised Paradise include the four caliphs, Talhah, al-Zubayr, 'Abd al-Rahman ibn 'Awf, Sa'd, Sa'id and this one. :: Abu 'Ubaydah ibn al-Jarrah (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sunan al-Tirmidhi
+The Companion who was the first to shoot an arrow in the way of Allah. :: Sa'd ibn Abi Waqqas (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+The commander of the Muslims at al-Qadisiyyah. :: Sa'd ibn Abi Waqqas (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Tarikh al-Tabari
+The Companion called the "disciple" (hawari) of our Beloved Master ﷺ. :: al-Zubayr ibn al-'Awwam (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+The wealthy Companion who began life in Madinah asking to be shown the market. :: 'Abd al-Rahman ibn 'Awf (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+The Companion who shielded our Beloved Prophet ﷺ with his hand at Uhud, which was left paralysed. :: Talhah ibn 'Ubaydullah (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+The Companion who was the scribe of revelation and collected the Qur'an. :: Zayd ibn Thabit (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+The Companion whose recitation our Beloved Prophet ﷺ loved and asked to hear. :: 'Abdullah ibn Mas'ud (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+The Companion whose voice was compared to the flutes of the family of Dawud (عليه السلام). :: Abu Musa al-Ash'ari (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+The poet of our Beloved Master ﷺ who answered the poets of Quraysh. :: Hassan ibn Thabit (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+The Companion who conquered Egypt. :: 'Amr ibn al-'As (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Tarikh al-Tabari
+The young Companion appointed by our Beloved Prophet ﷺ to lead an army including senior Companions. :: Usamah ibn Zayd (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: Sahih al-Bukhari
+The first wife of our Beloved Prophet ﷺ, who supported Him ﷺ with her wealth. :: Our lady Khadijah (رِضْوَانُ اللَّهِ عَلَيْهَا) || H: Sahih al-Bukhari
+The Mother of the Believers who was a great scholar and narrator. :: Our lady 'A'ishah (رِضْوَانُ اللَّهِ عَلَيْهَا) || H: Sahih al-Bukhari
+The Mother of the Believers whose wise advice at al-Hudaybiyah helped the Muslims. :: Our lady Umm Salamah (رِضْوَانُ اللَّهِ عَلَيْهَا) || H: Sahih al-Bukhari
+The Mother of the Believers called "Umm al-Masakin" for her charity. :: Zaynab bint Khuzaymah (رِضْوَانُ اللَّهِ عَلَيْهَا) || H: Sirat Ibn Hisham
+The Ansari leader whose death shook the Throne. :: Sa'd ibn Mu'adh (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+The host of our Beloved Master ﷺ in Madinah, who died near Constantinople. :: Abu Ayyub al-Ansari (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Siyar A'lam al-Nubala' (al-Dhahabi)
+The first to recite the Qur'an aloud to Quraysh near the Ka'bah, according to Ibn Ishaq. :: 'Abdullah ibn Mas'ud (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sirat Ibn Hisham
+The Companion of the Ghifar tribe known for zuhd, called "the most truthful in speech". :: Abu Dharr al-Ghifari (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sunan al-Tirmidhi
 
 ## 300
-The Companion appointed governor of Kufah who founded its scholarship. :: 'Abdullah ibn Mas'ud (رضي الله عنه) || H: Tarikh al-Tabari
-The Companion sent by the Prophet ﷺ as judge and teacher to Yemen. :: Mu'adh ibn Jabal (رضي الله عنه) || H: Sunan Abi Dawud
-The Companion who was the first to be born to the Muhajirun in Madinah. :: 'Abdullah ibn al-Zubayr (رضي الله عنهما) || H: Sahih al-Bukhari
-The mother of 'Abdullah ibn al-Zubayr. :: Asma' bint Abi Bakr (رضي الله عنها) || H: Sahih al-Bukhari
-The Companion who was the Prophet's "keeper of secrets", who knew the names of the hypocrites. :: Hudhayfah ibn al-Yaman (رضي الله عنه) || H: Sahih al-Bukhari
-The Companion of the Ansar given the name "Dhul-Shahadatayn" (his witness counts as two). :: Khuzaymah ibn Thabit (رضي الله عنه) || H: Sunan Abi Dawud
-The Companion whom the angels washed after he fell at Uhud. :: Hanzalah ibn Abi 'Amir (رضي الله عنه) || H: al-Mustadrak (al-Hakim)
-The Companion who carried the banner at Uhud until he was martyred. :: Mus'ab ibn 'Umayr (رضي الله عنه) || H: Sirat Ibn Hisham
-The Companion, a former slave, whom the Prophet ﷺ adopted before adoption was ended. :: Zayd ibn Harithah (رضي الله عنه) || H: Qur'an 33:37; Sahih al-Bukhari
-The Mother of the Believers whose marriage was ordered in the Qur'an. :: Zaynab bint Jahsh (رضي الله عنها) || H: Qur'an 33:37
-The Mother of the Believers who was the daughter of 'Umar. :: Hafsah (رضي الله عنها) || H: Sahih al-Bukhari
-The Mother of the Believers who gave her turn to 'A'ishah (رضي الله عنها). :: Sawdah bint Zam'ah (رضي الله عنها) || H: Sahih al-Bukhari
-The Mother of the Believers who was the daughter of Abu Sufyan. :: Umm Habibah (Ramlah) (رضي الله عنها) || H: Sahih al-Bukhari
-The Mother of the Believers from the Jewish tribe of Banu al-Nadir. :: Safiyyah bint Huyayy (رضي الله عنها) || H: Sahih al-Bukhari
-The Mother of the Believers whose marriage freed many of her people, Banu al-Mustaliq. :: Juwayriyah bint al-Harith (رضي الله عنها) || H: Sunan Abi Dawud
-The last wife the Prophet ﷺ married. :: Maymunah bint al-Harith (رضي الله عنها) || H: Sirat Ibn Hisham
-The son of the Prophet ﷺ who died as a baby in Madinah. :: Ibrahim || H: Sahih al-Bukhari
-The mother of Ibrahim, son of the Prophet ﷺ. :: Mariyah al-Qibtiyyah (رضي الله عنها) || H: Sirat Ibn Hisham
-The eldest daughter of the Prophet ﷺ. :: Zaynab (رضي الله عنها) || H: Sirat Ibn Hisham
-The four daughters of the Prophet ﷺ. :: Zaynab, Ruqayyah, Umm Kulthum, Fatimah (رضي الله عنهن) || H: Sirat Ibn Hisham
+The Companion appointed governor of Kufah who founded its scholarship. :: 'Abdullah ibn Mas'ud (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Tarikh al-Tabari
+The Companion sent by our Beloved Prophet ﷺ as judge and teacher to Yemen. :: Mu'adh ibn Jabal (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sunan Abi Dawud
+The Companion who was the first to be born to the Muhajirun in Madinah. :: 'Abdullah ibn al-Zubayr (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: Sahih al-Bukhari
+The mother of 'Abdullah ibn al-Zubayr. :: Asma' bint Abi Bakr (رِضْوَانُ اللَّهِ عَلَيْهَا) || H: Sahih al-Bukhari
+The Companion who was our Beloved Prophet's ﷺ "keeper of secrets", who knew the names of the hypocrites. :: Hudhayfah ibn al-Yaman (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+The Companion of the Ansar given the name "Dhul-Shahadatayn" (his witness counts as two). :: Khuzaymah ibn Thabit (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sunan Abi Dawud
+The Companion whom the angels washed after he fell at Uhud. :: Hanzalah ibn Abi 'Amir (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: al-Mustadrak (al-Hakim)
+The Companion who carried the banner at Uhud until he was martyred. :: Mus'ab ibn 'Umayr (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sirat Ibn Hisham
+The Companion, a former slave, whom our Beloved Prophet ﷺ adopted before adoption was ended. :: Zayd ibn Harithah (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Qur'an 33:37; Sahih al-Bukhari
+The Mother of the Believers whose marriage was ordered in the Qur'an. :: Zaynab bint Jahsh (رِضْوَانُ اللَّهِ عَلَيْهَا) || H: Qur'an 33:37
+The Mother of the Believers who was the daughter of 'Umar. :: Our lady Hafsah (رِضْوَانُ اللَّهِ عَلَيْهَا) || H: Sahih al-Bukhari
+The Mother of the Believers who gave her turn to our lady 'A'ishah (رِضْوَانُ اللَّهِ عَلَيْهَا). :: Sawdah bint Zam'ah (رِضْوَانُ اللَّهِ عَلَيْهَا) || H: Sahih al-Bukhari
+The Mother of the Believers who was the daughter of Abu Sufyan. :: Umm Habibah (Ramlah) (رِضْوَانُ اللَّهِ عَلَيْهَا) || H: Sahih al-Bukhari
+The Mother of the Believers from the Jewish tribe of Banu al-Nadir. :: Safiyyah bint Huyayy (رِضْوَانُ اللَّهِ عَلَيْهَا) || H: Sahih al-Bukhari
+The Mother of the Believers whose marriage freed many of her people, Banu al-Mustaliq. :: Juwayriyah bint al-Harith (رِضْوَانُ اللَّهِ عَلَيْهَا) || H: Sunan Abi Dawud
+The last wife our Beloved Master ﷺ married. :: Maymunah bint al-Harith (رِضْوَانُ اللَّهِ عَلَيْهَا) || H: Sirat Ibn Hisham
+The son of our Beloved Prophet ﷺ who died as a baby in Madinah. :: Ibrahim || H: Sahih al-Bukhari
+The mother of Ibrahim, son of our Beloved Prophet ﷺ. :: Mariyah al-Qibtiyyah (رِضْوَانُ اللَّهِ عَلَيْهَا) || H: Sirat Ibn Hisham
+The eldest daughter of our Beloved Master ﷺ. :: Zaynab (رِضْوَانُ اللَّهِ عَلَيْهَا) || H: Sirat Ibn Hisham
+The four daughters of our Beloved Prophet ﷺ. :: Zaynab, Ruqayyah, Umm Kulthum, our lady Fatimah (رِضْوَانُ اللَّهِ عَلَيْهِنَّ) || H: Sirat Ibn Hisham
 
 ## 400
-'Umar (رضي الله عنه) was martyred in this year. :: 23 AH / 644 CE || H: Tarikh al-Tabari
-Abu Bakr (رضي الله عنه) died in this year. :: 13 AH / 634 CE || H: Tarikh al-Tabari
-'Uthman (رضي الله عنه) was martyred in this year. :: 35 AH / 656 CE || H: Tarikh al-Tabari
-'Ali (رضي الله عنه) was martyred in this year. :: 40 AH / 661 CE || H: Tarikh al-Tabari
-Abu Bakr (رضي الله عنه) fought the wars against those who refused zakat and false prophets, called this. :: Hurub al-Riddah || H: Tarikh al-Tabari
+Our master 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِ) was martyred in this year. :: 23 AH / 644 CE || H: Tarikh al-Tabari
+Our master Abu Bakr (رِضْوَانُ اللَّهِ عَلَيْهِ) died in this year. :: 13 AH / 634 CE || H: Tarikh al-Tabari
+Our master 'Uthman (رِضْوَانُ اللَّهِ عَلَيْهِ) was martyred in this year. :: 35 AH / 656 CE || H: Tarikh al-Tabari
+Our master 'Ali (رِضْوَانُ اللَّهِ عَلَيْهِ) was martyred in this year. :: 40 AH / 661 CE || H: Tarikh al-Tabari
+Our master Abu Bakr (رِضْوَانُ اللَّهِ عَلَيْهِ) fought the wars against those who refused zakat and false prophets, called this. :: Hurub al-Riddah || H: Tarikh al-Tabari
 The false prophet killed at the Battle of Yamamah. :: Musaylimah || H: Tarikh al-Tabari
-The Companion who killed Musaylimah, with others. :: Wahshi ibn Harb (رضي الله عنه) || H: Sahih al-Bukhari
-'Umar (رضي الله عنه) founded the register of stipends called this. :: al-Diwan || H: Tarikh al-Tabari
-The city 'Umar (رضي الله عنه) entered peacefully and gave a covenant to its people. :: Jerusalem (Bayt al-Maqdis) || H: Tarikh al-Tabari
+The Companion who killed Musaylimah, with others. :: Wahshi ibn Harb (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+Our master 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِ) founded the register of stipends called this. :: al-Diwan || H: Tarikh al-Tabari
+The city our master 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِ) entered peacefully and gave a covenant to its people. :: Jerusalem (Bayt al-Maqdis) || H: Tarikh al-Tabari
 The great battle against the Byzantines in 15 AH / 636 CE. :: The Battle of Yarmuk || H: Tarikh al-Tabari
 The great battle against the Persians in 15 AH / 636 CE. :: The Battle of al-Qadisiyyah || H?: Tarikh al-Tabari; reports give 14, 15 or 16 AH
-The Companion who led at Yarmuk, with Khalid (رضي الله عنه). :: Abu 'Ubaydah ibn al-Jarrah (رضي الله عنه) || H: Tarikh al-Tabari
-The plague in al-Sham in 18 AH / 639 CE in which Abu 'Ubaydah and Mu'adh (رضي الله عنهما) died. :: The plague of 'Amwas || H: Tarikh al-Tabari
-The six-man council that 'Umar (رضي الله عنه) named to choose the next caliph. :: al-Shura || H: Sahih al-Bukhari
-The Companion who ran the council and chose 'Uthman (رضي الله عنه). :: 'Abd al-Rahman ibn 'Awf (رضي الله عنه) || H: Sahih al-Bukhari
-'Uthman (رضي الله عنه) bought this well and gave it to the Muslims. :: Bi'r Rumah || H: Sunan al-Tirmidhi; Sahih al-Bukhari (ta'liq)
-'Ali (رضي الله عنه) moved the capital to this city. :: Kufah || H: Tarikh al-Tabari
-The Companion who was the last Companion to die, by the common view. :: Abu al-Tufayl 'Amir ibn Wathilah (رضي الله عنه) || H: Muqaddimah Ibn al-Salah
-The last Companion to die in Madinah, by one view. :: Sahl ibn Sa'd (رضي الله عنه) || H?: Muqaddimah Ibn al-Salah; to be checked
-The Ansari woman who was the first to give allegiance at 'Aqabah with her husband, and fought at Uhud. :: Nusaybah bint Ka'b (رضي الله عنها) || H: Sirat Ibn Hisham
+The Companion who led at Yarmuk, with Khalid (رِضْوَانُ اللَّهِ عَلَيْهِ). :: Abu 'Ubaydah ibn al-Jarrah (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Tarikh al-Tabari
+The plague in al-Sham in 18 AH / 639 CE in which Abu 'Ubaydah and Mu'adh (رِضْوَانُ اللَّهِ عَلَيْهِمَا) died. :: The plague of 'Amwas || H: Tarikh al-Tabari
+The six-man council that our master 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِ) named to choose the next caliph. :: al-Shura || H: Sahih al-Bukhari
+The Companion who ran the council and chose our master 'Uthman (رِضْوَانُ اللَّهِ عَلَيْهِ). :: 'Abd al-Rahman ibn 'Awf (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+Our master 'Uthman (رِضْوَانُ اللَّهِ عَلَيْهِ) bought this well and gave it to the Muslims. :: Bi'r Rumah || H: Sunan al-Tirmidhi; Sahih al-Bukhari (ta'liq)
+Our master 'Ali (رِضْوَانُ اللَّهِ عَلَيْهِ) moved the capital to this city. :: Kufah || H: Tarikh al-Tabari
+The Companion who was the last Companion to die, by the common view. :: Abu al-Tufayl 'Amir ibn Wathilah (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Muqaddimah Ibn al-Salah
+The last Companion to die in Madinah, by one view. :: Sahl ibn Sa'd (رِضْوَانُ اللَّهِ عَلَيْهِ) || H?: Muqaddimah Ibn al-Salah; to be checked
+The Ansari woman who was the first to give allegiance at 'Aqabah with her husband, and fought at Uhud. :: Nusaybah bint Ka'b (رِضْوَانُ اللَّهِ عَلَيْهَا) || H: Sirat Ibn Hisham
 
 ## 500
-The Prophet ﷺ announced in Madinah, with tears, the deaths of these three on the day they fell at Mu'tah. :: Zayd, Ja'far and 'Abdullah ibn Rawahah (رضي الله عنهم) || H: Sahih al-Bukhari
-Ja'far (رضي الله عنه) was given this title because he was given two wings in Paradise. :: al-Tayyar (Dhul-Janahayn) || H: Sahih al-Bukhari
-The Companion with whom Zayd (رضي الله عنه) found the last verses of Surah al-Tawbah in writing. :: Abu Khuzaymah al-Ansari (رضي الله عنه) || H: Sahih al-Bukhari
-The Companion with the most hadith from among the Ansar. :: Jabir ibn 'Abdullah (رضي الله عنهما) || H: Siyar A'lam al-Nubala' (al-Dhahabi)
-The Companion called "Habr al-Ummah" (the scholar of the Ummah). :: 'Abdullah ibn 'Abbas (رضي الله عنهما) || H: Siyar A'lam al-Nubala' (al-Dhahabi)
-The four 'Abdullahs (al-'Abadilah). :: Ibn 'Umar, Ibn 'Abbas, Ibn al-Zubayr, Ibn 'Amr ibn al-'As (رضي الله عنهم) || H: Muqaddimah Ibn al-Salah
-The Companion who told a friend, "Sit with us so we can believe for an hour" (meaning). :: Mu'adh ibn Jabal (رضي الله عنه) || H: Sahih al-Bukhari, Book of Faith (ta'liq)
-The Companion who said "I wish I were a tree that is cut down" (meaning) out of fear of Allah. :: Abu Dharr al-Ghifari (رضي الله عنه) || H?: Sunan al-Tirmidhi; wording to be checked
-The Companion who was the first in Islam to be called "Amir al-Mu'minin". :: 'Umar ibn al-Khattab (رضي الله عنه) || H: Tarikh al-Tabari
-The Companion governor of al-Sham under 'Umar and 'Uthman, later caliph. :: Mu'awiyah ibn Abi Sufyan (رضي الله عنهما) || H: Tarikh al-Tabari
-The Companion who led the first Muslim navy, under 'Uthman (رضي الله عنه). :: Mu'awiyah (رضي الله عنه) || H: Tarikh al-Tabari
+Our Beloved Prophet ﷺ announced in Madinah, with tears, the deaths of these three on the day they fell at Mu'tah. :: Zayd, Ja'far and 'Abdullah ibn Rawahah (رِضْوَانُ اللَّهِ عَلَيْهِم) || H: Sahih al-Bukhari
+Ja'far (رِضْوَانُ اللَّهِ عَلَيْهِ) was given this title because he was given two wings in Paradise. :: al-Tayyar (Dhul-Janahayn) || H: Sahih al-Bukhari
+The Companion with whom Zayd (رِضْوَانُ اللَّهِ عَلَيْهِ) found the last verses of Surah al-Tawbah in writing. :: Abu Khuzaymah al-Ansari (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+The Companion with the most hadith from among the Ansar. :: Jabir ibn 'Abdullah (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: Siyar A'lam al-Nubala' (al-Dhahabi)
+The Companion called "Habr al-Ummah" (the scholar of the Ummah). :: 'Abdullah ibn 'Abbas (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: Siyar A'lam al-Nubala' (al-Dhahabi)
+The four 'Abdullahs (al-'Abadilah). :: Ibn 'Umar, Ibn 'Abbas, Ibn al-Zubayr, Ibn 'Amr ibn al-'As (رِضْوَانُ اللَّهِ عَلَيْهِم) || H: Muqaddimah Ibn al-Salah
+The Companion who told a friend, "Sit with us so we can believe for an hour" (meaning). :: Mu'adh ibn Jabal (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari, Book of Faith (ta'liq)
+The Companion who said "I wish I were a tree that is cut down" (meaning) out of fear of Allah. :: Abu Dharr al-Ghifari (رِضْوَانُ اللَّهِ عَلَيْهِ) || H?: Sunan al-Tirmidhi; wording to be checked
+The Companion who was the first in Islam to be called "Amir al-Mu'minin". :: Our master 'Umar ibn al-Khattab (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Tarikh al-Tabari
+The Companion governor of al-Sham under 'Umar and 'Uthman, later caliph. :: Mu'awiyah ibn Abi Sufyan (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: Tarikh al-Tabari
+The Companion who led the first Muslim navy, under our master 'Uthman (رِضْوَانُ اللَّهِ عَلَيْهِ). :: Mu'awiyah (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Tarikh al-Tabari
 The Battle of Dhat al-Sawari in 34 AH / 655 CE was this kind of battle. :: A sea battle || H?: Tarikh al-Tabari; year given as 31 to 35 AH
-The woman Companion who sailed in the first naval expedition, as the Prophet ﷺ foretold. :: Umm Haram bint Milhan (رضي الله عنها) || H: Sahih al-Bukhari
-The Companion who conquered Persia's capital al-Mada'in. :: Sa'd ibn Abi Waqqas (رضي الله عنه) || H: Tarikh al-Tabari
-The Companion who founded Basrah as a garrison town. :: 'Utbah ibn Ghazwan (رضي الله عنه) || H: Tarikh al-Tabari
-The Companion governor of Kufah who founded it as a garrison town. :: Sa'd ibn Abi Waqqas (رضي الله عنه) || H: Tarikh al-Tabari
-The Ansari Companion who was the "chief of the Khazraj". :: Sa'd ibn 'Ubadah (رضي الله عنه) || H: Sahih al-Bukhari
+The woman Companion who sailed in the first naval expedition, as our Beloved Master ﷺ foretold. :: Umm Haram bint Milhan (رِضْوَانُ اللَّهِ عَلَيْهَا) || H: Sahih al-Bukhari
+The Companion who conquered Persia's capital al-Mada'in. :: Sa'd ibn Abi Waqqas (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Tarikh al-Tabari
+The Companion who founded Basrah as a garrison town. :: 'Utbah ibn Ghazwan (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Tarikh al-Tabari
+The Companion governor of Kufah who founded it as a garrison town. :: Sa'd ibn Abi Waqqas (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Tarikh al-Tabari
+The Ansari Companion who was the "chief of the Khazraj". :: Sa'd ibn 'Ubadah (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
 The book by Ibn 'Abd al-Barr رحمة الله عليه on the Companions. :: al-Isti'ab || H: al-Isti'ab
 The book by Ibn al-Athir رحمة الله عليه on the Companions. :: Usd al-Ghabah || H: Usd al-Ghabah
 The number of Companions whose lives are in al-Isabah, roughly. :: About 12,000 || H?: al-Isabah (Ibn Hajar); count to be checked

@@ -1,5 +1,5 @@
 id: kids-prophets
-name: Stories of the Prophets
+name: Stories of the Blessed Prophets (عليهم السلام)
 nameAr: قصص الأنبياء
 group: kids
 # For children. Every Prophet's name carries (عليه السلام). No Prophet is ever drawn or voiced.
@@ -12,7 +12,7 @@ The Prophet whose fire was made cool and safe. :: Ibrahim (عليه السلام
 The Prophet whose stick turned into a snake. :: Musa (عليه السلام) || H: Qur'an 20:20
 The Prophet who could talk to ants and birds. :: Sulayman (عليه السلام) || H: Qur'an 27:16-19
 The Prophet whose brothers threw him into a well. :: Yusuf (عليه السلام) || H: Qur'an 12:15
-The last Prophet. :: Prophet Muhammad ﷺ || H: Qur'an 33:40
+The last Prophet. :: Our Beloved Prophet Muhammad ﷺ || H: Qur'an 33:40
 The Prophet who spoke as a baby. :: 'Isa (عليه السلام) || H: Qur'an 19:29-30
 The mother of 'Isa (عليه السلام). :: Maryam (عليها السلام) || H: Qur'an 19:16-34
 The bird that told Sulayman (عليه السلام) about a queen. :: The hoopoe || H: Qur'an 27:20-22
@@ -50,11 +50,11 @@ The mountains and birds did this with Dawud (عليه السلام). :: Glorifie
 Ayyub (عليه السلام) was patient when he lost his health, wealth and this. :: His children || H: Qur'an 21:84; Tafsir al-Tabari
 Allah told Ayyub (عليه السلام) to strike the ground with his foot, and this came out. :: Cool water to wash and drink || H: Qur'an 38:42
 The Prophet whose name means "he laughs", promised to Ibrahim (عليه السلام). :: Ishaq (عليه السلام) || H: Qur'an 11:71
-All the Prophets taught people to worship this many gods. :: One (Allah alone) || H: Qur'an 21:25
-Prophets were sent with good news and this. :: Warnings || H: Qur'an 4:165
+All the Blessed Prophets (عليهم السلام) taught people to worship this many gods. :: One (Allah alone) || H: Qur'an 21:25
+Blessed Prophets (عليهم السلام) were sent with good news and this. :: Warnings || H: Qur'an 4:165
 The first Prophet. :: Adam (عليه السلام) || H: Sahih Ibn Hibban
 The first Messenger sent to the people of the earth. :: Nuh (عليه السلام) || H: Sahih al-Bukhari (hadith of intercession)
-The son of Ibrahim (عليه السلام) from whom the Prophet ﷺ is descended. :: Isma'il (عليه السلام) || H: Sahih Muslim
+The son of Ibrahim (عليه السلام) from whom our Beloved Prophet ﷺ is descended. :: Isma'il (عليه السلام) || H: Sahih Muslim
 
 ## 200
 The number of brothers Yusuf (عليه السلام) had, from his dream of stars. :: 11 || H: Qur'an 12:4
@@ -124,7 +124,7 @@ The young men who slept in a cave for many years. :: Ashab al-Kahf (the People o
 Their dog stayed at this place in the cave. :: The entrance || H: Qur'an 18:18
 Allah sent this animal in place of Isma'il (عليه السلام). :: A ram || H: Qur'an 37:107; Tafsir al-Tabari
 'Isa (عليه السلام) made these from clay, and by Allah's permission they flew. :: Birds || H: Qur'an 3:49
-The surah named after the Prophet Ibrahim (عليه السلام). :: Surah Ibrahim || H: The Mushaf
+The surah named after our Master Ibrahim (عليه السلام). :: Surah Ibrahim || H: The Mushaf
 Nuh (عليه السلام) made the Ark from planks and these. :: Nails || H: Qur'an 54:13
 The water came from the sky and from this. :: The earth (springs bursting out) || H: Qur'an 54:11-12
 Nuh's people laughed at him for building this. :: The Ark || H: Qur'an 11:38
@@ -139,7 +139,7 @@ Lut's wife was not saved because she did this. :: Did not believe (stayed with t
 Ibrahim's son Isma'il (عليه السلام) said: "Father, do what you are commanded; you will find me" this. :: Patient || H: Qur'an 37:102
 Muslims remember this sacrifice at Eid al-Adha. :: Ibrahim's sacrifice || H: Qur'an 37:107
 Ibrahim (عليه السلام) prayed for Makkah to be a place of this. :: Safety (peace) || H: Qur'an 14:35
-Ibrahim (عليه السلام) prayed that Allah send a Messenger from among the people of Makkah; that Messenger is this. :: Prophet Muhammad ﷺ || H: Qur'an 2:129
+Ibrahim (عليه السلام) prayed that Allah send a Messenger from among the people of Makkah; that Messenger is this. :: Our Beloved Prophet Muhammad ﷺ || H: Qur'an 2:129
 Yusuf (عليه السلام) said to his brothers: "No blame on you" this. :: Today || H: Qur'an 12:92
 Yusuf (عليه السلام) raised his parents up on this. :: The throne || H: Qur'an 12:100
 The wife of the minister who tried to trick Yusuf (عليه السلام). :: The wife of al-'Aziz || H: Qur'an 12:23
@@ -171,7 +171,7 @@ The good wife of Fir'awn who believed in Allah. :: Asiyah || H: Qur'an 66:11; Sa
 Ibrahim (عليه السلام) asked Allah to show him how He gives life using these. :: Four birds || H: Qur'an 2:260
 Yusuf (عليه السلام) was put in charge of this in Egypt. :: The storehouses (food stores) || H: Qur'an 12:55
 The Prophet sent to the people of Madyan, who told them to measure fairly. :: Shu'ayb (عليه السلام) || H: Qur'an 11:84-85
-The number of Prophets named in the Qur'an. :: 25 || H: Commonly counted from the Qur'an
+The number of Blessed Prophets (عليهم السلام) named in the Qur'an. :: 25 || H: Commonly counted from the Qur'an
 The Prophet raised to a high place, mentioned in Surah Maryam. :: Idris (عليه السلام) || H: Qur'an 19:56-57
 'Isa (عليه السلام) told of a Messenger coming after him named this. :: Ahmad || H: Qur'an 61:6
 The Prophet called "Khalil Allah", the friend of Allah. :: Ibrahim (عليه السلام) || H: Qur'an 4:125
@@ -229,7 +229,7 @@ Ibrahim's father, named in the Qur'an. :: Azar || H: Qur'an 6:74
 Maryam (عليها السلام) was looked after by this Prophet. :: Zakariyya (عليه السلام) || H: Qur'an 3:37
 The surah named after the mother of 'Isa (عليه السلام). :: Surah Maryam || H: The Mushaf
 The Qur'an calls the story in this surah "the best of stories". :: Surah Yusuf || H: Qur'an 12:3
-The number of Messengers called "Ulu al-'Azm" (of strong resolve). :: 5 || H: Tafsir al-Tabari, Qur'an 46:35; 33:7
+The number of Blessed Messengers (عليهم السلام) called "Ulu al-'Azm" (of strong resolve). :: 5 || H: Tafsir al-Tabari, Qur'an 46:35; 33:7
 They are Nuh, Ibrahim, Musa, 'Isa and this one. :: Muhammad ﷺ || H: Qur'an 33:7
 Ibrahim (عليه السلام) asked Allah to make him and his children keep this. :: The prayer || H: Qur'an 14:40
 Ibrahim (عليه السلام) left Hajar and Isma'il in a valley with no this. :: Plants (crops) || H: Qur'an 14:37

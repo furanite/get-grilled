@@ -1,5 +1,5 @@
 id: isl-prophets-later
-name: Prophets: Ya'qub to 'Isa
+name: Blessed Prophets (عليهم السلام): Ya'qub to 'Isa
 nameAr: الأنبياء: من يعقوب إلى عيسى
 group: prophets
 # Every Prophet's name carries (عليه السلام). No Prophet is ever drawn or voiced.
@@ -79,8 +79,8 @@ The Prophet mentioned among the patient in Surah al-Anbiya', with Isma'il and Id
 The Prophet sent to people who worshipped the idol Ba'l. :: Ilyas (عليه السلام) || H: Qur'an 37:123-125
 The Prophet named with Isma'il and Dhul-Kifl in Surah Sad. :: al-Yasa' (عليه السلام) || H: Qur'an 38:48
 Dawud (عليه السلام) was judged on the case of two disputants who climbed over this. :: The wall of his prayer room (mihrab) || H: Qur'an 38:21
-The Prophet ﷺ said the most beloved fasting to Allah was the fast of this Prophet (paraphrased). :: Dawud (عليه السلام), fasting every other day || H: Sahih al-Bukhari
-Dawud (عليه السلام) ate only from this, as the Prophet ﷺ said (paraphrased). :: The work of his own hands || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ said the most beloved fasting to Allah was the fast of this Prophet (paraphrased). :: Dawud (عليه السلام), fasting every other day || H: Sahih al-Bukhari
+Dawud (عليه السلام) ate only from this, as our Beloved Prophet ﷺ said (paraphrased). :: The work of his own hands || H: Sahih al-Bukhari
 The throne of the Queen of Saba' was brought to Sulayman (عليه السلام) in this short time by one with knowledge of the Book. :: The blink of an eye || H: Qur'an 27:40
 The Prophet who inherited from Dawud (عليه السلام). :: Sulayman (عليه السلام) || H: Qur'an 27:16
 The Queen of Saba' and her people worshipped this. :: The sun || H: Qur'an 27:24

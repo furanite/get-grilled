@@ -1,5 +1,5 @@
 id: isl-prophets-early
-name: Prophets: Adam to Ibrahim
+name: Blessed Prophets (عليهم السلام): Adam to Ibrahim
 nameAr: الأنبياء: من آدم إلى إبراهيم
 group: prophets
 # Every Prophet's name carries (عليه السلام). No Prophet is ever drawn or voiced.
@@ -54,7 +54,7 @@ Adam (عليه السلام) is called this, meaning "father of mankind". :: Abu
 The Prophet who, after Adam (عليه السلام), is called the first Messenger sent to the people of earth. :: Nuh (عليه السلام) || H: Sahih al-Bukhari (hadith of intercession)
 Nuh (عليه السلام) was told to take into the Ark a pair of this. :: Every kind (of animal) || H: Qur'an 11:40
 The idols of Nuh's people, five named in Surah Nuh, include Wadd, Suwa', Yaghuth, Ya'uq and this. :: Nasr || H: Qur'an 71:23
-Ibn 'Abbas (رضي الله عنهما) said those idols were named after these people of Nuh's time. :: Righteous men || H: Sahih al-Bukhari, Book of Tafsir
+Ibn 'Abbas (رِضْوَانُ اللَّهِ عَلَيْهِمَا) said those idols were named after these people of Nuh's time. :: Righteous men || H: Sahih al-Bukhari, Book of Tafsir
 The people of Hud (عليه السلام) lived in this region, by the common view. :: al-Ahqaf (southern Arabia) || H: Qur'an 46:21
 The surah named after the dunes where 'Ad lived. :: Surah al-Ahqaf || H: Qur'an 46:21
 Salih's people were destroyed by this. :: A mighty blast (al-sayhah) || H: Qur'an 11:67
@@ -74,21 +74,21 @@ The number of times Ibrahim (عليه السلام) said words that were not lit
 Adam (عليه السلام) lived to this age, according to a hadith. :: 1,000 years || H?: Sunan al-Tirmidhi; to be checked
 The number of years between Adam and Nuh (عليهما السلام), per a report. :: Ten centuries || H?: Sahih Ibn Hibban; to be checked
 The word for the statues of Ibrahim's people in Surah al-Anbiya'. :: al-Tamathil || H: Qur'an 21:52
-In a report of Abu Dharr (رضي الله عنه), four Arab Prophets are named: Hud, Salih, Shu'ayb and this one. :: Prophet Muhammad ﷺ || H?: Sahih Ibn Hibban; to be checked
-The valley of Thamud, where the Prophet ﷺ told the army not to drink the water on the way to Tabuk. :: al-Hijr || H: Sahih al-Bukhari
+In a report of Abu Dharr (رِضْوَانُ اللَّهِ عَلَيْهِ), four Arab Blessed Prophets (عليهم السلام) are named: Hud, Salih, Shu'ayb and this one. :: Our Beloved Prophet Muhammad ﷺ || H?: Sahih Ibn Hibban; to be checked
+The valley of Thamud, where our Beloved Prophet ﷺ told the army not to drink the water on the way to Tabuk. :: al-Hijr || H: Sahih al-Bukhari
 Salih's people were given this many days before the punishment. :: 3 || H: Qur'an 11:65
 In Surah al-Naml, nine men of mischief plotted at night against this Prophet. :: Salih (عليه السلام) || H: Qur'an 27:48-49
 The city Ibrahim (عليه السلام) came from, by the common view of historians. :: Ur (in Iraq) || H?: Tarikh al-Tabari; to be checked
 Ibrahim (عليه السلام) migrated with his wife Sarah and Lut to this land. :: al-Sham (Palestine) || H: Qur'an 21:71; Tafsir al-Tabari
 Ibrahim (عليه السلام) was the first to receive guests, to wear these, and to see grey hair, per a report. :: Trousers (sarawil) || H?: Muwatta' Malik (report of Sa'id ibn al-Musayyib); to be checked
-The Prophet ﷺ said Ibrahim (عليه السلام) circumcised himself at this age (paraphrased). :: 80 || H: Sahih al-Bukhari
+Our Beloved Master ﷺ said Ibrahim (عليه السلام) circumcised himself at this age (paraphrased). :: 80 || H: Sahih al-Bukhari
 The angels told Ibrahim (عليه السلام) they had been sent to the people of this Prophet. :: Lut (عليه السلام) || H: Qur'an 11:70
 Ibrahim (عليه السلام) argued with the angels on behalf of Lut's people; the Qur'an calls him this. :: Forbearing, tender-hearted, turning to Allah || H: Qur'an 11:75
-The Prophet ﷺ saw Ibrahim (عليه السلام) on the Mi'raj in this heaven. :: The seventh heaven || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ saw Ibrahim (عليه السلام) on the Mi'raj in this heaven. :: The seventh heaven || H: Sahih al-Bukhari
 On the Mi'raj, Ibrahim (عليه السلام) was leaning against this. :: al-Bayt al-Ma'mur || H: Sahih Muslim
-The Prophet ﷺ saw Idris (عليه السلام) on the Mi'raj in this heaven. :: The fourth heaven || H: Sahih al-Bukhari
-The Prophet ﷺ saw Adam (عليه السلام) in this heaven. :: The first (lowest) heaven || H: Sahih al-Bukhari
-The Prophet ﷺ said he was the answer to the prayer of this Prophet. :: Ibrahim (عليه السلام) || H?: Musnad Ahmad; to be checked
+Our Beloved Prophet ﷺ saw Idris (عليه السلام) on the Mi'raj in this heaven. :: The fourth heaven || H: Sahih al-Bukhari
+Our Beloved Master ﷺ saw Adam (عليه السلام) in this heaven. :: The first (lowest) heaven || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ said He ﷺ was the answer to the prayer of this Prophet. :: Ibrahim (عليه السلام) || H?: Musnad Ahmad; to be checked
 The prayer of Ibrahim (عليه السلام) for a Messenger from among the people of Makkah is in this surah. :: Surah al-Baqarah (2:129) || H: Qur'an 2:129
 Ibrahim (عليه السلام) prayed for this city to be made safe. :: Makkah (this land) || H: Qur'an 14:35
 Ibrahim (عليه السلام) was told to call people to this, and they would come on foot and on lean camels. :: Hajj || H: Qur'an 22:27
@@ -97,7 +97,7 @@ The first House set up for mankind to worship in, according to Surah Al 'Imran, 
 ## 500
 Iblis asked to be given respite until this day. :: The Day they are raised || H: Qur'an 7:14
 The phrase Adam (عليه السلام) and Hawwa' said in repentance begins "Our Lord, we have wronged" these. :: Ourselves || H: Qur'an 7:23
-The Prophet ﷺ said Adam (عليه السلام) was created on this day of the week. :: Friday || H: Sahih Muslim
+Our Beloved Prophet ﷺ said Adam (عليه السلام) was created on this day of the week. :: Friday || H: Sahih Muslim
 The surah in which Nuh (عليه السلام) tells his people to seek forgiveness, and Allah will send rain. :: Surah Nuh (71:10-11) || H: Qur'an 71:10-11
 In Surah Hud, the water came when this "boiled over". :: The oven (al-tannur) || H: Qur'an 11:40
 Nuh's wife and Lut's wife are given in Surah al-Tahrim as examples of this. :: Disbelievers (who betrayed) || H: Qur'an 66:10
@@ -106,7 +106,7 @@ Ibrahim (عليه السلام) asked his people whether their idols hear them, 
 Ibrahim (عليه السلام) said, "I am sick" (meaning), on the day of their festival, in this surah. :: Surah al-Saffat (37:89) || H: Qur'an 37:89
 The father of Ibrahim (عليه السلام) threatened to do this to him. :: Stone him || H: Qur'an 19:46
 Ibrahim (عليه السلام) promised his father to ask forgiveness for him until it became clear he was this. :: An enemy of Allah || H: Qur'an 9:114
-The well of Zamzam was later dug again by this grandfather of the Prophet ﷺ. :: 'Abd al-Muttalib || H: Sirat Ibn Hisham
+The well of Zamzam was later dug again by this grandfather of our Beloved Master ﷺ. :: 'Abd al-Muttalib || H: Sirat Ibn Hisham
 The tribe that settled near Hajar and Isma'il (عليه السلام), and he married from it. :: Jurhum || H: Sahih al-Bukhari, Book of the Prophets
 Ibrahim (عليه السلام) told Isma'il's first wife to tell him to change this. :: The threshold of his door || H: Sahih al-Bukhari, Book of the Prophets
 The station where Ibrahim (عليه السلام) stood while building. :: Maqam Ibrahim || H: Qur'an 2:125; Sahih al-Bukhari
@@ -114,4 +114,4 @@ Isma'il (عليه السلام) is described in Surah Maryam as true to this. ::
 The angels gave Ibrahim (عليه السلام) good news of a "forbearing boy", in this surah. :: Surah al-Saffat (37:101) || H: Qur'an 37:101
 Lut's people were the first to commit this, as their Prophet said (meaning). :: An indecency no one before them had done || H: Qur'an 7:80
 The angels told Lut (عليه السلام) the punishment would come at this time. :: The morning (dawn) || H: Qur'an 11:81
-The two Prophets whose "suhuf" (scrolls) are named at the end of Surah al-A'la. :: Ibrahim and Musa (عليهما السلام) || H: Qur'an 87:19
+The two Blessed Prophets (عليهم السلام) whose "suhuf" (scrolls) are named at the end of Surah al-A'la. :: Ibrahim and Musa (عليهما السلام) || H: Qur'an 87:19

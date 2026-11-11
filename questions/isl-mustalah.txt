@@ -13,13 +13,13 @@ A hadith that is weak. :: Da'if || H: Muqaddimah Ibn al-Salah
 A fabricated report falsely called a hadith. :: Mawdu' || H: Muqaddimah Ibn al-Salah
 A report narrated by so many that they could not have agreed on a lie. :: Mutawatir || H: Nukhbat al-Fikar (Ibn Hajar)
 A report that does not reach the level of mutawatir. :: Ahad || H: Nukhbat al-Fikar (Ibn Hajar)
-A hadith in which Allah's words are narrated by the Prophet ﷺ in his own wording, outside the Qur'an. :: Hadith qudsi || H: Standard term
+A hadith in which Allah's words are narrated by our Beloved Prophet ﷺ in His ﷺ own wording, outside the Qur'an. :: Hadith qudsi || H: Standard term
 A narrator who is trustworthy and precise. :: Thiqah || H: Taqrib al-Tahdhib (Ibn Hajar)
 The science of praising and criticising narrators. :: al-Jarh wal-Ta'dil || H: al-Jarh wal-Ta'dil (Ibn Abi Hatim)
-A narration that goes back to the Prophet ﷺ himself. :: Marfu' || H: Muqaddimah Ibn al-Salah
+A narration that goes back to our Beloved Prophet ﷺ Himself ﷺ. :: Marfu' || H: Muqaddimah Ibn al-Salah
 A narration that stops at a Companion. :: Mawquf || H: Muqaddimah Ibn al-Salah
 A narration that stops at a Successor. :: Maqtu' || H: Muqaddimah Ibn al-Salah
-The Prophet ﷺ warned that whoever lies about him on purpose should take his seat in the Fire (paraphrased). This hadith's grade by transmission. :: Mutawatir || H: Muqaddimah Ibn al-Salah
+Our Beloved Master ﷺ warned that whoever lies about Him ﷺ on purpose should take his seat in the Fire (paraphrased). This hadith's grade by transmission. :: Mutawatir || H: Muqaddimah Ibn al-Salah
 The person who narrates a hadith is called this. :: Rawi || H: Standard term
 A scholar who has mastered hadith is called this. :: Muhaddith || H: Standard term
 The short poem on hadith terms by al-Bayquni رحمة الله عليه. :: al-Manzumah al-Bayquniyyah || H: al-Bayquniyyah
@@ -31,7 +31,7 @@ The condition that every narrator heard from the one before him. :: Ittisal al-s
 The condition that every narrator is upright in religion. :: 'Adalah || H: Muqaddimah Ibn al-Salah
 The condition that every narrator is precise in memory or writing. :: Dabt || H: Muqaddimah Ibn al-Salah
 The two conditions of sahih that rule out hidden faults and odd reports. :: No 'illah and no shudhudh || H: Muqaddimah Ibn al-Salah
-A hadith narrated by a Successor straight from the Prophet ﷺ, leaving out the Companion. :: Mursal || H: Muqaddimah Ibn al-Salah
+A hadith narrated by a Successor straight from our Beloved Prophet ﷺ, leaving out the Companion. :: Mursal || H: Muqaddimah Ibn al-Salah
 A chain with a narrator missing somewhere in the middle. :: Munqati' || H: Muqaddimah Ibn al-Salah
 A chain with two or more narrators missing in a row. :: Mu'dal || H: Muqaddimah Ibn al-Salah
 A chain with one or more narrators dropped at its start (the compiler's end). :: Mu'allaq || H: Muqaddimah Ibn al-Salah
@@ -44,7 +44,7 @@ A hadith where the narrator conceals a gap in the chain, as by saying "from" ins
 The practice of hiding such a gap. :: Tadlis || H: Muqaddimah Ibn al-Salah
 A hadith with words of a narrator mixed into the text. :: Mudraj || H: Muqaddimah Ibn al-Salah
 A narrator accused of lying, whose hadith are dropped. :: Matruk || H: Nukhbat al-Fikar (Ibn Hajar)
-A hadith with an unbroken chain to the Prophet ﷺ. :: Musnad || H: Nukhbat al-Fikar (Ibn Hajar)
+A hadith with an unbroken chain to our Beloved Prophet ﷺ. :: Musnad || H: Nukhbat al-Fikar (Ibn Hajar)
 The weak narrator's report that goes against a reliable narrator. :: Munkar || H: Nukhbat al-Fikar (Ibn Hajar)
 
 ## 300
@@ -54,11 +54,11 @@ A hadith whose chain or text has been switched around by mistake. :: Maqlub || H
 A hadith narrated in conflicting ways of equal strength. :: Mudtarib || H: Muqaddimah Ibn al-Salah
 A hadith where a word is changed in its dots. :: Musahhaf || H: Nukhbat al-Fikar (Ibn Hajar)
 A hadith where a word is changed in its shape or vowels. :: Muharraf || H: Nukhbat al-Fikar (Ibn Hajar)
-A short chain with few narrators between the compiler and the Prophet ﷺ. :: 'Ali (high) isnad || H: Muqaddimah Ibn al-Salah
+A short chain with few narrators between the compiler and our Beloved Master ﷺ. :: 'Ali (high) isnad || H: Muqaddimah Ibn al-Salah
 A long chain with more narrators. :: Nazil (low) isnad || H: Muqaddimah Ibn al-Salah
 A chain in which every narrator says the same words or does the same act. :: Musalsal || H: Muqaddimah Ibn al-Salah
 The famous musalsal hadith on mercy that scholars read first to students. :: al-Musalsal bil-awwaliyyah || H: Fath al-Bari; works of thabat
-A narrator who lived in both Jahiliyyah and Islam but did not meet the Prophet ﷺ as a believer. :: Mukhadram || H: Muqaddimah Ibn al-Salah
+A narrator who lived in both Jahiliyyah and Islam but did not meet our Beloved Prophet ﷺ as a believer. :: Mukhadram || H: Muqaddimah Ibn al-Salah
 A supporting chain for the same Companion. :: Mutabi' || H: Nukhbat al-Fikar (Ibn Hajar)
 A supporting report of the same meaning from a different Companion. :: Shahid || H: Nukhbat al-Fikar (Ibn Hajar)
 The study of searching for supporting chains. :: al-I'tibar || H: Nukhbat al-Fikar (Ibn Hajar)

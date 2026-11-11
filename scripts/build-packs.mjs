@@ -53,7 +53,7 @@ export function parsePack(text, file = 'pack') {
     const [q, a] = parts.map((s) => s.trim())
     if (!q || !a) { errors.push(`${at} empty clue or answer`); return }
     if (q.length > 260) errors.push(`${at} clue is longer than 260 characters`)
-    if (a.length > 80) errors.push(`${at} answer is longer than 80 characters`)
+    if (a.length > 110) errors.push(`${at} answer is longer than 110 characters`)
     const item = { q, a, at }
     if (tagText !== undefined) {
       const t = /^([HDF])(\?)?(?::\s*(.*))?$/.exec(tagText.trim())
