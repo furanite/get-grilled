@@ -1,0 +1,514 @@
+id: micro
+name: Microcontrollers
+nameAr: المتحكمات الدقيقة
+group: engineering
+
+## 100
+A small computer on a single chip, with a processor, memory and input/output. :: Microcontroller (MCU)
+A computer built into a device to do one dedicated job. :: Embedded system
+The popular open-source board made in Italy, loved by beginners. :: Arduino
+The most famous beginner Arduino board. :: Arduino Uno
+The cheap single-board computer from the UK that runs Linux. :: Raspberry Pi
+The microcontroller board from Raspberry Pi with the RP2040 chip. :: Raspberry Pi Pico
+The popular low-cost Wi-Fi and Bluetooth microcontroller from Espressif. :: ESP32
+The older Espressif Wi-Fi chip that came before the ESP32. :: ESP8266
+Arduino programs are called this. :: Sketches
+The Arduino function that runs once at start-up. :: setup()
+The Arduino function that runs over and over. :: loop()
+The Arduino function that sets a pin as input or output. :: pinMode()
+The Arduino function that turns a pin HIGH or LOW. :: digitalWrite()
+The Arduino function that reads a pin as HIGH or LOW. :: digitalRead()
+The Arduino function that reads an analogue voltage. :: analogRead()
+The Arduino function that pauses for a number of milliseconds. :: delay()
+The Arduino function that sends text to the computer for debugging. :: Serial.println()
+The programming language most used for microcontrollers. :: C (and C++)
+The Python version made for microcontrollers. :: MicroPython
+The 'hello world' of microcontrollers. :: Blinking an LED
+The small LED on the Arduino Uno connected to this pin. :: Pin 13
+A pin that can be set to input or output by software. :: GPIO (general-purpose input/output)
+The voltage level for logic HIGH on an Arduino Uno. :: 5 V
+The logic voltage of the ESP32 and Raspberry Pi Pico. :: 3.3 V
+The part that limits current through an LED. :: Resistor
+The long leg of an LED is this terminal. :: Anode (positive)
+A device that turns a physical quantity into an electrical signal. :: Sensor
+A device that makes something move or happen, like a motor. :: Actuator
+The simple input device you press to close a circuit. :: Push button
+The sensor that detects people moving by infrared heat. :: PIR sensor
+The sensor that measures distance using sound echoes. :: Ultrasonic sensor
+The popular ultrasonic distance sensor with 'Trig' and 'Echo' pins. :: HC-SR04
+The cheap sensor that measures temperature and humidity, blue or white. :: DHT11 (or DHT22)
+The resistor whose value changes with light. :: LDR (photoresistor)
+The knob that gives a variable voltage. :: Potentiometer
+The motor that turns to a set angle, used in robot arms. :: Servo motor
+The motor that moves in exact small steps. :: Stepper motor
+The component that makes a beep. :: Buzzer
+The electrically controlled switch that lets a small signal switch a big load. :: Relay
+The display that shows numbers with seven bars. :: Seven-segment display
+The common character display with 16 columns and 2 rows. :: 16×2 LCD
+The small, sharp display type with no backlight, often 128×64 pixels. :: OLED display
+The programmable RGB LED strips, also called NeoPixels, use this chip. :: WS2812B
+The plastic board with holes for building circuits without soldering. :: Breadboard
+The wires used to connect parts on a breadboard. :: Jumper wires
+The cable used to program an Arduino Uno from a computer. :: USB cable
+The free program used to write and upload Arduino code. :: Arduino IDE
+Sending a program into the microcontroller's memory. :: Uploading (flashing)
+The memory that keeps the program when power is off. :: Flash memory
+The memory used for variables while the program runs. :: RAM (SRAM)
+The small memory for settings that survives power-off and can be changed byte by byte. :: EEPROM
+The crystal that sets a microcontroller's timing. :: Crystal oscillator
+The clock speed of the Arduino Uno. :: 16 MHz
+The button that restarts a microcontroller. :: Reset button
+Add-on boards that plug on top of an Arduino. :: Shields
+Add-on boards for the Raspberry Pi. :: HATs
+Adding sensors and Wi-Fi to everyday things so they talk over the internet. :: Internet of Things (IoT)
+The wireless technology for short range, low power links to phones. :: Bluetooth Low Energy (BLE)
+The long-range, low-power radio used by IoT sensors. :: LoRa
+A signal that can have any value in a range. :: Analogue signal
+A signal with only two levels, on and off. :: Digital signal
+The part that turns an analogue voltage into a number. :: ADC (analogue-to-digital converter)
+The part that turns a number into an analogue voltage. :: DAC (digital-to-analogue converter)
+Rapidly switching a pin on and off to act like an analogue output. :: PWM (pulse-width modulation)
+The Arduino function that outputs PWM. :: analogWrite()
+On the Arduino Uno, PWM pins are marked with this symbol. :: Tilde (~)
+The percentage of time a PWM signal is on. :: Duty cycle
+A 50% duty cycle on a 5 V pin gives an average of this. :: 2.5 V
+The battery pack voltage that safely powers many Arduino projects through the barrel jack. :: 9 V (7 to 12 V)
+The component that gives a steady output voltage from a higher input. :: Voltage regulator
+A signal from a sensor that makes the processor stop and handle it at once. :: Interrupt
+A timer that resets the system if the program hangs. :: Watchdog timer
+The microcontroller sleeping to save battery. :: Sleep mode (low-power mode)
+A wire connection between two devices for sending data one bit at a time. :: Serial communication
+The common two-wire serial port with TX and RX. :: UART
+The TX pin is used to do this. :: Transmit data
+The RX pin is used to do this. :: Receive data
+The setting for serial speed, often 9600. :: Baud rate
+The two-wire bus with SDA and SCL lines. :: I²C
+The four-wire bus with MOSI, MISO, SCK and CS. :: SPI
+The vehicle network bus used in cars. :: CAN bus
+The robot competition kit from LEGO with a programmable brick. :: LEGO Mindstorms
+The small education computer the BBC gave to UK schoolchildren in 2016. :: BBC micro:bit
+A small embedded computer on a car that controls the engine. :: ECU (engine control unit)
+The thermostat, microwave and washing machine all contain this. :: A microcontroller
+An LED that changes colour by mixing red, green and blue. :: RGB LED
+The circuit that lets a microcontroller drive a motor forwards and backwards. :: H-bridge
+The popular dual H-bridge motor driver module. :: L298N
+The pins every circuit needs: power and this. :: Ground (GND)
+Connecting the grounds of two boards is needed so they share this. :: A common reference voltage
+A microcontroller pin can usually supply only a small current, around this much on an Uno. :: About 20 mA (40 mA max)
+The variable type in Arduino for whole numbers. :: int
+The variable type for true or false. :: bool (boolean)
+The Arduino function that returns milliseconds since start-up. :: millis()
+A loop that never ends in embedded code. :: Infinite loop (super loop)
+Joining parts permanently with melted metal. :: Soldering
+A tool that measures voltage, current and resistance when debugging circuits. :: Multimeter
+The company that makes the AVR and PIC microcontrollers today. :: Microchip Technology
+The small Arduino board that plugs straight into a breadboard. :: Arduino Nano
+The sensor that senses tilt and movement by measuring gravity and acceleration. :: Accelerometer
+
+## 200
+The microcontroller chip on the Arduino Uno. :: ATmega328P
+The architecture family of the ATmega328P. :: AVR
+The ATmega328P has this many bits of data path. :: 8 bits
+The flash memory size of the ATmega328P. :: 32 KB
+The SRAM size of the ATmega328P. :: 2 KB
+The EEPROM size of the ATmega328P. :: 1 KB
+The number of digital I/O pins on the Arduino Uno. :: 14
+The number of analogue input pins on the Arduino Uno. :: 6
+The ADC resolution of the Arduino Uno. :: 10 bits
+analogRead() on an Uno returns values in this range. :: 0 to 1023
+analogWrite() on an Uno accepts values in this range. :: 0 to 255
+The ESP32's processor core family from Tensilica, used in the original chip. :: Xtensa
+The newer ESP32 chips like the ESP32-C3 use this open instruction set. :: RISC-V
+The CPU cores in the Raspberry Pi Pico's RP2040. :: Two Arm Cortex-M0+
+The RP2040's special I/O blocks that can make custom interfaces. :: PIO (programmable I/O)
+The Arm processor family designed for microcontrollers. :: Cortex-M
+The STMicroelectronics family of 32-bit Arm microcontrollers. :: STM32
+The cheap STM32 development board nicknamed after a colour. :: Blue Pill
+The development board family from ST with an on-board debugger. :: Nucleo
+The microcontroller family from Microchip whose name once meant 'Peripheral Interface Controller'. :: PIC
+The classic 8-bit microcontroller family introduced by Intel in 1980. :: 8051 (MCS-51)
+The architecture where program and data use separate memories and buses. :: Harvard architecture
+The architecture where program and data share one memory. :: Von Neumann architecture
+AVR and PIC chips use this architecture. :: Harvard (modified)
+A small program in flash that lets you upload code over serial. :: Bootloader
+The programmer interface used to flash AVR chips without a bootloader. :: ISP (in-system programming)
+The debug interface standard with TCK, TMS, TDI and TDO pins. :: JTAG
+Arm's two-wire debug interface. :: SWD (Serial Wire Debug)
+The cheap debug probe for STM32 chips. :: ST-Link
+Settings bits in an AVR that set clock source and other options. :: Fuse bits
+A special memory location that controls a peripheral. :: Register
+The AVR register that sets a pin as input or output. :: DDR (data direction register)
+The AVR register that writes outputs, like PORTB. :: PORT register
+The AVR register that reads input pins, like PINB. :: PIN register
+Setting bit 5 of a register without changing the others uses this operator. :: Bitwise OR (|=)
+Clearing a bit without changing the others uses AND with this. :: The inverted mask (~)
+Flipping a bit uses this bitwise operator. :: XOR (^=)
+The C keyword that stops the compiler from optimising away reads of a variable changed in an interrupt. :: volatile
+The C keyword for a variable that keeps its value between function calls. :: static
+The pin mode that turns on a built-in resistor to keep an input HIGH. :: INPUT_PULLUP
+A resistor that holds an input LOW when a switch is open. :: Pull-down resistor
+A floating input with nothing connected reads this. :: Random (undefined) values
+The mechanical bouncing of a switch's contacts causes this problem. :: Multiple false presses (bounce)
+Fixing switch bounce in hardware or software. :: Debouncing
+A typical software debounce delay. :: About 10 to 50 ms
+Checking a pin over and over in a loop instead of using interrupts. :: Polling
+The function that runs when an interrupt fires. :: ISR (interrupt service routine)
+The Arduino function that links a pin change to an ISR. :: attachInterrupt()
+ISRs should be kept this way. :: Short and fast
+The table that holds the addresses of all ISRs. :: Interrupt vector table
+The Arm Cortex-M part that manages interrupt priorities. :: NVIC
+An interrupt that cannot be disabled. :: NMI (non-maskable interrupt)
+A hardware counter that counts clock pulses. :: Timer/counter
+The value that divides the clock before it reaches a timer. :: Prescaler
+A timer mode that resets when it matches a value. :: CTC (clear timer on compare match)
+The event when a timer counts past its maximum. :: Overflow
+An 8-bit timer overflows after this many counts. :: 256
+The timer used for PWM on Arduino pins 5 and 6. :: Timer0
+The Arduino function millis() uses this timer. :: Timer0
+A servo expects a pulse every 20 ms of this width range. :: About 1 to 2 ms
+A servo pulse of 1.5 ms puts it at this position. :: Centre (90 degrees)
+The serial frame for 8N1 has 8 data bits, no parity and this. :: 1 stop bit
+The number of bits sent per byte in 8N1. :: 10
+UART lines idle at this logic level. :: High
+I²C lines need these to work, because devices only pull low. :: Pull-up resistors
+The output type used on I²C lines. :: Open-drain (open-collector)
+The number of address bits in standard I²C. :: 7
+The I²C standard speed mode. :: 100 kHz
+The I²C fast mode speed. :: 400 kHz
+The device that controls the clock on an I²C or SPI bus. :: Master (controller)
+In SPI, this line selects which device to talk to. :: Chip select (CS or SS)
+SPI is this kind of duplex. :: Full duplex
+The protocol that sends one wire data to sensors like the DS18B20. :: 1-Wire
+The common 1-Wire temperature sensor. :: DS18B20
+The voltage reference for the ADC. :: AREF (reference voltage)
+A 10-bit ADC with a 5 V reference has steps of about this. :: 4.9 mV
+The circuit that holds the input steady while the ADC converts. :: Sample-and-hold
+The common ADC type in microcontrollers that tests one bit at a time. :: Successive approximation (SAR) ADC
+Shifting a 5 V signal down to 3.3 V safely needs this. :: Level shifter (or voltage divider)
+A transistor used as a switch for loads bigger than a pin can drive. :: Transistor switch (MOSFET or BJT)
+The diode placed across a relay coil or motor to absorb voltage spikes. :: Flyback diode
+The capacitor placed near each chip's power pins. :: Decoupling (bypass) capacitor
+A typical decoupling capacitor value. :: 100 nF
+The external crystal often used for real-time clocks. :: 32.768 kHz
+The chip that keeps time with a battery when the board is off. :: RTC (real-time clock), like the DS3231
+The small operating system that runs tasks on time in embedded systems. :: RTOS (real-time operating system)
+The most popular free RTOS for microcontrollers. :: FreeRTOS
+The RTOS objects that stop two tasks using the same resource at once. :: Mutexes (and semaphores)
+A system that must respond within a guaranteed time. :: Real-time system
+A real-time system where missing a deadline is a failure. :: Hard real-time
+The data structure that passes messages between tasks or ISRs. :: Queue
+The free Arduino-compatible IDE extension for VS Code. :: PlatformIO
+ST's free graphical tool to set up STM32 pins and clocks. :: STM32CubeMX
+The free online simulator for Arduino and ESP32 circuits. :: Wokwi
+The free online circuit simulator from Autodesk with Arduino support. :: Tinkercad Circuits
+The ESP32 deep sleep current is around this. :: About 10 μA
+The ESP32 can wake up from deep sleep using a timer, a pin or this. :: Touch sensor (or ULP coprocessor)
+The ESP32's Wi-Fi mode where it makes its own network. :: Access point (AP) mode
+The lightweight messaging protocol used by IoT devices with publish and subscribe. :: MQTT
+The central server in MQTT. :: Broker
+
+## 300
+The AVR instruction set is this kind of design. :: RISC
+Most AVR instructions take this many clock cycles. :: One
+The number of general-purpose working registers in AVR. :: 32
+The AVR status register is called this. :: SREG
+The flag in SREG that enables all interrupts. :: I flag (global interrupt enable)
+The AVR instructions that enable and disable interrupts globally. :: SEI and CLI
+On AVR, these three registers hold 16-bit pointers called X, Y and Z. :: r26 to r31
+The AVR register pair used for the stack pointer. :: SPH and SPL
+The AVR timer mode that counts up and down for symmetric PWM. :: Phase-correct PWM
+The AVR timer mode that counts up only for higher-frequency PWM. :: Fast PWM
+Default PWM frequency on Arduino Uno pins 5 and 6, roughly. :: About 980 Hz
+Default PWM frequency on most other Uno PWM pins, roughly. :: About 490 Hz
+The AVR register that sets Timer1's compare value A. :: OCR1A
+The Arm Cortex-M timer used as the RTOS tick. :: SysTick
+Cortex-M4 adds this hardware for faster maths over the M3. :: FPU (floating-point unit) and DSP instructions
+The Arm instruction set used by Cortex-M chips. :: Thumb-2
+The Cortex-M core family member for the lowest power and cost. :: Cortex-M0 (M0+)
+The Cortex-M core with the highest performance in the classic line. :: Cortex-M7
+The Arm security extension for Cortex-M23 and M33. :: TrustZone
+The Arm standard software interface for Cortex-M devices. :: CMSIS
+ST's newer low-level library alternative to its HAL. :: LL (low-layer) drivers
+The term for mapping peripheral registers into the address space. :: Memory-mapped I/O
+Cortex-M lets you set or clear single bits atomically through this memory region. :: Bit-banding
+Hardware that moves data between memory and peripherals without the CPU. :: DMA (direct memory access)
+The DMA mode that restarts at the beginning of the buffer automatically. :: Circular mode
+Using two buffers so the CPU fills one while DMA sends the other. :: Double buffering (ping-pong)
+A bug where two parts of code use shared data at the same time and corrupt it. :: Race condition
+Code that must not be interrupted while it runs. :: Critical section
+An operation that completes in one step with no possible interruption. :: Atomic operation
+Reading a 16-bit variable on an 8-bit AVR in main while an ISR changes it can give this. :: A torn (corrupted) value
+The RTOS problem where a low-priority task holding a mutex blocks a high-priority task. :: Priority inversion
+The RTOS fix where the low-priority task temporarily gets high priority. :: Priority inheritance
+The Mars rover that suffered priority inversion in 1997. :: Mars Pathfinder
+The RTOS scheduling where the highest-priority ready task always runs. :: Preemptive priority scheduling
+Giving each task a turn of fixed time. :: Round-robin (time slicing)
+The scheduling theory that gives shorter-period tasks higher priority. :: Rate-monotonic scheduling
+Rate-monotonic scheduling guarantees deadlines for many tasks if utilisation is below about this. :: 69% (ln 2)
+The memory region that holds local variables and return addresses. :: Stack
+The memory region for dynamic allocation with malloc. :: Heap
+Embedded developers often avoid malloc because of this. :: Heap fragmentation
+When the stack grows into other memory. :: Stack overflow
+The program section holding initialised global variables. :: .data
+The program section holding zero-initialised globals. :: .bss
+The program section holding code. :: .text
+The file that tells the linker where to put sections in memory. :: Linker script
+The code that runs before main() to set up memory and the stack. :: Startup code (reset handler)
+The GCC toolchain for Arm microcontrollers. :: arm-none-eabi-gcc
+The open-source tool that connects GDB to debug probes. :: OpenOCD
+The file format often used to store firmware for flashing. :: Intel HEX (or .bin, .elf)
+Updating firmware over a wireless link. :: OTA (over-the-air) update
+The Arduino macro that stores strings in flash instead of RAM. :: F() macro (PROGMEM)
+The low-power mode where the CPU stops but peripherals run. :: Idle (sleep) mode
+The deepest AVR sleep mode, woken only by external events or the watchdog. :: Power-down mode
+The circuit that resets the chip when supply voltage drops too low. :: Brown-out detector
+The power trick of turning off unused peripheral clocks. :: Clock gating
+The circuit that multiplies a low crystal frequency up to a high CPU clock. :: PLL (phase-locked loop)
+The internal RC oscillator is cheaper but less accurate than this. :: Crystal oscillator
+A typical accuracy of an internal RC oscillator. :: About 1 to 2%
+UART timing errors must usually stay below this for reliable data. :: About 2 to 3%
+The voltage levels of the old PC serial standard. :: RS-232 (±3 to ±15 V)
+The chip that converts TTL serial to RS-232 levels. :: MAX232
+The differential serial standard used for long industrial links. :: RS-485
+The industrial protocol often run over RS-485. :: Modbus RTU
+The common USB-to-serial chips on Arduino clones. :: CH340 (or FT232, CP2102)
+The Arduino board whose ATmega32U4 can act as a USB keyboard. :: Arduino Leonardo
+The Arduino board with 54 digital pins. :: Arduino Mega 2560
+The CAN bus uses this kind of signalling on two wires. :: Differential (CAN_H and CAN_L)
+CAN bus needs these resistors at each end. :: 120 Ω terminators
+In CAN, the message with this kind of identifier value wins arbitration. :: The lowest
+The low-cost single-wire bus for car body electronics. :: LIN bus
+The I²C condition where SDA falls while SCL is high. :: Start condition
+In I²C, the receiver pulls SDA low after each byte to send this. :: ACK
+I²C clock stretching lets a slave do this. :: Hold SCL low to make the master wait
+The SPI setting pair that decides clock polarity and phase. :: CPOL and CPHA
+The number of SPI modes. :: Four
+The ADC technique that improves resolution by averaging many samples with noise. :: Oversampling (with dithering)
+The ADC error where the output is offset from zero. :: Offset error
+Each extra bit of ADC resolution adds about this much signal-to-noise ratio. :: 6 dB
+An ideal 10-bit ADC has an SNR of about this. :: About 62 dB
+The anti-aliasing filter goes before the ADC and is this type. :: Low-pass filter
+A simple RC filter on a PWM pin turns it into this. :: An analogue voltage (DAC)
+The simple control algorithm with proportional, integral and derivative terms. :: PID control
+The problem where the integral term builds up while the actuator is saturated. :: Integral windup
+The sensor that measures motor shaft position with pulses. :: Rotary encoder
+The encoder with two channels A and B 90° apart. :: Quadrature encoder
+The device that measures rotation rate and acceleration together. :: IMU (inertial measurement unit)
+The popular 6-axis IMU chip from InvenSense. :: MPU-6050
+The filter that blends gyroscope and accelerometer readings simply. :: Complementary filter
+The motor driver technique that brakes a DC motor by shorting its terminals. :: Dynamic braking
+The control method that drives a stepper motor in fractions of a step. :: Microstepping
+The popular stepper driver used in 3D printers. :: A4988 (or DRV8825, TMC2209)
+The motor type in drones, driven by an ESC. :: Brushless DC (BLDC) motor
+The protocol most hobby ESCs and servos understand. :: PWM (servo pulse)
+The Bluetooth module often used with Arduino over serial. :: HC-05
+Wi-Fi and BLE in the ESP32 share one of these. :: Radio (2.4 GHz)
+The ESP32 framework from Espressif based on FreeRTOS. :: ESP-IDF
+The ESP32's tiny extra processor for sensing while the main cores sleep. :: ULP coprocessor
+The ESP32 feature that lets pins sense a finger by capacitance. :: Capacitive touch
+The ESP-NOW protocol lets ESP32 boards talk directly without this. :: A Wi-Fi router (access point)
+The Arduino function that measures how long a pin stays HIGH, used with the HC-SR04. :: pulseIn()
+
+## 400
+The Cortex-M feature that saves registers automatically on interrupt entry. :: Hardware stacking (exception frame)
+The Cortex-M feature that skips unstacking when one interrupt follows another. :: Tail-chaining
+The Cortex-M optimisation when a higher-priority interrupt arrives during stacking. :: Late arrival
+The Cortex-M exception used for RTOS context switches at the lowest priority. :: PendSV
+The Cortex-M exception used by RTOS kernels for system calls. :: SVCall (SVC)
+The two Cortex-M stack pointers. :: MSP and PSP
+The fault raised on illegal memory access or bad instructions when other faults are disabled. :: HardFault
+The register in Cortex-M that saves the cause of a fault. :: CFSR (Configurable Fault Status Register)
+The value loaded into LR on exception entry to signal a return. :: EXC_RETURN
+The Cortex-M unit that protects memory regions from tasks. :: MPU (memory protection unit)
+The Cortex-M instructions for exclusive access used in mutexes. :: LDREX and STREX
+The instruction that waits for an interrupt in low power. :: WFI
+The Cortex-M register that controls the vector table location. :: VTOR
+The first two words of a Cortex-M vector table hold the stack pointer and this. :: Reset handler address
+The Cortex-M debug feature that streams printf-style data over a single pin. :: SWO (ITM trace)
+The Arm unit that can stop the CPU when an address is accessed. :: DWT (data watchpoint and trace)
+The cycle counter register in the DWT. :: CYCCNT
+The memory with the fastest access on Cortex-M7, closely coupled to the core. :: TCM (tightly coupled memory)
+The Cortex-M7 needs cache maintenance when DMA writes memory because of this. :: Cache coherency
+The high-performance STM32 family that includes dual-core Cortex-M7 plus M4 parts. :: STM32H7
+The STM32 family designed for ultra-low power. :: STM32L
+The low-power wireless STM32 family with Bluetooth. :: STM32WB
+The Nordic chip family popular for Bluetooth Low Energy. :: nRF52
+The TI microcontroller family famous for ultra-low power. :: MSP430
+The MSP430's CPU is this many bits wide. :: 16
+The Japanese chip maker that absorbed NEC Electronics in 2010 and leads in automotive MCUs. :: Renesas Electronics
+The automotive software standard for ECUs. :: AUTOSAR
+The ASIL level with the strictest safety requirements. :: ASIL D
+The industrial functional safety standard. :: IEC 61508
+The C coding guidelines for safety-critical embedded systems. :: MISRA C
+The C rule that avoids recursion in safety code is meant to stop this. :: Unbounded stack use
+The longest time code can take to run, needed for real-time analysis. :: WCET (worst-case execution time)
+The time between an interrupt request and the first ISR instruction. :: Interrupt latency
+The variation in timing of a periodic task. :: Jitter
+Cortex-M interrupt latency from request to ISR is typically about this many cycles. :: 12
+The Earliest Deadline First scheduler can reach this utilisation in theory. :: 100%
+A tickless RTOS idle mode stops this to save power. :: The periodic tick interrupt
+The RTOS memory allocation method with fixed-size blocks to avoid fragmentation. :: Memory pools (block allocator)
+The RTOS from the Linux Foundation with device tree support. :: Zephyr
+The RTOS from Microsoft, formerly from Express Logic. :: Azure RTOS (ThreadX, now Eclipse ThreadX)
+The Arm RTOS API standard. :: CMSIS-RTOS
+Embedded Rust's crate for safe Cortex-M register access is generated from this file type. :: SVD (System View Description)
+The open-source embedded Rust framework for concurrency using interrupts. :: RTIC
+The C technique for reading a hardware register at a fixed address. :: Casting an address to a volatile pointer
+The bit manipulation trick that tests if x is a power of two. :: x & (x − 1) == 0
+Fixed-point Q15 numbers store values between −1 and this. :: Just under 1 (1 − 2⁻¹⁵)
+The DSP operation done in one cycle on Cortex-M4. :: MAC (multiply–accumulate)
+The ADC type with very high resolution using oversampling and noise shaping. :: Sigma–delta ADC
+The ADC type fastest of all, using many comparators. :: Flash ADC
+The error figures that describe ADC step-size non-uniformity. :: DNL and INL
+The effective number of bits from measured SINAD. :: ENOB
+ENOB is (SINAD − 1.76) divided by this. :: 6.02
+The pin protection inside chips that clamps voltages to the rails. :: ESD protection diodes
+Feeding a signal into an unpowered chip can power it through these. :: Protection diodes (back-powering)
+The effect where a CMOS chip shorts its supply after a spike. :: Latch-up
+The technique to cut EMI by spreading the clock frequency. :: Spread-spectrum clocking
+The testing that checks a product does not emit too much radio noise. :: EMC testing
+Firmware updates are protected from tampering by this. :: Secure boot (signature check)
+The attack that glitches a chip's supply voltage to skip security checks. :: Voltage fault injection (glitching)
+The attack that reads keys by measuring a chip's power use. :: Side-channel (power analysis) attack
+The protection that blocks reading flash through the debugger. :: Read-out protection
+The bootloader approach with two flash slots so a bad update can roll back. :: A/B (dual-bank) update
+The open-source secure bootloader used with Zephyr. :: MCUboot
+Running tests on the real hardware in a test rig. :: Hardware-in-the-loop (HIL) testing
+The unit test framework for embedded C, from ThrowTheSwitch. :: Unity
+The book 'Test-Driven Development for Embedded C' is by this author. :: James Grenning
+The design pattern where a module's state changes in response to events. :: State machine
+The UML extension of state machines with nested states. :: Statecharts (Harel)
+The event-driven embedded framework from Miro Samek. :: QP (Quantum Platform)
+The 32-bit RISC-V microcontroller chip from Espressif with Wi-Fi 6. :: ESP32-C6
+The Raspberry Pi Pico 2's chip, released in 2024. :: RP2350
+The RP2350 lets you choose between Arm Cortex-M33 cores and these cores. :: RISC-V (Hazard3) cores
+The Arduino Uno R4 moved to this company's 32-bit chip. :: Renesas (RA4M1)
+Running machine learning models on microcontrollers. :: TinyML
+Google's framework for running neural networks on microcontrollers. :: TensorFlow Lite for Microcontrollers (LiteRT)
+Neural networks on MCUs usually use weights quantised to this size. :: 8-bit integers
+The Arm library of optimised neural network kernels for Cortex-M. :: CMSIS-NN
+The NASA rule set of ten coding rules for safety-critical code. :: Power of Ten (Holzmann)
+The 1996 rocket failure caused by a 64-bit float converted to 16-bit integer overflow. :: Ariane 5 Flight 501
+The 1999 Mars probe lost because of a units mix-up between teams. :: Mars Climate Orbiter
+The 1980s radiation therapy machine whose software race conditions killed patients. :: Therac-25
+The 2010s car recall where embedded software was blamed for unintended acceleration in expert testimony. :: Toyota unintended acceleration
+The 2010 computer worm that attacked Siemens PLCs in Iranian centrifuges. :: Stuxnet
+The industrial computers that run factory automation with ladder logic. :: PLCs (programmable logic controllers)
+The graphical PLC language that looks like relay circuits. :: Ladder logic
+The international standard for PLC programming languages. :: IEC 61131-3
+The Cortex-M setting that splits priority bits into preemption and sub-priority. :: Priority grouping (PRIGROUP)
+On Cortex-M, a lower priority number means this. :: Higher priority
+The Cortex-M3 and later register that masks interrupts below a chosen priority. :: BASEPRI
+The Cortex-M register that disables all configurable interrupts with one bit. :: PRIMASK
+The AVR fuse that divides the clock by 8 on new chips. :: CKDIV8
+A brand-new ATmega328P runs from its internal RC oscillator at this frequency before division. :: 8 MHz
+The AVR instruction that reads constants stored in flash. :: LPM (load program memory)
+The small bootloader used on the Arduino Uno. :: Optiboot
+Optiboot fits in this much flash. :: 512 bytes
+The ESP32 flash partition that stores key–value settings like Wi-Fi credentials. :: NVS (non-volatile storage)
+The flash property that limits how many times a cell can be erased. :: Endurance (erase cycles)
+Spreading writes across flash blocks to make it last longer. :: Wear levelling
+Flash must be erased in these units before it can be rewritten. :: Sectors (pages or blocks)
+ISO 26262 defines four of these risk-based safety levels, A to D. :: ASILs
+
+## 500
+The first commercial single-chip microcontroller, from Texas Instruments in 1974. :: TMS1000
+The Intel 8-bit microcontroller of 1976 that came before the 8051. :: 8048
+The 8048 was used in this common PC part. :: Keyboard (controller)
+The year Intel released the 8051. :: 1980
+The two Norwegian students who designed the AVR architecture. :: Alf-Egil Bogen and Vegard Wollan
+The company that first sold AVR chips. :: Atmel
+The year Microchip bought Atmel. :: 2016
+The company that originally made the PIC, as a peripheral chip for its CP1600 CPU. :: General Instrument
+The British company that designed the first ARM processor in 1985. :: Acorn Computers
+The two Acorn engineers who designed the ARM instruction set and chip. :: Sophie Wilson and Steve Furber
+ARM originally stood for this. :: Acorn RISC Machine
+Later, ARM stood for this. :: Advanced RISC Machines
+The first ARM chip worked first time and used surprisingly little of this. :: Power
+The Apple handheld that pushed Advanced RISC Machines to be founded in 1990. :: Newton
+The Arduino project began in 2005 at an interaction design institute in this Italian town. :: Ivrea
+The bar in Ivrea that gave Arduino its name, named after an 11th-century king. :: Bar di Re Arduino
+The student thesis project that Arduino grew from, created by Hernando Barragán. :: Wiring
+The programming environment Wiring and Arduino IDE were based on. :: Processing
+The Italian co-founder of Arduino often seen as its public face. :: Massimo Banzi
+The Raspberry Pi Foundation's co-founder and long-time CEO. :: Eben Upton
+The first Raspberry Pi was released in this year. :: 2012
+The Raspberry Pi Pico was released in this year. :: 2021
+The Chinese company that makes the ESP32 chips. :: Espressif Systems
+The city where Espressif is headquartered. :: Shanghai
+The ESP8266 became famous in 2014 when sold on this cheap module. :: ESP-01
+The Arm company headquarters is in this English city. :: Cambridge
+The Japanese company that bought Arm in 2016. :: SoftBank
+The NASA computer that flew Apollo to the Moon, an early embedded computer. :: Apollo Guidance Computer
+The Apollo Guidance Computer used this type of memory woven by hand. :: Core rope memory
+The MIT engineer who led software for the Apollo Guidance Computer. :: Margaret Hamilton
+The alarm codes that nearly aborted the Apollo 11 landing. :: 1201 and 1202
+The first US car to use a microprocessor engine control unit, around 1977 to 1978. :: Oldsmobile Toronado (GM MISAR)
+The year Bosch presented the CAN bus at a conference. :: 1986
+The Dutch company that invented the I²C bus in 1982. :: Philips
+Philips's chip division that now owns I²C, spun off in 2006. :: NXP Semiconductors
+The company that introduced the SPI bus in the 1980s. :: Motorola
+Motorola's chip division was spun off in 2004 under this name. :: Freescale Semiconductor
+NXP bought Freescale in this year. :: 2015
+The Zilog microcontroller descended from the famous Z80. :: Z8 (and Z80 family)
+The Ultrasonic 'Sonar' module HC-SR04 measures up to roughly this range. :: About 4 metres
+The Japanese company whose engineer Masatoshi Shima helped design the Intel 4004. :: Busicom
+The BASIC Stamp microcontroller board was sold by this US company from 1992. :: Parallax
+The 1981 British educational computer whose name the micro:bit echoes. :: BBC Micro
+The 1990s Lego programmable brick was developed with this US university lab. :: MIT Media Lab
+The Lego programmable brick product launched in 1998. :: RCX (Mindstorms)
+The founder of Adafruit Industries, an MIT engineer. :: Limor Fried (Ladyada)
+The US company in Colorado famous for red breakout boards. :: SparkFun Electronics
+The tiny ESP8266 board from Wemos (Lolin) that made Wi-Fi projects easy. :: Wemos D1 mini
+The open hardware licence used by Arduino boards. :: Creative Commons (CC BY-SA)
+The open-source drone autopilot project that grew out of Arduino. :: ArduPilot
+The year the Arduino Uno was released. :: 2010
+The Arduino Uno's name means this in Italian. :: One
+The second microcontroller on the Uno R3 that handles USB. :: ATmega16U2
+The open-source smart home firmware for ESP chips, made by Theo Arends. :: Tasmota
+The open-source home automation platform often used with ESP devices. :: Home Assistant
+The YAML-based firmware builder for ESP chips in Home Assistant. :: ESPHome
+The NASA Mars helicopter that flew in 2021 used this Qualcomm chip, a phone processor. :: Snapdragon 801
+The name of the Mars helicopter. :: Ingenuity
+The microcontroller that handled Ingenuity's flight control safety, an automotive part. :: TI Hercules (TMS570)
+The Saudi Space Commission, set up in 2018, was renamed this in 2023. :: Saudi Space Agency
+The embedded engineer whose 'Embedded C Coding Standard' is widely used. :: Michael Barr
+The magazine-founded conference for embedded engineers held in Silicon Valley. :: Embedded Systems Conference (ESC)
+The Raspberry Pi product line for industrial use, like the CM4. :: Compute Module
+The low-cost board from China that runs Linux on a RISC-V chip, like the Milk-V Duo. :: Milk-V
+The ultra-cheap 32-bit RISC-V microcontroller from WCH costing about 10 cents. :: CH32V003
+The 2021 to 2023 global problem that made microcontrollers very hard to buy. :: Chip shortage
+The company that became the world's largest microcontroller maker by revenue in 2023. :: Infineon
+The ATmega328P's ADC clock should be between 50 kHz and this for full 10-bit resolution. :: 200 kHz
+The Arduino Uno's default ADC clock prescaler. :: 128
+One analogRead() on an Uno takes about this long. :: About 100 μs
+The ATmega328P's internal bandgap reference voltage. :: 1.1 V
+The ATmega328P's internal pull-up resistors are roughly this value. :: 20 to 50 kΩ
+digitalWrite() on an Uno takes about this long, far slower than direct port writes. :: A few microseconds (about 4 μs)
+The Arduino function with 4 μs resolution on a 16 MHz Uno. :: micros()
+millis() on an Uno rolls over after about this long. :: About 49.7 days
+The overflow-safe way to check a millis() interval. :: (millis() − start) >= interval
+The Cortex-M4 FPU handles this precision in hardware. :: Single precision (32-bit float)
+The Cortex-M core that first added Helium vector instructions. :: Cortex-M55
+Arm's M-profile vector extension is nicknamed this. :: Helium (MVE)
+The RISC-V privilege mode that bare-metal firmware runs in. :: Machine mode (M-mode)
+The RISC-V interrupt controller designed for fast embedded interrupts. :: CLIC
+The RISC-V base instruction set for tiny cores with only 16 registers. :: RV32E
+The I²C address reserved for the general call. :: 0x00
+The I²C speed mode that runs at up to 3.4 MHz. :: High-speed mode
+The newer MIPI bus meant to replace I²C, with in-band interrupts. :: I3C
+The CAN variant that allows up to 64 data bytes per frame. :: CAN FD
+Classic CAN frames carry at most this many data bytes. :: 8
+CAN bit stuffing inserts an opposite bit after this many identical bits. :: 5
+The maximum bit rate of classic CAN. :: 1 Mbit/s
+The USB device class that lets a microcontroller look like a serial port. :: CDC (ACM)
+The USB device class for keyboards and mice. :: HID
+The USB class that makes a board appear as a drive, as the Pico does in BOOTSEL mode. :: Mass storage (MSC)
+The drag-and-drop firmware file format created by Microsoft for MakeCode. :: UF2
+The IEEE standard number for JTAG. :: IEEE 1149.1
+The JTAG feature used to test solder joints on assembled boards. :: Boundary scan
+The two SWD signals are SWDIO and this. :: SWCLK
+Arm's first Cortex-M core, launched in 2004. :: Cortex-M3
+Luminary Micro, maker of the first Cortex-M3 chips, was bought in 2009 by this company. :: Texas Instruments
+The original 8051 has this much internal RAM. :: 128 bytes
+The number of register banks in the 8051. :: Four

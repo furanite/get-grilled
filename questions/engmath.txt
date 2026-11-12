@@ -1,0 +1,514 @@
+id: engmath
+name: Engineering Math
+nameAr: الرياضيات الهندسية
+group: engineering
+
+## 100
+The branch of maths that studies rates of change and accumulation. :: Calculus
+The rate of change of a function. :: Derivative
+The area under a curve is found with this. :: Integral (integration)
+The derivative of x². :: 2x
+The derivative of a constant. :: 0
+The derivative of x. :: 1
+The derivative of sin x. :: cos x
+The derivative of cos x. :: −sin x
+The derivative of eˣ. :: eˣ
+The derivative of ln x. :: 1/x
+The integral of 2x dx. :: x² + C
+The letter C added after an indefinite integral stands for this. :: Constant of integration
+The integral of 1/x dx. :: ln|x| + C
+The value of π to two decimal places. :: 3.14
+The value of e to two decimal places. :: 2.72
+The square root of 144. :: 12
+The square root of −1, written by engineers as j. :: Imaginary unit (i)
+The number written as 10³. :: 1,000
+The logarithm of 1000 to base 10. :: 3
+The natural logarithm of 1. :: 0
+The log base 10 of 100. :: 2
+Any non-zero number raised to the power 0 equals this. :: 1
+The value of sin 90°. :: 1
+The value of cos 0°. :: 1
+The value of sin 30°. :: 0.5
+The value of cos 60°. :: 0.5
+The value of tan 45°. :: 1
+The ratio of the opposite side to the hypotenuse. :: Sine
+The ratio of the adjacent side to the hypotenuse. :: Cosine
+The ratio of the opposite side to the adjacent side. :: Tangent
+The theorem a² + b² = c² for right triangles. :: Pythagorean theorem
+The value of sin²x + cos²x. :: 1
+The number of radians in a full circle. :: 2π
+The number of degrees in one radian, roughly. :: About 57.3°
+180 degrees equals this many radians. :: π
+The area of a circle of radius r. :: πr²
+The circumference of a circle of radius r. :: 2πr
+The volume of a sphere of radius r. :: (4/3)πr³
+The surface area of a sphere of radius r. :: 4πr²
+The volume of a cylinder of radius r and height h. :: πr²h
+The area of a triangle with base b and height h. :: ½bh
+The slope of the line y = 3x + 2. :: 3
+The y-intercept of y = 3x + 2. :: 2
+The general form of a straight line. :: y = mx + c
+The roots of a quadratic are found with this formula. :: Quadratic formula
+The roots of x² − 9 = 0. :: 3 and −3
+The roots of x² − 5x + 6 = 0. :: 2 and 3
+The b² − 4ac part of the quadratic formula. :: Discriminant
+If the discriminant is negative, the roots are this. :: Complex (not real)
+The graph of y = x² is this shape. :: Parabola
+The graph of x² + y² = r² is this shape. :: Circle
+A rectangular array of numbers. :: Matrix
+A matrix with the same number of rows and columns. :: Square matrix
+The matrix with 1s on the diagonal and 0s elsewhere. :: Identity matrix
+Swapping the rows and columns of a matrix. :: Transpose
+The determinant of the 2×2 matrix [a b; c d]. :: ad − bc
+A matrix whose determinant is zero is called this. :: Singular
+A quantity with size only. :: Scalar
+The length of the vector (3, 4). :: 5
+The product of two vectors that gives a scalar. :: Dot product
+The product of two vectors that gives a vector. :: Cross product
+The dot product of two perpendicular vectors. :: 0
+The equation that involves a function and its derivatives. :: Differential equation
+The average of a set of numbers. :: Mean
+The middle value of a sorted set of numbers. :: Median
+The value that appears most often. :: Mode
+The mean of 2, 4, 6 and 8. :: 5
+The median of 1, 3, 3, 7 and 9. :: 3
+A measure of how spread out data is around the mean. :: Standard deviation
+The square of the standard deviation. :: Variance
+The bell-shaped probability distribution. :: Normal (Gaussian) distribution
+The probability of getting heads on a fair coin. :: 0.5
+The probability of rolling a six on a fair die. :: 1/6
+Probabilities always lie between these two values. :: 0 and 1
+The chart that shows data as rectangles whose heights are frequencies. :: Histogram
+A graph of points used to see a relation between two variables. :: Scatter plot
+A number written as 3.2 × 10⁴ is in this form. :: Scientific notation
+Rounding 3.14159 to three significant figures. :: 3.14
+The prefix for one million. :: Mega
+The prefix for one thousandth. :: Milli
+The prefix for one millionth, written μ. :: Micro
+The prefix for 10⁹. :: Giga
+The prefix for 10⁻⁹. :: Nano
+The sum of the angles in a triangle. :: 180°
+The sum of the angles in a quadrilateral. :: 360°
+A function that repeats its values at regular intervals. :: Periodic function
+The period of sin x. :: 2π
+A sequence where each term is the previous one times a fixed ratio. :: Geometric sequence
+The limit of 1/x as x goes to infinity. :: 0
+The derivative tells you this about a graph at a point. :: Slope (gradient) of the tangent
+At a maximum or minimum of a smooth function, the derivative equals this. :: 0
+The integral of a velocity over time gives this. :: Displacement
+The derivative of displacement with respect to time. :: Velocity
+The spreadsheet program engineers often use for quick calculations, from Microsoft. :: Excel
+The programming environment from MathWorks widely used for engineering maths. :: MATLAB
+Percentage change from 50 to 60. :: 20%
+The vector from (0, 0) to (2, 3) has this x-component. :: 2
+The value of 4! (four factorial). :: 24
+The value of 3! (three factorial). :: 6
+The value of 2⁵. :: 32
+
+## 200
+The rule for differentiating a product uv. :: Product rule (u′v + uv′)
+The rule for differentiating a function of a function. :: Chain rule
+The rule for differentiating u/v. :: Quotient rule
+The derivative of tan x. :: sec²x
+The derivative of sin(3x). :: 3cos(3x)
+The derivative of e^(2x). :: 2e^(2x)
+The derivative of x ln x. :: ln x + 1
+The derivative of the square root of x. :: 1/(2√x)
+The integral of cos x dx. :: sin x + C
+The integral of eˣ dx. :: eˣ + C
+The integral of sin x dx. :: −cos x + C
+The integral of x² from 0 to 3. :: 9
+The integral of 1/(1 + x²) dx. :: arctan x + C
+The technique ∫u dv = uv − ∫v du. :: Integration by parts
+The technique of replacing part of an integrand with a new variable. :: Substitution
+Splitting a rational function into simpler fractions for integration. :: Partial fractions
+The theorem linking differentiation and integration. :: Fundamental theorem of calculus
+The rule for limits of 0/0 forms using derivatives. :: L'Hôpital's rule
+The limit of sin x / x as x goes to 0. :: 1
+The limit of (1 + 1/n)ⁿ as n goes to infinity. :: e
+A series that writes a function as an infinite polynomial around a point. :: Taylor series
+A Taylor series centred at zero. :: Maclaurin series
+The Maclaurin series of eˣ begins 1 + x + this. :: x²/2!
+The first two non-zero terms of the Maclaurin series of sin x. :: x − x³/6
+The small-angle approximation for sin θ. :: sin θ ≈ θ
+The sum of the infinite geometric series 1 + ½ + ¼ + ... :: 2
+The derivative of a function with several variables with respect to one, holding others fixed. :: Partial derivative
+The vector of all partial derivatives of a scalar function. :: Gradient
+The gradient points in the direction of this. :: Steepest increase
+The divergence of a vector field is a scalar or a vector? :: Scalar
+The curl of a vector field is a scalar or a vector? :: Vector
+The operator ∇ is called this. :: Del (nabla)
+∇²f, the sum of second partial derivatives, is called this. :: Laplacian
+A double integral over a region finds this when the integrand is 1. :: Area
+The factor r in polar double integrals comes from this. :: The Jacobian of the coordinate change
+The inverse of a 2×2 matrix [a b; c d] is 1/(ad − bc) times this. :: [d −b; −c a]
+The number of linearly independent rows of a matrix. :: Rank
+Ax = λx defines these. :: Eigenvalues and eigenvectors
+The sum of the eigenvalues equals this. :: Trace
+The product of the eigenvalues equals this. :: Determinant
+The eigenvalues of a triangular matrix are its these. :: Diagonal entries
+A matrix equal to its own transpose. :: Symmetric matrix
+The eigenvalues of a real symmetric matrix are always this. :: Real
+A matrix whose inverse equals its transpose. :: Orthogonal matrix
+The method that solves linear systems by row reduction. :: Gaussian elimination
+The rule that solves linear systems with ratios of determinants. :: Cramer's rule
+A system with more equations than unknowns is called this. :: Overdetermined
+The method that fits a line by minimising squared errors. :: Least squares
+The magnitude of the cross product a × b equals |a||b| times this. :: sin θ
+The scalar triple product a · (b × c) gives this geometric quantity. :: Volume of a parallelepiped
+The modulus of the complex number 3 + 4j. :: 5
+The complex conjugate of 2 − 5j. :: 2 + 5j
+e^(jθ) equals cos θ + j sin θ. This is called this. :: Euler's formula
+The equation e^(jπ) + 1 = 0 is called this. :: Euler's identity
+The value of j². :: −1
+The polar form of a complex number uses magnitude and this. :: Angle (argument)
+Multiplying two complex numbers in polar form multiplies magnitudes and does this to angles. :: Adds them
+The order of the differential equation y″ + 3y′ + 2y = 0. :: Second order
+A differential equation with only one independent variable. :: Ordinary differential equation (ODE)
+A differential equation with several independent variables. :: Partial differential equation (PDE)
+The solution of dy/dx = ky. :: y = Ce^(kx)
+A first-order ODE where you can put all y terms on one side and x terms on the other. :: Separable
+The multiplier used to solve first-order linear ODEs. :: Integrating factor
+The equation obtained by substituting y = e^(rx) into a linear ODE with constant coefficients. :: Characteristic (auxiliary) equation
+The roots of the characteristic equation of y″ + 3y′ + 2y = 0. :: −1 and −2
+Complex roots of the characteristic equation give solutions with these functions. :: Sines and cosines (times exponentials)
+The solution of the homogeneous part of an ODE. :: Complementary function
+The part of the solution caused by the forcing term. :: Particular integral (solution)
+The method for finding particular solutions by guessing their form. :: Undetermined coefficients
+The method for finding particular solutions using integrals of the complementary functions. :: Variation of parameters
+The transform that turns ODEs into algebraic equations in s. :: Laplace transform
+The Laplace transform of 1. :: 1/s
+The Laplace transform of e^(at). :: 1/(s − a)
+The Laplace transform of sin(ωt). :: ω/(s² + ω²)
+The Laplace transform of the derivative f′(t). :: sF(s) − f(0)
+The Laplace transform of the unit impulse δ(t). :: 1
+A periodic function written as a sum of sines and cosines. :: Fourier series
+The Fourier series of an odd function contains only these. :: Sine terms
+The Fourier series of an even function contains only cosines and this. :: A constant term
+The probability distribution for the number of successes in n yes/no trials. :: Binomial distribution
+The distribution for the number of random events in a fixed interval. :: Poisson distribution
+The distribution of waiting times between Poisson events. :: Exponential distribution
+In a normal distribution, about this percentage lies within one standard deviation of the mean. :: 68%
+In a normal distribution, about this percentage lies within two standard deviations. :: 95%
+The standard normal distribution has mean 0 and standard deviation this. :: 1
+The z-score measures distance from the mean in units of this. :: Standard deviation
+The theorem saying sample means tend to a normal distribution. :: Central limit theorem
+Two events where one does not affect the other. :: Independent events
+The probability of A given B. :: Conditional probability
+The rule for reversing a conditional probability. :: Bayes' theorem
+The measure of linear relationship between two variables, from −1 to 1. :: Correlation coefficient (r)
+The fraction of variation explained by a regression. :: R² (coefficient of determination)
+The numerical method that finds roots using tangent lines. :: Newton–Raphson method
+The root-finding method that halves an interval each step. :: Bisection method
+The numerical integration rule that uses straight-line segments. :: Trapezoidal rule
+The numerical integration rule that uses parabolas. :: Simpson's rule
+The simplest numerical method for ODEs, stepping along the slope. :: Euler's method
+The popular fourth-order method for solving ODEs. :: Runge–Kutta (RK4)
+The error from cutting off an infinite process after a few terms. :: Truncation error
+The error from storing numbers with limited digits. :: Round-off error
+
+## 300
+The integral of sec x dx. :: ln|sec x + tan x| + C
+The integral of ln x dx. :: x ln x − x + C
+The integral of e^(−x²) from −∞ to ∞. :: √π
+The integral of x e^x dx. :: (x − 1)eˣ + C
+The integral from 0 to ∞ of e^(−x) dx. :: 1
+The integral of 1 over the square root of (1 − x²), dx. :: arcsin x + C
+The Gamma function Γ(n) for a positive integer n equals this. :: (n − 1)!
+The value of Γ(½). :: √π
+The ratio test says a series converges if the limit of |aₙ₊₁/aₙ| is this. :: Less than 1
+The harmonic series 1 + ½ + ⅓ + ... does this. :: Diverges
+The p-series Σ1/nᵖ converges when p is this. :: Greater than 1
+The sum of 1/n² from n = 1 to ∞. :: π²/6
+The sum of the alternating series 1 − ½ + ⅓ − ¼ + ... :: ln 2
+The Maclaurin series of ln(1 + x) begins x − this. :: x²/2
+The Maclaurin series of 1/(1 − x). :: 1 + x + x² + x³ + ...
+The interval of convergence of the series for 1/(1 − x). :: −1 < x < 1
+The theorem relating a line integral around a closed curve to a double integral over the region. :: Green's theorem
+The theorem relating the flux through a closed surface to the volume integral of divergence. :: Divergence (Gauss's) theorem
+The theorem relating a line integral around a loop to the surface integral of curl. :: Stokes' theorem
+A vector field with zero curl everywhere in a simply connected region is this. :: Conservative
+A vector field with zero divergence. :: Solenoidal
+The curl of a gradient is always this. :: Zero
+The divergence of a curl is always this. :: Zero
+The Jacobian for spherical coordinates (r, θ, φ) is this. :: r² sin θ
+The method for finding extrema subject to a constraint. :: Lagrange multipliers
+The matrix of second partial derivatives. :: Hessian matrix
+A critical point where the Hessian has both positive and negative eigenvalues. :: Saddle point
+The test using fxx fyy − fxy² to classify critical points. :: Second derivative test
+A matrix that can be written as PDP⁻¹ with D diagonal. :: Diagonalisable
+A matrix all of whose eigenvalues are positive and that is symmetric. :: Positive definite
+The factorisation of a matrix into lower and upper triangular matrices. :: LU decomposition
+The factorisation of a positive definite matrix as LLᵀ. :: Cholesky decomposition
+The factorisation into an orthogonal matrix and an upper triangular matrix. :: QR decomposition
+The factorisation A = UΣVᵀ. :: Singular value decomposition (SVD)
+The set of all solutions to Ax = 0. :: Null space (kernel)
+Rank plus nullity equals this. :: Number of columns
+The iterative method for linear systems that updates each unknown using the newest values. :: Gauss–Seidel method
+The iterative method that uses only values from the previous sweep. :: Jacobi method
+Iterative methods like Jacobi converge for matrices with this property. :: Diagonal dominance
+The method that finds the largest eigenvalue by repeated multiplication. :: Power method
+The process that makes a set of vectors orthonormal. :: Gram–Schmidt process
+The exponential of a matrix is used to solve this kind of system. :: Linear systems of ODEs (x′ = Ax)
+An ODE of the form x²y″ + axy′ + by = 0. :: Cauchy–Euler equation
+The ODE whose solutions are Legendre polynomials. :: Legendre's equation
+The ODE y′ + p(x)y = q(x)yⁿ. :: Bernoulli equation
+An ODE M dx + N dy = 0 where ∂M/∂y = ∂N/∂x. :: Exact equation
+The Laplace transform of t. :: 1/s²
+The Laplace transform of tⁿ. :: n!/sⁿ⁺¹
+The Laplace transform of cos(ωt). :: s/(s² + ω²)
+Multiplying by e^(at) in time shifts the Laplace transform like this. :: F(s − a)
+The Laplace transform of a function delayed by a, f(t − a)u(t − a). :: e^(−as)F(s)
+The theorem that gives f(∞) as the limit of sF(s) as s → 0. :: Final value theorem
+The theorem that gives f(0⁺) as the limit of sF(s) as s → ∞. :: Initial value theorem
+The Laplace transform of the convolution of two functions equals this. :: The product of their transforms
+The ratio of output transform to input transform with zero initial conditions. :: Transfer function
+Values of s that make a transfer function infinite. :: Poles
+Values of s that make a transfer function zero. :: Zeros
+The Fourier transform of a rectangular pulse has this shape. :: Sinc function
+The Fourier transform of a Gaussian is this. :: A Gaussian
+Convolution in time equals this in frequency. :: Multiplication
+The theorem that energy in time equals energy in frequency. :: Parseval's (Plancherel's) theorem
+The transform used for discrete-time signals, like the Laplace transform for sampled systems. :: Z-transform
+The Z-transform variable z relates to s by z = this. :: e^(sT)
+The minimum sampling rate to capture a signal without aliasing. :: Twice the highest frequency (Nyquist rate)
+The PDE ∂u/∂t = k ∂²u/∂x². :: Heat (diffusion) equation
+The PDE ∂²u/∂t² = c² ∂²u/∂x². :: Wave equation
+The PDE ∇²u = 0. :: Laplace's equation
+The PDE ∇²u = f. :: Poisson's equation
+The method of solving PDEs by assuming u = X(x)T(t). :: Separation of variables
+d'Alembert's solution of the wave equation is a sum of two waves travelling this way. :: In opposite directions
+The second-order PDE type that includes Laplace's equation. :: Elliptic
+The second-order PDE type that includes the heat equation. :: Parabolic
+The second-order PDE type that includes the wave equation. :: Hyperbolic
+Boundary conditions that fix the value of the function. :: Dirichlet conditions
+Boundary conditions that fix the normal derivative. :: Neumann conditions
+The numerical method that replaces derivatives with differences on a grid. :: Finite difference method
+The central difference approximation of f′(x) has error of this order. :: O(h²)
+The numerical method that divides a domain into elements and uses weak forms. :: Finite element method
+Simpson's rule has error of this order in step size. :: O(h⁴)
+The fitting curve made of piecewise cubics with smooth joints. :: Cubic spline
+The polynomial interpolation formula using divided differences. :: Newton's divided differences
+The root-finding method that uses two previous points but no derivative. :: Secant method
+Newton–Raphson converges at this rate near a simple root. :: Quadratically
+The step in Newton's method: xₙ₊₁ = xₙ minus this. :: f(xₙ)/f′(xₙ)
+The test that compares observed and expected counts. :: Chi-squared test
+The test that compares means of two small samples. :: t-test
+The person who published the t-distribution under the pen name 'Student'. :: William Sealy Gosset
+The method that compares means of three or more groups. :: ANOVA
+The probability of rejecting a true null hypothesis. :: Type I error (significance level α)
+Failing to reject a false null hypothesis. :: Type II error
+The value p < 0.05 is often used to call a result this. :: Statistically significant
+A 95% confidence interval for a mean is roughly the mean plus or minus this many standard errors. :: 1.96 (about 2)
+The standard error of the mean equals σ divided by this. :: √n
+The distribution often used for failure times and wind speeds, with shape and scale parameters. :: Weibull distribution
+The expected value of a fair six-sided die roll. :: 3.5
+The variance of a fair coin flip scored 0 or 1. :: 0.25
+The ringing overshoot of a Fourier series near a jump. :: Gibbs phenomenon
+The theorem (cos θ + j sin θ)ⁿ = cos nθ + j sin nθ. :: De Moivre's theorem
+A continuous-time system with a pole at s = +2 is this. :: Unstable
+The point in the z-plane that matches s = 0. :: z = 1
+
+## 400
+The improper integral from 0 to ∞ of sin x / x. :: π/2
+The integral from 0 to ∞ of xⁿ e^(−x) dx. :: n! (Γ(n + 1))
+The Beta function B(m, n) equals Γ(m)Γ(n) divided by this. :: Γ(m + n)
+The function erf(x) is defined using the integral of this. :: e^(−t²)
+The rule for differentiating under the integral sign. :: Leibniz integral rule
+The method for evaluating real integrals using contour integration and residues. :: Residue theorem
+The integral of f(z) around a closed contour where f is analytic inside equals this. :: Zero (Cauchy's theorem)
+The conditions ∂u/∂x = ∂v/∂y and ∂u/∂y = −∂v/∂x. :: Cauchy–Riemann equations
+A complex function differentiable everywhere in a region. :: Analytic (holomorphic)
+The real and imaginary parts of an analytic function satisfy this equation. :: Laplace's equation (they are harmonic)
+The residue of 1/(z − a) at z = a. :: 1
+A Laurent series term with a negative power gives this kind of singularity. :: Pole (or essential singularity)
+A singularity with infinitely many negative-power terms. :: Essential singularity
+The theorem that a bounded entire function is constant. :: Liouville's theorem
+A mapping that preserves angles. :: Conformal mapping
+The map w = (az + b)/(cz + d). :: Möbius (bilinear) transformation
+The mapping used to turn a circle into an aerofoil shape. :: Joukowski transformation
+The Fourier transform of the Dirac delta. :: 1 (a constant)
+The Fourier transform of a constant. :: A delta function
+Shifting a signal in time changes its Fourier transform only in this. :: Phase
+The DFT of N points needs about this many operations directly. :: N²
+The FFT needs about this many operations. :: N log N
+The FFT algorithm popularised in 1965 by two authors. :: Cooley–Tukey
+The transform used in JPEG compression. :: Discrete cosine transform (DCT)
+The transform that analyses signals at multiple scales with localized basis functions. :: Wavelet transform
+The transform used to find the analytic signal and envelope. :: Hilbert transform
+The Bode plot of a first-order low-pass filter rolls off at this rate. :: −20 dB per decade
+The frequency where a first-order filter's gain is down 3 dB. :: Corner (cut-off) frequency
+The stability criterion that uses a table of polynomial coefficients. :: Routh–Hurwitz criterion
+The stability criterion that counts encirclements of −1 in a frequency plot. :: Nyquist criterion
+The plot of closed-loop pole locations as a gain varies. :: Root locus
+The matrix e^(At) is called this in control theory. :: State transition matrix
+A system is controllable if this matrix has full rank. :: Controllability matrix [B AB A²B ...]
+The optimal estimator for linear systems with Gaussian noise. :: Kalman filter
+The Sturm–Liouville problem gives eigenfunctions with this property. :: Orthogonality
+The Legendre polynomial P₂(x). :: (3x² − 1)/2
+The first Chebyshev polynomial of degree 2, T₂(x). :: 2x² − 1
+Chebyshev nodes are used to reduce this interpolation problem. :: Runge's phenomenon
+The polynomials orthogonal with weight e^(−x²) on the whole real line. :: Hermite polynomials
+The polynomials orthogonal with weight e^(−x) on [0, ∞). :: Laguerre polynomials
+Bessel functions describe the vibration modes of this shape of drum. :: Circular
+The ODE solution technique that turns a boundary value problem into initial value problems with guessed slopes. :: Shooting method
+The Crank–Nicolson scheme for the heat equation is this order accurate in time. :: Second order
+The explicit scheme for the heat equation is stable only if r = kΔt/Δx² is at most this. :: ½
+The analysis that checks finite difference stability using Fourier modes. :: Von Neumann stability analysis
+The theorem that consistency plus stability equals convergence for linear schemes. :: Lax equivalence theorem
+The Krylov method for symmetric positive definite systems. :: Conjugate gradient method
+The Krylov method for general non-symmetric systems. :: GMRES
+The eigenvalue algorithm that repeatedly factorises and recombines a matrix. :: QR algorithm
+Multigrid methods speed up solvers by working on this. :: Several grid resolutions
+The optimisation method for linear programs that walks along vertices. :: Simplex method
+The optimisation method inspired by natural selection. :: Genetic algorithm
+The optimisation method inspired by the cooling of metals. :: Simulated annealing
+The conditions for optimality with inequality constraints. :: KKT (Karush–Kuhn–Tucker) conditions
+A problem where any local minimum is a global minimum. :: Convex optimisation
+The quasi-Newton method that updates an approximate Hessian, named after four authors. :: BFGS
+The method for nonlinear least squares that blends Gauss–Newton and gradient descent. :: Levenberg–Marquardt algorithm
+The statistical method that finds directions of greatest variance. :: Principal component analysis (PCA)
+The estimation method that maximises the probability of the observed data. :: Maximum likelihood estimation
+The random sampling method used to estimate integrals and risks. :: Monte Carlo method
+The Monte Carlo error falls with sample size N as this. :: 1/√N
+The process with no memory, where the future depends only on the present. :: Markov process
+The matrix that holds the probabilities of moving between states. :: Transition matrix
+The long-run distribution of a Markov chain. :: Stationary distribution
+The quality control chart for process means. :: X-bar chart (Shewhart chart)
+The quality method aiming for 3.4 defects per million. :: Six Sigma
+The index that compares a process spread to its tolerance width. :: Process capability (Cp)
+The design of experiments method using all combinations of factor levels. :: Full factorial design
+The Japanese engineer known for robust design methods using signal-to-noise ratios. :: Genichi Taguchi
+The distribution of the sum of squares of k standard normal variables. :: Chi-squared distribution
+The ratio of two scaled chi-squared variables follows this distribution. :: F-distribution
+The non-parametric test that compares two independent samples by ranks. :: Mann–Whitney U test
+The resampling method that estimates uncertainty by drawing with replacement. :: Bootstrap
+The reliability of components in series is the this of their reliabilities. :: Product
+The mean time to failure for a constant failure rate λ. :: 1/λ
+The bathtub curve shows this over a product's life. :: Failure rate
+The probability density that peaks at the mode and is used for PERT task times. :: Beta distribution
+The value of e^(jπ/2). :: j
+The value of j^j, a real number. :: e^(−π/2) (about 0.208)
+The number of distinct cube roots of 8 in the complex plane. :: Three
+The cube roots of unity sum to this. :: 0
+Hamilton's quaternion rule: i² = j² = k² = ijk = this. :: −1
+The fundamental solution of the 1D heat equation has this shape in space. :: Gaussian
+Green's function of an ODE is its response to this. :: A unit impulse (delta function)
+The method that approximates a PDE solution as a sum of weighted basis functions minimising residual. :: Galerkin method
+The divergence theorem in FEM is used to get this form. :: Weak (variational) form
+The principle that the true solution minimises total potential energy, used in FEM. :: Principle of minimum potential energy
+The theorem that every square matrix satisfies its own characteristic equation. :: Cayley–Hamilton theorem
+The ratio of largest to smallest singular value, which shows sensitivity to errors. :: Condition number
+The series method for solving ODEs near a regular singular point. :: Frobenius method
+The theorem guaranteeing a unique solution to an initial value problem with smooth functions. :: Picard–Lindelöf (existence and uniqueness) theorem
+The integration method that chooses both points and weights for maximum accuracy. :: Gaussian quadrature
+The wild oscillations of high-degree interpolation at equally spaced points. :: Runge's phenomenon
+An ODE whose solutions have very different time scales and need implicit methods. :: Stiff equation
+The determinant used to test if ODE solutions are linearly independent. :: Wronskian
+The ODE whose solutions are Bessel functions. :: Bessel's equation
+The determinant of any 3×3 rotation matrix. :: 1
+The eigenvalues of a 2D rotation matrix by angle θ. :: e^(±jθ)
+The matrix norm equal to the largest singular value. :: Spectral (2-) norm
+The optimiser with momentum and adaptive step sizes, popular for training neural networks. :: Adam
+
+## 500
+The two mathematicians who independently invented calculus. :: Newton and Leibniz
+The notation dy/dx comes from this mathematician. :: Gottfried Wilhelm Leibniz
+The notation f′(x) was introduced by this mathematician. :: Joseph-Louis Lagrange
+Newton's name for derivatives. :: Fluxions
+The French mathematician whose 1821 Cours d'analyse put limits and continuity on a firm footing. :: Augustin-Louis Cauchy
+The German mathematician who made the ε–δ definition fully rigorous. :: Karl Weierstrass
+The French mathematician whose 1696 textbook spread L'Hôpital's rule, learned from Johann Bernoulli. :: Guillaume de l'Hôpital
+The Scottish mathematician after whom Maclaurin series are named. :: Colin Maclaurin
+The English mathematician who published his series in 1715. :: Brook Taylor
+The 9th-century Baghdad mathematician whose book gave algebra its name. :: Muhammad ibn Musa al-Khwarizmi
+The Arabic word in al-Khwarizmi's title that became 'algebra'. :: Al-jabr
+The word 'algorithm' comes from this person's name. :: Al-Khwarizmi
+The 11th-century Persian poet-mathematician who solved cubic equations geometrically. :: Omar Khayyam
+The 11th-century scholar who summed fourth powers to find the volume of a paraboloid. :: Ibn al-Haytham
+The 15th-century Persian astronomer who calculated π to 16 decimal places. :: Jamshid al-Kashi
+Al-Kashi's name is given to this generalisation of Pythagoras' theorem in France. :: Law of cosines
+The 13th-century Persian scholar who set out trigonometry as a separate subject. :: Nasir al-Din al-Tusi
+The 10th-century scholar from Harran who improved trigonometric tables and measured the solar year. :: Al-Battani
+The Indian mathematician from Kerala who found series for sine and π around 1400. :: Madhava of Sangamagrama
+The Italian who published the solution of the cubic in Ars Magna, 1545. :: Gerolamo Cardano
+The Scottish mathematician who invented logarithms in 1614. :: John Napier
+The Swiss mathematician who named the constant e. :: Leonhard Euler
+The year Euler solved the Basel problem, finding the sum of 1/n². :: 1734
+The German mathematician who showed in 1882 that π is transcendental. :: Ferdinand von Lindemann
+The French mathematician who proved e is transcendental in 1873. :: Charles Hermite
+The Irish mathematician who invented quaternions in 1843. :: William Rowan Hamilton
+The Dublin bridge where Hamilton carved the quaternion formula. :: Broome Bridge
+The English mathematician who introduced the term 'matrix' in 1850. :: James Joseph Sylvester
+The English mathematician who developed matrix algebra in 1858. :: Arthur Cayley
+The German mathematician called the 'Prince of Mathematicians'. :: Carl Friedrich Gauss
+Gauss is said to have added the numbers 1 to 100 quickly as a schoolboy. The sum is this. :: 5,050
+Gauss used least squares in 1801 to find this dwarf planet. :: Ceres
+The French mathematician who first published least squares in 1805. :: Adrien-Marie Legendre
+The French mathematician whose 1822 book 'The Analytical Theory of Heat' introduced his series. :: Joseph Fourier
+The French mathematician whose work on probability and the transform bears his name. :: Pierre-Simon Laplace
+The English engineer who used operational calculus for telegraph equations, later justified by Laplace transforms. :: Oliver Heaviside
+Heaviside reportedly said: 'Shall I refuse my dinner because I do not fully understand the process of' this? :: Digestion
+The unit step function is named after this person. :: Oliver Heaviside
+The physicist who introduced the delta function in quantum mechanics. :: Paul Dirac
+The French mathematician who built the rigorous theory of distributions in the 1940s. :: Laurent Schwartz
+The German mathematician who gave the first rigorous definition of the integral in 1854. :: Bernhard Riemann
+The French mathematician whose 1902 integral handles very rough functions. :: Henri Lebesgue
+The Norwegian mathematician who proved the general quintic has no formula in radicals. :: Niels Henrik Abel
+The young French mathematician who died in a duel at 20 in 1832, founding group theory. :: Évariste Galois
+The German mathematician who proposed 23 famous problems in 1900. :: David Hilbert
+The Hungarian-American who pioneered the Monte Carlo method with Ulam on early computers. :: John von Neumann
+The Polish-American mathematician who conceived the Monte Carlo method while playing solitaire. :: Stanisław Ulam
+The Monte Carlo method was named after a casino in this country. :: Monaco
+The Russian mathematician who studied chains of random events from 1906. :: Andrey Markov
+The Soviet mathematician who set out the axioms of probability in 1933. :: Andrey Kolmogorov
+The English statistician who founded design of experiments and ANOVA. :: Ronald Fisher
+The Guinness brewery employee who invented the t-test. :: William Sealy Gosset
+The English mathematician who introduced the correlation coefficient and chi-squared test. :: Karl Pearson
+The Belgian statistician who coined the idea of 'the average man'. :: Adolphe Quetelet
+The English mathematician whose 1763 essay gave the theorem of inverse probability. :: Thomas Bayes
+The French mathematician whose 1654 letters with Pascal founded probability theory. :: Pierre de Fermat
+The American statistician whose 1924 control chart began statistical quality control. :: Walter Shewhart
+The American statistician who taught quality methods to Japanese industry after 1950. :: W. Edwards Deming
+The American mathematician who invented the simplex method in 1947. :: George Dantzig
+Dantzig famously solved two unsolved statistics problems because he thought they were this. :: Homework
+The Soviet mathematician who founded linear programming in 1939 and won a Nobel in economics. :: Leonid Kantorovich
+The German mathematician who, with Kutta, gave his name to a family of ODE methods. :: Carl Runge
+The German mathematician who in 1901 extended Runge's method to the classic fourth order. :: Martin Wilhelm Kutta
+The 1943 paper by Richard Courant laid the groundwork for this numerical method. :: Finite element method
+The American engineer who coined the term 'finite element' in 1960. :: Ray Clough
+The British-Polish engineer who wrote the first FEM textbook in 1967. :: Olgierd Zienkiewicz
+The two scientists who published the FFT algorithm in 1965. :: James Cooley and John Tukey
+Gauss had used an FFT-like method in this year to interpolate asteroid orbits. :: 1805
+The American mathematician who coined the word 'bit'. :: John Tukey
+The American engineer who founded information theory in 1948. :: Claude Shannon
+The Hungarian-American engineer who developed the Kalman filter in 1960. :: Rudolf Kálmán
+The Kalman filter helped navigate this 1960s programme to the Moon. :: Apollo
+The American engineer whose 1932 stability criterion uses encirclements. :: Harry Nyquist
+The Bell Labs engineer whose 1930s asymptotic plots are used in control design. :: Hendrik Bode
+The English mathematician who devised a polynomial stability test in the 1870s. :: Edward Routh
+The Russian mathematician who studied best polynomial approximation and gave his name to a family of orthogonal polynomials. :: Pafnuty Chebyshev
+The Scottish mathematician who wrote a 'Treatise on Fluxions' in 1742 defending Newton's calculus. :: Colin Maclaurin
+The Indian mathematician whose notebooks were full of strange series and who worked with Hardy. :: Srinivasa Ramanujan
+Ramanujan's series for 1/π converges this fast. :: About 8 digits per term
+The 'taxicab number' Ramanujan mentioned to Hardy. :: 1,729
+The NASA mathematician whom John Glenn asked to check the computer's orbit calculations before his 1962 flight. :: Katherine Johnson
+The 2016 film about Katherine Johnson and her colleagues. :: Hidden Figures
+The Iranian mathematician who was the first woman to win the Fields Medal, in 2014. :: Maryam Mirzakhani
+The software company that makes MATLAB. :: MathWorks
+The software that solves symbolic maths, made by Wolfram Research. :: Mathematica
+MATLAB originally stood for this. :: Matrix Laboratory
+The open-source Python library for numerical arrays. :: NumPy
+The FORTRAN library for linear algebra standard since the 1990s. :: LAPACK
+The 1957 programming language created at IBM for scientific computing. :: FORTRAN
+The Greek mathematician who used the method of exhaustion to find the area of a parabolic segment. :: Archimedes
+Archimedes showed π lies between 3 10/71 and this. :: 3 1/7
+The 5th-century Chinese mathematician who found the approximation π ≈ 355/113. :: Zu Chongzhi
+The Welsh mathematician who first used the symbol π for the circle ratio, in 1706. :: William Jones
+The Welsh mathematician who invented the equals sign in 1557. :: Robert Recorde
+The French philosopher whose 1637 work introduced coordinate geometry. :: René Descartes
+The Italian whose 1202 Liber Abaci brought Hindu–Arabic numerals to Europe. :: Fibonacci (Leonardo of Pisa)
+The English mathematician who invented the slide rule around 1622. :: William Oughtred
+The English pioneer who designed the Difference Engine to print maths tables. :: Charles Babbage
+The writer of the first published computer program, to compute Bernoulli numbers. :: Ada Lovelace
+The meteorologist who led the first computer weather forecasts on ENIAC in 1950. :: Jule Charney

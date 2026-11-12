@@ -1,0 +1,514 @@
+id: power
+name: Power & Energy
+nameAr: القوى والطاقة
+group: engineering
+
+## 100
+The ability to do work. :: Energy
+The rate at which energy is used or produced. :: Power
+The unit on an electricity bill. :: Kilowatt-hour (kWh)
+A kilowatt-hour equals this many joules. :: 3.6 million (3.6 MJ)
+A 1,000 W heater running for one hour uses this much energy. :: 1 kWh
+One megawatt equals this many kilowatts. :: 1,000
+The network of power stations, lines and substations that delivers electricity. :: Power grid
+The three main parts of a power system. :: Generation, transmission and distribution
+The tall steel towers that carry overhead power lines. :: Pylons (transmission towers)
+Power is sent over long distances at high voltage to reduce this. :: Losses (current and I²R heating)
+The facility where voltage is stepped up or down. :: Substation
+The pole-mounted device that lowers voltage for homes. :: Distribution transformer
+Energy sources that are naturally replenished. :: Renewable energy
+Coal, oil and natural gas are called this. :: Fossil fuels
+The gas released by burning fossil fuels that drives climate change. :: Carbon dioxide (CO₂)
+A device that turns sunlight directly into electricity. :: Solar (photovoltaic) cell
+A group of solar cells in a frame. :: Solar panel (module)
+The material most solar cells are made from. :: Silicon
+Solar panels produce this type of current. :: Direct current (DC)
+The device that turns DC from solar panels into AC. :: Inverter
+The direction solar panels in Saudi Arabia should face for the most energy. :: South
+Solar panels produce no power at this time. :: Night
+A machine that turns the wind's energy into electricity. :: Wind turbine
+The number of blades on most large modern wind turbines. :: Three
+A group of wind turbines in one place. :: Wind farm
+Wind farms built at sea. :: Offshore wind farms
+Electricity from falling or flowing water. :: Hydroelectric power
+Energy from heat deep inside the Earth. :: Geothermal energy
+Energy from plants and organic waste. :: Biomass (bioenergy)
+Energy released by splitting heavy atoms. :: Nuclear fission
+The fuel used in most nuclear power stations. :: Uranium
+The process that powers the Sun by joining light atoms. :: Nuclear fusion
+The building that holds the reactor in a nuclear plant. :: Containment building
+Large concrete towers that release steam at many power plants. :: Cooling towers
+The machine that turns a turbine's rotation into electricity. :: Generator
+In most power stations, steam or gas spins this. :: Turbine
+The fuel that produces most of Saudi Arabia's electricity. :: Natural gas and oil
+The national electricity company of Saudi Arabia. :: Saudi Electricity Company (SEC)
+The standard household voltage in Saudi Arabia today. :: 230 V
+A sudden total loss of power over a wide area. :: Blackout
+A planned, rotating cut in power to stop the grid failing. :: Load shedding (rolling blackout)
+A short drop in voltage that makes lights dim. :: Voltage dip (sag)
+A device that keeps a computer running during a power cut. :: UPS (uninterruptible power supply)
+A machine that makes electricity from diesel during outages. :: Backup (diesel) generator
+The device that stores electrical energy chemically. :: Battery
+The battery type used in phones and electric cars. :: Lithium-ion battery
+The cheap battery type used to start most petrol cars. :: Lead-acid battery
+A car that runs only on battery electricity. :: Electric vehicle (EV)
+A car with both an engine and an electric motor. :: Hybrid
+A charging station for electric cars. :: EV charger (charging point)
+The gas that fuel cells combine with oxygen to make electricity. :: Hydrogen
+The only by-product of a hydrogen fuel cell. :: Water
+Hydrogen made using renewable electricity. :: Green hydrogen
+Hydrogen made from natural gas without capturing the CO₂. :: Grey hydrogen
+Hydrogen made from natural gas with the CO₂ captured. :: Blue hydrogen
+Splitting water into hydrogen and oxygen with electricity. :: Electrolysis
+The hours of the day when electricity demand is highest. :: Peak hours
+In Saudi Arabia, electricity demand peaks in this season. :: Summer
+Most summer electricity in Saudi Arabia goes to this. :: Air conditioning
+The measure of how much useful output you get for energy input. :: Efficiency
+The light bulbs that use far less power than old filament bulbs. :: LED bulbs
+The label that shows how energy-efficient an appliance is. :: Energy label (efficiency rating)
+Using less energy to do the same job. :: Energy efficiency
+Making electricity and useful heat at the same time. :: Cogeneration (CHP)
+The meter that measures electricity use and reports it remotely. :: Smart meter
+An electrical grid that uses digital sensors and communication. :: Smart grid
+A small local grid that can run on its own. :: Microgrid
+Producing your own power at home, for example with rooftop solar. :: Distributed generation
+Selling surplus rooftop solar power back to the grid. :: Net metering
+The type of current that comes out of a wall socket. :: Alternating current (AC)
+The mains frequency in Saudi Arabia. :: 60 Hz
+The safety device that cuts power if it detects current leaking to earth. :: RCD (residual current device)
+The green-and-yellow wire in a plug. :: Earth (ground)
+The device that protects equipment from lightning surges. :: Surge protector (arrester)
+The metal rod on top of a building that protects it from lightning. :: Lightning rod (conductor)
+The engine type in most cars, burning petrol. :: Internal combustion engine
+The energy stored in fuel. :: Chemical energy
+The energy of a moving wind or water flow. :: Kinetic energy
+The energy stored in water behind a dam. :: Gravitational potential energy
+Pumping water uphill when power is cheap and releasing it later. :: Pumped hydro storage
+The unit used for crude oil production. :: Barrels (per day)
+The world's largest oil company by production, based in Dhahran. :: Saudi Aramco
+The Saudi Vision 2030 target share of electricity from renewables. :: About 50%
+The Saudi company that builds and runs many solar and water plants worldwide. :: ACWA Power
+The future city in northwest Saudi Arabia planned to run on renewable energy. :: NEOM
+The energy that is lost as heat in wires. :: I²R (resistive) losses
+A wire carrying too much current gets this. :: Hot
+The device that switches off a circuit when too much current flows. :: Circuit breaker
+Power is voltage times this. :: Current
+A device that uses 2 kW for 3 hours uses this much energy. :: 6 kWh
+The fuel with the formula CH₄. :: Methane (natural gas)
+The renewable source that the Saudi climate suits best. :: Solar
+The amount of greenhouse gas from an activity. :: Carbon footprint
+Reaching a balance of no net greenhouse emissions. :: Net zero
+Saudi Arabia's target year for net zero emissions. :: 2060
+The international climate agreement signed in 2015. :: Paris Agreement
+The car that is 'plugged in' to recharge but also has an engine. :: Plug-in hybrid (PHEV)
+Rooftop solar water heaters warm water using this. :: Sunlight (solar thermal energy)
+Saudi electricity bills charge halalas per this unit. :: kWh
+The gas in home cooking cylinders, a mix of propane and butane. :: LPG
+
+## 200
+In a three-phase system, the phases are separated by this angle. :: 120 degrees
+Line voltage in a star system equals phase voltage times this. :: √3
+The power that does useful work, measured in watts. :: Real (active) power
+The power that flows back and forth in inductors and capacitors. :: Reactive power
+Real power divided by apparent power. :: Power factor
+A motor load makes the power factor this. :: Lagging
+Utilities add these to correct a lagging power factor. :: Capacitors (capacitor banks)
+Apparent power squared equals real power squared plus this squared. :: Reactive power
+The triangle relating real, reactive and apparent power. :: Power triangle
+Three-phase power equals √3 times line voltage times line current times this. :: Power factor
+The common transmission voltage levels in Saudi Arabia include 380 kV and this. :: 132 kV (also 230 kV and 115 kV)
+High voltage direct current transmission is abbreviated this. :: HVDC
+HVDC is cheaper than AC over long distances and especially for this. :: Undersea cables
+The device that converts AC to DC. :: Rectifier
+The part of a power line that keeps the conductor away from the tower. :: Insulator
+Insulators on power lines are often made of glass, polymer or this. :: Porcelain
+The extra wire at the top of a transmission tower that shields the line from lightning. :: Shield (earth) wire
+The common overhead conductor made of aluminium strands around a steel core. :: ACSR
+The corona effect on high-voltage lines causes a hum and this. :: Power loss (and radio noise)
+Bundled conductors on high-voltage lines reduce this. :: Corona (and reactance)
+The power plant that runs almost all the time to meet minimum demand. :: Base-load plant
+The power plant that runs only at times of high demand. :: Peaking plant (peaker)
+Open-cycle gas turbines are popular peakers because they do this quickly. :: Start up
+A gas turbine plus a steam turbine using its exhaust heat. :: Combined-cycle plant
+Efficiency of modern combined-cycle plants, roughly. :: About 60%
+Efficiency of a typical coal power plant, roughly. :: About 33 to 40%
+Actual energy produced over a year divided by the maximum possible. :: Capacity factor
+A typical capacity factor for solar PV in Saudi Arabia, roughly. :: About 25 to 30%
+A typical capacity factor for nuclear plants. :: Over 90%
+The cost of electricity averaged over a plant's life. :: Levelised cost of energy (LCOE)
+The unit of LCOE often quoted in tariffs. :: Cents (or halalas) per kWh
+The tracker that turns solar panels to follow the sun from east to west. :: Single-axis tracker
+The amount of solar energy reaching a surface per unit area. :: Irradiance
+The unit of irradiance. :: Watts per square metre (W/m²)
+Standard Test Conditions for solar panels use this irradiance. :: 1,000 W/m²
+Solar cell efficiency drops as this rises. :: Temperature
+Desert dust on solar panels reduces output. This is called this. :: Soiling
+The panel type that collects light on both faces. :: Bifacial panels
+The point on a solar panel's I–V curve where it gives most power. :: Maximum power point
+The electronic method that keeps a panel at its best operating point. :: MPPT (maximum power point tracking)
+The efficiency of typical commercial silicon panels today, roughly. :: About 20 to 23%
+The theoretical maximum efficiency of a single-junction silicon cell, roughly. :: About 29%
+The wind speed at which a turbine starts to produce power. :: Cut-in speed
+The wind speed at which a turbine shuts down to protect itself. :: Cut-out speed
+The limit on the fraction of wind power a turbine can capture. :: Betz limit
+The Betz limit, as a percentage. :: 59.3%
+The housing at the top of a wind turbine tower that holds the generator. :: Nacelle
+Turning the whole nacelle to face the wind. :: Yaw
+Turning the blades to change their angle to the wind. :: Pitch control
+Wind turbines with a vertical rotating shaft. :: Vertical-axis wind turbines
+The energy stored in a battery is often given in this unit. :: Watt-hours (kWh)
+Battery capacity in amp-hours times voltage gives this. :: Energy (watt-hours)
+The percentage of a battery's capacity that is used in one cycle. :: Depth of discharge
+The ratio of charge rate to battery capacity. :: C-rate
+The fraction of a battery's charge that is left. :: State of charge
+The electronics that protect and balance battery cells. :: Battery management system (BMS)
+The dangerous runaway heating of lithium-ion cells. :: Thermal runaway
+The lithium battery chemistry without cobalt, popular for grid storage. :: LFP (lithium iron phosphate)
+Large batteries that store grid energy. :: Battery energy storage system (BESS)
+Storing energy in a fast-spinning wheel. :: Flywheel storage
+Storing energy by compressing air in caverns. :: Compressed air energy storage (CAES)
+A nuclear reactor that uses ordinary water as coolant and moderator. :: Light water reactor
+The two main types of light water reactor. :: PWR and BWR
+The material that slows neutrons in a reactor. :: Moderator
+Rods that absorb neutrons to control a reactor. :: Control rods
+Control rods are often made of boron or this. :: Cadmium (or hafnium)
+The uranium isotope that splits in most reactors. :: Uranium-235
+Natural uranium contains about this much U-235. :: 0.7%
+Raising the U-235 share of uranium. :: Enrichment
+A self-sustaining chain of fission reactions. :: Chain reaction
+The state where each fission causes exactly one more on average. :: Critical
+Heat produced by radioactive decay after a reactor shuts down. :: Decay heat
+The 2011 nuclear accident caused by a tsunami. :: Fukushima Daiichi
+The 1986 nuclear disaster in Ukraine. :: Chernobyl
+The UAE's nuclear power plant, the first in the Arab world. :: Barakah
+The amount of electricity a power plant can produce at full output. :: Installed capacity
+The total power demand on the grid at any moment. :: Load
+The graph of electricity demand through the day. :: Load curve
+The 'duck curve' shows net demand dipping at midday because of this. :: Solar generation
+Keeping grid frequency steady needs supply to match this. :: Demand
+If demand exceeds generation, grid frequency does this. :: Falls
+The spare generation kept ready for sudden outages. :: Spinning reserve
+Starting a grid back up after a total blackout. :: Black start
+The person or centre that balances supply and demand on the grid. :: Grid operator (dispatch centre)
+A fuse or breaker opening only the faulty part of the network. :: Selectivity (discrimination)
+The relay that trips when current exceeds a set value. :: Overcurrent relay
+The relay that compares current going in and out of equipment. :: Differential relay
+The pole-mounted breaker that trips on a fault and then tries to reconnect automatically. :: Recloser
+A fault between two phases. :: Line-to-line fault
+The most common type of fault on overhead lines. :: Single line-to-ground fault
+The heat engine cycle used in steam power stations. :: Rankine cycle
+Fuel energy per kg of a fuel. :: Calorific (heating) value
+The heating value of natural gas, roughly, in MJ/kg. :: About 50 MJ/kg
+Energy per kg stored in a lithium-ion battery, roughly. :: About 0.7 to 1 MJ/kg (200 to 270 Wh/kg)
+Saudi distribution networks at 13.8 kV are at this voltage level. :: Medium voltage
+A tariff that charges different prices at different times of day. :: Time-of-use tariff
+Average load divided by peak load over a period. :: Load factor
+Thermal storage for air conditioning often makes this at night to use during the day. :: Ice (or chilled water)
+A load that draws leading reactive current. :: Capacitive load
+A power factor of 1 means voltage and current are this. :: In phase
+
+## 300
+The per-unit system expresses quantities as fractions of this. :: Base values
+The bus in load flow whose voltage and angle are fixed. :: Slack (swing) bus
+A bus where real power and voltage magnitude are specified. :: PV (generator) bus
+A bus where real and reactive power are specified. :: PQ (load) bus
+The iterative method most used to solve load flow. :: Newton–Raphson method
+The simple iterative load flow method using bus admittances. :: Gauss–Seidel method
+The fast approximate load flow that ignores reactive power and losses. :: DC load flow
+The matrix that relates bus currents to bus voltages. :: Bus admittance matrix (Ybus)
+Real power flow between two buses depends mainly on this difference. :: Voltage angle difference
+Reactive power flow depends mainly on this difference. :: Voltage magnitude difference
+The power transfer across a lossless line equals V1 V2 sin δ divided by this. :: Line reactance (X)
+The maximum power transfer across a line happens at this angle. :: 90 degrees
+The line model used for medium-length lines with half the capacitance at each end. :: Nominal π model
+A transmission line is called short if it is shorter than about this. :: 80 km
+The load at which a line's reactive power produced equals reactive power absorbed. :: Surge impedance loading
+The rise in voltage at the open end of a long, lightly loaded line. :: Ferranti effect
+The device connected to a long line to absorb its excess reactive power. :: Shunt reactor
+Capacitors placed in series with a line to cut its reactance. :: Series compensation
+The resonance that series capacitors can cause with turbine shafts. :: Subsynchronous resonance
+Fast power electronic devices that control power flow on AC lines. :: FACTS devices
+The shunt FACTS device that injects reactive current using a voltage-source converter. :: STATCOM
+The older shunt FACTS device using thyristor-switched reactors and capacitors. :: SVC (static VAR compensator)
+The FACTS device that controls both real and reactive power flow on a line. :: UPFC (unified power flow controller)
+The method that turns an unbalanced three-phase system into three balanced sets. :: Symmetrical components
+The three sequence networks. :: Positive, negative and zero sequence
+For a single line-to-ground fault, the three sequence networks are connected like this. :: In series
+The fault type that is usually most severe but least common. :: Three-phase (balanced) fault
+The impedance of a generator just after a fault. :: Subtransient reactance
+The rating of a breaker by the current it can interrupt. :: Breaking (interrupting) capacity
+The arc-quenching gas used in high-voltage circuit breakers, with a very high global warming potential. :: Sulfur hexafluoride (SF₆)
+Breakers for medium voltage often quench the arc in this. :: Vacuum
+The relay that measures impedance to find how far away a fault is. :: Distance relay
+The distance relay zone that covers about 80% of the line instantly. :: Zone 1
+The relay curve that trips faster for bigger currents. :: Inverse time characteristic
+Current transformers step down this for relays and meters. :: Current
+The danger when you open the secondary of a loaded current transformer. :: Very high voltage
+The relay that trips when frequency falls too low and sheds load. :: Underfrequency relay
+The equation describing a generator rotor's acceleration after a disturbance. :: Swing equation
+The constant H in the swing equation measures this. :: Inertia (stored kinetic energy per VA)
+The graphical method for checking transient stability of one machine. :: Equal area criterion
+The longest time a fault can stay before the generator loses synchronism. :: Critical clearing time
+Losing synchronism is also called this. :: Pole slipping
+The control that adjusts turbine power with frequency. :: Governor (speed) control
+The governor characteristic that shares load between generators by frequency. :: Droop
+A typical governor droop setting. :: 4 to 5%
+The control that adjusts generator field current to hold voltage. :: Excitation (AVR) control
+The supplementary control added to the exciter to damp oscillations. :: Power system stabiliser (PSS)
+The control that returns frequency to normal after the governor response. :: Automatic generation control (secondary control)
+The slow oscillations between groups of generators in different areas. :: Inter-area oscillations
+The control area signal that combines frequency and tie-line error. :: Area control error (ACE)
+The problem where voltage collapses because a system cannot supply enough reactive power. :: Voltage instability (voltage collapse)
+The 'P–V curve' used in voltage stability is also called this. :: Nose curve
+Wind and solar plants connect through inverters, so the grid loses this. :: Inertia
+Inverters that set their own voltage and frequency like a generator. :: Grid-forming inverters
+The ability of renewable plants to stay connected during a voltage dip. :: Fault ride-through (low voltage ride-through)
+The rate of change of frequency, important in low-inertia grids. :: RoCoF
+The problem of current and voltage waveforms being distorted by non-linear loads. :: Harmonics
+The measure of harmonic distortion, as a percentage. :: THD (total harmonic distortion)
+The harmonic that adds up in the neutral wire of three-phase systems. :: Third (triplen) harmonics
+The transformer connection that traps triplen harmonics. :: Delta winding
+Rapid voltage fluctuation that makes lights visibly flicker. :: Flicker
+The power semiconductor most used in modern inverters and drives. :: IGBT
+The wide-bandgap semiconductors replacing silicon in EV inverters. :: Silicon carbide (and gallium nitride)
+The converter used in modern HVDC with many small submodules. :: Modular multilevel converter (MMC)
+The older HVDC converter type using thyristors. :: Line-commutated converter (LCC)
+An HVDC link where both converters are in the same substation. :: Back-to-back HVDC
+The device that changes motor speed by changing supply frequency. :: Variable frequency drive (VFD)
+Halving a fan's speed with a VFD cuts its power to about this. :: One eighth
+The DC–DC converter that lowers voltage. :: Buck converter
+The DC–DC converter that raises voltage. :: Boost converter
+The PV cell type that layers multiple materials to beat single-junction limits. :: Tandem (multi-junction) cells
+The crystal family promising cheap, efficient thin-film solar cells. :: Perovskites
+The solar technology that uses a field of mirrors to focus on a central tower. :: Solar power tower (CSP)
+CSP plants store heat for night-time generation in this. :: Molten salt
+The device that measures global horizontal irradiance. :: Pyranometer
+The solar resource measure for direct beam sunlight. :: DNI (direct normal irradiance)
+The large curved mirror troughs used in many CSP plants. :: Parabolic troughs
+The wind speed distribution usually assumed for wind resource studies. :: Weibull distribution
+Power in the wind is proportional to swept area times wind speed to this power. :: Cube
+Wind turbine wakes reduce the output of turbines behind them. This is called this. :: Wake effect (wake losses)
+The wind generator type that uses a doubly fed induction machine with a partial converter. :: Type 3 (DFIG)
+The ratio of blade tip speed to wind speed. :: Tip speed ratio
+The electrolyser type using a solid polymer membrane. :: PEM electrolyser
+The cheapest, most established electrolyser type. :: Alkaline electrolyser
+Hydrogen is often shipped as this compound, which is easier to liquefy. :: Ammonia
+The process that makes ammonia from hydrogen and nitrogen. :: Haber–Bosch process
+The fuel cell type used in cars, with a polymer membrane. :: PEM fuel cell
+The high-temperature fuel cell with a ceramic electrolyte. :: Solid oxide fuel cell (SOFC)
+Capturing CO₂ from power plants and storing it underground. :: Carbon capture and storage (CCS)
+Using captured CO₂, as for enhanced oil recovery. :: Carbon capture, utilisation and storage (CCUS)
+Pumping CO₂ into oil fields to push more oil out. :: Enhanced oil recovery (EOR)
+The reactor type with water at high pressure so it does not boil. :: Pressurised water reactor (PWR)
+The main pressure in a PWR primary loop, roughly. :: About 155 bar (15.5 MPa)
+The small factory-built reactors many countries are developing. :: Small modular reactors (SMRs)
+The tokamak in France being built to show fusion power. :: ITER
+The temperature needed for deuterium–tritium fusion, roughly. :: About 150 million °C
+The world's largest power station by capacity, in China. :: Three Gorges Dam
+The Dubai solar park where ACWA Power built the world's tallest solar power tower. :: Mohammed bin Rashid Al Maktoum Solar Park
+Saudi Arabia's grid operator, a subsidiary of SEC since 2012. :: National Grid SA
+The Saudi company that buys power and runs the National Renewable Energy Program tenders. :: SPPC (Saudi Power Procurement Company)
+
+## 400
+The matrix of partial derivatives used in the Newton–Raphson load flow. :: Jacobian
+The decoupled load flow uses the fact that P depends mainly on angles and Q mainly on this. :: Voltage magnitudes
+The fast decoupled load flow was published by Stott and this person in 1974. :: Alsaç
+The optimisation that finds the cheapest generation schedule meeting network limits. :: Optimal power flow (OPF)
+The condition for economic dispatch: all generators run at equal this. :: Incremental cost
+The penalty factors in economic dispatch account for this. :: Transmission losses
+The formula for losses using B coefficients is named after this engineer. :: Kron
+The daily decision of which generators to turn on and off. :: Unit commitment
+The price at a bus that includes energy, congestion and losses. :: Locational marginal price (LMP)
+The state estimator in a control centre finds the most likely state using this method. :: Weighted least squares
+The devices that measure synchronised voltage phasors using GPS timing. :: PMUs (phasor measurement units)
+The control system that gathers data and sends commands across a grid. :: SCADA
+The software suite in grid control centres that includes state estimation and contingency analysis. :: EMS (energy management system)
+The planning rule that the grid must survive the loss of any one element. :: N−1 criterion
+The impedance of a transmission line per km is set by its geometric mean radius and this. :: Geometric mean distance
+Swapping conductor positions along a line to balance its impedances. :: Transposition
+The ABCD parameters of a line relate sending-end voltage and current to these. :: Receiving-end voltage and current
+The characteristic impedance of a lossless line equals √(L/C). It is called this. :: Surge impedance
+The surge impedance of a typical overhead line, roughly. :: About 300 to 400 Ω
+The fast-rising voltage waves caused by lightning or switching. :: Travelling waves (surges)
+The wave reflection coefficient at an open-circuit line end. :: +1
+The insulation coordination level that equipment must withstand from lightning. :: Basic insulation level (BIL)
+The standard lightning impulse waveform. :: 1.2/50 μs
+The device using metal oxide discs that clamps overvoltages. :: Surge arrester (MOV arrester)
+The earthing method that connects a transformer neutral straight to earth. :: Solid earthing
+The grounding method that limits fault current using a coil tuned to cancel line capacitance. :: Petersen coil (resonant earthing)
+The danger near a tower where the ground potential varies over a stride. :: Step voltage
+The voltage between a grounded structure a person touches and their feet. :: Touch voltage
+The IEEE standard for substation grounding safety. :: IEEE 80
+The relay scheme that compares currents at both ends of a line through communications. :: Line differential protection
+The scheme that lets a distance relay trip faster using a signal from the far end. :: Pilot (teleprotection) scheme
+The transformer inrush current is rich in this harmonic, used to block differential trips. :: Second harmonic
+Transformer differential relays use this to handle CT mismatch and tap changes. :: Percentage (biased) restraint
+The relay scheme that trips the breakers around a breaker that failed to open. :: Breaker failure protection
+The IEC standard for substation automation communication. :: IEC 61850
+The fast peer-to-peer messages in IEC 61850. :: GOOSE messages
+The 2003 blackout that hit 50 million people in the US and Canada began in this state. :: Ohio
+The software bug in the 2003 blackout stopped this from working in a control room. :: Alarm system
+The 2019 blackout in Great Britain began with a lightning strike and the trips of a gas plant and this offshore wind farm. :: Hornsea One
+The 2021 Texas power crisis was triggered by this. :: Winter storm (Uri) and freezing equipment
+The Saudi interconnection that will link the Kingdom's grid to Egypt via HVDC. :: Saudi–Egypt HVDC interconnection
+The rating of the Saudi–Egypt HVDC link, roughly. :: 3,000 MW
+The organisation that links the electricity grids of the six Gulf states. :: GCCIA (GCC Interconnection Authority)
+The control method for inverters that copies a synchronous machine. :: Virtual synchronous machine (synthetic inertia)
+The phase-locked loop in grid-following inverters tracks this. :: Grid voltage phase (angle)
+Inverter-based resources need a stiff grid, measured by this ratio. :: Short circuit ratio (SCR)
+The control in a VFD that controls motor flux and torque separately. :: Field-oriented (vector) control
+The control that directly selects inverter switching states to control torque. :: Direct torque control
+The modulation that compares a sine wave with a triangle to switch an inverter. :: Sinusoidal PWM
+The modulation technique that uses voltage space vectors. :: Space vector PWM
+The switching technique that turns devices on at zero voltage to cut losses. :: Soft switching (ZVS)
+The isolated DC–DC converter at the heart of solid-state transformers. :: Dual active bridge
+The solar cell loss when photons carry more energy than the band gap and the excess becomes heat. :: Thermalisation loss
+The band gap of silicon, roughly. :: 1.12 eV
+The ratio of maximum power to Voc times Isc. :: Fill factor
+The solar cell architecture with a passivated rear contact that is now standard. :: PERC
+The newer cell technology with a thin tunnel oxide on the back. :: TOPCon
+The cell type combining crystalline silicon and thin amorphous silicon layers. :: Heterojunction (HJT)
+The tilt angle of fixed solar panels for best yearly output is roughly equal to this. :: Latitude
+Panel output loses about this percentage per °C above 25 °C, for silicon. :: About 0.3 to 0.4%
+The angle between the sun and the vertical. :: Zenith angle
+The ratio of the path length of sunlight through air to the shortest path. :: Air mass
+Standard Test Conditions use this air mass. :: AM1.5
+The wind turbine aerodynamic theory that combines momentum and blade element analysis. :: Blade element momentum (BEM) theory
+The wind turbine's maximum power coefficient in theory. :: 16/27 (Betz)
+The wind speed variation with height is often modelled with a log law or this. :: Power law (wind shear exponent)
+The offshore wind foundation type for deep water. :: Floating foundation
+The world's largest wind turbines now exceed this rated power. :: About 20 MW (and up)
+The battery degradation that happens even when unused. :: Calendar ageing
+The common model of a battery as a voltage source with RC pairs. :: Equivalent circuit model (Thevenin model)
+The lithium plating risk rises when charging at low this. :: Temperature
+The emerging battery type with a solid electrolyte. :: Solid-state battery
+Batteries that store energy in two liquid electrolytes in tanks. :: Flow batteries
+The common flow battery chemistry using one metal in four oxidation states. :: Vanadium redox
+The thermodynamic minimum voltage to split water at 25 °C. :: 1.23 V
+The energy needed to make 1 kg of hydrogen by electrolysis, roughly. :: About 50 to 55 kWh
+Hydrogen's higher heating value per kg, roughly. :: About 142 MJ/kg (39.4 kWh/kg)
+The NEOM green hydrogen project aims to make this much hydrogen per day. :: About 600 tonnes
+The partner companies in the NEOM Green Hydrogen Company, besides NEOM. :: ACWA Power and Air Products
+The ratio of neutrons in one generation to the previous. :: Multiplication factor (k)
+The tiny fraction of neutrons released later that make reactors controllable. :: Delayed neutrons
+The reactor poison that builds up after shutdown and can stop a restart. :: Xenon-135
+The 'four-factor formula' gives k for an infinite reactor. One factor is the resonance escape probability. Name another. :: Fast fission factor (or thermal utilisation, or reproduction factor)
+The reactor type that makes more fuel than it uses. :: Breeder reactor
+The fuel cycle that uses thorium to breed uranium-233. :: Thorium fuel cycle
+The amount of energy from fission of one U-235 atom, roughly. :: About 200 MeV
+The fusion approach that uses lasers on a fuel pellet. :: Inertial confinement fusion
+The US lab that achieved fusion ignition (gain above 1) in December 2022. :: National Ignition Facility (Lawrence Livermore)
+ANSI protective device number 87 means this. :: Differential protection
+ANSI protective device number 50 means this. :: Instantaneous overcurrent
+ANSI protective device number 21 means this. :: Distance protection
+Long AC submarine cables are limited by this current, one reason HVDC is used instead. :: Charging (capacitive) current
+The transformer device that changes the turns ratio while carrying load to regulate voltage. :: On-load tap changer
+The loss of synchronism within seconds after a large fault. :: Transient (rotor angle) instability
+The long-term contract to buy a plant's power at a set price. :: Power purchase agreement (PPA)
+The curve of a year's hourly loads sorted from highest to lowest. :: Load duration curve
+The reliability index for average outage minutes per customer per year. :: SAIDI
+The reliability index for the average number of interruptions per customer per year. :: SAIFI
+The planning measure for expected hours per year when load exceeds available generation. :: LOLE (loss of load expectation)
+A wind turbine's power curve becomes flat above this wind speed. :: Rated wind speed
+
+## 500
+The year Edison opened the Pearl Street power station in New York. :: 1882
+Pearl Street station supplied this kind of current. :: Direct current
+The rivalry between Edison and Westinghouse over DC and AC. :: War of the currents
+The 1893 fair lit by Westinghouse with AC, a turning point in the war. :: World's Columbian Exposition (Chicago)
+The first large AC hydroelectric plant, opened in 1895 at this famous site. :: Niagara Falls
+The 1891 long-distance three-phase transmission from Lauffen to this German city. :: Frankfurt
+The Russian-born engineer who designed the 1891 Lauffen–Frankfurt three-phase system. :: Mikhail Dolivo-Dobrovolsky
+The member of the Hungarian ZBD team credited with coining the word 'transformer'. :: Ottó Bláthy
+The British engineer whose 1889 Deptford power station pioneered high-voltage AC. :: Sebastian Ziani de Ferranti
+The French physicist who discovered the photovoltaic effect in 1839, at age 19. :: Edmond Becquerel
+The Bell Labs trio who made the first practical silicon solar cell in 1954. :: Chapin, Fuller and Pearson
+The first satellite powered by solar cells, launched in 1958. :: Vanguard 1
+The Scottish engineer who built the first electricity-generating wind turbine in 1887. :: James Blyth
+The American who built a large automatic wind turbine in Cleveland in 1888. :: Charles F. Brush
+The Danish scientist who pioneered wind power research in the 1890s. :: Poul la Cour
+The German physicist who derived the maximum wind turbine efficiency in 1919. :: Albert Betz
+The 1941 1.25 MW wind turbine on a Vermont hill, the first megawatt-scale turbine. :: Smith–Putnam wind turbine
+The Welsh scientist who invented the fuel cell in 1839. :: William Grove
+The NASA programmes that used fuel cells for power in the 1960s. :: Gemini and Apollo
+The Italian physicist who invented the first battery, the voltaic pile, in 1800. :: Alessandro Volta
+The three scientists who won the 2019 Chemistry Nobel for lithium-ion batteries. :: Goodenough, Whittingham and Yoshino
+The Japanese company that first sold lithium-ion batteries in 1991. :: Sony
+The Italian physicist who led the first man-made nuclear chain reaction in 1942. :: Enrico Fermi
+The first nuclear reactor, built under the stands of a Chicago stadium. :: Chicago Pile-1
+The world's first commercial-scale nuclear power station, opened in 1956 in England. :: Calder Hall
+The 1979 US nuclear accident in Pennsylvania. :: Three Mile Island
+The US admiral called the father of the nuclear navy, whose PWR design spread to power plants. :: Hyman Rickover
+The country that gets about 70% of its electricity from nuclear. :: France
+The Austrian-born physicist who, with Otto Frisch, explained fission in 1939. :: Lise Meitner
+The German chemists who discovered nuclear fission in 1938. :: Otto Hahn and Fritz Strassmann
+The word tokamak comes from a Russian phrase meaning this. :: Toroidal chamber with magnetic coils
+The regional Saudi utilities merged into the Saudi Electricity Company in 2000 were known by this acronym. :: SCECO
+The first Saudi utility-scale solar PV plant under the National Renewable Energy Program. :: Sakaka
+The 1.5 GW Saudi solar plant whose tariff was about 1.24 US cents per kWh. :: Sudair Solar PV
+The Saudi solar project that set a world record low tariff of about 1.04 US cents per kWh in 2021. :: Shuaibah PV (Shuaibah 2)
+The 'K.A.' in K.A.CARE, the Saudi atomic and renewable energy body founded in 2010, stands for this. :: King Abdullah
+The UAE nuclear plant's reactors are this Korean design. :: APR-1400
+The UAE's large solar park near Abu Dhabi that set records in 2019. :: Noor Abu Dhabi
+The Moroccan CSP complex near Ouarzazate. :: Noor Ouarzazate
+The company that built Australia's Hornsdale Power Reserve, the first grid 'big battery', in 2017. :: Tesla
+The Red Sea Global project powered entirely by renewables with one of the world's largest battery systems. :: The Red Sea Project (Red Sea Global)
+The battery size at the Red Sea Project, roughly. :: About 1.3 GWh
+The 2016 South Australian blackout spread when storms caused faults and these plants tripped on protection settings. :: Wind farms
+The 1965 Northeast blackout began at a relay in this Canadian power station. :: Sir Adam Beck (Ontario)
+The 1977 New York City blackout was caused by this. :: Lightning strikes
+The Indian blackout of 2012 affected about this many people, the largest ever. :: Over 600 million
+The 1999 Brazil blackout was caused by lightning at this substation. :: Bauru
+The US engineer who invented the symmetrical components method in 1918. :: Charles LeGeyt Fortescue
+The General Electric engineer who invented a graphical transmission line calculator and the Clarke transformation. :: Edith Clarke
+Edith Clarke was the first woman to do this at MIT. :: Earn an electrical engineering degree (MS, 1919)
+The GE engineer nicknamed 'the wizard of Schenectady'. :: Charles Proteus Steinmetz
+Steinmetz is famous for introducing this method of AC analysis in 1893. :: Complex numbers (phasors)
+The Tesla patent purchase in 1888 was made by this industrialist. :: George Westinghouse
+The engineer who developed the first practical HVDC link in 1954 to Gotland. :: Uno Lamm
+The HVDC link from Gotland to the Swedish mainland opened in this year. :: 1954
+The Itaipu HVDC links carry power from a dam shared by Brazil and this country. :: Paraguay
+The Grand Coulee dam is on this river. :: Columbia River
+The Aswan High Dam is on this river. :: Nile
+The Grand Ethiopian Renaissance Dam is on this river. :: Blue Nile
+The Chinese city whose Three Gorges Dam is nearby. :: Yichang
+The Hoover Dam was completed in this year. :: 1936
+The English scientist who discovered electromagnetic induction in 1831. :: Michael Faraday
+Faraday's spinning copper disc of 1831 was the first of these machines. :: Electric generator (dynamo)
+The German engineer who announced the self-excited dynamo in 1866 to 1867. :: Werner von Siemens
+The Belgian engineer whose 1871 ring-armature dynamo was the first commercially successful one. :: Zénobe Gramme
+The British industrialist whose house Cragside was the first lit by hydroelectricity, in 1878. :: William Armstrong
+The English town that had the world's first public electricity supply, in 1881. :: Godalming
+London's Holborn Viaduct power station of 1882 was built by this inventor's company. :: Thomas Edison
+The American engineer who demonstrated an AC transformer system at Great Barrington in 1886. :: William Stanley
+The inventor whose name is the SI unit of magnetic flux density. :: Nikola Tesla
+James Watt defined one horsepower as this many foot-pounds per minute. :: 33,000
+Einstein's 1921 Nobel Prize was for explaining this effect, key to solar cells. :: Photoelectric effect
+The 1973 event that quadrupled oil prices and sparked worldwide energy research. :: Oil embargo (1973 oil crisis)
+The well that struck oil in commercial quantities in Saudi Arabia in 1938. :: Dammam No. 7 (Prosperity Well)
+The American geologist credited with the Dammam No. 7 discovery. :: Max Steineke
+Saudi Arabia's Master Gas System, begun in the 1970s, captures gas that was previously this. :: Flared (burned off)
+The world's largest offshore oil field, in Saudi waters. :: Safaniya
+The geologist who predicted in 1956 that US oil production would peak around 1970. :: M. King Hubbert
+The German engineer who patented the compression-ignition engine in the 1890s. :: Rudolf Diesel
+The Chinese company that is the world's largest maker of EV batteries. :: CATL
+The Saudi electric car brand formed by PIF and Foxconn. :: Ceer
+The country that gets nearly all its electricity from hydro and geothermal power. :: Iceland
+The Italian town where geothermal steam first generated electricity, in 1904. :: Larderello
+The world's largest hydroelectric plant by capacity before Three Gorges. :: Itaipu
+The physicist whose 1905 equation E = mc² explains where nuclear energy comes from. :: Albert Einstein
+The US president who gave the 'Atoms for Peace' speech in 1953. :: Dwight D. Eisenhower
+The Soviet reactor type used at Chernobyl. :: RBMK
+The Oxfordshire tokamak that set fusion energy records before closing in 2023. :: JET (Joint European Torus)
+The Swiss-Swedish company formed in 1988 by merging ASEA and Brown Boveri. :: ABB
+The Australian university whose researchers invented the PERC solar cell in 1983. :: University of New South Wales (UNSW)
+The Australian engineer called the father of modern photovoltaics, who led the PERC work. :: Martin Green
+The 2014 Nobel Prize in Physics was for inventing this energy-saving light source. :: Blue LED
+The Westinghouse engineer who invented the first practical AC electricity meter in 1888. :: Oliver Shallenberger
+Saudi Arabia's Jafurah field is this kind of gas resource. :: Unconventional (shale) gas
+The 2023 UN climate summit, COP28, was held in this city. :: Dubai
+The Saudi industrial city on the Gulf with huge power and desalination plants such as Marafiq's. :: Jubail
+The Saudi Aramco plant at Abqaiq, attacked in 2019, mainly does this to crude oil. :: Processes (stabilises) it
+The Saudi Green Initiative was launched in this year. :: 2021
+Ghawar, the world's largest conventional oil field, was discovered in this year. :: 1948
+The Swedish inventor of the nickel–cadmium battery in 1899. :: Waldemar Jungner

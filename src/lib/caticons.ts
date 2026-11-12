@@ -115,6 +115,8 @@ const GLYPHS: Record<string, () => string> = {
   civil: () => `<path d="M12 42V9.5M17 42V9.5M12 14l5 5-5 5 5 5-5 5 5 5M5 9.5h37M14.5 3.5L12 9.5M14.5 3.5L17 9.5M14.5 3.5L41 9.5M7 42h15" stroke-linejoin="round"/><rect x="5" y="9.5" width="5" height="4.5" rx=".5"/><path d="M35 9.5v14"/><rect x="30" y="23.5" width="10" height="7.5" rx="1"/>`,
   math: () => `<path d="M24.5 7c-4.5-2-8.2.2-8.7 5.5L13.2 35c-.6 5.3-4.2 7.5-8.7 5.5"/><path d="M22 26c2.2-6 4.4-6 6.6 0s4.4 6 6.6 0 4.4-6 6.6 0"/><path d="M21 33.5h21" stroke-width="1.6" opacity=".55"/>`,
   // CCES
+  micro: () => `<rect x="13" y="13" width="22" height="22" rx="2.5"/><rect x="19" y="19" width="10" height="10" rx="1" stroke-width="1.6"/>${dot(16.5, 16.5, 2.6)}<path d="M18 13V6.5M24 13V6.5M30 13V6.5M18 35v6.5M24 35v6.5M30 35v6.5M13 18H6.5M13 24H6.5M13 30H6.5M35 18h6.5M35 24h6.5M35 30h6.5"/>`,
+  logicdesign: () => `<path d="M4 20h5v-9h8v9h8v-9h8v9h8v-9h3" stroke-linejoin="round"/><path d="M4 38h9v-9h12v9h12v-9h7" stroke-linejoin="round"/><path d="M9 6v36M33 6v36" stroke-width="1.4" stroke-dasharray="2 2.6" opacity=".5"/>`,
   code: () => `<path d="M16 13L6 24l10 11M32 13l10 11-10 11M27.5 8l-7 32" stroke-linejoin="round"/>`,
   dsa: tree,
   databases: () => `<ellipse cx="24" cy="10.5" rx="14" ry="5"/><path d="M10 10.5v27c0 2.8 6.3 5 14 5s14-2.2 14-5v-27M10 19.5c0 2.8 6.3 5 14 5s14-2.2 14-5M10 28.5c0 2.8 6.3 5 14 5s14-2.2 14-5"/>`,

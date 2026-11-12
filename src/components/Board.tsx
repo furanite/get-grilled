@@ -34,6 +34,7 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
   const [open, setOpen] = useState<Open | null>(null)
   const [intro] = useState(() => game.used.length === 0)
   const [adjusting, setAdjusting] = useState(false)
+  const [confirmEnd, setConfirmEnd] = useState(false)
   const [adjustLog, setAdjustLog] = useState<Adjustment[]>([])
   const boardRef = useRef<HTMLDivElement>(null)
   const cols = game.cats.length
@@ -106,9 +107,21 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
           <button className="ghost" onClick={() => setAdjusting(true)} disabled={!!open} data-testid="adjust-open">
             {t.adjust}
           </button>
-          <button className="ghost" onClick={onEnd} data-testid="end">
-            {t.endGame}
-          </button>
+          {confirmEnd ? (
+            <span className="end-confirm" role="group" aria-label={t.endGame}>
+              <span className="end-q">{t.endConfirm}</span>
+              <button className="btn bad" onClick={onEnd} data-testid="end-confirm" autoFocus>
+                {t.endYes}
+              </button>
+              <button className="ghost" onClick={() => setConfirmEnd(false)}>
+                {t.cancel}
+              </button>
+            </span>
+          ) : (
+            <button className="ghost" onClick={() => setConfirmEnd(true)} disabled={!!open} data-testid="end">
+              {t.endGame}
+            </button>
+          )}
         </div>
       </div>
       {adjusting &&

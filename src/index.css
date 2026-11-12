@@ -495,3 +495,6 @@ textarea.input{resize:vertical;min-height:44px}
 .cat-pick{padding-inline-start:60px}
 .cat-pick .ci{position:absolute;inset-inline-start:14px;top:50%;translate:0 -50%;width:34px}
 .board .cat .ci{width:2.1em;margin-bottom:2px}
+/* End game asks first */
+.end-confirm{display:inline-flex;flex-wrap:wrap;align-items:center;gap:8px;padding:4px 6px 4px 12px;border-radius:999px;border:1px solid color-mix(in oklab,var(--accent) 45%,transparent);background:color-mix(in oklab,var(--bg2) 70%,transparent);animation:fadeIn .25s var(--ease) both}
+.end-q{font-size:13px}
