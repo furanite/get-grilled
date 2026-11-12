@@ -1,5 +1,6 @@
 import type { ThemeId } from './types'
 import { ISLAMIC_SET } from './edition'
+import { islamicFx, suspense as makeSuspense, type Kit } from './sound-isl'
 
 /**
  * Every sound is made in the browser with Web Audio: no audio files to download or license.
@@ -59,6 +60,7 @@ export function setSoundEnabled(on: boolean) {
   enabled = on
   if (!on) {
     stopTune()
+    stopSuspense(0.1)
     pendingTune = null
   }
 }
@@ -308,4 +310,47 @@ const fx = {
   },
 }
 
-export const sfx = fx
+/** Where the Islamic sounds play, once audio is ready. */
+export function soundKit(): Kit | null {
+  const c = ready()
+  return c ? { c, out: master!, verb } : null
+}
+const withKit = (f: (k: Kit) => void) => () => {
+  const k = soundKit()
+  if (k) f(k)
+}
+
+let suspenseNow: { stop: (fade?: number) => void } | null = null
+/** A quiet, quickening heartbeat on the daff while a clue is open (Islamic site only). */
+export function suspense() {
+  if (!ISLAMIC_SET) return
+  stopSuspense(0.1)
+  const k = soundKit()
+  if (k) suspenseNow = makeSuspense(k)
+}
+export function stopSuspense(fade = 0.25) {
+  suspenseNow?.stop(fade)
+  suspenseNow = null
+}
+
+/** The Islamic site: breeze, local birds and the daff in place of the instruments. */
+const islamic: typeof fx = {
+  open: withKit(islamicFx.open),
+  golden: withKit(islamicFx.golden),
+  reveal: () => {
+    stopSuspense(0.15)
+    withKit(islamicFx.reveal)()
+  },
+  right: withKit(islamicFx.right),
+  wrong: withKit(islamicFx.wrong),
+  tick: (final = false) => withKit((k) => islamicFx.tick(k, final))(),
+  timeUp: withKit(islamicFx.timeUp),
+  soft: withKit(islamicFx.soft),
+  start: () => {
+    stopTune()
+    withKit(islamicFx.start)()
+  },
+  win: withKit(islamicFx.win),
+}
+
+export const sfx = ISLAMIC_SET ? islamic : fx

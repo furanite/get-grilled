@@ -13,7 +13,7 @@ import { CONSENT_TEXT } from '../lib/legal'
 import { HOST_EDITION, type Live } from '../lib/edition'
 import { diagramSrc } from '../lib/diagram'
 import { GameClock, TimerBar, type Clock } from './Timer'
-import { sfx } from '../lib/sound'
+import { sfx, stopSuspense, suspense } from '../lib/sound'
 
 interface Props {
   t: Strings
@@ -279,6 +279,16 @@ function ClueCard({ t, lang, game, open, onJudge, onClose, onState, timeUp }: Ca
     const id = setTimeout(() => setClock({ start: Date.now(), total: timerSecs }), 650)
     return () => clearTimeout(id)
   }, [timerSecs])
+
+  // A quiet heartbeat on the daff until the answer is shown (Islamic site only).
+  useEffect(() => {
+    if (revealed) return
+    const id = setTimeout(suspense, 700)
+    return () => {
+      clearTimeout(id)
+      stopSuspense()
+    }
+  }, [revealed])
 
   const stopTimer = () => setClock((c) => (c && c.stoppedAt === undefined ? { ...c, stoppedAt: Math.min(Date.now(), c.start + c.total * 1000) } : c))
 
