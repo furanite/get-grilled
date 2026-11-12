@@ -132,7 +132,7 @@ The inventor of the first practical steam-powered locomotive on rails, in 1804. 
 The inventor of the spinning jenny, a machine for spinning thread. :: James Hargreaves
 The American who invented the cotton gin. :: Eli Whitney
 The inventor of the electric telegraph code of dots and dashes. :: Samuel Morse
-The first message sent by Morse's telegraph in 1844. :: "What hath God wrought"
+The year Samuel Morse sent the first long-distance telegraph message, from Washington to Baltimore. :: 1844
 The inventor of the phonograph, which recorded sound on a cylinder. :: Thomas Edison
 The German-American inventor of the gramophone using flat discs. :: Emile Berliner
 The Scottish inventor who showed the first working television in 1926. :: John Logie Baird
@@ -157,7 +157,7 @@ The Finnish engineer who created the Linux kernel. :: Linus Torvalds
 The engineer who made the first handheld mobile phone call in 1973 at Motorola. :: Martin Cooper
 The company that made the first commercial mobile phone, the DynaTAC. :: Motorola
 The Canadian smartphone with a physical keyboard, popular in the 2000s. :: BlackBerry
-The first text message, sent in 1992, said this. :: Merry Christmas
+The year the first SMS text message was sent. :: 1992
 The inventor of the world's first practical light bulb in Britain, a rival of Edison. :: Joseph Swan
 The inventor of the alternating current induction motor. :: Nikola Tesla
 The inventor of the safety lamp for miners. :: Humphry Davy
