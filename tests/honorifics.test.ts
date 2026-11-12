@@ -4,8 +4,8 @@ import { join } from 'node:path'
 
 // The owner's rule: every mention of a blessed religious figure carries its honorific.
 // The Prophet: "our Beloved and our master, the Prophet Muhammad ﷺ" (Arabic: حبيبنا وسيدنا النبي محمد ﷺ).
-// Other prophets: peace be upon him (عليه السلام). Companions: may Allah be pleased with him/her (رضي الله عنه/عنها).
-// Righteous scholars and rulers: may Allah have mercy on him (رحمه الله).
+// The owner asked for the signs, in English and Arabic alike (shown by the bundled honorifics font):
+// other prophets ﵇ (plural ﵈), Companions ﵁ / ﵂ (plural ﵃), righteous scholars and rulers ﵀ (plural ﵏).
 const dir = join(__dirname, '..', 'questions')
 const lines = (sub: string) =>
   readdirSync(join(dir, sub))
@@ -24,7 +24,7 @@ describe('honorifics for blessed religious figures', () => {
       if (!/\bProphet\b/.test(text) || /"The Prophet"/.test(text)) continue
       const others = text.replace(/our Beloved and our master, the Prophet Muhammad ﷺ/g, '')
       // Any other "Prophet" must name another prophet with "peace be upon him"
-      if (/\bProphet\b/.test(others)) expect(/Prophet (Sulayman|Shu'ayb)[^.]*peace be upon him/.test(others), at).toBe(true)
+      if (/\bProphet\b/.test(others)) expect(/Prophet (Sulayman|Shu'ayb) [﵇﵈]/.test(others), at).toBe(true)
     }
   })
   it('the Prophet is always "حبيبنا وسيدنا النبي محمد ﷺ" in Arabic', () => {
@@ -36,21 +36,24 @@ describe('honorifics for blessed religious figures', () => {
       const rest = text.replace(/حبيبنا وسيدنا النبي محمد ﷺ/g, '').replace(/"النبي"/g, '')
       for (const m of rest.matchAll(/(^|[\s(])النبي(?=[\s.،]|$)/g)) {
         const after = rest.slice((m.index ?? 0) + m[0].length)
-        expect(/^ (سليمان|شعيب) عليه السلام/.test(after), at).toBe(true)
+        expect(/^ (سليمان|شعيب) [﵇﵈]/.test(after), at).toBe(true)
       }
     }
   })
-  it('Companions carry "may Allah be pleased with him/her" (رضي الله عنه/عنها)', () => {
+  it('Companions carry ﵁ / ﵂ / ﵃', () => {
     for (const { at, text } of en) for (const n of COMPANIONS_EN) for (const m of text.matchAll(new RegExp(esc(n) + "[\\w' -]*", 'g'))) {
       if (n === 'Abu Bakr' && !/^Abu Bakr( al-Siddiq)?\b/.test(m[0])) continue
-      expect(/^ \(may Allah be pleased with (him|her)\)/.test(text.slice((m.index ?? 0) + m[0].length).replace(/^(?= \()/, '')) || /\(may Allah be pleased with (him|her)\)/.test(text.slice(m.index ?? 0, (m.index ?? 0) + m[0].length + 34)), `${at}: ${n}`).toBe(true)
+      expect(/[﵁﵂﵃]/.test(text.slice(m.index ?? 0, (m.index ?? 0) + m[0].length + 3)), `${at}: ${n}`).toBe(true)
     }
     for (const { at, text } of ar) for (const n of COMPANIONS_AR) for (const m of text.matchAll(new RegExp(esc(n), 'g'))) {
-      expect(/^ رضي الله (عنه|عنها)/.test(text.slice((m.index ?? 0) + n.length)), `${at}: ${n}`).toBe(true)
+      expect(/^ [﵁﵂﵃]/.test(text.slice((m.index ?? 0) + n.length)), `${at}: ${n}`).toBe(true)
     }
   })
-  it('Umar ibn Abd al-Aziz carries "may Allah have mercy on him" (رحمه الله)', () => {
-    for (const { at, text } of en) if (text.includes('Umar ibn Abd al-Aziz')) expect(text, at).toContain('Umar ibn Abd al-Aziz (may Allah have mercy on him)')
-    for (const { at, text } of ar) if (text.includes('عمر بن عبد العزيز')) expect(text, at).toContain('عمر بن عبد العزيز رحمه الله')
+  it('Umar ibn Abd al-Aziz carries ﵀', () => {
+    for (const { at, text } of en) if (text.includes('Umar ibn Abd al-Aziz')) expect(text, at).toContain('Umar ibn Abd al-Aziz ﵀')
+    for (const { at, text } of ar) if (text.includes('عمر بن عبد العزيز')) expect(text, at).toContain('عمر بن عبد العزيز ﵀')
+  })
+  it('no honorific is written out in words (the signs are used instead)', () => {
+    for (const { at, text } of [...en, ...ar]) expect(/may Allah (be pleased|have mercy)|peace be upon (him|them)\b(?! you)|رضي الله عن|رضوان الله|رحمه(م)? الله|عليه(م)? السلام|صلى الله عليه/.test(text), at).toBe(false)
   })
 })

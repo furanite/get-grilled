@@ -30,8 +30,8 @@ The Mongol leader who founded the largest land empire in history. :: Genghis Kha
 The Moroccan traveller who journeyed for nearly 30 years in the 14th century. :: Ibn Battuta
 The year our Beloved and our master, the Prophet Muhammad ﷺ migrated from Makkah to Madinah, starting the Hijri calendar. :: 622 CE
 The migration from Makkah to Madinah is called this. :: The Hijrah
-The first caliph after our Beloved and our master, the Prophet Muhammad ﷺ. :: Abu Bakr al-Siddiq (may Allah be pleased with him)
-The caliph who ruled after Abu Bakr (may Allah be pleased with him). :: Umar ibn al-Khattab (may Allah be pleased with him)
+The first caliph after our Beloved and our master, the Prophet Muhammad ﷺ. :: Abu Bakr al-Siddiq ﵁
+The caliph who ruled after Abu Bakr ﵁. :: Umar ibn al-Khattab ﵁
 The dynasty of caliphs that ruled from Damascus. :: The Umayyads
 The dynasty of caliphs that built Baghdad as its capital. :: The Abbasids
 The famous library and academy of Abbasid Baghdad. :: The House of Wisdom (Bayt al-Hikma)
@@ -229,7 +229,7 @@ The battle in 636 CE where Muslim armies defeated the Sasanian Persians. :: Batt
 The Umayyad general who crossed into Spain in 711. :: Tariq ibn Ziyad
 The rock in southern Spain named after Tariq ibn Ziyad. :: Gibraltar (Jabal Tariq)
 The Umayyad caliph who built the Dome of the Rock. :: Abd al-Malik ibn Marwan
-The Umayyad caliph known for justice who ruled 717–720. :: Umar ibn Abd al-Aziz (may Allah have mercy on him)
+The Umayyad caliph known for justice who ruled 717–720. :: Umar ibn Abd al-Aziz ﵀
 The Abbasid caliph who supported the House of Wisdom and translation. :: Al-Ma'mun
 The dynasty that founded Cairo in 969. :: The Fatimids
 The mosque and university founded in Cairo by the Fatimids in 970. :: Al-Azhar
@@ -332,10 +332,10 @@ The Byzantine emperor who rebuilt Hagia Sophia and codified Roman law. :: Justin
 The Arab kingdom of the Ghassanids allied with this empire. :: The Byzantine Empire
 The Arab kingdom of the Lakhmids, based at al-Hira, allied with this empire. :: The Sasanian Empire
 The year of the Battle of the Trench (al-Khandaq) at Madinah. :: 627 CE
-The companion who suggested digging the trench at Madinah. :: Salman al-Farisi (may Allah be pleased with him)
-The general called 'the Sword of God' in early Islam. :: Khalid ibn al-Walid (may Allah be pleased with him)
-The Companion who led the conquest of Egypt in the 640s. :: Amr ibn al-As (may Allah be pleased with him)
-The city founded by Amr ibn al-As (may Allah be pleased with him) in Egypt. :: Fustat
+The companion who suggested digging the trench at Madinah. :: Salman al-Farisi ﵁
+The general called 'the Sword of God' in early Islam. :: Khalid ibn al-Walid ﵁
+The Companion who led the conquest of Egypt in the 640s. :: Amr ibn al-As ﵁
+The city founded by Amr ibn al-As ﵁ in Egypt. :: Fustat
 The garrison city founded in southern Iraq in 636 that became a centre of learning. :: Basra
 The garrison city in Iraq founded in 638, also a great school of Arabic grammar. :: Kufa
 The Umayyad mosque in Damascus was built under this caliph. :: Al-Walid I
@@ -439,9 +439,9 @@ The battle in 625 CE near Madinah. :: Battle of Uhud
 The year of the conquest of Makkah. :: 630 CE (8 AH)
 The battle in 630 CE after the conquest of Makkah, in a valley near Taif. :: Battle of Hunayn
 The expedition of 630 CE to the north, the last campaign of our Beloved and our master, the Prophet Muhammad ﷺ. :: Expedition of Tabuk
-The caliph who compiled the Qur'an into one standard copy. :: Uthman ibn Affan (may Allah be pleased with him)
-The fourth caliph, who moved the capital to Kufa. :: Ali ibn Abi Talib (may Allah be pleased with him)
-The first Umayyad caliph. :: Muawiya ibn Abi Sufyan (may Allah be pleased with him)
+The caliph who compiled the Qur'an into one standard copy. :: Uthman ibn Affan ﵁
+The fourth caliph, who moved the capital to Kufa. :: Ali ibn Abi Talib ﵁
+The first Umayyad caliph. :: Muawiya ibn Abi Sufyan ﵁
 The Umayyad governor of Iraq under whom dots and vowel marks were added to Arabic writing. :: Al-Hajjaj ibn Yusuf
 The Umayyad general who conquered Sindh in 711–712. :: Muhammad ibn al-Qasim
 The Umayyad general who reached Central Asia and conquered Samarkand. :: Qutayba ibn Muslim
