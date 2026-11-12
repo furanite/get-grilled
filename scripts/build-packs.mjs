@@ -15,6 +15,7 @@
 // Lines starting with # (but not ##) are comments. Exits non-zero on any problem.
 // Arabic: questions/ar/<same file name> has the same ## headings and one
 // "ClueAr :: AnswerAr" line per question, in the same order as the English file.
+import { isMadhhabFile, schoolsOf } from './schools.mjs'
 import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync, rmSync, cpSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
@@ -76,6 +77,7 @@ export function parsePack(text, file = 'pack') {
       errors.push(`${at} needs a source tag (" || H: source", " || D" or " || F")`)
       return
     }
+    if (isMadhhabFile(meta.id, meta.group)) { const sch = schoolsOf(q); if (sch) item.sch = sch }
     levels[cur].push(item)
   })
   if (!meta.id || !/^[a-z0-9-]+$/.test(meta.id)) errors.push(`${file}: missing or invalid "id:"`)
@@ -91,7 +93,7 @@ export function parsePack(text, file = 'pack') {
       else seen.set(key, at)
     })
   })
-  const clean = ({ q, a, kind, src, img }) => ({ q, a, ...(kind ? { kind } : {}), ...(src ? { src } : {}), ...(img ? { img } : {}) })
+  const clean = ({ q, a, kind, src, img, sch }) => ({ q, a, ...(kind ? { kind } : {}), ...(src ? { src } : {}), ...(img ? { img } : {}), ...(sch ? { sch } : {}) })
   return { meta, levels: levels.map((l) => l.map(clean)), unchecked: unchecked.map(({ level, at, ...x }) => ({ level, at, ...clean(x) })), errors }
 }
 

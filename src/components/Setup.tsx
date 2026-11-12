@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import type { Category, CategorySummary, Game, Lang, PackGroup, PoolEdit } from '../lib/types'
+import type { Category, CategorySummary, Game, Lang, Madhhab, PackGroup, PoolEdit } from '../lib/types'
 import type { Strings } from '../lib/i18n'
 import { num, qCount } from "../lib/i18n"
-import { applyPool, createGame, isPlayable, poolCounts } from '../lib/game'
+import { applyPool, createGame, filterMadhhab, isPlayable, poolCounts } from '../lib/game'
 import { sfx } from '../lib/sound'
 import { loadPack } from '../lib/packs'
-import { loadUsed, saveUsed } from '../lib/store'
+import { loadMadhhab, loadUsed, saveMadhhab, saveUsed } from '../lib/store'
 import { CatIcon } from './Brand'
 
 interface Props {
@@ -37,6 +37,7 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
   const [timer, setTimer] = useState(30)
   const [golden, setGolden] = useState(1)
   const [deduct, setDeduct] = useState(true)
+  const [madhhab, setMadhhab] = useState<Madhhab>(loadMadhhab)
   const [error, setError] = useState('')
   const [busy, setBusy] = useState(false)
 
@@ -48,12 +49,15 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
   const total = (c: { counts: number[] }) => c.counts.reduce((a, b) => a + b, 0)
   const customSummaries: CategorySummary[] = custom.map((c) => ({ id: c.id, name: c.name, nameAr: c.nameAr, builtIn: false, counts: c.levels.map((l) => l.length) }))
 
+  // The school-of-fiqh choice only shows when a picked category has rulings that differ between schools.
+  const usesMadhhab = picked.some((id) => index?.find((c) => c.id === id)?.group === 'fiqh' || id === 'kids-wudu-salah' || id === 'kids-calendar')
+
   const start = async () => {
     if (picked.length === 0) return setError(t.needCats)
     if (teams.some((n) => !n.trim())) return setError(t.needTeams)
     setBusy(true)
     try {
-      const cats = (await Promise.all(picked.map((id) => custom.find((c) => c.id === id) ?? loadPack(id)))).map((c) => applyPool(c, pools[c.id]))
+      const cats = (await Promise.all(picked.map((id) => custom.find((c) => c.id === id) ?? loadPack(id)))).map((c) => filterMadhhab(applyPool(c, pools[c.id]), madhhab))
       const bad = cats.find((c) => !isPlayable(c))
       if (bad) throw new Error(`“${bad.name}” ${t.incomplete}`)
       const { game, used } = createGame(cats, teams, { timer, deduct, golden }, loadUsed())
@@ -186,6 +190,29 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
             ))}
           </select>
         </label>
+        {usesMadhhab && (
+          <label className="field">
+            <span className="label">{t.madhhab}</span>
+            <select
+              className="input"
+              id="madhhab"
+              value={madhhab}
+              onChange={(e) => {
+                const m = e.target.value as Madhhab
+                setMadhhab(m)
+                saveMadhhab(m)
+              }}
+            >
+              <option value="">{t.madhhabAll}</option>
+              {(['h', 'm', 's', 'b'] as const).map((k, i) => (
+                <option key={k} value={k}>
+                  {t.madhhabNames[i]}
+                </option>
+              ))}
+            </select>
+            <span className="hint">{t.madhhabHint}</span>
+          </label>
+        )}
         <label className="check">
           <input type="checkbox" id="deduct" checked={deduct} onChange={(e) => setDeduct(e.target.checked)} />
           {t.deduct}

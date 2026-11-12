@@ -1,4 +1,4 @@
-import { VALUES, type Category, type Clue, type Game, type GameSettings, type PoolEdit, type Question } from './types'
+import { VALUES, type Category, type Clue, type Game, type GameSettings, type Madhhab, type PoolEdit, type Question } from './types'
 import { isDiagram } from './diagram'
 
 export type Rng = () => number
@@ -43,6 +43,21 @@ export function applyPool(cat: Category, edit?: PoolEdit): Category {
     levels: cat.levels.map((pool, i) => {
       const off = new Set(edit.off[i] ?? [])
       return [...pool, ...(edit.extra[i] ?? [])].filter((q) => !off.has(q.id))
+    }),
+  }
+}
+
+/**
+ * Keeps the rulings of the chosen school of fiqh. Questions all schools agree on (no `sch`) always stay.
+ * A level that would be left empty keeps its full pool, so the category stays playable.
+ */
+export function filterMadhhab(cat: Category, madhhab: Madhhab): Category {
+  if (!madhhab) return cat
+  return {
+    ...cat,
+    levels: cat.levels.map((pool) => {
+      const kept = pool.filter((q) => !q.sch || q.sch.includes(madhhab))
+      return kept.length ? kept : pool
     }),
   }
 }

@@ -13,7 +13,11 @@ export interface Question {
   src?: string
   /** A picture or diagram shown with the clue: a data: URL for host-made questions, or a path for built-in ones. */
   img?: string
+  /** Schools of fiqh a ruling belongs to (h Hanafi, m Maliki, s Shafi'i, b Hanbali); absent when all agree. */
+  sch?: string
 }
+
+export type Madhhab = '' | 'h' | 'm' | 's' | 'b'
 
 /**
  * The host's changes to one category's question pool, kept apart from the questions themselves

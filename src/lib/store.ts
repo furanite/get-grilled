@@ -1,4 +1,4 @@
-import type { Category, Game, Lang, PoolEdit, Question, ThemeId } from './types'
+import type { Category, Game, Lang, Madhhab, PoolEdit, Question, ThemeId } from './types'
 import { isDiagram } from './diagram'
 
 const KEYS = {
@@ -8,6 +8,7 @@ const KEYS = {
   game: 'gg.game.v1',
   consent: 'gg.consent.v1',
   pools: 'gg.pools.v1',
+  madhhab: 'gg.madhhab.v1',
 }
 
 function load<T>(key: string, fallback: T): T {
@@ -131,3 +132,10 @@ export const loadConsent = (): Consent | null => {
 export const saveConsent = (c: Consent) => save(KEYS.consent, c)
 /** True when the saved acceptance matches the current Terms version. */
 export const hasConsent = (version: string) => loadConsent()?.version === version
+
+/** The school of fiqh the host plays by ('' = show every school's rulings). */
+export const loadMadhhab = (): Madhhab => {
+  const v = load<unknown>(KEYS.madhhab, '')
+  return v === 'h' || v === 'm' || v === 's' || v === 'b' ? v : ''
+}
+export const saveMadhhab = (m: Madhhab) => save(KEYS.madhhab, m)

@@ -5,7 +5,7 @@ interface PackFile {
   name: string
   nameAr?: string
   respect?: boolean
-  levels: { q: string; a: string; qAr?: string; aAr?: string; kind?: 'H' | 'D' | 'F'; src?: string; img?: string }[][]
+  levels: { q: string; a: string; qAr?: string; aAr?: string; kind?: 'H' | 'D' | 'F'; src?: string; img?: string; sch?: string }[][]
 }
 
 const base = import.meta.env.BASE_URL
