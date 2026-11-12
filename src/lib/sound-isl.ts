@@ -84,10 +84,12 @@ function thump(k: Kit, t: number, f0: number, f1: number, fall: number, d: numbe
 
 /** "Dum": the deep open stroke in the middle of the skin. `muted` damps it with the palm. */
 export function dum(k: Kit, t: number, g = 0.45, pan = 0, tune = 1, muted = false) {
-  const d = muted ? 0.16 : 0.62
-  thump(k, t, 128 * tune, 60 * tune, 0.16, d, g, 'sine', pan, 0.3)
-  thump(k, t, 300 * tune, 180 * tune, 0.08, d * 0.3, g * 0.18, 'sine', pan, 0.2)
-  hiss(k, t, 0.05, g * 0.35, 700, 0.7, 'lowpass', pan, 0.1)
+  const d = muted ? 0.22 : 0.9
+  // The body of the skin, a deep sub-bass under it, a little overtone and the slap of the hand
+  thump(k, t, 104 * tune, 50 * tune, 0.2, d, g, 'sine', pan, 0.3)
+  thump(k, t, 64 * tune, 41 * tune, 0.32, d * 1.15, g * 0.75, 'sine', pan, 0.12)
+  thump(k, t, 230 * tune, 150 * tune, 0.08, d * 0.25, g * 0.13, 'sine', pan, 0.2)
+  hiss(k, t, 0.05, g * 0.28, 480, 0.7, 'lowpass', pan, 0.1)
 }
 
 /** "Tak": the bright stroke at the rim. */
@@ -137,6 +139,7 @@ export interface Breeze {
 
 /** A breeze: looped noise with a slowly wandering filter and gusts. */
 export function breeze(k: Kit, t: number, d: number, g: number, centre = 650, width = 380, pan = 0): Breeze {
+  g *= 0.6
   const c = k.c
   const t0 = at(k, t)
   const src = c.createBufferSource()
@@ -195,8 +198,60 @@ export function breeze(k: Kit, t: number, d: number, g: number, centre = 650, wi
   }
 }
 
+/** One soft wave: it swells in, breaks gently and draws back over the sand. */
+export function wave(k: Kit, t: number, g = 0.06, len = 5, pan = 0) {
+  const c = k.c
+  const t0 = at(k, t)
+  const src = c.createBufferSource()
+  src.buffer = whiteNoise(c)
+  src.loop = true
+  const lp = c.createBiquadFilter()
+  lp.type = 'lowpass'
+  lp.Q.value = 0.4
+  lp.frequency.setValueAtTime(260, t0)
+  lp.frequency.linearRampToValueAtTime(1300, t0 + len * 0.42)
+  lp.frequency.exponentialRampToValueAtTime(380, t0 + len)
+  const gain = c.createGain()
+  gain.gain.setValueAtTime(0.0001, t0)
+  gain.gain.linearRampToValueAtTime(g, t0 + len * 0.42)
+  gain.gain.exponentialRampToValueAtTime(0.0001, t0 + len)
+  src.connect(lp).connect(gain)
+  send(k, gain, pan, 0.2)
+  // The fizz of the foam as it draws back
+  const foam = c.createBufferSource()
+  foam.buffer = whiteNoise(c)
+  foam.loop = true
+  const hp = c.createBiquadFilter()
+  hp.type = 'highpass'
+  hp.frequency.value = 3500
+  const fg = c.createGain()
+  fg.gain.setValueAtTime(0.0001, t0)
+  fg.gain.setValueAtTime(0.0001, t0 + len * 0.35)
+  fg.gain.linearRampToValueAtTime(g * 0.18, t0 + len * 0.5)
+  fg.gain.exponentialRampToValueAtTime(0.0001, t0 + len)
+  foam.connect(hp).connect(fg)
+  send(k, fg, -pan, 0.2)
+  src.start(t0, Math.random() * 3)
+  foam.start(t0, Math.random() * 3)
+  src.stop(t0 + len + 0.1)
+  foam.stop(t0 + len + 0.1)
+}
+
+/** A calm shore: waves one after another for `d` seconds. */
+export function shore(k: Kit, t: number, d: number, g = 0.05) {
+  let tt = t
+  let i = 0
+  while (tt < t + d) {
+    const len = rnd(4.5, 6.5)
+    wave(k, tt, g * rnd(0.8, 1.1), Math.min(len, t + d - tt + 1.5), i % 2 ? 0.3 : -0.3)
+    tt += len * 0.7
+    i++
+  }
+}
+
 /** A quick gust that rises and falls, for opening a tile. */
 export function whoosh(k: Kit, t: number, d = 0.55, g = 0.12, f0 = 350, f1 = 1700) {
+  g *= 0.65
   const t0 = at(k, t)
   const src = k.c.createBufferSource()
   src.buffer = whiteNoise(k.c)
@@ -234,7 +289,6 @@ function whistle(k: Kit, t: number, pts: [number, number][], g: number, pan = 0,
     amt.gain.value = pts[0][1] * (opt.vibDepth ?? 0.03)
     vib.connect(amt).connect(o.frequency)
   }
-  g *= 1.6 // birds sit a little forward of the breeze
   const gain = c.createGain()
   const a = opt.a ?? 0.012
   gain.gain.setValueAtTime(0.0001, t0)
@@ -279,24 +333,6 @@ export function bulbul(k: Kit, t: number, g = 0.06, pan = 0) {
   whistle(k, t + 0.38, [[0, 1650 * s], [0.09, 1500 * s]], g * 0.8, pan)
 }
 
-/** Laughing dove: five soft, bubbling coos. */
-export function laughingDove(k: Kit, t: number, g = 0.08, pan = 0) {
-  const fs = [560, 585, 650, 610, 565]
-  fs.forEach((f, i) => whistle(k, t + i * 0.19, [[0, j(f) * 0.96], [0.06, j(f)], [0.15, f * 0.97]], g * (i === 2 ? 1.15 : 1), pan, { a: 0.03, harm: 0.15, lp: 1400 }))
-}
-
-/** Collared dove: "coo-COOO-cuk". */
-export function collaredDove(k: Kit, t: number, g = 0.08, pan = 0) {
-  whistle(k, t, [[0, 470], [0.2, 480], [0.24, 450]], g * 0.8, pan, { a: 0.04, harm: 0.18, lp: 1300 })
-  whistle(k, t + 0.33, [[0, 520], [0.35, 505], [0.42, 470]], g, pan, { a: 0.05, harm: 0.18, lp: 1300 })
-  whistle(k, t + 0.86, [[0, 440], [0.16, 400]], g * 0.7, pan, { a: 0.03, harm: 0.18, lp: 1300 })
-}
-
-/** Hoopoe: a hollow "oop-oop-oop". */
-export function hoopoe(k: Kit, t: number, g = 0.08, pan = 0) {
-  for (let i = 0; i < 3; i++) whistle(k, t + i * 0.24, [[0, 430], [0.1, 395]], g, pan, { a: 0.015, harm: 0.25, lp: 1100 })
-}
-
 /** Purple sunbird: a fast, high, sparkling trill. */
 export function sunbird(k: Kit, t: number, g = 0.03, pan = 0) {
   for (let i = 0; i < 12; i++) whistle(k, t + i * 0.038, [[0, i % 2 ? 4700 : 5300], [0.028, i % 2 ? 4500 : 5100]], g, pan, { a: 0.004 })
@@ -324,31 +360,43 @@ export function nightingale(k: Kit, t: number, g = 0.05, pan = 0) {
   whistle(k, t + 1.35, [[0, 1200], [0.07, 1150]], g * 0.8, pan, { vib: 55, vibDepth: 0.06 })
 }
 
-/** Scops owl: one soft "tyoo", for the night themes. */
-export function scops(k: Kit, t: number, g = 0.05, pan = 0) {
-  whistle(k, t, [[0, 1180], [0.06, 1220], [0.2, 1120]], g, pan, { a: 0.03, harm: 0.08, lp: 1800 })
+/** Goldfinch: a quick, tinkling twitter. */
+export function goldfinch(k: Kit, t: number, g = 0.04, pan = 0) {
+  const fs = [3600, 4300, 3900, 4700, 3500, 4200, 4500, 3800, 4400, 4000]
+  let tt = 0
+  fs.forEach((f, i) => {
+    const d = i % 3 === 2 ? 0.07 : 0.045
+    whistle(k, t + tt, [[0, j(f)], [d * 0.5, f * (i % 2 ? 1.12 : 0.9)], [d, f]], g * (0.8 + (i % 3) * 0.1), pan, { a: 0.004 })
+    tt += d + 0.025
+  })
 }
 
-/** Asian koel: a rising "ku-OO", twice. */
-export function koel(k: Kit, t: number, g = 0.06, pan = 0) {
-  for (let i = 0; i < 2; i++) {
-    whistle(k, t + i * 0.55, [[0, 650 + i * 60], [0.08, 640 + i * 60]], g * 0.7, pan, { a: 0.02, harm: 0.1 })
-    whistle(k, t + i * 0.55 + 0.13, [[0, 820 + i * 70], [0.22, 900 + i * 70]], g, pan, { a: 0.02, harm: 0.1 })
+/** Canary: a rolling trill that climbs, then two sweet warbles. */
+export function canary(k: Kit, t: number, g = 0.035, pan = 0) {
+  for (let i = 0; i < 16; i++) {
+    const f = 2900 + i * 30
+    whistle(k, t + i * 0.032, [[0, i % 2 ? f * 1.12 : f], [0.024, i % 2 ? f * 1.05 : f * 1.08]], g * (0.6 + i * 0.025), pan, { a: 0.003 })
   }
+  whistle(k, t + 0.6, [[0, 3200], [0.07, 3900], [0.14, 3500]], g, pan, { vib: 34, vibDepth: 0.02 })
+  whistle(k, t + 0.8, [[0, 3700], [0.08, 4300], [0.18, 3600]], g, pan, { vib: 30, vibDepth: 0.02 })
 }
 
-export type BirdId = 'bulbul' | 'laughingDove' | 'collaredDove' | 'hoopoe' | 'sunbird' | 'sparrow' | 'lark' | 'nightingale' | 'scops' | 'koel'
+/** Robin: a thin, sweet cascade that tumbles down. */
+export function robin(k: Kit, t: number, g = 0.035, pan = 0) {
+  const fs = [5200, 4700, 4900, 4200, 4400, 3700, 3300]
+  fs.forEach((f, i) => whistle(k, t + i * 0.09, [[0, j(f)], [0.035, f * 1.08], [0.07, f * 0.94]], g * (1 - i * 0.06), pan, { a: 0.006 }))
+}
+
+export type BirdId = 'bulbul' | 'sunbird' | 'sparrow' | 'lark' | 'nightingale' | 'goldfinch' | 'canary' | 'robin'
 export const BIRDS: Record<BirdId, { name: string; call: (k: Kit, t: number, g?: number, pan?: number) => void; len: number }> = {
-  bulbul: { name: 'White-eared bulbul', call: bulbul, len: 0.5 },
-  laughingDove: { name: 'Laughing dove', call: laughingDove, len: 0.95 },
-  collaredDove: { name: 'Collared dove', call: collaredDove, len: 1.05 },
-  hoopoe: { name: 'Hoopoe', call: hoopoe, len: 0.6 },
-  sunbird: { name: 'Purple sunbird', call: sunbird, len: 0.7 },
-  sparrow: { name: 'House sparrow', call: sparrow, len: 0.2 },
-  lark: { name: 'Crested lark', call: lark, len: 0.65 },
+  bulbul: { name: 'Bulbul', call: bulbul, len: 0.5 },
+  sunbird: { name: 'Sunbird', call: sunbird, len: 0.7 },
+  sparrow: { name: 'Sparrow', call: sparrow, len: 0.2 },
+  lark: { name: 'Lark', call: lark, len: 0.65 },
   nightingale: { name: 'Nightingale', call: nightingale, len: 1.45 },
-  scops: { name: 'Scops owl', call: scops, len: 0.25 },
-  koel: { name: 'Asian koel', call: koel, len: 0.95 },
+  goldfinch: { name: 'Goldfinch', call: goldfinch, len: 0.75 },
+  canary: { name: 'Canary', call: canary, len: 1.0 },
+  robin: { name: 'Robin', call: robin, len: 0.65 },
 }
 
 /* ---------- The game's sounds ---------- */
@@ -391,10 +439,10 @@ export const islamicFx = {
     if (final) dum(k, 0, 0.3, 0, 1.1, true)
     tak(k, 0, final ? 0.42 : 0.32)
   },
-  /** Time is up: a deep stroke and a collared dove's falling call. */
+  /** Time is up: a deep stroke and a robin's falling cascade. */
   timeUp(k: Kit) {
     circle(k, 0, 'D', 0.5)
-    collaredDove(k, 0.3, 0.075)
+    robin(k, 0.3, 0.035)
   },
   soft(k: Kit) {
     ka(k, 0, 0.25)
@@ -402,18 +450,20 @@ export const islamicFx = {
   /** The game begins: the breeze rises, the drums roll into one great stroke, and the birds answer. */
   start(k: Kit) {
     breeze(k, 0, 4.6, 0.09)
+    wave(k, 0, 0.05, 5)
     roll(k, 0.3, 1.1, 0.03, 0.26, 18, -0.2)
     roll(k, 0.36, 1.04, 0.02, 0.2, 18, 0.25)
     circle(k, 1.45, 'D', 0.75, true)
     circle(k, 1.62, 'T', 0.5)
     bulbul(k, 1.75, 0.06, -0.35)
     sparrow(k, 2.05, 0.035, 0.5)
-    laughingDove(k, 2.3, 0.06, 0.2)
+    goldfinch(k, 2.3, 0.035, 0.2)
     sunbird(k, 2.95, 0.03, -0.5)
   },
   /** The winners: two bars of maqsum, a triple stroke and the whole garden singing. */
   win(k: Kit) {
     breeze(k, 0, 5.5, 0.08)
+    shore(k, 0, 6, 0.045)
     const s = 60 / 116 / 4
     playPattern(k, 0, IQA.maqsum, s, 2, 0.5)
     const end = 32 * s
@@ -424,7 +474,7 @@ export const islamicFx = {
     bulbul(k, end + 1.0, 0.06, -0.4)
     sunbird(k, end + 1.2, 0.03, 0.5)
     nightingale(k, end + 1.4, 0.04, 0.2)
-    laughingDove(k, end + 1.6, 0.05, -0.1)
+    canary(k, end + 1.6, 0.03, -0.1)
   },
 }
 
@@ -445,6 +495,7 @@ export function suspense(base: Kit, limit = 45): { stop: (fade?: number) => void
   if (base.verb) vbus.connect(base.verb)
   const k: Kit = { c, out: bus, verb: base.verb ? vbus : null }
   const air = breeze(k, 0, limit + 2, 0.06, 380, 160)
+  shore(k, 0, limit, 0.03)
   air.gain.gain.setTargetAtTime(0.11, c.currentTime + 2, 10)
   air.filter.frequency.setTargetAtTime(950, c.currentTime + 1, 14)
   const t0 = c.currentTime + 0.15
@@ -466,7 +517,7 @@ export function suspense(base: Kit, limit = 45): { stop: (fade?: number) => void
       if (s > 8 && beat % 2 === 1) ka(k, rel + 60 / bpmAt(s) / 2, 0.05)
       if (s > 16) ka(k, rel + (60 / bpmAt(s)) * 0.75, 0.04)
       // Now and then a far-off bird
-      if (beat > 0 && beat % 11 === 0) (beat % 22 === 0 ? scops : collaredDove)(k, rel + 0.3, 0.018, beat % 22 === 0 ? -0.7 : 0.7)
+      if (beat > 0 && beat % 11 === 0) (beat % 22 === 0 ? robin : goldfinch)(k, rel + 0.3, 0.012, beat % 22 === 0 ? -0.7 : 0.7)
       next += 60 / bpmAt(s)
       beat++
     }
@@ -547,32 +598,32 @@ export interface TuneSpec {
 }
 
 export const ISLAMIC_TUNES: Partial<Record<ThemeId, TuneSpec>> = {
-  amethyst: { iqa: 'andalusi', bpm: 96, birds: ['nightingale', 'scops'], breeze: 0.07, why: 'Andalusi quddam; a nightingale in a Cordoba night' },
-  emerald: { iqa: 'maqsum', bpm: 104, birds: ['bulbul', 'laughingDove'], breeze: 0.08, why: 'Maqsum; bulbul and laughing dove in a mosque courtyard' },
-  neon: { iqa: 'aksak', bpm: 112, birds: ['collaredDove', 'sparrow'], breeze: 0.08, why: "Ottoman aksak 9/8; Istanbul's collared doves" },
+  amethyst: { iqa: 'andalusi', bpm: 96, birds: ['nightingale', 'robin'], breeze: 0.07, why: 'Andalusi quddam; a nightingale on a Cordoba night' },
+  emerald: { iqa: 'maqsum', bpm: 104, birds: ['bulbul', 'goldfinch'], breeze: 0.08, why: 'Maqsum; songbirds in a mosque courtyard' },
+  neon: { iqa: 'aksak', bpm: 112, birds: ['canary', 'sparrow'], breeze: 0.08, why: 'Ottoman aksak 9/8 with bright chirping' },
   onyx: { iqa: 'wahda', bpm: 84, birds: ['bulbul', 'sunbird'], breeze: 0.06, why: 'Stately wahda, like turning a gilded page' },
-  rivals: { iqa: 'doira', bpm: 112, birds: ['hoopoe', 'lark'], breeze: 0.09, why: 'Central Asian doira; hoopoe and lark of the steppe' },
-  ember: { iqa: 'aksak', bpm: 116, birds: ['nightingale', 'collaredDove'], breeze: 0.07, why: 'Aksak 9/8; the nightingale of the Ottoman tulip gardens' },
-  rawdah: { iqa: 'baladi', bpm: 100, birds: ['bulbul', 'sunbird', 'laughingDove', 'sparrow'], breeze: 0.09, why: 'Baladi; a full garden chorus' },
-  fajr: { iqa: 'wahda', bpm: 80, birds: ['lark', 'bulbul', 'sparrow'], breeze: 0.07, why: 'Slow wahda; the dawn chorus wakes' },
+  rivals: { iqa: 'doira', bpm: 112, birds: ['lark', 'goldfinch'], breeze: 0.09, why: 'Central Asian doira; larks over the steppe' },
+  ember: { iqa: 'aksak', bpm: 116, birds: ['nightingale', 'canary'], breeze: 0.07, why: 'Aksak 9/8; the nightingale of the Ottoman tulip gardens' },
+  rawdah: { iqa: 'baladi', bpm: 100, birds: ['bulbul', 'sunbird', 'goldfinch', 'canary'], breeze: 0.09, why: 'Baladi; a full garden chorus' },
+  fajr: { iqa: 'wahda', bpm: 80, birds: ['lark', 'robin', 'sparrow'], breeze: 0.07, why: 'Slow wahda; the dawn chorus wakes' },
   duha: { iqa: 'maqsum', bpm: 108, birds: ['sunbird', 'bulbul'], breeze: 0.08, why: 'Maqsum; bright morning sunbirds' },
-  zuhr: { iqa: 'saidi', bpm: 112, birds: ['sparrow', 'lark'], breeze: 0.06, why: "Sa'idi; noon heat, sparrows and a lark" },
-  asr: { iqa: 'malfuf', bpm: 104, birds: ['laughingDove', 'hoopoe'], breeze: 0.09, why: 'Malfuf; the afternoon breeze, doves and a hoopoe' },
-  maghrib: { iqa: 'ayyub', bpm: 100, birds: ['collaredDove', 'sparrow'], breeze: 0.1, why: 'Ayyub; doves settling at sunset' },
-  isha: { iqa: 'andalusi', bpm: 88, birds: ['scops', 'nightingale'], breeze: 0.06, why: 'Quddam; the night falls quiet, an owl and a nightingale' },
-  qiyam: { iqa: 'wahda', bpm: 70, birds: ['scops'], breeze: 0.05, g: 0.35, why: 'Soft wahda; the still of the night and one owl' },
-  mughal: { iqa: 'dawrHindi', bpm: 108, birds: ['koel', 'laughingDove'], breeze: 0.08, why: 'Dawr Hindi 7/8; the koel of the subcontinent' },
-  sahel: { iqa: 'chakacha', bpm: 116, birds: ['hoopoe', 'laughingDove'], breeze: 0.1, why: '6/8 cycle; hoopoe and dove in the dry wind' },
-  swahili: { iqa: 'chakacha', bpm: 108, birds: ['sunbird', 'laughingDove'], breeze: 0.11, why: 'Chakacha 6/8 of the coast; sea breeze and sunbirds' },
+  zuhr: { iqa: 'saidi', bpm: 112, birds: ['sparrow', 'lark'], breeze: 0.06, why: "Sa'idi; noon light, sparrows and a lark" },
+  asr: { iqa: 'malfuf', bpm: 104, birds: ['goldfinch', 'bulbul'], breeze: 0.09, why: 'Malfuf; the afternoon breeze and goldfinches' },
+  maghrib: { iqa: 'ayyub', bpm: 100, birds: ['robin', 'sparrow'], breeze: 0.1, why: 'Ayyub; birds settling at sunset' },
+  isha: { iqa: 'andalusi', bpm: 88, birds: ['nightingale', 'robin'], breeze: 0.06, why: 'Quddam; the night falls quiet and a nightingale sings' },
+  qiyam: { iqa: 'wahda', bpm: 70, birds: ['nightingale'], breeze: 0.05, g: 0.35, why: 'Soft wahda; the still of the night and one nightingale' },
+  mughal: { iqa: 'dawrHindi', bpm: 108, birds: ['bulbul', 'canary'], breeze: 0.08, why: 'Dawr Hindi 7/8 with bulbuls of the subcontinent' },
+  sahel: { iqa: 'chakacha', bpm: 116, birds: ['sunbird', 'goldfinch'], breeze: 0.1, why: '6/8 cycle; songbirds in the dry wind' },
+  swahili: { iqa: 'chakacha', bpm: 108, birds: ['sunbird', 'canary'], breeze: 0.11, why: 'Chakacha 6/8 of the coast; sea breeze and sunbirds' },
   nusantara: { iqa: 'hadrah', bpm: 104, birds: ['bulbul', 'sunbird'], breeze: 0.08, why: 'Interlocking rebana (hadrah); bulbul and sunbird' },
-  zellige: { iqa: 'andalusi', bpm: 104, birds: ['bulbul', 'hoopoe'], breeze: 0.08, why: 'Andalusi quddam of Fez; bulbul and hoopoe' },
-  suzani: { iqa: 'doira', bpm: 108, birds: ['hoopoe', 'lark'], breeze: 0.09, why: 'Doira usul of Bukhara; hoopoe and lark' },
-  bosnia: { iqa: 'aksak', bpm: 108, birds: ['nightingale', 'collaredDove'], breeze: 0.08, why: 'Balkan aksak 9/8; nightingale and doves' },
+  zellige: { iqa: 'andalusi', bpm: 104, birds: ['bulbul', 'goldfinch'], breeze: 0.08, why: 'Andalusi quddam of Fez; bulbul and goldfinch' },
+  suzani: { iqa: 'doira', bpm: 108, birds: ['lark', 'canary'], breeze: 0.09, why: 'Doira usul of Bukhara; larks and canaries' },
+  bosnia: { iqa: 'aksak', bpm: 108, birds: ['nightingale', 'robin'], breeze: 0.08, why: 'Balkan aksak 9/8; nightingale and robin' },
   tatar: { iqa: 'ayyub', bpm: 116, birds: ['lark', 'sparrow'], breeze: 0.1, why: 'Lively 2/4; the skylark over the Volga steppe' },
-  kubachi: { iqa: 'chakacha', bpm: 126, birds: ['lark', 'hoopoe'], breeze: 0.1, why: 'Quick 6/8 of the mountains; mountain wind' },
+  kubachi: { iqa: 'chakacha', bpm: 126, birds: ['lark', 'goldfinch'], breeze: 0.1, why: 'Quick 6/8 of the mountains; mountain wind' },
   hui: { iqa: 'wahda', bpm: 96, birds: ['nightingale', 'sparrow'], breeze: 0.07, why: 'Measured wahda; a songbird and sparrows' },
-  jumuah: { iqa: 'khaliji', bpm: 104, birds: ['bulbul', 'laughingDove', 'sunbird'], breeze: 0.09, why: 'Khaliji; the grandest, a festive Friday' },
-  mawlid: { iqa: 'hadrah', bpm: 100, birds: ['nightingale', 'bulbul', 'sunbird', 'laughingDove'], breeze: 0.09, why: 'Hadrah of the Mawlid gatherings; every bird sings' },
+  jumuah: { iqa: 'khaliji', bpm: 104, birds: ['bulbul', 'canary', 'sunbird'], breeze: 0.09, why: 'Khaliji; the grandest, a festive Friday' },
+  mawlid: { iqa: 'hadrah', bpm: 100, birds: ['nightingale', 'bulbul', 'sunbird', 'canary'], breeze: 0.09, why: 'Hadrah of the Mawlid gatherings; every bird sings' },
 }
 
 /**
@@ -593,9 +644,10 @@ export function islamicTitleTune(base: Kit, theme: ThemeId): { stop: (fade?: num
   const s = 60 / spec.bpm / 4
   const g = spec.g ?? 0.5
   const birds = spec.birds.map((b) => BIRDS[b])
-  const night = spec.birds[0] === 'scops'
+  const night = theme === 'qiyam' || theme === 'isha'
 
   breeze(k, 0, 10, spec.breeze)
+  shore(k, 0, 10, spec.breeze * 0.55)
   birds[0].call(k, 0.25, undefined, -0.4)
   // Roll in
   const r0 = 0.25 + birds[0].len + 0.1
