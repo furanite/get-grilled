@@ -163,7 +163,7 @@ try {
     assert(JSON.stringify(groups.map((g) => g[0])) === JSON.stringify(['engineering', 'cces', 'general']), 'group order: ' + JSON.stringify(groups))
     assert(groups[1][1].includes('CCES'), 'cces title: ' + groups[1][1])
     const counts = groups.map((g) => g[2])
-    assert(counts[0] === 4 && counts[1] === 10 && counts[2] === 11, 'counts: ' + counts)
+    assert(counts[0] === 12 && counts[1] === 10 && counts[2] === 11, 'counts: ' + counts)
     const cces = await page.$$eval('.cat-group[data-group="cces"] .cat-pick b', (els) => els.map((e) => e.textContent))
     for (const n of ['Artificial Intelligence', 'Software Engineering', 'Discrete Mathematics', 'Cybersecurity']) assert(cces.includes(n), 'missing ' + n + ' in ' + cces)
     await page.screenshot({ path: `${SHOTS}/setup-groups.png`, fullPage: true })
@@ -389,7 +389,7 @@ try {
     await page.goto(URL)
     await page.getByRole('button', { name: /category builder/i }).click()
     await page.getByTestId('new-cat').click()
-    await page.fill('#cat-name', 'Fluid Mechanics')
+    await page.fill('#cat-name', 'Hydraulics Club')
     await page.fill('#cat-name-ar', 'ميكانيكا الموائع')
     for (let l = 0; l < 5; l++) {
       for (let k = 0; k < 2; k++) {
@@ -419,12 +419,12 @@ try {
     // Persisted
     await page.reload()
     await page.getByRole('button', { name: /category builder/i }).click()
-    assert(await page.locator('.cat-item', { hasText: 'Fluid Mechanics' }).count() === 1, 'not saved')
+    assert(await page.locator('.cat-item', { hasText: 'Hydraulics Club' }).count() === 1, 'not saved')
     await page.screenshot({ path: `${SHOTS}/builder.png` })
     // Play it
     await page.getByRole('button', { name: 'Back' }).click()
     await page.getByRole('button', { name: /new game/i }).click()
-    await page.locator('.cat-pick', { hasText: 'Fluid Mechanics' }).click()
+    await page.locator('.cat-pick', { hasText: 'Hydraulics Club' }).click()
     await page.getByTestId('start').click()
     await page.waitForSelector('.tile')
     await openTile(page, '0-0')
