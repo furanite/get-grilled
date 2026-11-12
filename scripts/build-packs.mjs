@@ -15,6 +15,7 @@
 // Lines starting with # (but not ##) are comments. Exits non-zero on any problem.
 // Arabic: questions/ar/<same file name> has the same ## headings and one
 // "ClueAr :: AnswerAr" line per question, in the same order as the English file.
+import { toSigns } from './signs.mjs'
 import { isMadhhabFile, schoolsOf } from './schools.mjs'
 import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync, rmSync, cpSync } from 'node:fs'
 import { join, dirname } from 'node:path'
@@ -93,7 +94,7 @@ export function parsePack(text, file = 'pack') {
       else seen.set(key, at)
     })
   })
-  const clean = ({ q, a, kind, src, img, sch }) => ({ q, a, ...(kind ? { kind } : {}), ...(src ? { src } : {}), ...(img ? { img } : {}), ...(sch ? { sch } : {}) })
+  const clean = ({ q, a, kind, src, img, sch }) => ({ q: toSigns(q), a: toSigns(a), ...(kind ? { kind } : {}), ...(src ? { src } : {}), ...(img ? { img } : {}), ...(sch ? { sch } : {}) })
   return { meta, levels: levels.map((l) => l.map(clean)), unchecked: unchecked.map(({ level, at, ...x }) => ({ level, at, ...clean(x) })), errors }
 }
 
@@ -237,9 +238,9 @@ function main() {
     }
     // PACK_EDITION=islamic builds a site with only the Islamic and Kids collections (used by the Ilm Munfasah site).
     if (process.env.PACK_EDITION === 'islamic' && !respect) continue
-    const pack = { id: meta.id, name: meta.name, nameAr: meta.nameAr, group: meta.group, respect, levels }
+    const pack = { id: meta.id, name: toSigns(meta.name), nameAr: meta.nameAr, group: meta.group, respect, levels }
     writeFileSync(join(outDir, `${meta.id}.json`), JSON.stringify(pack))
-    index.push({ id: meta.id, name: meta.name, nameAr: meta.nameAr, group: meta.group, counts: levels.map((l) => l.length) })
+    index.push({ id: meta.id, name: toSigns(meta.name), nameAr: meta.nameAr, group: meta.group, counts: levels.map((l) => l.length) })
     console.log(`${meta.id.padEnd(18)} ${levels.map((l) => String(l.length).padStart(4)).join(' ')}  total ${levels.reduce((s, l) => s + l.length, 0)}  arabic ${arCount}`)
   }
   const ids = index.map((c) => c.id)
@@ -263,7 +264,7 @@ function main() {
     console.error(nightErrors.join('\n'))
     process.exit(1)
   }
-  writeFileSync(join(outDir, 'nights.json'), JSON.stringify(nights))
+  writeFileSync(join(outDir, 'nights.json'), JSON.stringify(nights, (k, v) => (typeof v === 'string' ? toSigns(v) : v)))
   console.log(`${nights.length} themed nights`)
 }
 

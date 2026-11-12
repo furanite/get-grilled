@@ -17,7 +17,7 @@ The Muslim land in Spain. :: al-Andalus || H: Nafh al-Tib (al-Maqqari)
 The Muslim general who crossed into Spain in 92 AH / 711 CE. :: Tariq ibn Ziyad || H: Nafh al-Tib (al-Maqqari)
 The rock named after Tariq ibn Ziyad. :: Gibraltar (Jabal Tariq) || H: Nafh al-Tib (al-Maqqari)
 The Ayyubid sultan who freed Jerusalem in 583 AH / 1187 CE. :: Salah al-Din al-Ayyubi رحمة الله عليه || H: al-Nawadir al-Sultaniyyah (Ibn Shaddad)
-The battle that opened the way for Salah al-Din to Jerusalem. :: The Battle of Hattin || H: al-Nawadir al-Sultaniyyah (Ibn Shaddad)
+The battle that opened the way for Salah al-Din رحمة الله عليه to Jerusalem. :: The Battle of Hattin || H: al-Nawadir al-Sultaniyyah (Ibn Shaddad)
 The empire that ruled from Istanbul. :: The Ottoman Empire || H: Standard history
 The Ottoman sultan who conquered Constantinople in 857 AH / 1453 CE. :: Sultan Muhammad al-Fatih || H: Standard history
 The famous "House of Wisdom" was in this city (meaning). :: Baghdad (Bayt al-Hikmah) || H: Standard history
@@ -64,7 +64,7 @@ The book of al-Baladhuri on the conquests of the lands. :: Futuh al-Buldan || H:
 The Seljuq vizier who founded the Nizamiyyah madrasahs. :: Nizam al-Mulk || H: Wafayat al-A'yan (Ibn Khallikan)
 The Seljuq victory over the Byzantines in 463 AH / 1071 CE. :: The Battle of Manzikert (Malazgird) || H: al-Kamil fil-Tarikh (Ibn al-Athir)
 The Seljuq sultan who won at Manzikert. :: Alp Arslan || H: al-Kamil fil-Tarikh (Ibn al-Athir)
-The Zengid ruler, master of Salah al-Din's uncle Shirkuh, who united Syria. :: Nur al-Din Zangi رحمة الله عليه || H: al-Kawakib al-Durriyyah (Ibn Qadi Shuhbah)
+The Zengid ruler, master of Salah al-Din's رحمة الله عليه uncle Shirkuh, who united Syria. :: Nur al-Din Zangi رحمة الله عليه || H: al-Kawakib al-Durriyyah (Ibn Qadi Shuhbah)
 The great history by Ibn al-Athir رحمة الله عليه. :: al-Kamil fil-Tarikh || H: al-Kamil fil-Tarikh
 The book of al-Dhahabi رحمة الله عليه on the lives of the nobles. :: Siyar A'lam al-Nubala' || H: Siyar A'lam al-Nubala'
 The book of Ibn Khallikan رحمة الله عليه on the deaths of notables. :: Wafayat al-A'yan || H: Wafayat al-A'yan
@@ -104,7 +104,7 @@ The battle in 922 AH / 1516 CE at which Selim I defeated the Mamluks in Syria. :
 ## 500
 The scholar who wrote "al-Bidayah wal-Nihayah". :: Ibn Kathir رحمة الله عليه || H: al-Bidayah wal-Nihayah
 The Ayyubid-era scholar who wrote "Mir'at al-Zaman". :: Sibt ibn al-Jawzi || H?: Mir'at al-Zaman; creed to be checked before adding an honorific
-The biographer of Salah al-Din who was also his judge. :: Baha' al-Din ibn Shaddad رحمة الله عليه || H: al-Nawadir al-Sultaniyyah
+The biographer of Salah al-Din رحمة الله عليه who was also his judge. :: Baha' al-Din ibn Shaddad رحمة الله عليه || H: al-Nawadir al-Sultaniyyah
 The scholar who wrote "Tarikh al-Khulafa'" on the caliphs. :: Jalal al-Din al-Suyuti رحمة الله عليه || H: Tarikh al-Khulafa'
 The Abbasid caliphate continued in name in this city after 656 AH. :: Cairo || H: Tarikh al-Khulafa' (al-Suyuti)
 The Mamluk sultan who won final victory over the Crusaders at Acre in 690 AH / 1291 CE. :: al-Ashraf Khalil || H: al-Suluk (al-Maqrizi)
@@ -116,7 +116,7 @@ The Ghaznavid sultan who campaigned into India, d. 421 AH / 1030 CE. :: Mahmud o
 The scholar-scientist of Ghazni's court who wrote on India. :: al-Biruni || H: Tahqiq ma lil-Hind
 The Muslim geographer who made a world map for King Roger of Sicily. :: al-Idrisi || H: Nuzhat al-Mushtaq
 The Muslim polymath of Basrah who wrote the Book of Optics. :: Ibn al-Haytham || H: Kitab al-Manazir
-The scholar of Khwarazm whose name gave us "algorithm". :: al-Khwarizmi || H: al-Kitab al-Mukhtasar fi Hisab al-Jabr
+The scholar of Khwarazm whose name gave us "algorithm". :: al-Khwarizmi رحمة الله عليه || H: al-Kitab al-Mukhtasar fi Hisab al-Jabr
 The Muslim physician whose "Canon of Medicine" was taught for centuries (meaning). :: Ibn Sina || H: al-Qanun fil-Tibb
 The surgeon of al-Andalus who wrote al-Tasrif. :: al-Zahrawi || H: al-Tasrif
 The Ottoman architect of the Süleymaniye Mosque. :: Mimar Sinan || H: Standard history

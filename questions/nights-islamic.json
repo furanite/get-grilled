@@ -9,21 +9,21 @@
   {
     "id": "mawlid-night",
     "name": "Blessed Mawlid Night",
-    "about": "The Blessed Seerah in Makkah and Madinah, the Companions, hadith, character and tasawwuf.",
+    "about": "The Blessed Seerah in Makkah and Madinah, the Companions (رِضْوَانُ اللَّهِ عَلَيْهِمْ), hadith, character and tasawwuf.",
     "cats": ["isl-seerah-makkah", "isl-seerah-madinah", "isl-sahabah", "isl-hadith", "isl-akhlaq", "isl-tasawwuf"],
     "extras": { "golden": 2, "steal": 1, "crowd": 1, "streak": true, "comeback": true, "lightning": true, "final": true }
   },
   {
     "id": "hajj-season",
     "name": "Hajj and Eid al-Adha",
-    "about": "Hajj, food and the udhiyah, the early Prophets, the Companions, Complete the Ayah and Islamic history.",
+    "about": "Hajj, food and the udhiyah, the early Blessed Prophets (عليهم السلام), the Companions (رِضْوَانُ اللَّهِ عَلَيْهِمْ), Complete the Ayah and Islamic history.",
     "cats": ["isl-hajj", "isl-food", "isl-prophets-early", "isl-sahabah", "isl-ayah", "isl-history"],
     "extras": { "golden": 2, "steal": 1, "crowd": 1, "streak": true, "comeback": true, "lightning": true, "final": true }
   },
   {
     "id": "civilisation",
     "name": "Islamic Civilisation",
-    "about": "Picture questions on Islamic architecture, with history, scholars, the Companions, the Qur'an and Complete the Ayah.",
+    "about": "Picture questions on Islamic architecture, with history, scholars, the Companions (رِضْوَانُ اللَّهِ عَلَيْهِمْ), the Qur'an and Complete the Ayah.",
     "cats": ["isl-architecture", "isl-history", "isl-scholars", "isl-sahabah", "isl-quran", "isl-ayah"],
     "extras": { "golden": 2, "steal": 2, "crowd": 1, "streak": true, "comeback": true, "lightning": true, "final": true }
   },

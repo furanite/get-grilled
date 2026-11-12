@@ -24,8 +24,8 @@ The person who narrates a hadith is called this. :: Rawi || H: Standard term
 A scholar who has mastered hadith is called this. :: Muhaddith || H: Standard term
 The short poem on hadith terms by al-Bayquni رحمة الله عليه. :: al-Manzumah al-Bayquniyyah || H: al-Bayquniyyah
 The short book on hadith terms by Ibn Hajar al-'Asqalani رحمة الله عليه. :: Nukhbat al-Fikar || H: Nukhbat al-Fikar
-Reports from the Companions and Successors are often called this. :: Athar || H: Tadrib al-Rawi (al-Suyuti)
-The generation after the Successors. :: Atba' al-Tabi'in || H: Muqaddimat Ibn al-Salah
+Reports from the Companions (رِضْوَانُ اللَّهِ عَلَيْهِمْ) and Successors رحمة الله عليهم are often called this. :: Athar || H: Tadrib al-Rawi (al-Suyuti)
+The generation after the Successors رحمة الله عليهم. :: Atba' al-Tabi'in || H: Muqaddimat Ibn al-Salah
 
 ## 200
 The number of conditions for a hadith to be sahih. :: 5 || H: Muqaddimah Ibn al-Salah
@@ -56,7 +56,7 @@ A hadith whose chain or text has been switched around by mistake. :: Maqlub || H
 A hadith narrated in conflicting ways of equal strength. :: Mudtarib || H: Muqaddimah Ibn al-Salah
 A hadith where a word is changed in its dots. :: Musahhaf || H: Nukhbat al-Fikar (Ibn Hajar)
 A hadith where a word is changed in its shape or vowels. :: Muharraf || H: Nukhbat al-Fikar (Ibn Hajar)
-A short chain with few narrators between the compiler and our Beloved Master ﷺ. :: 'Ali (high) isnad || H: Muqaddimah Ibn al-Salah
+A short chain with few narrators between the compiler and our Beloved Master ﷺ. :: Our master 'Ali (رِضْوَانُ اللَّهِ عَلَيْهِ) (high) isnad || H: Muqaddimah Ibn al-Salah
 A long chain with more narrators. :: Nazil (low) isnad || H: Muqaddimah Ibn al-Salah
 A chain in which every narrator says the same words or does the same act. :: Musalsal || H: Muqaddimah Ibn al-Salah
 The famous musalsal hadith on mercy that scholars read first to students. :: al-Musalsal bil-awwaliyyah || H: Fath al-Bari; works of thabat
@@ -86,7 +86,7 @@ The commentary of al-Suyuti رحمة الله عليه on al-Nawawi's رحمة �
 Ibn Hajar's رحمة الله عليه own commentary on his Nukhbat al-Fikar. :: Nuzhat al-Nazar || H: Nuzhat al-Nazar
 The commentary of al-Sakhawi رحمة الله عليه on the Alfiyyah of al-'Iraqi رحمة الله عليه. :: Fath al-Mughith || H: Fath al-Mughith
 A Companion's statement about something only known by revelation takes this ruling. :: The ruling of marfu' (hukmuhu al-raf') || H: Nukhbat al-Fikar (Ibn Hajar)
-The view of most scholars on all the Companions' reliability. :: All are upright ('udul) || H: al-Isabah (Ibn Hajar), introduction
+The view of most scholars on all the Companions' (رِضْوَانُ اللَّهِ عَلَيْهِمْ) reliability. :: All are upright ('udul) || H: al-Isabah (Ibn Hajar), introduction
 The highest level of praise for a narrator, such as "most reliable of people" (meaning). :: Awthaq al-nas (af'al form) || H: Nuzhat al-Nazar (Ibn Hajar)
 A hadith that al-Bukhari and Muslim رحمة الله عليهما both narrate from the same Companion. :: Muttafaq 'alayh || H: Standard term
 A hadith that meets the conditions of al-Bukhari and Muslim رحمة الله عليهما, but neither narrated it. :: 'Ala shart al-shaykhayn || H: al-Mustadrak (al-Hakim)
@@ -102,8 +102,8 @@ An extra word narrated by one reliable narrator that others did not narrate. :: 
 Receiving hadith by finding a scholar's writing, without hearing or permission. :: Wijadah || H: Muqaddimat Ibn al-Salah
 
 ## 500
-The book in which Imam al-Shafi'i رحمة الله عليه set conditions for accepting a mursal hadith. :: al-Risalah (al-Shafi'i) || H: al-Risalah (al-Shafi'i)
-The Imam who accepted the mursal of the senior Successors, in line with his school. :: Imam Abu Hanifah رحمة الله عليه (and Malik) || H: Usul al-Sarakhsi
+The book in which Imam al-Shafi'i رحمة الله عليه set conditions for accepting a mursal hadith. :: al-Risalah (al-Shafi'i رحمة الله عليه) || H: al-Risalah (al-Shafi'i)
+The Imam who accepted the mursal of the senior Successors رحمة الله عليهم, in line with his school. :: Imam Abu Hanifah رحمة الله عليه (and Malik) || H: Usul al-Sarakhsi
 The Successor whose mursal reports al-Shafi'i رحمة الله عليه especially accepted. :: Sa'id ibn al-Musayyib رحمة الله عليه || H: al-Risalah (al-Shafi'i); Muqaddimah Ibn al-Salah
 Tadlis where a narrator calls his teacher by an unknown name. :: Tadlis al-shuyukh || H: Muqaddimah Ibn al-Salah
 Tadlis where a weak narrator between two reliable ones is dropped. :: Tadlis al-taswiyah || H: Nukhbat al-Fikar (Ibn Hajar)

@@ -6,7 +6,7 @@ This file is rewritten by `npm run packs`.
 
 ## The unseen and the Hereafter (questions/isl-akhirah.txt)
 
-- **200**, line 55: The keeper of Paradise named in some reports. **Answer:** Ridwan _(Source: Reported in hadith; source to be checked)_
+- **200**, line 55: The keeper of Paradise named in some reports. **Answer:** Ridwan ﵇ _(Source: Reported in hadith; source to be checked)_
 - **400**, line 128: Our Beloved Prophet ﷺ said the grave is either a garden of Paradise or this (paraphrased). **Answer:** A pit of the Fire _(Source: Sunan al-Tirmidhi; grade to be checked)_
 - **400**, line 133: The plain on which Allah will gather people is said to be in this land. **Answer:** al-Sham _(Source: Musnad Ahmad; to be checked)_
 - **400**, line 134: The highest people of Paradise will see Allah morning and this. **Answer:** Evening _(Source: Sunan al-Tirmidhi; to be checked)_
@@ -71,8 +71,8 @@ This file is rewritten by `npm run packs`.
 
 ## Blessed Prophets (عليهم السلام): Adam to Ibrahim (questions/isl-prophets-early.txt)
 
-- **400**, line 77: In a report of Abu Dharr (رِضْوَانُ اللَّهِ عَلَيْهِ), four Arab Blessed Prophets (عليهم السلام) are named: Hud, Salih, Shu'ayb and this one. **Answer:** Our Beloved Prophet Muhammad ﷺ _(Source: Sahih Ibn Hibban; to be checked)_
-- **400**, line 81: The city Ibrahim (عليه السلام) came from, by the common view of historians. **Answer:** Ur (in Iraq) _(Source: Tarikh al-Tabari; to be checked)_
+- **400**, line 77: In a report of Abu Dharr (رِضْوَانُ اللَّهِ عَلَيْهِ), four Arab Blessed Prophets ﵈ are named: Hud, Salih, Shu'ayb and this one. **Answer:** Our Beloved Prophet Muhammad ﷺ _(Source: Sahih Ibn Hibban; to be checked)_
+- **400**, line 81: The city our master Ibrahim ﵇ came from, by the common view of historians. **Answer:** Ur (in Iraq) _(Source: Tarikh al-Tabari; to be checked)_
 
 ## The Qur'an (questions/isl-quran.txt)
 
@@ -89,8 +89,8 @@ This file is rewritten by `npm run packs`.
 
 ## The Companions (questions/isl-sahabah.txt)
 
-- **500**, line 126: The number of Companions whose lives are in al-Isabah, roughly. **Answer:** About 12,000 _(Source: al-Isabah (Ibn Hajar); count to be checked)_
-- **500**, line 129: The cousin of our Beloved Prophet ﷺ, son of al-'Abbas, whose grave is honoured in Samarqand. **Answer:** Qutham ibn al-'Abbas (رِضْوَانُ اللَّهِ عَلَيْهِ) _(Source: al-Isabah (Ibn Hajar); place of death to be checked)_
+- **500**, line 126: The number of Companions (رِضْوَانُ اللَّهِ عَلَيْهِمْ) whose lives are in al-Isabah, roughly. **Answer:** About 12,000 _(Source: al-Isabah (Ibn Hajar); count to be checked)_
+- **500**, line 129: The cousin of our Beloved Prophet ﷺ, son of our master al-'Abbas (رِضْوَانُ اللَّهِ عَلَيْهِ), whose grave is honoured in Samarqand. **Answer:** Qutham ibn al-'Abbas (رِضْوَانُ اللَّهِ عَلَيْهِ) _(Source: al-Isabah (Ibn Hajar); place of death to be checked)_
 
 ## Fiqh: Prayer (Salah) (questions/isl-salah.txt)
 
@@ -138,7 +138,7 @@ This file is rewritten by `npm run packs`.
 
 - **400**, line 164: The two qullahs are about this much water in today's measures, by a common estimate. **Answer:** About 190 to 270 litres _(Source: Modern estimates differ; to be checked)_
 - **400**, line 189: In the Hanafi school, a woman's habit ('adah) in hayd is set by it happening this many times. **Answer:** Once _(Source: al-Hidayah (al-Marghinani); check Abu Yusuf's view (once) against that of Abu Hanifah and Muhammad (twice))_
-- **500**, line 263: The famous chapter in the books of hadith on wiping over khuffs says this many Companions narrated it, by al-Hasan al-Basri's رحمة الله عليه count. **Answer:** 70 _(Source: Fath al-Bari (Ibn Hajar); check the wording of al-Hasan's report)_
+- **500**, line 263: The famous chapter in the books of hadith on wiping over khuffs says this many Companions (رِضْوَانُ اللَّهِ عَلَيْهِمْ) narrated it, by al-Hasan al-Basri's رحمة الله عليه count. **Answer:** 70 _(Source: Fath al-Bari (Ibn Hajar); check the wording of al-Hasan's report)_
 
 ## Tajwid (questions/isl-tajwid.txt)
 
@@ -163,16 +163,16 @@ This file is rewritten by `npm run packs`.
 - **400**, line 96: Our master 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِ) appointed this woman to oversee the market of Madinah, by one report. **Answer:** al-Shifa' bint 'Abdullah (رِضْوَانُ اللَّهِ عَلَيْهَا) _(Source: al-Isti'ab (Ibn 'Abd al-Barr); report to be checked)_
 - **500**, line 115: Imam Ahmad رحمة الله عليه said of a man who sits in his house saying his provision will come: he is this. **Answer:** Ignorant of knowledge (he has not understood) _(Source: Reported in Hanbali works; to be checked)_
 - **500**, line 117: In the Hanafi school, a muzara'ah needs these conditions, including the share and the seed's owner known. **Answer:** 8 _(Source: al-Hidayah (al-Marghinani); count to be checked)_
-- **500**, line 121: The Companion who ran the first diwan with 'Umar, by some reports. **Answer:** 'Aqil ibn Abi Talib and others (genealogists) _(Source: Futuh al-Buldan (al-Baladhuri); to be checked)_
+- **500**, line 121: The Companion who ran the first diwan with our master 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِ), by some reports. **Answer:** 'Aqil ibn Abi Talib and others (genealogists) _(Source: Futuh al-Buldan (al-Baladhuri); to be checked)_
 - **500**, line 131: Our master 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِ) said "The sky does not rain gold or" this (meaning). **Answer:** Silver _(Source: Ihya' 'Ulum al-Din (report of 'Umar); to be checked)_
 
 ## Fiqh: Zakat (questions/isl-zakat.txt)
 
-- **200**, line 99: The share for the "hearts to be won over" was stopped in the time of this caliph, by the Hanafi view (meaning). **Answer:** Our master 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِ) (during Abu Bakr's caliphate) _(Source: al-Hidayah; check the wording of the report)_
+- **200**, line 99: The share for the "hearts to be won over" was stopped in the time of this caliph, by the Hanafi view (meaning). **Answer:** Our master 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِ), in our master Abu Bakr's (رِضْوَانُ اللَّهِ عَلَيْهِ) time _(Source: al-Hidayah; check the wording of the report)_
 - **400**, line 203: In the Hanafi school, the amount of zakat al-fitr in raisins is half a sa', by Abu Hanifah's رحمة الله عليه view in one report, and a full sa' by this. **Answer:** The two students (and the relied view) _(Source: al-Hidayah; check which view is relied upon)_
 - **500**, line 249: The Companion who said "Zakat is a bridge of Islam" (meaning). **Answer:** Abu al-Darda' (رِضْوَانُ اللَّهِ عَلَيْهِ) _(Source: check the source of this saying)_
 
 ## Our Beloved Prophet ﷺ (questions/kids-seerah.txt)
 
-- **100**, line 14: The kind lady who fed the baby Prophet ﷺ in the desert. **Answer:** Halimah al-Sa'diyyah (رِضْوَانُ اللَّهِ عَلَيْهَا) _(Source: Ibn Hisham, al-Sirah; check: her Islam and so the honorific are debated)_
+- **100**, line 14: The kind lady who fed our Beloved Prophet ﷺ as a baby in the desert. **Answer:** Halimah al-Sa'diyyah (رِضْوَانُ اللَّهِ عَلَيْهَا) _(Source: Ibn Hisham, al-Sirah; check: her Islam and so the honorific are debated)_
 - **400**, line 188: Our Beloved Prophet ﷺ and our lady Khadijah (رِضْوَانُ اللَّهِ عَلَيْهَا) had this many children. **Answer:** 6 (2 sons, 4 daughters) _(Source: Ibn Hisham, al-Sirah; reports differ on the number of sons)_

@@ -20,7 +20,7 @@ The book of hadith by Imam Malik رحمة الله عليه. :: al-Muwatta' || H
 The great Musnad was compiled by this Imam. :: Imam Ahmad ibn Hanbal رحمة الله عليه || H: Musnad Ahmad
 Riyad al-Salihin, the "Gardens of the Righteous", was compiled by this scholar (meaning). :: Imam al-Nawawi رحمة الله عليه || H: Riyad al-Salihin
 A Companion is someone who met our Beloved Prophet ﷺ as a believer and died as one. In Arabic, a Companion is called this. :: Sahabi || H: Nukhbat al-Fikar (Ibn Hajar)
-The generation after the Companions. :: The Tabi'un (Successors) || H: Muqaddimah Ibn al-Salah
+The generation after the Companions (رِضْوَانُ اللَّهِ عَلَيْهِمْ). :: The Tabi'un (Successors) رحمة الله عليهم || H: Muqaddimah Ibn al-Salah
 The chain of narrators that carries a hadith. :: Isnad || H: Muqaddimah Ibn al-Salah
 Imam al-Bukhari رحمة الله عليه was born in this city of Central Asia. :: Bukhara || H: Tarikh Baghdad (al-Khatib)
 Imam Muslim رحمة الله عليه was born in this city of Khurasan. :: Nishapur || H: Tarikh Baghdad (al-Khatib)
@@ -34,11 +34,11 @@ Our Beloved Prophet ﷺ said seeking knowledge is an obligation on this person (
 ## 200
 Imam al-Bukhari رحمة الله عليه died in this year. :: 256 AH / 870 CE || H: Tarikh Baghdad (al-Khatib)
 Imam Muslim رحمة الله عليه died in this year. :: 261 AH / 875 CE || H: Tarikh Baghdad (al-Khatib)
-The author of al-Sunan who was a student of Imam Ahmad, d. 275 AH / 889 CE. :: Abu Dawud al-Sijistani رحمة الله عليه || H: Siyar A'lam al-Nubala' (al-Dhahabi)
-The author of al-Jami' (al-Sunan), a student of al-Bukhari, d. 279 AH / 892 CE. :: Imam al-Tirmidhi رحمة الله عليه || H: Siyar A'lam al-Nubala' (al-Dhahabi)
+The author of al-Sunan who was a student of Imam Ahmad رحمة الله عليه, d. 275 AH / 889 CE. :: Abu Dawud al-Sijistani رحمة الله عليه || H: Siyar A'lam al-Nubala' (al-Dhahabi)
+The author of al-Jami' (al-Sunan), a student of al-Bukhari رحمة الله عليه, d. 279 AH / 892 CE. :: Imam al-Tirmidhi رحمة الله عليه || H: Siyar A'lam al-Nubala' (al-Dhahabi)
 The author of al-Mujtaba (al-Sunan al-Sughra), d. 303 AH / 915 CE. :: Imam al-Nasa'i رحمة الله عليه || H: Siyar A'lam al-Nubala' (al-Dhahabi)
 The author of al-Sunan from Qazwin, d. 273 AH / 887 CE. :: Ibn Majah رحمة الله عليه || H: Siyar A'lam al-Nubala' (al-Dhahabi)
-The four books of Sunan are those of Abu Dawud, al-Tirmidhi, al-Nasa'i and this scholar. :: Ibn Majah رحمة الله عليه || H: Standard term (al-Sunan al-Arba'ah)
+The four books of Sunan are those of Abu Dawud رحمة الله عليه, al-Tirmidhi رحمة الله عليه, al-Nasa'i رحمة الله عليه and this scholar. :: Ibn Majah رحمة الله عليه || H: Standard term (al-Sunan al-Arba'ah)
 The famous commentary on Sahih al-Bukhari by Ibn Hajar al-'Asqalani رحمة الله عليه. :: Fath al-Bari || H: Fath al-Bari
 The commentary on Sahih Muslim by Imam al-Nawawi رحمة الله عليه. :: al-Minhaj (Sharh Sahih Muslim) || H: al-Minhaj (al-Nawawi)
 Ibn Hajar al-'Asqalani رحمة الله عليه died in this year. :: 852 AH / 1449 CE || H: al-Daw' al-Lami' (al-Sakhawi)
@@ -52,7 +52,7 @@ Riyad al-Salihin and al-Arba'in were both written in this city. :: Damascus || H
 The book by Imam al-Bukhari رحمة الله عليه on manners. :: al-Adab al-Mufrad || H: al-Adab al-Mufrad
 The book by al-Tirmidhi رحمة الله عليه on the qualities and character of our Beloved Prophet ﷺ. :: al-Shama'il al-Muhammadiyyah || H: al-Shama'il (al-Tirmidhi)
 The forty hadith of al-Nawawi رحمة الله عليه actually hold this many hadith. :: 42 || H: al-Arba'in al-Nawawiyyah
-The hadith of Jibril in Sahih Muslim is narrated by this Companion. :: Our master 'Umar ibn al-Khattab (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih Muslim
+The hadith of Jibril (عليه السلام) in Sahih Muslim is narrated by this Companion. :: Our master 'Umar ibn al-Khattab (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih Muslim
 The last hadith of Sahih al-Bukhari speaks of two phrases light on the tongue and heavy on the scale: these. :: Subhan Allah wa bi-hamdihi, Subhan Allah al-'Azim || H: Sahih al-Bukhari
 "Avoid the seven destroyers," our Beloved Prophet ﷺ said; the first named is this (meaning). :: Shirk (associating partners with Allah) || H: Sahih al-Bukhari
 The Companion who narrated "What is halal is clear and what is haram is clear" (meaning). :: al-Nu'man ibn Bashir (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: Sahih al-Bukhari
@@ -83,11 +83,11 @@ After Abu Hurayrah (رِضْوَانُ اللَّهِ عَلَيْهِ), the Com
 Al-Shafi'i رحمة الله عليه said, before al-Bukhari's رحمة الله عليه time, that no book after the Book of Allah is more correct than this. :: The Muwatta' of Malik || H: al-Tamhid (Ibn 'Abd al-Barr)
 
 ## 400
-The Hanafi transmission of al-Muwatta' by the student of Abu Hanifah and Malik رحمة الله عليهما. :: Muwatta' Muhammad (al-Shaybani) || H: Muwatta' Muhammad
+The Hanafi transmission of al-Muwatta' by the student of Abu Hanifah and Malik رحمة الله عليهما. :: Muwatta' Muhammad (al-Shaybani رحمة الله عليه) || H: Muwatta' Muhammad
 The famous commentary on Sunan Abi Dawud by al-Khattabi رحمة الله عليه. :: Ma'alim al-Sunan || H: Ma'alim al-Sunan (al-Khattabi)
 The book of hadith on rulings by the Hanafi scholar al-Tahawi رحمة الله عليه. :: Sharh Ma'ani al-Athar || H: Sharh Ma'ani al-Athar
 The great Hanafi work by al-Zayla'i رحمة الله عليه that traces the hadith of al-Hidayah. :: Nasb al-Rayah || H: Nasb al-Rayah (al-Zayla'i)
-The book of Ibn Hajar رحمة الله عليه on the Companions. :: al-Isabah fi Tamyiz al-Sahabah || H: al-Isabah
+The book of Ibn Hajar رحمة الله عليه on the Companions (رِضْوَانُ اللَّهِ عَلَيْهِمْ). :: al-Isabah fi Tamyiz al-Sahabah || H: al-Isabah
 The book of Ibn Hajar رحمة الله عليه on narrators, a summary of Tahdhib al-Kamal. :: Tahdhib al-Tahdhib || H: Tahdhib al-Tahdhib
 Tahdhib al-Kamal on the narrators of the six books was written by this scholar. :: al-Mizzi رحمة الله عليه || H: Tahdhib al-Kamal
 The book by al-Dhahabi رحمة الله عليه on criticised narrators. :: Mizan al-I'tidal || H: Mizan al-I'tidal
@@ -106,7 +106,7 @@ The commentary on al-Arba'in al-Nawawiyyah by Ibn Hajar al-Haytami رحمة ال
 The last hadith of al-Nawawi's رحمة الله عليه Forty is a hadith qudsi about this. :: Forgiveness ("O son of Adam, as long as you call on Me") || H: al-Arba'in al-Nawawiyyah
 Sahih al-Bukhari without repeats holds about this many connected hadith, by Ibn Hajar's رحمة الله عليه count. :: About 2,600 (2,602) || H: Hady al-Sari (Ibn Hajar)
 The teacher whose wish for a short book of only sahih hadith moved al-Bukhari رحمة الله عليه to write his Sahih. :: Ishaq ibn Rahawayh رحمة الله عليه || H: Hady al-Sari (Ibn Hajar)
-The scholar who first counted the Sunan of Ibn Majah among the six books. :: Ibn Tahir al-Maqdisi رحمة الله عليه || H: Tadrib al-Rawi (al-Suyuti)
+The scholar who first counted the Sunan of Ibn Majah رحمة الله عليه among the six books. :: Ibn Tahir al-Maqdisi رحمة الله عليه || H: Tadrib al-Rawi (al-Suyuti)
 Al-Bayhaqi's رحمة الله عليه book on the branches of faith. :: Shu'ab al-Iman || H: Shu'ab al-Iman
 Al-Bayhaqi's رحمة الله عليه book on the signs of prophethood. :: Dala'il al-Nubuwwah || H: Dala'il al-Nubuwwah
 Al-Haythami's رحمة الله عليه book gathering hadith beyond the six books from the Musnads and Mu'jams. :: Majma' al-Zawa'id || H: Majma' al-Zawa'id
@@ -119,7 +119,7 @@ The scholar of Basrah called the "commander of the believers in hadith", d. 160 
 The Successor whom 'Umar ibn 'Abd al-'Aziz رحمة الله عليه tasked with collecting hadith officially. :: Ibn Shihab al-Zuhri رحمة الله عليه || H: Fath al-Bari, Book of Knowledge
 The Umayyad caliph who ordered hadith to be written down officially, d. 101 AH / 720 CE. :: 'Umar ibn 'Abd al-'Aziz رحمة الله عليه || H: Sahih al-Bukhari, Book of Knowledge (ta'liq)
 The chain "Malik from Nafi' from Ibn 'Umar" (رِضْوَانُ اللَّهِ عَلَيْهِمَا), which al-Bukhari رحمة الله عليه called the soundest of chains, is known by this name. :: The golden chain (silsilat al-dhahab) || H: Muqaddimah Ibn al-Salah
-The early written page of hadith that Hammam ibn Munabbih رحمة الله عليه took from Abu Hurayrah (رِضْوَانُ اللَّهِ عَلَيْهِ). :: Sahifat Hammam ibn Munabbih || H: Sahifat Hammam ibn Munabbih
+The early written page of hadith that Hammam ibn Munabbih رحمة الله عليه took from Abu Hurayrah (رِضْوَانُ اللَّهِ عَلَيْهِ). :: Sahifat Hammam ibn Munabbih رحمة الله عليه || H: Sahifat Hammam ibn Munabbih
 The Companion who wrote hadith in a page called al-Sadiqah. :: 'Abdullah ibn 'Amr ibn al-'As (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: Sunan al-Darimi; Musnad Ahmad
 The book by Ibn Abi Hatim رحمة الله عليه on praising and criticising narrators. :: al-Jarh wal-Ta'dil || H: al-Jarh wal-Ta'dil
 The early collection by 'Abd al-Razzaq al-San'ani رحمة الله عليه. :: al-Musannaf || H: Musannaf 'Abd al-Razzaq
