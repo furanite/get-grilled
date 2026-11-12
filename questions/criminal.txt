@@ -1,0 +1,558 @@
+id: criminal
+name: Criminal Law
+group: law
+
+## 100
+An act that breaks the law and can be punished by the state. :: A crime
+A person accused of a crime in court. :: The defendant (accused)
+The lawyer who presents the case against the accused. :: The prosecutor
+The lawyer who speaks for the accused. :: The defence lawyer
+The person who decides a case in court. :: The judge
+A group of citizens who decide guilt in some countries. :: A jury
+A decision of "guilty" or "not guilty". :: A verdict
+The punishment given by a court. :: A sentence
+A person who saw a crime and tells the court. :: A witness
+Information used to prove facts in court. :: Evidence
+Taking someone's property without permission and meaning to keep it. :: Theft
+Stealing by force or threat. :: Robbery
+Entering a building to steal. :: Burglary
+Deliberately setting fire to property. :: Arson
+Killing a person deliberately and unlawfully. :: Murder
+Killing a person without intending to. :: Manslaughter (accidental killing)
+Taking a person away by force. :: Kidnapping
+Lying under oath in court. :: Perjury
+Making a false copy of a document or signature. :: Forgery
+Tricking someone to get money or property. :: Fraud
+Offering money to an official to get a favour. :: Bribery
+Using public money for oneself by an employee entrusted with it. :: Embezzlement
+Hiding where illegal money came from. :: Money laundering
+Using violence to scare people for political aims. :: Terrorism
+Breaking into computers without permission. :: Hacking (cybercrime)
+Harming someone's reputation by false statements. :: Defamation
+Damaging property on purpose, like spraying graffiti. :: Vandalism
+Selling illegal drugs. :: Drug trafficking
+A minor crime, such as a parking violation. :: A misdemeanour (minor offence)
+A serious crime, such as murder. :: A felony (major crime)
+Being held by police on suspicion of a crime. :: Arrest
+A formal accusation of a crime. :: A charge
+Money paid to release an accused person until trial. :: Bail
+The place where convicted people are kept. :: Prison
+A punishment of paying money. :: A fine
+Freeing a prisoner early under supervision. :: Parole
+A court case about a crime. :: A criminal trial
+The rule that a person is innocent until this. :: Proven guilty
+The level of proof needed for a criminal conviction in many countries. :: Beyond reasonable doubt
+Proof that the accused was somewhere else at the time. :: An alibi
+A person who helps another commit a crime. :: An accomplice
+A plan between two or more people to commit a crime. :: Conspiracy
+Trying but failing to commit a crime. :: Attempt
+Using reasonable force to protect yourself. :: Self-defence
+The police officer who investigates crimes. :: A detective
+A written order from a court allowing a search. :: A search warrant
+Marks left by the tips of the fingers. :: Fingerprints
+The genetic material used to identify people in investigations. :: DNA
+The science used to solve crimes. :: Forensic science
+The international police organisation. :: Interpol
+Interpol's headquarters are in this French city. :: Lyon
+A request to find and arrest a wanted person through Interpol. :: A Red Notice
+Sending a person to another country to face trial. :: Extradition
+A person who breaks the law. :: An offender (criminal)
+A person harmed by a crime. :: A victim
+The emergency number for police in Saudi Arabia. :: 911 (formerly 999)
+Saudi Arabia's prosecution body. :: The Public Prosecution
+Saudi Arabia's criminal courts are part of this court system. :: The general judiciary (Ministry of Justice)
+The Arabic word for crime. :: Jarimah
+The Arabic word for punishment. :: 'Uqubah
+Fixed punishments set by the Quran and Sunnah. :: Hudud
+Punishments by equal retaliation for killing and injury. :: Qisas
+Compensation paid for killing or injury. :: Diyah (blood money)
+Punishments decided by a judge where no fixed one exists. :: Ta'zir
+The Arabic word for a judge. :: Qadi
+The Arabic word for a witness. :: Shahid
+The Arabic word for a confession. :: Iqrar
+The Arabic word for an oath. :: Yamin
+The singular of hudud. :: Hadd
+A crime against the Saudi Anti-Harassment Law of 2018. :: Harassment
+Driving after drinking alcohol. :: Drunk driving
+Driving faster than the speed limit. :: Speeding
+The Saudi camera system that records traffic violations. :: Saher
+Taking a photo of someone without permission and sharing it to harm them is punished under this Saudi law. :: The Anti-Cybercrime Law
+Saudi Arabia's Anti-Cybercrime Law was issued in this year. :: 2007
+The person who commits a crime is called this in Arabic. :: Jani (mujrim)
+A person who is too young to be fully responsible for a crime. :: A juvenile (minor)
+The court that hears cases of children. :: The juvenile court
+Watching a person through a hidden camera is this. :: Invasion of privacy
+Making threats to get money. :: Extortion (blackmail)
+Taking money from someone by pretending to be a bank by phone. :: Phone fraud (scam)
+An email pretending to be from a bank to steal passwords. :: Phishing
+Stealing someone's personal details to pretend to be them. :: Identity theft
+Buying stolen goods knowing they were stolen. :: Handling stolen goods
+A crime done by an employee in an office, such as fraud. :: White-collar crime
+A group that does crimes in an organised way. :: Organised crime (gang)
+Selling people for forced work. :: Human trafficking
+Moving people across borders illegally for money. :: People smuggling
+Taking goods across a border without paying customs. :: Smuggling
+A police record of past crimes. :: A criminal record
+A punishment served in the community instead of prison. :: Community service
+A person who tells police about a crime from inside a group. :: An informant (whistleblower)
+The time limit to prosecute some crimes. :: Statute of limitations
+Being tried twice for the same crime is forbidden by this rule. :: Double jeopardy (ne bis in idem)
+The right to stay silent when questioned. :: The right to silence
+The right to have a lawyer. :: The right to counsel
+A written statement made under oath. :: An affidavit
+A person who sees a crime but did not take part. :: A bystander
+The police report of a crime. :: A police report (complaint)
+The police unit for crimes in Saudi Arabia is part of this ministry. :: The Ministry of Interior
+The Saudi app for reporting crimes and security issues. :: Kollona Amn
+Hitting another person on purpose. :: Assault (battery)
+Breaking the law by entering land without permission. :: Trespass
+
+## 200
+The Latin phrase "guilty act". :: Actus reus
+The Latin phrase "guilty mind". :: Mens rea
+The rule that no crime exists without a law. :: Nullum crimen sine lege (legality)
+The Arabic principle of legality: "No crime and no punishment except by" this. :: A text (nass)
+The Saudi Basic Law article that says no crime or punishment without a Sharia or statutory text. :: Article 38
+The Saudi Law of Criminal Procedure was first issued in this year. :: 2001
+The Saudi Law of Criminal Procedure was updated in this year. :: 2013
+The Saudi Law of Criminal Procedure says arrest must not exceed this many hours before the prosecutor is told. :: 24
+Saudi Arabia's Public Prosecution was renamed from this in 2017. :: The Bureau of Investigation and Public Prosecution
+The head of the Saudi Public Prosecution is called this. :: The Attorney General (Public Prosecutor)
+Saudi Arabia's Specialized Criminal Court was set up in this year. :: 2008
+The Saudi Specialized Criminal Court hears these cases. :: Terrorism and state security
+The Saudi Anti-Harassment Law was issued in this year. :: 2018
+The maximum prison term for harassment under the Saudi law (basic case). :: Two years
+The maximum fine for harassment under the Saudi law (basic case). :: 100,000 riyals
+The Saudi law against drugs. :: The Narcotics and Psychotropic Substances Control Law
+The Saudi body that fights drugs. :: The General Directorate of Narcotics Control
+The Saudi Anti-Money Laundering Law was issued in this year. :: 2017
+The Saudi law on combating terrorism and its financing was issued in this year. :: 2017
+The Saudi Nazaha authority fights this. :: Corruption
+Nazaha merged with this body in 2019. :: The Control and Investigation Board
+The Saudi anti-corruption campaign at the Ritz-Carlton hotel happened in this year. :: 2017
+The Saudi Anti-Bribery Law was issued in this year. :: 1992
+The Saudi Anti-Cybercrime Law sets prison of up to this many years for illegal access to state data. :: Ten
+The Saudi law against human trafficking was issued in this year. :: 2009
+The Saudi law protecting children was issued in this year. :: 2014
+The Saudi law against domestic abuse. :: The Protection from Abuse Law (2013)
+The Saudi Juvenile Law was issued in this year. :: 2018
+Under the Saudi Juvenile Law, a person under this age is a juvenile. :: 18
+The Saudi Juvenile Law says a child under this age can't be held criminally liable. :: Seven (a child who has not reached discernment)
+Under the Saudi Juvenile Law, a juvenile who commits a hadd or qisas crime at 15 to 18 may get at most this length of detention instead of death. :: Ten years
+Saudi Arabia ended flogging as a ta'zir punishment in this year, replacing it with fines or prison. :: 2020
+Saudi Arabia ended the death penalty for crimes committed by minors in this year (by royal order). :: 2020
+In Islamic law, the conditions for hudud include that the person is adult, sane and this. :: Knew the act was forbidden (acting by choice)
+The hadith "Avert the hudud by doubts" sets this principle. :: Doubt prevents fixed punishments
+In Islamic law, doubts that stop hudud are called this. :: Shubuhat
+The hudud crimes include zina, false accusation of zina (qadhf), theft, highway robbery (hirabah), drinking wine and this. :: Apostasy (and rebellion, by many scholars)
+The Quran verse on highway robbery (hirabah) is in this surah. :: Surat al-Ma'idah (verse 33)
+The Quran verse on theft is in this surah. :: Surat al-Ma'idah (verse 38)
+The Quran verse on qadhf, accusing chaste women, is in this surah. :: Surat al-Nur (verse 4)
+The hadd for qadhf in the Quran is this many lashes. :: 80
+The Quran says witnesses who falsely accuse of zina have their testimony do this. :: Never be accepted
+To prove zina by testimony, this many witnesses are needed. :: Four
+The hadd for theft requires the item to reach this minimum value. :: The nisab (a quarter dinar by the majority)
+The hadd for theft is not applied to food taken by a starving person because of this. :: Necessity (doubt)
+Qisas in the Quran is described as "life for you" in this surah. :: Surat al-Baqarah (verse 179)
+The verse "life for life, eye for eye" is in this surah. :: Surat al-Ma'idah (verse 45)
+The victim's heirs may choose qisas, diyah or this. :: Forgiveness ('afw)
+The Quran encourages forgiving in qisas in this surah, verse 178. :: Surat al-Baqarah
+Killing with intent and a deadly weapon in Islamic law. :: Qatl al-'amd (deliberate killing)
+Killing with intent to harm but with a non-deadly means. :: Shibh al-'amd (quasi-deliberate)
+Accidental killing in Islamic law. :: Qatl al-khata'
+The expiation (kaffarah) for accidental killing is in this surah. :: Surat al-Nisa' (verse 92)
+The diyah for deliberate killing is paid by this person. :: The killer himself
+The diyah for accidental killing is paid by this group. :: The 'aqilah (the killer's male relatives)
+The fiqh term for the oaths taken by 50 men in a case of unknown killer. :: Qasamah
+The Saudi Ministry of Justice platform for petitions and cases. :: Najiz
+The UN body that works against drugs and crime. :: UNODC
+The UN convention against corruption was adopted in this year. :: 2003
+The UN convention against transnational organised crime is called this. :: The Palermo Convention (2000)
+The international court that tries individuals for genocide and war crimes. :: The International Criminal Court
+The ICC was created by this statute. :: The Rome Statute
+The Rome Statute was adopted in this year. :: 1998
+The ICC is in this city. :: The Hague
+The four core crimes of the ICC: genocide, crimes against humanity, war crimes and this. :: Aggression
+The court that tried Nazi leaders after the Second World War. :: The Nuremberg Tribunal
+The UN tribunal for crimes in the former Yugoslavia. :: The ICTY
+The UN tribunal for the 1994 genocide in Rwanda. :: The ICTR
+The ICTR was based in this city. :: Arusha
+In English law, the classic definition of murder comes from this judge. :: Sir Edward Coke
+The rule that a death must happen within a year and a day for murder was abolished in England in this year. :: 1996
+The English case where shipwrecked sailors ate a cabin boy; necessity was no defence to murder. :: R v Dudley and Stephens (1884)
+The defence that a person was forced by threats to commit a crime. :: Duress
+The defence of mental illness at the time of a crime. :: Insanity
+The English rules that set the insanity defence. :: The M'Naghten Rules (1843)
+The defence that the accused was tricked by police into a crime. :: Entrapment
+A crime that needs no proof of a guilty mind. :: A strict liability offence
+The American case that gave suspects the right to be told their rights. :: Miranda v Arizona (1966)
+The warning "You have the right to remain silent" is called this. :: The Miranda warning
+The US case that gave poor defendants a right to a lawyer. :: Gideon v Wainwright (1963)
+The rule that illegally obtained evidence is not used in US courts. :: The exclusionary rule
+The legal term for evidence found because of illegal evidence. :: Fruit of the poisonous tree
+The US case that banned the death penalty for crimes by minors. :: Roper v Simmons (2005)
+The English Police and Criminal Evidence Act is known by this short name. :: PACE
+PACE was passed in this year. :: 1984
+The legal principle that criminal law must be clear. :: Certainty (legality)
+Punishing someone for an act that was legal when done is called this. :: A retroactive (ex post facto) law
+The four aims of punishment: retribution, deterrence, rehabilitation and this. :: Incapacitation (protection)
+The idea of repairing harm through meetings between offender and victim. :: Restorative justice
+The Italian thinker who wrote "On Crimes and Punishments" (1764). :: Cesare Beccaria
+The English philosopher who designed the "Panopticon" prison. :: Jeremy Bentham
+The Italian criminologist who claimed criminals have physical signs. :: Cesare Lombroso
+A person who helps an offender after the crime, such as hiding him. :: An accessory after the fact
+A crime that can only be tried in the higher court in England. :: An indictable offence
+A minor crime tried in the magistrates' court in England. :: A summary offence
+The English court that tries serious crimes. :: The Crown Court
+The London court famous as the "Old Bailey". :: The Central Criminal Court
+The highest court in the UK since 2009. :: The UK Supreme Court
+The legal term for a judge's decision that becomes a guide for later cases. :: A precedent
+The doctrine of following precedent. :: Stare decisis
+
+## 300
+The two parts of most crimes: actus reus and this. :: Mens rea
+Intention where the result is the person's aim. :: Direct intention
+Intention where the result is virtually certain and the person knows it. :: Oblique (indirect) intention
+The English case on oblique intention, about a man who set fire to a house. :: R v Woollin (1998)
+Taking an unjustified risk knowingly. :: Recklessness
+The English case that set the subjective test for recklessness. :: R v G (2003)
+The English case where a man poisoned his mother's drink but she died of a heart attack. :: R v White (1910)
+R v White is about this element. :: Causation
+The rule that you take your victim as you find them. :: The thin skull rule
+The English case where a Jehovah's Witness refused a blood transfusion after a stabbing. :: R v Blaue (1975)
+An event that breaks the chain of causation. :: Novus actus interveniens
+The English case where poor medical treatment did break the chain of causation. :: R v Jordan (1956)
+The English case where poor medical treatment did not break the chain. :: R v Smith (1959)
+Failing to act can be a crime if there is a duty, as in this case of a starved relative. :: R v Stone and Dobinson (1977)
+The English case where a man failed to put out a fire he started. :: R v Miller (1983)
+Killing with intent to kill or cause grievous bodily harm in English law. :: Murder
+In English law, the mandatory sentence for murder. :: Life imprisonment
+The partial defences that reduce murder to manslaughter in England: loss of control and this. :: Diminished responsibility
+Loss of control replaced this old defence in 2009. :: Provocation
+The English law of 2009 that created loss of control. :: The Coroners and Justice Act 2009
+Killing by gross negligence, such as a doctor's serious error. :: Gross negligence manslaughter
+The English case on gross negligence manslaughter by an anaesthetist. :: R v Adomako (1994)
+Killing during an unlawful and dangerous act. :: Unlawful act manslaughter
+The English law of 1968 on theft. :: The Theft Act 1968
+In English law, theft is dishonestly taking property of another with intention to do this. :: Permanently deprive
+The English case of 2017 that changed the test for dishonesty. :: Ivey v Genting Casinos
+In Ivey v Genting, a famous poker player won millions at this casino card game. :: Punto banco (baccarat)
+The English law of 2006 on fraud. :: The Fraud Act 2006
+The English law of 1861 on violence still in use. :: The Offences Against the Person Act 1861
+The English term for serious harm. :: Grievous bodily harm (GBH)
+The English term for harm that is more than trivial. :: Actual bodily harm (ABH)
+The English case that says intoxication is no defence to basic intent crimes. :: DPP v Majewski (1977)
+In English law, a child under this age can't be guilty of a crime. :: Ten
+In Scotland, the age of criminal responsibility is now this. :: Twelve
+The age of criminal responsibility in many Islamic law texts is linked to this. :: Puberty (bulugh)
+In Islamic law, a hadd crime proved by confession is dropped if the person does this. :: Withdraws the confession
+Ma'iz ﵁ came to our Beloved and our master, the Prophet Muhammad ﷺ to confess. The Prophet ﷺ first did this. :: Turned away and asked whether he was sane
+The famous woman of Ghamid ﵂ who confessed was told to wait until this. :: She had given birth and weaned her child
+After the woman of Ghamid ﵂ was punished, our Beloved and our master, the Prophet Muhammad ﷺ said she made a repentance that would be enough for this many people of Madinah. :: Seventy
+The hadith "Had Fatimah, the daughter of Muhammad, stolen" was said about a woman from this tribe. :: Banu Makhzum
+The Companion who was asked to intercede for the Makhzumi woman. :: Usamah ibn Zayd ﵁
+Umar ibn al-Khattab ﵁ did not cut the hand in the Year of Ashes because of this. :: Famine (necessity)
+In the Hanbali school, a father who takes from his son's property is not given the hadd because of this. :: A doubt of ownership ("you and your wealth belong to your father")
+In Islamic law, theft from public funds has no hadd by many scholars because of this. :: A doubt of shared ownership (but ta'zir applies)
+In Islamic law, the theft of an item worth less than the nisab is punished by this. :: Ta'zir
+In Islamic law, a pickpocket is treated as this by many scholars. :: A thief (sariq)
+In Islamic law, someone who snatches and runs is called this and gets ta'zir. :: Mukhtalis
+In Islamic law, a person who betrays trust with deposited goods is called this and gets ta'zir. :: Kha'in
+In Islamic law, someone who denies a loan of an item is cut by this school's view. :: The Hanbali school (by the hadith of the Makhzumi woman)
+The wine-drinking hadd was set at 40 lashes in the time of Abu Bakr ﵁ and 80 in the time of this caliph. :: Umar ibn al-Khattab ﵁
+The Companion who suggested 80 lashes, comparing it to qadhf. :: Ali ibn Abi Talib ﵁
+In Islamic law, drinking even a small amount of an intoxicant is punished because of this hadith. :: "Whatever intoxicates in large amounts, a small amount is haram"
+In Islamic law, the minimum age for qisas is this. :: Puberty
+In Islamic law, a killer is not given qisas for killing this relative, by the majority. :: His own child
+In the majority view, a Muslim is not killed for killing this person. :: A non-Muslim (diyah is paid instead), though the Hanafis disagree
+The Hanafi school's view on qisas for killing a dhimmi. :: Qisas applies
+In Islamic law, a group who kill one person together are all killed according to this caliph's ruling. :: Umar ibn al-Khattab ﵁
+Umar ﵁ said, "If the people of" this city had joined in killing him, he would have killed them all. :: San'a'
+In Islamic law, qisas for injuries applies only if equality is possible. This is called this. :: Mumathalah (equal retaliation)
+In Islamic law, a heir who forgives qisas ends it for all because of this. :: Qisas can't be divided
+In Islamic law, the full diyah for a woman is this according to the majority. :: Half the diyah of a man
+The Saudi diyah for accidental killing of a Muslim man was set in 2011 at this amount. :: 300,000 riyals
+The Saudi diyah for deliberate killing (when forgiven for diyah) was set in 2011 at this amount. :: 400,000 riyals
+In Saudi Arabia, many heirs ask for huge sums in exchange for this. :: Waiving qisas (sulh)
+Saudi Arabia set up committees to limit very high sums asked for waiving qisas. These are called this. :: Reconciliation committees (islah dhat al-bayn)
+The Saudi Ministry of Interior unit for prisons. :: The General Directorate of Prisons
+Saudi Arabia's program that pays off the debts of prisoners. :: Furijat
+The Saudi rehabilitation centre for former extremists. :: The Mohammed bin Nayef Center for Counseling and Care
+In Saudi Arabia, the Penal Code for Ta'zir Crimes has been in drafting as part of this. :: The specialised legislation project (codification)
+The Saudi Crown Prince announced the four codifying laws in this year. :: 2021
+The four laws announced in 2021: Personal Status, Civil Transactions, Evidence and this. :: The Penal Code for Discretionary (Ta'zir) Sanctions
+The Saudi Law of Evidence came into force in this year. :: 2022
+The Saudi Law of Evidence allows this kind of digital evidence. :: Electronic (digital) evidence
+In the Saudi Law of Criminal Procedure, a search of a home needs this. :: An order from the Public Prosecution
+In Saudi Arabia, a pre-trial detention ordered by the prosecutor can be up to this many days at first. :: Five
+In Saudi Arabia, the Public Prosecution can extend detention up to a total of this many days before court. :: 180 (longer only by court order)
+The Saudi law that requires a defence lawyer for serious crimes if the accused can't pay. :: The Law of Criminal Procedure (state-appointed lawyer)
+In Saudi courts, a sentence of death needs confirmation from these courts. :: The Court of Appeal and the Supreme Court
+In Saudi Arabia, the King's role in death sentences is to do this. :: Approve the execution
+The Saudi Supreme Court was set up under the Judiciary Law of this year. :: 2007
+In Saudi Arabia, drug smuggling may be punished by this. :: Death (in serious cases)
+The 1987 Saudi Council of Senior Scholars ruling on drug smugglers called for this. :: The death penalty (as ta'zir)
+The Saudi Anti-Cybercrime Law punishes defamation online with up to this many years in prison. :: One year
+The Saudi Anti-Cybercrime Law punishes creating websites for terrorist groups with up to this many years. :: Ten
+The Saudi Anti-Cybercrime Law's maximum fine for spreading material against public order. :: Three million riyals
+The Saudi Anti-Commercial Fraud Law of 2008 punishes fraud with up to this many years in prison. :: Three
+The international convention on cybercrime from 2001. :: The Budapest Convention
+The UN adopted its first cybercrime convention in this year. :: 2024
+The FATF's list of countries with weak AML rules. :: The grey list
+The FATF was set up in this year. :: 1989
+The FATF was set up by this group of countries. :: The G7
+Placement, layering and this are the three stages of money laundering. :: Integration
+The international system where banks share suspicious activity reports is run by these. :: Financial intelligence units (FIUs)
+The Saudi financial intelligence unit is called this. :: SAFIU (General Directorate of Financial Intelligence)
+The group of FIUs worldwide. :: The Egmont Group
+The US act of 2001 that expanded anti-money laundering rules. :: The USA PATRIOT Act
+The famous American gangster jailed for tax evasion. :: Al Capone
+Al Capone was sent to this prison island. :: Alcatraz
+The famous case of the Lindbergh baby kidnapping happened in this year. :: 1932
+The forensic technique of matching bullets to guns. :: Ballistics
+Fingerprint classification was developed by Edward Henry in this country. :: British India
+The first murder conviction based on DNA evidence was in this country. :: England (Colin Pitchfork, 1988)
+The scientist who invented DNA fingerprinting. :: Alec Jeffreys
+The French criminologist who said "every contact leaves a trace". :: Edmond Locard
+The principle "every contact leaves a trace" is called this. :: Locard's exchange principle
+The study of insects to estimate time of death. :: Forensic entomology
+The study of handwriting in court cases. :: Forensic document examination
+The study of teeth marks in forensics. :: Forensic odontology
+
+## 400
+The English case on loss of control after a long period of abuse, decided in 2019. :: R v Challen
+The English case that set the test for duress by threats. :: R v Graham (1982)
+The English case where duress was ruled no defence to murder. :: R v Howe (1987)
+The English case where duress was ruled no defence to attempted murder. :: R v Gotts (1992)
+The English case that said a person who joins a violent gang can't claim duress. :: R v Hasan (2005)
+Necessity was allowed in this case of separating conjoined twins. :: Re A (Conjoined Twins) (2000)
+The English case that ended the "parasitic accessory liability" rule. :: R v Jogee (2016)
+The English case on causation with drugs supplied: the victim's free injection broke the chain. :: R v Kennedy (No 2) (2007)
+The English case on fear causing a victim to jump from a car. :: R v Roberts (1971)
+The English case where a man killed his wife in his sleep, raising automatism. :: R v Burgess (1991)
+The defence where the body acts without control of the mind, like a reflex. :: Automatism
+The English case where a diabetic's hypoglycaemia led to "non-insane automatism". :: R v Quick (1973)
+The English case where epilepsy was treated as insanity. :: R v Sullivan (1984)
+The English case on mistaken belief in self-defence. :: R v Williams (Gladstone) (1984)
+The English case on a householder's self-defence. :: R v Martin (Tony) (2001)
+The English law of 1981 on attempts. :: The Criminal Attempts Act 1981
+The English case where attempting the impossible was still an attempt. :: R v Shivpuri (1986)
+The English case on "transferred malice" where a blow aimed at one hit another. :: R v Latimer (1886)
+The English case where transferred malice did not work from property to person. :: R v Pembliton (1874)
+The English case on omissions by a contractual duty, a railway gatekeeper. :: R v Pittwood (1902)
+The English case on the "Caldwell" objective recklessness, later overruled. :: MPC v Caldwell (1982)
+The French Penal Code was first issued in this year. :: 1810
+The German Criminal Code is called this. :: StGB (Strafgesetzbuch)
+The Indian Penal Code of 1860 was drafted mainly by this British writer. :: Thomas Babington Macaulay
+The Indian Penal Code was replaced in 2024 by this law. :: Bharatiya Nyaya Sanhita
+The Pakistan Penal Code is based on this colonial code. :: The Indian Penal Code (1860)
+The Ottoman Penal Code of 1858 was modelled on this country's code. :: France
+The Egyptian Penal Code of 1937 was influenced by this country's code. :: Italy (and France)
+The US Model Penal Code was published in this year. :: 1962
+The US Model Penal Code was drafted by this body. :: The American Law Institute
+The four levels of culpability in the US Model Penal Code: purpose, knowledge, recklessness and this. :: Negligence
+The US case that set the "clear and present danger" test. :: Schenck v United States (1919)
+The US case that required a jury for serious crimes in states. :: Duncan v Louisiana (1968)
+The US case that applied the exclusionary rule to states. :: Mapp v Ohio (1961)
+The US case that allowed brief police stops and frisks. :: Terry v Ohio (1968)
+The US case on phone tapping requiring a warrant. :: Katz v United States (1967)
+The US case that requires police to get a warrant to search a phone. :: Riley v California (2014)
+The US case on mobile phone location data. :: Carpenter v United States (2018)
+The UN principles for treatment of prisoners named after this South African leader. :: Nelson Mandela (Mandela Rules)
+The Mandela Rules were adopted in this year. :: 2015
+The UN rules for women prisoners are named after this city. :: Bangkok (Bangkok Rules)
+The UN rules for juvenile justice are named after this city. :: Beijing (Beijing Rules)
+The UN Convention against Torture was adopted in this year. :: 1984
+Saudi Arabia joined the UN Convention against Torture in this year. :: 1997
+The Saudi Human Rights Commission was set up in this year. :: 2005
+The Saudi National Society for Human Rights was set up in this year. :: 2004
+The ICC's first verdict was against this Congolese warlord. :: Thomas Lubanga
+The ICC's first verdict was in this year. :: 2012
+The first sitting head of state indicted by the ICC. :: Omar al-Bashir
+The ICC Prosecutor elected in 2021. :: Karim Khan
+The Nuremberg principle that "following orders" is no defence. :: Superior orders principle
+The term "genocide" was coined by this lawyer. :: Raphael Lemkin
+The Genocide Convention was adopted in this year. :: 1948
+The case at the ICJ where Bosnia sued Serbia over genocide was decided in this year. :: 2007
+The ICTY's first trial was of this Bosnian Serb. :: Duško Tadić
+The former Yugoslav president who died during his trial in The Hague. :: Slobodan Milošević
+The Bosnian Serb general convicted of genocide at Srebrenica in 2017. :: Ratko Mladić
+The Bosnian Serb political leader convicted of genocide in 2016. :: Radovan Karadžić
+The Srebrenica genocide happened in this year. :: 1995
+The special court for Lebanon tried people for this assassination. :: The killing of Rafik Hariri (2005)
+The Special Tribunal for Lebanon was based near this city. :: The Hague
+The Special Court for Sierra Leone convicted this former Liberian president. :: Charles Taylor
+In Islamic law, ta'zir punishments can include warning, rebuke, fines, prison and this. :: Exile (or dismissal from office)
+The maximum ta'zir lashes according to the Hanbali school's famous view, based on a hadith. :: Ten (others allowed more)
+The hadith "No one is lashed more than ten lashes except in a hadd". It was narrated by this Companion. :: Abu Burdah ﵁
+The Hanbali scholar who allowed ta'zir up to death in serious cases like spying. :: Ibn Taymiyyah ﵀ (and some Maliki scholars)
+The Hanafi scholar Abu Yusuf ﵀ wrote this book for Harun al-Rashid on tax and justice. :: Kitab al-Kharaj
+The ruler Harun al-Rashid made this scholar the first chief judge (qadi al-qudat). :: Abu Yusuf ﵀
+The office of "muhtasib" was in charge of this. :: Public morals and markets (hisbah)
+The Saudi Committee for the Promotion of Virtue and the Prevention of Vice lost arrest power in this year. :: 2016
+The Islamic legal term for a judge's court session. :: Majlis al-qada'
+The book "Adab al-Qadi" on judges' manners was written by this Hanafi scholar. :: Al-Khassaf ﵀
+The Maliki book "Tabsirat al-Hukkam" on judging was written by this scholar. :: Ibn Farhun ﵀
+The judge in early Islam known for fairness who ruled against Ali ﵁ in a case over armour. :: Shurayh al-Qadi ﵀
+Shurayh ﵀ ruled against Ali ﵁ because Ali's witness was this. :: His son al-Hasan ﵁ (a son can't witness for his father)
+The Jewish man in that story did this after the ruling. :: Accepted Islam and returned the armour
+Shurayh ﵀ served as judge of this city for about 60 years. :: Kufa
+The famous judge of Basra known for clever judgments. :: Iyas ibn Mu'awiyah ﵀
+The Islamic legal term for circumstantial evidence. :: Qara'in
+Ibn al-Qayyim ﵀ argued judges may use circumstantial evidence in this book. :: Al-Turuq al-Hukmiyyah
+The story of Prophet Yusuf ﵇ where a torn shirt showed innocence is an example of this. :: Circumstantial evidence (qarinah)
+In the story of Prophet Sulayman ﵇ and two women claiming a baby, he offered to do this. :: Cut the baby in half (to find the true mother)
+The legal maxim "The burden of proof is on the claimant and the oath on" this person. :: The one who denies
+The legal maxim "The original state is innocence". In Arabic. :: Al-asl bara'at al-dhimmah
+In Islamic law, a confession by a person under torture is this. :: Invalid
+Umar ﵁ said, "A man is not safe from himself if you" do this to him. :: Starve, frighten or imprison him (to get a confession)
+In Saudi law, a confession must be voluntary and given before this. :: The court
+The Saudi Law of Criminal Procedure gives the accused the right to this at every stage. :: A lawyer (to seek legal help)
+The English principle that a person can be guilty for helping a crime under this law of 1861. :: The Accessories and Abettors Act 1861
+The four ways of being a secondary party: aid, abet, counsel and this. :: Procure
+The English case where a man shot his stepfather in a "game" of who could load fastest. :: R v Moloney (1985)
+The English case where miners threw a concrete block onto a taxi, about foresight of consequences. :: R v Hancock and Shankland (1986)
+The English case where a father threw his baby onto a hard surface, setting the "virtual certainty" test. :: R v Nedrick (1986)
+The English law of 1957 that created diminished responsibility. :: The Homicide Act 1957
+The English law of 2008 that set out self-defence rules on reasonable force. :: The Criminal Justice and Immigration Act 2008
+The English law of 2013 that allowed householders to use force that is not "grossly disproportionate". :: The Crime and Courts Act 2013
+The Scottish High Court that tries serious crimes. :: The High Court of Justiciary
+The third Scottish verdict, besides guilty and not guilty, that a 2025 law voted to abolish. :: Not proven
+The Irish court that tries serious crimes without a jury. :: The Special Criminal Court
+The English case that said a defendant who "foresaw" murder as possible by an accomplice was guilty, overruled in Jogee. :: Chan Wing-Siu v The Queen (1985)
+
+## 500
+The English case that says murder can't be committed on a fetus not yet born alive. :: Attorney General's Reference (No 3 of 1994)
+The English case where a doctor gave a dying patient a drug that shortened life, setting the "double effect" idea. :: R v Adams (1957)
+The English case of 2014 on assisted dying before the Supreme Court. :: R (Nicklinson) v Ministry of Justice
+The British serial killer doctor convicted in 2000. :: Harold Shipman
+The inquiry into Harold Shipman was led by this judge. :: Dame Janet Smith
+The English case that overturned the "Birmingham Six" convictions was in this year. :: 1991
+The body that reviews possible miscarriages of justice in England and Wales. :: The Criminal Cases Review Commission
+The CCRC was set up after this group's case. :: The Birmingham Six (and others)
+The case that led to the Macpherson report on institutional racism in London police. :: The murder of Stephen Lawrence (1993)
+Double jeopardy was changed in England in 2003 after this case. :: The Stephen Lawrence case
+The English law of 2003 that allowed retrial for serious crimes with new evidence. :: The Criminal Justice Act 2003
+The first person retried in England under the new double jeopardy rule. :: William Dunlop
+The US case where the Supreme Court said execution of the intellectually disabled is unconstitutional. :: Atkins v Virginia (2002)
+The US case that brought back the death penalty in 1976. :: Gregg v Georgia
+The US case that stopped the death penalty in 1972. :: Furman v Georgia
+The US case that banned life without parole for minors in non-homicide cases. :: Graham v Florida (2010)
+The US case that held the Fourth Amendment protects against GPS tracking. :: United States v Jones (2012)
+The US case on the right to confront witnesses. :: Crawford v Washington (2004)
+The US case that requires prosecutors to share evidence that helps the defence. :: Brady v Maryland (1963)
+The US case on eyewitness identification. :: Manson v Brathwaite (1977)
+The American "Innocence Project" uses this to free the wrongly convicted. :: DNA evidence
+The Innocence Project was founded in this year. :: 1992
+In Islamic law, the term for a confession being withdrawn. :: Ruju' 'an al-iqrar
+The Hanafi school requires this many confessions for zina. :: Four (in four sittings)
+The Hanafi school requires this many confessions for theft, according to Abu Yusuf ﵀. :: Two
+In Islamic law, if the victim of theft gives the item as a gift to the thief before court, the hadd does this. :: Drops
+Our Beloved and our master, the Prophet Muhammad ﷺ told Safwan ﵁, who gave away his stolen cloak after the case reached him, this. :: "Why not before you brought him to me?"
+The principle from Safwan's ﵁ case: once a hadd case reaches the ruler, this is not allowed. :: Pardon (intercession)
+The Hanafi view on stealing from a relative of the mahram kind. :: No hadd (because of free access)
+The term "hirz al-mithl" means this. :: The usual safekeeping for that kind of item
+The Maliki school applies hirabah to these people even inside cities. :: Armed robbers (those who terrorise people)
+The four punishments for hirabah in Surat al-Ma'idah 33. :: Execution, crucifixion, cutting opposite hand and foot, or exile
+The view that hirabah punishments match the crime done was held by these scholars. :: Ibn Abbas ﵁ and the majority
+The view that the ruler may choose any hirabah punishment was held by this school. :: The Maliki school
+Repentance before arrest removes the hirabah hadd, by this verse. :: Surat al-Ma'idah 34
+In Islamic law, rebels with an interpretation (bughat) are fought only to do this. :: Stop their rebellion (not to punish)
+The Quran verse on fighting rebels who wrong others is in this surah. :: Surat al-Hujurat (verse 9)
+Ali ibn Abi Talib ﵁ forbade killing the wounded or chasing fleeing rebels in this battle. :: The Battle of the Camel
+The fiqh term for the property of rebels taken in battle. :: It is returned (it isn't booty)
+The Hanbali school's view on qisas for killing by poison. :: Qisas applies (it is deliberate)
+The Hanafi school requires a weapon or similar sharp tool for deliberate killing; the majority instead require this. :: Any means that usually kills
+In Islamic law, the diyah for a life equals 100 camels, 1,000 dinars or this many dirhams. :: 12,000 (10,000 in the Hanafi school)
+The diyah for both eyes is this. :: A full diyah
+The diyah for one eye is this. :: Half the diyah
+The diyah for a nose cut off completely. :: A full diyah
+The diyah for a wound reaching the brain (ma'mumah). :: A third of the diyah
+The diyah for a stab wound reaching the body cavity (ja'ifah). :: A third of the diyah
+The diyah for a wound that breaks bone (hashimah). :: Ten camels
+The diyah for a wound that moves a bone (munaqqilah). :: Fifteen camels
+The diyah for a miscarriage caused by assault. :: A ghurrah (a slave, or a twentieth of the diyah)
+The letter of 'Amr ibn Hazm ﵁ is famous for listing these. :: Diyah amounts (and zakat rules)
+The government (hukumah) assessment is used for injuries with no fixed diyah. It is called this. :: Hukumat 'adl
+The Hanbali book "Al-Ahkam al-Sultaniyyah" by Abu Ya'la ﵀ covers crime and this. :: Government and offices
+The Shafi'i judge al-Mawardi ﵀ wrote about "the office of grievances", called this. :: Wilayat al-mazalim
+The Saudi Board of Grievances takes its name from this classical office. :: Diwan al-mazalim
+The famous Ottoman law codes (kanunname) were issued by this sultan "the Lawgiver". :: Suleiman the Magnificent
+The Saudi law on the treatment of prisoners and detainees was issued in this year. :: 1978
+The Saudi Arabian prison "Al-Ha'ir" is near this city. :: Riyadh
+The Saudi "Tarahum" committees help these people. :: Prisoners and their families
+The Saudi royal pardon for prisoners is often given in this month. :: Ramadan
+The Saudi Anti-Cybercrime Law has this many articles. :: 16
+The Saudi Law of Criminal Procedure has this many articles. :: 222
+The Saudi Law of Criminal Procedure's implementing regulations were issued in this year. :: 2015
+The Saudi Public Prosecution became independent from the Ministry of Interior in this year. :: 2017
+The Saudi Public Prosecution reports directly to this person. :: The King
+The Saudi Narcotics Control Law was issued in this year. :: 2005
+The Saudi Anti-Terrorism Law was updated in this year. :: 2017
+The Saudi Law of Arms and Ammunition was issued in this year. :: 2005
+The Saudi Protection from Abuse Law's hotline number. :: 1919
+The Saudi Child Helpline number. :: 116111
+The UN Committee against Torture reviews states every this many years. :: Four
+The European Court of Human Rights case that said "torture" requires severe suffering, in Northern Ireland. :: Ireland v United Kingdom (1978)
+The European Court of Human Rights is in this city. :: Strasbourg
+The Inter-American Court of Human Rights is in this city. :: San José, Costa Rica
+The African Court on Human and Peoples' Rights is in this city. :: Arusha
+The Arab Charter on Human Rights was adopted in 2004 at this meeting. :: The Arab League summit in Tunis
+The Arab Charter on Human Rights came into force in this year. :: 2008
+The Cairo Declaration on Human Rights in Islam was adopted in this year. :: 1990
+The Cairo Declaration was adopted by this organisation. :: The OIC
+The OIC's headquarters are in this city. :: Jeddah
+The OIC was founded in this year. :: 1969
+The OIC was founded after an arson attack on this mosque. :: Al-Aqsa Mosque
+The British crime writer who created Hercule Poirot. :: Agatha Christie
+The founder of modern criminology's "Chicago School" studied crime in this kind of area. :: Cities (urban neighbourhoods)
+The theory that visible disorder leads to more crime. :: Broken windows theory
+The broken windows theory was published by Wilson and Kelling in this year. :: 1982
+The theory that crime happens when a motivated offender, a target and no guardian meet. :: Routine activity theory
+The sociologist who wrote about "anomie" and crime. :: Émile Durkheim
+The American sociologist who developed strain theory. :: Robert Merton
+The theory that people learn crime from their friends. :: Differential association
+Differential association theory was created by this criminologist. :: Edwin Sutherland
+Edwin Sutherland also coined this term in 1939. :: White-collar crime
+The famous Stanford experiment on prisons was led by this psychologist. :: Philip Zimbardo
+The Stanford prison experiment took place in this year. :: 1971
+The Saudi law that set up specialised courts for traffic, juvenile and other cases in 2007. :: The Judiciary Law
+The Saudi Court of Appeal in each region has circuits for criminal, civil and these cases. :: Personal status (family) and labour
+The Saudi Supreme Court's general assembly sets these for lower courts. :: Judicial principles
+The Saudi Ministry of Justice publishes court rulings on this platform. :: The Judicial Rulings portal (Najiz)
+The Saudi traffic law in force was issued in this year. :: 2007
+The Saudi fine for not wearing a seatbelt. :: 150 to 300 riyals
+
+## tf
+Using reasonable force to stop an attacker in Saudi Arabia. :: Legal (lawful self-defence)
+Sharing a photo of someone online to shame them without consent, in Saudi Arabia. :: Not legal (Anti-Cybercrime Law)
+Driving in Saudi Arabia with a valid foreign licence as a visitor for a short stay. :: Legal (for visitors, within the allowed period)
+Carrying a licensed hunting rifle with the required permit in Saudi Arabia. :: Legal (with the permit)
+Giving a police officer money to drop a traffic fine. :: Not legal (bribery)
+Writing a cheque when you know your account has no money to cover it, in Saudi Arabia. :: Not legal (a crime under the Commercial Papers Law)
+Recording a phone call secretly and posting it online to defame the caller, in Saudi Arabia. :: Not legal (Anti-Cybercrime Law)
+Selling alcohol in a public market in Saudi Arabia. :: Not legal
+Refusing to answer police questions without a lawyer in England. :: Legal (right to silence)
+Buying a phone you know is stolen. :: Not legal (handling stolen goods)
+Making a citizen's arrest of a thief caught in the act in England. :: Legal (in limited cases)
+Possessing a small amount of cannabis in Saudi Arabia. :: Not legal
+Flying a drone in Saudi Arabia without registering it with the authority. :: Not legal (drones must be registered)
+Sending threatening messages to get money from someone. :: Not legal (extortion)
+Hiding a wanted person from the police on purpose. :: Not legal (helping an offender)
+A person under ten being convicted of a crime in England. :: Not legal (below the age of criminal responsibility)
+Using a fake university degree to get a job. :: Not legal (forgery and fraud)
+Reporting a crime anonymously through the Kollona Amn app. :: Legal
+Taking a photo of a car accident victim and posting it in Saudi Arabia. :: Not legal (privacy violation)
+Begging in public places in Saudi Arabia. :: Not legal (Anti-Begging Law, 2021)
+
+## case
+A thief steals a phone worth 3,000 riyals from an unlocked car parked on the street. Under classical fiqh, why might the hadd not apply? :: The item may not be in proper safekeeping (hirz), so ta'zir applies instead
+A man kills another by accident while cleaning a gun. What two things does Islamic law require? :: Diyah paid by his 'aqilah and kaffarah (fasting two consecutive months)
+A victim's heirs are three adult sons. One forgives the killer and two want qisas. What happens? :: Qisas falls, and the others receive their share of the diyah
+A man confesses to theft, then withdraws his confession before the hadd is carried out. What happens to the hadd? :: It drops (but he must return the property)
+A 16-year-old in Saudi Arabia commits a serious assault. Which law applies to his trial? :: The Juvenile Law (he is under 18)
+A shop owner catches a thief and beats him badly after the thief has stopped resisting. Is this self-defence? :: No; force after the danger ends is not self-defence
+Ahmed sends an email pretending to be a bank and collects people's card numbers. What crime? :: Phishing (fraud under the Anti-Cybercrime Law)
+A starving man takes bread from a bakery during a famine. Why do most scholars not apply the hadd? :: Necessity creates doubt (as Umar ﵁ did in the Year of Ashes)
+Two men plan to rob a bank and buy masks but are arrested before acting. What crime might they have committed? :: Conspiracy
+A suspect is held by police for 30 hours without the prosecutor being told, in Saudi Arabia. What rule was broken? :: The 24-hour limit in the Law of Criminal Procedure
