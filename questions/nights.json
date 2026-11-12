@@ -5,10 +5,55 @@
     "nameAr": "الهندسة ضد علوم وهندسة الحاسب",
     "about": "Three engineering and three computing categories, with the two colleges as the teams.",
     "aboutAr": "ثلاث فئات هندسية وثلاث فئات حاسوبية، والفريقان هما الكليتان.",
-    "cats": ["statics", "circuits", "thermo", "code", "networks", "dsa"],
-    "teams": ["Engineering", "CCES"],
-    "teamsAr": ["الهندسة", "الحاسب"],
-    "extras": { "golden": 2, "steal": 2, "crowd": 1, "streak": true, "comeback": true, "lightning": true, "final": true }
+    "cats": [
+      "statics",
+      "circuits",
+      "thermo",
+      "code",
+      "networks",
+      "dsa"
+    ],
+    "teams": [
+      "Engineering",
+      "CCES"
+    ],
+    "teamsAr": [
+      "الهندسة",
+      "الحاسب"
+    ],
+    "extras": {
+      "golden": 2,
+      "steal": 2,
+      "crowd": 1,
+      "streak": true,
+      "comeback": true,
+      "lightning": true,
+      "final": true
+    }
+  },
+  {
+    "id": "fun-night",
+    "name": "Fun Night",
+    "nameAr": "أمسية المرح",
+    "about": "Riddles, weird facts, sayings, maths puzzles, gaming and record breakers: light and silly.",
+    "aboutAr": "ألغاز وحقائق غريبة وأمثال وألغاز رياضية وألعاب وأرقام قياسية: خفيفة ومضحكة.",
+    "cats": [
+      "riddles",
+      "weird",
+      "sayings",
+      "mathpuzzles",
+      "gaming",
+      "records"
+    ],
+    "extras": {
+      "golden": 1,
+      "steal": 2,
+      "crowd": 2,
+      "streak": true,
+      "comeback": true,
+      "lightning": true,
+      "final": true
+    }
   },
   {
     "id": "builders",
@@ -16,8 +61,23 @@
     "nameAr": "أمسية البنّائين",
     "about": "Structures, materials, fluids and power: a night for civil and mechanical minds.",
     "aboutAr": "المنشآت والمواد والموائع والطاقة: أمسية لعقول المدنية والميكانيكا.",
-    "cats": ["statics", "civil", "materials", "fluids", "dynamics", "power"],
-    "extras": { "golden": 1, "steal": 1, "crowd": 1, "streak": true, "comeback": true, "lightning": true, "final": true }
+    "cats": [
+      "statics",
+      "civil",
+      "materials",
+      "fluids",
+      "dynamics",
+      "power"
+    ],
+    "extras": {
+      "golden": 1,
+      "steal": 1,
+      "crowd": 1,
+      "streak": true,
+      "comeback": true,
+      "lightning": true,
+      "final": true
+    }
   },
   {
     "id": "code-night",
@@ -25,8 +85,23 @@
     "nameAr": "أمسية البرمجة",
     "about": "Six computing categories, from code and data structures to security and AI.",
     "aboutAr": "ست فئات حاسوبية، من البرمجة وهياكل البيانات إلى الأمن والذكاء الاصطناعي.",
-    "cats": ["code", "dsa", "databases", "os", "cyber", "ai"],
-    "extras": { "golden": 1, "steal": 1, "crowd": 1, "streak": true, "comeback": true, "lightning": true, "final": true }
+    "cats": [
+      "code",
+      "dsa",
+      "databases",
+      "os",
+      "cyber",
+      "ai"
+    ],
+    "extras": {
+      "golden": 1,
+      "steal": 1,
+      "crowd": 1,
+      "streak": true,
+      "comeback": true,
+      "lightning": true,
+      "final": true
+    }
   },
   {
     "id": "picture-night",
@@ -34,8 +109,23 @@
     "nameAr": "أمسية الرسوم",
     "about": "The categories with the most picture questions: gates, circuits, networks, graphs and structures.",
     "aboutAr": "الفئات التي فيها أكثر أسئلة الصور: البوابات والدوائر والشبكات والرسوم البيانية والمنشآت.",
-    "cats": ["digital", "logicdesign", "networks", "dsa", "engmath", "civil"],
-    "extras": { "golden": 1, "steal": 1, "crowd": 1, "streak": true, "comeback": true, "lightning": true, "final": true }
+    "cats": [
+      "digital",
+      "logicdesign",
+      "networks",
+      "dsa",
+      "engmath",
+      "civil"
+    ],
+    "extras": {
+      "golden": 1,
+      "steal": 1,
+      "crowd": 1,
+      "streak": true,
+      "comeback": true,
+      "lightning": true,
+      "final": true
+    }
   },
   {
     "id": "arabia",
@@ -43,8 +133,23 @@
     "nameAr": "أمسية الجزيرة العربية",
     "about": "Saudi Arabia, the Arab world, history, geography, food and sport.",
     "aboutAr": "المملكة والعالم العربي والتاريخ والجغرافيا والطعام والرياضة.",
-    "cats": ["saudi", "arabworld", "history", "geography", "food", "sports"],
-    "extras": { "golden": 1, "steal": 1, "crowd": 2, "streak": true, "comeback": true, "lightning": true, "final": true }
+    "cats": [
+      "saudi",
+      "arabworld",
+      "history",
+      "geography",
+      "food",
+      "sports"
+    ],
+    "extras": {
+      "golden": 1,
+      "steal": 1,
+      "crowd": 2,
+      "streak": true,
+      "comeback": true,
+      "lightning": true,
+      "final": true
+    }
   },
   {
     "id": "brain-night",
@@ -52,7 +157,22 @@
     "nameAr": "أمسية العقول",
     "about": "Science, space, the human body, animals, words and inventors for a general crowd.",
     "aboutAr": "العلوم والفضاء وجسم الإنسان والحيوانات والكلمات والمهندسون لجمهور عام.",
-    "cats": ["science", "space", "body", "animals", "words", "engineers"],
-    "extras": { "golden": 1, "steal": 1, "crowd": 2, "streak": true, "comeback": true, "lightning": true, "final": true }
+    "cats": [
+      "science",
+      "space",
+      "body",
+      "animals",
+      "words",
+      "engineers"
+    ],
+    "extras": {
+      "golden": 1,
+      "steal": 1,
+      "crowd": 2,
+      "streak": true,
+      "comeback": true,
+      "lightning": true,
+      "final": true
+    }
   }
 ]
