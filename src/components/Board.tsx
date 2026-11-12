@@ -5,7 +5,7 @@ import type { Game, Lang } from '../lib/types'
 import { VALUES } from '../lib/types'
 import type { Strings } from '../lib/i18n'
 import { num } from '../lib/i18n'
-import { adjustScore, clueSeconds, isFinished, markUsed, score, tileKey } from '../lib/game'
+import { STREAK_AT, adjustScore, answerRight, answerWrong, clueSeconds, isFinished, lastPlace, markUsed, score, tileKey } from '../lib/game'
 import { createPortal } from 'react-dom'
 import AdjustScores, { type Adjustment } from './AdjustScores'
 import { burst, burstAt, reducedMotion } from '../lib/fx'
@@ -86,17 +86,45 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
     }
   }, [game, open, onEnd])
 
-  const award = (team: number, delta: number) => {
-    setGame((g) => score(g, team, delta))
-    if (delta > 0) sfx.right()
-    else sfx.wrong()
+  const [fire, setFire] = useState<{ team: number; id: number } | null>(null)
+  useEffect(() => {
+    if (!fire) return
+    const id = setTimeout(() => setFire(null), 2800)
+    return () => clearTimeout(id)
+  }, [fire])
+
+  const celebrate = (team: number, good: boolean) => {
     requestAnimationFrame(() => {
       const el = document.querySelector(`[data-team="${team}"]`)
       el?.classList.add('pop')
       setTimeout(() => el?.classList.remove('pop'), 600)
-      if (delta > 0) burstAt(el?.querySelector('span') ?? null, 22, 140)
+      if (good) burstAt(el?.querySelector('span') ?? null, 22, 140)
     })
   }
+
+  /** Right: points, the streak bonus, and applause for big wins. Wrong: the streak ends and points come off if the host chose that. */
+  const judgeClue = (team: number, right: boolean, c: number, l: number) => {
+    const clue = game.clues[c][l]
+    if (right) {
+      const r = answerRight(game, team, clue.value)
+      setGame(r.game)
+      sfx.right()
+      celebrate(team, true)
+      if (r.bonus) {
+        setTimeout(() => sfx.streak(), 380)
+        setFire({ team, id: Date.now() })
+      }
+      if (clue.value >= 400 || clue.special === 'crowd') setTimeout(() => sfx.applause(), 250)
+    } else {
+      let g = answerWrong(game, team)
+      if (game.settings.deduct) g = score(g, team, -clue.value)
+      setGame(g)
+      sfx.wrong()
+      if (game.settings.deduct) celebrate(team, false)
+    }
+  }
+
+  const behind = game.settings.comeback && game.used.length > 0 && !isFinished(game) ? lastPlace(game) : []
 
   const adjust = (team: number, delta: number) => {
     const before = game.teams[team]?.score
@@ -180,6 +208,9 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
                       setCardState({ revealed: false, clock: null })
                       setOpen({ c: i, l, el: e.currentTarget })
                       sfx.open()
+                      const sp = game.clues[i][l].special
+                      if (sp === 'steal') setTimeout(() => sfx.steal(), 450)
+                      if (sp === 'crowd') sfx.crowd()
                     }}
                   >
                     <span className="med" />
@@ -191,13 +222,31 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
           </div>
         </div>
         <div className="scores">
-          {game.teams.map((tm, i) => (
-            <div className={`team${tm.score < 0 ? ' neg' : ''}`} key={i} data-team={i}>
-              <b>{tm.name}</b>
-              <span>{num(tm.score, lang)}</span>
-            </div>
-          ))}
+          {game.teams.map((tm, i) => {
+            const run = game.streaks?.[i] ?? 0
+            return (
+              <div className={`team${tm.score < 0 ? ' neg' : ''}${run >= STREAK_AT ? ' fire' : ''}${behind.includes(i) ? ' behind' : ''}`} key={i} data-team={i}>
+                <b>{tm.name}</b>
+                <span>{num(tm.score, lang)}</span>
+                {run >= STREAK_AT && (
+                  <em className="fire-badge" data-testid="fire-badge">
+                    <span aria-hidden="true">🔥</span> {t.onFire} ×{num(run, lang)}
+                  </em>
+                )}
+              </div>
+            )
+          })}
         </div>
+        {behind.length > 0 && (
+          <p className="comeback" role="status" data-testid="comeback">
+            <span className="pill">{t.comebackLabel}</span> {behind.map((i) => game.teams[i].name).join(' · ')} {t.picksNext}
+          </p>
+        )}
+        {fire && (
+          <div className="streak-pop" role="status" key={fire.id} data-testid="streak-pop">
+            <span aria-hidden="true">🔥</span> {game.teams[fire.team]?.name}: {t.streakNote}
+          </div>
+        )}
         <p className="hint">{t.shortcuts}</p>
       </section>
       {open && (
@@ -209,11 +258,12 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
           open={open}
           timeUp={timeUp}
           onState={setCardState}
-          onJudge={(team, right) => {
+          onJudge={(team, right) => judgeClue(team, right, open.c, open.l)}
+          onSteal={(from) => {
             const clue = game.clues[open.c][open.l]
-            if (right) award(team, clue.value)
-            else if (game.settings.deduct) award(team, -clue.value)
-            else sfx.wrong()
+            setGame((g) => score(g, from, -clue.value))
+            sfx.steal()
+            celebrate(from, false)
           }}
           onClose={(used) => {
             setOpen(null)
@@ -235,17 +285,20 @@ interface CardProps {
   game: Game
   open: Open
   onJudge: (team: number, right: boolean) => void
+  /** Steal tile: take the clue's points from this team (the team that answered already has them). */
+  onSteal: (from: number) => void
   onClose: (used: boolean) => void
   onState: (s: { revealed: boolean; clock: Clock | null }) => void
   timeUp: boolean
 }
 
-function ClueCard({ t, lang, game, open, onJudge, onClose, onState, timeUp }: CardProps) {
+function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, timeUp }: CardProps) {
   const ref = useRef<HTMLDivElement>(null)
   const [phase, setPhase] = useState<'opening' | 'open' | 'closing'>('opening')
   const [revealed, setRevealed] = useState(false)
   const [wrong, setWrong] = useState<number[]>([])
   const [clock, setClock] = useState<Clock | null>(null)
+  const [stealer, setStealer] = useState<number | null>(null)
   const clue = game.clues[open.c][open.l]
   const cat = game.cats[open.c]
   const q = lang === 'ar' && clue.qAr ? clue.qAr : clue.q
@@ -319,17 +372,19 @@ function ClueCard({ t, lang, game, open, onJudge, onClose, onState, timeUp }: Ca
 
   const judge = useCallback(
     (team: number, right: boolean) => {
-      if (phase === 'closing' || team >= game.teams.length || wrong.includes(team)) return
+      if (phase === 'closing' || stealer !== null || team >= game.teams.length || wrong.includes(team)) return
       onJudge(team, right)
       if (right) {
         if (!revealed) setRevealed(true)
         stopTimer()
-        setTimeout(() => close(true), revealed ? 200 : 900)
+        // A Steal tile waits for the host to pick whose points are taken.
+        if (clue.special === 'steal' && game.teams.length > 1) setStealer(team)
+        else setTimeout(() => close(true), revealed ? 200 : 900)
       } else {
         setWrong((w) => [...w, team])
       }
     },
-    [phase, game.teams.length, wrong, onJudge, revealed, close],
+    [phase, stealer, clue.special, game.teams.length, wrong, onJudge, revealed, close],
   )
 
   useEffect(() => {
@@ -338,7 +393,7 @@ function ClueCard({ t, lang, game, open, onJudge, onClose, onState, timeUp }: Ca
       if (e.code === 'Space') {
         e.preventDefault()
         reveal()
-      } else if (e.key === 'Escape') close(false)
+      } else if (e.key === 'Escape') close(stealer !== null)
       else {
         const m = /^Digit([1-4])$/.exec(e.code)
         if (m) judge(+m[1] - 1, !e.shiftKey)
@@ -346,20 +401,27 @@ function ClueCard({ t, lang, game, open, onJudge, onClose, onState, timeUp }: Ca
     }
     addEventListener('keydown', onKey)
     return () => removeEventListener('keydown', onKey)
-  }, [reveal, close, judge])
+  }, [reveal, close, judge, stealer])
 
   return (
     <>
-      <div className={`scrim${phase === 'open' ? ' on' : ''}`} onClick={() => close(false)} />
+      <div className={`scrim${phase === 'open' ? ' on' : ''}`} onClick={() => close(stealer !== null)} />
       <div ref={ref} className={`card${phase === 'open' ? ' open' : ''}${phase === 'closing' ? ' closing' : ''}${clue.golden && phase === 'open' ? ' golden' : ''}${cat.respect ? ' calm' : ''}`} role="dialog" aria-modal="true" aria-label={cat.name} data-testid="clue">
         <div className="card-in">
           <div className="meta">
             <span className="meta-cat"><CatIcon id={cat.id} />{lang === 'ar' && cat.nameAr ? cat.nameAr : cat.name}</span>
             <span className="row">
               {clue.golden && <span className="pill g">{t.golden}</span>}
+              {clue.special === 'steal' && <span className="pill steal">{t.steal}</span>}
+              {clue.special === 'crowd' && <span className="pill crowd">{t.crowd}</span>}
               <span className="pill">{num(clue.value, lang)}</span>
             </span>
           </div>
+          {clue.special && (
+            <p className={`special-note ${clue.special}`} data-testid="special-note">
+              {clue.special === 'steal' ? t.stealHelp : t.crowdHelp}
+            </p>
+          )}
           <p className="q" data-testid="question" dir="auto">{q}</p>
           {clue.img && (
             <div className="q-fig">
@@ -371,6 +433,28 @@ function ClueCard({ t, lang, game, open, onJudge, onClose, onState, timeUp }: Ca
             <Source t={t} q={clue} />
           </div>
           {timerSecs > 0 && <TimerBar clock={clock} total={timerSecs} lang={lang} timeUpText={t.timeUp} onTick={(n) => (n === 0 ? sfx.timeUp() : sfx.tick(n === 1))} />}
+          {stealer !== null && (
+            <div className="steal-pick" role="group" aria-label={t.stealFrom} data-testid="steal-pick">
+              <span className="label">
+                {game.teams[stealer].name}: {t.stealFrom}
+              </span>
+              <div className="row">
+                {game.teams.map((tm, i) =>
+                  i === stealer ? null : (
+                    <button key={i} className="btn bad" data-steal={i} onClick={() => {
+                      onSteal(i)
+                      close(true)
+                    }}>
+                      {tm.name} −{num(clue.value, lang)}
+                    </button>
+                  ),
+                )}
+                <button className="ghost" onClick={() => close(true)} data-steal="none">
+                  {t.skip}
+                </button>
+              </div>
+            </div>
+          )}
           <div className="judge">
             {game.teams.map((tm, i) => (
               <div className="t" key={i}>
@@ -395,7 +479,7 @@ function ClueCard({ t, lang, game, open, onJudge, onClose, onState, timeUp }: Ca
                 {t.nobody}
               </button>
             </div>
-            <button className="btn alt" onClick={() => close(false)} data-testid="back">
+            <button className="btn alt" onClick={() => close(stealer !== null)} data-testid="back">
               {t.close}
             </button>
           </div>

@@ -45,3 +45,29 @@ export function loadPack(id: string): Promise<Category> {
   }
   return cache.get(id)!
 }
+
+/** A ready-made game setup from questions/nights.json. */
+export interface Night {
+  id: string
+  name: string
+  nameAr?: string
+  about: string
+  aboutAr?: string
+  cats: string[]
+  teams?: string[]
+  teamsAr?: string[]
+  extras?: { golden?: number; steal?: number; crowd?: number; streak?: boolean; comeback?: boolean; lightning?: boolean; final?: boolean }
+}
+
+/** Themed nights. A missing or broken file just means no nights are offered. */
+export async function loadNights(): Promise<Night[]> {
+  try {
+    const res = await fetch(`${base}packs/nights.json`)
+    if (!res.ok) return []
+    const list = (await res.json()) as unknown
+    if (!Array.isArray(list)) return []
+    return list.filter((n): n is Night => !!n && typeof n.id === 'string' && typeof n.name === 'string' && Array.isArray(n.cats))
+  } catch {
+    return []
+  }
+}

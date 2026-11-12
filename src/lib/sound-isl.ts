@@ -460,6 +460,49 @@ export const islamicFx = {
     goldfinch(k, 2.3, 0.035, 0.2)
     sunbird(k, 2.95, 0.03, -0.5)
   },
+  /** Three right in a row: a quick roll up into rising strokes and a canary. */
+  streak(k: Kit) {
+    roll(k, 0, 0.3, 0.04, 0.22)
+    dum(k, 0.32, 0.35, -0.3, 1.0)
+    dum(k, 0.44, 0.35, 0.3, 1.15)
+    circle(k, 0.56, 'D', 0.5)
+    canary(k, 0.7, 0.03, 0.3)
+  },
+  /** A Steal tile: a quick gust and two sharp rim strokes. */
+  steal(k: Kit) {
+    whoosh(k, 0, 0.35, 0.18, 600, 2200)
+    tak(k, 0.22, 0.3, -0.3)
+    tak(k, 0.32, 0.26, 0.3)
+    sparrow(k, 0.45, 0.035, 0.4)
+  },
+  /** An Audience tile: the breeze rises, a few hands clap and a bulbul calls the room in. */
+  crowd(k: Kit) {
+    breeze(k, 0, 2.4, 0.08)
+    for (let i = 0; i < 3; i++) for (let p = 0; p < 4; p++) clap(k, 0.3 + i * 0.34 + rnd(-0.01, 0.01), 0.12, -0.6 + p * 0.4)
+    bulbul(k, 1.4, 0.05, 0.2)
+  },
+  /** Applause for a big win: a room of hand claps that swells and fades. */
+  applause(k: Kit) {
+    for (let i = 0; i < 70; i++) {
+      const t = Math.random() * 2.2
+      const swell = Math.sin(Math.PI * Math.min(1, t / 2.2)) * 0.8 + 0.2
+      clap(k, t, 0.09 * swell, rnd(-0.8, 0.8))
+    }
+  },
+  /** The lightning round: a fast roll that rushes up, and a sunbird's sparkle. */
+  lightning(k: Kit) {
+    roll(k, 0, 0.5, 0.03, 0.3, 30)
+    whoosh(k, 0.05, 0.5, 0.15, 500, 2600)
+    circle(k, 0.55, 'T', 0.6)
+    sunbird(k, 0.6, 0.04, 0.2)
+  },
+  /** The final question: one great, deep stroke, a long breeze and a nightingale far off. */
+  final(k: Kit) {
+    breeze(k, 0, 3.5, 0.1)
+    circle(k, 0, 'D', 0.8, true)
+    dum(k, 0, 0.6, 0, 0.62)
+    nightingale(k, 1.1, 0.03, -0.3)
+  },
   /** The winners: two bars of maqsum, a triple stroke and the whole garden singing. */
   win(k: Kit) {
     breeze(k, 0, 5.5, 0.08)

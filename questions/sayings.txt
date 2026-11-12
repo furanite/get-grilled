@@ -1,0 +1,515 @@
+id: sayings
+name: Idioms & Sayings
+group: general
+
+## 100
+To accidentally reveal a secret is to let this animal out of the bag. :: The cat
+When it rains very heavily, people say it's raining cats and these. :: Dogs
+Something very easy is said to be a piece of this. :: Cake
+To be feeling ill is to be under the this. :: Weather
+To do two things with one action is to kill two birds with one of these. :: Stone
+Don't count your chickens before they do this. :: Hatch
+Something that happens very rarely happens once in a blue this. :: Moon
+To get straight to the point is to cut to the this. :: Chase
+To be nervous is to have these in your stomach. :: Butterflies
+To start something new after a pause is to get the ball this. :: Rolling
+To be exactly right is to hit the nail on the this. :: Head
+An apple a day keeps this person away. :: The doctor
+The early bird catches the this. :: Worm
+Actions speak louder than these. :: Words
+Don't judge a book by its this. :: Cover
+To relax and be calm is to chill this. :: Out
+Practice makes this. :: Perfect
+Better late than this. :: Never
+Two heads are better than this. :: One
+Every cloud has a silver this. :: Lining
+When in Rome, do as these people do. :: The Romans
+Rome wasn't built in one of these. :: A day
+Look before you do this. :: Leap
+Where there's smoke, there's this. :: Fire
+Easy come, easy this. :: Go
+Time flies when you're having this. :: Fun
+No pain, no this. :: Gain
+A picture is worth a thousand of these. :: Words
+Don't put all your eggs in one of these. :: Basket
+Honesty is the best this. :: Policy
+Curiosity killed the this. :: Cat
+To be very happy is to be on cloud this number. :: Nine
+To feel sad is to feel this colour. :: Blue
+To be jealous is to be this colour with envy. :: Green
+To be caught doing something wrong is to be caught this-handed. :: Red
+To make a small problem seem huge is to make a mountain out of this. :: A molehill
+To keep a secret, you keep it under your this. :: Hat
+To go to sleep is to hit the this. :: Sack (or hay)
+Someone who stays up late is called a night this. :: Owl
+Someone who gets up very early is called an early this. :: Bird
+To try something is to give it a this. :: Shot (or go)
+To be in trouble is to be in hot this. :: Water
+Something that costs a lot is said to cost an arm and a this. :: Leg
+To spill the this means to tell the gossip. :: Beans (or tea)
+To break the this means to make people feel relaxed at first meeting. :: Ice
+To be very busy is to be as busy as a this. :: Bee
+Something very old is said to be as old as the these. :: Hills
+Someone very brave is as brave as a this. :: Lion
+Something very light is as light as a this. :: Feather
+Something very clear is as clear as this. :: Crystal (or day)
+Something very cold is as cold as this. :: Ice
+Someone very stubborn is as stubborn as a this. :: Mule
+Someone very quiet is as quiet as a this. :: Mouse
+Someone very wise is as wise as an this. :: Owl
+Something very easy is as easy as this baked dish. :: Pie
+Something very flat is as flat as a this. :: Pancake
+Someone very strong is as strong as an this. :: Ox
+Someone very slow is as slow as a this. :: Snail (or tortoise)
+Someone very sly is as sly as a this. :: Fox
+Something very fit is as fit as a this. :: Fiddle
+Someone who sleeps deeply sleeps like a this. :: Log (or baby)
+Someone who eats a lot eats like a this. :: Horse
+Someone who eats very little eats like a this. :: Bird
+To work very hard is to work like a this. :: Dog (or horse)
+To be very clean is to be as clean as a this. :: Whistle
+Someone who is very fast is as quick as this. :: Lightning (or a flash)
+To be very happy is to be as happy as a this. :: Clam (or lark)
+Something very sweet is as sweet as this. :: Honey (or sugar)
+Someone very hungry could eat a this. :: Horse
+To get out of bed in a bad mood is to get up on the wrong side of the this. :: Bed
+To tell someone to go well in a performance, you say break a this. :: Leg
+To be the boss is to call the these. :: Shots
+To rest after hard work is to put your these up. :: Feet
+To agree completely is to see eye to this. :: Eye
+To feel relaxed and at ease is to feel at this. :: Home
+To be in the same difficult situation is to be in the same this. :: Boat
+To wait patiently is to hold your these. :: Horses
+To go back to the start is to go back to square this. :: One
+To reveal everything is to come this. :: Clean
+To change your mind is to have second these. :: Thoughts
+Someone who loves sweets has a sweet this. :: Tooth
+To be very angry is to see this colour. :: Red
+To keep quiet about something is to keep your this shut. :: Mouth (or lips sealed)
+To stop doing something is to call it a this. :: Day
+To become famous suddenly is to become an overnight this. :: Success (or sensation)
+To be very tired is to be dog this. :: Tired
+A person who is new and inexperienced is said to be this colour. :: Green
+A shy person may be told to come out of their this. :: Shell
+To leave quickly is to hit the this. :: Road
+To have a good memory is to have a memory like an this. :: Elephant
+To be lucky with good timing is to be in the right place at the right this. :: Time
+To avoid the main point is to beat around the this. :: Bush
+To speak sincerely is to speak from the this. :: Heart
+To do things exactly by the rules is to go by the this. :: Book
+Out of sight, out of this. :: Mind
+Haste makes this. :: Waste
+Knowledge is this. :: Power
+Silence is this precious metal. :: Gold (golden)
+Speech is this precious metal, and silence is gold. :: Silver
+A friend in need is a friend this. :: Indeed
+Slow and steady wins the this. :: Race
+
+## 200
+To "pull someone's leg" means to do this. :: Tease or joke with them
+To "cost an arm and a leg" means to be this. :: Very expensive
+To "hit the books" means to do this. :: Study hard
+To "bite off more than you can chew" means this. :: Take on too much
+To "beat around the bush" means this. :: Avoid the main point
+To "burn the midnight oil" means to do this. :: Work late into the night
+To "cry over spilled milk" means this. :: Be upset about something that can't be changed
+To be "under the weather" means this. :: Feeling ill
+To "let the cat out of the bag" means this. :: Reveal a secret
+Something that happens "once in a blue moon" happens this often. :: Very rarely
+To "kick the bucket" is a jokey way of saying this. :: Die
+To "spill the beans" means this. :: Reveal secret information
+To "add fuel to the fire" means this. :: Make a bad situation worse
+To be "on thin ice" means this. :: In a risky or dangerous position
+To "get cold feet" means this. :: Become nervous and back out
+To "go the extra mile" means this. :: Make more effort than expected
+To "hit the sack" means this. :: Go to bed
+To "jump on the bandwagon" means this. :: Join something popular
+To "miss the boat" means this. :: Miss an opportunity
+To "pull yourself together" means this. :: Calm down and control yourself
+To "sit on the fence" means this. :: Avoid choosing a side
+To "take it with a grain of salt" means this. :: Don't fully believe it
+To "throw in the towel" means this. :: Give up
+To "turn a blind eye" means this. :: Pretend not to notice
+A "couch potato" is this kind of person. :: Someone lazy who watches a lot of TV
+A "bookworm" is this kind of person. :: Someone who loves reading
+A "know-it-all" is this kind of person. :: Someone who thinks they know everything
+A "wet blanket" is this kind of person. :: Someone who spoils the fun
+A "back-seat driver" is this kind of person. :: Someone who gives unwanted advice
+An "early bird" is this kind of person. :: Someone who gets up or arrives early
+A "smart cookie" is this kind of person. :: A clever person
+A "big cheese" is this kind of person. :: An important person
+A "cold fish" is this kind of person. :: An unfriendly, unemotional person
+A "copycat" is this kind of person. :: Someone who imitates others
+A "lone wolf" is this kind of person. :: Someone who prefers to be alone
+A "night owl" is this kind of person. :: Someone who stays up late
+A "busybody" is this kind of person. :: A nosy person
+A "chatterbox" is this kind of person. :: Someone who talks a lot
+A "scaredy-cat" is this kind of person. :: A timid person
+A "show-off" is this kind of person. :: Someone who boasts
+A "dark horse" is this. :: A surprise winner nobody expected
+A "white elephant" is this. :: A costly thing that is useless
+A "red herring" is this. :: A clue that misleads
+A "golden handshake" is this. :: A big payment when leaving a job
+A "piece of cake" is this. :: Something very easy
+A "storm in a teacup" is this. :: A big fuss over something small
+A "drop in the ocean" is this. :: A tiny amount compared with what is needed
+A "blessing in disguise" is this. :: Something good that first seemed bad
+A "hot potato" is this. :: A controversial topic
+A "rule of thumb" is this. :: A rough practical guideline
+A "wild goose chase" is this. :: A hopeless search
+A "bad apple" is this. :: One bad person who spoils the group
+The "elephant in the room" is this. :: An obvious problem nobody mentions
+The "tip of the iceberg" is this. :: A small visible part of a bigger problem
+To "have your head in the clouds" means this. :: To daydream
+To be "all ears" means this. :: Listening eagerly
+To "keep your chin up" means this. :: Stay positive
+To "lend a hand" means this. :: Help
+To "pull strings" means this. :: Use influence or connections
+To "face the music" means this. :: Accept the consequences
+To "break the ice" means this. :: Start a conversation and ease tension
+To "get the ball rolling" means this. :: Start something
+To "call it a day" means this. :: Stop working for now
+To "hit the road" means this. :: Leave
+To "be on the same page" means this. :: Agree and understand each other
+To "rain on someone's parade" means this. :: Spoil their plans
+To "steal someone's thunder" means this. :: Take credit or attention from them
+"The ball is in your court" means this. :: It's your turn to act
+To "go back to the drawing board" means this. :: Start again after failing
+To "cut corners" means this. :: Do something cheaply or carelessly
+To "bark up the wrong tree" means this. :: Blame or pursue the wrong thing
+To "let sleeping dogs lie" means this. :: Don't stir up old trouble
+To "kill time" means this. :: Pass time while waiting
+To "make ends meet" means this. :: Earn just enough to live
+To "learn the ropes" means this. :: Learn how to do a job
+To "go down in flames" means this. :: Fail spectacularly
+To be "over the moon" means this. :: Very happy
+To be "down in the dumps" means this. :: Sad
+To be "in the same boat" means this. :: Share the same problem
+To "keep an eye on" something means this. :: Watch it carefully
+To "turn over a new leaf" means this. :: Make a fresh start
+To "have a chip on your shoulder" means this. :: Hold a grudge
+To "put your foot in your mouth" means this. :: Say something embarrassing
+To "get out of hand" means this. :: Become out of control
+To "be in hot water" means this. :: Be in trouble
+To "think outside the box" means this. :: Think creatively
+To "be a fish out of water" means this. :: Feel out of place
+To "be all thumbs" means this. :: Be clumsy with your hands
+To "see the light" means this. :: Finally understand
+To "hold your tongue" means this. :: Stay quiet
+To "blow off steam" means this. :: Release stress or anger
+To "jump the gun" means this. :: Act too soon
+To "beat a dead horse" means this. :: Keep arguing a settled point
+To "have butterflies in your stomach" means this. :: Feel nervous
+To "be on cloud nine" means this. :: Be extremely happy
+To "be fit as a fiddle" means this. :: Be in good health
+To "walk on eggshells" means this. :: Be very careful not to upset someone
+To "be a piece of cake" means this. :: Be very easy
+"Barking dogs seldom" do this. :: Bite
+"Don't bite the hand that" does this. :: Feeds you
+
+## 300
+"A bird in the hand is worth two" here. :: In the bush
+"All that glitters is not" this. :: Gold
+"Beggars can't be" these. :: Choosers
+"Birds of a feather" do this together. :: Flock
+"Don't cross the bridge until you" do this. :: Come to it
+"Don't look a gift horse in the" this. :: Mouth
+"Fortune favours the" these. :: Brave (bold)
+"Great minds" do this. :: Think alike
+"If it ain't broke, don't" do this. :: Fix it
+"It takes two to" do this dance. :: Tango
+"Necessity is the mother of" this. :: Invention
+"People who live in glass houses shouldn't" do this. :: Throw stones
+"The pen is mightier than the" this. :: Sword
+"The squeaky wheel gets the" this. :: Grease
+"There's no such thing as a free" this. :: Lunch
+"Too many cooks spoil the" this. :: Broth
+"When the going gets tough, the tough" do this. :: Get going
+"You can lead a horse to water, but you can't" do this. :: Make it drink
+"You can't have your cake and" do this. :: Eat it too
+"You can't teach an old dog" these. :: New tricks
+"Absence makes the heart grow" this. :: Fonder
+"Familiarity breeds" this. :: Contempt
+"Still waters run" this. :: Deep
+"Strike while the iron is" this. :: Hot
+"The grass is always greener on" here. :: The other side
+"Don't throw the baby out with the" this. :: Bathwater
+"A stitch in time saves" this many. :: Nine
+"An ounce of prevention is worth a pound of" this. :: Cure
+"Let bygones be" this. :: Bygones
+"Every dog has its" this. :: Day
+"Many hands make" this. :: Light work
+"A watched pot never" does this. :: Boils
+"Well begun is" this. :: Half done
+"Blood is thicker than" this. :: Water
+"Laugh and the world laughs with you; weep and you weep" this way. :: Alone
+"Look on the bright" this. :: Side
+"Where there's a will, there's a" this. :: Way
+"You reap what you" do this. :: Sow
+"Opportunity knocks but" this many times. :: Once
+"Patience is a" this. :: Virtue
+"Variety is the spice of" this. :: Life
+"Laughter is the best" this. :: Medicine
+"One man's trash is another man's" this. :: Treasure
+"The proof of the pudding is in the" this. :: Eating
+"There's no place like" this. :: Home
+"Out of the frying pan and into the" this. :: Fire
+"Hope for the best, prepare for the" this. :: Worst
+"A chain is only as strong as its weakest" this. :: Link
+"Ignorance is" this. :: Bliss
+"Rome wasn't built in a day" means this. :: Great things take time
+"Don't put the cart before the horse" means this. :: Do things in the right order
+"Let sleeping dogs lie" is about avoiding this. :: Stirring up old trouble
+"Kill two birds with one stone" means this. :: Achieve two things with one action
+"The early bird catches the worm" means this. :: Those who start early succeed
+"Every cloud has a silver lining" means this. :: Every bad situation has some good
+"Too many cooks spoil the broth" means this. :: Too many people in charge ruin a task
+"Don't cry over spilled milk" means this. :: Don't worry about what's already done
+"Curiosity killed the cat" warns against this. :: Being too nosy
+"When it rains, it pours" means this. :: Bad things come all at once
+"A penny for your thoughts" is a way of asking this. :: What are you thinking?
+"Better safe than sorry" means this. :: Be careful even if it seems unnecessary
+"Actions speak louder than words" means this. :: What you do matters more than what you say
+"Easier said than done" means this. :: It's harder to do than to talk about
+"Two wrongs don't make a right" means this. :: Revenge doesn't fix a wrong
+The idiom meaning to be fired from a job: to get the this. :: Sack (or boot)
+The idiom for a lazy, easy job: a cushy this. :: Number
+The idiom for a hopeless person or thing: a lost this. :: Cause
+The idiom for an important, influential person: a big this. :: Shot (or wheel)
+The idiom for a fair, honest deal: a square this. :: Deal
+The idiom for a sudden quick sleep: forty these. :: Winks
+The idiom for something that ruins a plan: a spanner in the this. :: Works
+The idiom for an unexpected advantage: an ace up your this. :: Sleeve
+The idiom for people with similar interests: kindred these. :: Spirits
+The idiom for doing something without preparing: to wing this. :: It
+The idiom for the most important person: the top this. :: Dog
+The idiom for a quick, temporary fix: a Band-this solution. :: Aid
+The idiom meaning to work very hard: to keep your nose to the this. :: Grindstone
+The idiom meaning to surrender: to raise the white this. :: Flag
+The idiom meaning to be well prepared: to have all your ducks in a this. :: Row
+The idiom meaning to reveal your plans: to show your this. :: Hand
+The idiom meaning to try very hard: to bend over this. :: Backwards
+The idiom for being born rich: born with a silver this in your mouth. :: Spoon
+The idiom meaning to make a bad situation even worse: to rub this in the wound. :: Salt
+The idiom meaning to be exposed to danger: to stick your this out. :: Neck
+The idiom meaning to save money for hard times: to save for a rainy this. :: Day
+The idiom meaning to boast: to blow your own this. :: Trumpet
+The idiom meaning to be very close to winning: neck and this. :: Neck
+The idiom meaning to suddenly understand: the penny this. :: Drops
+The idiom meaning to stay calm: to keep a level this. :: Head
+The idiom for a long, boring wait: watching this dry. :: Paint
+The idiom for the biggest share: the lion's this. :: Share
+The idiom for a false show of sadness: crocodile these. :: Tears
+The idiom for something done quickly with no rest: in one this. :: Fell swoop
+"Every rose has its" this. :: Thorn
+"Misery loves" this. :: Company
+"Old habits die" this way. :: Hard
+"Money doesn't grow on" these. :: Trees
+"Good things come to those who" do this. :: Wait
+"You can't judge someone until you've walked a mile in their" these. :: Shoes
+"The best things in life are" this. :: Free
+
+## 400
+The idiom "red tape", meaning bureaucracy, comes from the ribbon once used to tie these. :: Official documents
+"Bite the bullet" may come from soldiers doing this during surgery without anaesthetic. :: Biting on a bullet
+"Mind your Ps and Qs" may come from this trade, where the letters were easily confused. :: Printing (typesetting)
+"Saved by the bell" is often linked to this sport, where a bell ends the round. :: Boxing
+"Hands down", meaning easily, comes from this sport where a jockey could relax his hands. :: Horse racing
+"Under the weather" is said to come from sailors who were seasick and sent here. :: Below deck
+"Show your true colours" comes from ships raising these. :: Flags
+"By and large" comes from this activity. :: Sailing
+"Learn the ropes" comes from new sailors learning these. :: Ship's rigging ropes
+"Cut to the chase" comes from this industry, skipping to the action scene. :: Film (silent movies)
+"Steal someone's thunder" comes from a playwright whose stage effect for this was copied. :: Thunder sound effect
+"Break a leg" is a good-luck wish used in this world. :: Theatre
+"Bury the hatchet" comes from a custom of these North American people making peace. :: Native Americans
+"Let the cat out of the bag" may come from a trick of selling this animal in a bag instead of a pig. :: A cat
+"Rule of thumb" comes from using this to measure things roughly. :: The thumb
+"Mad as a hatter" may come from hat makers poisoned by this metal. :: Mercury
+"Spill the beans" may come from an ancient Greek voting method using these. :: Beans
+"Barking up the wrong tree" comes from hunting dogs chasing animals like this. :: Raccoons
+"A baker's dozen" means this many. :: Thirteen
+"Sleep tight" may come from tightening these on old beds. :: Ropes (supporting the mattress)
+"Turn a blind eye" is linked to this British admiral who held a telescope to his blind eye. :: Horatio Nelson
+"Caught red-handed" originally meant being caught with this on your hands. :: Blood
+"Read the riot act" comes from a British law of 1714 that was read aloud to do this. :: Order crowds to disperse
+"Hold your horses" comes from this. :: Telling drivers to rein in their horses
+"Go the whole nine yards" has an unclear origin, but one theory is the length of this. :: A machine-gun ammunition belt
+"Blood, sweat and tears" was made famous by this British prime minister. :: Winston Churchill
+"Cross the Rubicon" refers to this Roman leader crossing a river with his army. :: Julius Caesar
+"Achilles' heel" comes from Greek myth; Achilles was hit here by an arrow. :: His heel
+"Pyrrhic victory" is named after this king who won battles at too great a cost. :: Pyrrhus of Epirus
+"Meet your Waterloo" refers to this leader's final defeat. :: Napoleon
+"Trojan horse" now also means this in computing. :: Malware disguised as something harmless
+"Open Pandora's box" means to do this. :: Cause many unexpected problems
+"Herculean task" means a task that is this. :: Extremely difficult
+"Sword of Damocles" means this. :: A constant threat hanging over you
+"The Midas touch" means the ability to do this. :: Make money from everything
+"Between Scylla and Charybdis" means being stuck between these. :: Two dangers
+"A Catch-22" comes from a novel by this author. :: Joseph Heller
+"Big Brother is watching" comes from this George Orwell novel. :: Nineteen Eighty-Four
+"The writing is on the wall" comes from a feast in this ancient city. :: Babylon
+"To go berserk" comes from these fierce Norse warriors. :: Berserkers
+"A Spartan lifestyle" means this, after the Greek city. :: Simple and strict, without luxury
+"A laconic reply" comes from this Greek region, known for short replies. :: Laconia (Sparta)
+"A marathon effort" comes from the run of a messenger from Marathon to this city. :: Athens
+"Draconian laws" are very harsh, named after this Athenian lawmaker. :: Draco
+"Boycott" comes from the name of this Irish land agent. :: Charles Boycott
+"Sandwich" is named after this earl. :: The Earl of Sandwich
+"Silhouette" is named after this French finance minister. :: Étienne de Silhouette
+"Cardigan" is named after this British earl. :: The Earl of Cardigan
+"Saxophone" is named after this inventor. :: Adolphe Sax
+"Guillotine" is named after this French doctor. :: Joseph-Ignace Guillotin
+"Nicotine" is named after this French diplomat. :: Jean Nicot
+"Diesel" is named after this engineer. :: Rudolf Diesel
+"Braille" is named after this French teacher. :: Louis Braille
+The Arabic proverb "Al-waqt ka al-sayf" compares time to this. :: A sword
+The Arabic proverb "Time is like a sword" ends: if you do not cut it, it will do this. :: Cut you
+The Arabic proverb "Al-sabr miftah al-faraj" says patience is the key to this. :: Relief
+The Arabic proverb "Man jadda wajada" means this. :: Whoever strives, finds (succeeds)
+The Arabic proverb "Al-jar qabl al-dar" says to choose this before the house. :: The neighbour
+The Arabic proverb "Al-rafiq qabl al-tariq" says to choose this before the road. :: The companion
+The Arabic proverb "Lisanuka husanuka" compares your tongue to this. :: Your horse
+The Arabic proverb about your tongue as a horse ends: if you guard it, it guards you; if you betray it, it does this. :: Betrays you
+The Arabic saying "Al-'ilm fi al-sighar ka al-naqsh 'ala al-hajar" compares learning when young to this. :: Carving in stone
+Al-Mutanabbi wrote that the best companion in this is a book. :: Time (all ages)
+The poet who wrote that the best companion in time is a book. :: Al-Mutanabbi
+The Arabic proverb "Kul fatat bi-abiha mu'jaba" says every girl is proud of this person. :: Her father
+The Arabic proverb "Ba'd khirab al-Basra" means doing something too late, after this city was ruined. :: Basra
+The Arabic proverb "Al-qird fi 'ayn ummihi ghazal" says a monkey in its mother's eyes is this. :: A gazelle
+The English equivalent of "a monkey in its mother's eyes is a gazelle". :: Beauty is in the eye of the beholder
+The Arabic proverb "Aakhir al-dawa' al-kayy" says the last remedy is this. :: Cauterisation (branding)
+The Arabic proverb "Rubba rumyatin min ghayri ramin" describes this. :: A lucky shot (success by chance)
+The Arabic proverb "Idha kana al-kalam min fidda, fa al-sukut min" this. :: Gold
+The Arabic proverb "Khayr al-kalam ma qalla wa dalla" says the best speech is this. :: Brief and meaningful
+The Arabic proverb "Lil-hitan adhan" says the walls have these. :: Ears
+The Arabic proverb "Yad wahida la tusaffiq" says one hand cannot do this. :: Clap
+The English equivalent of "one hand cannot clap". :: It takes two to tango
+The Arabic proverb "Al-tikrar yu'allim al-shattar" says repetition teaches this person. :: The clever (diligent) one
+The English equivalent of "Al-tikrar yu'allim al-shattar". :: Practice makes perfect
+The Arabic proverb "Ittaqi sharra man ahsanta ilayh" warns about this person. :: Someone you were kind to (who may be ungrateful)
+The Arabic proverb "Al-insan 'abd al-ihsan" says people are slaves to this. :: Kindness
+"Hobson's choice", meaning no real choice, is named after a man who rented out these. :: Horses
+"Odyssey", meaning a long adventurous journey, comes from an epic by this Greek poet. :: Homer
+"Mentor" comes from a character in this epic, a wise friend of Odysseus. :: The Odyssey
+"Utopia", meaning a perfect place, was coined in 1516 by this English author. :: Thomas More
+"Serendipity" was coined by Horace Walpole from an old name for this island. :: Sri Lanka (Serendip)
+"Quixotic", meaning hopelessly idealistic, comes from this Spanish novel's hero. :: Don Quixote
+"Malapropism" comes from Mrs Malaprop, a character created by this playwright. :: Richard Brinsley Sheridan
+A "Scrooge", a mean person, comes from a story by this author. :: Charles Dickens
+"Gargantuan" comes from a giant in books by this French author. :: François Rabelais
+"Lilliputian", meaning tiny, comes from this book. :: Gulliver's Travels
+"Chauvinism" comes from a possibly legendary French soldier with this surname. :: Chauvin
+"Maverick" comes from a Texas rancher who refused to do this to his cattle. :: Brand them
+"Sideburns" comes from this American Civil War general's name, reversed. :: Ambrose Burnside
+"Leotard" is named after this French acrobat. :: Jules Léotard
+"Shrapnel" is named after this British army officer. :: Henry Shrapnel
+"Mesmerise" comes from this German doctor. :: Franz Mesmer
+"Pasteurise" comes from this French scientist. :: Louis Pasteur
+"Galvanise" comes from this Italian scientist. :: Luigi Galvani
+"Ferris wheel" is named after this American engineer. :: George Ferris
+"Jumbo", meaning huge, comes from a famous 19th-century one of these. :: Elephant
+"Tantalise" comes from Tantalus, whose food and water always stayed just out of this. :: Reach
+
+## 500
+The idiom "to eat humble pie" comes from "umble pie", made from these. :: Animal offal (entrails)
+"Mind your own beeswax" is a jokey version of this phrase. :: Mind your own business
+"Hoist with your own petard": a petard was this. :: A small bomb
+"Hoist with his own petard" comes from this Shakespeare play. :: Hamlet
+"Wear your heart on your sleeve" comes from this Shakespeare play. :: Othello
+"Green-eyed monster", meaning jealousy, comes from this Shakespeare play. :: Othello
+"Break the ice" appears in this Shakespeare play about a shrew. :: The Taming of the Shrew
+"A wild goose chase" first appears in this Shakespeare play. :: Romeo and Juliet
+"It's all Greek to me" comes from this Shakespeare play. :: Julius Caesar
+"Vanish into thin air" comes from this Shakespeare play. :: The Tempest (or Othello)
+"Pound of flesh" comes from this Shakespeare play. :: The Merchant of Venice
+"Something is rotten in the state of Denmark" is from this play. :: Hamlet
+"Kill with kindness" also comes from this playwright. :: William Shakespeare
+"Elementary, my dear Watson" is never said in this exact form in the books by this author. :: Arthur Conan Doyle
+"Curiouser and curiouser!" comes from this book. :: Alice's Adventures in Wonderland
+"Down the rabbit hole" comes from this book. :: Alice's Adventures in Wonderland
+"Grin like a Cheshire cat" is linked to this county in England. :: Cheshire
+"Bob's your uncle" may come from this British prime minister appointing his nephew. :: Lord Salisbury (Robert Cecil)
+"Mad as a March hare" refers to this animal's odd behaviour in spring. :: The hare
+"Raining cats and dogs" was used in a 1738 work by this satirist. :: Jonathan Swift
+"Let them eat cake" is wrongly linked to this French queen. :: Marie Antoinette
+"Veni, vidi, vici" means this. :: I came, I saw, I conquered
+"Carpe diem" means this. :: Seize the day
+"Et tu, Brute?" was said, in Shakespeare, by this man. :: Julius Caesar
+"Alea iacta est", "the die is cast", was said by Caesar at this river. :: The Rubicon
+"Quid pro quo" means this. :: Something for something
+"Status quo" means this. :: The existing state of affairs
+"Bona fide" means this. :: Genuine (in good faith)
+"Deja vu" literally means this in French. :: Already seen
+"Faux pas" literally means this in French. :: False step
+"Carte blanche" literally means this in French. :: White card (blank paper)
+"Coup de grâce" literally means this. :: Blow of mercy
+"Raison d'être" means this. :: Reason for being
+"Je ne sais quoi" means this. :: An indefinable quality (I don't know what)
+"Schadenfreude", from German, means this. :: Pleasure at someone else's misfortune
+"Wanderlust", from German, means this. :: A strong desire to travel
+"Zeitgeist", from German, means this. :: The spirit of the times
+"Kummerspeck", German for "grief bacon", means this. :: Weight gained from emotional eating
+The Japanese word "tsundoku" means this. :: Buying books and never reading them
+The Danish word "hygge" means this. :: Cosy contentment
+The Swedish word "fika" means this. :: A coffee and cake break
+The Japanese word "kaizen" means this. :: Continuous improvement
+The Arabic word "sabr" means this. :: Patience
+The Arabic word "ghurba" means this. :: The feeling of being a stranger far from home
+The French idiom "avoir le cafard" (to have the cockroach) means this. :: To feel down
+The French idiom "poser un lapin" (to put down a rabbit) means this. :: To stand someone up
+The German idiom "Tomaten auf den Augen haben" (tomatoes on the eyes) means this. :: To not notice the obvious
+The Spanish idiom "ser pan comido" (to be eaten bread) means this. :: Very easy
+The Italian idiom "in bocca al lupo" (into the wolf's mouth) means this. :: Good luck
+The Japanese proverb "Fall seven times, stand up" this many times. :: Eight
+The Chinese proverb "A journey of a thousand miles begins with" this. :: A single step
+The Chinese thinker traditionally credited with "A journey of a thousand miles begins with a single step". :: Laozi
+"Give a man a fish and you feed him for a day; teach a man to fish and" this. :: You feed him for a lifetime
+The Arabic proverb "Jaza' Sinnimar" means being repaid this way. :: Badly, for a good deed
+In the story behind "Jaza' Sinnimar", Sinnimar was this. :: The architect of a palace (thrown from it)
+The Arabic proverb "Ruja'a bi-khuffay Hunayn" means coming back with this. :: Nothing (empty-handed)
+In "returned with Hunayn's shoes", Hunayn was this. :: A shoemaker
+The Arabic proverb "Akram min Hatim" means more generous than this man. :: Hatim al-Ta'i
+The Arabic proverb "Ashamu min 'Itr Manshim" refers to this. :: A bad omen
+The Arabic proverb "Sabaqa al-sayfu al-'adhal" means this. :: It's too late (the sword has already struck)
+The Arabic saying "Fi al-ta'anni al-salama wa fi al-'ajala al-nadama" praises this. :: Patience (taking your time)
+The English equivalent of "In patience is safety, in haste is regret". :: Haste makes waste
+The Arabic proverb "Al-kalb al-nabih la ya'udd" matches this English saying. :: Barking dogs seldom bite
+The Arabic proverb "Idha kunta rihan fa-qad laqayta i'saran" (if you are wind, you've met a whirlwind) means this. :: Meeting someone stronger than you
+The English equivalent of "If you are wind, you've met a whirlwind". :: Meet your match
+The Arabic proverb "Al-'ilm nur" says knowledge is this. :: Light
+The Arabic saying "Hal yuslih al-'attar ma afsad al-dahr" means this. :: You can't fix what time has ruined
+The Arabic proverb "Al-sadiq waqt al-dhiq" says a true friend appears at this time. :: Times of hardship
+The English equivalent of "Al-sadiq waqt al-dhiq". :: A friend in need is a friend indeed
+The Arabic proverb "Zamar al-hayy la yutrib" (the neighbourhood's piper doesn't please) matches this English saying. :: Familiarity breeds contempt
+The Arabic proverb "Al-hadid bil-hadid yuflah" says iron is cut by this. :: Iron
+The proverb "As the twig is bent, so grows" this. :: The tree
+"The apple doesn't fall far from" this. :: The tree
+The Arabic proverb "Ibn al-wazz 'awwam", similar to "the apple doesn't fall far from the tree", means this. :: The son of a duck is a swimmer
+"Hunger is the best" this. :: Sauce
+"Don't count your chickens" was in this ancient storyteller's fable of the milkmaid. :: Aesop
+"Sour grapes" comes from this Aesop fable. :: The Fox and the Grapes
+"Cry wolf" comes from this Aesop fable. :: The Boy Who Cried Wolf
+"Slow and steady wins the race" comes from this Aesop fable. :: The Tortoise and the Hare
+"Kill the goose that lays the golden eggs" comes from a fable by this author. :: Aesop
+"Kalila wa Dimna", the famous Arabic book of animal fables, was translated by this writer. :: Ibn al-Muqaffa'
+Kalila and Dimna, in the Arabic fables, are these animals. :: Jackals
+The original Sanskrit collection that "Kalila wa Dimna" comes from. :: The Panchatantra
+The witty folk character "Juha" is known in Turkey as this. :: Nasreddin Hodja
+The Arab poet famous for wise proverbs in verse, including "I am the one whose writing the blind could see". :: Al-Mutanabbi
+"Majma' al-Amthal", a giant collection of Arabic proverbs, was compiled by this scholar. :: Al-Maydani
+"Freelance" was first used for a medieval soldier for hire who carried this weapon. :: A lance
+"Deadline" first meant a line around a prison camp that prisoners must not do this to. :: Cross
+The "mare" in "nightmare" was originally this. :: An evil spirit that sat on sleepers
+"Clue" comes from "clew", meaning this. :: A ball of thread
+"Muscle" comes from the Latin for this. :: A little mouse
+"Disaster" comes from Italian and Greek words meaning this. :: Bad star
+"Sabotage" may come from "sabot", this French item. :: A wooden shoe
+"Robot" comes from a Czech word meaning this. :: Forced labour
+"Quarantine" comes from the Italian for this number of days. :: Forty
+"Checkmate" comes from the Persian "shah mat", meaning this. :: The king is helpless
+"Jargon" originally meant this sound. :: The twittering of birds
+"Hazard" comes from the Arabic "al-zahr", meaning this. :: The dice
+"Mattress" comes from the Arabic "matrah", meaning this. :: A place where something is thrown down (a cushion)
+"Sofa" comes from the Arabic "suffa", meaning this. :: A raised bench
+"Giraffe" comes from this Arabic word for the animal. :: Zarafa

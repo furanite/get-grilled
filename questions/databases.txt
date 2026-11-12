@@ -206,6 +206,7 @@ The research database project at IBM in the 1970s that first implemented SQL. ::
 The original name of SQL, a pun still heard in its pronunciation. :: SEQUEL
 The two IBM researchers who created SQL: Donald Chamberlin and this man. :: Raymond Boyce
 The symbol with crow's feet in ER diagrams means this. :: Many
+In crow’s foot notation, what kind of relationship does this line show? {img:er-one-to-many.svg} :: One-to-many
 
 ## 300
 The relational algebra operation that picks rows, written with the Greek letter sigma. :: Selection

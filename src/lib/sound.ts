@@ -308,6 +308,56 @@ const fx = {
     tone(c, { f: 660, d: 0.15, g: 0.05 })
   },
   start,
+  /** Three right in a row: a quick rising run that lands on a bright note. */
+  streak() {
+    const c = ready()
+    if (!c) return
+    ;[72, 76, 79, 84].forEach((m, i) => bell(c, m, i * 0.07, 0.7, 0.09))
+    bell(c, 88, 0.3, 1.4, 0.07)
+  },
+  /** A Steal tile opens, and again when the points are taken: a quick swoop. */
+  steal() {
+    const c = ready()
+    if (!c) return
+    noise(c, 0, 0.3, 0.08, 1400, 1.2)
+    tone(c, { f: 660, t: 0, d: 0.28, g: 0.06, bend: 0.5, type: 'triangle' })
+    bell(c, 79, 0.25, 0.6, 0.08)
+    bell(c, 74, 0.36, 0.9, 0.07)
+  },
+  /** An Audience tile opens: two warm chimes that call the room in. */
+  crowd() {
+    const c = ready()
+    if (!c) return
+    bell(c, 67, 0.4, 1.0, 0.08)
+    bell(c, 72, 0.6, 1.2, 0.08)
+    bell(c, 76, 0.8, 1.6, 0.08)
+  },
+  /** Applause for a big win: many soft hand claps that swell and fade. */
+  applause() {
+    const c = ready()
+    if (!c) return
+    const n = 90
+    for (let i = 0; i < n; i++) {
+      const t = Math.random() * 2.2
+      const swell = Math.sin(Math.PI * Math.min(1, t / 2.2)) * 0.8 + 0.2
+      noise(c, t, 0.05, 0.035 * swell, 1100 + Math.random() * 1400, 1.4)
+    }
+  },
+  /** The lightning round starts: a short zap up. */
+  lightning() {
+    const c = ready()
+    if (!c) return
+    tone(c, { f: 220, t: 0, d: 0.35, g: 0.08, bend: 4, type: 'triangle' })
+    bell(c, 88, 0.3, 0.8, 0.07)
+  },
+  /** The final question: a deep hit and a high bell. */
+  final() {
+    const c = ready()
+    if (!c) return
+    tone(c, { f: 73, t: 0, d: 1.8, g: 0.35, bend: 0.85 })
+    bell(c, 74, 0.05, 2.2, 0.08)
+    bell(c, 81, 0.25, 2.4, 0.06)
+  },
   /** The winners: a rising arpeggio that lands on a bright chord. */
   win() {
     const c = ready()
@@ -359,6 +409,12 @@ const islamic: typeof fx = {
     withKit(islamicFx.start)()
   },
   win: withKit(islamicFx.win),
+  streak: withKit(islamicFx.streak),
+  steal: withKit(islamicFx.steal),
+  crowd: withKit(islamicFx.crowd),
+  applause: withKit(islamicFx.applause),
+  lightning: withKit(islamicFx.lightning),
+  final: withKit(islamicFx.final),
 }
 
 export const sfx = ISLAMIC_SET ? islamic : fx

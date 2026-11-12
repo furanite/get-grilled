@@ -166,6 +166,31 @@ export function loadReviews(dir = reviewsDir) {
 
 const flagged = (rs) => (rs ?? []).some((r) => r.correct === 'issue' || r.adab === 'issue')
 
+// Themed nights: questions/nights.json, a list of ready-made game setups.
+//   { "id", "name", "nameAr"?, "about", "aboutAr"?, "cats": [1 to 6 category ids], "teams"?: [2 to 4 names], "teamsAr"?,
+//     "extras"?: { "golden": 0-3, "steal": 0-3, "crowd": 0-2, "streak", "comeback", "lightning", "final": true/false } }
+export function checkNights(nights, ids) {
+  const errors = []
+  if (!Array.isArray(nights)) return ['nights.json must be a list']
+  const seen = new Set()
+  nights.forEach((n, i) => {
+    const at = `nights.json #${i + 1}`
+    if (!n || typeof n !== 'object') return errors.push(`${at} is not an object`)
+    if (typeof n.id !== 'string' || !/^[a-z0-9-]+$/.test(n.id)) errors.push(`${at} needs an "id" of lowercase letters, digits and dashes`)
+    else if (seen.has(n.id)) errors.push(`${at} duplicate id "${n.id}"`)
+    else seen.add(n.id)
+    if (typeof n.name !== 'string' || !n.name.trim() || n.name.length > 40) errors.push(`${at} needs a "name" of up to 40 characters`)
+    if (typeof n.about !== 'string' || n.about.length > 200) errors.push(`${at} needs an "about" of up to 200 characters`)
+    if (!Array.isArray(n.cats) || n.cats.length < 1 || n.cats.length > 6) errors.push(`${at} needs 1 to 6 "cats"`)
+    else for (const c of n.cats) if (!ids.includes(c)) errors.push(`${at} unknown category "${c}"`)
+    for (const k of ['teams', 'teamsAr']) if (n[k] !== undefined && (!Array.isArray(n[k]) || n[k].length < 2 || n[k].length > 4 || n[k].some((t) => typeof t !== 'string' || !t.trim() || t.length > 24))) errors.push(`${at} "${k}" must be 2 to 4 names of up to 24 characters`)
+    const x = n.extras ?? {}
+    for (const [k, max] of [['golden', 3], ['steal', 3], ['crowd', 2]]) if (x[k] !== undefined && !(Number.isInteger(x[k]) && x[k] >= 0 && x[k] <= max)) errors.push(`${at} extras.${k} must be 0 to ${max}`)
+    for (const k of ['streak', 'comeback', 'lightning', 'final']) if (x[k] !== undefined && typeof x[k] !== 'boolean') errors.push(`${at} extras.${k} must be true or false`)
+  })
+  return errors
+}
+
 function main() {
   rmSync(outDir, { recursive: true, force: true })
   mkdirSync(outDir, { recursive: true })
@@ -230,6 +255,16 @@ function main() {
   writeFileSync(join(srcDir, 'TO-VERIFY.md'), reviewMarkdown(review))
   const n = review.reduce((s, r) => s + r.items.length, 0)
   if (n) console.log(`\n${n} question(s) marked "?" are held back from the game; see questions/TO-VERIFY.md`)
+  // The Islamic site has its own themed nights (its packs hold only the Islamic and Kids collections).
+  const nightsPath = join(srcDir, process.env.PACK_EDITION === 'islamic' ? 'nights-islamic.json' : 'nights.json')
+  const nights = existsSync(nightsPath) ? JSON.parse(readFileSync(nightsPath, 'utf8')) : []
+  const nightErrors = checkNights(nights, ids)
+  if (nightErrors.length) {
+    console.error(nightErrors.join('\n'))
+    process.exit(1)
+  }
+  writeFileSync(join(outDir, 'nights.json'), JSON.stringify(nights))
+  console.log(`${nights.length} themed nights`)
 }
 
 // What the scholars said, for the owner: flagged lines first, then approvals.

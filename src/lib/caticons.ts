@@ -139,6 +139,14 @@ const GLYPHS: Record<string, () => string> = {
   space: saturn,
   sports: football,
   words: () => `<path d="M24 12.5c-4.4-3-10.4-4.2-17.5-3.2v28c7.1-1 13.1.2 17.5 3.2 4.4-3 10.4-4.2 17.5-3.2v-28c-7.1-1-13.1.2-17.5 3.2zM24 12.5v27.5" stroke-linejoin="round"/><path d="M11 16.3c3-.3 6 .1 8.8 1.2M11 22.3c3-.3 6 .1 8.8 1.2M11 28.3c3-.3 6 .1 8.8 1.2M28.2 17.5c2.8-1.1 5.8-1.5 8.8-1.2M28.2 23.5c2.8-1.1 5.8-1.5 8.8-1.2" stroke-width="1.6"/>`,
+  riddles: () => `<path d="M8 16h10a5 5 0 1 1 10 0h10v9a5 5 0 1 1 0 10v8H8z" stroke-linejoin="round"/>`,
+  weird: () => `<path d="M12 15a6.5 6.5 0 1 1 9.6 5.7c-2.1 1.2-3.1 2.6-3.1 5v2.3"/>${dot(18.5, 36, 5)}<path d="M33 8v20"/>${dot(33, 36, 5)}`,
+  sayings: () => `<path d="M9 9h30a4 4 0 0 1 4 4v17a4 4 0 0 1-4 4H22l-9 7v-7H9a4 4 0 0 1-4-4V13a4 4 0 0 1 4-4z" stroke-linejoin="round"/>${dot(15, 21.5, 4.5)}${dot(24, 21.5, 4.5)}${dot(33, 21.5, 4.5)}`,
+  mathpuzzles: () => `<path d="M14 8v12M8 14h12M28 14h12M9 29l10 10M19 29L9 39M28 31h12M28 37h12"/>`,
+  inventions: () => `<circle cx="24" cy="24" r="12"/><circle cx="24" cy="24" r="4.5"/><path d="M37 24h3M33.2 33.2l2.1 2.1M24 37v3M14.8 33.2l-2.1 2.1M11 24H8M14.8 14.8l-2.1-2.1M24 11V8M33.2 14.8l2.1-2.1" stroke-width="5.5" stroke-linecap="butt"/>`,
+  cars: () => `<path d="M9.5 33H5v-8l5.5-2 6-8.5h14l7 8.5 6 2v8h-4.5M18.5 33h11" stroke-linejoin="round"/><path d="M17.5 22.5h13" stroke-width="1.6"/><circle cx="14" cy="33" r="4.5"/><circle cx="34" cy="33" r="4.5"/>`,
+  gaming: () => `<path d="M15 14h18c6 0 9 6.5 10 15.5.5 5-4 7.5-7.5 4L32 30H16l-3.5 3.5c-3.5 3.5-8 1-7.5-4C6 20.5 9 14 15 14z" stroke-linejoin="round"/><path d="M15.5 19v7.5M11.75 22.75h7.5"/>${dot(31, 21, 4.5)}${dot(36, 25.5, 4.5)}`,
+  records: () => `<path d="M15 7h18v10a9 9 0 0 1-18 0z" stroke-linejoin="round"/><path d="M15 10H9c0 6 3 9.5 7 10M33 10h6c0 6-3 9.5-7 10M24 26v7M17 41h14M19.5 41l1-8h7l1 8" stroke-linejoin="round"/>`,
   custom: () => `<path d="M17.5 17.5a6.5 6.5 0 1 1 9.6 5.7c-2.1 1.2-3.1 2.6-3.1 5v2.3"/>${dot(24, 37, 5)}<circle cx="24" cy="24" r="19" stroke-width="1.6" opacity=".5"/>`,
 }
 

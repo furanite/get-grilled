@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { CatIcon } from './Brand'
 import type { Category, CategorySummary, Game, Lang, Madhhab, PackGroup, PoolEdit } from '../lib/types'
 import { VALUES } from '../lib/types'
@@ -6,7 +6,7 @@ import type { Strings } from '../lib/i18n'
 import { num, qCount } from "../lib/i18n"
 import { CLUE_SECS, GAME_MINUTES, applyPool, createGame, filterMadhhab, isPlayable, poolCounts } from '../lib/game'
 import { sfx } from '../lib/sound'
-import { loadPack } from '../lib/packs'
+import { loadNights, loadPack, type Night } from '../lib/packs'
 import { loadMadhhab, loadUsed, saveMadhhab, saveUsed } from '../lib/store'
 
 interface Props {
@@ -41,11 +41,46 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
   const [golden, setGolden] = useState(1)
   const [deduct, setDeduct] = useState(true)
   const [madhhab, setMadhhab] = useState<Madhhab>(loadMadhhab)
+  const [extras, setExtras] = useState(true)
+  const [steal, setSteal] = useState(1)
+  const [crowd, setCrowd] = useState(1)
+  const [streak, setStreak] = useState(true)
+  const [comeback, setComeback] = useState(true)
+  const [lightning, setLightning] = useState(true)
+  const [final, setFinal] = useState(true)
+  const [nights, setNights] = useState<Night[]>([])
+  const [night, setNight] = useState<string | null>(null)
+  const [nightNote, setNightNote] = useState('')
+  useEffect(() => {
+    loadNights().then(setNights)
+  }, [])
+
+  const applyNight = (n: Night) => {
+    setError('')
+    setNight(n.id)
+    const have = new Set([...(index ?? []).map((c) => c.id)])
+    const cats = n.cats.filter((id) => have.has(id)).slice(0, 6)
+    setPicked(cats)
+    setNightNote(cats.length < n.cats.length ? t.nightMissing : '')
+    const names = lang === 'ar' && n.teamsAr ? n.teamsAr : n.teams
+    if (names) setTeams(names.slice(0, 4))
+    const x = n.extras ?? {}
+    setExtras(true)
+    if (x.golden !== undefined) setGolden(x.golden)
+    setSteal(x.steal ?? 1)
+    setCrowd(x.crowd ?? 1)
+    setStreak(x.streak ?? true)
+    setComeback(x.comeback ?? true)
+    setLightning(x.lightning ?? true)
+    setFinal(x.final ?? true)
+  }
   const [error, setError] = useState('')
   const [busy, setBusy] = useState(false)
 
   const toggle = (id: string) => {
     setError('')
+    setNight(null)
+    setNightNote('')
     setPicked((p) => (p.includes(id) ? p.filter((x) => x !== id) : p.length >= 6 ? p : [...p, id]))
   }
 
@@ -63,7 +98,9 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
       const cats = (await Promise.all(picked.map((id) => custom.find((c) => c.id === id) ?? loadPack(id)))).map((c) => filterMadhhab(applyPool(c, pools[c.id]), madhhab))
       const bad = cats.find((c) => !isPlayable(c))
       if (bad) throw new Error(`“${bad.name}” ${t.incomplete}`)
-      const { game, used } = createGame(cats, teams, { timer, deduct, golden, levelTimers, gameMinutes }, loadUsed())
+      const fun = extras ? { steal, crowd, streak, comeback, lightning, final } : {}
+      const { game, used } = createGame(cats, teams, { timer, deduct, golden, levelTimers, gameMinutes, ...fun }, loadUsed())
+      if (night) game.night = night
       saveUsed(used)
       sfx.start()
       onStart(game)
@@ -98,6 +135,21 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
         <span className="label">
           {t.pickCats} · {num(picked.length, lang)}/{num(6, lang)}
         </span>
+        {nights.length > 0 && index && (
+          <div className="nights" data-testid="nights">
+            <span className="label">{t.nights}</span>
+            <p className="muted nights-help">{t.nightsHelp}</p>
+            <div className="night-grid">
+              {nights.map((n) => (
+                <button key={n.id} className="night" aria-pressed={night === n.id} onClick={() => applyNight(n)} data-night={n.id}>
+                  <b>{lang === 'ar' && n.nameAr ? n.nameAr : n.name}</b>
+                  <small>{lang === 'ar' && n.aboutAr ? n.aboutAr : n.about}</small>
+                </button>
+              ))}
+            </div>
+            {nightNote && <p className="muted">{nightNote}</p>}
+          </div>
+        )}
         <span className="label">{t.builtIn}</span>
         {indexError && <p className="err">{indexError}</p>}
         {!index && !indexError && <p className="muted">{t.loading}</p>}
@@ -256,6 +308,59 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
           <input type="checkbox" id="deduct" checked={deduct} onChange={(e) => setDeduct(e.target.checked)} />
           {t.deduct}
         </label>
+        <fieldset className="extras" data-testid="extras">
+          <legend>
+            <label className="check">
+              <input type="checkbox" id="extras" checked={extras} onChange={(e) => setExtras(e.target.checked)} />
+              {t.funExtras}
+            </label>
+          </legend>
+          <p className="muted" style={{ margin: 0, fontSize: 13 }}>
+            {t.funExtrasHelp}
+          </p>
+          {extras && (
+            <>
+              <div className="extras-row">
+                <label className="field">
+                  <span className="label">{t.stealTiles}</span>
+                  <select className="input" id="steal" value={steal} onChange={(e) => setSteal(+e.target.value)}>
+                    {[0, 1, 2, 3].map((n) => (
+                      <option key={n} value={n}>
+                        {num(n, lang)}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+                <label className="field">
+                  <span className="label">{t.crowdTiles}</span>
+                  <select className="input" id="crowd" value={crowd} onChange={(e) => setCrowd(+e.target.value)}>
+                    {[0, 1, 2].map((n) => (
+                      <option key={n} value={n}>
+                        {num(n, lang)}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+              </div>
+              <label className="check">
+                <input type="checkbox" id="streak" checked={streak} onChange={(e) => setStreak(e.target.checked)} />
+                {t.streakOpt}
+              </label>
+              <label className="check">
+                <input type="checkbox" id="comeback" checked={comeback} onChange={(e) => setComeback(e.target.checked)} />
+                {t.comebackOpt}
+              </label>
+              <label className="check">
+                <input type="checkbox" id="lightning" checked={lightning} onChange={(e) => setLightning(e.target.checked)} />
+                {t.lightningOpt}
+              </label>
+              <label className="check">
+                <input type="checkbox" id="final" checked={final} onChange={(e) => setFinal(e.target.checked)} />
+                {t.finalOpt}
+              </label>
+            </>
+          )}
+        </fieldset>
         {error && (
           <p className="err" role="alert">
             {error}

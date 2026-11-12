@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import type { Category, CategorySummary, Game, Lang, PoolEdit, Screen, ThemeId } from './lib/types'
 import { hasConsent, loadCustom, loadGame, loadPools, loadSettings, saveCustom, saveGame, savePools, saveSettings } from './lib/store'
-import { isEmptyPool } from './lib/game'
+import { isEmptyPool, nextStage } from './lib/game'
 import { setSoundEnabled, unlockAudio } from './lib/sound'
 import { CONSENT_TEXT, LEGAL } from './lib/legal'
 import { ConsentDialog, Footer, LegalViewer } from './components/Legal'
@@ -14,6 +14,7 @@ import Home from './components/Home'
 import Setup from './components/Setup'
 import Board from './components/Board'
 import Results from './components/Results'
+import { Final, Lightning } from './components/Rounds'
 import Builder from './components/Builder'
 import { AudienceScreen, useAudienceWindow } from './components/Audience'
 import { APP_NAME, HOST_EDITION, appName, type Live } from './lib/edition'
@@ -41,6 +42,7 @@ export default function App() {
   const audience = useAudienceWindow(APP_NAME)
   const themeRef = useRef(theme)
   const t = STRINGS[lang]
+  const inGame = screen === 'game' || screen === 'lightning' || screen === 'final'
 
   useEffect(() => {
     loadIndex().then(setIndex).catch((e: Error) => setIndexError(e.message))
@@ -74,7 +76,7 @@ export default function App() {
   // Leave the Heritage theme when Friday afternoon ends, but never in the middle of a game.
   useEffect(() => {
     const id = setInterval(() => {
-      if (!themeOpen(themeRef.current) && screen !== 'game') setThemeState(DEFAULT_THEME)
+      if (!themeOpen(themeRef.current) && !inGame) setThemeState(DEFAULT_THEME)
     }, 30_000)
     return () => clearInterval(id)
   }, [screen])
@@ -89,6 +91,16 @@ export default function App() {
     if (!canvas) return
     return startBackground(canvas, () => themeRef.current)
   }, [reduceFx])
+
+  /** After the board, the lightning round, then the final question, then the results (each only if the game has it). */
+  const goNext = (after: 'board' | 'lightning' | 'final') => {
+    const nx = game ? nextStage(game, after) : null
+    if (nx) {
+      setGame((g) => ({ ...g, stage: nx }))
+      setScreen(nx === 'lightning' ? 'lightning' : 'final')
+    } else setScreen('results')
+  }
+  const stageScreen = (g: Game): Screen => (g.stage === 'lightning' ? 'lightning' : g.stage === 'final' ? 'final' : 'game')
 
   const notify = useCallback((text: string) => setToast({ text, id: Date.now() }), [])
 
@@ -161,7 +173,7 @@ export default function App() {
                 </button>
               )}
               {!HOST_EDITION && <HostLink lang={lang} />}
-              {screen === 'game' && (
+              {inGame && (
                 <button
                   className="ghost"
                   onClick={() => {
@@ -184,7 +196,7 @@ export default function App() {
           </header>
 
           {screen === 'home' && (
-            <Home t={t} lang={lang} theme={theme} setTheme={setTheme} hasGame={!!game} onNew={() => setScreen('setup')} onResume={() => setScreen('game')} onBuilder={() => setScreen('builder')} onReview={() => setScreen('review')} />
+            <Home t={t} lang={lang} theme={theme} setTheme={setTheme} hasGame={!!game} onNew={() => setScreen('setup')} onResume={() => game && setScreen(stageScreen(game))} onBuilder={() => setScreen('builder')} onReview={() => setScreen('review')} />
           )}
           {screen === 'setup' && (
             <Setup
@@ -207,10 +219,12 @@ export default function App() {
               lang={lang}
               game={game}
               setGame={setGame}
-              onEnd={() => setScreen('results')}
+              onEnd={() => goNext('board')}
               onLive={HOST_EDITION ? setLive : undefined}
             />
           )}
+          {screen === 'lightning' && game && <Lightning t={t} lang={lang} game={game} setGame={setGame} onDone={() => goNext('lightning')} hasFinal={!!nextStage(game, 'lightning')} />}
+          {screen === 'final' && game && <Final t={t} lang={lang} game={game} setGame={setGame} onDone={() => goNext('final')} />}
           {screen === 'results' && game && (
             <Results
               t={t}

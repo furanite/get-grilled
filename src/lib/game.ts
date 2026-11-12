@@ -1,4 +1,4 @@
-import { VALUES, type Category, type Clue, type Game, type GameSettings, type Madhhab, type PoolEdit, type Question } from './types'
+import { VALUES, type Category, type Clue, type Game, type GameSettings, type Madhhab, type PoolEdit, type Question, type Special, type Stage, type TileCounts } from './types'
 import { isDiagram } from './diagram'
 
 export type Rng = () => number
@@ -82,23 +82,61 @@ export function chooseGolden(cols: number, count: number, rng: Rng = Math.random
   return out
 }
 
+/**
+ * Places Steal and Audience tiles on slots that are not golden and not in the 100 row.
+ * Returns tile key -> kind. Asks for more than there is room for simply place fewer.
+ */
+export function chooseSpecials(cols: number, golden: Set<string>, counts: { steal?: number; crowd?: number }, rng: Rng = Math.random): Map<string, Special> {
+  const free: string[] = []
+  for (let c = 0; c < cols; c++) for (let l = 1; l < 5; l++) if (!golden.has(`${c}-${l}`)) free.push(`${c}-${l}`)
+  const out = new Map<string, Special>()
+  const place = (kind: Special, n: number) => {
+    for (let k = 0; k < n && free.length; k++) out.set(free.splice(Math.floor(rng() * free.length), 1)[0], kind)
+  }
+  place('steal', Math.max(0, Math.min(3, Math.floor(counts.steal ?? 0))))
+  place('crowd', Math.max(0, Math.min(2, Math.floor(counts.crowd ?? 0))))
+  return out
+}
+
+/** Points for each right answer in the lightning round, for the final question, and for a streak of three. */
+export const LIGHTNING_VALUE = 100
+export const LIGHTNING_SECS = 60
+export const LIGHTNING_MAX = 25
+export const FINAL_VALUE = 500
+export const FINAL_SECS = 30
+export const STREAK_AT = 3
+export const STREAK_BONUS = 100
+
+function shuffle<T>(arr: T[], rng: Rng): T[] {
+  const a = [...arr]
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1))
+    ;[a[i], a[j]] = [a[j], a[i]]
+  }
+  return a
+}
+
 export function createGame(
   cats: Category[],
   teamNames: string[],
-  settings: GameSettings & { golden: number },
+  settings: GameSettings & TileCounts,
   usedByCat: Record<string, string[]>,
   rng: Rng = Math.random,
 ): { game: Game; used: Record<string, string[]> } {
   if (cats.length < 1 || cats.length > 6) throw new Error('Pick between 1 and 6 categories')
   if (teamNames.length < 2 || teamNames.length > 4) throw new Error('Play with 2 to 4 teams')
   const golden = chooseGolden(cats.length, settings.golden, rng)
+  const specials = chooseSpecials(cats.length, golden, settings, rng)
   const nextUsed = { ...usedByCat }
   const clues: Clue[][] = cats.map((cat, c) => {
     const { picks, used } = drawCategory(cat, usedByCat[cat.id] ?? [], rng)
     nextUsed[cat.id] = used
     return picks.map((q, l) => {
       const isGold = golden.has(`${c}-${l}`)
-      return { ...q, value: VALUES[l] * (isGold ? 2 : 1), golden: isGold }
+      const clue: Clue = { ...q, value: VALUES[l] * (isGold ? 2 : 1), golden: isGold }
+      const sp = specials.get(`${c}-${l}`)
+      if (sp) clue.special = sp
+      return clue
     })
   })
   const game: Game = {
@@ -110,6 +148,46 @@ export function createGame(
     startedAt: Date.now(),
   }
   if (game.settings.gameMinutes) game.endsAt = game.startedAt + game.settings.gameMinutes * 60_000
+  if (game.settings.streak) game.streaks = game.teams.map(() => 0)
+
+  // Extra questions for the lightning round and the final, never ones already on the board.
+  const onBoard = new Set(clues.flat().map((q) => q.id))
+  const fresh = (cat: Category, levels: number[]) => {
+    const seen = new Set(nextUsed[cat.id] ?? [])
+    const all = levels.flatMap((l) => cat.levels[l] ?? []).filter((q) => !onBoard.has(q.id) && !q.img)
+    const unseen = all.filter((q) => !seen.has(q.id))
+    return unseen.length ? unseen : all
+  }
+  const take = (q: Question, catId: string) => {
+    onBoard.add(q.id)
+    nextUsed[catId] = [...(nextUsed[catId] ?? []), q.id]
+  }
+  if (game.settings.final) {
+    for (const ci of shuffle(cats.map((_, i) => i), rng)) {
+      const pool = fresh(cats[ci], [4])
+      if (!pool.length) continue
+      const q = pick(pool, rng)
+      take(q, cats[ci].id)
+      const { id, name, nameAr } = cats[ci]
+      game.final = { cat: { id, name, nameAr }, q: { ...q } }
+      break
+    }
+    if (!game.final) game.settings.final = false
+  }
+  if (game.settings.lightning) {
+    // Short, quick questions: the two easiest levels, a few from every category in turn.
+    const perCat = cats.map((cat) => shuffle(fresh(cat, [0, 1]), rng))
+    const list: Question[] = []
+    for (let round = 0; list.length < LIGHTNING_MAX && perCat.some((p) => p.length > round); round++)
+      perCat.forEach((p, ci) => {
+        if (list.length < LIGHTNING_MAX && p[round]) {
+          list.push({ ...p[round] })
+          take(p[round], cats[ci].id)
+        }
+      })
+    if (list.length >= 5) game.lightning = list
+    else game.settings.lightning = false
+  }
   return { game, used: nextUsed }
 }
 
@@ -122,6 +200,7 @@ function cleanSettings(s: GameSettings): GameSettings {
   const out: GameSettings = { timer: okSecs(s.timer) ? s.timer : 0, deduct: !!s.deduct }
   if (Array.isArray(s.levelTimers) && s.levelTimers.some(okSecs)) out.levelTimers = [0, 1, 2, 3, 4].map((i) => (okSecs(s.levelTimers![i]) ? s.levelTimers![i] : null))
   if (typeof s.gameMinutes === 'number' && s.gameMinutes > 0 && s.gameMinutes <= 600) out.gameMinutes = Math.round(s.gameMinutes)
+  for (const k of ['streak', 'comeback', 'lightning', 'final'] as const) if (s[k] === true) out[k] = true
   return out
 }
 
@@ -160,6 +239,48 @@ export function adjustScore(game: Game, team: number, delta: number): Game {
 export function markUsed(game: Game, c: number, l: number): Game {
   const key = tileKey(c, l)
   return game.used.includes(key) ? game : { ...game, used: [...game.used, key] }
+}
+
+/**
+ * A right answer on the board: adds the clue's points and, with the streak bonus on, counts the team's run.
+ * Another team's right answer ends a run. Returns the new game and whether the team just hit a streak.
+ */
+export function answerRight(game: Game, team: number, points: number): { game: Game; streak: number; bonus: number } {
+  let g = score(game, team, points)
+  if (!game.settings.streak) return { game: g, streak: 0, bonus: 0 }
+  const runs = game.teams.map((_, i) => (i === team ? (game.streaks?.[i] ?? 0) + 1 : 0))
+  const bonus = runs[team] >= STREAK_AT && runs[team] % STREAK_AT === 0 ? STREAK_BONUS : 0
+  if (bonus) g = score(g, team, bonus)
+  return { game: { ...g, streaks: runs }, streak: runs[team], bonus }
+}
+
+/** A wrong answer ends that team's run. */
+export function answerWrong(game: Game, team: number): Game {
+  if (!game.settings.streak || !game.streaks?.[team]) return game
+  return { ...game, streaks: game.streaks.map((n, i) => (i === team ? 0 : n)) }
+}
+
+/** Steal tile: the points move from one team to another (points only, nothing is wagered). */
+export function steal(game: Game, from: number, to: number, points: number): Game {
+  if (from === to || !game.teams[from] || !game.teams[to]) return game
+  return score(score(game, to, points), from, -points)
+}
+
+/** Teams in last place, for comeback picks. Empty when everyone is level (nobody is behind). */
+export function lastPlace(game: Game): number[] {
+  const low = Math.min(...game.teams.map((t) => t.score))
+  const at = game.teams.map((t, i) => (t.score === low ? i : -1)).filter((i) => i >= 0)
+  return at.length === game.teams.length ? [] : at
+}
+
+/** What comes after the given stage: the lightning round, then the final question, then the results (null). */
+export function nextStage(game: Game, after: Stage): Stage | null {
+  const order: Stage[] = ['board', 'lightning', 'final']
+  for (const s of order.slice(order.indexOf(after) + 1)) {
+    if (s === 'lightning' && game.settings.lightning && game.lightning?.length) return s
+    if (s === 'final' && game.settings.final && game.final) return s
+  }
+  return null
 }
 
 export function isFinished(game: Game) {

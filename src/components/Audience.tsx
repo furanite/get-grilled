@@ -5,7 +5,7 @@ import type { Game, Lang, Screen, ThemeId } from '../lib/types'
 import { VALUES } from '../lib/types'
 import type { Strings } from '../lib/i18n'
 import { num } from '../lib/i18n'
-import { clueSeconds, standings, tileKey } from '../lib/game'
+import { FINAL_SECS, FINAL_VALUE, LIGHTNING_SECS, STREAK_AT, clueSeconds, isFinished, lastPlace, standings, tileKey } from '../lib/game'
 import { appName, type Live } from '../lib/edition'
 import { setFavicon } from '../lib/favicon'
 import { Ambient, CatIcon, Flourish, FlourishAbove, Mark } from './Brand'
@@ -153,6 +153,104 @@ function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings;
     )
   }
 
+  const teamChips = (g: Game, behind: number[] = []) => (
+    <div className="scores">
+      {g.teams.map((tm, i) => {
+        const run = g.streaks?.[i] ?? 0
+        return (
+          <div className={`team${tm.score < 0 ? ' neg' : ''}${run >= STREAK_AT ? ' fire' : ''}${behind.includes(i) ? ' behind' : ''}`} key={i} data-aud-team={i}>
+            <b>{tm.name}</b>
+            <span>{num(tm.score, lang)}</span>
+            {run >= STREAK_AT && (
+              <em className="fire-badge">
+                <span aria-hidden="true">🔥</span> {t.onFire} ×{num(run, lang)}
+              </em>
+            )}
+          </div>
+        )
+      })}
+    </div>
+  )
+
+  if (screen === 'lightning' && game) {
+    const st = game.lightningState
+    const q = st && game.lightning?.[st.i]
+    return (
+      <main className="aud-main round" data-testid="audience-lightning">
+        {help}
+        <h1 className="round-title">⚡ {t.lightningTitle}</h1>
+        <section className="stage round-stage">
+          {st?.startedAt && !st.done && q ? (
+            <div className="round-card" key={st.i}>
+              <TimerBar clock={{ start: st.startedAt, total: LIGHTNING_SECS }} total={LIGHTNING_SECS} lang={lang} timeUpText={t.timeUp} big />
+              <p className="q" dir="auto" data-testid="audience-lightning-q">
+                {lang === 'ar' && q.qAr ? q.qAr : q.q}
+              </p>
+              {st.revealed ? (
+                <div className="answer show" dir="auto">
+                  {lang === 'ar' && q.aAr ? q.aAr : q.a}
+                </div>
+              ) : (
+                <div className="answer aud-hidden" aria-hidden="true" />
+              )}
+            </div>
+          ) : (
+            <p className="round-msg">{st?.done ? t.lightningOver : t.lightningHelp}</p>
+          )}
+          {teamChips(game)}
+        </section>
+      </main>
+    )
+  }
+
+  if (screen === 'final' && game?.final) {
+    const st = game.finalState ?? { step: 'cat', marks: [] }
+    const f = game.final
+    const cat = lang === 'ar' && f.cat.nameAr ? f.cat.nameAr : f.cat.name
+    return (
+      <main className="aud-main round" data-testid="audience-final">
+        {help}
+        <h1 className="round-title">{t.finalTitle}</h1>
+        <p className="muted">
+          {num(FINAL_VALUE, lang)} {t.finalWorth}
+        </p>
+        <section className="stage round-stage">
+          <div className="round-card">
+            {st.step === 'cat' ? (
+              <>
+                <p className="round-msg">{t.finalIntro}</p>
+                <p className="final-cat">
+                  <CatIcon id={f.cat.id} /> {cat}
+                </p>
+              </>
+            ) : (
+              <>
+                <span className="label">
+                  <CatIcon id={f.cat.id} /> {cat}
+                </span>
+                <p className="q" dir="auto" data-testid="audience-final-q">
+                  {lang === 'ar' && f.q.qAr ? f.q.qAr : f.q.q}
+                </p>
+              </>
+            )}
+            {st.step === 'q' && (
+              <>
+                <TimerBar clock={{ start: st.startedAt ?? Date.now(), total: FINAL_SECS }} total={FINAL_SECS} lang={lang} timeUpText={t.timeUp} big />
+                <p className="muted">{t.finalWrite}</p>
+              </>
+            )}
+            {st.step === 'answer' && (
+              <div className="answer show" dir="auto" data-testid="audience-final-a">
+                {lang === 'ar' && f.q.aAr ? f.q.aAr : f.q.a}
+              </div>
+            )}
+          </div>
+          {teamChips(game)}
+        </section>
+      </main>
+    )
+  }
+
   if (screen !== 'game' || !game) {
     return (
       <main className="aud-main aud-wait" data-testid="audience" key={theme}>
@@ -170,6 +268,7 @@ function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings;
   }
 
   const clue = live ? game.clues[live.c]?.[live.l] : null
+  const behind = game.settings.comeback && game.used.length > 0 && !isFinished(game) && !live ? lastPlace(game) : []
   const cat = live ? game.cats[live.c] : null
   return (
     <main className="aud-main" data-testid="audience">
@@ -207,14 +306,12 @@ function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings;
             }),
           )}
         </div>
-        <div className="scores">
-          {game.teams.map((tm, i) => (
-            <div className={`team${tm.score < 0 ? ' neg' : ''}`} key={i} data-aud-team={i}>
-              <b>{tm.name}</b>
-              <span>{num(tm.score, lang)}</span>
-            </div>
-          ))}
-        </div>
+        {teamChips(game, behind)}
+        {behind.length > 0 && (
+          <p className="comeback" data-testid="audience-comeback">
+            <span className="pill">{t.comebackLabel}</span> {behind.map((i) => game.teams[i].name).join(' · ')} {t.picksNext}
+          </p>
+        )}
       </section>
       {clue && cat && (
         <div className="aud-clue" data-testid="audience-clue" key={tileKey(live!.c, live!.l)}>
@@ -223,9 +320,12 @@ function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings;
               <span className="meta-cat"><CatIcon id={cat.id} />{lang === 'ar' && cat.nameAr ? cat.nameAr : cat.name}</span>
               <span className="row">
                 {clue.golden && <span className="pill g">{t.golden}</span>}
+                {clue.special === 'steal' && <span className="pill steal">{t.steal}</span>}
+                {clue.special === 'crowd' && <span className="pill crowd">{t.crowd}</span>}
                 <span className="pill">{num(clue.value, lang)}</span>
               </span>
             </div>
+            {clue.special && <p className={`special-note ${clue.special}`}>{clue.special === 'steal' ? t.stealHelp : t.crowdHelp}</p>}
             <p className="q" dir="auto" data-testid="audience-question">
               {lang === 'ar' && clue.qAr ? clue.qAr : clue.q}
             </p>

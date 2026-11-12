@@ -1,0 +1,521 @@
+id: records
+name: Records & Extremes
+group: general
+
+## 100
+The tallest mountain on Earth above sea level. :: Mount Everest
+The largest ocean on Earth. :: The Pacific Ocean
+The largest hot desert in the world. :: The Sahara
+The largest planet in the solar system. :: Jupiter
+The smallest planet in the solar system. :: Mercury
+The hottest planet in the solar system. :: Venus
+The planet closest to the Sun. :: Mercury
+The largest animal that has ever lived. :: The blue whale
+The tallest animal in the world. :: The giraffe
+The fastest land animal. :: The cheetah
+The largest land animal. :: The African elephant
+The largest bird in the world. :: The ostrich
+The smallest bird in the world. :: The bee hummingbird
+The largest cat species. :: The tiger
+The slowest-moving mammal, which hangs in trees. :: The sloth
+The biggest country in the world by area. :: Russia
+The smallest country in the world. :: Vatican City
+The country with the most people. :: India
+The largest country in the Arab world by area. :: Algeria
+The largest country in the Middle East by area. :: Saudi Arabia
+The largest continent. :: Asia
+The smallest continent. :: Australia (Oceania)
+The coldest continent. :: Antarctica
+The largest island in the world. :: Greenland
+The tallest building in the world, in Dubai. :: Burj Khalifa
+The tallest building in Saudi Arabia, in Makkah. :: Abraj Al-Bait (Makkah Clock Royal Tower)
+The longest wall in the world, built in China. :: The Great Wall of China
+The largest mosque in the world. :: Masjid al-Haram
+The fastest bird in a dive. :: The peregrine falcon
+The longest snake species. :: The reticulated python
+The heaviest snake species. :: The green anaconda
+The largest fish in the sea. :: The whale shark
+The largest shark that hunts big prey. :: The great white shark
+The biggest rainforest in the world. :: The Amazon
+The deepest ocean. :: The Pacific Ocean
+The brightest star in the night sky. :: Sirius
+The closest star to Earth. :: The Sun
+The biggest bone in the human body. :: The femur (thigh bone)
+The smallest bone in the human body. :: The stapes (stirrup bone)
+The largest organ inside the human body. :: The liver
+The largest organ of the human body overall. :: The skin
+The strongest muscle for its size, used for chewing. :: The masseter (jaw muscle)
+The longest day of the year in the northern hemisphere falls in this month. :: June
+The shortest month of the year. :: February
+The longest month by name in English letters. :: September
+The most widely spoken language by total speakers. :: English
+The language with the most native speakers. :: Mandarin Chinese
+The most popular sport in the world. :: Football (soccer)
+The country that has won the most FIFA World Cups. :: Brazil
+The number of World Cups Brazil has won. :: Five
+The player with the most Ballon d'Or awards. :: Lionel Messi
+The player with the most international goals in men's football. :: Cristiano Ronaldo
+The fastest man in recorded history. :: Usain Bolt
+Usain Bolt's 100 m world record time. :: 9.58 seconds
+The biggest stadium in the world, in North Korea. :: Rungrado 1st of May Stadium
+The largest stadium in Saudi Arabia, in Riyadh. :: King Fahd International Stadium
+The world's most valuable company in 2025. :: Nvidia
+The richest person in the world in 2025. :: Elon Musk
+The world's largest oil company. :: Saudi Aramco
+The world's largest oil field, in Saudi Arabia. :: Ghawar
+The best-selling book of all time, apart from religious texts, is often said to be this novel. :: Don Quixote
+The tallest tree species. :: Coast redwood
+The largest tree by volume. :: General Sherman (giant sequoia)
+The largest flower in the world. :: Rafflesia arnoldii
+The biggest fruit grown on a tree. :: The jackfruit
+The biggest egg laid by a living bird. :: The ostrich egg
+The deepest lake in the world. :: Lake Baikal
+The largest lake in the world. :: The Caspian Sea
+The largest freshwater lake by area. :: Lake Superior
+The highest waterfall in the world. :: Angel Falls
+The longest river in the world, by most measures. :: The Nile
+The longest river in South America. :: The Amazon
+The longest river in Europe. :: The Volga
+The highest mountain in Africa. :: Mount Kilimanjaro
+The highest mountain in Saudi Arabia. :: Jabal Sawda
+The largest city in Saudi Arabia. :: Riyadh
+The largest port city on the Red Sea in Saudi Arabia. :: Jeddah
+The hottest temperature ever recorded on Earth was in this US valley. :: Death Valley
+The coldest place on Earth, in Antarctica. :: Vostok Station (East Antarctic Plateau)
+The wettest place on Earth, in India. :: Mawsynram
+The driest desert on Earth outside the poles. :: The Atacama Desert
+The windiest continent. :: Antarctica
+The most common gas in Earth's air. :: Nitrogen
+The most common element in the universe. :: Hydrogen
+The hardest natural material. :: Diamond
+The lightest gas. :: Hydrogen
+The most common blood type in the world. :: O positive
+The biggest planet's biggest moon, also the largest in the solar system. :: Ganymede
+The nearest planet to Earth on average. :: Mercury
+The fastest spinning planet. :: Jupiter
+The planet with the most known moons. :: Saturn
+The coldest planet in the solar system, on average. :: Uranus
+The longest-living animal with a backbone. :: The Greenland shark
+The tallest grass, which can grow as fast as a metre a day. :: Bamboo
+The largest country in South America. :: Brazil
+The largest country in Africa by area. :: Algeria
+The highest mountain in North America. :: Denali
+The highest mountain in South America. :: Aconcagua
+The tallest building in Europe, in St Petersburg. :: Lakhta Center
+The largest country lying entirely in Europe. :: Ukraine
+The longest river in Asia. :: The Yangtze
+
+## 200
+The height of Mount Everest, to the nearest metre, measured in 2020. :: 8,849 metres
+The deepest known point in the oceans. :: The Challenger Deep
+The depth of the Challenger Deep, roughly. :: About 10,900 metres
+The height of the Burj Khalifa. :: 828 metres
+The number of floors in the Burj Khalifa. :: 163
+The tallest building under construction in Saudi Arabia, planned to pass 1,000 metres. :: Jeddah Tower
+The longest bridge in the world, a railway viaduct in China. :: Danyang–Kunshan Grand Bridge
+The longest sea bridge, linking Hong Kong, Zhuhai and Macau. :: Hong Kong–Zhuhai–Macau Bridge
+The longest railway tunnel in the world, in Switzerland. :: Gotthard Base Tunnel
+The busiest airport in the world by passengers. :: Hartsfield–Jackson Atlanta International Airport
+The largest airport in the world by area, in Saudi Arabia. :: King Fahd International Airport (Dammam)
+The largest passenger plane in the world. :: Airbus A380
+The fastest passenger plane ever in regular service. :: Concorde
+The fastest manned aircraft ever, a US spy plane. :: SR-71 Blackbird
+The largest ship ever built, a supertanker. :: Seawise Giant (Knock Nevis)
+The largest cruise ship as of 2024. :: Icon of the Seas
+The country with the longest coastline. :: Canada
+The country with the most neighbours. :: China (and Russia, 14 each)
+The highest capital city. :: La Paz
+The lowest point on land. :: The shore of the Dead Sea
+The largest salt flat in the world. :: Salar de Uyuni
+The largest coral reef system. :: The Great Barrier Reef
+The longest mountain range on land. :: The Andes
+The longest mountain range overall, mostly underwater. :: The Mid-Ocean Ridge
+The tallest mountain from base to peak. :: Mauna Kea
+The largest canyon in the US. :: The Grand Canyon
+The longest cave system in the world. :: Mammoth Cave
+The largest cave passage in the world, in Vietnam. :: Son Doong
+The largest sand desert in one piece. :: The Rub' al Khali (Empty Quarter)
+The area of Saudi Arabia, roughly. :: About 2.15 million square km
+The largest Saudi island in the Red Sea. :: Farasan Island
+The largest oasis in the world, in Saudi Arabia. :: Al-Ahsa
+The longest coastline in Saudi Arabia is on this sea. :: The Red Sea
+The largest women's university in the world, in Riyadh. :: Princess Nourah bint Abdulrahman University
+The largest library in the world by catalogued items. :: The Library of Congress
+The largest museum in the world by area. :: The Louvre
+The most visited museum in the world. :: The Louvre
+The most expensive painting ever sold, "Salvator Mundi", was by this artist. :: Leonardo da Vinci
+The longest-reigning British monarch. :: Queen Elizabeth II
+The longest reign of any monarch, at 72 years. :: Louis XIV of France
+The oldest person ever recorded, at 122. :: Jeanne Calment
+The tallest man in recorded history, at 2.72 m. :: Robert Wadlow
+The tallest living man, from Turkey. :: Sultan Kösen
+The number of gold medals won by Michael Phelps. :: 23
+The athlete with the most Olympic medals. :: Michael Phelps
+The country with the most Olympic gold medals. :: The United States
+The men's marathon world record, set by Kelvin Kiptum in 2023, roughly. :: 2 hours 0 minutes 35 seconds
+The first person to run a marathon in under two hours, in an unofficial event. :: Eliud Kipchoge
+The pole vault record holder who keeps breaking his own record. :: Armand Duplantis
+The women's 100 m world record holder since 1988. :: Florence Griffith-Joyner
+The tennis player with the most men's Grand Slam singles titles. :: Novak Djokovic
+The footballer with the most official career goals. :: Cristiano Ronaldo
+The club with the most UEFA Champions League titles. :: Real Madrid
+The Saudi club with the most AFC Champions League titles. :: Al-Hilal
+The number of AFC Champions League titles Al-Hilal has won. :: Four
+The world record for most consecutive wins by a top-flight football club, set in 2023 to 2024. :: Al-Hilal (34 wins)
+The fastest goal in World Cup history, scored by Hakan Şükür. :: 11 seconds
+The biggest win in a World Cup qualifying match, 31–0. :: Australia v American Samoa
+The highest scoring team in a single Premier League season. :: Manchester City
+The most-watched sporting event in the world. :: The FIFA World Cup final
+The country that will host the 2034 FIFA World Cup. :: Saudi Arabia
+The longest tennis match ever, at Wimbledon in 2010, lasted about this long. :: 11 hours 5 minutes
+The record for the most goals in a calendar year, 91, set in 2012. :: Lionel Messi
+The manager who led Manchester United for 26 years. :: Sir Alex Ferguson
+The fastest serve recorded in men's tennis, about 263 km/h. :: Sam Groth
+The highest-scoring NBA game by one player, 100 points. :: Wilt Chamberlain
+The NBA's all-time leading scorer. :: LeBron James
+The fastest swimmer over 50 m freestyle in men's history. :: César Cielo
+The cricket batter with the most international runs. :: Sachin Tendulkar
+The highest-paid athlete in the world in 2024. :: Cristiano Ronaldo
+The largest fish ever recorded, extinct, a giant shark. :: Megalodon
+The largest dinosaur known by some estimates. :: Argentinosaurus
+The largest reptile alive. :: The saltwater crocodile
+The largest lizard. :: The Komodo dragon
+The largest primate. :: The gorilla
+The largest rodent. :: The capybara
+The largest bear. :: The polar bear
+The largest deer. :: The moose
+The largest penguin. :: The emperor penguin
+The bird with the largest wingspan. :: The wandering albatross
+The fastest fish. :: The sailfish (or black marlin)
+The largest invertebrate. :: The colossal squid
+The animal with the longest migration. :: The Arctic tern
+The loudest land animal. :: The howler monkey
+The animal with the strongest bite. :: The saltwater crocodile
+The insect with the longest lifespan, a queen of this. :: Termite
+The most venomous snake on land. :: The inland taipan
+The deadliest animal to humans. :: The mosquito
+The Kenyan runner who set the women's marathon world record in Chicago in 2024. :: Ruth Chepngetich
+The men's 200 m world record. :: 19.19 seconds
+The South African who has held the men's 400 m world record since 2016. :: Wayde van Niekerk
+The American who has held the long jump world record since 1991. :: Mike Powell
+The only country to play at every men's World Cup. :: Brazil
+The top scorer in men's World Cup history, with 16 goals. :: Miroslav Klose
+The country that has won the AFC Asian Cup the most times. :: Japan
+The number of times Saudi Arabia has won the AFC Asian Cup. :: Three
+Saudi Arabia's famous 2022 World Cup win was against this team. :: Argentina
+The score of Saudi Arabia's win over Argentina in 2022. :: 2–1
+The Saudi player who scored the winner against Argentina in 2022. :: Salem Al-Dawsari
+The biggest stadium planned for the 2034 World Cup, in Riyadh. :: King Salman International Stadium
+The American swimmer with the most Olympic gold medals of any female swimmer. :: Katie Ledecky
+
+## 300
+The height of Jabal Sawda, Saudi Arabia's highest peak, roughly. :: About 3,000 metres
+The world's tallest clock tower, in Makkah. :: Abraj Al-Bait Clock Tower
+The diameter of the Makkah clock faces. :: 43 metres
+The largest airport terminal building in the world, in Dubai. :: Dubai International Terminal 3
+The largest building by floor area in the world, in China. :: New Century Global Center
+The largest building by volume in the world, Boeing's factory. :: Boeing Everett Factory
+The largest palace in the world by floor area, in Brunei. :: Istana Nurul Iman
+The largest pyramid by volume, in Mexico. :: The Great Pyramid of Cholula
+The tallest pyramid, in Egypt. :: The Great Pyramid of Giza
+The highest road in the world that cars can use. :: Umling La (India)
+The highest railway in the world. :: Qinghai–Tibet Railway
+The longest railway in the world. :: The Trans-Siberian Railway
+The fastest train in regular passenger service, a maglev in China. :: Shanghai Maglev
+The fastest train speed on rails ever, 574.8 km/h, set by this French train. :: TGV
+The fastest roller coaster in the world, at Ferrari World Abu Dhabi. :: Formula Rossa
+The tallest roller coaster planned at Qiddiya near Riyadh. :: Falcon's Flight
+The tallest Ferris wheel in the world, in Dubai. :: Ain Dubai
+Chile, the longest north-south country, is about this long. :: About 4,300 km
+The country that crosses the most time zones on the mainland. :: Russia
+The country with the highest average elevation. :: Bhutan
+The flattest country in the world. :: The Maldives
+The country with the most volcanoes. :: Indonesia
+The country with the most people per square km. :: Monaco
+The country with the fewest people. :: Vatican City
+The Arabic dialect spoken by the most people. :: Egyptian Arabic
+The oldest university still operating. :: University of al-Qarawiyyin
+The oldest known city still lived in, often said to be this Syrian city. :: Damascus
+The oldest known human-made structure, older than Stonehenge, in Turkey. :: Göbekli Tepe
+The longest-running American animated TV series. :: The Simpsons
+The most subscribed YouTube channel. :: MrBeast
+The most followed person on Instagram. :: Cristiano Ronaldo
+The largest social network by users. :: Facebook
+The most spoken second language in the world. :: English
+The most translated book apart from religious texts. :: The Little Prince
+The best-selling book series in history. :: Harry Potter
+The longest novel ever written, by number of characters, by Marcel Proust. :: In Search of Lost Time
+The longest word in the Oxford English Dictionary. :: Pneumonoultramicroscopicsilicovolcanoconiosis
+The longest place name in the world, in New Zealand. :: Taumata (Taumatawhakatangihangakoauau...)
+The alphabet with the most letters, Khmer, has about this many. :: 74
+The alphabet with the fewest letters, Rotokas. :: 12
+The largest prime number known, found in 2024, has about this many digits. :: About 41 million
+The most digits of pi calculated, as of 2025, is about this many. :: About 300 trillion
+The largest diamond ever found. :: The Cullinan Diamond
+The largest natural pearl ever found, about 34 kg, from the Philippines. :: Pearl of Puerto Princesa
+The densest element. :: Osmium
+The metal with the highest melting point. :: Tungsten
+The most abundant metal in Earth's crust. :: Aluminium
+The most abundant element in Earth's crust. :: Oxygen
+The most abundant element in the human body by mass. :: Oxygen
+The most abundant gas in the Sun. :: Hydrogen
+The most reactive metal. :: Caesium
+The only metal that is liquid at room temperature. :: Mercury
+The closest star to the Sun. :: Proxima Centauri
+The nearest large galaxy to the Milky Way. :: The Andromeda Galaxy
+The longest time a person has spent in space continuously, about 437 days. :: Valeri Polyakov
+The first person in space. :: Yuri Gagarin
+The first woman in space. :: Valentina Tereshkova
+The youngest person to go to space, at 18. :: Oliver Daemen
+The oldest person to go to space, aged 90 in 2024, a former US Air Force pilot. :: Ed Dwight
+The highest altitude a human has reached, on Apollo 13. :: About 400,000 km from Earth
+The coldest temperature possible. :: Absolute zero (−273.15°C)
+The hottest temperature made by humans, at CERN's Large Hadron Collider. :: About 5.5 trillion °C
+The fastest thing in the universe. :: Light
+The speed of light, roughly. :: About 300,000 km per second
+The fastest human-made object, the Parker Solar Probe, at about this speed. :: About 690,000 km/h
+The most powerful earthquake ever recorded, in Chile in 1960. :: Magnitude 9.5 (Valdivia)
+The deadliest earthquake in recorded history, in China in 1556. :: Shaanxi earthquake
+The tallest wave ever surfed, in Nazaré, Portugal. :: About 26 metres
+The highest wave ever recorded, in Lituya Bay, Alaska in 1958. :: About 524 metres (a megatsunami)
+The largest hailstone recorded in the US, in South Dakota. :: About 20 cm across
+The most lightning strikes, Lake Maracaibo in this country. :: Venezuela
+The highest recorded wind gust, on Barrow Island in Australia. :: About 408 km/h
+The most rainfall in one year, in Cherrapunji, India. :: About 26 metres
+The deepest ocean trench in the world. :: The Mariana Trench
+The largest river delta in the world, in Bangladesh and India. :: The Ganges–Brahmaputra Delta
+The largest mangrove forest in the world. :: The Sundarbans
+The largest peninsula in the world. :: The Arabian Peninsula
+The largest gulf in the world. :: The Gulf of Mexico
+The bay with the longest shoreline in the world, in Canada. :: Hudson Bay
+The saltiest sea that is open to the ocean. :: The Red Sea
+The largest lake in Africa. :: Lake Victoria
+The longest river in western Asia, flowing through Turkey, Syria and Iraq. :: The Euphrates
+The highest mountain in the Arab world, in Morocco. :: Jebel Toubkal
+The deepest canyon in the world, in Tibet. :: Yarlung Tsangpo Grand Canyon
+The longest glacier outside the polar regions, in Tajikistan. :: Fedchenko Glacier
+The largest ice sheet on Earth. :: The Antarctic ice sheet
+The giant iceberg B-15, the largest ever recorded, was about the size of this island country. :: Jamaica
+The largest island in the Mediterranean. :: Sicily
+The largest island in Asia. :: Borneo
+The largest island in Africa. :: Madagascar
+The largest country made up of islands. :: Indonesia
+The largest landlocked country. :: Kazakhstan
+The most populous Arab country. :: Egypt
+The most populous city in the Arab world. :: Cairo
+The most populous Muslim-majority country. :: Indonesia
+The country with the youngest population by median age. :: Niger
+The country with the oldest population by median age. :: Monaco
+The highest permanent town in the world, in Peru. :: La Rinconada
+The lowest city in the world, about 250 m below sea level. :: Jericho
+The oldest stone pyramid in Egypt, at Saqqara. :: The Step Pyramid of Djoser
+The tallest residential building in the world, in New York. :: Central Park Tower
+
+## 400
+The tallest statue in the world, in India. :: The Statue of Unity
+The height of the Statue of Unity. :: 182 metres
+The world's tallest flagpole, about 201 m, stands in this country's New Administrative Capital. :: Egypt
+The longest train journey without changing trains, from Moscow to Pyongyang. :: About 10,000 km
+The longest scheduled non-stop flight, Singapore to New York. :: About 15,300 km (about 18 to 19 hours)
+The shortest scheduled flight, between two Scottish islands. :: Westray to Papa Westray
+The duration of the shortest scheduled flight, Westray to Papa Westray. :: About 1.5 minutes
+The largest airline by fleet size. :: American Airlines
+The Saudi national airline. :: Saudia
+The new Saudi airline launched to fly from Riyadh in 2025. :: Riyadh Air
+The largest dam in the world by power output. :: The Three Gorges Dam
+The largest offshore wind farm in the world, off England. :: Hornsea
+The largest desalination plant in the world, in Saudi Arabia. :: Ras Al-Khair
+The largest hospital in the world by beds, in China. :: The First Affiliated Hospital of Zhengzhou University
+The largest school in the world by students, in India. :: City Montessori School, Lucknow
+The largest university in the world by enrolment, in India. :: Indira Gandhi National Open University
+The world's largest film industry by number of films. :: India (Bollywood and others)
+The longest film ever made, "Logistics", lasts about this long. :: 35 days (857 hours)
+The most expensive car ever sold, a 1955 Mercedes. :: The 300 SLR Uhlenhaut Coupé
+The most expensive stamp, the "British Guiana 1c magenta". :: About 8 million dollars
+The most expensive football transfer ever, Neymar to PSG in 2017. :: 222 million euros
+The highest-paid footballer contract in history, Cristiano Ronaldo's at this Saudi club. :: Al-Nassr
+The most expensive building project ever, by most estimates. :: The expansion of Masjid al-Haram
+The most expensive spice by weight. :: Saffron
+The precious perfume wood of Arabia, from the agarwood tree. :: Oud
+The longest-living tree individual, a bristlecone pine named this. :: Methuselah
+The oldest known living clonal tree colony, in Utah. :: Pando
+The tree with the widest trunk, in Mexico. :: The Árbol del Tule
+The largest seed, from the coco de mer palm, weighs up to this much. :: About 25 kg
+The plant with the largest leaves, a raffia palm. :: Raphia regalis
+The most venomous fish. :: The stonefish
+The most venomous jellyfish. :: The box jellyfish
+The most poisonous frog. :: The golden poison frog
+The most venomous spider to humans, by many measures. :: The Sydney funnel-web spider
+The smallest mammal by weight. :: The Etruscan shrew
+The smallest mammal by length, a bat from Thailand. :: Kitti's hog-nosed bat (bumblebee bat)
+The smallest fish known. :: Paedocypris progenetica
+The smallest reptile, a chameleon from Madagascar. :: Brookesia nana
+The smallest cat species. :: The rusty-spotted cat
+The smallest dog breed. :: The Chihuahua
+The tallest dog breed. :: The Great Dane (or Irish Wolfhound)
+The fastest dog breed. :: The greyhound
+The heaviest flying bird. :: The kori bustard (or great bustard)
+The deepest-diving bird. :: The emperor penguin
+The deepest-diving mammal, the Cuvier's beaked whale, dives about this deep. :: About 3,000 metres
+The animal with the largest brain. :: The sperm whale
+The animal with the most legs, a millipede found in Australia, with this many. :: 1,306
+The highest-flying bird, which has hit planes at 11,000 m. :: Rüppell's vulture
+The longest non-stop flight by a bird, the bar-tailed godwit, about this far. :: About 13,500 km
+The fastest flying insect. :: The dragonfly (or horsefly)
+The loudest insect, the cicada, can reach about this volume. :: About 120 decibels
+The longest insect, a stick insect from China. :: Phryganistria chinensis
+The fastest-running insect, relative to its size. :: The Australian tiger beetle
+The largest camel herd market in the world is in this Saudi city. :: Buraydah
+The camel breed famous in Saudi Arabia for beauty contests, black in colour. :: Majaheem
+The fastest camel race speed, roughly. :: About 65 km/h
+The highest price ever paid for a camel, in Saudi Arabia, roughly. :: About 7 million riyals
+The largest falcon auction is held in this Saudi city during a falconry festival. :: Riyadh (Malham)
+The record price paid for a falcon at the Saudi Falcons Club auction, roughly. :: About 650,000 riyals
+The longest-serving king of Saudi Arabia. :: King Fahd
+The first king of the Kingdom of Saudi Arabia. :: King Abdulaziz
+The year the Kingdom of Saudi Arabia was unified and named. :: 1932
+The largest Saudi city by area. :: Riyadh
+The world's largest mirrored building, a concert hall in AlUla. :: Maraya
+The largest Quran printing complex in the world, in Madinah. :: King Fahd Complex for the Printing of the Holy Quran
+The number of pilgrims at the Hajj in a normal year, roughly. :: About 2 million
+The little brown bat sleeps about this many hours a day. :: About 20
+The largest frog in the world. :: The Goliath frog
+The spider with the largest leg span. :: The giant huntsman spider
+The heaviest spider. :: The Goliath birdeater
+The longest beetle, from Central and South America. :: The Hercules beetle
+The largest butterfly. :: Queen Alexandra's birdwing
+The largest bee. :: Wallace's giant bee
+The largest antelope. :: The giant eland
+The largest living marsupial. :: The red kangaroo
+The crab with the longest legs. :: The Japanese spider crab
+The largest turtle. :: The leatherback sea turtle
+The largest snake ever known, now extinct. :: Titanoboa
+The largest flying animal ever known, a pterosaur. :: Quetzalcoatlus
+The largest seal. :: The southern elephant seal
+The largest member of the dolphin family. :: The orca
+The largest toothed whale. :: The sperm whale
+The longest-living mammal, which can pass 200 years. :: The bowhead whale
+The most numerous bird on Earth. :: The chicken
+The most numerous wild bird. :: The red-billed quelea
+The rarest big cat in the world. :: The Amur leopard
+One of the tallest horse breeds, from England. :: The Shire horse
+The smallest horse breed, from Argentina. :: The Falabella
+The longest wadi in the Arabian Peninsula. :: Wadi al-Rummah
+The great sand desert of northern Saudi Arabia. :: An-Nafud
+The country with the longest Red Sea coastline. :: Saudi Arabia
+The largest port in Saudi Arabia, on the Red Sea. :: Jeddah Islamic Port
+The largest industrial city in the Middle East, on Saudi Arabia's Gulf coast. :: Jubail
+The best-selling mobile phone model of all time, a basic Nokia. :: Nokia 1100
+The longest continuous bridge over water, in Louisiana. :: Lake Pontchartrain Causeway
+The busiest container port in the world. :: The Port of Shanghai
+The busiest train station in the world by passengers. :: Shinjuku Station
+The oldest underground railway, opened in 1863. :: The London Underground
+The deepest metro station in the world, in Kyiv. :: Arsenalna
+The Riyadh Metro, one of the longest driverless systems, is about this long. :: 176 km
+The hotel planned in Makkah to have the most rooms in the world. :: Abraj Kudai
+The longest sea wall in the world, in South Korea. :: Saemangeum Seawall
+
+## 500
+The deepest hole ever drilled. :: Kola Superdeep Borehole (about 12.2 km)
+The deepest mine in the world, a gold mine in South Africa. :: Mponeng Gold Mine
+The deepest point reached in an underwater vehicle with people aboard. :: Challenger Deep (about 10,935 m)
+The first two people to reach the Challenger Deep in 1960. :: Jacques Piccard and Don Walsh
+The filmmaker who dived alone to the Challenger Deep in 2012. :: James Cameron
+The first people to reach the summit of Everest in 1953. :: Edmund Hillary and Tenzing Norgay
+The first Saudi woman to climb Mount Everest, in 2013. :: Raha Moharrak
+The first Saudi man to climb Everest. :: Farouq Al-Zoman
+The person who has climbed Everest the most times, a Nepali Sherpa. :: Kami Rita Sherpa
+The number of times Kami Rita Sherpa has climbed Everest, by 2025. :: 31
+The second-highest mountain on Earth. :: K2
+The most dangerous of the 8,000-metre peaks by death rate. :: Annapurna
+The highest volcano in the world. :: Ojos del Salado
+The point on Earth's surface farthest from its centre. :: The summit of Chimborazo
+The northernmost town in the world with over 1,000 people. :: Longyearbyen
+The southernmost city in the world. :: Ushuaia (or Puerto Williams)
+The remotest island with people, in the South Atlantic. :: Tristan da Cunha
+The ocean point farthest from any land. :: Point Nemo
+The country with the most UNESCO World Heritage Sites. :: Italy
+The number of UNESCO World Heritage Sites in Saudi Arabia by 2024. :: Eight
+The first Saudi UNESCO World Heritage Site, listed in 2008. :: Hegra (Al-Hijr)
+The ancient rock art site in Saudi Arabia's Ha'il region on the UNESCO list. :: Jubbah and Shuwaymis
+The most recent Saudi UNESCO site, added in 2024, an ancient cultural landscape. :: Al-Faw
+The tallest structure ever built before the Burj Khalifa, a radio mast in Poland. :: Warsaw Radio Mast
+The Eiffel Tower was the tallest structure in the world until this year. :: 1930
+The building that took the "tallest" title from the Eiffel Tower in 1930. :: Chrysler Building
+The tallest building in the world from 1998 to 2004. :: Petronas Towers
+The tallest building from 2004 to 2009, in Taiwan. :: Taipei 101
+The longest suspension bridge span, opened in Turkey in 2022. :: 1915 Çanakkale Bridge
+The main span of the 1915 Çanakkale Bridge. :: 2,023 metres
+The heaviest building in the world, in Bucharest. :: The Palace of the Parliament
+The giant cube-shaped building planned in Riyadh. :: The Mukaab
+The size of the planned Mukaab in Riyadh, a giant cube about this tall. :: 400 metres
+The Channel Tunnel between England and France is about this long. :: About 50 km
+The largest particle accelerator, the LHC, has a ring about this long. :: 27 km
+The most powerful telescope in space. :: The James Webb Space Telescope
+The largest single-dish radio telescope, in China. :: FAST
+The diameter of the FAST radio telescope. :: 500 metres
+The coldest known place in the universe, the Boomerang Nebula, is about this cold. :: About −272°C
+The largest structure in the universe known, the Hercules–Corona Borealis Great Wall, is this many light-years across. :: About 10 billion
+The most massive black hole known, TON 618, has about this many solar masses. :: About 40 billion (or more)
+The fastest spinning known star, a pulsar, spins about this many times a second. :: 716
+The planet with the longest year in the solar system. :: Neptune
+The tallest cliff in the solar system, Verona Rupes, is on this moon of Uranus. :: Miranda
+The largest volcano in the solar system. :: Olympus Mons
+The deepest canyon system in the solar system, on Mars. :: Valles Marineris
+The most volcanically active body in the solar system. :: Io
+The largest asteroid, also a dwarf planet. :: Ceres
+The comet that passes Earth every 75 to 76 years. :: Halley's Comet
+The year Halley's Comet will next appear. :: 2061
+The longest total solar eclipse of the 21st century, in 2009, lasted about this long. :: 6 minutes 39 seconds
+The longest known human life, 122 years and 164 days, ended in this year. :: 1997
+The oldest living person in 2025, an English woman. :: Ethel Caterham
+The longest marriage on record, about 90 years. :: Karam and Kartari Chand
+The record for the most children born to one mother, 69, is attributed to a Russian woman in the 1700s with this surname. :: Vassilyev
+The fastest time to solve a 3x3 Rubik's Cube, about 3.05 seconds, set in 2025 by this Chinese speedcuber. :: Xuanyi Geng
+The record for memorising digits of pi, about 70,000. :: Rajveer Meena
+The largest single book ever printed, by Guinness, was made in this country. :: United Arab Emirates
+The largest Arabic dictionary, "Lisan al-Arab", was written by this scholar. :: Ibn Manzur
+The longest poem in the world, an Indian epic. :: The Mahabharata
+The longest English word with letters in alphabetical order. :: Aegilops
+The highest-grossing film of all time. :: Avatar (2009)
+The highest-grossing animated film of all time. :: Ne Zha 2
+The highest-grossing Saudi film at the Saudi box office as of 2024. :: Sattar
+The most watched Netflix series. :: Squid Game
+The most visited website in the world. :: Google
+The most visited website in the world after Google. :: YouTube
+The most valuable brand in the world in 2025, according to Brand Finance. :: Apple
+The country that has won the most medals at the Winter Olympics. :: Norway
+The Saudi hurdler who won the country's first Olympic silver medal, at Sydney 2000. :: Hadi Souan Al-Somaily
+The Saudi karateka who won silver at the Tokyo 2020 Olympics. :: Tareg Hamedi
+The most gold medals won by one athlete at a single Olympics. :: 8 (Michael Phelps, 2008)
+The women's 100 m world record. :: 10.49 seconds
+The men's high jump world record, set by Javier Sotomayor in 1993. :: 2.45 metres
+The women's 800 m world record from 1983, the oldest individual athletics record. :: 1:53.28
+The men's javelin world record, set by Jan Železný. :: 98.48 metres
+The Georgian weightlifter who holds the clean and jerk world record of about 267 kg. :: Lasha Talakhadze
+The world chess champion who held the title the longest, 27 years. :: Emanuel Lasker
+The youngest chess grandmaster ever, at 12 years and 4 months. :: Abhimanyu Mishra
+The youngest world chess champion, who won the title at 18 in 2024. :: Gukesh Dommaraju
+The 1933 Double Eagle, the most expensive coin ever sold, went for about this much. :: About 18.9 million dollars
+The largest gold nugget ever found, in Australia in 1869. :: The Welcome Stranger
+The largest cut diamond from the Cullinan, set in the British sceptre. :: The Great Star of Africa (Cullinan I)
+The aircraft with the largest wingspan ever flown. :: Stratolaunch (Roc)
+The heaviest aircraft ever built, destroyed in 2022. :: Antonov An-225 Mriya
+The tallest dam in the world, in China. :: Jinping-I Dam
+The largest artificial lake by volume, between Zambia and Zimbabwe. :: Lake Kariba
+The longest canal in the world, in China. :: The Grand Canal
+The canal linking the Red Sea to the Mediterranean. :: The Suez Canal
+The narrow strait at the southern end of the Red Sea. :: Bab-el-Mandeb
+The deepest point of the Red Sea is about this deep. :: About 3,000 metres
+The Saudi company building luxury resorts on Red Sea islands. :: Red Sea Global
+The highest dew point ever recorded, 35°C in 2003, was in this Saudi city. :: Dhahran
+The Arab League country with the longest coastline. :: Somalia
+The largest city in the Arabian Peninsula by population. :: Riyadh
+The number of floors planned for the Jeddah Tower. :: 167
+The world's tallest hotel as of 2025, in Dubai Marina. :: Ciel Dubai Marina
+The giant new airport planned in Riyadh. :: King Salman International Airport
+The number of runways planned at King Salman International Airport. :: Six
+The country that drinks the most coffee per person. :: Finland
+The country that produces the most crude oil. :: The United States
+The country that exports the most crude oil. :: Saudi Arabia
+The country with the largest proven oil reserves. :: Venezuela

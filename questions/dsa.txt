@@ -105,6 +105,8 @@ The step-by-step check of an algorithm by hand, writing down each variable. :: D
 The name for the input size in Big O notation. :: n
 An algorithm must always finish after a finite number of steps; this property is called this. :: Finiteness
 Name the data structure drawn here. {img:linked-list.svg} :: A singly linked list
+Name this data structure, where items go in and come out at the same end. {img:ds-stack.svg} :: Stack
+Name this data structure, where items go in at one end and come out at the other. {img:ds-queue.svg} :: Queue
 
 ## 200
 The Big O of finding an item in a balanced binary search tree. :: O(log n)
@@ -207,6 +209,7 @@ An algorithm that uses random choices, like randomised quicksort. :: Randomised 
 The fastest way to search a sorted array that is evenly spread, guessing the position. :: Interpolation search
 The data structure behind a priority queue in most libraries. :: Binary heap
 The class of problems whose answers can be checked quickly. :: NP
+This stack has 42 on top. After two pops, which value is on top? {img:ds-stack.svg} :: 8
 
 ## 300
 The data structure that gives O(log n) search, insert and delete using towers of linked lists and coin flips. :: Skip list

@@ -104,6 +104,9 @@ The instrument that measures how fast a shaft is turning. :: Tachometer
 The word for slowing down, as when braking. :: Deceleration
 The rate of change of momentum equals this. :: Net force
 A wheel turning at 60 rpm makes this many turns per second. :: One
+Name this simple machine. {img:machine-pulley.svg} :: Pulley
+Name this simple machine. {img:machine-incline.svg} :: Inclined plane (ramp)
+Name this simple machine. {img:machine-wedge.svg} :: Wedge
 
 ## 200
 Average velocity equals displacement divided by this. :: Time
@@ -206,6 +209,7 @@ The angular momentum of a rigid body about a fixed axis equals I times this. :: 
 On a frictionless banked curve, tan θ equals v² divided by this. :: r g
 The minimum speed at the top of a vertical loop of radius r for a car to stay on the track. :: √(g r)
 The kinetic energy of a rolling wheel is its translational kinetic energy plus this. :: Rotational kinetic energy
+The fulcrum is between the load and the effort. Which class of lever is this? {img:lever-1.svg} :: First-class lever
 
 ## 300
 The acceleration of a point in a rotating frame includes this extra term, 2ω × v. :: Coriolis acceleration
@@ -308,6 +312,8 @@ The signal method that finds rolling-bearing faults by demodulating high-frequen
 A suddenly applied step load on an undamped system gives this dynamic load factor. :: 2
 The car body's rotation about its long axis when cornering. :: Roll
 The speed of a transverse wave on a taut string equals √(tension ÷ this). :: Mass per unit length
+Which class of lever is this, with the load between the fulcrum and the effort? {img:lever-2.svg} :: Second-class lever
+Which class of lever is this, with the effort between the fulcrum and the load? {img:lever-3.svg} :: Third-class lever
 
 ## 400
 The theorem that the most general rigid-body motion is a translation plus a rotation about one axis. :: Chasles' theorem
@@ -410,6 +416,7 @@ The energy-flow method for predicting high-frequency vibration of complex struct
 Damping inside a spinning shaft can make it unstable above the first critical speed. This is called this. :: Internal (rotating) damping
 Finding small oscillations about equilibrium by linearising and checking eigenvalues. :: Linear stability analysis
 The rolling-bearing fault frequency for a defect on the fixed outer ring, abbreviated BPFO. :: Ball pass frequency, outer race
+A wheelbarrow is an example of the lever class drawn here. Which class is it? {img:lever-2.svg} :: Second-class lever
 
 ## 500
 The 1687 book in which Newton set out his laws of motion. :: Philosophiæ Naturalis Principia Mathematica

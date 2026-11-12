@@ -35,11 +35,16 @@ async function openAudience(page) {
   await aud.waitForSelector('[data-testid="audience"]')
   return aud
 }
+// Most tests play a classic game: no special tiles, streaks or closing rounds.
+async function classic(page) {
+  const box = page.locator('#extras')
+  if (await box.count() && await box.isChecked()) await box.uncheck()
+}
 async function startGame(page, n = 6) {
   await page.getByRole('button', { name: /new game|لعبة جديدة/i }).click()
   await page.waitForSelector('.cat-pick')
   for (let i = 0; i < n; i++) await page.locator('.cat-pick:not([disabled])').nth(i).click()
-  await page.getByTestId('start').click()
+  await classic(page); await page.getByTestId('start').click()
   await page.waitForSelector('.tile')
 }
 
@@ -147,6 +152,32 @@ try {
     await page.context().close()
   })
 
+  await test('the projector shows the lightning round and the final question, but not the final answer early', async () => {
+    const page = await hostPage()
+    const aud = await openAudience(page)
+    await page.getByRole('button', { name: /new game/i }).click()
+    await page.waitForSelector('.cat-pick')
+    for (let i = 0; i < 2; i++) await page.locator('.cat-pick:not([disabled])').nth(i).click()
+    await page.getByTestId('start').click()
+    await page.waitForSelector('.tile')
+    await page.getByTestId('end').click()
+    await page.getByTestId('end-confirm').click()
+    await page.getByTestId('lightning-go').click()
+    await aud.waitForSelector('[data-testid="audience-lightning-q"]')
+    assert((await aud.textContent('[data-testid="audience-lightning-q"]')) === (await page.textContent('[data-testid="lightning-q"]')), 'same lightning question')
+    while (await page.getByTestId('lightning-next').count()) await page.getByTestId('lightning-next').click()
+    await page.getByTestId('lightning-done').click()
+    await aud.waitForSelector('[data-testid="audience-final"]')
+    await page.getByTestId('final-show').click()
+    await aud.waitForSelector('[data-testid="audience-final-q"]')
+    assert((await aud.locator('[data-testid="audience-final-a"]').count()) === 0, 'final answer must stay hidden until revealed')
+    await page.getByTestId('final-reveal').click()
+    await aud.waitForSelector('[data-testid="audience-final-a"]')
+    await aud.screenshot({ path: `${SHOTS}/host-audience-final.png` })
+    assert(aud.errors.length === 0 && page.errors.length === 0, 'errors: ' + [...aud.errors, ...page.errors].join(' | '))
+    await page.context().close()
+  })
+
   await test('a built-in picture question shows its diagram on the projector', async () => {
     const page = await hostPage()
     // Only the picture questions are in play at 100 for Digital Logic
@@ -160,7 +191,7 @@ try {
     await page.getByRole('button', { name: /new game/i }).click()
     await page.waitForSelector('.cat-pick')
     await page.locator('[data-cat="digital"]').click()
-    await page.getByTestId('start').click()
+    await classic(page); await page.getByTestId('start').click()
     await page.waitForSelector('.tile')
     await page.click('[data-tile="0-0"]')
     await page.waitForSelector('.card.open')
@@ -181,7 +212,7 @@ try {
     await page.waitForSelector('.cat-pick')
     await page.locator('.cat-pick:not([disabled])').first().click()
     await page.selectOption('#game-minutes', '10')
-    await page.getByTestId('start').click()
+    await classic(page); await page.getByTestId('start').click()
     await page.waitForSelector('.tile')
     await aud.waitForSelector('[data-testid="game-clock"]')
     const txt = await aud.textContent('[data-testid="game-clock"]')

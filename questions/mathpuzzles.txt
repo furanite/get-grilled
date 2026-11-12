@@ -1,0 +1,536 @@
+id: mathpuzzles
+name: Quick Maths & Logic
+group: general
+
+## 100
+7 times 8. :: 56
+6 times 9. :: 54
+12 times 12. :: 144
+9 times 9. :: 81
+11 times 7. :: 77
+8 times 8. :: 64
+5 times 13. :: 65
+4 times 25. :: 100
+3 times 33. :: 99
+6 times 7. :: 42
+Half of 50. :: 25
+Half of 30. :: 15
+Half of 100. :: 50
+Half of 18. :: 9
+Half of 90. :: 45
+Half of 64. :: 32
+Double 7. :: 14
+Double 15. :: 30
+Double 25. :: 50
+Double 12. :: 24
+The total number of legs on 3 spiders. :: 24
+The total number of legs on 5 ants. :: 30
+The total number of legs on 4 cats. :: 16
+The total number of legs on 6 ducks. :: 12
+The total number of legs on 2 octopuses. :: 16
+The total number of legs on 10 beetles. :: 60
+The total number of legs on 7 camels. :: 28
+The number of sides on a triangle. :: 3
+The number of sides on a square. :: 4
+The number of sides on a pentagon. :: 5
+The number of sides on a hexagon. :: 6
+The number of sides on a octagon. :: 8
+The number of sides on a decagon. :: 10
+The sides on a triangle plus the sides on a square. :: 7
+The sides on a hexagon plus the sides on a pentagon. :: 11
+The sides on a octagon plus the sides on a triangle. :: 11
+The number of minutes in 2 hours. :: 120
+The number of hours in 3 days. :: 72
+The number of days in 5 weeks. :: 35
+The number of months in 4 years. :: 48
+The number of seconds in 3 minutes. :: 180
+The number of minutes in a quarter of an hour. :: 15
+The number of hours in a week. :: 168
+The number of days in a leap year. :: 366
+The number of eggs in two dozen. :: 24
+The number of years in a decade. :: 10
+The number of years in a century. :: 100
+The number of halalas in 5 riyals. :: 500
+The number of centimetres in 2 metres. :: 200
+The number of grams in 3 kilograms. :: 3,000
+The number of millilitres in a litre. :: 1,000
+The number of metres in half a kilometre. :: 500
+The number of players on two football teams on the pitch. :: 22
+The number of cards in a standard deck, without jokers. :: 52
+The number of squares on a chessboard. :: 64
+The number of faces on a cube. :: 6
+The number of zeros in one thousand. :: 3
+The number of zeros in one million. :: 6
+The number of degrees in a right angle. :: 90
+The number of degrees in a full circle. :: 360
+The number of dots on a standard die in total. :: 21
+The number of minutes in an hour and a half. :: 90
+The number of wheels on 6 bicycles. :: 12
+The number of wheels on 5 cars, not counting spares. :: 20
+The number of fingers on 4 hands. :: 20
+The number of sides on 3 triangles. :: 9
+Ten less than 100. :: 90
+One hundred minus 37. :: 63
+25 plus 25 plus 25. :: 75
+The number that comes after 999. :: 1,000
+100 divided by 4. :: 25
+81 divided by 9. :: 9
+The number of quarters in 3 wholes. :: 12
+The number of days in February in a non-leap year. :: 28
+The number of days in the month of April. :: 30
+A dozen plus a half-dozen. :: 18
+The sum of the numbers 1, 2, 3 and 4. :: 10
+The smallest two-digit number. :: 10
+The largest two-digit number. :: 99
+The largest three-digit number. :: 999
+The number of hours on a clock face. :: 12
+3 squared. :: 9
+5 squared. :: 25
+10 squared. :: 100
+The square root of 49. :: 7
+The square root of 100. :: 10
+1,000 minus 1. :: 999
+The number of minutes from 2:45 to 3:15. :: 30
+If today is Monday, the day after tomorrow. :: Wednesday
+If today is Friday, the day three days from now. :: Monday
+The number of months in a year with exactly 30 days. :: 4
+The number you get by adding the first five odd numbers. :: 25
+The next even number after 98. :: 100
+Twenty percent of 50. :: 10
+Fifty percent of 300. :: 150
+The number of riyals in 4 notes of 50 riyals. :: 200
+The change from 100 riyals after spending 65. :: 35 riyals
+Ahmed has 12 dates and eats a third. Dates left. :: 8
+The number of days in two weeks. :: 14
+Nine plus six. :: 15
+The total number of sides on 2 squares and a triangle. :: 11
+
+## 200
+10 percent of 450. :: 45
+25 percent of 80. :: 20
+15 percent of 200. :: 30
+5 percent of 600. :: 30
+75 percent of 40. :: 30
+20 percent of 35. :: 7
+30 percent of 90. :: 27
+12 percent of 50. :: 6
+40 percent of 250. :: 100
+1 percent of 700. :: 7
+11 squared. :: 121
+12 squared. :: 144
+13 squared. :: 169
+14 squared. :: 196
+15 squared. :: 225
+16 squared. :: 256
+20 squared. :: 400
+25 squared. :: 625
+30 squared. :: 900
+The square root of 121. :: 11
+The square root of 144. :: 12
+The square root of 169. :: 13
+The square root of 225. :: 15
+The square root of 400. :: 20
+The square root of 625. :: 25
+The square root of 900. :: 30
+2 cubed. :: 8
+3 cubed. :: 27
+4 cubed. :: 64
+5 cubed. :: 125
+13 times 4. :: 52
+25 times 12. :: 300
+15 times 15. :: 225
+19 times 5. :: 95
+32 times 3. :: 96
+45 times 4. :: 180
+99 times 3. :: 297
+101 times 7. :: 707
+144 divided by 12. :: 12
+1,000 divided by 8. :: 125
+360 divided by 6. :: 60
+225 divided by 15. :: 15
+196 divided by 14. :: 14
+840 divided by 7. :: 120
+The number of seconds in an hour. :: 3,600
+The number of minutes in a day. :: 1,440
+The number of hours in the 30 days of a month. :: 720
+The number of days in 12 weeks. :: 84
+The number of weeks in a year, roughly. :: 52
+A car travels at 90 km/h for 2 hours. Distance travelled. :: 180 km
+A car travels 150 km in 3 hours. Its average speed. :: 50 km/h
+Walking at 5 km/h, the time to walk 15 km. :: 3 hours
+The perimeter of a square with sides of 7 cm. :: 28 cm
+The area of a rectangle 8 m by 6 m. :: 48 square metres
+The area of a square with sides of 9 cm. :: 81 square cm
+The area of a triangle with base 10 and height 6. :: 30
+The number of degrees in each angle of an equilateral triangle. :: 60
+The sum of the interior angles of a triangle. :: 180 degrees
+The sum of the interior angles of a quadrilateral. :: 360 degrees
+The number of edges on a cube. :: 12
+The number of corners (vertices) on a cube. :: 8
+The number of edges on a square-based pyramid. :: 8
+The number of faces on a triangular prism. :: 5
+A shirt costs 80 riyals with 25 percent off. The sale price. :: 60 riyals
+A phone costs 2,000 riyals plus 15 percent VAT. The total. :: 2,300 riyals
+The VAT on a 100-riyal item in Saudi Arabia at 15 percent. :: 15 riyals
+A third of 360. :: 120
+Three-quarters of 80. :: 60
+Two-fifths of 50. :: 20
+One-eighth of 64. :: 8
+0.5 plus 0.25. :: 0.75
+0.1 times 0.1. :: 0.01
+1.5 times 4. :: 6
+One half plus one quarter, as a fraction. :: 3/4
+One third plus one sixth, as a fraction. :: 1/2
+The decimal for one fifth. :: 0.2
+The decimal for three-eighths. :: 0.375
+The percentage equal to one quarter. :: 25 percent
+The percentage equal to 3/5. :: 60 percent
+The number of prime numbers between 1 and 20. :: 8
+The smallest prime number. :: 2
+The first prime number greater than 50. :: 53
+The largest prime number below 100. :: 97
+The number of factors of 12. :: 6
+The highest common factor of 12 and 18. :: 6
+The lowest common multiple of 4 and 6. :: 12
+The lowest common multiple of 3, 4 and 5. :: 60
+The Roman numeral XIV in ordinary digits. :: 14
+The Roman numeral XL in ordinary digits. :: 40
+The Roman numeral MMXXVI in ordinary digits. :: 2,026
+The year 1999 in Roman numerals. :: MCMXCIX
+The number 50 in Roman numerals. :: L
+The number 500 in Roman numerals. :: D
+The number 9 in binary. :: 1001
+The binary number 1111 in ordinary digits. :: 15
+The number of minutes between 9:40 and 11:15. :: 95
+The time 2 hours 50 minutes after 10:30. :: 1:20
+The 24-hour time for 7:45 pm. :: 19:45
+The average of 4, 8 and 12. :: 8
+The average of 10, 20, 30 and 40. :: 25
+The median of 3, 9, 4, 7, 5. :: 5
+The mode of 2, 3, 3, 5, 7, 3, 2. :: 3
+The range of 4, 12, 7, 19, 2. :: 17
+A dozen dozen. :: 144
+Half of a half of 100. :: 25
+The sum of all whole numbers from 1 to 10. :: 55
+The product of all whole numbers from 1 to 5. :: 120
+Negative 5 plus 12. :: 7
+Negative 3 times negative 4. :: 12
+Ten minus negative ten. :: 20
+2 to the power 5. :: 32
+2 to the power 10. :: 1,024
+10 to the power 4. :: 10,000
+The number of zeros in one billion. :: 9
+
+## 300
+23 times 11. :: 253
+45 times 11. :: 495
+72 times 11. :: 792
+25 times 24. :: 600
+35 times 35. :: 1,225
+48 times 5. :: 240
+125 times 8. :: 1,000
+16 times 25. :: 400
+99 times 99. :: 9,801
+51 times 49. :: 2,499
+17 squared. :: 289
+19 squared. :: 361
+21 squared. :: 441
+24 squared. :: 576
+35 squared. :: 1,225
+45 squared. :: 2,025
+50 squared. :: 2,500
+99 squared. :: 9,801
+6 cubed. :: 216
+7 cubed. :: 343
+10 cubed. :: 1,000
+The cube root of 8. :: 2
+The cube root of 27. :: 3
+The cube root of 64. :: 4
+The cube root of 125. :: 5
+The cube root of 1,000. :: 10
+6 factorial. :: 720
+7 factorial. :: 5,040
+2 to the power 12. :: 4,096
+2 to the power 15. :: 32,768
+2 to the power 20. :: 1,048,576
+The next number in the sequence 2, 5, 10, 17, 26. :: 37
+The next number in the sequence 1, 2, 4, 8, 16, 32. :: 64
+The next number in the sequence 3, 9, 27, 81. :: 243
+The next number in the sequence 1, 1, 2, 3, 5, 8, 13, 21. :: 34
+The next number in the sequence 2, 3, 5, 7, 11, 13, 17. :: 19
+The next number in the sequence 1, 4, 9, 16, 25, 36. :: 49
+The next number in the sequence 1, 8, 27, 64, 125. :: 216
+The next number in the sequence 0, 3, 8, 15, 24. :: 35
+The next number in the sequence 1, 3, 6, 10, 15, 21. :: 28
+The next number in the sequence 2, 6, 12, 20, 30, 42. :: 56
+The next number in the sequence 1, 2, 6, 24, 120. :: 720
+The next number in the sequence 5, 11, 23, 47. :: 95
+The next number in the sequence 100, 50, 25. :: 12.5
+The next number in the sequence 1, 4, 13, 40. :: 121
+The next number in the sequence 2, 4, 12, 48. :: 240
+A train leaves at 08:50 and arrives at 13:25. Journey time. :: 4 hours 35 minutes
+Light travels about 300,000 km each second. Distance in 5 seconds. :: 1,500,000 km
+Two numbers add to 20 and differ by 4. The larger number. :: 12
+Two numbers add to 30 and multiply to 200. The two numbers. :: 10 and 20
+A number tripled and then increased by 7 gives 40. The number. :: 11
+If 3x + 5 = 26, x equals this. :: 7
+If x/4 = 9, x equals this. :: 36
+If 2x - 7 = 15, x equals this. :: 11
+The value of x if x squared is 169 and x is positive. :: 13
+A rectangle has area 72 and width 8. Its length. :: 9
+The circumference of a circle with diameter 10, taking pi as 3.14. :: 31.4
+The area of a circle of radius 10, taking pi as 3.14. :: 314
+The hypotenuse of a right triangle with sides 3 and 4. :: 5
+The hypotenuse of a right triangle with sides 5 and 12. :: 13
+The hypotenuse of a right triangle with sides 8 and 15. :: 17
+The number of diagonals in a pentagon. :: 5
+The sum of the interior angles of a hexagon. :: 720 degrees
+Each interior angle of a regular hexagon. :: 120 degrees
+Each interior angle of a regular octagon. :: 135 degrees
+Each exterior angle of a regular pentagon. :: 72 degrees
+The volume of a cube with sides of 4 cm. :: 64 cubic cm
+The surface area of a cube with sides of 3 cm. :: 54 square cm
+The volume of a box 2 m by 3 m by 5 m. :: 30 cubic metres
+The number of seconds in a day. :: 86,400
+The number of minutes in a week. :: 10,080
+The number of days in a century of 365-day years plus 24 leap days. :: 36,524
+A price rises 10 percent and then falls 10 percent. The overall change. :: 1 percent down
+A price of 200 riyals is raised by 50 percent then cut by 50 percent. The final price. :: 150 riyals
+The interest on 1,000 riyals at 5 percent a year for 2 years, simple interest. :: 100 riyals
+A 12-slice pizza is shared equally by 4 friends. The fraction each gets. :: 1/4 (3 slices)
+The probability of rolling a 6 on a fair die. :: 1/6
+The probability of flipping two heads in a row. :: 1/4
+The probability of drawing an ace from a full deck. :: 1/13
+The probability of rolling an even number on a die. :: 1/2
+The number of ways to arrange the letters A, B and C. :: 6
+The number of ways to arrange 4 people in a line. :: 24
+The number of handshakes when 6 people each shake hands once. :: 15
+The number of matches in a round-robin of 8 teams playing each other once. :: 28
+The number of games in a knockout tournament of 16 players. :: 15
+The number of games in a knockout tournament of 64 players. :: 63
+The number of different outfits from 3 shirts and 4 trousers. :: 12
+Writing the numbers 1 to 100, the number of digits written. :: 192
+The sum of the angles of a pentagon. :: 540 degrees
+The sum of the whole numbers from 1 to 20. :: 210
+The sum of the first 10 odd numbers. :: 100
+The average of the numbers 1 to 99. :: 50
+The number of multiples of 7 between 1 and 100. :: 14
+The number of leap years from 2001 to 2100 inclusive. :: 24
+Twelve percent of 250. :: 30
+Seventeen percent of 300. :: 51
+Eight is what percentage of 32? :: 25 percent
+45 is 15 percent of this number. :: 300
+The decimal for 7/8. :: 0.875
+The fraction equal to 0.125. :: 1/8
+The fraction equal to 0.333... :: 1/3
+The binary number 101010 in ordinary digits. :: 42
+The number 100 in binary. :: 1100100
+The hexadecimal number FF in ordinary digits. :: 255
+The Roman numeral CDXLIV in ordinary digits. :: 444
+The Roman numeral MCMLXXXVIII in ordinary digits. :: 1,988
+The number of degrees the minute hand turns in 20 minutes. :: 120
+The number of degrees the hour hand turns in one hour. :: 30
+
+## 400
+37 times 37. :: 1,369
+65 times 65. :: 4,225
+85 times 15. :: 1,275
+112 times 9. :: 1,008
+48 times 52. :: 2,496
+999 times 7. :: 6,993
+125 times 32. :: 4,000
+13 times 17. :: 221
+43 times 47. :: 2,021
+75 times 75. :: 5,625
+The square root of 1,024. :: 32
+The square root of 2,025. :: 45
+The square root of 1,369. :: 37
+The cube root of 3,375. :: 15
+The cube root of 1,728. :: 12
+111 squared. :: 12,321
+1,111 squared. :: 1,234,321
+2 to the power 16. :: 65,536
+3 to the power 6. :: 729
+5 to the power 5. :: 3,125
+8 factorial. :: 40,320
+10 factorial. :: 3,628,800
+The number of trailing zeros in 25 factorial. :: 6
+The last digit of 7 to the power 100. :: 1
+The last digit of 2 to the power 50. :: 4
+The remainder when 1,000 is divided by 7. :: 6
+The remainder when 2 to the power 10 is divided by 9. :: 7
+The sum of the digits of 2 to the power 15. :: 26
+The number of positive divisors of 100. :: 9
+The number of positive divisors of 360. :: 24
+The sum of the positive divisors of 28, not counting 28 itself. :: 28
+The third perfect number. :: 496
+The smallest number with exactly 6 divisors. :: 12
+The number of prime numbers below 100. :: 25
+The 10th prime number. :: 29
+The smallest four-digit prime number. :: 1,009
+The prime factorisation of 360. :: 2^3 × 3^2 × 5
+The prime factors of 1,001. :: 7, 11 and 13
+The highest common factor of 84 and 126. :: 42
+The lowest common multiple of 12, 15 and 20. :: 60
+The lowest common multiple of 1 to 10. :: 2,520
+The 12th Fibonacci number, starting 1, 1. :: 144
+The 10th triangular number. :: 55
+The 20th triangular number. :: 210
+The 8th square number plus the 8th triangular number. :: 100
+The number of diagonals in a decagon. :: 35
+The number of diagonals in a 12-sided polygon. :: 54
+The number of faces on an icosahedron. :: 20
+The number of edges on a dodecahedron. :: 30
+The number of vertices on an octahedron. :: 6
+Euler's formula for polyhedra: V − E + F equals this. :: 2
+The number of ways to choose 3 people from 10. :: 120
+The number of ways to choose 2 from 20. :: 190
+The number of ways to arrange the letters of BANANA. :: 60
+The number of ways to arrange the letters of LEVEL. :: 30
+The number of different 3-digit numbers using digits 1 to 9 without repeating. :: 504
+The number of possible 4-digit PIN codes from 0000 to 9999. :: 10,000
+The number of binary strings of length 8. :: 256
+The number of subsets of a set with 5 elements. :: 32
+The probability of rolling a total of 12 with two dice. :: 1/36
+The probability of rolling a total of 7 with two dice. :: 1/6
+The probability of getting at least one head in three coin flips. :: 7/8
+The probability that two cards drawn from a deck are both aces. :: 1/221
+The expected value of one roll of a fair six-sided die. :: 3.5
+The number of minutes in a leap year. :: 527,040
+The number of seconds in a week. :: 604,800
+The number of degrees in 1 radian, to the nearest degree. :: 57
+The number of radians in a full circle. :: 2π
+Pi to 5 decimal places. :: 3.14159
+The square root of 2 to 3 decimal places. :: 1.414
+The golden ratio to 3 decimal places. :: 1.618
+Euler's number e to 3 decimal places. :: 2.718
+The angle between clock hands at 4:00. :: 120 degrees
+The angle between clock hands at 9:30. :: 105 degrees
+The angle between clock hands at 2:20. :: 50 degrees
+A car goes 60 km at 30 km/h and 60 km at 60 km/h. Average speed overall. :: 40 km/h
+A tap fills a tank in 3 hours and another in 6 hours. Both together take this long. :: 2 hours
+Five workers build a wall in 12 days. Ten workers at the same rate take this long. :: 6 days
+A 20 percent discount followed by another 20 percent discount equals a single discount of this. :: 36 percent
+Doubling money every year, starting with 1 riyal, the amount after 10 years. :: 1,024 riyals
+The sum of the interior angles of a decagon. :: 1,440 degrees
+The area of a triangle with sides 13, 14 and 15. :: 84
+The distance between the points (0,0) and (6,8). :: 10
+The slope of the line through (1,2) and (3,8). :: 3
+The x-intercept of y = 2x − 8. :: 4
+The solutions of x squared − 5x + 6 = 0. :: 2 and 3
+The solutions of x squared = 2x. :: 0 and 2
+The value of 1 + 2 + 4 + 8 + ... + 512. :: 1,023
+The sum of the infinite series 1 + 1/2 + 1/4 + 1/8 + ... :: 2
+The value of 0.999... recurring. :: 1
+The number 255 in binary. :: 11111111
+The binary number 10000000000 in ordinary digits. :: 1,024
+The hexadecimal number 100 in ordinary digits. :: 256
+The number 2026 in Roman numerals. :: MMXXVI
+The number 3,999 in Roman numerals. :: MMMCMXCIX
+The 15th Fibonacci number, starting 1, 1. :: 610
+Each interior angle of a regular decagon. :: 144 degrees
+The number of two-digit whole numbers. :: 90
+The number of three-digit numbers divisible by 5. :: 180
+The value of 4 + 4 × 4 − 4 ÷ 4. :: 19
+
+## 500
+The smallest number that is the sum of two cubes in two different ways. :: 1,729
+The only positive whole number equal to twice the sum of its digits. :: 18
+The smallest number divisible by every number from 1 to 12. :: 27,720
+The fourth perfect number. :: 8,128
+The number of zeros at the end of 1,000 factorial. :: 249
+The last two digits of 2 to the power 20. :: 76
+The sum of the digits of 9 to the power 3. :: 18
+The number of primes below 1,000. :: 168
+The 100th prime number. :: 541
+The smallest prime with two digits that stays prime when its digits are reversed and differs from it. :: 13
+Primes of the form 2^p − 1, named after a French friar. :: Mersenne primes
+The largest 3-digit number that is a perfect square. :: 961
+The smallest 4-digit perfect square. :: 1,024
+The smallest number that is both a perfect square and a perfect cube, greater than 1. :: 64
+The number of trailing zeros in 50 factorial. :: 12
+The number of diagonals in a 20-sided polygon. :: 170
+The number of squares of all sizes on an 8 by 8 chessboard. :: 204
+The number of rectangles of all sizes on an 8 by 8 chessboard. :: 1,296
+The number of ways to arrange the letters of MISSISSIPPI. :: 34,650
+The number of ways to choose 6 numbers from 49. :: 13,983,816
+The number of ways to seat 5 people around a round table, ignoring rotations. :: 24
+The number of ways 8 rooks can be placed on a chessboard with none attacking another. :: 40,320
+The probability that, in a group of 23 people, two share a birthday, roughly. :: About 50 percent
+The number of people needed for a 99 percent chance two share a birthday, roughly. :: 57
+The expected number of rolls of a fair die to get a 6. :: 6
+The expected number of coin flips to get two heads in a row. :: 6
+The number of derangements of 4 items, where none are in their original place. :: 9
+The 5th Catalan number, starting C0 = 1. :: 42
+The 10th Fibonacci number, starting 1, 1. :: 55
+The ratio that consecutive Fibonacci numbers approach. :: The golden ratio (about 1.618)
+The sum of the first 100 positive whole numbers. :: 5,050
+The sum of the squares from 1 squared to 10 squared. :: 385
+The sum of the cubes from 1 cubed to 10 cubed. :: 3,025
+The value of 12 factorial divided by 10 factorial. :: 132
+The value of 100 choose 2. :: 4,950
+The value of 2 to the power 32. :: 4,294,967,296
+The approximate value of 2 to the power 64. :: About 18.4 quintillion
+9 to the power 4. :: 6,561
+The value of 7 to the power 4. :: 2,401
+The famous fact: 10 squared + 11 squared + 12 squared equals 13 squared + 14 squared. Their shared value. :: 365
+The square root of 7,056. :: 84
+The square root of 9,801. :: 99
+The cube of 21. :: 9,261
+The fifth root of 3,125. :: 5
+The logarithm base 10 of 1,000,000. :: 6
+The logarithm base 2 of 1,024. :: 10
+The natural logarithm of e squared. :: 2
+The derivative of x cubed. :: 3x squared
+The integral of 2x with respect to x. :: x squared + C
+The value of i squared, where i is the imaginary unit. :: -1
+The value of e to the power iπ plus 1, in Euler's identity. :: 0
+The sum of the interior angles of a 20-sided polygon. :: 3,240 degrees
+The number of edges on a tesseract (4D cube). :: 32
+The number of vertices on a tesseract. :: 16
+The number of Platonic solids. :: 5
+The number of faces on a truncated icosahedron, the classic football shape. :: 32
+The number of hexagons on a classic football. :: 20
+The number of pentagons on a classic football. :: 12
+The area of a circle with circumference 2π. :: π
+The volume of a sphere of radius 3, in terms of π. :: 36π
+The surface area of a sphere of radius 1, in terms of π. :: 4π
+The angle in degrees inside a regular dodecagon at each corner. :: 150
+The angle between the hands of a clock at 7:20. :: 100 degrees
+The number of times the hands of a clock form a right angle in 12 hours. :: 22
+The number of times a day the minute and hour hands overlap. :: 22
+A clock gains 5 minutes every hour. Hours until it is 1 hour ahead. :: 12
+The number 1,000 in binary. :: 1111101000
+The number 1,000 in hexadecimal. :: 3E8
+The hexadecimal number FFFF in ordinary digits. :: 65,535
+The number of bits in a byte times the number of bytes in a kilobyte of 1,024. :: 8,192
+The Roman numeral MMMDCCCLXXXVIII in ordinary digits. :: 3,888
+The number 1,444 in Roman numerals. :: MCDXLIV
+Kaprekar's constant, reached by repeatedly sorting a 4-digit number's digits and subtracting. :: 6,174
+The repeating cycle length of the decimal for 1/7. :: 6
+The decimal expansion of 1/7. :: 0.142857 recurring
+The fraction equal to 0.272727... recurring. :: 3/11
+The number of seconds in a non-leap year. :: 31,536,000
+The number of hours in a year of 365 days. :: 8,760
+Walking 1 km in 12 minutes, your speed in km/h. :: 5
+A train 200 m long passes a pole in 10 seconds. Its speed in km/h. :: 72
+A train 300 m long crosses a 200 m bridge at 50 m/s. Time taken in seconds. :: 10
+Two runners on a 400 m track at 5 m/s and 3 m/s start together. Seconds until the faster laps the slower. :: 200
+Three people can paint 3 rooms in 3 hours. People needed to paint 6 rooms in 6 hours. :: 3
+A bacteria colony doubles every minute and fills a jar in 60 minutes. Minutes to half fill it. :: 59
+The smallest positive whole number with digits that multiply to 100. :: 455
+The value of 1 − 1/2 + 1/3 − 1/4 + 1/5 − ... continued forever. :: ln 2 (about 0.693)
+The value of 0! (zero factorial). :: 1
+The number of digits in 2 to the power 100. :: 31
+The number of digits in 100 factorial. :: 158
+The next palindromic year after 2002. :: 2112
+The next date after 22/02/2022 written as a palindrome in DD/MM/YYYY. :: 03/02/2030
+The number of perfect numbers below 10,000. :: 4
+The number of prime numbers between 100 and 200. :: 21
+The smallest number that leaves a remainder of 1 when divided by 2, 3, 4, 5 or 6, and is divisible by 7. :: 301
+The number of zeros at the end of 100 factorial. :: 24
+9 to the power 9. :: 387,420,489
+The number of ways to tile a 2 by 10 strip with 2 by 1 dominoes. :: 89
+The most regions a circle can be cut into by joining 6 points on it with straight lines. :: 31
+The number of squares of all sizes on a 3 by 3 grid. :: 14
+One million seconds is roughly this many days. :: About 11.6 days

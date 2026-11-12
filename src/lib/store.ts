@@ -113,9 +113,36 @@ export function isValidGame(g: unknown): g is Game {
   if (!g.teams.every((t) => isObj(t) && isStr(t.name) && typeof t.score === 'number' && Number.isFinite(t.score))) return false
   return g.clues.every((col) => Array.isArray(col) && col.length === 5 && col.every((c) => isObj(c) && isStr(c.id) && isStr(c.q) && isStr(c.a) && typeof c.value === 'number'))
 }
+/** The optional parts of a saved game (rounds, streaks) are checked too; anything odd is dropped, not trusted. */
+export function cleanGameExtras(g: Game): Game {
+  const out: Game = { ...g }
+  const n = g.teams.length
+  const num = (v: unknown): v is number => typeof v === 'number' && Number.isFinite(v)
+  if (!(Array.isArray(g.streaks) && g.streaks.length === n && g.streaks.every((x) => num(x) && x >= 0))) delete out.streaks
+  if (!(g.stage === 'board' || g.stage === 'lightning' || g.stage === 'final')) delete out.stage
+  if (Array.isArray(g.lightning)) {
+    const list = g.lightning.map(cleanQuestion).filter((q): q is Question => !!q)
+    if (list.length) out.lightning = list
+    else delete out.lightning
+  } else delete out.lightning
+  const ls = g.lightningState as unknown
+  if (isObj(ls) && num(ls.i) && ls.i >= 0) out.lightningState = { i: Math.floor(ls.i), revealed: ls.revealed === true, ...(num(ls.startedAt) ? { startedAt: ls.startedAt } : {}), ...(ls.done === true ? { done: true } : {}) }
+  else delete out.lightningState
+  const f = g.final as unknown
+  const fq = isObj(f) ? cleanQuestion(f.q) : null
+  if (isObj(f) && fq && isObj(f.cat) && isStr(f.cat.id) && isStr(f.cat.name)) out.final = { cat: { id: f.cat.id, name: f.cat.name, ...(isStr(f.cat.nameAr) ? { nameAr: f.cat.nameAr } : {}) }, q: fq }
+  else delete out.final
+  const fs = g.finalState as unknown
+  if (isObj(fs) && (fs.step === 'cat' || fs.step === 'q' || fs.step === 'answer') && Array.isArray(fs.marks) && fs.marks.length === n)
+    out.finalState = { step: fs.step, marks: fs.marks.map((m) => (m === true ? true : m === false ? false : null)), ...(num(fs.startedAt) ? { startedAt: fs.startedAt } : {}) }
+  else delete out.finalState
+  if (!isStr(g.night)) delete out.night
+  return out
+}
+
 export const loadGame = (): Game | null => {
   const g = load<unknown>(KEYS.game, null)
-  return isValidGame(g) ? g : null
+  return isValidGame(g) ? cleanGameExtras(g) : null
 }
 export const saveGame = (g: Game | null) => save(KEYS.game, g)
 

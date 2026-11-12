@@ -892,3 +892,45 @@ textarea.input{resize:vertical;min-height:44px}
 @font-face{font-family:'GG Quran';src:url('../node_modules/@fontsource/scheherazade-new/files/scheherazade-new-arabic-400-normal.woff2') format('woff2');font-weight:400;font-display:swap;unicode-range:U+0600-06FF,U+0750-077F,U+08A0-08FF,U+FB50-FDF9,U+FDFB-FDFF,U+FE70-FEFF}
 html[data-set="islamic"] .q,html[data-set="islamic"] .answer{font-family:'GG Quran',var(--fd)}
 html[data-set="islamic"] .q{line-height:1.6}
+/* Fun extras: special tiles, streaks, comeback, themed nights, lightning round and final question */
+.pill.steal{background:var(--accent2);border-color:var(--accent2);color:var(--bg)}
+.pill.crowd{border-style:dashed}
+.special-note{margin:0;padding:8px 12px;border-radius:10px;font-size:14px;border:1px solid color-mix(in oklab,var(--accent2) 50%,transparent);background:color-mix(in oklab,var(--accent2) 10%,transparent)}
+.special-note.crowd{border-color:color-mix(in oklab,var(--accent) 50%,transparent);background:color-mix(in oklab,var(--accent) 8%,transparent)}
+.steal-pick{display:flex;flex-direction:column;gap:8px;padding:10px 12px;border-radius:12px;border:1px solid var(--accent2);background:color-mix(in oklab,var(--accent2) 10%,transparent)}
+.btn.bad,.btn.ok-btn{font-size:14px;padding:9px 16px}
+.team .fire-badge{position:absolute;inset-inline-start:12px;bottom:4px;font-style:normal;font-size:11px;letter-spacing:.06em;color:var(--accent);white-space:nowrap}
+.team.fire{border-color:var(--accent);box-shadow:0 0 28px -8px var(--glow);padding-bottom:20px}
+.team.behind{border-style:dashed;border-color:var(--accent2)}
+.comeback{margin:12px 0 0;text-align:center;font-size:15px}
+.comeback .pill{font-size:11px;margin-inline-end:6px}
+.streak-pop{position:fixed;left:50%;top:18%;translate:-50% 0;z-index:60;padding:12px 22px;border-radius:999px;font-family:var(--fd);font-size:clamp(18px,2.4vw,26px);background:var(--accent);color:var(--bg);box-shadow:0 12px 50px -8px var(--glow);animation:streakPop 2.8s var(--spring) both;pointer-events:none}
+@keyframes streakPop{0%{opacity:0;transform:scale(.6)}12%{opacity:1;transform:scale(1.06)}20%{transform:scale(1)}85%{opacity:1}100%{opacity:0;transform:translateY(-14px)}}
+.nights{display:flex;flex-direction:column;gap:8px}
+.nights-help{margin:0;font-size:13px}
+.night-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,220px),1fr));gap:10px}
+.night{display:flex;flex-direction:column;gap:4px;padding:12px 14px;border-radius:14px;text-align:start;border:1px solid color-mix(in oklab,var(--accent) 40%,transparent);background:linear-gradient(160deg,color-mix(in oklab,var(--tile-a) 70%,transparent),color-mix(in oklab,var(--tile-b) 70%,transparent));color:var(--text);transition:border-color .3s,transform .3s var(--spring)}
+.night b{font-family:var(--fd);letter-spacing:var(--track);color:var(--accent)}
+.night small{color:var(--muted);font-size:12px;line-height:1.4}
+.night:hover{transform:translateY(-2px);border-color:var(--accent)}
+.night[aria-pressed="true"]{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent),0 10px 30px -12px var(--glow)}
+.extras{border:1px solid color-mix(in oklab,var(--text) 14%,transparent);border-radius:14px;padding:10px 14px 14px;margin:0;display:flex;flex-direction:column;gap:10px}
+.extras legend{padding:0 6px;font-weight:700}
+.extras-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,140px),1fr));gap:10px}
+.round{max-width:1000px;margin-inline:auto;width:100%}
+.round-head{text-align:center;display:flex;flex-direction:column;align-items:center;gap:6px}
+.round-head p{margin:0;max-width:60ch}
+.round-title{margin:0;font-family:var(--fd);font-size:clamp(30px,5vw,54px);letter-spacing:var(--track);background:linear-gradient(100deg,var(--accent),var(--text) 45%,var(--accent2) 60%,var(--accent));background-size:200% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:shimmer 6s linear infinite;text-align:center}
+.round-stage{display:flex;flex-direction:column;gap:16px}
+.round-card{display:flex;flex-direction:column;gap:14px;align-items:stretch;padding:clamp(14px,2.6vw,26px);border-radius:18px;border:1px solid color-mix(in oklab,var(--edge) 45%,transparent);background:color-mix(in oklab,var(--bg) 55%,transparent);animation:slideIn .45s var(--spring) both}
+.round-card .q{min-height:3.2em;justify-content:center;text-align:center}
+.round-actions{justify-content:center}
+.round-over{align-items:center;text-align:center}
+.round-msg{margin:0;font-family:var(--fd);font-size:clamp(18px,2.4vw,26px);text-align:center}
+.final-cat{margin:0;font-family:var(--fd);font-size:clamp(28px,5vw,52px);color:var(--accent);text-align:center;display:flex;gap:12px;align-items:center;justify-content:center;text-shadow:0 0 22px var(--glow)}
+.final-cat .ci{width:1em;height:1em;display:inline-grid}
+.judge .t.marked-ok{border-color:var(--accent);background:color-mix(in oklab,var(--accent) 14%,transparent)}
+.judge .t.marked-no{opacity:.7}
+.judge .t button[aria-pressed="true"]{outline:2px solid var(--text);outline-offset:1px}
+.aud-main.round{padding:clamp(16px,3vw,40px);gap:16px;display:flex;flex-direction:column}
+.aud-main.round .q{font-size:clamp(28px,4.4vw,56px)}

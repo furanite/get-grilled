@@ -56,9 +56,13 @@ export interface CategorySummary {
   counts: number[]
 }
 
+/** Special tiles: Steal moves the points from another team; Audience lets someone in the room answer for the team. */
+export type Special = 'steal' | 'crowd'
+
 export interface Clue extends Question {
   value: number
   golden: boolean
+  special?: Special
 }
 
 export interface Team {
@@ -74,6 +78,38 @@ export interface GameSettings {
   levelTimers?: (number | null)[]
   /** Optional length of the whole game in minutes (0 or missing = no limit) */
   gameMinutes?: number
+  /** Fun extras (all optional, off when missing) */
+  streak?: boolean
+  comeback?: boolean
+  lightning?: boolean
+  final?: boolean
+}
+
+/** Counts of special tiles the host asked for (used only when the game is made). */
+export interface TileCounts {
+  golden: number
+  steal?: number
+  crowd?: number
+}
+
+/** Where a game is: on the board, in the 60-second lightning round, or at the final question. */
+export type Stage = 'board' | 'lightning' | 'final'
+
+export interface LightningState {
+  /** Index of the question on screen */
+  i: number
+  revealed: boolean
+  /** When the 60 seconds started (epoch ms), once the host presses Go */
+  startedAt?: number
+  done?: boolean
+}
+
+export interface FinalState {
+  /** cat: the category is shown, teams get ready; q: the question and its timer; answer: the answer is shown and teams are marked */
+  step: 'cat' | 'q' | 'answer'
+  startedAt?: number
+  /** Which teams were marked right (true), wrong (false), or not yet marked (null) */
+  marks: (boolean | null)[]
 }
 
 export interface Game {
@@ -86,6 +122,17 @@ export interface Game {
   startedAt: number
   /** When the whole-game clock runs out (epoch ms), if the host set a game length */
   endsAt?: number
+  /** Right answers in a row, per team (streak bonus) */
+  streaks?: number[]
+  stage?: Stage
+  /** Quick questions for the lightning round, drawn from the game's categories */
+  lightning?: Question[]
+  lightningState?: LightningState
+  /** The final question and the category it comes from */
+  final?: { cat: { id: string; name: string; nameAr?: string }; q: Question }
+  finalState?: FinalState
+  /** The themed night this game was set up from, if any */
+  night?: string
 }
 
 /** Themes that exist only on the Islamic site (Munaafasatul Ilm). */
@@ -95,4 +142,4 @@ export type IslamicOnlyTheme = 'rawdah' | 'jumuah' | 'mawlid' | PrayerTheme | Cu
 export type BaseThemeId = Exclude<ThemeId, IslamicOnlyTheme>
 export type ThemeId = 'amethyst' | 'emerald' | 'neon' | 'onyx' | 'rivals' | 'ember' | 'heritage' | IslamicOnlyTheme
 export type Lang = 'en' | 'ar'
-export type Screen = 'home' | 'setup' | 'game' | 'results' | 'builder' | 'review'
+export type Screen = 'home' | 'setup' | 'game' | 'lightning' | 'final' | 'results' | 'builder' | 'review'

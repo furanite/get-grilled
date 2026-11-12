@@ -206,6 +206,7 @@ Power in the wind varies with wind speed to this power. :: Cube
 The type of flow where viscous forces are tiny compared to inertia far from walls. :: Inviscid (potential) flow
 A fluid whose viscosity drops as it is stirred faster, like paint. :: Shear-thinning (pseudoplastic)
 Toothpaste that does not flow until pushed hard enough is this kind of fluid. :: Bingham plastic
+Name this pressure-measuring device. {img:manometer.svg} :: U-tube manometer
 
 ## 300
 The equations of motion for a viscous fluid. :: Navier–Stokes equations
@@ -308,6 +309,7 @@ Turbulent flow can be split into a mean and this. :: Fluctuating part
 Additional stresses that appear when the Navier–Stokes equations are time-averaged. :: Reynolds stresses
 The pressure rise in a diffuser divided by the inlet dynamic pressure. :: Pressure recovery coefficient
 The ratio cp/cv is written with this Greek letter. :: Gamma (γ)
+Name this flow-measuring device, which narrows the pipe to measure flow rate. {img:venturi.svg} :: Venturi meter
 
 ## 400
 The ratio of the largest to smallest turbulent eddy sizes grows with Re to this power. :: 3/4
@@ -410,6 +412,7 @@ The dimensionless number comparing gravity to inertia in density-stratified flow
 The wave sent upstream when a sluice gate in a channel is suddenly closed. :: Positive surge wave
 The sloshing standing wave in a closed basin like a lake or harbour. :: Seiche
 The sharp front of water that runs up some rivers with the rising tide. :: Tidal bore
+Which principle explains why the pressure drops in the narrow part of this device? {img:venturi.svg} :: Bernoulli's principle
 
 ## 500
 The French engineer who first derived the viscous flow equations in 1822. :: Claude-Louis Navier
