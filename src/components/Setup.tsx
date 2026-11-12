@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { CatIcon } from './Brand'
+import { nightIconId } from '../lib/caticons'
 import type { Category, CategorySummary, Game, Lang, PackGroup, PoolEdit } from '../lib/types'
 import { VALUES } from '../lib/types'
 import type { Strings } from '../lib/i18n'
@@ -137,15 +138,18 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
         </span>
         {nights.length > 0 && index && (
           <details className="nights" data-testid="nights" open={nightsOpen} onToggle={(e) => toggleNights((e.currentTarget as HTMLDetailsElement).open)}>
-            <summary>
-              <span className="label">{t.nights}</span>
-              <span className="nights-count">{num(nights.length, lang)}</span>
-              {chosenNight && <b className="nights-chosen">{lang === 'ar' && chosenNight.nameAr ? chosenNight.nameAr : chosenNight.name}</b>}
+            <summary className="nights-tile">
+              <CatIcon id={chosenNight ? nightIconId(chosenNight.id) : 'nights'} />
+              <b>{t.nights}</b>
+              <small>
+                {chosenNight ? (lang === 'ar' && chosenNight.nameAr ? chosenNight.nameAr : chosenNight.name) : `${num(nights.length, lang)} ${t.nightsCount}`}
+              </small>
             </summary>
             <p className="muted nights-help">{t.nightsHelp}</p>
             <div className="night-grid">
               {nights.map((n) => (
                 <button key={n.id} className="night" aria-pressed={night === n.id} onClick={() => applyNight(n)} data-night={n.id}>
+                  <CatIcon id={nightIconId(n.id)} />
                   <b>{lang === 'ar' && n.nameAr ? n.nameAr : n.name}</b>
                   <small>{lang === 'ar' && n.aboutAr ? n.aboutAr : n.about}</small>
                 </button>
