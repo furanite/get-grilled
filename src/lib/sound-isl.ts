@@ -561,6 +561,12 @@ export const IQA = {
   hadrah: { name: 'Hadrah / rebana (interlocking)', p: 'D.TkT.TkD.TkT.Tk', step: 1 },
   doira: { name: 'Doira usul (Central Asia)', p: 'D..TD.T.D..TD.T.', step: 1 },
   andalusi: { name: "Quddam (Andalusi 6/8)", p: 'D..T.TD..T.T', step: 1 },
+  sofyan: { name: 'Sofyan (Ottoman ilahi, 4/4)', p: 'D.......T...k...', step: 1 },
+  duyek: { name: 'Düyek (Ottoman ilahi, 8/8)', p: 'DT.TD.T.', step: 2 },
+  semai: { name: "Sama'i thaqil (inshad, 10/8)", p: 'D..T.DDT..', step: 2 },
+  kaharwa: { name: 'Kaharwa (qawwali, 8 beats)', p: 'D..kT.k.D..kT.kT', step: 1 },
+  khassaid: { name: "Khassaid / zikr (Senegal, 12/8)", p: 'D.TD.TDkT.Tk', step: 1 },
+  zikr: { name: 'Qadiri zikr (Caucasus, 2/4)', p: 'D.T.D.TkD.T.D.Tk', step: 1 },
 } as const
 export type IqaId = keyof typeof IQA
 
@@ -587,7 +593,11 @@ function playPattern(k: Kit, t: number, iqa: (typeof IQA)[IqaId], s: number, bar
 }
 
 export interface TuneSpec {
+  /** The Sufi nasheed tradition the daff part is based on. */
+  style: string
   iqa: IqaId
+  /** The second cycle is played this much faster, as a zikr quickens (1 = steady). */
+  accel?: number
   bpm: number
   birds: BirdId[]
   /** How loud the breeze is, 0 to about 0.12. */
@@ -598,32 +608,34 @@ export interface TuneSpec {
 }
 
 export const ISLAMIC_TUNES: Partial<Record<ThemeId, TuneSpec>> = {
-  amethyst: { iqa: 'andalusi', bpm: 96, birds: ['nightingale', 'robin'], breeze: 0.07, why: 'Andalusi quddam; a nightingale on a Cordoba night' },
-  emerald: { iqa: 'maqsum', bpm: 104, birds: ['bulbul', 'goldfinch'], breeze: 0.08, why: 'Maqsum; songbirds in a mosque courtyard' },
-  neon: { iqa: 'aksak', bpm: 112, birds: ['canary', 'sparrow'], breeze: 0.08, why: 'Ottoman aksak 9/8 with bright chirping' },
-  onyx: { iqa: 'wahda', bpm: 84, birds: ['bulbul', 'sunbird'], breeze: 0.06, why: 'Stately wahda, like turning a gilded page' },
-  rivals: { iqa: 'doira', bpm: 112, birds: ['lark', 'goldfinch'], breeze: 0.09, why: 'Central Asian doira; larks over the steppe' },
-  ember: { iqa: 'aksak', bpm: 116, birds: ['nightingale', 'canary'], breeze: 0.07, why: 'Aksak 9/8; the nightingale of the Ottoman tulip gardens' },
-  rawdah: { iqa: 'baladi', bpm: 100, birds: ['bulbul', 'sunbird', 'goldfinch', 'canary'], breeze: 0.09, why: 'Baladi; a full garden chorus' },
-  fajr: { iqa: 'wahda', bpm: 80, birds: ['lark', 'robin', 'sparrow'], breeze: 0.07, why: 'Slow wahda; the dawn chorus wakes' },
-  duha: { iqa: 'maqsum', bpm: 108, birds: ['sunbird', 'bulbul'], breeze: 0.08, why: 'Maqsum; bright morning sunbirds' },
-  zuhr: { iqa: 'saidi', bpm: 112, birds: ['sparrow', 'lark'], breeze: 0.06, why: "Sa'idi; noon light, sparrows and a lark" },
-  asr: { iqa: 'malfuf', bpm: 104, birds: ['goldfinch', 'bulbul'], breeze: 0.09, why: 'Malfuf; the afternoon breeze and goldfinches' },
-  maghrib: { iqa: 'ayyub', bpm: 100, birds: ['robin', 'sparrow'], breeze: 0.1, why: 'Ayyub; birds settling at sunset' },
-  isha: { iqa: 'andalusi', bpm: 88, birds: ['nightingale', 'robin'], breeze: 0.06, why: 'Quddam; the night falls quiet and a nightingale sings' },
-  qiyam: { iqa: 'wahda', bpm: 70, birds: ['nightingale'], breeze: 0.05, g: 0.35, why: 'Soft wahda; the still of the night and one nightingale' },
-  mughal: { iqa: 'dawrHindi', bpm: 108, birds: ['bulbul', 'canary'], breeze: 0.08, why: 'Dawr Hindi 7/8 with bulbuls of the subcontinent' },
-  sahel: { iqa: 'chakacha', bpm: 116, birds: ['sunbird', 'goldfinch'], breeze: 0.1, why: '6/8 cycle; songbirds in the dry wind' },
-  swahili: { iqa: 'chakacha', bpm: 108, birds: ['sunbird', 'canary'], breeze: 0.11, why: 'Chakacha 6/8 of the coast; sea breeze and sunbirds' },
-  nusantara: { iqa: 'hadrah', bpm: 104, birds: ['bulbul', 'sunbird'], breeze: 0.08, why: 'Interlocking rebana (hadrah); bulbul and sunbird' },
-  zellige: { iqa: 'andalusi', bpm: 104, birds: ['bulbul', 'goldfinch'], breeze: 0.08, why: 'Andalusi quddam of Fez; bulbul and goldfinch' },
-  suzani: { iqa: 'doira', bpm: 108, birds: ['lark', 'canary'], breeze: 0.09, why: 'Doira usul of Bukhara; larks and canaries' },
-  bosnia: { iqa: 'aksak', bpm: 108, birds: ['nightingale', 'robin'], breeze: 0.08, why: 'Balkan aksak 9/8; nightingale and robin' },
-  tatar: { iqa: 'ayyub', bpm: 116, birds: ['lark', 'sparrow'], breeze: 0.1, why: 'Lively 2/4; the skylark over the Volga steppe' },
-  kubachi: { iqa: 'chakacha', bpm: 126, birds: ['lark', 'goldfinch'], breeze: 0.1, why: 'Quick 6/8 of the mountains; mountain wind' },
-  hui: { iqa: 'wahda', bpm: 96, birds: ['nightingale', 'sparrow'], breeze: 0.07, why: 'Measured wahda; a songbird and sparrows' },
-  jumuah: { iqa: 'khaliji', bpm: 104, birds: ['bulbul', 'canary', 'sunbird'], breeze: 0.09, why: 'Khaliji; the grandest, a festive Friday' },
-  mawlid: { iqa: 'hadrah', bpm: 100, birds: ['nightingale', 'bulbul', 'sunbird', 'canary'], breeze: 0.09, why: 'Hadrah of the Mawlid gatherings; every bird sings' },
+  // Cultures: the Sufi nasheed tradition of that region (traditional rhythms, not any one recording)
+  amethyst: { style: 'Andalusi sama\' (Fez and Tetouan)', iqa: 'andalusi', bpm: 96, birds: ['nightingale', 'robin'], breeze: 0.07, why: 'Quddam, the lively closing rhythm of Andalusi sama\' and madih on the bendir' },
+  zellige: { style: 'Moroccan sama\' and madih', iqa: 'andalusi', bpm: 108, birds: ['bulbul', 'goldfinch'], breeze: 0.08, why: 'Quddam on the bendir, as the zawiya sama\' groups of Fez play it' },
+  neon: { style: 'Ottoman ilahi', iqa: 'sofyan', bpm: 92, birds: ['canary', 'sparrow'], breeze: 0.08, why: 'Sofyan, the most common usul of Turkish ilahis, on the def' },
+  ember: { style: 'Ottoman ilahi', iqa: 'duyek', bpm: 104, birds: ['nightingale', 'canary'], breeze: 0.07, why: 'Düyek, a stately Ottoman ilahi usul, on the def' },
+  bosnia: { style: 'Bosnian ilahija and kasida', iqa: 'sofyan', bpm: 96, birds: ['nightingale', 'robin'], breeze: 0.08, why: 'Sofyan on the def, as in Bosnian ilahije from the tekke tradition' },
+  rivals: { style: 'Uzbek shashmaqom and mavlud', iqa: 'doira', bpm: 108, birds: ['lark', 'goldfinch'], breeze: 0.09, why: 'A doira usul from Samarkand; the frame drum of Central Asia' },
+  suzani: { style: 'Uzbek shashmaqom and mavlud', iqa: 'doira', bpm: 100, birds: ['lark', 'canary'], breeze: 0.09, why: 'A doira usul from Bukhara, slower and grander' },
+  mughal: { style: 'Qawwali (Chishti)', iqa: 'kaharwa', bpm: 104, birds: ['bulbul', 'canary'], breeze: 0.08, accel: 1.12, why: 'The kaharwa cycle of qawwali, quickening as qawwali does, played on daff alone' },
+  sahel: { style: 'Senegalese khassaid and zikr', iqa: 'khassaid', bpm: 112, birds: ['sunbird', 'goldfinch'], breeze: 0.1, why: 'A rolling 12/8, as drummed under the khassaid of Touba and Tivaouane' },
+  swahili: { style: 'Swahili maulidi and kasida (Lamu)', iqa: 'chakacha', bpm: 104, birds: ['sunbird', 'canary'], breeze: 0.11, why: 'A 6/8 on the tari frame drums, as at the Lamu Maulidi' },
+  nusantara: { style: 'Hadrah and rebana (Simtud Durar mawlid)', iqa: 'hadrah', bpm: 100, birds: ['bulbul', 'sunbird'], breeze: 0.08, why: 'Interlocking rebana hadrah, the drumming of the Ba\'alawi mawlid gatherings' },
+  kubachi: { style: 'Qadiri zikr (North Caucasus)', iqa: 'zikr', bpm: 120, birds: ['lark', 'goldfinch'], breeze: 0.1, accel: 1.15, why: 'The steady pulse of the Caucasus Qadiri zikr circle, quickening in the second cycle' },
+  tatar: { style: 'Tatar munajat and bayt (fitting style)', iqa: 'wahda', bpm: 88, birds: ['lark', 'sparrow'], breeze: 0.1, why: 'Tatar munajat are sung without drums, so the daff keeps a gentle wahda under them. Please check' },
+  hui: { style: 'Hui Sufi chant (fitting style)', iqa: 'wahda', bpm: 84, birds: ['nightingale', 'sparrow'], breeze: 0.07, why: 'Hui menhuan chanting has no frame drum that I know of, so this is a calm wahda. Please check' },
+  // Art and prayer themes with no single culture: fitting Arabic inshad styles
+  emerald: { style: 'Arabic inshad (mosque courtyard)', iqa: 'maqsum', bpm: 100, birds: ['bulbul', 'goldfinch'], breeze: 0.08, why: 'Maqsum, the everyday rhythm of Levantine and Egyptian inshad on the daff' },
+  onyx: { style: 'Muwashshah inshad (Aleppo and Damascus)', iqa: 'semai', bpm: 92, birds: ['bulbul', 'sunbird'], breeze: 0.06, why: 'Sama\'i thaqil, the grand 10/8 of the muwashshahat sung by munshidin' },
+  rawdah: { style: 'Mawlid and madih (Hadrami and Gulf)', iqa: 'baladi', bpm: 100, birds: ['bulbul', 'sunbird', 'goldfinch', 'canary'], breeze: 0.09, why: 'A full, joyful daff circle under a garden chorus' },
+  fajr: { style: 'Gentle dawn inshad', iqa: 'wahda', bpm: 76, birds: ['lark', 'robin', 'sparrow'], breeze: 0.07, why: 'Slow wahda; the dawn chorus wakes' },
+  duha: { style: 'Arabic inshad', iqa: 'maqsum', bpm: 104, birds: ['sunbird', 'bulbul'], breeze: 0.08, why: 'Maqsum; bright and light, like late morning' },
+  zuhr: { style: 'Arabic inshad', iqa: 'saidi', bpm: 108, birds: ['sparrow', 'lark'], breeze: 0.06, why: "Sa'idi; strong and clear like noon light" },
+  asr: { style: 'Arabic inshad', iqa: 'malfuf', bpm: 100, birds: ['goldfinch', 'bulbul'], breeze: 0.09, why: 'Malfuf; a light afternoon lilt' },
+  maghrib: { style: 'Egyptian hadra (dhikr)', iqa: 'ayyub', bpm: 96, birds: ['robin', 'sparrow'], breeze: 0.1, accel: 1.1, why: 'Ayyub, the rhythm of the Egyptian hadra dhikr, quickening gently' },
+  isha: { style: 'Muwashshah inshad', iqa: 'semai', bpm: 84, birds: ['nightingale', 'robin'], breeze: 0.06, why: 'Sama\'i thaqil, slow and calm for the night' },
+  qiyam: { style: 'Quiet night dhikr', iqa: 'wahda', bpm: 66, birds: ['nightingale'], breeze: 0.05, g: 0.35, why: 'A very soft wahda; the still of the night and one nightingale' },
+  jumuah: { style: 'Gulf and Hadrami nasheed', iqa: 'khaliji', bpm: 100, birds: ['bulbul', 'canary', 'sunbird'], breeze: 0.09, why: 'The Gulf nasheed rhythm on many daffs; the grandest, for a festive Friday' },
+  mawlid: { style: 'Mawlid hadrah (Ba\'alawi and Egyptian)', iqa: 'hadrah', bpm: 96, birds: ['nightingale', 'bulbul', 'sunbird', 'canary'], breeze: 0.09, accel: 1.08, why: 'The interlocking hadrah of the Mawlid gatherings; every bird sings' },
 }
 
 /**
@@ -655,7 +667,8 @@ export function islamicTitleTune(base: Kit, theme: ThemeId): { stop: (fade?: num
   roll(k, r0 + 0.04, 0.86, 0.015, g * 0.35, 18, 0.25)
   const t1 = r0 + 0.95
   const barLen = stepsOf(iqa) * s
-  const end = playPattern(k, t1, iqa, s, 2, g * (night ? 0.7 : 1))
+  const mid = playPattern(k, t1, iqa, s, 1, g * (night ? 0.7 : 1))
+  const end = playPattern(k, mid, iqa, s / (spec.accel ?? 1), 1, g * (night ? 0.7 : 1))
   // Birds answer in the middle of each cycle
   ;(birds[1] ?? birds[0]).call(k, t1 + barLen * 0.5, undefined, 0.45)
   birds[0].call(k, t1 + barLen * 1.5, undefined, -0.45)
