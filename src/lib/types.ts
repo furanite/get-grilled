@@ -10,6 +10,8 @@ export interface Question {
   aAr?: string
   /** A picture or diagram shown with the clue: a data: URL for host-made questions, or a path for built-in ones. */
   img?: string
+  /** Seconds for this question only, overriding the game's setting. */
+  secs?: number
 }
 
 /**
@@ -53,8 +55,13 @@ export interface Team {
 }
 
 export interface GameSettings {
+  /** Seconds per clue (0 = no timer) */
   timer: number
   deduct: boolean
+  /** Optional seconds for each level (100 to 500); null keeps the game's seconds per clue */
+  levelTimers?: (number | null)[]
+  /** Optional length of the whole game in minutes (0 or missing = no limit) */
+  gameMinutes?: number
 }
 
 export interface Game {
@@ -65,6 +72,8 @@ export interface Game {
   used: string[]
   settings: GameSettings
   startedAt: number
+  /** When the whole-game clock runs out (epoch ms), if the host set a game length */
+  endsAt?: number
 }
 
 export type ThemeId = 'amethyst' | 'emerald' | 'neon' | 'onyx' | 'rivals' | 'ember' | 'heritage'

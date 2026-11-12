@@ -4,12 +4,12 @@ import type { Game, Lang, Screen, ThemeId } from '../lib/types'
 import { VALUES } from '../lib/types'
 import type { Strings } from '../lib/i18n'
 import { num } from '../lib/i18n'
-import { standings, tileKey } from '../lib/game'
+import { clueSeconds, standings, tileKey } from '../lib/game'
 import type { Live } from '../lib/edition'
 import { setFavicon } from '../lib/favicon'
 import { Ambient, CatIcon, Flourish, FlourishAbove, Mark } from './Brand'
 import { diagramSrc } from '../lib/diagram'
-import { TimerBar } from './Timer'
+import { GameClock, TimerBar } from './Timer'
 
 /**
  * Opens a second browser window that the host drags onto the projector.
@@ -175,6 +175,11 @@ function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings;
       {help}
       <section className="stage aud-stage">
         <div className="sadu-band" aria-hidden="true" />
+        {game.endsAt && (
+          <div className="aud-clock">
+            <GameClock endsAt={game.endsAt} lang={lang} leftText={t.gameLeft} overText={t.gameOver} />
+          </div>
+        )}
         <div className="board" style={{ gridTemplateColumns: `repeat(${game.cats.length},minmax(0,var(--colmax)))`, ['--cols' as string]: game.cats.length, minWidth: 0 }}>
           {game.cats.map((c, i) => {
             const [main, sub] = lang === 'ar' && c.nameAr ? [c.nameAr, c.name] : [c.name, c.nameAr]
@@ -235,7 +240,7 @@ function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings;
             ) : (
               <div className="answer aud-hidden" aria-hidden="true" />
             )}
-            {game.settings.timer > 0 && <TimerBar clock={live!.clock ?? null} total={game.settings.timer} lang={lang} timeUpText={t.timeUp} big />}
+            {clueSeconds(game.settings, live!.l, clue) > 0 && <TimerBar clock={live!.clock ?? null} total={clueSeconds(game.settings, live!.l, clue)} lang={lang} timeUpText={t.timeUp} big />}
           </div>
         </div>
       )}

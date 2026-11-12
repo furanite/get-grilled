@@ -174,6 +174,22 @@ try {
     await page.context().close()
   })
 
+  await test('the projector shows the whole-game clock', async () => {
+    const page = await hostPage()
+    const aud = await openAudience(page)
+    await page.getByRole('button', { name: /new game/i }).click()
+    await page.waitForSelector('.cat-pick')
+    await page.locator('.cat-pick:not([disabled])').first().click()
+    await page.selectOption('#game-minutes', '10')
+    await page.getByTestId('start').click()
+    await page.waitForSelector('.tile')
+    await aud.waitForSelector('[data-testid="game-clock"]')
+    const txt = await aud.textContent('[data-testid="game-clock"]')
+    assert(/(10:00|9:5\d) left/.test(txt), 'audience clock: ' + txt)
+    await aud.screenshot({ path: `${SHOTS}/host-audience-clock.png` })
+    await page.context().close()
+  })
+
   await test('a one-category game does not stretch one tile across the projector', async () => {
     const page = await hostPage()
     const aud = await openAudience(page)

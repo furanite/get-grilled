@@ -73,3 +73,24 @@ export function TimerBar({ clock, total, lang, timeUpText, onTick, big }: Props)
     </div>
   )
 }
+
+/** Minutes and seconds left in the whole game, for the board and the projector. */
+export function GameClock({ endsAt, lang, leftText, overText }: { endsAt: number; lang: Lang; leftText: string; overText: string }) {
+  const ref = useRef<HTMLSpanElement>(null)
+  const [now, setNow] = useState(() => Date.now())
+  const over = now >= endsAt
+  useEffect(() => {
+    if (over) return
+    const win = ref.current?.ownerDocument.defaultView ?? window
+    const id = win.setInterval(() => setNow(Date.now()), 500)
+    return () => win.clearInterval(id)
+  }, [over])
+  const left = Math.max(0, Math.ceil((endsAt - now) / 1000))
+  const mm = Math.floor(left / 60)
+  const ss = String(left % 60).padStart(2, '0')
+  return (
+    <span ref={ref} className={`game-clock${left <= 60 ? ' low' : ''}${over ? ' out' : ''}`} role="timer" data-testid="game-clock">
+      <span aria-hidden="true">⏱</span> {over ? overText : `${num(mm, lang)}:${num(+ss[0], lang)}${num(+ss[1], lang)} ${leftText}`}
+    </span>
+  )
+}
