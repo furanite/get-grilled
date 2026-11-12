@@ -20,6 +20,12 @@ describe('honorifics (the owner\'s rule for every blessed religious figure)', ()
     expect(bad).toEqual([])
   })
 
+  it('Blessed Mawlid Night comes first among the Islamic themed nights and shows the ﷺ sign (owner, 2026-11-12)', () => {
+    const nights = JSON.parse(readFileSync('questions/nights-islamic.json', 'utf8'))
+    expect(nights[0].id).toBe('mawlid-night')
+    expect(nights[0].sign).toBe('\uFDFA')
+  })
+
   it('flags each kind of missing honorific', () => {
     expect(checkText('The Prophet said this.')).not.toEqual([])
     expect(checkText('The Prophet ﷺ said this.')).toEqual(['"our Beloved" missing before "Prophet"'])

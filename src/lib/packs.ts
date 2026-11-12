@@ -56,6 +56,8 @@ export interface Night {
   cats: string[]
   teams?: string[]
   teamsAr?: string[]
+  /** An honorific sign shown in place of an icon (Blessed Mawlid Night shows ﷺ). */
+  sign?: string
   extras?: { golden?: number; steal?: number; crowd?: number; streak?: boolean; comeback?: boolean; lightning?: boolean; final?: boolean }
 }
 

@@ -168,7 +168,7 @@ export function loadReviews(dir = reviewsDir) {
 const flagged = (rs) => (rs ?? []).some((r) => r.correct === 'issue' || r.adab === 'issue')
 
 // Themed nights: questions/nights.json, a list of ready-made game setups.
-//   { "id", "name", "nameAr"?, "about", "aboutAr"?, "cats": [1 to 6 category ids], "teams"?: [2 to 4 names], "teamsAr"?,
+//   { "id", "name", "nameAr"?, "about", "aboutAr"?, "sign"? (one honorific sign shown in place of the icon), "cats": [1 to 6 category ids], "teams"?: [2 to 4 names], "teamsAr"?,
 //     "extras"?: { "golden": 0-3, "steal": 0-3, "crowd": 0-2, "streak", "comeback", "lightning", "final": true/false } }
 export function checkNights(nights, ids) {
   const errors = []
@@ -185,6 +185,7 @@ export function checkNights(nights, ids) {
     if (!Array.isArray(n.cats) || n.cats.length < 1 || n.cats.length > 6) errors.push(`${at} needs 1 to 6 "cats"`)
     else for (const c of n.cats) if (!ids.includes(c)) errors.push(`${at} unknown category "${c}"`)
     for (const k of ['teams', 'teamsAr']) if (n[k] !== undefined && (!Array.isArray(n[k]) || n[k].length < 2 || n[k].length > 4 || n[k].some((t) => typeof t !== 'string' || !t.trim() || t.length > 24))) errors.push(`${at} "${k}" must be 2 to 4 names of up to 24 characters`)
+    if (n.sign !== undefined && !/^[\uFD40-\uFD4F\uFDFA]$/.test(n.sign)) errors.push(`${at} "sign" must be one honorific sign such as ﷺ`)
     const x = n.extras ?? {}
     for (const [k, max] of [['golden', 3], ['steal', 3], ['crowd', 2]]) if (x[k] !== undefined && !(Number.isInteger(x[k]) && x[k] >= 0 && x[k] <= max)) errors.push(`${at} extras.${k} must be 0 to ${max}`)
     for (const k of ['streak', 'comeback', 'lightning', 'final']) if (x[k] !== undefined && typeof x[k] !== 'boolean') errors.push(`${at} extras.${k} must be true or false`)

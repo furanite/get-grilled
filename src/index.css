@@ -953,3 +953,15 @@ html[data-set="islamic"] .q{line-height:1.6}
 .aud-card{overflow:auto}
 .card .answer,.aud-card .answer{flex:none}
 .aud-card .answer[data-len="l"]{font-size:clamp(22px,2.8vw,48px)}
+
+/* Themed nights: an icon on each (or the ﷺ sign for Blessed Mawlid Night); folded away, the list is a card shaped like a category. */
+.night .cat-icon,.night-sign{align-self:flex-start}
+.night-sign{font-family:'GG Honorifics',serif;font-size:24px;line-height:1;color:var(--accent);height:30px;margin-bottom:4px}
+.nights>summary .cat-icon{width:22px;height:22px;margin:0}
+.nights:not([open])>summary{display:flex;flex-direction:column;align-items:flex-start;gap:2px;width:min(100%,240px);padding:12px 14px;border-radius:14px;border:1px solid color-mix(in oklab,var(--text) 12%,transparent);background:color-mix(in oklab,var(--bg2) 30%,transparent);transition:border-color .3s,transform .3s var(--spring)}
+.nights:not([open])>summary:hover{transform:translateY(-2px);border-color:var(--accent)}
+.nights:not([open])>summary::before{display:none}
+.nights:not([open])>summary .cat-icon{width:30px;height:30px;margin-bottom:4px}
+.nights:not([open])>summary .label{font-family:var(--fd);font-size:16px;letter-spacing:var(--track);text-transform:none;color:var(--text)}
+.nights:not([open])>summary .nights-count,.nights:not([open])>summary .nights-chosen{justify-self:start;margin:0}
+:root[data-set="islamic"] .nights:not([open])>summary{background-image:var(--girih);background-size:40px 40px}
