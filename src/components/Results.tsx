@@ -4,6 +4,7 @@ import type { Strings } from '../lib/i18n'
 import { num } from '../lib/i18n'
 import { standings } from '../lib/game'
 import { burst } from '../lib/fx'
+import { sfx } from '../lib/sound'
 
 interface Props {
   t: Strings
@@ -19,6 +20,7 @@ export default function Results({ t, lang, game, onAgain, onHome }: Props) {
   const tie = winners.length > 1
 
   useEffect(() => {
+    sfx.win()
     const ids = [0, 400, 900, 1500].map((d, i) => setTimeout(() => burst(innerWidth * (0.25 + 0.5 * (i % 2)), innerHeight * 0.3, 40, 260), d))
     return () => ids.forEach(clearTimeout)
   }, [])

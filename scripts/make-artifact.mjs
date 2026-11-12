@@ -19,6 +19,6 @@ console.log(page)
 // files.json: the map of published paths to pass to the Artifact publisher.
 import { readdirSync } from 'node:fs'
 const files = {}
-for (const dir of ['assets', 'packs']) for (const f of readdirSync(`${out}/${dir}`)) files[`${dir}/${f}`] = `${dir}/${f}`
+for (const dir of ['assets', 'packs']) for (const f of readdirSync(`${out}/${dir}`, { recursive: true, withFileTypes: true })) if (f.isFile()) { const rel = `${f.parentPath ?? f.path}/${f.name}`.slice(out.length + 1); files[rel] = rel }
 for (const f of ICON_FILES) files[f] = f
 writeFileSync(`${out}-files.json`, JSON.stringify(files))

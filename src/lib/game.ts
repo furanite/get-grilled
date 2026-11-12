@@ -1,4 +1,5 @@
-import { VALUES, type Category, type Clue, type Game, type GameSettings, type Question } from './types'
+import { VALUES, type Category, type Clue, type Game, type GameSettings, type PoolEdit, type Question } from './types'
+import { isDiagram } from './diagram'
 
 export type Rng = () => number
 
@@ -27,6 +28,29 @@ export function drawCategory(cat: Category, used: string[], rng: Rng = Math.rand
     usedSet.add(q.id)
   })
   return { picks, used: [...usedSet] }
+}
+
+export const emptyPool = (): PoolEdit => ({ off: [[], [], [], [], []], extra: [[], [], [], [], []] })
+
+/** True when the edit changes nothing, so it can be dropped. */
+export const isEmptyPool = (p: PoolEdit) => p.off.every((l) => !l.length) && p.extra.every((l) => !l.length)
+
+/** The questions a game can draw from: the category's own, minus those taken out of play, plus the ones the host added. */
+export function applyPool(cat: Category, edit?: PoolEdit): Category {
+  if (!edit) return cat
+  return {
+    ...cat,
+    levels: cat.levels.map((pool, i) => {
+      const off = new Set(edit.off[i] ?? [])
+      return [...pool, ...(edit.extra[i] ?? [])].filter((q) => !off.has(q.id))
+    }),
+  }
+}
+
+/** Questions in play per level, from the level sizes alone (built-in packs aren't loaded until a game starts). */
+export function poolCounts(counts: number[], edit?: PoolEdit): number[] {
+  if (!edit) return counts
+  return counts.map((n, i) => Math.max(0, n + (edit.extra[i]?.length ?? 0) - (edit.off[i]?.length ?? 0)))
 }
 
 export function isPlayable(cat: Pick<Category, 'levels'>) {
@@ -115,7 +139,7 @@ export function standings(game: Game) {
 
 /** Validates and normalises a category from an imported file. Throws with a readable message. */
 /** Limits for player-made categories, matching the builder's inputs. */
-export const LIMITS = { name: 40, clue: 400, answer: 200, perLevel: 1000, fileBytes: 2_000_000 }
+export const LIMITS = { name: 40, clue: 400, answer: 200, perLevel: 1000, fileBytes: 20_000_000 }
 
 export function parseImportedCategory(raw: unknown, newId: () => string): Category {
   if (!raw || typeof raw !== 'object') throw new Error('The file does not contain a category')
@@ -137,6 +161,7 @@ export function parseImportedCategory(raw: unknown, newId: () => string): Catego
       const out: Question = { id: `${id}-${li}-${qi}`, q, a }
       if (typeof pair.qAr === 'string' && pair.qAr.trim()) out.qAr = pair.qAr.trim().slice(0, LIMITS.clue)
       if (typeof pair.aAr === 'string' && pair.aAr.trim()) out.aAr = pair.aAr.trim().slice(0, LIMITS.answer)
+      if (isDiagram(pair.img)) out.img = pair.img
       return out
     })
   })
@@ -151,6 +176,6 @@ export function exportCategory(cat: Category) {
     version: 1,
     name: cat.name,
     nameAr: cat.nameAr,
-    levels: cat.levels.map((l) => l.map(({ q, a, qAr, aAr }) => ({ q, a, qAr, aAr }))),
+    levels: cat.levels.map((l) => l.map(({ q, a, qAr, aAr, img }) => ({ q, a, qAr, aAr, img }))),
   }
 }

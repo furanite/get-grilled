@@ -6,11 +6,12 @@
 //   group: engineering   (one of engineering, cces, general)
 //   ## 100
 //   Clue text :: Answer text
+//   Clue with a picture {img:gate-and.svg} :: Answer   (picture in questions/img/, copied to public/packs/img/)
 //   ## 200 ...
 // Lines starting with # (but not ##) are comments. Exits non-zero on any problem.
 // Arabic: questions/ar/<same file name> has the same ## headings and one
 // "ClueAr :: AnswerAr" line per question, in the same order as the English file.
-import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync } from 'node:fs'
+import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync, cpSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -41,11 +42,18 @@ export function parsePack(text, file = 'pack') {
     if (cur < 0) { errors.push(`${at} question before any "## level" heading`); return }
     const parts = line.split(/(?<=^|\s)::(?=\s|$)/)
     if (parts.length !== 2) { errors.push(`${at} needs exactly one " :: " between clue and answer`); return }
-    const [q, a] = parts.map((s) => s.trim())
+    let [q, a] = parts.map((s) => s.trim())
+    let img
+    const im = /\s*\{img:([a-z0-9-]+\.(?:svg|png|webp|jpg))\}\s*$/.exec(q)
+    if (im) {
+      img = `packs/img/${im[1]}`
+      q = q.slice(0, im.index).trim()
+      if (!existsSync(join(srcDir, 'img', im[1]))) errors.push(`${at} picture ${img} not found`)
+    } else if (/\{img:/.test(q)) errors.push(`${at} picture must be written {img:name.svg} at the end of the clue`)
     if (!q || !a) { errors.push(`${at} empty clue or answer`); return }
     if (q.length > 260) errors.push(`${at} clue is longer than 260 characters`)
     if (a.length > 80) errors.push(`${at} answer is longer than 80 characters`)
-    levels[cur].push({ q, a, at })
+    levels[cur].push(img ? { q, a, img, at } : { q, a, at })
   })
   if (!meta.id || !/^[a-z0-9-]+$/.test(meta.id)) errors.push(`${file}: missing or invalid "id:"`)
   if (!meta.name) errors.push(`${file}: missing "name:"`)
@@ -53,13 +61,14 @@ export function parsePack(text, file = 'pack') {
   const seen = new Map()
   levels.forEach((lvl, li) => {
     if (lvl.length < MIN) errors.push(`${file}: level ${LEVELS[li]} has ${lvl.length} questions, needs at least ${MIN}`)
-    lvl.forEach(({ q, at }) => {
-      const key = q.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim()
+    lvl.forEach(({ q, img, at }) => {
+      // The same words can ask about different pictures
+      const key = q.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim() + (img ? ` ${img}` : '')
       if (seen.has(key)) errors.push(`${at} duplicate clue (also at ${seen.get(key)})`)
       else seen.set(key, at)
     })
   })
-  return { meta, levels: levels.map((l) => l.map(({ q, a }) => ({ q, a }))), errors }
+  return { meta, levels: levels.map((l) => l.map(({ q, a, img }) => (img ? { q, a, img } : { q, a }))), errors }
 }
 
 const digits = (s) => (s.replace(/[\u0660-\u0669]/g, (d) => String(d.charCodeAt(0) - 0x660)).match(/\d+/g) ?? []).sort().join(',')
@@ -99,6 +108,7 @@ export function mergeArabic(levels, text, file = 'ar') {
 
 function main() {
   mkdirSync(outDir, { recursive: true })
+  if (existsSync(join(srcDir, 'img'))) cpSync(join(srcDir, 'img'), join(outDir, 'img'), { recursive: true })
   const files = readdirSync(srcDir).filter((f) => f.endsWith('.txt')).sort()
   const index = []
   let errors = []

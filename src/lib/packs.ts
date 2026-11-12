@@ -4,7 +4,7 @@ interface PackFile {
   id: string
   name: string
   nameAr?: string
-  levels: { q: string; a: string; qAr?: string; aAr?: string }[][]
+  levels: { q: string; a: string; qAr?: string; aAr?: string; img?: string }[][]
 }
 
 const base = import.meta.env.BASE_URL

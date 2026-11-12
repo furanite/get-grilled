@@ -55,6 +55,14 @@ describe('Arabic question files', () => {
 
 describe('built-in question files', () => {
   const files = readdirSync(dir).filter((f) => f.endsWith('.txt'))
+  it('a picture is written {img:name} at the end of a clue', () => {
+    const r = parsePack('id: t\nname: T\ngroup: cces\n## 100\nName this gate. {img:gate-and.svg} :: AND\nName this gate. {img:gate-or.svg} :: OR\n## 200\nB :: b\n## 300\nC :: c\n## 400\nD :: d\n## 500\nE :: e\n')
+    expect(r.errors).toEqual([])
+    expect(r.levels[0]).toEqual([{ q: 'Name this gate.', a: 'AND', img: 'packs/img/gate-and.svg' }, { q: 'Name this gate.', a: 'OR', img: 'packs/img/gate-or.svg' }])
+    const bad = parsePack('id: t\nname: T\ngroup: cces\n## 100\nX {img:nope.svg} :: a\nY {img:../x} :: b\n## 200\nB :: b\n## 300\nC :: c\n## 400\nD :: d\n## 500\nE :: e\n')
+    expect(bad.errors.join()).toMatch(/not found/)
+    expect(bad.errors.join()).toMatch(/must be written/)
+  })
   it('exist', () => expect(files.length).toBeGreaterThanOrEqual(6))
   // CCES categories are English-only by the owner's choice; the others must have Arabic.
   it('every group has categories and non-CCES files have Arabic', () => {
@@ -66,7 +74,9 @@ describe('built-in question files', () => {
     it(`${f} has no problems`, () => {
       const r = parsePack(readFileSync(join(dir, f), 'utf8'), f)
       expect(r.errors).toEqual([])
-      expect(r.levels.map((l: unknown[]) => l.length)).toEqual([100, 100, 100, 100, 100])
+      // 100 per level, plus a few picture questions in some CCES categories
+      r.levels.forEach((l: unknown[]) => expect(l.length).toBeGreaterThanOrEqual(100))
+      for (const l of r.levels) for (const q of l as { img?: string }[]) if (q.img) expect(existsSync(join(dir, 'img', q.img.replace('packs/img/', ''))), q.img).toBe(true)
       const arPath = join(dir, 'ar', f)
       if (existsSync(arPath)) expect(mergeArabic(r.levels, readFileSync(arPath, 'utf8'), f).errors).toEqual([])
     })
