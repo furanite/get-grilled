@@ -16,7 +16,7 @@
   {
     "id": "hajj-season",
     "name": "Hajj and Eid al-Adha",
-    "about": "Hajj, food and the udhiyah, the early Blessed Prophets (عليهم السلام), the Companions (رِضْوَانُ اللَّهِ عَلَيْهِمْ), Complete the Ayah and Islamic history.",
+    "about": "Hajj, food and the udhiyah, the early Blessed Prophets ﵈, the Companions (رِضْوَانُ اللَّهِ عَلَيْهِمْ), Complete the Ayah and Islamic history.",
     "cats": ["isl-hajj", "isl-food", "isl-prophets-early", "isl-sahabah", "isl-ayah", "isl-history"],
     "extras": { "golden": 2, "steal": 1, "crowd": 1, "streak": true, "comeback": true, "lightning": true, "final": true }
   },

@@ -2,7 +2,7 @@ id: isl-architecture
 name: Islamic Architecture
 nameAr: العمارة الإسلامية
 group: islamichistory
-# Picture questions: buildings and architectural elements only, drawn by scripts/make-landmarks.py.
+# Picture questions: buildings and architectural elements only, drawn by scripts/make-isl-architecture.py.
 # Never Makkah al-Mukarramah or Madinah al-Munawwarah. Every clue stands alone.
 
 ## 100

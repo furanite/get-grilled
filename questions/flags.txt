@@ -1,0 +1,254 @@
+id: flags
+name: Flags & Landmarks
+group: general
+# Every question has a picture (drawn by scripts/make-flags.py and scripts/make-landmarks.py).
+# English only. No flags with religious writing, no places of worship, no statues of people.
+
+## 100
+Which country's flag is this? {img:flag-usa.svg} :: United States
+Which country's flag is this? {img:flag-uk.svg} :: United Kingdom
+Which country's flag is this? {img:flag-japan.svg} :: Japan
+Which country's flag is this? {img:flag-canada.svg} :: Canada
+Which country's flag is this? {img:flag-france.svg} :: France
+Which country's flag is this? {img:flag-germany.svg} :: Germany
+Which country's flag is this? {img:flag-italy.svg} :: Italy
+Which country's flag is this? {img:flag-china.svg} :: China
+Which country's flag is this? {img:flag-brazil.svg} :: Brazil
+Which country's flag is this? {img:flag-india.svg} :: India
+Which country's flag is this? {img:flag-spain.svg} :: Spain
+Which country's flag is this? {img:flag-turkey.svg} :: Turkey
+Which country's flag is this? {img:flag-uae.svg} :: United Arab Emirates
+Which country's flag is this? {img:flag-qatar.svg} :: Qatar
+Which country's flag is this? {img:flag-kuwait.svg} :: Kuwait
+Which country's flag is this? {img:flag-jordan.svg} :: Jordan
+Which country's flag is this? {img:flag-palestine.svg} :: Palestine
+Which country's flag is this? {img:flag-oman.svg} :: Oman
+Which country's flag is this? {img:flag-bahrain.svg} :: Bahrain
+Which country's flag is this? {img:flag-south-africa.svg} :: South Africa
+Name this famous landmark. {img:lm-eiffel.svg} :: The Eiffel Tower
+Name this famous landmark. {img:lm-pyramids.svg} :: The Pyramids of Giza
+Name this famous landmark. {img:lm-pisa.svg} :: The Leaning Tower of Pisa
+Name this famous landmark. {img:lm-big-ben.svg} :: Big Ben (the Elizabeth Tower)
+Name this famous landmark. {img:lm-burj-khalifa.svg} :: The Burj Khalifa
+Name this famous landmark. {img:lm-colosseum.svg} :: The Colosseum
+Name this famous landmark. {img:lm-golden-gate.svg} :: The Golden Gate Bridge
+Name this famous landmark. {img:lm-sydney-opera.svg} :: The Sydney Opera House
+Name this famous landmark. {img:lm-great-wall.svg} :: The Great Wall of China
+Name this famous landmark. {img:lm-kingdom-centre.svg} :: The Kingdom Centre (Kingdom Tower)
+Name this famous landmark. {img:lm-london-eye.svg} :: The London Eye
+Name this famous landmark. {img:lm-burj-al-arab.svg} :: The Burj Al Arab
+
+## 200
+Which country's flag is this? {img:flag-russia.svg} :: Russia
+Which country's flag is this? {img:flag-australia.svg} :: Australia
+Which country's flag is this? {img:flag-argentina.svg} :: Argentina
+Which country's flag is this? {img:flag-greece.svg} :: Greece
+Which country's flag is this? {img:flag-sweden.svg} :: Sweden
+Which country's flag is this? {img:flag-switzerland.svg} :: Switzerland
+Which country's flag is this? {img:flag-netherlands.svg} :: Netherlands
+Which country's flag is this? {img:flag-ireland.svg} :: Ireland
+Which country's flag is this? {img:flag-pakistan.svg} :: Pakistan
+Which country's flag is this? {img:flag-morocco.svg} :: Morocco
+Which country's flag is this? {img:flag-algeria.svg} :: Algeria
+Which country's flag is this? {img:flag-tunisia.svg} :: Tunisia
+Which country's flag is this? {img:flag-syria.svg} :: Syria
+Which country's flag is this? {img:flag-yemen.svg} :: Yemen
+Which country's flag is this? {img:flag-norway.svg} :: Norway
+Which country's flag is this? {img:flag-denmark.svg} :: Denmark
+Which country's flag is this? {img:flag-finland.svg} :: Finland
+Which country's flag is this? {img:flag-poland.svg} :: Poland
+Which country's flag is this? {img:flag-belgium.svg} :: Belgium
+Which country's flag is this? {img:flag-ukraine.svg} :: Ukraine
+Which country's flag is this? {img:flag-nigeria.svg} :: Nigeria
+Which country's flag is this? {img:flag-new-zealand.svg} :: New Zealand
+Which country's flag is this? {img:flag-scotland.svg} :: Scotland
+Which country's flag is this? {img:flag-england.svg} :: England
+In which city is this landmark? {img:lm-eiffel.svg} :: Paris
+In which country is this landmark? {img:lm-pyramids.svg} :: Egypt
+In which country is this landmark? {img:lm-pisa.svg} :: Italy
+In which city is this landmark? {img:lm-big-ben.svg} :: London
+In which city is this landmark? {img:lm-burj-khalifa.svg} :: Dubai
+In which city is this landmark? {img:lm-colosseum.svg} :: Rome
+In which city is this landmark? {img:lm-golden-gate.svg} :: San Francisco
+In which country is this landmark? {img:lm-sydney-opera.svg} :: Australia
+In which country is this landmark? {img:lm-great-wall.svg} :: China
+In which city is this landmark? {img:lm-kingdom-centre.svg} :: Riyadh
+In which country is this landmark? {img:lm-london-eye.svg} :: United Kingdom
+In which city is this landmark? {img:lm-burj-al-arab.svg} :: Dubai
+Name this famous landmark. {img:lm-tower-bridge.svg} :: Tower Bridge
+Name this famous landmark. {img:lm-arc-de-triomphe.svg} :: The Arc de Triomphe
+Name this famous landmark. {img:lm-mount-fuji.svg} :: Mount Fuji
+Name this famous landmark. {img:lm-stonehenge.svg} :: Stonehenge
+Name this famous landmark. {img:lm-parthenon.svg} :: The Parthenon
+Name this famous landmark. {img:lm-empire-state.svg} :: The Empire State Building
+Name this famous landmark. {img:lm-petronas.svg} :: The Petronas Twin Towers
+Name this famous landmark. {img:lm-kuwait-towers.svg} :: The Kuwait Towers
+Name this famous landmark. {img:lm-al-faisaliah.svg} :: Al Faisaliah Tower
+Name this famous landmark. {img:lm-louvre-pyramid.svg} :: The Louvre Pyramid
+Name this famous landmark. {img:lm-jeddah-fountain.svg} :: King Fahd's Fountain
+Name this famous landmark. {img:lm-dubai-frame.svg} :: The Dubai Frame
+Name this famous landmark. {img:lm-cn-tower.svg} :: The CN Tower
+Name this famous landmark. {img:lm-marina-bay-sands.svg} :: Marina Bay Sands
+
+## 300
+Which country's flag is this? {img:flag-austria.svg} :: Austria
+Which country's flag is this? {img:flag-hungary.svg} :: Hungary
+Which country's flag is this? {img:flag-czechia.svg} :: Czechia (Czech Republic)
+Which country's flag is this? {img:flag-romania.svg} :: Romania
+Which country's flag is this? {img:flag-bulgaria.svg} :: Bulgaria
+Which country's flag is this? {img:flag-iceland.svg} :: Iceland
+Which country's flag is this? {img:flag-chile.svg} :: Chile
+Which country's flag is this? {img:flag-colombia.svg} :: Colombia
+Which country's flag is this? {img:flag-peru.svg} :: Peru
+Which country's flag is this? {img:flag-cuba.svg} :: Cuba
+Which country's flag is this? {img:flag-jamaica.svg} :: Jamaica
+Which country's flag is this? {img:flag-indonesia.svg} :: Indonesia
+Which country's flag is this? {img:flag-philippines.svg} :: Philippines
+Which country's flag is this? {img:flag-thailand.svg} :: Thailand
+Which country's flag is this? {img:flag-vietnam.svg} :: Vietnam
+Which country's flag is this? {img:flag-bangladesh.svg} :: Bangladesh
+Which country's flag is this? {img:flag-sudan.svg} :: Sudan
+Which country's flag is this? {img:flag-libya.svg} :: Libya
+Which country's flag is this? {img:flag-somalia.svg} :: Somalia
+Which country's flag is this? {img:flag-ghana.svg} :: Ghana
+Which country's flag is this? {img:flag-senegal.svg} :: Senegal
+Which country's flag is this? {img:flag-cameroon.svg} :: Cameroon
+Which country's flag is this? {img:flag-mauritania.svg} :: Mauritania
+Which country's flag is this? {img:flag-singapore.svg} :: Singapore
+Name the capital city of the country this flag belongs to. {img:flag-usa.svg} :: Washington, D.C.
+Name the capital city of the country this flag belongs to. {img:flag-uk.svg} :: London
+Name the capital city of the country this flag belongs to. {img:flag-japan.svg} :: Tokyo
+Name the capital city of the country this flag belongs to. {img:flag-canada.svg} :: Ottawa
+Name the capital city of the country this flag belongs to. {img:flag-france.svg} :: Paris
+Name the capital city of the country this flag belongs to. {img:flag-germany.svg} :: Berlin
+Name the capital city of the country this flag belongs to. {img:flag-italy.svg} :: Rome
+Name the capital city of the country this flag belongs to. {img:flag-china.svg} :: Beijing
+Name the capital city of the country this flag belongs to. {img:flag-brazil.svg} :: Brasília
+Name the capital city of the country this flag belongs to. {img:flag-india.svg} :: New Delhi
+Name the capital city of the country this flag belongs to. {img:flag-spain.svg} :: Madrid
+Name the capital city of the country this flag belongs to. {img:flag-turkey.svg} :: Ankara
+Name the capital city of the country this flag belongs to. {img:flag-uae.svg} :: Abu Dhabi
+Name the capital city of the country this flag belongs to. {img:flag-qatar.svg} :: Doha
+Name the capital city of the country this flag belongs to. {img:flag-kuwait.svg} :: Kuwait City
+Name the capital city of the country this flag belongs to. {img:flag-jordan.svg} :: Amman
+Name the capital city of the country this flag belongs to. {img:flag-oman.svg} :: Muscat
+Name the capital city of the country this flag belongs to. {img:flag-bahrain.svg} :: Manama
+In which city is this landmark? {img:lm-tower-bridge.svg} :: London
+In which city is this landmark? {img:lm-arc-de-triomphe.svg} :: Paris
+In which country is this landmark? {img:lm-mount-fuji.svg} :: Japan
+In which country is this landmark? {img:lm-stonehenge.svg} :: England (United Kingdom)
+In which city is this landmark? {img:lm-parthenon.svg} :: Athens
+In which city is this landmark? {img:lm-empire-state.svg} :: New York City
+In which city is this landmark? {img:lm-petronas.svg} :: Kuala Lumpur
+In which city is this landmark? {img:lm-kuwait-towers.svg} :: Kuwait City
+In which city is this landmark? {img:lm-al-faisaliah.svg} :: Riyadh
+In which city is this landmark? {img:lm-louvre-pyramid.svg} :: Paris
+In which city is this landmark? {img:lm-jeddah-fountain.svg} :: Jeddah
+In which country is this landmark? {img:lm-dubai-frame.svg} :: United Arab Emirates
+In which city is this landmark? {img:lm-cn-tower.svg} :: Toronto
+In which country is this landmark? {img:lm-marina-bay-sands.svg} :: Singapore
+Name this famous landmark. {img:lm-space-needle.svg} :: The Space Needle
+Name this famous landmark. {img:lm-gateway-arch.svg} :: The Gateway Arch
+Name this famous landmark. {img:lm-atomium.svg} :: The Atomium
+Name this famous landmark. {img:lm-brandenburg-gate.svg} :: The Brandenburg Gate
+Name this famous landmark. {img:lm-chichen-itza.svg} :: El Castillo at Chichén Itzá
+Name this famous landmark. {img:lm-shard.svg} :: The Shard
+Name this famous landmark. {img:lm-table-mountain.svg} :: Table Mountain
+Name this famous landmark. {img:lm-uluru.svg} :: Uluru (Ayers Rock)
+Name this famous landmark. {img:lm-matterhorn.svg} :: The Matterhorn
+Name this famous landmark. {img:lm-taipei-101.svg} :: Taipei 101
+
+## 400
+Which country's flag is this? {img:flag-estonia.svg} :: Estonia
+Which country's flag is this? {img:flag-latvia.svg} :: Latvia
+Which country's flag is this? {img:flag-lithuania.svg} :: Lithuania
+Which country's flag is this? {img:flag-georgia.svg} :: Georgia
+Which country's flag is this? {img:flag-armenia.svg} :: Armenia
+Which country's flag is this? {img:flag-azerbaijan.svg} :: Azerbaijan
+Which country's flag is this? {img:flag-laos.svg} :: Laos
+Which country's flag is this? {img:flag-myanmar.svg} :: Myanmar
+Which country's flag is this? {img:flag-maldives.svg} :: Maldives
+Which country's flag is this? {img:flag-panama.svg} :: Panama
+Which country's flag is this? {img:flag-costa-rica.svg} :: Costa Rica
+Which country's flag is this? {img:flag-uruguay.svg} :: Uruguay
+Which country's flag is this? {img:flag-bahamas.svg} :: Bahamas
+Which country's flag is this? {img:flag-trinidad.svg} :: Trinidad and Tobago
+Which country's flag is this? {img:flag-tanzania.svg} :: Tanzania
+Which country's flag is this? {img:flag-botswana.svg} :: Botswana
+Which country's flag is this? {img:flag-ivory-coast.svg} :: Côte d'Ivoire (Ivory Coast)
+Which country's flag is this? {img:flag-mali.svg} :: Mali
+Which country's flag is this? {img:flag-niger.svg} :: Niger
+Which country's flag is this? {img:flag-guinea.svg} :: Guinea
+Which country's flag is this? {img:flag-djibouti.svg} :: Djibouti
+Which country's flag is this? {img:flag-madagascar.svg} :: Madagascar
+Which country's flag is this? {img:flag-north-macedonia.svg} :: North Macedonia
+Which country's flag is this? {img:flag-sierra-leone.svg} :: Sierra Leone
+Name the capital city of the country this flag belongs to. {img:flag-russia.svg} :: Moscow
+Name the capital city of the country this flag belongs to. {img:flag-australia.svg} :: Canberra
+Name the capital city of the country this flag belongs to. {img:flag-argentina.svg} :: Buenos Aires
+Name the capital city of the country this flag belongs to. {img:flag-greece.svg} :: Athens
+Name the capital city of the country this flag belongs to. {img:flag-sweden.svg} :: Stockholm
+Name the capital city of the country this flag belongs to. {img:flag-switzerland.svg} :: Bern
+Name the capital city of the country this flag belongs to. {img:flag-netherlands.svg} :: Amsterdam
+Name the capital city of the country this flag belongs to. {img:flag-ireland.svg} :: Dublin
+Name the capital city of the country this flag belongs to. {img:flag-pakistan.svg} :: Islamabad
+Name the capital city of the country this flag belongs to. {img:flag-morocco.svg} :: Rabat
+Name the capital city of the country this flag belongs to. {img:flag-algeria.svg} :: Algiers
+Name the capital city of the country this flag belongs to. {img:flag-tunisia.svg} :: Tunis
+Name the capital city of the country this flag belongs to. {img:flag-syria.svg} :: Damascus
+Name the capital city of the country this flag belongs to. {img:flag-yemen.svg} :: Sana'a
+Name the capital city of the country this flag belongs to. {img:flag-norway.svg} :: Oslo
+Name the capital city of the country this flag belongs to. {img:flag-denmark.svg} :: Copenhagen
+Name the capital city of the country this flag belongs to. {img:flag-finland.svg} :: Helsinki
+Name the capital city of the country this flag belongs to. {img:flag-poland.svg} :: Warsaw
+Name the capital city of the country this flag belongs to. {img:flag-belgium.svg} :: Brussels
+Name the capital city of the country this flag belongs to. {img:flag-ukraine.svg} :: Kyiv
+Name the capital city of the country this flag belongs to. {img:flag-nigeria.svg} :: Abuja
+Name the capital city of the country this flag belongs to. {img:flag-new-zealand.svg} :: Wellington
+Name the capital city of the country this flag belongs to. {img:flag-scotland.svg} :: Edinburgh
+In which city is this landmark? {img:lm-space-needle.svg} :: Seattle
+In which city is this landmark? {img:lm-gateway-arch.svg} :: St. Louis
+In which city is this landmark? {img:lm-atomium.svg} :: Brussels
+In which city is this landmark? {img:lm-brandenburg-gate.svg} :: Berlin
+In which country is this landmark? {img:lm-chichen-itza.svg} :: Mexico
+In which city is this landmark? {img:lm-shard.svg} :: London
+In which city is this landmark? {img:lm-table-mountain.svg} :: Cape Town
+In which country is this landmark? {img:lm-uluru.svg} :: Australia
+In which country is this landmark? {img:lm-matterhorn.svg} :: Switzerland and Italy (on the border)
+In which city is this landmark? {img:lm-taipei-101.svg} :: Taipei
+
+## 500
+Which country's flag is this? {img:flag-benin.svg} :: Benin
+Which country's flag is this? {img:flag-burkina-faso.svg} :: Burkina Faso
+Which country's flag is this? {img:flag-gabon.svg} :: Gabon
+Which country's flag is this? {img:flag-gambia.svg} :: Gambia
+Which country's flag is this? {img:flag-guinea-bissau.svg} :: Guinea-Bissau
+Which country's flag is this? {img:flag-liberia.svg} :: Liberia
+Which country's flag is this? {img:flag-mauritius.svg} :: Mauritius
+Which country's flag is this? {img:flag-micronesia.svg} :: Micronesia
+Which country's flag is this? {img:flag-palau.svg} :: Palau
+Which country's flag is this? {img:flag-seychelles.svg} :: Seychelles
+Which country's flag is this? {img:flag-tonga.svg} :: Tonga
+Name the capital city of the country this flag belongs to. {img:flag-austria.svg} :: Vienna
+Name the capital city of the country this flag belongs to. {img:flag-hungary.svg} :: Budapest
+Name the capital city of the country this flag belongs to. {img:flag-czechia.svg} :: Prague
+Name the capital city of the country this flag belongs to. {img:flag-romania.svg} :: Bucharest
+Name the capital city of the country this flag belongs to. {img:flag-bulgaria.svg} :: Sofia
+Name the capital city of the country this flag belongs to. {img:flag-iceland.svg} :: Reykjavík
+Name the capital city of the country this flag belongs to. {img:flag-chile.svg} :: Santiago
+Name the capital city of the country this flag belongs to. {img:flag-colombia.svg} :: Bogotá
+Name the capital city of the country this flag belongs to. {img:flag-peru.svg} :: Lima
+Name the capital city of the country this flag belongs to. {img:flag-cuba.svg} :: Havana
+Name the capital city of the country this flag belongs to. {img:flag-jamaica.svg} :: Kingston
+Name the capital city of the country this flag belongs to. {img:flag-indonesia.svg} :: Jakarta
+Name the capital city of the country this flag belongs to. {img:flag-philippines.svg} :: Manila
+Name the capital city of the country this flag belongs to. {img:flag-thailand.svg} :: Bangkok
+Name the capital city of the country this flag belongs to. {img:flag-vietnam.svg} :: Hanoi
+Name the capital city of the country this flag belongs to. {img:flag-bangladesh.svg} :: Dhaka
+Name the capital city of the country this flag belongs to. {img:flag-sudan.svg} :: Khartoum
+Name the capital city of the country this flag belongs to. {img:flag-libya.svg} :: Tripoli
+Name the capital city of the country this flag belongs to. {img:flag-somalia.svg} :: Mogadishu
+Name the capital city of the country this flag belongs to. {img:flag-ghana.svg} :: Accra
+Name the capital city of the country this flag belongs to. {img:flag-senegal.svg} :: Dakar
+Name the capital city of the country this flag belongs to. {img:flag-cameroon.svg} :: Yaoundé
+Name the capital city of the country this flag belongs to. {img:flag-mauritania.svg} :: Nouakchott

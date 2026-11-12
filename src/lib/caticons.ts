@@ -147,6 +147,7 @@ const GLYPHS: Record<string, () => string> = {
   cars: () => `<path d="M9.5 33H5v-8l5.5-2 6-8.5h14l7 8.5 6 2v8h-4.5M18.5 33h11" stroke-linejoin="round"/><path d="M17.5 22.5h13" stroke-width="1.6"/><circle cx="14" cy="33" r="4.5"/><circle cx="34" cy="33" r="4.5"/>`,
   gaming: () => `<path d="M15 14h18c6 0 9 6.5 10 15.5.5 5-4 7.5-7.5 4L32 30H16l-3.5 3.5c-3.5 3.5-8 1-7.5-4C6 20.5 9 14 15 14z" stroke-linejoin="round"/><path d="M15.5 19v7.5M11.75 22.75h7.5"/>${dot(31, 21, 4.5)}${dot(36, 25.5, 4.5)}`,
   records: () => `<path d="M15 7h18v10a9 9 0 0 1-18 0z" stroke-linejoin="round"/><path d="M15 10H9c0 6 3 9.5 7 10M33 10h6c0 6-3 9.5-7 10M24 26v7M17 41h14M19.5 41l1-8h7l1 8" stroke-linejoin="round"/>`,
+  flags: () => `<path d="M10 43V6"/><path d="M10 8c6-3 11-3 16 0s10 3 14 0v18c-4 3-9 3-14 0s-10-3-16 0" stroke-linejoin="round"/>`,
   custom: () => `<path d="M17.5 17.5a6.5 6.5 0 1 1 9.6 5.7c-2.1 1.2-3.1 2.6-3.1 5v2.3"/>${dot(24, 37, 5)}<circle cx="24" cy="24" r="19" stroke-width="1.6" opacity=".5"/>`,
 }
 

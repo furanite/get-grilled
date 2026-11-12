@@ -1,117 +1,117 @@
 id: isl-prophets-early
-name: Blessed Prophets (عليهم السلام): Adam to Ibrahim
+name: Blessed Prophets ﵈: Adam to Ibrahim
 nameAr: الأنبياء: من آدم إلى إبراهيم
 group: prophets
-# Every Prophet's name carries (عليه السلام). No Prophet is ever drawn or voiced.
+# Every Prophet's name carries ﵇. No Prophet is ever drawn or voiced.
 
 ## 100
-The first human and the first Blessed Prophet (عليه السلام). :: Our master Adam (عليه السلام) || H: Qur'an 2:30-37
-Our master Adam (عليه السلام) was created from this. :: Clay (dust) || H: Qur'an 3:59; 15:26
-The wife of our master Adam (عليه السلام), named in the reports. :: Our lady Hawwa' (عليها السلام) || H: Tafsir al-Tabari, Qur'an 2:35
-The one who refused to bow to our master Adam (عليه السلام) out of pride. :: Iblis || H: Qur'an 2:34
-The Blessed Prophet (عليه السلام) who built the Ark. :: Our master Nuh (عليه السلام) || H: Qur'an 11:37
-The Blessed Prophet (عليه السلام) thrown into a fire that Allah made cool and safe. :: Our master Ibrahim (عليه السلام) || H: Qur'an 21:69
-The Blessed Prophet (عليه السلام) sent to the people of 'Ad. :: Our master Hud (عليه السلام) || H: Qur'an 7:65
-The Blessed Prophet (عليه السلام) sent to Thamud, with a she-camel as a sign. :: Our master Salih (عليه السلام) || H: Qur'an 7:73
-The son of our master Ibrahim (عليه السلام) who helped him raise the foundations of the House. :: Our master Isma'il (عليه السلام) || H: Qur'an 2:127
-The son of our master Ibrahim (عليه السلام) whose birth was announced by angels (عليهم السلام) to Sarah. :: Our master Ishaq (عليه السلام) || H: Qur'an 11:71
-The nephew of our master Ibrahim (عليه السلام), himself a Blessed Prophet (عليه السلام). :: Our master Lut (عليه السلام) || H: Qur'an 29:26
-Our master Ibrahim (عليه السلام) is called "Khalil Allah", meaning this. :: The intimate friend of Allah || H: Qur'an 4:125
-The sons of Adam (عليه السلام) whose story is in Surah al-Ma'idah; the one killed is named this in the reports. :: Habil || H: Qur'an 5:27-31; names from Tafsir al-Tabari
-The bird that showed the son of Adam (عليه السلام) how to bury his brother. :: A crow || H: Qur'an 5:31
-The wife of our master Ibrahim (عليه السلام) and mother of our master Isma'il (عليه السلام). :: Our lady Hajar (عليها السلام) || H: Sahih al-Bukhari, Book of the Prophets
-The well that sprang up for our lady Hajar (عليها السلام) and baby our master Isma'il (عليه السلام). :: Zamzam || H: Sahih al-Bukhari, Book of the Prophets
-The two hills our lady Hajar (عليها السلام) ran between, searching for water. :: Safa and Marwah || H: Sahih al-Bukhari, Book of the Prophets
-Our master Ibrahim (عليه السلام) was commanded in a dream to sacrifice this son, by the most common view. :: Our master Isma'il (عليه السلام) || H: Qur'an 37:102-107
-The animal sent in place of the son of our master Ibrahim (عليه السلام). :: A ram || H: Qur'an 37:107; Tafsir al-Tabari
-The festival that remembers the sacrifice of our master Ibrahim (عليه السلام). :: Eid al-Adha || H: Standard practice
+The first human and the first Blessed Prophet ﵇. :: Our master Adam ﵇ || H: Qur'an 2:30-37
+Our master Adam ﵇ was created from this. :: Clay (dust) || H: Qur'an 3:59; 15:26
+The wife of our master Adam ﵇, named in the reports. :: Our lady Hawwa' ﵍ || H: Tafsir al-Tabari, Qur'an 2:35
+The one who refused to bow to our master Adam ﵇ out of pride. :: Iblis || H: Qur'an 2:34
+The Blessed Prophet ﵇ who built the Ark. :: Our master Nuh ﵇ || H: Qur'an 11:37
+The Blessed Prophet ﵇ thrown into a fire that Allah made cool and safe. :: Our master Ibrahim ﵇ || H: Qur'an 21:69
+The Blessed Prophet ﵇ sent to the people of 'Ad. :: Our master Hud ﵇ || H: Qur'an 7:65
+The Blessed Prophet ﵇ sent to Thamud, with a she-camel as a sign. :: Our master Salih ﵇ || H: Qur'an 7:73
+The son of our master Ibrahim ﵇ who helped him raise the foundations of the House. :: Our master Isma'il ﵇ || H: Qur'an 2:127
+The son of our master Ibrahim ﵇ whose birth was announced by angels ﵈ to Sarah. :: Our master Ishaq ﵇ || H: Qur'an 11:71
+The nephew of our master Ibrahim ﵇, himself a Blessed Prophet ﵇. :: Our master Lut ﵇ || H: Qur'an 29:26
+Our master Ibrahim ﵇ is called "Khalil Allah", meaning this. :: The intimate friend of Allah || H: Qur'an 4:125
+The sons of Adam ﵇ whose story is in Surah al-Ma'idah; the one killed is named this in the reports. :: Habil || H: Qur'an 5:27-31; names from Tafsir al-Tabari
+The bird that showed the son of Adam ﵇ how to bury his brother. :: A crow || H: Qur'an 5:31
+The wife of our master Ibrahim ﵇ and mother of our master Isma'il ﵇. :: Our lady Hajar ﵍ || H: Sahih al-Bukhari, Book of the Prophets
+The well that sprang up for our lady Hajar ﵍ and baby our master Isma'il ﵇. :: Zamzam || H: Sahih al-Bukhari, Book of the Prophets
+The two hills our lady Hajar ﵍ ran between, searching for water. :: Safa and Marwah || H: Sahih al-Bukhari, Book of the Prophets
+Our master Ibrahim ﵇ was commanded in a dream to sacrifice this son, by the most common view. :: Our master Isma'il ﵇ || H: Qur'an 37:102-107
+The animal sent in place of the son of our master Ibrahim ﵇. :: A ram || H: Qur'an 37:107; Tafsir al-Tabari
+The festival that remembers the sacrifice of our master Ibrahim ﵇. :: Eid al-Adha || H: Standard practice
 
 ## 200
-Allah taught our master Adam (عليه السلام) these, which the angels (عليهم السلام) did not know. :: The names (of all things) || H: Qur'an 2:31
-The tree our master Adam (عليه السلام) and his wife were told not to approach. :: A tree in the Garden (unnamed in the Qur'an) || H: Qur'an 2:35
-The words our master Adam (عليه السلام) received from his Lord were words of this. :: Repentance || H: Qur'an 2:37; 7:23
-The Blessed Prophet (عليه السلام) raised to "a high place", mentioned in Surah Maryam. :: Our master Idris (عليه السلام) || H: Qur'an 19:56-57
-Our master Nuh (عليه السلام) called his people for this many years less fifty. :: A thousand years (950) || H: Qur'an 29:14
+Allah taught our master Adam ﵇ these, which the angels ﵈ did not know. :: The names (of all things) || H: Qur'an 2:31
+The tree our master Adam ﵇ and his wife were told not to approach. :: A tree in the Garden (unnamed in the Qur'an) || H: Qur'an 2:35
+The words our master Adam ﵇ received from his Lord were words of this. :: Repentance || H: Qur'an 2:37; 7:23
+The Blessed Prophet ﵇ raised to "a high place", mentioned in Surah Maryam. :: Our master Idris ﵇ || H: Qur'an 19:56-57
+Our master Nuh ﵇ called his people for this many years less fifty. :: A thousand years (950) || H: Qur'an 29:14
 The mountain where the Ark came to rest. :: al-Judi || H: Qur'an 11:44
-The son of our master Nuh (عليه السلام) who refused to board the Ark. :: Kan'an (named in reports; some say Yam) || H: Qur'an 11:42-43; Tafsir al-Tabari
-The surah named after our master Nuh (عليه السلام). :: Surah Nuh (71) || H: The Mushaf
-The people of our master Hud (عليه السلام) were destroyed by this. :: A furious wind || H: Qur'an 69:6
+The son of our master Nuh ﵇ who refused to board the Ark. :: Kan'an (named in reports; some say Yam) || H: Qur'an 11:42-43; Tafsir al-Tabari
+The surah named after our master Nuh ﵇. :: Surah Nuh (71) || H: The Mushaf
+The people of our master Hud ﵇ were destroyed by this. :: A furious wind || H: Qur'an 69:6
 The city of 'Ad "with lofty pillars", named in Surah al-Fajr (meaning). :: Iram || H: Qur'an 89:7
 Thamud carved their houses out of this. :: Mountains (rock) || H: Qur'an 89:9
 Thamud were destroyed after they did this to the she-camel. :: Hamstrung (killed) it || H: Qur'an 91:14
-Our master Ibrahim (عليه السلام) broke the idols and left this one. :: The biggest one || H: Qur'an 21:58
-The one our master Ibrahim (عليه السلام) addressed as "father" in Surah al-An'am, whom many scholars say was his uncle. :: Azar || H: Qur'an 6:74; Mafatih al-Ghayb (al-Razi); Masalik al-Hunafa (al-Suyuti)
-The king who argued with our master Ibrahim (عليه السلام) about giving life and death. :: Namrud (named in reports) || H: Qur'an 2:258; name from Tafsir al-Tabari
-Our master Ibrahim (عليه السلام) said "My Lord gives life and death", and then challenged the king to bring the sun from here (meaning). :: The west || H: Qur'an 2:258
-The angels (عليهم السلام) who visited our master Ibrahim (عليه السلام) were served this meal. :: A roasted calf || H: Qur'an 11:69
-The people of our master Lut (عليه السلام) were destroyed by stones of this. :: Baked clay (sijjil) || H: Qur'an 11:82
-The family member of our master Lut (عليه السلام) who was not saved. :: His wife || H: Qur'an 11:81
-The House that Ibrahim and Isma'il (عليهما السلام) raised. :: The Ka'bah || H: Qur'an 2:127
+Our master Ibrahim ﵇ broke the idols and left this one. :: The biggest one || H: Qur'an 21:58
+The one our master Ibrahim ﵇ addressed as "father" in Surah al-An'am, whom many scholars say was his uncle. :: Azar || H: Qur'an 6:74; Mafatih al-Ghayb (al-Razi); Masalik al-Hunafa (al-Suyuti)
+The king who argued with our master Ibrahim ﵇ about giving life and death. :: Namrud (named in reports) || H: Qur'an 2:258; name from Tafsir al-Tabari
+Our master Ibrahim ﵇ said "My Lord gives life and death", and then challenged the king to bring the sun from here (meaning). :: The west || H: Qur'an 2:258
+The angels ﵈ who visited our master Ibrahim ﵇ were served this meal. :: A roasted calf || H: Qur'an 11:69
+The people of our master Lut ﵇ were destroyed by stones of this. :: Baked clay (sijjil) || H: Qur'an 11:82
+The family member of our master Lut ﵇ who was not saved. :: His wife || H: Qur'an 11:81
+The House that Ibrahim and Isma'il ﵉ raised. :: The Ka'bah || H: Qur'an 2:127
 
 ## 300
-Iblis said he was better than our master Adam (عليه السلام) because he was made from this. :: Fire || H: Qur'an 7:12
-Our master Adam (عليه السلام) is called this, meaning "father of mankind". :: Abu al-Bashar || H: Sahih al-Bukhari (hadith of intercession)
-The Blessed Prophet who, after our master Adam (عليه السلام), is called the first Messenger sent to the people of earth. :: Our master Nuh (عليه السلام) || H: Sahih al-Bukhari (hadith of intercession)
-Our master Nuh (عليه السلام) was told to take into the Ark a pair of this. :: Every kind (of animal) || H: Qur'an 11:40
-The idols of our master Nuh's (عليه السلام) people, five named in Surah Nuh, include Wadd, Suwa', Yaghuth, Ya'uq and this. :: Nasr || H: Qur'an 71:23
-Ibn 'Abbas (رِضْوَانُ اللَّهِ عَلَيْهِمَا) said those idols were named after these people of our master Nuh's (عليه السلام) time. :: Righteous men || H: Sahih al-Bukhari, Book of Tafsir
-The people of our master Hud (عليه السلام) lived in this region, by the common view. :: al-Ahqaf (southern Arabia) || H: Qur'an 46:21
+Iblis said he was better than our master Adam ﵇ because he was made from this. :: Fire || H: Qur'an 7:12
+Our master Adam ﵇ is called this, meaning "father of mankind". :: Abu al-Bashar || H: Sahih al-Bukhari (hadith of intercession)
+The Blessed Prophet who, after our master Adam ﵇, is called the first Messenger sent to the people of earth. :: Our master Nuh ﵇ || H: Sahih al-Bukhari (hadith of intercession)
+Our master Nuh ﵇ was told to take into the Ark a pair of this. :: Every kind (of animal) || H: Qur'an 11:40
+The idols of our master Nuh's ﵇ people, five named in Surah Nuh, include Wadd, Suwa', Yaghuth, Ya'uq and this. :: Nasr || H: Qur'an 71:23
+Ibn 'Abbas (رِضْوَانُ اللَّهِ عَلَيْهِمَا) said those idols were named after these people of our master Nuh's ﵇ time. :: Righteous men || H: Sahih al-Bukhari, Book of Tafsir
+The people of our master Hud ﵇ lived in this region, by the common view. :: al-Ahqaf (southern Arabia) || H: Qur'an 46:21
 The surah named after the dunes where 'Ad lived. :: Surah al-Ahqaf || H: Qur'an 46:21
-Our master Salih's (عليه السلام) people were destroyed by this. :: A mighty blast (al-sayhah) || H: Qur'an 11:67
-The she-camel of our master Salih (عليه السلام) was to share this with the people by turns. :: Water || H: Qur'an 26:155
-Our master Ibrahim (عليه السلام) reasoned with his people about a star, the moon and this. :: The sun || H: Qur'an 6:76-78
-Our master Ibrahim (عليه السلام) asked Allah to show him how He gives life to the dead, using these. :: Four birds || H: Qur'an 2:260
-Our master Ibrahim (عليه السلام) left our lady Hajar and Isma'il (عليه السلام) in a valley described as having no this. :: Crops (cultivation) || H: Qur'an 14:37
-Our master Ishaq's (عليه السلام) son, also a Blessed Prophet (عليه السلام), given as good news with him. :: Our master Ya'qub (عليه السلام) || H: Qur'an 11:71
-The town of our master Lut's (عليه السلام) people, named in the reports. :: Sodom (Sadum) || H: Tafsir al-Tabari, Qur'an 11:82
-The Blessed Prophet (عليه السلام) who said "I am leaving for my Lord; He will guide me" (meaning). :: Our master Ibrahim (عليه السلام) || H: Qur'an 37:99
-The surah named after our master Ibrahim (عليه السلام). :: Surah Ibrahim (14) || H: The Mushaf
-Our master Ibrahim (عليه السلام) is called this "nation" in Surah al-Nahl, a model of faith. :: Ummah || H: Qur'an 16:120
-The religion of our master Ibrahim (عليه السلام) is described as this, turning away from falsehood. :: Hanif || H: Qur'an 3:67
-The number of times our master Ibrahim (عليه السلام) said words that were not literally true, explained by scholars as allusions. :: 3 || H: Sahih al-Bukhari, Book of the Prophets
+Our master Salih's ﵇ people were destroyed by this. :: A mighty blast (al-sayhah) || H: Qur'an 11:67
+The she-camel of our master Salih ﵇ was to share this with the people by turns. :: Water || H: Qur'an 26:155
+Our master Ibrahim ﵇ reasoned with his people about a star, the moon and this. :: The sun || H: Qur'an 6:76-78
+Our master Ibrahim ﵇ asked Allah to show him how He gives life to the dead, using these. :: Four birds || H: Qur'an 2:260
+Our master Ibrahim ﵇ left our lady Hajar and Isma'il ﵇ in a valley described as having no this. :: Crops (cultivation) || H: Qur'an 14:37
+Our master Ishaq's ﵇ son, also a Blessed Prophet ﵇, given as good news with him. :: Our master Ya'qub ﵇ || H: Qur'an 11:71
+The town of our master Lut's ﵇ people, named in the reports. :: Sodom (Sadum) || H: Tafsir al-Tabari, Qur'an 11:82
+The Blessed Prophet ﵇ who said "I am leaving for my Lord; He will guide me" (meaning). :: Our master Ibrahim ﵇ || H: Qur'an 37:99
+The surah named after our master Ibrahim ﵇. :: Surah Ibrahim (14) || H: The Mushaf
+Our master Ibrahim ﵇ is called this "nation" in Surah al-Nahl, a model of faith. :: Ummah || H: Qur'an 16:120
+The religion of our master Ibrahim ﵇ is described as this, turning away from falsehood. :: Hanif || H: Qur'an 3:67
+The number of times our master Ibrahim ﵇ said words that were not literally true, explained by scholars as allusions. :: 3 || H: Sahih al-Bukhari, Book of the Prophets
 
 ## 400
-Our master Adam (عليه السلام) lived to this age, according to a hadith. :: 1,000 years || H: Sunan al-Tirmidhi
-The time between Adam and Nuh (عليهما السلام), according to a hadith. :: Ten centuries (qurun) || H: Sahih Ibn Hibban
-The word for the statues of our master Ibrahim's (عليه السلام) people in Surah al-Anbiya'. :: al-Tamathil || H: Qur'an 21:52
-In a report of Abu Dharr (رِضْوَانُ اللَّهِ عَلَيْهِ), four Arab Blessed Prophets (عليهم السلام) are named: Hud, Salih, Shu'ayb and this one. :: Our Beloved Prophet Muhammad ﷺ || H?: Sahih Ibn Hibban; to be checked
+Our master Adam ﵇ lived to this age, according to a hadith. :: 1,000 years || H: Sunan al-Tirmidhi
+The time between Adam and Nuh ﵉, according to a hadith. :: Ten centuries (qurun) || H: Sahih Ibn Hibban
+The word for the statues of our master Ibrahim's ﵇ people in Surah al-Anbiya'. :: al-Tamathil || H: Qur'an 21:52
+In a report of Abu Dharr ﵁, four Arab Blessed Prophets ﵈ are named: Hud, Salih, Shu'ayb and this one. :: Our Beloved Prophet Muhammad ﷺ || H?: Sahih Ibn Hibban; to be checked
 The valley of Thamud, where our Beloved Prophet ﷺ told the army not to drink the water on the way to Tabuk. :: al-Hijr || H: Sahih al-Bukhari
-Our master Salih's (عليه السلام) people were given this many days before the punishment. :: 3 || H: Qur'an 11:65
-In Surah al-Naml, nine men of mischief plotted at night against this Blessed Prophet (عليه السلام). :: Our master Salih (عليه السلام) || H: Qur'an 27:48-49
-The city our master Ibrahim (عليه السلام) came from, by the common view of historians. :: Ur (in Iraq) || H?: Tarikh al-Tabari; to be checked
-Our master Ibrahim (عليه السلام) migrated with his wife Sarah and Lut (عليه السلام) to this land. :: al-Sham (Palestine) || H: Qur'an 21:71; Tafsir al-Tabari
-Sa'id ibn al-Musayyib رحمة الله عليه said our master Ibrahim (عليه السلام) was the first to host guests, the first to be circumcised and the first to see this (meaning). :: Grey hair || H: Muwatta' Malik
-Our Beloved Master ﷺ said our master Ibrahim (عليه السلام) circumcised himself at this age (paraphrased). :: 80 || H: Sahih al-Bukhari
-The angels (عليهم السلام) told our master Ibrahim (عليه السلام) they had been sent to the people of this Blessed Prophet (عليه السلام). :: Our master Lut (عليه السلام) || H: Qur'an 11:70
-Our master Ibrahim (عليه السلام) argued with the angels on behalf of our master Lut's (عليه السلام) people; the Qur'an calls him this. :: Forbearing, tender-hearted, turning to Allah || H: Qur'an 11:75
-Our Beloved Prophet ﷺ saw our master Ibrahim (عليه السلام) on the Mi'raj in this heaven. :: The seventh heaven || H: Sahih al-Bukhari
-On the Mi'raj, Ibrahim (عليه السلام) was leaning against this. :: al-Bayt al-Ma'mur || H: Sahih Muslim
-Our Beloved Prophet ﷺ saw our master Idris (عليه السلام) on the Mi'raj in this heaven. :: The fourth heaven || H: Sahih al-Bukhari
-Our Beloved Master ﷺ saw our master Adam (عليه السلام) in this heaven. :: The first (lowest) heaven || H: Sahih al-Bukhari
-Our Beloved Prophet ﷺ said He ﷺ was the answer to the prayer of this Blessed Prophet (عليه السلام). :: Our master Ibrahim (عليه السلام) || H: Musnad Ahmad (hadith of al-'Irbad ibn Sariyah)
-The prayer of our master Ibrahim (عليه السلام) for a Messenger from among the people of Makkah is in this surah. :: Surah al-Baqarah (2:129) || H: Qur'an 2:129
-Our master Ibrahim (عليه السلام) prayed for this city to be made safe. :: Makkah (this land) || H: Qur'an 14:35
-Our master Ibrahim (عليه السلام) was told to call people to this, and they would come on foot and on lean camels. :: Hajj || H: Qur'an 22:27
+Our master Salih's ﵇ people were given this many days before the punishment. :: 3 || H: Qur'an 11:65
+In Surah al-Naml, nine men of mischief plotted at night against this Blessed Prophet ﵇. :: Our master Salih ﵇ || H: Qur'an 27:48-49
+The city our master Ibrahim ﵇ came from, by the common view of historians. :: Ur (in Iraq) || H?: Tarikh al-Tabari; to be checked
+Our master Ibrahim ﵇ migrated with his wife Sarah and Lut ﵇ to this land. :: al-Sham (Palestine) || H: Qur'an 21:71; Tafsir al-Tabari
+Sa'id ibn al-Musayyib رحمة الله عليه said our master Ibrahim ﵇ was the first to host guests, the first to be circumcised and the first to see this (meaning). :: Grey hair || H: Muwatta' Malik
+Our Beloved Master ﷺ said our master Ibrahim ﵇ circumcised himself at this age (paraphrased). :: 80 || H: Sahih al-Bukhari
+The angels ﵈ told our master Ibrahim ﵇ they had been sent to the people of this Blessed Prophet ﵇. :: Our master Lut ﵇ || H: Qur'an 11:70
+Our master Ibrahim ﵇ argued with the angels on behalf of our master Lut's ﵇ people; the Qur'an calls him this. :: Forbearing, tender-hearted, turning to Allah || H: Qur'an 11:75
+Our Beloved Prophet ﷺ saw our master Ibrahim ﵇ on the Mi'raj in this heaven. :: The seventh heaven || H: Sahih al-Bukhari
+On the Mi'raj, Ibrahim ﵇ was leaning against this. :: al-Bayt al-Ma'mur || H: Sahih Muslim
+Our Beloved Prophet ﷺ saw our master Idris ﵇ on the Mi'raj in this heaven. :: The fourth heaven || H: Sahih al-Bukhari
+Our Beloved Master ﷺ saw our master Adam ﵇ in this heaven. :: The first (lowest) heaven || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ said He ﷺ was the answer to the prayer of this Blessed Prophet ﵇. :: Our master Ibrahim ﵇ || H: Musnad Ahmad (hadith of al-'Irbad ibn Sariyah)
+The prayer of our master Ibrahim ﵇ for a Messenger from among the people of Makkah is in this surah. :: Surah al-Baqarah (2:129) || H: Qur'an 2:129
+Our master Ibrahim ﵇ prayed for this city to be made safe. :: Makkah (this land) || H: Qur'an 14:35
+Our master Ibrahim ﵇ was told to call people to this, and they would come on foot and on lean camels. :: Hajj || H: Qur'an 22:27
 The first House set up for mankind to worship in, according to Surah Al 'Imran, is at this place. :: Bakkah (the Ka'bah) || H: Qur'an 3:96
 
 ## 500
 Iblis asked to be given respite until this day. :: The Day they are raised || H: Qur'an 7:14
-The phrase our master Adam (عليه السلام) and Hawwa' (عليها السلام) said in repentance begins "Our Lord, we have wronged" these (meaning). :: Ourselves || H: Qur'an 7:23
-Our Beloved Prophet ﷺ said our master Adam (عليه السلام) was created on this day of the week. :: Friday || H: Sahih Muslim
-The surah in which our master Nuh (عليه السلام) tells his people to seek forgiveness, and Allah will send rain. :: Surah Nuh (71:10-11) || H: Qur'an 71:10-11
+The phrase our master Adam ﵇ and Hawwa' ﵍ said in repentance begins "Our Lord, we have wronged" these (meaning). :: Ourselves || H: Qur'an 7:23
+Our Beloved Prophet ﷺ said our master Adam ﵇ was created on this day of the week. :: Friday || H: Sahih Muslim
+The surah in which our master Nuh ﵇ tells his people to seek forgiveness, and Allah will send rain. :: Surah Nuh (71:10-11) || H: Qur'an 71:10-11
 In Surah Hud, the water came when this "boiled over". :: The oven (al-tannur) || H: Qur'an 11:40
-Our master Nuh's (عليه السلام) wife and Lut's (عليه السلام) wife are given in Surah al-Tahrim as examples of this. :: Disbelievers (who betrayed) || H: Qur'an 66:10
-The Blessed Prophet (عليه السلام) who said to his people, "Will you not fear Allah? I am a trustworthy Messenger to you" (meaning), in Surah al-Shu'ara' first. :: Our master Nuh (عليه السلام) || H: Qur'an 26:106-107
-Our master Ibrahim (عليه السلام) asked his people whether their idols hear them, or do this for them. :: Benefit or harm them || H: Qur'an 26:72-73
-Our master Ibrahim (عليه السلام) said, "I am sick" (meaning), on the day of their festival, in this surah. :: Surah al-Saffat (37:89) || H: Qur'an 37:89
-The father of our master Ibrahim (عليه السلام) threatened to do this to him. :: Stone him || H: Qur'an 19:46
-Our master Ibrahim (عليه السلام) promised his father to ask forgiveness for him until it became clear he was this. :: An enemy of Allah || H: Qur'an 9:114
+Our master Nuh's ﵇ wife and Lut's ﵇ wife are given in Surah al-Tahrim as examples of this. :: Disbelievers (who betrayed) || H: Qur'an 66:10
+The Blessed Prophet ﵇ who said to his people, "Will you not fear Allah? I am a trustworthy Messenger to you" (meaning), in Surah al-Shu'ara' first. :: Our master Nuh ﵇ || H: Qur'an 26:106-107
+Our master Ibrahim ﵇ asked his people whether their idols hear them, or do this for them. :: Benefit or harm them || H: Qur'an 26:72-73
+Our master Ibrahim ﵇ said, "I am sick" (meaning), on the day of their festival, in this surah. :: Surah al-Saffat (37:89) || H: Qur'an 37:89
+The father of our master Ibrahim ﵇ threatened to do this to him. :: Stone him || H: Qur'an 19:46
+Our master Ibrahim ﵇ promised his father to ask forgiveness for him until it became clear he was this. :: An enemy of Allah || H: Qur'an 9:114
 The well of Zamzam was later dug again by this grandfather of our Beloved Master ﷺ. :: 'Abd al-Muttalib || H: Sirat Ibn Hisham
-The tribe that settled near our lady Hajar and Isma'il (عليه السلام), and he married from it. :: Jurhum || H: Sahih al-Bukhari, Book of the Prophets
-Our master Ibrahim (عليه السلام) told our master Isma'il's (عليه السلام) first wife to tell him to change this. :: The threshold of his door || H: Sahih al-Bukhari, Book of the Prophets
-The station where our master Ibrahim (عليه السلام) stood while building. :: Maqam Ibrahim || H: Qur'an 2:125; Sahih al-Bukhari
-Our master Isma'il (عليه السلام) is described in Surah Maryam as true to this. :: His promise || H: Qur'an 19:54
-The angels (عليهم السلام) gave our master Ibrahim (عليه السلام) good news of a "forbearing boy", in this surah. :: Surah al-Saffat (37:101) || H: Qur'an 37:101
-Our master Lut's (عليه السلام) people were the first to commit this, as their Blessed Prophet (عليه السلام) said (meaning). :: An indecency no one before them had done || H: Qur'an 7:80
-The angels (عليهم السلام) told our master Lut (عليه السلام) the punishment would come at this time. :: The morning (dawn) || H: Qur'an 11:81
-The two Blessed Prophets (عليهم السلام) whose "suhuf" (scrolls) are named at the end of Surah al-A'la. :: Ibrahim and Musa (عليهما السلام) || H: Qur'an 87:19
+The tribe that settled near our lady Hajar and Isma'il ﵇, and he married from it. :: Jurhum || H: Sahih al-Bukhari, Book of the Prophets
+Our master Ibrahim ﵇ told our master Isma'il's ﵇ first wife to tell him to change this. :: The threshold of his door || H: Sahih al-Bukhari, Book of the Prophets
+The station where our master Ibrahim ﵇ stood while building. :: Maqam Ibrahim || H: Qur'an 2:125; Sahih al-Bukhari
+Our master Isma'il ﵇ is described in Surah Maryam as true to this. :: His promise || H: Qur'an 19:54
+The angels ﵈ gave our master Ibrahim ﵇ good news of a "forbearing boy", in this surah. :: Surah al-Saffat (37:101) || H: Qur'an 37:101
+Our master Lut's ﵇ people were the first to commit this, as their Blessed Prophet ﵇ said (meaning). :: An indecency no one before them had done || H: Qur'an 7:80
+The angels ﵈ told our master Lut ﵇ the punishment would come at this time. :: The morning (dawn) || H: Qur'an 11:81
+The two Blessed Prophets ﵈ whose "suhuf" (scrolls) are named at the end of Surah al-A'la. :: Ibrahim and Musa ﵉ || H: Qur'an 87:19

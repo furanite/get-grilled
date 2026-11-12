@@ -1,115 +1,115 @@
 id: isl-prophets-later
-name: Blessed Prophets (عليهم السلام): Ya'qub to 'Isa
+name: Blessed Prophets ﵈: Ya'qub to 'Isa
 nameAr: الأنبياء: من يعقوب إلى عيسى
 group: prophets
-# Every Prophet's name carries (عليه السلام). No Prophet is ever drawn or voiced.
+# Every Prophet's name carries ﵇. No Prophet is ever drawn or voiced.
 
 ## 100
-The Blessed Prophet (عليه السلام) who saw eleven stars, the sun and the moon bowing to him in a dream. :: Our master Yusuf (عليه السلام) || H: Qur'an 12:4
-The father of our master Yusuf (عليه السلام), also a Blessed Prophet (عليه السلام). :: Our master Ya'qub (عليه السلام) || H: Qur'an 12:6
-Our master Yusuf's (عليه السلام) brothers threw him into this. :: A well || H: Qur'an 12:15
-The Blessed Prophet (عليه السلام) who spoke with Allah and is called "Kalim Allah". :: Our master Musa (عليه السلام) || H: Qur'an 4:164
-The brother of our master Musa (عليه السلام) who helped him. :: Our master Harun (عليه السلام) || H: Qur'an 20:29-32
-The tyrant king who claimed to be a god in the time of our master Musa (عليه السلام). :: Fir'awn (Pharaoh) || H: Qur'an 79:24
-Our master Musa's (عليه السلام) staff turned into this. :: A snake || H: Qur'an 20:20
-Our master Musa (عليه السلام) struck the sea and it did this. :: Parted || H: Qur'an 26:63
-The Blessed Prophet (عليه السلام) given the Zabur. :: Our master Dawud (عليه السلام) || H: Qur'an 4:163
-The Blessed Prophet (عليه السلام) who understood the speech of birds and ants. :: Our master Sulayman (عليه السلام) || H: Qur'an 27:16-19
-The Blessed Prophet (عليه السلام) swallowed by a great fish. :: Our master Yunus (عليه السلام) || H: Qur'an 37:142
-The Blessed Prophet (عليه السلام) known for great patience in illness. :: Our master Ayyub (عليه السلام) || H: Qur'an 38:44
-The Blessed Prophet (عليه السلام) born without a father. :: Our master 'Isa (عليه السلام) || H: Qur'an 3:59
-The mother of our master 'Isa (عليه السلام). :: Our lady Maryam (عليها السلام) || H: Qur'an 19:16-34
-Our master 'Isa (عليه السلام) spoke as a baby in this. :: The cradle || H: Qur'an 19:29-30
-The old Blessed Prophet (عليه السلام) who prayed for a son and was given our master Yahya (عليه السلام). :: Our master Zakariyya (عليه السلام) || H: Qur'an 19:2-7
-The son of our master Zakariyya (عليه السلام). :: Our master Yahya (عليه السلام) || H: Qur'an 19:7
-The Blessed Prophet (عليه السلام) sent to Madyan, who told his people to give full measure. :: Our master Shu'ayb (عليه السلام) || H: Qur'an 11:84-85
-The bird that brought news of the Queen of Saba' to our master Sulayman (عليه السلام). :: The hoopoe (hudhud) || H: Qur'an 27:20-22
-The one who killed Jalut in battle. :: Our master Dawud (عليه السلام) || H: Qur'an 2:251
+The Blessed Prophet ﵇ who saw eleven stars, the sun and the moon bowing to him in a dream. :: Our master Yusuf ﵇ || H: Qur'an 12:4
+The father of our master Yusuf ﵇, also a Blessed Prophet ﵇. :: Our master Ya'qub ﵇ || H: Qur'an 12:6
+Our master Yusuf's ﵇ brothers threw him into this. :: A well || H: Qur'an 12:15
+The Blessed Prophet ﵇ who spoke with Allah and is called "Kalim Allah". :: Our master Musa ﵇ || H: Qur'an 4:164
+The brother of our master Musa ﵇ who helped him. :: Our master Harun ﵇ || H: Qur'an 20:29-32
+The tyrant king who claimed to be a god in the time of our master Musa ﵇. :: Fir'awn (Pharaoh) || H: Qur'an 79:24
+Our master Musa's ﵇ staff turned into this. :: A snake || H: Qur'an 20:20
+Our master Musa ﵇ struck the sea and it did this. :: Parted || H: Qur'an 26:63
+The Blessed Prophet ﵇ given the Zabur. :: Our master Dawud ﵇ || H: Qur'an 4:163
+The Blessed Prophet ﵇ who understood the speech of birds and ants. :: Our master Sulayman ﵇ || H: Qur'an 27:16-19
+The Blessed Prophet ﵇ swallowed by a great fish. :: Our master Yunus ﵇ || H: Qur'an 37:142
+The Blessed Prophet ﵇ known for great patience in illness. :: Our master Ayyub ﵇ || H: Qur'an 38:44
+The Blessed Prophet ﵇ born without a father. :: Our master 'Isa ﵇ || H: Qur'an 3:59
+The mother of our master 'Isa ﵇. :: Our lady Maryam ﵍ || H: Qur'an 19:16-34
+Our master 'Isa ﵇ spoke as a baby in this. :: The cradle || H: Qur'an 19:29-30
+The old Blessed Prophet ﵇ who prayed for a son and was given our master Yahya ﵇. :: Our master Zakariyya ﵇ || H: Qur'an 19:2-7
+The son of our master Zakariyya ﵇. :: Our master Yahya ﵇ || H: Qur'an 19:7
+The Blessed Prophet ﵇ sent to Madyan, who told his people to give full measure. :: Our master Shu'ayb ﵇ || H: Qur'an 11:84-85
+The bird that brought news of the Queen of Saba' to our master Sulayman ﵇. :: The hoopoe (hudhud) || H: Qur'an 27:20-22
+The one who killed Jalut in battle. :: Our master Dawud ﵇ || H: Qur'an 2:251
 
 ## 200
-Our master Yusuf's (عليه السلام) brothers brought back his shirt stained with this. :: False blood || H: Qur'an 12:18
-Our master Yusuf (عليه السلام) was sold for a few of these coins. :: Dirhams || H: Qur'an 12:20
-The title of the official in Egypt who bought our master Yusuf (عليه السلام). :: al-'Aziz || H: Qur'an 12:30
-Our master Yusuf (عليه السلام) chose this over doing wrong. :: Prison || H: Qur'an 12:33
-The king of Egypt in the time of our master Yusuf (عليه السلام) dreamt of seven fat cows eaten by seven of these. :: Lean cows || H: Qur'an 12:43
-Our master Yusuf (عليه السلام) asked to be put in charge of this. :: The storehouses of the land || H: Qur'an 12:55
-Our master Ya'qub (عليه السلام) regained his sight when this was cast over his face. :: Our master Yusuf's (عليه السلام) shirt || H: Qur'an 12:93-96
-Our master Musa's (عليه السلام) mother put him in a box on this river. :: The Nile (the river) || H: Qur'an 28:7; Tafsir al-Tabari
-The wife of Fir'awn who adopted our master Musa (عليه السلام) and believed, named in the reports. :: Our lady Asiyah (عليها السلام) || H: Qur'an 66:11; Sahih al-Bukhari
-Our master Musa (عليه السلام) fled to this land and worked there for years. :: Madyan || H: Qur'an 28:22-28
-Our master Musa (عليه السلام) first saw this on the mountain and went toward it. :: A fire || H: Qur'an 20:10
-Our master Musa (عليه السلام) was told to take off these in the sacred valley. :: His sandals || H: Qur'an 20:12
-The sacred valley where Allah spoke to our master Musa (عليه السلام). :: Tuwa || H: Qur'an 20:12
+Our master Yusuf's ﵇ brothers brought back his shirt stained with this. :: False blood || H: Qur'an 12:18
+Our master Yusuf ﵇ was sold for a few of these coins. :: Dirhams || H: Qur'an 12:20
+The title of the official in Egypt who bought our master Yusuf ﵇. :: al-'Aziz || H: Qur'an 12:30
+Our master Yusuf ﵇ chose this over doing wrong. :: Prison || H: Qur'an 12:33
+The king of Egypt in the time of our master Yusuf ﵇ dreamt of seven fat cows eaten by seven of these. :: Lean cows || H: Qur'an 12:43
+Our master Yusuf ﵇ asked to be put in charge of this. :: The storehouses of the land || H: Qur'an 12:55
+Our master Ya'qub ﵇ regained his sight when this was cast over his face. :: Our master Yusuf's ﵇ shirt || H: Qur'an 12:93-96
+Our master Musa's ﵇ mother put him in a box on this river. :: The Nile (the river) || H: Qur'an 28:7; Tafsir al-Tabari
+The wife of Fir'awn who adopted our master Musa ﵇ and believed, named in the reports. :: Our lady Asiyah ﵍ || H: Qur'an 66:11; Sahih al-Bukhari
+Our master Musa ﵇ fled to this land and worked there for years. :: Madyan || H: Qur'an 28:22-28
+Our master Musa ﵇ first saw this on the mountain and went toward it. :: A fire || H: Qur'an 20:10
+Our master Musa ﵇ was told to take off these in the sacred valley. :: His sandals || H: Qur'an 20:12
+The sacred valley where Allah spoke to our master Musa ﵇. :: Tuwa || H: Qur'an 20:12
 The man who made the golden calf. :: al-Samiri || H: Qur'an 20:85-88
 The food sent down to the Children of Isra'il in the desert. :: Manna and salwa || H: Qur'an 2:57
-The number of springs that gushed from the rock when our master Musa (عليه السلام) struck it. :: 12 || H: Qur'an 2:60
-The rich man of our master Musa's (عليه السلام) people who was swallowed by the earth. :: Qarun || H: Qur'an 28:76-81
-Our master Dawud (عليه السلام) was taught to make this from iron. :: Coats of mail (armour) || H: Qur'an 21:80; 34:10-11
+The number of springs that gushed from the rock when our master Musa ﵇ struck it. :: 12 || H: Qur'an 2:60
+The rich man of our master Musa's ﵇ people who was swallowed by the earth. :: Qarun || H: Qur'an 28:76-81
+Our master Dawud ﵇ was taught to make this from iron. :: Coats of mail (armour) || H: Qur'an 21:80; 34:10-11
 The Queen of Saba', named in the reports. :: Bilqis || H: Qur'an 27:23; name from Tafsir al-Tabari
-Our master Yunus (عليه السلام) prayed from the darkness, "There is no god but You, glory be to You..." (meaning), in this surah. :: Surah al-Anbiya' (21:87) || H: Qur'an 21:87
+Our master Yunus ﵇ prayed from the darkness, "There is no god but You, glory be to You..." (meaning), in this surah. :: Surah al-Anbiya' (21:87) || H: Qur'an 21:87
 
 ## 300
-The number of our master Yusuf's (عليه السلام) brothers, counted from his dream. :: 11 || H: Qur'an 12:4
-The brother of our master Yusuf (عليه السلام) kept back in Egypt, named in the reports. :: Binyamin || H: Qur'an 12:69-79; name from Tafsir al-Tabari
-Our master Yusuf (عليه السلام) had this put in his brother's bag. :: The king's drinking cup || H: Qur'an 12:70
-Our master Ya'qub (عليه السلام) said this kind of patience is best. :: Beautiful patience (sabr jamil) || H: Qur'an 12:18
-The women cut their hands when they saw our master Yusuf (عليه السلام) because they were cutting this. :: Fruit (with knives) || H: Qur'an 12:31; Tafsir al-Tabari
-The number of signs (ayat) given to our master Musa (عليه السلام), in Surah al-Isra'. :: 9 || H: Qur'an 17:101
-Besides the staff, Musa's (عليه السلام) other main sign: his hand came out like this. :: Shining white || H: Qur'an 20:22
+The number of our master Yusuf's ﵇ brothers, counted from his dream. :: 11 || H: Qur'an 12:4
+The brother of our master Yusuf ﵇ kept back in Egypt, named in the reports. :: Binyamin || H: Qur'an 12:69-79; name from Tafsir al-Tabari
+Our master Yusuf ﵇ had this put in his brother's bag. :: The king's drinking cup || H: Qur'an 12:70
+Our master Ya'qub ﵇ said this kind of patience is best. :: Beautiful patience (sabr jamil) || H: Qur'an 12:18
+The women cut their hands when they saw our master Yusuf ﵇ because they were cutting this. :: Fruit (with knives) || H: Qur'an 12:31; Tafsir al-Tabari
+The number of signs (ayat) given to our master Musa ﵇, in Surah al-Isra'. :: 9 || H: Qur'an 17:101
+Besides the staff, Musa's ﵇ other main sign: his hand came out like this. :: Shining white || H: Qur'an 20:22
 Fir'awn's minister, named in the Qur'an. :: Haman || H: Qur'an 28:6
 The believing man of Fir'awn's family who hid his faith; the surah is also named after him. :: Surah Ghafir (al-Mu'min) || H: Qur'an 40:28
-Our master Musa (عليه السلام) asked Allah to untie this from his tongue. :: A knot || H: Qur'an 20:27
-Our master Musa (عليه السلام) was given the Tawrah after this many nights on the mountain. :: 40 || H: Qur'an 7:142
+Our master Musa ﵇ asked Allah to untie this from his tongue. :: A knot || H: Qur'an 20:27
+Our master Musa ﵇ was given the Tawrah after this many nights on the mountain. :: 40 || H: Qur'an 7:142
 The people told to slaughter a cow, which gave the surah al-Baqarah its name. :: The Children of Isra'il || H: Qur'an 2:67-73
-The wise servant whom our master Musa (عليه السلام) followed to learn. :: Our master al-Khidr (عليه السلام) || H: Qur'an 18:65; Sahih al-Bukhari
-Al-Khidr (عليه السلام) made a hole in a boat, killed a boy and did this. :: Rebuilt a falling wall || H: Qur'an 18:77
-The king of the Children of Isra'il chosen by Allah, under whom our master Dawud (عليه السلام) fought. :: Talut || H: Qur'an 2:247
-Our master Sulayman (عليه السلام) was given control of this, which blew by his command. :: The wind || H: Qur'an 21:81
-The death of our master Sulayman (عليه السلام) was only found out when a creature ate this. :: His staff || H: Qur'an 34:14
-Our master Ayyub (عليه السلام) was told to strike the ground with this, and water came out. :: His foot || H: Qur'an 38:42
-Our master 'Isa (عليه السلام) made birds from clay and they flew, by this. :: By Allah's permission || H: Qur'an 3:49
-The disciples of our master 'Isa (عليه السلام) are called this in the Qur'an. :: al-Hawariyyun || H: Qur'an 3:52
+The wise servant whom our master Musa ﵇ followed to learn. :: Our master al-Khidr ﵇ || H: Qur'an 18:65; Sahih al-Bukhari
+Al-Khidr ﵇ made a hole in a boat, killed a boy and did this. :: Rebuilt a falling wall || H: Qur'an 18:77
+The king of the Children of Isra'il chosen by Allah, under whom our master Dawud ﵇ fought. :: Talut || H: Qur'an 2:247
+Our master Sulayman ﵇ was given control of this, which blew by his command. :: The wind || H: Qur'an 21:81
+The death of our master Sulayman ﵇ was only found out when a creature ate this. :: His staff || H: Qur'an 34:14
+Our master Ayyub ﵇ was told to strike the ground with this, and water came out. :: His foot || H: Qur'an 38:42
+Our master 'Isa ﵇ made birds from clay and they flew, by this. :: By Allah's permission || H: Qur'an 3:49
+The disciples of our master 'Isa ﵇ are called this in the Qur'an. :: al-Hawariyyun || H: Qur'an 3:52
 
 ## 400
-The Blessed Prophet (عليه السلام) whose people were the only ones to believe in time and be saved from punishment. :: Our master Yunus (عليه السلام) || H: Qur'an 10:98
-Our master Yunus (عليه السلام) was cast onto the shore and Allah grew this plant over him. :: A gourd plant (yaqtin) || H: Qur'an 37:146
-Our master Yunus (عليه السلام) was sent to more than this many people. :: 100,000 || H: Qur'an 37:147
-Our master Yunus (عليه السلام) is called this, "the companion of the fish" (meaning). :: Dhul-Nun (Sahib al-Hut) || H: Qur'an 21:87; 68:48
-The Blessed Prophet mentioned among the patient in Surah al-Anbiya', with Isma'il and Idris (عليهما السلام). :: Our master Dhul-Kifl (عليه السلام) || H: Qur'an 21:85
-The Blessed Prophet (عليه السلام) sent to people who worshipped the idol Ba'l. :: Our master Ilyas (عليه السلام) || H: Qur'an 37:123-125
-The Blessed Prophet named with Isma'il and Dhul-Kifl (عليهما السلام) in Surah Sad. :: Our master al-Yasa' (عليه السلام) || H: Qur'an 38:48
-Our master Dawud (عليه السلام) was judged on the case of two disputants who climbed over this. :: The wall of his prayer room (mihrab) || H: Qur'an 38:21
-Our Beloved Prophet ﷺ said the most beloved fasting to Allah was the fast of this Blessed Prophet (عليه السلام) (paraphrased). :: Our master Dawud (عليه السلام), fasting every other day || H: Sahih al-Bukhari
-Our master Dawud (عليه السلام) ate only from this, as our Beloved Prophet ﷺ said (paraphrased). :: The work of his own hands || H: Sahih al-Bukhari
-The throne of the Queen of Saba' was brought to our master Sulayman (عليه السلام) in this short time by one with knowledge of the Book. :: The blink of an eye || H: Qur'an 27:40
-The Blessed Prophet (عليه السلام) who inherited from our master Dawud (عليه السلام). :: Our master Sulayman (عليه السلام) || H: Qur'an 27:16
+The Blessed Prophet ﵇ whose people were the only ones to believe in time and be saved from punishment. :: Our master Yunus ﵇ || H: Qur'an 10:98
+Our master Yunus ﵇ was cast onto the shore and Allah grew this plant over him. :: A gourd plant (yaqtin) || H: Qur'an 37:146
+Our master Yunus ﵇ was sent to more than this many people. :: 100,000 || H: Qur'an 37:147
+Our master Yunus ﵇ is called this, "the companion of the fish" (meaning). :: Dhul-Nun (Sahib al-Hut) || H: Qur'an 21:87; 68:48
+The Blessed Prophet mentioned among the patient in Surah al-Anbiya', with Isma'il and Idris ﵉. :: Our master Dhul-Kifl ﵇ || H: Qur'an 21:85
+The Blessed Prophet ﵇ sent to people who worshipped the idol Ba'l. :: Our master Ilyas ﵇ || H: Qur'an 37:123-125
+The Blessed Prophet named with Isma'il and Dhul-Kifl ﵉ in Surah Sad. :: Our master al-Yasa' ﵇ || H: Qur'an 38:48
+Our master Dawud ﵇ was judged on the case of two disputants who climbed over this. :: The wall of his prayer room (mihrab) || H: Qur'an 38:21
+Our Beloved Prophet ﷺ said the most beloved fasting to Allah was the fast of this Blessed Prophet ﵇ (paraphrased). :: Our master Dawud ﵇, fasting every other day || H: Sahih al-Bukhari
+Our master Dawud ﵇ ate only from this, as our Beloved Prophet ﷺ said (paraphrased). :: The work of his own hands || H: Sahih al-Bukhari
+The throne of the Queen of Saba' was brought to our master Sulayman ﵇ in this short time by one with knowledge of the Book. :: The blink of an eye || H: Qur'an 27:40
+The Blessed Prophet ﵇ who inherited from our master Dawud ﵇. :: Our master Sulayman ﵇ || H: Qur'an 27:16
 The Queen of Saba' and her people worshipped this. :: The sun || H: Qur'an 27:24
-The palace floor of our master Sulayman (عليه السلام) was made of this, so it looked like water. :: Glass || H: Qur'an 27:44
-Our master Shu'ayb's (عليه السلام) people were destroyed on "the day of the shadow", in this surah (meaning). :: Surah al-Shu'ara' (26:189) || H: Qur'an 26:189
-The people of our master Shu'ayb (عليه السلام) are called this, "the people of the thicket" (meaning). :: Ashab al-Aykah || H: Qur'an 26:176
-Our master Zakariyya (عليه السلام) was given a sign of not speaking for this many days. :: 3 || H: Qur'an 3:41
-Our master Zakariyya (عليه السلام) found this with our lady Maryam (عليها السلام) whenever he entered her prayer room. :: Provision (food) || H: Qur'an 3:37
-Allah says our master 'Isa (عليه السلام) was not killed or this. :: Crucified || H: Qur'an 4:157
-The surah named after the table sent down at the request of the disciples of our master 'Isa (عليه السلام). :: Surah al-Ma'idah || H: Qur'an 5:112-115
+The palace floor of our master Sulayman ﵇ was made of this, so it looked like water. :: Glass || H: Qur'an 27:44
+Our master Shu'ayb's ﵇ people were destroyed on "the day of the shadow", in this surah (meaning). :: Surah al-Shu'ara' (26:189) || H: Qur'an 26:189
+The people of our master Shu'ayb ﵇ are called this, "the people of the thicket" (meaning). :: Ashab al-Aykah || H: Qur'an 26:176
+Our master Zakariyya ﵇ was given a sign of not speaking for this many days. :: 3 || H: Qur'an 3:41
+Our master Zakariyya ﵇ found this with our lady Maryam ﵍ whenever he entered her prayer room. :: Provision (food) || H: Qur'an 3:37
+Allah says our master 'Isa ﵇ was not killed or this. :: Crucified || H: Qur'an 4:157
+The surah named after the table sent down at the request of the disciples of our master 'Isa ﵇. :: Surah al-Ma'idah || H: Qur'an 5:112-115
 
 ## 500
-Our master Yusuf (عليه السلام) stayed in prison for "some years", the word used is this. :: Bid' sinin || H: Qur'an 12:42
-The two young men in prison with our master Yusuf (عليه السلام) dreamt of pressing grapes and of carrying this on the head. :: Bread || H: Qur'an 12:36
-Our master Yusuf (عليه السلام) raised his parents on this when they came to Egypt. :: The throne || H: Qur'an 12:100
-Our master Ya'qub (عليه السلام) is also called this name. :: Isra'il || H: Qur'an 3:93
-Our master Musa (عليه السلام) killed an Egyptian by mistake with this. :: A blow of his fist || H: Qur'an 28:15
-A man came running from the far end of the city to warn our master Musa (عليه السلام) that the chiefs were plotting to do this. :: Kill him || H: Qur'an 28:20
-Our master Musa (عليه السلام) agreed to work for eight years, or this many if he chose. :: Ten || H: Qur'an 28:27
+Our master Yusuf ﵇ stayed in prison for "some years", the word used is this. :: Bid' sinin || H: Qur'an 12:42
+The two young men in prison with our master Yusuf ﵇ dreamt of pressing grapes and of carrying this on the head. :: Bread || H: Qur'an 12:36
+Our master Yusuf ﵇ raised his parents on this when they came to Egypt. :: The throne || H: Qur'an 12:100
+Our master Ya'qub ﵇ is also called this name. :: Isra'il || H: Qur'an 3:93
+Our master Musa ﵇ killed an Egyptian by mistake with this. :: A blow of his fist || H: Qur'an 28:15
+A man came running from the far end of the city to warn our master Musa ﵇ that the chiefs were plotting to do this. :: Kill him || H: Qur'an 28:20
+Our master Musa ﵇ agreed to work for eight years, or this many if he chose. :: Ten || H: Qur'an 28:27
 The daughter in Madyan said the best to hire is one who is strong and this. :: Trustworthy || H: Qur'an 28:26
 The plagues sent on Fir'awn's people include flood, locusts, lice, frogs and this. :: Blood || H: Qur'an 7:133
 The sorcerers of Fir'awn believed and he threatened to cut off their hands and feet and do this. :: Crucify them || H: Qur'an 7:124
-The place where Musa and al-Khidr (عليهما السلام) met, "the meeting of the two seas" (meaning). :: Majma' al-Bahrayn || H: Qur'an 18:60
-Our master Musa (عليه السلام) lost this, which was the sign of where our master al-Khidr (عليه السلام) would be. :: A fish || H: Qur'an 18:61-63; Sahih al-Bukhari
-The servant who travelled with our master Musa (عليه السلام), named in the hadith. :: Our master Yusha' ibn Nun (عليه السلام) || H: Sahih al-Bukhari
+The place where Musa and al-Khidr ﵉ met, "the meeting of the two seas" (meaning). :: Majma' al-Bahrayn || H: Qur'an 18:60
+Our master Musa ﵇ lost this, which was the sign of where our master al-Khidr ﵇ would be. :: A fish || H: Qur'an 18:61-63; Sahih al-Bukhari
+The servant who travelled with our master Musa ﵇, named in the hadith. :: Our master Yusha' ibn Nun ﵇ || H: Sahih al-Bukhari
 The Children of Isra'il wandered for this many years. :: 40 || H: Qur'an 5:26
 Talut tested his army at this. :: A river || H: Qur'an 2:249
-The jinn worked for our master Sulayman (عليه السلام) making these, as large as reservoirs. :: Basins (jifan) || H: Qur'an 34:13
-Our master Sulayman (عليه السلام) was given a spring of this metal. :: Molten copper (qitr) || H: Qur'an 34:12
-Our master 'Isa (عليه السلام) gave good news of a Messenger after him named this. :: Ahmad || H: Qur'an 61:6
-Our lady Maryam (عليها السلام) was told to shake the trunk of this. :: A date palm || H: Qur'an 19:25
-The surah in which our lady Maryam (عليها السلام) is called "sister of Harun". :: Surah Maryam (19:28) || H: Qur'an 19:28
+The jinn worked for our master Sulayman ﵇ making these, as large as reservoirs. :: Basins (jifan) || H: Qur'an 34:13
+Our master Sulayman ﵇ was given a spring of this metal. :: Molten copper (qitr) || H: Qur'an 34:12
+Our master 'Isa ﵇ gave good news of a Messenger after him named this. :: Ahmad || H: Qur'an 61:6
+Our lady Maryam ﵍ was told to shake the trunk of this. :: A date palm || H: Qur'an 19:25
+The surah in which our lady Maryam ﵍ is called "sister of Harun". :: Surah Maryam (19:28) || H: Qur'an 19:28
