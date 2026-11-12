@@ -1,0 +1,66 @@
+id: isl-architecture
+name: Islamic Architecture
+nameAr: العمارة الإسلامية
+group: islamichistory
+# Picture questions: buildings and architectural elements only, drawn by scripts/make-landmarks.py.
+# Never Makkah al-Mukarramah or Madinah al-Munawwarah. Every clue stands alone.
+
+## 100
+This golden-domed shrine stands in which holy city? {img:isl-dome-of-the-rock.svg} :: Jerusalem (al-Quds) || H: UNESCO World Heritage Centre, Old City of Jerusalem and its Walls (no. 148)
+This white marble tomb with four minarets stands in which Indian city? {img:isl-taj-mahal.svg} :: Agra || H: UNESCO World Heritage Centre, Taj Mahal (no. 252)
+This tall, slender tower beside a mosque, from which the adhan was called, is named what? {img:isl-pencil-minaret.svg} :: A minaret (manarah) || H: Encyclopaedia of Islam, 2nd ed., "Manara"
+This niche in the wall of a mosque shows the direction of prayer. What is it called? {img:isl-mihrab.svg} :: Mihrab || H: Encyclopaedia of Islam, 2nd ed., "Mihrab"
+The imam gives the Friday sermon from these steps. What are they called? {img:isl-minbar.svg} :: Minbar || H: Encyclopaedia of Islam, 2nd ed., "Minbar"
+This mosque, famous for its six minarets and blue tiles inside, stands in which city? {img:isl-sultan-ahmed.svg} :: Istanbul (the Sultan Ahmed or "Blue" Mosque) || H: UNESCO World Heritage Centre, Historic Areas of Istanbul (no. 356)
+This mud-brick mosque with palm-wood sticks in its walls stands in which West African country? {img:isl-djenne.svg} :: Mali (the Great Mosque of Djenné) || H: UNESCO World Heritage Centre, Old Towns of Djenné (no. 116)
+How many minarets surround this Istanbul mosque? {img:isl-sultan-ahmed.svg} :: Six || H: UNESCO World Heritage Centre, Historic Areas of Istanbul (no. 356)
+
+## 200
+This mosque, the largest mud-brick building in the world, stands in which town in Mali? {img:isl-djenne.svg} :: Djenné || H: UNESCO World Heritage Centre, Old Towns of Djenné (no. 116)
+These red and white striped arches belong to the great mosque of which Spanish city? {img:isl-cordoba-arches.svg} :: Córdoba || H: UNESCO World Heritage Centre, Historic Centre of Cordoba (no. 313)
+This spiral minaret stands in which Iraqi city? {img:isl-malwiya.svg} :: Samarra (the Malwiya) || H: UNESCO World Heritage Centre, Samarra Archaeological City (no. 276)
+This mosque by the Atlantic has a minaret over 200 metres tall. In which Moroccan city is it? {img:isl-hassan-ii.svg} :: Casablanca (the Hassan II Mosque) || H: Encyclopaedia Britannica, "Hassan II Mosque"
+This wooden lattice screen over a window, common in old Cairo houses, is called what? {img:isl-mashrabiya.svg} :: Mashrabiya || H: Encyclopaedia of Islam, 2nd ed., "Mashrabiyya"
+This eight-pointed star of two overlapping squares marks the quarters of a hizb in many printed Mushafs. What is it called? {img:isl-eight-star.svg} :: Rub' al-Hizb || H?: Mushaf printing convention; please verify the source
+The Taj Mahal, with its four minarets, is a mosque or a tomb? {img:isl-taj-mahal.svg} :: A tomb (mausoleum) || H: UNESCO World Heritage Centre, Taj Mahal (no. 252)
+This tent-shaped mosque with four slim minarets stands in which country? {img:isl-faisal.svg} :: Pakistan (the Faisal Mosque, Islamabad) || H: Encyclopaedia Britannica, "Faisal Mosque"
+The Hassan II Mosque in Casablanca stands on the shore of which ocean? {img:isl-hassan-ii.svg} :: The Atlantic Ocean || H: Encyclopaedia Britannica, "Hassan II Mosque"
+
+## 300
+This tall brick minaret, built in 521 AH / 1127 CE, stands in which Uzbek city? {img:isl-kalyan.svg} :: Bukhara (the Kalyan Minaret) || H: UNESCO World Heritage Centre, Historic Centre of Bukhara (no. 602)
+This fluted red sandstone tower, begun around 596 AH / 1200 CE, stands in which city? {img:isl-qutb-minar.svg} :: Delhi (the Qutb Minar) || H: UNESCO World Heritage Centre, Qutb Minar and its Monuments, Delhi (no. 233)
+Three great madrasas face this square. In which city is it? {img:isl-registan.svg} :: Samarkand (the Registan) || H: UNESCO World Heritage Centre, Samarkand, Crossroad of Cultures (no. 603)
+This arch, wider above than where it springs, is typical of al-Andalus and the Maghrib. What is it called? {img:isl-horseshoe-arch.svg} :: A horseshoe arch || H: Encyclopaedia Britannica, "horseshoe arch"
+This honeycomb vaulting, built of tiers of small niches, is called what? {img:isl-muqarnas.svg} :: Muqarnas || H: Encyclopaedia of Islam, 2nd ed., "Mukarnas"
+This vaulted hall, walled on three sides and open on the fourth, is called what? {img:isl-iwan.svg} :: An iwan || H: Encyclopaedia of Islam, 2nd ed., "Iwan"
+This mosque, whose minaret has a stair winding round the outside, stands in which city? {img:isl-ibn-tulun.svg} :: Cairo (the Mosque of Ibn Tulun) || H: UNESCO World Heritage Centre, Historic Cairo (no. 89)
+This mosque and seat of learning with green-tiled roofs stands in which Moroccan city? {img:isl-qarawiyyin.svg} :: Fez (al-Qarawiyyin) || H: UNESCO World Heritage Centre, Medina of Fez (no. 170)
+This mosque with a turquoise dome on a great square stands in which Iranian city? {img:isl-shah-isfahan.svg} :: Isfahan || H: UNESCO World Heritage Centre, Meidan Emam, Esfahan (no. 115)
+This great mosque with a long prayer hall and square minarets stands in which Syrian city? {img:isl-umayyad-damascus.svg} :: Damascus (the Umayyad Mosque) || H: UNESCO World Heritage Centre, Ancient City of Damascus (no. 20)
+
+## 400
+The Great Mosque of this Tunisian city has one of the oldest surviving minarets, built in three square tiers. {img:isl-kairouan.svg} :: Kairouan || H: UNESCO World Heritage Centre, Kairouan (no. 499)
+This tent-shaped mosque with four slim minarets stands in which capital city? {img:isl-faisal.svg} :: Islamabad (the Faisal Mosque) || H: Encyclopaedia Britannica, "Faisal Mosque"
+This Mughal mosque of red sandstone with three white marble domes, completed in 1084 AH / 1673 CE, is in which city? {img:isl-badshahi.svg} :: Lahore (the Badshahi Mosque) || H: Encyclopaedia Britannica, "Badshahi Mosque"
+Old mosques on this island, like the Great Mosque of Demak, have stacked pyramid roofs instead of a dome. Which island? {img:isl-demak.svg} :: Java || H: Encyclopaedia of Islam, 2nd ed., "Masdjid" (Indonesia)
+A garden divided into four by water channels, as at the Taj Mahal, is called what in Persian? {img:isl-chahar-bagh.svg} :: Chahar bagh (charbagh) || H: Encyclopaedia Iranica, "Čahārbāḡ"
+Bands of dark and light stone laid in turn, as in Mamluk Cairo and Damascus, are called what? {img:isl-ablaq.svg} :: Ablaq || H: Encyclopaedia of Islam, 2nd ed., "Ablak"
+This ribbed turquoise dome in Samarkand crowns the tomb of which conqueror? {img:isl-gur-e-amir.svg} :: Timur (the Gur-e Amir) || H: UNESCO World Heritage Centre, Samarkand, Crossroad of Cultures (no. 603)
+This mosque in Edirne, with one great dome and four tall minarets, was designed by which Ottoman architect? {img:isl-selimiye.svg} :: Mimar Sinan (the Selimiye Mosque) || H: UNESCO World Heritage Centre, Selimiye Mosque and its Social Complex (no. 1366)
+The Kalyan Minaret in Bukhara was built under which Turkic dynasty? {img:isl-kalyan.svg} :: The Qarakhanids || H: UNESCO World Heritage Centre, Historic Centre of Bukhara (no. 602)
+Which Timurid ruler, also a famous astronomer, built the oldest madrasa on this square in 820-823 AH / 1417-1420 CE? {img:isl-registan.svg} :: Ulugh Beg || H: UNESCO World Heritage Centre, Samarkand, Crossroad of Cultures (no. 603)
+
+## 500
+This shrine in Jerusalem was completed in 72 AH / 691-692 CE under which Umayyad caliph? {img:isl-dome-of-the-rock.svg} :: 'Abd al-Malik ibn Marwan || H: dedicatory inscription dated 72 AH; Encyclopaedia Britannica, "Dome of the Rock"
+The Taj Mahal was built by which Mughal emperor in memory of his wife? {img:isl-taj-mahal.svg} :: Shah Jahan (for Mumtaz Mahal) || H: UNESCO World Heritage Centre, Taj Mahal (no. 252)
+The spiral minaret of Samarra belongs to a great mosque built under which Abbasid caliph? {img:isl-malwiya.svg} :: Al-Mutawakkil || H: UNESCO World Heritage Centre, Samarra Archaeological City (no. 276)
+The Great Mosque of Córdoba was begun in 169 AH / 785 CE by which Umayyad emir? {img:isl-cordoba-arches.svg} :: 'Abd al-Rahman I (al-Dakhil) || H: UNESCO World Heritage Centre, Historic Centre of Cordoba (no. 313)
+The Sultan Ahmed Mosque in Istanbul, built 1018-1025 AH / 1609-1616 CE, was designed by which architect? {img:isl-sultan-ahmed.svg} :: Sedefkar Mehmed Agha || H: Encyclopaedia Britannica, "Blue Mosque"
+The palm-wood sticks poking out of the walls of the Great Mosque of Djenné, used when the walls are re-plastered, are called what? {img:isl-djenne.svg} :: Toron || H?: Encyclopaedia Britannica, "Great Mosque of Djenné"; please verify the term
+This Cairo mosque, finished in 265 AH / 879 CE, is named after the founder of which dynasty? {img:isl-ibn-tulun.svg} :: The Tulunids (Ahmad ibn Tulun) || H: Encyclopaedia Britannica, "Mosque of Ibn Tulun"
+Al-Qarawiyyin in Fez was founded in 245 AH / 859 CE by which woman? {img:isl-qarawiyyin.svg} :: Fatima al-Fihri (رحمة الله عليها) || H: Encyclopaedia Britannica, "al-Qarawiyyin"
+The Persian word bagh in chahar bagh means what? {img:isl-chahar-bagh.svg} :: Garden || H: Encyclopaedia Iranica, "Čahārbāḡ"
+Halls of muqarnas vaulting like this cover the palace of which city's Alhambra? {img:isl-muqarnas.svg} :: Granada || H: UNESCO World Heritage Centre, Alhambra, Generalife and Albayzín, Granada (no. 314)
+The Great Mosque of Damascus was built from 87 AH / 706 CE under which Umayyad caliph? {img:isl-umayyad-damascus.svg} :: Al-Walid I (ibn 'Abd al-Malik) || H: Encyclopaedia Britannica, "Great Mosque of Damascus"
+This Edirne mosque, finished in 982 AH / 1574-75 CE, was built for which Ottoman sultan? {img:isl-selimiye.svg} :: Selim II || H: UNESCO World Heritage Centre, Selimiye Mosque and its Social Complex (no. 1366)
+The Faisal Mosque in Islamabad was designed by an architect from which country? {img:isl-faisal.svg} :: Turkey (Vedat Dalokay) || H: Encyclopaedia Britannica, "Faisal Mosque"

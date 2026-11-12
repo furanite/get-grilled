@@ -17,6 +17,11 @@ This file is rewritten by `npm run packs`.
 - **400**, line 123: The book by Ibn Abi al-Dunya رحمة الله عليه on the faults of the tongue. **Answer:** Dhamm al-Ghibah wal-Namimah _(Source: Title to be checked)_
 - **500**, line 140: Our Beloved Prophet ﷺ said the people most beloved to Allah are those most this to people (paraphrased). **Answer:** Beneficial _(Source: al-Mu'jam al-Awsat (al-Tabarani); grade to be checked)_
 
+## Islamic Architecture (questions/isl-architecture.txt)
+
+- **200**, line 24: This eight-pointed star of two overlapping squares marks the quarters of a hizb in many printed Mushafs. What is it called? **Answer:** Rub' al-Hizb _(Source: Mushaf printing convention; please verify the source)_
+- **500**, line 59: The palm-wood sticks poking out of the walls of the Great Mosque of Djenné, used when the walls are re-plastered, are called what? **Answer:** Toron _(Source: Encyclopaedia Britannica, "Great Mosque of Djenné"; please verify the term)_
+
 ## Balagha (rhetoric) (questions/isl-balagha.txt)
 
 - **300**, line 59: The book of al-Sakkaki رحمة الله عليه whose third part set out balagha in its classic form. **Answer:** Miftah al-'Ulum _(Source: Miftah al-'Ulum; check al-Sakkaki's creed before adding an honorific)_

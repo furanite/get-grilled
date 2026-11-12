@@ -100,7 +100,9 @@ describe('built-in question files', () => {
       const r = parsePack(readFileSync(join(dir, f), 'utf8'), f)
       expect(r.errors).toEqual([])
       // University packs hold at least 100 per level (plus a few picture questions); the religious packs are smaller, checked pools.
-      if (RESPECT_GROUPS.includes(groupOf(f))) r.levels.forEach((l: unknown[]) => expect(l.length).toBeGreaterThanOrEqual(15))
+      // Picture-only packs depend on drawings, so they are smaller still.
+      const allPictures = r.levels.every((l: { img?: string }[]) => l.every((q) => q.img))
+      if (RESPECT_GROUPS.includes(groupOf(f))) r.levels.forEach((l: unknown[]) => expect(l.length).toBeGreaterThanOrEqual(allPictures ? 8 : 15))
       else r.levels.forEach((l: unknown[]) => expect(l.length).toBeGreaterThanOrEqual(100))
       for (const l of r.levels) for (const q of l as { img?: string }[]) if (q.img) expect(existsSync(join(dir, 'img', q.img.replace('packs/img/', ''))), q.img).toBe(true)
       const arPath = join(dir, 'ar', f)
