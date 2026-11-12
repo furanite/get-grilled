@@ -519,6 +519,10 @@ try {
     const page = await newPage()
     await page.goto(URL)
     await page.getByRole('button', { name: /new game/i }).click()
+    // The list starts folded away and opens from its heading
+    await page.waitForSelector('[data-testid="nights"]')
+    assert(!(await page.isVisible('[data-night="eng-vs-cces"]')), 'nights list starts closed')
+    await page.click('[data-testid="nights"] summary')
     await page.waitForSelector('[data-night="eng-vs-cces"]')
     await page.screenshot({ path: `${SHOTS}/nights.png` })
     await page.click('[data-night="eng-vs-cces"]')
