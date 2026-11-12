@@ -620,7 +620,8 @@ const CAT_ICON: Record<string, string> = {
 
 /** A line icon for a category or group, or '' if it has none. */
 export function catIconSvg(id: string): string {
-  const p = CAT_ICON[id]
+  // Only the fixed icons: a custom category's id (any text) must never reach the markup.
+  const p = Object.prototype.hasOwnProperty.call(CAT_ICON, id) ? CAT_ICON[id] : ''
   if (!p) return ''
   return `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${p}"/></svg>`
 }

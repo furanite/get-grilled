@@ -116,20 +116,42 @@ export default function Home({ t, lang, theme, setTheme, hasGame, onNew, onResum
   )
 }
 
-/** Says where Maghrib is reckoned from, and lets the player share an exact location (kept only on this device). */
+/**
+ * Says where Maghrib is reckoned from, and lets the player share their location.
+ * The browser is only asked after the player has read what the location is for and tapped Share;
+ * the place is rounded and kept only on this device (see lib/place.ts).
+ */
 function MaghribPlace({ t, onChange }: { t: Strings; onChange: () => void }) {
   const place = currentPlace()
   const [note, setNote] = useState('')
+  const [asking, setAsking] = useState(false)
   const where = place.exact ? t.maghribExact : place.label === 'your time zone' ? t.maghribZone : `${place.label} (${t.maghribZone})`
+  const share = async () => {
+    setAsking(false)
+    const ok = await requestExactPlace()
+    setNote(ok ? '' : t.locationFailed)
+    onChange()
+  }
   return (
-    <p className="maghrib-place" data-testid="maghrib-place">
-      {t.maghribFor} <b>{where}</b>.{' '}
-      {place.exact ? (
-        <button type="button" className="linkish" onClick={() => { clearPlace(); setNote(''); onChange() }}>{t.useZone}</button>
-      ) : (
-        <button type="button" className="linkish" data-testid="use-location" onClick={async () => { const ok = await requestExactPlace(); setNote(ok ? '' : t.locationFailed); onChange() }}>{t.useLocation}</button>
+    <div className="maghrib-place" data-testid="maghrib-place">
+      <p style={{ margin: 0 }}>
+        {t.maghribFor} <b>{where}</b>.{' '}
+        {place.exact ? (
+          <button type="button" className="linkish" onClick={() => { clearPlace(); setNote(''); onChange() }} data-testid="forget-location">{t.useZone}</button>
+        ) : !asking && (
+          <button type="button" className="linkish" data-testid="use-location" onClick={() => { setNote(''); setAsking(true) }}>{t.useLocation}</button>
+        )}
+        {note && <span className="maghrib-note"> {note}</span>}
+      </p>
+      {asking && !place.exact && (
+        <div className="maghrib-ask" role="group" aria-label={t.useLocation} data-testid="location-ask">
+          <p style={{ margin: 0 }}>{t.locationAsk}</p>
+          <div className="row">
+            <button type="button" className="btn" onClick={share} data-testid="location-allow">{t.locationAllow}</button>
+            <button type="button" className="ghost" onClick={() => setAsking(false)}>{t.locationCancel}</button>
+          </div>
+        </div>
       )}
-      {note && <span className="maghrib-note"> {note}</span>}
-    </p>
+    </div>
   )
 }

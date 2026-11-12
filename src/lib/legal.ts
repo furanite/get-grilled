@@ -12,7 +12,7 @@ export const LEGAL = {
   effectiveAr: '11 نوفمبر 2026',
   year: 2026,
   /** Change this whenever the Terms or Privacy Notice change: everyone is asked to accept again. */
-  termsVersion: '1.1',
+  termsVersion: '1.2',
 }
 
 export interface Clause {
@@ -106,9 +106,12 @@ const privacyEn: LegalDoc = {
   meta: `Version ${LEGAL.termsVersion} · Effective ${LEGAL.effective}`,
   clauses: [
     { title: 'What we collect.', body: [`Nothing. ${APP} has no accounts and doesn't send your games, team names, scores, or categories to us.`] },
-    { title: 'What is stored on your device.', body: ["Your settings, your categories, your saved game, and the date you accepted the Terms are stored in your browser's local storage. They stay on your device until you clear them. Avoid putting personal information, such as student ID numbers or phone numbers, in team names or questions."] },
+    { title: 'What is stored on your device.', body: ["Your settings, your categories, your saved game, and the date you accepted the Terms are stored in your browser's local storage. If you choose to, your rounded location and your scholar review (both described below) are stored there too. They stay on your device until you clear them. Avoid putting personal information, such as student ID numbers or phone numbers, in team names or questions."] },
+    { title: 'Your location.', body: ['Some themes open and close at Maghrib. By default the Game works Maghrib out from your device\'s time zone and never asks where you are.', 'If you tap "Use my location" and then "Share my location", your browser asks your permission and the Game reads your position once. It is rounded to about 10 km, kept only in this browser, and used only to work out sunset for the timed themes. It is never sent to us, to the host, or to anyone else, and it is never shown on the audience screen.', 'You can remove it at any time with "Forget my location and use my time zone", by clearing this site\'s data, or by withdrawing the location permission in your browser settings. Saying no changes nothing except that your time zone is used.'] },
+    { title: 'Scholar review.', body: ['If you use the Scholar review page, the name and title you type, your verdicts and your notes are kept in this browser until you download them as a file. Nothing is sent automatically.', "If you choose to send that file to the owner, your name, title, verdicts and notes are added to the Game's public review page and its public source code, so others can see who checked each line. Send the file only if you agree to this. To have your review corrected or removed, tell the person who gave you the review link."] },
+    { title: 'Children.', body: ['The Kids collection is meant to be played with a parent, teacher or host. The Game collects nothing from children. Hosts should use team names rather than children\'s full names.'] },
     { title: 'Third parties.', body: ["The website that hosts the Game may log basic technical information, such as your IP address, under its own privacy policy. The Game's fonts are served by the Game itself, so no font service receives your details."] },
-    { title: 'Your rights.', body: [`You can delete everything at any time by clearing this site's data in your browser.`] },
+    { title: 'Your rights.', body: ["Under Saudi Arabia's Personal Data Protection Law you have the right to know how your personal data is used, to access it, to correct it, to have it deleted, and to withdraw your consent. Because the Game keeps your data only on your device, you can do all of this yourself: you can see and change it in the Game, and you can delete everything at any time by clearing this site's data in your browser."] },
     { title: 'Changes.', body: ['If we start collecting any information, for example for online leaderboards, we will update this notice and ask you to accept it before anything is collected.'] },
   ],
 }
@@ -118,9 +121,12 @@ const privacyAr: LegalDoc = {
   meta: `الإصدار ${LEGAL.termsVersion} · يسري اعتبارًا من ${LEGAL.effectiveAr}`,
   clauses: [
     { title: 'ما الذي نجمعه.', body: [`لا شيء. لا توجد في ${APPA} حسابات، ولا ترسل اللعبة إلينا ألعابك أو أسماء فرقك أو نقاطك أو فئاتك.`] },
-    { title: 'ما الذي يُحفظ على جهازك.', body: ['تُحفظ إعداداتك وفئاتك ولعبتك المحفوظة وتاريخ موافقتك على الشروط في التخزين المحلي لمتصفحك، وتبقى على جهازك حتى تمسحها. تجنّب وضع معلومات شخصية، مثل الأرقام الجامعية أو أرقام الهواتف، في أسماء الفرق أو الأسئلة.'] },
+    { title: 'ما الذي يُحفظ على جهازك.', body: ['تُحفظ إعداداتك وفئاتك ولعبتك المحفوظة وتاريخ موافقتك على الشروط في التخزين المحلي لمتصفحك. وإن اخترت ذلك، يُحفظ فيه أيضًا موقعك المقرَّب ومراجعتك العلمية (وكلاهما مشروح أدناه). وتبقى على جهازك حتى تمسحها. تجنّب وضع معلومات شخصية، مثل الأرقام الجامعية أو أرقام الهواتف، في أسماء الفرق أو الأسئلة.'] },
+    { title: 'موقعك.', body: ['تُفتح بعض المظاهر وتُغلق عند المغرب. وتحسب اللعبة وقت المغرب افتراضيًا من المنطقة الزمنية لجهازك، ولا تسألك عن مكانك أبدًا.', 'إذا ضغطت «استخدم موقعي» ثم «شارك موقعي»، يطلب متصفحك إذنك وتقرأ اللعبة موقعك مرة واحدة. ويُقرَّب إلى نحو ١٠ كم، ويُحفظ في هذا المتصفح فقط، ولا يُستخدم إلا لحساب وقت الغروب للمظاهر المؤقتة. ولا يُرسل أبدًا إلينا ولا إلى مقدّم اللعبة ولا إلى أي جهة، ولا يظهر على شاشة الجمهور.', 'يمكنك حذفه في أي وقت بالضغط على «احذف موقعي واستخدم منطقتي الزمنية»، أو بمسح بيانات هذا الموقع، أو بسحب إذن الموقع من إعدادات متصفحك. ورفضك لا يغيّر شيئًا سوى أن منطقتك الزمنية هي التي تُستخدم.'] },
+    { title: 'مراجعة العلماء.', body: ['إذا استخدمت صفحة مراجعة العلماء، فإن الاسم واللقب اللذين تكتبهما وأحكامك وملاحظاتك تُحفظ في هذا المتصفح حتى تنزّلها في ملف. ولا يُرسل شيء تلقائيًا.', 'إذا اخترت إرسال هذا الملف إلى صاحب التطبيق، فإن اسمك ولقبك وأحكامك وملاحظاتك تُضاف إلى صفحة المراجعة العامة في اللعبة وإلى شيفرتها المصدرية العامة، ليعرف الناس من راجع كل سطر. فلا ترسل الملف إلا إذا وافقت على ذلك. ولتصحيح مراجعتك أو حذفها، أخبر الشخص الذي أعطاك رابط المراجعة.'] },
+    { title: 'الأطفال.', body: ['مجموعة الأطفال معدّة ليلعبها الأطفال مع أحد الوالدين أو معلّم أو مقدّم. ولا تجمع اللعبة أي شيء من الأطفال. وينبغي للمقدّمين استخدام أسماء للفرق بدلًا من الأسماء الكاملة للأطفال.'] },
     { title: 'الأطراف الأخرى.', body: ['قد يسجّل الموقع الذي يستضيف اللعبة معلومات تقنية أساسية، مثل عنوان IP الخاص بك، وفق سياسة الخصوصية الخاصة به. وتقدّم اللعبة خطوطها بنفسها، فلا تتلقى أي خدمة خطوط بياناتك.'] },
-    { title: 'حقوقك.', body: [`يمكنك حذف كل شيء في أي وقت بمسح بيانات هذا الموقع من متصفحك.`] },
+    { title: 'حقوقك.', body: ['بموجب نظام حماية البيانات الشخصية في المملكة العربية السعودية، لك الحق في معرفة كيفية استخدام بياناتك الشخصية، والوصول إليها، وتصحيحها، وحذفها، والرجوع عن موافقتك. ولأن اللعبة تحفظ بياناتك على جهازك فقط، فبإمكانك فعل ذلك كله بنفسك: تراها وتعدّلها في اللعبة، وتحذف كل شيء في أي وقت بمسح بيانات هذا الموقع من متصفحك.'] },
     { title: 'التعديلات.', body: ['إن بدأنا جمع أي معلومات، مثل لوحات الصدارة عبر الإنترنت، فسنحدّث هذا الإشعار ونطلب موافقتك عليه قبل جمع أي شيء.'] },
   ],
 }

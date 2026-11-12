@@ -517,6 +517,7 @@ textarea.input{resize:vertical;min-height:44px}
 .review-notes textarea{resize:vertical}
 .maghrib-place{margin:.25rem 0 0;font-size:.85rem;opacity:.85;line-height:1.5}
 .maghrib-note{opacity:.8}
+.maghrib-ask{display:grid;gap:.5rem;margin-top:.5rem;padding:.6rem .75rem;border:1px solid color-mix(in srgb,currentColor 25%,transparent);border-radius:10px}
 /* ---------- Prayer-time and Muslim-culture themes: colours, tiles and backgrounds ---------- */
 :root[data-theme="fajr"]{--bg:#120f2e;--bg2:#2b1f55;--tile-a:#3a2a6e;--tile-b:#1d1840;--edge:#ffc9a8;--accent:#ffc9a8;--accent2:#e98aa0;--text:#fff6f0;--muted:#c9bfe0;--glow:rgba(255,201,168,.45);--fd:'GG Salawat','El Messiri','IBM Plex Sans Arabic',Georgia,serif;--fb:'GG Salawat','IBM Plex Sans Arabic',system-ui,sans-serif;--r:14px;--track:.03em}
 :root[data-theme="fajr"] body{background-image:radial-gradient(80% 60% at 50% 0%,#2b1f55,transparent 75%),var(--girih,none)}

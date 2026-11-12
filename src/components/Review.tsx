@@ -35,6 +35,7 @@ const TEXT = {
     title: 'Scholar review',
     intro: "For 'ulama and qualified teachers: check each question and its answer for correctness (creed, fiqh, hadith grading, facts and sources) and for adab (respect for Allah, the Blessed Prophets (عليهم السلام), our Beloved Prophet ﷺ, the Companions (رِضْوَانُ اللَّهِ عَلَيْهِم) and the scholars).",
     how: 'Your answers are kept in this browser only. When you finish, download your review and send the file to the app owner. Any line you flag is taken out of the game until it is corrected.',
+    public: 'Please note: once the owner adds your file, the name and title you enter here, your verdicts and your notes are shown on this public review page next to each question. Use only the name you are happy to have shown, and do not put anyone\'s personal details in your notes.',
     name: 'Your name and title',
     namePh: 'e.g. Shaykh Ahmad, teacher of fiqh',
     category: 'Category',
@@ -62,11 +63,13 @@ const TEXT = {
     clear: 'Clear',
     imported: (n: number) => `Loaded ${n} verdicts.`,
     bad: 'That file is not a review file.',
+    big: 'That file is too big to be a review file (over 2 MB).',
   },
   ar: {
     title: 'مراجعة العلماء',
     intro: 'للعلماء والمدرّسين المؤهلين: راجعوا كل سؤال وجوابه من حيث الصحة (العقيدة والفقه ودرجة الحديث والوقائع والمصادر) ومن حيث الأدب (مع الله تعالى، والأنبياء الكرام عليهم السلام، وحبيبنا المصطفى ﷺ، والصحابة رِضْوَانُ اللَّهِ عَلَيْهِم، والعلماء).',
     how: 'تُحفظ إجاباتك في هذا المتصفح فقط. عند الانتهاء نزّل ملف المراجعة وأرسله إلى صاحب التطبيق. كل سطر تعلّم عليه يُرفع من اللعبة حتى يُصحَّح.',
+    public: 'تنبيه: بعد أن يضيف صاحب التطبيق ملفك، يظهر الاسم واللقب اللذان تكتبهما هنا، مع أحكامك وملاحظاتك، في صفحة المراجعة العامة بجانب كل سؤال. اكتب الاسم الذي ترضى بظهوره فقط، ولا تضع بيانات شخصية لأحد في ملاحظاتك.',
     name: 'اسمك ولقبك',
     namePh: 'مثال: الشيخ أحمد، مدرّس الفقه',
     category: 'الفئة',
@@ -94,6 +97,7 @@ const TEXT = {
     clear: 'مسح',
     imported: (n: number) => `حُمّلت ${n} مراجعة.`,
     bad: 'هذا ليس ملف مراجعة.',
+    big: 'هذا الملف أكبر من أن يكون ملف مراجعة (أكثر من ٢ ميغابايت).',
   },
 }
 
@@ -156,6 +160,7 @@ export default function Review({ lang, notify, onBack }: { lang: Lang; notify: (
     setTimeout(() => URL.revokeObjectURL(a.href), 2000)
   }
   const importFile = async (f: File) => {
+    if (f.size > 2_000_000) { notify(t.big); return }
     try {
       const data = JSON.parse(await f.text())
       if (!data || typeof data.verdicts !== 'object') throw new Error('bad')
@@ -163,9 +168,9 @@ export default function Review({ lang, notify, onBack }: { lang: Lang; notify: (
       for (const [id, v] of Object.entries(data.verdicts as Record<string, Verdict>)) {
         if (!/^[0-9a-f]{8}$/.test(id) || !v || typeof v !== 'object') continue
         const m = (x: unknown) => (x === 'ok' || x === 'issue' ? x : undefined)
-        verdicts[id] = { correct: m(v.correct), adab: m(v.adab), note: v.note ? String(v.note).slice(0, 1000) : undefined, fix: v.fix ? String(v.fix).slice(0, 400) : undefined, at: v.at ? String(v.at) : undefined }
+        verdicts[id] = { correct: m(v.correct), adab: m(v.adab), note: v.note ? String(v.note).slice(0, 1000) : undefined, fix: v.fix ? String(v.fix).slice(0, 400) : undefined, at: v.at ? String(v.at).slice(0, 40) : undefined }
       }
-      setSaved((s) => ({ reviewer: s.reviewer || String(data.reviewer ?? ''), verdicts: { ...s.verdicts, ...verdicts } }))
+      setSaved((s) => ({ reviewer: s.reviewer || String(data.reviewer ?? '').slice(0, 80), verdicts: { ...s.verdicts, ...verdicts } }))
       notify(t.imported(Object.keys(verdicts).length))
     } catch {
       notify(t.bad)
@@ -181,6 +186,7 @@ export default function Review({ lang, notify, onBack }: { lang: Lang; notify: (
         </div>
         <p>{t.intro}</p>
         <p className="muted">{t.how}</p>
+        <p className="muted" data-testid="review-public">{t.public}</p>
         <label className="review-field">
           <span className="label">{t.name}</span>
           <input className="input" value={saved.reviewer} maxLength={80} placeholder={t.namePh} onChange={(e) => setSaved((s) => ({ ...s, reviewer: e.target.value }))} data-testid="review-name" />

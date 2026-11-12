@@ -20,7 +20,7 @@ function assert(c, msg) { if (!c) throw new Error(msg) }
 const browser = await chromium.launch()
 async function hostPage() {
   const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 } })
-  await ctx.addInitScript(() => localStorage.setItem('gg.consent.v1', JSON.stringify({ version: '1.1', date: '2026-11-10T00:00:00Z' })))
+  await ctx.addInitScript(() => localStorage.setItem('gg.consent.v1', JSON.stringify({ version: '1.2', date: '2026-11-11T00:00:00Z' })))
   const page = await ctx.newPage()
   page.errors = []
   page.on('pageerror', (e) => page.errors.push(e.message))

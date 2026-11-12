@@ -61,7 +61,11 @@ export function currentPlace(): Place {
     const raw = localStorage.getItem(KEY)
     if (raw) {
       const p = JSON.parse(raw)
-      if (Number.isFinite(p.lat) && Number.isFinite(p.lon)) return { lat: p.lat, lon: p.lon, label: 'your location', exact: true }
+      // Older copies kept two decimals: read them back coarse, and re-save so the finer value is gone.
+      if (Number.isFinite(p?.lat) && Number.isFinite(p?.lon) && Math.abs(p.lat) <= 90 && Math.abs(p.lon) <= 180) {
+        if (coarse(p.lat) !== p.lat || coarse(p.lon) !== p.lon) savePlace(p.lat, p.lon)
+        return { lat: coarse(p.lat), lon: coarse(p.lon), label: 'your location', exact: true }
+      }
     }
   } catch { /* storage blocked: fall through */ }
   const zone = ZONES[deviceZone()]
@@ -71,22 +75,33 @@ export function currentPlace(): Place {
   return { lat: 25, lon: off * 15, label: 'your time zone', exact: false }
 }
 
+/**
+ * Coordinates are rounded to 0.1 degree (about 11 km) before they are kept: plenty for a sunset time
+ * (well under a minute off), but too coarse to point at a home or a building.
+ * The place is never sent anywhere: it stays in this browser's storage until the player removes it.
+ */
+export const coarse = (x: number) => Math.round(x * 10) / 10
+
 export function savePlace(lat: number, lon: number) {
-  try { localStorage.setItem(KEY, JSON.stringify({ lat: Math.round(lat * 100) / 100, lon: Math.round(lon * 100) / 100 })) } catch { /* ignore */ }
+  if (!Number.isFinite(lat) || !Number.isFinite(lon) || Math.abs(lat) > 90 || Math.abs(lon) > 180) return
+  try { localStorage.setItem(KEY, JSON.stringify({ lat: coarse(lat), lon: coarse(lon) })) } catch { /* ignore */ }
 }
 
 export function clearPlace() {
   try { localStorage.removeItem(KEY) } catch { /* ignore */ }
 }
 
-/** Ask the browser for the device's location once (only when the player taps the button). */
+/**
+ * Ask the browser for the device's location once, only after the player has read what it is for and agreed.
+ * Low accuracy is enough (no GPS needed), and the browser's own permission prompt still applies.
+ */
 export function requestExactPlace(): Promise<boolean> {
   return new Promise((resolve) => {
     if (!('geolocation' in navigator)) return resolve(false)
     navigator.geolocation.getCurrentPosition(
       (pos) => { savePlace(pos.coords.latitude, pos.coords.longitude); resolve(true) },
       () => resolve(false),
-      { maximumAge: 7 * 86400_000, timeout: 15000 },
+      { enableHighAccuracy: false, maximumAge: 7 * 86400_000, timeout: 15000 },
     )
   })
 }

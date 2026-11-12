@@ -11,6 +11,8 @@ for (const f of ICON_FILES) cpSync(`${dist}/${f}`, `${out}/${f}`)
 const html = readFileSync(`${dist}/index.html`, 'utf8')
 const head = /<head>([\s\S]*?)<\/head>/.exec(html)[1]
   .split('\n').map((l) => l.trim()).filter((l) => l && !l.startsWith('<meta charset') && !l.startsWith('<meta name="viewport"'))
+  // The Artifact host wraps the page and sets its own policy, so the site's CSP tag (which would block the host's scripts) stays out.
+  .filter((l) => !l.startsWith('<meta http-equiv="Content-Security-Policy"'))
 const page = [head[head.findIndex((l) => l.startsWith('<title'))], '<meta name="claude:viewport-fit-sides" content="cover">', ...head.filter((l) => !l.startsWith('<title')), '<div id="root"></div>'].join('\n')
 writeFileSync(`${out}/index.html`, page + '\n')
 console.log(page)
