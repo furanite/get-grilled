@@ -1,0 +1,514 @@
+id: materials
+name: Materials Science
+nameAr: علوم المواد
+group: engineering
+
+## 100
+The four main classes of engineering materials. :: Metals, ceramics, polymers and composites
+Iron mixed with a small amount of carbon. :: Steel
+Steel that resists rusting because it contains chromium. :: Stainless steel
+The minimum chromium content of stainless steel, roughly. :: About 10.5%
+The reddish-brown flakes that form when iron reacts with oxygen and water. :: Rust
+The chemical name for rust. :: Iron oxide
+Copper mixed with zinc. :: Brass
+Copper mixed with tin. :: Bronze
+The age that came after the Stone Age. :: Bronze Age
+The light, silvery metal used in drink cans. :: Aluminium
+The metal with the chemical symbol Fe. :: Iron
+The metal with the chemical symbol Cu. :: Copper
+The metal with the chemical symbol Ti, used in jet engines and hip implants. :: Titanium
+The lightest structural metal, used in some car wheels and laptop cases. :: Magnesium
+The metal with the highest melting point, used in old light bulb filaments. :: Tungsten
+The coating of zinc put on steel to stop rust. :: Galvanising
+The word for a material's slow destruction by chemical reaction with its surroundings. :: Corrosion
+A material made of two or more different materials combined. :: Composite
+The natural composite made of cellulose fibres in lignin. :: Wood
+The composite of glass fibres in a plastic resin. :: Fibreglass (GFRP)
+The very stiff, strong, light fibre used in racing bikes and aircraft. :: Carbon fibre
+The bulletproof aramid fibre invented by Stephanie Kwolek. :: Kevlar
+The common name for long-chain molecules made of repeating units. :: Polymers
+The small repeating unit that links up to make a polymer. :: Monomer
+The everyday name for most synthetic polymers. :: Plastics
+The plastic used in most drink bottles, with the code 1. :: PET (polyethylene terephthalate)
+The most widely produced plastic in the world, used in bags. :: Polyethylene
+The plastic used for water pipes and window frames, with chlorine in it. :: PVC (polyvinyl chloride)
+The synthetic fibre first sold as women's stockings in 1940. :: Nylon
+Plastics that soften when heated and can be remoulded. :: Thermoplastics
+Plastics that set hard permanently when cured, like epoxy. :: Thermosets
+The natural polymer from rubber trees. :: Natural rubber (latex)
+Heating rubber with sulfur to make it tougher. :: Vulcanisation
+Inorganic, non-metallic materials like clay, glass and porcelain. :: Ceramics
+The main ingredient of ordinary glass. :: Silica (sand)
+Ceramics are usually strong in compression but this. :: Brittle (weak in tension)
+The hardest natural material. :: Diamond
+Diamond and graphite are both made of this element. :: Carbon
+The soft form of carbon used in pencils. :: Graphite
+The single layer of carbon atoms in a honeycomb. :: Graphene
+The property of a material to stretch and return to its shape. :: Elasticity
+The property of a metal that lets it be drawn into wire. :: Ductility
+The property of a metal that lets it be hammered into thin sheets. :: Malleability
+The most malleable metal, which can be beaten to sheets a few atoms thick. :: Gold
+A material that breaks suddenly with little stretching. :: Brittle
+Resistance to scratching or denting. :: Hardness
+The ability to absorb energy before breaking. :: Toughness
+The amount a material stretches per unit length. :: Strain
+Force per unit area inside a material. :: Stress
+The highest stress a material can take before it necks. :: Ultimate tensile strength
+The test that pulls a sample until it breaks. :: Tensile test
+The test that swings a pendulum to break a notched sample. :: Charpy impact test
+Heating a metal and cooling it slowly to soften it. :: Annealing
+Cooling hot metal quickly, usually in water or oil. :: Quenching
+Gently reheating quenched steel to reduce brittleness. :: Tempering
+Shaping hot metal by hammering or pressing. :: Forging
+Pouring molten metal into a mould. :: Casting
+Joining metals by melting them together. :: Welding
+The ore of iron that is magnetic. :: Magnetite
+The furnace that turns iron ore into iron. :: Blast furnace
+The fuel made from coal used in blast furnaces. :: Coke
+The waste material that floats on molten iron. :: Slag
+Iron straight from the blast furnace, with about 4% carbon. :: Pig iron
+Iron with 2 to 4% carbon used for engine blocks and pans. :: Cast iron
+Almost pure iron, used for the Eiffel Tower. :: Wrought iron
+The metal that is the best conductor of electricity. :: Silver
+The element at the heart of computer chips. :: Silicon
+The noble metal that never tarnishes and is used in connectors. :: Gold
+A metal that is attracted strongly to magnets. :: Ferromagnetic
+The three common ferromagnetic metals at room temperature. :: Iron, nickel and cobalt
+A material that loses all electrical resistance when very cold. :: Superconductor
+A material that produces a voltage when squeezed. :: Piezoelectric material
+Alloys that return to their shape when heated, like Nitinol. :: Shape memory alloys
+Building material made of cement, sand, gravel and water. :: Concrete
+The grey powder that binds concrete. :: Portland cement
+The building material made by firing clay blocks in a kiln. :: Brick
+Toughened glass that breaks into small blunt pieces. :: Tempered glass
+Glass with a plastic layer that holds it together when broken, used in windscreens. :: Laminated glass
+Glass fibres that carry light signals for internet. :: Optical fibres
+Non-stick coating made of a fluoropolymer. :: PTFE (Teflon)
+The light, foamed plastic used in packaging and cups. :: Expanded polystyrene
+Plastics that break down by microorganisms. :: Biodegradable plastics
+The recycling code number for PET. :: 1
+The ocean pollution particles smaller than 5 mm. :: Microplastics
+The metal most recycled in the world. :: Steel
+Aluminium is made from bauxite using a lot of this. :: Electricity
+The material of most hip implant balls besides metal, valued for wear resistance. :: Ceramic (alumina or zirconia)
+Teeth enamel is mainly made of this mineral. :: Hydroxyapatite
+The metal used in most electrical wiring because it conducts well and is cheap. :: Copper
+Overhead power lines are usually made of this metal for its lightness. :: Aluminium
+The gas used to fill neon signs. :: Neon
+Old water pipes were often made of this toxic metal, giving us the word plumbing. :: Lead
+The steel with very low carbon used in car body panels. :: Mild (low-carbon) steel
+The common name for a small sample shaped like a dog bone for a tensile test. :: Test specimen (dog-bone)
+The SI unit of stress. :: Pascal (Pa)
+Strain has this unit. :: None (dimensionless)
+The number of carats in pure gold. :: 24
+Sterling silver contains this percentage of silver. :: 92.5%
+The tyre company named after the inventor of vulcanised rubber. :: Goodyear
+The yellow metal that never rusts, used in jewellery and electronics. :: Gold
+
+## 200
+The regular repeating arrangement of atoms in a solid. :: Crystal structure (lattice)
+A solid with no long-range order in its atoms, like glass. :: Amorphous solid
+The smallest repeating unit of a crystal lattice. :: Unit cell
+The crystal structure abbreviated FCC. :: Face-centred cubic
+The crystal structure abbreviated BCC. :: Body-centred cubic
+The crystal structure abbreviated HCP. :: Hexagonal close-packed
+The crystal structure of iron at room temperature. :: BCC
+The crystal structure of aluminium and copper. :: FCC
+Titanium, zinc and magnesium have this crystal structure. :: HCP
+The number of atoms in an FCC unit cell. :: 4
+The number of atoms in a BCC unit cell. :: 2
+The packing fraction of FCC and HCP. :: 0.74
+The packing fraction of BCC. :: 0.68
+The number of nearest neighbours in FCC. :: 12
+The number of nearest neighbours in BCC. :: 8
+Materials that can exist in more than one crystal structure show this. :: Polymorphism (allotropy)
+The three-number notation for crystal planes, like (111). :: Miller indices
+The X-ray technique that reveals crystal structures. :: X-ray diffraction (XRD)
+The law nλ = 2d sin θ. :: Bragg's law
+A missing atom in a crystal. :: Vacancy
+An extra atom squeezed between normal lattice sites. :: Interstitial
+A line defect in a crystal that lets metals deform plastically. :: Dislocation
+The two basic types of dislocation. :: Edge and screw
+The boundary between two crystals of different orientation. :: Grain boundary
+A small crystal within a polycrystalline metal. :: Grain
+Smaller grains usually make a metal this. :: Stronger (and tougher)
+Making a metal stronger by deforming it at room temperature. :: Work hardening (strain hardening)
+Strengthening by adding atoms of another element into the lattice. :: Solid solution strengthening
+Strengthening by forming tiny particles of a second phase during ageing. :: Precipitation hardening (age hardening)
+The movement of atoms through a solid, driven by concentration differences. :: Diffusion
+The law saying diffusion flux is proportional to the concentration gradient. :: Fick's first law
+Diffusion speeds up greatly with this. :: Temperature
+The phase diagram axes for a binary alloy. :: Temperature and composition
+The point on a phase diagram where a liquid turns into two solids at once. :: Eutectic point
+Lead–tin solder near 63% tin melts at a single temperature because it is this. :: Eutectic
+The phase diagram most important to steel. :: Iron–carbon (Fe–Fe₃C) diagram
+The FCC phase of iron stable at high temperature. :: Austenite
+The BCC phase of iron at room temperature. :: Ferrite (alpha iron)
+The hard iron carbide Fe₃C. :: Cementite
+The layered mixture of ferrite and cementite. :: Pearlite
+The eutectoid composition of plain carbon steel, in % carbon. :: About 0.76%
+The eutectoid temperature of steel. :: 727 °C
+Steel with less carbon than the eutectoid. :: Hypoeutectoid steel
+The hard, brittle phase formed when steel is quenched from austenite. :: Martensite
+The diagram showing how steel transforms with time at a fixed temperature. :: TTT diagram (isothermal transformation)
+The feathery or needle-like microstructure formed between pearlite and martensite. :: Bainite
+The ability of steel to form martensite deep inside. :: Hardenability
+Heat treatment that adds carbon to the surface of steel. :: Carburising (case hardening)
+Case hardening that diffuses nitrogen into the surface. :: Nitriding
+Heating steel into the austenite region and cooling in air. :: Normalising
+The element added to steel in stainless grades to make it austenitic. :: Nickel
+The common austenitic stainless steel with 18% chromium and 8% nickel. :: 304 (18/8 stainless)
+Stainless steel resists corrosion because of a thin layer of this. :: Chromium oxide (passive layer)
+The process where a metal forms a protective oxide film. :: Passivation
+The aluminium alloy series that is hardened by copper, used in aircraft. :: 2xxx series
+The high-strength aluminium alloy used in aircraft wings and bicycle frames, with zinc. :: 7075
+The most common titanium alloy, used in aerospace. :: Ti-6Al-4V
+Corrosion of two different metals touching in an electrolyte. :: Galvanic corrosion
+In galvanic corrosion, the metal that corrodes is this. :: The anode
+A sacrificial anode on a ship hull is often made of this. :: Zinc (or magnesium or aluminium)
+Protecting a pipeline by making it the cathode. :: Cathodic protection
+Localised corrosion that makes small deep holes. :: Pitting corrosion
+Corrosion in narrow gaps where oxygen is low. :: Crevice corrosion
+Cracking caused by a combination of tensile stress and a corrosive environment. :: Stress corrosion cracking
+Steel embrittled by absorbing small atoms of this gas. :: Hydrogen embrittlement
+The temperature at which a polymer changes from glassy to rubbery. :: Glass transition temperature (Tg)
+Polymer chains linked by chemical bonds between them. :: Cross-linking
+Polymers made of two different monomers. :: Copolymers
+Rubbery polymers that stretch a lot and spring back. :: Elastomers
+The polymer process that joins monomers with no by-product. :: Addition polymerisation
+The polymer process that releases small molecules like water. :: Condensation polymerisation
+The part of a polymer where chains are neatly folded and packed. :: Crystalline region
+Chemicals added to PVC to make it soft and flexible. :: Plasticisers
+The clear, tough plastic used for safety glasses and CDs. :: Polycarbonate
+The clear plastic sold as Plexiglas or Perspex. :: Acrylic (PMMA)
+The tough, hard plastic used in LEGO bricks. :: ABS
+Most 3D printer filament for beginners is this biodegradable plastic. :: PLA
+The ceramic used for spark plug insulators. :: Alumina (aluminium oxide)
+The very tough ceramic used in knives and dental crowns. :: Zirconia
+The ceramic used in cutting tools and bearings, Si₃N₄. :: Silicon nitride
+The hard ceramic used for grinding wheels and body armour, SiC. :: Silicon carbide
+The material of most cutting tool inserts, cobalt bonded. :: Tungsten carbide
+Ceramic tiles that protected the Space Shuttle were mainly this. :: Silica
+Ceramics are made strong by firing powder below its melting point. This step is called this. :: Sintering
+In a fibre composite, the material that holds the fibres together. :: Matrix
+The composite rule that predicts stiffness along the fibres. :: Rule of mixtures
+A sandwich panel uses two thin skins and this in the middle. :: Core (like honeycomb or foam)
+Materials whose properties are the same in all directions. :: Isotropic
+Materials whose properties change with direction, like wood. :: Anisotropic
+The material of most microchip wafers. :: Single-crystal silicon
+Adding tiny amounts of impurities to a semiconductor. :: Doping
+The impurity that makes n-type silicon. :: Phosphorus (or arsenic)
+The impurity that makes p-type silicon. :: Boron
+The stress at which a metal starts to deform permanently. :: Yield strength
+The common method for finding yield strength when there is no clear yield point. :: 0.2% offset method
+The narrowing of a sample before it breaks in a tensile test. :: Necking
+Percent elongation and reduction in area measure this. :: Ductility
+The fracture surface of a ductile metal tensile test looks like this. :: Cup and cone
+The hardness test that measures depth with a cone or ball and gives HRC values. :: Rockwell hardness test
+Nitinol is made of nickel and this metal. :: Titanium
+
+## 300
+The rule that predicts which elements form solid solutions, based on size and bonding. :: Hume-Rothery rules
+Atoms of two elements must differ in radius by less than this for wide solid solubility. :: 15%
+The vector that measures the size and direction of a dislocation's distortion. :: Burgers vector
+For an edge dislocation, the Burgers vector is this to the dislocation line. :: Perpendicular
+For a screw dislocation, the Burgers vector is this to the dislocation line. :: Parallel
+The movement of an edge dislocation out of its slip plane by diffusion. :: Climb
+The movement of a screw dislocation onto another slip plane. :: Cross-slip
+The combination of slip plane and slip direction. :: Slip system
+FCC metals have this many slip systems. :: 12
+Slip in FCC metals happens on these planes. :: {111}
+The resolved shear stress on a slip system equals stress times cos φ times cos λ. This is named after this scientist. :: Schmid (Schmid's law)
+The source that multiplies dislocations in a deforming crystal. :: Frank–Read source
+Planar defects where the stacking order of planes is wrong. :: Stacking faults
+A mirror boundary across which the crystal is reflected. :: Twin boundary
+The process where new strain-free grains form in a cold-worked metal on heating. :: Recrystallisation
+The three stages of annealing a cold-worked metal. :: Recovery, recrystallisation, grain growth
+Recrystallisation temperature is roughly this fraction of the absolute melting point. :: About 0.4 (0.3 to 0.5)
+Deforming a metal above its recrystallisation temperature. :: Hot working
+Pinning of dislocations by carbon atoms causes this in mild steel tensile curves. :: Yield point phenomenon (upper and lower yield)
+The bands of deformation that sweep along a mild steel sample at yield. :: Lüders bands
+The serrated stress–strain curve caused by solute atoms catching moving dislocations. :: Portevin–Le Chatelier effect
+The stage in precipitation hardening when the alloy is heated to dissolve the solute. :: Solution treatment
+Ageing an alloy too long so precipitates grow and strength falls. :: Over-ageing
+The coherent copper-rich zones in aluminium–copper alloys. :: Guinier–Preston (GP) zones
+The strengthening where dislocations loop around strong particles. :: Orowan mechanism
+The equation for diffusion with time, ∂c/∂t = D ∂²c/∂x². :: Fick's second law
+The solution to Fick's second law for carburising uses this function. :: Error function (erf)
+The diffusion coefficient varies with temperature by this kind of equation. :: Arrhenius equation
+Diffusion along grain boundaries is this compared with diffusion through the lattice. :: Faster
+The experiment that showed atoms diffuse by vacancies, using moving wire markers. :: Kirkendall effect
+The point on the iron–carbon diagram where austenite turns to ferrite and cementite. :: Eutectoid point
+The maximum solubility of carbon in austenite, in weight %. :: About 2.1%
+The maximum solubility of carbon in ferrite, in weight %. :: About 0.022%
+Alloys of iron with more than about 2.1% carbon. :: Cast irons
+Cast iron with graphite flakes, good at damping vibration. :: Grey cast iron
+Cast iron with graphite balls, made by adding magnesium. :: Ductile (nodular) cast iron
+Cast iron with no graphite, very hard, broken surface looks white. :: White cast iron
+The temperature where martensite starts to form on cooling. :: Martensite start (Ms)
+Martensite forms by this kind of transformation, with no diffusion. :: Diffusionless (shear) transformation
+The hardness of martensite depends mainly on this. :: Carbon content
+Austenite that stays untransformed after quenching. :: Retained austenite
+The diagram used for real heat treatments where steel cools steadily. :: CCT diagram (continuous cooling)
+The brittleness that can occur when tempering some steels at 250 to 400 °C. :: Tempered martensite embrittlement
+The family of stainless steels with both ferrite and austenite. :: Duplex stainless steels
+The loss of chromium near grain boundaries in welded stainless steel. :: Sensitisation
+Using low-carbon '304L' grade stainless helps prevent this. :: Sensitisation (intergranular corrosion)
+The zone next to a weld that has not melted but was changed by heat. :: Heat-affected zone (HAZ)
+The number worked out from a steel's alloy content to judge how easy it is to weld. :: Carbon equivalent
+The table that ranks metals by their tendency to corrode in seawater. :: Galvanic series
+The equation that relates electrode potential to concentration. :: Nernst equation
+The diagram of potential against pH showing where a metal corrodes. :: Pourbaix diagram
+The standard reference electrode for corrosion potentials, made of platinum and hydrogen. :: Standard hydrogen electrode
+The protective method that uses an external DC supply instead of a sacrificial anode. :: Impressed current cathodic protection
+The kind of corrosion that attacks one element of an alloy, like zinc in brass. :: Dealloying (dezincification)
+Corrosion damage caused by bacteria in pipelines. :: Microbiologically influenced corrosion (MIC)
+The ratio of oxide volume to metal volume, which predicts if an oxide is protective. :: Pilling–Bedworth ratio
+Slow, permanent deformation at high temperature has this many stages. :: Three
+The stage of creep with a steady, minimum strain rate. :: Secondary (steady-state) creep
+The creep mechanism controlled by diffusion through grains. :: Nabarro–Herring creep
+The creep mechanism controlled by diffusion along grain boundaries. :: Coble creep
+The parameter that combines temperature and time to predict creep life. :: Larson–Miller parameter
+Turbine blades are often cast as one crystal to remove these. :: Grain boundaries
+The ordered phase Ni₃Al that strengthens nickel superalloys. :: Gamma prime (γ′)
+The coatings that protect turbine blades from hot gases. :: Thermal barrier coatings
+The ceramic used in thermal barrier coatings. :: Yttria-stabilised zirconia (YSZ)
+The material property that measures resistance to crack growth. :: Fracture toughness (K_IC)
+The mode of fracture where the crack opens by tension. :: Mode I
+The theory that fracture happens when the energy released by crack growth exceeds surface energy. :: Griffith theory
+The stress intensity factor is proportional to stress times the square root of this. :: Crack length (πa)
+The law that links fatigue crack growth rate to stress intensity range. :: Paris law
+The beach-like marks on a fatigue fracture surface. :: Beach marks
+The microscopic marks on a fatigue fracture, one per cycle. :: Striations
+Toughening zirconia uses this transformation near a crack tip. :: Tetragonal-to-monoclinic transformation
+The statistical distribution used for the strength of brittle ceramics. :: Weibull distribution
+A Weibull modulus that is high means strength is this. :: More consistent (less scatter)
+Polymer molecular weight is described by two averages. These are called this. :: Number average and weight average
+The ratio of weight-average to number-average molecular weight. :: Polydispersity index (dispersity)
+The arrangement of side groups on one side of a polymer chain. :: Isotactic
+The catalysts that made isotactic polypropylene possible. :: Ziegler–Natta catalysts
+The slow drop in stress when a polymer is held at constant strain. :: Stress relaxation
+The simple spring and dashpot in series model for viscoelastic materials. :: Maxwell model
+The spring and dashpot in parallel model. :: Kelvin–Voigt model
+The equation that shifts polymer properties with temperature near Tg. :: WLF equation (Williams–Landel–Ferry)
+The polymer that is a liquid crystal and spun into Kevlar. :: Poly-paraphenylene terephthalamide
+Ultra-high molecular weight polyethylene fibres sold under this name are used in ropes and armour. :: Dyneema (or Spectra)
+The fibre–matrix bond in composites is improved by these surface coatings. :: Sizing (coupling agents)
+The failure where composite layers separate. :: Delamination
+The stacking of plies at different angles in a laminate is described by this. :: Lay-up (stacking sequence)
+The theory that predicts laminate stiffness from ply properties. :: Classical lamination theory
+The common failure criterion for composite plies that uses one quadratic equation. :: Tsai–Wu criterion
+The heated pressure vessel used to cure high-quality carbon fibre parts. :: Autoclave
+The ratio of Young's modulus to density, which matters for light stiff structures. :: Specific stiffness
+The charts that plot one material property against another for material selection. :: Ashby charts
+For a light, stiff beam, the material index to maximise is E^(1/2)/ρ. Here E is this. :: Young's modulus
+The equation linking yield strength to grain size. :: Hall–Petch equation
+The rule that relates phases, components and degrees of freedom. :: Gibbs phase rule
+Martensite has this crystal structure. :: Body-centred tetragonal (BCT)
+The test that measures how deep a steel will harden by quenching one end. :: Jominy end-quench test
+The method used to grow large single crystals of silicon. :: Czochralski process
+The rule used to find the amount of each phase in a two-phase region. :: Lever rule
+
+## 400
+The Miller indices of the close-packed planes in an FCC crystal. :: {111}
+The close-packed direction in BCC crystals. :: <111>
+The stacking sequence of close-packed planes in FCC. :: ABCABC
+The stacking sequence of close-packed planes in HCP. :: ABAB
+The ideal c/a ratio for an HCP crystal. :: 1.633
+The 14 types of three-dimensional lattice. :: Bravais lattices
+The number of crystal systems. :: Seven
+The number of space groups in three dimensions. :: 230
+Diffraction only happens for planes where h+k+l is even in this lattice. :: BCC
+Diffraction happens in FCC only when h, k and l are all this. :: All odd or all even (unmixed)
+The microscope that images surfaces with a focused electron beam. :: SEM (scanning electron microscope)
+The microscope that sends electrons through a thin sample. :: TEM (transmission electron microscope)
+The analysis of X-rays given off in an SEM to find elements. :: EDS (energy-dispersive X-ray spectroscopy)
+The SEM technique that maps grain orientations. :: EBSD (electron backscatter diffraction)
+The probe microscope that maps surfaces with a tiny tip on a cantilever. :: AFM (atomic force microscope)
+The microscope invented in 1981 that images individual atoms using tunnelling current. :: STM (scanning tunnelling microscope)
+The technique that measures heat flow in a sample to find Tg and melting. :: DSC (differential scanning calorimetry)
+The technique that measures a sample's mass as it is heated. :: TGA (thermogravimetric analysis)
+The partial dislocations formed when a perfect FCC dislocation splits. :: Shockley partials
+Metals with low stacking fault energy, like brass, tend to do this. :: Form twins (and work-harden strongly)
+The immobile dislocation lock formed in FCC metals. :: Lomer–Cottrell lock
+The atmosphere of solute atoms around a dislocation. :: Cottrell atmosphere
+The ductile-brittle transition is typical of BCC metals because of this. :: Strong temperature dependence of yield stress (Peierls stress)
+The stress needed to move a dislocation through a perfect lattice. :: Peierls–Nabarro stress
+The theoretical shear strength of a perfect crystal is roughly the shear modulus divided by this. :: About 10 to 30
+The tiny defect-free crystals that approach theoretical strength. :: Whiskers
+The deformation mechanism map plots stress against temperature to show this. :: Dominant deformation mechanism
+The theory of grain growth says mean grain size squared grows with this. :: Time
+The tiny particles that pin grain boundaries and stop grain growth. :: Zener pinning
+Very fine-grained alloys that can stretch hundreds of percent at high temperature. :: Superplastic alloys
+Steels that combine ferrite and martensite for car bodies. :: Dual-phase steels
+Steels whose retained austenite turns to martensite during deformation. :: TRIP steels
+Steels that deform by twinning, with very high manganese. :: TWIP steels
+Ultra-high-strength steels aged to form intermetallic precipitates, with very low carbon. :: Maraging steels
+The quenching medium that cools fastest of water, oil and air. :: Water (especially brine)
+The cracking risk from quenching that is too severe. :: Quench cracking
+The steel grade AISI 1045 has about this much carbon. :: 0.45%
+The SAE steel 4140 is alloyed with chromium and this. :: Molybdenum
+The tool steel family hardened in air, such as A2. :: Air-hardening tool steels
+High-speed steels keep their hardness when hot because of this element and molybdenum. :: Tungsten
+The temper designation T6 for aluminium means this. :: Solution heat-treated and artificially aged
+The temper designation O for aluminium means this. :: Annealed
+The aluminium alloy family alloyed with magnesium, used in ship hulls, that is not heat-treatable. :: 5xxx series
+The aluminium–lithium alloys are used in aircraft because lithium lowers this. :: Density (and raises stiffness)
+Titanium changes from HCP alpha to BCC beta at about this temperature. :: 882 °C
+The process that extracts titanium using magnesium. :: Kroll process
+The process that makes aluminium by electrolysis in molten cryolite. :: Hall–Héroult process
+The process that refines bauxite into alumina. :: Bayer process
+The steelmaking process that blows oxygen into molten pig iron. :: Basic oxygen steelmaking
+The furnace that melts scrap steel using graphite electrodes. :: Electric arc furnace (EAF)
+The iron made by reducing ore with natural gas below melting, common in Saudi Arabia. :: Direct reduced iron (DRI)
+The process that makes float glass on molten tin. :: Pilkington float process
+The ceramic toughened by adding a second phase of fibres or whiskers. :: Ceramic matrix composite
+The ceramic superconductor YBCO becomes superconducting at about this temperature. :: About 92 K
+The ceramic material used in most multilayer capacitors. :: Barium titanate
+The piezoelectric ceramic used in sensors and buzzers. :: PZT (lead zirconate titanate)
+The temperature above which a ferromagnet loses its magnetism. :: Curie temperature
+Magnetic materials that are easy to magnetise and demagnetise, like transformer steel. :: Soft magnetic materials
+The strongest commercial permanent magnets. :: Neodymium (NdFeB) magnets
+Transformer cores use silicon steel in thin layers to reduce this. :: Eddy current losses
+Glassy metals made by cooling very fast. :: Metallic glasses (amorphous metals)
+Alloys of five or more elements in near-equal amounts. :: High-entropy alloys
+Materials designed with structures that give unusual properties, like negative Poisson's ratio. :: Metamaterials
+A material with negative Poisson's ratio that gets fatter when stretched. :: Auxetic material
+The nanomaterial that is a rolled-up sheet of graphene. :: Carbon nanotube
+The 60-carbon football-shaped molecule discovered in 1985. :: Buckminsterfullerene (C60)
+Aerogels are known for being extremely this. :: Light (low density)
+The process of making parts layer by layer. :: Additive manufacturing (3D printing)
+The 3D printing method that melts metal powder with a laser. :: Selective laser melting (powder bed fusion)
+The hot-pressing process that removes internal pores in castings with gas pressure. :: Hot isostatic pressing (HIP)
+The defect in castings caused by metal shrinking as it solidifies. :: Shrinkage porosity
+The tree-like crystals that grow as metals solidify. :: Dendrites
+The separation of alloying elements during solidification. :: Segregation
+The first solid to form during solidification grows from these sites. :: Nuclei
+Nucleation on surfaces or impurities is called this. :: Heterogeneous nucleation
+The radius above which a nucleus will grow. :: Critical radius
+Polymer recycling that breaks chains back to monomers. :: Chemical recycling
+The degradation of polymers by ultraviolet light. :: Photodegradation
+The polymer property measured by the melt flow index. :: Viscosity (molecular weight)
+Thermoplastic elastomers behave like rubber but can be this. :: Remelted (recycled)
+The epoxy hardener and resin react in this kind of process. :: Curing (cross-linking)
+The common test that measures a polymer's softening temperature under load. :: Heat deflection temperature (HDT)
+The craze-like thin cracks bridged by fibrils in glassy polymers. :: Crazing
+ASTM stands for American Society for Testing and this. :: Materials
+The standard ASTM E8 covers this kind of test for metals. :: Tension testing
+The minimum yield strength of ASTM A36 structural steel, in MPa, roughly. :: 250 MPa
+The steel grade for rebar common in Saudi Arabia, with 420 MPa yield. :: Grade 60 (420 MPa)
+The non-destructive test that uses high-frequency sound to find internal flaws. :: Ultrasonic testing
+The NDT method that uses coloured liquid to show surface cracks. :: Dye penetrant testing
+The NDT method that sprinkles iron particles on magnetised steel. :: Magnetic particle testing
+The NDT method that uses induced currents to find cracks in conductors. :: Eddy current testing
+The steel rebar in concrete corrodes much faster when exposed to these ions, common in Gulf coastal areas. :: Chloride ions
+The low-temperature allotrope of tin that crumbles to powder, known as 'tin pest'. :: Grey (alpha) tin
+Tin pest can form below about this temperature. :: 13.2 °C
+The hardness test for very thin films using a tiny diamond tip and load–depth curves. :: Nanoindentation
+Making parts by pressing metal powders and sintering them. :: Powder metallurgy
+The process that moulds small complex metal parts from powder mixed with a binder. :: Metal injection moulding (MIM)
+The coating process that sprays molten particles onto a surface through a plasma jet. :: Plasma spraying
+The vapour coating process used to put hard titanium nitride on drill bits. :: PVD (physical vapour deposition)
+The gold-coloured hard coating seen on many drill bits. :: Titanium nitride (TiN)
+
+## 500
+The physicist father-and-son team who won the 1915 Nobel Prize for X-ray crystallography. :: William Henry and William Lawrence Bragg
+The German physicist whose 1912 experiment first showed X-ray diffraction by crystals. :: Max von Laue
+The three scientists who proposed dislocations independently in 1934. :: Taylor, Orowan and Polanyi
+The British engineer whose 1921 paper explained why real materials break far below theoretical strength. :: Alan Arnold Griffith
+Griffith carried out his experiments on this brittle material. :: Glass
+The American engineer who developed fracture mechanics with the stress intensity factor in the 1950s. :: George Irwin
+The German metallurgist after whom martensite is named. :: Adolf Martens
+The British metallurgist after whom the austenite phase is named. :: William Chandler Roberts-Austen
+The American metallurgist after whom bainite is named. :: Edgar Bain
+The English metallurgist who first examined steel under a microscope in 1863. :: Henry Clifton Sorby
+The German who discovered age hardening in aluminium alloys in 1906. :: Alfred Wilm
+The aluminium–copper alloy Wilm discovered, used in Zeppelin airships. :: Duralumin
+The English metallurgist who invented stainless steel in Sheffield in 1913. :: Harry Brearley
+The two people who independently invented the electrolytic aluminium process in 1886. :: Charles Martin Hall and Paul Héroult
+Before 1886, aluminium was so costly that this monument in Washington got an aluminium cap in 1884. :: Washington Monument
+Napoleon III reportedly served his most honoured guests with cutlery made of this. :: Aluminium
+The Austrian chemist who invented the bauxite refining process in 1888. :: Carl Josef Bayer
+The Luxembourg-born metallurgist who invented the titanium extraction process in 1940. :: William Kroll
+The English inventor who patented a converter for cheap steel in 1856. :: Henry Bessemer
+The cousins who solved the phosphorus problem in Bessemer steel by using a basic lining. :: Sidney Gilchrist Thomas and Percy Gilchrist
+The Abraham Darby breakthrough of 1709 was smelting iron with this fuel. :: Coke
+The village where Darby smelted iron with coke, now part of a UNESCO site. :: Coalbrookdale
+The world's first iron bridge, opened in 1781, is near this English town. :: Ironbridge (Shropshire)
+The famous medieval crucible steel used for swords, made from Indian wootz. :: Damascus steel
+The 1,600-year-old rust-resistant iron pillar stands in this city. :: Delhi
+Japanese swords are made from steel smelted in this traditional furnace. :: Tatara
+The DuPont chemist who invented nylon in 1935. :: Wallace Carothers
+The DuPont chemist who invented Teflon by accident in 1938. :: Roy Plunkett
+The Belgian-American chemist who invented Bakelite, the first fully synthetic plastic, in 1907. :: Leo Baekeland
+The British chemists who discovered polyethylene by accident at ICI in 1933. :: Eric Fawcett and Reginald Gibson
+The two scientists who won the 1963 Nobel Prize for catalysts for polymers. :: Karl Ziegler and Giulio Natta
+The German chemist who proved polymers are long chains, Nobel Prize 1953. :: Hermann Staudinger
+The American chemist who won the 1974 Nobel Prize for the theory of polymer chains. :: Paul Flory
+The year Kwolek discovered the fibre that became Kevlar. :: 1965
+The two scientists who first isolated graphene with sticky tape in 2004. :: Andre Geim and Konstantin Novoselov
+The Japanese physicist credited with discovering carbon nanotubes in 1991. :: Sumio Iijima
+The three chemists who won the 1996 Nobel Prize for fullerenes. :: Curl, Kroto and Smalley
+The US Naval Ordnance Laboratory metallurgist who discovered Nitinol's shape memory around 1959 to 1962. :: William Buehler
+The two physicists who discovered high-temperature superconductivity in ceramics in 1986. :: Bednorz and Müller
+The Dutch physicist who discovered superconductivity in mercury in 1911. :: Heike Kamerlingh Onnes
+The Polish scientist who invented the crystal-pulling method in 1916. :: Jan Czochralski
+The British engineer who invented the float glass process in the 1950s. :: Alastair Pilkington
+The US company that invented Gorilla Glass for phone screens. :: Corning
+Gorilla Glass is strengthened by swapping sodium ions for these larger ions. :: Potassium ions (ion exchange)
+The Corning glass-ceramic invented by accident by Donald Stookey in 1953. :: Pyroceram (CorningWare)
+The borosilicate glass used for lab glassware and oven dishes. :: Pyrex
+The 1912 ship disaster where brittle steel and rivets have been blamed for the hull damage. :: Titanic
+The World War II ships, some of which cracked in two from brittle fracture. :: Liberty ships
+The tanker that broke in half at its fitting-out pier in Portland, Oregon in 1943. :: SS Schenectady
+The 1986 Space Shuttle disaster caused by O-rings that lost elasticity in the cold. :: Challenger
+The physicist who showed the O-ring failure by dipping rubber in iced water at a hearing. :: Richard Feynman
+The 1980 North Sea platform that capsized after a fatigue crack in a bracing. :: Alexander L. Kielland
+The 1998 German high-speed train crash caused by a fatigue-cracked wheel tyre. :: Eschede disaster
+The American scientist who developed the materials selection charts in Cambridge. :: Michael Ashby
+The 'father of modern metallurgy' who wrote De Re Metallica in 1556. :: Georgius Agricola
+The 11th-century scholar from Khwarazm who described steelmaking in his book on precious stones. :: Al-Biruni
+The Saudi Iron and Steel Company in Jubail is better known by this Arabic name. :: Hadeed
+The aluminium complex at Ras Al-Khair is run by this Saudi mining company. :: Ma'aden
+The gold mine near Madinah worked since ancient times, now run by Ma'aden. :: Mahd adh-Dhahab
+The ceramic tile type used for the Space Shuttle's hottest spots, the nose and wing leading edges. :: Reinforced carbon–carbon (RCC)
+The 2003 Space Shuttle disaster caused by foam hitting the wing's carbon–carbon panel. :: Columbia
+The cheap gold-looking copper–zinc alloy named after an 18th-century London clockmaker. :: Pinchbeck
+The alloy of iron and nickel with almost no thermal expansion, used in clocks. :: Invar
+The Swiss physicist who won the 1920 Nobel Prize for discovering Invar. :: Charles Édouard Guillaume
+The copper–nickel alloy used in many silver-coloured coins. :: Cupronickel
+The alloy of lead and tin used for centuries for plates and tankards. :: Pewter
+The metal that King Croesus of Lydia first used for pure coins. :: Gold (and silver)
+The 'Boeing 787' is about half made of this material by weight. :: Composites (carbon fibre reinforced plastic)
+The Airbus airliner, first flown in 2013, whose wings and fuselage are mostly carbon fibre composite. :: A350 XWB
+Kevlar is about this many times stronger than steel by weight. :: Five
+The 1960s British jet engine fan blade material that failed bird-strike tests and helped bankrupt Rolls-Royce. :: Hyfil (carbon fibre)
+The jet engine whose Hyfil blades failed. :: RB211
+Early iron smelting around 1500 BC is credited to the Hittites of this region. :: Anatolia
+Roman concrete that set underwater used volcanic ash from near this town on the Bay of Naples. :: Pozzuoli (pozzolana)
+The Roman temple whose unreinforced concrete dome is still the world's largest of its kind. :: Pantheon
+The English bricklayer who patented Portland cement in 1824. :: Joseph Aspdin
+Portland cement was named after its likeness to stone from this place. :: Isle of Portland
+The physicist who won two Nobel Prizes, one for the transistor and one for the theory of superconductivity. :: John Bardeen
+The first transistor, made at Bell Labs in 1947, used this element. :: Germanium
+The Swedish engineer who introduced the steel-ball hardness test in 1900. :: Johan August Brinell
+The French metallurgist who introduced the notched-bar impact test in 1901. :: Georges Charpy
+The British engineer whose cantilever impact test, used mainly for plastics, rivals Charpy's. :: Edwin Gilbert Izod
+The German railway engineer whose fatigue tests on axles in the 1850s to 1870s gave the first S–N curves. :: August Wöhler
+The material that won the 2010 Nobel Prize in Physics. :: Graphene
+The 2019 Nobel Prize in Chemistry went for developing these batteries. :: Lithium-ion batteries
+The cathode material in John Goodenough's 1980 lithium battery breakthrough. :: Lithium cobalt oxide
+The Israeli scientist who won the 2011 Chemistry Nobel for discovering quasicrystals. :: Dan Shechtman
+The year Shechtman first saw quasicrystals in an aluminium–manganese alloy. :: 1982
+The Japanese engineer who invented the neodymium magnet at Sumitomo in the early 1980s. :: Masato Sagawa
+The British chemist who, with James Dickson, made the first PET polyester fibre, Terylene, in 1941. :: John Rex Whinfield
+The Scottish chemist who invented waterproof rubberised cloth in 1823. :: Charles Macintosh
+The Saudi university in Dhahran famous for petroleum, minerals and materials engineering. :: KFUPM
+KAUST's campus is on the Red Sea coast at this town. :: Thuwal
+Ötzi the Iceman, about 5,300 years old, carried an axe with a blade of this metal. :: Copper
+Tutankhamun's iron dagger was made from iron from this source. :: A meteorite
+The patterns on true Damascus blades come from bands of this hard phase. :: Cementite (iron carbide)
+The skyscraper for which concrete was pumped to a then-record height of over 600 m. :: Burj Khalifa
+The blue pigment made in ancient Egypt, one of the first synthetic materials. :: Egyptian blue
+The ancient casting method that uses a wax model melted out of a clay mould. :: Lost-wax (investment) casting
+The Bessemer process cleans molten pig iron by blowing this through it. :: Air

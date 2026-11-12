@@ -141,6 +141,7 @@ try {
     assert(/[؀-ۿ]/.test(q), 'question not Arabic: ' + q)
     await page.getByTestId('back').click()
     await page.getByTestId('end').click()
+    await page.getByTestId('end-confirm').click()
     await aud.waitForSelector('[data-testid="audience-winner"]')
     await aud.screenshot({ path: `${SHOTS}/host-audience-results.png` })
     await page.context().close()

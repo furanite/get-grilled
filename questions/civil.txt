@@ -1,0 +1,514 @@
+id: civil
+name: Civil & Construction
+nameAr: الهندسة المدنية والإنشاءات
+group: engineering
+
+## 100
+The branch of engineering that designs roads, bridges, buildings and water systems. :: Civil engineering
+The mix of cement, water, sand and gravel that hardens like stone. :: Concrete
+Concrete hardens by this chemical reaction, not by drying. :: Hydration
+Keeping new concrete moist so it gains strength. :: Curing
+The temporary moulds that hold wet concrete in shape. :: Formwork
+The sand and gravel in concrete are called this. :: Aggregate
+The test that measures how runny fresh concrete is, using a cone. :: Slump test
+The standard age at which concrete strength is checked. :: 28 days
+The black, sticky material that binds stones in road surfaces. :: Bitumen (asphalt binder)
+The road surface made of stones bound with bitumen. :: Asphalt (asphalt concrete)
+The bottom part of a building that spreads its load to the ground. :: Foundation
+Long columns driven or drilled deep into the ground to support a building. :: Piles
+A flat concrete foundation under a whole building. :: Raft (mat) foundation
+The horizontal structural member that carries loads across a span. :: Beam
+The vertical structural member that carries loads down. :: Column
+A flat horizontal concrete plate that forms a floor. :: Slab
+The curved structure that carries loads mainly in compression. :: Arch
+The bridge type that hangs its deck from cables slung between towers. :: Suspension bridge
+The bridge type with cables running straight from towers to the deck. :: Cable-stayed bridge
+The bridge type made of triangles. :: Truss bridge
+The simplest bridge type, a beam resting on two supports. :: Beam (girder) bridge
+A bridge that carries water. :: Aqueduct
+A long bridge made of many short spans over a valley or road. :: Viaduct
+A passage dug under the ground or a river. :: Tunnel
+A wall built to hold back soil. :: Retaining wall
+A barrier built across a river to store water. :: Dam
+The engineer's drawings that show how to build a project. :: Blueprints (construction drawings)
+The measuring of land to make maps and set out buildings. :: Surveying
+The instrument that measures horizontal and vertical angles. :: Theodolite
+The modern instrument that measures angles and distances electronically. :: Total station
+The satellite system used to find positions for surveying. :: GNSS (GPS)
+The instrument used to find height differences between points. :: Level (dumpy level)
+The tall graduated pole held up during levelling. :: Levelling staff (rod)
+The height of a point above mean sea level. :: Elevation
+Lines on a map joining points of equal height. :: Contour lines
+The slope of a road given as a percentage. :: Gradient (grade)
+The raised middle of a road that lets rain run off. :: Camber (crown)
+The tilt of a road on a curve. :: Superelevation (banking)
+The paved edge beside a highway lane for emergencies. :: Shoulder
+The crossing where several roads meet with a circular island. :: Roundabout
+A junction where roads cross at different levels. :: Interchange (grade-separated junction)
+The interchange shaped like a four-leaf clover. :: Cloverleaf interchange
+The device that controls traffic with red, amber and green. :: Traffic signal
+The amount of traffic passing a point per hour. :: Traffic volume (flow)
+A road surface made of concrete slabs instead of asphalt. :: Rigid pavement
+An asphalt road surface. :: Flexible pavement
+The gaps cut in concrete slabs to control cracking. :: Joints
+The layers under a road surface. :: Base and subbase
+The pipes that carry wastewater from buildings. :: Sewers
+The plant that cleans wastewater before release. :: Wastewater (sewage) treatment plant
+The plant that makes river or lake water safe to drink. :: Water treatment plant
+The chemical commonly added to kill germs in drinking water. :: Chlorine
+Removing salt from seawater to make fresh water. :: Desalination
+The country that produces the most desalinated water. :: Saudi Arabia
+The water found underground in soil and rock. :: Groundwater
+A layer of rock or soil that holds groundwater. :: Aquifer
+A pipe that carries rainwater off a roof. :: Downpipe (gutter)
+Drains that carry rainwater from streets. :: Storm drains
+The tallest building in the world. :: Burj Khalifa
+The city where the Burj Khalifa stands. :: Dubai
+The Saudi tower being built in Jeddah to be the world's tallest. :: Jeddah Tower
+The giant clock tower hotel next to the Grand Mosque in Makkah. :: Abraj Al-Bait (Makkah Clock Royal Tower)
+The causeway that links Saudi Arabia to Bahrain. :: King Fahd Causeway
+The length of the King Fahd Causeway, roughly. :: About 25 km
+The driverless metro system in the Saudi capital. :: Riyadh Metro
+The large Saudi giga-project on the Red Sea coast in Tabuk province. :: NEOM
+The Saudi entertainment giga-project near Riyadh. :: Qiddiya
+The historic district near Riyadh being redeveloped as a cultural destination. :: Diriyah
+The machine that digs tunnels with a rotating cutter head. :: Tunnel boring machine (TBM)
+The tall machine that lifts heavy loads on building sites. :: Tower crane
+The machine with a bucket on an arm used to dig. :: Excavator
+The machine with a large front blade used to push soil. :: Bulldozer
+The machine that presses down soil or asphalt to make it denser. :: Roller (compactor)
+The truck with a rotating drum that carries fresh concrete. :: Concrete mixer truck (transit mixer)
+The temporary structure workers stand on to build high walls. :: Scaffolding
+The hard hat on a building site protects this. :: Head
+The vest workers wear so drivers can see them. :: High-visibility (hi-vis) vest
+The steel bars used to reinforce concrete. :: Rebar
+Concrete with steel bars inside. :: Reinforced concrete
+Blocks made of concrete used to build walls. :: Concrete blocks (CMU)
+The paste used to bond bricks together. :: Mortar
+The thin smooth finish layer of plaster on walls. :: Plaster (render)
+A building's skeleton made of steel beams and columns. :: Steel frame
+The person who designs buildings with an eye for form and use. :: Architect
+The engineer who makes sure a building can carry its loads. :: Structural engineer
+The firm that actually builds a project. :: Contractor
+The person or company that pays for a project. :: Owner (client)
+The document that describes the work, price and terms of a project. :: Contract
+The list of materials and quantities for a project. :: Bill of quantities
+The planned timeline for a construction project. :: Schedule
+The rules that set minimum safety standards for buildings. :: Building code
+The Saudi national building code is known by this acronym. :: SBC (Saudi Building Code)
+Loads from people and furniture in a building. :: Live loads
+The weight of the structure itself. :: Dead load
+The sideways load that tall buildings must resist from the air. :: Wind load
+The ground shaking load that structures must resist. :: Earthquake (seismic) load
+The cheapest common way to keep sun heat out of a building's walls. :: Insulation (and shading)
+Building digital 3D models with full project information. :: BIM (Building Information Modelling)
+The sand layer laid under paving blocks and pipes. :: Bedding layer
+The raised concrete edge along a road, called a curb in American English. :: Kerb
+
+## 200
+The four main compounds in Portland cement are C3S, C2S, C3A and this. :: C4AF
+The compound in cement that gives most early strength. :: C3S (tricalcium silicate)
+The ratio that most controls concrete strength. :: Water–cement ratio
+Lowering the water–cement ratio makes concrete this. :: Stronger (and less permeable)
+Chemicals added to concrete to change its properties. :: Admixtures
+Admixtures that let concrete flow with less water. :: Superplasticisers (water reducers)
+Admixtures that slow setting, useful in hot weather. :: Retarders
+Tiny air bubbles added to concrete to resist freezing. :: Air entrainment
+The by-product of coal power plants used to replace some cement. :: Fly ash
+The by-product of steelmaking used to replace some cement. :: Ground granulated blast-furnace slag (GGBS)
+A very fine powder from silicon making that makes concrete denser. :: Silica fume
+The cement type with low C3A that resists sulfate attack. :: Sulfate-resisting cement (Type V)
+The reaction between alkalis in cement and certain aggregates that causes expansion. :: Alkali–silica reaction (ASR)
+Concrete placed with no vibration because it flows into place by itself. :: Self-compacting concrete
+The usual compressive strength test specimen in Saudi practice and the US. :: Cylinder (150 × 300 mm)
+The compressive strength test specimen common in the UK and Europe. :: Cube (150 mm)
+The test that splits a cylinder to find tensile strength. :: Split cylinder (Brazilian) test
+Concrete in hot weather must be protected mainly from this. :: Rapid water loss (cracking)
+Steel tendons tensioned after the concrete has hardened. :: Post-tensioning
+Steel strands tensioned before the concrete is poured. :: Pre-tensioning
+The protective concrete layer outside the rebar. :: Concrete cover
+Rebar coated to resist corrosion in harsh environments, often green. :: Epoxy-coated rebar
+Steel rebar corrodes when the concrete loses this protection. :: Alkalinity (passivation)
+Carbon dioxide in air lowers concrete pH by this process. :: Carbonation
+The test that shows carbonation depth by spraying a pink indicator. :: Phenolphthalein test
+The study of soils for engineering. :: Geotechnical engineering (soil mechanics)
+The three phases in a soil sample. :: Solids, water and air
+The ratio of void volume to solid volume. :: Void ratio
+The ratio of void volume to total volume. :: Porosity
+The ratio of water mass to solid mass in soil. :: Water (moisture) content
+The water contents at which clay changes state. :: Atterberg limits
+The water content at which a soil starts to flow like a liquid. :: Liquid limit
+The water content at which a soil starts to crumble when rolled. :: Plastic limit
+Liquid limit minus plastic limit. :: Plasticity index
+Soil particles smaller than 0.002 mm. :: Clay
+Soil particles between 0.075 mm and 4.75 mm. :: Sand
+The plot of soil particle sizes from sieving. :: Grading (particle size distribution) curve
+The soil classification system with symbols like SW and CL. :: USCS (Unified Soil Classification System)
+The laboratory test that finds the best moisture for compacting soil. :: Proctor compaction test
+The water content giving the highest dry density. :: Optimum moisture content
+The in-situ test that drives a sampler with a falling hammer and counts blows. :: SPT (standard penetration test)
+The in-situ test that pushes a cone into the ground at a steady rate. :: CPT (cone penetration test)
+The test used to rate the strength of road subgrades. :: CBR (California bearing ratio)
+The slow settling of saturated clay as water squeezes out. :: Consolidation
+The principle that soil strength depends on stress minus pore water pressure. :: Effective stress principle
+The scientist who stated the effective stress principle and founded soil mechanics. :: Karl Terzaghi
+Soil shear strength = c + σ′ tan φ is called this. :: Mohr–Coulomb criterion
+The angle φ in the Mohr–Coulomb equation. :: Angle of internal friction (friction angle)
+When saturated sand loses its strength in an earthquake. :: Liquefaction
+Soil that swells a lot when wet, a problem in parts of Saudi Arabia. :: Expansive soil
+Salt-crusted coastal flats common in eastern Saudi Arabia that are weak when wet. :: Sabkha
+Soil that suddenly settles when it gets wet, common in arid regions. :: Collapsible soil
+Moving sand dunes threaten roads in deserts by doing this. :: Encroaching (burying the road)
+The soil pressure on a wall that is free to move away from the soil. :: Active earth pressure
+The soil pressure when a wall is pushed into the soil. :: Passive earth pressure
+The earth pressure on a wall that does not move. :: At-rest pressure
+A retaining wall made of soil reinforced with strips or grids. :: Mechanically stabilised earth (MSE) wall
+Steel sheets driven into the ground to hold back soil or water. :: Sheet piles
+Long steel bars grouted into soil or rock to hold it. :: Soil nails (ground anchors)
+The ratio of resisting forces to driving forces on a slope. :: Factor of safety
+The common slope stability method that splits the slip mass into slices. :: Method of slices
+A pile that carries load mainly by friction along its sides. :: Friction pile
+A pile that carries load mainly at its tip on hard ground. :: End-bearing pile
+The shallow foundation under a single column. :: Isolated (pad) footing
+A foundation that runs under a wall. :: Strip footing
+The maximum pressure soil can carry without shear failure. :: Ultimate bearing capacity
+The bearing capacity theory with factors Nc, Nq and Nγ. :: Terzaghi's bearing capacity theory
+Pumping out groundwater to dig a dry excavation. :: Dewatering
+The sight distance a driver needs to stop safely. :: Stopping sight distance
+The time between seeing a hazard and pressing the brake. :: Perception–reaction time
+The standard design perception–reaction time used by AASHTO. :: 2.5 seconds
+The curve that joins a straight road to a circular curve gradually. :: Transition (spiral) curve
+The vertical curve shape used where road grades change. :: Parabola
+The vertical curve at the top of a hill. :: Crest curve
+The vertical curve at the bottom of a valley. :: Sag curve
+The traffic flow equation linking flow, speed and this. :: Density
+The maximum traffic flow a road can carry. :: Capacity
+The rating from A to F that describes traffic conditions. :: Level of service (LOS)
+The US manual that defines levels of service. :: Highway Capacity Manual
+The hour with the highest traffic of the day. :: Peak hour
+Hourly volume divided by four times the busiest 15-minute volume. :: Peak hour factor
+The time for one full sequence of signal phases. :: Cycle length
+The classic formula for optimal signal cycle length. :: Webster's formula
+The vehicle used to set standard pavement loads. :: Equivalent single axle load (ESAL)
+The standard axle load used in pavement design. :: 80 kN (18,000 lb)
+The rutting and cracking test grade system for asphalt binders. :: Superpave performance grade (PG)
+The deformation of asphalt into grooves along wheel paths, worse in hot climates. :: Rutting
+Cracks in asphalt that look like a crocodile's back. :: Fatigue (alligator) cracking
+The asphalt mix design method using a drop hammer and stability test. :: Marshall method
+The measure of how smooth a road ride is. :: IRI (International Roughness Index)
+Water treatment step where chemicals make tiny particles clump. :: Coagulation
+The gentle mixing step that grows clumps into flocs. :: Flocculation
+The tank where flocs settle out of water. :: Sedimentation tank (clarifier)
+The step where water passes through sand to remove particles. :: Filtration
+The chemical commonly used as a coagulant. :: Alum (aluminium sulfate)
+Wastewater treatment that uses bacteria and air to break down organic matter. :: Activated sludge process
+The measure of oxygen needed by bacteria to break down organic matter. :: BOD (biochemical oxygen demand)
+The measure of oxygen needed to chemically oxidise matter in water. :: COD (chemical oxygen demand)
+The cleaned wastewater leaving a treatment plant. :: Effluent
+The on-site soil density test that uses calibrated sand to measure a hole's volume. :: Sand cone test
+
+## 300
+Concrete's design strength symbol, as in 'C30' or 'f′c = 30 MPa'. :: Specified (characteristic) compressive strength
+The modulus of elasticity of normal concrete is roughly 4,700 times the square root of this (ACI, MPa). :: f′c
+The American code for structural concrete. :: ACI 318
+The American specification for structural steel buildings. :: AISC 360
+The US standard for minimum design loads on buildings. :: ASCE 7
+The European design codes for structures. :: Eurocodes
+The design approach that multiplies loads up and strengths down. :: LRFD (limit state design)
+The ACI load combination that is 1.2D + 1.6L. :: Basic gravity load combination
+The strength reduction factor φ for tension-controlled sections in ACI. :: 0.9
+The concrete stress block used in ultimate strength design. :: Whitney rectangular stress block
+The ACI stress block depth uses this factor, 0.85 for concrete up to 28 MPa. :: β1
+The ACI stress block intensity is this times f′c. :: 0.85
+The minimum reinforcement in slabs to control cracking from shrinkage and temperature. :: Shrinkage and temperature steel
+Beam failure where steel yields well before concrete crushes. :: Ductile (under-reinforced) failure
+A beam reinforced so the concrete crushes first. :: Over-reinforced
+The closed loops of rebar that resist shear in beams. :: Stirrups
+The spiral or ties around column bars stop them from doing this. :: Buckling
+The failure where a column punches through a flat slab. :: Punching shear
+The length of rebar needed to transfer its force to the concrete. :: Development length
+The overlap of two rebars to transfer force. :: Lap splice
+The slow, long-term deformation of concrete under sustained load. :: Creep
+The shortening of concrete as it dries. :: Drying shrinkage
+The two prestress losses that happen over time from concrete behaviour. :: Creep and shrinkage
+The prestress loss from the steel itself slowly losing stress. :: Relaxation
+The concrete box structure made in segments and pushed out over a gap. :: Incremental launching
+The bridge building method that grows equally from each side of a pier. :: Balanced cantilever construction
+The bridge deck section shaped like a hollow box. :: Box girder
+The device between a bridge deck and pier that lets it move. :: Bearing
+Gaps in a bridge deck that allow thermal movement. :: Expansion joints
+The longest-span bridge type. :: Suspension bridge
+The concrete strength gain over time is described by this concept combining time and temperature. :: Maturity method
+The 'Abrams law' relates concrete strength to this. :: Water–cement ratio
+The test that measures concrete strength on site with a spring hammer. :: Rebound (Schmidt) hammer test
+The test that sends sound through concrete to check quality. :: Ultrasonic pulse velocity test
+Cores drilled from hardened concrete are used to check this. :: In-place strength
+The soil test that applies confining pressure and axial load to a cylinder. :: Triaxial test
+The triaxial test where no drainage is allowed during shearing. :: Undrained (UU or CU) test
+The soil test that shears a sample along a fixed horizontal plane. :: Direct shear test
+The test used to find a clay's compressibility in the lab. :: Oedometer (consolidation) test
+The coefficient that describes how fast a clay consolidates. :: Coefficient of consolidation (cv)
+The slope of the void ratio–log stress curve for virgin clay. :: Compression index (Cc)
+A clay that has been more heavily loaded in the past than now. :: Overconsolidated clay
+The ratio of past maximum stress to current stress. :: Overconsolidation ratio (OCR)
+Settlement that continues after primary consolidation. :: Secondary compression (creep)
+Vertical drains that speed up consolidation. :: Prefabricated vertical (wick) drains
+Loading the ground ahead of building to cause settlement early. :: Preloading (surcharging)
+The ground improvement method that drops a heavy weight repeatedly. :: Dynamic compaction
+The method that densifies sand with a vibrating probe and water. :: Vibroflotation (vibro-compaction)
+Columns of crushed stone built in weak soil. :: Stone columns
+Injecting cement grout at high pressure to mix with soil. :: Jet grouting
+The flow net is used to find seepage under this. :: Dams (and sheet piles)
+The upward water pressure that can make sand boil. :: Seepage (uplift) pressure
+The hydraulic gradient that causes quick sand. :: Critical hydraulic gradient (about 1)
+The equation for steady 2D seepage. :: Laplace equation
+The rock quality index from the percentage of core pieces over 100 mm. :: RQD (rock quality designation)
+The tunnelling method that uses sprayed concrete and rock bolts. :: NATM (New Austrian Tunnelling Method)
+Concrete sprayed at high speed onto a surface. :: Shotcrete
+The TBM type that balances face pressure with excavated soil. :: Earth pressure balance (EPB) TBM
+The TBM type that supports the face with pressurised bentonite slurry. :: Slurry TBM
+The precast concrete rings that line a TBM tunnel. :: Segments (segmental lining)
+The underground wall built in a trench full of bentonite slurry. :: Diaphragm wall
+Building a structure from the top down while digging below. :: Top-down construction
+The project planning method that finds the longest chain of tasks. :: Critical path method (CPM)
+The amount of time a task can be delayed without delaying the project. :: Float (slack)
+Tasks on the critical path have this much float. :: Zero
+The scheduling method that uses three time estimates per activity. :: PERT
+The expected time in PERT, with optimistic a, most likely m and pessimistic b. :: (a + 4m + b)/6
+The bar chart that shows a project schedule. :: Gantt chart
+Shortening a project by adding resources to critical tasks. :: Crashing
+Doing tasks in parallel that were planned one after another. :: Fast-tracking
+The method that tracks cost and schedule with planned value, earned value and actual cost. :: Earned value management
+In earned value, CPI is earned value divided by this. :: Actual cost
+In earned value, SPI is earned value divided by this. :: Planned value
+The contract where one firm designs and builds the project. :: Design–build
+The traditional contract where design is done first, then bids are taken to build it. :: Design–bid–build
+The contract where the contractor is paid actual costs plus a fee. :: Cost-plus contract
+The contract with a fixed total price. :: Lump-sum contract
+The international family of standard construction contracts with coloured books. :: FIDIC
+The FIDIC book used for traditional employer-designed works. :: Red Book
+The FIDIC book used for EPC turnkey projects. :: Silver Book
+A formal change to the work under a contract. :: Variation (change order)
+The money held back from payments until defects are fixed. :: Retention
+The damages a contractor pays per day of late completion, fixed in the contract. :: Liquidated damages
+The period after handover when the contractor must fix defects. :: Defects liability period
+The financing model where a private firm builds, runs and later hands over a project. :: BOT (build–operate–transfer)
+A partnership between government and private companies for infrastructure. :: PPP (public–private partnership)
+The traffic model's four steps begin with trip generation and end with this. :: Traffic assignment
+The four-step model's step that splits trips between car, bus and rail. :: Mode choice
+The model of trip distribution named after Newton's law. :: Gravity model
+Equilibrium where no driver can cut travel time by changing route. :: Wardrop's user equilibrium
+The paradox where adding a road can make traffic worse. :: Braess's paradox
+Building more roads creates more traffic, an effect called this. :: Induced demand
+The minimum curve radius depends on design speed, superelevation and this. :: Side friction factor
+The safe passing distance on a two-lane road is called this. :: Passing sight distance
+The typical maximum superelevation on rural highways. :: 8 to 10%
+The nuclear gauge measures these two properties of compacted soil on site. :: Density and moisture content
+The plate load test measures a soil's bearing capacity and this. :: Settlement (subgrade modulus)
+A chain of survey lines with measured angles and distances between control points. :: Traverse
+The rule that shares out a traverse's closing error in proportion to line lengths. :: Bowditch (compass) rule
+Making maps and 3D models from overlapping aerial photos. :: Photogrammetry
+
+## 400
+The equation for consolidation in one dimension was published by Terzaghi in this year. :: 1925
+The book in which Terzaghi founded soil mechanics in 1925. :: Erdbaumechanik
+The factor that relates time to degree of consolidation. :: Time factor (Tv)
+For 50% consolidation, the time factor is about this. :: 0.197
+The critical state line in soil mechanics joins states where soil shears at constant this. :: Volume (and stress)
+The soil model developed at Cambridge from critical state theory. :: Cam clay
+The coefficient of earth pressure at rest for normally consolidated soil, by Jáky's formula. :: 1 − sin φ′
+Rankine's active earth pressure coefficient. :: (1 − sin φ)/(1 + sin φ) or tan²(45° − φ/2)
+The earth pressure theory that includes wall friction, older than Rankine's. :: Coulomb's wedge theory
+For a strip footing on clay with φ = 0, this bearing capacity factor equals 5.14. :: Nc
+The pile driving formula from energy and set, widely used but unreliable. :: Engineering News formula
+The pile analysis that models a hammer blow as a stress wave. :: Wave equation analysis (CAPWAP)
+The pile load test that applies load quickly using a reaction mass. :: Statnamic (rapid load) test
+The pile test that measures shaft integrity with a small hammer tap. :: Low-strain integrity (sonic echo) test
+Negative skin friction on piles happens when this settles more than the pile. :: Surrounding soil
+The group efficiency formula for friction piles. :: Converse–Labarre formula
+The method for estimating pile shaft friction in clay using an adhesion factor. :: Alpha method
+The method for pile shaft friction using effective stress. :: Beta method
+The method of slices that satisfies both moment and force equilibrium. :: Spencer's (or Morgenstern–Price) method
+The simplified slope method that satisfies only moment equilibrium for circular slips. :: Bishop's simplified method
+The pressure an embankment dam's core must resist from seepage. :: Pore water pressure
+The filter rule for drains that sets the size ratio D15 of filter to D85 of soil. :: Terzaghi's filter criterion (D15/D85 ≤ 4 to 5)
+The type of dam made of earth with a clay core. :: Embankment (earthfill) dam
+The concrete dam that relies on its own weight. :: Gravity dam
+The thin concrete dam curved upstream to push loads into the valley sides. :: Arch dam
+The dam built of roller-compacted concrete placed in layers. :: RCC dam
+The structure that safely passes floods over or around a dam. :: Spillway
+The flood used to design the spillway of a large dam. :: Probable maximum flood (PMF)
+The hydrograph method that turns rainfall excess into runoff. :: Unit hydrograph
+The simple peak runoff formula Q = CiA. :: Rational method
+The time for runoff to travel from the farthest point to the outlet. :: Time of concentration
+The statistical distribution often used for annual flood peaks. :: Gumbel distribution
+A flood that has a 1% chance of happening in any year. :: 100-year flood
+The chance of at least one 100-year flood in 100 years, roughly. :: About 63%
+The 2009 flood in this Saudi city killed over 100 people and led to new drainage projects. :: Jeddah
+The dry riverbeds in Arabia that flood after heavy rain. :: Wadis
+The large dam on Wadi Bisha in Asir region, one of the biggest in the Kingdom. :: King Fahd Dam
+The water treatment process that uses membranes with tiny pores to remove bacteria. :: Ultrafiltration
+The water treatment step that uses ozone or UV after filtration. :: Disinfection
+The by-products formed when chlorine reacts with organic matter. :: Disinfection by-products (THMs)
+The wastewater process that removes nitrogen using bacteria with and without oxygen. :: Nitrification–denitrification
+The wastewater technology that combines activated sludge with membranes. :: Membrane bioreactor (MBR)
+The ratio of food to microorganisms in activated sludge. :: F/M ratio
+The time that sludge stays in an activated sludge system. :: Sludge age (SRT)
+The anaerobic process that turns sludge into biogas. :: Anaerobic digestion
+The treated sewage effluent used for irrigation in Saudi cities. :: TSE (treated sewage effluent)
+The water distribution analysis software from the US EPA. :: EPANET
+Water lost from a network through leaks and theft. :: Non-revenue water
+The geometric design term for the horizontal offset needed for sight distance on a curve. :: Middle ordinate (sight offset)
+The equation for minimum radius: R = V² / (127 (e + f)), with V in this unit. :: km/h
+The length of a crest vertical curve is set by sight distance and the algebraic difference in this. :: Grades
+The ratio of curve length to grade change. :: K value
+The spiral curve used in highway and railway transitions. :: Clothoid (Euler spiral)
+The rail gauge used on the Haramain and most of the world's railways. :: 1,435 mm (standard gauge)
+The raised outer rail on a railway curve. :: Cant (superelevation)
+The crushed stone that supports railway sleepers. :: Ballast
+Track built on concrete slabs without ballast. :: Slab track (ballastless track)
+The term for continuous welded rail stress caused by heat. :: Thermal stress (rail buckling)
+The traffic flow model with a linear speed–density relationship. :: Greenshields model
+In the Greenshields model, maximum flow occurs at this fraction of jam density. :: One half
+The traffic wave theory treating flow as a fluid. :: Lighthill–Whitham–Richards (LWR) model
+The car-following model where drivers react to the vehicle ahead. :: Car-following (e.g. Gipps) model
+The delay formula for signalised intersections from the 1950s. :: Webster's delay formula
+The signal phase interval between green and red. :: Yellow (amber) change interval
+The volume-to-capacity ratio at which a road is at capacity. :: 1.0
+The pavement design method from the AASHO road test of the 1950s. :: AASHTO 1993 (empirical) method
+The mechanistic-empirical pavement design guide is abbreviated this. :: MEPDG
+The fourth power law of pavement damage says damage rises with axle load to this power. :: Fourth
+The binder grade PG 76-10 is commonly used in Saudi Arabia because of this. :: High pavement temperatures
+The device dragged behind a truck that measures pavement deflection with a falling weight. :: FWD (falling weight deflectometer)
+The polymer often added to bitumen to improve rutting resistance. :: SBS (styrene–butadiene–styrene)
+Asphalt mixed at lower temperatures to save energy. :: Warm mix asphalt
+The concrete strength class used for very tall buildings like the Burj Khalifa, roughly. :: About 80 MPa
+The structural system of the Burj Khalifa. :: Buttressed core
+The structural system of tall towers with a perimeter of closely spaced columns. :: Framed tube
+The structural system where the core is linked to outer columns by deep trusses. :: Outrigger system
+The lateral sway of a building's top divided by its height. :: Drift ratio
+The building code method that applies an equivalent static lateral force for earthquakes. :: Equivalent lateral force method
+The factor that reduces seismic forces for ductile structures. :: Response modification factor (R)
+The seismic design philosophy of 'strong column, weak beam' ensures this. :: Plastic hinges form in beams, not columns
+The approach to fire design that uses calculated fire behaviour instead of prescriptive rules. :: Performance-based fire design
+The intumescent paint on steel does this in a fire. :: Swells into an insulating char
+Steel loses about half its strength at this temperature. :: About 550 to 600 °C
+The life-cycle metric for embodied carbon of materials. :: kg CO₂e (embodied carbon)
+The US green building rating system. :: LEED
+The Saudi building sustainability rating system launched by the government. :: Mostadam
+The laser scanning method that maps terrain from aircraft or drones. :: LiDAR
+The map projection used for most national grids, in 6° zones. :: UTM (Universal Transverse Mercator)
+The surface close to mean sea level used as the reference for heights. :: Geoid
+GNSS heights are measured above this smooth mathematical surface. :: Ellipsoid
+The difference between ellipsoidal height and height above the geoid. :: Geoid undulation (geoid height)
+The GNSS technique that gives centimetre accuracy in real time using a base station. :: RTK (real-time kinematic)
+The reference ellipsoid and datum used by GPS. :: WGS 84
+Water rising to the surface of freshly placed concrete. :: Bleeding
+Coarse aggregate separating from the mortar in fresh concrete. :: Segregation
+Voids in hardened concrete caused by poor compaction. :: Honeycombing
+Thick concrete pours that need heat control to avoid cracking. :: Mass concrete
+Ultra-high-performance concrete has compressive strength above about this. :: 150 MPa
+The low-carbon cement blend made with calcined clay and limestone. :: LC3 (limestone calcined clay cement)
+Mass concrete specifications often limit the core-to-surface temperature difference to about this. :: 20 °C
+
+## 500
+The English engineer who first called himself a 'civil engineer' and founded the first engineering society in 1771. :: John Smeaton
+Smeaton rediscovered hydraulic lime when building this lighthouse. :: Eddystone Lighthouse
+The Scottish engineer who became the first president of the Institution of Civil Engineers in 1820. :: Thomas Telford
+The Scottish engineer whose road method used layers of small broken stones. :: John Loudon McAdam
+The word 'tarmac' comes from McAdam's name and this material. :: Tar
+The English engineer who built the Great Western Railway and the Clifton Suspension Bridge. :: Isambard Kingdom Brunel
+Brunel's father built the first tunnel under this river, opened in 1843. :: Thames
+The tunnelling device Marc Brunel invented for the Thames Tunnel. :: Tunnelling shield
+The French engineer who designed the Statue of Liberty's frame and a famous Paris tower. :: Gustave Eiffel
+The Eiffel Tower was built for the World's Fair in this year. :: 1889
+The 1883 bridge in New York built by John and Washington Roebling. :: Brooklyn Bridge
+The engineer's wife who managed the Brooklyn Bridge project when her husband fell ill. :: Emily Warren Roebling
+The illness that struck Washington Roebling and many workers in the bridge caissons. :: Decompression sickness (caisson disease)
+The Scottish railway bridge that collapsed in a storm in 1879. :: Tay Bridge
+The cantilever bridge in Scotland built after the Tay Bridge disaster, opened in 1890. :: Forth Bridge
+The Canadian bridge that collapsed in 1907 during construction, killing 75 workers. :: Quebec Bridge
+Canadian engineers wear an iron ring, reputedly linked to this disaster. :: Quebec Bridge collapse
+The 1981 walkway collapse at the Hyatt Regency hotel happened in this US city. :: Kansas City
+The Hyatt walkway failure was caused by a change in this detail. :: Hanger rod connection
+The 1968 London tower block partly collapsed by a gas explosion, leading to rules on progressive collapse. :: Ronan Point
+The 2018 bridge collapse in Genoa, Italy. :: Morandi Bridge (Ponte Morandi)
+The 2017 London tower fire that led to new cladding rules. :: Grenfell Tower
+The world's longest-span suspension bridge, opened in Turkey in 2022. :: 1915 Çanakkale Bridge
+The main span of the 1915 Çanakkale Bridge, in metres. :: 2,023 m
+The Japanese bridge that held the longest-span record from 1998 to 2022. :: Akashi Kaikyō Bridge
+The 55 km bridge–tunnel linking Hong Kong, Zhuhai and this city. :: Macau
+The longest railway tunnel in the world, under the Swiss Alps. :: Gotthard Base Tunnel
+The undersea railway tunnel between England and France, opened in 1994. :: Channel Tunnel
+The Pantheon's concrete dome gets lighter towards the top by using this volcanic aggregate. :: Pumice
+The Roman engineer whose De Architectura said buildings need firmness, usefulness and this. :: Beauty (venustas)
+The Ottoman architect who built the Süleymaniye Mosque in Istanbul. :: Mimar Sinan
+The Great Mosque of Samarra's famous spiral minaret is called this. :: Malwiya
+The 7th-century dam in the Taif region with an inscription from the time of Caliph Muawiya. :: Saysad Dam
+The ancient dam in Yemen whose collapse is mentioned in the Qur'an. :: Ma'rib Dam
+The Nabataean site in Saudi Arabia with tombs carved into sandstone. :: Hegra (Al-Hijr)
+The old mud-brick capital of the first Saudi state, a UNESCO site. :: At-Turaif (Diriyah)
+The traditional building material of Najd, sun-dried mud brick. :: Adobe (libn)
+The coral stone and wooden 'rawashin' are typical of this historic Jeddah district. :: Al-Balad
+The Riyadh landmark tower with a 'bridge' at the top. :: Kingdom Centre
+The Riyadh tower designed by Norman Foster, completed in 2000. :: Al Faisaliah Tower
+The engineering firm that designed the Burj Khalifa's structure. :: Skidmore, Owings & Merrill (SOM)
+The structural engineer who led Burj Khalifa's design at SOM. :: Bill Baker
+The height of the Burj Khalifa, to the nearest metre. :: 828 m
+The Jeddah Tower is designed to be at least this tall. :: 1,000 m (1 km)
+The architect of the Jeddah Tower, who also designed the Burj Khalifa's architecture with SOM. :: Adrian Smith
+The number of lines in the Riyadh Metro. :: Six
+The total length of the Riyadh Metro network, roughly. :: About 176 km
+The year the Riyadh Metro opened to passengers. :: 2024
+The top operating speed of the Haramain High-Speed Railway. :: 300 km/h
+The length of the Haramain High-Speed Railway, roughly. :: About 450 km
+The Saudi railway linking Riyadh to the northern phosphate and border region. :: North–South Railway
+The planned railway linking the Red Sea and the Gulf across Saudi Arabia. :: Saudi Landbridge
+The width of The Line at NEOM, as planned. :: 200 m
+The planned height of The Line, as first announced. :: 500 m
+The NEOM project of floating industrial city in Tabuk province. :: Oxagon
+The NEOM mountain resort that is to host the 2029 Asian Winter Games. :: Trojena
+The Riyadh park project planned as one of the world's largest city parks. :: King Salman Park
+The Saudi project to build a giant cube-shaped skyscraper in Riyadh. :: Mukaab
+The Expo that Riyadh will host. :: Expo 2030
+The Riyadh stadium planned for the 2034 World Cup opening match and final. :: King Salman International Stadium
+The huge expansion project around the Grand Mosque in Makkah. :: Third Saudi Expansion
+The tensile fabric roof terminal at Jeddah airport designed for pilgrims, completed in 1981. :: Hajj Terminal
+The engineer who designed the Hajj Terminal roof with SOM. :: Fazlur Rahman Khan
+The pedestrian bridge in Mina built to ease crowd flow at the Jamarat. :: Jamarat Bridge
+The number of floors in the Jamarat Bridge building, including the ground. :: Five
+The Saudi rail line linking Makkah's holy sites during Hajj. :: Al Mashaaer Al Mugaddassah Metro
+The ancient wells and channels used to bring water to Makkah, built by Zubaida. :: Ain Zubaida (Zubaida's spring)
+The wife of Harun al-Rashid who funded the pilgrim road from Kufa to Makkah. :: Zubaida bint Ja'far
+The 1,400 km pilgrim road from Kufa to Makkah named after her. :: Darb Zubaida
+The 1908 railway from Damascus to Madinah. :: Hejaz Railway
+The Hejaz Railway's main station building in Madinah is now this. :: Museum
+The US Army engineer who completed the Panama Canal in 1914 as chief engineer. :: George Washington Goethals
+The French diplomat who led the building of the Suez Canal. :: Ferdinand de Lesseps
+The Dutch sea defence project after the 1953 flood. :: Delta Works
+The Chinese dam on the Yangtze that is also the world's largest power station. :: Three Gorges Dam
+The Egyptian dam completed in 1970 that formed Lake Nasser. :: Aswan High Dam
+The ancient temple complex moved to save it from Lake Nasser. :: Abu Simbel
+The Dutch storm surge barrier near Rotterdam with two huge swinging arms. :: Maeslantkering
+The Persian engineer al-Karaji wrote this 11th-century book on finding and tapping groundwater. :: The Extraction of Hidden Waters
+The Islamic scholar Ibn al-Haytham proposed damming this river in the 11th century. :: Nile
+The Abbasid round city founded by al-Mansur in 762. :: Baghdad
+The ancient Persian Royal Road ran from Susa to this city. :: Sardis
+The Inca road system is called this. :: Qhapaq Ñan
+China's Grand Canal links Beijing with this southern city. :: Hangzhou
+The number of bored piles under the Burj Khalifa tower, roughly. :: 192
+The 1999 earthquake near İzmit, Turkey, that collapsed many buildings. :: Kocaeli (İzmit) earthquake
+The moment magnitude of the first February 2023 Turkey–Syria earthquake. :: 7.8
+The engineer called the father of the skyscraper for Chicago's Home Insurance Building (1885). :: William Le Baron Jenney
+The Chicago architect who said 'form follows function'. :: Louis Sullivan
+The inventor whose safety elevator, shown in 1853, made skyscrapers practical. :: Elisha Otis
+The Empire State Building was built in roughly this long. :: About 13 months (410 days)
+The name of the Golden Gate Bridge's famous colour. :: International Orange
+The nickname of the Sydney Harbour Bridge. :: The Coathanger
+The Danish architect of the Sydney Opera House. :: Jørn Utzon
+The Anglo-Danish engineer whose firm solved the Sydney Opera House shells. :: Ove Arup
+The pipeline that carried Saudi oil across Arabia to Lebanon from 1950. :: Tapline (Trans-Arabian Pipeline)
+Saudi Arabia's East–West crude pipeline runs from Abqaiq to this Red Sea port. :: Yanbu
+The Panama Canal opened in this year. :: 1914
+The main span of the Brooklyn Bridge, roughly. :: About 486 m
+The Eiffel Tower's original height, roughly. :: About 300 m
