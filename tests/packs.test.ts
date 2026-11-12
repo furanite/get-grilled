@@ -75,8 +75,10 @@ describe('built-in question files', () => {
     it(`${f} has no problems`, () => {
       const r = parsePack(readFileSync(join(dir, f), 'utf8'), f)
       expect(r.errors).toEqual([])
-      // 100 per level, plus a few picture questions in some CCES categories
-      r.levels.forEach((l: unknown[]) => expect(l.length).toBeGreaterThanOrEqual(100))
+      // 100 per level, plus a few picture questions in some CCES categories.
+      // A category where every question is a picture (drawn by hand, e.g. flags) needs at least 30 per level.
+      const allPics = r.levels.every((l: { img?: string }[]) => l.every((q) => q.img))
+      r.levels.forEach((l: unknown[]) => expect(l.length).toBeGreaterThanOrEqual(allPics ? 30 : 100))
       for (const l of r.levels) for (const q of l as { img?: string }[]) if (q.img) expect(existsSync(join(dir, 'img', q.img.replace('packs/img/', ''))), q.img).toBe(true)
       const arPath = join(dir, 'ar', f)
       if (existsSync(arPath)) expect(mergeArabic(r.levels, readFileSync(arPath, 'utf8'), f).errors).toEqual([])
