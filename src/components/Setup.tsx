@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { CatIcon } from './Brand'
 import type { Category, CategorySummary, Game, Lang, PackGroup, PoolEdit } from '../lib/types'
 import type { Strings } from '../lib/i18n'
 import { num, qCount } from "../lib/i18n"
@@ -65,6 +66,7 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
     const playable = counts.length === 5 && counts.every((n) => n > 0)
     return (
       <button key={c.id} className="cat-pick" aria-pressed={order >= 0} disabled={!playable || (order < 0 && picked.length >= 6)} onClick={() => toggle(c.id)} style={{ ['--d' as string]: `${i * 40}ms` }} data-cat={c.id}>
+        <CatIcon id={c.builtIn ? c.id : 'custom'} />
         <b>{lang === 'ar' && c.nameAr ? c.nameAr : c.name}</b>
         {c.nameAr && <small lang={lang === 'ar' ? 'en' : 'ar'}>{lang === 'ar' ? c.name : c.nameAr}</small>}
         <small>
