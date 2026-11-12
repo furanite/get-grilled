@@ -5,14 +5,14 @@ import type { Game, Lang } from '../lib/types'
 import { VALUES } from '../lib/types'
 import type { Strings } from '../lib/i18n'
 import { num } from '../lib/i18n'
-import { adjustScore, isFinished, markUsed, score, tileKey } from '../lib/game'
+import { adjustScore, clueSeconds, isFinished, markUsed, score, tileKey } from '../lib/game'
 import { createPortal } from 'react-dom'
 import AdjustScores, { type Adjustment } from './AdjustScores'
 import { burst, burstAt, reducedMotion } from '../lib/fx'
 import { CONSENT_TEXT } from '../lib/legal'
 import { HOST_EDITION, type Live } from '../lib/edition'
 import { diagramSrc } from '../lib/diagram'
-import { TimerBar, type Clock } from './Timer'
+import { GameClock, TimerBar, type Clock } from './Timer'
 import { sfx } from '../lib/sound'
 
 interface Props {
@@ -35,6 +35,7 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
   const [open, setOpen] = useState<Open | null>(null)
   const [intro] = useState(() => game.used.length === 0)
   const [adjusting, setAdjusting] = useState(false)
+  const [confirmEnd, setConfirmEnd] = useState(false)
   const [adjustLog, setAdjustLog] = useState<Adjustment[]>([])
   const boardRef = useRef<HTMLDivElement>(null)
   const cols = game.cats.length
@@ -62,6 +63,21 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
     }, 700)
     return () => clearInterval(id)
   }, [])
+
+  // The whole-game clock: when it runs out, the game ends once no clue is open.
+  const [timeUp, setTimeUp] = useState(() => !!game.endsAt && Date.now() >= game.endsAt)
+  useEffect(() => {
+    if (!game.endsAt || timeUp) return
+    const id = setInterval(() => Date.now() >= game.endsAt! && setTimeUp(true), 500)
+    return () => clearInterval(id)
+  }, [game.endsAt, timeUp])
+  useEffect(() => {
+    if (timeUp && !open) {
+      sfx.timeUp()
+      const id = setTimeout(onEnd, 1800)
+      return () => clearTimeout(id)
+    }
+  }, [timeUp, open, onEnd])
 
   useEffect(() => {
     if (isFinished(game) && !open) {
@@ -100,16 +116,31 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
   return (
     <main className="stack">
       <div className="game-top">
-        <span className="label">
-          {num(left, lang)} {t.round}
+        <span className="row" style={{ gap: 12 }}>
+          <span className="label">
+            {num(left, lang)} {t.round}
+          </span>
+          {game.endsAt && <GameClock endsAt={game.endsAt} lang={lang} leftText={t.gameLeft} overText={t.gameOver} />}
         </span>
         <div className="game-top-actions">
           <button className="ghost" onClick={() => setAdjusting(true)} disabled={!!open} data-testid="adjust-open">
             {t.adjust}
           </button>
-          <button className="ghost" onClick={onEnd} data-testid="end">
-            {t.endGame}
-          </button>
+          {confirmEnd ? (
+            <span className="end-confirm" role="group" aria-label={t.endGame}>
+              <span className="end-q">{t.endConfirm}</span>
+              <button className="btn bad" onClick={onEnd} data-testid="end-confirm" autoFocus>
+                {t.endYes}
+              </button>
+              <button className="ghost" onClick={() => setConfirmEnd(false)}>
+                {t.cancel}
+              </button>
+            </span>
+          ) : (
+            <button className="ghost" onClick={() => setConfirmEnd(true)} disabled={!!open} data-testid="end">
+              {t.endGame}
+            </button>
+          )}
         </div>
       </div>
       {adjusting &&
@@ -176,6 +207,7 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
           lang={lang}
           game={game}
           open={open}
+          timeUp={timeUp}
           onState={setCardState}
           onJudge={(team, right) => {
             const clue = game.clues[open.c][open.l]
@@ -205,9 +237,10 @@ interface CardProps {
   onJudge: (team: number, right: boolean) => void
   onClose: (used: boolean) => void
   onState: (s: { revealed: boolean; clock: Clock | null }) => void
+  timeUp: boolean
 }
 
-function ClueCard({ t, lang, game, open, onJudge, onClose, onState }: CardProps) {
+function ClueCard({ t, lang, game, open, onJudge, onClose, onState, timeUp }: CardProps) {
   const ref = useRef<HTMLDivElement>(null)
   const [phase, setPhase] = useState<'opening' | 'open' | 'closing'>('opening')
   const [revealed, setRevealed] = useState(false)
@@ -217,7 +250,7 @@ function ClueCard({ t, lang, game, open, onJudge, onClose, onState }: CardProps)
   const cat = game.cats[open.c]
   const q = lang === 'ar' && clue.qAr ? clue.qAr : clue.q
   const a = lang === 'ar' && clue.aAr ? clue.aAr : clue.a
-  const timerSecs = game.settings.timer
+  const timerSecs = clueSeconds(game.settings, open.l, clue)
 
   const rectStyle = (el: Element) => {
     const r = el.getBoundingClientRect()
@@ -311,7 +344,7 @@ function ClueCard({ t, lang, game, open, onJudge, onClose, onState }: CardProps)
       <div ref={ref} className={`card${phase === 'open' ? ' open' : ''}${phase === 'closing' ? ' closing' : ''}${clue.golden && phase === 'open' ? ' golden' : ''}${cat.respect ? ' calm' : ''}`} role="dialog" aria-modal="true" aria-label={cat.name} data-testid="clue">
         <div className="card-in">
           <div className="meta">
-            <span>{lang === 'ar' && cat.nameAr ? cat.nameAr : cat.name}</span>
+            <span className="meta-cat"><CatIcon id={cat.id} />{lang === 'ar' && cat.nameAr ? cat.nameAr : cat.name}</span>
             <span className="row">
               {clue.golden && <span className="pill g">{t.golden}</span>}
               <span className="pill">{num(clue.value, lang)}</span>
@@ -356,6 +389,11 @@ function ClueCard({ t, lang, game, open, onJudge, onClose, onState }: CardProps)
               {t.close}
             </button>
           </div>
+          {timeUp && (
+            <p className="game-over-note" role="status" data-testid="game-over-note">
+              {t.gameOverSoon}
+            </p>
+          )}
           <p className="report" data-testid="report">
             {CONSENT_TEXT[lang].report}
           </p>

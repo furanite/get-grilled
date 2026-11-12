@@ -1,0 +1,514 @@
+id: fluids
+name: Fluid Mechanics
+nameAr: ميكانيكا الموائع
+group: engineering
+
+## 100
+A substance that deforms continuously under a shear stress. :: Fluid
+The two states of matter that count as fluids. :: Liquids and gases
+Mass per unit volume. :: Density
+The density of fresh water, in kg/m³, to the nearest hundred. :: 1,000 kg/m³
+A fluid's resistance to flowing, like honey's thickness. :: Viscosity
+Which is more viscous at room temperature: honey or water? :: Honey
+Standard atmospheric pressure at sea level, in kilopascals. :: About 101.3 kPa
+Pressure in a still liquid increases as you go this way. :: Deeper (downwards)
+The instrument that measures atmospheric pressure. :: Barometer
+The liquid metal used in a classic barometer. :: Mercury
+The Greek scientist who discovered the principle of buoyancy, supposedly in his bath. :: Archimedes
+The word Archimedes is said to have shouted, meaning 'I have found it'. :: Eureka
+A floating ship displaces a weight of water equal to this. :: Its own weight
+Objects float if their average density is this compared with the fluid. :: Less
+Why does ice float on water? :: Ice is less dense than water
+Pressure measured relative to the atmosphere. :: Gauge pressure
+Pressure measured relative to a perfect vacuum. :: Absolute pressure
+Absolute pressure equals gauge pressure plus this. :: Atmospheric pressure
+A space with no matter and zero pressure. :: Vacuum
+A tube bent in a U shape to measure pressure differences with a liquid column. :: U-tube manometer
+A machine that adds energy to a liquid to move it. :: Pump
+A machine that moves air or gas with a small pressure rise, like in a ceiling. :: Fan
+A machine that greatly raises the pressure of a gas. :: Compressor
+A device that opens, closes or controls flow in a pipe. :: Valve
+The valve that lets flow go only one way. :: Check valve (non-return valve)
+The volume of fluid passing a point per second. :: Volume flow rate (discharge)
+The SI unit of volume flow rate. :: Cubic metres per second (m³/s)
+Smooth, orderly flow in parallel layers. :: Laminar flow
+Chaotic, swirling flow with eddies. :: Turbulent flow
+A fluid whose density does not change with pressure. :: Incompressible fluid
+For most purposes, liquids are treated as this. :: Incompressible
+A whirling, swirling region of fluid, like a whirlpool. :: Vortex
+The force that resists an object moving through a fluid. :: Drag
+The force that holds an aeroplane up. :: Lift
+The four forces on an aeroplane in flight. :: Lift, weight, thrust, drag
+The cross-section shape of a wing. :: Aerofoil (airfoil)
+A shape designed to reduce drag, like a teardrop. :: Streamlined
+The tunnel engineers use to blow air over models. :: Wind tunnel
+The speed of an object relative to the speed of sound. :: Mach number
+Flying faster than the speed of sound. :: Supersonic
+The loud bang when a supersonic aircraft passes. :: Sonic boom
+The speed of sound in air at about 20 °C, in m/s. :: About 343 m/s
+The property that lets insects walk on water. :: Surface tension
+A liquid rising up a thin tube by itself. :: Capillary action
+The curved surface of water in a glass tube. :: Meniscus
+The pressure law that explains how hydraulic car lifts work. :: Pascal's law (principle)
+Pressure applied to an enclosed fluid is passed on equally in all these. :: Directions
+Systems that use pressurised liquids to transmit power. :: Hydraulics
+Systems that use compressed air to transmit power. :: Pneumatics
+The liquid usually used in car brake systems. :: Brake fluid (hydraulic fluid)
+A dam stores water to make electricity at this kind of plant. :: Hydroelectric power plant
+Why are dams thicker at the bottom? :: Water pressure is higher at greater depth
+The gauge that shows tyre pressure is usually in bar or this unit. :: psi (pounds per square inch)
+A device that measures how fast a fluid is flowing. :: Flow meter
+The study of fluids at rest. :: Fluid statics (hydrostatics)
+The study of fluids in motion. :: Fluid dynamics
+The study of air flowing around objects. :: Aerodynamics
+The study of water flowing in rivers, pipes and channels. :: Hydraulics
+Water boils at a lower temperature here than at sea level. :: High altitude (mountains)
+The equation for pressure at depth in a still liquid. :: p = ρgh
+In p = ρgh, the letter ρ stands for this. :: Density
+Atmospheric pressure does this as you climb higher. :: Decreases
+The force per unit area that wind puts on a building. :: Wind pressure (wind load)
+A bent tube that carries liquid up over a rim and down to a lower level with no pump. :: Siphon
+Siphons work because of this difference. :: Pressure difference (height difference)
+Water flowing out of a tap faster if the tank is higher shows this energy. :: Potential (head) energy
+The height of a liquid column that represents a pressure. :: Head (pressure head)
+A simple open water channel, like a drain beside a road. :: Open channel (gutter)
+Pipes lined up one after another. :: Pipes in series
+Pipes that split the flow between two or more branches. :: Pipes in parallel
+A pump that spins an impeller to push fluid outwards. :: Centrifugal pump
+The rotating part of a centrifugal pump. :: Impeller
+A pump that traps fixed volumes of fluid, like a piston or gear pump. :: Positive displacement pump
+A water turbine is the opposite of this machine. :: Pump
+Fish and submarines control depth by changing this. :: Buoyancy (density)
+The tanks a submarine floods to dive. :: Ballast tanks
+The line painted on a ship's hull showing the safe loading depth. :: Plimsoll line (load line)
+Salt water is denser than fresh water, so ships float this way in it. :: Higher
+The sea with water so salty that people float easily. :: Dead Sea
+The force of air on a parachute. :: Drag
+Birds fly in this shape partly to save energy in each other's wake. :: V formation
+A fluid that keeps the same viscosity whatever the shear rate. :: Newtonian fluid
+Ketchup, which flows more easily when shaken, is this kind of fluid. :: Non-Newtonian fluid
+Cornflour and water that turns solid when hit is this kind of fluid. :: Shear-thickening (dilatant)
+The flow pattern lines that show the path of fluid particles in steady flow. :: Streamlines
+Smoke or dye added to a flow so engineers can see it. :: Flow visualisation
+The gas that fills most party balloons so they float. :: Helium
+Hot air balloons rise because hot air is this. :: Less dense than cold air
+The fluid property 'cP' or 'Pa·s' measures. :: Dynamic viscosity
+The air pressure in a jet airliner cabin at cruise is kept like this altitude. :: About 1,800 to 2,400 m (6,000 to 8,000 ft)
+The name for water pressure that pushes a water main or city supply. :: Mains pressure (water pressure)
+A raised tank that gives a town water pressure by gravity. :: Water tower
+The device that sprays fuel as a fine mist. :: Injector (atomiser)
+The pipe shape fitted to a hose to make the water shoot faster. :: Nozzle
+Liquid flowing over a surface leaves a thin layer that sticks to the wall because of this. :: No-slip condition
+Pressure equals force divided by this. :: Area
+The force that makes a helium balloon rise. :: Buoyancy
+The unit kPa stands for this. :: Kilopascal
+One kilopascal equals this many pascals. :: 1,000
+Pressure at the bottom of a pool depends on depth, not on this. :: The pool's width (shape)
+
+## 200
+The ratio of a substance's density to that of water. :: Specific gravity (relative density)
+The specific gravity of mercury, roughly. :: 13.6
+Weight per unit volume. :: Specific weight
+Specific weight of water, in kN/m³. :: About 9.81 kN/m³
+Dynamic viscosity divided by density. :: Kinematic viscosity
+The SI unit of kinematic viscosity. :: m²/s
+The SI unit of dynamic viscosity. :: Pascal-second (Pa·s)
+The older unit of dynamic viscosity, equal to 0.1 Pa·s. :: Poise
+The viscosity of water at 20 °C, in centipoise, roughly. :: About 1 cP
+The viscosity of a liquid does this when it is heated. :: Decreases
+The viscosity of a gas does this when it is heated. :: Increases
+Newton's law of viscosity says shear stress equals viscosity times this. :: Velocity gradient (shear rate)
+Mass flow rate equals density times velocity times this. :: Area
+The principle stating that mass flowing in equals mass flowing out in steady flow. :: Continuity equation
+If a pipe narrows to half its area, the speed of an incompressible flow does this. :: Doubles
+The equation relating pressure, speed and height along a streamline. :: Bernoulli's equation
+Bernoulli's equation says faster flow means this. :: Lower pressure
+The Swiss mathematician who published Hydrodynamica in 1738. :: Daniel Bernoulli
+Bernoulli's equation assumes flow that is steady, incompressible and this. :: Inviscid (frictionless)
+The velocity of liquid draining from a hole at depth h. :: √(2gh) (Torricelli's law)
+The Italian who invented the mercury barometer in 1643. :: Evangelista Torricelli
+The tube pointing into a flow that measures stagnation pressure. :: Pitot tube
+Aircraft measure airspeed with this device. :: Pitot-static tube
+The pressure at a point where the flow is brought to rest. :: Stagnation pressure
+Half of density times velocity squared. :: Dynamic pressure
+A pipe flow meter with a smooth narrow throat. :: Venturi meter
+A flow meter made of a thin plate with a hole. :: Orifice plate
+A tapered vertical tube with a float that rises with flow. :: Rotameter
+A flow meter that uses a magnetic field and conducting liquids. :: Electromagnetic (mag) flow meter
+A flow meter that times sound waves sent with and against the flow. :: Ultrasonic (transit-time) flow meter
+The ratio of actual discharge to ideal discharge through an orifice. :: Discharge coefficient
+The narrowest point of the jet just after a sharp orifice. :: Vena contracta
+Reynolds number is velocity times length divided by this. :: Kinematic viscosity
+Flow in a pipe is usually laminar below a Reynolds number of about this. :: 2,000 to 2,300
+The parabolic velocity profile of laminar pipe flow is called this. :: Poiseuille (Hagen–Poiseuille) flow
+In laminar pipe flow, the maximum velocity is this many times the average. :: 2
+The thin layer near a wall where viscosity slows the flow. :: Boundary layer
+The equation for head loss from friction in pipes. :: Darcy–Weisbach equation
+The chart engineers use to find the friction factor in pipes. :: Moody chart (diagram)
+For laminar pipe flow, the Darcy friction factor equals 64 divided by this. :: Reynolds number
+Losses at bends, valves and fittings are called these. :: Minor losses
+Losses from wall friction along a straight pipe are called these. :: Major losses
+The empirical pipe flow formula with a 'C' coefficient used in water networks. :: Hazen–Williams equation
+The open-channel flow formula with a roughness coefficient n. :: Manning's equation
+Doubling the flow rate in turbulent pipe flow roughly multiplies head loss by this. :: Four
+Pressure drop in laminar flow depends on viscosity, length, flow rate and this to the fourth power. :: Pipe diameter (radius)
+Tiny vapour bubbles that form and collapse in low-pressure areas of pumps. :: Cavitation
+Cavitation damages pump impellers by this kind of erosion. :: Pitting
+The pressure at which a liquid boils at a given temperature. :: Vapour pressure
+The margin of inlet pressure above vapour pressure that a pump needs. :: NPSH (Net Positive Suction Head)
+The sudden pressure surge when a valve closes quickly. :: Water hammer
+The device that absorbs water hammer, often a tall open pipe. :: Surge tank
+The graph of pump head against flow rate. :: Pump characteristic (performance) curve
+Where the pump curve meets the system curve. :: Operating point (duty point)
+Connecting two identical pumps in parallel mainly increases this. :: Flow rate
+Connecting two identical pumps in series mainly increases this. :: Head (pressure)
+The rules that relate pump flow, head and power to speed. :: Affinity laws (pump laws)
+By the affinity laws, pump power varies with speed to this power. :: Cube
+By the affinity laws, pump head varies with speed to this power. :: Square
+Hydraulic power of a pump equals ρ g Q times this. :: Head (H)
+The force of a fluid on a submerged plane acts at this point. :: Centre of pressure
+The centre of pressure on a vertical wall is this compared with the centroid. :: Below it (deeper)
+A floating body is stable if this point is above its centre of gravity. :: Metacentre
+The distance between the centre of gravity and the metacentre. :: Metacentric height
+The centre of the displaced volume of a floating body. :: Centre of buoyancy
+The drag caused mainly by pressure differences behind a blunt body. :: Form (pressure) drag
+The drag caused by shear stress along a surface. :: Skin friction drag
+Drag force equals half ρ V² times area times this. :: Drag coefficient
+Golf balls have dimples to make this happen sooner. :: Turbulent boundary layer (delays separation)
+When the boundary layer leaves the surface. :: Flow separation
+When a wing's angle of attack is too high and lift suddenly drops. :: Stall
+The angle between a wing's chord and the oncoming air. :: Angle of attack
+The extra drag that comes with making lift, linked to wingtip vortices. :: Induced drag
+Upturned wingtips that reduce induced drag. :: Winglets
+Hinged surfaces on the trailing edge that add lift for take-off and landing. :: Flaps
+Mach number of 0.8 to 1.2 is called this regime. :: Transonic
+Above Mach 5. :: Hypersonic
+A thin region where pressure, density and temperature jump in supersonic flow. :: Shock wave
+The cone-shaped shock behind a supersonic object. :: Mach cone
+A flow whose properties at a point do not change with time. :: Steady flow
+A flow whose properties change from point to point along the path. :: Non-uniform flow
+The path traced by a single fluid particle over time. :: Pathline
+A line of dye injected continuously from one point. :: Streakline
+The pattern of alternating vortices shed behind a cylinder. :: Kármán vortex street
+The dimensionless number for free-surface flows like ships and rivers. :: Froude number
+The dimensionless number that compares inertia to surface tension. :: Weber number
+The dimensionless frequency of vortex shedding. :: Strouhal number
+Open-channel flow with a Froude number above 1. :: Supercritical flow
+The sudden rise in water level when fast shallow flow slows down. :: Hydraulic jump
+A barrier across a channel used to measure or control flow. :: Weir
+A V-notch weir is good for measuring this kind of flow. :: Small flows
+The flow meter flume that is used in irrigation channels and named after a US engineer. :: Parshall flume
+The pressure at a depth of 10 m of fresh water, in kPa gauge, roughly. :: About 98 kPa (about 1 atm)
+The water column height equal to one atmosphere, in metres. :: About 10.3 m
+Why can a suction pump not lift water more than about 10 m? :: Atmospheric pressure can only support about 10 m of water
+Hydraulic presses multiply force using this ratio. :: Ratio of piston areas
+Power in the wind varies with wind speed to this power. :: Cube
+The type of flow where viscous forces are tiny compared to inertia far from walls. :: Inviscid (potential) flow
+A fluid whose viscosity drops as it is stirred faster, like paint. :: Shear-thinning (pseudoplastic)
+Toothpaste that does not flow until pushed hard enough is this kind of fluid. :: Bingham plastic
+
+## 300
+The equations of motion for a viscous fluid. :: Navier–Stokes equations
+The Navier–Stokes equations come from applying this law to a fluid element. :: Newton's second law
+The equations of motion for an inviscid fluid. :: Euler equations
+Which Millennium Prize problem is about fluids? :: Navier–Stokes existence and smoothness
+The prize offered for solving a Millennium Prize problem. :: One million US dollars
+The method that finds dimensionless groups from the variables of a problem. :: Buckingham Pi theorem
+Making a small model behave like the full-size version. :: Similitude (dynamic similarity)
+Ship model tests usually match this dimensionless number. :: Froude number
+The dimensionless number that matters most for compressibility. :: Mach number
+Below this Mach number, air flow is usually treated as incompressible. :: About 0.3
+The ratio of the pressure force to inertia, used in pressure coefficients. :: Euler number
+The dimensionless number for the ratio of buoyancy to viscous forces in natural convection flows. :: Grashof number
+The thickness of a laminar boundary layer on a flat plate grows with distance to this power. :: One half (√x)
+The exact solution for the laminar flat-plate boundary layer. :: Blasius solution
+The boundary layer thickness that measures the missing mass flow. :: Displacement thickness
+The boundary layer thickness that measures the missing momentum. :: Momentum thickness
+The ratio of displacement thickness to momentum thickness. :: Shape factor
+On a flat plate, transition to turbulence usually happens near this Reynolds number. :: About 500,000
+The pressure gradient that encourages boundary layer separation. :: Adverse pressure gradient
+The law that turbulent velocity near a wall varies with the log of distance. :: Law of the wall (log law)
+The thin layer next to a wall where turbulent flow is dominated by viscosity. :: Viscous sublayer
+The implicit equation for the turbulent friction factor in pipes. :: Colebrook equation
+The explicit approximation to the Colebrook equation from 1983. :: Haaland equation
+A pipe's roughness height divided by its diameter. :: Relative roughness
+For fully rough turbulent pipe flow, the friction factor depends only on this. :: Relative roughness
+Four times the cross-section area divided by the wetted perimeter. :: Hydraulic diameter
+The hydraulic diameter of a square duct of side a. :: a
+The energy equation for pipes adds a pump head and subtracts this. :: Head loss (and turbine head)
+The kinetic energy correction factor for fully developed laminar pipe flow. :: 2
+The loss coefficient for a sudden pipe exit into a large tank. :: 1
+The loss coefficient for a sharp-edged pipe entrance, roughly. :: 0.5
+The method for solving flows in looped pipe networks by successive corrections. :: Hardy Cross method
+The momentum equation for a control volume is based on this principle. :: Reynolds transport theorem
+The force on a pipe bend comes from the change in this. :: Momentum
+The force of a water jet hitting a flat plate head-on equals ρ Q times this. :: Jet velocity
+A field whose curl is zero. :: Irrotational
+The function whose gradient gives the velocity in potential flow. :: Velocity potential
+The function whose contours are streamlines in 2D flow. :: Stream function
+Laplace's equation governs this kind of flow. :: Potential (irrotational, incompressible) flow
+Potential flow around a cylinder plus this gives lift. :: Circulation (a vortex)
+The theorem that lift per unit span equals ρ V Γ. :: Kutta–Joukowski theorem
+The condition that sets the circulation on an aerofoil with a sharp trailing edge. :: Kutta condition
+The paradox that an inviscid flow predicts zero drag on a body. :: d'Alembert's paradox
+Thin aerofoil theory predicts the lift coefficient slope as this per radian. :: 2π
+The curl of the velocity field. :: Vorticity
+Spinning balls curve in flight because of this effect. :: Magnus effect
+Circulation around a closed loop equals the flux of this through the loop. :: Vorticity (Stokes' theorem)
+The drag on a slow small sphere is 3πμDV, a result named after this person. :: George Stokes
+Stokes' drag law applies at Reynolds numbers below about this. :: 1
+The constant speed reached when drag equals weight. :: Terminal velocity
+The speed of sound in an ideal gas is the square root of this. :: γRT
+Stagnation temperature equals static temperature plus V² divided by this. :: 2cp
+The angle of a Mach cone relates to the Mach number by sin μ equals this. :: 1/M
+A shock wave perpendicular to the flow. :: Normal shock
+Across a normal shock, the Mach number changes from above 1 to this. :: Below 1
+Across a normal shock, this property drops even though total temperature stays constant. :: Stagnation (total) pressure
+A shock at an angle to the flow, as on a wedge. :: Oblique shock
+The fan of waves that turns supersonic flow around a convex corner. :: Prandtl–Meyer expansion
+Adiabatic flow with friction in a constant-area duct. :: Fanno flow
+Frictionless flow with heat addition in a constant-area duct. :: Rayleigh flow
+Pump specific speed is used to choose this. :: Pump type (radial, mixed or axial)
+The water turbine for high head and low flow, with buckets hit by jets. :: Pelton wheel
+The reaction water turbine used for medium heads in many dams. :: Francis turbine
+The propeller-like water turbine with adjustable blades for low heads. :: Kaplan turbine
+Ideal Pelton wheel efficiency is greatest when bucket speed is this fraction of jet speed. :: One half
+The equation that gives the ideal head of a turbomachine from blade velocities. :: Euler turbomachine equation
+The diagram of absolute, blade and relative velocities in a turbomachine. :: Velocity triangle
+A diverging duct that slows a flow to recover pressure. :: Diffuser
+The pump casing that collects flow from the impeller and turns speed into pressure. :: Volute
+The unstable condition where compressor flow suddenly reverses and pulses. :: Surge
+Fluid flow in a pipe has a velocity profile that becomes fully developed after this length. :: Entrance length
+For laminar flow, the entrance length is about 0.06 times Re times this. :: Diameter
+The 'p + ½ρV² + ρgz = constant' terms each have these units. :: Pressure (pascals)
+The line on a pipe system drawing showing total head. :: Energy grade line (EGL)
+The line showing the pressure plus elevation head. :: Hydraulic grade line (HGL)
+The difference between the EGL and the HGL. :: Velocity head (V²/2g)
+The flow depth at which specific energy is a minimum. :: Critical depth
+In a rectangular channel, critical depth equals the cube root of q² divided by this. :: g
+The ratio of downstream to upstream depth in a hydraulic jump depends only on this. :: Upstream Froude number
+Gradually varied flow profiles in open channels are labelled M, S, C, H and this. :: A (adverse)
+The best hydraulic rectangular channel has width equal to this times the depth. :: Two
+Sediment transport starts when bed shear stress exceeds this value. :: Critical shear stress (Shields)
+The flow around buildings that can cause strong winds at street level. :: Downwash (wind tunnel effect)
+The resonant shaking of a structure caused by vortex shedding. :: Vortex-induced vibration
+The self-exciting aerodynamic instability that destroyed the Tacoma Narrows Bridge. :: Aeroelastic flutter
+The fluid property that makes a column of liquid in a narrow tube stand higher than outside. :: Surface tension (capillarity)
+The capillary rise in a tube is inversely proportional to this. :: Tube radius
+The extra pressure inside a soap bubble compared with a droplet of the same radius. :: Twice as much
+The pressure jump across a curved interface is given by this equation. :: Young–Laplace equation
+The numerical method that solves fluid flow on a mesh by computer. :: CFD (computational fluid dynamics)
+The CFD approach that solves time-averaged equations with a turbulence model. :: RANS
+The popular two-equation turbulence model with turbulent kinetic energy and dissipation. :: k–epsilon model
+The CFD method that resolves large eddies and models only small ones. :: LES (large eddy simulation)
+Solving the Navier–Stokes equations with no turbulence model at all. :: DNS (direct numerical simulation)
+The method that measures velocity fields by photographing seeded particles with lasers. :: PIV (particle image velocimetry)
+A thin heated wire that measures fast velocity fluctuations. :: Hot-wire anemometer
+Turbulent flow can be split into a mean and this. :: Fluctuating part
+Additional stresses that appear when the Navier–Stokes equations are time-averaged. :: Reynolds stresses
+The pressure rise in a diffuser divided by the inlet dynamic pressure. :: Pressure recovery coefficient
+The ratio cp/cv is written with this Greek letter. :: Gamma (γ)
+
+## 400
+The ratio of the largest to smallest turbulent eddy sizes grows with Re to this power. :: 3/4
+The smallest scales of turbulence are named after this Russian scientist. :: Andrey Kolmogorov
+The year of Kolmogorov's famous papers on turbulence scales. :: 1941
+The process where large eddies pass energy down to smaller ones. :: Energy cascade
+The poem by Lewis Fry Richardson: 'Big whorls have little whorls that feed on their' this. :: Velocity
+The turbulence model that relates Reynolds stresses to a 'mixing length'. :: Prandtl's mixing length model
+The assumption that turbulent stresses act like a larger viscosity. :: Boussinesq (eddy viscosity) hypothesis
+The two-equation turbulence model popular for adverse pressure gradients that blends k–ω and k–ε. :: SST k–omega model (Menter)
+The one-equation turbulence model widely used for aerospace external flows. :: Spalart–Allmaras model
+The dimensionless wall distance used to check CFD mesh near walls. :: y+ (y plus)
+The log law's von Kármán constant is about this. :: 0.41
+The CFD algorithm for pressure–velocity coupling with 'Semi-Implicit' in its name. :: SIMPLE
+The CFD discretisation method that conserves fluxes cell by cell. :: Finite volume method
+The stability condition linking time step, velocity and cell size in explicit CFD. :: CFL (Courant) condition
+The Courant number is usually kept below this for explicit schemes. :: 1
+The CFD method that tracks free surfaces by the fraction of fluid in each cell. :: Volume of fluid (VOF)
+The mesh-free method that models fluids as moving particles. :: SPH (smoothed particle hydrodynamics)
+The method that simulates fluids with particle distribution functions on a lattice. :: Lattice Boltzmann method
+The equation for a laminar falling film or flow down an incline gives a velocity profile of this shape. :: Half-parabola (parabolic)
+The flow between two plates where one moves and the other is fixed. :: Couette flow
+The flow between two rotating cylinders that forms toroidal vortices. :: Taylor–Couette flow
+The instability where a heavy fluid sits on top of a light one. :: Rayleigh–Taylor instability
+The instability at the interface of two fluids moving at different speeds. :: Kelvin–Helmholtz instability
+The convection cells formed in a fluid layer heated from below. :: Rayleigh–Bénard convection
+Rayleigh–Bénard convection starts above a critical Rayleigh number of about this for rigid boundaries. :: 1,708
+The instability that breaks a thin stream of water into droplets. :: Plateau–Rayleigh instability
+The law for flow through porous media like soil. :: Darcy's law
+The property of a porous material that measures how easily fluid passes. :: Permeability
+The unit of permeability used in the oil industry. :: Darcy
+The equation for pressure drop through a packed bed of particles. :: Ergun equation
+The minimum gas speed needed to make a bed of particles act like a fluid. :: Minimum fluidisation velocity
+The non-Newtonian model where stress equals K times shear rate to the power n. :: Power-law model
+A fluid whose viscosity decreases with time at constant shear, like yoghurt. :: Thixotropic
+A fluid whose viscosity increases with time at constant shear. :: Rheopectic
+Fluids that show both viscous and elastic behaviour, like polymer melts. :: Viscoelastic fluids
+The polymer solution effect where fluid climbs up a rotating rod. :: Weissenberg effect (rod climbing)
+The dimensionless number comparing a fluid's relaxation time to the flow time. :: Deborah number
+The effect where adding tiny amounts of polymer cuts turbulent pipe friction greatly. :: Drag reduction (Toms effect)
+The pipeline used to carry crude oil across Alaska, which uses drag-reducing agents. :: Trans-Alaska Pipeline
+The law relating wall tension, pressure and radius in a blood vessel. :: Laplace's law
+Blood is a non-Newtonian fluid that is shear-thinning mainly because of these cells. :: Red blood cells
+The effect where blood's apparent viscosity falls in very narrow tubes. :: Fåhræus–Lindqvist effect
+The dimensionless number for pulsating flow in arteries. :: Womersley number
+The flow of a fluid near a spinning disk that pumps fluid outward. :: Von Kármán swirling flow
+The circulation theorem saying circulation stays constant for an inviscid barotropic fluid. :: Kelvin's circulation theorem
+The theorems saying vortex lines move with the fluid and cannot end inside it. :: Helmholtz's vortex theorems
+The equation for the velocity induced by a vortex filament, borrowed from electromagnetism. :: Biot–Savart law
+The model that represents a wing by a bound vortex and trailing vortices. :: Prandtl's lifting-line theory
+The wing planform that gives minimum induced drag in lifting-line theory. :: Elliptical
+The fighter aircraft famous for its elliptical wing. :: Supermarine Spitfire
+The transformation that maps a circle to an aerofoil shape. :: Joukowski transformation
+The NACA aerofoil series whose 4 digits give camber, its position and thickness. :: NACA four-digit series
+In a NACA 2412 aerofoil, the last two digits mean this. :: 12% thickness-to-chord ratio
+Wing sweep delays this effect at high subsonic speeds. :: Compressibility drag rise
+The Mach number where local flow first reaches Mach 1 on a wing. :: Critical Mach number
+The rule that a transonic aircraft's cross-section area should vary smoothly along its length. :: Area rule (Whitcomb)
+The aerofoil designed to delay transonic shock formation, developed by Whitcomb. :: Supercritical aerofoil
+The pressure ratio across a nozzle at which the flow first chokes for air. :: About 0.528
+The mass flow through a choked nozzle depends on stagnation pressure, temperature and this. :: Throat area
+The area–Mach relation shows that sonic flow can only occur at this point in a nozzle. :: The throat (minimum area)
+An over-expanded nozzle produces this pattern of bright diamonds in its exhaust. :: Shock diamonds (Mach diamonds)
+The ratio of a hypersonic flow's kinetic energy to dissociation energy matters because air does this. :: Dissociates (real-gas effects)
+The aircraft engine that compresses air using only the vehicle's speed. :: Ramjet
+A ramjet with supersonic combustion. :: Scramjet
+The NASA experimental scramjet that flew at nearly Mach 9.6 in 2004. :: X-43A
+The problem where aerodynamic loads twist a wing so much that aileron roll control works backwards. :: Control (aileron) reversal
+The Reynolds number based on wall friction velocity, used in DNS of channel flows. :: Friction Reynolds number (Re_tau)
+The friction velocity equals the square root of wall shear stress divided by this. :: Density
+The 1/7th power law describes this. :: Turbulent velocity profile in pipes
+The empirical formula f = 0.316/Re^0.25 for smooth pipes is named after this engineer. :: Blasius
+The equation that relates pressure drop in a pipe to the flow rate for laminar flow. :: Hagen–Poiseuille equation
+The wave speed of water hammer in a rigid pipe equals the square root of bulk modulus divided by this. :: Density
+The equation for the pressure rise in water hammer, ρ times wave speed times velocity change. :: Joukowsky equation
+The modulus that measures a fluid's resistance to compression. :: Bulk modulus
+The bulk modulus of water, roughly, in GPa. :: About 2.2 GPa
+The speed of sound in water, in m/s, roughly. :: About 1,480 m/s
+Shallow-water waves travel at a speed equal to the square root of this. :: g times depth
+The giant ocean wave that travels as a shallow-water wave across ocean basins. :: Tsunami
+The solitary wave first observed by John Scott Russell on a canal in 1834. :: Soliton
+The wave whose speed depends on wavelength, as for deep water waves. :: Dispersive wave
+The deep-water wave speed equals the square root of g times wavelength divided by this. :: 2π
+The force caused by Earth's rotation that deflects winds and currents. :: Coriolis force
+The dimensionless number for the importance of rotation in a flow. :: Rossby number
+The wind that blows parallel to isobars when pressure and Coriolis forces balance. :: Geostrophic wind
+The spiral in velocity in the ocean's surface layer caused by wind and rotation. :: Ekman spiral
+The column of fluid that moves with a rotating body as if solid in rotating flows. :: Taylor column
+The equation that describes the free surface of a liquid in a rotating bucket. :: Paraboloid
+The air pressure trick that lets a skirt hovercraft float on a cushion. :: Air cushion (plenum)
+The pump that lifts water using an inclined screw in a pipe, invented in antiquity. :: Archimedes' screw
+The pump that uses one fluid jet to entrain and pump another. :: Jet pump (ejector)
+The microfluidic regime where flows are dominated by viscosity, at very low Re. :: Stokes (creeping) flow
+The 'scallop theorem' says a swimmer at low Reynolds number cannot move with motion that is this. :: Reciprocal (time-reversible)
+The physicist who gave the famous 1976 lecture 'Life at Low Reynolds Number'. :: Edward Purcell
+The pump efficiency drop seen when pumping viscous oil instead of water is corrected using charts from this US institute. :: Hydraulic Institute
+The lift coefficient of a typical aerofoil stalls at an angle of attack of roughly this. :: About 15 degrees
+The high-lift devices on a wing's leading edge that open a gap to delay stall. :: Slats
+The dimensionless number comparing gravity to inertia in density-stratified flows. :: Richardson number
+The wave sent upstream when a sluice gate in a channel is suddenly closed. :: Positive surge wave
+The sloshing standing wave in a closed basin like a lake or harbour. :: Seiche
+The sharp front of water that runs up some rivers with the rising tide. :: Tidal bore
+
+## 500
+The French engineer who first derived the viscous flow equations in 1822. :: Claude-Louis Navier
+The Irish-born mathematician who derived the viscous flow equations independently in 1845. :: George Gabriel Stokes
+The German physicist whose 1839 experiments on flow in tubes were later joined with Poiseuille's. :: Gotthilf Hagen
+The French physician who studied blood flow and gave his name to laminar pipe flow. :: Jean Léonard Marie Poiseuille
+The British engineer whose 1883 dye experiments showed the transition to turbulence. :: Osborne Reynolds
+The university where Osborne Reynolds was the first professor of engineering. :: Owens College, Manchester
+The engineer called 'the father of modern aerodynamics' for the boundary layer. :: Ludwig Prandtl
+The university where Prandtl did most of his work. :: University of Göttingen
+The Hungarian-American engineer who explained vortex streets and co-founded JPL. :: Theodore von Kármán
+The Swiss mathematician who wrote the Euler equations of fluid motion in 1757. :: Leonhard Euler
+The French mathematician who stated his famous paradox about drag in 1752. :: Jean le Rond d'Alembert
+The Dutch-Swiss family member whose father Johann accused him of plagiarism over hydraulics. :: Daniel Bernoulli
+The book by Johann Bernoulli that he backdated to seem earlier than his son's. :: Hydraulica
+The French scientist who stated that pressure acts equally in all directions, in 1653. :: Blaise Pascal
+The Italian scientist whose 1628 book on flowing water first stated a form of the continuity principle. :: Benedetto Castelli
+The French engineer who described the pressure loss formula with 'friction factor' in 1857 along with Weisbach. :: Henry Darcy
+The city whose public fountains Henry Darcy designed, leading to Darcy's law. :: Dijon
+The German who published the friction equation in 1845 that is now joined with Darcy's name. :: Julius Weisbach
+The American engineer whose 1944 diagram plotted friction factor against Reynolds number. :: Lewis Ferry Moody
+The British engineer whose 1939 formula combined smooth and rough pipe laws. :: Cyril Frank Colebrook
+The German engineer whose sand-grain experiments in roughened pipes were published in 1933. :: Johann Nikuradse
+The Irish engineer who proposed the open-channel flow formula in 1889 used worldwide. :: Robert Manning
+The English engineer whose towing-tank tests in the 1870s led to the scaling of ship models. :: William Froude
+The Scottish engineer who measured ship resistance in a canal and saw the solitary wave. :: John Scott Russell
+The Czech physicist who first measured vortex shedding frequency in 1878. :: Vincenc Strouhal
+The Austrian physicist who photographed supersonic shock waves in 1887. :: Ernst Mach
+The Swiss engineer who first proposed the term 'Mach number' in 1929. :: Jakob Ackeret
+The Swedish engineer who invented the converging–diverging steam nozzle in the 1880s. :: Gustaf de Laval
+The US Air Force pilot who first broke the sound barrier in level flight in 1947. :: Chuck Yeager
+The rocket aircraft Yeager flew past Mach 1. :: Bell X-1
+The NASA engineer who discovered the area rule in 1952. :: Richard Whitcomb
+The English engineer whose 1907 book Aerodynamics anticipated Prandtl's lifting-line theory. :: Frederick Lanchester
+The Russian scientist called the 'father of Russian aviation' who co-discovered the circulation theory of lift. :: Nikolai Zhukovsky (Joukowski)
+The German mathematician whose 1902 condition explains how circulation forms on an aerofoil. :: Martin Kutta
+The British mathematician whose classic textbook Hydrodynamics first appeared in 1879 under a longer title. :: Horace Lamb
+In a famous, possibly apocryphal, quote Horace Lamb hoped heaven would explain quantum electrodynamics and this. :: Turbulence
+The US mathematician who first described the logarithmic overlap law of turbulent boundary layers. :: Clark Millikan
+The English scientist who proposed the turbulent energy cascade poem in 1922. :: Lewis Fry Richardson
+Richardson's 1922 book that proposed numerical weather forecasting. :: Weather Prediction by Numerical Process
+The British physicist whose 1923 experiments showed rotating cylinder flow vortices. :: G. I. Taylor
+G. I. Taylor estimated the yield of this 1945 event from photographs using dimensional analysis. :: Trinity atomic bomb test
+The 1940 US bridge failure filmed as the deck twisted apart in a moderate wind. :: Tacoma Narrows Bridge collapse
+The nickname of the original Tacoma Narrows Bridge. :: Galloping Gertie
+The University of Washington professor who was on the Tacoma Narrows Bridge studying it when it collapsed. :: Frederick Burt Farquharson
+The British engineer whose 1871 wind tunnel was the first ever built. :: Francis Herbert Wenham
+The brothers who built their own wind tunnel in 1901 to test wing shapes. :: Wright brothers
+The NACA lab founded in 1917 in Virginia, now a NASA centre. :: Langley
+The world's largest wind tunnel, at NASA Ames, has a test section of 80 by this many feet. :: 120
+The 17th-century Italian whose work on water flow from orifices led to Torricelli's law in 1643. :: Evangelista Torricelli
+The 1st-century Greek engineer who described the aeolipile, a steam reaction turbine. :: Hero of Alexandria
+The 9th-century Baghdad brothers who wrote the Book of Ingenious Devices with siphons and valves. :: Banū Mūsā
+Al-Jazari's water clock shaped like this animal, with a scribe and riders on its back. :: Elephant
+The Ottoman engineer who built the Kırkçeşme water supply and aqueducts for Istanbul. :: Mimar Sinan
+The traditional underground channels that carry groundwater by gravity in Iran and Arabia. :: Qanat (falaj, aflaj)
+The Oman irrigation channels inscribed as UNESCO World Heritage in 2006. :: Aflaj
+The ancient Nabataean city in Jordan famous for its rock-cut water channels and cisterns. :: Petra
+The Nabataean city in Saudi Arabia, a UNESCO site, with ancient wells and tombs. :: Hegra (Al-Hijr, Mada'in Salih)
+The ancient Roman aqueduct bridge in southern France with three tiers of arches. :: Pont du Gard
+The Roman water commissioner, appointed in 97 AD, who wrote De Aquaeductu. :: Sextus Julius Frontinus
+The US Navy ship model basin in Maryland named after an admiral and naval architect. :: David Taylor Model Basin
+The Japanese engineer who designed the drag-reducing 'Shinkansen nose' inspired by a kingfisher's beak. :: Eiji Nakatsu
+The first jet-powered car to break the sound barrier, in 1997. :: ThrustSSC
+The Kármán line, often used as the edge of space, is at this altitude. :: 100 km
+The 1928 St. Francis Dam failure happened in this US state. :: California
+The huge desalination and power plant on Saudi Arabia's Gulf coast north of Jubail. :: Ras Al-Khair
+The Saudi Saline Water Conversion Corporation was renamed this in 2023. :: Saudi Water Authority
+The desalination method that pushes seawater through a membrane under high pressure. :: Reverse osmosis
+Seawater reverse osmosis must overcome osmotic pressure of roughly this many bar. :: About 25 to 30 bar
+The device that recovers energy from reverse osmosis brine using rotating ceramic ducts. :: Pressure exchanger
+The thermal desalination method that boils seawater in many stages at falling pressures. :: Multi-stage flash (MSF)
+The most common rocket nozzle shape, a contoured curve rather than a straight cone. :: Bell nozzle
+The rocket nozzle design that adjusts to altitude using a central spike. :: Aerospike nozzle
+The Coandă effect is named after an engineer from this country. :: Romania
+The Coandă effect is the tendency of a jet to do this. :: Follow a nearby curved surface
+The dimensionless 'Bond number' compares gravity to this. :: Surface tension
+The dimensionless number comparing advection to diffusion of mass. :: Péclet number
+The dimensionless number comparing viscous to surface tension forces, used for coating. :: Capillary number
+The dimensionless number that equals Reynolds number times Prandtl number. :: Péclet number (thermal)
+The study of how fluids flow in the human cardiovascular system. :: Haemodynamics
+The ear device whose fluid movement senses rotation. :: Semicircular canals
+The phenomenon where tea leaves gather in the middle of a stirred cup. :: Tea leaf paradox (secondary flow)
+The physicist who explained the tea leaf paradox and river meanders in 1926. :: Albert Einstein
+The jet-fan inventor whose bladeless fans use the Coandă effect. :: James Dyson
+The thin falling stream of liquid that coils like rope, as with honey on toast. :: Liquid rope coiling
+The 'Mpemba effect' claims hot water does this faster than cold. :: Freezes
+The Leidenfrost effect makes water drops do this on a very hot pan. :: Skate (hover) on a vapour layer
+The famous hydrodynamic fable: a bumblebee 'cannot fly' according to calculations that ignored this. :: Unsteady (vortex) lift
+The 1883 Reynolds experiment apparatus is still kept at this university. :: University of Manchester
+The British engineer who designed the London sewers after the Great Stink of 1858. :: Joseph Bazalgette
+The Greek inventor in 3rd-century BC Alexandria credited with the force pump and water organ. :: Ctesibius
+The French engineer whose 1732 tube measured the speed of a river's flow. :: Henri Pitot
+The Italian physicist after whom the Venturi effect is named. :: Giovanni Battista Venturi
+The American engineer who built the first practical Venturi meter in 1887. :: Clemens Herschel
+The American millwright who patented the inward-flow water turbine in 1849 that grew into today's most common type. :: James B. Francis
+The Austrian professor who invented the adjustable-blade propeller turbine in 1913. :: Viktor Kaplan
+The American mining engineer who patented the split-bucket impulse wheel in 1880. :: Lester Pelton
+The French engineer whose 1827 water turbine was the first practical one. :: Benoît Fourneyron
+The Hoover Dam is on this river. :: Colorado River
+The world's largest hydroelectric dam by installed capacity, in China. :: Three Gorges Dam
+The 1889 US dam failure that killed over 2,200 people in Johnstown, Pennsylvania. :: South Fork Dam

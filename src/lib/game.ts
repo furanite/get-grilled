@@ -106,11 +106,35 @@ export function createGame(
     clues,
     teams: teamNames.map((name) => ({ name: name.trim() || 'Team', score: 0 })),
     used: [],
-    settings: { timer: settings.timer, deduct: settings.deduct },
+    settings: cleanSettings(settings),
     startedAt: Date.now(),
   }
+  if (game.settings.gameMinutes) game.endsAt = game.startedAt + game.settings.gameMinutes * 60_000
   return { game, used: nextUsed }
 }
+
+/** Time limits the host can choose (seconds per clue, minutes per game). */
+export const CLUE_SECS = [10, 15, 20, 30, 45, 60, 90, 120, 180]
+export const GAME_MINUTES = [5, 10, 15, 20, 30, 45, 60, 90, 120]
+const okSecs = (n: unknown): n is number => typeof n === 'number' && Number.isInteger(n) && n >= 5 && n <= 600
+
+function cleanSettings(s: GameSettings): GameSettings {
+  const out: GameSettings = { timer: okSecs(s.timer) ? s.timer : 0, deduct: !!s.deduct }
+  if (Array.isArray(s.levelTimers) && s.levelTimers.some(okSecs)) out.levelTimers = [0, 1, 2, 3, 4].map((i) => (okSecs(s.levelTimers![i]) ? s.levelTimers![i] : null))
+  if (typeof s.gameMinutes === 'number' && s.gameMinutes > 0 && s.gameMinutes <= 600) out.gameMinutes = Math.round(s.gameMinutes)
+  return out
+}
+
+/** A question's own seconds win, then the level's, then the game's seconds per clue. 0 means no timer. */
+export function clueSeconds(settings: GameSettings, level: number, q?: { secs?: number }): number {
+  if (q && okSecs(q.secs)) return q.secs
+  const l = settings.levelTimers?.[level]
+  if (okSecs(l)) return l
+  return okSecs(settings.timer) ? settings.timer : 0
+}
+
+/** Accepts a per-question time from a file or storage: whole seconds between 5 and 600. */
+export const isClueSecs = okSecs
 
 export const tileKey = (c: number, l: number) => `${c}-${l}`
 
@@ -177,6 +201,7 @@ export function parseImportedCategory(raw: unknown, newId: () => string): Catego
       if (typeof pair.qAr === 'string' && pair.qAr.trim()) out.qAr = pair.qAr.trim().slice(0, LIMITS.clue)
       if (typeof pair.aAr === 'string' && pair.aAr.trim()) out.aAr = pair.aAr.trim().slice(0, LIMITS.answer)
       if (isDiagram(pair.img)) out.img = pair.img
+      if (okSecs(pair.secs)) out.secs = pair.secs
       return out
     })
   })
@@ -191,6 +216,6 @@ export function exportCategory(cat: Category) {
     version: 1,
     name: cat.name,
     nameAr: cat.nameAr,
-    levels: cat.levels.map((l) => l.map(({ q, a, qAr, aAr, img }) => ({ q, a, qAr, aAr, img }))),
+    levels: cat.levels.map((l) => l.map(({ q, a, qAr, aAr, img, secs }) => ({ q, a, qAr, aAr, img, secs }))),
   }
 }

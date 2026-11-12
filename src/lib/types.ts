@@ -15,6 +15,8 @@ export interface Question {
   img?: string
   /** Schools of fiqh a ruling belongs to (h Hanafi, m Maliki, s Shafi'i, b Hanbali); absent when all agree. */
   sch?: string
+  /** Seconds for this question only, overriding the game's setting. */
+  secs?: number
 }
 
 export type Madhhab = '' | 'h' | 'm' | 's' | 'b'
@@ -65,8 +67,13 @@ export interface Team {
 }
 
 export interface GameSettings {
+  /** Seconds per clue (0 = no timer) */
   timer: number
   deduct: boolean
+  /** Optional seconds for each level (100 to 500); null keeps the game's seconds per clue */
+  levelTimers?: (number | null)[]
+  /** Optional length of the whole game in minutes (0 or missing = no limit) */
+  gameMinutes?: number
 }
 
 export interface Game {
@@ -77,6 +84,8 @@ export interface Game {
   used: string[]
   settings: GameSettings
   startedAt: number
+  /** When the whole-game clock runs out (epoch ms), if the host set a game length */
+  endsAt?: number
 }
 
 /** Themes that exist only on the Islamic site (Munaafasatul Ilm). */

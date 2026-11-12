@@ -5,12 +5,12 @@ import type { Game, Lang, Screen, ThemeId } from '../lib/types'
 import { VALUES } from '../lib/types'
 import type { Strings } from '../lib/i18n'
 import { num } from '../lib/i18n'
-import { standings, tileKey } from '../lib/game'
+import { clueSeconds, standings, tileKey } from '../lib/game'
 import { appName, type Live } from '../lib/edition'
 import { setFavicon } from '../lib/favicon'
-import { Ambient, Flourish, FlourishAbove, Mark } from './Brand'
+import { Ambient, CatIcon, Flourish, FlourishAbove, Mark } from './Brand'
 import { diagramSrc } from '../lib/diagram'
-import { TimerBar } from './Timer'
+import { GameClock, TimerBar } from './Timer'
 
 /**
  * Opens a second browser window that the host drags onto the projector.
@@ -176,11 +176,17 @@ function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings;
       {help}
       <section className="stage aud-stage">
         <div className="sadu-band" aria-hidden="true" />
+        {game.endsAt && (
+          <div className="aud-clock">
+            <GameClock endsAt={game.endsAt} lang={lang} leftText={t.gameLeft} overText={t.gameOver} />
+          </div>
+        )}
         <div className="board" style={{ gridTemplateColumns: `repeat(${game.cats.length},minmax(0,var(--colmax)))`, ['--cols' as string]: game.cats.length, minWidth: 0 }}>
           {game.cats.map((c, i) => {
             const [main, sub] = lang === 'ar' && c.nameAr ? [c.nameAr, c.name] : [c.name, c.nameAr]
             return (
               <div className="cat" key={'h' + i}>
+                <CatIcon id={c.id} />
                 <span className="main" style={{ ['--w' as string]: Math.max(...main.split(/\s+/).map((w) => w.length)) }}>
                   {main}
                 </span>
@@ -214,7 +220,7 @@ function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings;
         <div className="aud-clue" data-testid="audience-clue" key={tileKey(live!.c, live!.l)}>
           <div className={`aud-card${clue.golden ? ' golden' : ''}${cat.respect ? ' calm' : ''}`}>
             <div className="meta">
-              <span>{lang === 'ar' && cat.nameAr ? cat.nameAr : cat.name}</span>
+              <span className="meta-cat"><CatIcon id={cat.id} />{lang === 'ar' && cat.nameAr ? cat.nameAr : cat.name}</span>
               <span className="row">
                 {clue.golden && <span className="pill g">{t.golden}</span>}
                 <span className="pill">{num(clue.value, lang)}</span>
@@ -236,7 +242,7 @@ function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings;
             ) : (
               <div className="answer aud-hidden" aria-hidden="true" />
             )}
-            {game.settings.timer > 0 && <TimerBar clock={live!.clock ?? null} total={game.settings.timer} lang={lang} timeUpText={t.timeUp} big />}
+            {clueSeconds(game.settings, live!.l, clue) > 0 && <TimerBar clock={live!.clock ?? null} total={clueSeconds(game.settings, live!.l, clue)} lang={lang} timeUpText={t.timeUp} big />}
           </div>
         </div>
       )}

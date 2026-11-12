@@ -1,12 +1,13 @@
 import { useState } from 'react'
+import { CatIcon } from './Brand'
 import type { Category, CategorySummary, Game, Lang, Madhhab, PackGroup, PoolEdit } from '../lib/types'
+import { VALUES } from '../lib/types'
 import type { Strings } from '../lib/i18n'
 import { num, qCount } from "../lib/i18n"
-import { applyPool, createGame, filterMadhhab, isPlayable, poolCounts } from '../lib/game'
+import { CLUE_SECS, GAME_MINUTES, applyPool, createGame, filterMadhhab, isPlayable, poolCounts } from '../lib/game'
 import { sfx } from '../lib/sound'
 import { loadPack } from '../lib/packs'
 import { loadMadhhab, loadUsed, saveMadhhab, saveUsed } from '../lib/store'
-import { CatIcon } from './Brand'
 
 interface Props {
   t: Strings
@@ -35,6 +36,8 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
   const [coll, setColl] = useState<CollectionId>('university')
   const [teams, setTeams] = useState<string[]>(DEFAULT_TEAMS[lang])
   const [timer, setTimer] = useState(30)
+  const [levelTimers, setLevelTimers] = useState<(number | null)[]>([null, null, null, null, null])
+  const [gameMinutes, setGameMinutes] = useState(0)
   const [golden, setGolden] = useState(1)
   const [deduct, setDeduct] = useState(true)
   const [madhhab, setMadhhab] = useState<Madhhab>(loadMadhhab)
@@ -60,7 +63,7 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
       const cats = (await Promise.all(picked.map((id) => custom.find((c) => c.id === id) ?? loadPack(id)))).map((c) => filterMadhhab(applyPool(c, pools[c.id]), madhhab))
       const bad = cats.find((c) => !isPlayable(c))
       if (bad) throw new Error(`“${bad.name}” ${t.incomplete}`)
-      const { game, used } = createGame(cats, teams, { timer, deduct, golden }, loadUsed())
+      const { game, used } = createGame(cats, teams, { timer, deduct, golden, levelTimers, gameMinutes }, loadUsed())
       saveUsed(used)
       sfx.start()
       onStart(game)
@@ -77,7 +80,7 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
     const playable = counts.length === 5 && counts.every((n) => n > 0)
     return (
       <button key={c.id} className="cat-pick" aria-pressed={order >= 0} disabled={!playable || (order < 0 && picked.length >= 6)} onClick={() => toggle(c.id)} style={{ ['--d' as string]: `${i * 40}ms` }} data-cat={c.id}>
-        <CatIcon id={c.id} />
+        <CatIcon id={c.builtIn ? c.id : 'custom'} />
         <b>{lang === 'ar' && c.nameAr ? c.nameAr : c.name}</b>
         {c.nameAr && <small lang={lang === 'ar' ? 'en' : 'ar'}>{lang === 'ar' ? c.name : c.nameAr}</small>}
         <small>
@@ -173,9 +176,45 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
         <label className="field">
           <span className="label">{t.timer}</span>
           <select className="input" id="timer" value={timer} onChange={(e) => setTimer(+e.target.value)}>
-            {[0, 15, 20, 30, 45, 60].map((s) => (
+            {[0, ...CLUE_SECS].map((s) => (
               <option key={s} value={s}>
-                {s === 0 ? (lang === 'ar' ? 'بدون مؤقت' : 'No timer') : num(s, lang)}
+                {s === 0 ? t.noTimer : num(s, lang)}
+              </option>
+            ))}
+          </select>
+        </label>
+        <details className="level-times" open={levelTimers.some((x) => x !== null)} data-testid="level-times">
+          <summary>{t.levelTimes}</summary>
+          <p className="muted" style={{ margin: '6px 0 8px', fontSize: 13 }}>
+            {t.levelTimesHelp}
+          </p>
+          <div className="level-times-grid">
+            {VALUES.map((v, i) => (
+              <label key={v} className="field">
+                <span className="label">{num(v, lang)}</span>
+                <select
+                  className="input"
+                  id={`level-timer-${i}`}
+                  value={levelTimers[i] ?? ''}
+                  onChange={(e) => setLevelTimers(levelTimers.map((x, j) => (j === i ? (e.target.value ? +e.target.value : null) : x)))}
+                >
+                  <option value="">{t.sameAsAbove}</option>
+                  {CLUE_SECS.map((s) => (
+                    <option key={s} value={s}>
+                      {num(s, lang)} {t.secsShort}
+                    </option>
+                  ))}
+                </select>
+              </label>
+            ))}
+          </div>
+        </details>
+        <label className="field">
+          <span className="label">{t.gameLength}</span>
+          <select className="input" id="game-minutes" value={gameMinutes} onChange={(e) => setGameMinutes(+e.target.value)}>
+            {[0, ...GAME_MINUTES].map((m) => (
+              <option key={m} value={m}>
+                {m === 0 ? t.noLimit : `${num(m, lang)} ${t.minutes}`}
               </option>
             ))}
           </select>

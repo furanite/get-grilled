@@ -1,5 +1,6 @@
 import type { Category, Game, Lang, Madhhab, PoolEdit, Question, ThemeId } from './types'
 import { isDiagram } from './diagram'
+import { isClueSecs } from './game'
 
 const KEYS = {
   settings: 'gg.settings.v1',
@@ -63,6 +64,7 @@ function cleanQuestion(v: unknown): Question | null {
   if (isStr(v.qAr)) q.qAr = v.qAr
   if (isStr(v.aAr)) q.aAr = v.aAr
   if (isDiagram(v.img)) q.img = v.img
+  if (isClueSecs(v.secs)) q.secs = v.secs
   return q
 }
 export function cleanCategories(raw: unknown): Category[] {

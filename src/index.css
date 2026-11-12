@@ -844,3 +844,45 @@ textarea.input{resize:vertical;min-height:44px}
 .borrow-list{max-height:360px;overflow:auto}
 @media (max-width:700px){.borrow-bar{grid-template-columns:1fr}}
 .sound-btn{min-width:44px}
+
+/* Category icons (src/lib/caticons.ts). One drawing, coloured per theme through --ci-* tokens: style B, the icon alone. */
+:root{--ci-1:#d39a3c;--ci-2:#f5cd72;--ci-3:#fff3d6;--ci-w:2.4;--ci-fx:drop-shadow(0 0 3px rgba(245,205,114,.35))}
+:root[data-theme="emerald"]{--ci-1:#e9c47f;--ci-2:#efd59f;--ci-3:#f8e7c2;--ci-fx:none}
+:root[data-theme="neon"]{--ci-1:#2ef2ff;--ci-2:#2ef2ff;--ci-3:#2ef2ff;--ci-w:2.3;--ci-fx:none}
+:root[data-theme="onyx"]{--ci-1:#a87a22;--ci-2:#e2b54e;--ci-3:#fff1c2;--ci-w:2.3;--ci-fx:none}
+:root[data-theme="rivals"]{--ci-1:#f4f7ff;--ci-2:#f4f7ff;--ci-3:#f4f7ff;--ci-w:2.2;--ci-fx:none}
+:root[data-theme="ember"]{--ci-1:#ff4d1a;--ci-2:#ff9a1f;--ci-3:#ffd24a;--ci-w:2.5;--ci-fx:drop-shadow(0 0 3px rgba(255,120,40,.6))}
+:root[data-theme="heritage"]{--ci-1:#c9873a;--ci-2:#e5b95e;--ci-3:#fff0c8;--ci-w:2.3;--ci-fx:none}
+.ci{display:inline-block;flex:none;width:2.2em;aspect-ratio:1;line-height:0}
+.ci svg{width:100%;height:100%;overflow:visible}
+.ci .ci-s1{stop-color:var(--ci-1)}.ci .ci-s2{stop-color:var(--ci-2)}.ci .ci-s3{stop-color:var(--ci-3)}
+.ci .ci-main{stroke-width:var(--ci-w);color:var(--ci-2);filter:var(--ci-fx)}
+.ci .ci-l,.ci .ci-r,.ci .ci-glow,.ci .ci-core{display:none}
+:root[data-theme="neon"] .ci .ci-glow{display:inline;stroke:#2ef2ff;color:#2ef2ff;stroke-width:5.5;opacity:.28;filter:blur(1.5px)}
+:root[data-theme="neon"] .ci .ci-core{display:inline;stroke:#d6fdff;color:#d6fdff;stroke-width:.7}
+:root[data-theme="rivals"] .ci .ci-l{display:inline;stroke:#ff3d5a;color:#ff3d5a;stroke-width:2.6;opacity:.9}
+:root[data-theme="rivals"] .ci .ci-r{display:inline;stroke:#5a7bff;color:#5a7bff;stroke-width:2.6;opacity:.9}
+:root[data-reduce-fx="on"] .ci .ci-main{filter:none}
+.cat .ci{width:2.3em;margin-bottom:4px}
+.meta-cat{display:inline-flex;align-items:center;gap:.6em}
+.meta-cat .ci{width:2.4em}
+.cat-pick{padding-inline-start:60px}
+.cat-pick .ci{position:absolute;inset-inline-start:14px;top:50%;translate:0 -50%;width:34px}
+.board .cat .ci{width:2.1em;margin-bottom:2px}
+/* End game asks first */
+.end-confirm{display:inline-flex;flex-wrap:wrap;align-items:center;gap:8px;padding:4px 6px 4px 12px;border-radius:999px;border:1px solid color-mix(in oklab,var(--accent) 45%,transparent);background:color-mix(in oklab,var(--bg2) 70%,transparent);animation:fadeIn .25s var(--ease) both}
+.end-q{font-size:13px}
+
+/* Time limits */
+.level-times>summary{cursor:pointer;color:var(--accent);font-size:14px}
+.level-times-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:8px}
+.game-clock{display:inline-flex;align-items:center;gap:6px;padding:4px 12px;border-radius:999px;border:1px solid color-mix(in oklab,var(--accent) 50%,transparent);font-family:var(--fd);font-variant-numeric:tabular-nums;color:var(--accent);background:color-mix(in oklab,var(--bg) 60%,transparent)}
+.game-clock.low,.game-clock.out{color:#ff6b5a;border-color:#ff6b5a}
+.game-clock.low:not(.out){animation:secsPop .8s ease-in-out infinite alternate}
+.aud-clock{display:flex;justify-content:center;margin-bottom:1vh}
+.aud-clock .game-clock{font-size:clamp(16px,1.8vw,36px)}
+.game-over-note{margin:0;padding:8px 12px;border-radius:10px;color:#ff6b5a;border:1px solid #ff6b5a;font-size:14px}
+.q-secs{display:inline-flex;align-items:center;gap:6px}
+.q-secs .input{padding-block:6px;width:auto}
+.q-secs-pill{font-size:11px;padding:2px 8px;white-space:nowrap}
+:root[data-reduce-fx="on"] .game-clock{animation:none}

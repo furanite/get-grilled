@@ -1,0 +1,514 @@
+id: dynamics
+name: Dynamics & Vibrations
+nameAr: الديناميكا والاهتزازات
+group: engineering
+
+## 100
+The branch of mechanics that studies bodies in motion and the forces that cause it. :: Dynamics
+The study of motion without asking what causes it. :: Kinematics
+The study of motion together with the forces that cause it. :: Kinetics
+How far something travels per unit time, with no direction. :: Speed
+Speed in a stated direction. :: Velocity
+The rate of change of velocity. :: Acceleration
+The SI unit of acceleration. :: Metres per second squared (m/s²)
+The acceleration of free fall near Earth's surface, to two decimal places. :: 9.81 m/s²
+Newton's first law is also called the law of this. :: Inertia
+Newton's second law in three symbols. :: F = ma
+A body's resistance to a change in its motion. :: Inertia
+Mass times velocity. :: Momentum
+The SI unit of momentum. :: Kilogram metre per second (kg·m/s)
+In a collision with no outside forces, this is always conserved. :: Momentum
+Energy an object has because of its height. :: Gravitational potential energy
+Kinetic energy equals half the mass times this. :: Velocity squared
+Doubling a car's speed multiplies its kinetic energy by this. :: Four
+One horsepower is about this many watts. :: About 746 W
+Work equals force times this. :: Distance moved in the direction of the force
+The SI unit of work and energy. :: Joule (J)
+Energy stored in a stretched or squashed spring. :: Elastic (strain) potential energy
+The law saying energy cannot be created or destroyed. :: Conservation of energy
+A collision where kinetic energy is conserved. :: Elastic collision
+A collision where the bodies stick together. :: Perfectly inelastic collision
+The force needed to keep a body moving in a circle, pointing to the centre. :: Centripetal force
+The outward force felt by a passenger in a turning car. :: Centrifugal force
+The path of a ball thrown through the air, ignoring air resistance. :: Parabola
+Ignoring air, a projectile goes furthest when launched at this angle. :: 45 degrees
+An object moving only under gravity. :: Free fall
+The steady speed reached by a skydiver when drag balances weight. :: Terminal velocity
+The skydiver's typical belly-down terminal speed, in km/h, roughly. :: About 200 km/h
+Feeling weightless in orbit happens because you are doing this. :: Falling freely (free fall)
+The number of revolutions per minute is written as this. :: rpm
+Angle turned per unit time. :: Angular velocity
+The SI unit of angular velocity. :: Radians per second (rad/s)
+The turning effect of a force. :: Torque (moment)
+The rotational equivalent of mass. :: Moment of inertia
+The rotational equivalent of momentum. :: Angular momentum
+Ice skaters spin faster when they pull their arms in because this is conserved. :: Angular momentum
+A heavy wheel used to store rotational energy. :: Flywheel
+A spinning wheel that keeps its axis steady, used in navigation. :: Gyroscope
+Toothed wheels that transmit rotation. :: Gears
+Two meshing gears turn in these directions. :: Opposite directions
+The small gear that drives a larger gear. :: Pinion
+A small gear driving a large gear makes the output turn more slowly but with more of this. :: Torque
+The ratio of teeth on the driven gear to teeth on the driving gear. :: Gear ratio
+The gear that sits between two gears so they turn the same way. :: Idler gear
+A gear that meshes with a straight toothed bar. :: Rack and pinion
+Cars use rack and pinion mainly in this system. :: Steering
+The chain-and-sprocket drive on a bicycle connects the pedals to this. :: Rear wheel
+A rubber loop running over pulleys to transmit power. :: Belt drive
+The engine part that turns up-and-down motion into rotation. :: Crankshaft
+The rotating part with lobes that opens engine valves. :: Camshaft
+The device that lets the two driven wheels of a car turn at different speeds on corners. :: Differential
+A back-and-forth motion about a rest position. :: Vibration (oscillation)
+The number of oscillations per second. :: Frequency
+The time for one complete oscillation. :: Period
+The maximum displacement from the rest position. :: Amplitude
+The simple swinging weight on a string. :: Pendulum
+The period of a simple pendulum depends on its length and this. :: Gravity (g)
+Does the period of a simple pendulum depend on the mass of the bob? :: No
+The frequency at which a system likes to vibrate on its own. :: Natural frequency
+Large vibrations when a force pushes at the natural frequency. :: Resonance
+The singer's trick of breaking a wine glass with a note shows this. :: Resonance
+The gradual dying away of vibration by energy loss. :: Damping
+The car parts that damp the bouncing of the springs. :: Shock absorbers (dampers)
+The law saying a spring's force is proportional to its stretch. :: Hooke's law
+The spring constant k has these SI units. :: Newtons per metre (N/m)
+A stiffer spring makes the natural frequency go this way. :: Up (higher)
+Adding mass to a spring–mass system makes its natural frequency go this way. :: Down (lower)
+Motion where acceleration is proportional to displacement and towards the centre. :: Simple harmonic motion
+Simple harmonic motion traces out this kind of curve against time. :: Sine wave
+The device that measures earthquake shaking. :: Seismometer (seismograph)
+The device in a phone that senses tilt and movement. :: Accelerometer
+The unit 'g' used for acceleration in rides and jets equals this. :: 9.81 m/s²
+The roller coaster force that makes riders feel heavier at the bottom of a dip. :: g-force
+Fighter pilots wear these to stop blacking out under high g. :: G-suits (anti-g suits)
+Wearing a seat belt reduces injury by increasing this during a crash. :: Stopping time (distance)
+Car crumple zones reduce injury by increasing the time of this. :: Impact (deceleration)
+Force times the time it acts for. :: Impulse
+Impulse equals the change in this. :: Momentum
+Rockets move forward by pushing exhaust backward, showing this law. :: Newton's third law
+The relative motion law that makes a cyclist feel wind on a still day. :: Relative velocity
+Turning a car on a banked road needs less friction because of this. :: The bank angle provides centripetal force
+The motion of a wheel that both turns and moves forward without slipping. :: Rolling
+When a wheel rolls without slipping, the contact point has this speed. :: Zero
+The resistance that slows a rolling tyre. :: Rolling resistance
+A car's brake turns kinetic energy mainly into this. :: Heat
+Electric cars recover braking energy using this system. :: Regenerative braking
+The balancing weights clipped to car wheel rims stop this. :: Wheel vibration (wobble)
+The rotating machine part whose uneven mass causes vibration. :: Unbalanced rotor
+Engine mounts are made of rubber to do this. :: Isolate vibration
+A swing goes higher when pushed at its natural frequency. This is an example of this. :: Resonance
+The sound you hear from a vibrating guitar string at its lowest frequency. :: Fundamental (first harmonic)
+Soldiers break step on bridges to avoid this. :: Resonance
+The scientist whose three laws describe the motion of bodies. :: Isaac Newton
+The instrument that measures how fast a shaft is turning. :: Tachometer
+The word for slowing down, as when braking. :: Deceleration
+The rate of change of momentum equals this. :: Net force
+A wheel turning at 60 rpm makes this many turns per second. :: One
+
+## 200
+Average velocity equals displacement divided by this. :: Time
+The equation v = u + at applies when this is constant. :: Acceleration
+The equation v² = u² + 2as links velocity and this. :: Displacement
+The area under a velocity–time graph gives this. :: Displacement
+The slope of a velocity–time graph gives this. :: Acceleration
+The slope of a displacement–time graph gives this. :: Velocity
+The horizontal velocity of a projectile without air resistance does this. :: Stays constant
+The time of flight of a projectile launched at speed u and angle θ on flat ground. :: 2u sin θ / g
+The range of a projectile on flat ground. :: u² sin 2θ / g
+The maximum height of a projectile. :: u² sin²θ / (2g)
+Centripetal acceleration equals v² divided by this. :: Radius
+Centripetal acceleration also equals radius times this squared. :: Angular velocity (ω)
+Linear speed of a point on a wheel equals radius times this. :: Angular velocity
+One revolution equals this many radians. :: 2π
+To convert rpm to rad/s, multiply by this. :: 2π/60
+The rotational form of Newton's second law. :: Torque = I α
+Rotational kinetic energy equals half I times this. :: ω² (angular velocity squared)
+Power in a rotating shaft equals torque times this. :: Angular velocity
+The moment of inertia of a thin ring of mass m and radius r about its axis. :: m r²
+The moment of inertia of a solid disc about its axis. :: ½ m r²
+The moment of inertia of a solid sphere about a diameter. :: (2/5) m r²
+The moment of inertia of a thin rod about its centre. :: (1/12) m L²
+The moment of inertia of a thin rod about one end. :: (1/3) m L²
+The theorem that moves a moment of inertia from the centre of mass to a parallel axis. :: Parallel axis theorem
+The distance from an axis at which all the mass could be placed to give the same moment of inertia. :: Radius of gyration
+Rolling down a slope, which reaches the bottom first: a solid cylinder or a hollow pipe? :: Solid cylinder
+Work done by a constant force is F times d times the cosine of this. :: Angle between force and displacement
+The principle that work done on a body equals its change in kinetic energy. :: Work–energy principle
+A force whose work does not depend on the path taken. :: Conservative force
+Name a common non-conservative force. :: Friction
+The ratio of relative speed after impact to relative speed before. :: Coefficient of restitution
+The coefficient of restitution for a perfectly elastic collision. :: 1
+The coefficient of restitution for a perfectly inelastic collision. :: 0
+In a head-on elastic collision of equal masses, the moving body does this. :: Stops (and the other moves off)
+The point where the whole mass can be taken to act in dynamics. :: Centre of mass
+With no external force, the centre of mass of a system moves like this. :: In a straight line at constant velocity
+The pseudo-force used to analyse motion in an accelerating frame. :: Inertial (d'Alembert) force
+The method that turns a dynamics problem into a statics problem by adding −ma. :: D'Alembert's principle
+A body that moves so that every line in it stays parallel to itself. :: Translation
+Motion where all points move in circles about a fixed axis. :: Rotation about a fixed axis
+The point in a body with zero velocity at an instant. :: Instantaneous centre of rotation
+A rigid link joining two pins in a mechanism, like a bar. :: Link
+The four-bar linkage's shortest link that can spin fully round. :: Crank
+The four-bar link that only swings back and forth. :: Rocker
+The rule that tells if a four-bar linkage will have a fully rotating link. :: Grashof condition
+The mechanism in a piston engine. :: Slider–crank mechanism
+The number of independent movements a mechanism or body can make. :: Degrees of freedom
+A rigid body in space has this many degrees of freedom. :: Six
+The formula for the degrees of freedom of a planar mechanism. :: Gruebler's (Kutzbach) equation
+The curve used on most gear tooth profiles. :: Involute
+Gears with teeth parallel to the shaft. :: Spur gears
+Gears with teeth cut at an angle, quieter than spur gears. :: Helical gears
+Gears that join shafts at right angles, shaped like cones. :: Bevel gears
+A gear set with a screw that gives very large speed reduction. :: Worm gear
+The gear set with a sun, planets and a ring. :: Planetary (epicyclic) gear train
+The distance between teeth along the pitch circle. :: Circular pitch
+Pitch diameter divided by number of teeth, in metric gears. :: Module
+Two gears can mesh only if they have the same this. :: Module (pitch)
+The angle at which gear teeth push on each other, often 20°. :: Pressure angle
+The small gap between meshing gear teeth. :: Backlash
+The device that disconnects an engine from the gearbox. :: Clutch
+A cam follower with a small wheel. :: Roller follower
+The plot of follower position against cam angle. :: Displacement diagram
+The third derivative of position with respect to time. :: Jerk
+Smooth cam profiles try to keep this finite. :: Jerk
+The number of degrees of freedom of a simple pendulum. :: One
+The natural frequency of a spring–mass system, in rad/s. :: √(k/m)
+The period of a simple pendulum of length L. :: 2π √(L/g)
+The length of a pendulum that ticks once per second (period 2 s), roughly. :: About 1 metre
+Two springs in series have a combined stiffness that is this compared with each one. :: Lower
+Two springs in parallel have a combined stiffness equal to this. :: The sum of their stiffnesses
+The type of damping where force is proportional to velocity. :: Viscous damping
+The type of damping caused by dry friction. :: Coulomb damping
+The ratio of actual damping to critical damping. :: Damping ratio
+A system with damping ratio less than 1. :: Underdamped
+A system with damping ratio equal to 1. :: Critically damped
+A system with damping ratio more than 1. :: Overdamped
+The damping that returns a system to rest fastest without overshoot. :: Critical damping
+The natural log of the ratio of two successive peaks in free vibration. :: Logarithmic decrement
+Vibration that happens with no outside force after an initial push. :: Free vibration
+Vibration driven by an outside force. :: Forced vibration
+The vibration caused by an unbalanced rotating mass has the same frequency as this. :: Rotation speed
+The shaft speed that equals the natural frequency of bending. :: Critical speed (whirling speed)
+The ratio of transmitted force to applied force. :: Transmissibility
+For vibration isolation to work, the forcing frequency must be above the natural frequency times this. :: √2
+The magnification of vibration at resonance is limited only by this. :: Damping
+The shape a structure takes when vibrating at a natural frequency. :: Mode shape
+A point on a vibrating string that does not move. :: Node
+A point on a vibrating string with the largest motion. :: Antinode
+A string fixed at both ends vibrates in this kind of wave. :: Standing wave
+The extra mass and spring added to a structure to cancel vibration at one frequency. :: Tuned mass damper (vibration absorber)
+The giant pendulum in Taipei 101 is this. :: Tuned mass damper
+The measure of how loud vibration or sound is, on a log scale. :: Decibel
+Machine condition monitoring often looks at the vibration in this kind of plot. :: Frequency spectrum (FFT)
+The engine speed at which a car's body hums loudly often matches this. :: A natural frequency (resonance)
+The three rotations of an aircraft. :: Roll, pitch and yaw
+The angular momentum of a rigid body about a fixed axis equals I times this. :: Angular velocity (ω)
+On a frictionless banked curve, tan θ equals v² divided by this. :: r g
+The minimum speed at the top of a vertical loop of radius r for a car to stay on the track. :: √(g r)
+The kinetic energy of a rolling wheel is its translational kinetic energy plus this. :: Rotational kinetic energy
+
+## 300
+The acceleration of a point in a rotating frame includes this extra term, 2ω × v. :: Coriolis acceleration
+The general relative acceleration equation has translational, tangential, normal and this term. :: Coriolis
+The radius of curvature appears in this component of acceleration. :: Normal (centripetal) component
+The two components of acceleration in path coordinates. :: Tangential and normal
+The coordinate system of r and θ used for planar motion. :: Polar (radial–transverse) coordinates
+In polar coordinates, the radial acceleration is r̈ minus this. :: r θ̇²
+In polar coordinates, the transverse acceleration is r θ̈ plus this. :: 2 ṙ θ̇
+Angular momentum of a particle about a point equals r crossed with this. :: Linear momentum (m v)
+Kepler's second law is an example of conservation of this. :: Angular momentum
+The equations of motion for a rigid body rotating in 3D, in body-fixed axes. :: Euler's equations of motion
+The matrix that describes how mass is distributed for rotation in 3D. :: Inertia tensor
+The axes for which the inertia tensor has no off-diagonal terms. :: Principal axes
+The off-diagonal terms in the inertia tensor. :: Products of inertia
+The slow turning of a spinning top's axis around the vertical. :: Precession
+The small nodding motion of a spinning top's axis. :: Nutation
+The rate of steady precession of a gyroscope equals torque divided by this. :: Spin angular momentum
+The 'tennis racket theorem' says rotation about this axis is unstable. :: Intermediate principal axis
+The other name for the tennis racket theorem, after a cosmonaut's wing nut video. :: Dzhanibekov effect
+The three angles that describe the orientation of a rigid body. :: Euler angles
+The problem with Euler angles where one degree of freedom is lost. :: Gimbal lock
+The four-number representation of rotation that avoids gimbal lock. :: Quaternions
+The energy method that uses T and V to write equations of motion. :: Lagrangian mechanics
+The Lagrangian is defined as this. :: T − V (kinetic minus potential energy)
+The coordinates used in Lagrangian mechanics to describe a system's configuration. :: Generalised coordinates
+The principle that the true path makes the action stationary. :: Hamilton's principle (least action)
+The formulation of mechanics with positions and momenta as equal partners. :: Hamiltonian mechanics
+The principle of virtual work in dynamics with inertia forces. :: D'Alembert's principle (Lagrange form)
+The impulse–momentum principle for rotation says angular impulse equals change in this. :: Angular momentum
+The point on a bat where hitting the ball gives no jolt to the hands. :: Centre of percussion (sweet spot)
+The ballistic device that measures bullet speed by a swinging block. :: Ballistic pendulum
+The rocket equation relates change in velocity to exhaust velocity and the log of this. :: Mass ratio (initial over final mass)
+The scientist who derived the rocket equation in 1903. :: Konstantin Tsiolkovsky
+The escape velocity from Earth's surface, roughly. :: About 11.2 km/s
+The speed of a low Earth orbit, roughly. :: About 7.8 km/s
+The orbit transfer that uses two engine burns along an ellipse. :: Hohmann transfer
+The equation of motion for a single-degree-of-freedom damped system. :: m ẍ + c ẋ + k x = F(t)
+The critical damping coefficient equals 2 times the square root of this. :: k m
+The damped natural frequency equals the natural frequency times the square root of this. :: 1 − ζ²
+For light damping, the amplitude at resonance is roughly the static deflection divided by this. :: 2ζ
+The ratio of the resonant frequency to the bandwidth of the peak. :: Q factor (quality factor)
+For light damping, the Q factor is about one over this. :: 2ζ
+The method that finds damping from the frequencies where response is 0.707 of the peak. :: Half-power bandwidth method
+The phase lag between force and displacement at resonance. :: 90 degrees
+Well above resonance, the mass's motion is this relative to the force. :: 180 degrees out of phase
+Vibration where the base moves rather than the mass being pushed. :: Base excitation (support motion)
+Above the isolation frequency, adding damping makes isolation this. :: Worse
+A system with n degrees of freedom has this many natural frequencies. :: n
+The eigenvalue problem in vibration uses the mass and this matrix. :: Stiffness matrix
+The property that lets mode shapes be used as independent coordinates. :: Orthogonality of modes
+The method that splits a multi-degree-of-freedom response into single modes. :: Modal analysis (modal superposition)
+The common simple damping assumption proportional to the mass and stiffness matrices. :: Rayleigh (proportional) damping
+Rayleigh's method estimates the fundamental frequency by equating these two. :: Maximum kinetic and potential energies
+The method that improves Rayleigh's estimate using many assumed shapes. :: Rayleigh–Ritz method
+The method that gives the lowest natural frequency of a shaft with several discs as a sum of reciprocals. :: Dunkerley's method
+The iterative method for torsional vibration of shafts with many discs. :: Holzer method
+The fundamental frequency of a taut string depends on tension, length and this. :: Mass per unit length
+The frequency ratio of the second mode to the first for a taut string. :: 2
+The frequency ratio of the second mode to the first for a cantilever beam, roughly. :: About 6.3
+The differential equation for beam bending vibration is of this order in space. :: Fourth order
+The beam theory that adds shear deformation and rotary inertia. :: Timoshenko beam theory
+The test that taps a structure with an instrumented hammer to find its modes. :: Impact (tap) test
+The sensor that measures vibration acceleration using a crystal. :: Piezoelectric accelerometer
+The function that is the ratio of output to input in the frequency domain. :: Frequency response function (FRF)
+The algorithm that turns a time signal into frequencies quickly. :: FFT (fast Fourier transform)
+The error caused when a signal is sampled too slowly. :: Aliasing
+To avoid aliasing, sample at more than twice this. :: The highest frequency (Nyquist rate)
+The window function applied to reduce leakage in FFT analysis. :: Hanning window
+The vibration of a rotor where the shaft centre moves in a circle. :: Whirl
+Balancing that corrects a rotor in two planes. :: Dynamic balancing
+Balancing a thin disc in one plane. :: Static balancing
+The engine layout with perfect primary and secondary balance. :: Inline six (straight six)
+The vibration of a single-cylinder engine at twice crank speed comes from this. :: Secondary forces (connecting rod angularity)
+The device bolted to the front of a crankshaft to reduce torsional vibration. :: Harmonic balancer (torsional damper)
+The vehicle model with one mass and one spring for each wheel. :: Quarter-car model
+The vibration where a system's stiffness or mass varies with time, as for a swing pumped by standing up. :: Parametric excitation
+The equation that describes a pendulum with a moving pivot. :: Mathieu equation
+Vibration that a system makes from a steady energy source, like a violin bow. :: Self-excited vibration
+The stick-slip squeal of brakes is this kind of vibration. :: Friction-induced (self-excited) vibration
+The bridge failure that made self-excited vibration famous. :: Tacoma Narrows Bridge (1940)
+Wind-induced oscillation of power lines covered in ice. :: Galloping
+The nonlinear spring whose stiffness grows with displacement, in Duffing's equation. :: Hardening spring
+In the Duffing oscillator, the peak bends to one side and causes this. :: Jump phenomenon
+The periodic solution that a nonlinear system settles into regardless of starting point. :: Limit cycle
+The oscillator equation with negative damping at small amplitude, used for heartbeats and valves. :: Van der Pol equation
+The rule that links the rate of change of a vector seen in rotating axes to its rate in fixed axes. :: Transport theorem (Ω × A term)
+Satellites change their attitude without fuel using these spinning wheels. :: Reaction (momentum) wheels
+Explorer 1 began tumbling because it spun about this axis while losing energy. :: Its axis of minimum moment of inertia
+The vis-viva equation gives orbital speed from the radius and this. :: Semi-major axis
+The usual unit of a rocket engine's specific impulse. :: Seconds
+The altitude of geostationary orbit above the equator, roughly. :: About 35,786 km
+An impact where both centres of mass lie on the line of impact. :: Central impact
+An impact where the velocities are not along the line of impact. :: Oblique impact
+The number of natural frequencies of a continuous beam. :: Infinitely many
+Vibration where a shaft twists back and forth. :: Torsional vibration
+In torsional vibration, ω = √(kt/J), where J is this. :: Mass moment of inertia
+ISO 10816 and ISO 20816 set machine vibration limits mainly using this quantity in mm/s. :: Vibration velocity (RMS)
+The signal method that finds rolling-bearing faults by demodulating high-frequency vibration. :: Envelope analysis
+A suddenly applied step load on an undamped system gives this dynamic load factor. :: 2
+The car body's rotation about its long axis when cornering. :: Roll
+The speed of a transverse wave on a taut string equals √(tension ÷ this). :: Mass per unit length
+
+## 400
+The theorem that the most general rigid-body motion is a translation plus a rotation about one axis. :: Chasles' theorem
+The theorem that any rotation of a rigid body about a point is a rotation about one axis. :: Euler's rotation theorem
+The geometric construction that shows torque-free motion of a rigid body. :: Poinsot construction
+The surface that rolls on the invariable plane in Poinsot's construction. :: Inertia ellipsoid
+The cone traced by the angular velocity in the body. :: Body cone
+The cone traced by the angular velocity in space. :: Space cone
+For a torque-free axisymmetric body, the spin axis moves around the angular momentum vector in this. :: Free precession
+Earth's free precession, discovered in 1891, has a period of about this. :: About 433 days (Chandler wobble)
+Earth's axis precesses once in about this many years. :: About 26,000 years
+A Lagrangian that does not depend on a coordinate gives a conserved momentum. That coordinate is called this. :: Cyclic (ignorable) coordinate
+The theorem that links each symmetry to a conserved quantity. :: Noether's theorem
+Constraints that can be written as equations of coordinates only. :: Holonomic constraints
+A rolling disc that can turn has this kind of constraint. :: Nonholonomic
+The method to include constraints in Lagrange's equations. :: Lagrange multipliers
+The function added to Lagrange's equations to model viscous damping. :: Rayleigh dissipation function
+Hamilton's equations give the rate of change of position as the partial derivative of H with respect to this. :: Momentum
+The bracket that gives the time evolution of any quantity in Hamiltonian mechanics. :: Poisson bracket
+The theorem that phase-space volume is conserved in Hamiltonian systems. :: Liouville's theorem
+The equations for the motion of bodies connected by joints, used in robotics. :: Multibody dynamics
+The table of four parameters per joint used to describe robot arms. :: Denavit–Hartenberg parameters
+Finding joint angles to put a robot hand at a given point. :: Inverse kinematics
+The matrix that relates joint velocities to end-effector velocity. :: Jacobian
+The robot arm position where the Jacobian loses rank. :: Singularity
+The recursive algorithm for robot dynamics named after two researchers in 1980. :: Newton–Euler (Luh, Walker and Paul) algorithm
+The gear tooth failure caused by repeated contact stress pitting. :: Surface fatigue (pitting)
+The bending stress in a gear tooth is found with this equation from 1892. :: Lewis equation
+The ratio of the arc of action to the circular pitch in gears. :: Contact ratio
+Interference in involute gears happens when the pinion has too few of these. :: Teeth
+For 20° full-depth teeth, the minimum number of pinion teeth without undercut is about this. :: 17 (18)
+The formula that gives the speed ratio of an epicyclic train by fixing the arm. :: Willis equation (tabular method)
+The cam profile with acceleration following a sine curve, smooth at both ends. :: Cycloidal motion
+The polynomial cam law with zero acceleration at both ends, of degree five. :: 3-4-5 polynomial
+The theorem that the three instant centres of three bodies lie on a line. :: Aronhold–Kennedy theorem
+The number of instant centres for a mechanism with n links. :: n(n−1)/2
+The straight-line mechanism invented by James Watt. :: Watt's linkage
+The first exact straight-line linkage, invented in 1864. :: Peaucellier–Lipkin linkage
+The mechanism that converts rotation to intermittent rotation, used in film projectors. :: Geneva drive
+The quick-return mechanism used in shaping machines. :: Whitworth quick-return mechanism
+The coupling that joins two shafts at an angle, giving uneven output speed. :: Hooke's (universal) joint
+The joint that transmits constant speed at an angle, used in front-wheel drive cars. :: Constant-velocity (CV) joint
+The theorem that the response to an impulse fully defines a linear system. :: Convolution (Duhamel's integral)
+The integral that gives the response to any force as a sum of impulse responses. :: Duhamel's integral
+The plot of maximum response of single-degree-of-freedom systems to an earthquake against their natural period. :: Response spectrum
+The method that adds modal peak responses as the square root of the sum of squares. :: SRSS
+The modal combination rule used when modes are closely spaced. :: CQC (complete quadratic combination)
+The time-stepping method common in structural dynamics, with parameters β and γ. :: Newmark-beta method
+The Newmark average acceleration method is this kind of stable. :: Unconditionally stable
+The mass matrix that keeps the mass at the nodes only. :: Lumped mass matrix
+The mass matrix that uses the same shape functions as stiffness. :: Consistent mass matrix
+The subspace method used to find the lowest modes of large finite element models. :: Lanczos method
+The reduction that keeps master degrees of freedom and condenses out the rest. :: Guyan reduction (static condensation)
+The method that builds large structures from component modes. :: Component mode synthesis (Craig–Bampton)
+The technique that finds modes from response data only, with no measured input force. :: Operational modal analysis
+The graphical check for how similar two sets of mode shapes are. :: MAC (modal assurance criterion)
+The plot of an FRF's real against imaginary part, a circle near resonance. :: Nyquist plot
+The modal parameter estimation method that fits a circle in the Nyquist plot. :: Circle fit
+A random vibration signal's frequency content is described by this. :: Power spectral density (PSD)
+The probability distribution of peaks in narrow-band random vibration. :: Rayleigh distribution
+The method of counting fatigue cycles in a random load history. :: Rainflow counting
+The vibration shaker test that sweeps slowly through frequencies. :: Sine sweep test
+The jet engine vibration problem where blades flutter in the airflow. :: Blade flutter
+The shaft bearing instability where oil whirl locks onto the first critical speed. :: Oil whip
+Rotors spinning above their first critical speed are called this. :: Flexible (supercritical) rotors
+The diagram of natural frequencies against rotor speed. :: Campbell diagram
+The gyroscopic effect splits rotor whirl frequencies into these two. :: Forward and backward whirl
+The rotor model with a single disc on a massless flexible shaft. :: Jeffcott rotor
+The bearing type that supports a rotor on a magnetic field with no contact. :: Magnetic bearing
+The idea that a suspension is a trade-off between ride comfort and this. :: Road holding (handling)
+The suspension that uses actuators to control the body motion. :: Active suspension
+Dampers that change stiffness quickly using a fluid whose viscosity changes in a magnetic field. :: Magnetorheological (MR) dampers
+The two body vibrations of a car, bounce plus this rotation. :: Pitch
+The system that reduces vibration by using sensors and opposing actuators. :: Active vibration control
+The cancellation of sound using opposite waves, as in headphones. :: Active noise cancellation
+The frequency at which a building sways, roughly 10 divided by this. :: Number of storeys
+The tall building damper that uses water sloshing in a tank. :: Tuned liquid damper
+The base isolation bearings made of rubber and steel layers. :: Laminated elastomeric bearings
+The base isolation bearing that slides on a curved surface like a pendulum. :: Friction pendulum bearing
+The 1995 earthquake in Japan whose damage pushed base isolation forward. :: Kobe (Great Hanshin) earthquake
+Chaotic motion is very sensitive to this. :: Initial conditions
+The simple mechanical system with two arms that is a classic example of chaos. :: Double pendulum
+The plot that samples a periodic system once per forcing cycle. :: Poincaré map (section)
+The sequence of period doublings that leads to chaos has a universal constant named after this person. :: Mitchell Feigenbaum
+The exponent that measures how fast nearby trajectories separate. :: Lyapunov exponent
+The idea that small causes can have large effects, named after an insect. :: Butterfly effect
+The scientist who coined the 'butterfly effect' from his weather models. :: Edward Lorenz
+The nonlinear equation for a pendulum shows its period grows with this. :: Amplitude
+The wave equation for a vibrating string was first derived by this French mathematician in 1747. :: Jean le Rond d'Alembert
+The vibrating plate patterns made visible with sand. :: Chladni figures
+The free-free beam's first natural frequency constant (βL), roughly. :: About 4.73
+The first natural frequency constant (βL) for a cantilever, roughly. :: About 1.875
+Orbits with exactly zero total energy have this shape. :: Parabola
+The points where a small body can stay fixed relative to two large orbiting bodies. :: Lagrange points
+The number of Lagrange points for two orbiting bodies. :: Five
+The Lagrange point near which the James Webb Space Telescope orbits. :: L2 (Sun–Earth)
+The equation M = E − e sin E that links mean and eccentric anomaly. :: Kepler's equation
+Gyroscopic effects make a rotor's forward whirl frequency do this as speed rises. :: Increase
+The energy-flow method for predicting high-frequency vibration of complex structures. :: Statistical energy analysis (SEA)
+Damping inside a spinning shaft can make it unstable above the first critical speed. This is called this. :: Internal (rotating) damping
+Finding small oscillations about equilibrium by linearising and checking eigenvalues. :: Linear stability analysis
+The rolling-bearing fault frequency for a defect on the fixed outer ring, abbreviated BPFO. :: Ball pass frequency, outer race
+
+## 500
+The 1687 book in which Newton set out his laws of motion. :: Philosophiæ Naturalis Principia Mathematica
+The astronomer who paid to publish Newton's Principia. :: Edmond Halley
+The Italian scientist who showed that falling bodies accelerate uniformly, using inclined planes. :: Galileo Galilei
+Galileo is said to have timed a swinging lamp with his pulse in the cathedral of this city. :: Pisa
+The year Galileo published his Two New Sciences. :: 1638
+The Flemish engineer who dropped lead balls from a church tower in Delft in 1586, before Galileo. :: Simon Stevin
+The French mathematician whose 1788 book Mécanique analytique famously had no diagrams. :: Joseph-Louis Lagrange
+The Irish mathematician who reformulated mechanics in 1833 and 1834. :: William Rowan Hamilton
+The French mathematician who stated the principle of least action in 1744. :: Pierre-Louis Maupertuis
+The German mathematician who proved in 1918 that symmetries give conservation laws. :: Emmy Noether
+The French engineer who explained the effect of rotating frames, now named after him, in 1835. :: Gaspard-Gustave de Coriolis
+Coriolis introduced this word, meaning force times distance, in 1829. :: Work
+The French physicist who showed Earth's rotation with a giant pendulum in 1851. :: Léon Foucault
+Foucault's famous public pendulum hung in this Paris building. :: Panthéon
+Foucault also gave this name in 1852 to a spinning wheel device. :: Gyroscope
+The Dutch scientist who worked out the formula for centrifugal force and the pendulum period. :: Christiaan Huygens
+Huygens noticed in 1665 that two pendulum clocks hung from the same beam do this. :: Synchronise
+The curve on which a pendulum's period does not depend on amplitude, found by Huygens. :: Cycloid (tautochrone)
+The Swiss mathematician who posed the fastest-descent (brachistochrone) problem in 1696. :: Johann Bernoulli
+The English carpenter who solved the longitude problem with his marine chronometers. :: John Harrison
+Harrison's most famous timekeeper, finished in 1759. :: H4
+The Swiss mathematician whose 1765 book on rigid bodies introduced his equations of rotation. :: Leonhard Euler
+The Swiss mathematician who showed in 1753 that a vibrating string's motion is a sum of these. :: Normal modes (harmonics)
+The British physicist whose 1877 book The Theory of Sound founded vibration theory. :: Lord Rayleigh (John William Strutt)
+The German physicist who made sand patterns on vibrating plates in 1787. :: Ernst Chladni
+The French mathematician whose 1807 work showed functions could be built from sines and cosines. :: Joseph Fourier
+The German engineer who published the classic equation for nonlinear springs in 1918. :: Georg Duffing
+The Dutch physicist who studied oscillations in vacuum tube circuits in the 1920s. :: Balthasar van der Pol
+The Ukrainian-American engineer who wrote 'Vibration Problems in Engineering' in 1928. :: Stephen Timoshenko
+The German engineer whose early 1900s patent introduced the dynamic vibration absorber, first used on ships. :: Hermann Frahm
+The Scottish engineer who analysed the whirling of shafts in 1869. :: William Rankine
+The British engineer whose 1919 paper on a disc on a flexible shaft explained running above critical speed. :: Henry Jeffcott
+The Swedish engineer whose 1880s steam turbines ran above their critical speed. :: Gustaf de Laval
+The Russian mathematician who founded the stability theory of motion in 1892. :: Aleksandr Lyapunov
+The French mathematician who found chaotic behaviour in the three-body problem in the 1880s. :: Henri Poincaré
+Poincaré won a prize in 1889 offered by this king. :: Oscar II of Sweden
+The title of Edward Lorenz's 1963 paper that introduced chaos. :: Deterministic Nonperiodic Flow
+The Scottish physicist whose 1868 paper 'On Governors' founded control theory. :: James Clerk Maxwell
+The speed regulator with spinning weights that Watt adapted for steam engines in 1788. :: Centrifugal (flyball) governor
+The engineer credited with inventing the sun-and-planet gear for Watt's engines. :: William Murdoch
+Watt used the sun-and-planet gear because another inventor had patented this part. :: Crank
+The German engineer called the father of kinematics, author of Theoretische Kinematik (1875). :: Franz Reuleaux
+The curve of constant width named after Reuleaux. :: Reuleaux triangle
+The British 20p and 50p coins are curves of constant width with this many sides. :: Seven
+The American engineers who published the four-parameter link convention in 1955. :: Denavit and Hartenberg
+The Russian mathematician who studied straight-line linkages and gave his name to a polynomial family. :: Pafnuty Chebyshev
+The French army officer who invented the first exact straight-line linkage in 1864. :: Charles-Nicolas Peaucellier
+The 11th-century Persian scholar who wrote about inclination (mayl) as the cause of motion. :: Ibn Sina (Avicenna)
+The 12th-century Baghdad scholar who argued that a constant force produces acceleration. :: Abu'l-Barakat al-Baghdadi
+The 14th-century French philosopher who developed impetus theory. :: Jean Buridan
+The Oxford college whose scholars proved the mean speed theorem in the 1330s. :: Merton College
+The French astronomer Jean Richer found in 1672 that his pendulum clock ran slow at this place near the equator. :: Cayenne (French Guiana)
+The year Newton was born, by the Julian calendar used in England then. :: 1642
+The Soviet cosmonaut whose 1985 observation showed a wing nut flipping in space. :: Vladimir Dzhanibekov
+The German inventor of the gyrocompass, in the early 1900s. :: Hermann Anschütz-Kaempfe
+The American engineer who founded his gyroscope company in 1910 to make gyrocompasses. :: Elmer Sperry
+The two-wheeled personal transporter invented by Dean Kamen that balances like an inverted pendulum. :: Segway
+The Antikythera mechanism has at least this many surviving gears, roughly. :: About 30
+The 12th-century scholar al-Khazini wrote this book on balances and specific weights. :: The Book of the Balance of Wisdom
+The Andalusian astronomer whose 11th-century universal astrolabe worked at any latitude. :: Al-Zarqali
+The Ottoman scholar who wrote a book on mechanical clocks in 1559. :: Taqi al-Din
+The 9th-century Baghdad brothers whose book described an automatic flute player, an early programmable machine. :: Banū Mūsā
+The English physicist who measured g precisely with a reversible pendulum in 1817. :: Henry Kater
+The device Cavendish used in 1798 to measure gravity between lead balls. :: Torsion balance
+The London footbridge that swayed sideways on its opening day in 2000. :: Millennium Bridge
+The London nickname for the Millennium Bridge after it swayed. :: Wobbly Bridge
+The mass of the Taipei 101 tuned mass damper, roughly. :: About 660 tonnes
+The year Taipei 101 opened. :: 2004
+The New York skyscraper found in 1978 to be at risk in quartering winds and secretly repaired. :: Citicorp Center
+The structural engineer of the Citicorp Center who ordered the secret repairs. :: William LeMessurier
+The Boston tower that lost windows in the 1970s and was later fitted with tuned mass dampers. :: John Hancock Tower
+The world's tallest building, shaped with setbacks to 'confuse the wind' and break up vortex shedding. :: Burj Khalifa
+The French suspension bridge that collapsed in 1850 as a battalion of soldiers crossed it. :: Angers Bridge (Basse-Chaîne Bridge)
+The 1831 English bridge collapse that led the British Army to order troops to break step on bridges. :: Broughton Suspension Bridge
+Engineers now blame the Tacoma Narrows collapse on this, not simple resonance. :: Aeroelastic flutter
+The Tacoma Narrows Bridge collapsed in a wind of about this speed. :: About 65 km/h (40 mph)
+The 1959 and 1960 Lockheed Electra crashes came from this propeller and engine instability. :: Whirl flutter
+The NACA engineer whose 1948 report predicted roll (inertia) coupling in fast jets. :: William H. Phillips
+The 1985 Mexico City earthquake hit mid-rise buildings hardest because the soft lake-bed soil did this. :: Resonated near their natural period
+The British geologist who built the first practical modern seismographs in Japan in the 1880s. :: John Milne
+The Chinese scholar who built an earthquake detector with dragons and toads in 132 AD. :: Zhang Heng
+The American seismologist who created a magnitude scale in 1935. :: Charles Richter
+The technique that uses a planet's motion to speed up a spacecraft. :: Gravity assist (slingshot)
+The UCLA student who worked out gravity assist trajectories in 1961. :: Michael Minovitch
+The probe that used gravity assists to visit all four giant planets. :: Voyager 2
+The American physicist who launched the first liquid-fuelled rocket in 1926. :: Robert Goddard
+The engineer who led development of the Saturn V rocket. :: Wernher von Braun
+Most quartz watch crystals vibrate at this frequency, a power of two. :: 32,768 Hz
+The first quartz wristwatch sold, by Seiko in 1969. :: Astron
+The Wright brothers controlled roll on their early aircraft by doing this to the wings. :: Wing warping
+The Formula One team that raced a tuned mass damper in 2005 before it was banned in 2006. :: Renault
+The Cambridge engineer who invented the inerter, a mechanical element tied to relative acceleration. :: Malcolm Smith
+In Formula One, the inerter was hidden under this code name. :: J-damper
+Newton's cradle shows conservation of momentum and this. :: Energy
+In the Principia, Newton's second law was stated in terms of the change of this. :: Motion (momentum)
+The German thinker who called m v² 'vis viva' (living force) in 1686. :: Gottfried Wilhelm Leibniz
+The English scientist who first used the word 'energy' in its modern sense, in 1807. :: Thomas Young
+In 1829 Coriolis put this factor in front of m v² to define kinetic energy. :: One half
+Ernst Mach criticised Newton's absolute space in this 1883 book. :: The Science of Mechanics
+In 1971 an Apollo 15 astronaut dropped a hammer and this together on the Moon. :: A feather

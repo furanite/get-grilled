@@ -1,4 +1,5 @@
 import type { ThemeId } from './types'
+import { ISLAMIC_SET } from './edition'
 
 /**
  * Every sound is made in the browser with Web Audio: no audio files to download or license.
@@ -166,7 +167,8 @@ function synth(c: AudioContext, midi: number, t: number, d = 1.2, g = 0.08, out?
 type Voice = (c: AudioContext, midi: number, t: number, d?: number, g?: number, out?: AudioNode) => void
 
 /** Title tune: a short, calm phrase in each theme's own colour. Midi notes and start times. */
-const TUNES: Record<ThemeId, { voice: Voice; notes: [number, number, number?][]; pad: number[] }> = {
+// The Islamic themes have no title tune: the Islamic site plays no music.
+const TUNES: Partial<Record<ThemeId, { voice: Voice; notes: [number, number, number?][]; pad: number[] }>> = {
   // [midi, start, length]
   amethyst: { voice: bell, notes: [[67, 0], [72, 0.4], [76, 0.8], [74, 1.3], [79, 1.7, 2.6], [72, 2.6], [76, 3.0, 2.8]], pad: [48, 55, 64] },
   emerald: { voice: bell, notes: [[69, 0], [72, 0.45], [76, 0.9], [74, 1.35], [72, 1.8], [69, 2.25, 2.4], [76, 2.9, 2.8]], pad: [45, 52, 60] },
@@ -196,11 +198,12 @@ export function titleTune(theme: ThemeId) {
     return
   }
   stopTune()
+  const tune = ISLAMIC_SET ? undefined : TUNES[theme]
+  if (!tune) return
   const bus = c.createGain()
   bus.gain.value = 1
   bus.connect(master!)
   tuneBus = bus
-  const tune = TUNES[theme]
   for (const [m, t, d] of tune.notes) tune.voice(c, m, 0.15 + t, d ?? 1.5, undefined, bus)
   // A quiet pad underneath
   for (const m of tune.pad) tone(c, { f: hz(m), t: 0.1, d: 5.6, g: 0.035, a: 1.2, type: 'triangle', lp: 900, out: bus })
