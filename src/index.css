@@ -1,5 +1,5 @@
 /* Honorific signs (ﷺ ﵁ ﵂ ﵃ ﵀ ﵇ ﵈) from Noto Naskh Arabic, OFL 1.1, cut down to just these signs. Few system fonts have them. */
-@font-face{font-family:'GG Honorifics';src:url('./assets/honorifics.woff2') format('woff2');unicode-range:U+FD40-FD4F,U+FDFA;font-display:swap}
+@font-face{font-family:'GG Honorifics';src:url('./assets/honorifics.woff2') format('woff2');unicode-range:U+FD40-FD4F,U+FDFA;font-display:swap;size-adjust:140%;ascent-override:72%;descent-override:22%}
 /* Get Grilled. Every theme is a token set on :root[data-theme]; components only read tokens. Dark-only by design. */
 :root{color-scheme:dark;--ease:cubic-bezier(.7,0,.2,1);--spring:cubic-bezier(.2,.9,.25,1.15);
   --star:polygon(100% 50%,86.96% 65.31%,85.36% 85.36%,65.31% 86.96%,50% 100%,34.69% 86.96%,14.64% 85.36%,13.04% 65.31%,0 50%,13.04% 34.69%,14.64% 14.64%,34.69% 13.04%,50% 0,65.31% 13.04%,85.36% 14.64%,86.96% 34.69%);
@@ -934,3 +934,14 @@ html[data-set="islamic"] .q{line-height:1.6}
 .judge .t button[aria-pressed="true"]{outline:2px solid var(--text);outline-offset:1px}
 .aud-main.round{padding:clamp(16px,3vw,40px);gap:16px;display:flex;flex-direction:column}
 .aud-main.round .q{font-size:clamp(28px,4.4vw,56px)}
+
+/* Long clues never spill over the card's header or buttons: they are centred with auto margins (which give way to scrolling
+   inside .card-in when the text is taller than the space) and get a smaller size by length (data-len from src/lib/qlen.ts). */
+.card .q,.aud-card .q,.round .q{display:block;flex:0 0 auto;min-height:auto;margin-block:auto;overflow-wrap:break-word}
+.q[data-len="l"]{font-size:clamp(18px,2.6vw,30px)}
+.q[data-len="xl"]{font-size:clamp(17px,2.2vw,26px)}
+.aud-card .q[data-len="l"]{font-size:clamp(24px,3.6vw,64px)}
+.aud-card .q[data-len="xl"]{font-size:clamp(22px,3vw,52px)}
+.aud-card{overflow:auto}
+.card .answer,.aud-card .answer{flex:none}
+.aud-card .answer[data-len="l"]{font-size:clamp(22px,2.8vw,48px)}

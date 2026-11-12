@@ -14,6 +14,7 @@ import { HOST_EDITION, type Live } from '../lib/edition'
 import { diagramSrc } from '../lib/diagram'
 import { GameClock, TimerBar, type Clock } from './Timer'
 import { sfx, stopSuspense, suspense } from '../lib/sound'
+import { qLen } from '../lib/qlen'
 
 interface Props {
   t: Strings
@@ -326,6 +327,26 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
     }
   }, [open.el, clue.golden, clue.img, cat.respect])
 
+  // A long clue, answer or source makes the card taller (up to the window) instead of spilling or hiding the buttons.
+  useEffect(() => {
+    const fit = () => {
+      const card = ref.current
+      const inner = card?.firstElementChild as HTMLElement | null
+      if (!card || !inner) return
+      const cur = card.getBoundingClientRect().height
+      const need = inner.scrollHeight
+      if (need <= cur + 1) return
+      const H = Math.min(need, innerHeight - 16)
+      Object.assign(card.style, { top: (innerHeight - H) / 2 + 'px', height: H + 'px' })
+    }
+    const ids = [setTimeout(fit, 720), setTimeout(fit, 1400)]
+    addEventListener('resize', fit)
+    return () => {
+      ids.forEach(clearTimeout)
+      removeEventListener('resize', fit)
+    }
+  }, [revealed, stealer, wrong.length])
+
   // The countdown starts once the card has finished opening.
   useEffect(() => {
     if (!timerSecs) return
@@ -422,7 +443,7 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
               {clue.special === 'steal' ? t.stealHelp : t.crowdHelp}
             </p>
           )}
-          <p className="q" data-testid="question" dir="auto">{q}</p>
+          <p className="q" data-testid="question" dir="auto" data-len={qLen(q)}>{q}</p>
           {clue.img && (
             <div className="q-fig">
               <img className="q-img" src={diagramSrc(clue.img)} alt={t.diagramAlt} data-testid="question-img" />

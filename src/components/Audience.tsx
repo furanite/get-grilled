@@ -6,11 +6,12 @@ import { VALUES } from '../lib/types'
 import type { Strings } from '../lib/i18n'
 import { num } from '../lib/i18n'
 import { FINAL_SECS, FINAL_VALUE, LIGHTNING_SECS, STREAK_AT, clueSeconds, isFinished, lastPlace, standings, tileKey } from '../lib/game'
-import { appName, type Live } from '../lib/edition'
+import { ISLAMIC_SET, appName, type Live } from '../lib/edition'
 import { setFavicon } from '../lib/favicon'
 import { Ambient, CatIcon, Flourish, FlourishAbove, Mark } from './Brand'
 import { diagramSrc } from '../lib/diagram'
 import { GameClock, TimerBar } from './Timer'
+import { qLen } from '../lib/qlen'
 
 /**
  * Opens a second browser window that the host drags onto the projector.
@@ -103,6 +104,8 @@ export function AudienceScreen({ win, root, t, lang, theme, reduceFx, screen, ga
   html.dataset.theme = theme
   setFavicon(win.document, theme)
   html.dataset.reduceFx = reduceFx ? 'on' : 'off'
+  // The Islamic look and the Qur'an font (with every Uthmani mark) apply in the audience window too.
+  if (ISLAMIC_SET) html.dataset.set = 'islamic'
   html.lang = lang
   html.dir = lang === 'ar' ? 'rtl' : 'ltr'
 
@@ -183,7 +186,7 @@ function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings;
           {st?.startedAt && !st.done && q ? (
             <div className="round-card" key={st.i}>
               <TimerBar clock={{ start: st.startedAt, total: LIGHTNING_SECS }} total={LIGHTNING_SECS} lang={lang} timeUpText={t.timeUp} big />
-              <p className="q" dir="auto" data-testid="audience-lightning-q">
+              <p className="q" dir="auto" data-len={qLen(lang === 'ar' && q.qAr ? q.qAr : q.q)} data-testid="audience-lightning-q">
                 {lang === 'ar' && q.qAr ? q.qAr : q.q}
               </p>
               {st.revealed ? (
@@ -228,7 +231,7 @@ function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings;
                 <span className="label">
                   <CatIcon id={f.cat.id} /> {cat}
                 </span>
-                <p className="q" dir="auto" data-testid="audience-final-q">
+                <p className="q" dir="auto" data-len={qLen(lang === 'ar' && f.q.qAr ? f.q.qAr : f.q.q)} data-testid="audience-final-q">
                   {lang === 'ar' && f.q.qAr ? f.q.qAr : f.q.q}
                 </p>
               </>
@@ -326,7 +329,7 @@ function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings;
               </span>
             </div>
             {clue.special && <p className={`special-note ${clue.special}`}>{clue.special === 'steal' ? t.stealHelp : t.crowdHelp}</p>}
-            <p className="q" dir="auto" data-testid="audience-question">
+            <p className="q" dir="auto" data-len={qLen(lang === 'ar' && clue.qAr ? clue.qAr : clue.q)} data-testid="audience-question">
               {lang === 'ar' && clue.qAr ? clue.qAr : clue.q}
             </p>
             {clue.img && (
@@ -335,7 +338,7 @@ function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings;
             </div>
           )}
             {live!.revealed ? (
-              <div className="answer show" dir="auto" data-testid="audience-answer">
+              <div className="answer show" dir="auto" data-len={(lang === 'ar' && clue.aAr ? clue.aAr : clue.a).length > 60 ? 'l' : undefined} data-testid="audience-answer">
                 {lang === 'ar' && clue.aAr ? clue.aAr : clue.a}
                 <Source t={t} q={clue} />
               </div>
