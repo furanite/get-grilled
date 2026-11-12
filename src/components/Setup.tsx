@@ -24,6 +24,8 @@ const GROUP_ORDER: PackGroup[] = ['engineering', 'cces', 'general']
 
 const DEFAULT_TEAMS = { en: ['Team 1', 'Team 2', 'Team 3'], ar: ['الفريق ١', 'الفريق ٢', 'الفريق ٣'] }
 
+
+const NIGHTS_OPEN_KEY = 'gg.nightsOpen.v1'
 export default function Setup({ t, lang, index, indexError, custom, pools, onBack, onStart }: Props) {
   const [picked, setPicked] = useState<string[]>([])
   const [closed, setClosed] = useState<PackGroup[]>([])
@@ -43,6 +45,15 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
   const [nights, setNights] = useState<Night[]>([])
   const [night, setNight] = useState<string | null>(null)
   const [nightNote, setNightNote] = useState('')
+  // The themed nights list folds away; whether it is open is remembered on this device.
+  const [nightsOpen, setNightsOpen] = useState(() => {
+    try { return localStorage.getItem(NIGHTS_OPEN_KEY) === '1' } catch { return false }
+  })
+  const toggleNights = (open: boolean) => {
+    setNightsOpen(open)
+    try { localStorage.setItem(NIGHTS_OPEN_KEY, open ? '1' : '0') } catch { /* private mode */ }
+  }
+  const chosenNight = nights.find((n) => n.id === night)
   useEffect(() => {
     loadNights().then(setNights)
   }, [])
@@ -125,8 +136,12 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
           {t.pickCats} · {num(picked.length, lang)}/{num(6, lang)}
         </span>
         {nights.length > 0 && index && (
-          <div className="nights" data-testid="nights">
-            <span className="label">{t.nights}</span>
+          <details className="nights" data-testid="nights" open={nightsOpen} onToggle={(e) => toggleNights((e.currentTarget as HTMLDetailsElement).open)}>
+            <summary>
+              <span className="label">{t.nights}</span>
+              <span className="nights-count">{num(nights.length, lang)}</span>
+              {chosenNight && <b className="nights-chosen">{lang === 'ar' && chosenNight.nameAr ? chosenNight.nameAr : chosenNight.name}</b>}
+            </summary>
             <p className="muted nights-help">{t.nightsHelp}</p>
             <div className="night-grid">
               {nights.map((n) => (
@@ -137,7 +152,7 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
               ))}
             </div>
             {nightNote && <p className="muted">{nightNote}</p>}
-          </div>
+          </details>
         )}
         <span className="label">{t.builtIn}</span>
         {indexError && <p className="err">{indexError}</p>}
