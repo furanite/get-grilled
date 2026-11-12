@@ -1,6 +1,6 @@
 import type { ThemeId } from './types'
 import { ISLAMIC_SET } from './edition'
-import { islamicFx, suspense as makeSuspense, type Kit } from './sound-isl'
+import { islamicFx, islamicTitleTune, suspense as makeSuspense, type Kit } from './sound-isl'
 
 /**
  * Every sound is made in the browser with Web Audio: no audio files to download or license.
@@ -14,6 +14,7 @@ let verb: ConvolverNode | null = null
 let enabled = true
 let pendingTune: { theme: ThemeId; at: number } | null = null
 let tuneBus: GainNode | null = null
+let islamicTune: { stop: (fade?: number) => void } | null = null
 
 function audio(): AudioContext | null {
   if (typeof window === 'undefined') return null
@@ -169,7 +170,7 @@ function synth(c: AudioContext, midi: number, t: number, d = 1.2, g = 0.08, out?
 type Voice = (c: AudioContext, midi: number, t: number, d?: number, g?: number, out?: AudioNode) => void
 
 /** Title tune: a short, calm phrase in each theme's own colour. Midi notes and start times. */
-// The Islamic themes have no title tune: the Islamic site plays no music.
+// The Islamic site has its own title tunes in sound-isl.ts.
 const TUNES: Partial<Record<ThemeId, { voice: Voice; notes: [number, number, number?][]; pad: number[] }>> = {
   // [midi, start, length]
   amethyst: { voice: bell, notes: [[67, 0], [72, 0.4], [76, 0.8], [74, 1.3], [79, 1.7, 2.6], [72, 2.6], [76, 3.0, 2.8]], pad: [48, 55, 64] },
@@ -200,7 +201,12 @@ export function titleTune(theme: ThemeId) {
     return
   }
   stopTune()
-  const tune = ISLAMIC_SET ? undefined : TUNES[theme]
+  if (ISLAMIC_SET) {
+    // Islamic site: a daff, breeze and songbird tune in the theme's nasheed tradition (approved 2026-11-12)
+    islamicTune = islamicTitleTune({ c, out: master!, verb }, theme)
+    return
+  }
+  const tune = TUNES[theme]
   if (!tune) return
   const bus = c.createGain()
   bus.gain.value = 1
@@ -214,6 +220,8 @@ export function titleTune(theme: ThemeId) {
 /** Fades the title tune out, for example when the host leaves the title screen. */
 export function stopTune() {
   pendingTune = null
+  islamicTune?.stop()
+  islamicTune = null
   if (!tuneBus || !ctx) return
   const g = tuneBus.gain
   g.cancelScheduledValues(ctx.currentTime)
