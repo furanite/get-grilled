@@ -1,0 +1,513 @@
+id: cars
+name: Cars & Motoring
+group: general
+
+## 100
+The pedal you press to make a car go faster. :: The accelerator
+The pedal you press to slow down or stop. :: The brake
+The round thing you turn to steer a car. :: The steering wheel
+The rubber parts that touch the road. :: Tyres
+The extra wheel kept in the boot for emergencies. :: The spare tyre
+The front window of a car. :: The windscreen (windshield)
+The arms that clear rain from the windscreen. :: Wipers
+The belt that keeps you safe in your seat. :: The seatbelt
+The cushion that inflates in a crash to protect you. :: The airbag
+The part of the car at the back where you put luggage, called the trunk in America. :: The boot
+The cover over the engine at the front, called the hood in America. :: The bonnet
+The mirror that lets the driver see behind through the back window. :: The rear-view mirror
+The lights that blink to show you are turning. :: Indicators (turn signals)
+The device you press to make a loud warning sound. :: The horn
+The fuel most cars have used for over a century. :: Petrol (gasoline)
+The place where you fill your car with fuel. :: A petrol station
+The type of car that runs only on batteries. :: Electric car
+A car that uses both a petrol engine and an electric motor. :: Hybrid
+The colour of a traffic light that means stop. :: Red
+The colour of a traffic light that means go. :: Green
+The colour of a traffic light that means get ready to stop. :: Amber (yellow)
+The shape of a stop sign. :: Octagon
+The card that proves you are allowed to drive. :: A driving licence
+The metal plate on a car showing its registration number. :: The number plate (licence plate)
+The Japanese car company that makes the Camry and Land Cruiser. :: Toyota
+The Japanese car company that makes the Patrol and the GT-R. :: Nissan
+The German company whose logo is a three-pointed star. :: Mercedes-Benz
+The German company whose logo has four rings. :: Audi
+The German company whose name means "people's car". :: Volkswagen
+The Bavarian company with a blue and white round logo. :: BMW
+The Italian sports car company with a prancing horse logo. :: Ferrari
+The Italian sports car company with a raging bull logo. :: Lamborghini
+The American company that made the Model T and the Mustang. :: Ford
+The Korean company that makes the Elantra and the Sonata. :: Hyundai
+The Korean company that makes the Sportage and the Sorento. :: Kia
+The Japanese company whose logo is a big H and makes the Civic. :: Honda
+The American electric car company that makes the Model 3. :: Tesla
+The British luxury brand famous for the Phantom and its "Spirit of Ecstasy" mascot. :: Rolls-Royce
+The British company that makes the Range Rover. :: Land Rover
+The British spy whose famous car is the Aston Martin. :: James Bond
+The German sports car company that makes the 911. :: Porsche
+The French company with a lion logo. :: Peugeot
+The Swedish car company famous for safety. :: Volvo
+The Japanese company that makes the Lancer and Pajero. :: Mitsubishi
+The American company that makes the Corvette and Camaro. :: Chevrolet
+The company that makes the Wrangler, famous for off-roading. :: Jeep
+The type of vehicle with a big boxy body and high ground clearance, popular for desert trips. :: SUV (4x4)
+The type of car with an open roof. :: Convertible
+A small vehicle with three wheels used as a taxi in Asia. :: Tuk-tuk (auto rickshaw)
+The two-wheeled motor vehicle you ride. :: Motorcycle
+The big vehicle that carries many passengers on a fixed route. :: Bus
+The vehicle that carries goods, with a separate cab and trailer. :: Lorry (truck)
+The emergency vehicle that takes people to hospital. :: Ambulance
+The vehicle with a ladder used to put out fires. :: Fire engine
+The famous race held each year at Monaco's streets is in this motor sport. :: Formula 1
+The race track in Saudi Arabia where the Saudi Arabian Grand Prix is held. :: Jeddah Corniche Circuit
+The off-road rally held in Saudi Arabia every January since 2020. :: The Dakar Rally
+The flag waved to show the winner crossing the finish line. :: The chequered flag
+The British F1 driver with seven world titles, tied with Michael Schumacher. :: Lewis Hamilton
+The German F1 driver with seven world titles who raced for Ferrari. :: Michael Schumacher
+The Dutch driver who won four F1 titles in a row from 2021. :: Max Verstappen
+The number of wheels on a normal car. :: Four
+The number of wheels on a bicycle. :: Two
+The side of the road people drive on in Saudi Arabia. :: The right
+The device in a car that shows how fast you are going. :: The speedometer
+The device that shows how far the car has travelled in total. :: The odometer
+The dial showing engine speed in revolutions per minute. :: The tachometer (rev counter)
+The gauge showing how much fuel is left. :: The fuel gauge
+The gearbox that changes gears by itself. :: Automatic
+The gearbox where the driver uses a clutch and gear stick. :: Manual
+The pedal you press to change gears in a manual car. :: The clutch
+The gear that makes the car go backwards. :: Reverse
+The letter P on an automatic gear lever stands for this. :: Park
+The letter N on a gear lever stands for this. :: Neutral
+The letter D on an automatic gear lever stands for this. :: Drive
+The lever you pull to stop the car rolling when parked. :: The handbrake (parking brake)
+The part that holds the engine's spark to light the fuel. :: The spark plug
+The liquid that keeps the engine cool, in the radiator. :: Coolant
+The slippery liquid that keeps engine parts moving smoothly. :: Engine oil
+The part that stores electricity to start the car. :: The battery
+The pipe at the back of the car where gases come out. :: The exhaust pipe
+The pump used to fill tyres with this. :: Air
+The tool used to lift a car to change a tyre. :: A jack
+The tool used to loosen the nuts on a wheel. :: A wheel wrench (lug wrench)
+The light on the dashboard that warns about the engine. :: The check engine light
+The sign showing a person walking means this kind of crossing. :: Pedestrian crossing
+The black-and-white stripes where people cross the road. :: A zebra crossing
+The round road junction where cars go in a circle. :: Roundabout
+A big, fast road with several lanes and no traffic lights. :: Motorway (highway)
+The camera that catches cars going too fast. :: A speed camera
+The Saudi system of traffic cameras that issues fines automatically. :: Saher
+The year women in Saudi Arabia started driving legally. :: 2018
+The Saudi electric car brand launched by the Public Investment Fund and Foxconn. :: Ceer
+The American electric car company that opened a factory in Saudi Arabia, maker of the Air. :: Lucid
+The carpets that protect a car's floor. :: Floor mats
+The person who drives you around for money in a car. :: A taxi driver (chauffeur)
+The ride-hailing company founded in Dubai in 2012, now owned by Uber. :: Careem
+The ride-hailing company founded in San Francisco in 2009. :: Uber
+The holder for drinks between the front seats. :: The cup holder
+The bright lights at the front of a car used at night. :: Headlights
+
+## 200
+The part that connects the engine to the wheels and changes the gear ratio. :: The gearbox (transmission)
+The part that mixes air and fuel in older cars, replaced by fuel injection. :: The carburettor
+The system that sprays fuel directly into the engine. :: Fuel injection
+The part that charges the battery while the engine runs. :: The alternator
+The small electric motor that turns the engine to start it. :: The starter motor
+The part that cools engine coolant with air at the front of the car. :: The radiator
+The springs and shock absorbers make up this system. :: The suspension
+The part that cleans dirty exhaust gas using platinum and palladium. :: The catalytic converter
+The part that makes the exhaust quieter. :: The silencer (muffler)
+The system that stops wheels locking under hard braking. :: ABS (anti-lock braking system)
+The system that helps stop a car skidding by braking single wheels. :: ESC (electronic stability control)
+The type of drive where the engine powers all four wheels. :: Four-wheel drive (4WD/AWD)
+The drive system where only the front wheels are powered. :: Front-wheel drive
+The drive system where only the back wheels are powered. :: Rear-wheel drive
+The device that forces extra air into an engine using exhaust gas. :: Turbocharger
+The device that forces extra air into an engine using a belt from the engine. :: Supercharger
+The unit of engine power, originally comparing engines to animals. :: Horsepower
+The engine measure in litres or cc that shows its size. :: Engine displacement (capacity)
+The engine type with cylinders in two rows forming a V shape. :: V engine (such as V8)
+The engine type with cylinders in a single straight row. :: Inline (straight) engine
+The engine type with cylinders lying flat and opposite each other, used by Porsche and Subaru. :: Boxer (flat) engine
+The number of cylinders in a V8 engine. :: Eight
+The number of cylinders in a V12 engine. :: Twelve
+The fuel used by most lorries and some cars, lighting by compression not spark. :: Diesel
+The engine cycle with four strokes: intake, compression, power and this. :: Exhaust
+The pressure in tyres is often measured in this unit, pounds per square inch. :: PSI
+The grooves on a tyre that help it grip the road. :: The tread
+The minimum legal tread depth in many countries, in millimetres. :: 1.6 mm
+The danger of driving fast through water when tyres lose grip. :: Aquaplaning
+Desert drivers let some air out of their tyres to drive better on this. :: Sand
+The Arabic word for dune driving, popular in Saudi deserts. :: Tat'eess (dune bashing)
+The safety rule: keep at least this many seconds behind the car in front, in good weather. :: Two seconds
+The rule for the blind spot: you should look over this before changing lanes. :: Your shoulder
+The car part that flashes all indicators at once in an emergency. :: Hazard lights
+The daughter of Emil Jellinek whose name became a famous car brand. :: Mercédès Jellinek
+The first name of the founder of the company that became Ferrari. :: Enzo
+The founder of Lamborghini, who made tractors first. :: Ferruccio Lamborghini
+The founder of Porsche, who also designed the Volkswagen Beetle. :: Ferdinand Porsche
+The founder of the Honda Motor Company. :: Soichiro Honda
+The founder of Toyota Motor Corporation, son of the loom inventor. :: Kiichiro Toyoda
+The founder of Ford Motor Company. :: Henry Ford
+The co-founder of Rolls-Royce with Charles Rolls. :: Henry Royce
+The Swedish car maker whose name means "I roll" in Latin. :: Volvo
+The car company whose name comes from the Pleiades star cluster. :: Subaru
+The Japanese car company whose name echoes its founder, Jujiro Matsuda. :: Mazda
+The German car whose nickname is the "Beetle". :: Volkswagen Type 1
+The British small car designed by Alec Issigonis in 1959. :: The Mini
+The car that was the world's best-selling single model, made in Japan. :: Toyota Corolla
+The Ford pickup that has been America's best-selling vehicle for decades. :: F-150 (F-Series)
+The Toyota off-roader hugely popular in Saudi Arabia, nicknamed "Shas" in its pickup form. :: Land Cruiser
+The Nissan SUV hugely popular in Saudi Arabia for desert driving. :: Patrol
+The Toyota pickup truck famous for toughness, used across Africa and the Middle East. :: Hilux
+The Lexus is the luxury brand of this company. :: Toyota
+Infiniti is the luxury brand of this company. :: Nissan
+Acura is the luxury brand of this company. :: Honda
+Genesis is the luxury brand of this company. :: Hyundai
+The company that owns Lamborghini, Audi, Bentley and Porsche. :: Volkswagen Group
+Fiat, Alfa Romeo, Maserati, Peugeot and Jeep all belong to this car group. :: Stellantis
+The Indian company that owns Jaguar and Land Rover. :: Tata Motors
+The Chinese company that owns Volvo Cars. :: Geely
+The Chinese company that is the world's biggest maker of electric and plug-in hybrid cars. :: BYD
+The Bugatti that broke 490 km/h in 2019. :: Chiron Super Sport 300+
+The French car company that makes the Clio and Duster. :: Renault
+The Czech car brand owned by Volkswagen. :: Škoda
+The Spanish car brand owned by Volkswagen. :: SEAT (Cupra)
+The Romanian car brand owned by Renault. :: Dacia
+The British sports car brand famous for the Elise. :: Lotus
+The British company that makes the 720S and the F1 car. :: McLaren
+The British luxury car brand owned by Volkswagen, making the Continental GT. :: Bentley
+The Italian luxury car brand with a trident logo. :: Maserati
+The Swedish supercar maker founded by Christian von Koenigsegg. :: Koenigsegg
+The Croatian electric hypercar maker. :: Rimac
+The F1 team based in Maranello. :: Ferrari
+The F1 team owned by an energy-drink company. :: Red Bull Racing
+The Saudi company that is a major sponsor of the Aston Martin F1 team. :: Aramco
+The British driver who won the 2009 F1 title with Brawn GP. :: Jenson Button
+The Brazilian driver with three F1 titles, who died at Imola in 1994. :: Ayrton Senna
+The French driver called "The Professor", with four F1 titles. :: Alain Prost
+The Spanish driver with two F1 world titles, 2005 and 2006. :: Fernando Alonso
+The Finnish driver who won the 2007 F1 title with Ferrari. :: Kimi Räikkönen
+The German driver with four F1 titles in a row from 2010 to 2013. :: Sebastian Vettel
+The Argentinian driver with five F1 titles in the 1950s. :: Juan Manuel Fangio
+The driver who won the 2016 F1 title, son of the 1982 champion. :: Nico Rosberg
+The team that won the 2024 F1 constructors' title. :: McLaren
+The number of points for winning a Formula 1 race. :: 25
+The team that has won the most F1 constructors' titles. :: Ferrari
+The type of race tyre with no tread for dry roads. :: Slicks
+The area beside the track where cars stop for tyres. :: The pit lane
+The safety device over the F1 driver's head introduced in 2018. :: The halo
+The car that leads the field slowly after a crash. :: The safety car
+The 24-hour endurance race held in France. :: 24 Hours of Le Mans
+The famous US race of 500 miles, held at a speedway. :: The Indianapolis 500
+The American stock car racing series. :: NASCAR
+The motorbike world championship's top class. :: MotoGP
+The Italian MotoGP rider called "The Doctor", with nine world titles. :: Valentino Rossi
+The rally world championship's short name. :: WRC
+The electric single-seater racing series held in cities, including Diriyah. :: Formula E
+The Saudi city that hosts Formula E races. :: Diriyah
+The Saudi motorsport festival city near Riyadh building a giant racetrack. :: Qiddiya
+The fan that blows air through the radiator so the engine doesn't overheat. :: The cooling fan
+
+## 300
+The year Karl Benz patented his Motorwagen. :: 1886
+The year Henry Ford introduced the moving assembly line. :: 1913
+The colour the Model T was famously available in from 1914 to 1925. :: Black
+Henry Ford's famous quote: "Any colour so long as it is" this. :: Black
+The first British car to sell over a million. :: Morris Minor
+The car that Adolf Hitler commissioned as a "people's car". :: Volkswagen Beetle
+The engine type in the original Volkswagen Beetle, air-cooled, mounted here. :: At the rear
+The car voted Car of the Century in 1999. :: Ford Model T
+The DeLorean DMC-12 is famous for these doors. :: Gull-wing doors
+The car in "Back to the Future". :: DeLorean DMC-12
+The Lamborghini famous for its wedge shape and scissor doors in the 1970s. :: Countach
+The Ferrari built to celebrate the company's 40th birthday in 1987. :: F40
+The McLaren supercar of the 1990s with a central driving seat. :: McLaren F1
+The designer of the McLaren F1 road car. :: Gordon Murray
+The Bugatti that was the first production car to pass 400 km/h. :: Veyron
+The hypercar trio of 2013: the McLaren P1, Porsche 918 and this Ferrari. :: LaFerrari
+The Japanese sports car nicknamed "Godzilla". :: Nissan GT-R
+The Toyota sports car revived in 2019 with BMW. :: Supra
+The Mazda roadster that is the best-selling two-seat sports car. :: MX-5 (Miata)
+The Honda supercar first launched in 1990 with input from Ayrton Senna. :: NSX
+The Ford sports car that won Le Mans in 1966, beating Ferrari. :: GT40
+The car company that won Le Mans in 1966 in the film "Ford v Ferrari". :: Ford
+The car Enzo Ferrari reportedly called the most beautiful ever made. :: Jaguar E-Type
+The Italian design house that styled many Ferraris. :: Pininfarina
+The Italian designer who styled the Lamborghini Countach and Miura at Bertone. :: Marcello Gandini
+The car colour Ferrari is most famous for. :: Rosso Corsa (racing red)
+The national racing colour of Britain. :: British racing green
+The national racing colour of Germany, giving Mercedes the name "Silver Arrows". :: Silver
+The national racing colour of France. :: Blue
+The Mercedes-Benz SUV nicknamed the "G-Wagon". :: G-Class
+The Mercedes model name AMG stands for Aufrecht, Melcher and this town. :: Großaspach
+BMW stands for Bayerische this Werke. :: Motoren
+The BMW performance division. :: M (M GmbH)
+Audi's four rings stand for these four merged companies: Audi, DKW, Horch and this. :: Wanderer
+The car company whose founder August Horch also started Audi. :: Horch
+"Audi" is the Latin translation of this founder's name, meaning "listen". :: Horch
+Toyota's name was changed from Toyoda partly because Toyota takes this many strokes to write in Japanese. :: Eight
+The Toyota production system that made "just-in-time" famous. :: The Toyota Production System (lean)
+Toyota's hybrid that became the world's best-selling hybrid. :: Prius
+The first mass-produced hybrid car, launched in Japan in 1997. :: Toyota Prius
+The first mass-market modern electric car, launched by Nissan in 2010. :: Nissan Leaf
+Tesla's first car, a sports car based on the Lotus Elise. :: Roadster
+The Tesla car that was sent into space in 2018 on a Falcon Heavy. :: Roadster
+The name of the dummy in the Tesla in space. :: Starman
+The Tesla pickup truck with a steel body launched in 2023. :: Cybertruck
+The automatic driver aid that keeps a set distance from the car ahead. :: Adaptive cruise control
+The number of levels of driving automation defined by SAE. :: Six (0 to 5)
+The SAE level for full self-driving in all conditions. :: Level 5
+The Google company that runs driverless taxis. :: Waymo
+The LIDAR in self-driving cars uses this kind of light to measure distance. :: Laser
+The battery chemistry most electric cars use today. :: Lithium-ion
+The cheaper, longer-lasting EV battery chemistry using iron. :: LFP (lithium iron phosphate)
+The way an electric car recovers energy when slowing down. :: Regenerative braking
+The fear of running out of charge in an electric car. :: Range anxiety
+The connector most new US electric cars use, first made by Tesla. :: NACS (North American Charging Standard)
+The fuel that fuel-cell cars like the Toyota Mirai use. :: Hydrogen
+The by-product from a hydrogen fuel-cell car's tailpipe. :: Water
+The scale that measures how quickly a car goes from 0 to this speed in km/h. :: 100 km/h
+The measure of a car's twisting force, in newton-metres. :: Torque
+The ratio between engine and wheel turns is called this. :: Gear ratio
+The part that lets the wheels on each side turn at different speeds in a corner. :: The differential
+The part that connects the gearbox to the rear axle in rear-wheel drive cars. :: The drive shaft (propeller shaft)
+The joints that let the front wheels turn while being powered. :: CV joints (constant-velocity joints)
+The part that opens and closes the engine valves. :: The camshaft
+The part that turns the up-and-down piston motion into rotation. :: The crankshaft
+The belt that keeps the crankshaft and camshaft in time. :: The timing belt
+The part that seals the top of the engine block. :: The cylinder head (head gasket)
+The meaning of "DOHC". :: Double overhead camshaft
+The meaning of "rpm". :: Revolutions per minute
+The point where an engine stops revving to protect itself. :: The rev limiter (redline)
+The kind of car steering where a motor helps the driver. :: Power steering
+The traditional steering mechanism with a gear and a toothed bar. :: Rack and pinion
+The type of brake with pads squeezing a metal disc. :: Disc brake
+The type of brake with shoes pressing outward inside a drum. :: Drum brake
+The fluid that transfers force in a hydraulic brake system. :: Brake fluid
+The amount of space under a car, important off-road. :: Ground clearance
+The angle a car can climb up to off-road without scraping its front. :: Approach angle
+The setting that locks both wheels on an axle to turn together, for off-road. :: Differential lock
+The low-ratio gear range in 4x4s for climbing and sand. :: Low range (4L)
+Desert drivers lower tyre pressure to about this to drive on soft sand. :: About 15 to 20 psi
+The flag on a pole fitted to dune buggies so others can see them over dunes. :: A safety flag (whip flag)
+The giant sand dune area near Riyadh popular for dune driving. :: The Red Sands (Nufud al-Thuwayrat)
+The F1 rule cap on the amount of money a team can spend each year. :: The cost cap (budget cap)
+The F1 system that opens a flap in the rear wing to help overtaking, used until 2025. :: DRS (Drag Reduction System)
+The F1 hybrid system that recovers energy from braking. :: MGU-K (ERS)
+The number of drivers each F1 team races per Grand Prix. :: Two
+The F1 track where the race is held at night on the street in Asia. :: Marina Bay (Singapore)
+The first night race in F1 history was held in this city in 2008. :: Singapore
+The fastest F1 circuit, called the "Temple of Speed". :: Monza
+The F1 circuit with the famous Eau Rouge corner. :: Spa-Francorchamps
+The F1 circuit where the cars race past a casino and through a tunnel. :: Monaco
+The Jeddah F1 circuit is famous for being the fastest street circuit and for having this many corners. :: 27
+The year of the first Saudi Arabian Grand Prix. :: 2021
+The driver who won the first Saudi Arabian Grand Prix. :: Lewis Hamilton
+The French rally driver who won nine WRC titles in a row. :: Sébastien Loeb
+The Qatari driver who has won the Dakar Rally car class five times. :: Nasser Al-Attiyah
+The Saudi driver who won the Dakar Rally car class in 2025. :: Yazeed Al-Rajhi
+The Dakar Rally moved to Saudi Arabia from this continent in 2020. :: South America
+The Dakar Rally was originally a race from Paris to this city. :: Dakar
+The Ferrari road-car name taken from Enzo Ferrari's son, who died young. :: Dino
+
+## 400
+The French engineer who built the first self-propelled road vehicle in 1769. :: Nicolas-Joseph Cugnot
+The first car to be sold commercially, in 1888. :: Benz Patent-Motorwagen
+The woman who made the first long-distance car drive in 1888, without telling her husband. :: Bertha Benz
+The engineer who designed the first Mercedes car in 1901. :: Wilhelm Maybach
+The Austrian businessman whose daughter Mercédès gave her name to the cars. :: Emil Jellinek
+The founder of Morris Motors, later Lord Nuffield. :: William Morris
+The car race from Peking to this city in 1907. :: Paris
+The first race at Indianapolis Motor Speedway in 1911 was won by this driver's Marmon "Wasp", which had the first rear-view mirror. :: Ray Harroun
+The first speeding ticket in Britain was issued in 1896 for driving at this speed. :: 8 mph
+The British law that required a person with a red flag to walk ahead of cars. :: The Red Flag Act (Locomotive Act 1865)
+The first person killed by a car in Britain, in 1896. :: Bridget Driscoll
+The first car with an electric starter was made by this company in 1912. :: Cadillac
+The engineer who invented the electric starter. :: Charles Kettering
+The first car radio was introduced by this company, which took its name from "motion" and "Victrola". :: Motorola
+The first car with seatbelts as standard was by this Swedish company in 1959. :: Volvo (three-point belt)
+Mercedes made the driver airbag widely available in 1981 in this model. :: S-Class
+The first ABS fitted to a production car, with Bosch, was in this Mercedes in 1978. :: S-Class
+The French company that invented the radial tyre in 1946. :: Michelin
+The tyre company that started the famous restaurant guide. :: Michelin
+The tyre company whose logo shows a winged foot. :: Goodyear
+The Japanese tyre company named after its founder Ishibashi, meaning "stone bridge". :: Bridgestone
+The Italian tyre company that supplies all F1 tyres. :: Pirelli
+The mascot made of tyres for Michelin. :: Bibendum (the Michelin Man)
+The founder of Bugatti. :: Ettore Bugatti
+The French town where Bugatti is based. :: Molsheim
+The Bugatti engine type with 16 cylinders arranged in a W. :: W16
+The Lamborghini named after a fighting bull, with a V12 and launched in 2011. :: Aventador
+The Lamborghini SUV launched in 2018. :: Urus
+The Ferrari SUV launched in 2022. :: Purosangue
+The Rolls-Royce SUV named after a large diamond. :: Cullinan
+The Aston Martin DB5 first appeared in this James Bond film. :: Goldfinger
+The DB in Aston Martin car names stands for this man. :: David Brown
+The car-maker that builds the Defender. :: Land Rover
+The first Land Rover was drawn in sand on a beach in Wales by this designer. :: Maurice Wilks
+The year the Range Rover was launched. :: 1970
+The Toyota Land Cruiser's internal name for its 70 series pickup popular in the Gulf. :: The 79 (LC70)
+The "Hajwala" street drifting culture is associated with this region. :: The Gulf (Saudi Arabia)
+The country where the Nürburgring Nordschleife is. :: Germany
+The Nürburgring's long track is nicknamed this by Jackie Stewart. :: The Green Hell
+The approximate length of the Nürburgring Nordschleife. :: About 20.8 km
+The fastest lap ever at the Nordschleife was set in 2018 by this Porsche. :: 919 Hybrid Evo
+The land speed record car that broke the sound barrier in 1997. :: Thrust SSC
+The RAF pilot who drove Thrust SSC. :: Andy Green
+The land speed record set by Thrust SSC, roughly. :: About 1,228 km/h
+The American who set land speed records in the Spirit of America on salt flats. :: Craig Breedlove
+The salt flats in Utah used for speed records. :: Bonneville Salt Flats
+The British record breaker in the Bluebird cars and boats. :: Donald Campbell (and Malcolm Campbell)
+The engine type invented by Felix Wankel, used in the Mazda RX-7. :: Rotary engine
+The Mazda that won Le Mans in 1991 with a rotary engine. :: 787B
+The first Japanese car to win Le Mans overall. :: Mazda 787B
+The Porsche that won Le Mans many times in the 1980s. :: 956 / 962
+The car manufacturer with the most Le Mans overall wins. :: Porsche
+The Audi diesel that won Le Mans in 2006, the first diesel to do so. :: R10 TDI
+The F1 team owned by Mercedes that won eight constructors' titles in a row from 2014. :: Mercedes-AMG Petronas
+The F1 team that won its 2009 title in its only season. :: Brawn GP
+The first F1 World Championship race was held in 1950 at this circuit. :: Silverstone
+The first F1 world champion, in 1950. :: Giuseppe Farina
+The driver with the most F1 race wins, over 100. :: Lewis Hamilton
+The youngest F1 race winner, at 18. :: Max Verstappen
+The record for most F1 wins in a single season, set in 2023. :: 19 (Max Verstappen)
+The F1 team that won all but one race in 2023. :: Red Bull
+The designer behind Red Bull's championship cars from 2010. :: Adrian Newey
+The team Adrian Newey joined in 2025. :: Aston Martin
+The famous Ferrari team boss during Schumacher's era, later FIA president. :: Jean Todt
+The F1 boss who ran the sport's business for about 40 years until 2017. :: Bernie Ecclestone
+The American company that bought F1 in 2017. :: Liberty Media
+The Netflix series about F1 that boosted its popularity. :: Drive to Survive
+The Saudi Arabian Grand Prix's circuit length, roughly. :: About 6.2 km
+The new Saudi race circuit at Qiddiya will feature a corner that climbs like this, up a cliff. :: A 20-storey-high blade corner
+The Formula E car generation introduced in 2023. :: Gen3
+The motorbike company from Italy known for red sports bikes. :: Ducati
+The American motorbike brand famous for cruisers. :: Harley-Davidson
+The Japanese motorbike makers: Honda, Yamaha, Kawasaki and this. :: Suzuki
+The Japanese company that makes both pianos and motorbikes. :: Yamaha
+The British motorbike brand that makes the Bonneville. :: Triumph
+The Austrian motorbike brand that dominates the Dakar Rally bikes class. :: KTM
+The top speed limit on Saudi Arabia's fastest highways, introduced in 2019. :: 140 km/h
+The Saudi highway that is the world's longest straight road without curves. :: Highway 10
+The bridge linking Saudi Arabia to Bahrain. :: King Fahd Causeway
+The length of the King Fahd Causeway, roughly. :: About 25 km
+The railway linking Makkah and Madinah via Jeddah. :: Haramain High Speed Railway
+The Riyadh public transport system with six lines, opened in 2024 and 2025. :: Riyadh Metro
+The traffic rule in Saudi Arabia for children: they must sit in the back until this age. :: 10
+The Saudi driving age for a private licence. :: 18
+The fine system in Saudi Arabia penalises drivers using these points. :: Traffic violation points
+The Saudi Arabian bus company that runs intercity coaches. :: SAPTCO
+The parts of a car you check with the "FLOWER" or "POWDER" checklist: P, O, W, D, E, R stand for petrol, oil, water, damage, electrics and this. :: Rubber (tyres)
+The German company whose engineer made the first commercially successful high-voltage spark plug system in 1902. :: Bosch
+The Ford car launched in 1964 that started the "pony car" class. :: Mustang
+The Chevrolet rival to the Mustang, launched in 1966. :: Camaro
+The Dodge muscle car revived in 2008 to rival the Mustang and Camaro. :: Challenger
+The Jaguar racing car that won Le Mans in 1955, 1956 and 1957. :: D-Type
+The 1954 Mercedes 300 SL was nicknamed this because of its upward-opening doors. :: Gullwing
+The Porsche 911 has its engine in this unusual place. :: At the rear
+The year the Porsche 911 was first shown. :: 1963
+The Saudi fund that owns most of the electric car maker Lucid. :: The Public Investment Fund (PIF)
+The Finnish driver who became the youngest WRC champion in 2022. :: Kalle Rovanperä
+The World Rally Championship round first held in Saudi Arabia in 2025. :: Rally Saudi Arabia
+The car brand whose logo is a gold "bowtie". :: Chevrolet
+The Stuttgart car brand whose crest shows a black horse on a shield. :: Porsche
+
+## 500
+The German engineer who built the first motorcycle with an internal combustion engine, the Reitwagen, with Maybach. :: Gottlieb Daimler
+The year the Reitwagen was built. :: 1885
+The Belgian-born engineer who built an early internal combustion vehicle in 1860s Paris. :: Étienne Lenoir
+The first car to break 100 km/h, in 1899, was this electric car. :: La Jamais Contente
+The Belgian driver of "La Jamais Contente". :: Camille Jenatzy
+In 1900, about this share of cars in the USA were electric. :: About a third
+The Austrian engineer who built one of the first hybrid cars, the Lohner-Porsche, in 1900. :: Ferdinand Porsche
+The 1950s American designer of the Cadillac tailfins. :: Harley Earl
+The Chrysler car of 1934 that was an early streamlined design and a sales flop. :: Airflow
+The rotary engine's three-sided rotor shape is called this. :: Reuleaux triangle
+The type of gearbox with two clutches for fast shifts. :: Dual-clutch transmission (DCT)
+The type of automatic gearbox with no fixed gears, using belts and pulleys. :: CVT (continuously variable transmission)
+The engine design where valves are moved by a camshaft in the block via pushrods. :: Overhead valve (pushrod)
+The ratio of the cylinder's volume at the bottom of a stroke to that at the top. :: Compression ratio
+The term for unwanted early fuel ignition that causes a "pinging" sound. :: Knocking (detonation)
+The scale that rates petrol's resistance to knocking. :: Octane rating
+The two common petrol octane grades sold in Saudi Arabia. :: 91 and 95
+The additive once used in petrol to stop knocking, banned for its toxic metal. :: Tetraethyl lead
+The engineer who invented leaded petrol and also CFCs. :: Thomas Midgley Jr.
+The system that recycles exhaust gas back into the engine to cut NOx. :: EGR (exhaust gas recirculation)
+The fluid diesel cars inject to cut NOx, called AdBlue. :: Urea solution (diesel exhaust fluid)
+The 2015 emissions scandal involving cheating software was at this company. :: Volkswagen
+The "Dieselgate" scandal was discovered by testing in this country. :: The United States
+The European emissions standard introduced in 2014 for new cars. :: Euro 6
+The kind of car body built as one piece with the chassis. :: Monocoque (unibody)
+The kind of car frame with a separate ladder chassis, used in tough 4x4s. :: Body-on-frame (ladder chassis)
+The car body material that made the Audi A8 famous in 1994. :: Aluminium
+The lightweight composite used in F1 chassis. :: Carbon fibre
+The first F1 car with a carbon fibre chassis, in 1981. :: McLaren MP4/1
+The effect where air under an F1 car sucks it to the track, banned and later brought back. :: Ground effect
+The F1 car designer who introduced ground effect with the Lotus 78 and 79. :: Colin Chapman
+The six-wheeled F1 car of 1976. :: Tyrrell P34
+The 1978 Brabham F1 car with a big fan at the back. :: BT46B (the "fan car")
+The F1 driver with the most pole positions. :: Lewis Hamilton
+The F1 driver who won the 1982 title with only one race win. :: Keke Rosberg
+The only F1 driver to win the title after his death, in 1970. :: Jochen Rindt
+The F1 champion who later started an airline. :: Niki Lauda
+The 1976 crash at the Nürburgring that nearly killed this driver. :: Niki Lauda
+The film "Rush" was about the rivalry between Niki Lauda and this British driver. :: James Hunt
+The Triple Crown of motorsport is the Monaco GP, Le Mans and this race. :: The Indianapolis 500
+The only driver to have won motorsport's Triple Crown. :: Graham Hill
+The Jeddah Corniche Circuit is the fastest F1 track of this type. :: Street circuit
+The Formula E world championship's first race was held in 2014 in this city. :: Beijing
+The famous Dakar Rally founder, who died in 1986. :: Thierry Sabine
+The Dakar Rally's Saudi stages include the "Empty Quarter" marathon stage, the world's largest continuous one of these. :: Sand desert
+The Saudi city that hosted the start of the 2024 Dakar Rally. :: AlUla
+The national car brand of Malaysia. :: Proton
+The car brand of Iran's Iran Khodro's famous model. :: Peykan (Paykan)
+The Egyptian car company founded in 1960 that assembled Fiats. :: Nasr
+The Turkish electric car brand launched in 2022. :: Togg
+The first car designed and built in Saudi Arabia, a prototype shown in 2010 by King Saud University. :: Gazal-1
+The Saudi university that built the Gazal-1 prototype. :: King Saud University
+The company that designed the Gazal-1 body with King Saud University. :: Magna Steyr
+The Hyundai factory being built in this Saudi economic city. :: King Abdullah Economic City
+The country that produces the most cars each year. :: China
+The car brand that sold the most vehicles worldwide in 2024. :: Toyota
+The car with the world's best-selling nameplate in history. :: Toyota Corolla
+The number of Toyota Corollas sold, roughly. :: Over 50 million
+The best-selling electric car model of 2023. :: Tesla Model Y
+The Volkswagen Beetle production finally ended in this country in 2003. :: Mexico
+The number of original Beetles made, roughly. :: About 21.5 million
+The British Mini's front-wheel-drive layout put the engine this way. :: Sideways (transverse)
+The Citroën car with headlights that turn with the steering and hydropneumatic suspension, launched 1955. :: Citroën DS
+The French people's car with a canvas roof, launched in 1948. :: Citroën 2CV
+The Italian people's car of 1957, tiny and rounded. :: Fiat 500
+The East German car with a body made of Duroplast. :: Trabant
+The Soviet car brand made in Tolyatti. :: Lada
+The Indian car that was the cheapest in the world when launched in 2008. :: Tata Nano
+The French engineer who invented Citroën's hydropneumatic suspension. :: Paul Magès
+The 1934 Citroën that brought front-wheel drive to mass production. :: Traction Avant
+The Italian sculptor who styled the Citroën DS and 2CV. :: Flaminio Bertoni
+The Czech car maker whose 1934 model 77 was the first serious streamlined production car. :: Tatra
+The Austrian engineer whose Tatra designs influenced the Volkswagen Beetle. :: Hans Ledwinka
+Britain's 1922 "people's car" was the Austin this. :: Seven
+The rear-engined car attacked in Ralph Nader's book "Unsafe at Any Speed". :: Chevrolet Corvair
+Ford's famous 1950s flop, named after Henry Ford's son. :: Edsel
+The Saab whose 1978 turbo model made turbocharging popular in everyday cars. :: Saab 99 Turbo
+The Audi rally car that brought four-wheel drive to rallying in 1980. :: Audi Quattro
+The era of super-powerful rally cars banned after 1986. :: Group B
+The Lancia that won six WRC manufacturers' titles in a row from 1987 to 1992. :: Lancia Delta (Integrale)
+The Mitsubishi rally car that battled the Subaru Impreza in the 1990s. :: Lancer Evolution
+The Scottish driver who won the 1995 WRC title in a Subaru. :: Colin McRae
+The Finnish driver who won four WRC titles in a row for Mitsubishi in the 1990s. :: Tommi Mäkinen
+The New Zealander who founded the McLaren racing team. :: Bruce McLaren
+The founder of the Williams F1 team. :: Frank Williams
+The Australian who won the 1966 F1 title in a car bearing his own name. :: Jack Brabham
+The Scottish three-time F1 champion who campaigned for safety. :: Jackie Stewart
+The British driver who won the 1992 F1 title for Williams. :: Nigel Mansell
+The son of Graham Hill who won the 1996 F1 title. :: Damon Hill
+The Canadian driver who won the 1997 F1 title. :: Jacques Villeneuve
+The Finnish driver who won the F1 title in 1998 and 1999 for McLaren. :: Mika Häkkinen
+The first Middle Eastern country to host a Formula 1 race, in 2004. :: Bahrain
+The Abu Dhabi circuit that often hosts the F1 season finale. :: Yas Marina Circuit
+The year Abu Dhabi held its first F1 race. :: 2009
+The Qatar circuit that hosts the Qatar Grand Prix. :: Lusail International Circuit
+The minimum weight of a 2025 F1 car with its driver, roughly. :: About 800 kg
+Since 2014, F1 engines have been 1.6-litre turbo engines with this many cylinders. :: Six (V6)
+The rev limit of F1 engines in the turbo-hybrid era. :: 15,000 rpm
+A typical F1 race is just over this distance. :: 305 km
+The fastest F1 pit stop on record, by McLaren at Qatar in 2023, took about this long. :: About 1.8 seconds

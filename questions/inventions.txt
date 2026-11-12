@@ -1,0 +1,515 @@
+id: inventions
+name: Inventions & Inventors
+group: general
+
+## 100
+The device Alexander Graham Bell patented in 1876 to send voices along wires. :: The telephone
+The brothers who made the first powered aeroplane flight in 1903. :: The Wright brothers
+The inventor famous for the practical light bulb and the phonograph. :: Thomas Edison
+The ancient invention, a round thing on an axle, that changed transport forever. :: The wheel
+The device that shows the direction of north using a magnetised needle. :: The compass
+The machine Johannes Gutenberg built around 1440 to print books. :: The printing press
+The material made from wood pulp, invented in ancient China. :: Paper
+The black powder invented in China, used in fireworks. :: Gunpowder
+The scientist who discovered penicillin in 1928. :: Alexander Fleming
+The device used to look at very small things like cells. :: The microscope
+The device Galileo improved to study the Moon and planets. :: The telescope
+The vehicle Karl Benz built in 1885 with a petrol engine. :: The motor car (automobile)
+The machine that lets you talk to people far away and now fits in your pocket. :: The mobile phone
+The company that launched the iPhone in 2007. :: Apple
+The person who co-founded Apple and introduced the iPhone. :: Steve Jobs
+The person who co-founded Microsoft with Paul Allen. :: Bill Gates
+The worldwide system of linked web pages invented by Tim Berners-Lee. :: The World Wide Web
+The machine for washing dishes automatically. :: The dishwasher
+The kitchen appliance that heats food using microwaves. :: The microwave oven
+The appliance that keeps food cold. :: The refrigerator
+The device that cools a room in hot countries, invented by Willis Carrier. :: The air conditioner
+The vehicle with two wheels and pedals. :: The bicycle
+The machine that flies using spinning blades on top. :: The helicopter
+The device that takes photographs. :: The camera
+The toy with interlocking plastic bricks from Denmark. :: LEGO
+The writing tool with ink that rolls from a tiny ball. :: The ballpoint pen
+The device you use to change TV channels from your sofa. :: The remote control
+The small sticky notes invented at 3M. :: Post-it notes
+The fastener with teeth that zips up jackets. :: The zip (zipper)
+The fastener with hooks and loops, inspired by burrs on a dog. :: Velcro
+The device that tells the time on your wrist. :: The wristwatch
+The machine that types letters on paper, before computers. :: The typewriter
+The invention that lets ships see underwater objects using sound. :: Sonar
+The system that uses satellites to show your location on a map. :: GPS
+The flat device you type on to enter text into a computer. :: The keyboard
+The handheld device that moves a pointer on a computer screen. :: The mouse
+The scientist who discovered gravity, according to the story of the falling apple. :: Isaac Newton
+The Italian inventor of long-distance radio. :: Guglielmo Marconi
+The device that records and plays back moving pictures in homes and cinemas, first shown by the Lumière brothers. :: The film projector (cinematograph)
+The invention that lets people see across distances, demonstrated by John Logie Baird. :: Television
+The device used by doctors to listen to your heart. :: The stethoscope
+The device that measures temperature. :: The thermometer
+The rays Wilhelm Röntgen discovered that let doctors see bones. :: X-rays
+The small medical tool used to inject medicine. :: The syringe
+The invention by Louis Braille that lets blind people read. :: Braille
+The flying craft that carried the first humans to the Moon was launched by this huge rocket. :: Saturn V
+The country that launched the first satellite, Sputnik, in 1957. :: The Soviet Union
+The first man to walk on the Moon. :: Neil Armstrong
+The machine that pumps water and was powered by steam in early mines. :: The steam engine
+The Scottish engineer famous for improving the steam engine. :: James Watt
+The unit of power named after James Watt. :: Watt
+The ancient Egyptian writing material made from a reed. :: Papyrus
+The ancient people who invented cuneiform writing. :: The Sumerians
+The scientist who discovered that lightning is electricity using a kite. :: Benjamin Franklin
+The invention that lets you go up and down tall buildings, made safe by Elisha Otis. :: The lift (elevator)
+The moving staircase found in malls and airports. :: The escalator
+The inventor of dynamite who later founded famous prizes. :: Alfred Nobel
+The prize Alfred Nobel's will created. :: The Nobel Prize
+The invention that lets you see in the dark using batteries and a bulb. :: The torch (flashlight)
+The device that keeps drinks hot or cold, invented by James Dewar. :: The vacuum flask
+The game console released by Sony in 1994. :: PlayStation
+The search engine founded by Larry Page and Sergey Brin. :: Google
+The social network started by Mark Zuckerberg. :: Facebook
+The video-sharing website started in 2005. :: YouTube
+The electric car company led by Elon Musk. :: Tesla
+The material Charles Goodyear made tougher by heating it with sulfur. :: Rubber
+The plastic toy cube with coloured faces invented by Ernő Rubik. :: Rubik's Cube
+The board game invented in India in the 6th century, with kings and queens. :: Chess
+The Muslim scholar whose name gives us the word "algorithm". :: Al-Khwarizmi
+The branch of mathematics named from al-Khwarizmi's book "al-jabr". :: Algebra
+The scientist known as the father of optics, who wrote the "Book of Optics". :: Ibn al-Haytham
+The Andalusian inventor who tried to fly with wings in the 9th century. :: Abbas ibn Firnas
+The engineer who wrote the "Book of Knowledge of Ingenious Mechanical Devices". :: Al-Jazari
+The invention used to tell time with the shadow of the Sun. :: The sundial
+The invention used to measure time with flowing sand. :: The hourglass
+The invention used to tell time with flowing water. :: The water clock
+The vehicle that runs on rails and was first pulled by steam locomotives. :: The train
+The engineer who built the "Rocket" locomotive in 1829. :: George Stephenson (and Robert Stephenson)
+The boat that can travel underwater. :: The submarine
+The machine that calculates numbers, now in every phone. :: The calculator
+The device that turns sunlight into electricity. :: The solar panel (solar cell)
+The machine with sails that turns wind into power. :: The windmill (wind turbine)
+The device that stores electricity in a chemical form, invented by Alessandro Volta. :: The battery
+The unit of voltage named after Volta. :: Volt
+The machine that copies documents, called a photocopier. :: The photocopier
+The machine that sends documents over phone lines. :: The fax machine
+The invention that protects buildings by guiding lightning to the ground. :: The lightning rod
+The glass lenses worn in front of the eyes to see clearly. :: Glasses (spectacles)
+The thin lenses that sit directly on your eyes. :: Contact lenses
+The vaccine pioneer who used cowpox to protect against smallpox. :: Edward Jenner
+The scientist who made the first rabies vaccine. :: Louis Pasteur
+The process of heating milk to kill germs, named after its inventor. :: Pasteurisation
+The device that pumps air into tyres. :: The air pump
+The wheeled seat for people who cannot walk. :: The wheelchair
+The sticky tape invented at 3M in 1930. :: Sticky tape (Scotch tape)
+The tool used to join papers with a metal staple. :: The stapler
+The bent wire used to hold papers together. :: The paper clip
+The invention that lets you send written messages instantly by computer, first sent in 1971. :: Email
+The first name of the famous inventor Tesla. :: Nikola
+The invention by Nikola Tesla that powers homes using alternating current. :: AC (alternating current) electricity
+The machine used to sew clothes quickly. :: The sewing machine
+The instrument with black and white keys. :: The piano
+
+## 200
+The year the Wright brothers first flew at Kitty Hawk. :: 1903
+The year Gutenberg's printing press was developed, roughly. :: About 1440
+The Chinese official credited with inventing paper around 105 CE. :: Cai Lun
+The scientist who invented the first battery, the voltaic pile, in 1800. :: Alessandro Volta
+The Scottish inventor of the pneumatic tyre for bicycles. :: John Boyd Dunlop
+The inventor of the telephone's main rival, who filed a patent on the same day as Bell. :: Elisha Gray
+The inventor of the first practical typewriter keyboard layout, QWERTY. :: Christopher Latham Sholes
+The inventor of the first mass-produced car, the Model T. :: Henry Ford
+The year the Model T was launched. :: 1908
+The production method Henry Ford made famous. :: The moving assembly line
+The inventor who made the first motorcycle with Wilhelm Maybach. :: Gottlieb Daimler
+The engineer who invented the diesel engine. :: Rudolf Diesel
+The inventor of the jet engine in Britain. :: Frank Whittle
+The German who designed the first jet aircraft engine to fly, in 1939. :: Hans von Ohain
+The Russian-American engineer who built the first practical helicopter. :: Igor Sikorsky
+The French brothers who flew the first hot-air balloon with people, in 1783. :: The Montgolfier brothers
+The Dutch scientist who first saw bacteria with his home-made microscope. :: Antonie van Leeuwenhoek
+The English scientist who coined the word "cell" after looking at cork. :: Robert Hooke
+The Italian who invented the barometer in 1643. :: Evangelista Torricelli
+The Polish-Dutch physicist who invented the mercury thermometer and a temperature scale. :: Daniel Gabriel Fahrenheit
+The Swedish astronomer whose temperature scale uses 0 and 100. :: Anders Celsius
+The inventor of the first practical steam-powered locomotive on rails, in 1804. :: Richard Trevithick
+The inventor of the spinning jenny, a machine for spinning thread. :: James Hargreaves
+The American who invented the cotton gin. :: Eli Whitney
+The inventor of the electric telegraph code of dots and dashes. :: Samuel Morse
+The year Samuel Morse sent the first long-distance telegraph message, from Washington to Baltimore. :: 1844
+The inventor of the phonograph, which recorded sound on a cylinder. :: Thomas Edison
+The German-American inventor of the gramophone using flat discs. :: Emile Berliner
+The Scottish inventor who showed the first working television in 1926. :: John Logie Baird
+The American who invented the first fully electronic television. :: Philo Farnsworth
+The year the transistor was invented at Bell Labs. :: 1947
+The three scientists who invented the transistor. :: Bardeen, Brattain and Shockley
+The engineer who co-invented the integrated circuit at Texas Instruments. :: Jack Kilby
+The co-founder of Intel who co-invented the integrated circuit. :: Robert Noyce
+The "law" saying chips double in transistors about every two years. :: Moore's law
+The first electronic general-purpose computer, built in 1945 in the USA. :: ENIAC
+The British code-breaking computer used in World War II. :: Colossus
+The mathematician who designed the Analytical Engine in the 1830s. :: Charles Babbage
+The woman often called the first computer programmer. :: Ada Lovelace
+The British mathematician who imagined a universal computing machine in 1936. :: Alan Turing
+The inventor of the computer mouse. :: Douglas Engelbart
+The company whose research centre at Palo Alto pioneered the graphical user interface. :: Xerox
+The British computer scientist who invented the World Wide Web in 1989. :: Tim Berners-Lee
+The organisation where the World Wide Web was invented. :: CERN
+The engineer who sent the first email between computers, choosing the @ sign. :: Ray Tomlinson
+The two "fathers of the internet" who designed TCP/IP. :: Vint Cerf and Bob Kahn
+The Finnish engineer who created the Linux kernel. :: Linus Torvalds
+The engineer who made the first handheld mobile phone call in 1973 at Motorola. :: Martin Cooper
+The company that made the first commercial mobile phone, the DynaTAC. :: Motorola
+The Canadian smartphone with a physical keyboard, popular in the 2000s. :: BlackBerry
+The year the first SMS text message was sent. :: 1992
+The inventor of the world's first practical light bulb in Britain, a rival of Edison. :: Joseph Swan
+The inventor of the alternating current induction motor. :: Nikola Tesla
+The inventor of the safety lamp for miners. :: Humphry Davy
+The scientist who discovered electromagnetic induction, leading to the dynamo. :: Michael Faraday
+The inventor of the lead-acid rechargeable battery in 1859. :: Gaston Planté
+The scientist who discovered radioactivity in uranium in 1896. :: Henri Becquerel
+The scientist who discovered radium and polonium. :: Marie Curie
+The inventor of the Geiger counter. :: Hans Geiger
+The scientist whose polio vaccine was approved for use in 1955. :: Jonas Salk
+The scientist who invented the oral polio vaccine. :: Albert Sabin
+The doctor who first used antiseptics in surgery. :: Joseph Lister
+The doctor who first showed handwashing saved mothers' lives in hospitals. :: Ignaz Semmelweis
+The French doctor who invented the stethoscope in 1816. :: René Laennec
+The medical scanner that uses magnets and radio waves. :: MRI
+The inventor of the first practical vaccine against smallpox. :: Edward Jenner
+The scientist who discovered insulin with Charles Best. :: Frederick Banting
+The pill made from willow bark, first sold by Bayer in 1899. :: Aspirin
+The South African surgeon who did the first human heart transplant in 1967. :: Christiaan Barnard
+The scientist who developed the first effective cholera vaccine, working in Paris and India. :: Waldemar Haffkine
+The material invented by Leo Baekeland, the first fully synthetic plastic. :: Bakelite
+The strong fibre invented by Stephanie Kwolek, used in bulletproof vests. :: Kevlar
+The synthetic fibre invented at DuPont in 1935, used in stockings and ropes. :: Nylon
+The non-stick coating discovered by accident by Roy Plunkett. :: Teflon
+The plastic used for most drink bottles, known as PET. :: Polyethylene terephthalate
+The engineer who invented the zip in its modern form in 1913. :: Gideon Sundback
+The Swiss engineer who invented Velcro after a walk with his dog. :: George de Mestral
+The inventor of the ballpoint pen, a Hungarian-Argentine journalist. :: László Bíró
+The inventor of the safety pin in 1849. :: Walter Hunt
+The inventor of the modern safety razor with disposable blades. :: King C. Gillette
+The engineer who invented the bagless cyclone vacuum cleaner. :: James Dyson
+The inventor of the windscreen wiper, a woman from Alabama. :: Mary Anderson
+The inventor of the dishwasher, a woman from Illinois. :: Josephine Cochrane
+The actress who co-invented frequency hopping, used in Wi-Fi and Bluetooth. :: Hedy Lamarr
+The inventor of the traffic light with a warning signal, Garrett Morgan, also invented this safety device. :: The gas mask (safety hood)
+The engineer who invented the microwave oven after a chocolate bar melted in his pocket. :: Percy Spencer
+The company that invented the Walkman in 1979. :: Sony
+The company that invented the compact disc with Sony. :: Philips
+The Japanese company that made the Game Boy. :: Nintendo
+The inventor of the first video game console, the Magnavox Odyssey. :: Ralph Baer
+The inventor of the world's first digital camera at Kodak in 1975. :: Steven Sasson
+The inventor of the QR code, at Denso Wave in Japan. :: Masahiro Hara
+The barcode was first used in a shop in 1974 to scan this product. :: A pack of chewing gum
+The scientist who patented the first refrigerator design with Leo Szilard. :: Albert Einstein
+The Saudi oil company whose engineers drilled Dammam No. 7, the first commercial oil well, in 1938. :: Aramco (CASOC)
+The American whose company made sewing machines a household item in the 1850s. :: Isaac Singer
+The American who built the first working escalator, at Coney Island in 1896. :: Jesse Reno
+The English chemist who invented the friction match in 1826. :: John Walker
+The Swedish chemist who invented the safety match in 1844. :: Gustaf Erik Pasch
+The French confectioner who found a way to preserve food in sealed jars, leading to canned food. :: Nicolas Appert
+
+## 300
+The ancient Greek inventor of the screw pump, who shouted "Eureka!". :: Archimedes
+The ancient Greek engineer who built a steam-powered spinning ball called the aeolipile. :: Hero of Alexandria
+The ancient Chinese invention used to detect earthquakes, made by Zhang Heng. :: Seismoscope
+The Chinese invention of moveable type in clay, made by Bi Sheng. :: Moveable type printing
+The ancient Chinese invention used to steer ships, at the back of the boat. :: The sternpost rudder
+The Chinese invention, a wheeled barrow with one wheel. :: The wheelbarrow
+The ancient Roman building material that let them build domes like the Pantheon. :: Concrete
+The Romans built these to carry water to their cities. :: Aqueducts
+The Persian invention of underground water channels used in deserts. :: Qanat
+The Persian invention of wind towers to cool houses. :: Badgir (windcatcher)
+The ancient invention for lifting water using a long pole and counterweight, used in Egypt. :: Shaduf
+The astronomical instrument perfected by Muslim scholars to measure the height of stars. :: The astrolabe
+The female astrolabe maker of 10th-century Aleppo. :: Mariam al-Ijliya (al-Astrulabi)
+The 9th-century Baghdad centre of translation and science. :: The House of Wisdom (Bayt al-Hikma)
+Al-Jazari designed a "castle clock" and this famous animal-shaped water clock. :: The elephant clock
+The Muslim surgeon from Córdoba who wrote "al-Tasrif" and designed many surgical instruments. :: Al-Zahrawi (Albucasis)
+The physician who wrote "The Canon of Medicine". :: Ibn Sina (Avicenna)
+The physician who first distinguished smallpox from measles. :: Al-Razi (Rhazes)
+The scientist who described the circulation of blood through the lungs in the 13th century. :: Ibn al-Nafis
+The chemist called the father of chemistry in the Islamic world, Jabir ibn Hayyan, is also known by this Latin name. :: Geber
+The polymath who calculated Earth's radius using a mountain, in the 11th century. :: Al-Biruni
+The Muslim astronomer whose star tables, the Zij, were used in Europe, and who had an observatory in Samarkand. :: Ulugh Beg
+The scholar who introduced Hindu-Arabic numerals with the zero to the wider world in his book on arithmetic. :: Al-Khwarizmi
+The Italian mathematician who brought Hindu-Arabic numerals to Europe in 1202. :: Fibonacci
+The 13th-century Persian astronomer whose "Tusi couple" was later used by Copernicus. :: Nasir al-Din al-Tusi
+The Ottoman engineer who built a rocket-powered flight in 1633, according to Evliya Çelebi. :: Lagari Hasan Çelebi
+The Ottoman scholar who, according to legend, glided over the Bosphorus. :: Hezârfen Ahmed Çelebi
+The coffee drink spread from Yemen, where it was first brewed by these religious scholars to stay awake for night prayers. :: Sufis
+The city where Ottoman coffee houses became famous after the first opened there around 1554. :: Istanbul
+The Italian who invented the piano around 1700. :: Bartolomeo Cristofori
+The German inventor of the clarinet, around 1700. :: Johann Christoph Denner
+The Belgian who invented the saxophone. :: Adolphe Sax
+The inventor of the first mechanical calculator that could add and subtract, in 1642. :: Blaise Pascal
+The German who invented a calculator that could multiply and also developed binary numbers. :: Gottfried Wilhelm Leibniz
+The French weaver whose punch-card loom inspired early computers. :: Joseph Marie Jacquard
+The American whose punched-card tabulator was used in the 1890 census, leading to IBM. :: Herman Hollerith
+The company that grew from Hollerith's business. :: IBM
+The engineer who invented the first practical spinning wheel for cotton in a factory, the water frame. :: Richard Arkwright
+The inventor of the flying shuttle for weaving in 1733. :: John Kay
+The invention by Edmund Cartwright in 1785 that mechanised weaving. :: The power loom
+The Scottish engineer who built roads with crushed stone, now called macadam. :: John Loudon McAdam
+The Belgian chemist who made the first commercial process for washing soda. :: Ernest Solvay
+The inventor of the first internal combustion engine to run on petrol, in 1876, using a four-stroke cycle. :: Nicolaus Otto
+The engine cycle named after Otto. :: Four-stroke cycle (Otto cycle)
+The inventor of the rotary engine used in some Mazda cars. :: Felix Wankel
+The invention patented by Bertha Benz's husband in 1886. :: The Benz Patent-Motorwagen
+The first long-distance car trip in 1888 was made by this woman. :: Bertha Benz
+The inventor of the first practical seatbelt with three points, at Volvo. :: Nils Bohlin
+The German engineer who patented a car airbag in 1951. :: Walter Linderer
+The inventor of the parking meter in 1935. :: Carl Magee
+The inventor of cat's eyes, the reflective road studs. :: Percy Shaw
+The inventor of the traffic light first installed in London in 1868. :: John Peake Knight
+The French engineer who built the first self-propelled vehicle, a steam carriage, in 1769. :: Nicolas-Joseph Cugnot
+The inventor of the hovercraft. :: Christopher Cockerell
+The inventor of the parachute design drawn in Renaissance notebooks. :: Leonardo da Vinci
+The first person to make a modern parachute jump from a balloon, in 1797. :: André-Jacques Garnerin
+The inventor of the airship that took his name. :: Ferdinand von Zeppelin
+The airship that burned in 1937 in New Jersey. :: The Hindenburg
+The aviator who made the first solo non-stop transatlantic flight in 1927. :: Charles Lindbergh
+The first supersonic passenger jet, flown by British Airways and Air France. :: Concorde
+The first person to break the sound barrier in level flight, in 1947. :: Chuck Yeager
+The German engineer behind the V-2 rocket and the Saturn V. :: Wernher von Braun
+The American who launched the first liquid-fuelled rocket in 1926. :: Robert Goddard
+The Russian teacher who wrote the rocket equation. :: Konstantin Tsiolkovsky
+The space telescope launched in 1990. :: The Hubble Space Telescope
+The space telescope launched in 2021 that sees in infrared. :: The James Webb Space Telescope
+The first Arab astronaut, a Saudi prince who flew on the Space Shuttle in 1985. :: Prince Sultan bin Salman
+The first Saudi woman in space, who flew in 2023. :: Rayyanah Barnawi
+The ISS stands for this. :: International Space Station
+The engineer who invented the first working laser in 1960. :: Theodore Maiman
+The word "laser" stands for "Light Amplification by Stimulated Emission of" this. :: Radiation
+The inventor of the fibre-optic idea for communication, a Nobel winner in 2009. :: Charles Kao
+The inventor of the blue LED that made white LED lighting possible, with Akasaki and Amano. :: Shuji Nakamura
+The inventor of holography, in 1947. :: Dennis Gabor
+The inventor of the first practical photograph process, the daguerreotype. :: Louis Daguerre
+The person who made the oldest surviving camera photograph, about 1826. :: Nicéphore Niépce
+The inventor of roll film and the Kodak camera. :: George Eastman
+The inventor of instant photography and the Polaroid camera. :: Edwin Land
+The pair of French brothers who held the first public film screening in 1895. :: The Lumière brothers
+The scientist who proved radio waves exist in the 1880s. :: Heinrich Hertz
+The Indian scientist who demonstrated wireless signals in 1895, before Marconi's work was widely known. :: Jagadish Chandra Bose
+The inventor of the first radio broadcast of voice and music in 1906. :: Reginald Fessenden
+The British engineer whose radar research helped win the Battle of Britain. :: Robert Watson-Watt
+The device invented in Britain in 1940 that made powerful radar possible. :: The cavity magnetron
+The American who invented the first commercial videotape recorder at Ampex. :: Charles Ginsburg
+The inventor of the first commercial ATM in London in 1967. :: John Shepherd-Barron
+The inventor of the credit card concept, Diners Club, in 1950. :: Frank McNamara
+The inventor of the spreadsheet program VisiCalc. :: Dan Bricklin (and Bob Frankston)
+The programming language created by Dennis Ritchie at Bell Labs. :: C
+The operating system created by Ken Thompson and Dennis Ritchie. :: Unix
+The language created by Guido van Rossum. :: Python
+The language created by James Gosling at Sun Microsystems. :: Java
+The language created by Brendan Eich in 10 days in 1995. :: JavaScript
+The company founded by Jeff Bezos in 1994 as an online bookshop. :: Amazon
+The first popular graphical web browser, released in 1993. :: Mosaic
+The ancient Persian domed building that stored ice through desert summers. :: Yakhchal
+The Persian-Arabic name for the hospitals of the Islamic world. :: Bimaristan
+The 13th-century Syrian engineer who wrote about rockets, calling them "Chinese arrows". :: Hasan al-Rammah
+The first government-issued paper money, called jiaozi, came from this country. :: China
+The chief engineer of Japan's first bullet train, opened in 1964. :: Hideo Shima
+
+## 400
+The Mesopotamian civilisation credited with the first known wheel, around 3500 BCE. :: Sumer
+The oldest known wooden wheel, about 5,000 years old, was found in this country. :: Slovenia
+The ancient Greek device that predicted eclipses, found in a shipwreck. :: The Antikythera mechanism
+The Greek scientist who calculated Earth's circumference using shadows at Syene and Alexandria. :: Eratosthenes
+The ancient Chinese emperor's tomb guarded by this army of clay figures. :: The Terracotta Army
+The Chinese engineer who built a water-powered astronomical clock tower in 1088. :: Su Song
+The Chinese invention of the "south-pointing chariot" used gears, not magnets, to do this. :: Always point south
+The ancient Chinese invention used to keep rice fields watered: the square-pallet chain pump, worked by this. :: Foot pedals (treadles)
+The first known use of a magnetic compass for navigation was recorded in this country. :: China
+The Song dynasty scholar who first described the magnetic compass needle in 1088. :: Shen Kuo
+The Abbasid caliph who founded the House of Wisdom. :: Harun al-Rashid (expanded by al-Ma'mun)
+The 9th-century "Book of Ingenious Devices" was written by these three brothers. :: The Banu Musa
+The Banu Musa described an early version of this programmable musical device. :: An automatic flute player
+The Muslim engineer who described a crankshaft and a double-acting pump in 1206. :: Al-Jazari
+The 11th-century Andalusian engineer who wrote about water clocks and gears. :: Ibn Khalaf al-Muradi
+The scholar who wrote the "Kitab al-Manazir" proving light travels in straight lines into the eye. :: Ibn al-Haytham
+Ibn al-Haytham's book "Kitab al-Manazir" is known in English by this name. :: Book of Optics
+The Ottoman polymath who built an observatory in Istanbul in 1577. :: Taqi al-Din
+Taqi al-Din described an early version of this engine in 1551. :: A steam turbine
+The Persian polymath who measured the length of a year very accurately for the Jalali calendar. :: Omar Khayyam
+The Muslim cartographer who made a famous world map for King Roger II of Sicily. :: Al-Idrisi
+The Ottoman admiral whose 1513 world map shows part of the Americas. :: Piri Reis
+The 9th-century philosopher who wrote on perfume distillation. :: Al-Kindi
+The Muslim scientist known for writing the first known book on cryptanalysis, about frequency analysis. :: Al-Kindi
+The Andalusian scholar Ibn Firnas is also credited with a method of cutting this rock crystal. :: Quartz (rock crystal)
+The astronomical clock built by Giovanni de' Dondi in 1364, showing the planets. :: The Astrarium
+The Dutch scientist who invented the pendulum clock in 1656. :: Christiaan Huygens
+The English clockmaker who solved the longitude problem with his marine chronometer. :: John Harrison
+Harrison's most famous timekeeper, a large watch completed in 1759. :: H4
+The French scientist who invented the hot air balloon's rival, the hydrogen balloon, in 1783. :: Jacques Charles
+The inventor of the first practical submarine used in war, the Turtle, in 1775. :: David Bushnell
+The Irish engineer whose submarine design was bought by the US Navy in 1900. :: John Philip Holland
+The Spanish engineer who built the first electric battery-powered submarine in 1888. :: Isaac Peral
+The inventor of the steam turbine used in ships, Turbinia. :: Charles Parsons
+The engineer who designed the SS Great Britain, the first iron-hulled screw-propelled ocean liner. :: Isambard Kingdom Brunel
+The inventor of the first successful steamboat service in America in 1807. :: Robert Fulton
+The British inventor of the first practical hydraulic press. :: Joseph Bramah
+The inventor of the steam hammer. :: James Nasmyth
+The process for mass-producing steel invented in 1856. :: The Bessemer process
+The British engineer who invented the screw-cutting lathe that made standard screws possible. :: Henry Maudslay
+The engineer who made standard screw threads in Britain. :: Joseph Whitworth
+The inventor of the first practical revolving door. :: Theophilus Van Kannel
+The inventor of the first passenger lift with a safety brake, shown in 1854. :: Elisha Otis
+The engineer who designed the Eiffel Tower's structure, along with Gustave Eiffel's firm. :: Maurice Koechlin
+The engineer who designed the structure inside the Statue of Liberty. :: Gustave Eiffel
+The gas burner built by Peter Desaga in 1855 is named after this chemist. :: Robert Bunsen
+The chemists who invented the process for making ammonia from air. :: Fritz Haber and Carl Bosch
+The chemist who invented the first synthetic dye, mauveine, at 18. :: William Henry Perkin
+The chemist who created the first periodic table that predicted new elements. :: Dmitri Mendeleev
+The American who invented vulcanised rubber in 1839. :: Charles Goodyear
+The Scottish chemist who invented waterproof cloth for raincoats. :: Charles Macintosh
+The inventor of celluloid, the first commercial plastic for film and billiard balls. :: John Wesley Hyatt
+The process of making glass flat by floating it on molten tin, invented in 1950s Britain. :: The float glass process
+The inventor of the float glass process. :: Alastair Pilkington
+The inventor of the first practical solar cell at Bell Labs in 1954, with Fuller and Pearson. :: Daryl Chapin
+The engineer who invented the lithium-ion battery's cathode, a Nobel winner at 97. :: John Goodenough
+The Japanese chemist who built the first commercial lithium-ion battery prototype. :: Akira Yoshino
+The British chemist who first made a rechargeable lithium battery in the 1970s. :: Stanley Whittingham
+The inventor of the GPS concept, an American engineer called the "father of GPS". :: Bradford Parkinson
+The country whose CSIRO scientists patented key Wi-Fi technology. :: Australia
+The engineer who invented Bluetooth at Ericsson. :: Jaap Haartsen
+Bluetooth is named after this Viking king. :: Harald Bluetooth
+The inventor of the touchscreen, an engineer at the Royal Radar Establishment in 1965. :: E. A. Johnson
+The inventor of the pacemaker you can implant, from Sweden, 1958. :: Rune Elmqvist (with Åke Senning)
+The inventor of the CT scanner, an engineer at EMI. :: Godfrey Hounsfield
+The inventor of the kidney dialysis machine, a Dutch doctor. :: Willem Kolff
+The doctor who invented the first working artificial heart implanted in 1982, the Jarvik-7. :: Robert Jarvik
+The inventor of the electrocardiogram (ECG). :: Willem Einthoven
+The inventor of the hearing aid's first electric version, Miller Reese Hutchison, also invented this car part. :: The electric car horn (klaxon)
+The doctor who invented the cochlear implant in Australia. :: Graeme Clark
+The scientist who created the world's first cloned mammal, Dolly the sheep. :: Ian Wilmut
+The gene-editing tool created by Jennifer Doudna and Emmanuelle Charpentier. :: CRISPR-Cas9
+The inventor of the polymerase chain reaction (PCR). :: Kary Mullis
+The first mRNA vaccines were approved in this year. :: 2020
+The Hungarian scientist who pioneered mRNA vaccine research and won the 2023 Nobel. :: Katalin Karikó
+The Turkish-German couple who co-founded BioNTech. :: Uğur Şahin and Özlem Türeci
+The Saudi scientist who co-founded Diagnostics For All and was a UNESCO Goodwill Ambassador. :: Hayat Sindi
+The Egyptian-American scientist who won the 1999 Nobel Prize in Chemistry for femtochemistry. :: Ahmed Zewail
+The Jordanian-American chemist who won the 2025 Nobel Prize in Chemistry for work on metal-organic frameworks. :: Omar Yaghi
+The material Omar Yaghi pioneered, which can pull water from desert air. :: Metal-organic frameworks (MOFs)
+The full name of KAUST, the Saudi science university at Thuwal. :: King Abdullah University of Science and Technology
+The inventor of the internet's packet switching idea in the UK. :: Donald Davies
+The American who independently developed packet switching at RAND. :: Paul Baran
+The early network, started in 1969, that grew into the internet. :: ARPANET
+The first message sent over ARPANET was meant to be "LOGIN" but the system crashed after these two letters. :: LO
+The inventor of the first web search engine, Archie, in 1990. :: Alan Emtage
+The cryptographers who invented the RSA encryption system. :: Rivest, Shamir and Adleman
+The pair who invented public-key key exchange in 1976. :: Diffie and Hellman
+The inventor of the hypertext idea and the word "hypertext". :: Ted Nelson
+The engineer who wrote the first web browser, called WorldWideWeb. :: Tim Berners-Lee
+The inventor of the Game Boy, who also created the Ultra Hand toy. :: Gunpei Yokoi
+The first commercial video game arcade machine, made by Atari in 1972. :: Pong
+The co-founder of Atari who created Pong's company. :: Nolan Bushnell
+The Scottish engineer who patented a pneumatic tyre in 1845, before Dunlop. :: Robert William Thomson
+The Belgian engineer who built the first commercially successful dynamo in 1871. :: Zénobe Gramme
+The businessman who backed Tesla's AC system against Edison. :: George Westinghouse
+The two British inventors whose electric telegraph was first used on a railway in 1838. :: William Cooke and Charles Wheatstone
+The three Hungarian engineers at Ganz who developed the modern transformer in 1885. :: Bláthy, Déri and Zipernowsky
+The English inventor of the calotype, the first negative-positive photo process. :: William Henry Fox Talbot
+The Scottish doctor who invented the hypodermic syringe in 1853. :: Alexander Wood
+
+## 500
+The ancient Egyptian invention of a lock with pins, around 4,000 years ago. :: The pin tumbler lock
+The inventor of the modern pin tumbler lock, an American, in 1861. :: Linus Yale Jr.
+The Sumerian invention, a slanted writing system pressed with a reed into clay. :: Cuneiform
+The earliest known writing of numbers with a place-value system came from this civilisation. :: Babylonia
+The Babylonians used a number system based on this number. :: 60
+The Indian mathematician who first wrote rules for computing with zero, in 628. :: Brahmagupta
+The Maya also invented a symbol for zero; their counting system was based on this number. :: 20
+The eldest of the three Banu Musa brothers. :: Muhammad ibn Musa ibn Shakir
+The Andalusian astronomer who built the "Toledan Tables" and a universal astrolabe. :: Al-Zarqali (Arzachel)
+The 13th-century Maragha Observatory was founded by this astronomer. :: Nasir al-Din al-Tusi
+The 15th-century Samarkand observatory's giant instrument was this type of sextant. :: The Fakhri sextant
+The 10th-century Persian astronomer who first recorded the Andromeda galaxy, calling it a "little cloud". :: Abd al-Rahman al-Sufi
+The region of Persia where vertical-axis windmills were first described, around the 9th century. :: Sistan
+The Muslim pharmacist who wrote a huge book of medicines and plants from Málaga, in the 13th century. :: Ibn al-Baitar
+The 9th-century Iraqi scholar who wrote a famous book on animals, "Kitab al-Hayawan". :: Al-Jahiz
+The scientist who first described the "camera obscura" image in detail and explained why it is upside down. :: Ibn al-Haytham
+The Muslim engineer whose water-raising machine, the saqiya, used this mechanism. :: Gears driven by an animal
+The 12th-century Damascus clock built at the Umayyad Mosque gate was made by this engineer. :: Ridwan al-Sa'ati
+The Chinese invention, first made in the 3rd century, used to drill deep brine wells with bamboo. :: Percussion drilling (cable drilling)
+The Chinese inventor of the seismoscope with dragons and toads, in 132 CE. :: Zhang Heng
+The earliest known printed book with a date, from 868 CE, is a copy of this Buddhist text. :: The Diamond Sutra
+The Korean metal moveable-type book printed in 1377, the oldest surviving one. :: Jikji
+The Korean king who created the Hangul alphabet in 1443. :: King Sejong the Great
+The Korean inventor of a rain gauge and water clocks under King Sejong. :: Jang Yeong-sil
+The Greek engineer who wrote "Pneumatica", describing coin-operated devices. :: Hero of Alexandria
+The ancient Greek inventor of the water organ, the hydraulis. :: Ctesibius
+The Roman architect whose book "De Architectura" described machines and water wheels. :: Vitruvius
+The device used by Romans to measure distance travelled by a cart, counting wheel turns. :: Odometer
+The Byzantine weapon that burned on water. :: Greek fire
+The inventor of Greek fire, a refugee architect from Syria. :: Kallinikos (Callinicus)
+The Renaissance artist who designed a self-propelled cart, a robot knight and a flying machine. :: Leonardo da Vinci
+The Dutch spectacle maker who applied for the first telescope patent in 1608. :: Hans Lipperhey
+The scientist who first made a reflecting telescope with a mirror, in 1668. :: Isaac Newton
+The Scottish mathematician who invented logarithms in 1614. :: John Napier
+The calculating aid made of numbered rods, invented by Napier. :: Napier's bones
+The English clergyman who invented the slide rule around 1622. :: William Oughtred
+The London museum that finished building Babbage's Difference Engine No. 2 in 2002. :: The Science Museum, London
+The engineer who built the Z3, the first working programmable computer, in Germany in 1941. :: Konrad Zuse
+The first stored-program computer to run a program, in Manchester in 1948. :: The Manchester Baby
+The computer pioneer who led the team building the Harvard Mark I. :: Howard Aiken
+The US Navy officer who wrote the first compiler and helped create COBOL. :: Grace Hopper
+The first computer "bug" found in 1947 was this. :: A moth
+The engineers at Xerox PARC who invented Ethernet. :: Robert Metcalfe and David Boggs
+IBM's first hard disk system in 1956, the RAMAC, stored about this much data. :: About 5 million characters
+The invention by Fujio Masuoka at Toshiba used in USB sticks. :: Flash memory
+The engineer who designed the first commercial microprocessor, the Intel 4004. :: Federico Faggin (with Ted Hoff and Masatoshi Shima)
+The number of transistors in the Intel 4004. :: About 2,300
+The British engineer who designed the ARM processor's instruction set at Acorn. :: Sophie Wilson (with Steve Furber)
+ARM originally stood for this. :: Acorn RISC Machine
+The company that sold the first LCD pocket calculator in 1973. :: Sharp
+The inventor of the CCD image sensor, a Nobel prize winner with George Smith. :: Willard Boyle
+The inventor of the first LED that gave visible red light, in 1962. :: Nick Holonyak
+The inventor of the MP3 format's research group was at this German institute. :: Fraunhofer
+The Indian-American engineer whose discrete cosine transform underpins JPEG. :: Nasir Ahmed
+The Iraqi-British architect famous for flowing curved buildings like the London Aquatics Centre. :: Zaha Hadid
+The Bangladeshi-American engineer who designed the structure of Chicago's Willis (Sears) Tower and Jeddah's Hajj Terminal. :: Fazlur Rahman Khan
+The tube structure system used in skyscrapers was invented by this engineer. :: Fazlur Rahman Khan
+The Hajj Terminal at Jeddah's airport is famous for its roof shaped like these. :: Tents
+The engineer behind the Burj Khalifa's structural design at SOM. :: Bill Baker
+The country with the world's largest desalinated water production. :: Saudi Arabia
+The Saudi site of one of the world's largest desalination plants, on the Gulf coast. :: Ras Al-Khair
+The Saudi chemicals company founded in 1976, one of the world's largest. :: SABIC
+The Saudi giga-project city designed as a 170-km linear city called "The Line". :: NEOM
+The first commercial jet airliner, the de Havilland Comet, first flew in this year. :: 1949
+The Rolls-Royce engine that powered Concorde, built with SNECMA. :: Olympus 593
+The aircraft that first flew around the world without refuelling, in 1986. :: Rutan Voyager
+The solar-powered plane that flew around the world in 2015 to 2016. :: Solar Impulse 2
+The engineer who designed the Spitfire. :: R. J. Mitchell
+The engineer who designed the bouncing bomb. :: Barnes Wallis
+The chief designer of the Soviet space programme who launched Sputnik. :: Sergei Korolev
+The first artificial satellite, Sputnik 1, beeped on this radio frequency band, about 20 and this many MHz. :: 40
+The first communications satellite to relay live TV across the Atlantic, in 1962. :: Telstar
+The writer who proposed geostationary communications satellites in 1945. :: Arthur C. Clarke
+The NASA mathematician whose calculations helped John Glenn's orbit, featured in "Hidden Figures". :: Katherine Johnson
+The leader of the Apollo guidance software team, who popularised the term "software engineering". :: Margaret Hamilton
+The first reusable orbital rocket booster to land vertically, in 2015, was this rocket. :: Falcon 9
+The Indian steel used to forge the famous Damascus blades. :: Wootz steel
+The city where Muslims learned papermaking from Chinese prisoners after 751, according to tradition. :: Samarkand
+The battle of 751 after which papermaking is said to have spread west. :: The Battle of Talas
+The first paper mill in Baghdad was set up around this year. :: 794
+The Gulf Arabic name for a wind tower that cools a house. :: Barjeel
+The traditional Najdi building material made of sun-dried earth and straw. :: Mud brick (adobe)
+The ancient aflaj water channel system is famous in this Gulf country. :: Oman
+The Nabataeans of Petra and Hegra stored rainwater in these carved stone tanks. :: Cisterns
+The famous ancient well in the Saudi oasis of Tayma. :: Bir Haddaj
+The German physicist who invented the cathode-ray tube display in 1897. :: Karl Ferdinand Braun
+The Russian-American engineer who invented the iconoscope TV camera tube. :: Vladimir Zworykin
+The Japanese engineer who showed an electronic TV picture of the character イ in 1926. :: Kenjiro Takayanagi
+The Dutch scientist who invented the Leyden jar, an early capacitor, in 1745. :: Pieter van Musschenbroek
+The Dutch city that gave the Leyden jar its name. :: Leiden
+The scientist who first made a wire spin around a magnet using electricity, in 1821. :: Michael Faraday
+The Hungarian monk who built an early electric motor in 1828. :: Ányos Jedlik
+The Scottish clockmaker who invented the electric clock in 1840. :: Alexander Bain
+Alexander Bain also patented an early version of this machine in 1843. :: The fax machine
+The Italian priest who sent images over wires with his pantelegraph in the 1860s. :: Giovanni Caselli
+The Dutch physicist who discovered superconductivity in 1911. :: Heike Kamerlingh Onnes
+The Scottish minister who invented a hot-air engine in 1816. :: Robert Stirling
+The French engineer whose 1824 book founded the theory of heat engines. :: Sadi Carnot
+The American-born inventor who built the first working vapour-compression refrigerator in 1834. :: Jacob Perkins
+The Florida doctor who built an ice-making machine to cool fever patients in the 1840s. :: John Gorrie

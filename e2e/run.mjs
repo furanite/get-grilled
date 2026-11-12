@@ -163,7 +163,7 @@ try {
     assert(JSON.stringify(groups.map((g) => g[0])) === JSON.stringify(['engineering', 'cces', 'general']), 'group order: ' + JSON.stringify(groups))
     assert(groups[1][1].includes('CCES'), 'cces title: ' + groups[1][1])
     const counts = groups.map((g) => g[2])
-    assert(counts[0] === 12 && counts[1] === 10 && counts[2] === 11, 'counts: ' + counts)
+    assert(counts[0] === 12 && counts[1] === 10 && counts[2] === 19, 'counts: ' + counts)
     const cces = await page.$$eval('.cat-group[data-group="cces"] .cat-pick b', (els) => els.map((e) => e.textContent))
     for (const n of ['Artificial Intelligence', 'Software Engineering', 'Discrete Mathematics', 'Cybersecurity']) assert(cces.includes(n), 'missing ' + n + ' in ' + cces)
     await page.screenshot({ path: `${SHOTS}/setup-groups.png`, fullPage: true })

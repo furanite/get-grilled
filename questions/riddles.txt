@@ -1,0 +1,513 @@
+id: riddles
+name: Riddles & Brain Teasers
+group: general
+
+## 100
+It has keys but cannot open a single lock. :: A piano (or keyboard)
+It has hands and a face but cannot clap or smile. :: A clock
+The more of it you take, the more you leave behind. :: Footsteps
+It gets wetter the more it dries. :: A towel
+It has a neck but no head. :: A bottle
+It has an eye but cannot see. :: A needle
+It goes up but never comes down. :: Your age
+It has many teeth but cannot bite. :: A comb
+It is full of holes but still holds water. :: A sponge
+It has legs but cannot walk. :: A table (or chair)
+It has a thumb and four fingers but is not alive. :: A glove
+It must be broken before you can use it. :: An egg
+It has cities but no houses, forests but no trees, and water but no fish. :: A map
+It can be cracked, made, told, and played. :: A joke
+It runs but never walks, has a mouth but never talks. :: A river
+It has a head and a tail but no body. :: A coin
+It has words but never speaks. :: A book
+It belongs to you, but other people use it more than you do. :: Your name
+It comes down but never goes up. :: Rain
+It follows you all day but disappears in the dark. :: Your shadow
+It has a ring but no finger. :: A telephone
+It is always in front of you but can never be seen. :: The future
+It can fill a room but takes up no space. :: Light
+It has four legs in the morning, two at noon, and three in the evening, in the Sphinx's riddle. :: A human
+It is so fragile that saying its name breaks it. :: Silence
+It flies without wings and cries without eyes. :: A cloud
+It has a spine but no bones. :: A book
+It has a bark but no bite. :: A tree
+It is black when bought, red when used, and grey when thrown away. :: Charcoal
+The month with 28 days. :: All of them
+It has one foot on each side and one in the middle. :: A yardstick
+It can travel around the world while staying in a corner. :: A stamp
+It is light as a feather, yet the strongest person cannot hold it for long. :: Breath
+It goes through a door but never comes in or goes out. :: A keyhole
+It is yours to keep only after you give it to someone. :: Your word (a promise)
+It is white when dirty and black when clean. :: A blackboard
+It is tall when young and short when old. :: A candle
+It gets bigger the more you take away from it. :: A hole
+It is always coming but never arrives. :: Tomorrow
+It can be caught but never thrown. :: A cold
+It is the thing you sit on, and also the person who runs a meeting. :: A chair
+It has a tongue but cannot taste, and you lace it up. :: A shoe
+It can run, has a nose, but never smells, and it drips. :: A tap (faucet)
+It goes up and down the stairs without moving. :: A carpet (or banister)
+It is a word that becomes shorter when you add two letters to it. :: Short
+It is something you can hold in your left hand but never in your right hand. :: Your right elbow
+It is put on a table, cut, but never eaten. :: A deck of cards
+It always answers but never asks a question. :: A doorbell (or an echo)
+It speaks without a mouth and hears without ears, repeating your words in the valley. :: An echo
+It has hundreds of legs but can only lean, and it sweeps the floor. :: A broom
+It has a bottom at the top. :: Your legs
+It is the letter that comes next in the sequence J, F, M, A, M, J, J. :: A (August)
+It is the next letter in O, T, T, F, F, S, S, E. :: N (Nine)
+The number of sides on a triangle plus the number of sides on a square. :: 7
+It can be seen once in a minute, twice in a moment, and never in a thousand years. :: The letter M
+It is the word in the dictionary that is always spelled incorrectly. :: Incorrectly
+It is something with four wheels and flies, but it is not a plane. :: A garbage truck
+It is a fish with no eyes. :: Fsh
+It lives in winter, dies in summer, and grows with its roots upward. :: An icicle
+It is what you call a bear with no teeth. :: A gummy bear
+It goes all the way around the yard but never moves. :: A fence
+It has an army of soldiers inside a small box, each with a red head. :: Matches
+It sits in a corner but travels the world on an envelope. :: A postage stamp
+It is the word that has three double letters in a row. :: Bookkeeper
+It is something you break without touching it. :: A promise
+It is a seven-letter word containing thousands of letters. :: Mailbox
+It is a word that is spelled the same forwards and backwards and means midday. :: Noon
+It is a palindrome word for a vehicle that races. :: Racecar
+It is a kind of cup you cannot drink from. :: A cupcake (or hiccup)
+It is a kind of tree you can carry in your hand. :: A palm
+It is a kind of room with no walls. :: Mushroom
+It is the answer to: if there are three apples and you take away two, how many do you have? :: Two
+It is the kind of nail that never needs a hammer. :: A fingernail
+It is what you get when you drop a white hat into the Red Sea. :: A wet hat
+It is the type of key that opens a banana. :: A monkey
+It is the type of bow that can never be tied. :: A rainbow
+It is the time a clock should go to the dentist. :: Tooth-hurty (2:30)
+It is an animal that jumps higher than a house. :: Any animal: houses can't jump
+It is the side of a cup with the handle. :: The outside
+It is the number you get by adding 1,000 to 40, then 1,000, then 30, then 1,000, then 20, then 1,000, then 10. :: 4,100
+It is the weight that is heavier: a kilogram of feathers or a kilogram of iron. :: Neither: they weigh the same
+It is the only thing that grows when you share it, according to the riddle. :: Happiness (or knowledge)
+It is the calm centre of a hurricane that has an eye but cannot see. :: The eye of the storm
+It has teeth but never eats, and it cuts through wood. :: A saw
+It has lids and lashes but holds no box. :: An eye
+It has a trunk but is not a tree, and two big flapping ears. :: An elephant
+It has scales but cannot weigh anything, and it swims. :: A fish
+It wakes you up every morning but never sleeps itself. :: An alarm clock
+It has four legs and stripes and looks like a horse in pyjamas. :: A zebra
+It is the kind of ship that never sails but carries your best mates. :: Friendship
+It is black and white and read all over, in the old joke. :: A newspaper
+It has a needle that always points one way and helps lost travellers. :: A compass
+It is a sweet fried ring with a hole in the middle. :: A doughnut
+It is the building with the most stories. :: A library
+It is the band that never plays any music. :: A rubber band
+It loses its head every morning and gets it back every night. :: A pillow
+It rises in the east, sets in the west, and you must never stare at it. :: The sun
+You slice its head off and weep beside it, though it never hurt you. :: An onion
+It is round, gets cut into triangles, and has a crust. :: A pizza
+It has locks but no keys, and it grows on your head. :: Hair
+
+## 200
+It is the thing that begins with T, ends with T, and has T in it. :: A teapot
+It is the word that starts with "e", ends with "e", and usually contains one letter. :: Envelope
+The more you have of it, the less you see. :: Darkness
+It is lighter than air yet a hundred people cannot lift it. :: A bubble
+It has thirteen hearts but no other organs. :: A deck of cards
+It has a head, a foot, and four legs, and you sleep in it. :: A bed
+A doctor's brother died, but the man who died had no brother. The doctor is this. :: His sister
+A man shaves several times a day but still has a beard. He has this job. :: A barber
+A girl fell off a 20-foot ladder and was unhurt. She fell from here. :: The bottom step
+A rooster lays an egg on top of a barn roof. It rolls this way. :: Nowhere: roosters don't lay eggs
+An electric train heads south. Its smoke blows this way. :: Nowhere: electric trains have no smoke
+A man pushes his car to a hotel and tells the owner he's bankrupt. He is playing this game. :: Monopoly
+The number of times you can subtract 5 from 25. :: Once (then it's 20)
+Two fathers and two sons go fishing and catch three fish, one each. The number of people. :: Three (grandfather, father, son)
+It is the thing that is yours, but you never use it yourself; it's in "Hello, ___". :: Your name
+You see it once in June, twice in November, and not at all in May. :: The letter E
+A word that, if you pronounce it right, it's wrong, and if you pronounce it wrong, it's right. :: Wrong
+It has a mouth but never eats, a bed but never sleeps, a bank but no money. :: A river
+It is the strongest bird, according to the pun, that lifts heavy trucks. :: A crane
+It is what has four eyes but cannot see. :: Mississippi
+It is a word with five letters that sounds the same when you remove four of them. :: Queue
+In a one-storey pink house, everything was pink. The stairs were this colour. :: There were no stairs
+A boy and his father are in a crash. The surgeon says, "That's my son!" The surgeon is this. :: His mother
+It is what you can catch but not throw, that comes with a sneeze. :: A cold
+You walk into a dark room with one match, a candle, a lamp and a stove. You light this first. :: The match
+It is the next number: 1, 1, 2, 3, 5, 8, 13. :: 21
+It is the next number: 2, 4, 8, 16, 32. :: 64
+It is the next number: 1, 4, 9, 16, 25. :: 36
+It is the next number: 3, 6, 9, 12. :: 15
+It is the next number: 1, 3, 6, 10, 15. :: 21
+It is the next number: 100, 90, 81, 73, 66. :: 60
+It is the next letter: A, C, E, G. :: I
+It is the next letter: Z, X, V, T. :: R
+It is the next letter: M, T, W, T, F, S. :: S (Sunday)
+It is a word containing all five vowels in order: A, E, I, O, U. :: Facetious (or abstemious)
+It is the word that is pronounced the same with only its first letter. :: Eye (I)
+A man rode into town on Friday, stayed three days, and left on Friday. Friday is this. :: His horse's name
+It is what goes up when the rain comes down. :: An umbrella
+A clerk at a butcher shop is 1.8 m tall and wears size 44 shoes. He weighs this. :: Meat
+What can you hold without ever touching it? :: A conversation (or your breath)
+It is the thing that always has its head down, tapping your wall into place. :: A nail
+It is the letter that is a body of water. :: C (sea)
+It is the letter that is a drink. :: T (tea)
+It is the letter that is a vegetable. :: P (pea)
+It is the letter that is an insect. :: B (bee)
+It is the letter that is a question. :: Y (why)
+It is the letter that is a bird. :: J (jay)
+It is the letter that is a part of the head. :: I (eye)
+It is an odd number that becomes even when you remove a letter. :: Seven
+It is how many months have 31 days. :: Seven
+It is the word that has "kst" in the middle, "in" at the beginning, and "in" at the end. :: Inkstand
+It is the one thing you can't eat for breakfast or lunch. :: Dinner
+It is what comes once in a year, twice in a week, and never in a day. :: The letter E
+What has 21 spots but cannot dress itself? :: A die (dice)
+It is the coat that is best put on wet. :: A coat of paint
+It is the tree that is always sad. :: A pine (it pines)
+It is the number of ends a stick has; cut off one end and it still has this many. :: Two
+It is the number of times the letter "a" appears in the numbers from one to ninety-nine when written in English. :: Zero
+It is the word "SWIMS" upside down. :: SWIMS
+It is what the big flower said to the little flower. :: Hi, bud!
+It is the thing a computer eats. :: Chips (or bytes)
+It is a bird that cannot fly but is black and white and lives in the cold south. :: Penguin
+It is the word that contains 26 letters but only three syllables. :: Alphabet
+It is the number of letters in "the alphabet". :: 11
+You have a basket with five apples and five friends. Each gets one and one stays in the basket. How? :: One friend took the basket with the apple
+A man looks at a portrait and says "Brothers and sisters I have none, but that man's father is my father's son." The portrait shows this person. :: His son
+A man was outside in the rain without an umbrella or hat, yet not a single hair got wet. He was this. :: Bald
+It is the thing that has golden hair and stands in the corner of the field. :: Corn (wheat)
+It is the creature that has a horn but gives no milk. :: A car (or rhino)
+It is the thing that is always hungry and must be fed; touching it with water kills it. :: Fire
+Forward I am heavy, backward I am not. :: Ton
+It is the thing with a head like a cat, feet like a cat, a tail like a cat, but isn't a cat. :: A kitten
+It is the one thing you can make that you can never see. :: Noise
+It is the thing you can't use until it's broken in, like new shoes. :: Shoes
+It is the thing that jumps when it walks and sits when it stands. :: A kangaroo
+It is the thing that you throw out when you want to use it and take in when you're done. :: An anchor
+It is the thing that is taken before you get it. :: Your picture (photo)
+It is the thing that has no beginning, end, or middle. :: A circle (doughnut)
+It is the vehicle spelled the same forwards and backwards. :: Kayak
+It is the thing that has a heart that doesn't beat. :: An artichoke
+It is the word made from "new door" rearranged. :: One word
+It is the reason the math book looked sad. :: It had too many problems
+It is the day of the week that is the strongest, as the rest are weekdays. :: Sunday (others are weak days)
+It is full of holes yet as strong as steel. :: A chain
+It has a head but cannot think, and it hits nails all day. :: A hammer
+It has many needles but never sews. :: A pine tree (or a cactus)
+You can serve it but never eat it. :: A tennis ball
+It is what you call a sleeping dinosaur, in the pun. :: A dino-snore
+It is the reason the scarecrow won an award. :: He was outstanding in his field
+It gets sharper the more you use it. :: Your mind
+It is what the ocean said to the beach. :: Nothing, it just waved
+It is what you call a fish wearing a bow tie. :: Sofishticated
+It is a three-letter word; add two letters and fewer there will be. :: Few
+It has a foot but no legs, and you measure with it. :: A ruler
+It is easy to get into but hard to get out of. :: Trouble
+It starts with P, ends with E, and has thousands of letters. :: A post office
+It is what one wall said to the other wall. :: Meet you at the corner
+It is why a bicycle can't stand up on its own. :: It's two-tired
+It is what you will always find at the end of a rainbow. :: The letter W
+It is the place where today comes before yesterday. :: The dictionary
+
+## 300
+A man lives on the 20th floor. He takes the lift down every day, but going up he stops at the 10th and walks, unless it rained. He is this. :: Short (he can only reach the 10th button, or uses an umbrella)
+A woman shoots her husband, holds him underwater, then hangs him. Later they enjoy dinner. She is this. :: A photographer
+A man drove his truck into a tunnel that was too low by 5 cm. A boy told him to do this. :: Let some air out of the tyres
+A man is found dead in a field with an unopened package beside him. The package was this. :: A parachute that failed
+Two people are born at the same moment but have different birthdays. They were born here. :: In different time zones (or crossing the date line)
+Romeo and Juliet are found dead on the floor among broken glass and water. They are these. :: Goldfish
+The answer to: a plane crashes on the border of two countries; where do they bury the survivors? :: You don't bury survivors
+It is the next number: 1, 11, 21, 1211, 111221. :: 312211
+It is the next number: 2, 3, 5, 7, 11, 13. :: 17
+It is the next number: 1, 2, 6, 24, 120. :: 720
+It is the next number: 0, 1, 1, 2, 3, 5, 8. :: 13
+It is the next number: 1, 8, 27, 64. :: 125
+It is the next number: 2, 6, 12, 20, 30. :: 42
+It is the next number: 5, 10, 20, 40. :: 80
+It is the next number: 31, 28, 31, 30, 31. :: 30 (days in June)
+The number of 9s you'd write numbering houses from 1 to 100. :: 20
+A bat and ball cost 1.10 riyals; the bat costs 1 riyal more than the ball. The ball costs this. :: 5 halalas
+If 5 machines take 5 minutes to make 5 widgets, 100 machines take this long to make 100 widgets. :: 5 minutes
+Lily pads double every day and cover a lake in 48 days. They covered half the lake on this day. :: Day 47
+In a race, you overtake the person in second place. You are now in this place. :: Second
+In a race, you overtake the last person. You are now in this place. :: Impossible: you can't pass the last person
+A farmer has 17 sheep; all but 9 die. The number left. :: 9
+Divide 30 by half and add 10. :: 70
+The number of birthdays the average person has. :: One (the rest are anniversaries of it)
+A doctor gives you three pills to take one every half hour. They last this long. :: One hour
+Some months have 30 days, some 31. The number of months with 28 days. :: Twelve
+It is the word made from rearranging "listen". :: Silent
+It is the word made from rearranging "dormitory". :: Dirty room
+It is the anagram of "astronomer". :: Moon starer
+It is the anagram of "the eyes". :: They see
+It is the anagram of "a gentleman". :: Elegant man
+It is the anagram of "eleven plus two". :: Twelve plus one
+It is the anagram of "conversation". :: Voices rant on
+It is the longest common English word you can type using only the top row of a keyboard. :: Typewriter
+It is the only English number whose letters are in alphabetical order. :: Forty
+It is the first number, counting up, whose English spelling contains the letter "a". :: One thousand
+It is the English word that has three consecutive pairs of double letters besides "bookkeeper". :: Bookkeeping
+A sentence that uses every letter of the alphabet at least once is called this. :: A pangram
+"The quick brown fox jumps over the lazy dog" is famous for being this. :: A pangram
+It is the word for a word that reads the same backwards, like "level". :: Palindrome
+It is the palindrome Napoleon supposedly said about Elba. :: Able was I ere I saw Elba
+It is the palindrome about Panama. :: A man, a plan, a canal: Panama
+You have two coins totalling 30 halalas, and one is not a 25. They are these. :: A 25 and a 5 (the other one is the 25)
+A box without hinges, key or lid, yet golden treasure inside is hid. :: An egg
+The person who makes it, sells it. The person who buys it, never uses it. The person who uses it, never sees it. :: A coffin
+Thirty white horses on a red hill; first they champ, then they stamp, then they stand still. :: Teeth
+I have branches but no fruit, trunk or leaves. :: A bank
+Fill a 5-litre jug, then pour from it until an empty 3-litre jug is full. The litres left in the 5-litre jug. :: 2
+The minimum number of socks to pull from a drawer of black and white socks, in the dark, to guarantee a pair. :: 3
+The minimum number of gloves from a drawer of 10 left and 10 right gloves, in the dark, to guarantee a pair. :: 11
+How many times a clock's hour and minute hands overlap in 12 hours. :: 11
+The angle between clock hands at 3:00. :: 90 degrees
+The angle between clock hands at 3:15. :: 7.5 degrees
+A snail climbs 3 m up a 10 m well by day and slips 2 m at night. Days to escape. :: 8
+Two trains 100 km apart drive at 50 km/h towards each other. A fly flies at 75 km/h between them. It flies this far. :: 75 km
+The number of squares on a chessboard, counting all sizes. :: 204
+The number of handshakes when 10 people each shake hands once with everyone else. :: 45
+The number of letters in the English answer to "How many letters are in the answer?" :: Four
+A brick weighs 1 kg plus half a brick. A brick weighs this. :: 2 kg
+A hen and a half lays an egg and a half in a day and a half. One hen lays this many eggs in a day. :: Two thirds of an egg
+If it takes 1 minute to cut a log into 2 pieces, cutting it into 3 pieces takes this long. :: 2 minutes
+A man has 6 daughters; each has a brother. The number of children. :: 7
+Mary's father has five daughters: Nana, Nene, Nini, Nono. The fifth is this. :: Mary
+A rope ladder hangs over a ship's side, rungs 30 cm apart. The tide rises 1 m. Rungs now underwater compared to before. :: The same (the ship rises with the tide)
+Before Mount Everest was discovered, the tallest mountain on Earth was this. :: Mount Everest (still the tallest)
+What word is spelled wrong in every dictionary? :: Wrong
+A clock strikes 6 in 5 seconds. It strikes 12 in this many seconds. :: 11
+How many cubic metres of dirt are in a hole 2 m by 2 m by 2 m? :: None: it's a hole
+Which is correct: "the yolk of the egg is white" or "the yolk of the egg are white"? :: Neither: yolks are yellow
+A man named his dogs Rolex and Timex. They were these, in the pun. :: Watchdogs
+Feed me and I live, give me a drink and I die. :: Fire
+I have a little house in which I live all alone. It has no doors or windows; to go out I must break the wall. :: A chick in an egg
+I'm found in socks, scarves and mittens, and often in the paws of playful kittens. :: Yarn
+I have no life, but I can die. :: A battery
+Mr. Blue lives in the blue house, Mr. Red in the red house. Who lives in the White House? :: The US President
+If two's company and three's a crowd, then four and five are this. :: Nine
+Multiply together every digit on a phone keypad and you get this. :: 0
+Half of two plus two. :: 3
+If you have it, you want to share it; if you share it, you no longer have it. :: A secret
+It has 10 letters and starts with "gas". :: Automobile
+The only English number word with as many letters as its value. :: Four
+A girl was 7 on her last birthday and will be 9 on her next one. This is how. :: Today is her 8th birthday
+"The day before yesterday I was 25 and next year I'll be 28." Said on January 1, this is the speaker's birthday. :: December 31
+The place on Earth where you can walk 1 km south, 1 km east and 1 km north and end up where you started. :: The North Pole
+Five people stood under one small umbrella and none got wet. This is why. :: It wasn't raining
+The common English word with a double "u" in it. :: Vacuum
+Ten fish are in a tank. Two drown, four swim away and three die. The number of fish left in the tank. :: Ten
+A man calls his dog from across a river and it crosses without getting wet or using a bridge. This is how. :: The river was frozen
+You drive a bus. 7 people get on, 3 get off, then 5 get on. The bus driver's age. :: Your own age
+Multiply any number by this and the answer is always the same. :: Zero
+The number of sides a circle has, in the riddle. :: Two (inside and outside)
+Whether a man can legally marry his widow's sister. :: No: if he has a widow, he is dead
+How far you can walk into a forest. :: Halfway (then you are walking out)
+A painted 3x3x3 cube is cut into 27 small cubes. The number with no paint on them. :: 1
+A painted 3x3x3 cube is cut into 27 small cubes. The number with paint on exactly three faces. :: 8
+The angle between the hour and minute hands at 6:00. :: 180 degrees
+Spelling out numbers from one upwards, the first one that contains the letter "b". :: One billion
+The next number: 1, 2, 4, 7, 11, 16. :: 22
+The next number: 1, 3, 7, 15, 31. :: 63
+Twelve pears hung high, twelve men passed by; each took a pear and left eleven hanging. This is how. :: "Each" was the name of one man
+
+## 400
+A man jumps out of a 10-storey window but is unhurt. He jumped from here. :: The ground-floor window
+A woman has two sons born at the same hour of the same day of the same year but they are not twins. They are these. :: Two of triplets
+A man walks into a café and asks for water. The server points a gun at him. He says thank you and leaves. He had this. :: Hiccups
+A man is found dead in the desert holding a short matchstick. This is how he got there. :: He drew the short match and had to jump from a sinking balloon
+A man dies in a room with 53 bicycles. He was this. :: Cheating at cards (Bicycle-brand playing cards)
+Two friends share the same poisoned iced drink. The one who gulped it quickly lived. The poison was here. :: In the ice
+A detective sees a cassette that says "I can't live any more" and stops; it was rewound. He suspects this. :: Murder: someone rewound the tape
+The month in which people sleep the least. :: February (fewest days)
+A girl has as many brothers as sisters, but each brother has only half as many brothers as sisters. Children in the family. :: 7 (4 girls, 3 boys)
+I have keys but no locks, space but no room; you can enter but can't go outside. :: A keyboard
+Three switches outside a room control three bulbs. You may enter once. The trick is to feel this. :: Which bulb is warm
+You have 8 balls, one heavier, and a balance. The minimum number of weighings to find it. :: Two
+You have 12 balls, one odd (heavier or lighter). The minimum weighings to find it and know which. :: Three
+Three ants on the corners of a triangle each walk along an edge at random. The probability they don't collide. :: 1/4
+The probability of two people in a group of 23 sharing a birthday is about this, the "birthday paradox". :: 50 percent
+The name of the puzzle with a goat, wolf and cabbage crossing a river. :: The river-crossing puzzle (wolf, goat and cabbage)
+The minimum number of moves to solve the Tower of Hanoi with 3 discs. :: 7
+The minimum number of moves to solve the Tower of Hanoi with 4 discs. :: 15
+The game show puzzle where switching doors gives a 2/3 chance of winning. :: The Monty Hall problem
+In the Monty Hall problem, the chance of winning if you stick with your first door. :: 1/3
+The number of trailing zeros in 10 factorial. :: 2
+The number of trailing zeros in 100 factorial. :: 24
+The smallest number divisible by every number from 1 to 10. :: 2,520
+The number that is the sum of its proper divisors: 1 + 2 + 3. :: 6 (a perfect number)
+The second perfect number. :: 28
+A 9-letter word that remains a word each time you remove one letter, down to one letter. :: Startling
+The puzzle with two doors and two guards, one who always lies and one who always tells the truth. :: The two guards puzzle
+In the two-guards puzzle, the question you ask either guard. :: "Which door would the other guard say leads to freedom?" (then pick the other)
+The famous puzzle where a man must take a fox, a chicken and grain across a river; his first trip takes this. :: The chicken
+The number of times the digit 1 appears when writing all numbers from 1 to 100. :: 21
+A frog in a 30 m well climbs 3 m and falls 2 m daily. Days to escape. :: 28
+A man is twice as old as his son. Ten years ago he was three times as old. The son's age now. :: 20
+The sum of all numbers from 1 to 100, which Gauss is said to have found as a child. :: 5,050
+The number of edges on a cube. :: 12
+The number of faces on a dodecahedron. :: 12
+The number of times you can fold a sheet of paper in half, according to the old belief. :: 7 (record is 12)
+The four-letter word that is the same backward and upside down in capitals? :: NOON (SWIMS is five)
+You are in a room with two doors, one to death and one to freedom, and a sign is under one door. Riddles like these are called this. :: Logic puzzles
+A word that means "farewell" and is also a palindrome in Arabic letters? English trick: "Ta-ta". :: Ta-ta
+The game of tracing a shape without lifting the pencil or retracing lines relates to this mathematician's Königsberg bridges. :: Euler
+The number of bridges in the Königsberg problem. :: Seven
+I am an odd number. Take away one letter and I become even. :: Seven
+I am a three-digit number. My tens digit is five more than my ones digit; my hundreds digit is eight less than my tens. :: 194
+Two mothers and two daughters ate three eggs, one each. How? :: Grandmother, mother, daughter
+There are three houses, each needing water, gas and electricity, without lines crossing on flat ground. This is possible or impossible. :: Impossible (on a flat surface)
+A taxi driver goes the wrong way down a one-way street past a police officer but isn't stopped. Why? :: He was walking
+A man was driving a black car, with no lights on, no moon, and a black-clad woman crossed. He saw her because this. :: It was daytime
+At a party, everyone shakes hands with everyone else once, 28 handshakes total. The number of people. :: 8
+I'm the beginning of eternity, the end of time and space, the beginning of every end, and the end of every place. :: The letter E
+What is it that given one, you'll have either two or none? :: A choice
+You throw away my outside and cook my inside, then eat my outside and throw away my inside. :: Corn on the cob
+What has a neck but no head, two arms but no hands? :: A shirt
+I am not alive, but I grow; I don't have lungs, but I need air; I don't have a mouth, but water kills me. :: Fire
+What has roots that nobody sees, is taller than trees, up it goes yet never grows? :: A mountain (Tolkien's riddle)
+Voiceless it cries, wingless flutters, toothless bites, mouthless mutters. :: Wind (Tolkien's riddle)
+An eye in a blue face saw an eye in a green face, in Tolkien's "Hobbit" riddle. :: The sun on the daisies
+This thing all things devours: birds, beasts, trees, flowers; gnaws iron, bites steel. :: Time (Tolkien's riddle)
+Alive without breath, as cold as death; never thirsty, ever drinking, all in mail never clinking. :: A fish (Tolkien's riddle)
+What have I got in my pocket? :: The One Ring (Bilbo's question)
+The book in which Bilbo and Gollum have their famous riddle contest. :: The Hobbit
+The creature that guards Thebes with a riddle in Greek myth. :: The Sphinx
+The hero who solved the Sphinx's riddle. :: Oedipus
+The riddle-like Zen question: "What is the sound of one hand clapping?" is this type of riddle. :: A koan
+A Japanese word for a short riddle-like story or question used in Zen training. :: Koan
+A riddle whose answer is a pun is often called this. :: A conundrum
+The puzzle in which you rearrange letters to form a new word. :: Anagram
+The puzzle where words are represented by pictures and symbols. :: Rebus
+"MIND / MATTER" as a rebus means this. :: Mind over matter
+"STAND / I" as a rebus means this. :: I understand
+"R/E/A/D/I/N/G" in a vertical line as a rebus means this. :: Reading between the lines
+"TIMING TIM ING" as a rebus means this. :: Split-second timing
+"HE'S / HIMSELF" as a rebus means this. :: He's beside himself
+"ECNALG" as a rebus means this. :: Backward glance
+"GROUND / FEET FEET FEET FEET FEET FEET" as a rebus means this. :: Six feet underground
+"WEAR / LONG" as a rebus means this. :: Long underwear
+"CYCLE CYCLE CYCLE" as a rebus means this. :: Tricycle
+"MAN / BOARD" as a rebus means this. :: Man overboard
+"KNEE / LIGHT" as a rebus means this. :: Neon light
+The number of ways to arrange 5 different books on a shelf. :: 120
+Three boxes are labelled Apples, Oranges and Mixed, and every label is wrong. You take one fruit from this box to fix them all. :: The box labelled Mixed
+Two ropes each burn unevenly in exactly 60 minutes. Lighting both ends of one and one end of the other lets you measure this. :: 45 minutes
+100 people toggle 100 doors in turn (person n toggles every nth door). The doors left open are numbered by these. :: Perfect squares
+In the 100 doors puzzle, the number of doors left open. :: 10
+The probability of rolling a total of 7 with two dice. :: 1/6
+The most likely total when you roll two dice. :: 7
+The chance that a family with four children has all girls. :: 1/16
+The number of diagonals in a hexagon. :: 9
+The hotel puzzle in which a dollar seems to vanish after 30 is paid, 5 refunded and 2 kept by the bellboy. :: The missing dollar riddle
+A cyclist rides uphill at 10 km/h and back down the same road at 30 km/h. Average speed for the trip. :: 15 km/h
+The number of zeros in one billion. :: Nine
+The number of minutes in a week. :: 10,080
+The angle between the hour and minute hands at 12:30. :: 165 degrees
+A man buys a horse for 60, sells it for 70, buys it back for 80 and sells it for 90. His total profit. :: 20
+The number of times the digit 7 appears when you write the numbers from 1 to 100. :: 20
+The bigger number: 2 to the power 10, or 10 to the power 3. :: 2 to the power 10 (1,024)
+A monk walks up a mountain one day and down by the same path the next. Whether there's a spot he passes at the same time of day both days. :: Yes, always
+The minimum number of straight cuts to divide a round cake into 8 equal pieces. :: 3
+A gold bar of 7 segments pays a worker one segment a day for a week. The minimum number of cuts. :: 2
+A puzzle like SEND + MORE = MONEY, where letters stand for digits, is called this. :: Cryptarithm (verbal arithmetic)
+In SEND + MORE = MONEY, the letter M stands for this digit. :: 1
+
+## 500
+A man walks into a bar and asks for water; the bartender pulls out a gun. This classic lateral-thinking puzzle's cure was a fright for this. :: Hiccups
+Paul Sloane popularised this kind of puzzle, where you ask yes/no questions to find the hidden story. :: Lateral thinking puzzles
+The British author of "The Canterbury Puzzles" (1907). :: Henry Dudeney
+The American puzzle maker who created "Get Off the Earth" and thousands of puzzles in the 1800s. :: Sam Loyd
+The 15-sliding-tile puzzle Sam Loyd falsely claimed to invent, with a 14-15 swap that can't be solved. :: The 15 puzzle
+The Hungarian architect who invented a twisting cube puzzle in 1974. :: Ernő Rubik
+The number of possible positions of a 3x3 Rubik's Cube, about 43 followed by this many zeros (43 quintillion). :: 18
+The maximum number of face turns needed to solve any Rubik's Cube position, proven in 2010. :: 20
+The Japanese number-placement puzzle whose name means "single digit". :: Sudoku
+The minimum number of given clues needed for a Sudoku with a unique solution, proven in 2012. :: 17
+The puzzle of placing eight queens on a chessboard so none attack each other has this many solutions. :: 92
+The chess puzzle of moving a knight to visit every square exactly once. :: The knight's tour
+The puzzle with seven flat shapes that form a square, from China. :: Tangram
+The number of pieces in a tangram. :: 7
+The name of the Chinese ring puzzle, also known as "Baguenaudier". :: Chinese rings
+The ancient legend of the Tower of Hanoi says the world ends when monks move this many golden discs. :: 64
+The approximate number of moves needed for 64 Tower of Hanoi discs. :: 2^64 − 1 (about 18 quintillion)
+The Persian story of a chessboard with grains of wheat doubling each square shows this kind of growth. :: Exponential growth
+The total number of grains on the chessboard in the wheat-and-chessboard legend. :: 2^64 − 1
+The Greek philosopher whose paradox says Achilles can never catch a tortoise. :: Zeno of Elea
+The paradox "This statement is false" is a version of this ancient paradox. :: The liar paradox
+The paradox about a barber who shaves all those who do not shave themselves, devised by this philosopher. :: Bertrand Russell
+The paradox: if you replace every plank of a ship, is it still the same ship? :: Ship of Theseus
+The paradox: a prisoner told he'll be hanged on a weekday by surprise concludes it can't happen. :: Unexpected hanging paradox
+The paradox about a sand heap: removing one grain never makes it not a heap. :: Sorites paradox
+The puzzle about two envelopes, one with twice the money of the other, suggesting you should always switch. :: Two envelopes problem
+The 1950 game theory puzzle about two suspects choosing to confess or stay silent. :: Prisoner's dilemma
+The probability puzzle: a family has two children and one is a boy. The chance both are boys. :: 1/3
+The famous puzzle from "Die Hard with a Vengeance" uses a 3-gallon and this size jug to get 4 gallons. :: 5-gallon
+The logic puzzle about blue-eyed islanders who all leave on the same night. :: Blue-eyed islanders puzzle
+The logic puzzle sometimes credited to Einstein, about five houses and who owns the fish. :: The Zebra puzzle (Einstein's riddle)
+In "Einstein's riddle", the owner of the fish is from this country. :: Germany
+The puzzle from 2015 about a girl's birthday that went viral from Singapore. :: Cheryl's birthday
+In "Cheryl's birthday", her birthday is on this date. :: July 16
+The puzzle of crossing a bridge at night with one torch: four people take 1, 2, 5 and 10 minutes. Minimum time. :: 17 minutes
+The puzzle with three missionaries and three cannibals crossing a river: the minimum crossings. :: 11
+The logician who wrote "What Is the Name of This Book?" full of knights-and-knaves puzzles. :: Raymond Smullyan
+On Smullyan's island, knights always tell the truth and these always lie. :: Knaves
+A knight or knave says "I am a knave". This is the problem with that. :: It's impossible for either to say it
+The puzzle about 100 prisoners and a light bulb, with one counter. :: 100 prisoners and a light bulb
+In the 100 prisoners and boxes problem, the loop strategy gives roughly this chance of success. :: About 31 percent
+The number of ways to arrange the letters of "RIDDLE". :: 360
+The number of moves for a knight to get from one corner of a chessboard to the opposite corner, minimum. :: 6
+The minimum number of colours needed to colour any map so no neighbours share a colour. :: Four (four colour theorem)
+The year the four colour theorem was proven with a computer. :: 1976
+The Lewis Carroll riddle "Why is a raven like a writing desk?" appears in this book. :: Alice's Adventures in Wonderland
+The character who asks "Why is a raven like a writing desk?" :: The Mad Hatter
+Lewis Carroll's word game where you change one letter at a time, like COLD to WARM. :: Word ladder (Doublets)
+The fewest steps in Carroll's word ladder from HEAD to TAIL. :: 5 (HEAD, HEAL, TEAL, TELL, TALL, TAIL)
+The Exeter Book from about the 10th century contains around 90 riddles in this language. :: Old English (Anglo-Saxon)
+The Latin riddle poet Symphosius wrote 100 riddles in this form. :: Three-line verses (tristichs)
+The ancient Greek riddle answered by Homer that, legend says, killed him from frustration, was about this. :: Lice ("what we caught we left behind")
+The guessing game in which players get this many yes-or-no questions to identify a hidden object. :: Twenty (Twenty Questions)
+The French word game where you guess a word from clues acted out silently. :: Charades
+The Arabic word for riddle, as in a classic puzzle game. :: Lughz (لغز)
+The puzzle-video game with falling tetrominoes created by Alexey Pajitnov. :: Tetris
+The number of squares in each Tetris piece. :: Four
+The 2048 game merges tiles of equal numbers; the starting tiles are these two values. :: 2 and 4
+The crossword's inventor, who published the first one in 1913 in New York. :: Arthur Wynne
+The type of crossword where clues are wordplay puzzles, popular in British newspapers. :: Cryptic crossword
+The newspaper puzzle where a famous quote is hidden by letter substitution. :: Cryptogram
+The number puzzle with "cages" that must sum to given totals. :: Killer sudoku
+The Japanese logic puzzle using black-and-white grid shading to reveal pictures. :: Nonogram (Picross)
+The puzzle where you draw lines connecting islands with bridges. :: Hashiwokakero (Bridges)
+The puzzle where you fill a grid with lamps so all cells are lit. :: Akari (Light Up)
+The Japanese puzzle where you split a grid into regions with given numbers. :: Shikaku
+The arithmetic puzzle with grids and target numbers created by Tetsuya Miyamoto. :: KenKen
+The word game where you guess a five-letter word in six tries. :: Wordle
+The programmer who created Wordle for his partner. :: Josh Wardle
+The newspaper that bought Wordle in 2022. :: The New York Times
+The NYT game where you sort 16 words into four groups. :: Connections
+The puzzle with a hexagon of seven letters and a centre letter you must use. :: Spelling Bee
+A Spelling Bee word that uses all seven letters is called this. :: Pangram
+The game "Mastermind" asks you to guess this many coloured pegs in the classic version. :: Four
+The maximum number of guesses needed to solve classic Mastermind with optimal play. :: Five
+The puzzle Leonhard Euler studied about officers of 6 ranks and 6 regiments in a square, which has no solution. :: Thirty-six officers problem
+The puzzle of a man who must say whether he'll eat breakfast to break a crocodile's promise is called this. :: The crocodile dilemma
+The "Monty Hall" problem's TV game show was called this. :: Let's Make a Deal
+The columnist who popularised the Monty Hall answer in 1990 and was flooded with complaints. :: Marilyn vos Savant
+The mathematician who refused to believe the Monty Hall answer until shown a simulation. :: Paul Erdős
+The "Secretary problem" says you should reject about this fraction of candidates before choosing. :: 37 percent (1/e)
+The puzzle of a fly between two trains is told about this mathematician who instantly summed the series. :: John von Neumann
+The numbers 1, 2, 3 add to equal their product. The only other three positive whole numbers with this property. :: None (1, 2, 3 is unique)
+The 10-digit number in which the first digit counts the zeros, the second the ones, and so on. :: 6210001000
+The number that is the smallest expressible as the sum of two cubes in two different ways. :: 1729
+The mathematician who called 1729 "a very interesting number" in a taxi. :: Srinivasa Ramanujan
+The only even prime number. :: 2
+The Fermat theorem puzzle note: the margin was too small to contain the proof. It was proved in 1994 by this person. :: Andrew Wiles
+A puzzle box from Japan that needs a secret sequence of moves to open. :: Himitsu-bako (Japanese puzzle box)
+The puzzle game where you push boxes onto targets in a warehouse, from Japan. :: Sokoban
+The puzzle game that uses portals and a "companion cube". :: Portal
+The puzzle where all words in a sentence start with the same letter is called this. :: Tautogram
+A sentence where each word has one more letter than the last is called this. :: Rhopalic (snowball)
+A text written without using the letter E is called this. :: Lipogram
+The 1939 novel "Gadsby" was written entirely without this letter. :: E
+The French novel "La Disparition" by Georges Perec also omits this letter. :: E
+A word that contains each of the vowels exactly once in reverse order, U-O-I-E-A. :: Subcontinental
+The longest English word that can be typed with only the left hand on a QWERTY keyboard, commonly cited. :: Stewardesses (or sweaterdresses)
+The word game where players add letters to a growing fragment without completing a word. :: Ghost
+In the Victorian riddle, a cat has claws at the end of its paws, and a comma has this. :: A pause at the end of a clause
