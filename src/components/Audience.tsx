@@ -9,6 +9,8 @@ import { standings, tileKey } from '../lib/game'
 import { appName, type Live } from '../lib/edition'
 import { setFavicon } from '../lib/favicon'
 import { Ambient, Flourish, FlourishAbove, Mark } from './Brand'
+import { diagramSrc } from '../lib/diagram'
+import { TimerBar } from './Timer'
 
 /**
  * Opens a second browser window that the host drags onto the projector.
@@ -179,7 +181,9 @@ function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings;
             const [main, sub] = lang === 'ar' && c.nameAr ? [c.nameAr, c.name] : [c.name, c.nameAr]
             return (
               <div className="cat" key={'h' + i}>
-                <span>{main}</span>
+                <span className="main" style={{ ['--w' as string]: Math.max(...main.split(/\s+/).map((w) => w.length)) }}>
+                  {main}
+                </span>
                 {sub && <span className="sub">{sub}</span>}
               </div>
             )
@@ -219,6 +223,11 @@ function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings;
             <p className="q" dir="auto" data-testid="audience-question">
               {lang === 'ar' && clue.qAr ? clue.qAr : clue.q}
             </p>
+            {clue.img && (
+            <div className="q-fig">
+              <img className="q-img" src={diagramSrc(clue.img)} alt={t.diagramAlt} data-testid="audience-img" />
+            </div>
+          )}
             {live!.revealed ? (
               <div className="answer show" dir="auto" data-testid="audience-answer">
                 {lang === 'ar' && clue.aAr ? clue.aAr : clue.a}
@@ -227,6 +236,7 @@ function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings;
             ) : (
               <div className="answer aud-hidden" aria-hidden="true" />
             )}
+            {game.settings.timer > 0 && <TimerBar clock={live!.clock ?? null} total={game.settings.timer} lang={lang} timeUpText={t.timeUp} big />}
           </div>
         </div>
       )}

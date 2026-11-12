@@ -11,6 +11,18 @@ export interface Question {
   /** Source tag: H = historical or sourced fact, D = dramatised, F = fictional. */
   kind?: 'H' | 'D' | 'F'
   src?: string
+  /** A picture or diagram shown with the clue: a data: URL for host-made questions, or a path for built-in ones. */
+  img?: string
+}
+
+/**
+ * The host's changes to one category's question pool, kept apart from the questions themselves
+ * so built-in categories can be changed too: questions taken out of play, and questions added.
+ * Both lists are per level (100 to 500).
+ */
+export interface PoolEdit {
+  off: string[][]
+  extra: Question[][]
 }
 
 /** A category holds five pools of questions, one per difficulty (100 to 500). */

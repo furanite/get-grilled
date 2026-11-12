@@ -1,8 +1,9 @@
 import { useState } from 'react'
-import type { Category, CategorySummary, Game, Lang, PackGroup } from '../lib/types'
+import type { Category, CategorySummary, Game, Lang, PackGroup, PoolEdit } from '../lib/types'
 import type { Strings } from '../lib/i18n'
 import { num, qCount } from "../lib/i18n"
-import { createGame, isPlayable } from '../lib/game'
+import { applyPool, createGame, isPlayable, poolCounts } from '../lib/game'
+import { sfx } from '../lib/sound'
 import { loadPack } from '../lib/packs'
 import { loadUsed, saveUsed } from '../lib/store'
 import { CatIcon } from './Brand'
@@ -13,6 +14,7 @@ interface Props {
   index: CategorySummary[] | null
   indexError: string
   custom: Category[]
+  pools: Record<string, PoolEdit>
   onBack: () => void
   onStart: (g: Game) => void
 }
@@ -27,7 +29,7 @@ const collectionOf = (g: PackGroup) => COLLECTIONS.find((c) => c.groups.includes
 
 const DEFAULT_TEAMS = { en: ['Team 1', 'Team 2', 'Team 3'], ar: ['الفريق ١', 'الفريق ٢', 'الفريق ٣'] }
 
-export default function Setup({ t, lang, index, indexError, custom, onBack, onStart }: Props) {
+export default function Setup({ t, lang, index, indexError, custom, pools, onBack, onStart }: Props) {
   const [picked, setPicked] = useState<string[]>([])
   const [closed, setClosed] = useState<PackGroup[]>([])
   const [coll, setColl] = useState<CollectionId>('university')
@@ -51,11 +53,12 @@ export default function Setup({ t, lang, index, indexError, custom, onBack, onSt
     if (teams.some((n) => !n.trim())) return setError(t.needTeams)
     setBusy(true)
     try {
-      const cats = await Promise.all(picked.map((id) => custom.find((c) => c.id === id) ?? loadPack(id)))
+      const cats = (await Promise.all(picked.map((id) => custom.find((c) => c.id === id) ?? loadPack(id)))).map((c) => applyPool(c, pools[c.id]))
       const bad = cats.find((c) => !isPlayable(c))
       if (bad) throw new Error(`“${bad.name}” ${t.incomplete}`)
       const { game, used } = createGame(cats, teams, { timer, deduct, golden }, loadUsed())
       saveUsed(used)
+      sfx.start()
       onStart(game)
     } catch (e) {
       setError((e as Error).message)
@@ -66,14 +69,15 @@ export default function Setup({ t, lang, index, indexError, custom, onBack, onSt
 
   const card = (c: CategorySummary, i: number) => {
     const order = picked.indexOf(c.id)
-    const playable = c.counts.length === 5 && c.counts.every((n) => n > 0)
+    const counts = poolCounts(c.counts, pools[c.id])
+    const playable = counts.length === 5 && counts.every((n) => n > 0)
     return (
       <button key={c.id} className="cat-pick" aria-pressed={order >= 0} disabled={!playable || (order < 0 && picked.length >= 6)} onClick={() => toggle(c.id)} style={{ ['--d' as string]: `${i * 40}ms` }} data-cat={c.id}>
         <CatIcon id={c.id} />
         <b>{lang === 'ar' && c.nameAr ? c.nameAr : c.name}</b>
         {c.nameAr && <small lang={lang === 'ar' ? 'en' : 'ar'}>{lang === 'ar' ? c.name : c.nameAr}</small>}
         <small>
-          {playable ? qCount(total(c), lang) : t.incomplete}
+          {playable ? qCount(total({ counts }), lang) : t.incomplete}
         </small>
         {order >= 0 && <span className="order">{num(order + 1, lang)}</span>}
       </button>

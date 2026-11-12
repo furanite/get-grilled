@@ -7,6 +7,7 @@
 //   ## 100
 //   Clue text :: Answer text
 //   Clue text :: Answer text || H: Source   (source tag, required in Islamic and kids groups)
+//   Clue with a picture {img:gate-and.svg} :: Answer   (picture in questions/img/, copied to public/packs/img/)
 //   ## 200 ...
 // Source tags: H = historical or sourced fact (needs a source), D = dramatised, F = fictional.
 // A "?" after the letter (H?: ...) marks a fact still to be checked: it is left out of the
@@ -14,7 +15,7 @@
 // Lines starting with # (but not ##) are comments. Exits non-zero on any problem.
 // Arabic: questions/ar/<same file name> has the same ## headings and one
 // "ClueAr :: AnswerAr" line per question, in the same order as the English file.
-import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync, rmSync } from 'node:fs'
+import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync, rmSync, cpSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -52,11 +53,18 @@ export function parsePack(text, file = 'pack') {
     if (extra !== undefined) { errors.push(`${at} more than one " || " source tag`); return }
     const parts = body.split(/(?<=^|\s)::(?=\s|$)/)
     if (parts.length !== 2) { errors.push(`${at} needs exactly one " :: " between clue and answer`); return }
-    const [q, a] = parts.map((s) => s.trim())
+    let [q, a] = parts.map((s) => s.trim())
+    let img
+    const im = /\s*\{img:([a-z0-9-]+\.(?:svg|png|webp|jpg))\}\s*$/.exec(q)
+    if (im) {
+      img = `packs/img/${im[1]}`
+      q = q.slice(0, im.index).trim()
+      if (!existsSync(join(srcDir, 'img', im[1]))) errors.push(`${at} picture ${img} not found`)
+    } else if (/\{img:/.test(q)) errors.push(`${at} picture must be written {img:name.svg} at the end of the clue`)
     if (!q || !a) { errors.push(`${at} empty clue or answer`); return }
     if (q.length > 260) errors.push(`${at} clue is longer than 260 characters`)
     if (a.length > 110) errors.push(`${at} answer is longer than 110 characters`)
-    const item = { q, a, at }
+    const item = img ? { q, a, img, at } : { q, a, at }
     if (tagText !== undefined) {
       const t = /^([HDF])(\?)?(?::\s*(.*))?$/.exec(tagText.trim())
       if (!t) { errors.push(`${at} source tag must look like "H: source", "D: note" or "F"`); return }
@@ -76,13 +84,14 @@ export function parsePack(text, file = 'pack') {
   const seen = new Map()
   levels.forEach((lvl, li) => {
     if (lvl.length < MIN) errors.push(`${file}: level ${LEVELS[li]} has ${lvl.length} questions, needs at least ${MIN}`)
-    lvl.forEach(({ q, at }) => {
-      const key = q.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim()
+    lvl.forEach(({ q, img, at }) => {
+      // The same words can ask about different pictures
+      const key = q.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim() + (img ? ` ${img}` : '')
       if (seen.has(key)) errors.push(`${at} duplicate clue (also at ${seen.get(key)})`)
       else seen.set(key, at)
     })
   })
-  const clean = ({ q, a, kind, src }) => ({ q, a, ...(kind ? { kind } : {}), ...(src ? { src } : {}) })
+  const clean = ({ q, a, kind, src, img }) => ({ q, a, ...(kind ? { kind } : {}), ...(src ? { src } : {}), ...(img ? { img } : {}) })
   return { meta, levels: levels.map((l) => l.map(clean)), unchecked: unchecked.map(({ level, at, ...x }) => ({ level, at, ...clean(x) })), errors }
 }
 
@@ -158,6 +167,7 @@ const flagged = (rs) => (rs ?? []).some((r) => r.correct === 'issue' || r.adab =
 function main() {
   rmSync(outDir, { recursive: true, force: true })
   mkdirSync(outDir, { recursive: true })
+  if (existsSync(join(srcDir, 'img'))) cpSync(join(srcDir, 'img'), join(outDir, 'img'), { recursive: true })
   rmSync(reviewOut, { recursive: true, force: true })
   mkdirSync(reviewOut, { recursive: true })
   const reviews = loadReviews()

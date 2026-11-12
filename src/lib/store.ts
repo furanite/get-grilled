@@ -1,4 +1,5 @@
-import type { Category, Game, Lang, Question, ThemeId } from './types'
+import type { Category, Game, Lang, PoolEdit, Question, ThemeId } from './types'
+import { isDiagram } from './diagram'
 
 const KEYS = {
   settings: 'gg.settings.v1',
@@ -6,6 +7,7 @@ const KEYS = {
   used: 'gg.used.v1',
   game: 'gg.game.v1',
   consent: 'gg.consent.v1',
+  pools: 'gg.pools.v1',
 }
 
 function load<T>(key: string, fallback: T): T {
@@ -17,12 +19,14 @@ function load<T>(key: string, fallback: T): T {
   }
 }
 
-function save(key: string, value: unknown) {
+/** Returns false when the browser refused to store it (storage full or blocked). The app still works for this session. */
+function save(key: string, value: unknown): boolean {
   try {
     if (value === null) localStorage.removeItem(key)
     else localStorage.setItem(key, JSON.stringify(value))
+    return true
   } catch {
-    /* storage can be blocked; the app still works for this session */
+    return false
   }
 }
 
@@ -31,6 +35,8 @@ export interface Settings {
   lang: Lang
   /** "Reduce effects": turns off the moving background, sparkles and transitions. */
   reduceFx: boolean
+  /** Sound effects and music. On unless turned off. */
+  sound: boolean
 }
 
 const THEME_IDS: ThemeId[] = ['amethyst', 'emerald', 'neon', 'onyx', 'rivals', 'ember', 'heritage', 'rawdah', 'jumuah', 'mawlid', 'fajr', 'duha', 'zuhr', 'asr', 'maghrib', 'isha', 'qiyam', 'mughal', 'sahel', 'swahili', 'nusantara', 'zellige', 'suzani', 'bosnia', 'tatar', 'kubachi', 'hui']
@@ -45,6 +51,7 @@ export const loadSettings = (): Settings => {
     theme: THEME_IDS.includes(r.theme as ThemeId) ? (r.theme as ThemeId) : 'amethyst',
     lang: r.lang === 'ar' ? 'ar' : 'en',
     reduceFx: r.reduceFx === true,
+    sound: r.sound !== false,
   }
 }
 export const saveSettings = (s: Settings) => save(KEYS.settings, s)
@@ -54,6 +61,7 @@ function cleanQuestion(v: unknown): Question | null {
   const q: Question = { id: v.id, q: v.q, a: v.a }
   if (isStr(v.qAr)) q.qAr = v.qAr
   if (isStr(v.aAr)) q.aAr = v.aAr
+  if (isDiagram(v.img)) q.img = v.img
   return q
 }
 export function cleanCategories(raw: unknown): Category[] {
@@ -70,6 +78,21 @@ export function cleanCategories(raw: unknown): Category[] {
 }
 export const loadCustom = (): Category[] => cleanCategories(load<unknown>(KEYS.custom, []))
 export const saveCustom = (cats: Category[]) => save(KEYS.custom, cats)
+
+export function cleanPools(raw: unknown): Record<string, PoolEdit> {
+  const out: Record<string, PoolEdit> = {}
+  if (!isObj(raw)) return out
+  const five = <T,>(v: unknown, each: (x: unknown) => T | null): T[][] =>
+    [0, 1, 2, 3, 4].map((i) => (Array.isArray(v) && Array.isArray(v[i]) ? (v[i] as unknown[]).map(each).filter((x): x is T => x !== null) : []))
+  for (const [id, v] of Object.entries(raw)) {
+    if (!isObj(v)) continue
+    out[id] = { off: five(v.off, (x) => (isStr(x) ? x : null)), extra: five(v.extra, cleanQuestion) }
+  }
+  return out
+}
+/** The host's choice of questions per category (see PoolEdit). */
+export const loadPools = (): Record<string, PoolEdit> => cleanPools(load<unknown>(KEYS.pools, {}))
+export const savePools = (p: Record<string, PoolEdit>) => save(KEYS.pools, p)
 
 /** Question ids already played, per category, so new games avoid repeats until a pool runs out. */
 export const loadUsed = (): Record<string, string[]> => {

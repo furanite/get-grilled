@@ -104,6 +104,8 @@ The 1976 theorem saying any flat map can be coloured so that neighbours differ, 
 The number system used by computers, with base 2. :: Binary
 The value of 2 to the power 10. :: 1,024
 In any graph, the sum of all vertex degrees equals twice this. :: The number of edges
+Which set operation on A and B does the shaded region show? {img:venn-intersection.svg} :: Intersection (A ∩ B)
+Which set operation on A and B does the shaded region show? {img:venn-union.svg} :: Union (A ∪ B)
 
 ## 200
 The number of subsets of a set with 5 elements. :: 32
@@ -206,6 +208,7 @@ The number of leaves in a full binary tree with 7 internal nodes. :: 8
 The maximum number of nodes in a binary tree of height 3, with the root at height 0. :: 15
 A table that shows which vertices are joined, as 0s and 1s. :: Adjacency matrix
 The sum of all vertex degrees in a graph with 6 edges. :: 12
+Which set operation on A and B does the shaded region show? {img:venn-difference.svg} :: Set difference (A − B)
 
 ## 300
 The number of relations on a set with 3 elements. :: 512
@@ -308,6 +311,7 @@ The number of edges in the complete bipartite graph K₃,₄. :: 12
 The number of perfect matchings in K₄. :: 3
 The number of Hamiltonian cycles in K₄, ignoring starting point and direction. :: 3
 The number of 2-element subsets of a 10-element set. :: 45
+Which set operation on A and B does the shaded region show? {img:venn-symmetric.svg} :: Symmetric difference (A △ B)
 
 ## 400
 The number of antisymmetric relations on a set with 3 elements. :: 216

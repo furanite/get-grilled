@@ -6,6 +6,7 @@ import { burstAt } from '../lib/fx'
 import { Ambient, Flourish, FlourishAbove, Mark } from './Brand'
 import { clearPlace, currentPlace, requestExactPlace } from '../lib/place'
 import { APP_NAME, APP_NAME_AR, HAS_AR_NAME, ISLAMIC_SET, appName } from '../lib/edition'
+import { stopTune, titleTune } from '../lib/sound'
 
 interface Props {
   t: Strings
@@ -28,6 +29,15 @@ export default function Home({ t, lang, theme, setTheme, hasGame, onNew, onResum
     const id = setInterval(() => tick((n) => n + 1), 30_000)
     return () => clearInterval(id)
   }, [])
+
+  // A short tune once the title screen has drawn itself in; it fades out when the host moves on.
+  useEffect(() => {
+    const id = setTimeout(() => titleTune(theme), 900)
+    return () => {
+      clearTimeout(id)
+      stopTune()
+    }
+  }, [theme])
 
   return (
     <main className="stack" style={{ gap: 28 }}>

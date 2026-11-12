@@ -1,6 +1,8 @@
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
-import type { Category, CategorySummary, Game, Lang, Screen, ThemeId } from './lib/types'
-import { hasConsent, loadCustom, loadGame, loadSettings, saveCustom, saveGame, saveSettings } from './lib/store'
+import type { Category, CategorySummary, Game, Lang, PoolEdit, Screen, ThemeId } from './lib/types'
+import { hasConsent, loadCustom, loadGame, loadPools, loadSettings, saveCustom, saveGame, savePools, saveSettings } from './lib/store'
+import { isEmptyPool } from './lib/game'
+import { setSoundEnabled, unlockAudio } from './lib/sound'
 import { CONSENT_TEXT, LEGAL } from './lib/legal'
 import { ConsentDialog, Footer, LegalViewer } from './components/Legal'
 import Review from './components/Review'
@@ -24,6 +26,8 @@ export default function App() {
   const [theme, setThemeState] = useState<ThemeId>(!themeOpen(initial.theme) || !THEMES.some((th) => th.id === initial.theme) ? DEFAULT_THEME : initial.theme)
   const [lang, setLang] = useState<Lang>(initial.lang)
   const [reduceFx, setReduceFx] = useState<boolean>(!!initial.reduceFx)
+  const [sound, setSound] = useState<boolean>(initial.sound)
+  const [pools, setPoolsState] = useState<Record<string, PoolEdit>>(loadPools)
   const [consented, setConsented] = useState(() => hasConsent(LEGAL.termsVersion))
   const [legalView, setLegalView] = useState<'terms' | 'privacy' | null>(null)
   // #review opens the Scholar review page directly (a link the owner can send to scholars).
@@ -47,8 +51,20 @@ export default function App() {
     document.documentElement.dataset.theme = theme
     setFavicon(document, theme)
     document.querySelector('meta[name="theme-color"]')?.setAttribute('content', getComputedStyle(document.documentElement).getPropertyValue('--bg').trim())
-    saveSettings({ theme, lang, reduceFx })
-  }, [theme, lang, reduceFx])
+    saveSettings({ theme, lang, reduceFx, sound })
+  }, [theme, lang, reduceFx, sound])
+
+  useEffect(() => setSoundEnabled(sound), [sound])
+  // Browsers allow sound only after the person interacts with the page.
+  useEffect(() => {
+    const go = () => unlockAudio()
+    addEventListener('pointerdown', go, true)
+    addEventListener('keydown', go, true)
+    return () => {
+      removeEventListener('pointerdown', go, true)
+      removeEventListener('keydown', go, true)
+    }
+  }, [])
 
   useEffect(() => {
     document.documentElement.lang = lang
@@ -99,7 +115,17 @@ export default function App() {
 
   const setCustom = (cats: Category[]) => {
     setCustomState(cats)
-    saveCustom(cats)
+    if (!saveCustom(cats)) notify(t.storageFull)
+  }
+
+  const setPool = (id: string, edit: PoolEdit | null) => {
+    setPoolsState((prev) => {
+      const next = { ...prev }
+      if (!edit || isEmptyPool(edit)) delete next[id]
+      else next[id] = edit
+      if (!savePools(next)) notify(t.storageFull)
+      return next
+    })
   }
 
   const setGame = useCallback((u: Game | null | ((g: Game) => Game)) => {
@@ -145,6 +171,9 @@ export default function App() {
                   {t.fullscreen}
                 </button>
               )}
+              <button className="ghost sound-btn" aria-pressed={!sound} aria-label={sound ? t.soundOn : t.soundOff} title={sound ? t.soundOn : t.soundOff} onClick={() => setSound(!sound)} data-testid="sound">
+                <span aria-hidden="true">{sound ? '🔊' : '🔇'}</span>
+              </button>
               <button className="ghost" aria-pressed={reduceFx} onClick={() => setReduceFx(!reduceFx)} data-testid="reduce-fx">
                 {CONSENT_TEXT[lang].reduceFx}
               </button>
@@ -164,6 +193,7 @@ export default function App() {
               index={index}
               indexError={indexError}
               custom={custom}
+              pools={pools}
               onBack={() => setScreen('home')}
               onStart={(g) => {
                 setGame(g)
@@ -197,7 +227,7 @@ export default function App() {
             />
           )}
           {screen === 'review' && <Review lang={lang} notify={notify} onBack={() => setScreen('home')} />}
-          {screen === 'builder' && <Builder t={t} lang={lang} index={index} custom={custom} setCustom={setCustom} notify={notify} onBack={() => setScreen('home')} />}
+          {screen === 'builder' && <Builder t={t} lang={lang} index={index} custom={custom} setCustom={setCustom} pools={pools} setPool={setPool} notify={notify} onBack={() => setScreen('home')} />}
           <Footer lang={lang} onOpen={setLegalView} />
         </div>
       </div>

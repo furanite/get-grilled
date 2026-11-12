@@ -27,7 +27,7 @@ describe('consent record', () => {
   it('Reduce effects is off by default and kept with the settings', () => {
     expect(loadSettings().reduceFx).toBe(false)
     localStorage.setItem('gg.settings.v1', JSON.stringify({ theme: 'neon', lang: 'ar', reduceFx: true }))
-    expect(loadSettings()).toEqual({ theme: 'neon', lang: 'ar', reduceFx: true })
+    expect(loadSettings()).toEqual({ theme: 'neon', lang: 'ar', reduceFx: true, sound: true })
   })
 })
 

@@ -236,3 +236,48 @@ describe('adjustScore', () => {
     }
   })
 })
+
+describe('choosing the questions in play', () => {
+  const cat = {
+    id: 'k',
+    name: 'K',
+    builtIn: true,
+    levels: [0, 1, 2, 3, 4].map((l) => [0, 1, 2].map((i) => ({ id: `k-${l}-${i}`, q: `q${l}${i}`, a: 'a' }))),
+  }
+  it('takes unticked questions out and adds the host’s own', async () => {
+    const { applyPool, emptyPool, poolCounts } = await import('../src/lib/game')
+    const edit = emptyPool()
+    edit.off[0] = ['k-0-0', 'k-0-1']
+    edit.extra[0] = [{ id: 'mine', q: 'mine', a: 'a' }]
+    const out = applyPool(cat, edit)
+    expect(out.levels[0].map((q) => q.id)).toEqual(['k-0-2', 'mine'])
+    expect(out.levels[1]).toHaveLength(3)
+    expect(poolCounts([3, 3, 3, 3, 3], edit)).toEqual([2, 3, 3, 3, 3])
+    expect(applyPool(cat, undefined)).toBe(cat)
+  })
+  it('a game only draws ticked questions', async () => {
+    const { applyPool, emptyPool, drawCategory } = await import('../src/lib/game')
+    const edit = emptyPool()
+    edit.off = cat.levels.map((l) => l.slice(1).map((q) => q.id))
+    for (let i = 0; i < 20; i++) {
+      const { picks } = drawCategory(applyPool(cat, edit), [], Math.random)
+      expect(picks.map((p) => p.id)).toEqual(['k-0-0', 'k-1-0', 'k-2-0', 'k-3-0', 'k-4-0'])
+    }
+  })
+  it('a level with every question unticked is not playable', async () => {
+    const { applyPool, emptyPool, isPlayable } = await import('../src/lib/game')
+    const edit = emptyPool()
+    edit.off[2] = cat.levels[2].map((q) => q.id)
+    expect(isPlayable(applyPool(cat, edit))).toBe(false)
+  })
+  it('exports and imports diagrams with questions', async () => {
+    const { exportCategory, parseImportedCategory } = await import('../src/lib/game')
+    const img = 'data:image/png;base64,iVBORw0KGgo='
+    const c = { ...cat, builtIn: false, levels: cat.levels.map((l) => l.map((q) => ({ ...q, img }))) }
+    const back = parseImportedCategory(JSON.parse(JSON.stringify(exportCategory(c))), () => 'n')
+    expect(back.levels[0][0].img).toBe(img)
+    const bad = JSON.parse(JSON.stringify(exportCategory(c)))
+    bad.levels[0][0].img = 'data:text/html;base64,PHNjcmlwdD4='
+    expect(parseImportedCategory(bad, () => 'n').levels[0][0].img).toBeUndefined()
+  })
+})

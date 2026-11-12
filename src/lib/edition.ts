@@ -1,3 +1,4 @@
+import type { Clock } from '../components/Timer'
 /** The host edition adds a second window for the audience. It is built with `vite build --mode host`. */
 export const HOST_EDITION = import.meta.env.VITE_EDITION === 'host'
 
@@ -16,4 +17,6 @@ export interface Live {
   c: number
   l: number
   revealed: boolean
+  /** The clue's countdown, so the projector shows the same sliding timer as the host. */
+  clock?: Clock | null
 }
