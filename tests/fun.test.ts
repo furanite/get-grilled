@@ -1,11 +1,11 @@
 import { describe, expect, it } from 'vitest'
-import { readFileSync } from 'node:fs'
+import { readFileSync, readdirSync } from 'node:fs'
 import { join } from 'node:path'
 import { FINAL_VALUE, STREAK_BONUS, answerRight, answerWrong, chooseGolden, chooseSpecials, createGame, lastPlace, nextStage, steal } from '../src/lib/game'
 import { cleanGameExtras } from '../src/lib/store'
 import type { Category, Game } from '../src/lib/types'
 // @ts-expect-error plain JS build script
-import { checkNights } from '../scripts/build-packs.mjs'
+import { checkNights, parsePack } from '../scripts/build-packs.mjs'
 
 const cat = (id: string, n = 12): Category => ({
   id,
@@ -125,8 +125,9 @@ describe('saved games', () => {
 })
 
 describe('themed nights file', () => {
-  const ids = readFileSync(join(__dirname, '..', 'public', 'packs', 'index.json'), 'utf8')
-  const known = (JSON.parse(ids) as { id: string }[]).map((c) => c.id)
+  // Category ids straight from the question files, so this runs before the packs are built
+  const qdir = join(__dirname, '..', 'questions')
+  const known = readdirSync(qdir).filter((f) => f.endsWith('.txt')).map((f) => parsePack(readFileSync(join(qdir, f), 'utf8'), f).meta.id as string)
   it('the built-in nights are valid', () => {
     expect(checkNights(JSON.parse(readFileSync(join(__dirname, '..', 'questions', 'nights.json'), 'utf8')), known)).toEqual([])
   })
