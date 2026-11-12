@@ -202,7 +202,7 @@ function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings;
         </div>
         <div className="scores">
           {game.teams.map((tm, i) => (
-            <div className={`team${tm.score < 0 ? ' neg' : ''}`} key={i} data-aud-team={i}>
+            <div className={`team${tm.score < 0 ? ' neg' : ''}${tm.score > 0 && tm.score === Math.max(...game.teams.map((x) => x.score)) ? ' lead' : ''}`} key={i} data-aud-team={i}>
               <b>{tm.name}</b>
               <span>{num(tm.score, lang)}</span>
             </div>

@@ -171,7 +171,7 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
         </div>
         <div className="scores">
           {game.teams.map((tm, i) => (
-            <div className={`team${tm.score < 0 ? ' neg' : ''}`} key={i} data-team={i}>
+            <div className={`team${tm.score < 0 ? ' neg' : ''}${tm.score > 0 && tm.score === Math.max(...game.teams.map((x) => x.score)) ? ' lead' : ''}`} key={i} data-team={i}>
               <b>{tm.name}</b>
               <span>{num(tm.score, lang)}</span>
             </div>
