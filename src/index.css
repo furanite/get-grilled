@@ -886,3 +886,9 @@ textarea.input{resize:vertical;min-height:44px}
 .q-secs .input{padding-block:6px;width:auto}
 .q-secs-pill{font-size:11px;padding:2px 8px;white-space:nowrap}
 :root[data-reduce-fx="on"] .game-clock{animation:none}
+
+/* Islamic site: Qur'anic and other Arabic text in clues and answers uses Scheherazade New (SIL), which draws every
+   Uthmani mark (sukun, small letters, pause marks). Latin text and ﷺ keep their own fonts. */
+@font-face{font-family:'GG Quran';src:url('../node_modules/@fontsource/scheherazade-new/files/scheherazade-new-arabic-400-normal.woff2') format('woff2');font-weight:400;font-display:swap;unicode-range:U+0600-06FF,U+0750-077F,U+08A0-08FF,U+FB50-FDF9,U+FDFB-FDFF,U+FE70-FEFF}
+html[data-set="islamic"] .q,html[data-set="islamic"] .answer{font-family:'GG Quran',var(--fd)}
+html[data-set="islamic"] .q{line-height:1.6}

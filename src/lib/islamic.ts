@@ -606,7 +606,7 @@ const CAT_ICON: Record<string, string> = {
   // groups
   quran: I.book, hadith: I.scroll, aqidah: I.star, fiqh: I.scales, prophets: I.lamp, arabic: I.quill, tazkiyah: I.heart, islamichistory: I.minaret, kids: I.crescent,
   // Islamic categories
-  'isl-quran': I.book, 'isl-tajwid': I.tajwid, 'isl-tafsir': I.tafsir,
+  'isl-quran': I.book, 'isl-ayah': I.book, 'isl-tajwid': I.tajwid, 'isl-tafsir': I.tafsir,
   'isl-hadith': I.scroll, 'isl-mustalah': I.chain,
   'isl-iman': I.star, 'isl-akhirah': I.gate,
   'isl-prophets-early': I.ship, 'isl-prophets-later': I.sea, 'isl-seerah-makkah': I.cave, 'isl-seerah-madinah': I.palm,
