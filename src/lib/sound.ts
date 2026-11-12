@@ -1,4 +1,6 @@
 import type { ThemeId } from './types'
+import { ISLAMIC_SET } from './edition'
+import { islamicFx, islamicTitleTune, suspense as makeSuspense, type Kit } from './sound-isl'
 
 /**
  * Every sound is made in the browser with Web Audio: no audio files to download or license.
@@ -12,6 +14,7 @@ let verb: ConvolverNode | null = null
 let enabled = true
 let pendingTune: { theme: ThemeId; at: number } | null = null
 let tuneBus: GainNode | null = null
+let islamicTune: { stop: (fade?: number) => void } | null = null
 
 function audio(): AudioContext | null {
   if (typeof window === 'undefined') return null
@@ -58,6 +61,7 @@ export function setSoundEnabled(on: boolean) {
   enabled = on
   if (!on) {
     stopTune()
+    stopSuspense(0.1)
     pendingTune = null
   }
 }
@@ -166,7 +170,8 @@ function synth(c: AudioContext, midi: number, t: number, d = 1.2, g = 0.08, out?
 type Voice = (c: AudioContext, midi: number, t: number, d?: number, g?: number, out?: AudioNode) => void
 
 /** Title tune: a short, calm phrase in each theme's own colour. Midi notes and start times. */
-const TUNES: Record<ThemeId, { voice: Voice; notes: [number, number, number?][]; pad: number[] }> = {
+// The Islamic site has its own title tunes in sound-isl.ts.
+const TUNES: Partial<Record<ThemeId, { voice: Voice; notes: [number, number, number?][]; pad: number[] }>> = {
   // [midi, start, length]
   amethyst: { voice: bell, notes: [[67, 0], [72, 0.4], [76, 0.8], [74, 1.3], [79, 1.7, 2.6], [72, 2.6], [76, 3.0, 2.8]], pad: [48, 55, 64] },
   emerald: { voice: bell, notes: [[69, 0], [72, 0.45], [76, 0.9], [74, 1.35], [72, 1.8], [69, 2.25, 2.4], [76, 2.9, 2.8]], pad: [45, 52, 60] },
@@ -196,11 +201,17 @@ export function titleTune(theme: ThemeId) {
     return
   }
   stopTune()
+  if (ISLAMIC_SET) {
+    // Islamic site: a daff, breeze and songbird tune in the theme's nasheed tradition (approved 2026-11-12)
+    islamicTune = islamicTitleTune({ c, out: master!, verb }, theme)
+    return
+  }
+  const tune = TUNES[theme]
+  if (!tune) return
   const bus = c.createGain()
   bus.gain.value = 1
   bus.connect(master!)
   tuneBus = bus
-  const tune = TUNES[theme]
   for (const [m, t, d] of tune.notes) tune.voice(c, m, 0.15 + t, d ?? 1.5, undefined, bus)
   // A quiet pad underneath
   for (const m of tune.pad) tone(c, { f: hz(m), t: 0.1, d: 5.6, g: 0.035, a: 1.2, type: 'triangle', lp: 900, out: bus })
@@ -209,6 +220,8 @@ export function titleTune(theme: ThemeId) {
 /** Fades the title tune out, for example when the host leaves the title screen. */
 export function stopTune() {
   pendingTune = null
+  islamicTune?.stop()
+  islamicTune = null
   if (!tuneBus || !ctx) return
   const g = tuneBus.gain
   g.cancelScheduledValues(ctx.currentTime)
@@ -355,4 +368,53 @@ const fx = {
   },
 }
 
-export const sfx = fx
+/** Where the Islamic sounds play, once audio is ready. */
+export function soundKit(): Kit | null {
+  const c = ready()
+  return c ? { c, out: master!, verb } : null
+}
+const withKit = (f: (k: Kit) => void) => () => {
+  const k = soundKit()
+  if (k) f(k)
+}
+
+let suspenseNow: { stop: (fade?: number) => void } | null = null
+/** A quiet, quickening heartbeat on the daff while a clue is open (Islamic site only). */
+export function suspense() {
+  if (!ISLAMIC_SET) return
+  stopSuspense(0.1)
+  const k = soundKit()
+  if (k) suspenseNow = makeSuspense(k)
+}
+export function stopSuspense(fade = 0.25) {
+  suspenseNow?.stop(fade)
+  suspenseNow = null
+}
+
+/** The Islamic site: breeze, local birds and the daff in place of the instruments. */
+const islamic: typeof fx = {
+  open: withKit(islamicFx.open),
+  golden: withKit(islamicFx.golden),
+  reveal: () => {
+    stopSuspense(0.15)
+    withKit(islamicFx.reveal)()
+  },
+  right: withKit(islamicFx.right),
+  wrong: withKit(islamicFx.wrong),
+  tick: (final = false) => withKit((k) => islamicFx.tick(k, final))(),
+  timeUp: withKit(islamicFx.timeUp),
+  soft: withKit(islamicFx.soft),
+  start: () => {
+    stopTune()
+    withKit(islamicFx.start)()
+  },
+  win: withKit(islamicFx.win),
+  streak: withKit(islamicFx.streak),
+  steal: withKit(islamicFx.steal),
+  crowd: withKit(islamicFx.crowd),
+  applause: withKit(islamicFx.applause),
+  lightning: withKit(islamicFx.lightning),
+  final: withKit(islamicFx.final),
+}
+
+export const sfx = ISLAMIC_SET ? islamic : fx

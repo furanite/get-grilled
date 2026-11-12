@@ -3,29 +3,40 @@
 //   id: statics
 //   name: Statics
 //   nameAr: الاستاتيكا
-//   group: engineering   (one of engineering, cces, general)
+//   group: engineering   (see GROUPS)
 //   ## 100
 //   Clue text :: Answer text
+//   Clue text :: Answer text || H: Source   (source tag, required in Islamic and kids groups)
 //   Clue with a picture {img:gate-and.svg} :: Answer   (picture in questions/img/, copied to public/packs/img/)
 //   ## 200 ...
+// Source tags: H = historical or sourced fact (needs a source), D = dramatised, F = fictional.
+// A "?" after the letter (H?: ...) marks a fact still to be checked: it is left out of the
+// game and listed in questions/TO-VERIFY.md until the "?" is removed.
 // Lines starting with # (but not ##) are comments. Exits non-zero on any problem.
 // Arabic: questions/ar/<same file name> has the same ## headings and one
 // "ClueAr :: AnswerAr" line per question, in the same order as the English file.
-import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync, cpSync } from 'node:fs'
+import { toSigns } from './signs.mjs'
+import { isMadhhabFile, schoolsOf } from './schools.mjs'
+import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync, rmSync, cpSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 const srcDir = join(root, 'questions')
 const outDir = join(root, 'public', 'packs')
+const reviewOut = join(root, 'public', 'review')
+const reviewsDir = join(root, 'reviews')
 const LEVELS = ['100', '200', '300', '400', '500']
-export const GROUPS = ['engineering', 'cces', 'general']
+export const GROUPS = ['engineering', 'cces', 'general', 'quran', 'hadith', 'aqidah', 'fiqh', 'prophets', 'arabic', 'tazkiyah', 'islamichistory', 'kids']
+// Religious groups: every line needs a source tag, and the app plays these clues without spins or shakes.
+export const RESPECT_GROUPS = ['quran', 'hadith', 'aqidah', 'fiqh', 'prophets', 'arabic', 'tazkiyah', 'islamichistory', 'kids']
 const MIN = Number(process.env.MIN_PER_LEVEL ?? 1)
 
 export function parsePack(text, file = 'pack') {
   const errors = []
   const meta = {}
   const levels = LEVELS.map(() => [])
+  const unchecked = []
   let cur = -1
   text.split(/\r?\n/).forEach((raw, i) => {
     const line = raw.trim()
@@ -40,7 +51,9 @@ export function parsePack(text, file = 'pack') {
     const m = /^(id|name|nameAr|group):\s*(.+)$/.exec(line)
     if (m && cur < 0) { meta[m[1]] = m[2].trim(); return }
     if (cur < 0) { errors.push(`${at} question before any "## level" heading`); return }
-    const parts = line.split(/(?<=^|\s)::(?=\s|$)/)
+    const [body, tagText, extra] = line.split(/\s\|\|\s/)
+    if (extra !== undefined) { errors.push(`${at} more than one " || " source tag`); return }
+    const parts = body.split(/(?<=^|\s)::(?=\s|$)/)
     if (parts.length !== 2) { errors.push(`${at} needs exactly one " :: " between clue and answer`); return }
     let [q, a] = parts.map((s) => s.trim())
     let img
@@ -52,8 +65,21 @@ export function parsePack(text, file = 'pack') {
     } else if (/\{img:/.test(q)) errors.push(`${at} picture must be written {img:name.svg} at the end of the clue`)
     if (!q || !a) { errors.push(`${at} empty clue or answer`); return }
     if (q.length > 260) errors.push(`${at} clue is longer than 260 characters`)
-    if (a.length > 80) errors.push(`${at} answer is longer than 80 characters`)
-    levels[cur].push(img ? { q, a, img, at } : { q, a, at })
+    if (a.length > 110) errors.push(`${at} answer is longer than 110 characters`)
+    const item = img ? { q, a, img, at } : { q, a, at }
+    if (tagText !== undefined) {
+      const t = /^([HDF])(\?)?(?::\s*(.*))?$/.exec(tagText.trim())
+      if (!t) { errors.push(`${at} source tag must look like "H: source", "D: note" or "F"`); return }
+      if (t[1] === 'H' && !t[3]?.trim()) { errors.push(`${at} historical tag needs a source after "H:"`); return }
+      item.kind = t[1]
+      if (t[3]?.trim()) item.src = t[3].trim()
+      if (t[2]) { unchecked.push({ ...item, level: LEVELS[cur] }); return }
+    } else if (RESPECT_GROUPS.includes(meta.group)) {
+      errors.push(`${at} needs a source tag (" || H: source", " || D" or " || F")`)
+      return
+    }
+    if (isMadhhabFile(meta.id, meta.group)) { const sch = schoolsOf(q); if (sch) item.sch = sch }
+    levels[cur].push(item)
   })
   if (!meta.id || !/^[a-z0-9-]+$/.test(meta.id)) errors.push(`${file}: missing or invalid "id:"`)
   if (!meta.name) errors.push(`${file}: missing "name:"`)
@@ -68,7 +94,8 @@ export function parsePack(text, file = 'pack') {
       else seen.set(key, at)
     })
   })
-  return { meta, levels: levels.map((l) => l.map(({ q, a, img }) => (img ? { q, a, img } : { q, a }))), errors }
+  const clean = ({ q, a, kind, src, img, sch }) => ({ q: toSigns(q), a: toSigns(a), ...(kind ? { kind } : {}), ...(src ? { src } : {}), ...(img ? { img } : {}), ...(sch ? { sch } : {}) })
+  return { meta, levels: levels.map((l) => l.map(clean)), unchecked: unchecked.map(({ level, at, ...x }) => ({ level, at, ...clean(x) })), errors }
 }
 
 const digits = (s) => (s.replace(/[\u0660-\u0669]/g, (d) => String(d.charCodeAt(0) - 0x660)).match(/\d+/g) ?? []).sort().join(',')
@@ -106,8 +133,42 @@ export function mergeArabic(levels, text, file = 'ar') {
   return { levels: out, errors }
 }
 
+/** A short stable id for a question: changes whenever the clue or answer changes, so edited lines need a fresh review. */
+export function questionId(packId, q, a) {
+  let h = 0x811c9dc5
+  for (const ch of `${packId}|${q}|${a}`) {
+    h ^= ch.codePointAt(0)
+    h = Math.imul(h, 0x01000193) >>> 0
+  }
+  return h.toString(16).padStart(8, '0')
+}
+
+/**
+ * Scholar reviews: each file in reviews/ is a JSON export from the app's Scholar review page:
+ * { reviewer, date, verdicts: { [questionId]: { correct: 'ok'|'issue', adab: 'ok'|'issue', note?, fix? } } }.
+ * Returns, per question id, the list of reviews.
+ */
+export function loadReviews(dir = reviewsDir) {
+  const byId = new Map()
+  if (!existsSync(dir)) return byId
+  for (const f of readdirSync(dir).filter((x) => x.endsWith('.json')).sort()) {
+    let data
+    try { data = JSON.parse(readFileSync(join(dir, f), 'utf8')) } catch { console.error(`reviews/${f}: not valid JSON, skipped`); continue }
+    const reviewer = String(data.reviewer ?? f).slice(0, 80)
+    for (const [id, v] of Object.entries(data.verdicts ?? {})) {
+      if (!v || typeof v !== 'object') continue
+      const r = { reviewer, date: String(data.date ?? ''), correct: v.correct === 'issue' ? 'issue' : v.correct === 'ok' ? 'ok' : undefined, adab: v.adab === 'issue' ? 'issue' : v.adab === 'ok' ? 'ok' : undefined, note: v.note ? String(v.note).slice(0, 1000) : undefined, fix: v.fix ? String(v.fix).slice(0, 400) : undefined }
+      if (!byId.has(id)) byId.set(id, [])
+      byId.get(id).push(r)
+    }
+  }
+  return byId
+}
+
+const flagged = (rs) => (rs ?? []).some((r) => r.correct === 'issue' || r.adab === 'issue')
+
 // Themed nights: questions/nights.json, a list of ready-made game setups.
-//   { "id", "name", "nameAr"?, "about", "aboutAr"?, "cats": [1 to 6 category ids], "teams"?: [2 to 4 names], "teamsAr"?,
+//   { "id", "name", "nameAr"?, "about", "aboutAr"?, "sign"? (one honorific sign shown in place of the icon), "cats": [1 to 6 category ids], "teams"?: [2 to 4 names], "teamsAr"?,
 //     "extras"?: { "golden": 0-3, "steal": 0-3, "crowd": 0-2, "streak", "comeback", "lightning", "final": true/false } }
 export function checkNights(nights, ids) {
   const errors = []
@@ -124,6 +185,7 @@ export function checkNights(nights, ids) {
     if (!Array.isArray(n.cats) || n.cats.length < 1 || n.cats.length > 6) errors.push(`${at} needs 1 to 6 "cats"`)
     else for (const c of n.cats) if (!ids.includes(c)) errors.push(`${at} unknown category "${c}"`)
     for (const k of ['teams', 'teamsAr']) if (n[k] !== undefined && (!Array.isArray(n[k]) || n[k].length < 2 || n[k].length > 4 || n[k].some((t) => typeof t !== 'string' || !t.trim() || t.length > 24))) errors.push(`${at} "${k}" must be 2 to 4 names of up to 24 characters`)
+    if (n.sign !== undefined && !/^[\uFD40-\uFD4F\uFDFA]$/.test(n.sign)) errors.push(`${at} "sign" must be one honorific sign such as ﷺ`)
     const x = n.extras ?? {}
     for (const [k, max] of [['golden', 3], ['steal', 3], ['crowd', 2]]) if (x[k] !== undefined && !(Number.isInteger(x[k]) && x[k] >= 0 && x[k] <= max)) errors.push(`${at} extras.${k} must be 0 to ${max}`)
     for (const k of ['streak', 'comeback', 'lightning', 'final']) if (x[k] !== undefined && typeof x[k] !== 'boolean') errors.push(`${at} extras.${k} must be true or false`)
@@ -132,14 +194,22 @@ export function checkNights(nights, ids) {
 }
 
 function main() {
+  rmSync(outDir, { recursive: true, force: true })
   mkdirSync(outDir, { recursive: true })
   if (existsSync(join(srcDir, 'img'))) cpSync(join(srcDir, 'img'), join(outDir, 'img'), { recursive: true })
+  rmSync(reviewOut, { recursive: true, force: true })
+  mkdirSync(reviewOut, { recursive: true })
+  const reviews = loadReviews()
+  const reviewIndex = []
+  const status = []
   const files = readdirSync(srcDir).filter((f) => f.endsWith('.txt')).sort()
   const index = []
+  const review = []
   let errors = []
   for (const f of files) {
-    let { meta, levels, errors: errs } = parsePack(readFileSync(join(srcDir, f), 'utf8'), f)
+    let { meta, levels, unchecked, errors: errs } = parsePack(readFileSync(join(srcDir, f), 'utf8'), f)
     errors = errors.concat(errs)
+    if (unchecked.length) review.push({ name: meta.name, file: f, items: unchecked })
     if (errs.length) continue
     let arCount = 0
     const arPath = join(srcDir, 'ar', f)
@@ -150,9 +220,28 @@ function main() {
       levels = m.levels
       arCount = levels.reduce((s, l) => s + l.length, 0)
     }
-    const pack = { id: meta.id, name: meta.name, nameAr: meta.nameAr, group: meta.group, levels }
+    const respect = RESPECT_GROUPS.includes(meta.group) || undefined
+    if (respect) {
+      // The scholar review list holds every line, including ones held back, with what reviewers said so far.
+      const items = []
+      const add = (level, x, held) => {
+        const id = questionId(meta.id, x.q, x.a)
+        const rs = reviews.get(id) ?? []
+        items.push({ id, level, q: x.q, a: x.a, kind: x.kind, src: x.src, ...(held ? { held } : {}), ...(rs.length ? { reviews: rs } : {}) })
+        if (rs.length) status.push({ pack: meta.name, file: f, level, q: x.q, a: x.a, id, rs })
+      }
+      levels.forEach((lvl, li) => lvl.forEach((x) => add(LEVELS[li], x, flagged(reviews.get(questionId(meta.id, x.q, x.a))) ? 'flagged' : undefined)))
+      unchecked.forEach((x) => add(x.level, x, 'unchecked'))
+      writeFileSync(join(reviewOut, `${meta.id}.json`), JSON.stringify({ id: meta.id, name: meta.name, group: meta.group, items }))
+      reviewIndex.push({ id: meta.id, name: meta.name, group: meta.group, total: items.length })
+      // A line a scholar flagged for correctness or adab stays out of the game until the owner fixes or clears it.
+      levels = levels.map((lvl) => lvl.filter((x) => !flagged(reviews.get(questionId(meta.id, x.q, x.a)))))
+    }
+    // PACK_EDITION=islamic builds a site with only the Islamic and Kids collections (used by the Ilm Munfasah site).
+    if (process.env.PACK_EDITION === 'islamic' && !respect) continue
+    const pack = { id: meta.id, name: toSigns(meta.name), nameAr: meta.nameAr, group: meta.group, respect, levels }
     writeFileSync(join(outDir, `${meta.id}.json`), JSON.stringify(pack))
-    index.push({ id: meta.id, name: meta.name, nameAr: meta.nameAr, group: meta.group, counts: levels.map((l) => l.length) })
+    index.push({ id: meta.id, name: toSigns(meta.name), nameAr: meta.nameAr, group: meta.group, counts: levels.map((l) => l.length) })
     console.log(`${meta.id.padEnd(18)} ${levels.map((l) => String(l.length).padStart(4)).join(' ')}  total ${levels.reduce((s, l) => s + l.length, 0)}  arabic ${arCount}`)
   }
   const ids = index.map((c) => c.id)
@@ -163,15 +252,49 @@ function main() {
     process.exit(1)
   }
   writeFileSync(join(outDir, 'index.json'), JSON.stringify(index))
-  const nightsPath = join(srcDir, 'nights.json')
+  writeFileSync(join(reviewOut, 'index.json'), JSON.stringify(reviewIndex))
+  writeFileSync(join(srcDir, 'REVIEW-STATUS.md'), reviewStatusMarkdown(status))
+  writeFileSync(join(srcDir, 'TO-VERIFY.md'), reviewMarkdown(review))
+  const n = review.reduce((s, r) => s + r.items.length, 0)
+  if (n) console.log(`\n${n} question(s) marked "?" are held back from the game; see questions/TO-VERIFY.md`)
+  // The Islamic site has its own themed nights (its packs hold only the Islamic and Kids collections).
+  const nightsPath = join(srcDir, process.env.PACK_EDITION === 'islamic' ? 'nights-islamic.json' : 'nights.json')
   const nights = existsSync(nightsPath) ? JSON.parse(readFileSync(nightsPath, 'utf8')) : []
   const nightErrors = checkNights(nights, ids)
   if (nightErrors.length) {
     console.error(nightErrors.join('\n'))
     process.exit(1)
   }
-  writeFileSync(join(outDir, 'nights.json'), JSON.stringify(nights))
+  writeFileSync(join(outDir, 'nights.json'), JSON.stringify(nights, (k, v) => (typeof v === 'string' ? toSigns(v) : v)))
   console.log(`${nights.length} themed nights`)
+}
+
+// What the scholars said, for the owner: flagged lines first, then approvals.
+export function reviewStatusMarkdown(status) {
+  const lines = ['# Scholar review status', '', 'Built from the files in `reviews/` (exports from the Scholar review page). This file is rewritten by `npm run packs`.', 'A line flagged for correctness or adab by any reviewer is held out of the game until it is fixed (which gives it a new id) or the review file is updated.', '']
+  const bad = status.filter((x) => flagged(x.rs))
+  const good = status.filter((x) => !flagged(x.rs))
+  lines.push(`Reviewed lines: ${status.length}. Flagged: ${bad.length}. Approved: ${good.length}.`, '')
+  if (bad.length) lines.push('## Flagged', '')
+  for (const x of bad) {
+    lines.push(`- **${x.pack}** (questions/${x.file}), ${x.level}, id ${x.id}: ${x.q} **Answer:** ${x.a}`)
+    for (const r of x.rs) lines.push(`  - ${r.reviewer}${r.date ? ` (${r.date.slice(0, 10)})` : ''}: correctness ${r.correct ?? 'not checked'}, adab ${r.adab ?? 'not checked'}${r.note ? `. Note: ${r.note}` : ''}${r.fix ? `. Suggested: ${r.fix}` : ''}`)
+  }
+  if (good.length) lines.push('', '## Approved', '')
+  for (const x of good) lines.push(`- **${x.pack}**, ${x.level}: ${x.q} (${x.rs.map((r) => r.reviewer).join(', ')})`)
+  return lines.join('\n') + '\n'
+}
+
+// The list of held-back questions, for the owner to check.
+export function reviewMarkdown(review) {
+  const lines = ['# Questions to verify', '', 'These questions are marked with "?" in their source tag, so the game leaves them out.', 'Check each one; then delete the "?" (keep it in the game) or fix or delete the line.', 'This file is rewritten by `npm run packs`.', '']
+  if (!review.length) lines.push('Nothing to verify.')
+  for (const r of review) {
+    lines.push(`## ${r.name} (questions/${r.file})`, '')
+    for (const x of r.items) lines.push(`- **${x.level}**, line ${x.at.split(':').pop()}: ${x.q} **Answer:** ${x.a}${x.src ? ` _(Source: ${x.src})_` : ''}`)
+    lines.push('')
+  }
+  return lines.join('\n')
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) main()

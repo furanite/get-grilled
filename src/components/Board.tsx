@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react'
+import Source from './Source'
 import { CatIcon } from './Brand'
 import type { Game, Lang } from '../lib/types'
 import { VALUES } from '../lib/types'
@@ -12,7 +13,8 @@ import { CONSENT_TEXT } from '../lib/legal'
 import { HOST_EDITION, type Live } from '../lib/edition'
 import { diagramSrc } from '../lib/diagram'
 import { GameClock, TimerBar, type Clock } from './Timer'
-import { sfx } from '../lib/sound'
+import { sfx, stopSuspense, suspense } from '../lib/sound'
+import { qLen } from '../lib/qlen'
 
 interface Props {
   t: Strings
@@ -319,11 +321,31 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
       setPhase('open')
       Object.assign(card.style, { left: (innerWidth - W) / 2 + 'px', top: (innerHeight - H) / 2 + 'px', width: W + 'px', height: H + 'px' })
     })
-    if (clue.golden) {
+    if (clue.golden && !cat.respect) {
       setTimeout(() => burst(innerWidth / 2, innerHeight / 2, 46, 260), 500)
       sfx.golden()
     }
-  }, [open.el, clue.golden, clue.img])
+  }, [open.el, clue.golden, clue.img, cat.respect])
+
+  // A long clue, answer or source makes the card taller (up to the window) instead of spilling or hiding the buttons.
+  useEffect(() => {
+    const fit = () => {
+      const card = ref.current
+      const inner = card?.firstElementChild as HTMLElement | null
+      if (!card || !inner) return
+      const cur = card.getBoundingClientRect().height
+      const need = inner.scrollHeight
+      if (need <= cur + 1) return
+      const H = Math.min(need, innerHeight - 16)
+      Object.assign(card.style, { top: (innerHeight - H) / 2 + 'px', height: H + 'px' })
+    }
+    const ids = [setTimeout(fit, 720), setTimeout(fit, 1400)]
+    addEventListener('resize', fit)
+    return () => {
+      ids.forEach(clearTimeout)
+      removeEventListener('resize', fit)
+    }
+  }, [revealed, stealer, wrong.length])
 
   // The countdown starts once the card has finished opening.
   useEffect(() => {
@@ -331,6 +353,16 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
     const id = setTimeout(() => setClock({ start: Date.now(), total: timerSecs }), 650)
     return () => clearTimeout(id)
   }, [timerSecs])
+
+  // A quiet heartbeat on the daff until the answer is shown (Islamic site only).
+  useEffect(() => {
+    if (revealed) return
+    const id = setTimeout(suspense, 700)
+    return () => {
+      clearTimeout(id)
+      stopSuspense()
+    }
+  }, [revealed])
 
   const stopTimer = () => setClock((c) => (c && c.stoppedAt === undefined ? { ...c, stoppedAt: Math.min(Date.now(), c.start + c.total * 1000) } : c))
 
@@ -345,8 +377,8 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
     setRevealed(true)
     stopTimer()
     sfx.reveal()
-    setTimeout(() => burstAt(document.getElementById('answer'), 14, 110), 350)
-  }, [revealed])
+    if (!cat.respect) setTimeout(() => burstAt(document.getElementById('answer'), 14, 110), 350)
+  }, [revealed, cat.respect])
 
   const close = useCallback(
     (used: boolean) => {
@@ -395,7 +427,7 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
   return (
     <>
       <div className={`scrim${phase === 'open' ? ' on' : ''}`} onClick={() => close(stealer !== null)} />
-      <div ref={ref} className={`card${phase === 'open' ? ' open' : ''}${phase === 'closing' ? ' closing' : ''}${clue.golden && phase === 'open' ? ' golden' : ''}`} role="dialog" aria-modal="true" aria-label={cat.name} data-testid="clue">
+      <div ref={ref} className={`card${phase === 'open' ? ' open' : ''}${phase === 'closing' ? ' closing' : ''}${clue.golden && phase === 'open' ? ' golden' : ''}${cat.respect ? ' calm' : ''}`} role="dialog" aria-modal="true" aria-label={cat.name} data-testid="clue">
         <div className="card-in">
           <div className="meta">
             <span className="meta-cat"><CatIcon id={cat.id} />{lang === 'ar' && cat.nameAr ? cat.nameAr : cat.name}</span>
@@ -411,7 +443,7 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
               {clue.special === 'steal' ? t.stealHelp : t.crowdHelp}
             </p>
           )}
-          <p className="q" data-testid="question" dir="auto">{q}</p>
+          <p className="q" data-testid="question" dir="auto" data-len={qLen(q)}>{q}</p>
           {clue.img && (
             <div className="q-fig">
               <img className="q-img" src={diagramSrc(clue.img)} alt={t.diagramAlt} data-testid="question-img" />
@@ -419,6 +451,7 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
           )}
           <div className={`answer${revealed ? ' show' : HOST_EDITION ? ' peek' : ''}`} dir="auto" id="answer" aria-hidden={!revealed && !HOST_EDITION} data-peek={t.hostOnly} data-testid="answer">
             {a}
+            <Source t={t} q={clue} />
           </div>
           {timerSecs > 0 && <TimerBar clock={clock} total={timerSecs} lang={lang} timeUpText={t.timeUp} onTick={(n) => (n === 0 ? sfx.timeUp() : sfx.tick(n === 1))} />}
           {stealer !== null && (

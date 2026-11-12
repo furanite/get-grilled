@@ -1,59 +1,60 @@
-import { describe, expect, it } from 'vitest'
-import { existsSync, readdirSync, readFileSync } from 'node:fs'
-import { join } from 'node:path'
+import { describe, it, expect } from 'vitest'
+import { readFileSync } from 'node:fs'
+// @ts-expect-error plain JS module
+import { checkFiles, checkText } from '../scripts/honorifics.mjs'
+// @ts-expect-error plain JS module
+import { toSigns } from '../scripts/signs.mjs'
 
-// The owner's rule: every mention of a blessed religious figure carries its honorific.
-// The Prophet: "our Beloved and our master, the Prophet Muhammad ﷺ" (Arabic: حبيبنا وسيدنا النبي محمد ﷺ).
-// The owner asked for the signs, in English and Arabic alike (shown by the bundled honorifics font):
-// other prophets ﵇ (plural ﵈), Companions ﵁ / ﵂ (plural ﵃), righteous scholars and rulers ﵀ (plural ﵏).
-const dir = join(__dirname, '..', 'questions')
-const lines = (sub: string) =>
-  readdirSync(join(dir, sub))
-    .filter((f) => f.endsWith('.txt'))
-    .flatMap((f) => readFileSync(join(dir, sub, f), 'utf8').split('\n').map((text, i) => ({ at: `${sub}${f}:${i + 1}`, text })))
-const en = lines('')
-const ar = existsSync(join(dir, 'ar')) ? lines('ar/') : []
+describe('honorifics (the owner\'s rule for every blessed religious figure)', () => {
+  it('every Islamic and Kids clue, answer and category name carries them', () => {
+    expect(checkFiles('questions')).toEqual([])
+  })
 
-const COMPANIONS_EN = ['Abu Bakr', 'Umar ibn al-Khattab', 'Uthman ibn Affan', 'Ali ibn Abi Talib', 'Muawiya', 'Khalid ibn al-Walid', 'Amr ibn al-As', 'Salman al-Farisi', "Ka'b ibn Zuhayr", 'Hassan ibn Thabit']
-const COMPANIONS_AR = ['أبو بكر الصديق', 'أبي بكر', 'عمر بن الخطاب', 'عثمان بن عفان', 'علي بن أبي طالب', 'معاوية بن أبي سفيان', 'خالد بن الوليد', 'عمرو بن العاص', 'سلمان الفارسي', 'كعب بن زهير', 'حسان بن ثابت']
-const esc = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+  it('the Islamic themed nights carry them', () => {
+    const nights = readFileSync('questions/nights-islamic.json', 'utf8')
+    const bad: string[] = []
+    JSON.parse(nights, (_k, v) => {
+      if (typeof v === 'string') bad.push(...checkText(v).map((p: string) => `${p} | ${v}`))
+      return v
+    })
+    expect(bad).toEqual([])
+  })
 
-describe('honorifics for blessed religious figures', () => {
-  it('the Prophet is always "our Beloved and our master, the Prophet Muhammad ﷺ" in English', () => {
-    for (const { at, text } of en) {
-      if (!/\bProphet\b/.test(text) || /"The Prophet"/.test(text)) continue
-      const others = text.replace(/our Beloved and our master, the Prophet Muhammad ﷺ/g, '')
-      // Any other "Prophet" must name another prophet with "peace be upon him"
-      if (/\bProphet\b/.test(others)) expect(/Prophet (Sulayman|Shu'ayb) [﵇﵈]/.test(others), at).toBe(true)
-    }
+  it('Blessed Mawlid Night comes first among the Islamic themed nights and shows the ﷺ sign (owner, 2026-11-12)', () => {
+    const nights = JSON.parse(readFileSync('questions/nights-islamic.json', 'utf8'))
+    expect(nights[0].id).toBe('mawlid-night')
+    expect(nights[0].sign).toBe('\uFDFA')
   })
-  it('the Prophet is always "حبيبنا وسيدنا النبي محمد ﷺ" in Arabic', () => {
-    for (const { at, text } of ar) {
-      for (const m of text.matchAll(/ﷺ/g)) {
-        const before = text.slice(0, m.index)
-        expect(/(حبيبنا وسيدنا النبي محمد|رسول الله) $/.test(before), at).toBe(true)
-      }
-      const rest = text.replace(/حبيبنا وسيدنا النبي محمد ﷺ/g, '').replace(/"النبي"/g, '')
-      for (const m of rest.matchAll(/(^|[\s(])النبي(?=[\s.،]|$)/g)) {
-        const after = rest.slice((m.index ?? 0) + m[0].length)
-        expect(/^ (سليمان|شعيب) [﵇﵈]/.test(after), at).toBe(true)
-      }
-    }
+
+  it('flags each kind of missing honorific', () => {
+    expect(checkText('The Prophet said this.')).not.toEqual([])
+    expect(checkText('The Prophet ﷺ said this.')).toEqual(['"our Beloved" missing before "Prophet"'])
+    expect(checkText('Our Beloved Prophet ﷺ said this.')).toEqual([])
+    expect(checkText('Musa (عليه السلام) spoke with Allah.')).toEqual(['"our master" missing before Musa'])
+    expect(checkText('Our master Musa spoke with Allah.')).not.toEqual([])
+    expect(checkText('Our master Musa (عليه السلام) spoke with Allah.')).toEqual([])
+    expect(checkText('Our master Musa ﵇ spoke with Allah.')).toEqual([])
+    expect(checkText("'Umar (رِضْوَانُ اللَّهِ عَلَيْهِ) said this.")).not.toEqual([])
+    expect(checkText("Our master 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِ) said this.")).toEqual([])
+    expect(checkText('Bilal gave the adhan.')).not.toEqual([])
+    expect(checkText('Imam al-Nawawi wrote it.')).not.toEqual([])
+    expect(checkText('Imam al-Nawawi رحمة الله عليه wrote it.')).toEqual([])
+    expect(checkText('The Companions gave.')).not.toEqual([])
+    expect(checkText('The Companions (رِضْوَانُ اللَّهِ عَلَيْهِمْ) gave.')).toEqual([])
+    expect(checkText('The Blessed Prophets are named.')).not.toEqual([])
+    expect(checkText('The angels wrote it.')).not.toEqual([])
   })
-  it('Companions carry ﵁ / ﵂ / ﵃', () => {
-    for (const { at, text } of en) for (const n of COMPANIONS_EN) for (const m of text.matchAll(new RegExp(esc(n) + "[\\w' -]*", 'g'))) {
-      if (n === 'Abu Bakr' && !/^Abu Bakr( al-Siddiq)?\b/.test(m[0])) continue
-      expect(/[﵁﵂﵃]/.test(text.slice(m.index ?? 0, (m.index ?? 0) + m[0].length + 3)), `${at}: ${n}`).toBe(true)
-    }
-    for (const { at, text } of ar) for (const n of COMPANIONS_AR) for (const m of text.matchAll(new RegExp(esc(n), 'g'))) {
-      expect(/^ [﵁﵂﵃]/.test(text.slice((m.index ?? 0) + n.length)), `${at}: ${n}`).toBe(true)
-    }
+
+  it('does not treat other people or words as blessed figures', () => {
+    expect(checkText('Mansa Musa made Hajj.')).toEqual([])
+    expect(checkText('The six throat letters: hamzah and ha.')).toEqual([])
+    expect(checkText('Surah Muhammad is the 47th surah.')).toEqual([])
+    expect(checkText('Every son of Adam makes mistakes.')).toEqual([])
+    expect(checkText("The tafsir by Isma'il Haqqi رحمة الله عليه.")).toEqual([])
   })
-  it('Umar ibn Abd al-Aziz carries ﵀', () => {
-    for (const { at, text } of en) if (text.includes('Umar ibn Abd al-Aziz')) expect(text, at).toContain('Umar ibn Abd al-Aziz ﵀')
-    for (const { at, text } of ar) if (text.includes('عمر بن عبد العزيز')) expect(text, at).toContain('عمر بن عبد العزيز ﵀')
-  })
-  it('no honorific is written out in words (the signs are used instead)', () => {
-    for (const { at, text } of [...en, ...ar]) expect(/may Allah (be pleased|have mercy)|peace be upon (him|them)\b(?! you)|رضي الله عن|رضوان الله|رحمه(م)? الله|عليه(م)? السلام|صلى الله عليه/.test(text), at).toBe(false)
+
+  it('packs show the honorific signs', () => {
+    expect(toSigns('Our master Musa (عليه السلام)')).toBe('Our master Musa ﵇')
+    expect(toSigns('The Blessed Prophets (عليهم السلام)')).toBe('The Blessed Prophets ﵈')
   })
 })

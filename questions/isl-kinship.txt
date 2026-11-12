@@ -1,0 +1,228 @@
+id: isl-kinship
+name: Fiqh: Kinship and family
+nameAr: الفقه: صلة الرحم والأسرة
+group: fiqh
+# Fiqh files keep to points the four Sunni schools agree on. Where they differ, the clue names the school.
+
+## 100
+Keeping the ties of kinship. :: Silat al-rahim || H: Sahih al-Bukhari
+Being good and dutiful to parents. :: Birr al-walidayn || H: Qur'an 17:23
+The word "rahim" (womb, kinship) comes from the same root as this Name of Allah. :: al-Rahman || H: Sahih al-Bukhari (hadith qudsi)
+Our Beloved Prophet ﷺ said whoever wants more provision and a longer life should do this (paraphrased). :: Keep ties of kinship || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ said the one who cuts ties of kinship will not enter this (paraphrased). :: Paradise || H: Sahih al-Bukhari
+Marriage in Arabic. :: Nikah || H: Qur'an 4:3
+The gift the husband must give the wife at marriage. :: Mahr (dowry) || H: Qur'an 4:4
+The wedding feast. :: Walimah || H: Sahih al-Bukhari
+Our Beloved Master ﷺ said "the best of you are the best to" these (paraphrased). :: Their families || H: Sunan al-Tirmidhi
+The verse "And We have enjoined on man goodness to his parents" (meaning); his mother carried him in this state. :: Weakness upon weakness || H: Qur'an 31:14
+Saying "uff" to parents is forbidden in this surah. :: Surah al-Isra' (17:23) || H: Qur'an 17:23
+The du'a for parents, "My Lord, have mercy on them as they raised me when I was small" (meaning), is in this surah. :: Surah al-Isra' (17:24) || H: Qur'an 17:24
+Orphans' wealth must be guarded until they reach this. :: Maturity (rushd) || H: Qur'an 4:6
+Our Beloved Prophet ﷺ said He ﷺ and the one who looks after an orphan will be in Paradise like these two. :: Two fingers held together || H: Sahih al-Bukhari
+A close relative one may never marry is called this. :: Mahram || H: Qur'an 4:23
+The verse that lists the women one may not marry. :: Qur'an 4:23 || H: Qur'an 4:23
+Relatives by breastfeeding become this, like blood relatives. :: Mahram (foster relatives) || H: Sahih al-Bukhari
+Giving a newborn's name on the seventh day with a sacrifice. :: 'Aqiqah || H: Sunan Abi Dawud; Sunan al-Tirmidhi
+Our Beloved Prophet ﷺ said the most beloved names to Allah are 'Abdullah and this. :: 'Abd al-Rahman || H: Sahih Muslim
+Visiting a sick relative is part of this. :: Silat al-rahim (and a right of every Muslim) || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ told a man who wished to go out to fight to stay with his mother, for Paradise is at this place. :: Her feet || H: Sunan al-Nasa'i
+After shirk, our Beloved Prophet ﷺ named this among the greatest sins. :: Disobeying parents ('uquq al-walidayn) || H: Sahih al-Bukhari
+"Lower to them the wing of" this, "out of mercy" (meaning), says Surah al-Isra'. :: Humility || H: Qur'an 17:24
+"Be grateful to Me and to" these (meaning), says Surah Luqman. :: Your parents || H: Qur'an 31:14
+Spouses are called this for each other in Surah al-Baqarah (meaning). :: A garment (libas) || H: Qur'an 2:187
+Allah placed between spouses these two things, says Surah al-Rum (meaning). :: Love and mercy (mawaddah wa rahmah) || H: Qur'an 30:21
+Our Beloved Master ﷺ said the best enjoyment of this world is this. :: A righteous wife || H: Sahih Muslim
+Our lady 'A'ishah ﵂ said that at home our Beloved Prophet ﷺ was busy doing this. :: Serving His ﷺ family || H: Sahih al-Bukhari
+The first wife of our Beloved Prophet ﷺ. :: Our lady Khadijah ﵂ || H: Sirat Ibn Hisham
+The daughter of our Beloved Prophet ﷺ of whom He ﷺ said "She is a part of me" (meaning). :: Our lady Fatimah ﵂ || H: Sahih al-Bukhari
+The cousin of our Beloved Prophet ﷺ who married our lady Fatimah ﵂. :: Our master 'Ali ibn Abi Talib ﵁ || H: Sahih al-Bukhari
+The two grandsons called the masters of the youth of Paradise. :: Our masters al-Hasan and al-Husayn (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: Sunan al-Tirmidhi
+The wet-nurse from Banu Sa'd who cared for our Beloved Prophet ﷺ as a baby. :: Halimah al-Sa'diyyah ﵂ || H: Sirat Ibn Hisham
+Our Beloved Prophet ﷺ said one who does not show mercy to our young and respect our elders is not this. :: One of us || H: Sunan al-Tirmidhi
+A proposal of marriage is called this. :: Khitbah || H: Sahih al-Bukhari
+This call was made in the right ear of our master al-Hasan ﵁ when he was born. :: The adhan || H: Sunan Abi Dawud; Sunan al-Tirmidhi
+The Qur'an says: "Fear Allah, through whom you ask of one another, and" these (meaning). :: The wombs (ties of kinship) || H: Qur'an 4:1
+Our Beloved Prophet ﷺ said the person most deserving of your good company is this one. :: Your mother || H: Sahih al-Bukhari
+"Live with them in" this (meaning), the Qur'an tells husbands. :: Kindness (ma'ruf) || H: Qur'an 4:19
+Our Beloved Prophet ﷺ had this many daughters. :: Four || H: Sirat Ibn Hisham
+Our Beloved Prophet ﷺ kissed our master al-Hasan ﵁, and told a man who never kissed his children: one who shows no mercy is not shown this. :: Mercy || H: Sahih al-Bukhari
+A Muslim may not cut off his brother for more than this long. :: Three days || H: Sahih al-Bukhari
+The family of our Beloved Prophet ﷺ is called this in Arabic. :: Ahl al-Bayt (رِضْوَانُ اللَّهِ عَلَيْهِمْ) || H: Qur'an 33:33
+
+## 200
+Our Beloved Master ﷺ said the one who keeps ties is not one who only returns visits, but one who does this (paraphrased). :: Keeps ties when others cut him off || H: Sahih al-Bukhari
+The man who said his relatives wronged him though he was good to them was told by our Beloved Prophet ﷺ it is as if he fed them this (paraphrased). :: Hot ashes || H: Sahih Muslim
+Spending on poor relatives earns this double reward. :: Charity and keeping ties || H: Sunan al-Tirmidhi; Sunan al-Nasa'i
+The parents of a non-Muslim are still owed this, by Qur'an 31:15. :: Kind company in this world || H: Qur'an 31:15
+A child may not obey parents in this. :: Disobeying Allah || H: Qur'an 31:15; Sahih al-Bukhari
+Our Beloved Prophet ﷺ said the pleasure of the Lord is in the pleasure of this (paraphrased). :: The father (parent) || H: Sunan al-Tirmidhi
+The man who wanted to join jihad was told by our Beloved Prophet ﷺ to go back and serve these. :: His parents || H: Sahih al-Bukhari
+Marriage needs offer and this. :: Acceptance (ijab and qabul) || H: Nur al-Idah; Matn Abi Shuja'
+Marriage needs this many witnesses. :: Two || H: Sunan al-Tirmidhi; al-Hidayah
+In the Shafi'i, Maliki and Hanbali schools, a woman's marriage needs this person. :: A wali (guardian) || H: Sunan Abi Dawud; Matn Abi Shuja'
+In the Hanafi school, an adult sane woman may do this. :: Contract her own marriage (to a suitable match) || H: al-Hidayah (al-Marghinani)
+In the Hanafi school, the least mahr. :: 10 dirhams || H: al-Hidayah (al-Marghinani)
+In the Shafi'i and Hanbali schools, the least mahr. :: No set minimum (anything of value) || H: Matn Abi Shuja'; Zad al-Mustaqni'
+The husband must provide this for his wife and children. :: Nafaqah (maintenance) || H: Qur'an 2:233; 65:7
+Full breastfeeding lasts this long, by the Qur'an. :: Two years || H: Qur'an 2:233
+The period a woman waits after divorce or her husband's death. :: 'Iddah || H: Qur'an 2:228
+The 'iddah of a widow who is not pregnant. :: 4 months and 10 days || H: Qur'an 2:234
+The 'iddah of a pregnant woman. :: Until she gives birth || H: Qur'an 65:4
+The surah named after divorce. :: Surah al-Talaq || H: The Mushaf (surah 65)
+Our Beloved Prophet ﷺ said marry the religious one, may your hands be in this (paraphrased). :: Dust (prosper) || H: Sahih al-Bukhari
+The Qur'an says: "His mother carried him with hardship and gave birth with hardship, and his carrying and weaning are" this long (meaning). :: Thirty months || H: Qur'an 46:15
+One of three men trapped in a cave was saved by waiting all night holding this for his sleeping parents. :: A bowl of milk || H: Sahih al-Bukhari
+A virgin's consent to marriage is shown by this, our Beloved Prophet ﷺ said. :: Her silence || H: Sahih al-Bukhari
+A woman married before must give consent by this. :: Saying it (in words) || H: Sahih al-Bukhari
+One may not propose to a woman when this has already happened. :: Another brother has proposed (and is not refused) || H: Sahih al-Bukhari
+The du'a for the newly married asks Allah to join them in this. :: Goodness (khayr) || H: Sunan al-Tirmidhi; Sunan Abi Dawud
+"That you may find" this "in them" (meaning), says Surah al-Rum of spouses. :: Tranquillity (sukun) || H: Qur'an 30:21
+When husband and wife fall out badly, the Qur'an says to send this from each family. :: An arbiter (hakam) || H: Qur'an 4:35
+In a dispute between spouses, "and" this "is best" (meaning). :: Reconciliation (sulh) || H: Qur'an 4:128
+Our Beloved Prophet ﷺ said whoever raises two girls until they come of age will be with Him ﷺ like this on the Day. :: Two fingers together || H: Sahih Muslim
+The man who said he had ten children and had never kissed one. :: al-Aqra' ibn Habis ﵁ || H: Sahih al-Bukhari
+Chewing a date and rubbing it on a newborn's palate is called this. :: Tahnik || H: Sahih al-Bukhari
+Circumcision is one of the five things of this. :: The fitrah || H: Sahih al-Bukhari
+The 'aqiqah for a boy is this many sheep, by the hadith. :: Two || H: Sunan Abi Dawud; Sunan al-Tirmidhi
+"Call them by" these "names" (meaning), the verse on adopted children says. :: Their fathers' || H: Qur'an 33:5
+Our Beloved Prophet ﷺ said that foster relations forbid in marriage what this forbids. :: Blood relations (lineage) || H: Sahih al-Bukhari
+A Muslim man may marry a chaste woman of these people, says Surah al-Ma'idah. :: The People of the Book || H: Qur'an 5:5
+A Muslim woman may marry only this kind of man. :: A Muslim || H: Qur'an 60:10; 2:221
+The son of our Beloved Prophet ﷺ born in Madinah to our lady Mariyah ﵂. :: Our master Ibrahim ﵇ || H: Sahih Muslim
+At the death of His ﷺ son our master Ibrahim ﵇, our Beloved Prophet ﷺ said the eye sheds tears and this grieves. :: The heart || H: Sahih al-Bukhari
+The Companion called Dhu al-Nurayn because he married two daughters of our Beloved Prophet ﷺ. :: Our master 'Uthman ibn 'Affan ﵁ || H: Standard seerah
+"Let them pardon and overlook; do you not love that Allah should forgive you?" (meaning) is this verse. :: Qur'an 24:22 || H: Qur'an 24:22
+Our Beloved Prophet ﷺ did this with our lady 'A'ishah ﵂ on a journey; she won the first time. :: Raced her on foot || H: Sunan Abi Dawud
+Our Beloved Prophet ﷺ said one of three du'as surely answered is that of this person for his child. :: A parent || H: Sunan al-Tirmidhi; Sunan Abi Dawud
+Our Beloved Prophet's ﷺ first wet-nurse in Makkah, before Halimah ﵂, who also nursed Abu Salamah ﵁. :: Thuwaybah || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ said children should be told to pray at seven, and at ten this should be done with their beds (meaning). :: Separated || H: Sunan Abi Dawud
+Our Beloved Prophet ﷺ said a believing man should not hate a believing woman; if he dislikes one trait, he will be pleased with this. :: Another || H: Sahih Muslim
+
+## 300
+The women forbidden by blood include the mother, daughter, sister, aunts and these. :: Nieces || H: Qur'an 4:23
+The women forbidden by marriage ties include the wife's mother and this. :: The father's wife (stepmother) || H: Qur'an 4:22-23
+Marrying two sisters at the same time is this. :: Forbidden || H: Qur'an 4:23
+Marrying a woman and her paternal or maternal aunt together is this. :: Forbidden || H: Sahih al-Bukhari
+In the Hanafi and Maliki schools, any amount of breastfeeding in the first two years does this. :: Makes the foster relation || H: al-Hidayah (al-Marghinani)
+In the Shafi'i and Hanbali schools, breastfeeding makes the foster relation only with this many feeds. :: 5 || H: Sahih Muslim; Matn Abi Shuja'
+In the Hanafi school, the time of breastfeeding that makes the foster relation, by Abu Hanifah's رحمة الله عليه view. :: 30 months || H: al-Hidayah (al-Marghinani)
+The two students of Abu Hanifah رحمة الله عليه set it at this. :: Two years || H: al-Hidayah (al-Marghinani)
+The "suitable match" rule in marriage. :: Kafa'ah || H: al-Hidayah; Matn Abi Shuja'
+In the Hanafi school, kafa'ah is judged in these six things, including religion and lineage. :: Lineage, Islam, freedom, religiousness, wealth, trade || H: al-Hidayah (al-Marghinani)
+Our Beloved Master ﷺ said a woman is married for four things: wealth, lineage, beauty and this. :: Religion || H: Sahih al-Bukhari
+Seeing the person one plans to marry is allowed, said our Beloved Prophet ﷺ to this Companion. :: al-Mughirah ibn Shu'bah ﵁ || H: Sunan al-Tirmidhi
+A man may have up to this many wives, with justice. :: 4 || H: Qur'an 4:3
+The verse says if you fear you cannot be just, then marry this many. :: One || H: Qur'an 4:3
+Divorce that can be taken back within the 'iddah. :: Talaq raj'i || H: Qur'an 2:228-229
+The number of divorces after which remarriage is not allowed until she marries another. :: 3 || H: Qur'an 2:230
+A woman seeking separation by giving back the mahr. :: Khul' || H: Sahih al-Bukhari
+The wife of Thabit ibn Qays (رِضْوَانُ اللَّهِ عَلَيْهِمَا) who asked for khul' and returned his garden. :: Jamilah (Habibah) bint Sahl or bint 'Abdullah || H?: Sahih al-Bukhari; name differs in reports
+Our Beloved Prophet ﷺ said the most hateful of lawful things to Allah is this (paraphrased). :: Divorce || H?: Sunan Abi Dawud; grade differs among scholars
+Custody of young children after divorce. :: Hadanah || H: Sunan Abi Dawud
+The Companion whose mother became Muslim after he asked our Beloved Prophet ﷺ to make du'a for her. :: Abu Hurayrah ﵁ || H: Sahih Muslim
+The Companion whose mother vowed not to eat until he left Islam; Qur'an 29:8 came down about him. :: Sa'd ibn Abi Waqqas ﵁ || H: Sahih Muslim
+The worshipper of the Children of Isra'il who kept praying instead of answering his mother, and her du'a against him came true. :: Jurayj || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ said a man curses his own parents when he does this. :: Curses another man's parents, who then curses his || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ said the finest kindness, after a father dies, is to keep up ties with these people (meaning). :: His friends (those he loved) || H: Sahih Muslim
+Our Beloved Prophet ﷺ said a man's uncle is like this. :: His father (sinw abihi) || H: Sahih Muslim
+The Companion who was called by our Beloved Prophet's ﷺ name as an adopted son, until Qur'an 33:5. :: Zayd ibn Harithah ﵁ || H: Sahih al-Bukhari
+"The child belongs to" this (meaning), our Beloved Prophet ﷺ ruled. :: The marriage bed (al-firash) || H: Sahih al-Bukhari
+The Companion who divorced his wife during her period and was told to take her back. :: 'Abdullah ibn 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: Sahih al-Bukhari
+Temporary marriage (mut'ah) is this, by the four schools. :: Forbidden || H: Sahih Muslim; al-Hidayah
+When travelling, our Beloved Prophet ﷺ chose which wife would come along by this. :: Drawing lots || H: Sahih al-Bukhari
+The Mother of the Believers who gave her day to our lady 'A'ishah ﵂. :: Our lady Sawdah ﵂ || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ kept sending gifts to the friends of this wife after her death. :: Our lady Khadijah ﵂ || H: Sahih al-Bukhari
+Instead of a servant, our Beloved Prophet ﷺ taught our lady Fatimah and our master 'Ali (رِضْوَانُ اللَّهِ عَلَيْهِمَا) to say these at bedtime. :: Subhan Allah 33, al-Hamdu lillah 33, Allahu akbar 34 || H: Sahih al-Bukhari
+When our lady Fatimah ﵂ came in, our Beloved Prophet ﷺ would do this. :: Stand, kiss her and seat her in His ﷺ place || H: Sunan Abi Dawud; Sunan al-Tirmidhi
+Our Beloved Prophet ﷺ said of this grandson, "This son of mine is a sayyid; Allah will make peace through him between two groups" (meaning). :: Our master al-Hasan ﵁ || H: Sahih al-Bukhari
+"Allah only wishes to remove impurity from you, O people of the House" (meaning) is this verse. :: Qur'an 33:33 || H: Qur'an 33:33
+In the salawat taught in the prayer, blessings are asked for our Beloved Prophet ﷺ and for these. :: His ﷺ family (Al Muhammad ﷺ) || H: Sahih al-Bukhari
+When the wives were given a choice (33:28), our lady 'A'ishah ﵂ chose this. :: Allah and His Messenger ﷺ || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ said a woman may mourn a relative other than her husband for no more than this (meaning). :: Three days || H: Sahih al-Bukhari
+Our master Abu Bakr ﵁ swore to stop supporting this poor relative, until 24:22 came down. :: Mistah ibn Uthathah ﵁ || H: Sahih al-Bukhari
+A bequest "to parents and near relatives" was first ordered in this verse (meaning). :: Qur'an 2:180 || H: Qur'an 2:180
+Our Beloved Prophet ﷺ would drink from the very place on the cup where this person had drunk. :: Our lady 'A'ishah ﵂ || H: Sahih Muslim
+Children ask permission before entering their parents' room at three times: before Fajr, at midday rest, and after this prayer. :: 'Isha' || H: Qur'an 24:58
+
+## 400
+In the Hanafi school, the mother has custody of a boy until about this age. :: 7 || H: al-Hidayah (al-Marghinani)
+In the Hanafi school, the mother has custody of a girl until about this age. :: 9 (puberty) || H: al-Hidayah (al-Marghinani)
+In the Shafi'i school, a child of discernment chooses between parents at about this age. :: 7 || H: Matn Abi Shuja'
+After the mother, the next in line for custody in the Hanafi school. :: The mother's mother || H: al-Hidayah (al-Marghinani)
+Our Beloved Master ﷺ judged that a maternal aunt is like this, in custody. :: The mother || H: Sahih al-Bukhari
+The daughter of our master Hamzah ﵁ was given to the care of this aunt. :: Her maternal aunt (wife of Ja'far) || H: Sahih al-Bukhari
+Maintenance (nafaqah) for poor parents is owed by this person. :: Their able child || H: al-Hidayah; Matn Abi Shuja'
+In the Hanafi school, maintenance is owed to every poor mahram relative by this measure. :: As heirs (by share of inheritance) || H: al-Hidayah (al-Marghinani)
+In the Shafi'i school, maintenance is owed only to these relatives. :: Parents and children (ascendants and descendants) || H: Matn Abi Shuja'
+Our Beloved Prophet ﷺ told Hind ﵂ she may take from her husband's wealth this much. :: What is enough for her and her children, fairly || H: Sahih al-Bukhari
+The husband of Hind ﵂, whom she called a stingy man. :: Abu Sufyan ﵁ || H: Sahih al-Bukhari
+Swearing not to approach one's wife for four months or more. :: Ila' || H: Qur'an 2:226
+Likening one's wife to one's mother's back, a sin needing kaffarah. :: Zihar || H: Qur'an 58:2-4
+The kaffarah for zihar is freeing a slave, then fasting this many months. :: Two in a row || H: Qur'an 58:4
+The mutual oath when a husband accuses his wife without witnesses. :: Li'an || H: Qur'an 24:6-9
+The 'iddah of a divorced woman who has periods. :: Three quru' || H: Qur'an 2:228
+In the Hanafi and Hanbali schools, "quru'" means this. :: Periods (hayd) || H: al-Hidayah; Zad al-Mustaqni'
+In the Shafi'i and Maliki schools, "quru'" means this. :: Times of purity (tuhr) || H: Matn Abi Shuja'; al-Risalah
+The 'iddah of a divorced woman with no periods because of age. :: 3 months || H: Qur'an 65:4
+A woman divorced before the marriage was consummated has this 'iddah. :: None || H: Qur'an 33:49
+The shortest pregnancy, six months, was taken from 46:15 and 2:233 by this Companion. :: Our master 'Ali ibn Abi Talib ﵁ || H: Muwatta' Malik
+The woman married by her father against her will, whose marriage our Beloved Prophet ﷺ undid. :: Khansa' bint Khidam ﵂ || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ could not marry the daughter of our master Hamzah ﵁ because Hamzah was this to Him ﷺ. :: His ﷺ foster brother || H: Sahih al-Bukhari
+Our Beloved Prophet's ﷺ foster sister, found among the captives of Hawazin, whom He ﷺ honoured. :: al-Shayma' bint al-Harith ﵂ || H: Sirat Ibn Hisham
+By the four schools, three divorces said at one sitting count as this many. :: Three || H: al-Hidayah; Minhaj al-Talibin; al-Mughni
+A marriage in which two men give each other their daughters with no mahr. :: Shighar (forbidden) || H: Sahih al-Bukhari
+Taking a wife back after a revocable divorce should be witnessed by these, says Surah al-Talaq. :: Two just witnesses || H: Qur'an 65:2
+After a third divorce, the separation is called this. :: The major separation (al-baynunah al-kubra) || H: al-Hidayah (al-Marghinani)
+Our Beloved Prophet ﷺ told a divorced mother she has more right to her child as long as she does not do this. :: Remarry || H: Sunan Abi Dawud
+A man with two wives who leans to one will come on the Day with this. :: One side of him leaning (fallen) || H: Sunan Abi Dawud; Sunan al-Tirmidhi
+Our Beloved Prophet ﷺ told a man, "You and your wealth belong to" this person (meaning). :: Your father || H: Sunan Ibn Majah; Sunan Abi Dawud
+Ibn 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِمَا) told a man carrying his mother in tawaf that it did not repay even this. :: One groan of her labour || H: al-Adab al-Mufrad (al-Bukhari)
+The granddaughter our Beloved Prophet ﷺ carried while He ﷺ prayed. :: Umamah bint Abi al-'As ﵂ || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ called our masters al-Hasan and al-Husayn (رِضْوَانُ اللَّهِ عَلَيْهِمَا) His ﷺ two of these from this world. :: Sweet basils (rayhanatan) || H: Sahih al-Bukhari
+At Ghadir Khumm, our Beloved Prophet ﷺ said three times, "I remind you of Allah concerning" these (meaning). :: My Ahl al-Bayt (رِضْوَانُ اللَّهِ عَلَيْهِمْ) (household) || H: Sahih Muslim
+In the hadith of the cloak, our Beloved Prophet ﷺ gathered these four under it. :: Our masters 'Ali, Fatimah, al-Hasan and al-Husayn (رِضْوَانُ اللَّهِ عَلَيْهِمْ) || H: Sahih Muslim
+Our Beloved Prophet ﷺ said of our lady Khadijah ﵂: "I was given" this "for her" (meaning). :: Love || H: Sahih Muslim
+Our lady 'A'ishah ﵂ vowed not to speak to this nephew, then freed slaves in expiation when they made peace. :: 'Abdullah ibn al-Zubayr (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: Sahih al-Bukhari
+Our master 'Umar ﵁ sent a silk garment he was given to this relative in Makkah, who was not yet Muslim. :: His brother || H: Sahih al-Bukhari
+In the Shafi'i school, the guardian who may marry off a virgin daughter without asking her (though asking is better). :: The father or grandfather (wali mujbir) || H: Minhaj al-Talibin (al-Nawawi)
+In the Hanafi school, khul' counts as this. :: One irrevocable divorce (talaq ba'in) || H: al-Hidayah (al-Marghinani)
+In the Hanafi school, a woman in 'iddah after an irrevocable divorce is owed this. :: Maintenance and housing || H: al-Hidayah (al-Marghinani)
+
+## 500
+Our Beloved Prophet ﷺ said the womb (rahim) hangs from the Throne and says this (paraphrased). :: Whoever joins me, Allah joins; whoever cuts me, Allah cuts || H: Sahih Muslim
+The relatives in order for kindness in the hadith: your mother, your mother, your mother, then this. :: Your father, then the nearest and next nearest || H: Sahih Muslim
+Asked which deed Allah loves most, our Beloved Master ﷺ said prayer on time, then this (paraphrased). :: Kindness to parents || H: Sahih al-Bukhari
+The Successor who would not eat with his mother lest his hand reach first for what she wanted (meaning). :: Our master 'Ali Zayn al-'Abidin ibn al-Husayn ﵁ || H?: Siyar A'lam al-Nubala' (al-Dhahabi); to be checked
+The man of Yemen our Beloved Prophet ﷺ praised for kindness to his mother, telling our master 'Umar ﵁ to ask him for du'a. :: Uways al-Qarani رحمة الله عليه || H: Sahih Muslim
+Our Beloved Prophet ﷺ said a maternal aunt is in the place of this, when a man asked how to repent (paraphrased). :: The mother (be good to her) || H: Sunan al-Tirmidhi
+In the Hanafi school, the wife's right to stay in her own separate accommodation is called this. :: Sukna || H: al-Hidayah (al-Marghinani)
+In the Hanafi school, a widow during 'iddah may go out in the day for this. :: Her needs (work for living) || H: al-Hidayah (al-Marghinani)
+The female Companion whose husband was killed, and our Beloved Master ﷺ told her to stay in her house for the 'iddah. :: Furay'ah bint Malik ﵂ || H: Sunan Abi Dawud; Sunan al-Tirmidhi
+In the Hanafi school, the mahr is due in full on consummation, death, or this. :: Valid seclusion (khalwah sahihah) || H: al-Hidayah (al-Marghinani)
+Half the mahr is due if divorced before this. :: Consummation || H: Qur'an 2:237
+A woman divorced before mahr was set and before consummation receives this gift. :: Mut'ah (a gift) || H: Qur'an 2:236
+The "mahr al-mithl" is the mahr of these women. :: Women like her from her father's family || H: al-Hidayah (al-Marghinani)
+The mahr of our Beloved Prophet's ﷺ wives was about this many dirhams, our lady 'A'ishah ﵂ said. :: 500 || H: Sahih Muslim
+A Companion who had nothing to give was married by our Beloved Prophet ﷺ with this as the mahr. :: Teaching her the Qur'an he knew || H: Sahih al-Bukhari
+The mahr of our lady Fatimah ﵂, by the common report. :: The armour of our master 'Ali ﵁ (al-dir' al-hutamiyyah) || H: Sunan Abi Dawud; Sunan al-Nasa'i
+Our Beloved Prophet ﷺ said the best mahr is this (paraphrased). :: The easiest || H?: Sunan Abi Dawud; wording to be checked
+In the Hanafi school, the waiting of a woman whose husband is missing (mafqud), by the original view. :: Until his peers have died || H: al-Hidayah (al-Marghinani)
+In the Maliki school, the wait for a missing husband set by our master 'Umar ﵁. :: 4 years, then the 'iddah of death || H: Muwatta' Malik
+Later Hanafi scholars allowed fatwa on the missing husband by this school's view, for need. :: The Maliki school || H?: Radd al-Muhtar (Ibn 'Abidin); to be checked
+At the Mubahalah (3:61), our Beloved Prophet ﷺ came out with these members of His ﷺ family. :: Our masters 'Ali, Fatimah, al-Hasan and al-Husayn (رِضْوَانُ اللَّهِ عَلَيْهِمْ) || H: Sahih Muslim
+The daughter of our Beloved Prophet ﷺ who sent her mother's necklace to ransom her husband after Badr. :: Our lady Zaynab ﵂ || H: Sunan Abi Dawud
+The husband of our lady Zaynab ﵂, ransomed after Badr with her mother's necklace, who later became Muslim. :: Abu al-'As ibn al-Rabi' ﵁ || H: Sunan Abi Dawud; Sirat Ibn Hisham
+In the story of eleven women told by our lady 'A'ishah ﵂, our Beloved Prophet ﷺ said He ﷺ was to her as this man was to his wife. :: Abu Zar' || H: Sahih al-Bukhari
+Hearing a voice like our lady Khadijah's ﵂, our Beloved Prophet ﷺ said "O Allah, it is" this sister of hers (meaning). :: Halah bint Khuwaylid ﵂ || H: Sahih al-Bukhari
+The Mother of the Believers who put on perfume three days after her father died, to teach the rule of mourning. :: Our lady Umm Habibah ﵂ || H: Sahih al-Bukhari
+The female Companion who reported she was given no housing or maintenance after a final divorce. :: Fatimah bint Qays ﵂ || H: Sahih Muslim
+In the Hanafi school, a marriage contracted while in ihram is this. :: Valid || H: al-Hidayah (al-Marghinani)
+In the Maliki school, kafa'ah in marriage looks mainly at this. :: Religion (and soundness from defects) || H: al-Sharh al-Kabir (al-Dardir)
+In the Hanafi school, if a woman marries someone not her match without her guardian's consent, the guardian may do this. :: Ask the judge to separate them || H: al-Hidayah (al-Marghinani)
+In the Hanafi school, the 'iddah of a widow begins from this moment. :: The death (even if she learns of it later) || H: al-Hidayah (al-Marghinani)
+In the Shafi'i school, khul' counts as this, by the stronger view. :: A divorce (talaq) || H: Minhaj al-Talibin (al-Nawawi)
+The female Companion who argued with our Beloved Prophet ﷺ about her husband's zihar, so Surah al-Mujadilah came down. :: Khawlah bint Tha'labah ﵂ || H: Sunan Abi Dawud; Tafsir al-Tabari
+The husband of Khawlah bint Tha'labah ﵂, whose zihar led to Surah al-Mujadilah. :: Aws ibn al-Samit ﵁ || H: Sunan Abi Dawud
+Our master 'Ali ﵁ said "Hasan and Husayn" were named by our Beloved Prophet ﷺ instead of this name he had chosen (meaning). :: Harb || H: Musnad Ahmad
+The Mother of the Believers whose earlier husband's sons (from Abu Salamah ﵁) were raised in our Beloved Prophet's ﷺ house. :: Our lady Umm Salamah ﵂ || H: Sahih al-Bukhari
+The book by al-Bukhari رحمة الله عليه whose opening chapters are on kindness to parents. :: al-Adab al-Mufrad || H: al-Adab al-Mufrad

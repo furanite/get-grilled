@@ -1,3 +1,4 @@
+import { catIconSvg as islamicIconSvg } from '../src/lib/islamic'
 import { readdirSync, readFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { describe, expect, it } from 'vitest'
@@ -12,7 +13,8 @@ const packIds = readdirSync(dir)
 describe('category icons', () => {
   it('has a drawing for every built-in category', () => {
     expect(packIds.length).toBeGreaterThan(20)
-    for (const id of packIds) expect(hasCatIcon(id), id).toBe(true)
+    // Islamic and Kids categories use their own line icons (src/lib/islamic.ts).
+    for (const id of packIds) expect(hasCatIcon(id) || !!islamicIconSvg(id), id).toBe(true)
   })
 
   it('covers the new engineering categories', () => {

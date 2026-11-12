@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest'
 import { existsSync, readdirSync, readFileSync } from 'node:fs'
 import { join } from 'node:path'
 // @ts-expect-error plain JS build script
-import { parsePack, mergeArabic } from '../scripts/build-packs.mjs'
+import { parsePack, mergeArabic, GROUPS, RESPECT_GROUPS } from '../scripts/build-packs.mjs'
 
 const dir = join(__dirname, '..', 'questions')
 
@@ -24,6 +24,29 @@ describe('question file parser', () => {
     expect(all).toMatch(/unknown level "600"/)
     expect(all).toMatch(/level 200 has 0 questions/)
     expect(all).toMatch(/"group:" must be one of/)
+  })
+})
+
+describe('source tags', () => {
+  const head = 'id: t\nname: T\ngroup: fiqh\n'
+  const rest = '## 200\nB :: b || F\n## 300\nC :: c || D: retold\n## 400\nD :: d || H: Sahih Muslim\n## 500\nE :: e || H: Qur\'an 2:255\n'
+  it('reads H, D and F tags and holds back "?" lines for checking', () => {
+    const r = parsePack(head + '## 100\nA :: a || H: Sahih al-Bukhari\nUnsure :: x || H?: Tarikh al-Tabari\n' + rest)
+    expect(r.errors).toEqual([])
+    expect(r.levels[0]).toEqual([{ q: 'A', a: 'a', kind: 'H', src: 'Sahih al-Bukhari' }])
+    expect(r.levels[1][0]).toEqual({ q: 'B', a: 'b', kind: 'F' })
+    expect(r.levels[2][0]).toEqual({ q: 'C', a: 'c', kind: 'D', src: 'retold' })
+    expect(r.unchecked).toEqual([{ level: '100', at: 'pack:6', q: 'Unsure', a: 'x', kind: 'H', src: 'Tarikh al-Tabari' }])
+  })
+  it('needs a tag in religious groups, and a source for H', () => {
+    const r = parsePack(head + '## 100\nA :: a\nB2 :: b || H\nC2 :: c || X: y\n' + rest)
+    const all = r.errors.join('\n')
+    expect(all).toMatch(/needs a source tag/)
+    expect(all).toMatch(/needs a source after "H:"/)
+    expect(all).toMatch(/must look like/)
+  })
+  it('tags stay optional elsewhere', () => {
+    expect(parsePack(head.replace('fiqh', 'general') + '## 100\nA :: a\n' + rest).errors).toEqual([])
   })
 })
 
@@ -64,24 +87,51 @@ describe('built-in question files', () => {
     expect(bad.errors.join()).toMatch(/must be written/)
   })
   it('exist', () => expect(files.length).toBeGreaterThanOrEqual(6))
-  // New categories are English-only by the owner's choice (2026-11-10), so Arabic files are optional,
+  const groupOf = (f: string) => /^group:\s*(\S+)/m.exec(readFileSync(join(dir, f), 'utf8'))?.[1]
+  // New categories are English-only by the owner's choice, so Arabic files are optional,
   // but every Arabic file must belong to an English file.
   it('every group has categories and every Arabic file has an English file', () => {
-    const groups = files.map((f) => /^group:\s*(\S+)/m.exec(readFileSync(join(dir, f), 'utf8'))?.[1])
-    for (const g of ['engineering', 'cces', 'general']) expect(groups).toContain(g)
+    const groups = files.map(groupOf)
+    for (const g of GROUPS) expect(groups, g).toContain(g)
     for (const f of readdirSync(join(dir, 'ar')).filter((n) => n.endsWith('.txt'))) expect(files, f).toContain(f)
   })
   for (const f of files) {
     it(`${f} has no problems`, () => {
       const r = parsePack(readFileSync(join(dir, f), 'utf8'), f)
       expect(r.errors).toEqual([])
-      // 100 per level, plus a few picture questions in some CCES categories.
-      // A category where every question is a picture (drawn by hand, e.g. flags) needs at least 30 per level.
-      const allPics = r.levels.every((l: { img?: string }[]) => l.every((q) => q.img))
-      r.levels.forEach((l: unknown[]) => expect(l.length).toBeGreaterThanOrEqual(allPics ? 30 : 100))
+      // University packs hold at least 100 per level (plus a few picture questions); the religious packs are smaller, checked pools.
+      // A category where every question is a picture (drawn by hand) needs fewer: 30 per level, or 8 in the religious packs.
+      const allPictures = r.levels.every((l: { img?: string }[]) => l.every((q) => q.img))
+      if (RESPECT_GROUPS.includes(groupOf(f))) r.levels.forEach((l: unknown[]) => expect(l.length).toBeGreaterThanOrEqual(allPictures ? 8 : 15))
+      else r.levels.forEach((l: unknown[]) => expect(l.length).toBeGreaterThanOrEqual(allPictures ? 30 : 100))
       for (const l of r.levels) for (const q of l as { img?: string }[]) if (q.img) expect(existsSync(join(dir, 'img', q.img.replace('packs/img/', ''))), q.img).toBe(true)
       const arPath = join(dir, 'ar', f)
       if (existsSync(arPath)) expect(mergeArabic(r.levels, readFileSync(arPath, 'utf8'), f).errors).toEqual([])
     })
   }
+})
+
+describe('scholar reviews', () => {
+  it('gives each question a stable id that changes when the text changes', async () => {
+    const { questionId } = await import('../scripts/build-packs.mjs')
+    expect(questionId('p', 'Q', 'A')).toMatch(/^[0-9a-f]{8}$/)
+    expect(questionId('p', 'Q', 'A')).toBe(questionId('p', 'Q', 'A'))
+    expect(questionId('p', 'Q', 'A')).not.toBe(questionId('p', 'Q', 'B'))
+  })
+  it('reads review files and lists flagged lines first', async () => {
+    const { loadReviews, reviewStatusMarkdown } = await import('../scripts/build-packs.mjs')
+    const { mkdtempSync, writeFileSync } = await import('node:fs')
+    const { tmpdir } = await import('node:os')
+    const { join } = await import('node:path')
+    const dir = mkdtempSync(join(tmpdir(), 'rev-'))
+    writeFileSync(join(dir, 'a.json'), JSON.stringify({ reviewer: 'Shaykh A', date: '2026-11-11', verdicts: { aaaaaaaa: { correct: 'issue', adab: 'ok', note: 'weak hadith' }, bbbbbbbb: { correct: 'ok', adab: 'ok' } } }))
+    const r = loadReviews(dir)
+    expect(r.get('aaaaaaaa')[0]).toMatchObject({ reviewer: 'Shaykh A', correct: 'issue', note: 'weak hadith' })
+    const md = reviewStatusMarkdown([
+      { pack: 'P', file: 'p.txt', level: '100', q: 'Q1', a: 'A1', id: 'aaaaaaaa', rs: r.get('aaaaaaaa') },
+      { pack: 'P', file: 'p.txt', level: '100', q: 'Q2', a: 'A2', id: 'bbbbbbbb', rs: r.get('bbbbbbbb') },
+    ])
+    expect(md).toContain('Flagged: 1. Approved: 1.')
+    expect(md.indexOf('weak hadith')).toBeLessThan(md.indexOf('## Approved'))
+  })
 })

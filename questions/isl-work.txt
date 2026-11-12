@@ -1,0 +1,134 @@
+id: isl-work
+name: Fiqh: Work and earning
+nameAr: الفقه: العمل والكسب
+group: fiqh
+# Fiqh files keep to points the four Sunni schools agree on. Where they differ, the clue names the school.
+
+## 100
+Earning a lawful living in Arabic. :: Kasb al-halal || H: Sahih Muslim
+Our Beloved Prophet ﷺ said no one eats better food than what he earns with this (paraphrased). :: His own hands || H: Sahih al-Bukhari
+The Blessed Prophet ﵇ who ate from the work of his hands, as our Beloved Prophet ﷺ said. :: Our master Dawud ﵇ || H: Sahih al-Bukhari
+Our Beloved Master ﷺ said every Prophet ﵈ did this work (paraphrased). :: Herded sheep || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ said give the worker his wage before this dries (paraphrased). :: His sweat || H: Sunan Ibn Majah
+After the Friday prayer, the Qur'an says to spread through the land and seek this. :: The bounty of Allah || H: Qur'an 62:10
+The Qur'an says Allah made the earth easy for you, so walk its paths and eat of this. :: His provision || H: Qur'an 67:15
+Provision in Arabic. :: Rizq || H: Qur'an 11:6
+Our Beloved Prophet ﷺ said it is better to take a rope and gather this than to beg (paraphrased). :: Firewood || H: Sahih al-Bukhari
+Our Beloved Master ﷺ said Allah loves that when one of you does a job, he does it with this (paraphrased). :: Excellence (itqan) || H?: al-Mu'jam al-Awsat (al-Tabarani); grade to be checked
+A worker must do the job with honesty; breaking a trust is called this. :: Khiyanah || H: Qur'an 8:27
+Our master Musa ﵇ worked for years in this land. :: Madyan || H: Qur'an 28:27
+Our master Musa's ﵇ employer's daughter said the best to hire is strong and this. :: Trustworthy || H: Qur'an 28:26
+Our Beloved Prophet ﷺ traded as a young man for this lady. :: Our lady Khadijah ﵂ || H: Sirat Ibn Hisham
+A wage in Arabic. :: Ujrah (ajr) || H: Qur'an 28:26
+Work that is forbidden, like selling wine, makes the earning this. :: Haram || H: Sahih al-Bukhari
+A Muslim should seek work and not rely on this. :: Begging || H: Sahih Muslim
+Our Beloved Master ﷺ said Allah is good and accepts only this (paraphrased). :: What is good (pure) || H: Sahih Muslim
+Our Master Nuh ﵇ did this work, by Allah's command. :: Building the Ark || H: Qur'an 11:37
+Our Beloved Prophet ﷺ sought refuge with Allah from incapacity and this. :: Laziness (kasal) || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ said: "Strive for what benefits you, seek Allah's help, and do not" do this (meaning). :: Give up (feel helpless) || H: Sahih Muslim
+The Qur'an says: "Man shall have nothing but what he" does this for (meaning). :: Strives (works) || H: Qur'an 53:39
+"Say: Work, for Allah will see your work, and His Messenger ﷺ and the believers" (meaning) is in this surah. :: Surah al-Tawbah (9:105) || H: Qur'an 9:105
+The Qur'an says: "Allah does not change the condition of a people until they change" this (meaning). :: What is in themselves || H: Qur'an 13:11
+
+## 200
+Our Beloved Prophet ﷺ said Allah will be the opponent on the Day of one who hires a worker, takes full work from him and does this (paraphrased). :: Does not pay his wage || H: Sahih al-Bukhari (hadith qudsi)
+Our Beloved Prophet ﷺ said your servants are your brothers; feed them from what you eat and do not do this. :: Burden them beyond their ability || H: Sahih al-Bukhari
+The Companion to whom our Beloved Master ﷺ said "your servants are your brothers" after he insulted a man (meaning). :: Abu Dharr al-Ghifari ﵁ || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ told the Ansari man with the axe to come back after this many days. :: 15 || H: Sunan Abi Dawud
+The Companion who said "Show me the market" on arriving in Madinah (meaning). :: 'Abd al-Rahman ibn 'Awf ﵁ || H: Sahih al-Bukhari
+The Companion who was a cloth merchant before becoming caliph and kept trading at first. :: Our master Abu Bakr ﵁ || H: Sahih al-Bukhari; al-Tabaqat al-Kubra (Ibn Sa'd)
+Being paid by the caliphate from the treasury for leading the state. :: A stipend (from bayt al-mal) || H: Sahih al-Bukhari
+The public treasury in Arabic. :: Bayt al-mal || H: Kitab al-Kharaj (Abu Yusuf)
+A worker's contract must make clear the work and this. :: The wage || H: al-Hidayah; Matn Abi Shuja'
+Our Beloved Prophet ﷺ paid this man who did cupping (hijamah) for Him ﷺ. :: The cupper Abu Taybah || H: Sahih al-Bukhari
+Our Beloved Master ﷺ said the best earning is a man's work with his hand and every this. :: Honest sale (bay' mabrur) || H?: Musnad Ahmad; to be checked
+Bribes to get a job or a ruling are this. :: Forbidden || H: Sunan Abi Dawud
+Gifts given to an official because of his post are this, our Beloved Prophet ﷺ said (paraphrased). :: Not his to keep (ghulul) || H: Sahih al-Bukhari
+The official who said "This is for you and this was gifted to me" and was rebuked (meaning). :: Ibn al-Lutbiyyah || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ asked Ibn al-Lutbiyyah why he did not sit in this place and see if gifts came. :: His father's or mother's house || H: Sahih al-Bukhari
+Our Beloved Master ﷺ said "Each of you is a shepherd, and each is responsible for" this (meaning). :: His flock || H: Sahih al-Bukhari
+In the hadith "Each of you is a shepherd", the man is a shepherd over this (meaning). :: His family || H: Sahih al-Bukhari
+In the hadith "Each of you is a shepherd", the woman is a shepherd over this (meaning). :: Her husband's house and children || H: Sahih al-Bukhari
+In the hadith "Each of you is a shepherd", the servant is a shepherd over this (meaning). :: His master's wealth || H: Sahih al-Bukhari
+Dhu al-Qarnayn built a barrier from these two metals. :: Iron and molten copper || H: Qur'an 18:96
+Our master Yusuf ﵇ asked to be put in charge of these, saying he was a knowing guardian. :: The storehouses of the land || H: Qur'an 12:55
+Our master Musa ﵇ agreed to work for his father-in-law for this long. :: Eight years (or ten, by choice) || H: Qur'an 28:27
+"Allah has prescribed" this "in everything" (meaning), our Beloved Prophet ﷺ said. :: Excellence (ihsan) || H: Sahih Muslim
+Our Beloved Prophet ﷺ made du'a: "O Allah, bless my Ummah in" this time of day (meaning). :: Its early mornings || H: Sunan Abi Dawud; Sunan al-Tirmidhi
+Our Beloved Prophet ﷺ told 'Abdullah ibn 'Amr (رِضْوَانُ اللَّهِ عَلَيْهِمَا), who worked and worshipped without rest, that his body has this over him. :: A right || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ said the deeds most loved by Allah are those done this way, even if small (meaning). :: Regularly (constantly) || H: Sahih al-Bukhari
+
+## 300
+The Companion who said "I hate to see a man idle, not in worldly work nor in work for the Hereafter" (meaning). :: 'Abdullah ibn Mas'ud ﵁ || H?: Musannaf Ibn Abi Shaybah; to be checked
+Our Beloved Prophet ﷺ said one who strives to support his family is like this (paraphrased). :: One striving in the way of Allah || H?: al-Mu'jam al-Kabir (al-Tabarani); to be checked
+Our Beloved Prophet ﷺ said the dinar you spend on this is the greatest in reward (paraphrased). :: Your family || H: Sahih Muslim
+Our Beloved Master ﷺ said our master Zakariyya ﵇ worked as this. :: A carpenter || H: Sahih Muslim
+Our Beloved Prophet ﷺ said He ﷺ herded sheep for the people of Makkah for this pay. :: A few qirats || H: Sahih al-Bukhari
+Our master Dawud ﵇ made this as his craft. :: Coats of mail (armour) || H: Qur'an 34:10-11
+Work for wages on a field in return for a share of its crop. :: Muzara'ah || H: Sahih al-Bukhari
+Watering and caring for trees for a share of the fruit. :: Musaqah || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ gave Khaybar's land to its people to work for this share. :: Half the produce || H: Sahih al-Bukhari
+In the Hanafi school, Abu Hanifah رحمة الله عليه did not allow muzara'ah; the fatwa follows this view. :: That of his two students (it is allowed) || H: al-Hidayah (al-Marghinani)
+Reviving dead (unowned) land by working it makes it this. :: Owned by the one who revives it || H: Sahih al-Bukhari
+Reviving dead land in Arabic. :: Ihya' al-mawat || H: Sahih al-Bukhari
+In the Hanafi school (Abu Hanifah's رحمة الله عليه view), reviving dead land needs this person's permission. :: The ruler's (imam) || H: al-Hidayah (al-Marghinani)
+In the Shafi'i school, reviving dead land needs this permission. :: None, for a Muslim || H: Matn Abi Shuja'
+Our Beloved Master ﷺ said people are partners in three things: water, pasture and this. :: Fire || H: Sunan Abi Dawud
+Taking a wage for teaching the Qur'an, in the later Hanafi fatwa. :: Allowed, for need || H: Radd al-Muhtar (Ibn 'Abidin)
+The earlier Hanafi view on wages for teaching the Qur'an. :: Not allowed || H: al-Hidayah (al-Marghinani)
+The Companion who took a flock of sheep for reciting al-Fatihah over a stung chief, and our Beloved Prophet ﷺ approved. :: Abu Sa'id al-Khudri ﵁ || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ said the most deserving of what you take a wage for is this (paraphrased). :: The Book of Allah || H: Sahih al-Bukhari
+A contract is ended by the worker's death in this school. :: The Hanafi school || H: al-Hidayah (al-Marghinani)
+The Hanafi author of the Mukhtasar, named after his family's trade in pots. :: al-Quduri رحمة الله عليه || H: Standard biography (al-Jawahir al-Mudiyyah)
+The Hanafi author of Ahkam al-Qur'an, named after work with plaster. :: Abu Bakr al-Jassas رحمة الله عليه || H?: Standard biography (al-Jawahir al-Mudiyyah); some biographers say al-Jassas leaned to Mu'tazili views, so check before using
+The Hanafi jurist who ate from making leather socks (khifaf) and wrote on waqf and on judges. :: al-Khassaf رحمة الله عليه || H: Standard biography (al-Jawahir al-Mudiyyah)
+
+## 400
+In the Shafi'i, Maliki and Hanbali schools, a hire contract does this on the death of one party. :: Continues (with the heirs) || H: Matn Abi Shuja'; al-Mughni
+A worker hired for a time is paid for this, even if no work was given. :: Making himself available || H: al-Hidayah (al-Marghinani)
+In the Hanafi school, a wage is owed by this. :: Delivering the work, or condition of payment in advance || H: al-Hidayah (al-Marghinani)
+A reward offered to anyone who does a job, like finding a lost camel. :: Ju'alah || H: Qur'an 12:72
+The verse "and for him who brings it is a camel-load" (meaning) is in this surah. :: Surah Yusuf (12:72) || H: Qur'an 12:72
+In the Hanafi school, ju'alah is this. :: Not valid (except for returning a runaway slave) || H: al-Hidayah (al-Marghinani)
+In the Maliki, Shafi'i and Hanbali schools, ju'alah is this. :: Valid || H: Matn Abi Shuja'; al-Risalah
+The officer of the market in Islamic cities who checked weights and honest trade. :: Muhtasib || H: Nihayat al-Rutbah (al-Shayzari)
+The institution of checking honest trade and public good. :: Hisbah || H: Nihayat al-Rutbah (al-Shayzari)
+Our master 'Umar ﵁ appointed this woman to oversee the market of Madinah, by one report. :: al-Shifa' bint 'Abdullah ﵂ || H?: al-Isti'ab (Ibn 'Abd al-Barr); report to be checked
+The book on hisbah by al-Shayzari رحمة الله عليه. :: Nihayat al-Rutbah fi Talab al-Hisbah || H: Nihayat al-Rutbah
+The book on hisbah by Ibn al-Ukhuwwah رحمة الله عليه. :: Ma'alim al-Qurbah || H: Ma'alim al-Qurbah
+Our Beloved Master ﷺ refused to fix prices, saying this is the One who fixes them (paraphrased). :: Allah || H: Sunan Abi Dawud; Sunan al-Tirmidhi
+The craft guilds of Ottoman cities were often linked with this tradition of chivalry. :: Futuwwah (akhi) || H: Standard history
+The Companion who was a blacksmith in Makkah and was owed money by al-'As ibn Wa'il. :: Khabbab ibn al-Aratt ﵁ || H: Sahih al-Bukhari
+The surah in which the story of the debt owed to Khabbab ﵁ is told, verses 77-80. :: Surah Maryam || H: Sahih al-Bukhari; Qur'an 19:77-80
+The Companion who helped build the mosque with our Beloved Prophet ﷺ, carrying two bricks at a time. :: 'Ammar ibn Yasir ﵁ || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ Himself ﷺ carried bricks when this was built. :: al-Masjid al-Nabawi || H: Sahih al-Bukhari
+Our Beloved Master ﷺ dug with the Companions (رِضْوَانُ اللَّهِ عَلَيْهِمْ) at this battle. :: The Trench (al-Khandaq) || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ at home did this, our lady 'A'ishah ﵂ said (paraphrased). :: Served His ﷺ family (mended, milked and helped) || H: Sahih al-Bukhari
+The merchant Companion who narrated "bless my Ummah in its early mornings" and sent his trade out early, and grew rich (meaning). :: Sakhr al-Ghamidi ﵁ || H: Sunan Abi Dawud
+In the Shafi'i school, a wage for teaching the Qur'an is this. :: Allowed || H: Minhaj al-Talibin (al-Nawawi)
+Later Hanafi scholars allowed wages for teaching the Qur'an, the adhan and this. :: Leading the prayer (imamah) || H: Radd al-Muhtar (Ibn 'Abidin)
+
+## 500
+The Hanafi scholar Muhammad al-Shaybani رحمة الله عليه wrote a book on earning called this. :: Kitab al-Kasb || H: Kitab al-Kasb
+Al-Shaybani رحمة الله عليه said earning to the level of need is this. :: Obligatory (fard) || H: Kitab al-Kasb (with al-Sarakhsi's commentary)
+Our Beloved Prophet ﷺ said the trustworthy treasurer who gives what he is told with a good heart is one of these (paraphrased). :: The two who give charity || H: Sahih al-Bukhari
+Imam Ahmad رحمة الله عليه said of a man who sits in his house saying his provision will come: he is this. :: Ignorant of knowledge (he has not understood) || H?: Reported in Hanbali works; to be checked
+On the Day, a person will be asked about his wealth: where he earned it and this. :: How he spent it || H: Sunan al-Tirmidhi
+In the Hanafi school, a muzara'ah needs these conditions, including the share and the seed's owner known. :: 8 || H?: al-Hidayah (al-Marghinani); count to be checked
+Our Beloved Master ﷺ said one who plants a tree and people or birds eat from it gets this. :: Charity for him || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ said if the Hour comes and you hold a sapling, do this. :: Plant it || H: al-Adab al-Mufrad (al-Bukhari)
+Our master 'Umar ﵁ set the stipends (diwan) by this order. :: Closeness to our Beloved Prophet ﷺ and early Islam || H: Kitab al-Kharaj (Abu Yusuf)
+The Companion who ran the first diwan with our master 'Umar ﵁, by some reports. :: 'Aqil ibn Abi Talib and others (genealogists) || H?: Futuh al-Buldan (al-Baladhuri); to be checked
+In the Hanafi school, a person may not hire himself out for this kind of act. :: Sinful acts (like singing for pay) || H: al-Hidayah (al-Marghinani)
+In the Hanafi school, a doctor who treats with skill and permission is this if harm happens. :: Not liable || H: al-Hidayah (al-Marghinani)
+Our Beloved Master ﷺ said whoever treats people without knowledge of medicine is this (paraphrased). :: Liable (responsible) || H: Sunan Abi Dawud
+In the Hanafi school, a worker who spoils the goods by his own act is this. :: Liable (he pays for it) || H: al-Hidayah (al-Marghinani)
+The famous treatise by Ibn Khaldun رحمة الله عليه on how crafts and earning build civilisation. :: al-Muqaddimah || H: al-Muqaddimah
+Ibn Khaldun رحمة الله عليه said heavy taxes do this to a state's income. :: Lower it || H: al-Muqaddimah
+Ibn Khaldun's رحمة الله عليه name for the crafts and trades. :: al-Sana'i' || H: al-Muqaddimah
+Our Beloved Prophet ﷺ said if you truly relied on Allah, He would provide for you as for these, which go out hungry and return full (paraphrased). :: Birds || H: Sunan al-Tirmidhi
+Our Beloved Prophet ﷺ told the bedouin about his camel: "Tie it and" do this (meaning). :: Trust in Allah || H: Sunan al-Tirmidhi
+Our master 'Umar ﵁ said "The sky does not rain gold or" this (meaning). :: Silver || H?: Ihya' 'Ulum al-Din (report of 'Umar); to be checked
+The Shafi'i jurist of Marw, called "al-Qaffal", who was a locksmith before he studied. :: al-Qaffal al-Marwazi رحمة الله عليه || H: Tabaqat al-Shafi'iyyah al-Kubra (al-Subki)
+The grammarian Abu Ishaq, named after his trade of cutting glass. :: al-Zajjaj رحمة الله عليه || H: Standard biography (Tarikh Baghdad)
+The Hanafi imam of Bukhara called Shams al-A'immah, named after selling sweets. :: al-Halwani رحمة الله عليه || H: Standard biography (al-Jawahir al-Mudiyyah)

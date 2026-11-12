@@ -8,11 +8,18 @@ export interface Question {
   a: string
   qAr?: string
   aAr?: string
+  /** Source tag: H = historical or sourced fact, D = dramatised, F = fictional. */
+  kind?: 'H' | 'D' | 'F'
+  src?: string
   /** A picture or diagram shown with the clue: a data: URL for host-made questions, or a path for built-in ones. */
   img?: string
+  /** Schools of fiqh a ruling belongs to (h Hanafi, m Maliki, s Shafi'i, b Hanbali); absent when all agree. */
+  sch?: string
   /** Seconds for this question only, overriding the game's setting. */
   secs?: number
 }
+
+export type Madhhab = '' | 'h' | 'm' | 's' | 'b'
 
 /**
  * The host's changes to one category's question pool, kept apart from the questions themselves
@@ -30,10 +37,15 @@ export interface Category {
   name: string
   nameAr?: string
   builtIn: boolean
+  /** Religious content: shown without spins or shakes, with its source after the answer. */
+  respect?: boolean
   levels: Question[][]
 }
 
-export type PackGroup = 'engineering' | 'cces' | 'general'
+export type PackGroup =
+  | 'engineering' | 'cces' | 'general'
+  | 'quran' | 'hadith' | 'aqidah' | 'fiqh' | 'prophets' | 'arabic' | 'tazkiyah' | 'islamichistory'
+  | 'kids'
 
 export interface CategorySummary {
   id: string
@@ -101,7 +113,7 @@ export interface FinalState {
 }
 
 export interface Game {
-  cats: { id: string; name: string; nameAr?: string }[]
+  cats: { id: string; name: string; nameAr?: string; respect?: boolean }[]
   /** clues[category][level] */
   clues: Clue[][]
   teams: Team[]
@@ -123,6 +135,11 @@ export interface Game {
   night?: string
 }
 
-export type ThemeId = 'amethyst' | 'emerald' | 'neon' | 'onyx' | 'rivals' | 'ember' | 'heritage'
+/** Themes that exist only on the Islamic site (Munaafasatul Ilm). */
+export type PrayerTheme = 'fajr' | 'duha' | 'zuhr' | 'asr' | 'maghrib' | 'isha' | 'qiyam'
+export type CultureTheme = 'mughal' | 'sahel' | 'swahili' | 'nusantara' | 'zellige' | 'suzani' | 'bosnia' | 'tatar' | 'kubachi' | 'hui'
+export type IslamicOnlyTheme = 'rawdah' | 'jumuah' | 'mawlid' | PrayerTheme | CultureTheme
+export type BaseThemeId = Exclude<ThemeId, IslamicOnlyTheme>
+export type ThemeId = 'amethyst' | 'emerald' | 'neon' | 'onyx' | 'rivals' | 'ember' | 'heritage' | IslamicOnlyTheme
 export type Lang = 'en' | 'ar'
-export type Screen = 'home' | 'setup' | 'game' | 'lightning' | 'final' | 'results' | 'builder'
+export type Screen = 'home' | 'setup' | 'game' | 'lightning' | 'final' | 'results' | 'builder' | 'review'

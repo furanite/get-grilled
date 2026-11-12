@@ -1,14 +1,16 @@
 import { useEffect, useState } from 'react'
 import { CatIcon } from './Brand'
+import { catIconSvg as islamicIconSvg } from '../lib/islamic'
+import { ISLAMIC_SET } from '../lib/edition'
+import type { Category, CategorySummary, Game, Lang, Madhhab, PackGroup, PoolEdit } from '../lib/types'
 import { nightIconId } from '../lib/caticons'
-import type { Category, CategorySummary, Game, Lang, PackGroup, PoolEdit } from '../lib/types'
 import { VALUES } from '../lib/types'
 import type { Strings } from '../lib/i18n'
 import { num, qCount } from "../lib/i18n"
-import { CLUE_SECS, GAME_MINUTES, applyPool, createGame, isPlayable, poolCounts } from '../lib/game'
+import { CLUE_SECS, GAME_MINUTES, applyPool, createGame, filterMadhhab, isPlayable, poolCounts } from '../lib/game'
 import { sfx } from '../lib/sound'
 import { loadNights, loadPack, type Night } from '../lib/packs'
-import { loadUsed, saveUsed } from '../lib/store'
+import { loadMadhhab, loadUsed, saveMadhhab, saveUsed } from '../lib/store'
 
 interface Props {
   t: Strings
@@ -21,21 +23,41 @@ interface Props {
   onStart: (g: Game) => void
 }
 
-const GROUP_ORDER: PackGroup[] = ['engineering', 'cces', 'general']
+type CollectionId = 'university' | 'islamic' | 'kids'
+const COLLECTIONS: { id: CollectionId; groups: PackGroup[] }[] = [
+  { id: 'university', groups: ['engineering', 'cces', 'general'] },
+  { id: 'islamic', groups: ['quran', 'hadith', 'aqidah', 'fiqh', 'prophets', 'arabic', 'tazkiyah', 'islamichistory'] },
+  { id: 'kids', groups: ['kids'] },
+]
+const collectionOf = (g: PackGroup) => COLLECTIONS.find((c) => c.groups.includes(g))?.id ?? 'university'
 
 const DEFAULT_TEAMS = { en: ['Team 1', 'Team 2', 'Team 3'], ar: ['الفريق ١', 'الفريق ٢', 'الفريق ٣'] }
 
 
 const NIGHTS_OPEN_KEY = 'gg.nightsOpen.v1'
+/** A themed night's icon: its honorific sign (Blessed Mawlid Night shows ﷺ), the Islamic line icon (isl-night-<id> in
+ * src/lib/islamic.ts) on the Islamic site, or the Get Grilled drawing (night-<id> in src/lib/caticons.ts). */
+function NightIcon({ n }: { n: Night }) {
+  if (n.sign)
+    return (
+      <span className="night-sign" aria-hidden="true">
+        {n.sign}
+      </span>
+    )
+  const isl = `isl-night-${n.id}`
+  return <CatIcon id={ISLAMIC_SET && islamicIconSvg(isl) ? isl : nightIconId(n.id)} />
+}
 export default function Setup({ t, lang, index, indexError, custom, pools, onBack, onStart }: Props) {
   const [picked, setPicked] = useState<string[]>([])
   const [closed, setClosed] = useState<PackGroup[]>([])
+  const [coll, setColl] = useState<CollectionId>('university')
   const [teams, setTeams] = useState<string[]>(DEFAULT_TEAMS[lang])
   const [timer, setTimer] = useState(30)
   const [levelTimers, setLevelTimers] = useState<(number | null)[]>([null, null, null, null, null])
   const [gameMinutes, setGameMinutes] = useState(0)
   const [golden, setGolden] = useState(1)
   const [deduct, setDeduct] = useState(true)
+  const [madhhab, setMadhhab] = useState<Madhhab>(loadMadhhab)
   const [extras, setExtras] = useState(true)
   const [steal, setSteal] = useState(1)
   const [crowd, setCrowd] = useState(1)
@@ -91,12 +113,15 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
   const total = (c: { counts: number[] }) => c.counts.reduce((a, b) => a + b, 0)
   const customSummaries: CategorySummary[] = custom.map((c) => ({ id: c.id, name: c.name, nameAr: c.nameAr, builtIn: false, counts: c.levels.map((l) => l.length) }))
 
+  // The school-of-fiqh choice only shows when a picked category has rulings that differ between schools.
+  const usesMadhhab = picked.some((id) => index?.find((c) => c.id === id)?.group === 'fiqh' || id === 'kids-wudu-salah' || id === 'kids-calendar')
+
   const start = async () => {
     if (picked.length === 0) return setError(t.needCats)
     if (teams.some((n) => !n.trim())) return setError(t.needTeams)
     setBusy(true)
     try {
-      const cats = (await Promise.all(picked.map((id) => custom.find((c) => c.id === id) ?? loadPack(id)))).map((c) => applyPool(c, pools[c.id]))
+      const cats = (await Promise.all(picked.map((id) => custom.find((c) => c.id === id) ?? loadPack(id)))).map((c) => filterMadhhab(applyPool(c, pools[c.id]), madhhab))
       const bad = cats.find((c) => !isPlayable(c))
       if (bad) throw new Error(`“${bad.name}” ${t.incomplete}`)
       const fun = extras ? { steal, crowd, streak, comeback, lightning, final } : {}
@@ -139,7 +164,7 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
         {nights.length > 0 && index && (
           <details className="nights" data-testid="nights" open={nightsOpen} onToggle={(e) => toggleNights((e.currentTarget as HTMLDetailsElement).open)}>
             <summary className="nights-tile">
-              <CatIcon id={chosenNight ? nightIconId(chosenNight.id) : 'nights'} />
+              {chosenNight ? <NightIcon n={chosenNight} /> : <CatIcon id={ISLAMIC_SET ? 'isl-nights' : 'nights'} />}
               <b>{t.nights}</b>
               <small>
                 {chosenNight ? (lang === 'ar' && chosenNight.nameAr ? chosenNight.nameAr : chosenNight.name) : `${num(nights.length, lang)} ${t.nightsCount}`}
@@ -149,9 +174,9 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
             <div className="night-grid">
               {nights.map((n) => (
                 <button key={n.id} className="night" aria-pressed={night === n.id} onClick={() => applyNight(n)} data-night={n.id}>
-                  <CatIcon id={nightIconId(n.id)} />
-                  <b>{lang === 'ar' && n.nameAr ? n.nameAr : n.name}</b>
-                  <small>{lang === 'ar' && n.aboutAr ? n.aboutAr : n.about}</small>
+                  <NightIcon n={n} />
+                  <b dir="auto">{lang === 'ar' && n.nameAr ? n.nameAr : n.name}</b>
+                  <small dir="auto">{lang === 'ar' && n.aboutAr ? n.aboutAr : n.about}</small>
                 </button>
               ))}
             </div>
@@ -163,16 +188,41 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
         {!index && !indexError && <p className="muted">{t.loading}</p>}
         {index &&
           (() => {
-            const groupName = { engineering: t.groupEngineering, cces: t.groupCces, general: t.groupGeneral }
+            const groupName: Record<PackGroup, string> = {
+              engineering: t.groupEngineering, cces: t.groupCces, general: t.groupGeneral,
+              quran: t.groupQuran, hadith: t.groupHadith, aqidah: t.groupAqidah, fiqh: t.groupFiqh, prophets: t.groupProphets,
+              arabic: t.groupArabic, tazkiyah: t.groupTazkiyah, islamichistory: t.groupIslamicHistory, kids: t.groupKids,
+            }
+            const collName: Record<CollectionId, string> = { university: t.collUniversity, islamic: t.collIslamic, kids: t.collKids }
+            const groupOf = (c: CategorySummary): PackGroup => c.group ?? 'general'
+            const present = COLLECTIONS.filter((col) => index.some((c) => col.groups.includes(groupOf(c))))
+            const active = present.some((col) => col.id === coll) ? coll : (present[0]?.id ?? 'university')
             let n = 0
-            const sections = GROUP_ORDER.map((g) => [g, index.filter((c) => (c.group ?? 'general') === g)] as const).filter(([, list]) => list.length > 0)
-            return sections.map(([g, list]) => (
+            const groups = COLLECTIONS.find((col) => col.id === active)!.groups
+            const sections = groups.map((g) => [g, index.filter((c) => groupOf(c) === g)] as const).filter(([, list]) => list.length > 0)
+            const tabs = present.length > 1 && (
+              <div className="coll-tabs" role="group" aria-label={t.collections}>
+                {present.map((col) => {
+                  const k = index.filter((c) => picked.includes(c.id) && collectionOf(groupOf(c)) === col.id).length
+                  return (
+                    <button key={col.id} aria-pressed={col.id === active} data-coll={col.id} onClick={() => setColl(col.id)}>
+                      {collName[col.id]}
+                      {k > 0 && <span className="n">{num(k, lang)}</span>}
+                    </button>
+                  )
+                })}
+              </div>
+            )
+            return [tabs, ...sections.map(([g, list]) => (
               <details className="cat-group" key={g} data-group={g} open={!closed.includes(g)} onToggle={(e) => {
                 const open = (e.currentTarget as HTMLDetailsElement).open
                 setClosed((cur) => (open ? cur.filter((x) => x !== g) : cur.includes(g) ? cur : [...cur, g]))
               }}>
                 <summary className="group-title">
-                  <span>{groupName[g]}</span>
+                  <span>
+                    <CatIcon id={g} className="cat-icon group-icon" />
+                    {groupName[g]}
+                  </span>
                   <span className="group-count">
                     {(() => {
                       const k = list.filter((c) => picked.includes(c.id)).length
@@ -182,7 +232,7 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
                 </summary>
                 <div className="cat-grid">{list.map((c) => card(c, n++))}</div>
               </details>
-            ))
+            ))]
           })()}
         {customSummaries.length > 0 && (
           <>
@@ -264,6 +314,29 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
             ))}
           </select>
         </label>
+        {usesMadhhab && (
+          <label className="field">
+            <span className="label">{t.madhhab}</span>
+            <select
+              className="input"
+              id="madhhab"
+              value={madhhab}
+              onChange={(e) => {
+                const m = e.target.value as Madhhab
+                setMadhhab(m)
+                saveMadhhab(m)
+              }}
+            >
+              <option value="">{t.madhhabAll}</option>
+              {(['h', 'm', 's', 'b'] as const).map((k, i) => (
+                <option key={k} value={k}>
+                  {t.madhhabNames[i]}
+                </option>
+              ))}
+            </select>
+            <span className="hint">{t.madhhabHint}</span>
+          </label>
+        )}
         <label className="check">
           <input type="checkbox" id="deduct" checked={deduct} onChange={(e) => setDeduct(e.target.checked)} />
           {t.deduct}

@@ -8,6 +8,7 @@ import { TimerBar } from './Timer'
 import { CatIcon } from './Brand'
 import { sfx } from '../lib/sound'
 import { burstAt } from '../lib/fx'
+import { qLen } from '../lib/qlen'
 
 interface Props {
   t: Strings
@@ -127,7 +128,7 @@ export function Lightning({ t, lang, game, setGame, onDone, hasFinal }: Props) {
             <span className="label">
               {num(st.i + 1, lang)} {t.ofTotal} {num(list.length, lang)}
             </span>
-            <p className="q" dir="auto" data-testid="lightning-q">
+            <p className="q" dir="auto" data-len={qLen(text)} data-testid="lightning-q">
               {text}
             </p>
             <div className={`answer${st.revealed ? ' show' : HOST_EDITION ? ' peek' : ''}`} dir="auto" data-peek={t.hostOnly} data-testid="lightning-a">
@@ -222,7 +223,7 @@ export function Final({ t, lang, game, setGame, onDone }: Props) {
               <span className="label">
                 <CatIcon id={f.cat.id} /> {cat}
               </span>
-              <p className="q" dir="auto" data-testid="final-q">
+              <p className="q" dir="auto" data-len={qLen(lang === 'ar' && f.q.qAr ? f.q.qAr : f.q.q)} data-testid="final-q">
                 {lang === 'ar' && f.q.qAr ? f.q.qAr : f.q.q}
               </p>
             </>

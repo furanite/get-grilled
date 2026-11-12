@@ -41,3 +41,42 @@ describe('heritage lock', () => {
     expect(new Set(THEMES.map((t) => t.id)).size).toBe(7)
   })
 })
+
+import { jumuahOpen, mawlidOpen, msUntilOpen, maghribAt } from '../src/lib/themes'
+
+describe('Maghrib-timed themes use the local place', () => {
+  const khobar = { place: { lat: 26.2172, lon: 50.1971 }, tz: 'Asia/Riyadh' }
+  const london = { place: { lat: 51.5074, lon: -0.1278 }, tz: 'Europe/London' }
+  it('opens the Friday theme at Thursday Maghrib in al-Khobar, not Riyadh', () => {
+    const sunset = maghribAt(2026, 11, 12, khobar.place).getTime() // Thursday 12 Nov 2026
+    expect(jumuahOpen(new Date(sunset - 60_000), khobar)).toBe(false)
+    expect(jumuahOpen(new Date(sunset + 60_000), khobar)).toBe(true)
+    // al-Khobar's sunset is about 15 minutes before Riyadh's
+    const riyadh = maghribAt(2026, 11, 12, { lat: 24.7136, lon: 46.6753 }).getTime()
+    expect((riyadh - sunset) / 60_000).toBeGreaterThan(10)
+    expect((riyadh - sunset) / 60_000).toBeLessThan(20)
+  })
+  it('closes at Friday Maghrib', () => {
+    const fri = maghribAt(2026, 11, 13, khobar.place).getTime()
+    expect(jumuahOpen(new Date(fri - 60_000), khobar)).toBe(true)
+    expect(jumuahOpen(new Date(fri + 60_000), khobar)).toBe(false)
+  })
+  it('follows the local day and sunset in London', () => {
+    const thu = maghribAt(2026, 11, 12, london.place)
+    // London sunset in mid-November is about 16:05 GMT
+    expect(thu.getUTCHours()).toBe(16)
+    expect(jumuahOpen(new Date(thu.getTime() + 60_000), london)).toBe(true)
+    expect(jumuahOpen(new Date(thu.getTime() - 60_000), london)).toBe(false)
+  })
+  it('opens Blessed Mawlid on Sunday Maghrib and counts down to it', () => {
+    const sun = maghribAt(2026, 11, 15, khobar.place).getTime() // Sunday 15 Nov 2026
+    expect(mawlidOpen(new Date(sun + 60_000), khobar)).toBe(true)
+    expect(mawlidOpen(new Date(sun - 60_000), khobar)).toBe(false)
+    expect(msUntilOpen('mawlid', new Date(sun - 3600_000), khobar)).toBe(3600_000)
+  })
+  it('never fails far north', () => {
+    const tromso = { place: { lat: 69.65, lon: 18.96 }, tz: 'Europe/Oslo' }
+    expect(Number.isFinite(maghribAt(2026, 12, 20, tromso.place).getTime())).toBe(true)
+    expect(typeof jumuahOpen(new Date('2026-12-17T20:00:00Z'), tromso)).toBe('boolean')
+  })
+})

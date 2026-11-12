@@ -5,7 +5,8 @@ import { isEmptyPool, nextStage } from './lib/game'
 import { setSoundEnabled, unlockAudio } from './lib/sound'
 import { CONSENT_TEXT, LEGAL } from './lib/legal'
 import { ConsentDialog, Footer, LegalViewer } from './components/Legal'
-import { heritageOpen } from './lib/themes'
+import Review from './components/Review'
+import { DEFAULT_THEME, THEMES, themeOpen } from './lib/themes'
 import { loadIndex } from './lib/packs'
 import { reducedMotion, startBackground } from './lib/fx'
 import { STRINGS } from './lib/i18n'
@@ -16,28 +17,29 @@ import Results from './components/Results'
 import { Final, Lightning } from './components/Rounds'
 import Builder from './components/Builder'
 import { AudienceScreen, useAudienceWindow } from './components/Audience'
-import { HOST_EDITION, type Live } from './lib/edition'
+import { APP_NAME, HOST_EDITION, appName, type Live } from './lib/edition'
 import { setFavicon } from './lib/favicon'
 import { Mark } from './components/Brand'
 import { HostLink } from './components/HostLink'
 
 export default function App() {
   const initial = useMemo(loadSettings, [])
-  const [theme, setThemeState] = useState<ThemeId>(initial.theme === 'heritage' && !heritageOpen() ? 'amethyst' : initial.theme)
+  const [theme, setThemeState] = useState<ThemeId>(!themeOpen(initial.theme) || !THEMES.some((th) => th.id === initial.theme) ? DEFAULT_THEME : initial.theme)
   const [lang, setLang] = useState<Lang>(initial.lang)
   const [reduceFx, setReduceFx] = useState<boolean>(!!initial.reduceFx)
   const [sound, setSound] = useState<boolean>(initial.sound)
   const [pools, setPoolsState] = useState<Record<string, PoolEdit>>(loadPools)
   const [consented, setConsented] = useState(() => hasConsent(LEGAL.termsVersion))
   const [legalView, setLegalView] = useState<'terms' | 'privacy' | null>(null)
-  const [screen, setScreen] = useState<Screen>('home')
+  // #review opens the Scholar review page directly (a link the owner can send to scholars).
+  const [screen, setScreen] = useState<Screen>(() => (location.hash === '#review' ? 'review' : 'home'))
   const [custom, setCustomState] = useState<Category[]>(loadCustom)
   const [index, setIndex] = useState<CategorySummary[] | null>(null)
   const [indexError, setIndexError] = useState('')
   const [game, setGameState] = useState<Game | null>(loadGame)
   const [toast, setToast] = useState<{ text: string; id: number } | null>(null)
   const [live, setLive] = useState<Live | null>(null)
-  const audience = useAudienceWindow('Get Grilled')
+  const audience = useAudienceWindow(APP_NAME)
   const themeRef = useRef(theme)
   const t = STRINGS[lang]
   const inGame = screen === 'game' || screen === 'lightning' || screen === 'final'
@@ -74,7 +76,7 @@ export default function App() {
   // Leave the Heritage theme when Friday afternoon ends, but never in the middle of a game.
   useEffect(() => {
     const id = setInterval(() => {
-      if (themeRef.current === 'heritage' && !heritageOpen() && !inGame) setThemeState('amethyst')
+      if (!themeOpen(themeRef.current) && !inGame) setThemeState(DEFAULT_THEME)
     }, 30_000)
     return () => clearInterval(id)
   }, [screen])
@@ -104,7 +106,7 @@ export default function App() {
 
   const setTheme = (next: ThemeId, e?: { clientX: number; clientY: number }) => {
     if (next === theme) return
-    if (next === 'heritage' && !heritageOpen()) return
+    if (!themeOpen(next)) return
     if (reducedMotion()) return setThemeState(next)
     const x = e?.clientX ?? innerWidth / 2
     const y = e?.clientY ?? innerHeight / 2
@@ -154,7 +156,7 @@ export default function App() {
           <header className="topbar">
             <button className="brand" onClick={() => setScreen('home')} aria-label={t.home}>
               <Mark theme={theme} className="brand-mark" />
-              <span className="brand-word">Get Grilled</span>
+              <span className="brand-word">{appName(lang)}</span>
             </button>
             <div className="row">
               {HOST_EDITION && (
@@ -194,7 +196,7 @@ export default function App() {
           </header>
 
           {screen === 'home' && (
-            <Home t={t} lang={lang} theme={theme} setTheme={setTheme} hasGame={!!game} onNew={() => setScreen('setup')} onResume={() => game && setScreen(stageScreen(game))} onBuilder={() => setScreen('builder')} />
+            <Home t={t} lang={lang} theme={theme} setTheme={setTheme} hasGame={!!game} onNew={() => setScreen('setup')} onResume={() => game && setScreen(stageScreen(game))} onBuilder={() => setScreen('builder')} onReview={() => setScreen('review')} />
           )}
           {screen === 'setup' && (
             <Setup
@@ -238,6 +240,7 @@ export default function App() {
               }}
             />
           )}
+          {screen === 'review' && <Review lang={lang} notify={notify} onBack={() => setScreen('home')} />}
           {screen === 'builder' && <Builder t={t} lang={lang} index={index} custom={custom} setCustom={setCustom} pools={pools} setPool={setPool} notify={notify} onBack={() => setScreen('home')} />}
           <Footer lang={lang} onOpen={setLegalView} />
         </div>

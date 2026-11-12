@@ -4,8 +4,8 @@ import { join } from 'node:path'
 import { META_CSP, SECURITY_HEADERS } from '../security-headers.mjs'
 
 describe('security policy', () => {
-  it('turns off camera, microphone and location', () => {
-    expect(SECURITY_HEADERS['Permissions-Policy']).toContain('geolocation=()')
+  it('turns off camera and microphone, and allows location only for this site (Maghrib-timed themes)', () => {
+    expect(SECURITY_HEADERS['Permissions-Policy']).toContain('geolocation=(self)')
     expect(SECURITY_HEADERS['Permissions-Policy']).toContain('camera=()')
     expect(SECURITY_HEADERS['Permissions-Policy']).toContain('microphone=()')
   })

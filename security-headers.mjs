@@ -18,8 +18,8 @@ export const SECURITY_HEADERS = {
   ].join('; '),
   'X-Content-Type-Options': 'nosniff',
   'Referrer-Policy': 'no-referrer',
-  // Get Grilled never needs the camera, microphone or location, so they are switched off for the page and any frame.
-  'Permissions-Policy': 'camera=(), microphone=(), geolocation=(), payment=(), usb=()',
+  // Location is allowed for this site only (the Maghrib-timed themes ask for it, after the player agrees), never for embedded frames.
+  'Permissions-Policy': 'camera=(), microphone=(), geolocation=(self), payment=(), usb=()',
 }
 
 /** The Content-Security-Policy for a <meta> tag: the same policy minus frame-ancestors, which browsers ignore there. */
