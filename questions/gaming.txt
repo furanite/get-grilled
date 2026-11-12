@@ -1,0 +1,517 @@
+id: gaming
+name: Gaming & Gadgets
+group: general
+
+## 100
+The Italian plumber who is Nintendo's most famous character. :: Mario
+Mario's taller brother, who wears green. :: Luigi
+The princess Mario usually rescues. :: Princess Peach
+The spiky turtle king who keeps kidnapping the princess. :: Bowser
+The fast blue hedgehog from Sega. :: Sonic
+The yellow round character who eats dots and runs from ghosts. :: Pac-Man
+The block-building game with creepers and diamonds. :: Minecraft
+The green exploding enemy in Minecraft. :: Creeper
+The falling-blocks puzzle game from the Soviet Union. :: Tetris
+The yellow electric Pokémon that is the series mascot. :: Pikachu
+The trainer who wants to be a Pokémon Master, Pikachu's partner. :: Ash Ketchum
+The device used to catch Pokémon. :: A Poké Ball
+The 2016 phone game where you catch Pokémon in the real world. :: Pokémon Go
+The hero in green who tries to save Princess Zelda. :: Link
+The Nintendo game series with Link, Zelda and Ganon. :: The Legend of Zelda
+The pink puffball from Nintendo who swallows enemies. :: Kirby
+The green dinosaur Mario rides. :: Yoshi
+The giant ape who threw barrels at Mario in 1981. :: Donkey Kong
+The Nintendo kart racing game with banana skins and shells. :: Mario Kart
+The football game series made by EA that was renamed EA Sports FC. :: FIFA
+The company that makes the PlayStation. :: Sony
+The company that makes the Xbox. :: Microsoft
+The company that makes the Switch. :: Nintendo
+The Nintendo console that works both on a TV and in your hands, launched in 2017. :: Nintendo Switch
+The Nintendo console that followed the Switch in 2025. :: Nintendo Switch 2
+The Sony console released in 2020. :: PlayStation 5
+The Microsoft console released in 2020 alongside the Series S. :: Xbox Series X
+The Nintendo console with motion-sensing remotes, released in 2006. :: Wii
+The Nintendo handheld with two screens, released in 2004. :: Nintendo DS
+The grey Nintendo handheld from 1989 that came with Tetris. :: Game Boy
+The online game where 100 players drop onto an island and build forts. :: Fortnite
+The platform where users make their own games, with blocky characters. :: Roblox
+The space-themed social game of 2020 where you find the "impostor". :: Among Us
+The game where you build a farm, often compared to Harvest Moon, made by one person. :: Stardew Valley
+The puzzle game where you match three sweets in a row. :: Candy Crush Saga
+The phone game where you fling birds at pigs. :: Angry Birds
+The phone game where you tap to make a bird fly through pipes. :: Flappy Bird
+The endless running game where you escape a train inspector on the tracks. :: Subway Surfers
+The phone game where you slice fruit with your finger. :: Fruit Ninja
+The life simulation game where you control people called Sims. :: The Sims
+The button on a controller usually used to pause a game. :: Start (or Options)
+The stick on a game controller used to move. :: The joystick (analog stick)
+The game controller used to steer in racing games, shaped like a wheel. :: A racing wheel
+The headset you wear to play games in virtual reality. :: A VR headset
+The full name of VR. :: Virtual reality
+The full name of AR. :: Augmented reality
+The full name of AI. :: Artificial intelligence
+The company that makes the iPhone. :: Apple
+The Korean company that makes the Galaxy phones. :: Samsung
+The Chinese company that makes the Mate and P series phones. :: Huawei
+The Chinese company with the "Redmi" phone brand. :: Xiaomi
+The operating system made by Google for phones. :: Android
+The operating system on the iPhone. :: iOS
+The operating system on most PCs, made by Microsoft. :: Windows
+The voice assistant on iPhones. :: Siri
+The voice assistant on Amazon's Echo speakers. :: Alexa
+The wireless technology for connecting earphones to your phone. :: Bluetooth
+The wireless technology that connects your phone to the internet at home. :: Wi-Fi
+Apple's wireless earbuds. :: AirPods
+Apple's smartwatch. :: Apple Watch
+Apple's tablet. :: iPad
+Apple's laptop range. :: MacBook
+The small, flat computer you touch to use, like an iPad. :: Tablet
+The portable computer you can fold. :: Laptop
+The small storage stick you plug into a USB port. :: A flash drive (USB stick)
+The cable standard with a reversible plug now used by most phones. :: USB-C
+The cable connector used on iPhones before 2023. :: Lightning
+The part of a computer you look at. :: The screen (monitor)
+The "brain" of a computer. :: The CPU (processor)
+The computer part that draws graphics for games. :: The graphics card (GPU)
+The short-term memory in a computer. :: RAM
+The unit of storage equal to 1,024 megabytes. :: Gigabyte
+The unit of storage bigger than a gigabyte. :: Terabyte
+The smallest unit of data, a 0 or 1. :: Bit
+Eight bits make one of these. :: Byte
+The picture you take of yourself with a phone. :: A selfie
+The stick used to hold a phone far away to take a selfie. :: A selfie stick
+The small picture used to show feelings in messages, like a smiley face. :: Emoji
+The popular messaging app with a green phone logo. :: WhatsApp
+The video app famous for short dance clips, owned by ByteDance. :: TikTok
+The photo-sharing app owned by Meta. :: Instagram
+The app with a ghost logo where snaps disappear. :: Snapchat
+The social platform once called Twitter. :: X
+The video website owned by Google. :: YouTube
+The game-streaming website owned by Amazon. :: Twitch
+The online video game store run by Valve. :: Steam
+The word for a person who plays video games a lot. :: Gamer
+The word for professional competitive video gaming. :: Esports
+The Saudi city that hosts the giant Esports World Cup each summer. :: Riyadh
+The video game character who is a blue robot boy in Japan, Mega Man's Japanese name. :: Rockman
+The 1972 table tennis video game by Atari. :: Pong
+The 1978 arcade game where you shoot descending aliens. :: Space Invaders
+The board game where players buy streets and build houses and hotels. :: Monopoly
+The board game where you climb ladders and slide down snakes. :: Snakes and Ladders
+The game played with 28 rectangular tiles with dots, popular in Saudi cafés. :: Dominoes
+The word game where you build words on a board with letter tiles. :: Scrabble
+The strategy board game with a king, queen and knights. :: Chess
+The Saudi game-and-anime company owned by the Misk Foundation. :: Manga Productions
+The thing you press on a controller to jump in most Mario games. :: A button (the A button)
+The mushroom-headed helper in Mario games. :: Toad
+
+## 200
+The year the original Nintendo Entertainment System came out in Japan, as the Famicom. :: 1983
+The year the first PlayStation was released. :: 1994
+The year the first Xbox was released. :: 2001
+The year Minecraft was first released publicly. :: 2009
+The Swedish programmer who created Minecraft. :: Markus Persson (Notch)
+The company that bought Minecraft in 2014. :: Microsoft
+The best-selling video game of all time. :: Minecraft
+The best-selling game console of all time, by Sony. :: PlayStation 2
+Nintendo's best-selling console. :: Nintendo DS (and Switch)
+The creator of Mario and Zelda at Nintendo. :: Shigeru Miyamoto
+Mario's original name in Donkey Kong. :: Jumpman
+Mario's original job before he became a plumber. :: Carpenter
+The year Super Mario Bros. was released. :: 1985
+The Japanese company that created Sonic the Hedgehog. :: Sega
+Sonic's two-tailed fox friend. :: Tails
+Sonic's red echidna rival. :: Knuckles
+Sonic's evil scientist enemy. :: Dr. Eggman (Robotnik)
+The number of original Pokémon in Red and Blue. :: 151
+The first Pokémon in the Pokédex. :: Bulbasaur
+The Pokémon that is number 150, a powerful psychic clone. :: Mewtwo
+The three starter types in most Pokémon games: Grass, Fire and this. :: Water
+The fire-type starter in Pokémon Red and Blue. :: Charmander
+The water-type starter in Pokémon Red and Blue. :: Squirtle
+The company that makes Pokémon games, based in Japan. :: Game Freak (with Nintendo)
+The ghost characters chasing Pac-Man: Blinky, Pinky, Inky and this. :: Clyde
+The Japanese company that made Pac-Man. :: Namco
+The fruit-like item Pac-Man eats to turn the ghosts blue. :: Power pellet
+The Russian engineer who created Tetris in 1984. :: Alexey Pajitnov
+The Tetris piece shaped like a straight line. :: The I piece
+The Nintendo handheld that sold Tetris to millions. :: Game Boy
+The game company behind Fortnite. :: Epic Games
+The game engine made by Epic Games. :: Unreal Engine
+The popular game engine named after "unity". :: Unity
+The game where you jump into a "Battle Bus". :: Fortnite
+The Roblox currency. :: Robux
+The Minecraft dimension full of lava and ghasts. :: The Nether
+The Minecraft dimension where you fight the Ender Dragon. :: The End
+The Minecraft tall creature that hates being looked at. :: Enderman
+The main character in Minecraft. :: Steve
+The Minecraft mode where you have unlimited blocks and can fly. :: Creative mode
+The famous FIFA game mode for building a team of player cards. :: Ultimate Team
+The football game series by Konami that rivalled FIFA, now called eFootball. :: Pro Evolution Soccer (PES)
+The car game series by Sony, called "the real driving simulator". :: Gran Turismo
+The Microsoft racing game series set in open worlds. :: Forza Horizon
+The Nintendo party game with mini-games on a board. :: Mario Party
+The Nintendo fighting game with Mario, Link and Pikachu. :: Super Smash Bros.
+The Nintendo life game where you live on an island with animal neighbours. :: Animal Crossing
+The raccoon-dog shopkeeper in Animal Crossing. :: Tom Nook
+The Nintendo shooting game with squid kids and ink. :: Splatoon
+The Mario character who is Mario's evil rival in yellow and purple. :: Wario
+The Mario character who is Luigi's evil rival. :: Waluigi
+The game character Lara Croft explores tombs in this series. :: Tomb Raider
+The hero of the Halo series, a super-soldier. :: Master Chief
+The Ubisoft series about secret assassins across history, one set in Baghdad. :: Assassin's Creed
+The Assassin's Creed game set in 9th-century Baghdad, released in 2023. :: Assassin's Creed Mirage
+The main character of Assassin's Creed Mirage. :: Basim
+The Japanese company behind Street Fighter and Resident Evil. :: Capcom
+The Japanese company behind Final Fantasy and Dragon Quest. :: Square Enix
+The Japanese company that made Elden Ring and Dark Souls. :: FromSoftware
+The Polish company behind The Witcher and Cyberpunk 2077. :: CD Projekt Red
+The Saudi state fund that bought a stake in Nintendo in 2022. :: The Public Investment Fund (PIF)
+The Saudi-owned group that bought Scopely, maker of Monopoly Go, in 2023. :: Savvy Games Group
+The company that bought ESL and FACEIT, merging them into ESL FACEIT Group. :: Savvy Games Group
+The Saudi esports club that has won many trophies, named after a falcon. :: Team Falcons
+The Saudi FIFA player who won the 2018 FIFA eWorld Cup. :: Mosaad Aldossary (Msdossary)
+The Riyadh esports event with the biggest prize pool in history. :: Esports World Cup
+The esports game where two teams of five destroy the enemy's Nexus. :: League of Legends
+The company that makes League of Legends. :: Riot Games
+The game "Dota 2" was made by this company. :: Valve
+Valve's Counter-Strike's latest version, released in 2023. :: Counter-Strike 2
+The Finnish company behind Clash of Clans and Clash Royale. :: Supercell
+The Finnish company behind Angry Birds. :: Rovio
+The Japanese company that made the Walkman. :: Sony
+The Apple music player launched in 2001. :: iPod
+The year the first iPhone was released. :: 2007
+The year the first iPad was released. :: 2010
+The company that made the first Android phone, the T-Mobile G1. :: HTC
+Google's own phone brand. :: Pixel
+Samsung's phone with an S Pen stylus. :: Galaxy Note
+Samsung's folding phone line. :: Galaxy Z Fold (and Z Flip)
+The Finnish company that was the world's top phone maker in the 2000s. :: Nokia
+The Nokia phone model famous for being indestructible. :: Nokia 3310
+The game preloaded on old Nokia phones where a line eats dots and grows. :: Snake
+The company that makes the Kindle e-reader. :: Amazon
+Microsoft's AI assistant built into Windows and Office. :: Copilot
+The AI chatbot made by OpenAI, launched in 2022. :: ChatGPT
+The AI assistant made by Anthropic. :: Claude
+Google's AI assistant and model family. :: Gemini
+The type of screen made of organic diodes, used in many phones. :: OLED
+The number of pixels in a "4K" screen's width, roughly. :: About 4,000 (3,840)
+The full name of "HD". :: High definition
+The full name of "USB". :: Universal Serial Bus
+The full name of "PDF". :: Portable Document Format
+The Mario Kart item that flies straight to the racer in first place. :: The blue shell (Spiny Shell)
+The Minecraft block you need to build a Nether portal. :: Obsidian
+Minecraft villagers trade using this green gem. :: Emeralds
+The Nintendo racing series with hover cars and Captain Falcon. :: F-Zero
+Apple's small tracking tag, released in 2021. :: AirTag
+Google's range of smart speakers and home devices. :: Google Nest
+Meta's smart glasses are made with this sunglasses brand. :: Ray-Ban
+The meaning of "GPS". :: Global Positioning System
+
+## 300
+The Japanese company that made playing cards before video games, founded in 1889. :: Nintendo
+The Nintendo designer who created the Game Boy. :: Gunpei Yokoi
+The Nintendo console that used discs called mini-DVDs, released in 2001. :: GameCube
+The Nintendo console from 1996 with a three-pronged controller. :: Nintendo 64
+The 1996 Nintendo 64 game that introduced Mario in 3D. :: Super Mario 64
+The Zelda game often called the greatest ever, from 1998. :: Ocarina of Time
+The Zelda game of 2017 that launched with the Switch. :: Breath of the Wild
+The 2023 sequel to Breath of the Wild. :: Tears of the Kingdom
+The kingdom in which most Zelda games take place. :: Hyrule
+The main villain of the Zelda series. :: Ganon (Ganondorf)
+The sword Link often uses. :: The Master Sword
+The fairy who guides Link in Ocarina of Time. :: Navi
+The Sega console that competed with the Super Nintendo, called the Genesis in America. :: Mega Drive
+The Sega console from 1998, Sega's last. :: Dreamcast
+The Atari console from 1977 that made home gaming popular. :: Atari 2600
+The 1982 Atari game, based on a film, blamed for the video game crash. :: E.T. the Extra-Terrestrial
+The year of the North American video game crash. :: 1983
+The first home video game console, from 1972. :: Magnavox Odyssey
+The engineer called "the father of video games" who made the Odyssey. :: Ralph Baer
+The Japanese designer who created Pac-Man. :: Toru Iwatani
+Pac-Man's shape was inspired by this food with a slice missing. :: A pizza
+The arcade game "Space Invaders" was made by this company. :: Taito
+The designer of Space Invaders. :: Tomohiro Nishikado
+The legendary 1989 Game Boy launch title from Russia. :: Tetris
+The first game played in space, taken on a Game Boy by a cosmonaut in 1993. :: Tetris
+The yearly Dota 2 world championship tournament. :: The International
+The Valve shooting game first released as a mod of Half-Life in 1999. :: Counter-Strike
+Valve's famous series in which scientist Gordon Freeman fights aliens. :: Half-Life
+The game series by Valve with portals and a companion cube. :: Portal
+The AI villain in Portal. :: GLaDOS
+The joke in Portal that promises a reward which never comes. :: The cake is a lie
+The phrase "It's dangerous to go alone! Take this" comes from this 1986 game. :: The Legend of Zelda
+The phrase "All your base are belong to us" comes from this kind of bad translation. :: A video game translation (Zero Wing)
+The phrase "The princess is in another castle" comes from this game. :: Super Mario Bros.
+The "Konami Code" begins with this sequence. :: Up, up, down, down
+The famous "Konami Code" gives the player this in Gradius and Contra. :: Extra lives or power-ups
+The game in which you guide lemming-like creatures, made by DMA Design. :: Lemmings
+The puzzle game "Portal" was based on this student project. :: Narbacular Drop
+The Nintendo character who is a space bounty hunter in a power suit. :: Samus Aran
+The surprise of the first Metroid game was that Samus was this. :: A woman
+The famous speedrunning term for finishing a game as fast as possible using glitches. :: Speedrun (any%)
+The event where speedrunners raise money for charity twice a year. :: Games Done Quick
+The name for a game's hidden message or joke left by developers. :: Easter egg
+The first known video game Easter egg was hidden in this Atari game in 1980. :: Adventure
+The orange bandicoot mascot of the early PlayStation. :: Crash Bandicoot
+The purple dragon PlayStation mascot. :: Spyro
+The furry Lombax hero of "Ratchet & Clank". :: Ratchet
+The Sony robot dog sold from 1999. :: Aibo
+The Tamagotchi was a digital pet from this country. :: Japan
+The Tamagotchi was made by this toy company. :: Bandai
+The digital pet craze of 1996 shaped like an egg. :: Tamagotchi
+The web game genie that guesses the famous person you are thinking of. :: Akinator
+The Sony handheld console from 2004. :: PSP (PlayStation Portable)
+Sony's handheld console released in 2011. :: PlayStation Vita
+The Nintendo handheld from 2011 with 3D without glasses. :: Nintendo 3DS
+The Valve handheld PC launched in 2022. :: Steam Deck
+The Meta VR headset line. :: Meta Quest
+Apple's mixed-reality headset launched in 2024. :: Apple Vision Pro
+The 2016 VR headset made by HTC and Valve. :: HTC Vive
+The VR headset whose founder was Palmer Luckey. :: Oculus Rift
+The term for a phone game that is free but sells items. :: Free-to-play
+The term for buying random rewards in games, criticised as gambling-like. :: Loot boxes
+The term for a game sold early before it is finished. :: Early access
+The term for extra paid content added to a game. :: DLC (downloadable content)
+The game studio behind "The Last of Us". :: Naughty Dog
+The game genre with random levels and permanent death, named after a 1980 game. :: Roguelike
+The game "Hades" is a famous example of this genre. :: Roguelike
+The game genre named after "Metroid" and "Castlevania". :: Metroidvania
+The game genre MOBA stands for "Multiplayer Online" this. :: Battle Arena
+The game genre "RPG" stands for this. :: Role-playing game
+The game genre "RTS" stands for this. :: Real-time strategy
+The game genre "FPS" stands for this. :: First-person shooter
+The term "NPC" in games stands for this. :: Non-player character
+The term "HP" in games stands for this. :: Hit points (health)
+The term "XP" in games stands for this. :: Experience points
+The term "GG" said at the end of a match stands for this. :: Good game
+The term "AFK" stands for this. :: Away from keyboard
+The term "noob" means this. :: A beginner
+The term "lag" means this. :: Delay caused by a slow connection
+The term "boss" in a game means this. :: A powerful enemy, usually at the end of a level
+The term "respawn" means this. :: Coming back to life after being defeated
+The term "nerf" means this. :: Making something weaker in an update
+The term "buff" means this. :: Making something stronger
+The camera view called "third-person" shows this. :: Your character from behind
+The original Game Boy had this many colour shades on its green screen. :: Four
+The NES controller has this many face buttons, A and B. :: Two
+The Xbox controller face buttons are A, B, X and this. :: Y
+The PlayStation controller symbols are circle, cross, triangle and this. :: Square
+The PlayStation's cross button means "yes" in the West but this button means "yes" in Japan. :: Circle
+The 2007 Wii Mario game set in outer space. :: Super Mario Galaxy
+The 2017 Switch Mario game where Mario throws his living hat, Cappy. :: Super Mario Odyssey
+The animation studio that made "The Super Mario Bros. Movie" with Nintendo in 2023. :: Illumination
+The game that came with the Wii, with bowling, tennis and boxing. :: Wii Sports
+The cartoon avatars players create on the Wii. :: Miis
+Sonic collects these golden items. :: Rings
+The first live-action "Sonic the Hedgehog" film was released in this year. :: 2020
+The small American studio that made Among Us. :: Innersloth
+The 2009 mining game that inspired Minecraft. :: Infiniminer
+The term for a game made by a small independent studio. :: Indie game
+The Nintendo console with a tablet-like GamePad, released in 2012. :: Wii U
+Nintendo's toy figures that unlock content using NFC chips. :: Amiibo
+
+## 400
+The year Nintendo was founded. :: 1889
+The founder of Nintendo. :: Fusajiro Yamauchi
+The Nintendo president who led the company from 1949 to 2002. :: Hiroshi Yamauchi
+The Nintendo president known for "Nintendo Direct" videos, who died in 2015. :: Satoru Iwata
+The extending grabber-arm toy Nintendo made in 1966. :: Ultra Hand
+The 1985 game bundled with a light gun called the Zapper. :: Duck Hunt
+The laughing dog in Duck Hunt. :: The Duck Hunt dog
+The failed Nintendo 3D console of 1995, with a red display. :: Virtual Boy
+The Nintendo add-on for the Super Nintendo with Sony that later became the PlayStation. :: The SNES-CD (Nintendo PlayStation)
+The Sony engineer called the "father of the PlayStation". :: Ken Kutaragi
+The PlayStation 2 is the best-selling console with roughly this many units sold. :: About 160 million
+The 2006 PlayStation console that included a Blu-ray player. :: PlayStation 3
+The Xbox 360 hardware fault known by this colourful name. :: The Red Ring of Death
+The Microsoft console motion sensor of 2010. :: Kinect
+The handheld from Sega in 1990 that rivalled the Game Boy. :: Game Gear
+The handheld from Atari in 1989, the first with a colour screen. :: Atari Lynx
+The handheld by Nokia that was also a phone, in 2003. :: N-Gage
+The 2D Mario world where Yoshi first appeared, in 1990. :: Super Mario World
+The year Pokémon Red and Green came out in Japan. :: 1996
+The creator of Pokémon, who loved collecting insects. :: Satoshi Tajiri
+The cable that connected two Game Boys to trade Pokémon. :: The Game Link Cable
+The rare Pokémon you could only get at events, number 151. :: Mew
+The glitch Pokémon in Red and Blue that could copy items. :: MissingNo.
+The Pokémon whose name is a combination of "pika" (sparkle) and "chu" (squeak). :: Pikachu
+The Pokémon whose evolutions are nicknamed "Eeveelutions". :: Eevee
+The Pokémon series' professor in Red and Blue. :: Professor Oak
+The rival in Pokémon Red and Blue. :: Gary (Blue)
+The highest number of Pokémon species by the Scarlet and Violet era, roughly. :: Over 1,000
+The first sports game in the FIFA series was released in this year. :: 1993
+The FIFA series was renamed EA Sports FC in this year. :: 2023
+The Real Madrid player on the cover of EA Sports FC 25. :: Jude Bellingham
+The game company behind Call of Duty, bought by Microsoft in 2023. :: Activision Blizzard
+The price Microsoft paid for Activision Blizzard, roughly. :: About 69 billion dollars
+The Blizzard game set in the world of Azeroth, a huge online RPG. :: World of Warcraft
+The Blizzard team-based hero shooter released in 2016. :: Overwatch
+The Blizzard card game based on Warcraft. :: Hearthstone
+The Blizzard strategy game with Terrans, Zerg and Protoss. :: StarCraft
+The country where StarCraft became a national sport and TV channels showed it. :: South Korea
+The Korean professional gamer called "the GOAT" of League of Legends. :: Faker
+Faker's team, which has won several world championships. :: T1
+The trophy in League of Legends Worlds. :: The Summoner's Cup
+The Saudi-based organisation that runs the Esports World Cup. :: Esports World Cup Foundation
+The total prize money at the 2025 Esports World Cup, roughly. :: About 70 million dollars
+The Saudi company formed in 2021 to grow the country's gaming industry, owned by PIF. :: Savvy Games Group
+The Japanese fighting game company SNK, now majority owned by this Saudi foundation. :: The Misk Foundation
+The SNK fighting game series with Terry Bogard. :: Fatal Fury
+The SNK fighting game series with Kyo Kusanagi and Iori Yagami. :: The King of Fighters
+The Capcom fighting game character who shouts "Hadouken!". :: Ryu
+The Capcom fighting game character, a Chinese martial artist, the first female fighter in Street Fighter. :: Chun-Li
+The Capcom game series with Mega Man's blue robot. :: Mega Man
+The Capcom monster-hunting series that sold huge numbers in Japan. :: Monster Hunter
+The Capcom "Resident Evil" series is known in Japan as this. :: Biohazard
+The Square Enix series with Cloud Strife and Sephiroth. :: Final Fantasy
+The Final Fantasy game with Cloud, remade in 2020. :: Final Fantasy VII
+The Final Fantasy series' famous yellow riding bird. :: Chocobo
+The Square Enix series with blue Slime monsters, huge in Japan. :: Dragon Quest
+The artist who designed Dragon Quest's characters, also creator of Dragon Ball. :: Akira Toriyama
+The open-world game from FromSoftware that won Game of the Year in 2022. :: Elden Ring
+The fantasy author who helped write Elden Ring's world. :: George R. R. Martin
+The director of Elden Ring and Dark Souls. :: Hidetaka Miyazaki
+The famous difficult game type named after Dark Souls. :: Soulslike
+The game that won The Game Awards' Game of the Year in 2023, set in the Forgotten Realms. :: Baldur's Gate 3
+The game that won Game of the Year at The Game Awards in 2024, a PlayStation robot platformer. :: Astro Bot
+The yearly gaming awards show hosted by Geoff Keighley. :: The Game Awards
+The yearly video game trade show in Los Angeles that ended in 2023. :: E3
+The German gaming convention, the largest in the world. :: Gamescom
+The Tokyo gaming show held each September. :: Tokyo Game Show
+The Saudi gaming convention held in Riyadh's Boulevard. :: Gamers8 (now part of the Esports World Cup)
+The Apple co-founder who designed the Apple I and Apple II. :: Steve Wozniak
+The Apple product announced in 2007 as "an iPod, a phone, and an internet communicator". :: iPhone
+The first iPhone's storage options were 4 GB and this. :: 8 GB
+The app store launched by Apple in 2008. :: The App Store
+The Apple voice assistant first added to the iPhone 4S in 2011. :: Siri
+Apple's face-recognition unlock introduced with the iPhone X. :: Face ID
+The fingerprint sensor Apple introduced in 2013. :: Touch ID
+The Apple chip family that replaced Intel in Macs from 2020. :: Apple silicon (M1 and later)
+Samsung's "Galaxy Note 7" was recalled in 2016 because of this problem. :: Batteries catching fire
+The company whose founder is Lei Jun. :: Xiaomi
+The founder of Huawei. :: Ren Zhengfei
+The Taiwanese company that makes most of the world's advanced chips. :: TSMC
+The Dutch company that makes the machines that print advanced chips. :: ASML
+The US chip company whose graphics cards power AI, led by Jensen Huang. :: Nvidia
+The colourful Mario Kart track set in space, with no barriers. :: Rainbow Road
+The first Mario Kart game, released on the SNES in 1992. :: Super Mario Kart
+The 1991 Zelda game on the SNES. :: A Link to the Past
+The "Tetris effect" describes this. :: Seeing game patterns in your mind after playing a lot
+The Dutch-American businessman who won the Game Boy rights to Tetris in Moscow. :: Henk Rogers
+The highest-grossing media franchise of all time, started as a video game. :: Pokémon
+The best-selling game on the Nintendo Switch. :: Mario Kart 8 Deluxe
+The best-selling game on the Nintendo 64. :: Super Mario 64
+The year Fortnite Battle Royale launched. :: 2017
+Among Us came out in 2018 but became hugely popular in this year. :: 2020
+The company that created Pokémon Go. :: Niantic
+The company that bought Niantic's games business, including Pokémon Go, in 2025. :: Scopely
+The price Scopely paid for Niantic's games business, roughly. :: About 3.5 billion dollars
+The number of players who drop into a standard Fortnite Battle Royale match. :: 100
+Fortnite's in-game currency. :: V-Bucks
+The screen resolution of the original Game Boy. :: 160 x 144 pixels
+The name of the PlayStation 5 controller. :: DualSense
+The name of the PlayStation 4 controller. :: DualShock 4
+
+## 500
+The first video game, often credited to physicist William Higinbotham in 1958, was this. :: Tennis for Two
+The 1962 MIT game played on a PDP-1 computer, among the first digital games. :: Spacewar!
+The first commercial arcade video game, released in 1971. :: Computer Space
+The founders of Atari. :: Nolan Bushnell and Ted Dabney
+The word "Atari" comes from this board game. :: Go
+The Atari 2600 game "Adventure" hid the name of this programmer in a secret room. :: Warren Robinett
+The New Mexico landfill where Atari buried unsold E.T. cartridges, dug up in 2014. :: Alamogordo
+The original name of the Nintendo Entertainment System in Japan. :: Family Computer (Famicom)
+The Nintendo robot accessory sold with the NES in America to make it seem like a toy. :: R.O.B. (Robotic Operating Buddy)
+The 1985 Nintendo seal that promised game quality. :: The Nintendo Seal of Quality
+The composer of the Super Mario Bros. and Zelda music. :: Koji Kondo
+The composer of the Final Fantasy music. :: Nobuo Uematsu
+The composer of the original Sonic the Hedgehog music, from the band Dreams Come True. :: Masato Nakamura
+The designer of Sonic the Hedgehog's look. :: Naoto Ohshima
+The programmer of the original Sonic game. :: Yuji Naka
+Sonic was given blue colour to match this. :: Sega's logo
+The Japanese name of "Mario" was partly inspired by Mario Segale, who was this. :: Nintendo of America's warehouse landlord
+Luigi's name may come from a pizza restaurant called this, near Nintendo of America. :: Mario & Luigi's
+The 1989 Game Boy's processor was a version of this 8-bit chip. :: Zilog Z80 (Sharp LR35902)
+The Nintendo 64 controller's middle prong held this. :: The analog stick
+The PlayStation's chief rival in 1995 from Sega. :: Sega Saturn
+The best-selling game on the original PlayStation. :: Gran Turismo
+The number of Nintendo Switch consoles sold, roughly, by 2025. :: About 150 million
+The Game Boy and Game Boy Color together sold about this many units. :: About 119 million
+The name of Nintendo's online service with classic NES games. :: Nintendo Switch Online
+The Nintendo Wii's codename during development. :: Revolution
+The Nintendo DS's codename during development. :: Nitro
+The Xbox was named after this technology. :: DirectX
+The first Xbox was famous for its huge controller nicknamed this. :: The Duke
+The game company Bungie made this series before Destiny. :: Halo
+The founder of Valve, previously a Microsoft employee. :: Gabe Newell
+The year Valve launched Steam. :: 2003
+Valve's 2020 VR game set between Half-Life 1 and 2. :: Half-Life: Alyx
+The prize pool record holder for a single esports tournament, Dota 2's The International 2021, roughly. :: About 40 million dollars
+The Danish Counter-Strike team that won four majors, three of them in a row. :: Astralis
+The largest prize pool for a single player in a Fortnite World Cup was won in 2019 by this American teenager. :: Bugha (Kyle Giersdorf)
+The amount Bugha won at the 2019 Fortnite World Cup. :: 3 million dollars
+The Saudi team that won the Esports World Cup Club Championship in 2024. :: Team Falcons
+The 2022 Saudi PIF purchase in Nintendo made it the largest outside investor, owning about this share. :: About 5 percent (later 8 percent)
+The Saudi state fund that bought stakes in Capcom and Koei Tecmo in 2022. :: The Public Investment Fund (PIF)
+Assassin's Creed Mirage can be played fully voiced in this language. :: Arabic
+The classic 1989 game series "Prince of" this place. :: Persia
+The creator of "Prince of Persia", who filmed his brother to animate the hero. :: Jordan Mechner
+The animation technique Jordan Mechner used for Prince of Persia. :: Rotoscoping
+The 2003 Ubisoft remake series "Prince of Persia: The Sands of" this. :: Time
+The man who created "The Sims" and "SimCity". :: Will Wright
+The fake language spoken by the Sims. :: Simlish
+The diamond above a Sim's head is called this. :: A Plumbob
+The company that makes The Sims. :: Maxis (EA)
+The game where you guide a frog across a road and river. :: Frogger
+The game that came on every Windows PC as a card game, later Solitaire's companion with mines. :: Minesweeper
+Microsoft added Solitaire to Windows 3.0 to teach people to use this. :: The mouse (drag and drop)
+The chess computer that beat Garry Kasparov in 1997. :: Deep Blue
+The Google DeepMind AI that beat Lee Sedol at Go in 2016. :: AlphaGo
+The famous 37th move of AlphaGo in game 2 is called this. :: Move 37
+The AI that learned chess from scratch and beat Stockfish in 2017. :: AlphaZero
+The open-source chess engine that is the strongest in the world. :: Stockfish
+The highest chess rating ever achieved by a human, by Magnus Carlsen. :: 2882
+The game "Wordle" was bought by the New York Times in this year. :: 2022
+IBM's 1994 touchscreen phone, often called the first smartphone. :: IBM Simon
+The first camera phone sold in Japan in 2000 was made by this company. :: Sharp
+The name of the first iPhone's processor maker. :: Samsung
+The person who is called the "father of the mobile phone". :: Martin Cooper
+The weight of the first handheld mobile phone, the DynaTAC, roughly. :: About 1.1 kg
+The Japanese mobile internet service launched in 1999 by NTT Docomo. :: i-mode
+The first emoji set was created in 1999 by this designer for NTT Docomo. :: Shigetaka Kurita
+The number of original emoji Kurita made. :: 176
+The museum that holds Kurita's original emoji. :: MoMA (Museum of Modern Art)
+The "Tears of Joy" emoji was named the Oxford Dictionaries Word of the Year in this year. :: 2015
+The first domain name ever registered, in 1985. :: Symbolics.com
+The first tweet, by Jack Dorsey, said "just setting up my" this. :: twttr
+The first YouTube video was uploaded by this co-founder. :: Jawed Karim
+The first image uploaded to the web was of this comedy band at CERN. :: Les Horribles Cernettes
+"Space Invaders" was so popular in Japan it was said to cause a shortage of this coin. :: The 100-yen coin
+The colour of the original "Legend of Zelda" NES cartridge. :: Gold
+The first console with a built-in hard drive. :: Xbox
+The first console with a built-in modem for online play, released by Sega in 1998. :: Dreamcast
+The Nintendo 64 accessory that made the controller vibrate. :: Rumble Pak
+The Game Boy accessory that printed photos on heat-sensitive paper. :: Game Boy Printer
+The Power Glove controller of 1989 was made for this console. :: NES
+The Nintendo Switch's codename during development. :: NX
+Pac-Man's original Japanese name. :: Puck Man
+The highest possible score in the original Pac-Man. :: 3,333,360
+The level where Pac-Man's screen breaks into garbage, the "kill screen". :: Level 256
+The level of the original Donkey Kong arcade game's kill screen. :: Level 22
+The 2007 documentary about rival Donkey Kong high-score players. :: The King of Kong
+One of the rarest NES cartridges, made for a 1990 competition. :: Nintendo World Championships 1990
+The 1993 puzzle game set on a mysterious island, a best-selling PC game of the 1990s. :: Myst
+Final Fantasy VII moved the series from Nintendo consoles to this one. :: PlayStation
+The voice actor who voiced Mario in games from the 1990s until 2023. :: Charles Martinet
+The actor who voiced Mario in the 2023 film. :: Chris Pratt
+"The Super Mario Bros. Movie" earned about this much worldwide. :: About 1.36 billion dollars
+"Pokémon" is short for this. :: Pocket Monsters
+The rare Pokémon card that sold for over 5 million dollars in 2022. :: Pikachu Illustrator
+The Pokémon type added in 2013, the newest of all. :: Fairy
+The number of Pokémon types today. :: 18
+The Minecraft world border sits about this many blocks from the centre. :: 30 million
+The unbreakable block at the bottom of a Minecraft world. :: Bedrock
+The Minecraft creeper came from a mistake when making a model of this animal. :: A pig
+The best-selling single home computer model of all time, from 1982. :: Commodore 64
+The British inventor of the ZX Spectrum home computer. :: Clive Sinclair
+The 1982 film about a programmer pulled inside a computer game. :: Tron
