@@ -592,12 +592,238 @@ function playPattern(k: Kit, t: number, iqa: (typeof IQA)[IqaId], s: number, bar
   return t + bars * len * s
 }
 
+/* ---------- Nasheed ensembles for the title tunes ---------- */
+
+/** A hand clap: a few quick slaps of noise and a short tail. */
+export function clap(k: Kit, t: number, g = 0.2, pan = 0) {
+  for (let i = 0; i < 3; i++) hiss(k, t + i * 0.009, 0.02, g * (i === 2 ? 1 : 0.55), rnd(1050, 1350), 0.9, 'bandpass', pan, 0.35, 0.002)
+  hiss(k, t + 0.02, 0.13, g * 0.45, 1300, 0.7, 'bandpass', pan, 0.45)
+}
+
+/** A foot stamping the floor, as in the Caucasus zikr circle. */
+export function stomp(k: Kit, t: number, g = 0.35, pan = 0) {
+  thump(k, t, 62, 36, 0.1, 0.28, g, 'sine', pan, 0.12)
+  hiss(k, t, 0.07, g * 0.4, 220, 0.8, 'lowpass', pan, 0.08)
+}
+
+/** A sharp finger slap on a small, tight frame (doira, rebana). */
+export function slap(k: Kit, t: number, g = 0.2, pan = 0) {
+  hiss(k, t, 0.045, g, 3600, 1.6, 'bandpass', pan, 0.25, 0.002)
+  thump(k, t, 880, 680, 0.03, 0.05, g * 0.3, 'triangle', pan, 0.2)
+}
+
+/**
+ * Strokes in the patterns: B big frame drum (bass), D daff dum, M small high frame drum,
+ * T tak, k soft ka, P sharp slap, C claps, S stamping feet, R a fast tremolo roll, . rest.
+ */
+type Stroke = 'B' | 'D' | 'M' | 'T' | 'k' | 'P' | 'C' | 'S' | 'R'
+function strike(k: Kit, ch: Stroke, t: number, g: number, pan: number) {
+  switch (ch) {
+    case 'B': return dum(k, t, g * 1.1, pan, 0.7)
+    case 'D': return dum(k, t, g, pan)
+    case 'M': return dum(k, t, g * 0.75, pan, 1.75, true)
+    case 'T': return tak(k, t, g * 0.55, pan)
+    case 'k': return ka(k, t, g * 0.4, pan)
+    case 'P': return slap(k, t, g * 0.5, pan)
+    case 'C': return clap(k, t, g * 0.45, pan)
+    case 'S': return stomp(k, t, g * 0.8, pan)
+    case 'R': return roll(k, t, 0.28, g * 0.08, g * 0.45, 28, pan)
+  }
+}
+
+interface Layer {
+  /** One character per sixteenth note. */
+  p: string
+  /** How many people play it (claps and drums sound like a group). */
+  players?: number
+  pan?: number
+  g?: number
+}
+
+export interface Ensemble {
+  name: string
+  layers: Layer[]
+  /** How the tune opens: some layers alone, two slow great strokes, or a long roll. */
+  intro: { kind: 'layers'; only: number[] } | { kind: 'slow' } | { kind: 'roll' }
+  /** Full cycles after the intro. */
+  cycles: number
+  /** How much faster the last cycle is than the first (1 = steady). */
+  accel: number
+  ending: 'triple' | 'single' | 'tihai'
+}
+
+export const ENSEMBLES = {
+  // Ottoman ilahi: a slow, heavy usul on the def with a big bass frame, small drums ornamenting
+  sofyan: { name: 'Sofyan usul', layers: [
+    { p: 'D.......T...k...', players: 3 },
+    { p: 'B...............', g: 1.1 },
+    { p: '........M.M.M...', pan: 0.4, g: 0.8 },
+  ], intro: { kind: 'slow' }, cycles: 2, accel: 1, ending: 'single' },
+  duyek: { name: 'Düyek usul', layers: [
+    { p: 'D.T...T.D...T...', players: 3 },
+    { p: 'B.......B.......' },
+    { p: '..........M.MM.M', pan: 0.4, g: 0.8 },
+  ], intro: { kind: 'slow' }, cycles: 2, accel: 1, ending: 'single' },
+  // Qawwali: hand claps lead, the drums join on the kaharwa cycle, it speeds up, and ends on a tihai
+  qawwali: { name: 'Kaharwa with claps', layers: [
+    { p: 'C...C...C...C...', players: 5, g: 1.1 },
+    { p: 'D.D.......D.....', players: 2 },
+    { p: '....T.T.T.T...T.', players: 2 },
+    { p: 'B...............' },
+  ], intro: { kind: 'layers', only: [0] }, cycles: 3, accel: 1.4, ending: 'tihai' },
+  // Andalusi / Moroccan sama': quddam on the bendir with clapping that crosses it
+  quddam: { name: 'Quddam with claps', layers: [
+    { p: 'D..T.TD..T.T', players: 2 },
+    { p: 'C..C.C..C.C.', players: 4, g: 0.8 },
+    { p: 'B.....B.....' },
+  ], intro: { kind: 'layers', only: [0] }, cycles: 3, accel: 1.15, ending: 'triple' },
+  // Senegal: the 12/8 "bell" pattern on slaps, then bass, mid drums and claps lock in
+  khassaid: { name: '12/8 interlocking drums', layers: [
+    { p: 'P.P.PP.P.P.P', players: 2 },
+    { p: 'B.....B..B..' },
+    { p: '..M..M..M.M.', players: 2, pan: -0.3 },
+    { p: 'C..C..C..C..', players: 4, g: 0.7 },
+  ], intro: { kind: 'layers', only: [0] }, cycles: 4, accel: 1.1, ending: 'triple' },
+  // Lamu maulidi: small high tari drums in a 6/8 lilt
+  tari: { name: 'Tari frame drums, 6/8', layers: [
+    { p: 'M..M.MM..M.M', players: 3 },
+    { p: 'D.....D.....' },
+    { p: 'k.k.k.k.k.k.', g: 0.8 },
+  ], intro: { kind: 'layers', only: [0] }, cycles: 3, accel: 1, ending: 'triple' },
+  // Hadrah / rebana: three interlocking parts, high slaps calling first
+  hadrah: { name: 'Interlocking rebana', layers: [
+    { p: 'P.P..P.PP.P..P.P', players: 2 },
+    { p: 'B.....B...B.....' },
+    { p: '..M.M...M.M...M.', players: 2 },
+  ], intro: { kind: 'layers', only: [0] }, cycles: 3, accel: 1.1, ending: 'triple' },
+  // Caucasus Qadiri zikr: stamping feet alone, then the drum, faster and faster
+  zikr: { name: 'Zikr circle', layers: [
+    { p: 'S...S...S...S...', players: 4 },
+    { p: 'D.......D.......', players: 2 },
+    { p: '..T...T...T...T.', players: 2 },
+  ], intro: { kind: 'layers', only: [0] }, cycles: 4, accel: 1.6, ending: 'single' },
+  // Egyptian hadra: ayyub, swaying and quickening
+  hadra: { name: 'Ayyub, quickening', layers: [
+    { p: 'D..kD.T.D..kD.T.', players: 3 },
+    { p: 'B.......B.......' },
+  ], intro: { kind: 'layers', only: [0] }, cycles: 3, accel: 1.35, ending: 'single' },
+  // Doira: a long tremolo roll, then dums and sharp slaps
+  doira: { name: 'Doira with rolls', layers: [
+    { p: 'D..PD.P.D..PD.P.', players: 2 },
+    { p: 'B.......B.......' },
+    { p: '............R...' },
+  ], intro: { kind: 'roll' }, cycles: 3, accel: 1.1, ending: 'single' },
+  // Arabic inshad
+  maqsum: { name: 'Maqsum', layers: [
+    { p: 'D.T...T.D...T...', players: 3 },
+    { p: 'B.......B.......' },
+    { p: '...k.k.....k.kk.', g: 0.8 },
+  ], intro: { kind: 'layers', only: [0] }, cycles: 3, accel: 1, ending: 'triple' },
+  baladi: { name: 'Baladi with claps', layers: [
+    { p: 'D.D...T.D...T...', players: 3 },
+    { p: '....C.......C...', players: 4, g: 0.8 },
+    { p: '...k.k.....k.kk.', g: 0.8 },
+  ], intro: { kind: 'layers', only: [0] }, cycles: 3, accel: 1, ending: 'triple' },
+  saidi: { name: "Sa'idi", layers: [
+    { p: 'D.T...D.D...T...', players: 3 },
+    { p: 'B.....B.B.......' },
+  ], intro: { kind: 'layers', only: [0] }, cycles: 3, accel: 1, ending: 'triple' },
+  malfuf: { name: 'Malfuf', layers: [
+    { p: 'D..T..T.D..T..T.', players: 2 },
+    { p: 'B.......B.......' },
+  ], intro: { kind: 'layers', only: [0] }, cycles: 3, accel: 1, ending: 'triple' },
+  semai: { name: "Sama'i thaqil (10/8)", layers: [
+    { p: 'D.....T...D.D.T.....', players: 3 },
+    { p: 'B.........B.........' },
+    { p: '..k.....k.....k...k.', g: 0.8 },
+  ], intro: { kind: 'slow' }, cycles: 2, accel: 1, ending: 'single' },
+  // Gulf nasheed: off-beat group clapping is the signature
+  khaliji: { name: 'Khaliji with group claps', layers: [
+    { p: 'C...C.C...C...C.', players: 6 },
+    { p: 'D..T..D.T..T..D.', players: 3 },
+    { p: 'B.....B.........' },
+  ], intro: { kind: 'layers', only: [0] }, cycles: 3, accel: 1.05, ending: 'triple' },
+  // Gentle: one soft drum
+  wahda: { name: 'Soft wahda', layers: [
+    { p: 'D.....k.T...k.k.' },
+    { p: 'B...............', g: 0.7 },
+  ], intro: { kind: 'slow' }, cycles: 2, accel: 1, ending: 'single' },
+} satisfies Record<string, Ensemble>
+export type EnsembleId = keyof typeof ENSEMBLES
+
+/** Plays one cycle of some layers. Returns when it ends. */
+function cycle(k: Kit, t: number, layers: Layer[], s: number, g: number, first = false) {
+  const len = Math.max(...layers.map((l) => l.p.length))
+  for (const l of layers) {
+    const n = l.players ?? 1
+    for (let i = 0; i < len; i++) {
+      const ch = l.p[i % l.p.length]
+      if (!ch || ch === '.') continue
+      for (let p = 0; p < n; p++) {
+        const pan = (l.pan ?? 0) + (n > 1 ? -0.55 + (1.1 * p) / (n - 1) : 0)
+        const jitter = n > 1 ? rnd(-0.007, 0.007) : 0
+        const gg = (g * (l.g ?? 1) * (i === 0 ? 1.12 : 1)) / Math.sqrt(n)
+        strike(k, ch as Stroke, t + i * s + jitter, gg, pan)
+      }
+    }
+  }
+  if (first) dum(k, t, g * 0.6, 0, 0.72)
+  return t + len * s
+}
+
+/** Plays a whole ensemble piece from intro to ending. Returns when the last stroke lands. */
+function playEnsemble(k: Kit, t: number, e: Ensemble, s0: number, g: number) {
+  let tt = t
+  const len = Math.max(...e.layers.map((l) => l.p.length))
+  if (e.intro.kind === 'layers') {
+    const only = e.intro.only
+    tt = cycle(k, tt, e.layers.filter((_, i) => only.includes(i)), s0, g)
+  } else if (e.intro.kind === 'slow') {
+    // Two great, slow strokes before the cycle begins
+    circle(k, tt, 'D', g * 1.1, true)
+    circle(k, tt + len * s0 * 0.5, 'D', g * 0.9, true)
+    tt += len * s0
+  } else {
+    roll(k, tt, 1.2, 0.02, g * 0.55, 28, -0.2)
+    roll(k, tt + 0.02, 1.18, 0.02, g * 0.4, 28, 0.2)
+    tt += 1.3
+  }
+  for (let c = 0; c < e.cycles; c++) {
+    const f = e.cycles > 1 ? 1 + ((e.accel - 1) * c) / (e.cycles - 1) : 1
+    tt = cycle(k, tt, e.layers, s0 / f, g, c === 0)
+  }
+  const s = s0 / e.accel
+  if (e.ending === 'triple') {
+    roll(k, tt, 0.3, 0.04, g * 0.5)
+    tt += 0.34
+    circle(k, tt, 'D', g * 1.3, true)
+    circle(k, tt + s * 2, 'D', g * 1.3, true)
+    circle(k, tt + s * 4, 'D', g * 1.6, true)
+    return tt + s * 4
+  }
+  if (e.ending === 'tihai') {
+    // A phrase played three times that lands on the big stroke
+    for (let r = 0; r < 3; r++) {
+      const b = tt + r * s * 6
+      circle(k, b, 'D', g * 1.0, false)
+      circle(k, b + s * 2, 'T', g * 0.9)
+      circle(k, b + s * 4, 'D', g * 1.0, false)
+      for (let p = 0; p < 4; p++) clap(k, b + rnd(-0.006, 0.006), g * 0.3, -0.6 + p * 0.4)
+    }
+    const land = tt + 3 * s * 6
+    circle(k, land, 'D', g * 1.6, true)
+    for (let p = 0; p < 6; p++) clap(k, land + rnd(-0.008, 0.008), g * 0.3, -0.7 + p * 0.28)
+    return land
+  }
+  roll(k, tt, 0.5, 0.03, g * 0.5)
+  circle(k, tt + 0.55, 'D', g * 1.7, true)
+  return tt + 0.55
+}
+
 export interface TuneSpec {
-  /** The Sufi nasheed tradition the daff part is based on. */
+  /** The Sufi nasheed tradition the drumming is based on. */
   style: string
-  iqa: IqaId
-  /** The second cycle is played this much faster, as a zikr quickens (1 = steady). */
-  accel?: number
+  ens: EnsembleId
   bpm: number
   birds: BirdId[]
   /** How loud the breeze is, 0 to about 0.12. */
@@ -609,39 +835,38 @@ export interface TuneSpec {
 
 export const ISLAMIC_TUNES: Partial<Record<ThemeId, TuneSpec>> = {
   // Cultures: the Sufi nasheed tradition of that region (traditional rhythms, not any one recording)
-  amethyst: { style: 'Andalusi sama\' (Fez and Tetouan)', iqa: 'andalusi', bpm: 96, birds: ['nightingale', 'robin'], breeze: 0.07, why: 'Quddam, the lively closing rhythm of Andalusi sama\' and madih on the bendir' },
-  zellige: { style: 'Moroccan sama\' and madih', iqa: 'andalusi', bpm: 108, birds: ['bulbul', 'goldfinch'], breeze: 0.08, why: 'Quddam on the bendir, as the zawiya sama\' groups of Fez play it' },
-  neon: { style: 'Ottoman ilahi', iqa: 'sofyan', bpm: 92, birds: ['canary', 'sparrow'], breeze: 0.08, why: 'Sofyan, the most common usul of Turkish ilahis, on the def' },
-  ember: { style: 'Ottoman ilahi', iqa: 'duyek', bpm: 104, birds: ['nightingale', 'canary'], breeze: 0.07, why: 'Düyek, a stately Ottoman ilahi usul, on the def' },
-  bosnia: { style: 'Bosnian ilahija and kasida', iqa: 'sofyan', bpm: 96, birds: ['nightingale', 'robin'], breeze: 0.08, why: 'Sofyan on the def, as in Bosnian ilahije from the tekke tradition' },
-  rivals: { style: 'Uzbek shashmaqom and mavlud', iqa: 'doira', bpm: 108, birds: ['lark', 'goldfinch'], breeze: 0.09, why: 'A doira usul from Samarkand; the frame drum of Central Asia' },
-  suzani: { style: 'Uzbek shashmaqom and mavlud', iqa: 'doira', bpm: 100, birds: ['lark', 'canary'], breeze: 0.09, why: 'A doira usul from Bukhara, slower and grander' },
-  mughal: { style: 'Qawwali (Chishti)', iqa: 'kaharwa', bpm: 104, birds: ['bulbul', 'canary'], breeze: 0.08, accel: 1.12, why: 'The kaharwa cycle of qawwali, quickening as qawwali does, played on daff alone' },
-  sahel: { style: 'Senegalese khassaid and zikr', iqa: 'khassaid', bpm: 112, birds: ['sunbird', 'goldfinch'], breeze: 0.1, why: 'A rolling 12/8, as drummed under the khassaid of Touba and Tivaouane' },
-  swahili: { style: 'Swahili maulidi and kasida (Lamu)', iqa: 'chakacha', bpm: 104, birds: ['sunbird', 'canary'], breeze: 0.11, why: 'A 6/8 on the tari frame drums, as at the Lamu Maulidi' },
-  nusantara: { style: 'Hadrah and rebana (Simtud Durar mawlid)', iqa: 'hadrah', bpm: 100, birds: ['bulbul', 'sunbird'], breeze: 0.08, why: 'Interlocking rebana hadrah, the drumming of the Ba\'alawi mawlid gatherings' },
-  kubachi: { style: 'Qadiri zikr (North Caucasus)', iqa: 'zikr', bpm: 120, birds: ['lark', 'goldfinch'], breeze: 0.1, accel: 1.15, why: 'The steady pulse of the Caucasus Qadiri zikr circle, quickening in the second cycle' },
-  tatar: { style: 'Tatar munajat and bayt (fitting style)', iqa: 'wahda', bpm: 88, birds: ['lark', 'sparrow'], breeze: 0.1, why: 'Tatar munajat are sung without drums, so the daff keeps a gentle wahda under them. Please check' },
-  hui: { style: 'Hui Sufi chant (fitting style)', iqa: 'wahda', bpm: 84, birds: ['nightingale', 'sparrow'], breeze: 0.07, why: 'Hui menhuan chanting has no frame drum that I know of, so this is a calm wahda. Please check' },
+  amethyst: { style: "Andalusi sama' (Fez and Tetouan)", ens: 'quddam', bpm: 100, birds: ['nightingale', 'robin'], breeze: 0.07, why: "Quddam on the bendir with the crossing hand claps of Andalusi sama'" },
+  zellige: { style: "Moroccan sama' and madih", ens: 'quddam', bpm: 112, birds: ['bulbul', 'goldfinch'], breeze: 0.08, why: "Quddam with claps, as the zawiya sama' groups of Fez play it" },
+  neon: { style: 'Ottoman ilahi', ens: 'sofyan', bpm: 80, birds: ['canary', 'sparrow'], breeze: 0.08, why: 'Sofyan, the most common usul of Turkish ilahis: slow, heavy def strokes with small drums ornamenting' },
+  ember: { style: 'Ottoman ilahi', ens: 'duyek', bpm: 88, birds: ['nightingale', 'canary'], breeze: 0.07, why: 'Düyek, a stately Ottoman ilahi usul, on the def and a deep frame drum' },
+  bosnia: { style: 'Bosnian ilahija and kasida', ens: 'sofyan', bpm: 84, birds: ['nightingale', 'robin'], breeze: 0.08, why: 'Sofyan on the def, as in Bosnian ilahije from the tekke tradition' },
+  rivals: { style: 'Uzbek shashmaqom and mavlud', ens: 'doira', bpm: 104, birds: ['lark', 'goldfinch'], breeze: 0.09, why: 'Doira style: a long tremolo roll, then dums and sharp finger slaps' },
+  suzani: { style: 'Uzbek shashmaqom and mavlud', ens: 'doira', bpm: 96, birds: ['lark', 'canary'], breeze: 0.09, why: 'Doira style from Bukhara, slower and grander' },
+  mughal: { style: 'Qawwali (Chishti)', ens: 'qawwali', bpm: 96, birds: ['bulbul', 'canary'], breeze: 0.08, why: 'Hand claps start, the drums join on the kaharwa cycle, it speeds up and lands on a tihai, as qawwali does' },
+  sahel: { style: 'Senegalese khassaid and zikr', ens: 'khassaid', bpm: 116, birds: ['sunbird', 'goldfinch'], breeze: 0.1, why: 'A 12/8 bell pattern on slaps, then bass, mid drums and claps lock in' },
+  swahili: { style: 'Swahili maulidi and kasida (Lamu)', ens: 'tari', bpm: 100, birds: ['sunbird', 'canary'], breeze: 0.11, why: 'Small, high tari frame drums in a 6/8 lilt, as at the Lamu Maulidi' },
+  nusantara: { style: 'Hadrah and rebana (Simtud Durar mawlid)', ens: 'hadrah', bpm: 100, birds: ['bulbul', 'sunbird'], breeze: 0.08, why: "Three interlocking rebana parts, the drumming of the Ba'alawi mawlid gatherings" },
+  kubachi: { style: 'Qadiri zikr (North Caucasus)', ens: 'zikr', bpm: 104, birds: ['lark', 'goldfinch'], breeze: 0.1, why: 'Stamping feet alone, then the drum joins and the circle gets faster and faster' },
+  tatar: { style: 'Tatar munajat and bayt (fitting style)', ens: 'wahda', bpm: 84, birds: ['lark', 'sparrow'], breeze: 0.1, why: 'Tatar munajat are sung without drums, so this is one soft frame drum. Please check' },
+  hui: { style: 'Hui Sufi chant (fitting style)', ens: 'wahda', bpm: 80, birds: ['nightingale', 'sparrow'], breeze: 0.07, why: 'Hui menhuan chanting has no frame drum that I know of, so this is one calm drum. Please check' },
   // Art and prayer themes with no single culture: fitting Arabic inshad styles
-  emerald: { style: 'Arabic inshad (mosque courtyard)', iqa: 'maqsum', bpm: 100, birds: ['bulbul', 'goldfinch'], breeze: 0.08, why: 'Maqsum, the everyday rhythm of Levantine and Egyptian inshad on the daff' },
-  onyx: { style: 'Muwashshah inshad (Aleppo and Damascus)', iqa: 'semai', bpm: 92, birds: ['bulbul', 'sunbird'], breeze: 0.06, why: 'Sama\'i thaqil, the grand 10/8 of the muwashshahat sung by munshidin' },
-  rawdah: { style: 'Mawlid and madih (Hadrami and Gulf)', iqa: 'baladi', bpm: 100, birds: ['bulbul', 'sunbird', 'goldfinch', 'canary'], breeze: 0.09, why: 'A full, joyful daff circle under a garden chorus' },
-  fajr: { style: 'Gentle dawn inshad', iqa: 'wahda', bpm: 76, birds: ['lark', 'robin', 'sparrow'], breeze: 0.07, why: 'Slow wahda; the dawn chorus wakes' },
-  duha: { style: 'Arabic inshad', iqa: 'maqsum', bpm: 104, birds: ['sunbird', 'bulbul'], breeze: 0.08, why: 'Maqsum; bright and light, like late morning' },
-  zuhr: { style: 'Arabic inshad', iqa: 'saidi', bpm: 108, birds: ['sparrow', 'lark'], breeze: 0.06, why: "Sa'idi; strong and clear like noon light" },
-  asr: { style: 'Arabic inshad', iqa: 'malfuf', bpm: 100, birds: ['goldfinch', 'bulbul'], breeze: 0.09, why: 'Malfuf; a light afternoon lilt' },
-  maghrib: { style: 'Egyptian hadra (dhikr)', iqa: 'ayyub', bpm: 96, birds: ['robin', 'sparrow'], breeze: 0.1, accel: 1.1, why: 'Ayyub, the rhythm of the Egyptian hadra dhikr, quickening gently' },
-  isha: { style: 'Muwashshah inshad', iqa: 'semai', bpm: 84, birds: ['nightingale', 'robin'], breeze: 0.06, why: 'Sama\'i thaqil, slow and calm for the night' },
-  qiyam: { style: 'Quiet night dhikr', iqa: 'wahda', bpm: 66, birds: ['nightingale'], breeze: 0.05, g: 0.35, why: 'A very soft wahda; the still of the night and one nightingale' },
-  jumuah: { style: 'Gulf and Hadrami nasheed', iqa: 'khaliji', bpm: 100, birds: ['bulbul', 'canary', 'sunbird'], breeze: 0.09, why: 'The Gulf nasheed rhythm on many daffs; the grandest, for a festive Friday' },
-  mawlid: { style: 'Mawlid hadrah (Ba\'alawi and Egyptian)', iqa: 'hadrah', bpm: 96, birds: ['nightingale', 'bulbul', 'sunbird', 'canary'], breeze: 0.09, accel: 1.08, why: 'The interlocking hadrah of the Mawlid gatherings; every bird sings' },
+  emerald: { style: 'Arabic inshad (Levant and Egypt)', ens: 'maqsum', bpm: 100, birds: ['bulbul', 'goldfinch'], breeze: 0.08, why: 'Maqsum, the everyday rhythm of inshad on the daff' },
+  onyx: { style: 'Muwashshah inshad (Aleppo and Damascus)', ens: 'semai', bpm: 92, birds: ['bulbul', 'sunbird'], breeze: 0.06, why: "Sama'i thaqil, the grand 10/8 of the muwashshahat" },
+  rawdah: { style: 'Mawlid and madih', ens: 'baladi', bpm: 100, birds: ['bulbul', 'sunbird', 'goldfinch', 'canary'], breeze: 0.09, why: 'A joyful daff circle with claps under a garden chorus' },
+  fajr: { style: 'Gentle dawn inshad', ens: 'wahda', bpm: 76, birds: ['lark', 'robin', 'sparrow'], breeze: 0.07, why: 'One soft drum; the dawn chorus wakes' },
+  duha: { style: 'Arabic inshad', ens: 'maqsum', bpm: 108, birds: ['sunbird', 'bulbul'], breeze: 0.08, why: 'Maqsum; bright and light, like late morning' },
+  zuhr: { style: 'Arabic inshad', ens: 'saidi', bpm: 108, birds: ['sparrow', 'lark'], breeze: 0.06, why: "Sa'idi; strong and clear like noon light" },
+  asr: { style: 'Arabic inshad', ens: 'malfuf', bpm: 100, birds: ['goldfinch', 'bulbul'], breeze: 0.09, why: 'Malfuf; a light afternoon lilt' },
+  maghrib: { style: 'Egyptian hadra (dhikr)', ens: 'hadra', bpm: 92, birds: ['robin', 'sparrow'], breeze: 0.1, why: 'Ayyub, the rhythm of the Egyptian hadra dhikr, quickening' },
+  isha: { style: 'Muwashshah inshad', ens: 'semai', bpm: 88, birds: ['nightingale', 'robin'], breeze: 0.06, g: 0.4, why: "Sama'i thaqil, slow and calm for the night" },
+  qiyam: { style: 'Quiet night dhikr', ens: 'wahda', bpm: 70, birds: ['nightingale'], breeze: 0.05, g: 0.32, why: 'A very soft drum; the still of the night and one nightingale' },
+  jumuah: { style: 'Gulf nasheed', ens: 'khaliji', bpm: 100, birds: ['bulbul', 'canary', 'sunbird'], breeze: 0.09, why: 'Off-beat group clapping and many daffs; the grandest, for a festive Friday' },
+  mawlid: { style: "Mawlid hadrah (Ba'alawi)", ens: 'hadrah', bpm: 96, birds: ['nightingale', 'bulbul', 'sunbird', 'canary'], breeze: 0.09, why: 'The interlocking hadrah of the Mawlid gatherings; every bird sings' },
 }
 
 /**
- * A grand title tune of about seven seconds: the breeze rises, a bird calls, the drum circle rolls
- * into a great stroke, two cycles of the theme's iqa' with birds answering, then a triple stroke.
- * Returns a handle to stop it.
+ * A grand title tune in the theme's nasheed tradition: a bird chirps over the breeze and waves,
+ * the ensemble opens in its own way, plays its cycles, ends in its own way, and the birds sing.
  */
 export function islamicTitleTune(base: Kit, theme: ThemeId): { stop: (fade?: number) => void; length: number } | null {
   const spec = ISLAMIC_TUNES[theme]
@@ -652,37 +877,19 @@ export function islamicTitleTune(base: Kit, theme: ThemeId): { stop: (fade?: num
   const vbus = c.createGain()
   if (base.verb) vbus.connect(base.verb)
   const k: Kit = { c, out: bus, verb: base.verb ? vbus : null }
-  const iqa = IQA[spec.iqa]
   const s = 60 / spec.bpm / 4
   const g = spec.g ?? 0.5
   const birds = spec.birds.map((b) => BIRDS[b])
-  const night = theme === 'qiyam' || theme === 'isha'
 
-  breeze(k, 0, 10, spec.breeze)
-  shore(k, 0, 10, spec.breeze * 0.55)
-  birds[0].call(k, 0.25, undefined, -0.4)
-  // Roll in
-  const r0 = 0.25 + birds[0].len + 0.1
-  roll(k, r0, 0.9, 0.02, g * 0.45, 18, -0.25)
-  roll(k, r0 + 0.04, 0.86, 0.015, g * 0.35, 18, 0.25)
-  const t1 = r0 + 0.95
-  const barLen = stepsOf(iqa) * s
-  const mid = playPattern(k, t1, iqa, s, 1, g * (night ? 0.7 : 1))
-  const end = playPattern(k, mid, iqa, s / (spec.accel ?? 1), 1, g * (night ? 0.7 : 1))
-  // Birds answer in the middle of each cycle
-  ;(birds[1] ?? birds[0]).call(k, t1 + barLen * 0.5, undefined, 0.45)
-  birds[0].call(k, t1 + barLen * 1.5, undefined, -0.45)
-  // Sting: roll and triple stroke
-  roll(k, end, 0.32, 0.04, g * 0.5)
-  const hit = end + 0.36
-  const beat = 60 / spec.bpm
-  circle(k, hit, 'D', g * 1.3, true)
-  circle(k, hit + beat * 0.5, 'D', g * 1.3, true)
-  circle(k, hit + beat, 'D', g * 1.6, true)
-  whoosh(k, hit + beat - 0.3, 1.3, spec.breeze * 1.4, 300, 1100)
-  // The whole chorus over the tail
-  birds.forEach((b, i) => b.call(k, hit + beat + 0.25 + i * 0.3, undefined, i % 2 ? 0.5 : -0.5))
-  const length = hit + beat + 0.25 + birds.length * 0.3 + 1.6
+  birds[0].call(k, 0.2, undefined, -0.4)
+  const t1 = 0.2 + birds[0].len + 0.15
+  const last = playEnsemble(k, t1, ENSEMBLES[spec.ens], s, g)
+  ;(birds[1] ?? birds[0]).call(k, t1 + (last - t1) * 0.45, undefined, 0.45)
+  whoosh(k, last - 0.3, 1.3, spec.breeze * 1.4, 300, 1100)
+  birds.forEach((b, i) => b.call(k, last + 0.3 + i * 0.3, undefined, i % 2 ? 0.5 : -0.5))
+  const length = last + 0.3 + birds.length * 0.3 + 1.6
+  breeze(k, 0, length, spec.breeze)
+  shore(k, 0, length, spec.breeze * 0.55)
 
   let stopped = false
   return {
