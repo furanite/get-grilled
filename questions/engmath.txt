@@ -113,7 +113,7 @@ The derivative of tan x. :: sec²x
 The derivative of sin(3x). :: 3cos(3x)
 The derivative of e^(2x). :: 2e^(2x)
 The derivative of x ln x. :: ln x + 1
-The derivative of √x. :: 1/(2√x)
+The derivative of the square root of x. :: 1/(2√x)
 The integral of cos x dx. :: sin x + C
 The integral of eˣ dx. :: eˣ + C
 The integral of sin x dx. :: −cos x + C
@@ -213,7 +213,7 @@ The integral of ln x dx. :: x ln x − x + C
 The integral of e^(−x²) from −∞ to ∞. :: √π
 The integral of x e^x dx. :: (x − 1)eˣ + C
 The integral from 0 to ∞ of e^(−x) dx. :: 1
-The integral of 1/√(1 − x²) dx. :: arcsin x + C
+The integral of 1 over the square root of (1 − x²), dx. :: arcsin x + C
 The Gamma function Γ(n) for a positive integer n equals this. :: (n − 1)!
 The value of Γ(½). :: √π
 The ratio test says a series converges if the limit of |aₙ₊₁/aₙ| is this. :: Less than 1
