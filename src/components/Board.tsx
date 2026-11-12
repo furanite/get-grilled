@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react'
+import { CatIcon } from './Brand'
 import type { Game, Lang } from '../lib/types'
 import { VALUES } from '../lib/types'
 import type { Strings } from '../lib/i18n'
@@ -136,6 +137,7 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
               const [main, sub] = lang === 'ar' && c.nameAr ? [c.nameAr, c.name] : [c.name, c.nameAr]
               return (
                 <div className="cat" key={'h' + i} style={{ ['--d' as string]: intro ? `${i * 60}ms` : '0ms' }}>
+                  <CatIcon id={c.id} />
                   <span className="main" style={{ ['--w' as string]: Math.max(...main.split(/\s+/).map((w) => w.length)) }}>
                   {main}
                 </span>
@@ -321,7 +323,7 @@ function ClueCard({ t, lang, game, open, onJudge, onClose, onState }: CardProps)
       <div ref={ref} className={`card${phase === 'open' ? ' open' : ''}${phase === 'closing' ? ' closing' : ''}${clue.golden && phase === 'open' ? ' golden' : ''}`} role="dialog" aria-modal="true" aria-label={cat.name} data-testid="clue">
         <div className="card-in">
           <div className="meta">
-            <span>{lang === 'ar' && cat.nameAr ? cat.nameAr : cat.name}</span>
+            <span className="meta-cat"><CatIcon id={cat.id} />{lang === 'ar' && cat.nameAr ? cat.nameAr : cat.name}</span>
             <span className="row">
               {clue.golden && <span className="pill g">{t.golden}</span>}
               <span className="pill">{num(clue.value, lang)}</span>

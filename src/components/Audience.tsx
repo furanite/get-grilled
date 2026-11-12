@@ -7,7 +7,7 @@ import { num } from '../lib/i18n'
 import { standings, tileKey } from '../lib/game'
 import type { Live } from '../lib/edition'
 import { setFavicon } from '../lib/favicon'
-import { Ambient, Flourish, FlourishAbove, Mark } from './Brand'
+import { Ambient, CatIcon, Flourish, FlourishAbove, Mark } from './Brand'
 import { diagramSrc } from '../lib/diagram'
 import { TimerBar } from './Timer'
 
@@ -180,6 +180,7 @@ function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings;
             const [main, sub] = lang === 'ar' && c.nameAr ? [c.nameAr, c.name] : [c.name, c.nameAr]
             return (
               <div className="cat" key={'h' + i}>
+                <CatIcon id={c.id} />
                 <span className="main" style={{ ['--w' as string]: Math.max(...main.split(/\s+/).map((w) => w.length)) }}>
                   {main}
                 </span>
@@ -213,7 +214,7 @@ function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings;
         <div className="aud-clue" data-testid="audience-clue" key={tileKey(live!.c, live!.l)}>
           <div className={`aud-card${clue.golden ? ' golden' : ''}`}>
             <div className="meta">
-              <span>{lang === 'ar' && cat.nameAr ? cat.nameAr : cat.name}</span>
+              <span className="meta-cat"><CatIcon id={cat.id} />{lang === 'ar' && cat.nameAr ? cat.nameAr : cat.name}</span>
               <span className="row">
                 {clue.golden && <span className="pill g">{t.golden}</span>}
                 <span className="pill">{num(clue.value, lang)}</span>
