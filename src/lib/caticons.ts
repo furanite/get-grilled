@@ -151,6 +151,33 @@ const GLYPHS: Record<string, () => string> = {
   custom: () => `<path d="M17.5 17.5a6.5 6.5 0 1 1 9.6 5.7c-2.1 1.2-3.1 2.6-3.1 5v2.3"/>${dot(24, 37, 5)}<circle cx="24" cy="24" r="19" stroke-width="1.6" opacity=".5"/>`,
 }
 
+/** A five-point star outline, for the themed nights tile. */
+function star5(cx: number, cy: number, r: number) {
+  const p: string[] = []
+  for (let i = 0; i < 10; i++) {
+    const a = (Math.PI / 5) * i - Math.PI / 2, rr = i % 2 ? r * 0.45 : r
+    p.push(`${(cx + rr * Math.cos(a)).toFixed(1)} ${(cy + rr * Math.sin(a)).toFixed(1)}`)
+  }
+  return `M${p.join('L')}z`
+}
+
+/** Themed nights (game modes) use keys "night-<id>"; "nights" is the folded list itself. */
+Object.assign(GLYPHS, {
+  nights: () => `<path d="M7 14h34v6a4 4 0 0 0 0 8v6H7v-6a4 4 0 0 0 0-8z" stroke-linejoin="round"/><path d="M17 16v3M17 23v2M17 29v3" stroke-width="1.8"/><path d="${star5(29.5, 24, 6)}" stroke-width="1.8" stroke-linejoin="round"/>`,
+  'night-eng-vs-cces': () => `<circle cx="13" cy="24" r="6"/><circle cx="13" cy="24" r="2" stroke-width="1.6"/>${[0, 45, 90, 135, 180, 225, 270, 315].map((a) => { const r = (a * Math.PI) / 180; return `<path d="M${(13 + 7.5 * Math.cos(r)).toFixed(1)} ${(24 + 7.5 * Math.sin(r)).toFixed(1)}L${(13 + 10 * Math.cos(r)).toFixed(1)} ${(24 + 10 * Math.sin(r)).toFixed(1)}" stroke-width="3"/>` }).join('')}<path d="M31 16l-6 8 6 8M37 16l6 8-6 8" stroke-linejoin="round"/>`,
+  'night-fun-night': () => `<path d="M7 42l9-23 14 14z" stroke-linejoin="round"/><path d="M12 30l6 6" stroke-width="1.6"/><path d="M25 12c2 2-1 4 1 6M35 26c2-1 4 1 6-1M31 8l2 3M41 15l-3 1"/>${dot(36, 18, 4.5)}${dot(28, 25, 4.5)}${dot(42, 33, 4.5)}`,
+  'night-builders': () => `<path d="M11 33c0-8.5 5.5-14.5 13-14.5S37 24.5 37 33" stroke-linejoin="round"/><path d="M20 19.5V15h8v4.5M24 15v18" stroke-linejoin="round"/><rect x="5.5" y="33" width="37" height="5" rx="2.5"/>`,
+  'night-code-night': () => `<rect x="5.5" y="8.5" width="37" height="31" rx="4"/><path d="M5.5 15.5h37" stroke-width="1.6"/><path d="M13 23l5 4.5-5 4.5M22 33h10" stroke-linejoin="round"/>`,
+  'night-picture-night': () => `<rect x="5.5" y="8.5" width="37" height="31" rx="3"/><path d="M6 34l11-11 8 8 5-5 12 12" stroke-linejoin="round"/><circle cx="32" cy="18" r="3.5"/>`,
+  'night-arabia': () => `<path d="M24 42c-.6-7.5-1.2-14.5 0-22"/><path d="M24 20c-4-5.5-10.5-6.5-16-3.5M24 20c4-5.5 10.5-6.5 16-3.5M24 20c-6-.5-11.5 3-13.5 9M24 20c6-.5 11.5 3 13.5 9M24 20c-1-5 .5-9.5 4-13" stroke-linejoin="round"/><path d="M13 42h22"/>`,
+  'night-brain-night': () => `<path d="M17 31c-4-3-6.5-7-6.5-11.5a13.5 13.5 0 0 1 27 0c0 4.5-2.5 8.5-6.5 11.5v3.5H17z" stroke-linejoin="round"/><path d="M18 38.5h12M20.5 42.5h7"/><path d="M21 31v-6l3 3 3-3v6" stroke-width="1.6" stroke-linejoin="round"/>`,
+} satisfies Record<string, () => string>)
+
+/** The icon id for a themed night: its own drawing when there is one, else the general nights ticket. */
+export function nightIconId(id: string): string {
+  return glyphKey(`night-${id}`) ? `night-${id}` : 'nights'
+}
+
 /** Built-in ids that share a drawing with another id. */
 const ALIAS: Record<string, string> = { engmath: 'math' }
 

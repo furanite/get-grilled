@@ -3,6 +3,7 @@ import { CatIcon } from './Brand'
 import { catIconSvg as islamicIconSvg } from '../lib/islamic'
 import { ISLAMIC_SET } from '../lib/edition'
 import type { Category, CategorySummary, Game, Lang, Madhhab, PackGroup, PoolEdit } from '../lib/types'
+import { nightIconId } from '../lib/caticons'
 import { VALUES } from '../lib/types'
 import type { Strings } from '../lib/i18n'
 import { num, qCount } from "../lib/i18n"
@@ -34,8 +35,18 @@ const DEFAULT_TEAMS = { en: ['Team 1', 'Team 2', 'Team 3'], ar: ['الفريق �
 
 
 const NIGHTS_OPEN_KEY = 'gg.nightsOpen.v1'
-// Themed nights show a line icon when one is drawn for them (src/lib/islamic.ts, ids night-<id>).
-const catIconFor = (id: string) => ISLAMIC_SET && islamicIconSvg(id) !== ''
+/** A themed night's icon: its honorific sign (Blessed Mawlid Night shows ﷺ), the Islamic line icon (isl-night-<id> in
+ * src/lib/islamic.ts) on the Islamic site, or the Get Grilled drawing (night-<id> in src/lib/caticons.ts). */
+function NightIcon({ n }: { n: Night }) {
+  if (n.sign)
+    return (
+      <span className="night-sign" aria-hidden="true">
+        {n.sign}
+      </span>
+    )
+  const isl = `isl-night-${n.id}`
+  return <CatIcon id={ISLAMIC_SET && islamicIconSvg(isl) ? isl : nightIconId(n.id)} />
+}
 export default function Setup({ t, lang, index, indexError, custom, pools, onBack, onStart }: Props) {
   const [picked, setPicked] = useState<string[]>([])
   const [closed, setClosed] = useState<PackGroup[]>([])
@@ -152,23 +163,18 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
         </span>
         {nights.length > 0 && index && (
           <details className="nights" data-testid="nights" open={nightsOpen} onToggle={(e) => toggleNights((e.currentTarget as HTMLDetailsElement).open)}>
-            <summary>
-              {catIconFor('nights') && <CatIcon id="nights" />}
-              <span className="label">{t.nights}</span>
-              <span className="nights-count">{num(nights.length, lang)}</span>
-              {chosenNight && <b className="nights-chosen">{lang === 'ar' && chosenNight.nameAr ? chosenNight.nameAr : chosenNight.name}</b>}
+            <summary className="nights-tile">
+              {chosenNight ? <NightIcon n={chosenNight} /> : <CatIcon id={ISLAMIC_SET ? 'isl-nights' : 'nights'} />}
+              <b>{t.nights}</b>
+              <small>
+                {chosenNight ? (lang === 'ar' && chosenNight.nameAr ? chosenNight.nameAr : chosenNight.name) : `${num(nights.length, lang)} ${t.nightsCount}`}
+              </small>
             </summary>
             <p className="muted nights-help">{t.nightsHelp}</p>
             <div className="night-grid">
               {nights.map((n) => (
                 <button key={n.id} className="night" aria-pressed={night === n.id} onClick={() => applyNight(n)} data-night={n.id}>
-                  {n.sign ? (
-                    <span className="night-sign" aria-hidden="true">
-                      {n.sign}
-                    </span>
-                  ) : (
-                    catIconFor(`night-${n.id}`) && <CatIcon id={`night-${n.id}`} />
-                  )}
+                  <NightIcon n={n} />
                   <b dir="auto">{lang === 'ar' && n.nameAr ? n.nameAr : n.name}</b>
                   <small dir="auto">{lang === 'ar' && n.aboutAr ? n.aboutAr : n.about}</small>
                 </button>

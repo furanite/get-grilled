@@ -616,8 +616,8 @@ const CAT_ICON: Record<string, string> = {
   'isl-taharah': I.drop, 'isl-salah': I.mat, 'isl-sawm': I.lantern, 'isl-zakat': I.coins, 'isl-sadaqah': I.hand, 'isl-hajj': I.tents, 'isl-food': I.bowl,
   'isl-kinship': I.family, 'isl-money': I.money, 'isl-work': I.tools, 'isl-faraid': I.pie, 'isl-usul': I.tree,
   // themed nights (Blessed Mawlid Night shows the ﷺ sign instead, from nights-islamic.json "sign")
-  'night-ramadan': I.crescent, 'night-hajj-season': I.tents, 'night-civilisation': I.dome, 'night-fiqh-night': I.scales, 'night-family-night': I.family,
-  'nights': I.lantern,
+  'isl-night-ramadan': I.crescent, 'isl-night-hajj-season': I.tents, 'isl-night-civilisation': I.dome, 'isl-night-fiqh-night': I.scales, 'isl-night-family-night': I.family,
+  'isl-nights': I.lantern,
   // kids
   'kids-prophets': I.ship, 'kids-pillars': I.pillars, 'kids-wudu-salah': I.drop, 'kids-quran': I.book, 'kids-seerah': I.palm, 'kids-manners': I.smile, 'kids-calendar': I.crescent,
 }

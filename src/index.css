@@ -907,17 +907,21 @@ html[data-set="islamic"] .q{line-height:1.6}
 .streak-pop{position:fixed;left:50%;top:18%;translate:-50% 0;z-index:60;padding:12px 22px;border-radius:999px;font-family:var(--fd);font-size:clamp(18px,2.4vw,26px);background:var(--accent);color:var(--bg);box-shadow:0 12px 50px -8px var(--glow);animation:streakPop 2.8s var(--spring) both;pointer-events:none}
 @keyframes streakPop{0%{opacity:0;transform:scale(.6)}12%{opacity:1;transform:scale(1.06)}20%{transform:scale(1)}85%{opacity:1}100%{opacity:0;transform:translateY(-14px)}}
 .nights{display:flex;flex-direction:column;gap:8px}
-.nights>summary{display:flex;align-items:center;gap:10px;flex-wrap:wrap;cursor:pointer;list-style:none;padding:8px 12px;border-radius:12px;border:1px solid color-mix(in oklab,var(--accent) 30%,transparent)}
+.nights>summary{list-style:none;cursor:pointer;width:min(100%,260px)}
 .nights>summary::-webkit-details-marker{display:none}
-.nights>summary::before{content:'';width:8px;height:8px;border-right:2px solid var(--accent);border-bottom:2px solid var(--accent);transform:rotate(-45deg);transition:transform .25s}
-[dir="rtl"] .nights>summary::before{transform:rotate(135deg)}
-.nights[open]>summary::before{transform:rotate(45deg)}
+.nights-tile{position:relative;display:flex;flex-direction:column;gap:2px;padding:12px 40px 12px 60px;border-radius:14px;border:1px solid color-mix(in oklab,var(--accent) 40%,transparent);background:linear-gradient(160deg,color-mix(in oklab,var(--tile-a) 70%,transparent),color-mix(in oklab,var(--tile-b) 70%,transparent));transition:border-color .3s,transform .3s var(--spring)}
+[dir="rtl"] .nights-tile{padding:12px 60px 12px 40px}
+.nights-tile:hover{transform:translateY(-2px);border-color:var(--accent)}
+.nights-tile b{font-family:var(--fd);font-size:16px;letter-spacing:var(--track);color:var(--accent)}
+.nights-tile small{color:var(--muted);font-size:12px}
+.nights-tile .ci{position:absolute;inset-inline-start:14px;top:50%;translate:0 -50%;width:34px}
+.nights-tile::after{content:'';position:absolute;inset-inline-end:16px;top:50%;width:8px;height:8px;margin-top:-6px;border-right:2px solid var(--accent);border-bottom:2px solid var(--accent);transform:rotate(45deg);transition:transform .25s}
+.nights[open]>.nights-tile::after{transform:rotate(-135deg);margin-top:-2px}
 .nights[open]>summary{margin-bottom:8px}
-.nights-count{font-size:12px;color:var(--muted);border:1px solid color-mix(in oklab,var(--muted) 50%,transparent);border-radius:999px;padding:0 8px}
-.nights-chosen{font-family:var(--fd);color:var(--accent);font-size:13px;margin-inline-start:auto}
+.night .ci{position:absolute;inset-inline-start:14px;top:16px;width:34px}
 .nights-help{margin:0;font-size:13px}
 .night-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,220px),1fr));gap:10px}
-.night{display:flex;flex-direction:column;gap:4px;padding:12px 14px;border-radius:14px;text-align:start;border:1px solid color-mix(in oklab,var(--accent) 40%,transparent);background:linear-gradient(160deg,color-mix(in oklab,var(--tile-a) 70%,transparent),color-mix(in oklab,var(--tile-b) 70%,transparent));color:var(--text);transition:border-color .3s,transform .3s var(--spring)}
+.night{position:relative;display:flex;flex-direction:column;gap:4px;padding:12px 14px;padding-inline-start:60px;border-radius:14px;text-align:start;border:1px solid color-mix(in oklab,var(--accent) 40%,transparent);background:linear-gradient(160deg,color-mix(in oklab,var(--tile-a) 70%,transparent),color-mix(in oklab,var(--tile-b) 70%,transparent));color:var(--text);transition:border-color .3s,transform .3s var(--spring)}
 .night b{font-family:var(--fd);letter-spacing:var(--track);color:var(--accent)}
 .night small{color:var(--muted);font-size:12px;line-height:1.4}
 .night:hover{transform:translateY(-2px);border-color:var(--accent)}
@@ -954,14 +958,8 @@ html[data-set="islamic"] .q{line-height:1.6}
 .card .answer,.aud-card .answer{flex:none}
 .aud-card .answer[data-len="l"]{font-size:clamp(22px,2.8vw,48px)}
 
-/* Themed nights: an icon on each (or the ﷺ sign for Blessed Mawlid Night); folded away, the list is a card shaped like a category. */
-.night .cat-icon,.night-sign{align-self:flex-start}
-.night-sign{font-family:'GG Honorifics',serif;font-size:24px;line-height:1;color:var(--accent);height:30px;margin-bottom:4px}
-.nights>summary .cat-icon{width:22px;height:22px;margin:0}
-.nights:not([open])>summary{display:flex;flex-direction:column;align-items:flex-start;gap:2px;width:min(100%,240px);padding:12px 14px;border-radius:14px;border:1px solid color-mix(in oklab,var(--text) 12%,transparent);background:color-mix(in oklab,var(--bg2) 30%,transparent);transition:border-color .3s,transform .3s var(--spring)}
-.nights:not([open])>summary:hover{transform:translateY(-2px);border-color:var(--accent)}
-.nights:not([open])>summary::before{display:none}
-.nights:not([open])>summary .cat-icon{width:30px;height:30px;margin-bottom:4px}
-.nights:not([open])>summary .label{font-family:var(--fd);font-size:16px;letter-spacing:var(--track);text-transform:none;color:var(--text)}
-.nights:not([open])>summary .nights-count,.nights:not([open])>summary .nights-chosen{justify-self:start;margin:0}
-:root[data-set="islamic"] .nights:not([open])>summary{background-image:var(--girih);background-size:40px 40px}
+/* Themed nights: Blessed Mawlid Night shows the ﷺ sign where the others show an icon. */
+.night-sign{font-family:'GG Honorifics',serif;font-size:24px;line-height:1;color:var(--accent)}
+.night .night-sign{position:absolute;inset-inline-start:14px;top:14px;width:34px;text-align:center}
+.nights-tile .night-sign{position:absolute;inset-inline-start:14px;top:50%;translate:0 -50%;width:34px;text-align:center}
+:root[data-set="islamic"] .nights-tile{background-image:var(--girih);background-size:40px 40px}
