@@ -1,0 +1,520 @@
+id: intlaw
+name: International Law
+group: law
+
+## 100
+The law that governs relations between countries. :: International law
+A written agreement between countries. :: A treaty
+The world organisation founded in 1945 to keep peace. :: The United Nations
+The UN's headquarters are in this city. :: New York
+The founding document of the UN. :: The UN Charter
+The UN Charter was signed in this US city. :: San Francisco
+The UN Charter was signed in this year. :: 1945
+The UN body where every member country has one vote. :: The General Assembly
+The UN body responsible for international peace and security. :: The Security Council
+The number of permanent members of the UN Security Council. :: Five
+The total number of members of the UN Security Council. :: 15
+The power of a permanent member to block a Security Council decision. :: The veto
+The head of the UN's administration. :: The Secretary-General
+The UN Secretary-General since 2017. :: António Guterres
+The UN's main court. :: The International Court of Justice (ICJ)
+The ICJ sits in this city. :: The Hague
+The building where the ICJ sits. :: The Peace Palace
+The number of judges on the ICJ. :: 15
+The number of UN member states. :: 193
+The newest UN member state, admitted in 2011. :: South Sudan
+The two UN observer states. :: Palestine and the Holy See (Vatican)
+Saudi Arabia joined the UN in this year as a founding member. :: 1945
+The Saudi prince who signed the UN Charter for Saudi Arabia, later King. :: Prince Faisal ibn Abdulaziz
+A country's full control over its territory. :: Sovereignty
+An official representative of one country in another. :: An ambassador
+The building where an ambassador works. :: An embassy
+An office that helps citizens abroad, often in other cities. :: A consulate
+Protection from arrest given to diplomats. :: Diplomatic immunity
+The 1961 treaty on diplomatic relations. :: The Vienna Convention on Diplomatic Relations
+A person forced to flee their country because of persecution. :: A refugee
+The UN agency for refugees. :: UNHCR
+A person who moves within their own country to escape conflict. :: An internally displaced person (IDP)
+Rules that limit the effects of war. :: International humanitarian law (laws of war)
+The four treaties of 1949 on the laws of war. :: The Geneva Conventions
+The international organisation that protects war victims, founded in Geneva. :: The International Committee of the Red Cross (ICRC)
+The Red Cross symbol's counterpart in Muslim countries. :: The Red Crescent
+The Saudi Red Crescent Authority's emergency number. :: 997
+The 1948 UN declaration of basic rights. :: The Universal Declaration of Human Rights
+Human Rights Day is marked on this date. :: 10 December
+The court that tries individuals for genocide and war crimes. :: The International Criminal Court (ICC)
+Deliberately destroying a national, ethnic or religious group. :: Genocide
+A group of countries that agree to defend each other. :: An alliance
+The North Atlantic military alliance. :: NATO
+The organisation of Arab countries founded in 1945. :: The Arab League
+The Arab League's headquarters are in this city. :: Cairo
+The Gulf Cooperation Council was founded in this year. :: 1981
+The GCC's headquarters are in this city. :: Riyadh
+The six GCC members: Saudi Arabia, UAE, Kuwait, Qatar, Bahrain and this. :: Oman
+The organisation of 57 Muslim countries. :: The Organisation of Islamic Cooperation (OIC)
+The OIC's headquarters are in this Saudi city. :: Jeddah
+The group of oil-exporting countries founded in 1960. :: OPEC
+OPEC was founded in this city. :: Baghdad
+OPEC's headquarters are in this city. :: Vienna
+The European group of 27 countries. :: The European Union
+The African continent's union of countries. :: The African Union
+The Southeast Asian group of countries. :: ASEAN
+The border between countries at sea extends for this many nautical miles as territorial waters. :: 12
+The sea zone where a country controls fishing and resources, up to 200 nautical miles. :: The exclusive economic zone (EEZ)
+The 1982 UN treaty on the law of the sea. :: UNCLOS
+The sea beyond any country's control. :: The high seas
+A ban on trade with a country. :: An embargo (sanctions)
+Penalties placed on a country to make it change its behaviour. :: Sanctions
+Peace soldiers sent by the UN wear helmets of this colour. :: Blue
+The UN agency for children. :: UNICEF
+The UN agency for health. :: The World Health Organization (WHO)
+WHO's headquarters are in this city. :: Geneva
+The UN agency for education, science and culture. :: UNESCO
+UNESCO's headquarters are in this city. :: Paris
+The UN agency for food and farming. :: The FAO
+FAO's headquarters are in this city. :: Rome
+The UN agency for workers' rights. :: The International Labour Organization (ILO)
+The UN body that fights hunger with food aid. :: The World Food Programme
+The UN agency for Palestinian refugees. :: UNRWA
+The international bank that lends to developing countries for projects. :: The World Bank
+The international fund that helps countries with balance of payments problems. :: The IMF
+The Islamic Development Bank's headquarters are in this city. :: Jeddah
+The international agreement on climate change from 2015. :: The Paris Agreement
+The UN climate conference is called this. :: COP
+The first UN climate conference in the Arab Gulf, COP28, was held in this city. :: Dubai
+Saudi Arabia hosted the UN desertification COP16 in this year. :: 2024
+A country that is not part of a war. :: Neutral
+The famous neutral country in Europe. :: Switzerland
+The act of a country formally recognising another as a state. :: Recognition
+An official agreement to stop fighting. :: A ceasefire (armistice)
+A treaty that ends a war. :: A peace treaty
+An agreement between only two countries. :: A bilateral treaty
+An agreement between many countries. :: A multilateral treaty
+Signing a treaty and then making it binding by a national process. :: Ratification
+A country's taking back of a person from another country to face trial. :: Extradition
+A safe place given to someone fleeing persecution. :: Asylum
+A document that allows travel between countries. :: A passport
+A permission to enter a country. :: A visa
+Saudi Arabia started tourist e-visas in this year. :: 2019
+The world's most widely ratified treaty on children's rights. :: The Convention on the Rights of the Child
+The day the UN was founded, 24 October, is called this. :: UN Day
+A country without a coastline. :: A landlocked country
+The legal word for a ship's country of registration. :: Its flag state
+Attacks on ships at sea for robbery. :: Piracy
+The international police organisation. :: Interpol
+The world body that sets rules for trade. :: The WTO
+
+## 200
+The ICJ's founding statute is part of this document. :: The UN Charter
+The ICJ's predecessor under the League of Nations. :: The Permanent Court of International Justice
+The League of Nations was founded after this war. :: The First World War
+The League of Nations was based in this city. :: Geneva
+The US president who proposed the League of Nations. :: Woodrow Wilson
+The 1648 treaties that began the modern system of sovereign states. :: The Peace of Westphalia
+The Dutch jurist called the "father of international law". :: Hugo Grotius
+Grotius's famous book on the law of war and peace. :: De Jure Belli ac Pacis (1625)
+Grotius argued for the "free sea" in this book. :: Mare Liberum
+The English jurist who argued for the "closed sea". :: John Selden (Mare Clausum)
+The Spanish theologian of Salamanca who wrote on the rights of the peoples of the Americas. :: Francisco de Vitoria
+The Hanafi jurist of the 8th century called a father of Islamic international law. :: Muhammad al-Shaybani ﵀
+Al-Shaybani's ﵀ book on Islamic international law. :: Al-Siyar al-Kabir
+The four sources of international law in Article 38 of the ICJ Statute: treaties, custom, general principles and this. :: Judicial decisions and teachings of scholars
+Rules that countries follow because they feel legally bound, through practice. :: Customary international law
+The feeling of legal obligation behind custom. :: Opinio juris
+Rules that no country can break, such as the ban on genocide. :: Jus cogens (peremptory norms)
+The 1969 treaty on the law of treaties. :: The Vienna Convention on the Law of Treaties
+The principle that treaties must be kept in good faith. :: Pacta sunt servanda
+A statement by a country that it won't be bound by part of a treaty. :: A reservation
+The principle that a treaty doesn't bind countries that are not parties. :: Pacta tertiis
+A fundamental change of circumstances that may end a treaty. :: Rebus sic stantibus
+The UN Charter article that bans the use of force. :: Article 2(4)
+The UN Charter article on self-defence. :: Article 51
+The chapter of the UN Charter on action against threats to peace. :: Chapter VII
+The chapter of the UN Charter on peaceful settlement of disputes. :: Chapter VI
+The idea that states must protect populations from atrocities, adopted in 2005. :: Responsibility to Protect (R2P)
+The 1933 treaty that defined a state. :: The Montevideo Convention
+The four criteria of statehood in the Montevideo Convention: population, territory, government and this. :: Capacity to enter relations with other states
+The theory that a state exists only when recognised by others. :: The constitutive theory
+The theory that a state exists if it meets the criteria, whatever others say. :: The declaratory theory
+The right of peoples to choose their political status. :: Self-determination
+The UN resolution of 1960 on independence for colonies. :: Resolution 1514
+The UN Security Council resolution of 1967 calling for withdrawal from occupied territories. :: Resolution 242
+The ICJ's 2004 opinion on Israel's wall in the occupied Palestinian territory found it was this. :: Contrary to international law
+The ICJ's 2024 advisory opinion said Israel's occupation of Palestinian territory was this. :: Unlawful
+The 1949 convention that protects civilians in war and occupation. :: The Fourth Geneva Convention
+The 1977 additions to the Geneva Conventions. :: The Additional Protocols
+The principle that attacks must tell apart fighters and civilians. :: Distinction
+The principle that civilian harm must not be excessive compared to military gain. :: Proportionality
+The 1907 conventions on the laws of land war. :: The Hague Conventions
+The 1997 treaty banning anti-personnel landmines. :: The Ottawa Treaty
+The 2008 treaty banning cluster bombs. :: The Convention on Cluster Munitions
+The 1968 treaty to stop the spread of nuclear weapons. :: The NPT (Non-Proliferation Treaty)
+The UN agency for nuclear safety and inspections. :: The IAEA
+The IAEA is based in this city. :: Vienna
+The 1993 treaty banning chemical weapons. :: The Chemical Weapons Convention
+The organisation that enforces the Chemical Weapons Convention. :: The OPCW
+The 1972 treaty banning biological weapons. :: The Biological Weapons Convention
+The 2017 treaty banning nuclear weapons. :: The Treaty on the Prohibition of Nuclear Weapons
+The two International Covenants of 1966 cover civil and political rights and this. :: Economic, social and cultural rights
+The treaty that protects women from discrimination, adopted 1979. :: CEDAW
+Saudi Arabia joined CEDAW in this year. :: 2000
+Saudi Arabia joined the Convention on the Rights of the Child in this year. :: 1996
+The UN Human Rights Council is based in this city. :: Geneva
+The UN Human Rights Council replaced this body in 2006. :: The Commission on Human Rights
+The process where every UN member's human rights record is reviewed. :: The Universal Periodic Review
+The 1951 treaty on the status of refugees. :: The Refugee Convention
+The principle that refugees must not be sent back to danger. :: Non-refoulement
+The 1951 Refugee Convention's 1967 addition. :: The Protocol relating to the Status of Refugees
+The UN's 2018 global agreement on migration. :: The Global Compact for Migration
+The rule that a diplomat's bag must not be opened. :: The diplomatic bag rule
+Telling a diplomat to leave a country. :: Declaring them persona non grata
+The 1963 treaty on consular relations. :: The Vienna Convention on Consular Relations
+The ICJ case where Iran held US diplomats hostage. :: United States Diplomatic and Consular Staff in Tehran (1980)
+The principle that a state can't be sued in another state's courts. :: State immunity
+The doctrine that courts won't judge a foreign state's acts in its own territory. :: The act of state doctrine
+The UN Convention on the Law of the Sea entered into force in this year. :: 1994
+The tribunal set up under UNCLOS in Hamburg. :: ITLOS
+The body that manages the seabed beyond national control. :: The International Seabed Authority
+The International Seabed Authority is in this country. :: Jamaica
+The sea area out to 24 nautical miles where customs laws can be enforced. :: The contiguous zone
+The right of ships to pass through territorial waters without stopping. :: Innocent passage
+The right of ships and planes to pass through international straits. :: Transit passage
+The strait between Oman and Iran. :: The Strait of Hormuz
+The strait between Yemen and Djibouti. :: Bab al-Mandab
+The canal that links the Red Sea and the Mediterranean. :: The Suez Canal
+The 1888 treaty that guaranteed free passage through the Suez Canal. :: The Constantinople Convention
+The treaty that set up the Antarctic as a place of peace and science. :: The Antarctic Treaty (1959)
+The 1967 treaty on outer space. :: The Outer Space Treaty
+The 1944 convention on international air travel. :: The Chicago Convention
+The UN agency for civil aviation. :: ICAO
+ICAO is based in this city. :: Montreal
+The UN agency for shipping. :: The IMO
+The IMO is based in this city. :: London
+The UN agency for telecoms. :: The ITU
+The ITU is based in this city. :: Geneva
+The UN agency for postal services. :: The Universal Postal Union
+The Universal Postal Union is based in this city. :: Bern
+The Kyoto Protocol on climate change was adopted in this year. :: 1997
+The Paris Agreement's goal to limit warming to well below this many degrees. :: 2°C (aiming for 1.5°C)
+The 1987 treaty that protects the ozone layer. :: The Montreal Protocol
+The 1992 Earth Summit was held in this city. :: Rio de Janeiro
+Saudi Arabia's Green Initiative aims to plant this many trees in the kingdom. :: 10 billion
+Saudi Arabia aims for net zero emissions by this year. :: 2060
+The Saudi-hosted summit that launched the Middle East Green Initiative was in this year. :: 2021
+The Saudi city that hosted the G20 Leaders' Summit (held online) in 2020. :: Riyadh
+Saudi Arabia joined the G20 at its founding in this year. :: 1999
+The Saudi Arabia and Iran agreement to restore relations in 2023 was brokered by this country. :: China
+The Saudi-Kuwaiti Neutral Zone was divided by agreement in this year. :: 1965 (signed), 1970 (in force)
+The 2000 treaty that settled the Saudi-Yemen border. :: The Jeddah Treaty
+The 1934 treaty between Saudi Arabia and Yemen. :: The Treaty of Taif
+The 1974 agreement on the Saudi-UAE border. :: The Treaty of Jeddah
+The Saudi-Bahrain maritime border agreement was signed in this year. :: 1958
+The Saudi-Qatar border agreement was finalised in this year. :: 2001
+The 2021 GCC summit that ended the Qatar dispute was held in this Saudi city. :: Al-'Ula
+
+## 300
+The ICJ's first contentious case. :: The Corfu Channel case (UK v Albania)
+The Corfu Channel case was about mines that damaged these ships. :: British warships
+The ICJ case that set the "effective control" test, about the US and rebels. :: Nicaragua v United States (1986)
+In Nicaragua v United States, the US supported these rebels. :: The Contras
+The ICJ case on fishing limits between the UK and Norway. :: The Anglo-Norwegian Fisheries case (1951)
+The ICJ case on the North Sea continental shelf between Germany, the Netherlands and Denmark. :: North Sea Continental Shelf cases (1969)
+The PCIJ case about a collision between French and Turkish ships. :: The Lotus case (1927)
+The Lotus principle says states may act unless this. :: A rule forbids it
+The ICJ case that recognised the "erga omnes" obligations idea. :: Barcelona Traction (1970)
+"Erga omnes" means obligations owed to this. :: The whole international community
+The ICJ case on the nationality of a German-born man in Liechtenstein. :: The Nottebohm case (1955)
+Nottebohm set the test of a "genuine link" for this. :: Nationality
+The ICJ advisory opinion of 1949 on UN personality after a UN mediator was killed. :: Reparation for Injuries
+The UN mediator killed in Palestine in 1948. :: Count Folke Bernadotte
+The ICJ advisory opinion of 1996 on the legality of these weapons. :: Nuclear weapons
+The ICJ's 2010 advisory opinion on this country's declaration of independence. :: Kosovo
+The ICJ case where Bosnia sued Serbia found Serbia failed to do this. :: Prevent genocide at Srebrenica
+The ICJ case South Africa brought against Israel in 2023 under this convention. :: The Genocide Convention
+The ICJ case of 2019 where The Gambia sued Myanmar over the treatment of this group. :: The Rohingya
+The ICJ 2019 advisory opinion on the Chagos Islands said the UK must do this. :: End its administration
+The UK agreed in 2024 to hand the Chagos Islands to this country. :: Mauritius
+The 2016 South China Sea arbitration was brought by this country against China. :: The Philippines
+The 2016 South China Sea arbitration was heard by a tribunal at this body. :: The Permanent Court of Arbitration
+The Permanent Court of Arbitration was set up in this year. :: 1899
+The Alabama Claims arbitration of 1872 was between the US and this country. :: Britain
+The Trail Smelter arbitration was about pollution between the US and this country. :: Canada
+The Trail Smelter principle: a state must not let its territory be used to cause this. :: Harm to another state (transboundary harm)
+The Island of Palmas arbitration of 1928 was between the Netherlands and this country. :: The United States
+The arbitrator in the Island of Palmas case. :: Max Huber
+The Island of Palmas case set the rule that title needs this. :: Effective, continuous display of sovereignty
+The Taba arbitration of 1988 between Egypt and Israel awarded Taba to this country. :: Egypt
+The ICJ case of 2001 between Qatar and Bahrain gave the Hawar Islands to this country. :: Bahrain
+In that case, Zubarah went to this country. :: Qatar
+The ICJ case between Libya and Chad over this strip. :: The Aouzou Strip
+The ICJ case between Cameroon and Nigeria over this peninsula. :: Bakassi
+The Eritrea-Yemen arbitration of 1998 was about these islands. :: The Hanish Islands
+The Eritrea-Ethiopia Boundary Commission gave this town to Eritrea in 2002. :: Badme
+The rule that colonial borders become the borders of new states. :: Uti possidetis
+The UN Security Council resolution of 1990 that allowed force to expel Iraq from Kuwait. :: Resolution 678
+Iraq invaded Kuwait on this date. :: 2 August 1990
+The coalition operation to free Kuwait. :: Operation Desert Storm
+The UN Security Council resolution of 1973 on Libya that set a no-fly zone in 2011. :: Resolution 1973
+The UN Security Council resolution of 2015 on Yemen. :: Resolution 2216
+The UN Security Council resolution 2334 of 2016 said these are a flagrant violation of international law. :: Israeli settlements
+The Arab Peace Initiative of 2002 was proposed by this Saudi leader. :: King Abdullah ibn Abdulaziz (then Crown Prince)
+The Arab Peace Initiative was adopted at the Arab League summit in this city. :: Beirut
+The 1945 Arab League Pact was signed by this many founding states. :: Seven
+The 1981 GCC Charter was signed in this city. :: Abu Dhabi
+The GCC's Peninsula Shield Force was set up in this year. :: 1984
+The OIC was founded at a summit in this city. :: Rabat
+The OIC's Charter was revised in this year. :: 2008
+The OIC's International Islamic Fiqh Academy is based in this city. :: Jeddah
+The Muslim World League is based in this city. :: Makkah
+The Muslim World League was founded in Makkah in this year. :: 1962
+The Islamic Military Counter Terrorism Coalition is based in this city. :: Riyadh
+The Islamic Military Counter Terrorism Coalition was formed in this year. :: 2015
+The Saudi-led Islamic Military Coalition has more than this many member states. :: 40
+The UN Counter-Terrorism Centre was set up with a large donation from this country. :: Saudi Arabia
+The King Abdullah International Centre for Interreligious and Intercultural Dialogue (KAICIID) moved to this city in 2022. :: Lisbon
+The Saudi institution that leads humanitarian aid abroad. :: KSrelief (King Salman Humanitarian Aid and Relief Centre)
+KSrelief was set up in this year. :: 2015
+The Saudi Fund for Development was set up in this year. :: 1974
+The 2015 UN goals for 2030. :: The Sustainable Development Goals (SDGs)
+The number of SDGs. :: 17
+The Millennium Development Goals ran until this year. :: 2015
+The "Washington Consensus" was a set of policies linked to these bodies. :: The IMF and World Bank
+The Bretton Woods conference was held in this year. :: 1944
+The UN Commission on International Trade Law is known as this. :: UNCITRAL
+The Hague Conference on Private International Law works on rules for this. :: Cross-border private matters (family, contracts)
+The 1980 Hague convention on child abduction aims to do this. :: Return abducted children quickly
+The law that decides which country's law applies to cross-border private cases. :: Private international law (conflict of laws)
+Public international law deals mainly with relations between these. :: States (and international organisations)
+The UN body that writes drafts to develop international law. :: The International Law Commission
+The ILC's 2001 articles on state responsibility are about this. :: Internationally wrongful acts
+Under the ILC articles, a state may take this lawful step to make another state stop a wrong. :: Countermeasures
+A state's duty after a wrongful act: stop it and make this. :: Full reparation
+The three forms of reparation: restitution, compensation and this. :: Satisfaction
+The ICJ case that set the Chorzów Factory rule on reparation. :: The Chorzów Factory case (1928)
+The principle that a foreign national must use local courts before a state claim. :: Exhaustion of local remedies
+A state taking up its citizen's claim against another state. :: Diplomatic protection
+The doctrine that host states must pay compensation for taking foreign property. :: The Hull formula (prompt, adequate and effective compensation)
+Bilateral investment treaties are known by this short form. :: BITs
+The 1965 convention that created ICSID. :: The Washington Convention
+The 1958 convention on enforcing arbitral awards. :: The New York Convention
+The 1945 Nuremberg trials tried leaders of this country. :: Nazi Germany
+The Tokyo trials tried leaders of this country. :: Japan
+The Nuremberg trials set the principle that individuals can be guilty of these. :: International crimes
+The ICC has this many state parties (about). :: 125
+The ICC's jurisdiction began on this date. :: 1 July 2002
+The amendments that defined aggression for the ICC were adopted in this Ugandan city. :: Kampala
+Three permanent Security Council members not in the ICC: the US, China and this. :: Russia
+Saudi Arabia's status regarding the ICC. :: Not a party
+The ICC can act only when national courts are unwilling or unable. This principle is called this. :: Complementarity
+The UN Security Council can refer cases to the ICC. It did so for Darfur and this country. :: Libya
+The UN General Assembly's six main committees: the Sixth Committee deals with this. :: Legal questions
+The UN organ that oversaw trust territories, now inactive. :: The Trusteeship Council
+The UN's six main organs include the Economic and Social Council, known as this. :: ECOSOC
+The last trust territory, which became independent in 1994. :: Palau
+A treaty is registered with this office under Article 102 of the UN Charter. :: The UN Secretariat
+The UN Charter prevails over other treaties under this article. :: Article 103
+
+## 400
+Nawaf Salam left the ICJ in 2025 to become this. :: Prime Minister of Lebanon
+The Somali judge who was ICJ president from 2018 to 2021. :: Abdulqawi Ahmed Yusuf
+The Jordanian jurist and Prime Minister who was an ICJ judge. :: Awn Shawkat Al-Khasawneh
+The ICJ judges are elected for this many years. :: Nine
+ICJ judges are elected by the General Assembly and this body. :: The Security Council
+A judge appointed by a party to an ICJ case when it has no judge of its nationality. :: A judge ad hoc
+The ICJ's jurisdiction depends on this from the states. :: Consent
+The "optional clause" lets states accept ICJ jurisdiction under this article. :: Article 36(2)
+ICJ advisory opinions can be asked for by these. :: UN organs and authorised agencies
+The ICJ's 2025 advisory opinion on climate change said states have these. :: Legal obligations to protect the climate system
+That 2025 climate opinion was requested after a campaign by students from this island country. :: Vanuatu
+The UN General Assembly resolution "Uniting for Peace" of 1950 lets it act when this body is blocked. :: The Security Council
+The first UN peacekeeping mission (1948) was in this region. :: The Middle East (UNTSO)
+The UN Emergency Force of 1956 was sent after this crisis. :: The Suez Crisis
+The UN Secretary-General who died in a plane crash in 1961. :: Dag Hammarskjöld
+The UN's first Secretary-General. :: Trygve Lie
+The only UN Secretary-General from an Arab country. :: Boutros Boutros-Ghali
+Boutros Boutros-Ghali was from this country. :: Egypt
+The UN Secretary-General who won the Nobel Peace Prize in 2001. :: Kofi Annan
+The UN Secretary-General from South Korea. :: Ban Ki-moon
+The 1950 European Convention on Human Rights is enforced by this court. :: The European Court of Human Rights
+The 1969 American Convention on Human Rights is enforced by this court. :: The Inter-American Court of Human Rights
+The African Charter on Human and Peoples' Rights is also called this. :: The Banjul Charter
+The Arab Charter on Human Rights is monitored by this committee. :: The Arab Human Rights Committee
+The Arab Court of Human Rights statute was adopted in 2014; its seat was to be in this country. :: Bahrain
+The ILC's 1950 principles summed up the law of this tribunal. :: Nuremberg
+The 1948 Genocide Convention's definition covers five acts, including killing and preventing births and this. :: Forcibly transferring children
+The 1973 convention against this system of racial domination. :: Apartheid
+Apartheid is listed as a crime against humanity in this statute. :: The Rome Statute
+The Martens Clause in the Hague Conventions protects people in cases not covered by treaties under these. :: Principles of humanity and public conscience
+The principle that soldiers who surrender must not be harmed. :: Hors de combat protection
+The 1949 Geneva Convention on prisoners of war is the number this. :: Third
+The 1949 Geneva Convention on wounded at sea is the number this. :: Second
+The Islamic rules of war in hadiths forbid killing these groups. :: Women, children, the old and monks in their cells
+The famous instructions of Abu Bakr ﵁ to his army included not cutting fruit trees and not killing this. :: Animals except for food
+Abu Bakr's ﵁ instructions were given to the army led by this young Companion. :: Usamah ibn Zayd ﵁
+The Treaty of Hudaybiyyah set a truce for this many years. :: Ten
+The Islamic legal term for a peace treaty. :: Hudnah (or sulh)
+The Islamic legal term for a safe-conduct to a non-Muslim. :: Aman
+The Islamic legal term for a non-Muslim granted safe conduct. :: Musta'min
+In Islamic law, an aman given by a single Muslim, even a woman, is valid. This is shown by the aman given by this woman. :: Umm Hani' ﵂
+Our Beloved and our master, the Prophet Muhammad ﷺ said, "We protect whom you protect, O" this person. :: Umm Hani' ﵂
+The rule that envoys must not be killed comes from what our Beloved and our master, the Prophet Muhammad ﷺ said to the envoys of this false prophet. :: Musaylimah
+The famous saying that envoys are not killed, in Arabic. :: Al-rusul la tuqtal
+The Islamic terms "dar al-Islam" and "dar al-harb" were used by classical jurists, and many added this third category. :: Dar al-'ahd (lands of treaty)
+The 2004 Amman Message was about this. :: Defining who is a Muslim and rejecting takfir
+The Makkah Charter of 2019 was issued by this organisation. :: The Muslim World League
+The Makkah Charter was signed by over this many Muslim scholars. :: 1,200
+The Document on Human Fraternity of 2019 was signed in this city. :: Abu Dhabi
+The Abraham Accords of 2020 were signed first by Israel, the UAE and this country. :: Bahrain
+The 1979 peace treaty between Egypt and Israel followed these 1978 accords. :: The Camp David Accords
+The 1994 peace treaty between Jordan and Israel is called this. :: The Wadi Araba Treaty
+The 1993 Oslo Accord was signed in this city. :: Washington
+The 1916 secret agreement dividing the Middle East between Britain and France. :: The Sykes-Picot Agreement
+The 1917 British letter supporting a "Jewish national home". :: The Balfour Declaration
+The League of Nations mandate system placed Palestine under this country. :: Britain
+The UN partition plan for Palestine was Resolution 181 of this year. :: 1947
+The 1915 treaty between Britain and Ibn Saud. :: The Treaty of Darin
+The 1927 treaty in which Britain recognised Ibn Saud's independence. :: The Treaty of Jeddah
+The 1945 meeting between King Abdulaziz and US President Roosevelt took place on this ship. :: USS Quincy
+King Abdulaziz met Roosevelt in this body of water. :: The Great Bitter Lake (Suez Canal)
+The 1990 UN Security Council resolution that imposed sanctions on Iraq. :: Resolution 661
+The 1991 resolution that set ceasefire terms with Iraq. :: Resolution 687
+The UN Compensation Commission paid claims from Iraq's invasion of this country. :: Kuwait
+The UN Compensation Commission finished paying Kuwait in this year. :: 2022
+The 2015 nuclear deal with Iran is known by this short name. :: The JCPOA
+The US left the JCPOA in this year. :: 2018
+The UN's "snapback" of sanctions on Iran was triggered by European states in this year. :: 2025
+The 1970 UN declaration on friendly relations between states is Resolution this number. :: 2625
+The UN definition of aggression of 1974 is Resolution this number. :: 3314
+The Montreux Convention of 1936 regulates these straits. :: The Turkish Straits (Bosporus and Dardanelles)
+The 1982 UNCLOS rule on islands that can't sustain human life: they have no EEZ. This is in this article. :: Article 121(3)
+The baseline for measuring maritime zones is usually this. :: The low-water line
+Bays and archipelagos can use these straight baselines. :: Straight baselines
+The continental shelf can extend up to this many nautical miles in some cases. :: 350
+The commission that reviews claims to an extended continental shelf. :: The Commission on the Limits of the Continental Shelf
+The 2023 UN treaty to protect ocean life on the high seas. :: The High Seas Treaty (BBNJ Agreement)
+The BBNJ Agreement entered into force in this year. :: 2026
+The convention on international trade in endangered species. :: CITES
+The 1971 convention on wetlands is named after this Iranian city. :: Ramsar
+The 1972 UNESCO convention protects these sites. :: World Heritage Sites
+The first Saudi World Heritage Site. :: Hegra (Al-Hijr)
+Hegra was listed in this year. :: 2008
+The UN Charter article that makes Security Council decisions binding on members. :: Article 25
+The UN Charter article on regional arrangements such as the Arab League. :: Chapter VIII
+The Vienna Convention on the Law of Treaties article on interpreting treaties in good faith and by ordinary meaning. :: Article 31
+The Vienna Convention on the Law of Treaties article that says treaties against jus cogens are void. :: Article 53
+The Vienna Convention article that says a state can't use its own law to justify breaking a treaty. :: Article 27
+The doctrine that a state can stop being bound if the other side materially breaches a treaty. :: Material breach (Article 60)
+The ICJ case that found a treaty can't be ended for a fundamental change if the change was caused by the claiming state. :: Gabčíkovo-Nagymaros (1997)
+The term for a country that changes into a new state, such as when a country splits. :: State succession
+The 1978 Vienna Convention covers state succession in respect of these. :: Treaties
+The rule that a new state starts free of the old state's treaties. :: The clean slate rule
+The Soviet Union's UN seat passed to this state in 1991. :: Russia
+The rule of international law on how far a country's laws can reach people abroad, based on the offender's nationality. :: Active personality (nationality) principle
+The jurisdiction principle based on the victim's nationality. :: Passive personality principle
+The jurisdiction principle that protects a state's security from foreign acts. :: The protective principle
+The principle that any state can try crimes like piracy and genocide. :: Universal jurisdiction
+The trial in Jerusalem in 1961 based partly on universal jurisdiction. :: The Eichmann trial
+Spain's attempt to try this Chilean leader in 1998 was a famous use of universal jurisdiction. :: Augusto Pinochet
+
+## 500
+The 1878 Congress of Berlin was mainly about this region. :: The Balkans
+The 1815 Congress that redrew Europe after Napoleon. :: The Congress of Vienna
+The 1884-85 conference that divided Africa among Europeans. :: The Berlin Conference
+The 1919 Paris Peace Conference produced this treaty with Germany. :: The Treaty of Versailles
+The 1920 treaty that divided the Ottoman lands, never fully applied. :: The Treaty of Sèvres
+The 1923 treaty that replaced Sèvres and recognised modern Turkey. :: The Treaty of Lausanne
+The 1928 pact that renounced war as a tool of policy. :: The Kellogg-Briand Pact
+The 1864 first Geneva Convention was inspired by this Swiss businessman. :: Henry Dunant
+Henry Dunant wrote "A Memory of" this battle. :: Solferino
+The 1868 declaration that banned exploding bullets. :: The St Petersburg Declaration
+The US Army's 1863 code of conduct in war. :: The Lieber Code
+The Ottoman Empire first used the Red Crescent during this war. :: The Russo-Turkish War (1876–1878)
+The Islamic legal manual "Al-Ahkam al-Sultaniyyah" covers the rules of war and these. :: Government offices and public law
+The Andalusian Maliki scholar Ibn Rushd's ﵀ "Bidayat al-Mujtahid" has a chapter on this. :: Jihad (and treaties)
+The Ottoman capitulations gave foreign traders rights such as this. :: Being judged by their own consuls
+The first capitulations were given to this country in the 16th century. :: France
+The Ottoman Empire was admitted to the "Concert of Europe" by this 1856 treaty. :: The Treaty of Paris
+The Islamic jurist al-Awza'i ﵀ wrote on the law of war; Abu Yusuf ﵀ answered him in this book. :: Al-Radd 'ala Siyar al-Awza'i
+Imam al-Shafi'i ﵀ discussed war law in "Al-Umm" in a book called this. :: Kitab al-Siyar
+The ICJ's "Gabčíkovo-Nagymaros" case was about a dam on this river. :: The Danube
+The ICJ's "Pulp Mills" case was between Argentina and this country. :: Uruguay
+The ICJ "Whaling in the Antarctic" case was brought by Australia against this country. :: Japan
+The ICJ case on the Temple of Preah Vihear was between Cambodia and this country. :: Thailand
+The ICJ's 1974 Nuclear Tests cases were against this country. :: France
+The ICJ case that found unilateral statements can bind a state. :: The Nuclear Tests cases
+The ICJ's "Arrest Warrant" case of 2002 was between the DRC and this country. :: Belgium
+The Arrest Warrant case held that sitting foreign ministers have this. :: Full immunity from foreign criminal courts
+The UK House of Lords case on the immunity of a former Chilean dictator. :: R v Bow Street Magistrate, ex parte Pinochet (1999)
+Pinochet was held to have no immunity for this crime after the UK joined the treaty. :: Torture
+The ICJ "Jurisdictional Immunities" case of 2012 was between Germany and this country. :: Italy
+The ICJ case "Avena" was about Mexican nationals denied this right in the US. :: Consular notification
+The ICJ case "LaGrand" of 2001 decided that ICJ provisional measures are this. :: Binding
+The "Caroline" incident of 1837 set the test for this. :: Anticipatory self-defence (necessity and proportionality)
+The "Caroline" test says the need must be "instant, overwhelming, leaving no choice of means and no moment for" this. :: Deliberation
+The Caroline incident involved a ship sent over this waterfall. :: Niagara Falls
+The legal debate after 2001 about force against non-state actors relied on this UN resolution. :: Resolution 1368 (and 1373)
+UN Security Council resolution 1373 of 2001 required states to fight this. :: Terrorist financing
+The UN list of sanctioned al-Qaeda individuals is managed by the committee created by this resolution. :: Resolution 1267
+The European Court of Justice case of 2008 about UN sanctions and fundamental rights. :: Kadi
+Yassin Abdullah Kadi was a businessman from this country. :: Saudi Arabia
+The "Tinoco" arbitration of 1923 was between Britain and this country. :: Costa Rica
+The "Tinoco" case held that a government's recognition depends on this. :: Effective control (not legitimacy)
+The 1970s UN call for a "New International Economic Order" came from these countries. :: Developing countries (G77)
+The G77 was founded in this year. :: 1964
+The Non-Aligned Movement was founded in this city in 1961. :: Belgrade
+The 1955 conference of Asian and African states that led to non-alignment. :: The Bandung Conference
+Saudi Arabia's King Faisal led the 1973 oil embargo against countries supporting this state. :: Israel
+The 1973 oil embargo was announced by this organisation. :: OAPEC
+OAPEC is based in this city. :: Kuwait City
+The Saudi minister of oil during the 1973 embargo. :: Ahmed Zaki Yamani
+The 1960 founding members of OPEC: Saudi Arabia, Iran, Iraq, Kuwait and this. :: Venezuela
+The legal status of the Saudi-Kuwaiti "Divided Zone" oil fields: shared production of this field. :: Al-Khafji (and Wafra)
+The 2019 Saudi-Kuwait agreement restarted production in the Neutral Zone in this year. :: 2020
+The 1965 Saudi-Jordan agreement exchanged land, giving Jordan more coast on this gulf. :: The Gulf of Aqaba
+The 2016 Saudi-Egypt agreement transferred these two islands to Saudi Arabia. :: Tiran and Sanafir
+Tiran and Sanafir lie at the mouth of this gulf. :: The Gulf of Aqaba
+In 2022 the UN General Assembly asked the ICJ for an opinion on this. :: The Israeli occupation of Palestinian territory
+The ICJ opinion requested in 2022 was delivered in this year. :: 2024
+The UN General Assembly gave Palestine new rights as an observer state in this year. :: 2024
+Palestine became a UN non-member observer state in this year. :: 2012
+The State of Palestine's status at the ICC. :: A state party (since 2015)
+The ICC Prosecutor applied for arrest warrants in the Palestine situation in this year. :: 2024
+The ICC issued an arrest warrant in 2023 for this country's president. :: Russia
+Russia's president was charged by the ICC with the unlawful deportation of these. :: Children (from Ukraine)
+The ICJ's 2024 order in Mexico v Ecuador was about a raid on this. :: Mexico's embassy in Quito
+The 1984 hostage case on the Libyan embassy in London involved the killing of this police officer. :: WPC Yvonne Fletcher
+The UK cut ties with Libya after Yvonne Fletcher was shot from inside this building. :: The Libyan embassy (People's Bureau)
+The Lockerbie bombing case was tried in a Scottish court sitting in this country. :: The Netherlands (Camp Zeist)
+The Lockerbie bombing happened in this year. :: 1988
+The 2005 Hariri assassination was in this city. :: Beirut
+The UN body that investigates human rights in the occupied territories is called this. :: The Special Rapporteur on the occupied Palestinian territories
+The 1930 Hague Conference tried to codify the law of nationality, territorial waters and this. :: State responsibility
+The 1958 Geneva Conventions covered these four topics. :: The territorial sea, high seas, fishing and continental shelf
+The US president who in 1945 claimed the continental shelf for the US. :: Harry Truman (Truman Proclamation)
+The 1952 Santiago Declaration by Chile, Ecuador and Peru claimed this sea zone. :: 200 nautical miles
+The 1970s "Cod Wars" were between Britain and this country. :: Iceland
+The Indus Waters Treaty of 1960 was signed by India and Pakistan with help from this bank. :: The World Bank
+India said it was putting the Indus Waters Treaty "in abeyance" in this year. :: 2025
+The Nile Waters Agreement of 1959 was between Egypt and this country. :: Sudan
+The Grand Ethiopian Renaissance Dam is on this river. :: The Blue Nile
+The 1997 UN convention on international watercourses sets the principle of this use. :: Equitable and reasonable use
+The 1992 Helsinki Water Convention is managed by this UN body. :: UNECE
+The principle that the polluter pays is principle number this of the Rio Declaration. :: 16
+The precautionary principle is principle number this of the Rio Declaration. :: 15
+The 1989 Basel Convention controls movement of this. :: Hazardous waste
+The 2001 Stockholm Convention bans these chemicals. :: Persistent organic pollutants
+The 2013 Minamata Convention is about this metal. :: Mercury
+The 1946 convention that set up the International Whaling Commission is about this. :: Whaling
+The 1979 Moon Agreement says the Moon is this. :: The common heritage of mankind
+The US program of agreements for Moon exploration, signed by Saudi Arabia in 2022. :: The Artemis Accords
+Saudi Arabia sent its first female astronaut to space in this year. :: 2023
+Saudi Arabia's first female astronaut. :: Rayyanah Barnawi
+The first Arab and Muslim in space, a Saudi prince. :: Prince Sultan bin Salman
+Prince Sultan bin Salman flew on this US shuttle in 1985. :: Discovery
+The UN Office for Outer Space Affairs is based in this city. :: Vienna
+The 1972 convention on liability for damage caused by these. :: Space objects
+The first claim under the Space Liability Convention was by Canada against the USSR over this satellite. :: Cosmos 954
+The 2001 Budapest Convention is the first treaty on this. :: Cybercrime
+The Tallinn Manual is a study on how international law applies to this. :: Cyber operations
+The 1968 arbitration over the Rann of Kutch was between India and this country. :: Pakistan
+The 1998 Aarhus Convention gives the public rights on information, participation and justice in this area. :: Environmental matters
