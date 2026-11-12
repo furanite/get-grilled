@@ -17,7 +17,6 @@ The light, silvery metal used in drink cans. :: Aluminium
 The metal with the chemical symbol Fe. :: Iron
 The metal with the chemical symbol Cu. :: Copper
 The metal with the chemical symbol Ti, used in jet engines and hip implants. :: Titanium
-The metal that is liquid at room temperature. :: Mercury
 The lightest structural metal, used in some car wheels and laptop cases. :: Magnesium
 The metal with the highest melting point, used in old light bulb filaments. :: Tungsten
 The coating of zinc put on steel to stop rust. :: Galvanising
@@ -38,7 +37,6 @@ Plastics that soften when heated and can be remoulded. :: Thermoplastics
 Plastics that set hard permanently when cured, like epoxy. :: Thermosets
 The natural polymer from rubber trees. :: Natural rubber (latex)
 Heating rubber with sulfur to make it tougher. :: Vulcanisation
-The inventor of vulcanised rubber. :: Charles Goodyear
 Inorganic, non-metallic materials like clay, glass and porcelain. :: Ceramics
 The main ingredient of ordinary glass. :: Silica (sand)
 Ceramics are usually strong in compression but this. :: Brittle (weak in tension)
@@ -104,6 +102,8 @@ The SI unit of stress. :: Pascal (Pa)
 Strain has this unit. :: None (dimensionless)
 The number of carats in pure gold. :: 24
 Sterling silver contains this percentage of silver. :: 92.5%
+The tyre company named after the inventor of vulcanised rubber. :: Goodyear
+The yellow metal that never rusts, used in jewellery and electronics. :: Gold
 
 ## 200
 The regular repeating arrangement of atoms in a solid. :: Crystal structure (lattice)

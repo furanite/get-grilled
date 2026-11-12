@@ -69,9 +69,7 @@ The giant clock tower hotel next to the Grand Mosque in Makkah. :: Abraj Al-Bait
 The causeway that links Saudi Arabia to Bahrain. :: King Fahd Causeway
 The length of the King Fahd Causeway, roughly. :: About 25 km
 The driverless metro system in the Saudi capital. :: Riyadh Metro
-The high-speed railway linking Makkah and Madinah. :: Haramain High-Speed Railway
 The large Saudi giga-project on the Red Sea coast in Tabuk province. :: NEOM
-The 170 km linear city planned inside NEOM. :: The Line
 The Saudi entertainment giga-project near Riyadh. :: Qiddiya
 The historic district near Riyadh being redeveloped as a cultural destination. :: Diriyah
 The machine that digs tunnels with a rotating cutter head. :: Tunnel boring machine (TBM)
@@ -104,6 +102,8 @@ The sideways load that tall buildings must resist from the air. :: Wind load
 The ground shaking load that structures must resist. :: Earthquake (seismic) load
 The cheapest common way to keep sun heat out of a building's walls. :: Insulation (and shading)
 Building digital 3D models with full project information. :: BIM (Building Information Modelling)
+The sand layer laid under paving blocks and pipes. :: Bedding layer
+The raised concrete edge along a road, called a curb in American English. :: Kerb
 
 ## 200
 The four main compounds in Portland cement are C3S, C2S, C3A and this. :: C4AF
@@ -450,7 +450,6 @@ The Nabataean site in Saudi Arabia with tombs carved into sandstone. :: Hegra (A
 The old mud-brick capital of the first Saudi state, a UNESCO site. :: At-Turaif (Diriyah)
 The traditional building material of Najd, sun-dried mud brick. :: Adobe (libn)
 The coral stone and wooden 'rawashin' are typical of this historic Jeddah district. :: Al-Balad
-The year the King Fahd Causeway opened. :: 1986
 The Riyadh landmark tower with a 'bridge' at the top. :: Kingdom Centre
 The Riyadh tower designed by Norman Foster, completed in 2000. :: Al Faisaliah Tower
 The engineering firm that designed the Burj Khalifa's structure. :: Skidmore, Owings & Merrill (SOM)
@@ -485,7 +484,6 @@ The 1,400 km pilgrim road from Kufa to Makkah named after her. :: Darb Zubaida
 The 1908 railway from Damascus to Madinah. :: Hejaz Railway
 The Hejaz Railway's main station building in Madinah is now this. :: Museum
 The US Army engineer who completed the Panama Canal in 1914 as chief engineer. :: George Washington Goethals
-The Suez Canal opened in this year. :: 1869
 The French diplomat who led the building of the Suez Canal. :: Ferdinand de Lesseps
 The Dutch sea defence project after the 1953 flood. :: Delta Works
 The Chinese dam on the Yangtze that is also the world's largest power station. :: Three Gorges Dam
@@ -506,9 +504,11 @@ The Chicago architect who said 'form follows function'. :: Louis Sullivan
 The inventor whose safety elevator, shown in 1853, made skyscrapers practical. :: Elisha Otis
 The Empire State Building was built in roughly this long. :: About 13 months (410 days)
 The name of the Golden Gate Bridge's famous colour. :: International Orange
-The Golden Gate Bridge opened in this year. :: 1937
 The nickname of the Sydney Harbour Bridge. :: The Coathanger
 The Danish architect of the Sydney Opera House. :: Jørn Utzon
 The Anglo-Danish engineer whose firm solved the Sydney Opera House shells. :: Ove Arup
 The pipeline that carried Saudi oil across Arabia to Lebanon from 1950. :: Tapline (Trans-Arabian Pipeline)
 Saudi Arabia's East–West crude pipeline runs from Abqaiq to this Red Sea port. :: Yanbu
+The Panama Canal opened in this year. :: 1914
+The main span of the Brooklyn Bridge, roughly. :: About 486 m
+The Eiffel Tower's original height, roughly. :: About 300 m

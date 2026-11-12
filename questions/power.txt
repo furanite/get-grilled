@@ -85,9 +85,7 @@ The energy of a moving wind or water flow. :: Kinetic energy
 The energy stored in water behind a dam. :: Gravitational potential energy
 Pumping water uphill when power is cheap and releasing it later. :: Pumped hydro storage
 The unit used for crude oil production. :: Barrels (per day)
-One barrel of oil holds this many US gallons. :: 42
 The world's largest oil company by production, based in Dhahran. :: Saudi Aramco
-The world's largest conventional oil field, in Saudi Arabia. :: Ghawar
 The Saudi Vision 2030 target share of electricity from renewables. :: About 50%
 The Saudi company that builds and runs many solar and water plants worldwide. :: ACWA Power
 The future city in northwest Saudi Arabia planned to run on renewable energy. :: NEOM
@@ -104,14 +102,14 @@ Saudi Arabia's target year for net zero emissions. :: 2060
 The international climate agreement signed in 2015. :: Paris Agreement
 The car that is 'plugged in' to recharge but also has an engine. :: Plug-in hybrid (PHEV)
 Rooftop solar water heaters warm water using this. :: Sunlight (solar thermal energy)
+Saudi electricity bills charge halalas per this unit. :: kWh
+The gas in home cooking cylinders, a mix of propane and butane. :: LPG
 
 ## 200
 In a three-phase system, the phases are separated by this angle. :: 120 degrees
 Line voltage in a star system equals phase voltage times this. :: √3
 The power that does useful work, measured in watts. :: Real (active) power
 The power that flows back and forth in inductors and capacitors. :: Reactive power
-The unit of reactive power. :: VAR (volt-ampere reactive)
-The unit of apparent power. :: VA (volt-ampere)
 Real power divided by apparent power. :: Power factor
 A motor load makes the power factor this. :: Lagging
 Utilities add these to correct a lagging power factor. :: Capacitors (capacitor banks)
@@ -206,6 +204,8 @@ Saudi distribution networks at 13.8 kV are at this voltage level. :: Medium volt
 A tariff that charges different prices at different times of day. :: Time-of-use tariff
 Average load divided by peak load over a period. :: Load factor
 Thermal storage for air conditioning often makes this at night to use during the day. :: Ice (or chilled water)
+A load that draws leading reactive current. :: Capacitive load
+A power factor of 1 means voltage and current are this. :: In phase
 
 ## 300
 The per-unit system expresses quantities as fractions of this. :: Base values
@@ -432,7 +432,6 @@ The 1941 1.25 MW wind turbine on a Vermont hill, the first megawatt-scale turbin
 The Welsh scientist who invented the fuel cell in 1839. :: William Grove
 The NASA programmes that used fuel cells for power in the 1960s. :: Gemini and Apollo
 The Italian physicist who invented the first battery, the voltaic pile, in 1800. :: Alessandro Volta
-The French physicist who invented the rechargeable lead-acid battery in 1859. :: Gaston Planté
 The three scientists who won the 2019 Chemistry Nobel for lithium-ion batteries. :: Goodenough, Whittingham and Yoshino
 The Japanese company that first sold lithium-ion batteries in 1991. :: Sony
 The Italian physicist who led the first man-made nuclear chain reaction in 1942. :: Enrico Fermi
@@ -512,3 +511,4 @@ The Saudi industrial city on the Gulf with huge power and desalination plants su
 The Saudi Aramco plant at Abqaiq, attacked in 2019, mainly does this to crude oil. :: Processes (stabilises) it
 The Saudi Green Initiative was launched in this year. :: 2021
 Ghawar, the world's largest conventional oil field, was discovered in this year. :: 1948
+The Swedish inventor of the nickel–cadmium battery in 1899. :: Waldemar Jungner

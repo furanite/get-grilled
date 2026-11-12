@@ -337,7 +337,6 @@ The TI microcontroller family famous for ultra-low power. :: MSP430
 The MSP430's CPU is this many bits wide. :: 16
 The Japanese chip maker that absorbed NEC Electronics in 2010 and leads in automotive MCUs. :: Renesas Electronics
 The automotive software standard for ECUs. :: AUTOSAR
-The functional safety standard for road vehicles. :: ISO 26262
 The ASIL level with the strictest safety requirements. :: ASIL D
 The industrial functional safety standard. :: IEC 61508
 The C coding guidelines for safety-critical embedded systems. :: MISRA C
@@ -410,6 +409,7 @@ The ESP32 flash partition that stores key–value settings like Wi-Fi credential
 The flash property that limits how many times a cell can be erased. :: Endurance (erase cycles)
 Spreading writes across flash blocks to make it last longer. :: Wear levelling
 Flash must be erased in these units before it can be rewritten. :: Sectors (pages or blocks)
+ISO 26262 defines four of these risk-based safety levels, A to D. :: ASILs
 
 ## 500
 The first commercial single-chip microcontroller, from Texas Instruments in 1974. :: TMS1000

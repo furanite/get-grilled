@@ -1,0 +1,514 @@
+id: logicdesign
+name: Digital Logic Design
+nameAr: تصميم الدوائر المنطقية
+group: engineering
+
+## 100
+The gate whose output is 1 when any input is 1. :: OR
+The gate whose output is 1 when its inputs differ. :: XOR
+The gate drawn as a triangle with a small circle at its tip. :: NOT (inverter)
+The small circle on a gate symbol means this. :: Inversion (NOT)
+The gate that is an AND followed by a NOT. :: NAND
+The gate that is an OR followed by a NOT. :: NOR
+The two gates that can each build every other gate on their own. :: NAND and NOR
+A NAND gate with both inputs tied together acts as this. :: Inverter (NOT gate)
+A two-input AND gate's output if one input is 0. :: 0
+A two-input OR gate's output if one input is 1. :: 1
+The output of an XOR gate when both inputs are 1. :: 0
+The output of a NOR gate when both inputs are 0. :: 1
+A table that lists a circuit's output for every input combination. :: Truth table
+The number of rows in the truth table of a 3-input circuit. :: 8
+The number of rows in the truth table of a 4-input circuit. :: 16
+Logic 1 is often called this. :: High (true)
+Logic 0 is often called this. :: Low (false)
+The algebra of true and false used to design logic circuits. :: Boolean algebra
+In Boolean algebra, the plus sign usually means this operation. :: OR
+In Boolean algebra, a dot between variables usually means this operation. :: AND
+A bar over a variable means this. :: NOT (complement)
+A circuit whose output depends only on its present inputs. :: Combinational circuit
+A circuit whose output depends on its inputs and its past. :: Sequential circuit
+The basic memory element that stores one bit. :: Flip-flop (latch)
+The signal that ticks regularly to keep a digital circuit in step. :: Clock
+The moment a clock goes from 0 to 1. :: Rising (positive) edge
+The moment a clock goes from 1 to 0. :: Falling (negative) edge
+The flip-flop that copies its D input on a clock edge. :: D flip-flop
+A circuit that chooses one of several inputs to pass to its output. :: Multiplexer (MUX)
+A circuit that adds three bits: two inputs and a carry in. :: Full adder
+The output from an adder that goes to the next column. :: Carry
+The small black chips with two rows of pins that fit breadboards. :: DIP (dual in-line package)
+The notch or dot on a chip marks this. :: Pin 1
+The famous logic chip family whose part numbers start with 74. :: 7400 series
+The 7400 chip contains this many 2-input NAND gates. :: Four
+The 7404 chip contains this many inverters. :: Six
+The 7408 chip contains these gates. :: Four 2-input AND gates
+The 7432 chip contains these gates. :: Four 2-input OR gates
+The 7486 chip contains these gates. :: Four 2-input XOR gates
+The supply voltage of classic TTL chips. :: 5 V
+The pin that gets the positive supply on a chip. :: VCC (VDD)
+The pin that connects to 0 V. :: GND (ground)
+The logic family that uses MOSFETs in pairs and uses very little power. :: CMOS
+The older logic family built from bipolar transistors. :: TTL (transistor–transistor logic)
+The component used to see logic levels on a board as lights. :: LED
+The display used to show digits with seven bars. :: Seven-segment display
+The chip that converts a BCD number into seven-segment signals. :: BCD-to-seven-segment decoder (7447 or 4511)
+The two types of seven-segment display, by which pins are shared. :: Common anode and common cathode
+The instrument that shows how voltages change over time. :: Oscilloscope
+The instrument that shows many digital signals at once over time. :: Logic analyser
+The simple pen-like tool that shows if a point is high or low. :: Logic probe
+The software used to simulate logic circuits before building them. :: Logic simulator (e.g. Logisim)
+A chip that can be programmed to become almost any digital circuit, again and again. :: FPGA
+A custom chip made for one job and fixed at the factory. :: ASIC
+The two most common hardware description languages. :: Verilog and VHDL
+Code that describes hardware rather than a list of steps. :: Hardware description language (HDL)
+Turning HDL code into a gate-level circuit. :: Synthesis
+A program that tests an HDL design by feeding it inputs. :: Testbench
+The picture of signals against time in a simulation. :: Waveform (timing diagram)
+The input that sets a counter or flip-flop back to zero. :: Reset (clear)
+A counter that counts 0 to 9 then starts again. :: Decade counter
+A 4-bit counter counts from 0 up to this number. :: 15
+A register that moves its bits left or right each clock. :: Shift register
+The number system using 0 to 9 and A to F. :: Hexadecimal
+The hexadecimal digit for decimal 10. :: A
+The binary for decimal 5. :: 101
+The largest number a byte can hold, unsigned. :: 255
+A circuit that compares two numbers to say which is bigger. :: Comparator (magnitude comparator)
+A simple switch input needs this resistor so it does not float. :: Pull-up (or pull-down) resistor
+The bouncing of a mechanical switch makes a counter do this. :: Count several times
+The gate with a hysteresis input that cleans slow or noisy signals. :: Schmitt trigger
+The famous timer chip used to make clock pulses for logic projects. :: 555 timer
+The 555 mode that makes a steady stream of pulses. :: Astable mode
+The 555 mode that makes one pulse each time it is triggered. :: Monostable mode
+The output state that is neither 0 nor 1, used to share a bus. :: High impedance (tri-state)
+A set of wires that carries several bits together. :: Bus
+The number of wires needed for an 8-bit parallel bus, not counting control. :: 8
+A memory chip you can read but not normally write. :: ROM
+A memory chip you can read and write, that forgets when powered off. :: RAM
+The wiring diagram drawn with logic symbols. :: Logic (schematic) diagram
+The grid used to simplify Boolean expressions by grouping 1s. :: Karnaugh map
+The digital system that is the 'brain' of a computer. :: CPU (processor)
+The tiny switch that every logic gate is built from. :: Transistor
+The board on which chips and parts are soldered with copper tracks. :: Printed circuit board (PCB)
+The free online tool from Autodesk often used to try logic circuits in class. :: Tinkercad Circuits
+A design where all flip-flops change on the same clock edge. :: Synchronous design
+The number of output lines on a 3-to-8 decoder. :: 8
+The number of select lines on an 8-to-1 multiplexer. :: 3
+The gate whose output is 1 when its inputs are equal. :: XNOR
+A traffic light controller is a classic example of this kind of circuit. :: State machine (sequential circuit)
+The only basic gate with just one input. :: NOT (inverter)
+Multiplying a binary number by 2 can be done by doing this. :: Shifting it left one place
+A NAND gate followed by an inverter makes this gate. :: AND
+The circuit used to divide a clock frequency by 2, 4, 8 and so on. :: Counter (frequency divider)
+Eight D flip-flops sharing one clock form this. :: An 8-bit register
+A decoder whose enable pin is used as a data input acts as this. :: Demultiplexer
+The 2-to-4 line circuit used to pick which memory chip is active. :: Decoder
+A half adder's sum output comes from this gate. :: XOR
+The decimal value of binary 1010. :: 10
+The tiny piece of silicon inside an IC package. :: Die
+
+## 200
+A DIP chip's pins are numbered this way, looking from the top. :: Anticlockwise from pin 1
+On a 14-pin 74-series chip, VCC is pin 14 and GND is this pin. :: Pin 7
+The 74HC series is this kind of logic family. :: High-speed CMOS
+The 74HCT series differs from 74HC because its inputs accept these levels. :: TTL levels
+The 74LS series means this. :: Low-power Schottky TTL
+The CMOS logic family whose part numbers start with 40, like the 4011. :: 4000 series
+4000-series CMOS can run on supplies from 3 V to this. :: 15 V (18 V max)
+The 74HC00's normal supply range. :: 2 V to 6 V
+The 7474 chip contains these. :: Two D flip-flops
+The 7476 chip contains these. :: Two JK flip-flops
+The 74138 chip is this. :: 3-to-8 line decoder
+The 74151 chip is this. :: 8-to-1 multiplexer
+The 74283 chip is this. :: 4-bit binary full adder
+The 74595 chip is popular for this. :: Serial-in, parallel-out shift register (expanding outputs)
+The 74165 chip is popular for this. :: Parallel-in, serial-out shift register (expanding inputs)
+The 74193 chip is this. :: 4-bit up/down binary counter
+The 7490 chip is this. :: Decade counter
+The 74245 chip is used for this. :: Bus transceiver (bidirectional buffer)
+The 74244 chip is this. :: Octal tri-state buffer
+The 74373 chip is this. :: Octal transparent latch
+The CMOS 4017 chip is famous for this. :: Decade counter with 10 decoded outputs (LED chasers)
+The CMOS 4511 drives this. :: Seven-segment display (BCD decoder/driver)
+The 7447 drives this type of seven-segment display. :: Common anode
+The minimum input voltage a TTL gate is sure to read as high. :: 2.0 V
+The maximum input voltage a TTL gate is sure to read as low. :: 0.8 V
+The guaranteed TTL output high voltage. :: 2.4 V
+The guaranteed TTL output low voltage. :: 0.4 V
+The safety gap between output and input levels. :: Noise margin
+The TTL high-level noise margin. :: 0.4 V
+An unconnected TTL input usually behaves like this. :: High
+Unused CMOS inputs must be tied high or low because floating inputs do this. :: Pick up noise and draw extra current
+The number of inputs one output can drive reliably. :: Fan-out
+The standard fan-out of a TTL gate to other standard TTL gates. :: 10
+The number of inputs a gate has. :: Fan-in
+The time for a gate's output to respond to an input change. :: Propagation delay
+A typical propagation delay of a 74HC gate at 5 V. :: About 8 to 10 ns
+The time for a signal to go from 10% to 90% of its swing. :: Rise time
+CMOS power use grows mainly with this. :: Switching frequency
+The power a CMOS gate uses when not switching. :: Static (leakage) power
+The output type that can only pull low, needing a pull-up resistor. :: Open-collector (open-drain)
+Joining open-collector outputs to one pull-up gives this function. :: Wired-AND
+The output stage of a standard TTL gate. :: Totem pole
+Connecting two normal totem-pole outputs together causes this. :: Contention (a short when they disagree)
+The control pin that puts a tri-state buffer into high impedance. :: Output enable (OE)
+Most enable pins are active low, shown with a bar or this. :: A small circle (or a trailing N or #)
+A capacitor placed by each chip to absorb supply spikes. :: Decoupling capacitor
+A typical decoupling capacitor for logic chips. :: 100 nF
+The gate output glitch caused by unequal path delays. :: Hazard (glitch)
+The latch built from two cross-coupled NOR gates. :: SR latch
+The forbidden input to a NOR SR latch. :: S = 1 and R = 1
+A latch that passes D through while the enable is high. :: Transparent (D) latch
+A latch responds to a level; a flip-flop responds to this. :: A clock edge
+The JK flip-flop does this when J = K = 1. :: Toggles
+The flip-flop that toggles on every clock when its input is 1. :: T flip-flop
+The flip-flop inputs that act immediately, ignoring the clock. :: Asynchronous preset and clear
+The time data must be steady before the clock edge. :: Setup time
+The time data must stay steady after the clock edge. :: Hold time
+The delay from the clock edge to the output changing. :: Clock-to-Q delay
+The highest clock frequency a circuit can run at is set by this path. :: Critical (longest) path
+The counter where each flip-flop is clocked by the one before. :: Ripple (asynchronous) counter
+The counter where all flip-flops share one clock. :: Synchronous counter
+A mod-6 counter counts through this many states. :: Six
+The minimum number of flip-flops for a mod-10 counter. :: Four
+A shift register whose output feeds back to its input. :: Ring counter
+A ring counter with the inverted output fed back. :: Johnson (twisted-ring) counter
+A 4-bit Johnson counter has this many states. :: Eight
+A shift register with XOR feedback that makes pseudo-random sequences. :: LFSR (linear feedback shift register)
+The maximum-length sequence of an n-bit LFSR. :: 2ⁿ − 1
+The method that turns a word problem into states, transitions and outputs. :: State diagram (finite state machine design)
+The state machine whose outputs depend only on the current state. :: Moore machine
+The state machine whose outputs depend on the state and inputs. :: Mealy machine
+The minimum number of flip-flops for a machine with 5 states. :: Three
+Giving each state its own flip-flop. :: One-hot encoding
+Choosing binary codes for each state. :: State assignment
+Removing equivalent states from a design. :: State minimisation (reduction)
+A '1011' sequence detector is a classic example of this. :: Finite state machine
+The K-map arranges rows and columns in this code so neighbours differ by one bit. :: Gray code
+In a K-map, groups must have this many cells. :: A power of two (1, 2, 4, 8...)
+K-map groups of cells may wrap around this. :: The edges (top–bottom, left–right)
+A K-map cell that can be 0 or 1, used to make bigger groups. :: Don't care (X)
+The form that ORs together AND terms. :: Sum of products (SOP)
+The form that ANDs together OR terms. :: Product of sums (POS)
+De Morgan's law: NOT (A AND B) equals this. :: NOT A OR NOT B
+De Morgan's law: NOT (A OR B) equals this. :: NOT A AND NOT B
+The simplification of A + AB. :: A
+The simplification of A + A′B. :: A + B
+The simplification of A·A′. :: 0
+A 4-bit ripple-carry adder is made of this many full adders. :: Four
+An adder becomes a subtractor by inverting B and setting this to 1. :: Carry in
+Adding a number to its two's complement gives this, ignoring the carry. :: Zero
+The 4-bit two's complement of 0011. :: 1101
+The output of a 2-to-1 MUX with select S and inputs A, B. :: S′A + SB
+Any 3-variable function can be built with an 8-to-1 MUX by tying the selects to the variables and inputs to this. :: The truth table values (0 or 1)
+A decoder plus an OR gate can build this. :: Any Boolean function (sum of minterms)
+A priority encoder outputs the code of this input. :: The highest-priority active input
+The Verilog keyword that starts a design block. :: module
+The VHDL pair that describes a block's ports and its insides. :: Entity and architecture
+The popular Digilent student FPGA board with an Artix-7 chip. :: Basys 3
+The 7402 chip contains these gates. :: Four 2-input NOR gates
+The 74157 chip is this. :: Quad 2-to-1 multiplexer
+
+## 300
+The basic building block of most FPGAs that implements any small function. :: LUT (look-up table)
+A 4-input LUT is really a small memory with this many bits. :: 16
+Modern Xilinx (AMD) FPGAs use LUTs with this many inputs. :: Six
+The FPGA blocks that group LUTs, flip-flops and carry logic. :: CLBs (configurable logic blocks), or slices
+The FPGA's dedicated memory blocks. :: Block RAM (BRAM)
+The FPGA's dedicated multiply–accumulate blocks. :: DSP slices
+LUTs used as small memories are called this. :: Distributed RAM
+The FPGA's special network for low-skew clocks. :: Global clock network (clock tree)
+The FPGA block that makes new clock frequencies from an input clock. :: PLL (or MMCM)
+The file loaded into an FPGA to configure it. :: Bitstream
+Most FPGAs lose their configuration at power-off because they store it in this. :: SRAM
+FPGAs load their bitstream at power-up from this kind of chip. :: Configuration flash (SPI flash)
+The FPGA design flow after synthesis. :: Place and route (implementation)
+The file that tells the tools which FPGA pins to use. :: Constraints file (XDC or SDC)
+AMD's (Xilinx's) FPGA design software. :: Vivado
+Intel's (Altera's) FPGA design software. :: Quartus
+The open-source FPGA synthesis tool. :: Yosys
+The open-source Verilog simulator that compiles designs to fast C++. :: Verilator
+The free Verilog simulator often used with GTKWave. :: Icarus Verilog
+The waveform file format produced by Verilog simulations. :: VCD (value change dump)
+The programmable logic devices made of AND–OR arrays, before FPGAs. :: PALs and GALs (PLDs)
+The device type between PLDs and FPGAs, with several PAL-like blocks. :: CPLD
+The PLD with a programmable AND array and a fixed OR array. :: PAL
+The PLD with both AND and OR arrays programmable. :: PLA
+CPLDs keep their configuration when off because they use this. :: Non-volatile (flash or EEPROM) memory
+In Verilog, the assignment used for flip-flops in clocked blocks. :: Non-blocking (<=)
+In Verilog, the assignment used for combinational logic in always blocks. :: Blocking (=)
+The Verilog block for combinational logic. :: always @(*) (or always_comb)
+The Verilog sensitivity list for a rising-edge flip-flop. :: @(posedge clk)
+The Verilog keyword for a continuous combinational assignment. :: assign
+Forgetting an else in a combinational always block creates this unwanted element. :: Latch
+The Verilog data type for signals assigned in always blocks. :: reg
+The Verilog data type for wires driven by assign. :: wire
+The Verilog value for an unknown signal. :: x
+The Verilog value for high impedance. :: z
+The SystemVerilog data type that replaces both reg and wire. :: logic
+The VHDL library that defines std_logic. :: IEEE.std_logic_1164
+The number of values in VHDL's std_logic type. :: Nine
+The VHDL function that detects a rising clock edge. :: rising_edge(clk)
+In VHDL, the statement used to describe sequential logic. :: process
+Verilog code that simulates but cannot become hardware, like delays with #10. :: Non-synthesisable code
+A reset that acts only on a clock edge. :: Synchronous reset
+A reset that acts immediately, whatever the clock. :: Asynchronous reset
+Common practice: assert reset asynchronously, release it this way. :: Synchronously (reset synchroniser)
+The unstable in-between state a flip-flop can enter when setup or hold is broken. :: Metastability
+The usual fix for an asynchronous input: pass it through this many flip-flops. :: Two (a two-flop synchroniser)
+Moving a multi-bit counter between clock domains safely often uses this code. :: Gray code
+The FIFO used to pass data between two clock domains. :: Asynchronous FIFO
+Signals crossing between unrelated clocks. :: Clock domain crossing (CDC)
+The difference in clock arrival time between two flip-flops. :: Clock skew
+Small random variation in a clock edge's timing. :: Clock jitter
+The timing check that finds paths too slow for the clock. :: Setup check (static timing analysis)
+Checking timing on every path without simulation vectors. :: Static timing analysis (STA)
+The setup slack is the required time minus this. :: Arrival time
+A negative slack means this. :: The path fails timing
+Adding registers to break a long path to raise clock speed. :: Pipelining
+Moving registers across logic to balance path delays. :: Retiming
+Turning off the clock to idle logic to save power. :: Clock gating
+Clock gating done carelessly with a plain AND gate can cause this. :: Glitches on the clock
+Paths that tools are told to ignore in timing analysis. :: False paths
+Paths allowed more than one clock period. :: Multicycle paths
+The fast adder that computes all carries in parallel from generate and propagate signals. :: Carry-lookahead adder
+In an adder, G = A·B is called this. :: Generate
+In an adder, P = A ⊕ B is called this. :: Propagate
+FPGAs speed up adders using this dedicated hardware. :: Carry chains
+The combinational multiplier made of an array of AND gates and adders. :: Array multiplier
+The algorithm that halves multiplier partial products using recoding. :: Booth's algorithm (radix-4)
+The circuit that shifts a word by any number of places in one step. :: Barrel shifter
+A barrel shifter for 32 bits needs this many stages of multiplexers. :: Five
+A 2-bit comparator's A > B output when A = 10 and B = 01. :: 1
+The ALU flags that report results like zero, negative, carry and overflow. :: Status flags
+Overflow in signed addition happens when two numbers with the same sign give a result with this. :: The opposite sign
+The code used in rotary encoders so only one bit changes between positions. :: Gray code
+The Gray code for decimal 3, in 3 bits. :: 010
+The binary-to-Gray rule: each Gray bit is this of neighbouring binary bits. :: XOR
+The parity generator for even parity XORs all bits. The parity bit makes the count of 1s this. :: Even
+The error-correcting code that fixes single-bit errors with parity bits at powers of two. :: Hamming code
+A (7,4) Hamming code has this many data bits. :: Four
+The checksum method using polynomial division, built with an LFSR. :: CRC (cyclic redundancy check)
+A memory with 2¹⁰ addresses needs this many address lines. :: 10
+A 1K × 8 memory stores this many bits. :: 8,192
+Combining two 1K × 8 chips to make a 1K × 16 memory is expanding this. :: Word width (data width)
+Combining two 1K × 8 chips to make a 2K × 8 memory needs this extra part. :: A decoder for chip selects
+The static RAM cell usually uses this many transistors. :: Six
+The dynamic RAM cell stores a bit as charge on this. :: A capacitor
+DRAM needs this regularly or it loses data. :: Refresh
+The EEPROM type erased with ultraviolet light through a window. :: EPROM
+The memory type in which a whole block is erased at once. :: Flash
+A CMOS inverter is made of one PMOS and one of these. :: NMOS
+In CMOS, the pull-up network uses this transistor type. :: PMOS
+A CMOS NAND gate has PMOS transistors in parallel and NMOS in this. :: Series
+A 2-input CMOS NAND gate uses this many transistors. :: Four
+A CMOS transmission gate uses one NMOS and one PMOS in this arrangement. :: Parallel
+The voltage where a CMOS inverter's input and output are equal. :: Switching threshold (VM)
+Dynamic CMOS power is α C V² f. Halving V cuts it by this factor. :: Four
+The low-voltage differential signalling standard for fast links. :: LVDS
+The termination resistor usually placed across an LVDS pair. :: 100 Ω
+Reflections on a fast PCB track happen when it is not matched to this. :: Its characteristic impedance
+Several outputs switching at once can make the ground voltage bounce. This is called this. :: Ground bounce (simultaneous switching noise)
+The blocks around the edge of an FPGA that connect to its pins. :: IOBs (input/output blocks)
+
+## 400
+The FPGA family names from AMD (Xilinx): Spartan, Artix, Kintex and this high end. :: Virtex
+The AMD (Xilinx) device family combining Arm cores with FPGA fabric, like the Zynq-7000. :: Zynq (SoC FPGA)
+The Intel (Altera) low-cost FPGA family. :: Cyclone
+The Intel (Altera) high-end FPGA family. :: Stratix
+The FPGA company with the low-power iCE40 family. :: Lattice Semiconductor
+The open-source toolchain project that first reverse-engineered the iCE40 bitstream. :: Project IceStorm
+The open-source place-and-route tool used with Yosys. :: nextpnr
+The FPGA family from Microchip (formerly Microsemi/Actel) that uses flash and survives radiation better. :: PolarFire (and IGLOO, ProASIC)
+Antifuse FPGAs can be programmed this many times. :: Once
+Changing part of an FPGA's logic while the rest keeps running. :: Partial reconfiguration
+The radiation effect that flips a bit in FPGA configuration memory. :: Single-event upset (SEU)
+The technique of tripling logic and voting to survive radiation. :: Triple modular redundancy (TMR)
+The circuit that outputs the majority of three inputs. :: Majority voter
+The SystemVerilog block that warns if a latch would be inferred. :: always_comb
+The SystemVerilog block meant only for flip-flops. :: always_ff
+The SystemVerilog statements that check design properties during simulation. :: Assertions (SVA)
+The verification methodology built on SystemVerilog classes. :: UVM (Universal Verification Methodology)
+Measuring how much of a design's behaviour the tests have exercised. :: Coverage (code and functional)
+Proving a design property mathematically without simulation. :: Formal verification
+Checking that the gate netlist matches the RTL. :: Equivalence checking
+The Python-based testbench framework for HDL simulation. :: cocotb
+The Scala-based hardware construction language from Berkeley. :: Chisel
+Writing hardware in C or C++ and turning it into RTL. :: High-level synthesis (HLS)
+The abstraction level of registers and logic between them. :: RTL (register-transfer level)
+Two Verilog always blocks writing the same reg cause this. :: Multiple drivers (race)
+A Verilog race where blocking assignments in clocked blocks run in an unpredictable order. :: Simulation race condition
+The Verilog 'case' variant that treats z and ? as don't cares. :: casez
+Synthesis attributes 'full_case' and 'parallel_case' can cause this. :: Simulation–synthesis mismatch
+The state machine style with separate blocks for next-state logic and the state register. :: Two-process (two-always) FSM
+Registering FSM outputs avoids these. :: Output glitches
+A state machine safe against illegal states returns from them to this. :: A known (reset) state
+The FSM synthesis option that makes illegal states recover automatically. :: Safe state machine
+The ROM-based state machine that stores next states and outputs in memory. :: Microprogrammed (ROM-based) controller
+The MTBF of a synchroniser grows exponentially with this. :: Resolution (settling) time
+The constant τ in metastability MTBF depends mainly on this. :: The flip-flop's technology (gain-bandwidth)
+Passing a single-pulse event between clock domains safely uses this. :: Toggle (pulse) synchroniser
+A handshake between clock domains uses request and this. :: Acknowledge
+The pointer comparisons in an async FIFO decide these two flags. :: Full and empty
+The FIFO depth needed to absorb a burst depends on burst length and this. :: The read and write rate difference
+The skew problem where a clock reaches a flip-flop late enough to break hold. :: Hold violation
+Hold violations cannot be fixed by lowering the clock speed. True or false? :: True
+Tools fix hold violations by adding this. :: Delay (buffers) on the data path
+The clock tree balancing step in ASIC flows. :: Clock tree synthesis (CTS)
+The timing variation across a chip due to manufacturing. :: On-chip variation (OCV)
+The three classic timing corners. :: Slow, typical and fast (process, voltage, temperature)
+The ASIC design rule check that compares layout to schematic. :: LVS (layout versus schematic)
+The check that makes sure a layout obeys manufacturing rules. :: DRC (design rule check)
+The test structure that chains all flip-flops into a long shift register. :: Scan chain
+The fault model that assumes a node is stuck at 0 or 1. :: Stuck-at fault model
+Automatic generation of test patterns. :: ATPG
+Built-in self-test circuitry using LFSRs. :: BIST
+The signature register that compresses test outputs. :: MISR
+The Quine–McCluskey method finds these first. :: Prime implicants
+The heuristic logic minimiser from Berkeley. :: Espresso
+The data structure used by synthesis tools to represent Boolean functions canonically. :: BDD (binary decision diagram)
+The graph of AND gates and inverters used in modern logic synthesis. :: AIG (and-inverter graph)
+The Berkeley open-source logic synthesis tool used inside Yosys. :: ABC
+Mapping logic to an FPGA's LUTs is called this. :: Technology mapping
+The FPGA LUT mapping algorithm that finds depth-optimal mappings. :: FlowMap
+The wave-pipelining technique lets several data waves travel through logic without these. :: Registers
+Logic where gates have no clock and use handshakes. :: Asynchronous (self-timed) logic
+The C-element in asynchronous logic changes output only when inputs do this. :: Agree (are equal)
+The dual-rail encoding of asynchronous logic uses this many wires per bit. :: Two
+The logic style where outputs precharge and then evaluate. :: Domino (dynamic) logic
+Domino logic gates can only make this kind of function directly. :: Non-inverting (monotonic)
+The CMOS structure where a large current path can short the supply after a spike. :: Latch-up (parasitic thyristor)
+The ratio of PMOS to NMOS width in an inverter is about this to balance rise and fall times. :: 2 to 3
+The delay model that uses gate effort and electrical effort. :: Logical effort
+The logical effort of an inverter. :: 1
+The best stage effort for minimum delay in a chain of gates, roughly. :: About 4
+The adder topology with minimum logic depth and fan-out of 2. :: Kogge–Stone adder
+The carry-save adder is used in multipliers to avoid this. :: Carry propagation
+The tree that reduces partial products quickly in multipliers. :: Wallace (or Dadda) tree
+The CORDIC algorithm computes these functions using only shifts and adds. :: Trigonometric functions (sines, cosines, rotations)
+The CORDIC algorithm was invented for this aircraft's navigation computer. :: B-58 Hustler
+Number formats with a fixed binary point used in FPGA DSP. :: Fixed-point (Q format)
+The DSP filter type built only from delays, multipliers and adders, with no feedback. :: FIR filter
+The filter type with feedback. :: IIR filter
+The FPGA DSP structure that uses a tree of distributed arithmetic or a systolic chain. :: Systolic FIR
+A fully parallel 16-tap FIR filter needs this many multipliers. :: 16
+Symmetric FIR coefficients let you halve this. :: The number of multipliers
+The JESD204 standard is a fast serial link between FPGAs and these. :: Data converters (ADCs and DACs)
+The serial links in FPGAs that run at many gigabits per second. :: Transceivers (SerDes)
+The line code used by many serial links that sends 8 bits as 10. :: 8b/10b
+The newer line code with less overhead, used in 10G Ethernet. :: 64b/66b
+The clock recovery circuit in a SerDes. :: CDR (clock and data recovery)
+The eye diagram shows this about a serial signal. :: Signal quality (timing and noise margins)
+The FPGA I/O standard for 3.3 V single-ended logic. :: LVCMOS33
+The AMD (Xilinx) primitive that drives a clock onto the global clock network. :: BUFG
+The AMD (Xilinx) primitive for double-data-rate outputs. :: ODDR
+Sending data on both clock edges. :: Double data rate (DDR)
+The timing constraint command that defines a clock in SDC and XDC files. :: create_clock
+The constraint that says when data arrives at an input pin relative to a clock. :: set_input_delay
+An AMD LUT used as a compact shift register. :: SRL (SRL16 or SRLC32E)
+The logic unit in Intel's high-end FPGAs, larger than a simple LE. :: ALM (adaptive logic module)
+The Verilog construct that builds many copies of hardware with a loop at compile time. :: generate block
+The Verilog keyword for compile-time constants passed into modules. :: parameter
+The VHDL equivalent of Verilog parameters. :: Generics
+The logical effort of a 3-input NAND gate. :: 5/3
+The logical effort of a 3-input NOR gate. :: 7/3
+
+## 500
+The English mathematician who published 'The Laws of Thought' in 1854. :: George Boole
+The American engineer whose 1937 master's thesis applied Boolean algebra to relay circuits. :: Claude Shannon
+Shannon's thesis was written at this university. :: MIT
+The title of Shannon's 1937 thesis. :: A Symbolic Analysis of Relay and Switching Circuits
+The Japanese engineer who independently developed switching theory in the 1930s. :: Akira Nakashima
+The American logician who in 1886 suggested logical operations could be done by electrical switching circuits. :: Charles Sanders Peirce
+The Bell Labs engineer who introduced the map method in 1953. :: Maurice Karnaugh
+The Harvard philosopher who devised the minimisation method later extended by McCluskey. :: Willard Van Orman Quine
+The English mathematician whose 1880 diagrams Karnaugh maps resemble. :: John Venn
+The American who built the first electronic digital computer prototype with Clifford Berry, 1939 to 1942. :: John Atanasoff
+The British engineer who led the building of Colossus for Bletchley Park in 1943. :: Tommy Flowers
+The 1946 American computer with about 18,000 vacuum tubes. :: ENIAC
+The two inventors of ENIAC. :: J. Presper Eckert and John Mauchly
+The German engineer who built the Z3, a working relay computer, in 1941. :: Konrad Zuse
+The British physicists who invented the flip-flop circuit with vacuum tubes in 1918. :: William Eccles and F. W. Jordan
+The original name of the flip-flop. :: Eccles–Jordan trigger circuit
+The three Bell Labs scientists who invented the transistor in 1947. :: Bardeen, Brattain and Shockley
+The two engineers who independently invented the integrated circuit in 1958 and 1959. :: Jack Kilby and Robert Noyce
+Jack Kilby built the first IC at this company. :: Texas Instruments
+Robert Noyce co-founded Fairchild and this company. :: Intel
+The process that made planar integrated circuits possible, invented by Jean Hoerni. :: Planar process
+The engineers who invented CMOS at Fairchild in 1963. :: Frank Wanlass and Chih-Tang Sah
+The logic family that came before TTL, using resistors and transistors. :: RTL (resistor–transistor logic)
+The Apollo Guidance Computer was built almost entirely from this single gate type. :: NOR gates
+The company that introduced the 7400 TTL series in the 1960s. :: Texas Instruments
+The logic family that came before TTL with diodes and transistors. :: DTL (diode–transistor logic)
+The fastest classic bipolar logic family, used in supercomputers. :: ECL (emitter-coupled logic)
+The company that sold the first commercial FPGA, the XC2064, in 1985. :: Xilinx
+The co-founder of Xilinx credited with inventing the FPGA. :: Ross Freeman
+The XC2064 had this many configurable logic blocks. :: 64
+The company that made the first PAL devices in 1978. :: Monolithic Memories (MMI)
+The company that bought Xilinx in 2022. :: AMD
+The company that bought Altera in 2015. :: Intel
+In 2025 Intel sold a 51% stake in Altera to this investment firm. :: Silver Lake
+VHDL was created in the 1980s for this US agency. :: Department of Defense (VHSIC programme)
+VHDL stands for VHSIC Hardware Description Language. VHSIC stands for this. :: Very High Speed Integrated Circuit
+The company that created Verilog in 1984. :: Gateway Design Automation
+The engineer who created Verilog. :: Phil Moorby
+The IEEE standard number for Verilog. :: IEEE 1364
+The IEEE standard number for SystemVerilog. :: IEEE 1800
+The IEEE standard number for VHDL. :: IEEE 1076
+The 1979 book by Carver Mead and Lynn Conway that sparked the VLSI design revolution. :: Introduction to VLSI Systems
+The engineer who first described what became known as Moore's law in 1965. :: Gordon Moore
+The scaling rule from 1974 that said power density stays constant as transistors shrink. :: Dennard scaling
+The engineer who invented the MOSFET-based DRAM cell in 1966. :: Robert Dennard
+The 1971 microprocessor built from about 2,300 transistors. :: Intel 4004
+The Intel engineer who led the design of the 4004 and invented silicon gate technology. :: Federico Faggin
+The US mathematician whose 1950s ideas about self-reproducing automata influenced cellular logic. :: John von Neumann
+The cellular automaton whose 'gliders' can build logic gates. :: Conway's Game of Life
+The Minecraft material used to build working logic gates and computers. :: Redstone
+The 1960s US computer design firm whose CDC 6600 used Seymour Cray's logic. :: Control Data Corporation
+The Hungarian-American mathematician who co-wrote the 1945 EDVAC report. :: John von Neumann
+The DEC minicomputer modules that used 'flip-chip' logic boards in the 1960s. :: PDP-8
+The 1975 Intel 8080-based kit computer that started the home computer craze. :: Altair 8800
+The 1976 computer whose logic board Steve Wozniak designed with very few chips. :: Apple I
+The YouTuber famous for building an 8-bit computer on breadboards from 74-series chips. :: Ben Eater
+The book by Albert Malvino that introduced the SAP 'Simple-As-Possible' computer. :: Digital Computer Electronics
+The classic textbook 'Digital Design' is by this author. :: M. Morris Mano
+The textbook 'Digital Design and Computer Architecture' is by David and Sarah Harris. Which ISA does a later edition use? :: RISC-V (and Arm)
+The Nand to Tetris course starts by building every chip from this one gate. :: NAND
+The book behind Nand to Tetris is called this. :: The Elements of Computing Systems
+The small open-source RISC-V CPU core for FPGAs written by Claire Wolf. :: PicoRV32
+The Google-sponsored programme that let people make free open-source chips on SkyWater 130 nm. :: Open MPW (Efabless shuttles)
+The open-source ASIC flow used with SkyWater's PDK. :: OpenLane
+The project that lets students put their tiny designs on a shared real chip. :: Tiny Tapeout
+The year Tiny Tapeout first sent designs to a fab. :: 2022
+The term for the moment a chip design is sent for manufacturing. :: Tape-out
+The world's largest contract chipmaker, in Taiwan. :: TSMC
+The Dutch company whose EUV machines are needed for the smallest chips. :: ASML
+The 1994 chip bug in the Pentium's division lookup table. :: FDIV bug
+The Pentium FDIV bug cost Intel about this much. :: About 475 million US dollars
+The Bell Labs mathematician who invented his error-correcting code in 1950. :: Richard Hamming
+The Bell Labs researcher who patented the reflected binary code in 1953. :: Frank Gray
+The French engineer whose 1870s telegraph used a code in which one bit changes at a time. :: Émile Baudot
+The German thinker who described binary arithmetic in 1703. :: Gottfried Wilhelm Leibniz
+De Morgan published his laws in Formal Logic in this year. :: 1847
+The Bell Labs mathematician who built a relay binary adder on his kitchen table in 1937. :: George Stibitz
+The 'K' in Stibitz's Model K adder stands for this. :: Kitchen
+The engineer who designed the Harvard Mark I. :: Howard Aiken
+The 1949 Cambridge computer that ran the first regular computing service. :: EDSAC
+The British engineer who proposed microprogramming in 1951. :: Maurice Wilkes
+The Manchester Baby of 1948 stored its bits on this kind of tube. :: Williams tube (CRT)
+The memory of tiny magnetic rings used from the mid-1950s to the 1970s. :: Magnetic core memory
+The MIT computer of the early 1950s that first used core memory. :: Whirlwind
+The MIT engineer credited with inventing core memory. :: Jay Forrester
+The first commercial DRAM chip, sold by Intel in 1970. :: Intel 1103
+Intel's first product, a 64-bit bipolar SRAM of 1969. :: Intel 3101
+The company whose 1961 Micrologic family was the first commercial IC logic. :: Fairchild Semiconductor
+The British company whose ULA gate arrays were used in the ZX Spectrum. :: Ferranti
+The company that introduced the reprogrammable GAL device in 1985. :: Lattice Semiconductor
+Altera's first product in 1984 was this kind of device. :: EPLD (erasable programmable logic device)
+The unit used to compare ASIC sizes, based on a 2-input NAND. :: Gate equivalent
+The designer whose Cray-1 supercomputer was built from ECL logic. :: Seymour Cray
+The Soviet computer of 1958 that used three-valued logic. :: Setun
+The three-valued number system used in Setun. :: Balanced ternary
+The 1985 IEEE standard for floating-point arithmetic. :: IEEE 754
+Bell Labs' 1954 TRADIC transistor computer was built for this military branch. :: US Air Force
+The first transistorised computer, working in 1953 at this university. :: University of Manchester
+The cheap Lattice USB board used with the first open-source FPGA tools. :: iCEstick
+The IBM engineer who coined the word 'byte'. :: Werner Buchholz

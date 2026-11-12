@@ -64,11 +64,12 @@ describe('built-in question files', () => {
     expect(bad.errors.join()).toMatch(/must be written/)
   })
   it('exist', () => expect(files.length).toBeGreaterThanOrEqual(6))
-  // CCES categories are English-only by the owner's choice; the others must have Arabic.
-  it('every group has categories and non-CCES files have Arabic', () => {
+  // New categories are English-only by the owner's choice (2026-11-10), so Arabic files are optional,
+  // but every Arabic file must belong to an English file.
+  it('every group has categories and every Arabic file has an English file', () => {
     const groups = files.map((f) => /^group:\s*(\S+)/m.exec(readFileSync(join(dir, f), 'utf8'))?.[1])
     for (const g of ['engineering', 'cces', 'general']) expect(groups).toContain(g)
-    files.forEach((f, i) => { if (groups[i] !== 'cces') expect(existsSync(join(dir, 'ar', f)), f).toBe(true) })
+    for (const f of readdirSync(join(dir, 'ar')).filter((n) => n.endsWith('.txt'))) expect(files, f).toContain(f)
   })
   for (const f of files) {
     it(`${f} has no problems`, () => {

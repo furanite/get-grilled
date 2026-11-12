@@ -7,9 +7,6 @@ group: engineering
 A substance that deforms continuously under a shear stress. :: Fluid
 The two states of matter that count as fluids. :: Liquids and gases
 Mass per unit volume. :: Density
-The SI unit of pressure. :: Pascal (Pa)
-One pascal equals one newton per this. :: Square metre
-Force divided by the area it acts on. :: Pressure
 The density of fresh water, in kg/m³, to the nearest hundred. :: 1,000 kg/m³
 A fluid's resistance to flowing, like honey's thickness. :: Viscosity
 Which is more viscous at room temperature: honey or water? :: Honey
@@ -17,7 +14,6 @@ Standard atmospheric pressure at sea level, in kilopascals. :: About 101.3 kPa
 Pressure in a still liquid increases as you go this way. :: Deeper (downwards)
 The instrument that measures atmospheric pressure. :: Barometer
 The liquid metal used in a classic barometer. :: Mercury
-The upward force a fluid exerts on a submerged object. :: Buoyancy (buoyant force)
 The Greek scientist who discovered the principle of buoyancy, supposedly in his bath. :: Archimedes
 The word Archimedes is said to have shouted, meaning 'I have found it'. :: Eureka
 A floating ship displaces a weight of water equal to this. :: Its own weight
@@ -61,7 +57,6 @@ The liquid usually used in car brake systems. :: Brake fluid (hydraulic fluid)
 A dam stores water to make electricity at this kind of plant. :: Hydroelectric power plant
 Why are dams thicker at the bottom? :: Water pressure is higher at greater depth
 The gauge that shows tyre pressure is usually in bar or this unit. :: psi (pounds per square inch)
-One bar is roughly equal to this. :: One atmosphere (100 kPa)
 A device that measures how fast a fluid is flowing. :: Flow meter
 The study of fluids at rest. :: Fluid statics (hydrostatics)
 The study of fluids in motion. :: Fluid dynamics
@@ -104,6 +99,11 @@ A raised tank that gives a town water pressure by gravity. :: Water tower
 The device that sprays fuel as a fine mist. :: Injector (atomiser)
 The pipe shape fitted to a hose to make the water shoot faster. :: Nozzle
 Liquid flowing over a surface leaves a thin layer that sticks to the wall because of this. :: No-slip condition
+Pressure equals force divided by this. :: Area
+The force that makes a helium balloon rise. :: Buoyancy
+The unit kPa stands for this. :: Kilopascal
+One kilopascal equals this many pascals. :: 1,000
+Pressure at the bottom of a pool depends on depth, not on this. :: The pool's width (shape)
 
 ## 200
 The ratio of a substance's density to that of water. :: Specific gravity (relative density)
@@ -259,7 +259,6 @@ The drag on a slow small sphere is 3πμDV, a result named after this person. ::
 Stokes' drag law applies at Reynolds numbers below about this. :: 1
 The constant speed reached when drag equals weight. :: Terminal velocity
 The speed of sound in an ideal gas is the square root of this. :: γRT
-The ratio of specific heats for air. :: 1.4
 Stagnation temperature equals static temperature plus V² divided by this. :: 2cp
 The angle of a Mach cone relates to the Mach number by sin μ equals this. :: 1/M
 A shock wave perpendicular to the flow. :: Normal shock
@@ -308,6 +307,7 @@ A thin heated wire that measures fast velocity fluctuations. :: Hot-wire anemome
 Turbulent flow can be split into a mean and this. :: Fluctuating part
 Additional stresses that appear when the Navier–Stokes equations are time-averaged. :: Reynolds stresses
 The pressure rise in a diffuser divided by the inlet dynamic pressure. :: Pressure recovery coefficient
+The ratio cp/cv is written with this Greek letter. :: Gamma (γ)
 
 ## 400
 The ratio of the largest to smallest turbulent eddy sizes grows with Re to this power. :: 3/4

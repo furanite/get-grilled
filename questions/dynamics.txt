@@ -21,7 +21,6 @@ In a collision with no outside forces, this is always conserved. :: Momentum
 Energy an object has because of its height. :: Gravitational potential energy
 Kinetic energy equals half the mass times this. :: Velocity squared
 Doubling a car's speed multiplies its kinetic energy by this. :: Four
-The rate of doing work. :: Power
 One horsepower is about this many watts. :: About 746 W
 Work equals force times this. :: Distance moved in the direction of the force
 The SI unit of work and energy. :: Joule (J)
@@ -63,7 +62,6 @@ A back-and-forth motion about a rest position. :: Vibration (oscillation)
 The number of oscillations per second. :: Frequency
 The time for one complete oscillation. :: Period
 The maximum displacement from the rest position. :: Amplitude
-The SI unit of frequency. :: Hertz (Hz)
 The simple swinging weight on a string. :: Pendulum
 The period of a simple pendulum depends on its length and this. :: Gravity (g)
 Does the period of a simple pendulum depend on the mass of the bob? :: No
@@ -104,6 +102,8 @@ Soldiers break step on bridges to avoid this. :: Resonance
 The scientist whose three laws describe the motion of bodies. :: Isaac Newton
 The instrument that measures how fast a shaft is turning. :: Tachometer
 The word for slowing down, as when braking. :: Deceleration
+The rate of change of momentum equals this. :: Net force
+A wheel turning at 60 rpm makes this many turns per second. :: One
 
 ## 200
 Average velocity equals displacement divided by this. :: Time

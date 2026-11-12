@@ -25,10 +25,7 @@ The number written as 10³. :: 1,000
 The logarithm of 1000 to base 10. :: 3
 The natural logarithm of 1. :: 0
 The log base 10 of 100. :: 2
-The value of 2¹⁰. :: 1,024
 Any non-zero number raised to the power 0 equals this. :: 1
-The value of 5! (five factorial). :: 120
-The value of 0!. :: 1
 The value of sin 90°. :: 1
 The value of cos 0°. :: 1
 The value of sin 30°. :: 0.5
@@ -64,7 +61,6 @@ The matrix with 1s on the diagonal and 0s elsewhere. :: Identity matrix
 Swapping the rows and columns of a matrix. :: Transpose
 The determinant of the 2×2 matrix [a b; c d]. :: ad − bc
 A matrix whose determinant is zero is called this. :: Singular
-A quantity with both size and direction. :: Vector
 A quantity with size only. :: Scalar
 The length of the vector (3, 4). :: 5
 The product of two vectors that gives a scalar. :: Dot product
@@ -104,6 +100,10 @@ The derivative of displacement with respect to time. :: Velocity
 The spreadsheet program engineers often use for quick calculations, from Microsoft. :: Excel
 The programming environment from MathWorks widely used for engineering maths. :: MATLAB
 Percentage change from 50 to 60. :: 20%
+The vector from (0, 0) to (2, 3) has this x-component. :: 2
+The value of 4! (four factorial). :: 24
+The value of 3! (three factorial). :: 6
+The value of 2⁵. :: 32
 
 ## 200
 The rule for differentiating a product uv. :: Product rule (u′v + uv′)
@@ -265,14 +265,12 @@ The Laplace transform of the convolution of two functions equals this. :: The pr
 The ratio of output transform to input transform with zero initial conditions. :: Transfer function
 Values of s that make a transfer function infinite. :: Poles
 Values of s that make a transfer function zero. :: Zeros
-A system is stable if all its poles lie here. :: Left half of the s-plane
 The Fourier transform of a rectangular pulse has this shape. :: Sinc function
 The Fourier transform of a Gaussian is this. :: A Gaussian
 Convolution in time equals this in frequency. :: Multiplication
 The theorem that energy in time equals energy in frequency. :: Parseval's (Plancherel's) theorem
 The transform used for discrete-time signals, like the Laplace transform for sampled systems. :: Z-transform
 The Z-transform variable z relates to s by z = this. :: e^(sT)
-A discrete-time system is stable if its poles lie here. :: Inside the unit circle
 The minimum sampling rate to capture a signal without aliasing. :: Twice the highest frequency (Nyquist rate)
 The PDE ∂u/∂t = k ∂²u/∂x². :: Heat (diffusion) equation
 The PDE ∂²u/∂t² = c² ∂²u/∂x². :: Wave equation
@@ -308,6 +306,8 @@ The expected value of a fair six-sided die roll. :: 3.5
 The variance of a fair coin flip scored 0 or 1. :: 0.25
 The ringing overshoot of a Fourier series near a jump. :: Gibbs phenomenon
 The theorem (cos θ + j sin θ)ⁿ = cos nθ + j sin nθ. :: De Moivre's theorem
+A continuous-time system with a pole at s = +2 is this. :: Unstable
+The point in the z-plane that matches s = 0. :: z = 1
 
 ## 400
 The improper integral from 0 to ∞ of sin x / x. :: π/2
@@ -360,7 +360,6 @@ The Krylov method for symmetric positive definite systems. :: Conjugate gradient
 The Krylov method for general non-symmetric systems. :: GMRES
 The eigenvalue algorithm that repeatedly factorises and recombines a matrix. :: QR algorithm
 Multigrid methods speed up solvers by working on this. :: Several grid resolutions
-The optimisation method that steps against the gradient. :: Gradient descent (steepest descent)
 The optimisation method for linear programs that walks along vertices. :: Simplex method
 The optimisation method inspired by natural selection. :: Genetic algorithm
 The optimisation method inspired by the cooling of metals. :: Simulated annealing
@@ -410,6 +409,7 @@ The ODE whose solutions are Bessel functions. :: Bessel's equation
 The determinant of any 3×3 rotation matrix. :: 1
 The eigenvalues of a 2D rotation matrix by angle θ. :: e^(±jθ)
 The matrix norm equal to the largest singular value. :: Spectral (2-) norm
+The optimiser with momentum and adaptive step sizes, popular for training neural networks. :: Adam
 
 ## 500
 The two mathematicians who independently invented calculus. :: Newton and Leibniz
