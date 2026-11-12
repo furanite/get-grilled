@@ -6,17 +6,14 @@ export const PROPHET_SIGNS = [
   ['(عليهم السلام)', '﵈'], // ﵈
   ['(عليهما السلام)', '﵉'], // ﵉
 ]
-// Unicode has no sign for رضوان الله عليه; these are the رضي الله عنه signs.
+// One Companion: the sign (Unicode has no رضوان sign, so these are the رضي الله عنه / عنها signs, as the owner asked).
+// Several Companions keep (رِضْوَانُ اللَّهِ عَلَيْهِمْ) / (عَلَيْهِمَا) / (عَلَيْهِنَّ) written out.
 export const COMPANION_SIGNS = [
-  ['(رِضْوَانُ اللَّهِ عَلَيْهِ)', '﵁'], // ﵁
-  ['(رِضْوَانُ اللَّهِ عَلَيْهَا)', '﵂'], // ﵂
-  ['(رِضْوَانُ اللَّهِ عَلَيْهِمْ)', '﵃'], // ﵃
-  ['(رِضْوَانُ اللَّهِ عَلَيْهِمَا)', '﵄'], // ﵄
-  ['(رِضْوَانُ اللَّهِ عَلَيْهِنَّ)', '﵅'], // ﵅
+  ['(رِضْوَانُ اللَّهِ عَلَيْهِ)', '\uFD41'], // ﵁
+  ['(رِضْوَانُ اللَّهِ عَلَيْهَا)', '\uFD42'], // ﵂
 ]
-export const USE_COMPANION_SIGNS = false
 
 export function toSigns(s) {
-  for (const [w, sign] of [...PROPHET_SIGNS, ...(USE_COMPANION_SIGNS ? COMPANION_SIGNS : [])]) s = s.split(w).join(sign)
+  for (const [w, sign] of [...PROPHET_SIGNS, ...COMPANION_SIGNS]) s = s.split(w).join(sign)
   return s
 }
