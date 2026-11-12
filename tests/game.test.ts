@@ -281,3 +281,34 @@ describe('choosing the questions in play', () => {
     expect(parseImportedCategory(bad, () => 'n').levels[0][0].img).toBeUndefined()
   })
 })
+
+describe('time limits', () => {
+  it('a question’s own seconds beat the level’s, which beat the game’s', async () => {
+    const { clueSeconds } = await import('../src/lib/game')
+    const s = { timer: 30, deduct: true, levelTimers: [null, null, null, null, 60] }
+    expect(clueSeconds(s, 0)).toBe(30)
+    expect(clueSeconds(s, 4)).toBe(60)
+    expect(clueSeconds(s, 4, { secs: 90 })).toBe(90)
+    expect(clueSeconds({ timer: 0, deduct: true }, 2)).toBe(0)
+    expect(clueSeconds({ timer: 0, deduct: true }, 2, { secs: 20 })).toBe(20)
+    expect(clueSeconds({ timer: 30, deduct: true }, 2, { secs: 99999 })).toBe(30)
+  })
+  it('a game length sets when the game ends; bad values are dropped', async () => {
+    const { createGame } = await import('../src/lib/game')
+    const cat = { id: 'z', name: 'Z', builtIn: false, levels: [0, 1, 2, 3, 4].map((l) => [{ id: `z${l}`, q: 'q', a: 'a' }]) }
+    const { game } = createGame([cat], ['A', 'B'], { timer: 30, deduct: true, golden: 0, gameMinutes: 20, levelTimers: [null, 3, 45, 'x' as unknown as number, null] }, {})
+    expect(game.endsAt! - game.startedAt).toBe(20 * 60_000)
+    expect(game.settings.levelTimers).toEqual([null, null, 45, null, null])
+    const plain = createGame([cat], ['A', 'B'], { timer: 30, deduct: true, golden: 0 }, {}).game
+    expect(plain.endsAt).toBeUndefined()
+    expect(plain.settings).toEqual({ timer: 30, deduct: true })
+  })
+  it('per-question seconds survive export, import and storage', async () => {
+    const { exportCategory, parseImportedCategory } = await import('../src/lib/game')
+    const { cleanCategories } = await import('../src/lib/store')
+    const c = { id: 'k', name: 'K', builtIn: false, levels: [0, 1, 2, 3, 4].map((l) => [{ id: `k${l}`, q: 'q', a: 'a', secs: 45 }]) }
+    expect(parseImportedCategory(JSON.parse(JSON.stringify(exportCategory(c))), () => 'n').levels[0][0].secs).toBe(45)
+    expect(cleanCategories([c])[0].levels[0][0].secs).toBe(45)
+    expect(cleanCategories([{ ...c, levels: [[{ id: '1', q: 'q', a: 'a', secs: -4 }], [], [], [], []] }])[0].levels[0][0].secs).toBeUndefined()
+  })
+})

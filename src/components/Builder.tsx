@@ -3,7 +3,7 @@ import type { Category, CategorySummary, Lang, PackGroup, PoolEdit, Question } f
 import { LEVEL_NAMES, LEVEL_NAMES_AR, VALUES } from '../lib/types'
 import type { Strings } from '../lib/i18n'
 import { num, qCount } from '../lib/i18n'
-import { LIMITS, applyPool, emptyPool, exportCategory, parseImportedCategory, poolCounts } from '../lib/game'
+import { CLUE_SECS, LIMITS, applyPool, emptyPool, exportCategory, parseImportedCategory, poolCounts } from '../lib/game'
 import { loadPack } from '../lib/packs'
 import { uid } from '../lib/store'
 import { burstAt } from '../lib/fx'
@@ -240,6 +240,7 @@ function Editor({ t, lang, cat, index, pool, onPool, onChange, onDuplicate, onEx
   const [q, setQ] = useState('')
   const [a, setA] = useState('')
   const [img, setImg] = useState<string | undefined>()
+  const [secs, setSecs] = useState<number | undefined>()
   const [imgError, setImgError] = useState('')
   const [editing, setEditing] = useState<string | null>(null)
   const [search, setSearch] = useState('')
@@ -284,6 +285,8 @@ function Editor({ t, lang, cat, index, pool, onPool, onChange, onDuplicate, onEx
           const n: Question = { ...x, q: qq, a: aa }
           if (img) n.img = img
           else delete n.img
+          if (secs) n.secs = secs
+          else delete n.secs
           return n
         }),
       )
@@ -292,12 +295,14 @@ function Editor({ t, lang, cat, index, pool, onPool, onChange, onDuplicate, onEx
       const id = newQid(cat.id)
       const n: Question = { id, q: qq, a: aa }
       if (img) n.img = img
+      if (secs) n.secs = secs
       addMany(level, [n])
       setFresh(id)
     }
     setQ('')
     setA('')
     setImg(undefined)
+    setSecs(undefined)
   }
 
   const startEdit = (x: Question, li: number) => {
@@ -306,6 +311,7 @@ function Editor({ t, lang, cat, index, pool, onPool, onChange, onDuplicate, onEx
     setQ(x.q)
     setA(x.a)
     setImg(x.img)
+    setSecs(x.secs)
     setImgError('')
   }
 
@@ -314,6 +320,7 @@ function Editor({ t, lang, cat, index, pool, onPool, onChange, onDuplicate, onEx
     setQ('')
     setA('')
     setImg(undefined)
+    setSecs(undefined)
   }
 
   const takeImage = async (file: Blob) => {
@@ -420,6 +427,17 @@ function Editor({ t, lang, cat, index, pool, onPool, onChange, onDuplicate, onEx
           )}
         </div>
         <div className="diagram-row">
+          <label className="q-secs" title={t.qTimeHelp}>
+            <span aria-hidden="true">⏱</span>
+            <select className="input" id="q-secs" value={secs ?? ''} onChange={(e) => setSecs(e.target.value ? +e.target.value : undefined)} aria-label={t.qTime} data-testid="q-secs">
+              <option value="">{t.qTimeDefault}</option>
+              {CLUE_SECS.map((s) => (
+                <option key={s} value={s}>
+                  {num(s, lang)} {t.secsShort}
+                </option>
+              ))}
+            </select>
+          </label>
           <button className="mini" type="button" onClick={() => imgRef.current?.click()} data-testid="add-diagram" title={t.diagramHelp}>
             🖼 {img ? t.changeDiagram : t.addDiagram}
           </button>
@@ -497,6 +515,11 @@ function Editor({ t, lang, cat, index, pool, onPool, onChange, onDuplicate, onEx
                             <em dir="auto">{x.a}</em>
                           </div>
                           <div className="ops">
+                            {x.secs && (
+                              <span className="pill q-secs-pill" title={t.qTime}>
+                                ⏱ {num(x.secs, lang)} {t.secsShort}
+                              </span>
+                            )}
                             {x.img && <img className="row-thumb" src={diagramSrc(x.img)} alt={t.diagramAlt} />}
                             {mine && (
                               <>

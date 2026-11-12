@@ -711,6 +711,55 @@ try {
     await page.context().close()
   })
 
+  await test('time limits: per question, per level, and a whole-game clock that ends the game', async () => {
+    const page = await newPage()
+    await page.goto(URL)
+    // A category whose 100 question has its own 10 seconds
+    await page.getByRole('button', { name: /category builder/i }).click()
+    await page.getByTestId('new-cat').click()
+    await page.fill('#cat-name', 'Timed')
+    for (let l = 0; l < 5; l++) {
+      await page.selectOption('#level', String(l))
+      await page.fill('#new-q', `Timed clue ${l}`)
+      await page.fill('#new-a', 'A')
+      if (l === 0) await page.selectOption('[data-testid="q-secs"]', '10')
+      await page.locator('[data-testid="add-form"] button[type="submit"]').click()
+    }
+    assert(await page.locator('.q-secs-pill').count() === 1, 'question time not shown in the list')
+    await page.getByTestId('builder-back').click()
+    await page.getByRole('button', { name: /new game/i }).click()
+    await page.waitForSelector('.cat-pick')
+    await page.locator('.cat-pick', { hasText: 'Timed' }).click()
+    await page.selectOption('#timer', '30')
+    await page.locator('[data-testid="level-times"] > summary').click()
+    await page.selectOption('#level-timer-4', '90')
+    await page.selectOption('#game-minutes', '5')
+    await page.getByTestId('start').click()
+    await page.waitForSelector('.tile')
+    const clock = await page.textContent('[data-testid="game-clock"]')
+    assert(/^⏱ (5:00|4:5\d) left/.test(clock), 'game clock: ' + clock)
+    const secsOf = async (key) => {
+      await openTile(page, key)
+      const n = +(await page.getAttribute('[data-testid="timer"]', 'data-left'))
+      await page.getByTestId('back').click()
+      await waitClosed(page)
+      return n
+    }
+    const s0 = await secsOf('0-0'), s2 = await secsOf('0-2'), s4 = await secsOf('0-4')
+    assert(s0 <= 10 && s0 >= 9, '100 should use its own 10 s, got ' + s0)
+    assert(s2 <= 30 && s2 >= 29, '300 should use the game’s 30 s, got ' + s2)
+    assert(s4 <= 90 && s4 >= 89, '500 should use the level’s 90 s, got ' + s4)
+    // Run the game clock out: the open clue finishes, then results show
+    await openTile(page, '0-1')
+    await page.evaluate(() => { const n = Date.now; Date.now = () => n() + 6 * 60_000 })
+    await page.waitForSelector('[data-testid="game-over-note"]', { timeout: 5000 })
+    assert(await page.locator('[data-testid="clue"]').count() === 1, 'clue should stay open until closed')
+    await page.getByTestId('nobody').click()
+    await page.waitForSelector('[data-testid="winner"]', { timeout: 8000 })
+    assert(page.errors.length === 0, page.errors.join('; '))
+    await page.context().close()
+  })
+
   await test('category titles on the board are large and high-contrast', async () => {
     const page = await newPage()
     await page.goto(URL)

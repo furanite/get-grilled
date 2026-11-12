@@ -1,6 +1,7 @@
 import { useMemo } from 'react'
 import type { ThemeId } from '../lib/types'
 import { markSvg } from '../lib/marks'
+import { catIconSvg } from '../lib/caticons'
 import { ambient, flourishAbove, flourishBelow } from '../lib/flourish'
 
 // The markup comes from fixed strings in lib/marks.ts and lib/flourish.ts, never from user input.
@@ -23,4 +24,10 @@ export function Flourish({ theme }: { theme: ThemeId }) {
 export function Ambient({ theme }: { theme: ThemeId }) {
   const html = useMemo(() => ambient(theme), [theme])
   return <span className="amb-wrap" key={theme} dangerouslySetInnerHTML={{ __html: html }} />
+}
+
+/** A category's icon. Colours follow the current theme through CSS. */
+export function CatIcon({ id, className = 'ci' }: { id: string; className?: string }) {
+  const html = useMemo(() => catIconSvg(id), [id])
+  return <span className={className} data-ci={id} aria-hidden="true" dangerouslySetInnerHTML={{ __html: html }} />
 }
