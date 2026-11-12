@@ -1,0 +1,530 @@
+id: acct
+name: Financial Accounting
+group: finance
+
+## 100
+The basic accounting equation: Assets = Liabilities + this. :: Equity (owners' equity)
+The financial statement that shows revenue minus expenses for a period. :: Income statement (profit and loss)
+The financial statement that lists assets, liabilities and equity on one date. :: Balance sheet
+Money a customer owes a business for goods already delivered. :: Accounts receivable
+Money a business owes its suppliers for goods it bought on credit. :: Accounts payable
+The left side of a T-account. :: Debit
+The right side of a T-account. :: Credit
+When total revenue is bigger than total expenses, the business made this. :: A profit (net income)
+When total expenses are bigger than total revenue, the business made this. :: A loss (net loss)
+The bookkeeping system where every transaction is recorded in at least two accounts. :: Double-entry bookkeeping
+The Italian friar who published the first printed description of double-entry bookkeeping in 1494. :: Luca Pacioli
+Goods a shop holds to sell to customers. :: Inventory (stock)
+Cash, inventory and receivables are examples of this kind of item on the balance sheet. :: Assets
+A bank loan the company must repay is this kind of item. :: A liability
+The book where transactions are first recorded in date order. :: Journal
+The book that groups transactions by account. :: Ledger (general ledger)
+A list of all ledger balances used to check that debits equal credits. :: Trial balance
+The professional who examines a company's accounts and gives an opinion on them. :: Auditor
+The statement that shows cash coming in and going out. :: Cash flow statement
+The money a business earns from selling its goods or services. :: Revenue (sales)
+Rent, salaries and electricity bills are examples of these. :: Expenses
+The yearly reduction in the recorded value of a machine as it wears out. :: Depreciation
+Profits a company pays out to its shareholders. :: Dividends
+The 12-month period a company uses for its accounts. :: Financial year (fiscal year)
+Land, buildings and machinery are this kind of asset. :: Fixed assets (non-current assets)
+Assets expected to become cash within one year. :: Current assets
+Debts due within one year. :: Current liabilities
+Debts due after more than one year. :: Non-current liabilities (long-term liabilities)
+The cost of the goods a shop actually sold during the year. :: Cost of goods sold (cost of sales)
+Revenue minus cost of goods sold. :: Gross profit
+A record kept to prove a sale, showing the buyer, items and price. :: Invoice (sales invoice)
+The owner takes cash out of the business for personal use. This is called this. :: Drawings
+Money the owners put into a business. :: Capital
+A business owned and run by one person. :: Sole proprietorship (sole trader)
+The abbreviation for International Financial Reporting Standards. :: IFRS
+The abbreviation for "Generally Accepted Accounting Principles" in the US. :: GAAP
+Pens, paper and printer ink used in the office are recorded as these. :: Supplies (office supplies expense)
+Cash kept in a small box for tiny payments like taxi fares. :: Petty cash
+A document from the bank listing an account's deposits and withdrawals. :: Bank statement
+Matching the company's cash book with the bank statement. :: Bank reconciliation
+Rent paid in advance for next year is this kind of asset. :: Prepaid expense (prepayment)
+Salaries earned by staff but not yet paid at year end. :: Accrued expenses (accruals)
+The name for a person or company that buys from a business on credit. :: Debtor (customer)
+The name for a person or company a business owes money to. :: Creditor (supplier)
+Profit after all expenses, interest and tax. :: Net profit (net income)
+The accountant's term for "the bottom line". :: Net income
+The top line of the income statement. :: Revenue (sales)
+A computer program used by small businesses to keep their books, such as QuickBooks or Xero. :: Accounting software
+An account with a debit balance, such as cash, normally belongs to this group. :: Assets (or expenses)
+An account with a credit balance, such as a bank loan, normally belongs to this group. :: Liabilities (or equity or revenue)
+Increasing an asset account is recorded on this side. :: Debit
+Increasing a liability account is recorded on this side. :: Credit
+Increasing revenue is recorded on this side. :: Credit
+Increasing an expense is recorded on this side. :: Debit
+Assets of 900 and liabilities of 400 leave equity of this. :: 500
+Revenue of 1,000 and expenses of 700 give a net profit of this. :: 300
+Sales of 800 and cost of goods sold of 500 give a gross profit of this. :: 300
+The value of a company's brand or reputation when it buys another company for more than the net assets. :: Goodwill
+Patents, trademarks and copyrights are this kind of asset. :: Intangible assets
+A machine bought for 10,000 lasting 5 years with no scrap value: straight-line depreciation per year. :: 2,000
+Customer debts the business does not expect to collect. :: Bad debts
+The accounting term for unsold goods counted at the end of the year. :: Closing inventory (closing stock)
+A company whose shares are traded on a stock exchange must publish this every year. :: Annual report
+The section of the balance sheet that shows share capital and retained earnings. :: Equity
+Profits a company keeps instead of paying them out. :: Retained earnings
+The official who registers companies in Saudi Arabia: the Ministry of this. :: Commerce
+The Saudi body that sets accounting standards for the Kingdom, known by the letters SOCPA. :: Saudi Organization for Chartered and Professional Accountants
+The abbreviation CPA stands for this. :: Certified Public Accountant
+The British equivalent of a chartered accountant body, known by the letters ACCA. :: Association of Chartered Certified Accountants
+A list of all the accounts a business uses, with numbers. :: Chart of accounts
+Money received before the work is done, recorded as a liability. :: Unearned revenue (deferred revenue)
+The Saudi tax on most goods and services, collected by businesses. :: VAT (value added tax)
+The rate of VAT in Saudi Arabia since July 2020. :: 15%
+The Saudi authority that collects zakat, tax and customs, known by the letters ZATCA. :: Zakat, Tax and Customs Authority
+The yearly obligatory charity Saudi companies owned by Saudis and GCC nationals pay on their zakat base. :: Zakat
+Saudi Arabia's system of electronic invoicing, rolled out from December 2021, is often called this. :: FATOORAH (e-invoicing)
+The accounting idea that a business is separate from its owner. :: Business entity concept
+The accounting idea that a business will carry on trading for the foreseeable future. :: Going concern
+The idea that the same methods should be used from year to year. :: Consistency
+The idea that revenue is recorded when it is earned, not when the cash arrives. :: Accrual basis (accruals concept)
+Recording revenue and expenses only when cash changes hands. :: Cash basis accounting
+Assets are usually recorded at what they cost when bought. This is called this. :: Historical cost
+A small error that would not change a reader's decision is said to be not this. :: Material
+Recording a sale twice by mistake makes revenue this. :: Overstated
+A summary that shows how much each owner's stake changed in the year. :: Statement of changes in equity
+The notes at the end of the financial statements explain the numbers in these. :: Notes to the accounts (notes to the financial statements)
+The person who keeps the daily records of a small business. :: Bookkeeper
+The accountant who works inside a company to help managers plan and control costs. :: Management accountant (cost accountant)
+Accounting for reports to outside people such as investors and lenders. :: Financial accounting
+Accounting for reports to managers inside the company. :: Management accounting
+A vehicle used by a delivery company is classed as this kind of asset. :: Non-current asset (fixed asset)
+Cash in the bank is classed as this kind of asset. :: Current asset
+The amount a customer pays when buying on credit is due within a stated number of these. :: Days (credit terms)
+"2/10, net 30" offers a discount of this percent for paying within 10 days. :: 2%
+Closing the revenue and expense accounts at year end moves their balances to this account. :: Retained earnings (or income summary)
+A loss from a fire that is not insured lowers this. :: Profit (and assets)
+Shares a company issues are recorded in this account. :: Share capital (common stock)
+Buying a machine with cash changes the total assets by this much. :: Zero (no change)
+Paying off a supplier with cash lowers assets and this. :: Liabilities
+A company's yearly profit report is usually checked and signed off by this outside professional. :: External auditor
+
+## 200
+Assets minus liabilities. :: Net assets (equal to equity)
+Gross profit divided by revenue. :: Gross profit margin
+Net profit divided by revenue. :: Net profit margin
+Current assets divided by current liabilities. :: Current ratio
+Current assets minus inventory, divided by current liabilities. :: Quick ratio (acid-test ratio)
+Current assets minus current liabilities. :: Working capital
+The inventory method where the oldest goods are assumed to be sold first. :: FIFO (first in, first out)
+The inventory method where the newest goods are assumed to be sold first. :: LIFO (last in, first out)
+The inventory method IFRS does not allow. :: LIFO
+The inventory method that uses an average cost for all units. :: Weighted average cost
+The depreciation method that charges the same amount every year. :: Straight-line
+The depreciation method that applies a fixed percentage to the falling book value. :: Reducing balance (declining balance)
+Cost minus accumulated depreciation. :: Carrying amount (book value, net book value)
+The estimated value of an asset at the end of its useful life. :: Residual value (salvage value)
+An account that reduces another account, such as accumulated depreciation. :: Contra account
+The contra-asset account that holds estimated bad debts. :: Allowance for doubtful debts (allowance for doubtful accounts)
+Writing off a bad debt with the allowance method: debit this account. :: Allowance for doubtful debts
+A bill from a supplier showing a price reduction for returned goods. :: Credit note
+A document the buyer sends to the seller when returning goods. :: Debit note
+Entries made at the end of a period to record accruals, prepayments and depreciation. :: Adjusting entries
+Entries at the start of a new period that cancel some of last year's adjusting entries. :: Reversing entries
+The list of balances after adjusting entries are posted. :: Adjusted trial balance
+A trial balance that balances can still hide this error where an entry is left out completely. :: Error of omission
+Debiting the wrong account of the same type, such as the wrong customer. :: Error of commission
+Recording an expense as an asset, such as repairs as machinery. :: Error of principle
+Two equal errors on opposite sides that cancel out. :: Compensating error
+A temporary account used to make a trial balance agree while an error is found. :: Suspense account
+Cash flows from selling goods and paying staff belong in this section of the cash flow statement. :: Operating activities
+Buying machinery belongs in this section of the cash flow statement. :: Investing activities
+Borrowing money or paying dividends belongs in this section of the cash flow statement under IFRS. :: Financing activities (dividends paid may also be operating)
+Starting the cash flow statement from net profit and adjusting for non-cash items is this method. :: Indirect method
+Listing actual cash received from customers and paid to suppliers is this method. :: Direct method
+Depreciation is added back in the indirect method because it is not this. :: A cash outflow (non-cash expense)
+An increase in receivables is subtracted in the indirect method because this has not been received. :: Cash
+Profit before interest and tax, often called by these four letters. :: EBIT
+Profit before interest, tax, depreciation and amortisation. :: EBITDA
+The spreading of an intangible asset's cost over its life. :: Amortisation
+Reducing an asset's carrying amount because it is worth less than its book value. :: Impairment
+Under IFRS, the higher of fair value less costs of disposal and value in use. :: Recoverable amount
+The price received to sell an asset in an orderly transaction between market participants. :: Fair value
+Inventory is valued at the lower of cost and this. :: Net realisable value
+A company's shares held by another company that controls it. :: Subsidiary
+The company that controls a subsidiary. :: Parent (holding company)
+Accounts that combine a parent and its subsidiaries as one. :: Consolidated financial statements
+The part of a subsidiary's equity not owned by the parent. :: Non-controlling interest (minority interest)
+A company in which an investor has significant influence, often 20% to 50% of the votes. :: Associate
+The method used to account for associates. :: Equity method
+The body that issues IFRS standards. :: IASB (International Accounting Standards Board)
+The US body that sets US GAAP. :: FASB (Financial Accounting Standards Board)
+The US regulator that requires listed companies to file their accounts. :: SEC (Securities and Exchange Commission)
+Saudi listed companies moved to full IFRS (as endorsed by SOCPA) in this year. :: 2017
+The Saudi regulator of the stock market, known by the letters CMA. :: Capital Market Authority
+The Saudi stock exchange. :: Saudi Exchange (Tadawul)
+The type of audit opinion that says the accounts give a true and fair view. :: Unqualified (unmodified) opinion
+An audit opinion that says "except for" one problem, the accounts are fair. :: Qualified opinion
+An audit opinion that says the accounts are not fair at all. :: Adverse opinion
+An auditor who cannot get enough evidence to give any opinion issues this. :: Disclaimer of opinion
+The phrase auditors use to say the accounts are fairly presented: "true and" this. :: Fair
+The 2002 US law passed after the Enron scandal to tighten company reporting. :: Sarbanes-Oxley Act
+The energy company whose 2001 collapse also brought down its auditor Arthur Andersen. :: Enron
+The US telecom company whose 2002 accounting fraud capitalised ordinary line costs. :: WorldCom
+Treating a cost as an asset rather than an expense is called this. :: Capitalising
+The cost of an asset includes its price plus these costs to bring it to working condition. :: Directly attributable costs (delivery, installation)
+A sale of goods for 1,150 including 15% VAT has a VAT amount of this. :: 150
+VAT a business pays on its purchases, which it can usually claim back. :: Input VAT
+VAT a business charges on its sales. :: Output VAT
+A business pays the tax authority output VAT minus this. :: Input VAT
+The number of times inventory is sold and replaced in a year. :: Inventory turnover
+Average days customers take to pay. :: Receivable days (days sales outstanding)
+Average days a company takes to pay its suppliers. :: Payable days (days payables outstanding)
+Total liabilities divided by total equity. :: Debt-to-equity ratio
+Net income divided by total assets. :: Return on assets (ROA)
+Net income divided by shareholders' equity. :: Return on equity (ROE)
+Net income divided by the number of ordinary shares. :: Earnings per share (EPS)
+Share price divided by earnings per share. :: Price-earnings ratio (P/E ratio)
+The breakdown of ROE into margin, asset turnover and leverage is named after this company. :: DuPont
+A promise to pay that is shown only in the notes because it may never happen. :: Contingent liability
+A liability of uncertain timing or amount that is likely and can be estimated. :: Provision
+A possible asset that depends on an uncertain future event and is not recognised. :: Contingent asset
+Events after the year end that give more evidence about conditions at the year end. :: Adjusting events
+A loan of 10,000 at 6% simple interest for half a year has interest of this. :: 300
+The accounting idea that losses are recognised early but gains only when sure. :: Prudence (conservatism)
+The concept that expenses should be recorded in the same period as the revenue they help earn. :: Matching principle
+The idea that information should show the economic reality, not just the legal form. :: Substance over form
+The two fundamental qualities of useful information in the IFRS Conceptual Framework. :: Relevance and faithful representation
+Comparability, verifiability, timeliness and understandability are called these qualities. :: Enhancing qualitative characteristics
+A machine costs 50,000, has a residual value of 5,000 and a 9-year life. Straight-line depreciation per year. :: 5,000
+A 20% reducing balance on a 10,000 machine gives this depreciation in year two. :: 1,600
+The total of all the depreciation charged on an asset so far. :: Accumulated depreciation
+Selling an asset for more than its carrying amount gives this. :: Gain (profit) on disposal
+The record of every individual customer's balance, kept apart from the general ledger. :: Sales ledger (accounts receivable subledger)
+One account in the general ledger that sums a subledger. :: Control account
+A company buys back its own shares and holds them. These are called this. :: Treasury shares
+New shares given free to existing shareholders out of reserves. :: Bonus issue (stock dividend)
+Shares offered to existing shareholders at a discount, in proportion to their holdings. :: Rights issue
+Shares that get a fixed dividend before ordinary shareholders. :: Preference shares (preferred stock)
+The value printed on a share certificate, also called par value. :: Nominal value
+Money received for shares above their nominal value goes to this account. :: Share premium
+The part of the annual report where directors discuss results, called MD&A in the US. :: Management discussion and analysis
+A report covering three months of results. :: Quarterly report (interim report)
+The time from paying for inventory to collecting cash from customers. :: Cash conversion cycle (operating cycle)
+
+## 300
+The IFRS standard on revenue from contracts with customers. :: IFRS 15
+The number of steps in the IFRS 15 revenue model. :: Five
+The first step of the IFRS 15 model. :: Identify the contract with the customer
+A promise in a contract to transfer a distinct good or service. :: Performance obligation
+The IFRS 15 step where the price is split across performance obligations. :: Allocate the transaction price
+The basis for allocating the transaction price: relative stand-alone this. :: Selling prices
+The IFRS standard on leases that took effect in 2019. :: IFRS 16
+Under IFRS 16 a lessee records a lease liability and this asset. :: Right-of-use asset
+The two exemptions IFRS 16 allows lessees: short-term leases and leases of these. :: Low-value assets
+The IFRS standard on financial instruments. :: IFRS 9
+IFRS 9 impairment uses this model rather than the old "incurred loss" model. :: Expected credit loss model
+The three classifications for financial assets under IFRS 9: amortised cost, FVOCI and this. :: Fair value through profit or loss (FVTPL)
+The IFRS 9 test of whether cash flows are solely payments of principal and interest. :: SPPI test
+The IFRS standard on business combinations. :: IFRS 3
+The IFRS standard on consolidated financial statements. :: IFRS 10
+The three elements of control in IFRS 10: power, exposure to variable returns, and this. :: Ability to use power to affect returns (link between power and returns)
+The IFRS standard on fair value measurement. :: IFRS 13
+Level 1 inputs in the fair value hierarchy are these. :: Quoted prices in active markets for identical assets
+Level 3 inputs in the fair value hierarchy are these. :: Unobservable inputs
+The IFRS standard on insurance contracts that replaced IFRS 4 in 2023. :: IFRS 17
+The IAS standard on inventories. :: IAS 2
+The IAS standard on property, plant and equipment. :: IAS 16
+The IAS standard on impairment of assets. :: IAS 36
+The IAS standard on provisions, contingent liabilities and contingent assets. :: IAS 37
+The IAS standard on intangible assets. :: IAS 38
+The IAS standard on income taxes. :: IAS 12
+The IAS standard on the statement of cash flows. :: IAS 7
+The IAS standard on earnings per share. :: IAS 33
+The IAS standard on related party disclosures. :: IAS 24
+Under IAS 38, research costs are treated this way. :: Expensed
+Under IAS 38, development costs that meet strict criteria are treated this way. :: Capitalised
+A group of assets that produces cash inflows largely independent of other assets. :: Cash-generating unit
+Goodwill must be tested for impairment at least this often. :: Once a year (annually)
+Goodwill acquired in a business combination is not amortised under IFRS but is this. :: Tested for impairment
+Paying less than the fair value of net assets in an acquisition creates this. :: Bargain purchase gain (negative goodwill)
+The tax effect of differences between book values and tax bases. :: Deferred tax
+A difference that will create taxable amounts in the future produces this. :: Deferred tax liability
+The method that values bonds at the present value of cash flows at the original effective rate. :: Amortised cost (effective interest method)
+A bond issued below its face value is issued at this. :: A discount
+Gains and losses that bypass profit and go straight to equity, such as revaluation surpluses. :: Other comprehensive income (OCI)
+The IAS 16 model that allows land and buildings to be carried at fair value. :: Revaluation model
+A revaluation increase on property is credited to this. :: Revaluation surplus (in OCI)
+Property held to earn rent or for capital appreciation. :: Investment property
+The IAS standard on investment property. :: IAS 40
+A business that is being sold or closed and is shown separately. :: Discontinued operation
+The IFRS standard on non-current assets held for sale and discontinued operations. :: IFRS 5
+Assets held for sale are measured at the lower of carrying amount and this. :: Fair value less costs to sell
+The IFRS standard on segment reporting. :: IFRS 8
+Under IFRS 8, segments are based on what the chief operating decision maker reviews. This is called the this approach. :: Management approach
+The IAS standard on accounting policies, changes in estimates and errors. :: IAS 8
+A change in accounting policy is applied this way. :: Retrospectively
+A change in accounting estimate, such as useful life, is applied this way. :: Prospectively
+A prior-period error is corrected this way. :: Retrospectively (restating comparatives)
+The IAS standard on borrowing costs. :: IAS 23
+Borrowing costs on building a qualifying asset must be treated this way. :: Capitalised
+The IAS standard on government grants. :: IAS 20
+The IAS standard on employee benefits. :: IAS 19
+A pension plan where the employer promises a set pension based on salary. :: Defined benefit plan
+A pension plan where the employer pays fixed contributions and nothing more. :: Defined contribution plan
+The IFRS standard on share-based payment. :: IFRS 2
+The IAS standard for hyperinflationary economies. :: IAS 29
+The IAS standard on foreign exchange rates. :: IAS 21
+The currency of the main economic environment where an entity operates. :: Functional currency
+The currency in which financial statements are presented. :: Presentation currency
+Gains and losses from translating a foreign subsidiary's accounts go to this. :: Other comprehensive income (translation reserve)
+The IFRS version for smaller private companies. :: IFRS for SMEs
+The IFRS foundation's board created in 2021 to set sustainability disclosure standards. :: ISSB (International Sustainability Standards Board)
+The two first ISSB standards, issued in 2023. :: IFRS S1 and IFRS S2
+IFRS S2 deals with disclosures about this. :: Climate-related risks
+The theory that the ownership interests of the parent alone matter in consolidation. :: Parent company theory (proprietary theory)
+Removing sales between group companies in consolidation is called this. :: Eliminating intragroup transactions
+Profit on goods sold within a group but still in inventory at year end. :: Unrealised profit (provision for unrealised profit)
+A joint arrangement where parties have rights to the net assets. :: Joint venture
+The method used for joint ventures under IFRS 11. :: Equity method
+A joint arrangement where parties have rights to the assets and obligations for the liabilities. :: Joint operation
+A financial instrument that gives the holder a residual interest in assets after liabilities. :: Equity instrument
+A preference share that must be redeemed for cash is classed as this. :: A financial liability
+The extra effect on EPS of options and convertibles. :: Dilution (diluted EPS)
+The method used to include share options in diluted EPS. :: Treasury stock method
+Inventory of 100 units at 10 and 100 units at 12; 150 sold. FIFO closing inventory value. :: 600
+Same purchases: 100 at 10, 100 at 12, 150 sold. Weighted average closing inventory value. :: 550
+The Altman model that predicts bankruptcy from five ratios. :: Altman Z-score
+Using accounting choices to make results look smoother over years. :: Earnings management (income smoothing)
+The fraud scheme of recording sales before goods are shipped. :: Premature revenue recognition (channel stuffing is a related scheme)
+Shipping extra goods to distributors at year end to inflate sales. :: Channel stuffing
+The US accounting body that sets auditing standards for listed companies, created by Sarbanes-Oxley. :: PCAOB (Public Company Accounting Oversight Board)
+The section of Sarbanes-Oxley that requires management to report on internal control. :: Section 404
+The Big Four accounting firms: Deloitte, EY, KPMG and this. :: PwC (PricewaterhouseCoopers)
+The audit risk model: audit risk = inherent risk x control risk x this. :: Detection risk
+The auditor's threshold for errors that would affect users' decisions. :: Materiality
+Auditors circulate letters to customers to check balances. This is called this. :: External confirmation (circularisation)
+An auditor's test of individual transactions and balances. :: Substantive procedure
+An auditor's test of whether controls work. :: Test of controls
+Separating authorising, recording and custody of assets among different people. :: Segregation of duties
+The 1992 framework for internal control with five components. :: COSO framework
+The five COSO components: control environment, risk assessment, control activities, information and communication, and this. :: Monitoring activities
+The ratio of operating cash flow to current liabilities. :: Operating cash flow ratio
+Cash from operations minus capital expenditure. :: Free cash flow
+The equation that links opening and closing retained earnings. :: Opening retained earnings + profit - dividends = closing retained earnings
+Cash 50, receivables 80, inventory 70 and current liabilities 100. The current ratio. :: 2
+Revenue 2,000; average total assets 1,000. Asset turnover. :: 2 times
+Net income 120; equity 600. Return on equity. :: 20%
+Net income 500; 250 shares. Earnings per share. :: 2
+Share price 30; EPS 2. P/E ratio. :: 15
+A 4,000 asset depreciated 25% reducing balance. Carrying amount after two years. :: 2,250
+The ledger account that records the cost of goods for a company using a periodic system: debited when goods are bought. :: Purchases
+The inventory system that updates inventory records after every sale. :: Perpetual inventory system
+The inventory system that counts inventory only at the end of the period. :: Periodic inventory system
+Selling goods to a customer who has the right to return them requires this IFRS 15 estimate. :: Variable consideration (refund liability)
+A sale where the seller still holds the goods for the buyer. :: Bill-and-hold arrangement
+Revenue for a long construction contract recognised as work progresses is recognised this way. :: Over time
+The input method measures progress by costs incurred as a share of these. :: Total expected costs
+A promise to sell a loyalty point is treated as this under IFRS 15. :: A separate performance obligation (material right)
+A party that controls goods before transfer to the customer is this, recording gross revenue. :: Principal
+A party that arranges for another to supply goods records only its commission as this. :: Agent
+The XBRL format is used for this. :: Electronic (machine-readable) financial reporting
+
+## 400
+The Saudi regulator SOCPA was set up under the Certified Public Accountants Law of this year. :: 1991 (1412 AH)
+The Saudi Companies Law that took effect in January 2023 was issued in this year. :: 2022
+Under Saudi zakat rules, the zakat rate on a company's zakat base. :: 2.5% (2.5775% on a Gregorian-year basis)
+The Saudi corporate income tax rate for the foreign share of a company's profits. :: 20%
+Saudi Arabia's withholding tax rate on dividends paid to a non-resident. :: 5%
+The ZATCA e-invoicing phase that began in January 2023 and links taxpayers' systems to ZATCA. :: Phase two (integration phase)
+The name ZATCA gives to its e-invoicing integration platform. :: FATOORA platform
+Saudi listed companies apply IFRS as endorsed by this body. :: SOCPA
+The 1494 book by Luca Pacioli that described double-entry bookkeeping. :: Summa de arithmetica, geometria, proportioni et proportionalita
+The accounting scandal at the Japanese camera maker Olympus came to light in this year. :: 2011
+The German payments firm that admitted in 2020 that 1.9 billion euros of cash probably did not exist. :: Wirecard
+The British construction firm whose 2018 collapse led to criticism of its auditor KPMG. :: Carillion
+The Indian IT company whose founder confessed to a large accounting fraud in 2009. :: Satyam Computer Services
+The Italian dairy firm whose 2003 collapse revealed a 14 billion euro hole. :: Parmalat
+The 2013 integrated reporting framework's six capitals: financial, manufactured, intellectual, human, social and relationship, and this. :: Natural capital
+The 1934 US law that created the SEC. :: Securities Exchange Act of 1934
+The US statement that sets the revenue standard matching IFRS 15. :: ASC 606
+The US lease standard matching IFRS 16. :: ASC 842
+Under US GAAP, leases for lessees are classified as finance leases or these. :: Operating leases
+Under IFRS 16, lessors still classify leases as finance leases or these. :: Operating leases
+The rate a lessee uses to discount lease payments when the implicit rate is not known. :: Incremental borrowing rate
+The IFRS 9 stage for financial assets whose credit risk has increased significantly but are not credit-impaired. :: Stage 2
+Stage 1 assets under IFRS 9 carry a loss allowance equal to this many months of expected credit losses. :: 12
+Stage 2 and 3 assets carry a loss allowance equal to these expected credit losses. :: Lifetime expected credit losses
+IFRS 9 hedge accounting types: fair value hedge, cash flow hedge, and this. :: Hedge of a net investment in a foreign operation
+Gains on the effective part of a cash flow hedge go first to this. :: Cash flow hedge reserve (OCI)
+A contract that combines a host contract with a derivative feature. :: Hybrid contract (embedded derivative)
+The method of consolidation that records the acquiree at fair value on the acquisition date. :: Acquisition method
+Measuring non-controlling interest at fair value gives this kind of goodwill. :: Full goodwill
+Measuring non-controlling interest at its share of net assets gives this kind of goodwill. :: Partial goodwill
+A business combination achieved in stages remeasures the old stake at fair value, called this. :: Step acquisition
+The period up to one year after an acquisition when provisional amounts can be adjusted. :: Measurement period
+The IAS standard on separate financial statements. :: IAS 27
+The IAS standard on investments in associates and joint ventures. :: IAS 28
+The IFRS standard on disclosure of interests in other entities. :: IFRS 12
+The IFRS standard that requires a single primary financial statement format from 2027, replacing IAS 1. :: IFRS 18
+IFRS 18 adds two new required subtotals: operating profit and this. :: Profit before financing and income taxes
+IFRS 18 requires disclosure of management-defined performance measures, known by these letters. :: MPMs
+The IFRS standard allowing reduced disclosures for subsidiaries without public accountability, issued in 2024. :: IFRS 19
+The IFRS standard on first-time adoption. :: IFRS 1
+The US model for credit losses, similar to IFRS 9's expected loss approach. :: CECL (current expected credit loss)
+The quantity theory that expected credit loss = probability of default x loss given default x this. :: Exposure at default
+Ownership of more than this share of voting rights is presumed to give significant influence. :: 20%
+An entity designed so that voting rights are not the main factor in deciding who controls it. :: Structured entity (special purpose entity)
+The Enron structures used to hide debt off the balance sheet. :: Special purpose entities (SPEs)
+A lease is a finance lease for a lessor if it transfers substantially all these. :: Risks and rewards of ownership
+Deferred tax assets on losses are recognised only if this is probable. :: Future taxable profit
+A deferred tax liability arising on goodwill's initial recognition is this. :: Not recognised (initial recognition exemption)
+Temporary differences arise when the carrying amount differs from this. :: Tax base
+Under IAS 19, remeasurement gains and losses on defined benefit plans go to this. :: Other comprehensive income
+The present value of future pension payments employees have earned. :: Defined benefit obligation
+The method used to measure defined benefit obligations. :: Projected unit credit method
+A 3-for-1 share split triples the number of shares and changes EPS comparatives this way. :: Restated (divided by three)
+The weighted average number of shares when 1,000 shares rise to 1,600 after a 600-share issue halfway through the year. :: 1,300
+A convertible bond is split into a liability and this component. :: Equity component
+Present value of 1,000 received in one year at 10%. :: 909.09
+The Beneish M-score is used to detect this. :: Earnings manipulation
+Benford's law is used in auditing to spot this. :: Unusual digit patterns (possible fraud)
+Under Benford's law, the leading digit 1 appears about this often. :: 30% (30.1%)
+The auditing standards issued by the IAASB. :: ISAs (International Standards on Auditing)
+The ISA on the auditor's opinion. :: ISA 700
+The ISA that requires communicating key audit matters. :: ISA 701
+Key audit matters are reported for audits of these companies. :: Listed entities
+The ISA on going concern. :: ISA 570
+The ISA on the auditor's responsibilities relating to fraud. :: ISA 240
+An emphasis of matter paragraph draws attention to something correctly this. :: Presented or disclosed in the accounts
+The IESBA code sets out these for professional accountants. :: Ethics (the Code of Ethics)
+The five fundamental principles in the IESBA code: integrity, objectivity, professional competence and due care, confidentiality, and this. :: Professional behaviour
+The threat to independence when an auditor reviews their own work. :: Self-review threat
+The threat when an auditor becomes too sympathetic to a long-standing client. :: Familiarity threat
+In the EU, audit firms of public-interest entities must rotate after a maximum of this many years (before extensions). :: 10
+The ratio used to judge whether a company can pay interest: EBIT divided by interest expense. :: Interest cover (times interest earned)
+Inventory turnover 8 times a year means inventory is held for about this many days. :: 45 to 46 days (365/8)
+Days sales outstanding 30, days inventory 60, days payables 40. The cash conversion cycle. :: 50 days
+A company with EBITDA of 200 and net debt of 600 has net debt to EBITDA of this. :: 3 times
+The term for an off-balance-sheet obligation arising when a company guarantees another's debt. :: Financial guarantee
+Revenue recognised at a point in time requires transfer of this to the customer. :: Control
+The five IFRS 15 indicators of transfer of control include legal title, physical possession and this. :: Present right to payment (or risks and rewards, or customer acceptance)
+Revenue of a contract with a significant financing component is adjusted for this. :: The time value of money
+The practical expedient lets companies ignore financing if payment and transfer are within this period. :: One year
+The idea that the same transaction should be reported the same way by different companies. :: Comparability
+The cost-benefit point that information should be provided only if its benefits exceed this. :: Its cost
+A company's accounts show 'Retained earnings 400, share capital 100, revaluation surplus 50'. Total equity. :: 550
+In a pure tax-free world, a 1,000 machine sold for 700 after 400 depreciation gives this result. :: A gain of 100
+The accounting approach where only one entity in a merger is treated as acquirer, required by IFRS 3. :: Acquisition method (no pooling of interests)
+The old US merger method abolished in 2001 that combined book values. :: Pooling of interests
+A company reports a change in useful life from 10 to 8 years. This is a change in this. :: Accounting estimate
+The Arab scholar Ibn Khaldun ﵀ wrote about state revenue and taxation in this famous book. :: The Muqaddimah
+The 14th-century Persian word for the bookkeeping ledgers used in Islamic state finance. :: Daftar
+The Islamic-era bookkeeping method using the siyaqat script was used in this administrative system. :: Diwan (state bookkeeping)
+The body that issues Sharia and accounting standards for Islamic financial institutions, based in Bahrain. :: AAOIFI
+A sale with a 30-day right of return where 5% of goods are expected back: revenue is recorded for this share. :: 95% (with a refund liability for the rest)
+The IFRS term for a group of insurance contracts expected to lose money at the start. :: Onerous group
+The ratio of operating profit to capital employed. :: ROCE (return on capital employed)
+Capital employed is usually total assets minus this. :: Current liabilities
+A company with gross margin 40% and sales of 500 has cost of sales of this. :: 300
+Inventory that rose from 100 to 140 while cost of sales was 720. Purchases for the year. :: 760
+The International Federation of Accountants, which supports the IAASB and IESBA, is known by these letters. :: IFAC
+The audit opinion paragraph added when there is a material uncertainty about going concern. :: Material uncertainty related to going concern
+The term for the fraud of lending money from a company to its directors and hiding it. :: Undisclosed related party loans
+
+## 500
+The Saudi company whose 2019 initial public offering was then the world's largest. :: Saudi Aramco
+Saudi Aramco's IPO in December 2019 raised about this much in US dollars, including the greenshoe. :: 29.4 billion (25.6 billion before the greenshoe)
+The AAOIFI standard number for murabaha. :: FAS 28 (formerly FAS 2)
+The AAOIFI standard on ijarah, which took effect in 2021. :: FAS 32
+AAOIFI's accounting standard on zakat. :: FAS 9
+AAOIFI's 2018 standard on investment accounts (unrestricted and restricted). :: FAS 27
+The Italian merchant's ledger from Genoa dated 1340 is among the earliest surviving examples of this. :: Double-entry bookkeeping
+The 1887 founding of the American Association of Public Accountants led to this modern body. :: AICPA (American Institute of Certified Public Accountants)
+The first professional accounting body, chartered in 1854 in this city. :: Edinburgh (Society of Accountants in Edinburgh)
+The 1844 British act that first required companies to have their accounts audited. :: Joint Stock Companies Act 1844
+The IASC, the predecessor of the IASB, was founded in this year. :: 1973
+The IASB took over from the IASC in this year. :: 2001
+The European Union required listed companies to use IFRS in consolidated accounts from this year. :: 2005
+The 2008 accounting technique Lehman Brothers used to hide 50 billion dollars of debt at quarter ends. :: Repo 105
+The Chinese coffee chain that admitted in 2020 to fabricating about 2.2 billion yuan in sales. :: Luckin Coffee
+The Toshiba accounting scandal that led to the resignation of its CEO came to light in this year. :: 2015
+The British retailer that overstated profits by 263 million pounds in 2014 by booking supplier income early. :: Tesco
+The number of steps in the impairment test for goodwill under US GAAP after the 2017 simplification. :: One (the step-two test was removed)
+Under IFRS, an impairment loss on goodwill may be reversed this many times. :: Never
+Under IAS 36, the discount rate for value in use is this kind of rate. :: Pre-tax
+The modified retrospective approach in IFRS 16 adjusts this on the date of first application. :: Opening retained earnings (no restatement of comparatives)
+In IFRS 17, the unearned profit in a group of insurance contracts. :: Contractual service margin (CSM)
+The IFRS 17 simplified approach for short contracts. :: Premium allocation approach (PAA)
+The IFRS 17 model used for participating contracts with direct participation features. :: Variable fee approach
+The IFRS 17 general model is also called the this. :: Building block approach
+IFRS 9 requires a hedging relationship to show an economic relationship and that credit risk does not dominate, plus a consistent this. :: Hedge ratio
+The term for the accounting mismatch fix that lets an entity designate a financial asset at FVTPL. :: Fair value option
+Under IFRS 9, gains on equity investments designated at FVOCI are this when sold. :: Never recycled to profit or loss
+The interest rate benchmark reform that replaced LIBOR triggered these IFRS amendments. :: IBOR reform amendments (Phase 1 and 2)
+LIBOR panel publication of most settings stopped at the end of this year. :: 2021
+The US dollar rate that replaced LIBOR. :: SOFR (Secured Overnight Financing Rate)
+The OECD's global minimum tax, Pillar Two, sets a minimum effective rate of this. :: 15%
+IAS 12 was amended in 2023 to give a temporary exception from deferred tax for this. :: Pillar Two top-up taxes
+The Conceptual Framework revised in 2018 defines an asset as a present economic resource controlled as a result of past events. Economic resource means a right with this. :: The potential to produce economic benefits
+The 2018 Conceptual Framework defines a liability as a present obligation to transfer this. :: An economic resource
+The ratio of market capitalisation to book value of equity. :: Price-to-book ratio
+In Tobin's q, market value is compared with this. :: Replacement cost of assets
+The accounting equation in Islamic accounting reports for mudaraba investment accounts sits between liabilities and this. :: Equity (quasi-equity)
+The general principle in zakat accounting where the zakat base uses current market value is called this method. :: Net assets method
+The method that computes zakat on net invested funds is called this method. :: Net invested funds method
+The organisation that publishes the Global Code of Ethics for accountants. :: IESBA (International Ethics Standards Board for Accountants)
+Under ISA 320, performance materiality is set below materiality to reduce this. :: Aggregation risk
+The ISA dealing with group audits, revised from 2023. :: ISA 600
+ISQM 1 replaced this standard on quality control. :: ISQC 1
+The European Union's sustainability reporting standards, known by these four letters. :: ESRS
+The EU directive that requires large companies to report under ESRS. :: CSRD (Corporate Sustainability Reporting Directive)
+The 'double materiality' in CSRD covers financial materiality and this. :: Impact materiality
+Scope 3 greenhouse emissions are these. :: Indirect emissions in the value chain
+Scope 2 greenhouse emissions come from this. :: Purchased energy (electricity, heat, steam)
+A stock of 100 units at 10, then 50 bought at 13, then 120 sold. FIFO cost of goods sold. :: 1,260
+Same transactions with a perpetual weighted average after the purchase. Cost of goods sold. :: 1,320
+A 1,000 bond at 5% coupon issued for 960 with an effective rate of 6%. First-year interest expense. :: 57.60
+In the same bond, the discount amortised in year one. :: 7.60
+A lease of 100 a year for 3 years paid in arrears at 10%. Initial lease liability. :: 248.69
+The present value of a 1,000 perpetuity at 8%. :: 12,500
+A company acquired 80% of a target for 900. The target's net assets are 1,000 at fair value. Goodwill with partial NCI. :: 100
+Same deal: NCI fair value is 220. Full goodwill. :: 120
+Accounting profit 1,000, tax rate 20%, non-deductible fines 50. Current tax. :: 210
+A machine with a carrying amount of 800 and tax base of 500 at a 20% tax rate creates this deferred tax liability. :: 60
+The 9th-century Baghdad scholar whose algebra book had a long section on inheritance calculations. :: Al-Khwarizmi
+The 14th-century Ilkhanid manual on bookkeeping by al-Mazandarani is called this. :: Risala-i Falakiyya
+The Ottoman bookkeeping script, adapted from Arabic numerals and words. :: Siyakat (siyaqat)
+In 1929, the American Institute of Accountants worked with this body to issue "Verification of Financial Statements". :: The Federal Reserve Board
+The investor often quoted calling accounting "the language of business". :: Warren Buffett (the phrase is widely credited to him)
+The Italian-born author of the 1458 "Book on the Art of Trade" that mentions double-entry before Pacioli. :: Benedetto Cotrugli
+The term Pacioli used for the method known as double-entry. :: Venetian method (alla veneziana)
+The accounting identity Assets = Liabilities + Equity is credited to this 19th-century theorist of the proprietary view. :: Charles Sprague
+The accounting theory of entity rather than proprietor is associated with this American theorist, William this. :: Paton
+The 1940 monograph "An Introduction to Corporate Accounting Standards" was written by Paton and this author. :: A. C. Littleton
+The 1975 Accounting Standards Steering Committee document in Britain on users' needs. :: The Corporate Report
+The American study group whose 1973 report set objectives for financial statements. :: Trueblood Committee
+The 1938 American publication "A Statement of Accounting Principles" was written by Sanders, Hatfield and this author. :: Moore
+The company Ernst & Young formed from two firms in this year. :: 1989
+The Big Eight firm that collapsed in 2002. :: Arthur Andersen
+The audit firm fined a record 21 million pounds in 2023 over its audits of Carillion. :: KPMG
+The value of a firm equals book value plus the present value of expected abnormal earnings in this model. :: Residual income model (Ohlson model)
+Earnings of 120, opening book value of 1,000, cost of equity 10%. Residual income. :: 20
+The clean surplus relation says the change in book value equals earnings minus this. :: Dividends (net distributions)
+The accounting quality measure built from total accruals scaled by assets, by Sloan in 1996. :: Accrual anomaly
+The Jones model estimates these accruals. :: Discretionary accruals
+The ratio (net income minus cash from operations) divided by average total assets measures this. :: Accruals ratio (earnings quality)
+The Piotroski score uses this many accounting signals. :: Nine (F-score)
+The 1970s US airline accounting debate concerned leases kept off the balance sheet, leading to this US standard. :: FAS 13
+The 1990s US debate over expensing employee stock options ended with this standard in 2004. :: FAS 123R
+The rule that a company may only pay dividends out of these. :: Distributable profits (retained earnings)
+The 'statutory reserve' Saudi companies once had to build up from 10% of profits until it reached this share of capital. :: 30% (removed under the 2022 Companies Law)
+The UK firm that pioneered the 'triple bottom line' term in 1994. :: SustainAbility (John Elkington)
+The three parts of the triple bottom line. :: People, planet, profit
+In the Islamic tradition, the official who oversaw markets and fair weights. :: Muhtasib (hisba)
+The ayah in Surat al-Baqarah instructing believers to write down debts is known as this. :: Ayat al-Dayn (the verse of debt, 2:282)
+Ayat al-Dayn is the longest ayah in the Quran. Its number in Surat al-Baqarah. :: 282
+The IASB's project on rate-regulated activities aims to replace this interim standard. :: IFRS 14 (Regulatory Deferral Accounts)
+The IASB amendments of 2024 clarified how to classify financial assets with ESG-linked features. They amend these two standards. :: IFRS 9 and IFRS 7
+The IFRS Interpretations Committee was formerly called this. :: IFRIC (earlier SIC, the Standing Interpretations Committee)
+IFRIC 23 deals with uncertainty over this. :: Income tax treatments
+The IFRS standard on interim financial reporting. :: IAS 34
+The economic theory that markets quickly reflect accounting information, tested by Ball and Brown in 1968. :: Efficient market hypothesis (semi-strong form)
+Ball and Brown's 1968 study showed share prices move ahead of announcements of this. :: Annual earnings
+A cash-settled share appreciation right is measured at fair value at each of these. :: Reporting dates (until settlement)
+Under IFRS 2, equity-settled share options are measured at fair value on this date. :: Grant date
