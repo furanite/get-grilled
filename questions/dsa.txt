@@ -104,6 +104,7 @@ Two keys that hash to the same index cause this. :: Collision
 The step-by-step check of an algorithm by hand, writing down each variable. :: Dry run (trace table)
 The name for the input size in Big O notation. :: n
 An algorithm must always finish after a finite number of steps; this property is called this. :: Finiteness
+Name the data structure drawn here. {img:linked-list.svg} :: A singly linked list
 
 ## 200
 The Big O of finding an item in a balanced binary search tree. :: O(log n)
@@ -308,6 +309,7 @@ The algorithm for evaluating a polynomial with the fewest multiplications. :: Ho
 The technique that answers range-minimum queries in O(1) after O(n log n) preprocessing. :: Sparse table
 The technique that splits an array into √n blocks to answer queries. :: Square root decomposition
 The offline query ordering trick for range queries, named after a Chinese competitive programmer. :: Mo's algorithm
+Give the pre-order traversal of this binary tree. {img:binary-tree.svg} :: 4, 2, 1, 3, 6, 5, 7
 
 ## 400
 The author of "The Art of Computer Programming", first volume published in 1968. :: Donald Knuth
@@ -410,6 +412,7 @@ The computer scientist who coined the name "trie", from the word "retrieval". ::
 The third member, with Newell and Simon, of the team that invented the linked list in the 1950s. :: Cliff Shaw
 The German number theorist who popularised Big O notation after Paul Bachmann introduced it. :: Edmund Landau
 The inventors of the Fibonacci heap in 1984: Fredman and this man. :: Robert Tarjan
+Using the edge weights shown, what is the length of the shortest path from A to F? {img:weighted-graph.svg} :: 6 (A, C, B, D, E, F)
 
 ## 500
 The fewest nodes an AVL tree of height 4 can have, counting a single node as height 0. :: 12

@@ -104,6 +104,8 @@ The service that lets you type a name like google.com instead of numbers. :: DNS
 A program that crawls the web to build a search index. :: Web crawler (spider)
 Two devices agreeing on how to communicate before data is sent. :: Handshake
 The unit equal to one thousand megabits per second. :: Gigabit per second (Gbps)
+Name the network topology drawn here. {img:topology-star.svg} :: Star topology
+Name the network topology drawn here. {img:topology-ring.svg} :: Ring topology
 
 ## 200
 The number of layers in the OSI model. :: 7
@@ -206,6 +208,8 @@ The set of techniques that give some traffic priority, shortened to three letter
 The server that sits between clients and the internet and forwards their requests. :: Proxy server
 The device that spreads incoming requests across several servers. :: Load balancer
 A network of servers around the world that delivers content from a location near the user. :: CDN
+Name the network topology drawn here, with every device on one shared cable. {img:topology-bus.svg} :: Bus topology
+Name the network topology drawn here, with every device linked directly to every other. {img:topology-mesh.svg} :: Full mesh topology
 
 ## 300
 The subnet mask of a /26 network. :: 255.255.255.192

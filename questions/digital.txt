@@ -104,6 +104,9 @@ The digital world uses discrete values; the real world mostly uses this kind of 
 The device that converts analogue signals to digital, shortened to three letters. :: ADC
 The device that converts digital signals to analogue, shortened to three letters. :: DAC
 The binary form of the hexadecimal digit F. :: 1111
+Name the logic gate drawn here. {img:gate-and.svg} :: AND gate
+Name the logic gate drawn here. {img:gate-or.svg} :: OR gate
+Name the logic gate drawn here. {img:gate-not.svg} :: NOT gate (inverter)
 
 ## 200
 The hexadecimal form of decimal 255. :: FF
@@ -206,6 +209,8 @@ The measure of average clock cycles per instruction, shortened to three letters.
 Overlapping the stages of several instructions like an assembly line. :: Pipelining
 The number of stages in the classic MIPS pipeline. :: 5
 The flag set when an unsigned addition carries out of the top bit. :: Carry flag
+Name the logic gate drawn here. {img:gate-xor.svg} :: XOR (exclusive OR) gate
+Name the logic gate drawn here. {img:gate-nand.svg} :: NAND gate
 
 ## 300
 The number of distinct Boolean functions of two variables. :: 16
@@ -308,6 +313,7 @@ The number of address bits needed for 64 KB of byte-addressable memory. :: 16
 The fast multiplier design that adds partial products with carry-save adders in a tree, named after its inventor. :: Wallace tree
 The cache replacement policy that evicts the block unused for the longest time, shortened to three letters. :: LRU
 The principle that data near recently used data is likely to be used soon. :: Spatial locality
+This circuit adds two bits A and B, giving a sum S and a carry C. What is it called? {img:half-adder.svg} :: A half adder
 
 ## 400
 The number of 2-input NOR gates needed to build an XNOR gate, at minimum. :: 4

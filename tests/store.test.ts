@@ -9,17 +9,17 @@ describe('storage', () => {
   beforeEach(() => localStorage.clear())
 
   it('returns defaults when nothing is saved', () => {
-    expect(loadSettings()).toEqual({ theme: 'amethyst', lang: 'en', reduceFx: false })
+    expect(loadSettings()).toEqual({ theme: 'amethyst', lang: 'en', reduceFx: false, sound: true })
     expect(loadCustom()).toEqual([])
     expect(loadUsed()).toEqual({})
     expect(loadGame()).toBeNull()
   })
 
   it('saves and loads each kind of data', () => {
-    saveSettings({ theme: 'neon', lang: 'ar', reduceFx: false })
+    saveSettings({ theme: 'neon', lang: 'ar', reduceFx: false, sound: true })
     saveCustom([{ id: 'c1', name: 'X', builtIn: false, levels: [[], [], [], [], []] }])
     saveUsed({ a: ['a-0-1'] })
-    expect(loadSettings()).toEqual({ theme: 'neon', lang: 'ar', reduceFx: false })
+    expect(loadSettings()).toEqual({ theme: 'neon', lang: 'ar', reduceFx: false, sound: true })
     expect(loadCustom()[0].name).toBe('X')
     expect(loadUsed()).toEqual({ a: ['a-0-1'] })
   })
@@ -73,11 +73,11 @@ describe('text helpers', () => {
 describe('corrupted or tampered saved data never breaks loading', () => {
   it('settings fall back field by field', () => {
     localStorage.setItem('gg.settings.v1', '{"theme":"bogus","lang":"fr","reduceFx":"yes"}')
-    expect(loadSettings()).toEqual({ theme: 'amethyst', lang: 'en', reduceFx: false })
+    expect(loadSettings()).toEqual({ theme: 'amethyst', lang: 'en', reduceFx: false, sound: true })
     localStorage.setItem('gg.settings.v1', 'null')
     expect(loadSettings().theme).toBe('amethyst')
     localStorage.setItem('gg.settings.v1', '{"theme":"neon","lang":"ar","reduceFx":true}')
-    expect(loadSettings()).toEqual({ theme: 'neon', lang: 'ar', reduceFx: true })
+    expect(loadSettings()).toEqual({ theme: 'neon', lang: 'ar', reduceFx: true, sound: true })
   })
   it('custom categories drop bad entries and keep good ones', () => {
     localStorage.setItem('gg.custom.v1', '{"x":1}')
@@ -98,5 +98,24 @@ describe('corrupted or tampered saved data never breaks loading', () => {
     expect(loadUsed()).toEqual({})
     localStorage.setItem('gg.used.v1', '{"a":["x",1],"b":3}')
     expect(loadUsed()).toEqual({ a: ['x'] })
+  })
+})
+
+describe('question pools and diagrams', () => {
+  beforeEach(() => localStorage.clear())
+  it('keeps pool edits and drops junk', async () => {
+    const { loadPools, savePools } = await import('../src/lib/store')
+    savePools({ x: { off: [['a'], [], [], [], []], extra: [[], [{ id: 'e1', q: 'Q', a: 'A' }], [], [], []] } })
+    expect(loadPools().x.off[0]).toEqual(['a'])
+    expect(loadPools().x.extra[1][0].q).toBe('Q')
+    localStorage.setItem('gg.pools.v1', '{"x":{"off":"nope","extra":[[{"q":1}]]},"y":5}')
+    expect(loadPools()).toEqual({ x: { off: [[], [], [], [], []], extra: [[], [], [], [], []] } })
+  })
+  it('keeps a valid diagram on a saved question and drops a bad one', async () => {
+    const { cleanCategories } = await import('../src/lib/store')
+    const good = 'data:image/png;base64,iVBORw0KGgo='
+    const cats = cleanCategories([{ id: 'c', name: 'C', levels: [[{ id: '1', q: 'q', a: 'a', img: good }, { id: '2', q: 'q', a: 'a', img: 'javascript:alert(1)' }], [], [], [], []] }])
+    expect(cats[0].levels[0][0].img).toBe(good)
+    expect(cats[0].levels[0][1].img).toBeUndefined()
   })
 })
