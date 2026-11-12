@@ -206,6 +206,8 @@ The VHDL pair that describes a block's ports and its insides. :: Entity and arch
 The popular Digilent student FPGA board with an Artix-7 chip. :: Basys 3
 The 7402 chip contains these gates. :: Four 2-input NOR gates
 The 74157 chip is this. :: Quad 2-to-1 multiplexer
+Name the logic gate drawn here. {img:gate-nor.svg} :: NOR gate
+Name the logic gate drawn here. {img:gate-xnor.svg} :: XNOR gate
 
 ## 300
 The basic building block of most FPGAs that implements any small function. :: LUT (look-up table)
@@ -308,6 +310,8 @@ The termination resistor usually placed across an LVDS pair. :: 100 Ω
 Reflections on a fast PCB track happen when it is not matched to this. :: Its characteristic impedance
 Several outputs switching at once can make the ground voltage bounce. This is called this. :: Ground bounce (simultaneous switching noise)
 The blocks around the edge of an FPGA that connect to its pins. :: IOBs (input/output blocks)
+Name this circuit block, which passes one of two inputs to its output. {img:mux-2to1.svg} :: 2-to-1 multiplexer
+Name this storage element, which copies its input to Q on the clock edge. {img:d-flipflop.svg} :: D flip-flop
 
 ## 400
 The FPGA family names from AMD (Xilinx): Spartan, Artix, Kintex and this high end. :: Virtex
@@ -410,6 +414,7 @@ The Verilog keyword for compile-time constants passed into modules. :: parameter
 The VHDL equivalent of Verilog parameters. :: Generics
 The logical effort of a 3-input NAND gate. :: 5/3
 The logical effort of a 3-input NOR gate. :: 7/3
+Which single gate drawn here outputs 1 only when both inputs are 0? {img:gate-nor.svg} :: NOR gate
 
 ## 500
 The English mathematician who published 'The Laws of Thought' in 1854. :: George Boole

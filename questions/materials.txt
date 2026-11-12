@@ -206,6 +206,7 @@ Percent elongation and reduction in area measure this. :: Ductility
 The fracture surface of a ductile metal tensile test looks like this. :: Cup and cone
 The hardness test that measures depth with a cone or ball and gives HRC values. :: Rockwell hardness test
 Nitinol is made of nickel and this metal. :: Titanium
+Name this crystal unit cell, with an atom only at each corner. {img:cell-sc.svg} :: Simple cubic
 
 ## 300
 The rule that predicts which elements form solid solutions, based on size and bonding. :: Hume-Rothery rules
@@ -308,6 +309,9 @@ Martensite has this crystal structure. :: Body-centred tetragonal (BCT)
 The test that measures how deep a steel will harden by quenching one end. :: Jominy end-quench test
 The method used to grow large single crystals of silicon. :: Czochralski process
 The rule used to find the amount of each phase in a two-phase region. :: Lever rule
+Name this crystal unit cell, with one extra atom in the centre of the cube. {img:cell-bcc.svg} :: Body-centred cubic (BCC)
+Name this crystal unit cell, with an extra atom in the centre of each face. {img:cell-fcc.svg} :: Face-centred cubic (FCC)
+What is the highest point on this stress–strain curve called? {img:stress-strain.svg} :: Ultimate tensile strength
 
 ## 400
 The Miller indices of the close-packed planes in an FCC crystal. :: {111}
@@ -410,6 +414,7 @@ The process that moulds small complex metal parts from powder mixed with a binde
 The coating process that sprays molten particles onto a surface through a plasma jet. :: Plasma spraying
 The vapour coating process used to put hard titanium nitride on drill bits. :: PVD (physical vapour deposition)
 The gold-coloured hard coating seen on many drill bits. :: Titanium nitride (TiN)
+How many atoms belong to one unit cell of this structure? {img:cell-bcc.svg} :: 2
 
 ## 500
 The physicist father-and-son team who won the 1915 Nobel Prize for X-ray crystallography. :: William Henry and William Lawrence Bragg
@@ -512,3 +517,4 @@ The skyscraper for which concrete was pumped to a then-record height of over 600
 The blue pigment made in ancient Egypt, one of the first synthetic materials. :: Egyptian blue
 The ancient casting method that uses a wax model melted out of a clay mould. :: Lost-wax (investment) casting
 The Bessemer process cleans molten pig iron by blowing this through it. :: Air
+How many atoms belong to one unit cell of this structure? {img:cell-fcc.svg} :: 4

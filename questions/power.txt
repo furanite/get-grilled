@@ -104,6 +104,9 @@ The car that is 'plugged in' to recharge but also has an engine. :: Plug-in hybr
 Rooftop solar water heaters warm water using this. :: Sunlight (solar thermal energy)
 Saudi electricity bills charge halalas per this unit. :: kWh
 The gas in home cooking cylinders, a mix of propane and butane. :: LPG
+Name the electrical component this symbol stands for. {img:sym-transformer.svg} :: Transformer
+Name the electrical symbol drawn here. {img:sym-ground.svg} :: Ground (earth)
+Name the source this symbol stands for. {img:sym-ac-source.svg} :: AC voltage source
 
 ## 200
 In a three-phase system, the phases are separated by this angle. :: 120 degrees
@@ -308,6 +311,8 @@ The world's largest power station by capacity, in China. :: Three Gorges Dam
 The Dubai solar park where ACWA Power built the world's tallest solar power tower. :: Mohammed bin Rashid Al Maktoum Solar Park
 Saudi Arabia's grid operator, a subsidiary of SEC since 2012. :: National Grid SA
 The Saudi company that buys power and runs the National Renewable Energy Program tenders. :: SPPC (Saudi Power Procurement Company)
+Name this three-phase connection. {img:three-phase-wye.svg} :: Wye (star) connection
+Name this three-phase connection. {img:three-phase-delta.svg} :: Delta connection
 
 ## 400
 The matrix of partial derivatives used in the Newton–Raphson load flow. :: Jacobian
@@ -410,6 +415,7 @@ The reliability index for average outage minutes per customer per year. :: SAIDI
 The reliability index for the average number of interruptions per customer per year. :: SAIFI
 The planning measure for expected hours per year when load exceeds available generation. :: LOLE (loss of load expectation)
 A wind turbine's power curve becomes flat above this wind speed. :: Rated wind speed
+In this three-phase connection, the line voltage is how many times the phase voltage? {img:three-phase-wye.svg} :: √3 (about 1.73)
 
 ## 500
 The year Edison opened the Pearl Street power station in New York. :: 1882

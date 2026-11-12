@@ -104,6 +104,7 @@ The cheapest common way to keep sun heat out of a building's walls. :: Insulatio
 Building digital 3D models with full project information. :: BIM (Building Information Modelling)
 The sand layer laid under paving blocks and pipes. :: Bedding layer
 The raised concrete edge along a road, called a curb in American English. :: Kerb
+Name this type of beam, held at one end only. {img:beam-cantilever.svg} :: Cantilever beam
 
 ## 200
 The four main compounds in Portland cement are C3S, C2S, C3A and this. :: C4AF
@@ -206,6 +207,10 @@ The measure of oxygen needed by bacteria to break down organic matter. :: BOD (b
 The measure of oxygen needed to chemically oxidise matter in water. :: COD (chemical oxygen demand)
 The cleaned wastewater leaving a treatment plant. :: Effluent
 The on-site soil density test that uses calibrated sand to measure a hole's volume. :: Sand cone test
+Name this type of beam support. {img:support-pin.svg} :: Pin (hinge) support
+Name this type of beam support. {img:support-roller.svg} :: Roller support
+Name this type of beam support. {img:support-fixed.svg} :: Fixed support
+Name this type of beam, with a pin at one end and a roller at the other. {img:beam-simple.svg} :: Simply supported beam
 
 ## 300
 Concrete's design strength symbol, as in 'C30' or 'f′c = 30 MPa'. :: Specified (characteristic) compressive strength
@@ -308,6 +313,8 @@ The plate load test measures a soil's bearing capacity and this. :: Settlement (
 A chain of survey lines with measured angles and distances between control points. :: Traverse
 The rule that shares out a traverse's closing error in proportion to line lengths. :: Bowditch (compass) rule
 Making maps and 3D models from overlapping aerial photos. :: Photogrammetry
+Name this type of truss, made of triangles with no vertical members. {img:truss-warren.svg} :: Warren truss
+How many reaction forces can a roller support like this one provide? {img:support-roller.svg} :: One (perpendicular to the surface)
 
 ## 400
 The equation for consolidation in one dimension was published by Terzaghi in this year. :: 1925
@@ -410,6 +417,9 @@ Thick concrete pours that need heat control to avoid cracking. :: Mass concrete
 Ultra-high-performance concrete has compressive strength above about this. :: 150 MPa
 The low-carbon cement blend made with calcined clay and limestone. :: LC3 (limestone calcined clay cement)
 Mass concrete specifications often limit the core-to-surface temperature difference to about this. :: 20 °C
+Name this type of truss: its diagonals slope down towards the middle of the span. {img:truss-pratt.svg} :: Pratt truss
+Name this type of truss: its diagonals slope up towards the middle of the span. {img:truss-howe.svg} :: Howe truss
+How many reactions (forces and moments) does this support provide in a 2D problem? {img:support-fixed.svg} :: Three (two forces and a moment)
 
 ## 500
 The English engineer who first called himself a 'civil engineer' and founded the first engineering society in 1771. :: John Smeaton

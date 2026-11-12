@@ -104,6 +104,8 @@ A tool that measures voltage, current and resistance when debugging circuits. ::
 The company that makes the AVR and PIC microcontrollers today. :: Microchip Technology
 The small Arduino board that plugs straight into a breadboard. :: Arduino Nano
 The sensor that senses tilt and movement by measuring gravity and acceleration. :: Accelerometer
+Which digit is this seven-segment display showing? {img:seg-4.svg} :: 4
+Which digit is this seven-segment display showing? {img:seg-7.svg} :: 7
 
 ## 200
 The microcontroller chip on the Arduino Uno. :: ATmega328P
@@ -206,6 +208,8 @@ The ESP32 can wake up from deep sleep using a timer, a pin or this. :: Touch sen
 The ESP32's Wi-Fi mode where it makes its own network. :: Access point (AP) mode
 The lightweight messaging protocol used by IoT devices with publish and subscribe. :: MQTT
 The central server in MQTT. :: Broker
+Which digit is this seven-segment display showing? {img:seg-2.svg} :: 2
+Which digit is this seven-segment display showing? {img:seg-9.svg} :: 9
 
 ## 300
 The AVR instruction set is this kind of design. :: RISC
@@ -308,6 +312,7 @@ The ESP32's tiny extra processor for sensing while the main cores sleep. :: ULP 
 The ESP32 feature that lets pins sense a finger by capacitance. :: Capacitive touch
 The ESP-NOW protocol lets ESP32 boards talk directly without this. :: A Wi-Fi router (access point)
 The Arduino function that measures how long a pin stays HIGH, used with the HC-SR04. :: pulseIn()
+How many of the seven segments are lit to show this digit? {img:seg-9.svg} :: 6
 
 ## 400
 The Cortex-M feature that saves registers automatically on interrupt entry. :: Hardware stacking (exception frame)

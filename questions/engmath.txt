@@ -104,6 +104,8 @@ The vector from (0, 0) to (2, 3) has this x-component. :: 2
 The value of 4! (four factorial). :: 24
 The value of 3! (three factorial). :: 6
 The value of 2⁵. :: 32
+Which function is graphed here? {img:graph-sine.svg} :: y = sin x
+Which function is graphed here? {img:graph-parabola.svg} :: y = x²
 
 ## 200
 The rule for differentiating a product uv. :: Product rule (u′v + uv′)
@@ -206,6 +208,9 @@ The simplest numerical method for ODEs, stepping along the slope. :: Euler's met
 The popular fourth-order method for solving ODEs. :: Runge–Kutta (RK4)
 The error from cutting off an infinite process after a few terms. :: Truncation error
 The error from storing numbers with limited digits. :: Round-off error
+Which function is graphed here? {img:graph-exponential.svg} :: y = eˣ (exponential)
+Which function is graphed here? {img:graph-log.svg} :: y = ln x (natural logarithm)
+Which function is graphed here? {img:graph-abs.svg} :: y = |x| (absolute value)
 
 ## 300
 The integral of sec x dx. :: ln|sec x + tan x| + C
@@ -308,6 +313,8 @@ The ringing overshoot of a Fourier series near a jump. :: Gibbs phenomenon
 The theorem (cos θ + j sin θ)ⁿ = cos nθ + j sin nθ. :: De Moivre's theorem
 A continuous-time system with a pole at s = +2 is this. :: Unstable
 The point in the z-plane that matches s = 0. :: z = 1
+This bell-shaped curve shows which probability distribution? {img:graph-normal.svg} :: The normal (Gaussian) distribution
+What is the derivative of the function graphed here? {img:graph-sine.svg} :: cos x
 
 ## 400
 The improper integral from 0 to ∞ of sin x / x. :: π/2
@@ -410,6 +417,7 @@ The determinant of any 3×3 rotation matrix. :: 1
 The eigenvalues of a 2D rotation matrix by angle θ. :: e^(±jθ)
 The matrix norm equal to the largest singular value. :: Spectral (2-) norm
 The optimiser with momentum and adaptive step sizes, popular for training neural networks. :: Adam
+What is the derivative of the function graphed here? {img:graph-exponential.svg} :: eˣ (it is its own derivative)
 
 ## 500
 The two mathematicians who independently invented calculus. :: Newton and Leibniz
