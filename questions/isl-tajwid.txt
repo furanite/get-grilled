@@ -35,7 +35,7 @@ The counting unit for madd, about the time to fold or open a finger. :: Harakah 
 The Arabic alphabet has this many letters. :: 28 (29 with hamzah counted apart) || H: Standard teaching
 The letters pronounced from the throat are called this. :: Huruf halqiyyah || H: al-Muqaddimah al-Jazariyyah
 The letters pronounced from the lips are called this. :: Huruf shafawiyyah || H: al-Muqaddimah al-Jazariyyah
-The three lip letters. :: Fa', ba' and mim (and waw) || H: al-Muqaddimah al-Jazariyyah
+The lip letters. :: Fa', waw, ba' and mim || H: al-Muqaddimah al-Jazariyyah
 The mark in the Mushaf meaning "it is better to stop here". :: Qaf-lam (qili) || H: The Mushaf (Madinah print)
 The mark in the Mushaf meaning "it is better to continue". :: Sad-lam-ya (sila) || H: The Mushaf (Madinah print)
 The mark in the Mushaf meaning "do not stop here". :: Lam-alif (la) || H: The Mushaf (Madinah print)
@@ -54,7 +54,7 @@ Our Beloved Prophet ﷺ said: "Beautify the Qur'an with" this (paraphrased). :: 
 Mistakes in recitation are called this. :: Lahn || H: Standard term
 A clear mistake that changes the vowel or meaning. :: Lahn jali || H: Standard teaching
 A hidden mistake against the finer rules of tajwid. :: Lahn khafi || H: Standard teaching
-Learning tajwid in practice is fard 'ayn on the reciter, says Ibn al-Jazari رحمة الله عليه; learning its theory is this. :: Fard kifayah || D: Common teaching summary of al-Muqaddimah al-Jazariyyah
+Learning tajwid in practice is fard 'ayn on the reciter, says Ibn al-Jazari رحمة الله عليه; learning its theory is this. :: Fard kifayah || H: Standard teaching in the commentaries on al-Muqaddimah al-Jazariyyah
 The letter hamzah comes from this part of the throat. :: The deepest part (aqsa al-halq) || H: al-Muqaddimah al-Jazariyyah
 
 ## 200
@@ -162,7 +162,6 @@ Ibn al-Jazari's رحمة الله عليه poem says "Whoever does not perfect t
 The heavy letters in order of strength begin with this kind. :: Letters of itbaq (sad, dad, ta', za') || H: Standard teaching
 The alif follows the letter before it in heaviness or lightness; this is called this. :: Tabi' (following) || H: Standard teaching
 The "silent" letters at the end, like alif in "ana", are kept when stopping but dropped when this. :: Joining (continuing) || H: Standard teaching
-The kind of stop where the reciter stops on a word against the rule to show its ruling. :: Waqf ikhtibari || H: Standard teaching
 A stop the reader picks freely, without need, at a fitting place. :: Waqf ikhtiyari || H: Standard teaching
 
 ## 400
@@ -244,7 +243,7 @@ The early scholar whose poem al-Ra'iyyah is among the first works on tajwid, d. 
 The scholar who wrote al-Ri'ayah on tajwid, d. 437 AH / 1045 CE. :: Makki ibn Abi Talib al-Qaysi رحمة الله عليه || H: Standard reference
 Abu 'Amr al-Dani رحمة الله عليه wrote this book on tajwid. :: al-Tahdid fi al-Itqan wa al-Tajwid || H: Standard reference
 Al-Shatibi رحمة الله عليه also wrote a poem on the 'Uthmani script called this. :: 'Aqilat Atrab al-Qasa'id || H: Standard reference
-The full chain of Hafs: Hafs from 'Asim, from Abu 'Abd al-Rahman al-Sulami رحمة الله عليهم, from this Companion among others. :: Our masters 'Ali, 'Uthman, Zayd, Ubayy and Ibn Mas'ud (رِضْوَانُ اللَّهِ عَلَيْهِم) || H: Ibn al-Jazari, al-Nashr
+The full chain of Hafs: Hafs from 'Asim, from Abu 'Abd al-Rahman al-Sulami رحمة الله عليهم, from these Companions. :: Our masters 'Ali, 'Uthman, Zayd, Ubayy and Ibn Mas'ud (رِضْوَانُ اللَّهِ عَلَيْهِم) || H: Ibn al-Jazari, al-Nashr
 'Asim's رحمة الله عليه second teacher, from Ibn Mas'ud (رِضْوَانُ اللَّهِ عَلَيْهِ), through whom the reading of Shu'bah رحمة الله عليه comes. :: Zirr ibn Hubaysh رحمة الله عليه || H: Ibn al-Jazari, al-Nashr
 The reading of Hafs رحمة الله عليه through the way of al-Shatibiyyah is called this "way". :: Tariq al-Shatibiyyah || H: Standard term
 The larger way of Hafs رحمة الله عليه, with more options, comes through this poem. :: Tayyibat al-Nashr || H: Standard reference
@@ -260,16 +259,16 @@ The number of the seven readers who read "maliki" in al-Fatihah without an alif.
 'Asim and al-Kisa'i رحمة الله عليهما read this word in al-Fatihah with an alif. :: Maliki (Master) || H: al-Shatibi, Hirz al-Amani
 The reader of Kufah who reads "al-sirat" with a sound between sad and zay (ishmam). :: Hamzah رحمة الله عليه || H: al-Shatibi, Hirz al-Amani
 Qunbul رحمة الله عليه reads "al-sirat" with this letter. :: Sin || H: al-Shatibi, Hirz al-Amani
-The three readers added to the seven to make ten. :: Abu Ja'far, Ya'qub and Khalaf || H: Ibn al-Jazari, al-Nashr
+The three readers added to the seven to make ten. :: Abu Ja'far, Ya'qub and Khalaf رحمة الله عليهم || H: Ibn al-Jazari, al-Nashr
 Ibn al-Jazari's رحمة الله عليه poem on the three extra readings. :: al-Durrah al-Mudiyyah || H: Standard reference
-The reader of Madinah among the three extra ones. :: Abu Ja'far || H: Ibn al-Jazari, al-Nashr
-The reader of Basrah among the three extra ones. :: Ya'qub al-Hadrami || H: Ibn al-Jazari, al-Nashr
+The reader of Madinah among the three extra ones. :: Abu Ja'far رحمة الله عليه || H: Ibn al-Jazari, al-Nashr
+The reader of Basrah among the three extra ones. :: Ya'qub al-Hadrami رحمة الله عليه || H: Ibn al-Jazari, al-Nashr
 Khalaf al-'Ashir was also a transmitter of this reader of the seven. :: Hamzah رحمة الله عليه || H: Ibn al-Jazari, al-Nashr
 Ghunnah is a quality of nun and mim that has no this. :: Opposite || H: Standard teaching
 The number of qualities with opposites in al-Jazariyyah. :: 5 pairs (10) || H: al-Muqaddimah al-Jazariyyah
 The number of qualities without opposites in al-Jazariyyah. :: 7 || H: al-Muqaddimah al-Jazariyyah
-The letter that has the most "strong" qualities, said to be the strongest letter. :: Ta' (heavy) || D: Common teaching; some say dad
-The letter considered the weakest, as it has the fewest strong qualities. :: Ha' || D: Common teaching
+The letter that has the most "strong" qualities, said to be the strongest letter. :: Ta' (heavy) || H?: Common teaching; some say dad, to be checked
+The letter considered the weakest, as it has the fewest strong qualities. :: Ha' || H?: Common teaching, to be checked
 The Egyptian Mushaf of 1342 AH (1924 CE) whose stop marks many later prints follow. :: The King Fu'ad Mushaf || H?: Check the name of the scholar of the stop marks
 The famous reciter of Egypt known for the "mujawwad" style, d. 1409 AH / 1988 CE. :: 'Abd al-Basit 'Abd al-Samad رحمة الله عليه || H: Standard biography
 The Egyptian reciter known for the "murattal" recording of the whole Qur'an in several readings, d. 1401 AH / 1980 CE. :: Mahmud Khalil al-Husari رحمة الله عليه || H: Standard biography

@@ -577,6 +577,7 @@ const I = {
   coins: 'M3.5 7c0-1.2 2.7-2.2 6-2.2s6 1 6 2.2-2.7 2.2-6 2.2-6-1-6-2.2z M3.5 7v4c0 1.2 2.7 2.2 6 2.2s6-1 6-2.2V7 M3.5 11v4c0 1.2 2.7 2.2 6 2.2s6-1 6-2.2v-4 M15.5 13.2c3 .2 5 1 5 2v4c0 1.2-2.7 2.2-6 2.2-1.7 0-3.3-.3-4.4-.7',
   hand: 'M2.5 15h4l4 2h4a1.8 1.8 0 0 0 0-3.6h-3 M6.5 15v6 M2.5 21h4 M14.5 17l5.2-3.1a1.6 1.6 0 0 1 2 2.4L15.5 21.5h-9 ' + circ(15, 6, 3.2) + ' M15 4.6v2.8',
   tents: 'M1.5 20.5l5.5-10 5.5 10z M11.5 20.5l5.5-10 5.5 10z M7 10.5V7 M17 10.5V7 M7 7l2.5 1-2.5 1 M17 7l2.5 1-2.5 1 M1 20.5h22',
+  bowl: 'M3 12h18 M4 12a8 7 0 0 0 16 0 M9 21h6 M12 19v2 M9 4c-1 1.2 1 2 0 3.5 M15 4c-1 1.2 1 2 0 3.5',
   family: 'M12 21.5v-6 M12 15.5c-4 0-6-2-6-5.5 M12 15.5c4 0 6-2 6-5.5 M12 15.5V8 ' + circ(6, 8.5, 2) + ' ' + circ(18, 8.5, 2) + ' ' + circ(12, 5.5, 2.2),
   money: 'M2.5 6.5h14v9h-14z ' + circ(9.5, 11, 2.2) + ' M6.5 18.5h15v-9 M5 9v4 M14 9v4',
   tools: 'M14.5 3.5l6 6-3 3-6-6z M11.5 6.5l-8.2 8.2a2.1 2.1 0 0 0 3 3l8.2-8.2 M14 15l3 3 M13 19l3-3 3 3-3 3z',
@@ -611,7 +612,7 @@ const CAT_ICON: Record<string, string> = {
   'isl-sarf': I.roots, 'isl-nahw': I.marks, 'isl-balagha': I.quill,
   'isl-akhlaq': I.heartHands, 'isl-tasawwuf': I.tasbih,
   'isl-sahabah': I.stars, 'isl-history': I.minaret, 'isl-scholars': I.books,
-  'isl-taharah': I.drop, 'isl-salah': I.mat, 'isl-sawm': I.lantern, 'isl-zakat': I.coins, 'isl-sadaqah': I.hand, 'isl-hajj': I.tents,
+  'isl-taharah': I.drop, 'isl-salah': I.mat, 'isl-sawm': I.lantern, 'isl-zakat': I.coins, 'isl-sadaqah': I.hand, 'isl-hajj': I.tents, 'isl-food': I.bowl,
   'isl-kinship': I.family, 'isl-money': I.money, 'isl-work': I.tools, 'isl-faraid': I.pie, 'isl-usul': I.tree,
   // kids
   'kids-prophets': I.ship, 'kids-pillars': I.pillars, 'kids-wudu-salah': I.drop, 'kids-quran': I.book, 'kids-seerah': I.palm, 'kids-manners': I.smile, 'kids-calendar': I.crescent,

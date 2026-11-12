@@ -24,7 +24,7 @@ The surah that calls its own story "the best of stories" (meaning). :: Surah Yus
 A person who has memorised the whole Qur'an. :: Hafiz || H: Standard term
 The shortest surah of the Qur'an. :: Surah al-Kawthar || H: The Mushaf
 The last surah in the Mushaf. :: Surah al-Nas || H: The Mushaf
-The surah named after the Prophet who was swallowed by a great fish. :: Surah Yunus || H: The Mushaf; Qur'an 37:139-142
+The surah named after the Prophet (عليه السلام) who was swallowed by a great fish. :: Surah Yunus || H: The Mushaf; Qur'an 37:139-142
 The holy book revealed to our Beloved Prophet Muhammad ﷺ. :: The Qur'an || H: Qur'an 2:2
 The written copy of the Qur'an between two covers. :: The Mushaf || H: Standard term
 A chapter of the Qur'an. :: Surah || H: Standard term
@@ -41,7 +41,6 @@ The surah named after the light. :: Surah al-Nur || H: Qur'an 24:35
 The surah named after the jinn. :: Surah al-Jinn || H: Qur'an 72:1
 The surah named after the pen. :: Surah al-Qalam || H: Qur'an 68:1
 The surah named after the dawn. :: Surah al-Fajr || H: Qur'an 89:1
-The surah named after time ("the declining day") (meaning). :: Surah al-'Asr || H: Qur'an 103:1
 The surah that begins "Say: I seek refuge with the Lord of mankind" (meaning). :: Surah al-Nas || H: Qur'an 114:1
 The surah that begins "Say: I seek refuge with the Lord of the daybreak" (meaning). :: Surah al-Falaq || H: Qur'an 113:1
 The surah that begins "When the help of Allah and the victory come" (meaning). :: Surah al-Nasr || H: Qur'an 110:1
@@ -90,17 +89,16 @@ The number of verses in Surah Yasin, by the Kufan count. :: 83 || H: The Mushaf
 The number of verses in Surah al-Kahf, by the Kufan count. :: 110 || H: The Mushaf
 The number of verses in Surah al-Mulk. :: 30 || H: The Mushaf
 Our Beloved Master ﷺ said a surah of thirty verses interceded for a man until he was forgiven (paraphrased). :: Surah al-Mulk || H: Sunan al-Tirmidhi
-The surah many read on Friday for light between the two Fridays (paraphrased). :: Surah al-Kahf || H: al-Hakim, al-Mustadrak
-Memorising the first ten verses of this surah protects from the Dajjal (paraphrased). :: Surah al-Kahf || H: Sahih Muslim
+Our Beloved Prophet ﷺ said whoever reads this surah on Friday has light between the two Fridays (paraphrased). :: Surah al-Kahf || H: al-Hakim, al-Mustadrak
+Our Beloved Prophet ﷺ said memorising the first ten verses of this surah protects from the Dajjal (paraphrased). :: Surah al-Kahf || H: Sahih Muslim
 The surah in which the Qur'an says Allah taught the Qur'an and created man. :: Surah al-Rahman || H: Qur'an 55:1-3
 The surah describing three groups of people on the Day: the foremost, the right and the left. :: Surah al-Waqi'ah || H: Qur'an 56:7-10
 The surah describing the Night of Power. :: Surah al-Qadr || H: Qur'an 97:1-5
 The surah describing the earthquake of the Last Day. :: Surah al-Zalzalah || H: Qur'an 99:1
-The surah about a man who frowned when a blind man came. :: Surah 'Abasa || H: Qur'an 80:1-2
-The surah that names Abu Lahab. :: Surah al-Masad || H: Qur'an 111:1
+The surah that opens with the coming of the blind Companion 'Abdullah ibn Umm Maktum (رِضْوَانُ اللَّهِ عَلَيْهِ). :: Surah 'Abasa || H: Qur'an 80:1-2; Sunan al-Tirmidhi
 The surah that says Maryam (عليها السلام) was chosen above the women of the worlds. :: Surah Al 'Imran || H: Qur'an 3:42
 The surah named after the "Groups" led to Paradise or to Hell. :: Surah al-Zumar || H: Qur'an 39:71
-The surah that describes our Beloved Prophet ﷺ splitting the moon as a sign. :: Surah al-Qamar || H: Qur'an 54:1
+The surah that mentions the splitting of the moon, a sign given to our Beloved Prophet ﷺ. :: Surah al-Qamar || H: Qur'an 54:1; Sahih al-Bukhari
 The surah in which the Qur'an is said to be made easy for remembrance, repeated four times. :: Surah al-Qamar || H: Qur'an 54:17, 22, 32, 40
 The surah named after the "Kneeling" nations on the Day. :: Surah al-Jathiyah || H: Qur'an 45:28
 The surah named after the "Smoke". :: Surah al-Dukhan || H: Qur'an 44:10
@@ -150,7 +148,6 @@ The surah that tells of the people of Saba' and the bursting dam. :: Surah Saba'
 The surah that tells of Talut, Jalut and the young Dawud (عليه السلام). :: Surah al-Baqarah || H: Qur'an 2:249-251
 The surah that tells of the cow the Israelites were told to slaughter. :: Surah al-Baqarah || H: Qur'an 2:67-73
 The surah that tells of Habil and Qabil (the two sons of Adam (عليه السلام)). :: Surah al-Ma'idah || H: Qur'an 5:27-31
-The surah that tells of Dhu al-Qarnayn and Ya'juj and Ma'juj. :: Surah al-Kahf || H: Qur'an 18:83-98
 The surah that tells of Yunus (عليه السلام) and the gourd plant. :: Surah al-Saffat || H: Qur'an 37:139-146
 The surah that tells of Ibrahim (عليه السلام) being told to sacrifice his son. :: Surah al-Saffat || H: Qur'an 37:102-107
 The surah that tells of Ayyub (عليه السلام) striking the ground with his foot. :: Surah Sad || H: Qur'an 38:41-42
@@ -178,7 +175,7 @@ The surah that repeats "So which of the favours of your Lord will you deny?" (me
 The surah named after our Beloved Prophet ﷺ Himself ﷺ. :: Surah Muhammad || H: The Mushaf (surah 47)
 The surah that sets out most of the shares of inheritance. :: Surah al-Nisa' || H: Qur'an 4:11-12, 4:176
 The surah that lists the eight kinds of people who may receive zakat. :: Surah al-Tawbah || H: Qur'an 9:60
-The surah named after the Prophet sent to the people of 'Ad. :: Surah Hud || H: Qur'an 11:50
+The surah named after the Prophet (عليه السلام) sent to the people of 'Ad. :: Surah Hud || H: Qur'an 11:50
 The surah named after the rocky land where Thamud lived. :: Surah al-Hijr || H: Qur'an 15:80
 The surah whose name means "The Criterion", one of the names of the Qur'an. :: Surah al-Furqan || H: Qur'an 25:1
 The total number of verses in the Qur'an by the Kufan count. :: 6,236 || H: al-Bayan fi 'Add Ay al-Qur'an (al-Dani)
@@ -192,7 +189,7 @@ The surah Usayd ibn Hudayr (رِضْوَانُ اللَّهِ عَلَيْهِ) 
 The Companion our Beloved Prophet ﷺ asked to recite to Him ﷺ, who wept at Qur'an 4:41. :: 'Abdullah ibn Mas'ud (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
 The number of sajdah (prostration) places in the Mushaf most widely printed today. :: 15 || H: The Mushaf (Madinah print)
 The Hanafi school counts this many obligatory sajdahs of recitation. :: 14 || H: Nur al-Idah
-The Mushaf name for the opening surah that means "the Seven Oft-Repeated". :: al-Sab' al-Mathani || H: Qur'an 15:87; Sahih al-Bukhari
+A name for the opening surah, meaning "the Seven Oft-Repeated". :: al-Sab' al-Mathani || H: Qur'an 15:87; Sahih al-Bukhari
 The surah of Juz' 'Amma with the most verses. :: Surah al-Nazi'at (46) || H: The Mushaf
 The name given to the long surahs at the start of the Mushaf. :: al-Sab' al-Tiwal (the seven long ones) || H: Musnad Ahmad
 The name given to surahs of about a hundred verses. :: al-Mi'un || H: Musnad Ahmad
@@ -200,7 +197,7 @@ The name given to the short surahs from Qaf (or al-Hujurat) to the end. :: al-Mu
 The term for the reasons or occasions of revelation. :: Asbab al-Nuzul || H: Standard term
 The famous book on occasions of revelation by al-Wahidi رحمة الله عليه. :: Asbab al-Nuzul || H: Standard reference
 The term for the readings beyond the ten, not recited in prayer. :: al-Qira'at al-Shadhdhah || H: Ibn al-Jazari, al-Nashr
-The reader of Kufah whose reading through Khalaf is one of the ten. :: Hamzah رحمة الله عليه || H: Ibn al-Jazari, al-Nashr
+The reader of Kufah among the seven whose two transmitters are Khalaf and Khallad رحمة الله عليهما. :: Hamzah رحمة الله عليه || H: Ibn al-Jazari, al-Nashr
 The reader of Basrah among the seven. :: Abu 'Amr ibn al-'Ala' رحمة الله عليه || H: Ibn Mujahid, al-Sab'ah
 The reader of Makkah among the seven. :: Ibn Kathir al-Makki رحمة الله عليه || H: Ibn Mujahid, al-Sab'ah
 The reader of Damascus among the seven. :: Ibn 'Amir رحمة الله عليه || H: Ibn Mujahid, al-Sab'ah

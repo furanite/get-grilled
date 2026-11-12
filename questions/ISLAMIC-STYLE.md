@@ -29,6 +29,8 @@ Mu'tazili grammarians) are named without an honorific. If you are unsure, hold t
 
 Never change wording inside a quotation of the Qur'an or a hadith to add an honorific; put the honorific after the closing quotation mark.
 
+Always write "the Blessed Seerah", never "Seerah" on its own (user rule, 2026-11-11). Book titles such as al-Sirah al-Halabiyyah stay as they are.
+
 ## Creed and fiqh
 
 - Creed follows the Ash'ari and Maturidi schools.

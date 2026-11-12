@@ -1,0 +1,169 @@
+id: isl-food
+name: Fiqh: Food and Drink
+nameAr: الفقه: الأطعمة والأشربة
+group: fiqh
+# Fiqh files keep to points the four Sunni schools agree on. Where they differ, the clue names the school.
+
+## 100
+Food that is lawful for Muslims. :: Halal || H: Qur'an 2:168
+Food that is forbidden. :: Haram || H: Qur'an 5:3
+The Qur'an forbids the meat of this animal by name. :: The pig (swine) || H: Qur'an 2:173
+The Qur'an forbids animals that died without being slaughtered, called this. :: Maytah (carrion) || H: Qur'an 2:173
+The Qur'an forbids this when it is poured out. :: Blood || H: Qur'an 6:145
+The Arabic word for wine and every intoxicating drink, forbidden in the Qur'an. :: Khamr || H: Qur'an 5:90
+Our Beloved Prophet ﷺ said every intoxicant is khamr and every khamr is this (paraphrased). :: Haram || H: Sahih Muslim
+The word said before eating, as a sunnah. :: Bismillah || H: Sahih al-Bukhari
+The hand used to eat and drink, as a sunnah. :: The right hand || H: Sahih Muslim
+Our Beloved Prophet ﷺ told the boy 'Umar ibn Abi Salamah (رِضْوَانُ اللَّهِ عَلَيْهِمَا) to say Bismillah, eat with his right hand and eat from this. :: What is in front of him || H: Sahih al-Bukhari
+One who forgets Bismillah at the start of a meal says this when he remembers (meaning). :: "Bismillahi awwalahu wa akhirahu" (In the name of Allah at its start and its end) || H: Sunan Abi Dawud; Sunan al-Tirmidhi
+Our Beloved Prophet ﷺ said Allah is pleased with a servant who eats a meal and then does this (paraphrased). :: Praises Him for it (Alhamdulillah) || H: Sahih Muslim
+Slaughtering an animal in the Islamic way is called this. :: Dhabh (dhakah) || H: Qur'an 5:3
+Meat slaughtered in the Islamic way is called this. :: Dhabihah || H: Standard term
+When our Beloved Prophet ﷺ sacrificed His ﷺ rams, He ﷺ said these words. :: Bismillah, Allahu Akbar || H: Sahih al-Bukhari
+Two kinds of dead animals are lawful to eat, by a report: fish and this. :: Locusts || H: Sunan Ibn Majah (report of Ibn 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِمَا))
+Our Beloved Prophet ﷺ said the son of Adam fills no vessel worse than this (paraphrased). :: His stomach || H: Sunan al-Tirmidhi
+Our Beloved Prophet ﷺ advised a third of the stomach for food, a third for drink and a third for this (paraphrased). :: Breath || H: Sunan al-Tirmidhi
+Our Beloved Prophet ﷺ never did this to food: if He ﷺ liked it He ﷺ ate it, and if not He ﷺ left it. :: Find fault with it || H: Sahih al-Bukhari
+The sacrifice offered in the days of Eid al-Adha. :: Udhiyah (qurbani) || H: Sahih al-Bukhari
+The sacrifice made for a newborn child. :: 'Aqiqah || H: Sahih al-Bukhari
+By the hadith, the 'aqiqah is done on this day after the birth. :: The seventh day || H: Sunan Abi Dawud; Sunan al-Tirmidhi (hadith of Samurah (رِضْوَانُ اللَّهِ عَلَيْهِ))
+Our Beloved Prophet ﷺ used to drink in this many breaths. :: Three || H: Sahih Muslim
+Our Beloved Prophet ﷺ forbade breathing into this while drinking. :: The vessel (cup) || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ forbade eating and drinking from vessels of these two metals. :: Gold and silver || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ told us to lick these after eating (paraphrased). :: The fingers || H: Sahih Muslim
+Our Beloved Prophet ﷺ said that if a morsel falls, one should clean it and eat it, and not leave it for this one (paraphrased). :: Shaytan || H: Sahih Muslim
+The verse that makes the food of the People of the Book lawful to Muslims is in this surah. :: Surah al-Ma'idah (5:5) || H: Qur'an 5:5
+Our Beloved Prophet ﷺ said the food of two is enough for this many (paraphrased). :: Three || H: Sahih al-Bukhari
+The Qur'an says: "Eat and drink, but do not" do this (meaning). :: Waste (be extravagant) || H: Qur'an 7:31
+Our Beloved Prophet ﷺ said: "I do not eat while" doing this (paraphrased). :: Reclining || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ said one who has eaten garlic or onion should keep away from this (paraphrased). :: The mosque || H: Sahih al-Bukhari
+
+## 200
+The Qur'an forbids an animal killed by strangling, called this. :: al-Munkhaniqah || H: Qur'an 5:3
+The Qur'an forbids an animal killed by a violent blow, called this. :: al-Mawqudhah || H: Qur'an 5:3
+The Qur'an forbids an animal killed by a fall, called this. :: al-Mutaraddiyah || H: Qur'an 5:3
+The Qur'an forbids an animal killed by goring, called this. :: al-Natihah || H: Qur'an 5:3
+The Qur'an forbids meat sacrificed on these stone altars to idols. :: al-Nusub || H: Qur'an 5:3
+The Qur'an forbids an animal slaughtered in a name other than this. :: Allah's || H: Qur'an 2:173
+The Qur'an allows one forced by hunger to eat what is forbidden to save his life; this state is called this. :: Darurah (necessity) || H: Qur'an 2:173
+Our Beloved Prophet ﷺ forbade eating every wild beast that has these. :: Fangs (canine teeth) || H: Sahih Muslim
+Our Beloved Prophet ﷺ forbade eating every bird that has these. :: Talons || H: Sahih Muslim
+The meat of domestic donkeys was forbidden on the day of this battle. :: Khaybar || H: Sahih al-Bukhari
+The wild donkey (onager), hunted by Abu Qatadah (رِضْوَانُ اللَّهِ عَلَيْهِ), is this to eat. :: Lawful || H: Sahih al-Bukhari
+The Companion who ate a roasted dabb lizard in front of our Beloved Prophet ﷺ, who did not forbid it. :: Khalid ibn al-Walid (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+In the fiqh books, the windpipe cut in slaughter is called this. :: al-Hulqum || H: al-Hidayah (al-Marghinani); Minhaj al-Talibin (al-Nawawi)
+In the fiqh books, the oesophagus cut in slaughter is called this. :: al-Mari' || H: al-Hidayah (al-Marghinani); Minhaj al-Talibin (al-Nawawi)
+In the fiqh books, the two jugular veins cut in slaughter are called this. :: al-Wadajan || H: al-Hidayah (al-Marghinani); Minhaj al-Talibin (al-Nawawi)
+Our Beloved Prophet ﷺ said one who slaughters should sharpen this (paraphrased). :: His blade || H: Sahih Muslim (hadith of Shaddad ibn Aws (رِضْوَانُ اللَّهِ عَلَيْهِ))
+Our Beloved Prophet ﷺ said one who slaughters should give this to his animal (paraphrased). :: Rest (ease) || H: Sahih Muslim (hadith of Shaddad ibn Aws (رِضْوَانُ اللَّهِ عَلَيْهِ))
+Slaughtering a camel standing, by a cut at the base of the neck, is called this. :: Nahr || H: Qur'an 108:2; Sahih al-Bukhari
+Hunting game is called this in the Qur'an and fiqh books. :: Sayd || H: Qur'an 5:94
+The verse that allows game caught by trained hunting animals when Allah's name is mentioned is in this surah. :: Surah al-Ma'idah (5:4) || H: Qur'an 5:4
+Our Beloved Prophet ﷺ said game caught by a trained dog is not eaten if the dog did this, for it caught it for itself (paraphrased). :: Ate from it || H: Sahih al-Bukhari
+The Companion who asked our Beloved Prophet ﷺ about hunting with dogs and with a blunt arrow (mi'rad). :: 'Adi ibn Hatim (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+Hunting land game is forbidden to one in this state. :: Ihram || H: Qur'an 5:95
+The Qur'an allows one in ihram to hunt this kind of game. :: Game of the sea || H: Qur'an 5:96
+Our Beloved Prophet ﷺ cursed ten people in relation to wine, among them the one who presses it, the one who carries it and the one who does this. :: Sells it (or drinks it, or serves it) || H: Sunan al-Tirmidhi (hadith of Anas (رِضْوَانُ اللَّهِ عَلَيْهِ))
+Our Beloved Prophet ﷺ said that what intoxicates in a large amount is haram in this amount too (paraphrased). :: A small amount || H: Sunan Abi Dawud; Sunan al-Tirmidhi
+Water in which dates or raisins have been soaked. :: Nabidh || H: Sahih Muslim
+Nabidh may be drunk until it does this. :: Ferments and may intoxicate || H: Sahih Muslim
+Our Beloved Prophet ﷺ forbade soaking two kinds together, such as dates and raisins; this is called this. :: al-Khalitan (mixing the two) || H: Sahih Muslim
+In the Shafi'i and Hanbali schools, the 'aqiqah for a boy is this many sheep. :: Two || H: Sunan Abi Dawud; Minhaj al-Talibin; al-Mughni
+In the Shafi'i and Hanbali schools, the 'aqiqah for a girl is this many sheep. :: One || H: Sunan Abi Dawud; Minhaj al-Talibin; al-Mughni
+Our Beloved Prophet ﷺ told our lady Fatimah (رِضْوَانُ اللَّهِ عَلَيْهَا) to shave this grandson's head and give its weight in silver as charity. :: Our master al-Hasan (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sunan al-Tirmidhi
+Chewing a date and rubbing it on a newborn's palate, as our Beloved Prophet ﷺ did. :: Tahnik || H: Sahih al-Bukhari
+The animals allowed for udhiyah are sheep, goats, cattle and this. :: Camels || H: al-Hidayah; Minhaj al-Talibin
+
+## 300
+In the Hanafi school, udhiyah is this ruling for a resident who owns the nisab. :: Wajib || H: al-Hidayah (al-Marghinani)
+In the Shafi'i, Maliki and Hanbali schools, udhiyah is this ruling. :: A sunnah (stressed) || H: Minhaj al-Talibin; Mukhtasar Khalil; al-Mughni
+In the Hanafi, Shafi'i and Hanbali schools, one camel or cow for udhiyah may be shared by this many people. :: Seven || H: Sahih Muslim (hadith of Jabir (رِضْوَانُ اللَّهِ عَلَيْهِ))
+In the Hanafi school, a sheep for udhiyah may be six months old if it is this. :: Large enough to look like a one-year-old || H: al-Hidayah (al-Marghinani)
+In the Hanafi school, a goat for udhiyah must be at least this old. :: One year || H: al-Hidayah (al-Marghinani)
+In the Hanafi, Shafi'i and Hanbali schools, a cow for udhiyah must be at least this old. :: Two years || H: al-Hidayah; Minhaj al-Talibin; al-Mughni
+By the four schools, a camel for udhiyah must be at least this old. :: Five years || H: al-Hidayah; Minhaj al-Talibin; al-Mughni
+Our Beloved Prophet ﷺ said one who sacrifices before this has only given his family meat (paraphrased). :: The Eid prayer || H: Sahih al-Bukhari
+In the Hanafi school, the days of udhiyah are this many. :: Three (the 10th to the 12th of Dhul-Hijjah) || H: al-Hidayah (al-Marghinani)
+In the Shafi'i school, the days of udhiyah are this many. :: Four (the 10th to the 13th of Dhul-Hijjah) || H: Minhaj al-Talibin (al-Nawawi)
+It is recommended to share the udhiyah meat in thirds: for the family, for relatives and friends, and for these. :: The poor || H: al-Hidayah; al-Mughni
+Our master 'Ali (رِضْوَانُ اللَّهِ عَلَيْهِ) said our Beloved Prophet ﷺ told him not to give this person anything of the sacrifice as his wage (paraphrased). :: The butcher || H: Sahih al-Bukhari
+Selling the meat or the hide of an udhiyah for money is this. :: Not allowed || H: al-Hidayah; Minhaj al-Talibin
+In the Hanafi school, forgetting to say Allah's name at slaughter makes the meat this. :: Lawful || H: al-Hidayah (al-Marghinani)
+In the Hanafi school, leaving Allah's name out on purpose at slaughter makes the meat this. :: Not lawful || H: al-Hidayah (al-Marghinani)
+In the Shafi'i school, saying Allah's name at slaughter is this ruling. :: Sunnah (the meat is lawful without it) || H: Minhaj al-Talibin (al-Nawawi)
+In the Hanafi school, of the creatures of the sea, only this is lawful. :: Fish || H: al-Hidayah (al-Marghinani)
+In the Maliki school, the creatures of the sea are this. :: All lawful || H: Mukhtasar Khalil
+In the Shafi'i school, by the soundest view, the creatures of the sea are this. :: Lawful (frogs and crocodiles excepted) || H: Minhaj al-Talibin (al-Nawawi)
+In the Hanafi school, a fish that died by itself and floats on the water (al-tafi) is this. :: Disliked, not eaten || H: al-Hidayah (al-Marghinani)
+By Abu Hanifah's رحمة الله عليه view, horse meat is this. :: Disliked (makruh) || H: al-Hidayah (al-Marghinani)
+In the Shafi'i and Hanbali schools, horse meat is this. :: Lawful || H: Sahih al-Bukhari (report of Asma' (رِضْوَانُ اللَّهِ عَلَيْهَا)); Minhaj al-Talibin
+In the Hanafi school, the dabb lizard is this. :: Disliked (makruh) || H: al-Hidayah (al-Marghinani)
+In the Shafi'i school, the dabb lizard is this. :: Lawful || H: Minhaj al-Talibin; Sahih al-Bukhari
+In the Shafi'i school, the hyena is this. :: Lawful || H: Minhaj al-Talibin; Sunan al-Tirmidhi
+In the Hanafi school, the hyena is this, because it has fangs. :: Not lawful || H: al-Hidayah (al-Marghinani)
+In the Maliki school, the famous view on wild beasts with fangs is that they are this. :: Disliked (makruh), not forbidden || H: Mukhtasar Khalil
+In the Hanbali school, the 'aqiqah is this ruling. :: A stressed sunnah || H: al-Mughni (Ibn Qudamah)
+By the four schools, meat slaughtered by a Jew or a Christian is this, if it is not slaughtered in another's name. :: Lawful || H: Qur'an 5:5; al-Hidayah; Minhaj al-Talibin
+By the four schools, meat slaughtered by an idol-worshipper or a Magian is this. :: Not lawful || H: al-Hidayah; Minhaj al-Talibin
+By Abu Hanifah's رحمة الله عليه view, cutting any this many of the four vessels makes the slaughter valid. :: Three || H: al-Hidayah (al-Marghinani)
+In the Shafi'i school, cutting these two is required for a valid slaughter. :: The windpipe and the oesophagus || H: Minhaj al-Talibin (al-Nawawi)
+By the four schools, the mule is this to eat. :: Not lawful || H: Sunan Abi Dawud; al-Hidayah; Minhaj al-Talibin
+
+## 400
+The verse "Say: I do not find in what has been revealed to me anything forbidden to eat except..." (meaning) is in this surah. :: Surah al-An'am (6:145) || H: Qur'an 6:145
+The verse that lists the strangled, the beaten, the fallen and the gored as forbidden. :: Qur'an 5:3 || H: Qur'an 5:3
+The verse "Wine, gambling, stone altars and divining arrows are filth from the work of Shaytan" (meaning). :: Qur'an 5:90 || H: Qur'an 5:90
+The divining arrows forbidden in Qur'an 5:3. :: al-Azlam || H: Qur'an 5:3
+Gambling, named with wine in the Qur'an. :: al-Maysir || H: Qur'an 5:90
+When wine was forbidden, the Companions poured it out until it flowed in these. :: The streets of Madinah || H: Sahih al-Bukhari
+The Companion who was serving drink in the house of Abu Talhah (رِضْوَانُ اللَّهِ عَلَيْهِ) when wine was forbidden, and poured it out. :: Anas ibn Malik (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ said wine is not a medicine but this (paraphrased). :: A disease || H: Sahih Muslim
+The Companion who asked our Beloved Prophet ﷺ about making wine as a medicine. :: Tariq ibn Suwayd (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih Muslim
+Our Beloved Prophet ﷺ said the best of condiments is this (paraphrased). :: Vinegar || H: Sahih Muslim
+In the Hanafi school, wine that turns into vinegar, by itself or by treatment, becomes this. :: Pure and lawful || H: al-Hidayah (al-Marghinani)
+In the Shafi'i school, wine made into vinegar by putting something in it stays this. :: Impure (only a change by itself purifies it) || H: Minhaj al-Talibin (al-Nawawi)
+Our Beloved Prophet ﷺ said one who believes in Allah and the Last Day should not sit at this kind of table (paraphrased). :: A table where wine is passed round || H: Sunan al-Tirmidhi
+Our Beloved Prophet ﷺ forbade the meat and milk of an animal that feeds mostly on filth, called this. :: al-Jallalah || H: Sunan Abi Dawud
+In the Shafi'i school, animals one is told to kill are forbidden to eat; the hadith of the five harmful ones names the crow, the kite, the scorpion, the mouse and this. :: The vicious dog || H: Sahih al-Bukhari; Minhaj al-Talibin
+In the Shafi'i school, animals one is forbidden to kill are forbidden to eat; our Beloved Prophet ﷺ forbade killing the ant, the bee, the hoopoe and this bird. :: The shrike (surad) || H: Sunan Abi Dawud; Minhaj al-Talibin
+The Qur'an says our Beloved Prophet ﷺ makes good things lawful and forbids these. :: al-Khaba'ith (vile things) || H: Qur'an 7:157
+Our Beloved Prophet ﷺ said game struck by the broad side of a blunt arrow, not its edge, is this. :: Not eaten (it is waqidh, killed by a blow) || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ said game that was shot and then found dead in this should not be eaten, for it may have died from it (paraphrased). :: Water || H: Sahih Muslim
+Our Beloved Prophet ﷺ allowed game found days after it was shot, with only the hunter's arrow in it, unless it has done this. :: Rotted (smells) || H: Sahih Muslim
+The Companion who asked about hunting in a land of the People of the Book and using their vessels. :: Abu Tha'labah al-Khushani (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ told Abu Tha'labah (رِضْوَانُ اللَّهِ عَلَيْهِ) to use the vessels of the People of the Book only if he found no others, and after doing this. :: Washing them || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ said the slaughter of an unborn young is the slaughter of this (paraphrased). :: Its mother || H: Sunan Abi Dawud; Sunan al-Tirmidhi
+By Abu Hanifah's رحمة الله عليه view, an unborn young found dead inside a slaughtered animal is this. :: Not lawful || H: al-Hidayah (al-Marghinani)
+Our Beloved Prophet ﷺ said four animals do not count as a sacrifice: the one-eyed, the sick, the lame and this. :: The emaciated one || H: Sunan Abi Dawud; Sunan al-Tirmidhi
+The Companion who narrated the hadith of the four defects in sacrificial animals. :: al-Bara' ibn 'Azib (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: Sunan Abi Dawud; Sunan al-Tirmidhi
+By the hadith, one who means to sacrifice should not cut these from the start of Dhul-Hijjah until he sacrifices (the schools differ on the ruling). :: His hair and nails || H: Sahih Muslim (hadith of our lady Umm Salamah (رِضْوَانُ اللَّهِ عَلَيْهَا))
+Our Beloved Prophet ﷺ sacrificed two horned rams of this colour. :: White mixed with black (amlah) || H: Sahih al-Bukhari
+At the Farewell Hajj, our Beloved Prophet ﷺ sacrificed this many camels with His ﷺ own hand. :: 63 || H: Sahih Muslim (hadith of Jabir (رِضْوَانُ اللَّهِ عَلَيْهِ))
+At the Farewell Hajj, this Companion sacrificed the rest of the hundred camels. :: Our master 'Ali (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih Muslim (hadith of Jabir (رِضْوَانُ اللَّهِ عَلَيْهِ))
+
+## 500
+The chapter on foods in the fiqh books is called this. :: Kitab al-At'imah || H: al-Hidayah; Minhaj al-Talibin
+The chapter on drinks in the fiqh books is called this. :: Kitab al-Ashribah || H: al-Hidayah (al-Marghinani)
+The chapter on slaughter in the fiqh books is called this. :: Kitab al-Dhaba'ih || H: al-Hidayah; Minhaj al-Talibin
+In the Hanafi school, the relied-upon fatwa that every intoxicating drink is haram, in small or large amounts, follows the view of this student of Abu Hanifah رحمة الله عليهما. :: Imam Muhammad al-Shaybani رحمة الله عليه || H: Radd al-Muhtar (Ibn 'Abidin)
+In the Hanafi school, grape wine (khamr) is haram in any amount and is also this. :: Heavily impure (najasah ghalizah) || H: al-Hidayah (al-Marghinani)
+Our master Abu Bakr (رِضْوَانُ اللَّهِ عَلَيْهِ) punished drinking with this many lashes. :: 40 || H: Sahih Muslim
+Our master 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِ) set the punishment for drinking at this many lashes after consulting the Companions. :: 80 || H: Sahih Muslim
+The Companion who advised our master 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِ) to make the punishment for drinking like the lightest hadd. :: 'Abd al-Rahman ibn 'Awf (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih Muslim
+In the Hanafi and Maliki schools, the punishment for drinking is this many lashes. :: 80 || H: al-Hidayah; Mukhtasar Khalil
+In the Shafi'i school, the punishment for drinking is this many lashes, which the ruler may raise to 80. :: 40 || H: Minhaj al-Talibin (al-Nawawi)
+By the four schools, slaughter by a Muslim woman or by a child who understands it is this. :: Lawful || H: al-Hidayah; Minhaj al-Talibin
+In the Shafi'i school, an animal badly injured before slaughter is lawful only if it still has this when slaughtered. :: Settled life (hayat mustaqirrah) || H: Minhaj al-Talibin (al-Nawawi)
+In the Hanafi school, the parts of a lawfully slaughtered animal that are not eaten, such as flowing blood, the glands and the gall bladder, number this many. :: Seven || H: Bada'i' al-Sana'i' (al-Kasani)
+A bolting animal that cannot be caught may be killed by a wound anywhere on its body; this kind of slaughter is called this. :: Dhakat al-idtirar (slaughter by necessity) || H: Sahih al-Bukhari; al-Hidayah
+The Companion who narrated the hadith of the camel that bolted and was stopped by an arrow. :: Rafi' ibn Khadij (رِضْوَانُ اللَّهِ عَلَيْهِ) || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ allowed slaughter with anything that makes blood flow, except a tooth and this. :: A nail (claw) || H: Sahih al-Bukhari
+In the Hanafi school, slaughter with a tooth or nail that is still attached to the body is this. :: Not lawful || H: al-Hidayah (al-Marghinani)
+Our Beloved Prophet ﷺ said Allah has prescribed this in all things, and then spoke of slaughter (paraphrased). :: Ihsan (excellence) || H: Sahih Muslim (hadith of Shaddad ibn Aws (رِضْوَانُ اللَّهِ عَلَيْهِ))
+The verse the Hanafis cite for saying Allah's name at slaughter: "Do not eat of that on which Allah's name has not been mentioned" (meaning). :: Qur'an 6:121 || H: Qur'an 6:121; al-Hidayah
+In the Shafi'i school, it is recommended that the bones of the 'aqiqah are not this. :: Broken || H: Minhaj al-Talibin (al-Nawawi)
+In the Maliki school, the 'aqiqah for a boy is this many sheep. :: One || H: Muwatta' Malik; al-Risalah (Ibn Abi Zayd)
+The verse "It is not their meat nor their blood that reaches Allah, but your taqwa" (meaning) is in this surah. :: Surah al-Hajj (22:37) || H: Qur'an 22:37
+Our Beloved Prophet ﷺ said there is no fara' and no this, two sacrifices of the time of ignorance (paraphrased). :: 'Atirah || H: Sahih al-Bukhari
+The 'atirah of the time of ignorance was a sacrifice made in this month. :: Rajab || H: Sahih al-Bukhari
+The book of Imam al-Ghazali's رحمة الله عليه Ihya' on the manners of eating. :: Kitab Adab al-Akl || H: Ihya' 'Ulum al-Din

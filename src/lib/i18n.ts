@@ -33,7 +33,7 @@ const en = {
   groupHadith: 'Hadith sciences',
   groupAqidah: 'Aqidah (creed)',
   groupFiqh: 'Fiqh',
-  groupProphets: 'Prophets and Seerah',
+  groupProphets: 'Prophets and Blessed Seerah',
   groupArabic: 'Arabic: Sarf, Nahw and Balagha',
   groupTazkiyah: 'Tazkiyah and Adab',
   groupIslamicHistory: 'History and scholars',

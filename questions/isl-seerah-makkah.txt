@@ -1,5 +1,5 @@
 id: isl-seerah-makkah
-name: Seerah: the Makkan years
+name: Blessed Seerah: the Makkan years
 nameAr: السيرة: العهد المكي
 group: prophets
 # Dates: hijri first (BH = before the Hijrah), then CE. The Prophet ﷺ and His ﷺ Companions are never drawn or voiced.
@@ -126,8 +126,8 @@ The scholar who wrote al-Sirah, the earliest major biography, later edited by Ib
 Ibn Hisham رحمة الله عليه died in this year. :: 218 AH / 833 CE (some say 213) || H: Wafayat al-A'yan (Ibn Khallikan)
 The Andalusian commentary on Ibn Hisham's Sirah by al-Suhayli رحمة الله عليه. :: al-Rawd al-Unuf || H: al-Rawd al-Unuf
 The book of Qadi 'Iyad رحمة الله عليه on our Beloved Prophet's ﷺ rights and qualities. :: al-Shifa || H: al-Shifa
-The Seerah of al-Halabi رحمة الله عليه, widely read in Ottoman lands. :: al-Sirah al-Halabiyyah || H: al-Sirah al-Halabiyyah
-The book of al-Qastallani رحمة الله عليه on the Seerah and our Beloved Prophet's ﷺ virtues. :: al-Mawahib al-Laduniyyah || H: al-Mawahib al-Laduniyyah
+The Blessed Seerah by al-Halabi رحمة الله عليه, widely read in Ottoman lands. :: al-Sirah al-Halabiyyah || H: al-Sirah al-Halabiyyah
+The book of al-Qastallani رحمة الله عليه on the Blessed Seerah and our Beloved Prophet's ﷺ virtues. :: al-Mawahib al-Laduniyyah || H: al-Mawahib al-Laduniyyah
 The Christian monk of Busra who recognised signs of prophethood in the boy Muhammad ﷺ. :: Bahira || H: Sunan al-Tirmidhi; Sirat Ibn Hisham
 The pact of chivalry in Makkah to defend the wronged, which our Beloved Prophet ﷺ attended. :: Hilf al-Fudul || H: Sirat Ibn Hisham
 Our Beloved Prophet ﷺ settled a dispute over placing this stone when the Ka'bah was rebuilt. :: al-Hajar al-Aswad (the Black Stone) || H: Sirat Ibn Hisham

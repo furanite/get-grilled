@@ -20,7 +20,7 @@ This file is rewritten by `npm run packs`.
 ## Balagha (rhetoric) (questions/isl-balagha.txt)
 
 - **300**, line 59: The book of al-Sakkaki رحمة الله عليه whose third part set out balagha in its classic form. **Answer:** Miftah al-'Ulum _(Source: Miftah al-'Ulum; check al-Sakkaki's creed before adding an honorific)_
-- **500**, line 104: The book of al-Rummani on the i'jaz of the Qur'an, one of the early three treatises. **Answer:** al-Nukat fi I'jaz al-Qur'an _(Source: Thalath Rasa'il fi I'jaz al-Qur'an; to be checked)_
+- **500**, line 105: The book by Abu Hilal al-'Askari on the two arts of poetry and prose. **Answer:** Kitab al-Sina'atayn _(Source: Kitab al-Sina'atayn; check reports that the author leaned to Mu'tazili views)_
 
 ## Fiqh: Inheritance (Fara'id) (questions/isl-faraid.txt)
 
@@ -71,8 +71,8 @@ This file is rewritten by `npm run packs`.
 
 ## The Qur'an (questions/isl-quran.txt)
 
-- **500**, line 229: The word said to mark the middle of the Qur'an by letters. **Answer:** Wal-yatalattaf (18:19) _(Source: Commonly stated in works on Qur'an counts)_
-- **500**, line 243: The number of schools of verse-counting usually listed (Madinan first and second, Makkan, Kufan, Basran, Damascene...). **Answer:** 6 _(Source: al-Dani, al-Bayan fi 'Add Ay al-Qur'an; some count Damascus and Hims apart, making 7)_
+- **500**, line 226: The word said to mark the middle of the Qur'an by letters. **Answer:** Wal-yatalattaf (18:19) _(Source: Commonly stated in works on Qur'an counts)_
+- **500**, line 240: The number of schools of verse-counting usually listed (Madinan first and second, Makkan, Kufan, Basran, Damascene...). **Answer:** 6 _(Source: al-Dani, al-Bayan fi 'Add Ay al-Qur'an; some count Damascus and Hims apart, making 7)_
 
 ## Fiqh: Sadaqah (charity) (questions/isl-sadaqah.txt)
 
@@ -109,24 +109,25 @@ This file is rewritten by `npm run packs`.
 
 - **500**, line 123: The scholar who wrote Bidayat al-Mujtahid on comparing the schools. **Answer:** Ibn Rushd رحمة الله عليه (the grandson) _(Source: Bidayat al-Mujtahid; check creed before adding an honorific)_
 
-## Seerah: the Madinan years (questions/isl-seerah-madinah.txt)
+## Blessed Seerah: the Madinan years (questions/isl-seerah-madinah.txt)
 
 - **500**, line 127: Our Beloved Prophet ﷺ said to Quraysh at the opening of Makkah: "Go, you are free" (meaning); this freedom is called this. **Answer:** al-Tulaqa' (those set free) _(Source: Sirat Ibn Hisham; wording to be checked)_
 - **500**, line 131: The Companion of Badr who was the first to die in Madinah from the Muhajirun, by one view, and was kissed by our Beloved Master ﷺ. **Answer:** Our master 'Uthman ibn Maz'un (رِضْوَانُ اللَّهِ عَلَيْهِ) _(Source: Sunan Abi Dawud; to be checked)_
 
-## Seerah: the Makkan years (questions/isl-seerah-makkah.txt)
+## Blessed Seerah: the Makkan years (questions/isl-seerah-makkah.txt)
 
 - **300**, line 84: The woman whose dry goat gave milk when our Beloved Prophet ﷺ passed her tent. **Answer:** Umm Ma'bad (رِضْوَانُ اللَّهِ عَلَيْهَا) _(Source: al-Mustadrak (al-Hakim); to be checked)_
 - **400**, line 111: Our Beloved Prophet ﷺ left Makkah on the Hijrah in this month. **Answer:** Safar (arrived in Rabi' al-Awwal) _(Source: Sirat Ibn Hisham; reports differ)_
 
 ## Tafsir and Ulum al-Qur'an (questions/isl-tafsir.txt)
 
-- **300**, line 120: The verse that, by the most famous view, was the last of the rulings on riba to come down. **Answer:** Qur'an 2:278-279 _(Source: Sahih al-Bukhari (report of Ibn 'Abbas on the verse of riba); wording to check)_
-- **300**, line 127: The term for a word that occurs only once in the Qur'an. **Answer:** Hapax (farid) _(Source: Term to be checked with a Qur'an sciences teacher)_
-- **400**, line 168: The Hanafi scholar who wrote Ahkam al-Qur'an, d. 370 AH / 981 CE. **Answer:** Abu Bakr al-Jassas رحمة الله عليه _(Source: Ahkam al-Qur'an (al-Jassas); some biographers say al-Jassas leaned to Mu'tazili views, so check before using)_
-- **400**, line 195: The tafsir by Ibn 'Abd al-Salam رحمة الله عليه, the "Sultan of the Scholars", is a summary of this (meaning). **Answer:** al-Mawardi's رحمة الله عليه tafsir al-Nukat wal-'Uyun _(Source: Check which tafsir Ibn 'Abd al-Salam summarised)_
-- **400**, line 201: The tafsir of al-Baydawi رحمة الله عليه was finished in this city. **Answer:** Tabriz _(Source: Check: al-Baydawi died in Tabriz; where he finished it is uncertain)_
-- **500**, line 250: The tafsir "Tafsir al-Mawahib al-'Aliyyah" (in Persian) is by this Herat scholar. **Answer:** Husayn Wa'iz al-Kashifi _(Source: Check his creed before giving an honorific)_
+- **300**, line 119: The verse that, by the most famous view, was the last of the rulings on riba to come down. **Answer:** Qur'an 2:278-279 _(Source: Sahih al-Bukhari (report of Ibn 'Abbas on the verse of riba); wording to check)_
+- **300**, line 126: The term for a word that occurs only once in the Qur'an. **Answer:** Hapax (farid) _(Source: Term to be checked with a Qur'an sciences teacher)_
+- **400**, line 166: The Hanafi scholar who wrote Ahkam al-Qur'an, d. 370 AH / 981 CE. **Answer:** Abu Bakr al-Jassas رحمة الله عليه _(Source: Ahkam al-Qur'an (al-Jassas); some biographers say al-Jassas leaned to Mu'tazili views, so check before using)_
+- **400**, line 192: The tafsir by Ibn 'Abd al-Salam رحمة الله عليه, the "Sultan of the Scholars", is a summary of this (meaning). **Answer:** al-Mawardi's رحمة الله عليه tafsir al-Nukat wal-'Uyun _(Source: Check which tafsir Ibn 'Abd al-Salam summarised)_
+- **400**, line 196: The word "huda" (guidance) has this many meanings in that literature, around. **Answer:** About 17 _(Source: Count in Muqatil's al-Wujuh; later books differ, to be checked)_
+- **400**, line 198: The tafsir of al-Baydawi رحمة الله عليه was finished in this city. **Answer:** Tabriz _(Source: Check: al-Baydawi died in Tabriz; where he finished it is uncertain)_
+- **500**, line 245: The tafsir "Tafsir al-Mawahib al-'Aliyyah" (in Persian) is by this Herat scholar. **Answer:** Husayn Wa'iz al-Kashifi _(Source: Check his creed before giving an honorific)_
 
 ## Fiqh: Cleanliness (Taharah) (questions/isl-taharah.txt)
 
@@ -136,7 +137,9 @@ This file is rewritten by `npm run packs`.
 
 ## Tajwid (questions/isl-tajwid.txt)
 
-- **500**, line 273: The Egyptian Mushaf of 1342 AH (1924 CE) whose stop marks many later prints follow. **Answer:** The King Fu'ad Mushaf _(Source: Check the name of the scholar of the stop marks)_
+- **500**, line 270: The letter that has the most "strong" qualities, said to be the strongest letter. **Answer:** Ta' (heavy) _(Source: Common teaching; some say dad, to be checked)_
+- **500**, line 271: The letter considered the weakest, as it has the fewest strong qualities. **Answer:** Ha' _(Source: Common teaching, to be checked)_
+- **500**, line 272: The Egyptian Mushaf of 1342 AH (1924 CE) whose stop marks many later prints follow. **Answer:** The King Fu'ad Mushaf _(Source: Check the name of the scholar of the stop marks)_
 
 ## Usul al-Fiqh (questions/isl-usul.txt)
 
@@ -160,9 +163,9 @@ This file is rewritten by `npm run packs`.
 
 ## Fiqh: Zakat (questions/isl-zakat.txt)
 
-- **200**, line 104: The share for the "hearts to be won over" was stopped in the time of this caliph, by the Hanafi view (meaning). **Answer:** Our master 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِ) (during Abu Bakr's caliphate) _(Source: al-Hidayah; check the wording of the report)_
-- **400**, line 211: In the Hanafi school, the amount of zakat al-fitr in raisins is half a sa', by Abu Hanifah's رحمة الله عليه view in one report, and a full sa' by this. **Answer:** The two students (and the relied view) _(Source: al-Hidayah; check which view is relied upon)_
-- **500**, line 262: The Companion who said "Zakat is a bridge of Islam" (meaning). **Answer:** Abu al-Darda' (رِضْوَانُ اللَّهِ عَلَيْهِ) _(Source: check the source of this saying)_
+- **200**, line 99: The share for the "hearts to be won over" was stopped in the time of this caliph, by the Hanafi view (meaning). **Answer:** Our master 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِ) (during Abu Bakr's caliphate) _(Source: al-Hidayah; check the wording of the report)_
+- **400**, line 203: In the Hanafi school, the amount of zakat al-fitr in raisins is half a sa', by Abu Hanifah's رحمة الله عليه view in one report, and a full sa' by this. **Answer:** The two students (and the relied view) _(Source: al-Hidayah; check which view is relied upon)_
+- **500**, line 249: The Companion who said "Zakat is a bridge of Islam" (meaning). **Answer:** Abu al-Darda' (رِضْوَانُ اللَّهِ عَلَيْهِ) _(Source: check the source of this saying)_
 
 ## Our Beloved Prophet ﷺ (questions/kids-seerah.txt)
 

@@ -1,5 +1,5 @@
 id: isl-seerah-madinah
-name: Seerah: the Madinan years
+name: Blessed Seerah: the Madinan years
 nameAr: السيرة: العهد المدني
 group: prophets
 # Dates: hijri first, then CE. The Prophet ﷺ and His ﷺ Companions are never drawn or voiced.
