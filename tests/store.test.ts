@@ -61,7 +61,15 @@ describe('text helpers', () => {
   it('has every English string translated to Arabic', () => {
     const en = Object.keys(STRINGS.en).sort()
     expect(Object.keys(STRINGS.ar).sort()).toEqual(en)
-    for (const k of en) expect((STRINGS.ar as Record<string, string>)[k].length).toBeGreaterThan(0)
+    for (const k of en) {
+      const a = (STRINGS.ar as Record<string, unknown>)[k]
+      const e = (STRINGS.en as Record<string, unknown>)[k]
+      if (typeof e === 'object' && e) {
+        // Grouped strings (like the special round names) need the same keys, each filled in
+        expect(Object.keys(a as object).sort(), k).toEqual(Object.keys(e).sort())
+        for (const v of Object.values(a as object)) expect(String(v).length, k).toBeGreaterThan(0)
+      } else expect(String(a).length, k).toBeGreaterThan(0)
+    }
   })
   it('gives built-in questions stable ids', () => {
     const c = packToCategory({ id: 'p', name: 'P', levels: [[{ q: 'a', a: 'b' }], [], [], [], []] })
