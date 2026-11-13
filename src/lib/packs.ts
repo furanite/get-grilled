@@ -1,23 +1,26 @@
-import type { Category, CategorySummary, Question } from './types'
+import type { Category, CategorySummary, ItemMode, ModeItem, Question } from './types'
 
 interface PackFile {
   id: string
   name: string
   nameAr?: string
   levels: { q: string; a: string; qAr?: string; aAr?: string; img?: string }[][]
+  modes?: Partial<Record<ItemMode, ModeItem[]>>
 }
 
 const base = import.meta.env.BASE_URL
 
 /** Turns a pack file into a category, giving each question a stable id. */
 export function packToCategory(p: PackFile): Category {
-  return {
+  const cat: Category = {
     id: p.id,
     name: p.name,
     nameAr: p.nameAr,
     builtIn: true,
     levels: p.levels.map((lvl, li) => lvl.map((x, qi): Question => ({ id: `${p.id}-${li}-${qi}`, ...x }))),
   }
+  if (p.modes) cat.modes = Object.fromEntries(Object.entries(p.modes).map(([m, list]) => [m, (list ?? []).map((x, i) => ({ ...x, id: `${p.id}-${m}-${i}` }))]))
+  return cat
 }
 
 export async function loadIndex(): Promise<CategorySummary[]> {

@@ -1,0 +1,514 @@
+id: urban
+name: Urban Planning
+group: design
+
+## 100
+Planning how towns and cities grow and are laid out. :: Urban planning
+A person who plans towns and cities. :: An urban planner
+A big town with many people. :: A city
+A very large city with over 10 million people. :: A megacity
+The area around a city where people live. :: The suburbs
+The central business area of a city. :: Downtown (the CBD)
+The countryside outside towns. :: Rural area
+A street pattern of straight roads crossing at right angles. :: A grid
+Name this street pattern. {img:city-grid.svg} :: A grid plan
+Name this street pattern, with roads spreading from a centre. {img:city-radial.svg} :: A radial (ring and spoke) plan
+Name this street layout of dead-end roads with turning circles. {img:city-culdesac.svg} :: Cul-de-sacs
+Name this road junction. {img:roundabout.svg} :: A roundabout
+A dead-end street with a turning space. :: A cul-de-sac
+A circular junction where traffic flows around a centre. :: A roundabout
+A path for people on foot beside a road. :: A pavement (sidewalk)
+A lane only for bicycles. :: A bike lane
+A street only for walkers, with no cars. :: A pedestrian street
+A marked place for people to cross a road. :: A crosswalk (zebra crossing)
+Lights that control traffic at junctions. :: Traffic lights
+A big road for fast traffic with no crossings. :: A highway (motorway)
+A road that goes around a city. :: A ring road
+Buses, trains and trams used by the public. :: Public transport
+An underground railway in a city. :: A metro (subway)
+A train that runs on rails in city streets. :: A tram
+Buses with their own lanes, like a metro on the road. :: Bus rapid transit (BRT)
+The Riyadh public transport network with six metro lines. :: Riyadh Metro
+The high-speed railway between Makkah and Madinah. :: The Haramain High-Speed Railway
+Heavy traffic that slows everything down. :: Traffic congestion (traffic jams)
+A place to leave cars. :: A car park (parking lot)
+A big open green space in a city for the public. :: A park
+A large famous park in New York City. :: Central Park
+A large park in central London. :: Hyde Park
+A public open space in a city, often paved. :: A square (plaza)
+Laws that control what can be built where. :: Zoning
+An area for homes. :: A residential area
+An area for shops and offices. :: A commercial area
+An area for factories. :: An industrial area
+Mixing homes, shops and offices in one area. :: Mixed use
+Cities spreading out with low-density housing. :: Urban sprawl
+The number of people living in an area. :: Population density
+Poor, crowded housing areas without services. :: Slums (informal settlements)
+Making an old area better with new buildings and people. :: Regeneration (urban renewal)
+Wealthier people moving into a poor area and pushing up prices. :: Gentrification
+A belt of countryside kept around a city to stop it spreading. :: A green belt
+Water pipes, roads and power lines. :: Infrastructure
+The underground pipes that take away waste water. :: Sewers
+The pipes that carry rain water away from streets. :: Storm drains
+The map of a city's future plans. :: A master plan
+A small model or picture of a planned city. :: A city model
+A city built from a plan, rather than growing naturally. :: A planned city
+The capital of Australia, a planned city. :: Canberra
+The capital of Brazil, a planned city. :: Brasília
+The capital of the United States, planned by L'Enfant. :: Washington, D.C.
+The new planned capital of Egypt. :: The New Administrative Capital
+The Saudi linear city planned in NEOM. :: The Line
+The Saudi city project on the Red Sea coast for tourism. :: The Red Sea Project
+The capital of Saudi Arabia. :: Riyadh
+The old mud-brick town that was the first Saudi state's capital. :: Diriyah
+The historic district of Jeddah. :: Al-Balad
+The largest city in the Eastern Province. :: Dammam
+Saudi Arabia's two holy cities. :: Makkah and Madinah
+The Saudi industrial city on the Gulf. :: Jubail
+The Saudi industrial city on the Red Sea. :: Yanbu
+The Saudi city built near Rabigh by the sea. :: King Abdullah Economic City
+The famous long canal city in Italy. :: Venice
+The city famous for canals in the Netherlands. :: Amsterdam
+The Japanese capital, the world's largest metro area. :: Tokyo
+The Indian megacity also called Bombay. :: Mumbai
+The UN agency for cities and housing. :: UN-Habitat
+A street with trees on both sides. :: An avenue (boulevard)
+A long walkway by the sea. :: A promenade (corniche)
+Jeddah's seafront road and walkway. :: The Corniche
+A traditional market in Arab cities. :: A souq
+Buildings that are very tall in a city centre. :: High-rises (skyscrapers)
+The outline of tall buildings against the sky. :: The skyline
+A city famous for its skyline with the Burj Khalifa. :: Dubai
+Small local shops near homes. :: Neighbourhood shops
+A district with homes, a school, a mosque and shops at walking distance. :: A neighbourhood
+An area of a city with a special use, such as finance. :: A district
+The King Abdullah Financial District is in this city. :: Riyadh
+The idea of a city where daily needs are within 15 minutes on foot or bike. :: The 15-minute city
+A city that uses technology and data to run services. :: A smart city
+A city that is green and uses less energy. :: A sustainable city
+A city that is easy and pleasant to live in. :: A livable city
+Making streets slower and safer, such as with speed bumps. :: Traffic calming
+A raised strip that slows cars. :: A speed bump
+The space between buildings across a street. :: Street width
+Rules on how tall buildings may be. :: Height limits
+The line beyond which buildings may not be built at the front of a plot. :: The building line (setback)
+A piece of land for building. :: A plot (parcel)
+Splitting land into plots for houses. :: Subdivision
+A neighbourhood with gates and guards. :: A gated community
+Homes that are affordable to people on low incomes. :: Affordable housing
+The Saudi program to help citizens own homes. :: Sakani
+The Saudi target for home ownership by 2030. :: 70%
+Lights on streets at night. :: Street lighting
+Seats, bins and lamps in streets. :: Street furniture
+Signs that help people find their way. :: Wayfinding signs
+A map of a city's metro lines. :: A transit map
+The famous London Underground map was designed by this person. :: Harry Beck
+The largest Arab city by population. :: Cairo
+
+## 200
+The ancient Greek planner called the father of grid planning. :: Hippodamus of Miletus
+The Roman camp plan had two main streets called the cardo and this. :: The decumanus
+The north-south main street in a Roman town. :: The cardo
+The east-west main street in a Roman town. :: The decumanus
+The ancient Indus Valley city with a grid and drains. :: Mohenjo-daro
+The 1811 plan that set Manhattan's grid. :: The Commissioners' Plan
+The French planner of Washington, D.C. :: Pierre Charles L'Enfant
+The prefect who rebuilt Paris with wide boulevards in the 1850s and 1860s. :: Baron Haussmann
+Haussmann rebuilt Paris under this emperor. :: Napoleon III
+The Spanish engineer who planned the Eixample district of Barcelona. :: Ildefons Cerdà
+The Eixample's blocks have this corner shape. :: Cut (chamfered) corners
+Cerdà is said to have coined this word. :: Urbanisation
+The British planner who started the Garden City movement. :: Ebenezer Howard
+Ebenezer Howard's book of 1898. :: To-morrow: A Peaceful Path to Real Reform (Garden Cities of To-morrow)
+The first garden city in England. :: Letchworth
+The second garden city in England. :: Welwyn Garden City
+The Scottish biologist and planner who wrote "Cities in Evolution". :: Patrick Geddes
+Geddes's motto for planning: "Survey before" this. :: Plan
+Le Corbusier's vision of towers in parks for three million people. :: The Contemporary City (Ville Contemporaine)
+Le Corbusier's "Radiant City". :: Ville Radieuse
+The Brazilian planner of Brasília's pilot plan. :: Lúcio Costa
+Brasília's plan is shaped like this. :: An aeroplane (or bird)
+The American writer of "The Death and Life of Great American Cities". :: Jane Jacobs
+Jane Jacobs said safe streets need these. :: "Eyes on the street"
+The New York planner who built highways and bridges, opposed by Jacobs. :: Robert Moses
+The highway Jacobs helped stop in Manhattan. :: The Lower Manhattan Expressway
+The American planner who wrote "The Image of the City". :: Kevin Lynch
+Lynch's five elements of the city image: paths, edges, districts, nodes and this. :: Landmarks
+The Danish architect who studies life between buildings. :: Jan Gehl
+Jan Gehl's book about public life. :: Life Between Buildings
+The idea of designing streets for all users. :: Complete streets
+The Dutch idea of a shared street where cars go at walking pace. :: Woonerf
+The idea of building near train and metro stations. :: Transit-oriented development (TOD)
+The idea of walkable, mixed-use towns inspired by traditional towns. :: New Urbanism
+The Florida town that is a famous New Urbanism example. :: Seaside
+The "Charter of the New Urbanism" was adopted in this year. :: 1996
+The idea that cities should stop spreading and grow inside. :: Smart growth (compact city)
+Building on empty plots inside a city. :: Infill development
+Land that was used for industry and may be polluted. :: Brownfield land
+Land not built on before. :: Greenfield land
+The ratio of a building's floor area to its plot area. :: Floor area ratio (FAR)
+The share of a plot covered by the building. :: Plot coverage (site coverage)
+The number of homes per hectare. :: Dwelling density
+The planning tool that sets a city's land uses and rules. :: A zoning code
+Zoning based on building shape rather than use. :: Form-based codes
+Zoning that requires some affordable homes in new projects. :: Inclusionary zoning
+Moving the right to build from one plot to another. :: Transfer of development rights
+The famous 1916 law that created the first US citywide zoning. :: The New York zoning resolution
+The setback rule in New York zoning gave skyscrapers this shape. :: A wedding-cake (stepped) shape
+The 1926 US Supreme Court case that upheld zoning. :: Village of Euclid v. Ambler Realty
+The idea that the government can take land for public use with compensation. :: Eminent domain (compulsory purchase)
+The Saudi tax on undeveloped urban land. :: The White Land Tax
+The Saudi ministry for cities and housing. :: The Ministry of Municipalities and Housing
+The Royal Commission for Riyadh City oversees projects like this park. :: King Salman Park
+King Salman Park is built on the site of this old airport. :: Riyadh's old airport (Al-Matar)
+The Riyadh area set for government buildings, built with old Najdi styles. :: Qasr Al-Hokm District
+The Riyadh district where embassies are located. :: The Diplomatic Quarter
+The Saudi city project around a cube-shaped tower. :: New Murabba (the Mukaab)
+The Riyadh project with a large new international airport. :: King Salman International Airport
+The Diriyah Gate project restores this. :: At-Turaif and old Diriyah
+The Saudi plan for the Jeddah waterfront and centre. :: Jeddah Central (Jeddah Downtown)
+The design of NEOM's The Line has no these. :: Cars and streets
+The Line is planned to be this many metres wide. :: 200
+The Line is planned to be this many kilometres long. :: 170
+The Saudi new city on the Red Sea near Al-'Ula for tourism and heritage. :: Al-'Ula (Journey Through Time master plan)
+The Saudi entertainment city near Riyadh. :: Qiddiya
+The Saudi industrial cities authority. :: MODON
+The Royal Commission for Jubail and Yanbu was set up in this year. :: 1975
+The term for the area a city serves around it. :: The hinterland
+The term for a group of cities joined by growth. :: A conurbation (megalopolis)
+The French geographer who used the word "megalopolis" for the US north-east. :: Jean Gottmann
+The idea that cities have a central place and smaller places around them. :: Central place theory
+The German geographer of central place theory. :: Walter Christaller
+The model of cities as rings from the centre, from Chicago. :: The concentric zone model
+The sociologist of the concentric zone model. :: Ernest Burgess
+The term for the edge of a city where it meets the country. :: The urban fringe (peri-urban area)
+Settlements built quickly by people without legal plans. :: Informal settlements
+The Brazilian word for informal settlements. :: Favelas
+The term for providing basic services to informal areas rather than demolishing them. :: Slum upgrading
+The term for people moving from the countryside to cities. :: Urbanisation
+The share of the world's people living in cities is now about this. :: More than half (about 57%)
+The share of Saudis living in cities is about this. :: Over 80%
+The study of a city's past layout and buildings. :: Urban morphology
+The pattern of streets, plots and buildings. :: The urban fabric (grain)
+A map that shows buildings in black and spaces in white. :: A figure-ground map
+The Italian architect famous for the 1748 map of Rome showing public spaces. :: Giambattista Nolli
+The term for important views kept clear of tall buildings. :: View corridors (protected views)
+The London rule that protects views of this cathedral. :: St Paul's Cathedral
+The term for public spaces that are owned privately. :: POPS (privately owned public spaces)
+The famous elevated park built on an old railway in New York. :: The High Line
+The Seoul stream restored after removing a highway. :: Cheonggyecheon
+The Boston project that put a highway underground. :: The Big Dig
+The term for the movement of people each day between home and work. :: Commuting
+The share of trips by each kind of transport. :: Modal split
+The term for drivers paying to enter a city centre. :: Congestion charging
+London started its congestion charge in this year. :: 2003
+Singapore's road pricing system. :: Electronic Road Pricing (ERP)
+The idea that building more roads creates more traffic. :: Induced demand
+The idea of a "last mile" problem in transport is about this. :: Getting from the station to the final destination
+The Royal Commission for Riyadh City was earlier called this. :: The Arriyadh Development Authority
+
+## 300
+The Laws of the Indies of 1573 set rules for towns founded by this empire. :: The Spanish Empire
+The Laws of the Indies required a central square called this. :: The plaza mayor
+The Islamic city's traditional main mosque is called this. :: The Friday (congregational) mosque
+In traditional Islamic cities, markets were often arranged by these. :: Trades (crafts)
+In traditional Islamic cities, the most noisy and dirty trades were placed here. :: Near the edges (city gates)
+In traditional Islamic cities, the trades nearest the great mosque were often these clean ones. :: Booksellers, perfume and cloth sellers
+The covered market of an Islamic city for valuable goods. :: The qaysariyya
+The traveller's inn for merchants and their animals in Islamic cities. :: A caravanserai (khan)
+The city quarter in Ottoman and Arab towns. :: The mahalla (hara)
+The narrow, winding lanes of old Islamic cities give privacy and this. :: Shade
+The Islamic legal rule on not overlooking a neighbour's home. :: Privacy (not opening windows over neighbours)
+Islamic legal rules on building, such as the right of way and harm to neighbours, are part of this. :: Fiqh al-bunyan (fiqh of building)
+The Tunisian scholar Ibn al-Rami ﵀ wrote a famous book on this. :: Building law (disputes between neighbours)
+Ibn al-Rami's ﵀ book was based on court cases in this city. :: Tunis
+The Islamic legal maxim used in neighbour disputes: "No harm and no" this. :: Reciprocating harm
+The city founded by the Abbasid caliph al-Mansur in a perfect circle. :: Baghdad (the Round City)
+The Round City of Baghdad had this many gates. :: Four
+The Round City of Baghdad was founded in this year. :: 762
+The city founded by Umayyad caliph Abd al-Rahman III near Cordoba. :: Madinat al-Zahra
+The garrison city founded in Iraq in 638 by Sa'd ibn Abi Waqqas ﵁. :: Kufa
+The garrison city founded in Iraq in about 636 by 'Utbah ibn Ghazwan ﵁. :: Basra
+The city founded in Egypt by 'Amr ibn al-'As ﵁. :: Fustat
+The city founded in Tunisia by 'Uqbah ibn Nafi' ﵁ in 670. :: Kairouan
+The Fatimid city founded in 969 next to Fustat. :: Cairo (al-Qahira)
+The Safavid planned square in Isfahan. :: Naqsh-e Jahan Square
+The Safavid shah who rebuilt Isfahan. :: Shah Abbas I
+The famous boulevard of Isfahan with gardens. :: Chahar Bagh
+The Persian garden plan divided into four parts. :: Chahar bagh
+The Mughal capital city built by Akbar near Agra. :: Fatehpur Sikri
+The Mughal city in Delhi built by Shah Jahan. :: Shahjahanabad
+The old city of Fes in Morocco, a UNESCO site with car-free streets. :: Fes el-Bali
+Makkah's central area projects include this tunnel and ring road system. :: The Makkah ring roads
+The Jamarat Bridge is in this place. :: Mina
+Mina is known as this because of its many tents. :: The city of tents
+The fireproof tents of Mina are made of this. :: Teflon-coated fibreglass
+The plan of Riyadh drawn by a Greek firm in 1970s. :: The Doxiadis plan
+The Greek planner of the first master plan of Riyadh. :: Constantinos Doxiadis
+Doxiadis's theory of human settlements. :: Ekistics
+Doxiadis also planned this Pakistani capital. :: Islamabad
+The grid of Riyadh's suburbs is divided into these units. :: Superblocks (neighbourhood units)
+The neighbourhood unit idea, built around a school, was proposed by this American. :: Clarence Perry
+The 1929 American town planned with superblocks and cul-de-sacs. :: Radburn
+The Radburn idea separates these. :: Cars and pedestrians
+The British towns built after the Second World War to rehouse people. :: New towns
+The largest British new town. :: Milton Keynes
+Milton Keynes is famous for its roads laid out in this pattern. :: A grid with roundabouts
+The 1944 plan for London by this planner. :: Patrick Abercrombie
+Abercrombie's plan created this ring around London. :: The Green Belt
+The planner of New Delhi with Herbert Baker. :: Edwin Lutyens
+The Indian city planned by Le Corbusier. :: Chandigarh
+Chandigarh's sectors are designed as these. :: Self-contained neighbourhoods
+Canberra was planned by Walter Burley Griffin and this partner. :: Marion Mahony Griffin
+The Brazilian landscape architect who worked on Brasília and Rio. :: Roberto Burle Marx
+Burle Marx designed the wavy pavement of this Rio beach. :: Copacabana
+The Chicago plan of 1909 was led by this architect. :: Daniel Burnham
+The movement after the 1893 Chicago fair for grand civic cities. :: The City Beautiful movement
+The American landscape architect of Central Park, with Calvert Vaux. :: Frederick Law Olmsted
+Olmsted's chain of parks in Boston. :: The Emerald Necklace
+The British planner of Singapore's first 1822 town plan. :: Stamford Raffles (the Jackson Plan)
+Singapore's planning authority. :: The Urban Redevelopment Authority (URA)
+Singapore's public housing, home to most of its people. :: HDB flats
+The share of Singaporeans living in HDB flats. :: About 80%
+The "Concept Plan" of Singapore of 1971 was shaped like this. :: A ring (ring concept plan)
+The Dutch city that is famous for cycling, with most trips by bike. :: Utrecht (or Amsterdam, Groningen)
+The Danish capital known for "Copenhagenize" bike planning. :: Copenhagen
+Copenhagen's "Finger Plan" of 1947 guides growth along these. :: Rail lines (fingers)
+The Colombian city famous for cable cars linking hillside areas. :: Medellín
+The Brazilian city known for the first bus rapid transit. :: Curitiba
+The mayor of Curitiba famous for its planning. :: Jaime Lerner
+The Bogotá BRT system. :: TransMilenio
+The mayor of Bogotá who promoted bike paths and the TransMilenio. :: Enrique Peñalosa
+The Paris mayor who promoted the "15-minute city". :: Anne Hidalgo
+The Colombian-French professor who coined the "15-minute city". :: Carlos Moreno
+The Barcelona plan that closes inner streets of nine blocks to traffic. :: Superblocks (superilles)
+The Spanish city that removed cars from its centre in the 1990s. :: Pontevedra
+The Saudi Ministry of Municipalities' "humanizing cities" program aims to make streets this. :: Walkable and people-friendly
+The Riyadh Metro station designed by Zaha Hadid Architects. :: KAFD Metro Station
+The Riyadh Metro's architecturally famous station near the National Museum. :: Qasr Al-Hokm Station
+The Riyadh bus network launched with the metro. :: Riyadh Bus
+The Makkah public bus service launched in 2022. :: Makkah Bus
+The Makkah "Al-Mashaaer" light rail links Arafat, Muzdalifah and this. :: Mina
+The Mashaaer railway opened in this year. :: 2010
+The Haramain High-Speed Railway opened in this year. :: 2018
+The Haramain trains run at up to this speed. :: 300 km per hour
+The Saudi rail line from Riyadh to the north. :: The North-South Railway
+The planned railway to link Riyadh and Jeddah across the kingdom. :: The Saudi Landbridge
+The Saudi new airport in Riyadh is planned to be among the world's largest. Its name. :: King Salman International Airport
+The Saudi Sakani housing program started in this year. :: 2017
+The traditional Najdi town centre had the Friday mosque, the ruler's palace and this. :: The main market (square)
+The old walled town of Riyadh was centred on this palace. :: Qasr Al-Hokm (Al-Masmak nearby)
+The Diriyah district of At-Turaif was the seat of this family. :: The Al Saud
+At-Turaif became a UNESCO World Heritage Site in this year. :: 2010
+Historic Jeddah's old gate on the east side, leading to Makkah. :: Bab Makkah
+Historic Jeddah's market street leading from Bab Makkah. :: Souq Al-Alawi
+The planning concept of building cities in "superblocks" with inner streets for locals. :: Superblocks
+The term for the size of a city's street blocks; smaller blocks make it more walkable. :: Block size (grain)
+The Manhattan grid blocks are about this long east to west. :: About 250 metres
+Portland's small blocks are about this size, making it walkable. :: About 60 metres (200 feet)
+The planning idea that streets should form a connected network rather than dead ends. :: Connectivity
+The term for the area of land a city needs to supply its resources. :: Ecological footprint
+
+## 400
+The Roman writer whose book discusses the planning of town walls and streets by wind direction. :: Vitruvius
+Vitruvius advised aligning streets to avoid these. :: Strong winds
+The Islamic scholar who wrote about cities and civilisation in the "Muqaddimah". :: Ibn Khaldun ﵀
+The Islamic concept of "fina'" refers to this space. :: The space in front of a house (shared frontage)
+The Islamic legal right of a co-owner or neighbour to buy first. :: Shuf'ah
+In traditional Islamic cities, a dead-end lane was owned in common by these. :: The residents of the lane
+In Islamic law, a public street must be wide enough for this, by a hadith. :: Seven cubits
+The Islamic office that supervised markets and streets. :: Hisbah (the muhtasib)
+The muhtasib could order removal of things that block these. :: Public roads
+The French planner Michel Écochard planned this Moroccan city's extensions. :: Casablanca
+Écochard's grid of small courtyard houses in Casablanca. :: The 8×8 grid (trame Écochard)
+The French architect who planned Rabat's new town under Lyautey. :: Henri Prost
+The capital of Nigeria, planned as a new city. :: Abuja
+The capital of Pakistan, planned by Doxiadis. :: Islamabad
+The new capital of Kazakhstan with buildings by Norman Foster. :: Astana
+The Kazakh capital's master plan was by this Japanese architect. :: Kisho Kurokawa
+The new capital of Indonesia under construction in Borneo. :: Nusantara
+The Korean new administrative city. :: Sejong
+The Chinese city that grew from a fishing village to a megacity after 1980. :: Shenzhen
+The term for China's special zones that drove fast urbanisation. :: Special Economic Zones
+The South Korean smart city built on reclaimed land near Incheon. :: Songdo
+The Abu Dhabi city planned to be car-free and low-carbon. :: Masdar City
+The Saudi city by the Red Sea planned around an industrial port, launched in 2005. :: King Abdullah Economic City
+The four economic cities announced in Saudi Arabia in 2005-2006. :: KAEC, Prince Abdulaziz bin Mousaed (Ha'il), Knowledge (Madinah) and Jazan
+The Saudi city built for oil workers in the 1930s and 1940s by Aramco. :: Dhahran
+The Aramco camp in Dhahran was planned like this kind of town. :: An American suburb
+The Saudi new town for the armed forces in the Eastern Province. :: King Khalid Military City
+King Khalid Military City is near this city. :: Hafar al-Batin
+The Saudi National Housing Company is called this. :: NHC
+The UN "New Urban Agenda" was adopted at Habitat III in this city. :: Quito
+Habitat III was held in this year. :: 2016
+The first UN Habitat conference was held in Vancouver in this year. :: 1976
+The World Urban Forum is organised by this UN agency. :: UN-Habitat
+The World Cities Day is held on this date. :: 31 October
+The World Urban Forum 2024 was held in this city. :: Cairo
+The index ranking cities by liveability, from the Economist. :: The Global Liveability Index
+The term for the share of people's income spent on housing. :: Housing affordability ratio
+Housing is often called unaffordable when it costs more than this share of income. :: 30%
+The term for land value increase captured by the government. :: Land value capture
+Hong Kong's MTR funds its railways by developing property. This model is called this. :: Rail plus property
+Tax increment financing funds projects using this. :: Future increases in property tax
+The term for a public-private partnership in urban projects. :: PPP
+The idea that small businesses on ground floors make streets lively. :: Active frontages
+The planning idea of "defensible space" was developed by this architect. :: Oscar Newman
+"Crime prevention through environmental design" is known as this. :: CPTED
+The British urbanist who wrote "Townscape" (1961). :: Gordon Cullen
+Gordon Cullen described the experience of moving through a town as this. :: Serial vision
+The Austrian urbanist who wrote "City Planning According to Artistic Principles" (1889). :: Camillo Sitte
+The American sociologist who described the "third place" between home and work. :: Ray Oldenburg
+The Danish urbanist's term for 4 km/h architecture. :: Human scale (designing at walking speed)
+William H. Whyte studied this in New York in the 1970s. :: The social life of small urban spaces
+The American urbanist who wrote "Walkable City". :: Jeff Speck
+The concept of "tactical urbanism" means this. :: Quick, cheap, temporary changes to streets
+The annual event where parking spaces become small parks. :: PARK(ing) Day
+The concept of "Vision Zero" aims for this. :: No road deaths
+Vision Zero began in this country. :: Sweden
+The famous book "Cities for People" was written by this person. :: Jan Gehl
+Jan Gehl helped redesign this New York square for pedestrians. :: Times Square
+Strøget became car-free in this year. :: 1962
+The study of how buildings and streets affect walking. :: Walkability
+The Walk Score measures this. :: How walkable an address is
+The urban form term for blocks that are short with many junctions. :: Permeability (connectivity)
+The urban form term for the share of the ground used for streets. :: Street ratio (land allocated to streets)
+UN-Habitat recommends about this much land for streets. :: About 30%
+The term for the paved surface temperature effect in cities. :: The urban heat island
+The planning tool for mapping heat in cities. :: Heat vulnerability (thermal) mapping
+GIS stands for this. :: Geographic information system
+The popular GIS software by Esri. :: ArcGIS
+The free GIS software. :: QGIS
+A model of a city that copies real data, used for planning. :: A digital twin
+The Scottish planner who drew a plan for Tel Aviv in 1925. :: Patrick Geddes
+The Kuwaiti master plan of 1952 was drawn by this British firm. :: Minoprio, Spencely and Macfarlane
+Strøget in Copenhagen is famous for being this. :: One of Europe's longest pedestrian streets
+The planning model that puts the most offices in one tall central area. :: Monocentric city
+The planning model with several centres in one metro area. :: Polycentric city
+The term for small towns linked by transit around a big city. :: Satellite towns
+The concept of "superblocks" in Riyadh's 1970s grid is about this size. :: About 2 km by 2 km
+Riyadh's streets were planned mainly for this kind of transport in the 1970s plan. :: Cars
+The share of trips in Riyadh made by car before the metro was about this. :: Over 90%
+The planning concept of "humanising cities" in Saudi Arabia includes widening these. :: Pavements (sidewalks)
+The Saudi city in the Eastern Province planned in the 1940s with straight streets by Aramco. :: Al-Khobar
+The traditional "fareej" is this in the Gulf. :: A neighbourhood
+The traditional "sikka" is this in Gulf towns. :: A narrow lane
+The "baraha" in Gulf towns is this. :: A small open square in a neighbourhood
+The planning term for a long narrow city along a transport line. :: A linear city
+The planning term for a city built around a lake or river. :: A waterfront city
+The UNESCO program on historic urban landscapes was adopted in this year. :: 2011
+The method of surveying how people use a public square by counting and mapping. :: Public life survey
+The method where planners ask residents to help design their area. :: Participatory (community) planning
+The planning document that sets a city's long-term vision. :: A comprehensive (general) plan
+The American planning association's main professional body is called this. :: The American Planning Association (APA)
+The UK's professional body for planners. :: The Royal Town Planning Institute (RTPI)
+The international body for urban planners. :: ISOCARP
+The planning concept of a "car-free city centre". :: Pedestrianisation
+The planning concept of "park and ride". :: Parking at the edge and taking transit in
+The planning concept of "last-mile delivery hubs". :: Small depots near customers
+Drones, e-scooters and bike shares are called this kind of mobility. :: Micromobility
+Autonomous vehicles may change cities by cutting the need for this. :: Parking
+The planning term for a city's legal boundary. :: The municipal (city) limits
+The planning term for a city and its suburbs as one area. :: A metropolitan area
+
+## 500
+The Mesopotamian city often called one of the first cities. :: Uruk
+The ancient city of Çatalhöyük had houses entered through this. :: The roof
+The Egyptian workers' town near the Valley of the Kings. :: Deir el-Medina
+The Greek city of Priene is famous for this plan. :: A grid on a hillside
+The Roman town buried by Vesuvius in 79 CE. :: Pompeii
+The Roman stepping stones in Pompeii's streets let people cross without stepping in this. :: Water and waste
+The medieval new towns of south-west France with grids. :: Bastides
+The ideal city drawn by Filarete in the shape of a star. :: Sforzinda
+The Venetian fortress town built as a nine-pointed star in 1593. :: Palmanova
+The Renaissance architect Vincenzo Scamozzi helped design this star town. :: Palmanova
+The Italian city whose Piazza del Campo is shaped like a shell. :: Siena
+Siena's Palazzo Pubblico tower is called this. :: Torre del Mangia
+The rebuilding of Lisbon after the 1755 earthquake was led by this minister. :: The Marquis of Pombal
+The Pombaline buildings had an early anti-earthquake frame called this. :: The gaiola (cage)
+The Scottish New Town of Edinburgh was planned by this young architect. :: James Craig
+The 17th-century plan to rebuild London after the fire that was never carried out. :: Wren's plan for London
+The Russian city founded in 1703 as a "window to the West". :: St Petersburg
+The model village built by Cadbury for its workers. :: Bournville
+The model village built by Lever Brothers. :: Port Sunlight
+The 1909 law that was the first British town planning act. :: The Housing, Town Planning, etc. Act 1909
+The Spanish engineer who proposed the "linear city" in 1882. :: Arturo Soria y Mata
+Soria y Mata's linear city was built partly in this city. :: Madrid
+The Soviet planner of the 1930 linear city plan for Stalingrad. :: Nikolay Milyutin
+Frank Lloyd Wright's car-based vision of a spread-out city. :: Broadacre City
+The 1939 New York World's Fair exhibit by General Motors that showed highways. :: Futurama
+The designer of Futurama. :: Norman Bel Geddes
+The Archigram project of a city that walks. :: Walking City
+Archigram's project of plug-in modules in a frame. :: Plug-in City
+The Japanese Metabolist plan for a floating city in Tokyo Bay. :: The Plan for Tokyo 1960
+The architect of the Plan for Tokyo 1960. :: Kenzo Tange
+The Italian architect Paolo Soleri's mix of architecture and ecology. :: Arcology
+Paolo Soleri's experimental town in Arizona. :: Arcosanti
+The Dutch artist's vision of a "New Babylon" city. :: Constant Nieuwenhuys
+The French group whose ideas on drifting through cities influenced urbanism. :: The Situationists
+The Situationist idea of wandering through a city without a goal. :: The dérive
+The French sociologist who wrote about "the right to the city". :: Henri Lefebvre
+The American geographer who wrote "Social Justice and the City". :: David Harvey
+The American scholar who wrote about "global cities" like London, New York and Tokyo. :: Saskia Sassen
+The British-American geographer who wrote "Cities in Civilization". :: Peter Hall
+The American historian who wrote "The City in History". :: Lewis Mumford
+The urbanist who described "edge cities". :: Joel Garreau
+The Spanish sociologist who wrote about the "space of flows". :: Manuel Castells
+The American economist who wrote "Triumph of the City". :: Edward Glaeser
+The urbanist who wrote about the "creative class". :: Richard Florida
+The rule that city size and its rank follow a power law. :: Zipf's law
+Geoffrey West's research says cities' economic output grows this way with size. :: Superlinearly (about 1.15 power)
+The book "Scale" about laws of growth in cities was written by this physicist. :: Geoffrey West
+The Saudi urban observatory network monitors cities with this kind of data. :: Urban indicators
+The Saudi "Masmak" fort is in this city. :: Riyadh
+The Masmak fort was captured in this year by King Abdulaziz. :: 1902
+The Saudi city famous as "the Bride of the Red Sea". :: Jeddah
+The Saudi historic town in Asir with stone tower houses near Abha. :: Rijal Alma'
+The Najdi old town of Ushaiqer is in this region. :: Al-Washm (Riyadh region)
+The old town of Al-'Ula near the oasis is known for this. :: Hundreds of mud-brick houses on a rocky hill
+The UNESCO site of the Historic Town of Zabid is in this country. :: Yemen
+The Yemeni walled city of tall mud towers, called the "Manhattan of the Desert". :: Shibam
+The traditional tall houses of Sana'a are built with this. :: Stone lower floors and brick above, with white gypsum decoration
+The Omani old town with mud-brick houses near Nizwa. :: Misfat al-Abriyeen (or Al Hamra)
+The Abu Dhabi master plan "Plan Abu Dhabi" targets this year. :: 2030
+The Dubai 2040 Urban Master Plan aims to put most services within this. :: 20 minutes (the 20-minute city)
+The Qatar city of Lusail was planned for this event. :: The 2022 FIFA World Cup
+The industrial village built by Titus Salt in Yorkshire. :: Saltaire
+The Aztec capital built on a lake. :: Tenochtitlan
+Tenochtitlan was linked to the shore by these. :: Causeways
+The modern city built on the site of Tenochtitlan. :: Mexico City
+The Chinese capital with a grid plan around the palace during the Tang dynasty. :: Chang'an
+The Japanese capitals of Nara and Kyoto copied the plan of this Chinese city. :: Chang'an
+Kyoto's grid streets are called this. :: Jo-bo
+The ancient Chinese text on city planning in the "Rites of Zhou". :: Kaogongji
+The Kaogongji says the capital should be a square with this many gates on each side. :: Three
+The Inca capital that was said to be shaped like a puma. :: Cusco
+The Mughal garden city of Srinagar is famous for its gardens and this lake. :: Dal Lake
+The Ottoman capital's traditional neighbourhoods were organised around these. :: Mosques (mahalle)
+The Ottoman building complex of mosque, school, kitchen and baths. :: A külliye
+The famous Süleymaniye külliye in Istanbul was designed by this architect. :: Mimar Sinan
+The Ottoman covered market in Istanbul, one of the oldest. :: The Grand Bazaar
+The Mamluk Cairo street famous for its monuments. :: Al-Mu'izz Street
+The waqf system funded city services such as fountains, schools and these. :: Hospitals (bimaristans)
+The public water fountains in Ottoman and Mamluk cities. :: Sabils
+The famous Mamluk building with a fountain below and a school above. :: A sabil-kuttab
+The term for the walled Islamic city in North Africa. :: Medina
+The Moroccan city with blue-painted streets in the Rif Mountains. :: Chefchaouen
+The term for the Islamic citadel above a city. :: Qasbah (kasbah)
+The ancient Khmer capital region in Cambodia with a vast network of canals. :: Angkor
+The Mamluk city's quarters were closed at night by these. :: Gates
+The Spanish city whose old Muslim quarter, the Albaicín, faces the Alhambra. :: Granada
+The Andalusian city famous for its Mezquita and narrow white streets. :: Cordoba
+The term for a ruler's planned palace city outside an old city, like Madinat al-Zahra. :: A palace city
+Samarra was founded by this Abbasid caliph in 836. :: Al-Mu'tasim
+Samarra's great mosque has this famous minaret. :: A spiral minaret (Malwiya)
+The Abbasid palace city of Samarra stretched about this long along the Tigris. :: About 40 kilometres
+The Abbasid city of al-Rafiqa (Raqqa), founded under al-Mansur, has this shape. :: A horseshoe
+The Ottoman Istanbul waterfront mansions on the Bosporus. :: Yalıs
+The 1666 Great Fire led London to rebuild with this material instead of wood. :: Brick and stone
+The 1871 fire led Chicago to rebuild with new rules and this new building type. :: Skyscrapers (fireproof steel frames)
+The 1906 earthquake destroyed much of this US city. :: San Francisco
+Tokyo was rebuilt twice in the 20th century, after the 1923 earthquake and this. :: The Second World War bombing
+The Dutch city rebuilt in modern style after its centre was bombed in 1940. :: Rotterdam
+Rotterdam's famous shopping street, the first pedestrian street of its kind in Europe. :: The Lijnbaan
+The German city whose old centre was rebuilt after it was destroyed in 1945, famous for its Frauenkirche. :: Dresden

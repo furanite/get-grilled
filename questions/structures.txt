@@ -1,0 +1,517 @@
+id: structures
+name: Building Structures & Materials
+group: design
+
+## 100
+The part of a building that carries its weight down to the ground. :: The structure
+The part of a building below ground that spreads its weight into the soil. :: The foundation
+A horizontal structural member that carries loads across a gap. :: A beam
+A vertical structural member that carries loads down. :: A column
+A flat horizontal concrete surface forming a floor. :: A slab
+A wall that carries the weight of floors and roof above. :: A load-bearing wall
+A wall that only divides space and carries no load. :: A partition wall
+The weight of the building itself. :: Dead load
+The weight of people, furniture and things that move. :: Live load
+The force of wind pushing on a building. :: Wind load
+The mixture of cement, sand, gravel and water. :: Concrete
+The grey powder that binds concrete. :: Cement
+The paste that holds bricks together. :: Mortar
+Concrete with steel bars inside to resist tension. :: Reinforced concrete
+The steel bars put inside concrete. :: Rebar
+The metal made from iron and a little carbon, used for frames. :: Steel
+A building material from trees. :: Timber (wood)
+A block of baked clay used for walls. :: A brick
+A block made of concrete used for walls. :: A concrete block (CMU)
+The material used for windows. :: Glass
+The light metal used for window frames. :: Aluminium
+Stone cut into blocks for building. :: Ashlar (dressed stone)
+The white stone used for the Taj Mahal. :: Marble
+The hard grey stone often used for kitchen tops and floors. :: Granite
+The soft stone made of calcium carbonate, used in many old buildings. :: Limestone
+The material of plaster made from heated gypsum. :: Plaster of Paris
+Boards made of gypsum covered in paper. :: Plasterboard (drywall)
+Material placed in walls to keep heat in or out. :: Insulation
+A common pink or yellow fibre insulation. :: Glass wool (fibreglass)
+The covering on top of a roof that keeps out rain. :: Roofing (roof covering)
+Clay or concrete pieces that cover a sloping roof. :: Roof tiles
+The highest line of a sloping roof. :: The ridge
+The part of a roof that hangs over the wall. :: The eaves
+A sloping frame of beams that supports a roof. :: A truss
+A temporary frame that holds wet concrete in shape. :: Formwork
+A temporary platform used by workers on a building. :: Scaffolding
+A tall machine that lifts heavy loads on building sites. :: A crane (tower crane)
+A long post driven deep into the ground to support a building. :: A pile
+A curved structure that carries loads over an opening. :: An arch
+A beam fixed at one end only. :: A cantilever
+Name this type of beam, held at one end only. {img:beam-cantilever.svg} :: Cantilever beam
+Name this shape of steel beam, seen in cross-section. {img:section-i-beam.svg} :: I-beam
+Name this shape of steel section, like an L. {img:section-angle.svg} :: Angle section
+Name this shape of steel section, like a C. {img:section-channel.svg} :: Channel section
+Name this type of steel section, a hollow box. {img:section-hollow.svg} :: Hollow (box) section
+Name this kind of support, which lets a beam rotate but not move. {img:support-pin.svg} :: Pin (hinge) support
+Name this kind of support, which lets a beam roll sideways. {img:support-roller.svg} :: Roller support
+Name this kind of support, which stops all movement and rotation. {img:support-fixed.svg} :: Fixed support
+Name this truss type, with diagonals sloping down to the middle. {img:truss-pratt.svg} :: Pratt truss
+Name this truss type, with diagonals sloping up to the middle. {img:truss-howe.svg} :: Howe truss
+Name this truss type, made of equal triangles. {img:truss-warren.svg} :: Warren truss
+A pulling force. :: Tension
+A pushing or squeezing force. :: Compression
+The force that tends to slide one part past another. :: Shear
+Bending in a beam is caused by this. :: A bending moment
+Concrete is strong in this force. :: Compression
+Concrete is weak in this force. :: Tension
+Steel is strong in both compression and this. :: Tension
+Iron turning red-brown when it reacts with air and water. :: Rust (corrosion)
+Paint that protects steel from fire by swelling. :: Intumescent paint
+The time concrete needs to gain strength with moisture. :: Curing
+Concrete reaches its design strength after about this many days. :: 28
+A machine that mixes concrete on the way to site. :: A concrete mixer truck
+Concrete cast in a factory and brought to site. :: Precast concrete
+Concrete poured on the site where it stays. :: Cast-in-place (in situ) concrete
+A test of how wet concrete slumps, to check workability. :: The slump test
+A gap left in a building to let it expand and shrink. :: An expansion joint
+A sheet that stops damp rising from the ground into walls. :: A damp-proof course
+A strong sheet to stop water going through a roof or basement. :: Waterproofing membrane
+The outer wall covering of a building. :: Cladding
+A glass wall hung on the outside of a building's frame. :: A curtain wall
+Glass with two panes and a gap of air or gas. :: Double glazing
+Glass that breaks into small blunt pieces. :: Tempered (toughened) glass
+Glass with a plastic layer that holds pieces together when broken. :: Laminated glass
+The skeleton of steel or concrete in a tall building. :: The frame
+A stiff central part of a tall building with lifts and stairs. :: The core
+Diagonal members that help a frame resist wind. :: Bracing
+The engineer who designs a building's structure. :: A structural engineer
+The ground that supports a foundation. :: Soil (subgrade)
+A soil test to see how much load the ground can carry. :: A site investigation (soil test)
+A wide flat foundation under the whole building. :: A raft (mat) foundation
+A foundation under a single column. :: A pad footing
+A foundation running under a wall. :: A strip footing
+Building with mud pressed into frames. :: Rammed earth
+Sun-dried mud bricks. :: Adobe
+A roof shaped like half a sphere. :: A dome
+A curved ceiling made of arches. :: A vault
+The stone at the top of an arch that locks it. :: The keystone
+A building made of a frame covered with fabric under tension. :: A tensile (tent) structure
+A dome made of triangles, made famous by Buckminster Fuller. :: A geodesic dome
+The world's tallest building, held up by a "buttressed core". :: Burj Khalifa
+Shaking of the ground that buildings must resist. :: An earthquake
+The study of how buildings resist earthquakes. :: Seismic design
+Fire, water and earthquakes are all considered in these rules. :: Building codes
+Saudi Arabia's national building code. :: The Saudi Building Code (SBC)
+Big structural failure where a building falls down. :: Collapse
+A list of all materials and quantities needed for a building. :: A bill of quantities
+The person who estimates building costs. :: A quantity surveyor
+A small house of wood framing, common in North America. :: Timber-frame (stud) house
+Engineered wood made of glued layers crossing each other. :: Cross-laminated timber (CLT)
+Board made of wood chips pressed with glue. :: Chipboard (particleboard)
+Board made of thin wood layers glued together. :: Plywood
+
+## 200
+The strength of concrete is usually tested on these shapes. :: Cubes or cylinders
+Concrete strength is measured in this unit. :: Megapascals (MPa)
+A concrete grade "C30" means this cube or cylinder strength. :: About 30 MPa (cylinder strength)
+The ratio of water to cement in a concrete mix. :: The water-cement ratio
+More water in concrete makes it easier to work but does this to strength. :: Lowers it
+Chemicals added to concrete to change its behaviour. :: Admixtures
+An admixture that lets concrete flow with less water. :: A superplasticiser
+An admixture that slows setting in hot weather. :: A retarder
+An admixture that speeds up setting. :: An accelerator
+Concrete in which steel is stretched before or after casting. :: Prestressed concrete
+Prestressing where steel is stretched before the concrete is cast. :: Pre-tensioning
+Prestressing where steel is stretched after the concrete hardens. :: Post-tensioning
+The French engineer who developed prestressed concrete. :: Eugène Freyssinet
+The gardener who patented reinforced concrete pots in 1867. :: Joseph Monier
+The modern cement patented by Joseph Aspdin in 1824. :: Portland cement
+Portland cement is named after stone from this English place. :: The Isle of Portland
+The main raw materials of cement. :: Limestone and clay
+Cement is made by heating raw materials in this. :: A kiln
+The lumps that come out of a cement kiln. :: Clinker
+The mineral added to clinker to control setting. :: Gypsum
+The ancient Romans used volcanic ash in concrete called this. :: Pozzolana
+Concrete that flows into place without vibration. :: Self-compacting concrete
+The cover of concrete outside the rebar protects it from this. :: Corrosion (and fire)
+Cracks caused when concrete dries and gets smaller. :: Shrinkage cracks
+The slow continuing deformation of concrete under long-term load. :: Creep
+A reaction between alkalis in cement and some stones that causes cracking. :: Alkali-silica reaction (ASR)
+The Gulf region's salty soils attack concrete with these. :: Chlorides and sulphates
+The chemical reaction of carbon dioxide with concrete that lowers protection of steel. :: Carbonation
+The property of steel to stretch before breaking. :: Ductility
+The point at which steel starts to deform permanently. :: The yield point
+The highest stress a material can take. :: Ultimate strength
+The ratio of stress to strain in the elastic range. :: Young's modulus
+The weakening of steel under repeated loads. :: Fatigue
+Steel loses about half its strength at around this temperature. :: 550 to 600°C
+Steel that resists rust with a protective rust layer. :: Weathering steel (Corten)
+Steel coated with zinc. :: Galvanised steel
+Steel with chromium that resists rust. :: Stainless steel
+A thin steel sheet bent into shapes for light framing. :: Cold-formed steel
+Steel beams with round holes cut in the web. :: Cellular (castellated) beams
+The top and bottom flat parts of an I-beam. :: Flanges
+The vertical middle part of an I-beam. :: The web
+Joining steel parts by melting them together. :: Welding
+Joining steel parts with bolts. :: Bolting
+Hot metal pins used to join steel in old structures like the Eiffel Tower. :: Rivets
+The plate used to join members of a truss. :: A gusset plate
+A beam that runs between columns and carries other beams. :: A girder
+Small parallel beams supporting a floor or ceiling. :: Joists
+Horizontal beams that carry the roof covering between trusses. :: Purlins
+Sloping beams that run from the ridge to the eaves. :: Rafters
+The triangle-shaped wall end of a gable roof. :: The gable
+A concrete slab with ribs running in both directions. :: A waffle slab
+A slab that rests on columns without beams. :: A flat slab
+The thickening of a flat slab around a column top. :: A drop panel
+The failure where a column punches through a flat slab. :: Punching shear
+Steel deck sheets with concrete poured on top. :: Composite deck
+A long column fails by bending sideways. This is called this. :: Buckling
+The Swiss mathematician who found the buckling load formula. :: Leonhard Euler
+The ratio of a column's length to its thickness, linked to buckling. :: The slenderness ratio
+The distance a beam bends down under load. :: Deflection
+The point where the bending moment in a simple beam under a central load is largest. :: The middle (midspan)
+A beam that rests on two supports. :: A simply supported beam
+Name this beam set-up. {img:beam-simple.svg} :: Simply supported beam
+A beam over three or more supports. :: A continuous beam
+The Italian engineer of the Palazzetto dello Sport in Rome. :: Pier Luigi Nervi
+The engineer of the Sydney Opera House shells. :: Ove Arup
+The engineering firm founded by Ove Arup. :: Arup
+The engineer of the Burj Khalifa at SOM. :: Bill Baker
+The structural system of Burj Khalifa. :: The buttressed core
+The Bangladeshi-American engineer of the tube system. :: Fazlur Rahman Khan
+The "bundled tube" was first used in this tower. :: The Sears (Willis) Tower
+The "trussed tube" with big X braces was used in this Chicago tower. :: The John Hancock Center
+A big heavy weight high in a tower that reduces swaying. :: A tuned mass damper
+The tower in Taiwan with a famous 660-tonne damper ball. :: Taipei 101
+Name this tower with a giant damper inside. {img:lm-taipei-101.svg} :: Taipei 101
+A system of rubber pads under a building to protect it from earthquakes. :: Base isolation
+The scale used for earthquake size. :: The moment magnitude scale
+The study of soil and rock for building. :: Geotechnical engineering
+The ability of soil to carry a load without failure. :: Bearing capacity
+The sinking of a building into the ground over time. :: Settlement
+The famous tower that leans because of uneven settlement. :: The Leaning Tower of Pisa
+Soil that swells when wet and shrinks when dry, a problem in parts of Saudi Arabia. :: Expansive clay
+A salty crust soil in coastal Saudi Arabia that can collapse. :: Sabkha
+Soil that turns to liquid in an earthquake. :: Liquefaction
+A pile that carries load by friction along its sides. :: A friction pile
+A pile that carries load at its tip on hard rock. :: An end-bearing pile
+A wall that holds back soil. :: A retaining wall
+A concrete wall built in a trench filled with slurry. :: A diaphragm wall
+A frame of steel sheets driven into the ground to hold soil. :: Sheet piling
+Drawing water out of the ground on a building site. :: Dewatering
+The fire rating of a wall is measured in this. :: Minutes or hours (of fire resistance)
+The rule that limits how far a person must walk to an exit. :: Travel distance
+The materials test that measures how fast flame spreads. :: Surface spread of flame
+The aluminium cladding fire in London in 2017. :: The Grenfell Tower fire
+Glass that reflects heat but lets light through. :: Low-emissivity (low-E) glass
+The measure of how much heat passes through a wall. :: The U-value
+A lower U-value means this. :: Better insulation
+The measure of a material's resistance to heat flow. :: The R-value
+A gap left between two layers of a wall. :: A cavity wall
+A gap in insulation where heat escapes, such as at a balcony slab. :: A thermal bridge
+Rigid foam insulation boards in blue or pink, often used under floors. :: Extruded polystyrene (XPS)
+White foam insulation made of beads. :: Expanded polystyrene (EPS)
+Concrete blocks with air bubbles that are light and insulating. :: Autoclaved aerated concrete (AAC)
+
+## 300
+In reinforced concrete design, the steel is put near this face of a beam. :: The tension (bottom) face in sagging
+The bent bars in a beam that resist shear. :: Stirrups (links)
+The bars wrapped around a column's main bars. :: Ties (links)
+A column with spiral steel. :: A spiral column
+The minimum length rebar must go into concrete to grip. :: Development (anchorage) length
+Joining two rebars by overlapping them. :: A lap splice
+The design method using factors on loads and strengths. :: Limit state design (LRFD)
+The design checks that a structure won't collapse. :: Ultimate limit state
+The design checks for deflection and cracking in use. :: Serviceability limit state
+The safety factor applied to loads. :: Load factor
+The American concrete code. :: ACI 318
+The European codes for structures. :: The Eurocodes
+The Eurocode for concrete. :: Eurocode 2
+The Eurocode for steel. :: Eurocode 3
+The Saudi Building Code's structural part is based mainly on these US codes. :: The IBC and ACI (and ASCE 7)
+The American standard for minimum design loads. :: ASCE 7
+The force per area that wind makes, which grows with this power of speed. :: The square
+The wind effect where vortices make a tall building sway sideways. :: Vortex shedding
+The bridge that twisted and collapsed in wind in 1940. :: The Tacoma Narrows Bridge
+The London bridge that wobbled on opening in 2000. :: The Millennium Bridge
+The Millennium Bridge wobbled because of this effect. :: Synchronous lateral excitation (people walking in step)
+The US hotel walkway collapse of 1981, caused by a connection change. :: The Hyatt Regency walkway collapse
+The Italian bridge that collapsed in Genoa in 2018. :: The Morandi Bridge (Ponte Morandi)
+The UK flats tower that partly collapsed after a gas explosion in 1968. :: Ronan Point
+Ronan Point led to rules against this type of collapse. :: Progressive (disproportionate) collapse
+A redundant structure has this feature. :: More load paths than needed
+A structure whose forces can be found by equilibrium alone. :: Statically determinate
+A structure with more unknowns than equilibrium equations. :: Statically indeterminate
+The three equations of equilibrium in 2D: sum of forces in x, in y, and this. :: Sum of moments
+A method of analysing trusses by looking at each joint. :: The method of joints
+A method of analysing trusses by cutting through members. :: The method of sections
+The bending moment at the fixed end of a cantilever with a point load P at its tip, length L. :: P × L
+The maximum moment in a simply supported beam with a central point load P, span L. :: PL/4
+The maximum moment in a simply supported beam with a uniform load w, span L. :: wL²/8
+The force in the member of a truss with zero load. :: A zero-force member
+The shape a hanging chain takes. :: A catenary
+An arch shaped like an upside-down hanging chain has only this force. :: Compression
+The architect who used hanging chain models to design the Sagrada Família. :: Antoni Gaudí
+The thin curved concrete roofs of Félix Candela are shaped like this. :: Hyperbolic paraboloids
+The shell roofs of the TWA terminal and Sydney Opera House are made of this. :: Concrete
+A structure of straight members forming a 3D grid of triangles. :: A space frame
+The roof of the Hajj Terminal in Jeddah is made of this material. :: Teflon-coated fibreglass fabric
+Fabric structures need curvature in two directions called this. :: Anticlastic (saddle) curvature
+A structure held up by air pressure. :: An air-supported (inflatable) structure
+The stadium roof that opens and closes. :: A retractable roof
+A bridge held by cables from towers, straight to the deck. :: A cable-stayed bridge
+A bridge hanging from main cables between towers. :: A suspension bridge
+Name this bridge type. {img:lm-golden-gate.svg} :: A suspension bridge (the Golden Gate)
+Name this London bridge type, with lifting parts. {img:lm-tower-bridge.svg} :: A bascule bridge (Tower Bridge)
+A bridge built out from piers in both directions to meet in the middle. :: A balanced cantilever bridge
+The engineer of the Forth Bridge in Scotland. :: John Fowler and Benjamin Baker
+The King Fahd Causeway between Saudi Arabia and Bahrain is about this long. :: 25 kilometres
+The longest bridge in the world. :: The Danyang-Kunshan Grand Bridge
+The steel used in the Eiffel Tower. :: Puddled (wrought) iron
+The Eiffel Tower is about this many metres tall today. :: 330
+The Eiffel Tower grows in summer by about this much. :: 15 centimetres
+Wood shrinks most in this direction. :: Across the grain (tangentially)
+Wood is strongest along this direction. :: The grain
+Wood products made by gluing layers into big beams. :: Glulam (glued laminated timber)
+Engineered lumber made of thin wood veneers in one direction. :: LVL (laminated veneer lumber)
+Board made of oriented wood strands. :: OSB (oriented strand board)
+The insect that damages timber in hot regions. :: Termites
+The fungus that rots wet timber. :: Dry rot (and wet rot)
+The protective treatment of timber with chemicals under pressure. :: Pressure treatment
+The tallest timber building as of the 2020s is in this US city. :: Milwaukee (Ascent)
+The Norwegian timber tower Mjøstårnet is about this tall. :: 85 metres
+The Saudi stone used in old Jeddah houses. :: Coral stone (manqabi)
+The traditional Najdi roofs use tamarisk or palm trunk beams covered with this. :: Palm fronds and mud
+Traditional Najdi walls are thicker at the bottom for this reason. :: Stability (and heat)
+The plaster made of lime and used in old buildings. :: Lime plaster
+Gypsum plaster carved with patterns in Islamic architecture. :: Carved stucco (jiss)
+The term for the heat stored in heavy walls. :: Thermal mass
+Traditional mud walls are good in hot dry climates because of this. :: High thermal mass
+A "green roof" is covered with this. :: Plants (vegetation)
+The process of making cement emits a lot of this gas. :: Carbon dioxide
+Cement production makes about this share of world CO₂ emissions. :: About 8%
+Using fly ash or slag to replace part of cement. :: Supplementary cementitious materials
+Fly ash comes from this. :: Coal power plants
+Slag comes from this industry. :: Steelmaking (blast furnaces)
+Recycled concrete crushed for use as gravel. :: Recycled aggregate
+3D printing of houses usually prints this material. :: Concrete (mortar)
+Building parts made in a factory and joined on site. :: Prefabrication (modular construction)
+Software models with full building data. :: BIM (Building Information Modelling)
+A popular BIM program by Autodesk. :: Revit
+The software used for 2D drafting since 1982. :: AutoCAD
+The first iron bridge in the world, built in 1779 in England. :: The Iron Bridge (Coalbrookdale)
+A floor system where precast hollow planks span between beams. :: Hollow-core slabs
+Bricks laid with long sides showing. :: Stretchers
+Bricks laid with ends showing. :: Headers
+A brick pattern of alternate rows of headers and stretchers. :: English bond
+A brick pattern with headers and stretchers alternating in each row. :: Flemish bond
+The horizontal mortar joint between brick rows. :: Bed joint
+The vertical mortar joint between bricks. :: Perpend (head joint)
+A strong beam over an opening in a brick wall. :: A lintel
+The weather-facing outer layer of a cavity wall. :: The outer leaf
+Metal ties that join the two leaves of a cavity wall. :: Wall ties
+A stone placed at the corner of a building, often with a date. :: A cornerstone (foundation stone)
+The ceremony of placing the last beam on top of a building. :: Topping out
+The crane type with a horizontal jib on a tall mast. :: A tower crane
+The term for the wet mix of cement and water before sand and stone are added. :: Cement paste
+
+## 400
+The modulus of elasticity of steel is about this. :: 200 GPa
+The modulus of elasticity of normal concrete is about this. :: 25 to 35 GPa
+The density of steel is about this. :: 7,850 kg per cubic metre
+The density of normal concrete is about this. :: 2,400 kg per cubic metre
+The coefficient of thermal expansion of steel and concrete is about the same. This lets them do this. :: Work together without cracking apart
+The yield strength of common rebar grade 60. :: 420 MPa (60,000 psi)
+The yield strength of common structural steel S355. :: 355 MPa
+The tensile strength of concrete is about this fraction of its compressive strength. :: A tenth
+In a steel I-beam, most bending stress is carried by this. :: The flanges
+In a steel I-beam, most shear is carried by this. :: The web
+The property of a section that measures resistance to bending. :: The second moment of area (I)
+The formula for bending stress in a beam. :: σ = My/I
+The section modulus is I divided by this. :: The distance to the extreme fibre (y)
+The deflection of a simply supported beam with uniform load is 5wL⁴ divided by this. :: 384EI
+The Euler buckling load is π²EI divided by this. :: (KL)²
+The effective length factor K for a column fixed at both ends (theory). :: 0.5
+The effective length factor K for a column pinned at both ends. :: 1.0
+The effective length factor K for a cantilever column (fixed-free). :: 2.0
+The method of analysing indeterminate frames by distributing moments, by Hardy Cross. :: The moment distribution method
+The modern computer method of analysing structures by small elements. :: The finite element method
+The theorem that the deflection at one point due to a load at another equals the reverse. :: Maxwell's reciprocal theorem
+The theorem using strain energy to find deflections. :: Castigliano's theorem
+The method of virtual work uses this imaginary quantity. :: A virtual (unit) load
+The diagram showing bending moment along a beam. :: A bending moment diagram
+Where shear force is zero, the bending moment is this. :: A maximum (or minimum)
+The point where bending moment changes sign. :: The point of contraflexure
+The strut-and-tie model is used for these parts of concrete structures. :: Disturbed regions (deep beams, corbels)
+A short cantilever from a column that supports a beam. :: A corbel
+A beam much deeper than usual, such as a transfer beam. :: A deep beam
+A thick slab or beam that moves column loads to a different grid below. :: A transfer structure
+A tall-building system where outrigger trusses link the core to outer columns. :: Outrigger system
+The tallest building in Saudi Arabia completed so far. :: The Abraj Al-Bait Clock Tower
+The Abraj Al-Bait Clock Tower is about this tall. :: 601 metres
+The clock faces of the Makkah clock tower are about this wide. :: 43 metres
+The world's tallest tower planned in Jeddah is called this. :: Jeddah Tower
+The architect of the Jeddah Tower. :: Adrian Smith + Gordon Gill
+Concrete pumped to record heights at Burj Khalifa reached about this height. :: 600 metres
+High-strength concrete in tall buildings has strength above this. :: 60 MPa (some above 80)
+Concrete with steel or plastic fibres. :: Fibre-reinforced concrete
+Very strong concrete above 150 MPa with fibres. :: Ultra-high performance concrete (UHPC)
+Rebar coated to resist corrosion. :: Epoxy-coated rebar
+Non-metal reinforcement bars made of glass or carbon fibre. :: FRP (fibre-reinforced polymer) bars
+Wrapping old columns with carbon fibre to strengthen them. :: FRP wrapping (jacketing)
+Sending an electric current to stop rebar rusting. :: Cathodic protection
+The test that measures concrete strength by bouncing a hammer. :: The rebound (Schmidt) hammer test
+The test using sound waves to check concrete quality. :: The ultrasonic pulse velocity test
+A cylinder of concrete drilled out to test strength. :: A core
+The test that drives a cone into soil to find its strength. :: The cone penetration test (CPT)
+The test that counts hammer blows to drive a sampler 300 mm. :: The standard penetration test (SPT)
+The test for the bearing capacity of soil using a steel plate. :: The plate load test
+Piles cast by drilling a hole and filling it with concrete. :: Bored (cast-in-place) piles
+A group of piles capped by a thick concrete block. :: A pile cap
+A combined raft and pile foundation. :: A piled raft
+The Burj Khalifa stands on this type of foundation. :: A piled raft
+The cable used in prestressing. :: A tendon (strand)
+The loss of prestress over time due to steel relaxation, creep and this. :: Shrinkage (and friction, anchorage slip)
+The Saudi climate needs concrete to be cooled during casting in summer. A common way is to add this. :: Ice (chilled water)
+The Saudi Building Code is published by this committee. :: The Saudi Building Code National Committee
+The Saudi standards body for building materials. :: SASO
+The Saudi Green Building program for energy efficiency, called this. :: Mostadam
+The US green building rating system. :: LEED
+The British green building rating system. :: BREEAM
+The Abu Dhabi green building rating. :: Estidama (Pearl Rating)
+The German timber-frame style with exposed beams. :: Fachwerk
+The Japanese technique of joining timber without nails. :: Japanese joinery (sashimono, tsugite)
+The famous wooden temple in Nara, among the largest wooden buildings. :: Tōdai-ji
+The tallest wooden pagoda in Japan is at this temple. :: Tō-ji (Kyoto)
+Japanese pagodas survive earthquakes partly thanks to this central post. :: The shinbashira
+The ancient method of building walls of stacked stones without mortar. :: Dry stone walling
+Huge stones fitted together without mortar by the Inca. :: Polygonal masonry (ashlar)
+The thin brick vault built without formwork, used in Iran and by Hassan Fathy ﵀. :: The Nubian vault
+The ancient structure in Iran that kept ice in summer. :: A yakhchal
+The Roman bridge over the Tagus in Spain. :: The Alcántara Bridge
+The architect-engineer of the Brooklyn Bridge. :: John A. Roebling
+The Brooklyn Bridge opened in this year. :: 1883
+The workers' sickness when coming up from caissons too fast, seen at the Brooklyn Bridge. :: Decompression sickness (the bends)
+The German engineer who invented the lightweight tensile structures of Munich 1972. :: Frei Otto (with Jörg Schlaich)
+The German engineering firm famous for cable-net structures. :: Schlaich Bergermann Partner
+The concrete test cube size commonly used in Britain and Saudi Arabia. :: 150 mm
+The standard concrete test cylinder size in the US. :: 150 × 300 mm (6 × 12 in)
+The cylinder strength of concrete is about this fraction of cube strength. :: About 0.8
+Steel reinforcement bar sizes are given by this. :: Their diameter in millimetres (or bar number)
+The minimum concrete cover for beams inside a dry building is usually about this. :: 25 to 40 mm
+In hot aggressive Gulf conditions, cover to rebar is often increased to about this. :: 50 to 75 mm
+The rule of thumb for span-to-depth ratio of a simply supported concrete beam. :: About 12 to 16
+The rule of thumb for span-to-depth ratio of a steel beam. :: About 20
+A column taking load from a beam on one side only is said to carry this. :: Eccentric (offset) load
+A column carrying both axial load and bending is designed with this diagram. :: An interaction diagram
+A frame whose joints resist rotation to resist sideways loads. :: A moment (rigid) frame
+A frame that uses diagonal members to resist sideways loads. :: A braced frame
+A concrete wall that resists sideways loads in a building. :: A shear wall
+A floor slab acting as a horizontal beam to carry wind to walls. :: A diaphragm
+The sideways movement of a floor relative to the one below. :: Inter-storey drift
+A typical limit on wind drift of a tall building is height divided by this. :: 500 (H/500)
+The extra moments in columns from sideways movement under gravity loads. :: P-delta effects
+The level of acceleration that makes people in tall buildings feel uncomfortable is measured in this. :: milli-g
+The wind tunnel test for tall buildings uses this. :: A scale model with pressure sensors
+The rough ground near the surface slows wind; this layer is called this. :: The atmospheric boundary layer
+The Burj Khalifa's shape was tuned to "confuse the wind" by doing this. :: Changing its shape with height (setbacks)
+The Shanghai Tower twists by about this many degrees to cut wind load. :: 120
+
+## 500
+The Roman concrete of the Pantheon's dome uses lighter stones near the top, such as this. :: Pumice
+The Pantheon's dome is unreinforced and still the largest of its kind. :: The largest unreinforced concrete dome
+The dome of Florence Cathedral was built without centring by using this brick pattern. :: Herringbone brickwork
+Brunelleschi's dome is made of two shells, inner and outer, joined by these. :: Ribs
+The dome of Hagia Sophia collapsed partly in this year after an earthquake. :: 558
+The Ottoman architect who built domes larger and lighter on half-domes. :: Mimar Sinan
+Mimar Sinan called this mosque his masterpiece. :: The Selimiye Mosque in Edirne
+The Gol Gumbaz in India has one of the largest domes, built on this structural trick. :: Intersecting arches (pendentives)
+The famous "whispering gallery" is in this London cathedral. :: St Paul's Cathedral
+St Paul's dome has three layers; the middle one is this. :: A brick cone supporting the lantern
+The English scientist who said "as hangs the flexible line, so but inverted will stand the rigid arch". :: Robert Hooke
+The Italian engineer who studied beam strength in "Two New Sciences". :: Galileo Galilei
+The French engineer who gave the theory of bending in 1826. :: Claude-Louis Navier
+The Swiss engineer who developed graphic statics. :: Karl Culmann
+The first iron bridge spans this river. :: The River Severn
+The French engineer of the Garabit viaduct. :: Gustave Eiffel
+The French engineer of thin concrete bridges, like Plougastel. :: Eugène Freyssinet
+The Swiss engineer who designed the Salginatobel Bridge. :: Robert Maillart
+The American engineer of the George Washington Bridge. :: Othmar Ammann
+The German engineer who designed the Olympic Stadium roof in Munich with Frei Otto. :: Jörg Schlaich
+A structure of struts that don't touch, held by cables. :: Tensegrity
+The Mexican engineer who built the restaurant at Xochimilco. :: Félix Candela
+Peter Rice worked on the Sydney Opera House and this Paris centre. :: The Pompidou Centre
+The Pompidou Centre's steel brackets are called these. :: Gerberettes
+The Chinese building with a "loop" shape by Rem Koolhaas. :: The CCTV Headquarters
+The CCTV building's structure is a diagonal grid on the façade called this. :: A diagrid
+The Gherkin's structure. :: A diagrid
+The Hajj Terminal won the Aga Khan Award in this year. :: 1983
+The King Fahd International Stadium roof is a membrane held by these. :: Masts and cables
+The roof of the Jamarat Bridge in Mina helps manage these crowds. :: Pilgrims stoning the pillars
+The Makkah Haramain high-speed railway connects Makkah, Madinah and this city. :: Jeddah
+The Riyadh Metro has this many lines. :: Six
+The Riyadh Metro opened in this year. :: 2024
+The Riyadh Metro's Qasr Al-Hokm station was designed by this firm. :: Snøhetta
+The KAFD Metro Station was designed by this firm. :: Zaha Hadid Architects
+The steel cable test standard for prestressing strand. :: ASTM A416
+The ASTM standard for Portland cement. :: ASTM C150
+The type of cement that resists sulphate attack, often used in the Gulf. :: Sulphate-resisting cement (Type V)
+Type I Portland cement is called this. :: Ordinary Portland cement
+Type III cement is used for this. :: High early strength
+The chemical compound in cement that gives early strength. :: Tricalcium silicate (C3S)
+The compound in cement linked to sulphate attack. :: Tricalcium aluminate (C3A)
+The main product of cement hydration that gives strength. :: Calcium silicate hydrate (C-S-H)
+The by-product of hydration that makes concrete alkaline. :: Calcium hydroxide
+The pH of fresh concrete is about this. :: 12.5 to 13
+Silica fume comes from making this. :: Silicon metal (ferrosilicon)
+The study of how concrete flows. :: Rheology
+The Bingham model describes concrete with yield stress and this. :: Plastic viscosity
+The test with a ring of bars to check self-compacting concrete passing ability. :: The J-ring test
+The ASTM test for flow of self-compacting concrete. :: The slump flow test
+The time when concrete starts to stiffen. :: Initial set
+The instrument used to measure setting time of cement. :: The Vicat apparatus
+The method that estimates concrete strength by temperature and time. :: The maturity method
+The Roman engineer Apollodorus built a bridge across this river. :: The Danube (Trajan's Bridge)
+The Gothic master builders used this rule to size buttresses. :: Geometric rules of thumb
+The Scottish engineer who built the Menai Suspension Bridge. :: Thomas Telford
+The British engineer of the Clifton Suspension Bridge. :: Isambard Kingdom Brunel
+The Tay Bridge collapsed in a storm in this year. :: 1879
+The Quebec Bridge collapsed during building in this year. :: 1907
+The ring worn by Canadian engineers is said to remember this collapse. :: The Quebec Bridge
+The Silver Bridge in the US collapsed in 1967 because of a crack in this part. :: An eyebar
+The Sampoong Department Store collapsed in this city in 1995. :: Seoul
+The Rana Plaza collapse of 2013 was in this country. :: Bangladesh
+The 2021 Surfside condominium collapse was in this US state. :: Florida
+The Kansas City Hyatt walkway collapse involved hanger rods and this change. :: A switch from one continuous rod to two rods
+The engineer who blew the whistle on the Citicorp Center's wind weakness. :: William LeMessurier
+The Citicorp Center's columns are placed in this unusual position. :: At the middle of each side
+The tallest building in the world before Burj Khalifa. :: Taipei 101
+The tallest building in the world before Taipei 101. :: The Petronas Towers
+The Home Insurance Building was the first tall building with a frame of this. :: Metal (iron and steel)
+The Monadnock Building's walls at the base are about this thick. :: 1.8 metres
+The Ingalls Building of 1903 in Cincinnati was the first skyscraper in this material. :: Reinforced concrete
+The Hennebique system was an early patent for this. :: Reinforced concrete frames
+The French architect who used reinforced concrete in Rue Franklin flats. :: Auguste Perret
+The Swiss architect who wrote that concrete frames free the plan. :: Le Corbusier (the Dom-ino house)
+The Dom-ino House shows slabs, columns and this. :: Stairs (no walls)
+The Italian engineer who designed the Pirelli Tower with Gio Ponti. :: Pier Luigi Nervi
+The Spanish engineer who wrote "Philosophy of Structures". :: Eduardo Torroja
+The concrete shell of the Kresge Auditorium at MIT is one-eighth of this shape. :: A sphere
+The structure of the Water Cube in Beijing is based on these. :: Soap bubbles (Weaire-Phelan foam)
+The Weaire-Phelan structure divides space into cells of equal volume with less surface than this earlier one. :: The Kelvin structure
+The plastic cushion material used in the Water Cube and Eden Project. :: ETFE
+The Eden Project in Cornwall uses these shapes. :: Geodesic domes (biomes)
+The Millau Viaduct in France is this type of bridge. :: Cable-stayed
+The Millau Viaduct was designed by Michel Virlogeux and this architect. :: Norman Foster
+The tallest bridge pier of the Millau Viaduct is about this tall. :: 245 metres
+The longest span of a suspension bridge, opened in Turkey in 2022. :: The 1915 Çanakkale Bridge
+The 1915 Çanakkale Bridge crosses this strait. :: The Dardanelles
+The Akashi Kaikyō Bridge is in this country. :: Japan
+The material science term for steel's ability to absorb energy before breaking. :: Toughness
+The test for steel toughness with a swinging hammer. :: The Charpy impact test
+At low temperatures some steels become this. :: Brittle
+The Liberty ships of the Second World War cracked because of this. :: Brittle fracture
+The welding defect where hydrogen causes cracking. :: Hydrogen cracking
+The test for welds using sound waves. :: Ultrasonic testing
+The test for welds using X-rays. :: Radiographic testing
+The coloured liquid test that shows surface cracks. :: Dye penetrant testing
+The test that pulls a steel bar until it breaks. :: The tensile test
+The magnetic test that finds cracks near the surface of steel. :: Magnetic particle testing
+The term for the curve where a steel test piece narrows before breaking. :: Necking

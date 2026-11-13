@@ -1,0 +1,629 @@
+id: turkish
+name: Turkish
+group: humanities
+
+## 100
+Turkish is the official language of this country. :: Turkey (Türkiye)
+Turkish is also an official language of this island country, with Greek. :: Cyprus
+Today Turkish is written in this alphabet. :: The Latin alphabet
+Turkish is written in this direction. :: Left to right
+The Turkish word "merhaba" means this. :: Hello
+The Turkish word "teşekkürler" means this. :: Thank you
+The Turkish word "evet" means this. :: Yes
+The Turkish word "hayır" means this. :: No
+The Turkish word "lütfen" means this, and comes from Arabic. :: Please
+The Turkish word "su" means this. :: Water
+The Turkish word "ekmek" means this. :: Bread
+The Turkish word "çay" means this. :: Tea
+The Turkish word "kahve" means this. :: Coffee
+The Turkish word "süt" means this. :: Milk
+The Turkish word "et" means this. :: Meat
+The Turkish word "tavuk" means this. :: Chicken
+The Turkish word "balık" means this. :: Fish
+The Turkish word "pilav" means this. :: Rice (cooked rice dish)
+The Turkish word "peynir" means this. :: Cheese
+The Turkish word "yumurta" means this. :: Egg
+The Turkish word "elma" means this fruit. :: Apple
+The Turkish word "muz" means this fruit. :: Banana
+The Turkish word "portakal" means this fruit, named after a country. :: Orange (from Portugal)
+The Turkish word "karpuz" means this fruit. :: Watermelon
+The Turkish word "şeker" means this. :: Sugar (also sweets)
+The Turkish word "tuz" means this. :: Salt
+The Turkish word "ev" means this. :: House
+The Turkish word "okul" means this. :: School
+The Turkish word "kitap" means this, and comes from Arabic. :: Book
+The Turkish word "kalem" means this, and comes from Arabic. :: Pen (pencil)
+The Turkish word "öğretmen" means this. :: Teacher
+The Turkish word "öğrenci" means this. :: Student
+The Turkish word "arkadaş" means this. :: Friend
+The Turkish word "anne" means this. :: Mother
+The Turkish word "baba" means this. :: Father
+The Turkish word "kardeş" means this. :: Brother or sister (sibling)
+The Turkish word "abla" means this. :: Elder sister
+The Turkish word "ağabey" (abi) means this. :: Elder brother
+The Turkish word "çocuk" means this. :: Child
+The Turkish word "bir" means this number. :: One
+The Turkish word "iki" means this number. :: Two
+The Turkish word "üç" means this number. :: Three
+The Turkish word "dört" means this number. :: Four
+The Turkish word "beş" means this number. :: Five
+The Turkish word "on" means this number. :: Ten
+The Turkish word "yüz" means this number. :: One hundred
+The Turkish word "bin" means this number. :: One thousand
+The Turkish word "kırmızı" means this colour. :: Red
+The Turkish word "mavi" means this colour. :: Blue
+The Turkish word "yeşil" means this colour. :: Green
+The Turkish word "sarı" means this colour. :: Yellow
+The Turkish word "beyaz" means this colour. :: White
+The Turkish word "siyah" (or "kara") means this colour. :: Black
+The Turkish word "gün" means this. :: Day
+The Turkish word "gece" means this. :: Night
+The Turkish word "sabah" means this, and comes from Arabic. :: Morning
+The Turkish word "akşam" means this. :: Evening
+The Turkish word "bugün" means this. :: Today
+The Turkish word "yarın" means this. :: Tomorrow
+The Turkish word "dün" means this. :: Yesterday
+The Turkish word "yıl" means this. :: Year
+The Turkish word "ay" means both this and "month". :: Moon
+The Turkish word "güneş" means this. :: Sun
+The Turkish word "yıldız" means this. :: Star
+The Turkish word "deniz" means this. :: Sea
+The Turkish word "dağ" means this. :: Mountain
+The Turkish word "ağaç" means this. :: Tree
+The Turkish word "çiçek" means this. :: Flower
+The Turkish word "kedi" means this animal. :: Cat
+The Turkish word "köpek" means this animal. :: Dog
+The Turkish word "at" means this animal. :: Horse
+The Turkish word "kuş" means this animal. :: Bird
+The Turkish word "büyük" means this. :: Big
+The Turkish word "küçük" means this. :: Small
+The Turkish word "güzel" means this. :: Beautiful (nice)
+The Turkish word "iyi" means this. :: Good
+The Turkish word "kötü" means this. :: Bad
+The Turkish word "sıcak" means this. :: Hot
+The Turkish word "soğuk" means this. :: Cold
+The Turkish word "yeni" means this. :: New
+The Turkish word "eski" means this. :: Old (of things)
+The Turkish word "baş" means this part of the body. :: Head
+The Turkish word "göz" means this part of the body. :: Eye
+The Turkish word "el" means this part of the body. :: Hand
+The Turkish word "ayak" means this part of the body. :: Foot
+The Turkish word "kalp" means this, and comes from Arabic. :: Heart
+"Nasılsın?" asks this. :: How are you?
+"İyiyim" means this. :: I am fine
+"Benim adım ..." means this. :: My name is ...
+"Hoş geldiniz" means this. :: Welcome
+"Hoş bulduk" is the reply to this greeting. :: Hoş geldiniz (welcome)
+"Günaydın" means this. :: Good morning
+"İyi geceler" means this. :: Good night
+"Güle güle" is said by the person who is doing this. :: Staying (to someone leaving)
+"Hoşça kal" is said by the person who is doing this. :: Leaving
+"Afiyet olsun" is said at this time. :: At a meal (enjoy your food)
+"Kolay gelsin" is said to someone who is doing this. :: Working (may it be easy)
+"Geçmiş olsun" is said to someone who is this. :: Ill or has had trouble (get well soon)
+The Turkish word "cami" means this, and comes from Arabic. :: Mosque
+The Turkish word "Allah" is written the same as in Arabic, and "inşallah" means this. :: If Allah wills
+The Turkish word "bayram" means this. :: Festival (Eid)
+"Ramazan Bayramı" is the Turkish name for this Eid. :: Eid al-Fitr
+"Kurban Bayramı" is the Turkish name for this Eid. :: Eid al-Adha
+The largest city of Turkey. :: Istanbul
+The capital of Turkey. :: Ankara
+The Turkish currency. :: The lira
+The famous Turkish sweet with layers of pastry, nuts and syrup. :: Baklava
+The soft sweet cubes often dusted with sugar. :: Lokum (Turkish delight)
+The Turkish word "döner" means this. :: Turning (rotating)
+The Turkish word "kebap" means this. :: Grilled or roasted meat
+The thin Turkish flatbread with minced meat, called "Turkish pizza". :: Lahmacun
+The Turkish salty yoghurt drink. :: Ayran
+The Turkish letter with a dot-less i, written "ı". :: Dotless i
+The Turkish letter "ç" sounds like this English sound. :: "ch" (as in church)
+The Turkish letter "ş" sounds like this English sound. :: "sh" (as in ship)
+The Turkish letter "c" sounds like this English sound. :: "j" (as in jam)
+The Turkish letter "ğ" is called this. :: Soft g (yumuşak ge)
+The Turkish letter "ü" is like the "u" in this language's "über". :: German
+The Turkish alphabet has this many letters. :: 29
+The Turkish alphabet has no Q, W or this letter. :: X
+
+## 200
+The Turkish word "merhaba" comes from this language. :: Arabic (marhaba)
+The Turkish word "selam" comes from Arabic and means this. :: Peace (hello)
+The Turkish word "dünya" means this, and comes from Arabic. :: The world
+The Turkish word "vakit" means this, and comes from Arabic. :: Time
+The Turkish word "ilim" means this, and comes from Arabic. :: Knowledge (science)
+The Turkish word "akıl" means this, and comes from Arabic. :: Mind (reason)
+The Turkish word "fikir" means this, and comes from Arabic. :: Idea
+The Turkish word "hayat" means this, and comes from Arabic. :: Life
+The Turkish word "insan" means this, and comes from Arabic. :: Human being
+The Turkish word "millet" means this, and comes from Arabic. :: Nation (people)
+The Turkish word "devlet" means this, and comes from Arabic. :: State (government)
+The Turkish word "kanun" means this, and comes from Arabic and Greek. :: Law
+The Turkish word "hukuk" means this, and comes from Arabic. :: Law (legal studies)
+The Turkish word "mahkeme" means this, and comes from Arabic. :: Court
+The Turkish word "hakim" means this in a court. :: Judge
+The Turkish word "avukat" means this, from French. :: Lawyer
+The Turkish word "doktor" comes from this language. :: French (and Latin)
+The Turkish word "hastane" means this. :: Hospital
+The Turkish word "hasta" means this, and comes from Persian. :: Ill (a patient)
+The Turkish word "ilaç" means this. :: Medicine
+The Turkish word "eczane" means this. :: Pharmacy
+The Turkish word "otobüs" means this. :: Bus
+The Turkish word "tren" means this. :: Train
+The Turkish word "uçak" means this. :: Aeroplane
+The Turkish word "gemi" means this. :: Ship
+The Turkish word "araba" means this. :: Car
+The Turkish word "yol" means this. :: Road (way)
+The Turkish word "köprü" means this. :: Bridge
+The Turkish word "şehir" means this, and comes from Persian. :: City
+The Turkish word "köy" means this. :: Village
+The Turkish word "çarşı" means this, and comes from Persian. :: Market (bazaar)
+The famous covered market of Istanbul. :: The Grand Bazaar (Kapalıçarşı)
+The Istanbul market famous for spices, also called the Egyptian Bazaar. :: The Spice Bazaar (Mısır Çarşısı)
+The Turkish word "fiyat" means this. :: Price
+"Ne kadar?" asks this. :: How much?
+"Bu ne?" asks this. :: What is this?
+"Nerede?" means this. :: Where?
+"Ne zaman?" means this. :: When?
+"Neden?" means this. :: Why?
+"Kim?" means this. :: Who?
+"Anlamadım" means this. :: I did not understand
+"Özür dilerim" means this. :: I am sorry
+"Affedersiniz" means this. :: Excuse me
+"Tamam" means this. :: Okay
+"Maşallah" is said to show this. :: Admiration (what Allah has willed)
+"Tebrikler" means this. :: Congratulations
+"Hayırlı olsun" is said on good news and means this. :: May it be blessed
+"Bayramınız mübarek olsun" means this. :: Eid Mubarak (blessed Eid)
+"Allah'a emanet ol" means this. :: Go with Allah's protection (goodbye)
+"Kusura bakma" means this. :: Don't mind it (sorry)
+The Turkish word for Friday, from Arabic. :: Cuma
+The Turkish word for Monday. :: Pazartesi
+The Turkish word for Sunday, meaning "market day". :: Pazar
+The Turkish word for Saturday. :: Cumartesi
+"Cumartesi" comes from Persian words meaning this. :: The day after Friday
+The Turkish word "yirmi" means this number. :: Twenty
+The Turkish word "elli" means this number. :: Fifty
+The Turkish word "milyon" means this number. :: Million
+The Turkish word "sıfır" means this, and comes from Arabic. :: Zero
+Turkish adds endings to words, so it is called this kind of language. :: Agglutinative
+The rule that vowels in endings match the vowels in the word. :: Vowel harmony
+The Turkish plural ending. :: -ler or -lar
+"Kitaplar" means this. :: Books
+"Evler" means this. :: Houses
+In Turkish, the verb usually comes at this place in the sentence. :: At the end
+Turkish has this many grammatical genders. :: None
+The Turkish word "o" can mean all of these. :: He, she or it
+The Turkish word for "I". :: Ben
+The Turkish word for "you" (one friend). :: Sen
+The polite or plural Turkish word for "you". :: Siz
+The Turkish word for "we". :: Biz
+The Turkish word for "they". :: Onlar
+The Turkish ending "-ci" or "-cı" makes a word for this. :: A person whose job is something
+"Kitapçı" means this. :: Bookseller (bookshop)
+"Balıkçı" means this. :: Fisherman (fishmonger)
+"Simitçi" means this. :: Seller of simit (sesame bread rings)
+The Turkish ending "-li" or "-lı" means this. :: With (or from a place)
+"İstanbullu" means this. :: A person from Istanbul
+The Turkish ending "-siz" or "-sız" means this. :: Without
+"Şekersiz" means this. :: Without sugar
+"Sütlü" means this. :: With milk
+The Turkish word "Türkçe" means this. :: The Turkish language
+The Turkish word "İngilizce" means this. :: English language
+The Turkish word "Arapça" means this. :: Arabic language
+The famous Turkish poet-saint of the 1200s who wrote simple Turkish poems of divine love. :: Yunus Emre ﵀
+The poet who wrote the words of the Turkish national anthem. :: Mehmet Akif Ersoy ﵀
+The Turkish national anthem is called this. :: İstiklal Marşı (Independence March)
+The great scholar-poet of Konya who wrote the Masnavi in Persian. :: Mawlana Jalal al-Din Rumi ﵀
+Rumi's tomb is in this Turkish city. :: Konya
+The whirling dervishes are linked with this order. :: The Mevlevi order
+The funny wise man of Turkish folk stories who rides a donkey. :: Nasreddin Hodja
+The traditional Turkish shadow puppet show with two main characters. :: Karagöz and Hacivat
+The Turkish epic of Dede Korkut is a collection of these. :: Stories (tales of the Oghuz Turks)
+The language family that Turkish belongs to. :: Turkic
+A Turkic language spoken in Azerbaijan, very close to Turkish. :: Azerbaijani
+A Turkic language of Central Asia written in Latin letters since the 1990s, spoken in Tashkent. :: Uzbek
+The Turkic language of Kazakhstan. :: Kazakh
+The Turkic language with the most speakers. :: Turkish
+The Turkish word "yalı" means this kind of house by the Bosphorus. :: A waterside mansion
+The strait that runs through Istanbul. :: The Bosphorus (Boğaziçi)
+The Turkish word "boğaz" means this. :: Throat (also strait)
+The Turkish word "Karadeniz" means this. :: The Black Sea
+The Turkish word "Akdeniz" means this. :: The Mediterranean (White Sea)
+The Turkish word "ada" means this. :: Island
+The Turkish word "göl" means this. :: Lake
+The Turkish word "kale" means this, and comes from Arabic. :: Castle (fortress)
+The Turkish word "saray" means this, and comes from Persian. :: Palace
+The famous Ottoman palace in Istanbul whose name means "cannon gate". :: Topkapı Palace
+The Turkish word "kapı" means this. :: Door (gate)
+The Turkish word "pencere" means this, from Persian. :: Window
+The Turkish word "oda" means this. :: Room
+The Turkish word "masa" means this, from Italian or Greek. :: Table
+The Turkish word "sandalye" means this, from Greek. :: Chair
+The Turkish word "anahtar" means this. :: Key
+
+## 300
+The Turkish word "kalem" comes from Arabic "qalam", which came from this older language. :: Greek (kalamos, reed)
+The Turkish word "kitap" changed the Arabic "b" to this letter. :: P
+The Turkish word "mektup" means this, and comes from Arabic "maktub". :: Letter (mail)
+The Turkish word "mektep" means this, and comes from Arabic "maktab". :: School (old word)
+The Turkish word "medrese" means this. :: Madrasa (religious college)
+The Turkish word "hoca" means this. :: Teacher (religious teacher)
+The Turkish word "imam" leads this. :: Prayer
+The Turkish word "müezzin" gives this. :: The call to prayer (ezan)
+The Turkish word for the call to prayer. :: Ezan
+The Turkish word "namaz" for prayer comes from this language. :: Persian
+The Turkish word "oruç" means this. :: Fasting
+The Turkish word "abdest" means this, from Persian. :: Ablution (wudu)
+The Turkish word "Kuran" means this. :: The Quran
+The Turkish word "hafız" means this. :: Someone who has memorised the Quran
+The Turkish word "hac" means this. :: Hajj
+The Turkish word "hacı" means this. :: A person who has done Hajj
+The Turkish word "zekat" means this. :: Zakat (obligatory charity)
+The Turkish word "sadaka" means this. :: Charity (voluntary)
+The Turkish word "helal" means this. :: Permitted (halal)
+The Turkish word "haram" means this. :: Forbidden
+The Turkish word "sabır" means this, from Arabic. :: Patience
+The Turkish word "şükür" means this, from Arabic. :: Gratitude
+The Turkish word "iman" means this, from Arabic. :: Faith
+The Turkish word "ahlak" means this, from Arabic. :: Morals (manners)
+The Turkish word "edebiyat" means this, from Arabic. :: Literature
+The Turkish word "tarih" means this, from Arabic. :: History (also date)
+The Turkish word "coğrafya" means this. :: Geography
+The Turkish word "kimya" means this. :: Chemistry
+The Turkish word "fizik" means this. :: Physics
+The Turkish word "matematik" means this. :: Mathematics
+The Turkish word "felsefe" means this, from Arabic. :: Philosophy
+The Turkish word "üniversite" comes from this language. :: French
+Many modern Turkish words like "otobüs", "tren" and "kuaför" come from this language. :: French
+Many Turkish words about the sea like "iskele" and "fırtına" come from this language. :: Italian (and Greek)
+The Turkish word "banka" comes from this language. :: Italian
+The Turkish word "fabrika" comes from this language. :: Italian
+The Turkish word "pasta" (cake) comes from this language. :: Italian
+The Turkish word "bilgisayar" was made new and means this. :: Computer
+The Turkish word "okul" was made to replace this older Arabic word. :: Mektep
+The body that guides the Turkish language, founded in 1932. :: The Turkish Language Association (TDK)
+The Turkish alphabet changed from Arabic letters to Latin letters in this year. :: 1928
+The old Ottoman language was written in this script. :: The Arabic (Perso-Arabic) script
+The Ottoman language mixed Turkish with these two languages. :: Arabic and Persian
+The Ottoman Turkish name for the language. :: Osmanlıca (Lisan-ı Osmani)
+Ottoman Turkish is called "Osmanlı Türkçesi". Today it is taught in some schools as this. :: An elective subject
+The Turkish word "padişah" means this. :: Sultan (emperor)
+The Turkish word "sadrazam" means this. :: Grand vizier
+The Turkish word "paşa" was a title for these people. :: Generals and high officials
+The Turkish word "bey" is used today to mean this. :: Mr
+The Turkish word "hanım" is used today to mean this. :: Mrs (Ms, lady)
+"Ahmet Bey" means this. :: Mr Ahmet
+"Ayşe Hanım" means this. :: Mrs (Ms) Ayşe
+The Turkish word "efendi" means this. :: Sir (master)
+The Turkish word "ağa" was a title for this. :: A chief (landowner or officer)
+The Turkish word "kaymakam" means this today. :: District governor
+The Turkish word "vali" means this. :: Provincial governor
+The Turkish word "belediye" means this. :: Municipality
+The Turkish word "meclis" means this, from Arabic. :: Assembly (parliament)
+The Turkish word "seçim" means this. :: Election
+The Turkish word "ordu" means this. :: Army
+The English word "horde" comes from this Turkish word. :: Ordu (army camp)
+The English word "yoghurt" comes from this language. :: Turkish
+The English word "kiosk" comes from the Turkish "köşk" meaning this. :: A pavilion
+The English word "coffee" came through Turkish "kahve" from this language. :: Arabic (qahwa)
+The English word "tulip" comes from a Turkish word for this. :: Turban (tülbent)
+The English word "caviar" may come from the Turkish "havyar", meaning this. :: Fish eggs (roe)
+The English word "divan" (sofa) comes from Turkish and Persian, where it meant this. :: A council (council room with cushions)
+The English word "turquoise" means this. :: Turkish (stone)
+The Turkish sweet "lokum" comes from the Arabic word for this. :: A mouthful (luqma)
+"Afiyet olsun" uses the Arabic word "afiyet" meaning this. :: Good health
+"Kolay gelsin" literally means this. :: May it come easy
+"Ellerinize sağlık" said to a cook means this. :: Health to your hands
+"Başın sağ olsun" is said at this time. :: When someone has died (condolences)
+"Çok yaşa" is said when someone does this. :: Sneezes
+The reply to "Çok yaşa". :: Sen de gör (and may you see it too)
+"Kolay gelsin" and "Hayırlı işler" are said to people at this place. :: At work (shops, workers)
+"Hayırlı işler" means this. :: May your work be blessed
+"Sıhhatler olsun" is said after this. :: A haircut or a bath (good health)
+"Nazar boncuğu" is a blue glass bead believed to stop this. :: The evil eye
+"Selamün aleyküm" is answered with this. :: Aleyküm selam
+The Turkish verb ending for "to" in the dictionary. :: -mek or -mak
+"Gitmek" means this. :: To go
+"Gelmek" means this. :: To come
+"Yemek" means both "to eat" and this. :: Food (a meal)
+"İçmek" means this. :: To drink
+"Okumak" means this. :: To read (study)
+"Yazmak" means this. :: To write (also summer: yaz)
+"Görmek" means this. :: To see
+"Konuşmak" means this. :: To speak
+"Bilmek" means this. :: To know
+"Sevmek" means this. :: To love (to like)
+"Seni seviyorum" means this. :: I love you
+"Türkçe biliyor musun?" asks this. :: Do you know Turkish?
+"Biraz" means this. :: A little
+"Çok" means this. :: Very (a lot)
+"Ama" means this. :: But
+"Ve" means this, from Arabic. :: And
+"Veya" means this. :: Or
+"Çünkü" means this, from Persian. :: Because
+"Eğer" means this, from Persian. :: If
+"Belki" means this. :: Maybe
+"Hemen" means this. :: Right away
+"Şimdi" means this. :: Now
+"Sonra" means this. :: Later (after)
+"Önce" means this. :: Before (first)
+"Hep" or "her zaman" means this. :: Always
+"Hiç" means this. :: Never (not at all)
+The question word "mi" in Turkish is written this way. :: Separately, after the word it asks about
+The ending "-de" or "-da" means this. :: In, at or on
+"Evde" means this. :: At home
+"İstanbul'da" means this. :: In Istanbul
+The ending "-den" or "-dan" means this. :: From
+"Ankara'dan" means this. :: From Ankara
+The ending "-e" or "-a" means this. :: To (towards)
+"Eve" means this. :: To the house (home)
+The "-im" ending in "kitabım" means this. :: My
+"Kitabım" means this. :: My book
+"Evimiz" means this. :: Our house
+The poet who wrote "Leyla ile Mecnun" in Turkish in the 1500s. :: Fuzuli ﵀
+The Ottoman poet called the "Sultan of poets" in Suleiman's time. :: Baki ﵀
+The Ottoman poet known for Tulip Era poems about Istanbul gardens. :: Nedim ﵀
+The Tulip Era (Lale Devri) was in this century. :: The 18th century
+The Ottoman scholar who wrote "Seyahatname", a ten-volume travel book. :: Evliya Çelebi ﵀
+The Ottoman scholar who wrote "Kitab-ı Bahriye" on sailing and maps. :: Piri Reis ﵀
+The Ottoman scholar who wrote "Kashf al-Zunun", a list of books. :: Katip Çelebi ﵀
+The Turkic scholar who wrote "Diwan Lughat al-Turk", the first Turkish dictionary, in Arabic. :: Mahmud al-Kashgari ﵀
+"Diwan Lughat al-Turk" explained Turkish words for speakers of this language. :: Arabic
+The oldest Turkish writing on stone monuments in Mongolia. :: The Orkhon inscriptions
+The Orkhon inscriptions use this kind of script. :: Old Turkic runes
+The poem "Kutadgu Bilig", meaning "wisdom that brings happiness", was written by this scholar. :: Yusuf Has Hajib ﵀
+
+## 400
+The Turkish proverb "Damlaya damlaya göl olur" means this. :: Drop by drop, a lake forms (little by little)
+The Turkish proverb "Ağaç yaşken eğilir" means this. :: A tree bends while young (teach children early)
+The Turkish proverb "Bir elin nesi var, iki elin sesi var" means this. :: Teamwork makes a difference (one hand cannot clap)
+The Turkish proverb "Sakla samanı, gelir zamanı" means this. :: Keep the straw; its time will come (waste not)
+The Turkish proverb "Dost acı söyler" means this. :: A friend tells bitter truths
+The Turkish proverb "Komşu komşunun külüne muhtaçtır" means this. :: Neighbours need each other, even for ashes
+The Turkish proverb "Ayağını yorganına göre uzat" means this. :: Stretch your legs to fit your quilt (live within your means)
+The Turkish proverb "Sabrın sonu selamettir" means this. :: Patience ends in safety
+The Turkish proverb "Acele işe şeytan karışır" means this. :: The devil interferes in hasty work
+The Turkish proverb "Bin bilsen de bir bilene danış" means this. :: However much you know, ask someone who knows
+The Turkish proverb "Tatlı dil yılanı deliğinden çıkarır" means this. :: A sweet tongue draws a snake from its hole
+The Turkish proverb "İşleyen demir ışıldar" means this. :: Iron that is worked shines
+The Turkish proverb "Üzüm üzüme baka baka kararır" means this. :: People take on the habits of those around them
+The Turkish proverb "Bir fincan kahvenin kırk yıl hatırı vardır" means this. :: A cup of coffee is remembered for forty years
+The Turkish proverb "Ne ekersen onu biçersin" means this. :: You reap what you sow
+The Turkish proverb "Gülü seven dikenine katlanır" means this. :: Whoever loves the rose puts up with its thorns
+The Turkish proverb "Az olsun, öz olsun" means this. :: Little but good (quality over quantity)
+The Turkish proverb "Ateş olmayan yerden duman çıkmaz" means this. :: No smoke without fire
+The Turkish proverb "Su uyur, düşman uyumaz" means this. :: Water sleeps, the enemy does not (stay alert)
+The Turkish proverb "Ak akçe kara gün içindir" means this. :: Save white coins for a dark day
+The Turkish proverb "Her yokuşun bir inişi vardır" means this. :: Every climb has a way down
+The Turkish proverb "Ağlamayan çocuğa meme vermezler" means this. :: The child who doesn't cry is not fed (speak up)
+The Turkish proverb "Keskin sirke küpüne zarar" means this. :: Sharp vinegar harms its own jar (anger hurts the angry)
+The Turkish proverb "Mum dibine ışık vermez" means this. :: A candle does not light its own base
+The Turkish idiom "Etekleri zil çalmak" means this. :: To be overjoyed
+The Turkish idiom "Gözden düşmek" means this. :: To fall out of favour
+The Turkish idiom "Kulak vermek" means this. :: To listen carefully
+The Turkish idiom "Ağzı kulaklarında" means this. :: Grinning from ear to ear
+The Turkish idiom "Pireyi deve yapmak" means this. :: To make a mountain out of a molehill (turn a flea into a camel)
+The Turkish idiom "Kafayı yemek" means this. :: To go crazy
+The Turkish idiom "Eli açık" describes someone who is this. :: Generous
+The Turkish idiom "Eli sıkı" describes someone who is this. :: Stingy
+The Turkish idiom "Burnu havada" describes someone who is this. :: Arrogant (nose in the air)
+The Turkish idiom "Dili uzun" describes someone who is this. :: Rude (sharp-tongued)
+The Turkish idiom "Kılı kırk yarmak" means this. :: To split hairs
+The Turkish idiom "Taş çatlasa" means this. :: At the very most
+The Turkish idiom "Gözü yemek" means this. :: To dare
+The Turkish idiom "Ayağını denk almak" means this. :: To watch your step
+The Turkish idiom "İki dirhem bir çekirdek" describes someone who is this. :: Dressed up smartly
+The Turkish idiom "Su gibi" means this. :: Fluently (like water)
+Yunus Emre's famous line "Gelin tanış olalım" asks people to do this. :: Come and get to know one another
+Yunus Emre's famous line about loving creation "for the sake of the Creator". :: Yaratılanı severiz Yaratandan ötürü
+Yunus Emre's tomb is claimed by several towns, and the best-known is in this area. :: Eskişehir (Sarıköy)
+The year 2021 was named by UNESCO as the anniversary year of this poet. :: Yunus Emre ﵀ (700th year of his death)
+Mehmet Akif Ersoy's ﵀ collection of poems. :: Safahat
+The Turkish national anthem was adopted in this year. :: 1921
+The Turkish national anthem begins with these words. :: Korkma (Do not fear)
+The Turkish epic hero who appears in the stories of Dede Korkut. :: Deli Dumrul (and others, like Bamsı Beyrek)
+The folk poet of the 1600s who played the saz. :: Karacaoğlan ﵀
+The long-necked Turkish lute. :: The bağlama (saz)
+The Turkish folk poet-singer who plays the saz is called this. :: An aşık (ozan)
+The Ottoman poetry style using the Arabic-Persian metre. :: Aruz
+The Turkish folk poetry style counting syllables. :: Hece (syllabic metre)
+The Ottoman poem collection of a poet is called this. :: A divan
+The poetry of the Ottoman court is called this in Turkish. :: Divan edebiyatı
+The traveller Evliya Çelebi ﵀ was born in this city. :: Istanbul
+Piri Reis ﵀ drew a famous map in 1513 that shows part of this continent. :: The Americas (South America)
+The Turkish word "sanat" means this, from Arabic. :: Art (craft)
+The Turkish art of marbling paper. :: Ebru
+The Turkish art of illuminating manuscripts with gold. :: Tezhip
+The Turkish art of calligraphy is called this. :: Hat
+The calligrapher's reed pen in Turkish. :: Kamış kalem
+The Ottoman calligrapher Hafız Osman ﵀ was famous for writing copies of the Quran and this. :: Hilye (descriptions of our Beloved and our master, the Prophet Muhammad ﷺ)
+The Ottoman royal signature in calligraphy. :: The tuğra
+The Turkish word "çini" means this. :: Glazed tile
+The famous Turkish tile town. :: İznik
+The Turkish word "halı" means this. :: Carpet
+The Turkish word "kilim" means this. :: A flat-woven rug
+The Turkish word "kahvaltı" means this. :: Breakfast
+"Kahvaltı" comes from "kahve altı", meaning this. :: Before coffee (food under coffee)
+The Turkish coffee is cooked in this small pot. :: A cezve
+The Turkish tea is served in this kind of glass. :: A tulip-shaped glass
+The Turkish double teapot. :: Çaydanlık
+The Turkish dish of stuffed vine leaves. :: Dolma (sarma)
+The Turkish word "dolma" means this. :: Stuffed (filled)
+The Turkish dumplings with yoghurt. :: Mantı
+The Turkish lentil soup. :: Mercimek çorbası
+The Turkish word "çorba" means this, from Persian. :: Soup
+The Turkish sesame bread ring. :: Simit
+The Turkish milk pudding. :: Sütlaç
+The Turkish dessert made from shredded pastry and cheese. :: Künefe
+The Turkish word "pide" means this. :: A boat-shaped flatbread
+The Turkish ice cream that is stretchy. :: Dondurma (Maraş ice cream)
+The Turkish word "meze" means this. :: Small starter dishes
+The Turkish word "börek" means this. :: Filled pastry
+The Turkish word "köfte" means this. :: Meatballs
+The Turkish word "şiş" means this. :: Skewer
+The Turkish dish "İskender kebap" is from this city. :: Bursa
+The Turkish dish "Adana kebap" is named after this city. :: Adana
+The Turkish word "baklava" is linked to the Ottoman palace kitchens of this city. :: Istanbul (Topkapı)
+The Turkish city famous for pistachio baklava. :: Gaziantep
+The Turkish letter "ğ" never starts this. :: A word
+The Turkish letter "ğ" usually does this to the vowel before it. :: Makes it longer
+The Turkish dotted capital "İ" and dotless small "ı" are a famous problem for this. :: Computers (case conversion)
+The Turkish word for "Istanbul" in Ottoman times was also this. :: Konstantiniyye (Dersaadet)
+The old Arabic name for Istanbul. :: Al-Qustantiniyya
+The Companion buried near the walls of Istanbul, who joined an early siege. :: Abu Ayyub al-Ansari ﵁
+The Istanbul district named after Abu Ayyub al-Ansari ﵁. :: Eyüp (Eyüpsultan)
+The Turkish proverb "Söz gümüşse sükut altındır" means this. :: If speech is silver, silence is gold
+The Turkish proverb "Ak koyunun kara kuzusu da olur" means this. :: A white sheep can have a black lamb
+The Turkish proverb "Lafla peynir gemisi yürümez" means this. :: Talk alone gets nothing done (a cheese ship doesn't sail on words)
+The Turkish proverb "Göz görmeyince gönül katlanır" means this. :: Out of sight, out of mind
+The Turkish proverb "Her işte bir hayır vardır" means this. :: There is good in everything
+The Turkish idiom "Çam devirmek" means this. :: To make a social blunder (put your foot in it)
+The Turkish idiom "Hapı yutmak" means this. :: To be in big trouble
+The Turkish idiom "Kulağına küpe olmak" means this. :: To learn a lesson from something
+
+## 500
+Turkish is part of this larger language family, which some linguists debate. :: Altaic (debated)
+The Turkic language of the Uyghurs is written in this script in China. :: The Arabic script
+The Turkic language of Tatarstan in Russia. :: Tatar
+The extinct Turkic language of the Bulgars survives in this language. :: Chuvash
+The Turkic language with Turkish in the Oghuz branch, spoken in Turkmenistan. :: Turkmen
+The Turkish spoken in Cyprus is called this. :: Cypriot Turkish
+The Turkish of Ottoman Muslims of the Balkans survives in this country among others. :: Bulgaria (and North Macedonia, Greece)
+The Turkish vowel harmony has two kinds, based on these. :: Front and back (and rounded and unrounded)
+The two-way vowel harmony gives the ending -ler or -lar. Words with "e, i, ö, ü" take this. :: -ler
+The four-way vowel harmony gives endings like -im, -ım, -um or this. :: -üm
+The longest commonly quoted Turkish word, meaning "as if you are one of those we could not make uncivilised". :: Muvaffakiyetsizleştiricileştiriveremeyebileceklerimizdenmişsinizcesine
+The Turkish tense ending "-iyor" shows this. :: The present continuous
+The Turkish ending "-ecek" or "-acak" shows this. :: The future
+The Turkish ending "-di" shows this. :: The past (seen)
+The Turkish ending "-miş" shows this. :: Reported or surprising past (hearsay)
+"Gelmiş" means this. :: He or she has apparently come
+The Turkish word "ki" used in "diyor ki" is borrowed from this language. :: Persian
+The Turkish word "bile" means this. :: Even
+The Turkish word "henüz" means this. :: Yet (just)
+The Turkish word "artık" means this. :: Anymore (from now on)
+The Turkish word "zaten" means this, from Arabic. :: Already (anyway)
+The Turkish word "galiba" means this, from Arabic. :: Probably
+The Turkish word "nihayet" means this, from Arabic. :: Finally
+The Turkish word "aslında" means this. :: Actually
+The Turkish word "maalesef" means this, from Arabic. :: Unfortunately
+The Turkish word "mümkün" means this, from Arabic. :: Possible
+The Turkish word "imkansız" means this. :: Impossible
+The Turkish word "lazım" means this, from Arabic. :: Necessary
+The Turkish word "mecburiyet" means this, from Arabic. :: Obligation
+The Turkish word "istikbal" means this, from Arabic. :: The future
+The Turkish word "istiklal" means this, from Arabic. :: Independence
+The Turkish word "inkılap" means this, from Arabic. :: Reform (revolution)
+The Turkish word "cumhuriyet" means this, from Arabic. :: Republic
+"Cumhuriyet" comes from the Arabic word "jumhur" meaning this. :: The public (the people)
+The Turkish word "hürriyet" means this, from Arabic. :: Freedom
+The Turkish word "adalet" means this, from Arabic. :: Justice
+The Turkish word "medeniyet" means this, from Arabic. :: Civilisation
+The Turkish word "seyahat" means this, from Arabic. :: Travel
+The Turkish word "ticaret" means this, from Arabic. :: Trade
+The Turkish word "sanayi" means this, from Arabic. :: Industry
+The Turkish word "ziraat" means this, from Arabic. :: Agriculture
+The Turkish word "tıp" means this, from Arabic. :: Medicine (the science)
+The Turkish word "mühendis" means this, from Arabic and Persian. :: Engineer
+The Turkish word "mimar" means this, from Arabic. :: Architect
+The Turkish word "kütüphane" means this. :: Library
+"Kütüphane" mixes the Arabic "kutub" with this Persian word for house. :: Hane (khane)
+The Turkish word "postane" means this. :: Post office
+The Turkish word "pastane" means this. :: Cake shop (patisserie)
+The Turkish word "dershane" means this. :: Study centre (cram school)
+Many TDK new words replaced Arabic ones. The new word "sözlük" replaced this one for dictionary. :: Lügat
+The new word "uçak" replaced this Ottoman word for aeroplane. :: Tayyare
+The new word "okul" replaced the Arabic-based "mektep". The new word "öğretmen" replaced this. :: Muallim
+The new word "sınav" replaced this Arabic word for exam. :: İmtihan
+The new word "yanıt" was made to replace this Arabic word for answer. :: Cevap
+The new word "soru" is used next to this Arabic word for question. :: Sual
+The new word "örnek" replaced this Arabic word for example. :: Misal
+The new word "doğa" replaced this Arabic word for nature. :: Tabiat
+The new word "bilim" replaced this Arabic word for science. :: İlim
+The new word "düşünce" is used beside this Arabic word for thought. :: Fikir
+The new word "olanak" is used beside this Arabic word for possibility. :: İmkan
+The new word "sorun" is used beside this Arabic word for problem. :: Mesele
+The language reform movement to remove Arabic and Persian words is called this. :: Öztürkçe (pure Turkish)
+The Ottoman scholar Ahmed Cevdet Pasha ﵀ led the writing of this civil law code. :: The Mecelle
+The Mecelle was based on this school of Islamic law. :: The Hanafi school
+The Ottoman word for the Friday sermon. :: Hutbe
+The Turkish Ministry of Religious Affairs is called this. :: Diyanet
+The Ottoman word "ferman" means this. :: A royal decree
+The Ottoman word "berat" means this. :: A royal licence (warrant)
+The Ottoman word "vakıf" means this. :: A charitable endowment (waqf)
+The Ottoman word "imaret" means this. :: A public kitchen (soup kitchen)
+The Ottoman word "külliye" means this. :: A mosque complex with schools, kitchens and baths
+The Ottoman word "darüşşifa" means this. :: Hospital (house of healing)
+The Ottoman word "sebil" means this. :: A public drinking fountain
+The Ottoman word "hamam" means this. :: A bathhouse
+The Ottoman word "kervansaray" means this. :: Caravanserai (inn for traders)
+The Ottoman word "han" means this in towns. :: An inn or trade building
+The Ottoman word "bedesten" means this. :: A covered market for valuable goods
+The Turkish calligrapher who founded the Ottoman style of naskh in the 1400s. :: Şeyh Hamdullah ﵀
+The Ottoman poet Şeyh Galib ﵀ wrote this famous allegorical poem. :: Hüsn ü Aşk (Beauty and Love)
+Şeyh Galib ﵀ belonged to this Sufi order. :: The Mevlevi order
+The poet Fuzuli ﵀ wrote in Turkish, Arabic and this language. :: Persian
+Fuzuli ﵀ lived in this country. :: Iraq (Baghdad and Karbala)
+The 15th-century poet who wrote in Chagatai Turkic and praised the Turkic language. :: Ali Shir Nava'i ﵀
+Ali Shir Nava'i ﵀ wrote a book comparing Turkic with this language. :: Persian
+Nava'i's book "Muhakamat al-Lughatayn" means this. :: The Judgement of the Two Languages
+The Chagatai language was used in this region. :: Central Asia
+Mahmud al-Kashgari ﵀ finished his dictionary around this year. :: 1074
+The Orkhon inscriptions date from this century. :: The 8th century
+The Turkish of the Seljuks in Anatolia is called this. :: Old Anatolian Turkish
+The Turkish word "Türk" first appears in writing in this kind of source. :: Chinese records and the Orkhon inscriptions
+The poet of the collection "Kendi Gök Kubbemiz". :: Yahya Kemal Beyatlı ﵀
+Yahya Kemal ﵀ is famous for poems about this city. :: Istanbul
+The Turkish novelist of "Saatleri Ayarlama Enstitüsü". :: Ahmet Hamdi Tanpınar ﵀
+The writer of "Çalıkuşu" (The Wren). :: Reşat Nuri Güntekin ﵀
+The famous Turkish poet Cahit Sıtkı Tarancı ﵀ wrote this poem about turning 35. :: Otuz Beş Yaş
+The Turkish word "teşekkür" comes from this Arabic root. :: Shukr (thanks)
+The Turkish word "tebrik" comes from this Arabic root. :: Baraka (blessing)
+The Turkish word "müracaat" means this, from Arabic. :: Application
+The Turkish word "müdür" means this, from Arabic. :: Director (manager)
+The Turkish word "memur" means this, from Arabic. :: Civil servant (official)
+The Turkish word "rica" means this, from Arabic. :: Request
+"Rica ederim" is said as a reply to this. :: Thank you (you're welcome)
+The Turkish word "teşkilat" means this, from Arabic. :: Organisation
+The Turkish word "nüfus" means this, from Arabic. :: Population
+The Turkish word "hava" means both this and "weather". :: Air
+
+## translate
+Merhaba :: Hello
+Teşekkür ederim :: Thank you
+Nasılsınız? :: How are you?
+İyiyim, teşekkürler :: I am fine, thank you
+Hoş geldiniz :: Welcome
+Günaydın :: Good morning
+İyi akşamlar :: Good evening
+Afiyet olsun :: Enjoy your meal
+Kolay gelsin :: May your work be easy
+Geçmiş olsun :: Get well soon
+Ne kadar? :: How much?
+Su istiyorum :: I want water
+Bir çay lütfen :: One tea, please
+Anlamadım :: I did not understand
+Türkçe bilmiyorum :: I don't speak Turkish
+Benim adım Ahmet :: My name is Ahmet
+Nerelisiniz? :: Where are you from?
+Suudi Arabistan'danım :: I am from Saudi Arabia
+Tuvalet nerede? :: Where is the toilet?
+Çok güzel :: Very beautiful
+Allah'a emanet ol :: Go with Allah's protection
+Bayramınız mübarek olsun :: Blessed Eid to you
+Damlaya damlaya göl olur :: Drop by drop, a lake forms
+Ellerinize sağlık :: Health to your hands
+Görüşürüz :: See you
+
+## odd
+Kitap | Kalem | Fikir | Ekmek :: Ekmek (the others come from Arabic)
+Otobüs | Tren | Kuaför | Kapı :: Kapı (the others come from French)
+Baklava | Lokum | Künefe | Ayran :: Ayran (the others are sweets)
+Yunus Emre | Fuzuli | Baki | Ghalib :: Ghalib (the others wrote in Turkish)
+Ankara | Istanbul | Konya | Tabriz :: Tabriz (the others are in Turkey)
+Ç | Ş | Ğ | Q :: Q (the others are letters of the Turkish alphabet)
+
+## clues
+Konya | Persian | Masnavi | Whirling :: Mawlana Jalal al-Din Rumi ﵀
+Seventeenth century | Ten volumes | Travel book | Istanbul-born :: Evliya Çelebi ﵀
+1928 | Latin letters | 29 letters | No Q, W or X :: The Turkish alphabet
+Donkey | Wise | Funny | Hodja :: Nasreddin Hodja

@@ -3,7 +3,7 @@
 //   id: statics
 //   name: Statics
 //   nameAr: الاستاتيكا
-//   group: engineering   (one of engineering, cces, general)
+//   group: engineering   (one of engineering, cces, general, finance, law, design, humanities)
 //   ## 100
 //   Clue text :: Answer text
 //   Clue with a picture {img:gate-and.svg} :: Answer   (picture in questions/img/, copied to public/packs/img/)
@@ -19,20 +19,45 @@ const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 const srcDir = join(root, 'questions')
 const outDir = join(root, 'public', 'packs')
 const LEVELS = ['100', '200', '300', '400', '500']
-export const GROUPS = ['engineering', 'cces', 'general']
+export const GROUPS = ['engineering', 'cces', 'general', 'finance', 'law', 'design', 'humanities']
 const MIN = Number(process.env.MIN_PER_LEVEL ?? 1)
+
+// Optional sections for the game modes, after the five levels:
+//   ## tf         Statement :: True | False | Halal | Not halal | Legal | Not legal, then an optional reason
+//   ## case       A short scenario to rule on :: The ruling
+//   ## translate  A word or phrase :: Its meaning
+//   ## clues      Hardest clue | easier clue | easiest clue :: Answer   (2 to 6 clues)
+//   ## odd        Item | item | item | item :: The odd item, then why  (4 or 5 items; the answer starts with one of them)
+export const MODES = ['tf', 'case', 'translate', 'clues', 'odd']
+const VERDICTS = [['not halal', 0, 'halal'], ['halal', 1, 'halal'], ['not legal', 0, 'legal'], ['illegal', 0, 'legal'], ['legal', 1, 'legal'], ['true', 1, 'true'], ['false', 0, 'true']]
+
+/** The verdict a true-or-false answer starts with: { v: 1 or 0, k: 'true' | 'halal' | 'legal' }, or null. */
+export function verdictOf(a) {
+  const low = a.toLowerCase()
+  for (const [word, v, k] of VERDICTS) if (low === word || low.startsWith(word + ' ') || low.startsWith(word + ',') || low.startsWith(word + '.') || low.startsWith(word + ' (') || low.startsWith(word + ':')) return { v, k }
+  return null
+}
 
 export function parsePack(text, file = 'pack') {
   const errors = []
   const meta = {}
   const levels = LEVELS.map(() => [])
+  const modes = {}
   let cur = -1
+  let mode = null
   text.split(/\r?\n/).forEach((raw, i) => {
     const line = raw.trim()
     const at = `${file}:${i + 1}`
     if (!line || (line.startsWith('#') && !line.startsWith('##'))) return
     if (line.startsWith('##')) {
       const v = line.slice(2).trim()
+      mode = MODES.includes(v) ? v : null
+      if (mode) {
+        if (modes[mode]) errors.push(`${at} the "## ${v}" section appears twice`)
+        modes[mode] = modes[mode] ?? []
+        cur = 0
+        return
+      }
       cur = LEVELS.indexOf(v)
       if (cur < 0) errors.push(`${at} unknown level "${v}"`)
       return
@@ -51,6 +76,27 @@ export function parsePack(text, file = 'pack') {
       if (!existsSync(join(srcDir, 'img', im[1]))) errors.push(`${at} picture ${img} not found`)
     } else if (/\{img:/.test(q)) errors.push(`${at} picture must be written {img:name.svg} at the end of the clue`)
     if (!q || !a) { errors.push(`${at} empty clue or answer`); return }
+    if (mode) {
+      const item = img ? { q, a, img, at } : { q, a, at }
+      if (q.length > 360) errors.push(`${at} clue is longer than 360 characters`)
+      if (a.length > 160) errors.push(`${at} answer is longer than 160 characters`)
+      if (mode === 'tf') {
+        const vd = verdictOf(a)
+        if (!vd) errors.push(`${at} a true-or-false answer must start with True, False, Halal, Not halal, Legal or Not legal`)
+        else Object.assign(item, vd)
+      }
+      if (mode === 'clues') {
+        const n = q.split(' | ').length
+        if (n < 2 || n > 6) errors.push(`${at} clue-by-clue needs 2 to 6 clues separated by " | "`)
+      }
+      if (mode === 'odd') {
+        const items = q.split(' | ').map((x) => x.trim().toLowerCase())
+        if (items.length < 4 || items.length > 5) errors.push(`${at} odd one out needs 4 or 5 items separated by " | "`)
+        else if (!items.some((x) => a.toLowerCase().startsWith(x))) errors.push(`${at} the odd-one-out answer must start with one of the items`)
+      }
+      modes[mode].push(item)
+      return
+    }
     if (q.length > 260) errors.push(`${at} clue is longer than 260 characters`)
     if (a.length > 80) errors.push(`${at} answer is longer than 80 characters`)
     levels[cur].push(img ? { q, a, img, at } : { q, a, at })
@@ -68,7 +114,19 @@ export function parsePack(text, file = 'pack') {
       else seen.set(key, at)
     })
   })
-  return { meta, levels: levels.map((l) => l.map(({ q, a, img }) => (img ? { q, a, img } : { q, a }))), errors }
+  for (const [m, list] of Object.entries(modes)) {
+    if (!list.length) errors.push(`${file}: the "## ${m}" section is empty`)
+    const seenM = new Map()
+    for (const { q, at } of list) {
+      const key = q.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim()
+      if (seenM.has(key)) errors.push(`${at} duplicate ${m} item (also at ${seenM.get(key)})`)
+      else seenM.set(key, at)
+    }
+  }
+  const strip = ({ at, ...rest }) => rest
+  const out = { meta, levels: levels.map((l) => l.map(({ q, a, img }) => (img ? { q, a, img } : { q, a }))), errors }
+  if (Object.keys(modes).length) out.modes = Object.fromEntries(Object.entries(modes).map(([m, l]) => [m, l.map(strip)]))
+  return out
 }
 
 const digits = (s) => (s.replace(/[\u0660-\u0669]/g, (d) => String(d.charCodeAt(0) - 0x660)).match(/\d+/g) ?? []).sort().join(',')
@@ -138,7 +196,7 @@ function main() {
   const index = []
   let errors = []
   for (const f of files) {
-    let { meta, levels, errors: errs } = parsePack(readFileSync(join(srcDir, f), 'utf8'), f)
+    let { meta, levels, modes, errors: errs } = parsePack(readFileSync(join(srcDir, f), 'utf8'), f)
     errors = errors.concat(errs)
     if (errs.length) continue
     let arCount = 0
@@ -150,9 +208,14 @@ function main() {
       levels = m.levels
       arCount = levels.reduce((s, l) => s + l.length, 0)
     }
-    const pack = { id: meta.id, name: meta.name, nameAr: meta.nameAr, group: meta.group, levels }
+    const pack = { id: meta.id, name: meta.name, nameAr: meta.nameAr, group: meta.group, levels, ...(modes ? { modes } : {}) }
     writeFileSync(join(outDir, `${meta.id}.json`), JSON.stringify(pack))
-    index.push({ id: meta.id, name: meta.name, nameAr: meta.nameAr, group: meta.group, counts: levels.map((l) => l.length) })
+    const entry = { id: meta.id, name: meta.name, nameAr: meta.nameAr, group: meta.group, counts: levels.map((l) => l.length) }
+    if (modes) entry.modes = Object.fromEntries(Object.entries(modes).map(([m, l]) => [m, l.length]))
+    // How many picture questions the category has, for the picture round
+    const pics = levels.reduce((n, l) => n + l.filter((q) => q.img).length, 0)
+    if (pics) entry.pics = pics
+    index.push(entry)
     console.log(`${meta.id.padEnd(18)} ${levels.map((l) => String(l.length).padStart(4)).join(' ')}  total ${levels.reduce((s, l) => s + l.length, 0)}  arabic ${arCount}`)
   }
   const ids = index.map((c) => c.id)

@@ -1,0 +1,538 @@
+id: labour
+name: Labour Law
+group: law
+
+## 100
+The law that governs work between employers and workers. :: Labour (employment) law
+A person who works for someone else for pay. :: An employee (worker)
+A person or company that hires workers. :: An employer
+The agreement between a worker and an employer. :: An employment contract
+Money paid to a worker for work done. :: Wages (salary)
+The lowest pay allowed by law. :: The minimum wage
+Extra hours worked beyond the normal working day. :: Overtime
+Paid days off each year for rest. :: Annual leave
+Days off when a worker is ill. :: Sick leave
+Leave for a mother around the birth of a baby. :: Maternity leave
+Leave for a father after a baby is born. :: Paternity leave
+Ending a worker's job by the employer. :: Dismissal (termination)
+A worker leaving a job by their own choice. :: Resignation
+A written warning that a contract will end after a time. :: Notice
+The trial period at the start of a new job. :: Probation
+A payment made when a worker leaves after years of service in Saudi Arabia. :: End-of-service award
+A group of workers that protects their rights together. :: A trade union
+Workers stopping work to demand better conditions. :: A strike
+The UN agency for labour standards. :: The International Labour Organization (ILO)
+The ILO was founded in this year. :: 1919
+The ILO's headquarters are in this city. :: Geneva
+International Workers' Day is on this date. :: 1 May
+Saudi Arabia's main labour law was issued in this year. :: 2005
+The Saudi ministry responsible for labour. :: The Ministry of Human Resources and Social Development
+The Saudi online platform for work permits and contracts. :: Qiwa
+The Saudi platform for hiring domestic workers. :: Musaned
+The Saudi program that encourages companies to hire Saudis. :: Saudization (Nitaqat)
+Nitaqat means this in English. :: Bands (ranges)
+The Saudi social insurance body. :: GOSI (General Organization for Social Insurance)
+The Saudi fund that supports training and hiring of Saudis. :: Hadaf (Human Resources Development Fund)
+In Saudi Arabia, the normal working hours per day. :: Eight
+In Saudi Arabia, the normal working hours per week. :: 48
+In Saudi Arabia, Muslim workers' daily hours in Ramadan are reduced to this. :: Six
+The weekly day of rest in Saudi Arabia is usually this day. :: Friday
+In Saudi Arabia, overtime is paid at this rate of the basic wage. :: 150%
+Annual leave in Saudi Arabia for a worker with less than five years' service. :: 21 days
+Annual leave in Saudi Arabia after five years of service. :: 30 days
+A permit allowing a foreigner to work in Saudi Arabia. :: A work permit
+The Saudi residence permit for foreign workers. :: Iqama
+The Saudi system that checks that wages are paid on time through banks. :: The Wage Protection System
+The Saudi court that hears work disputes. :: The labour court
+Saudi labour courts started work in this year. :: 2018
+A worker paid by the hour. :: An hourly worker
+A worker who is not an employee and works for many clients. :: A freelancer (self-employed)
+The Saudi platform for registering freelancers. :: The Freelance platform (freelance.sa)
+Working from home or another place away from the office. :: Remote work
+A job for fewer hours than full-time. :: Part-time work
+A job with no end date in the contract. :: A permanent (indefinite) job
+A job with a set end date. :: A fixed-term job
+A list of a job's duties. :: A job description
+A written summary of a person's education and work. :: A CV (résumé)
+A meeting to choose a candidate for a job. :: A job interview
+A student working to learn a job for a short time. :: An internship
+A person learning a skilled trade on the job. :: An apprentice
+The department that deals with staff matters. :: Human resources (HR)
+Unfair treatment because of sex, race or religion. :: Discrimination
+Repeated unwanted behaviour that upsets a worker. :: Harassment (bullying)
+Rules that keep workers safe at work. :: Health and safety rules
+Helmets and gloves are examples of this equipment. :: Personal protective equipment (PPE)
+An injury that happens at work. :: A work injury
+Money paid to an injured worker. :: Compensation
+Insurance that pays retired workers. :: A pension
+The age when most workers stop working. :: Retirement age
+The usual retirement age in the Saudi civil service before reform. :: 60
+A worker whose job is lost because the role is no longer needed. :: Redundancy
+A worker's monthly payslip shows this. :: Pay and deductions
+Money taken from pay for insurance. :: A deduction (contribution)
+The ban on outdoor work at midday in Saudi summer runs from this time to this time. :: 12 noon to 3 pm
+The Saudi midday work ban runs from 15 June to this date. :: 15 September
+Using children to work in harmful jobs. :: Child labour
+The minimum working age in Saudi Arabia for most jobs. :: 15
+Forcing people to work against their will. :: Forced labour
+The worker's sponsor system that once tied foreign workers to employers. :: Kafala
+Saudi Arabia's 2021 reform that let foreign workers change jobs more easily. :: The Labour Reform Initiative
+Saudi workers who reach 60 often receive a pension from this body. :: GOSI
+The Saudi unemployment insurance program. :: SANED
+A meeting between workers and managers to agree pay. :: Collective bargaining
+The workers' committee allowed in Saudi companies of 100 workers or more. :: A labour committee
+Leave given to a Saudi Muslim worker to perform Hajj. :: Hajj leave
+Leave given when a worker marries in Saudi Arabia. :: Marriage leave (five days)
+Leave given when a worker's close relative dies in Saudi Arabia. :: Bereavement leave (five days)
+Leave given to a widowed Muslim woman worker for her waiting period. :: 'Iddah leave
+A worker's main pay without allowances. :: Basic wage
+A payment for housing added to pay. :: Housing allowance
+A payment for travel to work added to pay. :: Transport allowance
+A one-off extra payment for good results. :: A bonus
+Pay for each item produced. :: Piece rate
+A worker who is hired through an agency. :: An agency worker
+The Saudi platform that lets job seekers find work. :: Jadarat
+The Saudi Labour Law covers workers in this sector. :: The private sector
+Government employees in Saudi Arabia are covered by this law instead. :: The Civil Service Law (Human Resources Law)
+The hadith "Give the worker his wage before his sweat dries" is narrated by this collection. :: Sunan Ibn Majah
+In the Quran, the daughter of the old man of Madyan described this prophet as "strong and trustworthy". :: Prophet Musa ﵇
+Prophet Musa ﵇ agreed to work for eight years, or this many if he chose to complete it. :: Ten
+The Arabic word for wage. :: Ujrah
+The Arabic word for worker. :: 'Amil
+The Arabic word for employer. :: Sahib al-'amal
+The day off at the end of Ramadan, given as holiday. :: Eid al-Fitr holiday
+Saudi National Day, a paid holiday, is on this date. :: 23 September
+Saudi Founding Day, a paid holiday, is on this date. :: 22 February
+
+## 200
+The Saudi Labour Law of 2005 was issued by this royal decree. :: M/51
+The Saudi Labour Law was amended in a big way in this year (effective 2025). :: 2024
+After the 2025 amendments, maternity leave in Saudi Arabia is this long. :: 12 weeks
+Before 2025, Saudi maternity leave was this long. :: Ten weeks
+After the 2025 amendments, probation in Saudi Arabia can be up to this long. :: 180 days
+The original Saudi probation period was this many days (extendable to 180). :: 90
+In Saudi Arabia, sick leave per year is paid in full for the first this many days. :: 30
+In Saudi Arabia, the next 60 days of sick leave are paid at this rate. :: Three quarters
+In Saudi Arabia, the last 30 days of sick leave in a year are paid at this rate. :: Unpaid
+In Saudi Arabia, the end-of-service award for the first five years is this much pay per year. :: Half a month
+In Saudi Arabia, the end-of-service award after five years is this much pay per year. :: One month
+A worker who resigns after two to five years gets this share of the end-of-service award. :: One third
+A worker who resigns after five to ten years gets this share of the end-of-service award. :: Two thirds
+A worker who resigns after ten years gets this share of the end-of-service award. :: All of it
+A worker who resigns before two years gets this much end-of-service award. :: Nothing
+A Saudi female worker who resigns within six months of marriage or three months of giving birth gets this. :: The full end-of-service award
+The Saudi Labour Law article that lists cases where an employer may dismiss without an award. :: Article 80
+The Saudi Labour Law article on compensation for unlawful termination. :: Article 77
+Under Article 77, compensation for an indefinite contract is this many days' wage per year of service. :: 15
+Under Article 77, the minimum compensation is this many months' wages. :: Two
+The Saudi Labour Law article that lets a worker leave without notice if the employer cheats or assaults him. :: Article 81
+The Saudi Labour Law requires a written contract in this language. :: Arabic
+In Saudi Arabia, a Saudi worker's fixed-term contract becomes indefinite after this many renewals or four years. :: Three
+In Saudi Arabia, a worker may be asked to work no more than this many overtime hours a year by default. :: 720
+In Saudi Arabia, a worker may not work more than this many hours in a row without a break. :: Five
+Breaks for rest, prayer and meals in Saudi Arabia must total at least this long per day. :: 30 minutes
+In Saudi Arabia, hours spent at work including breaks may not exceed this many per day. :: Twelve
+In Saudi Arabia, Hajj leave is paid for at least ten days and up to this many, including Eid al-Adha. :: 15
+In Saudi Arabia, a worker becomes eligible for Hajj leave after this many years of service. :: Two
+A Muslim widow working in Saudi Arabia gets 'iddah leave of this long, fully paid. :: Four months and ten days
+A non-Muslim widow working in Saudi Arabia gets this many days of paid leave. :: 15
+In Saudi Arabia, paternity leave is this many days. :: Three
+A worker in Saudi Arabia may take exam leave with pay if this. :: The employer approved the study
+The Saudi Labour Law sets the minimum age for work at 15, with lighter work allowed from this age. :: 13
+Saudi Arabia's minimum wage counted for Saudis in Nitaqat is this much per month. :: 4,000 riyals
+The Saudi Nitaqat bands were named after colours, such as platinum, green and this. :: Red (and yellow)
+The Saudi Nitaqat program was launched in this year. :: 2011
+The Saudi Wage Protection System was launched in this year. :: 2013
+The Saudi Labour Reform Initiative took effect in this month. :: March 2021
+Under the Labour Reform Initiative, foreign workers can leave Saudi Arabia without the employer's permission using this. :: An exit and re-entry or final exit visa (applied for themselves)
+GOSI's two main branches are pensions and this. :: Occupational hazards
+The Saudi Social Insurance Law was updated in this year. :: 2024
+The Saudi Domestic Workers Regulation was issued in this year. :: 2013
+Domestic workers in Saudi Arabia must get this many hours of rest a day. :: Nine
+Domestic workers in Saudi Arabia must get one day off each week and this much paid leave every two years. :: One month
+The Saudi Labour Law does not cover domestic workers, family members working for the family, and these sea workers. :: Workers on ships under 500 tons
+The Saudi Labour Law does not cover farm workers in these. :: Family farms (and small agricultural units)
+The Saudi labour dispute process starts with this before going to court. :: Amicable settlement (wudi)
+The Saudi system of amicable labour settlement must finish within this many days. :: 21
+Labour claims in Saudi Arabia must be filed within this long after the contract ends. :: 12 months
+The Saudi labour court's appeal level is in this court. :: The Court of Appeal (labour circuits)
+The ILO convention on minimum age is number this. :: 138
+The ILO convention on the worst forms of child labour is number this. :: 182
+The ILO convention on forced labour from 1930 is number this. :: 29
+The ILO convention on freedom of association is number this. :: 87
+The ILO convention on equal pay is number this. :: 100
+The ILO convention on domestic workers is number this. :: 189
+The ILO convention on violence and harassment at work is number this. :: 190
+The ILO's 1998 declaration lists these core labour rights. :: Fundamental principles and rights at work
+The fifth fundamental right added by the ILO in 2022. :: A safe and healthy working environment
+The ILO's governing structure has governments, employers and these. :: Workers
+The ILO structure with three parties is called this. :: Tripartite
+The ILO won the Nobel Peace Prize in this year. :: 1969
+The ILO's Director-General since 2022. :: Gilbert Houngbo
+The ILO was created by this treaty. :: The Treaty of Versailles
+The British laws of the 1800s that limited children's work in factories. :: The Factory Acts
+The British Factory Act of 1833 banned work in textile mills for children under this age. :: Nine
+The 1886 Chicago event that is remembered on May Day. :: The Haymarket affair
+The US carmaker who paid workers five dollars a day in 1914. :: Henry Ford
+The idea of "scientific management" was created by this American engineer. :: Frederick Taylor
+The US law of 1938 that set a minimum wage and overtime. :: The Fair Labor Standards Act
+The US law of 1935 that protects unions. :: The National Labor Relations Act (Wagner Act)
+The US law of 1964 that bans job discrimination. :: The Civil Rights Act (Title VII)
+The US agency for workplace safety. :: OSHA
+The UK law of 2010 on discrimination. :: The Equality Act 2010
+The UK law of 1996 on employment rights. :: The Employment Rights Act 1996
+The EU law that limits weekly work to 48 hours on average. :: The Working Time Directive
+The country with a famous 35-hour working week law. :: France
+The UK court that hears employment disputes. :: The Employment Tribunal
+The UK Supreme Court case of 2021 that said Uber drivers are this. :: Workers (not self-employed)
+The term for jobs done through apps, such as delivery. :: Gig work
+The idea of a four-day working week trial was run on a large scale in this country in 2022. :: The UK
+The concept of balancing work and personal life. :: Work-life balance
+The right of workers to ignore work messages after hours. :: The right to disconnect
+In Saudi Arabia a daily wage is the monthly wage divided by 30. What is the daily wage of a worker paid 3,000 riyals a month? :: 100 riyals
+In Saudi Arabia a daily wage is the monthly wage divided by 30. What is the daily wage of a worker paid 3,600 riyals a month? :: 120 riyals
+In Saudi Arabia a daily wage is the monthly wage divided by 30. What is the daily wage of a worker paid 4,500 riyals a month? :: 150 riyals
+In Saudi Arabia a daily wage is the monthly wage divided by 30. What is the daily wage of a worker paid 4,800 riyals a month? :: 160 riyals
+In Saudi Arabia a daily wage is the monthly wage divided by 30. What is the daily wage of a worker paid 6,000 riyals a month? :: 200 riyals
+In Saudi Arabia a daily wage is the monthly wage divided by 30. What is the daily wage of a worker paid 6,600 riyals a month? :: 220 riyals
+In Saudi Arabia a daily wage is the monthly wage divided by 30. What is the daily wage of a worker paid 7,200 riyals a month? :: 240 riyals
+In Saudi Arabia a daily wage is the monthly wage divided by 30. What is the daily wage of a worker paid 7,500 riyals a month? :: 250 riyals
+In Saudi Arabia a daily wage is the monthly wage divided by 30. What is the daily wage of a worker paid 8,400 riyals a month? :: 280 riyals
+In Saudi Arabia a daily wage is the monthly wage divided by 30. What is the daily wage of a worker paid 9,000 riyals a month? :: 300 riyals
+In Saudi Arabia a daily wage is the monthly wage divided by 30. What is the daily wage of a worker paid 9,600 riyals a month? :: 320 riyals
+In Saudi Arabia a daily wage is the monthly wage divided by 30. What is the daily wage of a worker paid 10,500 riyals a month? :: 350 riyals
+In Saudi Arabia a daily wage is the monthly wage divided by 30. What is the daily wage of a worker paid 12,000 riyals a month? :: 400 riyals
+In Saudi Arabia a daily wage is the monthly wage divided by 30. What is the daily wage of a worker paid 13,500 riyals a month? :: 450 riyals
+In Saudi Arabia a daily wage is the monthly wage divided by 30. What is the daily wage of a worker paid 15,000 riyals a month? :: 500 riyals
+In Saudi Arabia a daily wage is the monthly wage divided by 30. What is the daily wage of a worker paid 18,000 riyals a month? :: 600 riyals
+
+## 300
+The Saudi Labour Law has this many articles (original). :: 245
+Under Article 80, an employer may dismiss a worker who is absent without a valid reason for more than this many days in a year. :: 30
+Under Article 80, consecutive absence of more than this many days allows dismissal. :: 15
+Under Article 80, the employer must first give this before dismissing for absence. :: A written warning
+Under Article 80, a worker who assaults the employer or a manager may be dismissed. True or false? :: True
+Under Article 80, a worker who fails the probation period may be dismissed without this. :: An award or notice
+Under the Saudi Labour Law, the employer must pay wages at least this often to monthly workers. :: Once a month
+Under the Saudi Labour Law, the employer may not deduct more than this share of a worker's wage for debts. :: Half (and usually a tenth for loans)
+Under the Saudi Labour Law, a worker can't be transferred to another city if this. :: It would cause serious harm without a valid reason
+Under the Saudi Labour Law, the employer pays the costs of these for foreign workers. :: Recruitment, iqama, work permit and return ticket
+Under the Saudi Labour Law, a worker who dies at work: the end-of-service award goes to this. :: His heirs
+Under the Saudi Labour Law, a woman may not be dismissed during this. :: Maternity leave (and during illness from pregnancy)
+Under the Saudi Labour Law, a nursing mother may take this each day for a year. :: One hour of nursing breaks
+Employers with this many women workers or more must provide a nursery in Saudi Arabia. :: 50 (with children under six, at least ten)
+Under the Saudi Labour Law, a Saudi woman can work night shifts. True or false? :: True (with conditions)
+The Saudi labour inspection system sends inspectors to check these. :: Workplaces (compliance with the law)
+The Saudi term for a worker who leaves his employer illegally. :: Huroob (absconding)
+Under GOSI, a pension is earned after this many months of contributions under the old law. :: 120 (with age 60)
+Under the old GOSI law, full pension needs this many years of contribution. :: 25 (300 months for early retirement)
+GOSI contributions for annuities under the old rules: 9% from the employer and this from the worker. :: 9%
+GOSI's occupational hazards contribution is paid by this party. :: The employer (2%)
+The SANED unemployment contribution in Saudi Arabia is this percent from each of the worker and employer. :: 0.75%
+The Saudi Hadaf program "Tamheer" offers this. :: On-the-job training for graduates
+The Saudi "Doroob" platform offers this. :: Online training courses
+The Saudi Qiwa platform is used for contract authentication and this. :: Work permits and job transfers
+The Saudi "Mudad" platform is used for this. :: Payroll and wage protection
+The Saudi "Ajeer" program allows this. :: Temporary transfer of workers between employers
+The Saudi "Flexible Work" program allows hourly work for these. :: Saudis (part-time hourly jobs)
+In Islamic law, the hire of a person for work is a valid contract called this. :: Ijarah
+In Islamic law, a worker's wage must be this before the work starts. :: Known (agreed)
+The hadith qudsi says Allah is the opponent of three people, including one who hires a worker and doesn't do this. :: Pay his wage
+The hadith "Your servants are your brothers" was said by our Beloved and our master, the Prophet Muhammad ﷺ to this Companion. :: Abu Dharr ﵁
+The hadith says to feed servants from what you eat and not to burden them with more than this. :: What they can bear
+Ibn Taymiyyah ﵀ allowed the ruler to set wages when there is this. :: Injustice or need (to prevent exploitation)
+The ILO's labour standard on working hours from 1919 is number this. :: 1 (Hours of Work Convention)
+The ILO's first convention set this many hours a day. :: Eight
+Saudi Arabia joined the ILO in this year. :: 1976
+Saudi Arabia ratified ILO Convention 29 on forced labour in this year. :: 1978
+Saudi Arabia ratified the ILO protocol on forced labour in this year. :: 2021
+The ILO Maritime Labour Convention of 2006 is known as this. :: The seafarers' bill of rights
+The term for a worker who reports wrongdoing at work. :: A whistleblower
+The term for a contract term stopping a worker from joining a rival. :: Non-compete clause
+Under the Saudi Labour Law, a non-compete clause must be limited in time, place and work, and in writing. Its maximum time is this. :: Two years
+Under the Saudi Labour Law, a worker who wants to resign from an indefinite contract must give this much notice. :: 30 days (60 if the employer ends it)
+The legal term for a sham resignation forced by the employer. :: Constructive dismissal
+The legal term for treating similar workers equally. :: Equal treatment
+The principle of "equal pay for work of equal value". :: Equal pay
+The Saudi Labour Law amended in 2019 to ban discrimination in wages between men and women for this. :: Work of equal value
+The famous US case on job discrimination tests: Griggs v Duke Power. :: Disparate impact
+The US case that said pregnancy discrimination is sex discrimination after this 1978 law. :: The Pregnancy Discrimination Act
+The UK case on equal pay for women at Ford's Dagenham plant led to this law. :: The Equal Pay Act 1970
+The UK case of 2017 on tribunal fees. :: R (UNISON) v Lord Chancellor
+The German sociologist Max Weber wrote about bureaucracy and this "work ethic". :: The Protestant work ethic
+The economist who wrote "The Wealth of Nations" with the pin factory example. :: Adam Smith
+The pin factory example is about this. :: Division of labour
+The thinker who wrote about alienation of workers. :: Karl Marx
+The Muslim historian who wrote that labour is the source of value in the "Muqaddimah". :: Ibn Khaldun ﵀
+A Saudi worker earns a basic wage of 3,000 riyals a month (hourly rate = monthly / 30 / 8). What is one overtime hour worth at 150%? :: 18.75 riyals
+A Saudi worker earns a basic wage of 3,600 riyals a month (hourly rate = monthly / 30 / 8). What is one overtime hour worth at 150%? :: 22.50 riyals
+A Saudi worker earns a basic wage of 4,800 riyals a month (hourly rate = monthly / 30 / 8). What is one overtime hour worth at 150%? :: 30 riyals
+A Saudi worker earns a basic wage of 6,000 riyals a month (hourly rate = monthly / 30 / 8). What is one overtime hour worth at 150%? :: 37.50 riyals
+A Saudi worker earns a basic wage of 6,600 riyals a month (hourly rate = monthly / 30 / 8). What is one overtime hour worth at 150%? :: 41.25 riyals
+A Saudi worker earns a basic wage of 7,200 riyals a month (hourly rate = monthly / 30 / 8). What is one overtime hour worth at 150%? :: 45 riyals
+A Saudi worker earns a basic wage of 8,400 riyals a month (hourly rate = monthly / 30 / 8). What is one overtime hour worth at 150%? :: 52.50 riyals
+A Saudi worker earns a basic wage of 9,000 riyals a month (hourly rate = monthly / 30 / 8). What is one overtime hour worth at 150%? :: 56.25 riyals
+A Saudi worker earns a basic wage of 9,600 riyals a month (hourly rate = monthly / 30 / 8). What is one overtime hour worth at 150%? :: 60 riyals
+A Saudi worker earns a basic wage of 12,000 riyals a month (hourly rate = monthly / 30 / 8). What is one overtime hour worth at 150%? :: 75 riyals
+A Saudi worker earns a basic wage of 15,000 riyals a month (hourly rate = monthly / 30 / 8). What is one overtime hour worth at 150%? :: 93.75 riyals
+A Saudi worker earns a basic wage of 18,000 riyals a month (hourly rate = monthly / 30 / 8). What is one overtime hour worth at 150%? :: 112.50 riyals
+A Saudi worker earns a basic wage of 21,000 riyals a month (hourly rate = monthly / 30 / 8). What is one overtime hour worth at 150%? :: 131.25 riyals
+A Saudi worker earns a basic wage of 24,000 riyals a month (hourly rate = monthly / 30 / 8). What is one overtime hour worth at 150%? :: 150 riyals
+A worker on annual leave of 21 days earns 6,000 riyals a month. What is the leave pay (daily wage x days)? :: 4,200 riyals
+A worker on annual leave of 30 days earns 9,000 riyals a month. What is the leave pay? :: 9,000 riyals
+A worker is off sick for 40 days in a year, earning 6,000 riyals a month. How much sick pay for those 40 days? :: 7,500 riyals (30 days full, 10 days at three quarters)
+A worker is off sick for 30 days in a year, earning 9,000 riyals a month. How much sick pay? :: 9,000 riyals (full pay)
+The HR term for the rate at which workers leave a company. :: Staff turnover
+The HR term for keeping good workers. :: Retention
+The HR term for finding and hiring workers. :: Recruitment
+The HR term for helping new workers settle in. :: Onboarding
+A meeting with a worker who is leaving to ask why. :: An exit interview
+A yearly review of a worker's results. :: A performance appraisal
+A review that collects feedback from managers, peers and staff. :: 360-degree feedback
+The HR term for planning who will replace key leaders. :: Succession planning
+The set of pay, benefits and allowances a worker gets. :: Total rewards (compensation package)
+Measurable goals used to judge performance. :: KPIs (key performance indicators)
+A goal-setting method: specific, measurable, achievable, relevant and this. :: Time-bound (SMART)
+Maslow's hierarchy of needs puts this at the top. :: Self-actualisation
+Herzberg's theory divides work factors into motivators and these. :: Hygiene factors
+The theory of motivation by Douglas McGregor with two views of workers. :: Theory X and Theory Y
+The study of how lighting affected workers at a US factory in the 1920s. :: The Hawthorne studies
+The Hawthorne effect means people work differently when they are this. :: Watched (observed)
+The legal duty of an employer for acts of its workers at work. :: Vicarious liability
+The legal term for paying a worker less than the agreed wage. :: Wage theft (underpayment)
+The written record of hours a worker has worked. :: A timesheet
+The term for workers' right to form unions. :: Freedom of association
+The term for a closed shop where only union members may be hired. :: A closed shop
+The term for refusing to let workers into a workplace during a dispute. :: A lockout
+The term for a worker who crosses a picket line. :: A strikebreaker
+A line of striking workers outside a workplace. :: A picket line
+A slow-down protest by doing only the minimum required. :: Work-to-rule
+
+## 400
+Under the Saudi Labour Law, a worker injured at work is paid this during treatment. :: Full wage for 30 days, then 75% (until recovery or a year)
+Under the Saudi Labour Law, the employer must give a certificate of service when this happens. :: The contract ends
+The Saudi Labour Law requires employers to keep these about each worker. :: A personnel file and wage records
+Under the Saudi Labour Law, a worker may refuse to work in conditions of this. :: Serious danger to health or life
+The Saudi National Council for Occupational Safety and Health is under this ministry. :: The Ministry of Human Resources
+The Saudi Labour Law's chapter on women's work includes this rule on dangerous jobs. :: Women may not work in hazardous jobs listed by the minister
+The Saudi Labour Law allows a part-time worker to work fewer than this share of normal hours. :: Half
+The Saudi Labour Law amended penalties table was set up in this year. :: 2021
+The Saudi "Musaned" platform lets families do this. :: Hire domestic workers and pay them electronically
+The GCC country that first abolished the kafala system in 2020 in law. :: Qatar
+Qatar set a non-discriminatory minimum wage in this year. :: 2021
+Qatar's minimum wage per month for workers. :: 1,000 riyals (plus food and housing)
+The UAE labour law of 2021 made all private contracts this type. :: Fixed-term
+The UAE labour law of 2021 is Federal Decree-Law number this. :: 33
+The UAE's unemployment insurance scheme started in this year. :: 2023
+Bahrain created the "Flexi permit" for workers in this year. :: 2017
+The US Supreme Court case that struck down a maximum hours law for bakers in 1905. :: Lochner v New York
+The "Lochner era" ended with this 1937 case upholding a minimum wage. :: West Coast Hotel v Parrish
+The US case that ruled on maximum hours for women in 1908. :: Muller v Oregon
+The US case that ended mandatory union fees for public employees. :: Janus v AFSCME (2018)
+The UK case of 2018 about a Pimlico Plumbers worker's status. :: Pimlico Plumbers v Smith
+The UK case of 1968 on the "control test" for employment: Ready Mixed Concrete. :: Ready Mixed Concrete v Minister of Pensions
+The UK case of 2011 on sham contracts for car valeters. :: Autoclenz v Belcher
+The UK case on the "range of reasonable responses" test for unfair dismissal. :: Iceland Frozen Foods v Jones (1983)
+The UK case on the test for misconduct dismissal: belief, grounds and investigation. :: British Home Stores v Burchell (1978)
+The UK case on procedural fairness in dismissal, 1987. :: Polkey v AE Dayton Services
+The EU court case that said on-call time at the workplace is working time. :: SIMAP (2000) and Jaeger (2003)
+The EU court case of 2019 that said employers must record working hours. :: CCOO v Deutsche Bank
+The EU court case on holiday pay for sick workers. :: Stringer (2009)
+The EU directive on transfers of undertakings protecting workers. :: The Acquired Rights Directive (TUPE in the UK)
+The ILO convention on termination of employment is number this. :: 158
+The ILO convention on minimum wage fixing is number this. :: 131
+The ILO convention on maternity protection is number this. :: 183
+ILO Convention 183 requires at least this many weeks of maternity leave. :: 14
+The ILO convention on discrimination in employment is number this. :: 111
+The ILO convention on the right to organise and collective bargaining is number this. :: 98
+The ILO convention on occupational safety and health is number this. :: 155
+The ILO convention on migrant workers from 1949 is number this. :: 97
+The UN convention on migrant workers' rights was adopted in this year. :: 1990
+The UN body that studies the rights of migrant workers. :: The Committee on Migrant Workers
+The famous 1911 factory fire in New York that led to safety laws. :: The Triangle Shirtwaist fire
+The 2013 Bangladesh factory collapse that killed over 1,100 workers. :: Rana Plaza
+The international agreement on building safety after Rana Plaza. :: The Bangladesh Accord
+The 1984 industrial disaster at a pesticide plant in India. :: The Bhopal disaster
+The "Ricardian" theory that wages tend to subsistence level is called this. :: The iron law of wages
+The economist who wrote "The General Theory" about unemployment. :: John Maynard Keynes
+The curve that shows a trade-off between unemployment and inflation. :: The Phillips curve
+The ratio of employed people to working-age people. :: The employment rate
+The unemployment rate of Saudis reached a record low in this year. :: 2024
+Saudi women's labour force participation passed this target of Vision 2030 early. :: 30%
+The Saudi Vision 2030 target for women's labour force participation was raised to this. :: 40%
+The Saudi Vision 2030 target for Saudi unemployment. :: 7%
+The Saudi "Liqaat" events are this. :: Job fairs (meetings between employers and job seekers)
+The Saudi General Organization for Social Insurance was founded in this year. :: 1969
+The Saudi Public Pension Agency merged into GOSI in this year. :: 2021
+The Saudi minister of human resources since 2020. :: Ahmed Al-Rajhi
+The Islamic legal maxim used to support workers' rights: "No harm and no" this. :: Reciprocating harm (la darar wa la dirar)
+The hadith qudsi "I will be the opponent of three on the Day of Judgement" is in this collection. :: Sahih al-Bukhari
+The early Islamic institution that gave pensions to people from the treasury, set up by Umar ﵁. :: The diwan ('ata')
+Umar ibn al-Khattab ﵁ gave a stipend to every newborn after he heard this. :: A mother weaning her baby early to get the stipend
+Umar ibn Abd al-Aziz ﵀ ordered help for disabled people, including this for each blind person. :: A guide (a helper)
+Umar ibn Abd al-Aziz ﵀ is known as this among the caliphs. :: The fifth rightly guided caliph
+A worker earning 4,000 riyals a month is let go after 3 years, not for misconduct. What end-of-service award is due under the Saudi Labour Law? :: 6,000 riyals
+A worker earning 6,000 riyals a month is let go after 4 years, not for misconduct. What end-of-service award is due under the Saudi Labour Law? :: 12,000 riyals
+A worker earning 8,000 riyals a month is let go after 2 years, not for misconduct. What end-of-service award is due under the Saudi Labour Law? :: 8,000 riyals
+A worker earning 5,000 riyals a month is let go after 5 years, not for misconduct. What end-of-service award is due under the Saudi Labour Law? :: 12,500 riyals
+A worker earning 10,000 riyals a month is let go after 6 years, not for misconduct. What end-of-service award is due under the Saudi Labour Law? :: 35,000 riyals
+A worker earning 6,000 riyals a month is let go after 8 years, not for misconduct. What end-of-service award is due under the Saudi Labour Law? :: 33,000 riyals
+A worker earning 9,000 riyals a month is let go after 10 years, not for misconduct. What end-of-service award is due under the Saudi Labour Law? :: 67,500 riyals
+A worker earning 12,000 riyals a month is let go after 7 years, not for misconduct. What end-of-service award is due under the Saudi Labour Law? :: 54,000 riyals
+A worker earning 7,000 riyals a month is let go after 12 years, not for misconduct. What end-of-service award is due under the Saudi Labour Law? :: 66,500 riyals
+A worker earning 8,000 riyals a month is let go after 15 years, not for misconduct. What end-of-service award is due under the Saudi Labour Law? :: 100,000 riyals
+A worker earning 5,000 riyals a month is let go after 9 years, not for misconduct. What end-of-service award is due under the Saudi Labour Law? :: 32,500 riyals
+A worker earning 15,000 riyals a month is let go after 4 years, not for misconduct. What end-of-service award is due under the Saudi Labour Law? :: 30,000 riyals
+A worker earning 20,000 riyals a month is let go after 11 years, not for misconduct. What end-of-service award is due under the Saudi Labour Law? :: 170,000 riyals
+A worker earning 3,000 riyals a month is let go after 20 years, not for misconduct. What end-of-service award is due under the Saudi Labour Law? :: 52,500 riyals
+A worker earning 11,000 riyals a month is let go after 3 years, not for misconduct. What end-of-service award is due under the Saudi Labour Law? :: 16,500 riyals
+A worker earning 14,000 riyals a month is let go after 8 years, not for misconduct. What end-of-service award is due under the Saudi Labour Law? :: 77,000 riyals
+A worker earning 16,000 riyals a month is let go after 6 years, not for misconduct. What end-of-service award is due under the Saudi Labour Law? :: 56,000 riyals
+A worker earning 18,000 riyals a month is let go after 5 years, not for misconduct. What end-of-service award is due under the Saudi Labour Law? :: 45,000 riyals
+A worker earning 4,500 riyals a month is let go after 14 years, not for misconduct. What end-of-service award is due under the Saudi Labour Law? :: 51,750 riyals
+A worker earning 9,500 riyals a month is let go after 2 years, not for misconduct. What end-of-service award is due under the Saudi Labour Law? :: 9,500 riyals
+The rule in Saudi Arabia that a worker's iqama fees, work permit and transfer fees are paid by this party. :: The employer
+Saudi Arabia's "Expat levy" is paid monthly for each foreign worker. It is officially called this. :: The expat (foreign worker) fee
+The Saudi expat dependent fee started in this year. :: 2017
+The Saudi premium residency, known as the "Saudi green card", was launched in this year. :: 2019
+The Saudi premium residency has new categories for talent, investors and these since 2024. :: Entrepreneurs, special talent and property owners
+The Saudi "Professional Accreditation" program tests foreign workers in these jobs. :: Skilled trades (professions)
+The Saudi Council of Engineers requires foreign engineers to have this. :: Professional accreditation (membership)
+The Saudi Commission for Health Specialties licenses these. :: Health practitioners
+The Saudi Accountants body that certifies professionals. :: SOCPA
+The Saudi Bar for lawyers is called this. :: The Saudi Bar Association
+A lawyer in Saudi Arabia must hold a licence from this ministry. :: The Ministry of Justice
+Saudi women were first licensed as lawyers in this year. :: 2013
+The Saudi Code of Law Practice for lawyers was issued in this year. :: 2001
+Saudi Arabia's first female lawyer licensed in 2013. :: Bayan Mahmoud Al-Zahran
+The Saudi General Authority for Statistics publishes this survey every quarter. :: The Labour Force Survey
+The International Labour Conference meets every year in this month. :: June
+The ILO's "Decent Work" agenda has four pillars: jobs, rights, social protection and this. :: Social dialogue
+The UN SDG number for decent work and economic growth. :: 8
+
+## 500
+The Saudi Labour Law's first version in 1969 was called this. :: The Labour and Workmen Law (1389H)
+The Saudi Labour and Workmen Law was issued by royal decree number M/21 in this year. :: 1969
+The Saudi Ministry of Labour and the Ministry of Social Affairs merged in this year. :: 2016
+The Saudi Ministry of Civil Service merged into the Ministry of Human Resources in this year. :: 2020
+The Saudi Social Insurance Law of 2024 changed the old law from this year. :: 2000
+Under the new Saudi Social Insurance Law (2024), the retirement age is rising gradually to this. :: 65
+Under the new Saudi Social Insurance Law, pension contributions rise gradually from 18% to this. :: 22%
+Under the new Saudi Social Insurance Law, the pension is calculated on the average wage of the last this many years. :: Five
+The Saudi law that set unemployment insurance (SANED) was issued in this year. :: 2014
+SANED pays this share of the wage for the first three months. :: 60%
+SANED pays this share of the wage for the following months. :: 50%
+SANED can pay for at most this many months. :: Twelve
+The Saudi Labour Law's original rule on notice for indefinite contracts. :: 30 days in writing (before 2025 changes)
+The 2025 amendments to the Saudi Labour Law set notice for the employer at this many days. :: 60
+The 2025 amendments set the worker's notice when resigning at this many days. :: 30
+The Saudi Labour Law article on labour committees allows them in establishments with this many workers. :: 100 or more
+The Saudi Labour Law's rule on fines on workers: the total fines for one offence may not exceed this. :: Five days' wages
+Fines deducted from workers must be spent on this. :: Workers' welfare (a special account)
+The Saudi courts' 2018 transfer moved labour cases from these bodies. :: The Primary and High Commissions for Labour Disputes
+The Saudi High Commission for Labour Disputes was the appeal body until this year. :: 2018
+The UK's first unions were made legal by repealing the Combination Acts in this year. :: 1824
+The British agricultural workers deported in 1834 for forming a union. :: The Tolpuddle Martyrs
+The US union federation formed in 1955 by merging two groups. :: The AFL-CIO
+The Polish union movement led by Lech Wałęsa. :: Solidarity
+Solidarity began at a shipyard in this city. :: Gdańsk
+The Indian leader who led a mill workers' strike in Ahmedabad in 1918. :: Mahatma Gandhi
+The French economist who wrote "Capital in the Twenty-First Century". :: Thomas Piketty
+The term for the share of national income going to workers. :: The labour share
+The economist who argued minimum wage increases did not cut jobs in New Jersey fast food, with Krueger. :: David Card
+David Card won the Nobel Prize in economics in this year. :: 2021
+The term for the market power of an employer to set low wages. :: Monopsony
+The Nobel economist who studied search frictions in labour markets with Mortensen and Pissarides. :: Peter Diamond
+The Muslim jurist Ibn al-Ukhuwwah ﵀ wrote this hisbah manual that covers workers and markets. :: Ma'alim al-Qurbah
+The Andalusian hisbah manual of Ibn 'Abdun ﵀ covers rules for these. :: Market traders and craftsmen
+The Ottoman craft guilds were called this. :: Esnaf (lonca)
+The Ottoman guilds were linked to these brotherhoods of young men. :: The Akhi (futuwwa) brotherhoods
+The Abbasid jurist who wrote "Al-Kasb" on earning a living. :: Muhammad al-Shaybani ﵀
+Al-Shaybani's ﵀ "Al-Kasb" says earning a living is this. :: An obligation (in its basic amount)
+The hadith "No one has eaten better food than what he eats from the work of his hands" mentions this prophet's work. :: Prophet Dawud ﵇
+Prophet Dawud ﵇ made this item with his hands. :: Armour (chain mail)
+Our Beloved and our master, the Prophet Muhammad ﷺ worked as a young man as this. :: A shepherd (and later a trader)
+Prophet Nuh ﵇ is said to have worked as this. :: A carpenter (shipbuilder)
+Prophet Zakariyya ﵇ worked as this, according to a hadith in Sahih Muslim. :: A carpenter
+The Companion Abd al-Rahman ibn 'Awf ﵁ asked to be shown this when he arrived in Madinah. :: The market
+The Companion who said, "Show me the market," refusing his Ansari brother's offer of half his wealth. :: Abd al-Rahman ibn 'Awf ﵁
+His Ansari brother who offered to share his wealth. :: Sa'd ibn al-Rabi' ﵁
+The Companion woman appointed by Umar ﵁ to supervise the market, according to some reports. :: Al-Shifa' bint Abdullah ﵂
+A worker earning 6,000 riyals a month resigns after 3 years. How much end-of-service award does he get under the Saudi Labour Law? :: 3,000 riyals (one third of 9,000)
+A worker earning 8,000 riyals a month resigns after 4 years. How much end-of-service award does he get under the Saudi Labour Law? :: 5,333 riyals (one third of 16,000)
+A worker earning 10,000 riyals a month resigns after 6 years. How much end-of-service award does he get under the Saudi Labour Law? :: 23,333 riyals (two thirds of 35,000)
+A worker earning 12,000 riyals a month resigns after 8 years. How much end-of-service award does he get under the Saudi Labour Law? :: 44,000 riyals (two thirds of 66,000)
+A worker earning 9,000 riyals a month resigns after 12 years. How much end-of-service award does he get under the Saudi Labour Law? :: 85,500 riyals (all of 85,500)
+A worker earning 5,000 riyals a month resigns after 1 years. How much end-of-service award does he get under the Saudi Labour Law? :: 0 riyals (nothing of 2,500)
+A worker earning 7,000 riyals a month resigns after 15 years. How much end-of-service award does he get under the Saudi Labour Law? :: 87,500 riyals (all of 87,500)
+A worker earning 6,000 riyals a month resigns after 7 years. How much end-of-service award does he get under the Saudi Labour Law? :: 18,000 riyals (two thirds of 27,000)
+A worker earning 15,000 riyals a month resigns after 9 years. How much end-of-service award does he get under the Saudi Labour Law? :: 65,000 riyals (two thirds of 97,500)
+A worker earning 4,000 riyals a month resigns after 11 years. How much end-of-service award does he get under the Saudi Labour Law? :: 34,000 riyals (all of 34,000)
+A worker earning 20,000 riyals a month resigns after 5 years. How much end-of-service award does he get under the Saudi Labour Law? :: 33,333 riyals (two thirds of 50,000)
+A worker earning 11,000 riyals a month resigns after 2 years. How much end-of-service award does he get under the Saudi Labour Law? :: 3,667 riyals (one third of 11,000)
+A worker on an indefinite contract earning 6,000 riyals a month is dismissed unlawfully after 2 years. What compensation does Article 77 give (15 days a year, at least two months)? :: 12,000 riyals
+A worker on an indefinite contract earning 8,000 riyals a month is dismissed unlawfully after 6 years. What compensation does Article 77 give (15 days a year, at least two months)? :: 24,000 riyals
+A worker on an indefinite contract earning 10,000 riyals a month is dismissed unlawfully after 10 years. What compensation does Article 77 give (15 days a year, at least two months)? :: 50,000 riyals
+A worker on an indefinite contract earning 12,000 riyals a month is dismissed unlawfully after 3 years. What compensation does Article 77 give (15 days a year, at least two months)? :: 24,000 riyals
+A worker on an indefinite contract earning 5,000 riyals a month is dismissed unlawfully after 1 years. What compensation does Article 77 give (15 days a year, at least two months)? :: 10,000 riyals
+A worker on an indefinite contract earning 9,000 riyals a month is dismissed unlawfully after 8 years. What compensation does Article 77 give (15 days a year, at least two months)? :: 36,000 riyals
+A worker on an indefinite contract earning 7,000 riyals a month is dismissed unlawfully after 12 years. What compensation does Article 77 give (15 days a year, at least two months)? :: 42,000 riyals
+A worker on an indefinite contract earning 15,000 riyals a month is dismissed unlawfully after 5 years. What compensation does Article 77 give (15 days a year, at least two months)? :: 37,500 riyals
+A worker on an indefinite contract earning 4,000 riyals a month is dismissed unlawfully after 2 years. What compensation does Article 77 give (15 days a year, at least two months)? :: 8,000 riyals
+A worker on an indefinite contract earning 20,000 riyals a month is dismissed unlawfully after 9 years. What compensation does Article 77 give (15 days a year, at least two months)? :: 90,000 riyals
+The French term for a pay slip. :: Bulletin de paie
+The German system where workers sit on company boards. :: Co-determination (Mitbestimmung)
+The German works council is called this. :: Betriebsrat
+The Scandinavian system where unions run unemployment funds. :: The Ghent system
+The Danish labour model of easy hiring and firing with strong welfare. :: Flexicurity
+The Japanese tradition of a job for life in large firms. :: Lifetime employment
+The Japanese word for death from overwork. :: Karoshi
+The Chinese term for a "996" work schedule means work from 9 am to 9 pm this many days a week. :: Six
+The UK's National Minimum Wage started in this year. :: 1999
+The US federal minimum wage since 2009 per hour. :: 7.25 dollars
+Germany introduced a national minimum wage in this year. :: 2015
+The country with the world's first national minimum wage law, in 1894. :: New Zealand
+The Australian 1907 case that set a "fair and reasonable" wage. :: The Harvester case
+The 1919 ILO Convention No. 3 was about protection of these workers. :: Women before and after childbirth (maternity)
+The ILO's first Director, a French socialist. :: Albert Thomas
+The ILO's journal is called this. :: The International Labour Review
+The ILO's training centre is in this Italian city. :: Turin
+The Arab Labour Organization is based in this city. :: Cairo
+The Arab Labour Organization was founded in this year. :: 1965
+The 1919 Treaty of Versailles part that set up the ILO is this part. :: Part XIII
+The 2019 ILO declaration marking its centenary. :: The Centenary Declaration for the Future of Work
+The Muslim scholar al-Ghazali ﵀ wrote about earning a living in "Ihya' 'Ulum al-Din" in the book of this. :: Etiquette of earning (Adab al-kasb wal-ma'ash)
+The Companion known for working as a blacksmith in Makkah. :: Khabbab ibn al-Aratt ﵁
+The Companion who was a cloth merchant before becoming caliph. :: Abu Bakr al-Siddiq ﵁
+Abu Bakr ﵁ was given a salary from the treasury after he was seen going to do this. :: Trade in the market
+The famous saying "The upper hand is better than the lower hand" means this. :: Giving is better than taking
+The hadith says it is better for one of you to take a rope and gather this than to beg. :: Firewood
+The Andalusian scholar Ibn Hazm ﵀ argued the rich must support the poor if zakat is not enough. This is in this book. :: Al-Muhalla
+Salman al-Farisi ﵁ made and sold palm-leaf baskets while he was governor of this city. :: Al-Mada'in
+The ILO's tripartite body that runs the organisation between conferences. :: The Governing Body
+The ILO body of independent experts that reviews how countries apply conventions. :: The Committee of Experts (CEACR)
+The 1982 Dutch deal on wage restraint and shorter hours, part of the "polder model". :: The Wassenaar Agreement
+
+## tf
+A Saudi employer keeping a foreign worker's passport without the worker's consent. :: Not legal (passports belong to the worker)
+A Saudi employer paying a worker's salary in cash with no bank transfer, for a company under the Wage Protection System. :: Not legal (wages must go through the system)
+Asking a worker to work 10 hours on a normal day with overtime pay and his agreement, in Saudi Arabia. :: Legal (within the 12-hour limit and overtime rules)
+Dismissing a woman worker in Saudi Arabia because she is on maternity leave. :: Not legal
+Hiring a 14-year-old for heavy industrial work in Saudi Arabia. :: Not legal
+A foreign worker in Saudi Arabia changing employers after a year under the Labour Reform Initiative rules. :: Legal (with notice, under the rules)
+Making outdoor workers lay bricks in direct sun at 1 pm on 1 July in Saudi Arabia. :: Not legal (midday work ban)
+Charging a foreign worker for his own work permit and iqama fees in Saudi Arabia. :: Not legal (the employer pays them)
+Paying a man more than a woman for work of equal value in Saudi Arabia. :: Not legal (since the 2019 amendments)
+Giving a Muslim worker six working hours a day in Ramadan in Saudi Arabia. :: Legal (it is required)
+Dismissing a worker without an award for being absent 20 days in a row without reason, after a written warning, in Saudi Arabia. :: Legal (Article 80)
+Paying overtime at the normal hourly rate in Saudi Arabia. :: Not legal (overtime is 150%)
+A worker in Saudi Arabia taking 21 days of paid annual leave in his first year. :: Legal
+An employer refusing all annual leave to a worker for three years in Saudi Arabia. :: Not legal
+Deducting all of a worker's wage to repay a loan in Saudi Arabia. :: Not legal (deductions are limited)
+
+## case
+Noura works in Riyadh for 8,000 riyals a month. She resigns after 6 years. What end-of-service award does she get? :: 18,667 riyals (two thirds of 28,000)
+Khalid earns 6,000 riyals a month and works 10 overtime hours in a week. What is his overtime pay? :: 375 riyals (10 hours x 37.50)
+Maryam gives birth while working in Saudi Arabia in 2025. How long is her paid maternity leave? :: 12 weeks
+A worker is hurt at work and can't work for 45 days. His wage is 9,000 riyals. How much is he paid for that time? :: 12,375 riyals (30 days full, 15 days at 75%)
+An employer fires Ali, on an indefinite contract, after 8 years with no valid reason. His wage is 10,000. What does Article 77 give? :: 40,000 riyals (15 days per year)

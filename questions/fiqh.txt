@@ -1,0 +1,580 @@
+id: fiqh
+name: Islamic Jurisprudence & Sharia
+group: law
+
+## 100
+The Arabic word for Islamic jurisprudence. :: Fiqh
+The Arabic word for the divine law of Islam. :: Sharia
+The first source of Islamic law. :: The Quran
+The second source of Islamic law. :: The Sunnah
+The number of daily obligatory prayers. :: Five
+The washing before prayer. :: Wudu'
+The full-body ritual bath. :: Ghusl
+Wiping with clean earth when water can't be used. :: Tayammum
+The direction Muslims face in prayer. :: The Qiblah (the Ka'bah in Makkah)
+The call to prayer. :: Adhan
+The second call made just before the prayer starts. :: Iqamah
+The obligatory prayer at dawn. :: Fajr
+The prayer just after midday. :: Dhuhr
+The afternoon prayer. :: 'Asr
+The prayer just after sunset. :: Maghrib
+The night prayer. :: 'Isha'
+The number of rak'ahs in the Fajr prayer. :: Two
+The number of rak'ahs in the Maghrib prayer. :: Three
+The number of rak'ahs in the Dhuhr prayer for someone not travelling. :: Four
+The weekly congregational prayer on Friday. :: Jumu'ah
+The month of obligatory fasting. :: Ramadan
+The meal eaten before dawn in Ramadan. :: Suhur
+The meal to break the fast at sunset. :: Iftar
+The night in Ramadan better than a thousand months. :: Laylat al-Qadr
+The festival at the end of Ramadan. :: Eid al-Fitr
+The festival of sacrifice during Hajj. :: Eid al-Adha
+The pilgrimage to Makkah, required once in a lifetime for those able. :: Hajj
+The lesser pilgrimage that can be done any time of year. :: 'Umrah
+The month of Hajj. :: Dhul-Hijjah
+The day pilgrims stand at Arafah, the 9th of Dhul-Hijjah. :: The Day of 'Arafah
+The white clothes and sacred state of a pilgrim. :: Ihram
+Walking seven times around the Ka'bah. :: Tawaf
+Walking seven times between Safa and Marwah. :: Sa'i
+The well of blessed water in Makkah. :: Zamzam
+The animal sacrifice on Eid al-Adha. :: Udhiyah
+The yearly charity on wealth, one of the five pillars. :: Zakat
+The rate of zakat on savings. :: 2.5%
+The charity paid at the end of Ramadan. :: Zakat al-Fitr
+The minimum wealth on which zakat is due. :: Nisab
+The five pillars of Islam begin with this declaration of faith. :: Shahadah
+Things that are allowed in Islam. :: Halal
+Things that are forbidden in Islam. :: Haram
+Things that are disliked but not forbidden. :: Makruh
+Things that are recommended. :: Mustahabb (mandub)
+Things that are obligatory. :: Fard (wajib)
+A formal legal opinion from a qualified scholar. :: Fatwa
+A scholar who gives fatwas. :: Mufti
+A judge in Islamic law. :: Qadi
+A school of Islamic law. :: Madhhab
+The number of main Sunni schools of law. :: Four
+The school founded by Imam Abu Hanifah ﵀. :: Hanafi
+The school founded by Imam Malik ibn Anas ﵀. :: Maliki
+The school founded by Imam Muhammad ibn Idris al-Shafi'i ﵀. :: Shafi'i
+The school founded by Imam Ahmad ibn Hanbal ﵀. :: Hanbali
+The imam of Madinah who wrote "Al-Muwatta'". :: Imam Malik ibn Anas ﵀
+The imam whose large hadith collection is called "Al-Musnad". :: Imam Ahmad ibn Hanbal ﵀
+The most authentic hadith collection, by Imam al-Bukhari ﵀. :: Sahih al-Bukhari
+The second most authentic hadith collection. :: Sahih Muslim
+A saying, action or approval of our Beloved and our master, the Prophet Muhammad ﷺ. :: Hadith
+Meat slaughtered the Islamic way. :: Halal (dhabihah) meat
+The drink forbidden in Islam. :: Alcohol (khamr)
+The meat forbidden in Islam. :: Pork
+Interest on loans, forbidden in Islam. :: Riba
+Gambling, forbidden in Islam. :: Maysir
+The Islamic marriage contract. :: Nikah
+The gift the husband gives the wife at marriage. :: Mahr
+The wedding feast. :: Walimah
+Divorce in Islamic law. :: Talaq
+The waiting period after divorce or the husband's death. :: 'Iddah
+A divorce requested by the wife with return of the mahr. :: Khul'
+A will in Islamic law. :: Wasiyyah
+The science of Islamic inheritance shares. :: 'Ilm al-fara'id
+A permanent charitable endowment. :: Waqf
+Voluntary charity. :: Sadaqah
+The night prayers in Ramadan. :: Tarawih
+The odd-numbered prayer at the end of the night. :: Witr
+The extra prayers done before or after obligatory prayers. :: Sunnah prayers (rawatib)
+Shortening four-rak'ah prayers to two when travelling. :: Qasr
+Joining two prayers together, such as Dhuhr and 'Asr, when travelling. :: Jam'
+The prayer for rain. :: Salat al-Istisqa'
+The prayer during an eclipse. :: Salat al-Kusuf
+The funeral prayer. :: Salat al-Janazah
+The prayer asking Allah for guidance in a decision. :: Salat al-Istikharah
+The sitting position in prayer where the testimony is recited. :: Tashahhud
+Prostration in prayer. :: Sujud
+Bowing in prayer. :: Ruku'
+Saying "Allahu akbar" to begin the prayer. :: Takbirat al-ihram
+Ending the prayer by turning the head right and left with a greeting. :: Taslim
+The prostration made for forgetfulness in prayer. :: Sujud al-sahw
+The person who leads the prayer. :: Imam
+The person who calls the adhan. :: Mu'adhdhin
+Staying in the mosque for worship in the last ten days of Ramadan. :: I'tikaf
+The Friday sermon. :: Khutbah
+The obligatory fast can be made up later by these people, such as travellers and the sick. :: Those with a valid excuse
+Paying to feed a poor person for each missed fast by someone who can never fast. :: Fidyah
+The paying of expiation for breaking an oath or a fast. :: Kaffarah
+The month after Ramadan, when fasting six days is recommended. :: Shawwal
+The day of 'Ashura' is the 10th of this month. :: Muharram
+Fasting on Mondays and these days is a Sunnah. :: Thursdays
+The three 'white days' of fasting each month are these dates. :: The 13th, 14th and 15th of the lunar month
+The minimum age at which a child is ordered to pray, according to a hadith. :: Seven
+Being a Muslim, sane and having reached this make a person accountable. :: Puberty (maturity)
+The sacred mosque in Makkah. :: Al-Masjid al-Haram
+The mosque of our Beloved and our master, the Prophet Muhammad ﷺ in Madinah. :: Al-Masjid al-Nabawi
+The third holiest mosque, in Jerusalem. :: Al-Masjid al-Aqsa
+Animals that may be eaten after proper slaughter include camels, cows and these. :: Sheep and goats
+Sea creatures are generally this, according to the majority. :: Halal
+Saying "Bismillah" before slaughtering. :: Tasmiyah
+The cleanliness that is half of faith, according to a hadith. :: Purity (tahur)
+
+## 200
+The two main sources agreed after the Quran and Sunnah. :: Ijma' and qiyas
+Consensus of the scholars of an era. :: Ijma'
+Analogy from a known ruling to a new case with the same cause. :: Qiyas
+The cause shared in an analogy. :: 'Illah
+Independent reasoning by a qualified scholar. :: Ijtihad
+Following a school or scholar without knowing the evidence. :: Taqlid
+The science of the principles of jurisprudence. :: Usul al-fiqh
+The book of al-Shafi'i ﵀ that founded usul al-fiqh. :: Al-Risalah
+The five aims of Sharia: protecting religion, life, intellect, lineage and this. :: Wealth (property)
+The higher aims of Sharia are called this. :: Maqasid al-shari'ah
+The scholar of al-Andalus famous for writing on maqasid in "Al-Muwafaqat". :: Al-Shatibi ﵀
+Imam Abu Hanifah ﵀ lived in this city. :: Kufa (and Baghdad)
+Imam Abu Hanifah's ﵀ two famous students. :: Abu Yusuf ﵀ and Muhammad al-Shaybani ﵀
+Imam Malik ﵀ was born and lived in this city. :: Madinah
+Imam al-Shafi'i ﵀ is buried in this city. :: Cairo
+Imam Ahmad ibn Hanbal ﵀ lived in this city. :: Baghdad
+The trial in which Imam Ahmad ﵀ was jailed for refusing to say the Quran was created. :: The Mihnah
+Imam Malik ﵀ gave weight to the practice of the people of this city. :: Madinah ('amal ahl al-Madinah)
+The Hanafi school is most followed in Turkey, South Asia and this region. :: Central Asia (and the Balkans)
+The Maliki school is most followed in this region. :: North and West Africa
+The Shafi'i school is most followed in Indonesia, Malaysia, East Africa and this country. :: Yemen (and Egypt, partly)
+The Hanbali school is most followed in this country. :: Saudi Arabia
+The things that nullify wudu' include sleep, using the toilet and this. :: Passing wind (and deep sleep, losing consciousness)
+The parts washed in wudu' named in the Quran: face, arms to the elbows, wiping the head and this. :: Washing the feet to the ankles
+The verse that describes wudu' is in this surah. :: Surat al-Ma'idah (5:6)
+Wiping over leather socks instead of washing feet. :: Mash 'ala al-khuffayn
+A resident can wipe over khuffs for this long. :: One day and night
+A traveller can wipe over khuffs for this long. :: Three days and nights
+The amount of water that doesn't become impure easily, according to a hadith. :: Two qullahs
+Things that are impure in fiqh, such as urine and blood. :: Najasah
+The impurity of a dog's saliva is washed this many times, once with earth. :: Seven
+The times when prayer is disliked include after Fajr until sunrise and after this until sunset. :: 'Asr
+The conditions of prayer include purity, covering the 'awrah, facing the qiblah and this. :: The time having started
+The pillars of prayer include standing, the opening takbir and reciting this surah. :: Al-Fatihah
+The surah that must be recited in every rak'ah. :: Al-Fatihah
+Missing a pillar of prayer by mistake requires this. :: Making up the pillar (and sujud al-sahw)
+A Muslim who misses a prayer by sleeping should pray it when he does this. :: Wakes up (remembers it)
+The prayer of fear, prayed during battle. :: Salat al-Khawf
+The minimum distance for shortening prayer according to the majority, about this many kilometres. :: About 80 kilometres
+The 'Eid prayer has this many extra takbirs in the first rak'ah according to the Hanbali school. :: Six (after the opening takbir)
+The night prayer of tahajjud is best in this part of the night. :: The last third
+The witr prayer can be as short as this many rak'ahs. :: One
+The sunnah before Fajr has this many rak'ahs. :: Two
+The confirmed sunnah prayers each day number this many rak'ahs, according to the hadith of Umm Habibah ﵂. :: 12
+Praying in congregation is this many times better than praying alone, according to a hadith. :: 27 (in one narration 25)
+The Friday prayer replaces this prayer. :: Dhuhr
+Things that break the fast include eating, drinking and this. :: Marital relations (and intentional vomiting, according to the majority)
+Eating by forgetting during a fast does this to the fast. :: Nothing (the fast stays valid)
+The expiation for intentionally breaking a Ramadan fast by marital relations. :: Freeing a slave, or fasting two months in a row, or feeding 60 poor people
+The intention for an obligatory fast must be made at this time, according to the majority. :: Before dawn (from the night)
+Women who are menstruating do this with Ramadan fasts. :: Leave them and make them up later
+Zakat on cattle starts at this number. :: 30
+Zakat on camels starts at this number. :: Five
+Zakat on sheep starts at this number. :: 40
+The share of zakat on crops watered by rain. :: 10%
+The share of zakat on crops watered by effort. :: 5%
+The eight groups who receive zakat are named in this surah. :: Surat al-Tawbah (9:60)
+Zakat al-Fitr is one sa' of food. A sa' is four of these. :: Mudd (double handfuls)
+The pillars of Hajj according to the Hanbali school: ihram, standing at 'Arafah, tawaf al-ifadah and this. :: Sa'i
+The pillar without which there is no Hajj, according to a hadith. :: Standing at 'Arafah
+Places where pilgrims must enter ihram. :: Miqat (mawaqit)
+The miqat for people coming from Madinah. :: Dhul-Hulayfah (Abyar 'Ali)
+The miqat for people coming from Najd and Riyadh. :: Qarn al-Manazil (al-Sayl al-Kabir)
+The miqat for people coming from Syria and Egypt. :: Al-Juhfah (near Rabigh)
+The miqat for people coming from Yemen. :: Yalamlam
+The miqat for people coming from Iraq. :: Dhat 'Irq
+Hajj where 'Umrah and Hajj are done with a break in between, with a sacrifice. :: Tamattu'
+Hajj and 'Umrah done in one ihram with a sacrifice. :: Qiran
+Hajj alone, without 'Umrah. :: Ifrad
+Throwing pebbles at the pillars in Mina. :: Rami al-jamarat
+The place where pilgrims spend the night after 'Arafah. :: Muzdalifah
+The farewell circling of the Ka'bah before leaving Makkah. :: Tawaf al-wada'
+The penalty for missing a wajib act of Hajj. :: Dam (a sacrifice)
+Cutting the hair at the end of Hajj or 'Umrah. :: Halq or taqsir
+Animals for udhiyah must be at least this age for a sheep, according to many scholars. :: Six months (a jadha'ah)
+An udhiyah camel or cow can be shared by this many people. :: Seven
+The udhiyah is slaughtered after the 'Eid prayer and until the end of this day. :: The 13th of Dhul-Hijjah (the last day of tashriq)
+The days of tashriq are these dates. :: 11th, 12th and 13th of Dhul-Hijjah
+The pillars of a marriage contract include offer, acceptance, the guardian and this. :: Two witnesses
+The Hanbali school requires this person for a woman's marriage. :: Her wali (guardian)
+The number of times a husband can divorce and take back his wife. :: Two (the third is final)
+The waiting period of a divorced woman who menstruates. :: Three menstrual cycles (quru')
+The waiting period of a pregnant woman. :: Until she gives birth
+The waiting period of a widow who is not pregnant. :: Four months and ten days
+A divorce that can be revoked during the 'iddah. :: Raj'i divorce
+A divorce that ends the marriage fully. :: Ba'in divorce
+Nursing a baby by a woman who isn't the mother creates this relationship. :: Rada'ah (milk kinship)
+The number of feeds that create milk kinship according to the Hanbali and Shafi'i schools. :: Five
+Custody of children after divorce. :: Hadanah
+Financial support a husband owes his wife and children. :: Nafaqah
+A man may marry up to this many wives at one time, with justice between them. :: Four
+The share of the estate a will can cover. :: Up to one third
+A will cannot be made to these people, according to a hadith. :: Heirs (unless the others agree)
+A killer is barred from inheriting from the person he killed. This is called this. :: Being an impediment to inheritance (qatl)
+Difference of religion is an impediment to inheritance according to this hadith. :: "A Muslim does not inherit from a disbeliever, nor a disbeliever from a Muslim"
+The inheritance shares are mainly set out in this surah. :: Surat al-Nisa'
+A sale requires an offer and this. :: Acceptance
+Selling something you don't own is forbidden except in this pre-paid contract. :: Salam
+A lease or hire contract. :: Ijarah
+A loan of something to be returned in kind, with no extra. :: Qard
+A pledge given as security for a debt. :: Rahn
+A guarantee of another's debt. :: Kafalah (daman)
+An agency contract. :: Wakalah
+A gift. :: Hibah
+Found property. :: Luqatah
+A found item must be announced for this long. :: One year
+Excessive uncertainty in a contract. :: Gharar
+Selling dates on the tree before they ripen is forbidden. The signs of ripeness are when they turn this. :: Red or yellow
+The "option of the sitting", to cancel while still together. :: Khiyar al-majlis
+
+## 300
+The hadith "Actions are only by intentions" was narrated by this Companion. :: Umar ibn al-Khattab ﵁
+That hadith opens this famous collection. :: Sahih al-Bukhari
+The famous collection of 40 hadiths by al-Nawawi ﵀ actually has this many. :: 42
+The Shafi'i scholar who wrote "Riyad al-Salihin" and "Al-Majmu'". :: Al-Nawawi ﵀
+The hadith collection "Bulugh al-Maram", on legal hadiths, was compiled by this scholar. :: Ibn Hajar al-'Asqalani ﵀
+The commentary on "Bulugh al-Maram" called "Subul al-Salam" was written by this scholar. :: Al-San'ani ﵀
+The legal hadith book "'Umdat al-Ahkam" was compiled by this Hanbali scholar. :: Abd al-Ghani al-Maqdisi ﵀
+"Nayl al-Awtar", a commentary on legal hadiths, was written by this Yemeni scholar. :: Al-Shawkani ﵀
+The Hanafi school's major text "Al-Hidayah" was written by this scholar. :: Al-Marghinani ﵀
+The Maliki school's summary "Al-Mukhtasar" was written by this scholar. :: Khalil ibn Ishaq ﵀
+The Maliki text "Al-Risalah" was written by this scholar of Qayrawan. :: Ibn Abi Zayd al-Qayrawani ﵀
+The Shafi'i textbook "Minhaj al-Talibin" was written by this scholar. :: Al-Nawawi ﵀
+The Hanbali book "Al-Mughni" was written by this scholar. :: Ibn Qudamah ﵀
+Ibn Qudamah ﵀ came from a family that moved from Palestine to this city. :: Damascus
+The Hanbali summary "Zad al-Mustaqni'" was written by this scholar. :: Al-Hajjawi ﵀
+The commentary on "Zad al-Mustaqni'" called "Al-Rawd al-Murbi'" was written by this scholar. :: Al-Buhuti ﵀
+The Hanafi book "Radd al-Muhtar", widely used in fatwas, was written by this scholar. :: Ibn 'Abidin ﵀
+The comparative fiqh book "Bidayat al-Mujtahid" was written by this scholar. :: Ibn Rushd (the grandson) ﵀
+The Shafi'i scholar whose "Al-Umm" is the base of his school. :: Imam al-Shafi'i ﵀
+The Hanafi student who wrote "Al-Asl" (Al-Mabsut) and "Al-Siyar". :: Muhammad al-Shaybani ﵀
+Al-Shaybani's ﵀ book on the law of war and peace makes him a father of this field. :: International law (siyar)
+The terms of the 'Hudaybiyyah' treaty were agreed in this year after the Hijrah. :: 6 AH
+The Companion who wrote the Treaty of Hudaybiyyah. :: Ali ibn Abi Talib ﵁
+The constitution of Madinah set out rights and duties of Muslims, Jews and others in this city. :: Madinah (Yathrib)
+The caliph who compiled the Quran into one book. :: Abu Bakr al-Siddiq ﵁
+The caliph who sent standard copies of the Quran to the cities. :: Uthman ibn Affan ﵁
+The Companion who led the Quran compilation for both Abu Bakr and Uthman رضوان الله عليهم. :: Zayd ibn Thabit ﵁
+The ruling on reciting al-Fatihah behind the imam in silent prayers is a famous point of difference between the schools. The Hanafi view. :: Not recited by the follower (the imam's recitation suffices)
+Raising the hands at ruku' is done by this school but not usually the Hanafis. :: Shafi'i and Hanbali (and some Malikis)
+The Maliki school's well-known practice of letting the arms hang down in prayer. :: Sadl
+The Hanbali school's view on touching a woman and wudu'. :: It breaks wudu' if done with desire
+The Shafi'i school's view on touching an unrelated woman and wudu'. :: It breaks wudu' (any skin contact)
+The Hanafi school's view on touching a woman and wudu'. :: It does not break wudu'
+The Hanbali school's view on eating camel meat and wudu'. :: It breaks wudu'
+The Hanafi school's view on bleeding and wudu'. :: Flowing blood breaks wudu'
+The minimum period of menstruation according to the Hanbali school. :: One day and night
+The maximum period of postnatal bleeding (nifas), according to the Hanbali school. :: 40 days
+The 'awrah of a man in prayer is from the navel to this. :: The knee
+The Hanbali school's ruling on whether women must cover the face in front of non-mahram men. :: Required (the well-known Hanbali view)
+A traveller who intends to stay more than this many days must pray in full, according to the Hanbali school. :: Four
+Combining prayers is allowed for rain in this school, for Maghrib and 'Isha'. :: The Hanbali school (and others)
+Missing the Friday prayer three times without excuse is warned against in this way in a hadith. :: Allah seals his heart
+Imam al-Shafi'i's ﵀ 'old school' views were from Iraq; his 'new school' views were from this country. :: Egypt
+The seven reciters of the Quran were standardised by this scholar of Baghdad. :: Ibn Mujahid ﵀
+The most common Quran recitation in the world today. :: Hafs from 'Asim
+The fiqh rule on zakat al-fitr being given before the 'Eid prayer comes from a hadith of this Companion. :: Ibn Umar ﵁ (or Ibn Abbas ﵁)
+Zakat al-Fitr is due from a Muslim who has more than this on the night of 'Eid. :: His and his family's food for that day and night
+The time for the Duha prayer. :: After sunrise until just before noon
+The Sunnah of tahiyyat al-masjid is to pray this many rak'ahs before sitting in a mosque. :: Two
+The sunnah of 'Eid includes eating dates before the prayer on this 'Eid. :: Eid al-Fitr
+On Eid al-Adha, the sunnah is to eat after the prayer from this. :: The udhiyah (sacrifice)
+The majority of scholars in these three schools say zakat is not due on jewellery a woman wears for normal use. :: Maliki, Shafi'i and Hanbali (the Hanafi school says it is due)
+The share of a husband's estate a wife gets if he has no children. :: One quarter
+A father's share when the deceased has a son. :: One sixth
+A mother's share when the deceased has no children and fewer than two siblings. :: One third
+The grandfather's position in inheritance with brothers is a famous difference. Abu Bakr ﵁ held that the grandfather does this. :: Excludes the brothers (like a father)
+Zayd ibn Thabit ﵁ held that the grandfather does this with brothers. :: Shares with them
+The term for heirs who take the remainder after fixed shares. :: 'Asabah
+Proportional reduction of shares when they exceed the estate. :: 'Awl
+Return of the leftover estate to fixed-share heirs. :: Radd
+Relatives who inherit only when there are no fixed-share heirs or 'asabah, such as a daughter's son. :: Dhawu al-arham
+The ruling that a son receives double a daughter's share is in this verse. :: Surat al-Nisa', verse 11
+The Quran verse that ends with "These are the limits of Allah" about inheritance. :: Surat al-Nisa', verse 13
+The verse of kalalah, a person with no parents or children, is the last verse of this surah. :: Surat al-Nisa'
+The jurist Companion called "the most knowledgeable of halal and haram" in a hadith. :: Mu'adh ibn Jabal ﵁
+The Companion called "the best judge" among them in a hadith. :: Ali ibn Abi Talib ﵁
+The Companion called "the most knowledgeable in fara'id". :: Zayd ibn Thabit ﵁
+The Companion whose opinions shaped the fiqh of Kufa. :: Abdullah ibn Mas'ud ﵁
+The seven jurists of Madinah were these early scholars. :: The Tabi'un (Successors)
+One of the seven jurists of Madinah, famous for his knowledge of the rulings of Umar ﵁. :: Sa'id ibn al-Musayyib ﵀
+The famous Successor who was a judge and student in Basra. :: Al-Hasan al-Basri ﵀
+The jurist of Makkah among the Successors, a teacher of Abu Hanifah ﵀. :: 'Ata' ibn Abi Rabah ﵀
+The scholar who was the teacher of Abu Hanifah ﵀ in Kufa. :: Hammad ibn Abi Sulayman ﵀
+Imam al-Shafi'i ﵀ studied with Imam Malik ﵀ in this city. :: Madinah
+Imam Ahmad ﵀ studied with Imam al-Shafi'i ﵀ in this city. :: Baghdad
+The fiqh term for "people of opinion", linked with Iraq. :: Ahl al-ra'y
+The fiqh term for "people of hadith", linked with the Hijaz. :: Ahl al-hadith
+The Hanafi principle of choosing a ruling for fairness over strict analogy. :: Istihsan
+The Maliki principle of public interest not addressed by a text. :: Maslahah mursalah
+The principle that something stays as it was until proven otherwise. :: Istishab
+Laws of earlier prophets, discussed as a source. :: Shar' man qablana
+The opinion of a Companion as a source, used by the Hanbali school. :: Qawl al-sahabi
+Custom as a source. :: 'Urf
+The legal effect of a later ruling cancelling an earlier one in texts. :: Naskh (abrogation)
+A general text and a specific text: which takes priority? :: The specific (takhsis)
+A verse or hadith whose meaning is clear and allows only one reading. :: Nass
+A text that can carry more than one meaning. :: Zahir (or mujmal)
+A hadith reported by many chains so that it is certain. :: Mutawatir
+A hadith reported by one or a few chains. :: Ahad
+The four grades of hadith commonly used. :: Sahih, hasan, da'if and mawdu'
+A fabricated hadith. :: Mawdu'
+The number of conditions of the prayer often listed, such as purity, covering the 'awrah and facing the qiblah. :: Nine (in the Hanbali books)
+The prostration made to fix a mistake in prayer. :: Sujud al-sahw
+The prostration made when reciting certain verses of the Quran. :: Sujud al-tilawah
+The prostration of thanks when good news arrives. :: Sujud al-shukr
+The prayer of two rak'ahs asking Allah for guidance in a decision. :: Salat al-istikharah
+The prayer during a solar or lunar eclipse. :: Salat al-kusuf (or khusuf)
+The prayer prayed in a time of fear, described in Surat al-Nisa'. :: Salat al-khawf
+The amount of crops on which zakat becomes due: five of this measure. :: Awsuq (wasq)
+The four schools agree that zakat on trade goods is paid on this value. :: Their market value at the end of the year
+
+## 400
+The famous letter of Umar ibn al-Khattab ﵁ on judging was sent to this Companion. :: Abu Musa al-Ash'ari ﵁
+The letter says "Proof is upon the claimant and the oath on" this person. :: The one who denies
+The letter says reconciliation is allowed except one that does this. :: Makes halal into haram, or haram into halal
+The book "Al-Ahkam al-Sultaniyyah" was written by this Shafi'i judge. :: Al-Mawardi ﵀
+Al-Mawardi ﵀ was chief judge in this city. :: Baghdad
+Ibn Taymiyyah's ﵀ book "Al-Siyasah al-Shar'iyyah" is about this. :: Good governance by Sharia
+The scholar who wrote "Al-Ghiyathi" on leadership when there is no ruler. :: Al-Juwayni ﵀
+Al-Juwayni ﵀ was known by this title, because he lived in Makkah and Madinah. :: Imam al-Haramayn
+Al-Juwayni's ﵀ famous book on usul al-fiqh. :: Al-Burhan
+Al-Ghazali's ﵀ book on usul al-fiqh. :: Al-Mustasfa
+Fakhr al-Din al-Razi's ﵀ book on usul al-fiqh. :: Al-Mahsul
+Al-Amidi's ﵀ book on usul al-fiqh. :: Al-Ihkam fi Usul al-Ahkam
+The Hanafi usul book by al-Bazdawi ﵀ is known by his name; the Hanafi usul book by al-Sarakhsi ﵀ is known by his name. They are called these. :: Usul al-Bazdawi and Usul al-Sarakhsi
+The two methods of writing usul: the "mutakallimun" method and the method of these jurists. :: The Hanafis (fuqaha')
+The Hanbali usul book "Rawdat al-Nazir" was summarised by this scholar as "Mukhtasar al-Rawdah". :: Al-Tufi ﵀
+Al-Tufi ﵀ is famous for an extreme view giving priority to this over texts. :: Maslahah (public interest)
+The Hanbali usul book "Sharh al-Kawkab al-Munir" was written by this scholar. :: Ibn al-Najjar al-Futuhi ﵀
+The scholar whose "Al-Muwafaqat" made maqasid a central topic. :: Al-Shatibi ﵀
+Al-Shatibi ﵀ also wrote this book on innovations. :: Al-I'tisam
+The modern Tunisian scholar who wrote "Maqasid al-Shari'ah al-Islamiyyah" (1946). :: Muhammad al-Tahir ibn 'Ashur ﵀
+Ibn 'Ashur's ﵀ famous Quran commentary. :: Al-Tahrir wal-Tanwir
+The three levels of maqasid: necessities, needs and this. :: Improvements (tahsiniyyat)
+The Arabic word for "necessities" in maqasid. :: Daruriyyat
+The Arabic word for "needs" in maqasid. :: Hajiyyat
+The scholar who wrote "Qawa'id al-Ahkam" on benefits and harms. :: Al-'Izz ibn Abd al-Salam ﵀
+Al-'Izz ibn Abd al-Salam ﵀ was called this title for selling the Mamluk emirs. :: Sultan al-'Ulama' (Seller of Kings)
+The Maliki scholar whose "Al-Furuq" lists 274 distinctions between rules. :: Al-Qarafi ﵀
+The five great legal maxims: matters by purposes, certainty not removed by doubt, hardship brings ease, harm is removed and this. :: Custom is authoritative
+The Hanbali scholar who wrote "Taqrir al-Qawa'id" (Al-Qawa'id) with 160 maxims. :: Ibn Rajab ﵀
+Besides al-Suyuti ﵀, this Shafi'i scholar also wrote a well-known "Al-Ashbah wal-Naza'ir" on legal maxims. :: Taj al-Din al-Subki ﵀
+The Hanafi book "Al-Ashbah wal-Naza'ir" was written by this scholar. :: Ibn Nujaym ﵀
+The Ottoman civil code based on Hanafi fiqh. :: Majallat al-Ahkam al-'Adliyyah (the Mecelle)
+The Mecelle was prepared by a committee led by this Ottoman statesman. :: Ahmed Cevdet Pasha ﵀
+The famous Hanafi collection of fatwas made for the Mughal emperor Aurangzeb. :: Al-Fatawa al-Hindiyyah ('Alamgiriyyah)
+The Maliki school's chief authority after Malik ﵀ in North Africa, author of "Al-Mudawwanah". :: Sahnun ﵀
+"Al-Mudawwanah" records answers of Malik ﵀ through this Egyptian student. :: Ibn al-Qasim ﵀
+The famous Andalusian Maliki judge who wrote "Al-Muqaddimat al-Mumahhidat". :: Ibn Rushd (the grandfather) ﵀
+The Andalusian scholar who founded the Zahiri school's best-known works, such as "Al-Muhalla". :: Ibn Hazm ﵀
+The Zahiri school was founded by this scholar of Baghdad. :: Dawud al-Zahiri ﵀
+The Zahiri school rejects this source of law. :: Qiyas (analogy)
+The scholar Abu Thawr ﵀ and Ibn Jarir al-Tabari ﵀ founded schools that did this. :: Died out (they are extinct schools)
+The scholar Sufyan al-Thawri ﵀ founded a school in this city. :: Kufa
+The jurist of Syria whose school was followed in al-Andalus before the Maliki school. :: Al-Awza'i ﵀
+The jurist of Egypt about whom al-Shafi'i ﵀ said he was more learned than Malik ﵀. :: Al-Layth ibn Sa'd ﵀
+The age of "bulugh" by years when no other sign appears, according to the Shafi'i and Hanbali schools. :: 15 (lunar years)
+The Hanafi school's view of a woman marrying without a guardian. :: Valid if she is an adult and marries a suitable match
+The concept of a suitable match in marriage. :: Kafa'ah
+The type of divorce where a husband swears not to approach his wife for more than four months. :: Ila'
+The pre-Islamic divorce by comparing the wife to one's mother, forbidden in Surat al-Mujadilah. :: Zihar
+The Companion woman whose complaint about zihar led to Surat al-Mujadilah. :: Khawlah bint Tha'labah ﵂
+The process where a husband accuses his wife of adultery without witnesses, with oaths from both. :: Li'an
+Li'an is described in this surah. :: Surat al-Nur
+A third divorce makes the wife unlawful until she marries another man genuinely. This is called this. :: Bainunah kubra (major finality)
+A marriage done only to make a woman lawful for her first husband is forbidden. It is called this. :: Nikah al-tahlil
+Temporary marriage, forbidden by Sunni scholars. :: Nikah al-mut'ah
+Marriage where two guardians exchange daughters without mahr, forbidden. :: Nikah al-shighar
+The Islamic ruling on a contract made by a child who has discernment but has not reached puberty. :: Depends on the guardian's approval (for transactions with possible loss)
+The age of discernment (tamyiz) often given by scholars. :: Seven
+The legal person in fiqh who manages an orphan's property. :: Wasi
+The term for a person barred from managing money because of foolishness or debt. :: Mahjur 'alayh (hajr)
+The share of a mother when there are two or more siblings. :: One sixth
+A daughter's share when she is the only child and there is no son. :: One half
+Two or more daughters, with no sons, share this. :: Two thirds
+A husband's share when the wife has children. :: One quarter
+A grandmother's share. :: One sixth
+A full sister alone, with no children, father or brothers, receives this. :: One half
+Half-brothers and half-sisters through the mother share this when there are two or more. :: One third (equally between males and females)
+A single maternal half-sibling receives this. :: One sixth
+The 'Umariyyatan cases involve a spouse, a father and this relative. :: A mother
+In the 'Umariyyatan cases, the mother receives this. :: One third of the remainder
+The legal heir who is never excluded completely: father, mother, son, daughter, husband and this. :: Wife
+The zakat on camels from 5 to 9 is this. :: One sheep
+The zakat on 40 cows. :: A musinnah (a two-year-old cow)
+The zakat on 120 sheep. :: One sheep (two from 121)
+The zakat on gold of 85 grams worth 20,000 riyals. :: 500 riyals
+Zakat is not due on horses kept for riding, according to a hadith, nor on these. :: Slaves for service (personal use items)
+A person who dies before paying zakat that was due has it paid from this. :: His estate (before inheritance)
+The 'Ushr' on produce is due at this time. :: Harvest
+The scholars disagree about zakat on these produce items: the Hanafi school says zakat is due on all produce, the majority only on these. :: Stored staple foods (like grains and dates)
+The ruling on fasting the Day of 'Arafah for someone not on Hajj. :: Recommended (it expiates two years of sins)
+The ruling on fasting the Day of 'Arafah for pilgrims at 'Arafah. :: Not recommended
+The reward of fasting 'Ashura', according to a hadith. :: Expiation of the previous year's sins
+The 'night of doubt' fast on the 30th of Sha'ban is this according to the majority. :: Not allowed (disliked or forbidden)
+The fast where one fasts every other day, called the best voluntary fast. :: The fast of Prophet Dawud ﵇
+Fasting is forbidden on these days. :: The two 'Eids and the days of tashriq
+The legal maxim "Custom is given legal weight" in Arabic. :: Al-'adah muhakkamah
+The legal maxim "Harm must be removed" in Arabic. :: Al-darar yuzal
+The legal maxim "Hardship brings ease" in Arabic. :: Al-mashaqqah tajlib al-taysir
+The legal maxim "Certainty is not removed by doubt" in Arabic. :: Al-yaqin la yazul bil-shakk
+The legal maxim "Matters are judged by their purposes" in Arabic. :: Al-umur bi-maqasidiha
+The legal maxim "Necessities make forbidden things allowed". :: Al-darurat tubih al-mahzurat
+The maxim that limits the one above: necessity is measured by this. :: Its extent (taqaddar bi-qadariha)
+The maxim "Preventing harm comes before bringing benefit" in Arabic. :: Dar' al-mafasid muqaddam 'ala jalb al-masalih
+The principle of blocking the means to harm, strong in the Maliki and Hanbali schools. :: Sadd al-dhara'i'
+The Hanbali scholar Ibn al-Qayyim ﵀ wrote this book on judges and evidence. :: Al-Turuq al-Hukmiyyah
+Ibn al-Qayyim's ﵀ book "I'lam al-Muwaqqi'in" is about these people. :: Muftis (those who sign for Allah)
+The usul book "Al-Risalah" was written by this imam. :: Imam al-Shafi'i ﵀
+"Al-Risalah" is said to be the first book of this science. :: Usul al-fiqh
+The usul book "Al-Muwafaqat" was written in this region. :: Al-Andalus (Granada)
+The term for a ruling of a judge that ends a dispute between views. :: Hukm al-hakim yarfa' al-khilaf
+
+## 500
+The International Islamic Fiqh Academy is based in this city. :: Jeddah
+The Islamic Fiqh Council of the Muslim World League is based in this city. :: Makkah
+The European Council for Fatwa and Research is based in this city. :: Dublin
+The Saudi Permanent Committee for Scholarly Research and Ifta was set up in this year. :: 1971
+The Saudi scholar who was Grand Mufti from 1993 to 1999. :: Sheikh Abdulaziz ibn Baz ﵀
+The Saudi scholar of 'Unayzah famous for his fatwas and lessons in the Grand Mosque. :: Sheikh Muhammad ibn Salih al-'Uthaymin ﵀
+Ibn 'Uthaymin's ﵀ famous commentary on "Zad al-Mustaqni'". :: Al-Sharh al-Mumti'
+The Saudi scholar of 'Unayzah, teacher of Ibn 'Uthaymin ﵀, who wrote a famous tafsir. :: Sheikh Abd al-Rahman al-Sa'di ﵀
+The Saudi scholar Muhammad ibn Ibrahim ﵀ was the first to hold this office. :: Grand Mufti of Saudi Arabia
+The hadith scholar who lived in Damascus and Madinah and was famous for grading hadith. :: Sheikh Muhammad Nasir al-Din al-Albani ﵀
+The Hanbali fiqh principle "everything is permitted in contracts unless forbidden" was argued for strongly by this scholar. :: Ibn Taymiyyah ﵀
+Ibn Taymiyyah's ﵀ collected fatwas fill this many volumes in the common edition. :: 37 (Majmu' al-Fatawa)
+The scholar who collected and arranged "Majmu' al-Fatawa" of Ibn Taymiyyah ﵀. :: Abd al-Rahman ibn Qasim ﵀
+Ibn Taymiyyah ﵀ was famous for a ruling that three divorces said at once count as this. :: One divorce
+That view was adopted in the law of several countries, against the view of these four schools. :: The four schools (which count three)
+The Hanbali view, followed by the Saudi Personal Status Law, on a divorce said in anger that takes away awareness. :: It does not take effect
+The hadith "There is no divorce or freeing of slaves in ighlaq" refers to this. :: A state of being closed off (extreme anger or compulsion)
+The concept in Islamic law of "the rights of Allah" versus these. :: The rights of people (huquq al-'ibad)
+Crimes against the rights of Allah can't be pardoned by the victim. Crimes of qisas can be pardoned by this person. :: The victim or the victim's heirs
+The hadd punishment for theft requires the item to be taken from a place of safekeeping. This is called this. :: Hirz
+The nisab for the hadd of theft, according to the Hanafi school. :: Ten dirhams (one dinar)
+The nisab for the hadd of theft, according to the majority. :: A quarter dinar (or three dirhams)
+The punishment of qadhf requires this many witnesses to prove zina. :: Four
+The famous incident in which our Beloved and our master, the Prophet Muhammad ﷺ refused intercession in a theft case of a noblewoman. :: The Makhzumi woman
+In that hadith, our Beloved and our master, the Prophet Muhammad ﷺ said that even if this person stole, her hand would be cut. :: Fatimah ﵂
+The year of famine when Umar ibn al-Khattab ﵁ suspended the hadd of theft. :: 'Am al-Ramadah (the Year of Ashes)
+The diyah for a woman's life is half that of a man according to the majority. This is reported from Umar ﵁ and this Companion. :: Ali ibn Abi Talib ﵁ (and others)
+The diyah of a full life traditionally equals this many camels. :: 100
+The diyah for a finger, according to a hadith. :: 10 camels
+The diyah for a tooth. :: Five camels
+The diyah for an injury exposing the bone (mudihah). :: Five camels
+The term for a person who pays diyah for accidental killing on behalf of the killer. :: 'Aqilah
+The expiation for accidental killing. :: Freeing a believing slave, or fasting two consecutive months
+The legal concept of a "liability for harm" in Islamic law. :: Daman
+A person who destroys another's property must pay its value or this. :: Its like (mithl)
+The jurist who first wrote on international relations in "Al-Siyar al-Kabir". :: Muhammad al-Shaybani ﵀
+The commentary on "Al-Siyar al-Kabir" was written by this Hanafi scholar. :: Al-Sarakhsi ﵀
+Al-Sarakhsi ﵀ dictated "Al-Mabsut" while imprisoned in this. :: A well (pit) in Uzjand
+"Al-Mabsut" of al-Sarakhsi ﵀ runs to this many volumes in print. :: 30
+The Hanafi scholar al-Kasani ﵀ wrote this famous book praised for its order. :: Bada'i' al-Sana'i'
+Al-Kasani ﵀ married the daughter of this scholar, whose book he explained. :: 'Ala' al-Din al-Samarqandi ﵀ (Tuhfat al-Fuqaha')
+The Shafi'i scholar who wrote "Al-Hawi al-Kabir". :: Al-Mawardi ﵀
+The Shafi'i scholar who wrote "Nihayat al-Matlab". :: Al-Juwayni ﵀
+The Shafi'i scholar who wrote "Al-Wasit" and "Al-Wajiz". :: Al-Ghazali ﵀
+The commentary on "Al-Wajiz" called "Al-Sharh al-Kabir" (Fath al-'Aziz) was written by this scholar. :: Al-Rafi'i ﵀
+The two Shafi'i scholars whose views are called "the two Shaykhs" of the school. :: Al-Rafi'i ﵀ and al-Nawawi ﵀
+The two later Shafi'i authorities, Ibn Hajar al-Haytami ﵀ and this scholar, wrote "Tuhfat al-Muhtaj" and "Nihayat al-Muhtaj". :: Al-Ramli ﵀
+The Hanbali scholar al-Mardawi ﵀ wrote this book listing the school's preferred views. :: Al-Insaf
+The two Hanbali books that became the school's standard references in later times. :: Al-Iqna' and Muntaha al-Iradat
+The Hanbali scholar whose "Kashshaf al-Qina'" explains "Al-Iqna'". :: Al-Buhuti ﵀
+Al-Buhuti ﵀ lived in this city. :: Cairo
+Ibn Muflih ﵀, a student of Ibn Taymiyyah ﵀, wrote this Hanbali book. :: Al-Furu'
+Ibn Taymiyyah ﵀ said of Ibn Muflih ﵀: "You are not Ibn Muflih, you are" this. :: Muflih (success itself)
+The "Mukhtasar" of al-Khiraqi ﵀ is the first major text of this school. :: The Hanbali school
+Ibn Qudamah's ﵀ "Al-Mughni" is a commentary on this book. :: Mukhtasar al-Khiraqi
+The Maliki scholar Ibn 'Abd al-Barr ﵀ wrote this commentary on "Al-Muwatta'". :: Al-Tamhid (and Al-Istidhkar)
+The Maliki judge of Seville who wrote "Ahkam al-Quran". :: Abu Bakr ibn al-'Arabi ﵀
+The Andalusian Maliki commentator whose "Al-Jami' li-Ahkam al-Quran" is a fiqh tafsir. :: Al-Qurtubi ﵀
+The Hanafi scholar al-Jassas ﵀ also wrote a book titled this. :: Ahkam al-Quran
+The term for legal stratagems, criticised by Ibn al-Qayyim ﵀. :: Hiyal
+The book "Ighathat al-Lahfan" by Ibn al-Qayyim ﵀ argues against these. :: Legal tricks and the plots of Shaytan
+The concept of a Muslim scholar who reaches full independent ijtihad. :: Mujtahid mutlaq
+The term for scholars who give fatwa within a school. :: Mujtahid al-madhhab (or ashab al-wujuh)
+The term for choosing between the views of different schools. :: Talfiq (or takhayyur)
+The scholar Shah Wali Allah al-Dihlawi ﵀ wrote this book on the wisdom behind rulings. :: Hujjat Allah al-Balighah
+The concept "fiqh al-aqalliyyat" is the fiqh of these. :: Muslim minorities
+The concept "fiqh al-nawazil" deals with this. :: New issues (contemporary cases)
+The IIFA ruled in 1986 on this question related to the beginning of months. :: Unifying moon sighting (one sighting is valid for all)
+The IIFA ruled in 1986 that brain death is this. :: Legal death (allowing life support to be stopped)
+The IIFA ruled in 1988 that organ transplants from living donors are allowed if they don't cause this. :: Serious harm to the donor
+The Saudi Council of Senior Scholars approved organ donation in this year. :: 1982
+The IIFA ruled on cloning humans in 1997, saying it is this. :: Forbidden
+The IIFA ruled that IVF is allowed only between these two people. :: A married couple (during the marriage)
+The Ottoman scholar who served as Shaykh al-Islam under Suleiman the Magnificent and wrote a famous tafsir. :: Ebussuud Efendi ﵀
+The Hanafi scholar Ibn al-Humam ﵀ wrote this commentary on "Al-Hidayah". :: Fath al-Qadir
+The Hanafi text "Kanz al-Daqa'iq" was written by this scholar. :: Al-Nasafi ﵀ (Abu al-Barakat)
+Ibn Nujaym's ﵀ commentary on "Kanz al-Daqa'iq". :: Al-Bahr al-Ra'iq
+The Hanafi text "Tanwir al-Absar" is explained in "Al-Durr al-Mukhtar", whose commentary is this. :: Radd al-Muhtar (Hashiyat Ibn 'Abidin)
+The Hanafi scholar al-Tahawi ﵀ came from this country. :: Egypt
+Al-Tahawi ﵀ first studied in this school before moving to the Hanafi school. :: The Shafi'i school
+Al-Tahawi's ﵀ uncle and first teacher was this Shafi'i scholar. :: Al-Muzani ﵀
+The "Mukhtasar al-Muzani" is a summary of the works of this imam. :: Imam al-Shafi'i ﵀
+The Maliki scholar al-Dardir ﵀ wrote this commentary on "Mukhtasar Khalil". :: Al-Sharh al-Kabir
+The Maliki commentary on "Mukhtasar Khalil" called "Mawahib al-Jalil" was written by this scholar. :: Al-Hattab ﵀
+The Maliki scholar al-Wansharisi ﵀ collected North African fatwas in this book. :: Al-Mi'yar al-Mu'rib
+The Shafi'i book "Mughni al-Muhtaj" was written by this scholar. :: Al-Khatib al-Shirbini ﵀
+"Nihayat al-Muhtaj" was written by this Shafi'i scholar. :: Shams al-Din al-Ramli ﵀
+The Shafi'i book "Al-Muhadhdhab" was written by this scholar, and explained by al-Nawawi ﵀ in "Al-Majmu'". :: Abu Ishaq al-Shirazi ﵀
+Abu Ishaq al-Shirazi ﵀ taught at this famous college in Baghdad. :: Al-Nizamiyyah
+The Hanbali scholar Abu Ya'la ﵀ wrote a book with this same title as al-Mawardi's ﵀ book on governance. :: Al-Ahkam al-Sultaniyyah
+The Hanbali scholar Ibn 'Aqil ﵀ wrote this huge book said to be in hundreds of volumes. :: Al-Funun
+The Hanbali scholar Ibn al-Jawzi ﵀ lived in this city. :: Baghdad
+Ibn Rajab's ﵀ commentary on Imam al-Nawawi's ﵀ forty hadiths. :: Jami' al-'Ulum wal-Hikam
+The term for a hadith that reports a Companion's own words rather than words of our Beloved and our master, the Prophet Muhammad ﷺ. :: Mawquf
+The term for a hadith where a Successor reports directly from our Beloved and our master, the Prophet Muhammad ﷺ, skipping the Companion. :: Mursal
+Imam Malik ﵀ accepted mursal hadiths, and so did this imam. :: Imam Abu Hanifah ﵀
+The practice of the people of Madinah as a source is special to this school. :: The Maliki school ('amal ahl al-Madinah)
+Imam Malik ﵀ wrote to this Egyptian jurist defending the practice of Madinah. :: Al-Layth ibn Sa'd ﵀
+The view that every mujtahid is correct is called this. :: Taswib
+The hadith says a judge who strives and is right gets two rewards; one who strives and errs gets this. :: One reward
+
+## tf
+Eating seafood such as fish and shrimp caught by a non-Muslim. :: Halal (the sea's catch is lawful, by the majority)
+Eating the meat of a donkey kept for farm work. :: Not halal (domestic donkeys were forbidden at Khaybar)
+Eating locusts. :: Halal (by hadith, with fish they are lawful without slaughter)
+Eating an animal that died by itself without slaughter (other than fish and locusts). :: Not halal (maytah, Surat al-Ma'idah 3)
+Eating the meat slaughtered by a Jew or Christian in the name of Allah. :: Halal (food of the People of the Book, Surat al-Ma'idah 5)
+Eating the meat of a lion or other predator with fangs. :: Not halal (forbidden in a hadith)
+Eating a rabbit slaughtered properly. :: Halal (by the majority of scholars)
+A Muslim man marrying a chaste Christian woman. :: Halal (Surat al-Ma'idah 5, though some scholars dislike it)
+A Muslim woman marrying a Christian man. :: Not halal (by consensus)
+A man marrying his wife's sister while still married to his wife. :: Not halal (Surat al-Nisa' 23)
+Marrying the daughter of one's milk-mother (a milk sister). :: Not halal (milk kinship forbids marriage)
+A man wearing a silver ring. :: Halal (our Beloved and our master, the Prophet Muhammad ﷺ wore one)
+A man wearing a gold ring. :: Not halal (gold is forbidden for men)
+A woman wearing gold jewellery. :: Halal
+Fasting on the day of 'Eid al-Fitr. :: Not halal (fasting on the two 'Eids is forbidden)
+A traveller shortening four-rak'ah prayers to two on a long journey. :: Halal (a concession, Surat al-Nisa' 101)
+Doing tayammum with clean earth when no water can be found. :: Halal (Surat al-Ma'idah 6)
+Selling something you do not yet own, such as goods still with the seller's supplier. :: Not halal (forbidden in a hadith, except salam)
+A sick person who cannot stand praying sitting down. :: Halal (by hadith)
+Keeping a found wallet without announcing it. :: Not halal (a find must be announced, usually for a year)
+Giving zakat to one's own parents. :: Not halal (a person must support them already)
+Giving zakat to a poor brother whom one is not obliged to support. :: Halal (and it counts as charity and kinship too)
+Taking a bribe to give a contract. :: Not halal (the briber and taker are cursed in a hadith)
+Hunting during ihram for Hajj or 'Umrah. :: Not halal (Surat al-Ma'idah 95)
+Eating fish caught by a pilgrim in ihram. :: Halal (sea game is allowed, Surat al-Ma'idah 96)
+Eating food from a wedding feast of non-Muslim neighbours, if it has no pork, alcohol or non-halal meat. :: Halal
+Charging rent for a house. :: Halal (ijarah is a valid contract)
+Gambling on a football match for money. :: Not halal (maysir, Surat al-Ma'idah 90)
+A woman travelling for Hajj in a safe group without a mahram, in the Shafi'i school. :: Halal (the Shafi'i school allows it with trustworthy women)
+Eating meat of a camel. :: Halal
+
+## case
+A man dies leaving a wife, his mother and one son. What is the wife's share? :: One eighth (there is a child)
+A woman dies leaving her husband and her father, and no children. What is the husband's share? :: One half (no children)
+A man dies leaving one son and one daughter, and no one else. How is the estate divided? :: Son two thirds, daughter one third (double share for the male)
+A man dies leaving two daughters, his father and no son. What do the daughters share? :: Two thirds
+A man dies leaving a wife and three sons, and his estate is 240,000 riyals. How much does the wife get? :: 30,000 riyals (one eighth)
+A man dies leaving a son and a brother. What does the brother get? :: Nothing (the son excludes the brother)
+A man leaves a will giving half his estate to a charity, and his heirs do not agree. How much goes to the charity? :: One third (a will is capped at one third)
+A man leaves a will giving 10,000 riyals to his son, an heir. Is it valid without the other heirs' consent? :: No ("No will for an heir", by hadith)
+A woman owns 2,000 grams of silver, not used, for a full lunar year. How much silver zakat is due? :: 50 grams (2.5%)
+A farmer grows wheat on rain-fed land and harvests 10,000 kg. How much zakat? :: 1,000 kg (one tenth, for rain-watered crops)
+A farmer harvests 10,000 kg of dates from land watered by pumps. How much zakat? :: 500 kg (one twentieth, for irrigated crops)
+A family of five must pay zakat al-fitr at one sa' each, about 3 kg of rice. How much rice in total? :: About 15 kg
+A person who is fasting forgets and drinks water at noon. Is the fast broken? :: No (by hadith: Allah fed him and gave him drink)
+A healthy man misses three fasts of Ramadan while travelling. What must he do? :: Make up the three days later
+A person prays Dhuhr and is unsure whether he prayed three or four rak'ahs. What should he do? :: Take the lesser (three), pray one more and do sujud al-sahw

@@ -1,0 +1,514 @@
+id: personalfin
+name: Personal Finance
+group: finance
+
+## 100
+A plan for how you will spend and save your money each month. :: Budget
+Money you receive from work. :: Income (salary)
+Money you spend. :: Expenses
+Money you keep for the future instead of spending. :: Savings
+Money kept aside for surprises like a broken car. :: Emergency fund
+Experts often say an emergency fund should cover this many months of expenses. :: Three to six
+Things you must have, like food and rent. :: Needs
+Things that are nice to have, like a new phone. :: Wants
+The popular budget rule that splits income 50/30/20 into needs, wants and this. :: Savings
+In the 50/30/20 rule, this share goes to needs. :: 50%
+Paying yourself first means doing this as soon as you are paid. :: Saving a set amount
+Money you owe to someone else. :: Debt
+A card that spends your own money from the bank. :: Debit card
+A card that lets you borrow and pay back later. :: Credit card
+A short-term loan built into your bank account. :: Overdraft
+Buying now and paying in small parts later. :: Instalments (buy now, pay later)
+Buying something you didn't plan because you suddenly wanted it. :: Impulse buying
+A list made before shopping to avoid overspending. :: Shopping list
+Comparing prices at different shops before buying. :: Comparison shopping
+A small regular cost, like a streaming service, that you pay every month. :: Subscription
+The total of everything you own minus everything you owe. :: Net worth
+Things you own that have value, like savings or a car. :: Assets
+Money you owe, like loans. :: Liabilities
+Money that grows by earning returns on returns. :: Compound growth
+The rule that says money doubles in about 72 divided by the yearly return. :: Rule of 72
+At 6% a year, your money doubles in about this many years. :: 12
+Putting money into shares, funds or property to grow it. :: Investing
+A pool of investments run by a manager for many investors. :: Fund
+Spreading your money across different investments. :: Diversification
+Money set aside to live on when you stop working. :: Retirement savings (pension)
+The Saudi body that runs pensions and social insurance for private-sector workers. :: GOSI (General Organization for Social Insurance)
+A list of what you spent, written down to see where your money goes. :: Spending tracker (expense log)
+A bank account for daily spending. :: Current account
+A bank account for saving money. :: Savings account
+A short goal you can reach within a year. :: Short-term goal
+A goal like buying a house, years away. :: Long-term goal
+SMART goals are specific, measurable, achievable, relevant and this. :: Time-bound
+A fixed expense that is the same every month, like rent. :: Fixed expense
+An expense that changes month to month, like groceries. :: Variable expense
+A one-time large purchase you plan for, like a car. :: Big-ticket purchase
+The yearly cost of borrowing on a credit card, as a percentage, in conventional banking. :: Interest rate (APR)
+Paying only the minimum on a credit card makes the debt last this way. :: Much longer (and cost more)
+A record of how well you repay your debts. :: Credit history
+A number that shows lenders how reliable you are with debt. :: Credit score
+Saudi Arabia's credit bureau. :: SIMAH
+A trick email that tries to steal your bank details. :: Phishing
+Never share this four-digit card code with anyone. :: PIN
+A one-time password sent to your phone should be shared with this person. :: No one
+A promise of huge, quick, guaranteed returns is usually a sign of this. :: A scam (fraud)
+Money that comes in regularly without much daily work, like rent from property. :: Passive income
+A second job or small business on the side. :: Side hustle
+A rise in prices that makes your money buy less. :: Inflation
+If inflation is 3% a year, money in a box for one year loses about this much buying power. :: 3%
+Buying a used item instead of a new one usually saves this. :: Money
+A discount code or voucher that lowers a price. :: Coupon
+A shop's points programme that gives rewards for buying. :: Loyalty programme
+A bill for electricity, water or internet. :: Utility bill
+Saudi Arabia's online platform for paying bills. :: SADAD
+The tax Saudi shoppers pay on most goods, at 15%. :: VAT
+The charity due on savings above the nisab for a year. :: Zakat
+Voluntary charity given at any time. :: Sadaqah
+The money a worker takes home after deductions. :: Net pay (take-home pay)
+Pay before any deductions. :: Gross pay
+A slip that shows your pay and deductions. :: Payslip
+A lump sum of extra pay given for good work. :: Bonus
+The yearly increase in salary. :: Raise (pay rise)
+A loan to buy a home. :: Home finance (mortgage)
+A loan to buy a car. :: Car finance
+The money paid upfront when buying a home with finance. :: Down payment
+Renting means paying this to a landlord. :: Rent
+A written agreement between a tenant and landlord. :: Lease (tenancy contract)
+Saudi Arabia's official platform for registering rental contracts. :: Ejar
+Saudi Arabia's housing programme that helps citizens own homes. :: Sakani
+Protection that pays out if something bad happens, like a car accident. :: Insurance
+Car insurance that covers damage to other people's cars only. :: Third-party insurance
+Car insurance that also covers your own car. :: Comprehensive insurance
+The amount you pay for insurance. :: Premium
+The amount you pay yourself before insurance pays the rest. :: Excess (deductible)
+Health insurance for workers in Saudi Arabia is overseen by this council. :: Council of Health Insurance
+Gold bought as savings, often as bars or coins. :: Bullion
+Shares in companies bought on the Saudi stock market. :: Saudi shares (Tadawul shares)
+A fund that buys property and pays rent income to investors. :: REIT
+Islamic investment certificates often called Islamic bonds. :: Sukuk
+Saudi Arabia's government savings product for individuals, launched in 2023. :: Sah (savings sukuk)
+The minimum amount to invest in each Sah sukuk. :: 1,000 riyals
+The person you trust to help manage your money professionally. :: Financial adviser (financial planner)
+A plan for who gets your wealth after you die, in Islam set by Quranic shares. :: Inheritance (mirath)
+A Muslim may leave a bequest (wasiyyah) to non-heirs of up to this share of the estate. :: One third
+Spending less than you earn means you are living this way. :: Within your means
+Living beyond your means usually leads to this. :: Debt
+A money diary kept by children to learn saving. :: Piggy bank (savings jar)
+Pocket money given to children each week or month. :: Allowance
+Money left after paying all bills and saving. :: Discretionary income (fun money)
+Cutting spending on things you don't need. :: Cutting back (frugality)
+A rule of waiting a day before buying something you want. :: The 24-hour rule
+A bank's yearly fee for a credit card. :: Annual fee
+A card fee for using an ATM of a different bank abroad. :: Foreign transaction (ATM) fee
+A summary of your account sent each month. :: Bank statement
+Checking your bank account often to spot mistakes or fraud. :: Monitoring your accounts
+A type of account where money is locked for a time for a better return. :: Term deposit
+A digital wallet app used to pay by phone. :: E-wallet
+
+## 200
+The budgeting method where every riyal gets a job until income minus spending equals zero. :: Zero-based budgeting
+The budgeting method using envelopes of cash for each spending category. :: Envelope system
+Paying off the smallest debt first for quick wins. :: Debt snowball
+Paying off the debt with the highest cost first. :: Debt avalanche
+Combining several debts into one loan. :: Debt consolidation
+The share of your income that goes to debt repayments. :: Debt-to-income ratio (debt burden ratio)
+In Saudi Arabia, monthly repayments on personal finance are capped at about this share of salary for most people. :: 33% (one third)
+The cost of a loan including all fees, as a yearly rate. :: APR (annual percentage rate)
+A 'flat rate' on a loan is charged on this amount for the whole term. :: The original amount (making the true rate higher)
+A loan with a flat rate of 5% a year often has a true APR close to this. :: Nearly double (about 9% to 10%)
+A borrower's history of late payments stays in the credit report for this long in many systems. :: Several years
+Spending money to look rich, often on credit. :: Conspicuous consumption
+Wanting more as your income grows. :: Lifestyle inflation (lifestyle creep)
+Saving a pay rise instead of spending it fights this. :: Lifestyle inflation
+The return you get after inflation. :: Real return
+Savings earning 2% when inflation is 4% lose about this much buying power a year. :: 2%
+The rule of 72 at 9% a year gives a doubling time of this. :: 8 years
+1,000 invested at 10% a year compound grows to this after 3 years. :: 1,331
+Investing the same amount regularly no matter the price. :: Dollar-cost averaging (regular investing)
+A fund that tracks a market index with low fees. :: Index fund
+A fund that trades on a stock exchange like a share. :: ETF
+The yearly fee a fund charges as a share of your money. :: Expense ratio (management fee)
+A fund charging 2% a year instead of 0.2% costs about this much more over 30 years. :: A large share of the final value (often a quarter or more)
+A fund that changes from shares to bonds as you near retirement. :: Target-date fund (lifecycle fund)
+How much loss you can stomach in your investments. :: Risk tolerance
+How long you plan to keep money invested. :: Time horizon
+Selling investments in a panic when markets fall locks in this. :: Losses
+Trying to buy at the bottom and sell at the top. :: Market timing
+The saying about investing: it's "time in the market", not this. :: Timing the market
+A share's yearly dividend divided by its price. :: Dividend yield
+A Saudi investment app or platform must be licensed by this regulator. :: Capital Market Authority (CMA)
+A fake trading platform that shows false profits to get more deposits. :: Investment scam
+A scheme that pays old investors with new investors' money. :: Ponzi scheme
+A scheme where you earn by recruiting others who pay to join. :: Pyramid scheme
+The legal Saudi regulator that warns the public about unlicensed forex trading. :: Capital Market Authority (CMA)
+Saudi Arabia's pension contribution rate for new private-sector Saudi workers from July 2024 starts at this total share and rises yearly. :: 18% (9% employee and 9% employer, rising to 22% by 2028)
+The GOSI branch that pays workers who lose their jobs. :: SANED (unemployment insurance)
+SANED pays unemployed Saudis for up to this many months for each claim. :: 12
+Under the 2024 Social Insurance Law, the standard retirement age for new workers rises gradually to this. :: 65
+The government programme that pays monthly support to low-income Saudi families. :: Social Security (the Comprehensive Rehabilitation and Social Security programme)
+The Saudi programme that offsets energy price rises for families. :: Citizen's Account
+The bonus paid to a Saudi private-sector worker at the end of service. :: End-of-service award (gratuity)
+Under Saudi labour law, end-of-service pay for the first five years is half a month's wage for each year. After five years it is this. :: One month's wage per year
+A salary advance from an employer is usually repaid from this. :: Future salary
+A fixed-term financial product where money is locked until a date. :: Time deposit
+In Islamic banks, a savings account usually earns this instead of interest. :: A share of profit (mudaraba profit)
+The Islamic home finance where you and the bank co-own the home. :: Diminishing musharaka
+The Islamic home finance where the bank buys the home and resells it at a higher price on instalments. :: Murabaha
+The Islamic home finance where the bank owns the home and leases it to you until you own it. :: Ijara ending in ownership
+Saudi Arabia's Real Estate Development Fund helps citizens by paying this on home finance. :: The profit (interest) cost, or part of it (subsidised finance)
+The ratio of a home loan to the home's value. :: Loan-to-value (LTV)
+First-time Saudi home buyers can borrow up to this share of a home's value. :: 90%
+Total monthly housing cost should usually stay below about this share of income. :: 30% to 35%
+Renting versus buying depends on prices, rent and this. :: How long you plan to stay
+The extra costs of buying a home, like fees and taxes. :: Closing costs
+Saudi Arabia's real estate transaction tax on property sales. :: 5%
+The Saudi tax on undeveloped land in cities, known as this. :: White land tax
+Insurance that pays your family if you die. :: Life insurance (family takaful)
+Insurance that pays if you can't work due to illness. :: Disability (income protection) insurance
+A gap in insurance where you're not covered for a problem you already had. :: Pre-existing condition exclusion
+Health insurance for Saudi private-sector workers is paid by this person. :: The employer
+Checking your bank charges, subscriptions and fees once a year. :: Financial check-up (money review)
+Writing down your spending for one month helps you find these. :: Money leaks (unnecessary spending)
+A 'no-spend day' means spending money on this. :: Nothing (only essentials)
+The 'latte factor' says small daily spending adds up to this. :: A large amount over time
+Saving 10 riyals a day adds up to about this in a year. :: 3,650 riyals
+Saving 500 riyals a month adds up to this in a year, before returns. :: 6,000 riyals
+Rewards credit cards give back points or this. :: Cashback
+The 'grace period' on a credit card is the time before this is charged. :: Interest (profit) on purchases
+Card details stolen at a fake card reader is called this. :: Skimming
+A text message scam is called this. :: Smishing
+A phone call scam is called this. :: Vishing
+Scammers pretending to be from your bank often ask for this code. :: OTP (one-time password)
+The Saudi 'Absher' app is mainly used for these. :: Government services (passports, IDs and more)
+The Saudi platform 'Wasel' or national address is used to receive these. :: Deliveries and mail
+A will in Islam is called this. :: Wasiyyah
+A bequest in a will cannot go to these people, who already inherit, under the majority view. :: Legal heirs
+The share a wife inherits from her husband who has children. :: One eighth
+The share a husband inherits from his wife who has no children. :: One half
+A son inherits this compared with a daughter. :: Twice the daughter's share
+Wealth given while you're alive as a gift in Islam. :: Hibah
+Debts must be paid from an estate before this. :: Bequests and inheritance shares
+The yearly percentage of zakat on cash savings. :: 2.5%
+Zakat on 40,000 riyals of savings held for a year. :: 1,000 riyals
+Planning taxes, savings and investments to reach life goals. :: Financial planning
+A person's money attitudes learned from family. :: Money mindset
+Delaying a reward to get a bigger one later. :: Delayed gratification
+The Stanford study where children waited for a second treat. :: Marshmallow test
+By the rule of 72, money growing at 3% a year doubles in about this many years. :: 24
+By the rule of 72, money growing at 4% a year doubles in about this many years. :: 18
+By the rule of 72, money growing at 8% a year doubles in about this many years. :: 9
+By the rule of 72, money growing at 12% a year doubles in about this many years. :: 6
+Monthly expenses of 4,000 riyals and a goal of 6 months' cover: the emergency fund you need. :: 24,000 riyals
+Monthly expenses of 7,500 riyals and a goal of 3 months' cover: the emergency fund you need. :: 22,500 riyals
+Monthly expenses of 6,000 riyals and a goal of 4 months' cover: the emergency fund you need. :: 24,000 riyals
+Monthly expenses of 5,000 riyals and a goal of 5 months' cover: the emergency fund you need. :: 25,000 riyals
+To save 24,000 riyals in 12 months, you must save this much each month. :: 2,000 riyals
+To save 18,000 riyals in 6 months, you must save this much each month. :: 3,000 riyals
+To save 9,000 riyals in 18 months, you must save this much each month. :: 500 riyals
+To save 30,000 riyals in 24 months, you must save this much each month. :: 1,250 riyals
+
+## 300
+Simple interest on 10,000 at 5% for 3 years. :: 1,500
+Compound growth of 10,000 at 5% for 2 years. :: 11,025
+The future value of saving 1,000 a year for 3 years at 10%, with payments at the end of each year. :: 3,310
+The 'four percent rule' suggests retirees can withdraw this share of savings in year one. :: 4%
+By the four percent rule, spending 60,000 a year needs savings of this. :: 1.5 million
+The study behind the four percent rule was published by William Bengen in this year. :: 1994
+The 1998 'Trinity study' tested withdrawal rates using these. :: Historical US stock and bond returns
+The FIRE movement stands for this. :: Financial Independence, Retire Early
+The FIRE idea of saving 25 times yearly spending comes from this rule. :: The four percent rule
+The book "Your Money or Your Life" (1992) inspired this movement. :: The FIRE movement
+The book "Rich Dad Poor Dad" was written by this author. :: Robert Kiyosaki
+The book "The Richest Man in Babylon" teaches saving this share of income. :: One tenth (10%)
+"The Millionaire Next Door" (1996) found many millionaires are this. :: Frugal (living below their means)
+The authors of "The Millionaire Next Door". :: Thomas Stanley and William Danko
+The book "The Psychology of Money" (2020) was written by this author. :: Morgan Housel
+John Bogle's investing advice is summed up as buying this. :: The whole market (low-cost index funds)
+"The Little Book of Common Sense Investing" was written by this founder of Vanguard. :: John Bogle
+The share of income Saudi households saved was one of the lowest in the G20. Vision 2030 aims to raise household savings to this share of income. :: 10%
+The Saudi Financial Sector Development Program has a goal to improve this among citizens. :: Financial literacy
+The term for having little money but still being responsible with it. :: Financial resilience
+A ratio of 'liquid assets to monthly expenses' shows how many months you could survive. :: Emergency ratio
+A person with net worth below zero is this. :: Technically insolvent (owes more than they own)
+A savings rate of 20% means saving this share of take-home pay. :: One fifth
+The pay rise percentage you need just to keep pace with 3% inflation. :: 3%
+A 10% fall in an investment needs this gain to get back to even. :: About 11.1%
+A 50% fall in an investment needs this gain to recover. :: 100%
+The investment term for not putting all your money in one place. :: Diversification
+The ratio of a fund's growth to its risk. :: Sharpe ratio
+Paying high fees to a fund manager who doesn't beat the market. :: Underperformance after fees
+A fund with a 1.5% yearly fee earning 7% gross gives this net return. :: 5.5%
+An investor rebalances to bring shares back to 60% after they rise to 70%. This means selling some of this. :: Shares
+Starting to save at 25 instead of 35 matters most because of this. :: Compounding (more time to grow)
+'Sequence of returns risk' hurts most right before and after this. :: Retirement
+An 'annuity' turns savings into this. :: Regular income for life (or a set time)
+The 'bucket strategy' in retirement keeps cash for this many years in the first bucket. :: One to three years
+The 'latte factor' term was made popular by this author. :: David Bach
+Behavioural trap of treating a tax refund as 'free money'. :: Mental accounting
+Feeling the pain of a loss more than the joy of a gain. :: Loss aversion
+Sticking with the default choice, like an old pension plan. :: Status quo bias
+Buying because everyone else is buying. :: Herd behaviour (FOMO)
+The fear of missing out is abbreviated this way. :: FOMO
+Overspending because a shop's 'sale' price looks cheap compared with the 'was' price. :: Anchoring
+Choosing a small reward now over a bigger one later. :: Present bias
+Automatic enrolment in pensions uses this behavioural tool. :: Default (nudge)
+The 'Save More Tomorrow' plan raises saving rates when people get these. :: Pay rises
+The 'debt avalanche' saves the most money; the 'debt snowball' gives this. :: Motivation (quick wins)
+Under Saudi rules, a person can't be refused a basic bank account because of this. :: Low income (basic accounts are a right)
+The Saudi Central Bank's rules give a borrower a 'cooling-off' period of this many days to cancel personal finance. :: 10 days
+Early repayment of Saudi personal finance gives the borrower a rebate of future profit, but the bank can keep up to this many months' profit. :: Three months
+Under SAMA rules, a bank can't charge more than this share of the loan as an administrative fee on consumer finance. :: 1% (up to 5,000 riyals)
+The Saudi law for consumer protection in finance is enforced by this regulator. :: Saudi Central Bank (SAMA)
+SAMA's complaints platform for bank customers. :: SAMA Cares
+The Saudi body that resolves banking disputes, which replaced the Committee for Banking Disputes. :: Committees for Banking and Finance Disputes and Violations
+Sah sukuk have this term. :: One year
+The Saudi government guarantees Sah's return because they are issued by this. :: The Ministry of Finance (National Debt Management Center)
+The 2024 Saudi Social Insurance Law took effect in July of this year. :: 2024
+Under the old GOSI rules, the pension contribution for Saudi private-sector workers was this total share of pay. :: 18% (9% each)
+The 'occupational hazards' contribution paid by Saudi employers is this share of wages. :: 2%
+The SANED contribution, split between employer and employee, totals this share of wages. :: 1.5%
+GOSI calculates a private-sector pension using the average wage of this many final years. :: The last five years (two years under the old rules)
+The minimum service period for an early pension under GOSI's new rules is this many months. :: 300 months (25 years)
+A Saudi government employee's pension system was run by this body until it merged with GOSI in 2021. :: Public Pension Agency
+The share of an estate that an only daughter inherits in Islam, with no son. :: One half
+Two or more daughters with no son together inherit this share. :: Two thirds
+A mother inherits this share when the deceased has children. :: One sixth
+A wife inherits this share from a husband who has no children. :: One quarter
+The 'mirath' rules on shares are mainly in this surah. :: Surat al-Nisa'
+The Saudi notary platform for wills, gifts and power of attorney. :: Najiz
+The Saudi system for registering real estate ownership. :: Real Estate Registry
+The Saudi home finance subsidy for people earning above a level is usually this kind of support. :: Partial profit subsidy
+A 'balloon payment' at the end of a car loan makes monthly payments this. :: Lower (but leaves a big final payment)
+Car value falls fastest in this period of ownership. :: The first few years
+A new car typically loses about this share of its value in the first year. :: About 20%
+Leasing a car usually costs more in total than buying if you keep it this long. :: Many years (beyond the lease term)
+Opening many new credit lines quickly can do this to your credit score. :: Lower it
+Using a small share of your credit limit helps your score. A common guide is below this. :: 30%
+A 'hard enquiry' on your credit report happens when you do this. :: Apply for new credit
+Checking your own credit report counts as this kind of enquiry. :: Soft enquiry (it doesn't hurt your score)
+Saudis can check their own SIMAH credit report through this. :: The SIMAH website or app
+The Saudi law on cheques makes writing a bounced cheque this. :: A crime (bounced cheque offence)
+The Saudi platform 'Nafath' is used for this. :: Digital identity verification
+The Saudi 'Ehsan' platform allows donations to this. :: Charity and good causes
+The amount of nisab in silver is often used for zakat because it is lower, making zakat due on this. :: Less wealth (more people pay)
+Zakat due on 12,000 riyals of savings held for a full lunar year, above nisab. :: 300 riyals
+Zakat due on 64,000 riyals of savings held for a full lunar year, above nisab. :: 1,600 riyals
+Zakat due on 150,000 riyals of savings held for a full lunar year, above nisab. :: 3,750 riyals
+Zakat due on 250,000 riyals of savings held for a full lunar year, above nisab. :: 6,250 riyals
+Zakat due on 8,800 riyals of savings held for a full lunar year, above nisab. :: 220 riyals
+By the four percent rule, yearly spending of 48,000 riyals needs savings of this. :: 1,200,000 riyals
+By the four percent rule, yearly spending of 90,000 riyals needs savings of this. :: 2,250,000 riyals
+By the four percent rule, yearly spending of 120,000 riyals needs savings of this. :: 3,000,000 riyals
+Under the 50/30/20 rule, a take-home pay of 8,000 riyals a month means saving this much. :: 1,600 riyals
+Under the 50/30/20 rule, a take-home pay of 12,000 riyals a month means saving this much. :: 2,400 riyals
+Under the 50/30/20 rule, a take-home pay of 15,000 riyals a month means saving this much. :: 3,000 riyals
+Under the 50/30/20 rule, a take-home pay of 20,000 riyals a month means saving this much. :: 4,000 riyals
+The 'pay yourself first' habit works best when savings are moved this way. :: Automatically, on payday
+A credit card balance of 10,000 at 2% a month grows to about this in a year if unpaid, in conventional cards. :: About 12,700
+Gold's nisab of 85 grams at 250 riyals a gram is worth this. :: 21,250 riyals
+Silver's nisab of 595 grams at 3 riyals a gram is worth this. :: 1,785 riyals
+A 'sinking fund' is money saved bit by bit for this. :: A known future expense (like a car or holiday)
+
+## 400
+Benjamin Franklin's 1758 essay on thrift and hard work. :: The Way to Wealth
+Franklin's saying about pennies. :: A penny saved is a penny earned
+The physicist often, but doubtfully, quoted calling compound interest "the eighth wonder of the world". :: Albert Einstein
+Warren Buffett's first rule of investing. :: Never lose money
+Buffett said he would put 90% of his wife's inheritance in this. :: A low-cost S&P 500 index fund
+The 'Dunning-Kruger effect' means people with little knowledge do this. :: Overrate their skill
+The 'Ulysses contract' in personal finance means doing this. :: Committing in advance to avoid temptation (like automatic saving)
+The 'hedonic treadmill' says happiness from purchases does this. :: Fades quickly
+The 2010 Kahneman and Deaton study found day-to-day happiness stopped rising above an income of about this. :: 75,000 dollars a year
+A 2021 study by Matthew Killingsworth challenged that by finding happiness keeps rising with this. :: Higher income
+Spending on experiences makes people happier than spending on these, according to many studies. :: Things (material goods)
+Spending money on others makes people happier, according to research by Elizabeth Dunn and this researcher. :: Michael Norton
+Their book on spending and happiness. :: Happy Money
+The 'pain of paying' is lower with cards than with this. :: Cash
+The concept from "Your Money or Your Life" of measuring prices in this. :: Hours of your life (life energy)
+'Coast FIRE' means having enough invested so it grows to retirement without this. :: More contributions
+'Lean FIRE' means retiring early on this kind of budget. :: A small, frugal budget
+'Fat FIRE' means retiring early with this. :: A large, comfortable budget
+The ratio of years needed to retire based on savings rate: saving 50% of income takes about this many years. :: About 17
+The 'safe withdrawal rate' for a 40-year retirement is usually thought to be this. :: Lower than 4% (around 3% to 3.5%)
+'Glide path' describes how this changes over time. :: The share in shares versus bonds
+A rule of thumb: hold your age as a percentage in bonds. At 30, this share. :: 30%
+The 'core and satellite' strategy keeps most money in index funds and a little in this. :: Active picks
+Rebalancing once a year makes you do this automatically. :: Buy low and sell high
+The term for small, regular money habits that add up. :: Compounding habits (financial habits)
+The book "I Will Teach You to Be Rich" was written by this author. :: Ramit Sethi
+Dave Ramsey's plan of seven steps to get out of debt is called this. :: The Baby Steps
+Dave Ramsey's first baby step is saving this much for an emergency. :: 1,000 dollars
+"The Total Money Makeover" was written by this author. :: Dave Ramsey
+Suze Orman's TV show was about this. :: Personal finance
+Under Saudi personal finance rules, the cap on the debt burden ratio is higher for this kind of finance combined with housing. :: Home finance (up to 55% to 65% with a mortgage)
+The cap on Saudi retiree debt burden ratio for consumer finance is this. :: 25%
+Saudi banks must give borrowers a key facts statement before this. :: Signing a finance contract
+SAMA's consumer protection principles were first issued in this year. :: 2013
+The Saudi Responsible Lending Principles for individuals were issued in this year. :: 2014
+The 'Buy now, pay later' companies in Saudi Arabia are licensed by this regulator. :: Saudi Central Bank (SAMA)
+The 'Debt Settlement' law term for a negotiated plan to repay creditors in bankruptcy. :: Protective settlement
+The Saudi Bankruptcy Law includes this procedure for small debtors. :: Small debtors' procedures
+The Saudi national 'Furijat' platform lets donors pay the debts of these people. :: Prisoners held for financial claims
+In Islamic inheritance, the people who take a fixed share are called this. :: Ashab al-furud
+In Islamic inheritance, the people who take the remainder are called this. :: 'Asabah
+The 'Umariyyatan' cases in inheritance were ruled on by this caliph. :: Umar ibn al-Khattab ﵁
+When fixed shares add up to more than the estate, the shares are reduced. This is called this. :: 'Awl
+When fixed shares add up to less and there are no 'asabah, the remainder returns to them. This is called this. :: Radd
+The number of fixed shares named in the Quran for inheritance. :: Six (1/2, 1/4, 1/8, 2/3, 1/3, 1/6)
+The scholar called the 'father of algebra' wrote much of his book on solving inheritance problems. :: Al-Khwarizmi
+The Saudi 'Mawarid' or estate division service is offered by courts through this platform. :: Najiz
+A house worth 1 million split between a son and a daughter only: the son's share. :: About 666,667 riyals (two thirds)
+The cost of a 100,000 car loan with a flat rate of 4% for 5 years, in profit. :: 20,000 riyals
+That same loan's monthly payment. :: 2,000 riyals
+Monthly saving of 1,000 at 7% a year for 30 years grows to about this. :: About 1.2 million
+The same saving of 1,000 a month for 30 years with no return totals this. :: 360,000
+Saving 1,000 a month from age 25 versus from 35, at 7% to age 60, roughly gives this ratio of final pots. :: About two to one
+A 50,000 emergency fund in a 4% savings account loses buying power when inflation is above this. :: 4%
+The ratio of debt payments to income that lenders see as healthy is below this, in common advice. :: 36%
+The 'Latte factor' example: 15 riyals a day for 30 years invested at 7% grows to about this. :: About 550,000 riyals
+The '30-day rule' says wait this long before a non-essential purchase. :: 30 days
+The share of Saudi retail payments that were electronic in 2024, according to SAMA. :: About 79%
+The Saudi digital payment network 'mada' was launched in this year, replacing SPAN. :: 2016
+The Saudi instant transfer system that lets people send money with a phone number. :: Sarie (instant payments, with Proxy)
+The Saudi alias service for instant payments, letting people use a phone number instead of an IBAN. :: Proxy (Sarie alias)
+The 'Absher Business' service is for these. :: Companies and institutions
+The Saudi platform for lodging consumer complaints against shops. :: Ministry of Commerce's Balagh Tijari app
+The phone number of the Saudi Ministry of Commerce for consumer complaints. :: 1900
+10,000 riyals invested at 6% a year, compounded yearly, grows to about this after 10 years. :: About 17,900 riyals
+50,000 riyals invested at 8% a year, compounded yearly, grows to about this after 5 years. :: About 73,500 riyals
+20,000 riyals invested at 5% a year, compounded yearly, grows to about this after 15 years. :: About 41,600 riyals
+100,000 riyals invested at 7% a year, compounded yearly, grows to about this after 10 years. :: About 196,700 riyals
+5,000 riyals invested at 10% a year, compounded yearly, grows to about this after 20 years. :: About 33,600 riyals
+30,000 riyals invested at 4% a year, compounded yearly, grows to about this after 25 years. :: About 80,000 riyals
+80,000 riyals invested at 9% a year, compounded yearly, grows to about this after 8 years. :: About 159,400 riyals
+15,000 riyals invested at 12% a year, compounded yearly, grows to about this after 6 years. :: About 29,600 riyals
+With 4% inflation a year, 50,000 riyals kept in cash for 10 years buys about what this buys today. :: About 33,800 riyals
+With 2% inflation a year, 200,000 riyals kept in cash for 15 years buys about what this buys today. :: About 148,600 riyals
+With 6% inflation a year, 10,000 riyals kept in cash for 12 years buys about what this buys today. :: About 5,000 riyals
+With 5% inflation a year, 75,000 riyals kept in cash for 8 years buys about what this buys today. :: About 50,800 riyals
+An investment that falls 20% needs this gain to get back to where it started. :: 25%
+An investment that falls 25% needs this gain to get back to where it started. :: 33.3%
+An investment that falls 40% needs this gain to get back to where it started. :: 66.7%
+An investment that falls 60% needs this gain to get back to where it started. :: 150%
+Kahneman and Tversky's prospect theory says losses hurt about this many times more than equal gains. :: About two
+The 'mental accounting' idea was developed by this Nobel winner. :: Richard Thaler
+The 'anchoring' bias was shown by Tversky and Kahneman using this game device. :: A wheel of fortune
+The 'sunk cost fallacy' makes people keep spending on something because of this. :: Money already spent
+The 'scarcity heuristic' makes people want things more when they are this. :: Rare or limited ("only 2 left")
+A 'decoy' price option makes another option look this. :: Better value
+The 'mere exposure effect' makes people prefer brands they have this. :: Seen often
+The 'peak-end rule' says people judge experiences by the best moment and this. :: The end
+'Choice overload' was shown by Iyengar and Lepper using this many jam flavours. :: 24 (versus 6)
+The 'licensing effect' means after doing something good people allow themselves this. :: A treat (bad behaviour)
+'Social proof' in shopping means trusting this. :: What others buy or review
+'Money scripts' is a term for beliefs about money learned in this stage of life. :: Childhood
+The 'Stoic' approach to money stresses wanting this. :: Less
+The idea of 'enough', popular in personal finance writing, comes from a story about Joseph Heller and this novelist. :: Kurt Vonnegut
+The 'opportunity cost' of a 5,000-riyal holiday at a 7% return over 20 years is about this. :: About 19,300 riyals
+'Shrinkflation' means products get smaller while prices do this. :: Stay the same
+'Subscription creep' means slowly adding more of these. :: Monthly subscriptions
+The 'zero-based' budget was first used in business by this company's manager Peter Pyhrr in the 1970s. :: Texas Instruments
+The '52-week challenge' saves 1 more each week, reaching this total after a year. :: 1,378
+The 'kakeibo' budgeting method comes from this country. :: Japan
+
+## 500
+The study of how families make money decisions is called this. :: Household finance
+John Campbell's 2006 American Finance Association presidential address was on this topic. :: Household finance
+Annamaria Lusardi and Olivia Mitchell created the 'Big Three' questions on this. :: Financial literacy
+The 'Big Three' financial literacy questions cover compound interest, inflation and this. :: Risk diversification
+Lusardi and Mitchell found that in the US only about this share of adults answered all three correctly. :: About a third
+The Standard & Poor's global survey of 2014 found about this share of adults worldwide are financially literate. :: One in three
+The 'annuity puzzle' asks why people don't buy annuities even though they protect against this. :: Outliving their savings (longevity risk)
+The 'life-cycle model' of saving was developed by this Nobel winner with Richard Brumberg. :: Franco Modigliani
+The 'permanent income hypothesis' was proposed by this economist in 1957. :: Milton Friedman
+The 'buffer-stock' saving model was developed by this economist. :: Christopher Carroll
+'Hyperbolic discounting' was used by this economist to explain why people under-save. :: David Laibson
+Laibson's famous 1997 paper was titled "Golden Eggs and" this. :: Hyperbolic Discounting
+Madrian and Shea's 2001 study found automatic enrolment raised pension participation to about this level. :: Over 85%
+The UK's automatic enrolment into workplace pensions began in this year. :: 2012
+New Zealand's national savings scheme with automatic enrolment. :: KiwiSaver
+Australia's compulsory pension system. :: Superannuation
+Chile's private pension system of 1981 was designed by this minister. :: José Piñera
+Singapore's compulsory savings system. :: Central Provident Fund (CPF)
+The 'Mullainathan and Shafir' book "Scarcity" says lack of money reduces this. :: Mental bandwidth
+The 'endowment effect' was shown by Kahneman, Knetsch and Thaler using these. :: Coffee mugs
+The 'IKEA effect' says people value things more when they do this. :: Build them themselves
+The 'denomination effect' says people spend less when they hold this. :: Large banknotes
+The 'Diderot effect' says one new purchase leads to this. :: More purchases to match it
+The French philosopher's essay behind the Diderot effect was about this item. :: A new dressing gown
+C. Northcote Parkinson's 'second law' says this. :: Expenditure rises to meet income
+The 'Easterlin paradox' says that within a country richer people are happier, but over time this doesn't rise with income. :: Average happiness
+The 1974 study by Richard Easterlin was about economic growth and this. :: Happiness
+The economist Angus Deaton won the Nobel in this year. :: 2015
+Under the 2024 Saudi Social Insurance Law, the pension is calculated as 2.5% of the average wage for each year of this. :: Contribution (service)
+The maximum pension under GOSI rules is capped at this share of the average wage. :: 100%
+The Saudi platform for hiring domestic workers. :: Musaned
+The 'Wage Protection System' in Saudi Arabia checks that private firms do this. :: Pay salaries on time through banks
+Saudi Arabia's 'Qiwa' platform is used for this. :: Labour services (work permits, contracts)
+The Saudi 'Mudad' platform handles this. :: Payroll and wage protection
+The 2020 Saudi rule allowing expatriate workers to change jobs without the employer's consent is called this. :: Labour Reform Initiative (contractual relationship improvement)
+The Saudi 'Hafiz' programme, launched in 2011, paid this. :: Monthly support to unemployed job seekers
+The Saudi fund known as Hadaf that supports training and wages of Saudi job seekers. :: Human Resources Development Fund
+Saudi Arabia's national savings strategy is part of this programme of Vision 2030. :: Financial Sector Development Program
+The Companion most expert in inheritance, according to a hadith. :: Zayd ibn Thabit ﵁
+The 'Gharrawayn' cases in inheritance involve a mother, a father and this. :: A spouse
+In the 'Gharrawayn' cases, the mother takes one third of this. :: The remainder after the spouse's share
+The 'Akdariyyah' case involves a husband, a mother, a grandfather and this relative. :: A full sister
+The 'Mushtarakah' case is famous for a ruling by this caliph to let full brothers share with maternal brothers. :: Umar ibn al-Khattab ﵁
+The Saudi Personal Status Law, covering marriage, divorce and wills, took effect in this year. :: 2022
+The Saudi Personal Status Law has this many articles. :: 252
+Under the Saudi Personal Status Law, a will to a non-heir above one third needs this. :: The heirs' consent
+A personal loan of 60,000 over 5 years at a flat 3% a year has total profit of this. :: 9,000 riyals
+The effective annual rate of a flat 3% for 5 years with monthly payments is about this. :: About 5.6%
+A 1 million riyal home financed for 20 years at 5% has a monthly payment of about this. :: About 6,600 riyals
+The total paid on that home over 20 years is about this. :: About 1.58 million riyals
+A 25-year-old saving 15% of a 10,000 salary at 6% real return for 35 years ends with about this in today's money. :: About 2 million riyals
+The value of 100,000 after 20 years of 3% inflation, in today's buying power. :: About 55,400
+Inflation of 3% halves buying power in about this many years. :: 24
+The real return of an investment earning 8% with 3% inflation, exactly. :: About 4.85%
+A 300,000-riyal finance at a 4% yearly rate, repaid monthly over 10 years, has a monthly payment of about this. :: About 3,040 riyals
+A 800,000-riyal finance at a 5% yearly rate, repaid monthly over 25 years, has a monthly payment of about this. :: About 4,680 riyals
+A 1,500,000-riyal finance at a 4.5% yearly rate, repaid monthly over 20 years, has a monthly payment of about this. :: About 9,490 riyals
+A 120,000-riyal finance at a 6% yearly rate, repaid monthly over 5 years, has a monthly payment of about this. :: About 2,320 riyals
+A 60,000-riyal finance at a 7% yearly rate, repaid monthly over 4 years, has a monthly payment of about this. :: About 1,440 riyals
+A 500,000-riyal finance at a 3.5% yearly rate, repaid monthly over 15 years, has a monthly payment of about this. :: About 3,570 riyals
+The exact real return of an investment earning 10% when inflation is 4%. :: About 5.77%
+The exact real return of an investment earning 6% when inflation is 2%. :: About 3.92%
+The exact real return of an investment earning 12% when inflation is 5%. :: About 6.67%
+The exact real return of an investment earning 5% when inflation is 3%. :: About 1.94%
+To reach 1,000,000 riyals in 30 years at 7% a year, you need to save about this much a month. :: About 820 riyals
+To reach 500,000 riyals in 20 years at 6% a year, you need to save about this much a month. :: About 1,080 riyals
+To reach 250,000 riyals in 10 years at 5% a year, you need to save about this much a month. :: About 1,610 riyals
+To reach 2,000,000 riyals in 35 years at 8% a year, you need to save about this much a month. :: About 870 riyals
+1,000 riyals left to grow at 8% a year for 40 years becomes about this. :: About 21,700 riyals
+10,000 riyals left to grow at 7% a year for 50 years becomes about this. :: About 294,600 riyals
+The 'kakeibo' method was invented in 1904 by this Japanese journalist. :: Hani Motoko
+The 'Yale endowment model' of investing was created by this chief investment officer. :: David Swensen
+Swensen's book for individual investors. :: Unconventional Success
+The 'permanent portfolio' of Harry Browne splits money equally among shares, bonds, gold and this. :: Cash
+The 'three-fund portfolio' popular with Bogleheads holds home shares, international shares and this. :: Bonds
+The 'Bogleheads' are fans of this person's ideas. :: John Bogle
+The 'Shiller CAPE' warns of low future returns when it is this. :: High
+The 'Gordon equation' says long-run share returns are about dividend yield plus this. :: Dividend growth
+The 'Monte Carlo' method in retirement planning gives this. :: The probability of not running out of money
+The 'guardrails' withdrawal method by Guyton and Klinger adjusts spending when this changes. :: The withdrawal rate (portfolio value)
+The 'variable percentage withdrawal' method recalculates spending each year based on this. :: Portfolio balance and age
+The 'bond tent' strategy raises bonds around this time. :: Retirement
+The 'Saudi Pension Calculator' is offered by this organisation. :: GOSI
+The Saudi 'Sakani' programme was launched in this year. :: 2017
+The Vision 2030 target for Saudi home ownership. :: 70%
+The Saudi Real Estate Refinance Company, set up by the PIF, is known by these letters. :: SRC
+The Saudi 'Ehsan' platform was launched in this year. :: 2021
+"Why Smart People Make Big Money Mistakes" (1999) was co-written by Gary Belsky and this psychologist. :: Thomas Gilovich
+The phrase "A fool and his money are soon parted" first appeared in print in this century. :: The 16th century
+The 'marshmallow test' was led by this psychologist at Stanford. :: Walter Mischel
+A 2018 repeat of the marshmallow test found family background explained much of this. :: The link between waiting and later success
+The 'Rule of 114' estimates the years for money to do this. :: Triple
+The 'Rule of 144' estimates the years for money to do this. :: Quadruple
+Continuous compounding at 5% for 10 years multiplies money by e raised to this. :: 0.5 (about 1.65 times)
+The effective annual rate of 12% compounded monthly. :: About 12.68%
+The effective annual rate of 6% compounded daily. :: About 6.18%
+The present value of 100,000 riyals received in 10 years at a 6% discount rate. :: About 55,800 riyals
+The present value of 1,000 riyals a month for 20 years at 5% a year. :: About 151,500 riyals
+A Saudi worker who joined GOSI before July 2024 keeps the old pension rules. These are called this. :: Acquired rights (grandfathered rules)
+Under Islamic inheritance, a full brother is excluded from inheritance by the presence of this relative. :: A son (or son's son, or father)

@@ -1,4 +1,4 @@
-import { VALUES, type Category, type Clue, type Game, type GameSettings, type PoolEdit, type Question, type Special, type Stage, type TileCounts } from './types'
+import { ROUND_MODES, VALUES, type Category, type Clue, type Game, type GameSettings, type ModeItem, type PoolEdit, type Question, type RoundMode, type Special, type Stage, type TileCounts } from './types'
 import { isDiagram } from './diagram'
 
 export type Rng = () => number
@@ -101,12 +101,53 @@ function shuffle<T>(arr: T[], rng: Rng): T[] {
   return a
 }
 
+/** Special rounds: how many items, the points for a right answer, and the points per clue still hidden in clue-by-clue. */
+export const MODE_COUNT = 6
+export const MODE_MIN = 3
+export const MODE_VALUE = 200
+export const CLUE_STEP = 100
+
+/** Points a clue-by-clue item is worth with `shown` clues showing: fewer clues, more points. */
+export function cluePoints(item: ModeItem, shown: number) {
+  const n = item.q.split(' | ').length
+  return CLUE_STEP * Math.max(1, n - Math.max(1, shown) + 1)
+}
+
+/** The clues of a clue-by-clue item, hardest first. */
+export const cluesOf = (item: ModeItem) => item.q.split(' | ').map((s) => s.trim())
+
+/** The items of an odd-one-out item. */
+export const oddItems = (item: ModeItem) => item.q.split(' | ').map((s) => s.trim())
+
+/** Every item a category can give a special round. Picture rounds use its picture questions. */
+export function modeItemsOf(cat: Category, mode: RoundMode): ModeItem[] {
+  if (mode === 'picture') return cat.levels.flat().filter((q) => q.img).map(({ id, q, a, img }) => ({ id, q, a, img, cat: cat.name, from: cat.id }))
+  return (cat.modes?.[mode] ?? []).map((x) => ({ ...x, cat: cat.name, from: cat.id }))
+}
+
+/**
+ * Draws the special round: items from the game's own categories first, then from `more`
+ * (other built-in categories that have this kind of item), so any game can have any round.
+ * Items already on the board or seen before are left for last. Returns null when there are too few.
+ */
+export function drawModeRound(mode: RoundMode, cats: Category[], more: Category[], skip: Set<string>, rng: Rng = Math.random): ModeItem[] | null {
+  const own = shuffle(cats.flatMap((c) => modeItemsOf(c, mode)), rng)
+  const others = shuffle(more.filter((c) => !cats.some((x) => x.id === c.id)).flatMap((c) => modeItemsOf(c, mode)), rng)
+  const all = [...own, ...others]
+  const fresh = all.filter((x) => !x.id || !skip.has(x.id))
+  const seen = all.filter((x) => x.id && skip.has(x.id))
+  const list = [...fresh, ...seen].slice(0, MODE_COUNT)
+  return list.length >= MODE_MIN ? list : null
+}
+
 export function createGame(
   cats: Category[],
   teamNames: string[],
   settings: GameSettings & TileCounts,
   usedByCat: Record<string, string[]>,
   rng: Rng = Math.random,
+  /** Other categories a special round may borrow items from */
+  more: Category[] = [],
 ): { game: Game; used: Record<string, string[]> } {
   if (cats.length < 1 || cats.length > 6) throw new Error('Pick between 1 and 6 categories')
   if (teamNames.length < 2 || teamNames.length > 4) throw new Error('Play with 2 to 4 teams')
@@ -147,6 +188,18 @@ export function createGame(
     onBoard.add(q.id)
     nextUsed[catId] = [...(nextUsed[catId] ?? []), q.id]
   }
+  if (game.settings.mode) {
+    const seen = new Set([...onBoard, ...Object.values(nextUsed).flat()])
+    const items = drawModeRound(game.settings.mode, cats, more, seen, rng)
+    if (items) {
+      game.modeRound = { mode: game.settings.mode, items }
+      for (const it of items) {
+        if (!it.id) continue
+        onBoard.add(it.id)
+        if (it.from) nextUsed[it.from] = [...(nextUsed[it.from] ?? []), it.id]
+      }
+    } else delete game.settings.mode
+  }
   if (game.settings.final) {
     for (const ci of shuffle(cats.map((_, i) => i), rng)) {
       const pool = fresh(cats[ci], [4])
@@ -186,6 +239,7 @@ function cleanSettings(s: GameSettings): GameSettings {
   if (Array.isArray(s.levelTimers) && s.levelTimers.some(okSecs)) out.levelTimers = [0, 1, 2, 3, 4].map((i) => (okSecs(s.levelTimers![i]) ? s.levelTimers![i] : null))
   if (typeof s.gameMinutes === 'number' && s.gameMinutes > 0 && s.gameMinutes <= 600) out.gameMinutes = Math.round(s.gameMinutes)
   for (const k of ['streak', 'comeback', 'lightning', 'final'] as const) if (s[k] === true) out[k] = true
+  if (s.mode && (ROUND_MODES as readonly string[]).includes(s.mode)) out.mode = s.mode
   return out
 }
 
@@ -258,10 +312,11 @@ export function lastPlace(game: Game): number[] {
   return at.length === game.teams.length ? [] : at
 }
 
-/** What comes after the given stage: the lightning round, then the final question, then the results (null). */
+/** What comes after the given stage: the special round, the lightning round, then the final question, then the results (null). */
 export function nextStage(game: Game, after: Stage): Stage | null {
-  const order: Stage[] = ['board', 'lightning', 'final']
+  const order: Stage[] = ['board', 'mode', 'lightning', 'final']
   for (const s of order.slice(order.indexOf(after) + 1)) {
+    if (s === 'mode' && game.settings.mode && game.modeRound?.items.length) return s
     if (s === 'lightning' && game.settings.lightning && game.lightning?.length) return s
     if (s === 'final' && game.settings.final && game.final) return s
   }

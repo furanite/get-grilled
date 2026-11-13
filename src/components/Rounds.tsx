@@ -1,8 +1,9 @@
 import { useCallback, useEffect, useState } from 'react'
-import type { Game, Lang } from '../lib/types'
+import type { Game, Lang, ModeItem, RoundMode } from '../lib/types'
 import type { Strings } from '../lib/i18n'
 import { num } from '../lib/i18n'
-import { FINAL_SECS, FINAL_VALUE, LIGHTNING_SECS, LIGHTNING_VALUE, score } from '../lib/game'
+import { FINAL_SECS, FINAL_VALUE, LIGHTNING_SECS, LIGHTNING_VALUE, MODE_VALUE, cluePoints, cluesOf, oddItems, score } from '../lib/game'
+import { diagramSrc } from '../lib/diagram'
 import { HOST_EDITION } from '../lib/edition'
 import { TimerBar } from './Timer'
 import { CatIcon } from './Brand'
@@ -275,6 +276,175 @@ export function Final({ t, lang, game, setGame, onDone }: Props) {
             </>
           )}
         </div>
+        <Scores game={game} lang={lang} />
+      </section>
+    </main>
+  )
+}
+
+/** The question side of one special-round item, shared by the host screen and the audience window. */
+export function ModeItemView({ t, mode, item, shown }: { t: Strings; mode: RoundMode; item: ModeItem; shown: number }) {
+  const ask = mode === 'tf' ? t.modeAsk[item.k ?? 'true'] : mode === 'clues' ? '' : t.modeAsk[mode]
+  return (
+    <div className="mode-item" data-mode={mode}>
+      {item.cat && <span className="label mode-cat">{item.cat}</span>}
+      {mode === 'picture' && item.img && (
+        <div className="mode-pic">
+          <img className="q-img" src={diagramSrc(item.img)} alt={t.diagramAlt} data-testid="mode-img" />
+        </div>
+      )}
+      {mode === 'clues' ? (
+        <ol className="mode-clues" data-testid="mode-clues">
+          {cluesOf(item).map((c, i) => (
+            <li key={i} className={i < shown ? 'show' : ''} dir="auto">
+              {i < shown ? c : '•••'}
+            </li>
+          ))}
+        </ol>
+      ) : mode === 'odd' ? (
+        <div className="mode-odd" data-testid="mode-odd">
+          {oddItems(item).map((x, i) => (
+            <span className="chip" key={i} dir="auto">
+              {x}
+            </span>
+          ))}
+        </div>
+      ) : (
+        <p className={`q${mode === 'translate' ? ' mode-phrase' : ''}`} dir="auto" data-testid="mode-q">
+          {item.q}
+        </p>
+      )}
+      {ask && <p className="mode-ask">{ask}</p>}
+    </div>
+  )
+}
+
+/**
+ * A special round after the board: pictures, true-or-false, case files, translations, clue by clue or odd one out.
+ * The host marks the team that answers first, or skips. Nothing is taken away.
+ */
+export function ModeRound({ t, lang, game, setGame, onDone, hasFinal }: Props) {
+  const round = game.modeRound
+  const items = round?.items ?? []
+  const mode = round?.mode ?? 'tf'
+  const st = game.modeState
+  const item = st ? items[st.i] : undefined
+  const done = !!st && (st.done || st.i >= items.length)
+  const shown = st?.shown ?? 1
+  const worth = item ? (mode === 'clues' ? cluePoints(item, st?.revealed ? cluesOf(item).length : shown) : MODE_VALUE) : 0
+
+  const step = useCallback(
+    (g: Game): Game => {
+      const s = g.modeState ?? { i: 0, revealed: false, shown: 1 }
+      const i = s.i + 1
+      return { ...g, modeState: { i, revealed: false, shown: 1, done: i >= items.length } }
+    },
+    [items.length],
+  )
+  const start = () => {
+    sfx.start()
+    setGame((g) => ({ ...g, modeState: { i: 0, revealed: false, shown: 1 } }))
+  }
+  const right = useCallback(
+    (team: number) => {
+      if (!item || done || team >= game.teams.length) return
+      sfx.right()
+      pop(team)
+      setGame((g) => step(score(g, team, worth)))
+    },
+    [item, done, game.teams.length, setGame, step, worth],
+  )
+  const skip = useCallback(() => {
+    if (item && !done) setGame(step)
+  }, [item, done, setGame, step])
+  const reveal = useCallback(() => {
+    if (!item || done) return
+    sfx.reveal()
+    setGame((g) => ({ ...g, modeState: { ...(g.modeState ?? { i: 0, revealed: false, shown: 1 }), revealed: true } }))
+  }, [item, done, setGame])
+  const more = useCallback(() => {
+    if (!item || done || mode !== 'clues') return
+    const n = cluesOf(item).length
+    setGame((g) => {
+      const s = g.modeState ?? { i: 0, revealed: false, shown: 1 }
+      return { ...g, modeState: { ...s, shown: Math.min(n, s.shown + 1) } }
+    })
+  }, [item, done, mode, setGame])
+
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (!item || done) return
+      const m = /^Digit([1-4])$/.exec(e.code)
+      if (m) right(+m[1] - 1)
+      else if (e.code === 'Space') {
+        e.preventDefault()
+        reveal()
+      } else if (e.key.toLowerCase() === 'c') more()
+      else if (e.key === 'ArrowRight' || e.key === 'ArrowLeft' || e.key.toLowerCase() === 's') skip()
+    }
+    addEventListener('keydown', onKey)
+    return () => removeEventListener('keydown', onKey)
+  }, [item, done, right, reveal, more, skip])
+
+  if (!round) return null
+  const n = item && mode === 'clues' ? cluesOf(item).length : 0
+  return (
+    <main className="round stack" data-testid="mode-round" data-mode={mode}>
+      <div className="round-head">
+        <span className="label">{t.modeNames[mode]}</span>
+        <h1 className="round-title">{t.modeNames[mode]}</h1>
+        <p className="muted">{t.modeHelps[mode]}</p>
+      </div>
+      <section className="stage round-stage">
+        {!st && (
+          <div className="row" style={{ justifyContent: 'center' }}>
+            <button className="btn big" onClick={start} data-testid="mode-go" autoFocus>
+              {t.modeGo}
+            </button>
+            <button className="ghost" onClick={onDone} data-testid="mode-skip">
+              {t.skipRound}
+            </button>
+          </div>
+        )}
+        {item && !done && (
+          <div className="round-card" key={st!.i}>
+            <span className="label">
+              {num(st!.i + 1, lang)} {t.ofTotal} {num(items.length, lang)} · {t.worth} {num(worth, lang)}
+            </span>
+            <ModeItemView t={t} mode={mode} item={item} shown={st!.revealed ? n : shown} />
+            <div className={`answer${st!.revealed ? ' show' : HOST_EDITION ? ' peek' : ''}`} dir="auto" data-peek={t.hostOnly} data-testid="mode-a">
+              {item.a}
+            </div>
+            <div className="row round-actions">
+              {game.teams.map((tm, i) => (
+                <button key={i} className="btn ok-btn" onClick={() => right(i)} data-mode-team={i}>
+                  ✓ {tm.name}
+                </button>
+              ))}
+              {mode === 'clues' && (
+                <button className="btn alt" onClick={more} disabled={st!.revealed || shown >= n} data-testid="mode-more">
+                  {t.nextClue}
+                </button>
+              )}
+              <button className="btn alt" onClick={reveal} disabled={st!.revealed} data-testid="mode-reveal">
+                {t.showAnswer}
+              </button>
+              <button className="btn alt" onClick={skip} data-testid="mode-next">
+                {t.skip} →
+              </button>
+            </div>
+          </div>
+        )}
+        {done && (
+          <div className="round-card round-over" role="status">
+            <p className="round-msg" data-testid="mode-over">
+              {t.modeOut}
+            </p>
+            <button className="btn big" onClick={onDone} data-testid="mode-done" autoFocus>
+              {hasFinal ? t.toNext : t.toResults}
+            </button>
+          </div>
+        )}
         <Scores game={game} lang={lang} />
       </section>
     </main>

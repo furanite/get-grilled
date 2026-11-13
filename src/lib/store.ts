@@ -1,4 +1,5 @@
-import type { Category, Game, Lang, PoolEdit, Question, ThemeId } from './types'
+import type { Category, Game, Lang, ModeItem, PoolEdit, Question, ThemeId } from './types'
+import { ROUND_MODES } from './types'
 import { isDiagram } from './diagram'
 import { isClueSecs } from './game'
 
@@ -118,7 +119,7 @@ export function cleanGameExtras(g: Game): Game {
   const n = g.teams.length
   const num = (v: unknown): v is number => typeof v === 'number' && Number.isFinite(v)
   if (!(Array.isArray(g.streaks) && g.streaks.length === n && g.streaks.every((x) => num(x) && x >= 0))) delete out.streaks
-  if (!(g.stage === 'board' || g.stage === 'lightning' || g.stage === 'final')) delete out.stage
+  if (!(g.stage === 'board' || g.stage === 'mode' || g.stage === 'lightning' || g.stage === 'final')) delete out.stage
   if (Array.isArray(g.lightning)) {
     const list = g.lightning.map(cleanQuestion).filter((q): q is Question => !!q)
     if (list.length) out.lightning = list
@@ -136,6 +137,33 @@ export function cleanGameExtras(g: Game): Game {
     out.finalState = { step: fs.step, marks: fs.marks.map((m) => (m === true ? true : m === false ? false : null)), ...(num(fs.startedAt) ? { startedAt: fs.startedAt } : {}) }
   else delete out.finalState
   if (!isStr(g.night)) delete out.night
+  // The special round: a known kind and items with text, nothing else
+  const mr = g.modeRound as unknown
+  const isMode = (m: unknown): m is (typeof ROUND_MODES)[number] => (ROUND_MODES as readonly unknown[]).includes(m)
+  if (isObj(mr) && isMode(mr.mode) && Array.isArray(mr.items)) {
+    const items = mr.items
+      .filter((x): x is Record<string, unknown> => isObj(x) && isStr(x.q) && isStr(x.a))
+      .map((x) => {
+        const it: ModeItem = { q: x.q as string, a: x.a as string }
+        if (isStr(x.id)) it.id = x.id
+        if (isDiagram(x.img)) it.img = x.img
+        if (x.v === 0 || x.v === 1) it.v = x.v
+        if (x.k === 'true' || x.k === 'halal' || x.k === 'legal') it.k = x.k
+        if (isStr(x.cat)) it.cat = x.cat
+        if (isStr(x.from)) it.from = x.from
+        return it
+      })
+    if (items.length) out.modeRound = { mode: mr.mode, items }
+    else delete out.modeRound
+  } else delete out.modeRound
+  const ms = g.modeState as unknown
+  if (out.modeRound && isObj(ms) && num(ms.i) && ms.i >= 0) out.modeState = { i: Math.floor(ms.i), revealed: ms.revealed === true, shown: num(ms.shown) && ms.shown >= 1 ? Math.floor(ms.shown) : 1, ...(ms.done === true ? { done: true } : {}) }
+  else delete out.modeState
+  if (out.settings && !isMode(out.settings.mode)) {
+    out.settings = { ...out.settings }
+    delete out.settings.mode
+  }
+  if (out.stage === 'mode' && !out.modeRound) delete out.stage
   return out
 }
 
