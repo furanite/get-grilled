@@ -582,3 +582,10 @@ textarea.input{resize:vertical;min-height:44px}
 .judge .t button[aria-pressed="true"]{outline:2px solid var(--text);outline-offset:1px}
 .aud-main.round{padding:clamp(16px,3vw,40px);gap:16px;display:flex;flex-direction:column}
 .aud-main.round .q{font-size:clamp(28px,4.4vw,56px)}
+
+/* Question files (instructors make, students open) */
+.study-tabs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
+.study-tab{justify-content:center;font-weight:600}
+.study-check{padding:12px 14px;border-radius:12px;border:1px solid color-mix(in oklab,#ffb347 55%,transparent);background:color-mix(in oklab,#ffb347 10%,transparent);font-size:14px}
+.study-check.ok{border-color:color-mix(in oklab,#5ad17a 60%,transparent);background:color-mix(in oklab,#5ad17a 10%,transparent)}
+.study-check ul{margin:6px 0;padding-inline-start:18px}

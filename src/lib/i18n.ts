@@ -6,6 +6,7 @@ const en = {
   newGame: 'New game',
   resume: 'Resume game',
   builder: 'Category builder',
+  studyFiles: 'Question files',
   theme: 'Theme',
   language: 'العربية',
   lockedUntil: 'Fridays from 12:00 Riyadh time · opens in',
@@ -195,6 +196,8 @@ const ar: typeof en = {
   newGame: 'لعبة جديدة',
   resume: 'متابعة اللعبة',
   builder: 'منشئ الفئات',
+  // English on purpose: no new Arabic text (owner's choice).
+  studyFiles: 'Question files',
   theme: 'المظهر',
   language: 'English',
   lockedUntil: 'أيام الجمعة من ١٢:٠٠ بتوقيت الرياض · يُفتح بعد',

@@ -15,9 +15,10 @@ interface Props {
   onNew: () => void
   onResume: () => void
   onBuilder: () => void
+  onStudy: () => void
 }
 
-export default function Home({ t, lang, theme, setTheme, hasGame, onNew, onResume, onBuilder }: Props) {
+export default function Home({ t, lang, theme, setTheme, hasGame, onNew, onResume, onBuilder, onStudy }: Props) {
   const [flipped, setFlipped] = useState(false)
   const [, tick] = useState(0)
   useEffect(() => {
@@ -74,6 +75,9 @@ export default function Home({ t, lang, theme, setTheme, hasGame, onNew, onResum
           )}
           <button className="btn alt big" onClick={onBuilder}>
             {t.builder}
+          </button>
+          <button className="btn alt big" onClick={onStudy} data-testid="study-files">
+            {t.studyFiles}
           </button>
         </div>
       </section>
