@@ -1,7 +1,8 @@
-import type { Category, Game, Lang, ModeItem, PoolEdit, Question, ThemeId } from './types'
-import { ROUND_MODES } from './types'
+import type { Category, Game, Lang, ModeItem, PoolEdit, Question, ThemeId, TourRound, Tournament } from './types'
+import { ROUND_MODES, TOUR_KINDS } from './types'
 import { isDiagram } from './diagram'
 import { isClueSecs } from './game'
+import { cleanDraft, type StudyDraft } from './studyset'
 
 const KEYS = {
   settings: 'gg.settings.v1',
@@ -10,6 +11,7 @@ const KEYS = {
   game: 'gg.game.v1',
   consent: 'gg.consent.v1',
   pools: 'gg.pools.v1',
+  studyDraft: 'gg.studyDraft.v1',
 }
 
 function load<T>(key: string, fallback: T): T {
@@ -75,12 +77,17 @@ export function cleanCategories(raw: unknown): Category[] {
     const levels = c.levels.map((l) => (Array.isArray(l) ? l.map(cleanQuestion).filter((q): q is Question => !!q) : []))
     const cat: Category = { id: c.id, name: c.name, builtIn: false, levels }
     if (isStr(c.nameAr)) cat.nameAr = c.nameAr
+    if (isObj(c.set) && isStr(c.set.id) && isStr(c.set.title)) cat.set = { id: c.set.id, title: c.set.title }
     out.push(cat)
   }
   return out
 }
 export const loadCustom = (): Category[] => cleanCategories(load<unknown>(KEYS.custom, []))
 export const saveCustom = (cats: Category[]) => save(KEYS.custom, cats)
+
+/** The question file an instructor is working on, kept so closing the page does not lose it. */
+export const loadStudyDraft = (): StudyDraft | null => cleanDraft(load<unknown>(KEYS.studyDraft, null))
+export const saveStudyDraft = (d: StudyDraft | null) => save(KEYS.studyDraft, d)
 
 export function cleanPools(raw: unknown): Record<string, PoolEdit> {
   const out: Record<string, PoolEdit> = {}
@@ -142,18 +149,7 @@ export function cleanGameExtras(g: Game): Game {
   const mr = g.modeRound as unknown
   const isMode = (m: unknown): m is (typeof ROUND_MODES)[number] => (ROUND_MODES as readonly unknown[]).includes(m)
   if (isObj(mr) && isMode(mr.mode) && Array.isArray(mr.items)) {
-    const items = mr.items
-      .filter((x): x is Record<string, unknown> => isObj(x) && isStr(x.q) && isStr(x.a))
-      .map((x) => {
-        const it: ModeItem = { q: x.q as string, a: x.a as string }
-        if (isStr(x.id)) it.id = x.id
-        if (isDiagram(x.img)) it.img = x.img
-        if (x.v === 0 || x.v === 1) it.v = x.v
-        if (x.k === 'true' || x.k === 'halal' || x.k === 'legal') it.k = x.k
-        if (isStr(x.cat)) it.cat = x.cat
-        if (isStr(x.from)) it.from = x.from
-        return it
-      })
+    const items = cleanItems(mr.items)
     if (items.length) out.modeRound = { mode: mr.mode, items }
     else delete out.modeRound
   } else delete out.modeRound
@@ -165,7 +161,49 @@ export function cleanGameExtras(g: Game): Game {
     delete out.settings.mode
   }
   if (out.stage === 'mode' && !out.modeRound) delete out.stage
+  if (!(g.mult === 2)) delete out.mult
+  const tour = cleanTournament(g.tournament, n)
+  if (tour) out.tournament = tour
+  else delete out.tournament
   return out
+}
+
+function cleanItems(raw: unknown[]): ModeItem[] {
+  return raw
+    .filter((x): x is Record<string, unknown> => isObj(x) && isStr(x.q) && isStr(x.a))
+    .map((x) => {
+      const it: ModeItem = { q: x.q as string, a: x.a as string }
+      if (isStr(x.id)) it.id = x.id
+      if (isDiagram(x.img)) it.img = x.img
+      if (x.v === 0 || x.v === 1) it.v = x.v
+      if (x.k === 'true' || x.k === 'halal' || x.k === 'legal') it.k = x.k
+      if (isStr(x.cat)) it.cat = x.cat
+      if (isStr(x.from)) it.from = x.from
+      return it
+    })
+}
+
+/** A saved tournament: known round kinds, boards shaped like a game's, special rounds with items. Anything odd drops it. */
+function cleanTournament(raw: unknown, teams: number): Tournament | null {
+  if (!isObj(raw) || !Array.isArray(raw.rounds) || !raw.rounds.length || raw.rounds.length > 12) return null
+  const at = raw.at
+  if (typeof at !== 'number' || !Number.isInteger(at) || at < 0 || at >= raw.rounds.length) return null
+  const rounds: TourRound[] = []
+  for (const r of raw.rounds) {
+    if (!isObj(r) || !(TOUR_KINDS as readonly unknown[]).includes(r.kind)) return null
+    const kind = r.kind as TourRound['kind']
+    if (kind === 'board' || kind === 'double') {
+      const board = { cats: r.cats, clues: r.clues, teams: Array.from({ length: teams }, () => ({ name: 'x', score: 0 })), used: [], settings: {} }
+      if (!isValidGame(board)) return null
+      rounds.push({ kind, cats: board.cats.map((c) => ({ id: c.id, name: c.name, ...(isStr(c.nameAr) ? { nameAr: c.nameAr } : {}) })), clues: board.clues })
+    } else if (kind === 'mode') {
+      if (!(ROUND_MODES as readonly unknown[]).includes(r.mode) || !Array.isArray(r.items)) return null
+      const items = cleanItems(r.items)
+      if (!items.length) return null
+      rounds.push({ kind, mode: r.mode as TourRound['mode'], items })
+    } else rounds.push({ kind })
+  }
+  return { rounds, at, intro: raw.intro === true }
 }
 
 export const loadGame = (): Game | null => {

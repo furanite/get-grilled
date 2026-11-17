@@ -31,6 +31,8 @@ export interface Category {
   nameAr?: string
   builtIn: boolean
   levels: Question[][]
+  /** The study file this category came from (one subcategory of it), shown as a group in setup */
+  set?: { id: string; title: string }
   /** Extra items for the special rounds (built-in categories only) */
   modes?: Partial<Record<ItemMode, ModeItem[]>>
 }
@@ -181,8 +183,40 @@ export interface Game {
   night?: string
   /** Team introductions before the board; removed when the host starts the game */
   intro?: IntroState
+  /** Points multiplier for the board on screen (2 in a double-points tournament round) */
+  mult?: number
+  /** A tournament: several rounds of different kinds, with scores carried from one to the next */
+  tournament?: Tournament
+}
+
+/** Kinds of tournament round: a board, a board at double points, a special round, the lightning round, the final question. */
+export const TOUR_KINDS = ['board', 'double', 'mode', 'lightning', 'final'] as const
+export type TourKind = (typeof TOUR_KINDS)[number]
+
+/** One round of a tournament plan, as the host sets it up. */
+export interface TourStep {
+  kind: TourKind
+  /** Which special round, for kind "mode" */
+  mode?: RoundMode
+}
+
+/** One round of a tournament in play, with what it was drawn with when the game was made. */
+export interface TourRound extends TourStep {
+  /** Board rounds: the categories and the clues */
+  cats?: { id: string; name: string; nameAr?: string }[]
+  clues?: Clue[][]
+  /** Special rounds: the items */
+  items?: ModeItem[]
+}
+
+export interface Tournament {
+  rounds: TourRound[]
+  /** The round being played */
+  at: number
+  /** True while the round's title card is showing, before the host starts it */
+  intro: boolean
 }
 
 export type ThemeId = 'amethyst' | 'emerald' | 'neon' | 'onyx' | 'rivals' | 'ember' | 'heritage'
 export type Lang = 'en' | 'ar'
-export type Screen = 'home' | 'setup' | 'intro' | 'game' | 'mode' | 'lightning' | 'final' | 'results' | 'builder'
+export type Screen = 'home' | 'setup' | 'intro' | 'game' | 'mode' | 'lightning' | 'final' | 'results' | 'builder' | 'round' | 'study'

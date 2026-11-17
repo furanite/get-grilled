@@ -1,4 +1,4 @@
-import { ROUND_MODES, VALUES, type Category, type Clue, type Game, type GameSettings, type ModeItem, type PoolEdit, type Question, type RoundMode, type Special, type Stage, type TileCounts } from './types'
+import { ROUND_MODES, TOUR_KINDS, VALUES, type Category, type Clue, type Game, type GameSettings, type ModeItem, type PoolEdit, type Question, type RoundMode, type Special, type Stage, type TileCounts, type TourRound, type TourStep } from './types'
 import { isDiagram } from './diagram'
 
 export type Rng = () => number
@@ -140,6 +140,26 @@ export function drawModeRound(mode: RoundMode, cats: Category[], more: Category[
   return list.length >= MODE_MIN ? list : null
 }
 
+/**
+ * Draws one board: a question per level from each category, golden and special tiles placed at random.
+ * `used` (question ids already played, per category) is updated in place. `mult` scales every tile's points.
+ */
+export function drawBoard(cats: Category[], tiles: TileCounts, used: Record<string, string[]>, rng: Rng = Math.random, mult = 1): Clue[][] {
+  const golden = chooseGolden(cats.length, tiles.golden, rng)
+  const specials = chooseSpecials(cats.length, golden, tiles, rng)
+  return cats.map((cat, c) => {
+    const { picks, used: u } = drawCategory(cat, used[cat.id] ?? [], rng)
+    used[cat.id] = u
+    return picks.map((q, l) => {
+      const isGold = golden.has(`${c}-${l}`)
+      const clue: Clue = { ...q, value: VALUES[l] * mult * (isGold ? 2 : 1), golden: isGold }
+      const sp = specials.get(`${c}-${l}`)
+      if (sp) clue.special = sp
+      return clue
+    })
+  })
+}
+
 export function createGame(
   cats: Category[],
   teamNames: string[],
@@ -151,20 +171,8 @@ export function createGame(
 ): { game: Game; used: Record<string, string[]> } {
   if (cats.length < 1 || cats.length > 6) throw new Error('Pick between 1 and 6 categories')
   if (teamNames.length < 2 || teamNames.length > 4) throw new Error('Play with 2 to 4 teams')
-  const golden = chooseGolden(cats.length, settings.golden, rng)
-  const specials = chooseSpecials(cats.length, golden, settings, rng)
   const nextUsed = { ...usedByCat }
-  const clues: Clue[][] = cats.map((cat, c) => {
-    const { picks, used } = drawCategory(cat, usedByCat[cat.id] ?? [], rng)
-    nextUsed[cat.id] = used
-    return picks.map((q, l) => {
-      const isGold = golden.has(`${c}-${l}`)
-      const clue: Clue = { ...q, value: VALUES[l] * (isGold ? 2 : 1), golden: isGold }
-      const sp = specials.get(`${c}-${l}`)
-      if (sp) clue.special = sp
-      return clue
-    })
-  })
+  const clues = drawBoard(cats, settings, nextUsed, rng)
   const game: Game = {
     cats: cats.map(({ id, name, nameAr }) => ({ id, name, nameAr })),
     clues,
@@ -229,6 +237,148 @@ export function createGame(
     else game.settings.lightning = false
   }
   return { game, used: nextUsed }
+}
+
+/** Tournament limits: rounds in a plan, and categories the host may pick (split across the boards). */
+export const TOUR_MAX_ROUNDS = 8
+export const TOUR_MAX_CATS = 12
+/** Ready-made plans. Special rounds the categories can't fill are swapped or left out when the game is made. */
+export const TOUR_PLANS: Record<'short' | 'full', TourStep[]> = {
+  short: [{ kind: 'board' }, { kind: 'mode', mode: 'picture' }, { kind: 'lightning' }, { kind: 'final' }],
+  full: [{ kind: 'board' }, { kind: 'mode', mode: 'picture' }, { kind: 'double' }, { kind: 'mode', mode: 'clues' }, { kind: 'lightning' }, { kind: 'final' }],
+}
+
+/**
+ * Tidies a plan: known kinds only, special rounds need a known mode, at most one lightning round,
+ * at most one final and always last, at least one board, and no more than TOUR_MAX_ROUNDS rounds.
+ */
+export function cleanPlan(plan: TourStep[]): TourStep[] {
+  const ok = plan.filter((r) => r && (TOUR_KINDS as readonly string[]).includes(r.kind) && (r.kind !== 'mode' || (ROUND_MODES as readonly string[]).includes(r.mode ?? '')))
+  const out: TourStep[] = []
+  let lightning = false
+  for (const r of ok) {
+    if (r.kind === 'final') continue
+    if (r.kind === 'lightning') {
+      if (lightning) continue
+      lightning = true
+    }
+    out.push(r.kind === 'mode' ? { kind: 'mode', mode: r.mode } : { kind: r.kind })
+  }
+  if (!out.some((r) => r.kind === 'board' || r.kind === 'double')) out.unshift({ kind: 'board' })
+  const hasFinal = ok.some((r) => r.kind === 'final')
+  const max = TOUR_MAX_ROUNDS - (hasFinal ? 1 : 0)
+  const kept = out.slice(0, max)
+  if (!kept.some((r) => r.kind === 'board' || r.kind === 'double')) kept[kept.length - 1] = { kind: 'board' }
+  return hasFinal ? [...kept, { kind: 'final' }] : kept
+}
+
+/** How many board rounds (plain or double) a plan has. */
+export const boardRounds = (plan: TourStep[]) => plan.filter((r) => r.kind === 'board' || r.kind === 'double').length
+
+/**
+ * Shares the picked categories out between the board rounds. Up to 6 categories: every board uses all of them,
+ * each time with new questions. More than 6: they are dealt out in turn so each board gets its own set (6 at most).
+ * Throws when there are more than the boards can hold.
+ */
+export function splitCategories<T>(cats: T[], boards: number): T[][] {
+  const n = Math.max(1, boards)
+  if (cats.length <= 6) return Array.from({ length: n }, () => cats)
+  if (cats.length > n * 6) throw new Error(`A board holds up to 6 categories, so ${n === 1 ? 'one board' : `${n} boards`} can take ${n * 6} at most`)
+  const groups: T[][] = Array.from({ length: n }, () => [])
+  cats.forEach((c, i) => groups[i % n].push(c))
+  return groups
+}
+
+/**
+ * Makes a tournament: every round is drawn now, so nothing repeats from round to round.
+ * `groups` holds each board round's categories in order (see splitCategories). The lightning and final questions
+ * come from the first board's categories; special rounds may use them all. A special round that can't be filled is left out. Scores carry over from round to round.
+ */
+export function createTournament(
+  groups: Category[][],
+  teamNames: string[],
+  settings: GameSettings & TileCounts,
+  plan: TourStep[],
+  usedByCat: Record<string, string[]>,
+  rng: Rng = Math.random,
+  more: Category[] = [],
+): { game: Game; used: Record<string, string[]> } {
+  const steps = cleanPlan(plan)
+  if (groups.length < 1 || groups.some((g) => g.length < 1 || g.length > 6)) throw new Error('Every board needs between 1 and 6 categories')
+  const all: Category[] = []
+  for (const g of groups) for (const c of g) if (!all.some((x) => x.id === c.id)) all.push(c)
+  const firstMode = steps.find((r) => r.kind === 'mode')?.mode
+  const rest: GameSettings & TileCounts = { ...settings }
+  delete rest.lightning
+  delete rest.final
+  delete rest.mode
+  // The base game draws the first board, the first special round, the lightning questions and the final.
+  const base = createGame(groups[0], teamNames, { ...rest, lightning: steps.some((r) => r.kind === 'lightning'), final: steps.some((r) => r.kind === 'final'), ...(firstMode ? { mode: firstMode } : {}) }, usedByCat, rng, [...all.slice(groups[0].length), ...more])
+  const game = base.game
+  const used = base.used
+  const seen = () => new Set([...game.clues.flat().map((q) => q.id), ...Object.values(used).flat()])
+  const rounds: TourRound[] = []
+  let b = 0
+  let firstModeUsed = false
+  for (const st of steps) {
+    if (st.kind === 'board' || st.kind === 'double') {
+      const cats = groups[b % groups.length]
+      const mult = st.kind === 'double' ? 2 : 1
+      const clues = b === 0 ? game.clues.map((col) => col.map((q) => ({ ...q, value: q.value * mult }))) : drawBoard(cats, settings, used, rng, mult)
+      rounds.push({ kind: st.kind, cats: cats.map(({ id, name, nameAr }) => ({ id, name, nameAr })), clues })
+      b++
+    } else if (st.kind === 'mode') {
+      let items: ModeItem[] | null = null
+      if (!firstModeUsed && game.modeRound && st.mode === game.modeRound.mode) {
+        items = game.modeRound.items
+        firstModeUsed = true
+      } else {
+        items = drawModeRound(st.mode!, all, more, seen(), rng)
+        for (const it of items ?? []) if (it.id && it.from) used[it.from] = [...(used[it.from] ?? []), it.id]
+      }
+      if (items) rounds.push({ kind: 'mode', mode: st.mode, items })
+    } else if (st.kind === 'lightning') {
+      if (game.lightning?.length) rounds.push({ kind: 'lightning' })
+    } else if (st.kind === 'final') {
+      if (game.final) rounds.push({ kind: 'final' })
+    }
+  }
+  delete game.modeRound
+  delete game.settings.mode
+  return { game: enterRound({ ...game, tournament: { rounds, at: 0, intro: true } }, 0), used }
+}
+
+/** Moves a tournament to round k: puts that round's board or items in place and shows its title card. */
+export function enterRound(game: Game, k: number): Game {
+  const tour = game.tournament
+  const r = tour?.rounds[k]
+  if (!tour || !r) return game
+  const g: Game = { ...game, tournament: { ...tour, at: k, intro: true } }
+  if ((r.kind === 'board' || r.kind === 'double') && r.cats && r.clues) {
+    g.cats = r.cats
+    g.clues = r.clues
+    g.used = []
+    g.mult = r.kind === 'double' ? 2 : 1
+    g.stage = 'board'
+  } else if (r.kind === 'mode' && r.mode && r.items) {
+    g.modeRound = { mode: r.mode, items: r.items }
+    delete g.modeState
+    g.stage = 'mode'
+  } else if (r.kind === 'lightning') {
+    delete g.lightningState
+    g.stage = 'lightning'
+  } else if (r.kind === 'final') {
+    delete g.finalState
+    g.stage = 'final'
+  }
+  return g
+}
+
+/** The next round of a tournament, or null after the last one. */
+export function nextRound(game: Game): number | null {
+  const t = game.tournament
+  if (!t) return null
+  return t.at + 1 < t.rounds.length ? t.at + 1 : null
 }
 
 /** Time limits the host can choose (seconds per clue, minutes per game). */

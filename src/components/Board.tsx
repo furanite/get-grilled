@@ -5,7 +5,8 @@ import TileIntro from './TileIntro'
 import { VALUES } from '../lib/types'
 import type { Strings } from '../lib/i18n'
 import { num } from '../lib/i18n'
-import { STREAK_AT, adjustScore, answerRight, answerWrong, clueSeconds, isFinished, lastPlace, markUsed, score, tileKey, turnTeam } from '../lib/game'
+import { STREAK_AT, adjustScore, answerRight, answerWrong, clueSeconds, isFinished, lastPlace, markUsed, nextRound, score, tileKey, turnTeam } from '../lib/game'
+import { roundTitle } from './Tournament'
 import { createPortal } from 'react-dom'
 import AdjustScores, { type Adjustment } from './AdjustScores'
 import { burst, burstAt, reducedMotion } from '../lib/fx'
@@ -13,7 +14,7 @@ import { CONSENT_TEXT } from '../lib/legal'
 import { HOST_EDITION, type Live } from '../lib/edition'
 import { diagramSrc } from '../lib/diagram'
 import { GameClock, TimerBar, type Clock } from './Timer'
-import { sfx } from '../lib/sound'
+import { clockStart, clockStop, drumRoll, prepareSuspense, sfx } from '../lib/sound'
 
 interface Props {
   t: Strings
@@ -128,6 +129,8 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
   // The comeback pick, when there is one, comes before the usual turn order.
   const turn = behind.length ? null : turnTeam(game)
 
+  const moreRounds = nextRound(game) !== null
+
   const adjust = (team: number, delta: number) => {
     const before = game.teams[team]?.score
     const next = adjustScore(game, team, delta)
@@ -147,6 +150,11 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
     <main className="stack">
       <div className="game-top">
         <span className="row" style={{ gap: 12 }}>
+          {game.tournament && (
+            <span className="pill round-pill" data-testid="round-pill">
+              {t.roundWord} {num(game.tournament.at + 1, lang)}/{num(game.tournament.rounds.length, lang)} · {roundTitle(t, game.tournament.rounds[game.tournament.at])}
+            </span>
+          )}
           <span className="label">
             {num(left, lang)} {t.round}
           </span>
@@ -158,9 +166,9 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
           </button>
           {confirmEnd ? (
             <span className="end-confirm" role="group" aria-label={t.endGame}>
-              <span className="end-q">{t.endConfirm}</span>
+              <span className="end-q">{moreRounds ? t.endRoundConfirm : t.endConfirm}</span>
               <button className="btn bad" onClick={onEnd} data-testid="end-confirm" autoFocus>
-                {t.endYes}
+                {moreRounds ? t.endRoundYes : t.endYes}
               </button>
               <button className="ghost" onClick={() => setConfirmEnd(false)}>
                 {t.cancel}
@@ -168,7 +176,7 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
             </span>
           ) : (
             <button className="ghost" onClick={() => setConfirmEnd(true)} disabled={!!open} data-testid="end">
-              {t.endGame}
+              {moreRounds ? t.endRound : t.endGame}
             </button>
           )}
         </div>
@@ -217,7 +225,7 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
                     }}
                   >
                     <span className="med" />
-                    <span className="v">{num(VALUES[l], lang)}</span>
+                    <span className="v">{num(VALUES[l] * (game.mult ?? 1), lang)}</span>
                   </button>
                 )
               }),
@@ -345,6 +353,16 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
   }, [timerSecs, intro])
   const showQuestion = useCallback(() => setIntro(false), [])
 
+  // The theme's ticking clock plays while the question is up; pressing Reveal swaps it for a drum roll,
+  // and the answer appears on the crash.
+  const [rolling, setRolling] = useState(false)
+  useEffect(() => prepareSuspense(), [])
+  useEffect(() => {
+    if (intro || revealed || rolling || phase !== 'open') return
+    clockStart()
+    return () => clockStop()
+  }, [intro, revealed, rolling, phase])
+
   const stopTimer = () => setClock((c) => (c && c.stoppedAt === undefined ? { ...c, stoppedAt: Math.min(Date.now(), c.start + c.total * 1000) } : c))
 
   const stateRef = useRef(onState)
@@ -354,12 +372,21 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
   }, [revealed, clock, intro])
 
   const reveal = useCallback(() => {
-    if (revealed || intro) return
-    setRevealed(true)
+    if (revealed || intro || rolling) return
     stopTimer()
-    sfx.reveal()
-    setTimeout(() => burstAt(document.getElementById('answer'), 14, 110), 350)
-  }, [revealed, intro])
+    const show = (bells: boolean) => {
+      setRevealed(true)
+      if (bells) sfx.reveal()
+      setTimeout(() => burstAt(document.getElementById('answer'), 14, 110), bells ? 350 : 60)
+    }
+    const wait = drumRoll()
+    if (!wait) return show(true)
+    setRolling(true)
+    setTimeout(() => {
+      setRolling(false)
+      show(false)
+    }, wait)
+  }, [revealed, intro, rolling])
 
   const close = useCallback(
     (used: boolean) => {
@@ -435,7 +462,7 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
             <div className={`answer${revealed ? ' show' : HOST_EDITION ? ' peek' : ''}`} dir="auto" id="answer" aria-hidden={!revealed && !HOST_EDITION} data-peek={t.hostOnly} data-testid="answer">
               {a}
             </div>
-            {timerSecs > 0 && <TimerBar clock={clock} total={timerSecs} lang={lang} timeUpText={t.timeUp} onTick={(n) => (n === 0 ? sfx.timeUp() : sfx.tick(n === 1))} />}
+            {timerSecs > 0 && <TimerBar clock={clock} total={timerSecs} lang={lang} timeUpText={t.timeUp} onTick={(n) => (n === 0 ? (clockStop(), sfx.timeUp()) : sfx.tick(n === 1))} />}
             {stealer !== null && (
               <div className="steal-pick" role="group" aria-label={t.stealFrom} data-testid="steal-pick">
                 <span className="label">
@@ -488,7 +515,7 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
             <>
             <div className="actions">
               <div className="row">
-                <button className="btn" onClick={reveal} disabled={revealed} data-testid="reveal">
+                <button className="btn" onClick={reveal} disabled={revealed || rolling} data-testid="reveal">
                   {HOST_EDITION ? t.showOnScreen : t.reveal}
                 </button>
                 <button className="btn alt" onClick={() => close(true)} data-testid="nobody">

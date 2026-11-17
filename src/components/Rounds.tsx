@@ -155,7 +155,7 @@ export function Lightning({ t, lang, game, setGame, onDone, hasFinal }: Props) {
               {timeOut || (st.startedAt && Date.now() >= st.startedAt + LIGHTNING_SECS * 1000) ? t.lightningOver : t.lightningOut}
             </p>
             <button className="btn big" onClick={onDone} data-testid="lightning-done" autoFocus>
-              {hasFinal ? t.toFinal : t.toResults}
+              {hasFinal ? (game.tournament ? t.toNext : t.toFinal) : t.toResults}
             </button>
           </div>
         )}
