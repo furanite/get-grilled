@@ -107,15 +107,15 @@
     "id": "picture-night",
     "name": "Diagram Night",
     "nameAr": "أمسية الرسوم",
-    "about": "The categories with the most picture questions: gates, circuits, networks, graphs, structures, and world flags and landmarks.",
-    "aboutAr": "الفئات التي فيها أكثر أسئلة الصور: البوابات والدوائر والشبكات والرسوم البيانية والمنشآت، وأعلام الدول والمعالم الشهيرة.",
+    "about": "Every tile with a picture that has one: logic gates, graphs and trees, structures, maths plots, motion diagrams, and world flags and landmarks.",
+    "aboutAr": "كل مربع له صورة يظهر بصورته: البوابات المنطقية والمخططات والمنشآت والرسوم الرياضية ومخططات الحركة والأعلام والمعالم.",
     "cats": [
       "digital",
-      "logicdesign",
-      "networks",
       "dsa",
-      "flags",
-      "civil"
+      "civil",
+      "engmath",
+      "dynamics",
+      "flags"
     ],
     "extras": {
       "golden": 1,
@@ -125,7 +125,8 @@
       "comeback": true,
       "lightning": true,
       "final": true
-    }
+    },
+    "pictures": true
   },
   {
     "id": "arabia",

@@ -30,6 +30,11 @@ export function drawCategory(cat: Category, used: string[], rng: Rng = Math.rand
   return { picks, used: [...usedSet] }
 }
 
+/** For a picture night: in each level that has picture questions, draw only from those. */
+export function preferPictures(cat: Category): Category {
+  return { ...cat, levels: cat.levels.map((l) => (l.some((q) => q.img) ? l.filter((q) => q.img) : l)) }
+}
+
 export const emptyPool = (): PoolEdit => ({ off: [[], [], [], [], []], extra: [[], [], [], [], []] })
 
 /** True when the edit changes nothing, so it can be dropped. */
