@@ -1,5 +1,5 @@
 import type { ThemeId } from './types'
-import { renderTitle, setSoundBase } from './tune-engine.js'
+import { renderSuspense, renderTitle, ROLL_SECONDS, setSoundBase } from './tune-engine.js'
 
 /**
  * Every sound is made in the browser with Web Audio: no audio files to download or license.
@@ -190,6 +190,7 @@ const PICKED: Partial<Record<ThemeId, ('a' | 'b' | 'd' | 'e')[]>> = {
   onyx: ['d'],
   rivals: ['a', 'd'],
   ember: ['d'],
+  heritage: ['e'],
 }
 const rendered = new Map<string, Promise<AudioBuffer | null>>()
 let rivalsTurn = 0
@@ -296,6 +297,74 @@ function start() {
   for (const m of [48, 55, 60, 64, 67, 72]) brass(m, 1.5, 2.6, 0.05)
   noise(c, 1.5, 2.4, 0.08, 7000, 0.7, 'highpass')
   bell(c, 84, 1.55, 2.2, 0.08)
+}
+
+// ---- Suspense: each theme's own ticking clock while a question is open, then its drum roll and crash ----
+
+const suspense = new Map<string, Promise<AudioBuffer | null>>()
+function suspenseBuf(theme: string, kind: 'clock' | 'roll') {
+  const key = `${theme}-${kind}`
+  if (!suspense.has(key)) {
+    suspense.set(key, typeof OfflineAudioContext === 'undefined' ? Promise.resolve(null) : renderSuspense(theme, kind).catch(() => null))
+  }
+  return suspense.get(key)!
+}
+const pageTheme = () => document.documentElement.dataset.theme || 'amethyst'
+const settled = new Map<string, AudioBuffer | null>()
+/** Makes the current theme's clock and roll in the background, so they are ready when a tile opens. */
+export function prepareSuspense() {
+  const theme = pageTheme()
+  for (const kind of ['clock', 'roll'] as const) {
+    const key = `${theme}-${kind}`
+    suspenseBuf(theme, kind).then((b) => settled.set(key, b))
+  }
+}
+let clockBus: GainNode | null = null
+/** Starts the theme's ticking clock, looping until clockStop(). */
+export function clockStart() {
+  clockStop()
+  const c = ready()
+  if (!c) return
+  const theme = pageTheme()
+  const bus = c.createGain()
+  bus.gain.setValueAtTime(0.0001, c.currentTime)
+  bus.gain.exponentialRampToValueAtTime(1, c.currentTime + 0.4)
+  bus.connect(c.destination)
+  clockBus = bus
+  suspenseBuf(theme, 'clock').then((buf) => {
+    if (!buf || clockBus !== bus) return
+    const src = c.createBufferSource()
+    src.buffer = buf
+    src.loop = true
+    src.connect(bus)
+    src.start()
+  })
+}
+/** Fades the clock out. */
+export function clockStop() {
+  if (!clockBus || !ctx) return
+  const g = clockBus.gain
+  g.cancelScheduledValues(ctx.currentTime)
+  g.setValueAtTime(Math.max(g.value, 0.0001), ctx.currentTime)
+  g.exponentialRampToValueAtTime(0.0001, ctx.currentTime + 0.25)
+  const bus = clockBus
+  clockBus = null
+  setTimeout(() => bus.disconnect(), 400)
+}
+/**
+ * Plays the theme's drum roll and crash. Returns how many milliseconds until the crash,
+ * so the answer can appear on it, or 0 when there is no roll to wait for (sound off or not ready).
+ */
+export function drumRoll(): number {
+  clockStop()
+  const c = ready()
+  const buf = settled.get(`${pageTheme()}-roll`)
+  if (!c || !buf || c.state !== 'running') return 0
+  const src = c.createBufferSource()
+  src.buffer = buf
+  src.connect(c.destination)
+  src.start()
+  return Math.round((0.08 + ROLL_SECONDS) * 1000)
 }
 
 const fx = {

@@ -284,6 +284,8 @@ try {
     // Nobody uses the tile
     await openTile(page, '1-0')
     await page.getByTestId('reveal').click()
+    // With sound on, the answer appears on the crash after the theme's drum roll.
+    await page.waitForSelector('[data-testid="answer"].show', { timeout: 4000 }).catch(() => {})
     assert(await page.locator('[data-testid="answer"].show').count() === 1, 'answer not shown')
     await page.getByTestId('nobody').click()
     await waitClosed(page)
@@ -293,6 +295,7 @@ try {
     const v2 = await val('0-4')
     await openTile(page, '0-4')
     await page.keyboard.press('Space')
+    await page.waitForSelector('[data-testid="answer"].show', { timeout: 4000 }).catch(() => {})
     assert(await page.locator('[data-testid="answer"].show').count() === 1, 'space did not reveal')
     await page.keyboard.press('Shift+Digit3')
     await page.keyboard.press('Digit3')

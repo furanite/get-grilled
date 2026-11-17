@@ -488,7 +488,14 @@ function fresh(len) {
   const wet = ctx.createGain(); wet.gain.value = 0.28; verb.connect(wet).connect(master)
   hall = null
 }
-async function render(len, wet, useHall, insts, write) {
+// The scores draw on shared module state (ctx, BUS, hall), so pieces are made one at a time.
+let queue = Promise.resolve()
+function render(...args) {
+  const run = queue.then(() => renderNow(...args))
+  queue = run.catch(() => {})
+  return run
+}
+async function renderNow(len, wet, useHall, insts, write) {
   fresh(len)
   if (insts.length) await loadFor(insts)
   const bus = newBus(); bus.wet.gain.value = wet
@@ -514,11 +521,23 @@ export function renderTitle(theme, set) {
   return render(len, set === 'a' ? 1 : set === 'b' ? 0.5 : 0.32, set === 'd', set === 'd' ? USES['title-' + theme] || [] : [], write)
 }
 
-/** One bar-pair of the theme's suspense clock (loop it), or its roll and crash. */
+/** The theme's suspense clock (four bars, ready to loop), or its drum roll and crash. */
+export const ROLL_SECONDS = ROLL
 export function renderSuspense(theme, kind) {
   const S = THEME_SUS[theme]
   if (!S) return Promise.reject(new Error(`no suspense ${theme}`))
   if (kind === 'roll') return render(ROLL + 3.2, 0.35, true, USES['hit-' + theme] || [], (t0) => S.hit(t0))
   // Four bars, rendered with a little room so the last notes ring into the loop point.
-  return render(8.6, 0.3, true, USES['loop-' + theme] || [], (t0) => { let t = t0; for (let bar = 0; bar < 4; bar++) t += S.loop(bar + 2, t) })
+  let from = 0, len = 0
+  return render(8.6, 0.3, true, USES['loop-' + theme] || [], (t0) => { let t = t0; for (let bar = 0; bar < 4; bar++) t += S.loop(bar + 2, t); from = t0; len = t - t0 }).then((buf) => {
+    // Cut exactly four bars and lay the ringing tail back over the start, so the loop has no seam.
+    const a = Math.round(from * SR), n = Math.round(len * SR)
+    const out = new AudioBuffer({ length: n, numberOfChannels: buf.numberOfChannels, sampleRate: SR })
+    for (let ch = 0; ch < buf.numberOfChannels; ch++) {
+      const src = buf.getChannelData(ch), dst = out.getChannelData(ch)
+      for (let i = 0; i < n; i++) dst[i] = src[a + i] || 0
+      for (let i = a + n; i < src.length; i++) dst[(i - a - n) % n] += src[i]
+    }
+    return out
+  })
 }

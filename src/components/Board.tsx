@@ -14,7 +14,7 @@ import { CONSENT_TEXT } from '../lib/legal'
 import { HOST_EDITION, type Live } from '../lib/edition'
 import { diagramSrc } from '../lib/diagram'
 import { GameClock, TimerBar, type Clock } from './Timer'
-import { sfx } from '../lib/sound'
+import { clockStart, clockStop, drumRoll, prepareSuspense, sfx } from '../lib/sound'
 
 interface Props {
   t: Strings
@@ -353,6 +353,16 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
   }, [timerSecs, intro])
   const showQuestion = useCallback(() => setIntro(false), [])
 
+  // The theme's ticking clock plays while the question is up; pressing Reveal swaps it for a drum roll,
+  // and the answer appears on the crash.
+  const [rolling, setRolling] = useState(false)
+  useEffect(() => prepareSuspense(), [])
+  useEffect(() => {
+    if (intro || revealed || rolling || phase !== 'open') return
+    clockStart()
+    return () => clockStop()
+  }, [intro, revealed, rolling, phase])
+
   const stopTimer = () => setClock((c) => (c && c.stoppedAt === undefined ? { ...c, stoppedAt: Math.min(Date.now(), c.start + c.total * 1000) } : c))
 
   const stateRef = useRef(onState)
@@ -362,12 +372,21 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
   }, [revealed, clock, intro])
 
   const reveal = useCallback(() => {
-    if (revealed || intro) return
-    setRevealed(true)
+    if (revealed || intro || rolling) return
     stopTimer()
-    sfx.reveal()
-    setTimeout(() => burstAt(document.getElementById('answer'), 14, 110), 350)
-  }, [revealed, intro])
+    const show = (bells: boolean) => {
+      setRevealed(true)
+      if (bells) sfx.reveal()
+      setTimeout(() => burstAt(document.getElementById('answer'), 14, 110), bells ? 350 : 60)
+    }
+    const wait = drumRoll()
+    if (!wait) return show(true)
+    setRolling(true)
+    setTimeout(() => {
+      setRolling(false)
+      show(false)
+    }, wait)
+  }, [revealed, intro, rolling])
 
   const close = useCallback(
     (used: boolean) => {
@@ -443,7 +462,7 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
             <div className={`answer${revealed ? ' show' : HOST_EDITION ? ' peek' : ''}`} dir="auto" id="answer" aria-hidden={!revealed && !HOST_EDITION} data-peek={t.hostOnly} data-testid="answer">
               {a}
             </div>
-            {timerSecs > 0 && <TimerBar clock={clock} total={timerSecs} lang={lang} timeUpText={t.timeUp} onTick={(n) => (n === 0 ? sfx.timeUp() : sfx.tick(n === 1))} />}
+            {timerSecs > 0 && <TimerBar clock={clock} total={timerSecs} lang={lang} timeUpText={t.timeUp} onTick={(n) => (n === 0 ? (clockStop(), sfx.timeUp()) : sfx.tick(n === 1))} />}
             {stealer !== null && (
               <div className="steal-pick" role="group" aria-label={t.stealFrom} data-testid="steal-pick">
                 <span className="label">
@@ -496,7 +515,7 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
             <>
             <div className="actions">
               <div className="row">
-                <button className="btn" onClick={reveal} disabled={revealed} data-testid="reveal">
+                <button className="btn" onClick={reveal} disabled={revealed || rolling} data-testid="reveal">
                   {HOST_EDITION ? t.showOnScreen : t.reveal}
                 </button>
                 <button className="btn alt" onClick={() => close(true)} data-testid="nobody">
