@@ -210,7 +210,7 @@ The fan that blows air through the radiator so the engine doesn't overheat. :: T
 The year Karl Benz patented his Motorwagen. :: 1886
 The year Henry Ford introduced the moving assembly line. :: 1913
 The colour the Model T was famously available in from 1914 to 1925. :: Black
-Henry Ford's famous quote: "Any colour so long as it is" this. :: Black
+Henry Ford's famous quote: "Any colour so long as it is ___". :: Black
 The first British car to sell over a million. :: Morris Minor
 The car that Adolf Hitler commissioned as a "people's car". :: Volkswagen Beetle
 The engine type in the original Volkswagen Beetle, air-cooled, mounted here. :: At the rear
@@ -238,9 +238,9 @@ The national racing colour of Germany, giving Mercedes the name "Silver Arrows".
 The national racing colour of France. :: Blue
 The Mercedes-Benz SUV nicknamed the "G-Wagon". :: G-Class
 The Mercedes model name AMG stands for Aufrecht, Melcher and this town. :: Großaspach
-BMW stands for Bayerische this Werke. :: Motoren
+BMW stands for Bayerische ___ Werke. :: Motoren
 The BMW performance division. :: M (M GmbH)
-Audi's four rings stand for these four merged companies: Audi, DKW, Horch and this. :: Wanderer
+Audi's four rings stand for four merged companies: Audi, DKW, Horch and this one. :: Wanderer
 The car company whose founder August Horch also started Audi. :: Horch
 "Audi" is the Latin translation of this founder's name, meaning "listen". :: Horch
 Toyota's name was changed from Toyoda partly because Toyota takes this many strokes to write in Japanese. :: Eight
@@ -484,7 +484,7 @@ The 1934 Citroën that brought front-wheel drive to mass production. :: Traction
 The Italian sculptor who styled the Citroën DS and 2CV. :: Flaminio Bertoni
 The Czech car maker whose 1934 model 77 was the first serious streamlined production car. :: Tatra
 The Austrian engineer whose Tatra designs influenced the Volkswagen Beetle. :: Hans Ledwinka
-Britain's 1922 "people's car" was the Austin this. :: Seven
+Britain's 1922 "people's car", the Austin ___. :: Seven
 The rear-engined car attacked in Ralph Nader's book "Unsafe at Any Speed". :: Chevrolet Corvair
 Ford's famous 1950s flop, named after Henry Ford's son. :: Edsel
 The Saab whose 1978 turbo model made turbocharging popular in everyday cars. :: Saab 99 Turbo

@@ -199,7 +199,7 @@ The Japanese company that made the Game Boy. :: Nintendo
 The inventor of the first video game console, the Magnavox Odyssey. :: Ralph Baer
 The inventor of the world's first digital camera at Kodak in 1975. :: Steven Sasson
 The inventor of the QR code, at Denso Wave in Japan. :: Masahiro Hara
-The barcode was first used in a shop in 1974 to scan this product. :: A pack of chewing gum
+The product scanned in 1974 in the first shop use of a barcode. :: A pack of chewing gum
 The scientist who patented the first refrigerator design with Leo Szilard. :: Albert Einstein
 The Saudi oil company whose engineers drilled Dammam No. 7, the first commercial oil well, in 1938. :: Aramco (CASOC)
 The American whose company made sewing machines a household item in the 1850s. :: Isaac Singer
@@ -279,7 +279,7 @@ The first Arab astronaut, a Saudi prince who flew on the Space Shuttle in 1985. 
 The first Saudi woman in space, who flew in 2023. :: Rayyanah Barnawi
 The ISS stands for this. :: International Space Station
 The engineer who invented the first working laser in 1960. :: Theodore Maiman
-The word "laser" stands for "Light Amplification by Stimulated Emission of" this. :: Radiation
+"Laser" stands for "Light Amplification by Stimulated Emission of ___". :: Radiation
 The inventor of the fibre-optic idea for communication, a Nobel winner in 2009. :: Charles Kao
 The inventor of the blue LED that made white LED lighting possible, with Akasaki and Amano. :: Shuji Nakamura
 The inventor of holography, in 1947. :: Dennis Gabor
@@ -483,7 +483,7 @@ The solar-powered plane that flew around the world in 2015 to 2016. :: Solar Imp
 The engineer who designed the Spitfire. :: R. J. Mitchell
 The engineer who designed the bouncing bomb. :: Barnes Wallis
 The chief designer of the Soviet space programme who launched Sputnik. :: Sergei Korolev
-The first artificial satellite, Sputnik 1, beeped on this radio frequency band, about 20 and this many MHz. :: 40
+Sputnik 1 beeped on two frequencies: about 20 MHz and this many MHz. :: 40
 The first communications satellite to relay live TV across the Atlantic, in 1962. :: Telstar
 The writer who proposed geostationary communications satellites in 1945. :: Arthur C. Clarke
 The NASA mathematician whose calculations helped John Glenn's orbit, featured in "Hidden Figures". :: Katherine Johnson

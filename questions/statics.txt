@@ -204,7 +204,7 @@ Sudden changes in a part's shape raise local stress. What is the factor called? 
 A hole in a wide plate under tension raises the local stress by about this factor. :: Three
 The method that adds the effects of separate loads on a linear structure. :: Superposition
 In a frame, a member that carries loads at more than two points is called this. :: Multi-force member
-The load per unit length on a beam is usually given this symbol. :: w
+The usual symbol for the load per unit length on a beam. :: w
 The internal force that tends to slide one part of a beam past the next. :: Shear force
 
 ## 300

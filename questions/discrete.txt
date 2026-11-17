@@ -246,7 +246,7 @@ The theorem used to solve divide-and-conquer recurrences like T(n) = aT(n/b) + f
 The solution of T(n) = 2T(n/2) + n, in Θ notation. :: Θ(n log n)
 The solution of T(n) = T(n/2) + 1, in Θ notation. :: Θ(log n)
 The solution of T(n) = 4T(n/2) + n, in Θ notation. :: Θ(n²)
-The pigeonhole result that among any 5 integers, two have the same remainder mod this number. :: 4
+Among any 5 integers, two must leave the same remainder when divided by this number. :: 4
 The number of edges in the Petersen graph. :: 15
 The Ramsey number R(3, 3). :: 6
 The Ramsey number R(4, 4). :: 18

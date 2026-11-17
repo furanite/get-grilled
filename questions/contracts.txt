@@ -137,10 +137,10 @@ The English case where a music hall burned down before the concerts. :: Taylor v
 The English case about rooms rented to watch a coronation that was cancelled. :: Krell v Henry (1903)
 The French term for an event beyond control that excuses performance. :: Force majeure
 In Islamic law, an unforeseen event that makes performance very hard allows this. :: Adjustment of obligations (al-zuruf al-tari'ah)
-A sale with excessive uncertainty is forbidden in Islamic contract law. This is called this. :: Gharar
+The excessive uncertainty that makes a sale forbidden in Islamic contract law. :: Gharar
 An Islamic rule: a profit must come with bearing this. :: Risk (al-kharaj bil-daman)
 The hadith "Al-kharaj bil-daman" means profit goes with this. :: Liability (risk)
-The legal maxim "The original rule in contracts is" this. :: Permissibility (validity)
+The legal maxim "The original rule in contracts is ___". :: Permissibility (validity)
 The legal term for the main purpose of a contract, such as transfer of ownership. :: The object (cause) of the contract
 A contract made by someone who lacks capacity, such as a child below seven, is this. :: Void
 A contract made by a discerning child to receive a gift. :: Valid (purely beneficial)
@@ -171,7 +171,7 @@ A contract made by a person without authority, which waits for the owner's appro
 A person who sells another's property without permission. :: A fuduli (unauthorised agent)
 The ruling on a contract that waits for approval when the owner approves. :: It becomes valid
 The Islamic rule that a buyer must take possession before reselling food. :: Qabd (possession) before resale
-Selling dates still on the tree before they ripen was forbidden. This is called selling before this. :: Fruit is clearly ripening (bud ul-salah)
+Selling dates still on the tree was forbidden until this happens. :: Fruit is clearly ripening (bud ul-salah)
 Two sales in one, forbidden in a hadith, means this. :: Combining two sales so the price is unclear
 Selling a debt for a debt is called this. :: Bay' al-kali' bil-kali'
 Selling an item bought on credit back to the seller at a lower cash price. :: 'Inah (forbidden by the majority)
@@ -233,7 +233,7 @@ The English case where a cargo of corn had perished before the sale. :: Couturie
 The English case about a rogue posing as a known person to buy a car. :: Shogun Finance v Hudson (2003)
 A contract with a rogue face to face is usually voidable, from this case. :: Lewis v Averay (1971)
 The doctrine that stops a party denying a promise relied upon. :: Estoppel
-Pressure that is not lawful, such as economic threats, can make a contract voidable. This is called this. :: Economic duress
+Unlawful pressure, such as economic threats, that can make a contract voidable. :: Economic duress
 The doctrine where one party takes unfair advantage of trust. :: Undue influence
 The English case of 2001 on undue influence by husbands over wives signing guarantees. :: Royal Bank of Scotland v Etridge (No 2)
 The English case on a contract of a minor for "necessaries". :: Nash v Inman (1908)
@@ -275,7 +275,7 @@ A contract term for delays caused by pandemics, wars and storms. :: Force majeur
 During COVID-19, Saudi courts and the Supreme Court issued guidance on this doctrine. :: Emergency circumstances (force majeure)
 The duty to negotiate and perform honestly, strong in civil law systems. :: Good faith
 The Arabic expression of good faith in contracts. :: Husn al-niyyah
-The Islamic legal rule that conditions in contracts must be kept, from the hadith "Muslims are bound by" these. :: Their conditions (al-muslimun 'ala shurutihim)
+The hadith behind the rule that contract conditions must be kept: "Muslims are bound by ___". :: Their conditions (al-muslimun 'ala shurutihim)
 The exception to "Muslims are bound by their conditions". :: A condition that makes haram halal or halal haram
 A contract with an unknown price or object has this kind of defect. :: Jahalah (ignorance)
 Selling fish still in the sea is forbidden because of this. :: Gharar (uncertainty of delivery)
@@ -320,7 +320,7 @@ The CISG's remedy that lets a buyer end the contract needs this type of breach. 
 The CISG article that defines fundamental breach. :: Article 25
 The CISG gives a party extra time to perform, called this German-inspired term. :: Nachfrist (additional period)
 The CISG excuses a party for an impediment beyond its control under this article. :: Article 79
-The CISG allows a buyer to cut the price for non-conforming goods. This is called this. :: Price reduction
+The CISG remedy that lets a buyer cut the price for non-conforming goods. :: Price reduction
 The Hague convention rules that came before the CISG. :: ULIS and ULF (1964)
 The UNIDROIT Principles' rule on "hardship" allows the disadvantaged party to ask for this. :: Renegotiation
 The English case that refused a general duty of good faith in negotiations. :: Walford v Miles (1992)
@@ -367,7 +367,7 @@ Under the Saudi Civil Transactions Law, if a contract becomes impossible by forc
 The Saudi Civil Transactions Law recognises the theory of this, where a right is used only to harm others. :: Abuse of right (ta'assuf)
 Under the Saudi Civil Transactions Law, a general rule of liability says anyone whose fault harms another must do this. :: Compensate
 The Saudi Civil Transactions Law ends with a section of general rules called this. :: General legal maxims (qawa'id)
-Under the Saudi Civil Transactions Law, a party to a bilateral contract may refuse to perform until the other performs. This is called this. :: Exception of non-performance (al-daf' bi 'adam al-tanfidh)
+Under the Saudi Civil Transactions Law, a party's right to refuse to perform a bilateral contract until the other side performs. :: Exception of non-performance (al-daf' bi 'adam al-tanfidh)
 Under the Saudi Civil Transactions Law, retention of a thing until paid is called this. :: The right of retention (habs)
 In Islamic law, a seller may hold goods until paid if the sale is for this kind of price. :: An immediate (cash) price
 The ruling of the Hanbali school on conditions added to contracts by the parties. :: Generally valid unless they conflict with the contract or Sharia
@@ -452,7 +452,7 @@ In the Hanafi school, khiyar al-shart is limited to this long. :: Three days (pe
 The Arabic term for selling the usufruct of a property for a time. :: Ijarah (sale of benefits)
 The term for the Hanafi rule that lease ends on death of either party. :: Infisakh by death
 The majority view on whether a lease ends on death of a party. :: It doesn't end
-In Islamic law, the hire of a shared worker (such as a tailor serving many) makes him liable for damage according to many scholars. This worker is called this. :: Ajir mushtarak
+In Islamic law, the term for a worker who serves many customers, such as a tailor, and is liable for damage according to many scholars. :: Ajir mushtarak
 The worker hired by one person only, who is not liable unless at fault. :: Ajir khass
 The Companion who ruled that shared workers like dyers are liable to protect people's goods. :: Ali ibn Abi Talib ﵁
 The legal concept that a trustee is not liable unless at fault. :: Yad amanah (hand of trust)
@@ -477,7 +477,7 @@ Under the Saudi Civil Transactions Law, the formation of contracts is followed b
 The Saudi Civil Transactions Law lists sources of obligation: contract, unilateral will, harmful act, beneficial act and this. :: The law (statute)
 The Saudi Civil Transactions Law treats an offer of a reward to the public as this source of obligation. :: Unilateral will (iradah munfaridah)
 Under the Saudi Civil Transactions Law, a person who unjustly gains at another's cost must return this. :: The lesser of the gain and the loss
-Under the Saudi Civil Transactions Law, someone who pays a debt not owed can recover it. This is called this. :: Recovery of undue payment
+Under the Saudi Civil Transactions Law, the right of someone who paid a debt not owed to get it back. :: Recovery of undue payment
 The Saudi Civil Transactions Law's chapter on "fudalah" covers this. :: Acting for another without authority (negotiorum gestio)
 The Roman law term for managing someone's affairs without authority. :: Negotiorum gestio
 The Roman law classification of obligations by Gaius: contract, delict and this. :: Various other causes
@@ -523,7 +523,7 @@ The forbidden "two conditions in one sale" was taken by Imam Ahmad ﵀ to mean t
 The Islamic legal term for mixing a sale and a loan in one deal, forbidden by hadith. :: Salaf wa bay'
 The reason "salaf wa bay'" is forbidden. :: It can hide interest on the loan
 The Hanbali rule that a "sale with a condition of a benefit", such as the seller riding a camel to town, comes from this Companion's hadith. :: Jabir ibn Abdullah ﵁
-In that hadith, Jabir ﵁ sold his camel to our Beloved and our master, the Prophet Muhammad ﷺ on the way back from this. :: A military expedition (a journey)
+In the hadith of Jabir ﵁ selling his camel to our Beloved and our master, the Prophet Muhammad ﷺ, they were on the way back from this. :: A military expedition (a journey)
 The French term for a contract between unequal parties with fixed terms, used by Raymond Saleilles. :: Contrat d'adhésion
 
 ## case

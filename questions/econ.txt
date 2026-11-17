@@ -111,7 +111,7 @@ The economist who wrote "The General Theory of Employment, Interest and Money" i
 The school of thought that says government spending can lift demand in a slump. :: Keynesian economics
 The school of thought that says controlling the money supply controls inflation. :: Monetarism
 The leading monetarist, who won the 1976 Nobel Prize. :: Milton Friedman
-Friedman's famous quote: "Inflation is always and everywhere a" this "phenomenon". :: Monetary
+Friedman: "Inflation is always and everywhere a ___ phenomenon". :: Monetary
 The Austrian-British economist who wrote "The Road to Serfdom". :: Friedrich Hayek
 The German philosopher who wrote "Das Kapital". :: Karl Marx
 The British economist who wrote about comparative advantage in 1817. :: David Ricardo
@@ -206,7 +206,7 @@ A price kept below equilibrium by a price ceiling leads to this. :: A shortage
 Rent control is an example of this kind of price control. :: Price ceiling
 The demand for a good that falls when the price of a substitute falls is called this demand. :: Cross-price (substitute) demand
 A good with income elasticity above 1. :: Luxury good
-The 'law of demand' has an exception for goods bought to show status. These are called this. :: Veblen goods
+The goods that break the law of demand because people buy them to show status. :: Veblen goods
 
 ## 300
 The Nobel Memorial Prize in Economic Sciences was first awarded in this year. :: 1969
@@ -263,12 +263,12 @@ The economist who argued that poor countries' exports lose value over time, with
 The policy of replacing imports with local production. :: Import substitution
 The 'J-curve' shows how a trade balance first does this after a devaluation. :: Gets worse
 The Marshall-Lerner condition says devaluation improves trade if these sum to more than 1. :: Price elasticities of export and import demand
-The 'Heckscher-Ohlin' model says countries export goods that use their abundant this. :: Factors of production
-Wassily Leontief found the US exported labour-intensive goods. This finding is called this. :: The Leontief paradox
+The 'Heckscher-Ohlin' model says countries export goods that use what they have plenty of. The name for these inputs. :: Factors of production
+The name for Wassily Leontief's finding that the US exported labour-intensive goods. :: The Leontief paradox
 Leontief won the Nobel for this method of showing how industries buy from each other. :: Input-output analysis
 The economist who developed 'new trade theory' and won the 2008 Nobel. :: Paul Krugman
 The economist who explained that markets fail when one side knows more, using used cars. :: George Akerlof
-Akerlof's 1970 paper was titled "The Market for" this. :: Lemons
+Akerlof's 1970 paper: "The Market for ___". :: Lemons
 The problem where insured people take more risks. :: Moral hazard
 The problem where high-risk people are most likely to buy insurance. :: Adverse selection
 Michael Spence showed that education can be this to employers. :: A signal

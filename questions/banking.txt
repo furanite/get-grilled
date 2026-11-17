@@ -97,7 +97,7 @@ The Bangladeshi founder of the Grameen Bank who won the Nobel Peace Prize in 200
 The international bank code used to identify banks for transfers. :: SWIFT code (BIC)
 The Belgian-based network banks use to send payment messages. :: SWIFT
 A payment app used to send money between people with a phone number in Saudi Arabia. :: Digital wallet (e.g. STC Pay, urpay)
-Saudi Arabia's national payments company, known by the name Saudi this. :: Saudi Payments
+Saudi Arabia's national payments company, Saudi ___. :: Saudi Payments
 The Saudi riyal's fixed rate against the US dollar. :: 3.75
 A bank that follows Sharia rules and avoids interest. :: Islamic bank
 The Arabic word for interest, which Islamic banks avoid. :: Riba
@@ -336,7 +336,7 @@ Exposures to a sovereign rated AAA to AA- in its own currency get this risk weig
 The Basel concept that charges capital for a counterparty's worsening credit on derivatives. :: CVA (credit valuation adjustment)
 The Basel market risk framework that replaced VaR with expected shortfall at 97.5%. :: FRTB
 Basel III's minimum total capital ratio, before buffers. :: 8%
-CET1 4.5% + conservation buffer 2.5% = this. :: 7%
+The total of CET1 4.5% plus the 2.5% conservation buffer. :: 7%
 The MREL rule in the EU and TLAC rule globally require banks to have enough of this. :: Loss-absorbing capacity (bail-in-able debt)
 TLAC standards for G-SIBs were set by this international body. :: Financial Stability Board (FSB)
 The FSB was created in 2009 to replace this forum. :: Financial Stability Forum
@@ -383,7 +383,7 @@ The 1944 conference that created the IMF and World Bank. :: Bretton Woods
 The British economist who led Britain's delegation at Bretton Woods. :: John Maynard Keynes
 The proposed world currency Keynes put forward at Bretton Woods. :: Bancor
 The Saudi law that regulates payment companies and e-wallets. :: Law of Payments and Payment Services
-Saudi Arabia's national e-wallet regulation lets licensed firms offer these. :: E-wallets (electronic money)
+Saudi Arabia's national e-wallet regulation lets licensed firms offer these products. :: E-wallets (electronic money)
 Saudi Arabia's target for non-cash payments in retail by 2025 under the Financial Sector Development Program. :: 70%
 Saudi Arabia's Financial Sector Development Program is part of this plan. :: Vision 2030
 The Saudi fintech hub launched in 2018. :: Fintech Saudi
@@ -437,7 +437,7 @@ The 2008 'Paulson plan' was named after this Treasury secretary. :: Henry Paulso
 The value of the original TARP fund. :: 700 billion dollars
 The UK's 2013 rule separating retail banking from investment banking. :: Ring-fencing (Vickers reforms)
 The Liikanen report proposed separation of banking in this region. :: The European Union
-The Basel Committee's 'Core Principles for Effective Banking Supervision' number this many. :: 29
+The number of Basel Committee 'Core Principles for Effective Banking Supervision'. :: 29
 The Basel Committee issued principles for Islamic bank regulation together with this body. :: IFSB (Islamic Financial Services Board)
 The IFSB is based in this city. :: Kuala Lumpur
 The IFSB capital adequacy standard for Islamic banks, revised in 2021. :: IFSB-23
@@ -450,7 +450,7 @@ The Saudi central clearing house for securities. :: Muqassa (Securities Clearing
 The 2009 Saudi corporate debt crisis involved the Saad Group and this family group. :: Ahmad Hamad Algosaibi & Brothers
 The approximate total debt in the 2009 Saad and Algosaibi defaults. :: About 20 billion dollars
 The Dubai government company whose 2009 standstill request shook Gulf markets. :: Dubai World
-Dubai World's debt standstill involved its property arm, this. :: Nakheel
+Dubai World's property arm, at the centre of its debt standstill. :: Nakheel
 The Bahraini bank founded in 1979 that pioneered Islamic banking in the Gulf. :: Bahrain Islamic Bank
 The first modern Islamic commercial bank, founded in Dubai in 1975. :: Dubai Islamic Bank
 The 1963 Egyptian savings bank seen as the first modern Islamic bank experiment. :: Mit Ghamr Savings Bank

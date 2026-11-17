@@ -13,7 +13,7 @@ The head of the board of directors. :: The chairman
 The top manager who runs a company day to day. :: The CEO (chief executive officer)
 A company whose shares are sold to the public on a stock exchange. :: A public (listed) company
 A company whose shares are not sold to the public. :: A private company
-The owners' liability is limited to what they put in. This is called this. :: Limited liability
+The rule that owners can lose no more than what they put in. :: Limited liability
 The short form "LLC" stands for this. :: Limited liability company
 The official document that sets out a company's rules. :: Articles of association (bylaws)
 Registering a new company is called this. :: Incorporation
@@ -215,7 +215,7 @@ Under the Saudi Companies Law 2022, an LLC's managers are appointed by these. ::
 Under the Saudi Companies Law 2022, the simplified joint stock company may have this many shareholders at minimum. :: One
 Under the Saudi Companies Law 2022, a non-profit company is allowed. True or false? :: True
 The Saudi Companies Law 2022 lets companies issue different classes of shares, such as these with no votes. :: Non-voting (preference) shares
-The Saudi Companies Law 2022 allows a company to buy back its own shares under conditions. This is called this. :: A share buyback (treasury shares)
+The Saudi Companies Law 2022 allows, under conditions, a company buying back its own shares. The name for this. :: A share buyback (treasury shares)
 Under the Saudi Companies Law, family companies may sign this to regulate ownership. :: A family charter
 Under the Saudi Companies Law 2022, an LLC with losses of half its capital must do this. :: Report it and call the partners to decide whether to continue or dissolve
 Saudi Arabia's 2024 Investment Law replaced the Foreign Investment Law of this year. :: 2000
@@ -416,7 +416,7 @@ The Saudi port that is the largest on the Red Sea. :: Jeddah Islamic Port
 The Saudi port that is the largest on the Gulf. :: King Abdulaziz Port (Dammam)
 
 ## 500
-The Saudi Companies Law 2022 lets shareholders agree on "drag-along" and this. :: Tag-along rights
+The Saudi Companies Law 2022 lets shareholders agree on "drag-along" rights and this matching kind. :: Tag-along rights
 A drag-along right lets a majority do this. :: Force minority shareholders to sell
 A tag-along right lets a minority do this. :: Join a majority sale on the same terms
 A shareholders' agreement may include this lock on selling shares. :: A lock-up (transfer restriction)

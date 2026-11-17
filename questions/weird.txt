@@ -52,7 +52,7 @@ Dolphins sleep with this open. :: One eye
 The protein that makes up your fingernails and a rhino's horn. :: Keratin
 A group of crows is called this, which sounds like a crime. :: A murder
 A group of owls is called this, like a government body. :: A parliament
-On Mars, sunsets look this colour. :: Blue
+The colour of sunsets on Mars. :: Blue
 The Sun is about this many times wider than Earth. :: About 109
 You would weigh about one-sixth of your Earth weight here. :: On the Moon
 Sound cannot travel here, so no one can hear you shout. :: Space
@@ -280,13 +280,13 @@ The feeling of a word losing meaning after you repeat it many times. :: Semantic
 The back of your knee is called this. :: The popliteal fossa
 This part of your face has no sweat glands. :: The lips
 The strongest muscle relative to its size is said to be this one in your jaw. :: The masseter
-Humans glow very faintly, but this is too weak for our eyes to see. Scientists call it this. :: Bioluminescence (ultra-weak photon emission)
+Humans glow very faintly, too weakly for our eyes to see. The name for this glow. :: Bioluminescence (ultra-weak photon emission)
 You lose about this much of your body heat through your head, despite the myth of 50 percent. :: About 10 percent
 Your blood vessels, laid end to end, could go around Earth about this many times. :: About two and a half
 The heart of an adult pumps about this much blood every day. :: About 7,500 litres
 This organ can regrow even if most of it is removed. :: The liver
 The number of taste buds on an average human tongue. :: About 10,000
-Identical twins do not have identical these. :: Fingerprints
+Identical twins do not have identical ones of these. :: Fingerprints
 The world record for staying awake, set in 1964 by Randy Gardner, was about this long. :: 11 days
 The Moon is moving away from Earth by about this much every year. :: About 3.8 cm
 A day on Earth used to be shorter: in the dinosaur age about this many hours. :: About 23 hours
@@ -313,7 +313,7 @@ This sweet word comes from the Arabic "sukkar". :: Sugar
 
 ## 400
 This huge amphibian from China can grow to almost 2 metres long. :: Chinese giant salamander
-This ocean animal, the "sea pig", walks on the sea floor on tube feet. It is a type of this. :: Sea cucumber
+The "sea pig", which walks on the sea floor on tube feet, is a type of this animal. :: Sea cucumber
 This beetle sprays boiling chemicals from its rear to defend itself. :: Bombardier beetle
 This frog from Central America has see-through skin on its belly. :: Glass frog
 This bird builds a bower and decorates it with blue objects to attract a mate. :: Bowerbird
@@ -431,7 +431,7 @@ The animal with up to 16 types of colour receptor in its eyes, against our three
 The loudest animal on Earth, whose clicks can reach about 230 decibels. :: Sperm whale
 The bird that can sleep in mid-air for weeks at a time, staying aloft for 10 months. :: Common swift
 This rodent from East Africa barely feels pain, rarely gets cancer, and lives over 30 years. :: Naked mole-rat
-This marine worm, the "bone-eating snot flower", feeds on this. :: Whale bones
+The marine worm called the "bone-eating snot flower" feeds on these. :: Whale bones
 The nickname of the vast mass of tiny deep-sea creatures that rises to the surface each night. :: The deep scattering layer
 This jellyfish is one of the longest animals, with tentacles reported over 30 metres. :: Lion's mane jellyfish
 This sea creature is considered the deadliest venomous animal to humans in the ocean. :: Box jellyfish

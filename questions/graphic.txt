@@ -6,12 +6,12 @@ group: design
 Name this tool. {img:colour-wheel.svg} :: A colour wheel
 Name this picture of overlapping lights. {img:colour-rgb.svg} :: Additive colour (RGB)
 Name this picture of overlapping inks. {img:colour-cmy.svg} :: Subtractive colour (CMY)
-This icon usually means this. {img:sym-power.svg} :: Power (on/off)
-This icon usually means this. {img:sym-wifi.svg} :: Wi-Fi (wireless signal)
-This icon usually means this. {img:sym-play.svg} :: Play
-This icon of three lines usually opens this. {img:sym-hamburger.svg} :: A menu (hamburger menu)
-This old icon usually means this action. {img:sym-floppy.svg} :: Save
-This icon usually means this action. {img:sym-share.svg} :: Share
+What this icon usually means. {img:sym-power.svg} :: Power (on/off)
+What this icon usually means. {img:sym-wifi.svg} :: Wi-Fi (wireless signal)
+What this icon usually means. {img:sym-play.svg} :: Play
+What this three-line icon usually opens. {img:sym-hamburger.svg} :: A menu (hamburger menu)
+The action this old icon usually stands for. {img:sym-floppy.svg} :: Save
+The action this icon usually stands for. {img:sym-share.svg} :: Share
 The three primary colours of light on a screen. :: Red, green and blue (RGB)
 The four inks used in normal colour printing. :: Cyan, magenta, yellow and black (CMYK)
 In CMYK, the letter K stands for this colour. :: Black (the "key" plate)
@@ -104,7 +104,7 @@ Placing items in a clear order of importance. :: Visual hierarchy
 The design rule of putting related things close together. :: Proximity
 Repeating colours or shapes to tie a design together. :: Repetition (consistency)
 Lining things up along common edges. :: Alignment
-Dark text on a light background gives strong this. :: Contrast
+Dark text on a light background gives a strong amount of this. :: Contrast
 A picture of a person's head and shoulders. :: A portrait
 A picture that is wider than it is tall. :: Landscape orientation
 A picture that is taller than it is wide. :: Portrait orientation
@@ -413,13 +413,13 @@ In CSS, the unit equal to 1% of the viewport width. :: vw
 The CSS layout system for rows and columns together. :: CSS Grid
 The CSS layout system for one row or column at a time. :: Flexbox
 Fonts that come with almost every computer are called this. :: Web-safe fonts
-When a missing font is swapped for another, this happens. :: Font substitution (fallback)
+The name for swapping a missing font for another. :: Font substitution (fallback)
 A font that has not loaded yet showing blank text is called this. :: Flash of invisible text (FOIT)
 Turning text into vector shapes before sending a file to print. :: Outlining (converting to outlines)
 Putting all fonts and images inside a print file. :: Packaging (embedding)
 The PDF standard made for reliable printing. :: PDF/X
 The PDF standard for long-term archiving. :: PDF/A
-A print file at 72 dpi will look this. :: Blurry or pixelated
+How a print file at 72 dpi will look. :: Blurry or pixelated
 Overprint means one ink is printed on top of another without this. :: Knocking out the colour below
 Removing the colour under an object so it prints cleanly. :: Knockout
 Paper that has a smooth shiny surface. :: Coated (gloss) paper
@@ -546,7 +546,7 @@ The usual screen ruling for magazine printing. :: About 150 lpi
 The rule of thumb for image resolution is this many times the lpi. :: About two
 Stochastic screening uses dots of this kind. :: Random (frequency-modulated) dots
 In offset printing the ink sticks to the image because of this. :: Oil and water do not mix
-Offset printing is called this because the ink goes from plate to this. :: A rubber blanket
+Offset printing gets its name because the ink goes from the plate to this, then to paper. :: A rubber blanket
 The Senefelder invention that started offset printing. :: Lithography
 Alois Senefelder invented lithography in this decade. :: The 1790s
 The "point" used in desktop publishing is exactly this fraction of an inch. :: 1/72

@@ -117,7 +117,7 @@ The measure of return per unit of beta. :: Treynor ratio
 A fund's return above what CAPM predicts. :: Jensen's alpha
 Return earned above a benchmark. :: Alpha
 The statistic that shows how two assets move together, from -1 to +1. :: Correlation
-Two assets with a correlation of -1 are said to be perfectly this. :: Negatively correlated
+Two assets with a correlation of -1 are described this way. :: Negatively correlated
 Adding assets with low correlation lowers a portfolio's this. :: Risk (volatility)
 The theory that prices reflect all available information. :: Efficient market hypothesis
 The economist most linked with the efficient market hypothesis. :: Eugene Fama
@@ -159,7 +159,7 @@ Owning a share and selling a call on it. :: Covered call
 Buying a call and a put with the same strike and expiry. :: Straddle
 A private contract to buy or sell at a future date and price, not traded on an exchange. :: Forward contract
 The cash deposited when opening a futures position. :: Initial margin
-Futures profits and losses are settled every day. This is called this. :: Marking to market
+The daily settling of futures profits and losses. :: Marking to market
 A swap where two parties exchange fixed and floating interest payments. :: Interest rate swap
 A contract that pays out if a borrower defaults. :: Credit default swap (CDS)
 The index of expected US stock market volatility, known as the "fear gauge". :: VIX
@@ -206,7 +206,7 @@ The return of a fund after all costs compared with its benchmark. :: Excess retu
 The standard deviation of a fund's return minus its benchmark's return. :: Tracking error
 A share bought at 40 and sold at 50 gives this percentage capital gain. :: 25%
 A bond with a 1,000 face value and a 6% coupon pays this much interest a year. :: 60
-The rule that a fund must not put more than a set share of its money in one company is a this limit. :: Concentration (diversification) limit
+The rule that a fund must not put more than a set share of its money in one company. :: Concentration (diversification) limit
 
 ## 300
 The 1952 journal paper by Markowitz was titled this. :: Portfolio Selection
@@ -261,12 +261,12 @@ The Greek measure of sensitivity to volatility. :: Vega
 The Greek letter for sensitivity to interest rates. :: Rho
 The volatility that, put into Black-Scholes, gives the market price. :: Implied volatility
 The pattern where implied volatility is higher for far out-of-the-money options. :: Volatility smile (skew)
-Put-call parity: C - P = S - this. :: PV of the strike price (K e^-rT)
+Put-call parity: C - P = S - ___. :: PV of the strike price (K e^-rT)
 A strategy of buying a call and selling a call at a higher strike. :: Bull call spread
 Buying a put at one strike and a call at a higher strike. :: Strangle
 A strategy of four options that profits if the price stays in a range. :: Butterfly spread (or iron condor)
 The delta of an at-the-money call is about this. :: 0.5
-Futures price = spot x e^((r - q) x T). This is the this model. :: Cost-of-carry model
+The model behind the formula futures price = spot x e^((r - q) x T). :: Cost-of-carry model
 A futures price above the spot price. :: Contango
 A futures price below the spot price. :: Backwardation
 Hedging with futures where the asset differs from the one hedged leaves this risk. :: Basis risk
@@ -364,7 +364,7 @@ An option that appears or disappears if the price hits a level. :: Barrier optio
 An option that pays a fixed amount or nothing. :: Binary (digital) option
 The value of a call can never be more than this. :: The share price
 An American call on a share that pays no dividends is never exercised early, so it equals this. :: A European call
-Delta hedging an option position requires frequent this. :: Rebalancing
+Delta hedging an option position requires doing this often. :: Rebalancing
 Gamma is highest for options that are near this. :: At the money near expiry
 The 1987 crash was partly blamed on this hedging strategy. :: Portfolio insurance
 Rules that pause trading after big falls. :: Circuit breakers
@@ -383,7 +383,7 @@ The returns-based style analysis of funds was developed by this Nobel laureate. 
 Brinson attribution splits active return into allocation, selection and this. :: Interaction
 The time-weighted return removes the effect of this. :: Cash flows into and out of the fund
 The money-weighted return is the same as this. :: Internal rate of return (IRR)
-Survivorship bias makes fund databases look this. :: Better than reality
+Survivorship bias makes fund databases look this way. :: Better than reality
 The SPIVA reports compare active funds with this. :: Their benchmark indexes
 In most SPIVA reports, most active US large-cap funds trail the S&P 500 over this horizon. :: 10 to 15 years (long run)
 The bet between Warren Buffett and Protégé Partners pitted an S&P 500 fund against these. :: Hedge funds (funds of hedge funds)
@@ -447,7 +447,7 @@ The GARCH model was developed by Tim Bollerslev in 1986, extending the ARCH mode
 Engle won the Nobel Prize in 2003 together with this economist. :: Clive Granger
 The 'leverage effect' says volatility rises when prices do this. :: Fall
 The Heath-Jarrow-Morton framework models the evolution of these. :: Forward rates
-The LIBOR market model is also called the this. :: BGM model (Brace-Gatarek-Musiela)
+The other name for the LIBOR market model. :: BGM model (Brace-Gatarek-Musiela)
 Ho-Lee was the first of this kind of interest rate model. :: Arbitrage-free (no-arbitrage) term structure model
 The Gaussian copula model, linked to the 2008 crisis, was popularised by David Li in this year. :: 2000
 The 2012 trading loss at JPMorgan's London office was linked to this trader's nickname. :: The London Whale
@@ -505,7 +505,7 @@ The UK prime minister whose 2022 mini-budget triggered the gilt crisis. :: Liz T
 The ratio of a market's total value to total company replacement cost. :: Tobin's q (for the market)
 The 'Siegel constant' says long-run real US equity returns have been about this much a year. :: 6.5% to 7%
 Jeremy Siegel's book on long-run returns is titled this. :: Stocks for the Long Run
-The 'Dimson, Marsh and Staunton' yearbook tracks returns in many countries since this year. :: 1900
+The start year of the returns tracked across many countries by the Dimson, Marsh and Staunton yearbook. :: 1900
 Jegadeesh's 1990 paper found returns over one month tend to do this. :: Reverse (short-term reversal)
 Lakonishok, Shleifer and Vishny's 1994 paper argued value shares outperform because investors do this. :: Extrapolate past growth too far (overreact)
 Novy-Marx's 2013 paper found this measure of profitability predicts returns. :: Gross profitability (gross profit to assets)

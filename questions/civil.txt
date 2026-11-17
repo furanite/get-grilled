@@ -110,7 +110,7 @@ Name this type of beam, held at one end only. {img:beam-cantilever.svg} :: Canti
 The four main compounds in Portland cement are C3S, C2S, C3A and this. :: C4AF
 The compound in cement that gives most early strength. :: C3S (tricalcium silicate)
 The ratio that most controls concrete strength. :: Water–cement ratio
-Lowering the water–cement ratio makes concrete this. :: Stronger (and less permeable)
+Lowering the water–cement ratio has this effect on concrete strength. :: Stronger (and less permeable)
 Chemicals added to concrete to change its properties. :: Admixtures
 Admixtures that let concrete flow with less water. :: Superplasticisers (water reducers)
 Admixtures that slow setting, useful in hot weather. :: Retarders
@@ -321,7 +321,7 @@ The equation for consolidation in one dimension was published by Terzaghi in thi
 The book in which Terzaghi founded soil mechanics in 1925. :: Erdbaumechanik
 The factor that relates time to degree of consolidation. :: Time factor (Tv)
 For 50% consolidation, the time factor is about this. :: 0.197
-The critical state line in soil mechanics joins states where soil shears at constant this. :: Volume (and stress)
+The critical state line in soil mechanics joins states where soil shears without any change in this. :: Volume (and stress)
 The soil model developed at Cambridge from critical state theory. :: Cam clay
 The coefficient of earth pressure at rest for normally consolidated soil, by Jáky's formula. :: 1 − sin φ′
 Rankine's active earth pressure coefficient. :: (1 − sin φ)/(1 + sin φ) or tan²(45° − φ/2)

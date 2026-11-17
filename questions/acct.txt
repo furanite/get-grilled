@@ -3,7 +3,7 @@ name: Financial Accounting
 group: finance
 
 ## 100
-The basic accounting equation: Assets = Liabilities + this. :: Equity (owners' equity)
+The basic accounting equation: Assets = Liabilities + ___. :: Equity (owners' equity)
 The financial statement that shows revenue minus expenses for a period. :: Income statement (profit and loss)
 The financial statement that lists assets, liabilities and equity on one date. :: Balance sheet
 Money a customer owes a business for goods already delivered. :: Accounts receivable
@@ -34,7 +34,7 @@ Debts due after more than one year. :: Non-current liabilities (long-term liabil
 The cost of the goods a shop actually sold during the year. :: Cost of goods sold (cost of sales)
 Revenue minus cost of goods sold. :: Gross profit
 A record kept to prove a sale, showing the buyer, items and price. :: Invoice (sales invoice)
-The owner takes cash out of the business for personal use. This is called this. :: Drawings
+The name for cash the owner takes out of the business for personal use. :: Drawings
 Money the owners put into a business. :: Capital
 A business owned and run by one person. :: Sole proprietorship (sole trader)
 The abbreviation for International Financial Reporting Standards. :: IFRS
@@ -84,9 +84,9 @@ The accounting idea that a business will carry on trading for the foreseeable fu
 The idea that the same methods should be used from year to year. :: Consistency
 The idea that revenue is recorded when it is earned, not when the cash arrives. :: Accrual basis (accruals concept)
 Recording revenue and expenses only when cash changes hands. :: Cash basis accounting
-Assets are usually recorded at what they cost when bought. This is called this. :: Historical cost
+The principle of recording assets at what they cost when bought. :: Historical cost
 A small error that would not change a reader's decision is said to be not this. :: Material
-Recording a sale twice by mistake makes revenue this. :: Overstated
+Recording a sale twice by mistake makes revenue appear this way. :: Overstated
 A summary that shows how much each owner's stake changed in the year. :: Statement of changes in equity
 The notes at the end of the financial statements explain the numbers in these. :: Notes to the accounts (notes to the financial statements)
 The person who keeps the daily records of a small business. :: Bookkeeper
@@ -121,7 +121,7 @@ Cost minus accumulated depreciation. :: Carrying amount (book value, net book va
 The estimated value of an asset at the end of its useful life. :: Residual value (salvage value)
 An account that reduces another account, such as accumulated depreciation. :: Contra account
 The contra-asset account that holds estimated bad debts. :: Allowance for doubtful debts (allowance for doubtful accounts)
-Writing off a bad debt with the allowance method: debit this account. :: Allowance for doubtful debts
+Writing off a bad debt with the allowance method debits this account. :: Allowance for doubtful debts
 A bill from a supplier showing a price reduction for returned goods. :: Credit note
 A document the buyer sends to the seller when returning goods. :: Debit note
 Entries made at the end of a period to record accruals, prepayments and depreciation. :: Adjusting entries
@@ -162,7 +162,7 @@ The type of audit opinion that says the accounts give a true and fair view. :: U
 An audit opinion that says "except for" one problem, the accounts are fair. :: Qualified opinion
 An audit opinion that says the accounts are not fair at all. :: Adverse opinion
 An auditor who cannot get enough evidence to give any opinion issues this. :: Disclaimer of opinion
-The phrase auditors use to say the accounts are fairly presented: "true and" this. :: Fair
+Auditors say the accounts give a "true and ___ view". :: Fair
 The 2002 US law passed after the Enron scandal to tighten company reporting. :: Sarbanes-Oxley Act
 The energy company whose 2001 collapse also brought down its auditor Arthur Andersen. :: Enron
 The US telecom company whose 2002 accounting fraud capitalised ordinary line costs. :: WorldCom
@@ -197,7 +197,7 @@ The total of all the depreciation charged on an asset so far. :: Accumulated dep
 Selling an asset for more than its carrying amount gives this. :: Gain (profit) on disposal
 The record of every individual customer's balance, kept apart from the general ledger. :: Sales ledger (accounts receivable subledger)
 One account in the general ledger that sums a subledger. :: Control account
-A company buys back its own shares and holds them. These are called this. :: Treasury shares
+The name for a company's own shares that it has bought back and holds. :: Treasury shares
 New shares given free to existing shareholders out of reserves. :: Bonus issue (stock dividend)
 Shares offered to existing shareholders at a discount, in proportion to their holdings. :: Rights issue
 Shares that get a fixed dividend before ordinary shareholders. :: Preference shares (preferred stock)
@@ -213,7 +213,7 @@ The number of steps in the IFRS 15 revenue model. :: Five
 The first step of the IFRS 15 model. :: Identify the contract with the customer
 A promise in a contract to transfer a distinct good or service. :: Performance obligation
 The IFRS 15 step where the price is split across performance obligations. :: Allocate the transaction price
-The basis for allocating the transaction price: relative stand-alone this. :: Selling prices
+The transaction price is allocated in proportion to relative stand-alone ___. :: Selling prices
 The IFRS standard on leases that took effect in 2019. :: IFRS 16
 Under IFRS 16 a lessee records a lease liability and this asset. :: Right-of-use asset
 The two exemptions IFRS 16 allows lessees: short-term leases and leases of these. :: Low-value assets
@@ -256,7 +256,7 @@ A business that is being sold or closed and is shown separately. :: Discontinued
 The IFRS standard on non-current assets held for sale and discontinued operations. :: IFRS 5
 Assets held for sale are measured at the lower of carrying amount and this. :: Fair value less costs to sell
 The IFRS standard on segment reporting. :: IFRS 8
-Under IFRS 8, segments are based on what the chief operating decision maker reviews. This is called the this approach. :: Management approach
+Under IFRS 8, segments are based on what the chief operating decision maker reviews, an approach called this. :: Management approach
 The IAS standard on accounting policies, changes in estimates and errors. :: IAS 8
 A change in accounting policy is applied this way. :: Retrospectively
 A change in accounting estimate, such as useful life, is applied this way. :: Prospectively
@@ -298,7 +298,7 @@ The section of Sarbanes-Oxley that requires management to report on internal con
 The Big Four accounting firms: Deloitte, EY, KPMG and this. :: PwC (PricewaterhouseCoopers)
 The audit risk model: audit risk = inherent risk x control risk x this. :: Detection risk
 The auditor's threshold for errors that would affect users' decisions. :: Materiality
-Auditors circulate letters to customers to check balances. This is called this. :: External confirmation (circularisation)
+The audit procedure of sending letters to customers to check their balances. :: External confirmation (circularisation)
 An auditor's test of individual transactions and balances. :: Substantive procedure
 An auditor's test of whether controls work. :: Test of controls
 Separating authorising, recording and custody of assets among different people. :: Segregation of duties
@@ -391,7 +391,7 @@ The ISA that requires communicating key audit matters. :: ISA 701
 Key audit matters are reported for audits of these companies. :: Listed entities
 The ISA on going concern. :: ISA 570
 The ISA on the auditor's responsibilities relating to fraud. :: ISA 240
-An emphasis of matter paragraph draws attention to something correctly this. :: Presented or disclosed in the accounts
+An emphasis of matter paragraph draws attention to something that has been handled this way in the accounts. :: Presented or disclosed in the accounts
 The IESBA code sets out these for professional accountants. :: Ethics (the Code of Ethics)
 The five fundamental principles in the IESBA code: integrity, objectivity, professional competence and due care, confidentiality, and this. :: Professional behaviour
 The threat to independence when an auditor reviews their own work. :: Self-review threat
@@ -412,7 +412,7 @@ A company's accounts show 'Retained earnings 400, share capital 100, revaluation
 In a pure tax-free world, a 1,000 machine sold for 700 after 400 depreciation gives this result. :: A gain of 100
 The accounting approach where only one entity in a merger is treated as acquirer, required by IFRS 3. :: Acquisition method (no pooling of interests)
 The old US merger method abolished in 2001 that combined book values. :: Pooling of interests
-A company reports a change in useful life from 10 to 8 years. This is a change in this. :: Accounting estimate
+A company changes an asset's useful life from 10 to 8 years. It reports this kind of change. :: Accounting estimate
 The Arab scholar Ibn Khaldun ﵀ wrote about state revenue and taxation in this famous book. :: The Muqaddimah
 The 14th-century Persian word for the bookkeeping ledgers used in Islamic state finance. :: Daftar
 The Islamic-era bookkeeping method using the siyaqat script was used in this administrative system. :: Diwan (state bookkeeping)
@@ -452,8 +452,8 @@ The modified retrospective approach in IFRS 16 adjusts this on the date of first
 In IFRS 17, the unearned profit in a group of insurance contracts. :: Contractual service margin (CSM)
 The IFRS 17 simplified approach for short contracts. :: Premium allocation approach (PAA)
 The IFRS 17 model used for participating contracts with direct participation features. :: Variable fee approach
-The IFRS 17 general model is also called the this. :: Building block approach
-IFRS 9 requires a hedging relationship to show an economic relationship and that credit risk does not dominate, plus a consistent this. :: Hedge ratio
+The other name for the IFRS 17 general model. :: Building block approach
+IFRS 9 hedge accounting needs an economic relationship, credit risk that does not dominate, and a consistent ___. :: Hedge ratio
 The term for the accounting mismatch fix that lets an entity designate a financial asset at FVTPL. :: Fair value option
 Under IFRS 9, gains on equity investments designated at FVOCI are this when sold. :: Never recycled to profit or loss
 The interest rate benchmark reform that replaced LIBOR triggered these IFRS amendments. :: IBOR reform amendments (Phase 1 and 2)
@@ -461,7 +461,7 @@ LIBOR panel publication of most settings stopped at the end of this year. :: 202
 The US dollar rate that replaced LIBOR. :: SOFR (Secured Overnight Financing Rate)
 The OECD's global minimum tax, Pillar Two, sets a minimum effective rate of this. :: 15%
 IAS 12 was amended in 2023 to give a temporary exception from deferred tax for this. :: Pillar Two top-up taxes
-The Conceptual Framework revised in 2018 defines an asset as a present economic resource controlled as a result of past events. Economic resource means a right with this. :: The potential to produce economic benefits
+The 2018 Conceptual Framework defines an economic resource as a right that has this. :: The potential to produce economic benefits
 The 2018 Conceptual Framework defines a liability as a present obligation to transfer this. :: An economic resource
 The ratio of market capitalisation to book value of equity. :: Price-to-book ratio
 In Tobin's q, market value is compared with this. :: Replacement cost of assets
@@ -480,7 +480,7 @@ Scope 2 greenhouse emissions come from this. :: Purchased energy (electricity, h
 A stock of 100 units at 10, then 50 bought at 13, then 120 sold. FIFO cost of goods sold. :: 1,260
 Same transactions with a perpetual weighted average after the purchase. Cost of goods sold. :: 1,320
 A 1,000 bond at 5% coupon issued for 960 with an effective rate of 6%. First-year interest expense. :: 57.60
-In the same bond, the discount amortised in year one. :: 7.60
+A 1,000 bond at 5% coupon issued for 960 with an effective rate of 6%. The discount amortised in year one. :: 7.60
 A lease of 100 a year for 3 years paid in arrears at 10%. Initial lease liability. :: 248.69
 The present value of a 1,000 perpetuity at 8%. :: 12,500
 A company acquired 80% of a target for 900. The target's net assets are 1,000 at fair value. Goodwill with partial NCI. :: 100
@@ -495,7 +495,7 @@ The investor often quoted calling accounting "the language of business". :: Warr
 The Italian-born author of the 1458 "Book on the Art of Trade" that mentions double-entry before Pacioli. :: Benedetto Cotrugli
 The term Pacioli used for the method known as double-entry. :: Venetian method (alla veneziana)
 The accounting identity Assets = Liabilities + Equity is credited to this 19th-century theorist of the proprietary view. :: Charles Sprague
-The accounting theory of entity rather than proprietor is associated with this American theorist, William this. :: Paton
+The American theorist William ___, linked with the entity theory of accounting rather than proprietor theory. :: Paton
 The 1940 monograph "An Introduction to Corporate Accounting Standards" was written by Paton and this author. :: A. C. Littleton
 The 1975 Accounting Standards Steering Committee document in Britain on users' needs. :: The Corporate Report
 The American study group whose 1973 report set objectives for financial statements. :: Trueblood Committee

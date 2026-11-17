@@ -135,7 +135,7 @@ A tool that shows how much shade a device gives. :: A shading mask
 A diagram that shows wind speed and direction at a place. :: A wind rose
 The prevailing wind in Riyadh in summer comes mostly from this direction. :: The north
 The hot dusty wind in the Gulf in summer. :: The shamal
-Air rises when warm, pulling cool air in below. This is called this. :: The stack effect
+The name for warm air rising and pulling cool air in below. :: The stack effect
 A tall shaft that uses the stack effect to pull air out. :: A solar chimney
 Cooling by water evaporating. :: Evaporative cooling
 A traditional porous clay pot that keeps water cool. :: A zir (or jahlah)
@@ -286,7 +286,7 @@ The Eastgate Centre in Harare copies the cooling of these. :: Termite mounds
 The architect of the Eastgate Centre. :: Mick Pearce
 The Al Bahr Towers in Abu Dhabi have this kind of façade. :: A dynamic mashrabiya (moving shading)
 The Al Bahr Towers' shading screen opens and closes with this. :: The sun's movement
-The Institut du Monde Arabe in Paris has windows like camera these. :: Apertures (diaphragms)
+The Institut du Monde Arabe in Paris has windows that open and close like these camera parts. :: Apertures (diaphragms)
 The Institut du Monde Arabe was designed by this architect. :: Jean Nouvel
 The Masdar Institute buildings use this traditional element to cool streets. :: A wind tower
 Masdar City's streets are oriented to catch these. :: Cool breezes (and give shade)
@@ -312,12 +312,12 @@ Saudi Arabia receives about this much solar energy per square metre a day. :: Ab
 Batteries used to store solar power for the night are usually this type. :: Lithium-ion
 
 ## 400
-The equation for heat flow through a wall: Q = U × A × this. :: Temperature difference (ΔT)
+Heat flow through a wall: Q = U × A × ___. :: Temperature difference (ΔT)
 A wall with U-value 0.5 W/m²K, area 10 m² and 20 K difference loses this much heat. :: 100 watts
 The unit of the U-value. :: W/m²K
 The R-value is the inverse of this. :: The U-value
 The thermal conductivity of a material is shown by this letter. :: λ (lambda) or k
-A material with low thermal conductivity is a good this. :: Insulator
+A material with low thermal conductivity makes a good one of these. :: Insulator
 The thermal conductivity of still air is about this. :: 0.025 W/mK
 The thermal conductivity of concrete is about this. :: 1.4 to 2 W/mK
 Vacuum insulated panels have conductivity near this. :: 0.004 W/mK
@@ -381,7 +381,7 @@ The UN Sustainable Development Goal on climate action. :: SDG 13
 The UN Sustainable Development Goal on clean water. :: SDG 6
 The international network of cities fighting climate change. :: C40
 Green Riyadh aims to plant this many trees in the city. :: 7.5 million
-King Salman Park in Riyadh is planned to be one of the largest these. :: Urban parks
+King Salman Park in Riyadh is planned to be one of the world's largest of these. :: Urban parks
 The Riyadh Sports Boulevard project creates this. :: A long green route for walking and cycling
 The Saudi Vision 2030 program that aims to make cities more livable. :: The Quality of Life Program
 The concept of streets for people, with wide shaded pavements. :: Complete streets
@@ -479,7 +479,7 @@ The material in the floor of the Grand Mosque's courtyard that stays cool. :: Th
 Thassos marble comes from this country. :: Greece
 Thassos marble stays cool because it reflects heat and has this. :: Tiny pores that absorb night moisture (and high reflectance)
 The cooling of outdoor spaces at Al-Masjid an-Nabawi uses these. :: Giant umbrellas and misting fans
-The giant umbrellas of Al-Masjid an-Nabawi number this many. :: 250
+The number of giant umbrellas at Al-Masjid an-Nabawi. :: 250
 The term for the steady flow of cool air down a tower at night as it cools. :: Downdraft cooling
 The "passive downdraft evaporative cooling" tower is known by this short form. :: PDEC
 The Seville Expo 1992 used outdoor evaporative cooling in this area. :: Avenida de Europa

@@ -21,7 +21,7 @@ The Scrum role that owns the product backlog. :: Product owner
 The Scrum role that coaches the team and removes obstacles. :: Scrum master
 The ordered list of everything that might be built in a product. :: Product backlog
 A short description of a feature from the user's point of view. :: User story
-The usual template of a user story starts "As a ..., I want ...". It ends "so that" this. :: The benefit (reason)
+A user story usually reads "As a ..., I want ..., so that ...". The "so that" part gives this. :: The benefit (reason)
 The board with columns such as To Do, Doing and Done. :: Kanban board
 The Japanese word meaning "signboard" used for a visual workflow method. :: Kanban
 A first, rough working model of a product. :: Prototype
@@ -231,7 +231,7 @@ The 1999 book by Martin Fowler that catalogued code smells and fixes. :: Refacto
 A sign in code that may point to a deeper problem, such as a very long method. :: Code smell
 The code smell of a class that knows and does too much. :: God object (God class)
 The smell where one change forces many small edits across many classes. :: Shotgun surgery
-The design advice "favour composition over" this. :: Inheritance
+The design advice "favour composition over ___". :: Inheritance
 The design pattern that provides a simplified interface to a complex subsystem. :: Facade
 The pattern that wraps a request as an object, enabling undo and queues. :: Command
 The pattern that builds a complex object step by step. :: Builder
@@ -277,7 +277,7 @@ The breakdown of a project into smaller deliverables, shortened to three letters
 The model of five maturity levels for software processes, shortened. :: CMMI
 The number of maturity levels in CMMI. :: 5
 The international standard for software product quality, ISO/IEC 250 and this number. :: 10
-The IEEE standard for software requirements specifications, IEEE this number. :: 830
+The number of the IEEE standard for software requirements specifications. :: 830
 The Linux kernel's version control before Git. :: BitKeeper
 The year Git was first released. :: 2005
 The data structure Git uses to link commits to their parents. :: Directed acyclic graph
@@ -311,7 +311,7 @@ A short, time-boxed piece of research to reduce uncertainty in Agile. :: Spike
 
 ## 400
 The 1972 paper by David Parnas on decomposing systems into modules introduced this idea. :: Information hiding
-The 1968 letter by Dijkstra in Communications of the ACM titled "Go To Statement Considered" this. :: Harmful
+Dijkstra's 1968 letter in Communications of the ACM: "Go To Statement Considered ___". :: Harmful
 The theorem by Böhm and Jacopini that any program can use sequence, selection and iteration only. :: Structured program theorem
 The method of proving programs correct with preconditions and postconditions, named after Tony Hoare. :: Hoare logic
 The three-part form {P} C {Q} in Hoare logic. :: Hoare triple
@@ -334,7 +334,7 @@ The highest CMMI maturity level. :: Optimising
 The method created by Watts Humphrey for individual engineers' discipline, shortened to three letters. :: PSP (Personal Software Process)
 The large-scale Agile framework, shortened to four letters. :: SAFe
 The Scrum guide was written by Ken Schwaber and this man. :: Jeff Sutherland
-The 1986 Harvard Business Review article whose rugby metaphor gave Scrum its name: "The New New Product Development" this. :: Game
+The 1986 Harvard Business Review article whose rugby metaphor gave Scrum its name: "The New New Product Development ___". :: Game
 The two Japanese authors of that 1986 article. :: Takeuchi and Nonaka
 The car maker whose production system inspired lean software development. :: Toyota
 Lean's seven wastes include this, for code written but never released. :: Partially done work (inventory)
@@ -425,7 +425,7 @@ The 1976 paper by Boehm titled simply this, published in IEEE Transactions on Co
 The COCOMO II scale factor that rewards a team's familiarity with similar past work, shortened to four letters. :: PREC (precedentedness)
 The highest level of the Personal Software Process, counting up from PSP0. :: PSP3
 The function point method was introduced at IBM in 1979 by this man. :: Allan Albrecht
-The ISO standard for COSMIC functional size measurement, ISO/IEC this number. :: 19761
+The number of the ISO/IEC standard for COSMIC functional size measurement. :: 19761
 The estimation method of anonymous expert rounds, named after a Greek oracle and refined by Boehm. :: Wideband Delphi
 The cone that shows estimates narrowing from 4x to 1x as a project progresses. :: Cone of uncertainty
 The Putnam model of software effort is also called this, after a curve. :: SLIM (Rayleigh curve)
@@ -433,19 +433,19 @@ The 1994 Standish Group report on how many IT projects fail. :: CHAOS report
 The researcher who led a 1968 study with Erikson and Grant that found huge differences in programmer productivity. :: Harold Sackman
 The Unix philosophy rule "Write programs that do one thing and do it well" is credited to this man. :: Doug McIlroy
 The Unix build tool written by Stuart Feldman in 1976 that rebuilds only changed files. :: Make
-The 1974 Turing Award lecture by Donald Knuth: "Computer Programming as an" this. :: Art
+Donald Knuth's 1974 Turing Award lecture: "Computer Programming as an ___". :: Art
 Knuth's saying that premature optimisation is the root of all this. :: Evil
 The 1984 approach by Knuth that mixes code and explanation in one document. :: Literate programming
 Dijkstra's 1972 Turing lecture title. :: The Humble Programmer
 Dijkstra's remark: testing can show the presence of bugs but never their this. :: Absence
-The 1980 Turing lecture by Tony Hoare: "The Emperor's Old" these. :: Clothes
-Hoare's saying: there are two ways to design software; one makes it so simple there are obviously no deficiencies, the other makes it so complicated there are no obvious these. :: Deficiencies
-The 1971 Wirth paper "Program Development by Stepwise" this. :: Refinement
+Tony Hoare's 1980 Turing lecture: "The Emperor's Old ___". :: Clothes
+Hoare's saying: one way to design software makes it so simple there are obviously no deficiencies; the other makes it so complicated there are no obvious ___. :: Deficiencies
+Wirth's 1971 paper "Program Development by Stepwise ___". :: Refinement
 Wirth's law says software is getting slower more rapidly than this is getting faster. :: Hardware
 The 1980 Lehman classification of programs into S, P and this type. :: E (embedded in the real world)
 The theorem that says it is impossible to decide any non-trivial property of a program's behaviour. :: Rice's theorem
 Weakest precondition calculus was introduced in 1975 by this man. :: Edsger Dijkstra
-The 1967 paper by Robert Floyd that founded program verification: "Assigning Meanings to" these. :: Programs
+Robert Floyd's 1967 paper that founded program verification: "Assigning Meanings to ___". :: Programs
 The temporal logic introduced to computer science by Amir Pnueli in 1977, shortened to three letters. :: LTL (linear temporal logic)
 The kind of property in temporal logic that says "something good eventually happens". :: Liveness
 The kind of property that says "something bad never happens". :: Safety
@@ -478,7 +478,7 @@ The trading firm that lost 440 million dollars in 45 minutes in 2012 after a bad
 The 2018 and 2019 crashes of the Boeing 737 MAX were linked to this automated system. :: MCAS
 The 1991 Patriot missile failure at Dhahran was caused by this kind of error accumulating over 100 hours. :: Clock (floating-point rounding) drift
 The 2024 outage that crashed about 8.5 million Windows machines came from an update by this company. :: CrowdStrike
-The Google paper of 2015 on technical debt in machine learning: "Hidden Technical Debt in Machine Learning" these. :: Systems
+Google's 2015 paper on technical debt in machine learning: "Hidden Technical Debt in Machine Learning ___". :: Systems
 The 1992 term for technical debt was coined by this Agile Manifesto signer. :: Ward Cunningham
 Ward Cunningham also invented this kind of website in 1995. :: Wiki
 The person who first described design patterns for buildings, inspiring software patterns. :: Christopher Alexander
@@ -495,7 +495,7 @@ The "fallacies of distributed computing" list begins with this fallacy. :: The n
 The Sun Microsystems engineer who listed the fallacies of distributed computing. :: Peter Deutsch
 Google's internal version control system that holds its huge monorepo. :: Piper
 Google's build system, open-sourced in 2015. :: Bazel
-The Google book of 2020 that says "software engineering is programming integrated over" this. :: Time
+The 2020 Google book says "software engineering is programming integrated over ___". :: Time
 The Google code review tool used internally. :: Critique
 The Facebook code review tool later open-sourced, also called Differential. :: Phabricator
 The 2013 study of code review at Microsoft found a main benefit was this, not finding defects. :: Knowledge transfer

@@ -401,7 +401,7 @@ The pyramid model of indicators that ranks hashes at the bottom and TTPs at the 
 The analyst who created the Pyramid of Pain. :: David Bianco
 The model with four corners, adversary, capability, infrastructure and victim. :: Diamond Model
 The privacy-enhancing technique that tests whether two sets share items without revealing them, shortened to three letters. :: PSI (private set intersection)
-The 1949 paper in which Shannon laid the foundations of modern cryptography: "Communication Theory of" this. :: Secrecy Systems
+Shannon's 1949 paper that founded modern cryptography: "Communication Theory of ___". :: Secrecy Systems
 The cryptographer who wrote "Applied Cryptography" in 1994. :: Bruce Schneier
 The Israeli cryptographer who is the "S" in RSA. :: Adi Shamir
 The MIT cryptographer who is the "R" in RSA and designed the MD5 hash. :: Ron Rivest

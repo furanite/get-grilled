@@ -44,7 +44,7 @@ A fixed expense that is the same every month, like rent. :: Fixed expense
 An expense that changes month to month, like groceries. :: Variable expense
 A one-time large purchase you plan for, like a car. :: Big-ticket purchase
 The yearly cost of borrowing on a credit card, as a percentage, in conventional banking. :: Interest rate (APR)
-Paying only the minimum on a credit card makes the debt last this way. :: Much longer (and cost more)
+Paying only the minimum on a credit card has this effect on how long the debt lasts. :: Much longer (and cost more)
 A record of how well you repay your debts. :: Credit history
 A number that shows lenders how reliable you are with debt. :: Credit score
 Saudi Arabia's credit bureau. :: SIMAH
@@ -238,7 +238,7 @@ The investment term for not putting all your money in one place. :: Diversificat
 The ratio of a fund's growth to its risk. :: Sharpe ratio
 Paying high fees to a fund manager who doesn't beat the market. :: Underperformance after fees
 A fund with a 1.5% yearly fee earning 7% gross gives this net return. :: 5.5%
-An investor rebalances to bring shares back to 60% after they rise to 70%. This means selling some of this. :: Shares
+An investor rebalances after shares rise from 60% to 70% of the portfolio. To get back to 60%, they sell some of this. :: Shares
 Starting to save at 25 instead of 35 matters most because of this. :: Compounding (more time to grow)
 'Sequence of returns risk' hurts most right before and after this. :: Retirement
 An 'annuity' turns savings into this. :: Regular income for life (or a set time)
@@ -271,7 +271,7 @@ GOSI calculates a private-sector pension using the average wage of this many fin
 The minimum service period for an early pension under GOSI's new rules is this many months. :: 300 months (25 years)
 A Saudi government employee's pension system was run by this body until it merged with GOSI in 2021. :: Public Pension Agency
 The share of an estate that an only daughter inherits in Islam, with no son. :: One half
-Two or more daughters with no son together inherit this share. :: Two thirds
+The share two or more daughters inherit together when there is no son. :: Two thirds
 A mother inherits this share when the deceased has children. :: One sixth
 A wife inherits this share from a husband who has no children. :: One quarter
 The 'mirath' rules on shares are mainly in this surah. :: Surat al-Nisa'
@@ -287,7 +287,7 @@ Using a small share of your credit limit helps your score. A common guide is bel
 A 'hard enquiry' on your credit report happens when you do this. :: Apply for new credit
 Checking your own credit report counts as this kind of enquiry. :: Soft enquiry (it doesn't hurt your score)
 Saudis can check their own SIMAH credit report through this. :: The SIMAH website or app
-The Saudi law on cheques makes writing a bounced cheque this. :: A crime (bounced cheque offence)
+Under the Saudi law on cheques, writing a bounced cheque is this. :: A crime (bounced cheque offence)
 The Saudi platform 'Nafath' is used for this. :: Digital identity verification
 The Saudi 'Ehsan' platform allows donations to this. :: Charity and good causes
 The amount of nisab in silver is often used for zakat because it is lower, making zakat due on this. :: Less wealth (more people pay)
@@ -322,7 +322,7 @@ The 2010 Kahneman and Deaton study found day-to-day happiness stopped rising abo
 A 2021 study by Matthew Killingsworth challenged that by finding happiness keeps rising with this. :: Higher income
 Spending on experiences makes people happier than spending on these, according to many studies. :: Things (material goods)
 Spending money on others makes people happier, according to research by Elizabeth Dunn and this researcher. :: Michael Norton
-Their book on spending and happiness. :: Happy Money
+The book on spending and happiness by Elizabeth Dunn and Michael Norton. :: Happy Money
 The 'pain of paying' is lower with cards than with this. :: Cash
 The concept from "Your Money or Your Life" of measuring prices in this. :: Hours of your life (life energy)
 'Coast FIRE' means having enough invested so it grows to retirement without this. :: More contributions
@@ -331,7 +331,7 @@ The concept from "Your Money or Your Life" of measuring prices in this. :: Hours
 The ratio of years needed to retire based on savings rate: saving 50% of income takes about this many years. :: About 17
 The 'safe withdrawal rate' for a 40-year retirement is usually thought to be this. :: Lower than 4% (around 3% to 3.5%)
 'Glide path' describes how this changes over time. :: The share in shares versus bonds
-A rule of thumb: hold your age as a percentage in bonds. At 30, this share. :: 30%
+A rule of thumb says hold your age as a percentage in bonds. The bond share at age 30. :: 30%
 The 'core and satellite' strategy keeps most money in index funds and a little in this. :: Active picks
 Rebalancing once a year makes you do this automatically. :: Buy low and sell high
 The term for small, regular money habits that add up. :: Compounding habits (financial habits)
@@ -352,16 +352,16 @@ The Saudi national 'Furijat' platform lets donors pay the debts of these people.
 In Islamic inheritance, the people who take a fixed share are called this. :: Ashab al-furud
 In Islamic inheritance, the people who take the remainder are called this. :: 'Asabah
 The 'Umariyyatan' cases in inheritance were ruled on by this caliph. :: Umar ibn al-Khattab ﵁
-When fixed shares add up to more than the estate, the shares are reduced. This is called this. :: 'Awl
-When fixed shares add up to less and there are no 'asabah, the remainder returns to them. This is called this. :: Radd
+The reduction of every heir's share when fixed shares add up to more than the estate. :: 'Awl
+The return of the remainder to the fixed-share heirs when shares add up to less and there are no 'asabah. :: Radd
 The number of fixed shares named in the Quran for inheritance. :: Six (1/2, 1/4, 1/8, 2/3, 1/3, 1/6)
 The scholar called the 'father of algebra' wrote much of his book on solving inheritance problems. :: Al-Khwarizmi
 The Saudi 'Mawarid' or estate division service is offered by courts through this platform. :: Najiz
 A house worth 1 million split between a son and a daughter only: the son's share. :: About 666,667 riyals (two thirds)
 The cost of a 100,000 car loan with a flat rate of 4% for 5 years, in profit. :: 20,000 riyals
-That same loan's monthly payment. :: 2,000 riyals
+The monthly payment on a 100,000 car loan at a flat rate of 4% for 5 years. :: 2,000 riyals
 Monthly saving of 1,000 at 7% a year for 30 years grows to about this. :: About 1.2 million
-The same saving of 1,000 a month for 30 years with no return totals this. :: 360,000
+Saving 1,000 a month for 30 years with no return gives this total. :: 360,000
 Saving 1,000 a month from age 25 versus from 35, at 7% to age 60, roughly gives this ratio of final pots. :: About two to one
 A 50,000 emergency fund in a 4% savings account loses buying power when inflation is above this. :: 4%
 The ratio of debt payments to income that lenders see as healthy is below this, in common advice. :: 36%
@@ -395,7 +395,7 @@ The 'mental accounting' idea was developed by this Nobel winner. :: Richard Thal
 The 'anchoring' bias was shown by Tversky and Kahneman using this game device. :: A wheel of fortune
 The 'sunk cost fallacy' makes people keep spending on something because of this. :: Money already spent
 The 'scarcity heuristic' makes people want things more when they are this. :: Rare or limited ("only 2 left")
-A 'decoy' price option makes another option look this. :: Better value
+A 'decoy' price option makes another option look like this. :: Better value
 The 'mere exposure effect' makes people prefer brands they have this. :: Seen often
 The 'peak-end rule' says people judge experiences by the best moment and this. :: The end
 'Choice overload' was shown by Iyengar and Lepper using this many jam flavours. :: 24 (versus 6)
@@ -423,7 +423,7 @@ The 'life-cycle model' of saving was developed by this Nobel winner with Richard
 The 'permanent income hypothesis' was proposed by this economist in 1957. :: Milton Friedman
 The 'buffer-stock' saving model was developed by this economist. :: Christopher Carroll
 'Hyperbolic discounting' was used by this economist to explain why people under-save. :: David Laibson
-Laibson's famous 1997 paper was titled "Golden Eggs and" this. :: Hyperbolic Discounting
+Laibson's famous 1997 paper: "Golden Eggs and ___". :: Hyperbolic Discounting
 Madrian and Shea's 2001 study found automatic enrolment raised pension participation to about this level. :: Over 85%
 The UK's automatic enrolment into workplace pensions began in this year. :: 2012
 New Zealand's national savings scheme with automatic enrolment. :: KiwiSaver
@@ -510,5 +510,5 @@ The effective annual rate of 12% compounded monthly. :: About 12.68%
 The effective annual rate of 6% compounded daily. :: About 6.18%
 The present value of 100,000 riyals received in 10 years at a 6% discount rate. :: About 55,800 riyals
 The present value of 1,000 riyals a month for 20 years at 5% a year. :: About 151,500 riyals
-A Saudi worker who joined GOSI before July 2024 keeps the old pension rules. These are called this. :: Acquired rights (grandfathered rules)
+The name for the old pension rules kept by Saudi workers who joined GOSI before July 2024. :: Acquired rights (grandfathered rules)
 Under Islamic inheritance, a full brother is excluded from inheritance by the presence of this relative. :: A son (or son's son, or father)

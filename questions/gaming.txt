@@ -239,7 +239,7 @@ Valve's famous series in which scientist Gordon Freeman fights aliens. :: Half-L
 The game series by Valve with portals and a companion cube. :: Portal
 The AI villain in Portal. :: GLaDOS
 The joke in Portal that promises a reward which never comes. :: The cake is a lie
-The phrase "It's dangerous to go alone! Take this" comes from this 1986 game. :: The Legend of Zelda
+The 1986 game with the line "It's dangerous to go alone! Take this." :: The Legend of Zelda
 The phrase "All your base are belong to us" comes from this kind of bad translation. :: A video game translation (Zero Wing)
 The phrase "The princess is in another castle" comes from this game. :: Super Mario Bros.
 The "Konami Code" begins with this sequence. :: Up, up, down, down
@@ -276,7 +276,7 @@ The game studio behind "The Last of Us". :: Naughty Dog
 The game genre with random levels and permanent death, named after a 1980 game. :: Roguelike
 The game "Hades" is a famous example of this genre. :: Roguelike
 The game genre named after "Metroid" and "Castlevania". :: Metroidvania
-The game genre MOBA stands for "Multiplayer Online" this. :: Battle Arena
+MOBA stands for "Multiplayer Online ___". :: Battle Arena
 The game genre "RPG" stands for this. :: Role-playing game
 The game genre "RTS" stands for this. :: Real-time strategy
 The game genre "FPS" stands for this. :: First-person shooter
@@ -454,10 +454,10 @@ The Saudi team that won the Esports World Cup Club Championship in 2024. :: Team
 The 2022 Saudi PIF purchase in Nintendo made it the largest outside investor, owning about this share. :: About 5 percent (later 8 percent)
 The Saudi state fund that bought stakes in Capcom and Koei Tecmo in 2022. :: The Public Investment Fund (PIF)
 Assassin's Creed Mirage can be played fully voiced in this language. :: Arabic
-The classic 1989 game series "Prince of" this place. :: Persia
+The classic 1989 game series "Prince of ___". :: Persia
 The creator of "Prince of Persia", who filmed his brother to animate the hero. :: Jordan Mechner
 The animation technique Jordan Mechner used for Prince of Persia. :: Rotoscoping
-The 2003 Ubisoft remake series "Prince of Persia: The Sands of" this. :: Time
+Ubisoft's 2003 game "Prince of Persia: The Sands of ___". :: Time
 The man who created "The Sims" and "SimCity". :: Will Wright
 The fake language spoken by the Sims. :: Simlish
 The diamond above a Sim's head is called this. :: A Plumbob
@@ -483,7 +483,7 @@ The number of original emoji Kurita made. :: 176
 The museum that holds Kurita's original emoji. :: MoMA (Museum of Modern Art)
 The "Tears of Joy" emoji was named the Oxford Dictionaries Word of the Year in this year. :: 2015
 The first domain name ever registered, in 1985. :: Symbolics.com
-The first tweet, by Jack Dorsey, said "just setting up my" this. :: twttr
+Jack Dorsey's first tweet: "just setting up my ___". :: twttr
 The first YouTube video was uploaded by this co-founder. :: Jawed Karim
 The first image uploaded to the web was of this comedy band at CERN. :: Les Horribles Cernettes
 "Space Invaders" was so popular in Japan it was said to cause a shortage of this coin. :: The 100-yen coin
