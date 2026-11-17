@@ -167,8 +167,7 @@
 :root[data-theme="heritage"] .ti-eyebrow{animation-delay:2s}
 :root[data-theme="heritage"] .ti-flourish{animation-delay:2.6s}
 :root[data-theme="heritage"] .ti-flourish path{animation-delay:2.7s}
-:root[data-theme="heritage"] .ti-members li{animation-delay:calc(3.2s + var(--i)*.35s);border-radius:40px 40px 8px 8px;padding-top:20px;background:linear-gradient(180deg,#0f5257,#06272b);border-color:#e5b95e88;overflow:hidden}
-:root[data-theme="heritage"] .ti-members li::after{content:"";position:absolute;left:0;right:0;top:0;height:6px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='14'%3E%3Crect width='8' height='14' fill='%23e04a3a'/%3E%3Crect x='8' width='8' height='14' fill='%23f2c14b'/%3E%3Crect x='16' width='8' height='14' fill='%232f9e6b'/%3E%3Crect x='24' width='8' height='14' fill='%233b6fd8'/%3E%3Crect x='32' width='8' height='14' fill='%237a3fb0'/%3E%3Crect x='40' width='8' height='14' fill='%23f08a2c'/%3E%3C/svg%3E") repeat-x 0 0/48px 14px}
+:root[data-theme="heritage"] .ti-members li{animation-delay:calc(3.2s + var(--i)*.35s);border-radius:40px 40px 8px 8px;padding-top:16px;background:linear-gradient(180deg,#0f5257,#06272b);border-color:#e5b95e88;overflow:hidden}
 :root[data-theme="heritage"] .ti-members li.ti-cap::before{top:10px;font-size:10px;position:static;display:block;translate:none;background:none;color:#e5b95e;padding:0}
 :root[data-theme="heritage"] .ti-fact{animation-delay:5s;border-radius:24px 24px 10px 10px}
 :root[data-theme="heritage"] .ti-flourish circle{animation-delay:3.4s}
