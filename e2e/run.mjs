@@ -14,6 +14,7 @@ await new Promise((r) => setTimeout(r, 2500))
 const results = []
 let browser
 async function test(name, fn) {
+  if (process.env.ONLY && !name.includes(process.env.ONLY)) return
   const t0 = Date.now()
   try {
     await fn()
@@ -27,11 +28,13 @@ async function test(name, fn) {
 function assert(c, msg) { if (!c) throw new Error(msg) }
 
 async function newPage(opts = {}) {
-  const { noConsent, ...ctxOpts } = opts
+  const { noConsent, keepIntro, ...ctxOpts } = opts
   const ctx = await browser.newContext({ viewport: { width: 1280, height: 860 }, ...ctxOpts })
   // Most tests start as a player who has already accepted the current Terms.
   if (!noConsent) await ctx.addInitScript(() => { if (!localStorage.getItem('gg.consent.v1')) localStorage.setItem('gg.consent.v1', JSON.stringify({ version: '1.1', date: '2026-11-10T00:00:00Z' })) })
   const page = await ctx.newPage()
+  // Golden, Steal and Audience tiles first say what they are; most tests just press Next straight away.
+  if (!keepIntro) await page.addLocatorHandler(page.getByTestId('intro-next'), async (b) => b.click(), { noWaitAfter: true })
   page.requests = []
   page.on('request', (r) => page.requests.push(r.url()))
   page.errors = []
@@ -56,10 +59,15 @@ async function setupGame(page, cats = 6, teams) {
   await classic(page); await page.getByTestId('start').click()
   await page.waitForSelector('.tile')
 }
-async function openTile(page, key) {
+async function openTile(page, key, { keepIntro = false } = {}) {
   await page.click(`[data-tile="${key}"]`)
   await page.waitForSelector('.card.open')
   await page.waitForTimeout(700)
+  // Golden, Steal and Audience tiles say what they are first; Next shows the question.
+  if (!keepIntro && (await page.getByTestId('intro-next').count())) {
+    await page.getByTestId('intro-next').click()
+    await page.waitForTimeout(400)
+  }
 }
 async function scores(page) {
   return page.$$eval('.team span', (els) => els.map((e) => e.textContent))
@@ -428,7 +436,7 @@ try {
   })
 
   await test('fun extras: steal and audience tiles, streak bonus, comeback, lightning round and final question', async () => {
-    const page = await newPage()
+    const page = await newPage({ keepIntro: true })
     await page.goto(URL)
     await page.getByRole('button', { name: /new game/i }).click()
     await page.waitForSelector('.cat-pick')
@@ -458,8 +466,15 @@ try {
     let stole = false
     for (const [c, l] of [[1, 0], [0, 1]]) {
       const clue = g0.clues[c][l]
-      await openTile(page, `${c}-${l}`)
-      if (clue.special) assert(await page.getByTestId('special-note').isVisible(), 'special tile explains itself')
+      await openTile(page, `${c}-${l}`, { keepIntro: true })
+      if (clue.special || clue.golden) {
+        // The tile says what it is; no question and no timer until Next
+        assert(await page.getByTestId('tile-intro').isVisible(), `special tile explains itself (${clue.special} ${clue.golden}) ` + (await page.textContent('[data-testid="clue"]')).slice(0, 200))
+        assert(!(await page.getByTestId('question').count()) && !(await page.getByTestId('timer').count()), 'question waits for Next')
+        await page.keyboard.press('Enter')
+        await page.waitForSelector('[data-testid="question"]')
+        await page.waitForTimeout(400)
+      }
       await page.keyboard.press('Digit2')
       expectBeta += clue.value
       if (clue.special === 'steal') {
