@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import type { Category, CategorySummary, Game, Lang, PoolEdit, Screen, ThemeId } from './lib/types'
 import { hasConsent, loadCustom, loadGame, loadPools, loadSettings, saveCustom, saveGame, savePools, saveSettings } from './lib/store'
-import { isEmptyPool, nextStage } from './lib/game'
+import { enterRound, isEmptyPool, nextRound, nextStage } from './lib/game'
 import { setSoundEnabled, unlockAudio } from './lib/sound'
 import { CONSENT_TEXT, LEGAL } from './lib/legal'
 import { ConsentDialog, Footer, LegalViewer } from './components/Legal'
@@ -15,6 +15,8 @@ import Board from './components/Board'
 import Results from './components/Results'
 import { Final, Lightning, ModeRound } from './components/Rounds'
 import Builder from './components/Builder'
+import { RoundIntro } from './components/Tournament'
+import type { VoteState } from './components/Vote'
 import { AudienceScreen, useAudienceWindow } from './components/Audience'
 import { HOST_EDITION, type Live } from './lib/edition'
 import { setFavicon } from './lib/favicon'
@@ -37,10 +39,11 @@ export default function App() {
   const [game, setGameState] = useState<Game | null>(loadGame)
   const [toast, setToast] = useState<{ text: string; id: number } | null>(null)
   const [live, setLive] = useState<Live | null>(null)
+  const [vote, setVote] = useState<VoteState | null>(null)
   const audience = useAudienceWindow('Get Grilled')
   const themeRef = useRef(theme)
   const t = STRINGS[lang]
-  const inGame = screen === 'game' || screen === 'mode' || screen === 'lightning' || screen === 'final'
+  const inGame = screen === 'game' || screen === 'mode' || screen === 'lightning' || screen === 'final' || screen === 'round'
 
   useEffect(() => {
     loadIndex().then(setIndex).catch((e: Error) => setIndexError(e.message))
@@ -92,13 +95,20 @@ export default function App() {
 
   /** After the board, the special round, the lightning round, then the final question, then the results (each only if the game has it). */
   const goNext = (after: 'board' | 'mode' | 'lightning' | 'final') => {
+    // A tournament goes round by round, with a title card before each one.
+    if (game?.tournament) {
+      const k = nextRound(game)
+      if (k === null) return setScreen('results')
+      setGame((g) => enterRound(g, k))
+      return setScreen('round')
+    }
     const nx = game ? nextStage(game, after) : null
     if (nx) {
       setGame((g) => ({ ...g, stage: nx }))
       setScreen(nx === 'mode' ? 'mode' : nx === 'lightning' ? 'lightning' : 'final')
     } else setScreen('results')
   }
-  const stageScreen = (g: Game): Screen => (g.stage === 'mode' ? 'mode' : g.stage === 'lightning' ? 'lightning' : g.stage === 'final' ? 'final' : 'game')
+  const stageScreen = (g: Game): Screen => (g.tournament?.intro ? 'round' : g.stage === 'mode' ? 'mode' : g.stage === 'lightning' ? 'lightning' : g.stage === 'final' ? 'final' : 'game')
 
   const notify = useCallback((text: string) => setToast({ text, id: Date.now() }), [])
 
@@ -205,9 +215,10 @@ export default function App() {
               custom={custom}
               pools={pools}
               onBack={() => setScreen('home')}
+              onVote={setVote}
               onStart={(g) => {
                 setGame(g)
-                setScreen('game')
+                setScreen(g.tournament ? 'round' : 'game')
               }}
             />
           )}
@@ -221,8 +232,20 @@ export default function App() {
               onLive={HOST_EDITION ? setLive : undefined}
             />
           )}
-          {screen === 'mode' && game && <ModeRound t={t} lang={lang} game={game} setGame={setGame} onDone={() => goNext('mode')} hasFinal={!!nextStage(game, 'mode')} />}
-          {screen === 'lightning' && game && <Lightning t={t} lang={lang} game={game} setGame={setGame} onDone={() => goNext('lightning')} hasFinal={!!nextStage(game, 'lightning')} />}
+          {screen === 'round' && game?.tournament && (
+            <RoundIntro
+              t={t}
+              lang={lang}
+              game={game}
+              onGo={() => {
+                const g = { ...game, tournament: { ...game.tournament!, intro: false } }
+                setGame(g)
+                setScreen(stageScreen(g))
+              }}
+            />
+          )}
+          {screen === 'mode' && game && <ModeRound t={t} lang={lang} game={game} setGame={setGame} onDone={() => goNext('mode')} hasFinal={game.tournament ? nextRound(game) !== null : !!nextStage(game, 'mode')} />}
+          {screen === 'lightning' && game && <Lightning t={t} lang={lang} game={game} setGame={setGame} onDone={() => goNext('lightning')} hasFinal={game.tournament ? nextRound(game) !== null : !!nextStage(game, 'lightning')} />}
           {screen === 'final' && game && <Final t={t} lang={lang} game={game} setGame={setGame} onDone={() => goNext('final')} />}
           {screen === 'results' && game && (
             <Results
@@ -246,7 +269,7 @@ export default function App() {
       {!consented && <ConsentDialog lang={lang} setLang={setLang} reduceFx={reduceFx} setReduceFx={setReduceFx} onAccept={() => setConsented(true)} />}
       {consented && legalView && <LegalViewer which={legalView} lang={lang} onClose={() => setLegalView(null)} />}
       {HOST_EDITION && audience.win && audience.root && (
-        <AudienceScreen win={audience.win} root={audience.root} t={t} lang={lang} theme={theme} reduceFx={reduceFx} screen={screen} game={game} live={screen === 'game' ? live : null} />
+        <AudienceScreen win={audience.win} root={audience.root} t={t} lang={lang} theme={theme} reduceFx={reduceFx} screen={screen} game={game} live={screen === 'game' ? live : null} vote={screen === 'setup' ? vote : null} />
       )}
       {toast && (
         <div className="toast" key={toast.id} role="status" onAnimationEnd={() => setToast(null)}>

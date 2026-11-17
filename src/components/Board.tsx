@@ -4,7 +4,8 @@ import type { Game, Lang } from '../lib/types'
 import { VALUES } from '../lib/types'
 import type { Strings } from '../lib/i18n'
 import { num } from '../lib/i18n'
-import { STREAK_AT, adjustScore, answerRight, answerWrong, clueSeconds, isFinished, lastPlace, markUsed, score, tileKey } from '../lib/game'
+import { STREAK_AT, adjustScore, answerRight, answerWrong, clueSeconds, isFinished, lastPlace, markUsed, nextRound, score, tileKey } from '../lib/game'
+import { roundTitle } from './Tournament'
 import { createPortal } from 'react-dom'
 import AdjustScores, { type Adjustment } from './AdjustScores'
 import { burst, burstAt, reducedMotion } from '../lib/fx'
@@ -125,6 +126,8 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
 
   const behind = game.settings.comeback && game.used.length > 0 && !isFinished(game) ? lastPlace(game) : []
 
+  const moreRounds = nextRound(game) !== null
+
   const adjust = (team: number, delta: number) => {
     const before = game.teams[team]?.score
     const next = adjustScore(game, team, delta)
@@ -144,6 +147,11 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
     <main className="stack">
       <div className="game-top">
         <span className="row" style={{ gap: 12 }}>
+          {game.tournament && (
+            <span className="pill round-pill" data-testid="round-pill">
+              {t.roundWord} {num(game.tournament.at + 1, lang)}/{num(game.tournament.rounds.length, lang)} · {roundTitle(t, game.tournament.rounds[game.tournament.at])}
+            </span>
+          )}
           <span className="label">
             {num(left, lang)} {t.round}
           </span>
@@ -155,9 +163,9 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
           </button>
           {confirmEnd ? (
             <span className="end-confirm" role="group" aria-label={t.endGame}>
-              <span className="end-q">{t.endConfirm}</span>
+              <span className="end-q">{moreRounds ? t.endRoundConfirm : t.endConfirm}</span>
               <button className="btn bad" onClick={onEnd} data-testid="end-confirm" autoFocus>
-                {t.endYes}
+                {moreRounds ? t.endRoundYes : t.endYes}
               </button>
               <button className="ghost" onClick={() => setConfirmEnd(false)}>
                 {t.cancel}
@@ -165,7 +173,7 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
             </span>
           ) : (
             <button className="ghost" onClick={() => setConfirmEnd(true)} disabled={!!open} data-testid="end">
-              {t.endGame}
+              {moreRounds ? t.endRound : t.endGame}
             </button>
           )}
         </div>
@@ -213,7 +221,7 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
                     }}
                   >
                     <span className="med" />
-                    <span className="v">{num(VALUES[l], lang)}</span>
+                    <span className="v">{num(VALUES[l] * (game.mult ?? 1), lang)}</span>
                   </button>
                 )
               }),
