@@ -6,6 +6,8 @@ import type { Strings } from '../lib/i18n'
 import { num } from '../lib/i18n'
 import { FINAL_SECS, FINAL_VALUE, LIGHTNING_SECS, MODE_VALUE, STREAK_AT, clueSeconds, cluePoints, cluesOf, isFinished, lastPlace, standings, tileKey, turnTeam } from '../lib/game'
 import { ModeItemView } from './Rounds'
+import { RoundCard } from './Tournament'
+import { VoteBoard, type VoteState } from './Vote'
 import TileIntro from './TileIntro'
 import type { Live } from '../lib/edition'
 import { setFavicon } from '../lib/favicon'
@@ -96,10 +98,12 @@ interface Props {
   screen: Screen
   game: Game | null
   live: Live | null
+  /** The category vote, while the host runs it from the setup screen */
+  vote?: VoteState | null
 }
 
 /** What the room sees: the board, the scores, and the clue. The answer appears only after the host reveals it. */
-export function AudienceScreen({ win, root, t, lang, theme, reduceFx, screen, game, live }: Props) {
+export function AudienceScreen({ win, root, t, lang, theme, reduceFx, screen, game, live, vote }: Props) {
   const html = win.document.documentElement
   html.dataset.theme = theme
   setFavicon(win.document, theme)
@@ -107,10 +111,10 @@ export function AudienceScreen({ win, root, t, lang, theme, reduceFx, screen, ga
   html.lang = lang
   html.dir = lang === 'ar' ? 'rtl' : 'ltr'
 
-  return createPortal(<AudienceView t={t} lang={lang} theme={theme} screen={screen} game={game} live={live} win={win} />, root)
+  return createPortal(<AudienceView t={t} lang={lang} theme={theme} screen={screen} game={game} live={live} vote={vote ?? null} win={win} />, root)
 }
 
-function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings; lang: Lang; theme: ThemeId; screen: Screen; game: Game | null; live: Live | null; win: Window }) {
+function AudienceView({ t, lang, theme, screen, game, live, vote, win }: { t: Strings; lang: Lang; theme: ThemeId; screen: Screen; game: Game | null; live: Live | null; vote: VoteState | null; win: Window }) {
   const [helpShown, setHelpShown] = useState(true)
   const helpTimer = useRef<number>()
   useEffect(() => {
@@ -131,6 +135,24 @@ function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings;
       </button>
     </div>
   )
+
+  if (screen === 'setup' && vote) {
+    return (
+      <main className="aud-main" data-testid="audience">
+        {help}
+        <VoteBoard t={t} lang={lang} vote={vote} big />
+      </main>
+    )
+  }
+
+  if (screen === 'round' && game?.tournament) {
+    return (
+      <main className="aud-main" data-testid="audience">
+        {help}
+        <RoundCard t={t} lang={lang} game={game} big />
+      </main>
+    )
+  }
 
   if (screen === 'results' && game) {
     const rows = standings(game)
@@ -337,7 +359,7 @@ function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings;
               return (
                 <div key={tileKey(i, l)} className={`tile${used ? ' used static' : ''}${active ? ' aud-active' : ''}`} data-aud-tile={tileKey(i, l)} data-used={used || undefined}>
                   <span className="med" />
-                  <span className="v">{num(v, lang)}</span>
+                  <span className="v">{num(v * (game.mult ?? 1), lang)}</span>
                 </div>
               )
             }),
