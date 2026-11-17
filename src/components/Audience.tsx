@@ -4,7 +4,7 @@ import type { Game, Lang, Screen, ThemeId } from '../lib/types'
 import { VALUES } from '../lib/types'
 import type { Strings } from '../lib/i18n'
 import { num } from '../lib/i18n'
-import { FINAL_SECS, FINAL_VALUE, LIGHTNING_SECS, MODE_VALUE, STREAK_AT, clueSeconds, cluePoints, cluesOf, isFinished, lastPlace, standings, tileKey } from '../lib/game'
+import { FINAL_SECS, FINAL_VALUE, LIGHTNING_SECS, MODE_VALUE, STREAK_AT, clueSeconds, cluePoints, cluesOf, isFinished, lastPlace, standings, tileKey, turnTeam } from '../lib/game'
 import { ModeItemView } from './Rounds'
 import TileIntro from './TileIntro'
 import type { Live } from '../lib/edition'
@@ -154,12 +154,12 @@ function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings;
     )
   }
 
-  const teamChips = (g: Game, behind: number[] = []) => (
+  const teamChips = (g: Game, behind: number[] = [], turn: number | null = null) => (
     <div className="scores">
       {g.teams.map((tm, i) => {
         const run = g.streaks?.[i] ?? 0
         return (
-          <div className={`team${tm.score < 0 ? ' neg' : ''}${run >= STREAK_AT ? ' fire' : ''}${behind.includes(i) ? ' behind' : ''}`} key={i} data-aud-team={i}>
+          <div className={`team${tm.score < 0 ? ' neg' : ''}${run >= STREAK_AT ? ' fire' : ''}${behind.includes(i) ? ' behind' : ''}${turn === i ? ' turn' : ''}`} key={i} data-aud-team={i}>
             <b>{tm.name}</b>
             <span>{num(tm.score, lang)}</span>
             {run >= STREAK_AT && (
@@ -305,6 +305,7 @@ function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings;
 
   const clue = live ? game.clues[live.c]?.[live.l] : null
   const behind = game.settings.comeback && game.used.length > 0 && !isFinished(game) && !live ? lastPlace(game) : []
+  const turn = behind.length || live ? null : turnTeam(game)
   const cat = live ? game.cats[live.c] : null
   return (
     <main className="aud-main" data-testid="audience">
@@ -342,10 +343,15 @@ function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings;
             }),
           )}
         </div>
-        {teamChips(game, behind)}
+        {teamChips(game, behind, turn)}
         {behind.length > 0 && (
           <p className="comeback" data-testid="audience-comeback">
             <span className="pill">{t.comebackLabel}</span> {behind.map((i) => game.teams[i].name).join(' · ')} {t.picksNext}
+          </p>
+        )}
+        {turn !== null && (
+          <p className="comeback turn-note" data-testid="audience-turn">
+            <span className="pill">{t.turnLabel}</span> {game.teams[turn].name} {t.picksNext}
           </p>
         )}
       </section>

@@ -5,7 +5,7 @@ import TileIntro from './TileIntro'
 import { VALUES } from '../lib/types'
 import type { Strings } from '../lib/i18n'
 import { num } from '../lib/i18n'
-import { STREAK_AT, adjustScore, answerRight, answerWrong, clueSeconds, isFinished, lastPlace, markUsed, score, tileKey } from '../lib/game'
+import { STREAK_AT, adjustScore, answerRight, answerWrong, clueSeconds, isFinished, lastPlace, markUsed, score, tileKey, turnTeam } from '../lib/game'
 import { createPortal } from 'react-dom'
 import AdjustScores, { type Adjustment } from './AdjustScores'
 import { burst, burstAt, reducedMotion } from '../lib/fx'
@@ -125,6 +125,8 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
   }
 
   const behind = game.settings.comeback && game.used.length > 0 && !isFinished(game) ? lastPlace(game) : []
+  // The comeback pick, when there is one, comes before the usual turn order.
+  const turn = behind.length ? null : turnTeam(game)
 
   const adjust = (team: number, delta: number) => {
     const before = game.teams[team]?.score
@@ -226,7 +228,7 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
           {game.teams.map((tm, i) => {
             const run = game.streaks?.[i] ?? 0
             return (
-              <div className={`team${tm.score < 0 ? ' neg' : ''}${run >= STREAK_AT ? ' fire' : ''}${behind.includes(i) ? ' behind' : ''}`} key={i} data-team={i}>
+              <div className={`team${tm.score < 0 ? ' neg' : ''}${run >= STREAK_AT ? ' fire' : ''}${behind.includes(i) ? ' behind' : ''}${turn === i ? ' turn' : ''}`} key={i} data-team={i}>
                 <b>{tm.name}</b>
                 <span>{num(tm.score, lang)}</span>
                 {run >= STREAK_AT && (
@@ -241,6 +243,11 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
         {behind.length > 0 && (
           <p className="comeback" role="status" data-testid="comeback">
             <span className="pill">{t.comebackLabel}</span> {behind.map((i) => game.teams[i].name).join(' · ')} {t.picksNext}
+          </p>
+        )}
+        {turn !== null && (
+          <p className="comeback turn-note" role="status" data-testid="turn">
+            <span className="pill">{t.turnLabel}</span> {game.teams[turn].name} {t.picksNext}
           </p>
         )}
         {fire && (

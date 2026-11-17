@@ -591,3 +591,6 @@ textarea.input{resize:vertical;min-height:44px}
 .judge .t button[aria-pressed="true"]{outline:2px solid var(--text);outline-offset:1px}
 .aud-main.round{padding:clamp(16px,3vw,40px);gap:16px;display:flex;flex-direction:column}
 .aud-main.round .q{font-size:clamp(28px,4.4vw,56px)}
+
+/* Whose turn it is to pick a tile */
+.scores .team.turn{outline:2px solid var(--accent);outline-offset:2px;box-shadow:0 0 18px -4px var(--glow)}
