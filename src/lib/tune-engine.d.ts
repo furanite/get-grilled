@@ -6,3 +6,5 @@ export function renderTitle(theme: string, set: 'a' | 'b' | 'd' | 'e'): Promise<
 export function renderSuspense(theme: string, kind: 'clock' | 'roll'): Promise<AudioBuffer>
 /** How long the drum roll runs before the crash (the crash lands this long after the piece's 0.08s lead-in). */
 export const ROLL_SECONDS: number
+/** The picked buzzer for time up, or the soft drop for a wrong answer. */
+export function renderFx(kind: 'timeUp' | 'wrong'): Promise<AudioBuffer>
