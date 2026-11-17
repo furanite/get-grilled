@@ -6,6 +6,7 @@ import type { Strings } from '../lib/i18n'
 import { num } from '../lib/i18n'
 import { FINAL_SECS, FINAL_VALUE, LIGHTNING_SECS, MODE_VALUE, STREAK_AT, clueSeconds, cluePoints, cluesOf, isFinished, lastPlace, standings, tileKey } from '../lib/game'
 import { ModeItemView } from './Rounds'
+import TileIntro from './TileIntro'
 import type { Live } from '../lib/edition'
 import { setFavicon } from '../lib/favicon'
 import { Ambient, CatIcon, Flourish, FlourishAbove, Mark } from './Brand'
@@ -360,23 +361,28 @@ function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings;
                 <span className="pill">{num(clue.value, lang)}</span>
               </span>
             </div>
-            {clue.special && <p className={`special-note ${clue.special}`}>{clue.special === 'steal' ? t.stealHelp : t.crowdHelp}</p>}
-            <p className="q" dir="auto" data-testid="audience-question">
-              {lang === 'ar' && clue.qAr ? clue.qAr : clue.q}
-            </p>
-            {clue.img && (
-            <div className="q-fig">
-              <img className="q-img" src={diagramSrc(clue.img)} alt={t.diagramAlt} data-testid="audience-img" />
-            </div>
-          )}
-            {live!.revealed ? (
-              <div className="answer show" dir="auto" data-testid="audience-answer">
-                {lang === 'ar' && clue.aAr ? clue.aAr : clue.a}
-              </div>
+            {live!.intro ? (
+              <TileIntro t={t} clue={clue} big />
             ) : (
-              <div className="answer aud-hidden" aria-hidden="true" />
+              <>
+                <p className="q" dir="auto" data-testid="audience-question">
+                  {lang === 'ar' && clue.qAr ? clue.qAr : clue.q}
+                </p>
+                {clue.img && (
+                <div className="q-fig">
+                  <img className="q-img" src={diagramSrc(clue.img)} alt={t.diagramAlt} data-testid="audience-img" />
+                </div>
+              )}
+                {live!.revealed ? (
+                  <div className="answer show" dir="auto" data-testid="audience-answer">
+                    {lang === 'ar' && clue.aAr ? clue.aAr : clue.a}
+                  </div>
+                ) : (
+                  <div className="answer aud-hidden" aria-hidden="true" />
+                )}
+              </>
             )}
-            {clueSeconds(game.settings, live!.l, clue) > 0 && <TimerBar clock={live!.clock ?? null} total={clueSeconds(game.settings, live!.l, clue)} lang={lang} timeUpText={t.timeUp} big />}
+            {!live!.intro && clueSeconds(game.settings, live!.l, clue) > 0 && <TimerBar clock={live!.clock ?? null} total={clueSeconds(game.settings, live!.l, clue)} lang={lang} timeUpText={t.timeUp} big />}
           </div>
         </div>
       )}

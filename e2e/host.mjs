@@ -22,6 +22,7 @@ async function hostPage() {
   const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 } })
   await ctx.addInitScript(() => localStorage.setItem('gg.consent.v1', JSON.stringify({ version: '1.1', date: '2026-11-10T00:00:00Z' })))
   const page = await ctx.newPage()
+  await page.addLocatorHandler(page.getByTestId('intro-next'), async (b) => b.click(), { noWaitAfter: true })
   page.errors = []
   page.on('pageerror', (e) => page.errors.push(e.message))
   page.on('console', (m) => m.type() === 'error' && page.errors.push(m.text()))
