@@ -1,0 +1,92 @@
+id: isl-school-maliki
+name: The Maliki School
+nameAr: المذهب المالكي
+group: fiqh
+# The Maliki madhhab: its imams, books, terms and well-known rulings. Every ruling here is the school's relied-upon (mashhur) view.
+# Every Sunni scholar's name carries رحمة الله عليه. Dates: hijri first, then CE.
+
+## 100
+The Imam whose school is called the Maliki school. :: Imam Malik ibn Anas رحمة الله عليه || H: Tartib al-Madarik (Qadi 'Iyad)
+Imam Malik رحمة الله عليه lived and taught all his life in this city. :: Madinah al-Munawwarah || H: Tartib al-Madarik (Qadi 'Iyad)
+Imam Malik's رحمة الله عليه famous book of hadith and fiqh. :: al-Muwatta' || H: al-Muwatta'
+Imam Malik رحمة الله عليه is called "Imam Dar al-Hijrah", the Imam of this city. :: Madinah al-Munawwarah (the Abode of the Hijrah) || H: Tartib al-Madarik (Qadi 'Iyad)
+The Maliki school is the main school in this region of the Muslim world, from Libya to Morocco. :: North Africa (the Maghrib) || H: Standard history
+The Muslim land in Spain whose scholars and judges followed the Maliki school. :: al-Andalus || H: Tartib al-Madarik (Qadi 'Iyad)
+The short Maliki book by Ibn Abi Zayd al-Qayrawani رحمة الله عليه, studied by beginners. :: al-Risalah || H: al-Risalah
+In the well-known Maliki practice, the hands are held this way while standing in prayer. :: Down at the sides (sadl) || H: al-Mudawwanah (Sahnun)
+In the Maliki school, the prayer ends with this many salams for the imam and the one praying alone. :: One || H: al-Risalah (Ibn Abi Zayd)
+In the Maliki school, this whole part of the head must be wiped in wudu'. :: All of it (the whole head) || H: al-Risalah (Ibn Abi Zayd)
+In the Maliki school, the qunut is said in this prayer, quietly. :: Fajr (Subh) || H: al-Risalah (Ibn Abi Zayd)
+In the Maliki school, rubbing the limbs (dalk) while washing in wudu' and ghusl has this ruling. :: Obligatory (fard) || H: Mukhtasar Khalil
+Most Muslims of this country, with Rabat as its capital, follow the Maliki school. :: Morocco || H: Standard reference
+Most Muslims of this country, with Tunis as its capital, follow the Maliki school. :: Tunisia || H: Standard reference
+The West African land of Timbuktu, whose scholars taught Maliki fiqh for centuries. :: Mali || H: Standard history
+
+## 200
+Imam Malik رحمة الله عليه was born in about this year. :: 93 AH / 711-712 CE || H: Tartib al-Madarik (Qadi 'Iyad)
+Imam Malik رحمة الله عليه died in this year. :: 179 AH / 795 CE || H: Tartib al-Madarik (Qadi 'Iyad)
+The great Imam, founder of another school, who studied the Muwatta' with Imam Malik رحمة الله عليه. :: Imam al-Shafi'i رحمة الله عليه || H: Tartib al-Madarik (Qadi 'Iyad)
+The student of Imam Malik رحمة الله عليه whose answers form the core of al-Mudawwanah. :: 'Abd al-Rahman ibn al-Qasim رحمة الله عليه || H: Tartib al-Madarik (Qadi 'Iyad)
+The scholar of Qayrawan who compiled al-Mudawwanah. :: Sahnun رحمة الله عليه || H: Tartib al-Madarik (Qadi 'Iyad)
+The Andalusian student whose report of the Muwatta' is the best-known one today. :: Yahya ibn Yahya al-Laythi رحمة الله عليه || H: Tartib al-Madarik (Qadi 'Iyad)
+The Maliki school treats the practice of the people of this city as a source of law. :: Madinah al-Munawwarah ('amal ahl al-Madinah) || H: Tartib al-Madarik (Qadi 'Iyad)
+In the Maliki school, this is not recited aloud or quietly before al-Fatihah in the obligatory prayers. :: The basmalah || H: al-Risalah (Ibn Abi Zayd)
+In the Maliki school, a living dog has this ruling on purity. :: Pure (tahir) || H: Mukhtasar Khalil
+In the Maliki school, washing the limbs of wudu' one after another without a long break (muwalat) has this ruling. :: Obligatory (when one remembers and is able) || H: Mukhtasar Khalil
+In the Maliki school, zakat al-fitr is given in this form. :: Staple food (not its value in money) || H: al-Risalah (Ibn Abi Zayd)
+In the Maliki school, one intention at the start of Ramadan covers this. :: The whole month of fasting || H: al-Risalah (Ibn Abi Zayd)
+Malik, from this freed slave of Ibn 'Umar ﵄, from Ibn 'Umar, is called the "golden chain". :: Nafi' رحمة الله عليه || H: Tadrib al-Rawi (al-Suyuti)
+In the Maliki school, the tashahhud is the one taught from the minbar by this Companion. :: Our master 'Umar ibn al-Khattab ﵁ || H: al-Muwatta'
+In the Maliki school, shortening the prayer on a journey has this ruling. :: Sunnah mu'akkadah (strongly stressed sunnah) || H: al-Risalah (Ibn Abi Zayd)
+
+## 300
+The Maliki scholar Ibn Abi Zayd al-Qayrawani رحمة الله عليه was given this nickname. :: Malik the Younger (Malik al-Saghir) || H: Tartib al-Madarik (Qadi 'Iyad)
+The short Maliki text by Khalil ibn Ishaq رحمة الله عليه, the basis of fatwa in the later school. :: Mukhtasar Khalil || H: Mukhtasar Khalil
+The Maliki judge of Sabtah (Ceuta) who wrote al-Shifa' and Tartib al-Madarik. :: al-Qadi 'Iyad رحمة الله عليه || H: Tartib al-Madarik
+The Maliki scholar al-Dardir رحمة الله عليه wrote this commentary on Khalil. :: al-Sharh al-Kabir || H: al-Sharh al-Kabir
+The Maliki poem by Ibn 'Ashir رحمة الله عليه on creed, worship and tasawwuf. :: al-Murshid al-Mu'in || H: al-Murshid al-Mu'in
+In the Maliki school, water stays purifying, however little, until najasah changes one of these. :: Its colour, taste or smell || H: al-Risalah (Ibn Abi Zayd)
+In the Maliki school, touching another person breaks wudu' only when this is present. :: Pleasure (intended or felt) || H: Mukhtasar Khalil
+In the Maliki school, the forgetfulness prostration for leaving something out comes at this point. :: Before the salam || H: al-Risalah (Ibn Abi Zayd)
+In the Maliki school, the forgetfulness prostration for adding something comes at this point. :: After the salam || H: al-Risalah (Ibn Abi Zayd)
+In the Maliki school, the qunut of Fajr is said at this point. :: Before bowing (after the recitation, in the second rak'ah) || H: al-Risalah (Ibn Abi Zayd)
+In the Maliki school, Witr is one rak'ah prayed after this pair. :: The shaf' (two rak'ahs) || H: al-Risalah (Ibn Abi Zayd)
+In the Maliki school, these two prayers may be joined in the mosque on a night of heavy rain. :: Maghrib and 'Isha' || H: al-Risalah (Ibn Abi Zayd)
+In the Maliki school, a journey must reach this distance for prayers to be shortened. :: 48 miles (four barids) || H: al-Risalah (Ibn Abi Zayd)
+In the Maliki school, the longest monthly period for a girl's first period is this. :: 15 days || H: Mukhtasar Khalil
+In the Maliki school, only these exact words open the prayer. :: "Allahu akbar" || H: al-Risalah (Ibn Abi Zayd)
+
+## 400
+In the Maliki school, washing a vessel seven times after a dog drinks from it is done for this reason, since the dog is pure. :: As worship (ta'abbud), not for impurity || H: Mukhtasar Khalil
+In the Maliki school, gold jewellery a woman wears for permitted use has no zakat due. Which other two schools agree? :: The Shafi'i and Hanbali schools || H: al-Risalah (Ibn Abi Zayd)
+In the Maliki school, the animals of the sea have this ruling for eating. :: Lawful (all of them, by the relied view) || H: Mukhtasar Khalil
+In the Maliki school, a marriage contract needs this person on the bride's side. :: A guardian (wali) || H: al-Risalah (Ibn Abi Zayd)
+The Maliki scholar of Egypt who wrote al-Furuq and al-Dhakhirah. :: Shihab al-Din al-Qarafi رحمة الله عليه || H: al-Furuq
+The Maliki scholar of Granada who wrote al-Muwafaqat on the aims of the Shari'ah. :: Abu Ishaq al-Shatibi رحمة الله عليه || H: al-Muwafaqat
+The famous gloss by al-Dasuqi رحمة الله عليه comments on this Maliki commentary. :: al-Sharh al-Kabir (by al-Dardir رحمة الله عليه) || H: Hashiyat al-Dasuqi
+The short Maliki text on worship by 'Abd al-Rahman al-Akhdari رحمة الله عليه. :: Mukhtasar al-Akhdari || H: Mukhtasar al-Akhdari
+In the Maliki school, the extra takbirs of Eid number this many in the first rak'ah, counting the opening takbir. :: 7 || H: al-Risalah (Ibn Abi Zayd)
+In the Maliki school, the extra takbirs of Eid number this many in the second rak'ah, counting the takbir of rising. :: 6 || H: al-Risalah (Ibn Abi Zayd)
+The Maliki scholar Ibn Rushd the grandfather رحمة الله عليه wrote this large work explaining al-'Utbiyyah. :: al-Bayan wal-Tahsil || H: al-Bayan wal-Tahsil
+The Maliki city in Tunisia whose scholars, like Sahnun رحمة الله عليه, spread the school in North Africa. :: Qayrawan || H: Tartib al-Madarik (Qadi 'Iyad)
+In the Maliki school, after the shaf' with al-A'la and al-Kafirun, the one rak'ah of Witr is recited with these. :: Al-Ikhlas, al-Falaq and al-Nas || H: al-Risalah (Ibn Abi Zayd)
+In the Maliki school, when someone both adds and leaves something out in prayer, the forgetfulness prostration comes at this point. :: Before the salam || H: al-Risalah (Ibn Abi Zayd)
+The Maliki scholar al-Hattab رحمة الله عليه wrote this commentary on Khalil. :: Mawahib al-Jalil || H: Mawahib al-Jalil
+
+## 500
+This Maliki source of law means blocking the means that lead to harm. :: Sadd al-dhara'i' || H: al-Furuq (al-Qarafi)
+This term names the welfare not named by a text, which the Maliki school uses as a source. :: al-Masalih al-mursalah || H: al-Muwafaqat (al-Shatibi)
+The four main books of the early Maliki school, with the Mudawwanah, are called this group name. :: The Ummahat (mother books) || H?: Tartib al-Madarik (Qadi 'Iyad); check the list of four
+The early Maliki book by Ibn Abi Zayd رحمة الله عليه that gathers the school's views beyond the Mudawwanah. :: al-Nawadir wal-Ziyadat || H: al-Nawadir wal-Ziyadat
+The Maliki judge of Baghdad who wrote al-Talqin and al-Ishraf. :: al-Qadi 'Abd al-Wahhab al-Baghdadi رحمة الله عليه || H: al-Talqin
+The Andalusian Maliki scholar Ibn 'Abd al-Barr رحمة الله عليه wrote this great commentary on the Muwatta'. :: al-Tamhid (and al-Istidhkar) || H: al-Tamhid
+In the Maliki school, the term "al-mashhur" means this. :: The best-known view, usually Ibn al-Qasim's رحمة الله عليه report || H: Mukhtasar Khalil, introduction
+Khalil ibn Ishaq رحمة الله عليه said in his introduction that his book explains this in the Maliki school. :: The view on which fatwa is given (ma bihi al-fatwa) || H: Mukhtasar Khalil, introduction
+The Maliki commentary on Khalil by al-Kharashi رحمة الله عليه comes from this land. :: Egypt || H: Sharh al-Kharashi
+The Maliki scholar al-Mawwaq رحمة الله عليه wrote this commentary on Khalil. :: al-Taj wal-Iklil || H: al-Taj wal-Iklil
+The Maliki scholar Abu al-Walid al-Baji رحمة الله عليه wrote this commentary on the Muwatta'. :: al-Muntaqa || H: al-Muntaqa
+The Maliki scholar Ibn Juzayy رحمة الله عليه of Granada wrote this compact book comparing the schools. :: al-Qawanin al-Fiqhiyyah || H: al-Qawanin al-Fiqhiyyah
+The short Maliki book by Ibn al-Hajib رحمة الله عليه that came before Khalil's. :: Jami' al-Ummahat (Mukhtasar Ibn al-Hajib) || H: Jami' al-Ummahat
+The Maliki scholar al-Nafrawi رحمة الله عليه wrote this commentary on al-Risalah. :: al-Fawakih al-Dawani || H: al-Fawakih al-Dawani
+The Maliki scholar Shaykh 'Illaysh رحمة الله عليه wrote this commentary on Khalil. :: Minah al-Jalil || H: Minah al-Jalil
+This Maliki term means the practice of the judges of a land, followed for fatwa in Morocco. :: Ma jara bihi al-'amal (al-'amal) || H: Standard reference

@@ -1,0 +1,93 @@
+id: isl-school-shafii
+name: The Shafi'i School
+nameAr: المذهب الشافعي
+group: fiqh
+# The Shafi'i madhhab: its imams, books, terms and well-known rulings. Every ruling here is the school's relied-upon (mu'tamad) view.
+# Every Sunni scholar's name carries رحمة الله عليه. Dates: hijri first, then CE.
+
+## 100
+The Imam whose school is called the Shafi'i school. :: Imam Muhammad ibn Idris al-Shafi'i رحمة الله عليه || H: Tabaqat al-Shafi'iyyah (al-Subki)
+Imam al-Shafi'i رحمة الله عليه was born in this city in 150 AH / 767 CE. :: Gaza || H: Tabaqat al-Shafi'iyyah (al-Subki)
+Imam al-Shafi'i رحمة الله عليه spent his last years and is buried in this land. :: Egypt (Cairo) || H: Tabaqat al-Shafi'iyyah (al-Subki)
+Imam al-Shafi'i's رحمة الله عليه book that is the first written work on usul al-fiqh. :: al-Risalah || H: al-Risalah
+Imam al-Shafi'i's رحمة الله عليه large book of fiqh. :: al-Umm || H: al-Umm
+The Shafi'i school is the main school in this country, the largest Muslim nation by population. :: Indonesia || H: Standard reference
+The short Shafi'i text by Abu Shuja' رحمة الله عليه, a first book for many students. :: Matn Abi Shuja' (al-Ghayah wal-Taqrib) || H: Matn Abi Shuja'
+In the Shafi'i school, touching the skin of an adult of the opposite sex who is not a mahram does this, even without desire. :: Breaks wudu' || H: Minhaj al-Talibin (al-Nawawi)
+In the Shafi'i school, the basmalah is counted as this. :: A verse of al-Fatihah || H: Minhaj al-Talibin (al-Nawawi)
+In the Shafi'i school, the follower must still recite this behind the imam. :: Al-Fatihah || H: Minhaj al-Talibin (al-Nawawi)
+In the Shafi'i school, the qunut is said in the second rak'ah of this prayer, every day. :: Fajr (Subh) || H: Minhaj al-Talibin (al-Nawawi)
+In the Shafi'i school, wiping this much of the head is enough in wudu'. :: Any part, even some hairs || H: Minhaj al-Talibin (al-Nawawi)
+Most Muslims of this country, with Kuala Lumpur as its capital, follow the Shafi'i school. :: Malaysia || H: Standard reference
+Most Muslims of this country, with Mogadishu as its capital, follow the Shafi'i school. :: Somalia || H: Standard reference
+Besides fiqh, Imam al-Shafi'i رحمة الله عليه was famous for this art, and a collection of it carries his name. :: Poetry (his Diwan) || H: Siyar A'lam al-Nubala' (al-Dhahabi)
+
+## 200
+Imam al-Shafi'i رحمة الله عليه died in this year. :: 204 AH / 820 CE || H: Tabaqat al-Shafi'iyyah (al-Subki)
+Imam al-Shafi'i رحمة الله عليه was born in the same year this other Imam died. :: Imam Abu Hanifah رحمة الله عليه || H: Tabaqat al-Shafi'iyyah (al-Subki)
+Imam al-Shafi'i رحمة الله عليه studied the Muwatta' with this Imam. :: Imam Malik رحمة الله عليه || H: Tabaqat al-Shafi'iyyah (al-Subki)
+Imam al-Shafi'i's رحمة الله عليه views from Iraq, before Egypt, are called this. :: al-Qawl al-Qadim (the old school) || H: Tabaqat al-Shafi'iyyah (al-Subki)
+Imam al-Shafi'i's رحمة الله عليه views after he moved to Egypt are called this. :: al-Qawl al-Jadid (the new school) || H: Tabaqat al-Shafi'iyyah (al-Subki)
+The student of Imam al-Shafi'i رحمة الله عليه who reported al-Umm. :: al-Rabi' ibn Sulayman al-Muradi رحمة الله عليه || H: Tabaqat al-Shafi'iyyah (al-Subki)
+The student of Imam al-Shafi'i رحمة الله عليه whose Mukhtasar was the base of the school for centuries. :: al-Muzani رحمة الله عليه || H: Tabaqat al-Shafi'iyyah (al-Subki)
+The founder of another school who studied with Imam al-Shafi'i رحمة الله عليه in Baghdad. :: Imam Ahmad ibn Hanbal رحمة الله عليه || H: Siyar A'lam al-Nubala' (al-Dhahabi)
+In the Shafi'i school, the hands are raised at the opening takbir, before bowing, on rising from bowing, and at this fourth point. :: On standing up from the first tashahhud || H: Minhaj al-Talibin (al-Nawawi)
+In the Shafi'i school, in prayers recited aloud the basmalah is read in this way. :: Aloud || H: Minhaj al-Talibin (al-Nawawi)
+In the Shafi'i school, the intention for an obligatory fast must be made at this time. :: Every night, before Fajr || H: Minhaj al-Talibin (al-Nawawi)
+In the Shafi'i school, keeping the order of the limbs (tartib) in wudu' has this ruling. :: Obligatory (fard) || H: Minhaj al-Talibin (al-Nawawi)
+Imam al-Shafi'i رحمة الله عليه grew up and studied in this city after leaving Gaza as a child. :: Makkah al-Mukarramah || H: Tabaqat al-Shafi'iyyah (al-Subki)
+The mufti of Makkah who taught Imam al-Shafi'i رحمة الله عليه and allowed him to give fatwa while young. :: Muslim ibn Khalid al-Zanji رحمة الله عليه || H: Tabaqat al-Shafi'iyyah (al-Subki)
+In the Shafi'i school, leaving out the Fajr qunut by forgetting is made up by this. :: The forgetfulness prostration || H: Minhaj al-Talibin (al-Nawawi)
+
+## 300
+The Shafi'i scholar who wrote Minhaj al-Talibin and al-Majmu'. :: Imam al-Nawawi رحمة الله عليه || H: Minhaj al-Talibin
+Imam al-Nawawi and al-Rafi'i رحمة الله عليهما are called this in the Shafi'i school. :: The two Shaykhs (al-Shaykhan) || H: Tuhfat al-Muhtaj (Ibn Hajar al-Haytami), introduction
+The Shafi'i scholar Ibn Hajar al-Haytami رحمة الله عليه wrote this commentary on al-Minhaj. :: Tuhfat al-Muhtaj || H: Tuhfat al-Muhtaj
+The Shafi'i scholar Shams al-Din al-Ramli رحمة الله عليه wrote this commentary on al-Minhaj. :: Nihayat al-Muhtaj || H: Nihayat al-Muhtaj
+The Shafi'i commentary on al-Minhaj by al-Khatib al-Shirbini رحمة الله عليه. :: Mughni al-Muhtaj || H: Mughni al-Muhtaj
+In the Shafi'i school, water less than this amount becomes impure when najasah falls in, even with no change. :: Two qullahs || H: Minhaj al-Talibin (al-Nawawi)
+In the Shafi'i school, something touched by a dog is washed this many times, once with earth. :: 7 || H: Minhaj al-Talibin (al-Nawawi)
+In the Shafi'i school, the forgetfulness prostration comes at this point. :: Before the salam || H: Minhaj al-Talibin (al-Nawawi)
+In the Shafi'i school, the qunut of Fajr is said at this point. :: After rising from bowing in the second rak'ah || H: Minhaj al-Talibin (al-Nawawi)
+In the Shafi'i school, the extra takbirs of Eid in the first rak'ah number this many, not counting the opening takbir. :: 7 || H: Minhaj al-Talibin (al-Nawawi)
+In the Shafi'i school, the extra takbirs of Eid in the second rak'ah number this many, not counting the takbir of rising. :: 5 || H: Minhaj al-Talibin (al-Nawawi)
+In the Shafi'i school, the most rak'ahs of Witr is this number. :: 11 || H: Minhaj al-Talibin (al-Nawawi)
+In the Shafi'i school, the tashahhud said in prayer is the one taught by this Companion. :: Our master 'Abdullah ibn 'Abbas ﵁ || H: Minhaj al-Talibin (al-Nawawi)
+In the Shafi'i school, the sunnahs of prayer that are made up by the forgetfulness prostration are called this. :: Ab'ad || H: Minhaj al-Talibin (al-Nawawi)
+In the Shafi'i school, the shortest monthly period is this. :: A day and a night || H: Minhaj al-Talibin (al-Nawawi)
+
+## 400
+In the Shafi'i school, touching the private part with the inside of the hand does this. :: Breaks wudu' || H: Minhaj al-Talibin (al-Nawawi)
+In the Shafi'i school, Jumu'ah needs at least this many men who live in the town. :: 40 || H: Minhaj al-Talibin (al-Nawawi)
+In the Shafi'i school, zakat al-fitr is given in this form. :: The town's staple food (not money) || H: Minhaj al-Talibin (al-Nawawi)
+In the Shafi'i school, a marriage is not valid without a guardian and this many witnesses. :: 2 || H: Minhaj al-Talibin (al-Nawawi)
+In the Shafi'i school, the animals of the sea have this ruling for eating, by the relied view. :: Lawful (all of them) || H: Minhaj al-Talibin (al-Nawawi)
+The Shafi'i scholar Imam al-Haramayn al-Juwayni رحمة الله عليه wrote this great work of the school's fiqh. :: Nihayat al-Matlab || H: Nihayat al-Matlab
+Imam al-Ghazali رحمة الله عليه wrote these three Shafi'i books, from large to small. :: al-Basit, al-Wasit and al-Wajiz || H: Tabaqat al-Shafi'iyyah (al-Subki)
+The Shafi'i scholar al-Rafi'i رحمة الله عليه wrote this commentary on al-Wajiz. :: Fath al-'Aziz (al-Sharh al-Kabir) || H: Fath al-'Aziz
+Imam al-Nawawi's رحمة الله عليه Minhaj al-Talibin is a summary of this book by al-Rafi'i رحمة الله عليه. :: al-Muharrar || H: Minhaj al-Talibin, introduction
+Imam al-Nawawi's رحمة الله عليه Rawdat al-Talibin summarises this work. :: Fath al-'Aziz (al-Rafi'i) || H: Rawdat al-Talibin, introduction
+The Shafi'i scholar who wrote Fath al-Mu'in, much studied in South India and Southeast Asia. :: Zayn al-Din al-Malibari رحمة الله عليه || H: Fath al-Mu'in
+The Shafi'i commentary Fath al-Qarib explains this short text. :: Matn Abi Shuja' || H: Fath al-Qarib (Ibn Qasim al-Ghazzi)
+In the Shafi'i school, the longest monthly period is this. :: 15 days || H: Minhaj al-Talibin (al-Nawawi)
+In the Shafi'i school, zakat al-fitr may be given early, from the start of this month. :: Ramadan || H: Minhaj al-Talibin (al-Nawawi)
+In the Shafi'i school, Tarawih is this many rak'ahs. :: 20 || H: al-Majmu' (al-Nawawi)
+
+## 500
+In the Shafi'i school, when Ibn Hajar and al-Ramli رحمة الله عليهما differ, scholars of Egypt mostly follow this one. :: al-Ramli رحمة الله عليه || H?: well-known convention; check wording
+In the Shafi'i school, when Ibn Hajar and al-Ramli رحمة الله عليهما differ, scholars of Hadramawt and Yemen mostly follow this one. :: Ibn Hajar al-Haytami رحمة الله عليه || H?: well-known convention; check wording
+In the Shafi'i books, the term "al-asahh" marks this. :: The stronger of two views where the other is also strong || H: Minhaj al-Talibin, introduction
+In the Shafi'i books, the term "al-sahih" marks this. :: The correct view where the other is weak || H: Minhaj al-Talibin, introduction
+In the Shafi'i school, "al-azhar" marks the stronger of two sayings of this person. :: Imam al-Shafi'i رحمة الله عليه || H: Minhaj al-Talibin, introduction
+In the Shafi'i school, the views of later scholars who drew out rulings from the Imam's rules are called this. :: Wujuh (al-ashab's views) || H: Minhaj al-Talibin, introduction
+The Shafi'i scholar al-Bujayrimi رحمة الله عليه wrote glosses on this commentary by al-Khatib al-Shirbini رحمة الله عليه. :: al-Iqna' || H: Hashiyat al-Bujayrimi 'ala al-Khatib
+The Shafi'i book by Abu Ishaq al-Shirazi رحمة الله عليه that al-Nawawi's رحمة الله عليه al-Majmu' explains. :: al-Muhadhdhab || H: al-Majmu' (al-Nawawi)
+The Shafi'i scholar al-Mawardi رحمة الله عليه wrote this large commentary on Mukhtasar al-Muzani. :: al-Hawi al-Kabir || H: al-Hawi al-Kabir
+The Shafi'i scholar Zakariyya al-Ansari رحمة الله عليه, called "Shaykh al-Islam", wrote this commentary on his own Manhaj. :: Fath al-Wahhab || H: Fath al-Wahhab
+The Shafi'i scholar al-Bajuri رحمة الله عليه wrote a famous gloss on this commentary on the short text al-Ghayah wal-Taqrib. :: Fath al-Qarib (Ibn Qasim al-Ghazzi) || H: Hashiyat al-Bajuri
+This Shafi'i scholar of Egypt was called "the little Shafi'i". :: Shams al-Din al-Ramli رحمة الله عليه || H: Khulasat al-Athar (al-Muhibbi)
+The son of Taqi al-Din al-Subki رحمة الله عليه who wrote the great Tabaqat of the Shafi'i scholars. :: Taj al-Din al-Subki رحمة الله عليه || H: Tabaqat al-Shafi'iyyah al-Kubra
+The Shafi'i scholar of Damascus who wrote Kifayat al-Akhyar. :: Taqi al-Din al-Hisni رحمة الله عليه || H: Kifayat al-Akhyar
+The short Shafi'i text Safinat al-Naja, studied in Hadramawt and Southeast Asia, was written by this scholar. :: Salim ibn Sumayr al-Hadrami رحمة الله عليه || H: Safinat al-Naja
+The Shafi'i manual 'Umdat al-Salik was written by this scholar. :: Ibn al-Naqib al-Misri رحمة الله عليه || H: 'Umdat al-Salik
+Besides al-Muhadhdhab, Abu Ishaq al-Shirazi رحمة الله عليه wrote this short Shafi'i book. :: al-Tanbih || H: al-Tanbih

@@ -186,6 +186,7 @@ export function checkNights(nights, ids) {
     else for (const c of n.cats) if (!ids.includes(c)) errors.push(`${at} unknown category "${c}"`)
     for (const k of ['teams', 'teamsAr']) if (n[k] !== undefined && (!Array.isArray(n[k]) || n[k].length < 2 || n[k].length > 4 || n[k].some((t) => typeof t !== 'string' || !t.trim() || t.length > 24))) errors.push(`${at} "${k}" must be 2 to 4 names of up to 24 characters`)
     if (n.sign !== undefined && !/^[\uFD40-\uFD4F\uFDFA]$/.test(n.sign)) errors.push(`${at} "sign" must be one honorific sign such as ﷺ`)
+    if (n.madhhab !== undefined && !['h', 'm', 's', 'b'].includes(n.madhhab)) errors.push(`${at} "madhhab" must be h, m, s or b`)
     const x = n.extras ?? {}
     for (const [k, max] of [['golden', 3], ['steal', 3], ['crowd', 2]]) if (x[k] !== undefined && !(Number.isInteger(x[k]) && x[k] >= 0 && x[k] <= max)) errors.push(`${at} extras.${k} must be 0 to ${max}`)
     for (const k of ['streak', 'comeback', 'lightning', 'final']) if (x[k] !== undefined && typeof x[k] !== 'boolean') errors.push(`${at} extras.${k} must be true or false`)

@@ -2,7 +2,8 @@
 // '' means the clue is general (all schools agree, or it is not a school ruling), so it is shown under every school.
 // Only fiqh files are tagged; biographies and book questions stay general.
 export const MADHHAB_FILES = new Set(['kids-wudu-salah', 'kids-calendar'])
-export const isMadhhabFile = (id, group) => group === 'fiqh' || MADHHAB_FILES.has(id)
+// The four school categories (isl-school-*) teach one school each, so they are never filtered by the host's school.
+export const isMadhhabFile = (id, group) => !String(id ?? '').startsWith('isl-school-') && (group === 'fiqh' || MADHHAB_FILES.has(id))
 
 export function schoolsOf(q) {
   const t = q

@@ -90,6 +90,11 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
     setNightNote(cats.length < n.cats.length ? t.nightMissing : '')
     const names = lang === 'ar' && n.teamsAr ? n.teamsAr : n.teams
     if (names) setTeams(names.slice(0, 4))
+    // A school night (Hanafi Night and so on) sets the school of fiqh its rulings follow.
+    if (n.madhhab) {
+      setMadhhab(n.madhhab)
+      saveMadhhab(n.madhhab)
+    }
     const x = n.extras ?? {}
     setExtras(true)
     if (x.golden !== undefined) setGolden(x.golden)

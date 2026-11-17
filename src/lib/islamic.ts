@@ -615,8 +615,10 @@ const CAT_ICON: Record<string, string> = {
   'isl-sahabah': I.stars, 'isl-history': I.minaret, 'isl-architecture': I.dome, 'isl-scholars': I.books,
   'isl-taharah': I.drop, 'isl-salah': I.mat, 'isl-sawm': I.lantern, 'isl-zakat': I.coins, 'isl-sadaqah': I.hand, 'isl-hajj': I.tents, 'isl-food': I.bowl,
   'isl-kinship': I.family, 'isl-money': I.money, 'isl-work': I.tools, 'isl-faraid': I.pie, 'isl-usul': I.tree,
+  'isl-school-hanafi': I.books, 'isl-school-maliki': I.books, 'isl-school-shafii': I.books, 'isl-school-hanbali': I.books,
   // themed nights (Blessed Mawlid Night shows the ﷺ sign instead, from nights-islamic.json "sign")
   'isl-night-ramadan': I.crescent, 'isl-night-hajj-season': I.tents, 'isl-night-civilisation': I.dome, 'isl-night-fiqh-night': I.scales, 'isl-night-family-night': I.family,
+  'isl-night-hanafi-night': I.scales, 'isl-night-maliki-night': I.scales, 'isl-night-shafii-night': I.scales, 'isl-night-hanbali-night': I.scales,
   'isl-nights': I.lantern,
   // kids
   'kids-prophets': I.ship, 'kids-pillars': I.pillars, 'kids-wudu-salah': I.drop, 'kids-quran': I.book, 'kids-seerah': I.palm, 'kids-manners': I.smile, 'kids-calendar': I.crescent,

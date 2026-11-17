@@ -135,5 +135,97 @@
       "lightning": true,
       "final": true
     }
+  },
+  {
+    "id": "hanafi-night",
+    "name": "Hanafi Night",
+    "about": "The Hanafi school of Imam Abu Hanifah رحمة الله عليه: its imams and books, with cleanliness, prayer, fasting, zakat and Hajj by Hanafi rulings.",
+    "cats": [
+      "isl-school-hanafi",
+      "isl-taharah",
+      "isl-salah",
+      "isl-sawm",
+      "isl-zakat",
+      "isl-hajj"
+    ],
+    "madhhab": "h",
+    "extras": {
+      "golden": 2,
+      "steal": 1,
+      "crowd": 1,
+      "streak": true,
+      "comeback": true,
+      "lightning": true,
+      "final": true
+    }
+  },
+  {
+    "id": "maliki-night",
+    "name": "Maliki Night",
+    "about": "The Maliki school of Imam Malik رحمة الله عليه: its imams and books, with cleanliness, prayer, fasting, zakat and Hajj by Maliki rulings.",
+    "cats": [
+      "isl-school-maliki",
+      "isl-taharah",
+      "isl-salah",
+      "isl-sawm",
+      "isl-zakat",
+      "isl-hajj"
+    ],
+    "madhhab": "m",
+    "extras": {
+      "golden": 2,
+      "steal": 1,
+      "crowd": 1,
+      "streak": true,
+      "comeback": true,
+      "lightning": true,
+      "final": true
+    }
+  },
+  {
+    "id": "shafii-night",
+    "name": "Shafi'i Night",
+    "about": "The Shafi'i school of Imam al-Shafi'i رحمة الله عليه: its imams and books, with cleanliness, prayer, fasting, zakat and Hajj by Shafi'i rulings.",
+    "cats": [
+      "isl-school-shafii",
+      "isl-taharah",
+      "isl-salah",
+      "isl-sawm",
+      "isl-zakat",
+      "isl-hajj"
+    ],
+    "madhhab": "s",
+    "extras": {
+      "golden": 2,
+      "steal": 1,
+      "crowd": 1,
+      "streak": true,
+      "comeback": true,
+      "lightning": true,
+      "final": true
+    }
+  },
+  {
+    "id": "hanbali-night",
+    "name": "Hanbali Night",
+    "about": "The Hanbali school of Imam Ahmad رحمة الله عليه: its imams and books, with cleanliness, prayer, fasting, zakat and Hajj by Hanbali rulings.",
+    "cats": [
+      "isl-school-hanbali",
+      "isl-taharah",
+      "isl-salah",
+      "isl-sawm",
+      "isl-zakat",
+      "isl-hajj"
+    ],
+    "madhhab": "b",
+    "extras": {
+      "golden": 2,
+      "steal": 1,
+      "crowd": 1,
+      "streak": true,
+      "comeback": true,
+      "lightning": true,
+      "final": true
+    }
   }
 ]

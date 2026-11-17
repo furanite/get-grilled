@@ -1,0 +1,92 @@
+id: isl-school-hanbali
+name: The Hanbali School
+nameAr: المذهب الحنبلي
+group: fiqh
+# The Hanbali madhhab: its imams, books, terms and well-known rulings. Every ruling here is the school's relied-upon (mu'tamad) view.
+# Every Sunni scholar's name carries رحمة الله عليه. Dates: hijri first, then CE.
+
+## 100
+The Imam whose school is called the Hanbali school. :: Imam Ahmad ibn Hanbal رحمة الله عليه || H: Siyar A'lam al-Nubala' (al-Dhahabi)
+Imam Ahmad رحمة الله عليه was born, lived and died in this city. :: Baghdad || H: Siyar A'lam al-Nubala' (al-Dhahabi)
+Imam Ahmad's رحمة الله عليه great collection of hadith arranged by Companion. :: al-Musnad || H: al-Musnad
+Imam Ahmad رحمة الله عليه studied fiqh with this founder of another school. :: Imam al-Shafi'i رحمة الله عليه || H: Siyar A'lam al-Nubala' (al-Dhahabi)
+Imam Ahmad رحمة الله عليه stood firm in the trial (mihnah) over this question. :: Whether the Qur'an is created (he held it is the uncreated Speech of Allah) || H: Siyar A'lam al-Nubala' (al-Dhahabi)
+The Hanbali scholar who wrote the great book al-Mughni. :: Ibn Qudamah al-Maqdisi رحمة الله عليه || H: al-Mughni
+The great wali of Baghdad, founder of the Qadiri way, who was a Hanbali in fiqh. :: Shaykh 'Abd al-Qadir al-Jilani رحمة الله عليه || H: Siyar A'lam al-Nubala' (al-Dhahabi)
+In the Hanbali school, eating this meat breaks wudu'. :: Camel meat || H: Zad al-Mustaqni' (al-Hajjawi)
+In the Hanbali school, rinsing the mouth and nose in wudu' has this ruling. :: Obligatory || H: Zad al-Mustaqni' (al-Hajjawi)
+In the Hanbali school, the qunut is said in this prayer only. :: Witr || H: Zad al-Mustaqni' (al-Hajjawi)
+In the Hanbali school, this whole part, with the ears, must be wiped in wudu'. :: The whole head || H: Zad al-Mustaqni' (al-Hajjawi)
+In the Hanbali school, saying "Bismillah" at the start of wudu' has this ruling, dropped if one forgets. :: Wajib (obligatory) || H: Zad al-Mustaqni' (al-Hajjawi)
+Imam Ahmad رحمة الله عليه, who stood firm in the trial, is called the Imam of these people. :: Ahl al-Sunnah (the People of the Sunnah) || H: Siyar A'lam al-Nubala' (al-Dhahabi)
+In the Hanbali school, the tashahhud said in prayer is the one taught by this Companion. :: Our master 'Abdullah ibn Mas'ud ﵁ || H: Zad al-Mustaqni' (al-Hajjawi)
+Shaykh 'Abd al-Qadir al-Jilani رحمة الله عليه, a Hanbali, is buried in this city. :: Baghdad || H: Siyar A'lam al-Nubala' (al-Dhahabi)
+
+## 200
+Imam Ahmad رحمة الله عليه was born in this year. :: 164 AH / 780 CE || H: Siyar A'lam al-Nubala' (al-Dhahabi)
+Imam Ahmad رحمة الله عليه died in this year. :: 241 AH / 855 CE || H: Siyar A'lam al-Nubala' (al-Dhahabi)
+The son of Imam Ahmad رحمة الله عليه who reported the Musnad and added to it. :: 'Abdullah ibn Ahmad رحمة الله عليه || H: Siyar A'lam al-Nubala' (al-Dhahabi)
+The other son of Imam Ahmad رحمة الله عليه, a judge, who reported his father's answers (masa'il). :: Salih ibn Ahmad رحمة الله عليه || H: Siyar A'lam al-Nubala' (al-Dhahabi)
+The Abbasid caliph under whom Imam Ahmad رحمة الله عليه was flogged in the mihnah. :: al-Mu'tasim || H: Siyar A'lam al-Nubala' (al-Dhahabi)
+The first short book of Hanbali fiqh, which al-Mughni explains. :: Mukhtasar al-Khiraqi || H: al-Mughni (Ibn Qudamah)
+The short Hanbali book by Ibn Qudamah رحمة الله عليه for beginners. :: 'Umdat al-Fiqh || H: 'Umdat al-Fiqh
+The quarter of Damascus, on Mount Qasiyun, founded by Ibn Qudamah's رحمة الله عليه family. :: al-Salihiyyah || H: Siyar A'lam al-Nubala' (al-Dhahabi)
+In the Hanbali school, touching someone breaks wudu' when this is present. :: Desire || H: Zad al-Mustaqni' (al-Hajjawi)
+In the Hanbali school, cupping (hijamah) does this to the fast. :: Breaks it (for both people) || H: Zad al-Mustaqni' (al-Hajjawi)
+In the Hanbali school, the intention for an obligatory fast is made at this time. :: Every night, before Fajr || H: Zad al-Mustaqni' (al-Hajjawi)
+In the Hanbali school, the hands are placed here while standing in prayer. :: Below the navel || H: Zad al-Mustaqni' (al-Hajjawi)
+Imam Ahmad رحمة الله عليه came from this Arab tribe. :: Banu Shayban || H: Siyar A'lam al-Nubala' (al-Dhahabi)
+Ibn Qudamah رحمة الله عليه was born in this village near Nablus before his family moved to Damascus. :: Jamma'il || H: Siyar A'lam al-Nubala' (al-Dhahabi)
+The Hanbali scholar 'Abd al-Ghani al-Maqdisi رحمة الله عليه wrote this book of hadith on rulings. :: 'Umdat al-Ahkam || H: 'Umdat al-Ahkam
+
+## 300
+The Hanbali book Zad al-Mustaqni' was written by this scholar. :: al-Hajjawi رحمة الله عليه || H: Zad al-Mustaqni'
+The Hanbali scholar al-Buhuti رحمة الله عليه wrote this commentary on Zad al-Mustaqni'. :: al-Rawd al-Murbi' || H: al-Rawd al-Murbi'
+The Hanbali scholar al-Buhuti رحمة الله عليه wrote this large commentary on al-Iqna'. :: Kashshaf al-Qina' || H: Kashshaf al-Qina'
+The Hanbali scholar of Baghdad, preacher and historian, who wrote Sayd al-Khatir and Daf' Shubah al-Tashbih. :: Ibn al-Jawzi رحمة الله عليه || H: Sayd al-Khatir
+The Hanbali judge who wrote al-Ahkam al-Sultaniyyah, like al-Mawardi رحمة الله عليه. :: al-Qadi Abu Ya'la al-Farra' رحمة الله عليه || H: al-Ahkam al-Sultaniyyah (Abu Ya'la)
+In the Hanbali school, the extra takbirs of Eid in the first rak'ah number this many, after the opening supplication. :: 6 || H: Zad al-Mustaqni' (al-Hajjawi)
+In the Hanbali school, the extra takbirs of Eid in the second rak'ah number this many. :: 5 || H: Zad al-Mustaqni' (al-Hajjawi)
+In the Hanbali school, the qunut of Witr is said at this point. :: After rising from bowing || H: Zad al-Mustaqni' (al-Hajjawi)
+In the Hanbali school, water less than this amount becomes impure when najasah falls in, even with no change. :: Two qullahs || H: Zad al-Mustaqni' (al-Hajjawi)
+In the Hanbali school, something touched by a dog or pig is washed this many times, once with earth. :: 7 || H: Zad al-Mustaqni' (al-Hajjawi)
+In the Hanbali school, Jumu'ah needs at least this many men who live in the town. :: 40 || H: Zad al-Mustaqni' (al-Hajjawi)
+In the Hanbali school, two prayers may be joined because of this, besides travel and rain. :: Illness (sickness that makes each on time hard) || H: Zad al-Mustaqni' (al-Hajjawi)
+In the Hanbali school, the longest monthly period is this. :: 15 days || H: Zad al-Mustaqni' (al-Hajjawi)
+In the Hanbali school, the shortest monthly period is this. :: A day and a night || H: Zad al-Mustaqni' (al-Hajjawi)
+In the Hanbali school, shortening the prayer on a journey has this ruling. :: Better than praying in full (sunnah) || H: Zad al-Mustaqni' (al-Hajjawi)
+
+## 400
+In the Hanbali school, washing the mouth and nose is also obligatory in this other kind of washing. :: Ghusl || H: Zad al-Mustaqni' (al-Hajjawi)
+In the Hanbali school, gold jewellery a woman wears for permitted use has this ruling for zakat. :: No zakat due || H: Zad al-Mustaqni' (al-Hajjawi)
+In the Hanbali school, zakat al-fitr is given in this form. :: Food (dates, barley, wheat, raisins or dried yogurt) || H: Zad al-Mustaqni' (al-Hajjawi)
+In the Hanbali school, a marriage contract needs this person on the bride's side. :: A guardian (wali) || H: Zad al-Mustaqni' (al-Hajjawi)
+In the Hanbali school, the most rak'ahs of Witr is this number. :: 11 || H: Zad al-Mustaqni' (al-Hajjawi)
+The Hanbali scholar al-Mardawi رحمة الله عليه wrote this book showing the strongest view on each question. :: al-Insaf || H: al-Insaf
+The Hanbali book al-Iqna' was written by this scholar, who also wrote Zad al-Mustaqni'. :: al-Hajjawi رحمة الله عليه || H: al-Iqna'
+The Hanbali book Muntaha al-Iradat was written by this scholar. :: Ibn al-Najjar al-Futuhi رحمة الله عليه || H: Muntaha al-Iradat
+The later Hanbali school relies on these two books together for fatwa. :: al-Iqna' and al-Muntaha || H: Kashshaf al-Qina' (al-Buhuti), introduction
+Ibn Qudamah رحمة الله عليه wrote this mid-level Hanbali book, between 'Umdat al-Fiqh and al-Kafi. :: al-Muqni' || H: al-Muqni'
+The Hanbali scholar Mar'i al-Karmi رحمة الله عليه wrote this short book for students. :: Dalil al-Talib || H: Dalil al-Talib
+In the Hanbali school, prayer in the resting places of camels has this ruling. :: Not valid || H: Zad al-Mustaqni' (al-Hajjawi)
+In the Hanbali school, the youngest age at which bleeding counts as a monthly period is this. :: 9 years || H: Zad al-Mustaqni' (al-Hajjawi)
+In the Hanbali school, the age after which bleeding is no longer a monthly period is this. :: 50 years || H: Zad al-Mustaqni' (al-Hajjawi)
+The Hanbali scholar Ibn Qudamah رحمة الله عليه wrote this book on usul al-fiqh. :: Rawdat al-Nazir || H: Rawdat al-Nazir
+
+## 500
+In the Hanbali school, when the moon is hidden by cloud on the night of the 30th of Sha'ban, the relied view is that the next day is this. :: Fasted as a precaution with the intention of Ramadan || H?: Zad al-Mustaqni' (al-Hajjawi); check wording
+In the Hanbali books, "al-madhhab" usually means this. :: The relied-upon view of the later school || H: al-Insaf (al-Mardawi), introduction
+In the Hanbali books, "al-riwayatan" means this. :: Two reports from Imam Ahmad رحمة الله عليه on one question || H: al-Insaf (al-Mardawi), introduction
+The Hanbali student of Imam Ahmad رحمة الله عليه who gathered his scattered answers into one great collection, al-Jami'. :: Abu Bakr al-Khallal رحمة الله عليه || H: Siyar A'lam al-Nubala' (al-Dhahabi)
+The book on the ranks of the Hanbali scholars by Ibn Abi Ya'la رحمة الله عليه. :: Tabaqat al-Hanabilah || H: Tabaqat al-Hanabilah
+The commentary on al-Muqni' printed with al-Insaf, by Ibn Abi 'Umar رحمة الله عليه. :: al-Sharh al-Kabir || H: al-Sharh al-Kabir
+Ibn Qudamah's رحمة الله عليه book al-Kafi sits at this level among his four books of fiqh. :: The third (above al-Muqni', below al-Mughni) || H: al-Kafi
+The Hanbali scholar al-Buhuti رحمة الله عليه came from this land. :: Egypt || H: Kashshaf al-Qina'
+Al-Mardawi's رحمة الله عليه book al-Insaf is a commentary on this book by Ibn Qudamah رحمة الله عليه. :: al-Muqni' || H: al-Insaf
+Al-Buhuti's رحمة الله عليه commentary on Muntaha al-Iradat is called this. :: Daqa'iq Uli al-Nuha || H: Sharh Muntaha al-Iradat
+Mar'i al-Karmi رحمة الله عليه wrote this Hanbali book joining al-Iqna' and al-Muntaha. :: Ghayat al-Muntaha || H: Ghayat al-Muntaha
+The very short Hanbali text Akhsar al-Mukhtasarat was written by this scholar of Damascus. :: Ibn Balban رحمة الله عليه || H: Akhsar al-Mukhtasarat
+The Hanbali vizier of the Abbasids who wrote a book on what the Imams agreed and differed on. :: Ibn Hubayrah رحمة الله عليه || H: Ikhtilaf al-A'immah al-'Ulama' (al-Ifsah)
+The Hanbali scholar Abu al-Khattab al-Kalwadhani رحمة الله عليه wrote this book of fiqh. :: al-Hidayah || H: al-Hidayah (al-Kalwadhani)
+The Hanbali judge Abu Ya'la رحمة الله عليه wrote this book on usul al-fiqh. :: al-'Uddah || H: al-'Uddah
+Ibn al-Najjar's رحمة الله عليه Muntaha al-Iradat joins al-Muqni' with this book by al-Mardawi رحمة الله عليه. :: al-Tanqih || H: Muntaha al-Iradat, introduction

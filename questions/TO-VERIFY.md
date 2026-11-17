@@ -114,6 +114,19 @@ This file is rewritten by `npm run packs`.
 
 - **500**, line 123: The scholar who wrote Bidayat al-Mujtahid on comparing the schools. **Answer:** Ibn Rushd ⁨رحمة الله عليه⁩ (the grandson) _(Source: Bidayat al-Mujtahid; check creed before adding an honorific)_
 
+## The Hanbali School (questions/isl-school-hanbali.txt)
+
+- **500**, line 77: In the Hanbali school, when the moon is hidden by cloud on the night of the 30th of Sha'ban, the relied view is that the next day is this. **Answer:** Fasted as a precaution with the intention of Ramadan _(Source: Zad al-Mustaqni' (al-Hajjawi); check wording)_
+
+## The Maliki School (questions/isl-school-maliki.txt)
+
+- **500**, line 79: The four main books of the early Maliki school, with the Mudawwanah, are called this group name. **Answer:** The Ummahat (mother books) _(Source: Tartib al-Madarik (Qadi 'Iyad); check the list of four)_
+
+## The Shafi'i School (questions/isl-school-shafii.txt)
+
+- **500**, line 77: In the Shafi'i school, when Ibn Hajar and al-Ramli ⁨رحمة الله عليه⁩ما differ, scholars of Egypt mostly follow this one. **Answer:** al-Ramli ⁨رحمة الله عليه⁩ _(Source: well-known convention; check wording)_
+- **500**, line 78: In the Shafi'i school, when Ibn Hajar and al-Ramli ⁨رحمة الله عليه⁩ما differ, scholars of Hadramawt and Yemen mostly follow this one. **Answer:** Ibn Hajar al-Haytami ⁨رحمة الله عليه⁩ _(Source: well-known convention; check wording)_
+
 ## Blessed Seerah: the Madinan years (questions/isl-seerah-madinah.txt)
 
 - **500**, line 127: Our Beloved Prophet ﷺ said to Quraysh at the opening of Makkah: "Go, you are free" (meaning); this freedom is called this. **Answer:** al-Tulaqa' (those set free) _(Source: Sirat Ibn Hisham; wording to be checked)_
@@ -136,9 +149,9 @@ This file is rewritten by `npm run packs`.
 
 ## Fiqh: Cleanliness (Taharah) (questions/isl-taharah.txt)
 
-- **400**, line 164: The two qullahs are about this much water in today's measures, by a common estimate. **Answer:** About 190 to 270 litres _(Source: Modern estimates differ; to be checked)_
-- **400**, line 189: In the Hanafi school, a woman's habit ('adah) in hayd is set by it happening this many times. **Answer:** Once _(Source: al-Hidayah (al-Marghinani); check Abu Yusuf's view (once) against that of Abu Hanifah and Muhammad (twice))_
-- **500**, line 263: The famous chapter in the books of hadith on wiping over khuffs says this many Companions ⁨(رِضْوَانُ اللَّهِ عَلَيْهِمْ)⁩ narrated it, by al-Hasan al-Basri's ⁨رحمة الله عليه⁩ count. **Answer:** 70 _(Source: Fath al-Bari (Ibn Hajar); check the wording of al-Hasan's report)_
+- **400**, line 172: The two qullahs are about this much water in today's measures, by a common estimate. **Answer:** About 190 to 270 litres _(Source: Modern estimates differ; to be checked)_
+- **400**, line 197: In the Hanafi school, a woman's habit ('adah) in hayd is set by it happening this many times. **Answer:** Once _(Source: al-Hidayah (al-Marghinani); check Abu Yusuf's view (once) against that of Abu Hanifah and Muhammad (twice))_
+- **500**, line 271: The famous chapter in the books of hadith on wiping over khuffs says this many Companions ⁨(رِضْوَانُ اللَّهِ عَلَيْهِمْ)⁩ narrated it, by al-Hasan al-Basri's ⁨رحمة الله عليه⁩ count. **Answer:** 70 _(Source: Fath al-Bari (Ibn Hajar); check the wording of al-Hasan's report)_
 
 ## Tajwid (questions/isl-tajwid.txt)
 
@@ -169,8 +182,8 @@ This file is rewritten by `npm run packs`.
 ## Fiqh: Zakat (questions/isl-zakat.txt)
 
 - **200**, line 99: The share for the "hearts to be won over" was stopped in the time of this caliph, by the Hanafi view (meaning). **Answer:** Our master 'Umar ﵁, in our master Abu Bakr's ﵁ time _(Source: al-Hidayah; check the wording of the report)_
-- **400**, line 203: In the Hanafi school, the amount of zakat al-fitr in raisins is half a sa', by Abu Hanifah's ⁨رحمة الله عليه⁩ view in one report, and a full sa' by this. **Answer:** The two students (and the relied view) _(Source: al-Hidayah; check which view is relied upon)_
-- **500**, line 249: The Companion who said "Zakat is a bridge of Islam" (meaning). **Answer:** Abu al-Darda' ﵁ _(Source: check the source of this saying)_
+- **400**, line 207: In the Hanafi school, the amount of zakat al-fitr in raisins is half a sa', by Abu Hanifah's ⁨رحمة الله عليه⁩ view in one report, and a full sa' by this. **Answer:** The two students (and the relied view) _(Source: al-Hidayah; check which view is relied upon)_
+- **500**, line 253: The Companion who said "Zakat is a bridge of Islam" (meaning). **Answer:** Abu al-Darda' ﵁ _(Source: check the source of this saying)_
 
 ## Our Beloved Prophet ﷺ (questions/kids-seerah.txt)
 
