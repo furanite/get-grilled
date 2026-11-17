@@ -9,6 +9,7 @@ import { ModeItemView } from './Rounds'
 import { RoundCard } from './Tournament'
 import { VoteBoard, type VoteState } from './Vote'
 import TileIntro from './TileIntro'
+import FitBox from './FitBox'
 import type { Live } from '../lib/edition'
 import { setFavicon } from '../lib/favicon'
 import { Ambient, CatIcon, Flourish, FlourishAbove, Mark } from './Brand'
@@ -348,7 +349,7 @@ function AudienceView({ t, lang, theme, screen, game, live, vote, win }: { t: St
                 <span className="main" style={{ ['--w' as string]: Math.max(...main.split(/\s+/).map((w) => w.length)) }}>
                   {main}
                 </span>
-                {sub && <span className="sub">{sub}</span>}
+                {sub && <span className="sub" style={{ ['--sw' as string]: Math.max(...sub.split(/\s+/).map((w) => w.length)) }}>{sub}</span>}
               </div>
             )
           })}
@@ -379,7 +380,7 @@ function AudienceView({ t, lang, theme, screen, game, live, vote, win }: { t: St
       </section>
       {clue && cat && (
         <div className="aud-clue" data-testid="audience-clue" key={tileKey(live!.c, live!.l)}>
-          <div className={`aud-card${clue.golden ? ' golden' : ''}`}>
+          <FitBox className={`aud-card${clue.golden ? ' golden' : ''}`} deps={[live!.c, live!.l, live!.revealed, live!.intro, lang]}>
             <div className="meta">
               <span className="meta-cat"><CatIcon id={cat.id} />{lang === 'ar' && cat.nameAr ? cat.nameAr : cat.name}</span>
               <span className="row">
@@ -411,7 +412,7 @@ function AudienceView({ t, lang, theme, screen, game, live, vote, win }: { t: St
               </>
             )}
             {!live!.intro && clueSeconds(game.settings, live!.l, clue) > 0 && <TimerBar clock={live!.clock ?? null} total={clueSeconds(game.settings, live!.l, clue)} lang={lang} timeUpText={t.timeUp} big />}
-          </div>
+          </FitBox>
         </div>
       )}
     </main>
