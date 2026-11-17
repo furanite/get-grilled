@@ -6,3 +6,5 @@ export function renderTitle(theme: string, set: 'a' | 'b' | 'd' | 'e'): Promise<
 export function renderSuspense(theme: string, kind: 'clock' | 'roll'): Promise<AudioBuffer>
 /** How long the drum roll runs before the crash (the crash lands this long after the piece's 0.08s lead-in). */
 export const ROLL_SECONDS: number
+/** One team's introduction cue (about 7 seconds), timed to the animation. team 0-3 picks that team's own version. */
+export function renderIntro(theme: string, team?: number, members?: number): Promise<AudioBuffer>

@@ -541,3 +541,114 @@ export function renderSuspense(theme, kind) {
     return out
   })
 }
+
+// ---------- Team introductions: one cue per team, timed to the animation on screen ----------
+// Times are in seconds from when the team's introduction appears, matching src/intro.css:
+// the theme's entrance first, the team name, a soft note for each member, then a chord for the fun fact.
+// Each cue borrows the key, instruments and motif of the theme's title piece. Heritage has no music.
+function whoosh(t, d, g = 0.05, f0 = 300, f1 = 2400) { const n = noiseSrc(t, d), bp = ctx.createBiquadFilter(); bp.type = 'bandpass'; bp.Q.value = 1.4; bp.frequency.setValueAtTime(f0, t); bp.frequency.exponentialRampToValueAtTime(f1, t + d * 0.7); const v = ctx.createGain(); v.gain.setValueAtTime(0.0001, t); v.gain.linearRampToValueAtTime(g, t + d * 0.35); v.gain.exponentialRampToValueAtTime(0.0001, t + d); n.connect(bp).connect(v); send(v) }
+function creak(t, d, g = 0.04) { const n = noiseSrc(t, d), bp = ctx.createBiquadFilter(); bp.type = 'bandpass'; bp.Q.value = 9; bp.frequency.setValueAtTime(260, t); bp.frequency.linearRampToValueAtTime(180, t + d); const v = ctx.createGain(); v.gain.setValueAtTime(0.0001, t); v.gain.linearRampToValueAtTime(g, t + 0.2); v.gain.linearRampToValueAtTime(0.0001, t + d); n.connect(bp).connect(v); send(v) }
+function powerUp(t, d, g = 0.025) { const v = ctx.createGain(); v.gain.setValueAtTime(0.0001, t); v.gain.exponentialRampToValueAtTime(g, t + d * 0.8); v.gain.exponentialRampToValueAtTime(0.0001, t + d); const o = osc('sawtooth', 60, t, d); o.frequency.exponentialRampToValueAtTime(880, t + d); o.connect(lp(1800)).connect(v); send(v) }
+// Every team gets its own version: team 1, 2, 3 and 4 each have a different tune shape and sit on a
+// different chord of the theme's key (home, up a fourth, up a fifth, then the relative minor or major),
+// so the room hears a change from team to team while the theme stays the same.
+const SHAPES = [
+  [[0, 0, 0.18], [0.18, 0, 0.18], [0.36, -5, 0.18], [0.54, 0, 0.36], [0.9, 'T', 1.1]],
+  [[0, -5, 0.25], [0.25, 0, 0.25], [0.5, 'T', 0.25], [0.75, 7, 1.2]],
+  [[0, 7, 0.3], [0.3, 'T', 0.3], [0.6, 0, 0.3], [0.9, 7, 1.0]],
+  [[0, 0, 0.2], [0.2, 2, 0.2], [0.4, 'T', 0.2], [0.6, 5, 0.2], [0.8, 7, 1.1]],
+]
+const SHIFT = { major: [0, 5, 7, -3], minor: [0, 5, 7, 3] }
+const BELL_ORDER = [[0, 4, 7, 12, 16], [12, 7, 4, 0, -5], [0, 7, 4, 12, 7], [7, 4, 12, 16, 19]]
+function motif(v, root, minor) { const T = minor ? 3 : 4; return SHAPES[v % 4].map(([s, o, d]) => [s, root + (o === 'T' ? T : o), d]) }
+function steps(v, root, minor) { return BELL_ORDER[v % 4].map((o) => root + (minor && (o % 12 === 4) ? o - 1 : o)) }
+function triad(root, minor) { return [root, root + (minor ? 3 : 4), root + 7] }
+const INTRO = {
+  amethyst: { uses: ['timp', 'tpt', 'horn', 'tuba', 'harp', 'vln'], cue(t, n, v) {
+    const sh = SHIFT.major[v]
+    for (let i = 0; i < 10; i++) R('timp', 45 + (v % 2 ? 2 : 0), t + 0.1 + i * 0.07, null, 0.15 + i * 0.05)
+    whoosh(t + 0.15, 1.3, 0.05, 250, 1600)
+    const a = t + 0.8
+    line('tpt', motif(v, 74 + sh, false), (x) => a + x, 1, 0, 0.9)
+    const end = a + SHAPES[v][SHAPES[v].length - 1][0]
+    RC('horn', triad(62 + sh, v === 3), end, 1.4, 0.4, 0.9); R('tuba', 38 + sh, end, 1.4, 0.8, 0.9); R('timp', 38 + sh, end, null, 0.8)
+    steps(v, 74 + sh, v === 3).slice(0, n).forEach((m, k) => R('harp', m, t + 2.0 + k * 0.28, null, 0.7))
+    RC('vln', triad(74 + sh, v === 3), t + 3.5, 1.8, 0.45, 1.2); R('harp', 86 + sh, t + 3.5, null, 0.6)
+  } },
+  emerald: { uses: ['harp', 'vc', 'vln', 'horn', 'timp'], cue(t, n, v) {
+    const sh = SHIFT.minor[v]
+    ;[50, 53, 57, 62, 65, 69, 74].forEach((m, i) => R('harp', m + sh, t + i * 0.08, null, 0.6))
+    R('vc', 50 + sh, t, 5.5, 0.55, 1)
+    ;[74, 77, 79, 81, 84, 86, 81, 79, 77].forEach((m, k) => R('harp', m + sh, t + 0.5 + k * 0.18, null, 0.22))
+    line('vln', motif(v, 69 + sh, true), (x) => t + 0.8 + x, 0.9, 0, 0.97)
+    RC('horn', [57 + sh, 62 + sh], t + 1.8, 1.4, 0.35, 0.8); R('timp', 38 + sh, t + 1.8, null, 0.35)
+    steps(v, 62 + sh, true).slice(0, n).forEach((m, k) => R('harp', m, t + 2.0 + k * 0.28, null, 0.6))
+    R('vln', 74 + sh, t + 3.5, 1.8, 0.7, 1.2); RC('horn', triad(57 + sh, v % 2 === 0), t + 3.5, 1.8, 0.35, 1.2)
+  } },
+  neon: { uses: ['spic', 'xyl', 'bd', 'tpt', 'horn'], cue(t, n, v) {
+    const sh = SHIFT.minor[v]
+    powerUp(t + 0.05, 1.0)
+    for (let i = 0; i < 6; i++) { R('spic', (i % 2 ? 52 : 40) + sh, t + 0.2 + i * 0.24, null, 0.7); if (i % 2 === 0 || v === 2) R('bd', 36, t + 0.2 + i * 0.24, null, 0.7) }
+    ;[0.7, 0.8, 0.95, 1.05].forEach((x) => tick(t + x, 4200, 0.05, 0.02))
+    steps(v, 76 + sh, true).slice(0, 4).forEach((m, k) => R('xyl', m, t + 1.4 + k * 0.15, null, 0.6))
+    line('tpt', motif(v, 76 + sh, true).map(([s, m, d]) => [s * 0.8, m, d * 0.8]), (x) => t + 1.0 + x, 0.9, 0, 0.9)
+    RC('horn', [64 + sh, 71 + sh], t + 1.6, 0.9, 0.35, 0.6)
+    steps((v + 1) % 4, 76 + sh, true).slice(0, n).forEach((m, k) => R('xyl', m, t + 2.0 + k * 0.28, null, 0.55))
+    RC('tpt', [71 + sh, 76 + sh], t + 3.5, 1.2, 0.55, 0.9); R('spic', 40 + sh, t + 3.5, null, 0.8); R('bd', 36, t + 3.5, null, 0.7)
+  } },
+  ember: { uses: ['spic', 'bd', 'timp', 'tbn', 'horn', 'tuba', 'wood'], cue(t, n, v) {
+    const sh = SHIFT.minor[v]
+    R('tuba', 38 + sh, t, 2.2, 0.7, 0.8); for (let i = 0; i < 12; i++) R('timp', 38 + sh, t + i * 0.09, null, 0.08 + i * 0.03)
+    for (let i = 0; i < 26; i++) tick(t + Math.random() * 6, 1800 + Math.random() * 2500, 0.04 + Math.random() * 0.04, 0.012)
+    for (let i = 0; i < 8; i++) R('spic', (i % 2 ? 50 : 38) + sh, t + 0.7 + i * 0.18, null, 0.6 + i * 0.05)
+    line('horn', motif(v, 57 + sh, true), (x) => t + 0.8 + x, 1, 0, 0.95)
+    RC('tbn', [50 + sh], t + 2.0, 0.35, 0.8, 0.1); R('timp', 38 + sh, t + 2.0, null, 0.8); R('bd', 36, t + 2.0, null, 0.8)
+    for (let k = 0; k < n; k++) R('wood', 72 + (v % 2 ? (k % 2 ? 5 : 0) : (k % 2 ? -5 : 0)), t + 2.05 + k * 0.28, null, 0.6)
+    RC('horn', triad(57 + sh, v % 2 === 0), t + 3.5, 1.6, 0.5, 1.1); R('tuba', 38 + sh, t + 3.5, 1.6, 0.6, 1.1)
+  } },
+  onyx: { uses: ['pno', 'clave', 'tpt', 'tbn', 'bd', 'tuba', 'spic'], cue(t, n, v) {
+    const sh = SHIFT.major[v]
+    ;[46, 50, 53, 58, 62, 65, 70, 74, 77, 82].forEach((m, i) => R('pno', m + sh, t + i * 0.05, null, 0.5))
+    for (let i = 0; i < 10; i++) R('clave', 84, t + 0.3 + i * 0.18, null, 0.25)
+    const mot = motif(v, 70 + sh, v === 3)
+    mot.slice(0, -1).forEach(([s, m, d]) => { R('tpt', m, t + 0.8 + s, d * 0.6, 0.85, 0.06); R('tbn', m - 20, t + 0.8 + s, d * 0.6, 0.45, 0.06) })
+    const [ls, lm] = mot[mot.length - 1]
+    RC('tpt', [lm - 7, lm - 3, lm], t + 0.8 + ls, 1.2, 0.8, 0.9); RC('tbn', triad(46 + sh, v === 3), t + 0.8 + ls, 1.2, 0.45, 0.9); R('tuba', 34 + sh, t + 0.8 + ls, 1.2, 0.9, 0.9); R('bd', 36, t + 0.8 + ls, null, 0.8)
+    for (let k = 0; k < n; k++) RC('pno', triad(steps(v, 62 + sh, v === 3)[k], v === 3), t + 2.0 + k * 0.28, 0.25, 0.55, 0.1)
+    R('spic', 34 + sh, t + 3.5, null, 0.8); RC('tbn', triad(50 + sh, v === 3), t + 3.5, 1.4, 0.35, 1); R('tpt', 77 + sh, t + 3.5, 1.4, 0.45, 1)
+  } },
+  rivals: { uses: ['bd', 'timp', 'tpt', 'tbn', 'wood', 'tuba'], cue(t, n, v) {
+    const side = v % 2, sh = SHIFT.major[v]
+    R('bd', 36, t + 0.12, null, 0.9); R('timp', 36 + sh, t + 0.12, null, 0.7); RC('tbn', [48 + sh, 55 + sh], t + 0.12, 0.3, 0.6, 0.08)
+    whoosh(t + 0.45, 0.5, 0.07, 600, 5000)
+    const hit = side ? triad(48 + sh, v === 3) : triad(72 + sh, v === 3)
+    RC(side ? 'tbn' : 'tpt', hit, t + 0.95, 0.9, 0.85, 0.6); RC(side ? 'tpt' : 'tbn', side ? triad(60 + sh, v === 3) : triad(48 + sh, v === 3), t + 0.95, 0.9, 0.45, 0.6); R('bd', 36, t + 0.95, null, 1); R('timp', 36 + sh, t + 0.95, null, 0.9)
+    R('timp', 31, t + 1.25, null, 0.6)
+    const mel = steps(v, side ? 48 + sh : 72 + sh, v === 3)
+    for (let k = 0; k < n; k++) { R('wood', 72, t + 2.0 + k * 0.28, null, 0.6); R(side ? 'tbn' : 'tpt', mel[k], t + 2.0 + k * 0.28, 0.15, 0.4, 0.08) }
+    RC(side ? 'tbn' : 'tpt', hit, t + 3.5, 1.4, 0.45, 1); R('tuba', 36 + sh, t + 3.5, 1.4, 0.6, 1)
+  } },
+  heritage: { uses: [], cue(t, n, v) {
+    // No music: each team gets its own sound from the desert night instead of its own tune.
+    wind(t, 4.5, 0.06, [500, 650, 420, 560][v]); sand(t + 0.2, 2.2, 0.008)
+    creak(t + 1.2, 1.6, 0.05); whoosh(t + 1.4, 1.4, 0.03, 200, 700)
+    const beats = [[0, 0.25, 0.5], [0, 0.17, 0.34, 0.5], [0, 0.5], [0, 0.25, 0.375, 0.5]][v]
+    beats.forEach((x, i) => (i === 0 || i === beats.length - 1 ? I.dum(t + 2.2 + x, i ? 0.25 : 0.35) : I.tak(t + 2.2 + x, 0.08)))
+    for (let k = 0; k < n; k++) (v % 2 ? I.dum(t + 3.2 + k * 0.35, 0.12) : I.tak(t + 3.2 + k * 0.35, 0.07))
+    const f = t + 5.0
+    if (v === 0) { clink(f, 0.07); clink(f + 0.22, 0.05) }
+    else if (v === 1) { const vv = ctx.createGain(); vv.gain.setValueAtTime(0.0001, f); vv.gain.exponentialRampToValueAtTime(0.06, f + 0.05); vv.gain.exponentialRampToValueAtTime(0.0001, f + 0.7); const o = osc('sine', 2300, f, 0.7); o.frequency.exponentialRampToValueAtTime(1500, f + 0.65); o.connect(vv); send(vv) }
+    else if (v === 2) { for (let i = 0; i < 3; i++) drip(f + i * 0.3, 0.07 - i * 0.015) }
+    else { wind(f - 0.3, 1.6, 0.07, 900); clink(f + 0.4, 0.05) }
+  } },
+}
+/**
+ * The sound for one team's introduction (about 7 seconds), timed to the animation.
+ * team: the team's place in the game (0 to 3), which picks its own version; members: how many members are shown (0 to 5).
+ * In Red vs Blue, teams 1 and 3 are red (trumpets) and teams 2 and 4 are blue (trombones).
+ */
+export function renderIntro(theme, team = 0, members = 4) {
+  const S = INTRO[theme]
+  if (!S) return Promise.reject(new Error(`no intro ${theme}`))
+  return render(7, theme === 'heritage' ? 0.6 : 0.32, theme !== 'heritage', S.uses, (t0) => S.cue(t0, Math.max(0, Math.min(5, members)), ((team % 4) + 4) % 4))
+}
