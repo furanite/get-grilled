@@ -594,3 +594,20 @@ textarea.input{resize:vertical;min-height:44px}
 
 /* Whose turn it is to pick a tile */
 .scores .team.turn{outline:2px solid var(--accent);outline-offset:2px;box-shadow:0 0 18px -4px var(--glow)}
+
+/* Big screen: size everything from the window's height as well as its width, so the whole board,
+   the team scores and the notes under them fit on wide, short and 4:3 projectors alike. */
+.aud-stage{padding:1vh 1vw;gap:1vh}
+.aud-stage .board{gap:min(1vw,1.2vh)}
+.aud-stage .board .cat{font-size:clamp(12px,min(1.7vw,2.7vh),40px);min-height:0;padding:1vh .8vw;line-height:1.15}
+.aud-stage .board .cat .ci{width:min(3.4vw,5.4vh)}
+.aud-stage .tile{font-size:clamp(16px,min(3.8vw,5.8vh),76px);line-height:1;overflow:hidden}
+.aud-stage .scores{margin-top:1vh;flex:none}
+.aud-stage .team{padding:.6vh 1.2vw;min-height:0}
+.aud-stage .team b{font-size:clamp(12px,min(1.4vw,2.4vh),26px)}
+.aud-stage .team span{font-size:clamp(18px,min(3vw,5vh),56px);line-height:1.1}
+.aud-stage .comeback{flex:none;margin:.6vh 0 0;font-size:clamp(13px,min(1.4vw,2.4vh),26px)}
+.aud-card{gap:2.4vh;padding:4vh 4.5vw}
+.aud-card .q{font-size:clamp(22px,min(4.4vw,7.4vh),84px);text-wrap:pretty}
+.aud-card .answer{font-size:clamp(20px,min(3.4vw,5.8vh),64px)}
+.aud-card .meta{font-size:clamp(13px,min(1.5vw,2.6vh),26px)}
