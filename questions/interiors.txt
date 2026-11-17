@@ -1,0 +1,530 @@
+id: interiors
+name: Interior Space Planning & Furniture
+group: design
+
+## 100
+Designing the inside spaces of buildings. :: Interior design
+A person who designs the insides of buildings. :: An interior designer
+A drawing of a room from above, showing walls and furniture. :: A floor plan
+Name this floor plan symbol. {img:plan-door.svg} :: A door (with its swing)
+Name this floor plan symbol in a wall. {img:plan-window.svg} :: A window
+Name this floor plan symbol with an arrow. {img:plan-stairs.svg} :: Stairs (going up)
+A drawing of one wall of a room, seen straight on. :: An elevation
+A board showing colours, fabrics and samples for a design. :: A mood board (sample board)
+The way furniture is arranged in a room. :: The layout
+The path people walk through a room. :: Circulation
+A room for sitting and relaxing at home. :: A living room
+A room for cooking. :: A kitchen
+A room for sleeping. :: A bedroom
+A room for washing. :: A bathroom
+The traditional Arab sitting room for guests. :: A majlis
+Low cushions along the walls of a majlis. :: Floor seating (jalsa)
+A long, soft seat for several people. :: A sofa (couch)
+A soft chair with arms. :: An armchair
+A low table in front of a sofa. :: A coffee table
+A small table beside a sofa or bed. :: A side table
+Furniture with drawers for clothes. :: A chest of drawers
+A tall cupboard for hanging clothes. :: A wardrobe
+Shelves for books. :: A bookcase
+A table for eating. :: A dining table
+A seat without a back or arms. :: A stool
+A bed for two people. :: A double bed
+A bed with one bed on top of another. :: A bunk bed
+A sofa that opens into a bed. :: A sofa bed
+Furniture that is built into the walls. :: Built-in furniture
+Furniture that can be moved around. :: Loose furniture
+A soft floor covering for part of a room. :: A rug
+A floor covering that covers a whole room. :: Wall-to-wall carpet
+A hard floor made of wood strips. :: Parquet (wood flooring)
+Flat pieces of fired clay used on floors and walls. :: Tiles
+Tiles made of fine clay fired at high heat. :: Porcelain tiles
+Cloth that hangs at windows. :: Curtains (drapes)
+Slats at a window that can tilt. :: Blinds
+A large mirror makes a room look this. :: Bigger
+Light colours make a small room look this. :: Larger
+Dark colours make a large room feel this. :: Cosier (smaller)
+A room with no walls between kitchen, dining and living spaces. :: An open plan
+A wall that divides a room but doesn't hold up the building. :: A partition
+A false ceiling hung below the real one. :: A suspended (drop) ceiling
+A ledge above a fireplace. :: A mantelpiece
+A long narrow room between other rooms. :: A corridor (hallway)
+The space just inside the front door. :: The entrance (foyer)
+A small room for storing food. :: A pantry
+A room where clothes are washed. :: A laundry room
+A cabinet for bathroom things above a sink. :: A vanity (medicine) cabinet
+The flat working surface in a kitchen. :: The countertop (worktop)
+The wall area above a kitchen counter, often tiled. :: The backsplash
+A kitchen work counter standing on its own in the middle. :: A kitchen island
+The "work triangle" in a kitchen links the sink, the stove and this. :: The fridge
+A kitchen with counters on two parallel walls. :: A galley kitchen
+A kitchen in the shape of the letter L. :: An L-shaped kitchen
+A kitchen in the shape of the letter U. :: A U-shaped kitchen
+The style of simple, uncluttered rooms with few things. :: Minimalism
+The style of cosy, simple rooms from Denmark and Norway. :: Scandinavian style
+The Danish word for cosiness. :: Hygge
+The style of bare brick, metal and pipes like a factory. :: Industrial style
+The style of old country houses with wood and soft colours. :: Rustic (farmhouse) style
+The style of rich carved wood and gold from the past. :: Classic (traditional) style
+The style of today's rooms. :: Contemporary style
+The style of the 1950s and 1960s with simple wood furniture. :: Mid-century modern
+The Swedish company famous for flat-pack furniture. :: IKEA
+Furniture sold in pieces to put together at home. :: Flat-pack furniture
+The study of making furniture fit the human body. :: Ergonomics
+A chair that supports good posture at a desk. :: An ergonomic chair
+A desk you can raise to work standing. :: A standing desk
+Plants inside a building. :: Indoor plants
+Design that brings nature indoors. :: Biophilic design
+Art hung on walls. :: Wall art
+Paper with patterns pasted on walls. :: Wallpaper
+A wall painted in a stronger colour than the others. :: An accent (feature) wall
+The colour wheel helps choose this. :: Colour schemes
+A colour scheme using shades of one colour. :: Monochromatic
+Colours opposite each other on the wheel. :: Complementary colours
+Colours next to each other on the wheel. :: Analogous colours
+Colours like beige, grey and white. :: Neutrals
+Soft cushions on a sofa. :: Throw pillows (cushions)
+A light hanging from the ceiling with many arms. :: A chandelier
+A light hanging from the ceiling on a cord. :: A pendant light
+A lamp standing on the floor. :: A floor lamp
+A light fixed to a wall. :: A wall sconce
+Lights set into the ceiling. :: Recessed lights (downlights)
+A furniture maker who works with wood. :: A carpenter (joiner)
+Cloth and padding on furniture. :: Upholstery
+A very strong fabric used on sofas. :: Leather (or upholstery fabric)
+A thin layer of fine wood glued on cheaper board. :: Veneer
+A board made of wood fibres pressed with glue. :: MDF
+A hard plastic sheet used on kitchen counters. :: Laminate
+Engineered stone for kitchen counters. :: Quartz
+The traditional carved wooden screen in Arab rooms. :: Mashrabiya
+Small coloured tiles set in patterns. :: Mosaic
+The space under the stairs can be used for this. :: Storage
+A room under the roof. :: An attic (loft)
+A room below ground level. :: A basement
+A room for prayer in a home or office. :: A prayer room (musalla)
+The direction of prayer that interior designers of mosques must find. :: The qiblah
+A small room inside a bedroom for clothes. :: A walk-in closet (dressing room)
+A bathroom attached to a bedroom. :: An en-suite bathroom
+
+## 200
+The usual minimum width of a corridor in a home is about this. :: About 90 centimetres to 1 metre
+The usual height of a dining table. :: About 75 centimetres
+The usual height of a kitchen counter. :: About 90 centimetres
+The usual height of a dining chair seat. :: About 45 centimetres
+The usual height of a desk. :: About 72 to 75 centimetres
+The usual width of a single door in a home. :: About 80 to 90 centimetres
+The usual height of a door. :: About 2.1 metres
+The space to leave around a dining table for chairs. :: About 90 centimetres
+The best distance between a sofa and a coffee table. :: About 40 to 45 centimetres
+The usual ceiling height of homes. :: About 2.7 to 3 metres
+The "golden rule" of stairs: two risers plus one tread equals about this. :: 60 to 64 centimetres
+The vertical part of a stair step. :: The riser
+The flat part of a stair step. :: The tread
+The rail you hold on stairs. :: The handrail (banister)
+The flat area between flights of stairs. :: A landing
+A curved stair around a central post. :: A spiral staircase
+A wheelchair ramp should have a slope of no more than about this. :: 1 in 12
+Design that works for people of all ages and abilities. :: Universal (inclusive) design
+The minimum clear space for turning a wheelchair. :: A 1.5 metre circle
+The minimum width of a door for a wheelchair. :: About 80 to 90 centimetres clear
+Grab bars in a bathroom help these people. :: Older and disabled people
+The study of body sizes for design. :: Anthropometrics
+The drawing of the human figure with standard measurements by Henry Dreyfuss. :: Joe and Josephine
+The book "The Measure of Man" was written by this designer. :: Henry Dreyfuss
+The German book of standard room and furniture sizes. :: Neufert (Architects' Data)
+The standard reference book for space planning in the US. :: Time-Saver Standards
+The term for the grouping of spaces by how they relate. :: An adjacency diagram (bubble diagram)
+A diagram of circles showing spaces and links in early design. :: A bubble diagram
+A table listing all the spaces a client needs. :: A brief (space programme)
+The part of a space for public visitors. :: Public zone
+The part of a space only for staff or family. :: Private zone
+The part of a house for kitchens and laundry. :: Service zone
+The traditional Arab house splits rooms for guests from rooms for this. :: The family (privacy)
+The separate men's guest room in Saudi homes. :: The men's majlis
+The front door of a Saudi home often leads to a space that blocks the view inside. This is called this. :: A screen (entrance baffle)
+The office layout with no private rooms. :: Open-plan office
+Open-plan offices of the 1960s with movable screens. :: Bürolandschaft (office landscape)
+The furniture system designed for offices by Robert Propst in 1968. :: The Action Office
+The Action Office later led to this office furniture. :: The cubicle
+Offices where workers don't have fixed desks. :: Hot desking
+Offices with different zones for different tasks. :: Activity-based working
+A quiet small room in an open office for calls. :: A phone booth (focus room)
+Furniture that has more than one use. :: Multifunctional furniture
+A bed that folds up into a wall. :: A Murphy bed
+Furniture made in modules that can be combined. :: Modular furniture
+The furniture company famous for the Eames Lounge Chair. :: Herman Miller
+The married designers of the Eames Lounge Chair. :: Charles and Ray Eames
+The Eames Lounge Chair was released in this year. :: 1956
+The Danish designer of the Egg Chair. :: Arne Jacobsen
+Arne Jacobsen designed the Egg Chair for this hotel. :: The SAS Royal Hotel in Copenhagen
+The Danish designer of the Wishbone Chair. :: Hans Wegner
+The Danish designer of the PH lamp. :: Poul Henningsen
+The Finnish designer of the Tulip Chair. :: Eero Saarinen
+The Barcelona Chair was designed by Mies van der Rohe and this partner. :: Lilly Reich
+The chair of bent steel tubes by Marcel Breuer. :: The Wassily Chair
+Marcel Breuer was inspired by the handlebars of this. :: A bicycle
+Le Corbusier's reclining chair designed with Charlotte Perriand. :: The LC4 chaise longue
+The Austrian chair maker of the bentwood café chair No. 14. :: Michael Thonet
+Thonet chairs are made by bending this. :: Steamed wood (beech)
+The Dutch designer of the Red and Blue Chair. :: Gerrit Rietveld
+The Danish designer of the Panton Chair, made of one piece of plastic. :: Verner Panton
+The French designer of the Ghost Chair made of clear plastic. :: Philippe Starck
+The British-Iraqi architect who designed furniture with flowing shapes. :: Zaha Hadid
+The Japanese-American sculptor who designed a famous glass coffee table. :: Isamu Noguchi
+The Italian design movement of the 1980s with bold colours, founded by Ettore Sottsass. :: Memphis
+The style of furniture from 18th-century England named after a cabinet maker. :: Chippendale
+The French furniture style with curved legs, under Louis XV. :: Rococo (Louis XV style)
+The curved furniture leg shape of the 18th century. :: Cabriole leg
+The English furniture designer of light Neoclassical pieces. :: George Hepplewhite (and Sheraton)
+The American religious group famous for simple wooden furniture. :: The Shakers
+The decorative style of the 1920s with geometric shapes and rich materials. :: Art Deco
+The French Art Deco furniture designer. :: Jacques-Émile Ruhlmann
+The Arts and Crafts designer William Morris is known for these. :: Wallpapers and textiles
+The Arts and Crafts chair with an adjustable back. :: The Morris chair
+The Scottish designer of high-backed chairs. :: Charles Rennie Mackintosh
+The Spanish architect whose furniture had curving organic forms. :: Antoni Gaudí
+The Japanese art of arranging flowers. :: Ikebana
+The Japanese style of rooms with tatami mats and paper screens. :: Washitsu
+Japanese sliding paper screens. :: Shoji
+Japanese floor mats of woven straw. :: Tatami
+The Japanese idea of beauty in imperfect and simple things. :: Wabi-sabi
+The Chinese practice of arranging spaces for good energy. :: Feng shui
+The Indian traditional rules of house layout. :: Vastu shastra
+Moroccan riad houses are built around this. :: A courtyard garden
+The Moroccan coloured tilework. :: Zellige
+The Moroccan polished lime plaster used in bathrooms. :: Tadelakt
+The Turkish low sofa along the walls. :: A divan
+The brass Moroccan lantern with cut patterns. :: A Moroccan lantern (fanous)
+The Arabic coffee pot often shown in Saudi majlis design. :: Dallah
+The traditional Saudi incense burner. :: Mabkhara
+The traditional Saudi wall painting from Asir, used in modern interiors. :: Al-Qatt Al-Asiri
+The traditional woven Bedouin textile with stripes and patterns. :: Al-Sadu
+Al-Sadu weaving is on this UNESCO list. :: The Intangible Cultural Heritage list
+The Persian hand-knotted floor covering. :: A Persian carpet
+The knots per square inch measure this in a rug. :: Quality (density)
+A flat-woven rug without pile. :: A kilim
+The design element that draws the eye first in a room. :: The focal point
+The idea of repeating elements to create harmony. :: Rhythm
+The idea of equal visual weight on each side. :: Balance
+Balance where both sides are mirror images. :: Symmetrical balance
+Balance with different items of equal weight. :: Asymmetrical balance
+The size of objects compared with each other. :: Proportion
+The size of objects compared with the human body or room. :: Scale
+The "rule of three" in styling means grouping items in this. :: Odd numbers (threes)
+The 60-30-10 rule is about this. :: Dividing colours in a room
+In the 60-30-10 rule, 60% is this colour. :: The main (dominant) colour
+
+## 300
+The international standard paper size for floor plans often used. :: A1 or A3
+A common scale for room plans. :: 1:50
+A common scale for furniture details. :: 1:5 or 1:10
+A common scale for building plans. :: 1:100
+A drawing showing ceiling lights and heights. :: A reflected ceiling plan
+A reflected ceiling plan is drawn as if you look at this. :: The ceiling reflected in a mirror on the floor
+A list of all finishes for each room. :: A finishes schedule
+A list of all doors with sizes and hardware. :: A door schedule
+A detailed list of materials and work quality for builders. :: Specifications
+The document with drawings and specifications for pricing. :: Tender documents
+A drawing showing how furniture is built. :: A shop drawing (detail drawing)
+The physical sample of a material for approval. :: A sample (mock-up)
+A full-size test of a room or part of a building. :: A mock-up
+Software used for 3D models of interiors. :: SketchUp (or 3ds Max)
+Realistic pictures made by a computer from a 3D model. :: Renders (visualisations)
+A popular rendering engine. :: V-Ray (or Lumion, Enscape)
+The international organisation for interior architects. :: IFI (International Federation of Interior Architects/Designers)
+The US exam for qualifying interior designers. :: NCIDQ
+The term for "fixtures, furniture and equipment" in hotel projects. :: FF&E
+The term for interior work done on a new empty shell for a tenant. :: Fit-out
+"Shell and core" means this is complete. :: The structure, façade and main services
+A "turnkey" project is delivered this way. :: Ready to use, fully finished
+The noise level in a room is measured in this. :: Decibels (dB)
+The time it takes sound to die away in a room. :: Reverberation time
+Soft materials like carpet and curtains reduce this. :: Echo (reverberation)
+Panels on walls that absorb sound. :: Acoustic panels
+The measure of how well a material absorbs sound. :: NRC (noise reduction coefficient)
+The measure of how well a wall blocks sound. :: STC (sound transmission class)
+Sound that travels through floors from footsteps. :: Impact sound
+Background sound added to offices to hide talk. :: Sound masking (white noise)
+The fire rating of furniture fabric must meet this kind of test. :: A flammability (ignition) test
+The British furniture fire rule tests with a cigarette and this. :: A match flame
+The term for a material that does not catch fire easily. :: Fire-retardant
+A door that resists fire for a set time. :: A fire door
+Fire doors must close by themselves with this. :: A self-closing device
+Signs that light up and show the way out. :: Exit signs (emergency signage)
+The minimum light needed on escape routes if power fails. :: Emergency lighting
+The rules on how many people a room can hold. :: Occupant load
+The anti-slip measure of floor tiles. :: Slip resistance (R rating)
+Wet areas need floor tiles with this. :: High slip resistance
+The minimum toilet cubicle size for wheelchair users is about this. :: About 1.5 m by 2.2 m
+The ideal height of a light switch for accessibility. :: About 90 to 110 centimetres
+The colour contrast between walls and floors helps people with this. :: Low vision
+The kitchen design that keeps the main working parts within easy reach. :: The work triangle
+The total length of the work triangle sides should be about this. :: 4 to 8 metres
+The term for the space between the counter and wall cabinets. :: About 45 to 60 centimetres
+The best depth of a kitchen counter. :: About 60 centimetres
+The best depth of wall cabinets. :: About 30 to 35 centimetres
+A kitchen pull-out shelf for corner cabinets. :: A carousel (lazy Susan)
+The hinges that close kitchen doors softly. :: Soft-close hinges
+The extractor hood should be this high above a stove. :: About 65 to 75 centimetres
+A bathroom with a floor-level shower and no tray. :: A wet room
+The minimum size of a shower is about this. :: 80 × 80 centimetres (90 × 90 preferred)
+The height of a wash basin is about this. :: About 85 centimetres
+The clear space in front of a toilet should be about this. :: About 60 centimetres
+The best height of a bed. :: About 45 to 60 centimetres (to the mattress top)
+The standard size of a king bed in the UK. :: 150 × 200 cm
+The standard size of a single bed. :: About 90 × 190 cm
+The standard depth of a wardrobe for hangers. :: About 60 centimetres
+The best height of a TV centre from the floor when seated. :: About 1 metre (eye level)
+The viewing distance for a TV is about this times the screen size. :: About 1.5 to 2.5
+The traditional majlis seating is placed around these. :: The walls of the room
+The traditional Najdi majlis has a fireplace for making this. :: Coffee
+The decorated triangle patterns on Najdi doors are painted on this material. :: Wood
+The famous painted wooden doors of Najdi houses. :: Najdi doors
+The Hejazi room with a projecting wooden window. :: A room with a roshan
+The high windows at the top of old Hejazi walls let out this. :: Hot air
+The mirrored glass mosaic used in Iranian palaces and shrines. :: Aineh-kari
+The Iranian tradition of lattice wooden windows with coloured glass. :: Orosi
+The Indian carved stone screens. :: Jali
+The Ottoman tile style named after a town. :: İznik tiles
+The İznik tiles are famous for this colour. :: Blue (and a tomato red)
+The decorative plaster carving in Mudejar interiors. :: Yesería
+The Spanish tile panels. :: Azulejos
+The Andalusian palace famous for its Court of the Lions. :: The Alhambra
+The ceilings of the Alhambra's Hall of the Abencerrajes use these. :: Muqarnas
+The honeycomb-like decoration in Islamic ceilings. :: Muqarnas
+The patterns of curving leaves and vines in Islamic art. :: Arabesques
+The Arabic decorative writing used in interiors. :: Calligraphy
+The geometric patterns of stars in Islamic art. :: Girih
+The interlocking geometric star tiles of Islamic art. :: Girih tiles
+The Persian word "girih" means this. :: Knot
+The 2007 study that showed medieval girih tiles made quasi-crystal patterns was by these researchers. :: Peter Lu and Paul Steinhardt
+The 8-pointed star in Islamic patterns is made from this many squares. :: Two
+Name this star shape, common in Islamic patterns. {img:pattern-star8.svg} :: An eight-pointed star
+The Arabic name of the eight-pointed star made of two squares. :: Khatam (Rub el Hizb shape)
+The colour theory term for how light or dark a colour is. :: Value
+The colour theory term for how strong or pure a colour is. :: Saturation (chroma)
+The colour theory term for the name of a colour, like red or blue. :: Hue
+A colour mixed with white. :: A tint
+A colour mixed with black. :: A shade
+A colour mixed with grey. :: A tone
+The Pantone Colour of the Year is announced in this month. :: December
+The Pantone Colour of the Year 2025. :: Mocha Mousse
+The colour system used in paint shops in Europe. :: NCS (or RAL)
+The colour system used in industry with four-digit codes. :: RAL
+The measure of how much light a paint colour reflects. :: LRV (light reflectance value)
+Paint finishes from dull to shiny: matt, eggshell, satin, semi-gloss and this. :: Gloss
+The paint finish often used in bathrooms because it is washable. :: Satin (or semi-gloss)
+The paint with low harmful fumes. :: Low-VOC paint
+A wall finish with a polished, marble-like look. :: Venetian plaster
+A decorative band along the top of a wall. :: A cornice (crown moulding)
+A wooden strip along the bottom of a wall. :: A skirting board (baseboard)
+A strip along a wall at chair height to protect it. :: A dado rail (chair rail)
+Wood panelling on the lower part of a wall. :: Wainscoting
+A decorative ceiling with sunken panels. :: A coffered ceiling
+A decorative ring on the ceiling around a light. :: A ceiling rose (medallion)
+
+## 400
+The famous interior designer known as the first professional decorator in America. :: Elsie de Wolfe
+Elsie de Wolfe's 1913 book. :: The House in Good Taste
+The American designer known for "Hollywood Regency" style. :: Dorothy Draper
+The French designer who worked with Le Corbusier on furniture and the "Bibliothèque nuage". :: Charlotte Perriand
+The Irish designer of the Bibendum Chair and E-1027 house. :: Eileen Gray
+The Brazilian-Italian architect of the Bowl Chair. :: Lina Bo Bardi
+The Finnish designer of the Paimio Chair. :: Alvar Aalto
+Aalto designed the Paimio Chair for patients with this disease. :: Tuberculosis
+The Finnish company founded by Aalto and his wife to sell furniture. :: Artek
+The Italian designer of the Superleggera chair. :: Gio Ponti
+Gio Ponti founded this design magazine in 1928. :: Domus
+The Italian designer of the Arco floor lamp. :: Achille and Pier Giacomo Castiglioni
+The British designer of the Anglepoise lamp. :: George Carwardine
+The Danish designer of the Swan Chair. :: Arne Jacobsen
+The Danish designer of the Ant Chair. :: Arne Jacobsen
+The Danish designer known as "the master of the chair" who made over 500 chairs. :: Hans Wegner
+Wegner's chair called "The Chair". :: The Round Chair (JH501)
+The Danish designer of the Chieftain Chair. :: Finn Juhl
+The Danish designer of the Safari Chair and teacher of modern Danish furniture. :: Kaare Klint
+The Swiss designer of the Landi Chair. :: Hans Coray
+The American designer of the Platner chair. :: Warren Platner
+The American designer of the Diamond Chair made of welded wire. :: Harry Bertoia
+The American company that made Eames and Bertoia chairs. :: Knoll (Bertoia) and Herman Miller (Eames)
+The famous ergonomic office chair by Herman Miller from 1994. :: The Aeron Chair
+The designers of the Aeron Chair. :: Bill Stumpf and Don Chadwick
+The Italian design company famous for Kartell plastic furniture. :: Kartell
+The Louis Ghost chair was made by this company. :: Kartell
+The Dutch design group famous for the "Knotted Chair". :: Droog
+The designer of the Knotted Chair. :: Marcel Wanders
+The Japanese designer known for minimal products and the Muji brand style. :: Naoto Fukasawa
+The Japanese design studio led by Oki Sato. :: Nendo
+The Brazilian designer brothers known for the Favela Chair. :: Fernando and Humberto Campana
+The British designer of the Lockheed Lounge. :: Marc Newson
+The Lockheed Lounge is made of this metal. :: Aluminium (riveted sheets)
+The Vitra Design Museum was designed by this architect. :: Frank Gehry
+The Vitra fire station was designed by this architect. :: Zaha Hadid
+The London design museum founded by Terence Conran. :: The Design Museum
+The British shop founded by Terence Conran in 1964. :: Habitat
+The Swedish founder of IKEA. :: Ingvar Kamprad
+IKEA was founded in this year. :: 1943
+IKEA's name comes from his initials and these two places. :: Elmtaryd and Agunnaryd
+The best-selling IKEA bookcase. :: Billy
+The term for the visual weight of a room arrangement. :: Composition
+The Gestalt principle where things close together look like a group. :: Proximity
+The Gestalt principle where similar things look like a group. :: Similarity
+The Gestalt principle where the mind completes a shape. :: Closure
+The principle of shape and space: the empty space around objects. :: Negative space
+The proportion of about 1:1.618 used in design. :: The golden ratio
+Name this proportion shown with squares and a spiral. {img:golden-spiral.svg} :: The golden ratio (golden spiral)
+Le Corbusier's proportion system based on the human body and the golden ratio. :: The Modulor
+The Modulor man is this tall in the system. :: 1.83 metres
+The Japanese room size unit based on mats. :: The tatami (jō)
+One tatami mat is about this size. :: About 0.9 × 1.8 metres
+The "Fibonacci sequence" is linked to this ratio. :: The golden ratio
+The study of how spaces affect behaviour. :: Environmental psychology
+The term for how people use personal space, studied by Edward Hall. :: Proxemics
+Edward Hall's distance for close friends. :: Personal distance (about 45 to 120 cm)
+The theory that people like spaces where they can see without being seen. :: Prospect-refuge theory
+The geographer who proposed prospect-refuge theory. :: Jay Appleton
+The hospital study by Roger Ulrich showed patients with this view healed faster. :: A view of trees (nature)
+The colour often used in hospitals to calm patients. :: Green (and soft blues)
+The colour said to raise appetite, used in restaurants. :: Red (and orange)
+The colour that may make people feel cold. :: Blue
+The colour temperature of warm white light. :: About 2700 to 3000 kelvin
+The colour temperature of cool daylight. :: About 5000 to 6500 kelvin
+Name this scale, from warm to cool light. {img:colour-temperature.svg} :: Colour temperature (kelvin)
+The measure of how well a light shows true colours. :: CRI (colour rendering index)
+A CRI above this is good for homes and shops. :: 90
+The unit of light falling on a surface. :: Lux
+The unit of light from a source. :: Lumen
+The hotel design term for the main public room at the entrance. :: The lobby
+The hotel term for what makes a hotel's look unique. :: Its design concept (brand identity)
+The term for designing a whole experience from scent to music in shops. :: Experiential (sensory) design
+The term for the main display window of a shop. :: The shop window (visual merchandising)
+The design of exhibitions in museums. :: Exhibition design
+The design of signs that help people find their way. :: Wayfinding design
+The term for designs inside planes and ships. :: Transport interior design
+The term for designing yachts' interiors. :: Yacht interior design
+The term for redesigning an interior with existing furniture. :: Restyling
+The term for preparing a home for sale. :: Home staging
+The American designer who decorated the Kennedy White House with "American country" style. :: Sister Parish
+The Israeli-British designer of the Bookworm bookshelf. :: Ron Arad
+The Swiss architect, Le Corbusier's cousin, who designed furniture for Chandigarh. :: Pierre Jeanneret
+The furniture design museum in Weil am Rhein, Germany. :: The Vitra Design Museum
+IKEA's first store in Saudi Arabia opened in this city. :: Jeddah
+Design for people with dementia uses this to help them find their way. :: Strong colour contrast and clear cues
+The term for the woven threads running lengthwise on a loom. :: Warp
+The term for the threads woven across on a loom. :: Weft
+The test that rubs fabric to check wear, used for upholstery. :: The Martindale (rub) test
+Upholstery fabric for heavy commercial use needs at least this many Martindale rubs. :: About 30,000 or more
+A fabric with a raised woven pattern. :: Jacquard (damask)
+A soft fabric with a short dense pile, used for sofas. :: Velvet
+A natural fibre from the flax plant. :: Linen
+A natural fibre from sheep. :: Wool
+A strong woven fabric with diagonal lines, used for jeans and sofas. :: Denim (twill)
+A smooth glossy fabric made from silkworms. :: Silk
+The leather finishing that keeps the natural surface. :: Full-grain leather
+Wood from trees like oak and walnut, which lose their leaves. :: Hardwood
+Wood from trees like pine and cedar. :: Softwood
+The scented wood used in old Arab doors and chests. :: Cedar (or teak)
+
+## 500
+The Roman architect whose book has a section on wall paintings and decoration. :: Vitruvius
+The Pompeian wall paintings are grouped into this many styles. :: Four
+The Pompeii house famous for its "Alexander mosaic". :: The House of the Faun
+The Roman decoration style with fantasy figures, named after Nero's palace rooms. :: Grotesque
+The Palace of Versailles' interior decorator under Louis XIV. :: Charles Le Brun
+The French royal furniture workshop founded in Paris in the 1600s. :: The Gobelins
+The Gobelins is famous for these. :: Tapestries
+The Chinese-inspired European decorative style of the 18th century. :: Chinoiserie
+The Turkish-inspired European decorative style. :: Turquerie
+The British Regency furniture maker famous for pattern books. :: Thomas Sheraton
+The cabinet maker whose "Gentleman and Cabinet-Maker's Director" was published in 1754. :: Thomas Chippendale
+The French cabinet maker famous for Boulle marquetry. :: André-Charles Boulle
+Boulle marquetry uses brass and this material. :: Tortoiseshell
+The decorative technique of inlaying wood pieces in pictures. :: Marquetry
+The decorative technique of inlaying geometric wood shapes. :: Parquetry
+The Islamic inlay of wood, bone and mother-of-pearl, famous in Damascus. :: Mosaic woodwork (inlay)
+The Islamic woodwork of turned wooden pieces in lattice screens. :: Mashrabiya (turned wood)
+The Persian lacquer art on boxes and pen cases. :: Persian lacquer (qalamdan)
+The Iranian technique of mirror mosaic was used in the Golestan Palace in this city. :: Tehran
+The Ottoman palace in Istanbul famous for its interiors and harem. :: Topkapı Palace
+The 19th-century Ottoman palace in Istanbul with a huge chandelier. :: Dolmabahçe Palace
+The Dolmabahçe chandelier was a gift from this queen. :: Queen Victoria
+The Mughal palace in Delhi's Red Fort with an inscription "If there is paradise on earth". :: Diwan-i-Khas
+The stone inlay of the Taj Mahal is called this. :: Pietra dura (parchin kari)
+The Indian palace hall famous for its mirror work in Jaipur. :: Sheesh Mahal
+The Moroccan palace in Marrakesh famous for zellige and cedar ceilings. :: Bahia Palace
+The Syrian palace in Damascus famous for its courtyards and painted wood rooms. :: Azem Palace
+The painted wooden Damascus room now in the Metropolitan Museum in New York. :: The Damascus Room (Nur al-Din Room)
+The painted room in a German museum from Aleppo. :: The Aleppo Room
+The 19th-century movement to design everything in a building as one artwork. :: Gesamtkunstwerk
+The Austrian group of designers founded in 1903 by Hoffmann and Moser. :: The Wiener Werkstätte
+The German association of 1907 that linked art and industry. :: The Deutscher Werkbund
+The Bauhaus workshop where Marianne Brandt made metal teapots and lamps. :: The metal workshop
+The Bauhaus weaver famous for textiles who became a known artist. :: Anni Albers
+The Bauhaus teacher of the famous colour course. :: Johannes Itten
+Itten's colour wheel has this many colours. :: Twelve
+Name this tool used to pick colour schemes. {img:colour-wheel.svg} :: A colour wheel
+The German poet who wrote a "Theory of Colours" in 1810. :: Johann Wolfgang von Goethe
+The French chemist whose law of simultaneous contrast influenced painters and designers. :: Michel Eugène Chevreul
+The Bauhaus artist who wrote "Interaction of Color". :: Josef Albers
+The American designer who created the first modern office furniture systems for Herman Miller. :: George Nelson
+George Nelson's famous clock with balls. :: The Ball Clock
+The Japanese designer of "How High the Moon" chair made of steel mesh. :: Shiro Kuramata
+The Saudi interior design graduate programs are offered by universities such as this one in Jeddah. :: Effat University (or Dar Al-Hekma)
+The Saudi Architecture and Design Commission runs this annual design exhibition in Riyadh. :: Riyadh Design Week (Saudi Design Week)
+The year 2025 was named in Saudi Arabia as the Year of this. :: Handicrafts
+The Saudi crafts institute in Riyadh Diriyah. :: The Royal Institute of Traditional Arts (Wrth)
+The Italian radical design group of the 1960s known for the "Continuous Monument". :: Superstudio
+The French 1925 exhibition that named Art Deco. :: The Exposition des Arts Décoratifs (Paris)
+Marimekko's famous poppy print. :: Unikko
+The designer of the Unikko print. :: Maija Isola
+The Swedish textile designer who designed colourful prints for Svenskt Tenn. :: Josef Frank
+The Danish lighting company that made the PH lamps. :: Louis Poulsen
+The Italian lighting company that made the Arco lamp. :: Flos
+The Italian company that made the Tizio desk lamp. :: Artemide
+The designer of the Tizio lamp. :: Richard Sapper
+The British company famous for "Anglepoise" lamps since the 1930s. :: Anglepoise (Herbert Terry & Sons)
+The Italian design brand known for colourful kitchen items, such as the "Juicy Salif". :: Alessi
+The designer of the Juicy Salif lemon squeezer. :: Philippe Starck
+The German designer whose "Ten Principles of Good Design" influenced Apple. :: Dieter Rams
+Dieter Rams worked for this German company. :: Braun
+Rams's principle: good design is as little design as this. :: Possible
+The furniture system by Dieter Rams for Vitsœ. :: The 606 Universal Shelving System
+The American design couple's "Case Study House No. 8". :: The Eames House
+The Case Study House program was run by this magazine. :: Arts & Architecture
+The French designer of the "Standard" chair and prefabricated houses. :: Jean Prouvé
+The Dutch designer known for "Smoke" furniture burned on purpose. :: Maarten Baas
+The British designer known for the Tom Dixon S-chair. :: Tom Dixon
+The interior designer of the Burj Al Arab's colourful lobby. :: Khuan Chew
+The Burj Al Arab's interior uses about this many square metres of gold leaf. :: About 1,790 (24-carat gold leaf)
+The Emirates Palace in Abu Dhabi has a central dome decorated with this. :: Gold leaf and mosaic (gold and silver)
+The Saudi palace museum in Riyadh with traditional Najdi interiors. :: The Murabba Palace
+The traditional Najdi room decorations use white gypsum carvings called this. :: Jiss (gypsum) carving
+The colour of most Najdi interior walls. :: Earthy beige with white gypsum details
+The Bait Nassif museum in Jeddah was once a merchant's house built in this year. :: 1881
+The Saudi Ithra building has a library, cinema and museum. Its interior was designed by this firm. :: Snøhetta
+The Riyadh restaurant in the glass globe at the top of Al Faisaliah Tower. :: The Globe
+The Riyadh Front, Boulevard City and other entertainment zones are run under this event. :: Riyadh Season
+The interior designer's role in hotel projects usually covers FF&E and this. :: OS&E (operating supplies and equipment)
+The term for a cheaper alternative suggested to cut costs. :: Value engineering
+The term for the final snag list before handover. :: A punch list (snag list)
+The term for a defects period after a project is handed over. :: The defects liability period
+The defects liability period is often this long. :: One year
+The RIBA Plan of Work has this many stages. :: Eight (0 to 7)
+The US AIA document for design services. :: AIA B101
+The American Society of Interior Designers is known by this short form. :: ASID
+The British Institute of Interior Design is known by this short form. :: BIID
+The term for the visual rhythm of repeated windows or columns. :: Fenestration rhythm
+The term for the arrangement of windows on a façade. :: Fenestration
+The term for the ratio of light-coloured to dark surfaces affecting brightness. :: Surface reflectance
+The term for rooms designed for older people to stay at home. :: Ageing in place
+The concept of designing products and spaces for people with all abilities. :: Universal design
+The seven principles of universal design were set out at this university in 1997. :: North Carolina State University
+The architect who led the universal design team and was himself a wheelchair user. :: Ronald Mace
+The Finnish company known for poppy-print fabrics. :: Marimekko
+The architect of the Kaufmann Desert House in Palm Springs. :: Richard Neutra
+The French designer of the "Polar Bear" sofa. :: Jean Royère
+The Japanese architect known for paper-tube structures and furniture. :: Shigeru Ban
+The UK's standard framework of design stages, from brief to use. :: The RIBA Plan of Work
+The French term for a traditional cabinet maker of fine furniture. :: Ébéniste
+The black wood that gave the ébéniste his name. :: Ebony
+The Danish chair designer whose Y-shaped back chair is called the Wishbone. :: Hans Wegner
+The Italian brand that first sold the beanbag chair, the Sacco, in 1968. :: Zanotta

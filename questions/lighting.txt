@@ -1,0 +1,516 @@
+id: lighting
+name: Lighting & Colour
+group: design
+
+## 100
+Light from the sun used inside buildings. :: Daylight
+Light from lamps. :: Artificial light
+A device that gives light. :: A lamp (light)
+The housing that holds a lamp. :: A light fixture (luminaire)
+Lamps made of light-emitting diodes. :: LEDs
+LED stands for this. :: Light-emitting diode
+The old type of bulb with a glowing wire. :: An incandescent bulb
+The thin wire inside an old bulb. :: The filament
+The inventor most linked with the practical light bulb. :: Thomas Edison
+The British inventor who also made an early light bulb. :: Joseph Swan
+A long glass tube lamp that glows with gas. :: A fluorescent tube
+A lamp with a bright gas used in old car headlights. :: A halogen lamp
+Lights that use coloured gas in shop signs. :: Neon lights
+A lamp that stands on a desk. :: A desk lamp
+A lamp that stands on the floor. :: A floor lamp
+A light hanging from the ceiling on a cord. :: A pendant
+A light with many arms hanging from the ceiling. :: A chandelier
+A light fixed to a wall. :: A wall sconce
+Lights set into the ceiling. :: Downlights (recessed lights)
+A light on a track that can be pointed. :: A track light (spotlight)
+A narrow beam of light on one object. :: A spotlight
+Light for the whole room. :: General (ambient) lighting
+Light for work like reading. :: Task lighting
+Light to show off art or features. :: Accent lighting
+A switch that changes how bright a light is. :: A dimmer
+A light that turns on when someone moves. :: A motion sensor light
+Lights controlled by a phone app. :: Smart lights
+The unit for how bright a lamp is. :: Lumen
+The unit for electric power. :: Watt
+LED lamps use much less of this than old bulbs. :: Electricity (energy)
+Light that feels yellow and cosy. :: Warm light
+Light that feels white or bluish. :: Cool light
+Name the group on the left in this picture. {img:colour-warm-cool.svg} :: Warm colours
+The colours of a rainbow, in order. :: Red, orange, yellow, green, blue, indigo, violet
+White light split by a prism shows this. :: A spectrum (rainbow)
+The scientist who split white light with a prism. :: Isaac Newton
+The three primary colours of paint in school art. :: Red, yellow and blue
+The three primary colours of light. :: Red, green and blue
+Name this picture of overlapping lights. {img:colour-rgb.svg} :: Additive colour (RGB light)
+Red and green light mixed together make this. :: Yellow
+All three primary colours of light mixed make this. :: White
+The three primary colours of printing inks. :: Cyan, magenta and yellow
+Name this picture of overlapping inks. {img:colour-cmy.svg} :: Subtractive colour (CMY inks)
+The four inks used in colour printing. :: CMYK (cyan, magenta, yellow, black)
+The K in CMYK stands for this. :: Key (black)
+A circle that shows colours in order. :: A colour wheel
+Name this tool. {img:colour-wheel.svg} :: A colour wheel
+Colours made by mixing two primary colours. :: Secondary colours
+Mixing blue and yellow paint makes this. :: Green
+Mixing red and yellow paint makes this. :: Orange
+Mixing red and blue paint makes this. :: Purple (violet)
+Colours opposite each other on the colour wheel. :: Complementary colours
+Name the colour scheme marked on this wheel. {img:colour-complementary.svg} :: Complementary
+The complementary colour of red. :: Green
+The complementary colour of blue. :: Orange
+The complementary colour of yellow. :: Purple (violet)
+Colours next to each other on the colour wheel. :: Analogous colours
+Name the colour scheme marked on this wheel. {img:colour-analogous.svg} :: Analogous
+Three colours equally spaced on the colour wheel. :: A triadic scheme
+Name the colour scheme marked on this wheel. {img:colour-triadic.svg} :: Triadic
+A scheme using one colour in different lights and darks. :: Monochromatic
+Name this row of one colour getting lighter. {img:colour-tints.svg} :: Tints (a monochromatic scale)
+A colour mixed with white. :: A tint
+A colour mixed with black. :: A shade
+Colours like red, orange and yellow. :: Warm colours
+Colours like blue, green and purple. :: Cool colours
+Black, white and grey are called these. :: Neutral colours (achromatic)
+A colour said to calm people. :: Blue (or green)
+A colour often linked to danger and urgency. :: Red
+The colour of traffic signs that mean "go". :: Green
+The colour used for safety warnings with black stripes. :: Yellow
+The colour of the Saudi flag. :: Green
+The colour of a clear sky, caused by this scattering of light. :: Blue (Rayleigh scattering)
+The sky looks red at sunset because light passes through more of this. :: Air (atmosphere)
+A colour you see after staring at another colour. :: An afterimage
+People who can't tell some colours apart have this. :: Colour blindness
+The most common colour blindness is between these two colours. :: Red and green
+The test with coloured dots to check colour vision. :: The Ishihara test
+The part of the eye with cells that see colour. :: The retina (cones)
+The cells in the eye that see in dim light. :: Rods
+The cells in the eye that see colour. :: Cones
+Light travels at about this speed. :: 300,000 km per second
+The colour of light with the longest wavelength we can see. :: Red
+The colour of light with the shortest wavelength we can see. :: Violet
+Light we can't see beyond violet. :: Ultraviolet
+Light we can't see beyond red. :: Infrared
+A shiny surface that bounces light back. :: A mirror (reflection)
+Light bending as it passes from air into water. :: Refraction
+A shape cut in a lampshade that throws patterns. :: A light pattern (shadow)
+Sunlight through a window makes these on the floor. :: Patches of light (and shadows)
+A window in the roof. :: A skylight
+Glass bricks let light through but keep this. :: Privacy
+Frosted glass lets light in but blurs this. :: The view
+Too much bright light in the eyes. :: Glare
+A cover on a lamp that softens light. :: A lampshade (diffuser)
+A lamp that copies daylight to help in dark winters. :: A daylight lamp (light therapy lamp)
+Lights on the outside of buildings at night. :: Façade lighting
+Lights in gardens and parks. :: Landscape lighting
+Light that spoils the night sky. :: Light pollution
+Lights that save energy by turning off in daylight. :: Daylight sensors
+Strings of small lights used for decoration. :: Fairy (string) lights
+A traditional lantern for Ramadan. :: A fanous
+The festival of lights in Riyadh with light art. :: Noor Riyadh
+
+## 200
+Colour temperature is measured in this unit. :: Kelvin
+Warm white light is about this colour temperature. :: 2700 to 3000 K
+Neutral white light is about this colour temperature. :: About 4000 K
+Daylight white light is about this colour temperature. :: 5000 to 6500 K
+Name this scale. {img:colour-temperature.svg} :: Colour temperature
+A candle flame's colour temperature is about this. :: 1800 to 1900 K
+A higher kelvin number means light looks this. :: Cooler (bluer)
+The measure of how well a light shows true colours. :: CRI (colour rendering index)
+The best possible CRI. :: 100
+Daylight and incandescent lamps have a CRI of about this. :: 100
+The light falling on a surface is measured in this unit. :: Lux
+One lux equals one lumen per this. :: Square metre
+The American unit of light on a surface. :: Foot-candle
+One foot-candle is about this many lux. :: 10.76
+The brightness of a surface as seen by the eye. :: Luminance
+Luminance is measured in this unit. :: Candela per square metre (nit)
+The unit of light intensity in one direction. :: Candela
+The candela was once based on the light from this. :: A candle
+How many lumens a lamp gives per watt. :: Luminous efficacy
+LEDs give about this many lumens per watt. :: About 100 to 200
+Old incandescent bulbs gave about this many lumens per watt. :: About 15
+A light level for a living room is about this. :: 100 to 200 lux
+A light level for an office desk is about this. :: 300 to 500 lux
+A light level for detailed work, such as surgery, is about this. :: Over 1,000 lux
+Bright summer sunlight gives about this many lux. :: Up to 100,000
+An overcast day gives about this many lux. :: About 1,000 to 10,000
+Moonlight gives less than this. :: 1 lux
+The law that light falls off with the square of distance. :: The inverse square law
+If you double the distance from a lamp, the light becomes this. :: A quarter as bright
+The angle of the light beam of a spotlight. :: Beam angle
+A lamp throwing light upward onto the ceiling. :: An uplighter
+A lamp throwing light down. :: A downlighter
+Lighting that washes a wall evenly. :: Wall washing
+Lighting placed close to a wall to show its texture. :: Wall grazing
+Light hidden behind a ledge or in a cove. :: Cove lighting
+Lighting under kitchen wall cabinets. :: Under-cabinet lighting
+Strips of LEDs in a channel. :: LED strip (tape) lighting
+Light from behind an object, making a glow. :: Backlighting
+Light that makes an object's outline stand out against a bright background. :: A silhouette
+The three-point lighting system has key light, fill light and this. :: Back light (rim light)
+The main light in photography and film. :: The key light
+The light that softens shadows. :: The fill light
+Light that bounces off surfaces before reaching the eye. :: Indirect light
+Light that comes straight from the lamp. :: Direct light
+The flicker of some lamps can cause this. :: Headaches (eye strain)
+The effect where moving machines seem still under flickering light. :: The stroboscopic effect
+The standard supply frequency in Saudi Arabia, which affects flicker. :: 60 Hz
+The lighting term for a lamp's housing, optics and driver together. :: A luminaire
+The electronic part that powers an LED. :: A driver
+The part that controls the current in fluorescent lamps. :: A ballast
+The number of hours an LED lasts, often about this. :: 25,000 to 50,000 hours
+LED life is defined as when light output drops to this. :: 70% (L70)
+The lighting control standard used in buildings. :: DALI
+The wireless protocol used by many smart lamps. :: Zigbee (or Bluetooth, Wi-Fi)
+The brand of smart lamps by Philips. :: Philips Hue
+The lighting standard for human health and body clock. :: Circadian (human-centric) lighting
+The body's 24-hour clock. :: The circadian rhythm
+Blue light at night can delay the release of this hormone. :: Melatonin
+The eye cells that respond to blue light and set the body clock. :: ipRGCs (intrinsically photosensitive retinal ganglion cells)
+The term for colours that look the same under one light but different under another. :: Metamerism
+A colour's name, such as red or blue. :: Hue
+A colour's lightness or darkness. :: Value (lightness)
+A colour's strength or purity. :: Saturation (chroma)
+The colour model used by printers. :: CMYK
+The colour model used by screens. :: RGB
+The colour model based on hue, saturation and lightness. :: HSL
+The code for colours on websites, such as #FF0000. :: A hex code
+The hex code #FFFFFF is this colour. :: White
+The hex code #000000 is this colour. :: Black
+The hex code #FF0000 is this colour. :: Red
+The colour system with numbered swatches used in printing and fashion. :: Pantone
+The Pantone Colour of the Year for 2025. :: Mocha Mousse
+The Pantone Colour of the Year for 2024. :: Peach Fuzz
+The Pantone Colour of the Year for 2023. :: Viva Magenta
+The American colour system by Albert Munsell has hue, value and this. :: Chroma
+The colour space made by the CIE in 1976 with L, a and b. :: CIELAB
+The international lighting body. :: CIE (International Commission on Illumination)
+The colour said to be the most popular favourite in many surveys. :: Blue
+The colour of "International Klein Blue" was patented by this artist. :: Yves Klein
+The red pigment made from crushed insects. :: Carmine (cochineal)
+The blue pigment once made from crushed lapis lazuli. :: Ultramarine
+Lapis lazuli was mined mainly in this country. :: Afghanistan
+The purple dye from sea snails, worn by emperors. :: Tyrian purple
+The yellow pigment made from the urine of cows fed mango leaves. :: Indian yellow
+The plant used to make blue dye for jeans. :: Indigo
+The plant used to make red dye and henna patterns. :: Henna (or madder for red)
+The spice that gives a golden yellow colour. :: Saffron (or turmeric)
+The first synthetic dye, made by William Perkin in 1856. :: Mauveine (mauve)
+The colour of Van Gogh's sunflowers. :: Yellow
+The Dutch painter famous for paintings of pure primary colours and grids. :: Piet Mondrian
+The Russian painter of "Black Square". :: Kazimir Malevich
+The artist of colour-field paintings with big soft rectangles. :: Mark Rothko
+The Bauhaus artist who wrote "Interaction of Color". :: Josef Albers
+Albers's series of paintings of squares inside squares. :: Homage to the Square
+The colour a brand uses again and again so people know it. :: A brand colour
+The colour of Saudi Aramco's logo. :: Blue and green
+The term for the darkest part of a shadow. :: The umbra
+The term for the lighter outer part of a shadow. :: The penumbra
+Soft light makes shadows with this kind of edges. :: Soft (blurred) edges
+Hard light from a small source makes shadows with this kind of edges. :: Sharp edges
+
+## 300
+The English scientist who first arranged colours in a circle. :: Isaac Newton
+Newton named this many colours in the spectrum. :: Seven
+The German poet who wrote a "Theory of Colours" in 1810. :: Johann Wolfgang von Goethe
+The French chemist who wrote about simultaneous contrast in 1839. :: Michel Eugène Chevreul
+Simultaneous contrast means a colour looks different because of this. :: The colours around it
+The Bauhaus teacher who defined seven colour contrasts. :: Johannes Itten
+Itten's seven contrasts include hue, light-dark, cold-warm, complementary, simultaneous, saturation and this. :: Extension (proportion)
+The theory of colour vision with three types of cone. :: Trichromatic (Young-Helmholtz) theory
+The theory of colour vision with opposing pairs like red-green. :: The opponent process theory
+The German scientist who proposed the opponent process theory. :: Ewald Hering
+The term for the eye adjusting so white looks white under different light. :: Chromatic adaptation
+The viral 2015 photo where people argued about blue/black or white/gold. :: The dress
+The "dress" debate happens because of this. :: Different assumptions about the lighting (colour constancy)
+The term for colours appearing stable under changing light. :: Colour constancy
+The term for the slight shift to blue sensitivity in dim light. :: The Purkinje effect
+The effect named after Helmholtz and Kohlrausch is about saturated colours looking this. :: Brighter
+The CIE 1931 chromaticity diagram is shaped like this. :: A horseshoe (tongue)
+The curve on the chromaticity diagram showing colours of hot objects. :: The Planckian (black body) locus
+The term for the colour temperature of a lamp that isn't a hot body. :: Correlated colour temperature (CCT)
+The newer colour quality measure that improves on CRI. :: TM-30 (fidelity and gamut)
+The R9 value in CRI measures how well a lamp shows this colour. :: Strong red
+A lamp with a high R9 is good for showing these. :: Skin tones, meat and fruit
+The "warm dim" LED that gets warmer as it dims, like old bulbs. :: Dim-to-warm
+The lamp efficiency ban phased out incandescent bulbs in Europe from this year. :: 2009
+The term for the share of light that reaches the work plane from a lamp. :: Utilisation factor
+The term for the light lost as lamps and rooms get dirty. :: Maintenance factor (light loss factor)
+The ratio of the minimum to the average light level. :: Uniformity
+The rating for glare in offices. :: UGR (unified glare rating)
+A UGR below this is usually needed for offices. :: 19
+The European standard for lighting of workplaces. :: EN 12464-1
+The lighting design software. :: DIALux (or Relux, AGi32)
+The file type that describes a lamp's light distribution. :: An IES (or LDT) photometric file
+The diagram that shows a lamp's light distribution. :: A polar curve (candela distribution)
+The ratio of window area to floor area often used as a rule for daylight. :: About 1:10 to 1:5
+The daylight measure comparing indoor and outdoor light on a cloudy day. :: Daylight factor
+A daylight factor above 2% means a room is this. :: Reasonably daylit
+A shelf that bounces daylight onto the ceiling. :: A light shelf
+A tube that pipes sunlight into a dark room. :: A light tube (solar tube)
+A glass prism panel that redirects daylight. :: A prismatic panel
+Glass that tints itself with electricity. :: Electrochromic (smart) glass
+Glass that darkens in sunlight. :: Photochromic glass
+Name this lattice screen that filters daylight. {img:pattern-mashrabiya.svg} :: A mashrabiya
+The Institut du Monde Arabe's windows act like these camera parts. :: Apertures (diaphragms)
+The Louvre Abu Dhabi dome makes a pattern called this. :: A rain of light
+The Pantheon's only light source. :: The oculus
+The Japanese architect famous for the "Church of the Light" with a cross-shaped slit. :: Tadao Ando
+The American artist famous for "skyspaces" made of light. :: James Turrell
+James Turrell's huge work in a volcanic crater in Arizona. :: Roden Crater
+The Danish-Icelandic artist of "The Weather Project" sun at Tate Modern. :: Olafur Eliasson
+The light festival in Riyadh first held in 2021. :: Noor Riyadh
+The light festival in Lyon held each December. :: Fête des Lumières
+The light show at Al-'Ula with art in the desert. :: Desert X AlUla (and the Winter at Tantora festival)
+The Sydney festival of light, music and ideas. :: Vivid Sydney
+Lighting design for theatres and shows. :: Stage lighting
+A stage light with a sharp edge and shutters. :: A profile (ellipsoidal) spotlight
+A stage light with a soft-edged adjustable beam. :: A Fresnel
+The lens with rings that makes a lighter lens, used in lighthouses. :: A Fresnel lens
+The French physicist who invented this lens for lighthouses. :: Augustin-Jean Fresnel
+The oldest lighthouse in the ancient world was in this city. :: Alexandria
+The Lighthouse of Alexandria was on this island. :: Pharos
+Street lights with sodium give this colour. :: Orange-yellow
+Mercury vapour street lights give this colour. :: Bluish white
+Many cities replace sodium street lights with these. :: LEDs
+The term for light leaking upward into the sky. :: Skyglow
+The organisation that certifies Dark Sky Places. :: DarkSky International
+The lighting of mosques at night often highlights these features. :: Minarets and domes
+The Grand Mosque in Makkah uses lighting to make it this bright at night. :: As bright as day
+The traditional brass lantern with coloured glass in Arab souqs. :: A fanous
+The Arabic word "fanous" means this. :: Lantern
+The famous lamp in Islamic art with enamelled glass, made in Mamluk times for mosques. :: A mosque lamp
+The verse of light (Ayat al-Nur) is in this surah. :: Surat al-Nur
+The verse of light compares Allah's light to a lamp in this. :: A niche (with a glass like a shining star)
+The Mamluk glass mosque lamps often had this verse written on them. :: The verse of light (Surat al-Nur 35)
+The Ottoman mosque lamps hung in big rings. :: Kandil rings (chandeliers)
+The Islamic scholar who wrote the "Book of Optics". :: Ibn al-Haytham ﵀
+Ibn al-Haytham ﵀ showed that we see because light enters this. :: The eye
+Ibn al-Haytham ﵀ described this device, the ancestor of the camera. :: The camera obscura
+Ibn al-Haytham ﵀ is often called the father of this. :: Optics (and the scientific method)
+The UN named 2015 the International Year of Light, in part to honour this scholar. :: Ibn al-Haytham ﵀
+The Persian scholar who explained the rainbow with experiments in glass spheres. :: Kamal al-Din al-Farisi ﵀
+Al-Farisi ﵀ was a student of this scholar. :: Qutb al-Din al-Shirazi ﵀
+Photographers call the hour after sunrise and before sunset this. :: The golden hour
+The time just after sunset when the sky is deep blue. :: The blue hour
+A photo setting that corrects colours for the light source. :: White balance
+The setting that controls how much light reaches a camera sensor through the lens. :: Aperture (f-stop)
+The amount of time a camera's shutter stays open. :: Shutter speed
+A camera's sensitivity to light. :: ISO
+A large soft light source used in photo studios. :: A softbox
+An umbrella used to soften and spread studio light. :: A photo umbrella (reflective umbrella)
+A white or silver panel that bounces light onto a subject. :: A reflector
+The lighting style in portraits with a small triangle of light on the shadowed cheek. :: Rembrandt lighting
+The portrait lighting from directly in front and above, making a shadow under the nose. :: Butterfly (Paramount) lighting
+The lighting style with half the face lit and half in shadow. :: Split lighting
+Bright, even lighting with few shadows, used in comedies. :: High-key lighting
+Dark lighting with strong shadows, used in thrillers. :: Low-key lighting
+The film genre of the 1940s famous for low-key lighting. :: Film noir
+The theatre lighting position above and in front of the stage. :: Front of house
+Coloured filters placed in front of stage lights. :: Gels
+A stage light that follows a performer. :: A followspot
+A machine that makes a haze so beams of light can be seen. :: A haze (fog) machine
+
+## 400
+The photometric quantity of light power weighted by the eye's sensitivity. :: Luminous flux
+The eye is most sensitive to light of about this wavelength in daylight. :: 555 nanometres (green-yellow)
+The eye's sensitivity curve in daylight is called this. :: The photopic curve (V-lambda)
+The eye's sensitivity curve in darkness is called this. :: The scotopic curve
+Vision between day and night, such as under street lights. :: Mesopic vision
+The maximum luminous efficacy of light, at 555 nm. :: 683 lumens per watt
+The radiation from a perfect black body depends only on this. :: Its temperature
+Planck's law describes the spectrum of this. :: A black body
+Wien's law says the peak wavelength of a black body falls as this rises. :: Temperature
+The sun's surface temperature, giving its colour. :: About 5,800 K
+White LEDs mostly use a blue LED with this. :: A yellow phosphor
+The Nobel Prize in Physics 2014 was for this invention. :: The efficient blue LED
+The three scientists who won for the blue LED. :: Isamu Akasaki, Hiroshi Amano and Shuji Nakamura
+The first visible LED, red, was made in 1962 by this person. :: Nick Holonyak
+The material used in blue LEDs. :: Gallium nitride
+OLED stands for this. :: Organic light-emitting diode
+The lighting term for light coming from a large flat panel. :: Area (panel) lighting
+The light distribution where light goes mainly downward. :: Direct distribution
+The light distribution where light goes mostly upward. :: Indirect distribution
+The term for lamps that let light leak in all directions. :: Diffuse (general diffuse) distribution
+The cut-off angle of a luminaire controls this. :: Glare
+The term for luminaires that send no light above the horizontal. :: Full cut-off
+The reflectance of a white ceiling is about this. :: About 80%
+The reflectance of a dark floor is about this. :: About 10 to 20%
+The lumen method calculates the number of lamps from the area, lux and these. :: Lamp lumens, utilisation and maintenance factors
+The formula for lux at a point under a lamp: intensity divided by this. :: Distance squared
+The cosine law of illumination says light on a tilted surface falls with this. :: The cosine of the angle
+The French physicist who wrote the cosine law in 1760. :: Johann Heinrich Lambert
+A surface that looks equally bright from all angles. :: A Lambertian surface
+The ratio of light reflected by a paint, shown on paint charts. :: LRV (light reflectance value)
+An LRV of 100 means this. :: Pure white (all light reflected)
+Contrast between surfaces should be at least this many LRV points for people with low vision. :: About 30
+The British standard on design for people with low vision. :: BS 8300
+The term for designing colours to work for colour-blind users. :: Colour-blind friendly (accessible) design
+The share of men with red-green colour blindness. :: About 8%
+The share of women with red-green colour blindness. :: About 0.5%
+The type of colour blindness with no working red cones. :: Protanopia
+The type with no working green cones. :: Deuteranopia
+The type with no working blue cones. :: Tritanopia
+The Japanese ophthalmologist who made the dot plates test. :: Shinobu Ishihara
+The famous chemist who wrote about his own colour blindness in 1794. :: John Dalton
+Colour blindness used to be called this after him. :: Daltonism
+The term for seeing colours when hearing sounds. :: Synaesthesia
+The Russian painter who linked colours with music. :: Wassily Kandinsky
+Kandinsky's book on art and colour. :: Concerning the Spiritual in Art
+The British painter of light and storms called "the painter of light". :: J. M. W. Turner
+The French art movement that painted changing light outdoors. :: Impressionism
+The Impressionist painter of many paintings of haystacks and Rouen Cathedral in different light. :: Claude Monet
+The painting technique of tiny dots of pure colour. :: Pointillism
+The painter of "A Sunday Afternoon on the Island of La Grande Jatte". :: Georges Seurat
+The art movement of bold unnatural colours led by Matisse. :: Fauvism
+The Dutch painting technique of strong light and dark contrast. :: Chiaroscuro
+The Italian painter famous for dramatic chiaroscuro. :: Caravaggio
+Very strong contrast of light and dark, like Caravaggio. :: Tenebrism
+The Dutch painter famous for light from a window in "The Milkmaid". :: Johannes Vermeer
+The study of how colours affect mood and behaviour. :: Colour psychology
+The colour "Baker-Miller pink" was tested in prisons to do this. :: Calm aggressive behaviour
+The colour green in hospitals' surgical gowns reduces this. :: Afterimages of red blood
+The Kruithof curve links light level and this. :: Colour temperature (pleasing combinations)
+The Kruithof curve says low light levels look best with this kind of light. :: Warm light
+The colour associated with Islam and paradise in Islamic art. :: Green
+The colour of the cover (kiswah) of the Ka'bah. :: Black (with gold embroidery)
+The kiswah is embroidered with threads of these metals. :: Gold and silver
+The blue tiles of the Blue Mosque in Istanbul come from this town. :: İznik
+The Shah Mosque in Isfahan is famous for this colour of tiles. :: Blue (turquoise and cobalt)
+The Persian blue-green colour named after a stone. :: Turquoise
+The word "turquoise" means this in French. :: Turkish
+The colour of Moroccan Majorelle Garden walls. :: Majorelle blue (cobalt blue)
+The pink colour of Jaipur buildings painted in 1876 to welcome this prince. :: The Prince of Wales (Albert Edward)
+The colour of the old town of Chefchaouen. :: Blue
+The red stone city in Jordan. :: Petra
+The colour of the rocks at Al-'Ula's Elephant Rock. :: Red-brown (sandstone)
+The Riyadh Metro uses colours to help this. :: Wayfinding
+The colour of Saudi licence plates for private cars. :: White
+The quantity of light falling on a surface per area, in lux. :: Illuminance
+The quantity of light emitted in one direction, in candela. :: Luminous intensity
+The ratio of luminous flux out of a luminaire to that of its lamps. :: Light output ratio
+The term for a lamp's light output dropping over time. :: Lumen depreciation
+The term for an LED's colour drifting over its life. :: Colour shift
+LED "binning" groups LEDs by these. :: Colour and brightness
+The MacAdam ellipse measures colour consistency in these steps. :: SDCM steps
+A 3-step MacAdam ellipse means differences are this. :: Hardly visible
+The term for the ratio of brightest to darkest parts of a view. :: Contrast ratio (luminance ratio)
+The eye adjusts to darkness fully after about this long. :: 20 to 30 minutes
+The eye's pupil gets smaller in bright light to do this. :: Let less light in
+The term for being dazzled so you cannot see. :: Disability glare
+The term for glare that is uncomfortable but does not block vision. :: Discomfort glare
+The term for reflections of lamps on screens. :: Veiling reflections
+Lighting for screen work should avoid these on monitors. :: Bright reflections
+The rule for museum lighting to protect paintings is often about this many lux. :: 50 to 200 lux
+Paper and textiles in museums are often lit at only about this many lux. :: 50
+Ultraviolet light in museums causes this. :: Fading (damage)
+The type of lamp with almost no UV used in museums. :: LED
+The famous painting in the Louvre lit with special lighting behind glass. :: The Mona Lisa
+Light therapy lamps for winter depression give about this many lux. :: 10,000
+The condition of low mood in dark winters. :: Seasonal affective disorder (SAD)
+Hospitals may use dynamic lighting that changes through the day to help this. :: Patients' sleep (body clock)
+The ratio of the light at the brightest and darkest points in a room. :: Uniformity ratio
+The colour temperature recommended for bedrooms at night. :: Warm (below 3000 K)
+The colour temperature often used in factories and hospitals for alertness. :: Cool (4000 to 6500 K)
+
+## 500
+The ancient Greek philosopher who said colours come from mixing light and dark. :: Aristotle
+Aristotle's colour theory lasted until this scientist. :: Isaac Newton
+Newton's book on light and colour, published in 1704. :: Opticks
+The Scottish physicist who made the first colour photograph in 1861. :: James Clerk Maxwell
+Maxwell's colour photo showed this object. :: A tartan ribbon
+Maxwell's colour triangle shows mixtures of these. :: Three primary lights
+The German physiologist who extended Young's three-colour theory. :: Hermann von Helmholtz
+The English scientist who first proposed three colour receptors in 1802. :: Thomas Young
+The American artist who created the Munsell colour system in 1905. :: Albert Munsell
+The German chemist who made a colour system with a double cone. :: Wilhelm Ostwald
+The Swedish colour system based on how people see colour. :: NCS (Natural Colour System)
+NCS is based on six elementary colours: white, black, yellow, red, blue and this. :: Green
+The German colour standard founded in 1927. :: RAL
+The RAL code for the colour "traffic red". :: RAL 3020
+The Pantone colour system was founded in this year. :: 1963
+The founder of the Pantone Matching System. :: Lawrence Herbert
+The CIE was founded in this year. :: 1913
+The CIE standard observer was defined in this year. :: 1931
+The CIE standard daylight with a colour temperature of 6500 K. :: D65
+The CIE standard illuminant for incandescent light. :: Illuminant A
+Delta E (ΔE) measures this. :: The difference between two colours
+A ΔE below about this is hard to see. :: 1 (about 2 for most people)
+The colour space used by most web images. :: sRGB
+sRGB was created by HP and this company in 1996. :: Microsoft
+The wider colour space used by Apple screens. :: Display P3
+The colour space for professional photo editing. :: Adobe RGB
+The colour space for ultra HD television. :: Rec. 2020
+The term for the range of colours a device can show. :: Gamut
+The process of making screens show accurate colours. :: Colour calibration
+The device used to calibrate screens. :: A colorimeter (or spectrophotometer)
+The international colour standard for profiles. :: ICC profiles
+The printing method that uses special pre-mixed inks. :: Spot colour printing
+The printing method that builds colours from four inks. :: Process colour printing
+The pattern of tiny dots used in printing photos. :: Halftone
+The pattern that appears when two halftone grids clash. :: Moiré
+The paint pigment made from titanium. :: Titanium white
+The poisonous white pigment used in old paints. :: Lead white
+The green pigment containing arsenic popular in the 1800s. :: Scheele's green (Paris green)
+The blue pigment discovered by accident in Berlin around 1706. :: Prussian blue
+The blackest man-made material, made of carbon nanotubes. :: Vantablack
+Vantablack absorbs about this much light. :: 99.96%
+The artist who bought exclusive art rights to Vantablack. :: Anish Kapoor
+The blue pigment discovered at Oregon State University in 2009. :: YInMn Blue
+The Egyptian blue pigment is one of the oldest made by this. :: Humans (synthetic pigment)
+Egyptian blue glows under this kind of light. :: Infrared
+The red pigment from mercury, used in old Chinese lacquer. :: Vermilion (cinnabar)
+The yellow pigment from arsenic used in Persian manuscripts. :: Orpiment
+The gold used to decorate Quran pages is applied in thin sheets called this. :: Gold leaf
+The art of decorating Islamic manuscripts with gold and colours. :: Illumination (tazhib)
+The Persian word for manuscript illumination. :: Tazhib
+The art of marbled paper in Ottoman Turkey. :: Ebru
+Ebru is made by floating colours on this. :: Thickened water (with gum tragacanth)
+The plaster windows with coloured glass in Yemeni houses. :: Qamariyya
+The Persian coloured-glass wooden windows. :: Orosi
+The Nasir al-Mulk Mosque in Shiraz is famous for this. :: Coloured light from stained glass
+Nasir al-Mulk Mosque is also called this. :: The Pink Mosque
+The Burj Khalifa's LED façade has about this many lights. :: About 1.2 million
+The record-setting light show on Burj Khalifa happens on this night every year. :: New Year's Eve
+The Islamic scholar who studied the camera obscura and lived in Cairo. :: Ibn al-Haytham ﵀
+Ibn al-Haytham ﵀ was born in this city. :: Basra
+Ibn al-Haytham's ﵀ Book of Optics in Arabic is called this. :: Kitab al-Manazir
+Ibn al-Haytham's ﵀ problem about reflection in a round mirror is called this. :: Alhazen's problem
+Kitab al-Manazir was translated into Latin under this title. :: De aspectibus (Perspectiva)
+The Persian scholar Ibn Sahl ﵀ described the law of this centuries before Snell. :: Refraction
+The law of refraction is usually named after this Dutch scientist. :: Willebrord Snell
+The Persian scholar Kamal al-Din al-Farisi ﵀ explained this using a glass sphere filled with water. :: The rainbow
+The light rays coming from the eye theory was believed by this Greek. :: Euclid (and Ptolemy)
+The Danish astronomer who first estimated the speed of light in 1676. :: Ole Rømer
+Rømer used the moons of this planet. :: Jupiter
+The scientist who said light is made of particles called corpuscles. :: Isaac Newton
+The scientist who showed light acts as a wave in the double-slit experiment. :: Thomas Young
+The Scottish physicist who showed light is an electromagnetic wave. :: James Clerk Maxwell
+Einstein's 1905 paper on light as quanta explained this effect. :: The photoelectric effect
+A particle of light. :: A photon
+The colour of light from a hot iron at about 1000°C. :: Orange-red
+The colour of the hottest stars. :: Blue
+The colour of the coolest stars. :: Red
+The northern lights are called this. :: Aurora borealis
+The green colour of the auroras comes from this gas. :: Oxygen
+Fireflies make light by this process. :: Bioluminescence
+The deep-sea fish with a glowing lure on its head. :: The anglerfish
+The mineral that glows under UV light. :: A fluorescent mineral (like fluorite)
+The word "fluorescence" comes from this mineral. :: Fluorite
+The glow that continues after the light source is removed, as in glow-in-the-dark toys. :: Phosphorescence
+The gas used in red neon signs. :: Neon
+The gas mixed with mercury used for blue tubes in signs. :: Argon
+Times Square's famous light signs are in this city. :: New York
+The Las Vegas hotel with a beam of light from its pyramid, one of the brightest on Earth. :: The Luxor
+The light tower art installation in New York every 11 September. :: Tribute in Light
+The light artwork made of fluorescent tubes by this American minimalist. :: Dan Flavin
+The Saudi light festival Noor Riyadh is part of this program. :: Riyadh Art
+The ancient Roman oil lamps were mostly made of this. :: Clay (terracotta)
+The fuel of most lamps in the ancient Middle East. :: Olive oil
+The gas lamps that lit London streets from 1807 burned this. :: Coal gas
+The person who lit gas street lamps by hand each evening. :: A lamplighter
+The first city to use electric street lights widely, in 1878. :: Paris
+Edison's first commercial power station opened in this city in 1882. :: New York (Pearl Street)
+The famous light tower in Jeddah that guided ships. :: The Jeddah Light (the tallest lighthouse)
+The Jeddah Light is about this tall. :: 133 metres
+The lighthouse at the end of a pier that is the world's tallest. :: The Jeddah Light

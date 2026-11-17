@@ -31,9 +31,38 @@ export interface Category {
   nameAr?: string
   builtIn: boolean
   levels: Question[][]
+  /** Extra items for the special rounds (built-in categories only) */
+  modes?: Partial<Record<ItemMode, ModeItem[]>>
 }
 
-export type PackGroup = 'engineering' | 'cces' | 'general'
+export type PackGroup = 'engineering' | 'cces' | 'general' | 'finance' | 'law' | 'design' | 'humanities'
+
+/** Special rounds the host can add after the board. "picture" uses the picture questions of the categories. */
+export const ROUND_MODES = ['picture', 'tf', 'case', 'translate', 'clues', 'odd'] as const
+export type RoundMode = (typeof ROUND_MODES)[number]
+/** The modes that have their own sections in pack files. */
+export type ItemMode = Exclude<RoundMode, 'picture'>
+
+/** One item of a special round. For true-or-false, v is 1 (true, halal, legal) or 0, and k says which words to use. */
+export interface ModeItem {
+  id?: string
+  q: string
+  a: string
+  img?: string
+  v?: 0 | 1
+  k?: 'true' | 'halal' | 'legal'
+  /** The category it came from (name shown with the item, and its id) */
+  cat?: string
+  from?: string
+}
+
+export interface ModeRoundState {
+  i: number
+  revealed: boolean
+  /** Clue-by-clue: how many clues are showing */
+  shown: number
+  done?: boolean
+}
 
 export interface CategorySummary {
   id: string
@@ -42,6 +71,10 @@ export interface CategorySummary {
   group?: PackGroup
   builtIn: boolean
   counts: number[]
+  /** How many items the category has for each special round */
+  modes?: Partial<Record<ItemMode, number>>
+  /** How many picture questions it has */
+  pics?: number
 }
 
 /** Special tiles: Steal moves the points from another team; Audience lets someone in the room answer for the team. */
@@ -71,6 +104,8 @@ export interface GameSettings {
   comeback?: boolean
   lightning?: boolean
   final?: boolean
+  /** A special round after the board */
+  mode?: RoundMode
 }
 
 /** Counts of special tiles the host asked for (used only when the game is made). */
@@ -81,7 +116,7 @@ export interface TileCounts {
 }
 
 /** Where a game is: on the board, in the 60-second lightning round, or at the final question. */
-export type Stage = 'board' | 'lightning' | 'final'
+export type Stage = 'board' | 'mode' | 'lightning' | 'final'
 
 export interface LightningState {
   /** Index of the question on screen */
@@ -119,10 +154,13 @@ export interface Game {
   /** The final question and the category it comes from */
   final?: { cat: { id: string; name: string; nameAr?: string }; q: Question }
   finalState?: FinalState
+  /** The special round's items and where it is */
+  modeRound?: { mode: RoundMode; items: ModeItem[] }
+  modeState?: ModeRoundState
   /** The themed night this game was set up from, if any */
   night?: string
 }
 
 export type ThemeId = 'amethyst' | 'emerald' | 'neon' | 'onyx' | 'rivals' | 'ember' | 'heritage'
 export type Lang = 'en' | 'ar'
-export type Screen = 'home' | 'setup' | 'game' | 'lightning' | 'final' | 'results' | 'builder'
+export type Screen = 'home' | 'setup' | 'game' | 'mode' | 'lightning' | 'final' | 'results' | 'builder'

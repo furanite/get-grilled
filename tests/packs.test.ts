@@ -68,7 +68,7 @@ describe('built-in question files', () => {
   // but every Arabic file must belong to an English file.
   it('every group has categories and every Arabic file has an English file', () => {
     const groups = files.map((f) => /^group:\s*(\S+)/m.exec(readFileSync(join(dir, f), 'utf8'))?.[1])
-    for (const g of ['engineering', 'cces', 'general']) expect(groups).toContain(g)
+    for (const g of ['engineering', 'cces', 'general', 'finance', 'law', 'design', 'humanities']) expect(groups).toContain(g)
     for (const f of readdirSync(join(dir, 'ar')).filter((n) => n.endsWith('.txt'))) expect(files, f).toContain(f)
   })
   for (const f of files) {

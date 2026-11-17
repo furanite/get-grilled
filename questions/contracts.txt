@@ -1,0 +1,539 @@
+id: contracts
+name: Contract Law
+group: law
+
+## 100
+An agreement between parties that the law will enforce. :: A contract
+The party who makes the first proposal in a contract. :: The offeror
+The proposal to make a contract. :: An offer
+Agreeing to an offer exactly as it stands. :: Acceptance
+The party to whom an offer is made. :: The offeree
+The two basic parts of every contract: offer and this. :: Acceptance
+Something of value given in exchange, needed for contracts in common law. :: Consideration
+A contract written and signed on paper or electronically. :: A written contract
+A contract made by speaking only. :: An oral (verbal) contract
+A contract that both parties must keep. :: A binding contract
+Failing to do what a contract requires. :: Breach of contract
+Money paid to make up for a loss caused by a breach. :: Damages
+A person under the age of legal adulthood. :: A minor
+The legal ability to make a contract. :: Capacity
+A contract that has no legal effect from the start. :: A void contract
+A contract one party may choose to cancel. :: A voidable contract
+Ending a contract and putting the parties back where they started. :: Rescission
+A promise to buy or sell goods for money. :: A sale contract
+A contract to use a property for rent. :: A lease
+The person who rents out a property. :: The landlord (lessor)
+The person who rents a property. :: The tenant (lessee)
+A contract to hire a worker. :: An employment contract
+A contract in which one person acts for another. :: Agency
+The person who acts on behalf of another. :: The agent
+The person an agent acts for. :: The principal
+A promise to pay another person's debt if they don't. :: A guarantee
+The person who gives a guarantee. :: The guarantor
+A written promise to pay a fixed sum. :: A promissory note
+The date on which a contract ends. :: The expiry (termination) date
+A section of a contract. :: A clause
+The person who signs a contract. :: A signatory
+The legal word for both people or companies in a contract. :: The parties
+A short legal word for a written promise in a contract. :: A covenant
+An offer that is withdrawn before it is accepted. :: Revoked
+A reply that changes the terms of an offer. :: A counter-offer
+A counter-offer has this effect on the original offer. :: It rejects (ends) it
+An advert in a shop window usually counts as this, not an offer. :: An invitation to treat
+Goods with price tags on a supermarket shelf are usually this. :: An invitation to treat
+Contracts made over the internet. :: E-contracts (online contracts)
+Clicking "I agree" on a website's terms is called this. :: Click-wrap agreement
+The small print in standard contracts. :: Terms and conditions
+A contract term that limits a party's liability. :: An exclusion (limitation) clause
+A document that records a contract was signed in front of an official. :: A notarised contract
+The Arabic word for contract. :: 'Aqd
+The Arabic phrase for "offer and acceptance". :: Ijab wa qabul
+The Quran verse "O you who believe, fulfil your contracts" opens this surah. :: Surat al-Ma'idah
+The longest verse of the Quran tells believers to write down this. :: Debts (contracts of debt)
+The longest verse of the Quran is called this. :: The verse of debt (Ayat al-Dayn)
+In the verse of debt, the number of male witnesses asked for. :: Two
+A deal where money is paid now and goods delivered later, allowed in Islam. :: Salam
+A contract to make something to order, such as furniture. :: Istisna'
+A contract to keep something safe for someone. :: Wadi'ah (deposit)
+A free loan with no interest. :: Qard hasan
+An item given as security for a debt. :: Collateral (rahn, pledge)
+Saudi Arabia's main civil law of contracts, effective December 2023. :: The Civil Transactions Law
+A contract between a buyer and a seller of a house. :: A sale and purchase agreement
+A contract between a company and its customers for services. :: A service agreement
+An agreement not to share secret information. :: A non-disclosure agreement (NDA)
+An agreement not to work for a competitor for a time. :: A non-compete clause
+A contract where one party writes all terms and the other can only accept or refuse. :: A contract of adhesion (standard form)
+The official form of payment named in a contract. :: The currency
+The time limit in a contract. :: A deadline (term)
+A contract signed by many parties. :: A multilateral contract
+A contract between two parties. :: A bilateral contract
+A promise made in exchange for an act, such as a reward for finding a lost cat. :: A unilateral contract
+An offer of a reward to anyone who finds a lost item is this type of contract. :: Unilateral
+Saying "yes" to an offer by phone counts as this. :: Acceptance
+Silence usually counts as this in contract law. :: Not acceptance
+A written change to a contract. :: An amendment (addendum)
+Copies of a contract given to each party are called this. :: Counterparts
+Ending a contract early by agreement. :: Mutual termination
+A contract where both parties make promises. :: A bilateral contract
+A fixed amount paid if a party is late or breaks the contract. :: Liquidated damages (penalty clause)
+A deposit paid to secure a deal, which may be kept if the buyer backs out. :: 'Arbun (earnest money)
+The legal word for "the thing sold" in Arabic. :: Mabi'
+The legal word for "price" in Arabic. :: Thaman
+The legal term for paying in instalments. :: Instalment sale (bay' bil-taqsit)
+A loan of an item to use for free, to be returned. :: 'Ariyah (gratuitous loan)
+A gift with no exchange. :: Hibah
+Sending an acceptance by post makes the contract at the time of posting under this rule. :: The postal rule
+A contract made under threat. :: Made under duress
+A false statement that leads someone into a contract. :: Misrepresentation
+A mistake about the main subject of a contract. :: Mistake
+A contract that breaks the law is this. :: Illegal (void)
+A contract to sell drugs that are illegal can't be enforced. It is this. :: Void for illegality
+A sale where the goods must be paid for before delivery. :: Cash in advance
+A sale where the buyer pays after receiving goods. :: Credit sale
+A document listing goods sold and the price to pay. :: An invoice
+A receipt proves this. :: Payment
+A "cooling-off period" lets a buyer do this. :: Cancel within a short time
+The Arabic word for a contract's option to cancel. :: Khiyar
+The option to cancel while both parties are still at the place of the deal. :: Khiyar al-majlis
+The option to return goods found to have a hidden defect. :: Khiyar al-'ayb
+The option to cancel within an agreed number of days. :: Khiyar al-shart
+The option to cancel after seeing goods bought unseen. :: Khiyar al-ru'yah
+An agreement to settle a dispute outside court with an agreed decision maker. :: Arbitration
+An agreement to settle a dispute with a neutral helper who doesn't decide. :: Mediation
+The law of which country governs a contract is set by this clause. :: The governing law clause
+The court or place that hears disputes is set by this clause. :: The jurisdiction clause
+A contract in English law needs offer, acceptance, consideration and an intention to create this. :: Legal relations
+Promises between family members at home are usually presumed not to create this. :: Legal relations
+
+## 200
+The Saudi Civil Transactions Law was issued by this royal decree number in 2023. :: M/191
+The Saudi Civil Transactions Law came into force on this date. :: 16 December 2023
+The Saudi Civil Transactions Law has this many articles. :: 721
+The Saudi Civil Transactions Law says its rules are drawn from these. :: The principles of Islamic Sharia (with general rules of fiqh)
+Before 2023, Saudi courts applied contract rules mainly from this source. :: Islamic fiqh (Hanbali texts)
+The UN treaty on international sales of goods. :: The CISG (Vienna Convention, 1980)
+The CISG applies to sales of goods between businesses in different countries but not to these sales. :: Consumer sales (personal use)
+The international rules for delivery terms such as FOB and CIF. :: Incoterms
+The organisation that publishes Incoterms. :: The International Chamber of Commerce (ICC)
+The latest Incoterms edition. :: Incoterms 2020
+The Incoterm where the seller only makes goods ready at its own premises. :: EXW (Ex Works)
+The Incoterm where the seller pays everything up to delivery, including import duty. :: DDP (Delivered Duty Paid)
+The Incoterm "Free on Board" is used only for this type of transport. :: Sea and inland waterway
+The Incoterm that means the seller pays cost, insurance and freight. :: CIF
+The UNIDROIT Principles are a model set of rules for this. :: International commercial contracts
+The English case where a smoke ball company promised £100 to anyone who caught flu. :: Carlill v Carbolic Smoke Ball Co (1893)
+Carlill's case showed that an advert can be this. :: A unilateral offer
+The English case where goods on display in a chemist's shop were held to be an invitation to treat. :: Pharmaceutical Society v Boots (1953)
+The English case about a counter-offer to sell a farm for £950 instead of £1,000. :: Hyde v Wrench (1840)
+The English case that set the postal rule for acceptance. :: Adams v Lindsell (1818)
+The English case that says damages cover losses that arise naturally or were in both parties' minds. :: Hadley v Baxendale (1854)
+Hadley v Baxendale involved a delayed delivery of this item. :: A broken mill crankshaft
+The English case on "promissory estoppel" in a London block of flats during the war. :: Central London Property Trust v High Trees House (1947)
+The rule that only parties to a contract can enforce it. :: Privity of contract
+The English law of 1999 that let some third parties enforce contracts. :: The Contracts (Rights of Third Parties) Act 1999
+The English case where a husband's promise to pay his wife an allowance was not binding. :: Balfour v Balfour (1919)
+The doctrine that ends a contract when an event makes it impossible. :: Frustration
+The English case where a music hall burned down before the concerts. :: Taylor v Caldwell (1863)
+The English case about rooms rented to watch a coronation that was cancelled. :: Krell v Henry (1903)
+The French term for an event beyond control that excuses performance. :: Force majeure
+In Islamic law, an unforeseen event that makes performance very hard allows this. :: Adjustment of obligations (al-zuruf al-tari'ah)
+A sale with excessive uncertainty is forbidden in Islamic contract law. This is called this. :: Gharar
+An Islamic rule: a profit must come with bearing this. :: Risk (al-kharaj bil-daman)
+The hadith "Al-kharaj bil-daman" means profit goes with this. :: Liability (risk)
+The legal maxim "The original rule in contracts is" this. :: Permissibility (validity)
+The legal term for the main purpose of a contract, such as transfer of ownership. :: The object (cause) of the contract
+A contract made by someone who lacks capacity, such as a child below seven, is this. :: Void
+A contract made by a discerning child to receive a gift. :: Valid (purely beneficial)
+The amount a buyer pays as a down payment. :: Deposit (down payment)
+The legal word for when a contract term is broken so badly the other side can end the contract. :: Repudiatory breach
+A minor term whose breach only gives damages. :: A warranty
+A main term whose breach allows ending the contract. :: A condition
+A term that falls between a condition and a warranty. :: An innominate term
+A term the court adds because it goes without saying. :: An implied term
+The test for implying a term in English law about a nosy bystander. :: The officious bystander test
+The court order that tells a party to do what it promised. :: Specific performance
+The court order that tells a party not to do something. :: An injunction
+The duty of an injured party to keep its losses low. :: Mitigation
+Damages meant to put the injured party where it would have been if the contract was kept. :: Expectation damages
+Damages to cover money spent relying on a contract. :: Reliance damages
+Damages meant to punish a party, rare in contract law. :: Punitive damages
+Very small damages given when a right was broken but no real loss happened. :: Nominal damages
+A clause that sets a sum much higher than the real loss is treated as this in English law. :: A penalty (unenforceable)
+The 2015 UK Supreme Court case on penalty clauses involving a car park. :: ParkingEye v Beavis (with Cavendish v Makdessi)
+The time limit to sue for breach of a simple contract in England. :: Six years
+The legal word for a time limit to bring a claim. :: Limitation (prescription)
+The legal word for the moment a contract begins to bind. :: Formation (conclusion)
+A contract to sell land in many countries must be in this form. :: Writing
+The Arabic legal term for a contract that is valid but has a defect that can be fixed. :: Fasid (in the Hanafi school)
+The Arabic legal term for a fully valid contract. :: Sahih
+The Arabic legal term for a void contract. :: Batil
+A contract made by a person without authority, which waits for the owner's approval. :: Mawquf (bay' al-fuduli)
+A person who sells another's property without permission. :: A fuduli (unauthorised agent)
+The ruling on a contract that waits for approval when the owner approves. :: It becomes valid
+The Islamic rule that a buyer must take possession before reselling food. :: Qabd (possession) before resale
+Selling dates still on the tree before they ripen was forbidden. This is called selling before this. :: Fruit is clearly ripening (bud ul-salah)
+Two sales in one, forbidden in a hadith, means this. :: Combining two sales so the price is unclear
+Selling a debt for a debt is called this. :: Bay' al-kali' bil-kali'
+Selling an item bought on credit back to the seller at a lower cash price. :: 'Inah (forbidden by the majority)
+The Arabic term for a sale at a disclosed profit. :: Murabaha
+The Arabic term for a sale at cost price. :: Tawliyah
+The Arabic term for a sale at a loss. :: Wadi'ah (sale at a discount)
+An auction sale is allowed in Islam and is called this. :: Bay' al-muzayadah
+The forbidden sale where a bidder raises the price only to trick others. :: Najsh
+A contract between a partner who gives money and one who gives work. :: Mudarabah
+A partnership where all partners give money and may work. :: Musharakah
+A contract to work a farm in exchange for a share of the harvest. :: Muzara'ah
+A contract to look after fruit trees for a share of the fruit. :: Musaqat
+A contract that gives a reward for doing a task, such as finding a lost item. :: Ju'alah
+A contract that makes one person a debtor's guarantor. :: Kafalah
+A contract that moves a debt from one debtor to another. :: Hawalah
+A contract that appoints an agent. :: Wakalah
+A settlement of a dispute by agreement in Islamic law. :: Sulh
+The UK law of 1979 that sets implied terms in sales of goods. :: The Sale of Goods Act 1979
+The UK law of 2015 that protects consumers. :: The Consumer Rights Act 2015
+The UK law of 1977 that controls exclusion clauses. :: The Unfair Contract Terms Act 1977
+The US model code for sales of goods. :: The Uniform Commercial Code (UCC)
+The article of the UCC that covers sales of goods. :: Article 2
+The French Civil Code was reformed for contract law in this year. :: 2016
+The French Civil Code was first issued under this leader. :: Napoleon
+The Egyptian Civil Code of 1948 was drafted mainly by this jurist. :: Abd al-Razzaq al-Sanhuri ﵀
+The Arab civil codes of Syria, Libya, Iraq and Kuwait were drafted under the influence of this jurist. :: Abd al-Razzaq al-Sanhuri ﵀
+The legal principle that parties are free to choose their terms. :: Freedom of contract
+The Latin phrase "agreements must be kept". :: Pacta sunt servanda
+The Latin phrase for "let the buyer beware". :: Caveat emptor
+The Latin phrase for "things remaining as they are", used for big changes in circumstances. :: Rebus sic stantibus
+The Latin phrase for "no one gives what they don't have". :: Nemo dat quod non habet
+Agreeing to something with full knowledge. :: Informed consent
+In Islamic contracts, mutual consent is required by this verse. :: Surat al-Nisa' 29 ("trade by mutual consent")
+The legal term for when goods' risk passes to the buyer. :: Passing of risk
+In the CISG, a buyer must examine goods and give notice of defects within this time. :: A reasonable time (at most two years)
+A contract signed digitally is valid in Saudi Arabia under this law of 2007. :: The Electronic Transactions Law
+The Saudi law of 2019 that protects online shoppers. :: The E-Commerce Law
+A seller's promise that goods will work for a time. :: A warranty (guarantee)
+
+## 300
+In English law, consideration must be sufficient but need not be this. :: Adequate
+The English case where chocolate bar wrappers sent in with money were held to be part of the consideration. :: Chappell v Nestlé (1960)
+The rule that past consideration is not good consideration was shown in this case about a promise after work was done. :: Re McArdle (1951)
+The English case where a sailor's extra pay promise during a voyage was not binding. :: Stilk v Myrick (1809)
+The English case where extra pay to a carpenter was binding because of a "practical benefit". :: Williams v Roffey Bros (1990)
+The English rule that paying less than a debt does not discharge the full debt. :: The rule in Pinnel's Case (Foakes v Beer)
+The House of Lords case of 1884 that confirmed Pinnel's rule. :: Foakes v Beer
+The English case where terms on a car park ticket came too late to bind the driver. :: Thornton v Shoe Lane Parking (1971)
+The rule that exclusion clauses must be brought to notice before the contract is made, from a hotel case. :: Olley v Marlborough Court Hotel (1949)
+The rule that an unclear exclusion clause is read against the party relying on it. :: Contra proferentem
+The English case where a signed document bound a woman even if she didn't read it. :: L'Estrange v Graucob (1934)
+A statement that is true but misleading because it is incomplete. :: A half-truth
+The English case where a statement about an empty house's tenant was a half-truth. :: Dimmock v Hallett (1866)
+The three kinds of misrepresentation in English law. :: Fraudulent, negligent and innocent
+The English case that defined fraud in deceit as knowingly or recklessly false. :: Derry v Peek (1889)
+The English law of 1967 that gives damages for negligent misrepresentation. :: The Misrepresentation Act 1967
+A mistake both parties share about the existence of the subject. :: Common mistake
+The English case where a cargo of corn had perished before the sale. :: Couturier v Hastie (1856)
+The English case about a rogue posing as a known person to buy a car. :: Shogun Finance v Hudson (2003)
+A contract with a rogue face to face is usually voidable, from this case. :: Lewis v Averay (1971)
+The doctrine that stops a party denying a promise relied upon. :: Estoppel
+Pressure that is not lawful, such as economic threats, can make a contract voidable. This is called this. :: Economic duress
+The doctrine where one party takes unfair advantage of trust. :: Undue influence
+The English case of 2001 on undue influence by husbands over wives signing guarantees. :: Royal Bank of Scotland v Etridge (No 2)
+The English case on a contract of a minor for "necessaries". :: Nash v Inman (1908)
+A minor in English law must pay a reasonable price for these. :: Necessaries
+The English case that said courts won't enforce a contract for an immoral purpose about a carriage hired by a prostitute. :: Pearce v Brooks (1866)
+A clause that stops someone working in a trade is valid only if it is this. :: Reasonable (to protect a legitimate interest)
+The famous case on restraint of trade involving an arms maker. :: Nordenfelt v Maxim Nordenfelt (1894)
+The English case that changed the penalty rule to "legitimate interest" in 2015. :: Cavendish Square Holding v Makdessi
+The rule that damages are not given for losses that are too remote. :: Remoteness of damage
+The English case on remoteness involving a laundry's lost dyeing contracts. :: Victoria Laundry v Newman (1949)
+The English case where a ship charterer's loss was not foreseeable, The Achilleas. :: Transfield Shipping v Mercator (2008)
+Damages for disappointment are allowed for contracts about enjoyment, such as this holiday case. :: Jarvis v Swans Tours (1973)
+The English case where a swimming pool was built too shallow but the cost to fix was too high. :: Ruxley Electronics v Forsyth (1995)
+Specific performance is not ordered for contracts of this type. :: Personal services (employment)
+The equitable remedy of changing a document that does not record the true agreement. :: Rectification
+Returning money paid for something that never came. :: Restitution (unjust enrichment)
+The court principle in Islamic law that a gain without basis must be returned. :: Al-ithra' bila sabab (unjust enrichment)
+Under the Saudi Civil Transactions Law, a contract is formed when acceptance matches the offer and this happens. :: The acceptance reaches the offeror's knowledge
+In Islamic law, a contract by phone is treated as one between two present parties in this respect. :: Time (the session is the call)
+The IIFA ruled in 1990 that contracts by phone, fax and similar means are this. :: Valid
+The Saudi Civil Transactions Law sets this general limitation period for most claims. :: Ten years
+In the Saudi Civil Transactions Law, a party who caused a contract to be void by fraud must pay this. :: Compensation
+In the Saudi Civil Transactions Law, a party can ask a court to reduce an agreed compensation if it is this. :: Much greater than the actual harm
+A contract term saying the price is "to be agreed later" may fail for this reason. :: Uncertainty
+The term for adding a time when a contract will end automatically. :: A fixed-term (time-limited) contract
+A contract renewed automatically unless notice is given. :: Evergreen (auto-renewing) contract
+The clause that says the written contract is the full agreement. :: Entire agreement clause
+The clause that says one invalid term doesn't affect the rest. :: Severability clause
+The clause that says how notices must be sent. :: Notices clause
+The clause that stops a party transferring its rights to someone else. :: No-assignment clause
+Transferring the benefit of a contract to another. :: Assignment
+Replacing a party with a new one, with everyone's consent. :: Novation
+A clause that says a waiver of one breach does not waive later breaches. :: Non-waiver clause
+The clause that promises one party will cover the other's losses from claims. :: Indemnity clause
+A document that shows an intention to contract but is not usually binding. :: A letter of intent (or memorandum of understanding)
+"Subject to contract" in negotiations means this. :: No binding agreement yet
+A promise made in a deed does not need this. :: Consideration
+A contract term for delays caused by pandemics, wars and storms. :: Force majeure clause
+During COVID-19, Saudi courts and the Supreme Court issued guidance on this doctrine. :: Emergency circumstances (force majeure)
+The duty to negotiate and perform honestly, strong in civil law systems. :: Good faith
+The Arabic expression of good faith in contracts. :: Husn al-niyyah
+The Islamic legal rule that conditions in contracts must be kept, from the hadith "Muslims are bound by" these. :: Their conditions (al-muslimun 'ala shurutihim)
+The exception to "Muslims are bound by their conditions". :: A condition that makes haram halal or halal haram
+A contract with an unknown price or object has this kind of defect. :: Jahalah (ignorance)
+Selling fish still in the sea is forbidden because of this. :: Gharar (uncertainty of delivery)
+Selling the unborn young of an animal is forbidden because of this. :: Gharar
+Forbidden sale where the buyer throws a pebble to choose the item. :: Bay' al-hasah
+Forbidden sale of touching, where touching the cloth seals the deal. :: Mulamasah
+Forbidden sale of throwing, where throwing the cloth seals the deal. :: Munabadhah
+A city-dweller selling for a desert trader to raise prices was forbidden by this hadith rule. :: "A town dweller should not sell for a bedouin"
+Meeting traders outside the market to buy cheaply before they know prices. :: Talaqqi al-rukban (forbidden)
+Hoarding food to raise prices. :: Ihtikar (forbidden)
+Undercutting a sale another has agreed. :: Selling over another's sale (forbidden)
+Hiding a defect in goods sold. :: Ghish (fraud)
+The hadith "Whoever cheats us is not one of us" was said by our Beloved and our master, the Prophet Muhammad ﷺ after seeing this. :: Wet food hidden under dry in a pile
+The Saudi law that protects consumers from fraud in goods, issued 2008. :: The Anti-Commercial Fraud Law
+The ruling on a contract made on Friday after the second call to prayer. :: Forbidden (and void in the Hanbali school)
+The verse "leave trade" when called to Friday prayer is in this surah. :: Surat al-Jumu'ah
+Under the Saudi Civil Transactions Law, a non-Saudi party's capacity is generally governed by this. :: Their own national law
+A contract for something not yet existing, allowed in salam and istisna', is otherwise forbidden as selling this. :: What one does not have
+The difference between salam and istisna': in salam, the price must be paid this way. :: In full at the time of the contract
+The deposit in a lease to cover damage. :: Security deposit
+In a lease, the tenant must return the property in this condition. :: As received, apart from normal wear
+In Islamic law, who pays for major repairs to a rented house? :: The owner (landlord)
+In Islamic law, a lease ends when the rented item is completely destroyed because of this. :: The benefit is lost
+In Islamic law, a contract of hire for a known wage. :: Ijarah 'ala al-'amal (hire of work)
+A worker should be paid "before his sweat dries", says this source. :: A hadith (Ibn Majah)
+The legal term for using up a borrowed item's benefit without permission. :: Ghasb (usurpation)
+A person who takes property wrongfully must return it and pay for this. :: Its loss or damage
+A contract for transport of goods by sea is recorded in this document. :: A bill of lading
+A bill of lading has three roles: a receipt, a document of title and evidence of this. :: The contract of carriage
+A letter of credit is mainly governed by these ICC rules. :: UCP 600
+In a letter of credit, the bank pays when it sees these. :: Documents that comply
+A guarantee paid on first demand, used in construction. :: A performance (demand) guarantee
+The standard international forms for construction contracts. :: FIDIC contracts
+The FIDIC "Red Book" covers construction designed by this party. :: The employer
+A clause that lets a lender demand the whole loan at once after a missed payment. :: An acceleration clause
+A clause that keeps the seller as owner until the price is paid in full. :: Retention of title (Romalpa clause)
+
+## 400
+Under the CISG, a contract is formed when acceptance does this. :: Reaches the offeror
+Under the CISG, a reply with minor changes that don't alter terms materially is treated as this. :: Acceptance (unless objected to)
+The CISG's remedy that lets a buyer end the contract needs this type of breach. :: Fundamental breach
+The CISG article that defines fundamental breach. :: Article 25
+The CISG gives a party extra time to perform, called this German-inspired term. :: Nachfrist (additional period)
+The CISG excuses a party for an impediment beyond its control under this article. :: Article 79
+The CISG allows a buyer to cut the price for non-conforming goods. This is called this. :: Price reduction
+The Hague convention rules that came before the CISG. :: ULIS and ULF (1964)
+The UNIDROIT Principles' rule on "hardship" allows the disadvantaged party to ask for this. :: Renegotiation
+The English case that refused a general duty of good faith in negotiations. :: Walford v Miles (1992)
+The English case of 2013 that found an implied good faith duty in a long-term contract. :: Yam Seng v ITC
+The English case on interpreting contracts by what a reasonable person would understand. :: Investors Compensation Scheme v West Bromwich (1998)
+The English case of 2015 that said courts should focus on the natural meaning of words, about service charges. :: Arnold v Britton
+The 2017 UK Supreme Court case that balanced textual and contextual reading. :: Wood v Capita Insurance
+The English case that said courts won't imply a term only because it's reasonable. :: Marks and Spencer v BNP Paribas (2015)
+The English case where a court rewrote a contract with an obvious error, "Chartbrook" case. :: Chartbrook v Persimmon Homes (2009)
+The rule that a court won't look at previous negotiations to interpret a contract. :: The exclusionary rule
+The English case of 2018 that held a "no oral modification" clause is effective. :: Rock Advertising v MWB
+The English case where Golden Victory charter was cut short by war. :: The Golden Victory (2007)
+The House of Lords case of 1980 on a fundamental breach and an exclusion clause at a factory fire. :: Photo Production v Securicor
+The English case where a seller's chartered ship sailed late and was a condition. :: The Mihalis Angelos (1971)
+The English case that created innominate terms. :: Hongkong Fir Shipping v Kawasaki (1962)
+The English case where performance was frustrated by a slow building contract but held not frustrated. :: Davis Contractors v Fareham UDC (1956)
+The English case where the Suez Canal closure did not frustrate a sale. :: Tsakiroglou v Noblee Thorl (1962)
+The English case where a contract was frustrated by a pianist's illness. :: Robinson v Davison (1871)
+The English law that adjusts money after frustration. :: The Law Reform (Frustrated Contracts) Act 1943
+The English case of 2019 that said Brexit did not frustrate a lease. :: Canary Wharf v European Medicines Agency
+The English case of 1943 that allowed recovery of money paid when a contract was frustrated. :: Fibrosa v Fairbairn
+The English case where a beauty contest entrant won damages for the lost chance of winning. :: Chaplin v Hicks (1911)
+The English case where profits made by breach had to be handed over: a spy's book. :: Attorney General v Blake (2000)
+The English case on "Wrotham Park" damages for a negotiation price. :: Morris-Garner v One Step (2018)
+The English case where a buyer couldn't get damages for loss of a resale because it was too remote: Koufos. :: The Heron II (1969)
+The English case on duty of care in pre-contract statements by an expert. :: Esso v Mardon (1976)
+The English case where a seller's rule that "the statement isn't a term" mattered: a car's year. :: Oscar Chess v Williams (1957)
+The English case where a dealer's statement on a car's mileage was a term. :: Dick Bentley v Harold Smith (1965)
+The English case that set the "objective test" for agreement: wool sold in error. :: Smith v Hughes (1871)
+The English case where two ships with the same name made no agreement. :: Raffles v Wichelhaus (1864) (the "Peerless")
+The English case where a seller had to cut prices by a mistaken offer per pound. :: Hartog v Colin & Shields (1939)
+The English case on "battle of the forms". :: Butler Machine Tool v Ex-Cell-O (1979)
+The usual winner in a battle of the forms in English law. :: The last shot (last set of terms sent)
+The English case on acceptance by email or telex being instant. :: Entores v Miles Far East (1955)
+The English case of 1983 that confirmed instant acceptance by telex across borders. :: Brinkibon v Stahag Stahl
+The English case where an offer was revoked by a third party's information. :: Dickinson v Dodds (1876)
+The English case where a revocation must reach the offeree, by post. :: Byrne v Van Tienhoven (1880)
+The English case where silence could not be acceptance about a horse. :: Felthouse v Bindley (1862)
+The English case where an auctioneer's advert of a sale was not an offer. :: Harris v Nickerson (1873)
+The English case where a tender process created a duty to consider bids. :: Blackpool Aero Club v Blackpool BC (1990)
+The Saudi Civil Transactions Law adopts the theory of this for unforeseen events making performance very hard. :: Emergency circumstances (al-zuruf al-tari'ah)
+Under the Saudi Civil Transactions Law, when emergency circumstances apply, the court may do this. :: Reduce the burdened obligation to a reasonable level
+Under the Saudi Civil Transactions Law, if a contract becomes impossible by force majeure, the contract does this. :: Ends automatically (infisakh)
+The Saudi Civil Transactions Law recognises the theory of this, where a right is used only to harm others. :: Abuse of right (ta'assuf)
+Under the Saudi Civil Transactions Law, a general rule of liability says anyone whose fault harms another must do this. :: Compensate
+The Saudi Civil Transactions Law ends with a section of general rules called this. :: General legal maxims (qawa'id)
+Under the Saudi Civil Transactions Law, a party to a bilateral contract may refuse to perform until the other performs. This is called this. :: Exception of non-performance (al-daf' bi 'adam al-tanfidh)
+Under the Saudi Civil Transactions Law, retention of a thing until paid is called this. :: The right of retention (habs)
+In Islamic law, a seller may hold goods until paid if the sale is for this kind of price. :: An immediate (cash) price
+The ruling of the Hanbali school on conditions added to contracts by the parties. :: Generally valid unless they conflict with the contract or Sharia
+The Hanbali scholar who wrote that the default in contracts and conditions is permission. :: Ibn Taymiyyah ﵀
+The Hanafi school is stricter on conditions, allowing only those that suit the contract or this. :: Are customary
+The forbidden sale "bay' al-wafa'", where the seller can buy back, is used as this. :: A disguised loan
+The IIFA ruled in 1992 that "bay' al-wafa'" is this. :: Not allowed
+The IIFA ruled in 1990 that instalment sales with a higher price than cash are this. :: Allowed
+The IIFA ruled that a penalty for late payment of debt is this. :: Not allowed (it is riba)
+The IIFA allows a "penalty clause" in contracts except in these. :: Debts (financial obligations)
+The AAOIFI standard that allows a "charity undertaking" for late payment uses money for this. :: Charity
+The IIFA rule on forward currency exchange. :: Not allowed (must be hand to hand)
+The legal concept of "bay' al-'urbun" was allowed by this school. :: The Hanbali school
+The Hanbali view on 'urbun relies on a report from this Companion. :: Umar ibn al-Khattab ﵁
+The IIFA ruled in 1993 that 'urbun is this. :: Allowed (if time-limited)
+The IIFA ruled in 1992 that istisna' is this kind of contract. :: Binding
+The international private law rule on which law governs a contract when not chosen, in the EU. :: Rome I Regulation
+The Hague Principles on Choice of Law in International Commercial Contracts were adopted in this year. :: 2015
+The New York Convention of 1958 is about recognising and enforcing these. :: Foreign arbitral awards
+Saudi Arabia joined the New York Convention in this year. :: 1994
+The Saudi Arbitration Law was issued in this year. :: 2012
+The Saudi Center for Commercial Arbitration was set up in this year. :: 2014
+The Saudi Enforcement Law was issued in this year. :: 2012
+The UNCITRAL Model Law on Electronic Commerce was adopted in this year. :: 1996
+The US case "Hawkins v McGee" is known as this. :: The "hairy hand" case
+The US case "Lucy v Zehmer" held a contract written on a napkin in a bar was this. :: Binding (objective intent)
+The US case where a jet offer in a Pepsi advert was not a real offer. :: Leonard v PepsiCo (1999)
+In Leonard v PepsiCo, the prize was this military aircraft. :: A Harrier jet
+The US doctrine like estoppel from Restatement section 90. :: Promissory estoppel
+The US Restatement (Second) of this topic is a key guide. :: Contracts
+The US doctrine of "unconscionability" was shown in this furniture-store case. :: Williams v Walker-Thomas Furniture (1965)
+The US case where a builder used the wrong brand of pipe but got paid. :: Jacob & Youngs v Kent (1921)
+The US doctrine applied in Jacob & Youngs. :: Substantial performance
+The US case on "efficient breach" debates; the idea that breaching and paying can be efficient. :: Efficient breach theory (Posner)
+The US case where a famous actress's film contract was in dispute over different work. :: Parker v Twentieth Century-Fox (1970)
+In Parker v Twentieth Century-Fox, the actress was this person. :: Shirley MacLaine
+The principle that a party can refuse a substitute job of a different kind when mitigating. :: Not required to take inferior work
+German civil law's rule of good faith is in this section of the BGB. :: Section 242
+The German civil code is called this. :: BGB (Bürgerliches Gesetzbuch)
+The BGB came into force in this year. :: 1900
+The German law concept of "culpa in contrahendo" means fault in this. :: Negotiations (before a contract)
+The German legal scholar who named "culpa in contrahendo". :: Rudolf von Jhering
+The Swiss Code of Obligations was adopted by this Muslim country in 1926. :: Turkey
+The Ottoman Mecelle was used as civil law in this country until 1976. :: Jordan
+The Mecelle's first 99 articles list these. :: Legal maxims
+The first maxim of the Mecelle. :: Matters are judged by their purposes
+The UAE Civil Transactions Law was issued in this year. :: 1985
+The Kuwaiti Civil Code was issued in this year. :: 1980
+The Egyptian Civil Code has been in force since this year. :: 1949
+Al-Sanhuri's ﵀ famous multi-volume commentary on civil law. :: Al-Wasit
+Al-Sanhuri ﵀ also wrote a famous study on these in Islamic law. :: Sources of right (Masadir al-Haqq)
+The French Court of Cassation case on a canal's water fees fixed in 1567. :: Canal de Craponne (1876)
+The Canal de Craponne case rejected this doctrine in French private law until 2016. :: Imprévision (hardship)
+The French Council of State case on gas lighting in Bordeaux accepted this doctrine for public contracts. :: Imprévision (Gaz de Bordeaux, 1916)
+The 2016 French reform introduced hardship in this article. :: Article 1195
+
+## 500
+In Cundy v Lindsay (1878), a rogue named Blenkarn tricked sellers by posing as this respected firm. :: Blenkiron & Co
+The English rule that a court won't award damages for a breach without loss unless this. :: Nominal damages only
+The English case on "lawful act duress" in a contract to give up a claim. :: Times Travel v Pakistan International Airlines (2021)
+The English case that clarified illegality defence with a "range of factors". :: Patel v Mirza (2016)
+In Patel v Mirza, money was paid for this illegal purpose. :: Insider dealing (betting on bank shares)
+The English case of 1919 on whether promises in domestic settings are binding. :: Balfour v Balfour
+The English case where a promise between separated spouses was binding. :: Merritt v Merritt (1970)
+The English case of 1989 that held a "comfort letter" was not a binding promise. :: Kleinwort Benson v Malaysia Mining
+The English case where a doctor was liable for misstatement by a bank's reference. :: Hedley Byrne v Heller (1964)
+The English case where a contract was made by conduct without signing. :: Brogden v Metropolitan Railway (1877)
+The English case that made "consideration must move from the promisee" a rule. :: Tweddle v Atkinson (1861)
+The English case about a contract in favour of a widow who sued as an administrator. :: Beswick v Beswick (1968)
+The English case on damages for a breach of a promise to provide a holiday for a family. :: Jackson v Horizon Holidays (1975)
+The English case where an agent bound a principal despite lack of authority. :: Freeman & Lockyer v Buckhurst Park (1964)
+The type of authority created when a principal makes it look like the agent has authority. :: Apparent (ostensible) authority
+The type of authority a principal expressly gives. :: Actual authority
+A principal adopting an agent's unauthorised act later. :: Ratification
+The English case that set the rule that ratification needs the principal to exist when the contract is made. :: Kelner v Baxter (1866)
+The English law that protects commercial agents in the UK, from an EU directive. :: The Commercial Agents Regulations 1993
+In Saudi Arabia, commercial agencies are governed by this law (old law of 1962). :: The Commercial Agencies Law
+The Hanafi school's view of khiyar al-majlis. :: Not recognised (the contract binds on offer and acceptance)
+The Shafi'i and Hanbali schools accept khiyar al-majlis based on this hadith. :: "The two parties have the option as long as they have not separated"
+In the Hanbali school, khiyar al-shart may last for this long. :: Any agreed known period
+In the Hanafi school, khiyar al-shart is limited to this long. :: Three days (per Abu Hanifah ﵀)
+The Arabic term for selling the usufruct of a property for a time. :: Ijarah (sale of benefits)
+The term for the Hanafi rule that lease ends on death of either party. :: Infisakh by death
+The majority view on whether a lease ends on death of a party. :: It doesn't end
+In Islamic law, the hire of a shared worker (such as a tailor serving many) makes him liable for damage according to many scholars. This worker is called this. :: Ajir mushtarak
+The worker hired by one person only, who is not liable unless at fault. :: Ajir khass
+The Companion who ruled that shared workers like dyers are liable to protect people's goods. :: Ali ibn Abi Talib ﵁
+The legal concept that a trustee is not liable unless at fault. :: Yad amanah (hand of trust)
+The legal concept that someone holding property in a way that makes them liable. :: Yad daman (hand of liability)
+A borrower of an item ('ariyah) is liable for its loss according to these two schools. :: Shafi'i and Hanbali
+The hadith on 'ariyah: our Beloved and our master, the Prophet Muhammad ﷺ borrowed armour from this man and said it was guaranteed. :: Safwan ibn Umayyah ﵁
+The legal concept for selling at a price "in the market rate" without stating it. :: Bay' bi-si'r al-suq (allowed by Ibn Taymiyyah ﵀)
+The Hanbali view on a sale where the price is the "price the people sell at". :: Allowed by Ibn Taymiyyah ﵀ and others
+The jurist Ibn al-Qayyim ﵀ wrote that conditions in contracts are permitted unless forbidden in this book. :: I'lam al-Muwaqqi'in
+Ibn Taymiyyah ﵀ discussed contracts and conditions at length in this book of fiqh principles. :: Al-Qawa'id al-Nuraniyyah
+The IIFA ruled in 1988 on the sale of "trade names, licences and goodwill", saying they are this. :: Property that can be sold (financial rights)
+The IIFA ruled in 1990 that bonds paying interest are this. :: Forbidden
+The IIFA ruled in 2000 that a lease ending in ownership needs this. :: Two separate contracts (lease, then sale or gift)
+The Saudi Council of Senior Scholars' 1999 ruling on lease ending in ownership said the contract in its usual form was this. :: Not allowed (in its combined form)
+The Saudi Finance Lease Law was issued in this year. :: 2012
+The Saudi Real Estate Mortgage Law was issued in this year. :: 2012
+The Saudi law of 2018 on movable property as security. :: The Commercial Pledge Law
+The Saudi register for pledges of movable property. :: The Movable Property Security Registry (Commercial Pledge Registry)
+The Saudi Bankruptcy Law was issued in this year. :: 2018
+The Saudi Bankruptcy Law offers this procedure to keep a business running with creditor agreement. :: Protective settlement (al-taswiyah al-wiqa'iyyah)
+Under the Saudi Civil Transactions Law, the formation of contracts is followed by sections on contract effects, interpretation and this. :: Termination (dissolution)
+The Saudi Civil Transactions Law lists sources of obligation: contract, unilateral will, harmful act, beneficial act and this. :: The law (statute)
+The Saudi Civil Transactions Law treats an offer of a reward to the public as this source of obligation. :: Unilateral will (iradah munfaridah)
+Under the Saudi Civil Transactions Law, a person who unjustly gains at another's cost must return this. :: The lesser of the gain and the loss
+Under the Saudi Civil Transactions Law, someone who pays a debt not owed can recover it. This is called this. :: Recovery of undue payment
+The Saudi Civil Transactions Law's chapter on "fudalah" covers this. :: Acting for another without authority (negotiorum gestio)
+The Roman law term for managing someone's affairs without authority. :: Negotiorum gestio
+The Roman law classification of obligations by Gaius: contract, delict and this. :: Various other causes
+Roman law's four types of contracts: verbal, literal, real and this. :: Consensual
+The Roman jurist whose "Institutes" became a key textbook. :: Gaius
+The Byzantine emperor whose compilation is the "Corpus Juris Civilis". :: Justinian
+Robert Pothier's treatise on obligations influenced this code. :: The French Civil Code (1804)
+The 2016 French reform removed this old requirement of contracts. :: Cause
+The Dutch Civil Code reformed in 1992 allows courts to change contracts for unforeseen events under this article. :: Article 6:258
+The Principles of European Contract Law were prepared by a commission led by this Danish scholar. :: Ole Lando
+The Draft Common Frame of Reference was published in this year. :: 2009
+The UNIDROIT Principles were first published in this year. :: 1994
+The latest edition of the UNIDROIT Principles. :: 2016
+UNIDROIT is based in this city. :: Rome
+UNCITRAL is based in this city. :: Vienna
+UNCITRAL's 2005 convention on electronic communications in contracts is called this. :: The Electronic Communications Convention
+The Saudi Arabian law that set rules on digital signatures and electronic records. :: The Electronic Transactions Law (2007)
+The term for a smart contract that executes on a blockchain. :: Self-executing code contract
+In 2021 the Law Commission of England and Wales said smart contracts can be this under existing law. :: Legally binding
+The US uniform law that recognises electronic signatures (1999). :: UETA
+The US federal law of 2000 on electronic signatures. :: The E-SIGN Act
+The EU regulation on electronic identification and trust services. :: eIDAS (2014)
+The concept of "fiqh al-mu'amalat" covers this. :: Islamic law of transactions
+The scholar whose "Al-Fiqh al-Islami wa Adillatuh" is widely cited on contracts. :: Wahbah al-Zuhayli ﵀
+The Syrian jurist Mustafa al-Zarqa ﵀ wrote this famous book introducing Islamic law. :: Al-Madkhal al-Fiqhi al-'Amm
+Mustafa al-Zarqa ﵀ wrote about contract theory, calling Islamic law's contracts "named" and these. :: Unnamed (new) contracts
+The Islamic law concept that new contracts are valid if they meet general conditions was defended by Mustafa al-Zarqa ﵀ and this earlier scholar. :: Ibn Taymiyyah ﵀
+The Kuwaiti Encyclopedia of Fiqh has this many volumes. :: 45
+The Kuwaiti Encyclopedia of Fiqh is published by this ministry. :: Kuwait's Ministry of Awqaf and Islamic Affairs
+The Saudi Arabian Supreme Court's 2020 COVID guidance on contracts discussed force majeure and this. :: Emergency circumstances
+The rule that an agent can't buy for himself what he was told to sell, without permission, in Islamic law. :: Conflict of interest (an agent can't deal with himself)
+The Islamic law term for the right of a neighbour or co-owner to buy a share first. :: Shuf'ah (pre-emption)
+The Hanafi school gives shuf'ah to this person, but the majority does not. :: A neighbour (who is not a co-owner)
+The Saudi Real Estate Registration Law that made registration the way title passes was issued in this year. :: 2022 (Real Estate Registration Law)
+The English case of 1976 that gave its name to retention of title clauses. :: Aluminium Industrie Vaassen v Romalpa
+The Islamic contract where a buyer pays in advance for goods delivered later must state these five things. :: Kind, type, quantity, quality and delivery time
+Imam al-Shafi'i ﵀ argued that salam is allowed by this verse. :: The verse of debt (Surat al-Baqarah 282)
+The hadith that allows salam says it must be in a known measure, known weight and this. :: A known term (delivery date)
+The Hanafi school requires the goods in a salam contract to exist in the market from contract to this. :: Delivery
+A parallel salam lets a bank do this. :: Sell similar goods to a third party in a separate salam
+The forbidden sale of something before you have possession was linked by Ibn Abbas ﵁ to this item, though he thought it applied to all goods. :: Food
+The forbidden "two conditions in one sale" was taken by Imam Ahmad ﵀ to mean this. :: Two extra conditions joined to a sale
+The Islamic legal term for mixing a sale and a loan in one deal, forbidden by hadith. :: Salaf wa bay'
+The reason "salaf wa bay'" is forbidden. :: It can hide interest on the loan
+The Hanbali rule that a "sale with a condition of a benefit", such as the seller riding a camel to town, comes from this Companion's hadith. :: Jabir ibn Abdullah ﵁
+In that hadith, Jabir ﵁ sold his camel to our Beloved and our master, the Prophet Muhammad ﷺ on the way back from this. :: A military expedition (a journey)
+The French term for a contract between unequal parties with fixed terms, used by Raymond Saleilles. :: Contrat d'adhésion
+
+## case
+Sara puts a sign in her shop: "Phones 500 riyals". A customer insists she must sell at that price. Must she? :: No; a displayed price is usually an invitation to treat, not an offer
+Omar offers to sell his car for 40,000 riyals. Khalid replies, "I'll pay 35,000." Omar refuses. Can Khalid now accept 40,000? :: No; the counter-offer ended the original offer
+A company advertises a reward of 1,000 riyals to anyone who finds its lost laptop. Huda finds and returns it. Can she claim? :: Yes; it is a unilateral offer (ju'alah) accepted by doing the act
+A seller sells a used car and hides that the engine was flooded. The buyer finds out a week later. What option does Islamic law give? :: Khiyar al-'ayb (return it for a hidden defect)
+A builder must finish a villa by June. A citywide flood stops all work for two months. Is he liable for the delay? :: Usually not; a force majeure event excuses the delay
+A contract says a supplier pays 5% of the price for each week of late delivery. In Islamic finance, may this apply to a loan repayment? :: No; a penalty on a debt is riba (only allowed in non-debt contracts)
+A 15-year-old buys an expensive phone on credit without his guardian's consent. Is the contract binding on him? :: Generally no; it depends on his guardian's approval
+A buyer pays a 5,000 riyal 'arbun on a 100,000 riyal car and then backs out. What happens to the 5,000 in the Hanbali view? :: The seller keeps it
+Two parties sign a contract in Riyadh with no clause on the law. A dispute comes up. Which law will a Saudi court apply? :: Saudi law (Sharia and the Civil Transactions Law)
+A tenant's flat is destroyed by fire without his fault halfway through a one-year lease. Must he pay the remaining rent? :: No; the lease ends because the benefit is lost

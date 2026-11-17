@@ -4,7 +4,8 @@ import type { Game, Lang, Screen, ThemeId } from '../lib/types'
 import { VALUES } from '../lib/types'
 import type { Strings } from '../lib/i18n'
 import { num } from '../lib/i18n'
-import { FINAL_SECS, FINAL_VALUE, LIGHTNING_SECS, STREAK_AT, clueSeconds, isFinished, lastPlace, standings, tileKey } from '../lib/game'
+import { FINAL_SECS, FINAL_VALUE, LIGHTNING_SECS, MODE_VALUE, STREAK_AT, clueSeconds, cluePoints, cluesOf, isFinished, lastPlace, standings, tileKey } from '../lib/game'
+import { ModeItemView } from './Rounds'
 import type { Live } from '../lib/edition'
 import { setFavicon } from '../lib/favicon'
 import { Ambient, CatIcon, Flourish, FlourishAbove, Mark } from './Brand'
@@ -170,6 +171,41 @@ function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings;
       })}
     </div>
   )
+
+  if (screen === 'mode' && game?.modeRound) {
+    const { mode, items } = game.modeRound
+    const st = game.modeState
+    const item = st && !st.done ? items[st.i] : undefined
+    const n = item && mode === 'clues' ? cluesOf(item).length : 0
+    const shown = st?.revealed ? n : (st?.shown ?? 1)
+    const worth = item ? (mode === 'clues' ? cluePoints(item, shown) : MODE_VALUE) : 0
+    return (
+      <main className="aud-main round" data-testid="audience-mode">
+        {help}
+        <h1 className="round-title">{t.modeNames[mode]}</h1>
+        <section className="stage round-stage">
+          {item ? (
+            <div className="round-card" key={st!.i}>
+              <span className="label">
+                {num(st!.i + 1, lang)} {t.ofTotal} {num(items.length, lang)} · {t.worth} {num(worth, lang)}
+              </span>
+              <ModeItemView t={t} mode={mode} item={item} shown={shown} />
+              {st!.revealed ? (
+                <div className="answer show" dir="auto" data-testid="audience-mode-a">
+                  {item.a}
+                </div>
+              ) : (
+                <div className="answer aud-hidden" aria-hidden="true" />
+              )}
+            </div>
+          ) : (
+            <p className="round-msg">{st?.done ? t.modeOut : t.modeHelps[mode]}</p>
+          )}
+          {teamChips(game)}
+        </section>
+      </main>
+    )
+  }
 
   if (screen === 'lightning' && game) {
     const st = game.lightningState

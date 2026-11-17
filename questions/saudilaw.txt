@@ -1,0 +1,553 @@
+id: saudilaw
+name: Saudi Legal System
+group: law
+
+## 100
+Saudi Arabia's constitution, according to its Basic Law. :: The Quran and the Sunnah
+The Saudi law, issued in 1992, that sets out the system of government. :: Basic Law of Governance
+The head of state of Saudi Arabia. :: The King
+The official title of the King of Saudi Arabia, adopted by King Fahd in 1986. :: Custodian of the Two Holy Mosques
+The current King of Saudi Arabia. :: King Salman bin Abdulaziz
+The current Crown Prince and Prime Minister of Saudi Arabia. :: Prince Mohammed bin Salman
+The founder of the modern Kingdom of Saudi Arabia. :: King Abdulaziz Al Saud
+The Kingdom of Saudi Arabia was proclaimed in this year. :: 1932
+Saudi Arabia's National Day falls on this date. :: 23 September
+Saudi Arabia's Founding Day, marking the first Saudi state in 1727, falls on this date. :: 22 February
+The capital of Saudi Arabia, as named in the Basic Law. :: Riyadh
+The official language of Saudi Arabia. :: Arabic
+The official calendar of Saudi Arabia under the Basic Law. :: The Hijri calendar
+Saudi Arabia's official holidays named in the Basic Law. :: Eid al-Fitr and Eid al-Adha
+The consultative council whose members are appointed by the King. :: Shura Council (Majlis al-Shura)
+The council of ministers is chaired by this person. :: The Prime Minister (currently the Crown Prince)
+The ministry in charge of courts and notaries. :: Ministry of Justice
+The ministry in charge of police and internal security. :: Ministry of Interior
+The Saudi government's online justice platform for filing cases. :: Najiz
+The Saudi government services app for passports, IDs and visas. :: Absher
+A person who studies law and gives legal advice in court. :: Lawyer
+A judge in a Sharia court is called this in Arabic. :: Qadi
+The highest court in Saudi Arabia. :: Supreme Court
+Courts that hear appeals from first-level courts. :: Courts of Appeal
+The Saudi court system for cases against the government. :: Board of Grievances (Diwan al-Mazalim)
+The Saudi courts that hear family cases like marriage and divorce. :: Personal status courts
+The Saudi courts that hear disputes between workers and employers. :: Labour courts
+The Saudi courts that hear business disputes. :: Commercial courts
+The courts that hear crimes. :: Criminal courts
+The Saudi body that investigates crimes and brings charges. :: Public Prosecution
+The head of the Public Prosecution. :: Attorney General
+A written decision by the King that has the force of law. :: Royal decree
+Royal decrees in Saudi Arabia are numbered with this letter in front, such as "M/51". :: M (meem)
+The sayings, actions and approvals of our Beloved and our master, the Prophet Muhammad ﷺ. :: The Sunnah
+The Islamic school of law most followed by Saudi courts. :: The Hanbali school
+The founder of the Hanbali school. :: Imam Ahmad ibn Hanbal ﵀
+The Arabic word for Islamic law. :: Sharia
+The Arabic word for Islamic jurisprudence, the human understanding of Sharia. :: Fiqh
+A formal legal opinion by a qualified scholar. :: Fatwa
+The highest religious official who issues fatwas in Saudi Arabia. :: Grand Mufti
+The body of senior scholars that advises the state on religious matters. :: Council of Senior Scholars
+The number of administrative regions in Saudi Arabia. :: 13
+The largest region of Saudi Arabia by area. :: Eastern Province
+The official who heads a Saudi region on behalf of the King. :: Emir (governor) of the region
+The legal age of adulthood for most purposes in Saudi Arabia. :: 18
+The Personal Status Law sets this age for marriage; younger marriages need a court's approval. :: 18
+The Saudi law that covers marriage, divorce, custody and inheritance, passed in 2022. :: Personal Status Law
+The Saudi law of 2023 that sets general rules for contracts and harm. :: Civil Transactions Law
+The Saudi law of 2022 that sets rules on witnesses and documents in court. :: Law of Evidence
+The Saudi law that governs work in the private sector. :: Labour Law
+The Saudi law against harassment was issued in this year. :: 2018
+Women in Saudi Arabia were allowed to drive from this year. :: 2018
+The Saudi automated traffic camera system. :: Saher
+The Saudi authority that fights corruption, known as Nazaha. :: Oversight and Anti-Corruption Authority
+The Saudi body that protects personal data, known by the letters SDAIA. :: Saudi Data and Artificial Intelligence Authority
+The Saudi law that protects personal data took full effect in this year. :: 2023
+Saudi Arabia's body for human rights, part of the government. :: Human Rights Commission
+The Saudi organisation of lawyers set up in 2015. :: Saudi Bar Association
+The first Saudi women received lawyers' licences in this year. :: 2013
+A contract for renting a home must be registered on this Saudi platform. :: Ejar
+The Saudi platform for registering companies and commercial records. :: Saudi Business Center
+A company's licence to trade, listing its name and activity, is called this. :: Commercial registration (CR)
+A will in Islamic law. :: Wasiyyah
+The Islamic law of inheritance shares. :: Fara'id (mirath)
+A person who is owed money and sues is called this. :: Plaintiff (claimant)
+The person being sued. :: Defendant
+A person who saw something and tells the court. :: Witness
+The Arabic name for an oath taken in court. :: Yamin
+Settling a dispute with the help of a neutral person outside court. :: Mediation (sulh)
+A dispute decided by a private, chosen judge called an arbitrator. :: Arbitration
+The Saudi centre for commercial arbitration, known by the letters SCCA. :: Saudi Center for Commercial Arbitration
+The Saudi platform for settling disputes by agreement before court. :: Taradhi
+A written power that lets someone act for you legally. :: Power of attorney (wakalah)
+A public official who signs and records legal documents. :: Notary
+Taking someone's property by force or without right. :: Ghasb (usurpation)
+A punishment set out in the Quran or Sunnah for certain crimes. :: Hadd
+A punishment left to the judge's discretion. :: Ta'zir
+Retaliation in kind for murder or injury, unless the victim's family forgives. :: Qisas
+Blood money paid to a victim's family. :: Diyah
+The Saudi body that hears complaints about government decisions. :: Board of Grievances
+The Saudi law against cyber crimes was issued in this year. :: 2007
+Spreading rumours or private photos online without consent is punished under this law. :: Anti-Cyber Crime Law
+The Saudi government website that publishes laws and regulations. :: Bureau of Experts at the Council of Ministers (laws.boe.gov.sa)
+The official gazette of Saudi Arabia, where new laws are published. :: Umm al-Qura
+The words written on the Saudi flag. :: The shahada (There is no god but Allah, Muhammad is the Messenger of Allah ﷺ)
+The Saudi flag must never be flown at half-mast because it carries this. :: The shahada
+The symbol on the Saudi emblem. :: A palm tree and two crossed swords
+The Saudi national anthem's opening words. :: Sarei lil majd wal alyaa (Hasten to glory and supremacy)
+Saudi citizenship is governed by this law. :: Saudi Arabian Citizenship System (Nationality Law)
+The Saudi identity card for citizens. :: National ID card (Hawiya)
+The residency permit for foreign residents in Saudi Arabia. :: Iqama
+The Saudi ministry that runs labour laws and work permits. :: Ministry of Human Resources and Social Development
+The Saudi ministry that registers businesses and protects consumers. :: Ministry of Commerce
+The Saudi body that regulates the stock market. :: Capital Market Authority
+The Saudi central bank. :: Saudi Central Bank (SAMA)
+The Saudi city where most government ministries are found. :: Riyadh
+The Saudi city where foreign embassies were based until the 1980s. :: Jeddah
+The rule that no one is punished except by a law. This is called the principle of this. :: Legality (no crime without a law)
+The idea that a person is innocent until proven this. :: Guilty
+The Basic Law says the home is protected and can't be entered without the owner's permission or this. :: A legal order
+The Basic Law protects this kind of correspondence from being read or delayed. :: Mail and phone communications (private correspondence)
+
+## 200
+The Basic Law of Governance has this many articles. :: 83
+The Basic Law was issued by King Fahd in this year. :: 1992 (1412 AH)
+Article 1 of the Basic Law says Saudi Arabia is a sovereign Arab Islamic state whose constitution is this. :: The Book of Allah and the Sunnah of His Messenger ﷺ
+Article 5 says rule passes to the sons of the founder King Abdulaziz and these. :: Their sons (the grandsons)
+The three state authorities named in Article 44 of the Basic Law. :: Judicial, executive and regulatory (organisational)
+The authority that makes laws in Saudi Arabia, called the "regulatory authority". :: The King with the Council of Ministers and the Shura Council
+Article 46 of the Basic Law says the judiciary is this. :: Independent (subject only to Sharia)
+The Basic Law says the state protects human rights according to this. :: Islamic Sharia
+The Shura Council Law was issued in this year. :: 1992
+The Shura Council has this many members, plus a speaker. :: 150
+A Shura Council term lasts this many years. :: Four
+Women first joined the Shura Council in this year. :: 2013
+The share of Shura seats set aside for women from 2013. :: At least 20% (30 seats)
+The Law of the Council of Ministers was issued in this year. :: 1993
+The Law of the Regions was issued in this year. :: 1992
+The body set up in 2006 to choose the Crown Prince. :: Allegiance Council (Hay'at al-Bay'ah)
+The Allegiance Council is made up of sons and grandsons of this king. :: King Abdulaziz
+The Saudi Law of the Judiciary in force was issued in this year. :: 2007
+The Law of the Board of Grievances in force was issued in this year. :: 2007
+King Abdullah's plan to reform the courts in 2007 was worth about this much. :: 7 billion riyals
+The body that oversees Saudi courts and judges in the general judiciary. :: Supreme Judicial Council
+The body that oversees the administrative courts. :: Administrative Judicial Council
+The first-degree courts in the general judiciary: general, criminal, personal status, commercial and this. :: Labour
+Saudi commercial courts began work in this year. :: 2017
+Saudi labour courts began work in this year. :: 2018
+The Saudi Law of Procedure before Sharia Courts in force was issued in this year. :: 2013 (1435 AH)
+The Saudi Law of Criminal Procedure was first issued in this year. :: 2001
+The Saudi Commercial Courts Law was issued in this year. :: 2020
+The Bureau of Investigation and Public Prosecution was renamed the Public Prosecution in this year. :: 2017
+The Saudi agency that handles enforcement of court judgments. :: Enforcement courts (enforcement judge)
+The Saudi Enforcement Law was issued in this year. :: 2012
+A debtor who refuses to pay a judgment can be banned from doing this. :: Travelling (and dealing with banks)
+The four big new laws announced by the Crown Prince in February 2021. :: Personal Status, Civil Transactions, Evidence, and Discretionary Sanctions
+The Saudi Personal Status Law took effect in this year. :: 2022
+The Saudi Law of Evidence took effect in this year. :: 2022
+The Saudi Civil Transactions Law took effect in December of this year. :: 2023
+The fourth announced law, still being prepared, covers this. :: Discretionary (ta'zir) penalties
+The Saudi Arbitration Law in force was issued in this year. :: 2012
+The Saudi Center for Commercial Arbitration began operating in this year. :: 2016
+Saudi Arabia joined the New York Convention on enforcing foreign arbitral awards in this year. :: 1994
+The Saudi Companies Law in force took effect in this year. :: 2023
+The Saudi Bankruptcy Law took effect in this year. :: 2018
+The Saudi Anti-Concealment Law targets this practice. :: Tasattur (letting a foreigner run a business in a Saudi's name)
+The Saudi Anti-Concealment Law was issued in this year. :: 2020
+The Saudi E-Commerce Law was issued in this year. :: 2019
+The Saudi Personal Data Protection Law was issued in this year. :: 2021
+The Saudi Anti-Money Laundering Law in force was issued in this year. :: 2017
+The Saudi Law on Combating Terrorism Crimes and its Financing in force was issued in this year. :: 2017
+The Saudi Combating Bribery Law was issued in this year. :: 1992
+Nazaha, the anti-corruption commission, was set up in this year. :: 2011
+Nazaha was merged with the Control and Investigation Board in this year. :: 2019
+The 2017 anti-corruption campaign held suspects at this Riyadh hotel. :: Ritz-Carlton
+The Saudi Protection from Abuse Law was issued in this year. :: 2013
+The Saudi Juveniles Law was issued in this year. :: 2018
+The Saudi Traffic Law in force was issued in this year. :: 2007
+The Saudi Labour Law in force was issued in this year. :: 2005
+Big amendments to the Saudi Labour Law took effect in February of this year. :: 2025
+The Saudi Code of Law Practice (lawyers' law) was issued in this year. :: 2001
+To work as a lawyer in Saudi Arabia you need a licence from this ministry. :: Ministry of Justice
+The Saudi Human Rights Commission was set up in this year. :: 2005
+The independent National Society for Human Rights was set up in this year. :: 2004
+The Saudi Arabian Citizenship System dates from this year. :: 1954 (1374 AH)
+The Saudi Premium Residency Law was issued in this year. :: 2019
+The Bureau of Experts at the Council of Ministers mainly reviews these. :: Draft laws and regulations
+The Council of Senior Scholars was set up in this year. :: 1971
+The first Grand Mufti of Saudi Arabia. :: Sheikh Muhammad ibn Ibrahim Al ash-Sheikh ﵀
+In 2010 King Abdullah limited fatwas on public matters to members of this body. :: Council of Senior Scholars (and approved scholars)
+The Saudi Code of Criminal Procedure says a suspect can't be held more than this many hours without being brought to the investigator. :: 24
+The Saudi Code of Criminal Procedure gives the accused the right to this kind of help. :: A lawyer (legal representative)
+The time limit to appeal most Saudi court rulings. :: 30 days
+The deadline to object to urgent rulings in Saudi courts. :: 10 days
+The Saudi court that can review rulings for violating Sharia or the law. :: Supreme Court
+A court ruling becomes final when it can no longer be this. :: Appealed (objected to)
+A Saudi judge is appointed by this. :: Royal order
+A Saudi judge must hold a degree in this. :: Sharia (or an equivalent with a law diploma)
+The judicial training institute in Riyadh for judges. :: Higher Judicial Institute
+The Saudi Ministry of Justice's virtual courts let parties attend by this. :: Video link
+The Saudi electronic notary service lets people issue these online. :: Powers of attorney
+The Saudi 'Ministry of Justice' introduced electronic title deeds for property under this system. :: Real Estate Registry (electronic deeds)
+The Saudi General Authority for Real Estate is known by this short name. :: REGA
+A rental dispute about unpaid rent in an Ejar contract can be enforced directly because the contract is this. :: An enforceable instrument (sanad tanfidhi)
+The Saudi Law of Commercial Papers covers cheques, bills of exchange and these. :: Promissory notes
+Writing a cheque with no funds is a crime under this law. :: Commercial Papers Law
+The Saudi Competition Law in force was issued in this year. :: 2019
+The Saudi Government Tenders and Procurement Law took effect in this year. :: 2019
+The Saudi Investment Law that replaced the Foreign Investment Law took effect in this year. :: 2025
+The Saudi Franchise Law was issued in this year. :: 2019
+The Saudi Commercial Register Law of 2025 replaced the old law from this year. :: 1996 (1416 AH)
+The Arabic term for the consensus of scholars, a source of Islamic law. :: Ijma'
+The Arabic term for analogy, a source of Islamic law. :: Qiyas
+The four main Sunni schools of law: Hanafi, Maliki, Shafi'i and this. :: Hanbali
+A judge's written decision in a case. :: Judgment (hukm)
+The document that starts a lawsuit in a Saudi court. :: Statement of claim (sahifat al-da'wa)
+A court session where both parties present their case. :: Hearing
+A lawyer who represents a party is called this in Arabic. :: Wakil (or muhami)
+The Saudi platform that lets lawyers and parties view case files and dates online. :: Najiz
+A legal claim that has run out of time is said to be this. :: Time-barred
+A person's legal ability to make contracts, missing in young children. :: Legal capacity (ahliyyah)
+A person appointed by a court to manage the money of a child or an incapable person. :: Guardian (wasi or qayyim)
+A court order to stop someone doing something. :: Injunction (urgent order)
+
+## 300
+The Basic Law article that names the Quran and Sunnah as the source of the state's authority. :: Article 7
+The Basic Law article that says governance is based on justice, shura and equality. :: Article 8
+The Basic Law article that says the family is the core of Saudi society. :: Article 9
+The Basic Law article that says the state protects human rights according to Sharia. :: Article 26
+The Basic Law article that says the state shall protect Islam and carry out its Sharia. :: Article 23
+The Basic Law article that says education aims to instil the Islamic faith. :: Article 13
+The Basic Law article that guarantees the right of complaint to the King and Crown Prince. :: Article 43
+The Basic Law says the King is the reference point for these three authorities. :: Judicial, executive and regulatory
+The Basic Law article on the independence of judges. :: Article 46
+The Basic Law article that says litigation is a right for citizens and residents. :: Article 47
+The Basic Law article that says courts apply Sharia and laws that don't conflict with it. :: Article 48
+The Basic Law says no tax or fee shall be imposed except by this. :: A law (and when needed)
+The Basic Law article that makes zakat collection a state duty. :: Article 21
+The Basic Law article on private property protection. :: Article 18
+The Basic Law article that forbids general confiscation of property. :: Article 19
+The Basic Law article that says punishment is personal and there is no crime without a text. :: Article 38
+The Basic Law article on the inviolability of homes. :: Article 37
+The Basic Law article on privacy of communications. :: Article 40
+The Basic Law article that says the Shura Council's rights are set by a law. :: Article 68
+The Basic Law article that says laws, treaties and agreements are issued by royal decree. :: Article 70
+The Basic Law article that says laws are published in the official gazette. :: Article 71
+The Basic Law article on how it can be amended. :: Article 83 (in the same way it was issued)
+The Basic Law was issued with these two other laws on the same day. :: Shura Council Law and Law of the Regions
+The 'regulatory' rather than 'legislative' label is used because only Allah is this. :: The Lawgiver (al-Shari')
+Saudi laws are called 'nizam' rather than 'qanun' for this reason. :: To show they organise matters within Sharia rather than legislate apart from it
+A Shura Council decision that differs from the Council of Ministers goes back to the Shura Council and then to this person. :: The King
+The 1926 'Instructions' (al-Ta'limat al-Asasiyyah) were issued for this region. :: The Hijaz
+The first Saudi commercial court law, from 1931, was this. :: The Commercial Court Law (Nizam al-Mahkamah al-Tijariyyah)
+The Saudi Labour and Workmen Law came before the 2005 Labour Law; it was issued in this year. :: 1969
+The old Board of Grievances was set up as an independent body in this year. :: 1955
+The 1982 Board of Grievances Law made it this. :: An independent administrative judiciary
+The Saudi Supreme Court was set up under the 2007 judiciary law; before that the highest body was this. :: Supreme Judicial Council
+The Saudi 'Specialised Criminal Court', set up in 2008, deals with this. :: Terrorism and state security cases
+The number of judges sitting in a Saudi Court of Appeal panel. :: Three
+A first-instance judgment in serious criminal cases like qisas is heard by this many judges. :: Three
+The Saudi Law of Procedure before Sharia Courts says the claimant must file in the court of this person's location. :: The defendant
+The Saudi principle that "the burden of proof is on the claimant and the oath is on the one who denies" comes from this. :: A hadith
+The Arabic maxim "Al-bayyinah 'ala al-mudda'i wal-yamin 'ala man ankar" means this. :: Proof is on the claimant, the oath on the denier
+The Saudi Law of Evidence lists these as means of proof: admission, witnesses, writing, digital evidence, oath, and these. :: Expert opinion, inspection, presumptions and custom
+Under the Saudi Law of Evidence, a contract above this amount must be proven in writing. :: 100,000 riyals
+Under the Law of Evidence, digital evidence has the same force as this. :: Written (official) evidence
+The Saudi Law of Evidence has this many articles. :: 129
+The Saudi Personal Status Law has this many articles. :: 252
+The Saudi Civil Transactions Law has this many articles. :: 721
+The Civil Transactions Law's general rule that "harm must be removed" applies to this. :: Liability for harmful acts (torts)
+The Civil Transactions Law time limit for most claims is this many years. :: 10
+The Civil Transactions Law time limit for harm claims runs from the day the victim learns of the harm, up to this many years. :: Three (and 10 years from the act)
+Under the Civil Transactions Law, interest-type 'delay compensation' is this. :: Not permitted
+Under the Personal Status Law, a mother has custody of a child until this age. :: 18 (custody goes to the mother first, then the father)
+Under the Personal Status Law, a child of 15 can choose which parent to live with. This is called this. :: Takhyir (choice)
+A wife's divorce through returning her dowry is called this. :: Khul'
+A divorce by a judge's ruling for harm or failure to pay maintenance. :: Faskh (judicial annulment)
+The waiting period after divorce or the husband's death. :: 'Iddah
+The waiting period after a husband's death is this long. :: Four months and ten days
+The marriage gift a husband must give his wife. :: Mahr
+The marriage contract in Saudi Arabia must be registered with this ministry. :: Ministry of Justice
+A marriage contract requires the bride's guardian under Hanbali law. This guardian is called this. :: Wali
+Under the Personal Status Law, a woman can marry without this person's consent if the court finds the guardian is wrongly refusing. :: Her wali (guardian)
+The Saudi courts' approach to custody is guided by this principle. :: The best interest of the child
+The rules on Saudi alimony and custody are enforced by these courts. :: Enforcement courts (personal status enforcement)
+The Saudi platform for documenting marriage contracts online. :: Najiz (electronic marriage contract)
+A Saudi woman can now get her own family record, a change made in this year. :: 2019
+In 2019 Saudi women over this age were allowed to get passports and travel without a guardian's permission. :: 21
+The Saudi Anti-Harassment Law sets a prison term of up to this many years for harassment. :: Two (five for repeat or aggravated cases)
+Under the Anti-Cyber Crime Law, defamation online can bring a fine of up to this much. :: 500,000 riyals (and up to one year in prison)
+The Anti-Cyber Crime Law's highest penalty is for crimes linked to this. :: Terrorism (up to 10 years and 5 million riyals)
+The Personal Data Protection Law allows fines of up to this amount. :: 5 million riyals
+The Personal Data Protection Law's top fine can be doubled for this. :: Repeat violations
+Under the PDPL, sensitive data includes health, genetic and this kind of data. :: Credit (financial), religious and biometric data
+Disclosing sensitive data with intent to harm under the PDPL can bring prison of up to this many years. :: Two
+The Saudi Combating Bribery Law treats bribery of these officials as a crime since 2021. :: Foreign public officials
+The Saudi Anti-Concealment Law sets fines of up to this amount. :: 5 million riyals
+The Saudi Labour Law's 2025 amendments set the probation period at up to this many days. :: 180 (if agreed)
+A Saudi private-sector worker gets paid annual leave of at least this many days. :: 21 (30 after five years)
+The Saudi Labour Law's maximum normal working hours per day. :: Eight (six in Ramadan for Muslims)
+Women's paid maternity leave under the Saudi Labour Law after the 2025 amendments. :: 12 weeks
+The Saudi Domestic Workers Regulation was issued in this year. :: 2013
+The Saudi Wage Protection System began in this year. :: 2013
+The Saudi Labour Reform Initiative of 2021 let foreign workers do this without the employer's consent. :: Change jobs (and get exit and re-entry visas)
+The kafala system refers to this. :: Sponsorship of foreign workers by employers
+The Saudi 'Musaned' platform is for this. :: Hiring domestic workers
+The Saudi General Authority for Awqaf Law was issued in this year. :: 2016
+The Saudi Authority for Intellectual Property is known by these letters. :: SAIP
+SAIP was set up in this year. :: 2018
+The Saudi Copyright Law was issued in this year. :: 2003
+Saudi patents are now registered with this body. :: SAIP
+The Saudi 'Ministry of Media' licences publications under this law. :: Printed Materials and Publication Law
+The Saudi law that regulates audio-visual media is overseen by this authority. :: General Authority for Media Regulation (GCAM)
+The Saudi Communications, Space and Technology Commission, formerly CITC, regulates this. :: Telecoms and the internet
+The Saudi Law of Procedure before Sharia Courts calls urgent cases like these "urgent matters": eviction, preventing travel and this. :: Disputes over possession (and urgent protective orders)
+The Saudi Supreme Court can review a Court of Appeal judgment if it breaks Sharia, lacks jurisdiction, has a wrong panel or this. :: Wrongly describes the facts (or wrongly applies the law)
+The judge's duty to keep equal treatment of both parties, even in seating and looks, comes from a famous letter of this caliph. :: Umar ibn al-Khattab ﵁
+That famous letter on judging was sent to this Companion. :: Abu Musa al-Ash'ari ﵁
+The Arabic term for a judge's independent reasoning when there is no clear text. :: Ijtihad
+The Arabic term for following a school's established view. :: Taqlid
+The Arabic term for public interest used in Saudi regulation. :: Maslahah mursalah
+The Arabic principle of "blocking the means" to harm. :: Sadd al-dhara'i'
+The Saudi courts use 'expert witnesses' registered with this body for engineering, accounting and medical opinions. :: The courts' roster of experts (licensed by professional bodies)
+The term for the losing party paying the winner's legal costs, now allowed in Saudi commercial courts. :: Costs award (attorney's fees)
+The Saudi commercial courts can order this party to pay lawyers' fees. :: The losing party
+
+## 400
+The two founders who made the 1744 pact that began the first Saudi state. :: Imam Muhammad ibn Saud and Sheikh Muhammad ibn Abd al-Wahhab ﵀
+The pact of 1744 was made in this town. :: Diriyah
+The capital of the second Saudi state. :: Riyadh
+The year King Abdulaziz recaptured Riyadh. :: 1902
+The year the Kingdom of Hejaz and Nejd was renamed the Kingdom of Saudi Arabia. :: 1932
+The first constitution-like document of the Hijaz in 1926. :: Al-Ta'limat al-Asasiyyah lil-Mamlakah al-Hijaziyyah
+King Faisal set up the Ministry of Justice in this year. :: 1970
+The first Saudi Minister of Justice. :: Sheikh Muhammad ibn Ali al-Harakan ﵀
+King Abdulaziz ordered judges to rely on six main Hanbali books in this year. :: 1928 (1347 AH)
+One of the main Hanbali books judges use, written by al-Buhuti ﵀. :: Kashshaf al-Qina' (or Sharh Muntaha al-Iradat)
+The Hanbali book "Al-Iqna'" was written by this scholar. :: Al-Hajjawi ﵀
+The Hanbali book "Muntaha al-Iradat" was written by this scholar. :: Ibn al-Najjar ﵀
+The Hanbali scholar Ibn Taymiyyah ﵀ died in prison in this city. :: Damascus
+A judge in Saudi courts may depart from the Hanbali view when another view better serves this. :: Justice and public interest
+The 'judicial precedents' project of the Ministry of Justice published these. :: Collections of court rulings (Mudawwanat al-Ahkam al-Qada'iyyah)
+The Supreme Court's 'general assembly' can set these binding principles. :: Judicial principles (precedents for courts)
+In 2016, the Supreme Judicial Council issued these 'principles' collecting decisions from 1391 to 1437 AH. :: Judicial Principles and Decisions
+The implementing regulations of the Saudi Criminal Procedure Law were issued in this year. :: 2015
+The maximum period of pre-trial detention allowed by the Attorney General's order, under the Criminal Procedure Law, before a court must decide. :: Six months
+The Saudi Criminal Procedure Law requires 'major crimes' to be defined by this person's decision. :: The Attorney General (formerly the Minister of Interior)
+A Saudi death sentence must be confirmed by the Supreme Court and then this. :: Approved by royal order (the King)
+The two kinds of Saudi criminal punishment in the Hanbali tradition: fixed (hudud and qisas) and this. :: Discretionary (ta'zir)
+A 2020 Supreme Court decision replaced this punishment for ta'zir crimes with fines or prison. :: Flogging
+In 2020 Saudi Arabia ended the death penalty for crimes committed by these people. :: Minors (under 18), for ta'zir offences
+In 2020 Saudi Arabia said juvenile offenders would instead be placed in a juvenile centre for up to this many years. :: 10
+The Specialised Criminal Court is located in this city. :: Riyadh
+The 'Commercial Courts Law' of 2020 allows parties to agree on these to speed up cases. :: Procedures (and use of private experts or virtual hearings)
+The Saudi Law on Enforcement allows the judge to imprison a debtor who refuses to pay when he is able. This is called this. :: Imprisonment for debt (habs al-madin)
+Under the 2012 Arbitration Law, an award can be challenged only by an action to do this. :: Annul it (nullity action)
+The Saudi court that hears actions to annul arbitral awards. :: The Court of Appeal
+Under the Saudi Arbitration Law, an arbitrator must have full legal capacity and good conduct, and hold at least this degree, if sitting alone or as chair. :: A university degree in Sharia or law
+The 1983 Saudi Arbitration Law required arbitrators to be this. :: Muslim (and male, in practice)
+The famous 1958 arbitration between Saudi Arabia and this company shaped how Saudi courts saw international arbitration. :: Aramco (the Aramco arbitration)
+The 1955 international arbitration over the Buraimi Oasis was between Saudi Arabia and this country. :: The United Kingdom (for Abu Dhabi and Oman)
+Saudi Arabia joined the ICSID convention on investment disputes in this year. :: 1980
+The Saudi Center for Commercial Arbitration's rules were updated in this year. :: 2023
+The Saudi law that makes digital signatures valid. :: Electronic Transactions Law (2007)
+Under the Saudi E-Commerce Law, a consumer can cancel an online purchase within this many days if the item isn't used. :: Seven
+Under the Anti-Commercial Fraud Law, the maximum fine is this much. :: 1 million riyals
+The Saudi Competition Law's maximum fine is this share of total annual sales. :: 10%
+The GAC, which enforces competition law, is known by this full name. :: General Authority for Competition
+The Saudi Companies Law of 2022 allows this type of company, new in Saudi law. :: Simplified joint stock company
+The 2022 Saudi Companies Law has this many articles. :: 281
+Under the Companies Law, a one-person company is possible for an LLC and this type. :: Joint stock company (and simplified JSC)
+The 2022 law removed the old requirement to keep this reserve of profits. :: Statutory reserve
+The Saudi Bankruptcy Law has this many procedures. :: Seven
+The procedure that lets a debtor reach a settlement with creditors under court supervision while running the business. :: Protective settlement
+The bankruptcy procedure for restructuring a debtor's business under a trustee's supervision. :: Financial reorganisation
+The Saudi Real Estate Ownership by Non-Saudis Law, revised in 2025, takes effect in this year. :: 2026
+The Saudi Investment Law of 2024 replaced this law from 2000. :: Foreign Investment Law
+The Saudi Ministry that licenses foreign investors after 2020. :: Ministry of Investment (MISA)
+The four Saudi special economic zones of 2023 include Ras Al-Khair, Jazan, King Abdullah Economic City and a zone for this. :: Cloud computing
+The Saudi 'Regional Headquarters' programme began requiring RHQs for government contracts from this date. :: 1 January 2024
+The 'Riyadh Expo 2030' was awarded to Saudi Arabia in this year. :: 2023
+Saudi Arabia ratified the UN Convention against Corruption in this year. :: 2013
+Saudi Arabia ratified the Convention on the Rights of the Child in this year. :: 1996
+Saudi Arabia ratified CEDAW in this year, with reservations. :: 2000
+The Arab Charter on Human Rights was ratified by Saudi Arabia in this year. :: 2009
+Saudi Arabia is a member of the UN Human Rights Council, first elected in this year. :: 2006
+The legal maxim "Matters are judged by their" this. :: Purposes (intentions)
+The legal maxim "Certainty is not removed by" this. :: Doubt
+The legal maxim "Hardship brings" this. :: Ease
+The legal maxim "Harm is" this. :: Removed
+The legal maxim "Custom is" this. :: Authoritative (a basis for rulings)
+These five maxims are called this in Arabic. :: Al-qawa'id al-kubra (the five great maxims)
+The legal maxim "Necessities make" this "permissible". :: Prohibited things
+The legal maxim "Necessity is measured by" this. :: Its extent (only what is needed)
+The legal maxim "Preventing harm comes before" this. :: Bringing benefit
+The legal maxim "The lesser of two harms is" this. :: Chosen (to avoid the greater)
+The legal maxim "Private harm is borne to prevent" this. :: Public harm
+The legal maxim "The original state of things is" this. :: Permissibility (for things and dealings)
+The legal maxim "The original state is that a person is free of" this. :: Liability (bara'at al-dhimmah)
+The legal maxim "What is established for a reason ends when" this. :: The reason ends
+The legal maxim "No one may deal in another's property without" this. :: Permission
+The legal maxim "Gain goes with" this. :: Liability (al-kharaj bil-daman)
+The legal maxim "Speech should be given a meaning rather than" this. :: Being ignored
+The legal maxim "The ruler's acts over his people depend on" this. :: Their welfare (maslahah)
+The legal maxim "Ijtihad is not cancelled by" this. :: Another ijtihad
+The legal maxim "The one who hastens a thing before its time is punished by" this. :: Being denied it (as when an heir kills to inherit)
+The legal maxim "What can't be done in full shouldn't be" this. :: Abandoned in full
+The legal maxim "A follower is" this. :: Treated like what it follows
+The legal maxim "Acting on speech is better than" this. :: Ignoring it
+The legal maxim "Harm is not removed by" a similar harm. Its Arabic: "Al-darar la yuzal bi" this. :: Mithlih (its like)
+The Hanbali scholar who wrote "Al-Qawa'id" on legal maxims. :: Ibn Rajab ﵀
+The Shafi'i scholar who wrote "Al-Ashbah wal-Naza'ir" on maxims. :: Al-Suyuti ﵀
+The Hanafi scholar who wrote "Al-Ashbah wal-Naza'ir" on maxims. :: Ibn Nujaym ﵀
+The Maliki scholar who wrote "Al-Furuq" on legal distinctions. :: Al-Qarafi ﵀
+The Shafi'i scholar who wrote "Qawa'id al-Ahkam fi Masalih al-Anam". :: Al-'Izz ibn Abd al-Salam ﵀
+The Hanbali scholar of Najd who wrote the popular summary "Al-Qawa'id wal-Usul al-Jami'ah". :: Abd al-Rahman al-Sa'di ﵀
+The famous Hanbali textbook on legal theory (usul al-fiqh) by Ibn Qudamah ﵀. :: Rawdat al-Nazir
+The famous Hanbali book of fiqh "Al-Mughni" was written by this scholar. :: Ibn Qudamah ﵀
+The Hanbali scholar whose "Zad al-Ma'ad" covers the guidance of our Beloved and our master, the Prophet Muhammad ﷺ. :: Ibn al-Qayyim ﵀
+Ibn al-Qayyim's ﵀ book on judicial methods and evidence. :: Al-Turuq al-Hukmiyyah
+Ibn al-Qayyim's ﵀ book on the duties of muftis and judges. :: I'lam al-Muwaqqi'in
+The Shafi'i judge whose "Al-Ahkam al-Sultaniyyah" describes the state's offices. :: Al-Mawardi ﵀
+The Hanbali judge who wrote a book with the same title, "Al-Ahkam al-Sultaniyyah". :: Abu Ya'la al-Farra' ﵀
+Ibn Taymiyyah's ﵀ book on governance according to Sharia. :: Al-Siyasah al-Shar'iyyah
+'Siyasah shar'iyyah' allows the ruler to make rules for public interest that don't contradict this. :: Sharia
+The Hanbali book "Zad al-Mustaqni'" is a summary of this earlier book. :: Al-Muqni' (by Ibn Qudamah ﵀)
+Ibn Qudamah's ﵀ short Hanbali textbook for beginners. :: 'Umdat al-Fiqh
+
+## 500
+The Shura Council's first Speaker after its 1993 revival. :: Sheikh Muhammad ibn Jubayr ﵀
+The Saudi Minister of Justice appointed in 2015. :: Dr Walid Al-Samaani
+The first President of the Saudi Supreme Court after it was set up. :: Sheikh Abdulrahman Al-Kelya
+The first Attorney General of Saudi Arabia after the 2017 renaming. :: Sheikh Saud Al-Mujib
+The first woman to chair the Saudi Human Rights Commission. :: Dr Hala Al-Tuwaijri
+The Saudi Board of Grievances was established by Royal Decree in this year, as a department of the Council of Ministers. :: 1954 (1373 AH)
+The Board of Grievances Law of 1982 was issued by this royal decree number. :: M/51
+The Labour Law of 2005 was issued by this royal decree number. :: M/51
+The Basic Law of Governance was issued by this royal order number. :: A/90
+The 'A/' prefix in Saudi law numbers means a royal this. :: Order (amr)
+The 'M/' prefix in Saudi royal decrees comes from this Arabic word. :: Marsum (decree)
+The Personal Status Law was issued by Royal Decree number this. :: M/73
+The Civil Transactions Law was issued by Royal Decree number this. :: M/191
+The Law of Evidence was issued by Royal Decree number this. :: M/43
+The Companies Law of 2022 was issued by Royal Decree number this. :: M/132
+The Civil Transactions Law ends with a list of these, drawn from fiqh. :: General legal maxims (al-qawa'id al-kulliyyah)
+The legal maxim: "Harm is not removed by" this. :: Similar harm
+The legal maxim: "The ruling turns with" this. :: Its cause ('illah)
+The legal maxim: "What is known by custom is like what is" this. :: Stipulated (an express condition)
+Under the Civil Transactions Law, a judge may reduce an agreed penalty clause if it is this. :: Excessive (out of proportion to the harm)
+Under the Civil Transactions Law, a contract affected by 'exceptional circumstances' can be adjusted by the judge. This doctrine is called this. :: Hardship (al-zuruf al-tari'ah)
+Under the Civil Transactions Law, a claim against a contract made under duress can be voided. The Arabic term for duress. :: Ikrah
+The Civil Transactions Law says liability for harm caused by animals falls on this person. :: The one in control of the animal
+The Civil Transactions Law's name for unjust enrichment. :: Enrichment without cause (al-ithra' bila sabab)
+The Saudi Law of Evidence allows proving a contract under 100,000 riyals by this. :: Witnesses and other means
+Under the Law of Evidence, an admission made outside court is proven by this. :: The rules of evidence (it is not binding like a judicial admission)
+The Saudi Law of Evidence allows these new kinds of evidence for the first time in a code. :: Digital evidence (electronic records, emails, messages)
+Under the Saudi Law of Evidence, 'shahadah' (testimony) of one witness may be backed by this. :: The claimant's oath
+The 'qasamah' oath procedure in Islamic law applies to this. :: Unsolved killings (fifty oaths)
+The diyah for an accidental killing of a man in Saudi courts was raised in 2011 to this amount. :: 300,000 riyals
+The diyah for an intentional killing that is forgiven was raised to this amount in 2011. :: 400,000 riyals
+Diyah in Islamic law is traditionally set at this many camels. :: 100
+The 'aqilah' in Islamic law are these, who share in paying diyah for accidental killing. :: The killer's male paternal relatives (or the community body)
+The hudud crimes in Islamic law include theft, highway robbery, zina, false accusation, drinking alcohol and this. :: Apostasy (and rebellion, by some lists)
+The hadd for theft requires the value stolen to reach this. :: The nisab (a quarter dinar)
+The hadd for false accusation of zina is this. :: Eighty lashes
+The term for the crime of highway robbery in Islamic law. :: Hirabah
+The rule that "hudud are averted by" this. :: Doubts (shubuhat)
+The hadith "Avert the hudud by doubts" is linked with this principle. :: Benefit of the doubt for the accused
+The Saudi rules for implementing ta'zir penalties are being codified in this planned law. :: Penal Code for Discretionary Sanctions
+Article 2 of the Saudi Criminal Procedure Law bans arrest except under the law and bans this kind of treatment. :: Physical or mental harm (torture or degrading treatment)
+The Saudi Court of Appeal in criminal cases sits in panels of three; in death penalty cases it sits with this many. :: Five
+The Saudi Supreme Court sits in panels of three, but death penalty cases need this many judges. :: Five
+The Saudi Supreme Court was formally established in this year. :: 2009 (law of 2007)
+The Saudi Supreme Judicial Council is headed by this official since 2015. :: The Minister of Justice
+The Saudi Bureau of Experts at the Council of Ministers was set up in this year. :: 1954
+The Saudi Shura Council Law allows the council to propose new laws, under this article. :: Article 23
+The Saudi Law of the Regions divides regions into these smaller units. :: Governorates (and centres)
+The Law of the Regions gives each region this council. :: A regional council
+The Saudi municipal councils' first elections were held in this year. :: 2005
+Women first voted and stood in Saudi municipal elections in this year. :: 2015
+The number of women elected to municipal councils in 2015. :: About 20
+The first Saudi woman appointed as an ambassador. :: Princess Reema bint Bandar
+The first Saudi woman appointed deputy minister. :: Nora Al-Fayez
+The Saudi Grand Mufti appointed in 2025. :: Sheikh Saleh Al-Fawzan
+The Saudi Board of Grievances has three tiers: administrative courts, administrative courts of appeal and this. :: The High Administrative Court
+The High Administrative Court is based in this city. :: Riyadh
+Under the Board of Grievances Law, an administrative decision can be challenged for lack of jurisdiction, defect in form, breach of law, wrong cause or this. :: Abuse of power
+The time to challenge a Saudi administrative decision before the administrative court is usually this many days from learning of it. :: 60
+The Saudi Law of Procedure before the Board of Grievances was issued in this year. :: 2013 (1435 AH)
+Under the Law of the Judiciary, a Saudi judge may not do this while in office. :: Engage in trade (business)
+A Saudi judge cannot be removed except as provided by this law. :: The Law of the Judiciary
+Judges in Saudi Arabia have this legal protection: they can't be moved to non-judicial posts without consent. :: Security of tenure (immunity from transfer)
+The Saudi Law of the Judiciary of 2007 created the Supreme Court and this level of courts. :: Courts of Appeal (in every region)
+The Arabic legal word for the evidence that settles a case. :: Bayyinah
+The Arabic word for a formal claim in court. :: Da'wa
+The Arabic word for the party denying a claim. :: Al-mudda'a 'alayh
+The Arabic word for the claimant. :: Al-mudda'i
+The Arabic term for a judgment given when the defendant is absent. :: Hukm ghiyabi
+The Arabic term for a reconciliation agreement made in court. :: Sulh
+The Arabic term for a court's power over a type of case. :: Wilayah (jurisdiction, ikhtisas)
+The Arabic term for a fixed sentence in Islamic law. :: Hadd
+The Arabic term for judicial custom, followed in courts. :: 'Urf qada'i
+The legal concept that a later law cancels an earlier one on the same subject. :: Implied repeal (naskh)
+The legal concept that a specific law overrides a general one. :: Lex specialis (al-khass yuqaddam 'ala al-'amm)
+The judge of Kufa appointed by Umar ibn al-Khattab ﵁ who served for about 60 years. :: Shurayh al-Qadi ﵀
+The first person to hold the title "chief judge" (qadi al-qudat), under Harun al-Rashid. :: Abu Yusuf ﵀
+The Abbasid courts that heard complaints against officials. :: Mazalim courts
+The Companion sent to Yemen as judge who said he would judge by the Book, then the Sunnah, then his own reasoning. :: Mu'adh ibn Jabal ﵁
+The hadith of Mu'adh ﵁ is often cited as a basis for this. :: Ijtihad (reasoning by judges)
+The hadith says a judge who strives and gets it right has two rewards; one who strives and errs has this. :: One reward
+The hadith says a judge should not judge between two people while in this state. :: Anger
+The hadith says judges are three: one in Paradise and this many in the Fire. :: Two
+The Arabic name for the science of the principles of Islamic jurisprudence. :: Usul al-fiqh
+The founder of usul al-fiqh as a written science, author of "Al-Risalah". :: Imam al-Shafi'i ﵀
+The four agreed sources of Islamic law in order. :: Quran, Sunnah, ijma' and qiyas
+The Arabic term for the five rulings: obligatory, recommended, permissible, disliked and forbidden. :: Al-ahkam al-taklifiyyah
+The Arabic term for "recommended". :: Mandub (mustahabb)
+The Arabic term for "disliked". :: Makruh
+The Arabic term for "permissible". :: Mubah
+The Arabic term for an obligation on every individual. :: Fard 'ayn
+The Arabic term for an obligation on the community as a whole. :: Fard kifayah
+The Arabic term for a valid contract or act. :: Sahih
+The Arabic term for a void contract. :: Batil
+The Hanafi school's term for a contract that is defective but not void. :: Fasid
+The Arabic term for the condition of a contract or act. :: Shart
+The Arabic term for a pillar (essential element) of a contract. :: Rukn
+The Arabic term for an impediment that prevents a ruling. :: Mani'
+The Arabic term for a valid reason that triggers a ruling, like sunset for the maghrib prayer. :: Sabab
+The Arabic name for the 'presumption of continuity', that a state stays until proven otherwise. :: Istishab
+
+## tf
+A woman driving a car in Saudi Arabia with a valid licence. :: Legal (since June 2018)
+A Saudi woman aged 25 getting her own passport without a guardian's permission. :: Legal (since 2019)
+A foreigner running a shop that is registered in a Saudi citizen's name. :: Not legal (concealment, tasattur)
+Posting someone's private photos online without their permission. :: Not legal (Anti-Cyber Crime Law)
+A company selling customers' personal data to a marketing firm without consent. :: Not legal (Personal Data Protection Law)
+A foreign worker moving to a new employer when the contract ends, without the old employer's consent. :: Legal (since the 2021 labour reforms)
+Writing a cheque when you know there is no money to cover it. :: Not legal (a crime under the Commercial Papers Law)
+Giving money to a government employee to speed up your paperwork. :: Not legal (bribery)
+Returning an unused online purchase within seven days of delivery, for most goods. :: Legal (the E-Commerce Law gives this right)
+Flying the Saudi flag at half-mast. :: Not legal (the flag carries the shahada)
+An employer keeping a worker's passport without the worker's consent. :: Not legal
+Hiring a 13-year-old for regular full-time work. :: Not legal (the minimum working age is 15)
+Sending harassing messages to someone online. :: Not legal (Anti-Harassment Law)
+Women attending football matches in Saudi stadiums. :: Legal (since 2018)
+Opening a licensed cinema in Saudi Arabia. :: Legal (since 2018)
+A tourist applying for a Saudi tourist visa online. :: Legal (since 2019)
+Using a hand-held phone while driving. :: Not legal (a traffic violation)
+Selling fake branded goods as originals. :: Not legal (Anti-Commercial Fraud Law and trademark law)
+A worker taking 21 days of paid annual leave in their first year. :: Legal (it is the minimum)
+Copying and selling a book without the copyright holder's permission. :: Not legal (Copyright Law)
+A non-Saudi investor owning 100% of a company in most sectors, with a licence. :: Legal (under the Investment Law)
+Settling a business dispute by arbitration instead of court, if both sides agreed. :: Legal (Arbitration Law)
+A court ordering a husband to pay child maintenance after divorce. :: Legal (Personal Status Law)
+Smoking in a closed public place such as a government office. :: Not legal (Anti-Smoking Law)
+Making a will that leaves more than one third to a non-heir without the heirs' consent. :: Not legal (the excess needs the heirs' consent)
+
+## case
+A worker earning 6,000 riyals a month is let go after 4 years, not for misconduct. What end-of-service award is due? :: 12,000 riyals (half a month per year for the first five years)
+A worker earning 10,000 riyals a month leaves after 10 years when the employer ends the contract. End-of-service award? :: 75,000 riyals (5 x 5,000 + 5 x 10,000)
+A tenant stops paying rent on a registered Ejar contract. Must the landlord file a full lawsuit first? :: No; the Ejar contract is an enforceable instrument, so the enforcement court can act
+A shopper receives an unopened jacket ordered online and changes her mind on day 5. Can she cancel? :: Yes; the E-Commerce Law allows cancelling within seven days if unused (with some exceptions)
+A man posts a neighbour's private family photo on social media to embarrass him. What law is broken? :: The Anti-Cyber Crime Law (invasion of privacy)
+Two firms' contract sends disputes to arbitration. One firm sues in the commercial court, and the other objects at once. What should the court do? :: Decline the case and send it to arbitration
+Someone claims he lent a friend 150,000 riyals with only two witnesses and nothing written. What does the Law of Evidence say? :: Amounts above 100,000 riyals generally must be proven in writing
+A company collects visitors' ID numbers on its website and sells them. Which authority can fine it? :: SDAIA (under the Personal Data Protection Law)
+A shop owner lets an expatriate run the shop under his commercial registration and takes a monthly fee. What is the offence? :: Commercial concealment (tasattur); both can be punished
+A Saudi woman of 23 wants to travel abroad alone. Does she need her guardian's permission? :: No (since the 2019 reforms, women over 21 can travel without it)

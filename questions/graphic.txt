@@ -1,0 +1,659 @@
+id: graphic
+name: Graphic Design
+group: design
+
+## 100
+Name this tool. {img:colour-wheel.svg} :: A colour wheel
+Name this picture of overlapping lights. {img:colour-rgb.svg} :: Additive colour (RGB)
+Name this picture of overlapping inks. {img:colour-cmy.svg} :: Subtractive colour (CMY)
+This icon usually means this. {img:sym-power.svg} :: Power (on/off)
+This icon usually means this. {img:sym-wifi.svg} :: Wi-Fi (wireless signal)
+This icon usually means this. {img:sym-play.svg} :: Play
+This icon of three lines usually opens this. {img:sym-hamburger.svg} :: A menu (hamburger menu)
+This old icon usually means this action. {img:sym-floppy.svg} :: Save
+This icon usually means this action. {img:sym-share.svg} :: Share
+The three primary colours of light on a screen. :: Red, green and blue (RGB)
+The four inks used in normal colour printing. :: Cyan, magenta, yellow and black (CMYK)
+In CMYK, the letter K stands for this colour. :: Black (the "key" plate)
+Red, yellow and blue are the traditional primary colours of this. :: Paint (painters' colour wheel)
+Mixing blue and yellow paint gives this colour. :: Green
+Mixing red and yellow paint gives this colour. :: Orange
+Mixing red and blue paint gives this colour. :: Purple (violet)
+Colours opposite each other on the colour wheel are called this. :: Complementary colours
+Colours next to each other on the colour wheel are called this. :: Analogous colours
+Red, orange and yellow are called this kind of colour. :: Warm colours
+Blue, green and purple are called this kind of colour. :: Cool colours
+A colour mixed with white is called this. :: A tint
+A colour mixed with black is called this. :: A shade
+A colour mixed with grey is called this. :: A tone
+The name of a pure colour, like "red" or "blue", is its this. :: Hue
+How bright or dark a colour is. :: Value (lightness)
+How strong or dull a colour is. :: Saturation (chroma)
+A design made of one colour in different shades is called this. :: Monochromatic
+Letters with small feet at the ends of strokes are called this kind of font. :: Serif
+Letters with no small feet at the ends of strokes are called this kind of font. :: Sans serif
+The French word "sans" means this. :: Without
+Fonts that look like handwriting are called this. :: Script fonts
+A font where every letter takes the same width, like a typewriter. :: Monospaced
+Small capital letters at normal letter height are called this. :: Small caps
+Slanted letters used for emphasis are called this. :: Italic
+Thick, heavy letters used for emphasis are called this. :: Bold
+The space between lines of text. :: Leading (line spacing)
+The space between two particular letters. :: Kerning
+The space added evenly across a whole word or line. :: Tracking (letter-spacing)
+Text lined up on the left with a ragged right edge. :: Left-aligned (flush left)
+Text spread so both edges are straight. :: Justified
+Text lined up around the middle. :: Centred
+The imaginary line that letters sit on. :: The baseline
+A small picture used as a sign on a screen or app. :: An icon
+A symbol or design that stands for a company. :: A logo
+A logo made only of the company name written in a special way. :: A wordmark (logotype)
+The famous ratio of about 1.618 used in design. :: The golden ratio
+The grid of nine boxes used to place the main subject off-centre. :: The rule of thirds
+Empty space around design elements. :: White space (negative space)
+A plan of a web page or app screen shown in boxes and lines. :: A wireframe
+A full-colour, realistic picture of what a design will look like. :: A mockup
+A first working model of an app or product to test. :: A prototype
+The set of colours chosen for a design. :: A colour palette
+The rules for how a brand looks and sounds. :: Brand guidelines (style guide)
+A rough first drawing to try an idea. :: A sketch (thumbnail)
+A large printed sign put up on walls. :: A poster
+A folded printed paper that tells about a product or place. :: A brochure (leaflet)
+A single small printed sheet handed out for an event. :: A flyer
+The front page of a magazine. :: The cover
+The big heading on a page. :: The headline
+The text under a picture. :: A caption
+Printing on cloth bags or T-shirts often uses this method that pushes ink through a mesh. :: Screen printing
+A picture made of tiny squares on a screen. :: A raster (bitmap) image
+The tiny squares that make up a digital picture. :: Pixels
+A picture made of lines and curves that can be enlarged without blur. :: A vector image
+Images made of pixels get this way when you enlarge them too much. :: Blurry or pixelated
+The file type with "transparent background" support often used for logos on the web. :: PNG
+The common photo file type that uses lossy compression. :: JPEG (JPG)
+The vector file type used on websites, written as code. :: SVG
+The short-animation file type famous for memes. :: GIF
+The document file type that keeps a layout the same on every computer. :: PDF
+DPI stands for this. :: Dots per inch
+The usual resolution for print images, in dpi. :: 300 dpi
+The Adobe program for editing photos. :: Photoshop
+The Adobe program for drawing vector logos. :: Illustrator
+The Adobe program for laying out books and magazines. :: InDesign
+The free online design tool from Australia used for social posts. :: Canva
+The online design tool popular with app and web designers for shared work. :: Figma
+The free vector drawing program, an open-source rival to Illustrator. :: Inkscape
+The free photo editor often called a rival to Photoshop. :: GIMP
+The Photoshop tool shaped like a magic stick that selects similar colours. :: The magic wand
+The tool used to draw exact vector curves with anchor points. :: The pen tool
+Stacked see-through sheets that keep parts of a design separate. :: Layers
+The tool used to cut away the edges of a picture. :: The crop tool
+Undoing an action in most programs uses Ctrl (or Cmd) plus this letter. :: Z
+Copying in most programs uses Ctrl (or Cmd) plus this letter. :: C
+Pasting in most programs uses Ctrl (or Cmd) plus this letter. :: V
+A design shown on a computer screen is measured in this unit. :: Pixels
+A design printed on paper is often measured in these units. :: Millimetres or inches (and points)
+The common office paper size in Saudi Arabia and Europe. :: A4
+The paper size twice as big as A4. :: A3
+Text used as a filler before real text is ready, starting "Lorem ipsum". :: Placeholder (dummy) text
+The colour code #000000 means this colour. :: Black
+The colour code #FFFFFF means this colour. :: White
+The colour code #FF0000 means this colour. :: Red
+A design that has the same look on both sides of a middle line has this. :: Symmetry
+A design where both sides look different but still feel even has this. :: Asymmetrical balance
+Making one item stand out more than others. :: Emphasis (contrast)
+Placing items in a clear order of importance. :: Visual hierarchy
+The design rule of putting related things close together. :: Proximity
+Repeating colours or shapes to tie a design together. :: Repetition (consistency)
+Lining things up along common edges. :: Alignment
+Dark text on a light background gives strong this. :: Contrast
+A picture of a person's head and shoulders. :: A portrait
+A picture that is wider than it is tall. :: Landscape orientation
+A picture that is taller than it is wide. :: Portrait orientation
+A drawing that makes a person look funny by exaggerating features. :: A caricature
+A comic-style story told in boxes. :: A comic strip
+A drawing that shows information with pictures, numbers and short text. :: An infographic
+A small picture of a figure used on signs, like the person on a toilet door. :: A pictogram
+The famous font that is often joked about, used in comic speech bubbles. :: Comic Sans
+The classic Swiss sans-serif font made in 1957. :: Helvetica
+The serif font long used as the default in Microsoft Word before Calibri. :: Times New Roman
+The sans-serif font that was Microsoft Office's default from 2007. :: Calibri
+The font Microsoft Office switched to as its new default in 2023. :: Aptos
+The font family designed by Google for Android. :: Roboto
+The font family made by Apple for its devices. :: San Francisco
+The Arabic calligraphy style with straight, angular letters. :: Kufic
+The rounded Arabic script used in most printed books. :: Naskh
+The decorative Arabic script used on Ottoman royal papers. :: Diwani
+Arabic is written in this direction. :: Right to left
+English is written in this direction. :: Left to right
+
+## 200
+Name the colour scheme marked on this wheel. {img:colour-complementary.svg} :: Complementary
+Name the colour scheme marked on this wheel. {img:colour-analogous.svg} :: Analogous
+Name the colour scheme marked on this wheel. {img:colour-triadic.svg} :: Triadic
+Name the group on the left in this picture. {img:colour-warm-cool.svg} :: Warm colours
+This picture shows a colour getting lighter step by step. What are these lighter steps called? {img:colour-tints.svg} :: Tints
+Name the part of letters this picture compares. {img:type-serif-sans.svg} :: Serifs (serif and sans-serif fonts)
+Name the line marked in this picture. {img:type-baseline.svg} :: The baseline
+Name the height marked in this picture. {img:type-xheight.svg} :: The x-height
+Name the spacing being fixed in this picture. {img:type-kerning.svg} :: Kerning
+Name the text alignment shown. {img:type-justified.svg} :: Justified
+Name the text alignment shown. {img:type-centred.svg} :: Centred
+Name the curve drawn in this picture. {img:golden-spiral.svg} :: The golden spiral
+Name the composition guide drawn in this picture. {img:rule-of-thirds.svg} :: The rule of thirds
+Three colours evenly spaced around the wheel make this scheme. :: Triadic
+A colour plus the two colours beside its complement make this scheme. :: Split-complementary
+Four colours forming a rectangle on the wheel make this scheme. :: Tetradic (double complementary)
+The colour model used for screens. :: RGB
+The colour model used for printing. :: CMYK
+Mixing all colours of light gives this. :: White
+Mixing all printing inks in theory gives this. :: Black (in practice a muddy dark brown)
+The colour model that describes colour by hue, saturation and lightness. :: HSL
+Pantone is famous for this kind of colour system. :: Spot colour matching (PMS)
+A colour printed with one special ready-mixed ink. :: A spot colour
+Colour printed by mixing CMYK dots. :: Process colour
+Each year Pantone chooses this. :: A Colour of the Year
+The six-digit colour code used on websites. :: A hex code
+Each pair of digits in a hex code stands for one of these colours. :: Red, green or blue
+The colour code #00FF00 means this colour. :: Green (lime)
+The colour code #0000FF means this colour. :: Blue
+RGB values go from 0 to this number. :: 255
+The colour often linked with trust and calm, used by many banks. :: Blue
+The colour often linked with danger, energy and sales. :: Red
+The colour often linked with nature and health. :: Green
+The colour often linked with luxury and royalty. :: Purple
+A study of how colours affect feelings is called this. :: Colour psychology
+A person who cannot tell red from green easily has this. :: Colour blindness (colour vision deficiency)
+Designers check this so people with weak sight can read text. :: Contrast ratio (accessibility)
+The web accessibility rules are called this, in four letters. :: WCAG
+The minimum contrast ratio WCAG asks for normal text at level AA. :: 4.5 to 1
+The height of lowercase letters like x. :: The x-height
+The part of a letter that rises above the x-height, like in b and d. :: An ascender
+The part of a letter that falls below the baseline, like in g and p. :: A descender
+The height of capital letters. :: The cap height
+Two letters joined into one shape, like fi. :: A ligature
+A set of fonts in many weights and styles of one design. :: A typeface family
+The unit used to measure font size in print. :: Points
+There are about this many points in one inch. :: 72
+The Latin word "italicus" refers to this country, where italic type began. :: Italy
+A short line at the end of a paragraph left alone at the top of a page. :: A widow
+A single word left alone on the last line of a paragraph. :: A runt (sometimes called an orphan)
+The big first letter at the start of a chapter. :: A drop cap
+The long dash used for a break in thought. :: An em dash
+The short dash used between numbers, like 10–20. :: An en dash
+The "&" symbol meaning "and" is called this. :: An ampersand
+In email addresses, the "@" symbol is read as this word. :: The at sign
+The "#" sign is often called a hash or this. :: Pound sign (octothorpe)
+Fonts with thick block-shaped serifs, like Rockwell. :: Slab serif
+Fonts drawn with very strong thick-thin contrast, like Bodoni. :: Didone (modern serif)
+The font named after a French printer from the 1500s, popular in books. :: Garamond
+The geometric sans-serif font made in Germany in 1927, used by many brands. :: Futura
+The font made for the London Underground in 1916. :: Johnston
+The UK road-sign font designed by Kinneir and Calvert. :: Transport
+The font often used in signs for its clear shapes, designed by Adrian Frutiger in the 1970s. :: Frutiger
+The serif font made for The Times newspaper in 1932. :: Times New Roman
+The famous designer of the "I ♥ NY" logo. :: Milton Glaser
+The designer of the IBM, ABC and UPS logos in the 1950s–60s. :: Paul Rand
+The German art school of 1919 that shaped modern design. :: The Bauhaus
+The Bauhaus was founded by this architect. :: Walter Gropius
+The design style from Switzerland known for grids and clean sans-serif type. :: The Swiss Style (International Typographic Style)
+The flat, simple style of app icons that replaced 3D-looking icons in the 2010s. :: Flat design
+The design style where icons look like real objects, such as a leather notebook. :: Skeuomorphism
+Google's design language launched in 2014. :: Material Design
+Apple's guides for app design are called this. :: The Human Interface Guidelines
+UI stands for this. :: User interface
+UX stands for this. :: User experience
+A small image file shown in a browser tab. :: A favicon
+A grid of 12 columns is common in this kind of design. :: Web page layout
+A layout that changes to fit phones, tablets and computers. :: Responsive design
+A pop-up box on top of a web page. :: A modal (dialog)
+The small bar of links at the top of a site. :: Navigation bar (navbar)
+A big banner image at the top of a home page. :: A hero image
+A button that tells the user what to do next, like "Buy now". :: A call to action (CTA)
+A small round dot that shows a new message count. :: A badge (notification badge)
+A row of small round dots under a slider shows this. :: Which slide you are on (pagination)
+The process of planning how users move through a website. :: User flow (user journey)
+A made-up person used to stand for a type of user. :: A persona
+Testing two versions of a design to see which works better. :: A/B testing
+The space between columns in a grid. :: The gutter
+The space around the edge of a printed page. :: The margin
+Extra picture area beyond the cut edge of a printed page. :: Bleed
+The marks that show where a printed sheet will be cut. :: Crop marks (trim marks)
+The usual bleed size in millimetres for printed work. :: 3 mm
+The safe area inside the trim where text should stay. :: The safe zone (live area)
+A test print checked before the full print run. :: A proof
+Printing many copies with plates, inks and rollers. :: Offset printing
+Printing straight from a computer file, good for small runs. :: Digital printing
+Printing that presses paper to make raised shapes. :: Embossing
+Printing that presses paper to make sunken shapes. :: Debossing
+Shiny metal foil pressed onto paper. :: Foil stamping (hot foil)
+A thin shiny or matte plastic layer on a printed card. :: Lamination
+Paper weight is measured in this unit. :: GSM (grams per square metre)
+A design printed on a box or bottle. :: Packaging design
+The label on a product that lists contents. :: Product label
+A short animated logo at the start of a video. :: A logo sting (intro)
+Design that moves, such as animated titles. :: Motion graphics
+A set of matching icons drawn in one style. :: An icon set
+A simple, rough version of a logo idea drawn on paper. :: A thumbnail sketch
+A logo made from the first letters of a name. :: A monogram (lettermark)
+A logo that is a picture only, without words. :: A pictorial mark (logo symbol)
+A logo where the name is placed inside a shape like a badge. :: An emblem
+A logo that uses a friendly cartoon character. :: A mascot logo
+A logo that uses a simple made-up shape, not a real object. :: An abstract mark
+A logo with both a symbol and words. :: A combination mark
+The hidden arrow in a famous delivery company's logo is an example of using this. :: Negative space
+A very short word or phrase used with a brand. :: A tagline (slogan)
+A designer who makes letters and fonts. :: A type designer
+A designer who draws pictures for books and magazines. :: An illustrator
+Professional photographs sold for anyone to license. :: Stock photos
+The legal right that protects a designer's original work. :: Copyright
+The legal right that protects a brand name or logo. :: A trademark
+The small raised letters TM after a brand name mean this. :: Trademark
+A capital R in a circle after a brand name means this. :: Registered trademark
+The © symbol means this. :: Copyright
+
+## 300
+The colour scheme of shades and tints of one hue. :: Monochromatic
+The colour harmony made from one hue plus the two hues next to its complement. :: Split-complementary
+The colour theorist who wrote "Interaction of Color" in 1963. :: Josef Albers
+Albers taught at the Bauhaus and then at this US college. :: Black Mountain College (and later Yale)
+The German poet who wrote a "Theory of Colours" in 1810. :: Goethe
+The scientist who made the first colour circle from his work with prisms. :: Isaac Newton
+Newton split white light into this many named colours. :: Seven
+The Bauhaus teacher who wrote "The Art of Color". :: Johannes Itten
+Itten's colour wheel has this many colours. :: 12
+The colour system made by Albert Munsell describes colour by hue, value and this. :: Chroma
+The CIE colour space with lightness and two colour axes. :: CIELAB (L*a*b*)
+A screen colour standard made by HP and Microsoft in 1996. :: sRGB
+A wider colour space than sRGB, made by Adobe in 1998. :: Adobe RGB
+The newer wide colour space used on many Apple screens. :: Display P3
+The process of keeping colours the same between screen and print. :: Colour management
+A file that describes how a device shows colour. :: An ICC profile
+Printed colours that cannot be shown on a screen are outside the screen's this. :: Gamut
+Black made from all four CMYK inks for deeper darkness. :: Rich black
+Total ink limit warns about using too much of this on paper. :: Ink coverage
+Tiny dots of ink that make shades in printing. :: Halftone dots
+The pattern of overlapping halftone dots that looks wrong is called this. :: Moiré
+Each CMYK colour is printed with its dots at a different this. :: Screen angle
+Printing a light ink slightly over its neighbour to hide gaps. :: Trapping
+A small sample of printed colours used to check accuracy. :: A colour bar (control strip)
+The metal or polymer sheet used in offset printing. :: A printing plate
+The printing method used for newspapers with long rolls of paper. :: Web offset
+The printing method used for plastic bags and labels with rubber plates. :: Flexography
+The printing method with engraved metal cylinders, used for magazines. :: Gravure (rotogravure)
+The old printing method of pressing raised metal type into paper. :: Letterpress
+The man credited with movable-type printing in Europe around 1450. :: Johannes Gutenberg
+Gutenberg's famous printed book. :: The Gutenberg Bible
+The Chinese inventor of movable type in clay around 1040. :: Bi Sheng
+A metal block with one letter cast on it. :: A sort (piece of type)
+Capital letters were kept in this part of the type case. :: The upper case
+Small letters were kept in this part of the type case. :: The lower case
+Strips of lead between lines of metal type gave the name to this term. :: Leading
+The space equal to the width of the letter M. :: An em
+The space equal to half an em. :: An en
+A font with one file that can change weight smoothly. :: A variable font
+The font file format made by Adobe and Microsoft with advanced features. :: OpenType
+The older font format made by Apple in the late 1980s. :: TrueType
+The font format made for web pages. :: WOFF
+Google's free font library website. :: Google Fonts
+The typeface category based on handwriting with a broad pen. :: Humanist
+The sans-serif fonts with very even, plain shapes like Helvetica. :: Neo-grotesque
+The typeface designed by Max Miedinger and Eduard Hoffmann. :: Helvetica
+The Swiss type foundry that released Helvetica. :: Haas
+The typeface designed by Adrian Frutiger in 1957 with a numbered weight system. :: Univers
+The geometric sans-serif typeface designed by Paul Renner. :: Futura
+The British typeface by Eric Gill based on Johnston. :: Gill Sans
+The serif font designed by Stanley Morison for a newspaper. :: Times New Roman
+The serif typeface made by Giambattista Bodoni in Italy. :: Bodoni
+The English printer whose 1750s typeface is still popular. :: John Baskerville
+The Dutch-style serif font Microsoft made for screens with Matthew Carter. :: Georgia
+The sans-serif font Matthew Carter designed for screens, released in 1996. :: Verdana
+The font made for US highway signs. :: Highway Gothic
+The font used on many airport signs, designed by Frutiger for Charles de Gaulle airport. :: Frutiger
+The Arabic font family designed by Nadine Chahine for Linotype. :: Frutiger Arabic (and Neue Helvetica Arabic)
+A typeface designed in both Arabic and Latin to match is called this. :: A bilingual (multi-script) typeface
+Arabic letters change shape depending on this. :: Their position in the word (start, middle, end or alone)
+The stretching of Arabic letters to fill a line is called this. :: Kashida (tatweel)
+Arabic justification often uses kashida instead of this. :: Wider word spaces
+The dots and small marks above or below Arabic letters for vowels. :: Harakat (tashkeel)
+The decorative Ottoman signature of a sultan. :: A tughra
+The art of Arabic calligraphy is called this in Arabic. :: Khatt
+The calligraphy reed pen. :: A qalam
+In Arabic calligraphy letter sizes are measured in these. :: Dots (nuqat) made by the pen
+Arabic script calligrapher who set rules for the proportioned scripts in the 900s. :: Ibn Muqla ﵀
+The Persian hanging script used for poetry. :: Nasta'liq
+The large cursive Arabic script used for headings in mosques. :: Thuluth
+The Arabic script used in the Maghreb. :: Maghribi
+Graphic design that uses only black type on white with strong grids. :: Swiss Style
+The Russian art movement of bold red-and-black posters after 1917. :: Constructivism
+The Dutch art movement with red, yellow, blue and black lines. :: De Stijl
+The painter famous for De Stijl grids. :: Piet Mondrian
+The decorative style of 1890–1910 with curving plant lines. :: Art Nouveau
+The Czech artist famous for Art Nouveau posters. :: Alphonse Mucha
+The style of the 1920s–30s with bold geometric shapes and gold. :: Art Deco
+The French artist famous for Moulin Rouge cabaret posters in the 1890s. :: Henri de Toulouse-Lautrec
+The 1960s style of swirling bright colours and wavy letters. :: Psychedelic design
+The Japanese art of woodblock prints that influenced posters. :: Ukiyo-e
+The design idea "form follows function" came from this American architect. :: Louis Sullivan
+"Less is more" is linked with this architect. :: Ludwig Mies van der Rohe
+"Good design is as little design as possible" is from this German designer. :: Dieter Rams
+Dieter Rams worked for this German maker of radios and shavers. :: Braun
+The number of Dieter Rams's principles of good design. :: Ten
+The idea that people see whole shapes rather than parts. :: Gestalt
+The Gestalt idea that we fill in missing parts of a shape. :: Closure
+The Gestalt idea that similar things seem to belong together. :: Similarity
+The Gestalt idea that we see a shape and its background. :: Figure and ground
+The Gestalt idea that the eye follows smooth lines. :: Continuity
+The eye path of reading many web pages, shaped like a letter. :: The F-pattern
+The eye path on simple pages with little text, shaped like a letter. :: The Z-pattern
+The law that says the time to hit a target depends on its size and distance. :: Fitts's law
+The law that says more choices make deciding slower. :: Hick's law
+The rule of thumb that people can hold about seven items in short-term memory. :: Miller's law
+Sample text with every letter of the alphabet. :: A pangram
+The well-known English pangram about a fox. :: The quick brown fox jumps over the lazy dog
+The Latin filler text "Lorem ipsum" is taken from a work by this Roman writer. :: Cicero
+A grid of small squares used for placing elements in a layout. :: A modular grid
+A grid with columns only. :: A column grid
+A grid used to keep lines of text in line across columns. :: A baseline grid
+Laying out a magazine's two facing pages together. :: A spread
+The page on the right of a book. :: Recto
+The page on the left of a book. :: Verso
+The text at the top of every page with the book or chapter title. :: A running head (header)
+A page number in a book is called this. :: A folio
+A paper booklet made of folded sheets sewn together. :: A signature
+Binding with staples through the fold. :: Saddle stitching
+Binding with glue on a flat spine, like paperbacks. :: Perfect binding
+The narrow edge of a book where pages join. :: The spine
+A list of all colours, fonts and logo rules for a company. :: A brand book (brand guidelines)
+The total look of a company's design. :: Visual identity
+A collection of ready UI parts and rules for an app. :: A design system
+A reusable piece in Figma that can have copies. :: A component
+Saved colours and font sizes in a design system. :: Design tokens
+A picture that shows the main parts of an app screen without colour. :: A wireframe
+A clickable mockup that acts like a real app. :: An interactive prototype
+Drawing users' steps and feelings while using a service. :: A journey map
+Sorting cards into groups to plan site menus. :: Card sorting
+Watching people try to use a design. :: Usability testing
+A thin, light version of a font. :: Light weight
+A font weight of 400 is usually called this. :: Regular
+A font weight of 700 is usually called this. :: Bold
+The Adobe program for motion graphics and video effects. :: After Effects
+The Adobe program for video editing. :: Premiere Pro
+The free 3D program used for modelling and animation. :: Blender
+The Mac design app from Bohemian Coding used for UI before Figma grew. :: Sketch
+The Affinity app that rivals Illustrator. :: Affinity Designer
+The Procreate app is used for drawing on this device. :: The iPad
+A Photoshop mask that hides parts of a layer without deleting them. :: A layer mask
+The Photoshop tool that copies pixels from one area to another. :: The clone stamp
+The Photoshop tool that fixes small spots by blending. :: The healing brush
+The setting that controls how a layer mixes with the one below. :: Blending mode
+The blending mode that always makes colours darker, like overlapping inks. :: Multiply
+The blending mode that always makes colours lighter. :: Screen
+The selection tool that draws freehand around an area. :: The lasso tool
+A smooth change from one colour to another. :: A gradient
+A soft shadow behind an object to lift it off the page. :: A drop shadow
+A picture with soft edges fading out. :: A vignette (feathered edge)
+A vector point where a curve can change direction. :: An anchor point
+The handles that control a curve in vector programs. :: Bézier handles
+The French engineer whose curves are used in vector drawing. :: Pierre Bézier
+Bézier worked for this car maker. :: Renault
+
+## 400
+The ratio of the A-series paper sides. :: 1 to the square root of 2
+An A0 sheet has an area of this. :: One square metre
+The A4 page measures this in millimetres. :: 210 × 297 mm
+The US letter page measures this in inches. :: 8.5 × 11 inches
+The standard that defines A-series paper sizes. :: ISO 216
+The B-series paper sizes are used for this, such as passports and posters. :: Posters, books and passports (larger sizes)
+A business card in Europe is usually about this size. :: 85 × 55 mm
+The usual screen resolution called Full HD. :: 1920 × 1080 pixels
+The aspect ratio of Full HD. :: 16:9
+The aspect ratio of an Instagram square post. :: 1:1
+The usual frame rate for animation in films. :: 24 frames per second
+In CSS, the unit equal to the font size of the root element. :: rem
+In CSS, the unit equal to 1% of the viewport width. :: vw
+The CSS layout system for rows and columns together. :: CSS Grid
+The CSS layout system for one row or column at a time. :: Flexbox
+Fonts that come with almost every computer are called this. :: Web-safe fonts
+When a missing font is swapped for another, this happens. :: Font substitution (fallback)
+A font that has not loaded yet showing blank text is called this. :: Flash of invisible text (FOIT)
+Turning text into vector shapes before sending a file to print. :: Outlining (converting to outlines)
+Putting all fonts and images inside a print file. :: Packaging (embedding)
+The PDF standard made for reliable printing. :: PDF/X
+The PDF standard for long-term archiving. :: PDF/A
+A print file at 72 dpi will look this. :: Blurry or pixelated
+Overprint means one ink is printed on top of another without this. :: Knocking out the colour below
+Removing the colour under an object so it prints cleanly. :: Knockout
+Paper that has a smooth shiny surface. :: Coated (gloss) paper
+Paper that is rough and soaks up ink. :: Uncoated paper
+Ink on uncoated paper spreads, which is called this. :: Dot gain
+The direction of fibres in paper. :: The grain
+Folding a sheet into three panels like a letter. :: A tri-fold (letter fold)
+A fold where panels fold back and forth like a fan. :: An accordion (Z-fold)
+A shape cut into paper with a sharp steel tool. :: A die-cut
+Gloss varnish printed only on some areas. :: Spot UV
+Plastic coating that feels soft like velvet. :: Soft-touch lamination
+Printing with special ink that sits raised like Braille. :: Raised (thermographic) printing
+The Swiss designer who wrote "Grid Systems in Graphic Design". :: Josef Müller-Brockmann
+The Dutch designer who designed the Amsterdam Stedelijk Museum identity and New Alphabet. :: Wim Crouwel
+The designer who created the New York subway signage system with Bob Noorda. :: Massimo Vignelli
+The British designer famous for the road signs with Jock Kinneir. :: Margaret Calvert
+The Austrian-born designer in New York known for experimental posters and the book "Things I Have Learned in My Life So Far". :: Stefan Sagmeister
+The Japanese designer known for his "Nihon Buyo" posters and white-space style. :: Ikko Tanaka
+The Polish poster school was famous after this war. :: The Second World War
+The German designer who made the Lufthansa crane logo redesign of 1962. :: Otl Aicher
+Otl Aicher designed the pictograms for these Olympic Games. :: Munich 1972
+The first Olympic Games famous for a full pictogram system, in Asia. :: Tokyo 1964
+The Austrian philosopher's picture language "Isotype" was made by him. :: Otto Neurath
+Isotype is used for this purpose. :: Showing statistics with repeated pictograms
+The designer of the "Isotype" pictograms working with Neurath. :: Gerd Arntz
+The Russian artist famous for the "Beat the Whites with the Red Wedge" poster. :: El Lissitzky
+The Bauhaus master who made the "universal" all-lowercase typeface. :: Herbert Bayer
+Jan Tschichold wrote this book about modern type in 1928. :: Die neue Typographie (The New Typography)
+Tschichold later redesigned the covers of this British paperback publisher. :: Penguin Books
+The colour theory where yellow, red and blue are placed in a triangle was taught at this school. :: The Bauhaus
+Kandinsky linked the triangle to this colour. :: Yellow
+Kandinsky linked the circle to this colour. :: Blue
+The term for a font with letter shapes based on circles and straight lines. :: Geometric sans-serif
+Avant Garde Gothic was made from the logo of this magazine. :: Avant Garde
+The Arabic font family that shipped with Windows, based on old Naskh. :: Traditional Arabic (or Arabic Typesetting)
+The Arabic typeface Dubai Font was launched in this year. :: 2017
+The Arabic letter that cannot join the letter after it. :: Alif (and dal, dhal, ra, zay, waw)
+The two letters joined into a special shape lam-alif are an example of this. :: A ligature
+Arabic numbers used in the Gulf, like ٣, are called this. :: Eastern Arabic numerals
+The numbers 0–9 used in Europe came from this source. :: Arabic numerals (from India through the Arabs)
+The first printed Quran using movable type was printed in this Italian city around 1537. :: Venice
+The Ottoman who started the first Arabic-script printing press in Istanbul. :: Ibrahim Müteferrika
+Müteferrika began printing in this year. :: 1727 (first book 1729)
+The King Fahd Complex in Madinah prints copies of this book. :: The Holy Quran
+The Madinah Mushaf is written by this Syrian calligrapher. :: Uthman Taha
+Colour blindness of the red-green type affects about this share of men. :: About 1 in 12 (8%)
+The colour-blindness type where people cannot see red light well. :: Protanopia
+The colour-blindness type where green cones are missing. :: Deuteranopia
+The colour-blindness type for blue and yellow. :: Tritanopia
+The WCAG contrast ratio for large text at level AA. :: 3 to 1
+The WCAG contrast ratio for normal text at level AAA. :: 7 to 1
+Text written for screen readers to describe an image. :: Alt text
+The smallest touch target size Apple recommends. :: 44 × 44 points
+The smallest touch target size Google's Material Design recommends. :: 48 × 48 dp
+The space unit used in Android design. :: dp (density-independent pixels)
+The space unit used in iOS design. :: Points
+Designing first for small screens, then larger ones. :: Mobile-first design
+A dark background design option in apps. :: Dark mode
+Material Design spacing is based on multiples of this number. :: 8 (the 8-point grid)
+The skeleton screens shown while content loads are a kind of this. :: Placeholder (loading state)
+A tiny animation that responds to a user's action, like a heart filling. :: A micro-interaction
+Users not noticing an obvious change is called this. :: Change blindness
+Users ignoring anything that looks like an advert. :: Banner blindness
+Tricky design that pushes users into choices they did not want. :: Dark patterns
+A dark pattern that makes cancelling much harder than signing up. :: A roach motel
+The designer who wrote "Don't Make Me Think". :: Steve Krug
+The designer who wrote "The Design of Everyday Things". :: Don Norman
+Don Norman made this term popular for clues on how to use something. :: Affordance (signifiers)
+Norman's "Norman door" is a door that does this. :: Confuses you about whether to push or pull
+The Nielsen Norman Group's ten rules for design are called this. :: Usability heuristics
+A method of design that starts with users' needs. :: Human-centred design
+The five steps of design thinking start with this. :: Empathise
+The famous five-step design thinking model is linked with this university school. :: Stanford d.school
+The design firm known for spreading design thinking. :: IDEO
+A five-day process to test a product idea, from Google Ventures. :: A design sprint
+The design rule that items in a row should look evenly spaced, not be evenly measured. :: Optical spacing
+Round letters like O are drawn slightly taller than flat ones because of this. :: Overshoot
+The shape of the inside of letters like O and e. :: A counter
+The joining stroke in a lowercase e. :: The bar (crossbar)
+The small stroke at the top of a lowercase g in some fonts. :: The ear
+The double-storey g has a lower loop called this. :: The loop
+The horizontal stroke in A and H. :: The crossbar
+The main upright stroke of a letter. :: The stem
+The curved part of letters like b and p. :: The bowl
+A shape where the curve meets the stem at the top of an a. :: The terminal
+The type measure across a column. :: The measure (line length)
+The ideal line length for easy reading in characters. :: About 45 to 75 characters
+Hanging punctuation outside the text edge is done to keep this neat. :: The optical margin (alignment)
+The "rivers" in justified text are these. :: Gaps of white space running down the lines
+A quote mark that is curly, not straight. :: A typographic (smart) quote
+A straight mark used for feet or minutes, often mistaken for a quote. :: A prime
+Fonts made to look like old Roman stone carving. :: Trajan
+Trajan is based on the lettering of this Roman monument. :: Trajan's Column
+The typeface used in many film posters, based on Roman capitals. :: Trajan
+The typeface family designed by Erik Spiekermann for the German post office. :: FF Meta
+The typeface by Tobias Frere-Jones and Jonathan Hoefler based on US building signs. :: Gotham
+Gotham became famous through this 2008 election campaign. :: The Obama campaign
+The typeface designed by Matthew Carter for Microsoft that copies a 1700s style. :: Georgia
+The Dutch designer who made the Fedra and many Arabic-Latin type families. :: Peter Bil'ak
+The open-source Arabic font family with a Kufi style from Google Fonts. :: Noto Kufi Arabic
+The Saudi annual design week is held in this city. :: Riyadh
+The Saudi body in charge of design, architecture and fashion. :: The Architecture and Design Commission
+The year Saudi Arabia named the "Year of Arabic Calligraphy". :: 2020 (extended to 2021)
+
+## 500
+In the HSB colour model, B stands for this. :: Brightness
+In the CIELAB colour space, "a" goes from green to this colour. :: Red
+In CIELAB, "b" goes from blue to this colour. :: Yellow
+The number used to measure colour difference in print checks. :: Delta E
+A Delta E below about this is hard for the eye to see. :: 1 (about 1–2)
+Gamma correction of about 2.2 is used for screens in this standard. :: sRGB
+The number of colours an 8-bit-per-channel RGB screen can show. :: About 16.7 million
+The number of shades per channel in 8-bit colour. :: 256
+The colour depth of an image with 24 bits. :: 8 bits per channel (three channels)
+A screen with more pixels per inch than the eye can see at normal distance was named this by Apple. :: Retina
+The CSS colour function that uses lightness, chroma and hue with even steps. :: OKLCH
+The colour Pantone 448 C was called this in news reports in 2016. :: The ugliest colour in the world
+The Pantone suffix C stands for this. :: Coated paper
+The Pantone suffix U stands for this. :: Uncoated paper
+The printing term for the colour of the paper itself. :: Paper white (substrate)
+GRACoL and FOGRA are standards for this. :: Offset printing colour (press conditions)
+Halftone screens are measured in this unit. :: LPI (lines per inch)
+The usual screen ruling for magazine printing. :: About 150 lpi
+The rule of thumb for image resolution is this many times the lpi. :: About two
+Stochastic screening uses dots of this kind. :: Random (frequency-modulated) dots
+In offset printing the ink sticks to the image because of this. :: Oil and water do not mix
+Offset printing is called this because the ink goes from plate to this. :: A rubber blanket
+The Senefelder invention that started offset printing. :: Lithography
+Alois Senefelder invented lithography in this decade. :: The 1790s
+The "point" used in desktop publishing is exactly this fraction of an inch. :: 1/72
+The older Didot point is used in this part of Europe. :: Continental Europe (France and Germany)
+A pica equals this many points. :: 12
+The 1984 computer that started desktop publishing with laser printers. :: The Apple Macintosh
+The page description language behind desktop publishing, from Adobe. :: PostScript
+The program that started desktop publishing in 1985. :: Aldus PageMaker
+The page layout program that ruled publishing in the 1990s before InDesign. :: QuarkXPress
+The Adobe font technology for multiple master fonts was an early form of this. :: Variable fonts
+The OpenType feature that turns on old-style numbers. :: onum (old-style figures)
+The OpenType feature that switches on standard ligatures. :: liga
+The OpenType feature for numbers all the same width, for tables. :: tnum (tabular figures)
+The OpenType feature for fractions. :: frac
+The OpenType feature that allows swashes. :: swsh
+The OpenType feature that gives Arabic letters their connected forms. :: init, medi, fina (positional forms)
+The technology used for complex scripts like Arabic in Windows. :: Uniscribe (and DirectWrite)
+The open-source text shaping engine used by browsers. :: HarfBuzz
+The Unicode block for Arabic Presentation Forms is used for this. :: Old fixed letter shapes (compatibility forms)
+The Unicode code point for the Arabic letter alif. :: U+0627
+The Unicode sign ﷺ, written after the name of our Beloved and our master, the Prophet Muhammad ﷺ, is in this block. :: Arabic Presentation Forms-A
+The Arabic typesetting idea where letters stack on each other at the start of words. :: Vertical ligatures (stacking)
+The "Kufi" Arabic of the Fatimid era with knotted letters. :: Floriated (foliated) Kufic
+The Arabic script used on Ottoman official records for speed. :: Siyakat (and Diwani)
+The great Ottoman calligrapher Hâfız Osman ﵀ is famous for writing many copies of this. :: The Quran (mushaf)
+The calligrapher Hamid Aytaç ﵀ was from this country. :: Turkey
+The Iraqi calligrapher Hashem al-Baghdadi ﵀ wrote a famous book on this. :: The rules of Arabic calligraphy (Qawa'id al-Khatt al-'Arabi)
+The 1700s English typographer whose type was mocked for being too sharp. :: John Baskerville
+The Dutch-English type founder William Caslon worked in this country. :: England
+The US Declaration of Independence was first printed in this typeface. :: Caslon
+The French type designer Claude Garamont lived in this century. :: The 16th century
+The art historian who sorted typefaces into classes in 1954. :: Maximilien Vox
+Vox's system was adopted by this international association. :: ATypI
+In Vox's system, typefaces like Bembo are called this. :: Garalde
+In Vox's system, typefaces like Bodoni are called this. :: Didone
+In Vox's system, typefaces like Baskerville are called this. :: Transitional (Réale)
+The typeface Hermann Zapf designed in the 1950s with flared strokes. :: Optima
+Hermann Zapf's famous serif typeface of 1948. :: Palatino
+Zapf's typeface of pictures and symbols. :: Zapf Dingbats
+The typeface designer who made Bell Centennial for phone books. :: Matthew Carter
+Bell Centennial has "ink traps" for this reason. :: To stop ink filling in small letters on cheap paper
+Susan Kare designed the first icons for this computer. :: The Apple Macintosh
+Susan Kare made the icons on a grid of this many pixels. :: 32 × 32
+The famous early Mac icon of a smiling computer. :: Happy Mac
+The first graphical user interface was made at this research centre. :: Xerox PARC
+The ideas of windows, icons, menus and pointer are called this. :: WIMP
+The first commercial computer with a mouse and GUI, from Xerox. :: Xerox Star (8010)
+The ISO standard for safety signs and colours. :: ISO 7010
+The colour used for safety signs that mean "do this". :: Blue
+The colour used for prohibition signs. :: Red
+The colour used for warning signs with a triangle. :: Yellow
+The colour used for safe condition signs like exits. :: Green
+The ISO standard that sets out shapes of public information symbols. :: ISO 7001
+The person who designed the "running man" exit sign in Japan. :: Yukio Ota
+The AIGA and US Department of Transportation made a set of this many symbols in 1974. :: 34 (later 50)
+The IKEA product names are a kind of this branding idea. :: Naming system
+The style of printing a portrait using only a few flat colours, like the "Hope" poster. :: Screen-print (poster) style
+The 2008 "Hope" poster was made by this street artist. :: Shepard Fairey
+The design term for making a brand look the same everywhere. :: Brand consistency
+The three types of brand identity work start with a logo, colours and this. :: Typography
+The design method where a logo changes for each use but keeps a system. :: A dynamic (flexible) identity
+The 1972 identity for the Munich Olympics used this kind of colour palette. :: Light pastel colours (no red or black)
+The grid used by Josef Müller-Brockmann in his concert posters was based on this. :: Mathematical proportions (modular grids)
+The proportion system called "Le Modulor" was made by this architect. :: Le Corbusier
+The Japanese ratio of 1 to the square root of 2 is called this. :: The silver ratio (Yamato ratio)
+The ratio between Fibonacci numbers gets closer to this. :: The golden ratio (about 1.618)
+The book page layout method using diagonals for perfect margins. :: The Van de Graaf canon
+The Fibonacci series starts 0, 1, 1, 2, 3, 5 and then this. :: 8
+The pixel art style of games with very limited colours, like 8-bit. :: Pixel art
+A picture made of small pieces of other pictures. :: A photomosaic
+The art of placing coloured stones or tiles to make pictures. :: Mosaic
+The visual effect where a picture looks 3D with red-cyan glasses. :: Anaglyph
+The art style that makes 2D art look like 3D buildings from an angle with no vanishing point. :: Isometric
+The drawing style where parallel lines meet at a point. :: Perspective
+The point where lines meet in a perspective drawing. :: The vanishing point
+The Dutch artist known for impossible staircases and tessellations. :: M. C. Escher
+Escher was inspired by tiles in this Spanish palace. :: The Alhambra
+A pattern of shapes that fit together with no gaps. :: A tessellation
+The regular shapes that can tile a flat surface on their own. :: Triangles, squares and hexagons
+The non-repeating tiling discovered by Roger Penrose. :: Penrose tiling
+Islamic star patterns are often built with this tool and a straightedge. :: A compass
+The Islamic pattern technique of drawing lines through midpoints of polygons. :: Polygons-in-contact (Hankin's method)
+The Islamic star pattern with a 12-pointed star around a centre is linked with this number of fold symmetry. :: 12-fold
+Islamic design avoids pictures of living beings in mosques, so artists used patterns, calligraphy and this. :: Arabesque (plant designs)
+
+## tf
+True or false? Vector images get blurry when you enlarge them. :: False (raster images do; vectors stay sharp)
+True or false? Screens mix colour from red, green and blue light. :: True
+True or false? Complementary colours sit next to each other on the colour wheel. :: False (they sit opposite each other)
+True or false? Helvetica is a serif typeface. :: False (it is sans serif)
+True or false? Kerning changes the space between two particular letters. :: True
+True or false? 72 dpi is the normal resolution for high-quality print. :: False (about 300 dpi is normal for print)
+True or false? Arabic letters change shape depending on where they are in a word. :: True
+True or false? The K in CMYK stands for "kelvin". :: False (it stands for key, the black plate)
+True or false? A PNG file can have a transparent background. :: True
+True or false? Garamond is a sans-serif typeface. :: False (it is a serif typeface)
+
+## odd
+Photoshop | Illustrator | InDesign | Excel :: Excel (the others are Adobe design programs)
+Helvetica | Futura | Garamond | Univers :: Garamond (the others are sans serif)
+Red | Yellow | Blue | Green :: Green (the others are the painters' primary colours)
+Cyan | Magenta | Yellow | Orange :: Orange (the others are printing process inks)
+PNG | JPEG | GIF | SVG :: SVG (the others are raster formats)
+Kufic | Naskh | Thuluth | Bodoni :: Bodoni (the others are Arabic scripts)
+
+## clues
+Bauhaus | Teacher | Squares | Interaction of Color :: Josef Albers
+Swiss | 1957 | Sans serif | Haas foundry :: Helvetica
+Brand | Words only | Special lettering | Also called a logotype :: A wordmark
+Prism | Seven colours | Circle | Gravity :: Isaac Newton

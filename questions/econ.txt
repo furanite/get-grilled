@@ -1,0 +1,515 @@
+id: econ
+name: Economics
+group: finance
+
+## 100
+The study of how people use scarce resources to meet their wants. :: Economics
+The basic economic problem: wants are unlimited but resources are this. :: Scarce (limited)
+The amount of a good people want to buy at each price. :: Demand
+The amount of a good sellers offer at each price. :: Supply
+When price goes up, the quantity demanded usually does this. :: Goes down
+When price goes up, the quantity supplied usually does this. :: Goes up
+The price where supply equals demand. :: Equilibrium price
+When demand is higher than supply at a price, there is this. :: A shortage
+When supply is higher than demand at a price, there is this. :: A surplus
+The total value of goods and services a country produces in a year. :: GDP (gross domestic product)
+A general rise in prices over time. :: Inflation
+A general fall in prices over time. :: Deflation
+Two quarters in a row of falling GDP is a common sign of this. :: Recession
+A very deep and long recession. :: Depression
+The worldwide slump that began in 1929. :: The Great Depression
+The share of people who want work but can't find it. :: Unemployment rate
+Money the government collects from people and businesses. :: Taxes
+The government's plan for spending and taxes. :: Budget
+When a government spends more than it collects. :: Budget deficit
+When a government collects more than it spends. :: Budget surplus
+The total amount a government owes. :: National debt (public debt)
+Selling goods to other countries. :: Exports
+Buying goods from other countries. :: Imports
+Exports minus imports. :: Balance of trade (net exports)
+A tax on imported goods. :: Tariff
+A limit on the amount of a good that can be imported. :: Quota
+The 'father of economics' who wrote "The Wealth of Nations". :: Adam Smith
+"The Wealth of Nations" was published in this year. :: 1776
+Adam Smith's famous phrase for how self-interest can benefit society. :: The invisible hand
+The British economist whose ideas shaped government spending after the Great Depression. :: John Maynard Keynes
+The economic system where businesses are mainly privately owned. :: Capitalism (market economy)
+The system where the government plans what is produced. :: Command (planned) economy
+An economy with both private and government roles. :: Mixed economy
+A market with only one seller. :: Monopoly
+A market with a few big sellers. :: Oligopoly
+A market with many sellers of the same product. :: Perfect competition
+A group of producers who agree to fix prices or output. :: Cartel
+The oil producers' group founded in 1960 in Baghdad. :: OPEC
+OPEC's headquarters are in this city. :: Vienna
+Saudi Arabia was one of OPEC's this many founding members. :: Five
+The value of what you give up to choose something else. :: Opportunity cost
+Things you need, like food and shelter. :: Needs
+Things you would like to have but don't need. :: Wants
+Physical items that can be bought. :: Goods
+Activities done for others, like teaching or haircuts. :: Services
+The four factors of production: land, labour, capital and this. :: Enterprise (entrepreneurship)
+The reward for labour. :: Wages
+The reward for land. :: Rent
+The reward for enterprise. :: Profit
+A person who starts a business and takes the risk. :: Entrepreneur
+Splitting work into small tasks so each worker specialises. :: Division of labour
+Adam Smith's famous example of division of labour was a factory making these. :: Pins
+The study of the whole economy, like inflation and unemployment. :: Macroeconomics
+The study of individual markets, firms and households. :: Microeconomics
+The index that tracks the prices of a basket of goods bought by households. :: Consumer price index (CPI)
+GDP divided by the population. :: GDP per capita
+The world's largest economy by GDP. :: United States
+The world's second-largest economy by GDP. :: China
+The largest economy in the Arab world. :: Saudi Arabia
+Saudi Arabia is a member of this group of 20 major economies. :: G20
+Saudi Arabia hosted the G20 leaders' summit in this year. :: 2020
+The trade bloc of six Gulf states. :: GCC (Gulf Cooperation Council)
+The GCC was founded in this year. :: 1981
+The body that sets the rules for world trade. :: WTO (World Trade Organization)
+Saudi Arabia joined the WTO in this year. :: 2005
+The European trade and political bloc. :: European Union
+The Saudi plan to reduce reliance on oil. :: Vision 2030
+A tax on spending, charged at 15% in Saudi Arabia. :: VAT
+A tax on people's earnings. :: Income tax
+Saudi citizens pay this rate of personal income tax on salaries. :: Zero (there is no personal income tax on salaries)
+The bank that sets interest rates in Saudi Arabia. :: Saudi Central Bank (SAMA)
+The Saudi riyal is pegged to this currency. :: US dollar
+Money issued by a government that is not backed by gold. :: Fiat money
+A system where money was backed by gold. :: Gold standard
+Trading goods directly for other goods without money. :: Barter
+The three functions of money: medium of exchange, store of value and this. :: Unit of account
+Goods people buy more of when their incomes rise. :: Normal goods
+Goods people buy less of when their incomes rise. :: Inferior goods
+Goods used together, like tea and sugar. :: Complements
+Goods that can replace each other, like tea and coffee. :: Substitutes
+How much quantity demanded responds to a price change. :: Price elasticity of demand
+A good like salt, where demand barely changes with price, has this kind of demand. :: Inelastic
+A government-set maximum price. :: Price ceiling
+A government-set minimum price. :: Price floor
+A minimum price set for workers' pay. :: Minimum wage
+Payments from the government to people, like pensions. :: Transfer payments
+Money the government gives to lower a price, like on fuel. :: Subsidy
+A good that everyone can use and no one can be excluded from, like street lights. :: Public good
+People who use a public good without paying. :: Free riders
+A cost that falls on others, like pollution. :: Negative externality
+A benefit that falls on others, like vaccinations. :: Positive externality
+A time of rapid growth and rising prices. :: Boom
+The ups and downs of the economy over time. :: Business cycle
+Very fast inflation, like in Zimbabwe in 2008. :: Hyperinflation
+The famous 1920s hyperinflation in this European country made money nearly worthless. :: Germany (Weimar Republic)
+Saudi Arabia's largest export. :: Crude oil
+The country with the world's largest proven oil reserves, according to OPEC. :: Venezuela
+A country's spending abroad, investments and trade are recorded in this. :: Balance of payments
+Making goods in factories. :: Manufacturing (secondary sector)
+Farming, fishing and mining belong to this sector. :: Primary sector
+Banking, tourism and retail belong to this sector. :: Tertiary (service) sector
+Money spent by visitors from abroad counts as an export of this. :: Services (tourism)
+
+## 200
+The economist who wrote "The General Theory of Employment, Interest and Money" in 1936. :: John Maynard Keynes
+The school of thought that says government spending can lift demand in a slump. :: Keynesian economics
+The school of thought that says controlling the money supply controls inflation. :: Monetarism
+The leading monetarist, who won the 1976 Nobel Prize. :: Milton Friedman
+Friedman's famous quote: "Inflation is always and everywhere a" this "phenomenon". :: Monetary
+The Austrian-British economist who wrote "The Road to Serfdom". :: Friedrich Hayek
+The German philosopher who wrote "Das Kapital". :: Karl Marx
+The British economist who wrote about comparative advantage in 1817. :: David Ricardo
+Ricardo's example of comparative advantage used England, Portugal, cloth and this. :: Wine
+The English economist who warned that population grows faster than food. :: Thomas Malthus
+The idea that a country should make what it can make at the lowest opportunity cost. :: Comparative advantage
+Making more of something with the same resources than another producer. :: Absolute advantage
+The curve that shows the most a country can produce of two goods. :: Production possibility frontier
+The law that says extra units of a variable input eventually add less output. :: Law of diminishing returns
+The extra satisfaction from one more unit of a good. :: Marginal utility
+The extra cost of making one more unit. :: Marginal cost
+The extra revenue from selling one more unit. :: Marginal revenue
+Firms maximise profit where marginal revenue equals this. :: Marginal cost
+Falling average costs as a firm grows bigger. :: Economies of scale
+Rising average costs when a firm grows too big. :: Diseconomies of scale
+Costs that have already been paid and can't be recovered. :: Sunk costs
+The extra benefit buyers get above what they pay. :: Consumer surplus
+The extra money sellers get above their minimum price. :: Producer surplus
+The loss of total surplus caused by a tax or monopoly. :: Deadweight loss
+A good whose demand rises when its price rises, like some luxury goods. :: Veblen good
+A good whose demand rises when its price rises because it is a staple for the poor. :: Giffen good
+The curve that shows the link between inflation and unemployment. :: Phillips curve
+The curve that shows tax revenue first rising then falling as tax rates go up. :: Laffer curve
+The curve that shows inequality rising then falling as a country develops. :: Kuznets curve
+The measure of income inequality from 0 to 1. :: Gini coefficient
+The graph used to show income inequality. :: Lorenz curve
+The total spending in an economy: C + I + G + (X - M). :: Aggregate demand
+In the GDP formula, C stands for this. :: Consumption
+In the GDP formula, G stands for this. :: Government spending
+GDP measured at today's prices. :: Nominal GDP
+GDP adjusted for inflation. :: Real GDP
+The total income earned by a country's people and firms, at home and abroad. :: GNI (gross national income)
+Comparing incomes between countries by what money can buy locally. :: Purchasing power parity (PPP)
+The Economist magazine's light-hearted PPP index using a burger. :: Big Mac Index
+Government changes in spending and taxes. :: Fiscal policy
+Central bank changes in interest rates and money supply. :: Monetary policy
+Rising prices caused by too much demand. :: Demand-pull inflation
+Rising prices caused by higher costs such as oil. :: Cost-push inflation
+High inflation with high unemployment and low growth. :: Stagflation
+The 1970s oil shocks caused this in many Western countries. :: Stagflation
+Unemployment from people moving between jobs. :: Frictional unemployment
+Unemployment because workers' skills don't match jobs. :: Structural unemployment
+Unemployment from a downturn in the economy. :: Cyclical unemployment
+Unemployment in jobs like tourism that change with the seasons. :: Seasonal unemployment
+The 'Saudization' programme that sets quotas for Saudi workers in private firms. :: Nitaqat
+Saudi Arabia's unemployment rate for citizens fell to around this level in 2024, a record low. :: About 7%
+Saudi women's labour force participation rose to over this share by 2023, beating the Vision 2030 target. :: About 35%
+A tax that takes a bigger share of income from the rich. :: Progressive tax
+A tax that takes the same share from everyone. :: Proportional (flat) tax
+A tax that takes a bigger share of income from the poor. :: Regressive tax
+A tax paid directly to the government, like income tax. :: Direct tax
+A tax collected through prices, like VAT. :: Indirect tax
+A special tax on harmful goods like tobacco and sugary drinks. :: Excise (sin) tax
+Saudi Arabia's excise tax on tobacco and energy drinks is this rate. :: 100%
+A market where firms sell slightly different products, like restaurants. :: Monopolistic competition
+The game theory situation where two suspects each do better by betraying the other. :: Prisoner's dilemma
+The game theory idea where no player gains by changing strategy alone. :: Nash equilibrium
+The mathematician John Nash was the subject of this 2001 film. :: A Beautiful Mind
+A firm that controls most of the market and can set prices. :: Price maker
+A firm too small to affect the market price. :: Price taker
+Charging different customers different prices for the same good. :: Price discrimination
+When firms secretly agree to raise prices. :: Collusion (price fixing)
+Laws that stop monopolies and cartels. :: Competition (antitrust) laws
+Saudi Arabia's body that enforces competition law. :: General Authority for Competition
+A natural monopoly happens when one firm can supply the market more cheaply because of this. :: Huge economies of scale
+The study of how psychology affects economic choices. :: Behavioural economics
+The idea that people make decisions using shortcuts and not perfect logic. :: Bounded rationality
+A small change in how choices are presented that guides behaviour. :: Nudge
+The book "Nudge" was written by Richard Thaler and this law professor. :: Cass Sunstein
+Selling a state-owned company to private owners. :: Privatisation
+Taking a private company into state ownership. :: Nationalisation
+Removing government rules from an industry. :: Deregulation
+The money a country earns from oil is known as this. :: Oil revenue
+The 'resource curse' says countries rich in natural resources often have this. :: Slower growth (and weaker institutions)
+'Dutch disease' is named after the effect of this discovery in the Netherlands. :: Natural gas (1959 Groningen field)
+A currency that keeps a fixed value against another. :: Pegged (fixed) exchange rate
+A currency whose value is set by the market. :: Floating exchange rate
+A fall in a floating currency's value. :: Depreciation
+A government deliberately lowering a fixed currency's value. :: Devaluation
+A weaker currency makes a country's exports this. :: Cheaper (more competitive)
+The one GCC currency pegged to a basket of currencies rather than only the US dollar. :: Kuwaiti dinar
+The organisation that lends to countries in a currency crisis. :: IMF
+The organisation founded in 1944 that lends for development and fights poverty. :: World Bank
+The economist who won the 1998 Nobel for work on famines and poverty. :: Amartya Sen
+The UN index that combines life expectancy, education and income. :: Human Development Index (HDI)
+Economic growth that meets today's needs without harming future generations. :: Sustainable development
+The UN's 17 goals for 2030. :: Sustainable Development Goals (SDGs)
+A tax on carbon emissions. :: Carbon tax
+A system where firms buy and sell permits to pollute. :: Cap and trade (emissions trading)
+A price that stays above equilibrium because of a price floor leads to this. :: A surplus
+A price kept below equilibrium by a price ceiling leads to this. :: A shortage
+Rent control is an example of this kind of price control. :: Price ceiling
+The demand for a good that falls when the price of a substitute falls is called this demand. :: Cross-price (substitute) demand
+A good with income elasticity above 1. :: Luxury good
+The 'law of demand' has an exception for goods bought to show status. These are called this. :: Veblen goods
+
+## 300
+The Nobel Memorial Prize in Economic Sciences was first awarded in this year. :: 1969
+The first winners of the economics Nobel, Ragnar Frisch and this Dutch economist. :: Jan Tinbergen
+The economist who won the Nobel in 1970, the first American, and wrote a famous textbook. :: Paul Samuelson
+Samuelson's best-selling textbook was simply titled this. :: Economics
+The only woman to win the economics Nobel before 2019. :: Elinor Ostrom
+Ostrom won for her work on managing this kind of resource. :: Common-pool resources (the commons)
+The 1968 essay that warned shared resources will be overused. :: The Tragedy of the Commons (Garrett Hardin)
+The 2019 economics Nobel winners for experiments to fight poverty: Banerjee, Duflo and this economist. :: Michael Kremer
+Esther Duflo became the youngest economics Nobel winner at this age. :: 46
+The 2024 economics Nobel went to Acemoglu, Johnson and Robinson for work on this. :: Institutions and prosperity
+Acemoglu and Robinson's 2012 book about why some countries are rich and others poor. :: Why Nations Fail
+The 2023 economics Nobel winner who studied women's role in the labour market. :: Claudia Goldin
+The 2022 economics Nobel went to Bernanke, Diamond and Dybvig for research on this. :: Banks and financial crises
+The 2017 Nobel winner for behavioural economics. :: Richard Thaler
+The 2013 Nobel winners for asset pricing: Fama, Hansen and this economist. :: Robert Shiller
+The economist who described "creative destruction". :: Joseph Schumpeter
+Schumpeter's 1942 book on capitalism, socialism and democracy. :: Capitalism, Socialism and Democracy
+The economist who wrote "The Theory of the Leisure Class" and coined "conspicuous consumption". :: Thorstein Veblen
+The French economist who wrote "Capital in the Twenty-First Century" (2013). :: Thomas Piketty
+Piketty's formula: inequality rises when r is greater than this. :: g (the growth rate)
+The economist who wrote "The Affluent Society" (1958). :: John Kenneth Galbraith
+The British economist who studied welfare and externalities, giving his name to corrective taxes. :: Arthur Pigou
+A tax that corrects a negative externality. :: Pigouvian tax
+The economist who argued that bargaining can solve externalities if property rights are clear. :: Ronald Coase
+The rule linking money supply, velocity, price level and output: MV = PY. :: Quantity theory of money (equation of exchange)
+The American economist linked with the equation of exchange. :: Irving Fisher
+The ratio of a change in GDP to the change in spending that caused it. :: Multiplier
+The multiplier with a marginal propensity to consume of 0.8. :: 5
+The idea that government borrowing pushes up interest rates and reduces private investment. :: Crowding out
+The idea that people save tax cuts because they expect higher future taxes. :: Ricardian equivalence
+The Keynesian idea that if everyone saves more, total saving may fall. :: Paradox of thrift
+The situation where interest rates are near zero and monetary policy stops working. :: Liquidity trap
+Stable prices and full employment can't both always be achieved, according to this curve in the short run. :: Phillips curve
+The level of unemployment that doesn't speed up inflation, known by these letters. :: NAIRU
+The economist who added expectations to the Phillips curve in 1968, with Edmund Phelps. :: Milton Friedman
+The theory that people use all available information to form expectations. :: Rational expectations
+The economist who led the rational expectations revolution and won the 1995 Nobel. :: Robert Lucas
+The theory that business cycles are caused by real shocks like technology changes. :: Real business cycle theory
+The model of economic growth with capital, labour and technology, from 1956. :: Solow growth model
+In the Solow model, long-run growth per person comes only from this. :: Technological progress
+Growth theory that says technology comes from inside the economy, such as research. :: Endogenous growth theory
+The economist who won the 2018 Nobel for endogenous growth. :: Paul Romer
+The 2018 Nobel was shared with this economist for climate economics. :: William Nordhaus
+The part of growth not explained by more capital or labour. :: Total factor productivity (Solow residual)
+The theory that poorer countries grow faster and catch up with richer ones. :: Convergence
+The term for fast-growing East Asian economies like South Korea and Taiwan. :: Asian Tigers
+The 1997 crisis that started in Thailand. :: Asian financial crisis
+The 2010s crisis when Greece and others struggled to repay debts. :: European sovereign debt crisis
+The 'Washington Consensus' was a list of reforms named by this economist in 1989. :: John Williamson
+The UN body that measures trade and development, known by the letters UNCTAD. :: United Nations Conference on Trade and Development
+The economist who argued that poor countries' exports lose value over time, with Hans Singer. :: Raúl Prebisch
+The policy of replacing imports with local production. :: Import substitution
+The 'J-curve' shows how a trade balance first does this after a devaluation. :: Gets worse
+The Marshall-Lerner condition says devaluation improves trade if these sum to more than 1. :: Price elasticities of export and import demand
+The 'Heckscher-Ohlin' model says countries export goods that use their abundant this. :: Factors of production
+Wassily Leontief found the US exported labour-intensive goods. This finding is called this. :: The Leontief paradox
+Leontief won the Nobel for this method of showing how industries buy from each other. :: Input-output analysis
+The economist who developed 'new trade theory' and won the 2008 Nobel. :: Paul Krugman
+The economist who explained that markets fail when one side knows more, using used cars. :: George Akerlof
+Akerlof's 1970 paper was titled "The Market for" this. :: Lemons
+The problem where insured people take more risks. :: Moral hazard
+The problem where high-risk people are most likely to buy insurance. :: Adverse selection
+Michael Spence showed that education can be this to employers. :: A signal
+The economist who explained 'screening', sharing the 2001 Nobel with Akerlof and Spence. :: Joseph Stiglitz
+The 'Saudi Vision 2030' target for the private sector's share of GDP. :: 65%
+The Vision 2030 target for non-oil exports' share of non-oil GDP. :: 50%
+Saudi Arabia's non-oil activities passed this share of real GDP for the first time in 2023. :: 50%
+The Saudi programme that supports local manufacturing and mining, known by the letters NIDLP. :: National Industrial Development and Logistics Program
+The Saudi General Authority for Statistics is known by this short name. :: GASTAT
+The Saudi government's citizen support payments that offset energy price reforms. :: Citizen's Account Program
+Saudi Arabia raised its VAT from 5% to 15% in this year. :: 2020
+Saudi Arabia introduced VAT at 5% in this year. :: 2018
+Saudi Arabia's first five-year development plan began in this year. :: 1970
+The OPEC+ group adds Russia and other producers. It was formed in this year. :: 2016
+Saudi Arabia's oil production capacity is about this many million barrels a day. :: About 12
+The term for a country that adjusts its oil output to steady the market, often used for Saudi Arabia. :: Swing producer
+The 1973 oil embargo was led by this organisation of Arab producers. :: OAPEC
+The 1986 oil price collapse came after Saudi Arabia did this. :: Raised production (gave up the swing role)
+The oil price fell below zero in April 2020 for this US benchmark. :: WTI
+The economist who called oil-rich states "rentier states". :: Hossein Mahdavy
+The economic idea that oil revenue lets governments rule without taxing citizens. :: Rentier state theory
+A fund that saves a country's extra revenue for the future. :: Sovereign wealth fund
+Norway's sovereign wealth fund, the world's largest. :: Government Pension Fund Global
+The share of each extra riyal of income that people spend. :: Marginal propensity to consume (MPC)
+The share of each extra riyal of income that people save. :: Marginal propensity to save (MPS)
+MPC plus MPS always equals this. :: 1
+A tax that rises automatically in booms and falls in slumps, steadying the economy. :: Automatic stabiliser
+Government spending that is decided by new laws each year is called this. :: Discretionary fiscal policy
+The 'twin deficits' are a budget deficit and this. :: A current account deficit
+Money sent home by migrant workers. :: Remittances
+Saudi Arabia is one of the world's largest sources of these payments. :: Remittances (outflows by foreign workers)
+Investment by a foreign company in factories or businesses abroad. :: Foreign direct investment (FDI)
+Buying foreign shares and bonds without control of the firm. :: Portfolio investment
+The Saudi Ministry of Investment was created in 2020 from this older body. :: SAGIA (Saudi Arabian General Investment Authority)
+The Saudi rule, in force from 2024, requiring foreign firms with government contracts to have a regional headquarters in the Kingdom. :: Regional Headquarters Program
+The share of GDP spent on research and development is a sign of this. :: Innovation
+The 'shadow economy' is economic activity that is this. :: Unrecorded (hidden from the government)
+The UN's system for measuring national income. :: System of National Accounts (SNA)
+The price index that measures prices firms receive. :: Producer price index (PPI)
+The index that removes volatile food and energy prices from inflation. :: Core inflation
+
+## 400
+The economist whose 1936 book introduced the 'marginal efficiency of capital' and 'animal spirits'. :: John Maynard Keynes
+Keynes' famous saying about the long run. :: In the long run we are all dead
+The 1930s debate between Keynes and Hayek was about the causes of this. :: The Great Depression (business cycles)
+The Cambridge economist who studied imperfect competition in 1933, the same year as Chamberlin. :: Joan Robinson
+The 'capital controversy' was a debate between Cambridge in England and Cambridge in this US state. :: Massachusetts (MIT)
+The economist who built the IS-LM model to explain Keynes' theory. :: John Hicks
+In the IS-LM model, the LM curve shows equilibrium in this market. :: Money market
+In the IS-LM model, the IS curve shows equilibrium in this market. :: Goods market
+The open-economy version of IS-LM is named after these two economists. :: Mundell and Fleming
+The 'impossible trinity' says a country can't have a fixed exchange rate, free capital and this at once. :: Independent monetary policy
+The Taylor rule was proposed in this year. :: 1993
+The 'Lucas critique' was published in this year. :: 1976
+The 'Volcker shock' of 1979 to 1982 ended high inflation by raising this. :: Interest rates
+'Okun's law' links unemployment with this. :: Output (GDP) growth
+Okun's rule of thumb: a 1-point rise in unemployment matches about this much lost GDP. :: About 2%
+The economist who said "There is no such thing as a free lunch". :: Milton Friedman (popularised it)
+Arrow's impossibility theorem is about this. :: Voting systems (social choice)
+Kenneth Arrow won the Nobel in this year, the youngest at that time. :: 1972
+The economist who studied public choice and won the 1986 Nobel. :: James Buchanan
+'Rent-seeking' means trying to gain wealth by doing this. :: Lobbying or manipulating rules rather than creating value
+The economist who coined 'rent-seeking' in 1974. :: Anne Krueger
+The Chicago economist who studied crime, discrimination and the family as economic choices. :: Gary Becker
+The 'human capital' theory was developed by Becker and this economist. :: Theodore Schultz
+The Hungarian economist who studied shortages in socialist economies. :: János Kornai
+The Soviet planning agency. :: Gosplan
+Lenin's 1921 policy that allowed some private trade. :: New Economic Policy (NEP)
+The Chinese leader who began 'reform and opening up' in 1978. :: Deng Xiaoping
+The German 'economic miracle' after the Second World War. :: Wirtschaftswunder
+The US plan to rebuild Western Europe after 1945. :: Marshall Plan
+The 'Corn Laws' in Britain were repealed in this year. :: 1846
+The 1930 US law that raised tariffs and worsened the Depression. :: Smoot-Hawley Tariff Act
+The trade agreement of 1947 that came before the WTO. :: GATT
+The North American trade deal replaced by the USMCA in 2020. :: NAFTA
+The principle that a country must give all WTO members the same trade terms. :: Most-favoured-nation (MFN)
+Trading the same goods between two countries, like cars both ways. :: Intra-industry trade
+The 'gravity model' says trade between two countries rises with their size and falls with this. :: Distance
+The theory of 'optimum currency areas' was developed by this economist. :: Robert Mundell
+The 'Triffin dilemma' concerns a country whose currency is this. :: The world's reserve currency
+The 'Bretton Woods' system ended in this year. :: 1971 (Nixon shock)
+The 'Plaza Accord' of 1985 aimed to weaken this currency. :: US dollar
+Japan's 'lost decade' followed the bursting of a bubble in this year. :: 1990 to 1991
+The term 'secular stagnation' was revived by this US economist in 2013. :: Larry Summers
+The term 'Great Moderation' describes the calm period from the mid-1980s to this year. :: 2007
+The 'Great Recession' lasted in the US from December 2007 to this month. :: June 2009
+The economic school that says economies return to full employment on their own. :: Classical economics
+'Say's law' says supply creates its own this. :: Demand
+Jean-Baptiste Say was from this country. :: France
+The French economist who studied the 'tableau économique'. :: François Quesnay
+Quesnay's school that saw land as the source of all wealth. :: Physiocrats
+The economic policy of the 1600s that favoured exports and gold. :: Mercantilism
+Jean-Baptiste Colbert was this king's finance minister. :: Louis XIV
+The 1870s 'marginal revolution' was led by Jevons, Menger and this economist. :: Léon Walras
+Walras is famous for this theory of all markets clearing together. :: General equilibrium
+The 'Arrow-Debreu' model proved this. :: That a general equilibrium can exist
+The economist who wrote "Principles of Economics" (1890) and drew supply and demand curves. :: Alfred Marshall
+A situation where no one can be made better off without making someone worse off. :: Pareto efficiency
+The Italian economist behind Pareto efficiency and the 80/20 rule. :: Vilfredo Pareto
+The Austrian school economist who wrote "Human Action". :: Ludwig von Mises
+The 'socialist calculation debate' argued planners can't set prices without this. :: Markets (private ownership)
+The Russian-born economist who developed the GDP accounts in the US in the 1930s. :: Simon Kuznets
+The Ibn Khaldun ﵀ idea that high tax rates reduce revenue, centuries before Laffer. :: Lower rates bring more revenue (the Laffer idea)
+Ibn Khaldun's ﵀ book that discusses labour, prices and the rise and fall of states. :: The Muqaddimah
+Ibn Khaldun ﵀ wrote that a state's life follows this many generations. :: Three (about 120 years)
+The 14th-century Egyptian scholar who blamed bad copper money for inflation in his book "Ighathat al-Ummah". :: Al-Maqrizi ﵀
+The scholar who wrote that prices are set by supply and demand, in "Al-Hisbah". :: Ibn Taymiyyah ﵀
+The 11th-century scholar who wrote about money and trade in "Ihya' Ulum al-Din". :: Al-Ghazali ﵀
+The Saudi oil minister from 1962 to 1986. :: Ahmed Zaki Yamani
+Saudi Arabia's energy minister appointed in 2019, the first royal to hold the post. :: Prince Abdulaziz bin Salman
+The Saudi company formed in 1933 as the California Arabian Standard Oil Company. :: Saudi Aramco
+Oil was first found in commercial quantity in Saudi Arabia at Dammam Well No. 7 in this year. :: 1938
+Dammam Well No. 7 was given this name by King Abdullah in 2008. :: Prosperity Well
+The world's largest conventional oil field, in Saudi Arabia. :: Ghawar
+The world's largest offshore oil field, in Saudi Arabia. :: Safaniya
+Saudi Arabia's 'Fiscal Balance Program' aimed to balance the budget by this year originally. :: 2020 (later 2023)
+Saudi Arabia's GDP passed one trillion US dollars for the first time in this year. :: 2022
+The IMF's Article IV consultation is a regular review of this. :: A member country's economy and policies
+The 'Saudization' rate system Nitaqat uses colours from platinum down to this. :: Red
+The Saudi 'Premium Residency' scheme, launched in 2019, is sometimes called this. :: The Saudi green card
+The World Bank's 'Doing Business' report saw Saudi Arabia named top reformer in this year. :: 2020 (2019 report year)
+The term for the rise in prices that eats into savings, called the "inflation tax". :: Seigniorage (inflation tax)
+The economist who built the first econometric model of the US economy and won the 1980 Nobel. :: Lawrence Klein
+The 'Cowles Commission' advanced this field. :: Econometrics
+The 'Granger causality' test checks whether one series helps forecast this. :: Another series
+The 'Phillips' of the Phillips curve was this nationality. :: New Zealander
+Phillips also built a hydraulic machine of the economy called this. :: MONIAC (Phillips machine)
+Ragnar Frisch, who coined the words 'macroeconomics' and 'econometrics', was from this country. :: Norway
+The concept of 'opportunity cost' was named by this Austrian economist. :: Friedrich von Wieser
+The 'Chicago school' of economics is linked to this university. :: University of Chicago
+The 'Freshwater versus saltwater' debate compares inland universities with these coastal ones. :: East and West coast universities (Harvard, MIT, Berkeley)
+The economist who developed the life-cycle hypothesis of saving. :: Franco Modigliani
+Friedman's theory that people base spending on long-run expected income. :: Permanent income hypothesis
+The 'Kaldor facts' are stylised facts about this. :: Economic growth
+The theory of 'cumulative causation' in regional economics is linked to Myrdal and this economist. :: Nicholas Kaldor
+The 'Beveridge curve' links unemployment with this. :: Job vacancies
+The 'Diamond-Mortensen-Pissarides' model studies this. :: Search and matching in labour markets
+The 2010 Nobel winners for labour search: Diamond, Mortensen and this economist. :: Christopher Pissarides
+The 'efficiency wage' idea says firms pay above market wages to do this. :: Raise effort and reduce quitting
+Henry Ford doubled pay to 5 dollars a day in this year. :: 1914
+The economist who wrote "The Economic Consequences of the Peace" (1919). :: John Maynard Keynes
+The 'J. B. Clark Medal' is given to American economists under this age. :: 40
+
+## 500
+The economics Nobel of 1974 was shared by Hayek and this Swedish economist with opposite views. :: Gunnar Myrdal
+The Polish economist who described effective demand before Keynes. :: Michał Kalecki
+The 'Cambridge equation' of money demand is M = kPY. Its k is the inverse of this. :: Velocity of money
+The 'Fisher effect' links nominal interest rates with this. :: Expected inflation
+The 'Wicksellian natural rate' of interest was named after this Swedish economist. :: Knut Wicksell
+The 'Stockholm school' included Myrdal, Lindahl and this economist who won the 1977 Nobel. :: Bertil Ohlin
+The economist who wrote "An Inquiry into the Nature and Causes of the Wealth of Nations" also wrote this earlier book on ethics. :: The Theory of Moral Sentiments
+The 'Hotelling rule' says the price of a non-renewable resource should rise at this rate. :: The rate of interest
+Harold Hotelling's 1929 model of two shops on a line explains why firms do this. :: Locate close together (minimum differentiation)
+The 'Cournot' model has firms competing on this. :: Quantity
+The 'Bertrand' model has firms competing on this. :: Price
+The 'Stackelberg' model has a leader and a follower choosing this. :: Quantity (in sequence)
+The 'Hirschman-Herfindahl Index' measures this. :: Market concentration
+An HHI above this level is seen as highly concentrated by US agencies under the 2023 guidelines. :: 1,800
+The 'Lerner index' measures this. :: Market power (price above marginal cost)
+The Coase theorem paper of 1960 was titled this. :: The Problem of Social Cost
+The 'Tiebout model' says people move to the town that offers their preferred mix of taxes and this. :: Public services
+The 'Samuelson condition' sets the efficient supply of public goods where the sum of marginal benefits equals this. :: Marginal cost
+The 'Ramsey rule' for taxes says tax goods more when their demand is this. :: Inelastic
+The 'Mirrlees model' of 1971 studies the best design of this tax. :: Income tax
+The 'Diamond-Mirrlees' production efficiency theorem says governments should not tax these. :: Intermediate goods (inputs)
+The 'Harrod-Domar' model links growth to saving and this ratio. :: Capital-output ratio
+The 'golden rule' level of capital maximises this. :: Consumption per person
+The 'Ramsey-Cass-Koopmans' model adds this to the Solow model. :: Optimising households (endogenous saving)
+The 'overlapping generations' model was developed by Samuelson and this economist. :: Peter Diamond
+The 'Balassa-Samuelson effect' explains why richer countries have this. :: Higher price levels
+The 'Prebisch-Singer hypothesis' predicts falling terms of trade for these. :: Primary commodity exporters
+The 'Stolper-Samuelson theorem' says trade raises the real return of the factor used intensively in this. :: Exports
+The 'Rybczynski theorem' says more of one factor raises output of the good using it and does this to the other. :: Lowers it
+The 'Melitz model' of 2003 explains trade with differences in this among firms. :: Productivity
+The 'Lewis model' of development describes moving surplus workers from farming to this. :: Industry (the modern sector)
+W. Arthur Lewis won the Nobel in this year, the first Black laureate in a non-peace field. :: 1979
+The 'Rostow model' has this many stages of growth. :: Five
+Rostow's final stage of growth. :: Age of high mass consumption
+The 'Big Push' theory of development was put forward by this economist in 1943. :: Paul Rosenstein-Rodan
+The 'middle-income trap' describes countries stuck unable to reach this. :: High income
+The 'Hamilton' 'Report on Manufactures' of 1791 argued for protecting these. :: Infant industries
+The 'infant industry' argument was developed in Germany by this economist. :: Friedrich List
+'Gresham's law' is named after a financial agent of this English queen. :: Elizabeth I
+The 'Mundell-Fleming' trilemma is also called this. :: The impossible trinity
+The 'Dornbusch overshooting' model explains why exchange rates do this. :: Overreact (overshoot) in the short run
+The 'uncovered interest parity' says the expected change in an exchange rate equals this. :: The interest rate difference
+The 'Feldstein-Horioka puzzle' found high correlation between national saving and this. :: Domestic investment
+The 'Easterlin paradox' is about money and this. :: Happiness
+The 'Engel curve' shows that the share of income spent on food does this as income rises. :: Falls (Engel's law)
+The 'Slutsky equation' splits a price change effect into these two effects. :: Substitution effect and income effect
+A 'Giffen good' requires the income effect to do this. :: Outweigh the substitution effect
+The 'Edgeworth box' is used to show this. :: Exchange between two people (Pareto efficient trades)
+'Marshallian demand' holds income fixed; 'Hicksian demand' holds this fixed. :: Utility
+The 'Shapley value' in game theory divides this fairly. :: The gains from cooperation
+Lloyd Shapley and this economist won the 2012 Nobel for market design. :: Alvin Roth
+Roth helped design the US system matching kidney donors and this. :: Medical residents to hospitals (and kidney exchanges)
+The 'Gale-Shapley algorithm' solves this problem. :: Stable matching (the marriage problem)
+The 'Vickrey auction' is a sealed-bid auction where the winner pays this. :: The second-highest bid
+The 2020 economics Nobel went to Milgrom and Wilson for improvements to this. :: Auction theory
+The 2021 economics Nobel was shared by Card, Angrist and this economist. :: Guido Imbens
+David Card and Alan Krueger's famous 1994 study found a minimum wage rise in New Jersey did not reduce jobs in this. :: Fast-food restaurants
+The 'natural experiment' method compares groups affected and not affected by this. :: A policy or event (as if random)
+The 'difference-in-differences' method compares changes over time between these two groups. :: Treatment and control groups
+The 'Lucas paradox' asks why capital doesn't flow from rich to this. :: Poor countries
+The 'Laffer curve' was famously drawn on this in 1974. :: A napkin
+The magazine that coined the term 'Dutch disease' in 1977. :: The Economist
+The 'Gulf cooperation' common market was launched in this year. :: 2008
+The GCC customs union began in this year. :: 2003
+The Saudi Arabian Monetary Agency's first governor was this American. :: George Blowers
+The 1974 US-Saudi deal linking oil sales to dollars is often called this. :: The petrodollar system
+The 'Saudi Industrial Development Fund' was set up in this year. :: 1974
+The cities of Jubail and Yanbu were built as industrial cities under this commission formed in 1975. :: Royal Commission for Jubail and Yanbu
+Under King Abdulaziz, the silver riyal coin was first issued in this decade. :: 1920s
+The Pakistani economist who led the creation of the UN Human Development Index. :: Mahbub ul Haq
+The HDI was first published in this year. :: 1990
+The 'Atkinson index' of inequality includes this parameter. :: Inequality aversion
+The Palma ratio compares the income share of the top 10% with this group. :: The bottom 40%
+The 'Theil index' measures inequality using this concept from information theory. :: Entropy
+'Wagner's law' says public spending rises as this rises. :: National income
+'Baumol's cost disease' explains why costs rise fast in this kind of sector. :: Labour-intensive services (like health and education)
+Baumol's famous example of cost disease was this kind of performance. :: A string quartet
+'Goodhart's law' says a measure that becomes a target stops being this. :: A good measure
+Charles Goodhart worked for this central bank. :: Bank of England
+'Campbell's law' is a similar idea from this field. :: Social science (evaluation of programmes)
+The 'Cobb-Douglas' production function has this property when exponents sum to 1. :: Constant returns to scale
+The 'CES' production function stands for this. :: Constant elasticity of substitution
+The 'Leontief' production function has this kind of inputs. :: Perfect complements (fixed proportions)
+The 'Phillips curve' original 1958 paper studied wage changes in this country. :: The United Kingdom
+The 'Kydland-Prescott' 1977 paper on time inconsistency led to the case for this. :: Independent central banks (rules over discretion)
+Kydland and Prescott won the Nobel in this year. :: 2004
+The 'Barro-Gordon' model is about the credibility of this. :: Monetary policy (inflation bias)
+The 'Sargent-Wallace' 'unpleasant monetarist arithmetic' links inflation with this. :: Fiscal deficits
+The 'fiscal theory of the price level' says prices are set by this. :: Government debt and future surpluses
+The 'New Keynesian' models rely on this kind of price stickiness from Calvo. :: Staggered price setting
+The 'DSGE' abbreviation stands for this. :: Dynamic stochastic general equilibrium
+The 'Smets-Wouters' model is a famous DSGE model for this area. :: The euro area
+The 'Hodrick-Prescott filter' is used to separate this from the cycle. :: The trend
+The 'Mundell-Tobin effect' says higher inflation raises this. :: Investment (by lowering real interest rates)
+The 'Pigou effect' says falling prices raise spending through this. :: Real wealth (real money balances)
+The 'Keynes effect' says falling prices lower this. :: Interest rates
+The 'Harberger triangle' measures this. :: Deadweight loss
+Arnold Harberger is known for training these Chilean economists. :: The Chicago Boys
+The OPEC basket price includes crude oils from member countries. Saudi Arabia's crude in the basket is this. :: Arab Light
+The Saudi Ministry of Economy and Planning was formed in this year. :: 2003

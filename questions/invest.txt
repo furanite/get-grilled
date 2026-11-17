@@ -1,0 +1,515 @@
+id: invest
+name: Investments & Markets
+group: finance
+
+## 100
+A market where shares of companies are bought and sold. :: Stock market (stock exchange)
+The world's largest stock exchange by market value, on Wall Street. :: New York Stock Exchange (NYSE)
+The US exchange known for technology companies such as Apple and Microsoft. :: Nasdaq
+A market where prices are rising and investors are hopeful. :: Bull market
+A market where prices are falling and investors are gloomy. :: Bear market
+A pool of money from many investors managed by a professional. :: Mutual fund (investment fund)
+A fund that trades on an exchange like a share. :: ETF (exchange-traded fund)
+A fund that simply follows a market index. :: Index fund
+A measure of a group of share prices, such as the S&P 500. :: Stock market index
+The US index of 30 big companies, started in 1896. :: Dow Jones Industrial Average
+The index of 500 large US companies. :: S&P 500
+The main index of the London Stock Exchange's 100 biggest companies. :: FTSE 100
+Japan's main stock index. :: Nikkei 225
+Hong Kong's main stock index. :: Hang Seng
+Germany's main stock index. :: DAX
+France's main stock index. :: CAC 40
+Saudi Arabia's main stock index. :: TASI (Tadawul All Share Index)
+The person or firm that buys and sells shares for you. :: Broker
+Spreading your money across many different investments. :: Diversification
+A collection of investments held by one person or fund. :: Portfolio
+The yearly income from an investment as a share of its price. :: Yield
+Buying shares hoping their price will go up. :: Going long
+Selling borrowed shares hoping to buy them back cheaper. :: Short selling
+The three-letter code used to identify a listed share, such as AAPL. :: Ticker symbol
+The precious yellow metal often bought as a safe haven. :: Gold
+The world's most traded commodity, also called "black gold". :: Crude oil
+The world's first cryptocurrency, launched in 2009. :: Bitcoin
+The second-largest cryptocurrency, with smart contracts. :: Ether (Ethereum)
+A sudden, big fall in share prices. :: Crash
+The 1929 crash in the US that began the Great Depression. :: Wall Street Crash
+A fall of 10% or more from a recent high. :: Correction
+A sharp rise in prices driven by excitement rather than value. :: Bubble
+The 1990s-2000 bubble in internet company shares. :: Dot-com bubble
+The financial crisis that started with US home loans in 2007 and 2008. :: Global financial crisis (subprime crisis)
+The price at which a buyer is willing to buy. :: Bid
+The price at which a seller is willing to sell. :: Ask (offer)
+The difference between the bid and ask prices. :: Bid-ask spread
+An order to buy or sell immediately at the best price available. :: Market order
+An order to buy or sell only at a set price or better. :: Limit order
+An order that sells a share automatically if it falls to a set price. :: Stop-loss order
+The value of all a company's shares on the market. :: Market capitalisation
+Shares of large, well-known and reliable companies. :: Blue-chip shares
+Shares of companies expected to grow faster than average. :: Growth stocks
+Shares that look cheap compared with their earnings or assets. :: Value stocks
+Shares that pay large, regular dividends. :: Income stocks (dividend stocks)
+Small, cheap shares that trade for very low prices. :: Penny stocks
+The legendary investor called the "Oracle of Omaha". :: Warren Buffett
+Buffett's company based in Omaha, Nebraska. :: Berkshire Hathaway
+The return an investment earns per year, on average. :: Annual return
+How much an investment's price moves up and down. :: Volatility
+The famous Wall Street sculpture of a charging animal. :: Charging Bull
+The street in New York that gives its name to the US financial world. :: Wall Street
+The London financial district known as "the Square Mile". :: The City of London
+The financial district in Riyadh with many glass towers, known by its initials KAFD. :: King Abdullah Financial District
+The Saudi regulator of investments and the stock market. :: Capital Market Authority (CMA)
+Investing a fixed amount every month regardless of price. :: Dollar-cost averaging (regular investing)
+A company's first sale of shares to the public. :: IPO
+A person who buys shares to hold for many years. :: Long-term investor
+A person who buys and sells shares within the same day. :: Day trader
+Money lent to a government by buying its bonds. :: Government bond
+US government bonds are often called these. :: Treasuries
+UK government bonds are often called these. :: Gilts
+A bond issued by a company. :: Corporate bond
+The interest rate a bond pays each year on its face value. :: Coupon rate
+When interest rates rise, existing bond prices usually do this. :: Fall
+Silver, copper and wheat are examples of these. :: Commodities
+Property bought to earn rent or to sell later at a profit. :: Real estate investment
+A fund that owns income-producing property and trades on an exchange. :: REIT (real estate investment trust)
+Saudi REITs trade on this exchange. :: Tadawul (Saudi Exchange)
+A contract whose value comes from another asset. :: Derivative
+The right but not the obligation to buy or sell an asset at a set price. :: Option
+An option to buy. :: Call option
+An option to sell. :: Put option
+An agreement to buy or sell something on a set future date at a set price, traded on an exchange. :: Futures contract
+The overall feeling of investors in a market. :: Market sentiment
+The trading hours when the exchange is open. :: Trading session
+The price at which a share last traded when the market closed. :: Closing price
+A market for shares that have already been issued. :: Secondary market
+A market where new shares are sold for the first time. :: Primary market
+The yearly increase in prices that eats away at returns. :: Inflation
+A return after removing inflation. :: Real return
+A return before removing inflation. :: Nominal return
+A share's earnings per share in relation to its price is shown by this ratio. :: P/E ratio
+An investor who goes against the crowd. :: Contrarian
+Buying shares with money borrowed from a broker. :: Buying on margin
+A broker's demand for more cash when your margin account falls. :: Margin call
+Choosing shares by studying a company's accounts and business. :: Fundamental analysis
+Choosing shares by studying price charts and patterns. :: Technical analysis
+The average share price over the last 50 or 200 days drawn on a chart. :: Moving average
+A big investor such as a pension fund or insurance company. :: Institutional investor
+An ordinary person investing their own money. :: Retail investor
+A company that keeps investors' securities safe. :: Custodian
+The ringing of this marks the start and end of trading on the NYSE. :: The bell (opening and closing bell)
+The famous investor who wrote "The Intelligent Investor". :: Benjamin Graham
+The investor who ran the Magellan Fund and wrote "One Up on Wall Street". :: Peter Lynch
+The founder of Vanguard who started the first index fund for ordinary investors. :: John Bogle (Jack Bogle)
+Money invested in the hope of a quick profit with high risk. :: Speculation
+A fund that uses many strategies, including short selling, for wealthy investors. :: Hedge fund
+Saudi Arabia's largest listed company. :: Saudi Aramco
+Profit from selling an investment for more than you paid. :: Capital gain
+Loss from selling an investment for less than you paid. :: Capital loss
+The amount you earn from an investment as a share of what you put in. :: Return on investment (ROI)
+
+## 200
+The model that says a share's expected return depends on its beta. :: CAPM
+The line that plots expected return against beta in CAPM. :: Security market line (SML)
+The line of best portfolios mixing the risk-free asset and the market portfolio. :: Capital market line (CML)
+The set of portfolios with the highest return for each level of risk. :: Efficient frontier
+The economist who created modern portfolio theory in 1952. :: Harry Markowitz
+The measure of return per unit of total risk: (return - risk-free rate) / standard deviation. :: Sharpe ratio
+The measure of return per unit of beta. :: Treynor ratio
+A fund's return above what CAPM predicts. :: Jensen's alpha
+Return earned above a benchmark. :: Alpha
+The statistic that shows how two assets move together, from -1 to +1. :: Correlation
+Two assets with a correlation of -1 are said to be perfectly this. :: Negatively correlated
+Adding assets with low correlation lowers a portfolio's this. :: Risk (volatility)
+The theory that prices reflect all available information. :: Efficient market hypothesis
+The economist most linked with the efficient market hypothesis. :: Eugene Fama
+The idea that price changes are unpredictable. :: Random walk
+The book "A Random Walk Down Wall Street" was written by this author. :: Burton Malkiel
+Investing that tries to beat the market by picking shares. :: Active investing
+Investing that tracks the market with low fees. :: Passive investing
+A fund's yearly running costs as a percentage of assets. :: Expense ratio
+The price per unit of a mutual fund, calculated daily. :: Net asset value (NAV)
+A fund with a fixed number of shares that trades on an exchange. :: Closed-end fund
+A fund that issues and redeems units every day at NAV. :: Open-end fund
+The return a bond earns if held to maturity. :: Yield to maturity
+A bond's annual coupon divided by its current price. :: Current yield
+A bond priced above its face value trades at this. :: Premium
+A bond priced below its face value trades at this. :: Discount
+A graph of yields on bonds of different maturities. :: Yield curve
+A yield curve where short-term yields are above long-term yields. :: Inverted yield curve
+An inverted yield curve has often come before this. :: A recession
+The sensitivity of a bond's price to interest rate changes. :: Duration
+The measure of how duration itself changes as rates change. :: Convexity
+A bond with a duration of 7 falls about this much if rates rise 1%. :: 7%
+A bond rated BB or below by S&P. :: High-yield (junk) bond
+Bonds rated BBB- or higher. :: Investment grade
+The three big credit rating agencies: S&P, Moody's and this. :: Fitch
+Moody's top rating. :: Aaa
+A bond that pays interest linked to inflation in the US. :: TIPS (Treasury Inflation-Protected Securities)
+A bond issued by a city or local government in the US. :: Municipal bond
+A security backed by a pool of home loans. :: Mortgage-backed security (MBS)
+The price at which an option holder can buy or sell. :: Strike price (exercise price)
+An option that can be exercised any time before expiry. :: American option
+An option that can be exercised only on its expiry date. :: European option
+The price paid to buy an option. :: Premium
+A call option whose strike is below the share price is this. :: In the money
+An option whose strike equals the share price is this. :: At the money
+The formula for pricing European options, published in 1973. :: Black-Scholes model
+The relationship linking call and put prices with the same strike and expiry. :: Put-call parity
+Buying a share and buying a put to protect it. :: Protective put
+Owning a share and selling a call on it. :: Covered call
+Buying a call and a put with the same strike and expiry. :: Straddle
+A private contract to buy or sell at a future date and price, not traded on an exchange. :: Forward contract
+The cash deposited when opening a futures position. :: Initial margin
+Futures profits and losses are settled every day. This is called this. :: Marking to market
+A swap where two parties exchange fixed and floating interest payments. :: Interest rate swap
+A contract that pays out if a borrower defaults. :: Credit default swap (CDS)
+The index of expected US stock market volatility, known as the "fear gauge". :: VIX
+The chart pattern of a peak with lower peaks on each side. :: Head and shoulders
+A price level a share struggles to fall below. :: Support
+A price level a share struggles to rise above. :: Resistance
+A technical indicator from 0 to 100 that shows overbought or oversold shares. :: RSI (relative strength index)
+The indicator based on the gap between 12-day and 26-day moving averages. :: MACD
+When the 50-day average crosses above the 200-day average. :: Golden cross
+When the 50-day average crosses below the 200-day average. :: Death cross
+Bands drawn two standard deviations around a moving average. :: Bollinger Bands
+Trading based on secret company information. :: Insider trading
+Spreading false news to push up a share price before selling. :: Pump and dump
+A fraud that pays old investors with money from new investors. :: Ponzi scheme
+The man behind the largest Ponzi scheme, exposed in 2008. :: Bernard Madoff
+The behavioural bias of holding losers too long and selling winners too soon. :: Disposition effect
+The bias where people feel losses more than equal gains. :: Loss aversion
+The bias of following what everyone else is doing. :: Herding (herd behaviour)
+The bias of thinking you know more than you do. :: Overconfidence
+The bias of relying too much on the first number you hear. :: Anchoring
+The field that studies psychology in investing. :: Behavioural finance
+The psychologist who won the 2002 Nobel in economics for prospect theory. :: Daniel Kahneman
+The theory by Kahneman and Tversky about decisions under risk. :: Prospect theory
+The 'smart money' investors who exploit mispricing are called this. :: Arbitrageurs
+Buying and selling the same thing in two markets to lock in a riskless profit. :: Arbitrage
+The share of a portfolio in shares, bonds and cash. :: Asset allocation
+Bringing a portfolio back to its target weights. :: Rebalancing
+A list of a fund's rules on risk, goals and assets. :: Investment policy statement
+A fund that changes its mix of shares and bonds as a target date nears. :: Target-date fund
+The fund industry's term for charges taken when buying fund units. :: Front-end load
+Investing that follows Islamic rules, avoiding interest and forbidden businesses. :: Sharia-compliant investing
+An index of Sharia-compliant shares, such as one from Dow Jones or S&P. :: Islamic index
+Islamic certificates that give a share in an asset's returns, often called Islamic bonds. :: Sukuk
+A company's shares that pay out nearly all profit as dividends and grow slowly are often in this industry. :: Utilities
+A market index weighted by each company's market value. :: Cap-weighted (market-value-weighted) index
+An index where each share counts by its price, like the Dow. :: Price-weighted index
+The NYSE's former trading method where brokers shouted on the floor. :: Open outcry
+The time when a market moves from trading to settlement: in the US, trades now settle this many days after. :: One (T+1 since May 2024)
+Saudi Exchange trades settle this many days after the trade. :: Two (T+2)
+The Saudi Exchange's trading hours on a normal day end at this time. :: 3:00 pm (Sunday to Thursday)
+The days the Saudi Exchange trades. :: Sunday to Thursday
+The broad index of Saudi companies with an MSCI partnership, made of 30 big shares. :: MSCI Tadawul 30 (MT30)
+The return of a fund after all costs compared with its benchmark. :: Excess return (active return)
+The standard deviation of a fund's return minus its benchmark's return. :: Tracking error
+A share bought at 40 and sold at 50 gives this percentage capital gain. :: 25%
+A bond with a 1,000 face value and a 6% coupon pays this much interest a year. :: 60
+The rule that a fund must not put more than a set share of its money in one company is a this limit. :: Concentration (diversification) limit
+
+## 300
+The 1952 journal paper by Markowitz was titled this. :: Portfolio Selection
+Markowitz shared the 1990 Nobel Prize with Sharpe and this economist. :: Merton Miller
+Tobin's separation theorem says every investor holds the risk-free asset and this. :: The same risky (market) portfolio
+The portfolio of risky assets with the highest Sharpe ratio. :: Tangency portfolio
+The portfolio with the lowest possible variance. :: Minimum variance portfolio
+The variance of a two-asset portfolio includes 2 x w1 x w2 x this. :: Covariance (or correlation x sigma1 x sigma2)
+A portfolio with equal weights of two assets, each with 20% volatility and zero correlation, has volatility of about this. :: 14.1%
+Beta equals the covariance of the asset with the market divided by this. :: Variance of the market
+The ratio of excess return to downside deviation only. :: Sortino ratio
+Alpha divided by tracking error. :: Information ratio
+The biggest drop from a peak to a trough in a fund's value. :: Maximum drawdown
+The loss level that won't be exceeded with a given confidence over a period. :: Value at Risk (VaR)
+The average loss beyond the VaR level. :: Expected shortfall (CVaR)
+Fama's three forms of market efficiency: weak, semi-strong and this. :: Strong
+The form of efficiency that says past prices can't predict future prices. :: Weak form
+The form that says all public information is in prices. :: Semi-strong form
+The form that says even private information is in prices. :: Strong form
+The pattern of small company shares beating large ones in the long run. :: Size effect (small-firm effect)
+The tendency for shares to rise in January, especially small ones. :: January effect
+The tendency of recent winners to keep winning for a few months. :: Momentum
+The 1993 paper by Jegadeesh and Titman documented this. :: Momentum
+The tendency for shares with low price-to-book to outperform. :: Value premium
+The share trading strategy of buying the "Dogs of the Dow". :: Buying the 10 highest-yielding Dow shares
+The 1985 paper by De Bondt and Thaler found that past losers later do this. :: Outperform (overreaction)
+The drift in prices after earnings surprises. :: Post-earnings-announcement drift
+The 1987 crash day when the Dow fell 22.6%. :: Black Monday (19 October 1987)
+The 2010 event when the Dow fell about 1,000 points in minutes. :: Flash Crash
+The 2021 frenzy where retail investors pushed up this video game retailer's shares. :: GameStop
+The online forum linked to the GameStop frenzy. :: WallStreetBets (Reddit)
+The 2006 Saudi stock market crash saw TASI fall by about this much in the year. :: More than half (about 53%)
+TASI peaked in February 2006 at about this level. :: 20,600
+The 1982 crash of an unofficial Kuwaiti stock market. :: Souk Al-Manakh crash
+Bond price = sum of coupons and face value discounted at this. :: Yield to maturity
+A 5% coupon bond with a 5% yield trades at this price. :: Par (face value)
+A 1,000 zero-coupon bond due in 2 years at 5% yield is worth about this. :: 907
+The duration of a zero-coupon bond equals this. :: Its maturity
+Macaulay duration divided by (1 + yield). :: Modified duration
+The theory that the yield curve shows expected future short rates. :: Expectations theory
+The theory that investors need extra yield for longer bonds. :: Liquidity preference theory
+The theory that each maturity is its own market. :: Market segmentation theory
+Matching the duration of assets and liabilities to protect against rate changes. :: Immunisation
+Buying bonds that mature at different times, like steps. :: Bond ladder
+The gap between a corporate bond's yield and a government bond's. :: Credit spread
+The US 10-year minus 2-year yield is a popular measure of this. :: The slope of the yield curve
+The Black-Scholes model assumes share prices follow this distribution. :: Lognormal
+The Greek letter for an option's sensitivity to the share price. :: Delta
+The Greek letter for the change in delta. :: Gamma
+The Greek letter for sensitivity to time passing. :: Theta
+The Greek measure of sensitivity to volatility. :: Vega
+The Greek letter for sensitivity to interest rates. :: Rho
+The volatility that, put into Black-Scholes, gives the market price. :: Implied volatility
+The pattern where implied volatility is higher for far out-of-the-money options. :: Volatility smile (skew)
+Put-call parity: C - P = S - this. :: PV of the strike price (K e^-rT)
+A strategy of buying a call and selling a call at a higher strike. :: Bull call spread
+Buying a put at one strike and a call at a higher strike. :: Strangle
+A strategy of four options that profits if the price stays in a range. :: Butterfly spread (or iron condor)
+The delta of an at-the-money call is about this. :: 0.5
+Futures price = spot x e^((r - q) x T). This is the this model. :: Cost-of-carry model
+A futures price above the spot price. :: Contango
+A futures price below the spot price. :: Backwardation
+Hedging with futures where the asset differs from the one hedged leaves this risk. :: Basis risk
+The ratio of futures contracts that minimises variance. :: Minimum variance hedge ratio
+The US exchange where most futures on grains and indexes trade. :: CME (Chicago Mercantile Exchange)
+The oil benchmark from the North Sea. :: Brent
+The US oil benchmark. :: WTI (West Texas Intermediate)
+The oil benchmark for Middle East crude sold to Asia. :: Dubai/Oman
+The 1973 event when Arab oil producers cut supplies and prices jumped. :: The oil embargo (oil crisis)
+On 20 April 2020, this US oil benchmark futures price went below zero. :: WTI
+The gold price rose above this many dollars an ounce for the first time in 2025. :: 3,000 (and later 4,000)
+The fund manager whose Quantum Fund 'broke the Bank of England' in 1992. :: George Soros
+The day in 1992 the pound left the European exchange rate mechanism. :: Black Wednesday
+The hedge fund founded by Ray Dalio. :: Bridgewater Associates
+The quantitative hedge fund firm founded by mathematician James Simons. :: Renaissance Technologies
+Renaissance's famous fund, closed to outside investors. :: Medallion Fund
+A strategy holding long and short positions so market moves cancel out. :: Market neutral
+A strategy betting on a target's price after a merger is announced. :: Merger arbitrage
+A strategy buying distressed debt of troubled firms. :: Distressed investing
+A strategy profiting from price gaps between related securities. :: Statistical arbitrage (pairs trading)
+Trading many orders in fractions of a second by computers. :: High-frequency trading
+A trading venue where orders are hidden until executed. :: Dark pool
+Paying brokers for sending them customer orders. :: Payment for order flow
+An index provider that classifies markets as developed, emerging or frontier. :: MSCI (also FTSE Russell)
+Saudi Arabia joined MSCI's Emerging Markets index in this year. :: 2019
+Saudi Arabia's weight in the MSCI Emerging Markets index has been around this level. :: About 4%
+The Saudi CMA allowed foreign investors directly into Tadawul as QFIs from June of this year. :: 2015
+The 2017 Saudi Exchange market for smaller companies. :: Nomu (Parallel Market)
+The share of profits that must be paid out annually by Saudi REITs. :: At least 90%
+A Shariah screening rule usually limits interest-bearing debt to this share of market value. :: 33% (one third)
+The AAOIFI rule usually limits non-permissible income in Sharia-compliant shares to this share of revenue. :: 5%
+"Purification" in Islamic investing means giving this to charity. :: The share of income from impermissible sources
+The Saudi Exchange started trading single-stock options in this year. :: 2023
+The Saudi Exchange's first ETF, launched in 2010, tracked this. :: Falcom 30 (the 30 largest Saudi companies)
+Ethereum moved from proof of work to proof of stake in this 2022 event. :: The Merge
+The maximum number of bitcoins that will ever exist. :: 21 million
+The pseudonymous creator of Bitcoin. :: Satoshi Nakamoto
+The cryptocurrency exchange that collapsed in November 2022. :: FTX
+A cryptocurrency designed to keep a steady value, often tied to the US dollar. :: Stablecoin
+The US agency that approved spot bitcoin ETFs in January 2024. :: SEC
+A share with beta 0.8 when the risk-free rate is 3% and the market return is 8% has a CAPM expected return of this. :: 7%
+A fund returned 12% with 15% volatility when the risk-free rate was 3%. Its Sharpe ratio. :: 0.6
+
+## 400
+The two-asset efficient frontier becomes a straight line when correlation is this. :: +1 or -1 (at -1 risk can reach zero)
+The CAPM was developed independently by Sharpe, Lintner, Mossin and this economist. :: Jack Treynor
+Roll's 1977 critique says CAPM can't be tested because this can't be observed. :: The true market portfolio
+The 'zero-beta CAPM' was developed by this economist in 1972. :: Fischer Black
+The intertemporal CAPM was developed by this economist in 1973. :: Robert Merton
+The consumption CAPM links returns to the covariance with this. :: Consumption growth
+The equity premium puzzle says the equity premium is too large to be explained by this. :: Reasonable risk aversion
+The low-volatility anomaly says low-risk shares earn returns that are this. :: Higher than CAPM predicts
+Frazzini and Pedersen's 2014 factor that bets against high beta. :: BAB (betting against beta)
+The quality factor of Asness, Frazzini and Pedersen is called this. :: QMJ (quality minus junk)
+Shiller's 1981 paper argued share prices move too much compared with this. :: Dividends (excess volatility)
+Shiller's cyclically adjusted price-earnings ratio uses earnings averaged over this many years. :: 10 (CAPE)
+The Grossman-Stiglitz paradox says markets can't be perfectly efficient because this would not pay. :: Gathering information
+The 'limits to arbitrage' theory by Shleifer and Vishny in 1997 stresses this risk. :: Noise trader risk (and capital constraints)
+The famous pair of Royal Dutch and Shell shares that traded at different prices showed this. :: Limits to arbitrage (twin-share mispricing)
+The 2000 3Com and Palm spin-off was a famous example of this. :: Mispricing (the stub value was negative)
+The 'Monday effect' refers to returns being lower on this day. :: Monday
+Thaler's term for treating money differently depending on its source or use. :: Mental accounting
+The house money effect means investors take more risk after this. :: Gains
+The 'equity home bias' was described by French and Poterba in this year. :: 1991
+Graham's name for shares priced below current assets minus all liabilities. :: Net-nets (net current asset value stocks)
+Graham's 'Mr Market' metaphor appears in this book. :: The Intelligent Investor
+Buffett's 1984 talk defending value investing was titled this. :: The Superinvestors of Graham-and-Doddsville
+Buffett's mentor at Columbia Business School. :: Benjamin Graham
+Buffett's long-time partner who died in 2023. :: Charlie Munger
+Buffett's annual message to Berkshire shareholders is published in this. :: The shareholder letter (annual letter)
+The 'Fed model' compares the stock earnings yield with this. :: The 10-year Treasury yield
+The 'Buffett indicator' compares total market value with this. :: GDP
+The 'bond equivalent yield' doubles this. :: Semi-annual yield
+The price of a 2-year 6% annual coupon bond at a 5% yield. :: About 1,018.59
+The Macaulay duration of a 2-year 6% annual coupon bond at 6%. :: About 1.94 years
+Effective duration is used for bonds with these features. :: Embedded options (callable, putable)
+Negative convexity is a feature of this type of bond. :: Callable bonds (and mortgage-backed securities)
+The risk that homeowners repay mortgages early when rates fall. :: Prepayment risk
+A CMO splits mortgage cash flows into these. :: Tranches
+The senior-most tranche of a CDO was usually rated this. :: AAA
+The 2008 crisis term for bundles of mortgage-backed securities repackaged again. :: CDO (collateralised debt obligation)
+The 1994 bond market sell-off was triggered by surprise rate rises from this central bank. :: Federal Reserve
+The 1998 crisis in which this country defaulted on its debt. :: Russia
+Orange County in California went bankrupt in 1994 after bets on this. :: Interest rates (leveraged bond bets)
+The Nelson-Siegel model is used to fit this. :: The yield curve
+The Vasicek interest rate model allows rates to do this. :: Revert to a mean (and go negative)
+The Cox-Ingersoll-Ross model keeps rates from doing this. :: Going negative
+The Black-Scholes model's assumption that volatility is fixed is broken by this pattern in the data. :: Volatility smile
+The binomial option pricing model was published in 1979 by Cox, Ross and this author. :: Rubinstein
+In a binomial tree, options are valued using these probabilities. :: Risk-neutral probabilities
+The Black model is used to price options on these. :: Futures (and caps, swaptions)
+An option to enter an interest rate swap. :: Swaption
+An option whose payoff depends on the average price. :: Asian option
+An option that appears or disappears if the price hits a level. :: Barrier option
+An option that pays a fixed amount or nothing. :: Binary (digital) option
+The value of a call can never be more than this. :: The share price
+An American call on a share that pays no dividends is never exercised early, so it equals this. :: A European call
+Delta hedging an option position requires frequent this. :: Rebalancing
+Gamma is highest for options that are near this. :: At the money near expiry
+The 1987 crash was partly blamed on this hedging strategy. :: Portfolio insurance
+Rules that pause trading after big falls. :: Circuit breakers
+The Saudi Exchange's daily price limit for most shares. :: 10% up or down
+The ratio of a share's daily turnover to its free float. :: Turnover ratio
+The Basel rules for banks' market risk replaced VaR with expected shortfall in this framework. :: FRTB (Fundamental Review of the Trading Book)
+VaR is not a coherent risk measure because it can break this property. :: Subadditivity
+The four properties of a coherent risk measure: monotonicity, subadditivity, positive homogeneity and this. :: Translation invariance
+Ten-day 99% VaR from one-day VaR of 1 million assumes this scaling. :: Square root of time (about 3.16 million)
+The 1994 J.P. Morgan risk system that popularised VaR. :: RiskMetrics
+Back-testing VaR counts these. :: Exceptions (days with losses above VaR)
+The 'black swan' term for rare, high-impact events was popularised by this author. :: Nassim Nicholas Taleb
+The 'Kelly criterion' sets bet size to maximise this. :: Long-run growth of wealth
+The ratio of a fund's annual return to its maximum drawdown. :: Calmar ratio
+The returns-based style analysis of funds was developed by this Nobel laureate. :: William Sharpe
+Brinson attribution splits active return into allocation, selection and this. :: Interaction
+The time-weighted return removes the effect of this. :: Cash flows into and out of the fund
+The money-weighted return is the same as this. :: Internal rate of return (IRR)
+Survivorship bias makes fund databases look this. :: Better than reality
+The SPIVA reports compare active funds with this. :: Their benchmark indexes
+In most SPIVA reports, most active US large-cap funds trail the S&P 500 over this horizon. :: 10 to 15 years (long run)
+The bet between Warren Buffett and Protégé Partners pitted an S&P 500 fund against these. :: Hedge funds (funds of hedge funds)
+The 1980s Japanese bubble peaked when the Nikkei hit about this level in December 1989. :: 38,900
+The Nikkei only passed its 1989 high in this year. :: 2024
+The Dutch 1630s bubble in flower bulbs. :: Tulip mania
+The 1720 British bubble in shares of this company. :: South Sea Company
+The 1720 French bubble linked to John Law. :: Mississippi Bubble
+The scientist who lost money in the South Sea Bubble and said he could not calculate "the madness of people". :: Isaac Newton
+The first company to issue shares traded on an exchange, in 1602. :: Dutch East India Company (VOC)
+The Amsterdam exchange founded in 1602 is often called the world's first this. :: Stock exchange
+The world's oldest still-used stock index started in 1884 by Charles Dow. :: Dow Jones Transportation Average
+The 'Dow theory' says a trend is confirmed when the Industrials and this index agree. :: Transportation Average
+The Japanese candlestick pattern where open and close are almost equal. :: Doji
+Fibonacci retracement levels commonly used in charting include 38.2%, 50% and this. :: 61.8%
+The Elliott wave theory says markets move in this many waves up. :: Five
+The 'smart beta' strategies weight shares by factors instead of this. :: Market capitalisation
+The fixed-income strategy of investing in bonds at the steepest part of the yield curve and selling as they age. :: Riding the yield curve
+The Sharpe ratio of a portfolio cannot be raised by adding leverage because leverage scales return and this equally. :: Risk (standard deviation)
+A fund manager with an information ratio of 0.5 and tracking error of 4% expects active return of this. :: 2%
+The 'fundamental law of active management' says IR is about IC times the square root of this. :: Breadth (number of independent bets)
+The fundamental law of active management was set out by Richard Grinold in this year. :: 1989
+The book 'Active Portfolio Management' was written by Grinold and this co-author. :: Ronald Kahn
+The Black-Litterman model blends market equilibrium returns with this. :: Investors' own views
+The Black-Litterman model was developed at this investment bank. :: Goldman Sachs
+'Risk parity' portfolios weight assets so each contributes equally to this. :: Portfolio risk
+The famous 'All Weather' risk parity fund was launched by this firm. :: Bridgewater Associates
+
+## 500
+The two-fund separation theorem is linked to this economist's 1958 paper on liquidity preference. :: James Tobin
+The economist who developed the arbitrage pricing theory in 1976. :: Stephen Ross
+The Hansen-Jagannathan bound relates the Sharpe ratio to the volatility of this. :: The stochastic discount factor
+The Euler equation of asset pricing says price = E[m x payoff], where m is this. :: The stochastic discount factor (pricing kernel)
+The Fama-MacBeth method of 1973 runs these regressions. :: Cross-sectional regressions each period
+The paper "Common risk factors in the returns on stocks and bonds" was published in this year. :: 1993
+The Campbell-Shiller decomposition splits changes in price-dividend ratios into expected returns and this. :: Expected dividend growth
+Cochrane's 2011 presidential address was titled this. :: Discount Rates
+Harvey, Liu and Zhu argued in 2016 that a new factor needs a t-statistic above about this. :: 3.0
+The 'factor zoo' term was used by this economist in 2011. :: John Cochrane
+The Barberis, Shleifer and Vishny 1998 model explains under- and over-reaction through these two biases. :: Conservatism and representativeness
+The Daniel, Hirshleifer and Subrahmanyam 1998 model is based on overconfidence and this bias. :: Self-attribution bias
+Hong and Stein's 1999 model explains momentum with 'newswatchers' and these traders. :: Momentum traders
+Shefrin and Statman named the disposition effect in this year. :: 1985
+Odean's 1998 study used trading records from this kind of firm. :: A discount brokerage
+Barber and Odean's 2000 paper title said trading is hazardous to this. :: Your wealth
+Benartzi and Thaler's 1995 explanation of the equity premium puzzle. :: Myopic loss aversion
+Thaler and Benartzi's 'Save More Tomorrow' plan uses this behavioural tool. :: Commitment to save from future pay rises (nudge)
+Richard Thaler won the Nobel Prize in this year. :: 2017
+Lo's 'adaptive markets hypothesis' borrows ideas from this field. :: Evolutionary biology
+The 1900 thesis "Théorie de la spéculation" that first modelled prices as random walks was written by this person. :: Louis Bachelier
+Itô's lemma is used to find the process followed by a function of this. :: A stochastic variable (Brownian motion)
+The Black-Scholes equation is a partial differential equation like this physics equation. :: The heat equation
+In Black-Scholes, N(d2) is the risk-neutral probability that the option does this. :: Ends in the money (is exercised)
+The Heston model lets this follow its own random process. :: Volatility
+The SABR model is widely used to model the volatility smile in this market. :: Interest rate (swaption) market
+The Garman-Kohlhagen model prices options on these. :: Currencies (FX options)
+The Merton jump-diffusion model of 1976 adds these to share prices. :: Jumps
+The 'local volatility' model of 1994 is credited to Dupire and these authors. :: Derman and Kani
+The Longstaff-Schwartz method prices American options with Monte Carlo and this. :: Least-squares regression
+The GARCH model was developed by Tim Bollerslev in 1986, extending the ARCH model of this Nobel laureate. :: Robert Engle
+Engle won the Nobel Prize in 2003 together with this economist. :: Clive Granger
+The 'leverage effect' says volatility rises when prices do this. :: Fall
+The Heath-Jarrow-Morton framework models the evolution of these. :: Forward rates
+The LIBOR market model is also called the this. :: BGM model (Brace-Gatarek-Musiela)
+Ho-Lee was the first of this kind of interest rate model. :: Arbitrage-free (no-arbitrage) term structure model
+The Gaussian copula model, linked to the 2008 crisis, was popularised by David Li in this year. :: 2000
+The 2012 trading loss at JPMorgan's London office was linked to this trader's nickname. :: The London Whale
+The Barings Bank collapse in 1995 was caused by this trader in Singapore. :: Nick Leeson
+Leeson's losses came largely from bets on this index. :: Nikkei 225
+The 2008 Société Générale loss of about 4.9 billion euros was linked to this trader. :: Jérôme Kerviel
+The 2021 collapse of this family office caused big losses at Credit Suisse and Nomura. :: Archegos Capital
+Archegos used these derivatives to hide its huge positions. :: Total return swaps
+Credit Suisse was taken over in 2023 by this bank. :: UBS
+The US bank whose March 2023 collapse was then the second-largest bank failure in US history. :: Silicon Valley Bank
+The Saudi National Bank was then the largest shareholder of this bank when it collapsed. :: Credit Suisse
+The 1907 US banking panic was stopped largely by this banker. :: J. P. Morgan
+The US central bank was created in 1913 by this law. :: Federal Reserve Act
+The 1933 US law that separated commercial and investment banking. :: Glass-Steagall Act
+The 1999 law that repealed most of Glass-Steagall. :: Gramm-Leach-Bliley Act
+The 2010 US law passed after the financial crisis. :: Dodd-Frank Act
+The Dodd-Frank rule limiting banks' own trading. :: Volcker Rule
+The EU rules for financial markets that took effect in 2018, known by these letters. :: MiFID II
+The 'Bretton Woods' system of fixed exchange rates ended when this US president closed the gold window in 1971. :: Richard Nixon
+The 1985 agreement to weaken the dollar, signed at a New York hotel. :: Plaza Accord
+The 1987 agreement to stop the dollar's fall. :: Louvre Accord
+The 1997 crisis started when this country floated its currency. :: Thailand
+The Argentine default of 2001 was then the largest sovereign default, at about this much. :: About 95 billion dollars
+Greece's 2012 debt restructuring cut private creditors' claims by about this share. :: About half (53.5% face value)
+The 'Tadawul' system replaced an older electronic system called ESIS in this year. :: 2001
+The Saudi stock market became a joint stock company called Saudi Stock Exchange (Tadawul) in this year. :: 2007
+Saudi Arabia's first formal stock trading regulations were set up in this decade. :: 1980s
+The Saudi CMA was created by the Capital Market Law in this year. :: 2003
+The founding chairman of the Saudi CMA. :: Jammaz Al-Suhaimi
+TASI's base value of 1,000 was set in this year. :: 1985
+The year Saudi Aramco's market value first passed 2 trillion dollars on its second trading day. :: 2019
+The record crypto loss of 2022 when this stablecoin lost its dollar peg. :: TerraUSD (UST)
+The 2014 collapse of this Tokyo bitcoin exchange. :: Mt. Gox
+Bitcoin's 'halving' cuts the block reward roughly every this many blocks. :: 210,000
+The Bitcoin network's first block is called this. :: Genesis block
+The 2008 paper that introduced Bitcoin was titled this. :: Bitcoin: A Peer-to-Peer Electronic Cash System
+The 1973 Treynor-Black model sizes each active position by its alpha divided by this. :: Residual (unsystematic) variance
+Treynor and Mazuy (1966) and Henriksson and Merton (1981) tested funds for this skill. :: Market timing
+Carhart's 1997 paper found mutual fund persistence is mostly explained by momentum and this. :: Expenses (costs)
+Berk and Green's 2004 model explains why fund outperformance does not persist because of this. :: Money flows into winning funds (diseconomies of scale)
+Fama and French's 2010 study 'Luck versus Skill' found few US mutual funds show this. :: Skill net of fees
+The Nobel economist who said "diversification is the only free lunch" in finance. :: Harry Markowitz
+The 'Merton problem' of 1969 finds the best share of wealth in risky assets as excess return divided by risk aversion times this. :: Variance
+The 'equity premium puzzle' was named in a 1985 paper by Mehra and Prescott in this journal. :: Journal of Monetary Economics
+The Lucas 1978 'tree' model is a model of this. :: Asset prices in an exchange economy
+Breeden's 1979 consumption-based model is abbreviated this. :: CCAPM
+The 'variance risk premium' is the difference between implied variance and this. :: Realised variance
+The CBOE launched the VIX index in this year. :: 1993
+The modern VIX uses options on this index. :: S&P 500
+The 2018 event when short-volatility products collapsed was nicknamed this. :: Volmageddon
+The Swiss National Bank shocked markets by dropping the franc's cap against the euro in this year. :: 2015
+The 2019 repo market spike in the US pushed overnight rates to about this level. :: 10%
+The 2022 UK gilt crisis hurt pension funds using this strategy. :: Liability-driven investment (LDI)
+The UK prime minister whose 2022 mini-budget triggered the gilt crisis. :: Liz Truss
+The ratio of a market's total value to total company replacement cost. :: Tobin's q (for the market)
+The 'Siegel constant' says long-run real US equity returns have been about this much a year. :: 6.5% to 7%
+Jeremy Siegel's book on long-run returns is titled this. :: Stocks for the Long Run
+The 'Dimson, Marsh and Staunton' yearbook tracks returns in many countries since this year. :: 1900
+Jegadeesh's 1990 paper found returns over one month tend to do this. :: Reverse (short-term reversal)
+Lakonishok, Shleifer and Vishny's 1994 paper argued value shares outperform because investors do this. :: Extrapolate past growth too far (overreact)
+Novy-Marx's 2013 paper found this measure of profitability predicts returns. :: Gross profitability (gross profit to assets)
+Amihud's 2002 measure of illiquidity divides absolute return by this. :: Trading volume (in money terms)
+Pastor and Stambaugh's 2003 factor captures this risk. :: Liquidity risk
+Kyle's 1985 model describes how this kind of trader hides among noise traders. :: Informed (insider) trader
+Glosten and Milgrom's 1985 model explains the bid-ask spread through this. :: Adverse selection (informed traders)

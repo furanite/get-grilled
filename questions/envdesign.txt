@@ -1,0 +1,516 @@
+id: envdesign
+name: Environmental Design & Sustainability
+group: design
+
+## 100
+Designing buildings that use less energy and harm the environment less. :: Sustainable (green) design
+Energy from the sun. :: Solar energy
+Panels that turn sunlight into electricity. :: Solar (photovoltaic) panels
+Panels that heat water with sunlight. :: Solar water heaters
+Energy from moving air. :: Wind energy
+Energy that will not run out, like sun and wind. :: Renewable energy
+Fuels like oil, coal and gas. :: Fossil fuels
+The gas from burning fuel that warms the planet. :: Carbon dioxide (CO₂)
+The rise in the Earth's average temperature. :: Global warming
+Gases that trap heat in the atmosphere. :: Greenhouse gases
+The total greenhouse gas caused by a person, building or product. :: Carbon footprint
+Producing no more carbon than you remove. :: Net zero
+Using natural air flow to cool a building. :: Natural ventilation
+Air flowing through windows on opposite sides of a room. :: Cross ventilation
+A machine that cools air in a building. :: An air conditioner
+Shading a window from the sun to keep a room cool. :: Shading
+A roof edge that sticks out to shade windows. :: An overhang
+Blinds on the outside of a window. :: External shading (louvres)
+Planting trees near a building to cool it. :: Natural shading
+Material in walls that slows the flow of heat. :: Insulation
+Windows with two panes of glass. :: Double glazing
+A roof covered with plants. :: A green roof
+A wall covered with plants. :: A green (living) wall
+A white or light roof that reflects sunlight. :: A cool roof
+Using daylight instead of lamps. :: Daylighting
+A window in a roof. :: A skylight
+Collecting rainwater from roofs for use. :: Rainwater harvesting
+Water from sinks and showers that can be reused for toilets or gardens. :: Greywater
+Water from toilets. :: Blackwater
+Taps and showers that use less water. :: Low-flow fixtures
+Gardening with plants that need little water. :: Xeriscaping
+Lamps that use much less energy than old bulbs. :: LED lamps
+Turning waste into new materials. :: Recycling
+The three Rs: reduce, reuse and this. :: Recycle
+Material that can rot away naturally. :: Biodegradable
+Rubbish sites in the ground. :: Landfills
+Food and garden waste turned into soil. :: Compost
+Using a building again for a new use. :: Adaptive reuse
+Materials from close to the building site. :: Local materials
+A traditional tower on old Gulf houses that catches breezes. :: A wind catcher (barjeel, malqaf)
+Name this traditional cooling device on a house. {img:windcatcher.svg} :: A wind catcher (barjeel)
+An open space in the middle of a house, open to the sky. :: A courtyard
+Name this kind of house plan, seen from above. {img:plan-courtyard.svg} :: A courtyard house
+Wooden lattice screens that shade windows and let air through. :: Mashrabiya
+Name this kind of screen pattern used on windows. {img:pattern-mashrabiya.svg} :: Mashrabiya (lattice screen)
+Thick walls that keep heat out in the day. :: Thermal mass
+Old Najdi houses are built from this. :: Mud brick
+Narrow shaded alleys in old Arab towns keep people this. :: Cool
+The direction a building faces. :: Orientation
+In Saudi Arabia, windows facing this direction get the harshest afternoon sun. :: West
+In the northern hemisphere, the sun is mostly in this part of the sky. :: The south
+A tree that loses its leaves in winter, letting sun through. :: A deciduous tree
+The international climate agreement of 2015. :: The Paris Agreement
+The UN climate conference held in Dubai in 2023. :: COP28
+The Saudi program to plant billions of trees. :: The Saudi Green Initiative
+The Saudi Green Initiative aims to plant this many trees. :: 10 billion
+The Saudi city project in the north-west planned to run on renewable energy. :: NEOM
+The Saudi solar power plant in Al-Jouf region, opened in 2021. :: Sakaka Solar Plant
+The Saudi wind farm in Al-Jouf. :: Dumat al-Jandal Wind Farm
+The US rating system for green buildings. :: LEED
+LEED stands for this. :: Leadership in Energy and Environmental Design
+The highest LEED level. :: Platinum
+The Saudi green building rating. :: Mostadam
+A building that makes as much energy as it uses. :: A net-zero energy building
+A meter that measures electricity use and sends data. :: A smart meter
+A device that controls heating and cooling temperature. :: A thermostat
+The temperature range people feel comfortable in. :: Thermal comfort
+Too much heat inside a building. :: Overheating
+The heat island effect makes cities this compared to the countryside. :: Hotter
+Hard surfaces like asphalt absorb heat and raise this. :: Urban heat (the heat island)
+Planting trees in cities to cool streets. :: Urban greening
+Electric cars charge at these points. :: Charging stations
+Walking and cycling are called this kind of transport. :: Active transport
+Buses, trains and metros. :: Public transport
+The amount of energy a building uses per square metre each year. :: Energy use intensity
+A label that shows how energy efficient an appliance is. :: An energy label
+Saudi Arabia's program for energy efficiency. :: The Saudi Energy Efficiency Program
+Saudi Arabia's energy efficiency body. :: SEEC (Saudi Energy Efficiency Center)
+Saudi Arabia aims for net zero by this year. :: 2060
+The biggest use of electricity in Saudi homes. :: Air conditioning
+Sealing gaps in a building to stop air leaks. :: Air sealing
+A test that blows air to find leaks in a building. :: A blower door test
+A very energy efficient building standard from Germany. :: Passive House (Passivhaus)
+Heating water using heat from the air or ground. :: A heat pump
+Energy from heat inside the Earth. :: Geothermal energy
+Energy from water flowing in dams. :: Hydroelectric power
+Energy from burning plant matter. :: Biomass energy
+Turning seawater into fresh water. :: Desalination
+Saudi Arabia is one of the world's largest producers of this water. :: Desalinated water
+Saving water in toilets with two buttons. :: Dual flush
+A sensor that turns lights off when a room is empty. :: An occupancy sensor
+The study of how buildings and people affect nature. :: Environmental impact
+A study of the environmental effects before a project is built. :: An environmental impact assessment
+Toxic gas from some paints and glues. :: VOCs (volatile organic compounds)
+Air quality inside buildings. :: Indoor air quality
+A sick feeling caused by poor building air. :: Sick building syndrome
+Plants like the snake plant are said to improve this. :: Indoor air
+Designing with nature in mind, linking people and nature. :: Biophilic design
+The movement of the sun across the sky during the year. :: The sun path
+The shortest day of the year in the northern hemisphere. :: The winter solstice
+The longest day of the year in the northern hemisphere. :: The summer solstice
+The sun is highest in the sky at this time of day. :: Noon (solar noon)
+A building's energy bill is mostly paid for this in hot climates. :: Cooling
+
+## 200
+The "embodied carbon" of a building is the carbon from this. :: Making and building its materials
+The "operational carbon" of a building is the carbon from this. :: Using it (energy for cooling, lighting and so on)
+The study of a product's impact from raw material to disposal. :: Life cycle assessment (LCA)
+"Cradle to cradle" design aims for materials to do this. :: Be reused or recycled endlessly
+The book "Cradle to Cradle" was written by William McDonough and this chemist. :: Michael Braungart
+The economy model where waste is designed out. :: The circular economy
+A material that stores and releases heat as it melts and freezes. :: Phase change material (PCM)
+The ability of a material to store heat. :: Heat capacity
+The delay between peak outside heat and peak inside heat through a wall. :: Time lag
+Heat moving through a solid. :: Conduction
+Heat moving by air or liquid flow. :: Convection
+Heat moving as rays, like sunshine. :: Radiation
+The share of sunlight a surface reflects. :: Albedo
+A white roof has a high this. :: Albedo (solar reflectance)
+The measure of how much solar heat passes through glass. :: Solar heat gain coefficient (SHGC)
+The measure of how much visible light passes through glass. :: Visible light transmittance (VLT)
+Glass coatings that let light in but block heat. :: Spectrally selective (low-E) coatings
+The ratio of window area to wall area. :: Window-to-wall ratio
+Horizontal shading works best on windows facing this direction. :: South (in the northern hemisphere)
+Vertical fins work best on windows facing these directions. :: East and west
+The angle of the sun above the horizon. :: Solar altitude
+The compass direction of the sun. :: Solar azimuth
+A diagram that shows the sun's position through the year. :: A sun path diagram
+A tool that shows how much shade a device gives. :: A shading mask
+A diagram that shows wind speed and direction at a place. :: A wind rose
+The prevailing wind in Riyadh in summer comes mostly from this direction. :: The north
+The hot dusty wind in the Gulf in summer. :: The shamal
+Air rises when warm, pulling cool air in below. This is called this. :: The stack effect
+A tall shaft that uses the stack effect to pull air out. :: A solar chimney
+Cooling by water evaporating. :: Evaporative cooling
+A traditional porous clay pot that keeps water cool. :: A zir (or jahlah)
+Evaporative coolers work best in this kind of climate. :: Hot and dry
+Cooling by pipes buried in the ground. :: Earth tubes (earth-air heat exchange)
+The ground below a few metres stays at about this temperature. :: The average yearly air temperature
+A system that recovers heat or cool from outgoing air. :: Heat recovery ventilation
+A cooling system that uses chilled water from a central plant for many buildings. :: District cooling
+A system that makes ice at night to cool by day. :: Thermal energy storage (ice storage)
+The ratio of cooling output to electricity used by a chiller. :: Coefficient of performance (COP)
+The term for the energy efficiency of air conditioners. :: EER (or SEER)
+The Saudi Building Code's energy section is this number. :: SBC 601 (and 602)
+The international standard for building energy, from the US. :: ASHRAE 90.1
+The international standard for thermal comfort. :: ASHRAE 55
+The thermal comfort model that predicts the vote of a group. :: PMV (Predicted Mean Vote)
+The Danish scientist who developed the PMV model. :: Povl Ole Fanger
+The adaptive comfort model says people in naturally ventilated buildings accept this. :: A wider range of temperatures
+The six factors of thermal comfort include air temperature, humidity, air speed, radiant temperature, clothing and this. :: Activity (metabolic rate)
+The unit for clothing insulation. :: Clo
+The unit for metabolic rate. :: Met
+A room's CO₂ level shows how good this is. :: Ventilation
+The tiny particles that harm health in dusty air. :: PM2.5 (and PM10)
+Filters that catch fine particles. :: HEPA filters
+The WELL Building Standard focuses on this. :: Human health and wellbeing
+The British green building rating. :: BREEAM
+BREEAM's highest rating. :: Outstanding
+The Australian green building rating. :: Green Star
+Abu Dhabi's green building rating. :: Estidama Pearl Rating
+Qatar's green building rating. :: GSAS
+The building rating that aims for the highest standard of regenerative design. :: The Living Building Challenge
+A "net positive" building does this. :: Gives back more energy (or water) than it uses
+Solar panels built into a building's roof or façade. :: Building-integrated photovoltaics (BIPV)
+The best tilt angle for fixed solar panels is about equal to this. :: The site's latitude
+Riyadh's latitude is about this. :: 24.7° north
+Solar panels lose efficiency when they get this. :: Hot (and dusty)
+Robots that clean solar panels in deserts without water. :: Waterless cleaning robots
+The solar technology that uses mirrors to focus heat. :: Concentrated solar power (CSP)
+The world's largest single-site solar plant in Abu Dhabi. :: Al Dhafra
+The Saudi solar plant at Sudair. :: Sudair Solar PV Plant
+The Saudi national renewable energy program. :: NREP (National Renewable Energy Program)
+Saudi Arabia's target for renewables in electricity by 2030. :: About 50%
+The Red Sea Project aims to run fully on this. :: Renewable energy (solar with batteries)
+The Saudi project at The Red Sea uses one of the world's largest battery systems. Its capacity in MWh. :: About 1,300 MWh
+The Saudi city on the Red Sea designed to be car-free and linear. :: The Line
+The hydrogen project at NEOM is for this kind of hydrogen. :: Green hydrogen
+Green hydrogen is made using this. :: Renewable electricity (electrolysis)
+Grey hydrogen is made from this. :: Natural gas (without capturing CO₂)
+Blue hydrogen is made from gas with this. :: Carbon capture
+The Saudi company leading carbon capture at Uthmaniyah. :: Saudi Aramco
+The Saudi "Circular Carbon Economy" approach has four Rs: reduce, reuse, recycle and this. :: Remove
+Saudi Arabia hosted the UN desertification conference COP16 in this city. :: Riyadh
+The UN body that fights desertification. :: UNCCD
+The Middle East Green Initiative aims to plant this many trees across the region. :: 50 billion
+Mangroves are planted on Saudi coasts because they store this. :: Carbon (blue carbon)
+The Saudi national center that protects vegetation and fights desertification. :: NCVC
+The Saudi heritage village in Asir with thick stone and mud towers. :: Rijal Alma'
+Old houses in Al-Ahsa use this local material from palm trees for roofs. :: Palm trunks and fronds
+The ancient Persian system of underground water channels. :: Qanat
+The Arabian Peninsula name for underground water channels. :: Aflaj (falaj)
+The aflaj of this country are a UNESCO World Heritage site. :: Oman
+The ancient Persian ice houses. :: Yakhchal
+The Persian name for the wind catcher. :: Badgir
+The Egyptian name for the wind catcher. :: Malqaf
+The Emirati name for the wind catcher. :: Barjeel
+The historic district in Dubai famous for wind towers. :: Al Fahidi (Al Bastakiya)
+A building's outer shell of walls, roof, windows and floor. :: The building envelope
+A "cool pavement" uses light colours to reflect this. :: Sunlight
+The temperature inside a car in the sun rises because of this effect. :: The greenhouse effect
+A house built partly into the ground to stay cool. :: An earth-sheltered house
+The shading of buildings by each other in a dense old town. :: Mutual shading
+A covered walkway along shops that gives shade. :: An arcade (colonnade)
+The Arabic word for the shaded seating area at the entrance of old houses. :: Dakkah (bench) or majlis
+
+## 300
+The Egyptian architect who studied vernacular cooling like the malqaf. :: Hassan Fathy ﵀
+Hassan Fathy's ﵀ book on natural energy in hot arid climates. :: Natural Energy and Vernacular Architecture
+The Egyptian village built by Hassan Fathy ﵀ in mud brick. :: New Gourna
+The Malaysian architect famous for bioclimatic skyscrapers. :: Ken Yeang
+The Australian architect famous for simple houses that respond to climate. :: Glenn Murcutt
+The Hungarian-born writer of "Design with Climate" (1963). :: Victor Olgyay
+Olgyay's chart that shows comfort zones with temperature and humidity. :: The bioclimatic chart
+The psychrometric chart shows the properties of this. :: Moist air
+The "Givoni" chart shows passive strategies on this chart. :: The psychrometric chart
+The temperature at which air becomes saturated and water condenses. :: The dew point
+The temperature measured by a thermometer with a wet cloth. :: Wet-bulb temperature
+The wet-bulb temperature above which humans can't cool by sweating for long. :: About 35°C
+The index that combines temperature and humidity to show felt heat. :: The heat index
+The Saudi city with a hot and humid climate on the Red Sea. :: Jeddah
+The climate type of Riyadh in the Köppen system. :: BWh (hot desert)
+The climate zone with very hot summers and very low rainfall. :: Hot arid
+The amount of heat needed to warm a building over a year is shown in this. :: Heating degree days
+The amount of cooling needed is shown in this. :: Cooling degree days
+Saudi Arabia has very high numbers of this. :: Cooling degree days
+The software EnergyPlus is used for this. :: Building energy simulation
+The software Radiance is used for this. :: Daylight simulation
+The plug-ins for Rhino used for environmental analysis. :: Ladybug and Honeybee
+The daylight measure that gives the share of hours a space gets enough daylight. :: Spatial daylight autonomy (sDA)
+The daylight measure for too much direct sun on surfaces. :: Annual sunlight exposure (ASE)
+The ratio of indoor to outdoor light under an overcast sky. :: Daylight factor
+A daylight factor of this percent or more is often called well lit. :: 2%
+A horizontal shelf that bounces daylight deep into a room. :: A light shelf
+A tube with a mirror lining that brings sunlight into a room. :: A light tube (sun pipe)
+A sawtooth roof with windows facing one way for even light. :: A sawtooth (north-light) roof
+Glare is measured with this index. :: Daylight glare probability (DGP)
+The traditional rooftop screen walls in Najd that give privacy. :: Parapets with triangular openings (shurfat)
+The small triangular openings in Najdi walls are for this. :: Light and ventilation
+Najdi houses are built around this central open space. :: A courtyard (hawsh)
+The thick walls of Najdi houses are made of mud mixed with this. :: Straw (chopped hay)
+The coral-stone houses of old Jeddah use these large wooden bay windows. :: Rawashin
+The rawashin help cool rooms by letting air in and blocking this. :: Direct sun (and views from outside)
+Old Jeddah houses were built tall and close together to make these. :: Shaded alleys (and catch sea breezes)
+The traditional Hejazi houses use this local stone. :: Coral stone (manqabi)
+The UNESCO site of Historic Jeddah was listed in this year. :: 2014
+The Japanese approach "satoyama" is about living with this. :: Nature (village landscapes)
+The design framework "One Planet Living" was created by this group. :: Bioregional
+The book "Silent Spring" (1962) was written by this author. :: Rachel Carson
+The 1987 UN report that defined sustainable development. :: The Brundtland Report ("Our Common Future")
+Sustainable development meets present needs without harming this. :: Future generations' ability to meet their needs
+The three pillars of sustainability: environmental, social and this. :: Economic
+The book "Design with Nature" (1969) was written by this landscape architect. :: Ian McHarg
+The book "Limits to Growth" (1972) was written for this club. :: The Club of Rome
+The term "ecological footprint" was created by Mathis Wackernagel and this person. :: William Rees
+The day each year when humanity has used up the year's resources. :: Earth Overshoot Day
+The 2030 Challenge asks new buildings to be this by 2030. :: Carbon neutral
+The organisation behind the 2030 Challenge, founded by Edward Mazria. :: Architecture 2030
+Buildings and construction cause about this share of global CO₂ emissions. :: About 37% (around 40%)
+The US Green Building Council was founded in this year. :: 1993
+LEED was launched in this year. :: 1998
+BREEAM was launched in this year. :: 1990
+The Saudi Mostadam rating was launched by this ministry. :: The Ministry of Municipal and Rural Affairs and Housing
+The KAUST campus was among the first big LEED Platinum projects in this region. :: The Middle East
+The KAUST campus is near this town on the Red Sea. :: Thuwal
+A rainwater garden that soaks up storm water. :: A rain garden (bioswale)
+Paving that lets water pass through into the ground. :: Permeable paving
+The flow of rain off hard surfaces into drains. :: Storm water runoff
+A pond that holds storm water and lets it soak away slowly. :: A retention (detention) pond
+The Wadi Hanifa project in Riyadh restored this. :: A valley's natural water course (wadi)
+The Wadi Hanifa restoration won the Aga Khan Award in this year. :: 2010
+Treated sewage water used for irrigation. :: Treated sewage effluent (TSE)
+A sewage treatment that uses plants in wetlands. :: Constructed wetlands
+Heat from a building's waste water can be recovered with this. :: A drain water heat exchanger
+The energy saved by not needing it in the first place is called this. :: Energy efficiency (negawatts)
+The "negawatt" idea was proposed by this American physicist. :: Amory Lovins
+The Rocky Mountain Institute was founded by this person. :: Amory Lovins
+The concept of buildings that give back to nature more than they take. :: Regenerative design
+The concept of copying nature's solutions in design. :: Biomimicry
+The Eastgate Centre in Harare copies the cooling of these. :: Termite mounds
+The architect of the Eastgate Centre. :: Mick Pearce
+The Al Bahr Towers in Abu Dhabi have this kind of façade. :: A dynamic mashrabiya (moving shading)
+The Al Bahr Towers' shading screen opens and closes with this. :: The sun's movement
+The Institut du Monde Arabe in Paris has windows like camera these. :: Apertures (diaphragms)
+The Institut du Monde Arabe was designed by this architect. :: Jean Nouvel
+The Masdar Institute buildings use this traditional element to cool streets. :: A wind tower
+Masdar City's streets are oriented to catch these. :: Cool breezes (and give shade)
+The Masdar City master plan was drawn up by this firm. :: Foster + Partners
+The KAUST campus earned LEED Platinum in this year. :: 2009
+The hot desert climate needs buildings that keep out heat, while the hot humid climate needs this. :: Lots of air movement (and shade)
+In hot humid climates, traditional houses are often raised on this. :: Stilts
+Light-weight walls suit hot humid climates because they do this at night. :: Cool down quickly
+Heavy walls suit hot dry climates because of the big swing between day and this. :: Night temperatures
+The average daily temperature swing in a desert can be over this. :: 15°C
+The share of world energy used by buildings is about this. :: About a third
+Air conditioning in summer uses about this share of Saudi peak electricity. :: About 70%
+The term for electricity demand at its highest point. :: Peak load
+Moving electricity use away from peak hours. :: Load shifting
+The term for walls that move heat from outside in the day to inside at night, designed by Félix Trombe. :: A Trombe wall
+A Trombe wall is placed behind glass on this side of a house in the north. :: The south
+The colour of solar panels for best absorption. :: Dark (black or blue)
+A solar panel's efficiency today is typically about this. :: 20%
+Solar panels that collect light on both faces. :: Bifacial panels
+The unit for the peak power of a solar panel. :: Watt-peak (Wp)
+The device that changes solar DC power into AC. :: An inverter
+Saudi Arabia receives about this much solar energy per square metre a day. :: About 6 kWh
+Batteries used to store solar power for the night are usually this type. :: Lithium-ion
+
+## 400
+The equation for heat flow through a wall: Q = U × A × this. :: Temperature difference (ΔT)
+A wall with U-value 0.5 W/m²K, area 10 m² and 20 K difference loses this much heat. :: 100 watts
+The unit of the U-value. :: W/m²K
+The R-value is the inverse of this. :: The U-value
+The thermal conductivity of a material is shown by this letter. :: λ (lambda) or k
+A material with low thermal conductivity is a good this. :: Insulator
+The thermal conductivity of still air is about this. :: 0.025 W/mK
+The thermal conductivity of concrete is about this. :: 1.4 to 2 W/mK
+Vacuum insulated panels have conductivity near this. :: 0.004 W/mK
+The Passivhaus limit for heating demand. :: 15 kWh per square metre per year
+The Passivhaus limit for air tightness. :: 0.6 air changes per hour at 50 Pa
+The Passivhaus standard was developed by Wolfgang Feist and this person. :: Bo Adamson
+The first Passivhaus was built in this German city. :: Darmstadt
+The first Passivhaus was built in this year. :: 1991
+The cooling load from people, lights and equipment. :: Internal gains
+The cooling load from sun through windows. :: Solar gains
+A typical person at rest gives off about this much heat. :: About 100 watts
+The latent heat load is from this. :: Moisture (humidity)
+The sensible heat load changes this. :: Air temperature
+One "ton of refrigeration" equals about this many kilowatts. :: 3.5 kW
+A ton of refrigeration is named after this. :: Melting one ton of ice in a day
+The refrigerant gas being phased out because it harms the ozone layer. :: R-22 (HCFCs)
+The 1987 treaty that phased out ozone-harming gases. :: The Montreal Protocol
+The 2016 amendment to the Montreal Protocol that limits HFCs. :: The Kigali Amendment
+Refrigerants with very low global warming potential, like ammonia and CO₂, are called this. :: Natural refrigerants
+The global warming potential of CO₂ is set at this. :: 1
+The system that cools rooms with chilled panels in the ceiling. :: Radiant cooling (chilled ceilings)
+The system that supplies fresh air separately from cooling. :: Dedicated outdoor air system (DOAS)
+Supplying cool air low in a room so warm air rises out at the top. :: Displacement ventilation
+A beam in the ceiling that cools by passing air over chilled coils. :: An active chilled beam
+The system that changes air flow to each zone as needed. :: Variable air volume (VAV)
+A system that uses one outdoor unit and many indoor units with refrigerant. :: VRF (variable refrigerant flow)
+The rating for air filters from 1 to 16. :: MERV
+The tool that predicts building energy use from its design to meet a code. :: Energy modelling
+The method of checking building systems work as designed before handover. :: Commissioning
+Checking an existing building's energy use for savings. :: An energy audit
+A company that pays for energy upgrades and is paid from the savings. :: An ESCO (energy service company)
+The Saudi national ESCO set up by the Public Investment Fund. :: Tarshid
+The concept of measuring life cycle carbon from cradle to grave. :: Whole life carbon
+The stages of life cycle assessment A1 to A3 cover this. :: Making the product (raw material, transport, manufacture)
+The document that reports a product's environmental impacts. :: An EPD (environmental product declaration)
+The international standards for life cycle assessment. :: ISO 14040 and 14044
+The international standard for environmental management systems. :: ISO 14001
+The international standard for energy management. :: ISO 50001
+Timber stores carbon because trees absorb this as they grow. :: CO₂
+Low-carbon cement that uses calcined clay and limestone. :: LC3
+Bricks made of compressed earth with a little cement. :: Compressed stabilised earth blocks (CSEB)
+A building technique of bags filled with earth stacked in rings. :: Earthbag (superadobe) building
+The Iranian-American architect who invented superadobe. :: Nader Khalili
+Building walls of straw bales. :: Straw bale construction
+Hemp mixed with lime used as a building material. :: Hempcrete
+The cooling technique of spraying water in a shaded courtyard. :: Evaporative cooling (misting)
+The wet-pad cooling tower in old Persian buildings. :: A badgir with water (evaporative wind catcher)
+The fountain in an old courtyard house cooled the air by this. :: Evaporation
+The traditional Arab house split into summer and winter rooms. :: Seasonal migration within the house
+The underground room of Iranian houses used in hot afternoons. :: Shabestan (sardab)
+The semi-open hall facing a courtyard in Persian houses. :: An iwan (talar)
+The traditional Damascus house hall facing the courtyard. :: Liwan
+The traditional Egyptian sitting room with a malqaf. :: Qa'a
+The deep reveals of old windows give shade by being this. :: Recessed (set back in thick walls)
+The colour of Najdi mud walls helps because it is this. :: Light, earth-coloured (reflecting some sun)
+The traditional ventilation slot in the walls of Hejazi rooms. :: Small high openings (to let hot air out)
+The UN-Habitat program on housing and urban development is based in this city. :: Nairobi
+The UN Sustainable Development Goal on cities. :: SDG 11
+The UN Sustainable Development Goal on clean energy. :: SDG 7
+The UN Sustainable Development Goal on climate action. :: SDG 13
+The UN Sustainable Development Goal on clean water. :: SDG 6
+The international network of cities fighting climate change. :: C40
+Green Riyadh aims to plant this many trees in the city. :: 7.5 million
+King Salman Park in Riyadh is planned to be one of the largest these. :: Urban parks
+The Riyadh Sports Boulevard project creates this. :: A long green route for walking and cycling
+The Saudi Vision 2030 program that aims to make cities more livable. :: The Quality of Life Program
+The concept of streets for people, with wide shaded pavements. :: Complete streets
+Shading streets with trees cuts surface temperatures by up to about this. :: 10 to 20°C (on surfaces)
+The Saudi Green Initiative's land protection goal by 2030. :: 30% of land (and sea)
+The Saudi Green Initiative aims to rehabilitate this many hectares of land. :: 40 million
+Saudi Arabia's body that labels air conditioners for energy efficiency, with SEEC. :: SASO
+A building material grown from fungus roots. :: Mycelium
+Riyadh's plan to plant millions of trees across the city. :: Green Riyadh
+The standard sky used for daylight factor calculations. :: The CIE overcast sky
+The light level on a desk for office work is usually about this. :: 300 to 500 lux
+The term for heat that enters a building through cracks with outside air. :: Infiltration
+The number of times the air in a room is replaced each hour. :: Air changes per hour (ACH)
+The minimum outdoor air for an office worker in ASHRAE 62.1 is about this per person. :: About 2.5 litres per second (plus per area)
+The CO₂ level indoors often seen as a sign of good ventilation. :: Below about 1,000 ppm
+The world's first carbon-neutral city plan in Abu Dhabi. :: Masdar City
+Masdar City was launched in this year. :: 2006
+The Saudi giga-project at Amaala focuses on this. :: Wellness tourism
+The Red Sea Global project protects this percent of its islands from development. :: About 75%
+The Saudi National Wildlife Center reintroduces animals like this to reserves. :: The Arabian oryx
+The Saudi royal reserves were created in this year. :: 2018
+The biggest Saudi royal reserve by area. :: The Imam Turki bin Abdullah Royal Reserve
+The Saudi Arabian leopard is found in this region. :: The south-west (and at Al-'Ula)
+Saudi Arabia raised electricity prices for homes in this year to cut waste. :: 2018
+The test that finds where heat escapes from a building using a camera. :: Thermography (infrared imaging)
+The term for a building that uses smart controls to cut energy. :: A smart building
+The system that controls a building's air conditioning, lights and alarms. :: BMS (building management system)
+The term for buildings that can trade energy with the grid. :: Grid-interactive buildings
+Saudi Arabia's building energy code for houses and other buildings is numbered this. :: SBC 601 and 602
+The air-tightness test pressure used for comparing buildings. :: 50 pascals
+
+## 500
+The equation that relates heat flow to temperature gradient. :: Fourier's law
+The Stefan-Boltzmann law says radiation rises with this power of absolute temperature. :: The fourth
+The colour of a surface affects absorption of sunlight; its ability to emit heat is called this. :: Emissivity
+A "radiative cooling" surface cools below air temperature by emitting heat to this. :: The sky (outer space)
+The wavelength window where the atmosphere lets heat escape to space. :: 8 to 13 micrometres
+Night sky radiative cooling works best in this kind of climate. :: Dry, clear-sky climates
+The night ventilation strategy uses cool night air to do this. :: Cool the building's thermal mass
+The phenomenon where heavy walls flatten indoor temperature swings. :: Thermal damping (decrement)
+The decrement factor compares these two swings. :: Inside to outside temperature swings
+The temperature that combines air and radiant temperatures. :: Operative temperature
+The temperature measured by a black globe thermometer. :: Globe temperature
+The index used by armies for heat stress, combining wet-bulb, globe and dry-bulb readings. :: WBGT (wet-bulb globe temperature)
+The Universal Thermal Climate Index is used for this. :: Outdoor thermal comfort
+The term for the cooling effect of air movement on skin. :: Wind chill (convective cooling)
+An air speed of about 1 m/s can feel this much cooler. :: About 3°C
+The Bernoulli effect helps wind catchers because wind over the top makes this. :: Low pressure (suction)
+The Venturi effect speeds up air in this. :: A narrowing passage
+Wind pressure on the windward side is this. :: Positive
+Wind pressure on the leeward side is this. :: Negative (suction)
+The computer method for simulating air flow around buildings. :: CFD (computational fluid dynamics)
+The study of tiny water droplets in mist cooling. :: Atomisation (fogging)
+The evaporative cooler that cools air without adding humidity. :: An indirect evaporative cooler
+The cycle that indirect-evaporative coolers improve on, cooling close to the dew point. :: The Maisotsenko cycle
+Desiccant cooling removes this from air. :: Moisture
+The sorption chiller driven by heat, using water and lithium bromide. :: An absorption chiller
+An absorption chiller can be driven by this free source. :: Solar or waste heat
+The Masdar Institute's wind tower in Masdar City is about this tall. :: 45 metres
+The Masdar City wind tower sprays this at the top. :: Water mist
+The Qatar stadiums for the 2022 World Cup used this to cool spectators. :: Cooled air from below the seats
+The study of carbon emissions over the next decades is shown in these. :: Emission pathways (scenarios)
+The IPCC was set up in this year. :: 1988
+The IPCC's Sixth Assessment Report was finished in this year. :: 2023
+The concentration of CO₂ in the air passed this level in 2013. :: 400 ppm
+The Keeling Curve measures CO₂ at this observatory. :: Mauna Loa
+The Kyoto Protocol was adopted in this year. :: 1997
+The "1.5°C" goal was set in this agreement. :: The Paris Agreement
+The COP that agreed to "transition away from fossil fuels". :: COP28
+The global carbon budget for 1.5°C is measured in this. :: Gigatonnes of CO₂
+The concept of companies paying for each tonne of carbon emitted. :: Carbon pricing
+The system where companies buy and sell permits to emit. :: Cap and trade (emissions trading)
+The Saudi Arabian voluntary carbon market company launched in 2022. :: The Regional Voluntary Carbon Market Company
+The removal of CO₂ from the air directly by machines. :: Direct air capture
+Storing captured CO₂ underground. :: Carbon capture and storage (CCS)
+Using captured CO₂ to make products. :: Carbon capture and utilisation (CCU)
+Aramco's Hawiyah plant injects CO₂ into this. :: Oil reservoirs (enhanced oil recovery)
+The Jubail carbon capture hub aims to store this much CO₂ a year by 2027. :: 9 million tonnes
+The Saudi plan for 44 million tonnes of carbon capture by this year. :: 2035
+The concept of using nature to remove carbon, like mangroves and soil. :: Nature-based solutions
+The international standard for green buildings' whole life carbon in Europe. :: EN 15978
+The building movement in the Netherlands of "material passports" for reuse. :: Madaster
+The Danish firm that built the Resource Rows from reused bricks. :: Lendager
+The approach of designing buildings so they can be taken apart. :: Design for disassembly
+The French architects who transform buildings instead of demolishing them, Pritzker 2021. :: Anne Lacaton and Jean-Philippe Vassal
+The Pritzker Prize 2022 winner known for climate-smart buildings in Burkina Faso. :: Diébédo Francis Kéré
+Kéré's school in Gando uses this roof to keep classrooms cool. :: A raised roof with a ventilated gap
+The Indian architect Laurie Baker was known for low-cost buildings with this material. :: Brick (with jali screens)
+The term "jali" means this. :: A perforated stone or brick screen
+The Bangladeshi architect of the Bait ur Rouf Mosque, built with natural light and air. :: Marina Tabassum
+The Bait ur Rouf Mosque won the Aga Khan Award in this year. :: 2016
+The Aga Khan Award 2022 winner in Bangladesh, a house that can be moved during floods. :: Khudi Bari
+The cooling system at the Grand Mosque in Makkah is one of the world's largest of this kind. :: District cooling
+The material in the floor of the Grand Mosque's courtyard that stays cool. :: Thassos marble
+Thassos marble comes from this country. :: Greece
+Thassos marble stays cool because it reflects heat and has this. :: Tiny pores that absorb night moisture (and high reflectance)
+The cooling of outdoor spaces at Al-Masjid an-Nabawi uses these. :: Giant umbrellas and misting fans
+The giant umbrellas of Al-Masjid an-Nabawi number this many. :: 250
+The term for the steady flow of cool air down a tower at night as it cools. :: Downdraft cooling
+The "passive downdraft evaporative cooling" tower is known by this short form. :: PDEC
+The Seville Expo 1992 used outdoor evaporative cooling in this area. :: Avenida de Europa
+The Expo 2020 Dubai Sustainability Pavilion was named this. :: Terra
+The architect of Terra at Expo 2020 Dubai. :: Grimshaw
+Terra's large solar canopy is about this wide. :: 130 metres
+The Expo 2020 Dubai Sustainability Pavilion's "energy trees" turn to follow this. :: The sun
+The Dubai "Sustainable City" project is known as this. :: The Sustainable City (Dubai)
+The 2006 film about climate change by Al Gore. :: An Inconvenient Truth
+The Norwegian building that makes more energy than it used to build and run. :: Powerhouse Brattørkaia
+The Bullitt Center, called "the greenest office building", is in this US city. :: Seattle
+The Bullitt Center meets the standard of this challenge. :: The Living Building Challenge
+The Edge in Amsterdam is famous for being this. :: One of the smartest, greenest offices
+The Pixel Building, Australia's first carbon-neutral office, is in this city. :: Melbourne
+The Bosco Verticale towers with trees on balconies are in this city. :: Milan
+The architect of Bosco Verticale. :: Stefano Boeri
+The Singapore tower famous for sky gardens, designed by WOHA. :: Parkroyal on Pickering
+The Singapore airport attraction with an indoor waterfall. :: Jewel Changi (the Rain Vortex)
+Singapore's tall artificial trees with solar panels. :: Supertrees (Gardens by the Bay)
+The Chinese "sponge city" idea aims to manage this. :: Storm water (flooding)
+The Dutch project that gives rivers more space to flood safely. :: Room for the River
+The Dutch storm surge barrier in Zeeland. :: The Oosterscheldekering
+The Thames Barrier protects this city. :: London
+Venice's moveable flood barrier system. :: MOSE
+The building concept of a house that floats on flood water. :: Amphibious housing
+The term for design that helps cities recover from shocks such as floods and heat waves. :: Resilience
+The 100 Resilient Cities program was started by this foundation. :: The Rockefeller Foundation
+The 2009 Jeddah flood led to new work on this. :: Storm water drainage
+The traditional rain-fed reservoirs in Saudi Arabia's south-west. :: Terraces and cisterns
+The terraced farming in Asir and Al-Baha helps stop this. :: Soil erosion
+The Saudi oasis that is the world's largest by number of palm trees. :: Al-Ahsa
+Ken Yeang's bioclimatic tower near Kuala Lumpur, finished in 1992. :: Menara Mesiniaga
+Masdar's Siemens headquarters was the first LEED Platinum office in this city. :: Abu Dhabi
+The Saudi oasis whose palm groves are a UNESCO site. :: Al-Ahsa Oasis

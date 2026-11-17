@@ -1,0 +1,513 @@
+id: banking
+name: Banking
+group: finance
+
+## 100
+A business that keeps people's money safe and lends money to others. :: Bank
+An account for everyday spending, with a debit card. :: Current account (checking account)
+An account for keeping money you don't need right away. :: Savings account
+A machine that gives out cash from your bank account. :: ATM (cash machine)
+A plastic card that takes money straight from your bank account. :: Debit card
+A card that lets you borrow money to pay and repay later. :: Credit card
+A secret 4-digit number used with a bank card. :: PIN
+The bank that controls a country's money and interest rates. :: Central bank
+Saudi Arabia's central bank. :: Saudi Central Bank (SAMA)
+The US central bank. :: Federal Reserve (the Fed)
+The central bank for the euro area. :: European Central Bank
+The UK's central bank, founded in 1694. :: Bank of England
+Saudi Arabia's currency. :: Saudi riyal
+The number of halalas in one riyal. :: 100
+Putting money into a bank account. :: Deposit
+Taking money out of a bank account. :: Withdrawal
+Moving money from one account to another. :: Transfer
+The international bank account number used for transfers. :: IBAN
+Saudi IBANs start with these two letters. :: SA
+The number of characters in a Saudi IBAN. :: 24
+Saudi Arabia's instant payment system launched in 2021. :: Sarie
+Saudi Arabia's national debit card network. :: Mada
+The Saudi system that lets people pay bills such as electricity online. :: SADAD
+Banking on your phone with an app. :: Mobile banking
+Banking on a website. :: Online banking
+A paper order telling the bank to pay someone from your account. :: Cheque (check)
+A printed list of your account's transactions. :: Bank statement
+Money borrowed from a bank to buy a house. :: Home loan (mortgage)
+A loan to buy a car. :: Car loan (auto finance)
+Money that's borrowed and must be paid back. :: Loan (debt)
+The person who borrows money. :: Borrower
+The bank or person who lends money. :: Lender
+The extra amount paid on top of a loan. :: Interest
+The money a bank pays you for keeping savings with it, in conventional banking. :: Interest
+Spending more money than your account has, with the bank's agreement. :: Overdraft
+The amount of money in your account. :: Balance
+A bank employee who serves customers at the counter. :: Teller (cashier)
+A local office of a bank. :: Branch
+A bank that offers services only online, with no branches. :: Digital bank (neobank)
+The Saudi digital bank owned by the telecom company stc. :: STC Bank
+A safe box in a bank vault rented to keep valuables. :: Safe deposit box
+The strong room where a bank keeps cash and valuables. :: Vault
+Money in coins and paper notes. :: Cash
+Paper money is also called these. :: Banknotes
+The value of one currency in another. :: Exchange rate
+A place where you change one currency into another. :: Currency exchange (money changer)
+Sending money to family in another country. :: Remittance
+A plastic card topped up with money in advance. :: Prepaid card
+Paying by tapping your card or phone on a reader. :: Contactless payment
+Apple's mobile payment service, launched in Saudi Arabia in 2021. :: Apple Pay
+A crime where someone steals your card or account details. :: Fraud (identity theft)
+A fake email or message trying to trick you into giving bank details. :: Phishing
+A code sent to your phone to confirm a payment. :: One-time password (OTP)
+Proving your identity with a password plus a code. :: Two-factor authentication
+The rule that banks must check who their customers are. :: Know your customer (KYC)
+Hiding the source of money made from crime. :: Money laundering
+A bank's most important customers' savings, protected by a government scheme. :: Insured deposits
+Saudi Arabia's deposit protection fund protects each depositor up to this much per bank. :: 200,000 riyals
+A run on a bank happens when many customers try to do this at once. :: Withdraw their money
+The famous TV-image of people queuing outside Northern Rock was from this year. :: 2007
+The world's oldest bank still operating, founded in 1472 in Siena. :: Monte dei Paschi di Siena
+The Italian family whose bank funded the Renaissance in Florence. :: Medici
+The country famous for bank secrecy, home of UBS. :: Switzerland
+The Swiss bank founded in 1856 that was taken over in 2023. :: Credit Suisse
+The largest bank in the world by assets, based in China. :: Industrial and Commercial Bank of China (ICBC)
+The largest US bank by assets. :: JPMorgan Chase
+The largest bank in Saudi Arabia by assets. :: Saudi National Bank (SNB)
+The largest Islamic bank in the world by assets, based in Riyadh. :: Al Rajhi Bank
+The National Commercial Bank, the first Saudi-owned bank, was founded in this year. :: 1953
+The bank card company with a blue and yellow logo, used worldwide. :: Visa
+The card company with red and yellow circles. :: Mastercard
+The card company known for charge cards and the centurion. :: American Express
+A short form of "automated teller machine". :: ATM
+A loan given to a person for anything, like a wedding or travel. :: Personal loan (personal finance)
+A record of how well a person repays debts. :: Credit history
+Saudi Arabia's credit bureau, known by the letters SIMAH. :: Saudi Credit Bureau
+A number that shows how likely a person is to repay. :: Credit score
+The day the bank adds your salary to your account. :: Payday (salary day)
+A regular payment set up to leave your account automatically. :: Standing order (direct debit)
+A loan where the interest rate stays the same. :: Fixed-rate loan
+A loan where the interest rate can change. :: Variable-rate loan
+A charge the bank takes for a service. :: Fee
+Keeping your money in more than one currency. :: Multi-currency account
+A deposit you agree to leave for a fixed time. :: Time deposit (fixed deposit)
+A bank that serves companies rather than ordinary people. :: Corporate bank (wholesale bank)
+A bank that serves ordinary people. :: Retail bank
+A bank that helps companies sell shares and bonds. :: Investment bank
+A bank that serves very rich people. :: Private bank
+A small loan to poor people to start a business. :: Microfinance (microcredit)
+The Bangladeshi bank that pioneered microcredit. :: Grameen Bank
+The Bangladeshi founder of the Grameen Bank who won the Nobel Peace Prize in 2006. :: Muhammad Yunus
+The international bank code used to identify banks for transfers. :: SWIFT code (BIC)
+The Belgian-based network banks use to send payment messages. :: SWIFT
+A payment app used to send money between people with a phone number in Saudi Arabia. :: Digital wallet (e.g. STC Pay, urpay)
+Saudi Arabia's national payments company, known by the name Saudi this. :: Saudi Payments
+The Saudi riyal's fixed rate against the US dollar. :: 3.75
+A bank that follows Sharia rules and avoids interest. :: Islamic bank
+The Arabic word for interest, which Islamic banks avoid. :: Riba
+A short form of "personal identification number". :: PIN
+The number on the front of a bank card, usually 16 digits long. :: Card number
+
+## 200
+The interest rate a central bank charges or pays to steer the economy. :: Policy rate
+SAMA's main policy rate, at which banks borrow from it. :: Repo rate
+The rate SAMA pays banks for parking money with it. :: Reverse repo rate
+SAMA usually moves its rates in line with this central bank because of the dollar peg. :: The US Federal Reserve
+The money banks must keep with the central bank. :: Reserve requirement (statutory reserves)
+Banks keeping only part of deposits as reserves is called this. :: Fractional reserve banking
+The theoretical money multiplier with a reserve ratio of 10%. :: 10
+The central bank buying bonds to put money into the economy. :: Quantitative easing (QE)
+The central bank selling or letting bonds mature to take money out. :: Quantitative tightening (QT)
+The role of the central bank as rescuer of banks in a crisis. :: Lender of last resort
+The 19th-century writer who set the rule: lend freely, at a penalty rate, against good collateral. :: Walter Bagehot
+Bagehot's 1873 book about the London money market. :: Lombard Street
+Money owed by a bank to depositors is this, from the bank's view. :: A liability
+Loans to customers are this, from the bank's view. :: An asset
+The difference between interest earned on loans and paid on deposits. :: Net interest margin
+A bank's earnings from fees and commissions are called this kind of income. :: Non-interest income
+Loans where the borrower has stopped paying for 90 days or more. :: Non-performing loans
+Money a bank sets aside for expected loan losses. :: Loan loss provisions
+The ratio of loans to deposits. :: Loan-to-deposit ratio
+The ratio of a bank's costs to its income. :: Cost-to-income ratio
+The Swiss city that hosts the Bank for International Settlements. :: Basel
+The international rules for bank capital. :: Basel Accords
+The first Basel Accord was agreed in this year. :: 1988
+Basel I set a minimum capital ratio of this. :: 8%
+Basel II introduced three of these. :: Pillars
+The three pillars of Basel II. :: Minimum capital, supervisory review, market discipline
+Basel III was agreed after this crisis. :: The 2008 global financial crisis
+The highest quality bank capital, mostly shares and retained earnings. :: Common Equity Tier 1 (CET1)
+Basel III's minimum CET1 ratio before buffers. :: 4.5%
+The Basel III buffer of 2.5% on top of the minimum. :: Capital conservation buffer
+Assets adjusted by their riskiness, used in capital ratios. :: Risk-weighted assets (RWA)
+The simple ratio of Tier 1 capital to total exposure, not risk-weighted. :: Leverage ratio
+Basel III's minimum leverage ratio. :: 3%
+The ratio of high-quality liquid assets to 30 days of net cash outflows. :: Liquidity coverage ratio (LCR)
+The ratio of stable funding to required stable funding over a year. :: Net stable funding ratio (NSFR)
+The LCR must be at least this. :: 100%
+Banks so big that their failure would harm the whole economy. :: Systemically important banks (too big to fail)
+Testing how a bank would cope with a severe downturn. :: Stress test
+Risk that a borrower fails to repay. :: Credit risk
+Risk of losses from market price moves. :: Market risk
+Risk from failed systems, people or processes. :: Operational risk
+Risk of not having cash to meet obligations. :: Liquidity risk
+Risk from mismatched interest rate timing on assets and liabilities. :: Interest rate risk
+A bank borrowing short-term to lend long-term is doing this. :: Maturity transformation
+A bank turning many small deposits into large loans is doing this. :: Size (denomination) transformation
+The market where banks lend to each other overnight. :: Interbank market
+The Saudi interbank rate, known by the letters SAIBOR. :: Saudi Arabian Interbank Offered Rate
+The London rate that was used for trillions of dollars of contracts until 2023. :: LIBOR
+The scandal in which banks rigged LIBOR came to light in this year. :: 2012
+The rate that replaced US dollar LIBOR. :: SOFR
+Bundling loans and selling them as securities. :: Securitisation
+A loan to a borrower with a poor credit history. :: Subprime loan
+The value of a loan divided by the value of the property. :: Loan-to-value ratio (LTV)
+Monthly debt payments divided by monthly income. :: Debt-to-income ratio (debt burden ratio)
+SAMA's cap on the share of salary that can go to consumer loan repayments for most borrowers. :: 33% (one third)
+A guarantee from a bank that a buyer will pay a seller in international trade. :: Letter of credit
+A bank's promise to pay if a customer fails to meet an obligation. :: Bank guarantee
+A short-term loan that 'bridges' a gap until other money arrives. :: Bridge loan
+Finance for importing and exporting goods. :: Trade finance
+Documents showing goods have been loaded on a ship. :: Bill of lading
+The bank in a letter of credit that pays the exporter. :: Advising (or confirming) bank
+The rules for letters of credit published by the ICC, known by these letters. :: UCP 600
+Finance where a bank buys a company's invoices. :: Factoring
+A bank that lends to governments for development, based in Washington. :: World Bank
+The fund that lends to countries in balance-of-payments trouble. :: IMF (International Monetary Fund)
+The development bank based in Jeddah. :: Islamic Development Bank (IsDB)
+The Islamic Development Bank was founded in this year. :: 1973 (began operations 1975)
+The Saudi fund that lends for development abroad. :: Saudi Fund for Development
+The Saudi government bank that gives interest-free social loans to citizens. :: Social Development Bank
+The Saudi fund that helps citizens buy homes. :: Real Estate Development Fund
+The Saudi government's housing programme app and platform. :: Sakani
+The Saudi programme that lets fintech companies test products under supervision. :: Regulatory sandbox
+Saudi Arabia's open banking framework was launched by SAMA in this year. :: 2022
+Sharing customer bank data with apps, with the customer's consent. :: Open banking
+An app that combines finance with technology, like payments or lending. :: Fintech
+Buy now, pay later companies split a purchase into this. :: Instalments
+Two popular Saudi buy-now-pay-later apps. :: Tabby and Tamara
+Turning card numbers into random codes for safety. :: Tokenisation
+The card security standard known by the letters PCI DSS. :: Payment Card Industry Data Security Standard
+The Fed's chair from 1987 to 2006. :: Alan Greenspan
+The Fed's chair during the 2008 financial crisis. :: Ben Bernanke
+The Fed chair from 2014 to 2018, the first woman in the role. :: Janet Yellen
+The Fed's committee that sets interest rates. :: FOMC (Federal Open Market Committee)
+The European Central Bank is based in this city. :: Frankfurt
+The ECB president who promised in 2012 to do "whatever it takes" to save the euro. :: Mario Draghi
+SAMA was founded in this year. :: 1952
+SAMA was renamed the Saudi Central Bank in this year. :: 2020
+SAMA's original name before 2020. :: Saudi Arabian Monetary Agency
+The first bank in Saudi Arabia, a Dutch trading bank opened in Jeddah in 1926. :: Netherlands Trading Society (later Saudi Hollandi Bank)
+Saudi Hollandi Bank was renamed in 2016 as this. :: Alawwal Bank
+Alawwal Bank merged with this bank in 2019. :: SABB (Saudi British Bank)
+SABB changed its name in 2023 to this. :: Saudi Awwal Bank (SAB)
+A bank account shared by two people. :: Joint account
+The date a credit card bill must be paid to avoid charges. :: Due date
+The yearly cost of a loan including fees, shown as a percentage. :: APR (annual percentage rate)
+A bank's own money, from its shareholders. :: Capital (equity)
+The ratio of a bank's profit to its shareholders' equity. :: Return on equity (ROE)
+A bank that only accepts deposits and lends in one local area. :: Community bank
+A cooperative bank owned by its members. :: Credit union
+Money a bank holds in its own vault or at the central bank. :: Reserves
+
+## 300
+The bank capital ratio: capital divided by these. :: Risk-weighted assets
+Under Basel standards, a residential mortgage often gets this lower risk weight. :: 35% (or less under Basel III's LTV bands)
+The Basel approach where banks use their own models for credit risk. :: Internal ratings-based (IRB) approach
+The Basel approach that uses fixed risk weights from rules. :: Standardised approach
+Expected loss = PD x LGD x this. :: EAD (exposure at default)
+The share of a loan lost if the borrower defaults. :: Loss given default (LGD)
+The chance a borrower defaults within a year. :: Probability of default (PD)
+Basel III's extra buffer that regulators raise in boom times. :: Countercyclical capital buffer
+The extra capital for globally systemically important banks. :: G-SIB surcharge
+The final Basel III reforms agreed in 2017 are often called this. :: Basel IV (Basel III endgame)
+The 'output floor' limits how far internal models can push RWAs below this share of the standardised result. :: 72.5%
+The Saudi Central Bank requires banks to hold statutory deposits of this share of current deposits. :: 7%
+The Basel Committee on Banking Supervision was set up in this year after the Herstatt failure. :: 1974
+Herstatt risk is another name for this. :: Settlement risk (foreign exchange settlement risk)
+The system that settles foreign exchange trades to remove Herstatt risk. :: CLS (Continuous Linked Settlement)
+A payment system that settles each payment one by one in real time. :: RTGS (real-time gross settlement)
+Saudi Arabia's RTGS system. :: SARIE (Saudi Arabian Riyal Interbank Express)
+The Gulf payment system for cross-border payments among GCC states. :: AFAQ (GCC RTGS)
+The Arab regional payment system run by the Arab Monetary Fund. :: Buna
+SWIFT's messaging standard that replaced MT messages for payments from 2023. :: ISO 20022
+A lending rate set as a benchmark plus this. :: Margin (spread)
+A loan with a big final payment. :: Balloon loan
+A loan schedule where each payment covers interest and some principal. :: Amortising loan
+In an amortising loan, early payments are mostly this. :: Interest (or profit)
+A 'teaser rate' is a low starting rate on this kind of loan. :: Adjustable-rate mortgage
+The 2008 failures of these two US mortgage giants led to government conservatorship. :: Fannie Mae and Freddie Mac
+The investment bank rescued by JPMorgan in March 2008. :: Bear Stearns
+The UK bank nationalised in 2008 after a run. :: Northern Rock
+The 2008 US programme that injected capital into banks. :: TARP (Troubled Asset Relief Program)
+The US insurer bailed out in 2008 because of its credit default swaps. :: AIG
+The 2023 US bank failure caused by losses on bonds and a fast deposit run. :: Silicon Valley Bank
+SVB's depositors were mostly these kinds of customers. :: Tech start-ups and venture capital firms
+The Swiss rescue of Credit Suisse wiped out this kind of bond, worth about 16 billion francs. :: AT1 (Additional Tier 1) bonds
+Bonds that convert to shares or are written down if a bank's capital falls too low. :: Contingent convertibles (CoCos)
+Making creditors bear losses instead of taxpayers. :: Bail-in
+Using taxpayers' money to rescue a bank. :: Bail-out
+A plan for how a big bank could be wound down without chaos. :: Living will (resolution plan)
+The US agency that insures bank deposits. :: FDIC
+The FDIC insures deposits up to this amount per depositor per bank. :: 250,000 dollars
+The 1930s depression saw this many US banks fail, roughly. :: About 9,000
+Saudi Arabia's Deposit Protection Fund was set up in this year. :: 2016
+The European rule set that implements Basel III in the EU. :: CRR and CRD (Capital Requirements Regulation and Directive)
+The bank capital that absorbs losses while the bank keeps running. :: Going-concern capital (Tier 1)
+Tier 2 capital is mostly this kind of debt. :: Subordinated debt
+Banks keep a stock of these to meet the LCR. :: High-quality liquid assets (HQLA)
+Level 1 HQLA includes cash, central bank reserves and these. :: Government bonds (high-quality sovereign debt)
+SAMA's cap on banks' loan-to-deposit ratio, raised in 2016. :: 90%
+The task force that sets global standards against money laundering. :: FATF (Financial Action Task Force)
+The Saudi unit that receives reports of suspicious transactions. :: General Directorate of Financial Investigation (SAFIU)
+A report a bank files about a suspicious transaction. :: Suspicious transaction report (STR)
+The anti-money laundering three stages: placement, layering and this. :: Integration
+Breaking large cash deposits into small ones to avoid reporting. :: Structuring (smurfing)
+A person in a prominent public job who needs extra checks. :: Politically exposed person (PEP)
+Extra checks for high-risk customers. :: Enhanced due diligence
+An informal money transfer system based on trust, used across South Asia and the Middle East. :: Hawala
+The US law of 1970 that requires banks to report large cash transactions. :: Bank Secrecy Act
+US banks report cash transactions over this amount. :: 10,000 dollars
+Checking customers against lists of sanctioned people. :: Sanctions screening
+The US Treasury office that runs sanctions lists. :: OFAC
+A bank account opened by one bank at another bank abroad. :: Correspondent account (nostro or vostro)
+Our account held at your bank, in Latin. :: Nostro
+Your account held at our bank, in Latin. :: Vostro
+Banks cutting ties with risky clients or regions to reduce risk. :: De-risking
+The banking model where banks lend money they create through new deposits. :: Endogenous money (credit creation)
+The Bank of England's 2014 paper explained that loans create this. :: Deposits
+M0, the narrowest money measure, is mostly this. :: Cash and central bank reserves (base money)
+M2 adds savings and time deposits to this. :: M1
+The ratio of the money supply to the monetary base. :: Money multiplier
+Central bank digital currency is known by these four letters. :: CBDC
+The joint CBDC project of Saudi Arabia and the UAE for cross-border payments. :: Project Aber
+The BIS project for multiple central bank digital currencies that SAMA joined in 2024. :: mBridge
+The legal rule that a bank must keep customers' affairs private. :: Banking secrecy (confidentiality)
+The 1934 Swiss law that made breaking bank secrecy a crime. :: Swiss Banking Act
+The international standard for automatic exchange of tax account information. :: Common Reporting Standard (CRS)
+The US law requiring foreign banks to report US account holders. :: FATCA
+The Saudi National Bank was formed by the 2021 merger of NCB and this bank. :: Samba Financial Group
+Riyad Bank was founded in this year. :: 1957
+The Saudi bank formerly known as Saudi American Bank. :: Samba
+The Saudi bank in which the French bank Crédit Agricole was long a shareholder. :: Banque Saudi Fransi
+The Saudi bank that grew from the Al-Rajhi family's money-changing business. :: Al Rajhi Bank
+Al Rajhi Bank was formed as a joint stock company in this year. :: 1987 (1988 as a bank)
+The Saudi bank founded in 1976 with Chase Manhattan as a shareholder. :: The Saudi Investment Bank
+The interest a bank pays on deposits is this kind of expense for the bank. :: Interest expense (funding cost)
+Customer deposits that can be withdrawn at any time. :: Demand deposits
+Deposits kept for a fixed term are called these. :: Time deposits
+The share of a loan's value a borrower pays upfront for a home. :: Down payment
+A loan given against the value of a borrower's shares. :: Margin loan (share-backed loan)
+A loan syndicate is led by this bank. :: Lead arranger (mandated lead arranger)
+The fee for arranging a syndicated loan. :: Arrangement fee (upfront fee)
+The legal right of a lender to seize collateral. :: Lien (security interest)
+The ratio of a bank's tier 1 capital to its risk-weighted assets. :: Tier 1 capital ratio
+The FATF's grey list names countries under this. :: Increased monitoring
+The 40 standards the FATF sets are called these. :: The FATF Recommendations
+Saudi Arabia became a full member of the FATF in this year. :: 2019
+The Saudi Anti-Money Laundering Law in force was issued in this year. :: 2017
+A bank's chief officer for preventing money laundering. :: MLRO (money laundering reporting officer)
+Checks done every time a customer makes a transaction, compared with their profile. :: Ongoing monitoring (transaction monitoring)
+A sanctions-free route for humanitarian payments is called this. :: Humanitarian exemption (carve-out)
+A loan agreement signed but not yet drawn is called this. :: Undrawn commitment
+A lender's right to call in a loan early if a covenant is broken. :: Acceleration
+
+## 400
+The 1694 founding of the Bank of England was to lend money to this king for war. :: William III
+The founder of the Bank of England. :: William Paterson
+The Fed was created after the panic of this year. :: 1907
+The secret 1910 meeting that drafted the Fed plan took place on this island. :: Jekyll Island
+The 1933 bank holiday was declared by this US president. :: Franklin D. Roosevelt
+The 1974 German bank whose failure caused the first big settlement crisis. :: Bankhaus Herstatt
+The Italian bank whose 1982 collapse was linked to the death of its chairman under a London bridge. :: Banco Ambrosiano
+The bank shut down in 1991 for fraud and money laundering, founded by Agha Hasan Abedi. :: BCCI (Bank of Credit and Commerce International)
+The 1980s US crisis in which over 1,000 savings banks failed. :: Savings and loan crisis
+The 1984 US bank failure, then the largest, which led to the phrase "too big to fail". :: Continental Illinois
+The 1995 failure of Britain's oldest merchant bank. :: Barings Bank
+The 1990s Japanese banking crisis followed the burst of this bubble. :: Asset price (property and stock) bubble
+The 2008 collapse of Iceland's three biggest banks included Kaupthing, Landsbanki and this. :: Glitnir
+Cyprus's 2013 rescue required this unusual step. :: Bail-in of large depositors
+The 'Diamond-Dybvig' model of 1983 explains this. :: Bank runs
+Diamond and Dybvig shared the 2022 Nobel Prize with this former Fed chair. :: Ben Bernanke
+The Saudi Central Bank cut its policy rates in 2024 following the Fed. The repo rate fell to this by December 2024. :: 5.0%
+Saudi Arabia's Banking Control Law dates from this year. :: 1966
+The Saudi Finance Companies Control Law took effect in this year. :: 2012
+The Saudi Real Estate Finance Law was issued in this year. :: 2012
+The ratio of mortgage finance a Saudi first-time home buyer can get, up to this share of the home value. :: Up to 90%
+Under Basel's standardised approach, a corporate rated AAA to AA- gets this risk weight. :: 20%
+Under the standardised approach, an unrated corporate gets this risk weight. :: 100%
+Exposures to a sovereign rated AAA to AA- in its own currency get this risk weight. :: 0%
+The Basel concept that charges capital for a counterparty's worsening credit on derivatives. :: CVA (credit valuation adjustment)
+The Basel market risk framework that replaced VaR with expected shortfall at 97.5%. :: FRTB
+Basel III's minimum total capital ratio, before buffers. :: 8%
+CET1 4.5% + conservation buffer 2.5% = this. :: 7%
+The MREL rule in the EU and TLAC rule globally require banks to have enough of this. :: Loss-absorbing capacity (bail-in-able debt)
+TLAC standards for G-SIBs were set by this international body. :: Financial Stability Board (FSB)
+The FSB was created in 2009 to replace this forum. :: Financial Stability Forum
+The 'CAMELS' rating covers capital, assets, management, earnings, liquidity and this. :: Sensitivity to market risk
+The bank analysis ratio of loan loss reserves to non-performing loans. :: Coverage ratio
+IFRS 9's expected credit loss model splits loans into this many stages. :: Three
+The banking practice of extending or changing terms for a troubled borrower. :: Forbearance (restructuring)
+The 'evergreening' of loans means doing this. :: Giving new loans to repay old ones to hide bad debts
+A 'bad bank' is created to hold these. :: Bad (non-performing) loans
+The Swedish bank rescue of the early 1990s is famous for using this. :: A bad bank (Securum)
+The interest rate risk of a bank measured by the change in its economic value of equity. :: EVE (economic value of equity)
+The gap between rate-sensitive assets and rate-sensitive liabilities over a time band. :: Repricing gap
+The 'funds transfer pricing' system charges business lines for this. :: Use of funding (cost of funds)
+The 'RAROC' measure is return divided by this. :: Economic capital (risk-adjusted capital)
+Banks' trading desks valued daily at market prices are in this book. :: Trading book
+Loans held to maturity are in this book. :: Banking book
+Before Basel III's LCR, SAMA required banks to keep liquid assets of at least this share of deposits. :: 20%
+The US bank that failed in May 2023 and was bought by JPMorgan. :: First Republic Bank
+The New York bank closed in March 2023 that was linked to crypto clients. :: Signature Bank
+The US programme of 2023 that let banks borrow against bonds at face value. :: Bank Term Funding Program (BTFP)
+Basel's 'large exposures' rule limits exposure to one counterparty to this share of Tier 1 capital. :: 25%
+The European banking supervisor created in 2014 inside the ECB. :: Single Supervisory Mechanism (SSM)
+The three pillars of the EU banking union: supervision, resolution and this. :: Deposit insurance (EDIS)
+The 1999 introduction of this currency changed banking in Europe. :: Euro
+The rate at which banks borrow from the ECB for one week. :: Main refinancing rate
+The Bank of Japan began negative interest rates in this year. :: 2016
+The Bank of Japan ended negative interest rates in this year. :: 2024
+The Swiss National Bank's policy rate was negative from 2015 to this year. :: 2022
+The 'zero lower bound' problem means central banks can't easily cut rates below this. :: Zero
+The 'Taylor rule' sets policy rates based on inflation and this. :: The output gap
+The economist John Taylor proposed his rule in this year. :: 1993
+'Forward guidance' is when a central bank does this. :: Tells markets about future policy
+The Fed's dual mandate is maximum employment and this. :: Stable prices
+The ECB's single mandate is this. :: Price stability
+The inflation target of the Fed, ECB and Bank of England. :: 2%
+SAMA's main monetary policy objective, given the peg. :: Maintaining the riyal's exchange rate (and financial stability)
+The GCC monetary union plan that Oman and the UAE left. :: Gulf single currency
+The Arab Monetary Fund is based in this city. :: Abu Dhabi
+The Islamic Development Bank's unit of account is the Islamic dinar, equal to one of these. :: SDR (Special Drawing Right)
+The IMF's reserve asset made of five currencies. :: Special Drawing Right (SDR)
+The five SDR currencies: US dollar, euro, Chinese yuan, Japanese yen and this. :: British pound
+The Chinese yuan joined the SDR basket in this year. :: 2016
+The 1944 conference that created the IMF and World Bank. :: Bretton Woods
+The British economist who led Britain's delegation at Bretton Woods. :: John Maynard Keynes
+The proposed world currency Keynes put forward at Bretton Woods. :: Bancor
+The Saudi law that regulates payment companies and e-wallets. :: Law of Payments and Payment Services
+Saudi Arabia's national e-wallet regulation lets licensed firms offer these. :: E-wallets (electronic money)
+Saudi Arabia's target for non-cash payments in retail by 2025 under the Financial Sector Development Program. :: 70%
+Saudi Arabia's Financial Sector Development Program is part of this plan. :: Vision 2030
+The Saudi fintech hub launched in 2018. :: Fintech Saudi
+The first Saudi fintech unicorn, a payments company. :: Tabby
+The Saudi riyal was first issued as paper notes in this year. :: 1961 (earlier 'pilgrim receipts' from 1953)
+'Pilgrim receipts' were issued by SAMA starting in this year. :: 1953
+SAMA's first governor. :: George Blowers (an American)
+The long-serving SAMA governor from 1983 to 2009. :: Hamad Al-Sayari
+The Saudi Hollandi Bank's predecessor opened in Jeddah to serve these travellers. :: Pilgrims (Hajj pilgrims)
+The Fed's interest on reserve balances is known by these letters. :: IORB
+The 'reverse repo facility' lets money funds lend to the Fed overnight, known by these letters. :: ON RRP
+The global group of central banks that sets bank capital standards. :: Basel Committee on Banking Supervision
+The 'net interest income' of a bank rises when rates rise if it is this. :: Asset-sensitive
+A bank whose liabilities reprice faster than its assets is this. :: Liability-sensitive
+The Basel Committee's standard on interest rate risk in the banking book, known by these letters. :: IRRBB
+The six interest rate shock scenarios in IRRBB include parallel up, parallel down and these. :: Steepener, flattener, short up and short down
+The 2008 crisis term for banks' reliance on short-term wholesale funding. :: Funding liquidity risk
+The Northern Rock model relied on selling mortgages through this. :: Securitisation (and wholesale funding)
+The Spanish system of countercyclical 'dynamic provisioning' began in this year. :: 2000
+The Saudi Central Bank requires banks to apply this accounting standard for credit losses. :: IFRS 9
+SAMA's minimum LCR for Saudi banks under Basel III. :: 100%
+The US 'CRA' law of 1977 requires banks to serve this. :: Low- and moderate-income communities
+The US 1913 Federal Reserve Act created this many regional Federal Reserve banks. :: 12
+The New York Fed runs this desk that carries out open market operations. :: Open Market Trading Desk
+The 'Basel I' accord grouped assets into risk-weight buckets of 0%, 10%, 20%, 50% and this. :: 100%
+
+## 500
+The Medici Bank was founded in Florence in this year. :: 1397
+The Medici Bank used this new technique to move money without carrying gold. :: Bills of exchange
+The Knights Templar acted as early bankers for these travellers. :: Pilgrims and crusaders
+The 'suftaja' of the early Islamic world was an early form of this. :: Bill of exchange (cheque)
+The Arabic word, from Persian, that gave English the word "cheque". :: Sakk
+The 1609 public bank in Amsterdam that set up a stable bank money. :: Wisselbank (Bank of Amsterdam)
+The first Swedish bank to issue paper banknotes in Europe, in 1661. :: Stockholms Banco
+The world's oldest central bank, founded in 1668. :: Sveriges Riksbank
+The economist who wrote about 'Banking School' versus 'Currency School' in the 1840s. :: Thomas Tooke (Banking School leader)
+The 1844 British law that gave the Bank of England a monopoly on note issue. :: Bank Charter Act (Peel's Act)
+The 1866 failure of this London bank was a key event behind Bagehot's rules. :: Overend, Gurney and Company
+The 1930s Chicago Plan for 'narrow banking' was backed by Henry Simons and this Yale economist. :: Irving Fisher
+The Chicago Plan proposed requiring this share of reserves against demand deposits. :: 100%
+Hyman Minsky's theory that stability breeds instability. :: Financial instability hypothesis
+Minsky's three types of borrowers: hedge, speculative and this. :: Ponzi
+The 'Minsky moment' term was coined in 1998 by this economist. :: Paul McCulley
+The 2022 Nobel paper by Diamond (1984) explained banks as this. :: Delegated monitors
+Gorton's work describes the 2008 crisis as a run on this market. :: Repo (sale and repurchase) market
+The 'shadow banking' term was coined in 2007 by this economist. :: Paul McCulley
+Money market funds 'breaking the buck' means their NAV fell below this. :: 1 dollar per share
+The money market fund that broke the buck in September 2008. :: Reserve Primary Fund
+The asset that caused the Reserve Primary Fund to break the buck. :: Lehman Brothers commercial paper
+The 2008 'Paulson plan' was named after this Treasury secretary. :: Henry Paulson
+The value of the original TARP fund. :: 700 billion dollars
+The UK's 2013 rule separating retail banking from investment banking. :: Ring-fencing (Vickers reforms)
+The Liikanen report proposed separation of banking in this region. :: The European Union
+The Basel Committee's 'Core Principles for Effective Banking Supervision' number this many. :: 29
+The Basel Committee issued principles for Islamic bank regulation together with this body. :: IFSB (Islamic Financial Services Board)
+The IFSB is based in this city. :: Kuala Lumpur
+The IFSB capital adequacy standard for Islamic banks, revised in 2021. :: IFSB-23
+The 'alpha factor' in IFSB capital rules reflects risk passed to these account holders. :: Profit-sharing investment account holders
+The 1966 Saudi Banking Control Law was issued by this kind of decree. :: Royal Decree M/5
+The Saudi bank formed in 1976 as part of 'Saudization' of foreign bank branches including First National City Bank. :: Saudi American Bank (Samba)
+The 1970s government policy requiring foreign banks in Saudi Arabia to become majority Saudi-owned. :: Saudization of banks
+The Saudi Exchange's securities depository is called this. :: Edaa (Securities Depository Center)
+The Saudi central clearing house for securities. :: Muqassa (Securities Clearing Center)
+The 2009 Saudi corporate debt crisis involved the Saad Group and this family group. :: Ahmad Hamad Algosaibi & Brothers
+The approximate total debt in the 2009 Saad and Algosaibi defaults. :: About 20 billion dollars
+The Dubai government company whose 2009 standstill request shook Gulf markets. :: Dubai World
+Dubai World's debt standstill involved its property arm, this. :: Nakheel
+The Bahraini bank founded in 1979 that pioneered Islamic banking in the Gulf. :: Bahrain Islamic Bank
+The first modern Islamic commercial bank, founded in Dubai in 1975. :: Dubai Islamic Bank
+The 1963 Egyptian savings bank seen as the first modern Islamic bank experiment. :: Mit Ghamr Savings Bank
+The founder of the Mit Ghamr Savings Bank. :: Ahmad al-Najjar
+The Malaysian pilgrims' fund founded in 1963, a pioneer of Islamic savings. :: Tabung Haji
+Malaysia's first Islamic bank, founded in 1983. :: Bank Islam Malaysia
+The country that tried to make its entire banking system interest-free from the 1980s. :: Pakistan (also Iran and Sudan)
+Iran's 1983 law that required all banking to be interest-free. :: Law for Usury-Free Banking
+Pakistan's Federal Shariat Court ruled in 2022 that interest must be removed from the banking system by this year. :: 2027
+The Islamic bank founded in Riyadh in 2004 by merging several money-exchange businesses. :: Bank Albilad
+Alinma Bank was established in this year. :: 2006 (began operations 2008)
+SNB's share in Credit Suisse was bought in 2022 for about this much. :: About 1.5 billion Swiss francs
+The famous 1980s Latin American debt crisis began with this country's default in August 1982. :: Mexico
+The plan named after a US Treasury secretary that turned Latin American bank loans into bonds. :: Brady Plan
+The 'impossible trinity' says a country can't have a fixed exchange rate, free capital flows and this together. :: Independent monetary policy
+Saudi Arabia keeps the riyal peg and free capital flows, so it gives up this. :: Independent monetary policy
+The economist who developed the impossible trinity with Fleming. :: Robert Mundell
+Mundell won the Nobel Prize in this year. :: 1999
+The 'currency board' system of Hong Kong pegs to the dollar at about this rate. :: 7.8 HKD per USD (7.75 to 7.85 band)
+The first credit card for general use, launched in 1950. :: Diners Club card
+The Bank of America card launched in 1958 that later became Visa. :: BankAmericard
+The first ATM was opened in 1967 at a branch of this bank in London. :: Barclays
+The British comedian who made the first withdrawal from that ATM. :: Reg Varney
+The inventor credited with the first cash machine. :: John Shepherd-Barron
+The Jewish-Italian banking families of medieval Lombardy gave their name to this London street. :: Lombard Street
+The 'Goldsmith bankers' of 17th-century London issued these receipts that became early banknotes. :: Goldsmith's notes
+The famous 18th-century Frankfurt banking dynasty with five sons in five cities. :: Rothschild
+The 1890 rescue of this London bank by the Bank of England after Argentine losses. :: Barings (Baring crisis)
+The 1931 failure of this Austrian bank spread the Great Depression in Europe. :: Creditanstalt
+The 1930 failure of this New York bank was then the largest in US history. :: Bank of United States
+The economist who blamed the Great Depression on the Fed letting the money supply fall. :: Milton Friedman (with Anna Schwartz)
+Friedman and Schwartz's 1963 book. :: A Monetary History of the United States
+Bernanke's 1983 paper argued bank failures hurt the economy through loss of this. :: Credit intermediation (information about borrowers)
+The 'financial accelerator' model was developed by Bernanke, Gertler and this economist. :: Simon Gilchrist
+Kiyotaki and Moore's 1997 model shows how this amplifies shocks. :: Collateral values (credit cycles)
+Holmström and Tirole's 1997 model is about this. :: Financial intermediation and capital constraints
+The 'Lucas critique' warns that policy changes alter this. :: People's expectations and behaviour (model parameters)
+Basel III's 'Net Stable Funding Ratio' became a requirement in most countries from this year. :: 2018
+The Basel Committee published its 'Principles for Sound Liquidity Risk Management' in this year. :: 2008
+The 'Volcker Rule' was proposed by this former Fed chair. :: Paul Volcker
+Paul Volcker raised US rates to about 20% in this year to fight inflation. :: 1981 (and 1980)
+Janet Yellen became the first woman to chair the Fed in this year. :: 2014
+The Bank of England governor during the 2008 crisis. :: Mervyn King
+The Canadian who led the Bank of England from 2013 to 2020. :: Mark Carney
+The ECB's first president. :: Wim Duisenberg
+The ECB's president from 2019. :: Christine Lagarde
+The Lebanese banking crisis that began in 2019 led to informal limits known as this. :: Capital controls (lollar withdrawals)
+The 2019 Lebanese crisis made dollar deposits stuck in banks nicknamed this. :: Lollars
+The famous 'Ponzi scheme' of 1920 promised profits from these. :: International reply coupons (postal coupons)
+Charles Ponzi ran his scheme in this US city. :: Boston
+The concept of 'deposit insurance' was first introduced nationally in the US in this year. :: 1933 (FDIC created by the Banking Act of 1933)
+The Bank for International Settlements was founded in 1930 to handle these payments. :: German First World War reparations
+The BIS is sometimes called this. :: The central bank of central banks
+The 1974 'Basel Concordat' set out how home and host supervisors share oversight of these. :: Foreign bank branches and subsidiaries
+The Bank of England was nationalised in this year. :: 1946
+The Bank of England gained independence to set interest rates in this year. :: 1997
+The Fed's 'discount window' lends to banks at this rate. :: The discount rate (primary credit rate)
+The 1951 agreement that freed the Fed from pegging Treasury yields. :: Treasury-Fed Accord
+The economist who described money creation in his 1912 'Theory of Economic Development', linking bank credit and entrepreneurs. :: Joseph Schumpeter
+The Saudi riyal was revalued and pegged to the SDR before it was formally pegged to the dollar in this year. :: 1986

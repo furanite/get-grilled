@@ -1,0 +1,585 @@
+id: islamicfin
+name: Islamic Finance
+group: finance
+
+## 100
+The Arabic word for interest or usury, which Islam forbids. :: Riba
+The yearly obligatory charity on wealth, one of the five pillars of Islam. :: Zakat
+The usual rate of zakat on savings, gold and trade goods. :: 2.5%
+The charity given at the end of Ramadan before the Eid prayer. :: Zakat al-Fitr
+Voluntary charity given at any time. :: Sadaqah
+A property given for good causes for ever, whose income is spent on charity. :: Waqf (endowment)
+The Islamic term for things that are allowed. :: Halal
+The Islamic term for things that are forbidden. :: Haram
+The Arabic word for excessive uncertainty in a contract. :: Gharar
+The Arabic word for gambling or games of chance. :: Maysir (qimar)
+A bank that follows Islamic rules and avoids interest. :: Islamic bank
+The sale where the bank buys goods and sells them to the customer at a known profit. :: Murabaha
+The Islamic contract of leasing. :: Ijara
+A partnership where both sides put in money and share profit and loss. :: Musharaka
+A partnership where one side gives money and the other gives work. :: Mudaraba
+Islamic certificates often called "Islamic bonds". :: Sukuk
+The singular of sukuk. :: Sakk
+Islamic insurance based on members helping each other. :: Takaful
+The Arabic word takaful comes from the idea of this. :: Guaranteeing one another (mutual help)
+A loan with no extra charge, given for the sake of Allah. :: Qard hasan (a goodly loan)
+The surah that contains the verse "Allah has permitted trade and forbidden riba". :: Surat al-Baqarah
+The number of pillars of Islam. :: Five
+Zakat is the pillar number this. :: Three (the third pillar)
+The minimum amount of wealth a person must own before zakat is due. :: Nisab
+The period wealth must be owned before zakat is due. :: One lunar year (hawl)
+The nisab of gold, in grams, used by many scholars today. :: 85 grams
+The nisab of silver, in grams, used by many scholars today. :: 595 grams
+The number of groups who can receive zakat, as named in the Quran. :: Eight
+The surah that names the eight groups who can receive zakat. :: Surat al-Tawbah
+Zakat al-Fitr is one of these measures of food per person. :: Sa'
+Foods usually given for Zakat al-Fitr. :: Dates, wheat, barley, raisins or rice (staple food)
+The Islamic rule that the one who takes the gain must also bear this. :: The risk (loss)
+The Islamic finance term for a profit-and-loss sharing partner who manages the money. :: Mudarib
+The investor who gives the money in a mudaraba. :: Rabb al-mal
+In a mudaraba loss without negligence, money losses fall on this side. :: The investor (rabb al-mal)
+Islamic home finance where the bank and buyer share ownership and the buyer buys the bank's share bit by bit. :: Diminishing musharaka
+A sale where payment is made now and goods are delivered later. :: Salam
+A contract to make or build something, such as a house, for an agreed price. :: Istisna'
+A contract where one person acts on behalf of another for a fee. :: Wakala (agency)
+The Islamic contract of safekeeping. :: Wadi'a
+The Islamic finance term for a pledge or collateral. :: Rahn
+The Islamic finance term for a guarantee. :: Kafala
+The transfer of a debt from one person to another. :: Hawala
+A reward promised for completing a task, such as finding a lost camel. :: Ju'ala
+Investing only in companies whose business is permitted in Islam. :: Sharia-compliant investing
+Businesses an Islamic fund avoids, such as alcohol, pork and gambling. :: Prohibited (haram) businesses
+The panel of scholars who check an Islamic bank's products. :: Sharia board (Sharia supervisory board)
+The largest Islamic bank in the world, based in Riyadh. :: Al Rajhi Bank
+The development bank of the Muslim world, based in Jeddah. :: Islamic Development Bank
+The Malaysian capital known as a world centre of Islamic finance. :: Kuala Lumpur
+The Gulf island kingdom that hosts AAOIFI. :: Bahrain
+Selling gold for gold must be equal in weight and done this way. :: Hand to hand (on the spot)
+The six items named in the hadith on riba: gold, silver, wheat, barley, dates and this. :: Salt
+Gold and silver used as money in early Islam: the gold coin. :: Dinar
+The silver coin of early Islam. :: Dirham
+Paying zakat purifies this. :: Wealth (and the soul)
+The Quranic word for "purifying" that is related to zakat. :: Tazkiyah
+Charity whose reward continues after death, such as a well or school. :: Sadaqah jariyah
+The Companion who bought the well of Rumah in Madinah and gave it to the Muslims. :: Uthman ibn Affan ﵁
+The Arabic word for the lawful profit from trade. :: Ribh
+The Arabic word for trade. :: Tijarah
+The Arabic word for sale. :: Bay'
+The Arabic word for a contract. :: Aqd
+The Arabic word for a loan. :: Qard
+The Arabic word for debt. :: Dayn
+The Arabic word for partnership. :: Sharikah (musharaka)
+A Muslim must pay zakat on gold if it reaches the nisab and this has passed. :: A full lunar year
+Money that a person owes others is usually subtracted before working out this. :: Zakat
+The Islamic term for property or wealth. :: Mal
+A business arrangement that is fair to both sides and free of cheating. :: A just (fair) contract
+The verse that tells believers to write down a debt with a fixed term. :: Ayat al-Dayn (2:282)
+Hoarding food to raise its price is called this and is forbidden. :: Ihtikar
+Cheating in weights and measures is condemned in this surah, named after cheaters. :: Surat al-Mutaffifin
+Bribery is called this in Arabic. :: Rishwah
+A sale price that is paid later in instalments is called this. :: Deferred payment (bay' bi-thaman ajil)
+An Islamic credit card usually charges a fixed fee instead of this. :: Interest
+A savings account in an Islamic bank where profits are shared is based on this contract. :: Mudaraba
+A current account in an Islamic bank is often based on this contract. :: Qard (or wadi'a)
+The Islamic finance term for the profit rate in a murabaha. :: Mark-up (profit margin)
+The Saudi authority that collects zakat. :: ZATCA (Zakat, Tax and Customs Authority)
+The Saudi government platform for donating sadaqah. :: Ehsan
+The Saudi General Authority that oversees endowments. :: General Authority for Awqaf
+Selling something you don't own is generally forbidden, except in salam and this contract. :: Istisna'
+The Islamic principle "al-kharaj bi al-daman" links profit to this. :: Liability for loss (bearing risk)
+Islamic finance prefers sharing profit and loss to a fixed return on these. :: Loans
+The idea that money itself should not earn money just by passing time. :: Money is not a commodity (no time value on loans)
+The Islamic contract for a joint business venture, the basis of many Islamic funds. :: Musharaka (or mudaraba)
+Lotteries are forbidden because they are a kind of this. :: Maysir (gambling)
+The name given to charity paid on crops and fruits. :: Zakat on produce ('ushr)
+Zakat on crops watered by rain is this share. :: One tenth (10%)
+Zakat on crops watered by irrigation with effort is this share. :: One twentieth (5%)
+The nisab of sheep for zakat. :: 40
+The nisab of camels for zakat. :: 5
+The nisab of cattle for zakat. :: 30
+Buried treasure found is taxed at this share. :: One fifth (khums)
+The person who collects zakat for the state. :: 'Amil (zakat collector)
+The Arabic name for the public treasury in early Islam. :: Bayt al-Mal
+The second caliph, who set up the diwan for state payments. :: Umar ibn al-Khattab ﵁
+The Arabic word for a trader or merchant. :: Tajir
+Our Beloved and our master, the Prophet Muhammad ﷺ worked as a trader for this noble woman before their marriage. :: Khadijah ﵂
+
+## 200
+The verse number in Surat al-Baqarah that says "Allah has permitted trade and forbidden riba". :: 275
+The two main types of riba studied by scholars. :: Riba al-nasi'ah and riba al-fadl
+Riba from delay, such as interest on loans. :: Riba al-nasi'ah
+Riba from unequal exchange of the same kind, such as 1 kg of good dates for 2 kg of poor dates. :: Riba al-fadl
+The Companion who narrated the hadith on six items of riba, recorded in Sahih Muslim. :: Ubadah ibn al-Samit ﵁
+The Companion who was told by our Beloved and our master, the Prophet Muhammad ﷺ, "Do not sell what is not with you". :: Hakim ibn Hizam ﵁
+Two conditions for exchanging gold for gold: equal amounts and this. :: Exchange on the spot (hand to hand)
+Exchanging gold for silver requires only this condition. :: Exchange on the spot (amounts may differ)
+The Islamic term for currency exchange. :: Sarf
+In a murabaha, the bank must own the goods and bear this before selling them. :: Their risk (constructive or physical possession)
+In a murabaha, the cost and the profit must be told to this person. :: The buyer (customer)
+A murabaha where the customer first promises to buy goods the bank will buy. :: Murabaha to the purchase orderer
+A buyer's promise in such a murabaha is called this in Arabic. :: Wa'd
+In ijara, the major maintenance of the asset falls on this side. :: The lessor (owner)
+An ijara that ends with the customer owning the asset. :: Ijara muntahia bittamleek
+The Islamic name for a lease of future services or assets yet to be built. :: Ijara mawsufa fi al-dhimma (forward ijara)
+In salam, the price must be paid at this time. :: In full when the contract is made
+In salam, the goods must be described exactly and this must be fixed. :: The delivery date
+The type of goods suitable for salam. :: Fungible goods that can be described exactly (like wheat)
+An istisna' is used to finance this kind of thing. :: Manufacturing or construction projects
+A two-step salam often used by Islamic banks. :: Parallel salam
+Profit in a mudaraba is shared by this. :: An agreed ratio
+The mudarib is not liable for loss unless there is negligence or this. :: Misconduct (breach of terms)
+In musharaka, losses are shared according to this. :: Capital contributions
+In musharaka, profits may be shared by this. :: An agreed ratio
+A sale with deferred price and deferred goods is forbidden because it is the sale of this for this. :: Debt for debt (bay' al-kali' bil-kali')
+Earnest money paid at signing that the seller keeps if the buyer walks away. :: 'Arbun
+A security deposit taken before a murabaha promise is called this. :: Hamish jiddiyah
+A commodity murabaha where the customer sells the goods to get cash. :: Tawarruq
+The type of tawarruq ruled impermissible by the International Islamic Fiqh Academy in 2009. :: Organised tawarruq
+The international body of jurists based in Jeddah under the OIC. :: International Islamic Fiqh Academy
+The accounting and Sharia standards body for Islamic financial institutions. :: AAOIFI
+AAOIFI stands for this. :: Accounting and Auditing Organization for Islamic Financial Institutions
+AAOIFI was registered in Bahrain in this year. :: 1991
+The standards body for regulating Islamic banks, based in Kuala Lumpur. :: IFSB (Islamic Financial Services Board)
+The IFSB was set up in this year. :: 2002
+The country that issued the first sovereign sukuk in 2001. :: Bahrain
+The Malaysian company that issued the first sukuk in 1990. :: Shell MDS
+The most common structure of sukuk, based on leasing. :: Sukuk al-ijara
+Sukuk holders own a share of this. :: An asset (or project or business)
+Bond holders own this instead. :: A debt (a loan to the issuer)
+Sukuk based on murabaha usually can't be traded except at face value because they represent this. :: Debt
+Selling a debt for cash at a discount is called this and is not allowed by most scholars. :: Bay' al-dayn
+The Islamic finance principle of avoiding unclear terms in a contract. :: Avoiding jahala (ignorance) and gharar
+A takaful company where members' donations go into a pool. :: Tabarru' fund
+In takaful, the operator is often paid through this contract. :: Wakala (agency fee)
+In takaful, a surplus in the fund is usually shared with these. :: Participants (policyholders)
+Retakaful is the Islamic version of this. :: Reinsurance
+The first takaful company, set up in Sudan in this year. :: 1979
+The Saudi Council of Senior Scholars ruled commercial insurance impermissible in this year. :: 1977 (1397 AH)
+Cooperative insurance is allowed in Saudi Arabia under a law issued in this year. :: 2003
+The Dow Jones index of Sharia-compliant shares was launched in this year. :: 1999
+A share screening rule: a company's interest-bearing debt must be below this share of its market value. :: 30% to 33%
+Giving the impermissible part of income from shares to charity. :: Purification (tathir)
+The Islamic finance contract for a bank to give a non-interest loan to a needy customer. :: Qard hasan
+An Islamic bank cannot charge more if a customer pays late, except a penalty that goes to this. :: Charity
+The six goods in the riba hadith can be grouped into money items and these. :: Staple foods
+The Islamic finance practice of the buyer paying in advance to a farmer for a future harvest, allowed by our Beloved and our master, the Prophet Muhammad ﷺ in Madinah. :: Salam
+The hadith "Whoever pays in advance should pay for a known measure, a known weight, for a known term" is about this contract. :: Salam
+The contract of 'Umar ibn al-Khattab ﵁ at Khaybar, keeping land and giving its produce in charity, is the model for this. :: Waqf
+The 'cash waqf' allowed in the Ottoman Empire endowed this. :: Money (cash)
+A waqf whose income goes to the founder's family first. :: Family waqf (waqf ahli or dhurri)
+A waqf for the public good. :: Charitable waqf (waqf khayri)
+The manager of a waqf. :: Nazir (mutawalli)
+The rule that zakat on trade goods is assessed on this value at the end of the year. :: Market value
+Zakat on a business's stock in trade is called this. :: Zakat on trade goods ('urud al-tijarah)
+Zakat is not due on items for personal use, such as these. :: A house, car or clothes for personal use
+The Islamic finance practice that lets a buyer return goods within a set time. :: Khiyar al-shart (option of condition)
+The option to cancel a sale if a defect is found. :: Khiyar al-'ayb
+The option to cancel a sale while still at the place of the deal. :: Khiyar al-majlis
+The option to cancel after seeing goods bought without seeing them first. :: Khiyar al-ru'yah
+The famous hadith "The buyer and seller have the option as long as they have not" done this. :: Separated
+Selling fruit on trees before it shows signs of ripeness is forbidden because of this. :: Gharar (uncertainty)
+"Two sales in one" is forbidden because it causes this. :: Uncertainty (gharar) or hidden riba
+The Islamic finance term for the time value in a deferred sale price. :: The price difference for deferment (allowed in sales, not loans)
+The Malaysian central bank's law of 2013 governing Islamic banks. :: Islamic Financial Services Act (IFSA)
+The 1983 law that created Malaysia's first Islamic bank. :: Islamic Banking Act 1983
+Malaysia's pilgrims' savings fund founded in 1963. :: Tabung Haji
+The Islamic name for the profit-sharing ratio set at the start of a mudaraba. :: Profit-sharing ratio (nisbah)
+A mudaraba where the investor sets no limits on how the money is used. :: Unrestricted mudaraba (mudaraba mutlaqah)
+A mudaraba where the investor limits the business, place or time. :: Restricted mudaraba (mudaraba muqayyadah)
+The legal term for the capital in a mudaraba. :: Ra's al-mal
+In Islamic banking, a deposit account that shares profit and can lose value is called this. :: Investment account (profit-sharing investment account)
+The Islamic term for the right of a lender to demand repayment. :: Haqq al-mutalabah (right to claim)
+The Arabic word for possession, needed before reselling food. :: Qabd
+The hadith "Whoever buys food should not sell it until he takes possession of it" is about this rule. :: Qabd (taking possession before resale)
+Constructive possession means the buyer has control and this, even without physically holding the goods. :: Bears the risk
+The Islamic contract of exchange of a benefit, such as a hotel stay, for a price. :: Ijara of services
+The Islamic contract of hiring a worker. :: Ijarat al-ashkhas (hiring)
+Our Beloved and our master, the Prophet Muhammad ﷺ said: "Give the worker his wage before" this. :: His sweat dries
+Charging rent before the leased asset is delivered to the customer is not allowed, but this may be taken. :: A security deposit (or advance rent held on account)
+The name for an Islamic mortgage where the bank buys the home and resells it at a higher fixed price. :: Murabaha home finance
+The Islamic finance term for paying zakat on money that was lost and then recovered, which scholars differ on. :: Zakat on lost wealth (mal dimar)
+Paying zakat early, before the year ends, is allowed by most scholars. This is called this. :: Ta'jil al-zakat
+Moving zakat from one town to another is discussed by scholars under this name. :: Naql al-zakat
+Zakat cannot be given to these close relatives a person must support, such as parents and children. :: Dependants (ascendants and descendants)
+Zakat cannot be given to the family of our Beloved and our master, the Prophet Muhammad ﷺ. They are known as this. :: Ahl al-Bayt (Banu Hashim)
+The Islamic term for charity given in secret, praised in Surat al-Baqarah. :: Secret sadaqah (sadaqat al-sirr)
+The hadith of the seven shaded on the Day of Judgement includes one who gives charity so secretly his left hand doesn't know what this gives. :: His right hand
+The Islamic finance principle that a sale must have a known price and known goods. :: Ma'lumiyyah (knowledge of terms)
+
+## 300
+Verses 278 and 279 of Surat al-Baqarah warn those who do not give up riba of this. :: War from Allah and His Messenger ﷺ
+Ibn Abbas ﵁ said the last ayah revealed was the ayah of riba. It is in this surah. :: Surat al-Baqarah
+The hadith in which our Beloved and our master, the Prophet Muhammad ﷺ cursed the one who takes riba, the one who gives it, the one who writes it and these. :: The two witnesses
+Our Beloved and our master, the Prophet Muhammad ﷺ cancelled the riba of this uncle in the Farewell Sermon. :: Al-Abbas ibn Abd al-Muttalib ﵁
+Scholars treat today's paper money as this kind of item for riba. :: Like gold and silver (a medium of exchange, thaman)
+The 'illah (effective cause) of riba in gold and silver according to many scholars. :: Being money (thamaniyyah)
+The International Islamic Fiqh Academy ruled that paper money is like gold and silver for riba and zakat in this year. :: 1986 (3rd session, Amman)
+The IIFA ruled in 1985 that the interest of conventional banks is this. :: Riba (forbidden)
+The Al-Azhar fatwa body that controversially ruled in 2002 that fixed bank returns are permitted. :: Islamic Research Academy (Majma' al-Buhuth al-Islamiyya)
+Under AAOIFI standards, late-payment penalties in murabaha must be given to this. :: Charity
+The AAOIFI Sharia standard number for murabaha. :: Sharia Standard No. 8
+The AAOIFI Sharia standard number for ijara. :: Sharia Standard No. 9
+The AAOIFI Sharia standard number for sukuk (investment sukuk). :: Sharia Standard No. 17
+The AAOIFI Sharia standard on tawarruq. :: Sharia Standard No. 30
+The scholar and former Pakistani judge who said in 2007 that most sukuk were not Sharia-compliant. :: Muhammad Taqi Usmani
+Taqi Usmani was chairman of this body's Sharia board when he made that statement. :: AAOIFI
+The share of Gulf sukuk Taqi Usmani said were not compliant. :: About 85%
+His main concern was that many sukuk promised to buy assets back at this price. :: Face value (guaranteeing capital)
+AAOIFI's 2008 sukuk statement said sukuk holders must own the assets with all rights and these. :: Obligations (risks)
+The sukuk structure that represents ownership of a business venture managed by the issuer. :: Mudaraba sukuk
+The sukuk structure where holders and issuer are partners. :: Musharaka sukuk
+The sukuk structure used to finance building projects. :: Istisna' sukuk
+A hybrid sukuk combines different contracts, such as ijara and this. :: Murabaha (or istisna')
+Sukuk al-wakala give holders returns through this kind of agent. :: An investment agent (wakil)
+Saudi Arabia issued its first riyal sovereign sukuk in this year. :: 2017
+The Saudi government's local sukuk programme is run by this centre. :: National Debt Management Center (NDMC)
+The Islamic Development Bank's first sukuk was issued in this year. :: 2003
+The world's first green sukuk was issued by this Malaysian company in 2017. :: Tadau Energy
+The first sovereign green sukuk was issued by this country in 2018. :: Indonesia
+The international Islamic liquidity body based in Kuala Lumpur, known by the letters IILM. :: International Islamic Liquidity Management Corporation
+The Saudi Central Bank's Sharia governance framework for local banks was issued in this year. :: 2020
+The classical maxim "Al-ghunm bil-ghurm" means this. :: Gain comes with liability for loss
+The maxim "Every loan that brings a benefit is riba" relates to this contract. :: Qard (loan)
+The legal maxim "Al-asl fil-mu'amalat al-ibahah" means this. :: The default in dealings is that they are permitted
+The five aims of Sharia preserved by Islamic law. :: Religion, life, intellect, lineage and wealth
+The scholar of Granada who developed the theory of maqasid al-shari'a in "Al-Muwafaqat". :: Al-Shatibi ﵀
+The scholar who listed the five essential aims in "Al-Mustasfa". :: Al-Ghazali ﵀
+The scholar of the 14th century who discussed the rise and fall of states and taxes in "Al-Muqaddimah". :: Ibn Khaldun ﵀
+Ibn Khaldun ﵀ argued that high taxes do this to tax revenue. :: Reduce it (as activity shrinks)
+The scholar whose book "Al-Kharaj", written for Harun al-Rashid, deals with public finance. :: Abu Yusuf ﵀
+The scholar of the Hanbali school who wrote "Al-Hisbah" on market supervision. :: Ibn Taymiyyah ﵀
+Ibn Taymiyyah ﵀ said fair price ('iwad al-mithl) is set by this. :: Supply and demand in a free market
+The scholar who wrote "Kitab al-Amwal", a classic on public finance. :: Abu Ubayd al-Qasim ibn Sallam ﵀
+The Islamic market inspector's office. :: Hisbah
+The market inspector in the time of 'Umar ibn al-Khattab ﵁ included this woman Companion, by some accounts. :: Al-Shifa bint Abdullah ﵂
+Price fixing by the ruler is called this. :: Tas'ir
+Our Beloved and our master, the Prophet Muhammad ﷺ refused to fix prices, saying that Allah is this. :: The One who fixes prices (al-Musa''ir)
+Meeting traders outside town to buy cheaply before they know the market price is called this and is forbidden. :: Talaqqi al-rukban
+A townsman selling for a desert dweller to raise prices is forbidden. This is called this. :: Bay' al-hadir lil-badi
+Bidding up a price with no intention to buy. :: Najash
+Selling on top of another's sale. :: Bay' 'ala bay' akhih
+A sale with hidden defects that the seller conceals. :: Tadlis (fraud)
+Leaving an animal unmilked to make it look like a good milker. :: Tasriyah
+The "sale of the pebble", forbidden in a hadith, is an example of this. :: Gharar (chance-based sale)
+Zakat on shares held for trading is based on this value. :: Market value
+Zakat on shares held for long-term income only, according to some fatwas, is based on this. :: The company's zakatable assets per share
+The IIFA resolution on zakat on company shares was issued in this year. :: 1988 (4th session, Jeddah)
+Zakat on rented buildings, according to most modern fatwas, is due on this. :: The rental income (once it is held for a year)
+Zakat is due on a debt owed to you if it is this. :: Expected to be repaid (collectable)
+The group of zakat recipients called 'al-gharimin' are these. :: People in debt
+'Fi sabilillah' as a zakat recipient means this. :: In the cause of Allah
+'Ibn al-sabil' as a zakat recipient means this. :: A stranded traveller
+'Al-mu'allafati qulubuhum' are those whose hearts are this. :: To be reconciled (brought closer to Islam)
+'Fi al-riqab' as a zakat recipient refers to freeing these. :: Slaves (captives)
+The two zakat recipients listed first in Surat al-Tawbah, verse 60. :: The poor (fuqara') and the needy (masakin)
+The caliph whose rule was so just that zakat collectors could find no poor to give to, according to famous reports. :: Umar ibn Abd al-Aziz ﵀
+Waqf of shares or cash was ruled permissible by the IIFA in this year. :: 2009
+The Saudi waqf law that set up the General Authority for Awqaf was issued in this year. :: 2016 (the authority was set up in 2016)
+The famous waqf of 'Uthman ibn Affan ﵁ in Madinah today includes palm farms and this. :: A hotel (near Al-Masjid an-Nabawi)
+The Ottoman soup kitchens funded by waqf. :: Imarets
+The Islamic term for a gift without return. :: Hibah
+An Islamic bank may give a voluntary gift to deposit holders, but it can't be this. :: Promised or agreed in advance
+The term for the bank's agreed share of mudaraba profit. :: Mudarib share (mudarib fee)
+A reserve Islamic banks keep to smooth profits paid to investment account holders. :: Profit equalisation reserve
+A reserve to cover future losses on investments for account holders. :: Investment risk reserve
+The risk that an Islamic bank must pay depositors market-level returns even when its profits fall. :: Displaced commercial risk
+The risk that a product is found not to follow Sharia. :: Sharia non-compliance risk
+The 'Sharia audit' checks this. :: That operations follow Sharia board rulings
+Under AAOIFI rules, an Islamic bank's Sharia board must report to these. :: Shareholders (the general assembly)
+The term for a fatwa allowing something under necessity. :: Rukhsah (darurah)
+The maxim "Necessity makes the forbidden permitted" is called this in Arabic. :: Al-darurat tubih al-mahzurat
+The IIFA permitted salam and istisna' as finance tools, and ruled that istisna' payment may be this. :: Deferred or in instalments
+Futures contracts on commodities without delivery are forbidden mainly because of this. :: Gharar and selling what is not owned
+Conventional options are not allowed by IIFA because the option itself is not this. :: A property (mal) that can be sold
+A promise to exchange currencies in the future, binding on both sides, is not allowed because it is like this. :: A forward sale of currency (sarf with delay)
+A unilateral binding promise used in Islamic hedging. :: Wa'd (binding promise)
+The ISDA and IIFM document for Islamic hedging, launched in 2010. :: Tahawwut Master Agreement
+The International Islamic Financial Market, which sets standard documents, is based here. :: Bahrain
+The Islamic profit-rate swap exchanges cash flows through these. :: Two murabahas (or wa'd-based sales)
+'Islamic windows' are these inside conventional banks. :: Sharia-compliant units
+The US Sharia-compliant mutual fund family launched in 1986 by Saturna Capital. :: Amana Funds
+The ruling of most scholars on a penalty for late payment of a debt that goes to the lender as income. :: Not permitted (it is riba)
+The ruling of AAOIFI on a customer's promise to donate to charity if he pays late. :: Permitted (iltizam bil-tasadduq)
+The Arabic term for a pledge to give to charity for late payment. :: Iltizam bil-tasadduq
+Selling gold on deferred payment for money is not allowed under AAOIFI's gold standard because gold for money must be exchanged this way. :: On the spot (hand to hand)
+Zakat on a business is due on cash, receivables expected to be paid, and this. :: Stock in trade (inventory)
+Zakat is not due on a business's fixed assets such as buildings and machines, because they are not this. :: Held for sale (trade goods)
+The ruling on paying zakat on money saved for hajj that has reached nisab for a year. :: Zakat is due
+The sukuk term for the company that buys the assets and issues the certificates. :: Special purpose vehicle (SPV)
+The undertaking by which an issuer promises to buy back sukuk assets at the end. :: Purchase undertaking
+
+## 400
+The Arabic legal term for the "illah" of riba in food items according to the Shafi'i school. :: Being food (ta'm)
+The Hanafi and Hanbali schools see the 'illah of riba in the six items as being measured by this. :: Volume or weight (kayl or wazn)
+The Maliki school sees the 'illah of riba in food items as this. :: Staple food that can be stored (qut muddakhar)
+The Zahiri school limited riba al-fadl to these items. :: The six items only
+The famous scholar who held at first that riba applied only to delay, before changing his view, according to reports. :: Ibn Abbas ﵁
+The hadith "There is no riba except in nasi'ah" was narrated by this Companion. :: Usamah ibn Zayd ﵁
+The 'ruling of the sale of 'inah' that most scholars forbid: selling on credit then buying back for less in cash. :: Bay' al-'inah
+The school that permits bay' al-'inah with conditions. :: The Shafi'i school
+Malaysia used bay' al-'inah widely until its central bank restricted it after this law. :: IFSA 2013
+The hadith about 'Bilal ﵁ and the good dates teaches this way to avoid riba al-fadl. :: Sell the poor dates for money, then buy the good dates with it
+Ibn al-Qayyim ﵀ divided riba into the "clear" riba al-nasi'ah and riba al-fadl, which he called this. :: Riba prohibited as a means (to block the way to riba)
+The concept of "blocking the means" in Islamic law. :: Sadd al-dhara'i'
+The concept of "public interest" in Islamic law. :: Maslahah mursalah
+Legal "tricks" used to get around prohibitions. :: Hiyal
+The scholar who wrote "I'lam al-Muwaqqi'in", criticising legal tricks. :: Ibn al-Qayyim ﵀
+In istisna', unlike salam, the price may be paid in instalments or this. :: Later (deferred)
+In the Hanafi view, istisna' becomes binding only when this happens. :: The goods are delivered (according to the earlier Hanafi view)
+The IIFA ruled istisna' binding on both parties in this year. :: 1992 (7th session, Jeddah)
+The "salam" price paid in advance protects against riba because the goods are this, not money. :: Commodities (not currency)
+Salam cannot be used for gold or silver if the price is paid in this. :: Gold or silver (or money)
+A salam buyer can't sell the salam goods before taking them, according to most scholars, because of this. :: Selling before possession (qabd)
+In ijara, the rent may be fixed or floating if it is set this way. :: For each period in advance (known at the start of each period)
+Under AAOIFI's ijara standard, insurance of the asset is paid by this party. :: The lessor (it can be built into the rent)
+An ijara where the bank leases an asset it just bought from the customer. :: Sale and leaseback
+A sale and leaseback with a buy-back promise at the original price is criticised for being like this. :: Bay' al-'inah
+A 'commodity murabaha' on the London Metal Exchange often uses this metal. :: Copper (or aluminium)
+The Malaysian commodity platform for Islamic finance, launched in 2009. :: Bursa Suq Al-Sila'
+The idea that Islamic finance should be based on 'real assets' is called this. :: Asset-backing (asset-based finance)
+'Asset-backed' sukuk give holders true ownership; 'asset-based' sukuk give them this. :: Beneficial ownership with recourse to the issuer
+The 2009 default of this Kuwaiti company's sukuk was an early test of sukuk in court. :: Investment Dar
+The Dubai World unit whose 2009 sukuk nearly defaulted. :: Nakheel
+The US court case 'East Cameron Partners' (2008) concerned the first sukuk issued in this country. :: The United States
+The 2017 English court case on a sukuk dispute involving Dana Gas centred on this country's law. :: UAE (Sharjah) law
+A takaful company that runs a family (life) fund offers this kind of takaful. :: Family takaful
+A takaful operator that manages funds for a share of profits uses this model. :: Mudaraba model
+The common model in Gulf takaful combining agency for underwriting and mudaraba for investment. :: Hybrid wakala-mudaraba model
+If a takaful fund has a deficit, the operator usually gives this. :: A qard hasan (interest-free loan)
+The Saudi law regulating cooperative insurance companies, issued in this year. :: 2003 (Cooperative Insurance Companies Control Law)
+The share of surplus Saudi cooperative insurers must give policyholders. :: 10%
+The Saudi Insurance Authority took over insurance supervision from SAMA in this year. :: 2023
+The scholar who drafted the theoretical model of a two-tier mudaraba for Islamic banking in the 1950s and 60s. :: Muhammad Najatullah Siddiqi ﵀
+The Egyptian scholar behind the Mit Ghamr savings bank of 1963. :: Ahmad al-Najjar
+The Saudi businessman who founded Dallah Al Baraka and pioneered Islamic banking. :: Saleh Kamel
+Saleh Kamel founded this annual Islamic economics symposium in 1981. :: Al Baraka Symposium
+The Saudi prince who founded Dar Al-Maal Al-Islami and the Faisal Islamic Banks. :: Prince Mohammed Al-Faisal
+Faisal Islamic Bank of Egypt was founded in this year. :: 1977
+Kuwait Finance House was founded in this year. :: 1977
+Jordan Islamic Bank was founded in this year. :: 1978
+The first Islamic bank in the UK, opened in 2004. :: Islamic Bank of Britain (now Al Rayan Bank)
+The UK government issued its first sovereign sukuk in this year. :: 2014
+The German state that issued a sukuk in 2004, the first in Europe. :: Saxony-Anhalt
+The world's largest sukuk market by issuance in recent years. :: Malaysia (with Saudi Arabia close behind)
+The Saudi Exchange's sukuk and bonds market is called this. :: Debt instruments market (Sukuk and Bonds market)
+The 'Islamic dinar' of the Islamic Development Bank equals one of these. :: SDR (Special Drawing Right)
+The Islamic finance contract used for credit cards in some banks, with a fee rather than interest. :: Ujrah (fee-based) or tawarruq-based cards
+The IIFA ruled in 2000 that charging interest on unpaid credit card balances is this. :: Not permissible
+The Saudi Shariah scholars' 1977 ruling on insurance came from this body. :: The Council of Senior Scholars
+In classical fiqh, "zakat al-mustaghallat" refers to zakat on this. :: Income-producing assets (like rented property)
+The Hanafi school allows giving zakat al-fitr as this, unlike the majority. :: Its value in money
+The amount of a sa' in kilograms of wheat, often estimated today. :: About 2.04 to 3 kilograms
+The Saudi Permanent Committee's guidance usually gives zakat al-fitr as about this much rice. :: About 3 kilograms
+'Zakat on jewellery worn by women' is due according to this school. :: The Hanafi school
+'Zakat on jewellery worn by women' is not due according to these schools. :: Maliki, Shafi'i and Hanbali (majority)
+In sukuk al-ijara, the rent paid by the lessee becomes the sukuk holders' this. :: Periodic distribution (return)
+At the end of a sukuk al-ijara, the issuer buys back the asset through this. :: A purchase undertaking (exercise price)
+AAOIFI's 2008 statement said a mudarib or partner may not promise to buy back sukuk assets at this price. :: Face (nominal) value
+AAOIFI's 2008 statement said sukuk managers may not lend to holders to cover shortfalls in returns, except this. :: As a qard hasan advance (repaid later), not a guarantee
+Under the AAOIFI rules, a lessor in sukuk al-ijara may promise to buy back at this price. :: Nominal value (in ijara only, since the lessee is not a partner)
+The maximum share of debts and cash a sukuk portfolio can hold and still be tradable, according to many scholars. :: Less than half (tangible assets must be at least about one third to one half)
+The IIFA ruling that tradable sukuk must be mainly made of this. :: Real assets (not debts or cash)
+The 'majority rule' in fiqh lets a mixed pool be treated by its main part. Its Arabic name. :: Al-hukm lil-ghalib (the ruling follows the majority)
+The legal maxim "What is subordinate takes the ruling of the main thing" in Arabic. :: Al-tabi' tabi'
+Scholars broadly permit buying shares in companies whose main activity is this. :: Permissible (halal)
+The term for companies whose main activity is permissible but which deal partly in interest. :: Mixed companies (al-sharikat al-mukhtalatah)
+The Saudi scholar's view, from the Permanent Committee, on buying shares in mixed companies. :: Not permitted (by the Permanent Committee; others permit with purification)
+The AAOIFI standard that allows investing in mixed companies within limits and with purification. :: Sharia Standard No. 21 (Financial Paper: Shares and Bonds)
+Under AAOIFI's share screens, interest-bearing deposits must be below this share of market value. :: 30%
+Under AAOIFI's share screens, non-permissible income must be below this share of total income. :: 5%
+Zakat on a farm's livestock grazing freely is due; on livestock fed by the owner most of the year it is not, according to the majority. These are called this. :: Sa'imah (freely grazing animals)
+The nisab of sheep starts at 40 with one sheep due; the next step of two sheep starts at this number. :: 121
+The age of the female camel due on 25 camels. :: One year old (bint makhad)
+The hadith letter detailing zakat rates on livestock was written by Abu Bakr ﵁ for this Companion. :: Anas ibn Malik ﵁
+Zakat on honey is held to be due by this school. :: The Hanafi school (and the Hanbali school)
+Zakat on minerals extracted from the earth (ma'din) is this share according to the majority. :: 2.5%
+'Al-Amwal' by Abu Ubayd ﵀ and 'Al-Kharaj' by Yahya ibn Adam ﵀ belong to this genre of writing. :: Books on public finance (amwal and kharaj)
+The land tax in early Islam. :: Kharaj
+The poll tax paid by non-Muslim subjects in place of military service. :: Jizyah
+The tenth on trade goods crossing borders in early Islam. :: 'Ushur (customs duty)
+'Umar ibn al-Khattab ﵁ chose not to divide the conquered lands of Iraq among soldiers but to keep them for this. :: The whole community and future generations (as kharaj land)
+The register of soldiers and stipends set up by 'Umar ibn al-Khattab ﵁. :: Al-Diwan
+The caliph who first minted purely Islamic gold dinars in 696 to 697 CE. :: Abd al-Malik ibn Marwan
+The weight of the Umayyad gold dinar in grams, approximately. :: About 4.25 grams
+The 'mithqal', the weight of the gold dinar, is the basis of this zakat measure. :: The gold nisab (20 mithqals)
+The silver nisab is 200 of these. :: Dirhams
+Zakat on gold is one-fortieth, which is the same as this percentage. :: 2.5%
+The waqf of the caliph's wife Zubaidah, wife of Harun al-Rashid, funded this famous water channel to Makkah. :: Ain Zubaidah
+The waqf hospital founded in Cairo in 1284 by Sultan Qalawun. :: Al-Mansuri Bimaristan
+The Ottoman 'cash waqf' controversy of the 16th century involved this Shaykh al-Islam, who allowed it. :: Ebussuud Efendi ﵀
+The Islamic finance term for a salary or wage. :: Ujrah
+The Islamic term for a binding promise made by one party only. :: Wa'd mulzim
+
+## 500
+The scholar who wrote "Al-Mudawwanah" recording Imam Malik's ﵀ rulings on trade. :: Sahnun ﵀
+The Hanafi jurist whose "Al-Mabsut" contains detailed chapters on mudaraba and sharikah. :: Al-Sarakhsi ﵀
+The Hanbali jurist whose "Al-Mughni" is a major source on contracts. :: Ibn Qudamah ﵀
+The Ottoman civil code based on Hanafi law, issued from 1869 to 1876, with long sections on sale. :: Mecelle (Majallat al-Ahkam al-'Adliyyah)
+The Majallah opens with this many legal maxims. :: 99
+The first maxim of the Majallah: "Matters are judged by their" this. :: Purposes (al-umur bi-maqasidiha)
+The Majallah maxim "Harm is" this. :: Removed (al-darar yuzal)
+The Majallah maxim "Custom is" this. :: Authoritative (al-'adah muhakkamah)
+The Majallah maxim "Certainty is not removed by" this. :: Doubt (al-yaqin la yazul bil-shakk)
+The Majallah maxim "Hardship brings" this. :: Ease (al-mashaqqah tajlib al-taysir)
+The Egyptian jurist who wrote the civil codes of Egypt, Iraq and Kuwait, drawing on fiqh. :: Abd al-Razzaq al-Sanhuri ﵀
+Al-Sanhuri's ﵀ multi-volume study of the sources of rights in Islamic law. :: Masadir al-Haqq fil-Fiqh al-Islami
+The Saudi Civil Transactions Law, the Kingdom's first codified civil law, took effect in this year. :: 2023 (December 2023)
+The Saudi Civil Transactions Law was drafted mainly on the basis of this. :: Islamic jurisprudence (fiqh), with general maxims
+The number of articles in the Saudi Civil Transactions Law. :: 721
+The economist known as a founder of modern Islamic economics, who wrote "Towards a Just Monetary System" (1985). :: Umer Chapra
+The "two-tier mudaraba" model links depositors, the bank and these. :: Entrepreneurs (borrowers who use the funds)
+The term for the dominance of murabaha over profit-sharing in Islamic banks. :: The murabaha syndrome
+The economist Mahmoud El-Gamal argued Islamic finance often replicates conventional products, calling it this. :: Sharia arbitrage
+El-Gamal proposed this kind of mutual bank as an alternative. :: Mutual (cooperative) banks
+The 1999 Pakistani Supreme Court judgment that declared interest unlawful was largely written by this judge. :: Justice Muhammad Taqi Usmani
+The 2002 Pakistani Supreme Court decision did this to the 1999 judgment. :: Set it aside (sent it back to the Federal Shariat Court)
+The Federal Shariat Court of Pakistan's 2022 ruling gave the government this deadline to end riba. :: Five years (by end of 2027)
+Iran's banking is based on the 1983 law; deposits there are paid returns through this contract. :: Wakala (agency) for investment deposits
+Sudan's banking was Islamised in this year. :: 1984 (fully in 1990)
+The IsDB's 2023 annual meetings were held in this Saudi city. :: Jeddah
+The Islamic Corporation for the Insurance of Investment and Export Credit is known by these letters. :: ICIEC
+The IsDB's private-sector arm is known by these letters. :: ICD (Islamic Corporation for the Development of the Private Sector)
+The IsDB's trade finance arm is known by these letters. :: ITFC
+AAOIFI's governance standard number 1 deals with this. :: Appointment, composition and report of the Sharia supervisory board
+AAOIFI's Sharia Standard No. 59 deals with this. :: Sale of debt
+AAOIFI's Sharia Standard No. 62 on sukuk was issued as an exposure draft in this year, causing market debate. :: 2023
+The main change in that draft was to require sukuk holders to have this. :: Full legal ownership (real transfer) of the assets
+The AAOIFI Sharia Standard on zakat is number this. :: 35
+The AAOIFI Sharia Standard on waqf is number this. :: 33
+The AAOIFI Sharia Standard on gold and its trading controls is number this. :: 57
+AAOIFI's very first Sharia Standard, No. 1, deals with trading in these. :: Currencies
+The 1990 sukuk by Shell MDS was issued in this currency. :: Malaysian ringgit
+The world's first sovereign sukuk, by Bahrain in 2001, was this kind of sukuk. :: Sukuk al-salam (short-term)
+Saudi Arabia's first international sukuk, in April 2017, raised this much. :: 9 billion dollars
+The Islamic finance contract 'muzara'ah' is a partnership in this. :: Farming (crop-sharing)
+'Musaqah' is a partnership where a worker cares for these in return for a share of fruit. :: Orchards (trees)
+'Mugharasah' is a partnership where a worker plants these. :: Trees on someone's land
+The hadith of our Beloved and our master, the Prophet Muhammad ﷺ dealing with the people of Khaybar on half of the produce is the basis of these contracts. :: Muzara'ah and musaqah
+'Sharikat al-'inan' is a partnership where partners share in capital and this. :: Work (management), with unequal shares allowed
+'Sharikat al-mufawadah' is a partnership where partners are equal in this. :: Everything (capital, work, liability)
+'Sharikat al-wujuh' is a partnership based on this. :: Reputation (credit-worthiness)
+'Sharikat al-abdan' is a partnership based on this. :: Physical work (skills)
+The Hanafi school allows four kinds of partnership, while this school allows only 'inan. :: The Shafi'i school
+A partner leaving a musharaka in the "diminishing" model sells its share at this, according to AAOIFI. :: Market value or agreed value at the time of sale (not a pre-fixed price)
+A capital guarantee by a third party in mudaraba is allowed by AAOIFI if the third party is this. :: Independent of the mudarib (a separate guarantor acting voluntarily)
+The 'tanazul' or waiver in Islamic finance means a party gives up this. :: A right (such as excess profit)
+A 'ta'widh' claim in Malaysian Islamic banking is compensation for this. :: Actual loss from late payment
+A 'gharamah' in Malaysian practice is a penalty that goes to this. :: Charity
+The 'ibra' in Islamic finance is this. :: A rebate (waiver of part of a debt)
+The Saudi Central Bank requires banks to give a rebate for early settlement of consumer financing, linked to the profit for this. :: The remaining period
+The Islamic economist who won the IsDB prize and wrote "Islam and the Economic Challenge" (1992). :: Umer Chapra
+The Saudi King Faisal Prize category that has honoured scholars of Islamic economics. :: Islamic Studies
+King Abdulaziz University's centre for Islamic economics research was founded in this year. :: 1977
+The Islamic Economics Institute at King Abdulaziz University publishes this journal. :: Journal of King Abdulaziz University: Islamic Economics
+The Muslim World League is based in this city. :: Makkah
+The Islamic Fiqh Council of the Muslim World League was founded in this year. :: 1977
+The OIC's International Islamic Fiqh Academy held its first session in this year. :: 1984 (it was founded in 1981)
+The IIFA's 1988 resolution on financial rights said trade names and copyrights are this. :: Property (mal) that can be sold
+The IIFA's 1992 resolution on instalment sales allowed a higher price for credit but forbade this. :: Raising it for late payment
+The IIFA resolved that adjusting loan repayments for inflation is this. :: Not permitted (debts are repaid in the same amount)
+The first Islamic economics conference, held in Makkah in 1976, was organised by this university. :: King Abdulaziz University
+The 1976 conference in Makkah is officially called this. :: The First International Conference on Islamic Economics
+The Pakistani Council of Islamic Ideology's 1980 report recommended this. :: Elimination of interest from the economy
+The Malaysian scholar and former central bank Sharia adviser who chaired the Sharia board of Bank Negara Malaysia. :: Mohd Daud Bakar
+The IIFA ruled in 2009 that 'organised tawarruq' and 'reverse tawarruq' are this. :: Not permissible
+The tawarruq Saudi scholars allow when done individually and genuinely is called this. :: Individual (classical) tawarruq
+The Hanbali view on tawarruq generally. :: Permitted (classical tawarruq), with Ibn Taymiyyah ﵀ disliking it
+The term 'tawarruq' comes from 'wariq', meaning this. :: Silver coins (money)
+The scholar who called tawarruq "the twin of riba" according to reports. :: 'Umar ibn Abd al-Aziz ﵀
+The 'murabaha' contract is described in classical texts as a sale of this kind. :: Trust sale (bay' al-amanah) based on disclosed cost
+Other trust sales besides murabaha: tawliyah at cost and this at a loss. :: Wadi'ah (sale at a discount)
+The bargaining sale where the cost is not disclosed. :: Musawamah
+Imam al-Shafi'i ﵀ described a version of the murabaha-to-purchase-orderer in this book. :: Al-Umm
+The scholar Sami Hamoud wrote the 1976 thesis that shaped modern murabaha in this country's Islamic bank. :: Jordan (Jordan Islamic Bank)
+The IIFA's 1985 ruling that permitted cooperative insurance was resolution number this. :: 9 (9/2)
+The IIFA's position on 'rescheduling a debt with an increase' is that it is this. :: Riba (riba al-jahiliyyah, "pay or increase")
+The pre-Islamic practice "Will you pay, or will you increase?" is called this. :: Riba al-jahiliyyah
+The classical name for a loan with a stipulated benefit to the lender. :: Qard jarra naf'an
+The hadith that a gift to a lender should be refused unless it was customary before the loan was narrated by this Companion. :: Anas ibn Malik ﵁
+Our Beloved and our master, the Prophet Muhammad ﷺ repaid a loan of a young camel with a better, older camel and said this. :: The best of you are those best in repaying
+Giving more on repayment without any condition is called this and is praised. :: Husn al-qada' (good repayment)
+The scholarly view that debts in gold must be repaid in gold of the same weight, whatever its price. :: Debts are repaid in kind (mithl)
+The fiqh term for a currency that falls out of use or loses its value, discussed by Abu Yusuf ﵀. :: Kasad
+Ibn 'Abidin ﵀ wrote a treatise on currency value changes called this. :: Tanbih al-Ruqud
+The Egyptian historian who described 'bad money driving out good' before Gresham. :: Al-Maqrizi ﵀
+Al-Maqrizi's ﵀ book on the economic crisis of Egypt. :: Ighathat al-Ummah bi-Kashf al-Ghummah
+The Maliki scholar from al-Andalus who wrote "Bidayat al-Mujtahid", comparing the schools on sales. :: Ibn Rushd (the grandson) ﵀
+The book "Al-Muwatta'", with chapters on trade and qirad, was written by this imam. :: Imam Malik ibn Anas ﵀
+"Qirad" is the Maliki and Shafi'i name for this contract. :: Mudaraba
+The Hanbali book "Zad al-Mustaqni'" was written by this scholar. :: Al-Hajjawi ﵀
+The famous explanation of "Zad al-Mustaqni'" by Shaykh Muhammad ibn Salih al-'Uthaymin ﵀. :: Al-Sharh al-Mumti'
+The Saudi scholar Abdulaziz ibn Baz ﵀ chaired this body that issued many rulings on finance. :: The Permanent Committee for Scholarly Research and Ifta
+The Saudi Permanent Committee's fatwas are collected in this series. :: Fatawa al-Lajnah al-Da'imah
+Ibn Baz ﵀ became Grand Mufti of Saudi Arabia in this year. :: 1993
+The Grand Mufti of Saudi Arabia from 1999. :: Shaykh Abdulaziz Al ash-Sheikh ﵀
+
+## tf
+A bank lends 10,000 riyals and requires 11,000 back after a year. :: Not halal (a fixed increase on a loan is riba)
+A bank buys a car, owns it, then sells it to a customer on instalments at a disclosed profit. :: Halal (a murabaha sale)
+Selling 1 kg of good dates for 2 kg of poorer dates. :: Not halal (riba al-fadl; sell for money first)
+Exchanging riyals for dollars on the spot at the market rate. :: Halal (currency exchange hand to hand)
+Exchanging riyals for dollars where the dollars are handed over next month. :: Not halal (currency exchange must be on the spot)
+Buying shares in a company that brews alcohol. :: Not halal (its main business is forbidden)
+Buying shares in a halal food company and selling them later at a profit. :: Halal (trading in permissible shares)
+A lender says: "Pay me back next year, and give me a free month in your flat." :: Not halal (a loan that brings a stipulated benefit is riba)
+Repaying a loan with a little extra as a gift, with nothing agreed in advance. :: Halal (good repayment is praised)
+A farmer is paid in full now for 100 sacks of a described wheat to be delivered at harvest on a set date. :: Halal (a salam contract)
+Selling the fish still swimming in the sea. :: Not halal (gharar: it can't be delivered)
+Selling fruit on the tree before any sign of ripeness. :: Not halal (forbidden in the hadith because of gharar)
+A mudaraba manager guarantees investors their capital back whatever happens. :: Not halal (a mudarib is liable only for negligence)
+Partners agree to share profits 60:40 and losses by their capital. :: Halal (a valid musharaka)
+A partnership promises one partner a fixed 5,000 a month from the profits. :: Not halal (profit must be a share, not a fixed amount)
+A bank leases a house to a customer and the bank pays for major structural repairs. :: Halal (ijara: the owner bears ownership costs)
+Buying a lottery ticket for a chance at a big prize. :: Not halal (maysir: gambling)
+Paying a fee to a takaful fund where members agree to help each other with losses. :: Halal (cooperative takaful)
+Giving zakat to your own child whom you are obliged to support. :: Not halal (zakat cannot go to dependants you must support)
+Paying zakat before the year is complete, after reaching nisab. :: Halal (most scholars allow paying early)
+A seller hides a defect in a used car he is selling. :: Not halal (tadlis: fraud)
+Bidding at an auction only to push the price up, with no plan to buy. :: Not halal (najash)
+Selling a phone you have not yet bought, promising to get it later. :: Not halal (selling what you don't own)
+A factory agrees to build 50 desks to a design, paid in instalments. :: Halal (an istisna' contract)
+A bank charges late fees on a murabaha and spends them on charity. :: Halal (under AAOIFI rules, if they go to charity)
+Selling gold jewellery now for money to be paid next month. :: Not halal (gold for money must be exchanged on the spot)
+Hoarding rice during a shortage to sell it at a higher price later. :: Not halal (ihtikar: hoarding)
+A worker is hired with an agreed wage paid on time. :: Halal (ijara of services)
+Rolling over an overdue debt by adding an extra amount for more time. :: Not halal ("pay or increase" is riba)
+Giving a loan with no extra charge to help a friend. :: Halal (qard hasan is rewarded)
+
+## case
+Ali needs a car. His bank offers to buy it from the dealer and sell it to him on instalments at a fixed higher price. What must the bank do first for this to be valid? :: Own the car and bear its risk before selling (murabaha)
+Fatimah owns 100 grams of gold savings, not worn, for a full lunar year. Gold is worth 300 riyals a gram. How much zakat does she pay? :: 750 riyals (2.5% of 30,000)
+A trader's shop holds stock worth 80,000 riyals, cash of 20,000, and he owes suppliers 10,000 due now. The year has passed. His zakat? :: 2,250 riyals (2.5% of 90,000, by the common view)
+Omar gives 50,000 to Khalid to run a trading business; they agree to split profits 50:50. The business loses 10,000 with no fault from Khalid. Who bears the loss? :: Omar, the investor (Khalid loses his effort)
+Two partners put in 60,000 and 40,000. They make a 20,000 loss. How is it shared? :: 12,000 and 8,000 (by capital)
+A customer pays late on a murabaha. The contract says late payments go to charity. Can the bank keep the money as profit? :: No, it must go to charity
+A farmer sells 10 tonnes of dates "from whatever my palms produce this year" by salam. Is this valid? :: No; salam must not depend on a specific crop that may fail (it should be described goods)
+A lessor's building is destroyed by a flood during an ijara. What happens to the rent? :: It stops; the lessee is not charged for a benefit it can't receive
+A buyer finds a hidden defect in a carpet a week after buying it. What right does he have? :: Khiyar al-'ayb: return it or keep it (with compensation if agreed)
+A friend lends 5,000 riyals and asks for 5,000 back in a year, plus a dinner invitation as a condition. Ruling? :: The condition is riba (a stipulated benefit); only 5,000 is due
+Sara inherits a waqf flat's income as a beneficiary. Can she sell the flat? :: No; waqf property can't be sold, she only receives its income
+A company's main activity is halal, but 3% of its income comes from interest on deposits. Under AAOIFI screens, can you invest? :: Yes, within limits, and purify the 3% by giving it to charity
+A traveller is stranded abroad with no money though he is rich at home. Can he receive zakat? :: Yes; he is ibn al-sabil (a stranded traveller)
+A buyer pays a 1,000 'arbun for a car and then backs out. Under the Hanbali view, may the seller keep it? :: Yes; 'arbun is kept by the seller
+Ahmad owns 30 cows that graze freely all year. What zakat is due? :: One calf in its second year (a tabi')
+
+## odd
+Murabaha | Ijara | Salam | Interest :: Interest (the others are Islamic contracts)
+Gold | Silver | Dates | Iron :: Iron (not one of the six riba items)
+Mudaraba | Musharaka | Murabaha | Muzara'ah :: Murabaha (a sale, the others are partnerships)
+Zakat | Sadaqah | Waqf | Riba :: Riba (forbidden; the others are forms of giving)
+Gharar | Maysir | Riba | Takaful :: Takaful (permitted; the others are prohibitions)
+Khiyar al-'ayb | Khiyar al-majlis | Khiyar al-shart | Kafala :: Kafala (a guarantee, the others are options)
+The poor | The needy | Stranded travellers | Parents you support :: Parents you support (cannot receive your zakat)
+Ijara sukuk | Mudaraba sukuk | Musharaka sukuk | Zero-coupon bond :: Zero-coupon bond (a conventional debt security)
+Salam | Istisna' | Ijara mawsufa fi al-dhimma | Currency forward :: Currency forward (not permitted; the others are forward-type Islamic contracts)
+AAOIFI | IFSB | IIFM | NASDAQ :: NASDAQ (a stock exchange, the others are Islamic finance bodies)
+
+## clues
+This contract's name comes from the Arabic for profit. | The bank must own the goods first. | The cost and the mark-up are told to the buyer. | It is the most used contract in Islamic banks. :: Murabaha
+This was paid on herds, crops, gold and silver. | It is due once a lunar year has passed. | It is usually 2.5% of savings. | It is the third pillar of Islam. :: Zakat
+It was used in early Islam for travel and trade caravans. | One side brings money, the other brings work. | Losses fall on the money provider. | The Malikis call it qirad. :: Mudaraba
+They were first issued by a sovereign in Bahrain in 2001. | Holders own a share of an asset. | AAOIFI's Standard 17 covers them. | They are often called Islamic bonds. :: Sukuk
+It means "guaranteeing one another". | Members donate to a common pool. | It is the Islamic answer to insurance. | The first company was set up in Sudan in 1979. :: Takaful
+It was used to build hospitals, schools and wells for centuries. | 'Umar ﵁ set one up with his land at Khaybar. | Its property can't be sold or inherited. | Its income goes to good causes for ever. :: Waqf
+Its name comes from the Arabic word for silver coins. | A buyer gets goods on credit and sells them for cash. | The IIFA forbade its organised form in 2009. | It is used to give customers cash. :: Tawarruq
+The price is paid in full now. | The goods are delivered later. | The farmers of Madinah used it for dates. | It is the opposite of a credit sale. :: Salam

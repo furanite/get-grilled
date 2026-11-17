@@ -1,0 +1,514 @@
+id: corpfin
+name: Corporate Finance
+group: finance
+
+## 100
+Money a company raises by selling shares of ownership. :: Equity (equity finance)
+Money a company raises by borrowing. :: Debt (debt finance)
+A piece of ownership in a company. :: A share (stock)
+A person who owns shares in a company. :: Shareholder (stockholder)
+The first time a company sells its shares to the public. :: IPO (initial public offering)
+A company's total share value on the stock market: share price times number of shares. :: Market capitalisation
+The part of profit paid to shareholders. :: Dividend
+The idea that a riyal today is worth more than a riyal next year. :: Time value of money
+The value today of money to be received in the future. :: Present value
+The value in the future of money invested today. :: Future value
+Interest earned on both the original amount and past interest. :: Compound interest
+Interest earned only on the original amount. :: Simple interest
+The original amount of a loan. :: Principal
+A long-term IOU sold by a company or government to investors. :: Bond
+The regular interest payment on a bond. :: Coupon
+The date a bond's principal is repaid. :: Maturity date
+The chief financial officer is known by these three letters. :: CFO
+The chief executive officer is known by these three letters. :: CEO
+The group elected by shareholders to oversee a company's managers. :: Board of directors
+The yearly meeting where shareholders vote. :: Annual general meeting (AGM)
+One company buying another. :: Acquisition (takeover)
+Two companies joining to form one. :: Merger
+The letters M&A stand for this. :: Mergers and acquisitions
+Cash a company needs for day-to-day running costs. :: Working capital
+A plan of expected income and spending for the coming year. :: Budget
+The point where total revenue equals total costs, with no profit and no loss. :: Break-even point
+Costs that do not change with output, such as rent. :: Fixed costs
+Costs that rise with output, such as raw materials. :: Variable costs
+Spending on long-term assets such as factories and machines. :: Capital expenditure (capex)
+Day-to-day running costs. :: Operating expenditure (opex)
+The chance that an investment's returns differ from what was expected. :: Risk
+The reward for taking risk. :: Return
+The general rule: higher expected return comes with higher this. :: Risk
+The return investors could earn on their next best choice. :: Opportunity cost
+A company that has run out of money to pay its debts is this. :: Insolvent (bankrupt)
+Using borrowed money to increase potential returns. :: Leverage (gearing)
+A new company with an innovative idea, often funded by investors. :: Start-up
+Investors who fund young, fast-growing start-ups in return for shares. :: Venture capitalists
+A wealthy individual who invests in a start-up at its earliest stage. :: Angel investor
+A start-up valued at more than one billion dollars. :: Unicorn
+Raising small amounts of money from many people online. :: Crowdfunding
+The total of a company's shares that the public can trade. :: Free float
+The yearly report to shareholders including the accounts. :: Annual report
+A share's price divided by its earnings per share. :: P/E ratio (price-earnings ratio)
+Spending money now to earn more money later. :: Investment
+The interest rate used to bring future cash flows back to today's value. :: Discount rate
+Net present value is positive: should the project usually be accepted or rejected? :: Accepted
+The time it takes for a project to earn back its initial cost. :: Payback period
+A project costing 1,000 that earns 250 a year pays back in this many years. :: 4
+A business owned by two or more people who share profits. :: Partnership
+A company whose owners' losses are limited to what they invested. :: Limited liability company
+Saudi Arabia's national oil company, listed on Tadawul since 2019. :: Saudi Aramco
+Saudi Arabia's sovereign wealth fund, known by the letters PIF. :: Public Investment Fund
+Saudi Arabia's national plan launched in 2016 to diversify the economy. :: Vision 2030
+The Saudi stock exchange. :: Tadawul (Saudi Exchange)
+The main index of the Saudi stock market, known by the letters TASI. :: Tadawul All Share Index
+Saudi Arabia's smaller, lighter-rules stock market for growing companies. :: Nomu (Parallel Market)
+A short-term loan a bank lets a company take by spending more than its account holds. :: Overdraft
+Money owed to suppliers is a source of this kind of short-term finance. :: Trade credit
+Renting equipment instead of buying it. :: Leasing
+Selling a company's unpaid invoices to a finance firm for cash now. :: Factoring
+A forecast of cash coming in and going out each month. :: Cash flow forecast
+Money left after all costs are paid. :: Profit
+Cash that comes into a business. :: Cash inflow
+Cash that goes out of a business. :: Cash outflow
+A company's net worth to its shareholders, assets minus liabilities. :: Book value of equity
+The cost of borrowing money, as a percentage. :: Interest rate
+1,000 at 10% simple interest for 3 years earns this interest. :: 300
+1,000 at 10% compound interest grows to this after 2 years. :: 1,210
+The rule that estimates the years to double money: divide this number by the interest rate. :: 72 (rule of 72)
+At 8% a year, money doubles in about this many years. :: 9
+A company's selling of new shares to raise money. :: Share issue
+Buying back a company's own shares from the market. :: Share buyback (repurchase)
+Splitting each share into several cheaper shares. :: Stock split
+The person who runs a company's money: managing cash, banks and risk. :: Treasurer
+The general rule "don't put all your eggs in one basket" describes this. :: Diversification
+Raising money by selling shares to a few chosen investors instead of the public. :: Private placement
+A loan secured on property. :: Mortgage
+An asset pledged to secure a loan. :: Collateral
+A business owner's own money put into the company. :: Owner's equity
+Money owed to a company. :: Receivables
+The legal term for a business that is no longer able to continue and is closed. :: Liquidation
+A company that owns shares in other companies and controls them. :: Holding company
+A company controlled by another company. :: Subsidiary
+Promising to pay back money, signed in a written document. :: Promissory note
+The minimum return a company expects from an investment. :: Hurdle rate (required rate of return)
+The ability to turn an asset into cash quickly. :: Liquidity
+The ability to meet long-term debts. :: Solvency
+A table listing yearly costs and benefits of a project. :: Cash flow schedule
+Shares that carry voting rights and the leftover profit. :: Ordinary shares (common stock)
+An organisation that rates the creditworthiness of borrowers, such as Moody's. :: Credit rating agency
+The highest credit rating used by S&P. :: AAA
+The decision of whether to fund a company with debt or equity. :: Capital structure decision
+The decision of which long-term projects to fund. :: Capital budgeting
+The decision of how much profit to pay out. :: Dividend decision
+A company with more debt has higher this kind of risk. :: Financial risk
+Earnings divided by shares outstanding. :: Earnings per share (EPS)
+Paying a dividend in new shares rather than cash. :: Stock dividend (bonus shares)
+Profit kept in the company rather than paid out. :: Retained earnings
+The official legal paper that creates a company and sets its rules. :: Articles of association (bylaws)
+A company's yearly plan of how much capital it will spend. :: Capital budget
+
+## 200
+The formula for future value of a single sum. :: FV = PV x (1 + r)^n
+The formula for present value of a single sum. :: PV = FV / (1 + r)^n
+A series of equal payments at regular intervals. :: Annuity
+An annuity with payments at the start of each period. :: Annuity due
+An annuity that goes on for ever. :: Perpetuity
+The present value of a perpetuity paying C at rate r. :: C / r
+A perpetuity paying 100 a year at 5% is worth this. :: 2,000
+The sum of the present values of all cash flows, minus the initial cost. :: Net present value (NPV)
+The discount rate that makes NPV equal to zero. :: Internal rate of return (IRR)
+Accept a project when its IRR is greater than this. :: The cost of capital (hurdle rate)
+The present value of future cash flows divided by the initial investment. :: Profitability index
+Accept a project if its profitability index is greater than this. :: 1
+The payback period's main weakness: it ignores cash flows after payback and this. :: The time value of money
+Payback using discounted cash flows. :: Discounted payback period
+The average return on all of a company's sources of capital, weighted by value. :: WACC (weighted average cost of capital)
+The model that says expected return = risk-free rate + beta x market risk premium. :: CAPM (capital asset pricing model)
+A measure of how much a share moves with the whole market. :: Beta
+A share with a beta of 1.5 moves this much when the market rises 10%. :: 15%
+The beta of the market as a whole. :: 1
+Expected market return minus the risk-free rate. :: Market risk premium (equity risk premium)
+Risk that can be removed by diversification. :: Unsystematic risk (specific, idiosyncratic risk)
+Risk that cannot be removed by diversification. :: Systematic risk (market risk)
+Interest on debt lowers taxes. This saving is called this. :: Interest tax shield
+After-tax cost of debt formula. :: Kd x (1 - tax rate)
+Debt at 8% with a 25% tax rate has an after-tax cost of this. :: 6%
+The two Nobel economists whose 1958 theorem says capital structure doesn't matter in a perfect market. :: Modigliani and Miller
+The capital structure theory that firms prefer internal funds, then debt, then equity. :: Pecking order theory
+The theory that firms balance the tax benefits of debt against bankruptcy costs. :: Trade-off theory
+Costs of conflicts between managers and shareholders. :: Agency costs
+The problem when managers act in their own interest instead of shareholders'. :: Principal-agent problem
+Cash flow available to all investors after capex and working capital needs. :: Free cash flow to the firm (FCFF)
+Valuing a company by discounting its future cash flows. :: Discounted cash flow (DCF) valuation
+The value of a business beyond the forecast period in a DCF. :: Terminal value
+The Gordon growth model values a share as next dividend divided by this. :: (Required return - growth rate)
+A share pays a dividend of 5 next year, grows 2% a year, and investors want 7%. Its value. :: 100
+Valuing a company by comparing it with similar listed companies. :: Comparable company analysis (trading multiples)
+Valuing a company using prices paid in past acquisitions. :: Precedent transactions
+Market value of equity plus net debt. :: Enterprise value
+Enterprise value divided by EBITDA is a common this. :: Valuation multiple
+Buying a company mostly with borrowed money. :: Leveraged buyout (LBO)
+Managers buying the company they run. :: Management buyout (MBO)
+An acquisition opposed by the target's board. :: Hostile takeover
+A defence that lets existing shareholders buy cheap shares if a raider buys too much. :: Poison pill
+A friendly company that rescues a target from a hostile bidder. :: White knight
+Large payments to executives if they lose their jobs after a takeover. :: Golden parachute
+The extra value from combining two companies. :: Synergy
+The amount paid above the target's market price in a takeover. :: Takeover premium (control premium)
+Investigating a company's records before buying it. :: Due diligence
+Splitting off a division into a new, separately listed company. :: Spin-off
+Selling part of a business. :: Divestiture
+A bank that helps companies raise capital and advises on deals. :: Investment bank
+The bank that guarantees to buy unsold shares in an IPO. :: Underwriter
+The document that describes a company and its shares offered to the public. :: Prospectus
+The first-day price rise when IPO shares are priced below what the market will pay. :: Underpricing
+Setting the IPO price by collecting orders from big investors. :: Book building
+The option for underwriters to sell up to 15% more shares in an IPO. :: Greenshoe (over-allotment option)
+A period after an IPO when insiders cannot sell their shares. :: Lock-up period
+Days of inventory plus days receivable minus days payable. :: Cash conversion cycle
+EBIT divided by interest expense. :: Interest coverage ratio
+Total debt divided by total equity. :: Debt-to-equity ratio
+Debt divided by debt plus equity. :: Gearing (debt ratio)
+The share of profits paid as dividends. :: Payout ratio
+The share of profits kept in the business. :: Retention ratio (plowback ratio)
+Sustainable growth rate = ROE x this. :: Retention ratio
+Dividend per share divided by share price. :: Dividend yield
+The theory that investors prefer a sure dividend now to uncertain gains later. :: Bird-in-the-hand theory
+The idea that dividend changes send information to investors. :: Signalling (information content of dividends)
+The date by which you must own a share to get the next dividend. :: Record date
+The date from which a share trades without the next dividend. :: Ex-dividend date
+A plan that reinvests dividends in new shares. :: DRIP (dividend reinvestment plan)
+The cost of the next riyal of capital. :: Marginal cost of capital
+A project's risk compared with the company's average is reflected by adjusting this. :: Discount rate (risk-adjusted rate)
+Checking how NPV changes when one input changes. :: Sensitivity analysis
+Checking NPV under best, worst and base cases. :: Scenario analysis
+Running thousands of random trials to model uncertainty. :: Monte Carlo simulation
+The value of being able to expand, delay or abandon a project. :: Real options
+Choosing between projects when capital is limited. :: Capital rationing
+Projects where accepting one rules out the other. :: Mutually exclusive projects
+When NPV and IRR rank mutually exclusive projects differently, follow this. :: NPV
+A project with cash flows that change sign more than once can have more than one of these. :: IRR
+The IRR variant that assumes reinvestment at the cost of capital. :: MIRR (modified internal rate of return)
+Costs already spent that should be ignored in decisions. :: Sunk costs
+Lost sales of existing products caused by a new product. :: Cannibalisation
+Money tied up in stock and receivables when a project starts. :: Working capital investment
+EBIT x (1 - tax) + depreciation - capex - change in working capital. :: Free cash flow
+A company's beta without the effect of debt. :: Unlevered (asset) beta
+The formula that relevers a beta: unlevered beta x [1 + (1 - t) x D/E]. :: Hamada equation
+The risk-free rate in CAPM is usually based on yields of these. :: Government bonds
+CAPM: risk-free 4%, beta 1.2, market premium 5%. The cost of equity. :: 10%
+WACC with 60% equity at 10% and 40% debt at 5% after tax. :: 8%
+A short-term debt instrument companies sell to raise cash for a few months. :: Commercial paper
+A loan from a group of banks to one borrower. :: Syndicated loan
+A bond that can be swapped for shares. :: Convertible bond
+A bond with no coupon, sold at a deep discount. :: Zero-coupon bond
+A bond the issuer can repay early. :: Callable bond
+Promises in a loan agreement, such as keeping debt below a limit. :: Covenants
+Debt that ranks after other debt in bankruptcy. :: Subordinated debt (junior debt)
+Debt that is repaid first in bankruptcy. :: Senior debt
+A mix of debt and equity features, such as convertible loans. :: Mezzanine finance (hybrid finance)
+A firm's ability to pay short-term bills is called this. :: Liquidity
+
+## 300
+The 1958 Modigliani-Miller Proposition I says, without taxes, firm value is independent of this. :: Capital structure
+MM Proposition II says the cost of equity rises in a straight line with this. :: Leverage (debt-to-equity ratio)
+With corporate taxes, MM say firm value rises with debt by the present value of this. :: Interest tax shields
+The value of a levered firm = value of unlevered firm + this (MM with taxes). :: Tax rate x debt (PV of tax shield)
+The economist Merton Miller added personal taxes to the debate in this 1977 paper. :: "Debt and Taxes"
+The 1976 paper by Jensen and Meckling introduced the theory of this. :: The firm (agency costs and ownership structure)
+The 1984 paper by Myers and Majluf explains this theory of financing. :: Pecking order theory
+Myers called the dilemma of the theory "the capital structure" this. :: Puzzle
+The problem where shareholders of a near-bankrupt firm turn down good projects because gains go to lenders. :: Debt overhang (underinvestment problem)
+Shareholders of a troubled firm gambling on very risky projects. :: Asset substitution (risk shifting)
+Michael Jensen's 1986 theory that debt disciplines managers with spare cash. :: Free cash flow hypothesis
+The Lintner model describes how firms smooth these. :: Dividends
+Miller and Modigliani's 1961 paper argued this policy is irrelevant in perfect markets. :: Dividend policy
+The theory that investors in high tax brackets prefer low-dividend shares. :: Clientele effect
+The approach where the firm pays dividends only from leftover earnings after funding good projects. :: Residual dividend policy
+The economist who developed CAPM in 1964 and won the Nobel Prize in 1990. :: William Sharpe
+The 1952 paper that founded modern portfolio theory. :: "Portfolio Selection" by Harry Markowitz
+The model that explains returns with several factors instead of one beta, by Stephen Ross. :: Arbitrage pricing theory (APT)
+The Fama-French three-factor model adds size and this to the market factor. :: Value (book-to-market, HML)
+The Fama-French size factor is called this. :: SMB (small minus big)
+The Fama-French value factor is called this. :: HML (high minus low)
+The momentum factor added by Carhart in 1997. :: UMD or WML (winners minus losers)
+The 2015 Fama-French five-factor model adds profitability and this. :: Investment
+Adjusted present value = base-case NPV + this. :: PV of financing side effects (such as tax shields)
+The APV method is best for deals where this changes over time, such as LBOs. :: Capital structure (debt level)
+The equity value from a DCF using FCFF: enterprise value minus this. :: Net debt
+Cash flow to equity holders after debt payments. :: Free cash flow to equity (FCFE)
+FCFE is discounted at this rate. :: Cost of equity
+FCFF is discounted at this rate. :: WACC
+The economic profit measure: NOPAT minus capital x WACC, trademarked by Stern Stewart. :: EVA (economic value added)
+NOPAT stands for this. :: Net operating profit after tax
+Market value added equals the market value of the firm minus this. :: Capital invested
+The ratio of a firm's market value to the replacement cost of its assets. :: Tobin's q
+The Gordon growth terminal value formula. :: FCF x (1 + g) / (WACC - g)
+A terminal FCF of 100 next year, WACC 10%, growth 2%. Terminal value. :: 1,250
+A target company's shareholders typically gain the most in this kind of deal. :: Takeovers (the target's shareholders get the premium)
+Paying with the buyer's own shares instead of cash is called this. :: Share-for-share exchange (stock deal)
+A deal that raises the buyer's earnings per share is called this. :: Accretive
+A deal that lowers the buyer's earnings per share is called this. :: Dilutive
+A clause letting a target's board consider better offers after signing. :: Fiduciary out (go-shop or window-shop)
+A fee a target pays if it walks away from an agreed deal. :: Break-up fee (termination fee)
+The theory that executives overpay for acquisitions due to overconfidence, by Richard Roll in 1986. :: Hubris hypothesis
+The 'winner's curse' in auctions means the winning bidder tends to do this. :: Overpay
+A merger of firms in the same industry at the same stage. :: Horizontal merger
+A merger with a supplier or customer. :: Vertical merger
+A merger of firms in unrelated businesses. :: Conglomerate merger
+Paying part of a deal price later, based on the target's future results. :: Earn-out
+An offer made directly to shareholders to buy their shares. :: Tender offer
+Buying a stake quietly before announcing a bid. :: Toehold
+A target buying back the raider's stake at a premium. :: Greenmail
+A defence where the target threatens to sell its best assets. :: Crown jewel defence
+A defence where the target tries to buy the bidder. :: Pac-Man defence
+Staggering board elections so a raider can't replace all directors at once. :: Staggered (classified) board
+A company with dual-class shares gives founders more of these. :: Votes (voting rights)
+The trade-off theory's costs that increase with debt include these. :: Financial distress costs (bankruptcy costs)
+Direct bankruptcy costs include legal fees; lost customers and staff are this kind of cost. :: Indirect bankruptcy costs
+In the US, the bankruptcy chapter for reorganising a company. :: Chapter 11
+In the US, the bankruptcy chapter for liquidation. :: Chapter 7
+Saudi Arabia's Bankruptcy Law, which introduced financial reorganisation, took effect in this year. :: 2018
+The Saudi body that administers bankruptcy procedures, set up in 2018. :: Bankruptcy Commission
+Holding cash to take advantage of unexpected opportunities is this motive. :: Precautionary (or speculative) motive
+The Baumol model of cash management resembles this inventory model. :: EOQ (economic order quantity)
+The cash model with upper and lower limits and a return point. :: Miller-Orr model
+The EOQ formula. :: Square root of (2 x annual demand x order cost / holding cost)
+Annual demand 2,000, ordering cost 50, holding cost 2 per unit. The EOQ. :: 316 units (about)
+Just-in-time inventory aims to keep stock close to this. :: Zero
+The effective annual cost of giving up a 2/10 net 30 discount. :: About 44.6%
+The interest rate that includes compounding within a year. :: Effective annual rate (EAR)
+12% compounded monthly gives this effective annual rate. :: About 12.68%
+The rate that would be quoted before compounding is taken into account. :: Nominal (stated) rate (APR)
+Continuous compounding: FV = PV x e to this power. :: r x t
+A firm that hedges its foreign sales with a forward contract fixes this. :: The exchange rate
+Risk that a company's foreign revenues change in home-currency value. :: Transaction exposure (currency risk)
+Risk from translating foreign subsidiaries' accounts. :: Translation exposure
+Risk that exchange-rate moves change a firm's long-term competitiveness. :: Economic exposure
+The parity theory linking interest rate differences to forward exchange rates. :: Interest rate parity
+The parity theory linking inflation differences to exchange rate changes. :: Purchasing power parity
+An agreement to swap fixed interest payments for floating ones. :: Interest rate swap
+The Saudi riyal has been pegged to the US dollar at this rate since 1986. :: 3.75 riyals per dollar
+A company's decision to keep production at home or abroad is part of this kind of finance. :: International finance
+The return a shareholder earns: dividends plus price change, divided by starting price. :: Total shareholder return (holding period return)
+Bought at 50, sold at 55, with a dividend of 2. Return. :: 14%
+The phrase "cash is king" stresses this. :: Liquidity (cash flow over profit)
+A project's IRR is 12% and its cost of capital is 10%. Its NPV is this. :: Positive
+An investment of 100 returning 121 in two years has an IRR of this. :: 10%
+NPV of -1,000 now and 1,100 in one year at 10%. :: 0
+The concept that one riyal of tax saved is worth more if it comes sooner. :: Time value of tax savings (tax timing)
+The corporate governance code for Saudi listed companies is issued by this body. :: CMA (Capital Market Authority)
+The independent directors on a board are expected to protect these shareholders. :: Minority shareholders
+A board committee that oversees the external auditor. :: Audit committee
+A board committee that sets executive pay. :: Remuneration (compensation) committee
+Pay that rises with the share price, such as stock options, aims to align managers with these people. :: Shareholders
+The theory that companies should serve all affected groups, not only shareholders. :: Stakeholder theory
+Milton Friedman's 1970 essay said a company's social responsibility is to increase this. :: Its profits
+The investing approach that scores companies on environment, social and governance. :: ESG
+A bond whose money funds environmental projects. :: Green bond
+The PIF's first green bond was issued in this year. :: 2022
+The world's largest sovereign wealth funds include Norway's Government Pension Fund and this Saudi fund. :: Public Investment Fund (PIF)
+A dividend of 3 per share on a share priced 60 gives a dividend yield of this. :: 5%
+ROE 15% and retention ratio 60% give a sustainable growth rate of this. :: 9%
+
+## 400
+The 1990 Nobel Prize in economics went to Markowitz, Sharpe and this economist. :: Merton Miller
+Franco Modigliani won the Nobel Prize in this year. :: 1985
+The economist who first described the dividend discount model with constant growth in 1956. :: Myron Gordon (with Eli Shapiro)
+John Burr Williams set out the theory of investment value based on dividends in this 1938 book. :: The Theory of Investment Value
+Irving Fisher's 1930 book that set out the theory of interest and present value. :: The Theory of Interest
+The 'Fisher separation theorem' says investment decisions are independent of owners' this. :: Consumption preferences
+The three types of market efficiency defined by Eugene Fama. :: Weak, semi-strong and strong
+Fama's paper that set out the efficient markets classification was published in this year. :: 1970
+The ratio of a firm's market leverage that minimises its WACC is called this. :: Optimal (target) capital structure
+The cost of equity for a firm with unlevered cost 10%, cost of debt 6%, D/E of 0.5, no taxes (MM II). :: 12%
+The unlevered beta of a firm with levered beta 1.3, D/E 0.5 and tax 20%. :: About 0.93
+Graham and Harvey's 2001 survey found most CFOs used this for project decisions. :: NPV and IRR
+Graham and Harvey's survey found most CFOs estimated the cost of equity with this model. :: CAPM
+The Damodaran estimate of a country risk premium is added to account for this. :: Country (sovereign) risk
+The 'beta' of debt is usually assumed to be close to this. :: Zero
+The firm's cost of capital when it has no debt. :: Unlevered cost of capital (asset cost of capital)
+The capital cash flow method discounts FCF plus interest tax shields at this rate. :: Pre-tax WACC (unlevered cost of capital)
+The investment bank failure in September 2008 that triggered the global crisis. :: Lehman Brothers
+The 2007 failure of this British bank caused the first UK bank run in 150 years. :: Northern Rock
+The 1998 hedge fund collapse that needed a Fed-organised rescue. :: Long-Term Capital Management (LTCM)
+Two Nobel laureates on LTCM's board. :: Myron Scholes and Robert Merton
+The 1988 RJR Nabisco buyout was led by this private equity firm. :: KKR (Kohlberg Kravis Roberts)
+The book about the RJR Nabisco takeover battle. :: Barbarians at the Gate
+The 2000 merger of AOL and this media company is often called the worst deal in history. :: Time Warner
+SABIC was bought in 2020 by this company, which took a 70% stake. :: Saudi Aramco
+Aramco paid about this much for its 70% stake in SABIC. :: 69.1 billion dollars
+The Saudi bank merger completed in 2021 that created the Saudi National Bank. :: NCB and Samba
+Saudi Arabia's Tadawul Group (Saudi Exchange's parent) listed its own shares in this year. :: 2021
+The Saudi CMA allowed qualified foreign investors to buy listed shares directly from this year. :: 2015
+The Saudi market was upgraded to emerging market status by MSCI and FTSE Russell in this year. :: 2019
+The Saudi Venture Capital Company, set up to fund start-up investment funds, is known by these letters. :: SVC
+The Saudi Crowdfunding rules for debt crowdfunding are supervised by this body. :: SAMA (Saudi Central Bank)
+The dividend payout policy that keeps the payout ratio constant gives dividends that do this. :: Fluctuate with earnings
+Lintner found firms adjust dividends gradually toward a target. This target is a share of this. :: Earnings
+A share repurchase at market price, with no taxes, leaves this unchanged for remaining shareholders. :: The value per share (wealth)
+A 'Dutch auction' buyback lets shareholders do this. :: Name the lowest price they will accept within a range
+The 'free rider' problem in takeovers, by Grossman and Hart in 1980, explains why bidders struggle to do this. :: Buy shares at a price below their post-takeover value
+In a two-tier tender offer, the first tier gets this. :: A higher price
+The Delaware court case that says boards selling control must seek the best price. :: Revlon
+The Delaware case that set the test for takeover defences in 1985. :: Unocal
+The 'business judgement rule' protects directors who act in good faith and on an informed basis from this. :: Liability for honest business decisions
+Under the UK Takeover Code, a holder that crosses this stake must bid for the whole company. :: 30%
+Under Saudi CMA rules, someone owning this share of a listed company must disclose it. :: 5%
+A share buyback at a price above value transfers wealth from remaining shareholders to these. :: Selling shareholders
+The term for real options to wait before investing. :: Option to delay (timing option)
+Real options are often valued using this options model. :: Black-Scholes (or binomial model)
+The binomial option model was developed by Cox, Ross and this economist. :: Rubinstein
+Equity of a levered firm can be seen as this kind of option on the firm's assets. :: A call option
+The structural credit risk model based on that idea. :: Merton model
+Debt of 80 due in 1 year; assets worth 100. In the Merton model, equity holders pay off debt only if assets exceed this. :: 80 (the face value of debt)
+The ratio of the firm's EBITDA to its fixed charges such as interest and leases. :: Fixed charge coverage
+A covenant that only stops the borrower from doing something when it takes an action, such as new debt. :: Incurrence covenant
+A covenant tested regularly, such as keeping leverage under a limit every quarter. :: Maintenance covenant
+'Covenant-lite' loans lack these covenants. :: Maintenance covenants
+A loan that repays nothing until the end. :: Bullet loan
+In LBO math, IRR rises with debt but so does this. :: Risk of default
+A typical private equity fund life. :: About 10 years
+The usual private equity fee structure. :: 2 and 20 (2% management fee, 20% carried interest)
+The share of profits private equity managers keep. :: Carried interest
+The return limited partners must get before carried interest is paid. :: Hurdle rate (preferred return)
+The investors who put money into a private equity fund. :: Limited partners
+The firm that runs a private equity fund. :: General partner
+The ratio of money returned to money invested in private equity. :: MOIC (multiple on invested capital)
+A start-up's value before new investors put money in. :: Pre-money valuation
+Pre-money 8 million and 2 million invested: the investors' share. :: 20%
+A clause that protects investors if a later round is priced lower. :: Anti-dilution clause (down-round protection)
+The right of investors to get their money back before ordinary shareholders on a sale. :: Liquidation preference
+A funding round priced lower than the previous one. :: Down round
+A convertible instrument popularised by Y Combinator in 2013. :: SAFE (simple agreement for future equity)
+Selling a company to the public after a merger with a listed shell company. :: SPAC merger (de-SPAC)
+SPAC stands for this. :: Special purpose acquisition company
+Listing shares without raising new money or using underwriters. :: Direct listing
+The underpricing puzzle explained by the 'winner's curse' in IPO allocation, by Kevin Rock in 1986. :: Uninformed investors get more of the bad IPOs
+IPOs tend to underperform the market over this period, found by Jay Ritter. :: Three to five years (long run)
+Hot issue markets are periods when IPOs have high these. :: First-day returns (and volumes)
+The Saudi Aramco IPO priced its shares at this many riyals. :: 32
+Aramco's share price rose by the daily limit on its first trading day. This limit was then this much. :: 10%
+The sum of debt and equity used in a company's operations. :: Invested capital
+ROIC above WACC means a company is this. :: Creating value
+A company with a ROIC of 15% and WACC of 9% has a spread of this. :: 6%
+Value driver formula: firm value = NOPAT x (1 - g/ROIC) / this. :: (WACC - g)
+Growth creates value only when ROIC is above this. :: WACC
+The DuPont formula splits ROE into margin, turnover and this. :: Equity multiplier (leverage)
+An ROE of 18% with margin 6% and asset turnover 1.5 implies an equity multiplier of this. :: 2
+The bank loan arrangement that lets a company borrow up to a limit when needed. :: Revolving credit facility
+The cost of an unused part of a revolving facility. :: Commitment fee
+Hedging with a contract where the payoff is the opposite of the exposure is called this. :: Natural (or financial) hedge
+A firm with costs in euros and sales in euros has this kind of hedge. :: A natural hedge
+Hedging is valuable when markets are not perfect, for example because of these costs. :: Financial distress costs (and taxes)
+Companies that hedge raw materials, such as airlines, often hedge this. :: Jet fuel
+The 'convenience yield' is the benefit of holding this rather than a futures contract. :: The physical commodity
+A loan to a project company repaid only from the project's cash flows. :: Project finance (non-recourse finance)
+Saudi Arabia's private-public partnership law took effect in this year. :: 2021
+The National Center for Privatization in Saudi Arabia is known by these letters. :: NCP
+The 'equity premium puzzle' paper of 1985 was written by Mehra and this economist. :: Edward Prescott
+The term for a firm keeping more cash than it needs, studied by Opler and others in 1999. :: Cash holdings (excess cash)
+A company's weighted average cost of capital is 9%. A project as risky as the firm returns 8%. Accept or reject? :: Reject
+A loan of 100,000 at 6% repaid in equal yearly instalments over 5 years. The instalment is about this. :: 23,740
+Present value of 100 a year for 3 years at 10%. :: 248.69
+The ratio of net debt to EBITDA lenders often cap in leveraged loans. :: Leverage ratio (often 4 to 6 times in LBOs)
+
+## 500
+The 1963 correction MM published adds this to their 1958 theory. :: Corporate taxes
+Under Miller's 1977 equilibrium, the gain from leverage is zero when (1 - Tc)(1 - Ts) equals this. :: 1 - Tb (personal tax on debt income)
+DeAngelo and Masulis showed in 1980 that non-debt tax shields such as this lower the value of debt. :: Depreciation (and investment tax credits)
+The 'static trade-off' theory was challenged by the finding that the most profitable firms often have this. :: Low debt
+The 'market timing' theory of capital structure, by Baker and Wurgler in 2002, says firms issue equity when this. :: Share prices are high (overvalued)
+The 'Leland model' of 1994 values debt with this feature. :: Endogenous default (continuous-time default boundary)
+The Black-Scholes formula was published in this year. :: 1973
+Myron Scholes and Robert Merton won the Nobel Prize in this year. :: 1997
+The economist who shared the 2013 Nobel with Fama and Hansen for asset pricing. :: Robert Shiller
+The Nobel economist who argued markets are inefficient, in the book "Irrational Exuberance". :: Robert Shiller
+Eugene Fama's 1965 doctoral topic. :: The behaviour of stock market prices (random walk)
+The Fama and French 'five factors': market, size, value, profitability (RMW) and investment, called this. :: CMA (conservative minus aggressive)
+In the Fama-French model, RMW stands for this. :: Robust minus weak
+The q-factor model of Hou, Xue and Zhang has four factors: market, size, investment and this. :: Profitability (ROE)
+The 'cost of capital' paper of 1958 was published in this journal. :: American Economic Review
+Myers' 1977 paper "Determinants of Corporate Borrowing" introduced this. :: Debt overhang (underinvestment)
+Akerlof's 1970 'market for lemons' paper explains the cost of issuing equity because of this. :: Asymmetric information (adverse selection)
+Ross's 1977 paper argued that debt levels can be used to do this. :: Signal firm quality
+Bhattacharya's 1979 model shows dividends as costly signals because of this. :: Taxes on dividends
+The 'catering theory' of dividends, by Baker and Wurgler in 2004, says firms pay dividends when investors do this. :: Value dividend payers more (dividend premium)
+Fama and French's 2001 paper called "Disappearing Dividends" found fewer US firms paid dividends after this year. :: 1978
+DeAngelo, DeAngelo and Stulz's 2006 life-cycle theory links dividends to the share of equity that is this. :: Earned (retained earnings to total equity)
+In the US, the SEC's 1982 rule that gave a safe harbour for open-market share buybacks. :: Rule 10b-18
+The Damodaran approach to estimating a country risk premium scales the sovereign default spread by this. :: Relative equity market volatility (equity vol / bond vol)
+The 'synthetic rating' method estimates a cost of debt from this ratio. :: Interest coverage ratio
+The 'implied cost of capital' is the discount rate that equates price with this. :: Forecast cash flows (analyst forecasts)
+Brealey and Myers' 'Principles of Corporate Finance' was first published in this year. :: 1981
+The authors of the book 'Valuation: Measuring and Managing the Value of Companies', first published in 1990. :: McKinsey (Copeland, Koller and Murrin)
+The concept of 'economic value added' was developed by this New York consulting firm. :: Stern Stewart & Co.
+The ratio of enterprise value to invested capital is linked to ROIC minus WACC in this model. :: Value driver (McKinsey) formula
+The Jensen and Ruback 1983 review found target shareholders gain about this much in takeovers. :: 20% to 30%
+Andrade, Mitchell and Stafford's 2001 study found acquirers' shareholders gain about this much on average. :: Close to zero (slightly negative)
+The 'Q-theory of mergers' says firms with high Tobin's q tend to do this. :: Buy firms with low q
+The 2016 deal in which Saudi PIF invested 3.5 billion dollars in this ride-hailing company. :: Uber
+The PIF and SoftBank fund launched in 2017 with 100 billion dollars. :: Vision Fund
+PIF committed about this much to the first SoftBank Vision Fund. :: 45 billion dollars
+The PIF-backed electric car maker that listed on Nasdaq in 2021. :: Lucid
+Saudi Aramco's 2019 debut bond raised this much. :: 12 billion dollars
+Saudi Aramco's first US-dollar sukuk was issued in this year. :: 2021
+The Saudi Exchange's derivatives market launched in 2020, starting with futures on this index. :: MSCI Tadawul 30 Index (MT30)
+A firm's operating leverage is the ratio of the change in EBIT to the change in this. :: Sales
+Combined (total) leverage equals operating leverage times this. :: Financial leverage
+A firm with DOL 2 and DFL 1.5 sees EPS change by this much when sales rise 10%. :: 30%
+The cash conversion cycle of Dell in the late 1990s was famous because it was this. :: Negative
+The Altman Z-score's 'grey zone' for public manufacturers lies roughly between these numbers. :: 1.81 and 2.99
+Ohlson's 1980 O-score predicts this. :: Bankruptcy (default)
+In the Merton model, the 'distance to default' measures standard deviations between asset value and this. :: The default point (debt)
+The credit spread of a firm rises as its asset volatility does this. :: Rises
+In the Merton framework, risky debt = risk-free debt minus this. :: A put option on the firm's assets
+The 'pecking order' predicts that firms with financial slack will issue this kind of security first when they need outside money. :: Debt
+The term 'agency costs of free cash flow' was coined by this author. :: Michael Jensen
+Shleifer and Vishny's 1989 paper on 'management entrenchment' says managers invest in assets that make them this. :: Hard to replace
+The board structure where the chair and CEO are the same person. :: CEO duality
+The 1932 book by Berle and Means that described the separation of ownership and control. :: The Modern Corporation and Private Property
+Coase's 1937 paper 'The Nature of the Firm' explained firms exist because of these costs. :: Transaction costs
+Williamson's work on transaction cost economics won him the Nobel Prize in this year. :: 2009
+Hart and Holmström won the 2016 Nobel Prize for contributions to this theory. :: Contract theory
+Holmström's 'informativeness principle' says pay should be linked to measures that do this. :: Reveal information about the agent's effort
+The 'Fisher effect' says nominal interest rates rise one for one with this. :: Expected inflation
+A company in a country with 10% inflation, using real cash flows, must discount at this kind of rate. :: A real discount rate
+Nominal rate 12%, inflation 4%. The exact real rate. :: About 7.69%
+The 'inflation gap' formula for exchange rates using relative PPP: expected change equals this. :: The inflation difference between the two countries
+Covered interest parity: forward rate = spot rate x (1 + home rate) / this. :: (1 + foreign rate)
+The 'carry trade' borrows in a low-interest currency and invests in this. :: A high-interest currency
+The international Fisher effect says currencies with higher interest rates should do this. :: Depreciate
+A 'cross-border' acquisition paid in shares often uses this kind of depositary receipt. :: ADRs (American depositary receipts) or GDRs
+The 'home bias' puzzle refers to investors holding too few of these. :: Foreign shares
+The petrochemical company that issued the first corporate sukuk in Saudi Arabia, in 2006. :: SABIC
+After share transfers from the government in 2023 and 2024, the PIF held about this share of Saudi Aramco. :: About 16%
+The famous 1980s junk bond king at Drexel Burnham Lambert. :: Michael Milken
+The investor who wrote "The Intelligent Investor" in 1949. :: Benjamin Graham
+Graham's term for the gap between price and intrinsic value that protects investors. :: Margin of safety
+"Security Analysis" (1934) was written by Benjamin Graham and this co-author. :: David Dodd
+The 'Graham number' combines EPS and this. :: Book value per share
+Warren Buffett's company. :: Berkshire Hathaway
+The Saudi investor and Kingdom Holding founder known for early investments in Citigroup and Twitter. :: Prince Alwaleed bin Talal
+The 'Miller-Orr' model sets the spread between upper and lower limits as 3 times the cube root of this. :: (3/4 x transaction cost x variance of cash flows / interest rate)
+In the Miller-Orr model, the return point is set at the lower limit plus this share of the spread. :: One third
+The co-author with Franco Modigliani of the 1958 paper 'The Cost of Capital, Corporation Finance and the Theory of Investment'. :: Merton Miller
+The economist who coined the term 'pecking order' in 1984. :: Stewart Myers
+The concept of 'financial flexibility' explains why firms keep spare capacity to borrow, called this. :: Debt capacity (reserve borrowing capacity)
+Kaplan's 1989 study found LBOs improved this measure of firms' operations. :: Operating performance (cash flow)
+The private equity firm co-founded by Stephen Schwarzman in 1985. :: Blackstone
+The 2007 buyout of this Texas utility, later TXU, became the largest LBO bankruptcy. :: Energy Future Holdings (TXU)
+The 1980s 'junk bond' market was centred on this investment bank. :: Drexel Burnham Lambert
+In a leveraged recapitalisation, a company borrows heavily to pay this. :: A large special dividend (or buy back shares)
+The Saudi government's 2016 debut international bond raised this much, then the largest emerging market bond. :: 17.5 billion dollars
+The Saudi government's debt office set up in 2015 to manage borrowing, known by these letters. :: NDMC (National Debt Management Center)
+The 'Kraus-Litzenberger' model of 1973 formalised this theory. :: Static trade-off theory
+Titman and Wessels' 1988 paper found firms with unique products tend to have this. :: Low debt ratios
+The Rajan and Zingales 1995 paper compared capital structures across these seven countries. :: The G7
+Jerold Warner's 1977 study of railroad bankruptcies measured this kind of cost. :: Direct bankruptcy costs
+Andrade and Kaplan's 1998 study estimated financial distress costs at about this share of firm value. :: 10% to 20%
+The 'Stulz' and 'Smith-Stulz' 1985 paper explains corporate hedging through taxes, distress costs and this. :: Managerial risk aversion
+Froot, Scharfstein and Stein's 1993 paper says hedging helps firms do this. :: Fund good investments without costly outside finance
+Kaplan and Zingales argued in 1997 that investment-cash flow sensitivity does not measure this. :: Financing constraints
+The concept that investors' equity is a 'residual claim' was formalised by this pair of authors in 1983. :: Fama and Jensen
+In 'Separation of Ownership and Control' (1983), Fama and Jensen describe four steps of decision making: initiation, ratification, implementation and this. :: Monitoring
+The Saudi Investment Bank, Riyad Bank and others list on this board of Tadawul. :: Main Market (Banks sector)
+The world's largest IPO before Saudi Aramco. :: Alibaba (2014, 25 billion dollars)

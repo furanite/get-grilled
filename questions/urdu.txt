@@ -1,0 +1,619 @@
+id: urdu
+name: Urdu
+group: humanities
+
+## 100
+Urdu is the national language of this country. :: Pakistan
+Urdu is written in a script based on this alphabet. :: The Arabic (Perso-Arabic) alphabet
+Urdu is written in this direction. :: Right to left
+The Urdu word "shukriya" means this. :: Thank you
+The Urdu greeting used by Muslims everywhere, meaning "peace be upon you". :: Assalamu alaykum
+"Khuda hafiz" is said at this time. :: When saying goodbye
+"Allah hafiz" means this. :: May Allah protect you (goodbye)
+The Urdu word "haan" means this. :: Yes
+The Urdu word "nahin" means this. :: No
+The Urdu word "pani" means this. :: Water
+The Urdu word "khana" means this. :: Food (or to eat)
+The Urdu word "ghar" means this. :: House (home)
+The Urdu word "kitab" means this, and comes from Arabic. :: Book
+The Urdu word "qalam" means this, and comes from Arabic. :: Pen
+The Urdu word "dost" means this. :: Friend
+The Urdu word "maa" (or "ammi") means this. :: Mother
+The Urdu word "abbu" means this. :: Father
+The Urdu word "bhai" means this. :: Brother
+The Urdu word "behen" means this. :: Sister
+The Urdu word "beta" means this. :: Son (also used for any child)
+The Urdu word "beti" means this. :: Daughter
+The Urdu word "chai" means this. :: Tea
+The Urdu word "doodh" means this. :: Milk
+The Urdu word "roti" means this. :: Flatbread (bread)
+The Urdu word "chawal" means this. :: Rice
+The Urdu word "phal" means this. :: Fruit
+The Urdu word "aam" means this fruit. :: Mango
+The Urdu word "seb" means this fruit. :: Apple
+The Urdu word "kela" means this fruit. :: Banana
+The Urdu word "gosht" means this. :: Meat
+The Urdu word "murgh" (or "murghi") means this. :: Chicken
+The Urdu word "machli" means this. :: Fish
+The Urdu word "namak" means this. :: Salt
+The Urdu word "cheeni" means this. :: Sugar
+The Urdu word "garam" means this. :: Hot
+The Urdu word "thanda" means this. :: Cold
+The Urdu word "bara" means this. :: Big
+The Urdu word "chhota" means this. :: Small
+The Urdu word "acha" means this. :: Good (or okay)
+The Urdu word "bura" means this. :: Bad
+The Urdu word "naya" means this. :: New
+The Urdu word "purana" means this. :: Old (of things)
+The Urdu word "din" means this. :: Day
+The Urdu word "raat" means this. :: Night
+The Urdu word "subah" means this. :: Morning
+The Urdu word "shaam" means this. :: Evening
+The Urdu word "aaj" means this. :: Today
+The Urdu word "kal" can mean both of these days. :: Yesterday and tomorrow
+The Urdu word "saal" means this. :: Year
+The Urdu word "mahina" means this. :: Month
+The Urdu word "hafta" means this. :: Week (also Saturday)
+The Urdu word "ek" means this number. :: One
+The Urdu word "do" means this number. :: Two
+The Urdu word "teen" means this number. :: Three
+The Urdu word "char" means this number. :: Four
+The Urdu word "panch" means this number. :: Five
+The Urdu word "das" means this number. :: Ten
+The Urdu word "sau" means this number. :: One hundred
+The Urdu word "hazaar" means this number. :: One thousand
+The Urdu word "lal" means this colour. :: Red
+The Urdu word "hara" means this colour. :: Green
+The Urdu word "neela" means this colour. :: Blue
+The Urdu word "peela" means this colour. :: Yellow
+The Urdu word "safed" means this colour. :: White
+The Urdu word "kala" means this colour. :: Black
+The Urdu word "sar" means this part of the body. :: Head
+The Urdu word "aankh" means this part of the body. :: Eye
+The Urdu word "kaan" means this part of the body. :: Ear
+The Urdu word "naak" means this part of the body. :: Nose
+The Urdu word "haath" means this part of the body. :: Hand
+The Urdu word "paon" means this part of the body. :: Foot
+The Urdu word "dil" means this. :: Heart
+The Urdu word "suraj" means this. :: Sun
+The Urdu word "chand" means this. :: Moon
+The Urdu word "sitara" means this. :: Star
+The Urdu word "aasman" means this. :: Sky
+The Urdu word "zameen" means this. :: Earth (ground, land)
+The Urdu word "darya" means this. :: River
+The Urdu word "samandar" means this. :: Sea (ocean)
+The Urdu word "pahar" means this. :: Mountain
+The Urdu word "darakht" (or "ped") means this. :: Tree
+The Urdu word "phool" means this. :: Flower
+The Urdu word "billi" means this animal. :: Cat
+The Urdu word "kutta" means this animal. :: Dog
+The Urdu word "ghora" means this animal. :: Horse
+The Urdu word "oont" means this animal. :: Camel
+The Urdu word "sher" can mean a lion or this kind of writing. :: A couplet of poetry (she'r)
+The Urdu word "school" is borrowed from this language. :: English
+The Urdu word "madrasa" comes from Arabic and means this. :: School
+The Urdu word "ustad" means this. :: Teacher (master)
+The Urdu word "talib-e-ilm" means this. :: Student
+The Urdu word "ilm" means this, and comes from Arabic. :: Knowledge
+The Urdu word "duniya" means this, and comes from Arabic. :: The world
+The Urdu word "waqt" means this, and comes from Arabic. :: Time
+The Urdu word "dawa" means this, and comes from Arabic. :: Medicine
+The Urdu word "daftar" means this. :: Office
+The Urdu word "bazaar" means this. :: Market
+The Urdu word "rasta" means this. :: Way (road)
+The Urdu word "gaari" means this. :: Car (vehicle)
+The Urdu word "rail gaari" means this. :: Train
+The Urdu word "hawai jahaz" means this. :: Aeroplane
+"Aap kaise hain?" asks this. :: How are you?
+"Mera naam ... hai" means this. :: My name is ...
+"Main theek hoon" means this. :: I am fine
+"Kya haal hai?" means this. :: How are things?
+"Jee" is a polite word meaning this. :: Yes (sir/madam)
+The polite Urdu word for "you". :: Aap
+The informal Urdu word for "you" used with friends. :: Tum
+The Urdu word for "I". :: Main
+The Urdu word for "we". :: Hum
+The poet called the "Poet of the East" who wrote in Urdu and Persian. :: Allama Muhammad Iqbal ﵀
+The national poet of Pakistan. :: Allama Muhammad Iqbal ﵀
+The great Urdu poet of Delhi whose letters and ghazals are famous, Mirza Asadullah Khan. :: Mirza Ghalib ﵀
+The most famous form of Urdu love poetry. :: The ghazal
+The Urdu script style, a hanging Persian style of writing. :: Nasta'liq
+The Urdu word "zabaan" means this. :: Language (also tongue)
+Urdu and this language of India sound very alike in everyday speech. :: Hindi
+Urdu is an official language in Pakistan along with this language. :: English
+The Pakistani city known as the "City of Lights", the largest city. :: Karachi
+The Pakistani city known as the heart of Urdu culture in Punjab. :: Lahore
+The Urdu word "Pakistan" means this. :: Land of the pure
+
+## 200
+The Urdu word "mehmaan" means this. :: Guest
+The Urdu word "mehmaan nawazi" means this. :: Hospitality
+The Urdu word "mohabbat" means this, and comes from Arabic. :: Love
+The Urdu word "dushman" means this. :: Enemy
+The Urdu word "imtihaan" means this, and comes from Arabic. :: Exam (test)
+The Urdu word "sawal" means this, and comes from Arabic. :: Question
+The Urdu word "jawab" means this, and comes from Arabic. :: Answer
+The Urdu word "akhbaar" means this, and comes from Arabic. :: Newspaper
+The Urdu word "khabar" means this. :: News
+The Urdu word "mausam" means this. :: Weather (season)
+The Urdu word "baarish" means this. :: Rain
+The Urdu word "barf" means this. :: Snow (or ice)
+The Urdu word "hawa" means this. :: Air (wind)
+The Urdu word "aag" means this. :: Fire
+The Urdu word "roshni" means this. :: Light
+The Urdu word "andhera" means this. :: Darkness
+The Urdu word "khushi" means this. :: Happiness
+The Urdu word "gham" means this. :: Sorrow
+The Urdu word "dard" means this. :: Pain
+The Urdu word "sabr" means this, and comes from Arabic. :: Patience
+The Urdu word "shukr" means this, and comes from Arabic. :: Gratitude
+The Urdu word "imaan" means this, and comes from Arabic. :: Faith
+The Urdu word "namaz" for prayer comes from this language. :: Persian
+The Urdu word "roza" for fasting comes from this language. :: Persian
+The Urdu word "khuda" for God comes from this language. :: Persian
+The Urdu word "masjid" means this. :: Mosque
+The Urdu word "eid mubarak" means this. :: Blessed Eid
+The Urdu word "dulha" means this. :: Bridegroom
+The Urdu word "dulhan" means this. :: Bride
+The Urdu word "shaadi" means this. :: Wedding (marriage)
+The pre-wedding henna night in Pakistan. :: Mehndi
+The Urdu word "rishtedaar" means this. :: Relative
+The Urdu word "nana" means this relative. :: Mother's father
+The Urdu word "dada" means this relative. :: Father's father
+The Urdu word "chacha" means this relative. :: Father's younger brother (uncle)
+The Urdu word "mamu" means this relative. :: Mother's brother (uncle)
+The Urdu word "khala" means this relative, and comes from Arabic. :: Mother's sister (aunt)
+The Urdu word "phuppo" means this relative. :: Father's sister (aunt)
+The Urdu word "kamra" means this. :: Room
+The Urdu word "darwaza" means this. :: Door
+The Urdu word "khirki" means this. :: Window
+The Urdu word "kursi" means this, and comes from Arabic. :: Chair
+The Urdu word "mez" means this. :: Table
+The Urdu word "chabi" means this. :: Key
+The Urdu word "baawarchi khana" means this. :: Kitchen
+The Urdu word "ghusl khana" means this. :: Bathroom
+The Urdu word "hospital" is borrowed from English, but the older word "shifa khana" means this. :: House of healing (hospital)
+The Urdu word "kutub khana" means this. :: Library
+The Urdu word "dawa khana" means this. :: Pharmacy (clinic)
+The Urdu ending "-khana" means this. :: House (place)
+The Urdu ending "-stan" means this. :: Land (place of)
+The Urdu ending "-wala" means this. :: Person or thing connected with (for example, a seller)
+"Chaiwala" means this. :: Tea seller
+"Doodhwala" means this. :: Milkman
+The Urdu word "dukaan" means this, and comes from Arabic. :: Shop
+The Urdu word "dukaandaar" means this. :: Shopkeeper
+The Urdu word "qeemat" means this, and comes from Arabic. :: Price
+The Urdu word "paisa" means this. :: Money (also a small coin)
+The currency of Pakistan. :: The rupee
+The Urdu word "sasta" means this. :: Cheap
+The Urdu word "mehenga" means this. :: Expensive
+"Kitne ka hai?" asks this. :: How much is it?
+"Kahan?" means this. :: Where?
+"Kab?" means this. :: When?
+"Kyun?" means this. :: Why?
+"Kaun?" means this. :: Who?
+"Kya?" means this. :: What?
+"Kaise?" means this. :: How?
+"Mujhe samajh nahin aaya" means this. :: I did not understand
+"Maaf kijiye" means this. :: Excuse me (sorry)
+"Koi baat nahin" means this. :: No problem (it's nothing)
+"Bohat acha" means this. :: Very good
+"Jaldi karo" means this. :: Hurry up
+"Aahista" means this. :: Slowly
+"Phir milenge" means this. :: See you again
+"Khush aamdeed" means this. :: Welcome
+"Mubarak ho" means this. :: Congratulations
+"Inshallah" comes from Arabic and means this. :: If Allah wills
+"Mashallah" is said to show this. :: Praise and admiration (what Allah has willed)
+The Urdu word for Monday. :: Peer
+The Urdu word for Friday, from Arabic. :: Jumma
+The Urdu word for Sunday. :: Itwaar
+The Urdu numbers "bees" means this. :: Twenty
+The Urdu number "pachaas" means this. :: Fifty
+The Urdu word "lakh" means this number. :: One hundred thousand
+The Urdu word "crore" means this number. :: Ten million
+The Urdu letter that is not in Arabic and makes a hard "t" sound. :: Ṭe (ٹ)
+The Urdu letter that makes a hard "d" sound. :: Ḍal (ڈ)
+The Urdu letter for the flapped "r" sound. :: Ṛe (ڑ)
+The Urdu letter "pe" (پ) came from this language's alphabet. :: Persian
+The Urdu letter for the sound "ch". :: Che (چ)
+The Urdu letter for the sound "g". :: Gaf (گ)
+The Urdu letter for "zh" as in "measure". :: Zhe (ژ)
+The Urdu letter "do-chashmi he" is used to mark this. :: Aspirated sounds (like bh, ph, kh)
+The Urdu letter "noon ghunna" (ں) marks this sound. :: A nasal vowel
+The Urdu letter "bari ye" (ے) is used at the end of words for this sound. :: The "e" sound (as in "hai" spelt with e)
+The Urdu alphabet has about this many letters. :: About 38–39
+Ghalib's famous collection of Urdu poems. :: Diwan-e-Ghalib
+Iqbal's famous poem of complaint to Allah about the state of Muslims. :: Shikwa
+Iqbal's poem answering "Shikwa". :: Jawab-e-Shikwa
+Iqbal's poem "Lab pe aati hai dua" is a prayer said by these people in Pakistan. :: Schoolchildren
+Iqbal's famous song "Saare Jahan Se Achha" was written for this land before Pakistan. :: India (Hindustan)
+Iqbal's idea of strong selfhood is called this. :: Khudi
+The national anthem of Pakistan was written by this poet. :: Hafeez Jalandhari ﵀
+The national anthem of Pakistan is written in this style of Urdu. :: Highly Persianised Urdu
+The poet called "Khuda-e-Sukhan", the god of poetry, from Delhi and Lucknow. :: Mir Taqi Mir ﵀
+The poet who was the royal teacher of the last Mughal emperor. :: Ibrahim Zauq ﵀
+The Delhi poet famous for "Tum mere paas hote ho goya". :: Momin Khan Momin ﵀
+The reformer poet who wrote "Musaddas-e-Hali". :: Altaf Hussain Hali ﵀
+The poet famous for funny verses about modern ways, from Allahabad. :: Akbar Allahabadi ﵀
+The scholar who founded the college that became Aligarh Muslim University. :: Sir Syed Ahmad Khan ﵀
+The famous woman poet of Pakistan known for "Khushboo". :: Parveen Shakir ﵀
+The two-line unit of a ghazal. :: A she'r (couplet)
+The first couplet of a ghazal, where both lines rhyme. :: Matla
+The last couplet of a ghazal, with the poet's pen name. :: Maqta
+A poet's pen name is called this. :: Takhallus
+A poetry gathering where poets recite their work. :: A mushaira
+
+## 300
+The Urdu word "Urdu" comes from a Turkic word meaning this. :: Army camp (horde)
+The old name for Urdu, meaning "the language of the exalted camp". :: Zaban-e-Urdu-e-Mu'alla
+Urdu was once also called this name, used by Ghalib and Mir. :: Rekhta (also Hindustani)
+Before "Urdu", the language was often called this, meaning "of India". :: Hindavi (Hindi or Hindustani)
+Urdu grew mainly from the speech of this region. :: The Delhi region (Khari Boli)
+Urdu's grammar is mostly from this family of languages. :: Indo-Aryan
+Many Urdu words come from these two languages of the Muslim world. :: Arabic and Persian
+Many Urdu words for food and family come from this local language base. :: Sanskrit-based Prakrit (Indic)
+Some Urdu words like "chaku" (knife) and "qainchi" (scissors) come from this language. :: Turkish
+The Urdu word "top" for a cannon comes from this language. :: Turkish
+The Urdu word "baji" (elder sister) has roots in this language. :: Turkish
+The Urdu word "kamra" (room) comes from this European language. :: Portuguese
+The Urdu word "chabi" (key) comes from this European language. :: Portuguese
+The Urdu word "mez" (table) comes from this European language. :: Portuguese
+The Urdu word "almari" (cupboard) comes from this European language. :: Portuguese
+The Urdu word "botal" (bottle) comes from this language. :: English
+The Urdu word "kitab" in Arabic means this, and in Urdu the plural is often this Arabic form. :: Book; kutub
+The Urdu word "ahl" comes from Arabic and means this. :: People (family)
+The Urdu word "akhlaq" means this, and comes from Arabic. :: Manners (morals)
+The Urdu word "adab" means this. :: Literature (and good manners)
+"Adaab" is a polite greeting used in this city's culture. :: Lucknow (and Hyderabad)
+The Urdu word "tehzeeb" means this, and comes from Arabic. :: Culture (refinement)
+The Urdu word "taleem" means this, and comes from Arabic. :: Education
+The Urdu word "tarikh" means this, and comes from Arabic. :: History (and date)
+The Urdu word "hukumat" means this, and comes from Arabic. :: Government
+The Urdu word "adalat" means this, and comes from Arabic. :: Court of law
+The Urdu word "wakeel" means this, and comes from Arabic. :: Lawyer
+The Urdu word "qanoon" means this, and comes from Arabic and Greek. :: Law
+The Urdu word "fauj" means this. :: Army
+The Urdu word "sipahi" means this, and gave English the word "sepoy". :: Soldier
+The English word "pyjamas" comes from Urdu and Persian words meaning this. :: Leg garment
+The English word "shampoo" comes from an Urdu-Hindi word meaning this. :: To press (massage)
+The English word "bungalow" comes from an Urdu-Hindi word meaning this. :: Of Bengal (a Bengal-style house)
+The English word "jungle" comes from an Urdu-Hindi word meaning this. :: Forest (wild land)
+The English word "thug" comes from an Urdu-Hindi word meaning this. :: A robber (cheat)
+The English word "loot" comes from an Urdu-Hindi word meaning this. :: To plunder
+The English word "khaki" comes from a Persian-Urdu word meaning this. :: Dusty (earth-coloured)
+The English word "cot" comes from an Urdu-Hindi word for this. :: A bed (light bed)
+The English word "dungarees" comes from the name of this place near Mumbai. :: Dongri
+The English word "verandah" may come through Urdu-Hindi from this European language. :: Portuguese
+The Urdu verb "jaana" means this. :: To go
+The Urdu verb "aana" means this. :: To come
+The Urdu verb "dekhna" means this. :: To see
+The Urdu verb "sunna" means this. :: To hear (listen)
+The Urdu verb "bolna" means this. :: To speak
+The Urdu verb "parhna" means this. :: To read (study)
+The Urdu verb "likhna" means this. :: To write
+The Urdu verb "sona" means this. :: To sleep
+The Urdu verb "peena" means this. :: To drink
+The Urdu verb "karna" means this. :: To do
+Urdu verbs in the dictionary end in this two-letter sound. :: -na
+In Urdu, the verb usually comes at this place in the sentence. :: At the end
+Urdu sentence order is usually this. :: Subject, object, verb
+Urdu nouns have this many grammatical genders. :: Two (masculine and feminine)
+The Urdu word "ka" (with "ki" and "ke") shows this. :: Possession ("of")
+The Urdu word "mein" means this. :: In
+The Urdu word "par" means this. :: On
+The Urdu word "se" can mean this. :: From (or with, than)
+The Urdu word "ko" often marks this. :: The object (to)
+In Urdu, the word for "is" is this. :: Hai
+In Urdu, the word for "was" is this. :: Tha
+The polite plural form "aap" uses this form of the verb. :: The plural form
+"Main ja raha hoon" means this. :: I am going (said by a man)
+"Main ja rahi hoon" means this. :: I am going (said by a woman)
+The Urdu word "zaroor" means this. :: Certainly (of course)
+The Urdu word "shayad" means this. :: Perhaps
+The Urdu word "hamesha" means this. :: Always
+The Urdu word "kabhi" means this. :: Sometimes (ever)
+The Urdu word "kabhi nahin" means this. :: Never
+The Urdu word "abhi" means this. :: Right now
+The Urdu word "phir" means this. :: Again (then)
+The Urdu word "lekin" means this. :: But
+The Urdu word "aur" means this. :: And
+The Urdu word "ya" means this. :: Or
+The Urdu word "kyunke" means this. :: Because
+The Urdu word "agar" means this. :: If
+The Urdu word "bilkul" means this, and comes from Arabic. :: Absolutely
+The Urdu word "fauran" means this, and comes from Arabic. :: Immediately
+The Urdu word "taqreeban" means this, and comes from Arabic. :: Approximately
+The Urdu word "mushkil" means this, and comes from Arabic. :: Difficult
+The Urdu word "aasan" means this. :: Easy
+The Urdu word "khoobsurat" means this. :: Beautiful
+The Urdu word "sach" means this. :: Truth
+The Urdu word "jhoot" means this. :: Lie
+The Urdu word "imandaar" means this. :: Honest
+The Urdu word "bahadur" means this. :: Brave
+The Urdu word "aqalmand" means this. :: Wise (clever)
+The Urdu word "bewaqoof" means this. :: Foolish
+The prefix "be-" in Urdu words like "bewafa" means this. :: Without
+The prefix "na-" in Urdu words like "namumkin" means this. :: Not
+"Mumkin" means possible, so "namumkin" means this. :: Impossible
+The suffix "-dar" in "dukaandaar" and "imandaar" means this. :: Having (holder of)
+The suffix "-baz" in "dhokebaz" means this. :: Someone who does (player of)
+"Shahenshah" means this. :: King of kings (emperor)
+The poetic form of four-line poems, like Khayyam's. :: Rubai
+The long poem mourning the martyrs of Karbala in Urdu. :: Marsiya
+The famous poet of Urdu marsiya from Lucknow. :: Mir Anis ﵀
+The poem in praise of our Beloved and our master, the Prophet Muhammad ﷺ. :: Na't
+A poem in praise of Allah. :: Hamd
+A short Urdu poem form with six-line stanzas, used by Hali. :: Musaddas
+A free poem without set rhyme in modern Urdu. :: Nazm (azad nazm)
+The long Urdu story with many tales, like "Dastan-e-Amir Hamza". :: Dastan
+The Urdu word "afsana" means this kind of writing. :: Short story
+The Urdu word "naval" (novel) is borrowed from this language. :: English
+The writer of the first Urdu novel "Mirat-ul-Uroos". :: Deputy Nazir Ahmad ﵀
+The writer of "Umrao Jaan Ada". :: Mirza Hadi Ruswa ﵀
+The Hindu writer who wrote many Urdu stories before writing in Hindi. :: Munshi Premchand
+The poet of "Bang-e-Dra", his first Urdu collection. :: Allama Muhammad Iqbal ﵀
+Iqbal's Urdu book "Bal-e-Jibril" means this. :: Gabriel's Wing
+Iqbal's famous Persian poem about the self. :: Asrar-e-Khudi
+Iqbal was born in this Punjabi city. :: Sialkot
+Ghalib was born in this city. :: Agra
+Ghalib's real first name. :: Asadullah Khan
+Ghalib's book of famous Urdu letters. :: Khutut-e-Ghalib (Ud-e-Hindi and Urdu-e-Mu'alla)
+The 1954 film about Ghalib won this kind of national award in India. :: Best film (President's Gold Medal)
+The Mughal emperor in whose court Ghalib and Zauq read poems. :: Bahadur Shah Zafar
+The Urdu newspaper "Jang" is published in this country. :: Pakistan
+The Pakistani TV channel that broadcasts in Urdu, named after the national broadcaster. :: PTV
+The Indian state where Urdu is a second official language, with Hyderabad. :: Telangana
+Urdu is an official language of this Indian union territory in the far north. :: Jammu and Kashmir
+
+## 400
+The Urdu proverb "Jaisa des, waisa bhes" means this. :: When in Rome, do as the Romans do
+The Urdu proverb "Door ke dhol suhane" means this. :: Distant drums sound sweet (the grass is greener)
+The Urdu proverb "Naach na jaane aangan terha" means this. :: A bad workman blames his tools
+The Urdu proverb "Bandar kya jaane adrak ka swaad" means this. :: Fools cannot value fine things (a monkey doesn't know ginger)
+The Urdu proverb "Ek anaar sau beemar" means this. :: One thing wanted by many people
+The Urdu proverb "Oont ke munh mein zeera" means this. :: Too little to make a difference
+The Urdu proverb "Ghar ki murghi daal barabar" means this. :: What you have at home is not valued
+The Urdu proverb "Ab pachhtaye kya hot, jab chidiya chug gayi khet" means this. :: It's no use crying over spilt milk
+The Urdu proverb "Khoda pahar nikla chooha" means this. :: Much effort for a tiny result
+The Urdu proverb "Jis ki lathi us ki bhains" means this. :: Might is right
+The Urdu proverb "Ulta chor kotwal ko daante" means this. :: The guilty one blames the innocent
+The Urdu proverb "Aasman se gira, khajoor mein atka" means this. :: Out of the frying pan into the fire
+The Urdu proverb "Haathi ke daant khane ke aur, dikhane ke aur" means this. :: Saying one thing and doing another
+The Urdu proverb "Boond boond se dariya banta hai" means this. :: Many small things make a big one
+The Urdu proverb "Der aaye durust aaye" means this. :: Better late than never
+The Urdu proverb "Jaan hai to jahan hai" means this. :: Health is wealth (life comes first)
+The Urdu proverb "Apni gali mein kutta bhi sher hota hai" means this. :: Everyone is brave on their own ground
+The Urdu proverb "Saanch ko aanch nahin" means this. :: Truth fears no test
+The Urdu proverb "Neki kar darya mein daal" means this. :: Do good and forget it
+The Urdu proverb "Jo garajte hain woh baraste nahin" means this. :: Barking dogs seldom bite
+The Urdu proverb "Sabr ka phal meetha hota hai" means this. :: Patience bears sweet fruit
+The Urdu proverb "Kaala akshar bhains barabar" describes someone who is this. :: Illiterate
+The Urdu idiom "Aankhon ka taara" means this. :: Apple of one's eye
+The Urdu idiom "Naak mein dam karna" means this. :: To pester someone badly
+The Urdu idiom "Ganga ulti behna" means this. :: Something going against nature
+The Urdu idiom "Daal mein kuch kaala hai" means this. :: Something is fishy
+The Urdu idiom "Ghee ke chiraagh jalana" means this. :: To celebrate greatly
+The Urdu idiom "Aasmaan sar pe uthana" means this. :: To make a great uproar
+The Urdu idiom "Paani paani hona" means this. :: To be very ashamed
+The Urdu idiom "Ulte paaon lautna" means this. :: To return at once
+The Urdu idiom "Hawai qile banana" means this. :: To build castles in the air
+The Urdu idiom "Ek teer se do shikaar" means this. :: To kill two birds with one stone
+The Urdu idiom "Aag mein ghee daalna" means this. :: To add fuel to the fire
+The Urdu idiom "Zakhmon pe namak chhirakna" means this. :: To rub salt in wounds
+The Urdu idiom "Ungli uthana" means this. :: To blame (point a finger at)
+The Urdu idiom "Dant khatte karna" means this. :: To defeat someone badly
+The Urdu idiom "Munh mein paani aana" means this. :: Mouth watering
+The Urdu idiom "Aankhen bichhana" means this. :: To welcome warmly
+The Urdu idiom "Sar aankhon par" means this. :: With great pleasure (gladly)
+The Urdu idiom "Ghaas na daalna" means this. :: To ignore someone
+The Iqbal line "Sitaron se aage jahan aur bhi hain" means this. :: There are other worlds beyond the stars
+The Iqbal line "Khudi ko kar buland itna" begins a couplet about this. :: Raising the self so high that Allah asks what you want
+The Ghalib line "Hazaron khwahishen aisi" continues "that each one is worth dying for". What are "khwahishen"? :: Wishes (desires)
+Ghalib's line "Dil-e-nadan tujhe hua kya hai" speaks to this. :: The foolish heart
+The Mir Taqi Mir line "Patta patta boota boota haal hamara jaane hai" says every leaf knows this. :: The poet's state
+The poet who wrote "Lab pe aati hai dua ban ke tamanna meri". :: Allama Muhammad Iqbal ﵀
+The poet who wrote "Dil hi to hai na sang-o-khisht". :: Mirza Ghalib ﵀
+The Iqbal poem about a mosque in Spain. :: Masjid-e-Qurtuba
+Masjid-e-Qurtuba is about the great mosque of this city. :: Cordoba
+Iqbal's poem "Tulu-e-Islam" means this. :: The Rise of Islam
+Iqbal's address of 1930 that spoke of a Muslim homeland was given in this city. :: Allahabad
+Iqbal studied philosophy and earned his doctorate in this country. :: Germany (Munich)
+Iqbal's Persian work "Javid Nama" is named after his son and is a journey to this. :: The heavens
+Iqbal's tomb is next to this mosque in Lahore. :: The Badshahi Mosque
+Iqbal Day in Pakistan falls on this date. :: 9 November
+Ghalib died in this year. :: 1869
+Mir Taqi Mir spent his last years in this city. :: Lucknow
+The city famous for refined Urdu, the "Lakhnavi" style. :: Lucknow
+The two classic schools of Urdu poetry were Delhi and this city. :: Lucknow
+The Urdu poet of the Deccan, among the first great Urdu poets, Wali. :: Wali Dakhni (Wali Muhammad Wali) ﵀
+The old Urdu of southern India is called this. :: Dakhni (Deccani)
+The Sufi poet who wrote early Hindavi riddles and was a student of Nizamuddin Auliya. :: Amir Khusrau ﵀
+The Urdu poet of ordinary life in Agra who wrote "Banjara Nama". :: Nazir Akbarabadi ﵀
+The poet of Delhi famous for "Ghazab kiya tere wade pe aitbaar kiya", a student of Zauq. :: Dagh Dehlvi ﵀
+Dagh Dehlvi was the teacher of this famous poet for a time. :: Allama Muhammad Iqbal ﵀
+The Urdu book "Ab-e-Hayat", a history of Urdu poetry, was written by him. :: Muhammad Husain Azad ﵀
+The Urdu prose writer of "Bagh-o-Bahar" at Fort William College. :: Mir Amman ﵀
+Fort William College, where early Urdu prose was printed, was in this city. :: Calcutta (Kolkata)
+The magazine started by Sir Syed to reform Muslim society. :: Tahzib-ul-Akhlaq
+Sir Syed's college at Aligarh was first called this. :: Muhammadan Anglo-Oriental College
+The Urdu dictionary "Farhang-e-Asifiya" was made in this city. :: Hyderabad (Deccan)
+The Urdu Dictionary Board that made a 22-volume dictionary is in this city. :: Karachi
+The first university to teach all subjects in Urdu, founded 1918. :: Osmania University
+Osmania University is in this city. :: Hyderabad
+The national language authority of Pakistan is called this. :: National Language Promotion Department (Muqtadra Qaumi Zaban)
+The Urdu letter "hamza" (ء) shows this. :: A glottal stop (or vowel break)
+The Arabic letters "se", "sin" and "suad" all sound like this in Urdu. :: "S"
+The four Arabic letters that all sound like "z" in Urdu. :: Zal, ze, zuad and zoe
+The Arabic letter "ain" in Urdu is usually pronounced like this. :: A vowel (not the Arabic throat sound)
+The Urdu word "ilm" is spelt with this Arabic letter at the start. :: Ain (ع)
+The Urdu word "khatt" means this, from Arabic. :: Letter (handwriting)
+The Urdu word "mazmoon" means this, from Arabic. :: Essay (subject)
+The Urdu word "lughat" means this, from Arabic. :: Dictionary
+The Urdu word "tarjuma" means this, from Arabic. :: Translation
+The Urdu word "kaghaz" (paper) comes from this language. :: Persian
+The Urdu word "darakht" (tree) comes from this language. :: Persian
+The Urdu word "baagh" (garden) comes from this language. :: Persian
+The Urdu word "dariya" (river) comes from this language. :: Persian
+The Urdu words for numbers mostly come from this source. :: Sanskrit-based Indic roots
+The Urdu "izafat", as in "Diwan-e-Ghalib", is borrowed from this language. :: Persian
+"Diwan-e-Ghalib" means this. :: Ghalib's collection of poems
+The "-e-" linking two nouns, as in "Bal-e-Jibril", means this. :: Of
+"Wa" joining words, as in "ilm-o-adab", comes from Arabic and means this. :: And
+"Ilm-o-adab" means this. :: Knowledge and literature
+"Zameen-o-aasman" means this. :: Earth and sky
+The Urdu plural of "hukm" (order) taken from Arabic. :: Ahkaam
+The Urdu plural of "khabar" (news) taken from Arabic. :: Akhbaar (now meaning newspaper)
+The Urdu plural of "shayar" (poet) taken from Arabic. :: Shu'ara
+The Urdu plural of "aalim" (scholar) taken from Arabic. :: Ulama
+The Urdu plural of "waqia" (event) taken from Arabic. :: Waqi'aat
+The Urdu plural ending "-aat" comes from this language. :: Arabic (feminine plural)
+The Urdu plural "kitaben" uses this Urdu ending. :: -en
+
+## 500
+The Urdu word "shayar" means this, and comes from Arabic. :: Poet
+The Urdu word "ghazal" comes from an Arabic word meaning this. :: Talking of love
+The metre of Urdu poetry follows this Arabic-Persian system. :: Aruz
+The repeated word or phrase at the end of each couplet's second line in a ghazal. :: Radif
+The rhyming word just before the radif in a ghazal. :: Qafiya
+The "Rekhta" website is famous for collecting this. :: Urdu poetry
+The style of mixing Urdu with Persian in one poem is called this. :: Rekhta (mixed style)
+The Urdu literary movement of the 1930s for social realism. :: The Progressive Writers' Movement
+The Aligarh Movement was started by this scholar. :: Sir Syed Ahmad Khan ﵀
+The Aligarh Movement aimed at this. :: Modern education for Muslims
+Hali wrote "Hayat-e-Javed", a life of this person. :: Sir Syed Ahmad Khan ﵀
+Hali wrote "Yadgar-e-Ghalib", a life of this poet. :: Mirza Ghalib ﵀
+Hali's book on poetry criticism, "Muqaddama-e-She'r-o-Sha'iri", is seen as the start of this. :: Modern Urdu literary criticism
+Shibli Nomani ﵀ wrote a famous life of our Beloved and our master, the Prophet Muhammad ﷺ called this. :: Sirat-un-Nabi
+Shibli Nomani founded this academy in Azamgarh. :: Darul Musannefin (Shibli Academy)
+Shibli's book on the second caliph is called this. :: Al-Faruq
+Al-Faruq is about this Companion. :: Umar ibn al-Khattab ﵁
+The scholar who completed "Sirat-un-Nabi" after Shibli. :: Syed Sulaiman Nadvi ﵀
+The famous Urdu translation of the Quran's meanings by Shah Rafi-ud-Din and this brother was among the first. :: Shah Abdul Qadir ﵀
+These brothers were sons of this great Delhi scholar. :: Shah Waliullah Dehlvi ﵀
+Shah Waliullah ﵀ translated the Quran's meanings into this language. :: Persian
+The Urdu name for the Mughal-era Delhi fort, "Lal Qila", means this. :: Red Fort
+"Taj Mahal" in Persian-Urdu means this. :: Crown of palaces
+"Shalimar Bagh" is a famous Mughal garden in Lahore and this place. :: Srinagar (Kashmir)
+"Badshahi" in Badshahi Mosque means this. :: Royal (imperial)
+"Minar-e-Pakistan" marks where this resolution was passed in 1940. :: The Lahore Resolution
+The Lahore Resolution is also called this. :: The Pakistan Resolution
+The founder of Pakistan, called "Quaid-e-Azam", which means this. :: Great leader
+Pakistan's founder Muhammad Ali Jinnah's mother tongue was this. :: Gujarati
+Urdu became the national language of Pakistan in the Constitution of this year. :: 1973 (also declared in earlier constitutions)
+The movement in East Pakistan in 1952 that wanted this language recognised. :: Bengali (Bangla)
+The Supreme Court of Pakistan ordered Urdu as the official language in this year. :: 2015
+Urdu is the first language of about this share of Pakistanis. :: About 7–9 percent
+The most spoken first language in Pakistan. :: Punjabi
+The Urdu dialect of Bihar and eastern India is close to this regional speech. :: Bihari-influenced Urdu (Hindustani)
+The Urdu spoken in Karachi is often mixed with this language. :: English
+The Urdu-English mix used in cities is called this. :: Urdish (or Hinglish)
+The Urdu letter "ye" with a hamza on top is used for this. :: A vowel sequence (such as in "jaaiye")
+In Urdu writing, short vowels are usually this. :: Not written
+The marks for short vowels in Urdu are called this. :: Aerab (zabar, zer, pesh)
+The mark "zabar" stands for this short vowel. :: "A"
+The mark "zer" stands for this short vowel. :: "I"
+The mark "pesh" stands for this short vowel. :: "U"
+The mark "jazm" shows this. :: No vowel
+The mark "tashdeed" shows this. :: A doubled consonant
+The Urdu "nastaliq" style was first made in Iran by this calligrapher. :: Mir Ali Tabrizi ﵀
+The digital Nastaliq font that made Urdu newspapers computerised in the 1980s. :: Noori Nastaliq
+Noori Nastaliq was designed by this calligrapher. :: Ahmed Mirza Jamil ﵀
+Before Noori Nastaliq, Urdu newspapers were written by hand by these people. :: Katibs (calligraphers)
+The Unicode Nastaliq font made by the Center for Language Engineering in Lahore. :: Nafees Nastaleeq
+The Urdu newspaper started in 1822, called "Jam-e-Jahan Numa", was in this city. :: Calcutta (Kolkata)
+The Urdu newspaper started by Maulana Mohammad Ali Jauhar ﵀. :: Hamdard
+The Urdu newspaper "Al-Hilal" was started by this scholar. :: Maulana Abul Kalam Azad ﵀
+The Urdu newspaper "Zamindar" was edited by this poet-journalist. :: Maulana Zafar Ali Khan ﵀
+The Urdu word for "zero", "sifr", is related to this English word. :: Cipher (and zero)
+The English word "sugar" comes, through Arabic and Persian, from this Urdu-related word. :: Shakkar
+The English word "chutney" comes from this Urdu-Hindi word meaning this. :: To lick (chatni)
+The English word "chit" comes from the Urdu-Hindi "chitthi" meaning this. :: A note (letter)
+The English word "nabob" comes from the Urdu title "nawab" meaning this. :: A governor (deputy)
+"Nawab" comes from the Arabic plural "nuwwab" meaning this. :: Deputies
+The Urdu title "Begum" is given to this person. :: A lady of rank (a wife)
+The Urdu word "sahib" comes from Arabic and means this. :: Master (sir)
+The Urdu word "janab" is used for this. :: Sir (honoured one)
+The Urdu word "mohtarma" is used for this. :: Respected lady
+The Urdu word "hazrat" is used before names of these people. :: Respected religious figures
+The Urdu word "maulana" comes from Arabic and means this. :: Our master
+The Urdu word "allama" is a title for this. :: A very learned scholar
+The Urdu poetry term "tarannum" means this. :: Reciting poetry with melody
+The famous Urdu saying "Sabr ka phal meetha" is linked to this Arabic idea. :: Sabr (patience)
+The Urdu word "falsafa" comes from Arabic and Greek and means this. :: Philosophy
+The Urdu word "tib" or "tibb" comes from Arabic and means this. :: Medicine
+"Tibb-e-Unani" is this kind of medicine. :: Greek-Arabic traditional medicine
+"Hakeem" in Urdu means this. :: A traditional doctor (wise man)
+The Urdu word "riyazi" means this subject. :: Mathematics
+The Urdu word "kimiya" means this subject. :: Chemistry
+The Urdu word "tabi'iyat" means this subject. :: Physics
+The Urdu word "hayatiyat" means this subject. :: Biology
+The Urdu word "jughrafiya" means this subject. :: Geography
+The Urdu word "falakiyat" means this subject. :: Astronomy
+The Urdu word "siyasat" means this. :: Politics
+The Urdu word "ma'ashiyat" means this. :: Economics
+The Urdu word "nafsiyat" means this. :: Psychology
+The Urdu word "lisaniyat" means this. :: Linguistics
+The Urdu word "tanqeed" means this. :: Criticism
+The Urdu word "tehqeeq" means this. :: Research
+The Urdu word "inqilab" means this. :: Revolution
+The slogan "Inqilab Zindabad" means this. :: Long live the revolution
+The Urdu word "zindabad" means this. :: Long live
+The Urdu word "murdabad" means this. :: Down with
+The poet of the line "Sare jahan se achha" also wrote "Tarana-e-Milli", which begins with this land. :: China and Arabia (Cheen-o-Arab hamara)
+The Ghalib couplet ending "Dil ke khush rakhne ko Ghalib yeh khayal achha hai" is about this idea. :: Paradise (a comforting thought)
+Ghalib's famous claim that he was greater in this language than in Urdu. :: Persian
+Ghalib wrote "Dastanbuy", a diary of this event. :: The 1857 uprising in Delhi
+The 1857 uprising is called this in Urdu histories. :: Ghadar (the War of Independence)
+Ghalib's pen name before "Ghalib" was this. :: Asad
+The famous Urdu drama "Anarkali" was written by this playwright. :: Imtiaz Ali Taj ﵀
+The Urdu comic writer of "Khakam ba Dahan" and "Aab-e-Gum". :: Mushtaq Ahmad Yusufi ﵀
+The humourist who wrote "Urdu ki Aakhri Kitab". :: Ibn-e-Insha ﵀
+The Urdu writer of the "Imran Series" spy novels. :: Ibn-e-Safi ﵀
+The children's poem "Machli jal ki rani hai" means this. :: The fish is the queen of the water
+The Urdu word "mushaira" comes from the Arabic root for this. :: Poetry (shi'r)
+The Urdu word "qasida" is a long poem of this kind. :: Praise (an ode)
+The famous Urdu qasida writer of the Mughal court before Ghalib. :: Mirza Muhammad Rafi Sauda ﵀
+The Urdu term "masnavi" means a long poem with this rhyme pattern. :: Rhyming couplets (each couplet rhymes on its own)
+The Urdu love masnavi "Sihr-ul-Bayan" was written by this poet. :: Mir Hasan ﵀
+
+## translate
+Assalamu alaykum :: Peace be upon you
+Shukriya :: Thank you
+Khuda hafiz :: Goodbye (may God protect you)
+Aap kaise hain? :: How are you?
+Main theek hoon :: I am fine
+Mera naam Ali hai :: My name is Ali
+Khush aamdeed :: Welcome
+Maaf kijiye :: Excuse me (sorry)
+Koi baat nahin :: No problem
+Kitne ka hai? :: How much is it?
+Mujhe chai chahiye :: I want tea
+Paani dijiye :: Please give me water
+Bohat shukriya :: Thank you very much
+Phir milenge :: See you again
+Mubarak ho :: Congratulations
+Ghar kahan hai? :: Where is the house?
+Mujhe samajh nahin aaya :: I did not understand
+Jaldi karo :: Hurry up
+Aaj mausam acha hai :: The weather is nice today
+Main Pakistan se hoon :: I am from Pakistan
+Yeh kitab meri hai :: This book is mine
+Kal milte hain :: See you tomorrow
+Sabr ka phal meetha hota hai :: Patience bears sweet fruit
+Ilm bari daulat hai :: Knowledge is great wealth
+Waqt qeemti hai :: Time is precious
+
+## odd
+Kitab | Qalam | Ilm | Pani :: Pani (the others come from Arabic)
+Ghazal | Nazm | Rubai | Kabab :: Kabab (the others are kinds of poems)
+Ghalib | Iqbal | Mir | Rumi :: Rumi (the others wrote famous Urdu poetry)
+Lahore | Karachi | Peshawar | Delhi :: Delhi (the others are in Pakistan)
+Zabar | Zer | Pesh | Matla :: Matla (the others are vowel marks)
+Chabi | Mez | Kamra | Kitab :: Kitab (the others came from Portuguese)
+
+## clues
+Sialkot | Lahore | Khudi | Poet of the East :: Allama Muhammad Iqbal ﵀
+Agra | Delhi | Diwan | Letters | Asadullah Khan :: Mirza Ghalib ﵀
+Couplets | Matla | Maqta | Love poems :: The ghazal
+Persian | Hanging | Urdu newspapers | Calligraphy :: Nasta'liq
