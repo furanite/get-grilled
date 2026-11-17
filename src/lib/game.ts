@@ -172,6 +172,8 @@ export function createGame(
     used: [],
     settings: cleanSettings(settings),
     startedAt: Date.now(),
+    // A random team picks first; then the turn passes round the teams one at a time.
+    turn: Math.floor(rng() * teamNames.length),
   }
   if (game.settings.gameMinutes) game.endsAt = game.startedAt + game.settings.gameMinutes * 60_000
   if (game.settings.streak) game.streaks = game.teams.map(() => 0)
@@ -277,7 +279,14 @@ export function adjustScore(game: Game, team: number, delta: number): Game {
 
 export function markUsed(game: Game, c: number, l: number): Game {
   const key = tileKey(c, l)
-  return game.used.includes(key) ? game : { ...game, used: [...game.used, key] }
+  if (game.used.includes(key)) return game
+  return { ...game, used: [...game.used, key], turn: ((game.turn ?? 0) + 1) % game.teams.length }
+}
+
+/** The team whose turn it is to pick, or null when the game is over (or an old saved game has no turn). */
+export function turnTeam(game: Game): number | null {
+  if (isFinished(game) || game.turn === undefined) return null
+  return game.turn
 }
 
 /**

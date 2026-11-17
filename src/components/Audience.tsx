@@ -4,8 +4,9 @@ import type { Game, Lang, Screen, ThemeId } from '../lib/types'
 import { VALUES } from '../lib/types'
 import type { Strings } from '../lib/i18n'
 import { num } from '../lib/i18n'
-import { FINAL_SECS, FINAL_VALUE, LIGHTNING_SECS, MODE_VALUE, STREAK_AT, clueSeconds, cluePoints, cluesOf, isFinished, lastPlace, standings, tileKey } from '../lib/game'
+import { FINAL_SECS, FINAL_VALUE, LIGHTNING_SECS, MODE_VALUE, STREAK_AT, clueSeconds, cluePoints, cluesOf, isFinished, lastPlace, standings, tileKey, turnTeam } from '../lib/game'
 import { ModeItemView } from './Rounds'
+import TileIntro from './TileIntro'
 import type { Live } from '../lib/edition'
 import { setFavicon } from '../lib/favicon'
 import { Ambient, CatIcon, Flourish, FlourishAbove, Mark } from './Brand'
@@ -153,12 +154,12 @@ function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings;
     )
   }
 
-  const teamChips = (g: Game, behind: number[] = []) => (
+  const teamChips = (g: Game, behind: number[] = [], turn: number | null = null) => (
     <div className="scores">
       {g.teams.map((tm, i) => {
         const run = g.streaks?.[i] ?? 0
         return (
-          <div className={`team${tm.score < 0 ? ' neg' : ''}${run >= STREAK_AT ? ' fire' : ''}${behind.includes(i) ? ' behind' : ''}`} key={i} data-aud-team={i}>
+          <div className={`team${tm.score < 0 ? ' neg' : ''}${run >= STREAK_AT ? ' fire' : ''}${behind.includes(i) ? ' behind' : ''}${turn === i ? ' turn' : ''}`} key={i} data-aud-team={i}>
             <b>{tm.name}</b>
             <span>{num(tm.score, lang)}</span>
             {run >= STREAK_AT && (
@@ -304,6 +305,7 @@ function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings;
 
   const clue = live ? game.clues[live.c]?.[live.l] : null
   const behind = game.settings.comeback && game.used.length > 0 && !isFinished(game) && !live ? lastPlace(game) : []
+  const turn = behind.length || live ? null : turnTeam(game)
   const cat = live ? game.cats[live.c] : null
   return (
     <main className="aud-main" data-testid="audience">
@@ -341,10 +343,15 @@ function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings;
             }),
           )}
         </div>
-        {teamChips(game, behind)}
+        {teamChips(game, behind, turn)}
         {behind.length > 0 && (
           <p className="comeback" data-testid="audience-comeback">
             <span className="pill">{t.comebackLabel}</span> {behind.map((i) => game.teams[i].name).join(' · ')} {t.picksNext}
+          </p>
+        )}
+        {turn !== null && (
+          <p className="comeback turn-note" data-testid="audience-turn">
+            <span className="pill">{t.turnLabel}</span> {game.teams[turn].name} {t.picksNext}
           </p>
         )}
       </section>
@@ -360,23 +367,28 @@ function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings;
                 <span className="pill">{num(clue.value, lang)}</span>
               </span>
             </div>
-            {clue.special && <p className={`special-note ${clue.special}`}>{clue.special === 'steal' ? t.stealHelp : t.crowdHelp}</p>}
-            <p className="q" dir="auto" data-testid="audience-question">
-              {lang === 'ar' && clue.qAr ? clue.qAr : clue.q}
-            </p>
-            {clue.img && (
-            <div className="q-fig">
-              <img className="q-img" src={diagramSrc(clue.img)} alt={t.diagramAlt} data-testid="audience-img" />
-            </div>
-          )}
-            {live!.revealed ? (
-              <div className="answer show" dir="auto" data-testid="audience-answer">
-                {lang === 'ar' && clue.aAr ? clue.aAr : clue.a}
-              </div>
+            {live!.intro ? (
+              <TileIntro t={t} clue={clue} big />
             ) : (
-              <div className="answer aud-hidden" aria-hidden="true" />
+              <>
+                <p className="q" dir="auto" data-testid="audience-question">
+                  {lang === 'ar' && clue.qAr ? clue.qAr : clue.q}
+                </p>
+                {clue.img && (
+                <div className="q-fig">
+                  <img className="q-img" src={diagramSrc(clue.img)} alt={t.diagramAlt} data-testid="audience-img" />
+                </div>
+              )}
+                {live!.revealed ? (
+                  <div className="answer show" dir="auto" data-testid="audience-answer">
+                    {lang === 'ar' && clue.aAr ? clue.aAr : clue.a}
+                  </div>
+                ) : (
+                  <div className="answer aud-hidden" aria-hidden="true" />
+                )}
+              </>
             )}
-            {clueSeconds(game.settings, live!.l, clue) > 0 && <TimerBar clock={live!.clock ?? null} total={clueSeconds(game.settings, live!.l, clue)} lang={lang} timeUpText={t.timeUp} big />}
+            {!live!.intro && clueSeconds(game.settings, live!.l, clue) > 0 && <TimerBar clock={live!.clock ?? null} total={clueSeconds(game.settings, live!.l, clue)} lang={lang} timeUpText={t.timeUp} big />}
           </div>
         </div>
       )}

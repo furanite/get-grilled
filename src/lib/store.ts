@@ -144,6 +144,7 @@ export function cleanGameExtras(g: Game): Game {
     out.finalState = { step: fs.step, marks: fs.marks.map((m) => (m === true ? true : m === false ? false : null)), ...(num(fs.startedAt) ? { startedAt: fs.startedAt } : {}) }
   else delete out.finalState
   if (!isStr(g.night)) delete out.night
+  if (!(num(g.turn) && Number.isInteger(g.turn) && g.turn >= 0 && g.turn < n)) delete out.turn
   // The special round: a known kind and items with text, nothing else
   const mr = g.modeRound as unknown
   const isMode = (m: unknown): m is (typeof ROUND_MODES)[number] => (ROUND_MODES as readonly unknown[]).includes(m)
