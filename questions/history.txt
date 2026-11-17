@@ -35,10 +35,10 @@ The caliph who ruled after Abu Bakr ﵁. :: Umar ibn al-Khattab ﵁
 The dynasty of caliphs that ruled from Damascus. :: The Umayyads
 The dynasty of caliphs that built Baghdad as its capital. :: The Abbasids
 The famous library and academy of Abbasid Baghdad. :: The House of Wisdom (Bayt al-Hikma)
-The Muslim leader who retook Jerusalem in 1187. :: Salah al-Din (Saladin)
+The Muslim leader who retook Jerusalem in 1187. :: Salah al-Din (Saladin) ﵀
 The religious wars fought by European armies in the Levant from 1096. :: The Crusades
 The Turkish empire that lasted from about 1299 to 1922. :: The Ottoman Empire
-The Ottoman sultan who conquered Constantinople in 1453. :: Mehmed II (the Conqueror)
+The Ottoman sultan who conquered Constantinople in 1453. :: Mehmed II (the Conqueror) ﵀
 The year Constantinople fell to the Ottomans. :: 1453
 The Italian explorer who reached the Americas in 1492. :: Christopher Columbus
 The Portuguese explorer who reached India by sea in 1498. :: Vasco da Gama
@@ -121,8 +121,8 @@ The eastern half of the Roman Empire, which lasted until 1453. :: The Byzantine 
 The great church built in Constantinople by Justinian in 537. :: Hagia Sophia
 The battle in 732 where the Franks stopped the Umayyad advance in France. :: Battle of Tours (Poitiers)
 The Frankish king crowned emperor in 800. :: Charlemagne
-The Abbasid caliph famous from 'One Thousand and One Nights'. :: Harun al-Rashid
-The city founded by the Abbasid caliph al-Mansur in 762. :: Baghdad
+The Abbasid caliph famous from 'One Thousand and One Nights'. :: Harun al-Rashid ﵀
+The city founded by the Abbasid caliph al-Mansur ﵀ in 762. :: Baghdad
 The Umayyad prince who escaped to Spain and founded the Emirate of Córdoba. :: Abd al-Rahman I
 The Arabic name for Muslim-ruled Spain. :: Al-Andalus
 The great mosque in Spain later turned into a cathedral. :: Great Mosque of Córdoba (Mezquita)
@@ -130,16 +130,16 @@ The palace in Granada built by the Nasrids. :: The Alhambra
 The year Granada fell, ending Muslim rule in Spain. :: 1492
 The Mongol leader who destroyed Baghdad in 1258. :: Hulagu Khan
 The battle in 1260 where the Mamluks defeated the Mongols in Palestine. :: Battle of Ain Jalut
-The Mamluk sultan who led at Ain Jalut and later ruled Egypt. :: Baybars
-The battle in 1187 where Saladin defeated the Crusaders before taking Jerusalem. :: Battle of Hattin
+The Mamluk sultan who led at Ain Jalut and later ruled Egypt. :: Baybars ﵀
+The battle in 1187 where Saladin ﵀ defeated the Crusaders before taking Jerusalem. :: Battle of Hattin
 The Norman duke who conquered England in 1066. :: William the Conqueror
 The battle in 1066 that gave England a Norman king. :: Battle of Hastings
 The long war between England and France from 1337 to 1453. :: The Hundred Years' War
 The German monk who began the Protestant Reformation in 1517. :: Martin Luther
-The Ottoman sultan known in the West as 'the Magnificent'. :: Suleiman the Magnificent
-The Ottoman sultan who conquered Mamluk Egypt in 1517. :: Selim I
-The Mughal emperor who built the Taj Mahal. :: Shah Jahan
-The founder of the Mughal Empire in India. :: Babur
+The Ottoman sultan known in the West as 'the Magnificent'. :: Suleiman the Magnificent ﵀
+The Ottoman sultan who conquered Mamluk Egypt in 1517. :: Selim I ﵀
+The Mughal emperor who built the Taj Mahal. :: Shah Jahan ﵀
+The founder of the Mughal Empire in India. :: Babur ﵀
 The Mughal emperor famous for religious tolerance, who ruled from 1556. :: Akbar
 The Persian dynasty that made Isfahan its capital. :: The Safavids
 The Spanish conquistador who defeated the Inca. :: Francisco Pizarro
@@ -226,25 +226,25 @@ The battle in 624 CE, the first major battle of the early Muslims. :: Battle of 
 The treaty signed in 628 CE between the Muslims and Quraysh. :: Treaty of Hudaybiyyah
 The battle in 636 CE where Muslim armies defeated the Byzantines in Syria. :: Battle of Yarmouk
 The battle in 636 CE where Muslim armies defeated the Sasanian Persians. :: Battle of al-Qadisiyyah
-The Umayyad general who crossed into Spain in 711. :: Tariq ibn Ziyad
-The rock in southern Spain named after Tariq ibn Ziyad. :: Gibraltar (Jabal Tariq)
+The Umayyad general who crossed into Spain in 711. :: Tariq ibn Ziyad ﵀
+The rock in southern Spain named after Tariq ibn Ziyad ﵀. :: Gibraltar (Jabal Tariq)
 The Umayyad caliph who built the Dome of the Rock. :: Abd al-Malik ibn Marwan
 The Umayyad caliph known for justice who ruled 717–720. :: Umar ibn Abd al-Aziz ﵀
 The Abbasid caliph who supported the House of Wisdom and translation. :: Al-Ma'mun
 The dynasty that founded Cairo in 969. :: The Fatimids
 The mosque and university founded in Cairo by the Fatimids in 970. :: Al-Azhar
 The Turkish dynasty that defeated the Byzantines at Manzikert in 1071. :: The Seljuks
-The Seljuk sultan who won at Manzikert. :: Alp Arslan
-The Persian vizier of the Seljuks who founded the Nizamiyya schools. :: Nizam al-Mulk
-The dynasty founded by Saladin. :: The Ayyubids
+The Seljuk sultan who won at Manzikert. :: Alp Arslan ﵀
+The Persian vizier of the Seljuks who founded the Nizamiyya schools. :: Nizam al-Mulk ﵀
+The dynasty founded by Saladin ﵀. :: The Ayyubids
 The slave-soldier dynasty that ruled Egypt and Syria from 1250 to 1517. :: The Mamluks
 The Mongol leader who sacked Baghdad was a grandson of this ruler. :: Genghis Khan
 The Turco-Mongol conqueror who built a capital at Samarkand. :: Timur (Tamerlane)
-The Ottoman sultan captured by Timur at Ankara in 1402. :: Bayezid I
+The Ottoman sultan captured by Timur at Ankara in 1402. :: Bayezid I ﵀
 The Moroccan scholar who wrote the Muqaddimah. :: Ibn Khaldun
 The Andalusian philosopher known in Europe as Averroes. :: Ibn Rushd
 The Persian polymath known in Europe as Avicenna. :: Ibn Sina
-The ruler of Mali famous for his lavish pilgrimage to Makkah in 1324. :: Mansa Musa
+The ruler of Mali famous for his lavish pilgrimage to Makkah in 1324. :: Mansa Musa ﵀
 The city in Mali famous for its manuscripts and Sankore Mosque. :: Timbuktu
 The Chinese admiral who led huge treasure fleets to Arabia and Africa in the 1400s. :: Zheng He
 The Chinese dynasty that built most of the Great Wall we see today. :: The Ming dynasty
@@ -354,11 +354,11 @@ The Crusader kingdom founded in 1099. :: Kingdom of Jerusalem
 The Crusade that sacked Constantinople in 1204. :: The Fourth Crusade
 The English king who led the Third Crusade. :: Richard I (the Lionheart)
 The Mamluk sultan who took Acre in 1291, ending the Crusader states. :: Al-Ashraf Khalil
-The Ottoman founder who gave the empire its name. :: Osman I
+The Ottoman founder who gave the empire its name. :: Osman I ﵀
 The first Ottoman capital after Bursa, in Europe. :: Edirne (Adrianople)
 The Ottoman elite infantry recruited through the devshirme. :: The Janissaries
 The 1514 battle where the Ottomans defeated the Safavids. :: Battle of Chaldiran
-The 1526 battle where Suleiman defeated Hungary. :: Battle of Mohács
+The 1526 battle where Suleiman ﵀ defeated Hungary. :: Battle of Mohács
 The Ottoman admiral known in Europe as Barbarossa. :: Hayreddin Barbarossa
 The Ottoman sultan who closed the Janissary corps in 1826. :: Mahmud II
 The 1826 destruction of the Janissaries is called this. :: The Auspicious Incident
@@ -377,10 +377,10 @@ The British protectorate over Aden began in this year. :: 1839
 The 1820 treaty between Britain and Gulf sheikhdoms that led to the name 'Trucial States'. :: General Maritime Treaty
 The Gulf emirates were called this before forming the UAE. :: The Trucial States
 The Kuwaiti ruler who signed the 1899 agreement with Britain. :: Sheikh Mubarak Al-Sabah (Mubarak the Great)
-The Mughal emperor who ruled during the empire's widest extent, until 1707. :: Aurangzeb
+The Mughal emperor who ruled during the empire's widest extent, until 1707. :: Aurangzeb ﵀
 The Persian ruler who sacked Delhi in 1739 and took the Peacock Throne. :: Nader Shah
 The famous diamond taken from Delhi by Nader Shah. :: Koh-i-Noor
-The Indian ruler called the 'Tiger of Mysore'. :: Tipu Sultan
+The Indian ruler called the 'Tiger of Mysore'. :: Tipu Sultan ﵀
 The Chinese rebellion of 1850–64, one of the deadliest civil wars. :: The Taiping Rebellion
 The wars between Britain and China over the opium trade began in this year. :: 1839
 The treaty of 1842 that gave Hong Kong to Britain. :: Treaty of Nanking
@@ -451,10 +451,10 @@ The first Abbasid caliph. :: Abu al-Abbas al-Saffah
 The Abbasid mathematician whose name gave us the word 'algorithm'. :: Al-Khwarizmi
 The translator who led the House of Wisdom's Greek translations, a Christian physician. :: Hunayn ibn Ishaq
 The dynasty that controlled the Abbasid caliphs from 945 in Baghdad. :: The Buyids
-The Ghaznavid sultan famous for raids into India around 1000. :: Mahmud of Ghazni
-The Seljuk sultan under whom Nizam al-Mulk served, after Alp Arslan. :: Malik-Shah I
+The Ghaznavid sultan famous for raids into India around 1000. :: Mahmud of Ghazni ﵀
+The Seljuk sultan under whom Nizam al-Mulk ﵀ served, after Alp Arslan ﵀. :: Malik-Shah I ﵀
 The Persian poet-mathematician who reformed the calendar for Malik-Shah. :: Omar Khayyam
-The Zengid ruler who united Syria against the Crusaders before Saladin. :: Nur al-Din Zengi
+The Zengid ruler who united Syria against the Crusaders before Saladin ﵀. :: Nur al-Din Zengi ﵀
 The Andalusian geographer who made a world map for Roger II of Sicily. :: Al-Idrisi
 The famous book of al-Idrisi's world map. :: Tabula Rogeriana (Nuzhat al-Mushtaq)
 The Mamluk queen who ruled Egypt briefly in 1250. :: Shajar al-Durr
@@ -511,4 +511,4 @@ The year the World Trade Organization was founded. :: 1995
 The Byzantine emperor who received the letter of our Beloved and our master, the Prophet Muhammad ﷺ, according to tradition. :: Heraclius
 The 1258 fall of Baghdad ended the rule of this last Abbasid caliph in Baghdad. :: Al-Musta'sim
 The 1453 siege of Constantinople used a giant cannon built by this Hungarian engineer. :: Orban
-The Ottoman sultan who ordered ships dragged overland into the Golden Horn in 1453. :: Mehmed II
+The Ottoman sultan who ordered ships dragged overland into the Golden Horn in 1453. :: Mehmed II ﵀

@@ -230,7 +230,7 @@ The physician who first distinguished smallpox from measles. :: Al-Razi (Rhazes)
 The scientist who described the circulation of blood through the lungs in the 13th century. :: Ibn al-Nafis
 The chemist called the father of chemistry in the Islamic world, Jabir ibn Hayyan, is also known by this Latin name. :: Geber
 The polymath who calculated Earth's radius using a mountain, in the 11th century. :: Al-Biruni
-The Muslim astronomer whose star tables, the Zij, were used in Europe, and who had an observatory in Samarkand. :: Ulugh Beg
+The Muslim astronomer whose star tables, the Zij, were used in Europe, and who had an observatory in Samarkand. :: Ulugh Beg ﵀
 The scholar who introduced Hindu-Arabic numerals with the zero to the wider world in his book on arithmetic. :: Al-Khwarizmi
 The Italian mathematician who brought Hindu-Arabic numerals to Europe in 1202. :: Fibonacci
 The 13th-century Persian astronomer whose "Tusi couple" was later used by Copernicus. :: Nasir al-Din al-Tusi
@@ -321,7 +321,7 @@ The Chinese invention of the "south-pointing chariot" used gears, not magnets, t
 The ancient Chinese invention used to keep rice fields watered: the square-pallet chain pump, worked by this. :: Foot pedals (treadles)
 The first known use of a magnetic compass for navigation was recorded in this country. :: China
 The Song dynasty scholar who first described the magnetic compass needle in 1088. :: Shen Kuo
-The Abbasid caliph who founded the House of Wisdom. :: Harun al-Rashid (expanded by al-Ma'mun)
+The Abbasid caliph who founded the House of Wisdom. :: Harun al-Rashid ﵀ (expanded by al-Ma'mun)
 The 9th-century "Book of Ingenious Devices" was written by these three brothers. :: The Banu Musa
 The Banu Musa described an early version of this programmable musical device. :: An automatic flute player
 The Muslim engineer who described a crankshaft and a double-acting pump in 1206. :: Al-Jazari

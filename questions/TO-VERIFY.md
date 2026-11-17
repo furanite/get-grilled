@@ -38,12 +38,12 @@ This file is rewritten by `npm run packs`.
 ## Fiqh: Hajj and Umrah (questions/isl-hajj.txt)
 
 - **300**, line 151: In the Shafi'i school, the sacrifice for tamattu' is this kind. **Answer:** A dam of compensation (jubran) _(Source: Minhaj al-Talibin (al-Nawawi))_
-- **500**, line 243: The caliph who was advised by Imam Malik ⁨رحمة الله عليه⁩ not to rebuild the Ka'bah again, so it would not become a plaything of kings. **Answer:** Harun al-Rashid (or al-Mahdi, by reports) _(Source: check which caliph the reports name)_
+- **500**, line 243: The caliph who was advised by Imam Malik ⁨رحمة الله عليه⁩ not to rebuild the Ka'bah again, so it would not become a plaything of kings. **Answer:** Harun al-Rashid ⁨رحمة الله عليه⁩ (or al-Mahdi ⁨رحمة الله عليه⁩, by reports) _(Source: check which caliph the reports name)_
 
 ## Islamic history (questions/isl-history.txt)
 
 - **500**, line 106: The Ayyubid-era scholar who wrote "Mir'at al-Zaman". **Answer:** Sibt ibn al-Jawzi _(Source: Mir'at al-Zaman; creed to be checked before adding an honorific)_
-- **500**, line 124: The scholar who taught and advised Sultan Muhammad al-Fatih and is said to have found the grave of Abu Ayyub ﵁. **Answer:** Aq Shams al-Din ⁨رحمة الله عليه⁩ _(Source: al-Shaqa'iq al-Nu'maniyyah (Tashkopruzade); to be checked)_
+- **500**, line 124: The scholar who taught and advised Sultan Muhammad al-Fatih ⁨رحمة الله عليه⁩ and is said to have found the grave of Abu Ayyub ﵁. **Answer:** Aq Shams al-Din ⁨رحمة الله عليه⁩ _(Source: al-Shaqa'iq al-Nu'maniyyah (Tashkopruzade); to be checked)_
 
 ## Pillars of faith (questions/isl-iman.txt)
 

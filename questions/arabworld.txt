@@ -212,14 +212,14 @@ The dynasty that ruled from Damascus from 661 to 750. :: Umayyad
 The dynasty that ruled from Baghdad from 750. :: Abbasid
 The Abbasid caliph who founded Baghdad in 762. :: Al-Mansur
 The original name of Baghdad meaning "City of Peace". :: Madinat al-Salam
-The Abbasid caliph of the Arabian Nights, ruler from 786 to 809. :: Harun al-Rashid
+The Abbasid caliph of the Arabian Nights, ruler from 786 to 809. :: Harun al-Rashid ﵀
 The Mongol leader who sacked Baghdad in 1258. :: Hulagu Khan
 The dynasty that founded Cairo in 969. :: Fatimid
 The mosque-university founded in Cairo by the Fatimids in 970. :: Al-Azhar
-The Kurdish-born sultan who retook Jerusalem in 1187. :: Saladin (Salah al-Din)
-The battle of 1187 where Saladin defeated the Crusaders. :: Battle of Hattin
+The Kurdish-born sultan who retook Jerusalem in 1187. :: Saladin (Salah al-Din) ﵀
+The battle of 1187 where Saladin ﵀ defeated the Crusaders. :: Battle of Hattin
 The Mamluk victory over the Mongols in 1260 in Palestine. :: Battle of Ain Jalut
-The Mamluk sultan who won at Ain Jalut alongside Qutuz. :: Baybars
+The Mamluk sultan who won at Ain Jalut alongside Qutuz ﵀. :: Baybars ﵀
 The empire that ruled most of the Arab world from the 1500s to 1918. :: Ottoman Empire
 The 1916 secret agreement that divided Arab lands between Britain and France. :: Sykes-Picot Agreement
 The Sharif of Makkah who launched the Arab Revolt in 1916. :: Sharif Hussein bin Ali
@@ -253,7 +253,7 @@ The palace and fortress in Granada built by the Nasrid dynasty. :: Alhambra
 The year Granada, the last Muslim kingdom in Spain, fell. :: 1492
 The Great Mosque in Spain that became a cathedral. :: Mosque of Córdoba (Mezquita)
 The Umayyad prince who escaped to found the emirate of Córdoba. :: Abd al-Rahman I
-The Muslim general who crossed into Spain in 711, giving his name to Gibraltar. :: Tariq ibn Ziyad
+The Muslim general who crossed into Spain in 711, giving his name to Gibraltar. :: Tariq ibn Ziyad ﵀
 The Arabic name from which "Gibraltar" comes. :: Jabal Tariq
 The Arab-ruled island of Italy from the 9th to 11th centuries. :: Sicily
 The famous Iraqi singer called "the Caesar of Arabic song". :: Kadim Al Sahir
@@ -324,8 +324,8 @@ The Turkish dynasty whose sultans held power over the Abbasid caliphs from 1055.
 The Abbasid caliphate continued in name in this city after 1258, under the Mamluks. :: Cairo
 The Fatimid caliph who founded Cairo, through his general Jawhar. :: Al-Mu'izz li-Din Allah
 The Ayyubid ruler's wife who ruled Egypt as sultana in 1250. :: Shajar al-Durr
-The Mamluk sultan who built a famous complex and hospital in Cairo, the Qalawun complex. :: Qalawun
-The Ottoman sultan who conquered Egypt and Syria in 1516–1517. :: Selim I
+The Mamluk sultan who built a famous complex and hospital in Cairo, the Qalawun complex. :: Qalawun ﵀
+The Ottoman sultan who conquered Egypt and Syria in 1516–1517. :: Selim I ﵀
 The battle of 1516 in Syria where the Ottomans beat the Mamluks. :: Marj Dabiq
 The Albanian-born ruler called "the founder of modern Egypt". :: Muhammad Ali Pasha
 The year Napoleon invaded Egypt. :: 1798
@@ -451,15 +451,15 @@ The small Muslim kingdoms after Córdoba's caliphate broke up in 1031. :: Taifas
 The last Nasrid sultan of Granada, called Boabdil. :: Muhammad XII
 The Andalusian polymath who tried to fly with wings in the 9th century. :: Abbas ibn Firnas
 The Andalusian musician who founded a music school in Córdoba, from Baghdad. :: Ziryab
-The Abbasid caliph who sent an elephant named Abul-Abbas to Charlemagne. :: Harun al-Rashid
+The Abbasid caliph who sent an elephant named Abul-Abbas to Charlemagne. :: Harun al-Rashid ﵀
 The Abbasid general family of Persian viziers, ruined in 803. :: Barmakids
 The Abbasid capital built by Al-Mu'tasim is now a UNESCO site in this country. :: Iraq (Samarra)
 The Zanj rebellion of enslaved workers took place near this Iraqi city in 869–883. :: Basra
 The Qarmatians stole the Black Stone from Makkah in this year. :: 930
 The Qarmatian state was based in this region of eastern Arabia. :: Al-Ahsa (Bahrain region)
-The Kurdish dynasty founded by Saladin. :: Ayyubid
-The Crusader who signed the Treaty of Jaffa with Saladin in 1192. :: Richard the Lionheart
-The Ottoman sultan who ordered the walls of Jerusalem built in the 1530s. :: Suleiman the Magnificent
+The Kurdish dynasty founded by Saladin ﵀. :: Ayyubid
+The Crusader who signed the Treaty of Jaffa with Saladin ﵀ in 1192. :: Richard the Lionheart
+The Ottoman sultan who ordered the walls of Jerusalem built in the 1530s. :: Suleiman the Magnificent ﵀
 The Ottoman governor of Acre who held off Napoleon in 1799. :: Ahmad Pasha al-Jazzar
 The Egyptian commander, son of Muhammad Ali, who destroyed Diriyah in 1818. :: Ibrahim Pasha
 The imam of the First Saudi State when Diriyah fell in 1818. :: Abdullah bin Saud
