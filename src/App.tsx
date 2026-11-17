@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import type { Category, CategorySummary, Game, Lang, PoolEdit, Screen, ThemeId } from './lib/types'
 import { hasConsent, loadCustom, loadGame, loadPools, loadSettings, saveCustom, saveGame, savePools, saveSettings } from './lib/store'
-import { isEmptyPool, nextStage } from './lib/game'
+import { INTRO_MS, finishIntro, isEmptyPool, nextStage } from './lib/game'
 import { setSoundEnabled, unlockAudio } from './lib/sound'
 import { CONSENT_TEXT, LEGAL } from './lib/legal'
 import { ConsentDialog, Footer, LegalViewer } from './components/Legal'
@@ -12,6 +12,7 @@ import { STRINGS } from './lib/i18n'
 import Home from './components/Home'
 import Setup from './components/Setup'
 import Board from './components/Board'
+import TeamIntro from './components/TeamIntro'
 import Results from './components/Results'
 import { Final, Lightning, ModeRound } from './components/Rounds'
 import Builder from './components/Builder'
@@ -40,7 +41,7 @@ export default function App() {
   const audience = useAudienceWindow('Get Grilled')
   const themeRef = useRef(theme)
   const t = STRINGS[lang]
-  const inGame = screen === 'game' || screen === 'mode' || screen === 'lightning' || screen === 'final'
+  const inGame = screen === 'intro' || screen === 'game' || screen === 'mode' || screen === 'lightning' || screen === 'final'
 
   useEffect(() => {
     loadIndex().then(setIndex).catch((e: Error) => setIndexError(e.message))
@@ -98,7 +99,7 @@ export default function App() {
       setScreen(nx === 'mode' ? 'mode' : nx === 'lightning' ? 'lightning' : 'final')
     } else setScreen('results')
   }
-  const stageScreen = (g: Game): Screen => (g.stage === 'mode' ? 'mode' : g.stage === 'lightning' ? 'lightning' : g.stage === 'final' ? 'final' : 'game')
+  const stageScreen = (g: Game): Screen => (g.intro ? 'intro' : g.stage === 'mode' ? 'mode' : g.stage === 'lightning' ? 'lightning' : g.stage === 'final' ? 'final' : 'game')
 
   const notify = useCallback((text: string) => setToast({ text, id: Date.now() }), [])
 
@@ -207,9 +208,15 @@ export default function App() {
               onBack={() => setScreen('home')}
               onStart={(g) => {
                 setGame(g)
-                setScreen('game')
+                setScreen(g.intro ? 'intro' : 'game')
               }}
             />
+          )}
+          {screen === 'intro' && game?.intro && (
+            <IntroScreen game={game} setGame={setGame} theme={theme} t={t} lang={lang} onStart={() => {
+              setGame((g) => finishIntro(g))
+              setScreen('game')
+            }} />
           )}
           {screen === 'game' && game && (
             <Board
@@ -254,5 +261,38 @@ export default function App() {
         </div>
       )}
     </>
+  )
+}
+
+/** The host's introductions screen: moves to the next team by itself unless the host pauses it. */
+function IntroScreen({ game, setGame, theme, t, lang, onStart }: { game: Game; setGame: (u: (g: Game) => Game) => void; theme: ThemeId; t: (typeof STRINGS)['en']; lang: Lang; onStart: () => void }) {
+  const intro = game.intro!
+  const n = game.teams.length
+  const step = (i: number) => setGame((g) => (g.intro ? { ...g, intro: { ...g.intro, i: Math.min(i, n) } } : g))
+  useEffect(() => {
+    if (!intro.auto || intro.i >= n) return
+    const id = setTimeout(() => step(intro.i + 1), INTRO_MS)
+    return () => clearTimeout(id)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [intro.i, intro.auto, n])
+  return (
+    <main className="intro-screen">
+      <TeamIntro
+        game={game}
+        theme={theme}
+        t={t}
+        lang={lang}
+        host
+        onNext={() => step(intro.i + 1)}
+        onSkip={() => step(n)}
+        onAuto={(auto) => setGame((g) => (g.intro ? { ...g, intro: { ...g.intro, auto } } : g))}
+        onStart={onStart}
+      />
+      {intro.i >= n && (
+        <button className="ghost" style={{ alignSelf: 'center' }} onClick={() => step(0)} data-testid="teams-replay">
+          {t.intro.replay}
+        </button>
+      )}
+    </main>
   )
 }

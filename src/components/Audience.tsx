@@ -7,6 +7,7 @@ import { num } from '../lib/i18n'
 import { FINAL_SECS, FINAL_VALUE, LIGHTNING_SECS, MODE_VALUE, STREAK_AT, clueSeconds, cluePoints, cluesOf, isFinished, lastPlace, standings, tileKey, turnTeam } from '../lib/game'
 import { ModeItemView } from './Rounds'
 import TileIntro from './TileIntro'
+import TeamIntro from './TeamIntro'
 import type { Live } from '../lib/edition'
 import { setFavicon } from '../lib/favicon'
 import { Ambient, CatIcon, Flourish, FlourishAbove, Mark } from './Brand'
@@ -131,6 +132,15 @@ function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings;
       </button>
     </div>
   )
+
+  if (screen === 'intro' && game?.intro) {
+    return (
+      <>
+        <TeamIntro game={game} theme={theme} t={t} lang={lang} host={false} full />
+        {help}
+      </>
+    )
+  }
 
   if (screen === 'results' && game) {
     const rows = standings(game)

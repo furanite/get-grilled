@@ -389,3 +389,41 @@ export function exportCategory(cat: Category) {
     levels: cat.levels.map((l) => l.map(({ q, a, qAr, aAr, img, secs }) => ({ q, a, qAr, aAr, img, secs }))),
   }
 }
+
+/* ---------- Team introductions ---------- */
+
+/** How long each team's introduction stays up when it moves on by itself. */
+export const INTRO_MS = 9000
+export const MAX_MEMBERS = 5
+export const MEMBER_MAX = 24
+export const ROLE_MAX = 30
+export const FACT_MAX = 120
+
+/** What the host typed for a team's introduction. */
+export interface TeamDetails {
+  members: { name: string; role: string }[]
+  captain: number | null
+  fact: string
+}
+
+/** Tidies what the host typed (trims, drops empty members, keeps lengths in bounds) and adds it to the game's teams, with the introductions switched on. */
+export function withIntro(game: Game, details: TeamDetails[]): Game {
+  const teams = game.teams.map((team, i) => {
+    const d = details[i]
+    if (!d) return team
+    const kept = d.members.map((m, k) => ({ k, name: m.name.trim().slice(0, MEMBER_MAX), role: m.role.trim().slice(0, ROLE_MAX) })).filter((m) => m.name).slice(0, MAX_MEMBERS)
+    const members = kept.map((m) => (m.role ? { name: m.name, role: m.role } : { name: m.name }))
+    const cap = kept.findIndex((m) => m.k === d.captain)
+    const fact = d.fact.trim().slice(0, FACT_MAX)
+    return { ...team, ...(members.length ? { members } : {}), ...(cap >= 0 ? { captain: cap } : {}), ...(fact ? { fact } : {}) }
+  })
+  return { ...game, teams, intro: { i: 0, auto: true } }
+}
+
+/** The host pressed Start game: the introductions end, and the game's clocks start from now. */
+export function finishIntro(game: Game, now = Date.now()): Game {
+  const next: Game = { ...game, startedAt: now }
+  delete next.intro
+  if (game.settings.gameMinutes) next.endsAt = now + game.settings.gameMinutes * 60_000
+  return next
+}
