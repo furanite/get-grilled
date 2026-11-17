@@ -3,11 +3,12 @@ import type { Category, CategorySummary, Lang, PackGroup, PoolEdit, Question } f
 import { LEVEL_NAMES, LEVEL_NAMES_AR, VALUES } from '../lib/types'
 import type { Strings } from '../lib/i18n'
 import { num, qCount } from '../lib/i18n'
-import { CLUE_SECS, LIMITS, applyPool, emptyPool, exportCategory, parseImportedCategory, poolCounts } from '../lib/game'
+import { CLUE_SECS, LIMITS, applyPool, emptyPool, exportCategory, poolCounts } from '../lib/game'
 import { loadPack } from '../lib/packs'
 import { uid } from '../lib/store'
 import { burstAt } from '../lib/fx'
 import { diagramSrc, fileToDiagram } from '../lib/diagram'
+import { mergeOpened, parseQuestionFile } from '../lib/studyset'
 
 interface Props {
   t: Strings
@@ -81,10 +82,11 @@ export default function Builder({ t, lang, index, custom, setCustom, pools, setP
     try {
       if (file.size > LIMITS.fileBytes) throw new Error('That file is too big to be a category (over 20 MB).')
       const raw = JSON.parse(await file.text())
-      const cat = parseImportedCategory(raw, uid)
-      setCustom([...custom, cat])
-      setSelected(cat.id)
-      notify(`${t.imported}: ${cat.name}`)
+      // A category file, or a study file from an instructor (one category per subcategory).
+      const opened = parseQuestionFile(raw, uid)
+      setCustom(mergeOpened(custom, opened).next)
+      setSelected(opened.cats[0].id)
+      notify(`${t.imported}: ${opened.set?.title ?? opened.cats[0].name}`)
     } catch (e) {
       setError(e instanceof SyntaxError ? 'That file is not valid JSON.' : (e as Error).message)
     }
