@@ -1,4 +1,5 @@
 import type { ThemeId } from './types'
+import { renderTitle, setSoundBase } from './tune-engine.js'
 
 /**
  * Every sound is made in the browser with Web Audio: no audio files to download or license.
@@ -178,6 +179,39 @@ const TUNES: Record<ThemeId, { voice: Voice; notes: [number, number, number?][];
   heritage: { voice: pluck, notes: [[62, 0], [63, 0.35], [66, 0.7], [67, 1.05], [69, 1.5, 1.4], [67, 2.1], [66, 2.45], [63, 2.8], [62, 3.2, 2.6]], pad: [38, 45, 50] },
 }
 
+/**
+ * The title pieces the owner picked in the Tune Room (16 November 2026). Red vs Blue takes turns between
+ * its two picks. Themes not listed keep the short tune below until the owner picks one.
+ */
+const PICKED: Partial<Record<ThemeId, ('a' | 'b' | 'd' | 'e')[]>> = {
+  amethyst: ['b'],
+  emerald: ['d'],
+  neon: ['d'],
+  onyx: ['d'],
+  rivals: ['a', 'd'],
+  ember: ['d'],
+}
+const rendered = new Map<string, Promise<AudioBuffer | null>>()
+let rivalsTurn = 0
+setSoundBase(import.meta.env.BASE_URL)
+function picked(theme: ThemeId): Promise<AudioBuffer | null> | null {
+  const sets = PICKED[theme]
+  if (!sets || typeof OfflineAudioContext === 'undefined') return null
+  const set = sets[sets.length > 1 ? rivalsTurn++ % sets.length : 0]
+  const key = `${theme}-${set}`
+  if (!rendered.has(key)) rendered.set(key, renderTitle(theme, set).catch(() => null))
+  return rendered.get(key)!
+}
+/** Starts making the theme's title piece in the background, so it is ready when the title screen shows. */
+export function prepareTitleTune(theme: ThemeId) {
+  const sets = PICKED[theme]
+  if (!sets || typeof OfflineAudioContext === 'undefined') return
+  for (const set of sets) {
+    const key = `${theme}-${set}`
+    if (!rendered.has(key)) rendered.set(key, renderTitle(theme, set).catch(() => null))
+  }
+}
+
 export function titleTune(theme: ThemeId) {
   if (!enabled) return
   const c = audio()
@@ -198,8 +232,31 @@ export function titleTune(theme: ThemeId) {
   stopTune()
   const bus = c.createGain()
   bus.gain.value = 1
-  bus.connect(master!)
   tuneBus = bus
+  const piece = picked(theme)
+  if (piece) {
+    // The picked piece is already mixed, so it goes straight to the speakers.
+    bus.connect(c.destination)
+    piece.then((buf) => {
+      if (tuneBus !== bus) return
+      if (!buf) return oldTune(c, theme, bus, master!)
+      const src = c.createBufferSource()
+      src.buffer = buf
+      src.connect(bus)
+      src.start(c.currentTime + 0.05)
+    })
+    return
+  }
+  bus.connect(master!)
+  oldTune(c, theme, bus, bus)
+}
+
+/** The short tune each theme had before the owner picked new ones. */
+function oldTune(c: AudioContext, theme: ThemeId, bus: GainNode, via: AudioNode) {
+  if (via !== bus) {
+    bus.disconnect()
+    bus.connect(via)
+  }
   const tune = TUNES[theme]
   for (const [m, t, d] of tune.notes) tune.voice(c, m, 0.15 + t, d ?? 1.5, undefined, bus)
   // A quiet pad underneath

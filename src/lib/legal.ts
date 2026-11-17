@@ -62,6 +62,7 @@ const termsEn: LegalDoc = {
     { title: '16. Governing law.', body: ['These Terms are governed by the laws of the Kingdom of Saudi Arabia. Disputes go to the competent courts in the Eastern Province, unless the law where you live gives you a right to bring a claim there.'] },
     { title: '17. Severability and language.', body: ["If any part of these Terms can't be enforced, the rest stays in effect. These Terms are provided in Arabic and English. If they differ, the Arabic version prevails."] },
     { title: '18. Questions about content.', body: ['Questions about a question or content? Tell your game host.'] },
+    { title: '19. Sound credits.', body: ['The recorded instrument notes in the title tunes come from the Versilian Studios VSCO 2 Community Edition and VCSL libraries (public domain, CC0), and from the tonejs-instruments collection by nbrosowsky (trumpet, harp, xylophone and piano), licensed under Creative Commons Attribution 3.0.'] },
   ],
 }
 
@@ -97,6 +98,7 @@ const termsAr: LegalDoc = {
     { title: '16. النظام الواجب التطبيق.', body: ['تخضع هذه الشروط لأنظمة المملكة العربية السعودية. وتختص بالنظر في النزاعات المحاكم المختصة في المنطقة الشرقية، ما لم يمنحك نظام البلد الذي تقيم فيه حق رفع الدعوى هناك.'] },
     { title: '17. قابلية الفصل واللغة.', body: ['إذا تعذّر تطبيق أي جزء من هذه الشروط، يبقى الباقي ساريًا. وتقدَّم هذه الشروط باللغتين العربية والإنجليزية، وعند الاختلاف يُعتمد النص العربي.'] },
     { title: '18. الاستفسار عن المحتوى.', body: ['هل لديك استفسار عن سؤال أو محتوى؟ أخبر مقدّم اللعبة.'] },
+    { title: '19. مصادر الأصوات.', body: ['النغمات المسجّلة للآلات في ألحان الافتتاح مأخوذة من مكتبتي VSCO 2 Community Edition وVCSL من Versilian Studios (ملكية عامة، CC0)، ومن مجموعة tonejs-instruments من إعداد nbrosowsky (البوق والقيثارة والإكسيليفون والبيانو) بموجب رخصة المشاع الإبداعي – نسب المصنف 3.0.'] },
   ],
 }
 

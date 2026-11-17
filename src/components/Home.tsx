@@ -4,7 +4,7 @@ import type { Strings } from '../lib/i18n'
 import { THEMES, formatCountdown, heritageOpen, msUntilHeritage } from '../lib/themes'
 import { burstAt } from '../lib/fx'
 import { Ambient, Flourish, FlourishAbove, Mark } from './Brand'
-import { stopTune, titleTune } from '../lib/sound'
+import { prepareTitleTune, stopTune, titleTune } from '../lib/sound'
 
 interface Props {
   t: Strings
@@ -28,6 +28,7 @@ export default function Home({ t, lang, theme, setTheme, hasGame, onNew, onResum
 
   // A short tune once the title screen has drawn itself in; it fades out when the host moves on.
   useEffect(() => {
+    prepareTitleTune(theme)
     const id = setTimeout(() => titleTune(theme), 900)
     return () => {
       clearTimeout(id)
