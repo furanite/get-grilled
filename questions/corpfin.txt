@@ -386,7 +386,7 @@ The underpricing puzzle explained by the 'winner's curse' in IPO allocation, by 
 IPOs tend to underperform the market over this period, found by Jay Ritter. :: Three to five years (long run)
 Hot issue markets are periods when IPOs have high these. :: First-day returns (and volumes)
 The Saudi Aramco IPO priced its shares at this many riyals. :: 32
-The daily price limit when Aramco's shares hit it on their first trading day. :: 10%
+On their first trading day, Aramco's shares rose by the full daily price limit. The size of that limit. :: 10%
 The sum of debt and equity used in a company's operations. :: Invested capital
 ROIC above WACC means a company is this. :: Creating value
 A company with a ROIC of 15% and WACC of 9% has a spread of this. :: 6%
