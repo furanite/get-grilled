@@ -31,6 +31,8 @@ export interface Category {
   nameAr?: string
   builtIn: boolean
   levels: Question[][]
+  /** The study file this category came from (one subcategory of it), shown as a group in setup */
+  set?: { id: string; title: string }
   /** Extra items for the special rounds (built-in categories only) */
   modes?: Partial<Record<ItemMode, ModeItem[]>>
 }
@@ -197,4 +199,4 @@ export interface Tournament {
 
 export type ThemeId = 'amethyst' | 'emerald' | 'neon' | 'onyx' | 'rivals' | 'ember' | 'heritage'
 export type Lang = 'en' | 'ar'
-export type Screen = 'home' | 'setup' | 'game' | 'mode' | 'lightning' | 'final' | 'results' | 'builder' | 'round'
+export type Screen = 'home' | 'setup' | 'game' | 'mode' | 'lightning' | 'final' | 'results' | 'builder' | 'round' | 'study'

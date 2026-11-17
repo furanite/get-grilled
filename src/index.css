@@ -643,6 +643,13 @@ textarea.input{resize:vertical;min-height:44px}
 .vote.big .cat-pick b{font-size:clamp(16px,1.5vw,26px)}
 .vote.big .cat-pick:disabled{cursor:default}
 .vote.big .vote-grid .cat-pick:disabled:not(.voted){opacity:1}
+/* Question files (instructors make, students open) */
+.study-tabs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
+.study-tab{justify-content:center;font-weight:600}
+.study-check{padding:12px 14px;border-radius:12px;border:1px solid color-mix(in oklab,#ffb347 55%,transparent);background:color-mix(in oklab,#ffb347 10%,transparent);font-size:14px}
+.study-check.ok{border-color:color-mix(in oklab,#5ad17a 60%,transparent);background:color-mix(in oklab,#5ad17a 10%,transparent)}
+.study-check ul{margin:6px 0;padding-inline-start:18px}
+
 /* Whose turn it is to pick a tile */
 .scores .team.turn{outline:2px solid var(--accent);outline-offset:2px;box-shadow:0 0 18px -4px var(--glow)}
 

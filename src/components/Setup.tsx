@@ -126,6 +126,9 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
 
   const total = (c: { counts: number[] }) => c.counts.reduce((a, b) => a + b, 0)
   const customSummaries: CategorySummary[] = custom.map((c) => ({ id: c.id, name: c.name, nameAr: c.nameAr, builtIn: false, counts: c.levels.map((l) => l.length) }))
+  const ownSummaries = customSummaries.filter((_, i) => !custom[i].set)
+  // Categories from an instructor's question file sit together under the file's title, at the top so students find them.
+  const studySets = [...new Map(custom.filter((c) => c.set).map((c) => [c.set!.id, c.set!.title])).entries()]
 
   const start = async () => {
     if (teams.some((n) => !n.trim())) return setError(t.needTeams)
@@ -243,6 +246,12 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
         <span className="label">
           {vote ? t.pickShortlist : tour ? t.pickCatsTour : t.pickCats} · {num(picked.length, lang)}/{num(limit, lang)}
         </span>
+        {studySets.map(([id, title]) => (
+          <div key={id} className="stack" style={{ gap: 8 }} data-set={id}>
+            <span className="label">📚 {title}</span>
+            <div className="cat-grid">{customSummaries.filter((_, i) => custom[i].set?.id === id).map(card)}</div>
+          </div>
+        ))}
         {nights.length > 0 && index && (
           <details className="nights" data-testid="nights" open={nightsOpen} onToggle={(e) => toggleNights((e.currentTarget as HTMLDetailsElement).open)}>
             <summary className="nights-tile">
@@ -291,10 +300,10 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
               </details>
             ))
           })()}
-        {customSummaries.length > 0 && (
+        {ownSummaries.length > 0 && (
           <>
             <span className="label">{t.custom}</span>
-            <div className="cat-grid">{customSummaries.map(card)}</div>
+            <div className="cat-grid">{ownSummaries.map(card)}</div>
           </>
         )}
       </section>

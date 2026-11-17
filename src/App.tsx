@@ -17,6 +17,7 @@ import { Final, Lightning, ModeRound } from './components/Rounds'
 import Builder from './components/Builder'
 import { RoundIntro } from './components/Tournament'
 import type { VoteState } from './components/Vote'
+import StudyMaker from './components/StudyMaker'
 import { AudienceScreen, useAudienceWindow } from './components/Audience'
 import { HOST_EDITION, type Live } from './lib/edition'
 import { setFavicon } from './lib/favicon'
@@ -204,7 +205,7 @@ export default function App() {
           </header>
 
           {screen === 'home' && (
-            <Home t={t} lang={lang} theme={theme} setTheme={setTheme} hasGame={!!game} onNew={() => setScreen('setup')} onResume={() => game && setScreen(stageScreen(game))} onBuilder={() => setScreen('builder')} />
+            <Home t={t} lang={lang} theme={theme} setTheme={setTheme} hasGame={!!game} onNew={() => setScreen('setup')} onResume={() => game && setScreen(stageScreen(game))} onBuilder={() => setScreen('builder')} onStudy={() => setScreen('study')} />
           )}
           {screen === 'setup' && (
             <Setup
@@ -263,6 +264,7 @@ export default function App() {
             />
           )}
           {screen === 'builder' && <Builder t={t} lang={lang} index={index} custom={custom} setCustom={setCustom} pools={pools} setPool={setPool} notify={notify} onBack={() => setScreen('home')} />}
+          {screen === 'study' && <StudyMaker custom={custom} setCustom={setCustom} notify={notify} onBack={() => setScreen('home')} onPlay={() => setScreen('setup')} />}
           <Footer lang={lang} onOpen={setLegalView} />
         </div>
       </div>
