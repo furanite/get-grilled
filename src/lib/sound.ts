@@ -2,7 +2,8 @@ import type { ThemeId } from './types'
 import { renderFx, renderSuspense, renderTitle, ROLL_SECONDS, setSoundBase } from './tune-engine.js'
 
 /**
- * Every sound is made in the browser with Web Audio: no audio files to download or license.
+ * Most sounds are made in the browser with Web Audio. The title tunes and a few effects also use recorded
+ * instrument notes bundled in public/sounds (credited in Terms clause 19).
  * Browsers only allow sound after the person clicks or presses a key, so the first
  * click "unlocks" audio; a title tune asked for before that waits for it.
  */
