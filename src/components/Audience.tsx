@@ -1,4 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
+import { AudResult } from './LiveAudience'
+import { BuzzOrder } from './Buzzers'
 import { createPortal } from 'react-dom'
 import type { Game, Lang, Screen, ThemeId } from '../lib/types'
 import { VALUES } from '../lib/types'
@@ -117,8 +119,9 @@ export function AudienceScreen({ win, root, t, lang, theme, reduceFx, screen, ga
   return createPortal(<AudienceView t={t} lang={lang} theme={theme} screen={screen} game={game} live={live} vote={vote ?? null} win={win} />, root)
 }
 
-function AudienceView({ t, lang, theme, screen, game, live, vote, win }: { t: Strings; lang: Lang; theme: ThemeId; screen: Screen; game: Game | null; live: Live | null; vote: VoteState | null; win: Window }) {
-  const [helpShown, setHelpShown] = useState(true)
+/** What the room sees. Also drawn by the projector and team tablets on the Pi (noHelp: no projector tip). */
+export function AudienceView({ t, lang, theme, screen, game, live, vote, win, noHelp }: { t: Strings; lang: Lang; theme: ThemeId; screen: Screen; game: Game | null; live: Live | null; vote: VoteState | null; win: Window; noHelp?: boolean }) {
+  const [helpShown, setHelpShown] = useState(!noHelp)
   const helpTimer = useRef<number>()
   useEffect(() => {
     helpTimer.current = win.setTimeout(() => setHelpShown(false), 12000)
@@ -422,6 +425,8 @@ function AudienceView({ t, lang, theme, screen, game, live, vote, win }: { t: St
                 )}
               </>
             )}
+            {!live!.intro && !live!.revealed && live!.buzz && <BuzzOrder t={t} lang={lang} view={live!.buzz} teams={game.teams} big />}
+            {!live!.intro && live!.aud && <AudResult t={t} lang={lang} aud={live!.aud} big />}
             {!live!.intro && clueSeconds(game.settings, live!.l, clue) > 0 && <TimerBar clock={live!.clock ?? null} total={clueSeconds(game.settings, live!.l, clue)} lang={lang} timeUpText={t.timeUp} big />}
           </FitBox>
         </div>
