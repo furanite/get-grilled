@@ -5,6 +5,7 @@ import { claim, deviceLink, sendFromTeam, useDeviceFeed } from '../lib/live'
 import { isFinished, turnTeam } from '../lib/game'
 import { setFavicon } from '../lib/favicon'
 import { AudienceView } from './Audience'
+import { JoinCard } from './LiveAudience'
 import { Mark } from './Brand'
 
 type Step = 'claiming' | 'feed' | 'taken' | 'invalid'
@@ -92,6 +93,11 @@ export default function RemoteDevice({ fallbackLang }: { fallbackLang: Lang }) {
       {team === null && feed.status === 'lost' && <span className="pill bad remote-lost">{t.live.lost}</span>}
       <AudienceView t={t} lang={lang} theme={theme} screen={view.screen} game={game} live={view.live} vote={view.vote} win={window} noHelp={team !== null} />
       {finalQ && <FinalAnswerBox t={t} key={game!.finalState?.startedAt ?? 0} />}
+      {seat.kind === 'screen' && view.audience?.showJoin && (
+        <div className="join-overlay">
+          <JoinCard t={t} lang={lang} wifi={feed.join?.wifi ?? null} joined={feed.join?.joined ?? 0} />
+        </div>
+      )}
     </div>
   )
 }

@@ -10,6 +10,7 @@ import { loadSettings } from './lib/store'
 import { STRINGS } from './lib/i18n'
 import { HostLogin, setLiveServer } from './components/LiveHost'
 import RemoteDevice from './components/RemoteDevice'
+import { AudiencePhone } from './components/LiveAudience'
 
 /**
  * On GitHub Pages (or any plain host) this is just the game. When a Get Grilled Live server is
@@ -17,20 +18,21 @@ import RemoteDevice from './components/RemoteDevice'
  * normal app becomes a team tablet or projector screen opened from the host's links.
  */
 function Root() {
-  const [mode, setMode] = useState<'loading' | 'app' | 'login' | 'device'>('loading')
+  const [mode, setMode] = useState<'loading' | 'app' | 'login' | 'device' | 'phone'>('loading')
   const [pinSet, setPinSet] = useState(true)
   useEffect(() => {
     void detectServer().then(async (h) => {
       if (!h) return setMode('app')
       setLiveServer(true)
       setPinSet(h.pinSet)
-      if (!HOST_EDITION) return setMode('device')
+      if (!HOST_EDITION) return setMode(new URLSearchParams(location.search).get('a') === '1' ? 'phone' : 'device')
       setMode((await hostMe()) ? 'app' : 'login')
     })
   }, [])
   const settings = loadSettings()
   if (mode === 'loading') return null
   if (mode === 'device') return <RemoteDevice fallbackLang={settings.lang} />
+  if (mode === 'phone') return <AudiencePhone fallbackLang={settings.lang} />
   if (mode === 'login') {
     document.documentElement.dataset.theme = settings.theme
     return <HostLogin t={STRINGS[settings.lang]} theme={settings.theme} pinSet={pinSet} onIn={() => setMode('app')} />

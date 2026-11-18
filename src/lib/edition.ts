@@ -14,4 +14,13 @@ export interface Live {
   intro?: boolean
   /** Buzz order, when a buzzer box is plugged in */
   buzz?: BuzzView | null
+  /** On the Pi: how the audience's phones answered. counts and choices only after the reveal. */
+  aud?: AudView | null
+}
+
+export interface AudView {
+  total: number
+  choices?: string[]
+  counts?: number[]
+  correct?: number
 }

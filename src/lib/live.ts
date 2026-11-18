@@ -13,6 +13,25 @@ export interface Hello {
   live: boolean
   version: string
   pinSet: boolean
+  audience?: boolean
+}
+
+/** How the audience's answers stand on the question that is open (host side). */
+export interface Tally {
+  id: string | null
+  counts: number[]
+  total: number
+  joined: number
+}
+
+/** A question on the audience's phones. */
+export interface AudRound {
+  id: string
+  kind: 'clue' | 'vote'
+  q: string
+  choices: string[]
+  /** Seconds left to answer */
+  secs: number
 }
 
 /** A seat as the host sees it: a team tablet or the projector, its link, and whether a device is on it. */
@@ -112,9 +131,12 @@ class HostLive {
   seats: Seat[] = []
   msgs: TeamMsg[] = []
   connected = false
+  /** Audience phones: playing along, and the join QR code on the projector */
+  audience = { on: false, showJoin: false }
+  tally: Tally = { id: null, counts: [], total: 0, joined: 0 }
   private subs = new Set<() => void>()
   private es: EventSource | null = null
-  private snapshot = { seats: this.seats, msgs: this.msgs, connected: false }
+  private snapshot = { seats: this.seats, msgs: this.msgs, connected: false, audience: this.audience, tally: this.tally }
   private pending: PublicView | null = null
   private sending = false
 
@@ -124,7 +146,7 @@ class HostLive {
   }
   get = () => this.snapshot
   private changed() {
-    this.snapshot = { seats: this.seats, msgs: this.msgs, connected: this.connected }
+    this.snapshot = { seats: this.seats, msgs: this.msgs, connected: this.connected, audience: this.audience, tally: this.tally }
     this.subs.forEach((f) => f())
   }
 
@@ -148,6 +170,14 @@ class HostLive {
         /* ignore a broken message */
       }
     })
+    es.addEventListener('tally', (e) => {
+      try {
+        this.tally = JSON.parse((e as MessageEvent).data) as Tally
+        this.changed()
+      } catch {
+        /* ignore */
+      }
+    })
     es.addEventListener('msg', (e) => {
       try {
         const m = JSON.parse((e as MessageEvent).data) as TeamMsg
@@ -164,6 +194,25 @@ class HostLive {
     this.es = null
     this.connected = false
     this.changed()
+  }
+
+  /** Turn audience play on or off, or show or hide the join QR code on the projector. */
+  setAudience(p: Partial<{ on: boolean; showJoin: boolean }>) {
+    this.audience = { ...this.audience, ...p }
+    if (!this.audience.on) this.audience.showJoin = false
+    this.changed()
+    if (p.on !== undefined) void post('host/audience', { on: this.audience.on })
+  }
+  /** Put a question on the phones (or take it off with null). */
+  audRound(r: AudRound | null) {
+    if (!this.audience.on && r) return
+    void post('host/audience', { round: r })
+  }
+  audClose(id: string) {
+    void post('host/audience', { close: id })
+  }
+  audReveal(id: string, correct: number) {
+    void post('host/audience', { reveal: { id, correct } })
   }
 
   clearMsgs(type: TeamMsg['type']) {
@@ -221,6 +270,8 @@ export interface DeviceState {
   status: 'connecting' | 'live' | 'lost' | 'revoked' | 'none'
   seat: { kind: 'team' | 'screen'; index: number; name: string } | null
   view: PublicView | null
+  /** Projector only: the game's Wi-Fi for the join QR code, and how many phones have joined */
+  join?: { wifi: { ssid: string; pass: string } | null; audience: boolean; joined: number }
 }
 
 /** A team tablet's or projector's live feed from the server. */
@@ -234,8 +285,8 @@ export function useDeviceFeed(enabled: boolean): DeviceState {
     esRef.current = es
     es.addEventListener('view', (e) => {
       try {
-        const d = JSON.parse((e as MessageEvent).data) as { seat: DeviceState['seat']; view: PublicView | null }
-        setSt({ status: 'live', seat: d.seat, view: d.view })
+        const d = JSON.parse((e as MessageEvent).data) as { seat: DeviceState['seat']; view: PublicView | null; join?: DeviceState['join'] }
+        setSt({ status: 'live', seat: d.seat, view: d.view, join: d.join })
       } catch {
         /* ignore */
       }
@@ -250,6 +301,65 @@ export function useDeviceFeed(enabled: boolean): DeviceState {
       // The server refuses a device with no seat (401): EventSource then closes for good.
       if (es.readyState === EventSource.CLOSED) setSt((s) => ({ ...s, status: s.seat ? 'revoked' : 'none' }))
       else setSt((s) => ({ ...s, status: 'lost' }))
+    }
+    return () => {
+      stopped = true
+      es.close()
+    }
+  }, [enabled])
+  return st
+}
+
+// ----- audience phones -----
+export interface AudState {
+  theme: PublicView['theme']
+  lang: PublicView['lang']
+  on: boolean
+  score: number
+  round: {
+    id: string
+    kind: 'clue' | 'vote'
+    q: string
+    choices: string[]
+    open: boolean
+    closesAt: number
+    correct: number | null
+    mine: number | null
+    counts: number[] | null
+  } | null
+}
+
+/** The link the projector shows for phones to join. */
+export const joinUrl = () => new URL('/?a=1', location.href).toString()
+
+export async function joinAudience(): Promise<'ok' | 'closed' | 'full' | 'offline'> {
+  try {
+    const r = await post('aud/join', {})
+    return r.ok ? 'ok' : r.status === 403 ? 'closed' : r.status === 503 ? 'full' : 'offline'
+  } catch {
+    return 'offline'
+  }
+}
+export const answerAudience = (id: string, choice: number) => post<{ mine?: number; error?: string }>('aud/answer', { id, choice })
+
+/** A phone's live feed: the question, its own pick, and the result after the reveal. */
+export function useAudienceFeed(enabled: boolean): { status: 'connecting' | 'live' | 'lost' | 'out'; state: AudState | null; skew: number } {
+  const [st, setSt] = useState<{ status: 'connecting' | 'live' | 'lost' | 'out'; state: AudState | null; skew: number }>({ status: 'connecting', state: null, skew: 0 })
+  useEffect(() => {
+    if (!enabled) return
+    let stopped = false
+    const es = new EventSource(api('aud/events'), { withCredentials: true })
+    es.addEventListener('state', (e) => {
+      try {
+        const d = JSON.parse((e as MessageEvent).data) as AudState
+        setSt((s) => ({ ...s, status: 'live', state: d }))
+      } catch {
+        /* ignore */
+      }
+    })
+    es.onerror = () => {
+      if (stopped) return
+      setSt((s) => ({ ...s, status: es.readyState === EventSource.CLOSED ? 'out' : 'lost' }))
     }
     return () => {
       stopped = true

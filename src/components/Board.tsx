@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react'
+import { useAudienceRound } from './LiveAudience'
 import { CatIcon } from './Brand'
 import type { Game, Lang } from '../lib/types'
 import TileIntro from './TileIntro'
@@ -11,7 +12,7 @@ import { createPortal } from 'react-dom'
 import AdjustScores, { type Adjustment } from './AdjustScores'
 import { burst, burstAt, reducedMotion } from '../lib/fx'
 import { CONSENT_TEXT } from '../lib/legal'
-import { HOST_EDITION, type Live } from '../lib/edition'
+import { HOST_EDITION, type AudView, type Live } from '../lib/edition'
 import { diagramSrc } from '../lib/diagram'
 import { GameClock, TimerBar, type Clock } from './Timer'
 import { clockStart, clockStop, drumRoll, prepareSuspense, sfx } from '../lib/sound'
@@ -45,9 +46,9 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
   const cols = game.cats.length
   const left = cols * 5 - game.used.length
 
-  const [cardState, setCardState] = useState<{ revealed: boolean; clock: Clock | null; intro?: boolean; buzz?: BuzzView | null }>({ revealed: false, clock: null })
+  const [cardState, setCardState] = useState<{ revealed: boolean; clock: Clock | null; intro?: boolean; buzz?: BuzzView | null; aud?: AudView | null }>({ revealed: false, clock: null })
   useEffect(() => {
-    onLive?.(open ? { c: open.c, l: open.l, revealed: cardState.revealed, clock: cardState.clock, intro: cardState.intro, buzz: cardState.buzz ?? null } : null)
+    onLive?.(open ? { c: open.c, l: open.l, revealed: cardState.revealed, clock: cardState.clock, intro: cardState.intro, buzz: cardState.buzz ?? null, aud: cardState.aud ?? null } : null)
   }, [open, cardState, onLive])
   useEffect(() => () => onLive?.(null), [onLive])
 
@@ -307,7 +308,7 @@ interface CardProps {
   /** Steal tile: take the clue's points from this team (the team that answered already has them). */
   onSteal: (from: number) => void
   onClose: (used: boolean) => void
-  onState: (s: { revealed: boolean; clock: Clock | null; intro: boolean; buzz: BuzzView | null }) => void
+  onState: (s: { revealed: boolean; clock: Clock | null; intro: boolean; buzz: BuzzView | null; aud: AudView | null }) => void
   timeUp: boolean
 }
 
@@ -372,14 +373,17 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
   const buzz = useBuzzRound({ live: !intro && !revealed && !rolling && phase !== 'closing', wrong, teams: game.teams.length })
   const buzzView: BuzzView | null = buzz.ready ? { open: buzz.isOpen, order: buzz.order, wrong } : null
   const buzzKey = buzzView ? JSON.stringify(buzzView) : ''
+  // On the Pi: the audience's phones answer too.
+  const aud = useAudienceRound({ game, c: open.c, l: open.l, intro, revealed, secs: timerSecs, lang })
+  const audKey = aud ? JSON.stringify(aud) : ''
 
   const stateRef = useRef(onState)
   stateRef.current = onState
   useEffect(() => {
-    stateRef.current({ revealed, clock, intro, buzz: buzzView })
+    stateRef.current({ revealed, clock, intro, buzz: buzzView, aud })
     // buzzKey stands for buzzView, which is a new object every render.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [revealed, clock, intro, buzzKey])
+  }, [revealed, clock, intro, buzzKey, audKey])
 
   const reveal = useCallback(() => {
     if (revealed || intro || rolling) return
