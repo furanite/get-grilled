@@ -604,6 +604,26 @@ const RIGHT = {
   ember: { len: 1.5, uses: ['tbn', 'horn', 'timp'], play(t) { I.taiko(t, 0.6); RC('tbn', [50, 57], t, 0.6, 0.9, 0.4); RC('horn', [62, 66, 69], t + 0.05, 0.6, 0.9, 0.5); R('timp', 38, t, null, 0.8) } },
 }
 
+// ---------- Nobody got it: the owner's pick per theme (18 November 2026) ----------
+function powerDown(t, d = 0.6, g = 0.04) { const v = ctx.createGain(); v.gain.setValueAtTime(g, t); v.gain.exponentialRampToValueAtTime(0.0001, t + d); const o = osc('square', 880, t, d); o.frequency.exponentialRampToValueAtTime(110, t + d); o.connect(lp(2500)).connect(v); send(v) }
+function steam(t, d = 0.8, g = 0.04) { const n = noiseSrc(t, d), f = ctx.createBiquadFilter(); f.type = 'highpass'; f.frequency.value = 3000; const v = ctx.createGain(); v.gain.setValueAtTime(g, t); v.gain.exponentialRampToValueAtTime(0.0001, t + d); n.connect(f).connect(v); send(v) }
+const NOBODY = {
+  // A · Falling horns
+  amethyst: { len: 1.7, uses: ['horn', 'timp'], play(t) { R('horn', 62, t, 0.3, 0.8); RC('horn', [53, 57, 62], t + 0.32, 0.8, 0.7, 0.6); R('timp', 38, t + 0.32, null, 0.4) } },
+  // C · Two drums
+  emerald: { len: 1.4, uses: [], play(t) { I.tak(t, 0.12); I.dum(t + 0.35, 0.45); wind(t, 1.2, 0.02, 700) } },
+  // A · Power down
+  neon: { len: 1, uses: ['bd'], play(t) { powerDown(t, 0.7, 0.045); I.kick(t + 0.65, 0.3) } },
+  // C · Walking off
+  onyx: { len: 1.1, uses: ['spic'], play(t) { [46, 44, 43, 41].forEach((m, i) => { R('spic', m, t + i * 0.18, 0.15, 1.1); brush(t + i * 0.18, 0.03) }) } },
+  // B · Crowd groan
+  rivals: { len: 1.2, uses: ['bd'], play(t) { const n = noiseSrc(t, 1), f = ctx.createBiquadFilter(); f.type = 'bandpass'; f.Q.value = 2; f.frequency.setValueAtTime(700, t); f.frequency.exponentialRampToValueAtTime(350, t + 0.9); const v = ctx.createGain(); v.gain.setValueAtTime(0.0001, t); v.gain.linearRampToValueAtTime(0.06, t + 0.2); v.gain.linearRampToValueAtTime(0.0001, t + 1); n.connect(f).connect(v); send(v); R('bd', 36, t, null, 0.6) } },
+  // C · Smoke
+  ember: { len: 1.6, uses: ['horn', 'vc'], play(t) { R('horn', 57, t, 0.8, 0.7, 0.6); R('vc', 38, t, 0.9, 0.7, 0.6); steam(t + 0.4, 0.6, 0.02) } },
+  // A · Desert wind (no music)
+  heritage: { len: 1.5, uses: [], play(t) { wind(t, 1.3, 0.06, 600); sand(t + 0.1, 1) } },
+}
+
 const SR = 44100
 let BASE = './'
 const FILES = {}
@@ -678,6 +698,20 @@ export function renderRight(theme) {
   const S = RIGHT[theme]
   if (!S) return Promise.reject(new Error(`no right-answer sound ${theme}`))
   return render(S.len + 0.6, 0.4, false, S.uses, (t) => S.play(t))
+}
+
+/** The theme's "nobody got it" sound. */
+export function renderNobody(theme) {
+  const S = NOBODY[theme]
+  if (!S) return Promise.reject(new Error(`no nobody sound ${theme}`))
+  // The pieces differ a lot in loudness (wind against brass), so each is brought to the same peak.
+  return render(S.len + 0.6, 0.4, false, S.uses, (t) => S.play(t)).then((buf) => {
+    let peak = 0
+    for (let ch = 0; ch < buf.numberOfChannels; ch++) for (const x of buf.getChannelData(ch)) peak = Math.max(peak, Math.abs(x))
+    const k = peak > 0 ? Math.min(12, 0.42 / peak) : 1
+    for (let ch = 0; ch < buf.numberOfChannels; ch++) { const d = buf.getChannelData(ch); for (let i = 0; i < d.length; i++) d[i] *= k }
+    return buf
+  })
 }
 
 /** The theme's winner music, for the results screen: a triumphant piece ending with the crowd cheering. */

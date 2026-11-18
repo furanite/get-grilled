@@ -1,5 +1,5 @@
 import type { ThemeId } from './types'
-import { renderFx, renderIntro, renderRight, renderSuspense, renderTitle, renderWin, ROLL_SECONDS, setSoundBase } from './tune-engine.js'
+import { renderFx, renderIntro, renderNobody, renderRight, renderSuspense, renderTitle, renderWin, ROLL_SECONDS, setSoundBase } from './tune-engine.js'
 
 /**
  * Most sounds are made in the browser with Web Audio. The title tunes and a few effects also use recorded
@@ -361,6 +361,7 @@ export function prepareSuspense() {
   const theme = pageTheme()
   winBuf(theme)
   if (!rights.has(theme) && typeof OfflineAudioContext !== 'undefined') rights.set(theme, renderRight(theme).then((b) => (rightReady[theme] = b), () => null))
+  if (!nobodys.has(theme) && typeof OfflineAudioContext !== 'undefined') nobodys.set(theme, renderNobody(theme).then((b) => (nobodyReady[theme] = b), () => null))
   for (const kind of ['clock', 'roll'] as const) {
     const key = `${theme}-${kind}`
     suspenseBuf(theme, kind).then((b) => settled.set(key, b))
@@ -378,6 +379,9 @@ function playRight(c: AudioContext) {
   src.start()
   return true
 }
+// ---- Nobody got it: each theme's picked sound (18 November 2026) ----
+const nobodys = new Map<string, Promise<AudioBuffer | null>>()
+const nobodyReady: Record<string, AudioBuffer> = {}
 // ---- Winner music: each theme's triumphant piece for the results screen (picked 18 November 2026) ----
 const wins = new Map<string, Promise<AudioBuffer | null>>()
 function winBuf(theme: string) {
@@ -543,6 +547,21 @@ const fx = {
     const f = [392, 523.25, 659.25, 783.99][((team % 4) + 4) % 4]
     tone(c, { f, d: 0.32, g: 0.09, type: 'square', lp: 2200 })
     tone(c, { f: f * 1.5, t: 0.09, d: 0.32, g: 0.05, type: 'square', lp: 2200 })
+  },
+  /** The host pressed "Nobody got it": the theme's gentle "oh well" (a soft falling pair if it isn't ready). */
+  nobody() {
+    const c = ready()
+    if (!c) return
+    const buf = nobodyReady[pageTheme()]
+    if (!buf) {
+      bell(c, 67, 0, 0.6, 0.06)
+      bell(c, 62, 0.18, 1, 0.06)
+      return
+    }
+    const src = c.createBufferSource()
+    src.buffer = buf
+    src.connect(c.destination)
+    src.start()
   },
   /** Score changed by hand, or a small UI confirmation. */
   soft() {

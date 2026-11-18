@@ -14,3 +14,5 @@ export function renderIntro(theme: string, team?: number, members?: number): Pro
 export function renderFx(kind: 'timeUp' | 'wrong'): Promise<AudioBuffer>
 /** The theme's picked right-answer sound (Heritage has none and keeps the bells). */
 export function renderRight(theme: string): Promise<AudioBuffer>
+/** The theme's "nobody got it" sound. */
+export function renderNobody(theme: string): Promise<AudioBuffer>

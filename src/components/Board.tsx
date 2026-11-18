@@ -328,20 +328,30 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
   const a = lang === 'ar' && clue.aAr ? clue.aAr : clue.a
   const timerSecs = clueSeconds(game.settings, open.l, clue)
 
-  const rectStyle = (el: Element) => {
-    const r = el.getBoundingClientRect()
-    return { left: r.left + 'px', top: r.top + 'px', width: r.width + 'px', height: r.height + 'px' }
+  // The card animates with transform only (no layout work per frame): it sits at its open size and place,
+  // and toTile() is the transform that shrinks it back onto its tile.
+  const toTile = (card: HTMLElement) => {
+    const t = open.el.getBoundingClientRect()
+    const r = card.getBoundingClientRect()
+    if (!r.width || !r.height) return 'none'
+    const dx = t.left + t.width / 2 - (r.left + r.width / 2)
+    const dy = t.top + t.height / 2 - (r.top + r.height / 2)
+    return `translate(${dx}px, ${dy}px) scale(${t.width / r.width}, ${t.height / r.height})`
   }
 
   useLayoutEffect(() => {
     const card = ref.current!
-    Object.assign(card.style, rectStyle(open.el))
-    card.getBoundingClientRect()
     const W = Math.min(clue.img ? 960 : 820, innerWidth - 24)
     const H = Math.min(clue.img ? 760 : 560, innerHeight - 32)
+    card.style.transition = 'none'
+    Object.assign(card.style, { left: (innerWidth - W) / 2 + 'px', top: (innerHeight - H) / 2 + 'px', width: W + 'px', height: H + 'px' })
+    card.style.transform = 'none'
+    card.style.transform = toTile(card)
+    card.getBoundingClientRect()
     requestAnimationFrame(() => {
+      card.style.transition = ''
       setPhase('open')
-      Object.assign(card.style, { left: (innerWidth - W) / 2 + 'px', top: (innerHeight - H) / 2 + 'px', width: W + 'px', height: H + 'px' })
+      card.style.transform = 'none'
     })
     if (clue.golden) {
       setTimeout(() => burst(innerWidth / 2, innerHeight / 2, 46, 260), 500)
@@ -411,7 +421,10 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
       // (Back, Esc or a click outside) can't put it back on the board for another go.
       used = used || revealed || rolling || wrong.length > 0
       const card = ref.current!
-      setTimeout(() => Object.assign(card.style, rectStyle(open.el)), 120)
+      setTimeout(() => {
+        card.style.transform = 'none'
+        card.style.transform = toTile(card)
+      }, 120)
       setTimeout(() => onClose(used), reducedMotion() ? 10 : 780)
     },
     [phase, open.el, onClose, revealed, rolling, wrong.length],
@@ -552,7 +565,7 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
                 <button className="btn" onClick={reveal} disabled={revealed || rolling} data-testid="reveal">
                   {HOST_EDITION ? t.showOnScreen : t.reveal}
                 </button>
-                <button className="btn alt" onClick={() => close(true)} data-testid="nobody">
+                <button className="btn alt" onClick={() => { sfx.nobody(); close(true) }} data-testid="nobody">
                   {t.nobody}
                 </button>
               </div>
