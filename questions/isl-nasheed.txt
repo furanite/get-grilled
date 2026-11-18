@@ -1,0 +1,315 @@
+id: isl-nasheed
+name: Nasheeds, Ilahis and Naats
+nameAr: الأناشيد والمدائح النبوية
+group: nasheed
+# Praise of our Beloved Prophet ﷺ across the Muslim world: Arabia, the Levant and Egypt, Africa, Turkey and the Balkans, Persia and Central Asia, South Asia and Southeast Asia.
+# Only titles and well-known opening words are quoted; nothing else is quoted. Weak reports are named as weak.
+
+## 100
+The Arabic name for poetry in praise of our Beloved Prophet ﷺ. :: al-Madih al-Nabawi (Prophetic praise) || H: al-Majmu'ah al-Nabhaniyyah (al-Nabhani)
+The Companion poet for whom our Beloved Prophet ﷺ set up a minbar in the mosque to answer for him in verse. :: Hassan ibn Thabit ﵁ || H: Sunan Abi Dawud; Jami' al-Tirmidhi
+Our Beloved Prophet ﷺ prayed that this one, the Holy Spirit, would support Hassan ibn Thabit ﵁. :: Jibril ﵇ (Ruh al-Qudus) || H: Sahih al-Bukhari
+The most famous poem of praise by al-Busiri رحمة الله عليه, known by the name of a cloak. :: al-Burdah (Qasidat al-Burdah) || H: Diwan al-Busiri
+The full title of al-Busiri's رحمة الله عليه Burdah begins "al-Kawakib al-Durriyyah", meaning this. :: The Shining Stars || H: Diwan al-Busiri
+The poem of the Companion Ka'b ibn Zuhayr ﵁, recited before our Beloved Prophet ﷺ, which opens "Banat Su'ad". :: Banat Su'ad (also called al-Burdah) || H: al-Sirah al-Nabawiyyah (Ibn Hisham)
+The words "Tala'a al-badru 'alayna" are linked in a weak report with our Beloved Prophet's ﷺ arrival in this city. :: Madinah al-Munawwarah || H: Dala'il al-Nubuwwah (al-Bayhaqi), a weak report without a full chain
+The Arabic word for a long poem with one rhyme and one metre, the form of most praise poems. :: Qasidah || H: Standard reference
+A book read aloud in gatherings that tells of our Beloved Prophet's ﷺ blessed birth in prose and verse. :: A Blessed Mawlid || H: al-Hawi lil-Fatawi (al-Suyuti), Husn al-Maqsid
+The country of al-Busiri رحمة الله عليه, where he lived and is buried, in Alexandria. :: Egypt || H: Fawat al-Wafayat (al-Kutubi)
+The famous book of blessings (salawat) on our Beloved Prophet ﷺ written by Imam al-Jazuli رحمة الله عليه of Morocco. :: Dala'il al-Khayrat || H: Dala'il al-Khayrat
+The country of Imam al-Jazuli رحمة الله عليه, author of Dala'il al-Khayrat. :: Morocco || H: Mumti' al-Asma' (al-Mahdi al-Fasi)
+The Swahili word, from Arabic, for a praise poem or song. :: Kasida (qaswida) || H: Standard reference
+The Swahili name for the Blessed Mawlid and its recital, as in the festival of Lamu. :: Maulidi || H: Standard reference
+The island town in Kenya famous for its yearly Maulidi festival. :: Lamu || H: Standard reference
+The founder of the Sokoto Caliphate who wrote many poems praising our Beloved Prophet ﷺ in Arabic, Fulfulde and Hausa. :: Shaykh 'Uthman ibn Fudi (Usman dan Fodio) رحمة الله عليه || H: Standard history
+The scholar and poet daughter of Shaykh 'Uthman ibn Fudi رحمة الله عليه, who wrote in Arabic, Fulfulde and Hausa. :: Nana Asma'u رحمة الله عليها || H: Standard history
+The Senegalese scholar whose praise poems, called "khassaids", are chanted at Touba. :: Shaykh Ahmadu Bamba رحمة الله عليه || H: Standard history
+The holy city in Senegal founded by Shaykh Ahmadu Bamba رحمة الله عليه. :: Touba || H: Standard history
+The Arabic word used in Mauritania and the Maghrib for chanting praise of our Beloved Prophet ﷺ. :: Madih (madh) || H: Standard reference
+The Turkish name for a hymn praising Allah, sung in mosques and Sufi gatherings. :: Ilahi || H: Standard reference
+The Turkish name for a poem praising our Beloved Prophet ﷺ, from the Arabic word for describing. :: Na't (na't-ı şerif) || H: Standard reference
+The Anatolian Sufi poet of the 7th-8th century AH whose simple Turkish poems are still sung as ilahis. :: Yunus Emre رحمة الله عليه || H: Standard history
+The Turkish word for the Blessed Mawlid poem, read at births, deaths and holy nights. :: Mevlid || H: Standard reference
+The poet of Bursa who wrote the most famous Turkish Mevlid, "Vesiletü'n-Necat". :: Süleyman Çelebi رحمة الله عليه || H: Standard history
+"Vesiletü'n-Necat", the title of Süleyman Çelebi's رحمة الله عليه Mevlid, means this. :: The Means of Salvation || H: Standard reference
+The section of the Turkish Mevlid on the blessed birth is named after this word of welcome, repeated in its verses. :: Merhaba (Marhaban) || H: Vesiletü'n-Necat
+The Turkish name for the five holy nights when minarets are lit, from the word for an oil lamp. :: Kandil || H: Standard reference
+The Ottoman Turkish name for a written description of our Beloved Prophet's ﷺ features, often framed as calligraphy. :: Hilye (hilye-i şerif) || H: Standard reference
+The Ramadan message in lights strung between two minarets, an Ottoman tradition. :: Mahya || H: Standard reference
+The Persian word for a poem praising our Beloved Prophet ﷺ, used across Iran, Central Asia and South Asia. :: Na't || H: Standard reference
+The Persian word for a poem praising Allah, which usually comes before the na't in a long poem. :: Hamd || H: Standard reference
+The great Persian poem of Mawlana Jalal al-Din Rumi رحمة الله عليه, which opens with the lament of a reed flute. :: The Mathnawi || H: The Mathnawi
+The city in Anatolia where Mawlana Jalal al-Din Rumi رحمة الله عليه lived, taught and is buried. :: Konya || H: Standard history
+The Persian poet of Shiraz who wrote the Gulistan and the Bustan. :: Sa'di رحمة الله عليه || H: Standard history
+The Persian poet of Herat, a Naqshbandi scholar, called "the seal of the poets". :: Mawlana 'Abd al-Rahman Jami رحمة الله عليه || H: Standard history
+The Persian poet of Nishapur who wrote "Mantiq al-Tayr" (The Conference of the Birds). :: Farid al-Din 'Attar رحمة الله عليه || H: Standard history
+The Turkic Sufi poet of Yasi whose "Diwan-i Hikmat" was sung across Central Asia. :: Khwajah Ahmad Yasawi رحمة الله عليه || H: Standard history
+The city in Kazakhstan, once called Yasi, where Ahmad Yasawi's رحمة الله عليه great tomb stands. :: Turkistan || H: UNESCO World Heritage Centre, Mausoleum of Khoja Ahmed Yasawi
+The short sayings in verse of Ahmad Yasawi رحمة الله عليه are called this. :: Hikmat (wisdoms) || H: Diwan-i Hikmat
+The Urdu word for a poem praising our Beloved Prophet ﷺ. :: Naat || H: Standard reference
+The Urdu word for a poem praising Allah. :: Hamd || H: Standard reference
+The poem of greeting to our Beloved Prophet ﷺ, often recited standing at the end of a gathering. :: Salam || H: Standard reference
+The Urdu word for a poem in praise of a saint or of the Blessed Family (رِضْوَانُ اللَّهِ عَلَيْهِمْ). :: Manqabat || H: Standard reference
+The scholar of Bareilly whose naat collection is called "Hada'iq-e Bakhshish". :: Imam Ahmad Raza Khan رحمة الله عليه || H: Hada'iq-e Bakhshish
+The famous Urdu salam of Imam Ahmad Raza Khan رحمة الله عليه begins with these words. :: "Mustafa jaan-e rahmat pe lakhon salam" || H: Hada'iq-e Bakhshish
+The poet and Sufi of Delhi, student of Nizam al-Din Awliya' رحمة الله عليه, who wrote in Persian and Hindavi. :: Amir Khusraw رحمة الله عليه || H: Standard history
+The Persian title meaning "Garden of Forgiveness" for Imam Ahmad Raza Khan's رحمة الله عليه naats. :: Hada'iq-e Bakhshish || H: Hada'iq-e Bakhshish
+A person who recites naats is called this in Urdu. :: Naat khwan || H: Standard reference
+The month in which naat gatherings (mehfil-e milad) are held most of all. :: Rabi' al-Awwal || H: Standard reference
+The Indonesian word for songs of blessings on our Beloved Prophet ﷺ, from the Arabic "salawat". :: Sholawat (selawat) || H: Standard reference
+The Malay word for an Islamic song or hymn, from the Arabic "nashid". :: Nasyid || H: Standard reference
+The Malay and Indonesian name for reading the Blessed Mawlid of al-Barzanji رحمة الله عليه. :: Berzanji (barzanji) || H: Standard reference
+The Malay and Indonesian word for the frame drum played with sholawat and qasidah. :: Rebana || H: Standard reference
+The Indonesian word for the Blessed Mawlid of our Beloved Prophet ﷺ. :: Maulid Nabi || H: Standard reference
+The Malay word of welcome sung while a newborn baby is carried among the guests. :: Marhaban || H: Standard reference
+The country with the largest Muslim population in the world, where sholawat gatherings fill stadiums. :: Indonesia || H: Standard reference
+The Islamic boarding schools of Java, where the Blessed Mawlid and sholawat are chanted every week. :: Pesantren || H: Standard reference
+
+## 200
+Al-Busiri's رحمة الله عليه Burdah ends every verse on this letter, so it is also called "al-Mimiyyah". :: Mim || H: Diwan al-Busiri
+Al-Busiri's رحمة الله عليه second great praise poem, rhyming on the hamzah. :: al-Hamziyyah (Umm al-Qura) || H: Diwan al-Busiri
+The Companion poet who wrote "Banat Su'ad" after first being against Islam, then came to accept it. :: Ka'b ibn Zuhayr ﵁ || H: al-Sirah al-Nabawiyyah (Ibn Hisham)
+The Companion poet, one of the Ansar, who also answered the poets of Quraysh, alongside Hassan ﵁. :: 'Abdullah ibn Rawahah or Ka'b ibn Malik (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: Sahih Muslim; al-Isti'ab (Ibn 'Abd al-Barr)
+The Blessed Mawlid by Ja'far al-Barzanji رحمة الله عليه, read across the Muslim world, is known by this name. :: Mawlid al-Barzanji ('Iqd al-Jawhar) || H: 'Iqd al-Jawhar fi Mawlid al-Nabi al-Azhar
+Ja'far al-Barzanji رحمة الله عليه, author of the famous Blessed Mawlid, was the Shafi'i mufti of this city. :: Madinah al-Munawwarah || H: Silk al-Durar (al-Muradi)
+The Blessed Mawlid written by 'Abd al-Rahman al-Dayba' رحمة الله عليه, a hadith scholar of Zabid. :: Mawlid al-Dayba'i || H: al-Nur al-Safir (al-'Aydarus)
+The land of Zabid, the town of al-Dayba' رحمة الله عليه. :: Yemen || H: al-Nur al-Safir (al-'Aydarus)
+The Blessed Mawlid "Simt al-Durar" was written by Habib 'Ali al-Habshi رحمة الله عليه of this valley in Yemen. :: Hadramawt (Say'un) || H: Simt al-Durar
+The poet called "Amir al-Shu'ara'" who wrote "Nahj al-Burdah" in the 20th century CE. :: Ahmad Shawqi رحمة الله عليه || H: al-Shawqiyyat
+The Sudanese poet of the 13th century AH who wrote hundreds of praise poems still sung in Sudan. :: Hajj al-Mahi رحمة الله عليه || H?: Standard reference on Sudanese madih; check his dates
+The Senegalese town of El Hadj Malick Sy رحمة الله عليه, where a great Blessed Mawlid (Gamou) is held each year. :: Tivaouane || H: Standard history
+El Hadj Malick Sy's رحمة الله عليه long poem on the Blessed Seerah is called "Khilas al-Dhahab", meaning this. :: Pure Gold || H: Khilas al-Dhahab fi Sirat Khayr al-'Arab
+The Senegalese scholar of Kaolack known as "Shaykh al-Islam" whose six Diwans praise our Beloved Prophet ﷺ. :: Shaykh Ibrahim Niasse رحمة الله عليه || H?: al-Dawawin al-Sitt; check the title
+The scholar who founded the Riyadha Mosque in Lamu, where the Maulidi festival began. :: Habib Salih Jamal al-Layl رحمة الله عليه || H: Standard history
+The Swahili poem "Utendi wa Hamziyya" translates this Arabic praise poem. :: al-Busiri's رحمة الله عليه Hamziyyah || H: Standard reference on Swahili manuscripts
+The city in Ethiopia, with its old walls, known as a centre of Islamic learning and devotional poetry. :: Harar || H: UNESCO World Heritage Centre, Harar Jugol
+The Ethiopian form of Islamic devotional poetry, often chanted in Amharic or Afaan Oromo. :: Manzuma || H: Standard reference
+The great Somali scholar of the Qadiri way, from Barawa, who wrote poems in Arabic and Somali. :: Shaykh Uways al-Barawi رحمة الله عليه || H: Standard history
+The Moroccan art of chanting the Burdah and other praise poems is called "al-Sama' wal-Madih"; "madih" means this. :: Praise (of our Beloved Prophet ﷺ) || H: Standard reference
+The city of Mali, with the Sankore Mosque, whose old manuscripts include many praise poems. :: Timbuktu || H: UNESCO World Heritage Centre, Timbuktu
+The Ottoman composer who set the famous Na't-ı Şerif sung at the start of the Mevlevi ceremony. :: Buhurizade Mustafa Itri رحمة الله عليه || H: Standard reference
+The words of the Na't-ı Şerif set by Itri رحمة الله عليه are by this great poet of Konya. :: Mawlana Jalal al-Din Rumi رحمة الله عليه || H: Standard reference
+The Ottoman calligrapher who set the standard layout of the calligraphic hilye panel. :: Hafız Osman رحمة الله عليه || H: Standard reference
+The Ottoman poet who wrote the best-known hilye in Turkish verse, "Hilye-i Hakani". :: Hakani Mehmed Bey رحمة الله عليه || H: Standard reference
+The Ottoman Sufi of Üsküdar, founder of the Celveti way, whose ilahis are still sung. :: Aziz Mahmud Hüdayi رحمة الله عليه || H: Standard history
+The Anatolian Sufi of İznik who wrote "Müzekki'n-Nüfus" and many ilahis. :: Eşrefoğlu Rumi رحمة الله عليه || H: Standard history
+The call from the minaret with blessings on our Beloved Prophet ﷺ before the Friday prayer or to announce a death. :: Sela || H: Standard reference
+The hymns sung from the minarets in the night hours of the holy months, in the Ottoman tradition. :: Temcid || H: Standard reference
+The ilahi-like hymns sung between the parts of the Mevlid. :: Tevşih || H?: Standard reference; check the term
+The Bosnian name for ilahis, sung with "kaside" in Bosnia. :: Ilahije || H: Standard reference
+The poet of Herat who wrote in Chagatai Turkic and was a friend and student of Jami رحمة الله عليه. :: 'Ali-Shir Nava'i رحمة الله عليه || H: Standard history
+The city, now in Afghanistan, where Jami and Nava'i رحمة الله عليهما lived. :: Herat || H: Standard history
+The Persian poet of Ghazni whose "Hadiqat al-Haqiqah" set the model for Sufi mathnawis. :: Sana'i رحمة الله عليه || H: Standard history
+The poet of Ganja whose five long poems are called the "Khamsa". :: Nizami Ganjawi رحمة الله عليه || H: Standard history
+Many long Persian poems open with hamd, then na't, then a passage on this blessed night of our Beloved Prophet ﷺ. :: The Mi'raj (Night Journey and Ascension) || H: Makhzan al-Asrar (Nizami)
+The first of Nizami's رحمة الله عليه five poems, full of praise and counsel. :: Makhzan al-Asrar || H: Makhzan al-Asrar
+Rumi's رحمة الله عليه collection of ghazals is named after his spiritual companion. :: Diwan-i Shams-i Tabrizi (Diwan-i Kabir) || H: Standard reference
+The Persian poem of Jami رحمة الله عليه, beginning "Nasima jaanib-e Batha guzar kun", asks this wind to carry greetings. :: The morning breeze (nasim) || H: Diwan-i Jami
+The Persian word for a poem in praise of a saint or of the Blessed Family (رِضْوَانُ اللَّهِ عَلَيْهِمْ). :: Manqabat || H: Standard reference
+The Sufi way of Jami رحمة الله عليه and of Baha' al-Din Naqshband رحمة الله عليه of Bukhara. :: The Naqshbandi way || H: Standard history
+The Punjabi naat "Aj sik mitran di vadheri ae" was written by this Sufi of Golra Sharif. :: Pir Mehr Ali Shah رحمة الله عليه || H: Standard reference
+The city near Islamabad where Pir Mehr Ali Shah رحمة الله عليه lived and is buried. :: Golra Sharif || H: Standard history
+The Urdu poet of Kakori famous for a naat qasidah that begins with the clouds moving from Kashi to Mathura. :: Muhsin Kakorvi رحمة الله عليه || H: Kulliyat-e Muhsin
+The Punjabi Sufi poet of Kashmir whose long poem "Saif al-Muluk" opens with hamd and naat. :: Mian Muhammad Bakhsh رحمة الله عليه || H: Saif al-Muluk
+The Sindhi Sufi poet of Bhit Shah whose verses are gathered in "Shah jo Risalo". :: Shah 'Abd al-Latif Bhittai رحمة الله عليه || H: Shah jo Risalo
+The brother of Imam Ahmad Raza Khan رحمة الله عليه whose naat collection is "Zauq-e Naat". :: Hasan Raza Khan رحمة الله عليه || H: Zauq-e Naat
+The Urdu poet who wrote the long epic "Shahnama-e Islam" on the history of Islam. :: Hafeez Jalandhari رحمة الله عليه || H: Shahnama-e Islam
+The gathering held to remember the blessed birth with naats and salam, in Urdu called this. :: Mehfil-e Milad (Milad sharif) || H: Standard reference
+The Hindavi and Persian music of Sufi gatherings that Amir Khusraw رحمة الله عليه is said to have shaped. :: Qawwali || H?: Standard reference; the credit is traditional
+The Persian naat beginning "Nasima jaanib-e Batha guzar kun", loved in South Asia, is by this poet of Herat. :: Mawlana Jami رحمة الله عليه || H: Diwan-i Jami
+The Malay ceremony for a baby's first haircut, held with marhaban and berzanji. :: Cukur jambul || H: Standard reference
+The Javanese name for reading the Blessed Mawlid of al-Dayba' رحمة الله عليه, common in pesantren. :: Diba'an || H: Standard reference
+The famous Indonesian sholawat on the Companions of Badr (رِضْوَانُ اللَّهِ عَلَيْهِمْ), written by Kiai 'Ali Manshur رحمة الله عليه. :: Sholawat Badar || H: Standard reference
+The week-long Blessed Mawlid celebration at the palaces of Yogyakarta and Surakarta. :: Sekaten || H: Standard reference
+The Javanese procession that ends the Sekaten, with mountains of food carried from the palace. :: Grebeg Maulud || H: Standard reference
+The nine saints who spread Islam in Java, remembered for using songs to teach. :: Walisongo (the Wali Sanga) || H: Standard reference
+The Javanese song "Tombo Ati" (medicine for the heart) is traditionally credited to this one of the nine saints. :: Sunan Bonang رحمة الله عليه || H?: Standard reference; the credit is traditional
+The Islamic hymn competitions of Malaysia and Indonesia often include recitation, nasyid and this kind of Arabic poem. :: Qasidah || H: Standard reference
+The Malay greeting form "Assalamu'alaika ya Rasulallah" is usually sung while the people do this. :: Stand (berdiri) || H: Standard reference
+
+## 300
+Al-Busiri رحمة الله عليه wrote the Burdah while suffering from this illness, by his own account. :: Paralysis of half the body (falij) || H: Fawat al-Wafayat (al-Kutubi), reporting al-Busiri's account
+By al-Busiri's رحمة الله عليه own account as reported, he was cured after a dream in which our Beloved Prophet ﷺ did this. :: Wiped him or covered him with his cloak || H: Fawat al-Wafayat (al-Kutubi), reporting al-Busiri's account
+The Burdah of al-Busiri رحمة الله عليه is written in this metre of Arabic poetry. :: al-Basit || H: Diwan al-Busiri
+The Burdah of al-Busiri رحمة الله عليه has about this many verses. :: About 160 || H: Diwan al-Busiri (copies differ by one or two verses)
+A poem that answers an older one in the same metre and rhyme, like Shawqi's رحمة الله عليه "Nahj al-Burdah". :: Mu'aradah || H: al-Shawqiyyat
+Turning each verse of a poem into five lines by adding three new lines before it. :: Takhmis || H: Standard reference
+The Hadrami scholar whose Diwan and litany "al-Ratib" are read daily in Hadramawt and beyond. :: Imam 'Abdullah ibn 'Alawi al-Haddad رحمة الله عليه || H: Diwan al-Haddad
+The Hanbali poet of Baghdad, famous for praise poems of our Beloved Prophet ﷺ, killed when the Mongols took Baghdad in 656 AH / 1258 CE. :: Yahya al-Sarsari رحمة الله عليه || H: Dhayl Tabaqat al-Hanabilah (Ibn Rajab)
+The Palestinian-born scholar and judge who gathered thousands of praise poems in al-Majmu'ah al-Nabhaniyyah. :: Yusuf al-Nabhani رحمة الله عليه || H: al-Majmu'ah al-Nabhaniyyah
+The Blessed Mawlid of al-Barzanji رحمة الله عليه is known in Arabic as "'Iqd al-Jawhar", meaning this. :: The Jewel Necklace || H: 'Iqd al-Jawhar fi Mawlid al-Nabi al-Azhar
+Imam al-Jazuli رحمة الله عليه is buried in this Moroccan city, as one of its "Seven Saints". :: Marrakesh || H: Standard history
+Imam al-Jazuli رحمة الله عليه passed away in this year. :: 869 AH / 1465 CE || H: Mumti' al-Asma' (al-Mahdi al-Fasi)
+The Sufi order linked with Imam al-Jazuli رحمة الله عليه, a branch of the Shadhili way. :: The Jazuli way (al-Jazuliyyah) || H: Mumti' al-Asma' (al-Mahdi al-Fasi)
+The "Utendi wa Hamziyya", a version of al-Busiri's رحمة الله عليه Hamziyyah, is among the oldest dated works in this East African language. :: Swahili || H: Standard reference on Swahili manuscripts
+The Sufi way founded by Shaykh Ahmadu Bamba رحمة الله عليه. :: The Muridiyyah (Mouride way) || H: Standard history
+The yearly gathering at Touba marking Shaykh Ahmadu Bamba's رحمة الله عليه exile. :: The Grand Magal || H: Standard history
+Shaykh 'Uthman ibn Fudi رحمة الله عليه passed away in this year. :: 1232 AH / 1817 CE || H: Standard history
+The city in Nigeria that was the capital of Shaykh 'Uthman ibn Fudi's رحمة الله عليه state. :: Sokoto || H: Standard history
+The Sufi way followed by El Hadj Malick Sy and Shaykh Ibrahim Niasse رحمة الله عليهما. :: The Tijani way || H: Standard history
+The country where Shaykh Ahmadu Bamba رحمة الله عليه was exiled by the French for seven years. :: Gabon || H: Standard history
+Süleyman Çelebi رحمة الله عليه was imam of this mosque in Bursa, by the common report. :: The Ulu Cami (Great Mosque) || H?: Standard history; reports differ on which mosque
+Süleyman Çelebi رحمة الله عليه finished his Mevlid in this year. :: 812 AH / 1409 CE || H: Standard reference
+Süleyman Çelebi رحمة الله عليه passed away in this year. :: 825 AH / 1422 CE || H: Standard reference
+The Mevlid is traditionally read on the night of this date, the blessed birthday, in Rabi' al-Awwal. :: The 12th || H: Standard reference
+A Mevlid is often read on this day after a person's death. :: The 40th day || H: Standard reference
+The Kandil night of the blessed birth of our Beloved Prophet ﷺ. :: Mevlid Kandili || H: Standard reference
+The Kandil night of the Night Journey and Ascension. :: Mi'rac Kandili || H: Standard reference
+The Kandil night in the middle of Sha'ban. :: Berat Kandili || H: Standard reference
+The Kandil night before the first Friday of Rajab. :: Regaip Kandili || H: Standard reference
+Yunus Emre's رحمة الله عليه famous ilahi addresses this creaking machine and asks why it moans. :: A water wheel (dolap) || H: Divan-ı Yunus Emre
+Mawlana Rumi رحمة الله عليه was born in this city, now in Afghanistan. :: Balkh || H: Standard history
+Mawlana Rumi رحمة الله عليه passed away in this year. :: 672 AH / 1273 CE || H: Standard history
+Jami رحمة الله عليه passed away in this year. :: 898 AH / 1492 CE || H: Standard history
+Nava'i رحمة الله عليه passed away in this year. :: 906 AH / 1501 CE || H: Standard history
+Ahmad Yasawi رحمة الله عليه passed away in this year, by the common report. :: 562 AH / 1166 CE || H: Standard history
+The ruler who ordered the great tomb of Ahmad Yasawi رحمة الله عليه in Turkistan. :: Timur || H: UNESCO World Heritage Centre, Mausoleum of Khoja Ahmed Yasawi
+Jami's رحمة الله عليه book of the lives of the Sufi saints. :: Nafahat al-Uns || H: Nafahat al-Uns
+Jami's رحمة الله عليه seven long poems are gathered under this name. :: Haft Awrang (Seven Thrones) || H: Haft Awrang
+Nava'i رحمة الله عليه wrote his own "Khamsa" in this language. :: Chagatai Turkic || H: Standard history
+The Persian poem form in rhyming couplets that gave Mawlana Rumi's رحمة الله عليه great poem its name. :: Mathnawi (masnavi) || H: Standard reference
+Imam Ahmad Raza Khan رحمة الله عليه passed away in this year. :: 1340 AH / 1921 CE || H: Standard history
+Imam Ahmad Raza Khan's رحمة الله عليه Urdu translation of the Qur'an is called this. :: Kanz al-Iman || H: Kanz al-Iman
+Imam Ahmad Raza Khan's رحمة الله عليه great collection of fatwas. :: al-'Ataya al-Nabawiyyah fi al-Fatawa al-Ridawiyyah (Fatawa Ridawiyyah) || H: Fatawa Ridawiyyah
+Amir Khusraw رحمة الله عليه passed away in this year, soon after his shaykh. :: 725 AH / 1325 CE || H: Standard history
+Amir Khusraw رحمة الله عليه is buried in this city, near his shaykh. :: Delhi || H: Standard history
+Pir Mehr Ali Shah رحمة الله عليه passed away in this year. :: 1356 AH / 1937 CE || H: Standard history
+Shah 'Abd al-Latif Bhittai رحمة الله عليه passed away in this year. :: 1165 AH / 1752 CE || H: Standard history
+The language of "Shah jo Risalo". :: Sindhi || H: Standard history
+Muhsin Kakorvi's رحمة الله عليه famous naat qasidah is called "Madih-e Khair al-Mursalin", meaning this. :: Praise of the Best of the Messengers ﵈ || H: Kulliyat-e Muhsin
+The Urdu poet Amir Mina'i رحمة الله عليه wrote this naat collection. :: Mahamid-e Khatam al-Nabiyyin || H: Standard reference
+Kiai 'Ali Manshur رحمة الله عليه, who wrote Sholawat Badar, lived in this region of East Java. :: Banyuwangi (and Tuban) || H?: Standard reference; check
+The Hadrami scholars who came to the Malay world often brought this Blessed Mawlid of Say'un with them. :: Simt al-Durar || H: Standard reference
+The Javanese song "Lir-ilir" is traditionally credited to this one of the nine saints. :: Sunan Kalijaga رحمة الله عليه || H?: Standard reference; the credit is traditional
+The Sufi way whose ratib (litany) of Imam al-Haddad رحمة الله عليه is read widely in Indonesia and Malaysia. :: The 'Alawi way (Ratib al-Haddad) || H: Standard reference
+The Malay word for a long poem in four-line rhyming stanzas, used for Islamic stories and counsel. :: Syair || H: Standard reference
+The Muslim people of Mindanao whose epic and religious chants are sung in Maranao. :: The Maranao || H: Standard reference
+The night in Indonesia when sholawat gatherings mark the blessed birth, on 12 Rabi' al-Awwal. :: Malam Maulid (Maulid night) || H: Standard reference
+The ensemble of frame drums and voices that sings sholawat in Indonesia and Malaysia. :: Hadrah (hadroh) || H: Standard reference
+The Malay frame drum played in rows at weddings while selawat is sung. :: Kompang || H: Standard reference
+The Hadrami Blessed Mawlid "Simt al-Durar" is called this in Indonesia, where it is read in many gatherings. :: Simtudduror || H: Standard reference
+
+## 400
+Al-Busiri رحمة الله عليه was born in this year. :: 608 AH / 1212 CE || H: Fawat al-Wafayat (al-Kutubi)
+The scholar Ibn Hajar al-Haytami رحمة الله عليه wrote a long commentary on this poem of al-Busiri رحمة الله عليه. :: al-Hamziyyah || H: al-Minah al-Makkiyyah fi Sharh al-Hamziyyah
+The Egyptian scholar who wrote a famous commentary on the Burdah, studied at al-Azhar. :: Ibrahim al-Bajuri رحمة الله عليه || H: Hashiyat al-Bajuri 'ala al-Burdah
+Al-Barzanji رحمة الله عليه passed away in this year. :: 1177 AH / 1764 CE || H: Silk al-Durar (al-Muradi)
+Al-Dayba' رحمة الله عليه, author of the Blessed Mawlid, passed away in this year. :: 944 AH / 1537 CE || H: al-Nur al-Safir (al-'Aydarus)
+Habib 'Ali al-Habshi رحمة الله عليه, author of Simt al-Durar, passed away in this year. :: 1333 AH / 1915 CE || H: Standard biography
+Ahmad Shawqi's رحمة الله عليه "Nahj al-Burdah" answers the Burdah of this poet. :: al-Busiri رحمة الله عليه || H: al-Shawqiyyat
+The scholar al-Suyuti رحمة الله عليه wrote this short treatise defending the gathering of the Blessed Mawlid. :: Husn al-Maqsid fi 'Amal al-Mawlid || H: al-Hawi lil-Fatawi
+The Ayyubid-era ruler of Irbil famous for holding a great Blessed Mawlid every year. :: Muzaffar al-Din Kokburi رحمة الله عليه || H: Wafayat al-A'yan (Ibn Khallikan)
+The scholar Ibn Dihyah رحمة الله عليه wrote a Blessed Mawlid book for Kokburi رحمة الله عليه with this title. :: al-Tanwir fi Mawlid al-Siraj al-Munir || H: Wafayat al-A'yan (Ibn Khallikan)
+Nana Asma'u رحمة الله عليها passed away in this year. :: 1280 AH / 1864 CE || H: Standard history
+Shaykh Ahmadu Bamba رحمة الله عليه passed away in this year. :: 1346 AH / 1927 CE || H: Standard history
+El Hadj Malick Sy رحمة الله عليه passed away in this year. :: 1340 AH / 1922 CE || H: Standard history
+Shaykh Uways al-Barawi رحمة الله عليه passed away in this year. :: 1327 AH / 1909 CE || H: Standard history
+The Moroccan scholar who wrote "Mumti' al-Asma'", on al-Jazuli رحمة الله عليه and his followers. :: al-Mahdi al-Fasi رحمة الله عليه || H: Mumti' al-Asma'
+Dala'il al-Khayrat is read in parts, one for each of these. :: Days of the week || H: Dala'il al-Khayrat
+The Senegalese scholar and poet called "the Servant of the Messenger ﷺ" (Khadim al-Rasul). :: Shaykh Ahmadu Bamba رحمة الله عليه || H: Standard history
+Shaykh Ibrahim Niasse رحمة الله عليه passed away in this year. :: 1395 AH / 1975 CE || H: Standard history
+The Mauritanian scholars who wrote and chanted praise poems taught in this kind of desert school. :: Mahdara || H: Standard reference
+The Hausa word for a poem, used for the religious poems of the Sokoto scholars. :: Waka || H: Standard reference
+Itri رحمة الله عليه passed away in this year. :: 1123 AH / 1712 CE || H: Standard reference
+Hafız Osman رحمة الله عليه passed away in this year. :: 1110 AH / 1698 CE || H: Standard reference
+Aziz Mahmud Hüdayi رحمة الله عليه passed away in this year. :: 1038 AH / 1628 CE || H: Standard history
+The musical mode (makam) of Itri's رحمة الله عليه famous Na't-ı Şerif. :: Rast || H: Standard reference
+The Ottoman genre of hymn of the Halveti way, sung slowly and solemnly. :: Durak || H: Standard reference
+The Turkish word for the Sufi lodge where ilahis were sung in dhikr gatherings. :: Tekke (dergah) || H: Standard reference
+Yunus Emre's رحمة الله عليه long didactic poem in mathnawi form, written in 707 AH / 1307-08 CE. :: Risaletü'n-Nushiyye || H: Standard reference
+The Bosnian poet of Žepče who wrote ilahije in Bosnian with Arabic letters and was executed in Travnik. :: Abdulvehab Ilhamija رحمة الله عليه || H: Standard history
+The way of writing Bosnian in Arabic letters, used for ilahije and kaside. :: Arebica || H: Standard reference
+Hafız Osman's رحمة الله عليه hilye layout carries the verse calling our Beloved Prophet ﷺ a mercy to the worlds, from this surah. :: Surah al-Anbiya' (21:107) || H: Standard reference on the hilye
+Sa'di's رحمة الله عليه "Bustan" opens with hamd, then praise of our Beloved Prophet ﷺ; it was finished in this year. :: 655 AH / 1257 CE || H: The Bustan
+The famous Arabic quatrain on our Beloved Prophet ﷺ beginning "Balagha al-'ula bi-kamalihi" is credited to this poet. :: Sa'di رحمة الله عليه (by the common attribution) || H?: Standard attribution; not in all old copies of his works
+'Attar رحمة الله عليه is said to have been killed in this event in Nishapur. :: The Mongol conquest (618 AH / 1221 CE) || H?: Standard history; the report is not certain
+Sana'i رحمة الله عليه passed away in about this year. :: 525 AH / 1131 CE || H: Standard history
+Nizami رحمة الله عليه passed away in about this year. :: 605 AH / 1209 CE || H?: Standard history; dates differ
+The Uzbek poet Sufi Allahyar رحمة الله عليه wrote this Turkic book of counsel and faith, read in Central Asian schools. :: Sabat al-'Ajizin || H: Standard reference
+The father of Mawlana Rumi رحمة الله عليه, a scholar called "Sultan al-'Ulama'". :: Baha' al-Din Walad رحمة الله عليه || H: Standard history
+The father of Rumi رحمة الله عليه wrote this book of sermons and visions. :: al-Ma'arif || H: Standard reference
+The Mevlevi order of Rumi رحمة الله عليه was organised by his son. :: Sultan Walad رحمة الله عليه || H: Standard history
+The mathnawi of Jami رحمة الله عليه on the story of our master Yusuf ﵇ and Zulaykha, named after them in Persian. :: "Yusuf u Zulaykha" (our master Yusuf ﵇ and Zulaykha) || H: Haft Awrang
+Jami's رحمة الله عليه "Tuhfat al-Ahrar" follows the model of this poem by Nizami رحمة الله عليه. :: Makhzan al-Asrar || H: Haft Awrang
+Mian Muhammad Bakhsh رحمة الله عليه passed away in this year. :: 1324 AH / 1907 CE || H: Standard history
+Muhsin Kakorvi رحمة الله عليه passed away in this year. :: 1323 AH / 1905 CE || H: Standard history
+Amir Mina'i رحمة الله عليه passed away in this year. :: 1318 AH / 1900 CE || H: Standard history
+The town in Uttar Pradesh where Imam Ahmad Raza Khan رحمة الله عليه was born and buried. :: Bareilly || H: Standard history
+The Punjabi Sufi Mian Muhammad Bakhsh رحمة الله عليه lived in this town in Azad Kashmir. :: Khari Sharif || H: Standard history
+Imam Ahmad Raza Khan's رحمة الله عليه Salam "Mustafa jaan-e rahmat" has about this many couplets. :: About 170 || H: Hada'iq-e Bakhshish
+The Persian couplet form where every second line rhymes, used for many naats in Urdu. :: Ghazal || H: Standard reference
+Pir Mehr Ali Shah رحمة الله عليه wrote this book defending the finality of Prophethood. :: Saif-e Chishtiyai || H: Saif-e Chishtiyai
+The Persian book on the Blessed Seerah by the hadith scholar of Delhi, Shaykh 'Abd al-Haqq رحمة الله عليه. :: Madarij al-Nubuwwah || H: Madarij al-Nubuwwah
+The Sufi of Delhi who was Amir Khusraw's رحمة الله عليه shaykh. :: Nizam al-Din Awliya' رحمة الله عليه || H: Standard history
+The Hadrami-descended scholars called "Habib" lead many sholawat gatherings; "Habib" means this. :: Beloved || H: Standard reference
+The Javanese percussion orchestra played during Sekaten. :: Gamelan (the Sekati gamelan) || H: Standard reference
+The Indonesian Islamic organisation that keeps pesantren traditions of Blessed Mawlid and sholawat. :: Nahdlatul Ulama || H: Standard reference
+The Malaysian state on the east coast known for "dikir barat", sung responses in groups. :: Kelantan || H: Standard reference
+The Indonesian province on the north tip of Sumatra called "the Veranda of Makkah" (Serambi Mekkah). :: Aceh || H: Standard reference
+Sekaten is said, by a well-known explanation, to come from this Arabic phrase. :: Shahadatain (the two testimonies of faith) || H: Standard reference (traditional explanation)
+The first Muslim kingdom of Java, whose rulers began the Sekaten by tradition. :: Demak || H: Standard history (traditional account)
+The Malay script written in Arabic letters, used for old Malay poems of praise. :: Jawi || H: Standard reference
+
+## 500
+The poem of supplication beginning "Ishtaddi azmatu tanfariji", by Ibn al-Nahwi رحمة الله عليه. :: al-Munfarijah || H: Standard reference (al-Qasidah al-Munfarijah)
+The scholar who said a gift of a cloak to Ka'b ﵁ for Banat Su'ad has no sound chain, though the poem's recital is well known. :: Ibn Kathir رحمة الله عليه (among others) || H?: al-Bidayah wal-Nihayah (Ibn Kathir); check the wording of his verdict
+The 7th-century AH poet whose collection of praise poems was arranged in 29 poems, one for each letter. :: al-Witri (Ibn Rashid al-Baghdadi) رحمة الله عليه || H?: al-Qasa'id al-Witriyyah; check the poet's dates
+Al-Busiri's رحمة الله عليه long poem rhyming on hamzah opens with a question to our Beloved Prophet ﷺ about how the other Blessed Prophets ﵈ could reach his rank; its first words are these. :: "Kayfa tarqa ruqiyyaka al-anbiya'u" || H: Diwan al-Busiri
+The Hadrami scholar 'Abdullah al-Haddad رحمة الله عليه passed away in this year. :: 1132 AH / 1720 CE || H: Standard biography
+Hassan ibn Thabit ﵁ is reported to have lived to about this age, half before Islam and half in it. :: 120 years || H: al-Isti'ab (Ibn 'Abd al-Barr)
+The Damascus scholar 'Abd al-Ghani al-Nabulusi رحمة الله عليه wrote a long praise poem using one figure of speech in every verse; this kind of poem is called this. :: Badi'iyyah || H: Nafahat al-Azhar 'ala Nasamat al-Ashar (al-Nabulusi)
+The Burdah's ten parts include the birth, the miracles, the Qur'an, the Night Journey and this battle-themed one. :: The jihad of our Beloved Prophet ﷺ (his campaigns) || H: Diwan al-Busiri, chapter headings
+Yusuf al-Nabhani رحمة الله عليه passed away in this year. :: 1350 AH / 1932 CE || H: Standard biography
+Ka'b ibn Zuhayr's ﵁ poem "Banat Su'ad" ends every verse on this letter. :: Lam || H: al-Sirah al-Nabawiyyah (Ibn Hisham)
+Al-Busiri رحمة الله عليه passed away in about this year. :: 696 AH / 1297 CE (reports give 694 to 697 AH) || H: Fawat al-Wafayat (al-Kutubi)
+Habib Salih Jamal al-Layl رحمة الله عليه, who started the Lamu Maulidi, came to Lamu from this island group. :: The Comoros || H?: Standard history; check his place of birth
+The Swahili "Utendi wa Hamziyya" manuscript is dated about this year. :: 1062 AH / 1652 CE || H?: Standard reference on Swahili manuscripts; check the date
+The language of the Wolof-script (Wolofal) poems of Shaykh Ahmadu Bamba's رحمة الله عليه followers, written in Arabic letters. :: Wolof || H: Standard reference
+Writing an African language in Arabic letters, as in Hausa and Fulfulde poems, is called this. :: Ajami || H: Standard reference
+Imam al-Jazuli's رحمة الله عليه full name ends with this name of a Berber tribe of the Sus. :: Jazulah || H: Mumti' al-Asma' (al-Mahdi al-Fasi)
+The Somali form of praise of our Beloved Prophet ﷺ, chanted in Somali at gatherings. :: Nabi ammaan || H?: Standard reference; check the term
+Muhammad al-Mahdi al-Fasi رحمة الله عليه also wrote this commentary on Dala'il al-Khayrat. :: Matali' al-Masarrat || H: Matali' al-Masarrat bi-Jala' Dala'il al-Khayrat
+The groups of women students Nana Asma'u رحمة الله عليها taught across the Sokoto lands were called this. :: 'Yan Taru || H: Standard history
+The brother of Shaykh 'Uthman ibn Fudi رحمة الله عليه, a scholar-poet who wrote "Tazyin al-Waraqat". :: 'Abdullahi ibn Fudi رحمة الله عليه || H: Tazyin al-Waraqat
+The scholar of Ceuta whose book "al-Durr al-Munazzam" called for celebrating the Blessed Mawlid in the Maghrib. :: Abu al-'Abbas al-'Azafi رحمة الله عليه || H: al-Durr al-Munazzam fi Mawlid al-Nabi al-Mu'azzam
+Nana Asma'u رحمة الله عليها put many of her father's poems into this language so that ordinary people could learn them. :: Hausa || H: Standard history
+The Mouride groups that chant Shaykh Ahmadu Bamba's رحمة الله عليه poems together are called this in Wolof. :: Kurel || H?: Standard reference; check the term
+The meter of Süleyman Çelebi's رحمة الله عليه Mevlid, the same as Rumi's رحمة الله عليه Mathnawi. :: Remel (ramal) || H: Standard reference
+Abdulvehab Ilhamija رحمة الله عليه was executed in this year. :: 1236 AH / 1821 CE || H: Standard history
+The famous Turkish takbir of the Eid days is often credited to this composer. :: Itri رحمة الله عليه || H?: Standard reference; the credit is traditional
+Hakani Mehmed Bey رحمة الله عليه passed away in this year. :: 1015 AH / 1606 CE || H: Standard reference
+The Bosnian pilgrimage in June to a rock where a spring is said to have opened after forty days of prayer. :: Ajvatovica || H: Standard reference
+Yunus Emre's رحمة الله عليه poems are gathered in this kind of book. :: Divan || H: Divan-ı Yunus Emre
+Hafız Osman رحمة الله عليه learned calligraphy from this master, among others. :: Suyolcuzade Mustafa Eyyubi رحمة الله عليه || H: Standard reference
+Hacı Bayram Veli رحمة الله عليه, whose poem likens the heart to a city built by Allah, is buried in this city. :: Ankara || H: Standard history
+The fifth Kandil night, kept on the 27th night of Ramadan by custom. :: Kadir Gecesi (Laylat al-Qadr) || H: Standard reference
+'Attar's رحمة الله عليه "Mantiq al-Tayr" tells of birds who go in search of this king. :: The Simurgh || H: Mantiq al-Tayr
+Nizami's رحمة الله عليه "Makhzan al-Asrar" has four passages in praise of our Beloved Prophet ﷺ, including one on this event. :: The Mi'raj || H?: Makhzan al-Asrar; check the count
+The Mathnawi of Rumi رحمة الله عليه has this many books. :: 6 || H: The Mathnawi
+The Mathnawi of Rumi رحمة الله عليه was written down by this disciple. :: Husam al-Din Chalabi رحمة الله عليه || H: Standard history
+Jami's رحمة الله عليه prose work modelled on Sa'di's Gulistan. :: Baharistan || H: Baharistan
+Nava'i's رحمة الله عليه book that argues Turkic is as rich as Persian for poetry. :: Muhakamat al-Lughatayn || H: Muhakamat al-Lughatayn
+Nava'i's رحمة الله عليه book of lives of saints, based on Jami's رحمة الله عليه Nafahat. :: Nasa'im al-Mahabbah || H: Standard reference
+The successor of Ahmad Yasawi رحمة الله عليه in Turkistan, also a poet of hikmat. :: Hakim Ata (Sulayman Bakirghani) رحمة الله عليه || H: Standard history
+'Attar's رحمة الله عليه prose book of the lives of the saints. :: Tadhkirat al-Awliya' || H: Tadhkirat al-Awliya'
+Sa'di's رحمة الله عليه "Gulistan" was finished in this year. :: 656 AH / 1258 CE || H: The Gulistan
+Amir Khusraw رحمة الله عليه was called by this title, "the parrot of India". :: Tuti-e Hind || H: Standard reference
+Hafeez Jalandhari رحمة الله عليه also wrote the words of this. :: The national anthem of Pakistan || H: Standard history
+The poet Bedam Shah Warsi رحمة الله عليه was a follower of this Sufi of Dewa Sharif. :: Haji Waris 'Ali Shah رحمة الله عليه || H: Standard history
+Shaykh 'Abd al-Haqq Muhaddith Dihlawi رحمة الله عليه passed away in this year. :: 1052 AH / 1642 CE || H: Standard history
+The Sindhi poet Sachal Sarmast رحمة الله عليه wrote in Sindhi, Seraiki and this language. :: Persian (and Urdu) || H?: Standard history; check
+The chapters of "Shah jo Risalo" are called this, each named after a melody. :: Sur || H: Shah jo Risalo
+The Urdu "salam" is usually recited in this posture. :: Standing (qiyam) || H: Standard reference
+Imam Ahmad Raza Khan رحمة الله عليه was born in this year. :: 1272 AH / 1856 CE || H: Standard history
+Pir Mehr Ali Shah رحمة الله عليه was a shaykh of this Sufi way, the way of Khwajah Mu'in al-Din of Ajmer رحمة الله عليه. :: The Chishti way || H: Standard history
+The two sacred gamelan sets of Yogyakarta played during Sekaten. :: Kyai Gunturmadu and Kyai Nogowilogo || H: Standard reference
+Javanese written in Arabic letters, used in pesantren for religious poems. :: Pegon || H: Standard reference
+The Javanese sung verse form that, by tradition, the nine saints used to teach Islam. :: Macapat || H: Standard reference (traditional account)
+The Javanese name of the month of Rabi' al-Awwal, taken from the word Mawlid. :: Mulud || H: Standard reference
+The sultan of Mataram who joined the hijri months to the Javanese calendar in 1043 AH / 1633 CE. :: Sultan Agung رحمة الله عليه || H: Standard history
+The NU scholar who wrote the Indonesian song "Ya Lal Wathon" in the 1930s. :: Kiai 'Abd al-Wahhab Hasbullah رحمة الله عليه || H?: Standard reference; check
+Sholawat Badar was written in this decade of the 20th century CE. :: The 1960s || H?: Standard reference; check
+The Malay ceremony of reading the Blessed Mawlid at a wedding or for a baby is often led by groups named after this Arabic welcome. :: Marhaban || H?: check
+The yearly haul (memorial) of Habib 'Ali al-Habshi رحمة الله عليه, author of Simt al-Durar, is held in this Javanese city. :: Surakarta (Solo) || H: Standard reference
+The son of Habib 'Ali al-Habshi رحمة الله عليه who settled in Solo and founded its Riyadh Mosque. :: Habib 'Alwi ibn 'Ali al-Habshi رحمة الله عليه || H: Standard reference
+Many Malay and Indonesian communities gather to read Surah Yasin, tahlil and sholawat on this night of the week. :: Thursday night (malam Jumaat) || H: Standard reference
