@@ -1,6 +1,6 @@
 id: kids-prophets
 name: Stories of the Blessed Prophets ﵈
-nameAr: قصص الأنبياء
+nameAr: قصص الأنبياء ﵈
 group: kids
 # For children. Every Prophet's name carries ﵇. No Prophet is ever drawn or voiced.
 

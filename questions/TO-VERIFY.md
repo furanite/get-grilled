@@ -95,7 +95,7 @@ This file is rewritten by `npm run packs`.
 - **500**, line 312: Sholawat Badar was written in this decade of the 20th century CE. **Answer:** The 1960s _(Source: Standard reference; check)_
 - **500**, line 313: The Malay ceremony of reading the Blessed Mawlid at a wedding or for a baby is often led by groups named after this Arabic welcome. **Answer:** Marhaban _(Source: check)_
 
-## Blessed Prophets ﵈: Adam to Ibrahim (questions/isl-prophets-early.txt)
+## Blessed Prophets ﵈: Adam to Ibrahim ﵉ (questions/isl-prophets-early.txt)
 
 - **400**, line 95: In a report of Abu Dharr ﵁, four Arab Blessed Prophets ﵈ are named: Hud, Salih, Shu'ayb and this one. **Answer:** Our Beloved Prophet Muhammad ﷺ _(Source: Sahih Ibn Hibban; to be checked)_
 - **400**, line 99: The city our master Ibrahim ﵇ came from, by the common view of historians. **Answer:** Ur (in Iraq) _(Source: Tarikh al-Tabari; to be checked)_

@@ -468,9 +468,9 @@ export const islamicFx = {
     tak(k, 0.56, 0.12)
     dum(k, 0.86, 0.3, 0, 0.75, true)
   },
-  /** Nobody got it: the option the owner picks (A until then). */
+  /** Nobody got it: option B, the owner's pick (2026-11-18). */
   nobody(k: Kit) {
-    islamicFx.nobodyA(k)
+    islamicFx.nobodyB(k)
   },
   /** Wrong answer: two damped, falling strokes. Gentle, but clear. */
   wrong(k: Kit) {

@@ -333,6 +333,20 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
     return `translate(${r.left + r.width / 2 - (L + W / 2)}px, ${r.top + r.height / 2 - (T + H / 2)}px) scale(${r.width / W}, ${r.height / H})`
   }
 
+  // The blur behind the card comes in once it has finished opening (see .scrim.blur).
+  const [settled, setSettled] = useState(false)
+  useEffect(() => {
+    if (phase !== 'open') return setSettled(false)
+    const id = setTimeout(() => setSettled(true), 700)
+    return () => clearTimeout(id)
+  }, [phase])
+
+  // Everything behind the card holds still while it is open, so the blur behind it isn't redrawn on every frame.
+  useEffect(() => {
+    document.documentElement.classList.add('card-up')
+    return () => document.documentElement.classList.remove('card-up')
+  }, [])
+
   useLayoutEffect(() => {
     const card = ref.current!
     const W = Math.min(clue.img ? 960 : 820, innerWidth - 24)
@@ -421,8 +435,8 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
       // (Back, Esc or a click outside) can't put it back on the board for another go.
       used = used || revealed || wrong.length > 0
       const card = ref.current!
-      setTimeout(() => { card.style.transform = toTile(card) }, 120)
-      setTimeout(() => onClose(used), reducedMotion() ? 10 : 780)
+      setTimeout(() => { card.style.transform = toTile(card) }, 170)
+      setTimeout(() => onClose(used), reducedMotion() ? 10 : 830)
     },
     [phase, open.el, onClose, revealed, wrong.length],
   )
@@ -465,7 +479,7 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
 
   return (
     <>
-      <div className={`scrim${phase === 'open' ? ' on' : ''}`} onClick={() => close(stealer !== null)} />
+      <div className={`scrim${phase === 'open' ? ' on' : ''}${phase === 'open' && settled ? ' blur' : ''}`} onClick={() => close(stealer !== null)} />
       <div ref={ref} className={`card${phase === 'open' ? ' open' : ''}${phase === 'closing' ? ' closing' : ''}${clue.golden && phase === 'open' ? ' golden' : ''}${cat.respect ? ' calm' : ''}`} role="dialog" aria-modal="true" aria-label={cat.name} data-testid="clue">
         <div className="card-in">
           <div className="meta">

@@ -23,6 +23,18 @@ import { qLen } from '../lib/qlen'
  * Opens a second browser window that the host drags onto the projector.
  * The window is blank and same-origin, so React draws straight into it: no server and no messages.
  */
+/** While a clue is up on the projector, everything behind it holds still, so the blur behind it isn't redrawn every frame. */
+const stillDocs = new Set<Document>()
+function holdStill(el: HTMLDivElement | null) {
+  if (el) {
+    stillDocs.add(el.ownerDocument)
+    el.ownerDocument.documentElement.classList.add('card-up')
+  } else {
+    stillDocs.forEach((d) => d.documentElement.classList.remove('card-up'))
+    stillDocs.clear()
+  }
+}
+
 export function useAudienceWindow(title: string) {
   const [win, setWin] = useState<Window | null>(null)
   const [root, setRoot] = useState<HTMLElement | null>(null)
@@ -394,7 +406,7 @@ function AudienceView({ t, lang, theme, screen, game, live, vote, win }: { t: St
         )}
       </section>
       {clue && cat && (
-        <div className="aud-clue" data-testid="audience-clue" key={tileKey(live!.c, live!.l)}>
+        <div className="aud-clue" data-testid="audience-clue" key={tileKey(live!.c, live!.l)} ref={holdStill}>
           <FitBox className={`aud-card${clue.golden ? ' golden' : ''}${cat.respect ? ' calm' : ''}`} deps={[live!.c, live!.l, live!.revealed, live!.intro, lang]}>
             <div className="meta">
               <span className="meta-cat"><CatIcon id={cat.id} />{lang === 'ar' && cat.nameAr ? cat.nameAr : cat.name}</span>
