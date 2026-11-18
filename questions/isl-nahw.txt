@@ -150,3 +150,11 @@ Ibn al-Sarraj's رحمة الله عليه book that set out grammar's principle
 Al-Hariri's رحمة الله عليه poem for beginners in grammar. :: Mulhat al-I'rab || H: Mulhat al-I'rab
 Khalid al-Azhari's رحمة الله عليه commentary on Ibn Hisham's رحمة الله عليه Awdah al-Masalik. :: Sharh al-Tasrih 'ala al-Tawdih || H: Sharh al-Tasrih
 Ibn Malik رحمة الله عليه passed away in this year in Damascus. :: 672 AH / 1274 CE || H: Bughyat al-Wu'at (al-Suyuti)
+
+## translate
+Fa'il :: The doer: the subject of a verb || H: al-Ajurrumiyyah, chapter on the fa'il
+Maf'ul bihi :: The direct object || H: al-Ajurrumiyyah, chapter on the maf'ul bihi
+Mubtada' :: The subject of a nominal sentence || H: al-Ajurrumiyyah, chapter on the mubtada' and khabar
+Khabar :: The predicate: what is said about the mubtada' || H: al-Ajurrumiyyah, chapter on the mubtada' and khabar
+Na't :: The describing word (adjective) || H: al-Ajurrumiyyah, chapter on the na't
+Harf jarr :: A preposition || H: al-Ajurrumiyyah, chapter on the makhfudat

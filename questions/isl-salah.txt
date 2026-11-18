@@ -271,3 +271,16 @@ The Hanafi text al-Durr al-Mukhtar was written by this scholar رحمة الله
 The Maliki commentary on Mukhtasar Khalil by al-Dardir رحمة الله عليه. :: al-Sharh al-Kabir || H: al-Sharh al-Kabir
 The Hanbali text Zad al-Mustaqni' was written by this scholar رحمة الله عليه. :: al-Hajjawi || H: Zad al-Mustaqni'
 Our Beloved Master ﷺ said "Pray as you have seen me pray" (meaning) to this group. :: Malik ibn al-Huwayrith ﵁ and his companions || H: Sahih al-Bukhari
+
+## tf
+The Fajr prayer has two rak'ahs. :: True || H: al-Ijma' of Ibn al-Mundhir رحمة الله عليه, book of prayer
+A traveller shortens Maghrib to two rak'ahs. :: False (Maghrib stays three; only the four-rak'ah prayers are shortened) || H: al-Ijma' of Ibn al-Mundhir رحمة الله عليه, book of travel
+The Jumu'ah prayer is four rak'ahs. :: False (it is two rak'ahs, after the khutbah) || H: al-Ijma' of Ibn al-Mundhir رحمة الله عليه, book of Jumu'ah
+The 'Eid prayer has no adhan and no iqamah. :: True || H: Sahih Muslim, Kitab Salat al-'Idayn, hadith of Jabir ibn Samurah ﵁
+Sujud al-sahw is made for something forgotten in the prayer. :: True || H: Sahih al-Bukhari, Kitab al-Sahw
+A fard prayer is valid without facing the qiblah, even when one is able to face it. :: False || H: Qur'an, al-Baqarah 2:144
+
+## odd
+Fajr | Dhuhr | 'Asr | Duha :: Duha: the others are obligatory prayers || H: al-Ijma' of Ibn al-Mundhir رحمة الله عليه, book of prayer
+Takbirat al-ihram | Ruku' | Sujud | Raising the hands :: Raising the hands: a Sunnah, while the others are pillars in all four schools || H: al-Fiqh 'ala al-Madhahib al-Arba'ah, chapter on the pillars of prayer
+Maghrib | 'Isha' | Dhuhr | 'Asr :: Maghrib: it has three rak'ahs, the others have four || H: al-Ijma' of Ibn al-Mundhir رحمة الله عليه, book of prayer

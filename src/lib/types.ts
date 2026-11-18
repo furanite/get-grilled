@@ -67,6 +67,9 @@ export interface ModeItem {
   img?: string
   v?: 0 | 1
   k?: 'true' | 'halal' | 'legal'
+  /** Source tag (religious categories): historical with its source, dramatised or fictional */
+  kind?: 'H' | 'D' | 'F'
+  src?: string
   /** The category it came from (name shown with the item, and its id) */
   cat?: string
   from?: string

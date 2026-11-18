@@ -231,6 +231,7 @@ function AudienceView({ t, lang, theme, screen, game, live, vote, win }: { t: St
               {st!.revealed ? (
                 <div className="answer show" dir="auto" data-testid="audience-mode-a">
                   {item.a}
+                  <Source t={t} q={item} />
                 </div>
               ) : (
                 <div className="answer aud-hidden" aria-hidden="true" />

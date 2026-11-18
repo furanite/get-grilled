@@ -1,3 +1,4 @@
+import Source from './Source'
 import { useCallback, useEffect, useState } from 'react'
 import type { Game, Lang, ModeItem, RoundMode } from '../lib/types'
 import type { Strings } from '../lib/i18n'
@@ -415,6 +416,7 @@ export function ModeRound({ t, lang, game, setGame, onDone, hasFinal }: Props) {
             <ModeItemView t={t} mode={mode} item={item} shown={st!.revealed ? n : shown} />
             <div className={`answer${st!.revealed ? ' show' : HOST_EDITION ? ' peek' : ''}`} dir="auto" data-peek={t.hostOnly} data-testid="mode-a">
               {item.a}
+              <Source t={t} q={item} />
             </div>
             <div className="row round-actions">
               {game.teams.map((tm, i) => (

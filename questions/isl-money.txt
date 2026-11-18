@@ -175,3 +175,21 @@ The Maliki 'illah of riba in foods is that they are staple food that can be this
 In the Hanafi school, the rule that a missing condition spoils but does not void a sale gives this third category. :: Fasid (between valid and void) || H: al-Hidayah (al-Marghinani)
 The Majallah was issued in these years. :: 1286-1293 AH / 1869-1876 CE || H: al-Majallah
 The number of articles in the Majallah. :: 1,851 || H: al-Majallah
+
+## tf
+Selling gold for gold of unequal weight, even if handed over on the spot. :: Not halal (gold for gold must be equal in weight and hand to hand) || H: Sahih Muslim, Kitab al-Musaqah, hadith of 'Ubadah ibn al-Samit ﵁ on the six items
+A loan made on condition that the borrower pays back more than he borrowed. :: Not halal (a stipulated increase on a loan is riba) || H: al-Ijma' of Ibn al-Mundhir رحمة الله عليه, book of buying and selling
+Buying goods now and paying a fixed, known price after a month. :: Halal (a sale on deferred payment is allowed) || H: Sahih al-Bukhari, Kitab al-Buyu', our Beloved Prophet ﷺ bought food on credit and pledged his armour
+Paying in full now for a known amount of wheat, of a known kind, delivered on a known later date. :: Halal (this is salam) || H: Sahih al-Bukhari, Kitab al-Salam, hadith of Ibn 'Abbas (رِضْوَانُ اللَّهِ عَلَيْهِمَا)
+Buying a lottery ticket. :: Not halal (it is maysir, gambling) || H: Qur'an, al-Ma'idah 5:90
+Hiding a defect in goods while selling them. :: Not halal (it is cheating) || H: Sahih Muslim, Kitab al-Iman, hadith of the heap of food
+One partner gives the money, the other does the work, and they share the profit by an agreed percentage. :: Halal (this is mudarabah) || H: al-Ijma' of Ibn al-Mundhir رحمة الله عليه, book of qirad
+A mudarabah in which the worker is promised a fixed 1,000 riyals out of the profit. :: Not halal (each side's profit must be a share, not a fixed sum) || H: al-Ijma' of Ibn al-Mundhir رحمة الله عليه, book of qirad
+
+## case
+Tariq lends Faisal 1,000 riyals and says: "Pay me back 1,100 in a year." :: Riba: Faisal owes only the 1,000; the extra 100 is forbidden. || H: al-Ijma' of Ibn al-Mundhir رحمة الله عليه, book of buying and selling
+Faisal sells his car to Tariq for 30,000 riyals in 12 monthly payments; the price is fixed when they agree. :: Valid: a deferred price is allowed when it is known and fixed. || H: Sahih al-Bukhari, Kitab al-Buyu'
+Nasser buys 100 sacks of rice and sells them to Majid before he has received them. :: Not allowed: food must be taken into possession before it is sold on. || H: Sahih Muslim, Kitab al-Buyu', hadith "Whoever buys food, let him not sell it until he takes possession of it" (paraphrased)
+Sami swaps 10 grams of gold jewellery for 12 grams of gold bars, hand to hand, because the bars are purer. :: Riba: gold for gold must be equal in weight, whatever the quality. || H: Sahih Muslim, Kitab al-Musaqah, hadith of 'Ubadah ibn al-Samit ﵁
+Rashid pays a farmer now for "some dates after the harvest", without naming the kind, amount or date. :: Not valid as it stands: a salam needs a known kind, amount and delivery date. || H: Sahih al-Bukhari, Kitab al-Salam, "in a known measure and weight, to a known term" (paraphrased)
+Hamid gives Majid 50,000 riyals to trade with for a share of the profit. The trade loses 5,000 with no fault by Majid. :: The money's owner bears the loss; Majid loses only his work. || H: al-Ijma' of Ibn al-Mundhir رحمة الله عليه, book of qirad
