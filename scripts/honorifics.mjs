@@ -167,6 +167,7 @@ export function findProblems(text) {
       if (/^\s+(ibn|bin)\s+(?!Maryam)/.test(tail) || /^\s+al-/.test(tail)) continue // Ibrahim al-Laqqani, Yahya ibn Yahya
       if (h.nm === 'Adam' && /(sons?|children|Banu|Bani|daughters?) of\s+$|Bani\s+$|Banu\s+$/.test(before(h.s, 20))) continue
       if (/(Hijr|Maqam)\s+$/.test(before(h.s, 6))) continue
+      if (/Hafiz\s+$/.test(before(h.s, 7))) continue // the poet Hafiz Ibrahim
       if (h.nm === 'Salih' && /^\s*\(fit|^\s+hadith/.test(tail)) continue
       if (h.nm === 'Harun' && /^\s+al-Rashid/.test(tail)) continue
       if (h.nm === 'Sulayman' && /^\s+(the Magnificent|I\b|al-Qanuni)/.test(tail)) continue

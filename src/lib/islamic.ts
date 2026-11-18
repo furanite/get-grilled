@@ -611,7 +611,7 @@ const CAT_ICON: Record<string, string> = {
   'isl-hadith': I.scroll, 'isl-mustalah': I.chain,
   'isl-iman': I.star, 'isl-akhirah': I.gate,
   'isl-prophets-early': I.ship, 'isl-prophets-later': I.sea, 'isl-seerah-makkah': I.cave, 'isl-seerah-madinah': I.palm,
-  'isl-sarf': I.roots, 'isl-nahw': I.marks, 'isl-balagha': I.quill,
+  'isl-sarf': I.roots, 'isl-nahw': I.marks, 'isl-balagha': I.quill, 'isl-poetry': I.tents,
   'isl-akhlaq': I.heartHands, 'isl-tasawwuf': I.tasbih,
   'isl-sahabah': I.stars, 'isl-history': I.minaret, 'isl-architecture': I.dome, 'isl-scholars': I.books,
   'isl-taharah': I.drop, 'isl-salah': I.mat, 'isl-sawm': I.lantern, 'isl-zakat': I.coins, 'isl-sadaqah': I.hand, 'isl-hajj': I.tents, 'isl-food': I.bowl,

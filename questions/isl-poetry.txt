@@ -1,0 +1,115 @@
+id: isl-poetry
+name: Arabic poetry
+nameAr: الشعر العربي
+group: arabic
+
+## 100
+The famous long odes of pre-Islamic Arabia, seven in the best-known collection. :: al-Mu'allaqat || H: Sharh al-Mu'allaqat al-Sab' (al-Zawzani)
+The pre-Islamic poet whose Mu'allaqah opens "Qifa nabki", "Stop, let us weep". :: Imru' al-Qays || H: Sharh al-Mu'allaqat al-Sab' (al-Zawzani)
+The Arabic word for a long formal ode kept in one metre and one rhyme. :: Qasidah || H: al-Shi'r wa-l-Shu'ara' (Ibn Qutaybah)
+The Arabic word for a poet's collected poems. :: Diwan || H: Mizan al-Dhahab (Ahmad al-Hashimi)
+The Arabic word for one line of verse, made of two halves. :: Bayt || H: Mizan al-Dhahab (Ahmad al-Hashimi)
+The name of the rhyme that ends every line of a qasidah. :: Qafiyah || H: Mizan al-Dhahab (Ahmad al-Hashimi)
+The science of the metres of Arabic poetry. :: 'Arud || H: Mizan al-Dhahab (Ahmad al-Hashimi)
+The scholar of Basrah who founded the science of Arabic metres. :: al-Khalil ibn Ahmad al-Farahidi رحمة الله عليه || H: Mizan al-Dhahab (Ahmad al-Hashimi)
+The Companion known as the poet of our Beloved Prophet ﷺ, who answered his enemies in verse. :: Hassan ibn Thabit ﵁ || H: al-Isabah (Ibn Hajar)
+The poem "Banat Su'ad" was recited before our Beloved Prophet ﷺ by this Companion poet. :: Ka'b ibn Zuhayr ﵁ || H: Sirat Ibn Hisham
+The name usually given to al-Busiri's رحمة الله عليه famous poem in praise of our Beloved Prophet ﷺ. :: al-Burdah || H: Diwan al-Busiri
+The woman Companion poet famous for her elegies on her brother Sakhr. :: al-Khansa' ﵂ || H: al-Isti'ab (Ibn 'Abd al-Barr)
+The Egyptian poet given the title "Prince of Poets", who passed away in 1351 AH / 1932 CE. :: Ahmad Shawqi || H: al-A'lam (al-Zirikli)
+The Abbasid poet who boasted "the horses, the night and the desert know me". :: al-Mutanabbi || H: Diwan al-Mutanabbi
+The knight of the tribe of 'Abs, born to an enslaved mother, whose ode is among the Mu'allaqat. :: 'Antarah ibn Shaddad || H: Sharh al-Mu'allaqat al-Sab' (al-Zawzani)
+A poem of praise is called this in Arabic. :: Madih || H: al-'Umdah (Ibn Rashiq)
+A poem mourning someone who has passed away is called this in Arabic. :: Ritha' (elegy) || H: al-'Umdah (Ibn Rashiq)
+Many old odes open by weeping over these, the traces of the beloved's abandoned camp. :: al-Atlal (the ruins) || H: al-Shi'r wa-l-Shu'ara' (Ibn Qutaybah)
+The number of metres that al-Khalil رحمة الله عليه set down. :: 15 || H: Mizan al-Dhahab (Ahmad al-Hashimi)
+The market near Ta'if where the Arabs held yearly poetry contests before Islam. :: Suq 'Ukaz || H: al-Shi'r wa-l-Shu'ara' (Ibn Qutaybah)
+
+## 200
+The pre-Islamic poet of wisdom whose Mu'allaqah praises two chiefs who made peace after the war of Dahis and al-Ghabra'. :: Zuhayr ibn Abi Sulma || H: Sharh al-Mu'allaqat al-Sab' (al-Zawzani)
+Our Beloved Prophet ﷺ called the half-line "Indeed, everything apart from Allah is vain" the truest word a poet said. Whose line is it? :: Labid ibn Rabi'ah ﵁ || H: Sahih al-Bukhari 3841; Sahih Muslim 2256
+The youngest of the Mu'allaqat poets, said to have been killed in his twenties. :: Tarafah ibn al-'Abd || H: al-Shi'r wa-l-Shu'ara' (Ibn Qutaybah)
+The poet of Taghlib whose Mu'allaqah of tribal pride opens "Ala hubbi bi-sahniki". :: 'Amr ibn Kulthum || H: Sharh al-Mu'allaqat al-Sab' (al-Zawzani)
+The two Umayyad poets who traded rival satires, called the Naqa'id, for about forty years. :: Jarir and al-Farazdaq || H: Naqa'id Jarir wa-l-Farazdaq (Abu 'Ubaydah)
+The Christian poet of Taghlib at the Umayyad court, the third of the great Umayyad trio with Jarir and al-Farazdaq. :: al-Akhtal || H: Tabaqat Fuhul al-Shu'ara' (Ibn Sallam)
+The Abbasid poet who compiled the anthology "Diwan al-Hamasah". :: Abu Tammam || H: Diwan al-Hamasah
+The pupil of Abu Tammam whose famous ode describes the ruined palace of Kisra. :: al-Buhturi || H: Diwan al-Buhturi
+The Abbasid poet best known for his poems on renouncing the world, the zuhdiyyat. :: Abu al-'Atahiyah || H: Diwan Abi al-'Atahiyah
+The Egyptian poet called "the Poet of the Nile". :: Hafiz Ibrahim || H: al-A'lam (al-Zirikli)
+The famous "Lamiyyat al-'Arab" is attributed to this outlaw poet of pre-Islamic Arabia. :: al-Shanfara || H: Lamiyyat al-'Arab (some attribute it to Khalaf al-Ahmar)
+The vizier-poet who wrote "Lamiyyat al-'Ajam". :: al-Tughra'i || H: Wafayat al-A'yan (Ibn Khallikan)
+The name for the outlaw poets of pre-Islamic Arabia, such as al-Shanfara and 'Urwah ibn al-Ward. :: al-Sa'alik (the su'luk poets) || H: al-Shi'r wa-l-Shu'ara' (Ibn Qutaybah)
+The Andalusian form of strophic poem with changing rhymes, often sung. :: Muwashshah || H: Dar al-Tiraz (Ibn Sana' al-Mulk)
+The poet of Cordoba famous for his Nuniyyah "Adha al-tana'i badilan min tadanina". :: Ibn Zaydun || H: Diwan Ibn Zaydun
+The letter that ends every line of al-Busiri's رحمة الله عليه Burdah. :: Mim || H: Diwan al-Busiri
+The scholar who wrote "al-Shi'r wa-l-Shu'ara'", a book on the poets and their poems. :: Ibn Qutaybah رحمة الله عليه || H: al-Shi'r wa-l-Shu'ara'
+The prince of Aleppo for whom al-Mutanabbi wrote many of his finest odes. :: Sayf al-Dawlah || H: Diwan al-Mutanabbi
+The ruler of Egypt whom al-Mutanabbi first praised and later satirised. :: Kafur al-Ikhshidi || H: Diwan al-Mutanabbi
+A poem of satire is called this in Arabic. :: Hija' || H: al-'Umdah (Ibn Rashiq)
+A poem of boasting about oneself or one's tribe is called this in Arabic. :: Fakhr || H: al-'Umdah (Ibn Rashiq)
+
+## 300
+The sixteenth metre, added by al-Akhfash al-Awsat رحمة الله عليه after al-Khalil. :: al-Mutadarak || H: Mizan al-Dhahab (Ahmad al-Hashimi)
+The long metre of "Qifa nabki", built on fa'ulun mafa'ilun. :: al-Tawil || H: Mizan al-Dhahab (Ahmad al-Hashimi)
+The metre of al-Busiri's رحمة الله عليه Burdah and of "Banat Su'ad", built on mustaf'ilun fa'ilun. :: al-Basit || H: Mizan al-Dhahab (Ahmad al-Hashimi)
+The light metre of mustaf'ilun repeated, used for most teaching poems such as Ibn Malik's رحمة الله عليه Alfiyyah. :: al-Rajaz || H: Mizan al-Dhahab (Ahmad al-Hashimi)
+The metre built on mutafa'ilun repeated, used in Labid's ﵁ Mu'allaqah. :: al-Kamil || H: Mizan al-Dhahab (Ahmad al-Hashimi)
+The Kufan scholar who compiled the old anthology "al-Mufaddaliyyat". :: al-Mufaddal al-Dabbi || H: al-Mufaddaliyyat
+The poet who judged other poets at Suq 'Ukaz from a red leather tent. :: al-Nabighah al-Dhubyani || H: al-Shi'r wa-l-Shu'ara' (Ibn Qutaybah)
+The pre-Islamic poet nicknamed "Sannajat al-'Arab" (the cymbal of the Arabs) for the music of his verse. :: al-A'sha (Maymun ibn Qays) || H: al-Shi'r wa-l-Shu'ara' (Ibn Qutaybah)
+The Companion poet who was martyred at Mu'tah as the third commander of the army. :: 'Abdullah ibn Rawahah ﵁ || H: Sahih al-Bukhari 4261
+The Companion poet who was one of the three who stayed behind from Tabuk and whose repentance was accepted. :: Ka'b ibn Malik ﵁ || H: Sahih al-Bukhari 4418
+Our Beloved Prophet ﷺ told this poet to answer the idolaters in verse, saying Jibril ﵇ was with him (meaning). :: Hassan ibn Thabit ﵁ || H: Sahih al-Bukhari 3213
+The imam of a school of fiqh to whom a well-known diwan of wisdom poetry is attributed. :: al-Shafi'i رحمة الله عليه || H: Diwan al-Imam al-Shafi'i (attribution of some lines is doubtful)
+Al-Busiri's رحمة الله عليه second great poem in praise of our Beloved Prophet ﷺ, rhyming in hamzah. :: al-Hamziyyah || H: Diwan al-Busiri
+Ahmad Shawqi's poem in praise of our Beloved Prophet ﷺ, written in the same metre and rhyme as al-Burdah. :: Nahj al-Burdah || H: al-Shawqiyyat
+Writing a poem in the same metre and rhyme as a famous one, to rival or honour it. :: Mu'aradah || H: al-'Umdah (Ibn Rashiq)
+Adding three half-lines to every line of an older poem, so each verse has five parts. :: Takhmis || H: Mizan al-Dhahab (Ahmad al-Hashimi)
+Al-Mutanabbi's personal name and kunyah. :: Abu al-Tayyib Ahmad ibn al-Husayn || H: Wafayat al-A'yan (Ibn Khallikan)
+The poet who wrote "Nations are only their morals while they last; if their morals go, they go". :: Ahmad Shawqi || H: al-Shawqiyyat
+The poet of the ode in which the Arabic language speaks: "I am the sea; pearls lie hidden in its depths". :: Hafiz Ibrahim || H: Diwan Hafiz Ibrahim
+The vizier of Granada who wrote the muwashshah "Jadaka al-ghaythu". :: Lisan al-Din Ibn al-Khatib || H: Nafh al-Tib (al-Maqqari)
+
+## 400
+The poet whose Mu'allaqah defends Bakr against Taghlib before King 'Amr ibn Hind. :: al-Harith ibn Hillizah || H: Sharh al-Mu'allaqat al-Sab' (al-Zawzani)
+Al-Khatib al-Tibrizi's رحمة الله عليه commentary on the long odes covers this many poems. :: Ten || H: Sharh al-Qasa'id al-'Ashr (al-Tibrizi)
+Abu Tammam's anthology takes its name from its first and longest chapter, on this quality. :: Valour (al-hamasah) || H: Diwan al-Hamasah
+Abu Tammam's ode on the conquest of Amorium in 223 AH / 838 CE opens with this half-line (meaning). :: The sword is truer than the books || H: Diwan Abi Tammam
+The Sufi poet of Cairo called "Sultan al-'Ashiqin", author of the long Ta'iyyah. :: Ibn al-Farid رحمة الله عليه || H: Wafayat al-A'yan (Ibn Khallikan)
+Al-Shatibi's رحمة الله عليه famous poem on the seven readings of the Qur'an, rhyming in lam. :: Hirz al-Amani (al-Shatibiyyah) || H: Hirz al-Amani wa-Wajh al-Tahani
+Al-Laqqani's رحمة الله عليه poem on Ash'ari creed. :: Jawharat al-Tawhid || H: Jawharat al-Tawhid
+The short poem on the terms of hadith science by al-Bayquni رحمة الله عليه. :: al-Manzumah al-Bayquniyyah || H: al-Manzumah al-Bayquniyyah
+The beginners' poem on tajwid by Sulayman al-Jamzuri رحمة الله عليه. :: Tuhfat al-Atfal || H: Tuhfat al-Atfal
+Ibn al-Jazari's رحمة الله عليه poem on tajwid, learnt by heart by students of the Qur'an. :: al-Muqaddimah al-Jazariyyah || H: al-Muqaddimah al-Jazariyyah
+A teaching poem that sets out a whole science in verse, to be memorised. :: Manzumah (nazm) || H: Kashf al-Zunun (Hajji Khalifah)
+The Maliki scholar Ibn al-Nahwi رحمة الله عليه wrote the poem of hope that opens "Ishtaddi azmatu tanfariji". What is it called? :: al-Munfarijah || H: al-Munfarijah (Ibn al-Nahwi)
+Arabic prosody names its building blocks after parts of a tent: the cord (sabab) and this. :: Watad (peg) || H: Mizan al-Dhahab (Ahmad al-Hashimi)
+A permitted small change in a metrical foot, such as dropping a quiet letter. :: Zihaf || H: Mizan al-Dhahab (Ahmad al-Hashimi)
+The outlaw poet whose nickname means "he carried evil under his arm". :: Ta'abbata Sharran || H: al-Shi'r wa-l-Shu'ara' (Ibn Qutaybah)
+The last great Bedouin poet of the Umayyad age, famous for his love of Mayy. :: Dhu al-Rummah || H: al-Shi'r wa-l-Shu'ara' (Ibn Qutaybah)
+Chaste Bedouin love poetry, named after the tribe of Jamil Buthaynah. :: 'Udhri poetry || H: al-Shi'r wa-l-Shu'ara' (Ibn Qutaybah)
+The full title al-Busiri رحمة الله عليه gave his Burdah. :: al-Kawakib al-Durriyyah fi Madh Khayr al-Bariyyah || H: Diwan al-Busiri
+The grammarian who wrote a well-known commentary on "Banat Su'ad". :: Ibn Hisham al-Ansari رحمة الله عليه || H: Sharh Banat Su'ad
+The book by Ibn Sallam al-Jumahi that ranks the poets in classes. :: Tabaqat Fuhul al-Shu'ara' || H: Tabaqat Fuhul al-Shu'ara'
+
+## 500
+Hassan ibn Thabit ﵁ is reported to have lived this long, half before Islam and half in Islam. :: 120 years || H: al-Isti'ab (Ibn 'Abd al-Barr)
+The name for poets whose lives spanned both the Jahiliyyah and Islam, such as Labid ﵁. :: Mukhadramun || H: al-Shi'r wa-l-Shu'ara' (Ibn Qutaybah)
+The biting satirist whom our master 'Umar ﵁ jailed for satirising al-Zibriqan ibn Badr. :: al-Hutay'ah || H: al-Shi'r wa-l-Shu'ara' (Ibn Qutaybah)
+The poet of Hudhayl whose 'Ayniyyah mourns his sons, who all passed away within one year. :: Abu Dhu'ayb al-Hudhali || H: Diwan al-Hudhaliyyin
+The book on poetry and its criticism written by Ibn Rashiq of Qayrawan. :: al-'Umdah || H: al-'Umdah fi Mahasin al-Shi'r
+The early Abbasid writer whose "Naqd al-Shi'r" laid out rules for judging poems. :: Qudamah ibn Ja'far || H: Naqd al-Shi'r
+The Shafi'i scholar whose Lamiyyah of advice opens "I'tazil dhikra al-aghani wa-l-ghazal". :: Ibn al-Wardi رحمة الله عليه || H: Lamiyyat Ibn al-Wardi
+The poet of the Nuniyyah of wisdom that opens "Ziyadatu l-mar'i fi dunyahu nuqsanu". :: Abu al-Fath al-Busti || H: Yatimat al-Dahr (al-Tha'alibi)
+The lexicographer whose poem rhyming in a short alif is called "al-Maqsurah". :: Ibn Durayd || H: Wafayat al-A'yan (Ibn Khallikan)
+The poet who mourned the fall of the cities of al-Andalus in the Nuniyyah "Li-kulli shay'in idha ma tamma nuqsanu". :: Abu al-Baqa' al-Rundi || H: Nafh al-Tib (al-Maqqari)
+The Andalusian nature poet nicknamed "al-Jannan", the gardener. :: Ibn Khafajah || H: Wafayat al-A'yan (Ibn Khallikan)
+The Egyptian poet and statesman called "lord of the sword and the pen", who revived classical poetry and passed away in 1322 AH / 1904 CE. :: Mahmud Sami al-Barudi || H: al-A'lam (al-Zirikli)
+The full title al-Busiri رحمة الله عليه gave his Hamziyyah. :: Umm al-Qura fi Madh Khayr al-Wara || H: Diwan al-Busiri
+The poet who wrote the elegy for his brother "Wa inna Sakhran la-ta'tammu al-hudatu bihi", likening him to a mountain with a fire on top. :: al-Khansa' ﵂ || H: Diwan al-Khansa'
+The rival satirists Jarir and al-Farazdaq both came from this great tribe of Najd. :: Tamim || H: Tabaqat Fuhul al-Shu'ara' (Ibn Sallam)
+The anthology of old poems compiled by al-Asma'i, a companion book to al-Mufaddaliyyat. :: al-Asma'iyyat || H: al-Asma'iyyat
+Ibn al-Farid's رحمة الله عليه long Sufi poem, also called "Nazm al-Suluk", rhymes in this letter. :: Ta' (the Ta'iyyah al-Kubra) || H: Diwan Ibn al-Farid
+The name for a line whose two halves both end in the rhyme, as in the opening line of most qasidahs. :: Tasri' || H: al-'Umdah (Ibn Rashiq)
+Running a sentence on from one line into the next, which the old critics counted as a fault. :: Tadmin || H: al-'Umdah (Ibn Rashiq)
+The modern form that counts feet freely instead of keeping full lines, pioneered by Nazik al-Mala'ikah and Badr Shakir al-Sayyab. :: Free verse (shi'r al-taf'ilah) || H: Qadaya al-Shi'r al-Mu'asir (Nazik al-Mala'ikah)
