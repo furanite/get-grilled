@@ -157,16 +157,16 @@ This file is rewritten by `npm run packs`.
 
 ## The Hanbali School (questions/isl-school-hanbali.txt)
 
-- **500**, line 77: In the Hanbali school, when the moon is hidden by cloud on the night of the 30th of Sha'ban, the relied view is that the next day is this. **Answer:** Fasted as a precaution with the intention of Ramadan _(Source: Zad al-Mustaqni' (al-Hajjawi); check wording)_
+- **500**, line 117: In the Hanbali school, when the moon is hidden by cloud on the night of the 30th of Sha'ban, the relied view is that the next day is this. **Answer:** Fasted as a precaution with the intention of Ramadan _(Source: Zad al-Mustaqni' (al-Hajjawi); check wording)_
 
 ## The Maliki School (questions/isl-school-maliki.txt)
 
-- **500**, line 79: The four main books of the early Maliki school, with the Mudawwanah, are called this group name. **Answer:** The Ummahat (mother books) _(Source: Tartib al-Madarik (Qadi 'Iyad); check the list of four)_
+- **500**, line 119: The four main books of the early Maliki school, with the Mudawwanah, are called this group name. **Answer:** The Ummahat (mother books) _(Source: Tartib al-Madarik (Qadi 'Iyad); check the list of four)_
 
 ## The Shafi'i School (questions/isl-school-shafii.txt)
 
-- **500**, line 77: In the Shafi'i school, when Ibn Hajar and al-Ramli ⁨رحمة الله عليه⁩ما differ, scholars of Egypt mostly follow this one. **Answer:** al-Ramli ⁨رحمة الله عليه⁩ _(Source: well-known convention; check wording)_
-- **500**, line 78: In the Shafi'i school, when Ibn Hajar and al-Ramli ⁨رحمة الله عليه⁩ما differ, scholars of Hadramawt and Yemen mostly follow this one. **Answer:** Ibn Hajar al-Haytami ⁨رحمة الله عليه⁩ _(Source: well-known convention; check wording)_
+- **500**, line 117: In the Shafi'i school, when Ibn Hajar and al-Ramli ⁨رحمة الله عليه⁩ما differ, scholars of Egypt mostly follow this one. **Answer:** al-Ramli ⁨رحمة الله عليه⁩ _(Source: well-known convention; check wording)_
+- **500**, line 118: In the Shafi'i school, when Ibn Hajar and al-Ramli ⁨رحمة الله عليه⁩ما differ, scholars of Hadramawt and Yemen mostly follow this one. **Answer:** Ibn Hajar al-Haytami ⁨رحمة الله عليه⁩ _(Source: well-known convention; check wording)_
 
 ## Blessed Seerah: the Madinan years (questions/isl-seerah-madinah.txt)
 
