@@ -17,6 +17,8 @@ export interface PublicView {
   theme: ThemeId
   lang: Lang
   reduceFx: boolean
+  /** Audience phones: playing along, and whether the projector shows the join QR code */
+  audience?: { on: boolean; showJoin: boolean }
 }
 
 const HIDDEN = ''

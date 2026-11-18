@@ -44,6 +44,10 @@ const MAX_BODY_OTHER = 4 * 1024
 const MAX_STREAMS = 800
 const MAX_STREAMS_PER_IP = 12
 const MAX_TEAMS = 8
+const MAX_AUDIENCE = 600
+const MAX_CHOICES = 6
+// The game's Wi-Fi, shown as a QR code on the projector so phones can join (it is meant to be public in the room).
+const WIFI = process.env.GG_WIFI_SSID ? { ssid: String(process.env.GG_WIFI_SSID).slice(0, 32), pass: String(process.env.GG_WIFI_PASS || '').slice(0, 63) } : null
 const LOGIN_TRIES = 5
 const LOGIN_LOCK_MS = 5 * 60_000
 
@@ -213,8 +217,66 @@ function kickSeat(id, reason) {
 }
 
 function seatView(seat) {
-  return `{"seat":${JSON.stringify({ kind: seat.kind, index: seat.index, name: seat.name })},"view":${viewJson}}`
+  const extra = seat.kind === 'screen' ? `,"join":${JSON.stringify({ wifi: WIFI, audience: audience.on, joined: audienceCount() })}` : ''
+  return `{"seat":${JSON.stringify({ kind: seat.kind, index: seat.index, name: seat.name })},"view":${viewJson}${extra}}`
 }
+
+// ---------- audience phones ----------
+/**
+ * Phones join anonymously (a random cookie, no names). A round is one multiple-choice question
+ * (a clue, or the category vote). Each phone gets one answer per round; the round closes when its
+ * time runs out or the host reveals the answer. Phones never learn the right choice before that.
+ */
+const audience = { on: false, members: new Map() } // cookie hash -> { score }
+let audRound = null // { id, kind, q, choices, closesAt, correct, counts, answers: Map }
+const audienceCount = () => [...streams].filter((s) => s.role === 'aud').length
+
+function audState(member, memberHash) {
+  const r = audRound
+  return {
+    theme: view?.theme ?? 'amethyst',
+    lang: view?.lang ?? 'en',
+    on: audience.on,
+    score: member?.score ?? 0,
+    round: r
+      ? {
+          id: r.id,
+          kind: r.kind,
+          q: r.q,
+          choices: r.choices,
+          open: roundOpen(r),
+          closesAt: r.closesAt,
+          correct: r.correct,
+          mine: memberHash ? (r.answers.get(memberHash) ?? null) : null,
+          counts: r.correct !== null || r.kind === 'vote' && !roundOpen(r) ? r.counts : null,
+        }
+      : null,
+  }
+}
+const roundOpen = (r) => !!r && r.correct === null && !r.closed && now() < r.closesAt
+
+function toAudience() {
+  for (const s of streams) if (s.role === 'aud') sse(s.res, 'state', audState(audience.members.get(s.audHash), s.audHash))
+}
+let tallyTimer = null
+function tallyToHost() {
+  if (tallyTimer) return
+  tallyTimer = setTimeout(() => {
+    tallyTimer = null
+    const r = audRound
+    toHost('tally', { id: r?.id ?? null, counts: r?.counts ?? [], total: r ? r.answers.size : 0, joined: audienceCount() })
+  }, 250)
+}
+let closeTimer = null
+function scheduleClose() {
+  clearTimeout(closeTimer)
+  if (!audRound || audRound.correct !== null) return
+  closeTimer = setTimeout(() => {
+    toAudience()
+    tallyToHost()
+  }, Math.max(0, audRound.closesAt - now() + 50))
+}
+const cleanText = (v, n) => String(v ?? '').replace(/[\u0000-\u001f\u007f]/g, ' ').trim().slice(0, n)
 
 function deviceLabel(req) {
   const ua = String(req.headers['user-agent'] || '')
@@ -260,7 +322,7 @@ async function api(req, res, path) {
     if (req.headers['x-gg'] !== '1') return send(res, 403, { error: 'header' })
   }
 
-  if (path === '/api/hello' && req.method === 'GET') return send(res, 200, { gg: 1, live: true, version: VERSION, pinSet: !!config })
+  if (path === '/api/hello' && req.method === 'GET') return send(res, 200, { gg: 1, live: true, version: VERSION, pinSet: !!config, audience: audience.on })
 
   // ----- host -----
   if (path === '/api/host/login' && req.method === 'POST') {
@@ -381,17 +443,91 @@ async function api(req, res, path) {
       return send(res, 400, { error: 'action' })
     }
 
+    if (path === '/api/host/audience' && req.method === 'POST') {
+      const body = await readBody(req, MAX_BODY_OTHER * 4)
+      if (typeof body.on === 'boolean') audience.on = body.on
+      if (body.round === null) {
+        audRound = null
+      } else if (body.round && typeof body.round === 'object') {
+        const r = body.round
+        const id = cleanText(r.id, 80)
+        const choices = Array.isArray(r.choices) ? r.choices.slice(0, MAX_CHOICES).map((c) => cleanText(c, 120)) : []
+        if (!id || choices.length < 2) return send(res, 400, { error: 'round' })
+        const secs = Math.min(600, Math.max(3, Number(r.secs) || 30))
+        // A new question: the old round is gone; the same question again (the host's screen re-sent it) changes nothing.
+        if (!audRound || audRound.id !== id) audRound = { id, kind: r.kind === 'vote' ? 'vote' : 'clue', q: cleanText(r.q, 600), choices, closesAt: now() + secs * 1000, correct: null, closed: false, counts: choices.map(() => 0), answers: new Map() }
+      }
+      if (body.close && audRound && audRound.id === body.close) audRound.closed = true
+      if (body.reveal && audRound && audRound.id === body.reveal.id && audRound.correct === null) {
+        const c = Number(body.reveal.correct)
+        if (Number.isInteger(c) && c >= 0 && c < audRound.choices.length) {
+          audRound.correct = c
+          for (const [who, pick] of audRound.answers) if (pick === c) {
+            const m = audience.members.get(who)
+            if (m) m.score++
+          }
+        }
+      }
+      if (!audience.on) audRound = null
+      scheduleClose()
+      toAudience()
+      tallyToHost()
+      for (const s of streams) if (s.role === 'seat') { const seat = seats.find((x) => x.id === s.seatId); if (seat?.kind === 'screen') sse(s.res, 'view', seatView(seat)) }
+      return send(res, 200, { ok: true, joined: audienceCount() })
+    }
+
     if (path === '/api/host/reset' && req.method === 'POST') {
       // End of the event: every link stops working and nothing is kept.
       for (const s of seats) kickSeat(s.id, 'ended')
       seats = []
       view = null
       viewJson = 'null'
+      // Nothing about the audience is kept either.
+      for (const s of [...streams]) if (s.role === 'aud') (s.res.end(), streams.delete(s))
+      audience.members.clear()
+      audRound = null
       saveSeats()
       seatsChanged()
       return send(res, 200, { ok: true })
     }
     return send(res, 404, { error: 'not found' })
+  }
+
+  // ----- audience phones -----
+  if (path === '/api/aud/join' && req.method === 'POST') {
+    if (!audience.on) return send(res, 403, { error: 'closed' })
+    if (!allowed('join:' + ip, 6, 60_000)) return send(res, 429, { error: 'slow down' })
+    const c = cookies(req).gg_aud
+    if (c && audience.members.has(sha(c))) return send(res, 200, { ok: true })
+    if (audience.members.size >= MAX_AUDIENCE) return send(res, 503, { error: 'full' })
+    const d = token(24)
+    audience.members.set(sha(d), { score: 0 })
+    return send(res, 200, { ok: true }, { 'Set-Cookie': setCookie('gg_aud', d, 12 * 3600) })
+  }
+  if (path === '/api/aud/events' && req.method === 'GET') {
+    const c = cookies(req).gg_aud
+    const h = c ? sha(c) : null
+    if (!h || !audience.members.has(h)) return send(res, 401, { error: 'join first' })
+    return openStream(req, res, { role: 'aud', audHash: h, ip }, () => {
+      sse(res, 'state', audState(audience.members.get(h), h))
+      tallyToHost()
+    })
+  }
+  if (path === '/api/aud/answer' && req.method === 'POST') {
+    const c = cookies(req).gg_aud
+    const h = c ? sha(c) : null
+    if (!h || !audience.members.has(h)) return send(res, 401, { error: 'join first' })
+    if (!allowed('ans:' + h, 5, 5_000)) return send(res, 429, { error: 'slow down' })
+    const body = await readBody(req, MAX_BODY_OTHER)
+    const r = audRound
+    if (!r || r.id !== body.id || !roundOpen(r)) return send(res, 409, { error: 'closed' })
+    const pick = Number(body.choice)
+    if (!Number.isInteger(pick) || pick < 0 || pick >= r.choices.length) return send(res, 400, { error: 'choice' })
+    if (r.answers.has(h)) return send(res, 409, { error: 'already', mine: r.answers.get(h) })
+    r.answers.set(h, pick)
+    r.counts[pick]++
+    tallyToHost()
+    return send(res, 200, { ok: true, mine: pick })
   }
 
   // ----- devices (team tablets, projector) -----

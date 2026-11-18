@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import Source from './Source'
 import FitBox from './FitBox'
+import { AudResult } from './LiveAudience'
 import { BuzzOrder } from './Buzzers'
 import { createPortal } from 'react-dom'
 import type { Game, Lang, Screen, ThemeId } from '../lib/types'
@@ -443,6 +444,7 @@ export function AudienceView({ t, lang, theme, screen, game, live, vote, win, no
               </>
             )}
             {!live!.intro && !live!.revealed && live!.buzz && <BuzzOrder t={t} lang={lang} view={live!.buzz} teams={game.teams} big />}
+            {!live!.intro && live!.aud && <AudResult t={t} lang={lang} aud={live!.aud} big />}
             {!live!.intro && clueSeconds(game.settings, live!.l, clue) > 0 && <TimerBar clock={live!.clock ?? null} total={clueSeconds(game.settings, live!.l, clue)} lang={lang} timeUpText={t.timeUp} big />}
           </FitBox>
         </div>

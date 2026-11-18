@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState, type FormEvent } from 'react'
+import { useEffect, useMemo, useRef, useState, useSyncExternalStore, type FormEvent } from 'react'
 import { createPortal } from 'react-dom'
 import qrcode from 'qrcode-generator'
 import type { Game, Lang } from '../lib/types'
@@ -16,6 +16,12 @@ export const setLiveServer = (on: boolean) => {
   liveServer = on
 }
 export const isLiveServer = () => liveServer
+
+/** Whether the audience plays along (host side), without re-drawing on every vote. */
+export function useHostAudience() {
+  const h = getHostLive()
+  return useSyncExternalStore(h.subscribe, () => h.audience, () => h.audience)
+}
 
 /** The PIN screen the host sees on the Pi before the game. */
 export function HostLogin({ t, theme, pinSet, onIn }: { t: Strings; theme: ThemeId; pinSet: boolean; onIn: () => void }) {
@@ -147,7 +153,8 @@ function SeatRow({ t, lang, seat }: { t: Strings; lang: Lang; seat: Seat }) {
 export function DevicesPanel({ t, lang, game, onClose }: { t: Strings; lang: Lang; game: Game | null; onClose: () => void }) {
   const ref = useRef<HTMLDivElement>(null)
   useDialog(ref, onClose)
-  const { seats } = useHostLive()
+  const { seats, tally } = useHostLive()
+  const audience = useHostAudience()
   const [ending, setEnding] = useState(false)
   const names = game?.teams.map((tm) => tm.name)
   const key = names ? JSON.stringify(names) : ''
@@ -170,6 +177,20 @@ export function DevicesPanel({ t, lang, game, onClose }: { t: Strings; lang: Lan
               <SeatRow key={s.id + (s.link ?? '')} t={t} lang={lang} seat={s} />
             ))}
           </ul>
+          <fieldset className="live-aud" data-testid="aud-settings">
+            <legend className="label">{t.aud.section}</legend>
+            <label className="check">
+              <input type="checkbox" checked={audience.on} onChange={(e) => getHostLive().setAudience({ on: e.target.checked })} data-testid="aud-on" />
+              <span>{t.aud.on}</span>
+            </label>
+            <label className="check">
+              <input type="checkbox" checked={audience.showJoin} disabled={!audience.on} onChange={(e) => getHostLive().setAudience({ showJoin: e.target.checked })} data-testid="aud-join" />
+              <span>{t.aud.showJoin}</span>
+            </label>
+            <p className="muted small">
+              {t.aud.help} {audience.on && <b data-testid="aud-joined">{num(tally.joined, lang)} {t.aud.joined}</b>}
+            </p>
+          </fieldset>
         </div>
         <div className="legal-actions">
           {ending ? (
