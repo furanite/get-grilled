@@ -696,3 +696,7 @@ body{overflow-wrap:break-word}
 /* On the big screen the board fills the window: no theme's tile shape may make the rows taller than their share. */
 :root[data-theme] .aud-stage .tile{aspect-ratio:auto;min-height:0}
 :root[data-theme="heritage"] .aud-stage .tile{font-size:clamp(14px,min(3.4vw,4.8vh),68px)}
+
+/* Study tips and rules pop-ups */
+.legal-panel.guide .legal-body h2{font-family:var(--fd);font-size:18px;margin:14px 0 2px;color:var(--accent)}
+.legal-panel.guide .legal-body section:first-of-type h2{margin-top:6px}
