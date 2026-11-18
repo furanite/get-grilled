@@ -202,10 +202,10 @@ This file is rewritten by `npm run packs`.
 
 ## Usul al-Fiqh (questions/isl-usul.txt)
 
-- **400**, line 76: The Hanafi view on a single (ahad) hadith that seems to go against strong principles. **Answer:** It may be left if the narrator is not a jurist, in some cases _(Source: Usul al-Sarakhsi; to be checked)_
-- **500**, line 100: The Hanafi usul book by al-Jassas ⁨رحمة الله عليه⁩. **Answer:** al-Fusul fil-Usul _(Source: al-Fusul fil-Usul; some biographers say al-Jassas leaned to Mu'tazili views, so check before using)_
-- **500**, line 109: The Hanafi scholar al-Karkhi ⁨رحمة الله عليه⁩ wrote a short treatise of these, on which the school's rulings turn. **Answer:** Principles (al-Usul) _(Source: Usul al-Karkhi; some biographers say al-Karkhi leaned to Mu'tazili views, so check before using)_
-- **500**, line 111: The book of Ibn Rushd al-Hafid ⁨رحمة الله عليه⁩ on the reasons for the differences of the schools. **Answer:** Bidayat al-Mujtahid _(Source: Bidayat al-Mujtahid; check creed before honorific)_
+- **400**, line 99: The Hanafi view on a single (ahad) hadith that seems to go against strong principles. **Answer:** It may be left if the narrator is not a jurist, in some cases _(Source: Usul al-Sarakhsi; to be checked)_
+- **500**, line 130: The Hanafi usul book by al-Jassas ⁨رحمة الله عليه⁩. **Answer:** al-Fusul fil-Usul _(Source: al-Fusul fil-Usul; some biographers say al-Jassas leaned to Mu'tazili views, so check before using)_
+- **500**, line 139: The Hanafi scholar al-Karkhi ⁨رحمة الله عليه⁩ wrote a short treatise of these, on which the school's rulings turn. **Answer:** Principles (al-Usul) _(Source: Usul al-Karkhi; some biographers say al-Karkhi leaned to Mu'tazili views, so check before using)_
+- **500**, line 141: The book of Ibn Rushd al-Hafid ⁨رحمة الله عليه⁩ on the reasons for the differences of the schools. **Answer:** Bidayat al-Mujtahid _(Source: Bidayat al-Mujtahid; check creed before honorific)_
 
 ## Fiqh: Work and earning (questions/isl-work.txt)
 
