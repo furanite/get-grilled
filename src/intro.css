@@ -1,0 +1,230 @@
+/* Team introductions (before the board) and the Meet the teams screen.
+   Drawn on a fixed 1280x720 stage that TeamIntro.tsx scales to fit, so the projector and host screens match.
+   Every theme has its own entrance; Heritage stays calm. Reduce effects (and the system setting) stops the motion. */
+/* ====== STAGE (1280x720, scaled) ====== */
+.ti-stage{position:absolute;left:0;top:0;width:1280px;height:720px;transform-origin:0 0;overflow:hidden;background:var(--bg);color:var(--text);font-family:var(--fb)}
+
+.ti-scene{position:absolute;inset:0;background:radial-gradient(120% 90% at 50% 0%,var(--bg2),var(--bg) 70%)}
+.ti-fx{position:absolute;inset:0;pointer-events:none;overflow:hidden}
+.ti-fx>*{position:absolute}
+.ti-in{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:22px;padding:60px 90px}
+.ti-eyebrow{font:600 18px var(--fb);letter-spacing:.3em;text-transform:uppercase;color:var(--muted);animation:tiFadeUp .7s var(--ease) .3s both}
+.ti-tname{font:400 calc(104px * var(--nk,1))/1 var(--fd);letter-spacing:var(--track);margin:0;color:var(--accent);white-space:nowrap}
+.ti-tname .ti-ch{display:inline-block;animation:var(--ch-anim,tiChRise) .8s var(--spring) both;animation-delay:calc(var(--d0,.7s) + var(--i)*45ms)}
+.ti-tname .ti-sp{display:inline-block;width:.3em}
+.ti-flourish{width:420px;height:24px;animation:tiFadeIn .4s 1.3s both}
+.ti-flourish path{fill:none;stroke:var(--accent);stroke-width:1.6;stroke-dasharray:500;stroke-dashoffset:500;animation:tiDraw 1.2s var(--ease) 1.4s forwards}
+.ti-flourish circle{fill:var(--accent);transform-box:fill-box;transform-origin:center;animation:tiPop .5s var(--spring) 2.2s both}
+.ti-members{list-style:none;margin:0;padding:0;display:flex;gap:18px;justify-content:center;flex-wrap:wrap;max-width:1100px}
+.ti-members li{font:600 30px var(--fb);color:var(--text);padding:12px 28px;border:1px solid color-mix(in oklab,var(--accent) 45%,transparent);border-radius:var(--r);background:linear-gradient(160deg,var(--tile-a),var(--tile-b));animation:var(--m-anim,tiMemIn) .7s var(--spring) both;animation-delay:calc(2s + var(--i)*.28s);position:relative}
+.ti-members li.ti-cap::before{content:attr(data-cap);position:absolute;top:-11px;left:50%;translate:-50% 0;font:800 11px var(--fb);letter-spacing:.14em;text-transform:uppercase;background:var(--accent);color:var(--bg);padding:2px 8px;border-radius:99px;white-space:nowrap}
+.ti-members li{display:flex;flex-direction:column;align-items:center;line-height:1.15;padding-block:12px 10px}
+.ti-members .ti-role{font:600 14px var(--fb);letter-spacing:.06em;color:var(--muted);margin-top:4px;text-transform:none;white-space:nowrap;opacity:0;animation:tiFadeIn .6s ease both;animation-delay:calc(2.4s + var(--i)*.28s)}
+:root[data-theme="heritage"] .ti-members .ti-role{animation-delay:calc(3.6s + var(--i)*.35s)}
+:root[data-theme="neon"] .ti-members .ti-role{color:#ff8fe8}
+:root[data-theme="ember"] .ti-members .ti-role{color:#e8a27f}
+:root[data-theme="onyx"] .ti-members .ti-role,:root[data-theme="amethyst"] .ti-members .ti-role{color:color-mix(in oklab,var(--accent) 75%,var(--text))}
+.ti-tcard ul{flex-direction:column;flex-wrap:nowrap;align-items:stretch;gap:4px;width:100%}
+.ti-tcard li{display:flex;justify-content:space-between;gap:10px;align-items:baseline;border-radius:8px;padding:4px 12px}
+.ti-tcard li .ti-role{font:400 13px var(--fb);color:var(--muted);text-align:end}
+.ti-fact{max-width:880px;display:flex;gap:16px;align-items:center;padding:16px 26px;border-radius:14px;background:color-mix(in oklab,var(--bg) 70%,transparent);border:1px solid color-mix(in oklab,var(--accent) 30%,transparent);animation:var(--f-anim,tiFactIn) .9s var(--spring) 3.5s both}
+.ti-fact b{font:800 13px var(--fb);letter-spacing:.18em;text-transform:uppercase;color:var(--accent);white-space:nowrap}
+.ti-fact p{margin:0;font:400 24px/1.35 var(--fb);color:var(--text);text-align:start}
+
+/* host-only control strip */
+.ti-hostbar{position:absolute;z-index:20;left:0;right:0;bottom:0;display:flex;justify-content:space-between;align-items:center;gap:16px;padding:14px 22px;background:linear-gradient(0deg,#000c,#0000);font:600 15px var(--fb);color:#fff}
+.ti-hostbar .ti-lbl{opacity:.75;letter-spacing:.1em;text-transform:uppercase;font-size:12px}
+.ti-hostbtns{display:flex;gap:10px}
+.ti-hostbtn{font:700 15px var(--fb);padding:10px 18px;border-radius:10px;border:1px solid #fff5;background:#ffffff14;color:#fff;cursor:pointer}
+.ti-hostbtn.ti-go{background:var(--accent);color:var(--bg);border-color:var(--accent)}
+.ti-progress{position:absolute;z-index:21;left:0;bottom:0;height:3px;background:var(--accent);animation:tiProg var(--dur,9s) linear both}
+
+/* ===== shared keyframes ===== */
+@keyframes tiFadeIn{from{opacity:0}to{opacity:1}}
+@keyframes tiFadeUp{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+@keyframes tiChRise{from{opacity:0;transform:translateY(40px) scale(.9)}to{opacity:1;transform:none}}
+@keyframes tiMemIn{from{opacity:0;transform:translateY(24px) scale(.85)}to{opacity:1;transform:none}}
+@keyframes tiFactIn{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
+@keyframes tiDraw{to{stroke-dashoffset:0}}
+@keyframes tiPop{from{transform:scale(0)}to{transform:scale(1)}}
+@keyframes tiProg{from{width:0}to{width:100%}}
+@keyframes tiSpin{to{rotate:360deg}}
+@keyframes tiTwinkle{0%,100%{opacity:0;transform:scale(.3)}50%{opacity:1;transform:scale(1)}}
+
+/* ===== ROYAL AMETHYST: velvet curtains part, gold glints, gilded name ===== */
+:root[data-theme="amethyst"] .ti-fx .ti-curtain{top:0;bottom:0;width:51%;z-index:5;background:repeating-linear-gradient(90deg,#3a1468 0 22px,#4d1c8a 34px,#2a0d50 50px,#3a1468 64px);box-shadow:inset 0 -40px 60px #0008}
+:root[data-theme="amethyst"] .ti-fx .ti-curtain::after{content:"";position:absolute;left:0;right:0;bottom:0;height:16px;background:repeating-linear-gradient(90deg,#f5cd72 0 6px,#a77b26 6px 12px);opacity:.9}
+:root[data-theme="amethyst"] .ti-fx .ti-curtain.ti-l{left:0;animation:tiCurtL 1.4s var(--ease) .15s forwards}
+:root[data-theme="amethyst"] .ti-fx .ti-curtain.ti-r{right:0;animation:tiCurtR 1.4s var(--ease) .15s forwards}
+@keyframes tiCurtL{to{transform:translateX(-96%) scaleX(.6);transform-origin:left}}
+@keyframes tiCurtR{to{transform:translateX(96%) scaleX(.6);transform-origin:right}}
+:root[data-theme="amethyst"] .ti-fx .ti-valance{left:0;right:0;top:0;height:46px;z-index:6;background:radial-gradient(40px 30px at 40px 0,#4d1c8a 98%,transparent) 0 0/80px 46px repeat-x;filter:drop-shadow(0 4px 0 #f5cd72)}
+:root[data-theme="amethyst"] .ti-fx .ti-glint{width:16px;height:16px;background:var(--accent);clip-path:var(--spark);animation:tiTwinkle 2.6s ease-in-out infinite;opacity:0}
+:root[data-theme="amethyst"] .ti-fx .ti-halo{left:50%;top:44%;width:900px;height:520px;translate:-50% -50%;background:radial-gradient(closest-side,rgba(245,205,114,.18),transparent);animation:tiFadeIn 1.5s 1s both}
+:root[data-theme="amethyst"]{--ch-anim:tiChGild}
+:root[data-theme="amethyst"] .ti-tname .ti-ch{background:linear-gradient(180deg,#fff3cf,#f5cd72 50%,#b9862e);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 4px 18px rgba(245,205,114,.35))}
+@keyframes tiChGild{0%{opacity:0;transform:translateY(30px)}60%{opacity:1;filter:brightness(1.8) drop-shadow(0 0 20px #f5cd72)}100%{opacity:1;transform:none}}
+:root[data-theme="amethyst"] .ti-members li{border-color:#f5cd7299;box-shadow:inset 0 0 0 4px #110920aa,inset 0 0 0 5px #f5cd7255}
+
+/* ===== EMERALD OASIS: eight-point star unfolds, brass lamps light one by one ===== */
+:root[data-theme="emerald"] .ti-fx .ti-bigstar{left:50%;top:46%;width:620px;height:620px;translate:-50% -50%;background:conic-gradient(from 22.5deg,#e9c47f22,#86f3d422,#e9c47f22,#86f3d422,#e9c47f22);clip-path:var(--star);animation:tiStarIn 2.2s var(--spring) both,tiSpin 60s linear 2.2s infinite}
+:root[data-theme="emerald"] .ti-fx .ti-bigstar::after{content:"";position:absolute;inset:14%;background:var(--bg);clip-path:var(--star);opacity:.75}
+@keyframes tiStarIn{from{opacity:0;transform:scale(.2) rotate(-90deg)}to{opacity:1;transform:none}}
+:root[data-theme="emerald"] .ti-fx .ti-lamp{top:0;width:2px;background:linear-gradient(#e9c47f00,#e9c47faa);transform-origin:top;animation:tiLampSwing 5s ease-in-out infinite alternate}
+:root[data-theme="emerald"] .ti-fx .ti-lamp::after{content:"";position:absolute;left:50%;bottom:-18px;width:20px;height:26px;translate:-50% 0;border-radius:10px 10px 4px 4px;background:#3c2a10;border:1px solid #e9c47f;box-shadow:0 0 0 #e9c47f00;animation:tiLampOn .6s ease forwards;animation-delay:inherit}
+@keyframes tiLampOn{to{background:radial-gradient(#fff3c8,#e9c47f 60%,#a77b26);box-shadow:0 0 28px 6px #e9c47f88}}
+@keyframes tiLampSwing{from{rotate:-2deg}to{rotate:2deg}}
+:root[data-theme="emerald"] .ti-fx .ti-palms{left:0;right:0;bottom:0;height:120px;background:linear-gradient(0deg,#021712,transparent)}
+:root[data-theme="emerald"]{--ch-anim:tiChOasis}
+@keyframes tiChOasis{from{opacity:0;transform:translateY(26px);filter:blur(6px)}to{opacity:1;transform:none;filter:none}}
+:root[data-theme="emerald"] .ti-tname{text-shadow:0 0 30px #e9c47f55}
+:root[data-theme="emerald"] .ti-members li{border-color:#33b394}
+
+/* ===== NEON CIRCUIT: tubes flicker on, traces tiDraw, chips power up ===== */
+:root[data-theme="neon"] .ti-fx .ti-grid{inset:0;background:linear-gradient(#2ef2ff10 1px,transparent 1px) 0 0/40px 40px,linear-gradient(90deg,#2ef2ff10 1px,transparent 1px) 0 0/40px 40px;mask-image:radial-gradient(70% 70% at 50% 50%,#000,transparent);animation:tiFadeIn 1s both}
+:root[data-theme="neon"] .ti-fx .ti-scan{inset:0;background:repeating-linear-gradient(0deg,#0000 0 3px,#0003 3px 4px);z-index:8}
+:root[data-theme="neon"] .ti-fx svg{inset:0;width:100%;height:100%}
+:root[data-theme="neon"] .ti-fx svg path{fill:none;stroke-width:2;stroke-dasharray:900;stroke-dashoffset:900;animation:tiDraw 1.6s var(--ease) forwards;filter:drop-shadow(0 0 6px currentColor)}
+:root[data-theme="neon"] .ti-fx svg circle{animation:tiPop .4s var(--spring) both;filter:drop-shadow(0 0 6px currentColor)}
+:root[data-theme="neon"]{--ch-anim:tiChFlicker}
+:root[data-theme="neon"] .ti-tname{color:#eafcff;text-shadow:0 0 8px #2ef2ff,0 0 24px #2ef2ff,0 0 48px #2ef2ff88;font-weight:700;text-transform:uppercase;font-size:calc(92px * var(--nk,1))}
+@keyframes tiChFlicker{0%{opacity:0}10%{opacity:.8}14%{opacity:.1}22%{opacity:1}30%{opacity:.3}38%,100%{opacity:1}}
+:root[data-theme="neon"] .ti-tname .ti-ch{animation-duration:1s;animation-timing-function:steps(1,end)}
+:root[data-theme="neon"] .ti-members li{clip-path:polygon(12px 0,100% 0,100% calc(100% - 12px),calc(100% - 12px) 100%,0 100%,0 12px);border:0;background:#0b0d33;box-shadow:inset 0 0 0 1.5px #ff3fd8;font-size:26px}
+:root[data-theme="neon"] .ti-members li::after{content:"";position:absolute;left:10px;right:10px;bottom:-2px;height:4px;background:repeating-linear-gradient(90deg,#2ef2ff 0 6px,transparent 6px 14px)}
+:root[data-theme="neon"] .ti-members li.ti-cap::before{position:static;display:block;translate:none;background:none;color:#2ef2ff;padding:0;font-size:10px}
+:root[data-theme="neon"] .ti-members li.ti-cap{padding-top:6px}
+:root[data-theme="neon"] .ti-fact{max-width:1060px}
+:root[data-theme="neon"] .ti-fact{border-color:#2ef2ff88;box-shadow:0 0 24px #2ef2ff33}
+:root[data-theme="neon"] .ti-fact p::before{content:"> ";color:#ff3fd8}
+
+/* ===== MOLTEN EMBER: embers tiRise, name heats up, grill bars glow ===== */
+:root[data-theme="ember"] .ti-fx .ti-spark{bottom:-10px;width:5px;height:5px;border-radius:50%;background:#ffb64a;box-shadow:0 0 10px 2px #ff6a3d;animation:tiRise linear infinite;opacity:0}
+@keyframes tiRise{0%{opacity:0;transform:translate(0,0)}10%{opacity:1}100%{opacity:0;transform:translate(var(--dx),-760px)}}
+:root[data-theme="ember"] .ti-fx .ti-grill{left:0;right:0;bottom:0;height:150px;background:repeating-linear-gradient(90deg,transparent 0 46px,#2a0f0b 46px 58px),linear-gradient(0deg,#ff5a1f55,transparent);animation:tiGrillHeat 3s ease-in-out infinite alternate}
+@keyframes tiGrillHeat{from{filter:brightness(.8)}to{filter:brightness(1.3)}}
+:root[data-theme="ember"] .ti-fx .ti-heat{left:-5%;right:-5%;bottom:-40px;height:420px;background:radial-gradient(60% 100% at 50% 100%,rgba(255,90,31,.45),transparent);animation:tiFadeIn 1.4s both}
+:root[data-theme="ember"]{--ch-anim:tiChHeat}
+:root[data-theme="ember"] .ti-tname{font-weight:800;font-size:calc(110px * var(--nk,1))}
+@keyframes tiChHeat{0%{opacity:0;color:#2a0505;transform:translateY(20px);text-shadow:none}40%{opacity:1;color:#8a1a10}75%{color:#ff7a2a;text-shadow:0 0 30px #ff5a1f}100%{color:#ffb64a;transform:none;text-shadow:0 0 22px #ff6a3d99,0 2px 0 #7a1a08}}
+:root[data-theme="ember"] .ti-tname .ti-ch{animation-duration:1.4s;animation-timing-function:ease-out}
+:root[data-theme="ember"]{--m-anim:tiMemSlide}
+@keyframes tiMemSlide{from{opacity:0;transform:translateX(-60px) skewX(-8deg);filter:brightness(2.2)}to{opacity:1;transform:none;filter:none}}
+:root[data-theme="ember"] .ti-members li{background:repeating-linear-gradient(0deg,transparent 0 10px,rgba(255,255,255,.04) 10px 12px),linear-gradient(180deg,#221312,#140a09);border-color:#ff6a3d88;color:#ffcf9a;box-shadow:0 8px 24px -10px #ff5a1f}
+
+/* ===== BLACK & GOLD: art-deco sunburst, chasing bulbs, foil name ===== */
+:root[data-theme="onyx"] .ti-fx .ti-rays{left:50%;top:46%;width:1800px;height:1800px;translate:-50% -50%;background:repeating-conic-gradient(from 0deg,#f2cd6b14 0 4deg,transparent 4deg 10deg);mask-image:radial-gradient(closest-side,#000 20%,transparent);animation:tiRaysIn 1.8s var(--ease) both,tiSpin 90s linear infinite}
+@keyframes tiRaysIn{from{opacity:0;transform:scale(.3)}to{opacity:1;transform:none}}
+:root[data-theme="onyx"] .ti-fx .ti-frame{inset:22px;border:2px solid #c9a14a;outline:1px solid #c9a14a66;outline-offset:8px;animation:tiFadeIn .8s both}
+:root[data-theme="onyx"] .ti-fx .ti-bulb{width:12px;height:12px;border-radius:50%;background:#fff1c2;box-shadow:0 0 10px 3px #f2cd6b99;animation:tiChase 2.4s ease-in-out infinite;opacity:.45}
+@keyframes tiChase{0%,100%{opacity:.4}50%{opacity:1}}
+:root[data-theme="onyx"]{--ch-anim:tiChFoil}
+:root[data-theme="onyx"] .ti-tname{font-weight:800;font-size:calc(96px * var(--nk,1))}
+:root[data-theme="onyx"] .ti-tname .ti-ch{background:linear-gradient(180deg,#fff1c2,#e2b54e 55%,#a87a22);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 12px #f2cd6b66)}
+@keyframes tiChFoil{0%{opacity:0;transform:scaleY(0)}50%{opacity:1;transform:scaleY(1.1)}70%{filter:brightness(2) drop-shadow(0 0 16px #f2cd6b)}100%{opacity:1;transform:none}}
+:root[data-theme="onyx"] .ti-members li{border-radius:0;background:linear-gradient(160deg,#2a241a,#1d1913 30%,#050403);border-color:#c9a14a;outline:1px solid #c9a14a44;outline-offset:4px}
+:root[data-theme="onyx"] .ti-eyebrow{color:#c9a14a}
+
+/* ===== RED VS BLUE: halves slam together, diagonal tiSlash, name slams ===== */
+:root[data-theme="rivals"] .ti-fx .ti-half{top:0;bottom:0;width:56%;opacity:.9}
+:root[data-theme="rivals"] .ti-fx .ti-half.ti-a{left:0;background:linear-gradient(90deg,#8a1230,#8a123000);clip-path:polygon(0 0,100% 0,82% 100%,0 100%);animation:tiSlamL .6s var(--ease) .1s both}
+:root[data-theme="rivals"] .ti-fx .ti-half.ti-b{right:0;background:linear-gradient(270deg,#14287a,#14287a00);clip-path:polygon(18% 0,100% 0,100% 100%,0 100%);animation:tiSlamR .6s var(--ease) .1s both}
+@keyframes tiSlamL{from{transform:translateX(-100%)}to{transform:none}}
+@keyframes tiSlamR{from{transform:translateX(100%)}to{transform:none}}
+:root[data-theme="rivals"] .ti-fx .ti-slash{left:50%;top:-20%;width:14px;height:140%;translate:-50% 0;rotate:12deg;background:#fff;box-shadow:0 0 30px #fff;transform:scaleY(0);animation:tiSlash .5s var(--ease) .55s forwards}
+@keyframes tiSlash{0%{transform:scaleY(0);opacity:1}60%{transform:scaleY(1);opacity:1}100%{transform:scaleY(1);opacity:.15}}
+:root[data-theme="rivals"] .ti-fx .ti-tc{inset:0;background:radial-gradient(60% 60% at 50% 50%,color-mix(in oklab,var(--tc) 35%,transparent),transparent);animation:tiFadeIn 1s 1s both}
+:root[data-theme="rivals"]{--ch-anim:tiChSlam;--d0:.9s}
+:root[data-theme="rivals"] .ti-tname{font-weight:900;font-size:calc(128px * var(--nk,1));text-transform:uppercase;color:#fff;text-shadow:-4px 0 18px #ff3d5acc,4px 0 18px #5a82ffdd}
+:root[data-theme="rivals"] .ti-tname .ti-ch{animation-duration:.45s;animation-timing-function:cubic-bezier(.3,1.6,.5,1);animation-delay:calc(var(--d0) + var(--i)*25ms)}
+@keyframes tiChSlam{from{opacity:0;transform:scale(3)}to{opacity:1;transform:none}}
+:root[data-theme="rivals"] .ti-in{animation:tiShake .35s ease 1.25s}
+@keyframes tiShake{25%{transform:translate(6px,-3px)}50%{transform:translate(-5px,3px)}75%{transform:translate(3px,2px)}}
+:root[data-theme="rivals"] .ti-eyebrow{color:#fff;background:var(--tc);padding:4px 16px;letter-spacing:.24em}
+:root[data-theme="rivals"] .ti-members li{background:linear-gradient(135deg,color-mix(in oklab,var(--tc) 70%,#000),#0a0b20);border-color:color-mix(in oklab,var(--tc) 80%,#fff);font-weight:800;text-transform:uppercase}
+:root[data-theme="rivals"] .ti-members li.ti-cap::before{background:#fff;color:#07081a}
+:root[data-theme="rivals"]{--m-anim:tiMemSide}
+@keyframes tiMemSide{from{opacity:0;transform:translateX(var(--from,-80px))}to{opacity:1;transform:none}}
+:root[data-theme="rivals"] .ti-fact{border-color:var(--tc)}
+:root[data-theme="rivals"] .ti-fact b{color:#fff}
+
+/* ===== HERITAGE: arch outline draws, carved doors open, sadu tiWeave, slow geometry (calm) ===== */
+:root[data-theme="heritage"] .ti-fx .ti-geo{inset:-20%;opacity:.07;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='none' stroke='%23e5b95e' stroke-width='1.2'%3E%3Cpath d='M40 8l9 22 22 9-22 9-9 22-9-22-22-9 22-9z'/%3E%3Crect x='24' y='24' width='32' height='32' transform='rotate(45 40 40)'/%3E%3Crect x='24' y='24' width='32' height='32'/%3E%3C/g%3E%3C/svg%3E") 0 0/80px 80px;animation:tiSpin 240s linear infinite}
+:root[data-theme="heritage"] .ti-fx .ti-arch{left:50%;top:40px;width:1000px;height:640px;translate:-50% 0}
+:root[data-theme="heritage"] .ti-fx .ti-arch path{fill:none;stroke:#e5b95e;stroke-width:2.5;stroke-dasharray:2400;stroke-dashoffset:2400;animation:tiDraw 2s var(--ease) .1s forwards}
+:root[data-theme="heritage"] .ti-fx .ti-arch path.ti-inner{stroke-width:1;opacity:.5;animation-delay:.4s}
+:root[data-theme="heritage"] .ti-fx .ti-doors{left:50%;top:40px;width:1000px;height:640px;translate:-50% 0;clip-path:path('M8 640 V300 Q8 70 500 8 Q992 70 992 300 V640 Z');perspective:1600px;display:flex;z-index:4}
+:root[data-theme="heritage"] .ti-fx .ti-door{flex:1;background:radial-gradient(circle at 50% 46%,#e5b95e33 0 60px,transparent 61px),repeating-linear-gradient(0deg,#0b3a3d 0 80px,#06272b 80px 84px),#0b3a3d;border:2px solid #e5b95e55;animation:tiDoorOpen 1.8s var(--ease) 1.2s forwards}
+:root[data-theme="heritage"] .ti-fx .ti-door.ti-l{transform-origin:left;border-right:1px solid #e5b95e}
+:root[data-theme="heritage"] .ti-fx .ti-door.ti-r{transform-origin:right;--dir:1}
+@keyframes tiDoorOpen{to{transform:rotateY(calc(-100deg + var(--dir,0)*200deg));opacity:0}}
+:root[data-theme="heritage"] .ti-fx .ti-sadu{left:0;right:0;bottom:0;height:22px;z-index:6;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='18'%3E%3Crect width='40' height='18' fill='%23161010'/%3E%3Crect width='40' height='2' fill='%23f3e6c8'/%3E%3Crect y='16' width='40' height='2' fill='%23f3e6c8'/%3E%3Cpath d='M0 15L10 3L20 15Z M20 3L30 15L40 3Z' fill='%23b3262e'/%3E%3Cpath d='M10 7L12 9.5L10 12L8 9.5Z M30 5L32 7.5L30 10L28 7.5Z' fill='%23f3e6c8'/%3E%3C/svg%3E") repeat-x 0 0/49px 22px;animation:tiWeave 14s linear infinite}
+@keyframes tiWeave{to{background-position:490px 0}}
+:root[data-theme="heritage"]{--ch-anim:tiChCalm;--d0:2.2s}
+:root[data-theme="heritage"] .ti-tname{color:#fff0c8;font-weight:700;font-size:calc(96px * var(--nk,1));text-shadow:0 0 30px #e5b95e44}
+@keyframes tiChCalm{from{opacity:0;letter-spacing:.2em;filter:blur(4px)}to{opacity:1;letter-spacing:0;filter:none}}
+:root[data-theme="heritage"] .ti-tname .ti-ch{animation-duration:1.2s;animation-timing-function:ease-out}
+:root[data-theme="heritage"] .ti-eyebrow{animation-delay:2s}
+:root[data-theme="heritage"] .ti-flourish{animation-delay:2.6s}
+:root[data-theme="heritage"] .ti-flourish path{animation-delay:2.7s}
+:root[data-theme="heritage"] .ti-members li{animation-delay:calc(3.2s + var(--i)*.35s);border-radius:40px 40px 8px 8px;padding-top:16px;background:linear-gradient(180deg,#0f5257,#06272b);border-color:#e5b95e88;overflow:hidden}
+:root[data-theme="heritage"] .ti-members li.ti-cap::before{top:10px;font-size:10px;position:static;display:block;translate:none;background:none;color:#e5b95e;padding:0}
+:root[data-theme="heritage"] .ti-fact{animation-delay:5s;border-radius:24px 24px 10px 10px}
+:root[data-theme="heritage"] .ti-flourish circle{animation-delay:3.4s}
+
+/* ====== LINEUP SCREEN ====== */
+.ti-lineup .ti-in{justify-content:center;gap:30px}
+.ti-lh{font:400 64px/1 var(--fd);color:var(--accent);margin:0;letter-spacing:var(--track);animation:tiFadeUp .8s var(--ease) .1s both}
+:root[data-theme="neon"] .ti-lh{color:#eafcff;text-shadow:0 0 8px #2ef2ff,0 0 26px #2ef2ff;text-transform:uppercase;font-weight:700}
+:root[data-theme="onyx"] .ti-lh,:root[data-theme="amethyst"] .ti-lh{background:linear-gradient(180deg,#fff1c2,#e2b54e 55%,#a87a22);-webkit-background-clip:text;background-clip:text;color:transparent}
+:root[data-theme="ember"] .ti-lh{color:#ffb64a;font-weight:800;text-shadow:0 0 22px #ff6a3d99}
+:root[data-theme="rivals"] .ti-lh{color:#fff;font-weight:900;text-transform:uppercase;text-shadow:-3px 0 14px #ff3d5acc,3px 0 14px #5a82ffdd}
+:root[data-theme="heritage"] .ti-lh{color:#fff0c8;font-weight:700}
+.ti-cards{display:grid;grid-template-columns:repeat(var(--n),1fr);gap:26px;width:100%;max-width:1120px}
+.ti-tcard{position:relative;display:flex;flex-direction:column;gap:12px;align-items:center;padding:26px 22px 22px;border-radius:var(--r);border:1px solid color-mix(in oklab,var(--accent) 45%,transparent);background:linear-gradient(170deg,var(--tile-a),var(--tile-b));box-shadow:0 20px 40px -20px #000;animation:var(--c-anim,tiCardIn) .9s var(--spring) both;animation-delay:calc(.5s + var(--i)*.22s)}
+@keyframes tiCardIn{from{opacity:0;transform:translateY(60px) scale(.9)}to{opacity:1;transform:none}}
+.ti-tcard .ti-num{font:800 12px var(--fb);letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.ti-tcard h3{margin:0;font:400 38px/1.05 var(--fd);color:var(--accent);letter-spacing:var(--track)}
+.ti-tcard ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px;justify-content:center}
+.ti-tcard li{font:600 15px var(--fb);color:var(--text);padding:3px 10px;border-radius:99px;background:#ffffff12}
+.ti-tcard li.ti-cap{background:color-mix(in oklab,var(--accent) 28%,transparent)}
+.ti-tcard p{margin:0;font:400 16px/1.4 var(--fb);color:var(--muted);text-align:center}
+.ti-tcard p b{color:var(--accent);font-weight:800;font-size:11px;letter-spacing:.16em;text-transform:uppercase;display:block;margin-bottom:2px}
+:root[data-theme="neon"] .ti-tcard{clip-path:polygon(16px 0,100% 0,100% calc(100% - 16px),calc(100% - 16px) 100%,0 100%,0 16px);border:0;box-shadow:inset 0 0 0 1.5px #ff3fd8,0 0 30px #2ef2ff22}
+:root[data-theme="neon"] .ti-tcard h3{color:#eafcff;text-shadow:0 0 10px #2ef2ff;text-transform:uppercase;font-weight:700;font-size:32px}
+:root[data-theme="amethyst"] .ti-tcard,:root[data-theme="onyx"] .ti-tcard{box-shadow:inset 0 0 0 5px #0008,inset 0 0 0 6px #f2cd6b55,0 20px 40px -20px #000}
+:root[data-theme="ember"] .ti-tcard{background:repeating-linear-gradient(0deg,transparent 0 10px,rgba(255,255,255,.035) 10px 12px),linear-gradient(180deg,#221312,#140a09);border-color:#4a1e17;box-shadow:0 24px 40px -18px #ff5a1f88}
+:root[data-theme="ember"] .ti-tcard h3{font-weight:800;color:#ffb64a}
+:root[data-theme="rivals"] .ti-tcard{background:linear-gradient(160deg,color-mix(in oklab,var(--tc) 65%,#000),#0a0b20 80%);border-color:var(--tc)}
+:root[data-theme="rivals"] .ti-tcard h3{color:#fff;font-weight:900;text-transform:uppercase}
+:root[data-theme="heritage"] .ti-tcard{border-radius:50% 50% 14px 14px/80px 80px 14px 14px;padding-top:56px;background:radial-gradient(90% 70% at 50% 0%,#14585c,#06272b 45%,#090c22 100%)}
+:root[data-theme="heritage"] .ti-tcard h3{color:#fff0c8;font-weight:700}
+:root[data-theme="heritage"] .ti-tcard::before{content:"";position:absolute;top:18px;left:50%;width:26px;height:26px;translate:-50% 0;background:#e5b95e;clip-path:var(--star)}
+:root[data-theme="emerald"] .ti-tcard::before{content:"";position:absolute;top:-14px;right:-14px;width:44px;height:44px;background:#e9c47f55;clip-path:var(--star);animation:tiSpin 18s linear infinite}
+.ti-start-row{display:flex;flex-direction:column;align-items:center;gap:8px;animation:tiFadeUp .8s var(--ease) 1.4s both}
+.ti-start{font:800 26px var(--fd);letter-spacing:var(--track);padding:16px 54px;border-radius:var(--r);border:0;cursor:pointer;color:var(--bg);background:linear-gradient(180deg,color-mix(in oklab,var(--accent) 70%,#fff),var(--accent));box-shadow:0 0 0 2px color-mix(in oklab,var(--accent) 40%,transparent),0 10px 40px -6px var(--glow);animation:tiBreathe 2.4s ease-in-out infinite}
+:root[data-theme="heritage"] .ti-start{border-radius:40px 40px 10px 10px}
+:root[data-theme="rivals"] .ti-start{background:linear-gradient(90deg,#ff3d5a,#5a7bff);color:#fff;text-transform:uppercase;font-weight:900}
+:root[data-theme="neon"] .ti-start{background:#0b0d33;color:#2ef2ff;box-shadow:inset 0 0 0 2px #2ef2ff,0 0 24px #2ef2ff88;text-transform:uppercase}
+@keyframes tiBreathe{50%{box-shadow:0 0 0 2px color-mix(in oklab,var(--accent) 40%,transparent),0 10px 60px 0 var(--glow)}}
+.ti-start-row small{font:600 12px var(--fb);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.ti-ready{font:400 30px var(--fd);color:var(--muted);letter-spacing:var(--track);animation:tiFadeIn 1s 1.4s both,tiPulse 2.6s ease-in-out 2.4s infinite}
+@keyframes tiPulse{50%{opacity:.45}}
+.ti-go-flash{position:absolute;inset:0;z-index:30;display:grid;place-items:center;background:radial-gradient(closest-side,color-mix(in oklab,var(--accent) 30%,transparent),var(--bg));font:400 120px var(--fd);color:var(--accent);animation:tiFadeIn .4s both}
+.ti-go-flash span{animation:tiChRise .8s var(--spring) both}
+
+/* reduced motion: show resting states, keep fades */
+
+
+.ti-wrap{position:relative;width:100%;aspect-ratio:16/9;max-height:calc(100vh - 140px);margin:0 auto;border-radius:14px;overflow:hidden;background:var(--bg)}
+.ti-wrap.full{position:fixed;inset:0;max-height:none;aspect-ratio:auto;border-radius:0;display:grid;place-items:center;z-index:5}
+:root[data-reduce-fx="on"] .ti-glint,:root[data-reduce-fx="on"] .ti-spark{display:none}
+.ti-hostbtn[aria-pressed="false"]{opacity:.6}
+.intro-screen{display:flex;flex-direction:column;gap:12px;padding-block:12px}
+.intro-setup .intro-team{border:1px solid color-mix(in oklab,var(--edge) 45%,transparent);border-radius:10px;padding:8px 12px;display:flex;flex-direction:column;gap:8px}
+.intro-setup .intro-team[open]{padding-bottom:12px}
+.intro-setup summary{cursor:pointer;font-weight:600}
+.intro-setup .member-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr) auto;gap:8px;align-items:center}
+.intro-setup .cap-pick{font-size:13px;white-space:nowrap}
+.intro-setup textarea{resize:vertical;font:inherit}
+@media (max-width:560px){.intro-setup .member-row{grid-template-columns:1fr 1fr}.intro-setup .cap-pick{grid-column:1/-1}}

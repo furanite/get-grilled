@@ -102,9 +102,27 @@ export interface Clue extends Question {
   special?: Special
 }
 
+/** One person on a team, for the team introductions. */
+export interface Member {
+  name: string
+  /** A short line under the name: their major, title or role (optional) */
+  role?: string
+}
+
 export interface Team {
   name: string
   score: number
+  /** Team introductions (optional): members, which member is captain, and a fun fact */
+  members?: Member[]
+  captain?: number
+  fact?: string
+}
+
+/** Where the team introductions are: showing team i, or (i === teams.length) the Meet the teams screen. */
+export interface IntroState {
+  i: number
+  /** Move on to the next team by itself after a few seconds */
+  auto: boolean
 }
 
 export interface GameSettings {
@@ -177,6 +195,8 @@ export interface Game {
   modeState?: ModeRoundState
   /** The themed night this game was set up from, if any */
   night?: string
+  /** Team introductions before the board; removed when the host starts the game */
+  intro?: IntroState
   /** Points multiplier for the board on screen (2 in a double-points tournament round) */
   mult?: number
   /** A tournament: several rounds of different kinds, with scores carried from one to the next */
@@ -218,4 +238,4 @@ export type IslamicOnlyTheme = 'rawdah' | 'jumuah' | 'mawlid' | PrayerTheme | Cu
 export type BaseThemeId = Exclude<ThemeId, IslamicOnlyTheme>
 export type ThemeId = 'amethyst' | 'emerald' | 'neon' | 'onyx' | 'rivals' | 'ember' | 'heritage' | IslamicOnlyTheme
 export type Lang = 'en' | 'ar'
-export type Screen = 'home' | 'setup' | 'game' | 'mode' | 'lightning' | 'final' | 'results' | 'builder' | 'round' | 'review' | 'study'
+export type Screen = 'home' | 'setup' | 'intro' | 'game' | 'mode' | 'lightning' | 'final' | 'results' | 'builder' | 'round' | 'review' | 'study'

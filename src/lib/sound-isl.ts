@@ -402,6 +402,24 @@ export const BIRDS: Record<BirdId, { name: string; call: (k: Kit, t: number, g?:
 /* ---------- The game's sounds ---------- */
 
 export const islamicFx = {
+  /**
+   * One team's introduction (about 5 seconds), timed to the animation in src/intro.css: a gust and a daff roll as the
+   * team appears, dum-tak-tak-DUM under the name, a rim stroke for each member, then a bird for the fun fact.
+   * Each team sits at its own drum pitch and side of the room, so the teams sound different. Daff, breeze and birds only.
+   */
+  teamIntro(k: Kit, team = 0, members = 0) {
+    const tune = [1, 1.12, 0.9, 1.25][team % 4]
+    const pan = [-0.2, 0.2, -0.1, 0.1][team % 4]
+    whoosh(k, 0, 0.9, 0.14)
+    roll(k, 0.1, 0.6, 0.03, 0.12, 18, pan)
+    dum(k, 0.75, 0.42, pan, tune)
+    tak(k, 0.95, 0.2, pan)
+    tak(k, 1.05, 0.16, pan)
+    dum(k, 1.2, 0.46, pan, tune)
+    for (let i = 0; i < Math.min(members, 6); i++) tak(k, 2 + i * 0.28, 0.14, (i % 2 ? 0.3 : -0.3))
+    const bird = [bulbul, sparrow, sunbird, bulbul][team % 4]
+    bird(k, 3.5, team % 4 === 2 ? 0.04 : 0.055, -pan)
+  },
   /** Opening a tile: a gust of breeze, a rim stroke and a sparrow. */
   open(k: Kit) {
     whoosh(k, 0, 0.55, 0.18)

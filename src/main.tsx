@@ -2,6 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './fonts'
 import './index.css'
+import './intro.css'
 import App from './App'
 import { ISLAMIC_SET } from './lib/edition'
 

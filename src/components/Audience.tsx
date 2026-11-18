@@ -11,6 +11,7 @@ import { ModeItemView } from './Rounds'
 import { RoundCard } from './Tournament'
 import { VoteBoard, type VoteState } from './Vote'
 import TileIntro from './TileIntro'
+import TeamIntro from './TeamIntro'
 import { ISLAMIC_SET, appName, type Live } from '../lib/edition'
 import { setFavicon } from '../lib/favicon'
 import { Ambient, CatIcon, Flourish, FlourishAbove, Mark } from './Brand'
@@ -140,6 +141,15 @@ function AudienceView({ t, lang, theme, screen, game, live, vote, win }: { t: St
       </button>
     </div>
   )
+
+  if (screen === 'intro' && game?.intro) {
+    return (
+      <>
+        <TeamIntro game={game} theme={theme} t={t} lang={lang} host={false} full />
+        {help}
+      </>
+    )
+  }
 
   if (screen === 'setup' && vote) {
     return (
