@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import { META_CSP, SECURITY_HEADERS } from './security-headers.mjs'
+import colorMixFallbacks from './css-fallbacks.mjs'
 
 // Relative base so the build works from any folder or static host.
 // The preview server sends the same strict headers a self-hosted copy uses, so the browser tests run under them.
@@ -16,5 +17,7 @@ const cspMeta = {
 export default defineConfig({
   plugins: [react(), cspMeta],
   base: './',
+  // Fallback colours for browsers without color-mix(), such as older Chrome on school touch screens.
+  css: { postcss: { plugins: [colorMixFallbacks()] } },
   preview: { headers: SECURITY_HEADERS },
 })
