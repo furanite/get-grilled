@@ -158,7 +158,7 @@ The Bauhaus moved to this city in 1925. :: Dessau
 The Bauhaus was closed by the Nazis in this year. :: 1933
 Le Corbusier's "Five Points of Architecture" include pilotis, a free plan, a free façade, ribbon windows and this. :: A roof garden
 Le Corbusier's famous villa near Paris showing the five points. :: Villa Savoye
-Le Corbusier called a house "a machine for" this. :: Living in
+Le Corbusier called a house "a machine for ___". :: Living in
 Le Corbusier's chapel at Ronchamp is famous for its curved roof. Its name. :: Notre-Dame du Haut
 Le Corbusier planned this Indian city. :: Chandigarh
 The system of proportions Le Corbusier created. :: The Modulor
@@ -210,7 +210,7 @@ The structural element that lets a round dome sit on a square base. :: Pendentiv
 The Romanesque style is known for thick walls and these arches. :: Round arches
 The Gothic style began at this abbey near Paris. :: Saint-Denis
 The abbot who rebuilt Saint-Denis. :: Abbot Suger
-The ribbed vaults of Gothic churches let walls have bigger these. :: Windows
+Ribbed vaults let Gothic church walls hold bigger openings of this kind. :: Windows
 The famous Gothic cathedral south-west of Paris with blue glass. :: Chartres
 The cathedral in Germany with twin spires that took over 600 years to finish. :: Cologne Cathedral
 
@@ -309,7 +309,7 @@ The year Al Faisaliah Tower was finished. :: 2000
 Name this type of arch, with an S-shaped curve on each side meeting in a point. {img:arch-ogee.svg} :: Ogee arch
 Name this type of opening, spanned by a straight lintel or flat arch. {img:arch-flat.svg} :: A flat arch (lintel)
 Name this roof type, typical of modern houses in hot dry places. {img:roof-flat.svg} :: Flat roof
-The roof shape in this picture is called this. {img:roof-dome.svg} :: A dome
+The roof shape in this picture. {img:roof-dome.svg} :: A dome
 The horizontal beam over a door or window. :: A lintel
 Building with posts and beams, as in Greek temples. :: Post and lintel (trabeated) construction
 Building with arches and vaults, as in Roman architecture. :: Arcuated construction
@@ -355,7 +355,7 @@ The American landscape architect of Central Park. :: Frederick Law Olmsted
 The 1893 World's Fair in Chicago was called this. :: The World's Columbian Exposition
 The movement after the 1893 fair to make cities grand. :: The City Beautiful movement
 The architect of the Flatiron Building in New York. :: Daniel Burnham
-Burnham's famous saying begins "Make no" these. :: Little plans
+Burnham's famous saying begins "Make no ___". :: Little plans
 The Finnish architect of Helsinki Central Station. :: Eliel Saarinen
 The Norwegian architecture theorist who wrote "Genius Loci". :: Christian Norberg-Schulz
 "Genius loci" means this. :: The spirit of a place
@@ -369,7 +369,7 @@ The term for a building shaped like what it sells, from "Learning from Las Vegas
 The term for a plain building with a big sign, from "Learning from Las Vegas". :: A decorated shed
 The British critic who wrote "Theory and Design in the First Machine Age". :: Reyner Banham
 The German-British historian of the "Outline of European Architecture". :: Nikolaus Pevsner
-Pevsner said "a bicycle shed is a building; Lincoln Cathedral is" this. :: A piece of architecture
+Pevsner said "a bicycle shed is a building; Lincoln Cathedral is ___". :: A piece of architecture
 The Swiss architect of the Therme Vals spa. :: Peter Zumthor
 The Portuguese architect of the Serralves museum. :: Álvaro Siza
 The Mexican architect famous for coloured walls. :: Luis Barragán

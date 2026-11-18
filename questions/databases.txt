@@ -311,13 +311,13 @@ The computer scientist who led Ingres and Postgres and won the 2014 Turing Award
 The creator of MySQL, who later forked it as MariaDB. :: Michael "Monty" Widenius
 
 ## 400
-The title of Codd's 1970 paper: "A Relational Model of Data for Large Shared" these. :: Data Banks
+Codd's 1970 paper: "A Relational Model of Data for Large Shared ___". :: Data Banks
 The journal in which Codd's 1970 paper appeared. :: Communications of the ACM
 The IBM laboratory in California where Codd worked. :: San Jose Research Laboratory
 The older IBM database product, hierarchical in design, built for the Apollo programme. :: IMS
 The database model before the relational one in which records were linked in a graph, standardised by CODASYL. :: Network model
 The computer scientist who led CODASYL's database work and won the 1973 Turing Award. :: Charles Bachman
-The title of Bachman's Turing lecture: "The Programmer as" this. :: Navigator
+Bachman's Turing lecture: "The Programmer as ___". :: Navigator
 The IBM relational product released in 1983 for mainframes. :: DB2
 The query language of the original Ingres system, a rival to SQL. :: QUEL
 The year the Postgres project started at Berkeley. :: 1986
@@ -331,7 +331,7 @@ The year SQLite was first released. :: 2000
 The maker of the guided-missile destroyer software for which SQLite was first designed. :: General Dynamics
 The licence status of SQLite's source code. :: Public domain
 The scientist who won the 1998 Turing Award for transaction processing and coined much of its theory. :: Jim Gray
-The 1981 paper by Jim Gray: "The Transaction Concept: Virtues and" these. :: Limitations
+Jim Gray's 1981 paper: "The Transaction Concept: Virtues and ___". :: Limitations
 The two researchers who coined the acronym ACID in 1983: Theo Härder and this man. :: Andreas Reuter
 The 1976 paper by Eswaran, Gray, Lorie and Traiger introduced this locking protocol. :: Two-phase locking
 The researcher who led the design of ARIES at IBM. :: C. Mohan
@@ -464,11 +464,11 @@ The minimum number of nodes needed to tolerate 2 crash failures with majority qu
 The minimum number of nodes needed to tolerate 1 Byzantine failure. :: 4
 The quorum condition, with N replicas, that ensures a read sees the latest write. :: R + W > N
 With N = 3 and W = 2, the smallest R that guarantees reading the latest write. :: 2
-The "ELC" in PACELC means that, when there is no partition, a system trades off these two. :: Latency and consistency
+The two things a system trades off when there is no partition, the "ELC" in PACELC. :: Latency and consistency
 The consistency model in which every read sees the most recent completed write, in real-time order. :: Linearizability
 The two researchers who defined linearizability in 1990: Maurice Herlihy and this woman. :: Jeannette Wing
 The testing tool by Kyle Kingsbury that checks distributed databases for consistency bugs. :: Jepsen
-The 1978 paper by Lamport that introduced logical clocks: "Time, Clocks, and the Ordering of Events in" this. :: A Distributed System
+Lamport's 1978 paper that introduced logical clocks: "Time, Clocks, and the Ordering of Events in ___". :: A Distributed System
 The uncertainty bound that Spanner waits out before committing, called this. :: Commit wait
 The data structure used to compare replicas efficiently by hashing ranges, used in Dynamo. :: Merkle tree
 The Dynamo technique in which another node temporarily accepts writes for a node that is down. :: Hinted handoff

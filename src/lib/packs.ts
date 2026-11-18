@@ -57,6 +57,8 @@ export interface Night {
   cats: string[]
   teams?: string[]
   teamsAr?: string[]
+  /** Draw picture questions wherever a level has them. */
+  pictures?: boolean
   extras?: { golden?: number; steal?: number; crowd?: number; streak?: boolean; comeback?: boolean; lightning?: boolean; final?: boolean }
 }
 

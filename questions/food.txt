@@ -330,7 +330,7 @@ The Italian cheese made from the whey of other cheeses. :: Ricotta
 The English cheese named after a village in Somerset. :: Cheddar
 The French soft cheese from Normandy in a round wooden box. :: Camembert
 The Swiss cheese famous for its holes. :: Emmental
-The bacteria that make the holes in Swiss cheese release this gas. :: Carbon dioxide (Propionibacterium)
+The gas released by the bacteria that make the holes in Swiss cheese. :: Carbon dioxide (Propionibacterium)
 The Spanish sheep's milk cheese from La Mancha. :: Manchego
 The Cypriot cheese that can be grilled without melting. :: Halloumi
 The hard, salty sheep's milk cheese from the region around Rome. :: Pecorino Romano
@@ -482,7 +482,7 @@ The Indian coast that was the main source of black pepper in ancient trade. :: M
 The ancient Roman fish sauce. :: Garum
 The French cheese made in caves in the town of Roquefort-sur-Soulzon uses milk from this animal. :: Sheep
 The English blue cheese that is "the king of English cheeses". :: Stilton
-Feta has had protected EU status since this year. :: 2002
+The year feta got protected EU status. :: 2002
 The EU label that protects names like Champagne and Parmigiano-Reggiano. :: PDO (Protected Designation of Origin)
 The age in months that Parmigiano-Reggiano must be aged at minimum. :: 12
 The Spanish ham from acorn-fed Iberian pigs is called this grade. :: Bellota

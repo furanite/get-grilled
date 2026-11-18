@@ -35,7 +35,7 @@ Spending on long-term assets such as factories and machines. :: Capital expendit
 Day-to-day running costs. :: Operating expenditure (opex)
 The chance that an investment's returns differ from what was expected. :: Risk
 The reward for taking risk. :: Return
-The general rule: higher expected return comes with higher this. :: Risk
+The general rule: higher expected return comes with more of this. :: Risk
 The return investors could earn on their next best choice. :: Opportunity cost
 A company that has run out of money to pay its debts is this. :: Insolvent (bankrupt)
 Using borrowed money to increase potential returns. :: Leverage (gearing)
@@ -128,7 +128,7 @@ The beta of the market as a whole. :: 1
 Expected market return minus the risk-free rate. :: Market risk premium (equity risk premium)
 Risk that can be removed by diversification. :: Unsystematic risk (specific, idiosyncratic risk)
 Risk that cannot be removed by diversification. :: Systematic risk (market risk)
-Interest on debt lowers taxes. This saving is called this. :: Interest tax shield
+The name for the tax saving from interest on debt. :: Interest tax shield
 After-tax cost of debt formula. :: Kd x (1 - tax rate)
 Debt at 8% with a 25% tax rate has an after-tax cost of this. :: 6%
 The two Nobel economists whose 1958 theorem says capital structure doesn't matter in a perfect market. :: Modigliani and Miller
@@ -144,7 +144,7 @@ A share pays a dividend of 5 next year, grows 2% a year, and investors want 7%. 
 Valuing a company by comparing it with similar listed companies. :: Comparable company analysis (trading multiples)
 Valuing a company using prices paid in past acquisitions. :: Precedent transactions
 Market value of equity plus net debt. :: Enterprise value
-Enterprise value divided by EBITDA is a common this. :: Valuation multiple
+Enterprise value divided by EBITDA is a common example of this. :: Valuation multiple
 Buying a company mostly with borrowed money. :: Leveraged buyout (LBO)
 Managers buying the company they run. :: Management buyout (MBO)
 An acquisition opposed by the target's board. :: Hostile takeover
@@ -215,7 +215,7 @@ The value of a levered firm = value of unlevered firm + this (MM with taxes). ::
 The economist Merton Miller added personal taxes to the debate in this 1977 paper. :: "Debt and Taxes"
 The 1976 paper by Jensen and Meckling introduced the theory of this. :: The firm (agency costs and ownership structure)
 The 1984 paper by Myers and Majluf explains this theory of financing. :: Pecking order theory
-Myers called the dilemma of the theory "the capital structure" this. :: Puzzle
+Myers called the theory's dilemma "the capital structure ___". :: Puzzle
 The problem where shareholders of a near-bankrupt firm turn down good projects because gains go to lenders. :: Debt overhang (underinvestment problem)
 Shareholders of a troubled firm gambling on very risky projects. :: Asset substitution (risk shifting)
 Michael Jensen's 1986 theory that debt disciplines managers with spare cash. :: Free cash flow hypothesis
@@ -231,7 +231,7 @@ The Fama-French size factor is called this. :: SMB (small minus big)
 The Fama-French value factor is called this. :: HML (high minus low)
 The momentum factor added by Carhart in 1997. :: UMD or WML (winners minus losers)
 The 2015 Fama-French five-factor model adds profitability and this. :: Investment
-Adjusted present value = base-case NPV + this. :: PV of financing side effects (such as tax shields)
+Adjusted present value = base-case NPV + ___. :: PV of financing side effects (such as tax shields)
 The APV method is best for deals where this changes over time, such as LBOs. :: Capital structure (debt level)
 The equity value from a DCF using FCFF: enterprise value minus this. :: Net debt
 Cash flow to equity holders after debt payments. :: Free cash flow to equity (FCFE)
@@ -315,7 +315,7 @@ Franco Modigliani won the Nobel Prize in this year. :: 1985
 The economist who first described the dividend discount model with constant growth in 1956. :: Myron Gordon (with Eli Shapiro)
 John Burr Williams set out the theory of investment value based on dividends in this 1938 book. :: The Theory of Investment Value
 Irving Fisher's 1930 book that set out the theory of interest and present value. :: The Theory of Interest
-The 'Fisher separation theorem' says investment decisions are independent of owners' this. :: Consumption preferences
+The 'Fisher separation theorem' says investment decisions don't depend on what owners prefer about this. :: Consumption preferences
 The three types of market efficiency defined by Eugene Fama. :: Weak, semi-strong and strong
 Fama's paper that set out the efficient markets classification was published in this year. :: 1970
 The ratio of a firm's market leverage that minimises its WACC is called this. :: Optimal (target) capital structure
@@ -343,7 +343,7 @@ The Saudi market was upgraded to emerging market status by MSCI and FTSE Russell
 The Saudi Venture Capital Company, set up to fund start-up investment funds, is known by these letters. :: SVC
 The Saudi Crowdfunding rules for debt crowdfunding are supervised by this body. :: SAMA (Saudi Central Bank)
 The dividend payout policy that keeps the payout ratio constant gives dividends that do this. :: Fluctuate with earnings
-Lintner found firms adjust dividends gradually toward a target. This target is a share of this. :: Earnings
+Lintner found firms move dividends gradually toward a target set as a share of this. :: Earnings
 A share repurchase at market price, with no taxes, leaves this unchanged for remaining shareholders. :: The value per share (wealth)
 A 'Dutch auction' buyback lets shareholders do this. :: Name the lowest price they will accept within a range
 The 'free rider' problem in takeovers, by Grossman and Hart in 1980, explains why bidders struggle to do this. :: Buy shares at a price below their post-takeover value
@@ -386,11 +386,11 @@ The underpricing puzzle explained by the 'winner's curse' in IPO allocation, by 
 IPOs tend to underperform the market over this period, found by Jay Ritter. :: Three to five years (long run)
 Hot issue markets are periods when IPOs have high these. :: First-day returns (and volumes)
 The Saudi Aramco IPO priced its shares at this many riyals. :: 32
-Aramco's share price rose by the daily limit on its first trading day. This limit was then this much. :: 10%
+On their first trading day, Aramco's shares rose by the full daily price limit. The size of that limit. :: 10%
 The sum of debt and equity used in a company's operations. :: Invested capital
 ROIC above WACC means a company is this. :: Creating value
 A company with a ROIC of 15% and WACC of 9% has a spread of this. :: 6%
-Value driver formula: firm value = NOPAT x (1 - g/ROIC) / this. :: (WACC - g)
+Value driver formula: firm value = NOPAT x (1 - g/ROIC) / ___. :: (WACC - g)
 Growth creates value only when ROIC is above this. :: WACC
 The DuPont formula splits ROE into margin, turnover and this. :: Equity multiplier (leverage)
 An ROE of 18% with margin 6% and asset turnover 1.5 implies an equity multiplier of this. :: 2
@@ -474,7 +474,7 @@ The 'Fisher effect' says nominal interest rates rise one for one with this. :: E
 A company in a country with 10% inflation, using real cash flows, must discount at this kind of rate. :: A real discount rate
 Nominal rate 12%, inflation 4%. The exact real rate. :: About 7.69%
 The 'inflation gap' formula for exchange rates using relative PPP: expected change equals this. :: The inflation difference between the two countries
-Covered interest parity: forward rate = spot rate x (1 + home rate) / this. :: (1 + foreign rate)
+Covered interest parity: forward rate = spot rate x (1 + home rate) / ___. :: (1 + foreign rate)
 The 'carry trade' borrows in a low-interest currency and invests in this. :: A high-interest currency
 The international Fisher effect says currencies with higher interest rates should do this. :: Depreciate
 A 'cross-border' acquisition paid in shares often uses this kind of depositary receipt. :: ADRs (American depositary receipts) or GDRs

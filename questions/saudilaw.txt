@@ -100,7 +100,7 @@ The Saudi body that regulates the stock market. :: Capital Market Authority
 The Saudi central bank. :: Saudi Central Bank (SAMA)
 The Saudi city where most government ministries are found. :: Riyadh
 The Saudi city where foreign embassies were based until the 1980s. :: Jeddah
-The rule that no one is punished except by a law. This is called the principle of this. :: Legality (no crime without a law)
+The principle that no one is punished except by a law. :: Legality (no crime without a law)
 The idea that a person is innocent until proven this. :: Guilty
 The Basic Law says the home is protected and can't be entered without the owner's permission or this. :: A legal order
 The Basic Law protects this kind of correspondence from being read or delayed. :: Mail and phone communications (private correspondence)
@@ -183,7 +183,7 @@ A Saudi judge is appointed by this. :: Royal order
 A Saudi judge must hold a degree in this. :: Sharia (or an equivalent with a law diploma)
 The judicial training institute in Riyadh for judges. :: Higher Judicial Institute
 The Saudi Ministry of Justice's virtual courts let parties attend by this. :: Video link
-The Saudi electronic notary service lets people issue these online. :: Powers of attorney
+The documents people can issue online through the Saudi electronic notary service. :: Powers of attorney
 The Saudi 'Ministry of Justice' introduced electronic title deeds for property under this system. :: Real Estate Registry (electronic deeds)
 The Saudi General Authority for Real Estate is known by this short name. :: REGA
 A rental dispute about unpaid rent in an Ejar contract can be enforced directly because the contract is this. :: An enforceable instrument (sanad tanfidhi)
@@ -246,7 +246,7 @@ A first-instance judgment in serious criminal cases like qisas is heard by this 
 The Saudi Law of Procedure before Sharia Courts says the claimant must file in the court of this person's location. :: The defendant
 The Saudi principle that "the burden of proof is on the claimant and the oath is on the one who denies" comes from this. :: A hadith
 The Arabic maxim "Al-bayyinah 'ala al-mudda'i wal-yamin 'ala man ankar" means this. :: Proof is on the claimant, the oath on the denier
-The Saudi Law of Evidence lists these as means of proof: admission, witnesses, writing, digital evidence, oath, and these. :: Expert opinion, inspection, presumptions and custom
+The Saudi Law of Evidence lists admission, witnesses, writing, digital evidence and oath as means of proof, plus these. :: Expert opinion, inspection, presumptions and custom
 Under the Saudi Law of Evidence, a contract above this amount must be proven in writing. :: 100,000 riyals
 Under the Law of Evidence, digital evidence has the same force as this. :: Written (official) evidence
 The Saudi Law of Evidence has this many articles. :: 129
@@ -257,14 +257,14 @@ The Civil Transactions Law time limit for most claims is this many years. :: 10
 The Civil Transactions Law time limit for harm claims runs from the day the victim learns of the harm, up to this many years. :: Three (and 10 years from the act)
 Under the Civil Transactions Law, interest-type 'delay compensation' is this. :: Not permitted
 Under the Personal Status Law, a mother has custody of a child until this age. :: 18 (custody goes to the mother first, then the father)
-Under the Personal Status Law, a child of 15 can choose which parent to live with. This is called this. :: Takhyir (choice)
+Under the Personal Status Law, a child of 15 may choose which parent to live with. The name for this choice. :: Takhyir (choice)
 A wife's divorce through returning her dowry is called this. :: Khul'
 A divorce by a judge's ruling for harm or failure to pay maintenance. :: Faskh (judicial annulment)
 The waiting period after divorce or the husband's death. :: 'Iddah
 The waiting period after a husband's death is this long. :: Four months and ten days
 The marriage gift a husband must give his wife. :: Mahr
 The marriage contract in Saudi Arabia must be registered with this ministry. :: Ministry of Justice
-A marriage contract requires the bride's guardian under Hanbali law. This guardian is called this. :: Wali
+The bride's guardian, required for a marriage contract under Hanbali law. :: Wali
 Under the Personal Status Law, a woman can marry without this person's consent if the court finds the guardian is wrongly refusing. :: Her wali (guardian)
 The Saudi courts' approach to custody is guided by this principle. :: The best interest of the child
 The rules on Saudi alimony and custody are enforced by these courts. :: Enforcement courts (personal status enforcement)
@@ -297,10 +297,10 @@ Saudi patents are now registered with this body. :: SAIP
 The Saudi 'Ministry of Media' licences publications under this law. :: Printed Materials and Publication Law
 The Saudi law that regulates audio-visual media is overseen by this authority. :: General Authority for Media Regulation (GCAM)
 The Saudi Communications, Space and Technology Commission, formerly CITC, regulates this. :: Telecoms and the internet
-The Saudi Law of Procedure before Sharia Courts calls urgent cases like these "urgent matters": eviction, preventing travel and this. :: Disputes over possession (and urgent protective orders)
+The Saudi Law of Procedure before Sharia Courts lists eviction and preventing travel as "urgent matters", along with this. :: Disputes over possession (and urgent protective orders)
 The Saudi Supreme Court can review a Court of Appeal judgment if it breaks Sharia, lacks jurisdiction, has a wrong panel or this. :: Wrongly describes the facts (or wrongly applies the law)
 The judge's duty to keep equal treatment of both parties, even in seating and looks, comes from a famous letter of this caliph. :: Umar ibn al-Khattab ﵁
-That famous letter on judging was sent to this Companion. :: Abu Musa al-Ash'ari ﵁
+The Companion to whom Umar ﵁ sent his famous letter on judging. :: Abu Musa al-Ash'ari ﵁
 The Arabic term for a judge's independent reasoning when there is no clear text. :: Ijtihad
 The Arabic term for following a school's established view. :: Taqlid
 The Arabic term for public interest used in Saudi regulation. :: Maslahah mursalah
@@ -337,7 +337,7 @@ In 2020 Saudi Arabia ended the death penalty for crimes committed by these peopl
 In 2020 Saudi Arabia said juvenile offenders would instead be placed in a juvenile centre for up to this many years. :: 10
 The Specialised Criminal Court is located in this city. :: Riyadh
 The 'Commercial Courts Law' of 2020 allows parties to agree on these to speed up cases. :: Procedures (and use of private experts or virtual hearings)
-The Saudi Law on Enforcement allows the judge to imprison a debtor who refuses to pay when he is able. This is called this. :: Imprisonment for debt (habs al-madin)
+Under the Saudi Law on Enforcement, the judge can do this to a debtor who can pay but refuses. :: Imprisonment for debt (habs al-madin)
 Under the 2012 Arbitration Law, an award can be challenged only by an action to do this. :: Annul it (nullity action)
 The Saudi court that hears actions to annul arbitral awards. :: The Court of Appeal
 Under the Saudi Arbitration Law, an arbitrator must have full legal capacity and good conduct, and hold at least this degree, if sitting alone or as chair. :: A university degree in Sharia or law
@@ -369,30 +369,30 @@ Saudi Arabia ratified the Convention on the Rights of the Child in this year. ::
 Saudi Arabia ratified CEDAW in this year, with reservations. :: 2000
 The Arab Charter on Human Rights was ratified by Saudi Arabia in this year. :: 2009
 Saudi Arabia is a member of the UN Human Rights Council, first elected in this year. :: 2006
-The legal maxim "Matters are judged by their" this. :: Purposes (intentions)
-The legal maxim "Certainty is not removed by" this. :: Doubt
-The legal maxim "Hardship brings" this. :: Ease
-The legal maxim "Harm is" this. :: Removed
-The legal maxim "Custom is" this. :: Authoritative (a basis for rulings)
-These five maxims are called this in Arabic. :: Al-qawa'id al-kubra (the five great maxims)
-The legal maxim "Necessities make" this "permissible". :: Prohibited things
-The legal maxim "Necessity is measured by" this. :: Its extent (only what is needed)
-The legal maxim "Preventing harm comes before" this. :: Bringing benefit
-The legal maxim "The lesser of two harms is" this. :: Chosen (to avoid the greater)
-The legal maxim "Private harm is borne to prevent" this. :: Public harm
-The legal maxim "The original state of things is" this. :: Permissibility (for things and dealings)
-The legal maxim "The original state is that a person is free of" this. :: Liability (bara'at al-dhimmah)
-The legal maxim "What is established for a reason ends when" this. :: The reason ends
-The legal maxim "No one may deal in another's property without" this. :: Permission
-The legal maxim "Gain goes with" this. :: Liability (al-kharaj bil-daman)
-The legal maxim "Speech should be given a meaning rather than" this. :: Being ignored
-The legal maxim "The ruler's acts over his people depend on" this. :: Their welfare (maslahah)
-The legal maxim "Ijtihad is not cancelled by" this. :: Another ijtihad
-The legal maxim "The one who hastens a thing before its time is punished by" this. :: Being denied it (as when an heir kills to inherit)
-The legal maxim "What can't be done in full shouldn't be" this. :: Abandoned in full
-The legal maxim "A follower is" this. :: Treated like what it follows
-The legal maxim "Acting on speech is better than" this. :: Ignoring it
-The legal maxim "Harm is not removed by" a similar harm. Its Arabic: "Al-darar la yuzal bi" this. :: Mithlih (its like)
+The legal maxim "Matters are judged by their ___". :: Purposes (intentions)
+The legal maxim "Certainty is not removed by ___". :: Doubt
+The legal maxim "Hardship brings ___". :: Ease
+The legal maxim "Harm is ___". :: Removed
+The legal maxim "Custom is ___". :: Authoritative (a basis for rulings)
+The Arabic name for the five great legal maxims, such as "Certainty is not removed by doubt". :: Al-qawa'id al-kubra (the five great maxims)
+The legal maxim "Necessities make ___ permissible". :: Prohibited things
+The legal maxim "Necessity is measured by ___". :: Its extent (only what is needed)
+The legal maxim "Preventing harm comes before ___". :: Bringing benefit
+The legal maxim "The lesser of two harms is ___". :: Chosen (to avoid the greater)
+The legal maxim "Private harm is borne to prevent ___". :: Public harm
+The legal maxim "The original state of things is ___". :: Permissibility (for things and dealings)
+The legal maxim "The original state is that a person is free of ___". :: Liability (bara'at al-dhimmah)
+The legal maxim "What is established for a reason ends when ___". :: The reason ends
+The legal maxim "No one may deal in another's property without ___". :: Permission
+The legal maxim "Gain goes with ___". :: Liability (al-kharaj bil-daman)
+The legal maxim "Speech should be given a meaning rather than ___". :: Being ignored
+The legal maxim "The ruler's acts over his people depend on ___". :: Their welfare (maslahah)
+The legal maxim "Ijtihad is not cancelled by ___". :: Another ijtihad
+The legal maxim "The one who hastens a thing before its time is punished by ___". :: Being denied it (as when an heir kills to inherit)
+The legal maxim "What can't be done in full shouldn't be ___". :: Abandoned in full
+The legal maxim "A follower is ___". :: Treated like what it follows
+The legal maxim "Acting on speech is better than ___". :: Ignoring it
+The Arabic of the maxim "Harm is not removed by a similar harm": "Al-darar la yuzal bi ___". :: Mithlih (its like)
 The Hanbali scholar who wrote "Al-Qawa'id" on legal maxims. :: Ibn Rajab ﵀
 The Shafi'i scholar who wrote "Al-Ashbah wal-Naza'ir" on maxims. :: Al-Suyuti ﵀
 The Hanafi scholar who wrote "Al-Ashbah wal-Naza'ir" on maxims. :: Ibn Nujaym ﵀
@@ -421,18 +421,18 @@ The Saudi Board of Grievances was established by Royal Decree in this year, as a
 The Board of Grievances Law of 1982 was issued by this royal decree number. :: M/51
 The Labour Law of 2005 was issued by this royal decree number. :: M/51
 The Basic Law of Governance was issued by this royal order number. :: A/90
-The 'A/' prefix in Saudi law numbers means a royal this. :: Order (amr)
+The 'A/' prefix in Saudi law numbers marks a royal one of these. :: Order (amr)
 The 'M/' prefix in Saudi royal decrees comes from this Arabic word. :: Marsum (decree)
-The Personal Status Law was issued by Royal Decree number this. :: M/73
-The Civil Transactions Law was issued by Royal Decree number this. :: M/191
-The Law of Evidence was issued by Royal Decree number this. :: M/43
-The Companies Law of 2022 was issued by Royal Decree number this. :: M/132
+The Royal Decree number of the Personal Status Law. :: M/73
+The Royal Decree number of the Civil Transactions Law. :: M/191
+The Royal Decree number of the Law of Evidence. :: M/43
+The Royal Decree number of the 2022 Companies Law. :: M/132
 The Civil Transactions Law ends with a list of these, drawn from fiqh. :: General legal maxims (al-qawa'id al-kulliyyah)
-The legal maxim: "Harm is not removed by" this. :: Similar harm
-The legal maxim: "The ruling turns with" this. :: Its cause ('illah)
-The legal maxim: "What is known by custom is like what is" this. :: Stipulated (an express condition)
+The legal maxim "Harm is not removed by ___". :: Similar harm
+The legal maxim "The ruling turns with ___". :: Its cause ('illah)
+The legal maxim "What is known by custom is like what is ___". :: Stipulated (an express condition)
 Under the Civil Transactions Law, a judge may reduce an agreed penalty clause if it is this. :: Excessive (out of proportion to the harm)
-Under the Civil Transactions Law, a contract affected by 'exceptional circumstances' can be adjusted by the judge. This doctrine is called this. :: Hardship (al-zuruf al-tari'ah)
+The Civil Transactions Law doctrine that lets a judge adjust a contract hit by 'exceptional circumstances'. :: Hardship (al-zuruf al-tari'ah)
 Under the Civil Transactions Law, a claim against a contract made under duress can be voided. The Arabic term for duress. :: Ikrah
 The Civil Transactions Law says liability for harm caused by animals falls on this person. :: The one in control of the animal
 The Civil Transactions Law's name for unjust enrichment. :: Enrichment without cause (al-ithra' bila sabab)
@@ -449,7 +449,7 @@ The hudud crimes in Islamic law include theft, highway robbery, zina, false accu
 The hadd for theft requires the value stolen to reach this. :: The nisab (a quarter dinar)
 The hadd for false accusation of zina is this. :: Eighty lashes
 The term for the crime of highway robbery in Islamic law. :: Hirabah
-The rule that "hudud are averted by" this. :: Doubts (shubuhat)
+The rule that "hudud are averted by ___". :: Doubts (shubuhat)
 The hadith "Avert the hudud by doubts" is linked with this principle. :: Benefit of the doubt for the accused
 The Saudi rules for implementing ta'zir penalties are being codified in this planned law. :: Penal Code for Discretionary Sanctions
 Article 2 of the Saudi Criminal Procedure Law bans arrest except under the law and bans this kind of treatment. :: Physical or mental harm (torture or degrading treatment)
@@ -460,7 +460,7 @@ The Saudi Supreme Judicial Council is headed by this official since 2015. :: The
 The Saudi Bureau of Experts at the Council of Ministers was set up in this year. :: 1954
 The Saudi Shura Council Law allows the council to propose new laws, under this article. :: Article 23
 The Saudi Law of the Regions divides regions into these smaller units. :: Governorates (and centres)
-The Law of the Regions gives each region this council. :: A regional council
+The council the Law of the Regions gives each region. :: A regional council
 The Saudi municipal councils' first elections were held in this year. :: 2005
 Women first voted and stood in Saudi municipal elections in this year. :: 2015
 The number of women elected to municipal councils in 2015. :: About 20

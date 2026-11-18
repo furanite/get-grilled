@@ -33,6 +33,8 @@ interface Open {
 }
 
 export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) {
+  // Make the buzzer, the wrong-answer sound and the theme's clock and roll while the board shows.
+  useEffect(() => prepareSuspense(), [])
   const [open, setOpen] = useState<Open | null>(null)
   const [intro] = useState(() => game.used.length === 0)
   const [adjusting, setAdjusting] = useState(false)
@@ -198,7 +200,7 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
                   <span className="main" style={{ ['--w' as string]: Math.max(...main.split(/\s+/).map((w) => w.length)) }}>
                   {main}
                 </span>
-                  {sub && <span className="sub">{sub}</span>}
+                  {sub && <span className="sub" style={{ ['--sw' as string]: Math.max(...sub.split(/\s+/).map((w) => w.length)) }}>{sub}</span>}
                 </div>
               )
             })}

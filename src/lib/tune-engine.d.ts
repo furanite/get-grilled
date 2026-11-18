@@ -8,3 +8,5 @@ export function renderSuspense(theme: string, kind: 'clock' | 'roll'): Promise<A
 export const ROLL_SECONDS: number
 /** One team's introduction cue (about 7 seconds), timed to the animation. team 0-3 picks that team's own version. */
 export function renderIntro(theme: string, team?: number, members?: number): Promise<AudioBuffer>
+/** The picked buzzer for time up, or the soft drop for a wrong answer. */
+export function renderFx(kind: 'timeUp' | 'wrong'): Promise<AudioBuffer>

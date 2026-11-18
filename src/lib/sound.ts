@@ -1,8 +1,9 @@
 import type { ThemeId } from './types'
-import { renderSuspense, renderTitle, ROLL_SECONDS, setSoundBase } from './tune-engine.js'
+import { renderFx, renderSuspense, renderTitle, ROLL_SECONDS, setSoundBase } from './tune-engine.js'
 
 /**
- * Every sound is made in the browser with Web Audio: no audio files to download or license.
+ * Most sounds are made in the browser with Web Audio. The title tunes and a few effects also use recorded
+ * instrument notes bundled in public/sounds (credited in Terms clause 19).
  * Browsers only allow sound after the person clicks or presses a key, so the first
  * click "unlocks" audio; a title tune asked for before that waits for it.
  */
@@ -313,11 +314,26 @@ const pageTheme = () => document.documentElement.dataset.theme || 'amethyst'
 const settled = new Map<string, AudioBuffer | null>()
 /** Makes the current theme's clock and roll in the background, so they are ready when a tile opens. */
 export function prepareSuspense() {
+  for (const kind of ['timeUp', 'wrong'] as const) {
+    if (!fxBufs.has(kind) && typeof OfflineAudioContext !== 'undefined') fxBufs.set(kind, renderFx(kind).then((b) => (fxReady[kind] = b), () => null))
+  }
   const theme = pageTheme()
   for (const kind of ['clock', 'roll'] as const) {
     const key = `${theme}-${kind}`
     suspenseBuf(theme, kind).then((b) => settled.set(key, b))
   }
+}
+// The picked buzzer (time up) and soft drop (wrong answer), made once and kept.
+const fxBufs = new Map<string, Promise<AudioBuffer | null>>()
+const fxReady: Partial<Record<'timeUp' | 'wrong', AudioBuffer>> = {}
+function playFx(c: AudioContext, kind: 'timeUp' | 'wrong') {
+  const buf = fxReady[kind]
+  if (!buf) return false
+  const src = c.createBufferSource()
+  src.buffer = buf
+  src.connect(c.destination)
+  src.start()
+  return true
 }
 let clockBus: GainNode | null = null
 /** Starts the theme's ticking clock, looping until clockStop(). */
@@ -395,9 +411,10 @@ const fx = {
     bell(c, 76, 0.09, 0.8, 0.13)
     bell(c, 79, 0.18, 1.4, 0.14)
   },
+  /** A wrong answer: two xylophone notes falling with a soft low pluck. */
   wrong() {
     const c = ready()
-    if (!c) return
+    if (!c || playFx(c, 'wrong')) return
     tone(c, { f: 196, t: 0, d: 0.42, g: 0.12, type: 'square', lp: 900, bend: 0.85, wet: false })
     tone(c, { f: 185, t: 0, d: 0.42, g: 0.1, type: 'square', lp: 900, bend: 0.85, wet: false })
   },
@@ -407,9 +424,10 @@ const fx = {
     if (!c) return
     tone(c, { f: final ? 1320 : 1000, d: 0.08, g: 0.07, wet: false })
   },
+  /** Time is up: one long game-show buzzer. */
   timeUp() {
     const c = ready()
-    if (!c) return
+    if (!c || playFx(c, 'timeUp')) return
     tone(c, { f: 110, d: 1.4, g: 0.22, type: 'triangle' })
     tone(c, { f: 220, d: 1.0, g: 0.1, type: 'sine' })
     tone(c, { f: 233, d: 1.0, g: 0.06, type: 'sine' })

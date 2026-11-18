@@ -207,7 +207,7 @@ Financial support a husband owes his wife and children. :: Nafaqah
 A man may marry up to this many wives at one time, with justice between them. :: Four
 The share of the estate a will can cover. :: Up to one third
 A will cannot be made to these people, according to a hadith. :: Heirs (unless the others agree)
-A killer is barred from inheriting from the person he killed. This is called this. :: Being an impediment to inheritance (qatl)
+The impediment that bars a killer from inheriting from the person he killed. :: Being an impediment to inheritance (qatl)
 Difference of religion is an impediment to inheritance according to this hadith. :: "A Muslim does not inherit from a disbeliever, nor a disbeliever from a Muslim"
 The inheritance shares are mainly set out in this surah. :: Surat al-Nisa'
 A sale requires an offer and this. :: Acceptance
@@ -226,7 +226,7 @@ The "option of the sitting", to cancel while still together. :: Khiyar al-majlis
 
 ## 300
 The hadith "Actions are only by intentions" was narrated by this Companion. :: Umar ibn al-Khattab ﵁
-That hadith opens this famous collection. :: Sahih al-Bukhari
+The famous collection that opens with the hadith "Actions are only by intentions". :: Sahih al-Bukhari
 The famous collection of 40 hadiths by al-Nawawi ﵀ actually has this many. :: 42
 The Shafi'i scholar who wrote "Riyad al-Salihin" and "Al-Majmu'". :: Al-Nawawi ﵀
 The hadith collection "Bulugh al-Maram", on legal hadiths, was compiled by this scholar. :: Ibn Hajar al-'Asqalani ﵀
@@ -328,7 +328,7 @@ The four schools agree that zakat on trade goods is paid on this value. :: Their
 
 ## 400
 The famous letter of Umar ibn al-Khattab ﵁ on judging was sent to this Companion. :: Abu Musa al-Ash'ari ﵁
-The letter says "Proof is upon the claimant and the oath on" this person. :: The one who denies
+The letter says "Proof is upon the claimant and the oath on ___". :: The one who denies
 The letter says reconciliation is allowed except one that does this. :: Makes halal into haram, or haram into halal
 The book "Al-Ahkam al-Sultaniyyah" was written by this Shafi'i judge. :: Al-Mawardi ﵀
 Al-Mawardi ﵀ was chief judge in this city. :: Baghdad
@@ -339,7 +339,7 @@ Al-Juwayni's ﵀ famous book on usul al-fiqh. :: Al-Burhan
 Al-Ghazali's ﵀ book on usul al-fiqh. :: Al-Mustasfa
 Fakhr al-Din al-Razi's ﵀ book on usul al-fiqh. :: Al-Mahsul
 Al-Amidi's ﵀ book on usul al-fiqh. :: Al-Ihkam fi Usul al-Ahkam
-The Hanafi usul book by al-Bazdawi ﵀ is known by his name; the Hanafi usul book by al-Sarakhsi ﵀ is known by his name. They are called these. :: Usul al-Bazdawi and Usul al-Sarakhsi
+The Hanafi usul books by al-Bazdawi ﵀ and al-Sarakhsi ﵀, each known by its author's name. :: Usul al-Bazdawi and Usul al-Sarakhsi
 The two methods of writing usul: the "mutakallimun" method and the method of these jurists. :: The Hanafis (fuqaha')
 The Hanbali usul book "Rawdat al-Nazir" was summarised by this scholar as "Mukhtasar al-Rawdah". :: Al-Tufi ﵀
 Al-Tufi ﵀ is famous for an extreme view giving priority to this over texts. :: Maslahah (public interest)
@@ -379,8 +379,8 @@ The pre-Islamic divorce by comparing the wife to one's mother, forbidden in Sura
 The Companion woman whose complaint about zihar led to Surat al-Mujadilah. :: Khawlah bint Tha'labah ﵂
 The process where a husband accuses his wife of adultery without witnesses, with oaths from both. :: Li'an
 Li'an is described in this surah. :: Surat al-Nur
-A third divorce makes the wife unlawful until she marries another man genuinely. This is called this. :: Bainunah kubra (major finality)
-A marriage done only to make a woman lawful for her first husband is forbidden. It is called this. :: Nikah al-tahlil
+The term for a third divorce, after which the wife is unlawful until she genuinely marries another man. :: Bainunah kubra (major finality)
+The forbidden marriage done only to make a woman lawful again for her first husband. :: Nikah al-tahlil
 Temporary marriage, forbidden by Sunni scholars. :: Nikah al-mut'ah
 Marriage where two guardians exchange daughters without mahr, forbidden. :: Nikah al-shighar
 The Islamic ruling on a contract made by a child who has discernment but has not reached puberty. :: Depends on the guardian's approval (for transactions with possible loss)
@@ -405,7 +405,7 @@ The zakat on gold of 85 grams worth 20,000 riyals. :: 500 riyals
 Zakat is not due on horses kept for riding, according to a hadith, nor on these. :: Slaves for service (personal use items)
 A person who dies before paying zakat that was due has it paid from this. :: His estate (before inheritance)
 The 'Ushr' on produce is due at this time. :: Harvest
-The scholars disagree about zakat on these produce items: the Hanafi school says zakat is due on all produce, the majority only on these. :: Stored staple foods (like grains and dates)
+The Hanafi school says zakat is due on all produce; the majority say only on these. :: Stored staple foods (like grains and dates)
 The ruling on fasting the Day of 'Arafah for someone not on Hajj. :: Recommended (it expiates two years of sins)
 The ruling on fasting the Day of 'Arafah for pilgrims at 'Arafah. :: Not recommended
 The reward of fasting 'Ashura', according to a hadith. :: Expiation of the previous year's sins
@@ -448,14 +448,14 @@ The Hanbali view, followed by the Saudi Personal Status Law, on a divorce said i
 The hadith "There is no divorce or freeing of slaves in ighlaq" refers to this. :: A state of being closed off (extreme anger or compulsion)
 The concept in Islamic law of "the rights of Allah" versus these. :: The rights of people (huquq al-'ibad)
 Crimes against the rights of Allah can't be pardoned by the victim. Crimes of qisas can be pardoned by this person. :: The victim or the victim's heirs
-The hadd punishment for theft requires the item to be taken from a place of safekeeping. This is called this. :: Hirz
+The place of safekeeping an item must be taken from for the hadd punishment for theft to apply. :: Hirz
 The nisab for the hadd of theft, according to the Hanafi school. :: Ten dirhams (one dinar)
 The nisab for the hadd of theft, according to the majority. :: A quarter dinar (or three dirhams)
 The punishment of qadhf requires this many witnesses to prove zina. :: Four
 The famous incident in which our Beloved and our master, the Prophet Muhammad ﷺ refused intercession in a theft case of a noblewoman. :: The Makhzumi woman
-In that hadith, our Beloved and our master, the Prophet Muhammad ﷺ said that even if this person stole, her hand would be cut. :: Fatimah ﵂
+In the hadith of the Makhzumi woman's theft, our Beloved and our master, the Prophet Muhammad ﷺ said that even if this person stole, her hand would be cut. :: Fatimah ﵂
 The year of famine when Umar ibn al-Khattab ﵁ suspended the hadd of theft. :: 'Am al-Ramadah (the Year of Ashes)
-The diyah for a woman's life is half that of a man according to the majority. This is reported from Umar ﵁ and this Companion. :: Ali ibn Abi Talib ﵁ (and others)
+The majority say a woman's diyah is half a man's. Besides Umar ﵁, this Companion is reported to have said so. :: Ali ibn Abi Talib ﵁ (and others)
 The diyah of a full life traditionally equals this many camels. :: 100
 The diyah for a finger, according to a hadith. :: 10 camels
 The diyah for a tooth. :: Five camels

@@ -141,7 +141,7 @@ Latin: "The safety of the people is the supreme law". :: Salus populi suprema le
 Latin: "Hear the other side". :: Audi alteram partem
 Latin: "No one should be a judge in his own cause". :: Nemo judex in causa sua
 Latin: "Before the war", used for earlier conditions. :: Status quo ante bellum
-Latin: "With prejudice" means a case this. :: Can't be brought again
+Latin: a case dismissed "with prejudice" means this. :: Can't be brought again
 Latin: "On the face of it", at first sight. :: Prima facie
 Latin: "From the beginning". :: Ab initio
 Latin: "For the time being". :: Pro tempore (pro tem)
@@ -314,10 +314,10 @@ The legal term for a law's clause that ends it after a time unless renewed. :: A
 ## 400
 The legal term "estoppel" means this. :: A party is stopped from denying what it said or did before
 The legal term "laches" means this. :: Unreasonable delay that bars a claim in equity
-The legal maxim of equity: "He who comes to equity must come with" these. :: Clean hands
-The legal maxim of equity: "Equity follows" this. :: The law
-The legal maxim of equity: "Delay defeats" this. :: Equity
-The legal maxim of equity: "Equity looks on that as done which ought to be" this. :: Done
+The legal maxim of equity: "He who comes to equity must come with ___". :: Clean hands
+The legal maxim of equity: "Equity follows ___". :: The law
+The legal maxim of equity: "Delay defeats ___". :: Equity
+The legal maxim of equity: "Equity looks on that as done which ought to be ___". :: Done
 The legal term for a person who holds property for another's benefit. :: A trustee
 The legal term for a trust created by a court to prevent unfairness. :: A constructive trust
 The English court that once dealt with equity cases. :: The Court of Chancery
@@ -425,7 +425,7 @@ The medieval Italian law school that revived Roman law. :: Bologna
 The medieval scholar who wrote notes (glosses) on Roman law in Bologna. :: Accursius (the Glossators)
 The English book "Commentaries on the Laws of England" was written by this jurist. :: William Blackstone
 The "Blackstone ratio": better that this many guilty go free than one innocent suffer. :: Ten
-The English legal phrase "an Englishman's home is his" this. :: Castle
+The English legal saying "an Englishman's home is his ___". :: Castle
 The English case of 1765 against general warrants by the King's messengers. :: Entick v Carrington
 The 1215 charter that limited the English king's power. :: Magna Carta
 The English Bill of Rights was passed in this year. :: 1689
@@ -512,7 +512,7 @@ The Arabic legal term for bankruptcy in classical fiqh. :: Iflas (taflis)
 The Arabic legal term for a debtor's being barred from his property. :: Hajr
 The Arabic legal term for a debtor who can't pay. :: Mu'sir
 The Quran verse that tells creditors to give a debtor in hardship time is in this surah. :: Surat al-Baqarah (verse 280)
-The hadith "Delay by a rich person in paying a debt is" this. :: Injustice (zulm)
+The hadith "Delay by a rich person in paying a debt is ___". :: Injustice (zulm)
 The Arabic legal term for delay in paying debt by a rich person. :: Matl al-ghani
 
 ## translate

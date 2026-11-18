@@ -261,7 +261,7 @@ The Urdu word "chabi" (key) comes from this European language. :: Portuguese
 The Urdu word "mez" (table) comes from this European language. :: Portuguese
 The Urdu word "almari" (cupboard) comes from this European language. :: Portuguese
 The Urdu word "botal" (bottle) comes from this language. :: English
-The Urdu word "kitab" in Arabic means this, and in Urdu the plural is often this Arabic form. :: Book; kutub
+The meaning of the Arabic word "kitab", and the Arabic plural often used in Urdu. :: Book; kutub
 The Urdu word "ahl" comes from Arabic and means this. :: People (family)
 The Urdu word "akhlaq" means this, and comes from Arabic. :: Manners (morals)
 The Urdu word "adab" means this. :: Literature (and good manners)
@@ -489,8 +489,8 @@ Shibli Nomani founded this academy in Azamgarh. :: Darul Musannefin (Shibli Acad
 Shibli's book on the second caliph is called this. :: Al-Faruq
 Al-Faruq is about this Companion. :: Umar ibn al-Khattab ﵁
 The scholar who completed "Sirat-un-Nabi" after Shibli. :: Syed Sulaiman Nadvi ﵀
-The famous Urdu translation of the Quran's meanings by Shah Rafi-ud-Din and this brother was among the first. :: Shah Abdul Qadir ﵀
-These brothers were sons of this great Delhi scholar. :: Shah Waliullah Dehlvi ﵀
+Shah Rafi-ud-Din ﵀ and this brother made one of the first Urdu translations of the Quran's meanings. :: Shah Abdul Qadir ﵀
+The great Delhi scholar whose sons included Shah Rafi-ud-Din ﵀ and Shah Abdul Qadir ﵀. :: Shah Waliullah Dehlvi ﵀
 Shah Waliullah ﵀ translated the Quran's meanings into this language. :: Persian
 The Urdu name for the Mughal-era Delhi fort, "Lal Qila", means this. :: Red Fort
 "Taj Mahal" in Persian-Urdu means this. :: Crown of palaces
@@ -527,7 +527,7 @@ The Urdu newspaper "Al-Hilal" was started by this scholar. :: Maulana Abul Kalam
 The Urdu newspaper "Zamindar" was edited by this poet-journalist. :: Maulana Zafar Ali Khan ﵀
 The Urdu word for "zero", "sifr", is related to this English word. :: Cipher (and zero)
 The English word "sugar" comes, through Arabic and Persian, from this Urdu-related word. :: Shakkar
-The English word "chutney" comes from this Urdu-Hindi word meaning this. :: To lick (chatni)
+The English word "chutney" comes from the Urdu-Hindi word "chatni", from a verb meaning this. :: To lick (chatni)
 The English word "chit" comes from the Urdu-Hindi "chitthi" meaning this. :: A note (letter)
 The English word "nabob" comes from the Urdu title "nawab" meaning this. :: A governor (deputy)
 "Nawab" comes from the Arabic plural "nuwwab" meaning this. :: Deputies

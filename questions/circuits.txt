@@ -176,7 +176,7 @@ The leftover AC on a smoothed DC supply. :: Ripple
 The three terminals of a bipolar junction transistor. :: Emitter, base, collector
 The three terminals of a MOSFET. :: Gate, drain, source
 The two types of BJT. :: NPN and PNP
-The current gain of a BJT is given this symbol. :: β (or hFE)
+The symbol for the current gain of a BJT. :: β (or hFE)
 A MOSFET is controlled by this quantity at its gate. :: Voltage
 A BJT is controlled by this quantity at its base. :: Current
 The amplifier with very high gain and two inputs, used with feedback. :: Operational amplifier (op-amp)

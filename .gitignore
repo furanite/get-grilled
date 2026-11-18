@@ -9,3 +9,4 @@ site
 public/packs
 dist-artifact-host
 dist-artifact*-files.json
+e2e/fit-shots/

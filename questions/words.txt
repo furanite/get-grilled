@@ -184,7 +184,7 @@ The Persian scholar whose "Al-Kitab" is the founding book of Arabic grammar. :: 
 The marks added above or below Arabic letters for short vowels. :: Harakat (tashkeel)
 The Arabic mark that doubles a letter. :: Shadda
 The Arabic mark that shows no vowel. :: Sukun
-Arabic is called "the language of" this letter, said to be unique to it. :: Dad (ض)
+Arabic is called "the language of ___", after a letter said to be unique to it. :: Dad (ض)
 The type of Arabic used in news and books, shared across the Arab world. :: Modern Standard Arabic (Fusha)
 The Arabic dialect spoken in Najd and Riyadh is called this. :: Najdi
 The Arabic dialect spoken in Jeddah and Makkah is called this. :: Hejazi
@@ -363,7 +363,7 @@ The language spoken on the Faroe Islands. :: Faroese
 The language that is the closest living relative of Old Norse, spoken in Iceland. :: Icelandic
 The language of Pakistan's largest province by population, Punjab. :: Punjabi
 The language of Bangladesh. :: Bengali (Bangla)
-The 1952 movement in Dhaka is remembered on International Mother Language Day, this date. :: 21 February
+The date of International Mother Language Day, which remembers the 1952 movement in Dhaka. :: 21 February
 The language spoken by the Tamil people of India and Sri Lanka. :: Tamil
 The language spoken in the Philippines, the base of Filipino. :: Tagalog
 The language spoken in Indonesia. :: Indonesian (Bahasa Indonesia)

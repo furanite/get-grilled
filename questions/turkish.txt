@@ -348,7 +348,7 @@ The Turkish verb ending for "to" in the dictionary. :: -mek or -mak
 "Önce" means this. :: Before (first)
 "Hep" or "her zaman" means this. :: Always
 "Hiç" means this. :: Never (not at all)
-The question word "mi" in Turkish is written this way. :: Separately, after the word it asks about
+How the Turkish question word "mi" is written. :: Separately, after the word it asks about
 The ending "-de" or "-da" means this. :: In, at or on
 "Evde" means this. :: At home
 "İstanbul'da" means this. :: In Istanbul

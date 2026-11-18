@@ -5,7 +5,7 @@ import type { Category, CategorySummary, Game, Lang, PackGroup, PoolEdit, RoundM
 import { ROUND_MODES, VALUES } from '../lib/types'
 import type { Strings } from '../lib/i18n'
 import { num, qCount } from "../lib/i18n"
-import { CLUE_SECS, FACT_MAX, GAME_MINUTES, MAX_MEMBERS, MEMBER_MAX, MODE_COUNT, ROLE_MAX, TOUR_MAX_CATS, TOUR_MAX_ROUNDS, TOUR_PLANS, applyPool, boardRounds, cleanPlan, createGame, createTournament, isPlayable, poolCounts, splitCategories, withIntro, type TeamDetails } from '../lib/game'
+import { applyPool, boardRounds, cleanPlan, CLUE_SECS, createGame, createTournament, FACT_MAX, GAME_MINUTES, isPlayable, MAX_MEMBERS, MEMBER_MAX, MODE_COUNT, poolCounts, preferPictures, ROLE_MAX, splitCategories, TOUR_MAX_CATS, TOUR_MAX_ROUNDS, TOUR_PLANS, withIntro, type TeamDetails } from '../lib/game'
 import { Vote, type VoteCat, type VoteState } from './Vote'
 import { roundTitle } from './Tournament'
 import { sfx } from '../lib/sound'
@@ -154,6 +154,7 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
     setError('')
     try {
       const cats = (await Promise.all(ids.map((id) => custom.find((c) => c.id === id) ?? loadPack(id)))).map((c) => applyPool(c, pools[c.id]))
+        .map((c) => (chosenNight?.pictures ? preferPictures(c) : c))
       const bad = cats.find((c) => !isPlayable(c))
       if (bad) throw new Error(`“${bad.name}” ${t.incomplete}`)
       const tiles = { timer, deduct, golden, levelTimers, gameMinutes, ...(extras ? { steal, crowd, streak, comeback } : {}) }

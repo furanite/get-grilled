@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { adjustScore, MAX_ADJUST, chooseGolden, createGame, drawCategory, exportCategory, isFinished, isPlayable, markUsed, parseImportedCategory, score, standings, turnTeam } from '../src/lib/game'
+import { adjustScore, MAX_ADJUST, chooseGolden, createGame, drawCategory, exportCategory, isFinished, isPlayable, markUsed, parseImportedCategory, score, preferPictures, standings, turnTeam } from '../src/lib/game'
 import type { Category } from '../src/lib/types'
 
 function seeded(seed = 1) {
@@ -324,5 +324,15 @@ describe('time limits', () => {
     expect(parseImportedCategory(JSON.parse(JSON.stringify(exportCategory(c))), () => 'n').levels[0][0].secs).toBe(45)
     expect(cleanCategories([c])[0].levels[0][0].secs).toBe(45)
     expect(cleanCategories([{ ...c, levels: [[{ id: '1', q: 'q', a: 'a', secs: -4 }], [], [], [], []] }])[0].levels[0][0].secs).toBeUndefined()
+  })
+})
+
+describe('picture night', () => {
+  it('draws only picture questions in levels that have them, and leaves other levels alone', () => {
+    const q = (id: string, img?: string) => ({ id, q: 'Q' + id, a: 'A' + id, ...(img ? { img } : {}) })
+    const cat = { id: 'c', name: 'C', levels: [[q('1'), q('2', 'packs/img/x.svg'), q('3')], [q('4'), q('5')], [q('6', 'packs/img/y.svg')], [q('7')], [q('8')]] } as unknown as Category
+    const p = preferPictures(cat)
+    expect(p.levels.map((l) => l.map((x) => x.id))).toEqual([['2'], ['4', '5'], ['6'], ['7'], ['8']])
+    for (let i = 0; i < 20; i++) expect(drawCategory(p, [], Math.random).picks[0].id).toBe('2')
   })
 })

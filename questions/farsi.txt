@@ -266,12 +266,12 @@ The Persian sweet made of thin threads of sugar, "pashmak", means this. :: Like 
 ## 300
 Persian belongs to this language family. :: Indo-European (Iranian branch)
 Persian is related to English through this family. :: Indo-European
-The Persian word "madar" is related to the English word this. :: Mother
-The Persian word "baradar" is related to the English word this. :: Brother
-The Persian word "dokhtar" is related to the English word this. :: Daughter
-The Persian word "nam" is related to the English word this. :: Name
-The Persian word "now" is related to the English word this. :: New
-The Persian word "setareh" is related to the English word this. :: Star
+The English word related to the Persian "madar". :: Mother
+The English word related to the Persian "baradar". :: Brother
+The English word related to the Persian "dokhtar". :: Daughter
+The English word related to the Persian "nam". :: Name
+The English word related to the Persian "now". :: New
+The English word related to the Persian "setareh". :: Star
 The language of the Achaemenid kings' inscriptions. :: Old Persian
 Old Persian was written in this kind of script. :: Cuneiform
 The great inscription of Darius on a cliff in western Iran. :: The Behistun inscription
@@ -389,7 +389,7 @@ The great Persian scholar al-Biruni ﵀ came from this region. :: Khwarazm
 Al-Ghazali ﵀ wrote "Kimiya-yi Sa'adat" in Persian, which means this. :: The Alchemy of Happiness
 Al-Ghazali ﵀ was born in this city. :: Tus
 The Persian scholar al-Khwarizmi ﵀ gave English this word through his name. :: Algorithm
-Al-Khwarizmi's ﵀ book gave English this word. :: Algebra (al-jabr)
+The English word that comes from the title of Al-Khwarizmi's ﵀ book. :: Algebra (al-jabr)
 The Persian scholar al-Razi ﵀ was born in this city near Tehran. :: Rey (Ray)
 Al-Razi ﵀ is famous for telling these two diseases apart. :: Smallpox and measles
 Ibn Sina ﵀ was born near this city. :: Bukhara
@@ -461,7 +461,7 @@ The sprouted wheat or lentils on the Haft-sin table. :: Sabzeh
 The sweet wheat pudding on the Haft-sin table. :: Samanu
 The thirteenth day after Nowruz, when people go outdoors. :: Sizdah Bedar
 The longest night of the year celebrated in Iran. :: Shab-e Yalda
-On Shab-e Yalda people often read this poet. :: Hafez ﵀
+The poet whose verses people often read on Shab-e Yalda. :: Hafez ﵀
 The Persian word "yalda" comes from Syriac and means this. :: Birth
 The Persian classical music system of modes. :: Dastgah
 The Persian lute with a long neck and a pear-shaped body. :: Tar (or setar)

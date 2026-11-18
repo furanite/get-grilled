@@ -72,8 +72,8 @@ The gradual dying away of vibration by energy loss. :: Damping
 The car parts that damp the bouncing of the springs. :: Shock absorbers (dampers)
 The law saying a spring's force is proportional to its stretch. :: Hooke's law
 The spring constant k has these SI units. :: Newtons per metre (N/m)
-A stiffer spring makes the natural frequency go this way. :: Up (higher)
-Adding mass to a spring–mass system makes its natural frequency go this way. :: Down (lower)
+A stiffer spring changes the natural frequency in this direction. :: Up (higher)
+Adding mass to a spring–mass system changes its natural frequency in this direction. :: Down (lower)
 Motion where acceleration is proportional to displacement and towards the centre. :: Simple harmonic motion
 Simple harmonic motion traces out this kind of curve against time. :: Sine wave
 The device that measures earthquake shaking. :: Seismometer (seismograph)
@@ -96,7 +96,7 @@ Electric cars recover braking energy using this system. :: Regenerative braking
 The balancing weights clipped to car wheel rims stop this. :: Wheel vibration (wobble)
 The rotating machine part whose uneven mass causes vibration. :: Unbalanced rotor
 Engine mounts are made of rubber to do this. :: Isolate vibration
-A swing goes higher when pushed at its natural frequency. This is an example of this. :: Resonance
+A swing going higher when pushed at its natural frequency is an example of this. :: Resonance
 The sound you hear from a vibrating guitar string at its lowest frequency. :: Fundamental (first harmonic)
 Soldiers break step on bridges to avoid this. :: Resonance
 The scientist whose three laws describe the motion of bodies. :: Isaac Newton
@@ -257,7 +257,7 @@ The method that finds damping from the frequencies where response is 0.707 of th
 The phase lag between force and displacement at resonance. :: 90 degrees
 Well above resonance, the mass's motion is this relative to the force. :: 180 degrees out of phase
 Vibration where the base moves rather than the mass being pushed. :: Base excitation (support motion)
-Above the isolation frequency, adding damping makes isolation this. :: Worse
+Above the isolation frequency, adding damping has this effect on isolation. :: Worse
 A system with n degrees of freedom has this many natural frequencies. :: n
 The eigenvalue problem in vibration uses the mass and this matrix. :: Stiffness matrix
 The property that lets mode shapes be used as independent coordinates. :: Orthogonality of modes
@@ -413,7 +413,7 @@ The Lagrange point near which the James Webb Space Telescope orbits. :: L2 (Sun�
 The equation M = E − e sin E that links mean and eccentric anomaly. :: Kepler's equation
 Gyroscopic effects make a rotor's forward whirl frequency do this as speed rises. :: Increase
 The energy-flow method for predicting high-frequency vibration of complex structures. :: Statistical energy analysis (SEA)
-Damping inside a spinning shaft can make it unstable above the first critical speed. This is called this. :: Internal (rotating) damping
+The kind of damping inside a spinning shaft that can make it unstable above the first critical speed. :: Internal (rotating) damping
 Finding small oscillations about equilibrium by linearising and checking eigenvalues. :: Linear stability analysis
 The rolling-bearing fault frequency for a defect on the fixed outer ring, abbreviated BPFO. :: Ball pass frequency, outer race
 A wheelbarrow is an example of the lever class drawn here. Which class is it? {img:lever-2.svg} :: Second-class lever

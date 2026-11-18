@@ -31,7 +31,7 @@ async function newPage(opts = {}) {
   const { noConsent, keepIntro, ...ctxOpts } = opts
   const ctx = await browser.newContext({ viewport: { width: 1280, height: 860 }, ...ctxOpts })
   // Most tests start as a player who has already accepted the current Terms.
-  if (!noConsent) await ctx.addInitScript(() => { if (!localStorage.getItem('gg.consent.v1')) localStorage.setItem('gg.consent.v1', JSON.stringify({ version: '1.1', date: '2026-11-10T00:00:00Z' })) })
+  if (!noConsent) await ctx.addInitScript(() => { if (!localStorage.getItem('gg.consent.v1')) localStorage.setItem('gg.consent.v1', JSON.stringify({ version: '1.2', date: '2026-11-10T00:00:00Z' })) })
   const page = await ctx.newPage()
   // Golden, Steal and Audience tiles first say what they are; most tests just press Next straight away.
   if (!keepIntro) await page.addLocatorHandler(page.getByTestId('intro-next'), async (b) => b.click(), { noWaitAfter: true })
@@ -1311,7 +1311,7 @@ try {
     await page.getByTestId('consent-accept').click()
     await dlg.waitFor({ state: 'detached' })
     const saved = await page.evaluate(() => JSON.parse(localStorage.getItem('gg.consent.v1')))
-    assert(saved.version === '1.1' && !isNaN(Date.parse(saved.date)), 'consent not saved with version and date')
+    assert(saved.version === '1.2' && !isNaN(Date.parse(saved.date)), 'consent not saved with version and date')
     assert(await page.locator('.app[inert]').count() === 0, 'app still blocked after accepting')
     await page.reload()
     await page.waitForSelector('.logo-title')

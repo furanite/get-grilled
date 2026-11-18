@@ -111,7 +111,7 @@ Breaking the law by entering land without permission. :: Trespass
 The Latin phrase "guilty act". :: Actus reus
 The Latin phrase "guilty mind". :: Mens rea
 The rule that no crime exists without a law. :: Nullum crimen sine lege (legality)
-The Arabic principle of legality: "No crime and no punishment except by" this. :: A text (nass)
+The Arabic principle of legality: "No crime and no punishment except by ___". :: A text (nass)
 The Saudi Basic Law article that says no crime or punishment without a Sharia or statutory text. :: Article 38
 The Saudi Law of Criminal Procedure was first issued in this year. :: 2001
 The Saudi Law of Criminal Procedure was updated in this year. :: 2013
@@ -267,14 +267,14 @@ In Islamic law, a killer is not given qisas for killing this relative, by the ma
 In the majority view, a Muslim is not killed for killing this person. :: A non-Muslim (diyah is paid instead), though the Hanafis disagree
 The Hanafi school's view on qisas for killing a dhimmi. :: Qisas applies
 In Islamic law, a group who kill one person together are all killed according to this caliph's ruling. :: Umar ibn al-Khattab ﵁
-Umar ﵁ said, "If the people of" this city had joined in killing him, he would have killed them all. :: San'a'
-In Islamic law, qisas for injuries applies only if equality is possible. This is called this. :: Mumathalah (equal retaliation)
+Umar ﵁ said that if all the people of this city had joined in killing one man, he would have killed them all. :: San'a'
+In Islamic law, the equality needed before qisas can apply to injuries. :: Mumathalah (equal retaliation)
 In Islamic law, a heir who forgives qisas ends it for all because of this. :: Qisas can't be divided
 In Islamic law, the full diyah for a woman is this according to the majority. :: Half the diyah of a man
 The Saudi diyah for accidental killing of a Muslim man was set in 2011 at this amount. :: 300,000 riyals
 The Saudi diyah for deliberate killing (when forgiven for diyah) was set in 2011 at this amount. :: 400,000 riyals
 In Saudi Arabia, many heirs ask for huge sums in exchange for this. :: Waiving qisas (sulh)
-Saudi Arabia set up committees to limit very high sums asked for waiving qisas. These are called this. :: Reconciliation committees (islah dhat al-bayn)
+The Saudi committees set up to limit very high sums asked for waiving qisas. :: Reconciliation committees (islah dhat al-bayn)
 The Saudi Ministry of Interior unit for prisons. :: The General Directorate of Prisons
 Saudi Arabia's program that pays off the debts of prisoners. :: Furijat
 The Saudi rehabilitation centre for former extremists. :: The Mohammed bin Nayef Center for Counseling and Care
@@ -402,7 +402,7 @@ The Islamic legal term for circumstantial evidence. :: Qara'in
 Ibn al-Qayyim ﵀ argued judges may use circumstantial evidence in this book. :: Al-Turuq al-Hukmiyyah
 The story of Prophet Yusuf ﵇ where a torn shirt showed innocence is an example of this. :: Circumstantial evidence (qarinah)
 In the story of Prophet Sulayman ﵇ and two women claiming a baby, he offered to do this. :: Cut the baby in half (to find the true mother)
-The legal maxim "The burden of proof is on the claimant and the oath on" this person. :: The one who denies
+The legal maxim "The burden of proof is on the claimant and the oath on ___". :: The one who denies
 The legal maxim "The original state is innocence". In Arabic. :: Al-asl bara'at al-dhimmah
 In Islamic law, a confession by a person under torture is this. :: Invalid
 Umar ﵁ said, "A man is not safe from himself if you" do this to him. :: Starve, frighten or imprison him (to get a confession)
@@ -448,7 +448,7 @@ In Islamic law, the term for a confession being withdrawn. :: Ruju' 'an al-iqrar
 The Hanafi school requires this many confessions for zina. :: Four (in four sittings)
 The Hanafi school requires this many confessions for theft, according to Abu Yusuf ﵀. :: Two
 In Islamic law, if the victim of theft gives the item as a gift to the thief before court, the hadd does this. :: Drops
-Our Beloved and our master, the Prophet Muhammad ﷺ told Safwan ﵁, who gave away his stolen cloak after the case reached him, this. :: "Why not before you brought him to me?"
+What our Beloved and our master, the Prophet Muhammad ﷺ said to Safwan ﵁, who gave away his stolen cloak after the case had reached him. :: "Why not before you brought him to me?"
 The principle from Safwan's ﵁ case: once a hadd case reaches the ruler, this is not allowed. :: Pardon (intercession)
 The Hanafi view on stealing from a relative of the mahram kind. :: No hadd (because of free access)
 The term "hirz al-mithl" means this. :: The usual safekeeping for that kind of item
@@ -473,7 +473,7 @@ The diyah for a wound that breaks bone (hashimah). :: Ten camels
 The diyah for a wound that moves a bone (munaqqilah). :: Fifteen camels
 The diyah for a miscarriage caused by assault. :: A ghurrah (a slave, or a twentieth of the diyah)
 The letter of 'Amr ibn Hazm ﵁ is famous for listing these. :: Diyah amounts (and zakat rules)
-The government (hukumah) assessment is used for injuries with no fixed diyah. It is called this. :: Hukumat 'adl
+The assessment used for injuries with no fixed diyah. :: Hukumat 'adl
 The Hanbali book "Al-Ahkam al-Sultaniyyah" by Abu Ya'la ﵀ covers crime and this. :: Government and offices
 The Shafi'i judge al-Mawardi ﵀ wrote about "the office of grievances", called this. :: Wilayat al-mazalim
 The Saudi Board of Grievances takes its name from this classical office. :: Diwan al-mazalim

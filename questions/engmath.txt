@@ -130,7 +130,7 @@ The limit of sin x / x as x goes to 0. :: 1
 The limit of (1 + 1/n)ⁿ as n goes to infinity. :: e
 A series that writes a function as an infinite polynomial around a point. :: Taylor series
 A Taylor series centred at zero. :: Maclaurin series
-The Maclaurin series of eˣ begins 1 + x + this. :: x²/2!
+The Maclaurin series of eˣ begins 1 + x + ___. :: x²/2!
 The first two non-zero terms of the Maclaurin series of sin x. :: x − x³/6
 The small-angle approximation for sin θ. :: sin θ ≈ θ
 The sum of the infinite geometric series 1 + ½ + ¼ + ... :: 2
@@ -160,7 +160,7 @@ The magnitude of the cross product a × b equals |a||b| times this. :: sin θ
 The scalar triple product a · (b × c) gives this geometric quantity. :: Volume of a parallelepiped
 The modulus of the complex number 3 + 4j. :: 5
 The complex conjugate of 2 − 5j. :: 2 + 5j
-e^(jθ) equals cos θ + j sin θ. This is called this. :: Euler's formula
+The name for e^(jθ) = cos θ + j sin θ. :: Euler's formula
 The equation e^(jπ) + 1 = 0 is called this. :: Euler's identity
 The value of j². :: −1
 The polar form of a complex number uses magnitude and this. :: Angle (argument)
@@ -226,7 +226,7 @@ The harmonic series 1 + ½ + ⅓ + ... does this. :: Diverges
 The p-series Σ1/nᵖ converges when p is this. :: Greater than 1
 The sum of 1/n² from n = 1 to ∞. :: π²/6
 The sum of the alternating series 1 − ½ + ⅓ − ¼ + ... :: ln 2
-The Maclaurin series of ln(1 + x) begins x − this. :: x²/2
+The Maclaurin series of ln(1 + x) begins x − ___. :: x²/2
 The Maclaurin series of 1/(1 − x). :: 1 + x + x² + x³ + ...
 The interval of convergence of the series for 1/(1 − x). :: −1 < x < 1
 The theorem relating a line integral around a closed curve to a double integral over the region. :: Green's theorem
@@ -275,7 +275,7 @@ The Fourier transform of a Gaussian is this. :: A Gaussian
 Convolution in time equals this in frequency. :: Multiplication
 The theorem that energy in time equals energy in frequency. :: Parseval's (Plancherel's) theorem
 The transform used for discrete-time signals, like the Laplace transform for sampled systems. :: Z-transform
-The Z-transform variable z relates to s by z = this. :: e^(sT)
+The Z-transform variable z in terms of s. :: e^(sT)
 The minimum sampling rate to capture a signal without aliasing. :: Twice the highest frequency (Nyquist rate)
 The PDE ∂u/∂t = k ∂²u/∂x². :: Heat (diffusion) equation
 The PDE ∂²u/∂t² = c² ∂²u/∂x². :: Wave equation
@@ -303,7 +303,7 @@ The person who published the t-distribution under the pen name 'Student'. :: Wil
 The method that compares means of three or more groups. :: ANOVA
 The probability of rejecting a true null hypothesis. :: Type I error (significance level α)
 Failing to reject a false null hypothesis. :: Type II error
-The value p < 0.05 is often used to call a result this. :: Statistically significant
+A result with p < 0.05 is often called this. :: Statistically significant
 A 95% confidence interval for a mean is roughly the mean plus or minus this many standard errors. :: 1.96 (about 2)
 The standard error of the mean equals σ divided by this. :: √n
 The distribution often used for failure times and wind speeds, with shape and scale parameters. :: Weibull distribution
@@ -398,7 +398,7 @@ The value of e^(jπ/2). :: j
 The value of j^j, a real number. :: e^(−π/2) (about 0.208)
 The number of distinct cube roots of 8 in the complex plane. :: Three
 The cube roots of unity sum to this. :: 0
-Hamilton's quaternion rule: i² = j² = k² = ijk = this. :: −1
+Hamilton's quaternion rule: i² = j² = k² = ijk = ___. :: −1
 The fundamental solution of the 1D heat equation has this shape in space. :: Gaussian
 Green's function of an ODE is its response to this. :: A unit impulse (delta function)
 The method that approximates a PDE solution as a sum of weighted basis functions minimising residual. :: Galerkin method
@@ -456,7 +456,7 @@ The French mathematician who first published least squares in 1805. :: Adrien-Ma
 The French mathematician whose 1822 book 'The Analytical Theory of Heat' introduced his series. :: Joseph Fourier
 The French mathematician whose work on probability and the transform bears his name. :: Pierre-Simon Laplace
 The English engineer who used operational calculus for telegraph equations, later justified by Laplace transforms. :: Oliver Heaviside
-Heaviside reportedly said: 'Shall I refuse my dinner because I do not fully understand the process of' this? :: Digestion
+Heaviside reportedly asked: "Shall I refuse my dinner because I do not fully understand the process of ___?" :: Digestion
 The unit step function is named after this person. :: Oliver Heaviside
 The physicist who introduced the delta function in quantum mechanics. :: Paul Dirac
 The French mathematician who built the rigorous theory of distributions in the 1940s. :: Laurent Schwartz

@@ -308,7 +308,7 @@ Dynamic CMOS power is α C V² f. Halving V cuts it by this factor. :: Four
 The low-voltage differential signalling standard for fast links. :: LVDS
 The termination resistor usually placed across an LVDS pair. :: 100 Ω
 Reflections on a fast PCB track happen when it is not matched to this. :: Its characteristic impedance
-Several outputs switching at once can make the ground voltage bounce. This is called this. :: Ground bounce (simultaneous switching noise)
+The name for the ground voltage bouncing when several outputs switch at once. :: Ground bounce (simultaneous switching noise)
 The blocks around the edge of an FPGA that connect to its pins. :: IOBs (input/output blocks)
 Name this circuit block, which passes one of two inputs to its output. {img:mux-2to1.svg} :: 2-to-1 multiplexer
 Name this storage element, which copies its input to Q on the clock edge. {img:d-flipflop.svg} :: D flip-flop
