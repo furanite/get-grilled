@@ -11,6 +11,8 @@ export interface Question {
   /** Source tag: H = historical or sourced fact, D = dramatised, F = fictional. */
   kind?: 'H' | 'D' | 'F'
   src?: string
+  /** Credit line for a photo (author and licence), shown under the picture. */
+  credit?: string
   /** A picture or diagram shown with the clue: a data: URL for host-made questions, or a path for built-in ones. */
   img?: string
   /** Schools of fiqh a ruling belongs to (h Hanafi, m Maliki, s Shafi'i, b Hanbali); absent when all agree. */
@@ -44,7 +46,7 @@ export interface Category {
 
 export type PackGroup =
   | 'engineering' | 'cces' | 'general'
-  | 'quran' | 'hadith' | 'aqidah' | 'fiqh' | 'prophets' | 'arabic' | 'tazkiyah' | 'islamichistory'
+  | 'quran' | 'hadith' | 'aqidah' | 'fiqh' | 'prophets' | 'arabic' | 'tazkiyah' | 'islamichistory' | 'nasheed'
   | 'kids'
 
 export interface CategorySummary {

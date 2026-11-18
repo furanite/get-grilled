@@ -83,7 +83,7 @@ describe('security policy', () => {
 
 describe('privacy notice', () => {
   it('explains location and scholar reviews in both languages, and cites the PDPL', () => {
-    expect(LEGAL.termsVersion).toBe('1.2')
+    expect(LEGAL.termsVersion).toBe('1.3')
     const en = JSON.stringify(PRIVACY.en)
     expect(en).toContain('rounded to about 10 km')
     expect(en).toContain('never sent to us')

@@ -1,5 +1,6 @@
 import type { Lang } from './types'
 import { APP_NAME as APP, APP_NAME_AR as APPA } from './edition'
+import photos from '../../questions/img/credits-full.json'
 
 /**
  * Owner details shown in the Terms, the Privacy Notice and the footer.
@@ -12,7 +13,7 @@ export const LEGAL = {
   effectiveAr: '11 نوفمبر 2026',
   year: 2026,
   /** Change this whenever the Terms or Privacy Notice change: everyone is asked to accept again. */
-  termsVersion: '1.2',
+  termsVersion: '1.3',
 }
 
 export interface Clause {
@@ -29,6 +30,11 @@ export interface LegalDoc {
 }
 
 const O = LEGAL.owner
+
+/** One line per landmark photo: author, licence and source page on Wikimedia Commons. */
+const photoLines = Object.values(photos as Record<string, { author: string; license: string; source: string; file: string }>).map(
+  (p) => `${p.file.replace(/^File:/, '')}: ${p.author}, ${p.license}, ${p.source}`,
+)
 const OA = LEGAL.ownerAr
 
 const termsEn: LegalDoc = {
@@ -63,6 +69,11 @@ const termsEn: LegalDoc = {
     { title: '16. Governing law.', body: ['These Terms are governed by the laws of the Kingdom of Saudi Arabia. Disputes go to the competent courts in the Eastern Province, unless the law where you live gives you a right to bring a claim there.'] },
     { title: '17. Severability and language.', body: ["If any part of these Terms can't be enforced, the rest stays in effect. These Terms are provided in Arabic and English. If they differ, the Arabic version prevails."] },
     { title: '18. Questions about content.', body: ['Questions about a question or content? Tell your game host.'] },
+    {
+      title: '19. Photo credits.',
+      body: ['The landmark photos come from Wikimedia Commons. Each is used under the licence shown, and was resized. Photos under a CC BY-SA licence stay under that licence. They are not owned by us and clause 12 does not apply to them.'],
+      list: photoLines,
+    },
   ],
 }
 
@@ -98,6 +109,11 @@ const termsAr: LegalDoc = {
     { title: '16. النظام الواجب التطبيق.', body: ['تخضع هذه الشروط لأنظمة المملكة العربية السعودية. وتختص بالنظر في النزاعات المحاكم المختصة في المنطقة الشرقية، ما لم يمنحك نظام البلد الذي تقيم فيه حق رفع الدعوى هناك.'] },
     { title: '17. قابلية الفصل واللغة.', body: ['إذا تعذّر تطبيق أي جزء من هذه الشروط، يبقى الباقي ساريًا. وتقدَّم هذه الشروط باللغتين العربية والإنجليزية، وعند الاختلاف يُعتمد النص العربي.'] },
     { title: '18. الاستفسار عن المحتوى.', body: ['هل لديك استفسار عن سؤال أو محتوى؟ أخبر مقدّم اللعبة.'] },
+    {
+      title: '19. حقوق الصور.',
+      body: ['صور المعالم مأخوذة من ويكيميديا كومنز، وتُستخدم كل صورة وفق الترخيص المذكور معها بعد تصغير حجمها. وتبقى الصور المرخصة بترخيص CC BY-SA خاضعة لذلك الترخيص. وهذه الصور ليست ملكًا لنا، ولا ينطبق عليها البند 12.'],
+      list: photoLines,
+    },
   ],
 }
 

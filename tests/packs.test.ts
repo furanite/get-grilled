@@ -101,8 +101,9 @@ describe('built-in question files', () => {
       expect(r.errors).toEqual([])
       // University packs hold at least 100 per level (plus a few picture questions); the religious packs are smaller, checked pools.
       // A category where every question is a picture (drawn by hand) needs fewer: 30 per level, or 8 in the religious packs.
+      // The nasheed packs hold only what could be checked against sources, so they also need 8.
       const allPictures = r.levels.every((l: { img?: string }[]) => l.every((q) => q.img))
-      if (RESPECT_GROUPS.includes(groupOf(f))) r.levels.forEach((l: unknown[]) => expect(l.length).toBeGreaterThanOrEqual(allPictures ? 8 : 15))
+      if (RESPECT_GROUPS.includes(groupOf(f))) r.levels.forEach((l: unknown[]) => expect(l.length).toBeGreaterThanOrEqual(allPictures || groupOf(f) === 'nasheed' ? 8 : 15))
       else r.levels.forEach((l: unknown[]) => expect(l.length).toBeGreaterThanOrEqual(allPictures ? 30 : 100))
       for (const l of r.levels) for (const q of l as { img?: string }[]) if (q.img) expect(existsSync(join(dir, 'img', q.img.replace('packs/img/', ''))), q.img).toBe(true)
       const arPath = join(dir, 'ar', f)

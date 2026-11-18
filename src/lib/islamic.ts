@@ -564,6 +564,7 @@ const I = {
   roots: 'M12 21V13 M12 13L6 7.5 M12 13l6-5.5 M12 13V4.5 ' + circ(6, 6.5, 1.8) + ' ' + circ(18, 6.5, 1.8) + ' ' + circ(12, 3.3, 1.8),
   marks: 'M4 6.5l6-2.2 M14.5 4.2c1.6-.2 2.4 1.4 1.3 2.6L14 9 M4 19.5l6-2.2 ' + circ(17, 17.5, 2.2) + ' M2.5 12h19',
   quill: 'M20.5 3.5C12.5 4.5 7.5 9.5 5 18.5 M20.5 3.5c-1 6.5-5 10.5-11.5 11.5 M5 18.5l-2.5 3 M8.5 11.5l3.5 1',
+  daff: 'M12 3.5a8.5 8.5 0 1 0 .01 0z M12 6.5a5.5 5.5 0 1 0 .01 0z M12 1.8v1.7 M12 20.5v1.7 M1.8 12h1.7 M20.5 12h1.7 M4.8 4.8l1.2 1.2 M18 18l1.2 1.2 M4.8 19.2l1.2-1.2 M18 6l1.2-1.2',
   heart: 'M12 20c-5.5-3.6-9-6.8-9-10.6A4.6 4.6 0 0 1 12 7a4.6 4.6 0 0 1 9 2.4c0 3.8-3.5 7-9 10.6z',
   heartHands: 'M12 12.5c-1.8-2.6-5.5-1.8-5.5.9 0 2.2 2.7 3.6 5.5 5.4 2.8-1.8 5.5-3.2 5.5-5.4 0-2.7-3.7-3.5-5.5-.9z M2 14.5c2 0 3.5 1.4 4 3.5l2 3.5 M22 14.5c-2 0-3.5 1.4-4 3.5l-2 3.5 M12 2v3 M6 4l1.5 2 M18 4l-1.5 2',
   tasbih: beads + ' M12 15.7v3 M10.3 21.6l1.7-2.9 1.7 2.9',
@@ -604,7 +605,7 @@ function rosettePath() {
 
 const CAT_ICON: Record<string, string> = {
   // groups
-  quran: I.book, hadith: I.scroll, aqidah: I.star, fiqh: I.scales, prophets: I.lamp, arabic: I.quill, tazkiyah: I.heart, islamichistory: I.minaret, kids: I.crescent,
+  quran: I.book, hadith: I.scroll, aqidah: I.star, fiqh: I.scales, prophets: I.lamp, arabic: I.quill, tazkiyah: I.heart, islamichistory: I.minaret, nasheed: I.daff, kids: I.crescent,
   // Islamic categories
   'isl-quran': I.book, 'isl-ayah': I.book, 'isl-tajwid': I.tajwid, 'isl-tafsir': I.tafsir,
   'isl-hadith': I.scroll, 'isl-mustalah': I.chain,
@@ -615,6 +616,7 @@ const CAT_ICON: Record<string, string> = {
   'isl-sahabah': I.stars, 'isl-history': I.minaret, 'isl-architecture': I.dome, 'isl-scholars': I.books,
   'isl-taharah': I.drop, 'isl-salah': I.mat, 'isl-sawm': I.lantern, 'isl-zakat': I.coins, 'isl-sadaqah': I.hand, 'isl-hajj': I.tents, 'isl-food': I.bowl,
   'isl-kinship': I.family, 'isl-money': I.money, 'isl-work': I.tools, 'isl-faraid': I.pie, 'isl-usul': I.tree,
+  'isl-nasheed-arabia': I.daff, 'isl-nasheed-africa': I.daff, 'isl-ilahi-turkey': I.daff, 'isl-nasheed-persia': I.quill, 'isl-naat-southasia': I.quill, 'isl-nasheed-seasia': I.daff,
   'isl-school-hanafi': I.books, 'isl-school-maliki': I.books, 'isl-school-shafii': I.books, 'isl-school-hanbali': I.books,
   // themed nights (Blessed Mawlid Night shows the ﷺ sign instead, from nights-islamic.json "sign")
   'isl-night-ramadan': I.crescent, 'isl-night-hajj-season': I.tents, 'isl-night-civilisation': I.dome, 'isl-night-fiqh-night': I.scales, 'isl-night-family-night': I.family,

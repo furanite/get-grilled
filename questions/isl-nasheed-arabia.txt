@@ -1,0 +1,67 @@
+id: isl-nasheed-arabia
+name: Nasheeds: Arabia, Levant, Egypt
+nameAr: المدائح: الجزيرة والشام ومصر
+group: nasheed
+# Praise of our Beloved Prophet ﷺ (madih) in Arabic: poems, poets and mawlid books of Arabia, Yemen, the Levant, Iraq and Egypt.
+# Only titles and well-known opening words are quoted; nothing else is quoted. Weak reports are named as weak.
+
+## 100
+The Arabic name for poetry in praise of our Beloved Prophet ﷺ. :: al-Madih al-Nabawi (Prophetic praise) || H: al-Majmu'ah al-Nabhaniyyah (al-Nabhani)
+The Companion poet for whom our Beloved Prophet ﷺ set up a minbar in the mosque to answer for him in verse. :: Hassan ibn Thabit ﵁ || H: Sunan Abi Dawud; Jami' al-Tirmidhi
+Our Beloved Prophet ﷺ prayed that this one, the Holy Spirit, would support Hassan ibn Thabit ﵁. :: Jibril ﵇ (Ruh al-Qudus) || H: Sahih al-Bukhari
+The most famous poem of praise by al-Busiri رحمة الله عليه, known by the name of a cloak. :: al-Burdah (Qasidat al-Burdah) || H: Diwan al-Busiri
+The full title of al-Busiri's رحمة الله عليه Burdah begins "al-Kawakib al-Durriyyah", meaning this. :: The Shining Stars || H: Diwan al-Busiri
+The poem of the Companion Ka'b ibn Zuhayr ﵁, recited before our Beloved Prophet ﷺ, which opens "Banat Su'ad". :: Banat Su'ad (also called al-Burdah) || H: al-Sirah al-Nabawiyyah (Ibn Hisham)
+The words "Tala'a al-badru 'alayna" are linked in a weak report with our Beloved Prophet's ﷺ arrival in this city. :: Madinah al-Munawwarah || H: Dala'il al-Nubuwwah (al-Bayhaqi), a weak report without a full chain
+The Arabic word for a long poem with one rhyme and one metre, the form of most praise poems. :: Qasidah || H: Standard reference
+A book read aloud in gatherings that tells of our Beloved Prophet's ﷺ blessed birth in prose and verse. :: A Mawlid || H: al-Hawi lil-Fatawi (al-Suyuti), Husn al-Maqsid
+The country of al-Busiri رحمة الله عليه, where he lived and is buried, in Alexandria. :: Egypt || H: Fawat al-Wafayat (al-Kutubi)
+
+## 200
+Al-Busiri's رحمة الله عليه Burdah ends every verse on this letter, so it is also called "al-Mimiyyah". :: Mim || H: Diwan al-Busiri
+Al-Busiri's رحمة الله عليه second great praise poem, rhyming on the hamzah. :: al-Hamziyyah (Umm al-Qura) || H: Diwan al-Busiri
+The Companion poet who wrote "Banat Su'ad" after first being against Islam, then came to accept it. :: Ka'b ibn Zuhayr ﵁ || H: al-Sirah al-Nabawiyyah (Ibn Hisham)
+The Companion poet, one of the Ansar, who also answered the poets of Quraysh, alongside Hassan ﵁. :: 'Abdullah ibn Rawahah or Ka'b ibn Malik (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: Sahih Muslim; al-Isti'ab (Ibn 'Abd al-Barr)
+The mawlid by Ja'far al-Barzanji رحمة الله عليه, read across the Muslim world, is known by this name. :: Mawlid al-Barzanji ('Iqd al-Jawhar) || H: 'Iqd al-Jawhar fi Mawlid al-Nabi al-Azhar
+Ja'far al-Barzanji رحمة الله عليه, author of the famous mawlid, was the Shafi'i mufti of this city. :: Madinah al-Munawwarah || H: Silk al-Durar (al-Muradi)
+The Mawlid written by 'Abd al-Rahman al-Dayba' رحمة الله عليه, a hadith scholar of Zabid. :: Mawlid al-Dayba'i || H: al-Nur al-Safir (al-'Aydarus)
+The land of Zabid, the town of al-Dayba' رحمة الله عليه. :: Yemen || H: al-Nur al-Safir (al-'Aydarus)
+The Mawlid "Simt al-Durar" was written by Habib 'Ali al-Habshi رحمة الله عليه of this valley in Yemen. :: Hadramawt (Say'un) || H: Simt al-Durar
+The poet called "Amir al-Shu'ara'" who wrote "Nahj al-Burdah" in the 20th century CE. :: Ahmad Shawqi رحمة الله عليه || H: al-Shawqiyyat
+
+## 300
+Al-Busiri رحمة الله عليه wrote the Burdah while suffering from this illness, by his own account. :: Paralysis of half the body (falij) || H: Fawat al-Wafayat (al-Kutubi), reporting al-Busiri's account
+By al-Busiri's رحمة الله عليه own account as reported, he was cured after a dream in which our Beloved Prophet ﷺ did this. :: Wiped him or covered him with his cloak || H: Fawat al-Wafayat (al-Kutubi), reporting al-Busiri's account
+The Burdah of al-Busiri رحمة الله عليه is written in this metre of Arabic poetry. :: al-Basit || H: Diwan al-Busiri
+The Burdah of al-Busiri رحمة الله عليه has about this many verses. :: About 160 || H: Diwan al-Busiri (copies differ by one or two verses)
+A poem that answers an older one in the same metre and rhyme, like Shawqi's رحمة الله عليه "Nahj al-Burdah". :: Mu'aradah || H: al-Shawqiyyat
+Turning each verse of a poem into five lines by adding three new lines before it. :: Takhmis || H: Standard reference
+The Hadrami scholar whose Diwan and litany "al-Ratib" are read daily in Hadramawt and beyond. :: Imam 'Abdullah ibn 'Alawi al-Haddad رحمة الله عليه || H: Diwan al-Haddad
+The Hanbali poet of Baghdad, famous for praise poems of our Beloved Prophet ﷺ, killed when the Mongols took Baghdad in 656 AH / 1258 CE. :: Yahya al-Sarsari رحمة الله عليه || H: Dhayl Tabaqat al-Hanabilah (Ibn Rajab)
+The Lebanese-born scholar and judge who gathered thousands of praise poems in al-Majmu'ah al-Nabhaniyyah. :: Yusuf al-Nabhani رحمة الله عليه || H: al-Majmu'ah al-Nabhaniyyah
+The Mawlid of al-Barzanji رحمة الله عليه is known in Arabic as "'Iqd al-Jawhar", meaning this. :: The Jewel Necklace || H: 'Iqd al-Jawhar fi Mawlid al-Nabi al-Azhar
+
+## 400
+Al-Busiri رحمة الله عليه was born in this year. :: 608 AH / 1212 CE || H: Fawat al-Wafayat (al-Kutubi)
+The scholar Ibn Hajar al-Haytami رحمة الله عليه wrote a long commentary on this poem of al-Busiri رحمة الله عليه. :: al-Hamziyyah || H: al-Minah al-Makkiyyah fi Sharh al-Hamziyyah
+The Egyptian scholar who wrote a famous commentary on the Burdah, studied at al-Azhar. :: Ibrahim al-Bajuri رحمة الله عليه || H: Hashiyat al-Bajuri 'ala al-Burdah
+Al-Barzanji رحمة الله عليه died in this year. :: 1177 AH / 1764 CE || H: Silk al-Durar (al-Muradi)
+Al-Dayba' رحمة الله عليه, author of the Mawlid, died in this year. :: 944 AH / 1537 CE || H: al-Nur al-Safir (al-'Aydarus)
+Habib 'Ali al-Habshi رحمة الله عليه, author of Simt al-Durar, died in this year. :: 1333 AH / 1915 CE || H: Standard biography
+Ahmad Shawqi's رحمة الله عليه "Nahj al-Burdah" answers the Burdah of this poet. :: al-Busiri رحمة الله عليه || H: al-Shawqiyyat
+The scholar al-Suyuti رحمة الله عليه wrote this short treatise defending the gathering of the Mawlid. :: Husn al-Maqsid fi 'Amal al-Mawlid || H: al-Hawi lil-Fatawi
+The Ayyubid-era ruler of Irbil famous for holding a great Mawlid every year. :: Muzaffar al-Din Kokburi رحمة الله عليه || H: Wafayat al-A'yan (Ibn Khallikan)
+The scholar Ibn Dihyah رحمة الله عليه wrote a Mawlid book for Kokburi رحمة الله عليه with this title. :: al-Tanwir fi Mawlid al-Siraj al-Munir || H: Wafayat al-A'yan (Ibn Khallikan)
+
+## 500
+The poem of supplication beginning "Ishtaddi azmatu tanfariji", by Ibn al-Nahwi رحمة الله عليه. :: al-Munfarijah || H: Standard reference (al-Qasidah al-Munfarijah)
+The scholar who said a gift of a cloak to Ka'b ﵁ for Banat Su'ad has no sound chain, though the poem's recital is well known. :: Ibn Kathir رحمة الله عليه (among others) || H?: al-Bidayah wal-Nihayah (Ibn Kathir); check the wording of his verdict
+The 7th-century AH poet whose collection of praise poems was arranged in 29 poems, one for each letter. :: al-Witri (Ibn Rashid al-Baghdadi) رحمة الله عليه || H?: al-Qasa'id al-Witriyyah; check the poet's dates
+Al-Busiri's رحمة الله عليه long poem rhyming on hamzah opens with a question to our Beloved Prophet ﷺ about how the other Blessed Prophets ﵈ could reach his rank; its first words are these. :: "Kayfa tarqa ruqiyyaka al-anbiya'u" || H: Diwan al-Busiri
+The Hadrami scholar 'Abdullah al-Haddad رحمة الله عليه died in this year. :: 1132 AH / 1720 CE || H: Standard biography
+Hassan ibn Thabit ﵁ is reported to have lived to about this age, half before Islam and half in it. :: 120 years || H: al-Isti'ab (Ibn 'Abd al-Barr)
+The Damascus scholar 'Abd al-Ghani al-Nabulusi رحمة الله عليه wrote a long praise poem using one figure of speech in every verse; this kind of poem is called this. :: Badi'iyyah || H: Nafahat al-Azhar 'ala Nasamat al-Ashar (al-Nabulusi)
+The Burdah's ten parts include the birth, the miracles, the Qur'an, the Night Journey and this battle-themed one. :: The jihad of our Beloved Prophet ﷺ (his campaigns) || H: Diwan al-Busiri, chapter headings
+Yusuf al-Nabhani رحمة الله عليه died in this year. :: 1350 AH / 1932 CE || H: Standard biography
+Ka'b ibn Zuhayr's ﵁ poem "Banat Su'ad" ends every verse on this letter. :: Lam || H: al-Sirah al-Nabawiyyah (Ibn Hisham)
+Al-Busiri رحمة الله عليه died in about this year. :: 696 AH / 1297 CE (reports give 694 to 697 AH) || H: Fawat al-Wafayat (al-Kutubi)

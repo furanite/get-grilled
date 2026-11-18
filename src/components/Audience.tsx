@@ -334,7 +334,8 @@ function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings;
             </p>
             {clue.img && (
             <div className="q-fig">
-              <img className="q-img" src={diagramSrc(clue.img)} alt={t.diagramAlt} data-testid="audience-img" />
+              <img className={`q-img${clue.credit ? ' photo' : ''}`} src={diagramSrc(clue.img)} alt={t.diagramAlt} data-testid="audience-img" />
+              {clue.credit && <p className="q-credit">{clue.credit}</p>}
             </div>
           )}
             {live!.revealed ? (

@@ -45,6 +45,12 @@ This file is rewritten by `npm run packs`.
 - **500**, line 106: The Ayyubid-era scholar who wrote "Mir'at al-Zaman". **Answer:** Sibt ibn al-Jawzi _(Source: Mir'at al-Zaman; creed to be checked before adding an honorific)_
 - **500**, line 124: The scholar who taught and advised Sultan Muhammad al-Fatih ⁨رحمة الله عليه⁩ and is said to have found the grave of Abu Ayyub ﵁. **Answer:** Aq Shams al-Din ⁨رحمة الله عليه⁩ _(Source: al-Shaqa'iq al-Nu'maniyyah (Tashkopruzade); to be checked)_
 
+## Ilahis: Turkey and the Balkans (questions/isl-ilahi-turkey.txt)
+
+- **200**, line 28: The ilahi-like hymns sung between the parts of the Mevlid. **Answer:** Tevşih _(Source: Standard reference; check the term)_
+- **300**, line 32: Süleyman Çelebi ⁨رحمة الله عليه⁩ was imam of this mosque in Bursa, by the common report. **Answer:** The Ulu Cami (Great Mosque) _(Source: Standard history; reports differ on which mosque)_
+- **500**, line 58: The famous Turkish takbir of the Eid days is often credited to this composer. **Answer:** Itri ⁨رحمة الله عليه⁩ _(Source: Standard reference; the credit is traditional)_
+
 ## Pillars of faith (questions/isl-iman.txt)
 
 - **500**, line 118: The book by Ibn Kamal Pasha ⁨رحمة الله عليه⁩ on the differences between Ash'aris and Maturidis. **Answer:** Risalah fil-Ikhtilaf bayn al-Asha'irah wal-Maturidiyyah _(Source: Title to be checked)_
@@ -63,11 +69,46 @@ This file is rewritten by `npm run packs`.
 
 - **500**, line 158: In the Hanafi school, salam requires this many conditions, including a known term and place. **Answer:** 7 _(Source: al-Hidayah (al-Marghinani); count to be checked)_
 
+## Naats: South Asia (questions/isl-naat-southasia.txt)
+
+- **200**, line 28: The Hindavi and Persian music of Sufi gatherings that Amir Khusraw ⁨رحمة الله عليه⁩ is said to have shaped. **Answer:** Qawwali _(Source: Standard reference; the credit is traditional)_
+- **500**, line 60: The Sindhi poet Sachal Sarmast ⁨رحمة الله عليه⁩ wrote in Sindhi, Seraiki and this language. **Answer:** Persian (and Urdu) _(Source: Standard history; check)_
+
 ## Nahw (grammar) (questions/isl-nahw.txt)
 
 - **500**, line 135: The commentary on al-Ajurrumiyyah by Khalid al-Azhari ⁨رحمة الله عليه⁩. **Answer:** Sharh al-Azhariyyah _(Source: Title to be checked)_
 - **500**, line 144: The Kufan grammarian reported to have said he would die with something still in his heart about "hatta". **Answer:** al-Farra' ⁨رحمة الله عليه⁩ _(Source: Mughni al-Labib (Ibn Hisham); to be checked)_
 - **500**, line 147: The Basran grammarian, student of al-Khalil, who wrote "Ma'ani al-Qur'an" and taught Sibawayh's ⁨رحمة الله عليه⁩ما book. **Answer:** al-Akhfash al-Awsat ⁨رحمة الله عليه⁩ _(Source: Bughyat al-Wu'at (al-Suyuti); to be checked)_
+
+## Nasheeds: Africa and the Maghrib (questions/isl-nasheed-africa.txt)
+
+- **200**, line 21: The Sudanese poet of the 13th century AH who wrote hundreds of praise poems still sung in Sudan. **Answer:** Hajj al-Mahi ⁨رحمة الله عليه⁩ _(Source: Standard reference on Sudanese madih; check his dates)_
+- **200**, line 24: The Senegalese scholar of Kaolack known as "Shaykh al-Islam" whose six Diwans praise our Beloved Prophet ﷺ. **Answer:** Shaykh Ibrahim Niasse ⁨رحمة الله عليه⁩ _(Source: al-Dawawin al-Sitt; check the title)_
+- **500**, line 59: Habib Salih Jamal al-Layl ⁨رحمة الله عليه⁩, who started the Lamu Maulidi, came to Lamu from this island group. **Answer:** The Comoros _(Source: Standard history; check his place of birth)_
+- **500**, line 60: The Swahili "Utendi wa Hamziyya" manuscript is dated about this year. **Answer:** 1062 AH / 1652 CE _(Source: Standard reference on Swahili manuscripts; check the date)_
+- **500**, line 64: The Somali form of praise of our Beloved Prophet ﷺ, chanted in Somali at gatherings. **Answer:** Nabi ammaan _(Source: Standard reference; check the term)_
+- **500**, line 70: The Mouride groups that chant Shaykh Ahmadu Bamba's ⁨رحمة الله عليه⁩ poems together are called this in Wolof. **Answer:** Kurel _(Source: Standard reference; check the term)_
+
+## Nasheeds: Arabia, Levant, Egypt (questions/isl-nasheed-arabia.txt)
+
+- **500**, line 58: The scholar who said a gift of a cloak to Ka'b ﵁ for Banat Su'ad has no sound chain, though the poem's recital is well known. **Answer:** Ibn Kathir ⁨رحمة الله عليه⁩ (among others) _(Source: al-Bidayah wal-Nihayah (Ibn Kathir); check the wording of his verdict)_
+- **500**, line 59: The 7th-century AH poet whose collection of praise poems was arranged in 29 poems, one for each letter. **Answer:** al-Witri (Ibn Rashid al-Baghdadi) ⁨رحمة الله عليه⁩ _(Source: al-Qasa'id al-Witriyyah; check the poet's dates)_
+
+## Naats: Persia and Central Asia (questions/isl-nasheed-persia.txt)
+
+- **400**, line 45: The famous Arabic quatrain on our Beloved Prophet ﷺ beginning "Balagha al-'ula bi-kamalihi" is credited to this poet. **Answer:** Sa'di ⁨رحمة الله عليه⁩ (by the common attribution) _(Source: Standard attribution; not in all old copies of his works)_
+- **400**, line 46: 'Attar ⁨رحمة الله عليه⁩ is said to have been killed in this event in Nishapur. **Answer:** The Mongol conquest (618 AH / 1221 CE) _(Source: Standard history; the report is not certain)_
+- **400**, line 48: Nizami ⁨رحمة الله عليه⁩ died in about this year. **Answer:** 605 AH / 1209 CE _(Source: Standard history; dates differ)_
+- **500**, line 58: Nizami's ⁨رحمة الله عليه⁩ "Makhzan al-Asrar" has four passages in praise of our Beloved Prophet ﷺ, including one on this event. **Answer:** The Mi'raj _(Source: Makhzan al-Asrar; check the count)_
+
+## Nasheeds: Southeast Asia (questions/isl-nasheed-seasia.txt)
+
+- **200**, line 24: The Javanese song "Tombo Ati" (medicine for the heart) is traditionally credited to this one of the nine saints. **Answer:** Sunan Bonang ⁨رحمة الله عليه⁩ _(Source: Standard reference; the credit is traditional)_
+- **300**, line 29: Kiai 'Ali Manshur ⁨رحمة الله عليه⁩, who wrote Sholawat Badar, lived in this region of East Java. **Answer:** Banyuwangi (and Tuban) _(Source: Standard reference; check)_
+- **300**, line 31: The Javanese song "Lir-ilir" is traditionally credited to this one of the nine saints. **Answer:** Sunan Kalijaga ⁨رحمة الله عليه⁩ _(Source: Standard reference; the credit is traditional)_
+- **500**, line 56: The NU scholar who wrote the Indonesian song "Ya Lal Wathon" in the 1930s. **Answer:** Kiai 'Abd al-Wahhab Hasbullah ⁨رحمة الله عليه⁩ _(Source: Standard reference; check)_
+- **500**, line 57: Sholawat Badar was written in this decade of the 20th century CE. **Answer:** The 1960s _(Source: Standard reference; check)_
+- **500**, line 58: The Malay ceremony of reading the Mawlid at a wedding or for a baby is often led by groups named after this Arabic welcome. **Answer:** Marhaban _(Source: check)_
 
 ## Blessed Prophets ﵈: Adam to Ibrahim (questions/isl-prophets-early.txt)
 

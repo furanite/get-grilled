@@ -446,7 +446,8 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
           <p className="q" data-testid="question" dir="auto" data-len={qLen(q)}>{q}</p>
           {clue.img && (
             <div className="q-fig">
-              <img className="q-img" src={diagramSrc(clue.img)} alt={t.diagramAlt} data-testid="question-img" />
+              <img className={`q-img${clue.credit ? ' photo' : ''}`} src={diagramSrc(clue.img)} alt={t.diagramAlt} data-testid="question-img" />
+              {clue.credit && <p className="q-credit">{clue.credit}</p>}
             </div>
           )}
           <div className={`answer${revealed ? ' show' : HOST_EDITION ? ' peek' : ''}`} dir="auto" id="answer" aria-hidden={!revealed && !HOST_EDITION} data-peek={t.hostOnly} data-testid="answer">

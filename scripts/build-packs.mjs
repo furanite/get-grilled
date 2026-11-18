@@ -27,10 +27,20 @@ const outDir = join(root, 'public', 'packs')
 const reviewOut = join(root, 'public', 'review')
 const reviewsDir = join(root, 'reviews')
 const LEVELS = ['100', '200', '300', '400', '500']
-export const GROUPS = ['engineering', 'cces', 'general', 'quran', 'hadith', 'aqidah', 'fiqh', 'prophets', 'arabic', 'tazkiyah', 'islamichistory', 'kids']
+export const GROUPS = ['engineering', 'cces', 'general', 'quran', 'hadith', 'aqidah', 'fiqh', 'prophets', 'arabic', 'tazkiyah', 'islamichistory', 'nasheed', 'kids']
 // Religious groups: every line needs a source tag, and the app plays these clues without spins or shakes.
-export const RESPECT_GROUPS = ['quran', 'hadith', 'aqidah', 'fiqh', 'prophets', 'arabic', 'tazkiyah', 'islamichistory', 'kids']
+export const RESPECT_GROUPS = ['quran', 'hadith', 'aqidah', 'fiqh', 'prophets', 'arabic', 'tazkiyah', 'islamichistory', 'nasheed', 'kids']
 const MIN = Number(process.env.MIN_PER_LEVEL ?? 1)
+
+// Credits for the photos in questions/img (file name -> "Photo: author, licence, Wikimedia Commons").
+let creditsCache
+export function photoCredits() {
+  if (!creditsCache) {
+    const p = join(srcDir, 'img', 'credits.json')
+    creditsCache = existsSync(p) ? JSON.parse(readFileSync(p, 'utf8')) : {}
+  }
+  return creditsCache
+}
 
 export function parsePack(text, file = 'pack') {
   const errors = []
@@ -62,11 +72,14 @@ export function parsePack(text, file = 'pack') {
       img = `packs/img/${im[1]}`
       q = q.slice(0, im.index).trim()
       if (!existsSync(join(srcDir, 'img', im[1]))) errors.push(`${at} picture ${img} not found`)
+      // Photos come from Wikimedia Commons under free licences; each one needs its credit in questions/img/credits.json.
+      else if (im[1].endsWith('.jpg') && !photoCredits()[im[1]]) errors.push(`${at} photo ${im[1]} has no credit in questions/img/credits.json`)
     } else if (/\{img:/.test(q)) errors.push(`${at} picture must be written {img:name.svg} at the end of the clue`)
     if (!q || !a) { errors.push(`${at} empty clue or answer`); return }
     if (q.length > 260) errors.push(`${at} clue is longer than 260 characters`)
     if (a.length > 110) errors.push(`${at} answer is longer than 110 characters`)
     const item = img ? { q, a, img, at } : { q, a, at }
+    if (img && photoCredits()[img.slice('packs/img/'.length)]) item.credit = photoCredits()[img.slice('packs/img/'.length)]
     if (tagText !== undefined) {
       const t = /^([HDF])(\?)?(?::\s*(.*))?$/.exec(tagText.trim())
       if (!t) { errors.push(`${at} source tag must look like "H: source", "D: note" or "F"`); return }
@@ -94,7 +107,7 @@ export function parsePack(text, file = 'pack') {
       else seen.set(key, at)
     })
   })
-  const clean = ({ q, a, kind, src, img, sch }) => ({ q: toSigns(q), a: toSigns(a), ...(kind ? { kind } : {}), ...(src ? { src } : {}), ...(img ? { img } : {}), ...(sch ? { sch } : {}) })
+  const clean = ({ q, a, kind, src, img, credit, sch }) => ({ q: toSigns(q), a: toSigns(a), ...(kind ? { kind } : {}), ...(src ? { src } : {}), ...(img ? { img } : {}), ...(credit ? { credit } : {}), ...(sch ? { sch } : {}) })
   return { meta, levels: levels.map((l) => l.map(clean)), unchecked: unchecked.map(({ level, at, ...x }) => ({ level, at, ...clean(x) })), errors }
 }
 
