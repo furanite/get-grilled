@@ -168,7 +168,8 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
         // A special round borrows from other built-in categories when the picked ones have too few of its items.
         const more = extras && mode ? await borrowFor(mode, cats) : []
         made = createGame(cats, teams, { ...tiles, ...fun }, loadUsed(), Math.random, more)
-        sfx.start()
+        // With team introductions the fanfare waits for the host's Start game instead.
+        if (!introOn) sfx.start()
       }
       const { game, used } = made
       if (night) game.night = night
