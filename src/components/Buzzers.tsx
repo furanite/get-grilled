@@ -138,11 +138,16 @@ export function BuzzOrder({ t, lang, view, teams, big }: { t: Strings; lang: Lan
   )
 }
 
+/** Chrome or Edge on a page that isn't a secure context (the Pi over http): Web Serial is there but switched off. */
+const insecureChrome = () => typeof window !== 'undefined' && !window.isSecureContext && /Chrome\//.test(navigator.userAgent) && !/Mobile/.test(navigator.userAgent)
+
 /** The Buzzers button in the top bar: shows whether the box is connected and opens the settings. */
 export function BuzzButton({ t, lang, teams }: { t: Strings; lang: Lang; teams: Team[] }) {
   const box = useBoxState()
   const [open, setOpen] = useState(false)
-  if (!serialSupported() && !box.sim) return null
+  // Over plain http (the Pi) Chrome hides the serial port; keep the button so the host learns how to allow it.
+  const blocked = !serialSupported() && !box.sim && insecureChrome()
+  if (!serialSupported() && !box.sim && !blocked) return null
   return (
     <>
       <button className="ghost buzz-btn" onClick={() => setOpen(true)} data-testid="buzz-open" data-status={box.status}>
@@ -188,7 +193,7 @@ export function BuzzPanel({ t, lang, teams, onClose }: { t: Strings; lang: Lang;
           <h1 id="buzz-title">{t.buzz.title}</h1>
         </div>
         <div className="legal-body">
-          <p className="muted">{serialSupported() || box.sim ? t.buzz.help : t.buzz.unsupported}</p>
+          <p className="muted">{serialSupported() || box.sim ? t.buzz.help : insecureChrome() ? t.buzz.insecure : t.buzz.unsupported}</p>
           <div className="row buzz-conn">
             <span className={`pill buzz-state ${box.status}`} data-testid="buzz-status">
               <span className={`buzz-led ${box.status}`} aria-hidden="true" /> {box.sim ? t.buzz.sim : t.buzz.status[box.status]}
