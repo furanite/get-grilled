@@ -1,5 +1,5 @@
 import type { ThemeId } from './types'
-import { renderFx, renderIntro, renderSuspense, renderTitle, renderWin, ROLL_SECONDS, setSoundBase } from './tune-engine.js'
+import { renderFx, renderIntro, renderRight, renderSuspense, renderTitle, renderWin, ROLL_SECONDS, setSoundBase } from './tune-engine.js'
 
 /**
  * Most sounds are made in the browser with Web Audio. The title tunes and a few effects also use recorded
@@ -360,10 +360,23 @@ export function prepareSuspense() {
   }
   const theme = pageTheme()
   winBuf(theme)
+  if (!rights.has(theme) && typeof OfflineAudioContext !== 'undefined') rights.set(theme, renderRight(theme).then((b) => (rightReady[theme] = b), () => null))
   for (const kind of ['clock', 'roll'] as const) {
     const key = `${theme}-${kind}`
     suspenseBuf(theme, kind).then((b) => settled.set(key, b))
   }
+}
+// ---- Right answer: each theme's picked sound (18 November 2026); Heritage keeps the bells ----
+const rights = new Map<string, Promise<AudioBuffer | null>>()
+const rightReady: Record<string, AudioBuffer> = {}
+function playRight(c: AudioContext) {
+  const buf = rightReady[pageTheme()]
+  if (!buf) return false
+  const src = c.createBufferSource()
+  src.buffer = buf
+  src.connect(c.destination)
+  src.start()
+  return true
 }
 // ---- Winner music: each theme's triumphant piece for the results screen (picked 18 November 2026) ----
 const wins = new Map<string, Promise<AudioBuffer | null>>()
@@ -497,7 +510,7 @@ const fx = {
   },
   right() {
     const c = ready()
-    if (!c) return
+    if (!c || playRight(c)) return
     bell(c, 72, 0, 0.8, 0.13)
     bell(c, 76, 0.09, 0.8, 0.13)
     bell(c, 79, 0.18, 1.4, 0.14)

@@ -12,3 +12,5 @@ export const ROLL_SECONDS: number
 export function renderIntro(theme: string, team?: number, members?: number): Promise<AudioBuffer>
 /** The picked buzzer for time up, or the soft drop for a wrong answer. */
 export function renderFx(kind: 'timeUp' | 'wrong'): Promise<AudioBuffer>
+/** The theme's picked right-answer sound (Heritage has none and keeps the bells). */
+export function renderRight(theme: string): Promise<AudioBuffer>

@@ -587,6 +587,23 @@ const WIN = {
   } },
 }
 
+// ---------- Right answer: the owner's pick per theme (18 November 2026). Heritage keeps the bells. ----------
+function zing(t, f0, f1, d = 0.35, g = 0.04) { const v = ctx.createGain(); v.gain.setValueAtTime(0.0001, t); v.gain.exponentialRampToValueAtTime(g, t + 0.02); v.gain.exponentialRampToValueAtTime(0.0001, t + d); const o = osc('sawtooth', f0, t, d); o.frequency.exponentialRampToValueAtTime(f1, t + d * 0.8); o.connect(lp(4000)).connect(v); send(v) }
+const RIGHT = {
+  // A · Royal ta-da
+  amethyst: { len: 1.6, uses: ['tpt', 'horn', 'timp'], play(t) { R('tpt', 69, t, 0.12, 0.8); RC('tpt', [74, 78, 81], t + 0.16, 0.7, 0.9, 0.5); RC('horn', [62, 66], t + 0.16, 0.7, 0.8, 0.5); R('timp', 45, t + 0.16, null, 0.8) } },
+  // C · Lantern chime
+  emerald: { len: 1.5, uses: ['horn', 'harp'], play(t) { I.tak(t, 0.1); I.tak(t + 0.08, 0.1); I.dum(t + 0.18, 0.5); RC('horn', [57, 61, 64], t + 0.18, 0.7, 0.8, 0.5); RC('harp', [69, 73, 76, 81], t + 0.2, null, 0.8) } },
+  // A · Arcade level-up
+  neon: { len: 1.2, uses: ['xyl'], play(t) { [76, 80, 83, 88].forEach((m, i) => R('xyl', m, t + i * 0.06, null, 1.1)); zing(t + 0.22, 600, 2400, 0.4, 0.05); I.kick(t + 0.22, 0.55) } },
+  // B · Piano lounge
+  onyx: { len: 1.8, uses: ['pno', 'spic'], play(t) { [46, 53, 57, 62, 65, 69].forEach((m, i) => R('pno', m, t + i * 0.04, 1, 1, 0.8)); ride(t + 0.1, 0.035); R('spic', 34, t, null, 1.2) } },
+  // B · Drumline hit
+  rivals: { len: 1.5, uses: ['tpt', 'timp'], play(t) { I.snare(t, 0.1); I.snare(t + 0.04, 0.2); I.crash(t + 0.12, 0.06, 1.4); RC('tpt', [67, 71, 74, 79], t + 0.12, 0.5, 0.9, 0.4); R('timp', 42, t + 0.12, null, 0.7) } },
+  // A · Forge strike
+  ember: { len: 1.5, uses: ['tbn', 'horn', 'timp'], play(t) { I.taiko(t, 0.6); RC('tbn', [50, 57], t, 0.6, 0.9, 0.4); RC('horn', [62, 66, 69], t + 0.05, 0.6, 0.9, 0.5); R('timp', 38, t, null, 0.8) } },
+}
+
 const SR = 44100
 let BASE = './'
 const FILES = {}
@@ -654,6 +671,13 @@ export function renderTitle(theme, set) {
 function renderPiece(T, insts, tail) {
   const B = 60 / T.bpm
   return render(T.beats * B + tail, 0.32, true, insts || [], (t0) => T.score((x) => t0 + x * B))
+}
+
+/** The theme's right-answer sound, or a rejection for a theme that keeps the default bells (Heritage). */
+export function renderRight(theme) {
+  const S = RIGHT[theme]
+  if (!S) return Promise.reject(new Error(`no right-answer sound ${theme}`))
+  return render(S.len + 0.6, 0.4, false, S.uses, (t) => S.play(t))
 }
 
 /** The theme's winner music, for the results screen: a triumphant piece ending with the crowd cheering. */
