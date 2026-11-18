@@ -37,6 +37,7 @@ const browser = await chromium.launch()
 async function newPage(viewport = { width: 1280, height: 800 }) {
   const ctx = await browser.newContext({ viewport })
   await ctx.addInitScript(() => localStorage.setItem('gg.consent.v1', JSON.stringify({ version: '1.2', date: '2026-11-10T00:00:00Z' })))
+  await ctx.addInitScript(() => localStorage.setItem('gg.tipsSeen.v1', 'true'))
   const page = await ctx.newPage()
   await page.addLocatorHandler(page.getByTestId('intro-next'), async (b) => b.click(), { noWaitAfter: true })
   page.errors = []
