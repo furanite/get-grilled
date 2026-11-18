@@ -157,7 +157,7 @@ textarea.input{resize:vertical;min-height:44px}
 .hint{margin:12px 0 0;font-size:12px;color:var(--muted)}
 
 /* Clue card */
-.scrim{position:fixed;inset:0;z-index:40;background:rgba(0,0,0,.55);backdrop-filter:blur(6px);opacity:0;transition:opacity .45s}
+.scrim{position:fixed;inset:0;z-index:40;background:rgba(0,0,0,.66);opacity:0;transition:opacity .45s}
 .scrim.on{opacity:1}
 .card{position:fixed;z-index:50;border-radius:var(--r);overflow:hidden;overflow:clip;background:radial-gradient(120% 90% at 50% 0%,var(--bg2),var(--bg) 75%);border:1px solid var(--edge);box-shadow:0 30px 90px -20px rgba(0,0,0,.85),0 0 70px -10px var(--glow);transition:left .65s var(--ease),top .65s var(--ease),width .65s var(--ease),height .65s var(--ease)}
 :root[data-theme="heritage"] .card{border-radius:50% 50% 16px 16px/110px 110px 16px 16px;background:radial-gradient(90% 70% at 50% 0%,#14585c,var(--tile-b) 45%,var(--bg) 100%)}
@@ -277,7 +277,7 @@ textarea.input{resize:vertical;min-height:44px}
 .aud-stage .team b{font-size:clamp(13px,1.4vw,24px)}
 .aud-stage .team span{font-size:clamp(24px,3.4vw,56px)}
 .tile.aud-active{box-shadow:0 0 0 2px var(--accent),0 0 50px -6px var(--glow);transform:scale(1.04)}
-.aud-clue{position:fixed;inset:0;z-index:50;display:grid;place-items:center;padding:4vh 4vw;background:rgba(0,0,0,.6);backdrop-filter:blur(8px);animation:fadeIn .45s var(--ease) both}
+.aud-clue{position:fixed;inset:0;z-index:50;display:grid;place-items:center;padding:4vh 4vw;background:rgba(0,0,0,.72);animation:fadeIn .45s var(--ease) both}
 .aud-card{width:min(1500px,100%);height:min(86vh,900px);box-sizing:border-box;display:flex;flex-direction:column;gap:3vh;padding:5vh 5vw;border-radius:var(--r);border:1px solid var(--edge);background:radial-gradient(120% 90% at 50% 0%,var(--bg2),var(--bg) 75%);box-shadow:0 30px 90px -20px rgba(0,0,0,.85),0 0 90px -10px var(--glow);animation:audIn .6s var(--spring) both}
 .aud-card .meta{font-size:clamp(14px,1.5vw,26px)}
 .aud-card .q{font-size:clamp(28px,4.6vw,84px)}
