@@ -190,6 +190,7 @@ export function findProblems(text) {
     } else {
       if (partOfOtherName(h.s) && !/^Ibn\b/.test(h.nm)) continue
       if (/^\s+(of|from)\s/.test(tail) && /(reading|recitation|riwayah|qira'ah)\s+$/i.test(before(h.s, 30))) continue
+      if (RA.test(cl)) continue // a Companion who shares a scholar's name, e.g. Qatadah ibn al-Nu'man ﵁
       if (!RH.test(cl)) bad(`رحمة الله عليه missing after ${h.nm}`, endOf(h.e), ' رحمة الله عليه')
     }
   }
