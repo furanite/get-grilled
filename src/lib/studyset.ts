@@ -87,7 +87,7 @@ export interface OpenedFile {
 export function parseQuestionFile(raw: unknown, newId: () => string): OpenedFile {
   if (!isObj(raw)) throw new Error('The file does not contain questions')
   if (raw.format !== STUDY_FORMAT) return { cats: [parseImportedCategory(raw, newId)] }
-  if (raw.version !== 1) throw new Error('This study file was made by a newer version of Get Grilled. Reload the page and try again.')
+  if (raw.version !== 1) throw new Error('This study file was made by a newer version of this game. Reload the page and try again.')
   const title = str(raw.title, STUDY_LIMITS.title)
   if (!title) throw new Error('The study file needs a title')
   const id = typeof raw.id === 'string' && SET_ID.test(raw.id) ? raw.id : newId()

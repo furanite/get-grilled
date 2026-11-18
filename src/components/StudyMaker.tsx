@@ -70,7 +70,7 @@ const T = {
   yourSets: 'Files you have opened',
   noSets: 'No files opened yet.',
   removeSet: 'Remove',
-  badJson: 'That file is not a Get Grilled question file.',
+  badJson: 'That file is not a question file from this game.',
   tooBig: 'That file is too big to be a question file (over 20 MB).',
   categories: 'categories',
   q: 'questions',
