@@ -22,6 +22,7 @@ import { readFileSync, writeFileSync, renameSync, mkdirSync, existsSync, statSyn
 import { dirname, extname, join, normalize, resolve, sep } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { createInterface } from 'node:readline'
+import { gzipSync } from 'node:zlib'
 import { SECURITY_HEADERS } from '../security-headers.mjs'
 
 const HERE = dirname(fileURLToPath(import.meta.url))
@@ -640,14 +641,37 @@ function serveFile(req, res, path) {
   if (!st.isFile()) return send(res, 404, 'Not found')
   const type = TYPES[extname(file).toLowerCase()] || 'application/octet-stream'
   const cache = rel.startsWith('/assets/') ? 'public, max-age=31536000, immutable' : 'no-cache'
-  res.writeHead(200, { ...SECURITY_HEADERS, 'X-Frame-Options': 'DENY', 'Content-Type': type, 'Content-Length': st.size, 'Cache-Control': cache })
+  const head = { ...SECURITY_HEADERS, 'X-Frame-Options': 'DENY', 'Content-Type': type, 'Cache-Control': cache }
+  // Text files go out gzipped (made once, kept in memory): a room of phones loading the game at once
+  // then needs about a third of the Wi-Fi time.
+  const gz = /\bgzip\b/.test(String(req.headers['accept-encoding'] || '')) && gzipped(file, st)
+  if (gz) {
+    res.writeHead(200, { ...head, 'Content-Encoding': 'gzip', 'Content-Length': gz.length, Vary: 'Accept-Encoding' })
+    return res.end(req.method === 'HEAD' ? undefined : gz)
+  }
+  res.writeHead(200, { ...head, 'Content-Length': st.size, ...(COMPRESS.test(file) ? { Vary: 'Accept-Encoding' } : {}) })
   if (req.method === 'HEAD') return res.end()
   createReadStream(file).pipe(res)
+}
+const COMPRESS = /\.(html|js|css|json|svg|txt)$/i
+const gzCache = new Map() // file -> { mtime, size, data }
+let gzBytes = 0
+function gzipped(file, st) {
+  if (!COMPRESS.test(file) || st.size < 1024 || st.size > 4 * 1024 * 1024) return null
+  const hit = gzCache.get(file)
+  if (hit && hit.mtime === st.mtimeMs && hit.size === st.size) return hit.data
+  if (gzBytes > 64 * 1024 * 1024) return null
+  const data = gzipSync(readFileSync(file), { level: 6 })
+  if (hit) gzBytes -= hit.data.length
+  gzCache.set(file, { mtime: st.mtimeMs, size: st.size, data })
+  gzBytes += data.length
+  return data
 }
 
 // ---------- server ----------
 export function createServer() {
-  const server = http.createServer(async (req, res) => {
+  // Half-sent requests are checked for every second, so a slow-connection attack can't hold sockets for long.
+  const server = http.createServer({ connectionsCheckingInterval: 1000 }, async (req, res) => {
     try {
       if (!hostOk(req)) return send(res, 421, 'Misdirected request')
       const url = new URL(req.url || '/', 'http://x')

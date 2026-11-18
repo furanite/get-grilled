@@ -125,6 +125,30 @@ computer), run it as `sudo bash pi/install.sh --keep-ssh`. It's safe to run the 
   connections per device and in total, and sends the same strict security headers as the web app.
 - No third-party server code: Node's own modules only.
 
+## Test day results
+
+`npm run e2e:pi-load` runs a simulated event: 150 phones (each from its own address), four team
+tablets and the projector, 10 questions, with attacks running alongside. On a 4-core test machine:
+
+| What | Result |
+| --- | --- |
+| A question reaching all 150 phones | 4 ms typical, 10 ms slowest |
+| The reveal reaching all 150 phones | 4 ms typical, 7 ms slowest |
+| An answer being taken | 1 ms typical, 6 ms slowest |
+| Host's count matching the answers | 10 of 10 rounds |
+| Server memory / processor time for the whole run | 90 MB / under 2 seconds |
+| 600 phones (the limit) | 22 ms slowest; phone 601 is told the room is full |
+
+A Pi 5 is a few times slower than the test machine, which still leaves a wide margin. The real limit
+in a hall is the Wi-Fi: each phone loads about 180 kB once (sent compressed), so 150 phones need
+about 27 MB at the start. A good router delivers that in a few seconds, so let people join before
+the game begins.
+
+Attack checks that ran during the load (all refused or contained): answering twice, answering an
+old question, made-up options, answers without joining, answer floods, a phone calling host actions,
+cross-site posts, other host names, oversized requests, endless live feeds from one address, and
+300 half-sent "slow" connections (phones kept working, and the slow ones were dropped after 10 s).
+
 ## For developers
 
     npm install
@@ -135,4 +159,4 @@ computer), run it as `sudo bash pi/install.sh --keep-ssh`. It's safe to run the 
 Then open `http://localhost:8080/host/`. `npm run pack:pi` makes `release/` (bundle and manifest;
 signed if `PI_SIGNING_KEY` is set). `npm run e2e:pi` runs the browser and attack checks, and
 `npm run e2e:pi-update` runs the updater checks (bad signatures, changed files, replays, offline,
-going back).
+going back), and `npm run e2e:pi-load` runs the test day above (`PHONES=600` for the full room).
