@@ -15,6 +15,7 @@ import { HOST_EDITION, type Live } from '../lib/edition'
 import { diagramSrc } from '../lib/diagram'
 import { GameClock, TimerBar, type Clock } from './Timer'
 import { clockStart, clockStop, drumRoll, prepareSuspense, sfx } from '../lib/sound'
+import { BuzzOrder, type BuzzView, useBuzzRound } from './Buzzers'
 
 interface Props {
   t: Strings
@@ -44,9 +45,9 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
   const cols = game.cats.length
   const left = cols * 5 - game.used.length
 
-  const [cardState, setCardState] = useState<{ revealed: boolean; clock: Clock | null; intro?: boolean }>({ revealed: false, clock: null })
+  const [cardState, setCardState] = useState<{ revealed: boolean; clock: Clock | null; intro?: boolean; buzz?: BuzzView | null }>({ revealed: false, clock: null })
   useEffect(() => {
-    onLive?.(open ? { c: open.c, l: open.l, revealed: cardState.revealed, clock: cardState.clock, intro: cardState.intro } : null)
+    onLive?.(open ? { c: open.c, l: open.l, revealed: cardState.revealed, clock: cardState.clock, intro: cardState.intro, buzz: cardState.buzz ?? null } : null)
   }, [open, cardState, onLive])
   useEffect(() => () => onLive?.(null), [onLive])
 
@@ -306,7 +307,7 @@ interface CardProps {
   /** Steal tile: take the clue's points from this team (the team that answered already has them). */
   onSteal: (from: number) => void
   onClose: (used: boolean) => void
-  onState: (s: { revealed: boolean; clock: Clock | null; intro: boolean }) => void
+  onState: (s: { revealed: boolean; clock: Clock | null; intro: boolean; buzz: BuzzView | null }) => void
   timeUp: boolean
 }
 
@@ -367,11 +368,18 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
 
   const stopTimer = () => setClock((c) => (c && c.stoppedAt === undefined ? { ...c, stoppedAt: Math.min(Date.now(), c.start + c.total * 1000) } : c))
 
+  // Buzzers (when a box is plugged in): ready while the question is up, quiet once the answer shows.
+  const buzz = useBuzzRound({ live: !intro && !revealed && !rolling && phase !== 'closing', wrong, teams: game.teams.length })
+  const buzzView: BuzzView | null = buzz.ready ? { open: buzz.isOpen, order: buzz.order, wrong } : null
+  const buzzKey = buzzView ? JSON.stringify(buzzView) : ''
+
   const stateRef = useRef(onState)
   stateRef.current = onState
   useEffect(() => {
-    stateRef.current({ revealed, clock, intro })
-  }, [revealed, clock, intro])
+    stateRef.current({ revealed, clock, intro, buzz: buzzView })
+    // buzzKey stands for buzzView, which is a new object every render.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [revealed, clock, intro, buzzKey])
 
   const reveal = useCallback(() => {
     if (revealed || intro || rolling) return
@@ -428,6 +436,7 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
         e.preventDefault()
         reveal()
       } else if (e.key === 'Escape') close(stealer !== null)
+      else if (e.code === 'KeyB' && !e.ctrlKey && !e.metaKey && !e.altKey) buzz.open()
       else {
         const m = /^Digit([1-4])$/.exec(e.code)
         if (m) judge(+m[1] - 1, !e.shiftKey)
@@ -435,7 +444,7 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
     }
     addEventListener('keydown', onKey)
     return () => removeEventListener('keydown', onKey)
-  }, [intro, showQuestion, reveal, close, judge, stealer])
+  }, [intro, showQuestion, reveal, close, judge, stealer, buzz])
 
   return (
     <>
@@ -465,6 +474,20 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
               {a}
             </div>
             {timerSecs > 0 && <TimerBar clock={clock} total={timerSecs} lang={lang} timeUpText={t.timeUp} onTick={(n) => (n === 0 ? (clockStop(), sfx.timeUp()) : sfx.tick(n === 1))} />}
+            {buzzView && !revealed && (
+              <div className="buzz-bar" data-testid="buzz-bar">
+                <button className={buzz.isOpen && !buzz.order.length ? 'ghost' : 'btn'} onClick={buzz.open} disabled={buzz.isOpen && !buzz.order.length} data-testid="buzz-arm" title={t.buzz.keys}>
+                  {buzz.isOpen ? (buzz.order.length ? t.buzz.reopen : t.buzz.waiting) : t.buzz.open}
+                </button>
+                {!buzz.isOpen && <span className="muted small">{t.buzz.locked}</span>}
+                {buzz.early && (
+                  <span className="pill bad buzz-early" key={buzz.early.id} role="status" data-testid="buzz-early">
+                    {game.teams[buzz.early.team]?.name}: {t.buzz.early}
+                  </span>
+                )}
+                <BuzzOrder t={t} lang={lang} view={buzzView} teams={game.teams} />
+              </div>
+            )}
             {stealer !== null && (
               <div className="steal-pick" role="group" aria-label={t.stealFrom} data-testid="steal-pick">
                 <span className="label">

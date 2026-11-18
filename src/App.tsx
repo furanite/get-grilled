@@ -24,6 +24,7 @@ import { HOST_EDITION, type Live } from './lib/edition'
 import { setFavicon } from './lib/favicon'
 import { Mark } from './components/Brand'
 import { HostLink } from './components/HostLink'
+import { BuzzButton } from './components/Buzzers'
 
 export default function App() {
   const initial = useMemo(loadSettings, [])
@@ -183,6 +184,7 @@ export default function App() {
                 </button>
               )}
               {!HOST_EDITION && <HostLink lang={lang} />}
+              <BuzzButton t={t} lang={lang} teams={game?.teams ?? []} />
               {inGame && (
                 <button
                   className="ghost"

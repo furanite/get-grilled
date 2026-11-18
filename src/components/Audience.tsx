@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
+import { BuzzOrder } from './Buzzers'
 import { createPortal } from 'react-dom'
 import type { Game, Lang, Screen, ThemeId } from '../lib/types'
 import { VALUES } from '../lib/types'
@@ -422,6 +423,7 @@ function AudienceView({ t, lang, theme, screen, game, live, vote, win }: { t: St
                 )}
               </>
             )}
+            {!live!.intro && !live!.revealed && live!.buzz && <BuzzOrder t={t} lang={lang} view={live!.buzz} teams={game.teams} big />}
             {!live!.intro && clueSeconds(game.settings, live!.l, clue) > 0 && <TimerBar clock={live!.clock ?? null} total={clueSeconds(game.settings, live!.l, clue)} lang={lang} timeUpText={t.timeUp} big />}
           </FitBox>
         </div>
