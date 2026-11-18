@@ -24,6 +24,13 @@ An act rewarded if left, but not punished if done. :: Makruh (disliked) || H: al
 An act punished if done and rewarded if left. :: Haram (forbidden) || H: al-Mustasfa (al-Ghazali)
 The first book written on usul al-fiqh. :: al-Risalah (al-Shafi'i رحمة الله عليه) || H: Tabaqat al-Shafi'iyyah (al-Subki)
 The Companion sent to Yemen who said he would judge by the Qur'an, then the Sunnah, then his own reasoning. :: Mu'adh ibn Jabal ﵁ || H: Sunan Abi Dawud
+In usul al-fiqh, Allah, who lays down the rulings, is called by this title. :: al-Shari' (the Lawgiver) || H: al-Mustasfa (al-Ghazali)
+The person whom the rulings address, being mature and of sound mind. :: Mukallaf || H: al-Waraqat (al-Juwayni)
+The Sunnah is made of our Beloved Prophet's ﷺ sayings, his actions and this. :: His approvals (taqrir) || H: al-Waraqat (al-Juwayni)
+A later text lifting the ruling of an earlier one. :: Naskh (abrogation) || H: al-Waraqat (al-Juwayni)
+A hadith reported by so many at every level that they could not agree on a lie. :: Mutawatir || H: al-Waraqat (al-Juwayni)
+A hadith that does not reach the level of mutawatir. :: Ahad || H: al-Waraqat (al-Juwayni)
+Our Beloved Prophet ﷺ said a judge who strives and is right gets two rewards, and one who strives and errs gets this. :: One reward || H: Sahih al-Bukhari 7352; Sahih Muslim 1716
 
 ## 200
 The Hanafi school separates fard from this, a ruling proven by less certain evidence. :: Wajib || H: Usul al-Sarakhsi
@@ -46,6 +53,14 @@ Leaving qiyas for a stronger evidence, a method of the Hanafis. :: Istihsan || H
 Blocking the means to harm. :: Sadd al-dhara'i' || H: al-Furuq (al-Qarafi)
 The practice of the people of Madinah, an evidence in the Maliki school. :: 'Amal ahl al-Madinah || H: Tartib al-Madarik (Qadi 'Iyad)
 Custom as an evidence. :: 'Urf || H: al-Ashbah wal-Naza'ir (Ibn Nujaym)
+Consensus where some scholars state a view and the rest stay silent. :: Ijma' sukuti (silent consensus) || H: al-Mustasfa (al-Ghazali)
+A meaning taken from a text for a case it fits even more strongly, like "do not say uff" forbidding striking. :: Mafhum al-muwafaqah || H: al-Mustasfa (al-Ghazali)
+Taking the opposite ruling for what a text leaves out, like no zakat on fed animals from "grazing animals". :: Mafhum al-mukhalafah || H: al-Mustasfa (al-Ghazali)
+Narrowing a general ('amm) text by another evidence. :: Takhsis || H: al-Waraqat (al-Juwayni)
+Restricting an unlimited (mutlaq) word by another evidence. :: Taqyid || H: Jam' al-Jawami' (Ibn al-Subki)
+A word used in its first, literal meaning. :: Haqiqah || H: al-Waraqat (al-Juwayni)
+A word used in a meaning other than its literal one, because of a link. :: Majaz || H: al-Waraqat (al-Juwayni)
+Making clear a text whose meaning was unclear (mujmal). :: Bayan || H: al-Waraqat (al-Juwayni)
 
 ## 300
 Assuming a state continues until proven otherwise. :: Istishab || H: al-Mustasfa (al-Ghazali)
@@ -68,6 +83,14 @@ The opposite meaning of a text (mafhum al-mukhalafah) is not used as evidence in
 The short Hanafi usul text studied by beginners, by al-Shashi رحمة الله عليه. :: Usul al-Shashi || H: Usul al-Shashi
 The Shafi'i usul text for beginners by Imam al-Haramayn رحمة الله عليه. :: al-Waraqat || H: al-Waraqat
 The Hanafi usul book by Shams al-A'immah al-Sarakhsi رحمة الله عليه. :: Usul al-Sarakhsi || H: Usul al-Sarakhsi
+An analogy where the new case deserves the ruling even more than the original. :: Qiyas al-awla || H: al-Mustasfa (al-Ghazali)
+The wisdom behind a ruling, as distinct from its 'illah. :: Hikmah || H: Sharh Tanqih al-Fusul (al-Qarafi)
+Something whose presence stops a ruling, like menstruation for prayer. :: Mani' (barrier) || H: al-Muwafaqat (al-Shatibi)
+In the Hanafi school, a contract sound in its basis but flawed in a detail is called this, not void. :: Fasid || H: Usul al-Sarakhsi
+In the Hanafi school, a contract flawed in its very basis is called this. :: Batil (void) || H: Usul al-Sarakhsi
+An act done in its time is "ada'"; done after its time, it is this. :: Qada' || H: al-Waraqat (al-Juwayni)
+An obligation on every individual Muslim. :: Fard 'ayn || H: al-Muwafaqat (al-Shatibi)
+An obligation that falls from all when enough people do it. :: Fard kifayah || H: al-Muwafaqat (al-Shatibi)
 
 ## 400
 The method of the "mutakallimin" (theologians) in usul is followed mostly by these schools. :: The Shafi'i, Maliki and Hanbali || H: al-Muqaddimah (Ibn Khaldun)
@@ -90,6 +113,13 @@ In the Hanafi school, the first step when two evidences clash is this. :: Naskh,
 Preferring one evidence over another. :: Tarjih || H: al-Mustasfa (al-Ghazali)
 The ranks of mujtahids include the absolute mujtahid and this one within a school. :: Mujtahid fil-madhhab || H: Radd al-Muhtar (Ibn 'Abidin)
 The Hanafi scholar Ibn Kamal Pasha رحمة الله عليه set out this many ranks of jurists. :: 7 || H: Radd al-Muhtar (Ibn 'Abidin)
+The Hanafi school does not accept an ahad hadith on a matter that everyone faces, since it would be widely known. What is this matter called? :: Ma ta'ummu bihi al-balwa || H: Usul al-Sarakhsi
+In the Hanafi school, adding a condition to a Qur'anic text by an ahad hadith counts as this. :: Naskh (abrogation) || H: Usul al-Sarakhsi
+Mixing the easy views of several schools in one act, so that no school would accept the result. :: Talfiq || H: Radd al-Muhtar (Ibn 'Abidin)
+The method al-Shatibi رحمة الله عليه used to prove the aims of the Shari'ah, gathering many rulings. :: Istiqra' (induction) || H: al-Muwafaqat (al-Shatibi)
+An obligation with a wide time, like Zuhr from noon to 'Asr. :: Wajib muwassa' || H: al-Mustasfa (al-Ghazali)
+An obligation that can be met by one of several choices, like the options of an expiation. :: Wajib mukhayyar || H: al-Mustasfa (al-Ghazali)
+That without which an obligation cannot be done is also this. :: Obligatory || H: al-Mustasfa (al-Ghazali)
 
 ## 500
 Al-Ghazali's رحمة الله عليه usul book "al-Mankhul" was written in the time of this teacher. :: Imam al-Haramayn al-Juwayni رحمة الله عليه || H: al-Mankhul
@@ -112,3 +142,10 @@ The book of Ibn Rushd al-Hafid رحمة الله عليه on the reasons for the
 The Shafi'i book "al-Bahr al-Muhit" on usul was written by this scholar. :: Badr al-Din al-Zarkashi رحمة الله عليه || H: al-Bahr al-Muhit
 The Shafi'i usul text "Lubb al-Usul" is a summary of this. :: Jam' al-Jawami' || H: Lubb al-Usul (Zakariyya al-Ansari)
 The commentary on Jam' al-Jawami' by Jalal al-Din al-Mahalli رحمة الله عليه. :: al-Badr al-Tali' (Sharh al-Mahalli) || H: Sharh al-Mahalli 'ala Jam' al-Jawami'
+Al-Ghazali's رحمة الله عليه great book on usul al-fiqh. :: al-Mustasfa || H: al-Mustasfa
+Imam al-Haramayn's رحمة الله عليه large book on usul al-fiqh. :: al-Burhan || H: al-Burhan
+Fakhr al-Din al-Razi's رحمة الله عليه large book on usul al-fiqh. :: al-Mahsul || H: al-Mahsul
+Al-Baydawi's رحمة الله عليه short Shafi'i text on usul, explained by al-Isnawi رحمة الله عليه in Nihayat al-Sul. :: Minhaj al-Wusul || H: Nihayat al-Sul
+Sadr al-Shari'ah's رحمة الله عليه Hanafi usul book, explained by al-Taftazani رحمة الله عليه in al-Talwih. :: al-Tawdih || H: al-Talwih
+The Maliki poem on usul al-fiqh by 'Abdullah ibn al-Hajj Ibrahim al-'Alawi of Shinqit رحمة الله عليه. :: Maraqi al-Su'ud || H: Nashr al-Bunud
+Taj al-Din al-Subki's رحمة الله عليه commentary on Ibn al-Hajib's رحمة الله عليه Mukhtasar al-Muntaha. :: Raf' al-Hajib || H: Raf' al-Hajib
