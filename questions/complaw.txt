@@ -74,7 +74,6 @@ The Saudi authority that protects competition. :: The General Authority for Comp
 A company that controls almost all of a market. :: A monopoly
 Companies secretly agreeing to fix prices. :: A cartel (price fixing)
 Laws that stop unfair business practices that harm competition. :: Competition (antitrust) law
-The famous US antitrust law of 1890. :: The Sherman Act
 Using another company's trademark without permission. :: Trademark infringement
 Copying a book or film without permission. :: Piracy (copyright infringement)
 Fake copies of branded goods. :: Counterfeits
@@ -82,7 +81,6 @@ The Saudi authority for intellectual property. :: SAIP (Saudi Authority for Inte
 The UN agency for intellectual property. :: WIPO
 WIPO is based in this city. :: Geneva
 The world body that sets rules on trade between countries. :: The WTO
-Saudi Arabia joined the WTO in this year. :: 2005
 The legal document that sets out how partners share profits. :: A partnership agreement
 A partner who invests money but does not manage. :: A silent (limited) partner
 A partner who manages and has unlimited liability. :: A general partner
@@ -92,7 +90,6 @@ Running a business in Saudi Arabia in a Saudi's name for a foreigner is called t
 The money put into a company by its owners. :: Capital
 Selling shares to the public for the first time. :: An IPO (initial public offering)
 Saudi Aramco's IPO happened in this year. :: 2019
-Saudi Aramco's IPO raised this record amount at the time. :: About 25.6 billion US dollars
 A loan that a company sells to investors, paying interest. :: A bond
 The Islamic alternative to bonds. :: Sukuk
 A legally binding promise to pay a set sum on a date. :: A bill of exchange (or promissory note)
@@ -106,6 +103,14 @@ The money a company makes after costs. :: Profit
 A company's total income from sales. :: Revenue
 The legal duty of directors to act honestly for the company. :: Fiduciary duty
 When directors use company money for themselves. :: Breach of duty (misappropriation)
+The world's largest stock exchange by value. :: The New York Stock Exchange
+The Saudi national payment card network. :: Mada
+The Saudi digital wallet run by STC Bank. :: STC Pay
+The Saudi company that owns the largest gas field in the kingdom. :: Saudi Aramco
+The Saudi telecom company. :: STC
+The Saudi "Made in Saudi" program promotes this. :: Local products
+The Saudi zakat rate on the zakat base. :: 2.5%
+The King Fahd Causeway links Saudi Arabia with this country. :: Bahrain
 
 ## 200
 The Saudi Companies Law now in force was issued in this year. :: 2022
@@ -116,26 +121,20 @@ The minimum number of partners in a Saudi LLC under the 2022 law. :: One
 The joint stock company is managed by this body. :: A board of directors
 The type of company in which some partners have unlimited liability and others limited. :: A limited partnership
 The type of company where all partners have unlimited liability. :: A general partnership
-The Saudi Companies Law of 2022 removed the requirement for this reserve. :: The statutory reserve
 The old Saudi Companies Law that the 2022 law replaced was from this year. :: 2015
-The first Saudi Companies Law was issued in this year. :: 1965
 The Saudi Commercial Court system was set up in this year. :: 2017
 The Saudi Commercial Courts Law was issued in this year. :: 2020
-The Saudi Commercial Register Law of 2024 made the CR do this. :: Not need yearly renewal (it is confirmed annually)
 The Saudi law that lets foreigners invest is now the Investment Law of this year. :: 2024
 The Saudi Ministry of Investment was earlier called this. :: SAGIA
 The Saudi foreign investment licence is now called this. :: Investment registration (formerly MISA licence)
 Saudi Arabia's program to make foreign companies set regional headquarters in Riyadh. :: The Regional Headquarters Program
 The deadline for government contracts to need a regional HQ in Saudi Arabia started in this year. :: 2024
-The Saudi Bankruptcy Law of 2018 offers this many main procedures. :: Seven
 A procedure where a company keeps running while it agrees a plan with creditors. :: Financial reorganisation
 A procedure for small debtors under the Saudi Bankruptcy Law. :: Small debtors' procedures
 The Saudi body that oversees bankruptcy procedures. :: The Bankruptcy Commission
 The Saudi Anti-Concealment Law was issued in this year. :: 2020
-The Saudi Commercial Agencies Law was first issued in this year. :: 1962
 In Saudi Arabia, a commercial agency must be registered with this ministry. :: The Ministry of Commerce
 The Saudi Franchise Law came into force in this year. :: 2020
-Under the Saudi Franchise Law, the franchisor must give a disclosure document this many days before signing. :: 14
 The Saudi Competition Law in force was issued in this year. :: 2019
 Under the Saudi Competition Law, mergers above a threshold need this. :: Approval from the General Authority for Competition
 The Saudi Trademarks Law follows the unified law of this group of countries. :: The GCC
@@ -151,7 +150,6 @@ The international system for registering trademarks in many countries. :: The Ma
 The international system for filing patent applications. :: The PCT (Patent Cooperation Treaty)
 The Saudi law that protects consumers in online sales. :: The E-Commerce Law
 Under the Saudi E-Commerce Law, a consumer may cancel within this many days if not used. :: Seven
-The Saudi law against commercial fraud was issued in this year. :: 2008
 The Saudi Anti-Money Laundering Law in force was issued in this year. :: 2017
 Saudi Arabia became a full member of the FATF in this year. :: 2019
 The FATF fights money laundering and this. :: Terrorist financing
@@ -168,7 +166,6 @@ The Saudi body that sets accounting standards. :: SOCPA
 The Saudi Ministry of Commerce platform for company formation. :: The Saudi Business Center
 Saudi Arabia's business court that hears company disputes. :: The Commercial Court
 The Saudi law that governs negotiable papers such as cheques. :: The Commercial Papers Law
-The Saudi Commercial Papers Law was issued in this year. :: 1963 (1383H)
 The three main commercial papers: bill of exchange, promissory note and this. :: Cheque
 A cheque must be paid when presented, because it is payable on this. :: Sight (demand)
 The person who writes a cheque. :: The drawer
@@ -181,10 +178,7 @@ A formal record that a bill was refused. :: A protest
 The International Chamber of Commerce is based in this city. :: Paris
 The ICC court of arbitration is based in this city. :: Paris
 The "Lex Mercatoria" means this. :: The law merchant (customs of traders)
-Medieval English market courts were called "piepowder" courts, from French words meaning this. :: Dusty feet (pieds poudrés)
 The UN body that drafts model trade laws. :: UNCITRAL
-The UNCITRAL Model Law on International Commercial Arbitration was adopted in this year. :: 1985
-The world's largest stock exchange by value. :: The New York Stock Exchange
 A company with a value over 1 billion dollars before listing. :: A unicorn
 The Saudi fintech unicorn for "buy now, pay later". :: Tabby
 A company formed to hold a single deal or asset. :: A special purpose vehicle (SPV)
@@ -193,7 +187,6 @@ A shareholder who owns most of the shares. :: A majority shareholder
 Protecting small shareholders from abuse. :: Minority protection
 The legal principle that courts may ignore a company's separate personality in cases of fraud. :: Piercing (lifting) the corporate veil
 The famous English case that confirmed a company is separate from its owner. :: Salomon v Salomon & Co (1897)
-Salomon made these items. :: Boots (and shoes)
 The rule that only the company can sue for wrongs done to it. :: The rule in Foss v Harbottle (1843)
 A lawsuit by a shareholder on behalf of the company. :: A derivative action
 The UK company law of 2006. :: The Companies Act 2006
@@ -209,6 +202,25 @@ A company's legal home address. :: Its registered office
 A meeting of the board of directors is recorded in these. :: Minutes
 A person who signs for a company with authority from the board. :: An authorised signatory
 A legal document giving someone power to act for another. :: A power of attorney (wakalah)
+The shape of this soft drink bottle is a famous shape trademark. :: Coca-Cola
+A design right protects how a product does this. :: Looks
+The legal term for using a patented invention without permission. :: Patent infringement
+The Saudi stock market closes on these days. :: Friday and Saturday
+The investment bank whose 2008 bankruptcy was the largest in US history. :: Lehman Brothers
+The largest Saudi bank by assets after a 2021 merger. :: Saudi National Bank (SNB)
+Saudi Arabia's largest Islamic bank by assets. :: Al Rajhi Bank
+The Saudi PIF bought this English football club in 2021. :: Newcastle United
+The Saudi chemical company acquired mostly by Aramco in 2020. :: SABIC
+The Saudi airline privatisation program created this new national carrier. :: Riyadh Air
+The 2022 crypto exchange collapse led by Sam Bankman-Fried. :: FTX
+The DIFC Courts are in this city. :: Dubai
+The ADGM Courts are in this city. :: Abu Dhabi
+The Qatar International Court is based in this city. :: Doha
+The judge in the US v Google search case found Google was this. :: A monopolist
+The Hague-Visby Rules govern carriage of goods by this. :: Sea
+The Montreal Convention of 1999 covers liability in carriage by this. :: Air
+A company that is listed on two stock exchanges. :: Dual-listed
+The US regulator of securities markets. :: The SEC
 
 ## 300
 Under the Saudi Companies Law 2022, an LLC's managers are appointed by these. :: The partners (or the articles of association)
@@ -247,17 +259,13 @@ Writing a future date on a cheque. :: Post-dating
 The Saudi Ministry of Commerce's online system for verifying commercial registration. :: Ministry of Commerce CR verification (Saudi Business Center)
 The Saudi trademark registration fee covers one class; there are this many international classes. :: 45
 The international classification system for trademarks. :: The Nice Classification
-Goods classes in the Nice Classification run from 1 to this. :: 34
 Service classes in the Nice Classification run from 35 to this. :: 45
 The trademark term for a mark so common it loses protection, like "escalator". :: Genericide (generic mark)
 The brand "thermos" became this in the US. :: A generic word
 A mark that is a colour, such as Tiffany blue. :: A colour mark
 A mark that is a sound, such as a jingle. :: A sound mark
-The shape of this soft drink bottle is a famous shape trademark. :: Coca-Cola
-A design right protects how a product does this. :: Looks
 The Saudi Patents Law follows rules for patents, layout designs, plant varieties and this. :: Industrial designs
 A patent requires an invention to be new, non-obvious and this. :: Industrially applicable (useful)
-The legal term for using a patented invention without permission. :: Patent infringement
 A licence that a government gives without the patent owner's agreement. :: A compulsory licence
 The TRIPS Doha Declaration of 2001 was about patents and this. :: Public health (medicines)
 A software program is protected in Saudi Arabia mainly by this. :: Copyright
@@ -285,7 +293,6 @@ Information that could affect a share price, which must be announced. :: Materia
 The Saudi CMA's rules on takeovers are called this. :: The Merger and Acquisition Regulations
 The Saudi rule requiring a mandatory offer when a shareholder reaches this stake. :: 50%
 A shareholder owning 5% or more of a Saudi listed company must do this. :: Disclose it
-The Saudi stock market closes on these days. :: Friday and Saturday
 The Saudi stock market's daily price limit for most shares. :: 10% up or down
 In Saudi Arabia, the regulator of banks and insurance companies. :: SAMA (insurance moved to the Insurance Authority)
 The Saudi Insurance Authority was set up in this year. :: 2023
@@ -294,10 +301,7 @@ The Saudi law that set up cooperative insurance companies. :: The Cooperative In
 The Islamic insurance model used in Saudi Arabia is called this. :: Cooperative insurance (takaful)
 The Saudi law regulating payment services and fintech. :: The Payments and Payment Services Law (2022)
 The Saudi instant payment system launched in 2021. :: Sarie
-The Saudi national payment card network. :: Mada
-The Saudi digital wallet run by STC Bank. :: STC Pay
 STC Pay became this in 2024. :: STC Bank (a digital bank)
-Saudi digital banks licensed in 2021 included STC Bank, Saudi Digital Bank and this. :: D360 Bank
 The Saudi regulatory "sandbox" for fintech is run by SAMA and this authority. :: The CMA
 Saudi Arabia's crowdfunding rules are set by these two bodies. :: SAMA (debt) and the CMA (equity)
 The Saudi law on electronic transactions was issued in this year. :: 2007
@@ -311,6 +315,9 @@ Shares issued free to existing shareholders from reserves. :: Bonus shares
 Offering new shares to existing shareholders in proportion to their holdings. :: A rights issue
 Splitting one share into several cheaper ones. :: A stock split
 Taking a listed company off the stock exchange. :: Delisting
+The famous US antitrust law of 1890. :: The Sherman Act
+Saudi Arabia joined the WTO in this year. :: 2005
+Saudi Aramco's IPO raised this record amount at the time. :: About 25.6 billion US dollars
 
 ## 400
 The Saudi Companies Law 2022 lets an LLC convert to a joint stock company by this decision. :: A partners' resolution
@@ -329,7 +336,6 @@ Under the Saudi Bankruptcy Law, a "moratorium" stops creditors from doing this. 
 The Saudi Bankruptcy Law's procedure for small debtors is cheaper and faster. True or false? :: True
 The US bankruptcy chapter for reorganisation. :: Chapter 11
 The US bankruptcy chapter for liquidation. :: Chapter 7
-The investment bank whose 2008 bankruptcy was the largest in US history. :: Lehman Brothers
 The UNCITRAL Model Law on Cross-Border Insolvency was adopted in this year. :: 1997
 The English case on directors' duty of care with a famous insurance chairman: Re City Equitable. :: Re City Equitable Fire Insurance (1925)
 The 1942 House of Lords case where directors who profited from a company opportunity had to repay it, even though the company lost nothing. :: Regal (Hastings) v Gulliver (1942)
@@ -345,7 +351,6 @@ The English case where a company was used to avoid a non-compete clause. :: Gilf
 The doctrine that a company can only act within its objects clause. :: Ultra vires
 The English case that set the ultra vires rule in 1875. :: Ashbury Railway Carriage v Riche
 The rule that outsiders can assume internal company procedures were followed. :: The indoor management rule (Turquand's case)
-Turquand's case was decided in this year. :: 1856
 The 1982 English case on when a company's payments to its directors are really gifts out of capital. :: Re Halt Garage (1964) Ltd (1982)
 The Islamic law view of a limited liability company was debated because of this issue. :: Limited liability (and legal personality)
 The modern scholar who argued Islamic law accepts legal personality through waqf and bayt al-mal. :: Mustafa al-Zarqa ﵀
@@ -360,28 +365,20 @@ The Saudi Aramco IPO listed this share of the company. :: 1.5%
 After the greenshoe, the Aramco IPO raised this much. :: 29.4 billion dollars
 The Saudi Aramco IPO price per share. :: 32 riyals
 Saudi Aramco sold more shares in a second offering in this year. :: 2024
-The largest Saudi bank by assets after a 2021 merger. :: Saudi National Bank (SNB)
 SNB was formed by merging NCB and this bank. :: Samba
 SABB merged with this bank in 2019. :: Alawwal Bank
 SABB was renamed this in 2023. :: SAB (Saudi Awwal Bank)
-Saudi Arabia's largest Islamic bank by assets. :: Al Rajhi Bank
 The Saudi PIF's 2016 investment in this ride-hailing company. :: Uber
-The Saudi PIF bought this English football club in 2021. :: Newcastle United
 The Saudi PIF owns a big stake in this electric car maker. :: Lucid
-The Saudi company that owns the largest gas field in the kingdom. :: Saudi Aramco
-The Saudi chemical company acquired mostly by Aramco in 2020. :: SABIC
 Aramco bought this share of SABIC from the PIF. :: 70%
 The value of the SABIC deal. :: About 69 billion dollars
-The Saudi telecom company. :: STC
 The Saudi Electricity Company's biggest shareholder. :: The government (PIF)
-The Saudi airline privatisation program created this new national carrier. :: Riyadh Air
 Riyadh Air is owned by this fund. :: The PIF
 The Saudi National Center for Privatization was set up in this year. :: 2017
 The Saudi law on private sector participation (PPP) was issued in this year. :: 2021
 The Saudi Government Tenders and Procurement Law was issued in this year. :: 2019
 The Saudi platform for government tenders. :: Etimad
 The Saudi local content authority. :: LCGPA
-The Saudi "Made in Saudi" program promotes this. :: Local products
 The Saudi Export-Import Bank was set up in this year. :: 2020
 The Saudi General Authority for SMEs is called this. :: Monsha'at
 Monsha'at was set up in this year. :: 2016
@@ -395,7 +392,6 @@ The Saudi tax on income of foreign shareholders in companies. :: Corporate incom
 The Saudi corporate income tax rate on foreign-owned shares. :: 20%
 The Saudi income tax on oil and hydrocarbon companies ranges from this. :: 50% to 85%
 The Saudi withholding tax on dividends paid to non-residents. :: 5%
-The Saudi zakat rate on the zakat base. :: 2.5%
 The Saudi "Real Estate Transaction Tax" rate. :: 5%
 The Saudi Real Estate Transaction Tax replaced VAT on property sales in this year. :: 2020
 The Saudi e-invoicing system is called this. :: Fatoora
@@ -411,9 +407,21 @@ The Saudi trade agreement with the EFTA states was signed in this year. :: 2009 
 The UK and GCC began free trade talks in this year. :: 2022
 The Saudi land port with Jordan. :: Al-Haditha
 The Saudi land port with the UAE. :: Al-Batha
-The King Fahd Causeway links Saudi Arabia with this country. :: Bahrain
 The Saudi port that is the largest on the Red Sea. :: Jeddah Islamic Port
 The Saudi port that is the largest on the Gulf. :: King Abdulaziz Port (Dammam)
+The Saudi Companies Law of 2022 removed the requirement for this reserve. :: The statutory reserve
+The first Saudi Companies Law was issued in this year. :: 1965
+The Saudi Commercial Register Law of 2024 made the CR do this. :: Not need yearly renewal (it is confirmed annually)
+The Saudi Bankruptcy Law of 2018 offers this many main procedures. :: Seven
+The Saudi Commercial Agencies Law was first issued in this year. :: 1962
+Under the Saudi Franchise Law, the franchisor must give a disclosure document this many days before signing. :: 14
+The Saudi law against commercial fraud was issued in this year. :: 2008
+The Saudi Commercial Papers Law was issued in this year. :: 1963 (1383H)
+Medieval English market courts were called "piepowder" courts, from French words meaning this. :: Dusty feet (pieds poudrés)
+The UNCITRAL Model Law on International Commercial Arbitration was adopted in this year. :: 1985
+Salomon made these items. :: Boots (and shoes)
+Goods classes in the Nice Classification run from 1 to this. :: 34
+Saudi digital banks licensed in 2021 included STC Bank, Saudi Digital Bank and this. :: D360 Bank
 
 ## 500
 The Saudi Companies Law 2022 lets shareholders agree on "drag-along" rights and this matching kind. :: Tag-along rights
@@ -435,7 +443,6 @@ Barings Bank collapsed in 1995 because of this trader. :: Nick Leeson
 Barings Bank collapsed after losses on trades on this exchange. :: The Singapore exchange (SIMEX)
 The Wirecard scandal of 2020 was in this country. :: Germany
 Wirecard said this amount was missing. :: 1.9 billion euros
-The 2022 crypto exchange collapse led by Sam Bankman-Fried. :: FTX
 The famous 1720 British financial bubble. :: The South Sea Bubble
 The British law passed in 1720 to limit joint stock companies. :: The Bubble Act
 The Bubble Act was repealed in this year. :: 1825
@@ -464,9 +471,6 @@ The Saudi Arbitration Law requires arbitrators to have a degree in Sharia or law
 Under the Saudi Arbitration Law, an award can be annulled if it breaks this. :: Sharia or public order
 The Saudi Enforcement Court can enforce foreign arbitral awards under this convention. :: The New York Convention
 The GCC Commercial Arbitration Centre is in this country. :: Bahrain
-The DIFC Courts are in this city. :: Dubai
-The ADGM Courts are in this city. :: Abu Dhabi
-The Qatar International Court is based in this city. :: Doha
 The Saudi legal reform that set up specialised courts in 2007. :: The Judiciary Law (and Board of Grievances Law) 2007
 The Saudi Board of Grievances hears these cases. :: Administrative cases (against government)
 In the Saudi Competition Law, the fine for a violation can be up to this share of total sales. :: 10%
@@ -476,7 +480,6 @@ The EU Digital Markets Act came into force in this year. :: 2022
 The UK's competition authority. :: The CMA (Competition and Markets Authority)
 The US agencies for antitrust: the DOJ and this. :: The FTC
 The 2023 US case against Google on search monopoly was decided in this year. :: 2024
-The judge in the US v Google search case found Google was this. :: A monopolist
 The Trade-Related Investment Measures agreement of the WTO is called this. :: TRIMs
 The WTO's dispute body. :: The Dispute Settlement Body
 The WTO Appellate Body stopped working in this year. :: 2019
@@ -503,16 +506,13 @@ The international body that standardises rules for letters of credit. :: The ICC
 The latest ICC rules for documentary credits. :: UCP 600
 UCP 600 came into force in this year. :: 2007
 The ICC rules for demand guarantees. :: URDG 758
-The Hague-Visby Rules govern carriage of goods by this. :: Sea
 The Rotterdam Rules of 2008 are about this. :: Carriage of goods wholly or partly by sea
-The Montreal Convention of 1999 covers liability in carriage by this. :: Air
-A company that is listed on two stock exchanges. :: Dual-listed
 A US share certificate representing foreign shares. :: An American Depositary Receipt (ADR)
 The London market for smaller growing companies. :: AIM
-The US regulator of securities markets. :: The SEC
 The SEC was created in this year after the 1929 crash. :: 1934
 The US law of 1933 that requires registration of share offerings. :: The Securities Act of 1933
 The US law of 2010 that reformed finance after the 2008 crisis. :: The Dodd-Frank Act
 The UK financial regulator for conduct. :: The FCA
 The UK law of 2010 under which a company that fails to prevent bribery can be guilty. :: The Bribery Act
 The US law against bribing foreign officials. :: The Foreign Corrupt Practices Act (FCPA)
+Turquand's case was decided in this year. :: 1856

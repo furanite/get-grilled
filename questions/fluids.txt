@@ -80,7 +80,6 @@ A pump that traps fixed volumes of fluid, like a piston or gear pump. :: Positiv
 A water turbine is the opposite of this machine. :: Pump
 Fish and submarines control depth by changing this. :: Buoyancy (density)
 The tanks a submarine floods to dive. :: Ballast tanks
-The line painted on a ship's hull showing the safe loading depth. :: Plimsoll line (load line)
 Salt water is denser than fresh water, so ships float this way in it. :: Higher
 The sea with water so salty that people float easily. :: Dead Sea
 The force of air on a parachute. :: Drag
@@ -93,7 +92,6 @@ Smoke or dye added to a flow so engineers can see it. :: Flow visualisation
 The gas that fills most party balloons so they float. :: Helium
 Hot air balloons rise because hot air is this. :: Less dense than cold air
 The fluid property 'cP' or 'Pa·s' measures. :: Dynamic viscosity
-The air pressure in a jet airliner cabin at cruise is kept like this altitude. :: About 1,800 to 2,400 m (6,000 to 8,000 ft)
 The name for water pressure that pushes a water main or city supply. :: Mains pressure (water pressure)
 A raised tank that gives a town water pressure by gravity. :: Water tower
 The device that sprays fuel as a fine mist. :: Injector (atomiser)
@@ -104,6 +102,8 @@ The force that makes a helium balloon rise. :: Buoyancy
 The unit kPa stands for this. :: Kilopascal
 One kilopascal equals this many pascals. :: 1,000
 Pressure at the bottom of a pool depends on depth, not on this. :: The pool's width (shape)
+The giant ocean wave that travels as a shallow-water wave across ocean basins. :: Tsunami
+Which principle explains why the pressure drops in the narrow part of this device? {img:venturi.svg} :: Bernoulli's principle
 
 ## 200
 The ratio of a substance's density to that of water. :: Specific gravity (relative density)
@@ -197,7 +197,6 @@ Open-channel flow with a Froude number above 1. :: Supercritical flow
 The sudden rise in water level when fast shallow flow slows down. :: Hydraulic jump
 A barrier across a channel used to measure or control flow. :: Weir
 A V-notch weir is good for measuring this kind of flow. :: Small flows
-The flow meter flume that is used in irrigation channels and named after a US engineer. :: Parshall flume
 The pressure at a depth of 10 m of fresh water, in kPa gauge, roughly. :: About 98 kPa (about 1 atm)
 The water column height equal to one atmosphere, in metres. :: About 10.3 m
 Why can a suction pump not lift water more than about 10 m? :: Atmospheric pressure can only support about 10 m of water
@@ -207,6 +206,26 @@ The type of flow where viscous forces are tiny compared to inertia far from wall
 A fluid whose viscosity drops as it is stirred faster, like paint. :: Shear-thinning (pseudoplastic)
 Toothpaste that does not flow until pushed hard enough is this kind of fluid. :: Bingham plastic
 Name this pressure-measuring device. {img:manometer.svg} :: U-tube manometer
+The constant speed reached when drag equals weight. :: Terminal velocity
+The numerical method that solves fluid flow on a mesh by computer. :: CFD (computational fluid dynamics)
+The modulus that measures a fluid's resistance to compression. :: Bulk modulus
+The force caused by Earth's rotation that deflects winds and currents. :: Coriolis force
+The pump that lifts water using an inclined screw in a pipe, invented in antiquity. :: Archimedes' screw
+The British engineer whose 1883 dye experiments showed the transition to turbulence. :: Osborne Reynolds
+The Swiss mathematician who wrote the Euler equations of fluid motion in 1757. :: Leonhard Euler
+The French scientist who stated that pressure acts equally in all directions, in 1653. :: Blaise Pascal
+The Austrian physicist who photographed supersonic shock waves in 1887. :: Ernst Mach
+The 1940 US bridge failure filmed as the deck twisted apart in a moderate wind. :: Tacoma Narrows Bridge collapse
+The brothers who built their own wind tunnel in 1901 to test wing shapes. :: Wright brothers
+The 17th-century Italian whose work on water flow from orifices led to Torricelli's law in 1643. :: Evangelista Torricelli
+The ancient Nabataean city in Jordan famous for its rock-cut water channels and cisterns. :: Petra
+The Nabataean city in Saudi Arabia, a UNESCO site, with ancient wells and tombs. :: Hegra (Al-Hijr, Mada'in Salih)
+The desalination method that pushes seawater through a membrane under high pressure. :: Reverse osmosis
+The jet-fan inventor whose bladeless fans use the Coandă effect. :: James Dyson
+The 'Mpemba effect' claims hot water does this faster than cold. :: Freezes
+The Italian physicist after whom the Venturi effect is named. :: Giovanni Battista Venturi
+The Hoover Dam is on this river. :: Colorado River
+The world's largest hydroelectric dam by installed capacity, in China. :: Three Gorges Dam
 
 ## 300
 The equations of motion for a viscous fluid. :: Navier–Stokes equations
@@ -231,7 +250,6 @@ The pressure gradient that encourages boundary layer separation. :: Adverse pres
 The law that turbulent velocity near a wall varies with the log of distance. :: Law of the wall (log law)
 The thin layer next to a wall where turbulent flow is dominated by viscosity. :: Viscous sublayer
 The implicit equation for the turbulent friction factor in pipes. :: Colebrook equation
-The explicit approximation to the Colebrook equation from 1983. :: Haaland equation
 A pipe's roughness height divided by its diameter. :: Relative roughness
 For fully rough turbulent pipe flow, the friction factor depends only on this. :: Relative roughness
 Four times the cross-section area divided by the wetted perimeter. :: Hydraulic diameter
@@ -258,7 +276,6 @@ Spinning balls curve in flight because of this effect. :: Magnus effect
 Circulation around a closed loop equals the flux of this through the loop. :: Vorticity (Stokes' theorem)
 The drag on a slow small sphere is 3πμDV, a result named after this person. :: George Stokes
 Stokes' drag law applies at Reynolds numbers below about this. :: 1
-The constant speed reached when drag equals weight. :: Terminal velocity
 The speed of sound in an ideal gas is the square root of this. :: γRT
 Stagnation temperature equals static temperature plus V² divided by this. :: 2cp
 The angle of a Mach cone relates to the Mach number by sin μ equals this. :: 1/M
@@ -298,7 +315,6 @@ The fluid property that makes a column of liquid in a narrow tube stand higher t
 The capillary rise in a tube is inversely proportional to this. :: Tube radius
 The extra pressure inside a soap bubble compared with a droplet of the same radius. :: Twice as much
 The pressure jump across a curved interface is given by this equation. :: Young–Laplace equation
-The numerical method that solves fluid flow on a mesh by computer. :: CFD (computational fluid dynamics)
 The CFD approach that solves time-averaged equations with a turbulence model. :: RANS
 The popular two-equation turbulence model with turbulent kinetic energy and dissipation. :: k–epsilon model
 The CFD method that resolves large eddies and models only small ones. :: LES (large eddy simulation)
@@ -310,6 +326,15 @@ Additional stresses that appear when the Navier–Stokes equations are time-aver
 The pressure rise in a diffuser divided by the inlet dynamic pressure. :: Pressure recovery coefficient
 The ratio cp/cv is written with this Greek letter. :: Gamma (γ)
 Name this flow-measuring device, which narrows the pipe to measure flow rate. {img:venturi.svg} :: Venturi meter
+The line painted on a ship's hull showing the safe loading depth. :: Plimsoll line (load line)
+The air pressure in a jet airliner cabin at cruise is kept like this altitude. :: About 1,800 to 2,400 m (6,000 to 8,000 ft)
+The flow meter flume that is used in irrigation channels and named after a US engineer. :: Parshall flume
+The engineer called 'the father of modern aerodynamics' for the boundary layer. :: Ludwig Prandtl
+The Dutch-Swiss family member whose father Johann accused him of plagiarism over hydraulics. :: Daniel Bernoulli
+The French engineer who described the pressure loss formula with 'friction factor' in 1857 along with Weisbach. :: Henry Darcy
+The American engineer whose 1944 diagram plotted friction factor against Reynolds number. :: Lewis Ferry Moody
+Al-Jazari's water clock shaped like this animal, with a scribe and riders on its back. :: Elephant
+The Kármán line, often used as the edge of space, is at this altitude. :: 100 km
 
 ## 400
 The ratio of the largest to smallest turbulent eddy sizes grows with Re to this power. :: 3/4
@@ -336,7 +361,6 @@ The flow between two rotating cylinders that forms toroidal vortices. :: Taylor�
 The instability where a heavy fluid sits on top of a light one. :: Rayleigh–Taylor instability
 The instability at the interface of two fluids moving at different speeds. :: Kelvin–Helmholtz instability
 The convection cells formed in a fluid layer heated from below. :: Rayleigh–Bénard convection
-Rayleigh–Bénard convection starts above a critical Rayleigh number of about this for rigid boundaries. :: 1,708
 The instability that breaks a thin stream of water into droplets. :: Plateau–Rayleigh instability
 The law for flow through porous media like soil. :: Darcy's law
 The property of a porous material that measures how easily fluid passes. :: Permeability
@@ -385,22 +409,18 @@ The empirical formula f = 0.316/Re^0.25 for smooth pipes is named after this eng
 The equation that relates pressure drop in a pipe to the flow rate for laminar flow. :: Hagen–Poiseuille equation
 The wave speed of water hammer in a rigid pipe equals the square root of bulk modulus divided by this. :: Density
 The equation for the pressure rise in water hammer, ρ times wave speed times velocity change. :: Joukowsky equation
-The modulus that measures a fluid's resistance to compression. :: Bulk modulus
 The bulk modulus of water, roughly, in GPa. :: About 2.2 GPa
 The speed of sound in water, in m/s, roughly. :: About 1,480 m/s
 Shallow-water waves travel at a speed equal to the square root of this. :: g times depth
-The giant ocean wave that travels as a shallow-water wave across ocean basins. :: Tsunami
 The solitary wave first observed by John Scott Russell on a canal in 1834. :: Soliton
 The wave whose speed depends on wavelength, as for deep water waves. :: Dispersive wave
 The deep-water wave speed equals the square root of g times wavelength divided by this. :: 2π
-The force caused by Earth's rotation that deflects winds and currents. :: Coriolis force
 The dimensionless number for the importance of rotation in a flow. :: Rossby number
 The wind that blows parallel to isobars when pressure and Coriolis forces balance. :: Geostrophic wind
 The spiral in velocity in the ocean's surface layer caused by wind and rotation. :: Ekman spiral
 The column of fluid that moves with a rotating body as if solid in rotating flows. :: Taylor column
 The equation that describes the free surface of a liquid in a rotating bucket. :: Paraboloid
 The air pressure trick that lets a skirt hovercraft float on a cushion. :: Air cushion (plenum)
-The pump that lifts water using an inclined screw in a pipe, invented in antiquity. :: Archimedes' screw
 The pump that uses one fluid jet to entrain and pump another. :: Jet pump (ejector)
 The microfluidic regime where flows are dominated by viscosity, at very low Re. :: Stokes (creeping) flow
 The 'scallop theorem' says a swimmer at low Reynolds number cannot move with motion that is this. :: Reciprocal (time-reversible)
@@ -412,35 +432,27 @@ The dimensionless number comparing gravity to inertia in density-stratified flow
 The wave sent upstream when a sluice gate in a channel is suddenly closed. :: Positive surge wave
 The sloshing standing wave in a closed basin like a lake or harbour. :: Seiche
 The sharp front of water that runs up some rivers with the rising tide. :: Tidal bore
-Which principle explains why the pressure drops in the narrow part of this device? {img:venturi.svg} :: Bernoulli's principle
+The explicit approximation to the Colebrook equation from 1983. :: Haaland equation
 
 ## 500
 The French engineer who first derived the viscous flow equations in 1822. :: Claude-Louis Navier
 The Irish-born mathematician who derived the viscous flow equations independently in 1845. :: George Gabriel Stokes
 The German physicist whose 1839 experiments on flow in tubes were later joined with Poiseuille's. :: Gotthilf Hagen
 The French physician who studied blood flow and gave his name to laminar pipe flow. :: Jean Léonard Marie Poiseuille
-The British engineer whose 1883 dye experiments showed the transition to turbulence. :: Osborne Reynolds
 The university where Osborne Reynolds was the first professor of engineering. :: Owens College, Manchester
-The engineer called 'the father of modern aerodynamics' for the boundary layer. :: Ludwig Prandtl
 The university where Prandtl did most of his work. :: University of Göttingen
 The Hungarian-American engineer who explained vortex streets and co-founded JPL. :: Theodore von Kármán
-The Swiss mathematician who wrote the Euler equations of fluid motion in 1757. :: Leonhard Euler
 The French mathematician who stated his famous paradox about drag in 1752. :: Jean le Rond d'Alembert
-The Dutch-Swiss family member whose father Johann accused him of plagiarism over hydraulics. :: Daniel Bernoulli
 The book by Johann Bernoulli that he backdated to seem earlier than his son's. :: Hydraulica
-The French scientist who stated that pressure acts equally in all directions, in 1653. :: Blaise Pascal
 The Italian scientist whose 1628 book on flowing water first stated a form of the continuity principle. :: Benedetto Castelli
-The French engineer who described the pressure loss formula with 'friction factor' in 1857 along with Weisbach. :: Henry Darcy
 The city whose public fountains Henry Darcy designed, leading to Darcy's law. :: Dijon
 The German who published the friction equation in 1845 that is now joined with Darcy's name. :: Julius Weisbach
-The American engineer whose 1944 diagram plotted friction factor against Reynolds number. :: Lewis Ferry Moody
 The British engineer whose 1939 formula combined smooth and rough pipe laws. :: Cyril Frank Colebrook
 The German engineer whose sand-grain experiments in roughened pipes were published in 1933. :: Johann Nikuradse
 The Irish engineer who proposed the open-channel flow formula in 1889 used worldwide. :: Robert Manning
 The English engineer whose towing-tank tests in the 1870s led to the scaling of ship models. :: William Froude
 The Scottish engineer who measured ship resistance in a canal and saw the solitary wave. :: John Scott Russell
 The Czech physicist who first measured vortex shedding frequency in 1878. :: Vincenc Strouhal
-The Austrian physicist who photographed supersonic shock waves in 1887. :: Ernst Mach
 The Swiss engineer who first proposed the term 'Mach number' in 1929. :: Jakob Ackeret
 The Swedish engineer who invented the converging–diverging steam nozzle in the 1880s. :: Gustaf de Laval
 The US Air Force pilot who first broke the sound barrier in level flight in 1947. :: Chuck Yeager
@@ -456,32 +468,24 @@ The English scientist who proposed the turbulent energy cascade poem in 1922. ::
 Richardson's 1922 book that proposed numerical weather forecasting. :: Weather Prediction by Numerical Process
 The British physicist whose 1923 experiments showed rotating cylinder flow vortices. :: G. I. Taylor
 G. I. Taylor estimated the yield of this 1945 event from photographs using dimensional analysis. :: Trinity atomic bomb test
-The 1940 US bridge failure filmed as the deck twisted apart in a moderate wind. :: Tacoma Narrows Bridge collapse
 The nickname of the original Tacoma Narrows Bridge. :: Galloping Gertie
 The University of Washington professor who was on the Tacoma Narrows Bridge studying it when it collapsed. :: Frederick Burt Farquharson
 The British engineer whose 1871 wind tunnel was the first ever built. :: Francis Herbert Wenham
-The brothers who built their own wind tunnel in 1901 to test wing shapes. :: Wright brothers
 The NACA lab founded in 1917 in Virginia, now a NASA centre. :: Langley
 The world's largest wind tunnel, at NASA Ames, has a test section of 80 by this many feet. :: 120
-The 17th-century Italian whose work on water flow from orifices led to Torricelli's law in 1643. :: Evangelista Torricelli
 The 1st-century Greek engineer who described the aeolipile, a steam reaction turbine. :: Hero of Alexandria
 The 9th-century Baghdad brothers who wrote the Book of Ingenious Devices with siphons and valves. :: Banū Mūsā
-Al-Jazari's water clock shaped like this animal, with a scribe and riders on its back. :: Elephant
 The Ottoman engineer who built the Kırkçeşme water supply and aqueducts for Istanbul. :: Mimar Sinan
 The traditional underground channels that carry groundwater by gravity in Iran and Arabia. :: Qanat (falaj, aflaj)
 The Oman irrigation channels inscribed as UNESCO World Heritage in 2006. :: Aflaj
-The ancient Nabataean city in Jordan famous for its rock-cut water channels and cisterns. :: Petra
-The Nabataean city in Saudi Arabia, a UNESCO site, with ancient wells and tombs. :: Hegra (Al-Hijr, Mada'in Salih)
 The ancient Roman aqueduct bridge in southern France with three tiers of arches. :: Pont du Gard
 The Roman water commissioner, appointed in 97 AD, who wrote De Aquaeductu. :: Sextus Julius Frontinus
 The US Navy ship model basin in Maryland named after an admiral and naval architect. :: David Taylor Model Basin
 The Japanese engineer who designed the drag-reducing 'Shinkansen nose' inspired by a kingfisher's beak. :: Eiji Nakatsu
 The first jet-powered car to break the sound barrier, in 1997. :: ThrustSSC
-The Kármán line, often used as the edge of space, is at this altitude. :: 100 km
 The 1928 St. Francis Dam failure happened in this US state. :: California
 The huge desalination and power plant on Saudi Arabia's Gulf coast north of Jubail. :: Ras Al-Khair
 The Saudi Saline Water Conversion Corporation was renamed this in 2023. :: Saudi Water Authority
-The desalination method that pushes seawater through a membrane under high pressure. :: Reverse osmosis
 Seawater reverse osmosis must overcome osmotic pressure of roughly this many bar. :: About 25 to 30 bar
 The device that recovers energy from reverse osmosis brine using rotating ceramic ducts. :: Pressure exchanger
 The thermal desalination method that boils seawater in many stages at falling pressures. :: Multi-stage flash (MSF)
@@ -497,21 +501,17 @@ The study of how fluids flow in the human cardiovascular system. :: Haemodynamic
 The ear device whose fluid movement senses rotation. :: Semicircular canals
 The phenomenon where tea leaves gather in the middle of a stirred cup. :: Tea leaf paradox (secondary flow)
 The physicist who explained the tea leaf paradox and river meanders in 1926. :: Albert Einstein
-The jet-fan inventor whose bladeless fans use the Coandă effect. :: James Dyson
 The thin falling stream of liquid that coils like rope, as with honey on toast. :: Liquid rope coiling
-The 'Mpemba effect' claims hot water does this faster than cold. :: Freezes
 The Leidenfrost effect makes water drops do this on a very hot pan. :: Skate (hover) on a vapour layer
 The famous hydrodynamic fable: a bumblebee 'cannot fly' according to calculations that ignored this. :: Unsteady (vortex) lift
 The 1883 Reynolds experiment apparatus is still kept at this university. :: University of Manchester
 The British engineer who designed the London sewers after the Great Stink of 1858. :: Joseph Bazalgette
 The Greek inventor in 3rd-century BC Alexandria credited with the force pump and water organ. :: Ctesibius
 The French engineer whose 1732 tube measured the speed of a river's flow. :: Henri Pitot
-The Italian physicist after whom the Venturi effect is named. :: Giovanni Battista Venturi
 The American engineer who built the first practical Venturi meter in 1887. :: Clemens Herschel
 The American millwright who patented the inward-flow water turbine in 1849 that grew into today's most common type. :: James B. Francis
 The Austrian professor who invented the adjustable-blade propeller turbine in 1913. :: Viktor Kaplan
 The American mining engineer who patented the split-bucket impulse wheel in 1880. :: Lester Pelton
 The French engineer whose 1827 water turbine was the first practical one. :: Benoît Fourneyron
-The Hoover Dam is on this river. :: Colorado River
-The world's largest hydroelectric dam by installed capacity, in China. :: Three Gorges Dam
 The 1889 US dam failure that killed over 2,200 people in Johnstown, Pennsylvania. :: South Fork Dam
+Rayleigh–Bénard convection starts above a critical Rayleigh number of about this for rigid boundaries. :: 1,708

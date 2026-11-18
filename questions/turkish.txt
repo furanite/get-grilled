@@ -123,6 +123,17 @@ The Turkish letter "ğ" is called this. :: Soft g (yumuşak ge)
 The Turkish letter "ü" is like the "u" in this language's "über". :: German
 The Turkish alphabet has this many letters. :: 29
 The Turkish alphabet has no Q, W or this letter. :: X
+The Turkish word "imam" leads this. :: Prayer
+The Turkish word "Kuran" means this. :: The Quran
+The Turkish word "hac" means this. :: Hajj
+The Turkish word "zekat" means this. :: Zakat (obligatory charity)
+The Turkish word "helal" means this. :: Permitted (halal)
+The Turkish word "haram" means this. :: Forbidden
+The Turkish word "iman" means this, from Arabic. :: Faith
+The Turkish word "fizik" means this. :: Physics
+The Turkish word "matematik" means this. :: Mathematics
+The Turkish dish "Adana kebap" is named after this city. :: Adana
+The Ottoman word "hamam" means this. :: A bathhouse
 
 ## 200
 The Turkish word "merhaba" comes from this language. :: Arabic (marhaba)
@@ -239,6 +250,29 @@ The Turkish word "oda" means this. :: Room
 The Turkish word "masa" means this, from Italian or Greek. :: Table
 The Turkish word "sandalye" means this, from Greek. :: Chair
 The Turkish word "anahtar" means this. :: Key
+The Turkish word "kahvaltı" means this. :: Breakfast
+The Turkish dessert made from shredded pastry and cheese. :: Künefe
+The Turkish word "köfte" means this. :: Meatballs
+The old Arabic name for Istanbul. :: Al-Qustantiniyya
+The Turkish spoken in Cyprus is called this. :: Cypriot Turkish
+The Turkish word "mümkün" means this, from Arabic. :: Possible
+The Turkish word "imkansız" means this. :: Impossible
+The Turkish word "lazım" means this, from Arabic. :: Necessary
+The Turkish word "istiklal" means this, from Arabic. :: Independence
+The Turkish word "cumhuriyet" means this, from Arabic. :: Republic
+The Turkish word "hürriyet" means this, from Arabic. :: Freedom
+The Turkish word "adalet" means this, from Arabic. :: Justice
+The Turkish word "medeniyet" means this, from Arabic. :: Civilisation
+The Turkish word "seyahat" means this, from Arabic. :: Travel
+The Turkish word "ticaret" means this, from Arabic. :: Trade
+The Turkish word "ziraat" means this, from Arabic. :: Agriculture
+The Turkish word "tıp" means this, from Arabic. :: Medicine (the science)
+The Turkish word "mimar" means this, from Arabic. :: Architect
+The Ottoman word for the Friday sermon. :: Hutbe
+The Ottoman word "kervansaray" means this. :: Caravanserai (inn for traders)
+The Turkish word "teşekkür" comes from this Arabic root. :: Shukr (thanks)
+The Turkish word "müdür" means this, from Arabic. :: Director (manager)
+The Turkish word "hava" means both this and "weather". :: Air
 
 ## 300
 The Turkish word "kalem" comes from Arabic "qalam", which came from this older language. :: Greek (kalamos, reed)
@@ -247,30 +281,21 @@ The Turkish word "mektup" means this, and comes from Arabic "maktub". :: Letter 
 The Turkish word "mektep" means this, and comes from Arabic "maktab". :: School (old word)
 The Turkish word "medrese" means this. :: Madrasa (religious college)
 The Turkish word "hoca" means this. :: Teacher (religious teacher)
-The Turkish word "imam" leads this. :: Prayer
 The Turkish word "müezzin" gives this. :: The call to prayer (ezan)
 The Turkish word for the call to prayer. :: Ezan
 The Turkish word "namaz" for prayer comes from this language. :: Persian
 The Turkish word "oruç" means this. :: Fasting
 The Turkish word "abdest" means this, from Persian. :: Ablution (wudu)
-The Turkish word "Kuran" means this. :: The Quran
 The Turkish word "hafız" means this. :: Someone who has memorised the Quran
-The Turkish word "hac" means this. :: Hajj
 The Turkish word "hacı" means this. :: A person who has done Hajj
-The Turkish word "zekat" means this. :: Zakat (obligatory charity)
 The Turkish word "sadaka" means this. :: Charity (voluntary)
-The Turkish word "helal" means this. :: Permitted (halal)
-The Turkish word "haram" means this. :: Forbidden
 The Turkish word "sabır" means this, from Arabic. :: Patience
 The Turkish word "şükür" means this, from Arabic. :: Gratitude
-The Turkish word "iman" means this, from Arabic. :: Faith
 The Turkish word "ahlak" means this, from Arabic. :: Morals (manners)
 The Turkish word "edebiyat" means this, from Arabic. :: Literature
 The Turkish word "tarih" means this, from Arabic. :: History (also date)
 The Turkish word "coğrafya" means this. :: Geography
 The Turkish word "kimya" means this. :: Chemistry
-The Turkish word "fizik" means this. :: Physics
-The Turkish word "matematik" means this. :: Mathematics
 The Turkish word "felsefe" means this, from Arabic. :: Philosophy
 The Turkish word "üniversite" comes from this language. :: French
 Many modern Turkish words like "otobüs", "tren" and "kuaför" come from this language. :: French
@@ -441,7 +466,6 @@ The Turkish word "çini" means this. :: Glazed tile
 The famous Turkish tile town. :: İznik
 The Turkish word "halı" means this. :: Carpet
 The Turkish word "kilim" means this. :: A flat-woven rug
-The Turkish word "kahvaltı" means this. :: Breakfast
 "Kahvaltı" comes from "kahve altı", meaning this. :: Before coffee (food under coffee)
 The Turkish coffee is cooked in this small pot. :: A cezve
 The Turkish tea is served in this kind of glass. :: A tulip-shaped glass
@@ -453,22 +477,18 @@ The Turkish lentil soup. :: Mercimek çorbası
 The Turkish word "çorba" means this, from Persian. :: Soup
 The Turkish sesame bread ring. :: Simit
 The Turkish milk pudding. :: Sütlaç
-The Turkish dessert made from shredded pastry and cheese. :: Künefe
 The Turkish word "pide" means this. :: A boat-shaped flatbread
 The Turkish ice cream that is stretchy. :: Dondurma (Maraş ice cream)
 The Turkish word "meze" means this. :: Small starter dishes
 The Turkish word "börek" means this. :: Filled pastry
-The Turkish word "köfte" means this. :: Meatballs
 The Turkish word "şiş" means this. :: Skewer
 The Turkish dish "İskender kebap" is from this city. :: Bursa
-The Turkish dish "Adana kebap" is named after this city. :: Adana
 The Turkish word "baklava" is linked to the Ottoman palace kitchens of this city. :: Istanbul (Topkapı)
 The Turkish city famous for pistachio baklava. :: Gaziantep
 The Turkish letter "ğ" never starts this. :: A word
 The Turkish letter "ğ" usually does this to the vowel before it. :: Makes it longer
 The Turkish dotted capital "İ" and dotless small "ı" are a famous problem for this. :: Computers (case conversion)
 The Turkish word for "Istanbul" in Ottoman times was also this. :: Konstantiniyye (Dersaadet)
-The old Arabic name for Istanbul. :: Al-Qustantiniyya
 The Companion buried near the walls of Istanbul, who joined an early siege. :: Abu Ayyub al-Ansari ﵁
 The Istanbul district named after Abu Ayyub al-Ansari ﵁. :: Eyüp (Eyüpsultan)
 The Turkish proverb "Söz gümüşse sükut altındır" means this. :: If speech is silver, silence is gold
@@ -486,7 +506,6 @@ The Turkic language of the Uyghurs is written in this script in China. :: The Ar
 The Turkic language of Tatarstan in Russia. :: Tatar
 The extinct Turkic language of the Bulgars survives in this language. :: Chuvash
 The Turkic language with Turkish in the Oghuz branch, spoken in Turkmenistan. :: Turkmen
-The Turkish spoken in Cyprus is called this. :: Cypriot Turkish
 The Turkish of Ottoman Muslims of the Balkans survives in this country among others. :: Bulgaria (and North Macedonia, Greece)
 The Turkish vowel harmony has two kinds, based on these. :: Front and back (and rounded and unrounded)
 The two-way vowel harmony gives the ending -ler or -lar. Words with "e, i, ö, ü" take this. :: -ler
@@ -506,25 +525,12 @@ The Turkish word "galiba" means this, from Arabic. :: Probably
 The Turkish word "nihayet" means this, from Arabic. :: Finally
 The Turkish word "aslında" means this. :: Actually
 The Turkish word "maalesef" means this, from Arabic. :: Unfortunately
-The Turkish word "mümkün" means this, from Arabic. :: Possible
-The Turkish word "imkansız" means this. :: Impossible
-The Turkish word "lazım" means this, from Arabic. :: Necessary
 The Turkish word "mecburiyet" means this, from Arabic. :: Obligation
 The Turkish word "istikbal" means this, from Arabic. :: The future
-The Turkish word "istiklal" means this, from Arabic. :: Independence
 The Turkish word "inkılap" means this, from Arabic. :: Reform (revolution)
-The Turkish word "cumhuriyet" means this, from Arabic. :: Republic
 "Cumhuriyet" comes from the Arabic word "jumhur" meaning this. :: The public (the people)
-The Turkish word "hürriyet" means this, from Arabic. :: Freedom
-The Turkish word "adalet" means this, from Arabic. :: Justice
-The Turkish word "medeniyet" means this, from Arabic. :: Civilisation
-The Turkish word "seyahat" means this, from Arabic. :: Travel
-The Turkish word "ticaret" means this, from Arabic. :: Trade
 The Turkish word "sanayi" means this, from Arabic. :: Industry
-The Turkish word "ziraat" means this, from Arabic. :: Agriculture
-The Turkish word "tıp" means this, from Arabic. :: Medicine (the science)
 The Turkish word "mühendis" means this, from Arabic and Persian. :: Engineer
-The Turkish word "mimar" means this, from Arabic. :: Architect
 The Turkish word "kütüphane" means this. :: Library
 "Kütüphane" mixes the Arabic "kutub" with this Persian word for house. :: Hane (khane)
 The Turkish word "postane" means this. :: Post office
@@ -545,7 +551,6 @@ The new word "sorun" is used beside this Arabic word for problem. :: Mesele
 The language reform movement to remove Arabic and Persian words is called this. :: Öztürkçe (pure Turkish)
 The Ottoman scholar Ahmed Cevdet Pasha ﵀ led the writing of this civil law code. :: The Mecelle
 The Mecelle was based on this school of Islamic law. :: The Hanafi school
-The Ottoman word for the Friday sermon. :: Hutbe
 The Turkish Ministry of Religious Affairs is called this. :: Diyanet
 The Ottoman word "ferman" means this. :: A royal decree
 The Ottoman word "berat" means this. :: A royal licence (warrant)
@@ -554,8 +559,6 @@ The Ottoman word "imaret" means this. :: A public kitchen (soup kitchen)
 The Ottoman word "külliye" means this. :: A mosque complex with schools, kitchens and baths
 The Ottoman word "darüşşifa" means this. :: Hospital (house of healing)
 The Ottoman word "sebil" means this. :: A public drinking fountain
-The Ottoman word "hamam" means this. :: A bathhouse
-The Ottoman word "kervansaray" means this. :: Caravanserai (inn for traders)
 The Ottoman word "han" means this in towns. :: An inn or trade building
 The Ottoman word "bedesten" means this. :: A covered market for valuable goods
 The Turkish calligrapher who founded the Ottoman style of naskh in the 1400s. :: Şeyh Hamdullah ﵀
@@ -576,16 +579,13 @@ Yahya Kemal ﵀ is famous for poems about this city. :: Istanbul
 The Turkish novelist of "Saatleri Ayarlama Enstitüsü". :: Ahmet Hamdi Tanpınar ﵀
 The writer of "Çalıkuşu" (The Wren). :: Reşat Nuri Güntekin ﵀
 The famous Turkish poet Cahit Sıtkı Tarancı ﵀ wrote this poem about turning 35. :: Otuz Beş Yaş
-The Turkish word "teşekkür" comes from this Arabic root. :: Shukr (thanks)
 The Turkish word "tebrik" comes from this Arabic root. :: Baraka (blessing)
 The Turkish word "müracaat" means this, from Arabic. :: Application
-The Turkish word "müdür" means this, from Arabic. :: Director (manager)
 The Turkish word "memur" means this, from Arabic. :: Civil servant (official)
 The Turkish word "rica" means this, from Arabic. :: Request
 "Rica ederim" is said as a reply to this. :: Thank you (you're welcome)
 The Turkish word "teşkilat" means this, from Arabic. :: Organisation
 The Turkish word "nüfus" means this, from Arabic. :: Population
-The Turkish word "hava" means both this and "weather". :: Air
 
 ## translate
 Merhaba :: Hello

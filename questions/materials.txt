@@ -91,7 +91,6 @@ The ocean pollution particles smaller than 5 mm. :: Microplastics
 The metal most recycled in the world. :: Steel
 Aluminium is made from bauxite using a lot of this. :: Electricity
 The material of most hip implant balls besides metal, valued for wear resistance. :: Ceramic (alumina or zirconia)
-Teeth enamel is mainly made of this mineral. :: Hydroxyapatite
 The metal used in most electrical wiring because it conducts well and is cheap. :: Copper
 Overhead power lines are usually made of this metal for its lightness. :: Aluminium
 The gas used to fill neon signs. :: Neon
@@ -104,6 +103,11 @@ The number of carats in pure gold. :: 24
 Sterling silver contains this percentage of silver. :: 92.5%
 The tyre company named after the inventor of vulcanised rubber. :: Goodyear
 The yellow metal that never rusts, used in jewellery and electronics. :: Gold
+For a light, stiff beam, the material index to maximise is E^(1/2)/ρ. Here E is this. :: Young's modulus
+What is the highest point on this stress–strain curve called? {img:stress-strain.svg} :: Ultimate tensile strength
+The process of making parts layer by layer. :: Additive manufacturing (3D printing)
+The Saudi university in Dhahran famous for petroleum, minerals and materials engineering. :: KFUPM
+The skyscraper for which concrete was pumped to a then-record height of over 600 m. :: Burj Khalifa
 
 ## 200
 The regular repeating arrangement of atoms in a solid. :: Crystal structure (lattice)
@@ -207,6 +211,27 @@ The fracture surface of a ductile metal tensile test looks like this. :: Cup and
 The hardness test that measures depth with a cone or ball and gives HRC values. :: Rockwell hardness test
 Nitinol is made of nickel and this metal. :: Titanium
 Name this crystal unit cell, with an atom only at each corner. {img:cell-sc.svg} :: Simple cubic
+Name this crystal unit cell, with one extra atom in the centre of the cube. {img:cell-bcc.svg} :: Body-centred cubic (BCC)
+Name this crystal unit cell, with an extra atom in the centre of each face. {img:cell-fcc.svg} :: Face-centred cubic (FCC)
+The microscope that images surfaces with a focused electron beam. :: SEM (scanning electron microscope)
+The microscope that sends electrons through a thin sample. :: TEM (transmission electron microscope)
+The quenching medium that cools fastest of water, oil and air. :: Water (especially brine)
+The temperature above which a ferromagnet loses its magnetism. :: Curie temperature
+The strongest commercial permanent magnets. :: Neodymium (NdFeB) magnets
+The nanomaterial that is a rolled-up sheet of graphene. :: Carbon nanotube
+Aerogels are known for being extremely this. :: Light (low density)
+The first solid to form during solidification grows from these sites. :: Nuclei
+The epoxy hardener and resin react in this kind of process. :: Curing (cross-linking)
+ASTM stands for American Society for Testing and this. :: Materials
+The non-destructive test that uses high-frequency sound to find internal flaws. :: Ultrasonic testing
+How many atoms belong to one unit cell of this structure? {img:cell-bcc.svg} :: 2
+Before 1886, aluminium was so costly that this monument in Washington got an aluminium cap in 1884. :: Washington Monument
+The borosilicate glass used for lab glassware and oven dishes. :: Pyrex
+The 1912 ship disaster where brittle steel and rivets have been blamed for the hull damage. :: Titanic
+The 1986 Space Shuttle disaster caused by O-rings that lost elasticity in the cold. :: Challenger
+The material that won the 2010 Nobel Prize in Physics. :: Graphene
+The 2019 Nobel Prize in Chemistry went for developing these batteries. :: Lithium-ion batteries
+How many atoms belong to one unit cell of this structure? {img:cell-fcc.svg} :: 4
 
 ## 300
 The rule that predicts which elements form solid solutions, based on size and bonding. :: Hume-Rothery rules
@@ -292,7 +317,6 @@ The slow drop in stress when a polymer is held at constant strain. :: Stress rel
 The simple spring and dashpot in series model for viscoelastic materials. :: Maxwell model
 The spring and dashpot in parallel model. :: Kelvin–Voigt model
 The equation that shifts polymer properties with temperature near Tg. :: WLF equation (Williams–Landel–Ferry)
-The polymer that is a liquid crystal and spun into Kevlar. :: Poly-paraphenylene terephthalamide
 Ultra-high molecular weight polyethylene fibres sold under this name are used in ropes and armour. :: Dyneema (or Spectra)
 The fibre–matrix bond in composites is improved by these surface coatings. :: Sizing (coupling agents)
 The failure where composite layers separate. :: Delamination
@@ -302,16 +326,20 @@ The common failure criterion for composite plies that uses one quadratic equatio
 The heated pressure vessel used to cure high-quality carbon fibre parts. :: Autoclave
 The ratio of Young's modulus to density, which matters for light stiff structures. :: Specific stiffness
 The charts that plot one material property against another for material selection. :: Ashby charts
-For a light, stiff beam, the material index to maximise is E^(1/2)/ρ. Here E is this. :: Young's modulus
 The equation linking yield strength to grain size. :: Hall–Petch equation
 The rule that relates phases, components and degrees of freedom. :: Gibbs phase rule
 Martensite has this crystal structure. :: Body-centred tetragonal (BCT)
 The test that measures how deep a steel will harden by quenching one end. :: Jominy end-quench test
 The method used to grow large single crystals of silicon. :: Czochralski process
 The rule used to find the amount of each phase in a two-phase region. :: Lever rule
-Name this crystal unit cell, with one extra atom in the centre of the cube. {img:cell-bcc.svg} :: Body-centred cubic (BCC)
-Name this crystal unit cell, with an extra atom in the centre of each face. {img:cell-fcc.svg} :: Face-centred cubic (FCC)
-What is the highest point on this stress–strain curve called? {img:stress-strain.svg} :: Ultimate tensile strength
+Teeth enamel is mainly made of this mineral. :: Hydroxyapatite
+Napoleon III reportedly served his most honoured guests with cutlery made of this. :: Aluminium
+The physicist who showed the O-ring failure by dipping rubber in iced water at a hearing. :: Richard Feynman
+The 2003 Space Shuttle disaster caused by foam hitting the wing's carbon–carbon panel. :: Columbia
+The 'Boeing 787' is about half made of this material by weight. :: Composites (carbon fibre reinforced plastic)
+The Swedish engineer who introduced the steel-ball hardness test in 1900. :: Johan August Brinell
+The French metallurgist who introduced the notched-bar impact test in 1901. :: Georges Charpy
+KAUST's campus is on the Red Sea coast at this town. :: Thuwal
 
 ## 400
 The Miller indices of the close-packed planes in an FCC crystal. :: {111}
@@ -324,8 +352,6 @@ The number of crystal systems. :: Seven
 The number of space groups in three dimensions. :: 230
 Diffraction only happens for planes where h+k+l is even in this lattice. :: BCC
 Diffraction happens in FCC only when h, k and l are all this. :: All odd or all even (unmixed)
-The microscope that images surfaces with a focused electron beam. :: SEM (scanning electron microscope)
-The microscope that sends electrons through a thin sample. :: TEM (transmission electron microscope)
 The analysis of X-rays given off in an SEM to find elements. :: EDS (energy-dispersive X-ray spectroscopy)
 The SEM technique that maps grain orientations. :: EBSD (electron backscatter diffraction)
 The probe microscope that maps surfaces with a tiny tip on a cantilever. :: AFM (atomic force microscope)
@@ -348,7 +374,6 @@ Steels that combine ferrite and martensite for car bodies. :: Dual-phase steels
 Steels whose retained austenite turns to martensite during deformation. :: TRIP steels
 Steels that deform by twinning, with very high manganese. :: TWIP steels
 Ultra-high-strength steels aged to form intermetallic precipitates, with very low carbon. :: Maraging steels
-The quenching medium that cools fastest of water, oil and air. :: Water (especially brine)
 The cracking risk from quenching that is too severe. :: Quench cracking
 The steel grade AISI 1045 has about this much carbon. :: 0.45%
 The SAE steel 4140 is alloyed with chromium and this. :: Molybdenum
@@ -370,38 +395,29 @@ The ceramic toughened by adding a second phase of fibres or whiskers. :: Ceramic
 The ceramic superconductor YBCO becomes superconducting at about this temperature. :: About 92 K
 The ceramic material used in most multilayer capacitors. :: Barium titanate
 The piezoelectric ceramic used in sensors and buzzers. :: PZT (lead zirconate titanate)
-The temperature above which a ferromagnet loses its magnetism. :: Curie temperature
 Magnetic materials that are easy to magnetise and demagnetise, like transformer steel. :: Soft magnetic materials
-The strongest commercial permanent magnets. :: Neodymium (NdFeB) magnets
 Transformer cores use silicon steel in thin layers to reduce this. :: Eddy current losses
 Glassy metals made by cooling very fast. :: Metallic glasses (amorphous metals)
 Alloys of five or more elements in near-equal amounts. :: High-entropy alloys
 Materials designed with structures that give unusual properties, like negative Poisson's ratio. :: Metamaterials
 A material with negative Poisson's ratio that gets fatter when stretched. :: Auxetic material
-The nanomaterial that is a rolled-up sheet of graphene. :: Carbon nanotube
 The 60-carbon football-shaped molecule discovered in 1985. :: Buckminsterfullerene (C60)
-Aerogels are known for being extremely this. :: Light (low density)
-The process of making parts layer by layer. :: Additive manufacturing (3D printing)
 The 3D printing method that melts metal powder with a laser. :: Selective laser melting (powder bed fusion)
 The hot-pressing process that removes internal pores in castings with gas pressure. :: Hot isostatic pressing (HIP)
 The defect in castings caused by metal shrinking as it solidifies. :: Shrinkage porosity
 The tree-like crystals that grow as metals solidify. :: Dendrites
 The separation of alloying elements during solidification. :: Segregation
-The first solid to form during solidification grows from these sites. :: Nuclei
 Nucleation on surfaces or impurities is called this. :: Heterogeneous nucleation
 The radius above which a nucleus will grow. :: Critical radius
 Polymer recycling that breaks chains back to monomers. :: Chemical recycling
 The degradation of polymers by ultraviolet light. :: Photodegradation
 The polymer property measured by the melt flow index. :: Viscosity (molecular weight)
 Thermoplastic elastomers behave like rubber but can be this. :: Remelted (recycled)
-The epoxy hardener and resin react in this kind of process. :: Curing (cross-linking)
 The common test that measures a polymer's softening temperature under load. :: Heat deflection temperature (HDT)
 The craze-like thin cracks bridged by fibrils in glassy polymers. :: Crazing
-ASTM stands for American Society for Testing and this. :: Materials
 The standard ASTM E8 covers this kind of test for metals. :: Tension testing
 The minimum yield strength of ASTM A36 structural steel, in MPa, roughly. :: 250 MPa
 The steel grade for rebar common in Saudi Arabia, with 420 MPa yield. :: Grade 60 (420 MPa)
-The non-destructive test that uses high-frequency sound to find internal flaws. :: Ultrasonic testing
 The NDT method that uses coloured liquid to show surface cracks. :: Dye penetrant testing
 The NDT method that sprinkles iron particles on magnetised steel. :: Magnetic particle testing
 The NDT method that uses induced currents to find cracks in conductors. :: Eddy current testing
@@ -414,7 +430,7 @@ The process that moulds small complex metal parts from powder mixed with a binde
 The coating process that sprays molten particles onto a surface through a plasma jet. :: Plasma spraying
 The vapour coating process used to put hard titanium nitride on drill bits. :: PVD (physical vapour deposition)
 The gold-coloured hard coating seen on many drill bits. :: Titanium nitride (TiN)
-How many atoms belong to one unit cell of this structure? {img:cell-bcc.svg} :: 2
+The polymer that is a liquid crystal and spun into Kevlar. :: Poly-paraphenylene terephthalamide
 
 ## 500
 The physicist father-and-son team who won the 1915 Nobel Prize for X-ray crystallography. :: William Henry and William Lawrence Bragg
@@ -431,8 +447,6 @@ The German who discovered age hardening in aluminium alloys in 1906. :: Alfred W
 The aluminium–copper alloy Wilm discovered, used in Zeppelin airships. :: Duralumin
 The English metallurgist who invented stainless steel in Sheffield in 1913. :: Harry Brearley
 The two people who independently invented the electrolytic aluminium process in 1886. :: Charles Martin Hall and Paul Héroult
-Before 1886, aluminium was so costly that this monument in Washington got an aluminium cap in 1884. :: Washington Monument
-Napoleon III reportedly served his most honoured guests with cutlery made of this. :: Aluminium
 The Austrian chemist who invented the bauxite refining process in 1888. :: Carl Josef Bayer
 The Luxembourg-born metallurgist who invented the titanium extraction process in 1940. :: William Kroll
 The English inventor who patented a converter for cheap steel in 1856. :: Henry Bessemer
@@ -462,12 +476,8 @@ The British engineer who invented the float glass process in the 1950s. :: Alast
 The US company that invented Gorilla Glass for phone screens. :: Corning
 Gorilla Glass is strengthened by swapping sodium ions for these larger ions. :: Potassium ions (ion exchange)
 The Corning glass-ceramic invented by accident by Donald Stookey in 1953. :: Pyroceram (CorningWare)
-The borosilicate glass used for lab glassware and oven dishes. :: Pyrex
-The 1912 ship disaster where brittle steel and rivets have been blamed for the hull damage. :: Titanic
 The World War II ships, some of which cracked in two from brittle fracture. :: Liberty ships
 The tanker that broke in half at its fitting-out pier in Portland, Oregon in 1943. :: SS Schenectady
-The 1986 Space Shuttle disaster caused by O-rings that lost elasticity in the cold. :: Challenger
-The physicist who showed the O-ring failure by dipping rubber in iced water at a hearing. :: Richard Feynman
 The 1980 North Sea platform that capsized after a fatigue crack in a bracing. :: Alexander L. Kielland
 The 1998 German high-speed train crash caused by a fatigue-cracked wheel tyre. :: Eschede disaster
 The American scientist who developed the materials selection charts in Cambridge. :: Michael Ashby
@@ -477,14 +487,12 @@ The Saudi Iron and Steel Company in Jubail is better known by this Arabic name. 
 The aluminium complex at Ras Al-Khair is run by this Saudi mining company. :: Ma'aden
 The gold mine near Madinah worked since ancient times, now run by Ma'aden. :: Mahd adh-Dhahab
 The ceramic tile type used for the Space Shuttle's hottest spots, the nose and wing leading edges. :: Reinforced carbon–carbon (RCC)
-The 2003 Space Shuttle disaster caused by foam hitting the wing's carbon–carbon panel. :: Columbia
 The cheap gold-looking copper–zinc alloy named after an 18th-century London clockmaker. :: Pinchbeck
 The alloy of iron and nickel with almost no thermal expansion, used in clocks. :: Invar
 The Swiss physicist who won the 1920 Nobel Prize for discovering Invar. :: Charles Édouard Guillaume
 The copper–nickel alloy used in many silver-coloured coins. :: Cupronickel
 The alloy of lead and tin used for centuries for plates and tankards. :: Pewter
 The metal that King Croesus of Lydia first used for pure coins. :: Gold (and silver)
-The 'Boeing 787' is about half made of this material by weight. :: Composites (carbon fibre reinforced plastic)
 The Airbus airliner, first flown in 2013, whose wings and fuselage are mostly carbon fibre composite. :: A350 XWB
 Kevlar is about this many times stronger than steel by weight. :: Five
 The 1960s British jet engine fan blade material that failed bird-strike tests and helped bankrupt Rolls-Royce. :: Hyfil (carbon fibre)
@@ -496,25 +504,17 @@ The English bricklayer who patented Portland cement in 1824. :: Joseph Aspdin
 Portland cement was named after its likeness to stone from this place. :: Isle of Portland
 The physicist who won two Nobel Prizes, one for the transistor and one for the theory of superconductivity. :: John Bardeen
 The first transistor, made at Bell Labs in 1947, used this element. :: Germanium
-The Swedish engineer who introduced the steel-ball hardness test in 1900. :: Johan August Brinell
-The French metallurgist who introduced the notched-bar impact test in 1901. :: Georges Charpy
 The British engineer whose cantilever impact test, used mainly for plastics, rivals Charpy's. :: Edwin Gilbert Izod
 The German railway engineer whose fatigue tests on axles in the 1850s to 1870s gave the first S–N curves. :: August Wöhler
-The material that won the 2010 Nobel Prize in Physics. :: Graphene
-The 2019 Nobel Prize in Chemistry went for developing these batteries. :: Lithium-ion batteries
 The cathode material in John Goodenough's 1980 lithium battery breakthrough. :: Lithium cobalt oxide
 The Israeli scientist who won the 2011 Chemistry Nobel for discovering quasicrystals. :: Dan Shechtman
 The year Shechtman first saw quasicrystals in an aluminium–manganese alloy. :: 1982
 The Japanese engineer who invented the neodymium magnet at Sumitomo in the early 1980s. :: Masato Sagawa
 The British chemist who, with James Dickson, made the first PET polyester fibre, Terylene, in 1941. :: John Rex Whinfield
 The Scottish chemist who invented waterproof rubberised cloth in 1823. :: Charles Macintosh
-The Saudi university in Dhahran famous for petroleum, minerals and materials engineering. :: KFUPM
-KAUST's campus is on the Red Sea coast at this town. :: Thuwal
 Ötzi the Iceman, about 5,300 years old, carried an axe with a blade of this metal. :: Copper
 Tutankhamun's iron dagger was made from iron from this source. :: A meteorite
 The patterns on true Damascus blades come from bands of this hard phase. :: Cementite (iron carbide)
-The skyscraper for which concrete was pumped to a then-record height of over 600 m. :: Burj Khalifa
 The blue pigment made in ancient Egypt, one of the first synthetic materials. :: Egyptian blue
 The ancient casting method that uses a wax model melted out of a clay mould. :: Lost-wax (investment) casting
 The Bessemer process cleans molten pig iron by blowing this through it. :: Air
-How many atoms belong to one unit cell of this structure? {img:cell-fcc.svg} :: 4

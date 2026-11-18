@@ -109,7 +109,6 @@ The word "Nowruz" means this. :: New day
 The capital of Iran. :: Tehran
 The capital of Afghanistan. :: Kabul
 The capital of Tajikistan. :: Dushanbe
-"Dushanbe" means this day of the week in Persian. :: Monday
 The Iranian currency. :: The rial
 The famous Persian poet of Shiraz, author of the Divan of love poems. :: Hafez ﵀
 The Persian poet of Shiraz who wrote the Gulistan and the Bustan. :: Saadi ﵀
@@ -127,7 +126,11 @@ The Persian word "pardis" (paradise) first meant this. :: A walled garden
 The Persian word 'farsh' means this. :: Carpet (floor covering)
 The famous Persian carpets come from this country. :: Iran
 The Persian letter "pe" (پ) is not in this language's alphabet. :: Arabic
-The four letters Persian added to the Arabic alphabet. :: Pe, che, zhe and gaf (پ چ ژ گ)
+The Persian word "elm" means this, from Arabic. :: Knowledge (science)
+The Persian word "tarikh" means this, from Arabic. :: History (date)
+The Companion from Persia who suggested the trench at the Battle of the Trench. :: Salman al-Farisi ﵁
+"Al-Farisi" means this. :: The Persian
+Saadi's ﵀ birth city. :: Shiraz
 
 ## 200
 The Persian word "daneshgah" means this. :: University
@@ -190,7 +193,6 @@ The Persian word "mehman" means this. :: Guest
 The Persian word "mehmannavazi" means this. :: Hospitality
 "Taarof" is this Persian custom. :: Ritual politeness (polite offering and refusing)
 "Ghabel nadareh" is a taarof phrase meaning this. :: It's not worthy of you (please, it's free)
-"Ghorbanet beram" is a warm phrase that literally means this. :: May I be sacrificed for you
 "Dastet dard nakoneh" means this. :: May your hand not hurt (thanks for your work)
 "Khasteh nabashid" means this. :: May you not be tired (said to workers)
 "Chashm" means "eye" but is also said to mean this. :: Certainly (gladly, I'll do it)
@@ -262,13 +264,39 @@ The Persian kebab of minced meat on skewers. :: Kabab koobideh
 The Persian ice cream with saffron and rosewater. :: Bastani sonnati
 The famous Persian spice that colours rice yellow. :: Saffron (za'faran)
 The Persian sweet made of thin threads of sugar, "pashmak", means this. :: Like wool (candy floss)
+The four letters Persian added to the Arabic alphabet. :: Pe, che, zhe and gaf (پ چ ژ گ)
+The English word related to the Persian "madar". :: Mother
+The English word related to the Persian "baradar". :: Brother
+The English word related to the Persian "dokhtar". :: Daughter
+Modern Persian took many words from this language after Islam. :: Arabic
+The Persian word "riyazi" means this, from Arabic. :: Mathematics
+The poet who wrote the "Khamseh" (five poems) including "Layla and Majnun". :: Nizami Ganjavi ﵀
+Nizami ﵀ lived in this city, now in Azerbaijan. :: Ganja
+Imam al-Bukhari ﵀ was from this city now in Uzbekistan. :: Bukhara
+The Persian word "she'r" means this, from Arabic. :: Poetry
+The Persian word "siyasat" means this, from Arabic. :: Politics
+The Persian word "shahr" means this. :: City
+The Persian word "yakh" means this. :: Ice
+The ruins of the Achaemenid capital near Shiraz. :: Persepolis
+"Haft" means this number. :: Seven
+The Persian word "shirin" means this taste. :: Sweet
+The Persian word "khosh" means this, as in "khoshhal". :: Good (pleasant)
+The Persian word "honar" means this. :: Art
+The Persian word "telefon-e hamrah" means this. :: Mobile phone
+"Kar kardan" means this. :: To work
+"Fekr kardan" means this, from Arabic "fikr". :: To think
+"Komak kardan" means this. :: To help
+"Zendegi kardan" means this. :: To live
+"Bazi kardan" means this. :: To play
+"Telefon zadan" means this. :: To phone
+"Miravam" means this. :: I go (I am going)
+"Raftam" means this. :: I went
+"Boro!" means this. :: Go!
+"Bia!" means this. :: Come!
 
 ## 300
 Persian belongs to this language family. :: Indo-European (Iranian branch)
 Persian is related to English through this family. :: Indo-European
-The English word related to the Persian "madar". :: Mother
-The English word related to the Persian "baradar". :: Brother
-The English word related to the Persian "dokhtar". :: Daughter
 The English word related to the Persian "nam". :: Name
 The English word related to the Persian "now". :: New
 The English word related to the Persian "setareh". :: Star
@@ -279,16 +307,12 @@ The Behistun inscription helped scholars read this script. :: Cuneiform
 The Persian of the Sasanian era is called this. :: Middle Persian (Pahlavi)
 The script used for Middle Persian. :: Pahlavi script
 Modern Persian in Arabic letters began in this period. :: The 9th–10th centuries
-Modern Persian took many words from this language after Islam. :: Arabic
 The share of Persian words that come from Arabic is often said to be about this. :: About 40 percent (higher in literary language)
 The Persian word "ketab" keeps the Arabic plural "kotob". The Persian plural is also this. :: Ketabha
-The Persian word "elm" means this, from Arabic. :: Knowledge (science)
 The Persian word "olama" means this, from Arabic. :: Scholars
 The Persian word "adab" means this, from Arabic. :: Manners (literature)
 The Persian word "adabiyat" means this, from Arabic. :: Literature
-The Persian word "tarikh" means this, from Arabic. :: History (date)
 The Persian word "jografi" means this. :: Geography
-The Persian word "riyazi" means this, from Arabic. :: Mathematics
 The Persian word "shimi" means this, from French. :: Chemistry
 The Persian word "fizik" means this, from French. :: Physics
 Many modern Persian words like "merci", "otobus" and "televizion" come from this language. :: French
@@ -377,12 +401,13 @@ Ferdowsi ﵀ is famous for writing the Shahnameh with very few words from this l
 The poet who wrote "The Conference of the Birds". :: Farid al-Din Attar ﵀
 In "The Conference of the Birds", the birds search for this king. :: The Simurgh
 The number of birds that reach the end of the journey. :: Thirty (si murgh)
-The poet who wrote the "Khamseh" (five poems) including "Layla and Majnun". :: Nizami Ganjavi ﵀
-Nizami ﵀ lived in this city, now in Azerbaijan. :: Ganja
 The poet of Herat who wrote "Haft Awrang". :: Jami ﵀
 The scholar Ibn Sina ﵀ also wrote a book in Persian called this. :: Danishnama-yi Ala'i
 The scholar who wrote the "Siyasatnama" on government. :: Nizam al-Mulk ﵀
 Nizam al-Mulk ﵀ founded these famous schools. :: The Nizamiyya schools
+"Dushanbe" means this day of the week in Persian. :: Monday
+"Ghorbanet beram" is a warm phrase that literally means this. :: May I be sacrificed for you
+The Saadi ﵀ line beginning "Bani Adam a'za-ye yekdigarand" means this. :: The children of Adam are limbs of one body
 
 ## 400
 The great Persian scholar al-Biruni ﵀ came from this region. :: Khwarazm
@@ -396,12 +421,9 @@ Ibn Sina ﵀ was born near this city. :: Bukhara
 Ibn Sina's ﵀ famous medical book. :: The Canon of Medicine (al-Qanun fi al-Tibb)
 Sibawayh ﵀, the great grammarian of Arabic, was of this background. :: Persian
 Sibawayh's ﵀ great work is simply called this. :: Al-Kitab (The Book)
-Imam al-Bukhari ﵀ was from this city now in Uzbekistan. :: Bukhara
 Imam Muslim ﵀ was from this Persian city. :: Nishapur
 The scholar who wrote "Tafsir al-Kashshaf", from Khwarazm. :: Al-Zamakhshari ﵀
 Imam Abu Hanifa ﵀ was of this family background. :: Persian
-The Companion from Persia who suggested the trench at the Battle of the Trench. :: Salman al-Farisi ﵁
-"Al-Farisi" means this. :: The Persian
 Salman al-Farisi ﵁ came from near this Persian city. :: Isfahan
 The Arabic phrase "Salman minna ahl al-bayt" was said about this Companion. :: Salman al-Farisi ﵁
 The Persian word "dastur" means both "order" and this. :: Grammar
@@ -409,7 +431,6 @@ The Persian word "ghazal" comes from Arabic. The Persian word "rubai" means this
 The Persian poem form "masnavi" means this. :: Rhyming couplets
 The Persian poem form "qasideh" is used for this. :: Praise (odes)
 The Persian name for a poet's pen name. :: Takhallos
-The Persian word "she'r" means this, from Arabic. :: Poetry
 The Persian word "sha'er" means this, from Arabic. :: Poet
 The metre of Persian poetry. :: Aruz
 The Persian word "nasr" means this, from Arabic. :: Prose
@@ -426,10 +447,8 @@ The Persian word "pul" means this. :: Money
 The Persian unit "toman" equals this many rials. :: Ten
 The Persian word "bank" comes from this language. :: French (Italian)
 The Persian word "eghtesad" means this, from Arabic. :: Economy
-The Persian word "siyasat" means this, from Arabic. :: Politics
 The Persian word "dowlat" means this, from Arabic. :: Government
 The Persian word "keshvar" means this. :: Country
-The Persian word "shahr" means this. :: City
 The Persian word "rusta" means this. :: Village
 The Persian word "khiyaban" means this. :: Street (avenue)
 The Persian word "kucheh" means this. :: Alley (lane)
@@ -443,20 +462,17 @@ The Persian word for wind catcher. :: Badgir
 The desert city in Iran famous for wind catchers. :: Yazd
 The Persian ice house of mud domes. :: Yakhchal
 "Yakhchal" means this. :: Ice pit
-The Persian word "yakh" means this. :: Ice
 The Persian word "ab-anbar" means this. :: Water reservoir (cistern)
 The Persian four-part garden. :: Chahar bagh
 "Chahar bagh" means this. :: Four gardens
 The famous garden in Shiraz. :: Eram Garden
 The famous Persian garden in Kashan. :: Fin Garden
 Nine historic gardens of Iran are listed together by UNESCO under this name. :: The Persian Garden
-The ruins of the Achaemenid capital near Shiraz. :: Persepolis
 Persepolis is called this in Persian. :: Takht-e Jamshid
 The Achaemenid king who began Persepolis. :: Darius I
 The tomb of Cyrus the Great is at this site. :: Pasargadae
 The Persian word "jashn" means this. :: Celebration
 The Persian Nowruz table of seven items starting with S. :: Haft-sin
-"Haft" means this number. :: Seven
 The sprouted wheat or lentils on the Haft-sin table. :: Sabzeh
 The sweet wheat pudding on the Haft-sin table. :: Samanu
 The thirteenth day after Nowruz, when people go outdoors. :: Sizdah Bedar
@@ -488,7 +504,6 @@ The Iranian region that grows most of the world's saffron. :: Khorasan
 The Persian word "golab" means this. :: Rosewater
 The Iranian town famous for rosewater festivals. :: Kashan (Qamsar)
 The Persian word "torsh" means this taste. :: Sour
-The Persian word "shirin" means this taste. :: Sweet
 The Persian word "shor" means this taste. :: Salty
 The Persian word "talkh" means this taste. :: Bitter
 The Persian word "tond" means this taste. :: Spicy (hot)
@@ -506,7 +521,6 @@ In Persian, the Arabic letter "و" is often pronounced as this, unlike Arabic. :
 In Persian, the Arabic "ة" (ta marbuta) is often written as this. :: Heh (ه) or teh (ت)
 The Persian "ye" at the end has no dots, unlike Arabic. Its shape is this. :: ی (Farsi yeh)
 The Persian "kaf" (ک) is written differently from Arabic in this way. :: It has no small hamza-like mark at the end
-The Persian word "khosh" means this, as in "khoshhal". :: Good (pleasant)
 The Persian word "khoshnevis" means this. :: Calligrapher
 The Persian hanging script of calligraphy. :: Nasta'liq
 The calligrapher known as the "king of calligraphers" in Safavid times. :: Mir Emad ﵀
@@ -519,7 +533,6 @@ The Persian mirror-work on walls and ceilings. :: Ayeneh-kari
 The Persian art of inlaid wood, ivory and metal in tiny patterns. :: Khatam-kari
 The Persian enamel art on copper. :: Minakari
 The Persian copper-hammering bazaar is in this city. :: Isfahan
-The Persian word "honar" means this. :: Art
 The Persian word "honarmand" means this. :: Artist
 The Persian ending "-mand" means this. :: Having (possessing)
 "Daneshmand" means this. :: Scientist (scholar)
@@ -544,7 +557,6 @@ The Academy's new word "rayaneh" means this. :: Computer
 The Academy's new word "bālgard" means this. :: Helicopter
 The Academy's new word "pāyāneh" means this. :: Terminal
 The Academy's new word "yārāneh" means this. :: Subsidy
-The Persian word "telefon-e hamrah" means this. :: Mobile phone
 The Persian word "hamrah" means this. :: Companion (with)
 The Persian word "hamsayeh" means this. :: Neighbour (sharing shade)
 The Persian prefix "ham-" means this. :: Together (same)
@@ -553,24 +565,14 @@ The Persian prefix "ham-" means this. :: Together (same)
 "Hamsar" means this. :: Spouse
 "Hamdel" means this. :: Of one heart (in agreement)
 The Persian verb "kardan" makes compound verbs like "sohbat kardan", meaning this. :: To talk
-"Kar kardan" means this. :: To work
 "Gerye kardan" means this. :: To cry
-"Fekr kardan" means this, from Arabic "fikr". :: To think
-"Komak kardan" means this. :: To help
-"Zendegi kardan" means this. :: To live
-"Bazi kardan" means this. :: To play
-"Telefon zadan" means this. :: To phone
 "Harf zadan" means this. :: To talk
 "Gush dadan" means this. :: To listen
 "Yad gereftan" means this. :: To learn
 "Yad dadan" means this. :: To teach
 The Persian prefix "mi-" shows this. :: Present or continuous action
-"Miravam" means this. :: I go (I am going)
-"Raftam" means this. :: I went
 "Khaham raft" means this. :: I will go
 The prefix "be-" before a verb often makes this. :: The subjunctive or command
-"Boro!" means this. :: Go!
-"Bia!" means this. :: Come!
 "Bebin!" means this. :: Look!
 The Persian object marker after a definite object. :: Ra (را)
 "Ketab ra khandam" means this. :: I read the book
@@ -579,9 +581,7 @@ The Persian word "-am" at the end of a word means this. :: My (or I am)
 "Doostam" can mean this. :: My friend
 The Persian word "khodam" means this. :: Myself
 The poet Rumi's ﵀ line "Har kasi kou door mand az asl-e khish" is about this. :: Longing to return to one's origin
-The Saadi ﵀ line beginning "Bani Adam a'za-ye yekdigarand" means this. :: The children of Adam are limbs of one body
 Hafez's ﵀ title "Lisan al-Ghayb" means this. :: The Tongue of the Unseen
-Saadi's ﵀ birth city. :: Shiraz
 The Persian saying "Ta nabashad chizaki, mardom nagooyand chizha" means this. :: There is no smoke without fire
 The Persian saying "Har ke bamash bish" is about the cost of this. :: Wealth (bigger houses mean more snow)
 The Persian saying "Ashpaz ke do ta shod, ash ya shoor mishe ya bi namak" means this. :: Too many cooks spoil the broth

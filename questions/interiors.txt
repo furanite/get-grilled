@@ -104,6 +104,21 @@ A room for prayer in a home or office. :: A prayer room (musalla)
 The direction of prayer that interior designers of mosques must find. :: The qiblah
 A small room inside a bedroom for clothes. :: A walk-in closet (dressing room)
 A bathroom attached to a bedroom. :: An en-suite bathroom
+A door that resists fire for a set time. :: A fire door
+Signs that light up and show the way out. :: Exit signs (emergency signage)
+The hinges that close kitchen doors softly. :: Soft-close hinges
+The Arabic decorative writing used in interiors. :: Calligraphy
+Name this star shape, common in Islamic patterns. {img:pattern-star8.svg} :: An eight-pointed star
+The colour that may make people feel cold. :: Blue
+The hotel design term for the main public room at the entrance. :: The lobby
+The term for the main display window of a shop. :: The shop window (visual merchandising)
+The design of exhibitions in museums. :: Exhibition design
+The term for designing yachts' interiors. :: Yacht interior design
+A soft fabric with a short dense pile, used for sofas. :: Velvet
+A natural fibre from sheep. :: Wool
+A smooth glossy fabric made from silkworms. :: Silk
+Name this tool used to pick colour schemes. {img:colour-wheel.svg} :: A colour wheel
+The Riyadh Front, Boulevard City and other entertainment zones are run under this event. :: Riyadh Season
 
 ## 200
 The usual minimum width of a corridor in a home is about this. :: About 90 centimetres to 1 metre
@@ -128,7 +143,6 @@ The minimum clear space for turning a wheelchair. :: A 1.5 metre circle
 The minimum width of a door for a wheelchair. :: About 80 to 90 centimetres clear
 Grab bars in a bathroom help these people. :: Older and disabled people
 The study of body sizes for design. :: Anthropometrics
-The drawing of the human figure with standard measurements by Henry Dreyfuss. :: Joe and Josephine
 The book "The Measure of Man" was written by this designer. :: Henry Dreyfuss
 The German book of standard room and furniture sizes. :: Neufert (Architects' Data)
 The standard reference book for space planning in the US. :: Time-Saver Standards
@@ -142,8 +156,6 @@ The traditional Arab house splits rooms for guests from rooms for this. :: The f
 The separate men's guest room in Saudi homes. :: The men's majlis
 The space just inside a Saudi home's front door that blocks the view inside. :: A screen (entrance baffle)
 The office layout with no private rooms. :: Open-plan office
-Open-plan offices of the 1960s with movable screens. :: Bürolandschaft (office landscape)
-The furniture system designed for offices by Robert Propst in 1968. :: The Action Office
 The Action Office later led to this office furniture. :: The cubicle
 Offices where workers don't have fixed desks. :: Hot desking
 Offices with different zones for different tasks. :: Activity-based working
@@ -153,13 +165,10 @@ A bed that folds up into a wall. :: A Murphy bed
 Furniture made in modules that can be combined. :: Modular furniture
 The furniture company famous for the Eames Lounge Chair. :: Herman Miller
 The married designers of the Eames Lounge Chair. :: Charles and Ray Eames
-The Eames Lounge Chair was released in this year. :: 1956
 The Danish designer of the Egg Chair. :: Arne Jacobsen
-Arne Jacobsen designed the Egg Chair for this hotel. :: The SAS Royal Hotel in Copenhagen
 The Danish designer of the Wishbone Chair. :: Hans Wegner
 The Danish designer of the PH lamp. :: Poul Henningsen
 The Finnish designer of the Tulip Chair. :: Eero Saarinen
-The Barcelona Chair was designed by Mies van der Rohe and this partner. :: Lilly Reich
 The chair of bent steel tubes by Marcel Breuer. :: The Wassily Chair
 Marcel Breuer was inspired by the handlebars of this. :: A bicycle
 Le Corbusier's reclining chair designed with Charlotte Perriand. :: The LC4 chaise longue
@@ -174,10 +183,8 @@ The Italian design movement of the 1980s with bold colours, founded by Ettore So
 The style of furniture from 18th-century England named after a cabinet maker. :: Chippendale
 The French furniture style with curved legs, under Louis XV. :: Rococo (Louis XV style)
 The curved furniture leg shape of the 18th century. :: Cabriole leg
-The English furniture designer of light Neoclassical pieces. :: George Hepplewhite (and Sheraton)
 The American religious group famous for simple wooden furniture. :: The Shakers
 The decorative style of the 1920s with geometric shapes and rich materials. :: Art Deco
-The French Art Deco furniture designer. :: Jacques-Émile Ruhlmann
 The Arts and Crafts designer William Morris is known for these. :: Wallpapers and textiles
 The Arts and Crafts chair with an adjustable back. :: The Morris chair
 The Scottish designer of high-backed chairs. :: Charles Rennie Mackintosh
@@ -212,6 +219,16 @@ The size of objects compared with the human body or room. :: Scale
 The "rule of three" in styling means grouping items in this. :: Odd numbers (threes)
 The 60-30-10 rule is about this. :: Dividing colours in a room
 In the 60-30-10 rule, 60% is this colour. :: The main (dominant) colour
+The Andalusian palace famous for its Court of the Lions. :: The Alhambra
+The colour theory term for the name of a colour, like red or blue. :: Hue
+The proportion of about 1:1.618 used in design. :: The golden ratio
+Name this proportion shown with squares and a spiral. {img:golden-spiral.svg} :: The golden ratio (golden spiral)
+The "Fibonacci sequence" is linked to this ratio. :: The golden ratio
+Wood from trees like oak and walnut, which lose their leaves. :: Hardwood
+Wood from trees like pine and cedar. :: Softwood
+The Islamic woodwork of turned wooden pieces in lattice screens. :: Mashrabiya (turned wood)
+The Riyadh restaurant in the glass globe at the top of Al Faisaliah Tower. :: The Globe
+The concept of designing products and spaces for people with all abilities. :: Universal design
 
 ## 300
 The international standard paper size for floor plans often used. :: A1 or A3
@@ -247,9 +264,7 @@ Background sound added to offices to hide talk. :: Sound masking (white noise)
 The fire rating of furniture fabric must meet this kind of test. :: A flammability (ignition) test
 The British furniture fire rule tests with a cigarette and this. :: A match flame
 The term for a material that does not catch fire easily. :: Fire-retardant
-A door that resists fire for a set time. :: A fire door
 Fire doors must close by themselves with this. :: A self-closing device
-Signs that light up and show the way out. :: Exit signs (emergency signage)
 The minimum light needed on escape routes if power fails. :: Emergency lighting
 The rules on how many people a room can hold. :: Occupant load
 The anti-slip measure of floor tiles. :: Slip resistance (R rating)
@@ -263,7 +278,6 @@ The term for the space between the counter and wall cabinets. :: About 45 to 60 
 The best depth of a kitchen counter. :: About 60 centimetres
 The best depth of wall cabinets. :: About 30 to 35 centimetres
 A kitchen pull-out shelf for corner cabinets. :: A carousel (lazy Susan)
-The hinges that close kitchen doors softly. :: Soft-close hinges
 The extractor hood should be this high above a stove. :: About 65 to 75 centimetres
 A bathroom with a floor-level shower and no tray. :: A wet room
 The minimum size of a shower is about this. :: 80 × 80 centimetres (90 × 90 preferred)
@@ -288,21 +302,16 @@ The Ottoman tile style named after a town. :: İznik tiles
 The İznik tiles are famous for this colour. :: Blue (and a tomato red)
 The decorative plaster carving in Mudejar interiors. :: Yesería
 The Spanish tile panels. :: Azulejos
-The Andalusian palace famous for its Court of the Lions. :: The Alhambra
 The ceilings of the Alhambra's Hall of the Abencerrajes use these. :: Muqarnas
 The honeycomb-like decoration in Islamic ceilings. :: Muqarnas
 The patterns of curving leaves and vines in Islamic art. :: Arabesques
-The Arabic decorative writing used in interiors. :: Calligraphy
 The geometric patterns of stars in Islamic art. :: Girih
 The interlocking geometric star tiles of Islamic art. :: Girih tiles
 The Persian word "girih" means this. :: Knot
-The 2007 study that showed medieval girih tiles made quasi-crystal patterns was by these researchers. :: Peter Lu and Paul Steinhardt
 The 8-pointed star in Islamic patterns is made from this many squares. :: Two
-Name this star shape, common in Islamic patterns. {img:pattern-star8.svg} :: An eight-pointed star
 The Arabic name of the eight-pointed star made of two squares. :: Khatam (Rub el Hizb shape)
 The colour theory term for how light or dark a colour is. :: Value
 The colour theory term for how strong or pure a colour is. :: Saturation (chroma)
-The colour theory term for the name of a colour, like red or blue. :: Hue
 A colour mixed with white. :: A tint
 A colour mixed with black. :: A shade
 A colour mixed with grey. :: A tone
@@ -321,6 +330,12 @@ A strip along a wall at chair height to protect it. :: A dado rail (chair rail)
 Wood panelling on the lower part of a wall. :: Wainscoting
 A decorative ceiling with sunken panels. :: A coffered ceiling
 A decorative ring on the ceiling around a light. :: A ceiling rose (medallion)
+The decorative technique of inlaying wood pieces in pictures. :: Marquetry
+The Ottoman palace in Istanbul famous for its interiors and harem. :: Topkapı Palace
+Rams's principle: good design is as little design as this. :: Possible
+The term for the arrangement of windows on a façade. :: Fenestration
+The black wood that gave the ébéniste his name. :: Ebony
+The Danish chair designer whose Y-shaped back chair is called the Wishbone. :: Hans Wegner
 
 ## 400
 The famous interior designer known as the first professional decorator in America. :: Elsie de Wolfe
@@ -370,13 +385,10 @@ The Gestalt principle where things close together look like a group. :: Proximit
 The Gestalt principle where similar things look like a group. :: Similarity
 The Gestalt principle where the mind completes a shape. :: Closure
 The principle of shape and space: the empty space around objects. :: Negative space
-The proportion of about 1:1.618 used in design. :: The golden ratio
-Name this proportion shown with squares and a spiral. {img:golden-spiral.svg} :: The golden ratio (golden spiral)
 Le Corbusier's proportion system based on the human body and the golden ratio. :: The Modulor
 The Modulor man is this tall in the system. :: 1.83 metres
 The Japanese room size unit based on mats. :: The tatami (jō)
 One tatami mat is about this size. :: About 0.9 × 1.8 metres
-The "Fibonacci sequence" is linked to this ratio. :: The golden ratio
 The study of how spaces affect behaviour. :: Environmental psychology
 The term for how people use personal space, studied by Edward Hall. :: Proxemics
 Edward Hall's distance for close friends. :: Personal distance (about 45 to 120 cm)
@@ -385,7 +397,6 @@ The geographer who proposed prospect-refuge theory. :: Jay Appleton
 The hospital study by Roger Ulrich showed patients with this view healed faster. :: A view of trees (nature)
 The colour often used in hospitals to calm patients. :: Green (and soft blues)
 The colour said to raise appetite, used in restaurants. :: Red (and orange)
-The colour that may make people feel cold. :: Blue
 The colour temperature of warm white light. :: About 2700 to 3000 kelvin
 The colour temperature of cool daylight. :: About 5000 to 6500 kelvin
 Name this scale, from warm to cool light. {img:colour-temperature.svg} :: Colour temperature (kelvin)
@@ -393,14 +404,10 @@ The measure of how well a light shows true colours. :: CRI (colour rendering ind
 A CRI above this is good for homes and shops. :: 90
 The unit of light falling on a surface. :: Lux
 The unit of light from a source. :: Lumen
-The hotel design term for the main public room at the entrance. :: The lobby
 The hotel term for what makes a hotel's look unique. :: Its design concept (brand identity)
 The term for designing a whole experience from scent to music in shops. :: Experiential (sensory) design
-The term for the main display window of a shop. :: The shop window (visual merchandising)
-The design of exhibitions in museums. :: Exhibition design
 The design of signs that help people find their way. :: Wayfinding design
 The term for designs inside planes and ships. :: Transport interior design
-The term for designing yachts' interiors. :: Yacht interior design
 The term for redesigning an interior with existing furniture. :: Restyling
 The term for preparing a home for sale. :: Home staging
 The American designer who decorated the Kennedy White House with "American country" style. :: Sister Parish
@@ -414,15 +421,18 @@ The term for the threads woven across on a loom. :: Weft
 The test that rubs fabric to check wear, used for upholstery. :: The Martindale (rub) test
 Upholstery fabric for heavy commercial use needs at least this many Martindale rubs. :: About 30,000 or more
 A fabric with a raised woven pattern. :: Jacquard (damask)
-A soft fabric with a short dense pile, used for sofas. :: Velvet
 A natural fibre from the flax plant. :: Linen
-A natural fibre from sheep. :: Wool
 A strong woven fabric with diagonal lines, used for jeans and sofas. :: Denim (twill)
-A smooth glossy fabric made from silkworms. :: Silk
 The leather finishing that keeps the natural surface. :: Full-grain leather
-Wood from trees like oak and walnut, which lose their leaves. :: Hardwood
-Wood from trees like pine and cedar. :: Softwood
 The scented wood used in old Arab doors and chests. :: Cedar (or teak)
+The drawing of the human figure with standard measurements by Henry Dreyfuss. :: Joe and Josephine
+Open-plan offices of the 1960s with movable screens. :: Bürolandschaft (office landscape)
+The furniture system designed for offices by Robert Propst in 1968. :: The Action Office
+The Eames Lounge Chair was released in this year. :: 1956
+Arne Jacobsen designed the Egg Chair for this hotel. :: The SAS Royal Hotel in Copenhagen
+The Barcelona Chair was designed by Mies van der Rohe and this partner. :: Lilly Reich
+The English furniture designer of light Neoclassical pieces. :: George Hepplewhite (and Sheraton)
+The French Art Deco furniture designer. :: Jacques-Émile Ruhlmann
 
 ## 500
 The Roman architect whose book has a section on wall paintings and decoration. :: Vitruvius
@@ -438,13 +448,10 @@ The British Regency furniture maker famous for pattern books. :: Thomas Sheraton
 The cabinet maker whose "Gentleman and Cabinet-Maker's Director" was published in 1754. :: Thomas Chippendale
 The French cabinet maker famous for Boulle marquetry. :: André-Charles Boulle
 Boulle marquetry uses brass and this material. :: Tortoiseshell
-The decorative technique of inlaying wood pieces in pictures. :: Marquetry
 The decorative technique of inlaying geometric wood shapes. :: Parquetry
 The Islamic inlay of wood, bone and mother-of-pearl, famous in Damascus. :: Mosaic woodwork (inlay)
-The Islamic woodwork of turned wooden pieces in lattice screens. :: Mashrabiya (turned wood)
 The Persian lacquer art on boxes and pen cases. :: Persian lacquer (qalamdan)
 The Iranian technique of mirror mosaic was used in the Golestan Palace in this city. :: Tehran
-The Ottoman palace in Istanbul famous for its interiors and harem. :: Topkapı Palace
 The 19th-century Ottoman palace in Istanbul with a huge chandelier. :: Dolmabahçe Palace
 The Dolmabahçe chandelier was a gift from this queen. :: Queen Victoria
 The Mughal palace in Delhi's Red Fort with an inscription "If there is paradise on earth". :: Diwan-i-Khas
@@ -461,7 +468,6 @@ The Bauhaus workshop where Marianne Brandt made metal teapots and lamps. :: The 
 The Bauhaus weaver famous for textiles who became a known artist. :: Anni Albers
 The Bauhaus teacher of the famous colour course. :: Johannes Itten
 Itten's colour wheel has this many colours. :: Twelve
-Name this tool used to pick colour schemes. {img:colour-wheel.svg} :: A colour wheel
 The German poet who wrote a "Theory of Colours" in 1810. :: Johann Wolfgang von Goethe
 The French chemist whose law of simultaneous contrast influenced painters and designers. :: Michel Eugène Chevreul
 The Bauhaus artist who wrote "Interaction of Color". :: Josef Albers
@@ -486,7 +492,6 @@ The Italian design brand known for colourful kitchen items, such as the "Juicy S
 The designer of the Juicy Salif lemon squeezer. :: Philippe Starck
 The German designer whose "Ten Principles of Good Design" influenced Apple. :: Dieter Rams
 Dieter Rams worked for this German company. :: Braun
-Rams's principle: good design is as little design as this. :: Possible
 The furniture system by Dieter Rams for Vitsœ. :: The 606 Universal Shelving System
 The American design couple's "Case Study House No. 8". :: The Eames House
 The Case Study House program was run by this magazine. :: Arts & Architecture
@@ -501,8 +506,6 @@ The traditional Najdi room decorations use white gypsum carvings called this. ::
 The colour of most Najdi interior walls. :: Earthy beige with white gypsum details
 The Bait Nassif museum in Jeddah was once a merchant's house built in this year. :: 1881
 The Saudi Ithra building has a library, cinema and museum. Its interior was designed by this firm. :: Snøhetta
-The Riyadh restaurant in the glass globe at the top of Al Faisaliah Tower. :: The Globe
-The Riyadh Front, Boulevard City and other entertainment zones are run under this event. :: Riyadh Season
 The interior designer's role in hotel projects usually covers FF&E and this. :: OS&E (operating supplies and equipment)
 The term for a cheaper alternative suggested to cut costs. :: Value engineering
 The term for the final snag list before handover. :: A punch list (snag list)
@@ -513,10 +516,8 @@ The US AIA document for design services. :: AIA B101
 The American Society of Interior Designers is known by this short form. :: ASID
 The British Institute of Interior Design is known by this short form. :: BIID
 The term for the visual rhythm of repeated windows or columns. :: Fenestration rhythm
-The term for the arrangement of windows on a façade. :: Fenestration
 The term for the ratio of light-coloured to dark surfaces affecting brightness. :: Surface reflectance
 The term for rooms designed for older people to stay at home. :: Ageing in place
-The concept of designing products and spaces for people with all abilities. :: Universal design
 The seven principles of universal design were set out at this university in 1997. :: North Carolina State University
 The architect who led the universal design team and was himself a wheelchair user. :: Ronald Mace
 The Finnish company known for poppy-print fabrics. :: Marimekko
@@ -525,6 +526,5 @@ The French designer of the "Polar Bear" sofa. :: Jean Royère
 The Japanese architect known for paper-tube structures and furniture. :: Shigeru Ban
 The UK's standard framework of design stages, from brief to use. :: The RIBA Plan of Work
 The French term for a traditional cabinet maker of fine furniture. :: Ébéniste
-The black wood that gave the ébéniste his name. :: Ebony
-The Danish chair designer whose Y-shaped back chair is called the Wishbone. :: Hans Wegner
 The Italian brand that first sold the beanbag chair, the Sacco, in 1968. :: Zanotta
+The 2007 study that showed medieval girih tiles made quasi-crystal patterns was by these researchers. :: Peter Lu and Paul Steinhardt

@@ -99,11 +99,15 @@ The hormone injected by people with type 1 diabetes. :: Insulin
 The exercise of running slowly for fitness. :: Jogging
 The fluid-filled bump on the skin caused by rubbing shoes. :: Blister
 The bone in your upper leg, the longest in the body. :: Femur (thigh bone)
-The condition that turns the skin and eyes yellow, often from liver trouble. :: Jaundice
 The muscle under the lungs that helps you breathe. :: Diaphragm
 One of the two openings of your nose where air enters. :: Nostril
 The body part that shows your fingerprints. :: Fingertips
 The part of the leg between the knee and the ankle at the front. :: Shin
+The viral disease that caused a global pandemic starting in 2019. :: COVID-19
+The body's overreaction to a harmless substance. :: Allergy
+The "powerhouse of the cell". :: Mitochondria
+The hard mineral deposits that form in the kidney. :: Kidney stones
+The pair of tiny almond-sized lymph tissue lumps at the back of the throat, often removed in children. :: Tonsils
 
 ## 200
 The number of bones in the adult human body. :: 206
@@ -122,8 +126,6 @@ The blood cells that help blood clot. :: Platelets
 The liquid part of blood. :: Plasma
 The universal donor blood type. :: O negative
 The universal recipient blood type. :: AB positive
-The scientist who discovered the ABO blood groups. :: Karl Landsteiner
-The scientist who first described the circulation of blood in 1628. :: William Harvey
 The Arab physician who first described pulmonary circulation in the 13th century. :: Ibn al-Nafis
 The Persian physician who wrote "The Canon of Medicine". :: Ibn Sina (Avicenna)
 The ancient Greek known as the father of medicine. :: Hippocrates
@@ -132,7 +134,6 @@ The scientist who discovered penicillin in 1928. :: Alexander Fleming
 The scientist who made the first vaccine, against smallpox. :: Edward Jenner
 The disease declared eradicated by the WHO in 1980. :: Smallpox
 The disease caused by the poliovirus, nearly eradicated. :: Polio
-The scientist who made the first polio vaccine. :: Jonas Salk
 The nurse called "the Lady with the Lamp". :: Florence Nightingale
 The organisation of the UN that deals with health. :: WHO (World Health Organization)
 The city where the WHO is headquartered. :: Geneva
@@ -177,7 +178,6 @@ The organ that filters old red blood cells and helps immunity, on the left side.
 The units in the kidney that filter blood. :: Nephrons
 The normal resting heart rate range for adults, in beats per minute. :: 60 to 100
 The normal blood pressure reading for adults. :: 120/80
-The device that measures blood pressure. :: Sphygmomanometer
 The emergency procedure of chest compressions and rescue breaths. :: CPR
 The device that shocks the heart back into rhythm. :: Defibrillator (AED)
 The move used to help a choking person. :: Heimlich manoeuvre (abdominal thrusts)
@@ -188,7 +188,6 @@ The measure of weight relative to height. :: BMI (body mass index)
 The disease of weak, brittle bones. :: Osteoporosis
 The swelling and pain in joints. :: Arthritis
 The illness of the airways that causes wheezing, treated with an inhaler. :: Asthma
-The viral disease that caused a global pandemic starting in 2019. :: COVID-19
 The respiratory virus first identified in Saudi Arabia in 2012. :: MERS
 The disease spread by Aedes mosquitoes, causing high fever and joint pain, found in Jeddah. :: Dengue fever
 The vitamin needed for blood clotting. :: Vitamin K
@@ -206,6 +205,27 @@ The scan that uses sound waves, often used in pregnancy. :: Ultrasound
 The number of weeks in a typical full-term pregnancy. :: 40
 The number of baby teeth children usually have. :: 20
 The number of adult teeth, including wisdom teeth. :: 32
+The condition that turns the skin and eyes yellow, often from liver trouble. :: Jaundice
+The virus that attacks T cells and causes AIDS. :: HIV
+The disease that causes memory loss in older people, the most common form of dementia. :: Alzheimer's disease
+The scientists who discovered the structure of DNA in 1953: Watson and this man. :: Francis Crick
+The year the WHO declared COVID-19 a pandemic. :: 2020
+The pressure in a blood pressure reading when the heart contracts. :: Systolic
+The pressure in a blood pressure reading when the heart relaxes. :: Diastolic
+The acid that builds up in muscles during hard exercise without enough oxygen. :: Lactic acid
+The chemical in the stomach that kills germs and breaks down food. :: Hydrochloric acid
+The viruses that infect the liver are named A to E with this word. :: Hepatitis
+The process that filters the blood with a machine when kidneys fail. :: Dialysis
+The outermost layer of skin. :: Epidermis
+The type of vaccine used by Pfizer and Moderna against COVID-19. :: mRNA vaccine
+The sheep that was the first cloned mammal from an adult cell. :: Dolly
+The type of cell that can become many other cell types. :: Stem cell
+The process by which cells divide to make two identical cells. :: Mitosis
+The genetic condition caused by an extra copy of chromosome 21. :: Down syndrome
+The monk who founded the science of genetics with pea plants. :: Gregor Mendel
+The organ that supplies a fetus with oxygen and food. :: Placenta
+The 1918 pandemic that killed tens of millions was this disease. :: Influenza (Spanish flu)
+The 14th-century plague that killed about a third of Europe. :: Black Death
 
 ## 300
 The number of litres of blood in an average adult, roughly. :: 5
@@ -246,8 +266,6 @@ The cells in the pancreas that make insulin. :: Beta cells
 The hormone that raises blood sugar, the opposite of insulin. :: Glucagon
 The type of diabetes linked mostly to lifestyle and weight. :: Type 2
 The blood test that shows average blood sugar over about three months. :: HbA1c
-The hormone that makes you feel hungry. :: Ghrelin
-The hormone that makes you feel full. :: Leptin
 The "love hormone" released during bonding. :: Oxytocin
 The brain chemical linked to reward and pleasure. :: Dopamine
 The brain chemical linked to mood, targeted by many antidepressants. :: Serotonin
@@ -260,17 +278,13 @@ The lobe of the brain at the back that processes vision. :: Occipital lobe
 The lobe at the front of the brain that handles planning and personality. :: Frontal lobe
 The language area in the frontal lobe for speech production. :: Broca's area
 The sleep stage when most vivid dreams happen. :: REM sleep
-The disease that causes memory loss in older people, the most common form of dementia. :: Alzheimer's disease
 The disease of tremors caused by loss of dopamine cells. :: Parkinson's disease
 The longest nerve in the body, running down the leg. :: Sciatic nerve
 The nerve that wanders from the brain to the gut. :: Vagus nerve
 The number of pairs of cranial nerves. :: 12
-The number of pairs of spinal nerves. :: 31
 The immune cells that make antibodies. :: B cells
 The immune cells matured in the thymus. :: T cells
-The virus that attacks T cells and causes AIDS. :: HIV
 The Y-shaped proteins that bind to germs. :: Antibodies
-The body's overreaction to a harmless substance. :: Allergy
 The severe, life-threatening allergic reaction. :: Anaphylaxis
 The drug in auto-injector pens for severe allergies. :: Epinephrine (adrenaline)
 The fluid system that drains tissue and carries white blood cells. :: Lymphatic system
@@ -279,17 +293,12 @@ The disease that the BCG vaccine protects against. :: Tuberculosis
 The disease that the MMR vaccine protects against, besides mumps and rubella. :: Measles
 The vaccine required for pilgrims to Saudi Arabia for Hajj and Umrah. :: Meningococcal (meningitis) vaccine
 The bacterium that causes most stomach ulcers. :: Helicobacter pylori
-The doctors who shared the 2005 Nobel for discovering it: Marshall and this man. :: Robin Warren
 The insect that spreads malaria. :: Anopheles mosquito
 The parasite that causes malaria. :: Plasmodium
 The disease spread by rats' fleas that caused the Black Death. :: Plague
 The clusters of cells in the pancreas that make hormones. :: Islets of Langerhans
-The Canadian scientists who discovered insulin in 1921: Banting and this man. :: Charles Best
-The scientists who discovered the structure of DNA in 1953: Watson and this man. :: Francis Crick
 The woman whose X-ray image helped reveal DNA's structure. :: Rosalind Franklin
 The project that mapped all human genes, completed in 2003. :: Human Genome Project
-The approximate number of protein-coding genes in humans. :: 20,000
-The "powerhouse of the cell". :: Mitochondria
 The genetic material passed only from mother to child. :: Mitochondrial DNA
 The genetic blood disorder common in the Gulf in which red cells are sickle-shaped. :: Sickle cell disease
 The genetic blood disorder that reduces haemoglobin, also common in the region. :: Thalassaemia
@@ -302,12 +311,22 @@ The Persian physician who first told smallpox from measles. :: Al-Razi (Rhazes)
 The scientist who developed the rabies vaccine. :: Louis Pasteur
 The scientist who identified the bacterium that causes tuberculosis. :: Robert Koch
 The world's most common blood type. :: O positive
-The rare blood type nicknamed "golden blood". :: Rh-null
 The condition in which the heart's beat is irregular. :: Arrhythmia
 The test that uses a small sample of tissue to check for disease. :: Biopsy
-The year the WHO declared COVID-19 a pandemic. :: 2020
 The muscle tissue found only in the heart. :: Cardiac muscle
 The type of muscle in the gut and blood vessels that you cannot control. :: Smooth muscle
+The scientist who first described the circulation of blood in 1628. :: William Harvey
+The scientist who made the first polio vaccine. :: Jonas Salk
+The device that measures blood pressure. :: Sphygmomanometer
+The disease that affected Stephen Hawking. :: ALS (motor neurone disease)
+The condition of feeling pain in an amputated limb. :: Phantom limb pain
+The chamber of the heart with the thickest wall. :: Left ventricle
+The malaria drug from cinchona bark. :: Quinine
+The painkiller first isolated from opium in 1804. :: Morphine
+The Saudi Ministry of Health's call-centre number. :: 937
+The Andalusian philosopher-physician known in Europe as Averroes. :: Ibn Rushd
+The bones in the wrist are called this. :: Carpals
+The bones in the ankle are called this. :: Tarsals
 
 ## 400
 The total length of the small intestine in an adult, roughly, in metres. :: 6
@@ -353,19 +372,15 @@ The British queen whose descendants spread haemophilia to European royals. :: Qu
 The Rh factor is named after this monkey. :: Rhesus macaque
 The blood vessel that carries nutrient-rich blood from the gut to the liver. :: Hepatic portal vein
 The main vein bringing blood back from the body to the heart, upper and lower. :: Vena cava
-The pressure in a blood pressure reading when the heart contracts. :: Systolic
-The pressure in a blood pressure reading when the heart relaxes. :: Diastolic
 The approximate number of times the heart beats in a day. :: 100,000
 The muscle protein that pulls on actin to make muscle contract. :: Myosin
 The molecule that cells use for energy. :: ATP
-The acid that builds up in muscles during hard exercise without enough oxygen. :: Lactic acid
 The process of breaking glucose down without oxygen. :: Anaerobic respiration (glycolysis)
 The stiffening of muscles after death. :: Rigor mortis
 The main muscle that pulls the corners of the mouth up when you smile. :: Zygomaticus major
 The smallest muscle in the body, in the middle ear. :: Stapedius
 The longest muscle in the body, crossing the thigh. :: Sartorius
 The number of muscles in the human body, roughly. :: 600
-The chemical in the stomach that kills germs and breaks down food. :: Hydrochloric acid
 The enzyme in saliva that breaks down starch. :: Amylase
 The enzyme in the stomach that breaks down proteins. :: Pepsin
 The enzyme that breaks down fats. :: Lipase
@@ -374,35 +389,25 @@ The trillions of microbes living in the gut. :: Gut microbiome
 The autoimmune reaction to gluten that damages the small intestine. :: Coeliac disease
 The organ that can regrow from as little as a quarter of its tissue. :: Liver
 The disease caused by long-term liver damage that scars it. :: Cirrhosis
-The viruses that infect the liver are named A to E with this word. :: Hepatitis
 The protein the kidneys must filter that shows kidney damage in urine. :: Albumin
-The hard mineral deposits that form in the kidney. :: Kidney stones
-The process that filters the blood with a machine when kidneys fail. :: Dialysis
 The American surgeon who performed the first successful kidney transplant in 1954. :: Joseph Murray
 The cells that line blood vessels. :: Endothelial cells
 The fatty layer of skin beneath the dermis. :: Hypodermis (subcutaneous layer)
-The outermost layer of skin. :: Epidermis
 The type of skin cancer that is the most dangerous. :: Melanoma
 The glands in skin that produce oil. :: Sebaceous glands
 The doctor who proved mosquitoes spread malaria, winning the 1902 Nobel. :: Ronald Ross
 The sensory nerve endings that detect pain. :: Nociceptors
 The year Edward Jenner tested his smallpox vaccine. :: 1796
-The type of vaccine used by Pfizer and Moderna against COVID-19. :: mRNA vaccine
 The Hungarian-born scientist who won the 2023 Nobel for mRNA work with Drew Weissman. :: Katalin Karikó
 The technology for editing genes, earning the 2020 Nobel in Chemistry. :: CRISPR
 The two women who won the 2020 Nobel in Chemistry for CRISPR. :: Emmanuelle Charpentier and Jennifer Doudna
 The woman whose cells, taken in 1951, became the first immortal human cell line. :: Henrietta Lacks
 The name of the cell line from Henrietta Lacks. :: HeLa
-The sheep that was the first cloned mammal from an adult cell. :: Dolly
 The year Dolly the sheep was born. :: 1996
 The first "test-tube baby", born in 1978. :: Louise Brown
 The term for the protective caps on the ends of chromosomes. :: Telomeres
-The type of cell that can become many other cell types. :: Stem cell
-The process by which cells divide to make two identical cells. :: Mitosis
 The process by which cells divide to make sperm and eggs. :: Meiosis
-The genetic condition caused by an extra copy of chromosome 21. :: Down syndrome
 The scientist who discovered the cause of Down syndrome in 1959. :: Jérôme Lejeune
-The monk who founded the science of genetics with pea plants. :: Gregor Mendel
 The Islamic-era hospitals, such as the one in Baghdad, were called this. :: Bimaristan
 The 13th-century Cairo hospital founded by Sultan Qalawun. :: Al-Mansuri Hospital
 The 11th-century medical encyclopedia by Ibn Sina was used in European universities until this century. :: 17th century
@@ -410,6 +415,12 @@ The ancient Egyptian medical text about surgery, named after a dealer who bought
 The Greek physician whose ideas on the four humours dominated medicine for centuries. :: Galen
 The ridges on the inside of the stomach wall. :: Rugae
 The scientist who discovered X-rays in 1895. :: Wilhelm Röntgen
+The scientist who discovered the ABO blood groups. :: Karl Landsteiner
+The hormone that makes you feel hungry. :: Ghrelin
+The hormone that makes you feel full. :: Leptin
+The number of pairs of spinal nerves. :: 31
+The Canadian scientists who discovered insulin in 1921: Banting and this man. :: Charles Best
+The approximate number of protein-coding genes in humans. :: 20,000
 
 ## 500
 The number of alveoli in a pair of adult lungs, roughly. :: About 480 million
@@ -432,7 +443,6 @@ The 2014 Nobel winners discovered the brain's "GPS" cells: grid cells and these.
 The brain's master clock, in the hypothalamus. :: Suprachiasmatic nucleus
 The gland in the brain that makes melatonin. :: Pineal gland
 The philosopher who called the pineal gland "the seat of the soul". :: René Descartes
-The disease that affected Stephen Hawking. :: ALS (motor neurone disease)
 The protein that clumps into plaques in Alzheimer's disease. :: Amyloid beta
 The protein that forms tangles inside neurons in Alzheimer's disease. :: Tau
 The misfolded proteins that cause mad cow disease. :: Prions
@@ -440,7 +450,6 @@ The scientist who won the 1997 Nobel for discovering prions. :: Stanley Prusiner
 The sleep disorder in which people suddenly fall asleep, linked to loss of orexin. :: Narcolepsy
 The condition of mixing senses, like seeing colours when hearing sounds. :: Synaesthesia
 The inability to recognise faces. :: Prosopagnosia
-The condition of feeling pain in an amputated limb. :: Phantom limb pain
 The neuroscientist who used a mirror box to treat phantom limb pain. :: V. S. Ramachandran
 The map of the body drawn across the brain's motor and sensory strips. :: Homunculus
 The Canadian neurosurgeon who mapped the brain by stimulating awake patients. :: Wilder Penfield
@@ -450,10 +459,8 @@ The small heart sound "lub" is made by these valves closing. :: Atrioventricular
 The German surgeon who put a catheter into his own heart in 1929. :: Werner Forssmann
 The Dutch inventor of the electrocardiogram, Nobel 1924. :: Willem Einthoven
 The surgeon who did the first successful open-heart operation with a heart-lung machine in 1953. :: John Gibbon
-The chamber of the heart with the thickest wall. :: Left ventricle
 The hole between the atria in a fetus that closes after birth. :: Foramen ovale
 The blood vessel in a fetus that bypasses the lungs, closing after birth. :: Ductus arteriosus
-The organ that supplies a fetus with oxygen and food. :: Placenta
 The hormone detected by pregnancy tests. :: hCG (human chorionic gonadotropin)
 The cell type that eats bacteria and dead cells, its name means "big eater". :: Macrophage
 The most common type of white blood cell. :: Neutrophil
@@ -464,9 +471,7 @@ The disease where a transplanted organ's immune cells attack the host. :: Graft-
 The drug discovered in a soil fungus from Norway that made organ transplants practical. :: Ciclosporin
 The cancer drug discovered from the Pacific yew tree. :: Paclitaxel (Taxol)
 The malaria drug from sweet wormwood, earning Tu Youyou the 2015 Nobel. :: Artemisinin
-The malaria drug from cinchona bark. :: Quinine
 The heart drug made from the foxglove plant. :: Digoxin (digitalis)
-The painkiller first isolated from opium in 1804. :: Morphine
 The German chemist who first made aspirin in a pure, stable form at Bayer in 1897. :: Felix Hoffmann
 The drug whose 1950s use in pregnancy caused birth defects and led to tighter drug laws. :: Thalidomide
 The American pharmacologist who blocked thalidomide's approval in the US. :: Frances Kelsey
@@ -477,7 +482,6 @@ The "superbug" whose initials stand for methicillin-resistant Staphylococcus aur
 The Saudi city where MERS was first identified, in a patient in 2012. :: Jeddah
 The animal believed to pass MERS to humans. :: Camel (dromedary)
 The Egyptian virologist who first isolated MERS in Jeddah. :: Ali Mohamed Zaki
-The Saudi Ministry of Health's call-centre number. :: 937
 The disease eradicated in 2011, the second after smallpox, which affected cattle. :: Rinderpest
 The Guinea worm disease is close to eradication thanks to a campaign led by this former US president. :: Jimmy Carter
 The Scottish doctor who discovered that a lack of vitamin C caused scurvy in a 1747 trial. :: James Lind
@@ -485,15 +489,12 @@ The Dutch scientist who showed that beriberi was caused by polished rice, Nobel 
 The doctor who mapped the 1854 London cholera outbreak to a water pump. :: John Snow
 The street of that cholera pump. :: Broad Street
 The bacterium that causes cholera. :: Vibrio cholerae
-The 1918 pandemic that killed tens of millions was this disease. :: Influenza (Spanish flu)
 The two types of the influenza surface proteins that give flu strains names like H1N1. :: Haemagglutinin and neuraminidase
-The 14th-century plague that killed about a third of Europe. :: Black Death
 The bacterium that causes plague. :: Yersinia pestis
 The word "quarantine" comes from the Italian for this number of days. :: 40
 The Andalusian scholar Ibn al-Khatib wrote that the plague spread by this. :: Contagion (contact)
 The 9th-century Baghdad physician who chose a hospital site by hanging meat in different districts. :: Al-Razi
 The Andalusian physician who first described the scabies mite and wrote "Al-Taysir". :: Ibn Zuhr (Avenzoar)
-The Andalusian philosopher-physician known in Europe as Averroes. :: Ibn Rushd
 The Jewish philosopher-physician who served Saladin's court in Cairo. :: Maimonides
 The Companion of our Beloved and our master, the Prophet Muhammad ﷺ, regarded as the first Muslim nurse. :: Rufaida Al-Aslamia ﵂
 The Flemish anatomist who wrote "De humani corporis fabrica" in 1543. :: Andreas Vesalius
@@ -503,12 +504,11 @@ The Dutch draper who first saw bacteria with his own microscopes. :: Antonie van
 The English scientist who coined the word "cell" in 1665. :: Robert Hooke
 The German scientists who proposed cell theory in 1838–39: Schwann and this man. :: Matthias Schleiden
 The German doctor who said "every cell comes from a cell". :: Rudolf Virchow
-The bones in the wrist are called this. :: Carpals
-The bones in the ankle are called this. :: Tarsals
 The heaviest bone in the foot, the heel bone. :: Calcaneus
 The only joint in the skull that moves. :: Temporomandibular joint (jaw)
 The soft spots on a baby's skull. :: Fontanelles
 The protein that carries oxygen in muscle tissue. :: Myoglobin
 The bone at the base of the skull with the large hole the spinal cord passes through. :: Occipital bone
 The large hole at the base of the skull. :: Foramen magnum
-The pair of tiny almond-sized lymph tissue lumps at the back of the throat, often removed in children. :: Tonsils
+The doctors who shared the 2005 Nobel for discovering it: Marshall and this man. :: Robin Warren
+The rare blood type nicknamed "golden blood". :: Rh-null

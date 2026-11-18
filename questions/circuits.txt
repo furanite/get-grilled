@@ -104,6 +104,11 @@ The device that turns an electrical signal into sound. :: Loudspeaker
 The longer leg of an LED is usually this terminal. :: Anode (positive)
 Current is said to flow from positive to negative in this convention. :: Conventional current
 The opposition to AC current that includes resistance and reactance. :: Impedance
+The logic gate that outputs 1 only when all inputs are 1. :: AND
+The logic gate that outputs 1 when any input is 1. :: OR
+The logic gate that inverts its input. :: NOT (inverter)
+The instrument that shows a voltage changing over time on a screen. :: Oscilloscope
+The component that stores energy in an electric field and blocks DC. :: Capacitor
 
 ## 200
 A capacitor that must be connected the right way round, marked with a stripe. :: Electrolytic capacitor
@@ -191,14 +196,10 @@ The cut-off frequency of an RC filter. :: 1/(2πRC)
 At the cut-off frequency, the output power falls to this fraction. :: Half (−3 dB)
 A voltage gain of 10 in decibels. :: 20 dB
 A power gain of 100 in decibels. :: 20 dB
-The logic gate that outputs 1 only when all inputs are 1. :: AND
-The logic gate that outputs 1 when any input is 1. :: OR
-The logic gate that inverts its input. :: NOT (inverter)
 The two gates called universal because any logic can be built from them. :: NAND and NOR
 The table that lists a gate's output for every input combination. :: Truth table
 The algebra of true and false used in digital logic. :: Boolean algebra
 The device that converts analogue signals to digital. :: ADC (analogue-to-digital converter)
-The instrument that shows a voltage changing over time on a screen. :: Oscilloscope
 The colour bands brown, black, red mean this resistance. :: 1 kΩ
 The ratio of output power to input power. :: Efficiency
 The heating effect of current in a resistor is named after this scientist. :: James Joule
@@ -206,9 +207,16 @@ Resistance of a wire is proportional to length and inversely to this. :: Cross-s
 The material property that sets a wire's resistance for its shape. :: Resistivity
 Most metals' resistance does this as temperature rises. :: Increases
 A material with zero resistance below a critical temperature. :: Superconductor
+The time constant of an RC circuit. :: R × C
+The non-volatile memory used in USB drives and SSDs. :: Flash memory
+The scaling law that said transistor counts double about every two years. :: Moore's law
+The Italian inventor who shared the 1909 Nobel Prize in Physics with Ferdinand Braun for wireless telegraphy. :: Guglielmo Marconi
+The logic gate that outputs 1 only when its two inputs differ. :: XOR
+The inventor whose AC induction motor patents George Westinghouse bought in 1888. :: Nikola Tesla
+The 1965 prediction about chip complexity was published by this person. :: Gordon Moore
+The Saudi standards body that sets technical rules for electrical products. :: SASO
 
 ## 300
-The component that stores energy in an electric field and blocks DC. :: Capacitor
 The complex number method for analysing AC circuits in steady state. :: Phasors
 The impedance of a capacitor as a complex number. :: 1/(jωC)
 The impedance of an inductor as a complex number. :: jωL
@@ -308,13 +316,21 @@ The meter method that measures three-phase power with two wattmeters. :: Two-wat
 The speed of the magnetic field in an AC machine. :: Synchronous speed
 Synchronous speed in rpm equals 120f divided by this. :: Number of poles
 The difference between synchronous speed and rotor speed in an induction motor, as a fraction. :: Slip
+The Japanese company whose 1957 transistor radio TR-63 made pocket radios popular. :: Sony
+The engineer who demonstrated the first working television in 1926. :: John Logie Baird
+The first commercial microprocessor, released by Intel in 1971. :: Intel 4004
+The engineer who gave his name to the stability criterion of 1932 for feedback amplifiers. :: Harry Nyquist
+The engineer who developed asymptotic gain–phase plots at Bell Labs. :: Hendrik Bode
+The American scientist who discovered self-inductance and gave his name to its unit. :: Joseph Henry
+The GCC Interconnection links the grids of six countries. Its back-to-back converter in Saudi Arabia connects 60 Hz to this frequency. :: 50 Hz
+The relaxation oscillator built from two cross-coupled transistors. :: Astable multivibrator
+The unit 'mho', ohm spelled backwards, is now called this. :: Siemens
 
 ## 400
 The common-mode voltage range of an op-amp limits these. :: The input voltages it can handle
 The amplifier class used in most RF power amplifiers for maximum efficiency at a single frequency, with conduction under half the cycle. :: Class C
 The noise bandwidth of a single-pole RC filter is this multiple of its −3 dB bandwidth. :: π/2
 The rule of thumb for the minimum rise time an oscilloscope should have relative to the signal. :: About five times faster
-The time constant of an RC circuit. :: R × C
 The theorem that a network's response to a source at one port equals the response at another when swapped. :: Reciprocity theorem
 The theorem that lets you replace any branch with a source of equal voltage or current. :: Substitution theorem
 The theorem stating that the sum of complex powers in a network is zero. :: Tellegen's theorem
@@ -391,8 +407,6 @@ The digital technique that splits work into stages to raise clock speed. :: Pipe
 The circuit that safely passes a signal between two clock domains. :: Synchroniser (two flip-flop)
 A memory that uses a capacitor per bit and must be refreshed. :: DRAM
 A memory that uses a flip-flop of six transistors per bit. :: SRAM
-The non-volatile memory used in USB drives and SSDs. :: Flash memory
-The scaling law that said transistor counts double about every two years. :: Moore's law
 The scaling rule that kept power density constant as transistors shrank. :: Dennard scaling
 CMOS dynamic power is proportional to C, frequency and this squared. :: Supply voltage
 The leakage effect that grew important as gate oxides became very thin. :: Gate tunnelling leakage
@@ -413,14 +427,10 @@ The bus in a load-flow study that balances losses. :: Slack (swing) bus
 
 ## 500
 The first commercial transistor radio, sold in 1954. :: Regency TR-1
-The Japanese company whose 1957 transistor radio TR-63 made pocket radios popular. :: Sony
-The Italian inventor who shared the 1909 Nobel Prize in Physics with Ferdinand Braun for wireless telegraphy. :: Guglielmo Marconi
 The year the first successful transatlantic radio signal was received by Marconi. :: 1901
-The engineer who demonstrated the first working television in 1926. :: John Logie Baird
 The engineer who invented the fully electronic television system. :: Philo Farnsworth
 The engineer who co-developed the Yagi–Uda antenna with Hidetsugu Yagi. :: Shintaro Uda
 The pioneer of radar whose 1935 Daventry experiment showed aircraft could be detected. :: Robert Watson-Watt
-The logic gate that outputs 1 only when its two inputs differ. :: XOR
 The engineer who showed in his 1937 master's thesis that Boolean algebra could design switching circuits. :: Claude Shannon
 The engineers who built the first point-contact transistor at Bell Labs in 1947. :: Bardeen, Brattain and Shockley
 The year the three transistor inventors won the Nobel Prize in Physics. :: 1956
@@ -429,14 +439,11 @@ The Fairchild engineer who invented the planar silicon integrated circuit in 195
 The process at Fairchild that made the planar IC possible, invented by Jean Hoerni. :: Planar process
 The Egyptian-born engineer who co-invented the MOSFET at Bell Labs in 1959. :: Mohamed Atalla
 Mohamed Atalla's co-inventor of the MOSFET. :: Dawon Kahng
-The first commercial microprocessor, released by Intel in 1971. :: Intel 4004
 The Intel 4004 was a processor with this many bits. :: Four
 The engineer who led the design of the Intel 4004. :: Federico Faggin
 The engineer who patented CMOS logic in 1963. :: Frank Wanlass
 The engineer whose 1927 negative feedback amplifier patent made long-distance telephony practical. :: Harold Black
 Harold Black reportedly sketched his feedback idea on this, while on a ferry. :: A page of the New York Times
-The engineer who gave his name to the stability criterion of 1932 for feedback amplifiers. :: Harry Nyquist
-The engineer who developed asymptotic gain–phase plots at Bell Labs. :: Hendrik Bode
 The Bode gain–phase relationship ties phase to the slope of this. :: Gain (magnitude) on a log scale
 The engineer who invented the superheterodyne receiver. :: Edwin Armstrong
 Armstrong also invented this modulation method to reduce static in radio. :: Frequency modulation (FM)
@@ -450,9 +457,7 @@ The Bell Labs engineer who published the current-source equivalent in 1926. :: E
 The American engineer who first worked out the AC circuit analysis with complex numbers in 1893. :: Charles Proteus Steinmetz
 Steinmetz also gave his name to this law for hysteresis loss. :: Steinmetz's law
 Steinmetz's hysteresis loss law uses peak flux density raised to about this power. :: 1.6
-The inventor whose AC induction motor patents George Westinghouse bought in 1888. :: Nikola Tesla
 The first large hydroelectric AC plant opened at Niagara Falls in this decade. :: 1890s (1895)
-The American scientist who discovered self-inductance and gave his name to its unit. :: Joseph Henry
 The Hungarian engineers who built the first efficient closed-core transformer in 1885. :: Zipernowsky, Bláthy and Déri (ZBD)
 The world's first public electricity supply began in 1881 in this English town. :: Godalming
 Edison's first US central power station opened in 1882 on this New York street. :: Pearl Street
@@ -460,7 +465,6 @@ The highest commercial AC transmission voltage in use, in China. :: 1,000 kV (1,
 The highest HVDC transmission voltage in commercial use, from Changji to Guquan in China. :: ±1,100 kV
 The device used in HVDC converters before thyristors. :: Mercury-arc valve
 The first commercial HVDC link, opened in 1954. :: Gotland link (Sweden)
-The GCC Interconnection links the grids of six countries. Its back-to-back converter in Saudi Arabia connects 60 Hz to this frequency. :: 50 Hz
 The GCC Interconnection Authority is headquartered in this Eastern Province city. :: Dammam
 The theorem stating that a capacitor network's total stored energy is minimal for the actual charge distribution. :: Thomson's theorem
 The reactance theorem that says a lossless one-port's reactance always increases with frequency. :: Foster's reactance theorem
@@ -472,12 +476,10 @@ The fourth basic passive circuit element, proposed in 1971. :: Memristor
 The engineer who proposed the memristor. :: Leon Chua
 The circuit by Leon Chua that shows chaotic behaviour. :: Chua's circuit
 The oscillator equation studied by Balthasar van der Pol in valve circuits. :: Van der Pol oscillator
-The relaxation oscillator built from two cross-coupled transistors. :: Astable multivibrator
 The engineers who invented the multivibrator circuit in 1917. :: Abraham and Bloch
 The equalisation problem in telephone lines that Pupin solved with coils. :: Loading (Pupin coils)
 The condition for a distortionless transmission line found by Heaviside. :: R/L = G/C
 The coaxial cable was patented by this engineer in 1880. :: Oliver Heaviside
-The 1965 prediction about chip complexity was published by this person. :: Gordon Moore
 The engineers who wrote the 1974 paper on scaling MOSFETs. :: Robert Dennard and colleagues
 Robert Dennard also invented this memory cell in 1966. :: One-transistor DRAM cell
 The Japanese engineer who invented flash memory at Toshiba. :: Fujio Masuoka
@@ -496,7 +498,6 @@ The paradox in which two charged capacitors connected together lose half their e
 In the two-capacitor paradox, the lost energy goes to these. :: Resistance (heat) and radiation
 The material property in Ohm's original 1827 work that he called 'reduced length'. :: Resistance
 Ohm used this kind of source, invented by Seebeck, for steady voltage in his experiments. :: Thermocouple
-The unit 'mho', ohm spelled backwards, is now called this. :: Siemens
 The first practical electric telegraph in Britain was built by these two in 1837. :: Cooke and Wheatstone
 The first transatlantic telegraph cable was completed in this year. :: 1858
 The engineer whose theory of signal propagation saved later Atlantic cables. :: William Thomson (Lord Kelvin)
@@ -511,4 +512,3 @@ The noise figure of a matched passive attenuator at room temperature equals this
 The ratio of the speed of signals in a coax with polyethylene to the speed of light. :: About 0.66
 A transmission line whose length is under this fraction of a wavelength can usually be treated as lumped. :: About one tenth
 The power factor correction requirement for many devices is set in the EU by this standard. :: IEC 61000-3-2
-The Saudi standards body that sets technical rules for electrical products. :: SASO

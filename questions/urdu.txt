@@ -124,6 +124,8 @@ Urdu is an official language in Pakistan along with this language. :: English
 The Pakistani city known as the "City of Lights", the largest city. :: Karachi
 The Pakistani city known as the heart of Urdu culture in Punjab. :: Lahore
 The Urdu word "Pakistan" means this. :: Land of the pure
+The meaning of the Arabic word "kitab", and the Arabic plural often used in Urdu. :: Book; kutub
+Al-Faruq is about this Companion. :: Umar ibn al-Khattab ﵁
 
 ## 200
 The Urdu word "mehmaan" means this. :: Guest
@@ -232,10 +234,7 @@ Iqbal's idea of strong selfhood is called this. :: Khudi
 The national anthem of Pakistan was written by this poet. :: Hafeez Jalandhari ﵀
 The national anthem of Pakistan is written in this style of Urdu. :: Highly Persianised Urdu
 The poet called "Khuda-e-Sukhan", the god of poetry, from Delhi and Lucknow. :: Mir Taqi Mir ﵀
-The poet who was the royal teacher of the last Mughal emperor. :: Ibrahim Zauq ﵀
-The Delhi poet famous for "Tum mere paas hote ho goya". :: Momin Khan Momin ﵀
 The reformer poet who wrote "Musaddas-e-Hali". :: Altaf Hussain Hali ﵀
-The poet famous for funny verses about modern ways, from Allahabad. :: Akbar Allahabadi ﵀
 The scholar who founded the college that became Aligarh Muslim University. :: Sir Syed Ahmad Khan ﵀
 The famous woman poet of Pakistan known for "Khushboo". :: Parveen Shakir ﵀
 The two-line unit of a ghazal. :: A she'r (couplet)
@@ -243,6 +242,37 @@ The first couplet of a ghazal, where both lines rhyme. :: Matla
 The last couplet of a ghazal, with the poet's pen name. :: Maqta
 A poet's pen name is called this. :: Takhallus
 A poetry gathering where poets recite their work. :: A mushaira
+The Urdu word "taleem" means this, and comes from Arabic. :: Education
+The Urdu word "adalat" means this, and comes from Arabic. :: Court of law
+The Urdu word "wakeel" means this, and comes from Arabic. :: Lawyer
+The Urdu word "mushkil" means this, and comes from Arabic. :: Difficult
+A poem in praise of Allah. :: Hamd
+Masjid-e-Qurtuba is about the great mosque of this city. :: Cordoba
+The Urdu word "ilm" is spelt with this Arabic letter at the start. :: Ain (ع)
+The Urdu word "lughat" means this, from Arabic. :: Dictionary
+The Urdu word "tarjuma" means this, from Arabic. :: Translation
+"Wa" joining words, as in "ilm-o-adab", comes from Arabic and means this. :: And
+The Urdu plural of "hukm" (order) taken from Arabic. :: Ahkaam
+The Urdu plural of "shayar" (poet) taken from Arabic. :: Shu'ara
+The Urdu plural of "aalim" (scholar) taken from Arabic. :: Ulama
+The Urdu plural ending "-aat" comes from this language. :: Arabic (feminine plural)
+The Urdu word "shayar" means this, and comes from Arabic. :: Poet
+The Urdu word "sahib" comes from Arabic and means this. :: Master (sir)
+The Urdu word "maulana" comes from Arabic and means this. :: Our master
+The Urdu word "allama" is a title for this. :: A very learned scholar
+The famous Urdu saying "Sabr ka phal meetha" is linked to this Arabic idea. :: Sabr (patience)
+The Urdu word "falsafa" comes from Arabic and Greek and means this. :: Philosophy
+The Urdu word "tib" or "tibb" comes from Arabic and means this. :: Medicine
+"Hakeem" in Urdu means this. :: A traditional doctor (wise man)
+The Urdu word "riyazi" means this subject. :: Mathematics
+The Urdu word "kimiya" means this subject. :: Chemistry
+The Urdu word "jughrafiya" means this subject. :: Geography
+The Urdu word "falakiyat" means this subject. :: Astronomy
+The Urdu word "siyasat" means this. :: Politics
+The Urdu word "nafsiyat" means this. :: Psychology
+The Urdu word "lisaniyat" means this. :: Linguistics
+The Urdu word "tehqeeq" means this. :: Research
+The Urdu word "inqilab" means this. :: Revolution
 
 ## 300
 The Urdu word "Urdu" comes from a Turkic word meaning this. :: Army camp (horde)
@@ -261,17 +291,13 @@ The Urdu word "chabi" (key) comes from this European language. :: Portuguese
 The Urdu word "mez" (table) comes from this European language. :: Portuguese
 The Urdu word "almari" (cupboard) comes from this European language. :: Portuguese
 The Urdu word "botal" (bottle) comes from this language. :: English
-The meaning of the Arabic word "kitab", and the Arabic plural often used in Urdu. :: Book; kutub
 The Urdu word "ahl" comes from Arabic and means this. :: People (family)
 The Urdu word "akhlaq" means this, and comes from Arabic. :: Manners (morals)
 The Urdu word "adab" means this. :: Literature (and good manners)
 "Adaab" is a polite greeting used in this city's culture. :: Lucknow (and Hyderabad)
 The Urdu word "tehzeeb" means this, and comes from Arabic. :: Culture (refinement)
-The Urdu word "taleem" means this, and comes from Arabic. :: Education
 The Urdu word "tarikh" means this, and comes from Arabic. :: History (and date)
 The Urdu word "hukumat" means this, and comes from Arabic. :: Government
-The Urdu word "adalat" means this, and comes from Arabic. :: Court of law
-The Urdu word "wakeel" means this, and comes from Arabic. :: Lawyer
 The Urdu word "qanoon" means this, and comes from Arabic and Greek. :: Law
 The Urdu word "fauj" means this. :: Army
 The Urdu word "sipahi" means this, and gave English the word "sepoy". :: Soldier
@@ -324,7 +350,6 @@ The Urdu word "agar" means this. :: If
 The Urdu word "bilkul" means this, and comes from Arabic. :: Absolutely
 The Urdu word "fauran" means this, and comes from Arabic. :: Immediately
 The Urdu word "taqreeban" means this, and comes from Arabic. :: Approximately
-The Urdu word "mushkil" means this, and comes from Arabic. :: Difficult
 The Urdu word "aasan" means this. :: Easy
 The Urdu word "khoobsurat" means this. :: Beautiful
 The Urdu word "sach" means this. :: Truth
@@ -343,7 +368,6 @@ The poetic form of four-line poems, like Khayyam's. :: Rubai
 The long poem mourning the martyrs of Karbala in Urdu. :: Marsiya
 The famous poet of Urdu marsiya from Lucknow. :: Mir Anis ﵀
 The poem in praise of our Beloved and our master, the Prophet Muhammad ﷺ. :: Na't
-A poem in praise of Allah. :: Hamd
 A short Urdu poem form with six-line stanzas, used by Hali. :: Musaddas
 A free poem without set rhyme in modern Urdu. :: Nazm (azad nazm)
 The long Urdu story with many tales, like "Dastan-e-Amir Hamza". :: Dastan
@@ -415,7 +439,6 @@ The Mir Taqi Mir line "Patta patta boota boota haal hamara jaane hai" says every
 The poet who wrote "Lab pe aati hai dua ban ke tamanna meri". :: Allama Muhammad Iqbal ﵀
 The poet who wrote "Dil hi to hai na sang-o-khisht". :: Mirza Ghalib ﵀
 The Iqbal poem about a mosque in Spain. :: Masjid-e-Qurtuba
-Masjid-e-Qurtuba is about the great mosque of this city. :: Cordoba
 Iqbal's poem "Tulu-e-Islam" means this. :: The Rise of Islam
 Iqbal's address of 1930 that spoke of a Muslim homeland was given in this city. :: Allahabad
 Iqbal studied philosophy and earned his doctorate in this country. :: Germany (Munich)
@@ -446,11 +469,8 @@ The Urdu letter "hamza" (ء) shows this. :: A glottal stop (or vowel break)
 The Arabic letters "se", "sin" and "suad" all sound like this in Urdu. :: "S"
 The four Arabic letters that all sound like "z" in Urdu. :: Zal, ze, zuad and zoe
 The Arabic letter "ain" in Urdu is usually pronounced like this. :: A vowel (not the Arabic throat sound)
-The Urdu word "ilm" is spelt with this Arabic letter at the start. :: Ain (ع)
 The Urdu word "khatt" means this, from Arabic. :: Letter (handwriting)
 The Urdu word "mazmoon" means this, from Arabic. :: Essay (subject)
-The Urdu word "lughat" means this, from Arabic. :: Dictionary
-The Urdu word "tarjuma" means this, from Arabic. :: Translation
 The Urdu word "kaghaz" (paper) comes from this language. :: Persian
 The Urdu word "darakht" (tree) comes from this language. :: Persian
 The Urdu word "baagh" (garden) comes from this language. :: Persian
@@ -459,19 +479,16 @@ The Urdu words for numbers mostly come from this source. :: Sanskrit-based Indic
 The Urdu "izafat", as in "Diwan-e-Ghalib", is borrowed from this language. :: Persian
 "Diwan-e-Ghalib" means this. :: Ghalib's collection of poems
 The "-e-" linking two nouns, as in "Bal-e-Jibril", means this. :: Of
-"Wa" joining words, as in "ilm-o-adab", comes from Arabic and means this. :: And
 "Ilm-o-adab" means this. :: Knowledge and literature
 "Zameen-o-aasman" means this. :: Earth and sky
-The Urdu plural of "hukm" (order) taken from Arabic. :: Ahkaam
 The Urdu plural of "khabar" (news) taken from Arabic. :: Akhbaar (now meaning newspaper)
-The Urdu plural of "shayar" (poet) taken from Arabic. :: Shu'ara
-The Urdu plural of "aalim" (scholar) taken from Arabic. :: Ulama
 The Urdu plural of "waqia" (event) taken from Arabic. :: Waqi'aat
-The Urdu plural ending "-aat" comes from this language. :: Arabic (feminine plural)
 The Urdu plural "kitaben" uses this Urdu ending. :: -en
+The poet who was the royal teacher of the last Mughal emperor. :: Ibrahim Zauq ﵀
+The Delhi poet famous for "Tum mere paas hote ho goya". :: Momin Khan Momin ﵀
+The poet famous for funny verses about modern ways, from Allahabad. :: Akbar Allahabadi ﵀
 
 ## 500
-The Urdu word "shayar" means this, and comes from Arabic. :: Poet
 The Urdu word "ghazal" comes from an Arabic word meaning this. :: Talking of love
 The metre of Urdu poetry follows this Arabic-Persian system. :: Aruz
 The repeated word or phrase at the end of each couplet's second line in a ghazal. :: Radif
@@ -487,7 +504,6 @@ Hali's book on poetry criticism, "Muqaddama-e-She'r-o-Sha'iri", is seen as the s
 Shibli Nomani ﵀ wrote a famous life of our Beloved and our master, the Prophet Muhammad ﷺ called this. :: Sirat-un-Nabi
 Shibli Nomani founded this academy in Azamgarh. :: Darul Musannefin (Shibli Academy)
 Shibli's book on the second caliph is called this. :: Al-Faruq
-Al-Faruq is about this Companion. :: Umar ibn al-Khattab ﵁
 The scholar who completed "Sirat-un-Nabi" after Shibli. :: Syed Sulaiman Nadvi ﵀
 Shah Rafi-ud-Din ﵀ and this brother made one of the first Urdu translations of the Quran's meanings. :: Shah Abdul Qadir ﵀
 The great Delhi scholar whose sons included Shah Rafi-ud-Din ﵀ and Shah Abdul Qadir ﵀. :: Shah Waliullah Dehlvi ﵀
@@ -532,31 +548,15 @@ The English word "chit" comes from the Urdu-Hindi "chitthi" meaning this. :: A n
 The English word "nabob" comes from the Urdu title "nawab" meaning this. :: A governor (deputy)
 "Nawab" comes from the Arabic plural "nuwwab" meaning this. :: Deputies
 The Urdu title "Begum" is given to this person. :: A lady of rank (a wife)
-The Urdu word "sahib" comes from Arabic and means this. :: Master (sir)
 The Urdu word "janab" is used for this. :: Sir (honoured one)
 The Urdu word "mohtarma" is used for this. :: Respected lady
 The Urdu word "hazrat" is used before names of these people. :: Respected religious figures
-The Urdu word "maulana" comes from Arabic and means this. :: Our master
-The Urdu word "allama" is a title for this. :: A very learned scholar
 The Urdu poetry term "tarannum" means this. :: Reciting poetry with melody
-The famous Urdu saying "Sabr ka phal meetha" is linked to this Arabic idea. :: Sabr (patience)
-The Urdu word "falsafa" comes from Arabic and Greek and means this. :: Philosophy
-The Urdu word "tib" or "tibb" comes from Arabic and means this. :: Medicine
 "Tibb-e-Unani" is this kind of medicine. :: Greek-Arabic traditional medicine
-"Hakeem" in Urdu means this. :: A traditional doctor (wise man)
-The Urdu word "riyazi" means this subject. :: Mathematics
-The Urdu word "kimiya" means this subject. :: Chemistry
 The Urdu word "tabi'iyat" means this subject. :: Physics
 The Urdu word "hayatiyat" means this subject. :: Biology
-The Urdu word "jughrafiya" means this subject. :: Geography
-The Urdu word "falakiyat" means this subject. :: Astronomy
-The Urdu word "siyasat" means this. :: Politics
 The Urdu word "ma'ashiyat" means this. :: Economics
-The Urdu word "nafsiyat" means this. :: Psychology
-The Urdu word "lisaniyat" means this. :: Linguistics
 The Urdu word "tanqeed" means this. :: Criticism
-The Urdu word "tehqeeq" means this. :: Research
-The Urdu word "inqilab" means this. :: Revolution
 The slogan "Inqilab Zindabad" means this. :: Long live the revolution
 The Urdu word "zindabad" means this. :: Long live
 The Urdu word "murdabad" means this. :: Down with

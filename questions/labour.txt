@@ -22,10 +22,8 @@ A payment made when a worker leaves after years of service in Saudi Arabia. :: E
 A group of workers that protects their rights together. :: A trade union
 Workers stopping work to demand better conditions. :: A strike
 The UN agency for labour standards. :: The International Labour Organization (ILO)
-The ILO was founded in this year. :: 1919
 The ILO's headquarters are in this city. :: Geneva
 International Workers' Day is on this date. :: 1 May
-Saudi Arabia's main labour law was issued in this year. :: 2005
 The Saudi ministry responsible for labour. :: The Ministry of Human Resources and Social Development
 The Saudi online platform for work permits and contracts. :: Qiwa
 The Saudi platform for hiring domestic workers. :: Musaned
@@ -44,7 +42,6 @@ A permit allowing a foreigner to work in Saudi Arabia. :: A work permit
 The Saudi residence permit for foreign workers. :: Iqama
 The Saudi system that checks that wages are paid on time through banks. :: The Wage Protection System
 The Saudi court that hears work disputes. :: The labour court
-Saudi labour courts started work in this year. :: 2018
 A worker paid by the hour. :: An hourly worker
 A worker who is not an employee and works for many clients. :: A freelancer (self-employed)
 The Saudi platform for registering freelancers. :: The Freelance platform (freelance.sa)
@@ -71,12 +68,10 @@ A worker whose job is lost because the role is no longer needed. :: Redundancy
 A worker's monthly payslip shows this. :: Pay and deductions
 Money taken from pay for insurance. :: A deduction (contribution)
 The hours of the midday ban on outdoor work in the Saudi summer. :: 12 noon to 3 pm
-The Saudi midday work ban runs from 15 June to this date. :: 15 September
 Using children to work in harmful jobs. :: Child labour
 The minimum working age in Saudi Arabia for most jobs. :: 15
 Forcing people to work against their will. :: Forced labour
 The worker's sponsor system that once tied foreign workers to employers. :: Kafala
-Saudi Arabia's 2021 reform that let foreign workers change jobs more easily. :: The Labour Reform Initiative
 Saudi workers who reach 60 often receive a pension from this body. :: GOSI
 The Saudi unemployment insurance program. :: SANED
 A meeting between workers and managers to agree pay. :: Collective bargaining
@@ -94,7 +89,6 @@ A worker who is hired through an agency. :: An agency worker
 The Saudi platform that lets job seekers find work. :: Jadarat
 The Saudi Labour Law covers workers in this sector. :: The private sector
 Government employees in Saudi Arabia are covered by this law instead. :: The Civil Service Law (Human Resources Law)
-The hadith "Give the worker his wage before his sweat dries" is narrated by this collection. :: Sunan Ibn Majah
 In the Quran, the daughter of the old man of Madyan described this prophet as "strong and trustworthy". :: Prophet Musa ﵇
 Prophet Musa ﵇ agreed to work for eight years, or this many if he chose to complete it. :: Ten
 The Arabic word for wage. :: Ujrah
@@ -103,9 +97,15 @@ The Arabic word for employer. :: Sahib al-'amal
 The day off at the end of Ramadan, given as holiday. :: Eid al-Fitr holiday
 Saudi National Day, a paid holiday, is on this date. :: 23 September
 Saudi Founding Day, a paid holiday, is on this date. :: 22 February
+The concept of balancing work and personal life. :: Work-life balance
+Under the Saudi Labour Law, the employer must pay wages at least this often to monthly workers. :: Once a month
+The Saudi labour inspection system sends inspectors to check these. :: Workplaces (compliance with the law)
+The principle of "equal pay for work of equal value". :: Equal pay
+The economist who wrote "The Wealth of Nations" with the pin factory example. :: Adam Smith
+The HR term for finding and hiring workers. :: Recruitment
+The written record of hours a worker has worked. :: A timesheet
 
 ## 200
-The Saudi Labour Law of 2005 was issued by this royal decree. :: M/51
 The Saudi Labour Law was amended in a big way in this year (effective 2025). :: 2024
 After the 2025 amendments, maternity leave in Saudi Arabia is this long. :: 12 weeks
 Before 2025, Saudi maternity leave was this long. :: Ten weeks
@@ -121,14 +121,10 @@ A worker who resigns after five to ten years gets this share of the end-of-servi
 A worker who resigns after ten years gets this share of the end-of-service award. :: All of it
 A worker who resigns before two years gets this much end-of-service award. :: Nothing
 A Saudi female worker who resigns within six months of marriage or three months of giving birth gets this. :: The full end-of-service award
-The Saudi Labour Law article that lists cases where an employer may dismiss without an award. :: Article 80
-The Saudi Labour Law article on compensation for unlawful termination. :: Article 77
 Under Article 77, compensation for an indefinite contract is this many days' wage per year of service. :: 15
 Under Article 77, the minimum compensation is this many months' wages. :: Two
-The Saudi Labour Law article that lets a worker leave without notice if the employer cheats or assaults him. :: Article 81
 The Saudi Labour Law requires a written contract in this language. :: Arabic
 In Saudi Arabia, a Saudi worker's fixed-term contract becomes indefinite after this many renewals or four years. :: Three
-In Saudi Arabia, a worker may be asked to work no more than this many overtime hours a year by default. :: 720
 In Saudi Arabia, a worker may not work more than this many hours in a row without a break. :: Five
 Breaks for rest, prayer and meals in Saudi Arabia must total at least this long per day. :: 30 minutes
 In Saudi Arabia, hours spent at work including breaks may not exceed this many per day. :: Twelve
@@ -150,28 +146,17 @@ The Saudi Social Insurance Law was updated in this year. :: 2024
 The Saudi Domestic Workers Regulation was issued in this year. :: 2013
 Domestic workers in Saudi Arabia must get this many hours of rest a day. :: Nine
 Domestic workers in Saudi Arabia must get one day off each week and this much paid leave every two years. :: One month
-The Saudi Labour Law does not cover domestic workers, family members working for the family, and these sea workers. :: Workers on ships under 500 tons
 The Saudi Labour Law does not cover farm workers in these. :: Family farms (and small agricultural units)
 The Saudi labour dispute process starts with this before going to court. :: Amicable settlement (wudi)
 The Saudi system of amicable labour settlement must finish within this many days. :: 21
 Labour claims in Saudi Arabia must be filed within this long after the contract ends. :: 12 months
 The Saudi labour court's appeal level is in this court. :: The Court of Appeal (labour circuits)
-The number of the ILO convention on minimum age. :: 138
-The number of the ILO convention on the worst forms of child labour. :: 182
-The number of the 1930 ILO convention on forced labour. :: 29
-The number of the ILO convention on freedom of association. :: 87
-The number of the ILO convention on equal pay. :: 100
-The number of the ILO convention on domestic workers. :: 189
-The number of the ILO convention on violence and harassment at work. :: 190
 The ILO's 1998 declaration lists these core labour rights. :: Fundamental principles and rights at work
 The fifth fundamental right added by the ILO in 2022. :: A safe and healthy working environment
 The ILO's governing structure has governments, employers and these. :: Workers
 The ILO structure with three parties is called this. :: Tripartite
-The ILO won the Nobel Peace Prize in this year. :: 1969
-The ILO's Director-General since 2022. :: Gilbert Houngbo
 The ILO was created by this treaty. :: The Treaty of Versailles
 The British laws of the 1800s that limited children's work in factories. :: The Factory Acts
-The British Factory Act of 1833 banned work in textile mills for children under this age. :: Nine
 The 1886 Chicago event that is remembered on May Day. :: The Haymarket affair
 The US carmaker who paid workers five dollars a day in 1914. :: Henry Ford
 The idea of "scientific management" was created by this American engineer. :: Frederick Taylor
@@ -187,7 +172,6 @@ The UK court that hears employment disputes. :: The Employment Tribunal
 The UK Supreme Court case of 2021 that said Uber drivers are this. :: Workers (not self-employed)
 The term for jobs done through apps, such as delivery. :: Gig work
 The idea of a four-day working week trial was run on a large scale in this country in 2022. :: The UK
-The concept of balancing work and personal life. :: Work-life balance
 The right of workers to ignore work messages after hours. :: The right to disconnect
 In Saudi Arabia a daily wage is the monthly wage divided by 30. What is the daily wage of a worker paid 3,000 riyals a month? :: 100 riyals
 In Saudi Arabia a daily wage is the monthly wage divided by 30. What is the daily wage of a worker paid 3,600 riyals a month? :: 120 riyals
@@ -205,15 +189,25 @@ In Saudi Arabia a daily wage is the monthly wage divided by 30. What is the dail
 In Saudi Arabia a daily wage is the monthly wage divided by 30. What is the daily wage of a worker paid 13,500 riyals a month? :: 450 riyals
 In Saudi Arabia a daily wage is the monthly wage divided by 30. What is the daily wage of a worker paid 15,000 riyals a month? :: 500 riyals
 In Saudi Arabia a daily wage is the monthly wage divided by 30. What is the daily wage of a worker paid 18,000 riyals a month? :: 600 riyals
+Under Article 80, a worker who assaults the employer or a manager may be dismissed. True or false? :: True
+The term for a worker who reports wrongdoing at work. :: A whistleblower
+The pin factory example is about this. :: Division of labour
+The thinker who wrote about alienation of workers. :: Karl Marx
+The economist who wrote "The General Theory" about unemployment. :: John Maynard Keynes
+The curve that shows a trade-off between unemployment and inflation. :: The Phillips curve
+The ratio of employed people to working-age people. :: The employment rate
+The Islamic legal maxim used to support workers' rights: "No harm and no ___". :: Reciprocating harm (la darar wa la dirar)
+Umar ibn Abd al-Aziz ﵀ is known as this among the caliphs. :: The fifth rightly guided caliph
+The Saudi Bar for lawyers is called this. :: The Saudi Bar Association
+Our Beloved and our master, the Prophet Muhammad ﷺ worked as a young man as this. :: A shepherd (and later a trader)
+The famous saying "The upper hand is better than the lower hand" means this. :: Giving is better than taking
 
 ## 300
 The Saudi Labour Law has this many articles (original). :: 245
 Under Article 80, an employer may dismiss a worker who is absent without a valid reason for more than this many days in a year. :: 30
 Under Article 80, consecutive absence of more than this many days allows dismissal. :: 15
 Under Article 80, the employer must first give this before dismissing for absence. :: A written warning
-Under Article 80, a worker who assaults the employer or a manager may be dismissed. True or false? :: True
 Under Article 80, a worker who fails the probation period may be dismissed without this. :: An award or notice
-Under the Saudi Labour Law, the employer must pay wages at least this often to monthly workers. :: Once a month
 Under the Saudi Labour Law, the employer may not deduct more than this share of a worker's wage for debts. :: Half (and usually a tenth for loans)
 Under the Saudi Labour Law, a worker can't be transferred to another city if this. :: It would cause serious harm without a valid reason
 Under the Saudi Labour Law, the employer pays the costs of these for foreign workers. :: Recruitment, iqama, work permit and return ticket
@@ -222,7 +216,6 @@ Under the Saudi Labour Law, a woman may not be dismissed during this. :: Materni
 Under the Saudi Labour Law, a nursing mother may take this each day for a year. :: One hour of nursing breaks
 Employers with this many women workers or more must provide a nursery in Saudi Arabia. :: 50 (with children under six, at least ten)
 Under the Saudi Labour Law, a Saudi woman can work night shifts. True or false? :: True (with conditions)
-The Saudi labour inspection system sends inspectors to check these. :: Workplaces (compliance with the law)
 The Saudi term for a worker who leaves his employer illegally. :: Huroob (absconding)
 Under GOSI, a pension is earned after this many months of contributions under the old law. :: 120 (with age 60)
 Under the old GOSI law, full pension needs this many years of contribution. :: 25 (300 months for early retirement)
@@ -247,22 +240,16 @@ Saudi Arabia joined the ILO in this year. :: 1976
 Saudi Arabia ratified ILO Convention 29 on forced labour in this year. :: 1978
 Saudi Arabia ratified the ILO protocol on forced labour in this year. :: 2021
 The ILO Maritime Labour Convention of 2006 is known as this. :: The seafarers' bill of rights
-The term for a worker who reports wrongdoing at work. :: A whistleblower
 The term for a contract term stopping a worker from joining a rival. :: Non-compete clause
 Under the Saudi Labour Law, a non-compete clause must be limited in time, place and work, and in writing. Its maximum time is this. :: Two years
 Under the Saudi Labour Law, a worker who wants to resign from an indefinite contract must give this much notice. :: 30 days (60 if the employer ends it)
 The legal term for a sham resignation forced by the employer. :: Constructive dismissal
 The legal term for treating similar workers equally. :: Equal treatment
-The principle of "equal pay for work of equal value". :: Equal pay
 The Saudi Labour Law amended in 2019 to ban discrimination in wages between men and women for this. :: Work of equal value
 The famous US case on job discrimination tests: Griggs v Duke Power. :: Disparate impact
 The US case that said pregnancy discrimination is sex discrimination after this 1978 law. :: The Pregnancy Discrimination Act
 The UK case on equal pay for women at Ford's Dagenham plant led to this law. :: The Equal Pay Act 1970
-The UK case of 2017 on tribunal fees. :: R (UNISON) v Lord Chancellor
 The German sociologist Max Weber wrote about bureaucracy and this "work ethic". :: The Protestant work ethic
-The economist who wrote "The Wealth of Nations" with the pin factory example. :: Adam Smith
-The pin factory example is about this. :: Division of labour
-The thinker who wrote about alienation of workers. :: Karl Marx
 The Muslim historian who wrote that labour is the source of value in the "Muqaddimah". :: Ibn Khaldun ﵀
 A Saudi worker earns a basic wage of 3,000 riyals a month (hourly rate = monthly / 30 / 8). What is one overtime hour worth at 150%? :: 18.75 riyals
 A Saudi worker earns a basic wage of 3,600 riyals a month (hourly rate = monthly / 30 / 8). What is one overtime hour worth at 150%? :: 22.50 riyals
@@ -284,7 +271,6 @@ A worker is off sick for 40 days in a year, earning 6,000 riyals a month. How mu
 A worker is off sick for 30 days in a year, earning 9,000 riyals a month. How much sick pay? :: 9,000 riyals (full pay)
 The HR term for the rate at which workers leave a company. :: Staff turnover
 The HR term for keeping good workers. :: Retention
-The HR term for finding and hiring workers. :: Recruitment
 The HR term for helping new workers settle in. :: Onboarding
 A meeting with a worker who is leaving to ask why. :: An exit interview
 A yearly review of a worker's results. :: A performance appraisal
@@ -300,13 +286,25 @@ The study of how lighting affected workers at a US factory in the 1920s. :: The 
 The Hawthorne effect means people work differently when they are this. :: Watched (observed)
 The legal duty of an employer for acts of its workers at work. :: Vicarious liability
 The legal term for paying a worker less than the agreed wage. :: Wage theft (underpayment)
-The written record of hours a worker has worked. :: A timesheet
 The term for workers' right to form unions. :: Freedom of association
 The term for a workplace where only union members may be hired. :: A closed shop
 The term for refusing to let workers into a workplace during a dispute. :: A lockout
 The term for a worker who crosses a picket line. :: A strikebreaker
 A line of striking workers outside a workplace. :: A picket line
 A slow-down protest by doing only the minimum required. :: Work-to-rule
+The ILO was founded in this year. :: 1919
+Saudi Arabia's main labour law was issued in this year. :: 2005
+Saudi labour courts started work in this year. :: 2018
+The Saudi midday work ban runs from 15 June to this date. :: 15 September
+Saudi Arabia's 2021 reform that let foreign workers change jobs more easily. :: The Labour Reform Initiative
+The hadith "Give the worker his wage before his sweat dries" is narrated by this collection. :: Sunan Ibn Majah
+The 1984 industrial disaster at a pesticide plant in India. :: The Bhopal disaster
+The Indian leader who led a mill workers' strike in Ahmedabad in 1918. :: Mahatma Gandhi
+The French economist who wrote "Capital in the Twenty-First Century". :: Thomas Piketty
+The hadith "No one has eaten better food than what he eats from the work of his hands" mentions this prophet's work. :: Prophet Dawud ﵇
+Prophet Dawud ﵇ made this item with his hands. :: Armour (chain mail)
+The Companion who said, "Show me the market," refusing his Ansari brother's offer of half his wealth. :: Abd al-Rahman ibn 'Awf ﵁
+The hadith says it is better for one of you to take a rope and gather this than to beg. :: Firewood
 
 ## 400
 Under the Saudi Labour Law, a worker injured at work is paid this during treatment. :: Full wage for 30 days, then 75% (until recovery or a year)
@@ -352,11 +350,7 @@ The UN body that studies the rights of migrant workers. :: The Committee on Migr
 The famous 1911 factory fire in New York that led to safety laws. :: The Triangle Shirtwaist fire
 The 2013 Bangladesh factory collapse that killed over 1,100 workers. :: Rana Plaza
 The international agreement on building safety after Rana Plaza. :: The Bangladesh Accord
-The 1984 industrial disaster at a pesticide plant in India. :: The Bhopal disaster
 The "Ricardian" theory that wages tend to subsistence level is called this. :: The iron law of wages
-The economist who wrote "The General Theory" about unemployment. :: John Maynard Keynes
-The curve that shows a trade-off between unemployment and inflation. :: The Phillips curve
-The ratio of employed people to working-age people. :: The employment rate
 The unemployment rate of Saudis reached a record low in this year. :: 2024
 Saudi women's labour force participation passed this target of Vision 2030 early. :: 30%
 The Saudi Vision 2030 target for women's labour force participation was raised to this. :: 40%
@@ -365,12 +359,10 @@ The Saudi "Liqaat" events are this. :: Job fairs (meetings between employers and
 The Saudi General Organization for Social Insurance was founded in this year. :: 1969
 The Saudi Public Pension Agency merged into GOSI in this year. :: 2021
 The Saudi minister of human resources since 2020. :: Ahmed Al-Rajhi
-The Islamic legal maxim used to support workers' rights: "No harm and no ___". :: Reciprocating harm (la darar wa la dirar)
 The hadith qudsi "I will be the opponent of three on the Day of Judgement" is in this collection. :: Sahih al-Bukhari
 The early Islamic institution that gave pensions to people from the treasury, set up by Umar ﵁. :: The diwan ('ata')
 Umar ibn al-Khattab ﵁ gave a stipend to every newborn after he heard this. :: A mother weaning her baby early to get the stipend
 Umar ibn Abd al-Aziz ﵀ ordered help for disabled people, including this for each blind person. :: A guide (a helper)
-Umar ibn Abd al-Aziz ﵀ is known as this among the caliphs. :: The fifth rightly guided caliph
 A worker earning 4,000 riyals a month is let go after 3 years, not for misconduct. What end-of-service award is due under the Saudi Labour Law? :: 6,000 riyals
 A worker earning 6,000 riyals a month is let go after 4 years, not for misconduct. What end-of-service award is due under the Saudi Labour Law? :: 12,000 riyals
 A worker earning 8,000 riyals a month is let go after 2 years, not for misconduct. What end-of-service award is due under the Saudi Labour Law? :: 8,000 riyals
@@ -400,7 +392,6 @@ The Saudi "Professional Accreditation" program tests foreign workers in these jo
 The Saudi Council of Engineers requires foreign engineers to have this. :: Professional accreditation (membership)
 The Saudi Commission for Health Specialties licenses these. :: Health practitioners
 The Saudi Accountants body that certifies professionals. :: SOCPA
-The Saudi Bar for lawyers is called this. :: The Saudi Bar Association
 A lawyer in Saudi Arabia must hold a licence from this ministry. :: The Ministry of Justice
 Saudi women were first licensed as lawyers in this year. :: 2013
 The Saudi Code of Law Practice for lawyers was issued in this year. :: 2001
@@ -409,6 +400,22 @@ The Saudi General Authority for Statistics publishes this survey every quarter. 
 The International Labour Conference meets every year in this month. :: June
 The ILO's "Decent Work" agenda has four pillars: jobs, rights, social protection and this. :: Social dialogue
 The UN SDG number for decent work and economic growth. :: 8
+The Saudi Labour Law of 2005 was issued by this royal decree. :: M/51
+The Saudi Labour Law article that lists cases where an employer may dismiss without an award. :: Article 80
+The Saudi Labour Law article on compensation for unlawful termination. :: Article 77
+The Saudi Labour Law article that lets a worker leave without notice if the employer cheats or assaults him. :: Article 81
+In Saudi Arabia, a worker may be asked to work no more than this many overtime hours a year by default. :: 720
+The Saudi Labour Law does not cover domestic workers, family members working for the family, and these sea workers. :: Workers on ships under 500 tons
+The number of the ILO convention on minimum age. :: 138
+The number of the ILO convention on the worst forms of child labour. :: 182
+The number of the 1930 ILO convention on forced labour. :: 29
+The number of the ILO convention on freedom of association. :: 87
+The number of the ILO convention on equal pay. :: 100
+The number of the ILO convention on domestic workers. :: 189
+The number of the ILO convention on violence and harassment at work. :: 190
+The ILO won the Nobel Peace Prize in this year. :: 1969
+The ILO's Director-General since 2022. :: Gilbert Houngbo
+The British Factory Act of 1833 banned work in textile mills for children under this age. :: Nine
 
 ## 500
 The Saudi Labour Law's first version in 1969 was called this. :: The Labour and Workmen Law (1389H)
@@ -436,8 +443,6 @@ The British agricultural workers deported in 1834 for forming a union. :: The To
 The US union federation formed in 1955 by merging two groups. :: The AFL-CIO
 The Polish union movement led by Lech Wałęsa. :: Solidarity
 Solidarity began at a shipyard in this city. :: Gdańsk
-The Indian leader who led a mill workers' strike in Ahmedabad in 1918. :: Mahatma Gandhi
-The French economist who wrote "Capital in the Twenty-First Century". :: Thomas Piketty
 The term for the share of national income going to workers. :: The labour share
 The economist who argued minimum wage increases did not cut jobs in New Jersey fast food, with Krueger. :: David Card
 David Card won the Nobel Prize in economics in this year. :: 2021
@@ -449,13 +454,9 @@ The Ottoman craft guilds were called this. :: Esnaf (lonca)
 The Ottoman guilds were linked to these brotherhoods of young men. :: The Akhi (futuwwa) brotherhoods
 The Abbasid jurist who wrote "Al-Kasb" on earning a living. :: Muhammad al-Shaybani ﵀
 Al-Shaybani's ﵀ "Al-Kasb" says earning a living is this. :: An obligation (in its basic amount)
-The hadith "No one has eaten better food than what he eats from the work of his hands" mentions this prophet's work. :: Prophet Dawud ﵇
-Prophet Dawud ﵇ made this item with his hands. :: Armour (chain mail)
-Our Beloved and our master, the Prophet Muhammad ﷺ worked as a young man as this. :: A shepherd (and later a trader)
 Prophet Nuh ﵇ is said to have worked as this. :: A carpenter (shipbuilder)
 Prophet Zakariyya ﵇ worked as this, according to a hadith in Sahih Muslim. :: A carpenter
 The Companion Abd al-Rahman ibn 'Awf ﵁ asked to be shown this when he arrived in Madinah. :: The market
-The Companion who said, "Show me the market," refusing his Ansari brother's offer of half his wealth. :: Abd al-Rahman ibn 'Awf ﵁
 The Ansari brother who offered Abd al-Rahman ibn 'Awf ﵁ half his wealth. :: Sa'd ibn al-Rabi' ﵁
 The Companion woman appointed by Umar ﵁ to supervise the market, according to some reports. :: Al-Shifa' bint Abdullah ﵂
 A worker earning 6,000 riyals a month resigns after 3 years. How much end-of-service award does he get under the Saudi Labour Law? :: 3,000 riyals (one third of 9,000)
@@ -505,13 +506,12 @@ The Muslim scholar al-Ghazali ﵀ wrote about earning a living in "Ihya' 'Ulum a
 The Companion known for working as a blacksmith in Makkah. :: Khabbab ibn al-Aratt ﵁
 The Companion who was a cloth merchant before becoming caliph. :: Abu Bakr al-Siddiq ﵁
 Abu Bakr ﵁ was given a salary from the treasury after he was seen going to do this. :: Trade in the market
-The famous saying "The upper hand is better than the lower hand" means this. :: Giving is better than taking
-The hadith says it is better for one of you to take a rope and gather this than to beg. :: Firewood
 The book in which the Andalusian scholar Ibn Hazm ﵀ argued the rich must support the poor if zakat is not enough. :: Al-Muhalla
 Salman al-Farisi ﵁ made and sold palm-leaf baskets while he was governor of this city. :: Al-Mada'in
 The ILO's tripartite body that runs the organisation between conferences. :: The Governing Body
 The ILO body of independent experts that reviews how countries apply conventions. :: The Committee of Experts (CEACR)
 The 1982 Dutch deal on wage restraint and shorter hours, part of the "polder model". :: The Wassenaar Agreement
+The UK case of 2017 on tribunal fees. :: R (UNISON) v Lord Chancellor
 
 ## tf
 A Saudi employer keeping a foreign worker's passport without the worker's consent. :: Not legal (passports belong to the worker)

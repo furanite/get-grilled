@@ -59,7 +59,6 @@ Saudi Arabia's sovereign wealth fund, known by the letters PIF. :: Public Invest
 Saudi Arabia's national plan launched in 2016 to diversify the economy. :: Vision 2030
 The Saudi stock exchange. :: Tadawul (Saudi Exchange)
 The main index of the Saudi stock market, known by the letters TASI. :: Tadawul All Share Index
-Saudi Arabia's smaller, lighter-rules stock market for growing companies. :: Nomu (Parallel Market)
 A short-term loan a bank lets a company take by spending more than its account holds. :: Overdraft
 Money owed to suppliers is a source of this kind of short-term finance. :: Trade credit
 Renting equipment instead of buying it. :: Leasing
@@ -104,6 +103,7 @@ Paying a dividend in new shares rather than cash. :: Stock dividend (bonus share
 Profit kept in the company rather than paid out. :: Retained earnings
 The official legal paper that creates a company and sets its rules. :: Articles of association (bylaws)
 A company's yearly plan of how much capital it will spend. :: Capital budget
+The Saudi riyal has been pegged to the US dollar at this rate since 1986. :: 3.75 riyals per dollar
 
 ## 200
 The formula for future value of a single sum. :: FV = PV x (1 + r)^n
@@ -161,7 +161,6 @@ The bank that guarantees to buy unsold shares in an IPO. :: Underwriter
 The document that describes a company and its shares offered to the public. :: Prospectus
 The first-day price rise when IPO shares are priced below what the market will pay. :: Underpricing
 Setting the IPO price by collecting orders from big investors. :: Book building
-The option for underwriters to sell up to 15% more shares in an IPO. :: Greenshoe (over-allotment option)
 A period after an IPO when insiders cannot sell their shares. :: Lock-up period
 Days of inventory plus days receivable minus days payable. :: Cash conversion cycle
 EBIT divided by interest expense. :: Interest coverage ratio
@@ -192,7 +191,6 @@ Lost sales of existing products caused by a new product. :: Cannibalisation
 Money tied up in stock and receivables when a project starts. :: Working capital investment
 EBIT x (1 - tax) + depreciation - capex - change in working capital. :: Free cash flow
 A company's beta without the effect of debt. :: Unlevered (asset) beta
-The formula that relevers a beta: unlevered beta x [1 + (1 - t) x D/E]. :: Hamada equation
 The risk-free rate in CAPM is usually based on yields of these. :: Government bonds
 CAPM: risk-free 4%, beta 1.2, market premium 5%. The cost of equity. :: 10%
 WACC with 60% equity at 10% and 40% debt at 5% after tax. :: 8%
@@ -206,13 +204,23 @@ Debt that ranks after other debt in bankruptcy. :: Subordinated debt (junior deb
 Debt that is repaid first in bankruptcy. :: Senior debt
 A mix of debt and equity features, such as convertible loans. :: Mezzanine finance (hybrid finance)
 A firm's ability to pay short-term bills is called this. :: Liquidity
+A merger of firms in the same industry at the same stage. :: Horizontal merger
+A merger with a supplier or customer. :: Vertical merger
+A merger of firms in unrelated businesses. :: Conglomerate merger
+A project's IRR is 12% and its cost of capital is 10%. Its NPV is this. :: Positive
+A dividend of 3 per share on a share priced 60 gives a dividend yield of this. :: 5%
+The investment bank failure in September 2008 that triggered the global crisis. :: Lehman Brothers
+SABIC was bought in 2020 by this company, which took a 70% stake. :: Saudi Aramco
+Companies that hedge raw materials, such as airlines, often hedge this. :: Jet fuel
+A company's weighted average cost of capital is 9%. A project as risky as the firm returns 8%. Accept or reject? :: Reject
+Warren Buffett's company. :: Berkshire Hathaway
+The Saudi investor and Kingdom Holding founder known for early investments in Citigroup and Twitter. :: Prince Alwaleed bin Talal
 
 ## 300
 The 1958 Modigliani-Miller Proposition I says, without taxes, firm value is independent of this. :: Capital structure
 MM Proposition II says the cost of equity rises in a straight line with this. :: Leverage (debt-to-equity ratio)
 With corporate taxes, MM say firm value rises with debt by the present value of this. :: Interest tax shields
 The value of a levered firm = value of unlevered firm + this (MM with taxes). :: Tax rate x debt (PV of tax shield)
-The economist Merton Miller added personal taxes to the debate in this 1977 paper. :: "Debt and Taxes"
 The 1976 paper by Jensen and Meckling introduced the theory of this. :: The firm (agency costs and ownership structure)
 The 1984 paper by Myers and Majluf explains this theory of financing. :: Pecking order theory
 Myers called the theory's dilemma "the capital structure ___". :: Puzzle
@@ -229,7 +237,6 @@ The model that explains returns with several factors instead of one beta, by Ste
 The Fama-French three-factor model adds size and this to the market factor. :: Value (book-to-market, HML)
 The Fama-French size factor is called this. :: SMB (small minus big)
 The Fama-French value factor is called this. :: HML (high minus low)
-The momentum factor added by Carhart in 1997. :: UMD or WML (winners minus losers)
 The 2015 Fama-French five-factor model adds profitability and this. :: Investment
 Adjusted present value = base-case NPV + ___. :: PV of financing side effects (such as tax shields)
 The APV method is best for deals where this changes over time, such as LBOs. :: Capital structure (debt level)
@@ -251,9 +258,6 @@ A clause letting a target's board consider better offers after signing. :: Fiduc
 A fee a target pays if it walks away from an agreed deal. :: Break-up fee (termination fee)
 The theory that executives overpay for acquisitions due to overconfidence, by Richard Roll in 1986. :: Hubris hypothesis
 The 'winner's curse' in auctions means the winning bidder tends to do this. :: Overpay
-A merger of firms in the same industry at the same stage. :: Horizontal merger
-A merger with a supplier or customer. :: Vertical merger
-A merger of firms in unrelated businesses. :: Conglomerate merger
 Paying part of a deal price later, based on the target's future results. :: Earn-out
 An offer made directly to shareholders to buy their shares. :: Tender offer
 Buying a stake quietly before announcing a bid. :: Toehold
@@ -266,7 +270,6 @@ The trade-off theory's costs that increase with debt include these. :: Financial
 Direct bankruptcy costs include legal fees; lost customers and staff are this kind of cost. :: Indirect bankruptcy costs
 In the US, the bankruptcy chapter for reorganising a company. :: Chapter 11
 In the US, the bankruptcy chapter for liquidation. :: Chapter 7
-Saudi Arabia's Bankruptcy Law, which introduced financial reorganisation, took effect in this year. :: 2018
 The Saudi body that administers bankruptcy procedures, set up in 2018. :: Bankruptcy Commission
 Holding cash to take advantage of unexpected opportunities is this motive. :: Precautionary (or speculative) motive
 The Baumol model of cash management resembles this inventory model. :: EOQ (economic order quantity)
@@ -286,12 +289,10 @@ Risk that exchange-rate moves change a firm's long-term competitiveness. :: Econ
 The parity theory linking interest rate differences to forward exchange rates. :: Interest rate parity
 The parity theory linking inflation differences to exchange rate changes. :: Purchasing power parity
 An agreement to swap fixed interest payments for floating ones. :: Interest rate swap
-The Saudi riyal has been pegged to the US dollar at this rate since 1986. :: 3.75 riyals per dollar
 A company's decision to keep production at home or abroad is part of this kind of finance. :: International finance
 The return a shareholder earns: dividends plus price change, divided by starting price. :: Total shareholder return (holding period return)
 Bought at 50, sold at 55, with a dividend of 2. Return. :: 14%
 The phrase "cash is king" stresses this. :: Liquidity (cash flow over profit)
-A project's IRR is 12% and its cost of capital is 10%. Its NPV is this. :: Positive
 An investment of 100 returning 121 in two years has an IRR of this. :: 10%
 NPV of -1,000 now and 1,100 in one year at 10%. :: 0
 The concept that one riyal of tax saved is worth more if it comes sooner. :: Time value of tax savings (tax timing)
@@ -304,19 +305,20 @@ The theory that companies should serve all affected groups, not only shareholder
 Milton Friedman's 1970 essay said a company's social responsibility is to increase this. :: Its profits
 The investing approach that scores companies on environment, social and governance. :: ESG
 A bond whose money funds environmental projects. :: Green bond
-The PIF's first green bond was issued in this year. :: 2022
 The world's largest sovereign wealth funds include Norway's Government Pension Fund and this Saudi fund. :: Public Investment Fund (PIF)
-A dividend of 3 per share on a share priced 60 gives a dividend yield of this. :: 5%
 ROE 15% and retention ratio 60% give a sustainable growth rate of this. :: 9%
+Saudi Arabia's smaller, lighter-rules stock market for growing companies. :: Nomu (Parallel Market)
+The three types of market efficiency defined by Eugene Fama. :: Weak, semi-strong and strong
+The 'pecking order' predicts that firms with financial slack will issue this kind of security first when they need outside money. :: Debt
+A firm's operating leverage is the ratio of the change in EBIT to the change in this. :: Sales
+The 'Fisher effect' says nominal interest rates rise one for one with this. :: Expected inflation
 
 ## 400
 The 1990 Nobel Prize in economics went to Markowitz, Sharpe and this economist. :: Merton Miller
-Franco Modigliani won the Nobel Prize in this year. :: 1985
 The economist who first described the dividend discount model with constant growth in 1956. :: Myron Gordon (with Eli Shapiro)
 John Burr Williams set out the theory of investment value based on dividends in this 1938 book. :: The Theory of Investment Value
 Irving Fisher's 1930 book that set out the theory of interest and present value. :: The Theory of Interest
 The 'Fisher separation theorem' says investment decisions don't depend on what owners prefer about this. :: Consumption preferences
-The three types of market efficiency defined by Eugene Fama. :: Weak, semi-strong and strong
 Fama's paper that set out the efficient markets classification was published in this year. :: 1970
 The ratio of a firm's market leverage that minimises its WACC is called this. :: Optimal (target) capital structure
 The cost of equity for a firm with unlevered cost 10%, cost of debt 6%, D/E of 0.5, no taxes (MM II). :: 12%
@@ -327,14 +329,12 @@ The Damodaran estimate of a country risk premium is added to account for this. :
 The 'beta' of debt is usually assumed to be close to this. :: Zero
 The firm's cost of capital when it has no debt. :: Unlevered cost of capital (asset cost of capital)
 The capital cash flow method discounts FCF plus interest tax shields at this rate. :: Pre-tax WACC (unlevered cost of capital)
-The investment bank failure in September 2008 that triggered the global crisis. :: Lehman Brothers
 The 2007 failure of this British bank caused the first UK bank run in 150 years. :: Northern Rock
 The 1998 hedge fund collapse that needed a Fed-organised rescue. :: Long-Term Capital Management (LTCM)
 Two Nobel laureates on LTCM's board. :: Myron Scholes and Robert Merton
 The 1988 RJR Nabisco buyout was led by this private equity firm. :: KKR (Kohlberg Kravis Roberts)
 The book about the RJR Nabisco takeover battle. :: Barbarians at the Gate
 The 2000 merger of AOL and this media company is often called the worst deal in history. :: Time Warner
-SABIC was bought in 2020 by this company, which took a 70% stake. :: Saudi Aramco
 Aramco paid about this much for its 70% stake in SABIC. :: 69.1 billion dollars
 The Saudi bank merger completed in 2021 that created the Saudi National Bank. :: NCB and Samba
 Saudi Arabia's Tadawul Group (Saudi Exchange's parent) listed its own shares in this year. :: 2021
@@ -399,17 +399,18 @@ The cost of an unused part of a revolving facility. :: Commitment fee
 Hedging with a contract where the payoff is the opposite of the exposure is called this. :: Natural (or financial) hedge
 A firm with costs in euros and sales in euros has this kind of hedge. :: A natural hedge
 Hedging is valuable when markets are not perfect, for example because of these costs. :: Financial distress costs (and taxes)
-Companies that hedge raw materials, such as airlines, often hedge this. :: Jet fuel
 The 'convenience yield' is the benefit of holding this rather than a futures contract. :: The physical commodity
 A loan to a project company repaid only from the project's cash flows. :: Project finance (non-recourse finance)
 Saudi Arabia's private-public partnership law took effect in this year. :: 2021
 The National Center for Privatization in Saudi Arabia is known by these letters. :: NCP
 The 'equity premium puzzle' paper of 1985 was written by Mehra and this economist. :: Edward Prescott
 The term for a firm keeping more cash than it needs, studied by Opler and others in 1999. :: Cash holdings (excess cash)
-A company's weighted average cost of capital is 9%. A project as risky as the firm returns 8%. Accept or reject? :: Reject
 A loan of 100,000 at 6% repaid in equal yearly instalments over 5 years. The instalment is about this. :: 23,740
 Present value of 100 a year for 3 years at 10%. :: 248.69
 The ratio of net debt to EBITDA lenders often cap in leveraged loans. :: Leverage ratio (often 4 to 6 times in LBOs)
+The option for underwriters to sell up to 15% more shares in an IPO. :: Greenshoe (over-allotment option)
+The formula that relevers a beta: unlevered beta x [1 + (1 - t) x D/E]. :: Hamada equation
+Saudi Arabia's Bankruptcy Law, which introduced financial reorganisation, took effect in this year. :: 2018
 
 ## 500
 The 1963 correction MM published adds this to their 1958 theory. :: Corporate taxes
@@ -452,7 +453,6 @@ The PIF-backed electric car maker that listed on Nasdaq in 2021. :: Lucid
 Saudi Aramco's 2019 debut bond raised this much. :: 12 billion dollars
 Saudi Aramco's first US-dollar sukuk was issued in this year. :: 2021
 The Saudi Exchange's derivatives market launched in 2020, starting with futures on this index. :: MSCI Tadawul 30 Index (MT30)
-A firm's operating leverage is the ratio of the change in EBIT to the change in this. :: Sales
 Combined (total) leverage equals operating leverage times this. :: Financial leverage
 A firm with DOL 2 and DFL 1.5 sees EPS change by this much when sales rise 10%. :: 30%
 The cash conversion cycle of Dell in the late 1990s was famous because it was this. :: Negative
@@ -461,7 +461,6 @@ Ohlson's 1980 O-score predicts this. :: Bankruptcy (default)
 In the Merton model, the 'distance to default' measures standard deviations between asset value and this. :: The default point (debt)
 The credit spread of a firm rises as its asset volatility does this. :: Rises
 In the Merton framework, risky debt = risk-free debt minus this. :: A put option on the firm's assets
-The 'pecking order' predicts that firms with financial slack will issue this kind of security first when they need outside money. :: Debt
 The term 'agency costs of free cash flow' was coined by this author. :: Michael Jensen
 Shleifer and Vishny's 1989 paper on 'management entrenchment' says managers invest in assets that make them this. :: Hard to replace
 The board structure where the chair and CEO are the same person. :: CEO duality
@@ -470,7 +469,6 @@ Coase's 1937 paper 'The Nature of the Firm' explained firms exist because of the
 Williamson's work on transaction cost economics won him the Nobel Prize in this year. :: 2009
 Hart and Holmström won the 2016 Nobel Prize for contributions to this theory. :: Contract theory
 Holmström's 'informativeness principle' says pay should be linked to measures that do this. :: Reveal information about the agent's effort
-The 'Fisher effect' says nominal interest rates rise one for one with this. :: Expected inflation
 A company in a country with 10% inflation, using real cash flows, must discount at this kind of rate. :: A real discount rate
 Nominal rate 12%, inflation 4%. The exact real rate. :: About 7.69%
 The 'inflation gap' formula for exchange rates using relative PPP: expected change equals this. :: The inflation difference between the two countries
@@ -486,8 +484,6 @@ The investor who wrote "The Intelligent Investor" in 1949. :: Benjamin Graham
 Graham's term for the gap between price and intrinsic value that protects investors. :: Margin of safety
 "Security Analysis" (1934) was written by Benjamin Graham and this co-author. :: David Dodd
 The 'Graham number' combines EPS and this. :: Book value per share
-Warren Buffett's company. :: Berkshire Hathaway
-The Saudi investor and Kingdom Holding founder known for early investments in Citigroup and Twitter. :: Prince Alwaleed bin Talal
 The 'Miller-Orr' model sets the spread between upper and lower limits as 3 times the cube root of this. :: (3/4 x transaction cost x variance of cash flows / interest rate)
 In the Miller-Orr model, the return point is set at the lower limit plus this share of the spread. :: One third
 The co-author with Franco Modigliani of the 1958 paper 'The Cost of Capital, Corporation Finance and the Theory of Investment'. :: Merton Miller
@@ -512,3 +508,7 @@ The concept that investors' equity is a 'residual claim' was formalised by this 
 In 'Separation of Ownership and Control' (1983), Fama and Jensen describe four steps of decision making: initiation, ratification, implementation and this. :: Monitoring
 The Saudi Investment Bank, Riyad Bank and others list on this board of Tadawul. :: Main Market (Banks sector)
 The world's largest IPO before Saudi Aramco. :: Alibaba (2014, 25 billion dollars)
+The economist Merton Miller added personal taxes to the debate in this 1977 paper. :: "Debt and Taxes"
+The momentum factor added by Carhart in 1997. :: UMD or WML (winners minus losers)
+The PIF's first green bond was issued in this year. :: 2022
+Franco Modigliani won the Nobel Prize in this year. :: 1985

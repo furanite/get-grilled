@@ -77,7 +77,6 @@ Tweezers and fishing rods are levers of this class. :: Third class
 A crowbar used over a fulcrum near the load is a lever of this class. :: First class
 The everyday name for a moment that twists a shaft. :: Torque
 The tool used to apply a set amount of torque to a bolt. :: Torque wrench
-A cable hanging under its own weight takes this shape. :: Catenary
 A structure designed to carry a road or rail over an obstacle. :: Bridge
 The part of a structure that spreads its loads into the ground. :: Foundation
 A beam built into a wall at one end with the other end free. :: Cantilever
@@ -93,7 +92,6 @@ The upward force a fluid exerts on a submerged object. :: Buoyancy
 The principle that a floating body displaces its own weight of fluid. :: Archimedes' principle
 A force that acts on every particle of a body, like gravity. :: Body force
 A force that acts only where two bodies touch. :: Contact (surface) force
-Moving a force along its line of action does not change its effect. What is this called? :: Principle of transmissibility
 The common name for a two-dimensional system of forces in one flat plane. :: Coplanar forces
 Forces whose lines of action all pass through one point. :: Concurrent forces
 The device that measures force using a spring. :: Spring balance (newton meter)
@@ -104,6 +102,10 @@ The famous tower in Italy that leans but has not toppled. :: Leaning Tower of Pi
 The material most used for reinforcing concrete. :: Steel
 Concrete is strong in compression but weak in this. :: Tension
 Steel bars cast inside concrete. :: Rebar (reinforcing bars)
+A tall slender column fails suddenly by bending sideways. What is this called? :: Buckling
+A beam fixed at one end and free at the other. :: Cantilever
+The Greek scientist who said 'Give me a place to stand and I will move the Earth.' :: Archimedes
+The point where the whole weight of a body can be taken to act. :: Centre of gravity
 
 ## 200
 A bolt loaded so that it tends to be cut across its shank is in this. :: Shear
@@ -184,7 +186,6 @@ The extension of a bar equals PL divided by this. :: AE
 Twisting stress in a circular shaft equals Tr divided by this. :: J (polar moment of area)
 Angle of twist of a shaft equals TL divided by this. :: GJ
 Power transmitted by a shaft equals torque times this. :: Angular velocity
-A tall slender column fails suddenly by bending sideways. What is this called? :: Buckling
 The engineer whose formula predicts the buckling load of slender columns. :: Leonhard Euler
 Euler's buckling load is proportional to E times I divided by this squared. :: Effective length
 A column fixed at both ends has an effective length of this fraction of its real length. :: 0.5
@@ -206,11 +207,15 @@ The method that adds the effects of separate loads on a linear structure. :: Sup
 In a frame, a member that carries loads at more than two points is called this. :: Multi-force member
 The usual symbol for the load per unit length on a beam. :: w
 The internal force that tends to slide one part of a beam past the next. :: Shear force
+A cable hanging under its own weight takes this shape. :: Catenary
+Moving a force along its line of action does not change its effect. What is this called? :: Principle of transmissibility
+The stress state where only one principal stress is non-zero. :: Uniaxial stress
+Stress divided by strain in the linear elastic region. :: Young's modulus
+The 1940 suspension bridge failure caused by aeroelastic flutter. :: Tacoma Narrows Bridge
 
 ## 300
 The total strain energy in a beam in bending is the integral of M² divided by this. :: 2EI
 The angle of twist per unit length of a shaft equals T divided by this. :: GJ
-A beam fixed at one end and free at the other. :: Cantilever
 The method for beam deflection that integrates the bending moment twice. :: Double integration method
 The differential equation EI y'' = M relates curvature to this. :: Bending moment
 The product EI is called this. :: Flexural rigidity
@@ -308,12 +313,16 @@ The relationship between E, G and Poisson's ratio for isotropic materials. :: E 
 The bulk modulus relates pressure to this. :: Volumetric strain
 Bulk modulus in terms of E and ν. :: E/3(1 − 2ν)
 The generalised Hooke's law for 3D stress relates six stresses to this many strains. :: Six
+The Catalan architect who used hanging chain models to find arch shapes. :: Antoni Gaudí
+The temperature below which steels switch from ductile to brittle fracture. :: Ductile-to-brittle transition temperature
+The test that measures impact toughness with a notched bar and pendulum. :: Charpy test
+The test used to measure hardness with a diamond pyramid. :: Vickers hardness test
+The test that measures hardness with a steel ball and gives a number HB. :: Brinell hardness test
+The effective length factor K of a fixed–pinned column. :: About 0.7
 
 ## 400
-The stress state where only one principal stress is non-zero. :: Uniaxial stress
 The yield criterion that predicts yield at a lower shear stress than von Mises, making it more conservative. :: Tresca
 Elastic strain energy that changes only volume is called this. :: Dilatational (volumetric) strain energy
-Stress divided by strain in the linear elastic region. :: Young's modulus
 The ratio of plastic moment to yield moment for a section. :: Shape factor
 The shape factor of a rectangular section. :: 1.5
 The shape factor of a solid circular section. :: About 1.7
@@ -410,11 +419,10 @@ The phenomenon where stress in a wide flange is higher near the web. :: Shear la
 The Rankine earth pressure coefficient for active pressure with friction angle φ. :: (1 − sin φ)/(1 + sin φ)
 The angle a frictionless retaining wall's failure wedge makes with the horizontal in active Rankine conditions. :: 45° + φ/2
 The engineer who developed wedge theory for retaining walls in 1776. :: Charles-Augustin de Coulomb
+A suddenly applied load on an undamped elastic bar produces this many times the static stress. :: Two
 
 ## 500
 The Roman engineer whose book De Architectura described cranes and hoists. :: Vitruvius
-The Greek scientist who said 'Give me a place to stand and I will move the Earth.' :: Archimedes
-The point where the whole weight of a body can be taken to act. :: Centre of gravity
 The scientist whose 1676 Latin anagram 'ceiiinosssttuv' stated the law of springs. :: Robert Hooke
 Hooke's anagram decodes to this Latin phrase. :: Ut tensio, sic vis
 The engineer who first stated the beam bending problem in his 1638 book Two New Sciences. :: Galileo Galilei
@@ -424,7 +432,6 @@ The Scottish engineer who published the first systematic textbook on applied mec
 The British engineer whose 1850 tubular bridge tests helped found plate buckling knowledge. :: William Fairbairn
 The 1850 tubular bridge across the Menai Strait designed by Robert Stephenson. :: Britannia Bridge
 The 1907 bridge collapse in Canada caused by buckling of a compression chord. :: Quebec Bridge
-The 1940 suspension bridge failure caused by aeroelastic flutter. :: Tacoma Narrows Bridge
 The 1981 Kansas City hotel disaster caused by a change in hanger rod connections. :: Hyatt Regency walkway collapse
 The engineer who designed the Firth of Forth cantilever bridge with Benjamin Baker. :: John Fowler
 The 1879 bridge in Scotland that fell in a storm, leading to better wind load design. :: Tay Bridge
@@ -441,7 +448,6 @@ The Swiss engineer known for graphic statics and thin concrete bridges like Salg
 The graphical method for finding resultants and truss forces with force polygons. :: Graphic statics
 The German engineer who formalised graphic statics in 1866. :: Karl Culmann
 The diagram of a truss where each member force appears as a line in a combined force polygon. :: Maxwell–Cremona diagram
-The Catalan architect who used hanging chain models to find arch shapes. :: Antoni Gaudí
 The 1675 rule 'as hangs the flexible line, so but inverted will stand the rigid arch'. :: Hooke's law of the hanging chain
 The Spanish engineer famous for thin concrete shells such as the Los Manantiales restaurant. :: Félix Candela
 The shell shape Candela used most often, a doubly ruled saddle. :: Hyperbolic paraboloid (hypar)
@@ -484,7 +490,6 @@ The engineer whose method of successive approximations finds natural frequencies
 The theorem that the Rayleigh quotient is stationary at eigenvectors. :: Rayleigh's principle
 The Japanese engineer called the father of earthquake-resistant design, whose bank building survived the 1923 Kanto earthquake. :: Tachu Naito
 The theory that predicts dynamic amplification of loads suddenly applied to an elastic system. :: Dynamic load factor of 2
-A suddenly applied load on an undamped elastic bar produces this many times the static stress. :: Two
 The theory of failure based on total strain energy. :: Beltrami theory
 The yield criterion for soils and rocks that adds pressure dependence. :: Mohr–Coulomb criterion
 The smooth version of Mohr–Coulomb used in plasticity. :: Drucker–Prager criterion
@@ -498,15 +503,10 @@ The Paris law relates crack growth per cycle to this quantity. :: Range of stres
 The WWII ships that cracked in two in cold water, revealing brittle fracture. :: Liberty ships
 The 1954 airliner crashes caused by fatigue cracks near square windows. :: de Havilland Comet
 The 1988 Aloha Airlines incident was caused by this kind of fatigue. :: Multiple-site fatigue damage
-The temperature below which steels switch from ductile to brittle fracture. :: Ductile-to-brittle transition temperature
-The test that measures impact toughness with a notched bar and pendulum. :: Charpy test
-The test used to measure hardness with a diamond pyramid. :: Vickers hardness test
-The test that measures hardness with a steel ball and gives a number HB. :: Brinell hardness test
 The name of the effect where a rope wound on a capstan can hold a ship with little force. :: Capstan effect
 The minimum number of non-concurrent, non-parallel forces for a stable 2D rigid body support. :: Three
 A plane frame with r reactions, m members and j joints is unstable if r + m is less than this. :: 2j
 The ratio of the Euler loads of a fixed–pinned column to a pinned–pinned column. :: About 2.05
-The effective length factor K of a fixed–pinned column. :: About 0.7
 The torsional stiffness of a closed thin tube is 4A²G divided by this integral. :: ∮ ds/t
 The unit of the warping constant in SI. :: m⁶
 The first published finite element paper (1956) by Turner, Clough, Martin and Topp was for this industry. :: Aircraft (Boeing)

@@ -87,7 +87,6 @@ The photo-sharing app owned by Meta. :: Instagram
 The app with a ghost logo where snaps disappear. :: Snapchat
 The social platform once called Twitter. :: X
 The video website owned by Google. :: YouTube
-The game-streaming website owned by Amazon. :: Twitch
 The online video game store run by Valve. :: Steam
 The word for a person who plays video games a lot. :: Gamer
 The word for professional competitive video gaming. :: Esports
@@ -95,14 +94,27 @@ The Saudi city that hosts the giant Esports World Cup each summer. :: Riyadh
 The video game character who is a blue robot boy in Japan, Mega Man's Japanese name. :: Rockman
 The 1972 table tennis video game by Atari. :: Pong
 The 1978 arcade game where you shoot descending aliens. :: Space Invaders
-The board game where players buy streets and build houses and hotels. :: Monopoly
 The board game where you climb ladders and slide down snakes. :: Snakes and Ladders
 The game played with 28 rectangular tiles with dots, popular in Saudi cafés. :: Dominoes
-The word game where you build words on a board with letter tiles. :: Scrabble
 The strategy board game with a king, queen and knights. :: Chess
 The Saudi game-and-anime company owned by the Misk Foundation. :: Manga Productions
 The thing you press on a controller to jump in most Mario games. :: A button (the A button)
 The mushroom-headed helper in Mario games. :: Toad
+The term "GG" said at the end of a match stands for this. :: Good game
+The term "noob" means this. :: A beginner
+The term "lag" means this. :: Delay caused by a slow connection
+The term "boss" in a game means this. :: A powerful enemy, usually at the end of a level
+The PlayStation controller symbols are circle, cross, triangle and this. :: Square
+The Xbox controller face buttons are A, B, X and this. :: Y
+Sonic collects these golden items. :: Rings
+The Pokémon whose name is a combination of "pika" (sparkle) and "chu" (squeak). :: Pikachu
+The Capcom game series with Mega Man's blue robot. :: Mega Man
+The Apple product announced in 2007 as "an iPod, a phone, and an internet communicator". :: iPhone
+Apple's digital shop for iPhone apps, launched in 2008. :: The App Store
+Apple's face-recognition unlock introduced with the iPhone X. :: Face ID
+The number of players who drop into a standard Fortnite Battle Royale match. :: 100
+The classic 1989 game series "Prince of ___". :: Persia
+The game that came on every Windows PC as a card game, later Solitaire's companion with mines. :: Minesweeper
 
 ## 200
 The year the original Nintendo Entertainment System came out in Japan, as the Famicom. :: 1983
@@ -159,8 +171,6 @@ The Mario character who is Luigi's evil rival. :: Waluigi
 The game character Lara Croft explores tombs in this series. :: Tomb Raider
 The hero of the Halo series, a super-soldier. :: Master Chief
 The Ubisoft series about secret assassins across history, one set in Baghdad. :: Assassin's Creed
-The Assassin's Creed game set in 9th-century Baghdad, released in 2023. :: Assassin's Creed Mirage
-The main character of Assassin's Creed Mirage. :: Basim
 The Japanese company behind Street Fighter and Resident Evil. :: Capcom
 The Japanese company behind Final Fantasy and Dragon Quest. :: Square Enix
 The Japanese company that made Elden Ring and Dark Souls. :: FromSoftware
@@ -174,7 +184,6 @@ The Riyadh esports event with the biggest prize pool in history. :: Esports Worl
 The esports game where two teams of five destroy the enemy's Nexus. :: League of Legends
 The company that makes League of Legends. :: Riot Games
 The game "Dota 2" was made by this company. :: Valve
-Valve's Counter-Strike's latest version, released in 2023. :: Counter-Strike 2
 The Finnish company behind Clash of Clans and Clash Royale. :: Supercell
 The Finnish company behind Angry Birds. :: Rovio
 The Japanese company that made the Walkman. :: Sony
@@ -200,12 +209,26 @@ The full name of "USB". :: Universal Serial Bus
 The full name of "PDF". :: Portable Document Format
 The Mario Kart item that flies straight to the racer in first place. :: The blue shell (Spiny Shell)
 The Minecraft block you need to build a Nether portal. :: Obsidian
-Minecraft villagers trade using this green gem. :: Emeralds
 The Nintendo racing series with hover cars and Captain Falcon. :: F-Zero
 Apple's small tracking tag, released in 2021. :: AirTag
 Google's range of smart speakers and home devices. :: Google Nest
 Meta's smart glasses are made with this sunglasses brand. :: Ray-Ban
 The meaning of "GPS". :: Global Positioning System
+The term "NPC" in games stands for this. :: Non-player character
+The game genre "FPS" stands for this. :: First-person shooter
+The Pokémon series' professor in Red and Blue. :: Professor Oak
+The Blizzard game set in the world of Azeroth, a huge online RPG. :: World of Warcraft
+The Capcom fighting game character who shouts "Hadouken!". :: Ryu
+The yearly gaming awards show hosted by Geoff Keighley. :: The Game Awards
+The Apple co-founder who designed the Apple I and Apple II. :: Steve Wozniak
+The Apple voice assistant first added to the iPhone 4S in 2011. :: Siri
+The US chip company whose graphics cards power AI, led by Jensen Huang. :: Nvidia
+The Saudi state fund that bought stakes in Capcom and Koei Tecmo in 2022. :: The Public Investment Fund (PIF)
+Assassin's Creed Mirage can be played fully voiced in this language. :: Arabic
+The famous 37th move of AlphaGo in game 2 is called this. :: Move 37
+The actor who voiced Mario in the 2023 film. :: Chris Pratt
+"Pokémon" is short for this. :: Pocket Monsters
+The unbreakable block at the bottom of a Minecraft world. :: Bedrock
 
 ## 300
 The Japanese company that made playing cards before video games, founded in 1889. :: Nintendo
@@ -230,13 +253,11 @@ The engineer called "the father of video games" who made the Odyssey. :: Ralph B
 The Japanese designer who created Pac-Man. :: Toru Iwatani
 Pac-Man's shape was inspired by this food with a slice missing. :: A pizza
 The arcade game "Space Invaders" was made by this company. :: Taito
-The designer of Space Invaders. :: Tomohiro Nishikado
 The legendary 1989 Game Boy launch title from Russia. :: Tetris
 The first game played in space, taken on a Game Boy by a cosmonaut in 1993. :: Tetris
 The yearly Dota 2 world championship tournament. :: The International
 The Valve shooting game first released as a mod of Half-Life in 1999. :: Counter-Strike
 Valve's famous series in which scientist Gordon Freeman fights aliens. :: Half-Life
-The game series by Valve with portals and a companion cube. :: Portal
 The AI villain in Portal. :: GLaDOS
 The joke in Portal that promises a reward which never comes. :: The cake is a lie
 The 1986 game with the line "It's dangerous to go alone! Take this." :: The Legend of Zelda
@@ -279,36 +300,31 @@ The game genre named after "Metroid" and "Castlevania". :: Metroidvania
 MOBA stands for "Multiplayer Online ___". :: Battle Arena
 The game genre "RPG" stands for this. :: Role-playing game
 The game genre "RTS" stands for this. :: Real-time strategy
-The game genre "FPS" stands for this. :: First-person shooter
-The term "NPC" in games stands for this. :: Non-player character
 The term "HP" in games stands for this. :: Hit points (health)
 The term "XP" in games stands for this. :: Experience points
-The term "GG" said at the end of a match stands for this. :: Good game
 The term "AFK" stands for this. :: Away from keyboard
-The term "noob" means this. :: A beginner
-The term "lag" means this. :: Delay caused by a slow connection
-The term "boss" in a game means this. :: A powerful enemy, usually at the end of a level
 The term "respawn" means this. :: Coming back to life after being defeated
 The term "nerf" means this. :: Making something weaker in an update
 The term "buff" means this. :: Making something stronger
 The camera view called "third-person" shows this. :: Your character from behind
 The original Game Boy had this many colour shades on its green screen. :: Four
 The NES controller has this many face buttons, A and B. :: Two
-The Xbox controller face buttons are A, B, X and this. :: Y
-The PlayStation controller symbols are circle, cross, triangle and this. :: Square
 The PlayStation's cross button means "yes" in the West but this button means "yes" in Japan. :: Circle
 The 2007 Wii Mario game set in outer space. :: Super Mario Galaxy
 The 2017 Switch Mario game where Mario throws his living hat, Cappy. :: Super Mario Odyssey
 The animation studio that made "The Super Mario Bros. Movie" with Nintendo in 2023. :: Illumination
 The game that came with the Wii, with bowling, tennis and boxing. :: Wii Sports
 The cartoon avatars players create on the Wii. :: Miis
-Sonic collects these golden items. :: Rings
 The first live-action "Sonic the Hedgehog" film was released in this year. :: 2020
 The small American studio that made Among Us. :: Innersloth
 The 2009 mining game that inspired Minecraft. :: Infiniminer
 The term for a game made by a small independent studio. :: Indie game
 The Nintendo console with a tablet-like GamePad, released in 2012. :: Wii U
 Nintendo's toy figures that unlock content using NFC chips. :: Amiibo
+The board game where players buy streets and build houses and hotels. :: Monopoly
+The game company Bungie made this series before Destiny. :: Halo
+The chess computer that beat Garry Kasparov in 1997. :: Deep Blue
+The Google DeepMind AI that beat Lee Sedol at Go in 2016. :: AlphaGo
 
 ## 400
 The year Nintendo was founded. :: 1889
@@ -334,9 +350,7 @@ The creator of Pokémon, who loved collecting insects. :: Satoshi Tajiri
 The cable that connected two Game Boys to trade Pokémon. :: The Game Link Cable
 The rare Pokémon you could only get at events, number 151. :: Mew
 The glitch Pokémon in Red and Blue that could copy items. :: MissingNo.
-The Pokémon whose name is a combination of "pika" (sparkle) and "chu" (squeak). :: Pikachu
 The Pokémon whose evolutions are nicknamed "Eeveelutions". :: Eevee
-The Pokémon series' professor in Red and Blue. :: Professor Oak
 The rival in Pokémon Red and Blue. :: Gary (Blue)
 The highest number of Pokémon species by the Scarlet and Violet era, roughly. :: Over 1,000
 The first sports game in the FIFA series was released in this year. :: 1993
@@ -344,7 +358,6 @@ The FIFA series was renamed EA Sports FC in this year. :: 2023
 The Real Madrid player on the cover of EA Sports FC 25. :: Jude Bellingham
 The game company behind Call of Duty, bought by Microsoft in 2023. :: Activision Blizzard
 The price Microsoft paid for Activision Blizzard, roughly. :: About 69 billion dollars
-The Blizzard game set in the world of Azeroth, a huge online RPG. :: World of Warcraft
 The Blizzard team-based hero shooter released in 2016. :: Overwatch
 The Blizzard card game based on Warcraft. :: Hearthstone
 The Blizzard strategy game with Terrans, Zerg and Protoss. :: StarCraft
@@ -358,9 +371,7 @@ The Saudi company formed in 2021 to grow the country's gaming industry, owned by
 The Japanese fighting game company SNK, now majority owned by this Saudi foundation. :: The Misk Foundation
 The SNK fighting game series with Terry Bogard. :: Fatal Fury
 The SNK fighting game series with Kyo Kusanagi and Iori Yagami. :: The King of Fighters
-The Capcom fighting game character who shouts "Hadouken!". :: Ryu
 The Capcom fighting game character, a Chinese martial artist, the first female fighter in Street Fighter. :: Chun-Li
-The Capcom game series with Mega Man's blue robot. :: Mega Man
 The Capcom monster-hunting series that sold huge numbers in Japan. :: Monster Hunter
 The Capcom "Resident Evil" series is known in Japan as this. :: Biohazard
 The Square Enix series with Cloud Strife and Sephiroth. :: Final Fantasy
@@ -374,17 +385,11 @@ The director of Elden Ring and Dark Souls. :: Hidetaka Miyazaki
 The famous difficult game type named after Dark Souls. :: Soulslike
 The game that won The Game Awards' Game of the Year in 2023, set in the Forgotten Realms. :: Baldur's Gate 3
 The game that won Game of the Year at The Game Awards in 2024, a PlayStation robot platformer. :: Astro Bot
-The yearly gaming awards show hosted by Geoff Keighley. :: The Game Awards
 The yearly video game trade show in Los Angeles that ended in 2023. :: E3
 The German gaming convention, the largest in the world. :: Gamescom
 The Tokyo gaming show held each September. :: Tokyo Game Show
 The Saudi gaming convention held in Riyadh's Boulevard. :: Gamers8 (now part of the Esports World Cup)
-The Apple co-founder who designed the Apple I and Apple II. :: Steve Wozniak
-The Apple product announced in 2007 as "an iPod, a phone, and an internet communicator". :: iPhone
 The first iPhone's storage options were 4 GB and this. :: 8 GB
-Apple's digital shop for iPhone apps, launched in 2008. :: The App Store
-The Apple voice assistant first added to the iPhone 4S in 2011. :: Siri
-Apple's face-recognition unlock introduced with the iPhone X. :: Face ID
 The fingerprint sensor Apple introduced in 2013. :: Touch ID
 The Apple chip family that replaced Intel in Macs from 2020. :: Apple silicon (M1 and later)
 Samsung's "Galaxy Note 7" was recalled in 2016 because of this problem. :: Batteries catching fire
@@ -392,7 +397,6 @@ The company whose founder is Lei Jun. :: Xiaomi
 The founder of Huawei. :: Ren Zhengfei
 The Taiwanese company that makes most of the world's advanced chips. :: TSMC
 The Dutch company that makes the machines that print advanced chips. :: ASML
-The US chip company whose graphics cards power AI, led by Jensen Huang. :: Nvidia
 The colourful Mario Kart track set in space, with no barriers. :: Rainbow Road
 The first Mario Kart game, released on the SNES in 1992. :: Super Mario Kart
 The 1991 Zelda game on the SNES. :: A Link to the Past
@@ -406,11 +410,16 @@ Among Us came out in 2018 but became hugely popular in this year. :: 2020
 The company that created Pokémon Go. :: Niantic
 The company that bought Niantic's games business, including Pokémon Go, in 2025. :: Scopely
 The price Scopely paid for Niantic's games business, roughly. :: About 3.5 billion dollars
-The number of players who drop into a standard Fortnite Battle Royale match. :: 100
 Fortnite's in-game currency. :: V-Bucks
 The screen resolution of the original Game Boy. :: 160 x 144 pixels
 The name of the PlayStation 5 controller. :: DualSense
 The name of the PlayStation 4 controller. :: DualShock 4
+The game-streaming website owned by Amazon. :: Twitch
+The word game where you build words on a board with letter tiles. :: Scrabble
+The Assassin's Creed game set in 9th-century Baghdad, released in 2023. :: Assassin's Creed Mirage
+The main character of Assassin's Creed Mirage. :: Basim
+Valve's Counter-Strike's latest version, released in 2023. :: Counter-Strike 2
+Minecraft villagers trade using this green gem. :: Emeralds
 
 ## 500
 The first video game, often credited to physicist William Higinbotham in 1958, was this. :: Tennis for Two
@@ -442,7 +451,6 @@ The Nintendo Wii's codename during development. :: Revolution
 The Nintendo DS's codename during development. :: Nitro
 The Xbox was named after this technology. :: DirectX
 The first Xbox was famous for its huge controller nicknamed this. :: The Duke
-The game company Bungie made this series before Destiny. :: Halo
 The founder of Valve, previously a Microsoft employee. :: Gabe Newell
 The year Valve launched Steam. :: 2003
 Valve's 2020 VR game set between Half-Life 1 and 2. :: Half-Life: Alyx
@@ -452,9 +460,6 @@ The largest prize pool for a single player in a Fortnite World Cup was won in 20
 The amount Bugha won at the 2019 Fortnite World Cup. :: 3 million dollars
 The Saudi team that won the Esports World Cup Club Championship in 2024. :: Team Falcons
 The 2022 Saudi PIF purchase in Nintendo made it the largest outside investor, owning about this share. :: About 5 percent (later 8 percent)
-The Saudi state fund that bought stakes in Capcom and Koei Tecmo in 2022. :: The Public Investment Fund (PIF)
-Assassin's Creed Mirage can be played fully voiced in this language. :: Arabic
-The classic 1989 game series "Prince of ___". :: Persia
 The creator of "Prince of Persia", who filmed his brother to animate the hero. :: Jordan Mechner
 The animation technique Jordan Mechner used for Prince of Persia. :: Rotoscoping
 Ubisoft's 2003 game "Prince of Persia: The Sands of ___". :: Time
@@ -463,11 +468,7 @@ The fake language spoken by the Sims. :: Simlish
 The diamond above a Sim's head is called this. :: A Plumbob
 The company that makes The Sims. :: Maxis (EA)
 The game where you guide a frog across a road and river. :: Frogger
-The game that came on every Windows PC as a card game, later Solitaire's companion with mines. :: Minesweeper
 Microsoft added Solitaire to Windows 3.0 to teach people to use this. :: The mouse (drag and drop)
-The chess computer that beat Garry Kasparov in 1997. :: Deep Blue
-The Google DeepMind AI that beat Lee Sedol at Go in 2016. :: AlphaGo
-The famous 37th move of AlphaGo in game 2 is called this. :: Move 37
 The AI that learned chess from scratch and beat Stockfish in 2017. :: AlphaZero
 The open-source chess engine that is the strongest in the world. :: Stockfish
 The highest chess rating ever achieved by a human, by Magnus Carlsen. :: 2882
@@ -503,15 +504,14 @@ One of the rarest NES cartridges, made for a 1990 competition. :: Nintendo World
 The 1993 puzzle game set on a mysterious island, a best-selling PC game of the 1990s. :: Myst
 Final Fantasy VII moved the series from Nintendo consoles to this one. :: PlayStation
 The voice actor who voiced Mario in games from the 1990s until 2023. :: Charles Martinet
-The actor who voiced Mario in the 2023 film. :: Chris Pratt
 "The Super Mario Bros. Movie" earned about this much worldwide. :: About 1.36 billion dollars
-"Pokémon" is short for this. :: Pocket Monsters
 The rare Pokémon card that sold for over 5 million dollars in 2022. :: Pikachu Illustrator
 The Pokémon type added in 2013, the newest of all. :: Fairy
 The number of Pokémon types today. :: 18
 The Minecraft world border sits about this many blocks from the centre. :: 30 million
-The unbreakable block at the bottom of a Minecraft world. :: Bedrock
 The Minecraft creeper came from a mistake when making a model of this animal. :: A pig
 The best-selling single home computer model of all time, from 1982. :: Commodore 64
 The British inventor of the ZX Spectrum home computer. :: Clive Sinclair
 The 1982 film about a programmer pulled inside a computer game. :: Tron
+The designer of Space Invaders. :: Tomohiro Nishikado
+The game series by Valve with portals and a companion cube. :: Portal

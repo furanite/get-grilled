@@ -55,7 +55,6 @@ The Arab country with the most people. :: Egypt
 The largest country in the Arabian Peninsula. :: Saudi Arabia
 The desert that covers much of North Africa. :: Sahara
 The largest sand desert in the world, in Arabia. :: Rub' al Khali (Empty Quarter)
-The Lebanese city famous for its ancient ruins of the Temple of Bacchus. :: Baalbek
 The famous Egyptian city on the Mediterranean founded by Alexander the Great. :: Alexandria
 The Moroccan city famous for its red walls and Jemaa el-Fnaa square. :: Marrakesh
 The country whose flag shows a cedar tree. :: Lebanon
@@ -104,11 +103,17 @@ The country where the Atlas Mountains mostly lie. :: Morocco
 The Arab capital called "the city of a thousand minarets". :: Cairo
 The ancient city of Palmyra is in this country. :: Syria
 The Saudi city where the King Fahd Causeway to Bahrain begins. :: Al Khobar
+The year the Kingdom of Saudi Arabia was unified. :: 1932
+The founder of modern Saudi Arabia. :: King Abdulaziz (Ibn Saud)
+The Saudi club Cristiano Ronaldo joined in 2023. :: Al Nassr
+The pearl diving was the main industry of the Gulf until this was discovered. :: Oil
+The Saudi giga-project on the northwest Red Sea coast. :: NEOM
+The Saudi Vision for the country's future launched in 2016. :: Vision 2030
+The day Saudi National Day is celebrated. :: 23 September
 
 ## 200
 The year the Arab League was founded. :: 1945
 The city where the Arab League is headquartered. :: Cairo
-The number of founding members of the Arab League. :: 7
 The year the Gulf Cooperation Council was founded. :: 1981
 The number of member states of the GCC. :: 6
 The city where the GCC is headquartered. :: Riyadh
@@ -116,8 +121,6 @@ The year the UAE was founded. :: 1971
 The number of emirates in the UAE. :: 7
 The emirate that joined the UAE in 1972, the last one to join. :: Ras Al Khaimah
 The first president of the UAE. :: Sheikh Zayed bin Sultan Al Nahyan
-The year the Kingdom of Saudi Arabia was unified. :: 1932
-The founder of modern Saudi Arabia. :: King Abdulaziz (Ibn Saud)
 The year Kuwait gained independence from Britain. :: 1961
 The year Qatar and Bahrain gained independence. :: 1971
 The group of army officers who led Egypt's 1952 revolution. :: Free Officers
@@ -141,7 +144,6 @@ The Umayyad Mosque is in this capital. :: Damascus
 The Iraqi city that was the capital of the Abbasid Caliphate. :: Baghdad
 The Iraqi city with the spiral minaret of its Great Mosque. :: Samarra
 The ancient Iraqi city with the great ziggurat, home of the Sumerians. :: Ur
-The marshes of southern Iraq, on UNESCO's list since 2016. :: Mesopotamian Marshes (Ahwar)
 The Yemeni city famous for its mud-brick "skyscrapers". :: Shibam
 The Yemeni island famous for its dragon's blood trees. :: Socotra
 The Omani city famous for its fort and old souq, once Oman's capital. :: Nizwa
@@ -163,11 +165,9 @@ The Tunisian city with the great mosque that is one of the oldest in North Afric
 The Algerian mountain region famous for Kabyle Berber culture. :: Kabylie
 The Algerian city known as "the city of bridges". :: Constantine
 The Libyan ancient Roman city on the coast, a UNESCO site. :: Leptis Magna
-The ancient Kushite city in Sudan famous for its steep pyramids. :: Meroë
 The two Niles meet in this city. :: Khartoum
 The White Nile begins near this lake. :: Lake Victoria
 The Blue Nile begins at this lake in Ethiopia. :: Lake Tana
-The Mauritanian iron ore train is one of the longest in the world, running to this port. :: Nouadhibou
 The Mauritanian ancient city with desert libraries. :: Chinguetti
 The Sheikh who led Dubai's growth and is the UAE's vice president. :: Sheikh Mohammed bin Rashid Al Maktoum
 The emir of Qatar since 2013. :: Sheikh Tamim bin Hamad Al Thani
@@ -178,7 +178,6 @@ The king of Bahrain. :: King Hamad bin Isa Al Khalifa
 The famous Egyptian actor of "Lawrence of Arabia" and "Doctor Zhivago". :: Omar Sharif
 The Egyptian Nobel Peace Prize winner who led the IAEA. :: Mohamed ElBaradei
 The Egyptian chemist who won the 1999 Nobel Prize in Chemistry. :: Ahmed Zewail
-The Tunisian group that won the 2015 Nobel Peace Prize. :: National Dialogue Quartet
 The Yemeni journalist who shared the 2011 Nobel Peace Prize. :: Tawakkol Karman
 The Arab satellite news channel founded in Qatar in 1996. :: Al Jazeera
 The Arab satellite news channel based in Dubai, founded in 2003. :: Al Arabiya
@@ -189,7 +188,6 @@ The Qatari national airline. :: Qatar Airways
 The Saudi national airline. :: Saudia
 The famous Moroccan football club from Casablanca, rival of Raja. :: Wydad
 The Egyptian club that has won the most CAF Champions League titles. :: Al Ahly
-The Saudi club Cristiano Ronaldo joined in 2023. :: Al Nassr
 The Algerian-born French footballer who won the 1998 World Cup. :: Zinedine Zidane
 The Moroccan runner who holds the 1500 m world record. :: Hicham El Guerrouj
 The Moroccan coach who led the team to the 2022 World Cup semi-final. :: Walid Regragui
@@ -206,6 +204,25 @@ The Emirati island that is home to the Louvre Abu Dhabi. :: Saadiyat Island
 The Gulf strait between Oman and Iran. :: Strait of Hormuz
 The strait between Yemen and Djibouti, linking the Red Sea to the Gulf of Aden. :: Bab al-Mandab
 The ancient kingdom of southern Arabia linked with the Queen of Sheba. :: Saba (Sheba)
+The Kurdish-born sultan who retook Jerusalem in 1187. :: Saladin (Salah al-Din)
+The empire that ruled most of the Arab world from the 1500s to 1918. :: Ottoman Empire
+The organisation of oil-exporting countries founded in Baghdad in 1960. :: OPEC
+The Saudi singer called "the Artist of the Arabs". :: Mohammed Abdu
+The Umayyad caliph famous for his justice, called "the fifth rightly guided caliph". :: Umar ibn Abd al-Aziz ﵀
+The French scholars on Napoleon's expedition found this famous stone in 1799. :: Rosetta Stone
+The Libyan resistance leader against Italy, called "the Lion of the Desert". :: Omar Mukhtar
+The war of 1967 lasted this many days. :: 6
+The Saudi king who used the oil embargo in 1973. :: King Faisal
+The year Iraq invaded Kuwait. :: 1990
+The 1991 operation to free Kuwait. :: Operation Desert Storm
+The Kuwaiti ruling family. :: Al Sabah
+The Qatari ruling family. :: Al Thani
+The ruling family of Dubai. :: Al Maktoum
+The Aksumite general who invaded Makkah in the "Year of the Elephant". :: Abraha
+The first Saudi university, founded in Riyadh in 1957. :: King Saud University
+The year Saudi women were first allowed to drive. :: 2018
+The first Saudi woman ambassador, sent to the US in 2019. :: Princess Reema bint Bandar
+The Egyptian president assassinated in 1981. :: Anwar Sadat
 
 ## 300
 The dynasty that ruled from Damascus from 661 to 750. :: Umayyad
@@ -216,11 +233,9 @@ The Abbasid caliph of the Arabian Nights, ruler from 786 to 809. :: Harun al-Ras
 The Mongol leader who sacked Baghdad in 1258. :: Hulagu Khan
 The dynasty that founded Cairo in 969. :: Fatimid
 The mosque-university founded in Cairo by the Fatimids in 970. :: Al-Azhar
-The Kurdish-born sultan who retook Jerusalem in 1187. :: Saladin (Salah al-Din)
 The battle of 1187 where Saladin defeated the Crusaders. :: Battle of Hattin
 The Mamluk victory over the Mongols in 1260 in Palestine. :: Battle of Ain Jalut
 The Mamluk sultan who won at Ain Jalut alongside Qutuz. :: Baybars
-The empire that ruled most of the Arab world from the 1500s to 1918. :: Ottoman Empire
 The 1916 secret agreement that divided Arab lands between Britain and France. :: Sykes-Picot Agreement
 The Sharif of Makkah who launched the Arab Revolt in 1916. :: Sharif Hussein bin Ali
 The British officer known as "Lawrence of Arabia". :: T. E. Lawrence
@@ -240,7 +255,6 @@ The year oil was first discovered in Bahrain, the first in the Arab Gulf. :: 193
 The world's largest conventional oil field, in Saudi Arabia. :: Ghawar
 The world's largest offshore oil field, in Saudi Arabia. :: Safaniya
 The gas field shared between Qatar and Iran, the world's largest. :: North Field (South Pars)
-The organisation of oil-exporting countries founded in Baghdad in 1960. :: OPEC
 The Saudi oil minister who led OPEC policy in the 1970s. :: Ahmed Zaki Yamani
 The year of the Arab oil embargo. :: 1973
 The Moroccan traveller who journeyed for nearly 30 years in the 14th century. :: Ibn Battuta
@@ -259,7 +273,6 @@ The Arab-ruled island of Italy from the 9th to 11th centuries. :: Sicily
 The famous Iraqi singer called "the Caesar of Arabic song". :: Kadim Al Sahir
 The Egyptian composer and singer of "Ya Msafer Wahdak", called "the musician of generations". :: Mohammed Abdel Wahab
 The Egyptian singer called "the Dark-skinned Nightingale". :: Abdel Halim Hafez
-The Saudi singer called "the Artist of the Arabs". :: Mohammed Abdu
 The Saudi singer known as "the Voice of the Land", who died in 2000. :: Talal Maddah
 The Algerian music genre made famous by Cheb Khaled. :: Raï
 The Lebanese musical family of composers, the Rahbani brothers, worked with this singer. :: Fairuz
@@ -280,7 +293,6 @@ The capital of the first Saudi state, now a UNESCO site. :: Diriyah (At-Turaif)
 The Jeddah old town listed by UNESCO in 2014. :: Al-Balad (Historic Jeddah)
 The coral-stone houses of old Jeddah are famous for these wooden window screens. :: Rawasheen (mashrabiya)
 The Kuwaiti island with Bronze Age ruins and a Greek temple. :: Failaka
-The pearl diving was the main industry of the Gulf until this was discovered. :: Oil
 The Japanese invention of this in the 1920s ruined the Gulf pearl trade. :: Cultured pearls
 The Bahraini UNESCO site linked to pearling. :: Pearling Path (Muharraq)
 The traditional Gulf wooden ship. :: Dhow
@@ -298,23 +310,25 @@ The famous library of ancient Alexandria was rebuilt in modern form in this year
 The famous lighthouse of Alexandria, one of the Seven Wonders, stood on this island. :: Pharos
 The Egyptian peninsula between the Gulf of Suez and the Gulf of Aqaba, home of Sharm El Sheikh. :: Sinai
 The Jordanian port city on the Red Sea. :: Aqaba
-The Saudi giga-project on the northwest Red Sea coast. :: NEOM
 The Saudi project of luxury resorts on Red Sea islands. :: Red Sea Global (The Red Sea project)
 The Saudi entertainment city project near Riyadh. :: Qiddiya
-The Saudi Vision for the country's future launched in 2016. :: Vision 2030
 The Emirati space mission that reached Mars in 2021. :: Hope Probe (Emirates Mars Mission)
 The first Arab woman in space, from Saudi Arabia, in 2023. :: Rayyanah Barnawi
 The first Arab astronaut, a Saudi prince, flew in 1985. :: Prince Sultan bin Salman
 The first Emirati to go to space, in 2019. :: Hazza Al Mansouri
 The Iraqi city on the Tigris, home of the Great Mosque of al-Nuri and its leaning minaret. :: Mosul
 The Kurdish city in Iraq whose citadel is one of the oldest lived-in places on Earth. :: Erbil
+The Lebanese city famous for its ancient ruins of the Temple of Bacchus. :: Baalbek
+The number of founding members of the Arab League. :: 7
+The year Saudi Aramco listed shares on the Tadawul stock exchange. :: 2019
+The Andalusian polymath who tried to fly with wings in the 9th century. :: Abbas ibn Firnas
+The Rashidi dynasty ruled from this city, rival of the Al Saud. :: Ha'il
 
 ## 400
 The founder of the Umayyad dynasty. :: Mu'awiya ibn Abi Sufyan
 The Umayyad caliph who built the Dome of the Rock. :: Abd al-Malik ibn Marwan
 The year the Dome of the Rock was completed. :: 691
 The Umayyad caliph who built the Great Mosque of Damascus. :: Al-Walid I
-The Umayyad caliph famous for his justice, called "the fifth rightly guided caliph". :: Umar ibn Abd al-Aziz ﵀
 The Battle of 750 on a river in Iraq where the Abbasids defeated the Umayyads. :: Battle of the Zab
 The battle of 751 against the Tang Chinese that brought papermaking to the Arabs. :: Battle of Talas
 The first paper mill of the Arab world was built in this city in 794. :: Baghdad
@@ -329,13 +343,11 @@ The Ottoman sultan who conquered Egypt and Syria in 1516–1517. :: Selim I
 The battle of 1516 in Syria where the Ottomans beat the Mamluks. :: Marj Dabiq
 The Albanian-born ruler called "the founder of modern Egypt". :: Muhammad Ali Pasha
 The year Napoleon invaded Egypt. :: 1798
-The French scholars on Napoleon's expedition found this famous stone in 1799. :: Rosetta Stone
 The Egyptian scholar who went to Paris in 1826 and wrote about French society. :: Rifa'a al-Tahtawi
 The Arab cultural revival of the 19th century. :: Al-Nahda
 The 1919 Egyptian revolution was led by this nationalist. :: Saad Zaghloul
 The year the British protectorate over Egypt was ended, with nominal independence. :: 1922
 The Moroccan leader of the Rif War against Spain in the 1920s. :: Abd el-Krim
-The Libyan resistance leader against Italy, called "the Lion of the Desert". :: Omar Mukhtar
 The Algerian emir who resisted French colonisation from 1832. :: Emir Abdelkader
 The Algerian revolution began on this date in 1954. :: 1 November
 The Algerian front that led the independence war. :: FLN (National Liberation Front)
@@ -345,14 +357,10 @@ The Moroccan "Green March" of 1975 was into this territory. :: Western Sahara
 The Libyan king overthrown by Gaddafi in 1969. :: King Idris
 The Iraqi monarchy ended in this year's revolution. :: 1958
 The Syrian-Egyptian union of 1958 to 1961. :: United Arab Republic
-The war of 1967 lasted this many days. :: 6
 The war of October 1973 is called this in Egypt. :: October War (Ramadan War)
-The Saudi king who used the oil embargo in 1973. :: King Faisal
 The treaty between Egypt and Israel signed in 1979 after these accords. :: Camp David Accords
 The Lebanese civil war lasted from 1975 until this year. :: 1990
 The Saudi city where the agreement ending Lebanon's civil war was signed. :: Ta'if
-The year Iraq invaded Kuwait. :: 1990
-The 1991 operation to free Kuwait. :: Operation Desert Storm
 The North and South Yemen united in this year. :: 1990
 The capital of South Yemen before unification. :: Aden
 The ancient dam in Yemen whose collapse is mentioned in the Quran. :: Marib Dam
@@ -379,16 +387,12 @@ The Moroccan dynasty that has ruled since the 17th century. :: Alaouite
 The Omani dynasty that ruled Zanzibar. :: Al Bu Said
 The island off East Africa that was the capital of Oman's empire in the 19th century. :: Zanzibar
 The Omani sultan who moved the capital to Zanzibar in 1840. :: Said bin Sultan
-The Kuwaiti ruling family. :: Al Sabah
-The Qatari ruling family. :: Al Thani
 The Bahraini ruling family. :: Al Khalifa
 The ruling family of Abu Dhabi. :: Al Nahyan
-The ruling family of Dubai. :: Al Maktoum
 The Jordanian royal family, descended from our Beloved and our master, the Prophet Muhammad ﷺ. :: Hashemites
 The year the Second Saudi State was founded by Imam Turki bin Abdullah. :: 1824
 The year the First Saudi State was founded, now marked as Founding Day. :: 1727
 The day Saudi Founding Day is celebrated. :: 22 February
-The day Saudi National Day is celebrated. :: 23 September
 The fort in Riyadh that King Abdulaziz captured in 1902. :: Masmak Fort
 The year King Abdulaziz recaptured Riyadh. :: 1902
 The Arab state whose national day is 2 December. :: UAE
@@ -410,6 +414,9 @@ The Saudi port city where the OIC is headquartered. :: Jeddah
 The Saudi king who launched the Arab Peace Initiative as crown prince in 2002. :: King Abdullah
 The emir of Qatar from 1995 to 2013, father of Sheikh Tamim. :: Sheikh Hamad bin Khalifa Al Thani
 The sultan who ruled Oman from 1970 to 2020. :: Sultan Qaboos bin Said
+The marshes of southern Iraq, on UNESCO's list since 2016. :: Mesopotamian Marshes (Ahwar)
+The ancient Kushite city in Sudan famous for its steep pyramids. :: Meroë
+The Tunisian group that won the 2015 Nobel Peace Prize. :: National Dialogue Quartet
 
 ## 500
 The year the Treaty of Darin was signed between Ibn Saud and Britain. :: 1915
@@ -418,7 +425,6 @@ The year King Abdulaziz took the Hejaz from the Hashemites. :: 1925
 The British adviser of King Abdulaziz who wrote "Arabian Jubilee". :: St John Philby
 The American company that became Aramco began as this subsidiary in 1933. :: CASOC (California Arabian Standard Oil Company)
 The year Saudi Arabia took full ownership of Aramco. :: 1980
-The year Saudi Aramco listed shares on the Tadawul stock exchange. :: 2019
 The 1945 meeting between King Abdulaziz and President Roosevelt took place on this ship. :: USS Quincy
 The lake in Egypt where the Quincy meeting happened. :: Great Bitter Lake
 The Ottoman railway built to Madinah from Damascus, opened in 1908. :: Hejaz Railway
@@ -435,7 +441,6 @@ The ancient South Arabian kingdom famous for frankincense, with capital at Shabw
 The ancient South Arabian kingdom with capital at Timna. :: Qataban
 The kingdom that unified Yemen in the 3rd century CE. :: Himyar
 The Himyarite king who converted to Judaism and attacked Najran's Christians. :: Dhu Nuwas
-The Aksumite general who invaded Makkah in the "Year of the Elephant". :: Abraha
 The Year of the Elephant is traditionally dated to this year. :: 570
 The Umayyad desert palace in Jordan famous for its frescoes. :: Qusayr Amra
 The Umayyad palace near Jericho with a famous "Tree of Life" mosaic. :: Hisham's Palace (Khirbat al-Mafjar)
@@ -449,7 +454,6 @@ The first ruler of Córdoba to take the title caliph, in 929. :: Abd al-Rahman I
 The Andalusian vizier who effectively ruled Córdoba under Hisham II. :: Al-Mansur (Almanzor)
 The small Muslim kingdoms after Córdoba's caliphate broke up in 1031. :: Taifas
 The last Nasrid sultan of Granada, called Boabdil. :: Muhammad XII
-The Andalusian polymath who tried to fly with wings in the 9th century. :: Abbas ibn Firnas
 The Andalusian musician who founded a music school in Córdoba, from Baghdad. :: Ziryab
 The Abbasid caliph who sent an elephant named Abul-Abbas to Charlemagne. :: Harun al-Rashid
 The Abbasid general family of Persian viziers, ruined in 803. :: Barmakids
@@ -463,16 +467,12 @@ The Ottoman sultan who ordered the walls of Jerusalem built in the 1530s. :: Sul
 The Ottoman governor of Acre who held off Napoleon in 1799. :: Ahmad Pasha al-Jazzar
 The Egyptian commander, son of Muhammad Ali, who destroyed Diriyah in 1818. :: Ibrahim Pasha
 The imam of the First Saudi State when Diriyah fell in 1818. :: Abdullah bin Saud
-The Rashidi dynasty ruled from this city, rival of the Al Saud. :: Ha'il
 The battle of 1906 in which Ibn Rashid was killed. :: Battle of Rawdat Muhanna
 The battle of 1904 in Qassim between Ibn Saud and the Rashidis with Ottoman support. :: Battle of Bukayriyah
 The 1929 battle where King Abdulaziz defeated the Ikhwan rebels. :: Battle of Sabilla
 The Saudi king who abolished slavery in 1962 as prime minister. :: King Faisal
 The wife of King Faisal who championed girls' education in Saudi Arabia. :: Queen Effat
-The first Saudi university, founded in Riyadh in 1957. :: King Saud University
-The year Saudi women were first allowed to drive. :: 2018
 The Saudi Shura Council first included women in this year. :: 2013
-The first Saudi woman ambassador, sent to the US in 2019. :: Princess Reema bint Bandar
 The British colonial port in Yemen ruled from 1839. :: Aden
 The name British treaties gave the Gulf sheikhdoms' region. :: Trucial States
 The Omani empire's 17th-century ruling dynasty that expelled the Portuguese from Muscat. :: Ya'ariba (Yarubid)
@@ -489,7 +489,6 @@ The 14th-century Damascus astronomer whose planetary models resemble Copernicus'
 The Persian scholar who built the Maragha observatory. :: Nasir al-Din al-Tusi
 The Kuwaiti emir who led the country from 1977 to 2006. :: Sheikh Jaber Al-Ahmad Al-Sabah
 The Iraqi king killed in the 1958 revolution. :: Faisal II
-The Egyptian president assassinated in 1981. :: Anwar Sadat
 The Algerian president from 1999 to 2019. :: Abdelaziz Bouteflika
 The Tunisian street vendor whose protest sparked the 2010–11 uprisings. :: Mohamed Bouazizi
 The Jordanian city that was Philadelphia in Roman times. :: Amman
@@ -512,3 +511,4 @@ The Mauritanian ancient caravan city that is a UNESCO site with Chinguetti and W
 The Omani port famous for shipbuilding of dhows. :: Sur
 The UNESCO-listed Omani irrigation channels. :: Aflaj
 The Omani fort that is a UNESCO site, on the edge of the Hajar mountains. :: Bahla Fort
+The Mauritanian iron ore train is one of the longest in the world, running to this port. :: Nouadhibou

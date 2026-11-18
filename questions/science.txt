@@ -104,6 +104,12 @@ The pH of pure water. :: 7
 Lemon juice is this: an acid or a base? :: An acid
 The colour litmus paper turns in an acid. :: Red
 A mixture of metals, like brass or steel. :: Alloy
+A solution with a pH below 7 is this. :: Acidic
+The theory that all life shares a common ancestor and changes over time. :: Evolution
+The rise in Earth's average temperature caused by greenhouse gases. :: Global warming
+The scale that measures the acidity of a solution from 0 to 14. :: pH scale
+The virus that causes AIDS. :: HIV
+The organic gem formed inside oysters. :: Pearl
 
 ## 200
 The element with atomic number 1. :: Hydrogen
@@ -206,6 +212,18 @@ The instrument that measures wind speed. :: Anemometer
 The layer of the atmosphere where we live and weather happens. :: Troposphere
 The instrument that measures humidity. :: Hygrometer
 The main gas in natural gas used for cooking. :: Methane
+The main sugar in the blood. :: Glucose
+The hormone that lowers blood sugar. :: Insulin
+The type of vaccine used by Pfizer-BioNTech and Moderna for COVID-19. :: mRNA vaccine
+The first antibiotic made from a mould. :: Penicillin
+The metal that makes up most of the Earth's core. :: Iron
+The equation PV = nRT is called this. :: The ideal gas law
+The famous thought experiment about a cat that is both alive and dead. :: Schrödinger's cat
+The ratio of an object's speed to the speed of sound. :: Mach number
+The Greek scientist who discovered the law of buoyancy. :: Archimedes
+The protein that carries oxygen in red blood cells. :: Haemoglobin
+The neurotransmitter linked to reward and pleasure. :: Dopamine
+The hottest temperature reliably recorded on Earth's surface was in this place. :: Death Valley (Furnace Creek)
 
 ## 300
 The element with the highest melting point. :: Tungsten
@@ -226,7 +244,6 @@ The type of bond formed when electrons are transferred between atoms. :: Ionic b
 The weak attraction that holds water molecules together and explains its high boiling point. :: Hydrogen bonding
 Atoms of the same element with different numbers of neutrons. :: Isotopes
 The number of protons in an atom is called this. :: Atomic number
-A solution with a pH below 7 is this. :: Acidic
 The acid found in the human stomach. :: Hydrochloric acid
 The acid in vinegar. :: Acetic acid (ethanoic acid)
 The acid in car batteries. :: Sulfuric acid
@@ -277,7 +294,6 @@ The international project that mapped all human genes, finished in 2003. :: Huma
 The gene-editing tool adapted from bacteria, which won the 2020 Chemistry Nobel. :: CRISPR-Cas9
 The two scientists who won the 2020 Nobel for CRISPR. :: Emmanuelle Charpentier and Jennifer Doudna
 The first mammal cloned from an adult cell, born in 1996. :: Dolly the sheep
-The theory that all life shares a common ancestor and changes over time. :: Evolution
 The Galápagos birds whose beaks helped inspire Darwin. :: Finches
 The scientist who came up with natural selection at the same time as Darwin. :: Alfred Russel Wallace
 The name for a group of organisms that can breed and have fertile young. :: Species
@@ -295,7 +311,6 @@ The oldest living trees, some over 4,000 years old in California. :: Bristlecone
 The tallest living trees, found in California. :: Coast redwoods
 The largest flower in the world, which smells like rotting meat. :: Rafflesia
 The part of the Earth where life exists. :: Biosphere
-The rise in Earth's average temperature caused by greenhouse gases. :: Global warming
 The 2015 agreement to limit global warming to well below 2 °C. :: Paris Agreement
 The chemicals once used in fridges that damaged the ozone layer. :: CFCs (chlorofluorocarbons)
 The 1987 treaty that phased out ozone-damaging chemicals. :: Montreal Protocol
@@ -308,6 +323,14 @@ The age of the Earth, roughly. :: About 4.5 billion years
 The geological era called the Age of Reptiles. :: Mesozoic Era
 The period in which Tyrannosaurus rex lived. :: Cretaceous
 The vitamin the skin makes in sunlight. :: Vitamin D
+The energy needed to start a reaction. :: Activation energy
+The chemist who won the 1999 Nobel for femtochemistry. :: Ahmed Zewail
+The physicist who described black hole radiation in 1974. :: Stephen Hawking
+The principle that faster-moving fluid has lower pressure. :: Bernoulli's principle
+The method invented by Kary Mullis to copy DNA quickly. :: PCR (polymerase chain reaction)
+The theory that infectious diseases are caused by microbes. :: Germ theory
+The effect that makes winds curve because of Earth's rotation. :: Coriolis effect
+The name for coral losing its algae in hot water. :: Coral bleaching
 
 ## 400
 The element with atomic number 79. :: Gold
@@ -326,17 +349,14 @@ The process that makes sulfuric acid industrially. :: Contact process
 The rule that a system at equilibrium shifts to undo a change. :: Le Chatelier's principle
 The quantity that measures disorder in a system. :: Entropy
 The law that says entropy of an isolated system never decreases. :: Second law of thermodynamics
-The scale that measures the acidity of a solution from 0 to 14. :: pH scale
 The chemist who invented the pH scale in 1909. :: Søren Sørensen
 The type of isomers that are mirror images of each other. :: Enantiomers (optical isomers)
 The bonds between amino acids in proteins. :: Peptide bonds
 The simplest amino acid. :: Glycine
 The sugar found in DNA. :: Deoxyribose
 The sugar in milk. :: Lactose
-The main sugar in the blood. :: Glucose
 The polymer plants use for structure, the most common organic compound on Earth. :: Cellulose
 The polymer of glucose that animals store in the liver. :: Glycogen
-The hormone that lowers blood sugar. :: Insulin
 The scientists who isolated insulin in Toronto in 1921. :: Frederick Banting and Charles Best
 The Krebs cycle takes place in this organelle. :: Mitochondria
 The 1953 experiment that made amino acids from simple gases and sparks. :: Miller–Urey experiment
@@ -347,11 +367,9 @@ The bacterium often used in labs, which lives in the human gut. :: E. coli (Esch
 The parasite that causes malaria. :: Plasmodium
 The insect that spreads malaria. :: Anopheles mosquito
 The cells that make antibodies. :: B cells (plasma cells)
-The virus that causes AIDS. :: HIV
 The first disease wiped out worldwide by vaccination. :: Smallpox
 The year smallpox was declared eradicated. :: 1980
 The second disease declared eradicated, affecting cattle, in 2011. :: Rinderpest
-The type of vaccine used by Pfizer-BioNTech and Moderna for COVID-19. :: mRNA vaccine
 The scientist who won a 2023 Nobel with Drew Weissman for mRNA work. :: Katalin Karikó
 The waves with the shortest wavelength in the electromagnetic spectrum. :: Gamma rays
 The effect where light knocks electrons off a metal surface. :: Photoelectric effect
@@ -394,18 +412,15 @@ The mineral that is the main ore of aluminium. :: Bauxite
 The gemstone that is a red form of corundum. :: Ruby
 The blue gemstone that is also corundum. :: Sapphire
 The gemstone that is green beryl. :: Emerald
-The organic gem formed inside oysters. :: Pearl
 The mass extinction that wiped out about 90% of species 252 million years ago. :: Permian–Triassic extinction (the Great Dying)
 The crater in Mexico linked to the dinosaurs' extinction. :: Chicxulub crater
 The first bird-like dinosaur fossil found in Germany in 1861. :: Archaeopteryx
 The 3.2-million-year-old fossil skeleton found in Ethiopia in 1974. :: Lucy (Australopithecus afarensis)
 The deepest hole humans have drilled, in Russia. :: Kola Superdeep Borehole
-The first antibiotic made from a mould. :: Penicillin
 The scientist who discovered that blood circulates around the body, in 1628. :: William Harvey
 The plant whose bark gave the first malaria medicine, quinine. :: Cinchona
 The tree whose bark led to aspirin. :: Willow
 The noble gas that is radioactive and can build up in basements. :: Radon
-The metal that makes up most of the Earth's core. :: Iron
 The scientist who created the first synthetic dye, mauveine, in 1856. :: William Henry Perkin
 The father of modern taxonomy's book of 1735. :: Systema Naturae
 The cell organelle that packages and ships proteins. :: Golgi apparatus
@@ -424,14 +439,11 @@ The only metal other than iron and cobalt that is strongly magnetic at room temp
 The chemist who discovered oxygen in 1774 and called it 'dephlogisticated air'. :: Joseph Priestley
 The chemist who first isolated many elements, including sodium and potassium, using electricity. :: Humphry Davy
 The rule that the volume of a gas is proportional to its temperature at constant pressure. :: Charles's law
-The equation PV = nRT is called this. :: The ideal gas law
 The temperature and pressure at which a substance's three phases coexist. :: Triple point
 The point beyond which liquid and gas cannot be told apart. :: Critical point
 The quantity that combines internal energy and pressure–volume work, H. :: Enthalpy
-The energy needed to start a reaction. :: Activation energy
 The scientist who explained reaction rates with an equation using activation energy. :: Svante Arrhenius
 The chemist who won Nobel Prizes in Chemistry and Peace and studied chemical bonds. :: Linus Pauling
-The chemist who won the 1999 Nobel for femtochemistry. :: Ahmed Zewail
 The theory that explains molecular shapes by electron-pair repulsion. :: VSEPR theory
 The shape of a methane molecule. :: Tetrahedral
 The bond angle in a water molecule, roughly. :: About 104.5°
@@ -442,7 +454,6 @@ The class of compounds with a benzene ring. :: Aromatic compounds
 The chemist who dreamed of a snake biting its tail and proposed benzene's ring structure. :: August Kekulé
 The equation that describes how a quantum system's wave function changes. :: Schrödinger equation
 The principle that no two electrons can share the same set of quantum numbers. :: Pauli exclusion principle
-The famous thought experiment about a cat that is both alive and dead. :: Schrödinger's cat
 The value of the speed of light in a vacuum in metres per second, exactly. :: 299,792,458 m/s
 The physicist who first measured the charge of the electron with oil drops. :: Robert Millikan
 The scientist who predicted antimatter in 1928. :: Paul Dirac
@@ -451,29 +462,21 @@ The type of quark found with the 'up' quark in protons and neutrons. :: Down qua
 The heaviest known elementary particle, found in 1995. :: Top quark
 The Indian physicist after whom bosons are named. :: Satyendra Nath Bose
 The effect where electrons tunnel through barriers they could not classically cross. :: Quantum tunnelling
-The physicist who described black hole radiation in 1974. :: Stephen Hawking
 The unusual 'spooky action at a distance' that Einstein doubted. :: Quantum entanglement
 The 2022 Nobel in Physics was for experiments on this. :: Entangled photons (quantum entanglement)
 The effect where a magnetic field changes a material's electrical resistance a lot, used in hard drives. :: Giant magnetoresistance
 The Hall effect produces a voltage across a conductor in this kind of field. :: Magnetic field
 The phenomenon where a superconductor pushes out magnetic fields. :: Meissner effect
 The temperature scale's zero point in Fahrenheit was set using a mix of ice, water and this. :: Ammonium chloride (salt)
-The ratio of an object's speed to the speed of sound. :: Mach number
-The principle that faster-moving fluid has lower pressure. :: Bernoulli's principle
-The Greek scientist who discovered the law of buoyancy. :: Archimedes
 The scientist who showed in 1643 that air has pressure using mercury in a tube. :: Evangelista Torricelli
 The scientist who studied blood circulation through the lungs in 13th-century Cairo. :: Ibn al-Nafis
 The enzyme that unzips DNA before copying. :: Helicase
 The enzyme that builds new DNA strands. :: DNA polymerase
-The method invented by Kary Mullis to copy DNA quickly. :: PCR (polymerase chain reaction)
 The method of reading DNA invented by Frederick Sanger. :: Sanger sequencing
 The scientist who won two Chemistry Nobels for protein and DNA sequencing. :: Frederick Sanger
 The Japanese scientist who made stem cells from adult cells in 2006. :: Shinya Yamanaka
-The protein that carries oxygen in red blood cells. :: Haemoglobin
 The protein that stores oxygen in muscles. :: Myoglobin
-The neurotransmitter linked to reward and pleasure. :: Dopamine
 The Australian scientist who, with Ernst Chain, made penicillin into a usable medicine. :: Howard Florey
-The theory that infectious diseases are caused by microbes. :: Germ theory
 The Hungarian doctor who showed in 1847 that hand-washing saves mothers' lives. :: Ignaz Semmelweis
 The bacterium that causes stomach ulcers, found by Marshall and Warren. :: Helicobacter pylori
 The scientist who drank H. pylori to prove it causes gastritis. :: Barry Marshall
@@ -489,10 +492,8 @@ The period of 'Snowball Earth' happened in this era, before animals spread. :: C
 The event about 2.4 billion years ago when oxygen first built up in the air. :: Great Oxidation Event
 The bacteria that made Earth's early oxygen. :: Cyanobacteria
 The layered rocks built by ancient bacterial mats. :: Stromatolites
-The hottest temperature reliably recorded on Earth's surface was in this place. :: Death Valley (Furnace Creek)
 The coldest natural temperature recorded on Earth's surface was at this Antarctic station. :: Vostok Station
 The wind that blows down mountain slopes and warms, as in the Alps. :: Foehn wind
-The effect that makes winds curve because of Earth's rotation. :: Coriolis effect
 The boundary layer where the troposphere ends. :: Tropopause
 The sudden release of a cold air flow from a storm, dangerous to planes. :: Microburst (downburst)
 The geologist who wrote Principles of Geology, influencing Darwin. :: Charles Lyell
@@ -504,7 +505,6 @@ The ocean's 'twilight zone', where sunlight fades, is this zone. :: Mesopelagic 
 The deep-sea vents that support life without sunlight. :: Hydrothermal vents (black smokers)
 The process by which vent bacteria make food from chemicals. :: Chemosynthesis
 The coral's partner algae that live inside its tissues. :: Zooxanthellae
-The name for coral losing its algae in hot water. :: Coral bleaching
 The number of base pairs in the human genome, roughly. :: About 3 billion
 The enzyme that joins DNA fragments together. :: DNA ligase
 The cell death programme that removes unwanted cells. :: Apoptosis

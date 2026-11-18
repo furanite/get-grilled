@@ -19,8 +19,6 @@ The head of the UN's administration. :: The Secretary-General
 The UN Secretary-General since 2017. :: António Guterres
 The UN's main court. :: The International Court of Justice (ICJ)
 The ICJ sits in this city. :: The Hague
-The building where the ICJ sits. :: The Peace Palace
-The number of judges on the ICJ. :: 15
 The number of UN member states. :: 193
 The newest UN member state, admitted in 2011. :: South Sudan
 The two UN observer states. :: Palestine and the Holy See (Vatican)
@@ -31,7 +29,6 @@ An official representative of one country in another. :: An ambassador
 The building where an ambassador works. :: An embassy
 An office that helps citizens abroad, often in other cities. :: A consulate
 Protection from arrest given to diplomats. :: Diplomatic immunity
-The 1961 treaty on diplomatic relations. :: The Vienna Convention on Diplomatic Relations
 A person forced to flee their country because of persecution. :: A refugee
 The UN agency for refugees. :: UNHCR
 A person who moves within their own country to escape conflict. :: An internally displaced person (IDP)
@@ -54,7 +51,6 @@ The six GCC members: Saudi Arabia, UAE, Kuwait, Qatar, Bahrain and this. :: Oman
 The organisation of 57 Muslim countries. :: The Organisation of Islamic Cooperation (OIC)
 The OIC's headquarters are in this Saudi city. :: Jeddah
 The group of oil-exporting countries founded in 1960. :: OPEC
-OPEC was founded in this city. :: Baghdad
 OPEC's headquarters are in this city. :: Vienna
 The European group of 27 countries. :: The European Union
 The African continent's union of countries. :: The African Union
@@ -103,6 +99,10 @@ The legal word for a ship's country of registration. :: Its flag state
 Attacks on ships at sea for robbery. :: Piracy
 The international police organisation. :: Interpol
 The world body that sets rules for trade. :: The WTO
+The canal that links the Red Sea and the Mediterranean. :: The Suez Canal
+The 1945 Nuremberg trials tried leaders of this country. :: Nazi Germany
+The 1946 convention that set up the International Whaling Commission is about this. :: Whaling
+The first Arab and Muslim in space, a Saudi prince. :: Prince Sultan bin Salman
 
 ## 200
 The ICJ's founding statute is part of this document. :: The UN Charter
@@ -114,8 +114,6 @@ The 1648 treaties that began the modern system of sovereign states. :: The Peace
 The Dutch jurist called the "father of international law". :: Hugo Grotius
 Grotius's famous book on the law of war and peace. :: De Jure Belli ac Pacis (1625)
 Grotius argued for the "free sea" in this book. :: Mare Liberum
-The English jurist who argued for the "closed sea". :: John Selden (Mare Clausum)
-The Spanish theologian of Salamanca who wrote on the rights of the peoples of the Americas. :: Francisco de Vitoria
 The Hanafi jurist of the 8th century called a father of Islamic international law. :: Muhammad al-Shaybani ﵀
 Al-Shaybani's ﵀ book on Islamic international law. :: Al-Siyar al-Kabir
 The four sources of international law in Article 38 of the ICJ Statute: treaties, custom, general principles and this. :: Judicial decisions and teachings of scholars
@@ -137,7 +135,6 @@ The four criteria of statehood in the Montevideo Convention: population, territo
 The theory that a state exists only when recognised by others. :: The constitutive theory
 The theory that a state exists if it meets the criteria, whatever others say. :: The declaratory theory
 The right of peoples to choose their political status. :: Self-determination
-The UN resolution of 1960 on independence for colonies. :: Resolution 1514
 The UN Security Council resolution of 1967 calling for withdrawal from occupied territories. :: Resolution 242
 The ICJ's 2004 opinion on Israel's wall in the occupied Palestinian territory found it was this. :: Contrary to international law
 The ICJ's 2024 advisory opinion said Israel's occupation of Palestinian territory was this. :: Unlawful
@@ -175,14 +172,11 @@ The doctrine that courts won't judge a foreign state's acts in its own territory
 The UN Convention on the Law of the Sea entered into force in this year. :: 1994
 The tribunal set up under UNCLOS in Hamburg. :: ITLOS
 The body that manages the seabed beyond national control. :: The International Seabed Authority
-The International Seabed Authority is in this country. :: Jamaica
 The sea area out to 24 nautical miles where customs laws can be enforced. :: The contiguous zone
 The right of ships to pass through territorial waters without stopping. :: Innocent passage
 The right of ships and planes to pass through international straits. :: Transit passage
 The strait between Oman and Iran. :: The Strait of Hormuz
 The strait between Yemen and Djibouti. :: Bab al-Mandab
-The canal that links the Red Sea and the Mediterranean. :: The Suez Canal
-The 1888 treaty that guaranteed free passage through the Suez Canal. :: The Constantinople Convention
 The treaty that set up the Antarctic as a place of peace and science. :: The Antarctic Treaty (1959)
 The 1967 treaty on outer space. :: The Outer Space Treaty
 The 1944 convention on international air travel. :: The Chicago Convention
@@ -204,13 +198,27 @@ The Saudi-hosted summit that launched the Middle East Green Initiative was in th
 The Saudi city that hosted the G20 Leaders' Summit (held online) in 2020. :: Riyadh
 Saudi Arabia joined the G20 at its founding in this year. :: 1999
 The Saudi Arabia and Iran agreement to restore relations in 2023 was brokered by this country. :: China
-The Saudi-Kuwaiti Neutral Zone was divided by agreement in this year. :: 1965 (signed), 1970 (in force)
 The 2000 treaty that settled the Saudi-Yemen border. :: The Jeddah Treaty
 The 1934 treaty between Saudi Arabia and Yemen. :: The Treaty of Taif
 The 1974 agreement on the Saudi-UAE border. :: The Treaty of Jeddah
-The Saudi-Bahrain maritime border agreement was signed in this year. :: 1958
-The Saudi-Qatar border agreement was finalised in this year. :: 2001
 The 2021 GCC summit that ended the Qatar dispute was held in this Saudi city. :: Al-'Ula
+The coalition operation to free Kuwait. :: Operation Desert Storm
+The number of SDGs. :: 17
+Boutros Boutros-Ghali was from this country. :: Egypt
+The UN Secretary-General who won the Nobel Peace Prize in 2001. :: Kofi Annan
+The UN Secretary-General from South Korea. :: Ban Ki-moon
+The 1973 convention against this system of racial domination. :: Apartheid
+The 1979 peace treaty between Egypt and Israel followed these 1978 accords. :: The Camp David Accords
+The 1916 secret agreement dividing the Middle East between Britain and France. :: The Sykes-Picot Agreement
+The 1917 British letter supporting a "Jewish national home". :: The Balfour Declaration
+The UN Compensation Commission paid claims from Iraq's invasion of this country. :: Kuwait
+The Soviet Union's UN seat passed to this state in 1991. :: Russia
+The 1919 Paris Peace Conference produced this treaty with Germany. :: The Treaty of Versailles
+Saudi Arabia's King Faisal led the 1973 oil embargo against countries supporting this state. :: Israel
+The ICC issued an arrest warrant in 2023 for this country's president. :: Russia
+The 2005 Hariri assassination was in this city. :: Beirut
+Saudi Arabia sent its first female astronaut to space in this year. :: 2023
+Saudi Arabia's first female astronaut. :: Rayyanah Barnawi
 
 ## 300
 The ICJ's first contentious case. :: The Corfu Channel case (UK v Albania)
@@ -253,7 +261,6 @@ The Eritrea-Ethiopia Boundary Commission gave this town to Eritrea in 2002. :: B
 The rule that colonial borders become the borders of new states. :: Uti possidetis
 The UN Security Council resolution of 1990 that allowed force to expel Iraq from Kuwait. :: Resolution 678
 Iraq invaded Kuwait on this date. :: 2 August 1990
-The coalition operation to free Kuwait. :: Operation Desert Storm
 The UN Security Council resolution of 1973 on Libya that set a no-fly zone in 2011. :: Resolution 1973
 The UN Security Council resolution of 2015 on Yemen. :: Resolution 2216
 The UN Security Council resolution 2334 of 2016 said these are a flagrant violation of international law. :: Israeli settlements
@@ -261,12 +268,10 @@ The Arab Peace Initiative of 2002 was proposed by this Saudi leader. :: King Abd
 The Arab Peace Initiative was adopted at the Arab League summit in this city. :: Beirut
 The 1945 Arab League Pact was signed by this many founding states. :: Seven
 The 1981 GCC Charter was signed in this city. :: Abu Dhabi
-The GCC's Peninsula Shield Force was set up in this year. :: 1984
 The OIC was founded at a summit in this city. :: Rabat
 The OIC's Charter was revised in this year. :: 2008
 The OIC's International Islamic Fiqh Academy is based in this city. :: Jeddah
 The Muslim World League is based in this city. :: Makkah
-The Muslim World League was founded in Makkah in this year. :: 1962
 The Islamic Military Counter Terrorism Coalition is based in this city. :: Riyadh
 The Islamic Military Counter Terrorism Coalition was formed in this year. :: 2015
 The Saudi-led Islamic Military Coalition has more than this many member states. :: 40
@@ -276,7 +281,6 @@ The Saudi institution that leads humanitarian aid abroad. :: KSrelief (King Salm
 KSrelief was set up in this year. :: 2015
 The Saudi Fund for Development was set up in this year. :: 1974
 The 2015 UN goals for 2030. :: The Sustainable Development Goals (SDGs)
-The number of SDGs. :: 17
 The Millennium Development Goals ran until this year. :: 2015
 The "Washington Consensus" was a set of policies linked to these bodies. :: The IMF and World Bank
 The Bretton Woods conference was held in this year. :: 1944
@@ -297,7 +301,6 @@ The doctrine that host states must pay compensation for taking foreign property.
 Bilateral investment treaties are known by this short form. :: BITs
 The 1965 convention that created ICSID. :: The Washington Convention
 The 1958 convention on enforcing arbitral awards. :: The New York Convention
-The 1945 Nuremberg trials tried leaders of this country. :: Nazi Germany
 The Tokyo trials tried leaders of this country. :: Japan
 The Nuremberg trials set the principle that individuals can be guilty of these. :: International crimes
 The ICC has this many state parties (about). :: 125
@@ -313,6 +316,11 @@ The UN's six main organs include the Economic and Social Council, known as this.
 The last trust territory, which became independent in 1994. :: Palau
 A treaty is registered with this office under Article 102 of the UN Charter. :: The UN Secretariat
 The UN Charter prevails over other treaties under this article. :: Article 103
+The building where the ICJ sits. :: The Peace Palace
+The number of judges on the ICJ. :: 15
+The 1961 treaty on diplomatic relations. :: The Vienna Convention on Diplomatic Relations
+OPEC was founded in this city. :: Baghdad
+The 2013 Minamata Convention is about this metal. :: Mercury
 
 ## 400
 Nawaf Salam left the ICJ in 2025 to become this. :: Prime Minister of Lebanon
@@ -332,9 +340,6 @@ The UN Emergency Force of 1956 was sent after this crisis. :: The Suez Crisis
 The UN Secretary-General who died in a plane crash in 1961. :: Dag Hammarskjöld
 The UN's first Secretary-General. :: Trygve Lie
 The only UN Secretary-General from an Arab country. :: Boutros Boutros-Ghali
-Boutros Boutros-Ghali was from this country. :: Egypt
-The UN Secretary-General who won the Nobel Peace Prize in 2001. :: Kofi Annan
-The UN Secretary-General from South Korea. :: Ban Ki-moon
 The 1950 European Convention on Human Rights is enforced by this court. :: The European Court of Human Rights
 The 1969 American Convention on Human Rights is enforced by this court. :: The Inter-American Court of Human Rights
 The African Charter on Human and Peoples' Rights is also called this. :: The Banjul Charter
@@ -342,7 +347,6 @@ The Arab Charter on Human Rights is monitored by this committee. :: The Arab Hum
 The Arab Court of Human Rights statute was adopted in 2014; its seat was to be in this country. :: Bahrain
 The ILC's 1950 principles summed up the law of this tribunal. :: Nuremberg
 The 1948 Genocide Convention's definition covers five acts, including killing and preventing births and this. :: Forcibly transferring children
-The 1973 convention against this system of racial domination. :: Apartheid
 Apartheid is listed as a crime against humanity in this statute. :: The Rome Statute
 The Martens Clause in the Hague Conventions protects people in cases not covered by treaties under these. :: Principles of humanity and public conscience
 The principle that soldiers who surrender must not be harmed. :: Hors de combat protection
@@ -365,11 +369,8 @@ The Makkah Charter of 2019 was issued by this organisation. :: The Muslim World 
 The Makkah Charter was signed by over this many Muslim scholars. :: 1,200
 The Document on Human Fraternity of 2019 was signed in this city. :: Abu Dhabi
 The Abraham Accords of 2020 were signed first by Israel, the UAE and this country. :: Bahrain
-The 1979 peace treaty between Egypt and Israel followed these 1978 accords. :: The Camp David Accords
 The 1994 peace treaty between Jordan and Israel is called this. :: The Wadi Araba Treaty
 The 1993 Oslo Accord was signed in this city. :: Washington
-The 1916 secret agreement dividing the Middle East between Britain and France. :: The Sykes-Picot Agreement
-The 1917 British letter supporting a "Jewish national home". :: The Balfour Declaration
 The League of Nations mandate system placed Palestine under this country. :: Britain
 The UN partition plan for Palestine was Resolution 181 of this year. :: 1947
 The 1915 treaty between Britain and Ibn Saud. :: The Treaty of Darin
@@ -378,7 +379,6 @@ The 1945 meeting between King Abdulaziz and US President Roosevelt took place on
 King Abdulaziz met Roosevelt in this body of water. :: The Great Bitter Lake (Suez Canal)
 The 1990 UN Security Council resolution that imposed sanctions on Iraq. :: Resolution 661
 The 1991 resolution that set ceasefire terms with Iraq. :: Resolution 687
-The UN Compensation Commission paid claims from Iraq's invasion of this country. :: Kuwait
 The UN Compensation Commission finished paying Kuwait in this year. :: 2022
 The 2015 nuclear deal with Iran is known by this short name. :: The JCPOA
 The US left the JCPOA in this year. :: 2018
@@ -408,19 +408,24 @@ The ICJ case that found a treaty can't be ended for a fundamental change if the 
 The term for a country that changes into a new state, such as when a country splits. :: State succession
 The 1978 Vienna Convention covers state succession in respect of these. :: Treaties
 The rule that a new state starts free of the old state's treaties. :: The clean slate rule
-The Soviet Union's UN seat passed to this state in 1991. :: Russia
 The rule of international law on how far a country's laws can reach people abroad, based on the offender's nationality. :: Active personality (nationality) principle
 The jurisdiction principle based on the victim's nationality. :: Passive personality principle
 The jurisdiction principle that protects a state's security from foreign acts. :: The protective principle
 The principle that any state can try crimes like piracy and genocide. :: Universal jurisdiction
 The trial in Jerusalem in 1961 based partly on universal jurisdiction. :: The Eichmann trial
 Spain's attempt to try this Chilean leader in 1998 was a famous use of universal jurisdiction. :: Augusto Pinochet
+The English jurist who argued for the "closed sea". :: John Selden (Mare Clausum)
+The Spanish theologian of Salamanca who wrote on the rights of the peoples of the Americas. :: Francisco de Vitoria
+The UN resolution of 1960 on independence for colonies. :: Resolution 1514
+The International Seabed Authority is in this country. :: Jamaica
+The 1888 treaty that guaranteed free passage through the Suez Canal. :: The Constantinople Convention
+The GCC's Peninsula Shield Force was set up in this year. :: 1984
+The Muslim World League was founded in Makkah in this year. :: 1962
 
 ## 500
 The 1878 Congress of Berlin was mainly about this region. :: The Balkans
 The 1815 Congress that redrew Europe after Napoleon. :: The Congress of Vienna
 The 1884-85 conference that divided Africa among Europeans. :: The Berlin Conference
-The 1919 Paris Peace Conference produced this treaty with Germany. :: The Treaty of Versailles
 The 1920 treaty that divided the Ottoman lands, never fully applied. :: The Treaty of Sèvres
 The 1923 treaty that replaced Sèvres and recognised modern Turkey. :: The Treaty of Lausanne
 The 1928 pact that renounced war as a tool of policy. :: The Kellogg-Briand Pact
@@ -463,7 +468,6 @@ The 1970s UN call for a "New International Economic Order" came from these count
 The G77 was founded in this year. :: 1964
 The Non-Aligned Movement was founded in this city in 1961. :: Belgrade
 The 1955 conference of Asian and African states that led to non-alignment. :: The Bandung Conference
-Saudi Arabia's King Faisal led the 1973 oil embargo against countries supporting this state. :: Israel
 The 1973 oil embargo was announced by this organisation. :: OAPEC
 OAPEC is based in this city. :: Kuwait City
 The Saudi minister of oil during the 1973 embargo. :: Ahmed Zaki Yamani
@@ -479,14 +483,12 @@ The UN General Assembly gave Palestine new rights as an observer state in this y
 Palestine became a UN non-member observer state in this year. :: 2012
 The State of Palestine's status at the ICC. :: A state party (since 2015)
 The ICC Prosecutor applied for arrest warrants in the Palestine situation in this year. :: 2024
-The ICC issued an arrest warrant in 2023 for this country's president. :: Russia
 Russia's president was charged by the ICC with the unlawful deportation of these. :: Children (from Ukraine)
 The ICJ's 2024 order in Mexico v Ecuador was about a raid on this. :: Mexico's embassy in Quito
 The 1984 hostage case on the Libyan embassy in London involved the killing of this police officer. :: WPC Yvonne Fletcher
 The UK cut ties with Libya after Yvonne Fletcher was shot from inside this building. :: The Libyan embassy (People's Bureau)
 The Lockerbie bombing case was tried in a Scottish court sitting in this country. :: The Netherlands (Camp Zeist)
 The Lockerbie bombing happened in this year. :: 1988
-The 2005 Hariri assassination was in this city. :: Beirut
 The UN body that investigates human rights in the occupied territories is called this. :: The Special Rapporteur on the occupied Palestinian territories
 The 1930 Hague Conference tried to codify the law of nationality, territorial waters and this. :: State responsibility
 The 1958 Geneva Conventions covered these four topics. :: The territorial sea, high seas, fishing and continental shelf
@@ -503,13 +505,8 @@ The principle that the polluter pays is principle number this of the Rio Declara
 The precautionary principle is principle number this of the Rio Declaration. :: 15
 The 1989 Basel Convention controls movement of this. :: Hazardous waste
 The 2001 Stockholm Convention bans these chemicals. :: Persistent organic pollutants
-The 2013 Minamata Convention is about this metal. :: Mercury
-The 1946 convention that set up the International Whaling Commission is about this. :: Whaling
 The 1979 Moon Agreement says the Moon is this. :: The common heritage of mankind
 The US program of agreements for Moon exploration, signed by Saudi Arabia in 2022. :: The Artemis Accords
-Saudi Arabia sent its first female astronaut to space in this year. :: 2023
-Saudi Arabia's first female astronaut. :: Rayyanah Barnawi
-The first Arab and Muslim in space, a Saudi prince. :: Prince Sultan bin Salman
 Prince Sultan bin Salman flew on this US shuttle in 1985. :: Discovery
 The UN Office for Outer Space Affairs is based in this city. :: Vienna
 The 1972 convention on liability for damage caused by these. :: Space objects
@@ -518,3 +515,6 @@ The 2001 Budapest Convention is the first treaty on this. :: Cybercrime
 The Tallinn Manual is a study on how international law applies to this. :: Cyber operations
 The 1968 arbitration over the Rann of Kutch was between India and this country. :: Pakistan
 The 1998 Aarhus Convention gives the public rights on information, participation and justice in this area. :: Environmental matters
+The Saudi-Kuwaiti Neutral Zone was divided by agreement in this year. :: 1965 (signed), 1970 (in force)
+The Saudi-Bahrain maritime border agreement was signed in this year. :: 1958
+The Saudi-Qatar border agreement was finalised in this year. :: 2001

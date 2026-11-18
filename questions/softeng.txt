@@ -104,13 +104,13 @@ The principle "Keep It Simple, Stupid", shortened. :: KISS
 The principle "You Aren't Gonna Need It", shortened. :: YAGNI
 Old code that is hard to change but still in use. :: Legacy code
 Shortcuts in code that will cost extra work later. :: Technical debt
+The number of authors in the "Gang of Four". :: 4
 
 ## 200
 The model that adds risk analysis to each loop of development, proposed by Barry Boehm. :: Spiral model
 The model that pairs each development phase with a matching test phase. :: V-model
 Building software in repeated cycles, each improving the last. :: Iterative development
 The 2001 document that started the Agile movement. :: Agile Manifesto
-The US ski resort where the Agile Manifesto was written. :: Snowbird, Utah
 The Agile Manifesto values working software over this. :: Comprehensive documentation
 The Agile Manifesto values customer collaboration over this. :: Contract negotiation
 The Agile Manifesto values responding to change over this. :: Following a plan
@@ -188,7 +188,6 @@ Splitting a program into independent parts. :: Modularity
 Hiding the details of how something works behind a simple interface. :: Abstraction
 Keeping data and the code that changes it together, hiding internal details. :: Encapsulation
 The book by the "Gang of Four" published in 1994. :: Design Patterns
-The number of authors in the "Gang of Four". :: 4
 The pattern that makes sure a class has only one instance. :: Singleton
 The pattern that creates objects without naming their exact class. :: Factory
 The pattern that converts one interface into another. :: Adapter
@@ -206,10 +205,18 @@ Watching live systems for errors, slowdowns and outages. :: Monitoring
 The share of time a service is working, often given as a number of nines. :: Availability (uptime)
 A written agreement on service uptime, shortened to three letters. :: SLA
 A report that records the cause and fixes of an outage without blame. :: Postmortem
+The problem of storing years with two digits that worried the world in 1999. :: Y2K bug
+The car maker whose production system inspired lean software development. :: Toyota
+The process of slowly removing a feature after warning users. :: Deprecation
+The semantic versioning part that must increase for a breaking change. :: Major version
+With n people a team has n(n − 1)/2 communication paths. The number of paths for 10 people. :: 45
+Knuth's saying that premature optimisation is the root of all this. :: Evil
+The 2024 outage that crashed about 8.5 million Windows machines came from an update by this company. :: CrowdStrike
+The Bell Labs engineer who created C++. :: Bjarne Stroustrup
+The debugging method of explaining code line by line to a toy. :: Rubber duck debugging
 
 ## 300
 The US engineer whose 1970 paper is often cited as the origin of the Waterfall model. :: Winston Royce
-The 1968 NATO conference location where the term "software engineering" was popularised. :: Garmisch, Germany
 The term for the 1960s problems of late, over-budget, unreliable software. :: Software crisis
 The NASA software engineer often credited with coining "software engineering" during Apollo. :: Margaret Hamilton
 The 1975 book by Fred Brooks about managing the IBM OS/360 project. :: The Mythical Man-Month
@@ -302,12 +309,12 @@ The functional safety standard for road vehicles. :: ISO 26262
 The medical device whose software faults gave fatal radiation overdoses in the 1980s. :: Therac-25
 The 1996 rocket that blew up because of a 64-bit to 16-bit conversion error. :: Ariane 5
 The 1999 NASA probe lost because of a mix-up between metric and imperial units. :: Mars Climate Orbiter
-The problem of storing years with two digits that worried the world in 1999. :: Y2K bug
 The date in 2038 when signed 32-bit Unix time overflows. :: 19 January 2038
 The number of value statements in the Agile Manifesto. :: 4
 The number of principles behind the Agile Manifesto. :: 12
 The software engineer who created Extreme Programming. :: Kent Beck
 A short, time-boxed piece of research to reduce uncertainty in Agile. :: Spike
+The Amazon rule says a team should be small enough to be fed by this many pizzas. :: 2
 
 ## 400
 The 1972 paper by David Parnas on decomposing systems into modules introduced this idea. :: Information hiding
@@ -336,7 +343,6 @@ The large-scale Agile framework, shortened to four letters. :: SAFe
 The Scrum guide was written by Ken Schwaber and this man. :: Jeff Sutherland
 The 1986 Harvard Business Review article whose rugby metaphor gave Scrum its name: "The New New Product Development ___". :: Game
 The two Japanese authors of that 1986 article. :: Takeuchi and Nonaka
-The car maker whose production system inspired lean software development. :: Toyota
 Lean's seven wastes include this, for code written but never released. :: Partially done work (inventory)
 The value stream measure of how long from request to delivery. :: Lead time
 Little's law: average work in progress equals throughput times this. :: Average cycle time (lead time)
@@ -373,8 +379,6 @@ The REST maturity model with levels 0 to 3; its namer. :: Leonard Richardson
 The top level of the Richardson maturity model, using links in responses. :: HATEOAS
 The specification for describing REST APIs, formerly called Swagger. :: OpenAPI
 The Google RPC framework that uses protocol buffers. :: gRPC
-The process of slowly removing a feature after warning users. :: Deprecation
-The semantic versioning part that must increase for a breaking change. :: Major version
 The file in npm projects that pins exact dependency versions. :: package-lock.json
 The 2016 npm incident in which removing an 11-line package broke many builds. :: left-pad
 The 2021 Java logging library flaw with a CVSS score of 10. :: Log4Shell
@@ -410,9 +414,10 @@ The SEI method for evaluating software architectures against quality goals, shor
 The author of the 1995 "4+1" view model of software architecture. :: Philippe Kruchten
 The process from Rational Software with inception, elaboration, construction and transition phases. :: RUP (Rational Unified Process)
 UML's "Three Amigos" were Grady Booch, James Rumbaugh and this man. :: Ivar Jacobson
+The US ski resort where the Agile Manifesto was written. :: Snowbird, Utah
+The 1968 NATO conference location where the term "software engineering" was popularised. :: Garmisch, Germany
 
 ## 500
-With n people a team has n(n − 1)/2 communication paths. The number of paths for 10 people. :: 45
 The 1987 Brooks essay distinguished essential complexity from this kind. :: Accidental complexity
 The term Brooks used for the elegant design held by one mind, which he called the most important consideration in system design. :: Conceptual integrity
 The Brooks team structure modelled on a surgeon and supporting staff. :: Surgical team
@@ -434,7 +439,6 @@ The researcher who led a 1968 study with Erikson and Grant that found huge diffe
 The Unix philosophy rule "Write programs that do one thing and do it well" is credited to this man. :: Doug McIlroy
 The Unix build tool written by Stuart Feldman in 1976 that rebuilds only changed files. :: Make
 Donald Knuth's 1974 Turing Award lecture: "Computer Programming as an ___". :: Art
-Knuth's saying that premature optimisation is the root of all this. :: Evil
 The 1984 approach by Knuth that mixes code and explanation in one document. :: Literate programming
 Dijkstra's 1972 Turing lecture title. :: The Humble Programmer
 Dijkstra's remark: testing can show the presence of bugs but never their this. :: Absence
@@ -477,7 +481,6 @@ The 2003 north-east US blackout was worsened by a race condition in this company
 The trading firm that lost 440 million dollars in 45 minutes in 2012 after a bad deployment. :: Knight Capital
 The 2018 and 2019 crashes of the Boeing 737 MAX were linked to this automated system. :: MCAS
 The 1991 Patriot missile failure at Dhahran was caused by this kind of error accumulating over 100 hours. :: Clock (floating-point rounding) drift
-The 2024 outage that crashed about 8.5 million Windows machines came from an update by this company. :: CrowdStrike
 Google's 2015 paper on technical debt in machine learning: "Hidden Technical Debt in Machine Learning ___". :: Systems
 The 1992 term for technical debt was coined by this Agile Manifesto signer. :: Ward Cunningham
 Ward Cunningham also invented this kind of website in 1995. :: Wiki
@@ -505,10 +508,7 @@ The Three Ways of DevOps are flow, feedback and this. :: Continual learning and 
 The 2009 talk at Velocity by Allspaw and Hammond that sparked DevOps reported this many deploys per day at Flickr. :: 10
 The Belgian consultant who named DevOps by organising DevOpsDays in 2009. :: Patrick Debois
 The language by Ole-Johan Dahl and Kristen Nygaard that introduced classes and objects in 1967. :: Simula
-The Bell Labs engineer who created C++. :: Bjarne Stroustrup
 The 1997 essay by Eric Raymond comparing two styles of open-source development. :: The Cathedral and the Bazaar
 Linus's law: given enough eyeballs, all bugs are this. :: Shallow
 The Netflix suite of failure-injection tools that included Chaos Monkey. :: Simian Army
-The Amazon rule says a team should be small enough to be fed by this many pizzas. :: 2
 The 1999 book by Andrew Hunt and David Thomas that introduced the DRY principle. :: The Pragmatic Programmer
-The debugging method of explaining code line by line to a toy. :: Rubber duck debugging

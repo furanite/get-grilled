@@ -12,7 +12,6 @@ LED stands for this. :: Light-emitting diode
 The old type of bulb with a glowing wire. :: An incandescent bulb
 The thin wire inside an old bulb. :: The filament
 The inventor most linked with the practical light bulb. :: Thomas Edison
-The British inventor who also made an early light bulb. :: Joseph Swan
 A long glass tube lamp that glows with gas. :: A fluorescent tube
 A lamp with a bright gas used in old car headlights. :: A halogen lamp
 Lights that use coloured gas in shop signs. :: Neon lights
@@ -80,7 +79,6 @@ The sky looks red at sunset because light passes through more of this. :: Air (a
 A colour you see after staring at another colour. :: An afterimage
 People who can't tell some colours apart have this. :: Colour blindness
 The most common colour blindness is between these two colours. :: Red and green
-The test with coloured dots to check colour vision. :: The Ishihara test
 The part of the eye with cells that see colour. :: The retina (cones)
 The cells in the eye that see in dim light. :: Rods
 The cells in the eye that see colour. :: Cones
@@ -106,6 +104,19 @@ Lights that save energy by turning off in daylight. :: Daylight sensors
 Strings of small lights used for decoration. :: Fairy (string) lights
 A traditional lantern for Ramadan. :: A fanous
 The festival of lights in Riyadh with light art. :: Noor Riyadh
+The colour of Van Gogh's sunflowers. :: Yellow
+The light festival in Riyadh first held in 2021. :: Noor Riyadh
+Many cities replace sodium street lights with these. :: LEDs
+The traditional brass lantern with coloured glass in Arab souqs. :: A fanous
+The verse of light (Ayat al-Nur) is in this surah. :: Surat al-Nur
+The colour associated with Islam and paradise in Islamic art. :: Green
+The colour of the cover (kiswah) of the Ka'bah. :: Black (with gold embroidery)
+The colour of Saudi licence plates for private cars. :: White
+The record-setting light show on Burj Khalifa happens on this night every year. :: New Year's Eve
+A particle of light. :: A photon
+The northern lights are called this. :: Aurora borealis
+The gas used in red neon signs. :: Neon
+Times Square's famous light signs are in this city. :: New York
 
 ## 200
 Colour temperature is measured in this unit. :: Kelvin
@@ -121,7 +132,6 @@ Daylight and incandescent lamps have a CRI of about this. :: 100
 The light falling on a surface is measured in this unit. :: Lux
 One lux equals one lumen per this. :: Square metre
 The American unit of light on a surface. :: Foot-candle
-One foot-candle is about this many lux. :: 10.76
 The brightness of a surface as seen by the eye. :: Luminance
 Luminance is measured in this unit. :: Candela per square metre (nit)
 The unit of light intensity in one direction. :: Candela
@@ -166,7 +176,6 @@ The brand of smart lamps by Philips. :: Philips Hue
 The lighting standard for human health and body clock. :: Circadian (human-centric) lighting
 The body's 24-hour clock. :: The circadian rhythm
 Blue light at night can delay the release of this hormone. :: Melatonin
-The eye cells that respond to blue light and set the body clock. :: ipRGCs (intrinsically photosensitive retinal ganglion cells)
 The term for colours that look the same under one light but different under another. :: Metamerism
 A colour's name, such as red or blue. :: Hue
 A colour's lightness or darkness. :: Value (lightness)
@@ -179,9 +188,6 @@ The hex code #FFFFFF is this colour. :: White
 The hex code #000000 is this colour. :: Black
 The hex code #FF0000 is this colour. :: Red
 The colour system with numbered swatches used in printing and fashion. :: Pantone
-The Pantone Colour of the Year for 2025. :: Mocha Mousse
-The Pantone Colour of the Year for 2024. :: Peach Fuzz
-The Pantone Colour of the Year for 2023. :: Viva Magenta
 The American colour system by Albert Munsell has hue, value and this. :: Chroma
 The colour space made by the CIE in 1976 with L, a and b. :: CIELAB
 The international lighting body. :: CIE (International Commission on Illumination)
@@ -191,12 +197,10 @@ The red pigment made from crushed insects. :: Carmine (cochineal)
 The blue pigment once made from crushed lapis lazuli. :: Ultramarine
 Lapis lazuli was mined mainly in this country. :: Afghanistan
 The purple dye from sea snails, worn by emperors. :: Tyrian purple
-The yellow pigment made from the urine of cows fed mango leaves. :: Indian yellow
 The plant used to make blue dye for jeans. :: Indigo
 The plant used to make red dye and henna patterns. :: Henna (or madder for red)
 The spice that gives a golden yellow colour. :: Saffron (or turmeric)
 The first synthetic dye, made by William Perkin in 1856. :: Mauveine (mauve)
-The colour of Van Gogh's sunflowers. :: Yellow
 The Dutch painter famous for paintings of pure primary colours and grids. :: Piet Mondrian
 The Russian painter of "Black Square". :: Kazimir Malevich
 The artist of colour-field paintings with big soft rectangles. :: Mark Rothko
@@ -208,9 +212,20 @@ The term for the darkest part of a shadow. :: The umbra
 The term for the lighter outer part of a shadow. :: The penumbra
 Soft light makes shadows with this kind of edges. :: Soft (blurred) edges
 Hard light from a small source makes shadows with this kind of edges. :: Sharp edges
+The English scientist who first arranged colours in a circle. :: Isaac Newton
+The Islamic scholar who wrote the "Book of Optics". :: Ibn al-Haytham ﵀
+The French art movement that painted changing light outdoors. :: Impressionism
+The Impressionist painter of many paintings of haystacks and Rouen Cathedral in different light. :: Claude Monet
+The red stone city in Jordan. :: Petra
+The famous painting in the Louvre lit with special lighting behind glass. :: The Mona Lisa
+The gold used to decorate Quran pages is applied in thin sheets called this. :: Gold leaf
+The Islamic scholar who studied the camera obscura and lived in Cairo. :: Ibn al-Haytham ﵀
+Einstein's 1905 paper on light as quanta explained this effect. :: The photoelectric effect
+The colour of the hottest stars. :: Blue
+Fireflies make light by this process. :: Bioluminescence
+The person who lit gas street lamps by hand each evening. :: A lamplighter
 
 ## 300
-The English scientist who first arranged colours in a circle. :: Isaac Newton
 Newton named this many colours in the spectrum. :: Seven
 The German poet who wrote a "Theory of Colours" in 1810. :: Johann Wolfgang von Goethe
 The French chemist who wrote about simultaneous contrast in 1839. :: Michel Eugène Chevreul
@@ -259,7 +274,6 @@ The Japanese architect famous for the "Church of the Light" with a cross-shaped 
 The American artist famous for "skyspaces" made of light. :: James Turrell
 James Turrell's huge work in a volcanic crater in Arizona. :: Roden Crater
 The Danish-Icelandic artist of "The Weather Project" sun at Tate Modern. :: Olafur Eliasson
-The light festival in Riyadh first held in 2021. :: Noor Riyadh
 The light festival in Lyon held each December. :: Fête des Lumières
 The light show at Al-'Ula with art in the desert. :: Desert X AlUla (and the Winter at Tantora festival)
 The Sydney festival of light, music and ideas. :: Vivid Sydney
@@ -272,25 +286,20 @@ The oldest lighthouse in the ancient world was in this city. :: Alexandria
 The Lighthouse of Alexandria was on this island. :: Pharos
 Street lights with sodium give this colour. :: Orange-yellow
 Mercury vapour street lights give this colour. :: Bluish white
-Many cities replace sodium street lights with these. :: LEDs
 The term for light leaking upward into the sky. :: Skyglow
 The organisation that certifies Dark Sky Places. :: DarkSky International
 The lighting of mosques at night often highlights these features. :: Minarets and domes
 The Grand Mosque in Makkah uses lighting to make it this bright at night. :: As bright as day
-The traditional brass lantern with coloured glass in Arab souqs. :: A fanous
 The Arabic word "fanous" means this. :: Lantern
 The famous lamp in Islamic art with enamelled glass, made in Mamluk times for mosques. :: A mosque lamp
-The verse of light (Ayat al-Nur) is in this surah. :: Surat al-Nur
 The verse of light compares Allah's light to a lamp in this. :: A niche (with a glass like a shining star)
 The Mamluk glass mosque lamps often had this verse written on them. :: The verse of light (Surat al-Nur 35)
 The Ottoman mosque lamps hung in big rings. :: Kandil rings (chandeliers)
-The Islamic scholar who wrote the "Book of Optics". :: Ibn al-Haytham ﵀
 Ibn al-Haytham ﵀ showed that we see because light enters this. :: The eye
 Ibn al-Haytham ﵀ described this device, the ancestor of the camera. :: The camera obscura
 Ibn al-Haytham ﵀ is often called the father of this. :: Optics (and the scientific method)
 The scholar the UN partly honoured by naming 2015 the International Year of Light. :: Ibn al-Haytham ﵀
 The Persian scholar who explained the rainbow with experiments in glass spheres. :: Kamal al-Din al-Farisi ﵀
-Al-Farisi ﵀ was a student of this scholar. :: Qutb al-Din al-Shirazi ﵀
 Photographers' name for the hour after sunrise and before sunset. :: The golden hour
 The time just after sunset when the sky is deep blue. :: The blue hour
 A photo setting that corrects colours for the light source. :: White balance
@@ -310,6 +319,9 @@ The theatre lighting position above and in front of the stage. :: Front of house
 Coloured filters placed in front of stage lights. :: Gels
 A stage light that follows a performer. :: A followspot
 A machine that fills the air with a fine mist so light beams can be seen. :: A haze (fog) machine
+The British inventor who also made an early light bulb. :: Joseph Swan
+The test with coloured dots to check colour vision. :: The Ishihara test
+Rømer used the moons of this planet. :: Jupiter
 
 ## 400
 The photometric quantity of light power weighted by the eye's sensitivity. :: Luminous flux
@@ -358,8 +370,6 @@ The term for seeing colours when hearing sounds. :: Synaesthesia
 The Russian painter who linked colours with music. :: Wassily Kandinsky
 Kandinsky's book on art and colour. :: Concerning the Spiritual in Art
 The British painter of light and storms called "the painter of light". :: J. M. W. Turner
-The French art movement that painted changing light outdoors. :: Impressionism
-The Impressionist painter of many paintings of haystacks and Rouen Cathedral in different light. :: Claude Monet
 The painting technique of tiny dots of pure colour. :: Pointillism
 The painter of "A Sunday Afternoon on the Island of La Grande Jatte". :: Georges Seurat
 The art movement of bold unnatural colours led by Matisse. :: Fauvism
@@ -372,20 +382,15 @@ The colour "Baker-Miller pink" was tested in prisons to do this. :: Calm aggress
 The colour green in hospitals' surgical gowns reduces this. :: Afterimages of red blood
 The Kruithof curve links light level and this. :: Colour temperature (pleasing combinations)
 The Kruithof curve says low light levels look best with this kind of light. :: Warm light
-The colour associated with Islam and paradise in Islamic art. :: Green
-The colour of the cover (kiswah) of the Ka'bah. :: Black (with gold embroidery)
 The kiswah is embroidered with threads of these metals. :: Gold and silver
 The blue tiles of the Blue Mosque in Istanbul come from this town. :: İznik
 The Shah Mosque in Isfahan is famous for this colour of tiles. :: Blue (turquoise and cobalt)
 The Persian blue-green colour named after a stone. :: Turquoise
 The word "turquoise" means this in French. :: Turkish
 The colour of Moroccan Majorelle Garden walls. :: Majorelle blue (cobalt blue)
-The prince that Jaipur's buildings were painted pink to welcome in 1876. :: The Prince of Wales (Albert Edward)
 The colour of the old town of Chefchaouen. :: Blue
-The red stone city in Jordan. :: Petra
 The colour of the rocks at Al-'Ula's Elephant Rock. :: Red-brown (sandstone)
 The Riyadh Metro uses colours to help this. :: Wayfinding
-The colour of Saudi licence plates for private cars. :: White
 The quantity of light falling on a surface per area, in lux. :: Illuminance
 The quantity of light emitted in one direction, in candela. :: Luminous intensity
 The ratio of luminous flux out of a luminaire to that of its lamps. :: Light output ratio
@@ -405,13 +410,18 @@ The rule for museum lighting to protect paintings is often about this many lux. 
 Paper and textiles in museums are often lit at only about this many lux. :: 50
 Ultraviolet light in museums causes this. :: Fading (damage)
 The type of lamp with almost no UV used in museums. :: LED
-The famous painting in the Louvre lit with special lighting behind glass. :: The Mona Lisa
 Light therapy lamps for winter depression give about this many lux. :: 10,000
 The condition of low mood in dark winters. :: Seasonal affective disorder (SAD)
 Hospitals may use dynamic lighting that changes through the day to help this. :: Patients' sleep (body clock)
 The ratio of the light at the brightest and darkest points in a room. :: Uniformity ratio
 The colour temperature recommended for bedrooms at night. :: Warm (below 3000 K)
 The colour temperature often used in factories and hospitals for alertness. :: Cool (4000 to 6500 K)
+One foot-candle is about this many lux. :: 10.76
+The eye cells that respond to blue light and set the body clock. :: ipRGCs (intrinsically photosensitive retinal ganglion cells)
+The Pantone Colour of the Year for 2025. :: Mocha Mousse
+The Pantone Colour of the Year for 2024. :: Peach Fuzz
+The Pantone Colour of the Year for 2023. :: Viva Magenta
+The yellow pigment made from the urine of cows fed mango leaves. :: Indian yellow
 
 ## 500
 The ancient Greek philosopher who said colours come from mixing light and dark. :: Aristotle
@@ -461,7 +471,6 @@ The Egyptian blue pigment is one of the oldest made by this. :: Humans (syntheti
 Egyptian blue glows under this kind of light. :: Infrared
 The red pigment from mercury, used in old Chinese lacquer. :: Vermilion (cinnabar)
 The yellow pigment from arsenic used in Persian manuscripts. :: Orpiment
-The gold used to decorate Quran pages is applied in thin sheets called this. :: Gold leaf
 The art of decorating Islamic manuscripts with gold and colours. :: Illumination (tazhib)
 The Persian word for manuscript illumination. :: Tazhib
 The art of marbled paper in Ottoman Turkey. :: Ebru
@@ -471,8 +480,6 @@ The Persian coloured-glass wooden windows. :: Orosi
 The Nasir al-Mulk Mosque in Shiraz is famous for this. :: Coloured light from stained glass
 Nasir al-Mulk Mosque is also called this. :: The Pink Mosque
 The Burj Khalifa's LED façade has about this many lights. :: About 1.2 million
-The record-setting light show on Burj Khalifa happens on this night every year. :: New Year's Eve
-The Islamic scholar who studied the camera obscura and lived in Cairo. :: Ibn al-Haytham ﵀
 Ibn al-Haytham ﵀ was born in this city. :: Basra
 Ibn al-Haytham's ﵀ Book of Optics in Arabic is called this. :: Kitab al-Manazir
 Ibn al-Haytham's ﵀ problem about reflection in a round mirror is called this. :: Alhazen's problem
@@ -482,25 +489,17 @@ The law of refraction is usually named after this Dutch scientist. :: Willebrord
 The Persian scholar Kamal al-Din al-Farisi ﵀ explained this using a glass sphere filled with water. :: The rainbow
 The light rays coming from the eye theory was believed by this Greek. :: Euclid (and Ptolemy)
 The Danish astronomer who first estimated the speed of light in 1676. :: Ole Rømer
-Rømer used the moons of this planet. :: Jupiter
 The scientist who said light is made of particles called corpuscles. :: Isaac Newton
 The scientist who showed light acts as a wave in the double-slit experiment. :: Thomas Young
 The Scottish physicist who showed light is an electromagnetic wave. :: James Clerk Maxwell
-Einstein's 1905 paper on light as quanta explained this effect. :: The photoelectric effect
-A particle of light. :: A photon
 The colour of light from a hot iron at about 1000°C. :: Orange-red
-The colour of the hottest stars. :: Blue
 The colour of the coolest stars. :: Red
-The northern lights are called this. :: Aurora borealis
 The green colour of the auroras comes from this gas. :: Oxygen
-Fireflies make light by this process. :: Bioluminescence
 The deep-sea fish with a glowing lure on its head. :: The anglerfish
 The mineral that glows under UV light. :: A fluorescent mineral (like fluorite)
 The word "fluorescence" comes from this mineral. :: Fluorite
 The glow that continues after the light source is removed, as in glow-in-the-dark toys. :: Phosphorescence
-The gas used in red neon signs. :: Neon
 The gas mixed with mercury used for blue tubes in signs. :: Argon
-Times Square's famous light signs are in this city. :: New York
 The Las Vegas hotel with a beam of light from its pyramid, one of the brightest on Earth. :: The Luxor
 The light tower art installation in New York every 11 September. :: Tribute in Light
 The light artwork made of fluorescent tubes by this American minimalist. :: Dan Flavin
@@ -508,9 +507,10 @@ The Saudi light festival Noor Riyadh is part of this program. :: Riyadh Art
 The ancient Roman oil lamps were mostly made of this. :: Clay (terracotta)
 The fuel of most lamps in the ancient Middle East. :: Olive oil
 The gas lamps that lit London streets from 1807 burned this. :: Coal gas
-The person who lit gas street lamps by hand each evening. :: A lamplighter
 The first city to use electric street lights widely, in 1878. :: Paris
 Edison's first commercial power station opened in this city in 1882. :: New York (Pearl Street)
 The famous light tower in Jeddah that guided ships. :: The Jeddah Light (the tallest lighthouse)
 The Jeddah Light is about this tall. :: 133 metres
 The lighthouse at the end of a pier that is the world's tallest. :: The Jeddah Light
+Al-Farisi ﵀ was a student of this scholar. :: Qutb al-Din al-Shirazi ﵀
+The prince that Jaipur's buildings were painted pink to welcome in 1876. :: The Prince of Wales (Albert Edward)

@@ -5,7 +5,6 @@ group: general
 ## 100
 This Australian animal has fingerprints so like ours they could confuse crime-scene investigators. :: Koala
 Pots of this sweet food found in ancient Egyptian tombs were still edible thousands of years later. :: Honey
-A group of flamingos is called this, a word also meaning showy and over the top. :: A flamboyance
 Botanically, this yellow fruit is a berry but a strawberry is not. :: Banana
 This sea creature has three hearts and blue blood. :: Octopus
 The only letter that does not appear in the name of any US state. :: Q
@@ -23,7 +22,6 @@ The colour of a polar bear's skin under its fur. :: Black
 Butterflies taste their food using these body parts. :: Their feet
 The national animal of Scotland, which does not exist. :: The unicorn
 This big cat has stripes on its skin as well as its fur. :: Tiger
-The country with the most time zones, counting its overseas territories. :: France
 A blue whale's heart is roughly the size of this vehicle. :: A small car
 This large mammal is famous for being unable to jump. :: Elephant
 A pineapple plant takes about this long to grow one pineapple. :: About two years
@@ -66,16 +64,10 @@ The only mammal that can truly fly. :: Bat
 A polar bear's fur is not really white; each hair is this. :: Transparent (clear and hollow)
 A giraffe has this many bones in its long neck, the same number as a human. :: Seven
 A koala can sleep up to about this many hours a day. :: About 20
-The country with the most pyramids, more than Egypt. :: Sudan
-The country with the most islands in the world, over 200,000. :: Sweden
-The shortest war in history, under an hour long in 1896, was between Britain and this place. :: Zanzibar
 The planet that spins on its side. :: Uranus
 This ringed planet is less dense than water. :: Saturn
 Sharks have existed for longer than these tall plants. :: Trees
 Cleopatra lived closer in time to the Moon landing than to the building of this. :: The Great Pyramid of Giza
-The fear of long words has this very long name. :: Hippopotomonstrosesquippedaliophobia
-The small dot over a lowercase "i" is called this. :: A tittle
-The real name of the # symbol. :: Octothorpe
 Water makes up about this much of an adult human body. :: About 60 percent
 Honeybees tell each other where flowers are by doing this. :: The waggle dance
 This tiny animal, also called a water bear, can survive the vacuum of space. :: Tardigrade
@@ -104,6 +96,15 @@ This green salad vegetable is about 96 percent water. :: Cucumber
 Chocolate is poisonous to this common pet. :: Dogs
 You float easily in this lake because it is almost ten times saltier than the ocean. :: The Dead Sea
 Male animals of this fish species, not females, give birth to the babies. :: Seahorse
+The largest continuous sand desert in the world, mostly in Saudi Arabia. :: The Empty Quarter (Rub' al Khali)
+The smallest country in the world. :: Vatican City
+Istanbul is the only major city on two of these. :: Continents
+The world's largest clock face is on this building in Makkah. :: Abraj Al-Bait (Makkah Clock Royal Tower)
+The English word "cipher" comes from the Arabic "sifr", which means this. :: Zero (empty)
+This drink's English name comes from the Arabic "qahwa". :: Coffee
+This sweet word comes from the Arabic "sukkar". :: Sugar
+The number of halalas in one Saudi riyal. :: 100
+The scientist who accidentally discovered penicillin after leaving dishes out over a holiday. :: Alexander Fleming
 
 ## 200
 A hummingbird's heart can beat up to about this many times a minute. :: About 1,200
@@ -126,7 +127,6 @@ The tallest volcano in the solar system, on Mars, about two and a half times as 
 Astronauts say space leaves a smell on their suits like this. :: Seared steak (or burnt metal)
 About this many Earths could fit inside the Sun. :: About 1.3 million
 The only part of the human body with no blood supply, getting oxygen straight from the air. :: The cornea
-In medieval Europe, a "moment" was a unit of time lasting about this long. :: 90 seconds
 This three-letter English verb has the most meanings in the Oxford English Dictionary. :: Run
 The only common English word ending in the letters "mt". :: Dreamt
 This nine-letter English word has only one vowel. :: Strengths
@@ -143,7 +143,6 @@ The Statue of Liberty was originally this colour before it turned green. :: Copp
 Mount Everest grows about this much taller each year. :: About 4 mm
 This lake in Western Australia is naturally bubble-gum pink. :: Lake Hillier
 About 6,000 to 10,000 years ago, the Sahara was this. :: Green, with grassland and lakes
-The largest continuous sand desert in the world, mostly in Saudi Arabia. :: The Empty Quarter (Rub' al Khali)
 Snow falls in some winters on the Jabal al-Lawz mountains in this Saudi region. :: Tabuk
 This bird can sleep while flying, resting one half of its brain at a time. :: Frigatebird
 Cats cannot taste this flavour. :: Sweetness
@@ -151,23 +150,18 @@ The animal with the most powerful bite ever measured. :: Saltwater crocodile
 This bird has the largest wingspan of any living bird, up to about 3.5 metres. :: Wandering albatross
 Most of the world's oxygen is produced by these, not rainforests. :: Ocean plankton (phytoplankton)
 A blue whale's tongue alone can weigh about as much as this land animal. :: An elephant
-This animal's milk is over 60 percent fat, among the richest of any mammal. :: Hooded seal
 The fastest animal on Earth, diving at over 300 km/h. :: Peregrine falcon
 Elephants communicate with low rumbles they can feel through these. :: Their feet
 A newborn giraffe welcomes the world by falling about this far to the ground. :: About 1.5 to 2 metres
 The world's largest living organism by area is a giant one of these in Oregon, USA. :: A honey fungus
-This tree in California is the tallest known living tree, over 115 metres. :: Hyperion
 The country that has a town named "Batman". :: Turkey
 The number of letters in the longest place name in Wales, Llanfair...gogogoch. :: 58
 This tiny country has more sheep than people and is in the Atlantic north of Scotland. :: The Faroe Islands
 This European country, only about 2 square km, has no airport of its own. :: Monaco
-The smallest country in the world. :: Vatican City
-This country has the most official languages, with 16. :: Zimbabwe
 Wealthy Tudors in England sometimes made their teeth look like this on purpose, to show off sugar. :: Black (rotten)
 The first known vending machine, in ancient Egypt, sold this. :: Holy water
 In 1386, a French court put this animal on trial for murder. :: A pig
 Napoleon was once attacked by a horde of these during a hunt. :: Rabbits
-The longest hiccup attack recorded lasted about this many years. :: 68 years
 A person blinks about this many times a day. :: About 15,000 to 20,000
 Your body has about this many kilometres of blood vessels laid end to end. :: About 100,000 km
 This planet has a storm, the Great Red Spot, bigger than Earth. :: Jupiter
@@ -176,7 +170,6 @@ The number of years it takes Pluto to orbit the Sun. :: About 248
 This moon of Saturn has lakes of liquid methane. :: Titan
 The first animals to orbit the Moon, in 1968, were these. :: Tortoises
 The first animal to orbit Earth, in 1957, was a dog called this. :: Laika
-This snack was the first food eaten in space by an American, John Glenn. :: Applesauce
 In space, astronauts can't cry normally because tears do this. :: Float as blobs on their eyes
 An alien-sounding name for the Sun's outer atmosphere, visible during eclipses. :: The corona
 A cloud can weigh this much, as heavy as about 100 elephants. :: About 500 tonnes
@@ -190,7 +183,6 @@ The number of noses a slug has. :: Four
 This brainless sea creature can regrow a lost arm, and sometimes a whole new body from one arm. :: Starfish
 Dolphins give each other these, like names. :: Signature whistles
 The animal that sweats a red, sun-blocking fluid. :: Hippopotamus
-This bird's babies are born with claws on their wings. :: Hoatzin
 Honeybees can recognise these, like people do. :: Human faces
 Crows can remember these and hold grudges. :: Human faces
 Ants don't have these and breathe through tiny holes. :: Lungs
@@ -207,6 +199,20 @@ This sea mammal has the thickest fur of any animal, about a million hairs per sq
 The home of the kiwi bird, where sheep outnumber people about five to one. :: New Zealand
 In Japan, farmers grow this fruit in square shapes so it fits in fridges. :: Watermelon
 An earthworm has this many pairs of heart-like pumping vessels. :: Five
+The Saudi palm-tree region that is one of the world's largest oases. :: Al-Ahsa
+This ancient Nabataean city in Saudi Arabia has tombs carved into rocks, called Hegra. :: AlUla (Mada'in Salih)
+The Jeddah building planned to be the world's first 1-km-tall tower. :: Jeddah Tower
+The fountain in Jeddah that is the tallest in the world, shooting water about 312 metres. :: King Fahd's Fountain
+Golf balls, a falcon feather and a photo of a family are among things left on this. :: The Moon
+The smallest bone is the stapes; the longest bone is this. :: The femur
+The ancient library destroyed in Egypt, once the greatest in the world. :: The Library of Alexandria
+The first item sold on Amazon was this. :: A book
+This mission's astronauts had to go through quarantine because people feared moon germs. :: Apollo 11
+The word "algorithm" comes from the name of this Baghdad mathematician. :: Al-Khwarizmi
+Star names like Betelgeuse, Aldebaran and Altair come from this language. :: Arabic
+The word "safari" comes, through Swahili, from the Arabic word for this. :: A journey (safar)
+This 14th-century Moroccan traveller covered about 120,000 km, far more than Marco Polo. :: Ibn Battuta
+The common Cavendish banana is a clone because it has no working these. :: Seeds
 
 ## 300
 The longest-living known land animal today, a Seychelles giant tortoise on St Helena, is named this. :: Jonathan
@@ -241,17 +247,11 @@ In this country you can be fined for not flushing a public toilet. :: Singapore
 In Switzerland it is illegal to own only one of this social pet, because it gets lonely. :: Guinea pig
 This country's capital city is called "Sri Jayawardenepura Kotte". :: Sri Lanka
 The capital city whose full ceremonial name is the longest in the world. :: Bangkok
-Istanbul is the only major city on two of these. :: Continents
 The name of the Saudi camel festival where camels are judged for beauty. :: King Abdulaziz Camel Festival
 At camel beauty contests, some camels have been disqualified for this cheat. :: Botox injections
 The world's longest straight road, about 256 km with no curves, is in this country. :: Saudi Arabia
-The Saudi palm-tree region that is one of the world's largest oases. :: Al-Ahsa
 Al-Ahsa oasis has about this many palm trees. :: About 2.5 million
-This ancient Nabataean city in Saudi Arabia has tombs carved into rocks, called Hegra. :: AlUla (Mada'in Salih)
-The Jeddah building planned to be the world's first 1-km-tall tower. :: Jeddah Tower
-The world's largest clock face is on this building in Makkah. :: Abraj Al-Bait (Makkah Clock Royal Tower)
 The world's tallest flagpole was once in this Saudi city, 171 metres high. :: Jeddah
-The fountain in Jeddah that is the tallest in the world, shooting water about 312 metres. :: King Fahd's Fountain
 The camel's closest wild relative in South America. :: Guanaco (llama family)
 A camel's blood cells are this unusual shape, helping them survive dehydration. :: Oval
 Spiders cannot fly, but some travel hundreds of km using this. :: Silk threads on the wind (ballooning)
@@ -291,7 +291,6 @@ The world record for staying awake, set in 1964 by Randy Gardner, was about this
 The Moon is moving away from Earth by about this much every year. :: About 3.8 cm
 A day on Earth used to be shorter: in the dinosaur age about this many hours. :: About 23 hours
 The number of people who have walked on the Moon. :: 12
-Golf balls, a falcon feather and a photo of a family are among things left on this. :: The Moon
 Saturn's rings are mostly made of this. :: Ice
 A day on Venus is about this many Earth days long. :: About 243
 The temperature on Venus is hot enough to do this to lead. :: Melt it
@@ -307,9 +306,16 @@ The national flag that has been in continuous use the longest. :: Denmark's
 The island country that has no official capital city. :: Nauru
 In this Canadian town, people leave car doors unlocked as escape spots from polar bears. :: Churchill
 Scientists now think Saudi Arabia's huge Al-Wahbah crater was made by this. :: A volcanic steam explosion
-The English word "cipher" comes from the Arabic "sifr", which means this. :: Zero (empty)
-This drink's English name comes from the Arabic "qahwa". :: Coffee
-This sweet word comes from the Arabic "sukkar". :: Sugar
+A group of flamingos is called this, a word also meaning showy and over the top. :: A flamboyance
+The country with the most time zones, counting its overseas territories. :: France
+The country with the most pyramids, more than Egypt. :: Sudan
+The country with the most islands in the world, over 200,000. :: Sweden
+The shortest war in history, under an hour long in 1896, was between Britain and this place. :: Zanzibar
+The fear of long words has this very long name. :: Hippopotomonstrosesquippedaliophobia
+The small dot over a lowercase "i" is called this. :: A tittle
+The real name of the # symbol. :: Octothorpe
+This Arab inventor tried to fly in 9th-century Córdoba using wings of feathers. :: Abbas ibn Firnas
+The softest mineral on the Mohs scale, which you can scratch with a fingernail. :: Talc
 
 ## 400
 This huge amphibian from China can grow to almost 2 metres long. :: Chinese giant salamander
@@ -354,7 +360,6 @@ The Australian opal-mining town where many people live in underground homes. :: 
 The country with the world's only flag that has different designs on its two sides. :: Paraguay
 The country that changed which side of the road it drives on overnight in 1967. :: Sweden
 This US state capital has no McDonald's. :: Montpelier (Vermont)
-The smallest bone is the stapes; the longest bone is this. :: The femur
 The proportion of your DNA that is identical to every other human's. :: About 99.9 percent
 The number of cells in the human body, roughly. :: About 30 trillion
 The bacteria living in and on you weigh about this much. :: About 0.2 kg
@@ -391,13 +396,11 @@ The colour that ancient Romans thought was so expensive it was for emperors only
 Tyrian purple dye was made from these sea creatures. :: Sea snails
 The oldest known written recipes, on Babylonian clay tablets, are mostly for these. :: Stews
 This rich Malian emperor gave away so much gold in Cairo it crashed its price. :: Mansa Musa
-The ancient library destroyed in Egypt, once the greatest in the world. :: The Library of Alexandria
 The first person to fly in a hot air balloon wasn't a person: these three animals were. :: A sheep, a duck and a rooster
 The world's oldest known joke, about 1900 BCE, came from this civilisation. :: Sumer
 The first photo ever taken of a person was in 1838 of a man doing this. :: Having his shoes shined
 The first webcam was set up to watch this. :: A coffee pot
 The first thing sold on eBay was this broken item. :: A laser pointer
-The first item sold on Amazon was this. :: A book
 The first YouTube video, "Me at the zoo", featured these animals. :: Elephants
 The first emoticon :-) was proposed in this year. :: 1982
 The QWERTY keyboard was designed to stop typewriters doing this. :: Jamming
@@ -411,7 +414,13 @@ Ancient Lydia, in modern Turkey, made the first coins from this metal. :: Electr
 The island of Yap used giant stone discs as this. :: Money
 The unit of currency used in Ancient Greece. :: Drachma
 The word "salary" comes from the Latin word for this seasoning. :: Salt
-The number of halalas in one Saudi riyal. :: 100
+In medieval Europe, a "moment" was a unit of time lasting about this long. :: 90 seconds
+This animal's milk is over 60 percent fat, among the richest of any mammal. :: Hooded seal
+This tree in California is the tallest known living tree, over 115 metres. :: Hyperion
+This country has the most official languages, with 16. :: Zimbabwe
+The longest hiccup attack recorded lasted about this many years. :: 68 years
+This snack was the first food eaten in space by an American, John Glenn. :: Applesauce
+This bird's babies are born with claws on their wings. :: Hoatzin
 
 ## 500
 The unusual feature of the Australian "sleeping" lizard called the shingleback. :: A fake head-shaped tail
@@ -441,7 +450,6 @@ This spacecraft carries a golden record with greetings in 55 languages. :: Voyag
 The language greeting on the Voyager record that is Arabic says this in English. :: Greetings to our friends in the stars
 The most distant human-made object from Earth. :: Voyager 1
 This Apollo astronaut hit golf balls on the Moon. :: Alan Shepard
-This mission's astronauts had to go through quarantine because people feared moon germs. :: Apollo 11
 The Moon has "moonquakes"; the deepest ones are caused by this. :: Earth's tidal pull
 The first-ever photo of a black hole, in 2019, showed one in this galaxy. :: M87 (Messier 87)
 This exoplanet may rain molten glass sideways. :: HD 189733 b
@@ -453,14 +461,12 @@ In Bhutan, the government measures this instead of only GDP. :: Gross National H
 This tiny Alpine country between Switzerland and Austria abolished its army in 1868. :: Liechtenstein
 The world's oldest university still operating, founded in 859 in Morocco. :: University of al-Qarawiyyin
 The woman who founded the University of al-Qarawiyyin. :: Fatima al-Fihri
-This Arab inventor tried to fly in 9th-century Córdoba using wings of feathers. :: Abbas ibn Firnas
 The Abbasid-era scholar who wrote "The Book of Ingenious Devices" with his brothers. :: The Banu Musa
 The 12th-century engineer who designed an elephant-shaped water clock. :: Al-Jazari
 Ibn al-Haytham proved light enters the eye, not leaves it, using this device. :: Camera obscura
 The ancient Arabian trading city "lost" in the sands and nicknamed the "Atlantis of the Sands". :: Ubar
 The giant ancient stone structures in Saudi Arabia older than the pyramids, shaped like rectangles. :: Mustatils
 The scientist who discovered that sunlight contains invisible infrared, using a prism and thermometers. :: William Herschel
-The scientist who accidentally discovered penicillin after leaving dishes out over a holiday. :: Alexander Fleming
 The person who invented the Super Soaker water gun was a NASA engineer named this. :: Lonnie Johnson
 This sweetener was discovered when a chemist forgot to wash his hands before dinner. :: Saccharin
 The longest word in English with no repeating letters. :: Uncopyrightable
@@ -482,13 +488,10 @@ This rare weather event makes fish or frogs fall from the sky. :: Animal rain (w
 The rare lightning that strikes up from storm tops into space is called this. :: Sprites (or blue jets)
 The "ball" kind of this weather event still puzzles scientists. :: Ball lightning
 The colour of the rare flash sometimes seen just as the Sun sets over a clear sea horizon. :: Green
-The word "algorithm" comes from the name of this Baghdad mathematician. :: Al-Khwarizmi
-Star names like Betelgeuse, Aldebaran and Altair come from this language. :: Arabic
 This bright red star's Arabic name means "the follower", because it follows the Pleiades. :: Aldebaran
 This star's name comes from the Arabic for "the flying eagle". :: Altair
 The word "admiral" comes from this Arabic title. :: Amir (commander)
 The word "magazine" comes from the Arabic "makhazin", meaning this. :: Storehouses
-The word "safari" comes, through Swahili, from the Arabic word for this. :: A journey (safar)
 The word "tariff" comes from the Arabic "ta'rif", meaning this. :: Notification
 The quietest room ever measured, at Microsoft's lab, is about this loud. :: About −20 decibels
 The deepest scuba dive on record, about 332 metres, was made by Ahmed Gabr from this country. :: Egypt
@@ -505,13 +508,10 @@ Leafcutter ants don't eat leaves; they use them to grow this. :: Fungus
 This bee defends its hive by forming a ball around an attacking hornet and cooking it with body heat. :: Japanese honeybee
 This wild cat of South Asian wetlands dives into water to catch fish. :: Fishing cat
 There are about this many species of bat, roughly a fifth of all mammal species. :: About 1,400
-This 14th-century Moroccan traveller covered about 120,000 km, far more than Marco Polo. :: Ibn Battuta
 The whistled language of La Gomera in the Canary Islands, used to talk across valleys. :: Silbo Gomero
 The "Year 2038 problem" happens when this kind of computer clock runs out of numbers. :: 32-bit Unix time
 The "Bloop", a mysterious loud ocean sound from 1997, turned out to be this. :: Icequakes (cracking ice)
-The softest mineral on the Mohs scale, which you can scratch with a fingernail. :: Talc
 This gemstone looks green in daylight and red under lamplight. :: Alexandrite
-The common Cavendish banana is a clone because it has no working these. :: Seeds
 The banana variety that was the world's main export until disease wiped it out in the 1950s. :: Gros Michel
 The fungal disease that wiped out the Gros Michel banana. :: Panama disease
 The country that produces the most dates in the world. :: Egypt

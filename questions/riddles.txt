@@ -103,6 +103,17 @@ It rises in the east, sets in the west, and you must never stare at it. :: The s
 You slice its head off and weep beside it, though it never hurt you. :: An onion
 It is round, gets cut into triangles, and has a crust. :: A pizza
 It has locks but no keys, and it grows on your head. :: Hair
+It is a bird that cannot fly but is black and white and lives in the cold south. :: Penguin
+It is the next number: 5, 10, 20, 40. :: 80
+Some months have 30 days, some 31. The number of months with 28 days. :: Twelve
+The angle between clock hands at 3:00. :: 90 degrees
+Mr. Blue lives in the blue house, Mr. Red in the red house. Who lives in the White House? :: The US President
+Multiply any number by this and the answer is always the same. :: Zero
+The angle between the hour and minute hands at 6:00. :: 180 degrees
+The Arabic word for riddle, as in a classic puzzle game. :: Lughz (لغز)
+The puzzle-video game with falling tetrominoes created by Alexey Pajitnov. :: Tetris
+The word game where you guess a five-letter word in six tries. :: Wordle
+The only even prime number. :: 2
 
 ## 200
 It is the thing that begins with T, ends with T, and has T in it. :: A teapot
@@ -139,7 +150,6 @@ It is the next number: 100, 90, 81, 73, 66. :: 60
 It is the next letter: A, C, E, G. :: I
 It is the next letter: Z, X, V, T. :: R
 It is the next letter: M, T, W, T, F, S. :: S (Sunday)
-It is a word containing all five vowels in order: A, E, I, O, U. :: Facetious (or abstemious)
 It is the word that is pronounced the same with only its first letter. :: Eye (I)
 A man rode into town on Friday, stayed three days, and left on Friday. Friday is this. :: His horse's name
 It is what goes up when the rain comes down. :: An umbrella
@@ -166,11 +176,9 @@ It is the number of times the letter "a" appears in the numbers from one to nine
 It is the word "SWIMS" upside down. :: SWIMS
 It is what the big flower said to the little flower. :: Hi, bud!
 It is the thing a computer eats. :: Chips (or bytes)
-It is a bird that cannot fly but is black and white and lives in the cold south. :: Penguin
 It is the word that contains 26 letters but only three syllables. :: Alphabet
 It is the number of letters in "the alphabet". :: 11
 You have a basket with five apples and five friends. Each gets one and one stays in the basket. How? :: One friend took the basket with the apple
-A man looks at a portrait and says "Brothers and sisters I have none, but that man's father is my father's son." The portrait shows this person. :: His son
 A man was outside in the rain without an umbrella or hat, yet not a single hair got wet. He was this. :: Bald
 It is the thing that has golden hair and stands in the corner of the field. :: Corn (wheat)
 It is the creature that has a horn but gives no milk. :: A car (or rhino)
@@ -205,6 +213,29 @@ It is what one wall said to the other wall. :: Meet you at the corner
 It is why a bicycle can't stand up on its own. :: It's two-tired
 It is what you will always find at the end of a rainbow. :: The letter W
 It is the place where today comes before yesterday. :: The dictionary
+It is the word for a word that reads the same backwards, like "level". :: Palindrome
+The month in which people sleep the least. :: February (fewest days)
+I have keys but no locks, space but no room; you can enter but can't go outside. :: A keyboard
+The number that is the sum of its proper divisors: 1 + 2 + 3. :: 6 (a perfect number)
+The number of edges on a cube. :: 12
+I am an odd number. Take away one letter and I become even. :: Seven
+Two mothers and two daughters ate three eggs, one each. How? :: Grandmother, mother, daughter
+A man was driving a black car, with no lights on, no moon, and a black-clad woman crossed. He saw her because this. :: It was daytime
+I am not alive, but I grow; I don't have lungs, but I need air; I don't have a mouth, but water kills me. :: Fire
+The book in which Bilbo and Gollum have their famous riddle contest. :: The Hobbit
+The creature that guards Thebes with a riddle in Greek myth. :: The Sphinx
+The puzzle in which you rearrange letters to form a new word. :: Anagram
+"CYCLE CYCLE CYCLE" as a rebus means this. :: Tricycle
+The number of zeros in one billion. :: Nine
+A man asks a bartender for water; the bartender pulls out a gun. In this classic lateral-thinking puzzle, the fright cures this. :: Hiccups
+The Hungarian architect who invented a twisting cube puzzle in 1974. :: Ernő Rubik
+The Japanese number-placement puzzle whose name means "single digit". :: Sudoku
+The Persian story of a chessboard with grains of wheat doubling each square shows this kind of growth. :: Exponential growth
+The 1950 game theory puzzle about two suspects choosing to confess or stay silent. :: Prisoner's dilemma
+The Lewis Carroll riddle "Why is a raven like a writing desk?" appears in this book. :: Alice's Adventures in Wonderland
+The guessing game in which players get this many yes-or-no questions to identify a hidden object. :: Twenty (Twenty Questions)
+The French word game where you guess a word from clues acted out silently. :: Charades
+The number of squares in each Tetris piece. :: Four
 
 ## 300
 A man lives on the 20th floor. He takes the lift down every day, but going up he stops at the 10th and walks, unless it rained. He is this. :: Short (he can only reach the 10th button, or uses an umbrella)
@@ -220,7 +251,6 @@ It is the next number: 1, 2, 6, 24, 120. :: 720
 It is the next number: 0, 1, 1, 2, 3, 5, 8. :: 13
 It is the next number: 1, 8, 27, 64. :: 125
 It is the next number: 2, 6, 12, 20, 30. :: 42
-It is the next number: 5, 10, 20, 40. :: 80
 It is the next number: 31, 28, 31, 30, 31. :: 30 (days in June)
 The number of 9s you'd write numbering houses from 1 to 100. :: 20
 A bat and ball cost 1.10 riyals; the bat costs 1 riyal more than the ball. The ball costs this. :: 5 halalas
@@ -232,7 +262,6 @@ A farmer has 17 sheep; all but 9 die. The number left. :: 9
 Divide 30 by half and add 10. :: 70
 The number of birthdays the average person has. :: One (the rest are anniversaries of it)
 A doctor gives you three pills to take one every half hour. How long do they last? :: One hour
-Some months have 30 days, some 31. The number of months with 28 days. :: Twelve
 It is the word made from rearranging "listen". :: Silent
 It is the word made from rearranging "dormitory". :: Dirty room
 It is the anagram of "astronomer". :: Moon starer
@@ -246,7 +275,6 @@ It is the first number, counting up, whose English spelling contains the letter 
 It is the English word that has three consecutive pairs of double letters besides "bookkeeper". :: Bookkeeping
 A sentence that uses every letter of the alphabet at least once is called this. :: A pangram
 "The quick brown fox jumps over the lazy dog" is famous for being this. :: A pangram
-It is the word for a word that reads the same backwards, like "level". :: Palindrome
 It is the palindrome Napoleon supposedly said about Elba. :: Able was I ere I saw Elba
 It is the palindrome about Panama. :: A man, a plan, a canal: Panama
 You have two coins totalling 30 halalas, and one is not a 25. They are these. :: A 25 and a 5 (the other one is the 25)
@@ -258,7 +286,6 @@ Fill a 5-litre jug, then pour from it until an empty 3-litre jug is full. The li
 The minimum number of socks to pull from a drawer of black and white socks, in the dark, to guarantee a pair. :: 3
 The minimum number of gloves from a drawer of 10 left and 10 right gloves, in the dark, to guarantee a pair. :: 11
 How many times a clock's hour and minute hands overlap in 12 hours. :: 11
-The angle between clock hands at 3:00. :: 90 degrees
 The angle between clock hands at 3:15. :: 7.5 degrees
 A snail climbs 3 m up a 10 m well by day and slips 2 m at night. Days to escape. :: 8
 Two trains 100 km apart drive at 50 km/h towards each other. A fly flies at 75 km/h between them. It flies this far. :: 75 km
@@ -281,7 +308,6 @@ Feed me and I live, give me a drink and I die. :: Fire
 I have a little house in which I live all alone. It has no doors or windows; to go out I must break the wall. :: A chick in an egg
 I'm found in socks, scarves and mittens, and often in the paws of playful kittens. :: Yarn
 I have no life, but I can die. :: A battery
-Mr. Blue lives in the blue house, Mr. Red in the red house. Who lives in the White House? :: The US President
 If two's company and three's a crowd, then four and five are this. :: Nine
 Multiply together every digit on a phone keypad and you get this. :: 0
 Half of two plus two. :: 3
@@ -289,24 +315,23 @@ If you have it, you want to share it; if you share it, you no longer have it. ::
 It has 10 letters and starts with "gas". :: Automobile
 The only English number word with as many letters as its value. :: Four
 A girl was 7 on her last birthday and will be 9 on her next one. This is how. :: Today is her 8th birthday
-"The day before yesterday I was 25 and next year I'll be 28." Said on January 1, this is the speaker's birthday. :: December 31
 The place on Earth where you can walk 1 km south, 1 km east and 1 km north and end up where you started. :: The North Pole
 Five people stood under one small umbrella and none got wet. This is why. :: It wasn't raining
 The common English word with a double "u" in it. :: Vacuum
 Ten fish are in a tank. Two drown, four swim away and three die. The number of fish left in the tank. :: Ten
 A man calls his dog from across a river and it crosses without getting wet or using a bridge. This is how. :: The river was frozen
 You drive a bus. 7 people get on, 3 get off, then 5 get on. The bus driver's age. :: Your own age
-Multiply any number by this and the answer is always the same. :: Zero
 The number of sides a circle has, in the riddle. :: Two (inside and outside)
 Whether a man can legally marry his widow's sister. :: No: if he has a widow, he is dead
 How far you can walk into a forest. :: Halfway (then you are walking out)
 A painted 3x3x3 cube is cut into 27 small cubes. The number with no paint on them. :: 1
 A painted 3x3x3 cube is cut into 27 small cubes. The number with paint on exactly three faces. :: 8
-The angle between the hour and minute hands at 6:00. :: 180 degrees
 Spelling out numbers from one upwards, the first one that contains the letter "b". :: One billion
 The next number: 1, 2, 4, 7, 11, 16. :: 22
 The next number: 1, 3, 7, 15, 31. :: 63
 Twelve pears hung high, twelve men passed by; each took a pear and left eleven hanging. This is how. :: "Each" was the name of one man
+The sum of all numbers from 1 to 100, which Gauss is said to have found as a child. :: 5,050
+The number of minutes in a week. :: 10,080
 
 ## 400
 A man jumps out of a 10-storey window but is unhurt. He jumped from here. :: The ground-floor window
@@ -316,9 +341,7 @@ A man is found dead in the desert holding a short matchstick. This is how he got
 A man dies in a room with 53 bicycles. He was this. :: Cheating at cards (Bicycle-brand playing cards)
 Two friends share the same poisoned iced drink. The one who gulped it quickly lived. The poison was here. :: In the ice
 A detective sees a cassette that says "I can't live any more" and stops; it was rewound. He suspects this. :: Murder: someone rewound the tape
-The month in which people sleep the least. :: February (fewest days)
 A girl has as many brothers as sisters, but each brother has only half as many brothers as sisters. Children in the family. :: 7 (4 girls, 3 boys)
-I have keys but no locks, space but no room; you can enter but can't go outside. :: A keyboard
 Three switches outside a room control three bulbs. You may enter once. The trick is to feel this. :: Which bulb is warm
 You have 8 balls, one heavier, and a balance. The minimum number of weighings to find it. :: Two
 You have 12 balls, one odd (heavier or lighter). The minimum weighings to find it and know which. :: Three
@@ -332,7 +355,6 @@ In the Monty Hall problem, the chance of winning if you stick with your first do
 The number of trailing zeros in 10 factorial. :: 2
 The number of trailing zeros in 100 factorial. :: 24
 The smallest number divisible by every number from 1 to 10. :: 2,520
-The number that is the sum of its proper divisors: 1 + 2 + 3. :: 6 (a perfect number)
 The second perfect number. :: 28
 A 9-letter word that remains a word each time you remove one letter, down to one letter. :: Startling
 The puzzle with two doors and two guards, one who always lies and one who always tells the truth. :: The two guards puzzle
@@ -341,8 +363,6 @@ The famous puzzle where a man must take a fox, a chicken and grain across a rive
 The number of times the digit 1 appears when writing all numbers from 1 to 100. :: 21
 A frog in a 30 m well climbs 3 m and falls 2 m daily. Days to escape. :: 28
 A man is twice as old as his son. Ten years ago he was three times as old. The son's age now. :: 20
-The sum of all numbers from 1 to 100, which Gauss is said to have found as a child. :: 5,050
-The number of edges on a cube. :: 12
 The number of faces on a dodecahedron. :: 12
 The number of times you can fold a sheet of paper in half, according to the old belief. :: 7 (record is 12)
 The four-letter word that is the same backward and upside down in capitals? :: NOON (SWIMS is five)
@@ -350,31 +370,24 @@ The kind of puzzle about a room with two doors, one to death and one to freedom,
 A word that means "farewell" and is also a palindrome in Arabic letters? English trick: "Ta-ta". :: Ta-ta
 The game of tracing a shape without lifting the pencil or retracing lines relates to this mathematician's Königsberg bridges. :: Euler
 The number of bridges in the Königsberg problem. :: Seven
-I am an odd number. Take away one letter and I become even. :: Seven
 I am a three-digit number. My tens digit is five more than my ones digit; my hundreds digit is eight less than my tens. :: 194
-Two mothers and two daughters ate three eggs, one each. How? :: Grandmother, mother, daughter
 There are three houses, each needing water, gas and electricity, without lines crossing on flat ground. This is possible or impossible. :: Impossible (on a flat surface)
 A taxi driver goes the wrong way down a one-way street past a police officer but isn't stopped. Why? :: He was walking
-A man was driving a black car, with no lights on, no moon, and a black-clad woman crossed. He saw her because this. :: It was daytime
 At a party, everyone shakes hands with everyone else once, 28 handshakes total. The number of people. :: 8
 I'm the beginning of eternity, the end of time and space, the beginning of every end, and the end of every place. :: The letter E
 What is it that given one, you'll have either two or none? :: A choice
 You throw away my outside and cook my inside, then eat my outside and throw away my inside. :: Corn on the cob
 What has a neck but no head, two arms but no hands? :: A shirt
-I am not alive, but I grow; I don't have lungs, but I need air; I don't have a mouth, but water kills me. :: Fire
 What has roots that nobody sees, is taller than trees, up it goes yet never grows? :: A mountain (Tolkien's riddle)
 Voiceless it cries, wingless flutters, toothless bites, mouthless mutters. :: Wind (Tolkien's riddle)
 An eye in a blue face saw an eye in a green face, in Tolkien's "Hobbit" riddle. :: The sun on the daisies
 This thing all things devours: birds, beasts, trees, flowers; gnaws iron, bites steel. :: Time (Tolkien's riddle)
 Alive without breath, as cold as death; never thirsty, ever drinking, all in mail never clinking. :: A fish (Tolkien's riddle)
 What have I got in my pocket? :: The One Ring (Bilbo's question)
-The book in which Bilbo and Gollum have their famous riddle contest. :: The Hobbit
-The creature that guards Thebes with a riddle in Greek myth. :: The Sphinx
 The hero who solved the Sphinx's riddle. :: Oedipus
 The riddle-like Zen question: "What is the sound of one hand clapping?" is this type of riddle. :: A koan
 A Japanese word for a short riddle-like story or question used in Zen training. :: Koan
 A riddle whose answer is a pun is often called this. :: A conundrum
-The puzzle in which you rearrange letters to form a new word. :: Anagram
 The puzzle where words are represented by pictures and symbols. :: Rebus
 "MIND / MATTER" as a rebus means this. :: Mind over matter
 "STAND / I" as a rebus means this. :: I understand
@@ -384,7 +397,6 @@ The puzzle where words are represented by pictures and symbols. :: Rebus
 "ECNALG" as a rebus means this. :: Backward glance
 "GROUND / FEET FEET FEET FEET FEET FEET" as a rebus means this. :: Six feet underground
 "WEAR / LONG" as a rebus means this. :: Long underwear
-"CYCLE CYCLE CYCLE" as a rebus means this. :: Tricycle
 "MAN / BOARD" as a rebus means this. :: Man overboard
 "KNEE / LIGHT" as a rebus means this. :: Neon light
 The number of ways to arrange 5 different books on a shelf. :: 120
@@ -398,8 +410,6 @@ The chance that a family with four children has all girls. :: 1/16
 The number of diagonals in a hexagon. :: 9
 The hotel puzzle in which a dollar seems to vanish after 30 is paid, 5 refunded and 2 kept by the bellboy. :: The missing dollar riddle
 A cyclist rides uphill at 10 km/h and back down the same road at 30 km/h. Average speed for the trip. :: 15 km/h
-The number of zeros in one billion. :: Nine
-The number of minutes in a week. :: 10,080
 The angle between the hour and minute hands at 12:30. :: 165 degrees
 A man buys a horse for 60, sells it for 70, buys it back for 80 and sells it for 90. His total profit. :: 20
 The number of times the digit 7 appears when you write the numbers from 1 to 100. :: 20
@@ -409,17 +419,17 @@ The minimum number of straight cuts to divide a round cake into 8 equal pieces. 
 A gold bar of 7 segments pays a worker one segment a day for a week. The minimum number of cuts. :: 2
 A puzzle like SEND + MORE = MONEY, where letters stand for digits, is called this. :: Cryptarithm (verbal arithmetic)
 In SEND + MORE = MONEY, the letter M stands for this digit. :: 1
+It is a word containing all five vowels in order: A, E, I, O, U. :: Facetious (or abstemious)
+A man looks at a portrait and says "Brothers and sisters I have none, but that man's father is my father's son." The portrait shows this person. :: His son
+"The day before yesterday I was 25 and next year I'll be 28." Said on January 1, this is the speaker's birthday. :: December 31
 
 ## 500
-A man asks a bartender for water; the bartender pulls out a gun. In this classic lateral-thinking puzzle, the fright cures this. :: Hiccups
 Paul Sloane popularised this kind of puzzle, where you ask yes/no questions to find the hidden story. :: Lateral thinking puzzles
 The British author of "The Canterbury Puzzles" (1907). :: Henry Dudeney
 The American puzzle maker who created "Get Off the Earth" and thousands of puzzles in the 1800s. :: Sam Loyd
 The 15-sliding-tile puzzle Sam Loyd falsely claimed to invent, with a 14-15 swap that can't be solved. :: The 15 puzzle
-The Hungarian architect who invented a twisting cube puzzle in 1974. :: Ernő Rubik
 The number of possible positions of a 3x3 Rubik's Cube, about 43 followed by this many zeros (43 quintillion). :: 18
 The maximum number of face turns needed to solve any Rubik's Cube position, proven in 2010. :: 20
-The Japanese number-placement puzzle whose name means "single digit". :: Sudoku
 The minimum number of given clues needed for a Sudoku with a unique solution, proven in 2012. :: 17
 The puzzle of placing eight queens on a chessboard so none attack each other has this many solutions. :: 92
 The chess puzzle of moving a knight to visit every square exactly once. :: The knight's tour
@@ -428,7 +438,6 @@ The number of pieces in a tangram. :: 7
 The name of the Chinese ring puzzle, also known as "Baguenaudier". :: Chinese rings
 The ancient legend of the Tower of Hanoi says the world ends when monks move this many golden discs. :: 64
 The approximate number of moves needed for 64 Tower of Hanoi discs. :: 2^64 − 1 (about 18 quintillion)
-The Persian story of a chessboard with grains of wheat doubling each square shows this kind of growth. :: Exponential growth
 The total number of grains on the chessboard in the wheat-and-chessboard legend. :: 2^64 − 1
 The Greek philosopher whose paradox says Achilles can never catch a tortoise. :: Zeno of Elea
 The ancient paradox behind "This statement is false". :: The liar paradox
@@ -437,7 +446,6 @@ The paradox: if you replace every plank of a ship, is it still the same ship? ::
 The paradox: a prisoner told he'll be hanged on a weekday by surprise concludes it can't happen. :: Unexpected hanging paradox
 The paradox about a sand heap: removing one grain never makes it not a heap. :: Sorites paradox
 The puzzle about two envelopes, one with twice the money of the other, suggesting you should always switch. :: Two envelopes problem
-The 1950 game theory puzzle about two suspects choosing to confess or stay silent. :: Prisoner's dilemma
 The probability puzzle: a family has two children and one is a boy. The chance both are boys. :: 1/3
 The famous puzzle from "Die Hard with a Vengeance" uses a 3-gallon and this size jug to get 4 gallons. :: 5-gallon
 The logic puzzle about blue-eyed islanders who all leave on the same night. :: Blue-eyed islanders puzzle
@@ -456,18 +464,12 @@ The number of ways to arrange the letters of "RIDDLE". :: 360
 The number of moves for a knight to get from one corner of a chessboard to the opposite corner, minimum. :: 6
 The minimum number of colours needed to colour any map so no neighbours share a colour. :: Four (four colour theorem)
 The year the four colour theorem was proven with a computer. :: 1976
-The Lewis Carroll riddle "Why is a raven like a writing desk?" appears in this book. :: Alice's Adventures in Wonderland
 The character who asks "Why is a raven like a writing desk?" :: The Mad Hatter
 Lewis Carroll's word game where you change one letter at a time, like COLD to WARM. :: Word ladder (Doublets)
 The fewest steps in Carroll's word ladder from HEAD to TAIL. :: 5 (HEAD, HEAL, TEAL, TELL, TALL, TAIL)
 The Exeter Book from about the 10th century contains around 90 riddles in this language. :: Old English (Anglo-Saxon)
 The Latin riddle poet Symphosius wrote 100 riddles in this form. :: Three-line verses (tristichs)
 The ancient Greek riddle answered by Homer that, legend says, killed him from frustration, was about this. :: Lice ("what we caught we left behind")
-The guessing game in which players get this many yes-or-no questions to identify a hidden object. :: Twenty (Twenty Questions)
-The French word game where you guess a word from clues acted out silently. :: Charades
-The Arabic word for riddle, as in a classic puzzle game. :: Lughz (لغز)
-The puzzle-video game with falling tetrominoes created by Alexey Pajitnov. :: Tetris
-The number of squares in each Tetris piece. :: Four
 The 2048 game merges tiles of equal numbers; the starting tiles are these two values. :: 2 and 4
 The crossword's inventor, who published the first one in 1913 in New York. :: Arthur Wynne
 The type of crossword where clues are wordplay puzzles, popular in British newspapers. :: Cryptic crossword
@@ -478,7 +480,6 @@ The puzzle where you draw lines connecting islands with bridges. :: Hashiwokaker
 The puzzle where you fill a grid with lamps so all cells are lit. :: Akari (Light Up)
 The Japanese puzzle where you split a grid into regions with given numbers. :: Shikaku
 The arithmetic puzzle with grids and target numbers created by Tetsuya Miyamoto. :: KenKen
-The word game where you guess a five-letter word in six tries. :: Wordle
 The programmer who created Wordle for his partner. :: Josh Wardle
 The newspaper that bought Wordle in 2022. :: The New York Times
 The NYT game where you sort 16 words into four groups. :: Connections
@@ -497,7 +498,6 @@ The numbers 1, 2, 3 add to equal their product. The only other three positive wh
 The 10-digit number in which the first digit counts the zeros, the second the ones, and so on. :: 6210001000
 The number that is the smallest expressible as the sum of two cubes in two different ways. :: 1729
 The mathematician who called 1729 "a very interesting number" in a taxi. :: Srinivasa Ramanujan
-The only even prime number. :: 2
 The Fermat theorem puzzle note: the margin was too small to contain the proof. It was proved in 1994 by this person. :: Andrew Wiles
 A puzzle box from Japan that needs a secret sequence of moves to open. :: Himitsu-bako (Japanese puzzle box)
 The puzzle game where you push boxes onto targets in a warehouse, from Japan. :: Sokoban

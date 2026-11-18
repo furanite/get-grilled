@@ -46,7 +46,6 @@ The electrically controlled switch that lets a small signal switch a big load. :
 The display that shows numbers with seven bars. :: Seven-segment display
 The common character display with 16 columns and 2 rows. :: 16×2 LCD
 The small, sharp display type with no backlight, often 128×64 pixels. :: OLED display
-The programmable RGB LED strips, also called NeoPixels, use this chip. :: WS2812B
 The plastic board with holes for building circuits without soldering. :: Breadboard
 The wires used to connect parts on a breadboard. :: Jumper wires
 The cable used to program an Arduino Uno from a computer. :: USB cable
@@ -91,21 +90,21 @@ A small embedded computer on a car that controls the engine. :: ECU (engine cont
 The thermostat, microwave and washing machine all contain this. :: A microcontroller
 An LED that changes colour by mixing red, green and blue. :: RGB LED
 The circuit that lets a microcontroller drive a motor forwards and backwards. :: H-bridge
-The popular dual H-bridge motor driver module. :: L298N
 The pins every circuit needs: power and this. :: Ground (GND)
 Connecting the grounds of two boards is needed so they share this. :: A common reference voltage
-A microcontroller pin can usually supply only a small current, around this much on an Uno. :: About 20 mA (40 mA max)
 The variable type in Arduino for whole numbers. :: int
 The variable type for true or false. :: bool (boolean)
 The Arduino function that returns milliseconds since start-up. :: millis()
 A loop that never ends in embedded code. :: Infinite loop (super loop)
 Joining parts permanently with melted metal. :: Soldering
 A tool that measures voltage, current and resistance when debugging circuits. :: Multimeter
-The company that makes the AVR and PIC microcontrollers today. :: Microchip Technology
 The small Arduino board that plugs straight into a breadboard. :: Arduino Nano
 The sensor that senses tilt and movement by measuring gravity and acceleration. :: Accelerometer
 Which digit is this seven-segment display showing? {img:seg-4.svg} :: 4
 Which digit is this seven-segment display showing? {img:seg-7.svg} :: 7
+Which digit is this seven-segment display showing? {img:seg-2.svg} :: 2
+Which digit is this seven-segment display showing? {img:seg-9.svg} :: 9
+How many of the seven segments are lit to show this digit? {img:seg-9.svg} :: 6
 
 ## 200
 The microcontroller chip on the Arduino Uno. :: ATmega328P
@@ -119,10 +118,8 @@ The number of analogue input pins on the Arduino Uno. :: 6
 The ADC resolution of the Arduino Uno. :: 10 bits
 analogRead() on an Uno returns values in this range. :: 0 to 1023
 analogWrite() on an Uno accepts values in this range. :: 0 to 255
-The ESP32's processor core family from Tensilica, used in the original chip. :: Xtensa
 The newer ESP32 chips like the ESP32-C3 use this open instruction set. :: RISC-V
 The CPU cores in the Raspberry Pi Pico's RP2040. :: Two Arm Cortex-M0+
-The RP2040's special I/O blocks that can make custom interfaces. :: PIO (programmable I/O)
 The Arm processor family designed for microcontrollers. :: Cortex-M
 The STMicroelectronics family of 32-bit Arm microcontrollers. :: STM32
 The cheap STM32 development board nicknamed after a colour. :: Blue Pill
@@ -165,7 +162,6 @@ The value that divides the clock before it reaches a timer. :: Prescaler
 A timer mode that resets when it matches a value. :: CTC (clear timer on compare match)
 The event when a timer counts past its maximum. :: Overflow
 An 8-bit timer overflows after this many counts. :: 256
-The timer used for PWM on Arduino pins 5 and 6. :: Timer0
 The Arduino function millis() uses this timer. :: Timer0
 A servo expects a pulse every 20 ms of this width range. :: About 1 to 2 ms
 A servo pulse of 1.5 ms puts it at this position. :: Centre (90 degrees)
@@ -203,13 +199,22 @@ The free Arduino-compatible IDE extension for VS Code. :: PlatformIO
 ST's free graphical tool to set up STM32 pins and clocks. :: STM32CubeMX
 The free online simulator for Arduino and ESP32 circuits. :: Wokwi
 The free online circuit simulator from Autodesk with Arduino support. :: Tinkercad Circuits
-The ESP32 deep sleep current is around this. :: About 10 μA
-The ESP32 can wake up from deep sleep using a timer, a pin or this. :: Touch sensor (or ULP coprocessor)
 The ESP32's Wi-Fi mode where it makes its own network. :: Access point (AP) mode
 The lightweight messaging protocol used by IoT devices with publish and subscribe. :: MQTT
 The central server in MQTT. :: Broker
-Which digit is this seven-segment display showing? {img:seg-2.svg} :: 2
-Which digit is this seven-segment display showing? {img:seg-9.svg} :: 9
+The popular dual H-bridge motor driver module. :: L298N
+A bug where two parts of code use shared data at the same time and corrupt it. :: Race condition
+The memory region that holds local variables and return addresses. :: Stack
+The memory region for dynamic allocation with malloc. :: Heap
+When the stack grows into other memory. :: Stack overflow
+Updating firmware over a wireless link. :: OTA (over-the-air) update
+The simple control algorithm with proportional, integral and derivative terms. :: PID control
+The design pattern where a module's state changes in response to events. :: State machine
+The industrial computers that run factory automation with ladder logic. :: PLCs (programmable logic controllers)
+The Chinese company that makes the ESP32 chips. :: Espressif Systems
+The name of the Mars helicopter. :: Ingenuity
+The Saudi Space Commission, set up in 2018, was renamed this in 2023. :: Saudi Space Agency
+The 2021 to 2023 global problem that made microcontrollers very hard to buy. :: Chip shortage
 
 ## 300
 The AVR instruction set is this kind of design. :: RISC
@@ -218,7 +223,6 @@ The number of general-purpose working registers in AVR. :: 32
 The AVR status register is called this. :: SREG
 The flag in SREG that enables all interrupts. :: I flag (global interrupt enable)
 The AVR instructions that enable and disable interrupts globally. :: SEI and CLI
-On AVR, these three registers hold 16-bit pointers called X, Y and Z. :: r26 to r31
 The AVR register pair used for the stack pointer. :: SPH and SPL
 The AVR timer mode that counts up and down for symmetric PWM. :: Phase-correct PWM
 The AVR timer mode that counts up only for higher-frequency PWM. :: Fast PWM
@@ -238,7 +242,6 @@ Cortex-M lets you set or clear single bits atomically through this memory region
 Hardware that moves data between memory and peripherals without the CPU. :: DMA (direct memory access)
 The DMA mode that restarts at the beginning of the buffer automatically. :: Circular mode
 Using two buffers so the CPU fills one while DMA sends the other. :: Double buffering (ping-pong)
-A bug where two parts of code use shared data at the same time and corrupt it. :: Race condition
 Code that must not be interrupted while it runs. :: Critical section
 An operation that completes in one step with no possible interruption. :: Atomic operation
 Reading a 16-bit variable on an 8-bit AVR in main while an ISR changes it can give this. :: A torn (corrupted) value
@@ -248,11 +251,7 @@ The Mars rover that suffered priority inversion in 1997. :: Mars Pathfinder
 The RTOS scheduling where the highest-priority ready task always runs. :: Preemptive priority scheduling
 Giving each task a turn of fixed time. :: Round-robin (time slicing)
 The scheduling theory that gives shorter-period tasks higher priority. :: Rate-monotonic scheduling
-Rate-monotonic scheduling guarantees deadlines for many tasks if utilisation is below about this. :: 69% (ln 2)
-The memory region that holds local variables and return addresses. :: Stack
-The memory region for dynamic allocation with malloc. :: Heap
 Embedded developers often avoid malloc because of this. :: Heap fragmentation
-When the stack grows into other memory. :: Stack overflow
 The program section holding initialised global variables. :: .data
 The program section holding zero-initialised globals. :: .bss
 The program section holding code. :: .text
@@ -261,7 +260,6 @@ The code that runs before main() to set up memory and the stack. :: Startup code
 The GCC toolchain for Arm microcontrollers. :: arm-none-eabi-gcc
 The open-source tool that connects GDB to debug probes. :: OpenOCD
 The file format often used to store firmware for flashing. :: Intel HEX (or .bin, .elf)
-Updating firmware over a wireless link. :: OTA (over-the-air) update
 The Arduino macro that stores strings in flash instead of RAM. :: F() macro (PROGMEM)
 The low-power mode where the CPU stops but peripherals run. :: Idle (sleep) mode
 The deepest AVR sleep mode, woken only by external events or the watchdog. :: Power-down mode
@@ -293,7 +291,6 @@ Each extra bit of ADC resolution adds about this much signal-to-noise ratio. :: 
 An ideal 10-bit ADC has an SNR of about this. :: About 62 dB
 The anti-aliasing filter goes before the ADC and is this type. :: Low-pass filter
 A simple RC filter on a PWM pin turns it into this. :: An analogue voltage (DAC)
-The simple control algorithm with proportional, integral and derivative terms. :: PID control
 The problem where the integral term builds up while the actuator is saturated. :: Integral windup
 The sensor that measures motor shaft position with pulses. :: Rotary encoder
 The encoder with two channels A and B 90° apart. :: Quadrature encoder
@@ -312,7 +309,16 @@ The ESP32's tiny extra processor for sensing while the main cores sleep. :: ULP 
 The ESP32 feature that lets pins sense a finger by capacitance. :: Capacitive touch
 The ESP-NOW protocol lets ESP32 boards talk directly without this. :: A Wi-Fi router (access point)
 The Arduino function that measures how long a pin stays HIGH, used with the HC-SR04. :: pulseIn()
-How many of the seven segments are lit to show this digit? {img:seg-9.svg} :: 6
+The programmable RGB LED strips, also called NeoPixels, use this chip. :: WS2812B
+The company that makes the AVR and PIC microcontrollers today. :: Microchip Technology
+A microcontroller pin can usually supply only a small current, around this much on an Uno. :: About 20 mA (40 mA max)
+The 2010 computer worm that attacked Siemens PLCs in Iranian centrifuges. :: Stuxnet
+The graphical PLC language that looks like relay circuits. :: Ladder logic
+The company that first sold AVR chips. :: Atmel
+The Japanese company that bought Arm in 2016. :: SoftBank
+The NASA computer that flew Apollo to the Moon, an early embedded computer. :: Apollo Guidance Computer
+The Arduino Uno's name means this in Italian. :: One
+The USB device class for keyboards and mice. :: HID
 
 ## 400
 The Cortex-M feature that saves registers automatically on interrupt entry. :: Hardware stacking (exception frame)
@@ -381,7 +387,6 @@ The open-source secure bootloader used with Zephyr. :: MCUboot
 Running tests on the real hardware in a test rig. :: Hardware-in-the-loop (HIL) testing
 The unit test framework for embedded C, from ThrowTheSwitch. :: Unity
 The book 'Test-Driven Development for Embedded C' is by this author. :: James Grenning
-The design pattern where a module's state changes in response to events. :: State machine
 The UML extension of state machines with nested states. :: Statecharts (Harel)
 The event-driven embedded framework from Miro Samek. :: QP (Quantum Platform)
 The 32-bit RISC-V microcontroller chip from Espressif with Wi-Fi 6. :: ESP32-C6
@@ -397,9 +402,6 @@ The 1996 rocket failure caused by a 64-bit float converted to 16-bit integer ove
 The 1999 Mars probe lost because of a units mix-up between teams. :: Mars Climate Orbiter
 The 1980s radiation therapy machine whose software race conditions killed patients. :: Therac-25
 The 2010s car recall where embedded software was blamed for unintended acceleration in expert testimony. :: Toyota unintended acceleration
-The 2010 computer worm that attacked Siemens PLCs in Iranian centrifuges. :: Stuxnet
-The industrial computers that run factory automation with ladder logic. :: PLCs (programmable logic controllers)
-The graphical PLC language that looks like relay circuits. :: Ladder logic
 The international standard for PLC programming languages. :: IEC 61131-3
 The Cortex-M setting that splits priority bits into preemption and sub-priority. :: Priority grouping (PRIGROUP)
 On Cortex-M, a lower priority number means this. :: Higher priority
@@ -415,6 +417,12 @@ The flash property that limits how many times a cell can be erased. :: Endurance
 Spreading writes across flash blocks to make it last longer. :: Wear levelling
 Flash must be erased in these units before it can be rewritten. :: Sectors (pages or blocks)
 ISO 26262 defines four of these risk-based safety levels, A to D. :: ASILs
+The ESP32's processor core family from Tensilica, used in the original chip. :: Xtensa
+The RP2040's special I/O blocks that can make custom interfaces. :: PIO (programmable I/O)
+The timer used for PWM on Arduino pins 5 and 6. :: Timer0
+The ESP32 deep sleep current is around this. :: About 10 μA
+The ESP32 can wake up from deep sleep using a timer, a pin or this. :: Touch sensor (or ULP coprocessor)
+Rate-monotonic scheduling guarantees deadlines for many tasks if utilisation is below about this. :: 69% (ln 2)
 
 ## 500
 The first commercial single-chip microcontroller, from Texas Instruments in 1974. :: TMS1000
@@ -422,7 +430,6 @@ The Intel 8-bit microcontroller of 1976 that came before the 8051. :: 8048
 The 8048 was used in this common PC part. :: Keyboard (controller)
 The year Intel released the 8051. :: 1980
 The two Norwegian students who designed the AVR architecture. :: Alf-Egil Bogen and Vegard Wollan
-The company that first sold AVR chips. :: Atmel
 The year Microchip bought Atmel. :: 2016
 The company that originally made the PIC, as a peripheral chip for its CP1600 CPU. :: General Instrument
 The British company that designed the first ARM processor in 1985. :: Acorn Computers
@@ -439,12 +446,9 @@ The Italian co-founder of Arduino often seen as its public face. :: Massimo Banz
 The Raspberry Pi Foundation's co-founder and long-time CEO. :: Eben Upton
 The first Raspberry Pi was released in this year. :: 2012
 The Raspberry Pi Pico was released in this year. :: 2021
-The Chinese company that makes the ESP32 chips. :: Espressif Systems
 The city where Espressif is headquartered. :: Shanghai
 The ESP8266 became famous in 2014 when sold on this cheap module. :: ESP-01
 The Arm company headquarters is in this English city. :: Cambridge
-The Japanese company that bought Arm in 2016. :: SoftBank
-The NASA computer that flew Apollo to the Moon, an early embedded computer. :: Apollo Guidance Computer
 The Apollo Guidance Computer used this type of memory woven by hand. :: Core rope memory
 The MIT engineer who led software for the Apollo Guidance Computer. :: Margaret Hamilton
 The alarm codes that nearly aborted the Apollo 11 landing. :: 1201 and 1202
@@ -468,21 +472,17 @@ The tiny ESP8266 board from Wemos (Lolin) that made Wi-Fi projects easy. :: Wemo
 The open hardware licence used by Arduino boards. :: Creative Commons (CC BY-SA)
 The open-source drone autopilot project that grew out of Arduino. :: ArduPilot
 The year the Arduino Uno was released. :: 2010
-The Arduino Uno's name means this in Italian. :: One
 The second microcontroller on the Uno R3 that handles USB. :: ATmega16U2
 The open-source smart home firmware for ESP chips, made by Theo Arends. :: Tasmota
 The open-source home automation platform often used with ESP devices. :: Home Assistant
 The YAML-based firmware builder for ESP chips in Home Assistant. :: ESPHome
 The NASA Mars helicopter that flew in 2021 used this Qualcomm chip, a phone processor. :: Snapdragon 801
-The name of the Mars helicopter. :: Ingenuity
 The microcontroller that handled Ingenuity's flight control safety, an automotive part. :: TI Hercules (TMS570)
-The Saudi Space Commission, set up in 2018, was renamed this in 2023. :: Saudi Space Agency
 The embedded engineer whose 'Embedded C Coding Standard' is widely used. :: Michael Barr
 The magazine-founded conference for embedded engineers held in Silicon Valley. :: Embedded Systems Conference (ESC)
 The Raspberry Pi product line for industrial use, like the CM4. :: Compute Module
 The low-cost board from China that runs Linux on a RISC-V chip, like the Milk-V Duo. :: Milk-V
 The ultra-cheap 32-bit RISC-V microcontroller from WCH costing about 10 cents. :: CH32V003
-The 2021 to 2023 global problem that made microcontrollers very hard to buy. :: Chip shortage
 The company that became the world's largest microcontroller maker by revenue in 2023. :: Infineon
 The ATmega328P's ADC clock should be between 50 kHz and this for full 10-bit resolution. :: 200 kHz
 The Arduino Uno's default ADC clock prescaler. :: 128
@@ -507,7 +507,6 @@ Classic CAN frames carry at most this many data bytes. :: 8
 CAN bit stuffing inserts an opposite bit after this many identical bits. :: 5
 The maximum bit rate of classic CAN. :: 1 Mbit/s
 The USB device class that lets a microcontroller look like a serial port. :: CDC (ACM)
-The USB device class for keyboards and mice. :: HID
 The USB class that makes a board appear as a drive, as the Pico does in BOOTSEL mode. :: Mass storage (MSC)
 The drag-and-drop firmware file format created by Microsoft for MakeCode. :: UF2
 The IEEE standard number for JTAG. :: IEEE 1149.1
@@ -517,3 +516,4 @@ Arm's first Cortex-M core, launched in 2004. :: Cortex-M3
 Luminary Micro, maker of the first Cortex-M3 chips, was bought in 2009 by this company. :: Texas Instruments
 The original 8051 has this much internal RAM. :: 128 bytes
 The number of register banks in the 8051. :: Four
+On AVR, these three registers hold 16-bit pointers called X, Y and Z. :: r26 to r31

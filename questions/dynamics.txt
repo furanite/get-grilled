@@ -210,6 +210,25 @@ On a frictionless banked curve, tan θ equals v² divided by this. :: r g
 The minimum speed at the top of a vertical loop of radius r for a car to stay on the track. :: √(g r)
 The kinetic energy of a rolling wheel is its translational kinetic energy plus this. :: Rotational kinetic energy
 The fulcrum is between the load and the effort. Which class of lever is this? {img:lever-1.svg} :: First-class lever
+The bridge failure that made self-excited vibration famous. :: Tacoma Narrows Bridge (1940)
+The car body's rotation about its long axis when cornering. :: Roll
+Which class of lever is this, with the load between the fulcrum and the effort? {img:lever-2.svg} :: Second-class lever
+Which class of lever is this, with the effort between the fulcrum and the load? {img:lever-3.svg} :: Third-class lever
+The two body vibrations of a car, bounce plus this rotation. :: Pitch
+The cancellation of sound using opposite waves, as in headphones. :: Active noise cancellation
+Chaotic motion is very sensitive to this. :: Initial conditions
+The idea that small causes can have large effects, named after an insect. :: Butterfly effect
+A wheelbarrow is an example of the lever class drawn here. Which class is it? {img:lever-2.svg} :: Second-class lever
+The 1687 book in which Newton set out his laws of motion. :: Philosophiæ Naturalis Principia Mathematica
+The Italian scientist who showed that falling bodies accelerate uniformly, using inclined planes. :: Galileo Galilei
+Galileo is said to have timed a swinging lamp with his pulse in the cathedral of this city. :: Pisa
+The French engineer who explained the effect of rotating frames, now named after him, in 1835. :: Gaspard-Gustave de Coriolis
+The French mathematician whose 1807 work showed functions could be built from sines and cosines. :: Joseph Fourier
+The two-wheeled personal transporter invented by Dean Kamen that balances like an inverted pendulum. :: Segway
+The world's tallest building, shaped with setbacks to 'confuse the wind' and break up vortex shedding. :: Burj Khalifa
+The American seismologist who created a magnitude scale in 1935. :: Charles Richter
+Newton's cradle shows conservation of momentum and this. :: Energy
+In 1971 an Apollo 15 astronaut dropped a hammer and this together on the Moon. :: A feather
 
 ## 300
 The acceleration of a point in a rotating frame includes this extra term, 2ω × v. :: Coriolis acceleration
@@ -229,7 +248,6 @@ The slow turning of a spinning top's axis around the vertical. :: Precession
 The small nodding motion of a spinning top's axis. :: Nutation
 The rate of steady precession of a gyroscope equals torque divided by this. :: Spin angular momentum
 The 'tennis racket theorem' says rotation about this axis is unstable. :: Intermediate principal axis
-The other name for the tennis racket theorem, after a cosmonaut's wing nut video. :: Dzhanibekov effect
 The three angles that describe the orientation of a rigid body. :: Euler angles
 The problem with Euler angles where one degree of freedom is lost. :: Gimbal lock
 The four-number representation of rotation that avoids gimbal lock. :: Quaternions
@@ -269,7 +287,6 @@ The method that gives the lowest natural frequency of a shaft with several discs
 The iterative method for torsional vibration of shafts with many discs. :: Holzer method
 The fundamental frequency of a taut string depends on tension, length and this. :: Mass per unit length
 The frequency ratio of the second mode to the first for a taut string. :: 2
-The frequency ratio of the second mode to the first for a cantilever beam, roughly. :: About 6.3
 The differential equation for beam bending vibration is of this order in space. :: Fourth order
 The beam theory that adds shear deformation and rotary inertia. :: Timoshenko beam theory
 The test that taps a structure with an instrumented hammer to find its modes. :: Impact (tap) test
@@ -290,7 +307,6 @@ The vibration where a system's stiffness or mass varies with time, as for a swin
 The equation that describes a pendulum with a moving pivot. :: Mathieu equation
 Vibration that a system makes from a steady energy source, like a violin bow. :: Self-excited vibration
 The stick-slip squeal of brakes is this kind of vibration. :: Friction-induced (self-excited) vibration
-The bridge failure that made self-excited vibration famous. :: Tacoma Narrows Bridge (1940)
 Wind-induced oscillation of power lines covered in ice. :: Galloping
 The nonlinear spring whose stiffness grows with displacement, in Duffing's equation. :: Hardening spring
 In the Duffing oscillator, the peak bends to one side and causes this. :: Jump phenomenon
@@ -298,7 +314,6 @@ The periodic solution that a nonlinear system settles into regardless of startin
 The oscillator equation with negative damping at small amplitude, used for heartbeats and valves. :: Van der Pol equation
 The rule that links the rate of change of a vector seen in rotating axes to its rate in fixed axes. :: Transport theorem (Ω × A term)
 Satellites change their attitude without fuel using these spinning wheels. :: Reaction (momentum) wheels
-Explorer 1 began tumbling because it spun about this axis while losing energy. :: Its axis of minimum moment of inertia
 The vis-viva equation gives orbital speed from the radius and this. :: Semi-major axis
 The usual unit of a rocket engine's specific impulse. :: Seconds
 The altitude of geostationary orbit above the equator, roughly. :: About 35,786 km
@@ -310,10 +325,15 @@ In torsional vibration, ω = √(kt/J), where J is this. :: Mass moment of inert
 ISO 10816 and ISO 20816 set machine vibration limits mainly using this quantity in mm/s. :: Vibration velocity (RMS)
 The signal method that finds rolling-bearing faults by demodulating high-frequency vibration. :: Envelope analysis
 A suddenly applied step load on an undamped system gives this dynamic load factor. :: 2
-The car body's rotation about its long axis when cornering. :: Roll
 The speed of a transverse wave on a taut string equals √(tension ÷ this). :: Mass per unit length
-Which class of lever is this, with the load between the fulcrum and the effort? {img:lever-2.svg} :: Second-class lever
-Which class of lever is this, with the effort between the fulcrum and the load? {img:lever-3.svg} :: Third-class lever
+The French physicist who showed Earth's rotation with a giant pendulum in 1851. :: Léon Foucault
+The Swiss mathematician whose 1765 book on rigid bodies introduced his equations of rotation. :: Leonhard Euler
+The curve of constant width named after Reuleaux. :: Reuleaux triangle
+The 11th-century Persian scholar who wrote about inclination (mayl) as the cause of motion. :: Ibn Sina (Avicenna)
+The technique that uses a planet's motion to speed up a spacecraft. :: Gravity assist (slingshot)
+The probe that used gravity assists to visit all four giant planets. :: Voyager 2
+The engineer who led development of the Saturn V rocket. :: Wernher von Braun
+In 1829 Coriolis put this factor in front of m v² to define kinetic energy. :: One half
 
 ## 400
 The theorem that the most general rigid-body motion is a translation plus a rotation about one axis. :: Chasles' theorem
@@ -323,7 +343,6 @@ The surface that rolls on the invariable plane in Poinsot's construction. :: Ine
 The cone traced by the angular velocity in the body. :: Body cone
 The cone traced by the angular velocity in space. :: Space cone
 For a torque-free axisymmetric body, the spin axis moves around the angular momentum vector in this. :: Free precession
-Earth's free precession, discovered in 1891, has a period of about this. :: About 433 days (Chandler wobble)
 Earth's axis precesses once in about this many years. :: About 26,000 years
 A Lagrangian that does not depend on a coordinate gives a conserved momentum. That coordinate is called this. :: Cyclic (ignorable) coordinate
 The theorem that links each symmetry to a conserved quantity. :: Noether's theorem
@@ -339,7 +358,6 @@ The table of four parameters per joint used to describe robot arms. :: Denavit�
 Finding joint angles to put a robot hand at a given point. :: Inverse kinematics
 The matrix that relates joint velocities to end-effector velocity. :: Jacobian
 The robot arm position where the Jacobian loses rank. :: Singularity
-The recursive algorithm for robot dynamics named after two researchers in 1980. :: Newton–Euler (Luh, Walker and Paul) algorithm
 The gear tooth failure caused by repeated contact stress pitting. :: Surface fatigue (pitting)
 The bending stress in a gear tooth is found with this equation from 1892. :: Lewis equation
 The ratio of the arc of action to the circular pitch in gears. :: Contact ratio
@@ -386,20 +404,15 @@ The bearing type that supports a rotor on a magnetic field with no contact. :: M
 The idea that a suspension is a trade-off between ride comfort and this. :: Road holding (handling)
 The suspension that uses actuators to control the body motion. :: Active suspension
 Dampers that change stiffness quickly using a fluid whose viscosity changes in a magnetic field. :: Magnetorheological (MR) dampers
-The two body vibrations of a car, bounce plus this rotation. :: Pitch
 The system that reduces vibration by using sensors and opposing actuators. :: Active vibration control
-The cancellation of sound using opposite waves, as in headphones. :: Active noise cancellation
 The frequency at which a building sways, roughly 10 divided by this. :: Number of storeys
 The tall building damper that uses water sloshing in a tank. :: Tuned liquid damper
 The base isolation bearings made of rubber and steel layers. :: Laminated elastomeric bearings
 The base isolation bearing that slides on a curved surface like a pendulum. :: Friction pendulum bearing
 The 1995 earthquake in Japan whose damage pushed base isolation forward. :: Kobe (Great Hanshin) earthquake
-Chaotic motion is very sensitive to this. :: Initial conditions
 The simple mechanical system with two arms that is a classic example of chaos. :: Double pendulum
 The plot that samples a periodic system once per forcing cycle. :: Poincaré map (section)
-The sequence of period doublings that leads to chaos has a universal constant named after this person. :: Mitchell Feigenbaum
 The exponent that measures how fast nearby trajectories separate. :: Lyapunov exponent
-The idea that small causes can have large effects, named after an insect. :: Butterfly effect
 The scientist who coined the 'butterfly effect' from his weather models. :: Edward Lorenz
 The nonlinear equation for a pendulum shows its period grows with this. :: Amplitude
 The wave equation for a vibrating string was first derived by this French mathematician in 1747. :: Jean le Rond d'Alembert
@@ -416,22 +429,19 @@ The energy-flow method for predicting high-frequency vibration of complex struct
 The kind of damping inside a spinning shaft that can make it unstable above the first critical speed. :: Internal (rotating) damping
 Finding small oscillations about equilibrium by linearising and checking eigenvalues. :: Linear stability analysis
 The rolling-bearing fault frequency for a defect on the fixed outer ring, abbreviated BPFO. :: Ball pass frequency, outer race
-A wheelbarrow is an example of the lever class drawn here. Which class is it? {img:lever-2.svg} :: Second-class lever
+The other name for the tennis racket theorem, after a cosmonaut's wing nut video. :: Dzhanibekov effect
+The frequency ratio of the second mode to the first for a cantilever beam, roughly. :: About 6.3
+Explorer 1 began tumbling because it spun about this axis while losing energy. :: Its axis of minimum moment of inertia
 
 ## 500
-The 1687 book in which Newton set out his laws of motion. :: Philosophiæ Naturalis Principia Mathematica
 The astronomer who paid to publish Newton's Principia. :: Edmond Halley
-The Italian scientist who showed that falling bodies accelerate uniformly, using inclined planes. :: Galileo Galilei
-Galileo is said to have timed a swinging lamp with his pulse in the cathedral of this city. :: Pisa
 The year Galileo published his Two New Sciences. :: 1638
 The Flemish engineer who dropped lead balls from a church tower in Delft in 1586, before Galileo. :: Simon Stevin
 The French mathematician whose 1788 book Mécanique analytique famously had no diagrams. :: Joseph-Louis Lagrange
 The Irish mathematician who reformulated mechanics in 1833 and 1834. :: William Rowan Hamilton
 The French mathematician who stated the principle of least action in 1744. :: Pierre-Louis Maupertuis
 The German mathematician who proved in 1918 that symmetries give conservation laws. :: Emmy Noether
-The French engineer who explained the effect of rotating frames, now named after him, in 1835. :: Gaspard-Gustave de Coriolis
 Coriolis introduced this word, meaning force times distance, in 1829. :: Work
-The French physicist who showed Earth's rotation with a giant pendulum in 1851. :: Léon Foucault
 Foucault's famous public pendulum hung in this Paris building. :: Panthéon
 Foucault also gave this name in 1852 to a spinning wheel device. :: Gyroscope
 The Dutch scientist who worked out the formula for centrifugal force and the pendulum period. :: Christiaan Huygens
@@ -440,11 +450,9 @@ The curve on which a pendulum's period does not depend on amplitude, found by Hu
 The Swiss mathematician who posed the fastest-descent (brachistochrone) problem in 1696. :: Johann Bernoulli
 The English carpenter who solved the longitude problem with his marine chronometers. :: John Harrison
 Harrison's most famous timekeeper, finished in 1759. :: H4
-The Swiss mathematician whose 1765 book on rigid bodies introduced his equations of rotation. :: Leonhard Euler
 The Swiss mathematician who showed in 1753 that a vibrating string's motion is a sum of these. :: Normal modes (harmonics)
 The British physicist whose 1877 book The Theory of Sound founded vibration theory. :: Lord Rayleigh (John William Strutt)
 The German physicist who made sand patterns on vibrating plates in 1787. :: Ernst Chladni
-The French mathematician whose 1807 work showed functions could be built from sines and cosines. :: Joseph Fourier
 The German engineer who published the classic equation for nonlinear springs in 1918. :: Georg Duffing
 The Dutch physicist who studied oscillations in vacuum tube circuits in the 1920s. :: Balthasar van der Pol
 The Ukrainian-American engineer who wrote 'Vibration Problems in Engineering' in 1928. :: Stephen Timoshenko
@@ -461,12 +469,10 @@ The speed regulator with spinning weights that Watt adapted for steam engines in
 The engineer credited with inventing the sun-and-planet gear for Watt's engines. :: William Murdoch
 Watt used the sun-and-planet gear because another inventor had patented this part. :: Crank
 The German engineer called the father of kinematics, author of Theoretische Kinematik (1875). :: Franz Reuleaux
-The curve of constant width named after Reuleaux. :: Reuleaux triangle
 The British 20p and 50p coins are curves of constant width with this many sides. :: Seven
 The American engineers who published the four-parameter link convention in 1955. :: Denavit and Hartenberg
 The Russian mathematician who studied straight-line linkages and gave his name to a polynomial family. :: Pafnuty Chebyshev
 The French army officer who invented the first exact straight-line linkage in 1864. :: Charles-Nicolas Peaucellier
-The 11th-century Persian scholar who wrote about inclination (mayl) as the cause of motion. :: Ibn Sina (Avicenna)
 The 12th-century Baghdad scholar who argued that a constant force produces acceleration. :: Abu'l-Barakat al-Baghdadi
 The 14th-century French philosopher who developed impetus theory. :: Jean Buridan
 The Oxford college whose scholars proved the mean speed theorem in the 1330s. :: Merton College
@@ -475,7 +481,6 @@ The year Newton was born, by the Julian calendar used in England then. :: 1642
 The Soviet cosmonaut whose 1985 observation showed a wing nut flipping in space. :: Vladimir Dzhanibekov
 The German inventor of the gyrocompass, in the early 1900s. :: Hermann Anschütz-Kaempfe
 The American engineer who founded his gyroscope company in 1910 to make gyrocompasses. :: Elmer Sperry
-The two-wheeled personal transporter invented by Dean Kamen that balances like an inverted pendulum. :: Segway
 The Antikythera mechanism has at least this many surviving gears, roughly. :: About 30
 The 12th-century scholar al-Khazini wrote this book on balances and specific weights. :: The Book of the Balance of Wisdom
 The Andalusian astronomer whose 11th-century universal astrolabe worked at any latitude. :: Al-Zarqali
@@ -490,7 +495,6 @@ The year Taipei 101 opened. :: 2004
 The New York skyscraper found in 1978 to be at risk in quartering winds and secretly repaired. :: Citicorp Center
 The structural engineer of the Citicorp Center who ordered the secret repairs. :: William LeMessurier
 The Boston tower that lost windows in the 1970s and was later fitted with tuned mass dampers. :: John Hancock Tower
-The world's tallest building, shaped with setbacks to 'confuse the wind' and break up vortex shedding. :: Burj Khalifa
 The French suspension bridge that collapsed in 1850 as a battalion of soldiers crossed it. :: Angers Bridge (Basse-Chaîne Bridge)
 The 1831 English bridge collapse that led the British Army to order troops to break step on bridges. :: Broughton Suspension Bridge
 Engineers now blame the Tacoma Narrows collapse on this, not simple resonance. :: Aeroelastic flutter
@@ -500,22 +504,18 @@ The NACA engineer whose 1948 report predicted roll (inertia) coupling in fast je
 The 1985 Mexico City earthquake hit mid-rise buildings hardest because the soft lake-bed soil did this. :: Resonated near their natural period
 The British geologist who built the first practical modern seismographs in Japan in the 1880s. :: John Milne
 The Chinese scholar who built an earthquake detector with dragons and toads in 132 AD. :: Zhang Heng
-The American seismologist who created a magnitude scale in 1935. :: Charles Richter
-The technique that uses a planet's motion to speed up a spacecraft. :: Gravity assist (slingshot)
 The UCLA student who worked out gravity assist trajectories in 1961. :: Michael Minovitch
-The probe that used gravity assists to visit all four giant planets. :: Voyager 2
 The American physicist who launched the first liquid-fuelled rocket in 1926. :: Robert Goddard
-The engineer who led development of the Saturn V rocket. :: Wernher von Braun
 Most quartz watch crystals vibrate at this frequency, a power of two. :: 32,768 Hz
 The first quartz wristwatch sold, by Seiko in 1969. :: Astron
 The Wright brothers controlled roll on their early aircraft by doing this to the wings. :: Wing warping
 The Formula One team that raced a tuned mass damper in 2005 before it was banned in 2006. :: Renault
 The Cambridge engineer who invented the inerter, a mechanical element tied to relative acceleration. :: Malcolm Smith
 In Formula One, the inerter was hidden under this code name. :: J-damper
-Newton's cradle shows conservation of momentum and this. :: Energy
 In the Principia, Newton's second law was stated in terms of the change of this. :: Motion (momentum)
 The German thinker who called m v² 'vis viva' (living force) in 1686. :: Gottfried Wilhelm Leibniz
 The English scientist who first used the word 'energy' in its modern sense, in 1807. :: Thomas Young
-In 1829 Coriolis put this factor in front of m v² to define kinetic energy. :: One half
 Ernst Mach criticised Newton's absolute space in this 1883 book. :: The Science of Mechanics
-In 1971 an Apollo 15 astronaut dropped a hammer and this together on the Moon. :: A feather
+Earth's free precession, discovered in 1891, has a period of about this. :: About 433 days (Chandler wobble)
+The recursive algorithm for robot dynamics named after two researchers in 1980. :: Newton–Euler (Luh, Walker and Paul) algorithm
+The sequence of period doublings that leads to chaos has a universal constant named after this person. :: Mitchell Feigenbaum

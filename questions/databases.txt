@@ -84,11 +84,9 @@ The row-and-column program by Microsoft often used as a simple database. :: Exce
 The file format of plain text values separated by commas. :: CSV
 A computer that stores a database and answers requests from other computers. :: Server
 A program that connects to a database server to send queries. :: Client
-The scientist at IBM who proposed the relational model in 1970. :: Edgar F. Codd
 The decade in which SQL was first developed at IBM. :: 1970s
 The spreadsheet-like tool by Google sometimes used as a tiny database. :: Google Sheets
 Storing data on remote servers reached over the internet. :: Cloud storage
-The cloud database service from Amazon, shortened to three letters. :: RDS
 Data about data, such as a file's size and date. :: Metadata
 The process of moving data from one system to another. :: Migration
 Checking that data entered is sensible, such as an age not being negative. :: Validation
@@ -164,8 +162,6 @@ Reading the same row twice in a transaction and getting different values. :: Non
 New rows appearing in a repeated query within the same transaction. :: Phantom read
 The strictest SQL isolation level. :: Serializable
 The weakest SQL isolation level. :: Read uncommitted
-The default isolation level of PostgreSQL. :: Read committed
-The default isolation level of MySQL's InnoDB engine. :: Repeatable read
 The default storage engine of MySQL. :: InnoDB
 The file in which a database records changes before applying them, used for recovery. :: Write-ahead log (transaction log)
 Copying data to other servers so there are spare copies. :: Replication
@@ -180,7 +176,6 @@ The NoSQL type that stores JSON-like documents, like MongoDB. :: Document databa
 The NoSQL type that stores nodes and relationships, like Neo4j. :: Graph database
 The NoSQL type that stores data by column families, like Cassandra. :: Wide-column store
 The in-memory key–value store often used as a cache, whose name means "Remote Dictionary Server". :: Redis
-The query language used by the Neo4j graph database. :: Cypher
 The search engine built on Apache Lucene, widely used for log search. :: Elasticsearch
 The pooling of open database connections for reuse. :: Connection pooling
 A tool that maps database tables to objects in code, shortened to three letters. :: ORM
@@ -202,11 +197,19 @@ A temporary named result defined with the WITH keyword. :: Common table expressi
 The file format of key and value pairs used by many web APIs and document databases. :: JSON
 The older markup format with tags once widely used to exchange data. :: XML
 The year Edgar Codd published his paper on the relational model. :: 1970
-The research database project at IBM in the 1970s that first implemented SQL. :: System R
 The original name of SQL, a pun still heard in its pronunciation. :: SEQUEL
-The two IBM researchers who created SQL: Donald Chamberlin and this man. :: Raymond Boyce
 The symbol with crow's feet in ER diagrams means this. :: Many
 In crow’s foot notation, what kind of relationship does this line show? {img:er-one-to-many.svg} :: One-to-many
+The number of servers that must agree in a 5-node cluster to form a majority. :: 3
+The open-source framework that implemented MapReduce, named after a toy elephant. :: Hadoop
+The procedural language of Oracle databases. :: PL/SQL
+The procedural language of Microsoft SQL Server. :: T-SQL
+The company that acquired Sun, and with it MySQL, in 2010. :: Oracle
+The author after whom Apache Kafka is named. :: Franz Kafka
+The EU regulation of 2018 that gave people the right to have their data erased. :: GDPR
+The record of who changed what and when in a database. :: Audit trail
+The number of rows an INNER JOIN returns when 3-row and 5-row tables have no matching values. :: 0
+The number of bytes used by a 64-bit integer column. :: 8
 
 ## 300
 The relational algebra operation that picks rows, written with the Greek letter sigma. :: Selection
@@ -227,7 +230,6 @@ The normal form that deals with multivalued dependencies. :: Fourth normal form 
 The normal form that deals with join dependencies. :: Fifth normal form (5NF)
 The number of rules in Codd's famous list for relational databases, counting rule zero. :: 13
 The name of Codd's list of rules. :: Codd's twelve rules
-The year Edgar Codd received the Turing Award. :: 1981
 The scientist who introduced the entity–relationship model in 1976. :: Peter Chen
 The textbook authors of "Fundamentals of Database Systems": Elmasri and this man. :: Shamkant Navathe
 The concurrency method that keeps old versions of rows so readers never block writers. :: MVCC (multiversion concurrency control)
@@ -243,8 +245,6 @@ The saved point from which crash recovery begins reading the log. :: Checkpoint
 The rule that a log record must reach disk before the data page it describes. :: Write-ahead logging
 The number that identifies each record in the transaction log. :: LSN (log sequence number)
 The area of memory where a DBMS caches disk pages. :: Buffer pool
-The usual size of a database page in PostgreSQL, in kilobytes. :: 8
-The default page size of InnoDB, in kilobytes. :: 16
 The storage structure in which a table's rows are kept in no particular order. :: Heap file
 The index that contains all the columns a query needs, so the table is never read. :: Covering index
 An index on only the rows that meet a condition. :: Partial index
@@ -255,7 +255,6 @@ The simplest join algorithm, with one loop inside another. :: Nested loop join
 The summary of a column's value distribution that the optimiser keeps. :: Histogram
 The PostgreSQL command that collects statistics for the optimiser. :: ANALYZE
 The PostgreSQL process that removes dead row versions. :: VACUUM
-The famous query optimiser design from System R, published in 1979 by this researcher. :: Patricia Selinger
 The storage structure used by Cassandra and RocksDB that turns random writes into sequential ones. :: LSM tree (log-structured merge tree)
 The in-memory part of an LSM tree. :: Memtable
 The sorted files on disk in an LSM tree. :: SSTables
@@ -264,10 +263,8 @@ The probabilistic structure LSM stores use to skip files that cannot contain a k
 The Google paper of 2006 that described a wide-column store. :: Bigtable
 The Amazon paper of 2007 that described a highly available key–value store. :: Dynamo
 The Google database that offers global transactions using atomic clocks. :: Spanner
-The clock API in Spanner that exposes time uncertainty. :: TrueTime
 The consensus algorithm by Leslie Lamport used in many distributed databases. :: Paxos
 The consensus algorithm designed in 2014 to be easier to understand than Paxos. :: Raft
-The number of servers that must agree in a 5-node cluster to form a majority. :: 3
 The situation in which two parts of a cluster each believe they are the leader. :: Split brain
 The technique that spreads keys around a ring so adding a node moves few keys. :: Consistent hashing
 The setting in Cassandra-style stores written as R + W > N guarantees this. :: Strong consistency (quorum overlap)
@@ -281,7 +278,6 @@ The delay before a replica shows a change made on the leader. :: Replication lag
 The storage layout that keeps each column together, used for analytics. :: Columnar storage
 The open columnar file format widely used with Hadoop and Spark. :: Parquet
 The Google programming model of 2004 for processing huge data sets with two functions. :: MapReduce
-The open-source framework that implemented MapReduce, named after a toy elephant. :: Hadoop
 The Hadoop component that stores files across many machines. :: HDFS
 The fast in-memory data processing engine that largely replaced MapReduce. :: Apache Spark
 The distributed log system from LinkedIn used for streaming data. :: Apache Kafka
@@ -294,8 +290,6 @@ The benchmark family used to compare database performance, such as TPC-C. :: TPC
 The SQL isolation level implemented in many systems by giving each transaction a consistent picture of the data. :: Snapshot isolation
 The anomaly that snapshot isolation still allows, in which two transactions each break a rule the other checks. :: Write skew
 The SQL standard is published by ISO and this American body. :: ANSI
-The year the first SQL standard was published by ANSI. :: 1986
-The SQL standard version that added recursive queries and triggers. :: SQL:1999
 The SQL keyword pair that starts a recursive query. :: WITH RECURSIVE
 The SQL keyword that splits rows into groups for a window function. :: PARTITION BY
 The window function that leaves gaps in ranking after ties. :: RANK
@@ -303,12 +297,17 @@ The window function that leaves no gaps in ranking after ties. :: DENSE_RANK
 The window function that reads a value from the previous row. :: LAG
 The logic with three values that NULL brings to SQL: true, false and this. :: Unknown
 The result of comparing NULL = NULL in SQL. :: Unknown (NULL)
-The procedural language of Oracle databases. :: PL/SQL
-The procedural language of Microsoft SQL Server. :: T-SQL
-The database first released in 1979 as Oracle Version 2 by a company then called this. :: Relational Software, Inc.
 The university where the Ingres and Postgres projects began. :: University of California, Berkeley
 The computer scientist who led Ingres and Postgres and won the 2014 Turing Award. :: Michael Stonebraker
-The creator of MySQL, who later forked it as MariaDB. :: Michael "Monty" Widenius
+The scientist at IBM who proposed the relational model in 1970. :: Edgar F. Codd
+The cloud database service from Amazon, shortened to three letters. :: RDS
+The result of the SQL expression 5 + NULL. :: NULL
+The number of rows a LEFT JOIN returns when the left table has 4 rows and none match. :: 4
+The number of rows from joining two tables on a column where the left has the value 7 twice and the right has it three times. :: 6
+The closure of {A} given A → B and B → C. :: {A, B, C}
+The number of phases in the ARIES recovery algorithm. :: 3
+The quorum condition, with N replicas, that ensures a read sees the latest write. :: R + W > N
+The encoding that stores a repeated value once with a count. :: Run-length encoding
 
 ## 400
 Codd's 1970 paper: "A Relational Model of Data for Large Shared ___". :: Data Banks
@@ -325,10 +324,8 @@ The year PostgreSQL took its current name, adding SQL support. :: 1996
 The year MySQL was first released. :: 1995
 The daughter after whom MySQL is named. :: My
 The company that bought MySQL AB in 2008. :: Sun Microsystems
-The company that acquired Sun, and with it MySQL, in 2010. :: Oracle
 The creator of SQLite. :: D. Richard Hipp
 The year SQLite was first released. :: 2000
-The maker of the guided-missile destroyer software for which SQLite was first designed. :: General Dynamics
 The licence status of SQLite's source code. :: Public domain
 The scientist who won the 1998 Turing Award for transaction processing and coined much of its theory. :: Jim Gray
 Jim Gray's 1981 paper: "The Transaction Concept: Virtues and ___". :: Limitations
@@ -339,7 +336,6 @@ The year the ARIES paper was published. :: 1992
 The 1995 paper "A Critique of ANSI SQL Isolation Levels" defined this isolation level. :: Snapshot isolation
 The two MIT researchers who formally proved the CAP theorem in 2002: Seth Gilbert and this woman. :: Nancy Lynch
 The 1985 result that consensus is impossible in an asynchronous system with one faulty process, known by three initials. :: FLP
-The three authors of the FLP result: Fischer, Lynch and this man. :: Michael Paterson
 The Greek island whose fictional parliament Lamport used to explain Paxos. :: Paxos
 The title of Lamport's paper introducing Paxos. :: The Part-Time Parliament
 The two authors of the Raft paper: Diego Ongaro and this man. :: John Ousterhout
@@ -357,7 +353,6 @@ The two Google engineers who wrote the MapReduce paper: Jeffrey Dean and this ma
 The university lab where Apache Spark began. :: AMPLab (UC Berkeley)
 The creator of Apache Spark. :: Matei Zaharia
 The core data abstraction of early Spark, shortened to three letters. :: RDD
-The author after whom Apache Kafka is named. :: Franz Kafka
 The Amazon cloud data warehouse launched in 2012. :: Redshift
 The Google serverless data warehouse based on the Dremel paper. :: BigQuery
 The embedded analytical database often called "SQLite for analytics". :: DuckDB
@@ -384,7 +379,6 @@ The structure in InnoDB where old row versions are kept for MVCC. :: Undo log
 The InnoDB structure that protects against half-written pages. :: Doublewrite buffer
 The type of index InnoDB always builds on the primary key. :: Clustered index
 The MySQL storage engine that was the default before InnoDB. :: MyISAM
-The MySQL version that made InnoDB the default engine. :: 5.5
 The Oracle feature that lets a query see data as it was at an earlier time. :: Flashback query
 The Oracle clustering technology that lets several servers share one database. :: Real Application Clusters (RAC)
 The pseudo-table in Oracle with exactly one row. :: DUAL
@@ -395,11 +389,9 @@ The curve that maps two dimensions to one while keeping nearby points close, use
 The hashing method that estimates similarity between sets, used to find near-duplicate records. :: MinHash
 The privacy model that requires each record to be indistinguishable from at least k − 1 others. :: k-anonymity
 The privacy technique that adds calibrated noise to query answers. :: Differential privacy
-The EU regulation of 2018 that gave people the right to have their data erased. :: GDPR
 The Saudi authority that oversees the Personal Data Protection Law. :: SDAIA
 The security feature that encrypts database files at rest without changing applications, shortened to three letters. :: TDE
 The technique of replacing sensitive values with realistic fake ones for testing. :: Data masking
-The record of who changed what and when in a database. :: Audit trail
 The recovery measure that states the maximum acceptable amount of lost data. :: RPO (recovery point objective)
 The recovery measure that states the maximum acceptable downtime. :: RTO (recovery time objective)
 The backup type that copies only what changed since the last full backup. :: Differential backup
@@ -411,6 +403,18 @@ The technique of capturing row changes from the log and streaming them elsewhere
 The pattern for long transactions across services that uses compensating actions. :: Saga
 The anti-pattern in which code runs one query for a list and then one more for each item. :: N+1 query problem
 The design in which each attribute is a row of entity, attribute and value. :: EAV (entity–attribute–value)
+The default isolation level of PostgreSQL. :: Read committed
+The default isolation level of MySQL's InnoDB engine. :: Repeatable read
+The query language used by the Neo4j graph database. :: Cypher
+The research database project at IBM in the 1970s that first implemented SQL. :: System R
+The two IBM researchers who created SQL: Donald Chamberlin and this man. :: Raymond Boyce
+The usual size of a database page in PostgreSQL, in kilobytes. :: 8
+The default page size of InnoDB, in kilobytes. :: 16
+The famous query optimiser design from System R, published in 1979 by this researcher. :: Patricia Selinger
+The clock API in Spanner that exposes time uncertainty. :: TrueTime
+The year the first SQL standard was published by ANSI. :: 1986
+The SQL standard version that added recursive queries and triggers. :: SQL:1999
+The creator of MySQL, who later forked it as MariaDB. :: Michael "Monty" Widenius
 
 ## 500
 The number of rows returned by SELECT COUNT(*) on an empty table. :: 1
@@ -419,18 +423,13 @@ The value of COUNT(x) when x is NULL in all 5 rows of a table. :: 0
 The result of the SQL expression NULL OR TRUE. :: TRUE
 The result of the SQL expression NULL AND FALSE. :: FALSE
 The result of the SQL expression NULL AND TRUE. :: Unknown (NULL)
-The result of the SQL expression 5 + NULL. :: NULL
 The result of WHERE x NOT IN (1, NULL) when x is 2: the row is this. :: Excluded (not returned)
-The number of rows a LEFT JOIN returns when the left table has 4 rows and none match. :: 4
-The number of rows an INNER JOIN returns when 3-row and 5-row tables have no matching values. :: 0
-The number of rows from joining two tables on a column where the left has the value 7 twice and the right has it three times. :: 6
 The number of possible join orders for 4 tables, counting only left-deep trees. :: 24
 The number of superkeys of a relation with 3 attributes whose only candidate key is one attribute. :: 4
 The number of candidate keys of R(A, B) when A → B and B → A. :: 2
 The highest normal form of R(A, B, C) with key A and dependencies A → B and B → C. :: Second normal form
 The highest normal form guaranteed for any relation with only two attributes. :: BCNF
 The normal form that a decomposition can always reach while keeping both lossless join and all dependencies. :: Third normal form
-The closure of {A} given A → B and B → C. :: {A, B, C}
 The number of functional dependencies in the minimal cover of A → BC, B → C, A → B. :: 2
 The logical order in which SQL processes clauses puts this clause first. :: FROM
 The SQL clause logically processed after GROUP BY and before SELECT. :: HAVING
@@ -441,7 +440,6 @@ The minimum number of keys in a non-root node of a B-tree of minimum degree 3. :
 The maximum number of keys in a node of a B-tree of minimum degree 3. :: 5
 The height of a B+ tree with fan-out 100 needed to index one million rows, counting levels. :: 3
 The number of disk reads to find a record through a 3-level B+ tree whose root is cached, plus one for the row. :: 3
-The number of phases in the ARIES recovery algorithm. :: 3
 The ARIES table that lists pages changed in memory but not yet written. :: Dirty page table
 The log records ARIES writes during undo so that undo is never repeated. :: Compensation log records (CLRs)
 The buffer policy that allows writing uncommitted pages to disk before commit. :: Steal
@@ -462,7 +460,6 @@ The weakness of two-phase commit when the coordinator fails after participants v
 The protocol that adds a pre-commit phase to reduce blocking. :: Three-phase commit
 The minimum number of nodes needed to tolerate 2 crash failures with majority quorums. :: 5
 The minimum number of nodes needed to tolerate 1 Byzantine failure. :: 4
-The quorum condition, with N replicas, that ensures a read sees the latest write. :: R + W > N
 With N = 3 and W = 2, the smallest R that guarantees reading the latest write. :: 2
 The two things a system trades off when there is no partition, the "ELC" in PACELC. :: Latency and consistency
 The consistency model in which every read sees the most recent completed write, in real-time order. :: Linearizability
@@ -486,7 +483,6 @@ The default port of Oracle's listener. :: 1521
 The maximum size of a single BSON document in MongoDB, in megabytes. :: 16
 The number of bytes in a MongoDB ObjectId. :: 12
 The number of bits in a standard UUID. :: 128
-The number of bytes used by a 64-bit integer column. :: 8
 The largest value of a signed 32-bit integer, the limit that famous ID columns have overflowed. :: 2,147,483,647
 The year in which 32-bit Unix timestamps overflow. :: 2038
 The SQL standard name of the 2011 feature for tables that keep history by time period. :: Temporal tables
@@ -505,7 +501,6 @@ The class of join queries that Yannakakis's algorithm evaluates in linear time. 
 The technique that estimates the number of distinct values using the position of the first 1 bit in hashes. :: Flajolet–Martin (HyperLogLog)
 The standard error of HyperLogLog with m registers is about 1.04 divided by this. :: √m
 The storage layout proposed in 2001 that groups each attribute within a page for cache performance. :: PAX
-The encoding that stores a repeated value once with a count. :: Run-length encoding
 The encoding that replaces column values with small integer codes from a lookup table. :: Dictionary encoding
 The small per-block summaries of minimum and maximum values that let scans skip blocks. :: Zone maps
 The memory-optimised index from Microsoft's Hekaton that is latch-free. :: Bw-tree
@@ -513,3 +508,8 @@ The adaptive radix tree index was introduced in 2013 by researchers in this Germ
 The research database from TU Munich that pioneered compiling queries to machine code. :: HyPer
 The model of query compilation that Thomas Neumann introduced in 2011, in which operators push rows upward. :: Data-centric (produce/consume) model
 The index learned from data distribution, proposed by Kraska and others in 2018. :: Learned index
+The year Edgar Codd received the Turing Award. :: 1981
+The database first released in 1979 as Oracle Version 2 by a company then called this. :: Relational Software, Inc.
+The maker of the guided-missile destroyer software for which SQLite was first designed. :: General Dynamics
+The three authors of the FLP result: Fischer, Lynch and this man. :: Michael Paterson
+The MySQL version that made InnoDB the default engine. :: 5.5

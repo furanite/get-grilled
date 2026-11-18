@@ -64,7 +64,6 @@ A person who buys shares to hold for many years. :: Long-term investor
 A person who buys and sells shares within the same day. :: Day trader
 Money lent to a government by buying its bonds. :: Government bond
 US government bonds are often called these. :: Treasuries
-UK government bonds are often called these. :: Gilts
 A bond issued by a company. :: Corporate bond
 The interest rate a bond pays each year on its face value. :: Coupon rate
 When interest rates rise, existing bond prices usually do this. :: Fall
@@ -97,7 +96,6 @@ An ordinary person investing their own money. :: Retail investor
 A company that keeps investors' securities safe. :: Custodian
 The ringing of this marks the start and end of trading on the NYSE. :: The bell (opening and closing bell)
 The famous investor who wrote "The Intelligent Investor". :: Benjamin Graham
-The investor who ran the Magellan Fund and wrote "One Up on Wall Street". :: Peter Lynch
 The founder of Vanguard who started the first index fund for ordinary investors. :: John Bogle (Jack Bogle)
 Money invested in the hope of a quick profit with high risk. :: Speculation
 A fund that uses many strategies, including short selling, for wealthy investors. :: Hedge fund
@@ -105,6 +103,8 @@ Saudi Arabia's largest listed company. :: Saudi Aramco
 Profit from selling an investment for more than you paid. :: Capital gain
 Loss from selling an investment for less than you paid. :: Capital loss
 The amount you earn from an investment as a share of what you put in. :: Return on investment (ROI)
+A share bought at 40 and sold at 50 gives this percentage capital gain. :: 25%
+A bond with a 1,000 face value and a 6% coupon pays this much interest a year. :: 60
 
 ## 200
 The model that says a share's expected return depends on its beta. :: CAPM
@@ -201,12 +201,24 @@ The time when a market moves from trading to settlement: in the US, trades now s
 Saudi Exchange trades settle this many days after the trade. :: Two (T+2)
 The Saudi Exchange's trading hours on a normal day end at this time. :: 3:00 pm (Sunday to Thursday)
 The days the Saudi Exchange trades. :: Sunday to Thursday
-The broad index of Saudi companies with an MSCI partnership, made of 30 big shares. :: MSCI Tadawul 30 (MT30)
 The return of a fund after all costs compared with its benchmark. :: Excess return (active return)
 The standard deviation of a fund's return minus its benchmark's return. :: Tracking error
-A share bought at 40 and sold at 50 gives this percentage capital gain. :: 25%
-A bond with a 1,000 face value and a 6% coupon pays this much interest a year. :: 60
 The rule that a fund must not put more than a set share of its money in one company. :: Concentration (diversification) limit
+UK government bonds are often called these. :: Gilts
+Fama's three forms of market efficiency: weak, semi-strong and this. :: Strong
+The 2021 frenzy where retail investors pushed up this video game retailer's shares. :: GameStop
+The oil benchmark from the North Sea. :: Brent
+The US oil benchmark. :: WTI (West Texas Intermediate)
+The 1973 event when Arab oil producers cut supplies and prices jumped. :: The oil embargo (oil crisis)
+The maximum number of bitcoins that will ever exist. :: 21 million
+The pseudonymous creator of Bitcoin. :: Satoshi Nakamoto
+Buffett's annual message to Berkshire shareholders is published in this. :: The shareholder letter (annual letter)
+The 1994 bond market sell-off was triggered by surprise rate rises from this central bank. :: Federal Reserve
+Rules that pause trading after big falls. :: Circuit breakers
+The Saudi Exchange's daily price limit for most shares. :: 10% up or down
+The Dutch 1630s bubble in flower bulbs. :: Tulip mania
+The scientist who lost money in the South Sea Bubble and said he could not calculate "the madness of people". :: Isaac Newton
+The Amsterdam exchange founded in 1602 is often called the world's first this. :: Stock exchange
 
 ## 300
 The 1952 journal paper by Markowitz was titled this. :: Portfolio Selection
@@ -222,7 +234,6 @@ Alpha divided by tracking error. :: Information ratio
 The biggest drop from a peak to a trough in a fund's value. :: Maximum drawdown
 The loss level that won't be exceeded with a given confidence over a period. :: Value at Risk (VaR)
 The average loss beyond the VaR level. :: Expected shortfall (CVaR)
-Fama's three forms of market efficiency: weak, semi-strong and this. :: Strong
 The form of efficiency that says past prices can't predict future prices. :: Weak form
 The form that says all public information is in prices. :: Semi-strong form
 The form that says even private information is in prices. :: Strong form
@@ -236,10 +247,8 @@ The 1985 paper by De Bondt and Thaler found that past losers later do this. :: O
 The drift in prices after earnings surprises. :: Post-earnings-announcement drift
 The 1987 crash day when the Dow fell 22.6%. :: Black Monday (19 October 1987)
 The 2010 event when the Dow fell about 1,000 points in minutes. :: Flash Crash
-The 2021 frenzy where retail investors pushed up this video game retailer's shares. :: GameStop
 The online forum linked to the GameStop frenzy. :: WallStreetBets (Reddit)
 The 2006 Saudi stock market crash saw TASI fall by about this much in the year. :: More than half (about 53%)
-TASI peaked in February 2006 at about this level. :: 20,600
 The 1982 crash of an unofficial Kuwaiti stock market. :: Souk Al-Manakh crash
 Bond price = sum of coupons and face value discounted at this. :: Yield to maturity
 A 5% coupon bond with a 5% yield trades at this price. :: Par (face value)
@@ -272,10 +281,7 @@ A futures price below the spot price. :: Backwardation
 Hedging with futures where the asset differs from the one hedged leaves this risk. :: Basis risk
 The ratio of futures contracts that minimises variance. :: Minimum variance hedge ratio
 The US exchange where most futures on grains and indexes trade. :: CME (Chicago Mercantile Exchange)
-The oil benchmark from the North Sea. :: Brent
-The US oil benchmark. :: WTI (West Texas Intermediate)
 The oil benchmark for Middle East crude sold to Asia. :: Dubai/Oman
-The 1973 event when Arab oil producers cut supplies and prices jumped. :: The oil embargo (oil crisis)
 On 20 April 2020, this US oil benchmark futures price went below zero. :: WTI
 The gold price rose above this many dollars an ounce for the first time in 2025. :: 3,000 (and later 4,000)
 The fund manager whose Quantum Fund 'broke the Bank of England' in 1992. :: George Soros
@@ -292,23 +298,25 @@ A trading venue where orders are hidden until executed. :: Dark pool
 Paying brokers for sending them customer orders. :: Payment for order flow
 An index provider that classifies markets as developed, emerging or frontier. :: MSCI (also FTSE Russell)
 Saudi Arabia joined MSCI's Emerging Markets index in this year. :: 2019
-Saudi Arabia's weight in the MSCI Emerging Markets index has been around this level. :: About 4%
 The Saudi CMA allowed foreign investors directly into Tadawul as QFIs from June of this year. :: 2015
 The 2017 Saudi Exchange market for smaller companies. :: Nomu (Parallel Market)
 The share of profits that must be paid out annually by Saudi REITs. :: At least 90%
 A Shariah screening rule usually limits interest-bearing debt to this share of market value. :: 33% (one third)
 The AAOIFI rule usually limits non-permissible income in Sharia-compliant shares to this share of revenue. :: 5%
 "Purification" in Islamic investing means giving this to charity. :: The share of income from impermissible sources
-The Saudi Exchange started trading single-stock options in this year. :: 2023
-The Saudi Exchange's first ETF, launched in 2010, tracked this. :: Falcom 30 (the 30 largest Saudi companies)
 Ethereum moved from proof of work to proof of stake in this 2022 event. :: The Merge
-The maximum number of bitcoins that will ever exist. :: 21 million
-The pseudonymous creator of Bitcoin. :: Satoshi Nakamoto
 The cryptocurrency exchange that collapsed in November 2022. :: FTX
 A cryptocurrency designed to keep a steady value, often tied to the US dollar. :: Stablecoin
 The US agency that approved spot bitcoin ETFs in January 2024. :: SEC
 A share with beta 0.8 when the risk-free rate is 3% and the market return is 8% has a CAPM expected return of this. :: 7%
 A fund returned 12% with 15% volatility when the risk-free rate was 3%. Its Sharpe ratio. :: 0.6
+The investor who ran the Magellan Fund and wrote "One Up on Wall Street". :: Peter Lynch
+Buffett's long-time partner who died in 2023. :: Charlie Munger
+Credit Suisse was taken over in 2023 by this bank. :: UBS
+The US bank whose March 2023 collapse was then the second-largest bank failure in US history. :: Silicon Valley Bank
+The Bitcoin network's first block is called this. :: Genesis block
+The modern VIX uses options on this index. :: S&P 500
+The UK prime minister whose 2022 mini-budget triggered the gilt crisis. :: Liz Truss
 
 ## 400
 The two-asset efficient frontier becomes a straight line when correlation is this. :: +1 or -1 (at -1 risk can reach zero)
@@ -335,8 +343,6 @@ Graham's name for shares priced below current assets minus all liabilities. :: N
 Graham's 'Mr Market' metaphor appears in this book. :: The Intelligent Investor
 Buffett's 1984 talk defending value investing was titled this. :: The Superinvestors of Graham-and-Doddsville
 Buffett's mentor at Columbia Business School. :: Benjamin Graham
-Buffett's long-time partner who died in 2023. :: Charlie Munger
-Buffett's annual message to Berkshire shareholders is published in this. :: The shareholder letter (annual letter)
 The 'Fed model' compares the stock earnings yield with this. :: The 10-year Treasury yield
 The 'Buffett indicator' compares total market value with this. :: GDP
 The 'bond equivalent yield' doubles this. :: Semi-annual yield
@@ -348,7 +354,6 @@ The risk that homeowners repay mortgages early when rates fall. :: Prepayment ri
 A CMO splits mortgage cash flows into these. :: Tranches
 The senior-most tranche of a CDO was usually rated this. :: AAA
 The 2008 crisis term for bundles of mortgage-backed securities repackaged again. :: CDO (collateralised debt obligation)
-The 1994 bond market sell-off was triggered by surprise rate rises from this central bank. :: Federal Reserve
 The 1998 crisis in which this country defaulted on its debt. :: Russia
 Orange County in California went bankrupt in 1994 after bets on this. :: Interest rates (leveraged bond bets)
 The Nelson-Siegel model is used to fit this. :: The yield curve
@@ -367,8 +372,6 @@ An American call on a share that pays no dividends is never exercised early, so 
 Delta hedging an option position requires doing this often. :: Rebalancing
 Gamma is highest for options that are near this. :: At the money near expiry
 The 1987 crash was partly blamed on this hedging strategy. :: Portfolio insurance
-Rules that pause trading after big falls. :: Circuit breakers
-The Saudi Exchange's daily price limit for most shares. :: 10% up or down
 The ratio of a share's daily turnover to its free float. :: Turnover ratio
 The Basel rules for banks' market risk replaced VaR with expected shortfall in this framework. :: FRTB (Fundamental Review of the Trading Book)
 VaR is not a coherent risk measure because it can break this property. :: Subadditivity
@@ -389,12 +392,9 @@ In most SPIVA reports, most active US large-cap funds trail the S&P 500 over thi
 The bet between Warren Buffett and Protégé Partners pitted an S&P 500 fund against these. :: Hedge funds (funds of hedge funds)
 The 1980s Japanese bubble peaked when the Nikkei hit about this level in December 1989. :: 38,900
 The Nikkei only passed its 1989 high in this year. :: 2024
-The Dutch 1630s bubble in flower bulbs. :: Tulip mania
 The 1720 British bubble in shares of this company. :: South Sea Company
 The 1720 French bubble linked to John Law. :: Mississippi Bubble
-The scientist who lost money in the South Sea Bubble and said he could not calculate "the madness of people". :: Isaac Newton
 The first company to issue shares traded on an exchange, in 1602. :: Dutch East India Company (VOC)
-The Amsterdam exchange founded in 1602 is often called the world's first this. :: Stock exchange
 The world's oldest still-used stock index started in 1884 by Charles Dow. :: Dow Jones Transportation Average
 The 'Dow theory' says a trend is confirmed when the Industrials and this index agree. :: Transportation Average
 The Japanese candlestick pattern where open and close are almost equal. :: Doji
@@ -411,6 +411,8 @@ The Black-Litterman model blends market equilibrium returns with this. :: Invest
 The Black-Litterman model was developed at this investment bank. :: Goldman Sachs
 'Risk parity' portfolios weight assets so each contributes equally to this. :: Portfolio risk
 The famous 'All Weather' risk parity fund was launched by this firm. :: Bridgewater Associates
+The broad index of Saudi companies with an MSCI partnership, made of 30 big shares. :: MSCI Tadawul 30 (MT30)
+Saudi Arabia's weight in the MSCI Emerging Markets index has been around this level. :: About 4%
 
 ## 500
 The two-fund separation theorem is linked to this economist's 1958 paper on liquidity preference. :: James Tobin
@@ -456,8 +458,6 @@ Leeson's losses came largely from bets on this index. :: Nikkei 225
 The 2008 Société Générale loss of about 4.9 billion euros was linked to this trader. :: Jérôme Kerviel
 The 2021 collapse of this family office caused big losses at Credit Suisse and Nomura. :: Archegos Capital
 Archegos used these derivatives to hide its huge positions. :: Total return swaps
-Credit Suisse was taken over in 2023 by this bank. :: UBS
-The US bank whose March 2023 collapse was then the second-largest bank failure in US history. :: Silicon Valley Bank
 The Saudi National Bank was then the largest shareholder of this bank when it collapsed. :: Credit Suisse
 The 1907 US banking panic was stopped largely by this banker. :: J. P. Morgan
 The US central bank was created in 1913 by this law. :: Federal Reserve Act
@@ -482,7 +482,6 @@ The year Saudi Aramco's market value first passed 2 trillion dollars on its seco
 The record crypto loss of 2022 when this stablecoin lost its dollar peg. :: TerraUSD (UST)
 The 2014 collapse of this Tokyo bitcoin exchange. :: Mt. Gox
 Bitcoin's 'halving' cuts the block reward roughly every this many blocks. :: 210,000
-The Bitcoin network's first block is called this. :: Genesis block
 The 2008 paper that introduced Bitcoin was titled this. :: Bitcoin: A Peer-to-Peer Electronic Cash System
 The 1973 Treynor-Black model sizes each active position by its alpha divided by this. :: Residual (unsystematic) variance
 Treynor and Mazuy (1966) and Henriksson and Merton (1981) tested funds for this skill. :: Market timing
@@ -496,12 +495,10 @@ The Lucas 1978 'tree' model is a model of this. :: Asset prices in an exchange e
 Breeden's 1979 consumption-based model is abbreviated this. :: CCAPM
 The 'variance risk premium' is the difference between implied variance and this. :: Realised variance
 The CBOE launched the VIX index in this year. :: 1993
-The modern VIX uses options on this index. :: S&P 500
 The 2018 event when short-volatility products collapsed was nicknamed this. :: Volmageddon
 The Swiss National Bank shocked markets by dropping the franc's cap against the euro in this year. :: 2015
 The 2019 repo market spike in the US pushed overnight rates to about this level. :: 10%
 The 2022 UK gilt crisis hurt pension funds using this strategy. :: Liability-driven investment (LDI)
-The UK prime minister whose 2022 mini-budget triggered the gilt crisis. :: Liz Truss
 The ratio of a market's total value to total company replacement cost. :: Tobin's q (for the market)
 The 'Siegel constant' says long-run real US equity returns have been about this much a year. :: 6.5% to 7%
 Jeremy Siegel's book on long-run returns is titled this. :: Stocks for the Long Run
@@ -513,3 +510,6 @@ Amihud's 2002 measure of illiquidity divides absolute return by this. :: Trading
 Pastor and Stambaugh's 2003 factor captures this risk. :: Liquidity risk
 Kyle's 1985 model describes how this kind of trader hides among noise traders. :: Informed (insider) trader
 Glosten and Milgrom's 1985 model explains the bid-ask spread through this. :: Adverse selection (informed traders)
+TASI peaked in February 2006 at about this level. :: 20,600
+The Saudi Exchange started trading single-stock options in this year. :: 2023
+The Saudi Exchange's first ETF, launched in 2010, tracked this. :: Falcom 30 (the 30 largest Saudi companies)

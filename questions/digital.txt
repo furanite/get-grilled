@@ -71,8 +71,6 @@ The circuit board that holds the CPU and memory. :: Motherboard
 The flat silicon disc on which many chips are made. :: Wafer
 The observation that transistor counts double about every two years. :: Moore's law
 The Intel co-founder who observed that transistor counts double about every two years. :: Gordon Moore
-The first commercial single-chip microprocessor, made by Intel in 1971. :: Intel 4004
-The number of bits the Intel 4004 processed at a time. :: 4
 A circuit whose output depends only on its current inputs. :: Combinational circuit
 A circuit whose output also depends on past inputs, because it has memory. :: Sequential circuit
 The basic one-bit memory circuit that flips between two states. :: Flip-flop
@@ -92,7 +90,6 @@ Shifting a binary number one place left does this to its value. :: Doubles it
 The number display with seven bars, used in calculators. :: Seven-segment display
 The light that shows the state of a digital output, shortened to three letters. :: LED
 The code that gives each letter a number, such as 65 for "A". :: ASCII
-The number of bits in standard ASCII. :: 7
 The international character code that includes Arabic letters. :: Unicode
 The way computers store negative integers by flipping bits and adding one. :: Two's complement
 The leftmost bit of a signed number, which shows if it is negative. :: Sign bit
@@ -107,6 +104,7 @@ The binary form of the hexadecimal digit F. :: 1111
 Name the logic gate drawn here. {img:gate-and.svg} :: AND gate
 Name the logic gate drawn here. {img:gate-or.svg} :: OR gate
 Name the logic gate drawn here. {img:gate-not.svg} :: NOT gate (inverter)
+This circuit adds two bits A and B, giving a sum S and a carry C. What is it called? {img:half-adder.svg} :: A half adder
 
 ## 200
 The hexadecimal form of decimal 255. :: FF
@@ -159,7 +157,6 @@ A counter whose flip-flops are all driven by the same clock. :: Synchronous coun
 A counter in which each flip-flop is clocked by the one before it. :: Ripple (asynchronous) counter
 A counter that counts 0 to 9 and repeats. :: Decade (mod-10) counter
 A ring counter with 4 flip-flops has this many states. :: 4
-A Johnson counter with 4 flip-flops has this many states. :: 8
 The type of state machine whose outputs depend only on the current state. :: Moore machine
 The type of state machine whose outputs depend on state and inputs. :: Mealy machine
 The minimum number of flip-flops to store 6 states. :: 3
@@ -168,7 +165,6 @@ The output state of a tri-state buffer when disabled. :: High impedance (Z)
 The logic family that uses both n-type and p-type transistors. :: CMOS
 The older logic family made from bipolar transistors, shortened to three letters. :: TTL
 The common chip series number for TTL logic gates. :: 7400
-The 7400-series chip that holds six NOT gates. :: 7404
 The delay between an input change and the output change of a gate. :: Propagation delay
 A brief unwanted pulse on an output caused by different path delays. :: Glitch (hazard)
 The number of gate inputs that one output can drive. :: Fan-out
@@ -211,6 +207,14 @@ The number of stages in the classic MIPS pipeline. :: 5
 The flag set when an unsigned addition carries out of the top bit. :: Carry flag
 Name the logic gate drawn here. {img:gate-xor.svg} :: XOR (exclusive OR) gate
 Name the logic gate drawn here. {img:gate-nand.svg} :: NAND gate
+The first commercial single-chip microprocessor, made by Intel in 1971. :: Intel 4004
+The number of bits the Intel 4004 processed at a time. :: 4
+The number of bits in standard ASCII. :: 7
+The world's largest contract chipmaker, from Taiwan. :: TSMC
+Apple's first custom processor for Macs, released in 2020. :: M1
+A flip-flop made of two latches in series is called this. :: Master–slave flip-flop
+The 6-transistor memory cell is used in this memory type. :: SRAM
+The number of transistors in a CMOS inverter. :: 2
 
 ## 300
 The number of distinct Boolean functions of two variables. :: 16
@@ -313,7 +317,14 @@ The number of address bits needed for 64 KB of byte-addressable memory. :: 16
 The fast multiplier design that adds partial products with carry-save adders in a tree, named after its inventor. :: Wallace tree
 The cache replacement policy that evicts the block unused for the longest time, shortened to three letters. :: LRU
 The principle that data near recently used data is likely to be used soon. :: Spatial locality
-This circuit adds two bits A and B, giving a sum S and a carry C. What is it called? {img:half-adder.svg} :: A half adder
+A Johnson counter with 4 flip-flops has this many states. :: 8
+The 7400-series chip that holds six NOT gates. :: 7404
+The bottleneck between CPU and memory named after a famous design. :: Von Neumann bottleneck
+The time between a clock edge and a flip-flop output changing. :: Clock-to-Q delay
+The 1985 MIPS R2000 was the first commercial chip of this design approach from Stanford. :: RISC
+The voltage below which a transistor is said to be off. :: Threshold voltage
+The 1966 classification of computer architectures by single or multiple instruction and data streams. :: Flynn's taxonomy
+The number of transistors in the cross-coupled inverter pair of a 6T SRAM cell. :: 4
 
 ## 400
 The number of 2-input NOR gates needed to build an XNOR gate, at minimum. :: 4
@@ -364,7 +375,6 @@ The 3D transistor that replaced planar transistors at Intel's 22 nm node. :: Fin
 The next transistor design after FinFET, with the gate surrounding the channel on all sides, shortened. :: GAAFET (gate-all-around)
 The light used by the newest chipmaking machines, at 13.5 nm wavelength, shortened to three letters. :: EUV
 The Dutch company that is the only maker of EUV lithography machines. :: ASML
-The world's largest contract chipmaker, from Taiwan. :: TSMC
 The measure of chips that work on a wafer as a share of all chips made. :: Yield
 The MIPS instruction formats are R, I and this. :: J
 The number of general-purpose registers in MIPS32. :: 32
@@ -379,7 +389,6 @@ The RISC-V extension letter for integer multiply and divide. :: M
 The RISC-V extension letter for compressed 16-bit instructions. :: C
 The ARM instruction set of 16-bit instructions for smaller code. :: Thumb
 The 64-bit ARM architecture name. :: AArch64 (ARMv8-A)
-Apple's first custom processor for Macs, released in 2020. :: M1
 The 64-bit extension of x86 first designed by AMD, by its AMD name. :: AMD64 (x86-64)
 The 1978 Intel processor that began the x86 family. :: Intel 8086
 The CPI of a pipelined processor with no hazards, ideally. :: 1
@@ -413,7 +422,6 @@ The slowdown when threads in a warp take different branches. :: Branch divergenc
 The specialised units in NVIDIA GPUs since Volta for matrix multiply. :: Tensor cores
 The Google chip for neural networks built around a systolic array, shortened to three letters. :: TPU
 The 1978 array design by Kung and Leiserson in which data pulses through a grid of cells. :: Systolic array
-The bottleneck between CPU and memory named after a famous design. :: Von Neumann bottleneck
 The "memory wall" describes processor speed growing much faster than this. :: Memory speed (latency)
 The graph that plots performance against arithmetic intensity, with a sloped and a flat part. :: Roofline model
 
@@ -452,13 +460,10 @@ The decimal digits of precision of IEEE 754 double, roughly. :: 15 to 17
 The 8-bit floating-point formats used in AI training are called E4M3 and this. :: E5M2
 The number of bits in the exponent of IEEE 754 half precision. :: 5
 The 1996 failure caused by converting a 64-bit float to a 16-bit integer. :: Ariane 5 Flight 501
-The time between a clock edge and a flip-flop output changing. :: Clock-to-Q delay
 Synchroniser MTBF = e^(t/τ) ÷ (T0 × clock frequency × this). :: Data (input change) frequency
 The metastability time constant, written as this Greek letter. :: Tau (τ)
 The FIFO used to pass data between clock domains, using Gray-coded pointers. :: Asynchronous FIFO
 The flip-flop design that captures data on both clock edges. :: Double-edge-triggered flip-flop
-A flip-flop made of two latches in series is called this. :: Master–slave flip-flop
-The 6-transistor memory cell is used in this memory type. :: SRAM
 The number of transistors in a standard CMOS NAND2 gate. :: 4
 The CMOS gate is faster with NAND than NOR because these carriers have higher mobility. :: Electrons
 The ratio of electron to hole mobility in silicon, roughly. :: 2 to 3
@@ -469,7 +474,6 @@ The 1999 book on logical effort by Sutherland, Sproull and this author. :: David
 The logic style that precharges a node and then evaluates it. :: Dynamic (domino) logic
 The problem in dynamic logic when charge spreads to internal nodes. :: Charge sharing
 The CMOS failure in which a parasitic thyristor shorts power to ground. :: Latch-up
-The voltage below which a transistor is said to be off. :: Threshold voltage
 Operating transistors below threshold voltage for ultra-low power. :: Subthreshold (near-threshold) computing
 The Mead–Conway book of 1980 that started VLSI design courses. :: Introduction to VLSI Systems
 The scalable layout design rules of Mead and Conway, named after a Greek letter. :: Lambda rules
@@ -481,7 +485,6 @@ The architect of the IBM System/360 with Fred Brooks and Gerrit Blaauw. :: Gene 
 The 1964 Seymour Cray computer, often called the first supercomputer. :: CDC 6600
 The hardware technique of the CDC 6600 that tracked dependences for out-of-order issue. :: Scoreboarding
 The machine that first used Tomasulo's algorithm for floating-point. :: IBM System/360 Model 91
-The 1985 MIPS R2000 was the first commercial chip of this design approach from Stanford. :: RISC
 The 2017 Turing Award was given to Hennessy and Patterson for this. :: RISC architecture
 Hennessy and Patterson's 2018 Turing lecture: "A New Golden Age for ___". :: Computer Architecture
 The Intel processor of 2000 with a 20-stage pipeline. :: Pentium 4 (NetBurst)
@@ -507,7 +510,6 @@ The litmus test in which two threads each store then load the other's variable, 
 The scalable directory scheme that stores a bit for each processor per memory block. :: Full bit-vector directory
 The coherence approach for many cores using a linked list of sharers, from IEEE 1596. :: SCI (Scalable Coherent Interface)
 The interconnect topology in which each node links to neighbours in a grid with wrap-around. :: Torus
-The 1966 classification of computer architectures by single or multiple instruction and data streams. :: Flynn's taxonomy
 Gustafson's law answers Amdahl's law by assuming this grows with the number of processors. :: Problem size
 The 1988 law that says scaled speed-up is s + p × N. Its author. :: John Gustafson
 The term for memory chips stacked on a logic die with through-silicon vias, shortened to three letters. :: HBM
@@ -515,6 +517,4 @@ The computing approach that performs calculations inside memory arrays. :: Proce
 NVIDIA's name for each GPU processor block that runs warps, shortened to two letters. :: SM (streaming multiprocessor)
 The number of multiply-accumulate units in the first Google TPU's systolic array. :: 65,536
 The Cerebras chip notable for being a whole wafer. :: Wafer-Scale Engine
-The number of transistors in a CMOS inverter. :: 2
 The number of address lines on the Intel 8086, giving 1 MB of memory. :: 20
-The number of transistors in the cross-coupled inverter pair of a 6T SRAM cell. :: 4

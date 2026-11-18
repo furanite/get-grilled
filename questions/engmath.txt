@@ -37,7 +37,6 @@ The ratio of the opposite side to the adjacent side. :: Tangent
 The theorem a² + b² = c² for right triangles. :: Pythagorean theorem
 The value of sin²x + cos²x. :: 1
 The number of radians in a full circle. :: 2π
-The number of degrees in one radian, roughly. :: About 57.3°
 180 degrees equals this many radians. :: π
 The area of a circle of radius r. :: πr²
 The circumference of a circle of radius r. :: 2πr
@@ -106,6 +105,8 @@ The value of 3! (three factorial). :: 6
 The value of 2⁵. :: 32
 Which function is graphed here? {img:graph-sine.svg} :: y = sin x
 Which function is graphed here? {img:graph-parabola.svg} :: y = x²
+This bell-shaped curve shows which probability distribution? {img:graph-normal.svg} :: The normal (Gaussian) distribution
+What is the derivative of the function graphed here? {img:graph-sine.svg} :: cos x
 
 ## 200
 The rule for differentiating a product uv. :: Product rule (u′v + uv′)
@@ -211,6 +212,21 @@ The error from storing numbers with limited digits. :: Round-off error
 Which function is graphed here? {img:graph-exponential.svg} :: y = eˣ (exponential)
 Which function is graphed here? {img:graph-log.svg} :: y = ln x (natural logarithm)
 Which function is graphed here? {img:graph-abs.svg} :: y = |x| (absolute value)
+The number of degrees in one radian, roughly. :: About 57.3°
+The expected value of a fair six-sided die roll. :: 3.5
+What is the derivative of the function graphed here? {img:graph-exponential.svg} :: eˣ (it is its own derivative)
+The two mathematicians who independently invented calculus. :: Newton and Leibniz
+The word 'algorithm' comes from this person's name. :: Al-Khwarizmi
+Gauss is said to have added the numbers 1 to 100 quickly as a schoolboy. The sum is this. :: 5,050
+The French mathematician whose work on probability and the transform bears his name. :: Pierre-Simon Laplace
+The physicist who introduced the delta function in quantum mechanics. :: Paul Dirac
+The Monte Carlo method was named after a casino in this country. :: Monaco
+The software company that makes MATLAB. :: MathWorks
+The software that solves symbolic maths, made by Wolfram Research. :: Mathematica
+The open-source Python library for numerical arrays. :: NumPy
+The French philosopher whose 1637 work introduced coordinate geometry. :: René Descartes
+The English pioneer who designed the Difference Engine to print maths tables. :: Charles Babbage
+The writer of the first published computer program, to compute Bernoulli numbers. :: Ada Lovelace
 
 ## 300
 The integral of sec x dx. :: ln|sec x + tan x| + C
@@ -307,14 +323,27 @@ A result with p < 0.05 is often called this. :: Statistically significant
 A 95% confidence interval for a mean is roughly the mean plus or minus this many standard errors. :: 1.96 (about 2)
 The standard error of the mean equals σ divided by this. :: √n
 The distribution often used for failure times and wind speeds, with shape and scale parameters. :: Weibull distribution
-The expected value of a fair six-sided die roll. :: 3.5
 The variance of a fair coin flip scored 0 or 1. :: 0.25
 The ringing overshoot of a Fourier series near a jump. :: Gibbs phenomenon
 The theorem (cos θ + j sin θ)ⁿ = cos nθ + j sin nθ. :: De Moivre's theorem
 A continuous-time system with a pole at s = +2 is this. :: Unstable
 The point in the z-plane that matches s = 0. :: z = 1
-This bell-shaped curve shows which probability distribution? {img:graph-normal.svg} :: The normal (Gaussian) distribution
-What is the derivative of the function graphed here? {img:graph-sine.svg} :: cos x
+The French mathematician whose 1696 textbook spread L'Hôpital's rule, learned from Johann Bernoulli. :: Guillaume de l'Hôpital
+The Scottish mathematician after whom Maclaurin series are named. :: Colin Maclaurin
+The English mathematician who published his series in 1715. :: Brook Taylor
+The German mathematician called the 'Prince of Mathematicians'. :: Carl Friedrich Gauss
+The Russian mathematician who studied chains of random events from 1906. :: Andrey Markov
+The Guinness brewery employee who invented the t-test. :: William Sealy Gosset
+The German mathematician who, with Kutta, gave his name to a family of ODE methods. :: Carl Runge
+The German mathematician who in 1901 extended Runge's method to the classic fourth order. :: Martin Wilhelm Kutta
+The American engineer who founded information theory in 1948. :: Claude Shannon
+The Kalman filter helped navigate this 1960s programme to the Moon. :: Apollo
+The American engineer whose 1932 stability criterion uses encirclements. :: Harry Nyquist
+The 2016 film about Katherine Johnson and her colleagues. :: Hidden Figures
+MATLAB originally stood for this. :: Matrix Laboratory
+The 1957 programming language created at IBM for scientific computing. :: FORTRAN
+The Greek mathematician who used the method of exhaustion to find the area of a parabolic segment. :: Archimedes
+The Italian whose 1202 Liber Abaci brought Hindu–Arabic numerals to Europe. :: Fibonacci (Leonardo of Pisa)
 
 ## 400
 The improper integral from 0 to ∞ of sin x / x. :: π/2
@@ -417,21 +446,16 @@ The determinant of any 3×3 rotation matrix. :: 1
 The eigenvalues of a 2D rotation matrix by angle θ. :: e^(±jθ)
 The matrix norm equal to the largest singular value. :: Spectral (2-) norm
 The optimiser with momentum and adaptive step sizes, popular for training neural networks. :: Adam
-What is the derivative of the function graphed here? {img:graph-exponential.svg} :: eˣ (it is its own derivative)
+The two scientists who published the FFT algorithm in 1965. :: James Cooley and John Tukey
 
 ## 500
-The two mathematicians who independently invented calculus. :: Newton and Leibniz
 The notation dy/dx comes from this mathematician. :: Gottfried Wilhelm Leibniz
 The notation f′(x) was introduced by this mathematician. :: Joseph-Louis Lagrange
 Newton's name for derivatives. :: Fluxions
 The French mathematician whose 1821 Cours d'analyse put limits and continuity on a firm footing. :: Augustin-Louis Cauchy
 The German mathematician who made the ε–δ definition fully rigorous. :: Karl Weierstrass
-The French mathematician whose 1696 textbook spread L'Hôpital's rule, learned from Johann Bernoulli. :: Guillaume de l'Hôpital
-The Scottish mathematician after whom Maclaurin series are named. :: Colin Maclaurin
-The English mathematician who published his series in 1715. :: Brook Taylor
 The 9th-century Baghdad mathematician whose book gave algebra its name. :: Muhammad ibn Musa al-Khwarizmi
 The Arabic word in al-Khwarizmi's title that became 'algebra'. :: Al-jabr
-The word 'algorithm' comes from this person's name. :: Al-Khwarizmi
 The 11th-century Persian poet-mathematician who solved cubic equations geometrically. :: Omar Khayyam
 The 11th-century scholar who summed fourth powers to find the volume of a paraboloid. :: Ibn al-Haytham
 The 15th-century Persian astronomer who calculated π to 16 decimal places. :: Jamshid al-Kashi
@@ -449,16 +473,12 @@ The Irish mathematician who invented quaternions in 1843. :: William Rowan Hamil
 The Dublin bridge where Hamilton carved the quaternion formula. :: Broome Bridge
 The English mathematician who introduced the term 'matrix' in 1850. :: James Joseph Sylvester
 The English mathematician who developed matrix algebra in 1858. :: Arthur Cayley
-The German mathematician called the 'Prince of Mathematicians'. :: Carl Friedrich Gauss
-Gauss is said to have added the numbers 1 to 100 quickly as a schoolboy. The sum is this. :: 5,050
 Gauss used least squares in 1801 to find this dwarf planet. :: Ceres
 The French mathematician who first published least squares in 1805. :: Adrien-Marie Legendre
 The French mathematician whose 1822 book 'The Analytical Theory of Heat' introduced his series. :: Joseph Fourier
-The French mathematician whose work on probability and the transform bears his name. :: Pierre-Simon Laplace
 The English engineer who used operational calculus for telegraph equations, later justified by Laplace transforms. :: Oliver Heaviside
 Heaviside reportedly asked: "Shall I refuse my dinner because I do not fully understand the process of ___?" :: Digestion
 The unit step function is named after this person. :: Oliver Heaviside
-The physicist who introduced the delta function in quantum mechanics. :: Paul Dirac
 The French mathematician who built the rigorous theory of distributions in the 1940s. :: Laurent Schwartz
 The German mathematician who gave the first rigorous definition of the integral in 1854. :: Bernhard Riemann
 The French mathematician whose 1902 integral handles very rough functions. :: Henri Lebesgue
@@ -467,11 +487,8 @@ The young French mathematician who died in a duel at 20 in 1832, founding group 
 The German mathematician who proposed 23 famous problems in 1900. :: David Hilbert
 The Hungarian-American who pioneered the Monte Carlo method with Ulam on early computers. :: John von Neumann
 The Polish-American mathematician who conceived the Monte Carlo method while playing solitaire. :: Stanisław Ulam
-The Monte Carlo method was named after a casino in this country. :: Monaco
-The Russian mathematician who studied chains of random events from 1906. :: Andrey Markov
 The Soviet mathematician who set out the axioms of probability in 1933. :: Andrey Kolmogorov
 The English statistician who founded design of experiments and ANOVA. :: Ronald Fisher
-The Guinness brewery employee who invented the t-test. :: William Sealy Gosset
 The English mathematician who introduced the correlation coefficient and chi-squared test. :: Karl Pearson
 The Belgian statistician who coined the idea of 'the average man'. :: Adolphe Quetelet
 The English mathematician whose 1763 essay gave the theorem of inverse probability. :: Thomas Bayes
@@ -481,18 +498,12 @@ The American statistician who taught quality methods to Japanese industry after 
 The American mathematician who invented the simplex method in 1947. :: George Dantzig
 Dantzig famously solved two unsolved statistics problems because he thought they were this. :: Homework
 The Soviet mathematician who founded linear programming in 1939 and won a Nobel in economics. :: Leonid Kantorovich
-The German mathematician who, with Kutta, gave his name to a family of ODE methods. :: Carl Runge
-The German mathematician who in 1901 extended Runge's method to the classic fourth order. :: Martin Wilhelm Kutta
 The 1943 paper by Richard Courant laid the groundwork for this numerical method. :: Finite element method
 The American engineer who coined the term 'finite element' in 1960. :: Ray Clough
 The British-Polish engineer who wrote the first FEM textbook in 1967. :: Olgierd Zienkiewicz
-The two scientists who published the FFT algorithm in 1965. :: James Cooley and John Tukey
 Gauss had used an FFT-like method in this year to interpolate asteroid orbits. :: 1805
 The American mathematician who coined the word 'bit'. :: John Tukey
-The American engineer who founded information theory in 1948. :: Claude Shannon
 The Hungarian-American engineer who developed the Kalman filter in 1960. :: Rudolf Kálmán
-The Kalman filter helped navigate this 1960s programme to the Moon. :: Apollo
-The American engineer whose 1932 stability criterion uses encirclements. :: Harry Nyquist
 The Bell Labs engineer whose 1930s asymptotic plots are used in control design. :: Hendrik Bode
 The English mathematician who devised a polynomial stability test in the 1870s. :: Edward Routh
 The Russian mathematician who studied best polynomial approximation and gave his name to a family of orthogonal polynomials. :: Pafnuty Chebyshev
@@ -501,22 +512,11 @@ The Indian mathematician whose notebooks were full of strange series and who wor
 Ramanujan's series for 1/π converges this fast. :: About 8 digits per term
 The 'taxicab number' Ramanujan mentioned to Hardy. :: 1,729
 The NASA mathematician whom John Glenn asked to check the computer's orbit calculations before his 1962 flight. :: Katherine Johnson
-The 2016 film about Katherine Johnson and her colleagues. :: Hidden Figures
 The Iranian mathematician who was the first woman to win the Fields Medal, in 2014. :: Maryam Mirzakhani
-The software company that makes MATLAB. :: MathWorks
-The software that solves symbolic maths, made by Wolfram Research. :: Mathematica
-MATLAB originally stood for this. :: Matrix Laboratory
-The open-source Python library for numerical arrays. :: NumPy
 The FORTRAN library for linear algebra standard since the 1990s. :: LAPACK
-The 1957 programming language created at IBM for scientific computing. :: FORTRAN
-The Greek mathematician who used the method of exhaustion to find the area of a parabolic segment. :: Archimedes
 Archimedes showed π lies between 3 10/71 and this. :: 3 1/7
 The 5th-century Chinese mathematician who found the approximation π ≈ 355/113. :: Zu Chongzhi
 The Welsh mathematician who first used the symbol π for the circle ratio, in 1706. :: William Jones
 The Welsh mathematician who invented the equals sign in 1557. :: Robert Recorde
-The French philosopher whose 1637 work introduced coordinate geometry. :: René Descartes
-The Italian whose 1202 Liber Abaci brought Hindu–Arabic numerals to Europe. :: Fibonacci (Leonardo of Pisa)
 The English mathematician who invented the slide rule around 1622. :: William Oughtred
-The English pioneer who designed the Difference Engine to print maths tables. :: Charles Babbage
-The writer of the first published computer program, to compute Bernoulli numbers. :: Ada Lovelace
 The meteorologist who led the first computer weather forecasts on ENIAC in 1950. :: Jule Charney
