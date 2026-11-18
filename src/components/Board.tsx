@@ -325,25 +325,37 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
   const a = lang === 'ar' && clue.aAr ? clue.aAr : clue.a
   const timerSecs = clueSeconds(game.settings, open.l, clue)
 
-  const rectStyle = (el: Element) => {
-    const r = el.getBoundingClientRect()
-    return { left: r.left + 'px', top: r.top + 'px', width: r.width + 'px', height: r.height + 'px' }
+  // The card sits at its full size and position the whole time; opening and closing only move and scale it from and
+  // to the tile (a transform), so the browser never lays out or repaints the page while it animates.
+  const toTile = (card: HTMLElement) => {
+    const r = open.el.getBoundingClientRect()
+    const L = card.offsetLeft, T = card.offsetTop, W = card.offsetWidth || 1, H = card.offsetHeight || 1
+    return `translate(${r.left + r.width / 2 - (L + W / 2)}px, ${r.top + r.height / 2 - (T + H / 2)}px) scale(${r.width / W}, ${r.height / H})`
   }
 
   useLayoutEffect(() => {
     const card = ref.current!
-    Object.assign(card.style, rectStyle(open.el))
-    card.getBoundingClientRect()
     const W = Math.min(clue.img ? 960 : 820, innerWidth - 24)
-    const H = Math.min(clue.img ? 760 : 560, innerHeight - 32)
+    let H = Math.min(clue.img ? 760 : 560, innerHeight - 32)
+    Object.assign(card.style, { transition: 'none', left: (innerWidth - W) / 2 + 'px', top: (innerHeight - H) / 2 + 'px', width: W + 'px', height: H + 'px' })
+    // A long clue makes the card taller from the start, instead of growing again after it has opened.
+    const inner = card.firstElementChild as HTMLElement | null
+    if (inner && inner.scrollHeight > H + 1) {
+      H = Math.min(inner.scrollHeight, innerHeight - 16)
+      Object.assign(card.style, { top: (innerHeight - H) / 2 + 'px', height: H + 'px' })
+    }
+    card.style.transform = toTile(card)
+    card.getBoundingClientRect()
     requestAnimationFrame(() => {
+      card.style.transition = ''
+      card.style.transform = 'none'
       setPhase('open')
-      Object.assign(card.style, { left: (innerWidth - W) / 2 + 'px', top: (innerHeight - H) / 2 + 'px', width: W + 'px', height: H + 'px' })
     })
     if (clue.golden && !cat.respect) {
       setTimeout(() => burst(innerWidth / 2, innerHeight / 2, 46, 260), 500)
       sfx.golden()
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [open.el, clue.golden, clue.img, cat.respect])
 
   // A long clue, answer or source makes the card taller (up to the window) instead of spilling or hiding the buttons.
@@ -409,7 +421,7 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
       // (Back, Esc or a click outside) can't put it back on the board for another go.
       used = used || revealed || wrong.length > 0
       const card = ref.current!
-      setTimeout(() => Object.assign(card.style, rectStyle(open.el)), 120)
+      setTimeout(() => { card.style.transform = toTile(card) }, 120)
       setTimeout(() => onClose(used), reducedMotion() ? 10 : 780)
     },
     [phase, open.el, onClose, revealed, wrong.length],
