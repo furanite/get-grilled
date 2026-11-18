@@ -1,1 +1,218 @@
-{}
+{
+ "lm-al-faisaliah.jpg": {
+  "what": "Al Faisaliah Tower",
+  "author": "xiquinhosilva",
+  "license": "CC BY 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Al_Faisaliah_Tower_(xiquinhosilva)_-_Flickr.jpg"
+ },
+ "lm-arc-de-triomphe.jpg": {
+  "what": "Arc de Triomphe",
+  "author": "Wilfredor",
+  "license": "CC0",
+  "source": "https://commons.wikimedia.org/wiki/File:Arc_de_Triomphe_de_l%27%C3%89toile_at_night_vertical_fix.jpg"
+ },
+ "lm-atomium.jpg": {
+  "what": "Atomium",
+  "author": "Diego Delso",
+  "license": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Atomium,_Bruselas,_B%C3%A9lgica,_2021-12-15,_DD_148-150_HDR.jpg"
+ },
+ "lm-big-ben.jpg": {
+  "what": "Big Ben (Elizabeth Tower)",
+  "author": "Julian Herzog (Website)",
+  "license": "CC BY 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Big_Ben_Elizabeth_Tower_London_2023_01.jpg"
+ },
+ "lm-brandenburg-gate.jpg": {
+  "what": "Brandenburg Gate",
+  "author": "Thomas Wolf, www.foto-tw.de",
+  "license": "CC BY-SA 3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Brandenburger_Tor_morgens.jpg"
+ },
+ "lm-burj-al-arab.jpg": {
+  "what": "Burj Al Arab",
+  "author": "Diego Delso",
+  "license": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Madinat_Jumeirah-Dubai3303.JPG"
+ },
+ "lm-burj-khalifa.jpg": {
+  "what": "Burj Khalifa",
+  "author": "Laika ac",
+  "license": "CC BY-SA 2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Burj_Khalifa_(16260269606).jpg"
+ },
+ "lm-chichen-itza.jpg": {
+  "what": "Chichen Itza",
+  "author": "Daniel Schwen",
+  "license": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Chichen_Itza_3.jpg"
+ },
+ "lm-cn-tower.jpg": {
+  "what": "CN Tower",
+  "author": "Wladyslaw",
+  "license": "CC BY-SA 3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Toronto_-_ON_-_Toronto_Harbourfront7.jpg"
+ },
+ "lm-colosseum.jpg": {
+  "what": "Colosseum",
+  "author": "Wilfredor",
+  "license": "CC0",
+  "source": "https://commons.wikimedia.org/wiki/File:Colosseum_of_Rome_and_Roman_forum.jpg"
+ },
+ "lm-dubai-frame.jpg": {
+  "what": "Dubai Frame",
+  "author": "Rennboot",
+  "license": "CC BY 3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:190410_Dubai_Frame.jpg"
+ },
+ "lm-eiffel.jpg": {
+  "what": "Eiffel Tower",
+  "author": "Benh LIEU SONG",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Tour_Eiffel_Wikimedia_Commons.jpg"
+ },
+ "lm-empire-state.jpg": {
+  "what": "Empire State Building",
+  "author": "Dllu",
+  "license": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu.jpg"
+ },
+ "lm-gateway-arch.jpg": {
+  "what": "Gateway Arch",
+  "author": "Daniel Schwen",
+  "license": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:St_Louis_night_expblend.jpg"
+ },
+ "lm-golden-gate.jpg": {
+  "what": "Golden Gate Bridge",
+  "author": "Frank Schulenburg",
+  "license": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Golden_Gate_Bridge_as_seen_from_Marshall%E2%80%99s_Beach,_March_2018.jpg"
+ },
+ "lm-great-wall.jpg": {
+  "what": "Great Wall of China",
+  "author": "CEphoto, Uwe Aranas",
+  "license": "CC BY-SA 3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Badaling_China_Great-Wall-of-China-07.jpg"
+ },
+ "lm-jeddah-fountain.jpg": {
+  "what": "King Fahd's Fountain, Jeddah",
+  "author": "Bassam.salim",
+  "license": "CC BY-SA 3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:BSM_2571.jpg"
+ },
+ "lm-kingdom-centre.jpg": {
+  "what": "Kingdom Centre, Riyadh",
+  "author": "B.alotaby",
+  "license": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Riyadh_Skyline.jpg"
+ },
+ "lm-kuwait-towers.jpg": {
+  "what": "Kuwait Towers",
+  "author": "Courtney Collison",
+  "license": "CC BY-SA 2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Kuwait_Towers_(4730605035).jpg"
+ },
+ "lm-london-eye.jpg": {
+  "what": "London Eye",
+  "author": "Martin Falbisoner",
+  "license": "CC BY-SA 3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:London_Eye_at_Night_(long_exposure).JPG"
+ },
+ "lm-louvre-pyramid.jpg": {
+  "what": "Louvre Pyramid",
+  "author": "Benh LIEU SONG (Flickr)",
+  "license": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Louvre_Courtyard,_Looking_West.jpg"
+ },
+ "lm-marina-bay-sands.jpg": {
+  "what": "Marina Bay Sands",
+  "author": "Diego Delso",
+  "license": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Puente_Helix,_Marina_Bay,_Singapur,_2023-08-16,_DD_144-146_HDR.jpg"
+ },
+ "lm-matterhorn.jpg": {
+  "what": "Matterhorn",
+  "author": "Dirk Beyer",
+  "license": "CC BY-SA 3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Matterhorn_Riffelsee_2005-06-11.jpg"
+ },
+ "lm-mount-fuji.jpg": {
+  "what": "Mount Fuji",
+  "author": "MaedaAkihiko",
+  "license": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Series-N700a-Mt.Fuji.jpg"
+ },
+ "lm-parthenon.jpg": {
+  "what": "Parthenon",
+  "author": "Thermos",
+  "license": "CC BY-SA 2.5",
+  "source": "https://commons.wikimedia.org/wiki/File:Parthenon_from_south.jpg"
+ },
+ "lm-petronas.jpg": {
+  "what": "Petronas Towers",
+  "author": "Marcin Konsek",
+  "license": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:2016_Kuala_Lumpur,_Petronas_Towers_(21).jpg"
+ },
+ "lm-pisa.jpg": {
+  "what": "Leaning Tower of Pisa",
+  "author": "PaestumPaestum",
+  "license": "CC BY 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Exterior_of_the_Leaning_Tower_(Pisa)_at_night.jpg"
+ },
+ "lm-pyramids.jpg": {
+  "what": "Pyramids of Giza",
+  "author": "Ricardo Liberato",
+  "license": "CC BY-SA 2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:All_Gizah_Pyramids.jpg"
+ },
+ "lm-shard.jpg": {
+  "what": "The Shard",
+  "author": "Colin",
+  "license": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:The_Shard_from_the_Sky_Garden_2015.jpg"
+ },
+ "lm-space-needle.jpg": {
+  "what": "Space Needle",
+  "author": "Dietmar Rabich",
+  "license": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Seattle_(WA,_USA),_Space_Needle_--_2022_--_1498.jpg"
+ },
+ "lm-stonehenge.jpg": {
+  "what": "Stonehenge",
+  "author": "Diego Delso",
+  "license": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Stonehenge,_Condado_de_Wiltshire,_Inglaterra,_2014-08-12,_DD_12.JPG"
+ },
+ "lm-sydney-opera.jpg": {
+  "what": "Sydney Opera House",
+  "author": "Diliff",
+  "license": "CC BY-SA 3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Sydney_Opera_House_-_Dec_2008.jpg"
+ },
+ "lm-table-mountain.jpg": {
+  "what": "Table Mountain",
+  "author": "Dietmar Rabich",
+  "license": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Table_Mountain_--_2024_--_3437.jpg"
+ },
+ "lm-taipei-101.jpg": {
+  "what": "Taipei 101",
+  "author": "CEphoto, Uwe Aranas",
+  "license": "CC BY-SA 3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Taipei_Taiwan_Taipei-101-Tower-01.jpg"
+ },
+ "lm-tower-bridge.jpg": {
+  "what": "Tower Bridge",
+  "author": "Diego Delso",
+  "license": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Puente_de_la_Torre,_Londres,_Inglaterra,_2014-08-11,_DD_092.JPG"
+ },
+ "lm-uluru.jpg": {
+  "what": "Uluru",
+  "author": "Dietmar Rabich",
+  "license": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Petermann_Ranges_(AU),_Uluru-Kata_Tjuta_National_Park,_Uluru,_Kuniya_Walk_--_2019_--_3674.jpg"
+ }
+}
