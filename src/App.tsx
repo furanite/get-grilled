@@ -2,7 +2,7 @@ import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } fr
 import type { Category, CategorySummary, Game, Lang, PoolEdit, Screen, ThemeId } from './lib/types'
 import { hasConsent, loadCustom, loadGame, loadPools, loadSettings, saveCustom, saveGame, savePools, saveSettings, saveTipsSeen, tipsSeen } from './lib/store'
 import { INTRO_MS, enterRound, finishIntro, isEmptyPool, nextRound, nextStage } from './lib/game'
-import { setSoundEnabled, unlockAudio } from './lib/sound'
+import { introSound, prepareIntros, setSoundEnabled, sfx, stopTune, titleTune, unlockAudio } from './lib/sound'
 import { CONSENT_TEXT, LEGAL } from './lib/legal'
 import { ConsentDialog, Footer, LegalViewer } from './components/Legal'
 import { RulesDialog, TipsDialog } from './components/Guide'
@@ -239,6 +239,8 @@ export default function App() {
           {screen === 'intro' && game?.intro && (
             <IntroScreen game={game} setGame={setGame} theme={theme} t={t} lang={lang} onStart={() => {
               setGame((g) => finishIntro(g))
+              if (game.tournament) stopTune()
+              else sfx.start()
               setScreen(game.tournament ? 'round' : 'game')
             }} />
           )}
@@ -315,6 +317,17 @@ export default function App() {
 function IntroScreen({ game, setGame, theme, t, lang, onStart }: { game: Game; setGame: (u: (g: Game) => Game) => void; theme: ThemeId; t: (typeof STRINGS)['en']; lang: Lang; onStart: () => void }) {
   const intro = game.intro!
   const n = game.teams.length
+  // Each team's own sound while it is introduced, then the theme's title tune on Meet the teams.
+  useEffect(() => {
+    prepareIntros(theme, game.teams.map((tm) => tm.members?.length ?? 0))
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [theme, n])
+  useEffect(() => {
+    if (intro.i < n) introSound(theme, intro.i, game.teams[intro.i].members?.length ?? 0)
+    else titleTune(theme)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [intro.i, theme])
+  useEffect(() => () => stopTune(), [])
   const step = (i: number) => setGame((g) => (g.intro ? { ...g, intro: { ...g.intro, i: Math.min(i, n) } } : g))
   useEffect(() => {
     if (!intro.auto || intro.i >= n) return
