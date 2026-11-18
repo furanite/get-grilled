@@ -447,6 +447,31 @@ export const islamicFx = {
     bulbul(k, 0.45, 0.06, -0.3)
     sparrow(k, 0.95, 0.035, 0.4)
   },
+  /** Nobody got it, option A ("Falling strokes"): three soft, damped strokes stepping down, then a robin's falling call. */
+  nobodyA(k: Kit) {
+    dum(k, 0, 0.34, -0.2, 1.0, true)
+    dum(k, 0.28, 0.3, 0, 0.84, true)
+    dum(k, 0.56, 0.32, 0.2, 0.7, true)
+    robin(k, 0.95, 0.03)
+  },
+  /** Nobody got it, option B ("Passing breeze"): a sigh of wind that falls away, one muffled stroke and a lone sparrow far off. */
+  nobodyB(k: Kit) {
+    whoosh(k, 0, 1.1, 0.12, 1500, 300)
+    dum(k, 0.45, 0.34, 0, 0.78, true)
+    sparrow(k, 1.2, 0.022, 0.6)
+  },
+  /** Nobody got it, option C ("Quiet taps"): light rim taps that slow down and settle on a soft low stroke. */
+  nobodyC(k: Kit) {
+    tak(k, 0, 0.18, -0.3)
+    tak(k, 0.14, 0.15, 0.3)
+    ka(k, 0.32, 0.14)
+    tak(k, 0.56, 0.12)
+    dum(k, 0.86, 0.3, 0, 0.75, true)
+  },
+  /** Nobody got it: the option the owner picks (A until then). */
+  nobody(k: Kit) {
+    islamicFx.nobodyA(k)
+  },
   /** Wrong answer: two damped, falling strokes. Gentle, but clear. */
   wrong(k: Kit) {
     dum(k, 0, 0.42, 0, 0.85, true)

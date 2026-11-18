@@ -548,7 +548,7 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
                 <button className="btn" onClick={reveal} disabled={revealed} data-testid="reveal">
                   {HOST_EDITION ? t.showOnScreen : t.reveal}
                 </button>
-                <button className="btn alt" onClick={() => close(true)} data-testid="nobody">
+                <button className="btn alt" onClick={() => { sfx.nobody(); close(true) }} data-testid="nobody">
                   {t.nobody}
                 </button>
               </div>
