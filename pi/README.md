@@ -26,10 +26,16 @@ Wi-Fi router of your own, a network cable, and a computer to prepare the card.
 
 ### 1. The router
 
-1. Give the Wi-Fi a name and a strong password (WPA2 or WPA3). This is the network the teams and the
-   audience join. The password goes on the projector's join card as a QR code.
-2. Turn on **client isolation** (also called *AP isolation* or *guest isolation*) for the Wi-Fi, so
-   phones can't see or reach each other. The Pi is plugged in by cable, so everyone can still reach it.
+1. Give the Wi-Fi a name and a strong password, and choose **WPA3** if the router offers it. This is
+   the network the teams and the audience join. The password goes on the projector's join card as
+   a QR code, so everyone in the room knows it. With WPA2, anyone who knows the password and has the
+   right tools can read other people's Wi-Fi traffic, including the host's sign-in. WPA3 stops that.
+   If the router has only WPA2, plug the **host laptop into the router by cable** (or put it on a
+   second, private Wi-Fi whose password is not shown).
+2. Turn on **client isolation** (also called *AP isolation*) for the Wi-Fi, so phones can't see or
+   reach each other. The Pi is plugged in by cable, so everyone can still reach it. Don't use the
+   router's separate *guest network* for this: many routers block guests from everything on the
+   cable, Pi included. After setting it up, check from a phone that `http://getgrilled.local` opens.
 3. Change the router's own admin password, and turn off WPS and remote (internet) management.
 4. In the router's DHCP settings, give the Pi a **fixed address** (an "address reservation") once it
    has joined, so links and QR codes keep working.
@@ -81,7 +87,19 @@ computer), run it as `sudo bash pi/install.sh --keep-ssh`. It's safe to run the 
    code on the projector**, and untick the QR code once people are in.
 4. Afterwards, **End the event** stops every link.
 
+### The buzzer box on the Pi
+
+Chrome and Edge only let a page talk to a USB device (the buzzer box) over a secure address, and the
+Pi uses plain `http`. On the host laptop, once: open `chrome://flags/#unsafely-treat-insecure-origin-as-secure`
+(`edge://flags/...` in Edge), add `http://getgrilled.local,http://<the Pi's number address>`, choose
+**Enabled** and restart the browser. The **Buzzers** button in the game explains the same if the box
+is blocked. (Plugging the box into the Pi itself, so no browser setting is needed, is a possible
+later improvement.)
+
 ## Updates
+
+The release is built in one GitHub Actions job and signed in a second job that installs nothing
+from npm, so third-party build tools never run where the signing key is.
 
 - At every start-up, the Pi asks GitHub for the newest Pi release. It installs it only if:
   - its signature matches the key saved on the Pi at set-up;
@@ -115,7 +133,9 @@ computer), run it as `sudo bash pi/install.sh --keep-ssh`. It's safe to run the 
 
 ## Security in short
 
-- Host PIN stored only as a salted scrypt hash; 5 wrong tries lock sign-in for 5 minutes. One host
+- Host PIN stored only as a salted scrypt hash. 5 wrong tries lock sign-in from that device for
+  5 minutes, and 60 wrong tries from all devices within 10 minutes lock it for everyone for 5
+  minutes, so one person can't lock the host out but guessing stays hopeless. One host
   session at a time (signing in again ends the old one). Cookies are HttpOnly and SameSite=Strict.
 - Team and projector links are random 192-bit keys, one device each; the key leaves the address bar
   as soon as it is used.

@@ -306,13 +306,18 @@ try {
     const big = 'x'.repeat(10_000)
     const r7 = await raw('/api/claim', { method: 'POST', headers: { 'Content-Type': 'application/json', 'X-GG': '1' }, body: JSON.stringify({ token: big }) })
     assert(r7.status === 413, 'oversized body: ' + r7.status)
+    for (const p of ['/%2Fhost', '/%2F%2Fevil.example%2Fhost', '//host']) {
+      const r = await raw(p)
+      const loc = r.headers.get('location')
+      assert(!loc || (loc.startsWith('/') && !loc.startsWith('//')), `redirect ${p} points away: ${loc}`)
+    }
     const r8 = await raw('/', { method: 'PUT' })
     assert(r8.status === 405, 'PUT: ' + r8.status)
     const csp = (await raw('/')).headers.get('content-security-policy') || ''
     assert(csp.includes("default-src 'self'") && csp.includes("frame-ancestors 'none'"), 'security headers: ' + csp)
   })
 
-  await test('five wrong PINs lock host sign-in for everyone for five minutes', async () => {
+  await test('five wrong PINs lock host sign-in from that device for five minutes', async () => {
     const post = (pin) => raw('/api/host/login', { method: 'POST', headers: { 'Content-Type': 'application/json', 'X-GG': '1' }, body: JSON.stringify({ pin }) })
     let last
     for (let i = 0; i < 5; i++) last = await post('000000')

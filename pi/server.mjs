@@ -19,7 +19,7 @@
 import http from 'node:http'
 import { createHash, randomBytes, scryptSync, timingSafeEqual } from 'node:crypto'
 import { readFileSync, writeFileSync, renameSync, mkdirSync, existsSync, statSync, createReadStream, realpathSync } from 'node:fs'
-import { dirname, extname, join, normalize, resolve, sep } from 'node:path'
+import { dirname, extname, join, normalize, relative, resolve, sep } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { createInterface } from 'node:readline'
 import { gzipSync } from 'node:zlib'
@@ -49,8 +49,11 @@ const MAX_AUDIENCE = 600
 const MAX_CHOICES = 6
 // The game's Wi-Fi, shown as a QR code on the projector so phones can join (it is meant to be public in the room).
 const WIFI = process.env.GG_WIFI_SSID ? { ssid: String(process.env.GG_WIFI_SSID).slice(0, 32), pass: String(process.env.GG_WIFI_PASS || '').slice(0, 63) } : null
-const LOGIN_TRIES = 5
+const LOGIN_TRIES = 5 // wrong PINs from one device before that device must wait
 const LOGIN_LOCK_MS = 5 * 60_000
+// Wrong PINs from all devices together, per 10 minutes, before sign-in waits for everyone. Set high, so
+// one person in the audience can't lock the host out, but guessing a 6-digit PIN stays hopeless.
+const LOGIN_ROOM_TRIES = 60
 
 // ---------- small helpers ----------
 const token = (n = 24) => randomBytes(n).toString('base64url')
@@ -165,7 +168,8 @@ if (process.env.GG_PIN) {
 // ---------- state ----------
 /** Host sessions: cookie value hash -> expiry. Only one at a time: a new login ends the old one. */
 let hostSession = null // { hash, expires }
-const login = { fails: 0, lockedUntil: 0 }
+const loginByIp = new Map() // ip -> { fails, lockedUntil }
+const loginRoom = { fails: 0, start: 0, lockedUntil: 0 }
 
 /** Seats: one per team (and one or more projector screens). Each has a link that one device can claim. */
 let seats = []
@@ -328,21 +332,32 @@ async function api(req, res, path) {
   // ----- host -----
   if (path === '/api/host/login' && req.method === 'POST') {
     if (!allowed('login:' + ip, 10, 60_000)) return send(res, 429, { error: 'slow down' })
-    if (!config) return send(res, 503, { error: 'no pin', help: 'Run: node pi/server.mjs --set-pin' })
-    if (login.lockedUntil > now()) return send(res, 429, { error: 'locked', retryIn: Math.ceil((login.lockedUntil - now()) / 1000) })
+    if (!config) return send(res, 503, { error: 'no pin', help: 'On the Pi, run: getgrilled pin' })
+    // Locks are per device (address), so a phone in the audience typing wrong PINs locks only itself out.
+    const mine = loginByIp.get(ip) ?? { fails: 0, lockedUntil: 0 }
+    const until = Math.max(mine.lockedUntil, loginRoom.lockedUntil)
+    if (until > now()) return send(res, 429, { error: 'locked', retryIn: Math.ceil((until - now()) / 1000) })
     const body = await readBody(req, MAX_BODY_OTHER)
     const pin = String(body.pin ?? '')
     const good = validPin(pin) && safeEqual(hashPin(pin, config.pinSalt), config.pinHash)
     if (!good) {
-      login.fails++
-      if (login.fails >= LOGIN_TRIES) {
-        login.lockedUntil = now() + LOGIN_LOCK_MS
-        login.fails = 0
-        log('host PIN locked after failed tries from', ip)
+      mine.fails++
+      if (mine.fails >= LOGIN_TRIES) {
+        mine.lockedUntil = now() + LOGIN_LOCK_MS
+        mine.fails = 0
+        log('host PIN locked for', ip, 'after failed tries')
       }
-      return send(res, 401, { error: 'wrong pin', triesLeft: LOGIN_TRIES - login.fails })
+      if (loginByIp.size > 5000) loginByIp.clear()
+      loginByIp.set(ip, mine)
+      if (now() - loginRoom.start > 10 * 60_000) Object.assign(loginRoom, { fails: 0, start: now() })
+      if (++loginRoom.fails >= LOGIN_ROOM_TRIES) {
+        loginRoom.lockedUntil = now() + LOGIN_LOCK_MS
+        Object.assign(loginRoom, { fails: 0, start: now() })
+        log('host PIN locked for everyone: too many wrong tries from many devices')
+      }
+      return send(res, 401, { error: 'wrong pin', triesLeft: LOGIN_TRIES - mine.fails })
     }
-    login.fails = 0
+    loginByIp.delete(ip)
     const c = token(32)
     // A new host login ends the old one, so a stolen session cannot outlive the host signing in again.
     for (const s of [...streams]) if (s.role === 'host') (s.res.end(), streams.delete(s))
@@ -637,7 +652,8 @@ function serveFile(req, res, path) {
     return send(res, 404, 'Not found')
   }
   // /host without the slash: send the browser to /host/ so the page's relative links work.
-  if (st.isDirectory() && existsSync(join(file, 'index.html'))) return send(res, 301, 'Moved', { Location: rel.replace(/\/?$/, '/') })
+  // The address comes from the checked file path (not the raw request), so it can't point to another site.
+  if (st.isDirectory() && existsSync(join(file, 'index.html'))) return send(res, 301, 'Moved', { Location: '/' + relative(DIST, file).split(sep).map(encodeURIComponent).join('/') + '/' })
   if (!st.isFile()) return send(res, 404, 'Not found')
   const type = TYPES[extname(file).toLowerCase()] || 'application/octet-stream'
   const cache = rel.startsWith('/assets/') ? 'public, max-age=31536000, immutable' : 'no-cache'
