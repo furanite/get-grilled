@@ -305,6 +305,14 @@ const fx = {
     tone(c, { f: 220, d: 1.0, g: 0.1, type: 'sine' })
     tone(c, { f: 233, d: 1.0, g: 0.06, type: 'sine' })
   },
+  /** A team buzzes in first: a bright two-note buzz, pitched differently for each team so the room can tell them apart. */
+  buzz(team: number) {
+    const c = ready()
+    if (!c) return
+    const f = [392, 523.25, 659.25, 783.99][((team % 4) + 4) % 4]
+    tone(c, { f, d: 0.32, g: 0.09, type: 'square', lp: 2200 })
+    tone(c, { f: f * 1.5, t: 0.09, d: 0.32, g: 0.05, type: 'square', lp: 2200 })
+  },
   /** Score changed by hand, or a small UI confirmation. */
   soft() {
     const c = ready()
@@ -408,6 +416,7 @@ const islamic: typeof fx = {
   tick: (final = false) => withKit((k) => islamicFx.tick(k, final))(),
   timeUp: withKit(islamicFx.timeUp),
   soft: withKit(islamicFx.soft),
+  buzz: (team: number) => withKit((k) => islamicFx.buzz(k, team))(),
   start: () => {
     stopTune()
     withKit(islamicFx.start)()

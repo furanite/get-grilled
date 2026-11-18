@@ -490,6 +490,23 @@ export const islamicFx = {
   soft(k: Kit) {
     ka(k, 0, 0.25)
   },
+  /** A team buzzes in first: a sharp daff pattern, different for each team so the room can tell them apart. No melody. */
+  buzz(k: Kit, team: number) {
+    const n = ((team % 4) + 4) % 4
+    const pan = [-0.4, 0.4, -0.15, 0.15][n]
+    if (n === 0) {
+      circle(k, 0, 'D', 0.55)
+    } else if (n === 1) {
+      tak(k, 0, 0.38, pan)
+      tak(k, 0.11, 0.38, pan)
+    } else if (n === 2) {
+      dum(k, 0, 0.45, pan, 1.15)
+      tak(k, 0.12, 0.34, pan)
+    } else {
+      tak(k, 0, 0.36, pan)
+      dum(k, 0.12, 0.45, pan, 0.9)
+    }
+  },
   /** The game begins: the breeze rises, the drums roll into one great stroke, and the birds answer. */
   start(k: Kit) {
     breeze(k, 0, 4.6, 0.09)

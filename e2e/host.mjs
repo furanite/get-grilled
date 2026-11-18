@@ -13,7 +13,8 @@ await new Promise((r) => setTimeout(r, 2500))
 
 const results = []
 async function test(name, fn) {
-  try { await fn(); results.push(true); console.log('PASS', name) } catch (e) { results.push(false); console.log('FAIL', name, '\n   ', String(e.message || e).split('\n')[0]) }
+  if (process.env.ONLY && !name.includes(process.env.ONLY)) return
+  try { await fn(); results.push(true); console.log('PASS', name) } catch (e) { results.push(false); console.log('FAIL', name, '\n   ', String(e.message || e).split('\n')[0], process.env.DEBUG ? e.stack : '') }
 }
 function assert(c, msg) { if (!c) throw new Error(msg) }
 
@@ -350,6 +351,63 @@ try {
     await page.waitForSelector('.tile')
     await aud.waitForSelector('[data-aud-tile]')
     assert(!page.errors.length && !aud.errors.length, 'errors: ' + [...page.errors, ...aud.errors].join(' | '))
+    await page.context().close()
+  })
+
+  await test('buzzers: press order, ties, early presses and the next team after a wrong answer, on host and projector', async () => {
+    const page = await hostPage()
+    await page.goto(URL + '?buzzsim=1')
+    const aud = await openAudience(page)
+    await startGame(page)
+    // The practice box shows as connected; each team's button tests in the panel.
+    await page.getByTestId('buzz-open').click()
+    assert((await page.getByTestId('buzz-status').textContent()).includes('Practice box'), 'practice box status')
+    await page.evaluate(() => window.ggBuzz.press(1))
+    await page.waitForSelector('[data-testid="buzz-map-1"].hit')
+    await page.getByTestId('buzz-done').click()
+    await page.click('[data-tile="0-1"]')
+    await page.waitForSelector('.card.open')
+    await page.waitForSelector('[data-testid="buzz-arm"]')
+    // Too early: the clue is still being read.
+    await page.evaluate(() => window.ggBuzz.press(2))
+    await page.waitForSelector('[data-testid="buzz-early"]')
+    await page.keyboard.press('b')
+    await page.waitForSelector('[data-testid="buzz-waiting"]')
+    await aud.waitForSelector('[data-testid="audience-buzz-waiting"]')
+    // Team 2 and team 1 press 3 ms apart (a tie), team 3 is still locked out, then presses later.
+    await page.evaluate(() => { window.ggBuzz.press(1, 400000); window.ggBuzz.press(0, 403000); window.ggBuzz.press(2, 100000); window.ggBuzz.press(2, 900000) })
+    await page.waitForSelector('[data-testid="buzz-order"] li[data-buzz-team="2"]')
+    const ranks = await page.$$eval('[data-testid="buzz-order"] li', (els) => els.map((e) => e.dataset.buzzTeam + ':' + e.dataset.rank + ':' + e.classList.contains('tie')))
+    assert(ranks.join(' ') === '1:1:true 0:1:true 2:3:false', 'order: ' + ranks.join(' '))
+    const gap = await page.textContent('[data-testid="buzz-order"] li[data-buzz-team="2"] .buzz-gap')
+    assert(gap === '+0.5 s', 'gap: ' + gap)
+    await aud.waitForSelector('[data-testid="audience-buzz-order"] li[data-buzz-team="2"]')
+    assert((await aud.locator('[data-testid="audience-buzz-order"] .buzz-tie').count()) === 2, 'tie on projector')
+    // Both tied teams light up; after both are marked wrong the third team answers.
+    assert(JSON.stringify(await page.evaluate(() => window.ggBuzz.lit)) === '[0,1]', 'lit: tied teams')
+    await page.click('[data-judge="1-no"]')
+    await page.click('[data-judge="0-no"]')
+    await page.waitForFunction(() => JSON.stringify(window.ggBuzz.lit) === '[2]')
+    assert(await page.locator('[data-testid="buzz-order"] li[data-buzz-team="2"].now').count() === 1, 'third team now answers')
+    await aud.screenshot({ path: `${SHOTS}/host-audience-buzz.png` })
+    await page.screenshot({ path: `${SHOTS}/host-host-buzz.png` })
+    // Re-open clears the order; showing the answer puts the buzzers away.
+    await page.getByTestId('buzz-arm').click()
+    await page.waitForSelector('[data-testid="buzz-waiting"]')
+    await page.getByTestId('reveal').click()
+    await page.waitForSelector('[data-testid="buzz-bar"]', { state: 'detached' })
+    await aud.waitForSelector('[data-testid="audience-buzz-waiting"]', { state: 'detached' })
+    assert(!page.errors.length && !aud.errors.length, 'errors: ' + [...page.errors, ...aud.errors].join(' | '))
+    await page.context().close()
+  })
+
+  await test('without a buzzer box the clue card shows no buzzer controls', async () => {
+    const page = await hostPage()
+    await startGame(page)
+    await page.click('[data-tile="0-0"]')
+    await page.waitForSelector('.card.open')
+    await page.waitForTimeout(800)
+    assert((await page.getByTestId('buzz-bar').count()) === 0, 'buzz bar without a box')
     await page.context().close()
   })
 
