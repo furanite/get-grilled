@@ -11,3 +11,4 @@ dist-artifact-host
 dist-artifact*-files.json
 e2e/fit-shots/
 pi-state/
+release/

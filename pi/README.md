@@ -1,9 +1,9 @@
 # Get Grilled Live on a Raspberry Pi
 
-The Pi runs the game on its own Wi-Fi so that the host screen, the projector and one tablet per team
-stay in step, with no internet needed during the game.
+The Pi runs the game on its own Wi-Fi so that the host screen, the projector, one tablet per team and
+the audience's phones stay in step, with no internet needed during the game.
 
-- **Host** opens `http://<pi-address>/host/` and signs in with the host PIN.
+- **Host** opens `http://getgrilled.local/host/` (or `http://<pi-address>/host/`) and signs in with the host PIN.
 - **Devices** in the host's top bar lists one link (and QR code) per team, plus one for the projector.
   The first device to open a link keeps it; any other device is turned away. The host sees who has
   joined and who is online, and can **reissue** a link (the old one stops working and its device is
@@ -11,19 +11,107 @@ stay in step, with no internet needed during the game.
 - **Team tablets** show the board, their score and "Your pick!" on their turn, and a box to type the
   final answer, which only the host sees.
 - **Projector** shows what the room sees (the same view as the host edition's audience window).
+- **Audience phones** (turned on in Devices): people scan the join card on the
+  projector, answer each question from four options, and see the room's result when the answer is
+  revealed. No names, no sign-up, nothing stored about them.
 
 What other devices receive is cut down in the host's browser before it leaves (`src/lib/views.ts`):
 questions not on show and every answer not yet revealed are blanked, and golden, steal and audience
 tiles stay secret until opened.
 
-## Try it on a computer
+## Set-up, step by step
 
-    npm install
-    npm run build:pi              # builds site/ (app + host edition) and stamps site/version.json
-    node pi/server.mjs --set-pin  # choose the host PIN (6 to 12 digits)
-    GG_PORT=8080 node pi/server.mjs
+You need: a Raspberry Pi 5 (4 GB is plenty) with its power supply, a 32 GB or larger microSD card, a
+Wi-Fi router of your own, a network cable, and a computer to prepare the card.
 
-Then open `http://localhost:8080/host/`.
+### 1. The router
+
+1. Give the Wi-Fi a name and a strong password (WPA2 or WPA3). This is the network the teams and the
+   audience join. The password goes on the projector's join card as a QR code.
+2. Turn on **client isolation** (also called *AP isolation* or *guest isolation*) for the Wi-Fi, so
+   phones can't see or reach each other. The Pi is plugged in by cable, so everyone can still reach it.
+3. Change the router's own admin password, and turn off WPS and remote (internet) management.
+4. In the router's DHCP settings, give the Pi a **fixed address** (an "address reservation") once it
+   has joined, so links and QR codes keep working.
+5. The router only needs internet before the event, for the Pi to fetch updates. During the game
+   it can stay offline.
+
+### 2. The Pi's card
+
+1. On your computer, open **Raspberry Pi Imager** and choose **Raspberry Pi OS Lite (64-bit)**.
+2. In its settings (the gear or "Edit settings"): set a user name and a strong password, your time
+   zone, and turn on SSH for now. Leave the Pi's own Wi-Fi empty: it uses the cable.
+3. Write the card, put it in the Pi, plug the Pi into the router by cable, and switch it on.
+
+### 3. Install Get Grilled
+
+On the Pi (with a keyboard and screen, or over SSH from your computer):
+
+    sudo apt-get install -y git
+    git clone https://github.com/furanite/get-grilled.git
+    cd get-grilled
+    sudo bash pi/install.sh
+
+The script asks:
+
+- **The Wi-Fi name and password** for the join card (leave empty to skip the Wi-Fi QR code).
+- **The update key.** On the first Pi, choose *1*. It shows a private key once: copy everything
+  between the lines into GitHub (repository **Settings > Secrets and variables > Actions > New
+  repository secret**, name `PI_SIGNING_KEY`). On a second Pi, choose *2* and paste the public key
+  from the first one (`/etc/getgrilled/release-key.pem`).
+
+Then, on GitHub, open **Actions > Raspberry Pi release > Run workflow** once. From then on a new
+signed release is made by itself on every change to the game. Back on the Pi:
+
+    getgrilled update     # fetches and checks the release
+    getgrilled pin        # choose the host PIN (6 to 12 digits)
+
+Open `http://getgrilled.local/host/` on the host's laptop or tablet. If that name doesn't open,
+use the address from `getgrilled status`.
+
+The script also turns **SSH off** at the end. To keep it (for example to manage the Pi from your
+computer), run it as `sudo bash pi/install.sh --keep-ssh`. It's safe to run the script again.
+
+### 4. On the day
+
+1. Switch on the router, then the Pi. The game starts by itself within a minute.
+2. Sign in at `/host/`, set up the game, then open **Devices**: give each team its link or QR code
+   and open the projector's link on the projector's computer.
+3. For the audience, tick **Let the audience play along on their phones** and **Show the join QR
+   code on the projector**, and untick the QR code once people are in.
+4. Afterwards, **End the event** stops every link.
+
+## Updates
+
+- At every start-up, the Pi asks GitHub for the newest Pi release. It installs it only if:
+  - its signature matches the key saved on the Pi at set-up;
+  - the download matches the signed SHA-256;
+  - every file matches the game's own list; and
+  - it is newer than what the Pi runs, so an old release can't be replayed.
+- **No internet:** the Pi starts the version it already has. It keeps the last two versions.
+- **Go back:** `getgrilled use-previous` switches to the version before (works offline). Run it
+  again to switch back.
+- **From a USB stick:** copy the three files of a release (`manifest.json`, `manifest.sig` and the
+  `.ggpkg`) to a folder, then `getgrilled update-from /media/<stick>/<folder>`. Same checks.
+- `getgrilled status` shows the versions, `getgrilled logs` shows what happened.
+
+## Lock-down
+
+- **Firewall** (`/etc/nftables.conf`): only the game's page (port 80), and only from local
+  addresses. Everything else coming in is dropped, including SSH unless you kept it.
+- **The game runs as its own user** with systemd's sandbox:
+  - It can't change its own code (`/opt/getgrilled` is read-only to it).
+  - It can write only its PIN and links folder (`/var/lib/getgrilled`).
+  - It has no other privileges, and memory and process limits are set.
+- **The updater** runs as that same user and can write only the versions folder. It can't install
+  anything that isn't signed.
+- **Read-only card:** Raspberry Pi OS's "overlay file system" would make the card fully read-only,
+  but then downloaded updates would vanish at every restart. So the Pi stays writable, with the
+  sandbox above limiting what the game can touch. If you prefer a fully read-only card and update
+  by hand: install, update, then run `sudo raspi-config` > *Performance* > *Overlay file system*.
+  Turn it off again before updating.
+- **Physical access:** keep the Pi out of reach of players, because anyone holding the card can
+  read it.
 
 ## Security in short
 
@@ -37,5 +125,14 @@ Then open `http://localhost:8080/host/`.
   connections per device and in total, and sends the same strict security headers as the web app.
 - No third-party server code: Node's own modules only.
 
-`npm run e2e:pi` runs the browser and attack checks. Full Pi set-up (Wi-Fi router, start on boot,
-read-only system, signed updates with an offline fallback) comes in the next stage.
+## For developers
+
+    npm install
+    npm run build:pi              # builds site/ (app + host edition) and stamps site/version.json
+    node pi/server.mjs --set-pin  # choose the host PIN (6 to 12 digits)
+    GG_PORT=8080 node pi/server.mjs
+
+Then open `http://localhost:8080/host/`. `npm run pack:pi` makes `release/` (bundle and manifest;
+signed if `PI_SIGNING_KEY` is set). `npm run e2e:pi` runs the browser and attack checks, and
+`npm run e2e:pi-update` runs the updater checks (bad signatures, changed files, replays, offline,
+going back).

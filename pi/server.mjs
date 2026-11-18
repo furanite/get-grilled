@@ -18,7 +18,7 @@
 
 import http from 'node:http'
 import { createHash, randomBytes, scryptSync, timingSafeEqual } from 'node:crypto'
-import { readFileSync, writeFileSync, renameSync, mkdirSync, existsSync, statSync, createReadStream } from 'node:fs'
+import { readFileSync, writeFileSync, renameSync, mkdirSync, existsSync, statSync, createReadStream, realpathSync } from 'node:fs'
 import { dirname, extname, join, normalize, resolve, sep } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { createInterface } from 'node:readline'
@@ -670,7 +670,8 @@ export function createServer() {
   return server
 }
 
-const isMain = process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)
+// realpathSync: on the Pi this file is reached through the "current" link to the running version.
+const isMain = process.argv[1] && realpathSync(resolve(process.argv[1])) === realpathSync(fileURLToPath(import.meta.url))
 if (isMain) {
   if (process.argv.includes('--set-pin')) {
     setPinInteractive().then(
