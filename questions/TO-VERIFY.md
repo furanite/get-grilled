@@ -108,12 +108,12 @@ This file is rewritten by `npm run packs`.
 - **300**, line 31: The Javanese song "Lir-ilir" is traditionally credited to this one of the nine saints. **Answer:** Sunan Kalijaga ⁨رحمة الله عليه⁩ _(Source: Standard reference; the credit is traditional)_
 - **500**, line 56: The NU scholar who wrote the Indonesian song "Ya Lal Wathon" in the 1930s. **Answer:** Kiai 'Abd al-Wahhab Hasbullah ⁨رحمة الله عليه⁩ _(Source: Standard reference; check)_
 - **500**, line 57: Sholawat Badar was written in this decade of the 20th century CE. **Answer:** The 1960s _(Source: Standard reference; check)_
-- **500**, line 58: The Malay ceremony of reading the Mawlid at a wedding or for a baby is often led by groups named after this Arabic welcome. **Answer:** Marhaban _(Source: check)_
+- **500**, line 58: The Malay ceremony of reading the Blessed Mawlid at a wedding or for a baby is often led by groups named after this Arabic welcome. **Answer:** Marhaban _(Source: check)_
 
 ## Blessed Prophets ﵈: Adam to Ibrahim (questions/isl-prophets-early.txt)
 
-- **400**, line 77: In a report of Abu Dharr ﵁, four Arab Blessed Prophets ﵈ are named: Hud, Salih, Shu'ayb and this one. **Answer:** Our Beloved Prophet Muhammad ﷺ _(Source: Sahih Ibn Hibban; to be checked)_
-- **400**, line 81: The city our master Ibrahim ﵇ came from, by the common view of historians. **Answer:** Ur (in Iraq) _(Source: Tarikh al-Tabari; to be checked)_
+- **400**, line 89: In a report of Abu Dharr ﵁, four Arab Blessed Prophets ﵈ are named: Hud, Salih, Shu'ayb and this one. **Answer:** Our Beloved Prophet Muhammad ﷺ _(Source: Sahih Ibn Hibban; to be checked)_
+- **400**, line 93: The city our master Ibrahim ﵇ came from, by the common view of historians. **Answer:** Ur (in Iraq) _(Source: Tarikh al-Tabari; to be checked)_
 
 ## The Qur'an (questions/isl-quran.txt)
 

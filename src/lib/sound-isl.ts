@@ -888,14 +888,14 @@ export const ISLAMIC_TUNES: Partial<Record<ThemeId, TuneSpec>> = {
   mughal: { style: 'Qawwali (Chishti)', ens: 'qawwali', bpm: 96, birds: ['bulbul', 'canary'], breeze: 0.08, why: 'Hand claps start, the drums join on the kaharwa cycle, it speeds up and lands on a tihai, as qawwali does' },
   sahel: { style: 'Senegalese khassaid and zikr', ens: 'khassaid', bpm: 116, birds: ['sunbird', 'goldfinch'], breeze: 0.1, why: 'A 12/8 bell pattern on slaps, then bass, mid drums and claps lock in' },
   swahili: { style: 'Swahili maulidi and kasida (Lamu)', ens: 'tari', bpm: 100, birds: ['sunbird', 'canary'], breeze: 0.11, why: 'Small, high tari frame drums in a 6/8 lilt, as at the Lamu Maulidi' },
-  nusantara: { style: 'Hadrah and rebana (Simtud Durar mawlid)', ens: 'hadrah', bpm: 100, birds: ['bulbul', 'sunbird'], breeze: 0.08, why: "Three interlocking rebana parts, the drumming of the Ba'alawi mawlid gatherings" },
+  nusantara: { style: 'Hadrah and rebana (Simtud Durar, Blessed Mawlid)', ens: 'hadrah', bpm: 100, birds: ['bulbul', 'sunbird'], breeze: 0.08, why: "Three interlocking rebana parts, the drumming of the Ba'alawi Blessed Mawlid gatherings" },
   kubachi: { style: 'Qadiri zikr (North Caucasus)', ens: 'zikr', bpm: 104, birds: ['lark', 'goldfinch'], breeze: 0.1, why: 'Stamping feet alone, then the drum joins and the circle gets faster and faster' },
   tatar: { style: 'Tatar munajat and bayt (fitting style)', ens: 'wahda', bpm: 84, birds: ['lark', 'sparrow'], breeze: 0.1, why: 'Tatar munajat are sung without drums, so this is one soft frame drum. Please check' },
   hui: { style: 'Hui Sufi chant (fitting style)', ens: 'wahda', bpm: 80, birds: ['nightingale', 'sparrow'], breeze: 0.07, why: 'Hui menhuan chanting has no frame drum that I know of, so this is one calm drum. Please check' },
   // Art and prayer themes with no single culture: fitting Arabic inshad styles
   emerald: { style: 'Arabic inshad (Levant and Egypt)', ens: 'maqsum', bpm: 100, birds: ['bulbul', 'goldfinch'], breeze: 0.08, why: 'Maqsum, the everyday rhythm of inshad on the daff' },
   onyx: { style: 'Muwashshah inshad (Aleppo and Damascus)', ens: 'semai', bpm: 92, birds: ['bulbul', 'sunbird'], breeze: 0.06, why: "Sama'i thaqil, the grand 10/8 of the muwashshahat" },
-  rawdah: { style: 'Mawlid and madih', ens: 'baladi', bpm: 100, birds: ['bulbul', 'sunbird', 'goldfinch', 'canary'], breeze: 0.09, why: 'A joyful daff circle with claps under a garden chorus' },
+  rawdah: { style: 'Blessed Mawlid and madih', ens: 'baladi', bpm: 100, birds: ['bulbul', 'sunbird', 'goldfinch', 'canary'], breeze: 0.09, why: 'A joyful daff circle with claps under a garden chorus' },
   fajr: { style: 'Gentle dawn inshad', ens: 'wahda', bpm: 76, birds: ['lark', 'robin', 'sparrow'], breeze: 0.07, why: 'One soft drum; the dawn chorus wakes' },
   duha: { style: 'Arabic inshad', ens: 'maqsum', bpm: 108, birds: ['sunbird', 'bulbul'], breeze: 0.08, why: 'Maqsum; bright and light, like late morning' },
   zuhr: { style: 'Arabic inshad', ens: 'saidi', bpm: 108, birds: ['sparrow', 'lark'], breeze: 0.06, why: "Sa'idi; strong and clear like noon light" },
@@ -904,7 +904,7 @@ export const ISLAMIC_TUNES: Partial<Record<ThemeId, TuneSpec>> = {
   isha: { style: 'Muwashshah inshad', ens: 'semai', bpm: 88, birds: ['nightingale', 'robin'], breeze: 0.06, g: 0.4, why: "Sama'i thaqil, slow and calm for the night" },
   qiyam: { style: 'Quiet night dhikr', ens: 'wahda', bpm: 70, birds: ['nightingale'], breeze: 0.05, g: 0.32, why: 'A very soft drum; the still of the night and one nightingale' },
   jumuah: { style: 'Gulf nasheed', ens: 'khaliji', bpm: 100, birds: ['bulbul', 'canary', 'sunbird'], breeze: 0.09, why: 'Off-beat group clapping and many daffs; the grandest, for a festive Friday' },
-  mawlid: { style: "Mawlid hadrah (Ba'alawi)", ens: 'hadrah', bpm: 96, birds: ['nightingale', 'bulbul', 'sunbird', 'canary'], breeze: 0.09, why: 'The interlocking hadrah of the Mawlid gatherings; every bird sings' },
+  mawlid: { style: "Blessed Mawlid hadrah (Ba'alawi)", ens: 'hadrah', bpm: 96, birds: ['nightingale', 'bulbul', 'sunbird', 'canary'], breeze: 0.09, why: 'The interlocking hadrah of the Blessed Mawlid gatherings; every bird sings' },
 }
 
 /**
