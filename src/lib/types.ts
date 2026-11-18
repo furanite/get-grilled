@@ -161,6 +161,8 @@ export interface Game {
   startedAt: number
   /** When the whole-game clock runs out (epoch ms), if the host set a game length */
   endsAt?: number
+  /** Whose turn it is to pick a tile: a random team starts, then each team in turn */
+  turn?: number
   /** Right answers in a row, per team (streak bonus) */
   streaks?: number[]
   stage?: Stage

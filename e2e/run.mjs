@@ -502,7 +502,7 @@ try {
   })
 
   await test('fun extras: steal and audience tiles, streak bonus, comeback, lightning round and final question', async () => {
-    const page = await newPage()
+    const page = await newPage({ keepIntro: true })
     await page.goto(URL)
     await page.getByRole('button', { name: /new game/i }).click()
     await page.waitForSelector('.cat-pick')
@@ -535,7 +535,7 @@ try {
       await openTile(page, `${c}-${l}`, { keepIntro: true })
       if (clue.special || clue.golden) {
         // The tile says what it is; no question and no timer until Next
-        assert(await page.getByTestId('tile-intro').isVisible(), 'special tile explains itself')
+        assert(await page.getByTestId('tile-intro').isVisible(), `special tile explains itself (${clue.special} ${clue.golden}) ` + (await page.textContent('[data-testid="clue"]')).slice(0, 200))
         assert(!(await page.getByTestId('question').count()) && !(await page.getByTestId('timer').count()), 'question waits for Next')
         await page.keyboard.press('Enter')
         await page.waitForSelector('[data-testid="question"]')

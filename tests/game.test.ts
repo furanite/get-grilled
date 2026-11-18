@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { adjustScore, MAX_ADJUST, chooseGolden, createGame, drawCategory, exportCategory, isFinished, isPlayable, markUsed, parseImportedCategory, score, standings } from '../src/lib/game'
+import { adjustScore, MAX_ADJUST, chooseGolden, createGame, drawCategory, exportCategory, isFinished, isPlayable, markUsed, parseImportedCategory, score, standings, turnTeam } from '../src/lib/game'
 import type { Category } from '../src/lib/types'
 
 function seeded(seed = 1) {
@@ -116,6 +116,20 @@ describe('createGame', () => {
     expect(golden).toBe(2)
     expect(Object.keys(used)).toHaveLength(6)
     expect(game.teams).toEqual([{ name: 'One', score: 0 }, { name: 'Two', score: 0 }])
+  })
+
+  it('starts with a random team and passes the turn round one team at a time', () => {
+    const starts = new Set<number>()
+    for (let seed = 1; seed < 40; seed++) starts.add(createGame(cats, ['A', 'B', 'C'], { timer: 0, deduct: false, golden: 0 }, {}, seeded(seed)).game.turn!)
+    expect([...starts].sort()).toEqual([0, 1, 2])
+    let { game } = createGame(cats, ['A', 'B', 'C'], { timer: 0, deduct: false, golden: 0 }, {}, seeded(3))
+    const first = game.turn!
+    game = markUsed(game, 0, 0)
+    expect(game.turn).toBe((first + 1) % 3)
+    game = markUsed(game, 0, 0) // the same tile again changes nothing
+    expect(game.turn).toBe((first + 1) % 3)
+    game = markUsed(markUsed(game, 1, 0), 2, 0)
+    expect(turnTeam(game)).toBe(first)
   })
 
   it('rejects too few or too many categories and teams', () => {

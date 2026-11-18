@@ -1044,3 +1044,5 @@ body{overflow-wrap:break-word}
 /* Study tips and rules pop-ups */
 .legal-panel.guide .legal-body h2{font-family:var(--fd);font-size:18px;margin:14px 0 2px;color:var(--accent)}
 .legal-panel.guide .legal-body section:first-of-type h2{margin-top:6px}
+/* Whose turn it is to pick a tile */
+.scores .team.turn{outline:2px solid var(--accent);outline-offset:2px;box-shadow:0 0 18px -4px var(--glow)}
