@@ -321,4 +321,181 @@ b = f'<rect x="20" y="70" width="140" height="60" rx="6" {S}/><rect x="340" y="7
 b += line(160, 100, 340, 100) + line(185, 85, 185, 115) + line(310, 100, 340, 80) + line(310, 100, 340, 120) + line(310, 85, 310, 115)
 svg('er-one-to-many', 500, 200, b)
 
+
+# ---------- Harder diagrams so every Diagram Night level has pictures (2026-11-18) ----------
+def nand(x, y): return and_body(x, y) + f'<circle cx="{x+109}" cy="{y+50}" r="9" {S}/>'
+def nor(x, y): return or_body(x, y) + f'<circle cx="{x+114}" cy="{y+50}" r="9" {S}/>'
+def path(d): return f'<path d="{d}" {S}/>'
+
+# Full adder: two XORs give the sum, two ANDs and an OR give the carry
+b = or_body(200, 35) + xor_extra(200, 35) + or_body(450, 60) + xor_extra(450, 60) + and_body(450, 220) + and_body(450, 380) + or_body(650, 300)
+b += line(40, 60, 197, 60) + line(40, 110, 197, 110) + line(40, 295, 450, 295)
+b += path('M120,60 V405 H450') + dot(120, 60) + path('M150,110 V455 H450') + dot(150, 110)
+b += path('M305,85 H447') + path('M360,85 V245 H450') + dot(360, 85)
+b += path('M400,295 V135 H447') + dot(400, 295)
+b += path('M555,110 H800') + path('M550,270 H600 V325 H659') + path('M550,430 H610 V375 H659') + path('M755,350 H800')
+b += label(24, 60, 'A') + label(24, 110, 'B') + label(18, 295, 'Cin', 18) + label(818, 110, 'S') + label(826, 350, 'Cout', 18)
+svg('full-adder', 860, 500, b)
+
+# SR latch from two cross-coupled NOR gates
+b = nor(200, 30) + nor(200, 230)
+b += line(40, 55, 200, 55) + line(40, 305, 200, 305)
+b += path('M323,80 H440') + path('M323,280 H440')
+b += path('M360,80 V150 L170,205 V255 H200') + dot(360, 80)
+b += path('M380,280 V215 L150,150 V105 H200') + dot(380, 280)
+b += label(24, 55, 'R') + label(24, 305, 'S') + label(458, 80, 'Q') + label(458, 280, 'Q') + thin(450, 263, 466, 263, 2.5)
+svg('sr-latch', 490, 340, b)
+
+# Timing diagram: Q toggles on every rising clock edge (a divide-by-two)
+def wave(y, edges, x0=90, x1=620, hi=0, lo=40):
+    pts, lvl, x = [(x0, y + lo)], 0, x0
+    for e in edges:
+        pts += [(e, y + (hi if lvl else lo)), (e, y + (lo if lvl else hi))]; lvl ^= 1
+    pts.append((x1, y + (hi if lvl else lo)))
+    return poly(pts)
+clk = [110 + 32 * i for i in range(16)]
+b = wave(30, clk) + wave(130, clk[0::2]) + label(45, 50, 'CLK', 18) + label(45, 150, 'Q', 20)
+for e in clk[0::2]: b += f'<path d="M{e},20 V190" stroke="#888" stroke-width="1.5" stroke-dasharray="4 5"/>'
+svg('timing-toggle', 640, 210, b)
+
+# 3-variable Karnaugh map: 1s at 001, 011, 101, 111 and 110 (C + AB)
+cols = ['00', '01', '11', '10']
+ones = {(0, '01'), (0, '11'), (1, '01'), (1, '11'), (1, '10')}
+b = ''
+for r in range(2):
+    for c, bc in enumerate(cols):
+        x, y = 120 + c * 80, 80 + r * 70
+        b += f'<rect x="{x}" y="{y}" width="80" height="70" fill="#fff" stroke="#111" stroke-width="3"/>' + label(x + 40, y + 35, 1 if (r, bc) in ones else 0, 28)
+for c, bc in enumerate(cols): b += label(160 + c * 80, 60, bc, 20)
+b += label(85, 115, '0', 20) + label(85, 185, '1', 20) + label(100, 40, 'A \\ BC', 18)
+svg('kmap-3var', 470, 240, b)
+
+# XOR built from four NAND gates
+b = nand(180, 130) + nand(400, 30) + nand(400, 230) + nand(600, 130)
+b += line(40, 55, 400, 55) + line(40, 305, 400, 305)
+b += path('M110,55 V155 H180') + dot(110, 55) + path('M140,305 V205 H180') + dot(140, 305)
+b += path('M298,180 H340') + path('M340,105 V255') + line(340, 105, 400, 105) + line(340, 255, 400, 255) + dot(340, 180)
+b += path('M518,80 H550 V155 H600') + path('M518,280 H560 V205 H600') + line(718, 180, 780, 180)
+b += label(24, 55, 'A') + label(24, 305, 'B') + label(798, 180, 'Q')
+svg('nand-xor', 820, 340, b)
+
+# Five-stage pipeline chart: four instructions
+ST = ['IF', 'ID', 'EX', 'MEM', 'WB']
+b = ''
+for c in range(8): b += label(150 + c * 70, 30, c + 1, 18)
+for i in range(4):
+    b += label(40, 80 + i * 55, f'i{i+1}', 20)
+    for k, st in enumerate(ST):
+        x = 115 + (i + k) * 70
+        b += f'<rect x="{x}" y="{58 + i*55}" width="70" height="44" fill="#fff" stroke="#111" stroke-width="3"/>' + label(x + 35, 80 + i * 55, st, 17)
+b += label(80, 30, 'cycle', 16)
+svg('pipeline', 690, 290, b)
+
+# Trees and graphs for data structures
+def tree(name, W, H, nodes, edges, fills={}):
+    b = ''.join(line(*nodes[a], *nodes[c]) for a, c in edges)
+    for n, (x, y) in nodes.items():
+        f = fills.get(n, '#fff'); tc = '#fff' if f != '#fff' else '#111'
+        b += f'<circle cx="{x}" cy="{y}" r="22" fill="{f}" stroke="#111" stroke-width="4"/>' + f'<text x="{x}" y="{y}" font-size="20" text-anchor="middle" dominant-baseline="central" font-family="Arial,Helvetica,sans-serif" fill="{tc}">{n}</text>'
+    svg(name, W, H, b)
+tree('avl-left-left', 300, 260, {30: (200, 40), 20: (140, 125), 10: (80, 210)}, [(30, 20), (20, 10)])
+RB = {13: (300, 40), 8: (170, 115), 17: (430, 115), 1: (100, 195), 11: (240, 195), 15: (370, 195), 25: (500, 195), 6: (140, 270), 22: (460, 270), 27: (540, 270)}
+red = {n: '#c0392b' for n in (8, 17, 6, 22, 27)}
+tree('red-black-tree', 600, 310, RB, [(13, 8), (13, 17), (8, 1), (8, 11), (17, 15), (17, 25), (1, 6), (25, 22), (25, 27)], {**{n: '#111' for n in RB}, **red})
+D = {'A': (60, 130), 'B': (200, 50), 'C': (200, 210), 'D': (340, 130), 'E': (470, 130)}
+b = AH
+for a, c in [('A', 'B'), ('A', 'C'), ('B', 'D'), ('C', 'D'), ('D', 'E')]:
+    (x1, y1), (x2, y2) = D[a], D[c]; L = math.hypot(x2 - x1, y2 - y1); ux, uy = (x2 - x1) / L, (y2 - y1) / L
+    b += arrow(x1 + ux * 26, y1 + uy * 26, x2 - ux * 30, y2 - uy * 30)
+b += ''.join(f'<circle cx="{x}" cy="{y}" r="24" fill="#fff" stroke="#111" stroke-width="4"/>' + label(x, y, n) for n, (x, y) in D.items())
+svg('dag', 530, 260, b)
+
+# Bending moment diagrams for a simply supported beam
+def bmd(name, udl):
+    b = AH + f'<rect x="40" y="70" width="400" height="16" {S}/>' + f'<path d="M48,86 l-16,26 h32 Z" {S}/>' + f'<path d="M432,86 l-16,22 h32 Z" {S}/><circle cx="424" cy="114" r="5" {S}/><circle cx="440" cy="114" r="5" {S}/>'
+    if udl:
+        b += f'<path d="M40,30 H440" {S}/>' + ''.join(arrow(x, 30, x, 64) for x in range(50, 441, 39))
+        pts = [(40 + 400 * i / 40, 150 + 110 * 4 * (i / 40) * (1 - i / 40)) for i in range(41)]
+    else:
+        b += arrow(240, 10, 240, 64)
+        pts = [(40, 150), (240, 260), (440, 150)]
+    b += thin(30, 150, 455, 150, 2.5) + f'<path d="M' + ' L'.join(f'{x:.1f},{y:.1f}' for x, y in pts) + ' Z" fill="#f4c7c3" stroke="#c0392b" stroke-width="4" stroke-linejoin="round"/>'
+    b += label(470, 150, 'M', 20, 'start')
+    svg(name, 500, 280, b)
+bmd('bmd-point', False)
+bmd('bmd-udl', True)
+
+# Mohr's circle of stress
+cx, cy, R = 250, 150, 95
+b = AH + f'<path d="M30,{cy} L480,{cy}" stroke="#111" stroke-width="2.5" marker-end="url(#ah)"/><path d="M70,270 L70,20" stroke="#111" stroke-width="2.5" marker-end="url(#ah)"/>'
+b += f'<circle cx="{cx}" cy="{cy}" r="{R}" fill="none" stroke="#c0392b" stroke-width="4"/>'
+a = math.radians(35); px, py = cx + R * math.cos(a), cy - R * math.sin(a); qx, qy = 2 * cx - px, 2 * cy - py
+b += line(px, py, qx, qy) + dot(px, py) + dot(qx, qy) + dot(cx, cy) + dot(cx - R, cy) + dot(cx + R, cy)
+b += label(486, cy + 18, 'σ', 22) + label(88, 22, 'τ', 22) + label(cx - R - 14, cy + 20, 'σ₂', 18) + label(cx + R + 16, cy + 20, 'σ₁', 18)
+svg('mohr-circle', 500, 290, b)
+
+# Fourier series of a square wave, showing the overshoot at each jump
+def sq(x, n=15): return 4 / math.pi * sum(math.sin((2 * k + 1) * x) / (2 * k + 1) for k in range(n))
+graph('fourier-square', sq, -7, 7, -1.6, 1.6, 900)
+
+# Phase portraits
+def portrait(name, traj, arrows_at):
+    W = H = 300; c = 150
+    b = AH + thin(10, c, W - 10, c, 2) + thin(c, 10, c, H - 10, 2)
+    for pts in traj:
+        b += f'<path d="M' + ' L'.join(f'{c + x:.1f},{c - y:.1f}' for x, y in pts) + '" stroke="#c0392b" stroke-width="3" fill="none"/>'
+        for i in arrows_at:
+            if i + 1 < len(pts):
+                (x1, y1), (x2, y2) = pts[i], pts[i + 1]
+                b += f'<path d="M{c + x1:.1f},{c - y1:.1f} L{c + x2:.1f},{c - y2:.1f}" stroke="#c0392b" stroke-width="3" marker-end="url(#ah)"/>'
+    svg(name, W, H, b)
+spirals = []
+for a0 in (0, math.pi):
+    spirals.append([(130 * math.exp(-0.18 * t) * math.cos(t + a0), 130 * math.exp(-0.18 * t) * math.sin(t + a0)) for t in [i * 0.1 for i in range(260)]])
+portrait('phase-spiral', spirals, [12, 70, 140])
+sad = []
+for k in (-1, 1):
+    for m in (-1, 1):
+        for c0 in (8, 30):
+            pts = []
+            for i in range(120):
+                t = i * 0.04
+                x, y = k * 140 * math.exp(-t), m * c0 * math.exp(t)
+                if abs(y) > 140: break
+                pts.append((x, y))
+            sad.append(pts)
+sad += [[(k * 140 * math.exp(-i * 0.05), 0) for i in range(40)] for k in (-1, 1)] + [[(0, k * 4 * math.exp(i * 0.05)) for i in range(70)] for k in (-1, 1)]
+portrait('phase-saddle', sad, [15])
+
+# Decaying vibration with two successive peaks marked
+W, H = 520, 260
+f = lambda t: math.exp(-0.25 * t) * math.cos(2 * math.pi * t / 2.0)
+sx = lambda t: 40 + t / 12 * 460; sy = lambda v: 130 - v * 100
+b = AH + f'<path d="M40,130 L505,130" stroke="#111" stroke-width="2.5" marker-end="url(#ah)"/><path d="M40,245 L40,15" stroke="#111" stroke-width="2.5" marker-end="url(#ah)"/>'
+b += '<path d="M' + ' L'.join(f'{sx(t):.1f},{sy(f(t)):.1f}' for t in [i * 0.02 for i in range(601)]) + '" stroke="#c0392b" stroke-width="4" fill="none"/>'
+for t, n in ((2.0, '₁'), (4.0, '₂')):
+    b += f'<path d="M{sx(t):.1f},130 V{sy(f(t)):.1f}" stroke="#111" stroke-width="2" stroke-dasharray="5 4"/>' + label(sx(t) + 18, sy(f(t)) - 14, 'x' + n, 20)
+b += label(510, 150, 't', 18) + label(56, 18, 'x', 18)
+svg('damped-peaks', W, H, b)
+
+# Two springs in series holding a mass
+def zig(x0, x1, y, n=8, a=14):
+    pts = [(x0, y)] + [(x0 + 15 + (x1 - x0 - 30) * (i + 0.5) / n, y + (a if i % 2 else -a)) for i in range(n)] + [(x1 - 15, y), (x1, y)]
+    return poly([(x0, y), (x0 + 15, y)] + pts[1:], w=3.5)
+b = thin(40, 40, 40, 160, 4) + ''.join(thin(40, y, 28, y + 12, 2) for y in range(40, 160, 12))
+b += zig(40, 190, 100) + f'<rect x="190" y="88" width="14" height="24" fill="#111"/>' + zig(204, 354, 100)
+b += f'<rect x="354" y="60" width="90" height="80" rx="4" {S}/>' + label(399, 100, 'm') + label(115, 65, 'k₁') + label(279, 65, 'k₂')
+b += thin(354, 150, 444, 150, 3)
+svg('springs-series', 470, 180, b)
+
+# Resonance: amplitude ratio against frequency ratio for several damping ratios
+W, H = 420, 280
+sx = lambda r: 50 + r / 2.5 * 350; sy = lambda a: 250 - a / 5.5 * 220
+b = AH + f'<path d="M50,250 L410,250" stroke="#111" stroke-width="2.5" marker-end="url(#ah)"/><path d="M50,250 L50,15" stroke="#111" stroke-width="2.5" marker-end="url(#ah)"/>'
+for z in (0.1, 0.2, 0.35, 0.7):
+    pts = [(sx(r), sy(min(5.4, 1 / math.sqrt((1 - r * r) ** 2 + (2 * z * r) ** 2)))) for r in [i * 0.0125 for i in range(201)]]
+    b += '<path d="M' + ' L'.join(f'{x:.1f},{y:.1f}' for x, y in pts) + '" stroke="#c0392b" stroke-width="3" fill="none"/>'
+b += f'<path d="M{sx(1)},250 V20" stroke="#888" stroke-width="1.5" stroke-dasharray="5 5"/>' + label(sx(1), 266, '1', 18) + label(400, 268, 'ω/ωₙ', 16) + label(70, 20, 'X/X₀', 16, 'start')
+svg('resonance-curves', W, H, b)
+
 print('ok', len(os.listdir(OUT)))

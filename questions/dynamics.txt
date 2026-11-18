@@ -519,3 +519,6 @@ The English scientist who first used the word 'energy' in its modern sense, in 1
 In 1829 Coriolis put this factor in front of m v² to define kinetic energy. :: One half
 Ernst Mach criticised Newton's absolute space in this 1883 book. :: The Science of Mechanics
 In 1971 an Apollo 15 astronaut dropped a hammer and this together on the Moon. :: A feather
+For the decaying vibration shown, what is ln(x₁ / x₂) called? {img:damped-peaks.svg} :: The logarithmic decrement
+Two springs k₁ and k₂ hold the mass in series, as drawn. What is the equivalent stiffness? {img:springs-series.svg} :: k₁k₂ / (k₁ + k₂)
+These curves of amplitude against frequency ratio peak near 1, more sharply for less damping. What effect do they show? {img:resonance-curves.svg} :: Resonance (the frequency response for different damping ratios)

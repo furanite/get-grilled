@@ -416,6 +416,9 @@ The 1978 array design by Kung and Leiserson in which data pulses through a grid 
 The bottleneck between CPU and memory named after a famous design. :: Von Neumann bottleneck
 The "memory wall" describes processor speed growing much faster than this. :: Memory speed (latency)
 The graph that plots performance against arithmetic intensity, with a sloped and a flat part. :: Roofline model
+Name this circuit, which adds A, B and a carry-in. {img:full-adder.svg} :: Full adder
+Name this memory circuit made of two cross-coupled NOR gates. {img:sr-latch.svg} :: SR latch (set-reset latch)
+In this timing diagram, Q changes on every rising clock edge. Which flip-flop does this with its input held at 1? {img:timing-toggle.svg} :: T flip-flop (toggle), which halves the clock frequency
 
 ## 500
 The number of Boolean functions of n variables, as a formula. :: 2^(2^n)
@@ -518,3 +521,6 @@ The Cerebras chip notable for being a whole wafer. :: Wafer-Scale Engine
 The number of transistors in a CMOS inverter. :: 2
 The number of address lines on the Intel 8086, giving 1 MB of memory. :: 20
 The number of transistors in the cross-coupled inverter pair of a 6T SRAM cell. :: 4
+Simplify the function in this Karnaugh map. {img:kmap-3var.svg} :: C + AB
+Four NAND gates wired like this make which logic gate? {img:nand-xor.svg} :: XOR (exclusive OR)
+In this 5-stage pipeline chart, how many clock cycles do the four instructions take in total? {img:pipeline.svg} :: 8

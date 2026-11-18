@@ -520,3 +520,6 @@ The English mathematician who invented the slide rule around 1622. :: William Ou
 The English pioneer who designed the Difference Engine to print maths tables. :: Charles Babbage
 The writer of the first published computer program, to compute Bernoulli numbers. :: Ada Lovelace
 The meteorologist who led the first computer weather forecasts on ENIAC in 1950. :: Jule Charney
+This Fourier series of a square wave overshoots by about 9% next to each jump. What is the overshoot called? {img:fourier-square.svg} :: The Gibbs phenomenon
+Every path in this phase portrait spirals into the origin. What kind of equilibrium point is it? {img:phase-spiral.svg} :: A stable spiral (stable focus): complex eigenvalues with a negative real part
+What kind of equilibrium point does this phase portrait show? {img:phase-saddle.svg} :: A saddle point (real eigenvalues of opposite signs)
