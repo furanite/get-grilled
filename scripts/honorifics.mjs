@@ -7,7 +7,7 @@ import { fileURLToPath } from 'node:url'
 const SAW = 'ﷺ'
 const AS = /\((عليه|عليها|عليهما|عليهم|عليهن) السلام\)|[\uFD47-\uFD49\uFD4D]/
 const RA = /\(رِضْوَانُ اللَّهِ عَلَيْ(هِ|هَا|هِمَا|هِمْ|هِنَّ)\)|[\uFD41-\uFD45]/
-const RH = /رحمة الله (عليه|عليها|عليهما|عليهم)|[\uFD40\uFD4F]/
+const RH = /رحمة الله (عليه|عليها|عليهما|عليهم)|[\uFD40\uFD4F]|حفظه?(ها|هما|هم)? الله/ // حفظه الله: living scholars
 
 export const PROPHETS = ['Adam', 'Idris', 'Nuh', 'Hud', 'Salih', 'Ibrahim', "Isma'il", 'Ishaq', "Ya'qub", 'Yusuf', 'Lut', "Shu'ayb", 'Ayyub', 'Dhul-Kifl', 'Musa', 'Harun', 'Dawud', 'Sulayman', 'Ilyas', "al-Yasa'", 'Yunus', 'Zakariyya', 'Yahya', "'Isa", 'al-Khidr', 'Khidr', 'Maryam', 'Hajar']
 export const ANGELS = ['Jibril', "Mika'il", 'Israfil', "'Izra'il", 'Ridwan', 'Malik the angel']
@@ -21,7 +21,7 @@ COMPANIONS.push(...EXTRA.companions)
 export const SCHOLARS = JSON.parse(readFileSync(join(dirname(fileURLToPath(import.meta.url)), 'honorific-scholars.json'), 'utf8'))
 
 // Book titles and phrases where a name is not a mention of the person.
-const BOOKPRE = /(Usul|Suhuf|Dar|Sahih|Sunan|Musnad|Muwatta'|Alfiyyat|Alfiyyah|Sharh|Tafsir|Sirat|Jami'|Mukhtasar|Risalat|Tabaqat|Muqaddimah|Tarikh|Matn|Hashiyat|Mustadrak|Shama'il|Tahdhib|Dala'il|Surah|Surat|Maqam|Masjid|Bab|Jabal|Bi'r|Well of|Mosque of|Station of|madhhab of|school of|Ghazwat|Battle of|Day of)\s+(Abi\s+|Ibn\s+|al-|Imam\s+|the\s+)?$/i
+const BOOKPRE = /(Maqalat|Usul|Suhuf|Dar|Sahih|Sunan|Musnad|Muwatta'|Alfiyyat|Alfiyyah|Sharh|Tafsir|Sirat|Jami'|Mukhtasar|Risalat|Tabaqat|Muqaddimah|Tarikh|Matn|Hashiyat|Mustadrak|Shama'il|Tahdhib|Dala'il|Surah|Surat|Maqam|Masjid|Bab|Jabal|Bi'r|Well of|Mosque of|Station of|madhhab of|school of|Ghazwat|Battle of|Day of)\s+(Abi\s+|Ibn\s+|al-|Imam\s+|the\s+)?$/i
 const NOT_PERSON_AFTER = /^(\s+(order|tariqah|Order)\b|\s+\(Osman\)|\s+\(fit|'s (Mosque|well|station|madhhab|school|book|Sahih|Muwatta'|Musnad|Sunan|Jami')|\s+(Mosque|school|madhhab|reading|recitation|recited))/
 
 const esc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')

@@ -1,0 +1,95 @@
+id: isl-scholars-modern
+name: Contemporary scholars
+nameAr: علماء معاصرون
+group: islamichistory
+# Sunni scholars of the last century and today. Those who have passed away carry رحمة الله عليه (رحمة الله عليها for a woman); living scholars carry حفظه الله.
+# No Wahhabi, Deobandi, Muslim Brotherhood or sectarian figures. Dates: hijri first, then CE.
+
+## 100
+The Egyptian scholar whose television talks on the Qur'an, "Khawatir", made him loved across the Arab world. :: Shaykh Muhammad Mutawalli al-Sha'rawi رحمة الله عليه || H: Tafsir al-Sha'rawi (Khawatir)
+The Syrian scholar of Damascus, author of "Fiqh al-Sirah", who was martyred while teaching in a mosque in 1434 AH / 2013 CE. :: Shaykh Muhammad Sa'id Ramadan al-Buti رحمة الله عليه || H: Standard biography
+The Tunisian scholar whose great tafsir is called "al-Tahrir wa-l-Tanwir". :: Shaykh Muhammad al-Tahir ibn 'Ashur رحمة الله عليه || H: al-Tahrir wa-l-Tanwir
+The Syrian scholar whose many-volume work "al-Fiqh al-Islami wa-Adillatuh" sets out the views of the schools. :: Shaykh Wahbah al-Zuhayli رحمة الله عليه || H: al-Fiqh al-Islami wa-Adillatuh
+The scholar of Makkah al-Mukarramah, of the family of our Beloved Prophet ﷺ, who wrote "Mafahim Yajibu an Tusahhah". :: Sayyid Muhammad ibn 'Alawi al-Maliki رحمة الله عليه || H: Mafahim Yajibu an Tusahhah
+The Kurdish scholar of Turkey whose many-part tafsir and teaching are called the "Risale-i Nur". :: Bediüzzaman Sa'id Nursi رحمة الله عليه || H: Risale-i Nur Külliyatı
+The scholar of Tarim in Yemen who founded the school Dar al-Mustafa. :: Habib 'Umar ibn Hafiz حفظه الله || H: Standard biography
+The Egyptian scholar who has been Shaykh al-Azhar since 1431 AH / 2010 CE. :: Shaykh Ahmad al-Tayyib حفظه الله || H: Standard biography (al-Azhar)
+The Egyptian scholar who was Grand Mufti of Egypt from 1424 AH / 2003 CE to 1434 AH / 2013 CE. :: Shaykh 'Ali Jum'ah حفظه الله || H: Standard biography (Dar al-Ifta' al-Misriyyah)
+The last Shaykh al-Islam of the Ottoman state, who passed away in Cairo. :: Shaykh Mustafa Sabri رحمة الله عليه || H: al-A'lam (al-Zirikli)
+The Ottoman scholar, deputy of the last Shaykh al-Islam, famous for his defence of the Hanafi school and of Ash'ari and Maturidi creed. :: Shaykh Muhammad Zahid al-Kawthari رحمة الله عليه || H: al-A'lam (al-Zirikli)
+The Palestinian-born judge and poet who gathered "Jami' Karamat al-Awliya'" and al-Majmu'ah al-Nabhaniyyah. :: Shaykh Yusuf al-Nabhani رحمة الله عليه || H: al-A'lam (al-Zirikli)
+The Grand Mufti of Egypt whose short tafsir "Safwat al-Bayan" is printed in the margin of many mushafs. :: Shaykh Hasanayn Muhammad Makhluf رحمة الله عليه || H: Safwat al-Bayan li-Ma'ani al-Qur'an
+The Shaykh al-Azhar known as "the Ghazali of this age", who wrote on tasawwuf and the Blessed Seerah. :: Shaykh 'Abd al-Halim Mahmud رحمة الله عليه || H: Standard biography (al-Azhar)
+The Mauritanian scholar of Maliki fiqh and usul who leads the Forum for Promoting Peace in Muslim Societies. :: Shaykh 'Abdullah ibn Bayyah حفظه الله || H: Standard biography
+The Yemeni preacher of Tarim who founded the Tabah Foundation in Abu Dhabi. :: Habib 'Ali al-Jifri حفظه الله || H: Standard biography (Tabah Foundation)
+
+## 200
+Shaykh al-Sha'rawi رحمة الله عليه passed away in this year. :: 1419 AH / 1998 CE || H: Standard biography
+Shaykh Muhammad al-Tahir ibn 'Ashur رحمة الله عليه wrote this book on the higher aims of the Shari'ah. :: Maqasid al-Shari'ah al-Islamiyyah || H: Maqasid al-Shari'ah al-Islamiyyah
+Shaykh Wahbah al-Zuhayli رحمة الله عليه also wrote this full tafsir of the Qur'an. :: al-Tafsir al-Munir || H: al-Tafsir al-Munir
+Shaykh al-Buti's رحمة الله عليه book on the Blessed Seerah, much taught in schools and mosques. :: Fiqh al-Sirah al-Nabawiyyah || H: Fiqh al-Sirah al-Nabawiyyah
+The Syrian scholar of hadith whose "Manhaj al-Naqd fi 'Ulum al-Hadith" is taught in many universities. :: Shaykh Nur al-Din 'Itr رحمة الله عليه || H: Manhaj al-Naqd fi 'Ulum al-Hadith
+The scholar of Aleppo who wrote the book "Sayyiduna Muhammad Rasul Allah ﷺ" on the qualities of our Beloved Prophet ﷺ. :: Shaykh 'Abdullah Siraj al-Din رحمة الله عليه || H: Sayyiduna Muhammad Rasul Allah ﷺ
+The Indonesian-born scholar of Makkah al-Mukarramah called "Musnid al-Dunya" for his many chains of narration. :: Shaykh Muhammad Yasin al-Fadani رحمة الله عليه || H: Standard biography
+The Syrian jurist whose "al-Madkhal al-Fiqhi al-'Amm" opened Islamic law to modern legal study. :: Shaykh Mustafa Ahmad al-Zarqa' رحمة الله عليه || H: al-Madkhal al-Fiqhi al-'Amm
+The great hadith scholar of Damascus, called "Muhaddith al-Sham", who passed away in 1354 AH / 1935 CE. :: Shaykh Badr al-Din al-Hasani رحمة الله عليه || H: al-A'lam (al-Zirikli)
+Sayyid Muhammad ibn 'Alawi al-Maliki رحمة الله عليه passed away in this year. :: 1425 AH / 2004 CE || H: Standard biography
+Shaykh Muhammad Zahid al-Kawthari رحمة الله عليه passed away in this city. :: Cairo || H: al-A'lam (al-Zirikli)
+The Hanafi scholar of Bareilly in India, author of many works and of a famous Urdu book of Naat. :: Imam Ahmad Rida Khan رحمة الله عليه || H: Hada'iq-e Bakhshish
+Shaykh Sa'id Nursi رحمة الله عليه was given this title, meaning "the wonder of the age". :: Bediüzzaman || H: Risale-i Nur Külliyatı (Tarihçe-i Hayat)
+The city in southeast Turkey where Shaykh Sa'id Nursi رحمة الله عليه passed away in 1379 AH / 1960 CE. :: Urfa (Şanlıurfa) || H: Tarihçe-i Hayat
+The school in Tarim, for women, linked with Habib 'Umar ibn Hafiz حفظه الله. :: Dar al-Zahra' || H: Standard reference
+Shaykh Mustafa Sabri's رحمة الله عليه great work defending the faith against materialism and doubt. :: Mawqif al-'Aql wa-l-'Ilm wa-l-'Alim || H: Mawqif al-'Aql
+
+## 300
+Shaykh 'Abd al-Halim Mahmud رحمة الله عليه passed away in this year. :: 1398 AH / 1978 CE || H: Standard biography (al-Azhar)
+Shaykh Muhammad al-Tahir ibn 'Ashur رحمة الله عليه passed away in this year. :: 1393 AH / 1973 CE || H: al-A'lam (al-Zirikli)
+Shaykh Wahbah al-Zuhayli رحمة الله عليه passed away in this year. :: 1436 AH / 2015 CE || H: Standard biography
+Shaykh Nur al-Din 'Itr رحمة الله عليه passed away in this year. :: 1442 AH / 2020 CE || H: Standard biography
+The Moroccan hadith scholar of Tangier, of the Siddiqi family, who passed away in 1413 AH / 1993 CE. :: Shaykh 'Abdullah ibn al-Siddiq al-Ghumari رحمة الله عليه || H: Standard biography
+The Shadhili shaykh of Damascus, Algerian by birth, who wrote "Miftah al-Jannah" on Ash'ari creed. :: Shaykh Muhammad al-Hashimi al-Tilmisani رحمة الله عليه || H: Standard biography
+The Shadhili shaykh of Damascus, a weaver by trade and a poet of Sufi verse. :: Shaykh 'Abd al-Rahman al-Shaghouri رحمة الله عليه || H: Standard biography
+The Grand Mufti of Egypt who wrote "Tathir al-Fu'ad" against those who attack the visiting of graves and seeking blessings. :: Shaykh Muhammad Bakhit al-Muti'i رحمة الله عليه || H: Tathir al-Fu'ad min Danas al-I'tiqad
+The scholar of Jeddah from Hadramawt, a teacher of many Habibs, who passed away in 1431 AH / 2010 CE. :: Habib 'Abd al-Qadir al-Saqqaf رحمة الله عليه || H: Standard biography
+Yusuf al-Nabhani's رحمة الله عليه book of proofs for seeking the help of our Beloved Prophet ﷺ. :: Shawahid al-Haqq || H: Shawahid al-Haqq
+Shaykh al-Buti's رحمة الله عليه book defending the four schools against those who reject following a madhhab. :: al-La-Madhhabiyyah || H: al-La-Madhhabiyyah Akhtar Bid'ah Tuhaddid al-Shari'ah al-Islamiyyah
+Shaykh al-Buti's رحمة الله عليه book on the limits of public interest (maslahah) in the Shari'ah. :: Dawabit al-Maslahah || H: Dawabit al-Maslahah fi al-Shari'ah al-Islamiyyah
+The Egyptian scholar who has served as Shaykh al-Azhar and before that as President of al-Azhar University. :: Shaykh Ahmad al-Tayyib حفظه الله || H: Standard biography (al-Azhar)
+Shaykh 'Ali Jum'ah's حفظه الله book that guides readers into the classical Islamic heritage. :: al-Tariq ila al-Turath al-Islami || H: al-Tariq ila al-Turath al-Islami
+The Syrian scholar of Damascus, a descendant of our Beloved Prophet ﷺ, who teaches the Maliki school and hadith, and whose father was also a scholar of the Umayyad Mosque. :: Shaykh Muhammad Abu al-Huda al-Ya'qubi حفظه الله || H: Standard biography
+The Egyptian scholar of al-Azhar, a student of Shaykh 'Ali Jum'ah حفظه الله, who wrote "Isnad al-Misriyyin". :: Shaykh Usama al-Sayyid al-Azhari حفظه الله || H: Isnad al-Misriyyin
+
+## 400
+Shaykh Mustafa Sabri رحمة الله عليه passed away in this year. :: 1373 AH / 1954 CE || H: al-A'lam (al-Zirikli)
+Shaykh Muhammad Zahid al-Kawthari رحمة الله عليه passed away in this year. :: 1371 AH / 1952 CE || H: al-A'lam (al-Zirikli)
+Shaykh Hasanayn Makhluf رحمة الله عليه passed away in this year. :: 1410 AH / 1990 CE || H: Standard biography
+Shaykh Mustafa al-Zarqa' رحمة الله عليه passed away in this year. :: 1420 AH / 1999 CE || H: Standard biography
+Shaykh Yasin al-Fadani رحمة الله عليه passed away in this year. :: 1410 AH / 1990 CE || H: Standard biography
+Shaykh 'Abdullah Siraj al-Din رحمة الله عليه passed away in this year. :: 1422 AH / 2002 CE || H: Standard biography
+Imam Ahmad Rida Khan رحمة الله عليه passed away in this year. :: 1340 AH / 1921 CE || H: Standard biography
+Shaykh al-Kawthari's رحمة الله عليه many short writings were gathered under this title. :: Maqalat al-Kawthari || H: Maqalat al-Kawthari
+Shaykh al-Kawthari's رحمة الله عليه book on the life of Imam Abu Yusuf رحمة الله عليه. :: Husn al-Taqadi || H: Husn al-Taqadi fi Sirat al-Imam Abi Yusuf al-Qadi
+Shaykh Mustafa al-Zarqa's رحمة الله عليه father, also a scholar, wrote this famous commentary on the legal maxims of the Majallah. :: Sharh al-Qawa'id al-Fiqhiyyah || H: Sharh al-Qawa'id al-Fiqhiyyah (Ahmad al-Zarqa')
+The father of Sayyid Muhammad ibn 'Alawi al-Maliki رحمة الله عليه, also a teacher at the Haram of Makkah al-Mukarramah. :: Sayyid 'Alawi ibn 'Abbas al-Maliki رحمة الله عليه || H: Standard biography
+Sayyid Muhammad ibn 'Alawi al-Maliki رحمة الله عليه wrote this book on the Blessed Mawlid and its proofs. :: Hawl al-Ihtifal bi-Dhikra al-Mawlid al-Nabawi al-Sharif || H: Hawl al-Ihtifal
+Shaykh 'Abd al-Halim Mahmud's رحمة الله عليه autobiography, whose title speaks of Allah's favours to him. :: al-Hamdu Lillah Hadhihi Hayati || H: al-Hamdu Lillah Hadhihi Hayati
+Shaykh 'Abdullah ibn Bayyah's حفظه الله book on the aims of the Shari'ah and usul al-fiqh. :: 'Alaqat Maqasid al-Shari'ah bi-Usul al-Fiqh || H: 'Alaqat Maqasid al-Shari'ah bi-Usul al-Fiqh
+The Hanafi hadith scholar of Aleppo who taught Shaykh Nur al-Din 'Itr رحمة الله عليه and led the Sha'baniyyah school. :: Shaykh 'Abdullah Siraj al-Din رحمة الله عليه || H: Standard biography
+Shaykh al-Kawthari's رحمة الله عليه notes are printed with this book by al-Bayhaqi رحمة الله عليه on the Names and Attributes of Allah. :: al-Asma' wa-l-Sifat || H: al-Asma' wa-l-Sifat (al-Kawthari's edition)
+
+## 500
+The commentary by Shaykh al-Buti رحمة الله عليه on a Sufi classic, the Hikam of Ibn 'Ata' Allah رحمة الله عليه. :: Sharh al-Hikam al-'Ata'iyyah || H: al-Hikam al-'Ata'iyyah: Sharh wa Tahlil
+Shaykh al-Buti's رحمة الله عليه great book on the proofs of creed, "the major certainties of the universe". :: Kubra al-Yaqiniyyat al-Kawniyyah || H: Kubra al-Yaqiniyyat al-Kawniyyah
+Shaykh al-Kawthari's رحمة الله عليه book answering what al-Khatib al-Baghdadi رحمة الله عليه reported against Imam Abu Hanifah رحمة الله عليه. :: Ta'nib al-Khatib || H: Ta'nib al-Khatib
+Shaykh 'Abd al-Halim Mahmud رحمة الله عليه wrote a well-known study of this early Sufi, author of al-Ri'ayah li-Huquq Allah. :: al-Harith al-Muhasibi رحمة الله عليه || H: Ustadh al-Sa'irin al-Harith ibn Asad al-Muhasibi
+Shaykh Muhammad Bakhit al-Muti'i رحمة الله عليه passed away in this year. :: 1354 AH / 1935 CE || H: al-A'lam (al-Zirikli)
+Shaykh Yasin al-Fadani رحمة الله عليه was born in Makkah al-Mukarramah but his family came from this town in Sumatra. :: Padang || H: Standard biography
+The Mufti of Hadramawt who wrote "Bughyat al-Mustarshidin", a collection of fatwas of Hadrami scholars. :: Sayyid 'Abd al-Rahman ibn Muhammad al-Mashhur رحمة الله عليه || H: Bughyat al-Mustarshidin
+Shaykh Muhammad al-Tahir ibn 'Ashur رحمة الله عليه led this great mosque and university of Tunis. :: al-Zaytunah || H: al-A'lam (al-Zirikli)
+The son of Shaykh Muhammad al-Tahir ibn 'Ashur رحمة الله عليه, himself a scholar and Mufti of Tunisia, who passed away before his father. :: Shaykh Muhammad al-Fadil ibn 'Ashur رحمة الله عليه || H: al-A'lam (al-Zirikli)
+Shaykh Badr al-Din al-Hasani رحمة الله عليه taught for decades in this great mosque of Damascus. :: The Umayyad Mosque || H: al-A'lam (al-Zirikli)
+Imam Ahmad Rida Khan's رحمة الله عليه Urdu translation of the Qur'an's meanings is called this. :: Kanz al-Iman || H: Kanz al-Iman
+Imam Ahmad Rida Khan's رحمة الله عليه great collection of fatwas is called this. :: al-'Ataya al-Nabawiyyah fi al-Fatawa al-Ridawiyyah (Fatawa Ridawiyyah) || H: Fatawa Ridawiyyah
+Shaykh al-Sha'rawi رحمة الله عليه was born in this year, in the village of Daqadus in Egypt. :: 1329 AH / 1911 CE || H: Standard biography
+Shaykh al-Sha'rawi رحمة الله عليه served for a time as Egypt's Minister of this. :: Awqaf (religious endowments) || H: Standard biography
+The Shafi'i scholar of Hadramawt whose "Safinat al-Naja" commentary "Nayl al-Raja'" is much studied. :: Sayyid Ahmad ibn 'Umar al-Shatiri رحمة الله عليه || H: Nayl al-Raja' bi-Sharh Safinat al-Naja
