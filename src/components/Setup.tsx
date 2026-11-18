@@ -4,10 +4,11 @@ import { catIconSvg as islamicIconSvg } from '../lib/islamic'
 import { ISLAMIC_SET } from '../lib/edition'
 import type { Category, CategorySummary, Game, Lang, Madhhab, PackGroup, PoolEdit } from '../lib/types'
 import { nightIconId } from '../lib/caticons'
-import { VALUES } from '../lib/types'
+import type { RoundMode } from '../lib/types'
+import { ROUND_MODES, VALUES } from '../lib/types'
 import type { Strings } from '../lib/i18n'
 import { num, qCount } from "../lib/i18n"
-import { CLUE_SECS, GAME_MINUTES, applyPool, createGame, filterMadhhab, isPlayable, poolCounts } from '../lib/game'
+import { CLUE_SECS, GAME_MINUTES, MODE_COUNT, applyPool, createGame, filterMadhhab, isPlayable, poolCounts } from '../lib/game'
 import { sfx } from '../lib/sound'
 import { loadNights, loadPack, type Night } from '../lib/packs'
 import { loadMadhhab, loadUsed, saveMadhhab, saveUsed } from '../lib/store'
@@ -65,6 +66,7 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
   const [comeback, setComeback] = useState(true)
   const [lightning, setLightning] = useState(true)
   const [final, setFinal] = useState(true)
+  const [mode, setMode] = useState<RoundMode | ''>('')
   const [nights, setNights] = useState<Night[]>([])
   const [night, setNight] = useState<string | null>(null)
   const [nightNote, setNightNote] = useState('')
@@ -132,8 +134,10 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
       const cats = (await Promise.all(picked.map((id) => custom.find((c) => c.id === id) ?? loadPack(id)))).map((c) => filterMadhhab(applyPool(c, pools[c.id]), madhhab))
       const bad = cats.find((c) => !isPlayable(c))
       if (bad) throw new Error(`“${bad.name}” ${t.incomplete}`)
-      const fun = extras ? { steal, crowd, streak, comeback, lightning, final } : {}
-      const { game, used } = createGame(cats, teams, { timer, deduct, golden, levelTimers, gameMinutes, ...fun }, loadUsed())
+      const fun = extras ? { steal, crowd, streak, comeback, lightning, final, ...(mode ? { mode } : {}) } : {}
+      // A special round borrows from other built-in categories when the picked ones have too few of its items.
+      const more = extras && mode ? await borrowFor(mode, cats) : []
+      const { game, used } = createGame(cats, teams, { timer, deduct, golden, levelTimers, gameMinutes, ...fun }, loadUsed(), Math.random, more)
       if (night) game.night = night
       saveUsed(used)
       sfx.start()
@@ -144,6 +148,23 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
       setBusy(false)
     }
   }
+
+  /** How many items of a special round the picked categories have, from the index alone. */
+  const have = (m: RoundMode, ids: string[]) =>
+    ids.reduce((n, id) => {
+      const c = index?.find((x) => x.id === id)
+      const k = custom.find((x) => x.id === id)
+      if (m === 'picture') return n + (c?.pics ?? k?.levels.flat().filter((q) => q.img).length ?? 0)
+      return n + (c?.modes?.[m] ?? 0)
+    }, 0)
+  const borrowFor = async (m: RoundMode, cats: Category[]) => {
+    if (have(m, cats.map((c) => c.id)) >= MODE_COUNT) return []
+    const ids = (index ?? []).filter((c) => !picked.includes(c.id) && (m === 'picture' ? (c.pics ?? 0) > 0 : (c.modes?.[m] ?? 0) > 0)).map((c) => c.id)
+    const pickIds = ids.sort(() => Math.random() - 0.5).slice(0, 4)
+    return Promise.all(pickIds.map((id) => loadPack(id))).catch(() => [])
+  }
+  const offered = ROUND_MODES.filter((m) => (index ?? []).some((c) => (m === 'picture' ? (c.pics ?? 0) > 0 : (c.modes?.[m] ?? 0) > 0)))
+  const borrowing = !!mode && picked.length > 0 && have(mode, picked) < MODE_COUNT
 
   const card = (c: CategorySummary, i: number) => {
     const order = picked.indexOf(c.id)
@@ -405,6 +426,20 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
                 <input type="checkbox" id="final" checked={final} onChange={(e) => setFinal(e.target.checked)} />
                 {t.finalOpt}
               </label>
+              {offered.length > 0 && (
+                <label className="field">
+                  <span className="label">{t.modeOpt}</span>
+                  <select className="input" id="mode" value={mode} onChange={(e) => setMode(e.target.value as RoundMode | '')} data-testid="mode-pick">
+                    <option value="">{t.modeNone}</option>
+                    {offered.map((m) => (
+                      <option key={m} value={m}>
+                        {t.modeNames[m]}
+                      </option>
+                    ))}
+                  </select>
+                  {borrowing && <small className="muted" data-testid="mode-borrow">{t.modeBorrowed}</small>}
+                </label>
+              )}
             </>
           )}
         </fieldset>

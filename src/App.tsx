@@ -15,7 +15,7 @@ import Home from './components/Home'
 import Setup from './components/Setup'
 import Board from './components/Board'
 import Results from './components/Results'
-import { Final, Lightning } from './components/Rounds'
+import { Final, Lightning, ModeRound } from './components/Rounds'
 import Builder from './components/Builder'
 import StudyMaker from './components/StudyMaker'
 import { AudienceScreen, useAudienceWindow } from './components/Audience'
@@ -50,7 +50,7 @@ export default function App() {
   const audience = useAudienceWindow(APP_NAME)
   const themeRef = useRef(theme)
   const t = STRINGS[lang]
-  const inGame = screen === 'game' || screen === 'lightning' || screen === 'final'
+  const inGame = screen === 'game' || screen === 'mode' || screen === 'lightning' || screen === 'final'
 
   useEffect(() => {
     loadIndex().then(setIndex).catch((e: Error) => setIndexError(e.message))
@@ -100,15 +100,15 @@ export default function App() {
     return startBackground(canvas, () => themeRef.current)
   }, [reduceFx])
 
-  /** After the board, the lightning round, then the final question, then the results (each only if the game has it). */
-  const goNext = (after: 'board' | 'lightning' | 'final') => {
+  /** After the board, the special round, the lightning round, then the final question, then the results (each only if the game has it). */
+  const goNext = (after: 'board' | 'mode' | 'lightning' | 'final') => {
     const nx = game ? nextStage(game, after) : null
     if (nx) {
       setGame((g) => ({ ...g, stage: nx }))
-      setScreen(nx === 'lightning' ? 'lightning' : 'final')
+      setScreen(nx === 'mode' ? 'mode' : nx === 'lightning' ? 'lightning' : 'final')
     } else setScreen('results')
   }
-  const stageScreen = (g: Game): Screen => (g.stage === 'lightning' ? 'lightning' : g.stage === 'final' ? 'final' : 'game')
+  const stageScreen = (g: Game): Screen => (g.stage === 'mode' ? 'mode' : g.stage === 'lightning' ? 'lightning' : g.stage === 'final' ? 'final' : 'game')
 
   const notify = useCallback((text: string) => setToast({ text, id: Date.now() }), [])
 
@@ -236,6 +236,7 @@ export default function App() {
               onLive={HOST_EDITION ? setLive : undefined}
             />
           )}
+          {screen === 'mode' && game && <ModeRound t={t} lang={lang} game={game} setGame={setGame} onDone={() => goNext('mode')} hasFinal={!!nextStage(game, 'mode')} />}
           {screen === 'lightning' && game && <Lightning t={t} lang={lang} game={game} setGame={setGame} onDone={() => goNext('lightning')} hasFinal={!!nextStage(game, 'lightning')} />}
           {screen === 'final' && game && <Final t={t} lang={lang} game={game} setGame={setGame} onDone={() => goNext('final')} />}
           {screen === 'results' && game && (

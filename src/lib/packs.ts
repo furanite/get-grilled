@@ -1,4 +1,4 @@
-import type { Category, CategorySummary, Question } from './types'
+import type { Category, CategorySummary, ItemMode, ModeItem, Question } from './types'
 
 interface PackFile {
   id: string
@@ -6,6 +6,7 @@ interface PackFile {
   nameAr?: string
   respect?: boolean
   levels: { q: string; a: string; qAr?: string; aAr?: string; kind?: 'H' | 'D' | 'F'; src?: string; img?: string; credit?: string; sch?: string; qk?: string }[][]
+  modes?: Partial<Record<ItemMode, ModeItem[]>>
 }
 
 const base = import.meta.env.BASE_URL
@@ -15,7 +16,7 @@ const base = import.meta.env.BASE_URL
  * each clue's words (qk), so ids survive lines being added or moved; older files fall back to the position.
  */
 export function packToCategory(p: PackFile): Category {
-  return {
+  const cat: Category = {
     id: p.id,
     name: p.name,
     nameAr: p.nameAr,
@@ -23,6 +24,8 @@ export function packToCategory(p: PackFile): Category {
     ...(p.respect ? { respect: true } : {}),
     levels: p.levels.map((lvl, li) => lvl.map(({ qk, ...x }, qi): Question => ({ id: `${p.id}-${li}-${qk ?? qi}`, ...x }))),
   }
+  if (p.modes) cat.modes = Object.fromEntries(Object.entries(p.modes).map(([m, list]) => [m, (list ?? []).map((x, i) => ({ ...x, id: `${p.id}-${m}-${i}` }))]))
+  return cat
 }
 
 export async function loadIndex(): Promise<CategorySummary[]> {

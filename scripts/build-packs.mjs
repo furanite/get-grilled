@@ -43,18 +43,43 @@ export function photoCredits() {
   return creditsCache
 }
 
+// Optional sections for the game modes, after the five levels:
+//   ## tf         Statement :: True | False | Halal | Not halal | Legal | Not legal, then an optional reason
+//   ## case       A short scenario to rule on :: The ruling
+//   ## translate  A word or phrase :: Its meaning
+//   ## clues      Hardest clue | easier clue | easiest clue :: Answer   (2 to 6 clues)
+//   ## odd        Item | item | item | item :: The odd item, then why  (4 or 5 items; the answer starts with one of them)
+export const MODES = ['tf', 'case', 'translate', 'clues', 'odd']
+const VERDICTS = [['not halal', 0, 'halal'], ['halal', 1, 'halal'], ['not legal', 0, 'legal'], ['illegal', 0, 'legal'], ['legal', 1, 'legal'], ['true', 1, 'true'], ['false', 0, 'true']]
+
+/** The verdict a true-or-false answer starts with: { v: 1 or 0, k: 'true' | 'halal' | 'legal' }, or null. */
+export function verdictOf(a) {
+  const low = a.toLowerCase()
+  for (const [word, v, k] of VERDICTS) if (low === word || low.startsWith(word + ' ') || low.startsWith(word + ',') || low.startsWith(word + '.') || low.startsWith(word + ' (') || low.startsWith(word + ':')) return { v, k }
+  return null
+}
+
 export function parsePack(text, file = 'pack') {
   const errors = []
   const meta = {}
   const levels = LEVELS.map(() => [])
   const unchecked = []
+  const modes = {}
   let cur = -1
+  let mode = null
   text.split(/\r?\n/).forEach((raw, i) => {
     const line = raw.trim()
     const at = `${file}:${i + 1}`
     if (!line || (line.startsWith('#') && !line.startsWith('##'))) return
     if (line.startsWith('##')) {
       const v = line.slice(2).trim()
+      mode = MODES.includes(v) ? v : null
+      if (mode) {
+        if (modes[mode]) errors.push(`${at} the "## ${v}" section appears twice`)
+        modes[mode] = modes[mode] ?? []
+        cur = 0
+        return
+      }
       cur = LEVELS.indexOf(v)
       if (cur < 0) errors.push(`${at} unknown level "${v}"`)
       return
@@ -77,6 +102,36 @@ export function parsePack(text, file = 'pack') {
       else if (im[1].endsWith('.jpg') && !photoCredits()[im[1]]) errors.push(`${at} photo ${im[1]} has no credit in questions/img/credits.json`)
     } else if (/\{img:/.test(q)) errors.push(`${at} picture must be written {img:name.svg} at the end of the clue`)
     if (!q || !a) { errors.push(`${at} empty clue or answer`); return }
+    if (mode) {
+      const item = img ? { q, a, img, at } : { q, a, at }
+      if (q.length > 360) errors.push(`${at} clue is longer than 360 characters`)
+      if (a.length > 160) errors.push(`${at} answer is longer than 160 characters`)
+      if (mode === 'tf') {
+        const vd = verdictOf(a)
+        if (!vd) errors.push(`${at} a true-or-false answer must start with True, False, Halal, Not halal, Legal or Not legal`)
+        else Object.assign(item, vd)
+      }
+      if (mode === 'clues') {
+        const n = q.split(' | ').length
+        if (n < 2 || n > 6) errors.push(`${at} clue-by-clue needs 2 to 6 clues separated by " | "`)
+      }
+      if (mode === 'odd') {
+        const items = q.split(' | ').map((x) => x.trim().toLowerCase())
+        if (items.length < 4 || items.length > 5) errors.push(`${at} odd one out needs 4 or 5 items separated by " | "`)
+        else if (!items.some((x) => a.toLowerCase().startsWith(x))) errors.push(`${at} the odd-one-out answer must start with one of the items`)
+      }
+      // Religious categories: special-round items carry a source tag too, and "H?" holds one back.
+      if (tagText !== undefined) {
+        const t = /^([HDF])(\?)?(?::\s*(.*))?$/.exec(tagText.trim())
+        if (!t) { errors.push(`${at} source tag must look like "H: source", "D: note" or "F"`); return }
+        if (t[1] === 'H' && !t[3]?.trim()) { errors.push(`${at} historical tag needs a source after "H:"`); return }
+        if (t[2]) return
+        item.kind = t[1]
+        if (t[3]?.trim()) item.src = t[3].trim()
+      } else if (RESPECT_GROUPS.includes(meta.group)) { errors.push(`${at} needs a source tag (" || H: source", " || D" or " || F")`); return }
+      modes[mode].push(item)
+      return
+    }
     if (q.length > 260) errors.push(`${at} clue is longer than 260 characters`)
     if (a.length > 110) errors.push(`${at} answer is longer than 110 characters`)
     const item = img ? { q, a, img, at } : { q, a, at }
@@ -108,8 +163,19 @@ export function parsePack(text, file = 'pack') {
       else seen.set(key, at)
     })
   })
-  const clean = ({ q, a, kind, src, img, credit, sch }) => ({ q: toSigns(q), a: toSigns(a), ...(kind ? { kind } : {}), ...(src ? { src } : {}), ...(img ? { img } : {}), ...(credit ? { credit } : {}), ...(sch ? { sch } : {}) })
-  return { meta, levels: levels.map((l) => l.map(clean)), unchecked: unchecked.map(({ level, at, ...x }) => ({ level, at, ...clean(x) })), errors }
+  for (const [m, list] of Object.entries(modes)) {
+    if (!list.length) errors.push(`${file}: the "## ${m}" section is empty`)
+    const seenM = new Map()
+    for (const { q, at } of list) {
+      const key = q.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim()
+      if (seenM.has(key)) errors.push(`${at} duplicate ${m} item (also at ${seenM.get(key)})`)
+      else seenM.set(key, at)
+    }
+  }
+  const clean = ({ q, a, kind, src, img, credit, sch, v, k }) => ({ q: toSigns(q), a: toSigns(a), ...(kind ? { kind } : {}), ...(src ? { src } : {}), ...(img ? { img } : {}), ...(credit ? { credit } : {}), ...(sch ? { sch } : {}), ...(v !== undefined ? { v, k } : {}) })
+  const out = { meta, levels: levels.map((l) => l.map(clean)), unchecked: unchecked.map(({ level, at, ...x }) => ({ level, at, ...clean(x) })), errors }
+  if (Object.keys(modes).length) out.modes = Object.fromEntries(Object.entries(modes).map(([m, l]) => [m, l.map(({ at, ...x }) => clean(x))]))
+  return out
 }
 
 /** A short key from a question's clue (and picture): the same words give the same key, whatever line they are on. */
@@ -228,7 +294,7 @@ function main() {
   const review = []
   let errors = []
   for (const f of files) {
-    let { meta, levels, unchecked, errors: errs } = parsePack(readFileSync(join(srcDir, f), 'utf8'), f)
+    let { meta, levels, modes, unchecked, errors: errs } = parsePack(readFileSync(join(srcDir, f), 'utf8'), f)
     errors = errors.concat(errs)
     if (unchecked.length) review.push({ name: meta.name, file: f, items: unchecked })
     if (errs.length) continue
@@ -253,19 +319,28 @@ function main() {
       }
       levels.forEach((lvl, li) => lvl.forEach((x) => add(LEVELS[li], x, flagged(reviews.get(questionId(meta.id, x.q, x.a))) ? 'flagged' : undefined)))
       unchecked.forEach((x) => add(x.level, x, 'unchecked'))
+      // Special-round items go on the review list too, under their round's name.
+      for (const [m, l] of Object.entries(modes ?? {})) l.forEach((x) => add(m, x, flagged(reviews.get(questionId(meta.id, x.q, x.a))) ? 'flagged' : undefined))
       writeFileSync(join(reviewOut, `${meta.id}.json`), JSON.stringify({ id: meta.id, name: meta.name, group: meta.group, items }))
       reviewIndex.push({ id: meta.id, name: meta.name, group: meta.group, total: items.length })
       // A line a scholar flagged for correctness or adab stays out of the game until the owner fixes or clears it.
       levels = levels.map((lvl) => lvl.filter((x) => !flagged(reviews.get(questionId(meta.id, x.q, x.a)))))
+      if (modes) modes = Object.fromEntries(Object.entries(modes).map(([m, l]) => [m, l.filter((x) => !flagged(reviews.get(questionId(meta.id, x.q, x.a))))]))
     }
     // PACK_EDITION=islamic builds a site with only the Islamic and Kids collections (used by the Ilm Munfasah site).
     if (process.env.PACK_EDITION === 'islamic' && !respect) continue
     // Each question gets a key made from its own words, so adding, removing or moving lines in a file
     // doesn't change which question a saved "already played" or "taken out of play" mark points to.
     levels = levels.map((l) => l.map((x) => ({ ...x, qk: questionKey(x) })))
-    const pack = { id: meta.id, name: toSigns(meta.name), nameAr: meta.nameAr, group: meta.group, respect, levels }
+    if (modes) modes = Object.fromEntries(Object.entries(modes).map(([m, l]) => [m, l.map((x) => ({ ...x, qk: questionKey(x) }))]))
+    const pack = { id: meta.id, name: toSigns(meta.name), nameAr: meta.nameAr, group: meta.group, respect, levels, ...(modes ? { modes } : {}) }
     writeFileSync(join(outDir, `${meta.id}.json`), JSON.stringify(pack))
-    index.push({ id: meta.id, name: toSigns(meta.name), nameAr: meta.nameAr, group: meta.group, counts: levels.map((l) => l.length) })
+    const entry = { id: meta.id, name: toSigns(meta.name), nameAr: meta.nameAr, group: meta.group, counts: levels.map((l) => l.length) }
+    if (modes) entry.modes = Object.fromEntries(Object.entries(modes).map(([m, l]) => [m, l.length]))
+    // How many picture questions the category has, for the picture round
+    const pics = levels.reduce((n, l) => n + l.filter((q) => q.img).length, 0)
+    if (pics) entry.pics = pics
+    index.push(entry)
     console.log(`${meta.id.padEnd(18)} ${levels.map((l) => String(l.length).padStart(4)).join(' ')}  total ${levels.reduce((s, l) => s + l.length, 0)}  arabic ${arCount}`)
   }
   const ids = index.map((c) => c.id)
