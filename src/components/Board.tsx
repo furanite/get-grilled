@@ -189,7 +189,7 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
                   <span className="main" style={{ ['--w' as string]: Math.max(...main.split(/\s+/).map((w) => w.length)) }}>
                   {main}
                 </span>
-                  {sub && <span className="sub">{sub}</span>}
+                  {sub && <span className="sub" style={{ ['--sw' as string]: Math.max(...sub.split(/\s+/).map((w) => w.length)) }}>{sub}</span>}
                 </div>
               )
             })}

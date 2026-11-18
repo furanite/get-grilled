@@ -1,0 +1,62 @@
+# Fit check: plays every screen at phone, tablet, laptop and projector sizes in Safari's engine (WebKit),
+# Firefox and Chrome, in English and Arabic with long names, and fails if any text spills out of its box.
+# Screenshots of anything that spills are attached to the run.
+name: Fit on every screen
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: fit-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  fit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    strategy:
+      fail-fast: false
+      matrix:
+        browser: [webkit, firefox, chromium]
+        sizes:
+          - galaxy-s,iphone-se,iphone-15,iphone-pro-max
+          - iphone-landscape,ipad,ipad-landscape
+          - laptop,projector-4x3,full-hd
+    env:
+      PACK_EDITION: islamic
+      VITE_THEMESET: islamic
+      VITE_APP_NAME: Munaafasatul Ilm
+      VITE_APP_NAME_AR: منافسة العلم
+      VITE_TITLE: Munaafasatul Ilm
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm i --no-save playwright@1.63.0
+      - run: npx playwright install --with-deps ${{ matrix.browser }}
+      - run: npm run build
+      - name: App screens
+        run: node e2e/fit.mjs
+        env:
+          BROWSER: ${{ matrix.browser }}
+          SIZES: ${{ matrix.sizes }}
+          THEMES: amethyst,rawdah
+      - name: Audience window
+        if: ${{ !cancelled() && contains(matrix.sizes, 'laptop') }}
+        run: npx vite build --mode host --outDir dist-host && node e2e/fit-host.mjs
+        env:
+          BROWSER: ${{ matrix.browser }}
+          THEMES: amethyst,rawdah
+      - uses: actions/upload-artifact@v4
+        if: ${{ !cancelled() }}
+        with:
+          name: fit-${{ matrix.browser }}-${{ strategy.job-index }}
+          path: e2e/fit-shots/
+          if-no-files-found: ignore
