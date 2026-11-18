@@ -177,6 +177,38 @@ export interface Game {
   modeState?: ModeRoundState
   /** The themed night this game was set up from, if any */
   night?: string
+  /** Points multiplier for the board on screen (2 in a double-points tournament round) */
+  mult?: number
+  /** A tournament: several rounds of different kinds, with scores carried from one to the next */
+  tournament?: Tournament
+}
+
+/** Kinds of tournament round: a board, a board at double points, a special round, the lightning round, the final question. */
+export const TOUR_KINDS = ['board', 'double', 'mode', 'lightning', 'final'] as const
+export type TourKind = (typeof TOUR_KINDS)[number]
+
+/** One round of a tournament plan, as the host sets it up. */
+export interface TourStep {
+  kind: TourKind
+  /** Which special round, for kind "mode" */
+  mode?: RoundMode
+}
+
+/** One round of a tournament in play, with what it was drawn with when the game was made. */
+export interface TourRound extends TourStep {
+  /** Board rounds: the categories and the clues */
+  cats?: { id: string; name: string; nameAr?: string }[]
+  clues?: Clue[][]
+  /** Special rounds: the items */
+  items?: ModeItem[]
+}
+
+export interface Tournament {
+  rounds: TourRound[]
+  /** The round being played */
+  at: number
+  /** True while the round's title card is showing, before the host starts it */
+  intro: boolean
 }
 
 /** Themes that exist only on the Islamic site (Munaafasatul Ilm). */
@@ -186,4 +218,4 @@ export type IslamicOnlyTheme = 'rawdah' | 'jumuah' | 'mawlid' | PrayerTheme | Cu
 export type BaseThemeId = Exclude<ThemeId, IslamicOnlyTheme>
 export type ThemeId = 'amethyst' | 'emerald' | 'neon' | 'onyx' | 'rivals' | 'ember' | 'heritage' | IslamicOnlyTheme
 export type Lang = 'en' | 'ar'
-export type Screen = 'home' | 'setup' | 'game' | 'mode' | 'lightning' | 'final' | 'results' | 'builder' | 'review' | 'study'
+export type Screen = 'home' | 'setup' | 'game' | 'mode' | 'lightning' | 'final' | 'results' | 'builder' | 'round' | 'review' | 'study'

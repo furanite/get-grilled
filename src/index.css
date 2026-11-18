@@ -984,6 +984,57 @@ html[data-set="islamic"] .q{line-height:1.6}
 .aud-card{overflow:auto}
 .card .answer,.aud-card .answer{flex:none}
 .aud-card .answer[data-len="l"]{font-size:clamp(22px,2.8vw,48px)}
+/* Tournament: game type switch, round plan, round title cards */
+.seg{display:inline-flex;border:1px solid color-mix(in oklab,var(--text) 18%,transparent);border-radius:999px;padding:3px;gap:3px;align-self:start}
+.seg button{border:0;background:transparent;color:var(--muted);padding:6px 14px;border-radius:999px;font-weight:600}
+.seg button.on{background:var(--accent);color:var(--bg)}
+.extras.tour legend{font-weight:600}
+.plan{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.plan li{display:grid;grid-template-columns:24px minmax(0,1fr) auto auto auto;gap:6px;align-items:center}
+.plan .plan-n{font-family:var(--fd);color:var(--accent);text-align:center}
+.plan .input{padding-block:6px}
+.round-pill{font-size:12px;padding:2px 10px}
+.round-intro{display:flex;flex-direction:column;align-items:center;gap:24px;padding-block:24px;text-align:center}
+.round-card{display:flex;flex-direction:column;align-items:center;gap:14px;width:min(100%,820px);animation:slideIn .6s var(--spring) both}
+.round-title{font-family:var(--fd);font-size:clamp(34px,7vw,72px);margin:0;line-height:1.05;background:linear-gradient(100deg,var(--accent),var(--text) 45%,var(--accent2) 60%,var(--accent));background-size:200% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:shimmer 4s linear infinite}
+.round-help{margin:0;max-width:60ch;color:var(--muted);font-size:clamp(15px,1.8vw,19px)}
+.round-line{list-style:none;margin:6px 0 0;padding:0;display:flex;flex-wrap:wrap;justify-content:center;gap:8px}
+.round-line li{display:flex;align-items:center;gap:8px;padding:6px 12px 6px 6px;border-radius:999px;border:1px solid color-mix(in oklab,var(--text) 14%,transparent);font-size:13px;color:var(--muted)}
+[dir="rtl"] .round-line li{padding:6px 6px 6px 12px}
+.round-line .dot{width:24px;height:24px;border-radius:50%;display:grid;place-items:center;font-weight:700;font-size:12px;background:color-mix(in oklab,var(--text) 10%,transparent)}
+.round-line li.done{opacity:.6}
+.round-line li.done .dot{background:color-mix(in oklab,var(--accent) 40%,transparent);color:var(--text)}
+.round-line li.now{border-color:var(--accent);color:var(--text);box-shadow:0 0 30px -10px var(--glow)}
+.round-line li.now .dot{background:var(--accent);color:var(--bg)}
+.round-standings{width:100%;display:flex;flex-direction:column;align-items:center;gap:6px}
+.round-standings .scores{width:100%;margin-top:0}
+.round-standings .team.lead{border-color:var(--accent)}
+/* Category vote */
+.vote{display:flex;flex-direction:column;gap:14px}
+.vote-turn{font-family:var(--fd);font-size:clamp(24px,4vw,44px);margin:0}
+.vote-turn b{color:var(--accent)}
+.vote-voters{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.vote-voters li{display:flex;flex-direction:column;gap:2px;padding:8px 14px;border-radius:12px;border:1px solid color-mix(in oklab,var(--text) 12%,transparent);min-width:120px}
+.vote-voters li b{font-size:12px;letter-spacing:.08em;color:var(--muted)}
+.vote-voters li span{font-family:var(--fd);font-size:15px}
+.vote-voters li.now{border-color:var(--accent);box-shadow:0 0 28px -10px var(--glow)}
+.vote-voters li.done span{color:var(--accent)}
+.vote-grid .cat-pick.voted{opacity:1;border-color:var(--accent);background:color-mix(in oklab,var(--accent) 18%,transparent)}
+.vote-grid .cat-pick:disabled:not(.voted){opacity:.75}
+.vote-by{color:var(--accent)!important;font-weight:600}
+/* On the projector: bigger type that scales with the window */
+.round-card.big{width:min(100%,1400px);margin-inline:auto;gap:2.4vh}
+.round-card.big .round-title{font-size:clamp(40px,8vw,140px)}
+.round-card.big .round-help{font-size:clamp(18px,2vw,32px)}
+.round-card.big .round-line li{font-size:clamp(13px,1.3vw,22px)}
+.round-card.big .round-line .dot{width:1.8em;height:1.8em;font-size:inherit}
+.vote.big{gap:2vh}
+.vote.big .vote-turn{font-size:clamp(28px,4.6vw,80px)}
+.vote.big .vote-voters li span{font-size:clamp(15px,1.5vw,26px)}
+.vote.big .vote-grid{grid-template-columns:repeat(auto-fill,minmax(min(100%,clamp(180px,17vw,320px)),1fr))}
+.vote.big .cat-pick b{font-size:clamp(16px,1.5vw,26px)}
+.vote.big .cat-pick:disabled{cursor:default}
+.vote.big .vote-grid .cat-pick:disabled:not(.voted){opacity:1}
 
 /* Themed nights: Blessed Mawlid Night shows the ﷺ sign where the others show an icon. */
 .night-sign{font-family:'GG Honorifics',serif;font-size:24px;line-height:1;color:var(--accent)}
