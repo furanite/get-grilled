@@ -1,5 +1,5 @@
 import type { ThemeId } from './types'
-import { renderFx, renderIntro, renderSuspense, renderTitle, ROLL_SECONDS, setSoundBase } from './tune-engine.js'
+import { renderFx, renderIntro, renderSuspense, renderTitle, renderWin, ROLL_SECONDS, setSoundBase } from './tune-engine.js'
 
 /**
  * Most sounds are made in the browser with Web Audio. The title tunes and a few effects also use recorded
@@ -182,13 +182,14 @@ const TUNES: Record<ThemeId, { voice: Voice; notes: [number, number, number?][];
 
 /**
  * The title pieces the owner picked in the Tune Room (16 November 2026). Red vs Blue takes turns between
- * its two picks. Themes not listed keep the short tune below until the owner picks one.
+ * its two picks. Black & Gold switched to the darker noir, Midnight Rain (Set G), on 18 November 2026.
+ * Themes not listed keep the short tune below until the owner picks one.
  */
-const PICKED: Partial<Record<ThemeId, ('a' | 'b' | 'd' | 'e')[]>> = {
+const PICKED: Partial<Record<ThemeId, ('a' | 'b' | 'd' | 'e' | 'g')[]>> = {
   amethyst: ['b'],
   emerald: ['d'],
   neon: ['d'],
-  onyx: ['d'],
+  onyx: ['g'],
   rivals: ['a', 'd'],
   ember: ['d'],
   heritage: ['e'],
@@ -358,10 +359,60 @@ export function prepareSuspense() {
     if (!fxBufs.has(kind) && typeof OfflineAudioContext !== 'undefined') fxBufs.set(kind, renderFx(kind).then((b) => (fxReady[kind] = b), () => null))
   }
   const theme = pageTheme()
+  winBuf(theme)
   for (const kind of ['clock', 'roll'] as const) {
     const key = `${theme}-${kind}`
     suspenseBuf(theme, kind).then((b) => settled.set(key, b))
   }
+}
+// ---- Winner music: each theme's triumphant piece for the results screen (picked 18 November 2026) ----
+const wins = new Map<string, Promise<AudioBuffer | null>>()
+function winBuf(theme: string) {
+  if (!wins.has(theme)) wins.set(theme, typeof OfflineAudioContext === 'undefined' ? Promise.resolve(null) : renderWin(theme).catch(() => null))
+  return wins.get(theme)!
+}
+let winBus: GainNode | null = null
+/**
+ * Plays the theme's winner music. If it is not ready within a moment (or the theme has none), the short
+ * built-in fanfare plays instead. Returns a function that fades the music out.
+ */
+export function winMusic(): () => void {
+  let stopped = false
+  const theme = pageTheme()
+  const fallback = setTimeout(() => {
+    stopped = true
+    fx.win()
+  }, 2500)
+  winBuf(theme).then((buf) => {
+    if (stopped) return
+    clearTimeout(fallback)
+    stopped = true
+    const c = ready()
+    if (!c) return
+    if (!buf) return fx.win()
+    stopWin()
+    const bus = c.createGain()
+    bus.connect(c.destination)
+    winBus = bus
+    const src = c.createBufferSource()
+    src.buffer = buf
+    src.connect(bus)
+    src.start()
+  })
+  return () => {
+    clearTimeout(fallback)
+    stopped = true
+    stopWin()
+  }
+}
+function stopWin() {
+  if (!winBus || !ctx) return
+  const g = winBus.gain, bus = winBus
+  winBus = null
+  g.cancelScheduledValues(ctx.currentTime)
+  g.setValueAtTime(g.value, ctx.currentTime)
+  g.linearRampToValueAtTime(0, ctx.currentTime + 0.6)
+  setTimeout(() => bus.disconnect(), 800)
 }
 // The picked buzzer (time up) and soft drop (wrong answer), made once and kept.
 const fxBufs = new Map<string, Promise<AudioBuffer | null>>()

@@ -16,7 +16,8 @@ function env(g, t, a, peak, d, rel = 0.12) {
   g.gain.setValueAtTime(peak, t + Math.max(a, d - rel))
   g.gain.exponentialRampToValueAtTime(0.0001, t + d + rel)
 }
-function send(node, wet = true) { node.connect(out()); if (wet) node.connect(BUS ? BUS.wet : verb) }
+let MUTE = null // set while a muted-trumpet note is routed through its filter
+function send(node, wet = true) { if (MUTE) return node.connect(MUTE); node.connect(out()); if (wet) node.connect(BUS ? BUS.wet : verb) }
 // A bus fades its dry sound and its reverb send together, so stopping is clean.
 function newBus() { const b = ctx.createGain(); b.connect(master); b.wet = ctx.createGain(); b.wet.connect(verb); return b }
 function fade(b, s = 0.3) { for (const g of [b.gain, b.wet.gain]) { g.cancelScheduledValues(ctx.currentTime); g.setValueAtTime(g.value, ctx.currentTime); g.linearRampToValueAtTime(0, ctx.currentTime + s) } setTimeout(() => { b.disconnect(); b.wet.disconnect() }, s * 1000 + 3000) }
@@ -460,6 +461,132 @@ function heritageQuiet(t0) {
 }
 
 
+
+// ---------- Winner music and the darker noir title (picked in the Tune Room, 18 November 2026) ----------
+const swing = (s) => Math.floor(s) + (s % 1 >= 0.5 ? 2 / 3 : 0) // swing a straight "and" onto the triplet
+function Rbend(inst, m, t, d, g = 1, semis = -5, rel = 0.2) {
+  const ms = MAN[inst]; let near = ms[0]; for (const x of ms) if (Math.abs(x - m) < Math.abs(near - m)) near = x
+  const buf = BUF[`${inst}_${near}`]; if (!buf) return
+  const src = ctx.createBufferSource(); src.buffer = buf
+  const r0 = Math.pow(2, (m - near) / 12); src.playbackRate.setValueAtTime(r0, t); src.playbackRate.setValueAtTime(r0, t + d * 0.35); src.playbackRate.exponentialRampToValueAtTime(r0 * Math.pow(2, semis / 12), t + d)
+  const v = ctx.createGain(), peak = GAIN[inst] * g
+  v.gain.setValueAtTime(peak, t); v.gain.setValueAtTime(peak, t + d * 0.7); v.gain.exponentialRampToValueAtTime(0.0001, t + d + rel)
+  src.connect(v); send(v); src.start(t); src.stop(t + d + rel + 0.05)
+}
+// A muted trumpet: the recorded trumpet through a cup-mute style filter.
+function Rmute(m, t, d, g = 1) {
+  const prev = BUS, f = ctx.createBiquadFilter(); f.type = 'bandpass'; f.frequency.value = 1400; f.Q.value = 1.1
+  const o = ctx.createGain(); o.gain.value = 1.8; f.connect(o); o.connect(prev || master); if (prev) o.connect(prev.wet)
+  // route this one note through the filter
+  MUTE = f
+  try { R('tpt', m, t, d, g, 0.25) } finally { MUTE = null }
+}
+// A jazz ride cymbal: a few bell-like partials and a little shimmer.
+function ride(t, g = 0.025) {
+  for (const [f, gg] of [[3150, 1], [4730, 0.55], [6820, 0.35], [8210, 0.25]]) { const v = ctx.createGain(); v.gain.setValueAtTime(g * gg, t); v.gain.exponentialRampToValueAtTime(0.0001, t + 0.9); osc('sine', f, t, 0.9).connect(v); send(v) }
+  const n = noiseSrc(t, 0.3), hp = ctx.createBiquadFilter(); hp.type = 'highpass'; hp.frequency.value = 7000; const v = ctx.createGain(); v.gain.setValueAtTime(g * 0.5, t); v.gain.exponentialRampToValueAtTime(0.0001, t + 0.3); n.connect(hp).connect(v); send(v)
+}
+// A crowd cheering and clapping that swells and fades.
+function cheer(t, d = 4, g = 0.06) {
+  const n = noiseSrc(t, d), bp = ctx.createBiquadFilter(); bp.type = 'bandpass'; bp.frequency.value = 900; bp.Q.value = 0.5
+  const v = ctx.createGain(); v.gain.setValueAtTime(0.0001, t); v.gain.linearRampToValueAtTime(g, t + 0.5); v.gain.setValueAtTime(g, t + d * 0.5); v.gain.linearRampToValueAtTime(0.0001, t + d); n.connect(bp).connect(v); send(v)
+  for (let i = 0; i < 70; i++) { const at = t + Math.random() * d * 0.85, sw = Math.sin(Math.PI * Math.min(1, (at - t) / (d * 0.85))) * 0.8 + 0.2; const c = noiseSrc(at, 0.05), f = ctx.createBiquadFilter(); f.type = 'bandpass'; f.frequency.value = 1000 + Math.random() * 1500; f.Q.value = 1.4; const cv = ctx.createGain(); cv.gain.setValueAtTime(g * 0.9 * sw, at); cv.gain.exponentialRampToValueAtTime(0.0001, at + 0.05); c.connect(f).connect(cv); send(cv, false) }
+}
+function rain(t, d, g = 0.03) { const n = noiseSrc(t, d), bp = ctx.createBiquadFilter(); bp.type = 'bandpass'; bp.frequency.value = 3500; bp.Q.value = 0.4; const v = ctx.createGain(); v.gain.setValueAtTime(0.0001, t); v.gain.linearRampToValueAtTime(g, t + 1.2); v.gain.setValueAtTime(g, t + d - 1.5); v.gain.linearRampToValueAtTime(0.0001, t + d); n.connect(bp).connect(v); send(v, false); for (let i = 0; i < d * 9; i++) tick(t + Math.random() * d, 2500 + Math.random() * 3000, 0.015 + Math.random() * 0.02, 0.01) }
+const NOIR2 = { name: 'Midnight Rain', bpm: 66, beats: 20, about: 'Darker and slower: rain on the window, a cello drone, haunted minor piano chords, a lonely low muted trumpet and slow brushes, ending on an unresolved minor chord.', score(b) {
+  rain(b(0) - 0.05, b(20) - b(0) + 0.6, 0.035)
+  R('vc', 36, b(0), b(16) - b(0), 0.75, 1.5); R('vc', 43, b(4), b(12) - b(4), 0.45, 1.2)
+  // slow brushes: a long swish on every beat, a tap on 2 and 4
+  for (let s = 0; s < 16; s++) { brush(b(s), 0.03); if (s % 2) brush(b(s + 0.5), 0.045); if (s % 4 === 0) ride(b(s), 0.012) }
+  // bass: slow, low, falling
+  ;[[0, 36], [2, 35], [4, 34], [6, 33], [8, 32], [10, 31], [12, 31], [14, 31]].forEach(([s, m]) => R('spic', m, b(s), b(1.6) - b(0), 1.1, 0.3))
+  // haunted piano: minor-major seventh, then flat-nine colours, each chord rolled slowly
+  const P = [[0, [51, 55, 59, 62]], [4, [50, 53, 56, 60]], [8, [48, 51, 56, 59]], [12, [47, 50, 53, 56]]]
+  P.forEach(([s, ch]) => ch.forEach((m, i) => R('pno', m, b(s) + i * 0.09, b(3.6) - b(0), 0.65, 0.8)))
+  ;[[2.5, 79], [6.5, 77], [10.5, 74]].forEach(([s, m]) => R('pno', m, b(s), null, 0.3))
+  // the lonely trumpet, low and bluesy
+  const mel = [[1, 60, 1.5], [2.5, 63, .5], [3, 66, 1], [4, 65, 2], [6.5, 63, .5], [7, 62, 1], [8, 60, 1.5], [9.5, 59, .5], [10, 63, 1], [11, 62, .5], [11.5, 60, .5], [12, 59, 3]]
+  mel.forEach(([s, m, d]) => Rmute(m, b(s), (b(s + d) - b(s)) * 0.95, 1.1))
+  // the end: a minor chord with a major seventh, left hanging, and one deep low note
+  ;[36, 43, 51, 55, 59, 62].forEach((m, i) => R('pno', m, b(16) + i * 0.08, b(20) - b(16), 0.7, 1.6))
+  R('spic', 24, b(16), null, 1.2); R('vc', 36, b(16), b(19.5) - b(16), 0.7, 1.4); brush(b(16), 0.05)
+} }
+const WIN = {
+  amethyst: { name: 'Coronation Day', bpm: 100, beats: 15, about: 'A royal brass fanfare in D major with timpani, horns and violins, landing on a big held chord as the crowd cheers.', score(b) {
+    for (let i = 0; i < 5; i++) R('timp', 45, b(i * 0.2), null, 0.2 + i * 0.07)
+    line('tpt', [[0, 69, 1 / 3], [1 / 3, 69, 1 / 3], [2 / 3, 69, 1 / 3], [1, 74, 1], [2, 78, .5], [2.5, 76, .5], [3, 74, .5], [3.5, 78, .5], [4, 81, 2], [6, 83, .5], [6.5, 81, .5], [7, 78, .5], [7.5, 79, .5], [8, 81, 1], [9, 76, 1]], b)
+    ;[[1, [62, 66, 69], 38], [4, [62, 67, 71], 43], [6, [61, 64, 69], 45], [8, [61, 64, 67], 45]].forEach(([s, ch, root], k, a) => { const e = k + 1 < a.length ? a[k + 1][0] : 10; RC('horn', ch, b(s), b(e) - b(s), 0.8, 0.2); R('tuba', root, b(s), b(e) - b(s), 0.9, 0.2); R('timp', root === 38 ? 38 : 45, b(s), null, 0.6) })
+    RC('tpt', [74, 78, 81], b(10), b(14) - b(10), 1, 1.2); RC('horn', [62, 66, 69], b(10), b(14) - b(10), 0.9, 1.2); RC('vln', [74, 78, 81, 86], b(10), b(14) - b(10), 0.9, 1.2)
+    R('tuba', 38, b(10), b(14) - b(10), 1, 1.2); R('timp', 38, b(10), null, 1); R('bd', 36, b(10), null, 1)
+    for (let i = 0; i < 12; i++) R('timp', 45, b(9) + i * (b(0.08) - b(0)), null, 0.15 + i * 0.04)
+    cheer(b(10), 4.5, 0.05)
+  } },
+  emerald: { name: 'Oasis Triumph', bpm: 92, beats: 14, about: 'A harp sweep in an Eastern scale, violins singing the tune over horns and a darbuka beat, ending bright in A major.', score(b) {
+    ;[57, 58, 61, 62, 64, 65, 67, 69, 70, 73, 74, 76, 77, 79, 81].forEach((m, i) => R('harp', m, b(i * 0.1), null, 0.8))
+    line('vln', [[1.5, 76, 1], [2.5, 77, .5], [3, 76, .5], [3.5, 74, .5], [4, 73, .5], [4.5, 74, .5], [5, 76, 2], [7, 81, 1], [8, 79, .5], [8.5, 77, .5], [9, 76, 1]], b, 1.1)
+    ;[[1.5, [57, 61, 64]], [3, [58, 62, 65]], [5, [57, 61, 64]], [7, [55, 58, 62]], [9, [57, 61, 64]]].forEach(([s, ch], k, a) => { const e = k + 1 < a.length ? a[k + 1][0] : 10; RC('horn', ch, b(s), b(e) - b(s), 0.7, 0.2); R('vc', ch[0] - 12, b(s), b(e) - b(s), 0.8, 0.2) })
+    for (let s = 1.5; s < 10; s += 2) { I.dum(b(s), 0.4); I.tak(b(s + 0.5), 0.1); I.tak(b(s + 0.75), 0.08); I.dum(b(s + 1), 0.3); I.tak(b(s + 1.5), 0.12) }
+    ;[57, 61, 64, 69, 73, 76, 81].forEach((m, i) => R('harp', m, b(10) + i * 0.05, null, 0.9))
+    RC('vln', [69, 73, 76, 81], b(10), b(13.5) - b(10), 1, 1.3); RC('horn', [57, 61, 64], b(10), b(13.5) - b(10), 0.9, 1.3); R('tuba', 45, b(10), b(13.5) - b(10), 0.8, 1.3); R('timp', 45, b(10), null, 0.9); I.dum(b(10), 0.6)
+    cheer(b(10), 4, 0.05)
+  } },
+  neon: { name: 'Victory Lap', bpm: 128, beats: 18, about: 'A dance-floor victory: four-on-the-floor kick, sparkling xylophone arpeggios and trumpet stabs climbing to a big E major hit.', score(b) {
+    const P = [[64, 68, 71, 76], [61, 64, 68, 73], [57, 61, 64, 69], [59, 63, 66, 71]]
+    for (let s = 0; s < 14; s++) { I.kick(b(s), 0.45); I.hat(b(s + 0.5), 0.03); if (s % 2) I.clap(b(s), 0.07) }
+    P.forEach((ch, k) => { const s0 = k * 3.5
+      for (let i = 0; i < 7; i++) R('xyl', ch[i % 4] + 12, b(s0 + i * 0.5), null, 0.8)
+      RC('tpt', ch.slice(0, 3), b(s0), b(0.3) - b(0), 0.9, 0.08); RC('tpt', ch.slice(0, 3), b(s0 + 1.5), b(0.3) - b(0), 0.8, 0.08)
+      for (let i = 0; i < 7; i++) I.bass(ch[0] - 24, b(s0 + i * 0.5), b(0.4) - b(0), 0.08)
+    })
+    I.riser(b(12), b(14) - b(12), 0.05)
+    ;[76, 80, 83, 88, 92, 95].forEach((m, i) => R('xyl', m, b(13) + i * (b(0.12) - b(0)), null, 0.8))
+    RC('tpt', [64, 68, 71, 76], b(14), b(17) - b(14), 1, 1); R('tuba', 40, b(14), b(17) - b(14), 0.9, 1); R('timp', 40, b(14), null, 1); I.kick(b(14), 0.7)
+    cheer(b(14), 3.6, 0.05)
+  } },
+  onyx: { name: 'Big Band Shout', bpm: 168, beats: 18, about: 'A swinging big-band finish: trumpets and trombones shouting together over walking bass and ride cymbal, up to a high held B-flat.', score(b) {
+    const mel = [[0, 77, 1], [swing(1.5), 77, 1 / 3], [2, 79, 2 / 3], [swing(2.5), 77, 1 / 3], [3, 74, 1], [4, 72, 2 / 3], [swing(4.5), 74, 1 / 3], [5, 77, 1.5], [swing(6.5), 79, 1 / 3], [7, 82, 1], [8, 81, 2 / 3], [swing(8.5), 79, 1 / 3], [9, 77, 2 / 3], [swing(9.5), 74, 1 / 3], [10, 77, .5], [swing(10.5), 79, 1 / 3], [11, 81, 1]]
+    line('tpt', mel, b, 1, 0, 0.85)
+    const CH = [[0, [58, 62, 65]], [4, [55, 58, 63]], [8, [53, 57, 63]]]
+    CH.forEach(([s, ch]) => { for (const x of [0, 1 + 2 / 3, 2 + 2 / 3]) RC('tbn', ch, b(s + x), b(0.6) - b(0), 0.75, 0.1); R('pno', ch[0] + 12, b(s + 2 / 3), null, 0.6) })
+    ;[46, 50, 53, 55, 51, 55, 58, 56, 53, 57, 60, 52].forEach((m, i) => R('spic', m - 12, b(i), b(0.85) - b(0), 1.1, 0.1))
+    for (let s = 0; s < 12; s++) { ride(b(s), 0.022); if (s % 2) { I.hat(b(s), 0.03); ride(b(s + 2 / 3), 0.014) } }
+    snareRoll(b(11), b(12) - b(11), 0.03, 0.14)
+    RC('tpt', [74, 77, 82], b(12), b(16.5) - b(12), 1.05, 1.2); RC('tbn', [58, 62, 65], b(12), b(16.5) - b(12), 1, 1.2); R('tuba', 34, b(12), b(16.5) - b(12), 1, 1.2)
+    R('pno', 46, b(12), null, 0.9); R('bd', 36, b(12), null, 1); I.snare(b(12), 0.2); ride(b(12), 0.04)
+    cheer(b(12), 4, 0.05)
+  } },
+  rivals: { name: 'Champions', bpm: 116, beats: 17, about: 'A stadium anthem in G major: trumpets and trombones in unison over a stomping bass drum and claps, then a huge final chord.', score(b) {
+    const mel = [[0, 67, 1.5], [1.5, 71, .5], [2, 74, 1], [3, 71, 1], [4, 76, 1.5], [5.5, 74, .5], [6, 71, 1], [7, 67, 1], [8, 69, 1], [9, 71, 1], [10, 72, 1], [11, 74, 1]]
+    line('tpt', mel, b, 1.05); line('tbn', mel.map(([s, m, d]) => [s, m - 12, d]), b, 0.9)
+    ;[[0, [55, 59, 62], 43], [4, [55, 60, 64], 48], [8, [57, 62, 66], 50]].forEach(([s, ch, r]) => { RC('horn', ch, b(s), b(s + 4) - b(s), 0.75, 0.2); R('tuba', r, b(s), b(s + 4) - b(s), 0.9, 0.2); R('timp', r === 48 ? 42 : 45, b(s), null, 0.7) })
+    for (let s = 0; s < 12; s++) { R('bd', 36, b(s), null, 0.9); if (s % 2) I.clap(b(s), 0.09) }
+    for (let i = 0; i < 14; i++) R('timp', 42, b(11) + i * (b(1) - b(0)) / 14, null, 0.15 + i * 0.04)
+    RC('tpt', [67, 71, 74, 79], b(12), b(16) - b(12), 1.1, 1.2); RC('tbn', [55, 59, 62], b(12), b(16) - b(12), 1, 1.2); RC('horn', [55, 62, 67], b(12), b(16) - b(12), 0.9, 1.2)
+    R('tuba', 43, b(12), b(16) - b(12), 1, 1.2); R('timp', 42, b(12), null, 1); R('bd', 36, b(12), null, 1)
+    cheer(b(12), 4.5, 0.06)
+  } },
+  ember: { name: 'Forged in Fire', bpm: 88, beats: 14, about: 'Epic and heroic: taiko drums and a low brass ostinato in D minor, horns rising to the theme, then a blazing D major finish.', score(b) {
+    for (let bar = 0; bar < 3; bar++) for (const x of [0, 0.75, 1.5, 2, 3, 3.5]) I.taiko(b(bar * 3.33 + x * 0.83), x ? 0.35 : 0.55)
+    for (let i = 0; i < 20; i++) R('spic', i % 4 === 3 ? 41 : 38, b(i * 0.5), b(0.4) - b(0), 1, 0.08)
+    for (let i = 0; i < 10; i++) R('tuba', 26 + (i % 2 ? 0 : 12), b(i), b(0.5) - b(0), 0.7, 0.1)
+    line('horn', [[2, 62, 1], [3, 65, .5], [3.5, 69, .5], [4, 74, 2], [6, 72, .5], [6.5, 70, .5], [7, 69, 1], [8, 65, .5], [8.5, 67, .5], [9, 69, 1]], b, 1.1)
+    line('tbn', [[2, 50, 2], [4, 53, 2], [6, 55, 1], [7, 53, 1], [8, 52, 2]], b, 0.8)
+    for (let i = 0; i < 12; i++) R('timp', 45, b(9) + i * (b(1) - b(0)) / 12, null, 0.15 + i * 0.05)
+    RC('horn', [62, 66, 69], b(10), b(13.5) - b(10), 1, 1.3); RC('tpt', [74, 78, 81], b(10), b(13.5) - b(10), 1, 1.3); RC('tbn', [50, 57], b(10), b(13.5) - b(10), 1, 1.3)
+    R('tuba', 38, b(10), b(13.5) - b(10), 1, 1.3); R('timp', 38, b(10), null, 1); I.taiko(b(10), 0.7); gong(b(10), 0.05)
+    cheer(b(10), 4, 0.05)
+  } },
+  heritage: { name: 'Desert Celebration', noMusic: true, bpm: 112, beats: 16, about: 'No instruments with notes: frame drums building up, the whole room clapping in rhythm, cups clinking, cheering, and a falcon calling over it all.', score(b) {
+    for (let s = 0; s < 12; s++) { const k = s / 12; I.dum(b(s), 0.3 + 0.3 * k); I.tak(b(s + 0.5), 0.08 + 0.08 * k); if (s % 2) I.tak(b(s + 0.75), 0.07 + 0.06 * k)
+      if (s >= 4) for (const x of [0, 0.5]) [0, 0.012, 0.025].forEach((o) => { const at = b(s + x) + o; const n = noiseSrc(at, 0.08), f = ctx.createBiquadFilter(); f.type = 'bandpass'; f.frequency.value = 1200 + Math.random() * 600; f.Q.value = 0.9; const v = ctx.createGain(); v.gain.setValueAtTime(0.06 + 0.04 * k, at); v.gain.exponentialRampToValueAtTime(0.0001, at + 0.08); n.connect(f).connect(v); send(v) }) }
+    for (let i = 0; i < 10; i++) I.dum(b(11) + i * (b(1) - b(0)) / 10, 0.2 + i * 0.05)
+    I.dum(b(12), 0.85); I.tak(b(12), 0.2); wind(b(12) - 0.3, 3, 0.05, 900)
+    clink(b(12) + 0.3, 0.08); clink(b(12) + 0.55, 0.06); clink(b(12) + 0.9, 0.05)
+    const at = b(12) + 1.1, v = ctx.createGain(); v.gain.setValueAtTime(0.0001, at); v.gain.exponentialRampToValueAtTime(0.07, at + 0.05); v.gain.exponentialRampToValueAtTime(0.0001, at + 0.8); const o = osc('sine', 2400, at, 0.8); o.frequency.exponentialRampToValueAtTime(1500, at + 0.75); const vib = osc('sine', 26, at, 0.8), vg = ctx.createGain(); vg.gain.value = 90; vib.connect(vg).connect(o.frequency); o.connect(v); send(v)
+    cheer(b(12), 4.5, 0.07)
+  } },
+}
+
 const SR = 44100
 let BASE = './'
 const FILES = {}
@@ -467,7 +594,7 @@ const FILES = {}
 export function setSoundBase(base) { BASE = base }
 // Which recorded instruments each piece uses. Written out because the built app renames functions,
 // so reading a score's own source text does not work there.
-const USES = {"title-amethyst": ["timp", "tpt", "horn", "tuba", "vln"], "title-emerald": ["harp", "vc", "vln", "horn", "timp"], "title-neon": ["spic", "xyl", "bd", "wood", "tpt", "horn", "tuba", "timp"], "title-onyx": ["spic", "pno", "clave", "tpt", "tbn", "bd", "tuba", "timp"], "title-rivals": ["bd", "wood", "timp", "tpt", "tbn", "tuba"], "title-ember": ["spic", "bd", "timp", "tbn", "horn", "tuba"], "title-heritage": ["bd", "wood", "clave", "vc", "harp", "vln", "tuba", "timp"], "loop-amethyst": ["harp"], "hit-amethyst": ["timp", "bd", "horn", "harp"], "loop-emerald": ["clave", "harp"], "hit-emerald": ["harp", "vc", "vln"], "loop-neon": [], "hit-neon": [], "loop-onyx": ["vc"], "hit-onyx": ["bd", "tpt", "tbn"], "loop-rivals": [], "hit-rivals": ["tpt", "tbn", "bd", "timp"], "loop-ember": ["wood"], "hit-ember": ["tbn", "timp"], "loop-heritage": [], "hit-heritage": []}
+const USES = {"title-onyx-g": ["pno", "spic", "tpt", "vc"], "win-amethyst": ["bd", "horn", "timp", "tpt", "tuba", "vln"], "win-emerald": ["harp", "horn", "timp", "tuba", "vc", "vln"], "win-neon": ["timp", "tpt", "tuba", "xyl"], "win-onyx": ["bd", "pno", "spic", "tbn", "tpt", "tuba"], "win-rivals": ["bd", "horn", "tbn", "timp", "tpt", "tuba"], "win-ember": ["horn", "spic", "tbn", "timp", "tpt", "tuba"], "win-heritage": [], "title-amethyst": ["timp", "tpt", "horn", "tuba", "vln"], "title-emerald": ["harp", "vc", "vln", "horn", "timp"], "title-neon": ["spic", "xyl", "bd", "wood", "tpt", "horn", "tuba", "timp"], "title-onyx": ["spic", "pno", "clave", "tpt", "tbn", "bd", "tuba", "timp"], "title-rivals": ["bd", "wood", "timp", "tpt", "tbn", "tuba"], "title-ember": ["spic", "bd", "timp", "tbn", "horn", "tuba"], "title-heritage": ["bd", "wood", "clave", "vc", "harp", "vln", "tuba", "timp"], "loop-amethyst": ["harp"], "hit-amethyst": ["timp", "bd", "horn", "harp"], "loop-emerald": ["clave", "harp"], "hit-emerald": ["harp", "vc", "vln"], "loop-neon": [], "hit-neon": [], "loop-onyx": ["vc"], "hit-onyx": ["bd", "tpt", "tbn"], "loop-rivals": [], "hit-rivals": ["tpt", "tbn", "bd", "timp"], "loop-ember": ["wood"], "hit-ember": ["tbn", "timp"], "loop-heritage": [], "hit-heritage": []}
 async function loadFor(insts) {
   const want = insts.flatMap((k) => (MAN[k] || []).map((m) => `${k}_${m}`)).filter((k) => !BUF[k])
   await Promise.all(want.map(async (k) => {
@@ -508,17 +635,32 @@ async function renderNow(len, wet, useHall, insts, write) {
 }
 
 /**
- * The title piece for a theme. set: 'a' | 'b' | 'd' (the Tune Room sets) or 'e' (Heritage, no music).
+ * The title piece for a theme. set: 'a' | 'b' | 'd' (the Tune Room sets), 'e' (Heritage, no music) or 'g'
+ * (Black & Gold's darker noir, Midnight Rain).
  * Resolves to an AudioBuffer that any AudioContext can play.
  */
 export function renderTitle(theme, set) {
   if (set === 'e') return render(7.5, 0.6, false, [], (t0) => heritageQuiet(t0))
+  if (set === 'g') return renderPiece(NOIR2, USES['title-onyx-g'], 2.6)
   const T = set === 'a' ? TUNES.find((x) => x.id === theme) : set === 'b' ? B_TUNES[theme] : D_TUNES[theme]
   if (!T) return Promise.reject(new Error(`no tune ${theme}/${set}`))
   const B = 60 / T.bpm
   const len = T.beats * B + 2.6
   const write = (t0) => (set === 'd' ? T.score((x) => t0 + x * B) : withClean(false, () => T.score((x) => t0 + x * B)))
   return render(len, set === 'a' ? 1 : set === 'b' ? 0.5 : 0.32, set === 'd', set === 'd' ? USES['title-' + theme] || [] : [], write)
+}
+
+// A piece played with the recorded orchestra in the concert hall, like the Tune Room's Set D.
+function renderPiece(T, insts, tail) {
+  const B = 60 / T.bpm
+  return render(T.beats * B + tail, 0.32, true, insts || [], (t0) => T.score((x) => t0 + x * B))
+}
+
+/** The theme's winner music, for the results screen: a triumphant piece ending with the crowd cheering. */
+export function renderWin(theme) {
+  const T = WIN[theme]
+  if (!T) return Promise.reject(new Error(`no winner music ${theme}`))
+  return renderPiece(T, USES['win-' + theme], 2.5)
 }
 
 /** The theme's suspense clock (four bars, ready to loop), or its drum roll and crash. */
