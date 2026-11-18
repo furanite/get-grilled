@@ -17,9 +17,7 @@ The thing compared in a tashbih. :: Mushabbah || H: Durus al-Balaghah
 The thing it is compared to. :: Mushabbah bihi || H: Durus al-Balaghah
 "Like" (ka-) and "mithl" are examples of this. :: Adat al-tashbih || H: Durus al-Balaghah
 The branch of balagha about beautifying speech. :: 'Ilm al-badi' || H: Talkhis al-Miftah
-The branch about expressing one meaning in different clear ways. :: 'Ilm al-bayan || H: Talkhis al-Miftah
 The branch about fitting the sentence to the situation. :: 'Ilm al-ma'ani || H: Talkhis al-Miftah
-A sentence that can be true or false. :: Khabar || H: Durus al-Balaghah
 A sentence that cannot be true or false, like a command or question. :: Insha' || H: Durus al-Balaghah
 Speaking briefly with full meaning. :: Ijaz || H: Durus al-Balaghah
 Speaking at length for a purpose. :: Itnab || H: Durus al-Balaghah
@@ -55,7 +53,6 @@ Leaving sentences unjoined. :: Fasl || H: Talkhis al-Miftah
 The book of 'Abd al-Qahir al-Jurjani رحمة الله عليه on 'ilm al-bayan and imagery. :: Asrar al-Balaghah || H: Asrar al-Balaghah
 The book of 'Abd al-Qahir al-Jurjani رحمة الله عليه on 'ilm al-ma'ani and word order. :: Dala'il al-I'jaz || H: Dala'il al-I'jaz
 'Abd al-Qahir al-Jurjani's رحمة الله عليه theory of meaning through word order. :: Nazm || H: Dala'il al-I'jaz
-'Abd al-Qahir al-Jurjani رحمة الله عليه passed away in this year. :: 471 AH / 1078 CE (some say 474) || H: Bughyat al-Wu'at (al-Suyuti)
 The book of al-Sakkaki رحمة الله عليه whose third part set out balagha in its classic form. :: Miftah al-'Ulum || H?: Miftah al-'Ulum; check al-Sakkaki's creed before adding an honorific
 The summary of Miftah al-'Ulum by al-Khatib al-Qazwini رحمة الله عليه. :: Talkhis al-Miftah || H: Talkhis al-Miftah
 The long commentary of al-Taftazani رحمة الله عليه on al-Talkhis. :: al-Mutawwal || H: al-Mutawwal
@@ -63,7 +60,6 @@ The shorter commentary of al-Taftazani رحمة الله عليه on al-Talkhis.
 The poem on balagha by al-Akhdari رحمة الله عليه. :: al-Jawhar al-Maknun || H: al-Jawhar al-Maknun
 The widely taught book of balagha by Hifni Nasif and others. :: Durus al-Balaghah || H: Durus al-Balaghah
 The caliph's son and poet who wrote Kitab al-Badi', one of the first books of badi'. :: Ibn al-Mu'tazz رحمة الله عليه || H: Kitab al-Badi'
-The number of kinds of badi' Ibn al-Mu'tazz رحمة الله عليه listed as the main ones. :: 5 || H: Kitab al-Badi'
 Asking a question not to learn but to show surprise or denial. :: Istifham inkari (rhetorical question) || H: Durus al-Balaghah
 A command that is not really a command, but a request from a lower to a higher. :: Du'a' (supplication) || H: Durus al-Balaghah
 A command from equal to equal. :: Iltimas || H: Durus al-Balaghah
@@ -74,6 +70,9 @@ Repeating a word or idea to stress it. :: Takrar || H: Durus al-Balaghah
 "Lower to them the wing of humility" (17:24) uses this figure (meaning). :: Isti'arah (makniyyah) || H: al-Balaghah al-Wadihah
 "And the head has blazed with grey hair" (19:4) uses this figure (meaning). :: Isti'arah || H: al-Balaghah al-Wadihah
 "They put their fingers in their ears" (2:19), meaning fingertips, is majaz of this link. :: Whole for part (kulliyyah) || H: al-Balaghah al-Wadihah
+The branch about expressing one meaning in different clear ways. :: 'Ilm al-bayan || H: Talkhis al-Miftah
+A sentence that can be true or false. :: Khabar || H: Durus al-Balaghah
+In Surah al-Kawthar, "We have given you" turns to "pray to your Lord"; this figure (meaning). :: Iltifat || H: al-Itqan (al-Suyuti)
 
 ## 400
 The figure in which the speaker ends with a line that fits its start. :: Radd al-'ajuz 'ala al-sadr || H: Durus al-Balaghah
@@ -120,4 +119,5 @@ A majaz of attribution, as in "the day fasted" (meaning the person fasted). :: M
 A kinayah for a quality, like "her earrings are far" for a long neck (meaning). :: Kinayah 'an sifah || H: Durus al-Balaghah
 Al-Akhdari رحمة الله عليه, author of al-Jawhar al-Maknun and al-Sullam, lived in this land. :: Algeria || H: Nayl al-Ibtihaj (al-Tinbukti)
 "My Lord, I have delivered a girl" (3:36) is a khabar not meant to inform but to show this (meaning). :: Grief and humility (tahassur) || H: Mukhtasar al-Ma'ani (al-Taftazani)
-In Surah al-Kawthar, "We have given you" turns to "pray to your Lord"; this figure (meaning). :: Iltifat || H: al-Itqan (al-Suyuti)
+'Abd al-Qahir al-Jurjani رحمة الله عليه passed away in this year. :: 471 AH / 1078 CE (some say 474) || H: Bughyat al-Wu'at (al-Suyuti)
+The number of kinds of badi' Ibn al-Mu'tazz رحمة الله عليه listed as the main ones. :: 5 || H: Kitab al-Badi'

@@ -22,7 +22,6 @@ An act rewarded if done but not punished if left. :: Mandub (mustahabb) || H: al
 An act neither rewarded nor punished. :: Mubah (allowed) || H: al-Mustasfa (al-Ghazali)
 An act rewarded if left, but not punished if done. :: Makruh (disliked) || H: al-Mustasfa (al-Ghazali)
 An act punished if done and rewarded if left. :: Haram (forbidden) || H: al-Mustasfa (al-Ghazali)
-The first book written on usul al-fiqh. :: al-Risalah (al-Shafi'i رحمة الله عليه) || H: Tabaqat al-Shafi'iyyah (al-Subki)
 The Companion sent to Yemen who said he would judge by the Qur'an, then the Sunnah, then his own reasoning. :: Mu'adh ibn Jabal ﵁ || H: Sunan Abi Dawud
 In usul al-fiqh, Allah, who lays down the rulings, is called by this title. :: al-Shari' (the Lawgiver) || H: al-Mustasfa (al-Ghazali)
 The person whom the rulings address, being mature and of sound mind. :: Mukallaf || H: al-Waraqat (al-Juwayni)
@@ -31,6 +30,7 @@ A later text lifting the ruling of an earlier one. :: Naskh (abrogation) || H: a
 A hadith reported by so many at every level that they could not agree on a lie. :: Mutawatir || H: al-Waraqat (al-Juwayni)
 A hadith that does not reach the level of mutawatir. :: Ahad || H: al-Waraqat (al-Juwayni)
 Our Beloved Prophet ﷺ said a judge who strives and is right gets two rewards, and one who strives and errs gets this. :: One reward || H: Sahih al-Bukhari 7352; Sahih Muslim 1716
+Wudu' is a "shart" (condition) for this. :: The prayer || H: al-Mustasfa (al-Ghazali)
 
 ## 200
 The Hanafi school separates fard from this, a ruling proven by less certain evidence. :: Wajib || H: Usul al-Sarakhsi
@@ -61,6 +61,11 @@ Restricting an unlimited (mutlaq) word by another evidence. :: Taqyid || H: Jam'
 A word used in its first, literal meaning. :: Haqiqah || H: al-Waraqat (al-Juwayni)
 A word used in a meaning other than its literal one, because of a link. :: Majaz || H: al-Waraqat (al-Juwayni)
 Making clear a text whose meaning was unclear (mujmal). :: Bayan || H: al-Waraqat (al-Juwayni)
+The sun's setting is the "sabab" for this. :: The Maghrib prayer || H: al-Mustasfa (al-Ghazali)
+An act done in its time is "ada'"; done after its time, it is this. :: Qada' || H: al-Waraqat (al-Juwayni)
+An obligation on every individual Muslim. :: Fard 'ayn || H: al-Muwafaqat (al-Shatibi)
+An obligation that falls from all when enough people do it. :: Fard kifayah || H: al-Muwafaqat (al-Shatibi)
+The famous five maxims of fiqh begin with "Matters are judged by ___" (meaning). :: Their aims (intentions) || H: al-Ashbah wal-Naza'ir (al-Suyuti)
 
 ## 300
 Assuming a state continues until proven otherwise. :: Istishab || H: al-Mustasfa (al-Ghazali)
@@ -71,8 +76,6 @@ The original case in qiyas. :: Asl || H: al-Mustasfa (al-Ghazali)
 The new case in qiyas. :: Far' || H: al-Mustasfa (al-Ghazali)
 A ruling of command or prohibition is called this kind of ruling. :: Hukm taklifi || H: al-Mustasfa (al-Ghazali)
 A ruling that sets a cause, condition or barrier is called this kind. :: Hukm wad'i || H: al-Mustasfa (al-Ghazali)
-The sun's setting is the "sabab" for this. :: The Maghrib prayer || H: al-Mustasfa (al-Ghazali)
-Wudu' is a "shart" (condition) for this. :: The prayer || H: al-Mustasfa (al-Ghazali)
 A concession given for hardship. :: Rukhsah || H: al-Mustasfa (al-Ghazali)
 The original ruling, before a concession. :: 'Azimah || H: al-Mustasfa (al-Ghazali)
 The Hanafi term for a text understood by its wording directly. :: 'Ibarat al-nass || H: Usul al-Shashi
@@ -88,9 +91,7 @@ The wisdom behind a ruling, as distinct from its 'illah. :: Hikmah || H: Sharh T
 Something whose presence stops a ruling, like menstruation for prayer. :: Mani' (barrier) || H: al-Muwafaqat (al-Shatibi)
 In the Hanafi school, a contract sound in its basis but flawed in a detail is called this, not void. :: Fasid || H: Usul al-Sarakhsi
 In the Hanafi school, a contract flawed in its very basis is called this. :: Batil (void) || H: Usul al-Sarakhsi
-An act done in its time is "ada'"; done after its time, it is this. :: Qada' || H: al-Waraqat (al-Juwayni)
-An obligation on every individual Muslim. :: Fard 'ayn || H: al-Muwafaqat (al-Shatibi)
-An obligation that falls from all when enough people do it. :: Fard kifayah || H: al-Muwafaqat (al-Shatibi)
+The first book written on usul al-fiqh. :: al-Risalah (al-Shafi'i رحمة الله عليه) || H: Tabaqat al-Shafi'iyyah (al-Subki)
 
 ## 400
 The method of the "mutakallimin" (theologians) in usul is followed mostly by these schools. :: The Shafi'i, Maliki and Hanbali || H: al-Muqaddimah (Ibn Khaldun)
@@ -106,7 +107,6 @@ Checking that the 'illah is present in the new case. :: Tahqiq al-manat || H: al
 Refining the 'illah from what is not relevant. :: Tanqih al-manat || H: al-Mustasfa (al-Ghazali)
 Drawing out the 'illah from the text. :: Takhrij al-manat || H: al-Mustasfa (al-Ghazali)
 The three levels of maslahah: necessities, needs and this. :: Refinements (tahsiniyyat) || H: al-Muwafaqat (al-Shatibi)
-The famous five maxims of fiqh begin with "Matters are judged by ___" (meaning). :: Their aims (intentions) || H: al-Ashbah wal-Naza'ir (al-Suyuti)
 Two evidences that seem to clash: the first step is this. :: Reconcile them (al-jam') || H: al-Mustasfa (al-Ghazali)
 If they cannot be reconciled and the date is known, this is used. :: Naskh (the later abrogates) || H: al-Mustasfa (al-Ghazali)
 In the Hanafi school, the first step when two evidences clash is this. :: Naskh, if the dates are known || H: Usul al-Sarakhsi

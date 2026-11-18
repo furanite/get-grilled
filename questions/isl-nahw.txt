@@ -33,6 +33,12 @@ The sign of jazm on a sound present verb. :: Sukun || H: al-Ajurrumiyyah
 The "n" sound added to the end of an indefinite noun. :: Tanwin || H: al-Ajurrumiyyah
 "Hadha" and "hadhihi" are this kind of noun. :: Demonstratives (asma' al-isharah) || H: Sharh Ibn 'Aqil
 "Huwa", "hiya" and "ana" are this kind of noun. :: Pronouns (dama'ir) || H: Sharh Ibn 'Aqil
+The relative noun "alladhi" is for this. :: Masculine singular || H: Sharh Ibn 'Aqil
+The relative noun "allati" is for this. :: Feminine singular || H: Sharh Ibn 'Aqil
+"Ka'anna" means this. :: As if (likening) || H: Sharh Ibn 'Aqil
+"Layta" means this. :: If only (a wish) || H: Sharh Ibn 'Aqil
+"La'alla" means this. :: Perhaps (hope) || H: Sharh Ibn 'Aqil
+"Lakinna" means this. :: But (correction, istidrak) || H: Sharh Ibn 'Aqil
 
 ## 200
 The grammarian of Basrah credited with founding nahw, d. 69 AH / 688 CE. :: Abu al-Aswad al-Du'ali رحمة الله عليه || H: Tabaqat al-Nahwiyyin (al-Zubaydi)
@@ -80,22 +86,18 @@ Nouns that cannot take tanwin or kasrah, called this. :: Mamnu' min al-sarf (dip
 A diptote takes this in place of kasrah in the genitive. :: Fathah || H: Alfiyyat Ibn Malik
 The particles that make two present verbs jussive in a condition, like "in". :: Adawat al-shart || H: al-Ajurrumiyyah
 When a verb comes before a plural doer, it agrees in gender but stays in this number. :: Singular || H: Alfiyyat Ibn Malik
-The relative noun "alladhi" is for this. :: Masculine singular || H: Sharh Ibn 'Aqil
-The relative noun "allati" is for this. :: Feminine singular || H: Sharh Ibn 'Aqil
 The verbs of praise and blame. :: Ni'ma and bi'sa || H: Alfiyyat Ibn Malik
 The verb pattern of wonder, as in "ma ahsana". :: Ta'ajjub || H: Alfiyyat Ibn Malik
 The verbs "zanna" and its sisters take this many objects. :: Two || H: al-Ajurrumiyyah
 The two great early schools of grammar. :: Basrah and Kufah || H: al-Insaf (Ibn al-Anbari)
 The "five verbs", like "yaf'aluna", keep this letter in raf'. :: Nun || H: al-Ajurrumiyyah
 "Kada" and its sisters are verbs of this. :: Nearness (muqarabah) || H: Sharh Ibn 'Aqil
-"Ka'anna" means this. :: As if (likening) || H: Sharh Ibn 'Aqil
-"Layta" means this. :: If only (a wish) || H: Sharh Ibn 'Aqil
-"La'alla" means this. :: Perhaps (hope) || H: Sharh Ibn 'Aqil
-"Lakinna" means this. :: But (correction, istidrak) || H: Sharh Ibn 'Aqil
 In a complete positive sentence, the noun after "illa" is this. :: Mansub || H: al-Ajurrumiyyah
 After "ghayr" and "siwa", the excepted noun is in this case. :: Jarr (as mudaf ilayh) || H: al-Ajurrumiyyah
 A called noun that is a single proper name, as in "Ya Zaydu", is this. :: Mabni 'ala al-damm || H: al-Ajurrumiyyah
 "Lamma" before a present verb, meaning "not yet", makes it this. :: Majzum || H: Sharh Qatr al-Nada (Ibn Hisham)
+In "la ilaha illa Allah", "ilaha" is this. :: Ism "la", mabni 'ala al-fath || H: Mughni al-Labib (Ibn Hisham)
+The famous line "Kalamuna lafzun mufidun ka-istaqim" opens this poem. :: Alfiyyat Ibn Malik || H: Alfiyyat Ibn Malik
 
 ## 400
 The leading Kufan grammarian, one of the seven readers, teacher of the sons of Harun al-Rashid رحمة الله عليه. :: al-Kisa'i رحمة الله عليه || H: Tarikh Baghdad (al-Khatib)
@@ -106,7 +108,6 @@ Ibn Hisham's رحمة الله عليه shorter book with its own commentary, Sh
 Ibn Hisham's رحمة الله عليه other short book with commentary, "Shudhur al-Dhahab". :: Shudhur al-Dhahab || H: Shudhur al-Dhahab
 Ibn Hisham's رحمة الله عليه commentary on the Alfiyyah. :: Awdah al-Masalik || H: Awdah al-Masalik
 Ibn Malik رحمة الله عليه was born in this city of al-Andalus. :: Jayyan (Jaén) || H: Bughyat al-Wu'at (al-Suyuti)
-Ibn Malik رحمة الله عليه passed away in this year in Damascus. :: 672 AH / 1274 CE || H: Bughyat al-Wu'at (al-Suyuti)
 Ibn Ajurrum رحمة الله عليه lived in this city of Morocco. :: Fez || H: Bughyat al-Wu'at (al-Suyuti)
 The early book "al-Jumal" on grammar was written by this scholar. :: al-Zajjaji رحمة الله عليه || H: al-Jumal fil-Nahw
 Sibawayh رحمة الله عليه was of this origin, from near Shiraz. :: Persian || H: Tarikh Baghdad (al-Khatib)
@@ -118,14 +119,12 @@ The book of al-Suyuti رحمة الله عليه on the biographies of grammaria
 The book of al-Suyuti رحمة الله عليه on the principles of grammar. :: al-Iqtirah || H: al-Iqtirah (al-Suyuti)
 The grammar term for the hidden pronoun, as in "uktub" (you write). :: Damir mustatir || H: Qatr al-Nada (Ibn Hisham)
 The grammar term for the governing word that causes a case ending. :: 'Amil || H: Qatr al-Nada (Ibn Hisham)
-In "la ilaha illa Allah", "ilaha" is this. :: Ism "la", mabni 'ala al-fath || H: Mughni al-Labib (Ibn Hisham)
 In "iyyaka na'budu", "iyyaka" is this. :: An object brought forward (maf'ul bihi muqaddam) || H: I'rab al-Qur'an (standard)
 After "hatta", a present verb is put in nasb by this hidden particle. :: An || H: Sharh Qatr al-Nada (Ibn Hisham)
 The "fa'" of cause after a command or a negation puts the verb in this mood. :: Nasb || H: Sharh Qatr al-Nada (Ibn Hisham)
 The "lam" in "lillah" is a preposition showing this meaning. :: Entitlement (istihqaq) || H: Mughni al-Labib (Ibn Hisham)
 
 ## 500
-The famous line "Kalamuna lafzun mufidun ka-istaqim" opens this poem. :: Alfiyyat Ibn Malik || H: Alfiyyat Ibn Malik
 Ibn Malik's رحمة الله عليه larger poem on grammar, which his Alfiyyah summarises. :: al-Kafiyah al-Shafiyah || H: al-Kafiyah al-Shafiyah
 The Alfiyyah poem written before Ibn Malik's رحمة الله عليه, which he mentions in his opening. :: Alfiyyat Ibn Mu'ti || H: Alfiyyat Ibn Malik, opening lines
 The book of Ibn al-Hajib رحمة الله عليه on grammar. :: al-Kafiyah || H: al-Kafiyah
@@ -150,3 +149,4 @@ The Kufan grammarian of Baghdad, rival of al-Mubarrad رحمة الله عليه
 Ibn al-Sarraj's رحمة الله عليه book that set out grammar's principles in order. :: al-Usul fil-Nahw || H: al-Usul fil-Nahw
 Al-Hariri's رحمة الله عليه poem for beginners in grammar. :: Mulhat al-I'rab || H: Mulhat al-I'rab
 Khalid al-Azhari's رحمة الله عليه commentary on Ibn Hisham's رحمة الله عليه Awdah al-Masalik. :: Sharh al-Tasrih 'ala al-Tawdih || H: Sharh al-Tasrih
+Ibn Malik رحمة الله عليه passed away in this year in Damascus. :: 672 AH / 1274 CE || H: Bughyat al-Wu'at (al-Suyuti)

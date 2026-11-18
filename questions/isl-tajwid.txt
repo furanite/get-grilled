@@ -19,7 +19,6 @@ The mark that doubles a letter. :: Shaddah || H: Standard term
 The two letters that always carry ghunnah when they have shaddah. :: Nun and Mim || H: Tuhfat al-Atfal
 The place in the mouth or throat where a letter's sound comes from. :: Makhraj || H: al-Muqaddimah al-Jazariyyah
 A teacher who passes on recitation with a connected chain gives this certificate. :: Ijazah || H: Standard practice of the reciters
-The verse of Surah al-Muzzammil that commands measured recitation. :: Qur'an 73:4 || H: Qur'an 73:4
 The heavy (full-mouthed) way of pronouncing a letter. :: Tafkhim || H: al-Muqaddimah al-Jazariyyah
 The light way of pronouncing a letter. :: Tarqiq || H: al-Muqaddimah al-Jazariyyah
 The natural lengthening of two counts. :: Madd tabi'i || H: Tuhfat al-Atfal
@@ -41,7 +40,6 @@ The mark in the Mushaf meaning "it is better to continue". :: Sad-lam-ya (sila) 
 The mark in the Mushaf meaning "do not stop here". :: Lam-alif (la) || H: The Mushaf (Madinah print)
 The mark "mim" in the Mushaf means stopping here is this. :: Necessary (lazim) || H: The Mushaf (Madinah print)
 The mark "jim" in the Mushaf means stopping here is this. :: Permitted (ja'iz) || H: The Mushaf (Madinah print)
-The name for the mark of three dots appearing twice, meaning you may stop at one of them but not both. :: Ta'anuq al-waqf || H: The Mushaf (Madinah print)
 The small circle above a letter shows this. :: A letter not pronounced || H: The Mushaf (Madinah print)
 Reciting slowly and calmly is called this, the slowest pace. :: Tahqiq || H: Ibn al-Jazari, al-Nashr
 Reciting at a moderate pace is called this. :: Tadwir || H: Ibn al-Jazari, al-Nashr
@@ -110,6 +108,13 @@ The two causes of madd far'i. :: Hamzah and sukun || H: Tuhfat al-Atfal
 The madd 'iwad replaces tanwin fathah at a stop with this. :: An alif (2 counts) || H: Tuhfat al-Atfal
 Stopping on a word ending in ta' marbutah, it is read as this. :: Ha' (h sound) || H: Standard teaching
 Stopping on a word, its last vowel becomes this. :: Sukun || H: Standard teaching
+The term for a hamzah that is pronounced only at the start of speech. :: Hamzat al-wasl || H: Standard teaching
+The term for a hamzah always pronounced. :: Hamzat al-qat' || H: Standard teaching
+Hamzat al-wasl in "al-" is always read with this vowel when starting. :: Fathah || H: Standard teaching
+The ra' is read light when it has this vowel. :: Kasrah || H: al-Muqaddimah al-Jazariyyah
+The teacher of Hafs رحمة الله عليه in recitation, from whom his reading comes. :: 'Asim ibn Abi al-Najud رحمة الله عليه || H: al-Nashr (Ibn al-Jazari)
+The name for the chain by which a reciter's reading reaches our Beloved Prophet ﷺ. :: Sanad || H: al-Nashr (Ibn al-Jazari)
+The famous reciter of Egypt known for the "mujawwad" style, d. 1409 AH / 1988 CE. :: 'Abd al-Basit 'Abd al-Samad رحمة الله عليه || H: Standard biography
 
 ## 300
 The lengthening when a madd letter is followed by hamzah in the same word. :: Madd muttasil (wajib) || H: Tuhfat al-Atfal
@@ -163,6 +168,9 @@ The heavy letters in order of strength begin with this kind. :: Letters of itbaq
 The name for the alif following the letter before it in heaviness or lightness. :: Tabi' (following) || H: Standard teaching
 The "silent" letters at the end, like alif in "ana", are kept when stopping but dropped when this. :: Joining (continuing) || H: Standard teaching
 A stop the reader picks freely, without need, at a fitting place. :: Waqf ikhtiyari || H: Standard teaching
+The verse of Surah al-Muzzammil that commands measured recitation. :: Qur'an 73:4 || H: Qur'an 73:4
+The name for the mark of three dots appearing twice, meaning you may stop at one of them but not both. :: Ta'anuq al-waqf || H: The Mushaf (Madinah print)
+The Egyptian reciter known for the "murattal" recording of the whole Qur'an in several readings, d. 1401 AH / 1980 CE. :: Mahmud Khalil al-Husari رحمة الله عليه || H: Standard biography
 
 ## 400
 The quality of whistling found in sad, zay and sin. :: Safir || H: al-Muqaddimah al-Jazariyyah
@@ -202,10 +210,7 @@ The word "bi-musaytir" (al-Ghashiyah) is read by Hafs رحمة الله عليه
 The word "salasila" (al-Insan) may be stopped on by Hafs رحمة الله عليه with an alif or this. :: Without alif (sukun on lam) || H: Qur'an 76:4; al-Shatibi
 The word "ana" (I) is read short when joining; its alif is read only when this. :: Stopping || H: Standard teaching
 The word "lakinna huwa" (al-Kahf) has the alif of "lakinna" read only when this. :: Stopping || H: Qur'an 18:38; Standard teaching
-The term for a hamzah that is pronounced only at the start of speech. :: Hamzat al-wasl || H: Standard teaching
-The term for a hamzah always pronounced. :: Hamzat al-qat' || H: Standard teaching
 Hamzat al-wasl in a verb is read with dammah when the third letter has this. :: A firm dammah || H: Standard teaching
-Hamzat al-wasl in "al-" is always read with this vowel when starting. :: Fathah || H: Standard teaching
 Hamzat al-wasl in nouns like "ibn" and "ism" is read with this vowel when starting. :: Kasrah || H: Standard teaching
 Two hamzahs where the second is hamzat al-wasl in "al-", as "a-al-dhakarayn", may be read with ibdal or this. :: Tashil || H: Qur'an 6:143; al-Shatibi
 The ruling of the nun in "ta'manna" in Surah Yusuf is ishmam or this (ikhtilas). :: Rawm || H: Qur'an 12:11; al-Shatibi
@@ -214,7 +219,6 @@ Ishmam at a stop means rounding the lips after sukun without this. :: Sound || H
 Rawm is allowed only on these two vowels. :: Dammah and kasrah || H: Standard teaching
 Ishmam at a stop is allowed only on this vowel. :: Dammah || H: Standard teaching
 The scholar who wrote the poem "al-Jazariyyah" also wrote this larger poem on the ten readings. :: Tayyibat al-Nashr || H: Standard reference
-Ibn al-Jazari رحمة الله عليه passed away in this city. :: Shiraz || H: Standard biography
 The book that explains al-Jazariyyah, by Zakariyya al-Ansari رحمة الله عليه. :: al-Daqa'iq al-Muhkamah || H: Standard reference
 The book by Ibn al-Jazari رحمة الله عليه on the ten readings that his poem summarises. :: al-Nashr fi al-Qira'at al-'Ashr || H: Standard reference
 
@@ -235,10 +239,7 @@ The fluid quality of the letters fa', ra', mim, nun, lam and ba'. :: Idhlaq || H
 The phrase gathering the letters of idhlaq. :: Farra min lubb || H: al-Muqaddimah al-Jazariyyah
 The quality between shiddah and rakhawah found in lam, nun, 'ayn, mim and ra'. :: Tawassut (bayniyyah) || H: al-Muqaddimah al-Jazariyyah
 The phrase gathering the letters of tawassut. :: Lin 'umar || H: al-Muqaddimah al-Jazariyyah
-The ra' is read light when it has this vowel. :: Kasrah || H: al-Muqaddimah al-Jazariyyah
-The teacher of Hafs رحمة الله عليه in recitation, from whom his reading comes. :: 'Asim ibn Abi al-Najud رحمة الله عليه || H: al-Nashr (Ibn al-Jazari)
 Hafs ibn Sulayman رحمة الله عليه passed away in this year. :: 180 AH / 796 CE || H: Ghayat al-Nihayah (Ibn al-Jazari)
-The name for the chain by which a reciter's reading reaches our Beloved Prophet ﷺ. :: Sanad || H: al-Nashr (Ibn al-Jazari)
 The early scholar whose poem al-Ra'iyyah is among the first works on tajwid, d. 325 AH / 937 CE. :: Abu Muzahim al-Khaqani رحمة الله عليه || H: Standard history of tajwid
 The scholar who wrote al-Ri'ayah on tajwid, d. 437 AH / 1045 CE. :: Makki ibn Abi Talib al-Qaysi رحمة الله عليه || H: Standard reference
 Abu 'Amr al-Dani رحمة الله عليه wrote this book on tajwid. :: al-Tahdid fi al-Itqan wa al-Tajwid || H: Standard reference
@@ -270,6 +271,5 @@ The number of qualities without opposites in al-Jazariyyah. :: 7 || H: al-Muqadd
 The letter that has the most "strong" qualities, said to be the strongest letter. :: Ta' (heavy) || H?: Common teaching; some say dad, to be checked
 The letter considered the weakest, as it has the fewest strong qualities. :: Ha' || H?: Common teaching, to be checked
 The Egyptian Mushaf of 1342 AH (1924 CE) whose stop marks many later prints follow. :: The King Fu'ad Mushaf || H?: Check the name of the scholar of the stop marks
-The famous reciter of Egypt known for the "mujawwad" style, d. 1409 AH / 1988 CE. :: 'Abd al-Basit 'Abd al-Samad رحمة الله عليه || H: Standard biography
-The Egyptian reciter known for the "murattal" recording of the whole Qur'an in several readings, d. 1401 AH / 1980 CE. :: Mahmud Khalil al-Husari رحمة الله عليه || H: Standard biography
+Ibn al-Jazari رحمة الله عليه passed away in this city. :: Shiraz || H: Standard biography
 

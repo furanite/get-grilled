@@ -50,11 +50,11 @@ Women and girls may pray at home or at this place. :: The mosque || H: Sahih al-
 We should not walk in front of this person. :: Someone praying || H: Sahih al-Bukhari
 The Fajr prayer is before this. :: Sunrise || H: Sahih Muslim
 The Maghrib prayer is just after this. :: Sunset || H: Sahih Muslim
-The 'Isha' prayer starts when this has gone from the sky, says the majority. :: The red twilight (the light of sunset) || H: Sahih Muslim; Matn Abi Shuja'
 How many prayers have 4 rak'ahs? :: 3 (Dhuhr, 'Asr, 'Isha') || H: Sahih al-Bukhari
 How many prayers have 2 rak'ahs? :: 1 (Fajr) || H: Sahih al-Bukhari
-The total fard rak'ahs in a day. :: 17 || H: Sahih al-Bukhari
 Praying with the heart calm and still is called this. :: Khushu' || H: Qur'an 23:1-2
+The words "Hayya 'ala al-salah" in the adhan mean this. :: Come to prayer || H: Sunan Abi Dawud
+The prayer on the two Eid mornings. :: Salat al-'Id || H: Sahih al-Bukhari
 
 ## 200
 In wudu we wash our face, our arms to the elbows, wipe our head, and wash this. :: Our feet (to the ankles) || H: Qur'an 5:6
@@ -101,12 +101,16 @@ After the prayer we say Subhan Allah 33 times, Alhamdulillah 33 times and Allahu
 Reading Ayat al-Kursi after each prayer: nothing stops you from Jannah except this. :: Death || H: Sunan al-Nasa'i al-Kubra
 The Sunnah prayers done along with the fard prayers. :: Sunan rawatib || H: Sahih Muslim
 Our Beloved Prophet ﷺ said Allah builds a house in Jannah for whoever prays this many Sunnah rak'ahs a day. :: 12 || H: Sahih Muslim
-The Companion who saw the words of the adhan in a dream. :: 'Abdullah ibn Zayd ﵁ || H: Sunan Abi Dawud
 Our Beloved Master ﷺ chose Bilal ﵁ to call the adhan because his voice was this. :: Strong and beautiful (loud) || H: Sunan Abi Dawud
 On Friday we should come early, wear our best clothes and use this. :: Perfume (and miswak) || H: Sahih al-Bukhari
 When the imam gives the khutbah, we should be this. :: Quiet || H: Sahih al-Bukhari
 Even saying "Be quiet" to someone during the khutbah is this. :: Wrong (it spoils your reward) || H: Sahih al-Bukhari
 The Eid prayer has extra this at the start. :: Takbirs || H: Sunan Abi Dawud
+The special night prayers in Ramadan. :: Tarawih || H: Sahih al-Bukhari
+The prayer that was made obligatory on the Night Journey. :: The 5 daily prayers || H: Sahih al-Bukhari
+The Night Journey and the rising through the heavens is called this. :: al-Isra' wa al-Mi'raj || H: Qur'an 17:1; Sahih al-Bukhari
+On the Night Journey, the prayers were first 50, then made this many. :: 5 || H: Sahih al-Bukhari
+Our Beloved Master ﷺ said: "Between a man and disbelief is leaving ___" (meaning). :: The prayer || H: Sahih Muslim
 
 ## 300
 In wudu, we start with this side first. :: The right || H: Sahih al-Bukhari
@@ -116,21 +120,13 @@ Rinsing the nose in wudu is called this. :: Istinshaq || H: Sahih al-Bukhari
 Going to the toilet, sleeping deeply and passing wind do this to wudu. :: Break it || H: Sahih al-Bukhari; Sunan Abi Dawud
 Wiping over leather socks instead of washing the feet. :: Mash 'ala al-khuffayn || H: Sahih Muslim
 The night prayer with an odd number of rak'ahs. :: Witr || H: Sahih al-Bukhari
-The special night prayers in Ramadan. :: Tarawih || H: Sahih al-Bukhari
-The words "Hayya 'ala al-salah" in the adhan mean this. :: Come to prayer || H: Sunan Abi Dawud
 Our Beloved Prophet ﷺ said these two rak'ahs are better than the world and all that is in it. :: The 2 Sunnah rak'ahs of Fajr || H: Sahih Muslim
 The words "Allahu Akbar" at the start of prayer are called this. :: Takbirat al-ihram || H: Sunan Abi Dawud
 The words "Sami' Allahu liman hamidah" are said when doing this. :: Rising from ruku' || H: Sahih al-Bukhari
 A traveller can shorten 4-rak'ah prayers to this many. :: 2 || H: Qur'an 4:101; Sahih al-Bukhari
-The prayer on the two Eid mornings. :: Salat al-'Id || H: Sahih al-Bukhari
 Praying to ask Allah for rain. :: Salat al-Istisqa' || H: Sahih al-Bukhari
 Things that break wudu are called this. :: Nawaqid al-wudu' || H: Standard term
-Eating camel meat breaks wudu, according to this school. :: The Hanbali school || H: Sahih Muslim; Zad al-Mustaqni'
-Bleeding a lot breaks wudu, according to this school. :: The Hanafi school || H: Nur al-Idah
-Laughing out loud in prayer breaks wudu, according to this school. :: The Hanafi school || H: Nur al-Idah
-Touching a woman who is not mahram breaks wudu, according to this school. :: The Shafi'i school || H: Matn Abi Shuja'
 The four fard acts of wudu in the Hanafi school: face, arms, wiping part of the head and this. :: Feet || H: Qur'an 5:6; Nur al-Idah
-Doing the steps of wudu in order is fard in this school. :: The Shafi'i school (also Hanbali) || H: Matn Abi Shuja'; Zad al-Mustaqni'
 Wiping over leather socks is allowed for a traveller for this many days. :: 3 days and nights (the Maliki school sets no fixed limit) || H: Sahih Muslim
 Wiping over leather socks is allowed for a person at home for this long. :: 1 day and night (the Maliki school sets no fixed limit) || H: Sahih Muslim
 The Companion who taught that wiping is on the top of the sock, not the bottom. :: Our master 'Ali ibn Abi Talib ﵁ || H: Sunan Abi Dawud
@@ -149,15 +145,14 @@ The du'a said standing in the Witr prayer (all year in the Hanafi school) is cal
 Our Beloved Master ﷺ taught our master al-Hasan ﵁ the Witr du'a starting "Allahumma ihdini" meaning this. :: O Allah, guide me || H: Sunan Abi Dawud
 Our Beloved Prophet ﷺ prayed this many rak'ahs at night, in Ramadan and outside it, says our lady 'A'ishah ﵂. :: 11 || H: Sahih al-Bukhari
 The Companion who gathered people for Tarawih behind one imam. :: Our master 'Umar ibn al-Khattab ﵁ || H: Sahih al-Bukhari
-The Companion our master 'Umar ﵁ chose to lead Tarawih. :: Ubayy ibn Ka'b ﵁ || H: Sahih al-Bukhari
 In the prayer of fear in war, the army prays in this way. :: In groups, taking turns || H: Qur'an 4:102
 Our Beloved Prophet ﷺ prayed sitting when He ﷺ was this. :: Ill (or hurt) || H: Sahih al-Bukhari
 A person who cannot sit may pray this way. :: Lying on his side || H: Sahih al-Bukhari
 Our Beloved Master ﷺ said: "Pray standing; if you cannot, then" do this (meaning). :: Sitting || H: Sahih al-Bukhari
-The Companion who was told "Pray standing; if you cannot, sitting" (meaning). :: 'Imran ibn Husayn ﵁ || H: Sahih al-Bukhari
 Praying a voluntary prayer on a riding animal: Our Beloved Prophet ﷺ faced this way. :: Wherever it went || H: Sahih al-Bukhari
 The covering of the body in prayer is called this. :: 'Awrah (covering what must be covered) || H: Qur'an 7:31
 The Qur'an says: "Take your adornment at every ___" (meaning). :: Mosque (place of prayer) || H: Qur'an 7:31
+The total fard rak'ahs in a day. :: 17 || H: Sahih al-Bukhari
 
 ## 400
 Our Beloved Prophet ﷺ said the key to prayer is this (paraphrased). :: Purity (wudu) || H: Sunan al-Tirmidhi
@@ -195,8 +190,6 @@ Whoever prays 'Isha' in jama'ah is like praying half the night; with Fajr too, l
 The Qur'an first mentions shortening the prayer when travellers fear this. :: Danger || H: Qur'an 4:101; Sahih Muslim
 Our master 'Umar ﵁ asked why we shorten when safe; our Beloved Prophet ﷺ called it this from Allah. :: A charity (sadaqah) || H: Sahih Muslim
 Combining prayers is allowed in rain in the mosque by this school, among others. :: The Shafi'i school || H: Matn Abi Shuja'
-The Hanafi school allows real combining only at these two places. :: 'Arafah and Muzdalifah || H: Nur al-Idah; al-Hidayah
-In the Maliki school, a traveller shortens after travelling about this far. :: About 80 km (4 barids) || H: al-Risalah; standard conversion
 In the eclipse prayer, our Beloved Master ﷺ made each rak'ah have this many ruku's. :: 2 || H: Sahih al-Bukhari
 Our Beloved Prophet ﷺ said the sun and moon do not eclipse for this. :: Anyone's death or life || H: Sahih al-Bukhari
 On the day of an eclipse in Madinah, people thought it was for the passing of this son of our Beloved Prophet ﷺ. :: Our master Ibrahim ﵇ || H: Sahih al-Bukhari
@@ -204,21 +197,20 @@ Salat al-Istisqa': Our Beloved Master ﷺ turned this inside out. :: His ﷺ clo
 In the Istikharah du'a we ask Allah to choose by His this. :: Knowledge || H: Sahih al-Bukhari
 The Companion who narrated the Istikharah du'a. :: Jabir ibn 'Abdullah (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: Sahih al-Bukhari
 Sujud al-sahw is this many prostrations. :: 2 || H: Sahih al-Bukhari
-Our Beloved Prophet ﷺ once prayed Dhuhr or 'Asr as 2 rak'ahs by forgetting; the Companion who asked "Was the prayer shortened?" (meaning). :: Dhu al-Yadayn ﵁ || H: Sahih al-Bukhari
 Funeral prayer has this many takbirs. :: 4 || H: Sahih al-Bukhari
 After the first takbir of the funeral prayer we read this (Shafi'i and Hanbali schools). :: Surah al-Fatihah || H: Sahih al-Bukhari; Matn Abi Shuja'
 In the funeral prayer, after the second takbir we send these on our Beloved Prophet ﷺ. :: Salawat (blessings) || H: Sunan al-Nasa'i; Matn Abi Shuja'
 In the funeral prayer, after the third takbir we make du'a for this person. :: The one who passed away || H: Sahih Muslim
 Whoever attends the funeral prayer and burial gets two of these rewards. :: Qirats (each like a mountain) || H: Sahih al-Bukhari
+The 'Isha' prayer starts when this has gone from the sky, says the majority. :: The red twilight (the light of sunset) || H: Sahih Muslim; Matn Abi Shuja'
+The Companion who saw the words of the adhan in a dream. :: 'Abdullah ibn Zayd ﵁ || H: Sunan Abi Dawud
+Eating camel meat breaks wudu, according to this school. :: The Hanbali school || H: Sahih Muslim; Zad al-Mustaqni'
 
 ## 500
 The Companion who told us the hadith "Pray as you have seen me pray" (meaning). :: Malik ibn al-Huwayrith ﵁ || H: Sahih al-Bukhari
 Our Beloved Master ﷺ said: if a river ran by your door and you washed in it five times a day, this would be left on you. :: No dirt at all (like the 5 prayers wipe away sins) || H: Sahih al-Bukhari
 The prayer the Qur'an calls "the middle prayer", according to the hadith (meaning). :: 'Asr || H: Sahih Muslim
 Our Beloved Prophet ﷺ taught children to start praying at this age. :: 7 || H: Sunan Abi Dawud
-The prayer that was made obligatory on the Night Journey. :: The 5 daily prayers || H: Sahih al-Bukhari
-The Night Journey and the rising through the heavens is called this. :: al-Isra' wa al-Mi'raj || H: Qur'an 17:1; Sahih al-Bukhari
-On the Night Journey, the prayers were first 50, then made this many. :: 5 || H: Sahih al-Bukhari
 Our Beloved Prophet ﷺ said the closest a servant is to his Lord is when he is in this position. :: Sujud (prostration) || H: Sahih Muslim
 The words we say in the sitting, starting "al-Tahiyyatu lillah". :: The tashahhud || H: Sahih al-Bukhari
 The blessing on our Beloved Master ﷺ in the last sitting, like the blessing on our master Ibrahim ﵇. :: al-Salat al-Ibrahimiyyah || H: Sahih al-Bukhari
@@ -231,7 +223,6 @@ Whoever prays the two "cool" prayers will enter Paradise; they are these. :: Faj
 Allah says in a hadith qudsi: "My servant draws near to Me with nothing more loved than ___" (meaning). :: The obligatory deeds || H: Sahih al-Bukhari
 In the hadith qudsi, after the obligations the servant keeps drawing near with these until Allah loves him. :: Voluntary deeds (nawafil) || H: Sahih al-Bukhari
 Our Beloved Prophet ﷺ said: on the Day, if the fard prayer is short, Allah says to look for these. :: Voluntary prayers || H: Sunan al-Tirmidhi
-Our Beloved Master ﷺ said: "Between a man and disbelief is leaving ___" (meaning). :: The prayer || H: Sahih Muslim
 A popular saying (not a hadith): "Pray before you are ___" (meaning). :: Prayed over (dead) || F: Popular saying; not a hadith
 Our Beloved Prophet ﷺ said: whoever misses 'Asr is like one who lost these. :: His family and wealth || H: Sahih al-Bukhari
 Our Beloved Prophet ﷺ said: "The coolness of my eyes is in ___" (meaning). :: Prayer || H: Sunan al-Nasa'i
@@ -262,3 +253,12 @@ Prayer in al-Masjid al-Haram is worth this many. :: 100,000 || H: Sunan Ibn Maja
 The three mosques we travel to for worship. :: al-Masjid al-Haram, al-Masjid al-Nabawi, al-Masjid al-Aqsa || H: Sahih al-Bukhari
 Praying 2 rak'ahs in Masjid Quba' is like this. :: An 'Umrah || H: Sunan al-Tirmidhi
 Our Beloved Prophet ﷺ said: "The first thing the servant will be asked about" is this (meaning). :: The prayer || H: Sunan al-Tirmidhi
+Bleeding a lot breaks wudu, according to this school. :: The Hanafi school || H: Nur al-Idah
+Laughing out loud in prayer breaks wudu, according to this school. :: The Hanafi school || H: Nur al-Idah
+Touching a woman who is not mahram breaks wudu, according to this school. :: The Shafi'i school || H: Matn Abi Shuja'
+Doing the steps of wudu in order is fard in this school. :: The Shafi'i school (also Hanbali) || H: Matn Abi Shuja'; Zad al-Mustaqni'
+The Companion our master 'Umar ﵁ chose to lead Tarawih. :: Ubayy ibn Ka'b ﵁ || H: Sahih al-Bukhari
+The Companion who was told "Pray standing; if you cannot, sitting" (meaning). :: 'Imran ibn Husayn ﵁ || H: Sahih al-Bukhari
+The Hanafi school allows real combining only at these two places. :: 'Arafah and Muzdalifah || H: Nur al-Idah; al-Hidayah
+In the Maliki school, a traveller shortens after travelling about this far. :: About 80 km (4 barids) || H: al-Risalah; standard conversion
+Our Beloved Prophet ﷺ once prayed Dhuhr or 'Asr as 2 rak'ahs by forgetting; the Companion who asked "Was the prayer shortened?" (meaning). :: Dhu al-Yadayn ﵁ || H: Sahih al-Bukhari

@@ -7,7 +7,6 @@ group: fiqh
 ## 100
 The fiqh of dealings between people, such as buying and selling. :: Mu'amalat || H: al-Hidayah; Matn Abi Shuja'
 Interest or usury, forbidden in Islam. :: Riba || H: Qur'an 2:275
-The verse that says Allah has allowed trade and forbidden riba (meaning). :: Qur'an 2:275 || H: Qur'an 2:275
 Selling in Arabic. :: Bay' || H: Qur'an 2:275
 The surah that begins "Woe to those who give short measure" (meaning). :: Surah al-Mutaffifin || H: Qur'an 83:1-3
 Wealth may not be taken unjustly, but through trade by this. :: Mutual consent || H: Qur'an 4:29
@@ -17,7 +16,6 @@ Our Beloved Prophet ﷺ found wet food hidden under dry food in a pile of this. 
 Writing down a debt is commanded in this verse. :: Qur'an 2:282 || H: Qur'an 2:282
 A loan must be paid back in this. :: The same amount (no extra condition) || H: Standard ruling; al-Hidayah
 Gambling, forbidden in Islam. :: Maysir (qimar) || H: Qur'an 5:90
-Hoarding food to push up prices. :: Ihtikar || H: Sahih Muslim
 Our Beloved Prophet ﷺ said Allah has mercy on one who is easy-going when he buys, sells and asks for this. :: Repayment of a debt || H: Sahih al-Bukhari
 A debtor in hardship should be given this. :: More time || H: Qur'an 2:280
 Forgiving the debt of one in hardship is this. :: Better for you || H: Qur'an 2:280
@@ -44,6 +42,7 @@ Our Beloved Prophet ﷺ said the oath may sell the goods but it wipes out this. 
 Our Beloved Prophet ﷺ said buyer and seller are blessed in their sale if they are truthful and do this (meaning). :: Make things clear (hide no fault) || H: Sahih al-Bukhari
 The Qur'an says: "Do not consume one another's wealth ___" (meaning). :: Wrongfully (by falsehood) || H: Qur'an 4:29
 The Qur'an says those who wrongly consume orphans' wealth eat this into their bellies (meaning). :: Fire || H: Qur'an 4:10
+Before prophethood, this noble trader took the goods of our lady Khadijah ﵂ to al-Sham for a share of the profit. :: Our Beloved Prophet Muhammad ﷺ || H: Sirat Ibn Hisham
 
 ## 200
 The six things named in the hadith of riba: gold, silver, wheat, barley, dates and this. :: Salt || H: Sahih Muslim
@@ -82,6 +81,8 @@ Taking someone's property by force. :: Ghasb (usurpation) || H: Sahih al-Bukhari
 The Qur'an says: "Do not give the foolish ___, which Allah made a means of support for you" (meaning). :: Your wealth || H: Qur'an 4:5
 Our master 'Umar ﵁ said none should sell in our market except one who has learned this. :: Fiqh (the rules of trade) || H: Sunan al-Tirmidhi
 Our Beloved Prophet ﷺ forbade selling food one has bought before doing this. :: Taking possession of it (qabd) || H: Sahih al-Bukhari
+The famous principle "No harm and no harming" (meaning). :: La darar wa la dirar || H: Sunan Ibn Majah; Muwatta' Malik
+The Qur'an says: "If you are on a journey and find no scribe, then ___ taken in hand" (meaning). :: A pledge (rahn) || H: Qur'an 2:283
 
 ## 300
 In the Hanafi and Maliki schools, khiyar al-majlis is this. :: Not recognised (the sale is binding once agreed) || H: al-Hidayah (al-Marghinani)
@@ -100,7 +101,6 @@ In the Shafi'i school, bay' al-'inah is this. :: Valid but disliked || H: al-Min
 In the Hanafi, Maliki and Hanbali schools, bay' al-'inah is this. :: Not allowed (or disliked strongly) || H: al-Hidayah; Zad al-Mustaqni'
 A contract for profit in mudarabah: losses are borne by this party. :: The owner of the money || H: al-Hidayah (al-Marghinani)
 The worker in mudarabah gets this. :: An agreed share of the profit || H: al-Hidayah (al-Marghinani)
-Before prophethood, this noble trader took the goods of our lady Khadijah ﵂ to al-Sham for a share of the profit. :: Our Beloved Prophet Muhammad ﷺ || H: Sirat Ibn Hisham
 The right of a neighbour or partner to buy first when land is sold. :: Shuf'ah (pre-emption) || H: Sahih al-Bukhari
 In the Hanafi school, shuf'ah belongs to the partner and also to this person. :: The neighbour || H: al-Hidayah (al-Marghinani)
 In the Shafi'i school, shuf'ah belongs only to this person. :: The partner (co-owner) || H: Matn Abi Shuja'
@@ -112,10 +112,12 @@ Our Beloved Prophet ﷺ said whoever takes a hand-span of land unjustly will hav
 Our Beloved Prophet ﷺ said that of the three Allah will not look at on the Day, one sells his goods with this (meaning). :: A false oath || H: Sahih Muslim
 The caller of our master Yusuf ﵇ promised a camel-load for the cup and said "I am ___ for it" (meaning), a proof for guarantee. :: Guarantor (za'im) || H: Qur'an 12:72
 Before Hunayn, our Beloved Prophet ﷺ borrowed armour from this man, as a guaranteed loan. :: Safwan ibn Umayyah ﵁ || H: Sunan Abi Dawud
-Imam Abu Hanifah رحمة الله عليه earned his living trading in this. :: Silk cloth (khazz) || H: Tarikh Baghdad (al-Khatib)
 A sale made simply by handing over goods and price, with no words. :: Bay' al-mu'atat || H: al-Hidayah (al-Marghinani)
 In the Hanafi school, bay' al-mu'atat is this. :: Valid (in small and large things) || H: al-Hidayah; Radd al-Muhtar
 Placing a ban on someone's handling of his own wealth, for youth, madness or folly. :: Hajr (interdiction) || H: Qur'an 4:5-6
+The verse that says Allah has allowed trade and forbidden riba (meaning). :: Qur'an 2:275 || H: Qur'an 2:275
+Hoarding food to push up prices. :: Ihtikar || H: Sahih Muslim
+Salam was allowed for a known measure, known weight and this. :: A known term || H: Sahih al-Bukhari
 
 ## 400
 Our Beloved Master ﷺ forbade a townsman from selling for this person. :: A desert dweller (bedouin) || H: Sahih al-Bukhari
@@ -130,10 +132,7 @@ A sale that is defective in the Hanafi school, not void. :: Bay' fasid || H: al-
 A sale that is void with no effect. :: Bay' batil || H: al-Hidayah (al-Marghinani)
 Our Beloved Prophet ﷺ said buyer and seller keep the choice as long as they have not done this (paraphrased). :: Separated || H: Sahih al-Bukhari
 The famous principle "Benefit goes with liability" (meaning). :: al-Kharaj bil-daman || H: Sunan Abi Dawud; Sunan al-Tirmidhi
-The famous principle "No harm and no harming" (meaning). :: La darar wa la dirar || H: Sunan Ibn Majah; Muwatta' Malik
 The Hanafi code of the Ottoman state on dealings. :: Majallat al-Ahkam al-'Adliyyah || H: al-Majallah
-The Majallah was issued in these years. :: 1286-1293 AH / 1869-1876 CE || H: al-Majallah
-The number of articles in the Majallah. :: 1,851 || H: al-Majallah
 The first of the Majallah's maxims, "Matters are judged by their aims" (meaning). :: al-Umur bi-maqasidiha || H: al-Majallah, article 2
 The maxim "Custom is given authority" (meaning). :: al-'Adah muhakkamah || H: al-Majallah, article 36; al-Ashbah (al-Suyuti)
 The maxim "Hardship brings ease" (meaning). :: al-Mashaqqah tajlib al-taysir || H: al-Ashbah wal-Naza'ir (al-Suyuti)
@@ -145,7 +144,7 @@ In the Shafi'i school, the main view required words for a sale; this later Shafi
 In the Hanafi school, a buyer who finds a fault may return the item or keep it at this price. :: The full price (no reduction without consent) || H: al-Hidayah (al-Marghinani)
 A sale on credit at a higher price than the cash price is this, by the four schools, if one price is fixed at the contract. :: Allowed || H: al-Hidayah; al-Mughni
 The Maliki name for blight damage to fruit sold on the tree, which falls on the seller. :: Jawa'ih (crop losses, when a third or more) || H: Sahih Muslim; al-Risalah (Ibn Abi Zayd)
-The Qur'an says: "If you are on a journey and find no scribe, then ___ taken in hand" (meaning). :: A pledge (rahn) || H: Qur'an 2:283
+Imam Abu Hanifah رحمة الله عليه earned his living trading in this. :: Silk cloth (khazz) || H: Tarikh Baghdad (al-Khatib)
 
 ## 500
 The Hanafi Ottoman scholar who led the committee that wrote the Majallah. :: Ahmed Cevdet Pasha رحمة الله عليه || H: al-Majallah (introduction)
@@ -156,7 +155,6 @@ The Companion who narrated "Do fresh dates lessen when they dry?" (meaning), on 
 The sale of fresh dates on the tree for dry dates, allowed in small amounts for the poor. :: Bay' al-'araya || H: Sahih al-Bukhari
 The limit for 'araya in the hadith. :: Less than 5 awsuq || H: Sahih al-Bukhari
 In the Hanafi school, salam requires this many conditions, including a known term and place. :: 7 || H?: al-Hidayah (al-Marghinani); count to be checked
-Salam was allowed for a known measure, known weight and this. :: A known term || H: Sahih al-Bukhari
 The Companion who narrated that people of Madinah paid in advance for fruit for one or two years. :: 'Abdullah ibn 'Abbas (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: Sahih al-Bukhari
 A hire contract (ijarah) on a person, as for a worker, is called this in the Hanafi school. :: Ajir khass (private hire) || H: al-Hidayah (al-Marghinani)
 A worker hired for anyone, like a tailor, is called this. :: Ajir mushtarak (common hire) || H: al-Hidayah (al-Marghinani)
@@ -175,3 +173,5 @@ In the Hanafi school, the 'illah of riba makes selling one sa' of wheat for two 
 In the Hanafi school, selling one apple for two apples is this, since apples are not sold by measure. :: Allowed || H: al-Hidayah (al-Marghinani)
 The Maliki 'illah of riba in foods is that they are staple food that can be this. :: Stored (iqtiyat wa iddikhar) || H: al-Sharh al-Kabir (al-Dardir)
 In the Hanafi school, the rule that a missing condition spoils but does not void a sale gives this third category. :: Fasid (between valid and void) || H: al-Hidayah (al-Marghinani)
+The Majallah was issued in these years. :: 1286-1293 AH / 1869-1876 CE || H: al-Majallah
+The number of articles in the Majallah. :: 1,851 || H: al-Majallah

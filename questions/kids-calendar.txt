@@ -23,9 +23,6 @@ We greet each other on Eid with "Eid this". :: Eid Mubarak || H: Standard greeti
 Sighting this marks the start of a new month. :: The new crescent moon (hilal) || H: Sahih al-Bukhari
 The second month of the Islamic year. :: Safar || H: Standard calendar
 The third month of the Islamic year. :: Rabi' al-Awwal || H: Standard calendar
-The fourth month of the Islamic year. :: Rabi' al-Thani (al-Akhir) || H: Standard calendar
-The fifth month of the Islamic year. :: Jumada al-Ula || H: Standard calendar
-The sixth month of the Islamic year. :: Jumada al-Akhirah || H: Standard calendar
 The seventh month of the Islamic year. :: Rajab || H: Standard calendar
 The eighth month of the Islamic year. :: Sha'ban || H: Standard calendar
 The ninth month of the Islamic year. :: Ramadan || H: Standard calendar
@@ -55,6 +52,12 @@ The Arabic name for Sunday. :: al-Ahad || H: Standard calendar
 We say "Ramadan Mubarak" or "Ramadan ___". :: Kareem || H: Standard greeting
 The Companions (رِضْوَانُ اللَّهِ عَلَيْهِمْ) said to each other on Eid: "May Allah accept from us and ___" (meaning). :: From you || H: Fath al-Bari (reports of the Companions)
 Sha'ban comes just before this month. :: Ramadan || H: Standard calendar
+The Hijri calendar is counted from this event. :: The Hijrah || H: Tarikh al-Tabari
+The Arabic word for "year". :: Sanah ('am) || H: Standard term
+The Arabic word for "month". :: Shahr || H: Qur'an 9:36
+The Arabic word for "day". :: Yawm || H: Standard term
+The Arabic word for "night". :: Layl (laylah) || H: Standard term
+On Friday we should send many of these on our Beloved Prophet ﷺ. :: Salawat (blessings) || H: Sunan Abi Dawud
 
 ## 200
 The month after Ramadan. :: Shawwal || H: Standard calendar
@@ -67,7 +70,6 @@ Fasting on 'Arafah wipes away the sins of this. :: Two years (the year before an
 Eid al-Adha is on this day of Dhu al-Hijjah. :: The 10th || H: Sahih al-Bukhari
 The animal sacrifice at Eid al-Adha is called this. :: Udhiyah (qurbani) || H: Sahih al-Bukhari
 The charity given before the Eid al-Fitr prayer. :: Zakat al-Fitr || H: Sahih al-Bukhari
-Zakat al-Fitr was given as one of these measures of food. :: A sa' || H: Sahih al-Bukhari
 The Night of Power is in this month. :: Ramadan || H: Qur'an 97:1; 2:185
 We look for it in these nights of Ramadan. :: The odd nights of the last ten || H: Sahih al-Bukhari
 The four sacred months include Muharram, Rajab, Dhu al-Qa'dah and this. :: Dhu al-Hijjah || H: Qur'an 9:36; Sahih al-Bukhari
@@ -91,8 +93,6 @@ On Eid al-Fitr, our Beloved Master ﷺ ate before the prayer; on Eid al-Adha He 
 The Eid prayer is held in the morning in an open place called this. :: The musalla || H: Sahih al-Bukhari
 Our Beloved Prophet ﷺ told even these women to come out to the Eid prayer place. :: Young girls and women in their homes || H: Sahih al-Bukhari
 The Eid sermon is given after this. :: The Eid prayer || H: Sahih al-Bukhari
-The takbir of Eid al-Adha is said from Fajr of 'Arafah until this. :: The last Day of Tashriq ('Asr of the 13th) || H: al-Hakim (from 'Ali and Ibn Mas'ud); Matn Abi Shuja'
-In the Shafi'i school, the days of sacrifice are this many. :: 4 (the 10th to 13th) || H: Matn Abi Shuja'
 The animals that can be given for udhiyah. :: Sheep, goats, cows and camels || H: Qur'an 22:34; standard fiqh
 One cow or camel can be shared by this many people. :: 7 || H: Sahih Muslim
 Our Beloved Prophet ﷺ sacrificed two of these. :: Rams (white with black) || H: Sahih al-Bukhari
@@ -107,12 +107,20 @@ Before Ramadan was made a duty, this fast was a duty. :: 'Ashura' || H: Sahih al
 Fasting on Friday alone is this. :: Disliked (unless with a day before or after) || H: Sahih al-Bukhari
 Our Beloved Prophet ﷺ said the month of Sha'ban is when deeds are this. :: Raised to Allah || H: Sunan al-Nasa'i
 Our Beloved Prophet ﷺ said not to fast a day or two before Ramadan unless this. :: It is your usual fast || H: Sahih al-Bukhari
+The fourth month of the Islamic year. :: Rabi' al-Thani (al-Akhir) || H: Standard calendar
+The Night of Power is better than this. :: A thousand months || H: Qur'an 97:3
+Dhu al-Hijjah's name means the month of this. :: Hajj || H: Lisan al-'Arab
+Our Beloved Prophet ﷺ said the best day the sun rises on is this. :: Friday || H: Sahih Muslim
+Laylat al-Qadr is one of these in Ramadan. :: The last ten nights || H: Sahih al-Bukhari
+Our Beloved Master ﷺ said Ramadan has a night better than this. :: A thousand months || H: Sunan al-Nasa'i
+The Hijrah happened in this year. :: 1 AH / 622 CE || H: Standard dating
+The Sunnah surah to read on Friday is this. :: Surah al-Kahf || H: Sunan al-Darimi; al-Hakim
+Our Beloved Prophet ﷺ said: "Fast when you see it and" do this when you see it (meaning). :: Break your fast (end Ramadan) || H: Sahih al-Bukhari
 
 ## 300
 The Islamic year has about this many days. :: 354 (or 355) || H: Standard calendar
 The month our Beloved Master ﷺ was born, by the best-known report. :: Rabi' al-Awwal || H: Ibn Hisham, al-Sirah
 The Caliph who started counting years from the Hijrah. :: Our master 'Umar ibn al-Khattab ﵁ || H: Tarikh al-Tabari
-The Hijri calendar is counted from this event. :: The Hijrah || H: Tarikh al-Tabari
 Our Beloved Prophet ﷺ liked to fast on these two days of the week. :: Monday and Thursday || H: Sunan al-Tirmidhi
 Our Beloved Prophet ﷺ said deeds are shown to Allah on these days. :: Monday and Thursday || H: Sunan al-Tirmidhi
 The "white days" for fasting are the 13th, 14th and this day of each month. :: The 15th || H: Sunan al-Nasa'i
@@ -133,7 +141,6 @@ On the 8th, pilgrims go to this place. :: Mina || H: Sahih Muslim
 After 'Arafah, pilgrims spend the night at this place. :: Muzdalifah || H: Qur'an 2:198
 The 10th of Dhu al-Hijjah is called "the day of ___". :: Sacrifice (Yawm al-Nahr) || H: Sahih al-Bukhari
 Our Beloved Prophet ﷺ called it "the greatest day of ___" (meaning). :: Hajj (Yawm al-Hajj al-Akbar) || H: Sunan Abi Dawud
-The 11th of Dhu al-Hijjah is called this. :: Yawm al-Qarr (the day of staying) || H: Sunan Abi Dawud
 The Islamic calendar is used to find the times of fasting, Hajj and this. :: Zakat (its year) || H: Qur'an 2:189
 The Qur'an says the moon's phases are times for people and for this. :: Hajj || H: Qur'an 2:189
 The Qur'an says Allah made the sun and moon for counting years and this. :: Time (the reckoning) || H: Qur'an 10:5
@@ -159,12 +166,14 @@ The night of the middle of Sha'ban is called this. :: Laylat al-Nisf min Sha'ban
 On the night of the middle of Sha'ban, Allah forgives all except the one who does shirk and this person. :: One who holds a grudge || H: Sunan Ibn Majah
 The month whose name comes from "spring" (two months). :: Rabi' (al-Awwal and al-Thani) || H: Lisan al-'Arab
 The months whose name comes from "frozen" (dry season). :: Jumada (al-Ula and al-Akhirah) || H: Lisan al-'Arab
+The fifth month of the Islamic year. :: Jumada al-Ula || H: Standard calendar
+The sixth month of the Islamic year. :: Jumada al-Akhirah || H: Standard calendar
+Zakat al-Fitr was given as one of these measures of food. :: A sa' || H: Sahih al-Bukhari
 
 ## 400
 The month in which our Beloved Master ﷺ fasted the most outside Ramadan. :: Sha'ban || H: Sahih al-Bukhari
 Our Beloved Prophet ﷺ said the best fast after Ramadan is in this month. :: Muharram ("the month of Allah") || H: Sahih Muslim
 Our Beloved Prophet ﷺ said that to be different, we also fast this day with 'Ashura'. :: The 9th (Tasu'a') || H: Sahih Muslim
-The Night of Power is better than this. :: A thousand months || H: Qur'an 97:3
 The du'a our Beloved Master ﷺ taught our lady 'A'ishah ﵂ for the Night of Power (meaning). :: O Allah, You are Pardoning, You love to pardon, so pardon me || H: Sunan al-Tirmidhi
 Staying in the mosque in the last ten nights of Ramadan. :: I'tikaf || H: Sahih al-Bukhari
 The gate of Paradise for those who fast. :: al-Rayyan || H: Sahih al-Bukhari
@@ -182,11 +191,6 @@ Our Beloved Prophet ﷺ said there is no bad luck in this month. :: Safar || H: 
 Rajab's name comes from this meaning. :: Honouring (respect) || H: Lisan al-'Arab
 Sha'ban's name comes from tribes doing this. :: Spreading out (to find water) || H: Lisan al-'Arab
 Shawwal's name comes from camels doing this with their tails. :: Raising them || H: Lisan al-'Arab
-Dhu al-Hijjah's name means the month of this. :: Hajj || H: Lisan al-'Arab
-The Arabic word for "year". :: Sanah ('am) || H: Standard term
-The Arabic word for "month". :: Shahr || H: Qur'an 9:36
-The Arabic word for "day". :: Yawm || H: Standard term
-The Arabic word for "night". :: Layl (laylah) || H: Standard term
 The Arabic word for "week". :: Usbu' || H: Standard term
 Our Beloved Master ﷺ said: "We are an unlettered nation; we do not write or" do this (meaning). :: Calculate || H: Sahih al-Bukhari
 Our Beloved Prophet ﷺ said: "The month is like this and this", meaning 29 or this. :: 30 || H: Sahih al-Bukhari
@@ -198,10 +202,8 @@ On Friday, the angels ﵈ stand at the mosque doors writing who comes this. :: F
 The first to come to Jumu'ah is like one who gives this (meaning). :: A camel || H: Sahih al-Bukhari
 On Friday, the last ones to arrive before the imam comes out are like one who gives this (meaning). :: An egg || H: Sahih al-Bukhari
 The surahs our Beloved Prophet ﷺ read in Fajr on Friday. :: al-Sajdah and al-Insan || H: Sahih al-Bukhari
-Our Beloved Prophet ﷺ said the best day the sun rises on is this. :: Friday || H: Sahih Muslim
 Our Beloved Master ﷺ said our master Adam ﵇ entered Jannah and was sent out of it on this day. :: Friday || H: Sahih Muslim
 Muslims missing three Jumu'ahs carelessly: Allah does this to the heart. :: Seals it || H: Sunan Abi Dawud
-Laylat al-Qadr is one of these in Ramadan. :: The last ten nights || H: Sahih al-Bukhari
 The Companion who believed it was the 27th night. :: Ubayy ibn Ka'b ﵁ || H: Sahih Muslim
 A sign of Laylat al-Qadr is the sun rising the next morning without this. :: Strong rays || H: Sahih Muslim
 Our Beloved Prophet ﷺ said: whoever stands in prayer on Laylat al-Qadr with faith has this forgiven. :: His past sins || H: Sahih al-Bukhari
@@ -210,21 +212,19 @@ The wife who told us that our Beloved Prophet's ﷺ wives kept up i'tikaf after 
 Jibril ﵇ met our Beloved Master ﷺ every night of Ramadan to do this. :: Study the Qur'an with Him ﷺ || H: Sahih al-Bukhari
 Our Beloved Prophet ﷺ was most generous in Ramadan, more than this wind. :: A blowing wind (sent wind) || H: Sahih al-Bukhari
 'Umrah in Ramadan is equal to this. :: A Hajj (with our Beloved Prophet ﷺ) || H: Sahih al-Bukhari
-Our Beloved Master ﷺ said Ramadan has a night better than this. :: A thousand months || H: Sunan al-Nasa'i
+The takbir of Eid al-Adha is said from Fajr of 'Arafah until this. :: The last Day of Tashriq ('Asr of the 13th) || H: al-Hakim (from 'Ali and Ibn Mas'ud); Matn Abi Shuja'
+In the Shafi'i school, the days of sacrifice are this many. :: 4 (the 10th to 13th) || H: Matn Abi Shuja'
 
 ## 500
 The month whose name means "the forbidden (sacred) one" and starts the year. :: Muharram || H: Standard meaning
 The month whose name comes from the heat of summer, when it was named. :: Ramadan || H: Lisan al-'Arab
 The month that sits alone between the other sacred months. :: Rajab || H: Sahih al-Bukhari
 Dhu al-Qa'dah's name means the month of this. :: Sitting (resting from war) || H: Lisan al-'Arab
-The Hijrah happened in this year. :: 1 AH / 622 CE || H: Standard dating
 The month in which our Beloved Prophet ﷺ arrived in Madinah al-Munawwarah. :: Rabi' al-Awwal || H: Ibn Hisham, al-Sirah
 Our Beloved Prophet ﷺ passed away in this month. :: Rabi' al-Awwal (11 AH, 632 CE) || H: Ibn Hisham, al-Sirah
 The day our Beloved Master ﷺ was born, began receiving revelation and passed away. :: Monday || H: Sahih Muslim; Sahih al-Bukhari
 The day on which our master Adam ﵇ was created and the Hour will come. :: Friday || H: Sahih Muslim
 On Friday there is an hour when du'a is answered; many say it is at the end of this time. :: After 'Asr (before Maghrib) || H: Sunan Abi Dawud
-The Sunnah surah to read on Friday is this. :: Surah al-Kahf || H: Sunan al-Darimi; al-Hakim
-On Friday we should send many of these on our Beloved Prophet ﷺ. :: Salawat (blessings) || H: Sunan Abi Dawud
 Our Beloved Prophet ﷺ said fasting 3 days each month is like fasting this. :: The whole year || H: Sahih al-Bukhari
 Our Beloved Master ﷺ said Ramadan to Ramadan wipes away sins, if we avoid these. :: Major sins || H: Sahih Muslim
 The fast of our master Dawud ﵇, the most loved fast, is this. :: Fasting one day and not the next || H: Sahih al-Bukhari
@@ -255,7 +255,6 @@ The report of Kurayb about seeing the moon in al-Sham versus Madinah is in this 
 Our Beloved Master ﷺ accepted the moon sighting of this kind of person. :: One trustworthy Muslim || H: Sunan Abi Dawud
 For seeing the Shawwal moon, most scholars ask for this many witnesses. :: 2 || H: Sunan al-Nasa'i; Matn Abi Shuja'
 Our Beloved Prophet ﷺ saw the new moon and said: "O Allah, bring it over us with ___" (meaning). :: Safety and faith (blessing) || H: Sunan al-Tirmidhi
-Our Beloved Prophet ﷺ said: "Fast when you see it and" do this when you see it (meaning). :: Break your fast (end Ramadan) || H: Sahih al-Bukhari
 The day of doubt is the 30th of this month. :: Sha'ban || H: Sunan al-Tirmidhi
 Fasting the day of doubt is this, by the hadith of 'Ammar ﵁. :: Disobeying Abu al-Qasim ﷺ || H: Sunan al-Tirmidhi
 Our Beloved Master ﷺ said Allah has two days better than the old feast days of this city. :: Madinah || H: Sunan Abi Dawud
@@ -263,3 +262,4 @@ The "white days" get their name because their nights are lit by this. :: The ful
 Shawwal's six days with Ramadan are like fasting this. :: The whole year || H: Sahih Muslim
 Each good deed counts ten times, so Ramadan (30 × 10) and six days of Shawwal (6 × 10) together make this many days. :: 360 (a year) || H: Sunan Ibn Majah
 Our Beloved Prophet ﷺ said: "Whoever fasts a day for Allah, Allah keeps his face from the Fire ___" (meaning). :: Seventy years || H: Sahih al-Bukhari
+The 11th of Dhu al-Hijjah is called this. :: Yawm al-Qarr (the day of staying) || H: Sunan Abi Dawud

@@ -22,7 +22,6 @@ The empire that ruled from Istanbul. :: The Ottoman Empire || H: Standard histor
 The Ottoman sultan who conquered Constantinople in 857 AH / 1453 CE. :: Sultan Muhammad al-Fatih رحمة الله عليه || H: Standard history
 The famous "House of Wisdom" was in this city (meaning). :: Baghdad (Bayt al-Hikmah) || H: Standard history
 The Umayyad caliph known for justice, sometimes called the fifth Rightly Guided Caliph. :: 'Umar ibn 'Abd al-'Aziz رحمة الله عليه || H: Siyar A'lam al-Nubala' (al-Dhahabi)
-The city in North Africa founded by 'Uqbah ibn Nafi' as a base. :: al-Qayrawan || H: Tarikh al-Tabari
 A hijri month lasts 29 days or this many. :: 30 || H: Sahih al-Bukhari
 The white marble tomb in Agra built by the Mughal emperor Shah Jahan رحمة الله عليه. :: The Taj Mahal || H: Standard history
 The Rightly Guided Caliphs number this many. :: 4 || H: Tarikh al-Khulafa' (al-Suyuti)
@@ -35,12 +34,12 @@ The Muslim empire in India whose rulers built the Taj Mahal and the Red Fort. ::
 The Moroccan traveller who visited China, India and Mali in the 8th century AH. :: Ibn Battutah رحمة الله عليه || H: Tuhfat al-Nuzzar (al-Rihlah)
 The city of the Prophet's ﷺ Hijrah, first capital of the Muslims. :: Madinah al-Munawwarah || H: Sahih al-Bukhari
 The Iraqi city founded as a garrison town in about 14 AH / 635 CE, later a great centre of grammar. :: Basrah || H: Futuh al-Buldan (al-Baladhuri)
+The Companion called "the Sword of Allah" who led at Yarmuk. :: Khalid ibn al-Walid ﵁ || H: Tarikh al-Tabari
 
 ## 200
 The four sacred months. :: Muharram, Rajab, Dhul-Qa'dah, Dhul-Hijjah || H: Sahih al-Bukhari
 The Umayyad state began with this caliph in 41 AH / 661 CE. :: Mu'awiyah ibn Abi Sufyan (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: Tarikh al-Tabari
 The year 41 AH, when our master al-Hasan ﵁ made peace, is called this. :: 'Am al-Jama'ah (the Year of Unity) || H: Tarikh al-Tabari
-The Abbasid state began in this year. :: 132 AH / 750 CE || H: Tarikh al-Tabari
 The Umayyad prince who escaped and founded the Umayyad state in al-Andalus. :: 'Abd al-Rahman al-Dakhil رحمة الله عليه || H: Nafh al-Tib (al-Maqqari)
 The capital of the Umayyads of al-Andalus. :: Cordoba (Qurtubah) || H: Nafh al-Tib (al-Maqqari)
 The great mosque of Cordoba was begun by this ruler. :: 'Abd al-Rahman al-Dakhil رحمة الله عليه || H: Nafh al-Tib (al-Maqqari)
@@ -59,22 +58,26 @@ The great mosque and university of Cairo. :: al-Azhar || H: Standard history
 The Ottoman sultan called "the Lawgiver" (al-Qanuni). :: Sulayman al-Qanuni رحمة الله عليه || H: Standard history
 The city where Salah al-Din رحمة الله عليه is buried. :: Damascus || H: al-Nawadir al-Sultaniyyah (Ibn Shaddad)
 The great mosque of Istanbul with six minarets, finished about 1026 AH / 1617 CE. :: The Sultan Ahmed Mosque (Blue Mosque) || H: Standard history
-The travel book of Ibn Battutah رحمة الله عليه. :: Tuhfat al-Nuzzar (al-Rihlah) || H: Rihlat Ibn Battutah
 The battle of 15 AH / 636 CE in Syria where the Muslims defeated the Byzantines. :: The Battle of Yarmuk || H: Futuh al-Sham; Tarikh al-Tabari
 The battle in Iraq, about 15 AH / 636 CE, where the Muslims defeated the Persians. :: The Battle of al-Qadisiyyah || H: Tarikh al-Tabari
 The Companion who led the Muslims at al-Qadisiyyah. :: Sa'd ibn Abi Waqqas ﵁ || H: Tarikh al-Tabari
-The Companion called "the Sword of Allah" who led at Yarmuk. :: Khalid ibn al-Walid ﵁ || H: Tarikh al-Tabari
 Jerusalem was opened to the Muslims under this caliph, who came to receive its keys. :: Our master 'Umar ibn al-Khattab ﵁ || H: Tarikh al-Tabari
 The governor of Egypt and Companion who led its opening in about 20 AH / 641 CE. :: 'Amr ibn al-'As ﵁ || H: Futuh Misr (Ibn 'Abd al-Hakam)
 The second Ottoman siege of this city in 1094 AH / 1683 CE failed. :: Vienna || H: Standard history
-The Ottoman sultan who opened Constantinople was the son of this sultan. :: Murad II رحمة الله عليه || H: Standard history
 The Ayyubid dynasty is named after Salah al-Din's رحمة الله عليه father. :: Najm al-Din Ayyub رحمة الله عليه || H: Wafayat al-A'yan (Ibn Khallikan)
 The Abbasid revolution began in this land in the east. :: Khurasan || H: Tarikh al-Tabari
+The scholar who wrote al-Muqaddimah on history and society. :: Ibn Khaldun رحمة الله عليه || H: al-Muqaddimah
+The Imam who stood firm in the mihnah and was flogged. :: Imam Ahmad ibn Hanbal رحمة الله عليه || H: Siyar A'lam al-Nubala' (al-Dhahabi)
+The Ottoman founder after whom the state is named. :: 'Uthman (Osman) I رحمة الله عليه || H: Standard history
+The Mughal emperor who built the Taj Mahal. :: Shah Jahan رحمة الله عليه || H: Standard history
+The scholar who wrote "al-Bidayah wal-Nihayah". :: Ibn Kathir رحمة الله عليه || H: al-Bidayah wal-Nihayah
+The scholar of Khwarazm whose name gave us "algorithm". :: al-Khwarizmi رحمة الله عليه || H: al-Kitab al-Mukhtasar fi Hisab al-Jabr
+The Muslim physician whose "Canon of Medicine" was taught for centuries (meaning). :: Ibn Sina || H: al-Qanun fil-Tibb
+The Abbasid caliph al-Musta'sim رحمة الله عليه was killed by the Mongols in this year. :: 656 AH / 1258 CE || H: al-Bidayah wal-Nihayah (Ibn Kathir)
 
 ## 300
 The Muslim navy first won a great sea battle against the Byzantines under our master 'Uthman ﵁ at this battle. :: Dhat al-Sawari || H: Tarikh al-Tabari
 The scholar of history who wrote Tarikh al-Rusul wal-Muluk. :: Ibn Jarir al-Tabari رحمة الله عليه || H: Tarikh al-Tabari
-The scholar who wrote al-Muqaddimah on history and society. :: Ibn Khaldun رحمة الله عليه || H: al-Muqaddimah
 Ibn Khaldun رحمة الله عليه was born in this city. :: Tunis || H: al-Ta'rif bi-Ibn Khaldun
 Ibn Khaldun's رحمة الله عليه idea of group feeling that builds states. :: 'Asabiyyah || H: al-Muqaddimah
 The traveller and judge of Tangier who journeyed for nearly 30 years. :: Ibn Battutah رحمة الله عليه || H: Rihlat Ibn Battutah
@@ -106,11 +109,11 @@ The Muslim dynasty of North Africa that took Sicily, from 212 AH / 827 CE. :: Th
 The Abbasid caliph who founded Samarra as a new capital. :: al-Mu'tasim || H: Tarikh al-Tabari
 The Seljuq state of Anatolia whose capital was Konya. :: The Sultanate of Rum (the Seljuqs of Rum) || H: Standard history
 The great hospital of Damascus founded by Nur al-Din Zangi رحمة الله عليه. :: al-Bimaristan al-Nuri || H: Standard history
+The city in North Africa founded by 'Uqbah ibn Nafi' as a base. :: al-Qayrawan || H: Tarikh al-Tabari
 
 ## 400
 The battle in 37 AH / 657 CE at which arbitration was agreed. :: Siffin || H: Tarikh al-Tabari
 The Abbasid caliph in whose time the "mihnah" (trial) over the createdness of the Qur'an began. :: al-Ma'mun || H: Tarikh al-Tabari
-The Imam who stood firm in the mihnah and was flogged. :: Imam Ahmad ibn Hanbal رحمة الله عليه || H: Siyar A'lam al-Nubala' (al-Dhahabi)
 The Abbasid caliph who ended the mihnah. :: al-Mutawakkil || H: Tarikh al-Tabari
 The Fatimid state, which founded Cairo, followed this creed. :: Isma'ili Shi'ism || H: Itti'az al-Hunafa' (al-Maqrizi)
 Cairo was founded in this year. :: 358 AH / 969 CE || H: al-Khitat (al-Maqrizi)
@@ -121,11 +124,9 @@ The Battle of Zallaqah in 479 AH / 1086 CE was won by this Almoravid leader. :: 
 The Almoravids are called this in Arabic. :: al-Murabitun || H: Nafh al-Tib (al-Maqqari)
 The Almohads are called this in Arabic. :: al-Muwahhidun || H: Nafh al-Tib (al-Maqqari)
 The battle in 609 AH / 1212 CE that weakened Muslim rule in al-Andalus. :: Las Navas de Tolosa (al-'Iqab) || H: Nafh al-Tib (al-Maqqari)
-The Ottoman founder after whom the state is named. :: 'Uthman (Osman) I رحمة الله عليه || H: Standard history
 The Ottoman sultan who took Egypt from the Mamluks in 923 AH / 1517 CE. :: Selim I رحمة الله عليه || H: Standard history
 The year the Ottoman sultanate was ended. :: 1341 AH / 1922 CE || H: Standard history
 The year the Ottoman caliphate was ended. :: 1342 AH / 1924 CE || H: Standard history
-The Mughal emperor who built the Taj Mahal. :: Shah Jahan رحمة الله عليه || H: Standard history
 The Mughal dynasty was founded by this ruler in 932 AH / 1526 CE. :: Babur رحمة الله عليه || H: Standard history
 The battle of 932 AH / 1526 CE that founded Mughal rule. :: The First Battle of Panipat || H: Standard history
 The son of Babur رحمة الله عليه who lost, then won back, the Mughal throne. :: Humayun رحمة الله عليه || H: Standard history
@@ -139,9 +140,11 @@ The Songhay ruler who made the Hajj in 902 AH / 1497 CE and spread learning. :: 
 The history of West Africa written by 'Abd al-Rahman al-Sa'di رحمة الله عليه of Timbuktu. :: Tarikh al-Sudan || H: Tarikh al-Sudan
 The Muslim state of Central Asia whose ruler Ulugh Beg رحمة الله عليه built an observatory. :: The Timurids || H: Standard history
 The Ottoman scholar who wrote Kashf al-Zunun and the Taqwim al-Tawarikh. :: Hajji Khalifah (Katib Chelebi) رحمة الله عليه || H: Kashf al-Zunun
+The Abbasid state began in this year. :: 132 AH / 750 CE || H: Tarikh al-Tabari
+The travel book of Ibn Battutah رحمة الله عليه. :: Tuhfat al-Nuzzar (al-Rihlah) || H: Rihlat Ibn Battutah
+The Ottoman sultan who opened Constantinople was the son of this sultan. :: Murad II رحمة الله عليه || H: Standard history
 
 ## 500
-The scholar who wrote "al-Bidayah wal-Nihayah". :: Ibn Kathir رحمة الله عليه || H: al-Bidayah wal-Nihayah
 The Ayyubid-era scholar who wrote "Mir'at al-Zaman". :: Sibt ibn al-Jawzi || H?: Mir'at al-Zaman; creed to be checked before adding an honorific
 The biographer of Salah al-Din رحمة الله عليه who was also his judge. :: Baha' al-Din ibn Shaddad رحمة الله عليه || H: al-Nawadir al-Sultaniyyah
 The scholar who wrote "Tarikh al-Khulafa'" on the caliphs. :: Jalal al-Din al-Suyuti رحمة الله عليه || H: Tarikh al-Khulafa'
@@ -155,8 +158,6 @@ The Ghaznavid sultan who campaigned into India, d. 421 AH / 1030 CE. :: Mahmud o
 The scholar-scientist of Ghazni's court who wrote on India. :: al-Biruni || H: Tahqiq ma lil-Hind
 The Muslim geographer who made a world map for King Roger of Sicily. :: al-Idrisi || H: Nuzhat al-Mushtaq
 The Muslim polymath of Basrah who wrote the Book of Optics. :: Ibn al-Haytham رحمة الله عليه || H: Kitab al-Manazir
-The scholar of Khwarazm whose name gave us "algorithm". :: al-Khwarizmi رحمة الله عليه || H: al-Kitab al-Mukhtasar fi Hisab al-Jabr
-The Muslim physician whose "Canon of Medicine" was taught for centuries (meaning). :: Ibn Sina || H: al-Qanun fil-Tibb
 The surgeon of al-Andalus who wrote al-Tasrif. :: al-Zahrawi || H: al-Tasrif
 The Ottoman architect of the Süleymaniye Mosque. :: Mimar Sinan || H: Standard history
 The madrasah of Baghdad built by Nizam al-Mulk رحمة الله عليه and opened in 459 AH / 1067 CE. :: al-Nizamiyyah || H: al-Kamil fil-Tarikh (Ibn al-Athir)
@@ -170,4 +171,3 @@ The year the Mamluk sultan Qansuh al-Ghuri رحمة الله عليه fell at Ma
 The last Mamluk sultan, hanged by the Ottomans at Bab Zuwaylah. :: Tumanbay (al-Ashraf Tuman Bay) رحمة الله عليه || H: Bada'i' al-Zuhur (Ibn Iyas)
 The book of Ibn al-Jawzi رحمة الله عليه on the history of kings and nations. :: al-Muntazam || H: al-Muntazam
 The Andalusian vizier and poet of Granada who was also a historian, author of al-Ihatah. :: Lisan al-Din ibn al-Khatib || H: al-Ihatah fi Akhbar Gharnatah
-The Abbasid caliph al-Musta'sim رحمة الله عليه was killed by the Mongols in this year. :: 656 AH / 1258 CE || H: al-Bidayah wal-Nihayah (Ibn Kathir)

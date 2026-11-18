@@ -59,6 +59,11 @@ The mother blocks all of these relatives from inheriting. :: The grandmothers ||
 A daughter's son belongs to this group of relatives. :: Dhawu al-arham || H: al-Sirajiyyah
 A maternal uncle belongs to this group of relatives. :: Dhawu al-arham || H: al-Sirajiyyah
 A child born outside marriage inherits from this parent only. :: The mother || H: al-Sirajiyyah; al-Mughni (Ibn Qudamah)
+The paternal uncle inherits as this kind of heir. :: Residuary ('asabah) || H: al-Sirajiyyah
+A son's son takes the place of this heir when there is no son. :: The son || H: Sahih al-Bukhari (Kitab al-Fara'id)
+A paternal grandfather takes the place of this heir when there is no father. :: The father || H: al-Sirajiyyah
+A full brother inherits as this kind of heir. :: Residuary ('asabah) || H: al-Sirajiyyah
+Inheritance shares are fixed by the heirs alive at this moment. :: The death of the deceased || H: al-Sirajiyyah
 
 ## 300
 The famous Hanafi text on inheritance by Siraj al-Din al-Sajawandi رحمة الله عليه. :: al-Sirajiyyah || H: al-Sirajiyyah
@@ -86,7 +91,6 @@ A wife divorced by a revocable divorce, whose husband dies during her 'iddah, ha
 Uterine siblings are blocked by any child of the deceased, a son's child, the father and this relative. :: The paternal grandfather || H: al-Sirajiyyah
 A paternal half-sister with one full sister receives this share, completing the two thirds. :: One sixth || H: al-Sirajiyyah
 Two full sisters block this relative, unless a paternal half-brother makes her a residuary. :: A paternal half-sister || H: al-Sirajiyyah
-The paternal uncle inherits as this kind of heir. :: Residuary ('asabah) || H: al-Sirajiyyah
 
 ## 400
 In the Hanafi school, the grandfather with brothers is treated like this. :: The father (he blocks the brothers) || H: al-Sirajiyyah
@@ -110,9 +114,6 @@ The share of a hermaphrodite (khuntha mushkil) in the Hanafi school. :: The less
 An apostate's wealth gained before apostasy goes to his Muslim heirs in this school. :: The Hanafi school || H: al-Sirajiyyah
 Our Beloved Prophet ﷺ said the maternal uncle is the heir of one who has no heir (meaning). Which group does this support inheriting? :: Dhawu al-arham || H: Sunan Abi Dawud 2899; Sunan al-Tirmidhi 2104
 With two daughters, the son's daughters get nothing unless this relative makes them residuaries. :: A son's son at their level or lower || H: al-Sirajiyyah
-A son's son takes the place of this heir when there is no son. :: The son || H: Sahih al-Bukhari (Kitab al-Fara'id)
-A paternal grandfather takes the place of this heir when there is no father. :: The father || H: al-Sirajiyyah
-A full brother inherits as this kind of heir. :: Residuary ('asabah) || H: al-Sirajiyyah
 In the Shafi'i, Maliki and Hanbali schools, a grandfather with siblings and no share-holder takes the better of sharing with them or this. :: One third of the estate || H: Matn Abi Shuja'; al-Rahbiyyah
 
 ## 500
@@ -133,7 +134,6 @@ The case of al-Kharqa' (mother, grandfather and sister) is also called al-Mukham
 The commentary on al-Sirajiyyah by al-Sayyid al-Sharif al-Jurjani رحمة الله عليه. :: al-Sharifiyyah || H: al-Sharifiyyah
 The Maliki chapter on inheritance in Ibn Abi Zayd's رحمة الله عليه Risalah is called this. :: Bab al-Fara'id || H: al-Risalah (Ibn Abi Zayd)
 The commentary on al-Rahbiyyah by Sibt al-Maridini رحمة الله عليه. :: Sharh al-Rahbiyyah || H: Sharh Sibt al-Maridini 'ala al-Rahbiyyah
-Inheritance shares are fixed by the heirs alive at this moment. :: The death of the deceased || H: al-Sirajiyyah
 In the Hanafi school, a female residuary through the son, like a son's daughter, is pulled up by this relative. :: A son's son of the same level (or lower, when needed) || H: al-Sirajiyyah
 The Hanafi principle "the nearer blocks the farther" in residuaries is from this hadith (meaning). :: "Give the shares to their people; the rest is for the nearest male" || H: Sahih al-Bukhari
 'Abdullah ibn 'Abbas (رِضْوَانُ اللَّهِ عَلَيْهِمَا) was so sure 'awl was wrong that he offered to do this with those who held it. :: Mubahalah (invoking Allah's curse on whoever is wrong) || H: al-Sunan al-Kubra (al-Bayhaqi)
