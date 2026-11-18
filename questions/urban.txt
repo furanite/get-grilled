@@ -123,7 +123,7 @@ Ebenezer Howard's book of 1898. :: To-morrow: A Peaceful Path to Real Reform (Ga
 The first garden city in England. :: Letchworth
 The second garden city in England. :: Welwyn Garden City
 The Scottish biologist and planner who wrote "Cities in Evolution". :: Patrick Geddes
-Geddes's motto for planning: "Survey before" this. :: Plan
+Geddes's motto for planning: "Survey before ___". :: Plan
 Le Corbusier's vision of towers in parks for three million people. :: The Contemporary City (Ville Contemporaine)
 Le Corbusier's "Radiant City". :: Ville Radieuse
 The Brazilian planner of Brasília's pilot plan. :: Lúcio Costa
@@ -167,7 +167,7 @@ The Saudi city project around a cube-shaped tower. :: New Murabba (the Mukaab)
 The Riyadh project with a large new international airport. :: King Salman International Airport
 The Diriyah Gate project restores this. :: At-Turaif and old Diriyah
 The Saudi plan for the Jeddah waterfront and centre. :: Jeddah Central (Jeddah Downtown)
-The design of NEOM's The Line has no these. :: Cars and streets
+The things NEOM's The Line is designed to have none of. :: Cars and streets
 The Line is planned to be this many metres wide. :: 200
 The Line is planned to be this many kilometres long. :: 170
 The Saudi new city on the Red Sea near Al-'Ula for tourism and heritage. :: Al-'Ula (Journey Through Time master plan)
@@ -222,7 +222,7 @@ The Islamic legal rule on not overlooking a neighbour's home. :: Privacy (not op
 Islamic legal rules on building, such as the right of way and harm to neighbours, are part of this. :: Fiqh al-bunyan (fiqh of building)
 The Tunisian scholar Ibn al-Rami ﵀ wrote a famous book on this. :: Building law (disputes between neighbours)
 Ibn al-Rami's ﵀ book was based on court cases in this city. :: Tunis
-The Islamic legal maxim used in neighbour disputes: "No harm and no" this. :: Reciprocating harm
+The Islamic legal maxim used in neighbour disputes: "No harm and no ___". :: Reciprocating harm
 The city founded by the Abbasid caliph al-Mansur in a perfect circle. :: Baghdad (the Round City)
 The Round City of Baghdad had this many gates. :: Four
 The Round City of Baghdad was founded in this year. :: 762
@@ -349,7 +349,7 @@ The index ranking cities by liveability, from the Economist. :: The Global Livea
 The term for the share of people's income spent on housing. :: Housing affordability ratio
 Housing is often called unaffordable when it costs more than this share of income. :: 30%
 The term for land value increase captured by the government. :: Land value capture
-Hong Kong's MTR funds its railways by developing property. This model is called this. :: Rail plus property
+The name for Hong Kong's MTR model of funding railways by developing property. :: Rail plus property
 Tax increment financing funds projects using this. :: Future increases in property tax
 The term for a public-private partnership in urban projects. :: PPP
 The idea that small businesses on ground floors make streets lively. :: Active frontages

@@ -156,7 +156,7 @@ A typical software debounce delay. :: About 10 to 50 ms
 Checking a pin over and over in a loop instead of using interrupts. :: Polling
 The function that runs when an interrupt fires. :: ISR (interrupt service routine)
 The Arduino function that links a pin change to an ISR. :: attachInterrupt()
-ISRs should be kept this way. :: Short and fast
+How ISRs should be kept. :: Short and fast
 The table that holds the addresses of all ISRs. :: Interrupt vector table
 The Arm Cortex-M part that manages interrupt priorities. :: NVIC
 An interrupt that cannot be disabled. :: NMI (non-maskable interrupt)
@@ -345,7 +345,7 @@ The automotive software standard for ECUs. :: AUTOSAR
 The ASIL level with the strictest safety requirements. :: ASIL D
 The industrial functional safety standard. :: IEC 61508
 The C coding guidelines for safety-critical embedded systems. :: MISRA C
-The C rule that avoids recursion in safety code is meant to stop this. :: Unbounded stack use
+The problem that the C safety rule against recursion is meant to stop. :: Unbounded stack use
 The longest time code can take to run, needed for real-time analysis. :: WCET (worst-case execution time)
 The time between an interrupt request and the first ISR instruction. :: Interrupt latency
 The variation in timing of a periodic task. :: Jitter

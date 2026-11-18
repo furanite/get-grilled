@@ -70,7 +70,7 @@ The processor made for graphics, shortened to three letters. :: GPU
 The circuit board that holds the CPU and memory. :: Motherboard
 The flat silicon disc on which many chips are made. :: Wafer
 The observation that transistor counts double about every two years. :: Moore's law
-The Intel co-founder behind that law. :: Gordon Moore
+The Intel co-founder who observed that transistor counts double about every two years. :: Gordon Moore
 The first commercial single-chip microprocessor, made by Intel in 1971. :: Intel 4004
 The number of bits the Intel 4004 processed at a time. :: 4
 A circuit whose output depends only on its current inputs. :: Combinational circuit
@@ -255,14 +255,14 @@ The unstable state when setup or hold time is violated. :: Metastability
 The circuit of two flip-flops in a row used to pass signals between clock domains. :: Synchroniser
 The maximum clock frequency is set by the slowest path between registers, called this. :: Critical path
 The difference in clock arrival times at different flip-flops. :: Clock skew
-The characteristic equation of a JK flip-flop: Q next = JQ′ + this. :: K′Q
+The JK flip-flop's characteristic equation: Q next = JQ′ + ___. :: K′Q
 The characteristic equation of a T flip-flop. :: Q next = T ⊕ Q
 The number of unused states in a 3-flip-flop mod-6 counter. :: 2
 The modulus of a counter made from 4 flip-flops that resets on reaching 1010. :: 10
 The number of flip-flops in a ring counter that divides frequency by 8. :: 8
 State machine design technique that gives each state its own flip-flop. :: One-hot encoding
 The minimum number of flip-flops for a 10-state machine with binary encoding. :: 4
-The CPU performance equation: time = instruction count × CPI × this. :: Clock cycle time
+The CPU performance equation: time = instruction count × CPI × ___. :: Clock cycle time
 The speed-up law that says the gain is limited by the part you cannot improve. :: Amdahl's law
 By Amdahl's law, if 50% of a program is sped up infinitely, the overall speed-up is this. :: 2 times
 The measure of floating-point operations per second, shortened to five letters. :: FLOPS
@@ -298,7 +298,7 @@ The three parts of a cache address: tag, index and this. :: Offset
 The cache write policy that updates memory at the same time as the cache. :: Write-through
 The write policy that updates memory only when a dirty block is evicted. :: Write-back
 The bit that marks a cache block as changed. :: Dirty bit
-The average memory access time formula: hit time + miss rate × this. :: Miss penalty
+Average memory access time = hit time + miss rate × ___. :: Miss penalty
 The AMAT for a hit time of 1 cycle, a miss rate of 5% and a miss penalty of 100 cycles. :: 6 cycles
 The cache that holds address translations, shortened to three letters. :: TLB
 The number of offset bits in an address for a 4 KB page. :: 12
@@ -422,7 +422,7 @@ The number of Boolean functions of n variables, as a formula. :: 2^(2^n)
 The number of distinct Boolean functions of 2 variables that are symmetric in their inputs. :: 8
 The number of self-dual Boolean functions of 3 variables. :: 16
 The set of gates {AND, OR} is not functionally complete because it cannot make this. :: NOT (it is monotone)
-Post's theorem names five classes; a set of gates is complete only if it is not entirely inside one of them. The class of functions with f(0,…,0) = 0 is called this. :: 0-preserving
+In Post's theorem, the class of functions with f(0,…,0) = 0. :: 0-preserving
 The minimum number of 2-input gates of any type needed for a 3-input XOR. :: 2
 The number of prime implicants of the function A ⊕ B ⊕ C. :: 4
 The cost of the minimal SOP of A ⊕ B ⊕ C, in AND gates, with no sharing. :: 4
@@ -483,7 +483,7 @@ The hardware technique of the CDC 6600 that tracked dependences for out-of-order
 The machine that first used Tomasulo's algorithm for floating-point. :: IBM System/360 Model 91
 The 1985 MIPS R2000 was the first commercial chip of this design approach from Stanford. :: RISC
 The 2017 Turing Award was given to Hennessy and Patterson for this. :: RISC architecture
-Hennessy and Patterson's 2018 Turing lecture called this era "A New Golden Age for" this. :: Computer Architecture
+Hennessy and Patterson's 2018 Turing lecture: "A New Golden Age for ___". :: Computer Architecture
 The Intel processor of 2000 with a 20-stage pipeline. :: Pentium 4 (NetBurst)
 The trace cache in the Pentium 4 stored decoded these. :: Micro-operations (µops)
 The fusion of two x86 instructions, such as compare and jump, into one micro-op. :: Macro-fusion

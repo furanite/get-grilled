@@ -70,7 +70,7 @@ The usual retirement age in the Saudi civil service before reform. :: 60
 A worker whose job is lost because the role is no longer needed. :: Redundancy
 A worker's monthly payslip shows this. :: Pay and deductions
 Money taken from pay for insurance. :: A deduction (contribution)
-The ban on outdoor work at midday in Saudi summer runs from this time to this time. :: 12 noon to 3 pm
+The hours of the midday ban on outdoor work in the Saudi summer. :: 12 noon to 3 pm
 The Saudi midday work ban runs from 15 June to this date. :: 15 September
 Using children to work in harmful jobs. :: Child labour
 The minimum working age in Saudi Arabia for most jobs. :: 15
@@ -156,13 +156,13 @@ The Saudi labour dispute process starts with this before going to court. :: Amic
 The Saudi system of amicable labour settlement must finish within this many days. :: 21
 Labour claims in Saudi Arabia must be filed within this long after the contract ends. :: 12 months
 The Saudi labour court's appeal level is in this court. :: The Court of Appeal (labour circuits)
-The ILO convention on minimum age is number this. :: 138
-The ILO convention on the worst forms of child labour is number this. :: 182
-The ILO convention on forced labour from 1930 is number this. :: 29
-The ILO convention on freedom of association is number this. :: 87
-The ILO convention on equal pay is number this. :: 100
-The ILO convention on domestic workers is number this. :: 189
-The ILO convention on violence and harassment at work is number this. :: 190
+The number of the ILO convention on minimum age. :: 138
+The number of the ILO convention on the worst forms of child labour. :: 182
+The number of the 1930 ILO convention on forced labour. :: 29
+The number of the ILO convention on freedom of association. :: 87
+The number of the ILO convention on equal pay. :: 100
+The number of the ILO convention on domestic workers. :: 189
+The number of the ILO convention on violence and harassment at work. :: 190
 The ILO's 1998 declaration lists these core labour rights. :: Fundamental principles and rights at work
 The fifth fundamental right added by the ILO in 2022. :: A safe and healthy working environment
 The ILO's governing structure has governments, employers and these. :: Workers
@@ -241,7 +241,7 @@ The hadith qudsi says Allah is the opponent of three people, including one who h
 The hadith "Your servants are your brothers" was said by our Beloved and our master, the Prophet Muhammad ﷺ to this Companion. :: Abu Dharr ﵁
 The hadith says to feed servants from what you eat and not to burden them with more than this. :: What they can bear
 Ibn Taymiyyah ﵀ allowed the ruler to set wages when there is this. :: Injustice or need (to prevent exploitation)
-The ILO's labour standard on working hours from 1919 is number this. :: 1 (Hours of Work Convention)
+The number of the ILO's 1919 standard on working hours. :: 1 (Hours of Work Convention)
 The ILO's first convention set this many hours a day. :: Eight
 Saudi Arabia joined the ILO in this year. :: 1976
 Saudi Arabia ratified ILO Convention 29 on forced labour in this year. :: 1978
@@ -322,7 +322,7 @@ The GCC country that first abolished the kafala system in 2020 in law. :: Qatar
 Qatar set a non-discriminatory minimum wage in this year. :: 2021
 Qatar's minimum wage per month for workers. :: 1,000 riyals (plus food and housing)
 The UAE labour law of 2021 made all private contracts this type. :: Fixed-term
-The UAE labour law of 2021 is Federal Decree-Law number this. :: 33
+The number of the UAE's 2021 labour law (Federal Decree-Law). :: 33
 The UAE's unemployment insurance scheme started in this year. :: 2023
 Bahrain created the "Flexi permit" for workers in this year. :: 2017
 The US Supreme Court case that struck down a maximum hours law for bakers in 1905. :: Lochner v New York
@@ -339,14 +339,14 @@ The EU court case that said on-call time at the workplace is working time. :: SI
 The EU court case of 2019 that said employers must record working hours. :: CCOO v Deutsche Bank
 The EU court case on holiday pay for sick workers. :: Stringer (2009)
 The EU directive on transfers of undertakings protecting workers. :: The Acquired Rights Directive (TUPE in the UK)
-The ILO convention on termination of employment is number this. :: 158
-The ILO convention on minimum wage fixing is number this. :: 131
-The ILO convention on maternity protection is number this. :: 183
+The number of the ILO convention on termination of employment. :: 158
+The number of the ILO convention on minimum wage fixing. :: 131
+The number of the ILO convention on maternity protection. :: 183
 ILO Convention 183 requires at least this many weeks of maternity leave. :: 14
-The ILO convention on discrimination in employment is number this. :: 111
-The ILO convention on the right to organise and collective bargaining is number this. :: 98
-The ILO convention on occupational safety and health is number this. :: 155
-The ILO convention on migrant workers from 1949 is number this. :: 97
+The number of the ILO convention on discrimination in employment. :: 111
+The number of the ILO convention on the right to organise and collective bargaining. :: 98
+The number of the ILO convention on occupational safety and health. :: 155
+The number of the 1949 ILO convention on migrant workers. :: 97
 The UN convention on migrant workers' rights was adopted in this year. :: 1990
 The UN body that studies the rights of migrant workers. :: The Committee on Migrant Workers
 The famous 1911 factory fire in New York that led to safety laws. :: The Triangle Shirtwaist fire
@@ -365,7 +365,7 @@ The Saudi "Liqaat" events are this. :: Job fairs (meetings between employers and
 The Saudi General Organization for Social Insurance was founded in this year. :: 1969
 The Saudi Public Pension Agency merged into GOSI in this year. :: 2021
 The Saudi minister of human resources since 2020. :: Ahmed Al-Rajhi
-The Islamic legal maxim used to support workers' rights: "No harm and no" this. :: Reciprocating harm (la darar wa la dirar)
+The Islamic legal maxim used to support workers' rights: "No harm and no ___". :: Reciprocating harm (la darar wa la dirar)
 The hadith qudsi "I will be the opponent of three on the Day of Judgement" is in this collection. :: Sahih al-Bukhari
 The early Islamic institution that gave pensions to people from the treasury, set up by Umar ﵁. :: The diwan ('ata')
 Umar ibn al-Khattab ﵁ gave a stipend to every newborn after he heard this. :: A mother weaning her baby early to get the stipend
@@ -456,7 +456,7 @@ Prophet Nuh ﵇ is said to have worked as this. :: A carpenter (shipbuilder)
 Prophet Zakariyya ﵇ worked as this, according to a hadith in Sahih Muslim. :: A carpenter
 The Companion Abd al-Rahman ibn 'Awf ﵁ asked to be shown this when he arrived in Madinah. :: The market
 The Companion who said, "Show me the market," refusing his Ansari brother's offer of half his wealth. :: Abd al-Rahman ibn 'Awf ﵁
-His Ansari brother who offered to share his wealth. :: Sa'd ibn al-Rabi' ﵁
+The Ansari brother who offered Abd al-Rahman ibn 'Awf ﵁ half his wealth. :: Sa'd ibn al-Rabi' ﵁
 The Companion woman appointed by Umar ﵁ to supervise the market, according to some reports. :: Al-Shifa' bint Abdullah ﵂
 A worker earning 6,000 riyals a month resigns after 3 years. How much end-of-service award does he get under the Saudi Labour Law? :: 3,000 riyals (one third of 9,000)
 A worker earning 8,000 riyals a month resigns after 4 years. How much end-of-service award does he get under the Saudi Labour Law? :: 5,333 riyals (one third of 16,000)
@@ -474,7 +474,7 @@ A worker on an indefinite contract earning 6,000 riyals a month is dismissed unl
 A worker on an indefinite contract earning 8,000 riyals a month is dismissed unlawfully after 6 years. What compensation does Article 77 give (15 days a year, at least two months)? :: 24,000 riyals
 A worker on an indefinite contract earning 10,000 riyals a month is dismissed unlawfully after 10 years. What compensation does Article 77 give (15 days a year, at least two months)? :: 50,000 riyals
 A worker on an indefinite contract earning 12,000 riyals a month is dismissed unlawfully after 3 years. What compensation does Article 77 give (15 days a year, at least two months)? :: 24,000 riyals
-A worker on an indefinite contract earning 5,000 riyals a month is dismissed unlawfully after 1 years. What compensation does Article 77 give (15 days a year, at least two months)? :: 10,000 riyals
+A worker on an indefinite contract earning 5,000 riyals a month is dismissed unlawfully after 1 year. What compensation does Article 77 give (15 days a year, at least two months)? :: 10,000 riyals
 A worker on an indefinite contract earning 9,000 riyals a month is dismissed unlawfully after 8 years. What compensation does Article 77 give (15 days a year, at least two months)? :: 36,000 riyals
 A worker on an indefinite contract earning 7,000 riyals a month is dismissed unlawfully after 12 years. What compensation does Article 77 give (15 days a year, at least two months)? :: 42,000 riyals
 A worker on an indefinite contract earning 15,000 riyals a month is dismissed unlawfully after 5 years. What compensation does Article 77 give (15 days a year, at least two months)? :: 37,500 riyals
@@ -507,7 +507,7 @@ The Companion who was a cloth merchant before becoming caliph. :: Abu Bakr al-Si
 Abu Bakr ﵁ was given a salary from the treasury after he was seen going to do this. :: Trade in the market
 The famous saying "The upper hand is better than the lower hand" means this. :: Giving is better than taking
 The hadith says it is better for one of you to take a rope and gather this than to beg. :: Firewood
-The Andalusian scholar Ibn Hazm ﵀ argued the rich must support the poor if zakat is not enough. This is in this book. :: Al-Muhalla
+The book in which the Andalusian scholar Ibn Hazm ﵀ argued the rich must support the poor if zakat is not enough. :: Al-Muhalla
 Salman al-Farisi ﵁ made and sold palm-leaf baskets while he was governor of this city. :: Al-Mada'in
 The ILO's tripartite body that runs the organisation between conferences. :: The Governing Body
 The ILO body of independent experts that reviews how countries apply conventions. :: The Committee of Experts (CEACR)

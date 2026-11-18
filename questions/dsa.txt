@@ -103,7 +103,7 @@ A function that turns a key into an index in a table. :: Hash function
 Two keys that hash to the same index cause this. :: Collision
 The step-by-step check of an algorithm by hand, writing down each variable. :: Dry run (trace table)
 The name for the input size in Big O notation. :: n
-An algorithm must always finish after a finite number of steps; this property is called this. :: Finiteness
+The property that an algorithm always finishes after a finite number of steps. :: Finiteness
 Name the data structure drawn here. {img:linked-list.svg} :: A singly linked list
 Name this data structure, where items go in and come out at the same end. {img:ds-stack.svg} :: Stack
 Name this data structure, where items go in at one end and come out at the other. {img:ds-queue.svg} :: Queue
@@ -370,7 +370,7 @@ The layout that stores a binary tree in memory by recursive blocks for cache eff
 The tree that supports predecessor queries in O(log log U) time. :: Van Emde Boas tree
 The trie-based structure that answers predecessor queries with hashing in O(log log U): x-fast and this. :: Y-fast trie
 The compressed trie in which nodes with one child are merged. :: Radix tree (Patricia trie)
-The acronym PATRICIA stands for "Practical Algorithm to Retrieve Information Coded in" this. :: Alphanumeric
+PATRICIA stands for "Practical Algorithm to Retrieve Information Coded in ___". :: Alphanumeric
 The data structure that keeps the sum of any range and allows updates in O(log n) using the lowest set bit. :: Fenwick tree
 The bit trick i & (−i) gives this part of i. :: Lowest set bit
 The man who described the Fenwick tree in 1994. :: Peter Fenwick

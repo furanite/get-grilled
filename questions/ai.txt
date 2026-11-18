@@ -162,7 +162,7 @@ The small grid of weights slid over an image in a CNN. :: Kernel (filter)
 The neural network type for sequences that feeds its output back in, shortened to three letters. :: RNN
 The RNN variant with gates that remembers long sequences, shortened to four letters. :: LSTM
 The simpler gated RNN variant introduced in 2014, shortened to three letters. :: GRU
-The 2017 paper that introduced the transformer was titled "Attention Is All You" this. :: Need
+The 2017 paper that introduced the transformer: "Attention Is All You ___". :: Need
 The mechanism that lets a model weigh the importance of different words in a sentence. :: Attention
 The transformer model from Google in 2018 that reads text in both directions. :: BERT
 Representing words as vectors so that similar words are close together. :: Word embeddings
@@ -264,7 +264,7 @@ The benchmark of Python programming problems released by OpenAI in 2021. :: Huma
 The benchmark of real GitHub issues that coding agents must fix. :: SWE-bench
 The benchmark designed to be a final, very hard test of expert knowledge, released in 2025. :: Humanity's Last Exam
 The 2022 diffusion paper that made models practical by working in a compressed space. :: Latent diffusion
-The 2020 paper that showed diffusion models could rival GANs: "Denoising Diffusion Probabilistic" these. :: Models
+The 2020 paper that showed diffusion models could rival GANs: "Denoising Diffusion Probabilistic ___". :: Models
 The guidance method that mixes conditioned and unconditioned predictions to follow prompts more closely. :: Classifier-free guidance
 The 2013 generative model that learns a probabilistic latent space, shortened to three letters. :: VAE
 The trick that lets gradients flow through random sampling in a VAE. :: Reparameterisation trick
@@ -312,7 +312,7 @@ The NVIDIA programming platform that made GPUs practical for deep learning. :: C
 ## 400
 The year of the Dartmouth Summer Research Project on Artificial Intelligence. :: 1956
 The four organisers of the Dartmouth proposal: McCarthy, Minsky, Rochester and this man. :: Claude Shannon
-The 1950 paper in which Turing proposed his test: "Computing Machinery and" this. :: Intelligence
+The 1950 paper in which Turing proposed his test: "Computing Machinery and ___". :: Intelligence
 The journal that published Turing's 1950 paper. :: Mind
 The 1943 paper that described the first mathematical model of a neuron: McCulloch and this man. :: Walter Pitts
 The 1949 book that proposed "cells that fire together wire together". :: The Organization of Behavior (Hebb)
@@ -484,10 +484,10 @@ The learning framework of Leslie Valiant from 1984, shortened to three letters. 
 The measure of a model class's capacity named after Vapnik and Chervonenkis. :: VC dimension
 The 2018 theory that wide networks trained by gradient descent act like kernel methods. :: Neural tangent kernel
 The hypothesis that dense networks contain small subnetworks that train as well on their own. :: Lottery ticket hypothesis
-The 2017 Shazeer paper whose title called mixture-of-experts layers "Outrageously Large" these. :: Neural Networks
+The 2017 Shazeer paper on mixture-of-experts layers: "Outrageously Large ___". :: Neural Networks
 The year the Dartmouth proposal was written, one year before the workshop. :: 1955
 The computer on which Arthur Samuel's checkers program first ran. :: IBM 701
-The 1958 programming idea by McCarthy for a system that takes advice, published as "Programs with" this. :: Common Sense
+McCarthy's 1958 paper on a system that takes advice: "Programs with ___". :: Common Sense
 The number of the first 52 theorems in Principia Mathematica that the Logic Theorist proved. :: 38
 The Japanese programme of 1982 that bet on Prolog-based parallel machines ended in this year. :: 1992
 The 1985 stochastic network of Hinton and Sejnowski, named after a physicist. :: Boltzmann machine
@@ -498,15 +498,15 @@ The 1977 algorithm for maximum likelihood with hidden variables, by Dempster, La
 The mathematician whose 1989 paper proved one hidden layer can approximate any continuous function. :: George Cybenko
 The 2011 Turing Award winner's "ladder of causation" has three rungs: association, intervention and this. :: Counterfactuals
 The 2023 paper "Sparks of Artificial General Intelligence" studied this model. :: GPT-4
-The Anthropic paper of 2022 that described "superposition" in toy models; its title starts "Toy Models of" this. :: Superposition
-The 2024 Anthropic research that found millions of features in Claude 3 Sonnet: "Scaling" this. :: Monosemanticity
+Anthropic's 2022 paper describing "superposition" in toy models: "Toy Models of ___". :: Superposition
+Anthropic's 2024 research that found millions of features in Claude 3 Sonnet: "Scaling ___". :: Monosemanticity
 The famous feature found in that 2024 research tied to a bridge in San Francisco. :: Golden Gate Bridge
 The interpretability method that patches activations from one run into another to find causes. :: Activation patching
 The 2022 discovery of attention heads that copy patterns from earlier in the text. :: Induction heads
 The method that reads out a model's intermediate predictions by applying the output layer early. :: Logit lens
 The 2023 technique that steers a model by adding a direction to its activations. :: Activation steering
 The problem of an AI pursuing a goal learned in training that differs from the intended one. :: Goal misgeneralisation (inner misalignment)
-The 2016 paper "Concrete Problems in AI" this. :: Safety
+The 2016 paper "Concrete Problems in AI ___". :: Safety
 The thesis that intelligence and final goals can vary independently, from Nick Bostrom. :: Orthogonality thesis
 The tendency of agents with many goals to seek power and resources as sub-goals. :: Instrumental convergence
 The 2018 OpenAI proposal in which two AIs argue and a human judges. :: AI safety via debate

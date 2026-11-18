@@ -81,7 +81,7 @@ The Sun is this kind of star. :: Yellow dwarf
 The colour of the hottest stars. :: Blue
 The light from the Sun takes about this long to reach the Earth. :: About 8 minutes
 The dark areas on the Sun's surface. :: Sunspots
-The longest day of the year in the Northern Hemisphere is the summer this. :: Solstice
+The longest day of the year in the Northern Hemisphere, the summer ___. :: Solstice
 The two days a year when day and night are about equal. :: Equinoxes
 Earth has seasons because its axis is this. :: Tilted
 The Moon's gravity causes these daily rises and falls of the sea. :: Tides
@@ -102,7 +102,7 @@ The first spacecraft to leave the Solar System's heliosphere, in 2012. :: Voyage
 The space shuttle that broke up after launch in 1986. :: Challenger
 The number of people who have walked on the Moon. :: Twelve
 The last year people walked on the Moon. :: 1972
-The famous words Armstrong said were 'one small step for' this. :: Man (one giant leap for mankind)
+Armstrong's famous first words on the Moon began "one small step for ___". :: Man (one giant leap for mankind)
 The planet known for being blue because of methane, with the fastest winds. :: Neptune
 
 ## 200

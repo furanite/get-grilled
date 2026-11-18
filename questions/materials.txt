@@ -188,8 +188,8 @@ The very tough ceramic used in knives and dental crowns. :: Zirconia
 The ceramic used in cutting tools and bearings, Si₃N₄. :: Silicon nitride
 The hard ceramic used for grinding wheels and body armour, SiC. :: Silicon carbide
 The material of most cutting tool inserts, cobalt bonded. :: Tungsten carbide
-Ceramic tiles that protected the Space Shuttle were mainly this. :: Silica
-Ceramics are made strong by firing powder below its melting point. This step is called this. :: Sintering
+The main material of the ceramic tiles that protected the Space Shuttle. :: Silica
+The step of firing ceramic powder below its melting point to make it strong. :: Sintering
 In a fibre composite, the material that holds the fibres together. :: Matrix
 The composite rule that predicts stiffness along the fibres. :: Rule of mixtures
 A sandwich panel uses two thin skins and this in the middle. :: Core (like honeycomb or foam)
@@ -219,7 +219,7 @@ The movement of a screw dislocation onto another slip plane. :: Cross-slip
 The combination of slip plane and slip direction. :: Slip system
 FCC metals have this many slip systems. :: 12
 Slip in FCC metals happens on these planes. :: {111}
-The resolved shear stress on a slip system equals stress times cos φ times cos λ. This is named after this scientist. :: Schmid (Schmid's law)
+The scientist whose law says resolved shear stress on a slip system equals stress times cos φ times cos λ. :: Schmid (Schmid's law)
 The source that multiplies dislocations in a deforming crystal. :: Frank–Read source
 Planar defects where the stacking order of planes is wrong. :: Stacking faults
 A mirror boundary across which the crystal is reflected. :: Twin boundary
@@ -284,7 +284,7 @@ The microscopic marks on a fatigue fracture, one per cycle. :: Striations
 Toughening zirconia uses this transformation near a crack tip. :: Tetragonal-to-monoclinic transformation
 The statistical distribution used for the strength of brittle ceramics. :: Weibull distribution
 A Weibull modulus that is high means strength is this. :: More consistent (less scatter)
-Polymer molecular weight is described by two averages. These are called this. :: Number average and weight average
+The two averages used to describe polymer molecular weight. :: Number average and weight average
 The ratio of weight-average to number-average molecular weight. :: Polydispersity index (dispersity)
 The arrangement of side groups on one side of a polymer chain. :: Isotactic
 The catalysts that made isotactic polypropylene possible. :: Ziegler–Natta catalysts

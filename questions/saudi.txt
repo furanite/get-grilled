@@ -102,7 +102,7 @@ Saudi Arabia shares a land border with this many countries. :: Seven
 The country to the south of Saudi Arabia. :: Yemen
 The small country on the peninsula east of Saudi Arabia, connected by the Salwa border. :: Qatar
 The Saudi city that was the summer capital, high in the mountains near Makkah. :: Taif
-The longest valley in Saudi Arabia, Wadi this. :: Wadi Al-Rummah
+The longest valley in Saudi Arabia. :: Wadi Al-Rummah
 The organisation of six Gulf countries founded in 1981. :: Gulf Cooperation Council (GCC)
 
 ## 200
@@ -275,7 +275,7 @@ The Treaty that set Saudi borders with Kuwait and Iraq in 1922. :: Treaty of Uqa
 The Uqair Treaty was signed in this Eastern Province place. :: Al-Uqair (near Al-Ahsa)
 The historic port near Al-Ahsa that was its link to the sea. :: Al-Uqair
 The Saudi–Kuwaiti zone shared for oil production. :: The Neutral Zone (Partitioned Zone)
-The Eastern Province's huge Al-Ahsa National Park is planted mainly to stop this. :: Sand dunes moving (desertification)
+The main purpose of the trees planted in the Eastern Province's huge Al-Ahsa National Park. :: Sand dunes moving (desertification)
 The marine park on the Gulf coast protecting coral and dugongs. :: Jubail Marine Wildlife Sanctuary
 The marine mammal found in the Gulf, often called a sea cow. :: Dugong
 The Saudi museum in Dammam showing regional heritage. :: Dammam Regional Museum
@@ -499,7 +499,7 @@ The planned canal along the Qatar border was named this project. :: Salwa Canal 
 The traditional Hasawi donkey breed is famous in this oasis. :: Al-Ahsa
 The Hasawi rice variety, red and grown with spring water, comes from here. :: Al-Ahsa
 The Ahsa oasis has about this many palm trees. :: About 2.5 to 3 million
-The Ahsa oasis is in the Guinness World Records as the largest self-contained oasis in the world since this year. :: 2020
+The year the Guinness World Records named Al-Ahsa the largest self-contained oasis in the world. :: 2020
 Al-Ahsa was named Capital of Arab Tourism in this year. :: 2019
 Al-Ahsa joined UNESCO Creative Cities for crafts and folk art in this year. :: 2015
 The Ottoman-era railway that did not reach the Eastern Province but ended in Madinah. :: Hejaz Railway

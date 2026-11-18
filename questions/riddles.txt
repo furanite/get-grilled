@@ -129,7 +129,7 @@ It is a word with five letters that sounds the same when you remove four of them
 In a one-storey pink house, everything was pink. The stairs were this colour. :: There were no stairs
 A boy and his father are in a crash. The surgeon says, "That's my son!" The surgeon is this. :: His mother
 It is what you can catch but not throw, that comes with a sneeze. :: A cold
-You walk into a dark room with one match, a candle, a lamp and a stove. You light this first. :: The match
+You walk into a dark room with one match, a candle, a lamp and a stove. What do you light first? :: The match
 It is the next number: 1, 1, 2, 3, 5, 8, 13. :: 21
 It is the next number: 2, 4, 8, 16, 32. :: 64
 It is the next number: 1, 4, 9, 16, 25. :: 36
@@ -231,7 +231,7 @@ In a race, you overtake the last person. You are now in this place. :: Impossibl
 A farmer has 17 sheep; all but 9 die. The number left. :: 9
 Divide 30 by half and add 10. :: 70
 The number of birthdays the average person has. :: One (the rest are anniversaries of it)
-A doctor gives you three pills to take one every half hour. They last this long. :: One hour
+A doctor gives you three pills to take one every half hour. How long do they last? :: One hour
 Some months have 30 days, some 31. The number of months with 28 days. :: Twelve
 It is the word made from rearranging "listen". :: Silent
 It is the word made from rearranging "dormitory". :: Dirty room
@@ -322,7 +322,7 @@ I have keys but no locks, space but no room; you can enter but can't go outside.
 Three switches outside a room control three bulbs. You may enter once. The trick is to feel this. :: Which bulb is warm
 You have 8 balls, one heavier, and a balance. The minimum number of weighings to find it. :: Two
 You have 12 balls, one odd (heavier or lighter). The minimum weighings to find it and know which. :: Three
-Three ants on the corners of a triangle each walk along an edge at random. The probability they don't collide. :: 1/4
+Three ants on the corners of a triangle each walk along an edge at random. What is the probability they don't collide? :: 1/4
 The probability of two people in a group of 23 sharing a birthday is about this, the "birthday paradox". :: 50 percent
 The name of the puzzle with a goat, wolf and cabbage crossing a river. :: The river-crossing puzzle (wolf, goat and cabbage)
 The minimum number of moves to solve the Tower of Hanoi with 3 discs. :: 7
@@ -346,7 +346,7 @@ The number of edges on a cube. :: 12
 The number of faces on a dodecahedron. :: 12
 The number of times you can fold a sheet of paper in half, according to the old belief. :: 7 (record is 12)
 The four-letter word that is the same backward and upside down in capitals? :: NOON (SWIMS is five)
-You are in a room with two doors, one to death and one to freedom, and a sign is under one door. Riddles like these are called this. :: Logic puzzles
+The kind of puzzle about a room with two doors, one to death and one to freedom, and a sign under one door. :: Logic puzzles
 A word that means "farewell" and is also a palindrome in Arabic letters? English trick: "Ta-ta". :: Ta-ta
 The game of tracing a shape without lifting the pencil or retracing lines relates to this mathematician's Königsberg bridges. :: Euler
 The number of bridges in the Königsberg problem. :: Seven
@@ -404,14 +404,14 @@ The angle between the hour and minute hands at 12:30. :: 165 degrees
 A man buys a horse for 60, sells it for 70, buys it back for 80 and sells it for 90. His total profit. :: 20
 The number of times the digit 7 appears when you write the numbers from 1 to 100. :: 20
 The bigger number: 2 to the power 10, or 10 to the power 3. :: 2 to the power 10 (1,024)
-A monk walks up a mountain one day and down by the same path the next. Whether there's a spot he passes at the same time of day both days. :: Yes, always
+A monk walks up a mountain one day and down by the same path the next. Is there a spot he passes at the same time of day on both days? :: Yes, always
 The minimum number of straight cuts to divide a round cake into 8 equal pieces. :: 3
 A gold bar of 7 segments pays a worker one segment a day for a week. The minimum number of cuts. :: 2
 A puzzle like SEND + MORE = MONEY, where letters stand for digits, is called this. :: Cryptarithm (verbal arithmetic)
 In SEND + MORE = MONEY, the letter M stands for this digit. :: 1
 
 ## 500
-A man walks into a bar and asks for water; the bartender pulls out a gun. This classic lateral-thinking puzzle's cure was a fright for this. :: Hiccups
+A man asks a bartender for water; the bartender pulls out a gun. In this classic lateral-thinking puzzle, the fright cures this. :: Hiccups
 Paul Sloane popularised this kind of puzzle, where you ask yes/no questions to find the hidden story. :: Lateral thinking puzzles
 The British author of "The Canterbury Puzzles" (1907). :: Henry Dudeney
 The American puzzle maker who created "Get Off the Earth" and thousands of puzzles in the 1800s. :: Sam Loyd
@@ -431,7 +431,7 @@ The approximate number of moves needed for 64 Tower of Hanoi discs. :: 2^64 − 
 The Persian story of a chessboard with grains of wheat doubling each square shows this kind of growth. :: Exponential growth
 The total number of grains on the chessboard in the wheat-and-chessboard legend. :: 2^64 − 1
 The Greek philosopher whose paradox says Achilles can never catch a tortoise. :: Zeno of Elea
-The paradox "This statement is false" is a version of this ancient paradox. :: The liar paradox
+The ancient paradox behind "This statement is false". :: The liar paradox
 The paradox about a barber who shaves all those who do not shave themselves, devised by this philosopher. :: Bertrand Russell
 The paradox: if you replace every plank of a ship, is it still the same ship? :: Ship of Theseus
 The paradox: a prisoner told he'll be hanged on a weekday by surprise concludes it can't happen. :: Unexpected hanging paradox

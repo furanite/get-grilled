@@ -25,7 +25,7 @@ The Arabic word takaful comes from the idea of this. :: Guaranteeing one another
 A loan with no extra charge, given for the sake of Allah. :: Qard hasan (a goodly loan)
 The surah that contains the verse "Allah has permitted trade and forbidden riba". :: Surat al-Baqarah
 The number of pillars of Islam. :: Five
-Zakat is the pillar number this. :: Three (the third pillar)
+Zakat's number among the five pillars of Islam. :: Three (the third pillar)
 The minimum amount of wealth a person must own before zakat is due. :: Nisab
 The period wealth must be owned before zakat is due. :: One lunar year (hawl)
 The nisab of gold, in grams, used by many scholars today. :: 85 grams
@@ -130,7 +130,7 @@ Profit in a mudaraba is shared by this. :: An agreed ratio
 The mudarib is not liable for loss unless there is negligence or this. :: Misconduct (breach of terms)
 In musharaka, losses are shared according to this. :: Capital contributions
 In musharaka, profits may be shared by this. :: An agreed ratio
-A sale with deferred price and deferred goods is forbidden because it is the sale of this for this. :: Debt for debt (bay' al-kali' bil-kali')
+A sale with both the price and the goods deferred is forbidden as a sale of ___ for ___. :: Debt for debt (bay' al-kali' bil-kali')
 Earnest money paid at signing that the seller keeps if the buyer walks away. :: 'Arbun
 A security deposit taken before a murabaha promise is called this. :: Hamish jiddiyah
 A commodity murabaha where the customer sells the goods to get cash. :: Tawarruq
@@ -194,22 +194,22 @@ The hadith "Whoever buys food should not sell it until he takes possession of it
 Constructive possession means the buyer has control and this, even without physically holding the goods. :: Bears the risk
 The Islamic contract of exchange of a benefit, such as a hotel stay, for a price. :: Ijara of services
 The Islamic contract of hiring a worker. :: Ijarat al-ashkhas (hiring)
-Our Beloved and our master, the Prophet Muhammad ﷺ said: "Give the worker his wage before" this. :: His sweat dries
+Our Beloved and our master, the Prophet Muhammad ﷺ said: "Give the worker his wage before ___." :: His sweat dries
 Charging rent before the leased asset is delivered to the customer is not allowed, but this may be taken. :: A security deposit (or advance rent held on account)
 The name for an Islamic mortgage where the bank buys the home and resells it at a higher fixed price. :: Murabaha home finance
 The Islamic finance term for paying zakat on money that was lost and then recovered, which scholars differ on. :: Zakat on lost wealth (mal dimar)
-Paying zakat early, before the year ends, is allowed by most scholars. This is called this. :: Ta'jil al-zakat
+The term for paying zakat early, before the year ends, which most scholars allow. :: Ta'jil al-zakat
 Moving zakat from one town to another is discussed by scholars under this name. :: Naql al-zakat
 Zakat cannot be given to these close relatives a person must support, such as parents and children. :: Dependants (ascendants and descendants)
-Zakat cannot be given to the family of our Beloved and our master, the Prophet Muhammad ﷺ. They are known as this. :: Ahl al-Bayt (Banu Hashim)
+The family of our Beloved and our master, the Prophet Muhammad ﷺ, who cannot be given zakat. :: Ahl al-Bayt (Banu Hashim)
 The Islamic term for charity given in secret, praised in Surat al-Baqarah. :: Secret sadaqah (sadaqat al-sirr)
-The hadith of the seven shaded on the Day of Judgement includes one who gives charity so secretly his left hand doesn't know what this gives. :: His right hand
+In the hadith of the seven who are shaded on the Day of Judgement, one gives charity so secretly that his left hand doesn't know what this gives. :: His right hand
 The Islamic finance principle that a sale must have a known price and known goods. :: Ma'lumiyyah (knowledge of terms)
 
 ## 300
 Verses 278 and 279 of Surat al-Baqarah warn those who do not give up riba of this. :: War from Allah and His Messenger ﷺ
 Ibn Abbas ﵁ said the last ayah revealed was the ayah of riba. It is in this surah. :: Surat al-Baqarah
-The hadith in which our Beloved and our master, the Prophet Muhammad ﷺ cursed the one who takes riba, the one who gives it, the one who writes it and these. :: The two witnesses
+Our Beloved and our master, the Prophet Muhammad ﷺ cursed the one who takes riba, the one who gives it, the one who writes it, and these people. :: The two witnesses
 Our Beloved and our master, the Prophet Muhammad ﷺ cancelled the riba of this uncle in the Farewell Sermon. :: Al-Abbas ibn Abd al-Muttalib ﵁
 Scholars treat today's paper money as this kind of item for riba. :: Like gold and silver (a medium of exchange, thaman)
 The 'illah (effective cause) of riba in gold and silver according to many scholars. :: Being money (thamaniyyah)
@@ -224,7 +224,7 @@ The AAOIFI Sharia standard on tawarruq. :: Sharia Standard No. 30
 The scholar and former Pakistani judge who said in 2007 that most sukuk were not Sharia-compliant. :: Muhammad Taqi Usmani
 Taqi Usmani was chairman of this body's Sharia board when he made that statement. :: AAOIFI
 The share of Gulf sukuk Taqi Usmani said were not compliant. :: About 85%
-His main concern was that many sukuk promised to buy assets back at this price. :: Face value (guaranteeing capital)
+Taqi Usmani's main concern about Gulf sukuk was that many promised to buy assets back at this price. :: Face value (guaranteeing capital)
 AAOIFI's 2008 sukuk statement said sukuk holders must own the assets with all rights and these. :: Obligations (risks)
 The sukuk structure that represents ownership of a business venture managed by the issuer. :: Mudaraba sukuk
 The sukuk structure where holders and issuer are partners. :: Musharaka sukuk
@@ -255,7 +255,7 @@ The market inspector in the time of 'Umar ibn al-Khattab ﵁ included this woman
 Price fixing by the ruler is called this. :: Tas'ir
 Our Beloved and our master, the Prophet Muhammad ﷺ refused to fix prices, saying that Allah is this. :: The One who fixes prices (al-Musa''ir)
 Meeting traders outside town to buy cheaply before they know the market price is called this and is forbidden. :: Talaqqi al-rukban
-A townsman selling for a desert dweller to raise prices is forbidden. This is called this. :: Bay' al-hadir lil-badi
+The forbidden practice of a townsman selling for a desert dweller to raise prices. :: Bay' al-hadir lil-badi
 Bidding up a price with no intention to buy. :: Najash
 Selling on top of another's sale. :: Bay' 'ala bay' akhih
 A sale with hidden defects that the seller conceals. :: Tadlis (fraud)
@@ -330,7 +330,7 @@ The IIFA ruled istisna' binding on both parties in this year. :: 1992 (7th sessi
 The "salam" price paid in advance protects against riba because the goods are this, not money. :: Commodities (not currency)
 Salam cannot be used for gold or silver if the price is paid in this. :: Gold or silver (or money)
 A salam buyer can't sell the salam goods before taking them, according to most scholars, because of this. :: Selling before possession (qabd)
-In ijara, the rent may be fixed or floating if it is set this way. :: For each period in advance (known at the start of each period)
+In ijara, floating rent is allowed if it is set this way. :: For each period in advance (known at the start of each period)
 Under AAOIFI's ijara standard, insurance of the asset is paid by this party. :: The lessor (it can be built into the rent)
 An ijara where the bank leases an asset it just bought from the customer. :: Sale and leaseback
 A sale and leaseback with a buy-back promise at the original price is criticised for being like this. :: Bay' al-'inah
@@ -372,7 +372,7 @@ The amount of a sa' in kilograms of wheat, often estimated today. :: About 2.04 
 The Saudi Permanent Committee's guidance usually gives zakat al-fitr as about this much rice. :: About 3 kilograms
 'Zakat on jewellery worn by women' is due according to this school. :: The Hanafi school
 'Zakat on jewellery worn by women' is not due according to these schools. :: Maliki, Shafi'i and Hanbali (majority)
-In sukuk al-ijara, the rent paid by the lessee becomes the sukuk holders' this. :: Periodic distribution (return)
+In sukuk al-ijara, the lessee's rent becomes this for the sukuk holders. :: Periodic distribution (return)
 At the end of a sukuk al-ijara, the issuer buys back the asset through this. :: A purchase undertaking (exercise price)
 AAOIFI's 2008 statement said a mudarib or partner may not promise to buy back sukuk assets at this price. :: Face (nominal) value
 AAOIFI's 2008 statement said sukuk managers may not lend to holders to cover shortfalls in returns, except this. :: As a qard hasan advance (repaid later), not a guarantee
@@ -387,7 +387,7 @@ The Saudi scholar's view, from the Permanent Committee, on buying shares in mixe
 The AAOIFI standard that allows investing in mixed companies within limits and with purification. :: Sharia Standard No. 21 (Financial Paper: Shares and Bonds)
 Under AAOIFI's share screens, interest-bearing deposits must be below this share of market value. :: 30%
 Under AAOIFI's share screens, non-permissible income must be below this share of total income. :: 5%
-Zakat on a farm's livestock grazing freely is due; on livestock fed by the owner most of the year it is not, according to the majority. These are called this. :: Sa'imah (freely grazing animals)
+The name for freely grazing livestock, on which the majority say zakat is due, unlike livestock the owner feeds most of the year. :: Sa'imah (freely grazing animals)
 The nisab of sheep starts at 40 with one sheep due; the next step of two sheep starts at this number. :: 121
 The age of the female camel due on 25 camels. :: One year old (bint makhad)
 The hadith letter detailing zakat rates on livestock was written by Abu Bakr ﵁ for this Companion. :: Anas ibn Malik ﵁
@@ -416,11 +416,11 @@ The Hanafi jurist whose "Al-Mabsut" contains detailed chapters on mudaraba and s
 The Hanbali jurist whose "Al-Mughni" is a major source on contracts. :: Ibn Qudamah ﵀
 The Ottoman civil code based on Hanafi law, issued from 1869 to 1876, with long sections on sale. :: Mecelle (Majallat al-Ahkam al-'Adliyyah)
 The Majallah opens with this many legal maxims. :: 99
-The first maxim of the Majallah: "Matters are judged by their" this. :: Purposes (al-umur bi-maqasidiha)
-The Majallah maxim "Harm is" this. :: Removed (al-darar yuzal)
-The Majallah maxim "Custom is" this. :: Authoritative (al-'adah muhakkamah)
-The Majallah maxim "Certainty is not removed by" this. :: Doubt (al-yaqin la yazul bil-shakk)
-The Majallah maxim "Hardship brings" this. :: Ease (al-mashaqqah tajlib al-taysir)
+The first maxim of the Majallah: "Matters are judged by their ___". :: Purposes (al-umur bi-maqasidiha)
+The Majallah maxim "Harm is ___". :: Removed (al-darar yuzal)
+The Majallah maxim "Custom is ___". :: Authoritative (al-'adah muhakkamah)
+The Majallah maxim "Certainty is not removed by ___". :: Doubt (al-yaqin la yazul bil-shakk)
+The Majallah maxim "Hardship brings ___". :: Ease (al-mashaqqah tajlib al-taysir)
 The Egyptian jurist who wrote the civil codes of Egypt, Iraq and Kuwait, drawing on fiqh. :: Abd al-Razzaq al-Sanhuri ﵀
 Al-Sanhuri's ﵀ multi-volume study of the sources of rights in Islamic law. :: Masadir al-Haqq fil-Fiqh al-Islami
 The Saudi Civil Transactions Law, the Kingdom's first codified civil law, took effect in this year. :: 2023 (December 2023)
@@ -444,9 +444,9 @@ AAOIFI's governance standard number 1 deals with this. :: Appointment, compositi
 AAOIFI's Sharia Standard No. 59 deals with this. :: Sale of debt
 AAOIFI's Sharia Standard No. 62 on sukuk was issued as an exposure draft in this year, causing market debate. :: 2023
 The main change in that draft was to require sukuk holders to have this. :: Full legal ownership (real transfer) of the assets
-The AAOIFI Sharia Standard on zakat is number this. :: 35
-The AAOIFI Sharia Standard on waqf is number this. :: 33
-The AAOIFI Sharia Standard on gold and its trading controls is number this. :: 57
+The number of the AAOIFI Sharia Standard on zakat. :: 35
+The number of the AAOIFI Sharia Standard on waqf. :: 33
+The number of the AAOIFI Sharia Standard on gold and its trading controls. :: 57
 AAOIFI's very first Sharia Standard, No. 1, deals with trading in these. :: Currencies
 The 1990 sukuk by Shell MDS was issued in this currency. :: Malaysian ringgit
 The world's first sovereign sukuk, by Bahrain in 2001, was this kind of sukuk. :: Sukuk al-salam (short-term)
@@ -491,7 +491,7 @@ Other trust sales besides murabaha: tawliyah at cost and this at a loss. :: Wadi
 The bargaining sale where the cost is not disclosed. :: Musawamah
 Imam al-Shafi'i ﵀ described a version of the murabaha-to-purchase-orderer in this book. :: Al-Umm
 The scholar Sami Hamoud wrote the 1976 thesis that shaped modern murabaha in this country's Islamic bank. :: Jordan (Jordan Islamic Bank)
-The IIFA's 1985 ruling that permitted cooperative insurance was resolution number this. :: 9 (9/2)
+The number of the IIFA's 1985 resolution that permitted cooperative insurance. :: 9 (9/2)
 The IIFA's position on 'rescheduling a debt with an increase' is that it is this. :: Riba (riba al-jahiliyyah, "pay or increase")
 The pre-Islamic practice "Will you pay, or will you increase?" is called this. :: Riba al-jahiliyyah
 The classical name for a loan with a stipulated benefit to the lender. :: Qard jarra naf'an
@@ -552,7 +552,7 @@ A trader's shop holds stock worth 80,000 riyals, cash of 20,000, and he owes sup
 Omar gives 50,000 to Khalid to run a trading business; they agree to split profits 50:50. The business loses 10,000 with no fault from Khalid. Who bears the loss? :: Omar, the investor (Khalid loses his effort)
 Two partners put in 60,000 and 40,000. They make a 20,000 loss. How is it shared? :: 12,000 and 8,000 (by capital)
 A customer pays late on a murabaha. The contract says late payments go to charity. Can the bank keep the money as profit? :: No, it must go to charity
-A farmer sells 10 tonnes of dates "from whatever my palms produce this year" by salam. Is this valid? :: No; salam must not depend on a specific crop that may fail (it should be described goods)
+A farmer sells 10 tonnes of dates by salam, "from whatever my palms produce this year". Is the sale valid? :: No; salam must not depend on a specific crop that may fail (it should be described goods)
 A lessor's building is destroyed by a flood during an ijara. What happens to the rent? :: It stops; the lessee is not charged for a benefit it can't receive
 A buyer finds a hidden defect in a carpet a week after buying it. What right does he have? :: Khiyar al-'ayb: return it or keep it (with compensation if agreed)
 A friend lends 5,000 riyals and asks for 5,000 back in a year, plus a dinner invitation as a condition. Ruling? :: The condition is riba (a stipulated benefit); only 5,000 is due

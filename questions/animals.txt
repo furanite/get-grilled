@@ -376,7 +376,7 @@ The lizard that squirts blood from its eyes. :: Horned lizard
 The lizard that drops its tail to escape. :: Gecko (and many lizards)
 The gecko's sticky feet work thanks to tiny hairs using this force. :: Van der Waals forces
 The snake that eats eggs and has no teeth to speak of. :: Egg-eating snake
-The way snakes are born live in some species and from eggs in others; boas give birth this way. :: Live birth (viviparous)
+Boas bring their young into the world this way, not from eggs. :: Live birth (viviparous)
 The temperature of the nest decides this in many turtles. :: Whether the young are male or female
 The Galápagos animal that swims and feeds on seaweed. :: Marine iguana
 The tortoise species from the Galápagos that can live over 150 years. :: Galápagos giant tortoise
@@ -460,7 +460,7 @@ The chimpanzee that flew in a Mercury capsule in 1961. :: Ham
 The number of species of camel in the world, counting the wild Bactrian. :: Three
 The wild camel species that survives in the Gobi Desert. :: Wild Bactrian camel
 The camel's red blood cells are this shape, unlike other mammals'. :: Oval
-The camel's antibodies are unusual because they are small; these are called this. :: Nanobodies
+The name for the camel's unusually small antibodies. :: Nanobodies
 The proportion of water a camel can lose from its body and survive. :: About 25–30%
 The term for the camel's ability to let its body heat up by day. :: Adaptive heterothermy
 The traditional Bedouin term for a female camel prized for milk. :: Naqa

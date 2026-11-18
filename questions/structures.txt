@@ -162,7 +162,7 @@ A slab that rests on columns without beams. :: A flat slab
 The thickening of a flat slab around a column top. :: A drop panel
 The failure where a column punches through a flat slab. :: Punching shear
 Steel deck sheets with concrete poured on top. :: Composite deck
-A long column fails by bending sideways. This is called this. :: Buckling
+The name for a long column failing by bending sideways. :: Buckling
 The Swiss mathematician who found the buckling load formula. :: Leonhard Euler
 The ratio of a column's length to its thickness, linked to buckling. :: The slenderness ratio
 The distance a beam bends down under load. :: Deflection
@@ -317,7 +317,7 @@ The modulus of elasticity of steel is about this. :: 200 GPa
 The modulus of elasticity of normal concrete is about this. :: 25 to 35 GPa
 The density of steel is about this. :: 7,850 kg per cubic metre
 The density of normal concrete is about this. :: 2,400 kg per cubic metre
-The coefficient of thermal expansion of steel and concrete is about the same. This lets them do this. :: Work together without cracking apart
+Because steel and concrete expand with heat by about the same amount, they can do this. :: Work together without cracking apart
 The yield strength of common rebar grade 60. :: 420 MPa (60,000 psi)
 The yield strength of common structural steel S355. :: 355 MPa
 The tensile strength of concrete is about this fraction of its compressive strength. :: A tenth
@@ -410,7 +410,7 @@ A typical limit on wind drift of a tall building is height divided by this. :: 5
 The extra moments in columns from sideways movement under gravity loads. :: P-delta effects
 The level of acceleration that makes people in tall buildings feel uncomfortable is measured in this. :: milli-g
 The wind tunnel test for tall buildings uses this. :: A scale model with pressure sensors
-The rough ground near the surface slows wind; this layer is called this. :: The atmospheric boundary layer
+The name for the layer near the ground where rough terrain slows the wind. :: The atmospheric boundary layer
 The Burj Khalifa's shape was tuned to "confuse the wind" by doing this. :: Changing its shape with height (setbacks)
 The Shanghai Tower twists by about this many degrees to cut wind load. :: 120
 
@@ -474,7 +474,7 @@ The Scottish engineer who built the Menai Suspension Bridge. :: Thomas Telford
 The British engineer of the Clifton Suspension Bridge. :: Isambard Kingdom Brunel
 The Tay Bridge collapsed in a storm in this year. :: 1879
 The Quebec Bridge collapsed during building in this year. :: 1907
-The ring worn by Canadian engineers is said to remember this collapse. :: The Quebec Bridge
+The bridge collapse that the ring worn by Canadian engineers is said to recall. :: The Quebec Bridge
 The Silver Bridge in the US collapsed in 1967 because of a crack in this part. :: An eyebar
 The Sampoong Department Store collapsed in this city in 1995. :: Seoul
 The Rana Plaza collapse of 2013 was in this country. :: Bangladesh

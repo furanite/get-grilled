@@ -145,7 +145,7 @@ The amount of solar energy reaching a surface per unit area. :: Irradiance
 The unit of irradiance. :: Watts per square metre (W/m²)
 Standard Test Conditions for solar panels use this irradiance. :: 1,000 W/m²
 Solar cell efficiency drops as this rises. :: Temperature
-Desert dust on solar panels reduces output. This is called this. :: Soiling
+The name for desert dust on solar panels reducing their output. :: Soiling
 The panel type that collects light on both faces. :: Bifacial panels
 The point on a solar panel's I–V curve where it gives most power. :: Maximum power point
 The electronic method that keeps a panel at its best operating point. :: MPPT (maximum power point tracking)
@@ -290,7 +290,7 @@ The solar resource measure for direct beam sunlight. :: DNI (direct normal irrad
 The large curved mirror troughs used in many CSP plants. :: Parabolic troughs
 The wind speed distribution usually assumed for wind resource studies. :: Weibull distribution
 Power in the wind is proportional to swept area times wind speed to this power. :: Cube
-Wind turbine wakes reduce the output of turbines behind them. This is called this. :: Wake effect (wake losses)
+The name for wind turbine wakes reducing the output of turbines behind them. :: Wake effect (wake losses)
 The wind generator type that uses a doubly fed induction machine with a partial converter. :: Type 3 (DFIG)
 The ratio of blade tip speed to wind speed. :: Tip speed ratio
 The electrolyser type using a solid polymer membrane. :: PEM electrolyser
@@ -332,7 +332,7 @@ The planning rule that the grid must survive the loss of any one element. :: N�
 The impedance of a transmission line per km is set by its geometric mean radius and this. :: Geometric mean distance
 Swapping conductor positions along a line to balance its impedances. :: Transposition
 The ABCD parameters of a line relate sending-end voltage and current to these. :: Receiving-end voltage and current
-The characteristic impedance of a lossless line equals √(L/C). It is called this. :: Surge impedance
+The name for √(L/C), the characteristic impedance of a lossless line. :: Surge impedance
 The surge impedance of a typical overhead line, roughly. :: About 300 to 400 Ω
 The fast-rising voltage waves caused by lightning or switching. :: Travelling waves (surges)
 The wave reflection coefficient at an open-circuit line end. :: +1
@@ -493,7 +493,7 @@ Einstein's 1921 Nobel Prize was for explaining this effect, key to solar cells. 
 The 1973 event that quadrupled oil prices and sparked worldwide energy research. :: Oil embargo (1973 oil crisis)
 The well that struck oil in commercial quantities in Saudi Arabia in 1938. :: Dammam No. 7 (Prosperity Well)
 The American geologist credited with the Dammam No. 7 discovery. :: Max Steineke
-Saudi Arabia's Master Gas System, begun in the 1970s, captures gas that was previously this. :: Flared (burned off)
+Saudi Arabia's Master Gas System, begun in the 1970s, captures gas that used to be treated this way. :: Flared (burned off)
 The world's largest offshore oil field, in Saudi waters. :: Safaniya
 The geologist who predicted in 1956 that US oil production would peak around 1970. :: M. King Hubbert
 The German engineer who patented the compression-ignition engine in the 1890s. :: Rudolf Diesel

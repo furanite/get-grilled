@@ -140,7 +140,7 @@ The part of a space only for staff or family. :: Private zone
 The part of a house for kitchens and laundry. :: Service zone
 The traditional Arab house splits rooms for guests from rooms for this. :: The family (privacy)
 The separate men's guest room in Saudi homes. :: The men's majlis
-The front door of a Saudi home often leads to a space that blocks the view inside. This is called this. :: A screen (entrance baffle)
+The space just inside a Saudi home's front door that blocks the view inside. :: A screen (entrance baffle)
 The office layout with no private rooms. :: Open-plan office
 Open-plan offices of the 1960s with movable screens. :: Bürolandschaft (office landscape)
 The furniture system designed for offices by Robert Propst in 1968. :: The Action Office
@@ -507,7 +507,7 @@ The interior designer's role in hotel projects usually covers FF&E and this. :: 
 The term for a cheaper alternative suggested to cut costs. :: Value engineering
 The term for the final snag list before handover. :: A punch list (snag list)
 The term for a defects period after a project is handed over. :: The defects liability period
-The defects liability period is often this long. :: One year
+The usual length of the defects liability period. :: One year
 The RIBA Plan of Work has this many stages. :: Eight (0 to 7)
 The US AIA document for design services. :: AIA B101
 The American Society of Interior Designers is known by this short form. :: ASID

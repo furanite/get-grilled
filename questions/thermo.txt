@@ -32,7 +32,7 @@ Heat transfer by the movement of a fluid. :: Convection
 Heat transfer by electromagnetic waves, needing no medium. :: Radiation
 The way the Sun heats the Earth. :: Radiation
 A material that conducts heat poorly. :: Thermal insulator
-A metal pan handle is often made of plastic because plastic is a poor this. :: Conductor of heat
+Metal pan handles are often made of plastic because plastic is a poor one of these. :: Conductor of heat
 The amount of heat needed to raise 1 kg of a substance by 1 °C. :: Specific heat capacity
 Specific heat of water, roughly, in kJ/kg·K. :: 4.18
 The heat absorbed during a change of state at constant temperature. :: Latent heat

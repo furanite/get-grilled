@@ -316,7 +316,7 @@ The ratio of the largest to smallest turbulent eddy sizes grows with Re to this 
 The smallest scales of turbulence are named after this Russian scientist. :: Andrey Kolmogorov
 The year of Kolmogorov's famous papers on turbulence scales. :: 1941
 The process where large eddies pass energy down to smaller ones. :: Energy cascade
-The poem by Lewis Fry Richardson: 'Big whorls have little whorls that feed on their' this. :: Velocity
+Lewis Fry Richardson's poem: "Big whorls have little whorls that feed on their ___". :: Velocity
 The turbulence model that relates Reynolds stresses to a 'mixing length'. :: Prandtl's mixing length model
 The assumption that turbulent stresses act like a larger viscosity. :: Boussinesq (eddy viscosity) hypothesis
 The two-equation turbulence model popular for adverse pressure gradients that blends k–ω and k–ε. :: SST k–omega model (Menter)

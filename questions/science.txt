@@ -68,7 +68,7 @@ A sudden shaking of the ground. :: Earthquake
 A giant sea wave usually caused by an undersea earthquake. :: Tsunami
 A spinning column of air that touches the ground. :: Tornado
 The name for a tropical storm in the Atlantic with winds over 119 km/h. :: Hurricane
-The same kind of storm in the western Pacific is called this. :: Typhoon
+The name for a hurricane-strength storm in the western Pacific. :: Typhoon
 Water falling as ice balls from storm clouds. :: Hail
 The water cycle step where water turns into vapour. :: Evaporation
 The water cycle step where vapour turns into droplets. :: Condensation
@@ -153,7 +153,7 @@ The speed of sound in air is about this many metres per second. :: About 343 m/s
 Sound waves too high for humans to hear. :: Ultrasound
 The unit for measuring loudness. :: Decibel
 The tendency of an object to keep doing what it is doing unless a force acts. :: Inertia
-Newton's third law says every action has an equal and opposite this. :: Reaction
+Newton's third law: every action has an equal and opposite ___. :: Reaction
 Acceleration due to gravity on Earth is about this. :: 9.8 m/s²
 The force that slows down two surfaces sliding past each other. :: Friction
 The point where an object's weight seems to act. :: Centre of gravity (centre of mass)
@@ -504,7 +504,7 @@ The ocean's 'twilight zone', where sunlight fades, is this zone. :: Mesopelagic 
 The deep-sea vents that support life without sunlight. :: Hydrothermal vents (black smokers)
 The process by which vent bacteria make food from chemicals. :: Chemosynthesis
 The coral's partner algae that live inside its tissues. :: Zooxanthellae
-The loss of these algae from coral in hot water is called this. :: Coral bleaching
+The name for coral losing its algae in hot water. :: Coral bleaching
 The number of base pairs in the human genome, roughly. :: About 3 billion
 The enzyme that joins DNA fragments together. :: DNA ligase
 The cell death programme that removes unwanted cells. :: Apoptosis
