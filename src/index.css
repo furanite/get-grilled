@@ -236,7 +236,7 @@ textarea.input{resize:vertical;min-height:44px}
 
 /* Terms window, footer, report link */
 .legal-backdrop{position:fixed;inset:0;z-index:100;display:grid;place-items:center;padding:16px;background:color-mix(in oklab,var(--bg) 78%,transparent);backdrop-filter:blur(6px)}
-.legal-panel{width:min(680px,100%);max-height:calc(100dvh - 32px);display:flex;flex-direction:column;border-radius:20px;background:linear-gradient(170deg,var(--bg2),var(--bg));border:1px solid color-mix(in oklab,var(--edge) 45%,transparent);box-shadow:0 0 0 1px rgba(255,255,255,.04),0 30px 80px -20px rgba(0,0,0,.8),0 0 60px -20px var(--glow);color:var(--text);overflow:hidden}
+.legal-panel{width:min(680px,100%);max-height:calc(100vh - 32px);max-height:calc(100dvh - 32px);display:flex;flex-direction:column;border-radius:20px;background:linear-gradient(170deg,var(--bg2),var(--bg));border:1px solid color-mix(in oklab,var(--edge) 45%,transparent);box-shadow:0 0 0 1px rgba(255,255,255,.04),0 30px 80px -20px rgba(0,0,0,.8),0 0 60px -20px var(--glow);color:var(--text);overflow:hidden}
 .legal-head{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:18px 20px 6px}
 .legal-head h1{margin:0;font-family:var(--fd);font-size:clamp(20px,4vw,26px);letter-spacing:var(--track)}
 .legal-body{overflow:auto;padding:6px 20px 12px;font-size:14px;line-height:1.6}
@@ -260,7 +260,8 @@ textarea.input{resize:vertical;min-height:44px}
 /* Host edition: the audience window on the projector */
 .audience-body{min-height:100vh;background:radial-gradient(120% 90% at 50% -10%,var(--bg2),var(--bg) 70%) fixed;overflow:hidden}
 .aud-main{min-height:100vh;box-sizing:border-box;display:flex;flex-direction:column;align-items:stretch;justify-content:center;gap:2vh;padding:3vh 3vw}
-.aud-wait,.aud-main:has(.aud-crown){align-items:center;text-align:center}
+.aud-wait{align-items:center;text-align:center}
+.aud-main:has(.aud-crown){align-items:center;text-align:center}
 .aud-title{margin:0;font-family:var(--fd);font-size:clamp(48px,10vw,160px);letter-spacing:var(--track);background:linear-gradient(100deg,var(--accent),var(--text) 45%,var(--accent2) 60%,var(--accent));background-size:200% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:shimmer 4s linear infinite}
 .aud-tagline{margin:0;font-size:clamp(18px,2.4vw,36px);color:var(--muted)}
 .aud-crown{font-size:clamp(40px,7vw,110px)}
