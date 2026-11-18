@@ -36,8 +36,8 @@ function assert(c, msg) {
 const browser = await chromium.launch()
 async function newPage(viewport = { width: 1280, height: 800 }) {
   const ctx = await browser.newContext({ viewport })
-  await ctx.addInitScript(() => localStorage.setItem('gg.consent.v1', JSON.stringify({ version: '1.2', date: '2026-11-10T00:00:00Z' })))
-  await ctx.addInitScript(() => localStorage.setItem('gg.tipsSeen.v1', 'true'))
+  await ctx.addInitScript(() => localStorage.setItem('gg.consent.v1', JSON.stringify({ version: '1.3', date: '2026-11-11T00:00:00Z' })))
+  await ctx.addInitScript(() => localStorage.setItem('gg.tipsSeen.ilm.v1', 'true'))
   const page = await ctx.newPage()
   await page.addLocatorHandler(page.getByTestId('intro-next'), async (b) => b.click(), { noWaitAfter: true })
   page.errors = []
@@ -208,7 +208,7 @@ try {
     if (await host.getByTestId('lightning-skip').count()) await host.getByTestId('lightning-skip').click()
     await host.getByTestId('final-show').click()
     await tablet.waitForSelector('[data-testid="final-input"]')
-    const answer = await host.textContent('.answer.peek')
+    const answer = (await host.$eval('.answer.peek', (el) => [...el.childNodes].filter((n) => n.nodeType === 3).map((n) => n.textContent).join(''))).trim()
     assert(!(await tablet.content()).includes(answer), 'final answer reached the tablet')
     await tablet.getByTestId('final-input').fill('Our secret guess')
     await tablet.getByTestId('final-send').click()
@@ -245,7 +245,7 @@ try {
     await h.getByTestId('devices-done').click()
     await h.click('[data-tile="1-2"]')
     await h.waitForSelector('.card.open')
-    const answer = (await h.textContent('[data-testid="answer"]')).trim()
+    const answer = (await h.$eval('[data-testid="answer"]', (el) => [...el.childNodes].filter((n) => n.nodeType === 3).map((n) => n.textContent).join(''))).trim()
     for (const ph of phones) await ph.waitForSelector('[data-testid="phone-round"][data-open] .phone-choice')
     const choices = await phones[0].$$eval('.phone-choice', (els) => els.map((e) => e.textContent.trim()))
     assert(choices.length === 4 && new Set(choices).size === 4, 'four different choices: ' + choices.join(' | '))

@@ -29,25 +29,49 @@ function rng(seed: string) {
   }
 }
 
+/** Words of an answer, for comparing its shape with the right one. */
+const words = (s: string) => norm(s).split(' ').filter(Boolean)
+const hasDigit = (s: string) => /\p{N}/u.test(s)
+
 /**
- * Up to `wrong` wrong options for `correct`, from `pool` (answers per level), level `level` first.
+ * How much a wrong option looks like the right answer: the same first word ("Surah ...", "Prophet ..."),
+ * about as many words, and a number when the answer has one. Look-alike options make a fair question
+ * (a surah among surahs, a year among years) instead of one with a give-away.
+ */
+export function likeness(correct: string, option: string): number {
+  const a = words(correct)
+  const b = words(option)
+  let score = 0
+  if (a.length && b.length && a[0] === b[0]) score += 3
+  if (a.length > 1 && b.length > 1 && a[a.length - 1] === b[b.length - 1]) score += 1
+  const gap = Math.abs(a.length - b.length)
+  score += gap === 0 ? 2 : gap === 1 ? 1 : 0
+  if (hasDigit(correct) === hasDigit(option)) score += 1
+  return score
+}
+
+/**
+ * Up to `wrong` wrong options for `correct`, from `pool` (answers per level). Options that look like
+ * the right answer come first, then those from the same level, then nearer levels.
  * Leaves out anything in `avoid` and anything that reads the same as the right answer.
  */
 export function makeChoices(correct: string, pool: string[][], level: number, avoid: string[], seed: string, wrong = 3): { choices: string[]; correct: number } {
   const r = rng(seed)
   const banned = new Set([norm(correct), ...avoid.map(norm)])
-  const picked: string[] = []
-  const order = [level, level - 1, level + 1, level - 2, level + 2, level - 3, level + 3, level - 4, level + 4].filter((l) => l >= 0 && l < pool.length)
-  for (const l of order) {
-    const options = pool[l].filter((a) => a && a.length <= 120 && !banned.has(norm(a)))
-    while (options.length && picked.length < wrong) {
-      const a = options.splice(Math.floor(r() * options.length), 1)[0]
-      if (banned.has(norm(a))) continue
-      banned.add(norm(a))
-      picked.push(a)
+  const cands: { a: string; score: number; tie: number }[] = []
+  const seen = new Set<string>()
+  pool.forEach((lv, l) => {
+    for (const a of lv) {
+      if (!a || a.length > 120) continue
+      const k = norm(a)
+      if (!k || banned.has(k) || seen.has(k)) continue
+      seen.add(k)
+      cands.push({ a, score: likeness(correct, a) * 10 - Math.abs(l - level) * 2, tie: r() })
     }
-    if (picked.length >= wrong) break
-  }
+  })
+  cands.sort((x, y) => y.score - x.score || x.tie - y.tie)
+  // Equal scores are in random order (tie), so the same look-alikes don't always come up.
+  const picked = cands.slice(0, wrong).map((c) => c.a)
   const all = [correct, ...picked]
   for (let i = all.length - 1; i > 0; i--) {
     const j = Math.floor(r() * (i + 1))

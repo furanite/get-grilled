@@ -43,3 +43,13 @@ describe('audience multiple choice', () => {
     expect(gameAnswers(g).sort()).toEqual(['A1', 'F1', 'L1', 'T1', 'ع'])
   })
 })
+
+describe('look-alike wrong options', () => {
+  it('offers surahs for a surah and years for a year before other answers', () => {
+    const pool = [['Zayd ibn Harithah', 'Surah al-Naml', 'Makkah', 'Surah al-Takwir', '1924', 'Surah Yasin', 'Patience']]
+    const s = makeChoices("Surah al-Ma'idah", pool, 0, [], 'q1')
+    expect(s.choices.filter((c) => c !== "Surah al-Ma'idah").every((c) => c.startsWith('Surah'))).toBe(true)
+    const y = makeChoices('1258', [['Baghdad', '1453', 'Cordoba', '1492', 'Damascus', '1924']], 0, [], 'q2')
+    expect(y.choices.filter((c) => c !== '1258').sort()).toEqual(['1453', '1492', '1924'])
+  })
+})
