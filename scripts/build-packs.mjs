@@ -13,6 +13,7 @@
 // "ClueAr :: AnswerAr" line per question, in the same order as the English file.
 import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync, cpSync } from 'node:fs'
 import { join, dirname } from 'node:path'
+import { createHash } from 'node:crypto'
 import { fileURLToPath } from 'node:url'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
@@ -129,6 +130,12 @@ export function parsePack(text, file = 'pack') {
   return out
 }
 
+/** A short key from a question's clue (and picture): the same words give the same key, whatever line they are on. */
+export function questionKey({ q, img }) {
+  const norm = q.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim() + (img ? ` ${img}` : '')
+  return createHash('sha256').update(norm).digest('hex').slice(0, 10)
+}
+
 const digits = (s) => (s.replace(/[\u0660-\u0669]/g, (d) => String(d.charCodeAt(0) - 0x660)).match(/\d+/g) ?? []).sort().join(',')
 
 // Reads an Arabic file and pairs it with the parsed English levels.
@@ -209,6 +216,10 @@ function main() {
       levels = m.levels
       arCount = levels.reduce((s, l) => s + l.length, 0)
     }
+    // Each question gets a key made from its own words, so adding, removing or moving lines in a file
+    // doesn't change which question a saved "already played" or "taken out of play" mark points to.
+    levels = levels.map((l) => l.map((x) => ({ ...x, qk: questionKey(x) })))
+    if (modes) modes = Object.fromEntries(Object.entries(modes).map(([m, l]) => [m, l.map((x) => ({ ...x, qk: questionKey(x) }))]))
     const pack = { id: meta.id, name: meta.name, nameAr: meta.nameAr, group: meta.group, levels, ...(modes ? { modes } : {}) }
     writeFileSync(join(outDir, `${meta.id}.json`), JSON.stringify(pack))
     const entry = { id: meta.id, name: meta.name, nameAr: meta.nameAr, group: meta.group, counts: levels.map((l) => l.length) }

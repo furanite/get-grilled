@@ -38,3 +38,10 @@ A game draws one question per level from each pool and avoids repeats until a po
 
 - The Heritage theme opens on Fridays from 12:00 to midnight, Riyadh time (`src/lib/themes.ts`).
 - Custom categories are saved in the browser. Use Export/Import to move them between devices.
+
+## Buzzers
+
+Light-up buttons wired to a Raspberry Pi Pico plug into the host's laptop by USB and show the buzz
+order, with ties, on the clue card and the audience screen (Chrome or Edge). Parts, wiring and the
+Pico program are in `buzzer/` (start with `buzzer/README.md`). Add `?buzzsim=1` to the address to
+rehearse with a pretend box.

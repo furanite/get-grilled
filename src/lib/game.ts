@@ -12,7 +12,7 @@ function pick<T>(arr: T[], rng: Rng): T {
  * When every question in a level has been used, that level starts over.
  * Returns the picked questions and the updated used list for this category.
  */
-export function drawCategory(cat: Category, used: string[], rng: Rng = Math.random): { picks: Question[]; used: string[] } {
+export function drawCategory(cat: Category, used: string[], rng: Rng = Math.random, taken?: Set<string>): { picks: Question[]; used: string[] } {
   let usedSet = new Set(used)
   const picks: Question[] = []
   cat.levels.forEach((pool) => {
@@ -23,12 +23,21 @@ export function drawCategory(cat: Category, used: string[], rng: Rng = Math.rand
       usedSet = new Set([...usedSet].filter((id) => !ids.has(id)))
       fresh = pool
     }
+    // Some clues sit in two categories (Geography and Arab World, say): never put the same clue twice in one game.
+    if (taken) {
+      const unique = fresh.filter((q) => !taken.has(clueKey(q)))
+      if (unique.length) fresh = unique
+    }
     const q = pick(fresh, rng)
     picks.push(q)
     usedSet.add(q.id)
+    taken?.add(clueKey(q))
   })
   return { picks, used: [...usedSet] }
 }
+
+/** A clue's words, ignoring case, spacing and the end mark, so the same clue in two categories is spotted. */
+export const clueKey = (q: Pick<Question, 'q' | 'img'>) => `${q.q.toLowerCase().replace(/\s+/g, ' ').replace(/[.?!]+$/, '').trim()}|${q.img ?? ''}`
 
 /** For a picture night: in each level that has picture questions, draw only from those. */
 export function preferPictures(cat: Category): Category {
@@ -135,10 +144,13 @@ export function modeItemsOf(cat: Category, mode: RoundMode): ModeItem[] {
  * (other built-in categories that have this kind of item), so any game can have any round.
  * Items already on the board or seen before are left for last. Returns null when there are too few.
  */
-export function drawModeRound(mode: RoundMode, cats: Category[], more: Category[], skip: Set<string>, rng: Rng = Math.random): ModeItem[] | null {
+export function drawModeRound(mode: RoundMode, cats: Category[], more: Category[], skip: Set<string>, rng: Rng = Math.random, never?: Set<string>): ModeItem[] | null {
   const own = shuffle(cats.flatMap((c) => modeItemsOf(c, mode)), rng)
   const others = shuffle(more.filter((c) => !cats.some((x) => x.id === c.id)).flatMap((c) => modeItemsOf(c, mode)), rng)
-  const all = [...own, ...others]
+  // Items in `never` (on this game's board already) are left out altogether when there are enough others.
+  const every = [...own, ...others]
+  const notInGame = every.filter((x) => !never || ((!x.id || !never.has(x.id)) && !never.has(clueKey(x))))
+  const all = notInGame.length >= MODE_MIN ? notInGame : every
   const fresh = all.filter((x) => !x.id || !skip.has(x.id))
   const seen = all.filter((x) => x.id && skip.has(x.id))
   const list = [...fresh, ...seen].slice(0, MODE_COUNT)
@@ -149,11 +161,11 @@ export function drawModeRound(mode: RoundMode, cats: Category[], more: Category[
  * Draws one board: a question per level from each category, golden and special tiles placed at random.
  * `used` (question ids already played, per category) is updated in place. `mult` scales every tile's points.
  */
-export function drawBoard(cats: Category[], tiles: TileCounts, used: Record<string, string[]>, rng: Rng = Math.random, mult = 1): Clue[][] {
+export function drawBoard(cats: Category[], tiles: TileCounts, used: Record<string, string[]>, rng: Rng = Math.random, mult = 1, taken: Set<string> = new Set()): Clue[][] {
   const golden = chooseGolden(cats.length, tiles.golden, rng)
   const specials = chooseSpecials(cats.length, golden, tiles, rng)
   return cats.map((cat, c) => {
-    const { picks, used: u } = drawCategory(cat, used[cat.id] ?? [], rng)
+    const { picks, used: u } = drawCategory(cat, used[cat.id] ?? [], rng, taken)
     used[cat.id] = u
     return picks.map((q, l) => {
       const isGold = golden.has(`${c}-${l}`)
@@ -173,11 +185,12 @@ export function createGame(
   rng: Rng = Math.random,
   /** Other categories a special round may borrow items from */
   more: Category[] = [],
-): { game: Game; used: Record<string, string[]> } {
+): { game: Game; used: Record<string, string[]>; taken?: Set<string> } {
   if (cats.length < 1 || cats.length > 6) throw new Error('Pick between 1 and 6 categories')
   if (teamNames.length < 2 || teamNames.length > 4) throw new Error('Play with 2 to 4 teams')
   const nextUsed = { ...usedByCat }
-  const clues = drawBoard(cats, settings, nextUsed, rng)
+  const taken = new Set<string>()
+  const clues = drawBoard(cats, settings, nextUsed, rng, 1, taken)
   const game: Game = {
     cats: cats.map(({ id, name, nameAr }) => ({ id, name, nameAr })),
     clues,
@@ -195,20 +208,22 @@ export function createGame(
   const onBoard = new Set(clues.flat().map((q) => q.id))
   const fresh = (cat: Category, levels: number[]) => {
     const seen = new Set(nextUsed[cat.id] ?? [])
-    const all = levels.flatMap((l) => cat.levels[l] ?? []).filter((q) => !onBoard.has(q.id) && !q.img)
+    const all = levels.flatMap((l) => cat.levels[l] ?? []).filter((q) => !onBoard.has(q.id) && !q.img && !taken.has(clueKey(q)))
     const unseen = all.filter((q) => !seen.has(q.id))
     return unseen.length ? unseen : all
   }
   const take = (q: Question, catId: string) => {
     onBoard.add(q.id)
+    taken.add(clueKey(q))
     nextUsed[catId] = [...(nextUsed[catId] ?? []), q.id]
   }
   if (game.settings.mode) {
     const seen = new Set([...onBoard, ...Object.values(nextUsed).flat()])
-    const items = drawModeRound(game.settings.mode, cats, more, seen, rng)
+    const items = drawModeRound(game.settings.mode, cats, more, seen, rng, new Set([...onBoard, ...taken]))
     if (items) {
       game.modeRound = { mode: game.settings.mode, items }
       for (const it of items) {
+        taken.add(clueKey(it))
         if (!it.id) continue
         onBoard.add(it.id)
         if (it.from) nextUsed[it.from] = [...(nextUsed[it.from] ?? []), it.id]
@@ -241,7 +256,7 @@ export function createGame(
     if (list.length >= 5) game.lightning = list
     else game.settings.lightning = false
   }
-  return { game, used: nextUsed }
+  return { game, used: nextUsed, taken }
 }
 
 /** Tournament limits: rounds in a plan, and categories the host may pick (split across the boards). */
@@ -321,6 +336,7 @@ export function createTournament(
   const base = createGame(groups[0], teamNames, { ...rest, lightning: steps.some((r) => r.kind === 'lightning'), final: steps.some((r) => r.kind === 'final'), ...(firstMode ? { mode: firstMode } : {}) }, usedByCat, rng, [...all.slice(groups[0].length), ...more])
   const game = base.game
   const used = base.used
+  const taken = base.taken ?? new Set<string>()
   const seen = () => new Set([...game.clues.flat().map((q) => q.id), ...Object.values(used).flat()])
   const rounds: TourRound[] = []
   let b = 0
@@ -329,7 +345,7 @@ export function createTournament(
     if (st.kind === 'board' || st.kind === 'double') {
       const cats = groups[b % groups.length]
       const mult = st.kind === 'double' ? 2 : 1
-      const clues = b === 0 ? game.clues.map((col) => col.map((q) => ({ ...q, value: q.value * mult }))) : drawBoard(cats, settings, used, rng, mult)
+      const clues = b === 0 ? game.clues.map((col) => col.map((q) => ({ ...q, value: q.value * mult }))) : drawBoard(cats, settings, used, rng, mult, taken)
       rounds.push({ kind: st.kind, cats: cats.map(({ id, name, nameAr }) => ({ id, name, nameAr })), clues })
       b++
     } else if (st.kind === 'mode') {
@@ -338,8 +354,11 @@ export function createTournament(
         items = game.modeRound.items
         firstModeUsed = true
       } else {
-        items = drawModeRound(st.mode!, all, more, seen(), rng)
-        for (const it of items ?? []) if (it.id && it.from) used[it.from] = [...(used[it.from] ?? []), it.id]
+        items = drawModeRound(st.mode!, all, more, seen(), rng, taken)
+        for (const it of items ?? []) {
+          taken.add(clueKey(it))
+          if (it.id && it.from) used[it.from] = [...(used[it.from] ?? []), it.id]
+        }
       }
       if (items) rounds.push({ kind: 'mode', mode: st.mode, items })
     } else if (st.kind === 'lightning') {

@@ -247,8 +247,8 @@ The scholar who listed the five essential aims in "Al-Mustasfa". :: Al-Ghazali �
 The scholar of the 14th century who discussed the rise and fall of states and taxes in "Al-Muqaddimah". :: Ibn Khaldun ﵀
 Ibn Khaldun ﵀ argued that high taxes do this to tax revenue. :: Reduce it (as activity shrinks)
 The scholar whose book "Al-Kharaj", written for Harun al-Rashid, deals with public finance. :: Abu Yusuf ﵀
-The scholar of the Hanbali school who wrote "Al-Hisbah" on market supervision. :: Ibn Taymiyyah ﵀
-Ibn Taymiyyah ﵀ said fair price ('iwad al-mithl) is set by this. :: Supply and demand in a free market
+The scholar of the Hanbali school who wrote "Al-Hisbah" on market supervision. :: Ibn Taymiyyah
+Ibn Taymiyyah said fair price ('iwad al-mithl) is set by this. :: Supply and demand in a free market
 The scholar who wrote "Kitab al-Amwal", a classic on public finance. :: Abu Ubayd al-Qasim ibn Sallam ﵀
 The Islamic market inspector's office. :: Hisbah
 The market inspector in the time of 'Umar ibn al-Khattab ﵁ included this woman Companion, by some accounts. :: Al-Shifa bint Abdullah ﵂
@@ -319,11 +319,11 @@ The 'ruling of the sale of 'inah' that most scholars forbid: selling on credit t
 The school that permits bay' al-'inah with conditions. :: The Shafi'i school
 Malaysia used bay' al-'inah widely until its central bank restricted it after this law. :: IFSA 2013
 The hadith about 'Bilal ﵁ and the good dates teaches this way to avoid riba al-fadl. :: Sell the poor dates for money, then buy the good dates with it
-Ibn al-Qayyim ﵀ divided riba into the "clear" riba al-nasi'ah and riba al-fadl, which he called this. :: Riba prohibited as a means (to block the way to riba)
+Ibn al-Qayyim divided riba into the "clear" riba al-nasi'ah and riba al-fadl, which he called this. :: Riba prohibited as a means (to block the way to riba)
 The concept of "blocking the means" in Islamic law. :: Sadd al-dhara'i'
 The concept of "public interest" in Islamic law. :: Maslahah mursalah
 Legal "tricks" used to get around prohibitions. :: Hiyal
-The scholar who wrote "I'lam al-Muwaqqi'in", criticising legal tricks. :: Ibn al-Qayyim ﵀
+The scholar who wrote "I'lam al-Muwaqqi'in", criticising legal tricks. :: Ibn al-Qayyim
 In istisna', unlike salam, the price may be paid in instalments or this. :: Later (deferred)
 In the Hanafi view, istisna' becomes binding only when this happens. :: The goods are delivered (according to the earlier Hanafi view)
 The IIFA ruled istisna' binding on both parties in this year. :: 1992 (7th session, Jeddah)
@@ -483,7 +483,7 @@ The Pakistani Council of Islamic Ideology's 1980 report recommended this. :: Eli
 The Malaysian scholar and former central bank Sharia adviser who chaired the Sharia board of Bank Negara Malaysia. :: Mohd Daud Bakar
 The IIFA ruled in 2009 that 'organised tawarruq' and 'reverse tawarruq' are this. :: Not permissible
 The tawarruq Saudi scholars allow when done individually and genuinely is called this. :: Individual (classical) tawarruq
-The Hanbali view on tawarruq generally. :: Permitted (classical tawarruq), with Ibn Taymiyyah ﵀ disliking it
+The Hanbali view on tawarruq generally. :: Permitted (classical tawarruq), with Ibn Taymiyyah disliking it
 The term 'tawarruq' comes from 'wariq', meaning this. :: Silver coins (money)
 The scholar who called tawarruq "the twin of riba" according to reports. :: 'Umar ibn Abd al-Aziz ﵀
 The 'murabaha' contract is described in classical texts as a sale of this kind. :: Trust sale (bay' al-amanah) based on disclosed cost
@@ -507,10 +507,10 @@ The Maliki scholar from al-Andalus who wrote "Bidayat al-Mujtahid", comparing th
 The book "Al-Muwatta'", with chapters on trade and qirad, was written by this imam. :: Imam Malik ibn Anas ﵀
 "Qirad" is the Maliki and Shafi'i name for this contract. :: Mudaraba
 The Hanbali book "Zad al-Mustaqni'" was written by this scholar. :: Al-Hajjawi ﵀
-The famous explanation of "Zad al-Mustaqni'" by Shaykh Muhammad ibn Salih al-'Uthaymin ﵀. :: Al-Sharh al-Mumti'
-The Saudi scholar Abdulaziz ibn Baz ﵀ chaired this body that issued many rulings on finance. :: The Permanent Committee for Scholarly Research and Ifta
+The famous explanation of "Zad al-Mustaqni'" by Shaykh Muhammad ibn Salih al-'Uthaymin. :: Al-Sharh al-Mumti'
+The Saudi scholar Abdulaziz ibn Baz chaired this body that issued many rulings on finance. :: The Permanent Committee for Scholarly Research and Ifta
 The Saudi Permanent Committee's fatwas are collected in this series. :: Fatawa al-Lajnah al-Da'imah
-Ibn Baz ﵀ became Grand Mufti of Saudi Arabia in this year. :: 1993
+Ibn Baz became Grand Mufti of Saudi Arabia in this year. :: 1993
 The Grand Mufti of Saudi Arabia from 1999. :: Shaykh Abdulaziz Al ash-Sheikh ﵀
 
 ## tf

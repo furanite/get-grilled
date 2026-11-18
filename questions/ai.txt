@@ -95,7 +95,7 @@ A program that copies the decisions of a human expert using rules. :: Expert sys
 The Saudi authority for data and artificial intelligence, shortened to five letters. :: SDAIA
 The Saudi Arabic large language model developed by SDAIA. :: ALLaM
 The Saudi AI company launched by the Public Investment Fund in 2025. :: HUMAIN
-The global AI summit held in Riyadh by SDAIA. :: Global AI Summit
+The international AI conference that SDAIA hosts in Riyadh, first held in 2020. :: Global AI Summit
 AI that equals humans at almost every intellectual task, shortened to three letters. :: AGI
 AI built for one narrow task, such as playing chess. :: Narrow AI
 The field that studies how to make advanced AI systems safe and aligned with human values. :: AI safety
@@ -208,7 +208,7 @@ The classic method for deciding the next word in a sentence using counts of shor
 The famous dataset of handwritten digits used to teach machine learning. :: MNIST
 
 ## 300
-The 1969 book by Minsky and Papert that showed single-layer perceptrons cannot learn XOR. :: Perceptrons
+The 1969 book by Minsky and Papert that showed single-layer networks cannot learn XOR. :: Perceptrons
 The simple logic function a single perceptron cannot learn. :: XOR
 The theorem that a network with one hidden layer can approximate any continuous function. :: Universal approximation theorem
 The 1986 paper that popularised backpropagation: Rumelhart, Hinton and this man. :: Ronald Williams
@@ -362,7 +362,7 @@ The 2019 model from Google that framed every NLP task as text-to-text. :: T5
 The 2014 dropout paper's lead author, a student of Hinton. :: Nitish Srivastava
 The two researchers who introduced batch normalisation in 2015: Ioffe and this man. :: Christian Szegedy
 The Adam optimiser was introduced by Kingma and this researcher. :: Jimmy Ba
-The 2010 weight initialisation scheme named after Xavier Glorot. :: Xavier (Glorot) initialisation
+The 2010 weight initialisation scheme by Glorot and Bengio that scales weights by fan-in and fan-out. :: Xavier (Glorot) initialisation
 The 2015 initialisation for ReLU networks named after Kaiming He. :: He initialisation
 The DeepMind protein structure competition AlphaFold 2 dominated in 2020. :: CASP14
 The approximate number of protein structures AlphaFold's database had predicted by 2022. :: 200 million

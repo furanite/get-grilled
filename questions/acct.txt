@@ -77,7 +77,7 @@ Money received before the work is done, recorded as a liability. :: Unearned rev
 The Saudi tax on most goods and services, collected by businesses. :: VAT (value added tax)
 The rate of VAT in Saudi Arabia since July 2020. :: 15%
 The Saudi authority that collects zakat, tax and customs, known by the letters ZATCA. :: Zakat, Tax and Customs Authority
-The yearly obligatory charity Saudi companies owned by Saudis and GCC nationals pay on their zakat base. :: Zakat
+The obligatory yearly alms, about 2.5% of the assessed base, that Saudi- and GCC-owned companies pay to ZATCA instead of income tax. :: Zakat
 Saudi Arabia's system of electronic invoicing, rolled out from December 2021, is often called this. :: FATOORAH (e-invoicing)
 The accounting idea that a business is separate from its owner. :: Business entity concept
 The accounting idea that a business will carry on trading for the foreseeable future. :: Going concern

@@ -37,7 +37,7 @@ A tool used to make small things look bigger. :: Microscope
 A tool used to look at faraway stars. :: Telescope
 A tool that measures temperature. :: Thermometer
 The unit used to measure electric current. :: Ampere (amp)
-The unit of force named after Newton. :: Newton
+The SI unit of force, equal to one kilogram metre per second squared. :: Newton
 The speed of light is about this many kilometres per second. :: About 300,000 km/s
 Sound cannot travel through this, because it has no particles. :: A vacuum (empty space)
 The name for animals that eat only plants. :: Herbivores

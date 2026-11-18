@@ -188,7 +188,7 @@ The font named after a French printer from the 1500s, popular in books. :: Garam
 The geometric sans-serif font made in Germany in 1927, used by many brands. :: Futura
 The font made for the London Underground in 1916. :: Johnston
 The UK road-sign font designed by Kinneir and Calvert. :: Transport
-The font often used in signs for its clear shapes, designed by Adrian Frutiger in the 1970s. :: Frutiger
+The clear sans-serif typeface, named after its Swiss designer, used on many road and hospital signs. :: Frutiger
 The serif font made for The Times newspaper in 1932. :: Times New Roman
 The famous designer of the "I ♥ NY" logo. :: Milton Glaser
 The designer of the IBM, ABC and UPS logos in the 1950s–60s. :: Paul Rand
@@ -302,12 +302,12 @@ The typeface designed by Adrian Frutiger in 1957 with a numbered weight system. 
 The geometric sans-serif typeface designed by Paul Renner. :: Futura
 The British typeface by Eric Gill based on Johnston. :: Gill Sans
 The serif font designed by Stanley Morison for a newspaper. :: Times New Roman
-The serif typeface made by Giambattista Bodoni in Italy. :: Bodoni
+The high-contrast serif typeface named after an 18th-century printer of Parma. :: Bodoni
 The English printer whose 1750s typeface is still popular. :: John Baskerville
 The Dutch-style serif font Microsoft made for screens with Matthew Carter. :: Georgia
 The sans-serif font Matthew Carter designed for screens, released in 1996. :: Verdana
 The font made for US highway signs. :: Highway Gothic
-The font used on many airport signs, designed by Frutiger for Charles de Gaulle airport. :: Frutiger
+The typeface designed in the 1970s for the signs of Charles de Gaulle Airport. :: Frutiger
 The Arabic font family designed by Nadine Chahine for Linotype. :: Frutiger Arabic (and Neue Helvetica Arabic)
 A typeface designed in both Arabic and Latin to match is called this. :: A bilingual (multi-script) typeface
 Arabic letters change shape depending on this. :: Their position in the word (start, middle, end or alone)
@@ -615,7 +615,7 @@ The Japanese ratio of 1 to the square root of 2 is called this. :: The silver ra
 The ratio between Fibonacci numbers gets closer to this. :: The golden ratio (about 1.618)
 The book page layout method using diagonals for perfect margins. :: The Van de Graaf canon
 The Fibonacci series starts 0, 1, 1, 2, 3, 5 and then this. :: 8
-The pixel art style of games with very limited colours, like 8-bit. :: Pixel art
+The game art style of tiny square blocks and very few colours, like 8-bit games. :: Pixel art
 A picture made of small pieces of other pictures. :: A photomosaic
 The art of placing coloured stones or tiles to make pictures. :: Mosaic
 The visual effect where a picture looks 3D with red-cyan glasses. :: Anaglyph

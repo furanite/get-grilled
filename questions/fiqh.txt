@@ -248,7 +248,7 @@ The Hanafi student who wrote "Al-Asl" (Al-Mabsut) and "Al-Siyar". :: Muhammad al
 Al-Shaybani's ﵀ book on the law of war and peace makes him a father of this field. :: International law (siyar)
 The terms of the 'Hudaybiyyah' treaty were agreed in this year after the Hijrah. :: 6 AH
 The Companion who wrote the Treaty of Hudaybiyyah. :: Ali ibn Abi Talib ﵁
-The constitution of Madinah set out rights and duties of Muslims, Jews and others in this city. :: Madinah (Yathrib)
+The charter of 1 AH / 622 CE set out the rights and duties of Muslims, Jews and others in this city. :: Madinah (Yathrib)
 The caliph who compiled the Quran into one book. :: Abu Bakr al-Siddiq ﵁
 The caliph who sent standard copies of the Quran to the cities. :: Uthman ibn Affan ﵁
 The Companion who led the Quran compilation for both Abu Bakr and Uthman رضوان الله عليهم. :: Zayd ibn Thabit ﵁
@@ -332,7 +332,7 @@ The letter says "Proof is upon the claimant and the oath on ___". :: The one who
 The letter says reconciliation is allowed except one that does this. :: Makes halal into haram, or haram into halal
 The book "Al-Ahkam al-Sultaniyyah" was written by this Shafi'i judge. :: Al-Mawardi ﵀
 Al-Mawardi ﵀ was chief judge in this city. :: Baghdad
-Ibn Taymiyyah's ﵀ book "Al-Siyasah al-Shar'iyyah" is about this. :: Good governance by Sharia
+Ibn Taymiyyah's book "Al-Siyasah al-Shar'iyyah" is about this. :: Good governance by Sharia
 The scholar who wrote "Al-Ghiyathi" on leadership when there is no ruler. :: Al-Juwayni ﵀
 Al-Juwayni ﵀ was known by this title, because he lived in Makkah and Madinah. :: Imam al-Haramayn
 Al-Juwayni's ﵀ famous book on usul al-fiqh. :: Al-Burhan
@@ -421,8 +421,8 @@ The legal maxim "Necessities make forbidden things allowed". :: Al-darurat tubih
 The maxim that limits the one above: necessity is measured by this. :: Its extent (taqaddar bi-qadariha)
 The maxim "Preventing harm comes before bringing benefit" in Arabic. :: Dar' al-mafasid muqaddam 'ala jalb al-masalih
 The principle of blocking the means to harm, strong in the Maliki and Hanbali schools. :: Sadd al-dhara'i'
-The Hanbali scholar Ibn al-Qayyim ﵀ wrote this book on judges and evidence. :: Al-Turuq al-Hukmiyyah
-Ibn al-Qayyim's ﵀ book "I'lam al-Muwaqqi'in" is about these people. :: Muftis (those who sign for Allah)
+The Hanbali scholar Ibn al-Qayyim wrote this book on judges and evidence. :: Al-Turuq al-Hukmiyyah
+Ibn al-Qayyim's book "I'lam al-Muwaqqi'in" is about these people. :: Muftis (those who sign for Allah)
 The usul book "Al-Risalah" was written by this imam. :: Imam al-Shafi'i ﵀
 "Al-Risalah" is said to be the first book of this science. :: Usul al-fiqh
 The usul book "Al-Muwafaqat" was written in this region. :: Al-Andalus (Granada)
@@ -433,16 +433,16 @@ The International Islamic Fiqh Academy is based in this city. :: Jeddah
 The Islamic Fiqh Council of the Muslim World League is based in this city. :: Makkah
 The European Council for Fatwa and Research is based in this city. :: Dublin
 The Saudi Permanent Committee for Scholarly Research and Ifta was set up in this year. :: 1971
-The Saudi scholar who was Grand Mufti from 1993 to 1999. :: Sheikh Abdulaziz ibn Baz ﵀
-The Saudi scholar of 'Unayzah famous for his fatwas and lessons in the Grand Mosque. :: Sheikh Muhammad ibn Salih al-'Uthaymin ﵀
-Ibn 'Uthaymin's ﵀ famous commentary on "Zad al-Mustaqni'". :: Al-Sharh al-Mumti'
-The Saudi scholar of 'Unayzah, teacher of Ibn 'Uthaymin ﵀, who wrote a famous tafsir. :: Sheikh Abd al-Rahman al-Sa'di ﵀
+The Saudi scholar who was Grand Mufti from 1993 to 1999. :: Sheikh Abdulaziz ibn Baz
+The Saudi scholar of 'Unayzah famous for his fatwas and lessons in the Grand Mosque. :: Sheikh Muhammad ibn Salih al-'Uthaymin
+Ibn 'Uthaymin's famous commentary on "Zad al-Mustaqni'". :: Al-Sharh al-Mumti'
+The Saudi scholar of 'Unayzah, teacher of Ibn 'Uthaymin, who wrote a famous tafsir. :: Sheikh Abd al-Rahman al-Sa'di
 The Saudi scholar Muhammad ibn Ibrahim ﵀ was the first to hold this office. :: Grand Mufti of Saudi Arabia
-The hadith scholar who lived in Damascus and Madinah and was famous for grading hadith. :: Sheikh Muhammad Nasir al-Din al-Albani ﵀
-The Hanbali fiqh principle "everything is permitted in contracts unless forbidden" was argued for strongly by this scholar. :: Ibn Taymiyyah ﵀
-Ibn Taymiyyah's ﵀ collected fatwas fill this many volumes in the common edition. :: 37 (Majmu' al-Fatawa)
-The scholar who collected and arranged "Majmu' al-Fatawa" of Ibn Taymiyyah ﵀. :: Abd al-Rahman ibn Qasim ﵀
-Ibn Taymiyyah ﵀ was famous for a ruling that three divorces said at once count as this. :: One divorce
+The hadith scholar who lived in Damascus and Madinah and was famous for grading hadith. :: Sheikh Muhammad Nasir al-Din al-Albani
+The Hanbali fiqh principle "everything is permitted in contracts unless forbidden" was argued for strongly by this scholar. :: Ibn Taymiyyah
+Ibn Taymiyyah's collected fatwas fill this many volumes in the common edition. :: 37 (Majmu' al-Fatawa)
+The scholar who collected and arranged "Majmu' al-Fatawa" of Ibn Taymiyyah. :: Abd al-Rahman ibn Qasim
+Ibn Taymiyyah was famous for a ruling that three divorces said at once count as this. :: One divorce
 That view was adopted in the law of several countries, against the view of these four schools. :: The four schools (which count three)
 The Hanbali view, followed by the Saudi Personal Status Law, on a divorce said in anger that takes away awareness. :: It does not take effect
 The hadith "There is no divorce or freeing of slaves in ighlaq" refers to this. :: A state of being closed off (extreme anger or compulsion)
@@ -480,16 +480,16 @@ The Hanbali scholar al-Mardawi ﵀ wrote this book listing the school's preferre
 The two Hanbali books that became the school's standard references in later times. :: Al-Iqna' and Muntaha al-Iradat
 The Hanbali scholar whose "Kashshaf al-Qina'" explains "Al-Iqna'". :: Al-Buhuti ﵀
 Al-Buhuti ﵀ lived in this city. :: Cairo
-Ibn Muflih ﵀, a student of Ibn Taymiyyah ﵀, wrote this Hanbali book. :: Al-Furu'
-Ibn Taymiyyah ﵀ said of Ibn Muflih ﵀: "You are not Ibn Muflih, you are" this. :: Muflih (success itself)
+Ibn Muflih ﵀, a student of Ibn Taymiyyah, wrote this Hanbali book. :: Al-Furu'
+Ibn Taymiyyah said of Ibn Muflih ﵀: "You are not Ibn Muflih, you are" this. :: Muflih (success itself)
 The "Mukhtasar" of al-Khiraqi ﵀ is the first major text of this school. :: The Hanbali school
 Ibn Qudamah's ﵀ "Al-Mughni" is a commentary on this book. :: Mukhtasar al-Khiraqi
 The Maliki scholar Ibn 'Abd al-Barr ﵀ wrote this commentary on "Al-Muwatta'". :: Al-Tamhid (and Al-Istidhkar)
 The Maliki judge of Seville who wrote "Ahkam al-Quran". :: Abu Bakr ibn al-'Arabi ﵀
 The Andalusian Maliki commentator whose "Al-Jami' li-Ahkam al-Quran" is a fiqh tafsir. :: Al-Qurtubi ﵀
 The Hanafi scholar al-Jassas ﵀ also wrote a book titled this. :: Ahkam al-Quran
-The term for legal stratagems, criticised by Ibn al-Qayyim ﵀. :: Hiyal
-The book "Ighathat al-Lahfan" by Ibn al-Qayyim ﵀ argues against these. :: Legal tricks and the plots of Shaytan
+The term for legal stratagems, criticised by Ibn al-Qayyim. :: Hiyal
+The book "Ighathat al-Lahfan" by Ibn al-Qayyim argues against these. :: Legal tricks and the plots of Shaytan
 The concept of a Muslim scholar who reaches full independent ijtihad. :: Mujtahid mutlaq
 The term for scholars who give fatwa within a school. :: Mujtahid al-madhhab (or ashab al-wujuh)
 The term for choosing between the views of different schools. :: Talfiq (or takhayyur)
