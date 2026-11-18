@@ -5,7 +5,7 @@ import type { Category, CategorySummary, Game, Lang, PackGroup, PoolEdit, RoundM
 import { ROUND_MODES, VALUES } from '../lib/types'
 import type { Strings } from '../lib/i18n'
 import { num, qCount } from "../lib/i18n"
-import { CLUE_SECS, GAME_MINUTES, MODE_COUNT, TOUR_MAX_CATS, TOUR_MAX_ROUNDS, TOUR_PLANS, applyPool, boardRounds, cleanPlan, createGame, createTournament, isPlayable, poolCounts, preferPictures, splitCategories } from '../lib/game'
+import { applyPool, boardRounds, cleanPlan, CLUE_SECS, createGame, createTournament, FACT_MAX, GAME_MINUTES, isPlayable, MAX_MEMBERS, MEMBER_MAX, MODE_COUNT, poolCounts, preferPictures, ROLE_MAX, splitCategories, TOUR_MAX_CATS, TOUR_MAX_ROUNDS, TOUR_PLANS, withIntro, type TeamDetails } from '../lib/game'
 import { Vote, type VoteCat, type VoteState } from './Vote'
 import { roundTitle } from './Tournament'
 import { sfx } from '../lib/sound'
@@ -54,6 +54,7 @@ const GROUP_ORDER: PackGroup[] = ['engineering', 'cces', 'finance', 'law', 'desi
 const DEFAULT_TEAMS = { en: ['Team 1', 'Team 2', 'Team 3'], ar: ['الفريق ١', 'الفريق ٢', 'الفريق ٣'] }
 
 
+const blankDetails = (): TeamDetails => ({ members: Array.from({ length: 4 }, () => ({ name: '', role: '' })), captain: null, fact: '' })
 const noop = () => {}
 
 const NIGHTS_OPEN_KEY = 'gg.nightsOpen.v1'
@@ -66,6 +67,9 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
   const [picked, setPicked] = useState<string[]>([])
   const [closed, setClosed] = useState<PackGroup[]>([])
   const [teams, setTeams] = useState<string[]>(DEFAULT_TEAMS[lang])
+  const [introOn, setIntroOn] = useState(false)
+  const [details, setDetails] = useState<TeamDetails[]>(() => DEFAULT_TEAMS[lang].map(blankDetails))
+  const editDetails = (i: number, f: (d: TeamDetails) => TeamDetails) => setDetails((all) => all.map((d, j) => (j === i ? f(d) : d)))
   const [timer, setTimer] = useState(30)
   const [levelTimers, setLevelTimers] = useState<(number | null)[]>([null, null, null, null, null])
   const [gameMinutes, setGameMinutes] = useState(0)
@@ -103,7 +107,10 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
     setPicked(cats)
     setNightNote(cats.length < n.cats.length ? t.nightMissing : '')
     const names = lang === 'ar' && n.teamsAr ? n.teamsAr : n.teams
-    if (names) setTeams(names.slice(0, 4))
+    if (names) {
+      setTeams(names.slice(0, 4))
+      setDetails((all) => names.slice(0, 4).map((_, i) => all[i] ?? blankDetails()))
+    }
     const x = n.extras ?? {}
     setExtras(true)
     if (x.golden !== undefined) setGolden(x.golden)
@@ -166,7 +173,7 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
       const { game, used } = made
       if (night) game.night = night
       saveUsed(used)
-      onStart(game)
+      onStart(introOn ? withIntro(game, details) : game)
     } catch (e) {
       setError((e as Error).message)
     } finally {
@@ -314,17 +321,65 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
           <div className="team-row" key={i}>
             <input className="input" id={`team-${i}`} value={name} maxLength={24} aria-label={`${t.teams} ${i + 1}`} onChange={(e) => setTeams(teams.map((n, j) => (j === i ? e.target.value : n)))} />
             {teams.length > 2 && (
-              <button className="mini" onClick={() => setTeams(teams.filter((_, j) => j !== i))}>
+              <button className="mini" onClick={() => {
+                setTeams(teams.filter((_, j) => j !== i))
+                setDetails(details.filter((_, j) => j !== i))
+              }}>
                 {t.remove}
               </button>
             )}
           </div>
         ))}
         {teams.length < 4 && (
-          <button className="ghost" style={{ alignSelf: 'start' }} onClick={() => setTeams([...teams, `${lang === 'ar' ? 'الفريق' : 'Team'} ${num(teams.length + 1, lang)}`])}>
+          <button className="ghost" style={{ alignSelf: 'start' }} onClick={() => {
+            setTeams([...teams, `${lang === 'ar' ? 'الفريق' : 'Team'} ${num(teams.length + 1, lang)}`])
+            setDetails([...details, blankDetails()])
+          }}>
             + {t.addTeam}
           </button>
         )}
+        <fieldset className="extras intro-setup" data-testid="teams-setup">
+          <legend>
+            <label className="check">
+              <input type="checkbox" id="intro-on" checked={introOn} onChange={(e) => setIntroOn(e.target.checked)} />
+              {t.intro.option}
+            </label>
+          </legend>
+          <p className="muted" style={{ margin: 0, fontSize: 13 }}>
+            {t.intro.help}
+          </p>
+          {introOn &&
+            teams.map((name, i) => {
+              const d = details[i] ?? blankDetails()
+              return (
+                <details className="intro-team" key={i} open={i === 0} data-team={i}>
+                  <summary>{name.trim() || t.intro.team(num(i + 1, lang))}</summary>
+                  <span className="label">{t.intro.members}</span>
+                  {d.members.map((m, k) => (
+                    <div className="member-row" key={k}>
+                      <input className="input" id={`member-${i}-${k}`} value={m.name} maxLength={MEMBER_MAX} placeholder={`${t.intro.member} ${num(k + 1, lang)}`} aria-label={`${t.intro.member} ${k + 1}`} onChange={(e) => editDetails(i, (x) => ({ ...x, members: x.members.map((y, j) => (j === k ? { ...y, name: e.target.value } : y)) }))} />
+                      <input className="input" id={`role-${i}-${k}`} value={m.role} maxLength={ROLE_MAX} placeholder={t.intro.role} aria-label={t.intro.role} onChange={(e) => editDetails(i, (x) => ({ ...x, members: x.members.map((y, j) => (j === k ? { ...y, role: e.target.value } : y)) }))} />
+                      <label className="check cap-pick">
+                        <input type="radio" name={`captain-${i}`} id={`captain-${i}-${k}`} checked={d.captain === k} onChange={() => editDetails(i, (x) => ({ ...x, captain: k }))} />
+                        {t.intro.captain}
+                      </label>
+                    </div>
+                  ))}
+                  {d.members.length < MAX_MEMBERS && (
+                    <button className="mini" style={{ alignSelf: 'start' }} onClick={() => editDetails(i, (x) => ({ ...x, members: [...x.members, { name: '', role: '' }] }))}>
+                      + {t.intro.addMember}
+                    </button>
+                  )}
+                  <label className="field">
+                    <span className="label">
+                      {t.intro.fact} · {num(d.fact.length, lang)}/{num(FACT_MAX, lang)}
+                    </span>
+                    <textarea className="input" id={`fact-${i}`} rows={2} value={d.fact} maxLength={FACT_MAX} onChange={(e) => editDetails(i, (x) => ({ ...x, fact: e.target.value }))} />
+                  </label>
+                </details>
+              )
+            })}
+        </fieldset>
         <label className="check">
           <input type="checkbox" id="vote" checked={vote} onChange={(e) => setVote(e.target.checked)} />
           {t.voteOpt}

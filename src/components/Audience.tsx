@@ -9,6 +9,7 @@ import { ModeItemView } from './Rounds'
 import { RoundCard } from './Tournament'
 import { VoteBoard, type VoteState } from './Vote'
 import TileIntro from './TileIntro'
+import TeamIntro from './TeamIntro'
 import FitBox from './FitBox'
 import { qLen } from '../lib/qlen'
 import type { Live } from '../lib/edition'
@@ -137,6 +138,15 @@ function AudienceView({ t, lang, theme, screen, game, live, vote, win }: { t: St
       </button>
     </div>
   )
+
+  if (screen === 'intro' && game?.intro) {
+    return (
+      <>
+        <TeamIntro game={game} theme={theme} t={t} lang={lang} host={false} full />
+        {help}
+      </>
+    )
+  }
 
   if (screen === 'setup' && vote) {
     return (
