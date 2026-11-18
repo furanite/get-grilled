@@ -1,7 +1,7 @@
 id: flags
 name: Flags & Landmarks
 group: general
-# Every question has a picture (drawn by scripts/make-flags.py and scripts/make-landmarks.py).
+# Every question has a picture (flags drawn by scripts/make-flags.py; landmarks are Wikimedia Commons photos credited in questions/img/credits.json).
 # English only. No flags with religious writing, no places of worship, no statues of people.
 
 ## 100
@@ -25,18 +25,18 @@ Which country's flag is this? {img:flag-palestine.svg} :: Palestine
 Which country's flag is this? {img:flag-oman.svg} :: Oman
 Which country's flag is this? {img:flag-bahrain.svg} :: Bahrain
 Which country's flag is this? {img:flag-south-africa.svg} :: South Africa
-Name this famous landmark. {img:lm-eiffel.svg} :: The Eiffel Tower
-Name this famous landmark. {img:lm-pyramids.svg} :: The Pyramids of Giza
-Name this famous landmark. {img:lm-pisa.svg} :: The Leaning Tower of Pisa
-Name this famous landmark. {img:lm-big-ben.svg} :: Big Ben (the Elizabeth Tower)
-Name this famous landmark. {img:lm-burj-khalifa.svg} :: The Burj Khalifa
-Name this famous landmark. {img:lm-colosseum.svg} :: The Colosseum
-Name this famous landmark. {img:lm-golden-gate.svg} :: The Golden Gate Bridge
-Name this famous landmark. {img:lm-sydney-opera.svg} :: The Sydney Opera House
-Name this famous landmark. {img:lm-great-wall.svg} :: The Great Wall of China
-Name this famous landmark. {img:lm-kingdom-centre.svg} :: The Kingdom Centre (Kingdom Tower)
-Name this famous landmark. {img:lm-london-eye.svg} :: The London Eye
-Name this famous landmark. {img:lm-burj-al-arab.svg} :: The Burj Al Arab
+Name this famous landmark. {img:lm-eiffel.jpg} :: The Eiffel Tower
+Name this famous landmark. {img:lm-pyramids.jpg} :: The Pyramids of Giza
+Name this famous landmark. {img:lm-pisa.jpg} :: The Leaning Tower of Pisa
+Name this famous landmark. {img:lm-big-ben.jpg} :: Big Ben (the Elizabeth Tower)
+Name this famous landmark. {img:lm-burj-khalifa.jpg} :: The Burj Khalifa
+Name this famous landmark. {img:lm-colosseum.jpg} :: The Colosseum
+Name this famous landmark. {img:lm-golden-gate.jpg} :: The Golden Gate Bridge
+Name this famous landmark. {img:lm-sydney-opera.jpg} :: The Sydney Opera House
+Name this famous landmark. {img:lm-great-wall.jpg} :: The Great Wall of China
+Name this famous landmark. {img:lm-kingdom-centre.jpg} :: The Kingdom Centre (Kingdom Tower)
+Name this famous landmark. {img:lm-london-eye.jpg} :: The London Eye
+Name this famous landmark. {img:lm-burj-al-arab.jpg} :: The Burj Al Arab
 
 ## 200
 Which country's flag is this? {img:flag-russia.svg} :: Russia
@@ -63,38 +63,36 @@ Which country's flag is this? {img:flag-nigeria.svg} :: Nigeria
 Which country's flag is this? {img:flag-new-zealand.svg} :: New Zealand
 Which country's flag is this? {img:flag-scotland.svg} :: Scotland
 Which country's flag is this? {img:flag-england.svg} :: England
-In which city is this landmark? {img:lm-eiffel.svg} :: Paris
-In which country is this landmark? {img:lm-pyramids.svg} :: Egypt
-In which country is this landmark? {img:lm-pisa.svg} :: Italy
-In which city is this landmark? {img:lm-big-ben.svg} :: London
-In which city is this landmark? {img:lm-burj-khalifa.svg} :: Dubai
-In which city is this landmark? {img:lm-colosseum.svg} :: Rome
-In which city is this landmark? {img:lm-golden-gate.svg} :: San Francisco
-In which country is this landmark? {img:lm-sydney-opera.svg} :: Australia
-In which country is this landmark? {img:lm-great-wall.svg} :: China
-In which city is this landmark? {img:lm-kingdom-centre.svg} :: Riyadh
-In which country is this landmark? {img:lm-london-eye.svg} :: United Kingdom
-In which city is this landmark? {img:lm-burj-al-arab.svg} :: Dubai
-Name this famous landmark. {img:lm-tower-bridge.svg} :: Tower Bridge
-Name this famous landmark. {img:lm-arc-de-triomphe.svg} :: The Arc de Triomphe
-Name this famous landmark. {img:lm-mount-fuji.svg} :: Mount Fuji
-Name this famous landmark. {img:lm-stonehenge.svg} :: Stonehenge
-Name this famous landmark. {img:lm-parthenon.svg} :: The Parthenon
-Name this famous landmark. {img:lm-empire-state.svg} :: The Empire State Building
-Name this famous landmark. {img:lm-petronas.svg} :: The Petronas Twin Towers
-Name this famous landmark. {img:lm-kuwait-towers.svg} :: The Kuwait Towers
-Name this famous landmark. {img:lm-al-faisaliah.svg} :: Al Faisaliah Tower
-Name this famous landmark. {img:lm-louvre-pyramid.svg} :: The Louvre Pyramid
-Name this famous landmark. {img:lm-jeddah-fountain.svg} :: King Fahd's Fountain
-Name this famous landmark. {img:lm-dubai-frame.svg} :: The Dubai Frame
-Name this famous landmark. {img:lm-cn-tower.svg} :: The CN Tower
-Name this famous landmark. {img:lm-marina-bay-sands.svg} :: Marina Bay Sands
+In which city is this landmark? {img:lm-eiffel.jpg} :: Paris
+In which country is this landmark? {img:lm-pyramids.jpg} :: Egypt
+In which country is this landmark? {img:lm-pisa.jpg} :: Italy
+In which city is this landmark? {img:lm-big-ben.jpg} :: London
+In which city is this landmark? {img:lm-burj-khalifa.jpg} :: Dubai
+In which city is this landmark? {img:lm-colosseum.jpg} :: Rome
+In which city is this landmark? {img:lm-golden-gate.jpg} :: San Francisco
+In which country is this landmark? {img:lm-sydney-opera.jpg} :: Australia
+In which country is this landmark? {img:lm-great-wall.jpg} :: China
+In which city is this landmark? {img:lm-kingdom-centre.jpg} :: Riyadh
+In which country is this landmark? {img:lm-london-eye.jpg} :: United Kingdom
+In which city is this landmark? {img:lm-burj-al-arab.jpg} :: Dubai
+Name this famous landmark. {img:lm-tower-bridge.jpg} :: Tower Bridge
+Name this famous landmark. {img:lm-arc-de-triomphe.jpg} :: The Arc de Triomphe
+Name this famous landmark. {img:lm-mount-fuji.jpg} :: Mount Fuji
+Name this famous landmark. {img:lm-stonehenge.jpg} :: Stonehenge
+Name this famous landmark. {img:lm-parthenon.jpg} :: The Parthenon
+Name this famous landmark. {img:lm-empire-state.jpg} :: The Empire State Building
+Name this famous landmark. {img:lm-petronas.jpg} :: The Petronas Twin Towers
+Name this famous landmark. {img:lm-kuwait-towers.jpg} :: The Kuwait Towers
+Name this famous landmark. {img:lm-al-faisaliah.jpg} :: Al Faisaliah Tower
+Name this famous landmark. {img:lm-louvre-pyramid.jpg} :: The Louvre Pyramid
+Name this famous landmark. {img:lm-jeddah-fountain.jpg} :: King Fahd's Fountain
+Name this famous landmark. {img:lm-dubai-frame.jpg} :: The Dubai Frame
+Name this famous landmark. {img:lm-cn-tower.jpg} :: The CN Tower
+Name this famous landmark. {img:lm-marina-bay-sands.jpg} :: Marina Bay Sands
 Name the capital city of the country this flag belongs to. {img:flag-uk.svg} :: London
 Name the capital city of the country this flag belongs to. {img:flag-france.svg} :: Paris
 Name the capital city of the country this flag belongs to. {img:flag-italy.svg} :: Rome
 Name the capital city of the country this flag belongs to. {img:flag-kuwait.svg} :: Kuwait City
-In which city is this landmark? {img:lm-tower-bridge.svg} :: London
-In which city is this landmark? {img:lm-arc-de-triomphe.svg} :: Paris
 Name the capital city of the country this flag belongs to. {img:flag-russia.svg} :: Moscow
 Name the capital city of the country this flag belongs to. {img:flag-greece.svg} :: Athens
 
@@ -137,28 +135,30 @@ Name the capital city of the country this flag belongs to. {img:flag-qatar.svg} 
 Name the capital city of the country this flag belongs to. {img:flag-jordan.svg} :: Amman
 Name the capital city of the country this flag belongs to. {img:flag-oman.svg} :: Muscat
 Name the capital city of the country this flag belongs to. {img:flag-bahrain.svg} :: Manama
-In which country is this landmark? {img:lm-mount-fuji.svg} :: Japan
-In which country is this landmark? {img:lm-stonehenge.svg} :: England (United Kingdom)
-In which city is this landmark? {img:lm-parthenon.svg} :: Athens
-In which city is this landmark? {img:lm-empire-state.svg} :: New York City
-In which city is this landmark? {img:lm-petronas.svg} :: Kuala Lumpur
-In which city is this landmark? {img:lm-kuwait-towers.svg} :: Kuwait City
-In which city is this landmark? {img:lm-al-faisaliah.svg} :: Riyadh
-In which city is this landmark? {img:lm-louvre-pyramid.svg} :: Paris
-In which city is this landmark? {img:lm-jeddah-fountain.svg} :: Jeddah
-In which country is this landmark? {img:lm-dubai-frame.svg} :: United Arab Emirates
-In which city is this landmark? {img:lm-cn-tower.svg} :: Toronto
-In which country is this landmark? {img:lm-marina-bay-sands.svg} :: Singapore
-Name this famous landmark. {img:lm-space-needle.svg} :: The Space Needle
-Name this famous landmark. {img:lm-gateway-arch.svg} :: The Gateway Arch
-Name this famous landmark. {img:lm-atomium.svg} :: The Atomium
-Name this famous landmark. {img:lm-brandenburg-gate.svg} :: The Brandenburg Gate
-Name this famous landmark. {img:lm-chichen-itza.svg} :: El Castillo at Chichén Itzá
-Name this famous landmark. {img:lm-shard.svg} :: The Shard
-Name this famous landmark. {img:lm-table-mountain.svg} :: Table Mountain
-Name this famous landmark. {img:lm-uluru.svg} :: Uluru (Ayers Rock)
-Name this famous landmark. {img:lm-matterhorn.svg} :: The Matterhorn
-Name this famous landmark. {img:lm-taipei-101.svg} :: Taipei 101
+In which city is this landmark? {img:lm-tower-bridge.jpg} :: London
+In which city is this landmark? {img:lm-arc-de-triomphe.jpg} :: Paris
+In which country is this landmark? {img:lm-mount-fuji.jpg} :: Japan
+In which country is this landmark? {img:lm-stonehenge.jpg} :: England (United Kingdom)
+In which city is this landmark? {img:lm-parthenon.jpg} :: Athens
+In which city is this landmark? {img:lm-empire-state.jpg} :: New York City
+In which city is this landmark? {img:lm-petronas.jpg} :: Kuala Lumpur
+In which city is this landmark? {img:lm-kuwait-towers.jpg} :: Kuwait City
+In which city is this landmark? {img:lm-al-faisaliah.jpg} :: Riyadh
+In which city is this landmark? {img:lm-louvre-pyramid.jpg} :: Paris
+In which city is this landmark? {img:lm-jeddah-fountain.jpg} :: Jeddah
+In which country is this landmark? {img:lm-dubai-frame.jpg} :: United Arab Emirates
+In which city is this landmark? {img:lm-cn-tower.jpg} :: Toronto
+In which country is this landmark? {img:lm-marina-bay-sands.jpg} :: Singapore
+Name this famous landmark. {img:lm-space-needle.jpg} :: The Space Needle
+Name this famous landmark. {img:lm-gateway-arch.jpg} :: The Gateway Arch
+Name this famous landmark. {img:lm-atomium.jpg} :: The Atomium
+Name this famous landmark. {img:lm-brandenburg-gate.jpg} :: The Brandenburg Gate
+Name this famous landmark. {img:lm-chichen-itza.jpg} :: El Castillo at Chichén Itzá
+Name this famous landmark. {img:lm-shard.jpg} :: The Shard
+Name this famous landmark. {img:lm-table-mountain.jpg} :: Table Mountain
+Name this famous landmark. {img:lm-uluru.jpg} :: Uluru (Ayers Rock)
+Name this famous landmark. {img:lm-matterhorn.jpg} :: The Matterhorn
+Name this famous landmark. {img:lm-taipei-101.jpg} :: Taipei 101
 Name the capital city of the country this flag belongs to. {img:flag-thailand.svg} :: Bangkok
 Name the capital city of the country this flag belongs to. {img:flag-sudan.svg} :: Khartoum
 
@@ -208,16 +208,16 @@ Name the capital city of the country this flag belongs to. {img:flag-ukraine.svg
 Name the capital city of the country this flag belongs to. {img:flag-nigeria.svg} :: Abuja
 Name the capital city of the country this flag belongs to. {img:flag-new-zealand.svg} :: Wellington
 Name the capital city of the country this flag belongs to. {img:flag-scotland.svg} :: Edinburgh
-In which city is this landmark? {img:lm-space-needle.svg} :: Seattle
-In which city is this landmark? {img:lm-gateway-arch.svg} :: St. Louis
-In which city is this landmark? {img:lm-atomium.svg} :: Brussels
-In which city is this landmark? {img:lm-brandenburg-gate.svg} :: Berlin
-In which country is this landmark? {img:lm-chichen-itza.svg} :: Mexico
-In which city is this landmark? {img:lm-shard.svg} :: London
-In which city is this landmark? {img:lm-table-mountain.svg} :: Cape Town
-In which country is this landmark? {img:lm-uluru.svg} :: Australia
-In which country is this landmark? {img:lm-matterhorn.svg} :: Switzerland and Italy (on the border)
-In which city is this landmark? {img:lm-taipei-101.svg} :: Taipei
+In which city is this landmark? {img:lm-space-needle.jpg} :: Seattle
+In which city is this landmark? {img:lm-gateway-arch.jpg} :: St. Louis
+In which city is this landmark? {img:lm-atomium.jpg} :: Brussels
+In which city is this landmark? {img:lm-brandenburg-gate.jpg} :: Berlin
+In which country is this landmark? {img:lm-chichen-itza.jpg} :: Mexico
+In which city is this landmark? {img:lm-shard.jpg} :: London
+In which city is this landmark? {img:lm-table-mountain.jpg} :: Cape Town
+In which country is this landmark? {img:lm-uluru.jpg} :: Australia
+In which country is this landmark? {img:lm-matterhorn.jpg} :: Switzerland and Italy (on the border)
+In which city is this landmark? {img:lm-taipei-101.jpg} :: Taipei
 
 ## 500
 Which country's flag is this? {img:flag-benin.svg} :: Benin

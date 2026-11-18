@@ -212,13 +212,10 @@ The kinetic energy of a rolling wheel is its translational kinetic energy plus t
 The fulcrum is between the load and the effort. Which class of lever is this? {img:lever-1.svg} :: First-class lever
 The bridge failure that made self-excited vibration famous. :: Tacoma Narrows Bridge (1940)
 The car body's rotation about its long axis when cornering. :: Roll
-Which class of lever is this, with the load between the fulcrum and the effort? {img:lever-2.svg} :: Second-class lever
-Which class of lever is this, with the effort between the fulcrum and the load? {img:lever-3.svg} :: Third-class lever
 The two body vibrations of a car, bounce plus this rotation. :: Pitch
 The cancellation of sound using opposite waves, as in headphones. :: Active noise cancellation
 Chaotic motion is very sensitive to this. :: Initial conditions
 The idea that small causes can have large effects, named after an insect. :: Butterfly effect
-A wheelbarrow is an example of the lever class drawn here. Which class is it? {img:lever-2.svg} :: Second-class lever
 The 1687 book in which Newton set out his laws of motion. :: Philosophiæ Naturalis Principia Mathematica
 The Italian scientist who showed that falling bodies accelerate uniformly, using inclined planes. :: Galileo Galilei
 Galileo is said to have timed a swinging lamp with his pulse in the cathedral of this city. :: Pisa
@@ -334,6 +331,8 @@ The technique that uses a planet's motion to speed up a spacecraft. :: Gravity a
 The probe that used gravity assists to visit all four giant planets. :: Voyager 2
 The engineer who led development of the Saturn V rocket. :: Wernher von Braun
 In 1829 Coriolis put this factor in front of m v² to define kinetic energy. :: One half
+Which class of lever is this, with the load between the fulcrum and the effort? {img:lever-2.svg} :: Second-class lever
+Which class of lever is this, with the effort between the fulcrum and the load? {img:lever-3.svg} :: Third-class lever
 
 ## 400
 The theorem that the most general rigid-body motion is a translation plus a rotation about one axis. :: Chasles' theorem
@@ -436,6 +435,7 @@ The dimensionless number, about 0.2 for a circular cylinder, that sets the vorte
 The exact period of a simple pendulum at large amplitude is given by this special function. :: Complete elliptic integral of the first kind
 Rayleigh's method adds this fraction of a uniform spring's mass to the end mass. :: One third
 The damping ratio that gives about 4.3% overshoot in a second-order step response. :: About 0.707 (1/√2)
+A wheelbarrow is an example of the lever class drawn here. Which class is it? {img:lever-2.svg} :: Second-class lever
 
 ## 500
 The astronomer who paid to publish Newton's Principia. :: Edmond Halley
@@ -538,3 +538,6 @@ The only constant of motion in the circular restricted three-body problem. :: Ja
 The PDE ∂S/∂t + H(q, ∂S/∂q, t) = 0 for the generating function of mechanics. :: Hamilton–Jacobi equation
 The theorem that most quasi-periodic orbits survive small perturbations of an integrable Hamiltonian system. :: KAM theorem
 The pendulum that stays stable upside down when its pivot is vibrated up and down quickly. :: Kapitza's pendulum
+For the decaying vibration shown, what is ln(x₁ / x₂) called? {img:damped-peaks.svg} :: The logarithmic decrement
+Two springs k₁ and k₂ hold the mass in series, as drawn. What is the equivalent stiffness? {img:springs-series.svg} :: k₁k₂ / (k₁ + k₂)
+These curves of amplitude against frequency ratio peak near 1, more sharply for less damping. What effect do they show? {img:resonance-curves.svg} :: Resonance (the frequency response for different damping ratios)

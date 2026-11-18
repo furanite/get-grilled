@@ -108,6 +108,8 @@ The software used for 2D drafting since 1982. :: AutoCAD
 The crane type with a horizontal jib on a tall mast. :: A tower crane
 The tallest building in Saudi Arabia completed so far. :: The Abraj Al-Bait Clock Tower
 The test that pulls a steel bar until it breaks. :: The tensile test
+Name this truss type, with diagonals sloping down to the middle. {img:truss-pratt.svg} :: Pratt truss
+Name this truss type, with diagonals sloping up to the middle. {img:truss-howe.svg} :: Howe truss
 
 ## 200
 The strength of concrete is usually tested on these shapes. :: Cubes or cylinders
@@ -178,7 +180,7 @@ The Bangladeshi-American engineer of the tube system. :: Fazlur Rahman Khan
 The "bundled tube" was first used in this tower. :: The Sears (Willis) Tower
 A big heavy weight high in a tower that reduces swaying. :: A tuned mass damper
 The tower in Taiwan with a famous 660-tonne damper ball. :: Taipei 101
-Name this tower with a giant damper inside. {img:lm-taipei-101.svg} :: Taipei 101
+Name this tower with a giant damper inside. {img:lm-taipei-101.jpg} :: Taipei 101
 A system of rubber pads under a building to protect it from earthquakes. :: Base isolation
 The scale used for earthquake size. :: The moment magnitude scale
 The study of soil and rock for building. :: Geotechnical engineering
@@ -208,7 +210,6 @@ White foam insulation made of beads. :: Expanded polystyrene (EPS)
 Concrete blocks with air bubbles that are light and insulating. :: Autoclaved aerated concrete (AAC)
 The safety factor applied to loads. :: Load factor
 The bending moment at the fixed end of a cantilever with a point load P at its tip, length L. :: P × L
-Name this bridge type. {img:lm-golden-gate.svg} :: A suspension bridge (the Golden Gate)
 The diagram showing bending moment along a beam. :: A bending moment diagram
 The modern computer method of analysing structures by small elements. :: The finite element method
 The world's tallest tower planned in Jeddah is called this. :: Jeddah Tower
@@ -268,7 +269,7 @@ A structure held up by air pressure. :: An air-supported (inflatable) structure
 The stadium roof that opens and closes. :: A retractable roof
 A bridge held by cables from towers, straight to the deck. :: A cable-stayed bridge
 A bridge hanging from main cables between towers. :: A suspension bridge
-Name this London bridge type, with lifting parts. {img:lm-tower-bridge.svg} :: A bascule bridge (Tower Bridge)
+Name this London bridge type, with lifting parts. {img:lm-tower-bridge.jpg} :: A bascule bridge (Tower Bridge)
 A bridge built out from piers in both directions to meet in the middle. :: A balanced cantilever bridge
 The engineer of the Forth Bridge in Scotland. :: John Fowler and Benjamin Baker
 The King Fahd Causeway between Saudi Arabia and Bahrain is about this long. :: 25 kilometres
@@ -314,8 +315,6 @@ Metal ties that join the two leaves of a cavity wall. :: Wall ties
 A stone placed at the corner of a building, often with a date. :: A cornerstone (foundation stone)
 The ceremony of placing the last beam on top of a building. :: Topping out
 The term for the wet mix of cement and water before sand and stone are added. :: Cement paste
-Name this truss type, with diagonals sloping down to the middle. {img:truss-pratt.svg} :: Pratt truss
-Name this truss type, with diagonals sloping up to the middle. {img:truss-howe.svg} :: Howe truss
 Paint that protects steel from fire by swelling. :: Intumescent paint
 Stone cut into blocks for building. :: Ashlar (dressed stone)
 The Italian engineer who studied beam strength in "Two New Sciences". :: Galileo Galilei
@@ -324,6 +323,8 @@ The truss whose verticals and diagonals form a K shape in each panel. :: K truss
 The end support of a bridge that carries the deck and holds back the embankment. :: An abutment
 A groove cut in a concrete slab so that shrinkage cracks form along it. :: A control (contraction) joint
 A mass of masonry built against a wall to resist the outward thrust of an arch or vault. :: A buttress
+Name this bridge type. {img:lm-golden-gate.jpg} :: A suspension bridge (the Golden Gate)
+A frame whose beam-column joints are rigid, so it resists sideways loads by bending. :: Moment-resisting (rigid) frame
 
 ## 400
 The modulus of elasticity of steel is about this. :: 200 GPa

@@ -103,7 +103,7 @@ The unit kPa stands for this. :: Kilopascal
 One kilopascal equals this many pascals. :: 1,000
 Pressure at the bottom of a pool depends on depth, not on this. :: The pool's width (shape)
 The giant ocean wave that travels as a shallow-water wave across ocean basins. :: Tsunami
-Which principle explains why the pressure drops in the narrow part of this device? {img:venturi.svg} :: Bernoulli's principle
+Besides liquids, the other state of matter that counts as a fluid because it flows. :: Gas
 
 ## 200
 The ratio of a substance's density to that of water. :: Specific gravity (relative density)
@@ -437,6 +437,7 @@ For isentropic flow, p0/p equals (1 + (γ − 1)M²/2) raised to this power. :: 
 For a given wedge angle and Mach number, an attached oblique shock has a weak solution and this one. :: Strong shock solution
 The dimensionless cavitation number for pumps and turbines that compares NPSH with the machine's head. :: Thoma cavitation number (σ)
 In supersonic flow, a Pitot tube reads the stagnation pressure behind this. :: A normal (bow) shock in front of it
+Which principle explains why the pressure drops in the narrow part of this device? {img:venturi.svg} :: Bernoulli's principle
 
 ## 500
 The French engineer who first derived the viscous flow equations in 1822. :: Claude-Louis Navier

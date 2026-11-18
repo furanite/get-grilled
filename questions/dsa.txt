@@ -526,3 +526,6 @@ The expected number of probes for an unsuccessful search under uniform hashing i
 The number of different max-heaps that can be built from the keys 1, 2, 3 and 4. :: 3
 The linear-time algorithm that finds, for each position, the longest substring matching a prefix of the string. :: Z-algorithm
 The smallest automaton that accepts every suffix of a string, with at most 2n − 1 states. :: Suffix automaton (DAWG)
+Which single rotation balances this AVL tree? {img:avl-left-left.svg} :: A right rotation at 30 (the root), making 20 the new root
+Every node in this self-balancing search tree is coloured red or black. What kind of tree is it? {img:red-black-tree.svg} :: Red-black tree
+Give a topological order of this directed graph. {img:dag.svg} :: A, B, C, D, E (B and C may swap)

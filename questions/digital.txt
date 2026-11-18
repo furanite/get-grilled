@@ -104,7 +104,6 @@ The binary form of the hexadecimal digit F. :: 1111
 Name the logic gate drawn here. {img:gate-and.svg} :: AND gate
 Name the logic gate drawn here. {img:gate-or.svg} :: OR gate
 Name the logic gate drawn here. {img:gate-not.svg} :: NOT gate (inverter)
-This circuit adds two bits A and B, giving a sum S and a carry C. What is it called? {img:half-adder.svg} :: A half adder
 
 ## 200
 The hexadecimal form of decimal 255. :: FF
@@ -325,6 +324,7 @@ The 1985 MIPS R2000 was the first commercial chip of this design approach from S
 The voltage below which a transistor is said to be off. :: Threshold voltage
 The 1966 classification of computer architectures by single or multiple instruction and data streams. :: Flynn's taxonomy
 The number of transistors in the cross-coupled inverter pair of a 6T SRAM cell. :: 4
+This circuit adds two bits A and B, giving a sum S and a carry C. What is it called? {img:half-adder.svg} :: A half adder
 
 ## 400
 The number of 2-input NOR gates needed to build an XNOR gate, at minimum. :: 4
@@ -427,6 +427,9 @@ The graph that plots performance against arithmetic intensity, with a sloped and
 The MIPS instruction format used by beq, lw and addi. :: I-type
 The number of read ports a typical 5-stage MIPS register file needs. :: 2
 The page table with one entry per physical frame instead of one per virtual page. :: Inverted page table
+Name this circuit, which adds A, B and a carry-in. {img:full-adder.svg} :: Full adder
+Name this memory circuit made of two cross-coupled NOR gates. {img:sr-latch.svg} :: SR latch (set-reset latch)
+In this timing diagram, Q changes on every rising clock edge. Which flip-flop does this with its input held at 1? {img:timing-toggle.svg} :: T flip-flop (toggle), which halves the clock frequency
 
 ## 500
 The number of Boolean functions of n variables, as a formula. :: 2^(2^n)
@@ -529,3 +532,6 @@ The queue-based spin lock of Mellor-Crummey and Scott in which each waiter spins
 The standard time window within which every DRAM row must be refreshed, in DDR memory. :: 64 ms
 The memory ECC scheme that corrects single-bit errors and detects double-bit errors, shortened. :: SECDED (extended Hamming code)
 The bus in Tomasulo's algorithm that broadcasts results to all waiting reservation stations. :: Common data bus (CDB)
+Simplify the function in this Karnaugh map. {img:kmap-3var.svg} :: C + AB
+Four NAND gates wired like this make which logic gate? {img:nand-xor.svg} :: XOR (exclusive OR)
+In this 5-stage pipeline chart, how many clock cycles do the four instructions take in total? {img:pipeline.svg} :: 8

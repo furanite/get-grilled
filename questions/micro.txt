@@ -102,9 +102,8 @@ The small Arduino board that plugs straight into a breadboard. :: Arduino Nano
 The sensor that senses tilt and movement by measuring gravity and acceleration. :: Accelerometer
 Which digit is this seven-segment display showing? {img:seg-4.svg} :: 4
 Which digit is this seven-segment display showing? {img:seg-7.svg} :: 7
-Which digit is this seven-segment display showing? {img:seg-2.svg} :: 2
-Which digit is this seven-segment display showing? {img:seg-9.svg} :: 9
-How many of the seven segments are lit to show this digit? {img:seg-9.svg} :: 6
+The Arduino IDE window that shows the text a sketch prints with Serial.print(). :: Serial Monitor
+The pin labelled GND on a microcontroller board connects to this. :: Ground (0 V)
 
 ## 200
 The microcontroller chip on the Arduino Uno. :: ATmega328P
@@ -215,6 +214,8 @@ The Chinese company that makes the ESP32 chips. :: Espressif Systems
 The name of the Mars helicopter. :: Ingenuity
 The Saudi Space Commission, set up in 2018, was renamed this in 2023. :: Saudi Space Agency
 The 2021 to 2023 global problem that made microcontrollers very hard to buy. :: Chip shortage
+Which digit is this seven-segment display showing? {img:seg-2.svg} :: 2
+Which digit is this seven-segment display showing? {img:seg-9.svg} :: 9
 
 ## 300
 The AVR instruction set is this kind of design. :: RISC
@@ -319,6 +320,7 @@ The Japanese company that bought Arm in 2016. :: SoftBank
 The NASA computer that flew Apollo to the Moon, an early embedded computer. :: Apollo Guidance Computer
 The Arduino Uno's name means this in Italian. :: One
 The USB device class for keyboards and mice. :: HID
+How many of the seven segments are lit to show this digit? {img:seg-9.svg} :: 6
 
 ## 400
 The Cortex-M feature that saves registers automatically on interrupt entry. :: Hardware stacking (exception frame)

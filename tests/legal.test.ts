@@ -32,9 +32,9 @@ describe('consent record', () => {
 })
 
 describe('legal text', () => {
-  it('English and Arabic Terms have the same 19 clauses, and Privacy the same sections', () => {
-    expect(TERMS.en.clauses).toHaveLength(19)
-    expect(TERMS.ar.clauses).toHaveLength(19)
+  it('English and Arabic Terms have the same 20 clauses, and Privacy the same sections', () => {
+    expect(TERMS.en.clauses).toHaveLength(20)
+    expect(TERMS.ar.clauses).toHaveLength(20)
     expect(PRIVACY.ar.clauses).toHaveLength(PRIVACY.en.clauses.length)
     TERMS.en.clauses.forEach((c, i) => expect(TERMS.ar.clauses[i].title.split('.')[0]).toBe(c.title.split('.')[0]))
   })

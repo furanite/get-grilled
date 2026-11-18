@@ -1,4 +1,10 @@
 import type { Lang } from './types'
+import photos from '../../questions/img/credits-full.json'
+
+/** One line per photo: what it shows, author, licence and source page on Wikimedia Commons. */
+const photoLines = Object.values(photos as Record<string, { what: string; author: string; license: string; source: string }>).map(
+  (p) => `${p.what}: ${p.author}, ${p.license}, ${p.source}`,
+)
 
 /**
  * Owner details shown in the Terms, the Privacy Notice and the footer.
@@ -11,7 +17,7 @@ export const LEGAL = {
   effectiveAr: '18 نوفمبر 2026',
   year: 2026,
   /** Change this whenever the Terms or Privacy Notice change: everyone is asked to accept again. */
-  termsVersion: '1.2',
+  termsVersion: '1.3',
 }
 
 export interface Clause {
@@ -63,6 +69,11 @@ const termsEn: LegalDoc = {
     { title: '17. Severability and language.', body: ["If any part of these Terms can't be enforced, the rest stays in effect. These Terms are provided in Arabic and English. If they differ, the Arabic version prevails."] },
     { title: '18. Questions about content.', body: ['Questions about a question or content? Tell your game host.'] },
     { title: '19. Sound credits.', body: ['The recorded instrument notes in the title tunes and in some game sounds (such as the wrong-answer sound) come from three sources. Horn, trombone, tuba, violin, cello, timpani, and bass drum notes come from the Versilian Studios VSCO 2 Community Edition library, and woodblock and claves from the Versilian Community Sample Library (VCSL); both are public domain (CC0). Trumpet, harp, xylophone, and piano notes come from the tonejs-instruments collection by Nicholaus Brosowsky (nbrosowsky, github.com/nbrosowsky/tonejs-instruments), licensed under Creative Commons Attribution 3.0 (CC BY 3.0, creativecommons.org/licenses/by/3.0). We trimmed, faded, and converted these notes to MP3 and arranged them into new pieces. All other sounds are made by the Game itself.'] },
+    {
+      title: '20. Photo credits.',
+      body: ['The landmark photos come from Wikimedia Commons. Each is used under the licence shown, and was resized. Photos under a CC BY-SA licence stay under that licence. They are not owned by us and clause 12 does not apply to them.'],
+      list: photoLines,
+    },
   ],
 }
 
@@ -99,6 +110,11 @@ const termsAr: LegalDoc = {
     { title: '17. قابلية الفصل واللغة.', body: ['إذا تعذّر تطبيق أي جزء من هذه الشروط، يبقى الباقي ساريًا. وتقدَّم هذه الشروط باللغتين العربية والإنجليزية، وعند الاختلاف يُعتمد النص العربي.'] },
     { title: '18. الاستفسار عن المحتوى.', body: ['هل لديك استفسار عن سؤال أو محتوى؟ أخبر مقدّم اللعبة.'] },
     { title: '19. مصادر الأصوات.', body: ['النغمات المسجّلة للآلات في ألحان الافتتاح وفي بعض أصوات اللعبة (مثل صوت الإجابة الخاطئة) مأخوذة من ثلاثة مصادر. فنغمات البوق الفرنسي والترومبون والتوبا والكمان والتشيلو والطبول التيمباني والطبل الكبير من مكتبة VSCO 2 Community Edition من Versilian Studios، ونغمات الكتلة الخشبية والكلافيس من مكتبة Versilian Community Sample Library (VCSL)، وكلتاهما ملكية عامة (CC0). ونغمات الترومبيت والقيثارة والإكسيليفون والبيانو من مجموعة tonejs-instruments من إعداد Nicholaus Brosowsky (nbrosowsky، github.com/nbrosowsky/tonejs-instruments) بموجب رخصة المشاع الإبداعي – نسب المصنف 3.0 (CC BY 3.0، creativecommons.org/licenses/by/3.0). وقد قصصنا هذه النغمات وخففناها تدريجيًا وحوّلناها إلى MP3 ورتبناها في مقطوعات جديدة. أما بقية الأصوات فتصنعها اللعبة بنفسها.'] },
+    {
+      title: '20. مصادر الصور.',
+      body: ['صور المعالم مأخوذة من ويكيميديا كومنز، وكل صورة مستخدمة بالترخيص المذكور بجانبها بعد تصغير حجمها. الصور المرخّصة بترخيص CC BY-SA تبقى بذلك الترخيص. هذه الصور ليست ملكًا لنا ولا ينطبق عليها البند 12.'],
+      list: photoLines,
+    },
   ],
 }
 
@@ -107,8 +123,9 @@ const privacyEn: LegalDoc = {
   meta: `Version ${LEGAL.termsVersion} · Effective ${LEGAL.effective}`,
   clauses: [
     { title: 'What we collect.', body: ["Nothing. Get Grilled has no accounts, no analytics, and no tracking. It doesn't send your games, team names, member names, scores, categories, pictures, or question files to us or to anyone else."] },
-    { title: 'What is stored on your device.', body: ["These are stored in your browser's local storage: your settings; your categories and any pictures you add to them; your question-file draft; your changes to the built-in questions and which ones have already been played (so they don't repeat); your saved game, including team names, scores, tournament, and category vote; team members' names, roles, and fun facts if you add them for the team introductions; and the version and date of the Terms you accepted. They stay on your device until you clear them. Avoid putting personal information, such as student ID numbers or phone numbers, in team names, member details, or questions."] },
+    { title: 'What is stored on your device.', body: ["These are stored in your browser's local storage: your settings; your categories and any pictures you add to them; your question-file draft; your changes to the built-in questions and which ones have already been played (so they don't repeat); your saved game, including team names, scores, tournament, and category vote; team members' names, roles, and fun facts if you add them for the team introductions; whether you have seen the study tips; and the version and date of the Terms you accepted. They stay on your device until you clear them. Avoid putting personal information, such as student ID numbers or phone numbers, in team names, member details, or questions."] },
     { title: 'The big screen.', body: ['The audience window opens on the same computer and shows team names, scores and, if you add them, team members\' names, roles, and fun facts. Nothing is sent over the internet to show it. If you type in other people\'s names or details, ask them first, and get their consent before you film, photograph, or stream a game.'] },
+    { title: 'Get Grilled Live (Raspberry Pi).', body: ['At an event the host may run the Game from a Raspberry Pi on a local network, with team tablets, a projector and audience phones joining it. The Pi belongs to the organiser, not to us, and nothing on it is sent to us. It keeps the host PIN (only as a scrambled hash) and the device links with the team names they belong to in files on the Pi, and keeps everything else, including scores and audience answers, in memory only until the event ends. Each device gets a cookie that only lets it rejoin its own seat. Audience phones join without names, sign-up or any personal details. The Pi\'s system log records the local network address of the device that signs in as host or opens a team or projector link, so the organiser can spot misuse; the organiser decides how long that log is kept.'] },
     { title: 'Files you download or open.', body: ['An exported category or a question file contains everything you put in it, including pictures and, in a question file, the title, the "Made by" name, and the note. Anyone you send it to can read all of it. When you open a file, the Game reads it in your browser only; it is not uploaded anywhere.'] },
     { title: 'Third parties.', body: ["The Game is hosted on GitHub Pages, run by GitHub, Inc. in the United States. When your browser loads the Game, GitHub may log basic technical information, such as your IP address, under the GitHub Privacy Statement. The Game's questions, sounds, and fonts are served from the same site, so no other service receives your details."] },
     { title: 'Your rights.', body: ["Under Saudi Arabia's Personal Data Protection Law you have the right to know how your personal data is used, to access it, to correct it, to have it deleted, and to withdraw your consent. Because the Game keeps your data only on your device, you can do all of this yourself: you can see and change it in the Game, and you can delete everything at any time by clearing this site's data in your browser. If a host typed your name into their game, ask the host to change or remove it."] },
@@ -121,8 +138,9 @@ const privacyAr: LegalDoc = {
   meta: `الإصدار ${LEGAL.termsVersion} · يسري اعتبارًا من ${LEGAL.effectiveAr}`,
   clauses: [
     { title: 'ما الذي نجمعه.', body: ['لا شيء. لا توجد في Get Grilled حسابات ولا أدوات تحليل ولا تتبّع. ولا ترسل اللعبة إلينا ولا إلى أي جهة أخرى ألعابك أو أسماء فرقك أو أسماء الأعضاء أو نقاطك أو فئاتك أو صورك أو ملفات أسئلتك.'] },
-    { title: 'ما الذي يُحفظ على جهازك.', body: ['يُحفظ ما يلي في التخزين المحلي لمتصفحك: إعداداتك؛ وفئاتك وأي صور تضيفها إليها؛ ومسودة ملف الأسئلة؛ وتعديلاتك على الأسئلة المضمّنة وما لُعب منها (حتى لا يتكرر)؛ ولعبتك المحفوظة بما فيها أسماء الفرق والنقاط والبطولة والتصويت على الفئات؛ وأسماء أعضاء الفرق وأدوارهم والمعلومات الطريفة إن أضفتها للتعريف بالفرق؛ وإصدار الشروط التي وافقت عليها وتاريخ موافقتك. وتبقى على جهازك حتى تمسحها. تجنّب وضع معلومات شخصية، مثل الأرقام الجامعية أو أرقام الهواتف، في أسماء الفرق أو بيانات الأعضاء أو الأسئلة.'] },
+    { title: 'ما الذي يُحفظ على جهازك.', body: ['يُحفظ ما يلي في التخزين المحلي لمتصفحك: إعداداتك؛ وفئاتك وأي صور تضيفها إليها؛ ومسودة ملف الأسئلة؛ وتعديلاتك على الأسئلة المضمّنة وما لُعب منها (حتى لا يتكرر)؛ ولعبتك المحفوظة بما فيها أسماء الفرق والنقاط والبطولة والتصويت على الفئات؛ وأسماء أعضاء الفرق وأدوارهم والمعلومات الطريفة إن أضفتها للتعريف بالفرق؛ وهل اطّلعت على نصائح المذاكرة؛ وإصدار الشروط التي وافقت عليها وتاريخ موافقتك. وتبقى على جهازك حتى تمسحها. تجنّب وضع معلومات شخصية، مثل الأرقام الجامعية أو أرقام الهواتف، في أسماء الفرق أو بيانات الأعضاء أو الأسئلة.'] },
     { title: 'الشاشة الكبيرة.', body: ['تُفتح نافذة الجمهور على الجهاز نفسه، وتعرض أسماء الفرق والنقاط، وأسماء الأعضاء وأدوارهم والمعلومات الطريفة إن أضفتها. ولا يُرسل شيء عبر الإنترنت لعرضها. وإن كتبت أسماء أشخاص آخرين أو بياناتهم فاستأذنهم أولًا، واحصل على موافقتهم قبل تصوير اللعبة أو بثّها.'] },
+    { title: 'Get Grilled Live (راسبيري باي).', body: ['قد يشغّل المقدّم اللعبة في فعالية ما من جهاز راسبيري باي على شبكة محلية، تتصل به أجهزة الفرق اللوحية وجهاز العرض وهواتف الجمهور. والجهاز ملك للجهة المنظِّمة لا لنا، ولا يُرسل منه إلينا شيء. ويحفظ الجهاز رمز المقدّم (PIN) في صورة مشفّرة بدالة تجزئة فقط، وروابط الأجهزة مع أسماء الفرق التابعة لها، في ملفات عليه، ويبقي كل ما سوى ذلك، ومنه النقاط وإجابات الجمهور، في الذاكرة فقط حتى تنتهي الفعالية. ويحصل كل جهاز على ملف تعريف ارتباط (كوكي) لا يتيح له إلا العودة إلى مقعده. وتنضم هواتف الجمهور دون أسماء أو تسجيل أو أي بيانات شخصية. ويسجّل سجلّ النظام في الجهاز عنوان الشبكة المحلية للجهاز الذي يدخل بصفة المقدّم أو يفتح رابط فريق أو جهاز عرض، ليتمكّن المنظِّم من كشف إساءة الاستخدام، والمنظِّم هو من يقرّر مدة الاحتفاظ بهذا السجل.'] },
     { title: 'الملفات التي تنزّلها أو تفتحها.', body: ['تحتوي الفئة المصدّرة أو ملف الأسئلة على كل ما وضعته فيه، بما في ذلك الصور، وفي ملف الأسئلة العنوان واسم المُعِدّ والملاحظة. ويستطيع كل من ترسله إليه قراءة ذلك كله. وعندما تفتح ملفًا، تقرؤه اللعبة في متصفحك فقط، ولا يُرفع إلى أي مكان.'] },
     { title: 'الأطراف الأخرى.', body: ['تُستضاف اللعبة على GitHub Pages التي تديرها شركة GitHub, Inc. في الولايات المتحدة. وعندما يحمّل متصفحك اللعبة، قد تسجّل GitHub معلومات تقنية أساسية، مثل عنوان IP الخاص بك، وفق بيان الخصوصية الخاص بها. وتقدّم اللعبة أسئلتها وأصواتها وخطوطها من الموقع نفسه، فلا تتلقى أي خدمة أخرى بياناتك.'] },
     { title: 'حقوقك.', body: ['بموجب نظام حماية البيانات الشخصية في المملكة العربية السعودية، لك الحق في معرفة كيفية استخدام بياناتك الشخصية، والوصول إليها، وتصحيحها، وحذفها، والرجوع عن موافقتك. ولأن اللعبة تحفظ بياناتك على جهازك فقط، فبإمكانك فعل ذلك كله بنفسك: تراها وتعدّلها في اللعبة، وتحذف كل شيء في أي وقت بمسح بيانات هذا الموقع من متصفحك. وإن كتب مقدّم اللعبة اسمك في لعبته، فاطلب منه تعديله أو حذفه.'] },

@@ -280,7 +280,7 @@ export function prepareIntros(theme: ThemeId, members: number[]) {
 }
 /**
  * Plays the introduction sound for team `team` (its own version in this theme).
- * If the sound is not ready in time it is skipped, so it never lands out of step with the animation.
+ * If the sound is ready late it starts part-way in, so it never lands out of step with the animation.
  */
 export function introSound(theme: ThemeId, team: number, members: number) {
   if (!enabled) return
@@ -294,12 +294,14 @@ export function introSound(theme: ThemeId, team: number, members: number) {
   const asked = c.currentTime
   introBuf(theme, team, Math.min(5, members)).then((buf) => {
     if (tuneBus !== bus || !buf) return
+    // A sound that is ready late (often the first team's, made while the screen opens) starts that far in,
+    // so it stays in step with the animation; one that would have under half a second left is skipped.
     const late = c.currentTime - asked
-    if (late > 1) return
+    if (late > buf.duration - 0.5) return
     const src = c.createBufferSource()
     src.buffer = buf
     src.connect(bus)
-    src.start(c.currentTime + 0.02)
+    src.start(c.currentTime + 0.02, late > 0.15 ? late : 0)
   })
 }
 

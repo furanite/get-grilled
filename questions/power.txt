@@ -109,8 +109,6 @@ Name the electrical symbol drawn here. {img:sym-ground.svg} :: Ground (earth)
 Name the source this symbol stands for. {img:sym-ac-source.svg} :: AC voltage source
 The 2011 nuclear accident caused by a tsunami. :: Fukushima Daiichi
 The 1986 nuclear disaster in Ukraine. :: Chernobyl
-Name this three-phase connection. {img:three-phase-wye.svg} :: Wye (star) connection
-Name this three-phase connection. {img:three-phase-delta.svg} :: Delta connection
 The Aswan High Dam is on this river. :: Nile
 The physicist whose 1905 equation E = mc² explains where nuclear energy comes from. :: Albert Einstein
 
@@ -217,7 +215,6 @@ The DC–DC converter that lowers voltage. :: Buck converter
 The DC–DC converter that raises voltage. :: Boost converter
 The world's largest power station by capacity, in China. :: Three Gorges Dam
 The emerging battery type with a solid electrolyte. :: Solid-state battery
-In this three-phase connection, the line voltage is how many times the phase voltage? {img:three-phase-wye.svg} :: √3 (about 1.73)
 Pearl Street station supplied this kind of current. :: Direct current
 The rivalry between Edison and Westinghouse over DC and AC. :: War of the currents
 The Italian physicist who invented the first battery, the voltaic pile, in 1800. :: Alessandro Volta
@@ -342,6 +339,8 @@ The Saudi electric car brand formed by PIF and Foxconn. :: Ceer
 The country that gets nearly all its electricity from hydro and geothermal power. :: Iceland
 The Swiss-Swedish company formed in 1988 by merging ASEA and Brown Boveri. :: ABB
 The 2014 Nobel Prize in Physics was for inventing this energy-saving light source. :: Blue LED
+Name this three-phase connection. {img:three-phase-wye.svg} :: Wye (star) connection
+Name this three-phase connection. {img:three-phase-delta.svg} :: Delta connection
 
 ## 400
 The matrix of partial derivatives used in the Newton–Raphson load flow. :: Jacobian
@@ -444,6 +443,7 @@ For a balanced three-phase fault, only this sequence network carries current. ::
 The common distribution transformer vector group with a delta HV winding and an earthed star LV winding leading by 30°. :: Dyn11
 The transformation that turns three-phase machine quantities into direct and quadrature axes fixed to the rotor. :: Park (dq0) transformation
 The 'V curves' of a synchronous machine plot armature current against this. :: Field (excitation) current
+In this three-phase connection, the line voltage is how many times the phase voltage? {img:three-phase-wye.svg} :: √3 (about 1.73)
 
 ## 500
 The year Edison opened the Pearl Street power station in New York. :: 1882

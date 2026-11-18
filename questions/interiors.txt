@@ -108,7 +108,6 @@ A door that resists fire for a set time. :: A fire door
 Signs that light up and show the way out. :: Exit signs (emergency signage)
 The hinges that close kitchen doors softly. :: Soft-close hinges
 The Arabic decorative writing used in interiors. :: Calligraphy
-Name this star shape, common in Islamic patterns. {img:pattern-star8.svg} :: An eight-pointed star
 The colour that may make people feel cold. :: Blue
 The hotel design term for the main public room at the entrance. :: The lobby
 The term for the main display window of a shop. :: The shop window (visual merchandising)
@@ -117,7 +116,6 @@ The term for designing yachts' interiors. :: Yacht interior design
 A soft fabric with a short dense pile, used for sofas. :: Velvet
 A natural fibre from sheep. :: Wool
 A smooth glossy fabric made from silkworms. :: Silk
-Name this tool used to pick colour schemes. {img:colour-wheel.svg} :: A colour wheel
 The Riyadh Front, Boulevard City and other entertainment zones are run under this event. :: Riyadh Season
 
 ## 200
@@ -222,7 +220,6 @@ In the 60-30-10 rule, 60% is this colour. :: The main (dominant) colour
 The Andalusian palace famous for its Court of the Lions. :: The Alhambra
 The colour theory term for the name of a colour, like red or blue. :: Hue
 The proportion of about 1:1.618 used in design. :: The golden ratio
-Name this proportion shown with squares and a spiral. {img:golden-spiral.svg} :: The golden ratio (golden spiral)
 The "Fibonacci sequence" is linked to this ratio. :: The golden ratio
 Wood from trees like oak and walnut, which lose their leaves. :: Hardwood
 Wood from trees like pine and cedar. :: Softwood
@@ -336,6 +333,7 @@ Rams's principle: good design is as little design as this. :: Possible
 The term for the arrangement of windows on a façade. :: Fenestration
 The black wood that gave the ébéniste his name. :: Ebony
 The Danish chair designer whose Y-shaped back chair is called the Wishbone. :: Hans Wegner
+Name this star shape, common in Islamic patterns. {img:pattern-star8.svg} :: An eight-pointed star
 
 ## 400
 The famous interior designer known as the first professional decorator in America. :: Elsie de Wolfe
@@ -438,6 +436,7 @@ The CIE index that rates discomfort glare from light fittings in a room, where l
 The brightness of a surface as the eye sees it, measured in candelas per square metre. :: Luminance
 The usual recommended illuminance for general office desk work, in lux. :: About 500 lux
 The space-planning measure comparing usable floor area to the total floor area. :: Net-to-gross (efficiency) ratio
+Name this proportion shown with squares and a spiral. {img:golden-spiral.svg} :: The golden ratio (golden spiral)
 
 ## 500
 The Roman architect whose book has a section on wall paintings and decoration. :: Vitruvius
@@ -540,3 +539,4 @@ Two colours that match under one light source but not under another show this ef
 The curve linking colour temperature and illuminance levels that people find pleasing. :: Kruithof curve
 The WELL Building Standard metric for the circadian effect of light, based on the eye's ipRGC cells. :: Equivalent melanopic lux (EML)
 The CIE colour space with L*, a* and b* axes used to measure colour differences. :: CIELAB
+Name this tool used to pick colour schemes. {img:colour-wheel.svg} :: A colour wheel

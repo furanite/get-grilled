@@ -104,7 +104,6 @@ Sterling silver contains this percentage of silver. :: 92.5%
 The tyre company named after the inventor of vulcanised rubber. :: Goodyear
 The yellow metal that never rusts, used in jewellery and electronics. :: Gold
 For a light, stiff beam, the material index to maximise is E^(1/2)/ρ. Here E is this. :: Young's modulus
-What is the highest point on this stress–strain curve called? {img:stress-strain.svg} :: Ultimate tensile strength
 The process of making parts layer by layer. :: Additive manufacturing (3D printing)
 The Saudi university in Dhahran famous for petroleum, minerals and materials engineering. :: KFUPM
 The skyscraper for which concrete was pumped to a then-record height of over 600 m. :: Burj Khalifa
@@ -211,8 +210,6 @@ The fracture surface of a ductile metal tensile test looks like this. :: Cup and
 The hardness test that measures depth with a cone or ball and gives HRC values. :: Rockwell hardness test
 Nitinol is made of nickel and this metal. :: Titanium
 Name this crystal unit cell, with an atom only at each corner. {img:cell-sc.svg} :: Simple cubic
-Name this crystal unit cell, with one extra atom in the centre of the cube. {img:cell-bcc.svg} :: Body-centred cubic (BCC)
-Name this crystal unit cell, with an extra atom in the centre of each face. {img:cell-fcc.svg} :: Face-centred cubic (FCC)
 The microscope that images surfaces with a focused electron beam. :: SEM (scanning electron microscope)
 The microscope that sends electrons through a thin sample. :: TEM (transmission electron microscope)
 The quenching medium that cools fastest of water, oil and air. :: Water (especially brine)
@@ -224,14 +221,12 @@ The first solid to form during solidification grows from these sites. :: Nuclei
 The epoxy hardener and resin react in this kind of process. :: Curing (cross-linking)
 ASTM stands for American Society for Testing and this. :: Materials
 The non-destructive test that uses high-frequency sound to find internal flaws. :: Ultrasonic testing
-How many atoms belong to one unit cell of this structure? {img:cell-bcc.svg} :: 2
 Before 1886, aluminium was so costly that this monument in Washington got an aluminium cap in 1884. :: Washington Monument
 The borosilicate glass used for lab glassware and oven dishes. :: Pyrex
 The 1912 ship disaster where brittle steel and rivets have been blamed for the hull damage. :: Titanic
 The 1986 Space Shuttle disaster caused by O-rings that lost elasticity in the cold. :: Challenger
 The material that won the 2010 Nobel Prize in Physics. :: Graphene
 The 2019 Nobel Prize in Chemistry went for developing these batteries. :: Lithium-ion batteries
-How many atoms belong to one unit cell of this structure? {img:cell-fcc.svg} :: 4
 
 ## 300
 The rule that predicts which elements form solid solutions, based on size and bonding. :: Hume-Rothery rules
@@ -340,6 +335,9 @@ The 'Boeing 787' is about half made of this material by weight. :: Composites (c
 The Swedish engineer who introduced the steel-ball hardness test in 1900. :: Johan August Brinell
 The French metallurgist who introduced the notched-bar impact test in 1901. :: Georges Charpy
 KAUST's campus is on the Red Sea coast at this town. :: Thuwal
+What is the highest point on this stress–strain curve called? {img:stress-strain.svg} :: Ultimate tensile strength
+Name this crystal unit cell, with one extra atom in the centre of the cube. {img:cell-bcc.svg} :: Body-centred cubic (BCC)
+Name this crystal unit cell, with an extra atom in the centre of each face. {img:cell-fcc.svg} :: Face-centred cubic (FCC)
 
 ## 400
 The Miller indices of the close-packed planes in an FCC crystal. :: {111}
@@ -442,6 +440,7 @@ In an ionic crystal, a cation moved from its lattice site into a nearby intersti
 The spherical clusters of radiating crystalline lamellae in a polymer cooled from the melt. :: Spherulites
 The return of a sharp yield point after mild steel is strained and then rested or gently heated. :: Strain ageing
 In the Hall–Petch equation, yield strength rises with grain diameter d raised to this power. :: −1/2
+How many atoms belong to one unit cell of this structure? {img:cell-bcc.svg} :: 2
 
 ## 500
 The physicist father-and-son team who won the 1915 Nobel Prize for X-ray crystallography. :: William Henry and William Lawrence Bragg
@@ -544,3 +543,4 @@ The orientation relationship {111}γ ∥ {011}α′ between austenite and marten
 In the power-law creep equation, strain rate ∝ σⁿ; for diffusional creep n equals this. :: 1
 A stretched rubber band contracts when heated because rubber elasticity comes mainly from this. :: Entropy
 Above the entanglement molecular weight, polymer melt viscosity rises with molecular weight to about this power. :: 3.4
+How many atoms belong to one unit cell of this structure? {img:cell-fcc.svg} :: 4

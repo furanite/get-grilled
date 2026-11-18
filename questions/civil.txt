@@ -345,8 +345,6 @@ Name this type of truss, made of triangles with no vertical members. {img:truss-
 How many reaction forces can a roller support like this one provide? {img:support-roller.svg} :: One (perpendicular to the surface)
 The length of the King Fahd Causeway, roughly. :: About 25 km
 The simple peak runoff formula Q = CiA. :: Rational method
-Name this type of truss: its diagonals slope down towards the middle of the span. {img:truss-pratt.svg} :: Pratt truss
-Name this type of truss: its diagonals slope up towards the middle of the span. {img:truss-howe.svg} :: Howe truss
 The Canadian bridge that collapsed in 1907 during construction, killing 75 workers. :: Quebec Bridge
 The 1968 London tower block partly collapsed by a gas explosion, leading to rules on progressive collapse. :: Ronan Point
 The Pantheon's concrete dome gets lighter towards the top by using this volcanic aggregate. :: Pumice
@@ -459,6 +457,8 @@ The large pendulum or mass device, like the 660-tonne ball in Taipei 101, that r
 The iterative 1936 method for balancing flows in looped water pipe networks by loop corrections. :: Hardy Cross method
 In a settling tank, the flow rate divided by the surface area, which sets the smallest particle fully removed. :: Overflow rate (surface loading rate)
 The steel connection failure where a block of plate tears out along a shear plane and a tension plane. :: Block shear
+Name this type of truss: its diagonals slope down towards the middle of the span. {img:truss-pratt.svg} :: Pratt truss
+Name this type of truss: its diagonals slope up towards the middle of the span. {img:truss-howe.svg} :: Howe truss
 
 ## 500
 The English engineer who first called himself a 'civil engineer' and founded the first engineering society in 1771. :: John Smeaton
@@ -561,3 +561,6 @@ The scale factor on the central meridian of each UTM zone. :: 0.9996
 Chloride ingress into concrete, used to predict when rebar starts to corrode, is usually modelled with this law. :: Fick's second law of diffusion
 The Toronto researchers whose modified compression field theory underlies the general shear method in codes. :: Vecchio and Collins
 The legal rule that an owner who causes delay cannot hold the contractor to the original completion date. :: Prevention principle
+This bending moment diagram is for a simply supported beam. What loading gives a triangle that peaks at midspan? {img:bmd-point.svg} :: A single point load at midspan (largest moment PL/4)
+A simply supported beam has this parabolic bending moment diagram. What loading causes it? {img:bmd-udl.svg} :: A uniformly distributed load (largest moment wL²/8)
+Name this graphical method for finding principal stresses σ₁ and σ₂. {img:mohr-circle.svg} :: Mohr's circle
