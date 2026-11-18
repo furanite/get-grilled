@@ -102,6 +102,8 @@ The SQL command that changes a table's structure, such as adding a column. :: AL
 The SQL command that empties a table but keeps its structure. :: TRUNCATE
 The name of the column that both tables share in a join is called this. :: Join key (common column)
 The Saudi law, abbreviated PDPL, protects this kind of data in databases. :: Personal data
+The SQL keyword that sorts from smallest to largest, used by default. :: ASC
+The wildcard that matches exactly one character in a LIKE pattern. :: _ (underscore)
 
 ## 200
 The four properties of reliable transactions, shortened to four letters. :: ACID
@@ -308,6 +310,10 @@ The closure of {A} given A → B and B → C. :: {A, B, C}
 The number of phases in the ARIES recovery algorithm. :: 3
 The quorum condition, with N replicas, that ensures a read sees the latest write. :: R + W > N
 The encoding that stores a repeated value once with a count. :: Run-length encoding
+The relational algebra operation that returns the rows of one relation that are not in another. :: Set difference
+In an ER diagram, an attribute drawn with a double oval because it can hold several values. :: Multivalued attribute
+An entity that cannot be identified by its own attributes and depends on an owner entity. :: Weak entity
+The ER constraint, drawn with a double line, saying every entity must take part in a relationship. :: Total participation
 
 ## 400
 Codd's 1970 paper: "A Relational Model of Data for Large Shared ___". :: Data Banks
@@ -513,3 +519,7 @@ The database first released in 1979 as Oracle Version 2 by a company then called
 The maker of the guided-missile destroyer software for which SQLite was first designed. :: General Dynamics
 The three authors of the FLP result: Fischer, Lynch and this man. :: Michael Paterson
 The MySQL version that made InnoDB the default engine. :: 5.5
+The write-optimised B-tree variant that buffers changes in internal nodes, used by TokuDB. :: Fractal tree (Bε-tree)
+The bug in which an UPDATE scanning an index on the column it changes meets the same rows again and updates them twice. :: The Halloween problem
+The LSM compaction strategy, used by LevelDB, that keeps one sorted run per level, each level a fixed ratio larger. :: Leveled compaction
+The optimiser assumption that predicates on different columns are unrelated, causing bad estimates for correlated columns. :: Attribute value independence

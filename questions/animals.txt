@@ -102,6 +102,8 @@ The dangerous shark that is the biggest predatory fish. :: Great white shark
 The animal with black spots that is the fastest on land. :: Cheetah
 The big cat with rosette spots that climbs trees with its food. :: Leopard
 The striped dog-like animal known for its 'laugh'. :: Hyena
+The long-eared animal that hops and is said to love carrots. :: Rabbit
+The big furry animal that sleeps through winter and loves honey. :: Bear
 
 ## 200
 The only big cat that lives in groups. :: Lion
@@ -318,6 +320,9 @@ The term for animals found only in one place. :: Endemic
 The animal that sleeps with half its brain at a time. :: Dolphin
 The term for the cluster of eggs of a frog. :: Frogspawn
 The name for a group of crows. :: Murder
+The change from a caterpillar to a butterfly, or a tadpole to a frog. :: Metamorphosis
+Animals that eat both plants and meat. :: Omnivores
+The deep winter sleep of animals such as bears and hedgehogs. :: Hibernation
 
 ## 400
 The scientific name of the Arabian oryx. :: Oryx leucoryx
@@ -412,6 +417,14 @@ The mammal with the shortest pregnancy, about 12 days. :: Virginia opossum
 The camel's body temperature can change by this much in a day to save water. :: About 6 °C
 The gorilla researcher killed in Rwanda in 1985. :: Dian Fossey
 The zoologist who studied imprinting in geese. :: Konrad Lorenz
+The muscular part of a bird's stomach that grinds food, often with swallowed grit. :: Gizzard
+The first and largest chamber of a cow's stomach, where microbes ferment grass. :: Rumen
+Colouring that is dark on top and pale underneath, as on sharks and many fish. :: Countershading
+The voice organ of birds, found where the windpipe splits. :: Syrinx
+The insect order of butterflies and moths, meaning "scale wings". :: Lepidoptera
+The organs at the tip of a spider's abdomen that produce silk. :: Spinnerets
+Laying eggs in other birds' nests so they raise the young, as cuckoos do. :: Brood parasitism
+The small hard tip on a baby bird's beak used to break out of the egg. :: Egg tooth
 
 ## 500
 The scientific name of the cheetah. :: Acinonyx jubatus
@@ -512,3 +525,5 @@ The scientist who studied the waggle dance of bees. :: Karl von Frisch
 The scorpion species of North Africa and Arabia called the deathstalker. :: Leiurus quinquestriatus
 The bird family of the hoopoe, a crested bird mentioned in the Qur'an. :: Upupidae
 The Red Sea is home to over this many species of fish. :: About 1,200
+The stinging cells of jellyfish and corals that fire tiny harpoon-like threads. :: Cnidocytes (nematocysts)
+The countercurrent net of blood vessels that saves heat in the legs of penguins and other animals. :: Rete mirabile

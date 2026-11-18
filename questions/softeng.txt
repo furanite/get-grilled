@@ -315,6 +315,7 @@ The number of principles behind the Agile Manifesto. :: 12
 The software engineer who created Extreme Programming. :: Kent Beck
 A short, time-boxed piece of research to reduce uncertainty in Agile. :: Spike
 The Amazon rule says a team should be small enough to be fed by this many pizzas. :: 2
+The SOLID principle that a class should have only one reason to change. :: Single responsibility principle
 
 ## 400
 The 1972 paper by David Parnas on decomposing systems into modules introduced this idea. :: Information hiding
@@ -416,6 +417,7 @@ The process from Rational Software with inception, elaboration, construction and
 UML's "Three Amigos" were Grady Booch, James Rumbaugh and this man. :: Ivar Jacobson
 The US ski resort where the Agile Manifesto was written. :: Snowbird, Utah
 The 1968 NATO conference location where the term "software engineering" was popularised. :: Garmisch, Germany
+In SRE alerting, how fast a service is using up its error budget compared with the rate the SLO allows. :: Burn rate
 
 ## 500
 The 1987 Brooks essay distinguished essential complexity from this kind. :: Accidental complexity
@@ -512,3 +514,9 @@ The 1997 essay by Eric Raymond comparing two styles of open-source development. 
 Linus's law: given enough eyeballs, all bugs are this. :: Shallow
 The Netflix suite of failure-injection tools that included Chaos Monkey. :: Simian Army
 The 1999 book by Andrew Hunt and David Thomas that introduced the DRY principle. :: The Pragmatic Programmer
+The fault localisation formula, borrowed from biology, that often ranks faulty lines better than Tarantula. :: Ochiai
+Robert Martin's "distance from the main sequence" combines instability with this package metric. :: Abstractness
+The branching-time temporal logic introduced by Clarke and Emerson in 1981, shortened to three letters. :: CTL (computation tree logic)
+Barbara Liskov's 1987 OOPSLA keynote that introduced her substitution idea: "Data Abstraction and ___". :: Hierarchy
+The tightest and worst kind of coupling, in which one module changes another's internal data. :: Content coupling
+The 1971 Gerald Weinberg book that introduced "egoless programming". :: The Psychology of Computer Programming

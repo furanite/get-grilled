@@ -323,6 +323,8 @@ The number of founding members of the Arab League. :: 7
 The year Saudi Aramco listed shares on the Tadawul stock exchange. :: 2019
 The Andalusian polymath who tried to fly with wings in the 9th century. :: Abbas ibn Firnas
 The Rashidi dynasty ruled from this city, rival of the Al Saud. :: Ha'il
+The capital of Mauritania. :: Nouakchott
+The Egyptian city at the Mediterranean end of the Suez Canal. :: Port Said
 
 ## 400
 The founder of the Umayyad dynasty. :: Mu'awiya ibn Abi Sufyan
@@ -417,6 +419,14 @@ The sultan who ruled Oman from 1970 to 2020. :: Sultan Qaboos bin Said
 The marshes of southern Iraq, on UNESCO's list since 2016. :: Mesopotamian Marshes (Ahwar)
 The ancient Kushite city in Sudan famous for its steep pyramids. :: Meroë
 The Tunisian group that won the 2015 Nobel Peace Prize. :: National Dialogue Quartet
+The capital of the Comoros. :: Moroni
+The Tunisian town with one of the largest Roman amphitheatres in the world. :: El Jem
+The Moroccan imperial city built up by Sultan Moulay Ismail in the late 1600s. :: Meknes
+The Egyptian Western Desert oasis where Alexander the Great visited the oracle of Amun. :: Siwa
+The fertile valley in Lebanon between the Mount Lebanon and Anti-Lebanon ranges. :: Beqaa Valley
+The angular Arabic script used in early copies of the Quran, named after an Iraqi city. :: Kufic
+The capital of the Assyrian Empire, whose ruins lie across the Tigris from Mosul. :: Nineveh
+The Algerian valley of five fortified ksour towns, a UNESCO site, whose main town is Ghardaïa. :: M'zab Valley
 
 ## 500
 The year the Treaty of Darin was signed between Ibn Saud and Britain. :: 1915
@@ -512,3 +522,10 @@ The Omani port famous for shipbuilding of dhows. :: Sur
 The UNESCO-listed Omani irrigation channels. :: Aflaj
 The Omani fort that is a UNESCO site, on the edge of the Hajar mountains. :: Bahla Fort
 The Mauritanian iron ore train is one of the longest in the world, running to this port. :: Nouadhibou
+The Basran scholar traditionally credited with first marking vowels on Arabic script with dots. :: Abu al-Aswad al-Du'ali
+The grammarian whose book, known simply as "al-Kitab", is the first great work of Arabic grammar. :: Sibawayh
+The Oman-born scholar of Basra who wrote the first Arabic dictionary, "Kitab al-'Ayn", and founded Arabic prosody. :: Al-Khalil ibn Ahmad al-Farahidi
+The Mamluk-era historian whose "al-Khitat" describes the districts and buildings of Cairo. :: Al-Maqrizi
+The Andalusian traveller whose "Rihla" described his Hajj journey of 1183 to 1185. :: Ibn Jubayr
+The Andalusian botanist from Málaga who wrote a great encyclopedia of simple medicines. :: Ibn al-Baytar
+The Damascus-born physician who described the pulmonary circulation of the blood in the 13th century. :: Ibn al-Nafis

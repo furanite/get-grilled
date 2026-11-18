@@ -432,6 +432,10 @@ The rolling-bearing fault frequency for a defect on the fixed outer ring, abbrev
 The other name for the tennis racket theorem, after a cosmonaut's wing nut video. :: Dzhanibekov effect
 The frequency ratio of the second mode to the first for a cantilever beam, roughly. :: About 6.3
 Explorer 1 began tumbling because it spun about this axis while losing energy. :: Its axis of minimum moment of inertia
+The dimensionless number, about 0.2 for a circular cylinder, that sets the vortex shedding frequency. :: Strouhal number
+The exact period of a simple pendulum at large amplitude is given by this special function. :: Complete elliptic integral of the first kind
+Rayleigh's method adds this fraction of a uniform spring's mass to the end mass. :: One third
+The damping ratio that gives about 4.3% overshoot in a second-order step response. :: About 0.707 (1/√2)
 
 ## 500
 The astronomer who paid to publish Newton's Principia. :: Edmond Halley
@@ -519,3 +523,18 @@ Ernst Mach criticised Newton's absolute space in this 1883 book. :: The Science 
 Earth's free precession, discovered in 1891, has a period of about this. :: About 433 days (Chandler wobble)
 The recursive algorithm for robot dynamics named after two researchers in 1980. :: Newton–Euler (Luh, Walker and Paul) algorithm
 The sequence of period doublings that leads to chaos has a universal constant named after this person. :: Mitchell Feigenbaum
+Den Hartog's optimal tuning ratio of absorber to main frequency for mass ratio μ. :: 1/(1 + μ)
+The frequencies where all response curves of a damped absorber system cross, whatever the damping. :: Fixed (invariant) points
+The chart of stable and unstable parameter regions for the Mathieu equation. :: Ince–Strutt diagram
+The theory saying solutions of linear ODEs with periodic coefficients are periodic functions times exponentials. :: Floquet theory
+The principal parametric resonance occurs when the parameter varies at this multiple of the natural frequency. :: Twice
+The damping model with energy loss per cycle independent of frequency, using complex stiffness k(1 + iη). :: Hysteretic (structural) damping
+At resonance, the loss factor η relates to the viscous damping ratio ζ by this. :: η = 2ζ
+When two natural frequency curves approach as a parameter changes but swap mode shapes instead of crossing. :: Curve veering (avoided crossing)
+The aeroelastic instability in which a wing's bending and torsion frequencies merge. :: Coupled-mode (bending–torsion) flutter
+The range where vortex shedding frequency follows a structure's natural frequency instead of the Strouhal value. :: Lock-in (synchronisation)
+The L4 and L5 points of the restricted three-body problem are stable only if the mass ratio is below about this. :: About 0.0385 (Routh's criterion)
+The only constant of motion in the circular restricted three-body problem. :: Jacobi integral
+The PDE ∂S/∂t + H(q, ∂S/∂q, t) = 0 for the generating function of mechanics. :: Hamilton–Jacobi equation
+The theorem that most quasi-periodic orbits survive small perturbations of an integrable Hamiltonian system. :: KAM theorem
+The pendulum that stays stable upside down when its pivot is vibrated up and down quickly. :: Kapitza's pendulum

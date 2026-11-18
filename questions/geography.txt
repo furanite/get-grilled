@@ -423,6 +423,10 @@ The country whose capital is Port Louis. :: Mauritius
 The country whose capital is Victoria, in the Indian Ocean. :: Seychelles
 The country with the most time zones, including overseas lands. :: France
 The country with the most islands, by some counts over 200,000. :: Sweden
+The capital of Nicaragua. :: Managua
+The longest river in Canada, flowing to the Arctic Ocean. :: The Mackenzie River
+The strait that separates Tasmania from mainland Australia. :: Bass Strait
+The coastal desert of south-western Africa, often called the oldest desert in the world. :: The Namib Desert
 
 ## 500
 The capital of Burkina Faso. :: Ouagadougou
@@ -512,3 +516,16 @@ The only other doubly landlocked country besides Liechtenstein. :: Uzbekistan
 The sand dune shaped like a crescent. :: Barchan
 The capital of the Faroe Islands. :: Tórshavn
 The largest island in the Arabian Gulf. :: Qeshm
+The capital of the Solomon Islands. :: Honiara
+The capital of Tonga. :: Nukuʻalofa
+The capital of Palau. :: Ngerulmud
+Nauru has no official capital; its government offices are in this district. :: Yaren
+The deepest lake in Africa. :: Lake Tanganyika
+The two rivers that form most of the border between Germany and Poland. :: The Oder and the Neisse
+The strait that separates Sri Lanka from India. :: Palk Strait
+The strait that separates Australia from New Guinea. :: Torres Strait
+The Hawaiian mountain that is the tallest on Earth measured from its base on the sea floor. :: Mauna Kea
+The long arc of red sand that links the Nafud with the Empty Quarter in Saudi Arabia. :: Ad-Dahna
+The large sand desert in northern Saudi Arabia, around Ha'il and Al-Jawf. :: An-Nafud (the Great Nafud)
+The point in the ocean farthest from any land. :: Point Nemo
+The largest landlocked country in the world. :: Kazakhstan

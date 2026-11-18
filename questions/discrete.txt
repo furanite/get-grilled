@@ -416,6 +416,9 @@ The value of 2^(2^5) + 1 has this prime factor found by Euler. :: 641
 The theorem by Wilson: (p − 1)! ≡ this mod p for prime p. :: −1
 The number of labelled simple graphs on 4 vertices. :: 64
 The theorem that names Euclid's algorithm's worst case after a French mathematician, from 1844. :: Lamé's theorem
+The number of ways to choose 5 items from 20. :: 15,504
+The number of integers from 1 to 1000 divisible by 3, 5 or 7. :: 543
+The coefficient of x²y³ in (2x + y)⁵. :: 40
 
 ## 500
 The number of partial orders on a 4-element set. :: 219
@@ -516,3 +519,5 @@ The two mathematicians whose results show the continuum hypothesis is independen
 The axiom equivalent to Zorn's lemma and the well-ordering theorem. :: Axiom of choice
 The paradox that a ball can be split and reassembled into two identical balls, using the axiom of choice. :: Banach–Tarski paradox
 The Ramsey number R(4, 4). :: 18
+The Catalan number C₁₀. :: 16,796
+The number of derangements of 7 items. :: 1,854

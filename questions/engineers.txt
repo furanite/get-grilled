@@ -92,6 +92,18 @@ The inventor of the raised-dot reading system for blind people. :: Louis Braille
 The first woman in space, in 1963. :: Valentina Tereshkova
 The engineer who founded Bosch. :: Robert Bosch
 The engineer who founded Ferrari. :: Enzo Ferrari
+The Italian scientist who invented the electric battery and gave his name to the volt. :: Alessandro Volta
+The German physicist after whom the unit of electrical resistance is named. :: Georg Ohm
+The French scientist after whom the unit of electric current is named. :: André-Marie Ampère
+The German physicist after whom the unit of frequency is named. :: Heinrich Hertz
+The English scientist after whom the unit of energy is named. :: James Prescott Joule
+The Belfast-born scientist after whom the unit of absolute temperature is named. :: Lord Kelvin (William Thomson)
+The astronomer who placed the Sun at the centre of the Solar System in 1543. :: Nicolaus Copernicus
+The Muslim mathematician whose name gave us the word 'algorithm'. :: Al-Khwarizmi
+The Scottish physicist who united electricity and magnetism in four famous equations. :: James Clerk Maxwell
+The name of the Wright brothers' 1903 aeroplane. :: Wright Flyer
+The second person to walk on the Moon, in 1969. :: Buzz Aldrin
+The English scientist whose law says a spring's extension is proportional to the force on it. :: Robert Hooke
 
 ## 200
 The French sculptor who designed the Statue of Liberty. :: Frédéric Auguste Bartholdi
@@ -193,6 +205,7 @@ The physicist who led the Manhattan Project's scientific work. :: J. Robert Oppe
 The engineer who invented the Geiger counter with Walther Müller. :: Hans Geiger
 The breast cancer stem cell researcher who became the first Saudi woman in space. :: Rayyanah Barnawi
 The French mathematician who built a calculating machine in 1642 at age 19. :: Blaise Pascal
+The German astronomer who showed that planets move in ellipses. :: Johannes Kepler
 
 ## 300
 The grandson of Ferdinand Porsche who designed the Porsche 911. :: Ferdinand Alexander 'Butzi' Porsche
@@ -287,6 +300,14 @@ The brothers who founded the Michelin tyre company in 1889. :: André and Édoua
 The Italian engineer who designed the Fiat 500 of 1957. :: Dante Giacosa
 The Indian-American engineer who co-founded Hotmail in 1996. :: Sabeer Bhatia
 The 12th-century author of The Book of Knowledge of Ingenious Mechanical Devices. :: Al-Jazari
+The Italian physicist who invented the mercury barometer in 1643. :: Evangelista Torricelli
+The Bell Labs engineer whose 1948 paper founded information theory. :: Claude Shannon
+The Hungarian-American mathematician whose 1945 report described the stored-program computer design. :: John von Neumann
+Shockley's two Bell Labs colleagues who built the first point-contact transistor in 1947. :: John Bardeen and Walter Brattain
+The French engineer whose 1824 book on the motive power of fire founded thermodynamics. :: Sadi Carnot
+The German engineer whose 1904 boundary layer theory founded modern aerodynamics. :: Ludwig Prandtl
+The Hungarian-American engineer who co-founded NASA's Jet Propulsion Laboratory and explained vortex streets. :: Theodore von Kármán
+The Swiss mathematician whose 1738 book linked a fluid's speed with its pressure. :: Daniel Bernoulli
 
 ## 400
 The Swiss-French architect who designed the Villa Savoye. :: Le Corbusier

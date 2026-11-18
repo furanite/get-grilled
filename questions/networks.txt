@@ -420,6 +420,18 @@ The Wi-Fi generation that added the 6 GHz band. :: Wi-Fi 6E
 The Wi-Fi generation based on 802.11be. :: Wi-Fi 7
 The year CERN put the World Wide Web software in the public domain. :: 1993
 The Hollywood actress who co-invented frequency hopping, an ancestor of Wi-Fi and Bluetooth. :: Hedy Lamarr
+The TCP state of the side that has received a FIN but has not yet closed its own end. :: CLOSE_WAIT
+The OSPF router that connects one or more areas to the backbone area. :: Area border router (ABR)
+The OSPF router that brings in routes from another routing protocol or domain. :: ASBR (AS boundary router)
+BGP sessions between routers inside the same autonomous system. :: iBGP
+The BGP feature that avoids a full mesh of iBGP sessions by re-advertising routes to its clients. :: Route reflector
+The spanning tree port state in which a port fills its MAC table but does not yet forward frames. :: Learning
+The switch with the lowest bridge ID, which becomes the centre of the spanning tree. :: Root bridge
+The faster version of spanning tree standardised as IEEE 802.1w. :: RSTP (Rapid Spanning Tree)
+The VLAN whose frames cross an 802.1Q trunk without a tag. :: Native VLAN
+The attack that puts two 802.1Q tags on a frame to reach another VLAN. :: VLAN hopping (double tagging)
+The switch security feature that blocks rogue DHCP servers by trusting only chosen ports. :: DHCP snooping
+The translation mechanism that lets IPv6-only clients reach IPv4 servers, paired with DNS64. :: NAT64
 
 ## 500
 The number of usable hosts in a /22 network. :: 1,022
@@ -516,3 +528,9 @@ The number of the RFC that defines UDP. :: 768
 The number of the RFC that defined IPv6 in 2017 as an internet standard. :: 8200
 The scientist at CERN who co-proposed the web with Tim Berners-Lee in 1990. :: Robert Cailliau
 The engineer at Ericsson who invented Bluetooth. :: Jaap Haartsen
+The OSPF LSA type that a designated router generates to list the routers on a multi-access network. :: Type 2 (network LSA)
+The OSPF neighbour state in which routers send each other database description packets. :: Exchange
+The default bridge priority on most switches running spanning tree. :: 32,768
+In TCP Reno, the size the congestion window drops to after a retransmission timeout. :: One segment (1 MSS)
+The TCP Reno phase after fast retransmit that halves the window and skips slow start. :: Fast recovery
+The well-known BGP community that tells a peer not to advertise a route outside its own AS. :: NO_EXPORT

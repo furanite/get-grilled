@@ -322,6 +322,10 @@ A machine that fills the air with a fine mist so light beams can be seen. :: A h
 The British inventor who also made an early light bulb. :: Joseph Swan
 The test with coloured dots to check colour vision. :: The Ishihara test
 Rømer used the moons of this planet. :: Jupiter
+The colour scheme of a base colour plus the two colours on either side of its complement. :: Split-complementary
+The colour scheme of four colours forming a rectangle on the colour wheel. :: Tetradic (double-complementary)
+The streaks, rings or haze in a photo caused by bright light scattering inside the lens. :: Lens flare
+The number in the lamp cap code "E27" gives the screw base's diameter in this unit. :: Millimetres
 
 ## 400
 The photometric quantity of light power weighted by the eye's sensitivity. :: Luminous flux
@@ -422,6 +426,8 @@ The Pantone Colour of the Year for 2025. :: Mocha Mousse
 The Pantone Colour of the Year for 2024. :: Peach Fuzz
 The Pantone Colour of the Year for 2023. :: Viva Magenta
 The yellow pigment made from the urine of cows fed mango leaves. :: Indian yellow
+The unit of solid angle used in defining the lumen. :: Steradian
+A camera sensor's Bayer filter has twice as many pixels of this colour as of the others. :: Green
 
 ## 500
 The ancient Greek philosopher who said colours come from mixing light and dark. :: Aristotle
@@ -514,3 +520,13 @@ The Jeddah Light is about this tall. :: 133 metres
 The lighthouse at the end of a pier that is the world's tallest. :: The Jeddah Light
 Al-Farisi ﵀ was a student of this scholar. :: Qutb al-Din al-Shirazi ﵀
 The prince that Jaipur's buildings were painted pink to welcome in 1876. :: The Prince of Wales (Albert Edward)
+The 1976 CIE chromaticity diagram with u′ and v′ coordinates, made more perceptually even than 1931. :: CIE 1976 UCS (u′v′) diagram
+The metric for a lamp's distance above or below the Planckian locus on the u′v′ diagram. :: Duv
+The CIE 1931 tristimulus value that was chosen to equal luminance. :: Y
+The CIE colour-difference formula of 2000 that corrects ΔE for lightness, chroma and blue hues. :: CIEDE2000 (ΔE00)
+The colour appearance model recommended by the CIE in 2002. :: CIECAM02
+The HDR transfer function in SMPTE ST 2084, based on human contrast sensitivity. :: PQ (Perceptual Quantizer)
+The HDR transfer function made by the BBC and NHK, which also works on SDR screens. :: HLG (Hybrid Log-Gamma)
+The IEEE standard giving recommended limits on LED flicker to protect health. :: IEEE 1789
+The 1853 laws stating that colour matches are linear and additive. :: Grassmann's laws
+The light measure weighted by the eye's melanopsin response, used to judge effects on the body clock. :: Melanopic EDI (equivalent daylight illuminance)

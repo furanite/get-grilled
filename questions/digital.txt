@@ -424,6 +424,9 @@ The Google chip for neural networks built around a systolic array, shortened to 
 The 1978 array design by Kung and Leiserson in which data pulses through a grid of cells. :: Systolic array
 The "memory wall" describes processor speed growing much faster than this. :: Memory speed (latency)
 The graph that plots performance against arithmetic intensity, with a sloped and a flat part. :: Roofline model
+The MIPS instruction format used by beq, lw and addi. :: I-type
+The number of read ports a typical 5-stage MIPS register file needs. :: 2
+The page table with one entry per physical frame instead of one per virtual page. :: Inverted page table
 
 ## 500
 The number of Boolean functions of n variables, as a formula. :: 2^(2^n)
@@ -518,3 +521,11 @@ NVIDIA's name for each GPU processor block that runs warps, shortened to two let
 The number of multiply-accumulate units in the first Google TPU's systolic array. :: 65,536
 The Cerebras chip notable for being a whole wafer. :: Wafer-Scale Engine
 The number of address lines on the Intel 8086, giving 1 MB of memory. :: 20
+The number of monotone Boolean functions of 3 variables, a Dedekind number. :: 20
+The number of 2-input Boolean functions that are functionally complete on their own. :: 2 (NAND and NOR)
+The redundant number system with digits −1, 0 and 1 that lets SRT division pick quotient digits from a few bits. :: Signed-digit (redundant) representation
+The spin-lock method that spins on a cached read before trying the atomic swap, to cut bus traffic. :: Test-and-test-and-set
+The queue-based spin lock of Mellor-Crummey and Scott in which each waiter spins on its own flag. :: MCS lock
+The standard time window within which every DRAM row must be refreshed, in DDR memory. :: 64 ms
+The memory ECC scheme that corrects single-bit errors and detects double-bit errors, shortened. :: SECDED (extended Hamming code)
+The bus in Tomasulo's algorithm that broadcasts results to all waiting reservation stations. :: Common data bus (CDB)

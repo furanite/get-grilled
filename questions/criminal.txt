@@ -203,6 +203,10 @@ The American "Innocence Project" uses this to free the wrongly convicted. :: DNA
 The Saudi royal pardon for prisoners is often given in this month. :: Ramadan
 The OIC's headquarters are in this city. :: Jeddah
 The British crime writer who created Hercule Poirot. :: Agatha Christie
+An incomplete crime such as attempt, conspiracy or encouraging a crime is called this. :: An inchoate offence
+The person who actually carries out the criminal act, rather than helping. :: The principal (perpetrator)
+The Latin maxim that ignorance of the law is no excuse. :: Ignorantia juris non excusat
+A deal in which the accused admits guilt in return for a lesser charge or sentence. :: A plea bargain
 
 ## 300
 Intention where the result is the person's aim. :: Direct intention
@@ -522,6 +526,9 @@ The Saudi Anti-Bribery Law was issued in this year. :: 1992
 The rule that a death must happen within a year and a day for murder was abolished in England in this year. :: 1996
 In Ivey v Genting, a famous poker player won millions at this casino card game. :: Punto banco (baccarat)
 Fingerprint classification was developed by Edward Henry in this country. :: British India
+The 1935 House of Lords case that called the prosecution's duty to prove guilt the "golden thread" of English criminal law. :: Woolmington v DPP
+The 1957 English case about a stolen gas meter that read "maliciously" as subjective recklessness. :: R v Cunningham
+Travis Hirschi's 1969 theory that strong ties to family, school and community keep people from crime. :: Social bond (control) theory
 
 ## tf
 Using reasonable force to stop an attacker in Saudi Arabia. :: Legal (lawful self-defence)

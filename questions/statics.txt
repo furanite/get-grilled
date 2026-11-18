@@ -420,6 +420,7 @@ The Rankine earth pressure coefficient for active pressure with friction angle �
 The angle a frictionless retaining wall's failure wedge makes with the horizontal in active Rankine conditions. :: 45° + φ/2
 The engineer who developed wedge theory for retaining walls in 1776. :: Charles-Augustin de Coulomb
 A suddenly applied load on an undamped elastic bar produces this many times the static stress. :: Two
+The fixed-end moment at the left end of a fixed-ended beam with a point load P at distance a from the left and b from the right. :: Pab²/L²
 
 ## 500
 The Roman engineer whose book De Architectura described cranes and hoists. :: Vitruvius
@@ -512,3 +513,13 @@ The unit of the warping constant in SI. :: m⁶
 The first published finite element paper (1956) by Turner, Clough, Martin and Topp was for this industry. :: Aircraft (Boeing)
 The engineer who coined the term 'finite element' in 1960. :: Ray Clough
 The general-purpose finite element program developed for NASA in the late 1960s. :: NASTRAN
+The effective length factor of a column fixed at one end and at the other held against rotation but free to sway. :: 1.0
+For a fixed-ended rectangular beam under uniform load, the ratio of plastic collapse load to first-yield load. :: 2
+In moment distribution, the stiffness of a prismatic member whose far end is pinned. :: 3EI/L
+The plastic collapse load of a propped cantilever of span L with a central point load and plastic moment Mp. :: 6Mp/L
+The radius of gyration of a thin-walled circular tube of mean radius r about a diameter. :: r/√2
+The distance of the shear centre from the centre of a thin open semicircular section of radius r. :: 4r/π
+The angle above the horizontal at which a rope drags a block on rough level ground with the least pull, for friction μ. :: The friction angle (tan θ = μ)
+A uniform ladder rests on a smooth wall and rough floor of friction μ. The smallest angle θ with the floor at which it does not slip. :: tan θ = 1/(2μ)
+In a hanging cable, the vertical component of tension at any point equals this. :: The weight of cable between that point and the lowest point
+For moving point loads on a simple span, the moment under a load is greatest when midspan bisects the distance from that load to this. :: The resultant of the loads

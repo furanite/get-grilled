@@ -332,6 +332,12 @@ The next number: 1, 3, 7, 15, 31. :: 63
 Twelve pears hung high, twelve men passed by; each took a pear and left eleven hanging. This is how. :: "Each" was the name of one man
 The sum of all numbers from 1 to 100, which Gauss is said to have found as a child. :: 5,050
 The number of minutes in a week. :: 10,080
+It is the next number: 1, 4, 27, 256. :: 3,125
+A father is four times as old as his son. In 20 years he will be twice as old. The son's age now. :: 10
+Taken from a mine and shut in a wooden case, I am never let out, yet almost everyone uses me. What am I? :: Pencil lead (graphite)
+The angle between the hour and minute hands of a clock at 2:20. :: 50 degrees
+The number of times the digit 0 appears when you write the whole numbers from 1 to 100. :: 11
+The day of the week that comes 100 days after a Monday. :: Wednesday
 
 ## 400
 A man jumps out of a 10-storey window but is unhurt. He jumped from here. :: The ground-floor window
@@ -422,6 +428,18 @@ In SEND + MORE = MONEY, the letter M stands for this digit. :: 1
 It is a word containing all five vowels in order: A, E, I, O, U. :: Facetious (or abstemious)
 A man looks at a portrait and says "Brothers and sisters I have none, but that man's father is my father's son." The portrait shows this person. :: His son
 "The day before yesterday I was 25 and next year I'll be 28." Said on January 1, this is the speaker's birthday. :: December 31
+The minimum number of weighings on a balance to find the one heavier coin among 27 identical-looking coins. :: 3
+The angle between the hour and minute hands of a clock at 4:20. :: 10 degrees
+The number of rectangles of all sizes, squares included, on a standard 8 × 8 chessboard. :: 1,296
+The number of diagonals in an octagon. :: 20
+The number of times you write the digit 5 when writing every whole number from 1 to 1,000. :: 300
+A man hangs from a ceiling beam in an empty locked room, with only a puddle of water beneath him. What did he stand on? :: A block of ice
+On the island of knights and knaves, A says: "At least one of us is a knave." What are A and B? :: A is a knight, B is a knave
+The digits 8, 5, 4, 9, 1, 7, 6, 3, 2, 0 are written in this order. Why? :: Alphabetical order of their English names
+It is the next number: 1, 4, 9, 61, 52, 63. :: 94
+One coin is fair, the other has two heads. You pick one at random, toss it and see heads. The chance it is the two-headed coin. :: 2/3
+You drive the first 1 km of a 2 km circuit at 30 km/h. The speed you need on the second km to average 60 km/h overall. :: Impossible: the time is already used up
+Two volumes stand in order on a shelf, each with 4 cm of pages and 2 mm covers. A worm bores from page 1 of Vol. 1 to the last page of Vol. 2. Distance? :: 4 mm (just the two covers)
 
 ## 500
 Paul Sloane popularised this kind of puzzle, where you ask yes/no questions to find the hidden story. :: Lateral thinking puzzles
@@ -511,3 +529,16 @@ A word that contains each of the vowels exactly once in reverse order, U-O-I-E-A
 The longest English word that can be typed with only the left hand on a QWERTY keyboard, commonly cited. :: Stewardesses (or sweaterdresses)
 The word game where players add letters to a growing fragment without completing a word. :: Ghost
 In the Victorian riddle, a cat has claws at the end of its paws, and a comma has this. :: A pause at the end of a clause
+Joining n points on a circle with every chord gives 1, 2, 4, 8 and 16 regions for n = 1 to 5. The number of regions for 6 points. :: 31
+A census taker hears: the product of my three daughters' ages is 36, the sum is the house number, and my eldest plays the piano. Their ages. :: 2, 2 and 9
+The thought experiment with a near-perfect predictor and two boxes, one clear with 1,000 and one that may hold a million. :: Newcomb's paradox
+The paradox in which adding a new road to a congested network makes every driver's trip slower. :: Braess's paradox
+The paradox in which a trend that appears in every group reverses when the groups are combined. :: Simpson's paradox
+The thought experiment of a full hotel with infinitely many rooms that can still always take one more guest. :: Hilbert's Hotel
+The paradox in which seeing a green apple seems to support the claim "all ravens are black". :: Hempel's raven paradox
+The counting-out puzzle where every kth person in a circle is removed, named after a 1st-century historian. :: The Josephus problem
+The dissection puzzle in which four pieces of a 13 × 5 "triangle" are rearranged and a hole of one square appears. :: The missing square puzzle (Curry's paradox)
+The smallest group size for a better than 50 percent chance that someone shares your own birthday. :: 253
+A family has two children, and one is a boy born on a Tuesday. The probability that both are boys. :: 13/27
+The 1850 puzzle of 15 schoolgirls walking in rows of three for seven days, no pair walking together twice. :: Kirkman's schoolgirl problem
+Why can't 31 dominoes cover a chessboard with two opposite corner squares removed? :: The two removed squares are the same colour

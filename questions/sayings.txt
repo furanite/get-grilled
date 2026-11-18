@@ -337,6 +337,7 @@ The idiom for something done quickly with no rest: in one ___. :: Fell swoop
 "You can't judge someone until you've walked a mile in their ___." :: Shoes
 "The best things in life are ___." :: Free
 "Something is rotten in the state of Denmark" is from this play. :: Hamlet
+"Cut your coat according to your ___." :: Cloth
 
 ## 400
 The idiom "red tape", meaning bureaucracy, comes from the ribbon once used to tie these. :: Official documents
@@ -426,6 +427,19 @@ A "Scrooge", a mean person, comes from a story by this author. :: Charles Dicken
 "Ferris wheel" is named after this American engineer. :: George Ferris
 "Jumbo", meaning huge, comes from a famous 19th-century one of these. :: Elephant
 "Tantalise" comes from Tantalus, whose food and water always stayed just out of this. :: Reach
+The rubber boots nicknamed "wellies" are named after this duke who defeated Napoleon. :: The Duke of Wellington
+"Bloomers", loose trousers for women, are named after this American reformer. :: Amelia Bloomer
+The road surface "macadam" is named after this Scottish engineer. :: John Loudon McAdam
+A "Pavlovian" response is named after this Russian physiologist. :: Ivan Pavlov
+"Machiavellian", meaning cunning and scheming, comes from the author of "The Prince". :: Niccolò Machiavelli
+"Panic" comes from this Greek god of the wild, said to cause sudden fear. :: Pan
+"Cereal" comes from this Roman goddess of agriculture and grain. :: Ceres
+"Cutting the Gordian knot", solving a problem boldly, refers to this conqueror. :: Alexander the Great
+"Crocodile tears" come from an old belief that crocodiles weep while doing this. :: Eating their prey
+A "Sisyphean" task is endless, like Sisyphus forever pushing this up a hill. :: A boulder
+"Algorithm" comes from the Latinised name of this Baghdad mathematician. :: Al-Khwarizmi
+"Magazine" comes from the Arabic "makhazin", meaning this. :: Storehouses
+"Monsoon" comes from the Arabic "mawsim", meaning this. :: Season
 
 ## 500
 The idiom "to eat humble pie" comes from "umble pie", made from these. :: Animal offal (entrails)
@@ -513,3 +527,18 @@ The "mare" in "nightmare" was originally this. :: An evil spirit that sat on sle
 "Hazard" comes from the Arabic "al-zahr", meaning this. :: The dice
 "Mattress" comes from the Arabic "matrah", meaning this. :: A place where something is thrown down (a cushion)
 "Sofa" comes from the Arabic "suffa", meaning this. :: A raised bench
+"Arsenal" comes from the Arabic "dar al-sina'a", meaning this. :: House of manufacture (workshop)
+"Admiral" comes from the Arabic title "amir", meaning this. :: Commander
+"Cipher" and "zero" both come from the Arabic "sifr", meaning this. :: Empty
+"Tariff" comes from the Arabic "ta'rif", meaning this. :: Notification (making known)
+To "run amok" comes from a word in this language. :: Malay
+"Halcyon days", calm and happy times, are named after this bird said to calm the sea. :: The kingfisher
+"Nemesis" comes from the Greek goddess of this. :: Divine retribution
+A "spoonerism", like "you hissed my mystery lecture", is named after this Oxford don. :: William Archibald Spooner
+To "bowdlerise", to censor a text, comes from this editor of a cleaned-up Shakespeare. :: Thomas Bowdler
+"Procrustean" comes from a robber who did this to guests to fit his bed. :: Stretched them or cut off their legs
+A "philippic", a bitter attacking speech, comes from Demosthenes' speeches against this king. :: Philip II of Macedon
+A "stentorian" voice comes from Stentor, a loud herald in this epic. :: The Iliad
+A "martinet", a strict disciplinarian, is named after this 17th-century French officer. :: Jean Martinet
+The Arabic proverb "Absar min Zarqa' al-Yamama" describes someone with this. :: Extremely sharp eyesight
+The Arabic proverb "Awfa min al-Samaw'al" describes someone famous for this. :: Loyalty (keeping a promise)

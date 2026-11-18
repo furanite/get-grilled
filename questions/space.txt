@@ -420,6 +420,8 @@ The year Halley's Comet will next come close to the Sun. :: 2061
 The Chinese rover that landed on Mars in 2021. :: Zhurong
 The Soviet spacecraft that first reached the Moon's surface by impact in 1959. :: Luna 2
 The first woman to walk in space. :: Svetlana Savitskaya
+The speed of a circular orbit just above the Earth's surface, roughly. :: About 7.9 km/s
+The near-polar orbit that passes over each place at the same local solar time every day. :: Sun-synchronous orbit
 
 ## 500
 The mathematician who predicted Neptune's position along with John Couch Adams. :: Urbain Le Verrier
@@ -512,3 +514,13 @@ The huge empty regions between galaxy filaments. :: Cosmic voids
 The rare star type that may be the brightest stars of the early universe. :: Population III stars
 The record-distant galaxy confirmed by Webb in 2024. :: JADES-GS-z14-0
 The Space Shuttle flight STS-51-G carried the first Arab astronaut and launched this satellite for Arabsat. :: Arabsat-1B
+The luminosity at which outward radiation pressure on ionised gas balances a star's gravity. :: Eddington luminosity (limit)
+Far from a galaxy's centre, Keplerian motion predicts orbital speed falling as radius to this power, unlike the flat curves seen. :: −1/2
+The Tsiolkovsky equation gives Δv as exhaust velocity times the natural log of this. :: Mass ratio (initial over final mass)
+The ratio of escape velocity to circular orbital velocity at the same distance. :: √2
+The hydrogen-fusion cycle that dominates in stars above about 1.3 solar masses, using carbon as a catalyst. :: CNO cycle
+The helium-burning reaction that fuses three helium-4 nuclei into carbon-12. :: Triple-alpha process
+The excited 7.65 MeV level of carbon-12, predicted in 1953 to explain how stars make carbon. :: Hoyle state
+The radius of the innermost stable circular orbit around a non-spinning black hole, in Schwarzschild radii. :: 3 (that is, 6GM/c²)
+The redshift at which the cosmic microwave background was released, roughly. :: About 1,100
+The change in a hydrogen atom that produces the 21-cm radio line. :: Spin-flip (hyperfine) transition

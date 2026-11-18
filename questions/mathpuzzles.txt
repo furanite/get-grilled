@@ -448,6 +448,12 @@ Each interior angle of a regular decagon. :: 144 degrees
 The number of two-digit whole numbers. :: 90
 The number of three-digit numbers divisible by 5. :: 180
 The value of 4 + 4 × 4 − 4 ÷ 4. :: 19
+57 times 43. :: 2,451
+The square root of 3,136. :: 56
+The number of trailing zeros in 40 factorial. :: 9
+The number of positive divisors of 72. :: 12
+The angle between clock hands at 3:15. :: 7.5 degrees
+The number of ways to arrange the letters of COFFEE. :: 180
 
 ## 500
 The smallest number that is the sum of two cubes in two different ways. :: 1,729
@@ -534,3 +540,19 @@ The number of ways to tile a 2 by 10 strip with 2 by 1 dominoes. :: 89
 The most regions a circle can be cut into by joining 6 points on it with straight lines. :: 31
 The number of squares of all sizes on a 3 by 3 grid. :: 14
 One million seconds is roughly this many days. :: About 11.6 days
+The last digit of 3 to the power 2026. :: 9
+The remainder when 2 to the power 100 is divided by 7. :: 2
+The number of trailing zeros in 200 factorial. :: 49
+The number of positive divisors of 1,000. :: 16
+The sum of all the positive divisors of 100, including 100. :: 217
+The number of derangements of 5 items, where none is in its original place. :: 44
+The 7th Catalan number, starting C0 = 1. :: 429
+The number of squares of all sizes on a 4 by 4 grid. :: 30
+The number of shortest grid paths from one corner of a 4 by 4 grid of squares to the opposite corner. :: 70
+The most regions a plane can be cut into by 5 straight lines. :: 16
+The probability of at least one six in four rolls of a fair die, to 3 decimal places. :: 0.518
+The expected number of rolls of a fair die needed to see all six faces. :: 14.7
+The number of digits in 2 to the power 50. :: 16
+The smallest positive whole number with exactly 10 positive divisors. :: 48
+The angle between clock hands at 10:10. :: 115 degrees
+The number 2,026 in binary. :: 11111101010

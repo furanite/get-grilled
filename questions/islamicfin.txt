@@ -101,6 +101,8 @@ In the hadith of the seven who are shaded on the Day of Judgement, one gives cha
 Ibn Abbas ﵁ said the last ayah revealed was the ayah of riba. It is in this surah. :: Surat al-Baqarah
 'Fi sabilillah' as a zakat recipient means this. :: In the cause of Allah
 Zakat on gold is one-fortieth, which is the same as this percentage. :: 2.5%
+The month in which many Muslims choose to pay their zakat. :: Ramadan
+The Arabic word for a buyer. :: Mushtari
 
 ## 200
 The two main types of riba studied by scholars. :: Riba al-nasi'ah and riba al-fadl
@@ -304,6 +306,13 @@ The Hanbali jurist whose "Al-Mughni" is a major source on contracts. :: Ibn Quda
 The Majallah maxim "Hardship brings ___". :: Ease (al-mashaqqah tajlib al-taysir)
 The Islamic finance contract 'muzara'ah' is a partnership in this. :: Farming (crop-sharing)
 Our Beloved and our master, the Prophet Muhammad ﷺ repaid a loan of a young camel with a better, older camel and said this. :: The best of you are those best in repaying
+The most a person may leave by will to people who are not heirs. :: One third of the estate
+In diminishing musharaka home finance, the customer pays rent on the bank's share plus this. :: Payments to buy the bank's share unit by unit
+Under AAOIFI rules, a fee charged on a qard must not exceed this. :: The actual cost of the service
+The Arabic name for a credit sale paid in instalments. :: Bay' al-taqsit
+In Hanafi fiqh, a contract sound in its essence but flawed in a description or condition. :: Fasid
+A contract that is void from its root, such as a sale of something forbidden. :: Batil
+According to the Shafi'i and Hanbali schools, zakat al-Fitr becomes due at this moment. :: Sunset on the last day of Ramadan
 
 ## 400
 The Arabic legal term for the "illah" of riba in food items according to the Shafi'i school. :: Being food (ta'm)
@@ -512,6 +521,8 @@ The AAOIFI Sharia standard number for murabaha. :: Sharia Standard No. 8
 The AAOIFI Sharia standard number for ijara. :: Sharia Standard No. 9
 The AAOIFI Sharia standard number for sukuk (investment sukuk). :: Sharia Standard No. 17
 The AAOIFI Sharia standard on tawarruq. :: Sharia Standard No. 30
+The Maliki jurist whose book "Al-Furuq" separates similar legal rulings, including on riba and sales. :: Shihab al-Din al-Qarafi ﵀
+In sukuk al-ijara, the lessor appoints the lessee to handle major maintenance and insurance in this role. :: Service agent (service agency agreement)
 
 ## tf
 A bank lends 10,000 riyals and requires 11,000 back after a year. :: Not halal (a fixed increase on a loan is riba)

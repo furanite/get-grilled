@@ -443,6 +443,22 @@ Thick concrete pours that need heat control to avoid cracking. :: Mass concrete
 Ultra-high-performance concrete has compressive strength above about this. :: 150 MPa
 The low-carbon cement blend made with calcined clay and limestone. :: LC3 (limestone calcined clay cement)
 How many reactions (forces and moments) does this support provide in a 2D problem? {img:support-fixed.svg} :: Three (two forces and a moment)
+In ACI 318, a section is tension-controlled when the net tensile strain in the extreme steel reaches at least this value. :: 0.005
+The strut-and-tie method is used in these zones, near loads and openings, where plane sections do not stay plane. :: D-regions (disturbed regions)
+The theoretical effective length factor K for a column fixed at both ends. :: 0.5
+The failure in which an unbraced steel beam's compression flange moves sideways and the section twists. :: Lateral-torsional buckling
+The bolted steel joint that carries load by friction from bolt pretension, so it does not slip in service. :: Slip-critical connection
+The method that estimates footing settlement on sand from CPT data using strain influence factors. :: Schmertmann's method
+The influence chart, based on Boussinesq, for finding vertical stress under a loaded area of any shape. :: Newmark's chart
+The engineer who first solved stresses and deflections in a two-layer elastic pavement system in 1943. :: Donald Burmister
+The classic equations for stresses in concrete pavement slabs at interior, edge and corner loading. :: Westergaard's equations
+The late formation of this sulfate mineral can expand and crack concrete that was cured too hot. :: Ettringite (delayed ettringite formation)
+The scheduling method for repetitive work, such as high-rise floors or pipelines, that plots progress rate as sloped lines. :: Line of balance (linear scheduling)
+The time an activity can slip without delaying the early start of any following activity. :: Free float
+The large pendulum or mass device, like the 660-tonne ball in Taipei 101, that reduces wind sway. :: Tuned mass damper
+The iterative 1936 method for balancing flows in looped water pipe networks by loop corrections. :: Hardy Cross method
+In a settling tank, the flow rate divided by the surface area, which sets the smallest particle fully removed. :: Overflow rate (surface loading rate)
+The steel connection failure where a block of plate tears out along a shear plane and a tension plane. :: Block shear
 
 ## 500
 The English engineer who first called himself a 'civil engineer' and founded the first engineering society in 1771. :: John Smeaton
@@ -522,3 +538,26 @@ Saudi Arabia's East–West crude pipeline runs from Abqaiq to this Red Sea port.
 The Panama Canal opened in this year. :: 1914
 The main span of the Brooklyn Bridge, roughly. :: About 486 m
 The Eiffel Tower's original height, roughly. :: About 300 m
+In plastic analysis of slabs, the yield line method gives this kind of bound on the collapse load. :: Upper bound (unsafe)
+The strut-and-tie method gives this kind of bound on strength, provided the ties are ductile. :: Lower bound (safe)
+The ratio of plastic to elastic section modulus for a solid rectangular section. :: 1.5
+The column formula that combines yielding and elastic buckling through an assumed initial imperfection. :: Perry–Robertson formula
+In an ASCE 7 design spectrum, the period S_D1/S_DS at which the constant-acceleration plateau ends. :: Ts
+The ASCE 7 seismic factor that multiplies elastic drift to estimate the real inelastic drift. :: Cd (deflection amplification factor)
+The modal combination rule preferred over SRSS when two mode frequencies are close together. :: CQC (complete quadratic combination)
+The pile shaft friction method for clay by Vijayvergiya and Focht that mixes effective and undrained stresses. :: Lambda method
+The nonlinear soil springs used to analyse laterally loaded piles. :: p–y curves
+The Superpave binder test that loads a small beam at low temperature to check thermal cracking. :: Bending beam rheometer (BBR)
+The Norwegian rock mass index calculated from RQD, joint sets, roughness, alteration, water and stress. :: Q-system (Barton)
+In Webster's optimum cycle formula C0 = (1.5L + 5)/(1 − Y), the quantity L. :: Total lost time per cycle
+Wardrop's second principle, where total travel time across the network is minimised. :: System optimum
+The mode choice model built on random utilities with Gumbel-distributed errors. :: Multinomial logit model
+The disinfection law saying that kill rate depends on disinfectant concentration and contact time. :: Chick–Watson law
+The equation linking bacterial growth rate to substrate concentration, used in activated sludge design. :: Monod equation
+The equation for the dissolved-oxygen sag curve in a river below a sewage outfall. :: Streeter–Phelps equation
+The flood routing method for river reaches with storage S = K[xI + (1 − x)O]. :: Muskingum method
+The empirical rock mass failure criterion using the parameters mb, s and a. :: Hoek–Brown criterion
+The scale factor on the central meridian of each UTM zone. :: 0.9996
+Chloride ingress into concrete, used to predict when rebar starts to corrode, is usually modelled with this law. :: Fick's second law of diffusion
+The Toronto researchers whose modified compression field theory underlies the general shear method in codes. :: Vecchio and Collins
+The legal rule that an owner who causes delay cannot hold the contractor to the original completion date. :: Prevention principle

@@ -424,6 +424,9 @@ The fault type that is most common in power systems. :: Single line-to-ground fa
 The fault type that is usually most severe. :: Three-phase fault
 The iterative method most used for power-flow (load-flow) studies. :: Newton–Raphson method
 The bus in a load-flow study that balances losses. :: Slack (swing) bus
+The small-signal voltage gain of a common-emitter stage with collector resistor RC, ignoring ro. :: −gm·RC
+In the hybrid-π model, the base input resistance rπ equals β divided by this. :: gm (transconductance)
+The buck converter mode in which the inductor current just reaches zero at the end of each cycle. :: Boundary (critical) conduction mode
 
 ## 500
 The first commercial transistor radio, sold in 1954. :: Regency TR-1
@@ -512,3 +515,17 @@ The noise figure of a matched passive attenuator at room temperature equals this
 The ratio of the speed of signals in a coax with polyethylene to the speed of light. :: About 0.66
 A transmission line whose length is under this fraction of a wavelength can usually be treated as lumped. :: About one tenth
 The power factor correction requirement for many devices is set in the EU by this standard. :: IEC 61000-3-2
+The transconductance of a square-law MOSFET in saturation, in terms of drain current and overdrive voltage. :: 2ID/Vov
+The mean-square thermal noise voltage on the capacitor of an RC circuit, which does not depend on R. :: kT/C
+The transition frequency fT of a BJT equals gm divided by 2π times this. :: Cπ + Cμ
+An nth-order Butterworth low-pass has |H|² = 1/(1 + (ω/ωc)^k). What is k? :: 2n
+The Q factor of a second-order Butterworth low-pass filter. :: 1/√2 (about 0.707)
+The percentage overshoot of a second-order step response with damping ratio 0.5, roughly. :: About 16%
+The 2% settling time of an underdamped second-order system is roughly 4 divided by this. :: ζωn
+The feature of a boost converter's control-to-output transfer function that limits its loop bandwidth. :: Right-half-plane zero
+In a switching converter in steady state, the average of this over one switching period must be zero. :: Inductor voltage (volt-second balance)
+The output voltage of an ideal flyback converter in CCM with duty D and turns ratio n = Ns/Np. :: nD·Vin/(1 − D)
+The number of comparators in an n-bit flash ADC. :: 2ⁿ − 1
+The quantisation noise power of an ideal ADC with step size Δ. :: Δ²/12
+Each doubling of the oversampling ratio in a first-order sigma-delta modulator improves SNR by about this. :: 9 dB (1.5 bits)
+Rectifiers with smoothing capacitors have a poor power factor mainly because of this, not phase shift. :: Current distortion (harmonics)

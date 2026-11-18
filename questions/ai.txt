@@ -95,6 +95,15 @@ Teaching an existing model a new task with a smaller dataset. :: Fine-tuning
 Using a model that learned one task as a starting point for another. :: Transfer learning
 The AI technique that finds an object and draws a box around it in an image. :: Object detection
 Giving an AI model a few worked examples inside the prompt. :: Few-shot prompting
+Using a trained model to make predictions on new data. :: Inference
+The test on websites that asks you to prove you are a human, not a bot. :: CAPTCHA
+The AI coding assistant from GitHub that suggests code as you type. :: GitHub Copilot
+Google's voice assistant that wakes when you say "Hey Google". :: Google Assistant
+The task of saying what single object a whole picture shows, such as "cat" or "dog". :: Image classification
+A finite set of step-by-step instructions for solving a problem. :: Algorithm
+Automatically translating text from one language to another. :: Machine translation
+The iRobot robot vacuum cleaner. :: Roomba
+The science-fiction writer who created the Three Laws of Robotics. :: Isaac Asimov
 
 ## 200
 The simplest neural network unit, invented by Frank Rosenblatt in 1958. :: Perceptron
@@ -512,3 +521,5 @@ The 1986 paper that popularised backpropagation: Rumelhart, Hinton and this man.
 The top-5 error rate of AlexNet on ImageNet in 2012, roughly, as a percentage. :: 15.3
 The researcher who introduced attention for translation in 2014. :: Dzmitry Bahdanau
 The number of authors of "Attention Is All You Need". :: 8
+To make softmax numerically stable, implementations subtract this from every logit first. :: The maximum logit
+The optimiser from Loshchilov and Hutter that decouples weight decay from Adam's gradient update. :: AdamW

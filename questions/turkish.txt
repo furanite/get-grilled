@@ -586,6 +586,21 @@ The Turkish word "rica" means this, from Arabic. :: Request
 "Rica ederim" is said as a reply to this. :: Thank you (you're welcome)
 The Turkish word "teşkilat" means this, from Arabic. :: Organisation
 The Turkish word "nüfus" means this, from Arabic. :: Population
+The Turkish sound change in which final p, ç, t, k become b, c, d, ğ before a vowel, as in kitap → kitabı. :: Consonant softening (ünsüz yumuşaması)
+The Turkish sound change where -da becomes -ta after a hard consonant, as in "kitapta". :: Consonant assimilation (ünsüz benzeşmesi)
+The Turkish word "çünkü" (because) comes from this language. :: Persian
+The Turkish suffix "-meli" or "-malı", as in "gitmeliyim", expresses this. :: Necessity (must, should)
+The Turkish suffix "-ebil" or "-abil", as in "gelebilir", expresses this. :: Ability or possibility (can)
+The Turkish word "hayır" (no) comes from an Arabic word with this meaning. :: Good (khayr)
+The Turkish tense in "her gün gelir" (he comes every day), used for habits and general truths. :: Aorist (geniş zaman)
+The Turkish suffix "-er" or "-ar" after numbers, as in "ikişer", gives this meaning. :: Each (distributive: two each)
+The Turkish suffix "-inci" in "birinci" forms this kind of number. :: Ordinal numbers
+The Turkish suffix "-ken" in "çocukken" gives this meaning. :: While (when)
+The suffix "-dür" in "öldür" (to kill, from "öl", to die) makes this kind of verb. :: Causative
+The suffix "-il" in "yazıldı" (it was written) marks this voice. :: Passive
+The Turkish word "efendi" came into Turkish from this language. :: Greek
+The accusative ending -(y)ı is used on a Turkish object only when the object is this. :: Definite (specific)
+The Turkish dish name "dolma" comes from the verb "dolmak", meaning this. :: To be filled
 
 ## translate
 Merhaba :: Hello

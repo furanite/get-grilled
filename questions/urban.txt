@@ -322,6 +322,9 @@ The planning idea that streets should form a connected network rather than dead 
 The term for the area of land a city needs to supply its resources. :: Ecological footprint
 The famous Süleymaniye külliye in Istanbul was designed by this architect. :: Mimar Sinan
 The 1666 Great Fire led London to rebuild with this material instead of wood. :: Brick and stone
+Homer Hoyt's 1939 model in which a city grows in wedges along transport routes from the centre. :: Sector model
+The 1945 model by Harris and Ullman in which a city grows around several separate centres. :: Multiple nuclei model
+The term for a city far larger than the next largest city in its country, such as Bangkok or Cairo. :: Primate city
 
 ## 400
 The Roman writer whose book discusses the planning of town walls and streets by wind direction. :: Vitruvius
@@ -423,6 +426,7 @@ The 1926 US Supreme Court case that upheld zoning. :: Village of Euclid v. Amble
 The Royal Commission for Jubail and Yanbu was set up in this year. :: 1975
 The French geographer who used the word "megalopolis" for the US north-east. :: Jean Gottmann
 The Italian architect famous for the 1748 map of Rome showing public spaces. :: Giambattista Nolli
+The American economist whose 1964 bid-rent theory explains why land prices fall with distance from the centre. :: William Alonso
 
 ## 500
 The Mesopotamian city often called one of the first cities. :: Uruk
@@ -512,3 +516,16 @@ The Dutch city rebuilt in modern style after its centre was bombed in 1940. :: R
 Rotterdam's famous shopping street, the first pedestrian street of its kind in Europe. :: The Lijnbaan
 The German city whose old centre was rebuilt after it was destroyed in 1945, famous for its Frauenkirche. :: Dresden
 The "Charter of the New Urbanism" was adopted in this year. :: 1996
+The German landowner whose 1826 book "The Isolated State" modelled rings of land use around a market town. :: Johann Heinrich von Thünen
+The economist whose 1956 model says people "vote with their feet" by choosing among local governments. :: Charles Tiebout
+The port of Athens that Hippodamus laid out on a grid in the 5th century BCE. :: Piraeus
+The Indus Valley city in Gujarat famous for its brick dockyard. :: Lothal
+The US city whose 1682 plan by William Penn had a grid with five public squares. :: Philadelphia
+The US city whose 1733 Oglethorpe Plan arranged the town in wards, each around a small public square. :: Savannah
+The Soviet planning unit of apartment blocks with its own schools and shops. :: Mikrorayon (microdistrict)
+The 1933 CIAM document, published by Le Corbusier, that separated dwelling, work, recreation and circulation. :: The Athens Charter
+The 1977 planning charter, signed in Peru, that criticised strict functional zoning. :: The Machu Picchu Charter
+The two architects who designed Letchworth, the first garden city, for Ebenezer Howard. :: Raymond Unwin and Barry Parker
+The Riyadh district built in the 1950s as the city's first modern planned neighbourhood of villas on a grid. :: Al-Malaz
+The method developed by Bill Hillier for analysing how the layout of streets shapes movement. :: Space syntax
+Christopher Alexander's 1965 essay arguing that a living city is a semi-lattice, not a hierarchy. :: A City Is Not a Tree

@@ -325,6 +325,12 @@ The board game where players buy streets and build houses and hotels. :: Monopol
 The game company Bungie made this series before Destiny. :: Halo
 The chess computer that beat Garry Kasparov in 1997. :: Deep Blue
 The Google DeepMind AI that beat Lee Sedol at Go in 2016. :: AlphaGo
+The two detachable controllers that slide onto the sides of the Nintendo Switch. :: Joy-Con
+The AI companion who guides Master Chief in the Halo series. :: Cortana
+The Sony game series in which the Spartan warrior Kratos battles gods. :: God of War
+The building in Pokémon towns where trainers battle the leader to win a badge. :: Gym
+The full name of the video cable standard "HDMI". :: High-Definition Multimedia Interface
+Microsoft's Xbox subscription service that gives access to a large library of games. :: Game Pass
 
 ## 400
 The year Nintendo was founded. :: 1889
@@ -420,6 +426,13 @@ The Assassin's Creed game set in 9th-century Baghdad, released in 2023. :: Assas
 The main character of Assassin's Creed Mirage. :: Basim
 Valve's Counter-Strike's latest version, released in 2023. :: Counter-Strike 2
 Minecraft villagers trade using this green gem. :: Emeralds
+Nvidia's monitor technology that syncs refresh rate to the GPU to stop screen tearing. :: G-Sync
+The PS5 controller feature that changes how hard the triggers are to press. :: Adaptive triggers
+The 2002 cel-shaded Zelda game set on a great flooded sea. :: The Wind Waker
+Nvidia's AI upscaling technology that raises frame rates, shortened to four letters. :: DLSS (Deep Learning Super Sampling)
+The Nintendo-linked studio that created Kirby and the first Super Smash Bros. :: HAL Laboratory
+The planet where Kirby's home, Dream Land, is found. :: Popstar
+The name of Master Chief's powered armour in Halo. :: MJOLNIR
 
 ## 500
 The first video game, often credited to physicist William Higinbotham in 1958, was this. :: Tennis for Two
@@ -515,3 +528,10 @@ The British inventor of the ZX Spectrum home computer. :: Clive Sinclair
 The 1982 film about a programmer pulled inside a computer game. :: Tron
 The designer of Space Invaders. :: Tomohiro Nishikado
 The game series by Valve with portals and a companion cube. :: Portal
+The 1978 text-based game by Roy Trubshaw and Richard Bartle, the first online multiplayer world. :: MUD (Multi-User Dungeon)
+The engineer who led the Fairchild team that made the first cartridge-based home console in 1976. :: Jerry Lawson
+The rendering trick Wolfenstein 3D used to draw 3D-looking walls from a 2D grid map. :: Raycasting
+The tree structure Doom (1993) used to sort walls quickly for rendering, shortened to three letters. :: BSP (binary space partitioning)
+The programmer who wrote the Doom and Quake engines at id Software. :: John Carmack
+The cartridge trick, done by mapper chips, that let NES games use more memory than the CPU could address. :: Bank switching
+The amount of main work RAM inside the original NES. :: 2 KB

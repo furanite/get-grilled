@@ -427,6 +427,8 @@ The Saudi project at The Red Sea uses one of the world's largest battery systems
 The term "ecological footprint" was created by Mathis Wackernagel and this person. :: William Rees
 The Wadi Hanifa restoration won the Aga Khan Award in this year. :: 2010
 The KAUST campus earned LEED Platinum in this year. :: 2009
+The membrane placed on the warm, humid side of insulation to stop moisture condensing inside a wall. :: Vapour barrier (vapour retarder)
+A spot in the envelope where heat bypasses the insulation, such as a slab edge or a steel beam through a wall. :: Thermal bridge
 
 ## 500
 The colour of a surface affects absorption of sunlight; its ability to emit heat is called this. :: Emissivity
@@ -514,3 +516,18 @@ The Saudi oasis that is the world's largest by number of palm trees. :: Al-Ahsa
 Ken Yeang's bioclimatic tower near Kuala Lumpur, finished in 1992. :: Menara Mesiniaga
 Masdar's Siemens headquarters was the first LEED Platinum office in this city. :: Abu Dhabi
 The Passivhaus standard was developed by Wolfgang Feist and this person. :: Bo Adamson
+The linear heat-loss coefficient of a thermal bridge, in W/mK, is written with this Greek letter. :: Psi (ψ)
+The dimensionless number comparing buoyancy to viscous forces that governs natural convection. :: Grashof number
+The daylight metric that counts the share of the year with illuminance between 100 and 2,000 lux, in its original form. :: Useful daylight illuminance (UDI)
+The hourly weather file format, with 8,760 records for a typical year, read by EnergyPlus. :: EPW (EnergyPlus Weather)
+The method in Appendix G of ASHRAE 90.1 that rates a design against a computer-built baseline building. :: Performance Rating Method
+The uniform surrounding surface temperature that would exchange the same radiant heat with a person as the real room. :: Mean radiant temperature
+In the ASHRAE 55 adaptive comfort model, the comfort temperature depends on this outdoor quantity. :: Prevailing mean outdoor air temperature
+The lowest Predicted Percentage Dissatisfied in Fanger's model, even when PMV is exactly zero. :: 5%
+The angle in plan between the sun's azimuth and the façade normal, used to size vertical fins. :: Horizontal shadow angle
+The angle in section, measured on a plane normal to the façade, used to size horizontal overhangs. :: Vertical shadow angle
+The imaginary outdoor temperature that adds the effect of absorbed sunlight to air temperature for an opaque wall. :: Sol-air temperature
+The cooling-load method introduced in the ASHRAE Handbook in 2001, replacing the CLTD/CLF method. :: Radiant time series (RTS) method
+The heavy noble gas that insulates thin glazing cavities better than argon but costs much more. :: Krypton
+Harold Hay's roof-pond system that cools a house by exposing water bags to the night sky. :: Skytherm
+The all-weather model of sky luminance used for climate-based daylight simulation, named after its author. :: Perez sky model

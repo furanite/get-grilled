@@ -423,6 +423,20 @@ The World Rally Championship round first held in Saudi Arabia in 2025. :: Rally 
 The daughter of Emil Jellinek whose name became a famous car brand. :: Mercédès Jellinek
 The founder of Toyota Motor Corporation, son of the loom inventor. :: Kiichiro Toyoda
 The Bugatti that broke 490 km/h in 2019. :: Chiron Super Sport 300+
+The Ferrari whose name means "red head", after its red-painted cylinder heads. :: Testarossa
+The zodiac sign of Ferruccio Lamborghini, which inspired the bull on the brand's badge. :: Taurus
+Legend says the Mercedes "Silver Arrows" got their colour in 1934 when this was scraped off to save weight. :: White paint
+In a tyre size such as 205/55 R16, the number 55 gives this. :: Aspect ratio (sidewall height as % of width)
+The tilt of a wheel in or out at the top, seen from the front of the car. :: Camber
+The backward tilt of the steering axis, seen from the side, that helps the wheels self-centre. :: Caster
+The handling problem where the front tyres lose grip first and the car runs wide in a bend. :: Understeer
+The handling problem where the rear tyres lose grip first and the tail swings out. :: Oversteer
+The valve that lets exhaust gas bypass a turbo's turbine to limit boost pressure. :: Wastegate
+The heat exchanger that cools compressed air from a turbo before it enters the engine. :: Intercooler
+Before founding his own company, Enzo Ferrari raced for and ran the racing team of this Italian brand. :: Alfa Romeo
+The exhaust sensor that tells the engine computer whether the mixture is rich or lean. :: Oxygen (lambda) sensor
+The differential that limits wheelspin by sending more torque to the wheel with more grip. :: Limited-slip differential
+The front suspension that combines the spring and damper in one strut, named after a Ford engineer. :: MacPherson strut
 
 ## 500
 The German engineer who built the first motorcycle with an internal combustion engine, the Reitwagen, with Maybach. :: Gottlieb Daimler
@@ -511,3 +525,17 @@ The rev limit of F1 engines in the turbo-hybrid era. :: 15,000 rpm
 A typical F1 race is just over this distance. :: 305 km
 The fastest F1 pit stop on record, by McLaren at Qatar in 2023, took about this long. :: About 1.8 seconds
 The Mercedes model name AMG stands for Aufrecht, Melcher and this town. :: Großaspach
+The engine cycle used in hybrids like the Prius, which closes the intake valves late for efficiency. :: Atkinson cycle
+Spark timing is measured in crankshaft degrees before the piston reaches this point. :: Top dead centre (TDC)
+The single diagonal bar that stops a solid rear axle from moving sideways. :: Panhard rod
+The steering geometry that turns the inner front wheel more sharply than the outer one in a corner. :: Ackermann steering geometry
+The only person to win world championships on both motorcycles and in Formula 1. :: John Surtees
+The rating of diesel fuel's ignition quality, the counterpart of petrol's octane number. :: Cetane number
+A three-way catalytic converter typically uses platinum, palladium and this precious metal. :: Rhodium
+The ideal (stoichiometric) air-to-fuel ratio by mass for petrol. :: About 14.7:1
+The abruptly cut-off car tail that reduces drag is named after this German aerodynamicist. :: Wunibald Kamm
+Jaguar's company name before 1945, dropped because of its initials. :: SS Cars
+Volkswagen's narrow-angle six-cylinder engine whose two staggered banks share one cylinder head. :: VR6
+The first hybrid car to win the 24 Hours of Le Mans, in 2012. :: Audi R18 e-tron quattro
+The WWI Italian fighter pilot whose prancing horse emblem was given to Enzo Ferrari. :: Francesco Baracca
+The petrol engine cycle in which heat is added at constant volume, named after a German engineer. :: Otto cycle

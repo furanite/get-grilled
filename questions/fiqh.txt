@@ -339,6 +339,7 @@ The concept "fiqh al-aqalliyyat" is the fiqh of these. :: Muslim minorities
 The concept "fiqh al-nawazil" deals with this. :: New issues (contemporary cases)
 The practice of the people of Madinah as a source is special to this school. :: The Maliki school ('amal ahl al-Madinah)
 The "Mukhtasar al-Muzani" is a summary of the works of this imam. :: Imam al-Shafi'i ﵀
+The sale in which the seller tells the buyer his cost and adds a known profit. :: Murabahah
 
 ## 400
 The famous letter of Umar ibn al-Khattab ﵁ on judging was sent to this Companion. :: Abu Musa al-Ash'ari ﵁
@@ -529,6 +530,22 @@ The term for a hadith where a Successor reports directly from our Beloved and ou
 Imam Malik ﵀ accepted mursal hadiths, and so did this imam. :: Imam Abu Hanifah ﵀
 Imam Malik ﵀ wrote to this Egyptian jurist defending the practice of Madinah. :: Al-Layth ibn Sa'd ﵀
 The view that every mujtahid is correct is called this. :: Taswib
+In the Hanafi school, this word names a duty proven by evidence with some doubt, ranked below fard. :: Wajib
+The usul term for taking the opposite ruling from what a text leaves unstated, as with a stated condition. :: Mafhum al-mukhalafah
+The usul term for an implied meaning that applies more strongly to the unstated case, as "uff" implies not hitting. :: Mafhum al-muwafaqah
+The usul process of refining a cause by removing the features of a case that do not matter. :: Tanqih al-manat
+The usul process of checking that a known cause is present in a particular new case. :: Tahqiq al-manat
+The usul method of listing the possible causes of a ruling and eliminating them one by one. :: Al-sabr wal-taqsim
+The Hanafi term for a disliked act that is closer to permitted than forbidden. :: Makruh tanzihi
+The sale of a debt for a debt, forbidden in its basic form, is known by this Arabic name. :: Bay' al-kali' bil-kali'
+The six ribawi items in the hadith are gold, silver, wheat, barley, dates and this. :: Salt
+Selling an item on credit and buying it back at a lower cash price, a trick to reach riba. :: Bay' al-'inah
+The usul term for restricting an unqualified text by a qualified one. :: Taqyid (haml al-mutlaq 'ala al-muqayyad)
+The highest Hanafi level of clear wording, which cannot be interpreted away or abrogated. :: Muhkam
+The term for consensus where a view is stated and the other scholars stay silent without objecting. :: Ijma' sukuti
+The inheritance case "al-Mushtarakah" has full brothers sharing the one third with these heirs. :: Maternal half-siblings
+The inheritance case "al-Akdariyyah" has a husband, a mother, a grandfather and this heir. :: A sister (full or paternal)
+In the hadith on a sheep or camel left unmilked to deceive buyers, the buyer may return it with a sa' of this. :: Dates
 
 ## tf
 Eating seafood such as fish and shrimp caught by a non-Muslim. :: Halal (the sea's catch is lawful, by the majority)

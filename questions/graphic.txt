@@ -631,6 +631,18 @@ The non-repeating tiling discovered by Roger Penrose. :: Penrose tiling
 The Islamic pattern technique of drawing lines through midpoints of polygons. :: Polygons-in-contact (Hankin's method)
 The Islamic star pattern with a 12-pointed star around a centre is linked with this number of fold symmetry. :: 12-fold
 Islamic design avoids pictures of living beings in mosques, so artists used patterns, calligraphy and this. :: Arabesque (plant designs)
+The two chromaticity coordinates plotted on the horseshoe-shaped CIE 1931 diagram. :: x and y
+The CIE standard illuminant, about 6500 K, used as the white point of sRGB. :: D65
+The CIE illuminant, about 5000 K, used as the standard light for judging prints in the graphic arts. :: D50
+The ICC rendering intent that compresses the whole source gamut to keep colour relationships. :: Perceptual
+The separation method that swaps the grey part of CMY mixtures for black ink across all tones. :: GCR (grey component replacement)
+The effect in which two colour samples match under one light but differ under another. :: Metamerism
+The WCAG contrast ratio is worked out from this weighted measure of each colour. :: Relative luminance
+The highest contrast ratio possible under the WCAG formula. :: 21 to 1
+Instructions inside a font that adjust outlines to the pixel grid at small sizes. :: Hinting
+The kind of Bézier curves used in TrueType outlines. :: Quadratic
+The inner, top, outer and bottom margins of the classic 2:3 book page built with the Van de Graaf canon are in this ratio. :: 2:3:4:6
+The Gestalt principle that elements moving in the same direction are seen as one group. :: Common fate
 
 ## tf
 True or false? Vector images get blurry when you enlarge them. :: False (raster images do; vectors stay sharp)

@@ -517,3 +517,11 @@ Luminary Micro, maker of the first Cortex-M3 chips, was bought in 2009 by this c
 The original 8051 has this much internal RAM. :: 128 bytes
 The number of register banks in the 8051. :: Four
 On AVR, these three registers hold 16-bit pointers called X, Y and Z. :: r26 to r31
+The Cortex-M4F feature that reserves stack space for FPU registers but saves them only if the handler uses the FPU. :: Lazy stacking
+The three configurable Cortex-M faults are MemManage, BusFault and this. :: UsageFault
+The ATmega328P register that shows the cause of the last reset, such as brown-out or watchdog. :: MCUSR
+The CAN node state entered when its transmit error counter goes above 255. :: Bus-off
+To free an I²C bus whose slave holds SDA low after a reset, the master clocks SCL up to this many times. :: Nine
+The two Arm barrier instructions used after changing the MPU or VTOR before relying on the change. :: DSB and ISB
+The ESP32's two Xtensa cores are called PRO_CPU and this. :: APP_CPU
+The Cortex-M System Control Register bit that sends the core back to sleep automatically after an ISR returns. :: SLEEPONEXIT

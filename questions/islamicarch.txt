@@ -205,6 +205,20 @@ The famous scholar-traveller who described the mosques of his time, from Tangier
 The ribbed melon-shaped dome of the Gur-e Amir is covered in this colour of tile. :: Blue (turquoise)
 The Friday Mosque (Masjid-e Jameh) of Isfahan is famous for showing this plan. :: The four-iwan plan
 The Mughal mosque in Delhi's old city built from red sandstone and white marble. :: Jama Masjid
+The Ottoman complex of a mosque with its school, kitchen, hospital and baths around it. :: Külliye
+The tall rectangular gateway framing an arched iwan entrance in Persian mosques. :: Pishtaq
+The Egyptian rooftop scoop that catches the cool breeze and sends it down into the house. :: Malqaf
+The sloping carved marble slab over which water trickles to cool a room or courtyard. :: Salsabil
+The Arabic name for a large congregational mosque used for Friday prayer. :: Jami' (masjid jami')
+The open prayer ground, often outside the town, used for the Eid prayers. :: Musalla
+The screened enclosure near the mihrab once reserved for the ruler. :: Maqsura
+The raised platform in a mosque from which the muballigh repeats the imam's words. :: Dikka
+The Persian name for the interlacing star-and-polygon patterns of straight lines in Islamic art. :: Girih
+The covered arcade that runs around the courtyard of a mosque. :: Riwaq
+The tent-like fabric-roofed terminal at Jeddah airport built for pilgrims. :: The Hajj Terminal
+The reception room for guests in a traditional Saudi or Gulf house. :: Majlis
+The entrance that turns a corner so passers-by cannot see into a courtyard house. :: A bent entrance
+The famous coral-stone house in Jeddah's Al-Balad where King Abdulaziz stayed in 1925. :: Bayt Nasif
 
 ## 300
 The first mosque of our Beloved and our master, the Prophet Muhammad ﷺ in Madinah was built with these materials. :: Mud brick walls, palm-trunk columns and a palm-frond roof
@@ -543,6 +557,9 @@ The kiswah uses about this much silk. :: About 670 kg (dyed black)
 The famous Ottoman calligrapher known as "the Qibla of calligraphers". :: Şeyh Hamdullah ﵀
 The famous calligrapher who wrote the big roundels in Hagia Sophia. :: Kazasker Mustafa İzzet Efendi ﵀
 The calligrapher who wrote much of the Quran verses in Al-Masjid an-Nabawi in the 1800s. :: Abdullah Zühdü Efendi ﵀
+The Persian system of intersecting arches forming a star-patterned net under a dome or vault. :: Karbandi
+The number of tile shapes that Lu and Steinhardt found behind many girih patterns, in their 2007 study. :: Five
+The mud-brick vault built without formwork from leaning courses, revived by Hassan Fathy ﵀. :: The Nubian vault
 
 ## tf
 True or false? The Taj Mahal is a mosque. :: False (it is a tomb, with a mosque beside it)

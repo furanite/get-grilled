@@ -201,6 +201,11 @@ Umar ibn Abd al-Aziz ﵀ is known as this among the caliphs. :: The fifth rightl
 The Saudi Bar for lawyers is called this. :: The Saudi Bar Association
 Our Beloved and our master, the Prophet Muhammad ﷺ worked as a young man as this. :: A shepherd (and later a trader)
 The famous saying "The upper hand is better than the lower hand" means this. :: Giving is better than taking
+Unemployment caused by a recession, when demand for goods and workers falls. :: Cyclical unemployment
+Short-term unemployment of people moving between jobs or just entering the job market. :: Frictional unemployment
+Unemployment caused by a mismatch between workers' skills and the jobs available. :: Structural unemployment
+People who want a job but have stopped looking because they believe none is available. :: Discouraged workers
+The emigration of highly skilled workers from a country. :: Brain drain
 
 ## 300
 The Saudi Labour Law has this many articles (original). :: 245
@@ -512,6 +517,12 @@ The ILO's tripartite body that runs the organisation between conferences. :: The
 The ILO body of independent experts that reviews how countries apply conventions. :: The Committee of Experts (CEACR)
 The 1982 Dutch deal on wage restraint and shorter hours, part of the "polder model". :: The Wassenaar Agreement
 The UK case of 2017 on tribunal fees. :: R (UNISON) v Lord Chancellor
+The Shapiro–Stiglitz efficiency wage model says firms pay above the market wage to stop this. :: Shirking
+The curve that plots the unemployment rate against the job vacancy rate. :: The Beveridge curve
+Okun's law links changes in unemployment to changes in this. :: Output (real GDP)
+The unemployment rate below which inflation tends to rise, known by five letters. :: NAIRU
+Extra pay for dangerous or unpleasant jobs, an idea going back to Adam Smith. :: Compensating wage differentials
+The equation that regresses log earnings on years of schooling and work experience. :: The Mincer earnings equation
 
 ## tf
 A Saudi employer keeping a foreign worker's passport without the worker's consent. :: Not legal (passports belong to the worker)

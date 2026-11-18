@@ -102,6 +102,8 @@ The message passed to a process in Linux, such as SIGKILL. :: Signal
 The Linux signal sent when you press Ctrl+C. :: SIGINT
 The operating system of most of the world's web servers and supercomputers. :: Linux
 The operating system released by Microsoft in 2001 and supported until 2014. :: Windows XP
+The bar along the bottom of the Windows screen that shows open programs and the Start button. :: Taskbar
+The small picture on the screen that stands for a file, folder or program. :: Icon
 
 ## 200
 The states a process moves between: new, ready, running, waiting and this. :: Terminated
@@ -426,6 +428,17 @@ The Windows version that introduced the Ribbon to File Explorer and Start screen
 The macOS version names were based on big cats until this 2013 release named after a California place. :: OS X Mavericks
 The year Microsoft ended support for Windows 10. :: 2025
 The operating system that BlackBerry phones used from 2013, based on QNX. :: BlackBerry 10
+The deferred part of Linux interrupt handling that runs after the quick top half, with interrupts enabled. :: Bottom half
+The Linux scheduling class that schedules tasks by deadlines using EDF with a constant bandwidth server. :: SCHED_DEADLINE
+The lazy-initialisation locking pattern that breaks without memory barriers because writes can be reordered. :: Double-checked locking
+The Linux lock in which readers never block but retry if a sequence counter changed while they read. :: Seqlock
+The Linux system call, short for "fast userspace mutex", that lets uncontended locks avoid entering the kernel. :: futex
+The Linux feature that merges identical memory pages, for example across many virtual machines. :: KSM (Kernel Samepage Merging)
+The technique in which a driver inside a guest VM grabs memory so the hypervisor can reclaim it. :: Memory ballooning
+The BSD file system technique that keeps metadata consistent by ordering disk writes instead of journaling. :: Soft updates
+The BSD Fast File System idea of keeping a file's inode and data blocks close together in disk regions. :: Cylinder groups
+The page table design for large address spaces in which the virtual page number is hashed into a table. :: Hashed page table
+The problem in which many processes wake up for one event, but only one of them can proceed. :: Thundering herd problem
 
 ## 500
 The average turnaround time, in milliseconds, under round robin with a quantum of 4 for jobs of 24, 3 and 3 ms arriving at time 0 in that order. :: 15.67
@@ -512,3 +525,19 @@ The country where QNX was created. :: Canada
 The number of page faults for 7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3, 2 with FIFO and 3 frames. :: 10
 The signal number of SIGHUP. :: 1
 The number of bits in a standard Linux user ID. :: 32
+The average waiting time, in ms, under SRTF for jobs arriving at 0, 1, 2 and 3 ms with bursts of 8, 4, 9 and 5 ms. :: 6.5
+The average waiting time, in ms, under non-preemptive priority for bursts 10, 1, 2, 1, 5 with priorities 3, 1, 4, 5, 2 (1 highest), all at time 0. :: 8.2
+The rate-monotonic utilisation bound for exactly two tasks, as a percentage to one decimal place. :: 82.8
+The effective access time, in ns, with a 98 percent TLB hit rate, a 20 ns TLB, 100 ns memory and a two-level page table. :: 124
+The number of bits used for the page-directory index in classic 32-bit x86 two-level paging with 4 KB pages. :: 10
+The total head movement, in cylinders, using LOOK from 53 moving towards 0, for requests 98, 183, 37, 122, 14, 124, 65 and 67. :: 208
+The number of page faults for 1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5 with the optimal algorithm and 3 frames. :: 7
+The number of times "X" prints when a program runs fork() && fork() || fork(); and then prints "X" once. :: 5
+The reason Peterson's algorithm can fail on modern multicore processors unless memory fences are added. :: Memory reordering (store-load)
+The per-task value that Linux CFS advances in inverse proportion to the task's weight and uses to choose the next task. :: vruntime (virtual runtime)
+The load weight that Linux CFS gives to a task with a nice value of 0. :: 1024
+The x86-64 control register that holds the physical address of the top-level page table. :: CR3
+The x86 control register that holds the faulting address after a page fault. :: CR2
+The number of extents that fit directly in an ext4 inode's 60-byte block area, before an extent tree is needed. :: 4
+The tag that lets a TLB keep entries from several address spaces at once, called PCID on x86. :: ASID (address space identifier)
+The process state code that ps shows for a task in uninterruptible sleep, usually waiting on I/O. :: D

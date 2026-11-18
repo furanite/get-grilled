@@ -335,6 +335,8 @@ The six Arabic letters that never join to the letter after them include alif, da
 The Arabic numerals used in the West came to Europe from this region, after being developed in India. :: The Arab world (North Africa and Andalusia)
 The Italian mathematician who popularised Hindu-Arabic numerals in Europe in 1202. :: Fibonacci
 The Arabic word for a baby camel. :: Huwar
+The figure of speech in which a part stands for the whole, like "all hands on deck". :: Synecdoche
+The term for needlessly saying the same thing twice, like "free gift" or "end result". :: Tautology (pleonasm)
 
 ## 400
 The longest word in major English dictionaries, a lung disease from volcanic dust, has this many letters. :: 45
@@ -420,6 +422,23 @@ The English word "average" may come from this Arabic word for damaged goods. :: 
 The language from which English got "pundit" and "guru". :: Sanskrit
 The year Arabic became an official UN language. :: 1973
 The word "shampoo" comes from this language. :: Hindi
+The figure of speech that names something by a thing closely linked to it, like "the Crown" for the monarchy. :: Metonymy
+The term for a word that spells a different word backwards, like "stressed" and "desserts". :: Semordnilap
+The figure of speech of understatement using a negative, like "not bad" for excellent. :: Litotes
+The repetition of vowel sounds in nearby words, like "the rain in Spain". :: Assonance
+The Arabic rhetorical device of using two words that sound alike but differ in meaning. :: Jinas (paronomasia)
+The Arabic rhetorical device of pairing opposites, like night and day, in one sentence. :: Tibaq (antithesis)
+The language from which English got "slogan", originally a clan's battle cry. :: Scottish Gaelic
+The language from which English got "sauna". :: Finnish
+The Arabic grammatical term for the doer of the action in a verbal sentence. :: Fa'il
+The Arabic grammatical term for the noun that begins a nominal sentence. :: Mubtada'
+The Arabic term for a verbal noun naming the action itself, like "kitaba" from "kataba". :: Masdar
+The name for the Arabic letters alif, waw and ya taken as a group. :: Huruf al-'illa (weak letters)
+The cursive script of ancient Egypt, used by priests and written with a reed pen. :: Hieratic
+The Old English letter "þ", still used in Icelandic for a "th" sound. :: Thorn
+The Dravidian language that is official in the Indian state of Kerala. :: Malayalam
+The linguist's term for a place name, like Riyadh or Jeddah. :: Toponym
+The punctuation mark that combines a question mark and an exclamation mark. :: Interrobang
 
 ## 500
 The number of living languages in the world, roughly, according to Ethnologue. :: 7,000
@@ -512,3 +531,13 @@ The ancient Greek historian who wrote that Egyptian priests told of a king testi
 The Pharaoh in Herodotus' language experiment. :: Psamtik I
 The scholar of Basra whose "Al-Kitab" is called "the Quran of grammar". :: Sibawayh
 The Arabic name for the letter "hamza" comes from a root meaning this. :: To press (or prick)
+The reconstructed common ancestor of languages from Hindi to English, never written down. :: Proto-Indo-European
+The class of Arabic nouns, like "Ahmad" and "masajid", that take no tanwin and take fatha in the genitive. :: Mamnu' min al-sarf (diptotes)
+The Arabic particles, including anna, ka'anna and lakinna, that put the subject in the accusative. :: Inna and its sisters
+The writing system where each consonant carries a built-in vowel changed by marks, like Devanagari. :: Abugida
+The consonants made with the tongue tip curled back, common in Hindi and Tamil. :: Retroflex consonants
+The British officer who copied the trilingual Behistun inscription and helped decipher cuneiform. :: Henry Rawlinson
+The term for a word with two opposite meanings, called "addad" in Arabic, like English "cleave". :: Contronym (auto-antonym)
+The language isolate of the indigenous people of Hokkaido in northern Japan. :: Ainu
+The law that a word's frequency is roughly inversely proportional to its rank in a frequency list. :: Zipf's law
+The undeciphered Minoan script of Crete, older than Linear B. :: Linear A

@@ -423,6 +423,7 @@ The software engineer who created Timsort in 2002. :: Tim Peters
 The number of solutions to the eight queens puzzle. :: 92
 The computer scientist who described the skip list in 1989. :: William Pugh
 The offline query ordering trick for range queries, named after a Chinese competitive programmer. :: Mo's algorithm
+The string search algorithm that compares rolling hashes of the pattern and each window of the text. :: Rabin–Karp algorithm
 
 ## 500
 The fewest nodes an AVL tree of height 4 can have, counting a single node as height 0. :: 12
@@ -518,3 +519,10 @@ The year Gale and Shapley published the stable matching algorithm. :: 1962
 The year Karatsuba found his multiplication algorithm. :: 1960
 The year Orlin published an O(VE) maximum flow algorithm. :: 2013
 The third member, with Newell and Simon, of the team that invented the linked list in the 1950s. :: Cliff Shaw
+The minimum number of internal nodes in a red–black tree whose black-height is 3. :: 7
+The worst-case number of comparisons insertion sort makes on 6 items. :: 15
+The amortised number of bit flips per increment of a binary counter is at most this. :: 2
+The expected number of probes for an unsuccessful search under uniform hashing in open addressing at load factor 0.5. :: 2
+The number of different max-heaps that can be built from the keys 1, 2, 3 and 4. :: 3
+The linear-time algorithm that finds, for each position, the longest substring matching a prefix of the string. :: Z-algorithm
+The smallest automaton that accepts every suffix of a string, with at most 2n − 1 states. :: Suffix automaton (DAWG)

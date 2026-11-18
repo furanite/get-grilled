@@ -100,6 +100,10 @@ The setting that installs security fixes without the user having to remember. ::
 The result of encrypting the letter A with a Caesar shift of 3. :: D
 The number of possible 4-digit PINs. :: 10,000
 The number of categories in the OWASP Top 10. :: 10
+A fake pop-up warning that frightens you into paying for useless "security" software. :: Scareware
+A code that works only once, often sent by text message to confirm a login, shortened to three letters. :: OTP (one-time password)
+A hacker who breaks in without permission but without harmful intent, between white and black hats. :: Grey hat hacker
+Searching through rubbish bins for papers that reveal passwords or company secrets. :: Dumpster diving
 
 ## 200
 The three-letter acronym for the core security goals of confidentiality, integrity and availability. :: CIA triad
@@ -428,6 +432,7 @@ The 2016 heist that used the SWIFT network to steal 81 million dollars from Bang
 The North Korean group blamed for the Sony hack and WannaCry. :: Lazarus Group
 The Russian intelligence group, also called Fancy Bear, by its industry number. :: APT28
 The 1998 attack on RSA PKCS #1 v1.5 padding, by Daniel Bleichenbacher. :: Bleichenbacher's attack (million-message attack)
+The 2018 CPU flaw that abuses out-of-order execution to let user programs read kernel memory. :: Meltdown
 
 ## 500
 The number of possible keys in a general substitution cipher on 26 letters. :: 26! (about 4 × 10²⁶)
@@ -512,3 +517,21 @@ The Windows event ID recorded when a new service is installed. :: 7045
 The Nmap option that scans all 65,535 TCP ports. :: -p-
 The length, in bits, of the key used by AES-256 in the XTS mode that many disk encryption tools use, since XTS needs two keys. :: 512
 The two authors of the 1975 paper listing principles such as least privilege: Saltzer and this man. :: Michael Schroeder
+The 2018 CPU attack that mistrains the branch predictor so speculative execution leaks another program's secrets. :: Spectre
+The DRAM attack in which rapidly reading one memory row flips bits in neighbouring rows. :: Rowhammer
+The 2017 attack on WPA2 that tricks a device into reinstalling an already-used key during the four-way handshake. :: KRACK
+The 2014 padding oracle attack on SSL 3.0's CBC mode that led to SSL 3.0 being switched off everywhere. :: POODLE
+The security notion that an attacker cannot tell which of two chosen plaintexts a ciphertext encrypts. :: Indistinguishability (IND-CPA)
+The attack that lets someone compute H(secret ‖ message ‖ extra) from H(secret ‖ message) without the secret. :: Length extension attack
+The construction behind MD5, SHA-1 and SHA-2 that iterates a compression function over padded blocks. :: Merkle–Damgård construction
+The construction behind SHA-3 that absorbs input into a large state and then squeezes output out. :: Sponge construction
+The 2013 attack that recovers secrets such as CSRF tokens from the size of compressed HTTP responses inside TLS. :: BREACH
+The 2016 attack that decrypts TLS traffic by using a server that shares its RSA key with an SSLv2 service. :: DROWN
+The 2016 birthday attack on 64-bit block ciphers such as 3DES in long-lived TLS connections. :: Sweet32
+The 2020 Netlogon flaw that let attackers reset a domain controller's password because AES-CFB8 used an all-zero IV. :: Zerologon
+The Kerberos attack that requests tickets for accounts without pre-authentication and cracks them offline. :: AS-REP roasting
+The forged Kerberos service ticket, made with a service account's hash, that never contacts the domain controller. :: Silver ticket
+The Active Directory attack that pretends to be a domain controller and asks for password hashes by replication. :: DCSync
+The Linux kernel defence against Meltdown that removes most kernel mappings from user-mode page tables. :: KPTI (kernel page-table isolation)
+The 2017 return of Bleichenbacher's attack, which found many TLS servers still leaking RSA padding errors. :: ROBOT
+The short non-interactive zero-knowledge proofs used by Zcash, with a name ending in "SNARK". :: zk-SNARK

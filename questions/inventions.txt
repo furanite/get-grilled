@@ -191,6 +191,28 @@ The Sumerian invention, a slanted writing system pressed with a reed into clay. 
 The Renaissance artist who designed a self-propelled cart, a robot knight and a flying machine. :: Leonardo da Vinci
 The country with the world's largest desalinated water production. :: Saudi Arabia
 The Saudi chemicals company founded in 1976, one of the world's largest. :: SABIC
+The type of glasses with two lens strengths in each lens, invented by Benjamin Franklin. :: Bifocals
+The New Jersey town whose laboratory earned Thomas Edison the nickname "The Wizard of ___". :: Menlo Park
+The blind French teenager who invented a raised-dot reading system in 1824. :: Louis Braille
+The year humans first walked on the Moon. :: 1969
+The riveted denim trousers patented by Levi Strauss and Jacob Davis in 1873. :: Jeans
+The armoured vehicle on continuous tracks first used in battle by the British in 1916. :: The tank
+The prepaid invention, first issued in Britain in 1840 as the Penny Black, for sending letters. :: The postage stamp
+The Microsoft operating system first released in 1985. :: Windows
+The language used to write web pages, whose abbreviation is HTML. :: HyperText Markup Language
+The pocket music player Apple launched in 2001. :: iPod
+The kitchen device Charles Strite invented around 1919 that throws bread up when it is done. :: The pop-up toaster
+The frozen treat on a stick first made by 11-year-old Frank Epperson. :: The ice lolly (Popsicle)
+The scientist who described the double helix of DNA with James Watson in 1953. :: Francis Crick
+The multi-tool pocket knife first issued to soldiers in 1891 and later made famous by Victorinox. :: The Swiss Army knife
+The wide-body airliner nicknamed the "Jumbo Jet", first flown in 1969. :: The Boeing 747
+The digital currency launched in 2009 by the unknown person called Satoshi Nakamoto. :: Bitcoin
+The mobile operating system company that Google bought in 2005. :: Android
+The packing material of air-filled plastic bubbles first meant to be a textured wallpaper. :: Bubble wrap
+The word puzzle with a grid of clues first printed in a New York newspaper in 1913. :: The crossword
+The ancient Chinese invention of cloth or paper flown in the wind on a string. :: The kite
+The name of the Wright brothers' 1903 aeroplane. :: The Wright Flyer
+The game console Microsoft launched in 2001. :: Xbox
 
 ## 300
 The ancient Greek engineer who built a steam-powered spinning ball called the aeolipile. :: Hero of Alexandria
@@ -290,6 +312,9 @@ The flying craft that carried the first humans to the Moon was launched by this 
 The engineer who wrote the "Book of Knowledge of Ingenious Mechanical Devices". :: Al-Jazari
 The engineer who built the "Rocket" locomotive in 1829. :: George Stephenson (and Robert Stephenson)
 The Chinese inventor of the seismoscope with dragons and toads, in 132 CE. :: Zhang Heng
+The inventor of instant noodles, who launched Chicken Ramen in Japan in 1958. :: Momofuku Ando
+The sheet of carbon one atom thick first isolated at Manchester in 2004 with sticky tape. :: Graphene
+The fencing invention Joseph Glidden patented in 1874 that closed off the open range in the American West. :: Barbed wire
 
 ## 400
 The Mesopotamian civilisation credited with the first known wheel, around 3500 BCE. :: Sumer

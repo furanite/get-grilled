@@ -317,6 +317,10 @@ The US bank whose March 2023 collapse was then the second-largest bank failure i
 The Bitcoin network's first block is called this. :: Genesis block
 The modern VIX uses options on this index. :: S&P 500
 The UK prime minister whose 2022 mini-budget triggered the gilt crisis. :: Liz Truss
+A share priced at 50 with earnings per share of 4 has this P/E ratio. :: 12.5
+Owning a share, buying a put below its price and selling a call above it to cap both losses and gains. :: Collar
+The Fama-French three-factor model adds size and this factor to the market factor. :: Value (HML, high minus low)
+The model that values a share as next year's dividend divided by (required return minus growth). :: Gordon growth model
 
 ## 400
 The two-asset efficient frontier becomes a straight line when correlation is this. :: +1 or -1 (at -1 risk can reach zero)
@@ -413,6 +417,12 @@ The Black-Litterman model was developed at this investment bank. :: Goldman Sach
 The famous 'All Weather' risk parity fund was launched by this firm. :: Bridgewater Associates
 The broad index of Saudi companies with an MSCI partnership, made of 30 big shares. :: MSCI Tadawul 30 (MT30)
 Saudi Arabia's weight in the MSCI Emerging Markets index has been around this level. :: About 4%
+Fama and French's 2015 five-factor model added profitability (RMW) and this factor. :: Investment (CMA)
+By the Gordon model, a share with next dividend 2, required return 10% and growth 5% is worth this. :: 40
+The risk-adjusted measure by Franco and Leah Modigliani that levers a portfolio to match the market's volatility. :: M-squared (M²)
+The duration measure that captures a bond's sensitivity to a shift at one maturity on the yield curve. :: Key rate duration
+The spread over the benchmark curve after removing the value of a bond's embedded options. :: Option-adjusted spread (OAS)
+A large order that shows only a small part of its size in the order book at a time. :: Iceberg order
 
 ## 500
 The two-fund separation theorem is linked to this economist's 1958 paper on liquidity preference. :: James Tobin
@@ -513,3 +523,5 @@ Glosten and Milgrom's 1985 model explains the bid-ask spread through this. :: Ad
 TASI peaked in February 2006 at about this level. :: 20,600
 The Saudi Exchange started trading single-stock options in this year. :: 2023
 The Saudi Exchange's first ETF, launched in 2010, tracked this. :: Falcom 30 (the 30 largest Saudi companies)
+The theorem that no arbitrage is equivalent to the existence of an equivalent martingale (risk-neutral) measure. :: Fundamental theorem of asset pricing
+In Kyle's 1985 model, the coefficient measuring price impact per unit of order flow. :: Kyle's lambda

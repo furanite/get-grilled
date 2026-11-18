@@ -439,6 +439,11 @@ The reliability index for the average number of interruptions per customer per y
 The planning measure for expected hours per year when load exceeds available generation. :: LOLE (loss of load expectation)
 A wind turbine's power curve becomes flat above this wind speed. :: Rated wind speed
 The Dubai solar park where ACWA Power built the world's tallest solar power tower. :: Mohammed bin Rashid Al Maktoum Solar Park
+The quantity whose per-unit value is the same on both sides of an ideal transformer when the bases follow its turns ratio. :: Impedance
+For a balanced three-phase fault, only this sequence network carries current. :: Positive sequence
+The common distribution transformer vector group with a delta HV winding and an earthed star LV winding leading by 30°. :: Dyn11
+The transformation that turns three-phase machine quantities into direct and quadrature axes fixed to the rotor. :: Park (dq0) transformation
+The 'V curves' of a synchronous machine plot armature current against this. :: Field (excitation) current
 
 ## 500
 The year Edison opened the Pearl Street power station in New York. :: 1882
@@ -518,3 +523,26 @@ The Swedish inventor of the nickel–cadmium battery in 1899. :: Waldemar Jungne
 The fast decoupled load flow was published by Stott and this person in 1974. :: Alsaç
 The formula for losses using B coefficients is named after this engineer. :: Kron
 The 2019 blackout in Great Britain began with a lightning strike and the trips of a gas plant and this offshore wind farm. :: Hornsea One
+For a bolted single line-to-ground fault, fault current equals 3 times prefault voltage divided by this sum. :: Z1 + Z2 + Z0
+In the swing equation, the synchronising power coefficient of a lossless link equals Pmax times this. :: cos δ
+The decay time constant of the DC offset in fault current is set by this ratio of the network. :: X/R ratio
+The open-circuit receiving-end voltage of a lossless line equals the sending-end voltage divided by this. :: cos βl
+A lossless 60 Hz line that is exactly a quarter-wavelength long is roughly this long. :: About 1,250 km
+The surge impedance loading of a 400 kV line with a 400 Ω surge impedance. :: 400 MW
+The order of convergence of the Newton–Raphson load flow near the solution. :: Quadratic
+Fast decoupled load flow keeps its B′ and B″ matrices constant, so they are factorised this often. :: Only once
+At the nose of a P–V curve, the load-flow Jacobian becomes this. :: Singular
+The first-pole-to-clear factor for a three-phase ungrounded fault, used in breaker recovery voltage ratings. :: 1.5
+The inverter-side angle that must stay above a minimum in LCC HVDC to avoid commutation failure. :: Extinction angle (γ)
+The lowest characteristic AC-side harmonic orders of a twelve-pulse converter. :: 11th and 13th
+The converter of a DFIG wind turbine is rated at only about this fraction of the turbine's power. :: About 30%
+The maximum (breakdown) torque of an induction motor does not depend on this rotor quantity. :: Rotor resistance
+The Shockley–Queisser efficiency limit for a single-junction solar cell in unconcentrated sunlight, roughly. :: About 33%
+In momentum theory, an ideal wind rotor reaches the Betz limit at this axial induction factor. :: 1/3
+The law describing how a battery's usable capacity falls at higher discharge rates. :: Peukert's law
+The thermoneutral voltage of water electrolysis at 25 °C. :: About 1.48 V
+The condition on the triple product of density, temperature and confinement time for fusion ignition. :: Lawson criterion
+The two extra factors that turn the four-factor formula into the six-factor formula for a finite reactor. :: Fast and thermal non-leakage probabilities
+The effect that cuts reactor power as fuel heats up, by widening the U-238 absorption resonances. :: Doppler broadening
+The delayed neutron fraction β for U-235 fission, roughly. :: About 0.65%
+Reactivity equal to the delayed neutron fraction is called this unit. :: One dollar

@@ -99,6 +99,10 @@ Farming, fishing and mining belong to this sector. :: Primary sector
 Banking, tourism and retail belong to this sector. :: Tertiary (service) sector
 Money spent by visitors from abroad counts as an export of this. :: Services (tourism)
 The 'Chicago school' of economics is linked to this university. :: University of Chicago
+The money a business earns from sales before any costs are taken away. :: Revenue
+A place, real or online, where buyers and sellers trade. :: Market
+The price of borrowing money, shown as a percentage. :: Interest rate
+A share of ownership in a company that can be bought and sold. :: Stock (share)
 
 ## 200
 The economist who wrote "The General Theory of Employment, Interest and Money" in 1936. :: John Maynard Keynes
@@ -410,6 +414,10 @@ The economist who wrote "The Economic Consequences of the Peace" (1919). :: John
 The 'J. B. Clark Medal' is given to American economists under this age. :: 40
 The book "Nudge" was written by Richard Thaler and this law professor. :: Cass Sunstein
 The one GCC currency pegged to a basket of currencies rather than only the US dollar. :: Kuwaiti dinar
+The Soviet economist who proposed long business cycles of about 50 years. :: Nikolai Kondratiev
+The paradox in which more efficient use of a resource, first noticed with coal, raises its total use. :: Jevons paradox
+The small tax on currency transactions proposed by James Tobin. :: Tobin tax
+Jacob Viner's term for a trade bloc shifting imports from cheaper outside suppliers to dearer member suppliers. :: Trade diversion
 
 ## 500
 The economics Nobel of 1974 was shared by Hayek and this Swedish economist with opposite views. :: Gunnar Myrdal

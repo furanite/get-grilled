@@ -441,6 +441,7 @@ Latin: "Things remaining as they are". :: Rebus sic stantibus
 Latin: "As you possess", used for borders. :: Uti possidetis
 The Arabic legal term for a legal capacity to have rights. :: Ahliyyat al-wujub
 The Arabic legal term for capacity to act. :: Ahliyyat al-ada'
+Latin: "To a willing person, no injury is done", a defence in tort. :: Volenti non fit injuria
 
 ## 500
 The Roman law term for a contract formed by words in question and answer. :: Stipulatio
@@ -514,6 +515,35 @@ The Quran verse that tells creditors to give a debtor in hardship time is in thi
 The Arabic legal term for delay in paying debt by a rich person. :: Matl al-ghani
 Donoghue v Stevenson happened in this Scottish town. :: Paisley
 The GCHQ case was decided in this year. :: 1984
+Latin: "A new intervening act" that breaks the chain of causation. :: Novus actus interveniens
+Latin: "No action arises from a disgraceful cause", the illegality defence. :: Ex turpi causa non oritur actio
+Latin maxim of interpretation: a later general law does not override an earlier specific one. :: Generalia specialibus non derogant
+Latin maxim of interpretation: a later law overrides an earlier law that conflicts with it. :: Lex posterior derogat legi priori
+Latin: "No punishment without law", the principle of legality in criminal law. :: Nulla poena sine lege
+Latin: "Not twice for the same thing", the rule against being tried twice. :: Ne bis in idem (non bis in idem)
+The doctrine that applies a charitable gift whose purpose has failed to the nearest similar purpose. :: Cy-près
+The 1868 English case of strict liability after a reservoir burst into a neighbour's mine shafts. :: Rylands v Fletcher
+The Caparo test for a duty of care needs foreseeability of harm, proximity, and that a duty would be this. :: Fair, just and reasonable
+The 1843 English rules on insanity: the accused did not know the nature of the act or that it was wrong. :: The M'Naghten rules
+The test from a 1957 case: a doctor is not negligent if a responsible body of medical opinion would act the same way. :: The Bolam test
+Latin: "Incapable of wrong", the presumption that a young child cannot commit a crime. :: Doli incapax
+The Norman French plea that the accused has already been acquitted of the same offence. :: Autrefois acquit
+The doctrine letting a court decline a case because another country's court is clearly more appropriate. :: Forum non conveniens
+The conflict-of-laws doctrine where the foreign law chosen by the forum's rules refers the case back to the forum. :: Renvoi
+The Latin name for the conflict-of-laws rule that a tort is governed by the law of the place where it happened. :: Lex loci delicti
+The Latin name for the rule that land is governed by the law of the place where it lies. :: Lex situs (lex rei sitae)
+Latin: a decision made "through lack of care", ignoring a binding statute or precedent, which need not be followed. :: Per incuriam
+Latin for an official or arbitrator whose power is spent once the decision has been made. :: Functus officio
+Latin "by what warrant", the writ that challenges a person's right to hold a public office. :: Quo warranto
+An injunction granted to stop a wrong that is threatened but has not yet happened. :: A quia timet injunction
+The English philosopher who coined the words "codification" and "international". :: Jeremy Bentham
+The English jurist who defined law as commands of a sovereign backed by sanctions. :: John Austin
+The American jurist whose "The Morality of Law" set out eight principles of legality. :: Lon L. Fuller
+In Hohfeld's scheme of jural relations, the correlative of a power is this. :: A liability
+The German jurist who founded the historical school, seeing law as an expression of the Volksgeist. :: Friedrich Carl von Savigny
+The 1927 international court case holding that states may act unless a rule of international law forbids it. :: The Lotus case (France v Turkey)
+Latin for deciding a case on what is fair and good, which the ICJ may do only if the parties agree. :: Ex aequo et bono
+Besides state practice, customary international law needs this belief that the practice is legally required. :: Opinio juris
 
 ## translate
 Habeas corpus (Latin) :: You shall have the body

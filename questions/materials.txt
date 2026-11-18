@@ -431,6 +431,17 @@ The coating process that sprays molten particles onto a surface through a plasma
 The vapour coating process used to put hard titanium nitride on drill bits. :: PVD (physical vapour deposition)
 The gold-coloured hard coating seen on many drill bits. :: Titanium nitride (TiN)
 The polymer that is a liquid crystal and spun into Kevlar. :: Poly-paraphenylene terephthalamide
+The stress amplitude below which a steel can survive an unlimited number of load cycles. :: Endurance (fatigue) limit
+The fatigue diagram line joining the endurance limit to the ultimate tensile strength to allow for mean stress. :: Goodman line (relation)
+The rule that adds up cycle ratios n/N to predict cumulative fatigue damage, with failure when the sum reaches 1. :: Miner's rule (Palmgren–Miner)
+The hardness test that presses a square-based diamond pyramid with a 136° angle into the surface. :: Vickers hardness test
+Brittle fracture that splits grains along crystal planes, leaving flat facets and river marks. :: Cleavage (transgranular fracture)
+The cup-like features seen under an SEM on a ductile fracture surface, left by microvoid coalescence. :: Dimples
+In an ionic crystal, a missing cation and anion pair that keeps the charge balanced. :: Schottky defect
+In an ionic crystal, a cation moved from its lattice site into a nearby interstitial position. :: Frenkel defect
+The spherical clusters of radiating crystalline lamellae in a polymer cooled from the melt. :: Spherulites
+The return of a sharp yield point after mild steel is strained and then rested or gently heated. :: Strain ageing
+In the Hall–Petch equation, yield strength rises with grain diameter d raised to this power. :: −1/2
 
 ## 500
 The physicist father-and-son team who won the 1915 Nobel Prize for X-ray crystallography. :: William Henry and William Lawrence Bragg
@@ -518,3 +529,18 @@ The patterns on true Damascus blades come from bands of this hard phase. :: Ceme
 The blue pigment made in ancient Egypt, one of the first synthetic materials. :: Egyptian blue
 The ancient casting method that uses a wax model melted out of a clay mould. :: Lost-wax (investment) casting
 The Bessemer process cleans molten pig iron by blowing this through it. :: Air
+For a metal obeying σ = Kεⁿ, necking begins when the true strain equals this. :: n (the strain-hardening exponent)
+A K_IC test is valid only if thickness exceeds 2.5(K_IC/σy)², which ensures this condition at the crack tip. :: Plane strain
+The path-independent contour integral, proposed by Rice in 1968, used for elastic–plastic fracture. :: J-integral
+The stress intensity range below which a fatigue crack does not grow measurably. :: Fatigue threshold (ΔK_th)
+The softening of metals as grains shrink below roughly 10 to 20 nm, reversing the usual trend. :: Inverse Hall–Petch effect
+Counting {110}, {112} and {123} planes with <111> directions, BCC metals have this many possible slip systems. :: 48
+By the von Mises criterion, a polycrystal needs at least this many independent slip systems to deform plastically. :: Five
+Brass phases that form at electron-to-atom ratios of 3/2, 21/13 and 7/4 are called this. :: Electron compounds (Hume-Rothery phases)
+Phase separation inside the spinodal, with no nucleation barrier and growing composition waves. :: Spinodal decomposition
+Coarsening where large precipitates grow at the expense of small ones, with mean radius cubed rising linearly with time. :: Ostwald ripening (LSW theory)
+The internal-friction peak in BCC iron caused by carbon or nitrogen atoms hopping between interstitial sites under stress. :: Snoek effect (Snoek peak)
+The orientation relationship {111}γ ∥ {011}α′ between austenite and martensite is named after these two. :: Kurdjumov and Sachs
+In the power-law creep equation, strain rate ∝ σⁿ; for diffusional creep n equals this. :: 1
+A stretched rubber band contracts when heated because rubber elasticity comes mainly from this. :: Entropy
+Above the entanglement molecular weight, polymer melt viscosity rises with molecular weight to about this power. :: 3.4

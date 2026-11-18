@@ -433,6 +433,10 @@ The wave sent upstream when a sluice gate in a channel is suddenly closed. :: Po
 The sloshing standing wave in a closed basin like a lake or harbour. :: Seiche
 The sharp front of water that runs up some rivers with the rising tide. :: Tidal bore
 The explicit approximation to the Colebrook equation from 1983. :: Haaland equation
+For isentropic flow, p0/p equals (1 + (γ − 1)M²/2) raised to this power. :: γ/(γ − 1)
+For a given wedge angle and Mach number, an attached oblique shock has a weak solution and this one. :: Strong shock solution
+The dimensionless cavitation number for pumps and turbines that compares NPSH with the machine's head. :: Thoma cavitation number (σ)
+In supersonic flow, a Pitot tube reads the stagnation pressure behind this. :: A normal (bow) shock in front of it
 
 ## 500
 The French engineer who first derived the viscous flow equations in 1822. :: Claude-Louis Navier
@@ -515,3 +519,23 @@ The American mining engineer who patented the split-bucket impulse wheel in 1880
 The French engineer whose 1827 water turbine was the first practical one. :: Benoît Fourneyron
 The 1889 US dam failure that killed over 2,200 people in Johnstown, Pennsylvania. :: South Fork Dam
 Rayleigh–Bénard convection starts above a critical Rayleigh number of about this for rigid boundaries. :: 1,708
+The largest possible density ratio across a normal shock in air with γ = 1.4. :: 6
+The lowest Mach number reachable behind a normal shock in air (γ = 1.4) as upstream Mach tends to infinity. :: About 0.378
+What does an oblique shock do when a wedge's angle exceeds the maximum deflection angle for that Mach number? :: Detaches (becomes a curved bow shock)
+The maximum turning angle of a Prandtl–Meyer expansion from Mach 1 to infinity in air, roughly. :: About 130.5°
+Coles' empirical addition to the log law that describes the outer part of a turbulent boundary layer. :: Law of the wake
+In Kolmogorov's theory, the energy spectrum in the inertial subrange falls with wavenumber to this power. :: −5/3
+The Kolmogorov length scale equals (ν³/ε) raised to this power. :: 1/4
+The eigenvalue equation for small disturbances in a parallel viscous shear flow. :: Orr–Sommerfeld equation
+The two-dimensional travelling waves that first appear in natural transition of a flat-plate boundary layer. :: Tollmien–Schlichting waves
+Squire's theorem says that in parallel shear flow, instability first appears for disturbances of this kind. :: Two-dimensional
+The critical Reynolds number from linear stability theory for plane Poiseuille (channel) flow. :: About 5,772
+Linear stability theory predicts that laminar Hagen–Poiseuille pipe flow is this at every Reynolds number. :: Linearly stable
+The analogy St·Pr^(2/3) = Cf/2 that extends Reynolds' analogy to fluids with Prandtl number not equal to 1. :: Chilton–Colburn analogy
+The similarity solutions for laminar boundary layers whose outer velocity varies as a power of x. :: Falkner–Skan solutions
+The integral equation relating momentum-thickness growth to wall shear stress and pressure gradient. :: Kármán momentum integral equation
+The vorticity-equation mechanism that strengthens a vortex as it is lengthened, absent in 2D flow. :: Vortex stretching
+In two-dimensional turbulence, energy cascades in this direction, unlike in 3D. :: Towards larger scales (inverse cascade)
+The turbulence closure that solves a separate transport equation for each Reynolds stress component. :: Reynolds stress model (RSM)
+In Rayleigh flow, the static temperature is greatest at this Mach number. :: 1/√γ (about 0.845 for air)
+Rayleigh's criterion: an inviscid parallel flow can be unstable only if its velocity profile has this. :: An inflection point

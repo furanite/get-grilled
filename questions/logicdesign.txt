@@ -102,6 +102,8 @@ Name this circuit block, which passes one of two inputs to its output. {img:mux-
 Name this storage element, which copies its input to Q on the clock edge. {img:d-flipflop.svg} :: D flip-flop
 Which single gate drawn here outputs 1 only when both inputs are 0? {img:gate-nor.svg} :: NOR gate
 The Nand to Tetris course starts by building every chip from this one gate. :: NAND
+The gate whose output is 1 only when all its inputs are 1. :: AND
+The number system that uses only the digits 0 and 1. :: Binary
 
 ## 200
 A DIP chip's pins are numbered this way, looking from the top. :: Anticlockwise from pin 1
@@ -424,6 +426,10 @@ The logical effort of a 3-input NOR gate. :: 7/3
 A typical propagation delay of a 74HC gate at 5 V. :: About 8 to 10 ns
 The open-source FPGA synthesis tool. :: Yosys
 The open-source Verilog simulator that compiles designs to fast C++. :: Verilator
+The hazard in which an output that should stay at 1 briefly drops to 0. :: Static-1 hazard
+The adder that lets a carry jump over a block whose propagate signals are all 1. :: Carry-skip (carry-bypass) adder
+The adder that computes each block's sum for both carry-in values, then picks one with a multiplexer. :: Carry-select adder
+By the consensus theorem, AB + A′C + BC simplifies to this. :: AB + A′C
 
 ## 500
 The American engineer whose 1937 master's thesis applied Boolean algebra to relay circuits. :: Claude Shannon
@@ -517,3 +523,12 @@ The first transistorised computer, working in 1953 at this university. :: Univer
 The cheap Lattice USB board used with the first open-source FPGA tools. :: iCEstick
 The IBM engineer who coined the word 'byte'. :: Werner Buchholz
 The CORDIC algorithm was invented for this aircraft's navigation computer. :: B-58 Hustler
+The parallel prefix adder with minimal wiring, fan-out of 2 and depth of about 2 log₂ n. :: Brent–Kung adder
+The prefix adder with log₂ n depth whose fan-out grows to n/2 at the last level. :: Sklansky adder
+A static-1 hazard in a sum-of-products circuit is removed by adding this redundant term. :: The consensus term
+A synchroniser's MTBF is e^(t_r/τ) divided by T0 times the product of these two quantities. :: The clock and data frequencies
+The state minimisation method that splits states into blocks until each block's states behave identically. :: Partition refinement (Moore's method)
+The triangular table used to find equivalent states by crossing out pairs that cannot be merged. :: Implication table
+The method that finds all minimal covers from a prime implicant chart by multiplying out sums of products. :: Petrick's method
+In an asynchronous circuit, two state variables change together and the final state depends on which wins. :: Critical race
+The asynchronous-circuit hazard where feedback arrives before an input change has fully spread. :: Essential hazard

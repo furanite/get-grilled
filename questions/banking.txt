@@ -102,6 +102,7 @@ The 1999 introduction of this currency changed banking in Europe. :: Euro
 Saudi Arabia's Financial Sector Development Program is part of this plan. :: Vision 2030
 The 2008 'Paulson plan' was named after this Treasury secretary. :: Henry Paulson
 The 'Volcker Rule' was proposed by this former Fed chair. :: Paul Volcker
+The three-digit security code on the back of a bank card, used for online payments. :: CVV
 
 ## 200
 The interest rate a central bank charges or pays to steer the economy. :: Policy rate
@@ -197,6 +198,13 @@ The 'zero lower bound' problem means central banks can't easily cut rates below 
 The global group of central banks that sets bank capital standards. :: Basel Committee on Banking Supervision
 The famous 18th-century Frankfurt banking dynasty with five sons in five cities. :: Rothschild
 The Fed's 'discount window' lends to banks at this rate. :: The discount rate (primary credit rate)
+Interest earned on both the original amount and on interest already added. :: Compound interest
+The original amount of a loan, not counting interest. :: Principal
+Something of value pledged by a borrower to secure a loan. :: Collateral
+A cheque the bank refuses to pay because the account lacks enough money. :: Bounced (dishonoured) cheque
+The Islamic finance sale in which the bank buys an item and sells it to the customer at a disclosed mark-up. :: Murabaha
+The Islamic leasing contract often used for car and home finance. :: Ijara
+The Islamic partnership in which one side gives the capital and the other the work, sharing profit. :: Mudaraba
 
 ## 300
 The bank capital ratio: capital divided by these. :: Risk-weighted assets
@@ -296,6 +304,9 @@ Money market funds 'breaking the buck' means their NAV fell below this. :: 1 dol
 Saudi Arabia keeps the riyal peg and free capital flows, so it gives up this. :: Independent monetary policy
 The economist who blamed the Great Depression on the Fed letting the money supply fall. :: Milton Friedman (with Anna Schwartz)
 The ECB's president from 2019. :: Christine Lagarde
+The Islamic home finance partnership in which the customer gradually buys out the bank's share. :: Diminishing musharaka
+The Islamic contract in which full payment is made now for goods delivered later, used in farming. :: Salam
+The Islamic financing in which a customer buys a commodity on credit and sells it at once for cash. :: Tawarruq
 
 ## 400
 The 1694 founding of the Bank of England was to lend money to this king for war. :: William III

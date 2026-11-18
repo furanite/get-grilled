@@ -507,6 +507,9 @@ The Persian word "torsh" means this taste. :: Sour
 The Persian word "shor" means this taste. :: Salty
 The Persian word "talkh" means this taste. :: Bitter
 The Persian word "tond" means this taste. :: Spicy (hot)
+The Persian word "dandan" means this. :: Tooth
+The Persian word "zemestan" means this season. :: Winter
+The Persian word "ghaza" means this, from Arabic. :: Food
 
 ## 500
 The Persian of Afghanistan was officially renamed "Dari" in this decade. :: The 1960s (1964 constitution)
@@ -595,6 +598,20 @@ The Persian idiom "Hendevaneh dar baghal" describes this. :: Two jobs at once (w
 The Persian idiom "Do hendevaneh ba yek dast nemitavan bardasht" means this. :: You can't carry two watermelons in one hand
 The Persian idiom "Gorg-e baran dideh" describes this person. :: A very experienced person (a wolf that has seen rain)
 The Persian idiom "Zir-e ab-ash ra zadan" means this. :: To speak badly behind someone's back
+The Persian word "farhangestan" means this kind of institution. :: Academy
+The Academy's new word "rayanameh" means this. :: Email
+The present stem of the Persian verb "raftan", as in "miravam". :: Rav
+The present stem of the Persian verb "didan", as in "mibinam". :: Bin
+The present stem of the Persian verb "kardan", as in "mikonam". :: Kon
+The Persian suffix "-tar", as in "bozorgtar", forms this. :: The comparative (bigger)
+The Persian suffix "-tarin", as in "bozorgtarin", forms this. :: The superlative (biggest)
+The unstressed ending "-i" in "ketabi" marks a noun as this. :: Indefinite (a book)
+The Persian word "dastshuyi", literally "hand-washing", means this. :: Toilet (washroom)
+The country name "Iran" comes from Middle Persian "Eran", meaning this. :: Land of the Aryans
+The Arabic word "khandaq" (trench) comes from Persian "kandak", meaning this. :: A ditch (something dug)
+The Arabic word "sirwal" (trousers) comes from this Persian word. :: Shalvar
+The Arabic word "ibriq" (jug) comes from Persian "abriz", meaning this. :: Water-pourer
+The silent "vav" written but not pronounced in "khahar" and "khod" is called this. :: Vav-e ma'duleh
 
 ## translate
 Salam :: Hello

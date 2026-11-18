@@ -311,6 +311,16 @@ New Zealand's national savings scheme with automatic enrolment. :: KiwiSaver
 The 1974 study by Richard Easterlin was about economic growth and this. :: Happiness
 Saudi Arabia's 'Qiwa' platform is used for this. :: Labour services (work permits, contracts)
 The 'Bogleheads' are fans of this person's ideas. :: John Bogle
+The table showing how each loan instalment splits between principal and profit or interest. :: Amortisation schedule
+Paying only this amount on a credit card each month keeps the debt alive for years. :: The minimum payment
+The Islamic personal finance where the bank sells a commodity on credit and the customer sells it on for cash. :: Tawarruq
+A person with assets of 500,000 riyals and debts of 320,000 riyals has this net worth. :: 180,000 riyals
+Monthly expenses of 9,000 riyals and a goal of 6 months' cover: the emergency fund you need. :: 54,000 riyals
+A savings account paying 4% while inflation is 6% gives roughly this real return. :: About -2%
+Investing 1,000 buys 10 units at 100; another 1,000 buys 20 units at 50. The average cost per unit. :: About 66.67
+Splitting savings between shares, sukuk or bonds, and cash according to goals and time horizon. :: Asset allocation
+When market interest rates rise, the prices of existing bonds and fixed-rate sukuk do this. :: Fall
+The debt-to-income ratio of someone paying 4,500 riyals a month on debts from a monthly income of 15,000 riyals. :: 30%
 
 ## 400
 Benjamin Franklin's 1758 essay on thrift and hard work. :: The Way to Wealth
@@ -412,6 +422,7 @@ A fixed-term financial product where money is locked until a date. :: Time depos
 The Saudi Central Bank's rules give a borrower a 'cooling-off' period of this many days to cancel personal finance. :: 10 days
 Early repayment of Saudi personal finance gives the borrower a rebate of future profit, but the bank can keep up to this many months' profit. :: Three months
 Under SAMA rules, a bank can't charge more than this share of the loan as an administrative fee on consumer finance. :: 1% (up to 5,000 riyals)
+The Rule of 72 gives its most accurate doubling times at interest rates around this level. :: About 8%
 
 ## 500
 The study of how families make money decisions is called this. :: Household finance
@@ -512,3 +523,5 @@ The authors of "The Millionaire Next Door". :: Thomas Stanley and William Danko
 The 'latte factor' term was made popular by this author. :: David Bach
 The Saudi body that resolves banking disputes, which replaced the Committee for Banking Disputes. :: Committees for Banking and Finance Disputes and Violations
 The minimum service period for an early pension under GOSI's new rules is this many months. :: 300 months (25 years)
+The 'Save More Tomorrow' plan was designed by Richard Thaler and this economist. :: Shlomo Benartzi
+Benartzi and Thaler found many savers split money equally among whatever funds are offered, called this. :: Naive diversification (the 1/n rule)

@@ -99,6 +99,10 @@ Buying a machine with cash changes the total assets by this much. :: Zero (no ch
 Paying off a supplier with cash lowers assets and this. :: Liabilities
 A company's yearly profit report is usually checked and signed off by this outside professional. :: External auditor
 The Big Four accounting firms: Deloitte, EY, KPMG and this. :: PwC (PricewaterhouseCoopers)
+A document given to a customer to confirm that money has been received. :: Receipt
+A business owned by two or more people who share its profits. :: Partnership
+Goods sent back by customers are recorded in this account. :: Sales returns (returns inwards)
+Sales where the customer pays immediately rather than on credit. :: Cash sales
 
 ## 200
 Assets minus liabilities. :: Net assets (equal to equity)
@@ -432,6 +436,16 @@ Saudi listed companies moved to full IFRS (as endorsed by SOCPA) in this year. :
 The IAS standard for hyperinflationary economies. :: IAS 29
 The IAS standard on borrowing costs. :: IAS 23
 The IAS standard on government grants. :: IAS 20
+The IAS standard on events after the reporting period. :: IAS 10
+Depreciating separately each significant part of an asset with a different useful life, as IAS 16 requires. :: Component depreciation
+The IAS standard on agriculture and biological assets. :: IAS 41
+The IFRS standard on exploration for and evaluation of mineral resources. :: IFRS 6
+The IAS standard on the presentation of financial instruments as liabilities or equity. :: IAS 32
+The IFRS standard on financial instrument disclosures. :: IFRS 7
+The ISA that deals with audit evidence. :: ISA 500
+The ISA on modifications to the auditor's opinion: qualified, adverse and disclaimer. :: ISA 705
+Under IAS 10, a dividend declared after the reporting date is treated this way at year end. :: Not recognised as a liability (disclosed)
+Under IAS 37, an outflow of resources is "probable" when it is this. :: More likely than not
 
 ## 500
 Saudi Aramco's IPO in December 2019 raised about this much in US dollars, including the greenshoe. :: 29.4 billion (25.6 billion before the greenshoe)
@@ -528,3 +542,9 @@ Under IFRS 2, equity-settled share options are measured at fair value on this da
 The Saudi regulator SOCPA was set up under the Certified Public Accountants Law of this year. :: 1991 (1412 AH)
 The 1494 book by Luca Pacioli that described double-entry bookkeeping. :: Summa de arithmetica, geometria, proportioni et proportionalita
 The accounting scandal at the Japanese camera maker Olympus came to light in this year. :: 2011
+In an IFRS 16 sale and leaseback, the seller-lessee recognises only the gain on the rights transferred to this party. :: The buyer-lessor
+The IAS 19 limit on the net defined benefit asset a company may recognise. :: Asset ceiling
+For IFRS 9 stage 3 assets, interest revenue is calculated on this amount. :: Amortised cost (net of the loss allowance)
+The IFRS 15 rule that includes variable consideration only if a significant revenue reversal is highly improbable. :: Constraint on variable consideration
+The bright-line hedge effectiveness range of IAS 39 that IFRS 9 removed. :: 80% to 125%
+A 2,000 asset, straight-line over 5 years with no residual value, is revalued to 1,800 after 2 years. The revaluation surplus. :: 600

@@ -312,6 +312,11 @@ The three types of market efficiency defined by Eugene Fama. :: Weak, semi-stron
 The 'pecking order' predicts that firms with financial slack will issue this kind of security first when they need outside money. :: Debt
 A firm's operating leverage is the ratio of the change in EBIT to the change in this. :: Sales
 The 'Fisher effect' says nominal interest rates rise one for one with this. :: Expected inflation
+WACC with 70% equity at 12% and 30% debt at 6% before tax, with a 20% tax rate. :: 9.84%
+Next year's dividend 2, share price 25, constant growth 3%. The cost of equity. :: 11%
+A firm with a debt-to-equity ratio of 0.5 has debt making up this share of its total capital. :: One third
+The point where a project's NPV profile crosses the horizontal axis. :: The IRR
+The price of a zero-coupon bond paying 1,000 in two years when the yield is 5%. :: About 907.03
 
 ## 400
 The 1990 Nobel Prize in economics went to Markowitz, Sharpe and this economist. :: Merton Miller
@@ -411,6 +416,9 @@ The ratio of net debt to EBITDA lenders often cap in leveraged loans. :: Leverag
 The option for underwriters to sell up to 15% more shares in an IPO. :: Greenshoe (over-allotment option)
 The formula that relevers a beta: unlevered beta x [1 + (1 - t) x D/E]. :: Hamada equation
 Saudi Arabia's Bankruptcy Law, which introduced financial reorganisation, took effect in this year. :: 2018
+The equivalent annual annuity method is used to compare projects with these. :: Unequal lives
+The real option to abandon a project is like holding this kind of option. :: A put option
+The discount rate at which two projects' NPV profiles intersect. :: Crossover rate (Fisher's intersection)
 
 ## 500
 The 1963 correction MM published adds this to their 1958 theory. :: Corporate taxes
@@ -512,3 +520,4 @@ The economist Merton Miller added personal taxes to the debate in this 1977 pape
 The momentum factor added by Carhart in 1997. :: UMD or WML (winners minus losers)
 The PIF's first green bond was issued in this year. :: 2022
 Franco Modigliani won the Nobel Prize in this year. :: 1985
+In the Black-Scholes model, N(d2) is the risk-neutral probability of this. :: The option finishing in the money (being exercised)

@@ -487,6 +487,10 @@ The Urdu plural "kitaben" uses this Urdu ending. :: -en
 The poet who was the royal teacher of the last Mughal emperor. :: Ibrahim Zauq ﵀
 The Delhi poet famous for "Tum mere paas hote ho goya". :: Momin Khan Momin ﵀
 The poet famous for funny verses about modern ways, from Allahabad. :: Akbar Allahabadi ﵀
+The Urdu proverb "Jaisi karni waisi bharni" means this. :: As you sow, so shall you reap
+The Urdu proverb "Ek aur ek gyarah hote hain" (one and one make eleven) means this. :: Unity is strength
+The Urdu idiom "Eid ka chaand hona" (to be the Eid moon) describes someone who is this. :: Rarely seen
+The Urdu idiom "Apne munh miyan mitthu banna" means this. :: To praise oneself
 
 ## 500
 The Urdu word "ghazal" comes from an Arabic word meaning this. :: Talking of love
@@ -576,6 +580,19 @@ The Urdu word "qasida" is a long poem of this kind. :: Praise (an ode)
 The famous Urdu qasida writer of the Mughal court before Ghalib. :: Mirza Muhammad Rafi Sauda ﵀
 The Urdu term "masnavi" means a long poem with this rhyme pattern. :: Rhyming couplets (each couplet rhymes on its own)
 The Urdu love masnavi "Sihr-ul-Bayan" was written by this poet. :: Mir Hasan ﵀
+The finest couplet of a ghazal is given this name. :: Bait-ul-ghazal (shah bait)
+The Urdu verse form of several couplets that continue one thought, without an opening rhyming couplet. :: Qita
+The Urdu poetic device of using two words that sound alike but differ in meaning. :: Tajnees (pun)
+The Urdu poetic device of using a word with a near and a far meaning, where the far one is intended. :: Ihaam
+The Urdu poetic device of alluding to a famous story or event in a word or two. :: Talmeeh (allusion)
+The Urdu poetic device of giving a fanciful, imaginary cause for a real thing. :: Husn-e-ta'leel
+The Urdu poem recited at a wedding in praise of the bridegroom. :: Sehra
+The Urdu poem form "shahr-ashob" laments this. :: The ruin of a city
+The Urdu grammar term "fe'l" names this part of speech. :: Verb
+The Urdu marker "ne", used with the subject of a past transitive verb, makes Urdu this kind of language. :: Ergative (split-ergative)
+In "Larke ne kitab parhi", the verb "parhi" agrees in gender with this word. :: Kitab (the object)
+The Urdu term "zarb-ul-misl" means this. :: Proverb
+The Urdu number words "dedh" and "dhai" mean these. :: One and a half and two and a half
 
 ## translate
 Assalamu alaykum :: Peace be upon you

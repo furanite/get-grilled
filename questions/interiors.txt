@@ -433,6 +433,11 @@ Arne Jacobsen designed the Egg Chair for this hotel. :: The SAS Royal Hotel in C
 The Barcelona Chair was designed by Mies van der Rohe and this partner. :: Lilly Reich
 The English furniture designer of light Neoclassical pieces. :: George Hepplewhite (and Sheraton)
 The French Art Deco furniture designer. :: Jacques-Émile Ruhlmann
+The ratio of indoor to outdoor illuminance under an overcast sky, given as a percentage. :: Daylight factor
+The CIE index that rates discomfort glare from light fittings in a room, where lower is better. :: UGR (Unified Glare Rating)
+The brightness of a surface as the eye sees it, measured in candelas per square metre. :: Luminance
+The usual recommended illuminance for general office desk work, in lux. :: About 500 lux
+The space-planning measure comparing usable floor area to the total floor area. :: Net-to-gross (efficiency) ratio
 
 ## 500
 The Roman architect whose book has a section on wall paintings and decoration. :: Vitruvius
@@ -528,3 +533,10 @@ The UK's standard framework of design stages, from brief to use. :: The RIBA Pla
 The French term for a traditional cabinet maker of fine furniture. :: Ébéniste
 The Italian brand that first sold the beanbag chair, the Sacco, in 1968. :: Zanotta
 The 2007 study that showed medieval girih tiles made quasi-crystal patterns was by these researchers. :: Peter Lu and Paul Steinhardt
+The physicist whose reverberation formula is T = 0.161 V / A. :: Wallace Clement Sabine
+The unit of sound absorption equal to one square metre of perfectly absorbing surface. :: Sabin (metric sabin)
+The ISO 717 single-number rating of a wall's airborne sound insulation, used in Europe instead of STC. :: Rw (weighted sound reduction index)
+Two colours that match under one light source but not under another show this effect. :: Metamerism
+The curve linking colour temperature and illuminance levels that people find pleasing. :: Kruithof curve
+The WELL Building Standard metric for the circadian effect of light, based on the eye's ipRGC cells. :: Equivalent melanopic lux (EML)
+The CIE colour space with L*, a* and b* axes used to measure colour differences. :: CIELAB

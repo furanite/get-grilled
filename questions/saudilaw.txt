@@ -98,6 +98,11 @@ The Basic Law says the home is protected and can't be entered without the owner'
 The Basic Law protects this kind of correspondence from being read or delayed. :: Mail and phone communications (private correspondence)
 The year the Kingdom of Hejaz and Nejd was renamed the Kingdom of Saudi Arabia. :: 1932
 The Arabic term for a fixed sentence in Islamic law. :: Hadd
+The official currency of Saudi Arabia. :: The Saudi riyal
+A sum of money a person is ordered to pay as a punishment. :: A fine
+The written agreement that sets out a worker's job, salary and duties with an employer. :: Employment contract
+Taking someone's property secretly and without right. :: Theft (sariqah)
+The official document that lets a citizen travel abroad. :: Passport
 
 ## 200
 The Basic Law was issued by King Fahd in this year. :: 1992 (1412 AH)
@@ -197,6 +202,9 @@ The Arabic term for an obligation on every individual. :: Fard 'ayn
 The Arabic term for an obligation on the community as a whole. :: Fard kifayah
 The Arabic term for a valid contract or act. :: Sahih
 The Arabic term for a void contract. :: Batil
+The Arabic term for killing by mistake, which brings diyah but not qisas. :: Qatl al-khata'
+The Saudi programme, launched in 2011, that rates private companies by their share of Saudi employees. :: Nitaqat
+The Arabic term for a lease or hire contract. :: Ijarah
 
 ## 300
 The Basic Law article that names the Quran and Sunnah as the source of the state's authority. :: Article 7
@@ -512,6 +520,8 @@ The independent National Society for Human Rights was set up in this year. :: 20
 The Saudi Arabian Citizenship System dates from this year. :: 1954 (1374 AH)
 The Council of Senior Scholars was set up in this year. :: 1971
 The Saudi Commercial Register Law of 2025 replaced the old law from this year. :: 1996 (1416 AH)
+The Arabic term for a killing with something not usually deadly, between intentional and accidental. :: Shibh al-'amd (quasi-intentional)
+The Arabic term for capacity to hold rights and duties, as opposed to capacity to act (ahliyyat al-ada'). :: Ahliyyat al-wujub
 
 ## tf
 A woman driving a car in Saudi Arabia with a valid licence. :: Legal (since June 2018)

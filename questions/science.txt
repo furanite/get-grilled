@@ -425,6 +425,14 @@ The scientist who created the first synthetic dye, mauveine, in 1856. :: William
 The father of modern taxonomy's book of 1735. :: Systema Naturae
 The cell organelle that packages and ships proteins. :: Golgi apparatus
 The theory of how continents float and move on the mantle was confirmed by this 1960s discovery. :: Seafloor spreading
+The law that the total pressure of a gas mixture equals the sum of the partial pressures. :: Dalton's law
+The constant, about 1.38 × 10⁻²³ J/K, that links a particle's energy to temperature. :: Boltzmann constant
+The particle emitted together with an electron in beta-minus decay. :: Antineutrino (electron antineutrino)
+The organelle full of digestive enzymes that breaks down worn-out cell parts. :: Lysosome
+The gaseous plant hormone that ripens fruit. :: Ethylene
+The main nitrogen waste excreted by birds and reptiles. :: Uric acid
+The Indian physicist who won the 1930 Nobel Prize for discovering a kind of light scattering. :: C. V. Raman
+The thin, iridium-rich clay layer that marks the extinction of the dinosaurs. :: K–Pg boundary
 
 ## 500
 The element with the symbol Sb. :: Antimony
@@ -512,3 +520,18 @@ The caps at the ends of chromosomes that shorten with age. :: Telomeres
 The mineral form of calcium phosphate in bones and teeth. :: Hydroxyapatite
 The enzyme in blood that speeds up turning carbon dioxide into bicarbonate. :: Carbonic anhydrase
 The light-sensitive protein in the rod cells of the eye. :: Rhodopsin
+The rule that electrons fill equal-energy orbitals singly, with parallel spins, before pairing. :: Hund's rule
+The effects of inner electrons moving near light speed, which explain why gold is yellow. :: Relativistic effects
+The catalysts of titanium compounds and aluminium alkyls that made polypropylene possible. :: Ziegler–Natta catalysts
+The law that a gas's effusion rate is inversely proportional to the square root of its molar mass. :: Graham's law
+The splitting of spectral lines when atoms are placed in a magnetic field. :: Zeeman effect
+The dimensionless constant, about 1/137, that sets the strength of electromagnetism. :: Fine-structure constant
+The enzyme that copies RNA into DNA, used by HIV. :: Reverse transcriptase
+The 1958 experiment with heavy nitrogen that proved DNA copies itself semi-conservatively. :: Meselson–Stahl experiment
+The 1944 experiment showing that DNA, not protein, was the "transforming principle". :: Avery–MacLeod–McCarty experiment
+The short DNA pieces made on the lagging strand during replication. :: Okazaki fragments
+The equation that gives a membrane's equilibrium potential for a single ion. :: Nernst equation
+Peter Mitchell's theory that cells make ATP using a proton gradient across a membrane. :: Chemiosmosis (chemiosmotic theory)
+The Danish seismologist who discovered Earth's solid inner core in 1936. :: Inge Lehmann
+The seismic body waves that cannot pass through Earth's liquid outer core. :: S-waves (shear waves)
+The bacterial enzymes that cut DNA at specific sequences, key tools of genetic engineering. :: Restriction enzymes

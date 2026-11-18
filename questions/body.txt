@@ -327,6 +327,7 @@ The Saudi Ministry of Health's call-centre number. :: 937
 The Andalusian philosopher-physician known in Europe as Averroes. :: Ibn Rushd
 The bones in the wrist are called this. :: Carpals
 The bones in the ankle are called this. :: Tarsals
+The kneecap's medical name. :: Patella
 
 ## 400
 The total length of the small intestine in an adult, roughly, in metres. :: 6
@@ -421,6 +422,14 @@ The hormone that makes you feel full. :: Leptin
 The number of pairs of spinal nerves. :: 31
 The Canadian scientists who discovered insulin in 1921: Banting and this man. :: Charles Best
 The approximate number of protein-coding genes in humans. :: 20,000
+The enzyme released by the kidneys that starts a chain of reactions raising blood pressure. :: Renin
+The hormone from the adrenal cortex that makes the kidneys keep sodium. :: Aldosterone
+The yellow pigment from broken-down haemoglobin that builds up in jaundice. :: Bilirubin
+The ball of capillaries in the kidney where blood is first filtered. :: Glomerulus
+The U-shaped part of the nephron that helps concentrate urine. :: Loop of Henle
+The bone cells that break down old bone. :: Osteoclasts
+The iron-storage protein measured in blood to check the body's iron stores. :: Ferritin
+The tiny hair-like structures lining the airways that sweep mucus upwards. :: Cilia
 
 ## 500
 The number of alveoli in a pair of adult lungs, roughly. :: About 480 million
@@ -512,3 +521,14 @@ The bone at the base of the skull with the large hole the spinal cord passes thr
 The large hole at the base of the skull. :: Foramen magnum
 The doctors who shared the 2005 Nobel for discovering it: Marshall and this man. :: Robin Warren
 The rare blood type nicknamed "golden blood". :: Rh-null
+The hormone released by the heart's atria that makes the kidneys pass more sodium, lowering blood pressure. :: ANP (atrial natriuretic peptide)
+The stomach-lining cells that secrete hydrochloric acid. :: Parietal cells
+The stomach protein needed to absorb vitamin B12 in the gut. :: Intrinsic factor
+The gut hormone that makes the gallbladder contract and release bile. :: Cholecystokinin (CCK)
+The first hormone ever discovered, by Bayliss and Starling in 1902. :: Secretin
+The law that the heart pumps more strongly the more it is filled before contracting. :: Frank–Starling law
+The cells of the kidney tubule that sense salt levels and signal the glomerulus. :: Macula densa
+The effect in which haemoglobin releases oxygen more easily in acidic, high-CO₂ tissue. :: Bohr effect
+The enzyme in red blood cells that rapidly turns carbon dioxide and water into carbonic acid. :: Carbonic anhydrase
+The theory that muscles contract as actin and myosin filaments slide past each other. :: Sliding filament theory
+The stretch sensors in the carotid sinus and aortic arch that monitor blood pressure. :: Baroreceptors

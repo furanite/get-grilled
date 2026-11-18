@@ -426,6 +426,11 @@ The programming principle that says a class should have only one reason to chang
 The five object-oriented design principles known by this acronym. :: SOLID
 The pattern of passing a class its dependencies instead of creating them inside. :: Dependency injection
 The theorem that proved SAT is NP-complete in 1971. :: Cook–Levin theorem
+The tree that answers prefix-sum queries and point updates in O(log n) using the lowest set bit. :: Fenwick tree (binary indexed tree)
+The cache write policy that updates main memory only when a modified block is evicted. :: Write-back
+The garbage collection method that frees objects when their count drops to zero, but fails on cycles. :: Reference counting
+The pre-emptive scheduling algorithm that always runs the job with the least time left. :: Shortest remaining time first (SRTF)
+The anomaly where giving FIFO page replacement more frames causes more page faults. :: Belady's anomaly
 
 ## 500
 The Unix command line tool whose name means 'global regular expression print'. :: grep
@@ -512,3 +517,19 @@ The number that ASCII 'DEL' has, the highest 7-bit value. :: 127
 The number of possible IPv4 addresses, roughly. :: About 4.3 billion
 The first domain name ever registered, in 1985. :: symbolics.com
 The four conditions for deadlock are named after this person. :: Coffman
+The probabilistic algorithm that estimates the number of distinct items using very little memory. :: HyperLogLog
+The deterministic linear-time selection algorithm that splits items into groups of five. :: Median of medians
+The Hopcroft–Karp algorithm solves this problem in O(E√V) time. :: Maximum bipartite matching
+The theorem that every non-trivial semantic property of programs is undecidable. :: Rice's theorem
+The lemma used to prove that a language such as aⁿbⁿ is not regular. :: Pumping lemma
+The type inference algorithm used in ML and Haskell. :: Hindley–Milner
+The cache coherence protocol named after its Modified, Exclusive, Shared and Invalid states. :: MESI
+The out-of-order execution algorithm with reservation stations, first used in the IBM System/360 Model 91. :: Tomasulo's algorithm
+The self-adjusting binary search tree that moves each accessed node to the root. :: Splay tree
+The randomised structure of layered linked lists with expected O(log n) search. :: Skip list
+The algorithm that finds the longest palindromic substring in linear time. :: Manacher's algorithm
+The multi-pattern string search algorithm that builds a trie with failure links. :: Aho–Corasick algorithm
+The algorithm that multiplies two large numbers using three half-size multiplications instead of four. :: Karatsuba algorithm
+The matrix multiplication algorithm that uses seven multiplications for 2 × 2 blocks instead of eight. :: Strassen's algorithm
+The consistency model in which each operation appears to take effect at one instant between its call and return. :: Linearizability
+The 1985 result that no deterministic consensus algorithm can be guaranteed in an asynchronous system with one faulty process. :: FLP impossibility
