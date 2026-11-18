@@ -1,4 +1,4 @@
-// Browser and attack checks for Get Grilled Live (the Raspberry Pi server).
+// Browser and attack checks for Munaafasatul Ilm Live (the Raspberry Pi server).
 // Run: npm run build:pi && node e2e/pi.mjs
 import { createRequire } from 'node:module'
 const { chromium } = createRequire(import.meta.url)('playwright')

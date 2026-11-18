@@ -1,4 +1,4 @@
-# Get Grilled buzzer box, firmware version 1.
+# Buzzer box, firmware version 1.
 #
 # Runs on a Raspberry Pi Pico or Pico 2 with MicroPython. Copy this file to the Pico as main.py
 # (see buzzer/README.md). It reads up to 8 team buttons, stamps every press with the time in

@@ -1,9 +1,9 @@
-# Get Grilled Live on a Raspberry Pi
+# Munaafasatul Ilm Live on a Raspberry Pi
 
 The Pi runs the game on its own Wi-Fi so that the host screen, the projector, one tablet per team and
 the audience's phones stay in step, with no internet needed during the game.
 
-- **Host** opens `http://getgrilled.local/host/` (or `http://<pi-address>/host/`) and signs in with the host PIN.
+- **Host** opens `http://ilm.local/host/` (or `http://<pi-address>/host/`) and signs in with the host PIN.
 - **Devices** in the host's top bar lists one link (and QR code) per team, plus one for the projector.
   The first device to open a link keeps it; any other device is turned away. The host sees who has
   joined and who is online, and can **reissue** a link (the old one stops working and its device is
@@ -35,7 +35,7 @@ Wi-Fi router of your own, a network cable, and a computer to prepare the card.
 2. Turn on **client isolation** (also called *AP isolation*) for the Wi-Fi, so phones can't see or
    reach each other. The Pi is plugged in by cable, so everyone can still reach it. Don't use the
    router's separate *guest network* for this: many routers block guests from everything on the
-   cable, Pi included. After setting it up, check from a phone that `http://getgrilled.local` opens.
+   cable, Pi included. After setting it up, check from a phone that `http://ilm.local` opens.
 3. Change the router's own admin password, and turn off WPS and remote (internet) management.
 4. In the router's DHCP settings, give the Pi a **fixed address** (an "address reservation") once it
    has joined, so links and QR codes keep working.
@@ -49,13 +49,13 @@ Wi-Fi router of your own, a network cable, and a computer to prepare the card.
    zone, and turn on SSH for now. Leave the Pi's own Wi-Fi empty: it uses the cable.
 3. Write the card, put it in the Pi, plug the Pi into the router by cable, and switch it on.
 
-### 3. Install Get Grilled
+### 3. Install Munaafasatul Ilm
 
 On the Pi (with a keyboard and screen, or over SSH from your computer):
 
     sudo apt-get install -y git
-    git clone https://github.com/furanite/get-grilled.git
-    cd get-grilled
+    git clone https://github.com/furanite/ilm-munaafasah.git
+    cd ilm-munaafasah
     sudo bash pi/install.sh
 
 The script asks:
@@ -64,16 +64,16 @@ The script asks:
 - **The update key.** On the first Pi, choose *1*. It shows a private key once: copy everything
   between the lines into GitHub (repository **Settings > Secrets and variables > Actions > New
   repository secret**, name `PI_SIGNING_KEY`). On a second Pi, choose *2* and paste the public key
-  from the first one (`/etc/getgrilled/release-key.pem`).
+  from the first one (`/etc/ilm/release-key.pem`).
 
 Then, on GitHub, open **Actions > Raspberry Pi release > Run workflow** once. From then on a new
 signed release is made by itself on every change to the game. Back on the Pi:
 
-    getgrilled update     # fetches and checks the release
-    getgrilled pin        # choose the host PIN (6 to 12 digits)
+    ilm update     # fetches and checks the release
+    ilm pin        # choose the host PIN (6 to 12 digits)
 
-Open `http://getgrilled.local/host/` on the host's laptop or tablet. If that name doesn't open,
-use the address from `getgrilled status`.
+Open `http://ilm.local/host/` on the host's laptop or tablet. If that name doesn't open,
+use the address from `ilm status`.
 
 The script also turns **SSH off** at the end. To keep it (for example to manage the Pi from your
 computer), run it as `sudo bash pi/install.sh --keep-ssh`. It's safe to run the script again.
@@ -91,7 +91,7 @@ computer), run it as `sudo bash pi/install.sh --keep-ssh`. It's safe to run the 
 
 Chrome and Edge only let a page talk to a USB device (the buzzer box) over a secure address, and the
 Pi uses plain `http`. On the host laptop, once: open `chrome://flags/#unsafely-treat-insecure-origin-as-secure`
-(`edge://flags/...` in Edge), add `http://getgrilled.local,http://<the Pi's number address>`, choose
+(`edge://flags/...` in Edge), add `http://ilm.local,http://<the Pi's number address>`, choose
 **Enabled** and restart the browser. The **Buzzers** button in the game explains the same if the box
 is blocked. (Plugging the box into the Pi itself, so no browser setting is needed, is a possible
 later improvement.)
@@ -107,19 +107,19 @@ from npm, so third-party build tools never run where the signing key is.
   - every file matches the game's own list; and
   - it is newer than what the Pi runs, so an old release can't be replayed.
 - **No internet:** the Pi starts the version it already has. It keeps the last two versions.
-- **Go back:** `getgrilled use-previous` switches to the version before (works offline). Run it
+- **Go back:** `ilm use-previous` switches to the version before (works offline). Run it
   again to switch back.
 - **From a USB stick:** copy the three files of a release (`manifest.json`, `manifest.sig` and the
-  `.ggpkg`) to a folder, then `getgrilled update-from /media/<stick>/<folder>`. Same checks.
-- `getgrilled status` shows the versions, `getgrilled logs` shows what happened.
+  `.ggpkg`) to a folder, then `ilm update-from /media/<stick>/<folder>`. Same checks.
+- `ilm status` shows the versions, `ilm logs` shows what happened.
 
 ## Lock-down
 
 - **Firewall** (`/etc/nftables.conf`): only the game's page (port 80), and only from local
   addresses. Everything else coming in is dropped, including SSH unless you kept it.
 - **The game runs as its own user** with systemd's sandbox:
-  - It can't change its own code (`/opt/getgrilled` is read-only to it).
-  - It can write only its PIN and links folder (`/var/lib/getgrilled`).
+  - It can't change its own code (`/opt/ilm` is read-only to it).
+  - It can write only its PIN and links folder (`/var/lib/ilm`).
   - It has no other privileges, and memory and process limits are set.
 - **The updater** runs as that same user and can write only the versions folder. It can't install
   anything that isn't signed.
@@ -140,7 +140,7 @@ from npm, so third-party build tools never run where the signing key is.
 - Team and projector links are random 192-bit keys, one device each; the key leaves the address bar
   as soon as it is used.
 - Every POST must come from the game's own pages (Origin check plus a custom header).
-- The server answers only to IP addresses, `localhost`, `getgrilled.local` and `getgrilled.lan`
+- The server answers only to IP addresses, `localhost`, `ilm.local` and `ilm.lan`
   (blocks DNS-rebinding tricks), serves only files inside the built site, caps request sizes,
   connections per device and in total, and sends the same strict security headers as the web app.
 - No third-party server code: Node's own modules only.

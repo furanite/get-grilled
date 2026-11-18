@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import qrcode from 'qrcode-generator'
 import type { Game, Lang, ThemeId } from '../lib/types'
-import type { AudView } from '../lib/edition'
+import { APP_NAME, type AudView } from '../lib/edition'
 import { STRINGS, num, type Strings } from '../lib/i18n'
 import { clueChoices } from '../lib/choices'
 import { type AudState, answerAudience, getHostLive, joinAudience, joinUrl, useAudienceFeed, useHostLive } from '../lib/live'
@@ -169,7 +169,7 @@ export function AudiencePhone({ fallbackLang }: { fallbackLang: Lang }) {
     <main className="phone" data-testid="phone">
       <header className="phone-head">
         <Mark theme={theme} className="phone-mark" />
-        <span className="brand-word">Get Grilled</span>
+        <span className="brand-word">{APP_NAME}</span>
         {s && (
           <span className="pill" data-testid="phone-score">
             {t.aud.score} {num(s.score, lang)}

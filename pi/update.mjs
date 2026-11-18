@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Keeps the Raspberry Pi's copy of Get Grilled up to date.
+// Keeps the Raspberry Pi's copy of Munaafasatul Ilm up to date.
 //
 //   node pi/update.mjs                 check GitHub for a newer signed release and install it (runs at every start-up)
 //   node pi/update.mjs --file <dir>    install a release from a folder (a USB stick) holding manifest.json, manifest.sig and the .ggpkg
@@ -12,16 +12,16 @@
 // old release can't be replayed. With no internet the Pi keeps the version it has. The two latest
 // versions are kept on the card, so "--use-previous" works offline too.
 //
-// Settings (environment): GG_HOME (default /opt/getgrilled), GG_KEY (default /etc/getgrilled/release-key.pem),
-// GG_REPO (default furanite/get-grilled), GG_RELEASES (the releases API address, for tests).
+// Settings (environment): GG_HOME (default /opt/ilm), GG_KEY (default /etc/ilm/release-key.pem),
+// GG_REPO (default furanite/ilm-munaafasah), GG_RELEASES (the releases API address, for tests).
 import { chmodSync, existsSync, mkdirSync, readFileSync, readdirSync, readlinkSync, renameSync, rmSync, symlinkSync, writeFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { randomBytes } from 'node:crypto'
 import { MAX_BUNDLE, checkBundle, newKeyPair, openManifest } from './bundle.mjs'
 
-const HOME = process.env.GG_HOME || '/opt/getgrilled'
-const KEY = process.env.GG_KEY || '/etc/getgrilled/release-key.pem'
-const REPO = process.env.GG_REPO || 'furanite/get-grilled'
+const HOME = process.env.GG_HOME || '/opt/ilm'
+const KEY = process.env.GG_KEY || '/etc/ilm/release-key.pem'
+const REPO = process.env.GG_REPO || 'furanite/ilm-munaafasah'
 const RELEASES = process.env.GG_RELEASES || `https://api.github.com/repos/${REPO}/releases?per_page=15`
 const REL_DIR = join(HOME, 'releases')
 const log = (...a) => console.log('[update]', ...a)
@@ -49,7 +49,7 @@ function pointLink(name, target) {
 
 /** Downloads up to `max` bytes, with a time limit; follows GitHub's redirect to its file store. */
 async function download(url, max, accept = 'application/octet-stream', ms = 120000) {
-  const res = await fetch(url, { headers: { accept, 'user-agent': 'get-grilled-pi-updater' }, redirect: 'follow', signal: AbortSignal.timeout(ms) })
+  const res = await fetch(url, { headers: { accept, 'user-agent': 'ilm-munaafasah-pi-updater' }, redirect: 'follow', signal: AbortSignal.timeout(ms) })
   if (!res.ok) throw new Error(`${res.status} from ${new URL(url).host}`)
   const len = Number(res.headers.get('content-length') || 0)
   if (len > max) throw new Error('Download is larger than allowed')

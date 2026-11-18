@@ -42,7 +42,7 @@ export function packBundle(files) {
 /** Unpacks a bundle made by packBundle. Throws on anything unexpected. */
 export function unpackBundle(gz) {
   const raw = gunzipSync(gz, { maxOutputLength: MAX_BUNDLE * 2 })
-  if (!raw.subarray(0, MAGIC.length).equals(MAGIC)) throw new Error('Not a Get Grilled bundle')
+  if (!raw.subarray(0, MAGIC.length).equals(MAGIC)) throw new Error('Not a Munaafasatul Ilm bundle')
   const nl = raw.indexOf(10, MAGIC.length)
   if (nl < 0) throw new Error('Bundle index missing')
   const index = JSON.parse(raw.subarray(MAGIC.length, nl).toString('utf8'))
@@ -64,7 +64,7 @@ export function unpackBundle(gz) {
 /** Makes the manifest for a bundle. `built` is an ISO time; newer builds win. */
 export function makeManifest({ version, built, commit, bundleName, bundle }) {
   return Buffer.from(
-    JSON.stringify({ format: FORMAT, app: 'get-grilled-pi', version, built, commit, bundle: { name: bundleName, size: bundle.length, sha256: sha256(bundle) } }, null, 1) + '\n',
+    JSON.stringify({ format: FORMAT, app: 'ilm-munaafasah-pi', version, built, commit, bundle: { name: bundleName, size: bundle.length, sha256: sha256(bundle) } }, null, 1) + '\n',
   )
 }
 
@@ -77,7 +77,7 @@ export function openManifest(manifest, sigText, publicKeyPem) {
   const sig = Buffer.from(String(sigText).trim(), 'base64')
   if (sig.length !== 64 || !verify(null, manifest, key, sig)) throw new Error('Signature check failed: this update was not made by the game’s release process')
   const m = JSON.parse(manifest.toString('utf8'))
-  if (m.format !== FORMAT || m.app !== 'get-grilled-pi') throw new Error('Manifest is for something else')
+  if (m.format !== FORMAT || m.app !== 'ilm-munaafasah-pi') throw new Error('Manifest is for something else')
   if (typeof m.version !== 'string' || !/^[A-Za-z0-9._-]{1,64}$/.test(m.version)) throw new Error('Bad version name')
   if (typeof m.built !== 'string' || Number.isNaN(Date.parse(m.built))) throw new Error('Bad build time')
   const b = m.bundle

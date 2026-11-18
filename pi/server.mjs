@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Get Grilled Live: the Raspberry Pi server.
+// Munaafasatul Ilm Live: the Raspberry Pi server.
 //
 // Serves the built game (dist/) on the game's own Wi-Fi and keeps every screen in the room in step.
 // The host's browser stays the game's brain: it sends the server a copy of what the room may see
@@ -291,7 +291,7 @@ function deviceLabel(req) {
 }
 
 // ---------- request checks ----------
-const extraHosts = (process.env.GG_HOSTS || 'getgrilled.local,getgrilled.lan').split(',').map((h) => h.trim().toLowerCase()).filter(Boolean)
+const extraHosts = (process.env.GG_HOSTS || 'ilm.local,ilm.lan').split(',').map((h) => h.trim().toLowerCase()).filter(Boolean)
 /** Only answer to the Pi's own address or names, so a web page elsewhere can't use DNS tricks to reach it. */
 function hostOk(req) {
   const h = String(req.headers.host || '').toLowerCase().replace(/:\d+$/, '')
@@ -332,7 +332,7 @@ async function api(req, res, path) {
   // ----- host -----
   if (path === '/api/host/login' && req.method === 'POST') {
     if (!allowed('login:' + ip, 10, 60_000)) return send(res, 429, { error: 'slow down' })
-    if (!config) return send(res, 503, { error: 'no pin', help: 'On the Pi, run: getgrilled pin' })
+    if (!config) return send(res, 503, { error: 'no pin', help: 'On the Pi, run: ilm pin' })
     // Locks are per device (address), so a phone in the audience typing wrong PINs locks only itself out.
     const mine = loginByIp.get(ip) ?? { fails: 0, lockedUntil: 0 }
     const until = Math.max(mine.lockedUntil, loginRoom.lockedUntil)
@@ -727,6 +727,6 @@ if (isMain) {
       process.exit(1)
     }
     if (!config) console.warn('No host PIN yet: run  node pi/server.mjs --set-pin')
-    createServer().listen(PORT, () => log(`Get Grilled Live ${VERSION} on port ${PORT}, serving ${DIST}`))
+    createServer().listen(PORT, () => log(`Munaafasatul Ilm Live ${VERSION} on port ${PORT}, serving ${DIST}`))
   }
 }
