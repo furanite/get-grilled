@@ -1,10 +1,11 @@
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import type { Category, CategorySummary, Game, Lang, PoolEdit, Screen, ThemeId } from './lib/types'
-import { hasConsent, loadCustom, loadGame, loadPools, loadSettings, saveCustom, saveGame, savePools, saveSettings } from './lib/store'
+import { hasConsent, loadCustom, loadGame, loadPools, loadSettings, saveCustom, saveGame, savePools, saveSettings, saveTipsSeen, tipsSeen } from './lib/store'
 import { isEmptyPool, nextStage } from './lib/game'
 import { setSoundEnabled, unlockAudio } from './lib/sound'
 import { CONSENT_TEXT, LEGAL } from './lib/legal'
 import { ConsentDialog, Footer, LegalViewer } from './components/Legal'
+import { RulesDialog, TipsDialog } from './components/Guide'
 import Review from './components/Review'
 import { DEFAULT_THEME, THEMES, themeOpen } from './lib/themes'
 import { loadIndex } from './lib/packs'
@@ -16,6 +17,7 @@ import Board from './components/Board'
 import Results from './components/Results'
 import { Final, Lightning } from './components/Rounds'
 import Builder from './components/Builder'
+import StudyMaker from './components/StudyMaker'
 import { AudienceScreen, useAudienceWindow } from './components/Audience'
 import { APP_NAME, HOST_EDITION, appName, type Live } from './lib/edition'
 import { setFavicon } from './lib/favicon'
@@ -30,6 +32,12 @@ export default function App() {
   const [sound, setSound] = useState<boolean>(initial.sound)
   const [pools, setPoolsState] = useState<Record<string, PoolEdit>>(loadPools)
   const [consented, setConsented] = useState(() => hasConsent(LEGAL.termsVersion))
+  // Study tips show once to first-time visitors, after the Terms; the Rules button opens the rules.
+  const [guide, setGuide] = useState<'tips' | 'rules' | null>(() => (tipsSeen() ? null : 'tips'))
+  const closeGuide = () => {
+    if (guide === 'tips') saveTipsSeen()
+    setGuide(null)
+  }
   const [legalView, setLegalView] = useState<'terms' | 'privacy' | null>(null)
   // #review opens the Scholar review page directly (a link the owner can send to scholars).
   const [screen, setScreen] = useState<Screen>(() => (location.hash === '#review' ? 'review' : 'home'))
@@ -159,6 +167,11 @@ export default function App() {
               <span className="brand-word">{appName(lang)}</span>
             </button>
             <div className="row">
+              {screen === 'home' && (
+                <button className="btn" onClick={() => setGuide('rules')} data-testid="rules-btn">
+                  Rules
+                </button>
+              )}
               {HOST_EDITION && (
                 <button
                   className={audience.isOpen ? 'ghost' : 'btn'}
@@ -196,7 +209,7 @@ export default function App() {
           </header>
 
           {screen === 'home' && (
-            <Home t={t} lang={lang} theme={theme} setTheme={setTheme} hasGame={!!game} onNew={() => setScreen('setup')} onResume={() => game && setScreen(stageScreen(game))} onBuilder={() => setScreen('builder')} onReview={() => setScreen('review')} />
+            <Home t={t} lang={lang} theme={theme} setTheme={setTheme} hasGame={!!game} onNew={() => setScreen('setup')} onResume={() => game && setScreen(stageScreen(game))} onBuilder={() => setScreen('builder')} onStudy={() => setScreen('study')} onReview={() => setScreen('review')} />
           )}
           {screen === 'setup' && (
             <Setup
@@ -242,10 +255,21 @@ export default function App() {
           )}
           {screen === 'review' && <Review lang={lang} notify={notify} onBack={() => setScreen('home')} />}
           {screen === 'builder' && <Builder t={t} lang={lang} index={index} custom={custom} setCustom={setCustom} pools={pools} setPool={setPool} notify={notify} onBack={() => setScreen('home')} />}
+          {screen === 'study' && <StudyMaker custom={custom} setCustom={setCustom} notify={notify} onBack={() => setScreen('home')} onPlay={() => setScreen('setup')} />}
           <Footer lang={lang} onOpen={setLegalView} />
         </div>
       </div>
       {!consented && <ConsentDialog lang={lang} setLang={setLang} reduceFx={reduceFx} setReduceFx={setReduceFx} onAccept={() => setConsented(true)} />}
+      {consented && !legalView && screen === 'home' && guide === 'tips' && (
+        <TipsDialog
+          onClose={closeGuide}
+          onOpenFiles={() => {
+            closeGuide()
+            setScreen('study')
+          }}
+        />
+      )}
+      {consented && !legalView && guide === 'rules' && <RulesDialog onClose={closeGuide} onTips={() => setGuide('tips')} />}
       {consented && legalView && <LegalViewer which={legalView} lang={lang} onClose={() => setLegalView(null)} />}
       {HOST_EDITION && audience.win && audience.root && (
         <AudienceScreen win={audience.win} root={audience.root} t={t} lang={lang} theme={theme} reduceFx={reduceFx} screen={screen} game={game} live={screen === 'game' ? live : null} />

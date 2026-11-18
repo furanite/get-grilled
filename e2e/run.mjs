@@ -14,6 +14,7 @@ await new Promise((r) => setTimeout(r, 2500))
 const results = []
 let browser
 async function test(name, fn) {
+  if (process.env.ONLY && !name.includes(process.env.ONLY)) return
   const t0 = Date.now()
   try {
     await fn()
@@ -27,10 +28,12 @@ async function test(name, fn) {
 function assert(c, msg) { if (!c) throw new Error(msg) }
 
 async function newPage(opts = {}) {
-  const { noConsent, ...ctxOpts } = opts
+  const { noConsent, freshTips, ...ctxOpts } = opts
   const ctx = await browser.newContext({ viewport: { width: 1280, height: 860 }, ...ctxOpts })
   // Most tests start as a player who has already accepted the current Terms.
   if (!noConsent) await ctx.addInitScript(() => { if (!localStorage.getItem('gg.consent.v1')) localStorage.setItem('gg.consent.v1', JSON.stringify({ version: '1.3', date: '2026-11-11T00:00:00Z' })) })
+  // The study tips pop-up shows once; most tests start as someone who has already closed it.
+  if (!freshTips) await ctx.addInitScript(() => localStorage.setItem('gg.tipsSeen.ilm.v1', 'true'))
   const page = await ctx.newPage()
   page.requests = []
   page.on('request', (r) => page.requests.push(r.url()))
@@ -691,6 +694,150 @@ try {
     await page.locator('[data-bgroup="custom"] > summary').click()
     assert(await page.locator('[data-bgroup="custom"] .cat-item').first().isVisible() === false, 'custom group did not collapse')
     await page.context().close()
+  })
+
+  await test('question files: an instructor makes one, a student opens it and plays it', async () => {
+    const page = await newPage({ acceptDownloads: true })
+    await page.goto(URL)
+    await page.getByTestId('study-files').click()
+    await page.waitForSelector('[data-testid="study"]')
+    assert(await page.getByTestId('study-download').isDisabled(), 'an empty file should not download')
+    assert((await page.textContent('[data-testid="study-check"]')).includes('Give the file a title'), 'missing title not listed')
+    await page.fill('#study-title', 'Statics week 2')
+    await page.fill('#study-by', 'Dr. Test, ME 201')
+    // First subcategory: one typed question, the rest pasted level by level
+    await page.fill('#sub-name', 'Forces')
+    await page.fill('#study-q', 'Unit of force?')
+    await page.fill('#study-a', 'Newton')
+    await page.locator('[data-testid="study-add"] button[type="submit"]').click()
+    const paste = async (li, rows) => {
+      await page.$eval('[data-testid="study-paste"]', (d) => { d.open = true })
+      await page.locator('[data-testid="study-paste"] select').selectOption(String(li))
+      await page.fill('#study-bulk', rows)
+      await page.getByTestId('study-bulk-add').click()
+    }
+    for (let li = 1; li < 5; li++) await paste(li, `Forces ${li}a? | A${li}\nForces ${li}b?\tB${li}`)
+    assert((await page.textContent('[data-slevel="0"] .count')).startsWith('1 '), '100 count wrong')
+    assert((await page.textContent('[data-slevel="3"] .count')).startsWith('2 '), '400 count wrong')
+    // Second subcategory, still missing levels, so the file is not ready yet
+    await page.getByTestId('add-sub').click()
+    await page.fill('#sub-name', 'Moments')
+    await paste(0, 'M0? | m0')
+    assert(await page.getByTestId('study-download').isDisabled(), 'incomplete subcategory should block download')
+    for (let li = 1; li < 5; li++) await paste(li, `M${li}? | m${li}`)
+    // The draft survives a reload
+    await page.reload()
+    await page.getByTestId('study-files').click()
+    assert((await page.inputValue('#study-title')) === 'Statics week 2', 'draft lost on reload')
+    assert((await page.textContent('[data-testid="study-check"]')).includes('Ready'), 'file should be ready')
+    await page.screenshot({ path: `${SHOTS}/study-maker.png` })
+    const [dl] = await Promise.all([page.waitForEvent('download'), page.getByTestId('study-download').click()])
+    assert(dl.suggestedFilename() === 'Statics_week_2.json', 'file name: ' + dl.suggestedFilename())
+    await dl.saveAs('/tmp/gg-study.json')
+    await page.context().close()
+
+    // A student on another device opens it
+    const st = await newPage()
+    await st.goto(URL)
+    await st.getByTestId('study-files').click()
+    await st.getByTestId('tab-open').click()
+    await st.setInputFiles('[data-testid="study-open-file"]', '/tmp/gg-study.json')
+    await st.waitForSelector('[data-testid="study-opened"]')
+    assert((await st.textContent('[data-testid="study-opened"]')).includes('Forces · 9 questions'), 'opened summary wrong')
+    // Opening it again replaces it rather than doubling it
+    await st.setInputFiles('[data-testid="study-open-file"]', '/tmp/gg-study.json')
+    await st.waitForSelector('[data-testid="study-opened"]:has-text("Updated")')
+    await st.screenshot({ path: `${SHOTS}/study-open.png` })
+    await st.getByTestId('study-play').click()
+    await st.waitForSelector('.cat-pick')
+    const group = st.locator('.setup [data-set]')
+    assert(await group.count() === 1, 'study file group missing in setup')
+    assert((await group.textContent()).includes('Statics week 2'), 'group title missing')
+    assert(await group.locator('.cat-pick').count() === 2, 'expected 2 categories in the group')
+    await st.screenshot({ path: `${SHOTS}/study-setup.png` })
+    await group.locator('.cat-pick').nth(0).click()
+    await group.locator('.cat-pick').nth(1).click()
+    await classic(st)
+    await st.getByTestId('start').click()
+    await st.waitForSelector('.tile')
+    assert(await st.locator('.tile').count() === 10, 'board should have 10 tiles')
+    await openTile(st, '0-0')
+    assert((await st.textContent('[data-testid="clue"]')).includes('Unit of force?'), 'clue text wrong')
+    assert(st.errors.length === 0, 'errors: ' + st.errors.join(' | '))
+    await st.context().close()
+  })
+
+  await test('question files: a broken file is explained and the builder import takes study files', async () => {
+    const page = await newPage()
+    await page.goto(URL)
+    await page.getByTestId('study-files').click()
+    await page.getByTestId('tab-open').click()
+    writeFileSync('/tmp/gg-study-bad.json', JSON.stringify({ format: 'get-grilled-study-set', version: 1, title: 'X', subcategories: [{ name: 'Only', levels: [[]] }] }))
+    await page.setInputFiles('[data-testid="study-open-file"]', '/tmp/gg-study-bad.json')
+    assert((await page.textContent('[role="alert"]')).includes('Subcategory 1'), 'bad study file not explained')
+    await page.getByTestId('study-back').click()
+    await page.getByRole('button', { name: /category builder/i }).click()
+    await page.setInputFiles('[data-testid="import"]', '/tmp/gg-study.json')
+    await page.waitForSelector('.toast')
+    assert(await page.locator('[data-bgroup="custom"] .cat-item').count() === 2, 'builder import of a study file failed')
+    await page.context().close()
+  })
+
+  await test('study tips: first-time visitors see them once, after the Terms', async () => {
+    const page = await newPage({ noConsent: true, freshTips: true })
+    await page.goto(URL)
+    await page.waitForSelector('[data-testid="consent"]')
+    assert(await page.getByTestId('tips').count() === 0, 'tips must wait for the Terms')
+    await page.getByTestId('consent-agree').check()
+    await page.getByTestId('consent-accept').click()
+    await page.waitForSelector('[data-testid="tips"]')
+    const text = await page.textContent('[data-testid="tips"]')
+    assert(text.includes('question file') && text.includes('Open a file'), 'tips should explain question files')
+    await page.screenshot({ path: `${SHOTS}/tips.png` })
+    await page.getByTestId('tips-close').click()
+    assert(await page.getByTestId('tips').count() === 0, 'tips did not close')
+    await page.reload()
+    await page.waitForSelector('.logo-title')
+    await page.waitForTimeout(400)
+    assert(await page.getByTestId('tips').count() === 0, 'tips came back after being closed')
+    await page.context().close()
+    // "Open question files" goes straight to the question files screen
+    const p2 = await newPage({ freshTips: true })
+    await p2.goto(URL)
+    await p2.getByTestId('tips-files').click()
+    await p2.waitForSelector('[data-testid="study"]')
+    await p2.context().close()
+  })
+
+  await test('rules: the Rules button on the title screen explains the game', async () => {
+    const page = await newPage()
+    await page.goto(URL)
+    await page.getByTestId('rules-btn').click()
+    await page.waitForSelector('[data-testid="rules"]')
+    const text = await page.textContent('[data-testid="rules"]')
+    for (const w of ['Golden tile', 'Steal', 'Lightning round', 'Final question', 'Teams take turns']) assert(text.includes(w), 'rules miss: ' + w)
+    await page.screenshot({ path: `${SHOTS}/rules.png` })
+    await page.keyboard.press('Escape')
+    assert(await page.getByTestId('rules').count() === 0, 'Esc did not close the rules')
+    await page.getByTestId('rules-btn').click()
+    await page.getByTestId('rules-tips').click()
+    await page.waitForSelector('[data-testid="tips"]')
+    await page.getByTestId('tips-close').click()
+    // Only on the title screen
+    await page.getByRole('button', { name: /new game/i }).click()
+    await page.waitForSelector('.cat-pick')
+    assert(await page.getByTestId('rules-btn').count() === 0, 'Rules button should only be on the title screen')
+    // On a phone it opens and scrolls inside the window
+    await page.context().close()
+    const ph = await newPage({ viewport: { width: 390, height: 760 } })
+    await ph.goto(URL)
+    await ph.getByTestId('rules-btn').click()
+    await ph.waitForSelector('[data-testid="rules"]')
+    const box = await ph.locator('[data-testid="rules"]').boundingBox()
+    assert(box.width <= 390 && box.height <= 760, 'rules window larger than the phone screen')
+    assert(await ph.evaluate(() => document.documentElement.scrollWidth) <= 390, 'page scrolls sideways')
+    await ph.screenshot({ path: `${SHOTS}/rules-phone.png` })
+    await ph.context().close()
   })
 
   await test('builder: Back sits at the top and stays on screen after scrolling', async () => {

@@ -41,6 +41,8 @@ export interface Category {
   builtIn: boolean
   /** Religious content: shown without spins or shakes, with its source after the answer. */
   respect?: boolean
+  /** The study file this category came from (one subcategory of it), shown as a group in setup */
+  set?: { id: string; title: string }
   levels: Question[][]
 }
 
@@ -144,4 +146,4 @@ export type IslamicOnlyTheme = 'rawdah' | 'jumuah' | 'mawlid' | PrayerTheme | Cu
 export type BaseThemeId = Exclude<ThemeId, IslamicOnlyTheme>
 export type ThemeId = 'amethyst' | 'emerald' | 'neon' | 'onyx' | 'rivals' | 'ember' | 'heritage' | IslamicOnlyTheme
 export type Lang = 'en' | 'ar'
-export type Screen = 'home' | 'setup' | 'game' | 'lightning' | 'final' | 'results' | 'builder' | 'review'
+export type Screen = 'home' | 'setup' | 'game' | 'lightning' | 'final' | 'results' | 'builder' | 'review' | 'study'

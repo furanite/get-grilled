@@ -1,6 +1,7 @@
 import type { Category, Game, Lang, Madhhab, PoolEdit, Question, ThemeId } from './types'
 import { isDiagram } from './diagram'
 import { isClueSecs } from './game'
+import { cleanDraft, type StudyDraft } from './studyset'
 
 const KEYS = {
   settings: 'gg.settings.v1',
@@ -10,6 +11,9 @@ const KEYS = {
   consent: 'gg.consent.v1',
   pools: 'gg.pools.v1',
   madhhab: 'gg.madhhab.v1',
+  studyDraft: 'gg.studyDraft.v1',
+  // Its own key: both sites share one web address, and each has its own tips.
+  tipsSeen: 'gg.tipsSeen.ilm.v1',
 }
 
 function load<T>(key: string, fallback: T): T {
@@ -75,12 +79,21 @@ export function cleanCategories(raw: unknown): Category[] {
     const levels = c.levels.map((l) => (Array.isArray(l) ? l.map(cleanQuestion).filter((q): q is Question => !!q) : []))
     const cat: Category = { id: c.id, name: c.name, builtIn: false, levels }
     if (isStr(c.nameAr)) cat.nameAr = c.nameAr
+    if (isObj(c.set) && isStr(c.set.id) && isStr(c.set.title)) cat.set = { id: c.set.id, title: c.set.title }
     out.push(cat)
   }
   return out
 }
 export const loadCustom = (): Category[] => cleanCategories(load<unknown>(KEYS.custom, []))
 export const saveCustom = (cats: Category[]) => save(KEYS.custom, cats)
+
+/** Whether this browser has already seen the study tips (shown once, after the Terms). Nothing else is kept. */
+export const tipsSeen = (): boolean => load<unknown>(KEYS.tipsSeen, false) === true
+export const saveTipsSeen = () => save(KEYS.tipsSeen, true)
+
+/** The question file an instructor is working on, kept so closing the page does not lose it. */
+export const loadStudyDraft = (): StudyDraft | null => cleanDraft(load<unknown>(KEYS.studyDraft, null))
+export const saveStudyDraft = (d: StudyDraft | null) => save(KEYS.studyDraft, d)
 
 export function cleanPools(raw: unknown): Record<string, PoolEdit> {
   const out: Record<string, PoolEdit> = {}

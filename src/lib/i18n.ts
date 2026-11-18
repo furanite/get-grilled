@@ -6,6 +6,7 @@ const en = {
   newGame: 'New game',
   resume: 'Resume game',
   builder: 'Category builder',
+  studyFiles: 'Question files',
   review: 'Scholar review',
   theme: 'Theme',
   language: 'العربية',
@@ -206,6 +207,8 @@ const ar: typeof en = {
   newGame: 'لعبة جديدة',
   resume: 'متابعة اللعبة',
   builder: 'منشئ الفئات',
+  // English on purpose: no new Arabic text (owner's choice).
+  studyFiles: 'Question files',
   review: 'مراجعة العلماء',
   theme: 'المظهر',
   language: 'English',
