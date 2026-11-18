@@ -310,6 +310,14 @@ try {
     await page.keyboard.press('Escape')
     await waitClosed(page)
     assert(await page.locator('[data-tile="1-1"].used').count() === 0, 'escape should not use tile')
+
+    // Once the answer has been shown, Escape can't put the tile back on the board
+    await openTile(page, '1-1')
+    await page.keyboard.press('Space')
+    await page.waitForSelector('[data-testid="answer"].show', { timeout: 4000 }).catch(() => {})
+    await page.keyboard.press('Escape')
+    await waitClosed(page)
+    assert(await page.locator('[data-tile="1-1"].used').count() === 1, 'a revealed tile must be used up')
     assert(page.errors.length === 0, 'console errors: ' + page.errors.join(' | '))
     await page.context().close()
   })
@@ -848,7 +856,7 @@ try {
     // Level 200: keep only the first built-in question
     await page.locator('[data-level="1"] > summary').click()
     await page.getByTestId('untick-all-1').click()
-    await page.locator(`[data-pick="${cat.id}-1-0"]`).check()
+    await page.locator(`[data-pick="${cat.id}-1-${pack.levels[1][0].qk ?? 0}"]`).check()
     assert((await page.textContent('[data-level="1"] .count')).startsWith('1 /'), 'tick one failed')
     assert((await page.textContent(`[data-cat-item="${cat.id}"] small`)).includes('in play'), 'sidebar does not show in-play count')
     // Kept after a reload
@@ -898,14 +906,14 @@ try {
     await page.selectOption('[data-testid="borrow-source"]', src.id)
     await page.selectOption('[data-testid="borrow-level"]', '2')
     await page.waitForSelector('[data-borrow]')
-    await page.locator(`[data-borrow="${src.id}-2-0"]`).check()
-    await page.locator(`[data-borrow="${src.id}-2-1"]`).check()
+    await page.locator(`[data-borrow="${src.id}-2-${pack.levels[2][0].qk ?? 0}"]`).check()
+    await page.locator(`[data-borrow="${src.id}-2-${pack.levels[2][1].qk ?? 1}"]`).check()
     await page.getByTestId('borrow-add').click()
     await page.waitForSelector('[data-level="2"] .qrow')
     const texts = await page.$$eval('[data-level="2"] .qrow', (els) => els.map((e) => e.textContent))
     assert(texts.length === 2 && texts.some((t) => t.includes(pack.levels[2][0].q)), 'borrowed questions missing: ' + texts.join(' | '))
     // Already-copied questions can't be added twice
-    assert(await page.locator(`[data-borrow="${src.id}-2-0"]`).isDisabled(), 'duplicate should be disabled')
+    assert(await page.locator(`[data-borrow="${src.id}-2-${pack.levels[2][0].qk ?? 0}"]`).isDisabled(), 'duplicate should be disabled')
     await page.context().close()
   })
 

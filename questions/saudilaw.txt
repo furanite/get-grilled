@@ -97,7 +97,7 @@ The residency permit for foreign residents in Saudi Arabia. :: Iqama
 The Saudi ministry that runs labour laws and work permits. :: Ministry of Human Resources and Social Development
 The Saudi ministry that registers businesses and protects consumers. :: Ministry of Commerce
 The Saudi body that regulates the stock market. :: Capital Market Authority
-The Saudi central bank. :: Saudi Central Bank (SAMA)
+The Kingdom's central bank, called the Saudi Arabian Monetary Authority until 2020. :: Saudi Central Bank (SAMA)
 The Saudi city where most government ministries are found. :: Riyadh
 The Saudi city where foreign embassies were based until the 1980s. :: Jeddah
 The principle that no one is punished except by a law. :: Legality (no crime without a law)
@@ -310,7 +310,7 @@ The term for the losing party paying the winner's legal costs, now allowed in Sa
 The Saudi commercial courts can order this party to pay lawyers' fees. :: The losing party
 
 ## 400
-The two founders who made the 1744 pact that began the first Saudi state. :: Imam Muhammad ibn Saud and Sheikh Muhammad ibn Abd al-Wahhab ﵀
+The two founders who made the 1744 pact that began the first Saudi state. :: Imam Muhammad ibn Saud and Sheikh Muhammad ibn Abd al-Wahhab
 The pact of 1744 was made in this town. :: Diriyah
 The capital of the second Saudi state. :: Riyadh
 The year King Abdulaziz recaptured Riyadh. :: 1902
@@ -322,7 +322,7 @@ King Abdulaziz ordered judges to rely on six main Hanbali books in this year. ::
 One of the main Hanbali books judges use, written by al-Buhuti ﵀. :: Kashshaf al-Qina' (or Sharh Muntaha al-Iradat)
 The Hanbali book "Al-Iqna'" was written by this scholar. :: Al-Hajjawi ﵀
 The Hanbali book "Muntaha al-Iradat" was written by this scholar. :: Ibn al-Najjar ﵀
-The Hanbali scholar Ibn Taymiyyah ﵀ died in prison in this city. :: Damascus
+The Hanbali scholar Ibn Taymiyyah died in prison in this city. :: Damascus
 A judge in Saudi courts may depart from the Hanbali view when another view better serves this. :: Justice and public interest
 The 'judicial precedents' project of the Ministry of Justice published these. :: Collections of court rulings (Mudawwanat al-Ahkam al-Qada'iyyah)
 The Supreme Court's 'general assembly' can set these binding principles. :: Judicial principles (precedents for courts)
@@ -398,15 +398,15 @@ The Shafi'i scholar who wrote "Al-Ashbah wal-Naza'ir" on maxims. :: Al-Suyuti �
 The Hanafi scholar who wrote "Al-Ashbah wal-Naza'ir" on maxims. :: Ibn Nujaym ﵀
 The Maliki scholar who wrote "Al-Furuq" on legal distinctions. :: Al-Qarafi ﵀
 The Shafi'i scholar who wrote "Qawa'id al-Ahkam fi Masalih al-Anam". :: Al-'Izz ibn Abd al-Salam ﵀
-The Hanbali scholar of Najd who wrote the popular summary "Al-Qawa'id wal-Usul al-Jami'ah". :: Abd al-Rahman al-Sa'di ﵀
+The Hanbali scholar of Najd who wrote the popular summary "Al-Qawa'id wal-Usul al-Jami'ah". :: Abd al-Rahman al-Sa'di
 The famous Hanbali textbook on legal theory (usul al-fiqh) by Ibn Qudamah ﵀. :: Rawdat al-Nazir
 The famous Hanbali book of fiqh "Al-Mughni" was written by this scholar. :: Ibn Qudamah ﵀
-The Hanbali scholar whose "Zad al-Ma'ad" covers the guidance of our Beloved and our master, the Prophet Muhammad ﷺ. :: Ibn al-Qayyim ﵀
-Ibn al-Qayyim's ﵀ book on judicial methods and evidence. :: Al-Turuq al-Hukmiyyah
-Ibn al-Qayyim's ﵀ book on the duties of muftis and judges. :: I'lam al-Muwaqqi'in
+The Hanbali scholar whose "Zad al-Ma'ad" covers the guidance of our Beloved and our master, the Prophet Muhammad ﷺ. :: Ibn al-Qayyim
+Ibn al-Qayyim's book on judicial methods and evidence. :: Al-Turuq al-Hukmiyyah
+Ibn al-Qayyim's book on the duties of muftis and judges. :: I'lam al-Muwaqqi'in
 The Shafi'i judge whose "Al-Ahkam al-Sultaniyyah" describes the state's offices. :: Al-Mawardi ﵀
 The Hanbali judge who wrote a book with the same title, "Al-Ahkam al-Sultaniyyah". :: Abu Ya'la al-Farra' ﵀
-Ibn Taymiyyah's ﵀ book on governance according to Sharia. :: Al-Siyasah al-Shar'iyyah
+Ibn Taymiyyah's book on governance according to Sharia. :: Al-Siyasah al-Shar'iyyah
 'Siyasah shar'iyyah' allows the ruler to make rules for public interest that don't contradict this. :: Sharia
 The Hanbali book "Zad al-Mustaqni'" is a summary of this earlier book. :: Al-Muqni' (by Ibn Qudamah ﵀)
 Ibn Qudamah's ﵀ short Hanbali textbook for beginners. :: 'Umdat al-Fiqh

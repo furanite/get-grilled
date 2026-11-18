@@ -92,7 +92,7 @@ The deleted files folder in macOS. :: Trash
 The macOS search tool opened with Command+Space. :: Spotlight
 The macOS file manager. :: Finder
 The Windows file manager. :: File Explorer
-A shortcut that opens a program without going through its folder. :: Shortcut (alias)
+A small link file that opens a program without going through its folder. :: Shortcut (alias)
 The process of rearranging a hard disk's files so their pieces sit together. :: Defragmentation
 Preparing a disk for use by creating a fresh file system. :: Formatting
 A section of a disk treated as a separate drive. :: Partition

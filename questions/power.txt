@@ -271,7 +271,7 @@ The problem of current and voltage waveforms being distorted by non-linear loads
 The measure of harmonic distortion, as a percentage. :: THD (total harmonic distortion)
 The harmonic that adds up in the neutral wire of three-phase systems. :: Third (triplen) harmonics
 The transformer connection that traps triplen harmonics. :: Delta winding
-Rapid voltage fluctuation that makes lights visibly flicker. :: Flicker
+Rapid voltage changes that make the brightness of lamps visibly waver. :: Flicker
 The power semiconductor most used in modern inverters and drives. :: IGBT
 The wide-bandgap semiconductors replacing silicon in EV inverters. :: Silicon carbide (and gallium nitride)
 The converter used in modern HVDC with many small submodules. :: Modular multilevel converter (MMC)

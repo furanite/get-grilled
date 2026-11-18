@@ -85,7 +85,7 @@ A gift with no exchange. :: Hibah
 Sending an acceptance by post makes the contract at the time of posting under this rule. :: The postal rule
 A contract made under threat. :: Made under duress
 A false statement that leads someone into a contract. :: Misrepresentation
-A mistake about the main subject of a contract. :: Mistake
+An error by one or both parties about the main subject of a contract. :: Mistake
 A contract that breaks the law is this. :: Illegal (void)
 A contract to sell drugs that are illegal can't be enforced. It is this. :: Void for illegality
 A sale where the goods must be paid for before delivery. :: Cash in advance
@@ -371,7 +371,7 @@ Under the Saudi Civil Transactions Law, a party's right to refuse to perform a b
 Under the Saudi Civil Transactions Law, retention of a thing until paid is called this. :: The right of retention (habs)
 In Islamic law, a seller may hold goods until paid if the sale is for this kind of price. :: An immediate (cash) price
 The ruling of the Hanbali school on conditions added to contracts by the parties. :: Generally valid unless they conflict with the contract or Sharia
-The Hanbali scholar who wrote that the default in contracts and conditions is permission. :: Ibn Taymiyyah ﵀
+The Hanbali scholar who wrote that the default in contracts and conditions is permission. :: Ibn Taymiyyah
 The Hanafi school is stricter on conditions, allowing only those that suit the contract or this. :: Are customary
 The forbidden sale "bay' al-wafa'", where the seller can buy back, is used as this. :: A disguised loan
 The IIFA ruled in 1992 that "bay' al-wafa'" is this. :: Not allowed
@@ -459,10 +459,10 @@ The legal concept that a trustee is not liable unless at fault. :: Yad amanah (h
 The legal concept that someone holding property in a way that makes them liable. :: Yad daman (hand of liability)
 A borrower of an item ('ariyah) is liable for its loss according to these two schools. :: Shafi'i and Hanbali
 The hadith on 'ariyah: our Beloved and our master, the Prophet Muhammad ﷺ borrowed armour from this man and said it was guaranteed. :: Safwan ibn Umayyah ﵁
-The legal concept for selling at a price "in the market rate" without stating it. :: Bay' bi-si'r al-suq (allowed by Ibn Taymiyyah ﵀)
-The Hanbali view on a sale where the price is the "price the people sell at". :: Allowed by Ibn Taymiyyah ﵀ and others
-The jurist Ibn al-Qayyim ﵀ wrote that conditions in contracts are permitted unless forbidden in this book. :: I'lam al-Muwaqqi'in
-Ibn Taymiyyah ﵀ discussed contracts and conditions at length in this book of fiqh principles. :: Al-Qawa'id al-Nuraniyyah
+The legal concept for selling at a price "in the market rate" without stating it. :: Bay' bi-si'r al-suq (allowed by Ibn Taymiyyah)
+The Hanbali view on a sale where the price is the "price the people sell at". :: Allowed by Ibn Taymiyyah and others
+The jurist Ibn al-Qayyim wrote that conditions in contracts are permitted unless forbidden in this book. :: I'lam al-Muwaqqi'in
+Ibn Taymiyyah discussed contracts and conditions at length in this book of fiqh principles. :: Al-Qawa'id al-Nuraniyyah
 The IIFA ruled in 1988 on the sale of "trade names, licences and goodwill", saying they are this. :: Property that can be sold (financial rights)
 The IIFA ruled in 1990 that bonds paying interest are this. :: Forbidden
 The IIFA ruled in 2000 that a lease ending in ownership needs this. :: Two separate contracts (lease, then sale or gift)
@@ -504,7 +504,7 @@ The concept of "fiqh al-mu'amalat" covers this. :: Islamic law of transactions
 The scholar whose "Al-Fiqh al-Islami wa Adillatuh" is widely cited on contracts. :: Wahbah al-Zuhayli ﵀
 The Syrian jurist Mustafa al-Zarqa ﵀ wrote this famous book introducing Islamic law. :: Al-Madkhal al-Fiqhi al-'Amm
 Mustafa al-Zarqa ﵀ wrote about contract theory, calling Islamic law's contracts "named" and these. :: Unnamed (new) contracts
-The Islamic law concept that new contracts are valid if they meet general conditions was defended by Mustafa al-Zarqa ﵀ and this earlier scholar. :: Ibn Taymiyyah ﵀
+The Islamic law concept that new contracts are valid if they meet general conditions was defended by Mustafa al-Zarqa ﵀ and this earlier scholar. :: Ibn Taymiyyah
 The Kuwaiti Encyclopedia of Fiqh has this many volumes. :: 45
 The Kuwaiti Encyclopedia of Fiqh is published by this ministry. :: Kuwait's Ministry of Awqaf and Islamic Affairs
 The Saudi Arabian Supreme Court's 2020 COVID guidance on contracts discussed force majeure and this. :: Emergency circumstances
