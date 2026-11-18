@@ -384,11 +384,14 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
     (used: boolean) => {
       if (phase === 'closing') return
       setPhase('closing')
+      // Once the answer is out or a team has been marked, the tile is spent: closing the card
+      // (Back, Esc or a click outside) can't put it back on the board for another go.
+      used = used || revealed || wrong.length > 0
       const card = ref.current!
       setTimeout(() => Object.assign(card.style, rectStyle(open.el)), 120)
       setTimeout(() => onClose(used), reducedMotion() ? 10 : 780)
     },
-    [phase, open.el, onClose],
+    [phase, open.el, onClose, revealed, wrong.length],
   )
 
   const judge = useCallback(

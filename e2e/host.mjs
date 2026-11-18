@@ -183,7 +183,7 @@ try {
     // Only the picture questions are in play at 100 for Digital Logic
     await page.evaluate(async () => {
       const pack = await (await fetch('packs/digital.json')).json()
-      const off = [pack.levels[0].map((q, i) => (q.img ? null : `digital-0-${i}`)).filter(Boolean), [], [], [], []]
+      const off = [pack.levels[0].map((q, i) => (q.img ? null : `digital-0-${q.qk ?? i}`)).filter(Boolean), [], [], [], []]
       localStorage.setItem('gg.pools.v1', JSON.stringify({ digital: { off, extra: [[], [], [], [], []] } }))
     })
     await page.reload()

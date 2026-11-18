@@ -19,6 +19,7 @@ import { toSigns } from './signs.mjs'
 import { isMadhhabFile, schoolsOf } from './schools.mjs'
 import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync, rmSync, cpSync } from 'node:fs'
 import { join, dirname } from 'node:path'
+import { createHash } from 'node:crypto'
 import { fileURLToPath } from 'node:url'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
@@ -109,6 +110,12 @@ export function parsePack(text, file = 'pack') {
   })
   const clean = ({ q, a, kind, src, img, credit, sch }) => ({ q: toSigns(q), a: toSigns(a), ...(kind ? { kind } : {}), ...(src ? { src } : {}), ...(img ? { img } : {}), ...(credit ? { credit } : {}), ...(sch ? { sch } : {}) })
   return { meta, levels: levels.map((l) => l.map(clean)), unchecked: unchecked.map(({ level, at, ...x }) => ({ level, at, ...clean(x) })), errors }
+}
+
+/** A short key from a question's clue (and picture): the same words give the same key, whatever line they are on. */
+export function questionKey({ q, img }) {
+  const norm = q.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim() + (img ? ` ${img}` : '')
+  return createHash('sha256').update(norm).digest('hex').slice(0, 10)
 }
 
 const digits = (s) => (s.replace(/[\u0660-\u0669]/g, (d) => String(d.charCodeAt(0) - 0x660)).match(/\d+/g) ?? []).sort().join(',')
@@ -253,6 +260,9 @@ function main() {
     }
     // PACK_EDITION=islamic builds a site with only the Islamic and Kids collections (used by the Ilm Munfasah site).
     if (process.env.PACK_EDITION === 'islamic' && !respect) continue
+    // Each question gets a key made from its own words, so adding, removing or moving lines in a file
+    // doesn't change which question a saved "already played" or "taken out of play" mark points to.
+    levels = levels.map((l) => l.map((x) => ({ ...x, qk: questionKey(x) })))
     const pack = { id: meta.id, name: toSigns(meta.name), nameAr: meta.nameAr, group: meta.group, respect, levels }
     writeFileSync(join(outDir, `${meta.id}.json`), JSON.stringify(pack))
     index.push({ id: meta.id, name: toSigns(meta.name), nameAr: meta.nameAr, group: meta.group, counts: levels.map((l) => l.length) })

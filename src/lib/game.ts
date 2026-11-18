@@ -12,7 +12,7 @@ function pick<T>(arr: T[], rng: Rng): T {
  * When every question in a level has been used, that level starts over.
  * Returns the picked questions and the updated used list for this category.
  */
-export function drawCategory(cat: Category, used: string[], rng: Rng = Math.random): { picks: Question[]; used: string[] } {
+export function drawCategory(cat: Category, used: string[], rng: Rng = Math.random, taken?: Set<string>): { picks: Question[]; used: string[] } {
   let usedSet = new Set(used)
   const picks: Question[] = []
   cat.levels.forEach((pool) => {
@@ -23,12 +23,21 @@ export function drawCategory(cat: Category, used: string[], rng: Rng = Math.rand
       usedSet = new Set([...usedSet].filter((id) => !ids.has(id)))
       fresh = pool
     }
+    // Some clues sit in two categories: never put the same clue twice in one game.
+    if (taken) {
+      const unique = fresh.filter((q) => !taken.has(clueKey(q)))
+      if (unique.length) fresh = unique
+    }
     const q = pick(fresh, rng)
     picks.push(q)
     usedSet.add(q.id)
+    taken?.add(clueKey(q))
   })
   return { picks, used: [...usedSet] }
 }
+
+/** A clue's words, ignoring case, spacing and the end mark, so the same clue in two categories is spotted. */
+export const clueKey = (q: Pick<Question, 'q' | 'img'>) => `${q.q.toLowerCase().replace(/\s+/g, ' ').replace(/[.?!]+$/, '').trim()}|${q.img ?? ''}`
 
 export const emptyPool = (): PoolEdit => ({ off: [[], [], [], [], []], extra: [[], [], [], [], []] })
 
@@ -128,8 +137,9 @@ export function createGame(
   const golden = chooseGolden(cats.length, settings.golden, rng)
   const specials = chooseSpecials(cats.length, golden, settings, rng)
   const nextUsed = { ...usedByCat }
+  const taken = new Set<string>()
   const clues: Clue[][] = cats.map((cat, c) => {
-    const { picks, used } = drawCategory(cat, usedByCat[cat.id] ?? [], rng)
+    const { picks, used } = drawCategory(cat, usedByCat[cat.id] ?? [], rng, taken)
     nextUsed[cat.id] = used
     return picks.map((q, l) => {
       const isGold = golden.has(`${c}-${l}`)
@@ -154,12 +164,13 @@ export function createGame(
   const onBoard = new Set(clues.flat().map((q) => q.id))
   const fresh = (cat: Category, levels: number[]) => {
     const seen = new Set(nextUsed[cat.id] ?? [])
-    const all = levels.flatMap((l) => cat.levels[l] ?? []).filter((q) => !onBoard.has(q.id) && !q.img)
+    const all = levels.flatMap((l) => cat.levels[l] ?? []).filter((q) => !onBoard.has(q.id) && !q.img && !taken.has(clueKey(q)))
     const unseen = all.filter((q) => !seen.has(q.id))
     return unseen.length ? unseen : all
   }
   const take = (q: Question, catId: string) => {
     onBoard.add(q.id)
+    taken.add(clueKey(q))
     nextUsed[catId] = [...(nextUsed[catId] ?? []), q.id]
   }
   if (game.settings.final) {
@@ -180,7 +191,7 @@ export function createGame(
     const list: Question[] = []
     for (let round = 0; list.length < LIGHTNING_MAX && perCat.some((p) => p.length > round); round++)
       perCat.forEach((p, ci) => {
-        if (list.length < LIGHTNING_MAX && p[round]) {
+        if (list.length < LIGHTNING_MAX && p[round] && !taken.has(clueKey(p[round]))) {
           list.push({ ...p[round] })
           take(p[round], cats[ci].id)
         }

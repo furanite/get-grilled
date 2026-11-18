@@ -47,7 +47,7 @@ The device used by doctors to listen to your heart. :: The stethoscope
 The device that measures temperature. :: The thermometer
 The rays Wilhelm Röntgen discovered that let doctors see bones. :: X-rays
 The small medical tool used to inject medicine. :: The syringe
-The invention by Louis Braille that lets blind people read. :: Braille
+The raised-dot reading system for blind people, invented by a French teenager in 1824. :: Braille
 The flying craft that carried the first humans to the Moon was launched by this huge rocket. :: Saturn V
 The country that launched the first satellite, Sputnik, in 1957. :: The Soviet Union
 The first man to walk on the Moon. :: Neil Armstrong
@@ -97,7 +97,7 @@ The scientist who made the first rabies vaccine. :: Louis Pasteur
 The process of heating milk to kill germs, named after its inventor. :: Pasteurisation
 The device that pumps air into tyres. :: The air pump
 The wheeled seat for people who cannot walk. :: The wheelchair
-The sticky tape invented at 3M in 1930. :: Sticky tape (Scotch tape)
+The clear adhesive tape invented at 3M by Richard Drew in 1930. :: Sticky tape (Scotch tape)
 The tool used to join papers with a metal staple. :: The stapler
 The bent wire used to hold papers together. :: The paper clip
 The invention that lets you send written messages instantly by computer, first sent in 1971. :: Email

@@ -90,8 +90,10 @@ describe('corrupted or tampered saved data never breaks loading', () => {
     expect(cats[0].levels[0]).toEqual([{ id: 'q', q: 'Q', a: 'A' }])
   })
   it('a malformed saved game is ignored', () => {
-    for (const bad of ['[]', '{"cats":[{"id":"x"}],"teams":null}', '{"cats":[],"clues":[],"teams":[],"used":[],"settings":{}}', 'not json'])
-      (localStorage.setItem('gg.game.v1', bad), expect(loadGame()).toBeNull())
+    for (const bad of ['[]', '{"cats":[{"id":"x"}],"teams":null}', '{"cats":[],"clues":[],"teams":[],"used":[],"settings":{}}', 'not json']) {
+      localStorage.setItem('gg.game.v1', bad)
+      expect(loadGame()).toBeNull()
+    }
   })
   it('a malformed list of played questions is ignored', () => {
     localStorage.setItem('gg.used.v1', '"str"')

@@ -5,12 +5,15 @@ interface PackFile {
   name: string
   nameAr?: string
   respect?: boolean
-  levels: { q: string; a: string; qAr?: string; aAr?: string; kind?: 'H' | 'D' | 'F'; src?: string; img?: string; credit?: string; sch?: string }[][]
+  levels: { q: string; a: string; qAr?: string; aAr?: string; kind?: 'H' | 'D' | 'F'; src?: string; img?: string; credit?: string; sch?: string; qk?: string }[][]
 }
 
 const base = import.meta.env.BASE_URL
 
-/** Turns a pack file into a category, giving each question a stable id. */
+/**
+ * Turns a pack file into a category, giving each question a stable id. Built packs carry a key made from
+ * each clue's words (qk), so ids survive lines being added or moved; older files fall back to the position.
+ */
 export function packToCategory(p: PackFile): Category {
   return {
     id: p.id,
@@ -18,7 +21,7 @@ export function packToCategory(p: PackFile): Category {
     nameAr: p.nameAr,
     builtIn: true,
     ...(p.respect ? { respect: true } : {}),
-    levels: p.levels.map((lvl, li) => lvl.map((x, qi): Question => ({ id: `${p.id}-${li}-${qi}`, ...x }))),
+    levels: p.levels.map((lvl, li) => lvl.map(({ qk, ...x }, qi): Question => ({ id: `${p.id}-${li}-${qk ?? qi}`, ...x }))),
   }
 }
 

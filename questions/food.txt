@@ -73,7 +73,7 @@ The breakfast dish of beaten eggs cooked flat and folded. :: Omelette
 The Italian rice dish cooked slowly in broth. :: Risotto
 The fruit with a hard brown hairy shell and white flesh. :: Coconut
 The red sauce served with fries. :: Ketchup
-The yellow sauce made from mustard seeds. :: Mustard
+The yellow condiment made from ground seeds, often served on hot dogs. :: Mustard
 The Middle Eastern rolled sandwich of sliced roasted meat. :: Shawarma
 The small dried grape. :: Raisin
 The baked sweet made with chocolate chips. :: Cookie
@@ -141,7 +141,7 @@ The Lebanese strained yogurt, thick enough to spread. :: Labneh
 The Indian rice dish layered with meat and spices. :: Biryani
 The Indian clarified butter. :: Ghee
 The Japanese green tea powder. :: Matcha
-The fruit that durian lovers say tastes like heaven but smells awful, popular in Southeast Asia. :: Durian
+The spiky Southeast Asian fruit that fans say tastes like heaven but smells awful. :: Durian
 The rice wrap with vegetables, fried, known in China and Vietnam. :: Spring roll
 The Chinese steamed or fried dumplings. :: Dim sum (jiaozi)
 The Vietnamese noodle soup. :: Pho
@@ -156,7 +156,7 @@ The British dish of fried fish served with chips. :: Fish and chips
 The American dessert of baked apples in pastry. :: Apple pie
 The Italian cured ham. :: Prosciutto
 The blue cheese from Italy. :: Gorgonzola
-The French blue cheese aged in caves in Roquefort. :: Roquefort
+The French sheep's-milk blue cheese aged in the Combalou caves. :: Roquefort
 The Dutch cheese with a red wax coat. :: Edam
 The Greek cheese made from sheep's milk, often in salads. :: Feta
 The Italian hard cheese grated on pasta. :: Parmesan (Parmigiano-Reggiano)
@@ -173,7 +173,7 @@ The Chinese round-bottomed pan. :: Wok
 The type of rice used for risotto. :: Arborio
 The long-grain fragrant rice from India and Pakistan. :: Basmati
 The long-grain fragrant rice from Thailand. :: Jasmine rice
-The fruit used to make guava paste. :: Guava
+The tropical fruit used to make the sweet Brazilian paste 'goiabada'. :: Guava
 The red-skinned fruit full of juicy seeds, called rumman in Arabic. :: Pomegranate
 The purple vegetable called "eggplant" in the US. :: Aubergine
 The yellow summer squash called courgette in Britain. :: Zucchini

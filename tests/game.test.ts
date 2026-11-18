@@ -312,3 +312,23 @@ describe('time limits', () => {
     expect(cleanCategories([{ ...c, levels: [[{ id: '1', q: 'q', a: 'a', secs: -4 }], [], [], [], []] }])[0].levels[0][0].secs).toBeUndefined()
   })
 })
+
+describe('audit fixes (2026-11-18)', () => {
+  it('never puts the same clue twice on one board when two categories share it', () => {
+    const a = makeCat('a', 1)
+    const b = makeCat('b', 2)
+    // b's first question in every level has the same words as a's only question
+    b.levels.forEach((l, li) => (l[0] = { ...l[0], q: a.levels[li][0].q }))
+    for (let s = 1; s < 40; s++) {
+      const { game } = createGame([a, b], ['A', 'B'], { timer: 0, deduct: false, golden: 0 }, {}, seeded(s))
+      game.clues[1].forEach((clue, li) => expect(clue.q).not.toBe(game.clues[0][li].q))
+    }
+  })
+
+  it('keeps question ids tied to the words, not the line, when a pack file grows', async () => {
+    const { packToCategory } = await import('../src/lib/packs')
+    const before = packToCategory({ id: 'p', name: 'P', levels: [[{ q: 'one', a: '1', qk: 'k1' } as never], [], [], [], []] })
+    const after = packToCategory({ id: 'p', name: 'P', levels: [[{ q: 'new', a: 'n', qk: 'k0' } as never, { q: 'one', a: '1', qk: 'k1' } as never], [], [], [], []] })
+    expect(after.levels[0][1].id).toBe(before.levels[0][0].id)
+  })
+})

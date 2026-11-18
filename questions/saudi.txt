@@ -80,7 +80,7 @@ The world's largest offshore oil field, in the Gulf off Saudi Arabia. :: Safaniy
 The Aramco cultural centre in Dhahran, famous for its unusual pebble-like shape. :: Ithra (King Abdulaziz Center for World Culture)
 The Saudi company that is one of the world's largest petrochemical makers. :: SABIC
 The Saudi mining company. :: Ma'aden
-The Saudi electricity company. :: Saudi Electricity Company (SEC)
+The company, formed in 2000, that generates and distributes most of Saudi Arabia's electricity. :: Saudi Electricity Company (SEC)
 The main language spoken in Saudi Arabia. :: Arabic
 The highest mountain region in Saudi Arabia, around Abha. :: Asir
 The Saudi city known as the 'city of roses'. :: Taif
@@ -195,7 +195,7 @@ The first Saudi astronauts flew to the ISS in this year. :: 2023
 The first Saudi woman in space. :: Rayyanah Barnawi
 The first Saudi and first Arab in space, in 1985. :: Prince Sultan bin Salman
 The Saudi astronaut who flew with Rayyanah Barnawi. :: Ali AlQarni
-The Saudi space agency. :: Saudi Space Agency
+The body, set up in 2018 as a commission, that runs the Kingdom's space programme. :: Saudi Space Agency
 The number of member states in the GCC. :: Six
 The Saudi city that hosts the headquarters of the GCC Secretariat. :: Riyadh
 The Saudi city with the headquarters of the Organisation of Islamic Cooperation. :: Jeddah
@@ -405,7 +405,7 @@ The Haramain trains reach this top speed. :: 300 km/h
 The Riyadh Metro has this many lines. :: Six
 The architect firm that designed KAFD Metro Station in Riyadh. :: Zaha Hadid Architects
 The financial district of Riyadh. :: King Abdullah Financial District (KAFD)
-The Saudi central bank. :: Saudi Central Bank (SAMA)
+The Kingdom's central bank, called the Saudi Arabian Monetary Authority until 2020. :: Saudi Central Bank (SAMA)
 SAMA originally stood for this. :: Saudi Arabian Monetary Agency (now Authority)
 The Saudi riyal is pegged to the US dollar at this rate. :: 3.75 riyals per dollar
 The year the riyal peg to the dollar was fixed at 3.75. :: 1986
