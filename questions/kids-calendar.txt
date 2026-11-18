@@ -52,8 +52,8 @@ The Arabic name for Monday. :: al-Ithnayn || H: Standard calendar
 The Arabic name for Thursday. :: al-Khamis || H: Standard calendar
 The Arabic name for Saturday. :: al-Sabt || H: Standard calendar
 The Arabic name for Sunday. :: al-Ahad || H: Standard calendar
-We say "Ramadan Mubarak" or "Ramadan" this. :: Kareem || H: Standard greeting
-The Companions (رِضْوَانُ اللَّهِ عَلَيْهِمْ) said to each other on Eid: "May Allah accept from us and" this (meaning). :: From you || H: Fath al-Bari (reports of the Companions)
+We say "Ramadan Mubarak" or "Ramadan ___". :: Kareem || H: Standard greeting
+The Companions (رِضْوَانُ اللَّهِ عَلَيْهِمْ) said to each other on Eid: "May Allah accept from us and ___" (meaning). :: From you || H: Fath al-Bari (reports of the Companions)
 Sha'ban comes just before this month. :: Ramadan || H: Standard calendar
 
 ## 200
@@ -73,9 +73,9 @@ We look for it in these nights of Ramadan. :: The odd nights of the last ten || 
 The four sacred months include Muharram, Rajab, Dhu al-Qa'dah and this. :: Dhu al-Hijjah || H: Qur'an 9:36; Sahih al-Bukhari
 On Eid we say this many times, praising Allah. :: Allahu Akbar (takbir) || H: Qur'an 2:185
 Our Beloved Prophet ﷺ ate this before going to the Eid al-Fitr prayer. :: Dates (an odd number) || H: Sahih al-Bukhari
-Our Beloved Master ﷺ said: "Eat suhur, for in suhur there is" this (meaning). :: Barakah (blessing) || H: Sahih al-Bukhari
+Our Beloved Master ﷺ said: "Eat suhur, for in suhur there is ___" (meaning). :: Barakah (blessing) || H: Sahih al-Bukhari
 Our Beloved Prophet ﷺ said people stay in good as long as they hurry to do this. :: Break the fast || H: Sahih al-Bukhari
-The du'a when breaking the fast: "Thirst has gone, the veins are moist, and the reward is" this (meaning). :: Confirmed, if Allah wills || H: Sunan Abi Dawud
+The du'a when breaking the fast: "Thirst has gone, the veins are moist, and the reward is ___" (meaning). :: Confirmed, if Allah wills || H: Sunan Abi Dawud
 Our Beloved Prophet ﷺ said: whoever gives a fasting person food to break his fast gets this. :: The same reward || H: Sunan al-Tirmidhi
 If you eat or drink by forgetting while fasting, then this. :: Continue the fast (it is still valid) || H: Sahih al-Bukhari
 Our Beloved Master ﷺ said: fasting is this, a shield. :: Junnah (a shield) || H: Sahih al-Bukhari
@@ -84,7 +84,7 @@ Allah says fasting is for Him and He will do this. :: Reward it Himself || H: Sa
 Our Beloved Prophet ﷺ said Ramadan is when the gates of this are opened. :: Mercy (Jannah) || H: Sahih Muslim
 The last ten nights of Ramadan, our Beloved Prophet ﷺ did this more. :: Worship (tightened His ﷺ belt, stayed up) || H: Sahih al-Bukhari
 Our Beloved Master ﷺ also woke these up in the last ten nights. :: His ﷺ family || H: Sahih al-Bukhari
-Zakat al-Fitr is paid by the head of the family for each this. :: Person (even babies) || H: Sahih al-Bukhari
+The head of the family pays Zakat al-Fitr for each one of these. :: Person (even babies) || H: Sahih al-Bukhari
 Zakat al-Fitr is given as dates, barley, raisins or this. :: Cheese (dried yogurt) or other staple food || H: Sahih al-Bukhari
 Zakat al-Fitr purifies the fasting person and feeds these. :: The poor || H: Sunan Abi Dawud
 On Eid al-Fitr, our Beloved Master ﷺ ate before the prayer; on Eid al-Adha He ﷺ ate after this. :: The prayer (from His ﷺ sacrifice) || H: Sunan al-Tirmidhi
@@ -102,7 +102,7 @@ Our Beloved Prophet ﷺ said the best du'a is the du'a of this day. :: The Day o
 The month of Rajab is one of these. :: The sacred months || H: Sahih al-Bukhari
 In the sacred months, fighting was this. :: Forbidden || H: Qur'an 2:217
 Our Beloved Prophet ﷺ fasted 'Ashura' in Makkah, then in Madinah He ﷺ saw these fasting it too. :: The Jews || H: Sahih al-Bukhari
-Our Beloved Master ﷺ said: "We have more right to Musa ﵇ than" these (meaning). :: You (the Jews of Madinah) || H: Sahih al-Bukhari
+Our Beloved Master ﷺ said: "We have more right to Musa ﵇ than ___" (meaning). :: You (the Jews of Madinah) || H: Sahih al-Bukhari
 Before Ramadan was made a duty, this fast was a duty. :: 'Ashura' || H: Sahih al-Bukhari
 Fasting on Friday alone is this. :: Disliked (unless with a day before or after) || H: Sahih al-Bukhari
 Our Beloved Prophet ﷺ said the month of Sha'ban is when deeds are this. :: Raised to Allah || H: Sunan al-Nasa'i
@@ -125,14 +125,14 @@ The three days after Eid al-Adha. :: The Days of Tashriq || H: Sahih Muslim
 Our Beloved Master ﷺ called the Days of Tashriq days of eating, drinking and this. :: Remembering Allah || H: Sahih Muslim
 Fasting is not allowed on these two days. :: The two Eids || H: Sahih al-Bukhari
 Our master Musa ﵇ and his people were saved from Fir'awn on this day. :: 'Ashura' || H: Sahih al-Bukhari
-The first ten days of Dhu al-Hijjah: Our Beloved Prophet ﷺ said no deeds are more loved than in these days, except this (meaning). :: A man who goes out with his life and wealth and comes back with nothing of them || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ said no deeds are more loved than those in the first ten days of Dhu al-Hijjah, except this (meaning). :: A man who goes out with his life and wealth and comes back with nothing of them || H: Sahih al-Bukhari
 In those ten days we say lots of tahlil, takbir and this. :: Tahmid (Alhamdulillah) || H: Musnad Ahmad
 Someone who will sacrifice should not cut his hair or this in the first ten days. :: Nails || H: Sahih Muslim
 The 8th of Dhu al-Hijjah is called this. :: Yawm al-Tarwiyah || H: Sahih Muslim
 On the 8th, pilgrims go to this place. :: Mina || H: Sahih Muslim
 After 'Arafah, pilgrims spend the night at this place. :: Muzdalifah || H: Qur'an 2:198
-The 10th of Dhu al-Hijjah is called "the day of" this. :: Sacrifice (Yawm al-Nahr) || H: Sahih al-Bukhari
-Our Beloved Prophet ﷺ called it "the greatest day of" this (meaning). :: Hajj (Yawm al-Hajj al-Akbar) || H: Sunan Abi Dawud
+The 10th of Dhu al-Hijjah is called "the day of ___". :: Sacrifice (Yawm al-Nahr) || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ called it "the greatest day of ___" (meaning). :: Hajj (Yawm al-Hajj al-Akbar) || H: Sunan Abi Dawud
 The 11th of Dhu al-Hijjah is called this. :: Yawm al-Qarr (the day of staying) || H: Sunan Abi Dawud
 The Islamic calendar is used to find the times of fasting, Hajj and this. :: Zakat (its year) || H: Qur'an 2:189
 The Qur'an says the moon's phases are times for people and for this. :: Hajj || H: Qur'an 2:189
@@ -237,7 +237,7 @@ The Hijri year 1 began in this CE year. :: 622 CE || H: Standard dating
 The 1st of Muharram 1 AH fell in this CE month. :: July (622 CE) || H: Standard conversion
 Our Beloved Prophet ﷺ was born, by a common report, on 12 Rabi' al-Awwal in this "year". :: The Year of the Elephant || H: Ibn Hisham, al-Sirah
 The Battle of Badr was on this day of Ramadan. :: 17th || H: Ibn Hisham, al-Sirah
-The Qur'an calls Badr's day "the day of" this (meaning). :: The Criterion (Yawm al-Furqan) || H: Qur'an 8:41
+The Qur'an calls Badr's day "the day of ___" (meaning). :: The Criterion (Yawm al-Furqan) || H: Qur'an 8:41
 The opening of Makkah was on about this day of Ramadan. :: 20th || H: Ibn Hisham, al-Sirah
 Our master 'Ali ﵁ passed away in this month of 40 AH (661 CE). :: Ramadan || H: Tarikh al-Tabari
 Our lady Khadijah ﵂ passed away in this month, in common reports. :: Ramadan || H: Ibn Sa'd, al-Tabaqat
@@ -254,12 +254,12 @@ The Shafi'i school says moon sightings differ between lands that are this. :: Fa
 The report of Kurayb about seeing the moon in al-Sham versus Madinah is in this book. :: Sahih Muslim || H: Sahih Muslim
 Our Beloved Master ﷺ accepted the moon sighting of this kind of person. :: One trustworthy Muslim || H: Sunan Abi Dawud
 For seeing the Shawwal moon, most scholars ask for this many witnesses. :: 2 || H: Sunan al-Nasa'i; Matn Abi Shuja'
-Our Beloved Prophet ﷺ saw the new moon and said: "O Allah, bring it over us with" this (meaning). :: Safety and faith (blessing) || H: Sunan al-Tirmidhi
+Our Beloved Prophet ﷺ saw the new moon and said: "O Allah, bring it over us with ___" (meaning). :: Safety and faith (blessing) || H: Sunan al-Tirmidhi
 Our Beloved Prophet ﷺ said: "Fast when you see it and" do this when you see it (meaning). :: Break your fast (end Ramadan) || H: Sahih al-Bukhari
 The day of doubt is the 30th of this month. :: Sha'ban || H: Sunan al-Tirmidhi
 Fasting the day of doubt is this, by the hadith of 'Ammar ﵁. :: Disobeying Abu al-Qasim ﷺ || H: Sunan al-Tirmidhi
 Our Beloved Master ﷺ said Allah has two days better than the old feast days of this city. :: Madinah || H: Sunan Abi Dawud
-The "white days" are called this because the nights are lit by this. :: The full moon || H: Standard meaning
+The "white days" get their name because their nights are lit by this. :: The full moon || H: Standard meaning
 Shawwal's six days with Ramadan are like fasting this. :: The whole year || H: Sahih Muslim
 Each good deed counts ten times, so Ramadan (30 × 10) and six days of Shawwal (6 × 10) together make this many days. :: 360 (a year) || H: Sunan Ibn Majah
-Our Beloved Prophet ﷺ said: "Whoever fasts a day for Allah, Allah keeps his face from the Fire" this far (meaning). :: Seventy years || H: Sahih al-Bukhari
+Our Beloved Prophet ﷺ said: "Whoever fasts a day for Allah, Allah keeps his face from the Fire ___" (meaning). :: Seventy years || H: Sahih al-Bukhari

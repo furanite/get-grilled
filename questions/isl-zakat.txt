@@ -80,7 +80,7 @@ The zakat on 15 to 19 camels. :: Three sheep || H: Sahih al-Bukhari
 The zakat on 20 to 24 camels. :: Four sheep || H: Sahih al-Bukhari
 The zakat on 76 to 90 camels. :: Two bint labun || H: Sahih al-Bukhari
 The zakat on 91 to 120 camels. :: Two hiqqah || H: Sahih al-Bukhari
-After 120 camels, one bint labun is given for each 40 and one hiqqah for each this many. :: 50 || H: Sahih al-Bukhari
+After 120 camels, zakat is one bint labun for each 40 camels and one hiqqah for each this many. :: 50 || H: Sahih al-Bukhari
 The zakat on 60 cattle. :: Two tabi' (two one-year-olds) || H: Sunan Abi Dawud
 The rate of zakat on a mix of rain-fed and irrigated crops, half and half. :: 7.5% || H: Minhaj al-Talibin; al-Hidayah
 Zakat collectors should not take the best of the herd, our Beloved Prophet ﷺ told Mu'adh ﵁, but avoid this. :: The choicest of their wealth || H: Sahih al-Bukhari
@@ -136,14 +136,14 @@ In the Maliki school, a trader who sells constantly (mudir) pays zakat this way.
 In the Hanafi school, the zakat on cattle after 60 is one tabi' for each 30 and one musinnah for each this many. :: 40 || H: al-Hidayah (al-Marghinani)
 In the Hanafi school, buffalo are counted with these for zakat. :: Cattle || H: al-Hidayah (al-Marghinani)
 In the Hanafi school, zakat on horses, by Abu Hanifah's رحمة الله عليه view, is due if they are this. :: Grazing, male and female, kept for breeding || H: al-Hidayah (al-Marghinani)
-In the Hanafi school, the two students Abu Yusuf and Muhammad رحمة الله عليهما hold that horses owe this. :: No zakat || H: al-Hidayah (al-Marghinani)
+In the Hanafi school, what the two students Abu Yusuf and Muhammad رحمة الله عليهما say horses owe. :: No zakat || H: al-Hidayah (al-Marghinani)
 In the Hanafi school, the two students say crops need this nisab. :: 5 awsuq || H: al-Hidayah (al-Marghinani)
 In the Shafi'i school, zakat on fruits is due only on these two. :: Dates and grapes (raisins) || H: Minhaj al-Talibin (al-Nawawi)
 Estimating the fruit on the palm before harvest, to know its zakat. :: Khars || H: Sunan Abi Dawud
 Our Beloved Prophet ﷺ told the estimators to leave this share for the owner. :: A third or a quarter || H: Sunan Abi Dawud
 In the Shafi'i school, honey owes this. :: No zakat || H: Minhaj al-Talibin (al-Nawawi)
 In the Shafi'i school, jewellery that is forbidden to wear, such as a man's gold ring, owes this. :: Zakat || H: Minhaj al-Talibin (al-Nawawi)
-In the Hanafi school, gold and silver dishes owe this. :: Zakat (and their use is forbidden) || H: al-Hidayah (al-Marghinani)
+In the Hanafi school, what gold and silver dishes owe. :: Zakat (and their use is forbidden) || H: al-Hidayah (al-Marghinani)
 The famous hadith of the woman with two gold bracelets is used by the Hanafis to require this. :: Zakat on jewellery || H: Sunan Abi Dawud
 The famous report that our lady 'A'ishah ﵂ did not pay zakat on her nieces' jewellery is used by these schools. :: The Maliki, Shafi'i and Hanbali schools || H: Muwatta' Malik
 In the Hanafi school, a debt owed to a person by a solvent debtor who admits it is this kind of debt. :: Strong debt (dayn qawi) || H: al-Hidayah (al-Marghinani)
@@ -152,10 +152,10 @@ In the Hanafi school, zakat on a dowry owed to a wife becomes due after this. ::
 In the Shafi'i school, a debt owed to you by a solvent person who admits it: zakat is this. :: Due each year (paid when received) || H: Minhaj al-Talibin (al-Nawawi)
 In the Hanafi school, the year of the nisab is counted from when the nisab is first owned, and the nisab must be complete at these two points. :: The start and the end of the year || H: al-Hidayah (al-Marghinani)
 In the Shafi'i school, the nisab of livestock and money must be complete for this long. :: The whole year || H: Minhaj al-Talibin (al-Nawawi)
-In the Shafi'i school, the young born to a flock during the year count with the mothers for zakat; this is called this. :: Nitaj (offspring follow the mothers) || H: Minhaj al-Talibin (al-Nawawi)
-In the Shafi'i school, partners' flocks mixed together are treated as one; this is called this. :: Khultah || H: Minhaj al-Talibin (al-Nawawi)
+In the Shafi'i school, the name for counting the young born to a flock during the year with their mothers for zakat. :: Nitaj (offspring follow the mothers) || H: Minhaj al-Talibin (al-Nawawi)
+In the Shafi'i school, the name for partners' mixed flocks being treated as one for zakat. :: Khultah || H: Minhaj al-Talibin (al-Nawawi)
 In the Hanafi school, mixed flocks (khultah) are treated this way. :: Each owner's share separately || H: al-Hidayah (al-Marghinani)
-In the Hanafi school, zakat cannot be used to pay a dead person's debts because there is no this. :: Transfer of ownership (tamlik) to a living recipient || H: al-Hidayah (al-Marghinani)
+In the Hanafi school, zakat cannot be used to pay a dead person's debts because this is missing. :: Transfer of ownership (tamlik) to a living recipient || H: al-Hidayah (al-Marghinani)
 In the Hanafi school, giving zakat to a non-Muslim is this. :: Not allowed || H: al-Hidayah (al-Marghinani)
 In the Maliki, Shafi'i and Hanbali schools, zakat is due on the wealth of this young owner, paid by the guardian. :: A child || H: al-Mughni (Ibn Qudamah)
 In the Hanafi school, zakat is not due on the money of this young owner. :: A child || H: al-Hidayah (al-Marghinani)
@@ -204,7 +204,7 @@ In the Shafi'i school, rikaz is due only on gold and silver reaching this. :: Th
 In the Shafi'i school, zakat al-fitr is due on one who has this beyond the needs of the day and night of Eid. :: Food and its amount for those he supports || H: Minhaj al-Talibin (al-Nawawi)
 In the Hanafi school, the father pays zakat al-fitr for his children who are this. :: Young and poor || H: al-Hidayah (al-Marghinani)
 In the Hanafi school, a husband pays zakat al-fitr for his wife only as this. :: A voluntary kindness (not required) || H: al-Hidayah (al-Marghinani)
-In the Hanafi school, the amount of zakat al-fitr in raisins is half a sa', by Abu Hanifah's رحمة الله عليه view in one report, and a full sa' by this. :: The two students (and the relied view) || H?: al-Hidayah; check which view is relied upon
+In the Hanafi school, zakat al-fitr in raisins is half a sa' by Abu Hanifah's رحمة الله عليه view in one report. Those who say a full sa'. :: The two students (and the relied view) || H?: al-Hidayah; check which view is relied upon
 In the Shafi'i school, zakat al-fitr is given in the staple food of this place. :: The land of the payer || H: Minhaj al-Talibin (al-Nawawi)
 The Companion who narrated that zakat al-fitr is "a sa' of dates or a sa' of barley" (meaning). :: 'Abdullah ibn 'Umar (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: Sahih al-Bukhari
 The hadith of zakat on 5 awsuq, 5 camels and 5 awaq is narrated by this Companion. :: Abu Sa'id al-Khudri ﵁ || H: Sahih al-Bukhari
@@ -243,15 +243,15 @@ In the Hanafi school, zakat on a dead person's wealth, if he did not will it, do
 In the Shafi'i school, zakat owed by a dead person is paid from his estate as this. :: A debt, before the heirs' shares || H: Minhaj al-Talibin (al-Nawawi)
 The Hanafi rule that zakat is not due on a child's wealth rests on zakat being this. :: An act of worship needing intention and legal capacity || H: al-Hidayah (al-Marghinani)
 The tax on a non-Muslim trader's goods crossing into Muslim lands, in our master 'Umar's ﵁ rule, was at this rate. :: One tenth || H: Kitab al-Kharaj (Abu Yusuf)
-The rate on a Muslim trader's goods at the border, in that rule. :: 2.5% || H: Kitab al-Kharaj (Abu Yusuf)
-The rate on a dhimmi trader's goods at the border, in that rule. :: 5% || H: Kitab al-Kharaj (Abu Yusuf)
-The officer who collected these trade dues was called this. :: 'Ashir || H: al-Hidayah (al-Marghinani)
+In our master 'Umar's ﵁ rule on border trade dues, the rate on a Muslim trader's goods. :: 2.5% || H: Kitab al-Kharaj (Abu Yusuf)
+In our master 'Umar's ﵁ rule on border trade dues, the rate on a dhimmi trader's goods. :: 5% || H: Kitab al-Kharaj (Abu Yusuf)
+The name for the officer who collected trade dues on goods at the border. :: 'Ashir || H: al-Hidayah (al-Marghinani)
 The Successor caliph famous for giving zakat until none could be found to receive it, in reports. :: 'Umar ibn 'Abd al-'Aziz رحمة الله عليه || H: Siyar A'lam al-Nubala' (al-Dhahabi)
 The Hanafi rule on giving all of one's zakat to a single poor person, above the nisab. :: Allowed but disliked || H: al-Hidayah (al-Marghinani)
 In the Shafi'i school, zakat is not given to a person whose support is owed by the payer, such as these. :: Parents, children and wife || H: Minhaj al-Talibin (al-Nawawi)
 The Hanafi school allows zakat to brothers, sisters, uncles and aunts if they are this. :: Poor || H: al-Hidayah (al-Marghinani)
 The Companion who said "Zakat is a bridge of Islam" (meaning). :: Abu al-Darda' ﵁ || H?: check the source of this saying
-In the Hanafi school, if one gave zakat to a person believing him poor, then learned he was rich, the zakat does this, by Abu Hanifah and Muhammad رحمة الله عليهما. :: Counts (it is valid) || H: al-Hidayah (al-Marghinani)
+In the Hanafi school, if one gave zakat to someone believed poor who turned out rich, Abu Hanifah and Muhammad رحمة الله عليهما say the zakat does this. :: Counts (it is valid) || H: al-Hidayah (al-Marghinani)
 The hadith of the man who gave charity at night to a thief, an adulteress and a rich man, and it was accepted, is in this book. :: Sahih al-Bukhari || H: Sahih al-Bukhari
 The Hanafi school's view on zakat on paper money, by later scholars. :: Due, like gold and silver || H: Standard modern fatwa (all four schools)
 The verse "those who hoard gold and silver" (meaning) is in this verse number of Surah al-Tawbah. :: 9:34 || H: The Mushaf

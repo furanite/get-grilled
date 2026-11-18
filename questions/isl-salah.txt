@@ -37,11 +37,11 @@ The person who calls the adhan. :: Mu'adhdhin || H: Standard term
 The Companion who was the first mu'adhdhin of our Beloved Prophet ﷺ. :: Bilal ibn Rabah ﵁ || H: Sunan Abi Dawud
 Standing upright in prayer. :: Qiyam || H: Standard term
 Sitting between the two prostrations. :: Jalsah || H: Standard term
-In ruku' one says "Subhana Rabbiyal-'Azim": glory be to my Lord, this. :: The Most Great || H: Sunan Abi Dawud
-In sujud one says "Subhana Rabbiyal-A'la": glory be to my Lord, this. :: The Most High || H: Sunan Abi Dawud
-On rising from ruku' one says "Sami'a Allahu liman" this. :: Hamidah || H: Sahih al-Bukhari
+In ruku' one says "Subhana Rabbiyal-'Azim": glory be to my Lord, ___. :: The Most Great || H: Sunan Abi Dawud
+In sujud one says "Subhana Rabbiyal-A'la": glory be to my Lord, ___. :: The Most High || H: Sunan Abi Dawud
+On rising from ruku' one says "Sami'a Allahu liman ___". :: Hamidah || H: Sahih al-Bukhari
 The day of the week of the Jumu'ah prayer. :: Friday || H: Qur'an 62:9
-The words added to the adhan of Fajr: "Prayer is better than" this (meaning). :: Sleep || H: Sunan Abi Dawud
+The words added to the adhan of Fajr: "Prayer is better than ___" (meaning). :: Sleep || H: Sunan Abi Dawud
 The two rak'ahs prayed on entering a mosque before sitting. :: Tahiyyat al-masjid || H: Sahih al-Bukhari
 The voluntary prayer at night after sleeping. :: Tahajjud || H: Qur'an 17:79
 The number of prostrations in each rak'ah. :: 2 || H: Sahih al-Bukhari
@@ -92,8 +92,8 @@ Zuhr time begins when the sun does this. :: Passes the zenith (zawal) || H: Sahi
 The first light that rises upwards, then darkens again, before true dawn. :: False dawn (al-fajr al-kadhib) || H: Standard term in the fiqh books
 In the Hanafi school, the stressed sunnah before Zuhr has this many rak'ahs. :: 4 || H: al-Hidayah (al-Marghinani)
 In the Shafi'i school, the stressed sunnah before Zuhr has this many rak'ahs. :: 2 || H: Minhaj al-Talibin (al-Nawawi)
-In the Shafi'i school, the stressed sunnah rak'ahs with the daily prayers number this many. :: 10 || H: Minhaj al-Talibin (al-Nawawi)
-In the Hanafi school, the stressed sunnah rak'ahs with the daily prayers number this many. :: 12 || H: al-Hidayah; Sunan al-Tirmidhi
+In the Shafi'i school, the number of stressed sunnah rak'ahs with the daily prayers. :: 10 || H: Minhaj al-Talibin (al-Nawawi)
+In the Hanafi school, the number of stressed sunnah rak'ahs with the daily prayers. :: 12 || H: al-Hidayah; Sunan al-Tirmidhi
 Our Beloved Prophet ﷺ said whoever prays twelve voluntary rak'ahs a day has this built for him (paraphrased). :: A house in Paradise || H: Sahih Muslim
 Saying "Amin" after al-Fatihah is this ruling. :: Sunnah || H: Sahih al-Bukhari
 In the Hanafi school, "Amin" is said this way. :: Quietly || H: al-Hidayah (al-Marghinani)

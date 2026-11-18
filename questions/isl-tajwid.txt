@@ -41,7 +41,7 @@ The mark in the Mushaf meaning "it is better to continue". :: Sad-lam-ya (sila) 
 The mark in the Mushaf meaning "do not stop here". :: Lam-alif (la) || H: The Mushaf (Madinah print)
 The mark "mim" in the Mushaf means stopping here is this. :: Necessary (lazim) || H: The Mushaf (Madinah print)
 The mark "jim" in the Mushaf means stopping here is this. :: Permitted (ja'iz) || H: The Mushaf (Madinah print)
-Three dots appearing twice mean you may stop at one of them, not both; this is called this. :: Ta'anuq al-waqf || H: The Mushaf (Madinah print)
+The name for the mark of three dots appearing twice, meaning you may stop at one of them but not both. :: Ta'anuq al-waqf || H: The Mushaf (Madinah print)
 The small circle above a letter shows this. :: A letter not pronounced || H: The Mushaf (Madinah print)
 Reciting slowly and calmly is called this, the slowest pace. :: Tahqiq || H: Ibn al-Jazari, al-Nashr
 Reciting at a moderate pace is called this. :: Tadwir || H: Ibn al-Jazari, al-Nashr
@@ -50,7 +50,7 @@ Reciting from memory to a teacher is called this. :: 'Ard || H: Standard term
 Listening to the teacher first, then repeating, is called this. :: Sama' (talqin) || H: Standard term
 Our Beloved Master ﷺ said the one skilled in the Qur'an is with the noble righteous scribes (paraphrased). :: The angels ﵈ || H: Sahih al-Bukhari
 Reading the Qur'an in a beautiful voice is called this. :: Tahsin al-sawt (tazyin) || H: Sunan Abi Dawud
-Our Beloved Prophet ﷺ said: "Beautify the Qur'an with" this (paraphrased). :: Your voices || H: Sunan Abi Dawud
+Our Beloved Prophet ﷺ said: "Beautify the Qur'an with ___" (paraphrased). :: Your voices || H: Sunan Abi Dawud
 Mistakes in recitation are called this. :: Lahn || H: Standard term
 A clear mistake that changes the vowel or meaning. :: Lahn jali || H: Standard teaching
 A hidden mistake against the finer rules of tajwid. :: Lahn khafi || H: Standard teaching
@@ -82,11 +82,11 @@ The six throat letters. :: Hamzah, ha', 'ayn, ha', ghayn, kha' || H: Tuhfat al-A
 The two throat letters from the middle of the throat. :: 'Ayn and ha' || H: al-Muqaddimah al-Jazariyyah
 The two throat letters from the nearest part of the throat. :: Ghayn and kha' || H: al-Muqaddimah al-Jazariyyah
 The letters of qalqalah. :: Qaf, ta', ba', jim, dal || H: Tuhfat al-Atfal
-Qalqalah is strongest when the letter has shaddah at a stop; this is called this. :: Qalqalah akbar || H: Standard teaching
+The name for qalqalah at its strongest, when the letter has shaddah at a stop. :: Qalqalah akbar || H: Standard teaching
 Qalqalah in the middle of a word is called this. :: Qalqalah sughra || H: Standard teaching
 Qalqalah at the end when stopping is called this. :: Qalqalah kubra || H: Standard teaching
-The sun letters number this many. :: 14 || H: Tuhfat al-Atfal
-The moon letters number this many. :: 14 || H: Tuhfat al-Atfal
+The number of sun letters. :: 14 || H: Tuhfat al-Atfal
+The number of moon letters. :: 14 || H: Tuhfat al-Atfal
 The phrase that gathers the moon letters. :: Ibghi hajjaka wa khaf 'aqimah || H: Tuhfat al-Atfal
 "Al-shams" is an example of this kind of lam. :: Lam shamsiyyah || H: Tuhfat al-Atfal
 "Al-qamar" is an example of this kind of lam. :: Lam qamariyyah || H: Tuhfat al-Atfal
@@ -158,9 +158,9 @@ The opposite of itbaq. :: Infitah || H: al-Muqaddimah al-Jazariyyah
 The opposite of idhlaq. :: Ismat || H: al-Muqaddimah al-Jazariyyah
 The quality of deviation (inhiraf) is in these two letters. :: Lam and ra' || H: al-Muqaddimah al-Jazariyyah
 The quality of softness (lin) is in waw and ya' when they are this. :: Saakin after a fathah || H: al-Muqaddimah al-Jazariyyah
-Ibn al-Jazari's رحمة الله عليه poem says "Whoever does not perfect the Qur'an is" this (paraphrased). :: Sinful (athim) || H: al-Muqaddimah al-Jazariyyah
+Ibn al-Jazari's رحمة الله عليه poem says "Whoever does not perfect the Qur'an is ___" (paraphrased). :: Sinful (athim) || H: al-Muqaddimah al-Jazariyyah
 The heavy letters in order of strength begin with this kind. :: Letters of itbaq (sad, dad, ta', za') || H: Standard teaching
-The alif follows the letter before it in heaviness or lightness; this is called this. :: Tabi' (following) || H: Standard teaching
+The name for the alif following the letter before it in heaviness or lightness. :: Tabi' (following) || H: Standard teaching
 The "silent" letters at the end, like alif in "ana", are kept when stopping but dropped when this. :: Joining (continuing) || H: Standard teaching
 A stop the reader picks freely, without need, at a fitting place. :: Waqf ikhtiyari || H: Standard teaching
 
@@ -252,7 +252,7 @@ The longest madd allowed for madd muttasil in some ways of Hafs رحمة الل�
 In Warsh's رحمة الله عليه reading, madd badal is read with 2, 4 or this many counts. :: 6 || H: al-Shatibi, Hirz al-Amani
 In Warsh's رحمة الله عليه reading, the ra' after a kasrah or ya' sakinah is often read this way. :: Light (tarqiq) || H: al-Shatibi, Hirz al-Amani
 In Warsh's رحمة الله عليه reading, the lam is read heavy after these three letters. :: Sad, ta' and za' (heavy letters) || H: al-Shatibi, Hirz al-Amani
-Warsh رحمة الله عليه softens or replaces the hamzah in many words; this is called this. :: Takhfif al-hamz (ibdal, tashil, naql) || H: al-Shatibi, Hirz al-Amani
+The name for Warsh's رحمة الله عليه softening or replacing of the hamzah in many words. :: Takhfif al-hamz (ibdal, tashil, naql) || H: al-Shatibi, Hirz al-Amani
 In Warsh رحمة الله عليه, moving the hamzah's vowel to the sakin letter before it is called this. :: Naql || H: al-Shatibi, Hirz al-Amani
 Joining the plural mim with a waw, as in "'alayhimu", optional for Qalun رحمة الله عليه, is called this. :: Silat mim al-jam' || H: al-Shatibi, Hirz al-Amani
 The number of the seven readers who read "maliki" in al-Fatihah without an alif. :: 5 || H: al-Shatibi, Hirz al-Amani
@@ -264,7 +264,7 @@ Ibn al-Jazari's رحمة الله عليه poem on the three extra readings. :: 
 The reader of Madinah among the three extra ones. :: Abu Ja'far رحمة الله عليه || H: Ibn al-Jazari, al-Nashr
 The reader of Basrah among the three extra ones. :: Ya'qub al-Hadrami رحمة الله عليه || H: Ibn al-Jazari, al-Nashr
 Khalaf al-'Ashir was also a transmitter of this reader of the seven. :: Hamzah رحمة الله عليه || H: Ibn al-Jazari, al-Nashr
-Ghunnah is a quality of nun and mim that has no this. :: Opposite || H: Standard teaching
+Ghunnah is a quality of nun and mim that has no quality of this kind. :: Opposite || H: Standard teaching
 The number of qualities with opposites in al-Jazariyyah. :: 5 pairs (10) || H: al-Muqaddimah al-Jazariyyah
 The number of qualities without opposites in al-Jazariyyah. :: 7 || H: al-Muqaddimah al-Jazariyyah
 The letter that has the most "strong" qualities, said to be the strongest letter. :: Ta' (heavy) || H?: Common teaching; some say dad, to be checked

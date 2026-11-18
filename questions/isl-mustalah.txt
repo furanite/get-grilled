@@ -74,7 +74,7 @@ The highest of the levels of sahih hadith. :: Those narrated by both al-Bukhari 
 A hadith like sahih, but whose narrators' precision is a little lighter. :: Hasan li-dhatihi || H: Nuzhat al-Nazar (Ibn Hajar)
 A narrator in a chain who is mentioned but not named, like "a man". :: Mubham || H: Nuzhat al-Nazar (Ibn Hajar)
 'Abdullah ibn al-Mubarak رحمة الله عليه said the isnad is part of this. :: The religion || H: Muqaddimat Sahih Muslim
-Muhammad ibn Sirin رحمة الله عليه said this knowledge is religion, so look at this. :: From whom you take your religion || H: Muqaddimat Sahih Muslim
+Muhammad ibn Sirin رحمة الله عليه said this knowledge is religion, "so look at ___". :: From whom you take your religion || H: Muqaddimat Sahih Muslim
 
 ## 400
 The most famous book of hadith terms, by Ibn al-Salah رحمة الله عليه (d. 643 AH / 1245 CE). :: 'Ulum al-Hadith (Muqaddimah Ibn al-Salah) || H: Muqaddimah Ibn al-Salah

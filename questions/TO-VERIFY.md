@@ -170,7 +170,7 @@ This file is rewritten by `npm run packs`.
 
 ## Blessed Seerah: the Madinan years (questions/isl-seerah-madinah.txt)
 
-- **500**, line 127: Our Beloved Prophet ﷺ said to Quraysh at the opening of Makkah: "Go, you are free" (meaning); this freedom is called this. **Answer:** al-Tulaqa' (those set free) _(Source: Sirat Ibn Hisham; wording to be checked)_
+- **500**, line 127: Our Beloved Prophet ﷺ said to Quraysh at the opening of Makkah: "Go, you are free" (meaning). The name for those set free. **Answer:** al-Tulaqa' (those set free) _(Source: Sirat Ibn Hisham; wording to be checked)_
 - **500**, line 131: The Companion of Badr who was the first to die in Madinah from the Muhajirun, by one view, and was kissed by our Beloved Master ﷺ. **Answer:** Our master 'Uthman ibn Maz'un ﵁ _(Source: Sunan Abi Dawud; to be checked)_
 
 ## Blessed Seerah: the Makkan years (questions/isl-seerah-makkah.txt)
@@ -184,7 +184,7 @@ This file is rewritten by `npm run packs`.
 - **300**, line 126: The term for a word that occurs only once in the Qur'an. **Answer:** Hapax (farid) _(Source: Term to be checked with a Qur'an sciences teacher)_
 - **400**, line 166: The Hanafi scholar who wrote Ahkam al-Qur'an, d. 370 AH / 981 CE. **Answer:** Abu Bakr al-Jassas ⁨رحمة الله عليه⁩ _(Source: Ahkam al-Qur'an (al-Jassas); some biographers say al-Jassas leaned to Mu'tazili views, so check before using)_
 - **400**, line 192: The tafsir by Ibn 'Abd al-Salam ⁨رحمة الله عليه⁩, the "Sultan of the Scholars", is a summary of this (meaning). **Answer:** al-Mawardi's ⁨رحمة الله عليه⁩ tafsir al-Nukat wal-'Uyun _(Source: Check which tafsir Ibn 'Abd al-Salam summarised)_
-- **400**, line 196: The word "huda" (guidance) has this many meanings in that literature, around. **Answer:** About 17 _(Source: Count in Muqatil's al-Wujuh; later books differ, to be checked)_
+- **400**, line 196: The rough number of meanings of the word "huda" (guidance) in the al-Wujuh wal-Naza'ir books. **Answer:** About 17 _(Source: Count in Muqatil's al-Wujuh; later books differ, to be checked)_
 - **400**, line 198: The tafsir of al-Baydawi ⁨رحمة الله عليه⁩ was finished in this city. **Answer:** Tabriz _(Source: Check: al-Baydawi passed away in Tabriz; where he finished it is uncertain)_
 - **500**, line 245: The tafsir "Tafsir al-Mawahib al-'Aliyyah" (in Persian) is by this Herat scholar. **Answer:** Husayn Wa'iz al-Kashifi _(Source: Check his creed before giving an honorific)_
 
@@ -210,7 +210,7 @@ This file is rewritten by `npm run packs`.
 ## Fiqh: Work and earning (questions/isl-work.txt)
 
 - **100**, line 17: Our Beloved Master ﷺ said Allah loves that when one of you does a job, he does it with this (paraphrased). **Answer:** Excellence (itqan) _(Source: al-Mu'jam al-Awsat (al-Tabarani); grade to be checked)_
-- **200**, line 44: Our Beloved Master ﷺ said the best earning is a man's work with his hand and every this. **Answer:** Honest sale (bay' mabrur) _(Source: Musnad Ahmad; to be checked)_
+- **200**, line 44: Our Beloved Master ﷺ said the best earning is a man's work with his hand and every one of these. **Answer:** Honest sale (bay' mabrur) _(Source: Musnad Ahmad; to be checked)_
 - **300**, line 62: The Companion who said "I hate to see a man idle, not in worldly work nor in work for the Hereafter" (meaning). **Answer:** 'Abdullah ibn Mas'ud ﵁ _(Source: Musannaf Ibn Abi Shaybah; to be checked)_
 - **300**, line 63: Our Beloved Prophet ﷺ said one who strives to support his family is like this (paraphrased). **Answer:** One striving in the way of Allah _(Source: al-Mu'jam al-Kabir (al-Tabarani); to be checked)_
 - **300**, line 83: The Hanafi author of Ahkam al-Qur'an, named after work with plaster. **Answer:** Abu Bakr al-Jassas ⁨رحمة الله عليه⁩ _(Source: Standard biography (al-Jawahir al-Mudiyyah); some biographers say al-Jassas leaned to Mu'tazili views, so check before using)_
@@ -218,12 +218,12 @@ This file is rewritten by `npm run packs`.
 - **500**, line 115: Imam Ahmad ⁨رحمة الله عليه⁩ said of a man who sits in his house saying his provision will come: he is this. **Answer:** Ignorant of knowledge (he has not understood) _(Source: Reported in Hanbali works; to be checked)_
 - **500**, line 117: In the Hanafi school, a muzara'ah needs these conditions, including the share and the seed's owner known. **Answer:** 8 _(Source: al-Hidayah (al-Marghinani); count to be checked)_
 - **500**, line 121: The Companion who ran the first diwan with our master 'Umar ﵁, by some reports. **Answer:** 'Aqil ibn Abi Talib and others (genealogists) _(Source: Futuh al-Buldan (al-Baladhuri); to be checked)_
-- **500**, line 131: Our master 'Umar ﵁ said "The sky does not rain gold or" this (meaning). **Answer:** Silver _(Source: Ihya' 'Ulum al-Din (report of 'Umar); to be checked)_
+- **500**, line 131: Our master 'Umar ﵁ said "The sky does not rain gold or ___" (meaning). **Answer:** Silver _(Source: Ihya' 'Ulum al-Din (report of 'Umar); to be checked)_
 
 ## Fiqh: Zakat (questions/isl-zakat.txt)
 
 - **200**, line 99: The share for the "hearts to be won over" was stopped in the time of this caliph, by the Hanafi view (meaning). **Answer:** Our master 'Umar ﵁, in our master Abu Bakr's ﵁ time _(Source: al-Hidayah; check the wording of the report)_
-- **400**, line 207: In the Hanafi school, the amount of zakat al-fitr in raisins is half a sa', by Abu Hanifah's ⁨رحمة الله عليه⁩ view in one report, and a full sa' by this. **Answer:** The two students (and the relied view) _(Source: al-Hidayah; check which view is relied upon)_
+- **400**, line 207: In the Hanafi school, zakat al-fitr in raisins is half a sa' by Abu Hanifah's ⁨رحمة الله عليه⁩ view in one report. Those who say a full sa'. **Answer:** The two students (and the relied view) _(Source: al-Hidayah; check which view is relied upon)_
 - **500**, line 253: The Companion who said "Zakat is a bridge of Islam" (meaning). **Answer:** Abu al-Darda' ﵁ _(Source: check the source of this saying)_
 
 ## Our Beloved Prophet ﷺ (questions/kids-seerah.txt)

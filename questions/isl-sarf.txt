@@ -100,7 +100,7 @@ In "istabara" from s-b-r, the ta' of Form VIII changed into this letter. :: The 
 In "izdahama" from z-h-m, the ta' of Form VIII changed into this letter. :: Dal || H: Shadha al-'Arf
 "Qala" was originally this, before its waw became alif. :: Qawala || H: Shadha al-'Arf
 "Mizan" (scale) was originally this, before its waw became ya'. :: Miwzan || H: Shadha al-'Arf
-The present tense of "wa'ada" drops its waw: this. :: Ya'idu || H: Shadha al-'Arf
+The present tense of "wa'ada", which drops its waw. :: Ya'idu || H: Shadha al-'Arf
 The command of "wa'ada". :: 'Id || H: Shadha al-'Arf
 The command of "waqa" (to protect), a single letter with ha' of pause. :: Qih || H: Shadha al-'Arf
 The pattern of an intensive doer, like "ghaffar". :: Fa''al (sighat al-mubalaghah) || H: Shadha al-'Arf
@@ -112,11 +112,11 @@ A masdar that begins with mim, like "maw'id". :: al-Masdar al-mimi || H: Shadha 
 The masdar made by adding -iyyah, like "insaniyyah". :: al-Masdar al-sina'i || H: Shadha al-'Arf
 The plural of a plural is called this. :: Jam' al-jam' || H: Shadha al-'Arf
 The broken plural patterns for 3 to 10 are called this. :: Jam' al-qillah (plural of paucity) || H: Shadha al-'Arf
-"Yaqulu" was originally this. :: Yaqwulu || H: Shadha al-'Arf (al-Hamalawi)
-"Yabi'u" was originally this. :: Yabyi'u || H: Shadha al-'Arf (al-Hamalawi)
-"Mustaqim" was originally this. :: Mustaqwim || H: Shadha al-'Arf (al-Hamalawi)
-The hamzah at the end of "sama'" (sky) was originally this letter. :: Waw || H: Shadha al-'Arf (al-Hamalawi)
-The hamzah at the end of "du'a'" was originally this letter. :: Waw || H: Shadha al-'Arf (al-Hamalawi)
+The original form of "yaqulu". :: Yaqwulu || H: Shadha al-'Arf (al-Hamalawi)
+The original form of "yabi'u". :: Yabyi'u || H: Shadha al-'Arf (al-Hamalawi)
+The original form of "mustaqim". :: Mustaqwim || H: Shadha al-'Arf (al-Hamalawi)
+The letter that the hamzah at the end of "sama'" (sky) originally was. :: Waw || H: Shadha al-'Arf (al-Hamalawi)
+The letter that the hamzah at the end of "du'a'" originally was. :: Waw || H: Shadha al-'Arf (al-Hamalawi)
 The name "Husayn" is the diminutive of this name. :: Hasan || H: Standard usage
 
 ## 500
@@ -133,7 +133,7 @@ The nisbah (relative adjective) of "Quraysh". :: Qurashi || H: Shadha al-'Arf
 The broken plural pattern of "kitab" (kutub). :: Fu'ul || H: Shadha al-'Arf
 The broken plural pattern of "rajul" (rijal). :: Fi'al || H: Shadha al-'Arf
 Moving a root letter to a different place, as in "ja'a" being treated as "ja'i", is called this. :: al-Qalb al-makani || H: Shadha al-'Arf
-Two consonants without a vowel meeting is avoided; this is called this. :: Iltiqa' al-sakinayn || H: Shadha al-'Arf
+The name for two vowelless consonants meeting, which Arabic avoids. :: Iltiqa' al-sakinayn || H: Shadha al-'Arf
 The ism al-fa'il of "qala". :: Qa'il || H: Shadha al-'Arf
 The ism al-maf'ul of "qala". :: Maqul || H: Shadha al-'Arf
 The ism al-maf'ul of "rama". :: Marmiyy || H: Shadha al-'Arf

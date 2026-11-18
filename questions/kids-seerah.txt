@@ -23,7 +23,7 @@ Our Beloved Master ﷺ was given prophethood at this age. :: 40 || H: Sahih al-B
 The first mosque our Beloved Prophet ﷺ built on the way to Madinah. :: Masjid Quba' || H: Sahih al-Bukhari
 Our Beloved Prophet ﷺ was born in this land. :: Arabia (the Hijaz) || H: Ibn Hisham, al-Sirah
 Our Beloved Master ﷺ could not do this, yet He ﷺ brought the Qur'an. :: Read and write || H: Qur'an 7:157; 29:48
-Our Beloved Prophet ﷺ was called the "unlettered Prophet", in Arabic this. :: al-Nabi al-Ummi || H: Qur'an 7:157
+Our Beloved Prophet ﷺ was called "the unlettered Prophet ﷺ". The Arabic for this name. :: al-Nabi al-Ummi || H: Qur'an 7:157
 The wife of our Beloved Prophet ﷺ who was the daughter of our master Abu Bakr ﵁. :: Our lady 'A'ishah ﵂ || H: Sahih al-Bukhari
 The wife of our Beloved Master ﷺ who was the daughter of our master 'Umar ﵁. :: Our lady Hafsah ﵂ || H: Sahih al-Bukhari
 Our Beloved Prophet's ﷺ wives are called the Mothers of these. :: The Believers || H: Qur'an 33:6
@@ -49,8 +49,8 @@ Our Beloved Prophet's ﷺ hair was this colour. :: Black (with a few white hairs
 Our Beloved Prophet ﷺ had only a few white hairs, about this many. :: About 20 || H: Sahih al-Bukhari
 Our Beloved Prophet ﷺ was neither very tall nor this. :: Very short || H: Sahih al-Bukhari
 Our Beloved Master ﷺ was sent to this many people. :: All people (all mankind) || H: Qur'an 34:28
-The Qur'an calls our Beloved Prophet ﷺ a "mercy to" these. :: The worlds || H: Qur'an 21:107
-The Qur'an says our Beloved Prophet ﷺ has a great this. :: Character || H: Qur'an 68:4
+The Qur'an calls our Beloved Prophet ﷺ a "mercy to ___". :: The worlds || H: Qur'an 21:107
+The Qur'an says our Beloved Prophet ﷺ has a great ___. :: Character || H: Qur'an 68:4
 We are told to send these on our Beloved Master ﷺ. :: Salawat (blessings) || H: Qur'an 33:56
 Whoever sends one blessing on our Beloved Prophet ﷺ, Allah sends this many on him. :: 10 || H: Sahih Muslim
 Our Beloved Prophet ﷺ was a shepherd, like all Blessed Prophets ﵈, He ﷺ said, in this city. :: Makkah al-Mukarramah || H: Sahih al-Bukhari
@@ -88,7 +88,7 @@ The slave who said "Ahad, Ahad" while being tortured. :: Bilal ibn Rabah ﵁ || 
 The one who bought Bilal ﵁ and set him free. :: Our master Abu Bakr ﵁ || H: Sahih al-Bukhari
 The Muslims first moved to this land to be safe. :: Abyssinia (al-Habashah) || H: Ibn Hisham, al-Sirah
 The just king of Abyssinia who protected them. :: The Najashi (Negus) || H: Sahih al-Bukhari
-The Muslims in Abyssinia read the Najashi this surah. :: Surah Maryam || H: Musnad Ahmad
+The surah the Muslims in Abyssinia read to the Najashi. :: Surah Maryam || H: Musnad Ahmad
 Our Beloved Prophet ﷺ prayed the funeral prayer in Madinah for this king, who passed away far away. :: The Najashi || H: Sahih al-Bukhari
 Quraysh boycotted the Muslims in this valley. :: The valley of Abu Talib (Shi'b Abi Talib) || H: Ibn Hisham, al-Sirah
 The boycott lasted about this many years. :: 3 || H: Ibn Hisham, al-Sirah
@@ -126,7 +126,7 @@ Our Beloved Prophet ﷺ said about Uhud: it is a mountain that does this. :: Lov
 Our Beloved Prophet's ﷺ uncle known as "the Lion of Allah", who fell at Uhud (meaning). :: Our master Hamzah ﵁ || H: Sahih al-Bukhari
 The treaty with Makkah in 6 AH (628 CE). :: The Treaty of Hudaybiyyah || H: Sahih al-Bukhari
 The Muslims returned peacefully to Makkah al-Mukarramah in this year. :: 8 AH (630 CE) || H: Sahih al-Bukhari
-On the day Makkah was opened, our Beloved Prophet ﷺ said to its people, "Go, you are" this (paraphrased). :: Free || D: Famous report in the seerah (Ibn Hisham); chain debated
+On the day Makkah was opened, our Beloved Prophet ﷺ said to its people, "Go, you are ___" (paraphrased). :: Free || D: Famous report in the seerah (Ibn Hisham); chain debated
 The battle of Uhud was in this year. :: 3 AH (625 CE) || H: Sahih al-Bukhari
 At Uhud, the archers were told not to leave this. :: The hill (their place) || H: Sahih al-Bukhari
 The leader of the archers at Uhud. :: 'Abdullah ibn Jubayr ﵁ || H: Sahih al-Bukhari
@@ -150,7 +150,7 @@ Our Beloved Master ﷺ gave the flag at Khaybar to this Companion. :: Our master
 The battle of Mu'tah was against this empire. :: The Romans (Byzantines) || H: Sahih al-Bukhari
 The Companion called "the Sword of Allah" at Mu'tah. :: Khalid ibn al-Walid ﵁ || H: Sahih al-Bukhari
 On the day Makkah was opened, idols around the Ka'bah were this many. :: 360 || H: Sahih al-Bukhari
-Our Beloved Prophet ﷺ broke them saying: "Truth has come and" this has gone (meaning). :: Falsehood || H: Sahih al-Bukhari; Qur'an 17:81
+Our Beloved Prophet ﷺ broke the idols saying: "Truth has come and ___ has gone" (meaning). :: Falsehood || H: Sahih al-Bukhari; Qur'an 17:81
 The battle after the opening of Makkah, in a valley. :: Hunayn || H: Qur'an 9:25
 The long journey to Tabuk was in this year. :: 9 AH (630 CE) || H: Sahih al-Bukhari
 The Companion who gave a huge amount for the army of Tabuk. :: Our master 'Uthman ibn 'Affan ﵁ || H: Sunan al-Tirmidhi
@@ -158,7 +158,7 @@ Our master Abu Bakr ﵁ gave this much of his wealth for Tabuk. :: All of it || 
 The three Companions (رِضْوَانُ اللَّهِ عَلَيْهِمْ) who stayed behind from Tabuk and were forgiven. :: Ka'b ibn Malik, Murarah and Hilal (رِضْوَانُ اللَّهِ عَلَيْهِمْ) || H: Sahih al-Bukhari
 The year many tribes came to accept Islam is called this. :: The Year of Delegations || H: Ibn Hisham, al-Sirah
 At the Farewell Hajj, our Beloved Prophet ﷺ gave His ﷺ speech at this place. :: 'Arafah || H: Sahih Muslim
-In the Farewell Khutbah, our Beloved Prophet ﷺ said your blood and wealth are this, like this day. :: Sacred || H: Sahih Muslim
+In the Farewell Khutbah, our Beloved Prophet ﷺ said your blood and wealth are ___, like this day. :: Sacred || H: Sahih Muslim
 Our Beloved Master ﷺ told men to be good to these. :: Women (their wives) || H: Sahih Muslim
 Our Beloved Prophet ﷺ said He ﷺ left two things: the Book of Allah and this, in a famous report. :: My Sunnah (or my family, in other reports) || D: Reports differ (Muwatta' Malik; Sahih Muslim)
 Our Beloved Master ﷺ asked the people: "Have I conveyed?" They said yes, and He ﷺ said this (meaning). :: "O Allah, be witness" || H: Sahih Muslim
@@ -179,7 +179,7 @@ Our lady 'A'ishah ﵂ said our Beloved Prophet's ﷺ character was this. :: The 
 At home, our Beloved Prophet ﷺ used to do this for His ﷺ family. :: Help with the housework || H: Sahih al-Bukhari
 Our Beloved Prophet ﷺ never did this to food He ﷺ did not like. :: Criticise it (He ﷺ just left it) || H: Sahih al-Bukhari
 The tree trunk that cried when our Beloved Master ﷺ stopped leaning on it. :: The palm trunk (al-jidh') || H: Sahih al-Bukhari
-Water came out from between our Beloved Prophet's ﷺ fingers; this is called this. :: A miracle (mu'jizah) || H: Sahih al-Bukhari
+The name for a wonder like water coming out from between our Beloved Prophet's ﷺ fingers. :: A miracle (mu'jizah) || H: Sahih al-Bukhari
 At about 12, our Beloved Prophet ﷺ travelled to al-Sham with this uncle. :: Abu Talib || H: Sunan al-Tirmidhi
 The monk who saw signs of prophethood in our Beloved Prophet ﷺ, as a boy, on a trip to al-Sham. :: Bahira || H: Sunan al-Tirmidhi
 The pact of Quraysh to help the oppressed, which our Beloved Prophet ﷺ joined as a young man. :: Hilf al-Fudul || H: Ibn Hisham, al-Sirah
@@ -196,7 +196,7 @@ Our Beloved Prophet's ﷺ nurse from childhood, whom He ﷺ called "my mother af
 Our Beloved Prophet ﷺ was given a she-mule by this ruler of Egypt. :: al-Muqawqis || H: Ibn Sa'd, al-Tabaqat
 Our Beloved Prophet's ﷺ sword was called this. :: Dhu al-Fiqar || H: Sunan al-Tirmidhi
 The she-mule that al-Muqawqis gave our Beloved Prophet ﷺ was called this. :: Duldul || H: Ibn Sa'd, al-Tabaqat
-At Hunayn, our Beloved Master ﷺ called "I am the Prophet, no lie; I am the son of" this. :: 'Abd al-Muttalib || H: Sahih al-Bukhari
+At Hunayn, our Beloved Master ﷺ called "I am the Prophet, no lie; I am the son of ___". :: 'Abd al-Muttalib || H: Sahih al-Bukhari
 Our Beloved Prophet ﷺ was the grandson of 'Abd al-Muttalib, whose real name was this. :: Shaybah || H: Ibn Hisham, al-Sirah
 Our Beloved Prophet's ﷺ lineage: Muhammad ﷺ son of 'Abdullah son of 'Abd al-Muttalib son of this. :: Hashim || H: Sahih al-Bukhari
 Our lady 'A'ishah ﵂ said that when our Beloved Prophet ﷺ chose between two things, He ﷺ chose the this one, if it was not a sin. :: Easier || H: Sahih al-Bukhari
@@ -207,8 +207,8 @@ Our Beloved Prophet ﷺ let the Abyssinians play with these in the mosque while 
 Our Beloved Master ﷺ never refused when asked for something; He ﷺ said this word. :: No (He ﷺ never said no) || H: Sahih al-Bukhari
 Our Beloved Prophet ﷺ once gave a man a valley full of these. :: Sheep (between two mountains) || H: Sahih Muslim
 Our Beloved Prophet ﷺ ate sitting this way. :: Humbly (not leaning) || H: Sahih al-Bukhari
-Our Beloved Master ﷺ said: "I am only" this, who eats like a servant eats (meaning). :: A servant || D: Report in Musnad Abi Ya'la; graded variously
-Our Beloved Prophet ﷺ prayed until His ﷺ feet swelled, though Allah forgave Him ﷺ; He ﷺ said: "Should I not be" this (meaning). :: A thankful servant || H: Sahih al-Bukhari
+Our Beloved Master ﷺ said: "I am only ___", who eats like a servant eats (meaning). :: A servant || D: Report in Musnad Abi Ya'la; graded variously
+Our Beloved Prophet ﷺ prayed until His ﷺ feet swelled, though Allah forgave Him ﷺ; He ﷺ said: "Should I not be ___" (meaning). :: A thankful servant || H: Sahih al-Bukhari
 Our Beloved Prophet ﷺ cried when Ibn Mas'ud ﵁ read this verse about Him ﷺ being a witness. :: Qur'an 4:41 (Surah al-Nisa') || H: Sahih al-Bukhari
 Our Beloved Master ﷺ said the best of people are those of His ﷺ this, then those after them. :: Generation || H: Sahih al-Bukhari
 Our Beloved Prophet ﷺ said: "Do not curse my Companions"; even gold like this mountain given would not reach their handful (meaning). :: Uhud || H: Sahih al-Bukhari
@@ -236,7 +236,7 @@ Our Beloved Master ﷺ said the best of you are those who are best to these peop
 Our Beloved Prophet ﷺ said a smile to your brother is this. :: Charity (sadaqah) || H: Sunan al-Tirmidhi
 Our Beloved Prophet ﷺ was born in the year of the Elephant, about this year. :: 53 BH / 570 CE || H: Standard dating
 The leader of the elephant army that came to destroy the Ka'bah. :: Abrahah || H: Ibn Hisham, al-Sirah
-'Abd al-Muttalib told Abrahah: "I own the camels, and the House has" this (meaning). :: A Lord who will protect it || H: Ibn Hisham, al-Sirah
+'Abd al-Muttalib told Abrahah: "I own the camels, and the House has ___" (meaning). :: A Lord who will protect it || H: Ibn Hisham, al-Sirah
 Our Beloved Prophet's ﷺ chest was opened by angels ﵈ when He ﷺ was a child with this foster mother. :: Halimah ﵂ || H: Sahih Muslim
 The angels ﵈ washed our Beloved Prophet's ﷺ heart with this water. :: Zamzam || H: Sahih Muslim
 The "seal of prophethood" was found on this part of our Beloved Prophet's ﷺ body (meaning). :: Between His ﷺ shoulders || H: Sahih al-Bukhari
@@ -263,9 +263,9 @@ At Hudaybiyyah, our Beloved Prophet ﷺ was told to shave, and the Companions (�
 The wife who advised our Beloved Prophet ﷺ at Hudaybiyyah to shave and sacrifice first. :: Our lady Umm Salamah ﵂ || H: Sahih al-Bukhari
 The Muslims did the "fulfilled 'Umrah" in this year. :: 7 AH (629 CE) || H: Sahih al-Bukhari
 The Companion who was given the key of the Ka'bah to keep, and his family keep it to this day. :: 'Uthman ibn Talhah ﵁ || H: Ibn Hisham, al-Sirah; Qur'an 4:58
-Our Beloved Prophet ﷺ said "Whoever enters the house of" this man is safe, on the day of the opening (meaning). :: Abu Sufyan ﵁ || H: Sahih Muslim
+Our Beloved Prophet ﷺ said on the day of the opening: "Whoever enters the house of ___ is safe" (meaning). :: Abu Sufyan ﵁ || H: Sahih Muslim
 In His ﷺ last illness, our Beloved Master ﷺ asked to be nursed in the room of this wife. :: Our lady 'A'ishah ﵂ || H: Sahih al-Bukhari
 In His ﷺ last illness, our Beloved Prophet ﷺ asked this Companion to lead the prayer. :: Our master Abu Bakr ﵁ || H: Sahih al-Bukhari
-Our Beloved Prophet's ﷺ last words included: "The prayer, the prayer, and" this (meaning). :: Those your right hands possess (servants) || H: Sunan Abi Dawud
-At the very end, our Beloved Prophet ﷺ said: "with the highest" this (meaning). :: Companion (al-Rafiq al-A'la) || H: Sahih al-Bukhari
-Our master Abu Bakr ﵁ said: "Whoever worshipped Muhammad ﷺ, Muhammad ﷺ has died; whoever worshipped Allah," this (meaning). :: Allah is alive and does not die || H: Sahih al-Bukhari
+Our Beloved Prophet's ﷺ last words included: "The prayer, the prayer, and ___" (meaning). :: Those your right hands possess (servants) || H: Sunan Abi Dawud
+At the very end, our Beloved Prophet ﷺ said: "with the highest ___" (meaning). :: Companion (al-Rafiq al-A'la) || H: Sahih al-Bukhari
+Our master Abu Bakr ﵁ said: "Whoever worshipped Muhammad ﷺ, Muhammad ﷺ has died; whoever worshipped Allah, ___" (meaning). :: Allah is alive and does not die || H: Sahih al-Bukhari
