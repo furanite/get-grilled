@@ -900,6 +900,15 @@ html[data-set="islamic"] .q{line-height:1.6}
 /* Fun extras: special tiles, streaks, comeback, themed nights, lightning round and final question */
 .pill.steal{background:var(--accent2);border-color:var(--accent2);color:var(--bg)}
 .pill.crowd{border-style:dashed}
+.tile-intro{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:18px;text-align:center;padding:12px 8px;animation:introPop .5s var(--spring) both}
+.tile-intro-item{display:flex;flex-direction:column;align-items:center;gap:8px;max-width:34em}
+.tile-intro-item b{font-family:var(--fd);letter-spacing:var(--track);font-size:clamp(28px,5vw,46px);line-height:1.1;color:var(--accent2)}
+.tile-intro-item.golden b{color:var(--accent);text-shadow:0 0 24px var(--glow)}
+.tile-intro-item.crowd b{color:var(--accent)}
+.tile-intro-item p{margin:0;font-size:clamp(15px,2vw,19px);color:var(--text)}
+.tile-intro.big .tile-intro-item b{font-size:clamp(40px,7vw,84px)}
+.tile-intro.big .tile-intro-item p{font-size:clamp(20px,2.6vw,32px)}
+@keyframes introPop{from{opacity:0;transform:scale(.85)}to{opacity:1;transform:none}}
 .special-note{margin:0;padding:8px 12px;border-radius:10px;font-size:14px;border:1px solid color-mix(in oklab,var(--accent2) 50%,transparent);background:color-mix(in oklab,var(--accent2) 10%,transparent)}
 .special-note.crowd{border-color:color-mix(in oklab,var(--accent) 50%,transparent);background:color-mix(in oklab,var(--accent) 8%,transparent)}
 .steal-pick{display:flex;flex-direction:column;gap:8px;padding:10px 12px;border-radius:12px;border:1px solid var(--accent2);background:color-mix(in oklab,var(--accent2) 10%,transparent)}

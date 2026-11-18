@@ -19,4 +19,6 @@ export interface Live {
   revealed: boolean
   /** The clue's countdown, so the projector shows the same sliding timer as the host. */
   clock?: Clock | null
+  /** A Golden, Steal or Audience tile is still saying what it is; the question is not shown yet. */
+  intro?: boolean
 }

@@ -8,6 +8,7 @@ import type { Strings } from '../lib/i18n'
 import { num } from '../lib/i18n'
 import { FINAL_SECS, FINAL_VALUE, LIGHTNING_SECS, MODE_VALUE, STREAK_AT, clueSeconds, cluePoints, cluesOf, isFinished, lastPlace, standings, tileKey } from '../lib/game'
 import { ModeItemView } from './Rounds'
+import TileIntro from './TileIntro'
 import { ISLAMIC_SET, appName, type Live } from '../lib/edition'
 import { setFavicon } from '../lib/favicon'
 import { Ambient, CatIcon, Flourish, FlourishAbove, Mark } from './Brand'
@@ -355,7 +356,7 @@ function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings;
       </section>
       {clue && cat && (
         <div className="aud-clue" data-testid="audience-clue" key={tileKey(live!.c, live!.l)}>
-          <FitBox className={`aud-card${clue.golden ? ' golden' : ''}${cat.respect ? ' calm' : ''}`} deps={[live!.c, live!.l, live!.revealed, lang]}>
+          <FitBox className={`aud-card${clue.golden ? ' golden' : ''}${cat.respect ? ' calm' : ''}`} deps={[live!.c, live!.l, live!.revealed, live!.intro, lang]}>
             <div className="meta">
               <span className="meta-cat"><CatIcon id={cat.id} />{lang === 'ar' && cat.nameAr ? cat.nameAr : cat.name}</span>
               <span className="row">
@@ -365,25 +366,30 @@ function AudienceView({ t, lang, theme, screen, game, live, win }: { t: Strings;
                 <span className="pill">{num(clue.value, lang)}</span>
               </span>
             </div>
-            {clue.special && <p className={`special-note ${clue.special}`}>{clue.special === 'steal' ? t.stealHelp : t.crowdHelp}</p>}
-            <p className="q" dir="auto" data-len={qLen(lang === 'ar' && clue.qAr ? clue.qAr : clue.q)} data-testid="audience-question">
-              {lang === 'ar' && clue.qAr ? clue.qAr : clue.q}
-            </p>
-            {clue.img && (
-            <div className="q-fig">
-              <img className={`q-img${clue.credit ? ' photo' : ''}`} src={diagramSrc(clue.img)} alt={t.diagramAlt} data-testid="audience-img" />
-              {clue.credit && <p className="q-credit">{clue.credit}</p>}
-            </div>
-          )}
-            {live!.revealed ? (
-              <div className="answer show" dir="auto" data-len={(lang === 'ar' && clue.aAr ? clue.aAr : clue.a).length > 60 ? 'l' : undefined} data-testid="audience-answer">
-                {lang === 'ar' && clue.aAr ? clue.aAr : clue.a}
-                <Source t={t} q={clue} />
-              </div>
+            {live!.intro ? (
+              <TileIntro t={t} clue={clue} big />
             ) : (
-              <div className="answer aud-hidden" aria-hidden="true" />
+              <>
+                <p className="q" dir="auto" data-len={qLen(lang === 'ar' && clue.qAr ? clue.qAr : clue.q)} data-testid="audience-question">
+                  {lang === 'ar' && clue.qAr ? clue.qAr : clue.q}
+                </p>
+                {clue.img && (
+                <div className="q-fig">
+                  <img className={`q-img${clue.credit ? ' photo' : ''}`} src={diagramSrc(clue.img)} alt={t.diagramAlt} data-testid="audience-img" />
+                  {clue.credit && <p className="q-credit">{clue.credit}</p>}
+                </div>
+              )}
+                {live!.revealed ? (
+                  <div className="answer show" dir="auto" data-len={(lang === 'ar' && clue.aAr ? clue.aAr : clue.a).length > 60 ? 'l' : undefined} data-testid="audience-answer">
+                    {lang === 'ar' && clue.aAr ? clue.aAr : clue.a}
+                    <Source t={t} q={clue} />
+                  </div>
+                ) : (
+                  <div className="answer aud-hidden" aria-hidden="true" />
+                )}
+              </>
             )}
-            {clueSeconds(game.settings, live!.l, clue) > 0 && <TimerBar clock={live!.clock ?? null} total={clueSeconds(game.settings, live!.l, clue)} lang={lang} timeUpText={t.timeUp} big />}
+            {!live!.intro && clueSeconds(game.settings, live!.l, clue) > 0 && <TimerBar clock={live!.clock ?? null} total={clueSeconds(game.settings, live!.l, clue)} lang={lang} timeUpText={t.timeUp} big />}
           </FitBox>
         </div>
       )}

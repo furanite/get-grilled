@@ -23,6 +23,7 @@ async function hostPage() {
   await ctx.addInitScript(() => localStorage.setItem('gg.consent.v1', JSON.stringify({ version: '1.3', date: '2026-11-11T00:00:00Z' })))
   await ctx.addInitScript(() => localStorage.setItem('gg.tipsSeen.ilm.v1', 'true'))
   const page = await ctx.newPage()
+  await page.addLocatorHandler(page.getByTestId('intro-next'), async (b) => b.click(), { noWaitAfter: true })
   page.errors = []
   page.on('pageerror', (e) => page.errors.push(e.message))
   page.on('console', (m) => m.type() === 'error' && page.errors.push(m.text()))
