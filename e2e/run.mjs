@@ -28,10 +28,12 @@ async function test(name, fn) {
 function assert(c, msg) { if (!c) throw new Error(msg) }
 
 async function newPage(opts = {}) {
-  const { noConsent, keepIntro, ...ctxOpts } = opts
+  const { noConsent, keepIntro, freshTips, ...ctxOpts } = opts
   const ctx = await browser.newContext({ viewport: { width: 1280, height: 860 }, ...ctxOpts })
   // Most tests start as a player who has already accepted the current Terms.
   if (!noConsent) await ctx.addInitScript(() => { if (!localStorage.getItem('gg.consent.v1')) localStorage.setItem('gg.consent.v1', JSON.stringify({ version: '1.2', date: '2026-11-10T00:00:00Z' })) })
+  // The study tips pop-up shows once; most tests start as someone who has already closed it.
+  if (!freshTips) await ctx.addInitScript(() => localStorage.setItem('gg.tipsSeen.v1', 'true'))
   const page = await ctx.newPage()
   // Golden, Steal and Audience tiles first say what they are; most tests just press Next straight away.
   if (!keepIntro) await page.addLocatorHandler(page.getByTestId('intro-next'), async (b) => b.click(), { noWaitAfter: true })
@@ -816,6 +818,63 @@ try {
     await page.waitForSelector('.toast')
     assert(await page.locator('[data-bgroup="custom"] .cat-item').count() === 2, 'builder import of a study file failed')
     await page.context().close()
+  })
+
+  await test('study tips: first-time visitors see them once, after the Terms', async () => {
+    const page = await newPage({ noConsent: true, freshTips: true })
+    await page.goto(URL)
+    await page.waitForSelector('[data-testid="consent"]')
+    assert(await page.getByTestId('tips').count() === 0, 'tips must wait for the Terms')
+    await page.getByTestId('consent-agree').check()
+    await page.getByTestId('consent-accept').click()
+    await page.waitForSelector('[data-testid="tips"]')
+    const text = await page.textContent('[data-testid="tips"]')
+    assert(text.includes('question file') && text.includes('Open a file'), 'tips should explain question files')
+    await page.screenshot({ path: `${SHOTS}/tips.png` })
+    await page.getByTestId('tips-close').click()
+    assert(await page.getByTestId('tips').count() === 0, 'tips did not close')
+    await page.reload()
+    await page.waitForSelector('.logo-title')
+    await page.waitForTimeout(400)
+    assert(await page.getByTestId('tips').count() === 0, 'tips came back after being closed')
+    await page.context().close()
+    // "Open question files" goes straight to the question files screen
+    const p2 = await newPage({ freshTips: true })
+    await p2.goto(URL)
+    await p2.getByTestId('tips-files').click()
+    await p2.waitForSelector('[data-testid="study"]')
+    await p2.context().close()
+  })
+
+  await test('rules: the Rules button on the title screen explains the game', async () => {
+    const page = await newPage()
+    await page.goto(URL)
+    await page.getByTestId('rules-btn').click()
+    await page.waitForSelector('[data-testid="rules"]')
+    const text = await page.textContent('[data-testid="rules"]')
+    for (const w of ['Golden tile', 'Steal', 'Lightning round', 'Final question', 'random team picks first']) assert(text.includes(w), 'rules miss: ' + w)
+    await page.screenshot({ path: `${SHOTS}/rules.png` })
+    await page.keyboard.press('Escape')
+    assert(await page.getByTestId('rules').count() === 0, 'Esc did not close the rules')
+    await page.getByTestId('rules-btn').click()
+    await page.getByTestId('rules-tips').click()
+    await page.waitForSelector('[data-testid="tips"]')
+    await page.getByTestId('tips-close').click()
+    // Only on the title screen
+    await page.getByRole('button', { name: /new game/i }).click()
+    await page.waitForSelector('.cat-pick')
+    assert(await page.getByTestId('rules-btn').count() === 0, 'Rules button should only be on the title screen')
+    // On a phone it opens and scrolls inside the window
+    await page.context().close()
+    const ph = await newPage({ viewport: { width: 390, height: 760 } })
+    await ph.goto(URL)
+    await ph.getByTestId('rules-btn').click()
+    await ph.waitForSelector('[data-testid="rules"]')
+    const box = await ph.locator('[data-testid="rules"]').boundingBox()
+    assert(box.width <= 390 && box.height <= 760, 'rules window larger than the phone screen')
+    assert(await ph.evaluate(() => document.documentElement.scrollWidth) <= 390, 'page scrolls sideways')
+    await ph.screenshot({ path: `${SHOTS}/rules-phone.png` })
+    await ph.context().close()
   })
 
   await test('builder: Back sits at the top and stays on screen after scrolling', async () => {

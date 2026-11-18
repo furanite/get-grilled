@@ -12,6 +12,7 @@ const KEYS = {
   consent: 'gg.consent.v1',
   pools: 'gg.pools.v1',
   studyDraft: 'gg.studyDraft.v1',
+  tipsSeen: 'gg.tipsSeen.v1',
 }
 
 function load<T>(key: string, fallback: T): T {
@@ -84,6 +85,10 @@ export function cleanCategories(raw: unknown): Category[] {
 }
 export const loadCustom = (): Category[] => cleanCategories(load<unknown>(KEYS.custom, []))
 export const saveCustom = (cats: Category[]) => save(KEYS.custom, cats)
+
+/** Whether this browser has already seen the study tips (shown once, after the Terms). Nothing else is kept. */
+export const tipsSeen = (): boolean => load<unknown>(KEYS.tipsSeen, false) === true
+export const saveTipsSeen = () => save(KEYS.tipsSeen, true)
 
 /** The question file an instructor is working on, kept so closing the page does not lose it. */
 export const loadStudyDraft = (): StudyDraft | null => cleanDraft(load<unknown>(KEYS.studyDraft, null))

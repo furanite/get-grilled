@@ -1,5 +1,5 @@
 import type { ThemeId } from './types'
-import { renderFx, renderSuspense, renderTitle, ROLL_SECONDS, setSoundBase } from './tune-engine.js'
+import { renderFx, renderIntro, renderSuspense, renderTitle, ROLL_SECONDS, setSoundBase } from './tune-engine.js'
 
 /**
  * Most sounds are made in the browser with Web Audio. The title tunes and a few effects also use recorded
@@ -263,6 +263,44 @@ function oldTune(c: AudioContext, theme: ThemeId, bus: GainNode, via: AudioNode)
   for (const [m, t, d] of tune.notes) tune.voice(c, m, 0.15 + t, d ?? 1.5, undefined, bus)
   // A quiet pad underneath
   for (const m of tune.pad) tone(c, { f: hz(m), t: 0.1, d: 5.6, g: 0.035, a: 1.2, type: 'triangle', lp: 900, out: bus })
+}
+
+// ---- Team introductions: each team's own cue, timed to its animation (approved by the owner 2026-11-18) ----
+
+const intros = new Map<string, Promise<AudioBuffer | null>>()
+function introBuf(theme: ThemeId, team: number, members: number) {
+  const key = `${theme}-${team % 4}-${members}`
+  if (!intros.has(key)) intros.set(key, typeof OfflineAudioContext === 'undefined' ? Promise.resolve(null) : renderIntro(theme, team, members).catch(() => null))
+  return intros.get(key)!
+}
+/** Makes every team's introduction sound in the background, so each is ready when its team comes up. */
+export function prepareIntros(theme: ThemeId, members: number[]) {
+  if (!enabled) return
+  members.forEach((n, i) => introBuf(theme, i, Math.min(5, n)))
+}
+/**
+ * Plays the introduction sound for team `team` (its own version in this theme).
+ * If the sound is not ready in time it is skipped, so it never lands out of step with the animation.
+ */
+export function introSound(theme: ThemeId, team: number, members: number) {
+  if (!enabled) return
+  const c = audio()
+  if (!c) return
+  stopTune()
+  const bus = c.createGain()
+  bus.gain.value = 1
+  bus.connect(c.destination)
+  tuneBus = bus
+  const asked = c.currentTime
+  introBuf(theme, team, Math.min(5, members)).then((buf) => {
+    if (tuneBus !== bus || !buf) return
+    const late = c.currentTime - asked
+    if (late > 1) return
+    const src = c.createBufferSource()
+    src.buffer = buf
+    src.connect(bus)
+    src.start(c.currentTime + 0.02)
+  })
 }
 
 /** Fades the title tune out, for example when the host leaves the title screen. */
