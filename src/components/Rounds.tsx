@@ -4,6 +4,7 @@ import type { Strings } from '../lib/i18n'
 import { num } from '../lib/i18n'
 import { FINAL_SECS, FINAL_VALUE, LIGHTNING_SECS, LIGHTNING_VALUE, MODE_VALUE, cluePoints, cluesOf, oddItems, score } from '../lib/game'
 import { diagramSrc } from '../lib/diagram'
+import { photoCredit } from '../lib/photos'
 import { HOST_EDITION } from '../lib/edition'
 import { TimerBar } from './Timer'
 import { CatIcon } from './Brand'
@@ -290,7 +291,8 @@ export function ModeItemView({ t, mode, item, shown }: { t: Strings; mode: Round
       {item.cat && <span className="label mode-cat">{item.cat}</span>}
       {mode === 'picture' && item.img && (
         <div className="mode-pic">
-          <img className="q-img" src={diagramSrc(item.img)} alt={t.diagramAlt} data-testid="mode-img" />
+          <img className={`q-img${photoCredit(item.img) ? ' photo' : ''}`} src={diagramSrc(item.img)} alt={t.diagramAlt} data-testid="mode-img" />
+          {photoCredit(item.img) && <p className="q-credit">{photoCredit(item.img)}</p>}
         </div>
       )}
       {mode === 'clues' ? (

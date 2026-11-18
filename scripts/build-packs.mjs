@@ -38,6 +38,16 @@ export function verdictOf(a) {
   return null
 }
 
+// Credits for the photos in questions/img (file name -> "Photo: author, licence, Wikimedia Commons").
+let creditsCache
+export function photoCredits() {
+  if (!creditsCache) {
+    const p = join(srcDir, 'img', 'credits.json')
+    creditsCache = existsSync(p) ? JSON.parse(readFileSync(p, 'utf8')) : {}
+  }
+  return creditsCache
+}
+
 export function parsePack(text, file = 'pack') {
   const errors = []
   const meta = {}
@@ -74,6 +84,8 @@ export function parsePack(text, file = 'pack') {
       img = `packs/img/${im[1]}`
       q = q.slice(0, im.index).trim()
       if (!existsSync(join(srcDir, 'img', im[1]))) errors.push(`${at} picture ${img} not found`)
+      // Photos come from Wikimedia Commons under free licences; each needs its credit in questions/img/credits.json.
+      else if (im[1].endsWith('.jpg') && !photoCredits()[im[1]]) errors.push(`${at} photo ${im[1]} has no credit in questions/img/credits.json`)
     } else if (/\{img:/.test(q)) errors.push(`${at} picture must be written {img:name.svg} at the end of the clue`)
     if (!q || !a) { errors.push(`${at} empty clue or answer`); return }
     if (mode) {

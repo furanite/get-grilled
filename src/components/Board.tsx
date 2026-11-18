@@ -13,6 +13,7 @@ import { burst, burstAt, reducedMotion } from '../lib/fx'
 import { CONSENT_TEXT } from '../lib/legal'
 import { HOST_EDITION, type Live } from '../lib/edition'
 import { diagramSrc } from '../lib/diagram'
+import { photoCredit } from '../lib/photos'
 import { GameClock, TimerBar, type Clock } from './Timer'
 import { clockStart, clockStop, drumRoll, prepareSuspense, sfx } from '../lib/sound'
 
@@ -458,7 +459,8 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
             <p className="q" data-testid="question" dir="auto">{q}</p>
             {clue.img && (
               <div className="q-fig">
-                <img className="q-img" src={diagramSrc(clue.img)} alt={t.diagramAlt} data-testid="question-img" />
+                <img className={`q-img${photoCredit(clue.img) ? ' photo' : ''}`} src={diagramSrc(clue.img)} alt={t.diagramAlt} data-testid="question-img" />
+                {photoCredit(clue.img) && <p className="q-credit" data-testid="photo-credit">{photoCredit(clue.img)}</p>}
               </div>
             )}
             <div className={`answer${revealed ? ' show' : HOST_EDITION ? ' peek' : ''}`} dir="auto" id="answer" aria-hidden={!revealed && !HOST_EDITION} data-peek={t.hostOnly} data-testid="answer">
