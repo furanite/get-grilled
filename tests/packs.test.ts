@@ -85,3 +85,16 @@ describe('built-in question files', () => {
     })
   }
 })
+
+describe('picture nights', () => {
+  it('every level of every category in a picture night has at least one picture question', () => {
+    const nights = JSON.parse(readFileSync(join(dir, 'nights.json'), 'utf8')) as { id: string; cats: string[]; pictures?: boolean }[]
+    const pic = nights.filter((n) => n.pictures)
+    expect(pic.length).toBeGreaterThan(0)
+    for (const n of pic)
+      for (const c of n.cats) {
+        const { levels } = parsePack(readFileSync(join(dir, `${c}.txt`), 'utf8'), `${c}.txt`)
+        levels.forEach((l: { img?: string }[], i: number) => expect(l.some((q) => q.img), `${n.id}: ${c} level ${i + 1} has no picture`).toBe(true))
+      }
+  })
+})

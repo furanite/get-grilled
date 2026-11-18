@@ -18,6 +18,7 @@ import type { Live } from '../lib/edition'
 import { setFavicon } from '../lib/favicon'
 import { Ambient, CatIcon, Flourish, FlourishAbove, Mark } from './Brand'
 import { diagramSrc } from '../lib/diagram'
+import { photoCredit } from '../lib/photos'
 import { GameClock, TimerBar } from './Timer'
 
 /**
@@ -413,7 +414,8 @@ export function AudienceView({ t, lang, theme, screen, game, live, vote, win, no
                 </p>
                 {clue.img && (
                 <div className="q-fig">
-                  <img className="q-img" src={diagramSrc(clue.img)} alt={t.diagramAlt} data-testid="audience-img" />
+                  <img className={`q-img${photoCredit(clue.img) ? ' photo' : ''}`} src={diagramSrc(clue.img)} alt={t.diagramAlt} data-testid="audience-img" />
+                {photoCredit(clue.img) && <p className="q-credit" data-testid="photo-credit">{photoCredit(clue.img)}</p>}
                 </div>
               )}
                 {live!.revealed ? (

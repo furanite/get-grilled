@@ -1,4 +1,10 @@
 import type { Lang } from './types'
+import photos from '../../questions/img/credits-full.json'
+
+/** One line per photo: what it shows, author, licence and source page on Wikimedia Commons. */
+const photoLines = Object.values(photos as Record<string, { what: string; author: string; license: string; source: string }>).map(
+  (p) => `${p.what}: ${p.author}, ${p.license}, ${p.source}`,
+)
 
 /**
  * Owner details shown in the Terms, the Privacy Notice and the footer.
@@ -11,7 +17,7 @@ export const LEGAL = {
   effectiveAr: '18 نوفمبر 2026',
   year: 2026,
   /** Change this whenever the Terms or Privacy Notice change: everyone is asked to accept again. */
-  termsVersion: '1.2',
+  termsVersion: '1.3',
 }
 
 export interface Clause {
@@ -63,6 +69,11 @@ const termsEn: LegalDoc = {
     { title: '17. Severability and language.', body: ["If any part of these Terms can't be enforced, the rest stays in effect. These Terms are provided in Arabic and English. If they differ, the Arabic version prevails."] },
     { title: '18. Questions about content.', body: ['Questions about a question or content? Tell your game host.'] },
     { title: '19. Sound credits.', body: ['The recorded instrument notes in the title tunes and in some game sounds (such as the wrong-answer sound) come from three sources. Horn, trombone, tuba, violin, cello, timpani, and bass drum notes come from the Versilian Studios VSCO 2 Community Edition library, and woodblock and claves from the Versilian Community Sample Library (VCSL); both are public domain (CC0). Trumpet, harp, xylophone, and piano notes come from the tonejs-instruments collection by Nicholaus Brosowsky (nbrosowsky, github.com/nbrosowsky/tonejs-instruments), licensed under Creative Commons Attribution 3.0 (CC BY 3.0, creativecommons.org/licenses/by/3.0). We trimmed, faded, and converted these notes to MP3 and arranged them into new pieces. All other sounds are made by the Game itself.'] },
+    {
+      title: '20. Photo credits.',
+      body: ['The landmark photos come from Wikimedia Commons. Each is used under the licence shown, and was resized. Photos under a CC BY-SA licence stay under that licence. They are not owned by us and clause 12 does not apply to them.'],
+      list: photoLines,
+    },
   ],
 }
 
@@ -99,6 +110,11 @@ const termsAr: LegalDoc = {
     { title: '17. قابلية الفصل واللغة.', body: ['إذا تعذّر تطبيق أي جزء من هذه الشروط، يبقى الباقي ساريًا. وتقدَّم هذه الشروط باللغتين العربية والإنجليزية، وعند الاختلاف يُعتمد النص العربي.'] },
     { title: '18. الاستفسار عن المحتوى.', body: ['هل لديك استفسار عن سؤال أو محتوى؟ أخبر مقدّم اللعبة.'] },
     { title: '19. مصادر الأصوات.', body: ['النغمات المسجّلة للآلات في ألحان الافتتاح وفي بعض أصوات اللعبة (مثل صوت الإجابة الخاطئة) مأخوذة من ثلاثة مصادر. فنغمات البوق الفرنسي والترومبون والتوبا والكمان والتشيلو والطبول التيمباني والطبل الكبير من مكتبة VSCO 2 Community Edition من Versilian Studios، ونغمات الكتلة الخشبية والكلافيس من مكتبة Versilian Community Sample Library (VCSL)، وكلتاهما ملكية عامة (CC0). ونغمات الترومبيت والقيثارة والإكسيليفون والبيانو من مجموعة tonejs-instruments من إعداد Nicholaus Brosowsky (nbrosowsky، github.com/nbrosowsky/tonejs-instruments) بموجب رخصة المشاع الإبداعي – نسب المصنف 3.0 (CC BY 3.0، creativecommons.org/licenses/by/3.0). وقد قصصنا هذه النغمات وخففناها تدريجيًا وحوّلناها إلى MP3 ورتبناها في مقطوعات جديدة. أما بقية الأصوات فتصنعها اللعبة بنفسها.'] },
+    {
+      title: '20. مصادر الصور.',
+      body: ['صور المعالم مأخوذة من ويكيميديا كومنز، وكل صورة مستخدمة بالترخيص المذكور بجانبها بعد تصغير حجمها. الصور المرخّصة بترخيص CC BY-SA تبقى بذلك الترخيص. هذه الصور ليست ملكًا لنا ولا ينطبق عليها البند 12.'],
+      list: photoLines,
+    },
   ],
 }
 

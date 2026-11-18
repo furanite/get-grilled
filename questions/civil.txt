@@ -522,3 +522,6 @@ Saudi Arabia's East–West crude pipeline runs from Abqaiq to this Red Sea port.
 The Panama Canal opened in this year. :: 1914
 The main span of the Brooklyn Bridge, roughly. :: About 486 m
 The Eiffel Tower's original height, roughly. :: About 300 m
+This bending moment diagram is for a simply supported beam. What loading gives a triangle that peaks at midspan? {img:bmd-point.svg} :: A single point load at midspan (largest moment PL/4)
+A simply supported beam has this parabolic bending moment diagram. What loading causes it? {img:bmd-udl.svg} :: A uniformly distributed load (largest moment wL²/8)
+Name this graphical method for finding principal stresses σ₁ and σ₂. {img:mohr-circle.svg} :: Mohr's circle

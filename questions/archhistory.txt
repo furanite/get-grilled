@@ -10,34 +10,34 @@ A drawing of one face of a building. :: An elevation
 A drawing of a building as if cut through. :: A section
 A small model of a building. :: A scale model (maquette)
 The ancient Egyptian tombs at Giza. :: The pyramids
-Name this ancient Egyptian landmark. {img:lm-pyramids.svg} :: The Pyramids of Giza
-Name this Greek temple in Athens. {img:lm-parthenon.svg} :: The Parthenon
+Name this ancient Egyptian landmark. {img:lm-pyramids.jpg} :: The Pyramids of Giza
+Name this Greek temple in Athens. {img:lm-parthenon.jpg} :: The Parthenon
 The Parthenon stands on this hill in Athens. :: The Acropolis
-Name this Roman amphitheatre. {img:lm-colosseum.svg} :: The Colosseum
+Name this Roman amphitheatre. {img:lm-colosseum.jpg} :: The Colosseum
 The Colosseum is in this city. :: Rome
-Name this tower famous for leaning. {img:lm-pisa.svg} :: The Leaning Tower of Pisa
-Name this Paris tower built for the 1889 World's Fair. {img:lm-eiffel.svg} :: The Eiffel Tower
-Name this glass pyramid in front of a Paris museum. {img:lm-louvre-pyramid.svg} :: The Louvre Pyramid
-Name this opera house with sail-like roofs. {img:lm-sydney-opera.svg} :: The Sydney Opera House
-Name this world's tallest building. {img:lm-burj-khalifa.svg} :: Burj Khalifa
+Name this tower famous for leaning. {img:lm-pisa.jpg} :: The Leaning Tower of Pisa
+Name this Paris tower built for the 1889 World's Fair. {img:lm-eiffel.jpg} :: The Eiffel Tower
+Name this glass pyramid in front of a Paris museum. {img:lm-louvre-pyramid.jpg} :: The Louvre Pyramid
+Name this opera house with sail-like roofs. {img:lm-sydney-opera.jpg} :: The Sydney Opera House
+Name this world's tallest building. {img:lm-burj-khalifa.jpg} :: Burj Khalifa
 Burj Khalifa is in this city. :: Dubai
-Name this Riyadh tower with an arch-shaped opening near the top. {img:lm-kingdom-centre.svg} :: Kingdom Centre
-Name this Riyadh tower with a glass ball near the top. {img:lm-al-faisaliah.svg} :: Al Faisaliah Tower
-Name this ancient stone circle in England. {img:lm-stonehenge.svg} :: Stonehenge
-Name this New York skyscraper finished in 1931. {img:lm-empire-state.svg} :: The Empire State Building
-Name this triumphal arch in Paris. {img:lm-arc-de-triomphe.svg} :: The Arc de Triomphe
-Name this Berlin gate. {img:lm-brandenburg-gate.svg} :: The Brandenburg Gate
-Name this Mayan pyramid in Mexico. {img:lm-chichen-itza.svg} :: El Castillo (Chichén Itzá)
-Name this London clock tower. {img:lm-big-ben.svg} :: Big Ben (the Elizabeth Tower)
-Name this curved stainless steel arch in St Louis. {img:lm-gateway-arch.svg} :: The Gateway Arch
-Name this London bridge with two towers. {img:lm-tower-bridge.svg} :: Tower Bridge
-Name these twin towers in Kuala Lumpur. {img:lm-petronas.svg} :: The Petronas Towers
-Name this sail-shaped hotel in Dubai. {img:lm-burj-al-arab.svg} :: Burj Al Arab
-Name this Singapore hotel with a ship-like roof on three towers. {img:lm-marina-bay-sands.svg} :: Marina Bay Sands
-Name this picture-frame-shaped landmark. {img:lm-dubai-frame.svg} :: The Dubai Frame
-Name this Kuwaiti landmark with spheres on towers. {img:lm-kuwait-towers.svg} :: The Kuwait Towers
-Name this pointed glass skyscraper in London. {img:lm-shard.svg} :: The Shard
-Name this Brussels building shaped like an iron crystal. {img:lm-atomium.svg} :: The Atomium
+Name this Riyadh tower with an arch-shaped opening near the top. {img:lm-kingdom-centre.jpg} :: Kingdom Centre
+Name this Riyadh tower with a glass ball near the top. {img:lm-al-faisaliah.jpg} :: Al Faisaliah Tower
+Name this ancient stone circle in England. {img:lm-stonehenge.jpg} :: Stonehenge
+Name this New York skyscraper finished in 1931. {img:lm-empire-state.jpg} :: The Empire State Building
+Name this triumphal arch in Paris. {img:lm-arc-de-triomphe.jpg} :: The Arc de Triomphe
+Name this Berlin gate. {img:lm-brandenburg-gate.jpg} :: The Brandenburg Gate
+Name this Mayan pyramid in Mexico. {img:lm-chichen-itza.jpg} :: El Castillo (Chichén Itzá)
+Name this London clock tower. {img:lm-big-ben.jpg} :: Big Ben (the Elizabeth Tower)
+Name this curved stainless steel arch in St Louis. {img:lm-gateway-arch.jpg} :: The Gateway Arch
+Name this London bridge with two towers. {img:lm-tower-bridge.jpg} :: Tower Bridge
+Name these twin towers in Kuala Lumpur. {img:lm-petronas.jpg} :: The Petronas Towers
+Name this sail-shaped hotel in Dubai. {img:lm-burj-al-arab.jpg} :: Burj Al Arab
+Name this Singapore hotel with a ship-like roof on three towers. {img:lm-marina-bay-sands.jpg} :: Marina Bay Sands
+Name this picture-frame-shaped landmark. {img:lm-dubai-frame.jpg} :: The Dubai Frame
+Name this Kuwaiti landmark with spheres on towers. {img:lm-kuwait-towers.jpg} :: The Kuwait Towers
+Name this pointed glass skyscraper in London. {img:lm-shard.jpg} :: The Shard
+Name this Brussels building shaped like an iron crystal. {img:lm-atomium.jpg} :: The Atomium
 Name this type of arch. {img:arch-round.svg} :: A round (semicircular) arch
 Name this type of arch, typical of Gothic buildings. {img:arch-pointed.svg} :: A pointed arch
 Name this type of column, the plainest Greek order. {img:col-doric.svg} :: Doric
@@ -77,7 +77,7 @@ The Mughal emperor who built the Taj Mahal. :: Shah Jahan
 The Great Wall is in this country. :: China
 The ancient city carved into rose-red rock in Jordan. :: Petra
 The ancient Nabataean tombs in Saudi Arabia, carved into rock at Al-'Ula. :: Hegra (Mada'in Salih)
-Name this landmark in Jeddah, the world's tallest fountain. {img:lm-jeddah-fountain.svg} :: King Fahd's Fountain
+Name this landmark in Jeddah, the world's tallest fountain. {img:lm-jeddah-fountain.jpg} :: King Fahd's Fountain
 The material made of cement, water, sand and gravel. :: Concrete
 Concrete with steel bars inside. :: Reinforced concrete
 Bricks made of mud dried in the sun. :: Adobe (mud brick)

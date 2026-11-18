@@ -518,3 +518,6 @@ The bit operation that tests whether a positive integer n is a power of two: n A
 The bit operation that swaps two integers without a temporary variable, used three times. :: XOR
 The algorithm that counts set bits by repeatedly clearing the lowest one is named after this computer scientist. :: Brian Kernighan
 The data structure with operations "find" and "union" has this amortised cost per operation with both optimisations, written with the Greek letter alpha. :: O(α(n))
+Which single rotation balances this AVL tree? {img:avl-left-left.svg} :: A right rotation at 30 (the root), making 20 the new root
+Every node in this self-balancing search tree is coloured red or black. What kind of tree is it? {img:red-black-tree.svg} :: Red-black tree
+Give a topological order of this directed graph. {img:dag.svg} :: A, B, C, D, E (B and C may swap)

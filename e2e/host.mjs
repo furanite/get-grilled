@@ -21,7 +21,7 @@ function assert(c, msg) { if (!c) throw new Error(msg) }
 const browser = await chromium.launch()
 async function hostPage() {
   const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 } })
-  await ctx.addInitScript(() => localStorage.setItem('gg.consent.v1', JSON.stringify({ version: '1.2', date: '2026-11-10T00:00:00Z' })))
+  await ctx.addInitScript(() => localStorage.setItem('gg.consent.v1', JSON.stringify({ version: '1.3', date: '2026-11-10T00:00:00Z' })))
   await ctx.addInitScript(() => localStorage.setItem('gg.tipsSeen.v1', 'true'))
   const page = await ctx.newPage()
   await page.addLocatorHandler(page.getByTestId('intro-next'), async (b) => b.click(), { noWaitAfter: true })
