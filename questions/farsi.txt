@@ -124,7 +124,7 @@ The Persian word "chess" comes from "shah", and "shah mat" means this. :: The ki
 The Persian word "bazar" means this. :: Market
 The Persian word "caravan" first meant this. :: A group of travellers (with camels)
 The Persian word "pardis" (paradise) first meant this. :: A walled garden
-The Persian carpet word "farsh" means this. :: Carpet (floor covering)
+The Persian word 'farsh' means this. :: Carpet (floor covering)
 The famous Persian carpets come from this country. :: Iran
 The Persian letter "pe" (پ) is not in this language's alphabet. :: Arabic
 The four letters Persian added to the Arabic alphabet. :: Pe, che, zhe and gaf (پ چ ژ گ)
@@ -449,7 +449,7 @@ The Persian four-part garden. :: Chahar bagh
 "Chahar bagh" means this. :: Four gardens
 The famous garden in Shiraz. :: Eram Garden
 The famous Persian garden in Kashan. :: Fin Garden
-The Persian garden style is listed by UNESCO under this name. :: The Persian Garden
+Nine historic gardens of Iran are listed together by UNESCO under this name. :: The Persian Garden
 The ruins of the Achaemenid capital near Shiraz. :: Persepolis
 Persepolis is called this in Persian. :: Takht-e Jamshid
 The Achaemenid king who began Persepolis. :: Darius I

@@ -1,0 +1,82 @@
+# Builds the Raspberry Pi version on every push to main, signs it, and publishes it as a GitHub
+# release tagged pi-<version>. Each Pi checks for the newest one at start-up (pi/update.mjs).
+# Signing needs the PI_SIGNING_KEY secret (made with "node pi/update.mjs --new-key", see pi/README.md);
+# without it nothing is published, so a Pi never sees an unsigned release.
+#
+# Two jobs: "build" installs the npm packages, tests and packs the release, but never sees the key.
+# "sign" starts on a clean machine, installs nothing from npm, checks the packed files against their
+# manifest and signs with Node's own crypto, so third-party build code can never read the key.
+name: Raspberry Pi release
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pi-release
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run build:pi
+      - name: Pack (unsigned)
+        run: node scripts/pack-pi.mjs --out release
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pi-release
+          path: release/
+          retention-days: 3
+
+  sign:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            pi/bundle.mjs
+            scripts/sign-pi.mjs
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: actions/download-artifact@v4
+        with:
+          name: pi-release
+          path: release
+      - name: Check and sign
+        env:
+          PI_SIGNING_KEY: ${{ secrets.PI_SIGNING_KEY }}
+        run: node scripts/sign-pi.mjs release
+      - name: Publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          if [ ! -f release/manifest.sig ]; then
+            echo "::notice::No PI_SIGNING_KEY secret yet, so no Pi release was published. See pi/README.md."
+            exit 0
+          fi
+          version=$(node -p "require('./release/manifest.json').version")
+          if gh release view "pi-$version" >/dev/null 2>&1; then
+            echo "::notice::pi-$version is already published."
+            exit 0
+          fi
+          gh release create "pi-$version" release/* --target "$GITHUB_SHA" --title "Raspberry Pi $version" --notes "Signed Raspberry Pi build of $GITHUB_SHA. Pis install it at their next start-up."
+          # Keep the 5 newest Pi releases; older ones are never installed (a Pi only moves forward).
+          gh release list --limit 100 --json tagName --jq '.[].tagName' | grep '^pi-' | tail -n +6 | while read -r tag; do gh release delete "$tag" --yes --cleanup-tag; done

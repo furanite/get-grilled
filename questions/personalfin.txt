@@ -40,7 +40,7 @@ A bank account for saving money. :: Savings account
 A short goal you can reach within a year. :: Short-term goal
 A goal like buying a house, years away. :: Long-term goal
 SMART goals are specific, measurable, achievable, relevant and this. :: Time-bound
-A fixed expense that is the same every month, like rent. :: Fixed expense
+A cost that stays the same every month, like rent. :: Fixed expense
 An expense that changes month to month, like groceries. :: Variable expense
 A one-time large purchase you plan for, like a car. :: Big-ticket purchase
 The yearly cost of borrowing on a credit card, as a percentage, in conventional banking. :: Interest rate (APR)

@@ -1,10 +1,11 @@
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import type { Category, CategorySummary, Game, Lang, PoolEdit, Screen, ThemeId } from './lib/types'
-import { hasConsent, loadCustom, loadGame, loadPools, loadSettings, saveCustom, saveGame, savePools, saveSettings } from './lib/store'
+import { hasConsent, loadCustom, loadGame, loadPools, loadSettings, saveCustom, saveGame, savePools, saveSettings, saveTipsSeen, tipsSeen } from './lib/store'
 import { INTRO_MS, enterRound, finishIntro, isEmptyPool, nextRound, nextStage } from './lib/game'
-import { setSoundEnabled, unlockAudio } from './lib/sound'
+import { introSound, prepareIntros, setSoundEnabled, sfx, stopTune, titleTune, unlockAudio } from './lib/sound'
 import { CONSENT_TEXT, LEGAL } from './lib/legal'
 import { ConsentDialog, Footer, LegalViewer } from './components/Legal'
+import { RulesDialog, TipsDialog } from './components/Guide'
 import { heritageOpen } from './lib/themes'
 import { loadIndex } from './lib/packs'
 import { reducedMotion, startBackground } from './lib/fx'
@@ -24,6 +25,8 @@ import { HOST_EDITION, type Live } from './lib/edition'
 import { setFavicon } from './lib/favicon'
 import { Mark } from './components/Brand'
 import { HostLink } from './components/HostLink'
+import { BuzzButton } from './components/Buzzers'
+import { DevicesButton, SignOut, isLiveServer, useHostAudience, usePublisher } from './components/LiveHost'
 
 export default function App() {
   const initial = useMemo(loadSettings, [])
@@ -33,6 +36,12 @@ export default function App() {
   const [sound, setSound] = useState<boolean>(initial.sound)
   const [pools, setPoolsState] = useState<Record<string, PoolEdit>>(loadPools)
   const [consented, setConsented] = useState(() => hasConsent(LEGAL.termsVersion))
+  // Study tips show once to first-time visitors, after the Terms; the Rules button opens the rules.
+  const [guide, setGuide] = useState<'tips' | 'rules' | null>(() => (tipsSeen() ? null : 'tips'))
+  const closeGuide = () => {
+    if (guide === 'tips') saveTipsSeen()
+    setGuide(null)
+  }
   const [legalView, setLegalView] = useState<'terms' | 'privacy' | null>(null)
   const [screen, setScreen] = useState<Screen>('home')
   const [custom, setCustomState] = useState<Category[]>(loadCustom)
@@ -45,6 +54,10 @@ export default function App() {
   const audience = useAudienceWindow('Get Grilled')
   const themeRef = useRef(theme)
   const t = STRINGS[lang]
+  const liveHost = HOST_EDITION && isLiveServer()
+  // On the Pi: send the projector and team tablets what the room may see.
+  const crowd = useHostAudience()
+  usePublisher({ screen, game, live: screen === 'game' ? live : null, vote: screen === 'setup' ? vote : null, theme, lang, reduceFx, audience: crowd }, liveHost)
   const inGame = screen === 'intro' || screen === 'game' || screen === 'mode' || screen === 'lightning' || screen === 'final' || screen === 'round'
 
   useEffect(() => {
@@ -169,6 +182,11 @@ export default function App() {
               <span className="brand-word">Get Grilled</span>
             </button>
             <div className="row">
+              {screen === 'home' && (
+                <button className="btn" onClick={() => setGuide('rules')} data-testid="rules-btn">
+                  Rules
+                </button>
+              )}
               {HOST_EDITION && (
                 <button
                   className={audience.isOpen ? 'ghost' : 'btn'}
@@ -183,6 +201,9 @@ export default function App() {
                 </button>
               )}
               {!HOST_EDITION && <HostLink lang={lang} />}
+              <BuzzButton t={t} lang={lang} teams={game?.teams ?? []} />
+              {liveHost && <DevicesButton t={t} lang={lang} game={game} />}
+              {liveHost && <SignOut t={t} />}
               {inGame && (
                 <button
                   className="ghost"
@@ -227,6 +248,8 @@ export default function App() {
           {screen === 'intro' && game?.intro && (
             <IntroScreen game={game} setGame={setGame} theme={theme} t={t} lang={lang} onStart={() => {
               setGame((g) => finishIntro(g))
+              if (game.tournament) stopTune()
+              else sfx.start()
               setScreen(game.tournament ? 'round' : 'game')
             }} />
           )}
@@ -276,6 +299,16 @@ export default function App() {
         </div>
       </div>
       {!consented && <ConsentDialog lang={lang} setLang={setLang} reduceFx={reduceFx} setReduceFx={setReduceFx} onAccept={() => setConsented(true)} />}
+      {consented && !legalView && screen === 'home' && guide === 'tips' && (
+        <TipsDialog
+          onClose={closeGuide}
+          onOpenFiles={() => {
+            closeGuide()
+            setScreen('study')
+          }}
+        />
+      )}
+      {consented && !legalView && guide === 'rules' && <RulesDialog onClose={closeGuide} onTips={() => setGuide('tips')} />}
       {consented && legalView && <LegalViewer which={legalView} lang={lang} onClose={() => setLegalView(null)} />}
       {HOST_EDITION && audience.win && audience.root && (
         <AudienceScreen win={audience.win} root={audience.root} t={t} lang={lang} theme={theme} reduceFx={reduceFx} screen={screen} game={game} live={screen === 'game' ? live : null} vote={screen === 'setup' ? vote : null} />
@@ -293,6 +326,17 @@ export default function App() {
 function IntroScreen({ game, setGame, theme, t, lang, onStart }: { game: Game; setGame: (u: (g: Game) => Game) => void; theme: ThemeId; t: (typeof STRINGS)['en']; lang: Lang; onStart: () => void }) {
   const intro = game.intro!
   const n = game.teams.length
+  // Each team's own sound while it is introduced, then the theme's title tune on Meet the teams.
+  useEffect(() => {
+    prepareIntros(theme, game.teams.map((tm) => tm.members?.length ?? 0))
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [theme, n])
+  useEffect(() => {
+    if (intro.i < n) introSound(theme, intro.i, game.teams[intro.i].members?.length ?? 0)
+    else titleTune(theme)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [intro.i, theme])
+  useEffect(() => () => stopTune(), [])
   const step = (i: number) => setGame((g) => (g.intro ? { ...g, intro: { ...g.intro, i: Math.min(i, n) } } : g))
   useEffect(() => {
     if (!intro.auto || intro.i >= n) return

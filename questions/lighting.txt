@@ -309,7 +309,7 @@ The film genre of the 1940s famous for low-key lighting. :: Film noir
 The theatre lighting position above and in front of the stage. :: Front of house
 Coloured filters placed in front of stage lights. :: Gels
 A stage light that follows a performer. :: A followspot
-A machine that makes a haze so beams of light can be seen. :: A haze (fog) machine
+A machine that fills the air with a fine mist so light beams can be seen. :: A haze (fog) machine
 
 ## 400
 The photometric quantity of light power weighted by the eye's sensitivity. :: Luminous flux

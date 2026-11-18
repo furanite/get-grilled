@@ -34,11 +34,11 @@ The number of sides on a triangle. :: 3
 The number of sides on a square. :: 4
 The number of sides on a pentagon. :: 5
 The number of sides on a hexagon. :: 6
-The number of sides on a octagon. :: 8
+The number of sides on an octagon. :: 8
 The number of sides on a decagon. :: 10
 The sides on a triangle plus the sides on a square. :: 7
 The sides on a hexagon plus the sides on a pentagon. :: 11
-The sides on a octagon plus the sides on a triangle. :: 11
+The sides on an octagon plus the sides on a triangle. :: 11
 The number of minutes in 2 hours. :: 120
 The number of hours in 3 days. :: 72
 The number of days in 5 weeks. :: 35

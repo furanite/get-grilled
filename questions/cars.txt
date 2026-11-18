@@ -175,7 +175,7 @@ The British sports car brand famous for the Elise. :: Lotus
 The British company that makes the 720S and the F1 car. :: McLaren
 The British luxury car brand owned by Volkswagen, making the Continental GT. :: Bentley
 The Italian luxury car brand with a trident logo. :: Maserati
-The Swedish supercar maker founded by Christian von Koenigsegg. :: Koenigsegg
+The Swedish supercar maker founded in 1994, known for the Agera and the Jesko. :: Koenigsegg
 The Croatian electric hypercar maker. :: Rimac
 The F1 team based in Maranello. :: Ferrari
 The F1 team owned by an energy-drink company. :: Red Bull Racing
@@ -234,17 +234,17 @@ The Italian design house that styled many Ferraris. :: Pininfarina
 The Italian designer who styled the Lamborghini Countach and Miura at Bertone. :: Marcello Gandini
 The car colour Ferrari is most famous for. :: Rosso Corsa (racing red)
 The national racing colour of Britain. :: British racing green
-The national racing colour of Germany, giving Mercedes the name "Silver Arrows". :: Silver
+The national racing colour of Germany, which gave Mercedes racing cars their famous 'Arrows' nickname. :: Silver
 The national racing colour of France. :: Blue
 The Mercedes-Benz SUV nicknamed the "G-Wagon". :: G-Class
 The Mercedes model name AMG stands for Aufrecht, Melcher and this town. :: Großaspach
 BMW stands for Bayerische ___ Werke. :: Motoren
 The BMW performance division. :: M (M GmbH)
 Audi's four rings stand for four merged companies: Audi, DKW, Horch and this one. :: Wanderer
-The car company whose founder August Horch also started Audi. :: Horch
+The German car maker founded in 1899 whose founder later started Audi, the Latin form of his own surname. :: Horch
 "Audi" is the Latin translation of this founder's name, meaning "listen". :: Horch
 Toyota's name was changed from Toyoda partly because Toyota takes this many strokes to write in Japanese. :: Eight
-The Toyota production system that made "just-in-time" famous. :: The Toyota Production System (lean)
+The Japanese carmaker's production method, the root of 'lean manufacturing', that made 'just-in-time' famous. :: The Toyota Production System (lean)
 Toyota's hybrid that became the world's best-selling hybrid. :: Prius
 The first mass-produced hybrid car, launched in Japan in 1997. :: Toyota Prius
 The first mass-market modern electric car, launched by Nissan in 2010. :: Nissan Leaf
@@ -305,7 +305,7 @@ The French rally driver who won nine WRC titles in a row. :: Sébastien Loeb
 The Qatari driver who has won the Dakar Rally car class five times. :: Nasser Al-Attiyah
 The Saudi driver who won the Dakar Rally car class in 2025. :: Yazeed Al-Rajhi
 The Dakar Rally moved to Saudi Arabia from this continent in 2020. :: South America
-The Dakar Rally was originally a race from Paris to this city. :: Dakar
+The famous off-road rally was first raced from Paris to this West African capital, which gave the rally its name. :: Dakar
 The Ferrari road-car name taken from Enzo Ferrari's son, who died young. :: Dino
 
 ## 400

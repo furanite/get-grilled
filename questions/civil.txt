@@ -53,7 +53,7 @@ An asphalt road surface. :: Flexible pavement
 The gaps cut in concrete slabs to control cracking. :: Joints
 The layers under a road surface. :: Base and subbase
 The pipes that carry wastewater from buildings. :: Sewers
-The plant that cleans wastewater before release. :: Wastewater (sewage) treatment plant
+The plant that cleans sewage before the water goes back to a river or the sea. :: Wastewater (sewage) treatment plant
 The plant that makes river or lake water safe to drink. :: Water treatment plant
 The chemical commonly added to kill germs in drinking water. :: Chlorine
 Removing salt from seawater to make fresh water. :: Desalination
@@ -85,7 +85,7 @@ The steel bars used to reinforce concrete. :: Rebar
 Concrete with steel bars inside. :: Reinforced concrete
 Blocks made of concrete used to build walls. :: Concrete blocks (CMU)
 The paste used to bond bricks together. :: Mortar
-The thin smooth finish layer of plaster on walls. :: Plaster (render)
+The thin smooth finishing coat, usually of gypsum or lime, spread on inside walls. :: Plaster (render)
 A building's skeleton made of steel beams and columns. :: Steel frame
 The person who designs buildings with an eye for form and use. :: Architect
 The engineer who makes sure a building can carry its loads. :: Structural engineer

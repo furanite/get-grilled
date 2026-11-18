@@ -4,22 +4,25 @@ interface PackFile {
   id: string
   name: string
   nameAr?: string
-  levels: { q: string; a: string; qAr?: string; aAr?: string; img?: string }[][]
-  modes?: Partial<Record<ItemMode, ModeItem[]>>
+  levels: { q: string; a: string; qAr?: string; aAr?: string; img?: string; qk?: string }[][]
+  modes?: Partial<Record<ItemMode, (ModeItem & { qk?: string })[]>>
 }
 
 const base = import.meta.env.BASE_URL
 
-/** Turns a pack file into a category, giving each question a stable id. */
+/**
+ * Turns a pack file into a category, giving each question a stable id. Built packs carry a key made from
+ * each clue's words (qk), so ids survive lines being added or moved; older files fall back to the position.
+ */
 export function packToCategory(p: PackFile): Category {
   const cat: Category = {
     id: p.id,
     name: p.name,
     nameAr: p.nameAr,
     builtIn: true,
-    levels: p.levels.map((lvl, li) => lvl.map((x, qi): Question => ({ id: `${p.id}-${li}-${qi}`, ...x }))),
+    levels: p.levels.map((lvl, li) => lvl.map(({ qk, ...x }, qi): Question => ({ id: `${p.id}-${li}-${qk ?? qi}`, ...x }))),
   }
-  if (p.modes) cat.modes = Object.fromEntries(Object.entries(p.modes).map(([m, list]) => [m, (list ?? []).map((x, i) => ({ ...x, id: `${p.id}-${m}-${i}` }))]))
+  if (p.modes) cat.modes = Object.fromEntries(Object.entries(p.modes).map(([m, list]) => [m, (list ?? []).map(({ qk, ...x }, i) => ({ ...x, id: `${p.id}-${m}-${qk ?? i}` }))]))
   return cat
 }
 

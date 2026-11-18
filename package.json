@@ -16,7 +16,13 @@
     "fit": "vite build && node e2e/fit.mjs",
     "fit:host": "vite build --mode host --outDir dist-host && node e2e/fit-host.mjs",
     "e2e:host": "vite build --mode host --outDir dist-host && node e2e/host.mjs",
-    "build:site": "npm run build && npm run build:host && node scripts/make-site.mjs"
+    "build:site": "npm run build && npm run build:host && node scripts/make-site.mjs",
+    "build:pi": "npm run build:site && node scripts/make-pi.mjs",
+    "pack:pi": "node scripts/pack-pi.mjs",
+    "pi": "node pi/server.mjs",
+    "e2e:pi": "node e2e/pi.mjs",
+    "e2e:pi-update": "node e2e/pi-update.mjs",
+    "e2e:pi-load": "node e2e/pi-load.mjs"
   },
   "dependencies": {
     "@fontsource/aref-ruqaa": "^5.3.0",
@@ -31,6 +37,7 @@
     "@fontsource/manrope": "^5.3.0",
     "@fontsource/marcellus": "^5.3.0",
     "@fontsource/reem-kufi": "^5.3.0",
+    "qrcode-generator": "2.0.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },

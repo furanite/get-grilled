@@ -197,7 +197,7 @@ A place where a river splits into many channels before the sea. :: Delta
 A river's starting point. :: Source
 A dry riverbed in the desert that floods after rain. :: Wadi
 A fertile spot in a desert with water. :: Oasis
-A steep-sided valley carved by a river, like the Grand Canyon. :: Canyon
+A steep-sided valley carved by a river, like the famous one the Colorado River cut in Arizona. :: Canyon
 A large flat-topped hill with steep sides. :: Mesa (plateau)
 The river that carved the Grand Canyon. :: The Colorado River
 The country with the most volcanoes on land, in the Pacific Ring of Fire. :: Indonesia
@@ -284,7 +284,7 @@ The island country east of Australia whose capital is Suva. :: Fiji
 The largest country in Central America by area. :: Nicaragua
 The only country in Central America where English is the official language. :: Belize
 The country with the most pyramids in the world. :: Sudan
-The landlocked country with Lake Malawi along its east side. :: Malawi
+The landlocked country in southeast Africa whose capital is Lilongwe. :: Malawi
 The double-landlocked country in Europe, with Vaduz as its capital. :: Liechtenstein
 The only other doubly landlocked country besides Liechtenstein. :: Uzbekistan
 The country with the most borders on land, tied with Russia at 14. :: China
@@ -399,7 +399,7 @@ The largest bay in the world. :: Bay of Bengal
 The country made of 7,000-plus islands, including Luzon and Mindanao. :: The Philippines
 The island divided between Indonesia, Malaysia and Brunei. :: Borneo
 The island divided between Haiti and the Dominican Republic. :: Hispaniola
-The island divided between Indonesia and Papua New Guinea. :: New Guinea
+The world's second-largest island, shared by Indonesia and one other country. :: New Guinea
 The island divided between Indonesia and Timor-Leste. :: Timor
 The world's most populous island. :: Java
 The archipelago in the Arabian Sea belonging to Yemen, famous for dragon's blood trees. :: Socotra
@@ -510,5 +510,5 @@ The mountain fortress city in Oman famous for its round tower. :: Nizwa
 The Iranian city famous for its 'half the world' square. :: Isfahan
 The Turkish region famous for fairy chimneys and hot-air balloons. :: Cappadocia
 The Jordanian desert valley also called the Valley of the Moon. :: Wadi Rum
-The city at the northern tip of the Gulf of Aqaba in Jordan. :: Aqaba
+Jordan's only seaport, on the Red Sea. :: Aqaba
 The Egyptian city at the southern tip of Sinai, a resort on the Red Sea. :: Sharm El Sheikh

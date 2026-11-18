@@ -138,7 +138,7 @@ The famous Arabian horse breed's region of origin. :: Najd (the Arabian Peninsul
 The camel's long eyelashes protect it from this. :: Sand
 A camel can drink up to this many litres of water at once. :: About 100 litres or more
 The animal that gives mohair and cashmere wool. :: Goat
-The animal that gives alpaca wool, a relative of the llama. :: Alpaca
+The South American animal, a smaller relative of the llama, kept for its soft fleece. :: Alpaca
 The South American animal used to carry loads in the Andes. :: Llama
 The animal domesticated first by humans, according to most evidence. :: Dog
 The animal domesticated in ancient Egypt and worshipped there. :: Cat
@@ -295,7 +295,7 @@ The great migration in the Serengeti is mostly made of this animal. :: Wildebees
 The bird that rides on large animals and eats ticks. :: Oxpecker
 The small animal that lives in groups and stands guard on its back legs. :: Meerkat
 The small animal from Madagascar with a long ringed tail. :: Ring-tailed lemur
-The animal that is the only living member of its order and has an 'aardvark' name meaning 'earth pig'. :: Aardvark
+The African burrowing mammal, the only living member of its order, whose Afrikaans name means 'earth pig'. :: Aardvark
 The Asian animal similar to a rhino, with a short trunk. :: Tapir
 The animal that can live without water its whole life, getting water from seeds. :: Kangaroo rat
 The process of animals getting larger in colder climates is described by this rule. :: Bergmann's rule
@@ -422,7 +422,7 @@ The order of mammals that includes bats. :: Chiroptera
 The order of mammals that includes whales and dolphins, now grouped with even-toed hoofed animals. :: Cetacea (Artiodactyla)
 The order that includes rabbits and hares. :: Lagomorpha
 The order that includes elephants. :: Proboscidea
-The order that includes primates such as humans and lemurs. :: Primates
+The order of mammals that includes humans, apes and lemurs. :: Primates
 The closest living relatives of elephants, besides each other. :: Hyraxes and sea cows (sirenians)
 The rock hyrax of Arabia is called this in Arabic. :: Wabr
 The closest living relative of whales. :: Hippopotamus

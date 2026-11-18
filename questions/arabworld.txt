@@ -83,7 +83,7 @@ The Arab country in the Horn of Africa whose capital is Mogadishu. :: Somalia
 The tiny Arab country in the Horn of Africa next to Eritrea. :: Djibouti
 The island Arab country in the Indian Ocean. :: Comoros
 The Arab country on the Atlantic between Morocco and Senegal. :: Mauritania
-The day of the week for Friday prayer. :: Friday
+The day of the week when Muslims gather for the Jumu'ah prayer. :: Friday
 The famous storyteller of "One Thousand and One Nights". :: Shahrazad (Scheherazade)
 The boy with a magic lamp in the Arabian Nights tales. :: Aladdin
 The sailor of the Arabian Nights who made seven voyages. :: Sinbad
@@ -296,7 +296,7 @@ The female pharaoh with a temple at Deir el-Bahari. :: Hatshepsut
 The last active pharaoh of Ptolemaic Egypt. :: Cleopatra VII
 The famous library of ancient Alexandria was rebuilt in modern form in this year. :: 2002
 The famous lighthouse of Alexandria, one of the Seven Wonders, stood on this island. :: Pharos
-The Egyptian peninsula with Mount Sinai and Sharm El Sheikh. :: Sinai
+The Egyptian peninsula between the Gulf of Suez and the Gulf of Aqaba, home of Sharm El Sheikh. :: Sinai
 The Jordanian port city on the Red Sea. :: Aqaba
 The Saudi giga-project on the northwest Red Sea coast. :: NEOM
 The Saudi project of luxury resorts on Red Sea islands. :: Red Sea Global (The Red Sea project)
@@ -324,7 +324,7 @@ The Turkish dynasty whose sultans held power over the Abbasid caliphs from 1055.
 The Abbasid caliphate continued in name in this city after 1258, under the Mamluks. :: Cairo
 The Fatimid caliph who founded Cairo, through his general Jawhar. :: Al-Mu'izz li-Din Allah
 The Ayyubid ruler's wife who ruled Egypt as sultana in 1250. :: Shajar al-Durr
-The Mamluk sultan who built a famous complex and hospital in Cairo, the Qalawun complex. :: Qalawun
+The Mamluk sultan whose great complex in Cairo, built in 683-684 AH / 1284-1285 CE, included a famous hospital. :: Qalawun
 The Ottoman sultan who conquered Egypt and Syria in 1516–1517. :: Selim I
 The battle of 1516 in Syria where the Ottomans beat the Mamluks. :: Marj Dabiq
 The Albanian-born ruler called "the founder of modern Egypt". :: Muhammad Ali Pasha
@@ -359,8 +359,8 @@ The ancient dam in Yemen whose collapse is mentioned in the Quran. :: Marib Dam
 The ancient city of Yemen that was the capital of Saba. :: Marib
 The ancient spice route city in Saudi Arabia with the Taymanitic inscriptions and a Babylonian king's residence. :: Tayma
 The Babylonian king who lived in Tayma for ten years. :: Nabonidus
-The ancient kingdom of the Kindah, with capital at Qaryat al-Faw. :: Kindah
-The ancient city near Najran, a Himyarite-era site called "Al-Ukhdud". :: Al-Ukhdud
+The ancient Arabian kingdom whose capital was Qaryat al-Faw. :: Kindah
+The ancient city site near Najran, from the Himyarite era, whose name means 'the trench'. :: Al-Ukhdud
 The ancient rock art region near Ha'il on UNESCO's list since 2015. :: Jubbah (and Shuwaymis)
 The Saudi city in the north with the Qishlah palace and Aja and Salma mountains. :: Ha'il
 The famous Arab poet-knight of Ha'il known for generosity. :: Hatim al-Ta'i

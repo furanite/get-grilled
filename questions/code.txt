@@ -154,7 +154,7 @@ The OOP idea of a class getting features from a parent class. :: Inheritance
 The OOP idea that one interface can have many forms. :: Polymorphism
 The special method that runs when an object is created. :: Constructor
 The keyword in Python that defines a function. :: def
-The keyword in Python that defines a class. :: class
+The Python keyword that starts the definition of a new object type. :: class
 The keyword that returns a value from a function. :: return
 An error that happens while a program is running. :: Runtime error (exception)
 The keyword pair in Python used to handle exceptions. :: try and except
@@ -403,7 +403,7 @@ The programming paradigm built on pure functions and immutable data. :: Function
 A function that takes or returns other functions. :: Higher-order function
 The language feature that captures variables from an enclosing scope. :: Closure
 The calculus that is the theoretical basis of functional languages. :: Lambda calculus
-The functional language named after Haskell Curry. :: Haskell
+The purely functional programming language named after the logician Curry. :: Haskell
 Turning a function of several arguments into a chain of one-argument functions. :: Currying
 The memory-safe systems language that uses ownership and borrowing. :: Rust
 The language created at Google in 2009 with goroutines. :: Go
