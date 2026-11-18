@@ -118,8 +118,9 @@ export function AudienceScreen({ win, root, t, lang, theme, reduceFx, screen, ga
   return createPortal(<AudienceView t={t} lang={lang} theme={theme} screen={screen} game={game} live={live} vote={vote ?? null} win={win} />, root)
 }
 
-function AudienceView({ t, lang, theme, screen, game, live, vote, win }: { t: Strings; lang: Lang; theme: ThemeId; screen: Screen; game: Game | null; live: Live | null; vote: VoteState | null; win: Window }) {
-  const [helpShown, setHelpShown] = useState(true)
+/** What the room sees. Also drawn by the projector and team tablets on the Pi (noHelp: no projector tip). */
+export function AudienceView({ t, lang, theme, screen, game, live, vote, win, noHelp }: { t: Strings; lang: Lang; theme: ThemeId; screen: Screen; game: Game | null; live: Live | null; vote: VoteState | null; win: Window; noHelp?: boolean }) {
+  const [helpShown, setHelpShown] = useState(!noHelp)
   const helpTimer = useRef<number>()
   useEffect(() => {
     helpTimer.current = win.setTimeout(() => setHelpShown(false), 12000)
