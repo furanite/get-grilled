@@ -159,7 +159,7 @@ textarea.input{resize:vertical;min-height:44px}
 /* Clue card */
 .scrim{position:fixed;inset:0;z-index:40;background:rgba(0,0,0,.55);backdrop-filter:blur(6px);opacity:0;transition:opacity .45s}
 .scrim.on{opacity:1}
-.card{position:fixed;z-index:50;border-radius:var(--r);overflow:clip;background:radial-gradient(120% 90% at 50% 0%,var(--bg2),var(--bg) 75%);border:1px solid var(--edge);box-shadow:0 30px 90px -20px rgba(0,0,0,.85),0 0 70px -10px var(--glow);transition:left .65s var(--ease),top .65s var(--ease),width .65s var(--ease),height .65s var(--ease)}
+.card{position:fixed;z-index:50;border-radius:var(--r);overflow:hidden;overflow:clip;background:radial-gradient(120% 90% at 50% 0%,var(--bg2),var(--bg) 75%);border:1px solid var(--edge);box-shadow:0 30px 90px -20px rgba(0,0,0,.85),0 0 70px -10px var(--glow);transition:left .65s var(--ease),top .65s var(--ease),width .65s var(--ease),height .65s var(--ease)}
 :root[data-theme="heritage"] .card{border-radius:50% 50% 16px 16px/110px 110px 16px 16px;background:radial-gradient(90% 70% at 50% 0%,#14585c,var(--tile-b) 45%,var(--bg) 100%)}
 :root[data-theme="heritage"] .card::after{content:"";position:absolute;left:0;right:0;bottom:0;height:18px;background:var(--sadu) repeat-x 0 0/40px 18px}
 :root[data-theme="heritage"] .card-in{padding-top:clamp(56px,8vw,80px);align-items:center;text-align:center}
@@ -268,7 +268,7 @@ textarea.input{resize:vertical;min-height:44px}
 .aud-main:has(.aud-stage){justify-content:stretch;height:100vh;padding:2vh 2vw}
 .aud-stage{flex:1;min-height:0;display:flex;flex-direction:column;padding:2vh 2vw}
 .aud-stage .board{--colmax:34vw;flex:1;min-height:0;min-width:0;grid-template-rows:auto repeat(5,minmax(0,1fr))}
-.aud-stage .cat{font-size:clamp(12px,1.3vw,28px);min-height:8vh;overflow-wrap:break-word;hyphens:auto}
+.aud-stage .cat{font-size:clamp(12px,1.3vw,28px);min-height:8vh;overflow-wrap:break-word;-webkit-hyphens:auto;hyphens:auto}
 .aud-stage .tile{aspect-ratio:auto;min-height:0;font-size:clamp(22px,min(4vw,7vh),72px);animation:none}
 .aud-stage .scores{margin-top:2vh}
 .aud-stage .team{padding:1vh 1.4vw}
@@ -669,3 +669,30 @@ textarea.input{resize:vertical;min-height:44px}
 .aud-card .q{font-size:clamp(22px,min(4.4vw,7.4vh),84px);text-wrap:pretty}
 .aud-card .answer{font-size:clamp(20px,min(3.4vw,5.8vh),64px)}
 .aud-card .meta{font-size:clamp(13px,min(1.5vw,2.6vh),26px)}
+
+/* Fit on every screen (phones to projectors, Safari, Chrome and Firefox) */
+/* iPhone Safari enlarges text by itself when the phone is turned sideways; keep the sizes we set. */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+/* A long word or link breaks onto the next line instead of running out of its box. */
+body{overflow-wrap:break-word}
+.q,.answer,.final-cat,.cat-pick b,.cat-pick small,.qrow>div,.round-card p,.vote-voters li,.legal-doc,.toast,.comeback{overflow-wrap:anywhere}
+.final-cat{flex-wrap:wrap;min-width:0}
+/* The second name under a board category shrinks to fit its longest word, like the main name. */
+.board .cat .sub{max-width:100%;font-size:min(.9em,calc((100cqw - 4px) / (var(--sw,8) * .7)))}
+/* iPhone Safari zooms the whole page in when a box with text smaller than 16px is tapped, and stays zoomed. */
+@media (pointer:coarse){input,select,textarea,select.input,textarea.input{font-size:max(16px,1em)}}
+/* Shiny gradient titles: leave room so tall letters and Arabic marks are not cut off. */
+.logo-title,.round-title,.crown,.aud-title{padding-block:.08em}
+/* A long clue never runs under the answer or the buttons: it keeps its full height, sits in the middle while
+   there is room, and the host's card scrolls when there is not. On the big screen nobody can scroll, so there
+   it shrinks to fit the card instead (see useFitText). */
+.card .q,.aud-card .q{flex:0 0 auto;min-height:auto;margin-block:auto}
+.card .answer,.aud-card .answer{flex:none}
+.aud-card .q{font-size:calc(clamp(22px,min(4.4vw,7.4vh),84px) * var(--fit,1))}
+.aud-card .answer{font-size:calc(clamp(20px,min(3.4vw,5.8vh),64px) * var(--fit,1))}
+.aud-card .q[data-len="l"]{font-size:calc(clamp(20px,min(3.6vw,6vh),64px) * var(--fit,1))}
+.aud-card .q[data-len="xl"]{font-size:calc(clamp(18px,min(3vw,5vh),52px) * var(--fit,1))}
+.aud-card,.aud-card .q,.card-in{min-width:0}
+/* On the big screen the board fills the window: no theme's tile shape may make the rows taller than their share. */
+:root[data-theme] .aud-stage .tile{aspect-ratio:auto;min-height:0}
+:root[data-theme="heritage"] .aud-stage .tile{font-size:clamp(14px,min(3.4vw,4.8vh),68px)}

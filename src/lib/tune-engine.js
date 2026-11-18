@@ -523,6 +523,16 @@ export function renderTitle(theme, set) {
 
 /** The theme's suspense clock (four bars, ready to loop), or its drum roll and crash. */
 export const ROLL_SECONDS = ROLL
+/** The picked game sounds: 'timeUp' is a game-show buzzer, 'wrong' a soft xylophone drop. */
+export function renderFx(kind) {
+  if (kind === 'timeUp') return render(1.4, 0.4, false, [], (t) => {
+    const d = 1.1, g = 0.1, f = 98, v = ctx.createGain()
+    v.gain.setValueAtTime(0.0001, t); v.gain.linearRampToValueAtTime(g, t + 0.02); v.gain.setValueAtTime(g, t + d - 0.06); v.gain.linearRampToValueAtTime(0.0001, t + d)
+    const fl = lp(1400, 1.2); for (const [ff, det] of [[f, 0], [f * 1.06, 0], [f * 2, 5]]) osc('sawtooth', ff, t, d, det).connect(fl); fl.connect(v); send(v, false)
+  })
+  return render(1.1, 0.4, false, ['xyl', 'spic'], (t) => { R('xyl', 79, t, null, 0.9); R('xyl', 72, t + 0.16, null, 0.9); R('spic', 36, t + 0.16, null, 1) })
+}
+
 export function renderSuspense(theme, kind) {
   const S = THEME_SUS[theme]
   if (!S) return Promise.reject(new Error(`no suspense ${theme}`))
