@@ -98,7 +98,7 @@ A half adder's sum output comes from this gate. :: XOR
 The decimal value of binary 1010. :: 10
 A 2-bit comparator's A > B output when A = 10 and B = 01. :: 1
 The parity generator for even parity XORs all bits. The parity bit makes the count of 1s this. :: Even
-The Nand to Tetris course starts by building every chip from this one gate. :: NAND
+The universal logic gate that a famous course builds every chip from, all the way up to playing Tetris. :: NAND
 The gate whose output is 1 only when all its inputs are 1. :: AND
 The number system that uses only the digits 0 and 1. :: Binary
 The gate with one input whose output is always the opposite of its input. :: NOT gate (inverter)
@@ -333,7 +333,7 @@ Name this storage element, which copies its input to Q on the clock edge. {img:d
 
 ## 400
 The FPGA family names from AMD (Xilinx): Spartan, Artix, Kintex and this high end. :: Virtex
-The AMD (Xilinx) device family combining Arm cores with FPGA fabric, like the Zynq-7000. :: Zynq (SoC FPGA)
+The AMD (Xilinx) family, launched in 2011, that puts Arm cores and FPGA fabric on one chip. :: Zynq (SoC FPGA)
 The Intel (Altera) low-cost FPGA family. :: Cyclone
 The Intel (Altera) high-end FPGA family. :: Stratix
 The FPGA company with the low-power iCE40 family. :: Lattice Semiconductor

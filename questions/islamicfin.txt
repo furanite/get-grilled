@@ -176,7 +176,7 @@ The Islamic finance term for the time value in a deferred sale price. :: The pri
 The Malaysian central bank's law of 2013 governing Islamic banks. :: Islamic Financial Services Act (IFSA)
 The 1983 law that created Malaysia's first Islamic bank. :: Islamic Banking Act 1983
 Malaysia's pilgrims' savings fund founded in 1963. :: Tabung Haji
-The Islamic name for the profit-sharing ratio set at the start of a mudaraba. :: Profit-sharing ratio (nisbah)
+The Arabic name for the agreed split of profit between investor and manager in a mudarabah. :: Nisbah (profit-sharing ratio)
 A mudaraba where the investor sets no limits on how the money is used. :: Unrestricted mudaraba (mudaraba mutlaqah)
 A mudaraba where the investor limits the business, place or time. :: Restricted mudaraba (mudaraba muqayyadah)
 The legal term for the capital in a mudaraba. :: Ra's al-mal
@@ -334,7 +334,7 @@ In istisna', unlike salam, the price may be paid in instalments or this. :: Late
 In the Hanafi view, istisna' becomes binding only when this happens. :: The goods are delivered (according to the earlier Hanafi view)
 The IIFA ruled istisna' binding on both parties in this year. :: 1992 (7th session, Jeddah)
 The "salam" price paid in advance protects against riba because the goods are this, not money. :: Commodities (not currency)
-Salam cannot be used for gold or silver if the price is paid in this. :: Gold or silver (or money)
+Salam for gold is not allowed when the price is paid in money, because the deal becomes this kind of exchange, which must be hand to hand. :: Sarf (currency exchange)
 A salam buyer can't sell the salam goods before taking them, according to most scholars, because of this. :: Selling before possession (qabd)
 In ijara, floating rent is allowed if it is set this way. :: For each period in advance (known at the start of each period)
 Under AAOIFI's ijara standard, insurance of the asset is paid by this party. :: The lessor (it can be built into the rent)

@@ -409,7 +409,7 @@ The term for continuous welded rail stress caused by heat. :: Thermal stress (ra
 The traffic flow model with a linear speed–density relationship. :: Greenshields model
 In the Greenshields model, maximum flow occurs at this fraction of jam density. :: One half
 The traffic wave theory treating flow as a fluid. :: Lighthill–Whitham–Richards (LWR) model
-The car-following model where drivers react to the vehicle ahead. :: Car-following (e.g. Gipps) model
+This kind of traffic model, such as Gipps' model, has each driver react to the vehicle just ahead. :: Car-following model
 The delay formula for signalised intersections from the 1950s. :: Webster's delay formula
 The pavement design method from the AASHO road test of the 1950s. :: AASHTO 1993 (empirical) method
 The mechanistic-empirical pavement design guide is abbreviated this. :: MEPDG

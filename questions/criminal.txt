@@ -71,7 +71,7 @@ The Arabic word for a witness. :: Shahid
 The Arabic word for a confession. :: Iqrar
 The Arabic word for an oath. :: Yamin
 The singular of hudud. :: Hadd
-A crime against the Saudi Anti-Harassment Law of 2018. :: Harassment
+The Saudi law of 2018 that makes unwanted words or acts of a sexual nature a crime. :: The Anti-Harassment Law
 Driving after drinking alcohol. :: Drunk driving
 Driving faster than the speed limit. :: Speeding
 The Saudi camera system that records traffic violations. :: Saher

@@ -88,7 +88,7 @@ To be very angry is to see this colour. :: Red
 To keep quiet about something is to keep your this shut. :: Mouth (or lips sealed)
 To stop doing something is to call it a ___. :: Day
 To become famous suddenly is to become an overnight ___. :: Success (or sensation)
-To be very tired is to be dog ___. :: Tired
+To be extremely tired is to be this, an idiom with a pet animal in it. :: Dog-tired
 A person who is new and inexperienced is said to be this colour. :: Green
 A shy person may be told to come out of their ___. :: Shell
 To leave quickly is to hit the ___. :: Road
@@ -107,7 +107,7 @@ Slow and steady wins the ___. :: Race
 "Look on the bright ___." :: Side
 "There's no place like ___." :: Home
 "Rule of thumb" comes from using this to measure things roughly. :: The thumb
-"Spill the beans" may come from an ancient Greek voting method using these. :: Beans
+The idiom 'spill the ___' may come from ancient Greek voting by dropping these into a jar. :: Beans
 "Achilles' heel" comes from Greek myth; Achilles was hit here by an arrow. :: His heel
 "Sandwich" is named after this earl. :: The Earl of Sandwich
 The Arabic proverb "Al-waqt ka al-sayf" compares time to this. :: A sword
@@ -115,7 +115,7 @@ The Arabic proverb "Man jadda wajada" means this. :: Whoever strives, finds (suc
 The Arabic proverb "Idha kana al-kalam min fidda, fa al-sukut min ___." :: Gold
 The Arabic proverb "Lil-hitan adhan" says the walls have these. :: Ears
 The Arabic proverb "Yad wahida la tusaffiq" says one hand cannot do this. :: Clap
-"Grin like a Cheshire cat" is linked to this county in England. :: Cheshire
+The grinning cat in 'Alice in Wonderland' is named after this English county. :: Cheshire
 "Mad as a March hare" refers to this animal's odd behaviour in spring. :: The hare
 The Arabic word "sabr" means this. :: Patience
 The Arabic proverb "Al-'ilm nur" says knowledge is this. :: Light
@@ -266,7 +266,7 @@ The Arabic proverb "Akram min Hatim" means more generous than this man. :: Hatim
 "Don't throw the baby out with the ___." :: Bathwater
 "A stitch in time saves ___." :: Nine
 "An ounce of prevention is worth a pound of ___." :: Cure
-"Let bygones be ___." :: Bygones
+Finish the saying about forgiving past quarrels: 'Let ___ be ___'. :: Bygones
 "Every dog has its ___." :: Day
 "Many hands make ___." :: Light work
 "A watched pot never ___." :: Boils
@@ -304,7 +304,7 @@ The idiom meaning to be fired from a job: to get the ___. :: Sack (or boot)
 The idiom for a lazy, easy job: a cushy ___. :: Number
 The idiom for a hopeless person or thing: a lost ___. :: Cause
 The idiom for an important, influential person: a big ___. :: Shot (or wheel)
-The idiom for a fair, honest deal: a square ___. :: Deal
+A fair, honest deal is called this shape of deal. :: A square deal
 The idiom for a sudden quick sleep: forty ___. :: Winks
 The idiom for something that ruins a plan: a spanner in the ___. :: Works
 The idiom for an unexpected advantage: an ace up your ___. :: Sleeve
@@ -322,11 +322,11 @@ The idiom meaning to make a bad situation even worse: to rub this in the wound. 
 The idiom meaning to be exposed to danger: to stick your this out. :: Neck
 The idiom meaning to save money for hard times: to save for a rainy ___. :: Day
 The idiom meaning to boast: to blow your own ___. :: Trumpet
-The idiom meaning to be very close to winning: neck and ___. :: Neck
+Two runners side by side to the very end are said to be this, one body part said twice. :: Neck and neck
 The idiom meaning to suddenly understand: the penny ___. :: Drops
 The idiom meaning to stay calm: to keep a level ___. :: Head
 The idiom for a long, boring wait: watching this dry. :: Paint
-The idiom for the biggest share: the lion's ___. :: Share
+The biggest part of something is called this big cat's share. :: The lion's share
 The idiom for a false show of sadness: crocodile ___. :: Tears
 The idiom for something done quickly with no rest: in one ___. :: Fell swoop
 "Every rose has its ___." :: Thorn
@@ -396,7 +396,7 @@ The Arabic proverb about your tongue as a horse ends: if you guard it, it guards
 The Arabic saying "Al-'ilm fi al-sighar ka al-naqsh 'ala al-hajar" compares learning when young to this. :: Carving in stone
 Al-Mutanabbi wrote that the best companion in this is a book. :: Time (all ages)
 The Arabic proverb "Kul fatat bi-abiha mu'jaba" says every girl is proud of this person. :: Her father
-The Arabic proverb "Ba'd khirab al-Basra" means doing something too late, after this city was ruined. :: Basra
+The Arabic proverb 'ba'd khirab ___' (after the ruin of this city) means help that comes too late. :: Basra
 The Arabic proverb "Al-qird fi 'ayn ummihi ghazal" says a monkey in its mother's eyes is this. :: A gazelle
 The English equivalent of "a monkey in its mother's eyes is a gazelle". :: Beauty is in the eye of the beholder
 The Arabic proverb "Aakhir al-dawa' al-kayy" says the last remedy is this. :: Cauterisation (branding)
@@ -500,7 +500,7 @@ The Arabic saying "Hal yuslih al-'attar ma afsad al-dahr" means this. :: You can
 The Arabic proverb "Al-sadiq waqt al-dhiq" says a true friend appears at this time. :: Times of hardship
 The English equivalent of "Al-sadiq waqt al-dhiq". :: A friend in need is a friend indeed
 The Arabic proverb "Zamar al-hayy la yutrib" (the neighbourhood's piper doesn't please) matches this English saying. :: Familiarity breeds contempt
-The Arabic proverb "Al-hadid bil-hadid yuflah" says iron is cut by this. :: Iron
+The Arabic proverb 'al-hadid bil-hadid yuflah' says this metal can only be cut by itself. :: Iron
 The proverb "As the twig is bent, so grows ___." :: The tree
 The Arabic proverb "Ibn al-wazz 'awwam", similar to "the apple doesn't fall far from the tree", means this. :: The son of a duck is a swimmer
 "Hunger is the best ___." :: Sauce

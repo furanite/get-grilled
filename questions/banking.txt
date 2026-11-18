@@ -194,7 +194,7 @@ A bank that only accepts deposits and lends in one local area. :: Community bank
 A cooperative bank owned by its members. :: Credit union
 Money a bank holds in its own vault or at the central bank. :: Reserves
 The 1933 bank holiday was declared by this US president. :: Franklin D. Roosevelt
-The 'zero lower bound' problem means central banks can't easily cut rates below this. :: Zero
+The limit that stops central banks from easily cutting interest rates below 0% is called this. :: The zero lower bound
 The global group of central banks that sets bank capital standards. :: Basel Committee on Banking Supervision
 The famous 18th-century Frankfurt banking dynasty with five sons in five cities. :: Rothschild
 The Fed's 'discount window' lends to banks at this rate. :: The discount rate (primary credit rate)

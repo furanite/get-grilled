@@ -321,8 +321,8 @@ The price of a zero-coupon bond paying 1,000 in two years when the yield is 5%. 
 ## 400
 The 1990 Nobel Prize in economics went to Markowitz, Sharpe and this economist. :: Merton Miller
 The economist who first described the dividend discount model with constant growth in 1956. :: Myron Gordon (with Eli Shapiro)
-John Burr Williams set out the theory of investment value based on dividends in this 1938 book. :: The Theory of Investment Value
-Irving Fisher's 1930 book that set out the theory of interest and present value. :: The Theory of Interest
+John Burr Williams's 1938 book that set out valuing shares by their future dividends. :: The Theory of Investment Value
+Irving Fisher's 1930 book explaining why people prefer money now to money later. :: The Theory of Interest
 The 'Fisher separation theorem' says investment decisions don't depend on what owners prefer about this. :: Consumption preferences
 Fama's paper that set out the efficient markets classification was published in this year. :: 1970
 The ratio of a firm's market leverage that minimises its WACC is called this. :: Optimal (target) capital structure
@@ -330,7 +330,7 @@ The cost of equity for a firm with unlevered cost 10%, cost of debt 6%, D/E of 0
 The unlevered beta of a firm with levered beta 1.3, D/E 0.5 and tax 20%. :: About 0.93
 Graham and Harvey's 2001 survey found most CFOs used this for project decisions. :: NPV and IRR
 Graham and Harvey's survey found most CFOs estimated the cost of equity with this model. :: CAPM
-The Damodaran estimate of a country risk premium is added to account for this. :: Country (sovereign) risk
+Aswath Damodaran adds this premium to the cost of equity of firms that operate in riskier countries. :: Country risk premium
 The 'beta' of debt is usually assumed to be close to this. :: Zero
 The firm's cost of capital when it has no debt. :: Unlevered cost of capital (asset cost of capital)
 The capital cash flow method discounts FCF plus interest tax shields at this rate. :: Pre-tax WACC (unlevered cost of capital)
@@ -467,7 +467,7 @@ The cash conversion cycle of Dell in the late 1990s was famous because it was th
 The Altman Z-score's 'grey zone' for public manufacturers lies roughly between these numbers. :: 1.81 and 2.99
 Ohlson's 1980 O-score predicts this. :: Bankruptcy (default)
 In the Merton model, the 'distance to default' measures standard deviations between asset value and this. :: The default point (debt)
-The credit spread of a firm rises as its asset volatility does this. :: Rises
+In Merton's model, when a firm's asset volatility goes up, its credit spread does this. :: Widens (rises)
 In the Merton framework, risky debt = risk-free debt minus this. :: A put option on the firm's assets
 The term 'agency costs of free cash flow' was coined by this author. :: Michael Jensen
 Shleifer and Vishny's 1989 paper on 'management entrenchment' says managers invest in assets that make them this. :: Hard to replace

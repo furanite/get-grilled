@@ -101,7 +101,7 @@ The international police organisation. :: Interpol
 The world body that sets rules for trade. :: The WTO
 The canal that links the Red Sea and the Mediterranean. :: The Suez Canal
 The 1945 Nuremberg trials tried leaders of this country. :: Nazi Germany
-The 1946 convention that set up the International Whaling Commission is about this. :: Whaling
+The 1946 convention that set up the IWC regulates the hunting of these animals. :: Whales (whaling)
 The first Arab and Muslim in space, a Saudi prince. :: Prince Sultan bin Salman
 
 ## 200
@@ -388,7 +388,7 @@ The UN resolution number of the 1974 definition of aggression. :: 3314
 The Montreux Convention of 1936 regulates these straits. :: The Turkish Straits (Bosporus and Dardanelles)
 The UNCLOS article saying islands that can't sustain human life have no EEZ. :: Article 121(3)
 The baseline for measuring maritime zones is usually this. :: The low-water line
-Bays and archipelagos can use these straight baselines. :: Straight baselines
+Under UNCLOS, a deeply indented coast can measure its sea from these lines joining headlands, instead of the low-water line. :: Straight baselines
 The continental shelf can extend up to this many nautical miles in some cases. :: 350
 The commission that reviews claims to an extended continental shelf. :: The Commission on the Limits of the Continental Shelf
 The 2023 UN treaty to protect ocean life on the high seas. :: The High Seas Treaty (BBNJ Agreement)

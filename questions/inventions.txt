@@ -52,7 +52,7 @@ The country that launched the first satellite, Sputnik, in 1957. :: The Soviet U
 The first man to walk on the Moon. :: Neil Armstrong
 The machine that pumps water and was powered by steam in early mines. :: The steam engine
 The Scottish engineer famous for improving the steam engine. :: James Watt
-The unit of power named after James Watt. :: Watt
+The SI unit of power is named after this Scottish improver of the steam engine. :: James Watt
 The ancient Egyptian writing material made from a reed. :: Papyrus
 The ancient people who invented cuneiform writing. :: The Sumerians
 The scientist who discovered that lightning is electricity using a kite. :: Benjamin Franklin

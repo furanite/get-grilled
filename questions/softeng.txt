@@ -41,7 +41,7 @@ The website owned by Microsoft that hosts Git repositories. :: GitHub
 A project folder tracked by Git. :: Repository
 A saved snapshot of changes in Git. :: Commit
 A separate line of development in Git. :: Branch
-The usual name of Git's main branch today. :: main
+Since 2020, GitHub has given a new repository's default branch this name. :: main
 The Git command that uploads commits to a remote. :: git push
 The Git command that downloads and merges remote changes. :: git pull
 The situation when two people changed the same lines and Git cannot merge them alone. :: Merge conflict
@@ -246,7 +246,7 @@ The pattern that creates objects by copying an existing one. :: Prototype
 The pattern that controls access to another object, such as for lazy loading. :: Proxy
 The pattern that treats single objects and groups the same way in a tree. :: Composite
 The pattern that defines an algorithm's skeleton and lets subclasses fill in steps. :: Template method
-The pattern that lets an object change behaviour when its internal state changes. :: State
+The design pattern in which an object seems to change its class when its internal condition changes. :: State
 The pattern that passes a request along a chain of handlers. :: Chain of responsibility
 The pattern that walks through a collection without exposing its structure. :: Iterator
 The pattern that shares many small objects to save memory. :: Flyweight
@@ -445,7 +445,7 @@ The 1984 approach by Knuth that mixes code and explanation in one document. :: L
 Dijkstra's 1972 Turing lecture title. :: The Humble Programmer
 Dijkstra's remark: testing can show the presence of bugs but never their this. :: Absence
 Tony Hoare's 1980 Turing lecture: "The Emperor's Old ___". :: Clothes
-Hoare's saying: one way to design software makes it so simple there are obviously no deficiencies; the other makes it so complicated there are no obvious ___. :: Deficiencies
+Hoare: 'One way is to make it so simple that there are obviously no ___, and the other way is to make it so complicated that there are no obvious ___.' :: Deficiencies
 Wirth's 1971 paper "Program Development by Stepwise ___". :: Refinement
 Wirth's law says software is getting slower more rapidly than this is getting faster. :: Hardware
 The 1980 Lehman classification of programs into S, P and this type. :: E (embedded in the real world)

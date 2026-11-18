@@ -18,7 +18,7 @@ Producing no more carbon than you remove. :: Net zero
 Using natural air flow to cool a building. :: Natural ventilation
 Air flowing through windows on opposite sides of a room. :: Cross ventilation
 A machine that cools air in a building. :: An air conditioner
-Shading a window from the sun to keep a room cool. :: Shading
+Overhangs, fins and louvres that keep the sun off a window are all kinds of this. :: Shading (solar shading)
 A roof edge that sticks out to shade windows. :: An overhang
 Blinds on the outside of a window. :: External shading (louvres)
 Planting trees near a building to cool it. :: Natural shading
@@ -246,7 +246,7 @@ The ratio of indoor to outdoor light under an overcast sky. :: Daylight factor
 A daylight factor of this percent or more is often called well lit. :: 2%
 A horizontal shelf that bounces daylight deep into a room. :: A light shelf
 A tube with a mirror lining that brings sunlight into a room. :: A light tube (sun pipe)
-A sawtooth roof with windows facing one way for even light. :: A sawtooth (north-light) roof
+A factory roof made of a row of ridges, each with windows facing one way for even daylight. :: A sawtooth (north-light) roof
 Glare is measured with this index. :: Daylight glare probability (DGP)
 The traditional rooftop screen walls in Najd that give privacy. :: Parapets with triangular openings (shurfat)
 The small triangular openings in Najdi walls are for this. :: Light and ventilation

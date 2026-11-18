@@ -178,7 +178,7 @@ Failure stress divided by allowable working stress. :: Factor of safety
 A material that breaks with little plastic deformation. :: Brittle
 A material that stretches a lot before it breaks. :: Ductile
 Cast iron is usually this kind of material. :: Brittle
-Strain caused by a temperature change equals α times this. :: Temperature change (ΔT)
+Thermal strain equals α, the coefficient of expansion, times this. :: The temperature change (ΔT)
 The symbol α in thermal strain stands for this. :: Coefficient of thermal expansion
 Gaps left in bridges and rails to allow thermal growth. :: Expansion joints
 Stress that builds up when thermal expansion is prevented. :: Thermal stress
@@ -285,7 +285,7 @@ Increasing the sag of a cable does this to its tension. :: Reduces it
 The point where a hanging chain's tension equals its horizontal component. :: The lowest point
 A space truss joint has this many equilibrium equations. :: Three
 A tetrahedron is the basic stable unit of this kind of structure. :: Space truss
-A structure that carries load mainly through membrane forces in a curved shell. :: Shell (dome)
+A thin curved structure, like a dome or an eggshell, that carries load mainly by membrane forces. :: Shell
 Hoop stresses in a hemispherical dome under its own weight become tensile below this angle from the crown. :: About 52 degrees
 Friction on a journal bearing is often modelled with this circle. :: Friction circle
 A rope wrapped 1.5 turns around a post with μ = 0.3 multiplies the holding force by about this. :: About 17 times

@@ -483,7 +483,7 @@ The microcontroller that handled Ingenuity's flight control safety, an automotiv
 The embedded engineer whose 'Embedded C Coding Standard' is widely used. :: Michael Barr
 The magazine-founded conference for embedded engineers held in Silicon Valley. :: Embedded Systems Conference (ESC)
 The Raspberry Pi product line for industrial use, like the CM4. :: Compute Module
-The low-cost board from China that runs Linux on a RISC-V chip, like the Milk-V Duo. :: Milk-V
+The Chinese maker whose tiny 'Duo' board runs Linux on a RISC-V chip for a few dollars. :: Milk-V
 The ultra-cheap 32-bit RISC-V microcontroller from WCH costing about 10 cents. :: CH32V003
 The company that became the world's largest microcontroller maker by revenue in 2023. :: Infineon
 The ATmega328P's ADC clock should be between 50 kHz and this for full 10-bit resolution. :: 200 kHz

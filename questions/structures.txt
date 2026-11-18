@@ -174,7 +174,7 @@ A beam that rests on two supports. :: A simply supported beam
 Name this beam set-up. {img:beam-simple.svg} :: Simply supported beam
 A beam over three or more supports. :: A continuous beam
 The engineer of the Sydney Opera House shells. :: Ove Arup
-The engineering firm founded by Ove Arup. :: Arup
+The global engineering firm founded in London in 1946 by Sir Ove ___. :: Arup
 The structural system of Burj Khalifa. :: The buttressed core
 The Bangladeshi-American engineer of the tube system. :: Fazlur Rahman Khan
 The "bundled tube" was first used in this tower. :: The Sears (Willis) Tower

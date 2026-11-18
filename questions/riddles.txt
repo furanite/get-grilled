@@ -476,7 +476,7 @@ The puzzle with three missionaries and three cannibals crossing a river: the min
 The logician who wrote "What Is the Name of This Book?" full of knights-and-knaves puzzles. :: Raymond Smullyan
 On Smullyan's island, knights always tell the truth and these always lie. :: Knaves
 A knight or knave says "I am a knave". This is the problem with that. :: It's impossible for either to say it
-The puzzle about 100 prisoners and a light bulb, with one counter. :: 100 prisoners and a light bulb
+The puzzle in which one prisoner, the counter, uses a single lamp to learn when all 100 prisoners have visited a room. :: The 100 prisoners and a light bulb
 In the 100 prisoners and boxes problem, the loop strategy gives roughly this chance of success. :: About 31 percent
 The number of ways to arrange the letters of "RIDDLE". :: 360
 The number of moves for a knight to get from one corner of a chessboard to the opposite corner, minimum. :: 6
