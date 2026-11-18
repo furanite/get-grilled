@@ -54,6 +54,8 @@ async function run(lang, theme) {
   if (theme === 'heritage') await page.clock.setSystemTime(new Date('2026-11-13T10:00:00Z'))
   try {
     await page.goto(URL)
+    // Accept the Terms pop-up if this edition's Terms version is newer than the one we saved.
+    if (await page.getByTestId('consent-agree').count()) { await page.getByTestId('consent-agree').check(); await page.getByTestId('consent-accept').click() }
     const [aud] = await Promise.all([ctx.waitForEvent('page'), page.getByTestId('audience-toggle').click()])
     await aud.waitForSelector('[data-testid="audience"]')
     aud.on('pageerror', (e) => errors.push(`audience ${lang}/${theme}: ${e.message}`))
@@ -81,6 +83,8 @@ async function run(lang, theme) {
     await page.getByTestId('start').click(); await page.waitForSelector('.tile')
     await aud.waitForSelector('[data-aud-tile]'); await check('board')
     await page.click('[data-tile="0-4"]'); await page.waitForSelector('.card.open')
+    // A golden tile says what it is first.
+    await page.waitForTimeout(900); if (await page.getByTestId('intro-next').count()) await page.getByTestId('intro-next').click()
     await aud.waitForSelector('[data-testid="audience-clue"]'); await check('clue')
     await page.getByTestId('reveal').click(); await aud.waitForSelector('[data-testid="audience-answer"]'); await check('answer')
     await page.keyboard.press('Digit1'); await aud.waitForSelector('[data-testid="audience-clue"]', { state: 'detached' })

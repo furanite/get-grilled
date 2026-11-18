@@ -37,7 +37,7 @@ export function scan() {
   for (const box of document.body.querySelectorAll('*')) {
     const d = getComputedStyle(box).display
     if (!/grid|flex/.test(d) || box.children.length < 2 || box.children.length > 80 || !visible(box)) continue
-    const kids = [...box.children].filter((k) => { const cs = getComputedStyle(k); return cs.position !== 'absolute' && cs.position !== 'fixed' && cs.display !== 'none' && visible(k) }).map((k) => [k, k.getBoundingClientRect()]).filter(([, r]) => r.width > 2 && r.height > 2)
+    const kids = [...box.children].filter((k) => { const cs = getComputedStyle(k); return !['absolute', 'fixed', 'sticky'].includes(cs.position) && cs.display !== 'none' && visible(k) }).map((k) => [k, k.getBoundingClientRect()]).filter(([, r]) => r.width > 2 && r.height > 2)
     for (let i = 0; i < kids.length; i++) for (let j = i + 1; j < kids.length; j++) {
       const a = kids[i][1], b = kids[j][1]
       const ox = Math.min(a.right, b.right) - Math.max(a.left, b.left)

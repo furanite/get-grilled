@@ -10,6 +10,7 @@ import { RoundCard } from './Tournament'
 import { VoteBoard, type VoteState } from './Vote'
 import TileIntro from './TileIntro'
 import FitBox from './FitBox'
+import { qLen } from '../lib/qlen'
 import type { Live } from '../lib/edition'
 import { setFavicon } from '../lib/favicon'
 import { Ambient, CatIcon, Flourish, FlourishAbove, Mark } from './Brand'
@@ -394,7 +395,7 @@ function AudienceView({ t, lang, theme, screen, game, live, vote, win }: { t: St
               <TileIntro t={t} clue={clue} big />
             ) : (
               <>
-                <p className="q" dir="auto" data-testid="audience-question">
+                <p className="q" dir="auto" data-len={qLen(lang === 'ar' && clue.qAr ? clue.qAr : clue.q)} data-testid="audience-question">
                   {lang === 'ar' && clue.qAr ? clue.qAr : clue.q}
                 </p>
                 {clue.img && (

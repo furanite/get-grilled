@@ -690,6 +690,8 @@ body{overflow-wrap:break-word}
 .card .answer,.aud-card .answer{flex:none}
 .aud-card .q{font-size:calc(clamp(22px,min(4.4vw,7.4vh),84px) * var(--fit,1))}
 .aud-card .answer{font-size:calc(clamp(20px,min(3.4vw,5.8vh),64px) * var(--fit,1))}
+.aud-card .q[data-len="l"]{font-size:calc(clamp(20px,min(3.6vw,6vh),64px) * var(--fit,1))}
+.aud-card .q[data-len="xl"]{font-size:calc(clamp(18px,min(3vw,5vh),52px) * var(--fit,1))}
 .aud-card,.aud-card .q,.card-in{min-width:0}
 /* On the big screen the board fills the window: no theme's tile shape may make the rows taller than their share. */
 :root[data-theme] .aud-stage .tile{aspect-ratio:auto;min-height:0}
