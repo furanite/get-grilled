@@ -8,10 +8,10 @@ group: prophets
 The city where our Beloved Prophet ﷺ was born. :: Makkah || H: Sirat Ibn Hisham
 The year of our Beloved Prophet's ﷺ birth is known by this name. :: The Year of the Elephant || H: Sirat Ibn Hisham
 The month of our Beloved Prophet's ﷺ birth, by the most famous view. :: Rabi' al-Awwal || H: Sirat Ibn Hisham
-The father of our Beloved Master ﷺ, who died before He ﷺ was born. :: 'Abdullah ibn 'Abd al-Muttalib || H: Sirat Ibn Hisham
+The father of our Beloved Master ﷺ, who passed away before He ﷺ was born. :: 'Abdullah ibn 'Abd al-Muttalib || H: Sirat Ibn Hisham
 The mother of our Beloved Prophet ﷺ. :: Aminah bint Wahb || H: Sirat Ibn Hisham
 The wet-nurse of our Beloved Prophet ﷺ in the desert. :: Halimah al-Sa'diyyah ﵂ || H: Sirat Ibn Hisham
-The grandfather who cared for our Beloved Prophet ﷺ after His ﷺ mother died. :: 'Abd al-Muttalib || H: Sirat Ibn Hisham
+The grandfather who cared for our Beloved Prophet ﷺ after His ﷺ mother passed away. :: 'Abd al-Muttalib || H: Sirat Ibn Hisham
 The uncle who raised and protected our Beloved Prophet ﷺ. :: Abu Talib || H: Sirat Ibn Hisham
 The title the people of Makkah gave our Beloved Prophet ﷺ for His ﷺ honesty. :: al-Amin (the Trustworthy) || H: Sirat Ibn Hisham
 Our Beloved Master's ﷺ first wife, a noble merchant woman. :: Our lady Khadijah bint Khuwaylid ﵂ || H: Sirat Ibn Hisham
@@ -35,9 +35,9 @@ Having lost His ﷺ father before birth, our Beloved Prophet ﷺ grew up as this
 
 ## 200
 Our Beloved Prophet ﷺ was born in this year, by the common estimate. :: 53 BH / 570 CE || H: Sirat Ibn Hisham; common estimate
-Our Beloved Prophet ﷺ was this age when His ﷺ mother died. :: 6 || H: Sirat Ibn Hisham
-The place where our Beloved Prophet's ﷺ mother died, on the way back from Madinah. :: al-Abwa' || H: Sirat Ibn Hisham
-Our Beloved Prophet ﷺ was this age when His ﷺ grandfather 'Abd al-Muttalib died. :: 8 || H: Sirat Ibn Hisham
+Our Beloved Prophet ﷺ was this age when His ﷺ mother passed away. :: 6 || H: Sirat Ibn Hisham
+The place where our Beloved Prophet's ﷺ mother passed away, on the way back from Madinah. :: al-Abwa' || H: Sirat Ibn Hisham
+Our Beloved Prophet ﷺ was this age when His ﷺ grandfather 'Abd al-Muttalib passed away. :: 8 || H: Sirat Ibn Hisham
 Our Beloved Master ﷺ worked as a young man looking after these. :: Sheep || H: Sahih al-Bukhari
 Our Beloved Prophet ﷺ was this age when He ﷺ married our lady Khadijah ﵂. :: 25 || H: Sirat Ibn Hisham
 The servant of our lady Khadijah ﵂ who travelled with our Beloved Prophet ﷺ on her trade to al-Sham. :: Maysarah || H: Sirat Ibn Hisham
@@ -53,7 +53,7 @@ The Companion who spoke for the Muslims before al-Najashi. :: Our master Ja'far 
 The surah our master Ja'far ﵁ recited to al-Najashi. :: Surah Maryam || H: Musnad Ahmad (report of Umm Salamah)
 The boycott of Banu Hashim lasted about this many years. :: 3 || H: Sirat Ibn Hisham
 The valley where Banu Hashim were besieged. :: Shi'b Abi Talib || H: Sirat Ibn Hisham
-The "Year of Sorrow" was when these two died (meaning). :: Our lady Khadijah ﵂ and Abu Talib || H: Sirat Ibn Hisham
+The "Year of Sorrow" is named after the loss of these two (meaning). :: Our lady Khadijah ﵂ and Abu Talib || H: Sirat Ibn Hisham
 The wife of Abu Lahab, called "the carrier of firewood" in the Qur'an. :: Umm Jamil (Arwa bint Harb) || H: Tafsir al-Tabari, Qur'an 111:4
 "And warn your nearest kin" (meaning), the command to our Beloved Prophet ﷺ to call His ﷺ family, is in this surah. :: Surah al-Shu'ara' (26:214) || H: Sahih al-Bukhari
 The freedman, once adopted by our Beloved Prophet ﷺ, who was among the very first to accept Islam. :: Zayd ibn Harithah ﵁ || H: Sirat Ibn Hisham
@@ -123,7 +123,7 @@ The Companion from Ghifar who declared his Islam aloud at the Ka'bah and was bea
 
 ## 500
 The scholar who wrote al-Sirah, the earliest major biography, later edited by Ibn Hisham رحمة الله عليه. :: Ibn Ishaq رحمة الله عليه || H: Sirat Ibn Hisham, introduction
-Ibn Hisham رحمة الله عليه died in this year. :: 218 AH / 833 CE (some say 213) || H: Wafayat al-A'yan (Ibn Khallikan)
+Ibn Hisham رحمة الله عليه passed away in this year. :: 218 AH / 833 CE (some say 213) || H: Wafayat al-A'yan (Ibn Khallikan)
 The Andalusian commentary on Ibn Hisham's Sirah by al-Suhayli رحمة الله عليه. :: al-Rawd al-Unuf || H: al-Rawd al-Unuf
 The book of Qadi 'Iyad رحمة الله عليه on our Beloved Prophet's ﷺ rights and qualities. :: al-Shifa || H: al-Shifa
 The Blessed Seerah by al-Halabi رحمة الله عليه, widely read in Ottoman lands. :: al-Sirah al-Halabiyyah || H: al-Sirah al-Halabiyyah
@@ -146,4 +146,4 @@ Abu Talib's long poem in defence of our Beloved Prophet ﷺ, named after its rhy
 The Quraysh man who led the effort to end the boycott of Banu Hashim. :: Hisham ibn 'Amr || H: Sirat Ibn Hisham
 The chief of Daws who stuffed his ears with cotton, then heard the Qur'an and accepted Islam. :: al-Tufayl ibn 'Amr al-Dawsi ﵁ || H: Sirat Ibn Hisham
 The uncle of our Beloved Prophet ﷺ who came with Him ﷺ to the second pledge of 'Aqabah, by Ibn Ishaq's رحمة الله عليه report. :: Our master al-'Abbas ibn 'Abd al-Muttalib ﵁ || H: Sirat Ibn Hisham
-Ibn Ishaq رحمة الله عليه died in about this year. :: About 150 AH / 767 CE (reports say 150 to 153) || H: Tarikh Baghdad (al-Khatib al-Baghdadi)
+Ibn Ishaq رحمة الله عليه passed away in about this year. :: About 150 AH / 767 CE (reports say 150 to 153) || H: Tarikh Baghdad (al-Khatib al-Baghdadi)

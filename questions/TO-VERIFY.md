@@ -77,7 +77,7 @@ This file is rewritten by `npm run packs`.
 ## Nahw (grammar) (questions/isl-nahw.txt)
 
 - **500**, line 135: The commentary on al-Ajurrumiyyah by Khalid al-Azhari ⁨رحمة الله عليه⁩. **Answer:** Sharh al-Azhariyyah _(Source: Title to be checked)_
-- **500**, line 144: The Kufan grammarian reported to have said he would die with something still in his heart about "hatta". **Answer:** al-Farra' ⁨رحمة الله عليه⁩ _(Source: Mughni al-Labib (Ibn Hisham); to be checked)_
+- **500**, line 144: The Kufan grammarian reported to have said he would pass away with something still in his heart about "hatta". **Answer:** al-Farra' ⁨رحمة الله عليه⁩ _(Source: Mughni al-Labib (Ibn Hisham); to be checked)_
 - **500**, line 147: The Basran grammarian, student of al-Khalil, who wrote "Ma'ani al-Qur'an" and taught Sibawayh's ⁨رحمة الله عليه⁩ما book. **Answer:** al-Akhfash al-Awsat ⁨رحمة الله عليه⁩ _(Source: Bughyat al-Wu'at (al-Suyuti); to be checked)_
 
 ## Nasheeds: Africa and the Maghrib (questions/isl-nasheed-africa.txt)
@@ -98,7 +98,7 @@ This file is rewritten by `npm run packs`.
 
 - **400**, line 45: The famous Arabic quatrain on our Beloved Prophet ﷺ beginning "Balagha al-'ula bi-kamalihi" is credited to this poet. **Answer:** Sa'di ⁨رحمة الله عليه⁩ (by the common attribution) _(Source: Standard attribution; not in all old copies of his works)_
 - **400**, line 46: 'Attar ⁨رحمة الله عليه⁩ is said to have been killed in this event in Nishapur. **Answer:** The Mongol conquest (618 AH / 1221 CE) _(Source: Standard history; the report is not certain)_
-- **400**, line 48: Nizami ⁨رحمة الله عليه⁩ died in about this year. **Answer:** 605 AH / 1209 CE _(Source: Standard history; dates differ)_
+- **400**, line 48: Nizami ⁨رحمة الله عليه⁩ passed away in about this year. **Answer:** 605 AH / 1209 CE _(Source: Standard history; dates differ)_
 - **500**, line 58: Nizami's ⁨رحمة الله عليه⁩ "Makhzan al-Asrar" has four passages in praise of our Beloved Prophet ﷺ, including one on this event. **Answer:** The Mi'raj _(Source: Makhzan al-Asrar; check the count)_
 
 ## Nasheeds: Southeast Asia (questions/isl-nasheed-seasia.txt)
@@ -185,7 +185,7 @@ This file is rewritten by `npm run packs`.
 - **400**, line 166: The Hanafi scholar who wrote Ahkam al-Qur'an, d. 370 AH / 981 CE. **Answer:** Abu Bakr al-Jassas ⁨رحمة الله عليه⁩ _(Source: Ahkam al-Qur'an (al-Jassas); some biographers say al-Jassas leaned to Mu'tazili views, so check before using)_
 - **400**, line 192: The tafsir by Ibn 'Abd al-Salam ⁨رحمة الله عليه⁩, the "Sultan of the Scholars", is a summary of this (meaning). **Answer:** al-Mawardi's ⁨رحمة الله عليه⁩ tafsir al-Nukat wal-'Uyun _(Source: Check which tafsir Ibn 'Abd al-Salam summarised)_
 - **400**, line 196: The word "huda" (guidance) has this many meanings in that literature, around. **Answer:** About 17 _(Source: Count in Muqatil's al-Wujuh; later books differ, to be checked)_
-- **400**, line 198: The tafsir of al-Baydawi ⁨رحمة الله عليه⁩ was finished in this city. **Answer:** Tabriz _(Source: Check: al-Baydawi died in Tabriz; where he finished it is uncertain)_
+- **400**, line 198: The tafsir of al-Baydawi ⁨رحمة الله عليه⁩ was finished in this city. **Answer:** Tabriz _(Source: Check: al-Baydawi passed away in Tabriz; where he finished it is uncertain)_
 - **500**, line 245: The tafsir "Tafsir al-Mawahib al-'Aliyyah" (in Persian) is by this Herat scholar. **Answer:** Husayn Wa'iz al-Kashifi _(Source: Check his creed before giving an honorific)_
 
 ## Fiqh: Cleanliness (Taharah) (questions/isl-taharah.txt)
