@@ -7,7 +7,7 @@ group: arabic
 The science of eloquent Arabic, fitting speech to its situation. :: Balagha || H: Durus al-Balaghah
 The three branches of balagha. :: Ma'ani, bayan, badi' || H: Talkhis al-Miftah (al-Qazwini)
 A comparison of one thing with another, like "he is like a lion" (meaning). :: Tashbih (simile) || H: Durus al-Balaghah
-A comparison with the "like" word and one side dropped, "a lion spoke". :: Isti'arah (metaphor) || H: Durus al-Balaghah
+A comparison with no "like" word and one side dropped, as in "a lion spoke" for a brave man. :: Isti'arah (metaphor) || H: Durus al-Balaghah
 Saying one thing but meaning something linked to it, like "long of sword-belt" for tall. :: Kinayah || H: Durus al-Balaghah
 Words that sound alike but differ in meaning. :: Jinas || H: Durus al-Balaghah
 Putting opposites together, like day and night. :: Tibaq || H: Durus al-Balaghah
