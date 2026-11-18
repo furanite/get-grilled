@@ -219,7 +219,7 @@ The scientist who proposed absolute temperature in 1848. :: William Thomson (Lor
 The German engineer who patented the compression-ignition engine in 1892. :: Rudolf Diesel
 The unit of power Watt invented to compare engines with horses. :: Horsepower
 Fourier's 1822 book on heat introduced this mathematical tool. :: Fourier series
-The French engineer who discovered the Peltier effect. :: Jean Charles Athanase Peltier
+The French physicist who discovered the Peltier effect. :: Jean Charles Athanase Peltier
 Ras Al-Khair uses both thermal desalination and this membrane method. :: Reverse osmosis
 The arrow of time is often linked to the increase of this. :: Entropy
 The radiation by which black holes slowly lose energy. :: Hawking radiation
@@ -444,7 +444,7 @@ The French physicist who measured specific heats of gases precisely for the 1847
 The engineer who wrote the 1859 Manual of the Steam Engine and Other Prime Movers. :: William Rankine
 The physicist who first measured the speed of molecules with a rotating drum experiment in 1920. :: Otto Stern
 The industrial process to make ammonia that depends on high-pressure equilibrium thermodynamics. :: Haber–Bosch process
-The highest air temperature reliably recorded on Earth, in Death Valley in 1913. :: 56.7 °C
+The highest air temperature officially recorded on Earth, in Death Valley in 1913. :: 56.7 °C
 The temperature of the Earth's core, roughly. :: About 5,000 to 6,000 °C
 The world's first nuclear power plant to supply a grid opened in 1954 in this Soviet town. :: Obninsk
 The coolant pressure in a typical pressurised-water reactor, roughly. :: About 15.5 MPa
@@ -485,7 +485,7 @@ The unusual kind of temperature that Purcell and Pound demonstrated in nuclear s
 The Swiss company that built the first utility gas turbine for power generation, at Neuchâtel in 1939. :: Brown Boveri (BBC)
 The engineers who independently invented the turbojet in the 1930s. :: Frank Whittle and Hans von Ohain
 The first jet-powered aircraft to fly, in 1939. :: Heinkel He 178
-The engineer who invented the Thermos flask in 1892. :: James Dewar
+The scientist who invented the vacuum (Thermos) flask in 1892. :: James Dewar
 The space probes that use radioisotope thermoelectric generators to run in deep space. :: Voyager (and Cassini, Curiosity)
 The fuel in most RTGs. :: Plutonium-238
 The full name of the Saudi body known as K.A.CARE, set up in 2010. :: King Abdullah City for Atomic and Renewable Energy

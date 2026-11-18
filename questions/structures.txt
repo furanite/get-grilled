@@ -272,7 +272,7 @@ Name this London bridge type, with lifting parts. {img:lm-tower-bridge.svg} :: A
 A bridge built out from piers in both directions to meet in the middle. :: A balanced cantilever bridge
 The engineer of the Forth Bridge in Scotland. :: John Fowler and Benjamin Baker
 The King Fahd Causeway between Saudi Arabia and Bahrain is about this long. :: 25 kilometres
-The steel used in the Eiffel Tower. :: Puddled (wrought) iron
+The kind of iron used to build the Eiffel Tower. :: Puddled (wrought) iron
 The Eiffel Tower is about this many metres tall today. :: 330
 The Eiffel Tower grows in summer by about this much. :: 15 centimetres
 Wood shrinks most in this direction. :: Across the grain (tangentially)

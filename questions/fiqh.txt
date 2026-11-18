@@ -296,7 +296,7 @@ Proportional reduction of shares when they exceed the estate. :: 'Awl
 Return of the leftover estate to fixed-share heirs. :: Radd
 Relatives who inherit only when there are no fixed-share heirs or 'asabah, such as a daughter's son. :: Dhawu al-arham
 The ruling that a son receives double a daughter's share is in this verse. :: Surat al-Nisa', verse 11
-The Quran verse that ends with "These are the limits of Allah" about inheritance. :: Surat al-Nisa', verse 13
+The Quran verse that begins "These are the limits of Allah" after the inheritance shares. :: Surat al-Nisa', verse 13
 The verse of kalalah, a person with no parents or children, is the last verse of this surah. :: Surat al-Nisa'
 The jurist Companion called "the most knowledgeable of halal and haram" in a hadith. :: Mu'adh ibn Jabal ﵁
 The Companion called "the best judge" among them in a hadith. :: Ali ibn Abi Talib ﵁
@@ -454,7 +454,7 @@ The Saudi scholar Muhammad ibn Ibrahim ﵀ was the first to hold this office. ::
 Ibn Taymiyyah's collected fatwas fill this many volumes in the common edition. :: 37 (Majmu' al-Fatawa)
 The scholar who collected and arranged "Majmu' al-Fatawa" of Ibn Taymiyyah. :: Abd al-Rahman ibn Qasim
 Ibn Taymiyyah was famous for a ruling that three divorces said at once count as this. :: One divorce
-That view was adopted in the law of several countries, against the view of these four schools. :: The four schools (which count three)
+Counting three divorces said at once as one, adopted in several countries' laws, goes against the view of these. :: The four schools (which count three)
 The Hanbali view, followed by the Saudi Personal Status Law, on a divorce said in anger that takes away awareness. :: It does not take effect
 The hadith "There is no divorce or freeing of slaves in ighlaq" refers to this. :: A state of being closed off (extreme anger or compulsion)
 The concept in Islamic law of "the rights of Allah" versus these. :: The rights of people (huquq al-'ibad)

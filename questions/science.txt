@@ -223,7 +223,7 @@ The ratio of an object's speed to the speed of sound. :: Mach number
 The Greek scientist who discovered the law of buoyancy. :: Archimedes
 The protein that carries oxygen in red blood cells. :: Haemoglobin
 The neurotransmitter linked to reward and pleasure. :: Dopamine
-The hottest temperature reliably recorded on Earth's surface was in this place. :: Death Valley (Furnace Creek)
+The hottest air temperature officially recorded on Earth was in this place. :: Death Valley (Furnace Creek)
 
 ## 300
 The element with the highest melting point. :: Tungsten

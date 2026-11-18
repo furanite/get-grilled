@@ -312,8 +312,8 @@ The standard international forms for construction contracts. :: FIDIC contracts
 The FIDIC "Red Book" covers construction designed by this party. :: The employer
 A clause that lets a lender demand the whole loan at once after a missed payment. :: An acceleration clause
 A clause that keeps the seller as owner until the price is paid in full. :: Retention of title (Romalpa clause)
-The English rule that a court won't award damages for a breach without loss unless this. :: Nominal damages only
-The English case where a doctor was liable for misstatement by a bank's reference. :: Hedley Byrne v Heller (1964)
+The small token damages a court awards for a breach of contract that caused no real loss. :: Nominal damages
+The English case holding that a careless bank reference could create liability for misstatement, though a disclaimer saved the bank. :: Hedley Byrne v Heller (1964)
 The type of authority created when a principal makes it look like the agent has authority. :: Apparent (ostensible) authority
 A principal adopting an agent's unauthorised act later. :: Ratification
 The Byzantine emperor whose compilation is the "Corpus Juris Civilis". :: Justinian

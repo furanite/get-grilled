@@ -41,7 +41,7 @@ The flat device you type on to enter text into a computer. :: The keyboard
 The handheld device that moves a pointer on a computer screen. :: The mouse
 The scientist who discovered gravity, according to the story of the falling apple. :: Isaac Newton
 The Italian inventor of long-distance radio. :: Guglielmo Marconi
-The device that records and plays back moving pictures in homes and cinemas, first shown by the Lumière brothers. :: The film projector (cinematograph)
+The device that shows moving pictures on a screen, first shown publicly by the Lumière brothers. :: The film projector (cinematograph)
 The invention that lets people see across distances, demonstrated by John Logie Baird. :: Television
 The device used by doctors to listen to your heart. :: The stethoscope
 The device that measures temperature. :: The thermometer
@@ -234,7 +234,7 @@ The inventor of the flying shuttle for weaving in 1733. :: John Kay
 The invention by Edmund Cartwright in 1785 that mechanised weaving. :: The power loom
 The Scottish engineer who built roads with crushed stone, now called macadam. :: John Loudon McAdam
 The Belgian chemist who made the first commercial process for washing soda. :: Ernest Solvay
-The inventor of the first internal combustion engine to run on petrol, in 1876, using a four-stroke cycle. :: Nicolaus Otto
+The inventor of the first practical four-stroke internal combustion engine, in 1876. :: Nicolaus Otto
 The engine cycle named after Otto. :: Four-stroke cycle (Otto cycle)
 The inventor of the rotary engine used in some Mazda cars. :: Felix Wankel
 The invention patented by Bertha Benz's husband in 1886. :: The Benz Patent-Motorwagen

@@ -345,7 +345,7 @@ The language from which English got "shampoo", "pyjamas", and "bungalow". :: Hin
 The language from which English got "ketchup", via Malay. :: Hokkien Chinese
 The language from which English got "kayak". :: Inuit (Inuktitut)
 The language from which English got "tomato" and "chocolate". :: Nahuatl
-The language from which English got "boomerang" and "kangaroo". :: Guugu Yimidhirr (Aboriginal Australian)
+The language from which English got "kangaroo". :: Guugu Yimidhirr (Aboriginal Australian)
 The language from which English got "ski". :: Norwegian
 The language from which English got "tycoon". :: Japanese
 The language from which English got "caravan" and "bazaar". :: Persian

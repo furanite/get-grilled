@@ -218,7 +218,7 @@ The debugging method of explaining code line by line to a toy. :: Rubber duck de
 ## 300
 The US engineer whose 1970 paper is often cited as the origin of the Waterfall model. :: Winston Royce
 The term for the 1960s problems of late, over-budget, unreliable software. :: Software crisis
-The NASA software engineer often credited with coining "software engineering" during Apollo. :: Margaret Hamilton
+The MIT engineer often credited with coining "software engineering" during Apollo. :: Margaret Hamilton
 The 1975 book by Fred Brooks about managing the IBM OS/360 project. :: The Mythical Man-Month
 Brooks's law: adding people to a late software project makes it this. :: Later
 The 1986 essay by Fred Brooks saying no single technique will give a tenfold gain. :: No Silver Bullet

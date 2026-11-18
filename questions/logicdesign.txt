@@ -305,7 +305,7 @@ Combining two 1K × 8 chips to make a 2K × 8 memory needs this extra part. :: A
 The static RAM cell usually uses this many transistors. :: Six
 The dynamic RAM cell stores a bit as charge on this. :: A capacitor
 DRAM needs this regularly or it loses data. :: Refresh
-The EEPROM type erased with ultraviolet light through a window. :: EPROM
+The older memory chip, before EEPROM, erased with ultraviolet light through a window. :: EPROM
 The memory type in which a whole block is erased at once. :: Flash
 A CMOS inverter is made of one PMOS and one of these. :: NMOS
 In CMOS, the pull-up network uses this transistor type. :: PMOS

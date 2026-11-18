@@ -94,7 +94,7 @@ AI stands for this. :: Artificial intelligence
 The test proposed in 1950 to judge whether a machine can think like a human. :: Turing test
 The scientist the Turing test is named after. :: Alan Turing
 The woman often called the first computer programmer. :: Ada Lovelace
-A grid of rows and columns in a spreadsheet. :: Cells
+The boxes in a spreadsheet grid where rows and columns meet. :: Cells
 The spreadsheet program made by Microsoft. :: Excel
 The formula =SUM(A1:A3) does this. :: Adds cells A1 to A3
 The machine code that a CPU runs is made of these. :: Instructions in binary

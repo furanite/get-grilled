@@ -69,7 +69,7 @@ The Saudi industrial city on the Red Sea. :: Yanbu
 The Saudi city built near Rabigh by the sea. :: King Abdullah Economic City
 The famous long canal city in Italy. :: Venice
 The city famous for canals in the Netherlands. :: Amsterdam
-The Japanese capital, the world's largest metro area. :: Tokyo
+The Japanese capital, long ranked as the world's largest metro area. :: Tokyo
 The Indian megacity also called Bombay. :: Mumbai
 The UN agency for cities and housing. :: UN-Habitat
 A street with trees on both sides. :: An avenue (boulevard)
@@ -299,7 +299,7 @@ The Barcelona plan that closes inner streets of nine blocks to traffic. :: Super
 The Spanish city that removed cars from its centre in the 1990s. :: Pontevedra
 The Saudi Ministry of Municipalities' "humanizing cities" program aims to make streets this. :: Walkable and people-friendly
 The Riyadh Metro station designed by Zaha Hadid Architects. :: KAFD Metro Station
-The Riyadh Metro's architecturally famous station near the National Museum. :: Qasr Al-Hokm Station
+The Riyadh Metro station by Snøhetta in the historic heart of the city, near Al-Masmak. :: Qasr Al-Hokm Station
 The bus network that feeds the capital's new metro, launched in 2023. :: Riyadh Bus
 The Makkah public bus service launched in 2022. :: Makkah Bus
 The Mashaaer railway opened in this year. :: 2010
@@ -461,7 +461,7 @@ The Situationist idea of wandering through a city without a goal. :: The dérive
 The French sociologist who wrote about "the right to the city". :: Henri Lefebvre
 The American geographer who wrote "Social Justice and the City". :: David Harvey
 The American scholar who wrote about "global cities" like London, New York and Tokyo. :: Saskia Sassen
-The British-American geographer who wrote "Cities in Civilization". :: Peter Hall
+The British geographer who wrote "Cities in Civilization". :: Peter Hall
 The American historian who wrote "The City in History". :: Lewis Mumford
 The urbanist who described "edge cities". :: Joel Garreau
 The Spanish sociologist who wrote about the "space of flows". :: Manuel Castells

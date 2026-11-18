@@ -106,7 +106,7 @@ The raised concrete edge along a road, called a curb in American English. :: Ker
 Name this type of beam, held at one end only. {img:beam-cantilever.svg} :: Cantilever beam
 The dry riverbeds in Arabia that flood after heavy rain. :: Wadis
 The signal phase interval between green and red. :: Yellow (amber) change interval
-The fourth power law of pavement damage says damage rises with axle load to this power. :: Fourth
+The 1950s US road test whose results gave the "fourth power law" of pavement damage from axle loads. :: AASHO Road Test
 Mass concrete specifications often limit the core-to-surface temperature difference to about this. :: 20 °C
 The Japanese bridge that held the longest-span record from 1998 to 2022. :: Akashi Kaikyō Bridge
 
@@ -355,7 +355,7 @@ The ancient dam in Yemen whose collapse is mentioned in the Qur'an. :: Ma'rib Da
 The engineering firm that designed the Burj Khalifa's structure. :: Skidmore, Owings & Merrill (SOM)
 The structural engineer who led Burj Khalifa's design at SOM. :: Bill Baker
 The height of the Burj Khalifa, to the nearest metre. :: 828 m
-The NEOM mountain resort that is to host the 2029 Asian Winter Games. :: Trojena
+The NEOM mountain resort designed for outdoor skiing in Saudi Arabia. :: Trojena
 The tensile fabric roof terminal at Jeddah airport designed for pilgrims, completed in 1981. :: Hajj Terminal
 
 ## 400

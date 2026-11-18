@@ -424,7 +424,7 @@ The first woman to walk in space. :: Svetlana Savitskaya
 ## 500
 The mathematician who predicted Neptune's position along with John Couch Adams. :: Urbain Le Verrier
 The astronomer at Berlin who first saw Neptune in 1846. :: Johann Galle
-The astronomer who catalogued 110 fuzzy objects to avoid confusing them with comets. :: Charles Messier
+The astronomer who catalogued fuzzy objects such as M1 and M31 so they would not be mistaken for comets. :: Charles Messier
 The Andromeda Galaxy's Messier number. :: M31
 The Crab Nebula's Messier number. :: M1
 The Orion Nebula's Messier number. :: M42

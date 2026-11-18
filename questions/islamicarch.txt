@@ -114,7 +114,7 @@ The Arabic name for the courtyard of a mosque. :: Sahn
 Coral stone from the Red Sea was used to build old houses in this Saudi city. :: Jeddah
 The Najdi style of building uses this main material. :: Mud brick (adobe)
 The King Fahd Glorious Quran Printing Complex is in this city. :: Madinah
-The Sheikh Lotfollah Mosque's dome colour changes from cream to this pink in the light. :: Pink
+The Sheikh Lotfollah Mosque's cream-coloured dome seems to turn this colour as the light changes. :: Pink
 Ahmad ibn Tulun was the governor of this land for the Abbasids. :: Egypt
 The Al-Masmak Fort is in this city. :: Riyadh
 
@@ -268,7 +268,7 @@ The bulb-shaped dome in Mughal buildings. :: An onion dome
 The small domed kiosks on Mughal roofs. :: Chhatris
 The arch shaped like the edge of a keel, used in Fatimid Cairo. :: A keel arch
 The cusped arch with many small lobes, used in Mughal palaces. :: A multifoil (cusped) arch
-The arch of two curves meeting at a point, common in Persia. :: A four-centred arch
+The pointed arch drawn from four arcs, two tight ones at the sides and two flatter ones meeting at the top, common in Persia. :: A four-centred arch
 The building element of many tiny arches stacked like honeycomb. :: Muqarnas
 The Fatimid mosque in Cairo with a famous carved façade, al-Aqmar. :: Al-Aqmar Mosque
 The Mamluk city gate of Cairo with twin minarets above. :: Bab Zuwayla
@@ -528,7 +528,7 @@ The Turkish architect who designed the Faisal Mosque in Islamabad. :: Vedat Dalo
 The Egyptian architect of many Saudi mosques, including the Qiblatayn and Quba rebuilds. :: Abdel-Wahed El-Wakil
 The French architect of the Hassan II Mosque. :: Michel Pinseau
 The Hassan II Mosque's minaret is about this tall. :: About 210 metres
-The Najdi palace in Hofuf with a domed mosque and Ottoman features. :: Ibrahim Palace (Qasr Ibrahim)
+The palace in Hofuf with a domed mosque and Ottoman features. :: Ibrahim Palace (Qasr Ibrahim)
 The Rijal Alma' village in Asir is known for houses built from this. :: Stone (layered with slate)
 The Abbasid caliph who enlarged Al-Masjid al-Haram greatly in the 700s. :: Al-Mahdi
 The Ottoman sultan in whose time the Ka'bah was rebuilt after the flood of 1630. :: Murad IV

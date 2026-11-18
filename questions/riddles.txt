@@ -367,7 +367,7 @@ The number of faces on a dodecahedron. :: 12
 The number of times you can fold a sheet of paper in half, according to the old belief. :: 7 (record is 12)
 The four-letter word that is the same backward and upside down in capitals? :: NOON (SWIMS is five)
 The kind of puzzle about a room with two doors, one to death and one to freedom, and a sign under one door. :: Logic puzzles
-A word that means "farewell" and is also a palindrome in Arabic letters? English trick: "Ta-ta". :: Ta-ta
+It has a bulb but is not a plant, and it tells you how hot you are. What is it? :: A thermometer
 The game of tracing a shape without lifting the pencil or retracing lines relates to this mathematician's Königsberg bridges. :: Euler
 The number of bridges in the Königsberg problem. :: Seven
 I am a three-digit number. My tens digit is five more than my ones digit; my hundreds digit is eight less than my tens. :: 194

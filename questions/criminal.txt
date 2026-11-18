@@ -207,7 +207,7 @@ The British crime writer who created Hercule Poirot. :: Agatha Christie
 ## 300
 Intention where the result is the person's aim. :: Direct intention
 Intention where the result is virtually certain and the person knows it. :: Oblique (indirect) intention
-The English case on oblique intention, about a man who set fire to a house. :: R v Woollin (1998)
+The English case on oblique intention, about a father who threw his baby onto a hard surface. :: R v Woollin (1998)
 Taking an unjustified risk knowingly. :: Recklessness
 The English case that set the subjective test for recklessness. :: R v G (2003)
 The English case where a man poisoned his mother's drink but she died of a heart attack. :: R v White (1910)
@@ -321,7 +321,7 @@ Necessity was allowed in this case of separating conjoined twins. :: Re A (Conjo
 The English case that ended the "parasitic accessory liability" rule. :: R v Jogee (2016)
 The English case on causation with drugs supplied: the victim's free injection broke the chain. :: R v Kennedy (No 2) (2007)
 The English case on fear causing a victim to jump from a car. :: R v Roberts (1971)
-The English case where a man killed his wife in his sleep, raising automatism. :: R v Burgess (1991)
+The English case where a man attacked a friend while sleepwalking, holding that sleepwalking can be insane automatism. :: R v Burgess (1991)
 The defence where the body acts without control of the mind, like a reflex. :: Automatism
 The English case where a diabetic's hypoglycaemia led to "non-insane automatism". :: R v Quick (1973)
 The English case where epilepsy was treated as insanity. :: R v Sullivan (1984)
@@ -401,7 +401,7 @@ The English principle that a person can be guilty for helping a crime under this
 The four ways of being a secondary party: aid, abet, counsel and this. :: Procure
 The English case where a man shot his stepfather in a "game" of who could load fastest. :: R v Moloney (1985)
 The English case where miners threw a concrete block onto a taxi, about foresight of consequences. :: R v Hancock and Shankland (1986)
-The English case where a father threw his baby onto a hard surface, setting the "virtual certainty" test. :: R v Nedrick (1986)
+The English case where a man poured paraffin through a letterbox and set fire to a house, setting the "virtual certainty" test. :: R v Nedrick (1986)
 The English law of 1957 that created diminished responsibility. :: The Homicide Act 1957
 The English law of 2008 that set out self-defence rules on reasonable force. :: The Criminal Justice and Immigration Act 2008
 The English law of 2013 that allowed householders to use force that is not "grossly disproportionate". :: The Crime and Courts Act 2013

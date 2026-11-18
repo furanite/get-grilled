@@ -217,7 +217,7 @@ A company's accounts show 'Retained earnings 400, share capital 100, revaluation
 The Arab scholar Ibn Khaldun ﵀ wrote about state revenue and taxation in this famous book. :: The Muqaddimah
 A company with gross margin 40% and sales of 500 has cost of sales of this. :: 300
 The Saudi company whose 2019 initial public offering was then the world's largest. :: Saudi Aramco
-The Big Eight firm that collapsed in 2002. :: Arthur Andersen
+The Big Five accounting firm that collapsed in 2002. :: Arthur Andersen
 The three parts of the triple bottom line. :: People, planet, profit
 
 ## 300
@@ -505,7 +505,7 @@ The audit firm fined a record 21 million pounds in 2023 over its audits of Caril
 The value of a firm equals book value plus the present value of expected abnormal earnings in this model. :: Residual income model (Ohlson model)
 Earnings of 120, opening book value of 1,000, cost of equity 10%. Residual income. :: 20
 The clean surplus relation says the change in book value equals earnings minus this. :: Dividends (net distributions)
-The accounting quality measure built from total accruals scaled by assets, by Sloan in 1996. :: Accrual anomaly
+The 1996 finding by Sloan that firms with high accruals later earn lower stock returns. :: Accrual anomaly
 The Jones model estimates these accruals. :: Discretionary accruals
 The ratio (net income minus cash from operations) divided by average total assets measures this. :: Accruals ratio (earnings quality)
 The Piotroski score uses this many accounting signals. :: Nine (F-score)

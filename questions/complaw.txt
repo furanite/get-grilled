@@ -211,7 +211,7 @@ The largest Saudi bank by assets after a 2021 merger. :: Saudi National Bank (SN
 Saudi Arabia's largest Islamic bank by assets. :: Al Rajhi Bank
 The Saudi PIF bought this English football club in 2021. :: Newcastle United
 The Saudi chemical company acquired mostly by Aramco in 2020. :: SABIC
-The Saudi airline privatisation program created this new national carrier. :: Riyadh Air
+The new Saudi national carrier set up by the Public Investment Fund in 2023. :: Riyadh Air
 The 2022 crypto exchange collapse led by Sam Bankman-Fried. :: FTX
 The DIFC Courts are in this city. :: Dubai
 The ADGM Courts are in this city. :: Abu Dhabi
@@ -430,7 +430,7 @@ A tag-along right lets a minority do this. :: Join a majority sale on the same t
 A shareholders' agreement may include this lock on selling shares. :: A lock-up (transfer restriction)
 A clause that sets a price for one shareholder to buy out another, "shotgun" clause. :: Russian roulette (shotgun) clause
 A deadlock clause where both sides submit sealed bids. :: Texas shoot-out
-A share class used in startups that converts later into equity. :: Convertible note (or SAFE)
+A startup funding instrument that converts later into equity. :: Convertible note (or SAFE)
 The startup funding instrument "SAFE" was created by this accelerator. :: Y Combinator
 SAFE stands for this. :: Simple Agreement for Future Equity
 A "down round" means this. :: Raising money at a lower valuation than before
@@ -479,7 +479,7 @@ The EU Digital Markets Act names big platforms as these. :: Gatekeepers
 The EU Digital Markets Act came into force in this year. :: 2022
 The UK's competition authority. :: The CMA (Competition and Markets Authority)
 The US agencies for antitrust: the DOJ and this. :: The FTC
-The 2023 US case against Google on search monopoly was decided in this year. :: 2024
+The US government's search-monopoly case against Google, filed in 2020, was decided in this year. :: 2024
 The Trade-Related Investment Measures agreement of the WTO is called this. :: TRIMs
 The WTO's dispute body. :: The Dispute Settlement Body
 The WTO Appellate Body stopped working in this year. :: 2019

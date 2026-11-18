@@ -190,7 +190,7 @@ The Turkish word for Friday, from Arabic. :: Cuma
 The Turkish word for Monday. :: Pazartesi
 The Turkish word for Sunday, meaning "market day". :: Pazar
 The Turkish word for Saturday. :: Cumartesi
-"Cumartesi" comes from Persian words meaning this. :: The day after Friday
+"Cumartesi" joins the Arabic-derived word for Friday with the Turkish "ertesi"; together they mean this. :: The day after Friday
 The Turkish word "yirmi" means this number. :: Twenty
 The Turkish word "elli" means this number. :: Fifty
 The Turkish word "milyon" means this number. :: Million
@@ -510,7 +510,7 @@ The Turkish of Ottoman Muslims of the Balkans survives in this country among oth
 The Turkish vowel harmony has two kinds, based on these. :: Front and back (and rounded and unrounded)
 The two-way vowel harmony gives the ending -ler or -lar. Words with "e, i, ö, ü" take this. :: -ler
 The four-way vowel harmony gives endings like -im, -ım, -um or this. :: -üm
-The longest commonly quoted Turkish word, meaning "as if you are one of those we could not make uncivilised". :: Muvaffakiyetsizleştiricileştiriveremeyebileceklerimizdenmişsinizcesine
+The longest commonly quoted Turkish word, built on "muvaffakiyet" (success) with a long chain of suffixes. :: Muvaffakiyetsizleştiricileştiriveremeyebileceklerimizdenmişsinizcesine
 The Turkish tense ending "-iyor" shows this. :: The present continuous
 The Turkish ending "-ecek" or "-acak" shows this. :: The future
 The Turkish ending "-di" shows this. :: The past (seen)

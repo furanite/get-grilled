@@ -351,7 +351,7 @@ The reflectance of a dark floor is about this. :: About 10 to 20%
 The lumen method calculates the number of lamps from the area, lux and these. :: Lamp lumens, utilisation and maintenance factors
 The formula for lux at a point under a lamp: intensity divided by this. :: Distance squared
 The cosine law of illumination says light on a tilted surface falls with this. :: The cosine of the angle
-The French physicist who wrote the cosine law in 1760. :: Johann Heinrich Lambert
+The Swiss-born scientist who wrote the cosine law of illumination in 1760. :: Johann Heinrich Lambert
 A surface that looks equally bright from all angles. :: A Lambertian surface
 The ratio of light reflected by a paint, shown on paint charts. :: LRV (light reflectance value)
 An LRV of 100 means this. :: Pure white (all light reflected)
@@ -373,7 +373,7 @@ The British painter of light and storms called "the painter of light". :: J. M. 
 The painting technique of tiny dots of pure colour. :: Pointillism
 The painter of "A Sunday Afternoon on the Island of La Grande Jatte". :: Georges Seurat
 The art movement of bold unnatural colours led by Matisse. :: Fauvism
-The Dutch painting technique of strong light and dark contrast. :: Chiaroscuro
+The Italian-named painting technique of strong light and dark contrast. :: Chiaroscuro
 The Italian painter famous for dramatic chiaroscuro. :: Caravaggio
 Very strong contrast of light and dark, like Caravaggio. :: Tenebrism
 The Dutch painter famous for light from a window in "The Milkmaid". :: Johannes Vermeer

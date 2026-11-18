@@ -114,7 +114,7 @@ Apple's digital shop for iPhone apps, launched in 2008. :: The App Store
 Apple's face-recognition unlock introduced with the iPhone X. :: Face ID
 The number of players who drop into a standard Fortnite Battle Royale match. :: 100
 The classic 1989 game series "Prince of ___". :: Persia
-The game that came on every Windows PC as a card game, later Solitaire's companion with mines. :: Minesweeper
+The grid puzzle with hidden mines that came with Windows alongside Solitaire. :: Minesweeper
 
 ## 200
 The year the original Nintendo Entertainment System came out in Japan, as the Famicom. :: 1983
@@ -124,7 +124,7 @@ The year Minecraft was first released publicly. :: 2009
 The Swedish programmer who created Minecraft. :: Markus Persson (Notch)
 The company that bought Minecraft in 2014. :: Microsoft
 The best-selling video game of all time. :: Minecraft
-The best-selling game console of all time, by Sony. :: PlayStation 2
+Sony's console that sold about 160 million units, long the best-selling console ever. :: PlayStation 2
 Nintendo's best-selling console. :: Nintendo DS (and Switch)
 The creator of Mario and Zelda at Nintendo. :: Shigeru Miyamoto
 Mario's original name in Donkey Kong. :: Jumpman
@@ -143,7 +143,7 @@ The water-type starter in Pokémon Red and Blue. :: Squirtle
 The company that makes Pokémon games, based in Japan. :: Game Freak (with Nintendo)
 The ghost characters chasing Pac-Man: Blinky, Pinky, Inky and this. :: Clyde
 The Japanese company that made Pac-Man. :: Namco
-The fruit-like item Pac-Man eats to turn the ghosts blue. :: Power pellet
+The large flashing dot Pac-Man eats to turn the ghosts blue. :: Power pellet
 The Russian engineer who created Tetris in 1984. :: Alexey Pajitnov
 The Tetris piece shaped like a straight line. :: The I piece
 The Nintendo handheld that sold Tetris to millions. :: Game Boy
@@ -225,7 +225,7 @@ The Apple voice assistant first added to the iPhone 4S in 2011. :: Siri
 The US chip company whose graphics cards power AI, led by Jensen Huang. :: Nvidia
 The Saudi state fund that bought stakes in Capcom and Koei Tecmo in 2022. :: The Public Investment Fund (PIF)
 Assassin's Creed Mirage can be played fully voiced in this language. :: Arabic
-The famous 37th move of AlphaGo in game 2 is called this. :: Move 37
+The program whose surprising "Move 37" in 2016 stunned Go player Lee Sedol. :: AlphaGo
 The actor who voiced Mario in the 2023 film. :: Chris Pratt
 "Pokémon" is short for this. :: Pocket Monsters
 The unbreakable block at the bottom of a Minecraft world. :: Bedrock
@@ -337,7 +337,7 @@ The laughing dog in Duck Hunt. :: The Duck Hunt dog
 The failed Nintendo 3D console of 1995, with a red display. :: Virtual Boy
 The Nintendo add-on for the Super Nintendo with Sony that later became the PlayStation. :: The SNES-CD (Nintendo PlayStation)
 The Sony engineer called the "father of the PlayStation". :: Ken Kutaragi
-The PlayStation 2 is the best-selling console with roughly this many units sold. :: About 160 million
+The PlayStation 2 sold roughly this many units. :: About 160 million
 The 2006 PlayStation console that included a Blu-ray player. :: PlayStation 3
 The Xbox 360 hardware fault known by this colourful name. :: The Red Ring of Death
 The Microsoft console motion sensor of 2010. :: Kinect
@@ -438,7 +438,7 @@ The composer of the original Sonic the Hedgehog music, from the band Dreams Come
 The designer of Sonic the Hedgehog's look. :: Naoto Ohshima
 The programmer of the original Sonic game. :: Yuji Naka
 Sonic was given blue colour to match this. :: Sega's logo
-The Japanese name of "Mario" was partly inspired by Mario Segale, who was this. :: Nintendo of America's warehouse landlord
+Mario Segale, who partly inspired the name "Mario", was this. :: Nintendo of America's warehouse landlord
 Luigi's name may come from a pizza restaurant called this, near Nintendo of America. :: Mario & Luigi's
 The 1989 Game Boy's processor was a version of this 8-bit chip. :: Zilog Z80 (Sharp LR35902)
 The Nintendo 64 controller's middle prong held this. :: The analog stick

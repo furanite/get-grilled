@@ -87,7 +87,7 @@ The biggest planet's biggest moon, also the largest in the solar system. :: Gany
 The nearest planet to Earth on average. :: Mercury
 The fastest spinning planet. :: Jupiter
 The planet with the most known moons. :: Saturn
-The coldest planet in the solar system, on average. :: Uranus
+The planet with the coldest atmosphere temperature ever measured in the solar system, about −224 °C. :: Uranus
 The tallest grass, which can grow as fast as a metre a day. :: Bamboo
 The largest country in South America. :: Brazil
 The largest country in Africa by area. :: Algeria
@@ -333,7 +333,7 @@ The most poisonous frog. :: The golden poison frog
 The most venomous spider to humans, by many measures. :: The Sydney funnel-web spider
 The smallest mammal by weight. :: The Etruscan shrew
 The smallest mammal by length, a bat from Thailand. :: Kitti's hog-nosed bat (bumblebee bat)
-The smallest fish known. :: Paedocypris progenetica
+One of the smallest fish known, from Sumatran peat swamps. :: Paedocypris progenetica
 The smallest reptile, a chameleon from Madagascar. :: Brookesia nana
 The smallest cat species. :: The rusty-spotted cat
 The tallest dog breed. :: The Great Dane (or Irish Wolfhound)
@@ -405,7 +405,7 @@ The largest cruise ship as of 2024. :: Icon of the Seas
 The longest cave system in the world. :: Mammoth Cave
 The largest cave passage in the world, in Vietnam. :: Son Doong
 The men's marathon world record, set by Kelvin Kiptum in 2023, roughly. :: 2 hours 0 minutes 35 seconds
-The Kenyan runner who set the women's marathon world record in Chicago in 2024. :: Ruth Chepngetich
+The Kenyan runner who became the first woman to run a marathon under 2 hours 10 minutes, in Chicago in 2024. :: Ruth Chepngetich
 The men's 200 m world record. :: 19.19 seconds
 The South African who has held the men's 400 m world record since 2016. :: Wayde van Niekerk
 The American who has held the long jump world record since 1991. :: Mike Powell
