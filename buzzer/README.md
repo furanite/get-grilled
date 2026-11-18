@@ -1,4 +1,4 @@
-# Get Grilled buzzer box
+# Buzzer box
 
 Big light-up buttons for up to 8 teams, wired to a Raspberry Pi Pico that plugs into the host's
 laptop by USB. The game shows who pressed first, the order of everyone after them (to the
@@ -56,7 +56,7 @@ team on a long cable is not slower.
 
 ## Use it in the game
 
-1. Plug the box into the host's laptop and open Get Grilled in Chrome or Edge.
+1. Plug the box into the host's laptop and open the game in Chrome or Edge.
 2. Press **Buzzers** in the top bar, then **Connect the buzzer box**, and pick the Pico in the list.
    Chrome remembers it, so next time it connects by itself.
 3. Press each podium's button: the matching team flashes in the panel and its button lights. If teams
