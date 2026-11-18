@@ -235,6 +235,8 @@ try {
     const phones = []
     for (let i = 0; i < 3; i++) {
       const ph = await newPage({ width: 390, height: 844 })
+      // The third phone's clock is two hours ahead of the Pi's (a Pi on an offline router often is behind): its countdown must still follow the Pi.
+      if (i === 2) await ph.clock.install({ time: Date.now() + 2 * 3600_000 })
       await ph.goto(URL + '?a=1')
       await ph.waitForSelector('[data-testid="phone-wait"]')
       phones.push(ph)

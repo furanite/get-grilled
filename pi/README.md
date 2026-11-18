@@ -107,8 +107,9 @@ from npm, so third-party build tools never run where the signing key is.
   - every file matches the game's own list; and
   - it is newer than what the Pi runs, so an old release can't be replayed.
 - **No internet:** the Pi starts the version it already has. It keeps the last two versions.
-- **Go back:** `ilm use-previous` switches to the version before (works offline). Run it
-  again to switch back.
+- **Go back:** `ilm use-previous` switches to the version before (works offline) and stays
+  on it: start-up checks are paused, so the newer version isn't put straight back at the next
+  start-up. `ilm update` starts the checks again and gets the newest version.
 - **From a USB stick:** copy the three files of a release (`manifest.json`, `manifest.sig` and the
   `.ggpkg`) to a folder, then `ilm update-from /media/<stick>/<folder>`. Same checks.
 - `ilm status` shows the versions, `ilm logs` shows what happened.

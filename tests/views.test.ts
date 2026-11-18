@@ -100,3 +100,28 @@ describe('what other devices may see', () => {
     expect(text(g)).toBe(before)
   })
 })
+
+describe('shiftView (devices whose clock differs from the host)', () => {
+  it('moves every host-clock time by the same amount and leaves the rest alone', async () => {
+    const { shiftView } = await import('../src/lib/live')
+    const v = {
+      screen: 'game',
+      theme: 'amethyst',
+      lang: 'en',
+      reduceFx: false,
+      vote: null,
+      live: { c: 0, l: 0, revealed: false, clock: { start: 1000, total: 30, stoppedAt: 5000 } },
+      game: { endsAt: 9000, lightningState: { i: 0, revealed: false, startedAt: 2000 }, finalState: { step: 'q', startedAt: 3000, marks: [] }, startedAt: 1 },
+    } as unknown as Parameters<typeof shiftView>[0]
+    const s = shiftView(v, 500)!
+    expect(s.live!.clock).toEqual({ start: 1500, total: 30, stoppedAt: 5500 })
+    expect(s.game!.endsAt).toBe(9500)
+    expect(s.game!.lightningState!.startedAt).toBe(2500)
+    expect(s.game!.finalState!.startedAt).toBe(3500)
+    expect(s.game!.startedAt).toBe(1)
+    // The original view is not changed
+    expect(v!.live!.clock!.start).toBe(1000)
+    expect(shiftView(v, 0)).toBe(v)
+    expect(shiftView(null, 500)).toBe(null)
+  })
+})

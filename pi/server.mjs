@@ -31,6 +31,7 @@ const DIST = resolve(process.env.GG_DIST || join(HERE, '..', 'site'))
 const STATE_DIR = resolve(process.env.GG_STATE || join(HERE, '..', 'pi-state'))
 const CONFIG = join(STATE_DIR, 'config.json')
 const SAVED = join(STATE_DIR, 'seats.json')
+const SESSION = join(STATE_DIR, 'session.json')
 const VERSION = (() => {
   try {
     return JSON.parse(readFileSync(join(DIST, 'version.json'), 'utf8')).version || 'dev'
@@ -155,6 +156,8 @@ async function setPinInteractive() {
   if (a !== b) throw new Error('The two PINs differ.')
   const salt = token(16)
   saveJson(CONFIG, { pinSalt: salt, pinHash: hashPin(a, salt) })
+  // A new PIN signs out whoever is signed in as host.
+  saveJson(SESSION, {})
   console.log('PIN saved.')
 }
 
@@ -168,6 +171,20 @@ if (process.env.GG_PIN) {
 // ---------- state ----------
 /** Host sessions: cookie value hash -> expiry. Only one at a time: a new login ends the old one. */
 let hostSession = null // { hash, expires }
+// Kept on the card (only the hash), so a restart of the server mid-game doesn't sign the host out.
+try {
+  const saved = JSON.parse(readFileSync(SESSION, 'utf8'))
+  if (saved && typeof saved.hash === 'string' && /^[0-9a-f]{64}$/.test(saved.hash) && Number(saved.expires) > Date.now()) hostSession = { hash: saved.hash, expires: Number(saved.expires) }
+} catch {
+  /* no saved session */
+}
+function saveSession() {
+  try {
+    saveJson(SESSION, hostSession ?? {})
+  } catch (e) {
+    log('could not save the host session', e.message)
+  }
+}
 const loginByIp = new Map() // ip -> { fails, lockedUntil }
 const loginRoom = { fails: 0, start: 0, lockedUntil: 0 }
 
@@ -175,6 +192,9 @@ const loginRoom = { fails: 0, start: 0, lockedUntil: 0 }
 let seats = []
 let view = null // the latest public view from the host
 let viewJson = 'null'
+// How far the host's clock is behind the Pi's (ms). The view's times (timers, game clock) are on the
+// host's clock; each device gets this and the Pi's own time, so it can move them onto its own clock.
+let viewOffset = 0
 
 try {
   const saved = JSON.parse(readFileSync(SAVED, 'utf8'))
@@ -223,7 +243,7 @@ function kickSeat(id, reason) {
 
 function seatView(seat) {
   const extra = seat.kind === 'screen' ? `,"join":${JSON.stringify({ wifi: WIFI, audience: audience.on, joined: audienceCount() })}` : ''
-  return `{"seat":${JSON.stringify({ kind: seat.kind, index: seat.index, name: seat.name })},"view":${viewJson}${extra}}`
+  return `{"seat":${JSON.stringify({ kind: seat.kind, index: seat.index, name: seat.name })},"view":${viewJson},"clock":{"now":${now()},"off":${viewOffset}}${extra}}`
 }
 
 // ---------- audience phones ----------
@@ -239,6 +259,9 @@ const audienceCount = () => [...streams].filter((s) => s.role === 'aud').length
 function audState(member, memberHash) {
   const r = audRound
   return {
+    // The Pi's own clock, so a phone whose clock differs can still count down to closesAt correctly
+    // (a Pi on an offline router often starts with the time it was switched off).
+    now: now(),
     theme: view?.theme ?? 'amethyst',
     lang: view?.lang ?? 'en',
     on: audience.on,
@@ -362,6 +385,7 @@ async function api(req, res, path) {
     // A new host login ends the old one, so a stolen session cannot outlive the host signing in again.
     for (const s of [...streams]) if (s.role === 'host') (s.res.end(), streams.delete(s))
     hostSession = { hash: sha(c), expires: now() + 12 * 3600_000 }
+    saveSession()
     log('host signed in from', ip)
     return send(res, 200, { ok: true }, { 'Set-Cookie': setCookie('gg_host', c, 12 * 3600) })
   }
@@ -372,6 +396,7 @@ async function api(req, res, path) {
 
     if (path === '/api/host/logout' && req.method === 'POST') {
       hostSession = null
+      saveSession()
       for (const s of [...streams]) if (s.role === 'host') (s.res.end(), streams.delete(s))
       return send(res, 200, { ok: true }, { 'Set-Cookie': setCookie('gg_host', '', 0) })
     }
@@ -383,6 +408,8 @@ async function api(req, res, path) {
       if (!body || typeof body.view !== 'object') return send(res, 400, { error: 'view' })
       view = body.view
       viewJson = JSON.stringify(view)
+      const sentAt = Number(body.sentAt)
+      viewOffset = Number.isFinite(sentAt) && sentAt > 0 ? Math.round(now() - sentAt) : 0
       // Keep team names on the seats up to date for the host's list.
       const names = Array.isArray(view?.game?.teams) ? view.game.teams.map((t) => String(t?.name ?? '').slice(0, 40)) : null
       if (names) for (const s of seats) if (s.kind === 'team' && names[s.index] !== undefined) s.name = names[s.index]

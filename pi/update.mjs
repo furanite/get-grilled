@@ -3,7 +3,9 @@
 //
 //   node pi/update.mjs                 check GitHub for a newer signed release and install it (runs at every start-up)
 //   node pi/update.mjs --file <dir>    install a release from a folder (a USB stick) holding manifest.json, manifest.sig and the .ggpkg
-//   node pi/update.mjs --use-previous  go back to the version before this one
+//   node pi/update.mjs --use-previous  go back to the version before this one (and stay on it: start-up checks
+//                                      are paused until "--resume", so the newer version isn't put straight back)
+//   node pi/update.mjs --resume        start checking for updates again after --use-previous
 //   node pi/update.mjs --status        show which versions are installed
 //   node pi/update.mjs --new-key       make a signing key pair: saves the public key on this Pi, prints the private key once
 //
@@ -24,6 +26,8 @@ const KEY = process.env.GG_KEY || '/etc/ilm/release-key.pem'
 const REPO = process.env.GG_REPO || 'furanite/ilm-munaafasah'
 const RELEASES = process.env.GG_RELEASES || `https://api.github.com/repos/${REPO}/releases?per_page=15`
 const REL_DIR = join(HOME, 'releases')
+// Present after --use-previous: start-up checks leave the chosen version alone until --resume.
+const HOLD = join(HOME, 'hold')
 const log = (...a) => console.log('[update]', ...a)
 
 const linkTarget = (name) => {
@@ -105,6 +109,7 @@ function prune() {
 }
 
 async function fromGitHub() {
+  if (existsSync(HOLD)) return log(`Staying on ${versionAt('current')?.version ?? 'this version'} (chosen with use-previous). Run "update" to get the newest again.`)
   const list = JSON.parse((await download(RELEASES, 2_000_000, 'application/vnd.github+json', 20000)).toString('utf8'))
   const rel = (Array.isArray(list) ? list : []).find((r) => !r.draft && /^pi-/.test(r.tag_name ?? '') && r.assets?.some((a) => a.name === 'manifest.sig'))
   if (!rel) return log('No Pi release published yet; keeping this version.')
@@ -134,6 +139,7 @@ function usePrevious() {
   if (!prev || !versionAt('previous')) throw new Error('There is no previous version on this Pi.')
   pointLink('current', prev)
   if (cur) pointLink('previous', cur)
+  writeFileSync(HOLD, `${new Date().toISOString()}\n`)
   log(`Now using ${versionAt('current')?.version}. Restart the game (or the Pi) to load it.`)
 }
 
@@ -142,6 +148,7 @@ function status() {
     const v = versionAt(name)
     log(`${name}: ${v ? `${v.version} (built ${v.built})` : 'none'}`)
   }
+  if (existsSync(HOLD)) log('Updates at start-up are paused (use-previous). "update" starts them again.')
 }
 
 function newKey() {
@@ -165,8 +172,12 @@ const arg = process.argv[2]
 try {
   if (arg === '--status') status()
   else if (arg === '--use-previous') usePrevious()
+  else if (arg === '--resume') rmSync(HOLD, { force: true })
   else if (arg === '--new-key') newKey()
-  else if (arg === '--file') await fromFolder(process.argv[3] || '.')
+  else if (arg === '--file') {
+    rmSync(HOLD, { force: true })
+    await fromFolder(process.argv[3] || '.')
+  }
   else if (!arg) await fromGitHub()
   else throw new Error(`Unknown option ${arg}`)
 } catch (e) {

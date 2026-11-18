@@ -394,6 +394,22 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
     }
   }, [revealed, stealer, wrong.length])
 
+  // A tablet turned round (or a window resized) while the card is open: fit the card to the new screen,
+  // so it and its buttons don't end up off the edge.
+  const phaseRef = useRef(phase)
+  phaseRef.current = phase
+  useEffect(() => {
+    const refit = () => {
+      const card = ref.current
+      if (!card || phaseRef.current === 'closing') return
+      const W = Math.min(clue.img ? 960 : 820, innerWidth - 24)
+      const H = Math.min(clue.img ? 760 : 560, innerHeight - 32)
+      Object.assign(card.style, { left: (innerWidth - W) / 2 + 'px', top: (innerHeight - H) / 2 + 'px', width: W + 'px', height: H + 'px' })
+    }
+    addEventListener('resize', refit)
+    return () => removeEventListener('resize', refit)
+  }, [clue.img])
+
   // The countdown starts once the question is on show: after the card opens, or after Next on a special tile.
   const introAtOpen = useRef(intro)
   useEffect(() => {

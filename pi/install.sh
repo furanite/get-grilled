@@ -152,7 +152,7 @@ UP=$HOME_DIR/current/pi/update.mjs
 U="sudo -u ilm env GG_HOME=$HOME_DIR GG_KEY=$ETC/release-key.pem $NODE \$UP"
 case "\$1" in
   pin) sudo systemctl stop ilm; sudo -u ilm env GG_STATE=$STATE_DIR $NODE $HOME_DIR/current/pi/server.mjs --set-pin; sudo systemctl start ilm ;;
-  update) sudo systemctl start ilm-update && sudo systemctl restart ilm; \$U --status ;;
+  update) \$U --resume 2>/dev/null || true; sudo systemctl start ilm-update && sudo systemctl restart ilm; \$U --status ;;
   update-from) T=\$(mktemp -d); cp "\$2"/manifest.json "\$2"/manifest.sig "\$2"/*.ggpkg "\$T"/; chmod -R a+rX "\$T"; \$U --file "\$T" && sudo systemctl restart ilm; rm -rf "\$T" ;;
   use-previous) \$U --use-previous && sudo systemctl restart ilm ;;
   status) \$U --status; systemctl --no-pager --lines=0 status ilm | head -3; hostname -I ;;

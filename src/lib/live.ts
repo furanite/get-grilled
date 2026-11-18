@@ -138,6 +138,7 @@ class HostLive {
   private es: EventSource | null = null
   private snapshot = { seats: this.seats, msgs: this.msgs, connected: false, audience: this.audience, tally: this.tally }
   private pending: PublicView | null = null
+  private last: PublicView | null = null
   private sending = false
 
   subscribe = (f: () => void) => {
@@ -154,9 +155,17 @@ class HostLive {
     if (this.es) return
     const es = new EventSource(api('host/events'), { withCredentials: true })
     this.es = es
+    let opened = false
     es.onopen = () => {
       this.connected = true
       this.changed()
+      // Back after the Pi restarted: it has forgotten what the room sees and whether phones play along,
+      // so send both again.
+      if (opened) {
+        if (this.last) this.publish(this.last)
+        if (this.audience.on) void post('host/audience', { on: true })
+      }
+      opened = true
     }
     es.onerror = () => {
       this.connected = false
@@ -222,6 +231,7 @@ class HostLive {
 
   /** Send the room's view; if one is on its way, only the newest waiting one goes next. */
   publish(v: PublicView) {
+    this.last = v
     this.pending = v
     if (this.sending) return
     void this.flush()
@@ -232,7 +242,14 @@ class HostLive {
       const v = this.pending
       this.pending = null
       try {
-        await post('host/publish', { view: v })
+        // sentAt lets each device move the view's times (timers, game clock) onto its own clock.
+        const r = await post('host/publish', { view: v, sentAt: Date.now() })
+        // Signed out (the session ran out, or the host signed in on another device): back to the PIN screen.
+        // The game itself is saved in this browser, so nothing is lost.
+        if (r.status === 401) {
+          location.reload()
+          return
+        }
       } catch {
         /* the server is restarting; the next change sends again */
       }
@@ -274,10 +291,27 @@ export interface DeviceState {
   join?: { wifi: { ssid: string; pass: string } | null; audience: boolean; joined: number }
 }
 
+/** Moves the host-clock times in a view (clue timer, game clock, lightning and final timers) by `ms`. */
+export function shiftView(v: PublicView | null, ms: number): PublicView | null {
+  if (!v || !ms) return v
+  const add = (t: number | undefined) => (typeof t === 'number' ? t + ms : t)
+  const out: PublicView = { ...v }
+  if (v.live?.clock) out.live = { ...v.live, clock: { ...v.live.clock, start: v.live.clock.start + ms, stoppedAt: add(v.live.clock.stoppedAt) } }
+  if (v.game) {
+    const g = { ...v.game }
+    if (g.endsAt) g.endsAt = g.endsAt + ms
+    if (g.lightningState?.startedAt) g.lightningState = { ...g.lightningState, startedAt: g.lightningState.startedAt + ms }
+    if (g.finalState?.startedAt) g.finalState = { ...g.finalState, startedAt: g.finalState.startedAt + ms }
+    out.game = g
+  }
+  return out
+}
+
 /** A team tablet's or projector's live feed from the server. */
 export function useDeviceFeed(enabled: boolean): DeviceState {
   const [st, setSt] = useState<DeviceState>({ status: 'connecting', seat: null, view: null })
   const esRef = useRef<EventSource | null>(null)
+  const shiftRef = useRef(0)
   useEffect(() => {
     if (!enabled) return
     let stopped = false
@@ -285,8 +319,15 @@ export function useDeviceFeed(enabled: boolean): DeviceState {
     esRef.current = es
     es.addEventListener('view', (e) => {
       try {
-        const d = JSON.parse((e as MessageEvent).data) as { seat: DeviceState['seat']; view: PublicView | null; join?: DeviceState['join'] }
-        setSt({ status: 'live', seat: d.seat, view: d.view, join: d.join })
+        const d = JSON.parse((e as MessageEvent).data) as { seat: DeviceState['seat']; view: PublicView | null; join?: DeviceState['join']; clock?: { now: number; off: number } }
+        // The host's clock and this device's can differ: shift the view's times by the difference, so the
+        // timers match the host's. The shift is kept unless it moves by more than a second (a new one each
+        // message would restart the final-answer box, which is keyed by its start time).
+        if (d.clock && Number.isFinite(d.clock.now) && Number.isFinite(d.clock.off)) {
+          const shift = Date.now() - d.clock.now + d.clock.off
+          if (Math.abs(shift - shiftRef.current) > 1000) shiftRef.current = shift
+        }
+        setSt({ status: 'live', seat: d.seat, view: shiftView(d.view, shiftRef.current), join: d.join })
       } catch {
         /* ignore */
       }
@@ -312,6 +353,8 @@ export function useDeviceFeed(enabled: boolean): DeviceState {
 
 // ----- audience phones -----
 export interface AudState {
+  /** The Pi's clock when it sent this (closesAt is on that clock) */
+  now?: number
   theme: PublicView['theme']
   lang: PublicView['lang']
   on: boolean
@@ -352,7 +395,11 @@ export function useAudienceFeed(enabled: boolean): { status: 'connecting' | 'liv
     es.addEventListener('state', (e) => {
       try {
         const d = JSON.parse((e as MessageEvent).data) as AudState
-        setSt((s) => ({ ...s, status: 'live', state: d }))
+        // closesAt is on the Pi's clock, which can be minutes or days off this phone's clock:
+        // move it onto this phone's clock so the countdown and the answer buttons follow the Pi.
+        const skew = typeof d.now === 'number' ? Date.now() - d.now : 0
+        if (d.round) d.round = { ...d.round, closesAt: d.round.closesAt + skew }
+        setSt((s) => ({ ...s, status: 'live', state: d, skew }))
       } catch {
         /* ignore */
       }

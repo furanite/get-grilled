@@ -193,6 +193,18 @@ await test('"use previous" goes back and forth without the internet', async () =
   up = true
 })
 
+await test('after "use previous" the next start-up stays on it, until "--resume"', async () => {
+  published = [release('2026-11-21-eee', '2026-11-21T08:00:00Z')]
+  assert((await update('--use-previous')).code === 0, 'use-previous failed')
+  assert(current() === '2026-11-20-ddd', `current is ${current()}`)
+  let r = await update()
+  assert(r.code === 0 && /Staying on 2026-11-20-ddd/.test(r.out) && current() === '2026-11-20-ddd', r.out)
+  assert(/paused/.test((await update('--status')).out), 'status does not say updates are paused')
+  assert((await update('--resume')).code === 0, 'resume failed')
+  r = await update()
+  assert(r.code === 0 && current() === '2026-11-21-eee', r.out)
+})
+
 await test('installing from a USB folder checks the same signature', async () => {
   const dir = join(home, 'usb')
   mkdirSync(dir)

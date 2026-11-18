@@ -31,6 +31,7 @@ RESET_PIN = 18  # optional host reset button: GP18 to GND
 EARLY_LOCK_US = const(250_000)  # a team that presses too early can't buzz for this long
 REPEAT_GAP_US = const(150_000)  # ignore contact bounce between test or early presses
 SIO_GPIO_IN = const(0xD0000004)  # all GPIO input levels in one word (RP2040 and RP2350)
+TICKS_PERIOD = const(1 << 30)  # MicroPython's ticks_us wraps round after this many microseconds (about 17.9 minutes)
 
 buttons = [Pin(p, Pin.IN, Pin.PULL_UP) for p in BUTTON_PINS]
 leds = [Pin(p, Pin.OUT, value=0) for p in LED_PINS]
@@ -106,7 +107,12 @@ def pressed(i, t):
         got |= 1 << i
         if first:
             light(1 << i)  # light the first team at once, before the app even hears
-        out("P %d %d" % (i, time.ticks_diff(t, opened)))
+        # ticks_diff only reaches about 9 minutes forward; a press after that comes out negative (which
+        # the app would drop), so it is moved one period on. Good for buzzers open up to about 18 minutes.
+        us = time.ticks_diff(t, opened)
+        if us < 0:
+            us += TICKS_PERIOD
+        out("P %d %d" % (i, us))
         return
     if time.ticks_diff(t, last[i]) < REPEAT_GAP_US:
         last[i] = t
