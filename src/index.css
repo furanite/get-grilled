@@ -1140,3 +1140,40 @@ body{overflow-wrap:break-word}
 .buzz-order.big{justify-content:center;margin-top:clamp(8px,1.6vh,18px)}
 .buzz-order.big li{font-size:clamp(16px,2.4vh,30px);padding:.3em .8em}
 .buzz-status.big{justify-content:center;width:100%;margin-top:clamp(8px,1.6vh,18px);font-size:clamp(15px,2.2vh,26px)}
+
+/* Get Grilled Live (Raspberry Pi): host sign-in, devices panel, team tablets */
+.live-gate{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:24px 16px;text-align:center;color:var(--text)}
+.live-gate .ts-mark{width:min(120px,30vw);height:auto}
+.live-gate h1{font-family:var(--fd);font-size:clamp(22px,4vw,40px);margin:0;max-width:24ch}
+.live-pin{display:flex;flex-direction:column;gap:10px;width:min(320px,100%);text-align:start}
+.live-pin input{font-size:22px;letter-spacing:.3em;text-align:center}
+.live-msg{color:var(--accent2);max-width:40ch}
+.live-host-link{margin-top:18px;font-size:13px;text-decoration:none}
+.live-panel{max-width:760px}
+.live-seats{list-style:none;margin:12px 0;padding:0;display:grid;gap:10px}
+.live-seat{border:1px solid color-mix(in oklab,var(--edge) 60%,transparent);border-radius:12px;padding:10px 12px;display:grid;gap:8px}
+.live-seat.on{border-color:color-mix(in oklab,#3ddc84 60%,transparent)}
+.live-seat.removed{opacity:.7;border-style:dashed}
+.live-seat-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.live-seat-state{font-size:13px}
+.live-seat-actions{gap:8px;flex-wrap:wrap}
+.live-seat-actions .ghost{font-size:13px;padding:6px 12px}
+.bad-text{color:#ff8080}
+.live-qr-box{display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+.live-qr{width:180px;height:180px;background:#fff;border-radius:10px;padding:6px;flex:none}
+.live-qr svg{width:100%;height:100%;display:block}
+.live-url{font-size:12px;word-break:break-all;color:var(--muted);flex:1 1 200px;min-width:0}
+.audience.remote{min-height:100vh;display:flex;flex-direction:column}
+.audience.remote.team .aud-main{flex:1}
+.remote-bar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:10px 16px;border-bottom:1px solid color-mix(in oklab,var(--edge) 60%,transparent);background:color-mix(in oklab,var(--bg) 80%,transparent);position:sticky;top:0;z-index:60}
+.remote-bar b{font-family:var(--fd);font-size:20px}
+.remote-bar .remote-score{font-variant-numeric:tabular-nums;font-size:20px;color:var(--accent);margin-inline-start:auto}
+.remote-bar.turn{border-bottom-color:var(--accent);box-shadow:0 6px 24px -12px var(--glow)}
+.remote-lost{position:fixed;top:10px;inset-inline-end:10px;z-index:60}
+.remote-final{position:sticky;bottom:0;z-index:60;display:grid;gap:8px;padding:12px 16px;background:color-mix(in oklab,var(--bg) 92%,transparent);border-top:1px solid var(--accent)}
+.remote-final .row{gap:8px;flex-wrap:nowrap}
+.remote-final input{flex:1;min-width:0;font-size:18px}
+.typed-answers{text-align:start;width:100%;margin:6px 0}
+.typed-answers ul{list-style:none;margin:6px 0 0;padding:0;display:grid;gap:6px}
+.typed-answers li{display:flex;gap:10px;align-items:baseline;padding:6px 10px;border-radius:8px;border:1px solid color-mix(in oklab,var(--edge) 50%,transparent)}
+.remote.team .aud-clue{top:var(--remote-bar,52px)}

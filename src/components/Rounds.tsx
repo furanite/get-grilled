@@ -1,5 +1,6 @@
 import Source from './Source'
 import { useCallback, useEffect, useState } from 'react'
+import { TypedFinalAnswers } from './LiveHost'
 import type { Game, Lang, ModeItem, RoundMode } from '../lib/types'
 import type { Strings } from '../lib/i18n'
 import { num } from '../lib/i18n'
@@ -234,6 +235,7 @@ export function Final({ t, lang, game, setGame, onDone }: Props) {
             <>
               <TimerBar clock={{ start: st.startedAt ?? Date.now(), total: FINAL_SECS }} total={FINAL_SECS} lang={lang} timeUpText={t.timeUp} onTick={(n) => (n === 0 ? sfx.timeUp() : sfx.tick(n === 1))} big />
               <p className="muted">{t.finalWrite}</p>
+              <TypedFinalAnswers t={t} game={game} showText={false} />
               {HOST_EDITION && (
                 <div className="answer peek" dir="auto" data-peek={t.hostOnly}>
                   {lang === 'ar' && f.q.aAr ? f.q.aAr : f.q.a}
@@ -257,6 +259,7 @@ export function Final({ t, lang, game, setGame, onDone }: Props) {
                 {lang === 'ar' && f.q.aAr ? f.q.aAr : f.q.a}
               </div>
               <p className="muted">{t.finalMark}</p>
+              <TypedFinalAnswers t={t} game={game} showText />
               <div className="judge">
                 {game.teams.map((tm, i) => (
                   <div className={`t${st.marks[i] === true ? ' marked-ok' : st.marks[i] === false ? ' marked-no' : ''}`} key={i}>
