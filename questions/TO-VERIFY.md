@@ -42,8 +42,8 @@ This file is rewritten by `npm run packs`.
 
 ## Islamic history (questions/isl-history.txt)
 
-- **500**, line 106: The Ayyubid-era scholar who wrote "Mir'at al-Zaman". **Answer:** Sibt ibn al-Jawzi _(Source: Mir'at al-Zaman; creed to be checked before adding an honorific)_
-- **500**, line 124: The scholar who taught and advised Sultan Muhammad al-Fatih ⁨رحمة الله عليه⁩ and is said to have found the grave of Abu Ayyub ﵁. **Answer:** Aq Shams al-Din ⁨رحمة الله عليه⁩ _(Source: al-Shaqa'iq al-Nu'maniyyah (Tashkopruzade); to be checked)_
+- **500**, line 145: The Ayyubid-era scholar who wrote "Mir'at al-Zaman". **Answer:** Sibt ibn al-Jawzi _(Source: Mir'at al-Zaman; creed to be checked before adding an honorific)_
+- **500**, line 163: The scholar who taught and advised Sultan Muhammad al-Fatih ⁨رحمة الله عليه⁩ and is said to have found the grave of Abu Ayyub ﵁. **Answer:** Aq Shams al-Din ⁨رحمة الله عليه⁩ _(Source: al-Shaqa'iq al-Nu'maniyyah (Tashkopruzade); to be checked)_
 
 ## Ilahis: Turkey and the Balkans (questions/isl-ilahi-turkey.txt)
 
