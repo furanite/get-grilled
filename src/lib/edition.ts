@@ -1,4 +1,5 @@
 import type { Clock } from '../components/Timer'
+import type { BuzzView } from '../components/Buzzers'
 /** The host edition adds a second window for the audience. It is built with `vite build --mode host`. */
 export const HOST_EDITION = import.meta.env.VITE_EDITION === 'host'
 
@@ -19,4 +20,6 @@ export interface Live {
   revealed: boolean
   /** The clue's countdown, so the projector shows the same sliding timer as the host. */
   clock?: Clock | null
+  /** Buzz order, when a buzzer box is plugged in */
+  buzz?: BuzzView | null
 }
