@@ -104,6 +104,21 @@ Silence is this precious metal. :: Gold (golden)
 Speech is this precious metal, and silence is gold. :: Silver
 A friend in need is a friend ___. :: Indeed
 Slow and steady wins the ___. :: Race
+"Look on the bright ___." :: Side
+"There's no place like ___." :: Home
+"Rule of thumb" comes from using this to measure things roughly. :: The thumb
+"Spill the beans" may come from an ancient Greek voting method using these. :: Beans
+"Achilles' heel" comes from Greek myth; Achilles was hit here by an arrow. :: His heel
+"Sandwich" is named after this earl. :: The Earl of Sandwich
+The Arabic proverb "Al-waqt ka al-sayf" compares time to this. :: A sword
+The Arabic proverb "Man jadda wajada" means this. :: Whoever strives, finds (succeeds)
+The Arabic proverb "Idha kana al-kalam min fidda, fa al-sukut min ___." :: Gold
+The Arabic proverb "Lil-hitan adhan" says the walls have these. :: Ears
+The Arabic proverb "Yad wahida la tusaffiq" says one hand cannot do this. :: Clap
+"Grin like a Cheshire cat" is linked to this county in England. :: Cheshire
+"Mad as a March hare" refers to this animal's odd behaviour in spring. :: The hare
+The Arabic word "sabr" means this. :: Patience
+The Arabic proverb "Al-'ilm nur" says knowledge is this. :: Light
 
 ## 200
 To "pull someone's leg" means to do this. :: Tease or joke with them
@@ -206,6 +221,21 @@ To "walk on eggshells" means this. :: Be very careful not to upset someone
 To "be a piece of cake" means this. :: Be very easy
 "Barking dogs seldom" do this. :: Bite
 "Don't bite the hand that" does this. :: Feeds you
+"Break a leg" is a good-luck wish used in this world. :: Theatre
+"To go berserk" comes from these fierce Norse warriors. :: Berserkers
+The poet who wrote that the best companion in time is a book. :: Al-Mutanabbi
+"Pasteurise" comes from this French scientist. :: Louis Pasteur
+"Mind your own beeswax" is a jokey version of this phrase. :: Mind your own business
+"Let them eat cake" is wrongly linked to this French queen. :: Marie Antoinette
+"Carpe diem" means this. :: Seize the day
+"Et tu, Brute?" was said, in Shakespeare, by this man. :: Julius Caesar
+The Chinese proverb "A journey of a thousand miles begins with" this. :: A single step
+"Give a man a fish and you feed him for a day; teach a man to fish and" this. :: You feed him for a lifetime
+The Arabic proverb "Akram min Hatim" means more generous than this man. :: Hatim al-Ta'i
+"The apple doesn't fall far from ___." :: The tree
+"Cry wolf" comes from this Aesop fable. :: The Boy Who Cried Wolf
+"Slow and steady wins the race" comes from this Aesop fable. :: The Tortoise and the Hare
+"Giraffe" comes from this Arabic word for the animal. :: Zarafa
 
 ## 300
 "A bird in the hand is worth two" here. :: In the bush
@@ -243,7 +273,6 @@ To "be a piece of cake" means this. :: Be very easy
 "Well begun is ___." :: Half done
 "Blood is thicker than ___." :: Water
 "Laugh and the world laughs with you; weep and you weep ___." :: Alone
-"Look on the bright ___." :: Side
 "Where there's a will, there's a ___." :: Way
 "You reap what you ___." :: Sow
 "Opportunity knocks but ___." :: Once
@@ -252,7 +281,6 @@ To "be a piece of cake" means this. :: Be very easy
 "Laughter is the best ___." :: Medicine
 "One man's trash is another man's ___." :: Treasure
 "The proof of the pudding is in the ___." :: Eating
-"There's no place like ___." :: Home
 "Out of the frying pan and into the ___." :: Fire
 "Hope for the best, prepare for the ___." :: Worst
 "A chain is only as strong as its weakest ___." :: Link
@@ -308,6 +336,8 @@ The idiom for something done quickly with no rest: in one ___. :: Fell swoop
 "Good things come to those who ___." :: Wait
 "You can't judge someone until you've walked a mile in their ___." :: Shoes
 "The best things in life are ___." :: Free
+"Something is rotten in the state of Denmark" is from this play. :: Hamlet
+"Cut your coat according to your ___." :: Cloth
 
 ## 400
 The idiom "red tape", meaning bureaucracy, comes from the ribbon once used to tie these. :: Official documents
@@ -321,12 +351,9 @@ The idiom "red tape", meaning bureaucracy, comes from the ribbon once used to ti
 "Learn the ropes" comes from new sailors learning these. :: Ship's rigging ropes
 "Cut to the chase" comes from this industry, skipping to the action scene. :: Film (silent movies)
 "Steal someone's thunder" comes from a playwright whose stage effect for this was copied. :: Thunder sound effect
-"Break a leg" is a good-luck wish used in this world. :: Theatre
 "Bury the hatchet" comes from a custom of these North American people making peace. :: Native Americans
 "Let the cat out of the bag" may come from a trick of selling this animal in a bag instead of a pig. :: A cat
-"Rule of thumb" comes from using this to measure things roughly. :: The thumb
 "Mad as a hatter" may come from hat makers poisoned by this metal. :: Mercury
-"Spill the beans" may come from an ancient Greek voting method using these. :: Beans
 "Barking up the wrong tree" comes from hunting dogs chasing animals like this. :: Raccoons
 "A baker's dozen" means this many. :: Thirteen
 "Sleep tight" may come from tightening these on old beds. :: Ropes (supporting the mattress)
@@ -337,7 +364,6 @@ The idiom "red tape", meaning bureaucracy, comes from the ribbon once used to ti
 "Go the whole nine yards" has an unclear origin, but one theory is the length of this. :: A machine-gun ammunition belt
 "Blood, sweat and tears" was made famous by this British prime minister. :: Winston Churchill
 "Cross the Rubicon" refers to this Roman leader crossing a river with his army. :: Julius Caesar
-"Achilles' heel" comes from Greek myth; Achilles was hit here by an arrow. :: His heel
 "Pyrrhic victory" is named after this king who won battles at too great a cost. :: Pyrrhus of Epirus
 "Meet your Waterloo" refers to this leader's final defeat. :: Napoleon
 "Trojan horse" now also means this in computing. :: Malware disguised as something harmless
@@ -349,13 +375,11 @@ The idiom "red tape", meaning bureaucracy, comes from the ribbon once used to ti
 "A Catch-22" comes from a novel by this author. :: Joseph Heller
 "Big Brother is watching" comes from this George Orwell novel. :: Nineteen Eighty-Four
 "The writing is on the wall" comes from a feast in this ancient city. :: Babylon
-"To go berserk" comes from these fierce Norse warriors. :: Berserkers
 "A Spartan lifestyle" means this, after the Greek city. :: Simple and strict, without luxury
 "A laconic reply" comes from this Greek region, known for short replies. :: Laconia (Sparta)
 "A marathon effort" comes from the run of a messenger from Marathon to this city. :: Athens
 "Draconian laws" are very harsh, named after this Athenian lawmaker. :: Draco
-"Boycott" comes from the name of this Irish land agent. :: Charles Boycott
-"Sandwich" is named after this earl. :: The Earl of Sandwich
+"Boycott" comes from the name of this English land agent in Ireland. :: Charles Boycott
 "Silhouette" is named after this French finance minister. :: Étienne de Silhouette
 "Cardigan" is named after this British earl. :: The Earl of Cardigan
 "Saxophone" is named after this inventor. :: Adolphe Sax
@@ -363,27 +387,21 @@ The idiom "red tape", meaning bureaucracy, comes from the ribbon once used to ti
 "Nicotine" is named after this French diplomat. :: Jean Nicot
 "Diesel" is named after this engineer. :: Rudolf Diesel
 "Braille" is named after this French teacher. :: Louis Braille
-The Arabic proverb "Al-waqt ka al-sayf" compares time to this. :: A sword
 The Arabic proverb "Time is like a sword" ends: if you do not cut it, it will do this. :: Cut you
 The Arabic proverb "Al-sabr miftah al-faraj" says patience is the key to this. :: Relief
-The Arabic proverb "Man jadda wajada" means this. :: Whoever strives, finds (succeeds)
 The Arabic proverb "Al-jar qabl al-dar" says to choose this before the house. :: The neighbour
 The Arabic proverb "Al-rafiq qabl al-tariq" says to choose this before the road. :: The companion
 The Arabic proverb "Lisanuka husanuka" compares your tongue to this. :: Your horse
 The Arabic proverb about your tongue as a horse ends: if you guard it, it guards you; if you betray it, it does this. :: Betrays you
 The Arabic saying "Al-'ilm fi al-sighar ka al-naqsh 'ala al-hajar" compares learning when young to this. :: Carving in stone
 Al-Mutanabbi wrote that the best companion in this is a book. :: Time (all ages)
-The poet who wrote that the best companion in time is a book. :: Al-Mutanabbi
 The Arabic proverb "Kul fatat bi-abiha mu'jaba" says every girl is proud of this person. :: Her father
 The Arabic proverb "Ba'd khirab al-Basra" means doing something too late, after this city was ruined. :: Basra
 The Arabic proverb "Al-qird fi 'ayn ummihi ghazal" says a monkey in its mother's eyes is this. :: A gazelle
 The English equivalent of "a monkey in its mother's eyes is a gazelle". :: Beauty is in the eye of the beholder
 The Arabic proverb "Aakhir al-dawa' al-kayy" says the last remedy is this. :: Cauterisation (branding)
 The Arabic proverb "Rubba rumyatin min ghayri ramin" describes this. :: A lucky shot (success by chance)
-The Arabic proverb "Idha kana al-kalam min fidda, fa al-sukut min ___." :: Gold
 The Arabic proverb "Khayr al-kalam ma qalla wa dalla" says the best speech is this. :: Brief and meaningful
-The Arabic proverb "Lil-hitan adhan" says the walls have these. :: Ears
-The Arabic proverb "Yad wahida la tusaffiq" says one hand cannot do this. :: Clap
 The English equivalent of "one hand cannot clap". :: It takes two to tango
 The Arabic proverb "Al-tikrar yu'allim al-shattar" says repetition teaches this person. :: The clever (diligent) one
 The English equivalent of "Al-tikrar yu'allim al-shattar". :: Practice makes perfect
@@ -405,15 +423,26 @@ A "Scrooge", a mean person, comes from a story by this author. :: Charles Dicken
 "Leotard" is named after this French acrobat. :: Jules Léotard
 "Shrapnel" is named after this British army officer. :: Henry Shrapnel
 "Mesmerise" comes from this German doctor. :: Franz Mesmer
-"Pasteurise" comes from this French scientist. :: Louis Pasteur
 "Galvanise" comes from this Italian scientist. :: Luigi Galvani
 "Ferris wheel" is named after this American engineer. :: George Ferris
 "Jumbo", meaning huge, comes from a famous 19th-century one of these. :: Elephant
 "Tantalise" comes from Tantalus, whose food and water always stayed just out of this. :: Reach
+The rubber boots nicknamed "wellies" are named after this duke who defeated Napoleon. :: The Duke of Wellington
+"Bloomers", loose trousers for women, are named after this American reformer. :: Amelia Bloomer
+The road surface "macadam" is named after this Scottish engineer. :: John Loudon McAdam
+A "Pavlovian" response is named after this Russian physiologist. :: Ivan Pavlov
+"Machiavellian", meaning cunning and scheming, comes from the author of "The Prince". :: Niccolò Machiavelli
+"Panic" comes from this Greek god of the wild, said to cause sudden fear. :: Pan
+"Cereal" comes from this Roman goddess of agriculture and grain. :: Ceres
+"Cutting the Gordian knot", solving a problem boldly, refers to this conqueror. :: Alexander the Great
+"Crocodile tears" come from an old belief that crocodiles weep while doing this. :: Eating their prey
+A "Sisyphean" task is endless, like Sisyphus forever pushing this up a hill. :: A boulder
+"Algorithm" comes from the Latinised name of this Baghdad mathematician. :: Al-Khwarizmi
+"Magazine" comes from the Arabic "makhazin", meaning this. :: Storehouses
+"Monsoon" comes from the Arabic "mawsim", meaning this. :: Season
 
 ## 500
 The idiom "to eat humble pie" comes from "umble pie", made from these. :: Animal offal (entrails)
-"Mind your own beeswax" is a jokey version of this phrase. :: Mind your own business
 "Hoist with your own petard": a petard was this. :: A small bomb
 "Hoist with his own petard" comes from this Shakespeare play. :: Hamlet
 "Wear your heart on your sleeve" comes from this Shakespeare play. :: Othello
@@ -423,19 +452,13 @@ The idiom "to eat humble pie" comes from "umble pie", made from these. :: Animal
 "It's all Greek to me" comes from this Shakespeare play. :: Julius Caesar
 "Vanish into thin air" comes from this Shakespeare play. :: The Tempest (or Othello)
 "Pound of flesh" comes from this Shakespeare play. :: The Merchant of Venice
-"Something is rotten in the state of Denmark" is from this play. :: Hamlet
 "Kill with kindness" also comes from this playwright. :: William Shakespeare
 The author whose books never contain the exact line "Elementary, my dear Watson". :: Arthur Conan Doyle
 "Curiouser and curiouser!" comes from this book. :: Alice's Adventures in Wonderland
 "Down the rabbit hole" comes from this book. :: Alice's Adventures in Wonderland
-"Grin like a Cheshire cat" is linked to this county in England. :: Cheshire
 "Bob's your uncle" may come from this British prime minister appointing his nephew. :: Lord Salisbury (Robert Cecil)
-"Mad as a March hare" refers to this animal's odd behaviour in spring. :: The hare
 "Raining cats and dogs" was used in a 1738 work by this satirist. :: Jonathan Swift
-"Let them eat cake" is wrongly linked to this French queen. :: Marie Antoinette
 "Veni, vidi, vici" means this. :: I came, I saw, I conquered
-"Carpe diem" means this. :: Seize the day
-"Et tu, Brute?" was said, in Shakespeare, by this man. :: Julius Caesar
 "Alea iacta est", "the die is cast", was said by Caesar at this river. :: The Rubicon
 "Quid pro quo" means this. :: Something for something
 "Status quo" means this. :: The existing state of affairs
@@ -454,7 +477,6 @@ The Japanese word "tsundoku" means this. :: Buying books and never reading them
 The Danish word "hygge" means this. :: Cosy contentment
 The Swedish word "fika" means this. :: A coffee and cake break
 The Japanese word "kaizen" means this. :: Continuous improvement
-The Arabic word "sabr" means this. :: Patience
 The Arabic word "ghurba" means this. :: The feeling of being a stranger far from home
 The French idiom "avoir le cafard" (to have the cockroach) means this. :: To feel down
 The French idiom "poser un lapin" (to put down a rabbit) means this. :: To stand someone up
@@ -462,14 +484,11 @@ The German idiom "Tomaten auf den Augen haben" (tomatoes on the eyes) means this
 The Spanish idiom "ser pan comido" (to be eaten bread) means this. :: Very easy
 The Italian idiom "in bocca al lupo" (into the wolf's mouth) means this. :: Good luck
 The Japanese proverb "Fall seven times, stand up ___." :: Eight
-The Chinese proverb "A journey of a thousand miles begins with" this. :: A single step
 The Chinese thinker traditionally credited with "A journey of a thousand miles begins with a single step". :: Laozi
-"Give a man a fish and you feed him for a day; teach a man to fish and" this. :: You feed him for a lifetime
 The Arabic proverb "Jaza' Sinnimar" means being repaid this way. :: Badly, for a good deed
 In the story behind "Jaza' Sinnimar", Sinnimar was this. :: The architect of a palace (thrown from it)
 The Arabic proverb "Ruja'a bi-khuffay Hunayn" means coming back with this. :: Nothing (empty-handed)
 In "returned with Hunayn's shoes", Hunayn was this. :: A shoemaker
-The Arabic proverb "Akram min Hatim" means more generous than this man. :: Hatim al-Ta'i
 The Arabic proverb "Ashamu min 'Itr Manshim" refers to this. :: A bad omen
 The Arabic proverb "Sabaqa al-sayfu al-'adhal" means this. :: It's too late (the sword has already struck)
 The Arabic saying "Fi al-ta'anni al-salama wa fi al-'ajala al-nadama" praises this. :: Patience (taking your time)
@@ -477,20 +496,16 @@ The English equivalent of "In patience is safety, in haste is regret". :: Haste 
 The Arabic proverb "Al-kalb al-nabih la ya'udd" matches this English saying. :: Barking dogs seldom bite
 The Arabic proverb "Idha kunta rihan fa-qad laqayta i'saran" (if you are wind, you've met a whirlwind) means this. :: Meeting someone stronger than you
 The English equivalent of "If you are wind, you've met a whirlwind". :: Meet your match
-The Arabic proverb "Al-'ilm nur" says knowledge is this. :: Light
 The Arabic saying "Hal yuslih al-'attar ma afsad al-dahr" means this. :: You can't fix what time has ruined
 The Arabic proverb "Al-sadiq waqt al-dhiq" says a true friend appears at this time. :: Times of hardship
 The English equivalent of "Al-sadiq waqt al-dhiq". :: A friend in need is a friend indeed
 The Arabic proverb "Zamar al-hayy la yutrib" (the neighbourhood's piper doesn't please) matches this English saying. :: Familiarity breeds contempt
 The Arabic proverb "Al-hadid bil-hadid yuflah" says iron is cut by this. :: Iron
 The proverb "As the twig is bent, so grows ___." :: The tree
-"The apple doesn't fall far from ___." :: The tree
 The Arabic proverb "Ibn al-wazz 'awwam", similar to "the apple doesn't fall far from the tree", means this. :: The son of a duck is a swimmer
 "Hunger is the best ___." :: Sauce
 "Don't count your chickens" was in this ancient storyteller's fable of the milkmaid. :: Aesop
 "Sour grapes" comes from this Aesop fable. :: The Fox and the Grapes
-"Cry wolf" comes from this Aesop fable. :: The Boy Who Cried Wolf
-"Slow and steady wins the race" comes from this Aesop fable. :: The Tortoise and the Hare
 "Kill the goose that lays the golden eggs" comes from a fable by this author. :: Aesop
 "Kalila wa Dimna", the famous Arabic book of animal fables, was translated by this writer. :: Ibn al-Muqaffa'
 Kalila and Dimna, in the Arabic fables, are these animals. :: Jackals
@@ -512,4 +527,18 @@ The "mare" in "nightmare" was originally this. :: An evil spirit that sat on sle
 "Hazard" comes from the Arabic "al-zahr", meaning this. :: The dice
 "Mattress" comes from the Arabic "matrah", meaning this. :: A place where something is thrown down (a cushion)
 "Sofa" comes from the Arabic "suffa", meaning this. :: A raised bench
-"Giraffe" comes from this Arabic word for the animal. :: Zarafa
+"Arsenal" comes from the Arabic "dar al-sina'a", meaning this. :: House of manufacture (workshop)
+"Admiral" comes from the Arabic title "amir", meaning this. :: Commander
+"Cipher" and "zero" both come from the Arabic "sifr", meaning this. :: Empty
+"Tariff" comes from the Arabic "ta'rif", meaning this. :: Notification (making known)
+To "run amok" comes from a word in this language. :: Malay
+"Halcyon days", calm and happy times, are named after this bird said to calm the sea. :: The kingfisher
+"Nemesis" comes from the Greek goddess of this. :: Divine retribution
+A "spoonerism", like "you hissed my mystery lecture", is named after this Oxford don. :: William Archibald Spooner
+To "bowdlerise", to censor a text, comes from this editor of a cleaned-up Shakespeare. :: Thomas Bowdler
+"Procrustean" comes from a robber who did this to guests to fit his bed. :: Stretched them or cut off their legs
+A "philippic", a bitter attacking speech, comes from Demosthenes' speeches against this king. :: Philip II of Macedon
+A "stentorian" voice comes from Stentor, a loud herald in this epic. :: The Iliad
+A "martinet", a strict disciplinarian, is named after this 17th-century French officer. :: Jean Martinet
+The Arabic proverb "Absar min Zarqa' al-Yamama" describes someone with this. :: Extremely sharp eyesight
+The Arabic proverb "Awfa min al-Samaw'al" describes someone famous for this. :: Loyalty (keeping a promise)

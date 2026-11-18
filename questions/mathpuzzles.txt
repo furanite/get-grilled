@@ -104,6 +104,11 @@ Ahmed has 12 dates and eats a third. Dates left. :: 8
 The number of days in two weeks. :: 14
 Nine plus six. :: 15
 The total number of sides on 2 squares and a triangle. :: 11
+10 cubed. :: 1,000
+The next number in the sequence 1, 2, 4, 8, 16, 32. :: 64
+A 12-slice pizza is shared equally by 4 friends. The fraction each gets. :: 1/4 (3 slices)
+The probability of rolling a 6 on a fair die. :: 1/6
+The probability of rolling an even number on a die. :: 1/2
 
 ## 200
 10 percent of 450. :: 45
@@ -220,6 +225,26 @@ Ten minus negative ten. :: 20
 2 to the power 10. :: 1,024
 10 to the power 4. :: 10,000
 The number of zeros in one billion. :: 9
+The cube root of 8. :: 2
+The cube root of 27. :: 3
+The cube root of 64. :: 4
+The cube root of 125. :: 5
+The cube root of 1,000. :: 10
+The next number in the sequence 1, 4, 9, 16, 25, 36. :: 49
+The next number in the sequence 100, 50, 25. :: 12.5
+The hypotenuse of a right triangle with sides 3 and 4. :: 5
+The number of different outfits from 3 shirts and 4 trousers. :: 12
+The number of possible 4-digit PIN codes from 0000 to 9999. :: 10,000
+The number of radians in a full circle. :: 2π
+The angle between clock hands at 4:00. :: 120 degrees
+Five workers build a wall in 12 days. Ten workers at the same rate take this long. :: 6 days
+The number 2026 in Roman numerals. :: MMXXVI
+The logarithm base 10 of 1,000,000. :: 6
+The derivative of x cubed. :: 3x squared
+The integral of 2x with respect to x. :: x squared + C
+The value of i squared, where i is the imaginary unit. :: -1
+Walking 1 km in 12 minutes, your speed in km/h. :: 5
+The value of 0! (zero factorial). :: 1
 
 ## 300
 23 times 11. :: 253
@@ -242,30 +267,21 @@ The number of zeros in one billion. :: 9
 99 squared. :: 9,801
 6 cubed. :: 216
 7 cubed. :: 343
-10 cubed. :: 1,000
-The cube root of 8. :: 2
-The cube root of 27. :: 3
-The cube root of 64. :: 4
-The cube root of 125. :: 5
-The cube root of 1,000. :: 10
 6 factorial. :: 720
 7 factorial. :: 5,040
 2 to the power 12. :: 4,096
 2 to the power 15. :: 32,768
 2 to the power 20. :: 1,048,576
 The next number in the sequence 2, 5, 10, 17, 26. :: 37
-The next number in the sequence 1, 2, 4, 8, 16, 32. :: 64
 The next number in the sequence 3, 9, 27, 81. :: 243
 The next number in the sequence 1, 1, 2, 3, 5, 8, 13, 21. :: 34
 The next number in the sequence 2, 3, 5, 7, 11, 13, 17. :: 19
-The next number in the sequence 1, 4, 9, 16, 25, 36. :: 49
 The next number in the sequence 1, 8, 27, 64, 125. :: 216
 The next number in the sequence 0, 3, 8, 15, 24. :: 35
 The next number in the sequence 1, 3, 6, 10, 15, 21. :: 28
 The next number in the sequence 2, 6, 12, 20, 30, 42. :: 56
 The next number in the sequence 1, 2, 6, 24, 120. :: 720
 The next number in the sequence 5, 11, 23, 47. :: 95
-The next number in the sequence 100, 50, 25. :: 12.5
 The next number in the sequence 1, 4, 13, 40. :: 121
 The next number in the sequence 2, 4, 12, 48. :: 240
 A train leaves at 08:50 and arrives at 13:25. Journey time. :: 4 hours 35 minutes
@@ -280,7 +296,6 @@ The value of x if x squared is 169 and x is positive. :: 13
 A rectangle has area 72 and width 8. Its length. :: 9
 The circumference of a circle with diameter 10, taking pi as 3.14. :: 31.4
 The area of a circle of radius 10, taking pi as 3.14. :: 314
-The hypotenuse of a right triangle with sides 3 and 4. :: 5
 The hypotenuse of a right triangle with sides 5 and 12. :: 13
 The hypotenuse of a right triangle with sides 8 and 15. :: 17
 The number of diagonals in a pentagon. :: 5
@@ -297,18 +312,14 @@ The number of days in a century of 365-day years plus 24 leap days. :: 36,524
 A price rises 10 percent and then falls 10 percent. The overall change. :: 1 percent down
 A price of 200 riyals is raised by 50 percent then cut by 50 percent. The final price. :: 150 riyals
 The interest on 1,000 riyals at 5 percent a year for 2 years, simple interest. :: 100 riyals
-A 12-slice pizza is shared equally by 4 friends. The fraction each gets. :: 1/4 (3 slices)
-The probability of rolling a 6 on a fair die. :: 1/6
 The probability of flipping two heads in a row. :: 1/4
 The probability of drawing an ace from a full deck. :: 1/13
-The probability of rolling an even number on a die. :: 1/2
 The number of ways to arrange the letters A, B and C. :: 6
 The number of ways to arrange 4 people in a line. :: 24
 The number of handshakes when 6 people each shake hands once. :: 15
 The number of matches in a round-robin of 8 teams playing each other once. :: 28
 The number of games in a knockout tournament of 16 players. :: 15
 The number of games in a knockout tournament of 64 players. :: 63
-The number of different outfits from 3 shirts and 4 trousers. :: 12
 Writing the numbers 1 to 100, the number of digits written. :: 192
 The sum of the angles of a pentagon. :: 540 degrees
 The sum of the whole numbers from 1 to 20. :: 210
@@ -330,6 +341,17 @@ The Roman numeral CDXLIV in ordinary digits. :: 444
 The Roman numeral MCMLXXXVIII in ordinary digits. :: 1,988
 The number of degrees the minute hand turns in 20 minutes. :: 120
 The number of degrees the hour hand turns in one hour. :: 30
+The probability of rolling a total of 12 with two dice. :: 1/36
+The sum of the digits of 9 to the power 3. :: 18
+The 10th Fibonacci number, starting 1, 1. :: 55
+The ratio that consecutive Fibonacci numbers approach. :: The golden ratio (about 1.618)
+The sum of the first 100 positive whole numbers. :: 5,050
+The logarithm base 2 of 1,024. :: 10
+The natural logarithm of e squared. :: 2
+The value of e to the power iπ plus 1, in Euler's identity. :: 0
+The area of a circle with circumference 2π. :: π
+A clock gains 5 minutes every hour. Hours until it is 1 hour ahead. :: 12
+A bacteria colony doubles every minute and fills a jar in 60 minutes. Minutes to half fill it. :: 59
 
 ## 400
 37 times 37. :: 1,369
@@ -388,10 +410,8 @@ The number of ways to choose 2 from 20. :: 190
 The number of ways to arrange the letters of BANANA. :: 60
 The number of ways to arrange the letters of LEVEL. :: 30
 The number of different 3-digit numbers using digits 1 to 9 without repeating. :: 504
-The number of possible 4-digit PIN codes from 0000 to 9999. :: 10,000
 The number of binary strings of length 8. :: 256
 The number of subsets of a set with 5 elements. :: 32
-The probability of rolling a total of 12 with two dice. :: 1/36
 The probability of rolling a total of 7 with two dice. :: 1/6
 The probability of getting at least one head in three coin flips. :: 7/8
 The probability that two cards drawn from a deck are both aces. :: 1/221
@@ -399,17 +419,14 @@ The expected value of one roll of a fair six-sided die. :: 3.5
 The number of minutes in a leap year. :: 527,040
 The number of seconds in a week. :: 604,800
 The number of degrees in 1 radian, to the nearest degree. :: 57
-The number of radians in a full circle. :: 2π
 Pi to 5 decimal places. :: 3.14159
 The square root of 2 to 3 decimal places. :: 1.414
 The golden ratio to 3 decimal places. :: 1.618
 Euler's number e to 3 decimal places. :: 2.718
-The angle between clock hands at 4:00. :: 120 degrees
 The angle between clock hands at 9:30. :: 105 degrees
 The angle between clock hands at 2:20. :: 50 degrees
 A car goes 60 km at 30 km/h and 60 km at 60 km/h. Average speed overall. :: 40 km/h
 A tap fills a tank in 3 hours and another in 6 hours. Both together take this long. :: 2 hours
-Five workers build a wall in 12 days. Ten workers at the same rate take this long. :: 6 days
 A 20 percent discount followed by another 20 percent discount equals a single discount of this. :: 36 percent
 Doubling money every year, starting with 1 riyal, the amount after 10 years. :: 1,024 riyals
 The sum of the interior angles of a decagon. :: 1,440 degrees
@@ -425,13 +442,18 @@ The value of 0.999... recurring. :: 1
 The number 255 in binary. :: 11111111
 The binary number 10000000000 in ordinary digits. :: 1,024
 The hexadecimal number 100 in ordinary digits. :: 256
-The number 2026 in Roman numerals. :: MMXXVI
 The number 3,999 in Roman numerals. :: MMMCMXCIX
 The 15th Fibonacci number, starting 1, 1. :: 610
 Each interior angle of a regular decagon. :: 144 degrees
 The number of two-digit whole numbers. :: 90
 The number of three-digit numbers divisible by 5. :: 180
 The value of 4 + 4 × 4 − 4 ÷ 4. :: 19
+57 times 43. :: 2,451
+The square root of 3,136. :: 56
+The number of trailing zeros in 40 factorial. :: 9
+The number of positive divisors of 72. :: 12
+The angle between clock hands at 3:15. :: 7.5 degrees
+The number of ways to arrange the letters of COFFEE. :: 180
 
 ## 500
 The smallest number that is the sum of two cubes in two different ways. :: 1,729
@@ -440,7 +462,6 @@ The smallest number divisible by every number from 1 to 12. :: 27,720
 The fourth perfect number. :: 8,128
 The number of zeros at the end of 1,000 factorial. :: 249
 The last two digits of 2 to the power 20. :: 76
-The sum of the digits of 9 to the power 3. :: 18
 The number of primes below 1,000. :: 168
 The 100th prime number. :: 541
 The smallest prime with two digits that stays prime when its digits are reversed and differs from it. :: 13
@@ -462,9 +483,6 @@ The expected number of rolls of a fair die to get a 6. :: 6
 The expected number of coin flips to get two heads in a row. :: 6
 The number of derangements of 4 items, where none are in their original place. :: 9
 The 5th Catalan number, starting C0 = 1. :: 42
-The 10th Fibonacci number, starting 1, 1. :: 55
-The ratio that consecutive Fibonacci numbers approach. :: The golden ratio (about 1.618)
-The sum of the first 100 positive whole numbers. :: 5,050
 The sum of the squares from 1 squared to 10 squared. :: 385
 The sum of the cubes from 1 cubed to 10 cubed. :: 3,025
 The value of 12 factorial divided by 10 factorial. :: 132
@@ -478,13 +496,6 @@ The square root of 7,056. :: 84
 The square root of 9,801. :: 99
 The cube of 21. :: 9,261
 The fifth root of 3,125. :: 5
-The logarithm base 10 of 1,000,000. :: 6
-The logarithm base 2 of 1,024. :: 10
-The natural logarithm of e squared. :: 2
-The derivative of x cubed. :: 3x squared
-The integral of 2x with respect to x. :: x squared + C
-The value of i squared, where i is the imaginary unit. :: -1
-The value of e to the power iπ plus 1, in Euler's identity. :: 0
 The sum of the interior angles of a 20-sided polygon. :: 3,240 degrees
 The number of edges on a tesseract (4D cube). :: 32
 The number of vertices on a tesseract. :: 16
@@ -492,14 +503,12 @@ The number of Platonic solids. :: 5
 The number of faces on a truncated icosahedron, the classic football shape. :: 32
 The number of hexagons on a classic football. :: 20
 The number of pentagons on a classic football. :: 12
-The area of a circle with circumference 2π. :: π
 The volume of a sphere of radius 3, in terms of π. :: 36π
 The surface area of a sphere of radius 1, in terms of π. :: 4π
 The angle in degrees inside a regular dodecagon at each corner. :: 150
 The angle between the hands of a clock at 7:20. :: 100 degrees
 The number of times the hands of a clock form a right angle in 12 hours. :: 22
 The number of times a day the minute and hour hands overlap. :: 22
-A clock gains 5 minutes every hour. Hours until it is 1 hour ahead. :: 12
 The number 1,000 in binary. :: 1111101000
 The number 1,000 in hexadecimal. :: 3E8
 The hexadecimal number FFFF in ordinary digits. :: 65,535
@@ -512,15 +521,12 @@ The decimal expansion of 1/7. :: 0.142857 recurring
 The fraction equal to 0.272727... recurring. :: 3/11
 The number of seconds in a non-leap year. :: 31,536,000
 The number of hours in a year of 365 days. :: 8,760
-Walking 1 km in 12 minutes, your speed in km/h. :: 5
 A train 200 m long passes a pole in 10 seconds. Its speed in km/h. :: 72
 A train 300 m long crosses a 200 m bridge at 50 m/s. Time taken in seconds. :: 10
 Two runners on a 400 m track at 5 m/s and 3 m/s start together. Seconds until the faster laps the slower. :: 200
 Three people can paint 3 rooms in 3 hours. People needed to paint 6 rooms in 6 hours. :: 3
-A bacteria colony doubles every minute and fills a jar in 60 minutes. Minutes to half fill it. :: 59
 The smallest positive whole number with digits that multiply to 100. :: 455
 The value of 1 − 1/2 + 1/3 − 1/4 + 1/5 − ... continued forever. :: ln 2 (about 0.693)
-The value of 0! (zero factorial). :: 1
 The number of digits in 2 to the power 100. :: 31
 The number of digits in 100 factorial. :: 158
 The next palindromic year after 2002. :: 2112
@@ -534,3 +540,19 @@ The number of ways to tile a 2 by 10 strip with 2 by 1 dominoes. :: 89
 The most regions a circle can be cut into by joining 6 points on it with straight lines. :: 31
 The number of squares of all sizes on a 3 by 3 grid. :: 14
 One million seconds is roughly this many days. :: About 11.6 days
+The last digit of 3 to the power 2026. :: 9
+The remainder when 2 to the power 100 is divided by 7. :: 2
+The number of trailing zeros in 200 factorial. :: 49
+The number of positive divisors of 1,000. :: 16
+The sum of all the positive divisors of 100, including 100. :: 217
+The number of derangements of 5 items, where none is in its original place. :: 44
+The 7th Catalan number, starting C0 = 1. :: 429
+The number of squares of all sizes on a 4 by 4 grid. :: 30
+The number of shortest grid paths from one corner of a 4 by 4 grid of squares to the opposite corner. :: 70
+The most regions a plane can be cut into by 5 straight lines. :: 16
+The probability of at least one six in four rolls of a fair die, to 3 decimal places. :: 0.518
+The expected number of rolls of a fair die needed to see all six faces. :: 14.7
+The number of digits in 2 to the power 50. :: 16
+The smallest positive whole number with exactly 10 positive divisors. :: 48
+The angle between clock hands at 10:10. :: 115 degrees
+The number 2,026 in binary. :: 11111101010

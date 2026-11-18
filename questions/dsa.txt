@@ -96,7 +96,6 @@ The ancient Greek method for finding the greatest common divisor of two numbers.
 The greatest common divisor of 12 and 18. :: 6
 The ancient method for finding all primes up to a limit by crossing out multiples. :: Sieve of Eratosthenes
 The smallest prime number. :: 2
-A data structure used for autocomplete that stores words letter by letter in a tree. :: Trie
 The data structure a GPS app uses to model roads and junctions. :: Graph
 The problem of finding the quickest route between two places on a map. :: Shortest path problem
 A function that turns a key into an index in a table. :: Hash function
@@ -107,6 +106,7 @@ The property that an algorithm always finishes after a finite number of steps. :
 Name the data structure drawn here. {img:linked-list.svg} :: A singly linked list
 Name this data structure, where items go in and come out at the same end. {img:ds-stack.svg} :: Stack
 Name this data structure, where items go in at one end and come out at the other. {img:ds-queue.svg} :: Queue
+The order in which a stack returns the items 1, 2, 3 pushed in that order. :: 3, 2, 1
 
 ## 200
 The Big O of finding an item in a balanced binary search tree. :: O(log n)
@@ -133,7 +133,6 @@ The colour of the root of a red–black tree. :: Black
 The tree used by databases and file systems that keeps many keys in each node. :: B-tree
 The B-tree variant that keeps all data in its leaves, linked together. :: B+ tree
 The tree that stores intervals of an array to answer range sums quickly. :: Segment tree
-The tree also called a Binary Indexed Tree. :: Fenwick tree
 The hash table method that keeps colliding keys in a linked list at each slot. :: Separate chaining
 The hash table method that searches for another empty slot on a collision. :: Open addressing
 The open-addressing method that tries the next slot, then the next. :: Linear probing
@@ -171,7 +170,6 @@ The Big O of quicksort on average. :: O(n log n)
 The Big O of insertion sort on a list that is already sorted. :: O(n)
 The sort that is fast on nearly sorted data and is used inside hybrid sorts for small parts. :: Insertion sort
 The hybrid of merge sort and insertion sort used by Python and Java for objects. :: Timsort
-The software engineer who created Timsort in 2002. :: Tim Peters
 The hybrid sort used by the C++ standard library's sort function, mixing quicksort, heapsort and insertion sort. :: Introsort
 The sort that gaps items far apart, then closer, invented in 1959. :: Shell sort
 The sort that drops numbers into ranges and sorts each range. :: Bucket sort
@@ -184,7 +182,6 @@ The number of edits to turn one word into another, used in spell checkers. :: Ed
 The edit distance between "cat" and "cut". :: 1
 The algorithm design method that builds a solution step by step and undoes bad choices. :: Backtracking
 The classic backtracking puzzle of placing queens so none attack each other. :: Eight queens puzzle
-The number of solutions to the eight queens puzzle. :: 92
 The number of ways to arrange 4 different books on a shelf. :: 24
 The number of subsets of a set with n items. :: 2ⁿ
 The Big O of the naive recursive Fibonacci function. :: O(2ⁿ) (exponential)
@@ -210,12 +207,20 @@ The fastest way to search a sorted array that is evenly spread, guessing the pos
 The data structure behind a priority queue in most libraries. :: Binary heap
 The class of problems whose answers can be checked quickly. :: NP
 This stack has 42 on top. After two pops, which value is on top? {img:ds-stack.svg} :: 8
+A data structure used for autocomplete that stores words letter by letter in a tree. :: Trie
+The theorem that every planar map can be coloured with this many colours so no neighbours match. :: 4 (Four colour theorem)
+The problem proved undecidable by Alan Turing in 1936. :: Halting problem
+The award known as the "Nobel Prize of computing". :: Turing Award
+The checksum formula for credit card numbers invented by Hans Peter Luhn. :: Luhn algorithm
+The man who described the Fenwick tree in 1994. :: Peter Fenwick
+The computer scientist who published Shell sort in 1959. :: Donald Shell
+The value of 2¹⁰. :: 1,024
+The number of binary strings of length 8. :: 256
+The number of permutations of 5 items. :: 120
 
 ## 300
 The data structure that gives O(log n) search, insert and delete using towers of linked lists and coin flips. :: Skip list
-The computer scientist who described the skip list in 1989. :: William Pugh
 The binary search tree that moves each accessed node to the root. :: Splay tree
-The inventors of the splay tree, Tarjan and this man. :: Daniel Sleator
 The tree that combines a binary search tree on keys with a heap on random priorities. :: Treap
 The probabilistic data structure that can say an item is "definitely not present" or "maybe present". :: Bloom filter
 A Bloom filter can give this kind of error, but never the other kind. :: False positive
@@ -249,10 +254,8 @@ The version of Ford–Fulkerson that uses BFS to choose the shortest augmenting 
 The algorithm for maximum matching in bipartite graphs with O(E√V) time. :: Hopcroft–Karp algorithm
 The algorithm that solves the assignment problem in polynomial time, named after a nationality. :: Hungarian algorithm
 The algorithm by Gale and Shapley pairs people so no two prefer each other over their partners. :: Stable marriage algorithm
-The year Gale and Shapley published the stable matching algorithm. :: 1962
 The minimum spanning tree algorithm, the oldest known, published in 1926 for an electricity network. :: Borůvka's algorithm
 The Big O of Kruskal's algorithm, dominated by sorting the edges. :: O(E log E)
-The theorem that every planar map can be coloured with this many colours so no neighbours match. :: 4 (Four colour theorem)
 The year the four colour theorem was proved with a computer. :: 1976
 The problem of deciding whether a graph's vertices can be coloured with k colours is this kind of problem. :: NP-complete
 The first problem proved NP-complete, about true/false formulas. :: Boolean satisfiability (SAT)
@@ -261,7 +264,6 @@ The open question of whether every quickly checkable problem is also quickly sol
 The prize money in US dollars offered by the Clay Institute for solving P versus NP. :: 1,000,000
 The scientist who listed 21 NP-complete problems in 1972. :: Richard Karp
 A problem at least as hard as every problem in NP. :: NP-hard
-The problem proved undecidable by Alan Turing in 1936. :: Halting problem
 An algorithm guaranteed to give an answer within a fixed factor of the best. :: Approximation algorithm
 The simple 2-approximation for vertex cover takes both ends of each uncovered edge in this structure. :: Maximal matching
 The metaheuristic that slowly lowers a "temperature" to escape local minima. :: Simulated annealing
@@ -282,7 +284,6 @@ The variant of quicksort that splits into three parts: less than, equal to and g
 The problem of sorting red, white and blue items in one pass, posed by Dijkstra. :: Dutch national flag problem
 The sorting algorithm that uses O(n log n) comparisons in the worst case and O(1) extra space. :: Heapsort
 The algorithm that multiplies big numbers faster than the schoolbook method by splitting them in half. :: Karatsuba algorithm
-The year Karatsuba found his multiplication algorithm. :: 1960
 The algorithm that multiplies matrices with 7 multiplications instead of 8 per split. :: Strassen algorithm
 The algorithm that computes a discrete Fourier transform in O(n log n). :: Fast Fourier transform (FFT)
 The two mathematicians who published the FFT in 1965. :: Cooley and Tukey
@@ -311,8 +312,16 @@ The number sequence that counts binary trees, named after a Belgian mathematicia
 The algorithm for evaluating a polynomial with the fewest multiplications. :: Horner's method
 The technique that answers range-minimum queries in O(1) after O(n log n) preprocessing. :: Sparse table
 The technique that splits an array into √n blocks to answer queries. :: Square root decomposition
-The offline query ordering trick for range queries, named after a Chinese competitive programmer. :: Mo's algorithm
 Give the pre-order traversal of this binary tree. {img:binary-tree.svg} :: 4, 2, 1, 3, 6, 5, 7
+The tree also called a Binary Indexed Tree. :: Fenwick tree
+The number of inversions in the list 3, 1, 2. :: 2
+The number of edges in a complete graph with 10 vertices. :: 45
+The number of nodes in a perfect binary tree with 4 levels. :: 15
+The recurrence T(n) = 2T(n/2) + n solves to this. :: Θ(n log n)
+The postfix form of the expression (2 + 3) × 4. :: 2 3 + 4 ×
+The number of ways to choose 3 items from 10. :: 120
+The formula V − E + F = 2 for planar graphs is named after this mathematician. :: Leonhard Euler
+The bit operation that swaps two integers without a temporary variable, used three times. :: XOR
 
 ## 400
 The author of "The Art of Computer Programming", first volume published in 1968. :: Donald Knuth
@@ -320,7 +329,6 @@ The typesetting system Donald Knuth created because he disliked the look of his 
 The four authors of the textbook "Introduction to Algorithms" are known by these initials. :: CLRS
 The computer scientist who wrote "Algorithms + Data Structures = Programs" in 1976. :: Niklaus Wirth
 The Turing Award winners of 1986 for the design and analysis of algorithms and data structures: Tarjan and this man. :: John Hopcroft
-The award known as the "Nobel Prize of computing". :: Turing Award
 The first person to receive the Turing Award, in 1966. :: Alan Perlis
 The computer scientist who invented the A* search algorithm with Nils Nilsson and Bertram Raphael, at SRI in 1968. :: Peter Hart
 The robot for which A* search was first developed. :: Shakey
@@ -357,11 +365,9 @@ The 1995 randomised algorithm that finds a minimum spanning tree in expected lin
 The algorithm that finds a minimum cut in a graph by randomly merging edges. :: Karger's algorithm
 The Big O of Hopcroft–Tarjan planarity testing. :: O(n)
 The algorithm that finds all-pairs shortest paths faster on sparse graphs by reweighting with Bellman–Ford, then running Dijkstra. :: Johnson's algorithm
-The year Orlin published an O(VE) maximum flow algorithm. :: 2013
 The 2022 breakthrough gave a maximum flow algorithm whose running time is described this way. :: Almost-linear time
 The Dutch computer scientist who invented the semaphore. :: Edsger Dijkstra
 The computer scientist who invented the hash table idea in an IBM memo in 1953. :: Hans Peter Luhn
-The checksum formula for credit card numbers invented by Hans Peter Luhn. :: Luhn algorithm
 The sorting algorithm that performs best on data loaded from tape drives by merging long runs. :: External merge sort (polyphase merge)
 The model of computation that counts transfers between fast and slow memory. :: External memory model (I/O model)
 Algorithms that perform well on any cache size without knowing it are called this. :: Cache-oblivious algorithms
@@ -373,7 +379,6 @@ The compressed trie in which nodes with one child are merged. :: Radix tree (Pat
 PATRICIA stands for "Practical Algorithm to Retrieve Information Coded in ___". :: Alphanumeric
 The data structure that keeps the sum of any range and allows updates in O(log n) using the lowest set bit. :: Fenwick tree
 The bit trick i & (−i) gives this part of i. :: Lowest set bit
-The man who described the Fenwick tree in 1994. :: Peter Fenwick
 The data structure that answers lowest common ancestor queries using an Euler tour and range-minimum queries. :: Sparse table (Euler tour technique)
 The technique that answers LCA queries by jumping up powers of two. :: Binary lifting
 The technique that splits a tree into chains so path queries take O(log² n). :: Heavy–light decomposition
@@ -410,12 +415,15 @@ The Big O lower bound on searching an unsorted list with a quantum computer. :: 
 The minimum number of moves that always suffices to solve any Rubik's Cube position, proved in 2010. :: 20
 The name given to the number 20 in the Rubik's Cube proof. :: God's number
 The computer scientist who invented heapsort in 1964. :: J. W. J. Williams
-The computer scientist who published Shell sort in 1959. :: Donald Shell
 The computer scientist who coined the name "trie", from the word "retrieval". :: Edward Fredkin
-The third member, with Newell and Simon, of the team that invented the linked list in the 1950s. :: Cliff Shaw
 The German number theorist who popularised Big O notation after Paul Bachmann introduced it. :: Edmund Landau
 The inventors of the Fibonacci heap in 1984: Fredman and this man. :: Robert Tarjan
 Using the edge weights shown, what is the length of the shortest path from A to F? {img:weighted-graph.svg} :: 6 (A, C, B, D, E, F)
+The software engineer who created Timsort in 2002. :: Tim Peters
+The number of solutions to the eight queens puzzle. :: 92
+The computer scientist who described the skip list in 1989. :: William Pugh
+The offline query ordering trick for range queries, named after a Chinese competitive programmer. :: Mo's algorithm
+The string search algorithm that compares rolling hashes of the pattern and each window of the text. :: Rabin–Karp algorithm
 
 ## 500
 The fewest nodes an AVL tree of height 4 can have, counting a single node as height 0. :: 12
@@ -428,11 +436,9 @@ The minimum number of comparisons needed in the worst case to sort 5 items. :: 7
 The minimum number of comparisons needed to find both the smallest and the largest of 8 items. :: 10
 The minimum number of comparisons needed to find the second-largest of 8 items. :: 9
 The number of comparisons binary search needs in the worst case on a sorted array of 1,000 items. :: 10
-The number of inversions in the list 3, 1, 2. :: 2
 The maximum number of inversions in a list of 5 different numbers. :: 10
 The number of swaps bubble sort makes on a list equals the number of these in it. :: Inversions
 The number of moves needed to solve the Tower of Hanoi with 10 discs. :: 1,023
-The number of edges in a complete graph with 10 vertices. :: 45
 The number of spanning trees of a complete graph with 4 vertices. :: 16
 The formula n^(n−2) for the number of spanning trees of a complete graph is named after this mathematician. :: Arthur Cayley
 The theorem that counts spanning trees with a determinant of a matrix built from the graph. :: Kirchhoff's matrix tree theorem
@@ -440,7 +446,6 @@ The number of colours needed to colour the vertices of a cycle with 5 vertices. 
 The number of edges in a hypercube graph of dimension 4. :: 32
 The minimum possible height of a B-tree is achieved when every node is this. :: Full
 The maximum number of keys in a node of a B-tree of order 5, where order means maximum children. :: 4
-The number of nodes in a perfect binary tree with 4 levels. :: 15
 The optimal number of hash functions for a Bloom filter with 10 bits per item, rounded. :: 7
 The false positive rate of a Bloom filter with 10 bits per item and optimal hashing, roughly, in percent. :: 1
 The expected number of people needed for a 50 percent chance of a shared birthday, which explains hash collisions. :: 23
@@ -450,7 +455,6 @@ The growth factor used by CPython's list, roughly, instead of doubling. :: 1.125
 The growth factor commonly used by Microsoft's C++ vector implementation. :: 1.5
 The golden ratio is linked to the worst-case height of this balanced tree, about 1.44 log₂ n. :: AVL tree
 The maximum height of a red–black tree with n nodes is at most this multiple of log₂(n + 1). :: 2
-The recurrence T(n) = 2T(n/2) + n solves to this. :: Θ(n log n)
 The recurrence T(n) = T(n/2) + 1 solves to this. :: Θ(log n)
 The recurrence T(n) = 2T(n/2) + 1 solves to this. :: Θ(n)
 The recurrence T(n) = 4T(n/2) + n solves to this. :: Θ(n²)
@@ -470,10 +474,8 @@ The probability used to promote a node to the next level in a standard skip list
 The number of rotations a single insertion into an AVL tree needs at most, counting a double rotation as two. :: 2
 The number of rotations a single insertion into a red–black tree needs at most. :: 2
 The maximum number of rotations a single deletion from a red–black tree needs. :: 3
-The postfix form of the expression (2 + 3) × 4. :: 2 3 + 4 ×
 The value of the postfix expression 5 1 2 + 4 × + 3 −. :: 14
 The prefix form of the expression a + b × c. :: + a × b c
-The order in which a stack returns the items 1, 2, 3 pushed in that order. :: 3, 2, 1
 The number of different orders in which a stack can output 1, 2, 3 pushed in that order. :: 5
 The in-order traversal of a tree whose pre-order is A B C and post-order is B C A. :: B A C
 The traversal that, together with in-order, is enough to rebuild a binary tree. :: Pre-order (or post-order)
@@ -493,11 +495,7 @@ The greatest common divisor of 1,071 and 462. :: 21
 The number of division steps Euclid's algorithm takes on consecutive Fibonacci numbers is the worst case, proved by this French mathematician in 1844. :: Gabriel Lamé
 The number of primes below 100. :: 25
 The Big O of the Sieve of Eratosthenes. :: O(n log log n)
-The value of 2¹⁰. :: 1,024
 The value of log₂ of one million, rounded to the nearest whole number. :: 20
-The number of binary strings of length 8. :: 256
-The number of permutations of 5 items. :: 120
-The number of ways to choose 3 items from 10. :: 120
 The shortest path length from corner to opposite corner of a cube graph, in edges. :: 3
 The shortest-path algorithm that can give wrong answers when an edge has a negative weight, because it never revisits finished vertices. :: Dijkstra's algorithm
 The number of passes over all edges that Bellman–Ford needs on a graph with V vertices. :: V − 1
@@ -508,16 +506,26 @@ The theorem that a graph is bipartite exactly when it has no cycle of this kind.
 The theorem that the size of a maximum matching equals the size of a minimum vertex cover in bipartite graphs. :: Kőnig's theorem
 The theorem that gives the condition for a perfect matching in a bipartite graph, named after an English mathematician. :: Hall's marriage theorem
 The theorem that maximum flow equals minimum cut was proved in 1956 by Ford and this man. :: Delbert Fulkerson
-The formula V − E + F = 2 for planar graphs is named after this mathematician. :: Leonhard Euler
 The maximum number of edges in a planar graph with 10 vertices. :: 24
 The two graphs that Kuratowski's theorem says every non-planar graph contains: K₃,₃ and this. :: K₅
 The chromatic number of a complete graph with 6 vertices. :: 6
 The property of a hash function that a small change in input flips about half the output bits. :: Avalanche effect
 The FNV hash function is named after Fowler, Noll and this man. :: Kiem-Phong Vo
 The bit operation that tests whether a positive integer n is a power of two: n AND this equals zero. :: n − 1
-The bit operation that swaps two integers without a temporary variable, used three times. :: XOR
 The algorithm that counts set bits by repeatedly clearing the lowest one is named after this computer scientist. :: Brian Kernighan
 The data structure with operations "find" and "union" has this amortised cost per operation with both optimisations, written with the Greek letter alpha. :: O(α(n))
+The inventors of the splay tree, Tarjan and this man. :: Daniel Sleator
+The year Gale and Shapley published the stable matching algorithm. :: 1962
+The year Karatsuba found his multiplication algorithm. :: 1960
+The year Orlin published an O(VE) maximum flow algorithm. :: 2013
+The third member, with Newell and Simon, of the team that invented the linked list in the 1950s. :: Cliff Shaw
+The minimum number of internal nodes in a red–black tree whose black-height is 3. :: 7
+The worst-case number of comparisons insertion sort makes on 6 items. :: 15
+The amortised number of bit flips per increment of a binary counter is at most this. :: 2
+The expected number of probes for an unsuccessful search under uniform hashing in open addressing at load factor 0.5. :: 2
+The number of different max-heaps that can be built from the keys 1, 2, 3 and 4. :: 3
+The linear-time algorithm that finds, for each position, the longest substring matching a prefix of the string. :: Z-algorithm
+The smallest automaton that accepts every suffix of a string, with at most 2n − 1 states. :: Suffix automaton (DAWG)
 Which single rotation balances this AVL tree? {img:avl-left-left.svg} :: A right rotation at 30 (the root), making 20 the new root
 Every node in this self-balancing search tree is coloured red or black. What kind of tree is it? {img:red-black-tree.svg} :: Red-black tree
 Give a topological order of this directed graph. {img:dag.svg} :: A, B, C, D, E (B and C may swap)

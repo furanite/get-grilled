@@ -30,7 +30,6 @@ Exports minus imports. :: Balance of trade (net exports)
 A tax on imported goods. :: Tariff
 A limit on the amount of a good that can be imported. :: Quota
 The 'father of economics' who wrote "The Wealth of Nations". :: Adam Smith
-"The Wealth of Nations" was published in this year. :: 1776
 Adam Smith's famous phrase for how self-interest can benefit society. :: The invisible hand
 The British economist whose ideas shaped government spending after the Great Depression. :: John Maynard Keynes
 The economic system where businesses are mainly privately owned. :: Capitalism (market economy)
@@ -41,8 +40,6 @@ A market with a few big sellers. :: Oligopoly
 A market with many sellers of the same product. :: Perfect competition
 A group of producers who agree to fix prices or output. :: Cartel
 The oil producers' group founded in 1960 in Baghdad. :: OPEC
-OPEC's headquarters are in this city. :: Vienna
-Saudi Arabia was one of OPEC's this many founding members. :: Five
 The value of what you give up to choose something else. :: Opportunity cost
 Things you need, like food and shelter. :: Needs
 Things you would like to have but don't need. :: Wants
@@ -54,7 +51,6 @@ The reward for land. :: Rent
 The reward for enterprise. :: Profit
 A person who starts a business and takes the risk. :: Entrepreneur
 Splitting work into small tasks so each worker specialises. :: Division of labour
-Adam Smith's famous example of division of labour was a factory making these. :: Pins
 The study of the whole economy, like inflation and unemployment. :: Macroeconomics
 The study of individual markets, firms and households. :: Microeconomics
 The index that tracks the prices of a basket of goods bought by households. :: Consumer price index (CPI)
@@ -65,9 +61,7 @@ The largest economy in the Arab world. :: Saudi Arabia
 Saudi Arabia is a member of this group of 20 major economies. :: G20
 Saudi Arabia hosted the G20 leaders' summit in this year. :: 2020
 The trade bloc of six Gulf states. :: GCC (Gulf Cooperation Council)
-The GCC was founded in this year. :: 1981
 The body that sets the rules for world trade. :: WTO (World Trade Organization)
-Saudi Arabia joined the WTO in this year. :: 2005
 The European trade and political bloc. :: European Union
 The Saudi plan to reduce reliance on oil. :: Vision 2030
 A tax on spending, charged at 15% in Saudi Arabia. :: VAT
@@ -99,12 +93,16 @@ The ups and downs of the economy over time. :: Business cycle
 Very fast inflation, like in Zimbabwe in 2008. :: Hyperinflation
 The famous 1920s hyperinflation in this European country made money nearly worthless. :: Germany (Weimar Republic)
 Saudi Arabia's largest export. :: Crude oil
-The country with the world's largest proven oil reserves, according to OPEC. :: Venezuela
 A country's spending abroad, investments and trade are recorded in this. :: Balance of payments
 Making goods in factories. :: Manufacturing (secondary sector)
 Farming, fishing and mining belong to this sector. :: Primary sector
 Banking, tourism and retail belong to this sector. :: Tertiary (service) sector
 Money spent by visitors from abroad counts as an export of this. :: Services (tourism)
+The 'Chicago school' of economics is linked to this university. :: University of Chicago
+The money a business earns from sales before any costs are taken away. :: Revenue
+A place, real or online, where buyers and sellers trade. :: Market
+The price of borrowing money, shown as a percentage. :: Interest rate
+A share of ownership in a company that can be bought and sold. :: Stock (share)
 
 ## 200
 The economist who wrote "The General Theory of Employment, Interest and Money" in 1936. :: John Maynard Keynes
@@ -112,10 +110,8 @@ The school of thought that says government spending can lift demand in a slump. 
 The school of thought that says controlling the money supply controls inflation. :: Monetarism
 The leading monetarist, who won the 1976 Nobel Prize. :: Milton Friedman
 Friedman: "Inflation is always and everywhere a ___ phenomenon". :: Monetary
-The Austrian-British economist who wrote "The Road to Serfdom". :: Friedrich Hayek
 The German philosopher who wrote "Das Kapital". :: Karl Marx
 The British economist who wrote about comparative advantage in 1817. :: David Ricardo
-Ricardo's example of comparative advantage used England, Portugal, cloth and this. :: Wine
 The English economist who warned that population grows faster than food. :: Thomas Malthus
 The idea that a country should make what it can make at the lowest opportunity cost. :: Comparative advantage
 Making more of something with the same resources than another producer. :: Absolute advantage
@@ -180,7 +176,6 @@ A natural monopoly happens when one firm can supply the market more cheaply beca
 The study of how psychology affects economic choices. :: Behavioural economics
 The idea that people make decisions using shortcuts and not perfect logic. :: Bounded rationality
 A small change in how choices are presented that guides behaviour. :: Nudge
-The book "Nudge" was written by Richard Thaler and this law professor. :: Cass Sunstein
 Selling a state-owned company to private owners. :: Privatisation
 Taking a private company into state ownership. :: Nationalisation
 Removing government rules from an industry. :: Deregulation
@@ -192,10 +187,8 @@ A currency whose value is set by the market. :: Floating exchange rate
 A fall in a floating currency's value. :: Depreciation
 A government deliberately lowering a fixed currency's value. :: Devaluation
 A weaker currency makes a country's exports this. :: Cheaper (more competitive)
-The one GCC currency pegged to a basket of currencies rather than only the US dollar. :: Kuwaiti dinar
 The organisation that lends to countries in a currency crisis. :: IMF
 The organisation founded in 1944 that lends for development and fights poverty. :: World Bank
-The economist who won the 1998 Nobel for work on famines and poverty. :: Amartya Sen
 The UN index that combines life expectancy, education and income. :: Human Development Index (HDI)
 Economic growth that meets today's needs without harming future generations. :: Sustainable development
 The UN's 17 goals for 2030. :: Sustainable Development Goals (SDGs)
@@ -207,6 +200,12 @@ Rent control is an example of this kind of price control. :: Price ceiling
 The demand for a good that falls when the price of a substitute falls is called this demand. :: Cross-price (substitute) demand
 A good with income elasticity above 1. :: Luxury good
 The goods that break the law of demand because people buy them to show status. :: Veblen goods
+MPC plus MPS always equals this. :: 1
+Money sent home by migrant workers. :: Remittances
+The US plan to rebuild Western Europe after 1945. :: Marshall Plan
+The North American trade deal replaced by the USMCA in 2020. :: NAFTA
+A situation where no one can be made better off without making someone worse off. :: Pareto efficiency
+The Saudi company formed in 1933 as the California Arabian Standard Oil Company. :: Saudi Aramco
 
 ## 300
 The Nobel Memorial Prize in Economic Sciences was first awarded in this year. :: 1969
@@ -217,7 +216,6 @@ The only woman to win the economics Nobel before 2019. :: Elinor Ostrom
 Ostrom won for her work on managing this kind of resource. :: Common-pool resources (the commons)
 The 1968 essay that warned shared resources will be overused. :: The Tragedy of the Commons (Garrett Hardin)
 The 2019 economics Nobel winners for experiments to fight poverty: Banerjee, Duflo and this economist. :: Michael Kremer
-Esther Duflo became the youngest economics Nobel winner at this age. :: 46
 The 2024 economics Nobel went to Acemoglu, Johnson and Robinson for work on this. :: Institutions and prosperity
 Acemoglu and Robinson's 2012 book about why some countries are rich and others poor. :: Why Nations Fail
 The 2023 economics Nobel winner who studied women's role in the labour market. :: Claudia Goldin
@@ -288,17 +286,14 @@ The term for a country that adjusts its oil output to steady the market, often u
 The 1973 oil embargo was led by this organisation of Arab producers. :: OAPEC
 The 1986 oil price collapse came after Saudi Arabia did this. :: Raised production (gave up the swing role)
 The oil price fell below zero in April 2020 for this US benchmark. :: WTI
-The economist who called oil-rich states "rentier states". :: Hossein Mahdavy
 The economic idea that oil revenue lets governments rule without taxing citizens. :: Rentier state theory
 A fund that saves a country's extra revenue for the future. :: Sovereign wealth fund
 Norway's sovereign wealth fund, the world's largest. :: Government Pension Fund Global
 The share of each extra riyal of income that people spend. :: Marginal propensity to consume (MPC)
 The share of each extra riyal of income that people save. :: Marginal propensity to save (MPS)
-MPC plus MPS always equals this. :: 1
 A tax that rises automatically in booms and falls in slumps, steadying the economy. :: Automatic stabiliser
 Government spending that is decided by new laws each year is called this. :: Discretionary fiscal policy
 The 'twin deficits' are a budget deficit and this. :: A current account deficit
-Money sent home by migrant workers. :: Remittances
 Saudi Arabia is one of the world's largest sources of these payments. :: Remittances (outflows by foreign workers)
 Investment by a foreign company in factories or businesses abroad. :: Foreign direct investment (FDI)
 Buying foreign shares and bonds without control of the firm. :: Portfolio investment
@@ -309,6 +304,18 @@ The 'shadow economy' is economic activity that is this. :: Unrecorded (hidden fr
 The UN's system for measuring national income. :: System of National Accounts (SNA)
 The price index that measures prices firms receive. :: Producer price index (PPI)
 The index that removes volatile food and energy prices from inflation. :: Core inflation
+"The Wealth of Nations" was published in this year. :: 1776
+OPEC's headquarters are in this city. :: Vienna
+Saudi Arabia was one of OPEC's this many founding members. :: Five
+Adam Smith's famous example of division of labour was a factory making these. :: Pins
+The GCC was founded in this year. :: 1981
+Saudi Arabia joined the WTO in this year. :: 2005
+The country with the world's largest proven oil reserves, according to OPEC. :: Venezuela
+The Austrian-British economist who wrote "The Road to Serfdom". :: Friedrich Hayek
+Ricardo's example of comparative advantage used England, Portugal, cloth and this. :: Wine
+The economist who won the 1998 Nobel for work on famines and poverty. :: Amartya Sen
+Ibn Khaldun's ﵀ book that discusses labour, prices and the rise and fall of states. :: The Muqaddimah
+The 1974 US-Saudi deal linking oil sales to dollars is often called this. :: The petrodollar system
 
 ## 400
 The economist whose 1936 book introduced the 'marginal efficiency of capital' and 'animal spirits'. :: John Maynard Keynes
@@ -339,11 +346,9 @@ The Soviet planning agency. :: Gosplan
 Lenin's 1921 policy that allowed some private trade. :: New Economic Policy (NEP)
 The Chinese leader who began 'reform and opening up' in 1978. :: Deng Xiaoping
 The German 'economic miracle' after the Second World War. :: Wirtschaftswunder
-The US plan to rebuild Western Europe after 1945. :: Marshall Plan
 The 'Corn Laws' in Britain were repealed in this year. :: 1846
 The 1930 US law that raised tariffs and worsened the Depression. :: Smoot-Hawley Tariff Act
 The trade agreement of 1947 that came before the WTO. :: GATT
-The North American trade deal replaced by the USMCA in 2020. :: NAFTA
 The principle that a country must give all WTO members the same trade terms. :: Most-favoured-nation (MFN)
 Trading the same goods between two countries, like cars both ways. :: Intra-industry trade
 The 'gravity model' says trade between two countries rises with their size and falls with this. :: Distance
@@ -366,20 +371,17 @@ The 1870s 'marginal revolution' was led by Jevons, Menger and this economist. ::
 Walras is famous for this theory of all markets clearing together. :: General equilibrium
 The 'Arrow-Debreu' model proved this. :: That a general equilibrium can exist
 The economist who wrote "Principles of Economics" (1890) and drew supply and demand curves. :: Alfred Marshall
-A situation where no one can be made better off without making someone worse off. :: Pareto efficiency
 The Italian economist behind Pareto efficiency and the 80/20 rule. :: Vilfredo Pareto
 The Austrian school economist who wrote "Human Action". :: Ludwig von Mises
 The 'socialist calculation debate' argued planners can't set prices without this. :: Markets (private ownership)
 The Russian-born economist who developed the GDP accounts in the US in the 1930s. :: Simon Kuznets
 The Ibn Khaldun ﵀ idea that high tax rates reduce revenue, centuries before Laffer. :: Lower rates bring more revenue (the Laffer idea)
-Ibn Khaldun's ﵀ book that discusses labour, prices and the rise and fall of states. :: The Muqaddimah
 Ibn Khaldun ﵀ wrote that a state's life follows this many generations. :: Three (about 120 years)
 The 14th-century Egyptian scholar who blamed bad copper money for inflation in his book "Ighathat al-Ummah". :: Al-Maqrizi ﵀
 The scholar who wrote that prices are set by supply and demand, in "Al-Hisbah". :: Ibn Taymiyyah
 The 11th-century scholar who wrote about money and trade in "Ihya' Ulum al-Din". :: Al-Ghazali ﵀
 The Saudi oil minister from 1962 to 1986. :: Ahmed Zaki Yamani
 Saudi Arabia's energy minister appointed in 2019, the first royal to hold the post. :: Prince Abdulaziz bin Salman
-The Saudi company formed in 1933 as the California Arabian Standard Oil Company. :: Saudi Aramco
 Oil was first found in commercial quantity in Saudi Arabia at Dammam Well No. 7 in this year. :: 1938
 Dammam Well No. 7 was given this name by King Abdullah in 2008. :: Prosperity Well
 The world's largest conventional oil field, in Saudi Arabia. :: Ghawar
@@ -398,7 +400,6 @@ The 'Phillips' of the Phillips curve was this nationality. :: New Zealander
 Phillips also built a hydraulic machine of the economy called this. :: MONIAC (Phillips machine)
 Ragnar Frisch, who coined the words 'macroeconomics' and 'econometrics', was from this country. :: Norway
 The concept of 'opportunity cost' was named by this Austrian economist. :: Friedrich von Wieser
-The 'Chicago school' of economics is linked to this university. :: University of Chicago
 The 'Freshwater versus saltwater' debate compares inland universities with these coastal ones. :: East and West coast universities (Harvard, MIT, Berkeley)
 The economist who developed the life-cycle hypothesis of saving. :: Franco Modigliani
 Friedman's theory that people base spending on long-run expected income. :: Permanent income hypothesis
@@ -411,6 +412,12 @@ The 'efficiency wage' idea says firms pay above market wages to do this. :: Rais
 Henry Ford doubled pay to 5 dollars a day in this year. :: 1914
 The economist who wrote "The Economic Consequences of the Peace" (1919). :: John Maynard Keynes
 The 'J. B. Clark Medal' is given to American economists under this age. :: 40
+The book "Nudge" was written by Richard Thaler and this law professor. :: Cass Sunstein
+The one GCC currency pegged to a basket of currencies rather than only the US dollar. :: Kuwaiti dinar
+The Soviet economist who proposed long business cycles of about 50 years. :: Nikolai Kondratiev
+The paradox in which more efficient use of a resource, first noticed with coal, raises its total use. :: Jevons paradox
+The small tax on currency transactions proposed by James Tobin. :: Tobin tax
+Jacob Viner's term for a trade bloc shifting imports from cheaper outside suppliers to dearer member suppliers. :: Trade diversion
 
 ## 500
 The economics Nobel of 1974 was shared by Hayek and this Swedish economist with opposite views. :: Gunnar Myrdal
@@ -478,7 +485,6 @@ The magazine that coined the term 'Dutch disease' in 1977. :: The Economist
 The 'Gulf cooperation' common market was launched in this year. :: 2008
 The GCC customs union began in this year. :: 2003
 The Saudi Arabian Monetary Agency's first governor was this American. :: George Blowers
-The 1974 US-Saudi deal linking oil sales to dollars is often called this. :: The petrodollar system
 The 'Saudi Industrial Development Fund' was set up in this year. :: 1974
 The cities of Jubail and Yanbu were built as industrial cities under this commission formed in 1975. :: Royal Commission for Jubail and Yanbu
 Under King Abdulaziz, the silver riyal coin was first issued in this decade. :: 1920s
@@ -513,3 +519,5 @@ The 'Harberger triangle' measures this. :: Deadweight loss
 Arnold Harberger is known for training these Chilean economists. :: The Chicago Boys
 The OPEC basket price includes crude oils from member countries. Saudi Arabia's crude in the basket is this. :: Arab Light
 The Saudi Ministry of Economy and Planning was formed in this year. :: 2003
+Esther Duflo became the youngest economics Nobel winner at this age. :: 46
+The economist who called oil-rich states "rentier states". :: Hossein Mahdavy

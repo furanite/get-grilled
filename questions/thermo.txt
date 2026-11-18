@@ -68,7 +68,6 @@ The part of a fridge that gets cold inside. :: Evaporator
 The part of a fridge, usually at the back, that gets warm. :: Condenser
 The device that drives the refrigerant around a fridge. :: Compressor
 Air conditioners in Saudi homes remove heat from the room and dump it here. :: Outside
-The unit of cooling often used for air conditioners, equal to 12,000 BTU/h. :: Ton of refrigeration
 BTU stands for this. :: British thermal unit
 One calorie is the heat needed to raise 1 g of water by this. :: 1 °C
 One food Calorie equals this many calories. :: 1,000 (a kilocalorie)
@@ -104,6 +103,10 @@ The useful output divided by the total input. :: Efficiency
 Can a heat engine be 100% efficient? :: No
 Heat flow per unit time is measured in this unit. :: Watt
 Avogadro's number, roughly. :: 6.02 × 10²³
+Heat transfer by the bulk motion of a fluid. :: Convection
+The quantity that never decreases in an isolated system, measured in J/K. :: Entropy
+The process in which ions inside the Sun fuse hydrogen into helium. :: Nuclear fusion
+The Saudi giga-project in Tabuk Province planned to run entirely on renewable energy. :: NEOM
 
 ## 200
 The energy needed to raise 2 kg of water by 10 °C, roughly. :: About 84 kJ
@@ -206,12 +209,25 @@ Kelvin–Planck says no engine can do this. :: Turn all heat from one reservoir 
 Clausius says no device can do this without work. :: Move heat from cold to hot
 A perpetual motion machine of the first kind would break this law. :: First law
 A perpetual motion machine of the second kind would break this law. :: Second law
+The point where the distinction between liquid and gas disappears. :: Critical point
+Le Chatelier's principle says a system at equilibrium does this when disturbed. :: Shifts to oppose the change
+The cycle with the highest theoretical efficiency between two temperatures. :: Carnot cycle
+Power and desalination plants on the Gulf coast use this as their cooling medium. :: Seawater
+The temperature at which liquid water is densest. :: About 4 °C
+The physicist who measured the mechanical equivalent of heat with a falling weight and paddle wheel. :: James Prescott Joule
+The scientist who proposed absolute temperature in 1848. :: William Thomson (Lord Kelvin)
+The German engineer who patented the compression-ignition engine in 1892. :: Rudolf Diesel
+The unit of power Watt invented to compare engines with horses. :: Horsepower
+Fourier's 1822 book on heat introduced this mathematical tool. :: Fourier series
+The French physicist who discovered the Peltier effect. :: Jean Charles Athanase Peltier
+Ras Al-Khair uses both thermal desalination and this membrane method. :: Reverse osmosis
+The arrow of time is often linked to the increase of this. :: Entropy
+The radiation by which black holes slowly lose energy. :: Hawking radiation
 
 ## 300
 The heat exchanger type with many tubes inside a large shell. :: Shell-and-tube heat exchanger
 The compact heat exchanger made of thin corrugated plates. :: Plate heat exchanger
 Fouling in heat exchangers adds this to the overall resistance. :: Fouling resistance
-Heat transfer by the bulk motion of a fluid. :: Convection
 The dimensionless number that compares inertial to viscous forces. :: Reynolds number
 The dimensionless number for convective versus conductive heat transfer at a surface. :: Nusselt number
 The dimensionless number that compares momentum and thermal diffusivity. :: Prandtl number
@@ -308,6 +324,19 @@ The ship that showed off Parsons's turbine at the 1897 naval review. :: Turbinia
 The temperature of steam in a modern ultra-supercritical plant, roughly. :: About 600 °C or more
 The critical pressure of water, roughly. :: About 22.1 MPa
 The critical temperature of water, roughly. :: About 374 °C
+The unit of cooling often used for air conditioners, equal to 12,000 BTU/h. :: Ton of refrigeration
+The physicist who explained Brownian motion in 1905, confirming that atoms exist. :: Albert Einstein
+The thermodynamic cycle used in pressurised-water nuclear plants. :: Rankine cycle
+The French engineer whose 1824 book Reflections on the Motive Power of Fire founded thermodynamics. :: Sadi Carnot
+The Scottish engineer who worked out the Rankine cycle and wrote a steam engine manual. :: William Rankine
+The German engineer whose 1876 four-stroke engine became the basis for car engines. :: Nicolaus Otto
+The American engineer who proposed the gas turbine cycle in 1872. :: George Brayton
+The engineer who developed the theory of heat conduction in 1822. :: Joseph Fourier
+The engineer whose boundary layer concept of 1904 transformed convection analysis. :: Ludwig Prandtl
+The German engineer who founded modern heat transfer theory with dimensionless analysis in 1915. :: Wilhelm Nusselt
+The Austrian physicist who found the T⁴ radiation law experimentally in 1879. :: Josef Stefan
+The German physicist who discovered thermoelectricity in 1821. :: Thomas Johann Seebeck
+The 'heat death of the universe' idea follows from this law. :: Second law
 
 ## 400
 The equation of state written as a power series in density. :: Virial equation of state
@@ -315,9 +344,7 @@ The second virial coefficient becomes zero at this temperature. :: Boyle tempera
 The thermodynamic potential that is minimised at constant entropy and pressure. :: Enthalpy
 The response function equal to −(1/V)(∂V/∂P) at constant temperature. :: Isothermal compressibility
 The relation cp − cv = TVβ²/κ links specific heats to these two properties. :: Thermal expansion and compressibility
-The point where the distinction between liquid and gas disappears. :: Critical point
 The fluid state above both the critical temperature and pressure. :: Supercritical fluid
-The quantity that never decreases in an isolated system, measured in J/K. :: Entropy
 The statistical formula for entropy carved on Boltzmann's grave. :: S = k log W
 In Boltzmann's formula, W stands for this. :: Number of microstates
 Boltzmann's constant, roughly. :: 1.38 × 10⁻²³ J/K
@@ -343,7 +370,6 @@ Raoult's law relates a component's partial vapour pressure to its mole fraction 
 Henry's law applies to gases dissolving in this. :: A liquid (dilute solutions)
 The equilibrium constant is related to standard Gibbs energy change by this. :: ΔG° = −RT ln K
 The van 't Hoff equation shows how this changes with temperature. :: Equilibrium constant
-Le Chatelier's principle says a system at equilibrium does this when disturbed. :: Shifts to oppose the change
 The fugacity is a corrected form of this for real gases. :: Pressure
 The cubic equation of state widely used in oil and gas engineering. :: Peng–Robinson
 The engineering coefficient that measures how temperature changes with pressure at constant enthalpy. :: Joule–Thomson coefficient
@@ -387,7 +413,6 @@ The method of storing cold by making ice at night for daytime cooling. :: Therma
 Material that stores heat by melting and freezing. :: Phase change material
 The molten salts used for storing heat in CSP plants are mostly a mix of these. :: Sodium and potassium nitrate
 The thermodynamic cycle in a supercritical CO₂ power plant. :: Brayton cycle (sCO₂)
-The cycle with the highest theoretical efficiency between two temperatures. :: Carnot cycle
 The Kalina cycle uses this mixture as its working fluid. :: Ammonia and water
 The Lorenz cycle is the ideal for refrigeration with this kind of heat source and sink. :: Varying-temperature (gliding) streams
 Refrigerant mixtures that change temperature while boiling at constant pressure have this. :: Temperature glide
@@ -409,10 +434,13 @@ The Wobbe index is used to compare this property of fuel gases. :: Interchangeab
 The pollutant formed at high flame temperatures from nitrogen and oxygen. :: NOx
 The mechanism of thermal NOx formation named after this scientist. :: Zeldovich mechanism
 Lean premixed combustion in gas turbines is used mainly to reduce this. :: NOx
-Power and desalination plants on the Gulf coast use this as their cooling medium. :: Seawater
+The dimensionless ratio of thermal diffusivity to mass diffusivity. :: Lewis number
+The dimensionless ratio of momentum diffusivity to mass diffusivity. :: Schmidt number
+The dimensionless product of the Reynolds and Prandtl numbers, comparing advection with conduction. :: Péclet number
+The Joule–Thomson coefficient of an ideal gas. :: Zero
+In a counterflow heat exchanger whose two fluids have equal heat capacity rates, the temperature difference along its length does this. :: Stays constant
 
 ## 500
-The physicist who explained Brownian motion in 1905, confirming that atoms exist. :: Albert Einstein
 The French physicist whose 1908 experiments on Brownian motion won him the 1926 Nobel Prize. :: Jean Perrin
 The 'Clausius inequality' says the cyclic integral of δQ/T is this for any cycle. :: Less than or equal to zero
 The Austrian physicist after whom the T⁴ radiation law is jointly named, a student of Stefan. :: Ludwig Boltzmann
@@ -420,36 +448,25 @@ The English chemist whose 1802 law described thermal expansion of gases, publish
 The French physicist who measured specific heats of gases precisely for the 1847 steam tables. :: Henri Victor Regnault
 The engineer who wrote the 1859 Manual of the Steam Engine and Other Prime Movers. :: William Rankine
 The physicist who first measured the speed of molecules with a rotating drum experiment in 1920. :: Otto Stern
-The temperature at which liquid water is densest. :: About 4 °C
 The industrial process to make ammonia that depends on high-pressure equilibrium thermodynamics. :: Haber–Bosch process
-The highest air temperature reliably recorded on Earth, in Death Valley in 1913. :: 56.7 °C
+The highest air temperature officially recorded on Earth, in Death Valley in 1913. :: 56.7 °C
 The temperature of the Earth's core, roughly. :: About 5,000 to 6,000 °C
 The world's first nuclear power plant to supply a grid opened in 1954 in this Soviet town. :: Obninsk
-The thermodynamic cycle used in pressurised-water nuclear plants. :: Rankine cycle
 The coolant pressure in a typical pressurised-water reactor, roughly. :: About 15.5 MPa
-The process in which ions inside the Sun fuse hydrogen into helium. :: Nuclear fusion
 The Scottish physicist who derived the distribution of molecular speeds in a gas in 1860. :: James Clerk Maxwell
-The French engineer whose 1824 book Reflections on the Motive Power of Fire founded thermodynamics. :: Sadi Carnot
 Carnot believed in this theory of heat, which was later proved wrong. :: Caloric theory
 The German physicist who introduced the word entropy in 1865. :: Rudolf Clausius
 Clausius made up the word entropy from the Greek word for this. :: Transformation
-The physicist who measured the mechanical equivalent of heat with a falling weight and paddle wheel. :: James Prescott Joule
 The German doctor who first stated the conservation of energy in 1842 after a voyage to Java. :: Julius Robert von Mayer
-The scientist who proposed absolute temperature in 1848. :: William Thomson (Lord Kelvin)
 The American count who showed in 1798 that boring cannons made endless heat. :: Count Rumford (Benjamin Thompson)
 The Austrian physicist who took his own life in 1906 after attacks on his atomic theory. :: Ludwig Boltzmann
 The American whose 1876 paper On the Equilibrium of Heterogeneous Substances founded chemical thermodynamics. :: Josiah Willard Gibbs
 The German chemist who stated the third law (heat theorem) in 1906. :: Walther Nernst
 The physicist who coined the zeroth law name in the 1930s. :: Ralph Fowler
-The Scottish engineer who worked out the Rankine cycle and wrote a steam engine manual. :: William Rankine
-The German engineer whose 1876 four-stroke engine became the basis for car engines. :: Nicolaus Otto
-The German engineer who patented the compression-ignition engine in 1892. :: Rudolf Diesel
-The American engineer who proposed the gas turbine cycle in 1872. :: George Brayton
 The Scottish minister who invented the hot-air engine with a regenerator in 1816. :: Robert Stirling
 The English inventor of the first commercial steam engine in 1712. :: Thomas Newcomen
 The engineer who patented a steam pump called 'The Miner's Friend' in 1698. :: Thomas Savery
 James Watt's key improvement to the Newcomen engine. :: The separate condenser
-The unit of power Watt invented to compare engines with horses. :: Horsepower
 One mechanical horsepower is about this many watts. :: 746
 The Muslim engineer who described a steam turbine-like device for turning a spit in 1551. :: Taqi al-Din
 The ancient Greek inventor of the aeolipile, a spinning steam ball. :: Hero of Alexandria
@@ -473,27 +490,16 @@ The unusual kind of temperature that Purcell and Pound demonstrated in nuclear s
 The Swiss company that built the first utility gas turbine for power generation, at Neuchâtel in 1939. :: Brown Boveri (BBC)
 The engineers who independently invented the turbojet in the 1930s. :: Frank Whittle and Hans von Ohain
 The first jet-powered aircraft to fly, in 1939. :: Heinkel He 178
-The engineer who developed the theory of heat conduction in 1822. :: Joseph Fourier
-Fourier's 1822 book on heat introduced this mathematical tool. :: Fourier series
-The engineer whose boundary layer concept of 1904 transformed convection analysis. :: Ludwig Prandtl
-The German engineer who founded modern heat transfer theory with dimensionless analysis in 1915. :: Wilhelm Nusselt
-The Austrian physicist who found the T⁴ radiation law experimentally in 1879. :: Josef Stefan
-The engineer who invented the Thermos flask in 1892. :: James Dewar
-The French engineer who discovered the Peltier effect. :: Jean Charles Athanase Peltier
-The German physicist who discovered thermoelectricity in 1821. :: Thomas Johann Seebeck
+The scientist who invented the vacuum (Thermos) flask in 1892. :: James Dewar
 The space probes that use radioisotope thermoelectric generators to run in deep space. :: Voyager (and Cassini, Curiosity)
 The fuel in most RTGs. :: Plutonium-238
-The Saudi giga-project in Tabuk Province planned to run entirely on renewable energy. :: NEOM
 The full name of the Saudi body known as K.A.CARE, set up in 2010. :: King Abdullah City for Atomic and Renewable Energy
 The Eastern Province plant that is one of the world's largest hybrid power and desalination plants. :: Ras Al-Khair
-Ras Al-Khair uses both thermal desalination and this membrane method. :: Reverse osmosis
 The thermal desalination method that flashes brine to steam in many stages. :: Multi-stage flash (MSF)
 The thermal desalination method that evaporates water on tubes in several effects. :: Multi-effect distillation (MED)
 The minimum theoretical energy to desalinate seawater at 50% recovery, roughly. :: About 1 kWh per cubic metre
 Modern seawater reverse osmosis uses roughly this much energy per cubic metre. :: About 3 kWh
 The device that recovers pressure from RO brine and made SWRO much cheaper. :: Pressure exchanger (energy recovery device)
-The 'heat death of the universe' idea follows from this law. :: Second law
-The arrow of time is often linked to the increase of this. :: Entropy
 The physicist who argued that the second law holds 'the supreme position among the laws of Nature'. :: Arthur Eddington
 The writer and scientist who popularised the 'two cultures' by asking about the second law. :: C. P. Snow
 The theorem showing fluctuations that briefly decrease entropy follow exact probability rules. :: Fluctuation theorem
@@ -508,7 +514,30 @@ The relation for black-body peak wavelength times temperature. :: About 2,898 μ
 The Sun's surface temperature, roughly. :: About 5,800 K
 The temperature of the cosmic microwave background. :: About 2.7 K
 The physicist who showed that black holes have entropy proportional to horizon area. :: Jacob Bekenstein
-The radiation by which black holes slowly lose energy. :: Hawking radiation
 The International Temperature Scale in use today. :: ITS-90
 Since 2019 the kelvin has been defined by fixing the value of this constant. :: Boltzmann constant
 Before 2019 the kelvin was defined using this point of water. :: Triple point
+The critical compressibility factor Zc predicted by the van der Waals equation. :: 3/8 (0.375)
+The van der Waals constant b in terms of the critical temperature and pressure. :: RTc/(8Pc)
+The constant in Zuber's critical heat flux formula, later raised to 0.149 by Lienhard and Dhir. :: π/24 (about 0.131)
+The MIT engineer whose charts give the emissivity of CO₂ and water vapour in furnace gases. :: Hoyt Hottel
+Heat exchanger effectiveness when one fluid is boiling or condensing, so the heat capacity ratio is zero. :: 1 − e^(−NTU)
+The Nusselt number for fully developed laminar flow between parallel plates both held at constant temperature. :: 7.54
+In laminar flow over a flat plate with Pr above about 0.6, the thermal-to-velocity boundary layer thickness ratio scales as this. :: Pr^(−1/3)
+For laminar natural convection on a vertical plate, the Nusselt number scales with the Rayleigh number to this power. :: 1/4
+The Rayleigh number at which natural convection on a vertical plate becomes turbulent, roughly. :: About 10⁹
+The physicist credited with the 'thermodynamic square' memory aid for the Maxwell relations. :: Max Born
+The characteristic length used in the Biot number for lumped-capacitance analysis of a body of any shape. :: Volume divided by surface area (V/A)
+The Gibbs–Helmholtz equation gives the derivative of G/T with temperature, at constant pressure, as this. :: −H/T²
+The Sackur–Tetrode equation gives the absolute entropy of this. :: A monatomic ideal gas
+The paradox in which mixing two samples of the same gas seems to create entropy of mixing. :: Gibbs paradox
+The Kelvin relation between the Peltier coefficient Π, the Seebeck coefficient S and absolute temperature T. :: Π = S·T
+The reversible heating or cooling when current flows along one conductor that has a temperature gradient. :: Thomson effect
+The thermodynamic upper bound of about 93% for turning sunlight into work. :: Landsberg limit
+Because Le ≈ 1 for air and water vapour (the Lewis relation), the wet-bulb temperature nearly equals this. :: Adiabatic saturation temperature
+With ideal regeneration, Brayton cycle efficiency does this as the pressure ratio rises. :: Falls (decreases)
+The ratio that makes ideal Diesel efficiency lower than Otto efficiency at the same compression ratio. :: Cutoff ratio
+In a heat recovery steam generator, the smallest gap between the gas leaving the evaporator and the water's saturation temperature. :: Pinch point
+The gas liquefaction process that adds a work-producing expansion engine to the Linde process. :: Claude process
+The critical Rayleigh number for the onset of convection in a fluid layer with two free surfaces. :: 27π⁴/4 (about 657.5)
+The typical COP of a single-effect lithium bromide–water absorption chiller. :: About 0.7

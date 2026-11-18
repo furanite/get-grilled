@@ -89,6 +89,12 @@ Name this famous landmark. {img:lm-jeddah-fountain.jpg} :: King Fahd's Fountain
 Name this famous landmark. {img:lm-dubai-frame.jpg} :: The Dubai Frame
 Name this famous landmark. {img:lm-cn-tower.jpg} :: The CN Tower
 Name this famous landmark. {img:lm-marina-bay-sands.jpg} :: Marina Bay Sands
+Name the capital city of the country this flag belongs to. {img:flag-uk.svg} :: London
+Name the capital city of the country this flag belongs to. {img:flag-france.svg} :: Paris
+Name the capital city of the country this flag belongs to. {img:flag-italy.svg} :: Rome
+Name the capital city of the country this flag belongs to. {img:flag-kuwait.svg} :: Kuwait City
+Name the capital city of the country this flag belongs to. {img:flag-russia.svg} :: Moscow
+Name the capital city of the country this flag belongs to. {img:flag-greece.svg} :: Athens
 
 ## 300
 Which country's flag is this? {img:flag-austria.svg} :: Austria
@@ -116,12 +122,9 @@ Which country's flag is this? {img:flag-cameroon.svg} :: Cameroon
 Which country's flag is this? {img:flag-mauritania.svg} :: Mauritania
 Which country's flag is this? {img:flag-singapore.svg} :: Singapore
 Name the capital city of the country this flag belongs to. {img:flag-usa.svg} :: Washington, D.C.
-Name the capital city of the country this flag belongs to. {img:flag-uk.svg} :: London
 Name the capital city of the country this flag belongs to. {img:flag-japan.svg} :: Tokyo
 Name the capital city of the country this flag belongs to. {img:flag-canada.svg} :: Ottawa
-Name the capital city of the country this flag belongs to. {img:flag-france.svg} :: Paris
 Name the capital city of the country this flag belongs to. {img:flag-germany.svg} :: Berlin
-Name the capital city of the country this flag belongs to. {img:flag-italy.svg} :: Rome
 Name the capital city of the country this flag belongs to. {img:flag-china.svg} :: Beijing
 Name the capital city of the country this flag belongs to. {img:flag-brazil.svg} :: Brasília
 Name the capital city of the country this flag belongs to. {img:flag-india.svg} :: New Delhi
@@ -129,7 +132,6 @@ Name the capital city of the country this flag belongs to. {img:flag-spain.svg} 
 Name the capital city of the country this flag belongs to. {img:flag-turkey.svg} :: Ankara
 Name the capital city of the country this flag belongs to. {img:flag-uae.svg} :: Abu Dhabi
 Name the capital city of the country this flag belongs to. {img:flag-qatar.svg} :: Doha
-Name the capital city of the country this flag belongs to. {img:flag-kuwait.svg} :: Kuwait City
 Name the capital city of the country this flag belongs to. {img:flag-jordan.svg} :: Amman
 Name the capital city of the country this flag belongs to. {img:flag-oman.svg} :: Muscat
 Name the capital city of the country this flag belongs to. {img:flag-bahrain.svg} :: Manama
@@ -157,6 +159,8 @@ Name this famous landmark. {img:lm-table-mountain.jpg} :: Table Mountain
 Name this famous landmark. {img:lm-uluru.jpg} :: Uluru (Ayers Rock)
 Name this famous landmark. {img:lm-matterhorn.jpg} :: The Matterhorn
 Name this famous landmark. {img:lm-taipei-101.jpg} :: Taipei 101
+Name the capital city of the country this flag belongs to. {img:flag-thailand.svg} :: Bangkok
+Name the capital city of the country this flag belongs to. {img:flag-sudan.svg} :: Khartoum
 
 ## 400
 Which country's flag is this? {img:flag-estonia.svg} :: Estonia
@@ -183,10 +187,8 @@ Which country's flag is this? {img:flag-djibouti.svg} :: Djibouti
 Which country's flag is this? {img:flag-madagascar.svg} :: Madagascar
 Which country's flag is this? {img:flag-north-macedonia.svg} :: North Macedonia
 Which country's flag is this? {img:flag-sierra-leone.svg} :: Sierra Leone
-Name the capital city of the country this flag belongs to. {img:flag-russia.svg} :: Moscow
 Name the capital city of the country this flag belongs to. {img:flag-australia.svg} :: Canberra
 Name the capital city of the country this flag belongs to. {img:flag-argentina.svg} :: Buenos Aires
-Name the capital city of the country this flag belongs to. {img:flag-greece.svg} :: Athens
 Name the capital city of the country this flag belongs to. {img:flag-sweden.svg} :: Stockholm
 Name the capital city of the country this flag belongs to. {img:flag-switzerland.svg} :: Bern
 Name the capital city of the country this flag belongs to. {img:flag-netherlands.svg} :: Amsterdam
@@ -242,10 +244,8 @@ Name the capital city of the country this flag belongs to. {img:flag-cuba.svg} :
 Name the capital city of the country this flag belongs to. {img:flag-jamaica.svg} :: Kingston
 Name the capital city of the country this flag belongs to. {img:flag-indonesia.svg} :: Jakarta
 Name the capital city of the country this flag belongs to. {img:flag-philippines.svg} :: Manila
-Name the capital city of the country this flag belongs to. {img:flag-thailand.svg} :: Bangkok
 Name the capital city of the country this flag belongs to. {img:flag-vietnam.svg} :: Hanoi
 Name the capital city of the country this flag belongs to. {img:flag-bangladesh.svg} :: Dhaka
-Name the capital city of the country this flag belongs to. {img:flag-sudan.svg} :: Khartoum
 Name the capital city of the country this flag belongs to. {img:flag-libya.svg} :: Tripoli
 Name the capital city of the country this flag belongs to. {img:flag-somalia.svg} :: Mogadishu
 Name the capital city of the country this flag belongs to. {img:flag-ghana.svg} :: Accra

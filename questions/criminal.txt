@@ -53,7 +53,6 @@ Marks left by the tips of the fingers. :: Fingerprints
 The genetic material used to identify people in investigations. :: DNA
 The science used to solve crimes. :: Forensic science
 The international police organisation. :: Interpol
-Interpol's headquarters are in this French city. :: Lyon
 A request to find and arrest a wanted person through Interpol. :: A Red Notice
 Sending a person to another country to face trial. :: Extradition
 A person who breaks the law. :: An offender (criminal)
@@ -77,7 +76,6 @@ Driving after drinking alcohol. :: Drunk driving
 Driving faster than the speed limit. :: Speeding
 The Saudi camera system that records traffic violations. :: Saher
 Taking a photo of someone without permission and sharing it to harm them is punished under this Saudi law. :: The Anti-Cybercrime Law
-Saudi Arabia's Anti-Cybercrime Law was issued in this year. :: 2007
 The person who commits a crime is called this in Arabic. :: Jani (mujrim)
 A person who is too young to be fully responsible for a crime. :: A juvenile (minor)
 The court that hears cases of children. :: The juvenile court
@@ -106,19 +104,16 @@ The police unit for crimes in Saudi Arabia is part of this ministry. :: The Mini
 The Saudi app for reporting crimes and security issues. :: Kollona Amn
 Hitting another person on purpose. :: Assault (battery)
 Breaking the law by entering land without permission. :: Trespass
+The two parts of most crimes: actus reus and this. :: Mens rea
 
 ## 200
 The Latin phrase "guilty act". :: Actus reus
 The Latin phrase "guilty mind". :: Mens rea
 The rule that no crime exists without a law. :: Nullum crimen sine lege (legality)
 The Arabic principle of legality: "No crime and no punishment except by ___". :: A text (nass)
-The Saudi Basic Law article that says no crime or punishment without a Sharia or statutory text. :: Article 38
-The Saudi Law of Criminal Procedure was first issued in this year. :: 2001
-The Saudi Law of Criminal Procedure was updated in this year. :: 2013
 The Saudi Law of Criminal Procedure says arrest must not exceed this many hours before the prosecutor is told. :: 24
 Saudi Arabia's Public Prosecution was renamed from this in 2017. :: The Bureau of Investigation and Public Prosecution
 The head of the Saudi Public Prosecution is called this. :: The Attorney General (Public Prosecutor)
-Saudi Arabia's Specialized Criminal Court was set up in this year. :: 2008
 The Saudi Specialized Criminal Court hears these cases. :: Terrorism and state security
 The Saudi Anti-Harassment Law was issued in this year. :: 2018
 The maximum prison term for harassment under the Saudi law (basic case). :: Two years
@@ -128,17 +123,11 @@ The Saudi body that fights drugs. :: The General Directorate of Narcotics Contro
 The Saudi Anti-Money Laundering Law was issued in this year. :: 2017
 The Saudi law on combating terrorism and its financing was issued in this year. :: 2017
 The Saudi Nazaha authority fights this. :: Corruption
-Nazaha merged with this body in 2019. :: The Control and Investigation Board
 The Saudi anti-corruption campaign at the Ritz-Carlton hotel happened in this year. :: 2017
-The Saudi Anti-Bribery Law was issued in this year. :: 1992
-The Saudi Anti-Cybercrime Law sets prison of up to this many years for illegal access to state data. :: Ten
-The Saudi law against human trafficking was issued in this year. :: 2009
-The Saudi law protecting children was issued in this year. :: 2014
 The Saudi law against domestic abuse. :: The Protection from Abuse Law (2013)
 The Saudi Juvenile Law was issued in this year. :: 2018
 Under the Saudi Juvenile Law, a person under this age is a juvenile. :: 18
 The Saudi Juvenile Law says a child under this age can't be held criminally liable. :: Seven (a child who has not reached discernment)
-Under the Saudi Juvenile Law, a juvenile who commits a hadd or qisas crime at 15 to 18 may get at most this length of detention instead of death. :: Ten years
 Saudi Arabia ended flogging as a ta'zir punishment in this year, replacing it with fines or prison. :: 2020
 Saudi Arabia ended the death penalty for crimes committed by minors in this year (by royal order). :: 2020
 In Islamic law, the conditions for hudud include that the person is adult, sane and this. :: Knew the act was forbidden (acting by choice)
@@ -163,7 +152,6 @@ Accidental killing in Islamic law. :: Qatl al-khata'
 The expiation (kaffarah) for accidental killing is in this surah. :: Surat al-Nisa' (verse 92)
 The diyah for deliberate killing is paid by this person. :: The killer himself
 The diyah for accidental killing is paid by this group. :: The 'aqilah (the killer's male relatives)
-The fiqh term for the oaths taken by 50 men in a case of unknown killer. :: Qasamah
 The Saudi Ministry of Justice platform for petitions and cases. :: Najiz
 The UN body that works against drugs and crime. :: UNODC
 The UN convention against corruption was adopted in this year. :: 2003
@@ -176,9 +164,7 @@ The four core crimes of the ICC: genocide, crimes against humanity, war crimes a
 The court that tried Nazi leaders after the Second World War. :: The Nuremberg Tribunal
 The UN tribunal for crimes in the former Yugoslavia. :: The ICTY
 The UN tribunal for the 1994 genocide in Rwanda. :: The ICTR
-The ICTR was based in this city. :: Arusha
 In English law, the classic definition of murder comes from this judge. :: Sir Edward Coke
-The rule that a death must happen within a year and a day for murder was abolished in England in this year. :: 1996
 The English case where shipwrecked sailors ate a cabin boy; necessity was no defence to murder. :: R v Dudley and Stephens (1884)
 The defence that a person was forced by threats to commit a crime. :: Duress
 The defence of mental illness at the time of a crime. :: Insanity
@@ -190,7 +176,6 @@ The warning "You have the right to remain silent" is called this. :: The Miranda
 The US case that gave poor defendants a right to a lawyer. :: Gideon v Wainwright (1963)
 The rule that illegally obtained evidence is not used in US courts. :: The exclusionary rule
 The legal term for evidence found because of illegal evidence. :: Fruit of the poisonous tree
-The US case that banned the death penalty for crimes by minors. :: Roper v Simmons (2005)
 The English Police and Criminal Evidence Act is known by this short name. :: PACE
 PACE was passed in this year. :: 1984
 The legal principle that criminal law must be clear. :: Certainty (legality)
@@ -208,12 +193,25 @@ The London court famous as the "Old Bailey". :: The Central Criminal Court
 The highest court in the UK since 2009. :: The UK Supreme Court
 The legal term for a judge's decision that becomes a guide for later cases. :: A precedent
 The doctrine of following precedent. :: Stare decisis
+The famous American gangster jailed for tax evasion. :: Al Capone
+Al Capone was sent to this prison island. :: Alcatraz
+The forensic technique of matching bullets to guns. :: Ballistics
+The story of Prophet Yusuf ﵇ where a torn shirt showed innocence is an example of this. :: Circumstantial evidence (qarinah)
+In the story of Prophet Sulayman ﵇ and two women claiming a baby, he offered to do this. :: Cut the baby in half (to find the true mother)
+In Islamic law, a confession by a person under torture is this. :: Invalid
+The American "Innocence Project" uses this to free the wrongly convicted. :: DNA evidence
+The Saudi royal pardon for prisoners is often given in this month. :: Ramadan
+The OIC's headquarters are in this city. :: Jeddah
+The British crime writer who created Hercule Poirot. :: Agatha Christie
+An incomplete crime such as attempt, conspiracy or encouraging a crime is called this. :: An inchoate offence
+The person who actually carries out the criminal act, rather than helping. :: The principal (perpetrator)
+The Latin maxim that ignorance of the law is no excuse. :: Ignorantia juris non excusat
+A deal in which the accused admits guilt in return for a lesser charge or sentence. :: A plea bargain
 
 ## 300
-The two parts of most crimes: actus reus and this. :: Mens rea
 Intention where the result is the person's aim. :: Direct intention
 Intention where the result is virtually certain and the person knows it. :: Oblique (indirect) intention
-The English case on oblique intention, about a man who set fire to a house. :: R v Woollin (1998)
+The English case on oblique intention, about a father who threw his baby onto a hard surface. :: R v Woollin (1998)
 Taking an unjustified risk knowingly. :: Recklessness
 The English case that set the subjective test for recklessness. :: R v G (2003)
 The English case where a man poisoned his mother's drink but she died of a heart attack. :: R v White (1910)
@@ -236,7 +234,6 @@ Killing during an unlawful and dangerous act. :: Unlawful act manslaughter
 The English law of 1968 on theft. :: The Theft Act 1968
 In English law, theft is dishonestly taking property of another with intention to do this. :: Permanently deprive
 The English case of 2017 that changed the test for dishonesty. :: Ivey v Genting Casinos
-In Ivey v Genting, a famous poker player won millions at this casino card game. :: Punto banco (baccarat)
 The English law of 2006 on fraud. :: The Fraud Act 2006
 The English law of 1861 on violence still in use. :: The Offences Against the Person Act 1861
 The English term for serious harm. :: Grievous bodily harm (GBH)
@@ -248,7 +245,6 @@ The age of criminal responsibility in many Islamic law texts is linked to this. 
 In Islamic law, a hadd crime proved by confession is dropped if the person does this. :: Withdraws the confession
 Ma'iz ﵁ came to confess to our Beloved and our master, the Prophet Muhammad ﷺ, who first did this. :: Turned away and asked whether he was sane
 The famous woman of Ghamid ﵂ who confessed was told to wait until this. :: She had given birth and weaned her child
-After the woman of Ghamid ﵂ was punished, our Beloved and our master, the Prophet Muhammad ﷺ said she made a repentance that would be enough for this many people of Madinah. :: Seventy
 The hadith "Had Fatimah, the daughter of Muhammad, stolen" was said about a woman from this tribe. :: Banu Makhzum
 The Companion who was asked to intercede for the Makhzumi woman. :: Usamah ibn Zayd ﵁
 Umar ibn al-Khattab ﵁ did not cut the hand in the Year of Ashes because of this. :: Famine (necessity)
@@ -297,7 +293,6 @@ The Saudi Anti-Cybercrime Law punishes creating websites for terrorist groups wi
 The Saudi Anti-Cybercrime Law's maximum fine for spreading material against public order. :: Three million riyals
 The Saudi Anti-Commercial Fraud Law of 2008 punishes fraud with up to this many years in prison. :: Three
 The international convention on cybercrime from 2001. :: The Budapest Convention
-The UN adopted its first cybercrime convention in this year. :: 2024
 The FATF's list of countries with weak AML rules. :: The grey list
 The FATF was set up in this year. :: 1989
 The FATF was set up by this group of countries. :: The G7
@@ -306,11 +301,7 @@ The international system where banks share suspicious activity reports is run by
 The Saudi financial intelligence unit is called this. :: SAFIU (General Directorate of Financial Intelligence)
 The group of FIUs worldwide. :: The Egmont Group
 The US act of 2001 that expanded anti-money laundering rules. :: The USA PATRIOT Act
-The famous American gangster jailed for tax evasion. :: Al Capone
-Al Capone was sent to this prison island. :: Alcatraz
 The famous case of the Lindbergh baby kidnapping happened in this year. :: 1932
-The forensic technique of matching bullets to guns. :: Ballistics
-Fingerprint classification was developed by Edward Henry in this country. :: British India
 The first murder conviction based on DNA evidence was in this country. :: England (Colin Pitchfork, 1988)
 The scientist who invented DNA fingerprinting. :: Alec Jeffreys
 The French criminologist who said "every contact leaves a trace". :: Edmond Locard
@@ -318,6 +309,11 @@ The principle "every contact leaves a trace" is called this. :: Locard's exchang
 The study of insects to estimate time of death. :: Forensic entomology
 The study of handwriting in court cases. :: Forensic document examination
 The study of teeth marks in forensics. :: Forensic odontology
+Interpol's headquarters are in this French city. :: Lyon
+Saudi Arabia's Anti-Cybercrime Law was issued in this year. :: 2007
+The European Court of Human Rights is in this city. :: Strasbourg
+The theory that visible disorder leads to more crime. :: Broken windows theory
+The famous Stanford experiment on prisons was led by this psychologist. :: Philip Zimbardo
 
 ## 400
 The English case on loss of control after a long period of abuse, decided in 2019. :: R v Challen
@@ -329,7 +325,7 @@ Necessity was allowed in this case of separating conjoined twins. :: Re A (Conjo
 The English case that ended the "parasitic accessory liability" rule. :: R v Jogee (2016)
 The English case on causation with drugs supplied: the victim's free injection broke the chain. :: R v Kennedy (No 2) (2007)
 The English case on fear causing a victim to jump from a car. :: R v Roberts (1971)
-The English case where a man killed his wife in his sleep, raising automatism. :: R v Burgess (1991)
+The English case where a man attacked a friend while sleepwalking, holding that sleepwalking can be insane automatism. :: R v Burgess (1991)
 The defence where the body acts without control of the mind, like a reflex. :: Automatism
 The English case where a diabetic's hypoglycaemia led to "non-insane automatism". :: R v Quick (1973)
 The English case where epilepsy was treated as insanity. :: R v Sullivan (1984)
@@ -400,11 +396,8 @@ Shurayh ﵀ served as judge of this city for about 60 years. :: Kufa
 The famous judge of Basra known for clever judgments. :: Iyas ibn Mu'awiyah ﵀
 The Islamic legal term for circumstantial evidence. :: Qara'in
 Ibn al-Qayyim argued judges may use circumstantial evidence in this book. :: Al-Turuq al-Hukmiyyah
-The story of Prophet Yusuf ﵇ where a torn shirt showed innocence is an example of this. :: Circumstantial evidence (qarinah)
-In the story of Prophet Sulayman ﵇ and two women claiming a baby, he offered to do this. :: Cut the baby in half (to find the true mother)
 The legal maxim "The burden of proof is on the claimant and the oath on ___". :: The one who denies
 The legal maxim "The original state is innocence". In Arabic. :: Al-asl bara'at al-dhimmah
-In Islamic law, a confession by a person under torture is this. :: Invalid
 Umar ﵁ said, "A man is not safe from himself if you" do this to him. :: Starve, frighten or imprison him (to get a confession)
 In Saudi law, a confession must be voluntary and given before this. :: The court
 The Saudi Law of Criminal Procedure gives the accused the right to this at every stage. :: A lawyer (to seek legal help)
@@ -412,7 +405,7 @@ The English principle that a person can be guilty for helping a crime under this
 The four ways of being a secondary party: aid, abet, counsel and this. :: Procure
 The English case where a man shot his stepfather in a "game" of who could load fastest. :: R v Moloney (1985)
 The English case where miners threw a concrete block onto a taxi, about foresight of consequences. :: R v Hancock and Shankland (1986)
-The English case where a father threw his baby onto a hard surface, setting the "virtual certainty" test. :: R v Nedrick (1986)
+The English case where a man poured paraffin through a letterbox and set fire to a house, setting the "virtual certainty" test. :: R v Nedrick (1986)
 The English law of 1957 that created diminished responsibility. :: The Homicide Act 1957
 The English law of 2008 that set out self-defence rules on reasonable force. :: The Criminal Justice and Immigration Act 2008
 The English law of 2013 that allowed householders to use force that is not "grossly disproportionate". :: The Crime and Courts Act 2013
@@ -420,6 +413,20 @@ The Scottish High Court that tries serious crimes. :: The High Court of Justicia
 The third Scottish verdict, besides guilty and not guilty, that a 2025 law voted to abolish. :: Not proven
 The Irish court that tries serious crimes without a jury. :: The Special Criminal Court
 The English case that said a defendant who "foresaw" murder as possible by an accomplice was guilty, overruled in Jogee. :: Chan Wing-Siu v The Queen (1985)
+The Saudi Basic Law article that says no crime or punishment without a Sharia or statutory text. :: Article 38
+The Saudi Law of Criminal Procedure was first issued in this year. :: 2001
+The Saudi Law of Criminal Procedure was updated in this year. :: 2013
+Saudi Arabia's Specialized Criminal Court was set up in this year. :: 2008
+Nazaha merged with this body in 2019. :: The Control and Investigation Board
+The Saudi Anti-Cybercrime Law sets prison of up to this many years for illegal access to state data. :: Ten
+The Saudi law against human trafficking was issued in this year. :: 2009
+The Saudi law protecting children was issued in this year. :: 2014
+Under the Saudi Juvenile Law, a juvenile who commits a hadd or qisas crime at 15 to 18 may get at most this length of detention instead of death. :: Ten years
+The fiqh term for the oaths taken by 50 men in a case of unknown killer. :: Qasamah
+The ICTR was based in this city. :: Arusha
+The US case that banned the death penalty for crimes by minors. :: Roper v Simmons (2005)
+After the woman of Ghamid ﵂ was punished, our Beloved and our master, the Prophet Muhammad ﷺ said she made a repentance that would be enough for this many people of Madinah. :: Seventy
+The UN adopted its first cybercrime convention in this year. :: 2024
 
 ## 500
 The English case that says murder can't be committed on a fetus not yet born alive. :: Attorney General's Reference (No 3 of 1994)
@@ -442,7 +449,6 @@ The US case that held the Fourth Amendment protects against GPS tracking. :: Uni
 The US case on the right to confront witnesses. :: Crawford v Washington (2004)
 The US case that requires prosecutors to share evidence that helps the defence. :: Brady v Maryland (1963)
 The US case on eyewitness identification. :: Manson v Brathwaite (1977)
-The American "Innocence Project" uses this to free the wrongly convicted. :: DNA evidence
 The Innocence Project was founded in this year. :: 1992
 In Islamic law, the term for a confession being withdrawn. :: Ruju' 'an al-iqrar
 The Hanafi school requires this many confessions for zina. :: Four (in four sittings)
@@ -481,7 +487,6 @@ The famous Ottoman law codes (kanunname) were issued by this sultan "the Lawgive
 The Saudi law on the treatment of prisoners and detainees was issued in this year. :: 1978
 The Saudi Arabian prison "Al-Ha'ir" is near this city. :: Riyadh
 The Saudi "Tarahum" committees help these people. :: Prisoners and their families
-The Saudi royal pardon for prisoners is often given in this month. :: Ramadan
 The Saudi Anti-Cybercrime Law has this many articles. :: 16
 The Saudi Law of Criminal Procedure has this many articles. :: 222
 The Saudi Law of Criminal Procedure's implementing regulations were issued in this year. :: 2015
@@ -494,19 +499,15 @@ The Saudi Protection from Abuse Law's hotline number. :: 1919
 The Saudi Child Helpline number. :: 116111
 The UN Committee against Torture reviews states every this many years. :: Four
 The European Court of Human Rights case that said "torture" requires severe suffering, in Northern Ireland. :: Ireland v United Kingdom (1978)
-The European Court of Human Rights is in this city. :: Strasbourg
 The Inter-American Court of Human Rights is in this city. :: San José, Costa Rica
 The African Court on Human and Peoples' Rights is in this city. :: Arusha
 The Arab Charter on Human Rights was adopted in 2004 at this meeting. :: The Arab League summit in Tunis
 The Arab Charter on Human Rights came into force in this year. :: 2008
 The Cairo Declaration on Human Rights in Islam was adopted in this year. :: 1990
 The Cairo Declaration was adopted by this organisation. :: The OIC
-The OIC's headquarters are in this city. :: Jeddah
 The OIC was founded in this year. :: 1969
 The OIC was founded after an arson attack on this mosque. :: Al-Aqsa Mosque
-The British crime writer who created Hercule Poirot. :: Agatha Christie
 The founder of modern criminology's "Chicago School" studied crime in this kind of area. :: Cities (urban neighbourhoods)
-The theory that visible disorder leads to more crime. :: Broken windows theory
 The broken windows theory was published by Wilson and Kelling in this year. :: 1982
 The theory that crime happens when a motivated offender, a target and no guardian meet. :: Routine activity theory
 The sociologist who wrote about "anomie" and crime. :: Émile Durkheim
@@ -514,7 +515,6 @@ The American sociologist who developed strain theory. :: Robert Merton
 The theory that people learn crime from their friends. :: Differential association
 Differential association theory was created by this criminologist. :: Edwin Sutherland
 Edwin Sutherland also coined this term in 1939. :: White-collar crime
-The famous Stanford experiment on prisons was led by this psychologist. :: Philip Zimbardo
 The Stanford prison experiment took place in this year. :: 1971
 The Saudi law that set up specialised courts for traffic, juvenile and other cases in 2007. :: The Judiciary Law
 The Saudi Court of Appeal in each region has circuits for criminal, civil and these cases. :: Personal status (family) and labour
@@ -522,6 +522,13 @@ The Saudi Supreme Court's general assembly sets these for lower courts. :: Judic
 The Saudi Ministry of Justice publishes court rulings on this platform. :: The Judicial Rulings portal (Najiz)
 The Saudi traffic law in force was issued in this year. :: 2007
 The Saudi fine for not wearing a seatbelt. :: 150 to 300 riyals
+The Saudi Anti-Bribery Law was issued in this year. :: 1992
+The rule that a death must happen within a year and a day for murder was abolished in England in this year. :: 1996
+In Ivey v Genting, a famous poker player won millions at this casino card game. :: Punto banco (baccarat)
+Fingerprint classification was developed by Edward Henry in this country. :: British India
+The 1935 House of Lords case that called the prosecution's duty to prove guilt the "golden thread" of English criminal law. :: Woolmington v DPP
+The 1957 English case about a stolen gas meter that read "maliciously" as subjective recklessness. :: R v Cunningham
+Travis Hirschi's 1969 theory that strong ties to family, school and community keep people from crime. :: Social bond (control) theory
 
 ## tf
 Using reasonable force to stop an attacker in Saudi Arabia. :: Legal (lawful self-defence)

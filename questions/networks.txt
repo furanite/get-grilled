@@ -106,6 +106,8 @@ Two devices agreeing on how to communicate before data is sent. :: Handshake
 The unit equal to one thousand megabits per second. :: Gigabit per second (Gbps)
 Name the network topology drawn here. {img:topology-star.svg} :: Star topology
 Name the network topology drawn here. {img:topology-ring.svg} :: Ring topology
+The HTTP status code for "Not Found". :: 404
+The Saudi company that is the kingdom's largest telecom operator. :: stc
 
 ## 200
 The number of layers in the OSI model. :: 7
@@ -172,7 +174,6 @@ The digital document that proves a website's identity in HTTPS. :: Certificate
 The HTTP method that requests a page. :: GET
 The HTTP method that sends form data to the server. :: POST
 The HTTP status code for "OK". :: 200
-The HTTP status code for "Not Found". :: 404
 The HTTP status code for "Internal Server Error". :: 500
 The HTTP status code for "Moved Permanently". :: 301
 The HTTP status code for "Forbidden". :: 403
@@ -210,6 +211,16 @@ The device that spreads incoming requests across several servers. :: Load balanc
 A network of servers around the world that delivers content from a location near the user. :: CDN
 Name the network topology drawn here, with every device on one shared cable. {img:topology-bus.svg} :: Bus topology
 Name the network topology drawn here, with every device linked directly to every other. {img:topology-mesh.svg} :: Full mesh topology
+The popular free tool for capturing and inspecting packets. :: Wireshark
+The year ARPANET sent its first message. :: 1969
+The name of the documents that define internet standards. :: RFCs (Requests for Comments)
+The company whose services vanished for about six hours in October 2021 after it withdrew its own BGP routes. :: Facebook (Meta)
+The Windows command that shows a computer's IP configuration. :: ipconfig
+The first domain ever registered, in 1985, was symbolics followed by this ending. :: .com
+The Danish king whose nickname gave Bluetooth its name. :: Harald Bluetooth
+The number of IPv4 addresses in total, about 4.3 billion, is 2 to this power. :: 32
+The maximum number of hops RIP allows before a route is unreachable. :: 15
+The number of usable hosts in a /29 network. :: 6
 
 ## 300
 The subnet mask of a /26 network. :: 255.255.255.192
@@ -310,11 +321,17 @@ The 2017 attack that broke WPA2 by replaying handshake messages. :: KRACK
 The approach of controlling network devices from central software, shortened to three letters. :: SDN
 The protocol that first let controllers program switch flow tables in SDN. :: OpenFlow
 The data-centre network design with two layers of switches, replacing the three-tier model. :: Spine–leaf
-The popular free tool for capturing and inspecting packets. :: Wireshark
 The port that email programs use to submit outgoing mail to a server. :: 587
+The number of /27 subnets in a /24 network. :: 8
+The usual prefix length of an IPv6 subnet for hosts. :: /64
+The OSPF router that reduces the number of adjacencies on a broadcast network. :: Designated router (DR)
+The number of bits per symbol in 256-QAM. :: 8
+The number of bits per symbol in 1024-QAM, used by Wi-Fi 6. :: 10
+The number of bits per symbol in 4096-QAM, used by Wi-Fi 7. :: 12
+The attack named after the 2014 bug in OpenSSL's heartbeat extension. :: Heartbleed
+The submarine cable owned by Google that links the US and Spain, named after an American computer pioneer. :: Grace Hopper
 
 ## 400
-The year ARPANET sent its first message. :: 1969
 The first message sent over ARPANET was meant to be "LOGIN" but only these two letters arrived. :: LO
 The university that sent the first ARPANET message. :: UCLA
 The number of nodes ARPANET had at the end of 1969. :: 4
@@ -332,10 +349,6 @@ The year Tim Berners-Lee proposed the World Wide Web at CERN. :: 1989
 The name of the first web browser, written by Tim Berners-Lee. :: WorldWideWeb (later Nexus)
 The graphical browser of 1993 that made the web popular. :: Mosaic
 The computer scientist who managed IANA for decades and edited the RFC series. :: Jon Postel
-The name of the documents that define internet standards. :: RFCs (Requests for Comments)
-The number of the RFC that defined IPv4. :: 791
-The number of the RFC that defined TCP in 1981. :: 793
-The number of the RFC that defines UDP. :: 768
 The organisation that develops internet standards through working groups. :: IETF
 The organisation that coordinates domain names and IP addresses worldwide. :: ICANN
 The regional internet registry that serves Europe and the Middle East, including Saudi Arabia. :: RIPE NCC
@@ -346,7 +359,6 @@ The Arabic-script top-level domain of Saudi Arabia. :: .السعودية
 The system that encodes non-Latin domain names in ASCII, starting with "xn--". :: Punycode
 The year the first internationalised country domains, including Arabic ones, entered the DNS root. :: 2010
 The number of the RFC that defined the private address ranges. :: 1918
-The number of the RFC that defined IPv6 in 2017 as an internet standard. :: 8200
 The two types of TCP timer that guard against lost segments and idle connections: retransmission and this. :: Keepalive
 The formula for TCP's timeout uses a smoothed round-trip time and its variance, from this 1988 paper's author. :: Van Jacobson
 The event of 1986 in which internet throughput fell a thousandfold, leading to TCP congestion control. :: Congestion collapse
@@ -373,7 +385,6 @@ The BGP attribute set locally to prefer one exit over another inside an AS. :: L
 The BGP attribute that suggests to a neighbour which entry point to use. :: MED (multi-exit discriminator)
 The incident of 2008 in which Pakistan Telecom accidentally took YouTube offline worldwide. :: BGP hijack
 The security system that signs which AS may announce which prefixes. :: RPKI
-The company whose services vanished for about six hours in October 2021 after it withdrew its own BGP routes. :: Facebook (Meta)
 The technique of announcing a more specific prefix to steal traffic. :: Prefix hijacking (more-specific announcement)
 The places where networks meet to swap traffic, shortened to three letters. :: IXP (internet exchange point)
 The arrangement in which two networks exchange traffic without payment. :: Peering
@@ -385,7 +396,6 @@ The tool used to scan networks for open ports. :: Nmap
 The tool that measures bandwidth between two hosts. :: iperf
 The command that shows open connections and listening ports. :: netstat (or ss)
 The DNS lookup tool that shows the full answer, the name of which stands for "domain information groper". :: dig
-The Windows command that shows a computer's IP configuration. :: ipconfig
 The Cisco command that saves the running configuration. :: copy running-config startup-config
 The Cisco mode reached with the "enable" command. :: Privileged EXEC mode
 The open standard that replaced Cisco's CDP for discovering neighbours. :: LLDP
@@ -408,37 +418,40 @@ The 5G frequency range above 24 GHz with very high speed but short range. :: Mil
 The organisation that writes the standards for 4G and 5G. :: 3GPP
 The Wi-Fi generation that added the 6 GHz band. :: Wi-Fi 6E
 The Wi-Fi generation based on 802.11be. :: Wi-Fi 7
-The scientist at CERN who co-proposed the web with Tim Berners-Lee in 1990. :: Robert Cailliau
 The year CERN put the World Wide Web software in the public domain. :: 1993
-The first domain ever registered, in 1985, was symbolics followed by this ending. :: .com
 The Hollywood actress who co-invented frequency hopping, an ancestor of Wi-Fi and Bluetooth. :: Hedy Lamarr
-The Danish king whose nickname gave Bluetooth its name. :: Harald Bluetooth
-The engineer at Ericsson who invented Bluetooth. :: Jaap Haartsen
+The TCP state of the side that has received a FIN but has not yet closed its own end. :: CLOSE_WAIT
+The OSPF router that connects one or more areas to the backbone area. :: Area border router (ABR)
+The OSPF router that brings in routes from another routing protocol or domain. :: ASBR (AS boundary router)
+BGP sessions between routers inside the same autonomous system. :: iBGP
+The BGP feature that avoids a full mesh of iBGP sessions by re-advertising routes to its clients. :: Route reflector
+The spanning tree port state in which a port fills its MAC table but does not yet forward frames. :: Learning
+The switch with the lowest bridge ID, which becomes the centre of the spanning tree. :: Root bridge
+The faster version of spanning tree standardised as IEEE 802.1w. :: RSTP (Rapid Spanning Tree)
+The VLAN whose frames cross an 802.1Q trunk without a tag. :: Native VLAN
+The attack that puts two 802.1Q tags on a frame to reach another VLAN. :: VLAN hopping (double tagging)
+The switch security feature that blocks rogue DHCP servers by trusting only chosen ports. :: DHCP snooping
+The translation mechanism that lets IPv6-only clients reach IPv4 servers, paired with DNS64. :: NAT64
 
 ## 500
 The number of usable hosts in a /22 network. :: 1,022
-The number of /27 subnets in a /24 network. :: 8
 The smallest prefix length that gives at least 500 usable host addresses. :: /23
 The wildcard mask that matches a /20 network in a Cisco access list. :: 0.0.15.255
 The network address of the host 172.20.37.200/20. :: 172.20.32.0
 The broadcast address of the network 192.168.10.64/27. :: 192.168.10.95
 The summary route for 10.1.4.0/24, 10.1.5.0/24, 10.1.6.0/24 and 10.1.7.0/24. :: 10.1.4.0/22
-The number of IPv4 addresses in total, about 4.3 billion, is 2 to this power. :: 32
 The number of /64 subnets in an IPv6 /48 allocation. :: 65,536
-The usual prefix length of an IPv6 subnet for hosts. :: /64
 The shortened form of the IPv6 address 2001:0db8:0000:0000:0000:0000:0000:0001. :: 2001:db8::1
 The IPv6 documentation prefix, reserved for examples. :: 2001:db8::/32
 The IPv6 multicast address that reaches all nodes on a link. :: ff02::1
 The 64-bit interface identifier made from a 48-bit MAC address by inserting FFFE in the middle. :: Modified EUI-64
 The IPv4 range reserved for carrier-grade NAT. :: 100.64.0.0/10
 The IPv4 block reserved for documentation as "TEST-NET-1". :: 192.0.2.0/24
-The maximum number of hops RIP allows before a route is unreachable. :: 15
 The interval in seconds at which RIP sends its whole routing table. :: 30
 The default OSPF hello interval on broadcast links, in seconds. :: 10
 The default OSPF reference bandwidth, in megabits per second, that makes all fast links cost 1. :: 100
 The OSPF cost of a 10 Mbps link with the default reference bandwidth. :: 10
 The multicast address OSPF routers use to reach all OSPF routers. :: 224.0.0.5
-The OSPF router that reduces the number of adjacencies on a broadcast network. :: Designated router (DR)
 The OSPF LSA type that a router generates to describe its own links. :: Type 1 (router LSA)
 The first attribute Cisco checks in BGP path selection, local to the router. :: Weight
 The number of 32-bit AS numbers available, compared with 65,536 in the 16-bit range. :: About 4.3 billion
@@ -461,9 +474,6 @@ The maximum send window of Go-Back-N with 3-bit sequence numbers. :: 7
 The maximum send window of Selective Repeat with 3-bit sequence numbers. :: 4
 The maximum data rate, in kilobits per second, of a 3 kHz channel with a signal-to-noise ratio of 30 dB, roughly. :: 30
 The Nyquist maximum data rate, in kilobits per second, of a 4 kHz noiseless channel with 8 signal levels. :: 24
-The number of bits per symbol in 256-QAM. :: 8
-The number of bits per symbol in 1024-QAM, used by Wi-Fi 6. :: 10
-The number of bits per symbol in 4096-QAM, used by Wi-Fi 7. :: 12
 The width, in megahertz, of the widest channel in Wi-Fi 7. :: 320
 The number of check bits a Hamming code needs to protect 7 data bits for single-error correction. :: 4
 The number of 1 bits in the codeword of the generator polynomial x³ + x + 1. :: 3
@@ -478,13 +488,12 @@ The 2008 DNS flaw found by Dan Kaminsky concerned this kind of attack. :: Cache 
 The year the Morris worm infected about a tenth of the internet. :: 1988
 The 2016 botnet made of insecure cameras and routers that knocked out Dyn's DNS. :: Mirai
 The amplification factor of memcached reflection attacks in 2018, roughly. :: 50,000
-The attack named after the 2014 bug in OpenSSL's heartbeat extension. :: Heartbleed
 The 2014 attack that forced connections down to SSL 3.0. :: POODLE
 The cipher suite naming in TLS 1.3 removed the key exchange and this part. :: Authentication (signature) algorithm
 The TLS 1.3 feature that lets a returning client send data in its first message. :: 0-RTT (early data)
 The certificate field that lists all the hostnames a certificate covers. :: Subject Alternative Name (SAN)
 The public logs that record every issued certificate. :: Certificate Transparency
-The maximum validity of public TLS certificates set by the CA/Browser Forum from 2020. :: 398 days
+The maximum validity of public TLS certificates that browsers enforced from 2020. :: 398 days
 The HTTP header that tells browsers to use HTTPS only for a site. :: Strict-Transport-Security (HSTS)
 The header compression scheme used by HTTP/2. :: HPACK
 The header compression scheme used by HTTP/3. :: QPACK
@@ -501,10 +510,7 @@ The protocol that carries remote direct memory access over Ethernet. :: RoCE
 The interconnect widely used in supercomputers and AI clusters, an alternative to Ethernet. :: InfiniBand
 The year Ethernet's 400 Gbps standard, 802.3bs, was approved. :: 2017
 The Ethernet speed defined by IEEE 802.3df in 2024. :: 800 Gbps
-The submarine cable owned by Google that links the US and Spain, named after an American computer pioneer. :: Grace Hopper
 The longest submarine cable system, linking more than 30 countries around Africa, launched by Meta and partners. :: 2Africa
-The Saudi company that is the kingdom's largest telecom operator. :: stc
-The number of usable hosts in a /29 network. :: 6
 The number of addresses in the whole 10.0.0.0/8 private block. :: 16,777,216
 The number of usable hosts on a /31 point-to-point link under RFC 3021. :: 2
 The subnet mask of a /21 network. :: 255.255.248.0
@@ -516,3 +522,15 @@ The default administrative distance of OSPF on Cisco routers. :: 110
 The default administrative distance of external BGP on Cisco routers. :: 20
 The default administrative distance of RIP on Cisco routers. :: 120
 The number of round trips needed to fetch a web page over a new TCP connection with TLS 1.2 before the first byte of HTTP data arrives, counting the TCP handshake. :: 3
+The number of the RFC that defined IPv4. :: 791
+The number of the RFC that defined TCP in 1981. :: 793
+The number of the RFC that defines UDP. :: 768
+The number of the RFC that defined IPv6 in 2017 as an internet standard. :: 8200
+The scientist at CERN who co-proposed the web with Tim Berners-Lee in 1990. :: Robert Cailliau
+The engineer at Ericsson who invented Bluetooth. :: Jaap Haartsen
+The OSPF LSA type that a designated router generates to list the routers on a multi-access network. :: Type 2 (network LSA)
+The OSPF neighbour state in which routers send each other database description packets. :: Exchange
+The default bridge priority on most switches running spanning tree. :: 32,768
+In TCP Reno, the size the congestion window drops to after a retransmission timeout. :: One segment (1 MSS)
+The TCP Reno phase after fast retransmit that halves the window and skips slow start. :: Fast recovery
+The well-known BGP community that tells a peer not to advertise a route outside its own AS. :: NO_EXPORT

@@ -107,6 +107,10 @@ The gas in home cooking cylinders, a mix of propane and butane. :: LPG
 Name the electrical component this symbol stands for. {img:sym-transformer.svg} :: Transformer
 Name the electrical symbol drawn here. {img:sym-ground.svg} :: Ground (earth)
 Name the source this symbol stands for. {img:sym-ac-source.svg} :: AC voltage source
+The 2011 nuclear accident caused by a tsunami. :: Fukushima Daiichi
+The 1986 nuclear disaster in Ukraine. :: Chernobyl
+The Aswan High Dam is on this river. :: Nile
+The physicist whose 1905 equation E = mc² explains where nuclear energy comes from. :: Albert Einstein
 
 ## 200
 In a three-phase system, the phases are separated by this angle. :: 120 degrees
@@ -181,8 +185,6 @@ Raising the U-235 share of uranium. :: Enrichment
 A self-sustaining chain of fission reactions. :: Chain reaction
 The state where each fission causes exactly one more on average. :: Critical
 Heat produced by radioactive decay after a reactor shuts down. :: Decay heat
-The 2011 nuclear accident caused by a tsunami. :: Fukushima Daiichi
-The 1986 nuclear disaster in Ukraine. :: Chernobyl
 The UAE's nuclear power plant, the first in the Arab world. :: Barakah
 The amount of electricity a power plant can produce at full output. :: Installed capacity
 The total power demand on the grid at any moment. :: Load
@@ -209,6 +211,22 @@ Average load divided by peak load over a period. :: Load factor
 Thermal storage for air conditioning often makes this at night to use during the day. :: Ice (or chilled water)
 A load that draws leading reactive current. :: Capacitive load
 A power factor of 1 means voltage and current are this. :: In phase
+The DC–DC converter that lowers voltage. :: Buck converter
+The DC–DC converter that raises voltage. :: Boost converter
+The world's largest power station by capacity, in China. :: Three Gorges Dam
+The emerging battery type with a solid electrolyte. :: Solid-state battery
+Pearl Street station supplied this kind of current. :: Direct current
+The rivalry between Edison and Westinghouse over DC and AC. :: War of the currents
+The Italian physicist who invented the first battery, the voltaic pile, in 1800. :: Alessandro Volta
+The country that gets about 70% of its electricity from nuclear. :: France
+The 'K.A.' in K.A.CARE, the Saudi atomic and renewable energy body founded in 2010, stands for this. :: King Abdullah
+The English scientist who discovered electromagnetic induction in 1831. :: Michael Faraday
+Faraday's spinning copper disc of 1831 was the first of these machines. :: Electric generator (dynamo)
+The inventor whose name is the SI unit of magnetic flux density. :: Nikola Tesla
+Einstein's 1921 Nobel Prize was for explaining this effect, key to solar cells. :: Photoelectric effect
+The German engineer who patented the compression-ignition engine in the 1890s. :: Rudolf Diesel
+The 2023 UN climate summit, COP28, was held in this city. :: Dubai
+The Saudi industrial city on the Gulf with huge power and desalination plants such as Marafiq's. :: Jubail
 
 ## 300
 The per-unit system expresses quantities as fractions of this. :: Base values
@@ -279,8 +297,6 @@ The older HVDC converter type using thyristors. :: Line-commutated converter (LC
 An HVDC link where both converters are in the same substation. :: Back-to-back HVDC
 The device that changes motor speed by changing supply frequency. :: Variable frequency drive (VFD)
 Halving a fan's speed with a VFD cuts its power to about this. :: One eighth
-The DC–DC converter that lowers voltage. :: Buck converter
-The DC–DC converter that raises voltage. :: Boost converter
 The PV cell type that layers multiple materials to beat single-junction limits. :: Tandem (multi-junction) cells
 The crystal family promising cheap, efficient thin-film solar cells. :: Perovskites
 The solar technology that uses a field of mirrors to focus on a central tower. :: Solar power tower (CSP)
@@ -307,26 +323,35 @@ The main pressure in a PWR primary loop, roughly. :: About 155 bar (15.5 MPa)
 The small factory-built reactors many countries are developing. :: Small modular reactors (SMRs)
 The tokamak in France being built to show fusion power. :: ITER
 The temperature needed for deuterium–tritium fusion, roughly. :: About 150 million °C
-The world's largest power station by capacity, in China. :: Three Gorges Dam
-The Dubai solar park where ACWA Power built the world's tallest solar power tower. :: Mohammed bin Rashid Al Maktoum Solar Park
 Saudi Arabia's grid operator, a subsidiary of SEC since 2012. :: National Grid SA
 The Saudi company that buys power and runs the National Renewable Energy Program tenders. :: SPPC (Saudi Power Procurement Company)
+The control system that gathers data and sends commands across a grid. :: SCADA
+The tilt angle of fixed solar panels for best yearly output is roughly equal to this. :: Latitude
+The first large AC hydroelectric plant, opened in 1895 at this famous site. :: Niagara Falls
+The German physicist who derived the maximum wind turbine efficiency in 1919. :: Albert Betz
+The Italian physicist who led the first man-made nuclear chain reaction in 1942. :: Enrico Fermi
+The 1979 US nuclear accident in Pennsylvania. :: Three Mile Island
+The Tesla patent purchase in 1888 was made by this industrialist. :: George Westinghouse
+The Grand Ethiopian Renaissance Dam is on this river. :: Blue Nile
+London's Holborn Viaduct power station of 1882 was built by this inventor's company. :: Thomas Edison
+The 1973 event that quadrupled oil prices and sparked worldwide energy research. :: Oil embargo (1973 oil crisis)
+The Saudi electric car brand formed by PIF and Foxconn. :: Ceer
+The country that gets nearly all its electricity from hydro and geothermal power. :: Iceland
+The Swiss-Swedish company formed in 1988 by merging ASEA and Brown Boveri. :: ABB
+The 2014 Nobel Prize in Physics was for inventing this energy-saving light source. :: Blue LED
 Name this three-phase connection. {img:three-phase-wye.svg} :: Wye (star) connection
 Name this three-phase connection. {img:three-phase-delta.svg} :: Delta connection
 
 ## 400
 The matrix of partial derivatives used in the Newton–Raphson load flow. :: Jacobian
 The decoupled load flow uses the fact that P depends mainly on angles and Q mainly on this. :: Voltage magnitudes
-The fast decoupled load flow was published by Stott and this person in 1974. :: Alsaç
 The optimisation that finds the cheapest generation schedule meeting network limits. :: Optimal power flow (OPF)
 The condition for economic dispatch: all generators run at equal this. :: Incremental cost
 The penalty factors in economic dispatch account for this. :: Transmission losses
-The formula for losses using B coefficients is named after this engineer. :: Kron
 The daily decision of which generators to turn on and off. :: Unit commitment
 The price at a bus that includes energy, congestion and losses. :: Locational marginal price (LMP)
 The state estimator in a control centre finds the most likely state using this method. :: Weighted least squares
 The devices that measure synchronised voltage phasors using GPS timing. :: PMUs (phasor measurement units)
-The control system that gathers data and sends commands across a grid. :: SCADA
 The software suite in grid control centres that includes state estimation and contingency analysis. :: EMS (energy management system)
 The planning rule that the grid must survive the loss of any one element. :: N−1 criterion
 The impedance of a transmission line per km is set by its geometric mean radius and this. :: Geometric mean distance
@@ -353,7 +378,6 @@ The IEC standard for substation automation communication. :: IEC 61850
 The fast peer-to-peer messages in IEC 61850. :: GOOSE messages
 The 2003 blackout that hit 50 million people in the US and Canada began in this state. :: Ohio
 The software bug in the 2003 blackout stopped this from working in a control room. :: Alarm system
-The 2019 blackout in Great Britain began with a lightning strike and the trips of a gas plant and this offshore wind farm. :: Hornsea One
 The 2021 Texas power crisis was triggered by this. :: Winter storm (Uri) and freezing equipment
 The Saudi interconnection that will link the Kingdom's grid to Egypt via HVDC. :: Saudi–Egypt HVDC interconnection
 The rating of the Saudi–Egypt HVDC link, roughly. :: 3,000 MW
@@ -373,7 +397,6 @@ The ratio of maximum power to Voc times Isc. :: Fill factor
 The solar cell architecture with a passivated rear contact that is now standard. :: PERC
 The newer cell technology with a thin tunnel oxide on the back. :: TOPCon
 The cell type combining crystalline silicon and thin amorphous silicon layers. :: Heterojunction (HJT)
-The tilt angle of fixed solar panels for best yearly output is roughly equal to this. :: Latitude
 Panel output loses about this percentage per °C above 25 °C, for silicon. :: About 0.3 to 0.4%
 The angle between the sun and the vertical. :: Zenith angle
 The ratio of the path length of sunlight through air to the shortest path. :: Air mass
@@ -386,7 +409,6 @@ The world's largest wind turbines now exceed this rated power. :: About 20 MW (a
 The battery degradation that happens even when unused. :: Calendar ageing
 The common model of a battery as a voltage source with RC pairs. :: Equivalent circuit model (Thevenin model)
 The lithium plating risk rises when charging at low this. :: Temperature
-The emerging battery type with a solid electrolyte. :: Solid-state battery
 Batteries that store energy in two liquid electrolytes in tanks. :: Flow batteries
 The common flow battery chemistry using one metal in four oxidation states. :: Vanadium redox
 The thermodynamic minimum voltage to split water at 25 °C. :: 1.23 V
@@ -415,14 +437,17 @@ The reliability index for average outage minutes per customer per year. :: SAIDI
 The reliability index for the average number of interruptions per customer per year. :: SAIFI
 The planning measure for expected hours per year when load exceeds available generation. :: LOLE (loss of load expectation)
 A wind turbine's power curve becomes flat above this wind speed. :: Rated wind speed
+The Dubai solar park where ACWA Power built the world's tallest solar power tower. :: Mohammed bin Rashid Al Maktoum Solar Park
+The quantity whose per-unit value is the same on both sides of an ideal transformer when the bases follow its turns ratio. :: Impedance
+For a balanced three-phase fault, only this sequence network carries current. :: Positive sequence
+The common distribution transformer vector group with a delta HV winding and an earthed star LV winding leading by 30°. :: Dyn11
+The transformation that turns three-phase machine quantities into direct and quadrature axes fixed to the rotor. :: Park (dq0) transformation
+The 'V curves' of a synchronous machine plot armature current against this. :: Field (excitation) current
 In this three-phase connection, the line voltage is how many times the phase voltage? {img:three-phase-wye.svg} :: √3 (about 1.73)
 
 ## 500
 The year Edison opened the Pearl Street power station in New York. :: 1882
-Pearl Street station supplied this kind of current. :: Direct current
-The rivalry between Edison and Westinghouse over DC and AC. :: War of the currents
 The 1893 fair lit by Westinghouse with AC, a turning point in the war. :: World's Columbian Exposition (Chicago)
-The first large AC hydroelectric plant, opened in 1895 at this famous site. :: Niagara Falls
 The 1891 long-distance three-phase transmission from Lauffen to this German city. :: Frankfurt
 The Russian-born engineer who designed the 1891 Lauffen–Frankfurt three-phase system. :: Mikhail Dolivo-Dobrovolsky
 The member of the Hungarian ZBD team credited with coining the word 'transformer'. :: Ottó Bláthy
@@ -433,19 +458,14 @@ The first satellite powered by solar cells, launched in 1958. :: Vanguard 1
 The Scottish engineer who built the first electricity-generating wind turbine in 1887. :: James Blyth
 The American who built a large automatic wind turbine in Cleveland in 1888. :: Charles F. Brush
 The Danish scientist who pioneered wind power research in the 1890s. :: Poul la Cour
-The German physicist who derived the maximum wind turbine efficiency in 1919. :: Albert Betz
 The 1941 1.25 MW wind turbine on a Vermont hill, the first megawatt-scale turbine. :: Smith–Putnam wind turbine
 The Welsh scientist who invented the fuel cell in 1839. :: William Grove
 The NASA programmes that used fuel cells for power in the 1960s. :: Gemini and Apollo
-The Italian physicist who invented the first battery, the voltaic pile, in 1800. :: Alessandro Volta
 The three scientists who won the 2019 Chemistry Nobel for lithium-ion batteries. :: Goodenough, Whittingham and Yoshino
 The Japanese company that first sold lithium-ion batteries in 1991. :: Sony
-The Italian physicist who led the first man-made nuclear chain reaction in 1942. :: Enrico Fermi
 The first nuclear reactor, built under the stands of a Chicago stadium. :: Chicago Pile-1
 The world's first commercial-scale nuclear power station, opened in 1956 in England. :: Calder Hall
-The 1979 US nuclear accident in Pennsylvania. :: Three Mile Island
 The US admiral called the father of the nuclear navy, whose PWR design spread to power plants. :: Hyman Rickover
-The country that gets about 70% of its electricity from nuclear. :: France
 The Austrian-born physicist who, with Otto Frisch, explained fission in 1939. :: Lise Meitner
 The German chemists who discovered nuclear fission in 1938. :: Otto Hahn and Fritz Strassmann
 The word tokamak comes from a Russian phrase meaning this. :: Toroidal chamber with magnetic coils
@@ -453,7 +473,6 @@ The regional Saudi utilities merged into the Saudi Electricity Company in 2000 w
 The first Saudi utility-scale solar PV plant under the National Renewable Energy Program. :: Sakaka
 The 1.5 GW Saudi solar plant whose tariff was about 1.24 US cents per kWh. :: Sudair Solar PV
 The Saudi solar project that set a world record low tariff of about 1.04 US cents per kWh in 2021. :: Shuaibah PV (Shuaibah 2)
-The 'K.A.' in K.A.CARE, the Saudi atomic and renewable energy body founded in 2010, stands for this. :: King Abdullah
 The UAE nuclear plant's reactors are this Korean design. :: APR-1400
 The UAE's large solar park near Abu Dhabi that set records in 2019. :: Noor Abu Dhabi
 The Moroccan CSP complex near Ouarzazate. :: Noor Ouarzazate
@@ -470,51 +489,60 @@ The General Electric engineer who invented a graphical transmission line calcula
 Edith Clarke was the first woman to do this at MIT. :: Earn an electrical engineering degree (MS, 1919)
 The GE engineer nicknamed 'the wizard of Schenectady'. :: Charles Proteus Steinmetz
 Steinmetz is famous for introducing this method of AC analysis in 1893. :: Complex numbers (phasors)
-The Tesla patent purchase in 1888 was made by this industrialist. :: George Westinghouse
 The engineer who developed the first practical HVDC link in 1954 to Gotland. :: Uno Lamm
 The HVDC link from Gotland to the Swedish mainland opened in this year. :: 1954
 The Itaipu HVDC links carry power from a dam shared by Brazil and this country. :: Paraguay
 The Grand Coulee dam is on this river. :: Columbia River
-The Aswan High Dam is on this river. :: Nile
-The Grand Ethiopian Renaissance Dam is on this river. :: Blue Nile
 The Chinese city whose Three Gorges Dam is nearby. :: Yichang
 The Hoover Dam was completed in this year. :: 1936
-The English scientist who discovered electromagnetic induction in 1831. :: Michael Faraday
-Faraday's spinning copper disc of 1831 was the first of these machines. :: Electric generator (dynamo)
 The German engineer who announced the self-excited dynamo in 1866 to 1867. :: Werner von Siemens
 The Belgian engineer whose 1871 ring-armature dynamo was the first commercially successful one. :: Zénobe Gramme
 The British industrialist whose house Cragside was the first lit by hydroelectricity, in 1878. :: William Armstrong
 The English town that had the world's first public electricity supply, in 1881. :: Godalming
-London's Holborn Viaduct power station of 1882 was built by this inventor's company. :: Thomas Edison
 The American engineer who demonstrated an AC transformer system at Great Barrington in 1886. :: William Stanley
-The inventor whose name is the SI unit of magnetic flux density. :: Nikola Tesla
 James Watt defined one horsepower as this many foot-pounds per minute. :: 33,000
-Einstein's 1921 Nobel Prize was for explaining this effect, key to solar cells. :: Photoelectric effect
-The 1973 event that quadrupled oil prices and sparked worldwide energy research. :: Oil embargo (1973 oil crisis)
 The well that struck oil in commercial quantities in Saudi Arabia in 1938. :: Dammam No. 7 (Prosperity Well)
 The American geologist credited with the Dammam No. 7 discovery. :: Max Steineke
 Saudi Arabia's Master Gas System, begun in the 1970s, captures gas that used to be treated this way. :: Flared (burned off)
 The world's largest offshore oil field, in Saudi waters. :: Safaniya
 The geologist who predicted in 1956 that US oil production would peak around 1970. :: M. King Hubbert
-The German engineer who patented the compression-ignition engine in the 1890s. :: Rudolf Diesel
 The Chinese company that is the world's largest maker of EV batteries. :: CATL
-The Saudi electric car brand formed by PIF and Foxconn. :: Ceer
-The country that gets nearly all its electricity from hydro and geothermal power. :: Iceland
 The Italian town where geothermal steam first generated electricity, in 1904. :: Larderello
 The world's largest hydroelectric plant by capacity before Three Gorges. :: Itaipu
-The physicist whose 1905 equation E = mc² explains where nuclear energy comes from. :: Albert Einstein
 The US president who gave the 'Atoms for Peace' speech in 1953. :: Dwight D. Eisenhower
 The Soviet reactor type used at Chernobyl. :: RBMK
 The Oxfordshire tokamak that set fusion energy records before closing in 2023. :: JET (Joint European Torus)
-The Swiss-Swedish company formed in 1988 by merging ASEA and Brown Boveri. :: ABB
 The Australian university whose researchers invented the PERC solar cell in 1983. :: University of New South Wales (UNSW)
 The Australian engineer called the father of modern photovoltaics, who led the PERC work. :: Martin Green
-The 2014 Nobel Prize in Physics was for inventing this energy-saving light source. :: Blue LED
 The Westinghouse engineer who invented the first practical AC electricity meter in 1888. :: Oliver Shallenberger
 Saudi Arabia's Jafurah field is this kind of gas resource. :: Unconventional (shale) gas
-The 2023 UN climate summit, COP28, was held in this city. :: Dubai
-The Saudi industrial city on the Gulf with huge power and desalination plants such as Marafiq's. :: Jubail
 The Saudi Aramco plant at Abqaiq, attacked in 2019, mainly does this to crude oil. :: Processes (stabilises) it
 The Saudi Green Initiative was launched in this year. :: 2021
 Ghawar, the world's largest conventional oil field, was discovered in this year. :: 1948
 The Swedish inventor of the nickel–cadmium battery in 1899. :: Waldemar Jungner
+The fast decoupled load flow was published by Stott and this person in 1974. :: Alsaç
+The formula for losses using B coefficients is named after this engineer. :: Kron
+The 2019 blackout in Great Britain began with a lightning strike and the trips of a gas plant and this offshore wind farm. :: Hornsea One
+For a bolted single line-to-ground fault, fault current equals 3 times prefault voltage divided by this sum. :: Z1 + Z2 + Z0
+In the swing equation, the synchronising power coefficient of a lossless link equals Pmax times this. :: cos δ
+The decay time constant of the DC offset in fault current is set by this ratio of the network. :: X/R ratio
+The open-circuit receiving-end voltage of a lossless line equals the sending-end voltage divided by this. :: cos βl
+A lossless 60 Hz line that is exactly a quarter-wavelength long is roughly this long. :: About 1,250 km
+The surge impedance loading of a 400 kV line with a 400 Ω surge impedance. :: 400 MW
+The order of convergence of the Newton–Raphson load flow near the solution. :: Quadratic
+Fast decoupled load flow keeps its B′ and B″ matrices constant, so they are factorised this often. :: Only once
+At the nose of a P–V curve, the load-flow Jacobian becomes this. :: Singular
+The first-pole-to-clear factor for a three-phase ungrounded fault, used in breaker recovery voltage ratings. :: 1.5
+The inverter-side angle that must stay above a minimum in LCC HVDC to avoid commutation failure. :: Extinction angle (γ)
+The lowest characteristic AC-side harmonic orders of a twelve-pulse converter. :: 11th and 13th
+The converter of a DFIG wind turbine is rated at only about this fraction of the turbine's power. :: About 30%
+The maximum (breakdown) torque of an induction motor does not depend on this rotor quantity. :: Rotor resistance
+The Shockley–Queisser efficiency limit for a single-junction solar cell in unconcentrated sunlight, roughly. :: About 33%
+In momentum theory, an ideal wind rotor reaches the Betz limit at this axial induction factor. :: 1/3
+The law describing how a battery's usable capacity falls at higher discharge rates. :: Peukert's law
+The thermoneutral voltage of water electrolysis at 25 °C. :: About 1.48 V
+The condition on the triple product of density, temperature and confinement time for fusion ignition. :: Lawson criterion
+The two extra factors that turn the four-factor formula into the six-factor formula for a finite reactor. :: Fast and thermal non-leakage probabilities
+The effect that cuts reactor power as fuel heats up, by widening the U-238 absorption resonances. :: Doppler broadening
+The delayed neutron fraction β for U-235 fission, roughly. :: About 0.65%
+Reactivity equal to the delayed neutron fraction is called this unit. :: One dollar

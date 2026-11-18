@@ -67,7 +67,6 @@ The city where the Burj Khalifa stands. :: Dubai
 The Saudi tower being built in Jeddah to be the world's tallest. :: Jeddah Tower
 The giant clock tower hotel next to the Grand Mosque in Makkah. :: Abraj Al-Bait (Makkah Clock Royal Tower)
 The causeway that links Saudi Arabia to Bahrain. :: King Fahd Causeway
-The length of the King Fahd Causeway, roughly. :: About 25 km
 The driverless metro system in the Saudi capital. :: Riyadh Metro
 The large Saudi giga-project on the Red Sea coast in Tabuk province. :: NEOM
 The Saudi entertainment giga-project near Riyadh. :: Qiddiya
@@ -105,6 +104,11 @@ Building digital 3D models with full project information. :: BIM (Building Infor
 The sand layer laid under paving blocks and pipes. :: Bedding layer
 The raised concrete edge along a road, called a curb in American English. :: Kerb
 Name this type of beam, held at one end only. {img:beam-cantilever.svg} :: Cantilever beam
+The dry riverbeds in Arabia that flood after heavy rain. :: Wadis
+The signal phase interval between green and red. :: Yellow (amber) change interval
+The 1950s US road test whose results gave the "fourth power law" of pavement damage from axle loads. :: AASHO Road Test
+Mass concrete specifications often limit the core-to-surface temperature difference to about this. :: 20 °C
+The Japanese bridge that held the longest-span record from 1998 to 2022. :: Akashi Kaikyō Bridge
 
 ## 200
 The four main compounds in Portland cement are C3S, C2S, C3A and this. :: C4AF
@@ -211,6 +215,32 @@ Name this type of beam support. {img:support-pin.svg} :: Pin (hinge) support
 Name this type of beam support. {img:support-roller.svg} :: Roller support
 Name this type of beam support. {img:support-fixed.svg} :: Fixed support
 Name this type of beam, with a pin at one end and a roller at the other. {img:beam-simple.svg} :: Simply supported beam
+The longest-span bridge type. :: Suspension bridge
+Building more roads creates more traffic, an effect called this. :: Induced demand
+The type of dam made of earth with a clay core. :: Embankment (earthfill) dam
+The concrete dam that relies on its own weight. :: Gravity dam
+The structure that safely passes floods over or around a dam. :: Spillway
+A flood that has a 1% chance of happening in any year. :: 100-year flood
+The 2009 flood in this Saudi city killed over 100 people and led to new drainage projects. :: Jeddah
+The water treatment step that uses ozone or UV after filtration. :: Disinfection
+The crushed stone that supports railway sleepers. :: Ballast
+The volume-to-capacity ratio at which a road is at capacity. :: 1.0
+The US green building rating system. :: LEED
+The difference between ellipsoidal height and height above the geoid. :: Geoid undulation (geoid height)
+Water rising to the surface of freshly placed concrete. :: Bleeding
+Coarse aggregate separating from the mortar in fresh concrete. :: Segregation
+The Scottish railway bridge that collapsed in a storm in 1879. :: Tay Bridge
+The 2018 bridge collapse in Genoa, Italy. :: Morandi Bridge (Ponte Morandi)
+The 2017 London tower fire that led to new cladding rules. :: Grenfell Tower
+The world's longest-span suspension bridge, opened in Turkey in 2022. :: 1915 Çanakkale Bridge
+The main span of the 1915 Çanakkale Bridge, in metres. :: 2,023 m
+The 55 km bridge–tunnel linking Hong Kong, Zhuhai and this city. :: Macau
+The Roman engineer whose De Architectura said buildings need firmness, usefulness and this. :: Beauty (venustas)
+The Jeddah Tower is designed to be at least this tall. :: 1,000 m (1 km)
+The architect of the Jeddah Tower, who also designed the Burj Khalifa's architecture with SOM. :: Adrian Smith
+The length of the Haramain High-Speed Railway, roughly. :: About 450 km
+The huge expansion project around the Grand Mosque in Makkah. :: Third Saudi Expansion
+The ancient wells and channels used to bring water to Makkah, built by Zubaida. :: Ain Zubaida (Zubaida's spring)
 
 ## 300
 Concrete's design strength symbol, as in 'C30' or 'f′c = 30 MPa'. :: Specified (characteristic) compressive strength
@@ -242,7 +272,6 @@ The bridge building method that grows equally from each side of a pier. :: Balan
 The bridge deck section shaped like a hollow box. :: Box girder
 The device between a bridge deck and pier that lets it move. :: Bearing
 Gaps in a bridge deck that allow thermal movement. :: Expansion joints
-The longest-span bridge type. :: Suspension bridge
 The concrete strength gain over time is described by this concept combining time and temperature. :: Maturity method
 The 'Abrams law' relates concrete strength to this. :: Water–cement ratio
 The test that measures concrete strength on site with a spring hammer. :: Rebound (Schmidt) hammer test
@@ -304,7 +333,6 @@ The four-step model's step that splits trips between car, bus and rail. :: Mode 
 The model of trip distribution named after Newton's law. :: Gravity model
 Equilibrium where no driver can cut travel time by changing route. :: Wardrop's user equilibrium
 The paradox where adding a road can make traffic worse. :: Braess's paradox
-Building more roads creates more traffic, an effect called this. :: Induced demand
 The minimum curve radius depends on design speed, superelevation and this. :: Side friction factor
 The safe passing distance on a two-lane road is called this. :: Passing sight distance
 The typical maximum superelevation on rural highways. :: 8 to 10%
@@ -315,6 +343,18 @@ The rule that shares out a traverse's closing error in proportion to line length
 Making maps and 3D models from overlapping aerial photos. :: Photogrammetry
 Name this type of truss, made of triangles with no vertical members. {img:truss-warren.svg} :: Warren truss
 How many reaction forces can a roller support like this one provide? {img:support-roller.svg} :: One (perpendicular to the surface)
+The length of the King Fahd Causeway, roughly. :: About 25 km
+The simple peak runoff formula Q = CiA. :: Rational method
+The Canadian bridge that collapsed in 1907 during construction, killing 75 workers. :: Quebec Bridge
+The 1968 London tower block partly collapsed by a gas explosion, leading to rules on progressive collapse. :: Ronan Point
+The Pantheon's concrete dome gets lighter towards the top by using this volcanic aggregate. :: Pumice
+The Great Mosque of Samarra's famous spiral minaret is called this. :: Malwiya
+The ancient dam in Yemen whose collapse is mentioned in the Qur'an. :: Ma'rib Dam
+The engineering firm that designed the Burj Khalifa's structure. :: Skidmore, Owings & Merrill (SOM)
+The structural engineer who led Burj Khalifa's design at SOM. :: Bill Baker
+The height of the Burj Khalifa, to the nearest metre. :: 828 m
+The NEOM mountain resort designed for outdoor skiing in Saudi Arabia. :: Trojena
+The tensile fabric roof terminal at Jeddah airport designed for pilgrims, completed in 1981. :: Hajj Terminal
 
 ## 400
 The equation for consolidation in one dimension was published by Terzaghi in this year. :: 1925
@@ -339,23 +379,15 @@ The method of slices that satisfies both moment and force equilibrium. :: Spence
 The simplified slope method that satisfies only moment equilibrium for circular slips. :: Bishop's simplified method
 The pressure an embankment dam's core must resist from seepage. :: Pore water pressure
 The filter rule for drains that sets the size ratio D15 of filter to D85 of soil. :: Terzaghi's filter criterion (D15/D85 ≤ 4 to 5)
-The type of dam made of earth with a clay core. :: Embankment (earthfill) dam
-The concrete dam that relies on its own weight. :: Gravity dam
 The thin concrete dam curved upstream to push loads into the valley sides. :: Arch dam
 The dam built of roller-compacted concrete placed in layers. :: RCC dam
-The structure that safely passes floods over or around a dam. :: Spillway
 The flood used to design the spillway of a large dam. :: Probable maximum flood (PMF)
 The hydrograph method that turns rainfall excess into runoff. :: Unit hydrograph
-The simple peak runoff formula Q = CiA. :: Rational method
 The time for runoff to travel from the farthest point to the outlet. :: Time of concentration
 The statistical distribution often used for annual flood peaks. :: Gumbel distribution
-A flood that has a 1% chance of happening in any year. :: 100-year flood
 The chance of at least one 100-year flood in 100 years, roughly. :: About 63%
-The 2009 flood in this Saudi city killed over 100 people and led to new drainage projects. :: Jeddah
-The dry riverbeds in Arabia that flood after heavy rain. :: Wadis
 The large dam on Wadi Bisha in Asir region, one of the biggest in the Kingdom. :: King Fahd Dam
 The water treatment process that uses membranes with tiny pores to remove bacteria. :: Ultrafiltration
-The water treatment step that uses ozone or UV after filtration. :: Disinfection
 The by-products formed when chlorine reacts with organic matter. :: Disinfection by-products (THMs)
 The wastewater process that removes nitrogen using bacteria with and without oxygen. :: Nitrification–denitrification
 The wastewater technology that combines activated sludge with membranes. :: Membrane bioreactor (MBR)
@@ -372,7 +404,6 @@ The ratio of curve length to grade change. :: K value
 The spiral curve used in highway and railway transitions. :: Clothoid (Euler spiral)
 The rail gauge used on the Haramain and most of the world's railways. :: 1,435 mm (standard gauge)
 The raised outer rail on a railway curve. :: Cant (superelevation)
-The crushed stone that supports railway sleepers. :: Ballast
 Track built on concrete slabs without ballast. :: Slab track (ballastless track)
 The term for continuous welded rail stress caused by heat. :: Thermal stress (rail buckling)
 The traffic flow model with a linear speed–density relationship. :: Greenshields model
@@ -380,11 +411,8 @@ In the Greenshields model, maximum flow occurs at this fraction of jam density. 
 The traffic wave theory treating flow as a fluid. :: Lighthill–Whitham–Richards (LWR) model
 The car-following model where drivers react to the vehicle ahead. :: Car-following (e.g. Gipps) model
 The delay formula for signalised intersections from the 1950s. :: Webster's delay formula
-The signal phase interval between green and red. :: Yellow (amber) change interval
-The volume-to-capacity ratio at which a road is at capacity. :: 1.0
 The pavement design method from the AASHO road test of the 1950s. :: AASHTO 1993 (empirical) method
 The mechanistic-empirical pavement design guide is abbreviated this. :: MEPDG
-The fourth power law of pavement damage says damage rises with axle load to this power. :: Fourth
 The binder grade PG 76-10 is commonly used in Saudi Arabia because of this. :: High pavement temperatures
 The device dragged behind a truck that measures pavement deflection with a falling weight. :: FWD (falling weight deflectometer)
 The polymer often added to bitumen to improve rutting resistance. :: SBS (styrene–butadiene–styrene)
@@ -401,25 +429,36 @@ The approach to fire design that uses calculated fire behaviour instead of presc
 The intumescent paint on steel does this in a fire. :: Swells into an insulating char
 Steel loses about half its strength at this temperature. :: About 550 to 600 °C
 The life-cycle metric for embodied carbon of materials. :: kg CO₂e (embodied carbon)
-The US green building rating system. :: LEED
 The Saudi building sustainability rating system launched by the government. :: Mostadam
 The laser scanning method that maps terrain from aircraft or drones. :: LiDAR
 The map projection used for most national grids, in 6° zones. :: UTM (Universal Transverse Mercator)
 The surface close to mean sea level used as the reference for heights. :: Geoid
 GNSS heights are measured above this smooth mathematical surface. :: Ellipsoid
-The difference between ellipsoidal height and height above the geoid. :: Geoid undulation (geoid height)
 The GNSS technique that gives centimetre accuracy in real time using a base station. :: RTK (real-time kinematic)
 The reference ellipsoid and datum used by GPS. :: WGS 84
-Water rising to the surface of freshly placed concrete. :: Bleeding
-Coarse aggregate separating from the mortar in fresh concrete. :: Segregation
 Voids in hardened concrete caused by poor compaction. :: Honeycombing
 Thick concrete pours that need heat control to avoid cracking. :: Mass concrete
 Ultra-high-performance concrete has compressive strength above about this. :: 150 MPa
 The low-carbon cement blend made with calcined clay and limestone. :: LC3 (limestone calcined clay cement)
-Mass concrete specifications often limit the core-to-surface temperature difference to about this. :: 20 °C
+How many reactions (forces and moments) does this support provide in a 2D problem? {img:support-fixed.svg} :: Three (two forces and a moment)
+In ACI 318, a section is tension-controlled when the net tensile strain in the extreme steel reaches at least this value. :: 0.005
+The strut-and-tie method is used in these zones, near loads and openings, where plane sections do not stay plane. :: D-regions (disturbed regions)
+The theoretical effective length factor K for a column fixed at both ends. :: 0.5
+The failure in which an unbraced steel beam's compression flange moves sideways and the section twists. :: Lateral-torsional buckling
+The bolted steel joint that carries load by friction from bolt pretension, so it does not slip in service. :: Slip-critical connection
+The method that estimates footing settlement on sand from CPT data using strain influence factors. :: Schmertmann's method
+The influence chart, based on Boussinesq, for finding vertical stress under a loaded area of any shape. :: Newmark's chart
+The engineer who first solved stresses and deflections in a two-layer elastic pavement system in 1943. :: Donald Burmister
+The classic equations for stresses in concrete pavement slabs at interior, edge and corner loading. :: Westergaard's equations
+The late formation of this sulfate mineral can expand and crack concrete that was cured too hot. :: Ettringite (delayed ettringite formation)
+The scheduling method for repetitive work, such as high-rise floors or pipelines, that plots progress rate as sloped lines. :: Line of balance (linear scheduling)
+The time an activity can slip without delaying the early start of any following activity. :: Free float
+The large pendulum or mass device, like the 660-tonne ball in Taipei 101, that reduces wind sway. :: Tuned mass damper
+The iterative 1936 method for balancing flows in looped water pipe networks by loop corrections. :: Hardy Cross method
+In a settling tank, the flow rate divided by the surface area, which sets the smallest particle fully removed. :: Overflow rate (surface loading rate)
+The steel connection failure where a block of plate tears out along a shear plane and a tension plane. :: Block shear
 Name this type of truss: its diagonals slope down towards the middle of the span. {img:truss-pratt.svg} :: Pratt truss
 Name this type of truss: its diagonals slope up towards the middle of the span. {img:truss-howe.svg} :: Howe truss
-How many reactions (forces and moments) does this support provide in a 2D problem? {img:support-fixed.svg} :: Three (two forces and a moment)
 
 ## 500
 The English engineer who first called himself a 'civil engineer' and founded the first engineering society in 1771. :: John Smeaton
@@ -435,60 +474,37 @@ The Eiffel Tower was built for the World's Fair in this year. :: 1889
 The 1883 bridge in New York built by John and Washington Roebling. :: Brooklyn Bridge
 The engineer's wife who managed the Brooklyn Bridge project when her husband fell ill. :: Emily Warren Roebling
 The illness that struck Washington Roebling and many workers in the bridge caissons. :: Decompression sickness (caisson disease)
-The Scottish railway bridge that collapsed in a storm in 1879. :: Tay Bridge
 The cantilever bridge in Scotland built after the Tay Bridge disaster, opened in 1890. :: Forth Bridge
-The Canadian bridge that collapsed in 1907 during construction, killing 75 workers. :: Quebec Bridge
 Canadian engineers wear an iron ring, reputedly linked to this disaster. :: Quebec Bridge collapse
 The 1981 walkway collapse at the Hyatt Regency hotel happened in this US city. :: Kansas City
 The Hyatt walkway failure was caused by a change in this detail. :: Hanger rod connection
-The 1968 London tower block partly collapsed by a gas explosion, leading to rules on progressive collapse. :: Ronan Point
-The 2018 bridge collapse in Genoa, Italy. :: Morandi Bridge (Ponte Morandi)
-The 2017 London tower fire that led to new cladding rules. :: Grenfell Tower
-The world's longest-span suspension bridge, opened in Turkey in 2022. :: 1915 Çanakkale Bridge
-The main span of the 1915 Çanakkale Bridge, in metres. :: 2,023 m
-The Japanese bridge that held the longest-span record from 1998 to 2022. :: Akashi Kaikyō Bridge
-The 55 km bridge–tunnel linking Hong Kong, Zhuhai and this city. :: Macau
 The longest railway tunnel in the world, under the Swiss Alps. :: Gotthard Base Tunnel
 The undersea railway tunnel between England and France, opened in 1994. :: Channel Tunnel
-The Pantheon's concrete dome gets lighter towards the top by using this volcanic aggregate. :: Pumice
-The Roman engineer whose De Architectura said buildings need firmness, usefulness and this. :: Beauty (venustas)
 The Ottoman architect who built the Süleymaniye Mosque in Istanbul. :: Mimar Sinan
-The Great Mosque of Samarra's famous spiral minaret is called this. :: Malwiya
 The 7th-century dam in the Taif region with an inscription from the time of the caliph Muawiya ﵁. :: Saysad Dam
-The ancient dam in Yemen whose collapse is mentioned in the Qur'an. :: Ma'rib Dam
 The Nabataean site in Saudi Arabia with tombs carved into sandstone. :: Hegra (Al-Hijr)
 The old mud-brick capital of the first Saudi state, a UNESCO site. :: At-Turaif (Diriyah)
 The traditional building material of Najd, sun-dried mud brick. :: Adobe (libn)
 The coral stone and wooden 'rawashin' are typical of this historic Jeddah district. :: Al-Balad
 The Riyadh landmark tower with a 'bridge' at the top. :: Kingdom Centre
 The Riyadh tower designed by Norman Foster, completed in 2000. :: Al Faisaliah Tower
-The engineering firm that designed the Burj Khalifa's structure. :: Skidmore, Owings & Merrill (SOM)
-The structural engineer who led Burj Khalifa's design at SOM. :: Bill Baker
-The height of the Burj Khalifa, to the nearest metre. :: 828 m
-The Jeddah Tower is designed to be at least this tall. :: 1,000 m (1 km)
-The architect of the Jeddah Tower, who also designed the Burj Khalifa's architecture with SOM. :: Adrian Smith
 The number of lines in the Riyadh Metro. :: Six
 The total length of the Riyadh Metro network, roughly. :: About 176 km
 The year the Riyadh Metro opened to passengers. :: 2024
 The top operating speed of the Haramain High-Speed Railway. :: 300 km/h
-The length of the Haramain High-Speed Railway, roughly. :: About 450 km
 The Saudi railway linking Riyadh to the northern phosphate and border region. :: North–South Railway
 The planned railway linking the Red Sea and the Gulf across Saudi Arabia. :: Saudi Landbridge
 The width of The Line at NEOM, as planned. :: 200 m
 The planned height of The Line, as first announced. :: 500 m
 The NEOM project of floating industrial city in Tabuk province. :: Oxagon
-The NEOM mountain resort that is to host the 2029 Asian Winter Games. :: Trojena
 The Riyadh park project planned as one of the world's largest city parks. :: King Salman Park
 The Saudi project to build a giant cube-shaped skyscraper in Riyadh. :: Mukaab
 The Expo that Riyadh will host. :: Expo 2030
 The Riyadh stadium planned for the 2034 World Cup opening match and final. :: King Salman International Stadium
-The huge expansion project around the Grand Mosque in Makkah. :: Third Saudi Expansion
-The tensile fabric roof terminal at Jeddah airport designed for pilgrims, completed in 1981. :: Hajj Terminal
 The engineer who designed the Hajj Terminal roof with SOM. :: Fazlur Rahman Khan
 The pedestrian bridge in Mina built to ease crowd flow at the Jamarat. :: Jamarat Bridge
 The number of floors in the Jamarat Bridge building, including the ground. :: Five
 The Saudi rail line linking Makkah's holy sites during Hajj. :: Al Mashaaer Al Mugaddassah Metro
-The ancient wells and channels used to bring water to Makkah, built by Zubaida. :: Ain Zubaida (Zubaida's spring)
 The wife of Harun al-Rashid who funded the pilgrim road from Kufa to Makkah. :: Zubaida bint Ja'far
 The 1,400 km pilgrim road from Kufa to Makkah named after her. :: Darb Zubaida
 The 1908 railway from Damascus to Madinah. :: Hejaz Railway
@@ -522,6 +538,29 @@ Saudi Arabia's East–West crude pipeline runs from Abqaiq to this Red Sea port.
 The Panama Canal opened in this year. :: 1914
 The main span of the Brooklyn Bridge, roughly. :: About 486 m
 The Eiffel Tower's original height, roughly. :: About 300 m
+In plastic analysis of slabs, the yield line method gives this kind of bound on the collapse load. :: Upper bound (unsafe)
+The strut-and-tie method gives this kind of bound on strength, provided the ties are ductile. :: Lower bound (safe)
+The ratio of plastic to elastic section modulus for a solid rectangular section. :: 1.5
+The column formula that combines yielding and elastic buckling through an assumed initial imperfection. :: Perry–Robertson formula
+In an ASCE 7 design spectrum, the period S_D1/S_DS at which the constant-acceleration plateau ends. :: Ts
+The ASCE 7 seismic factor that multiplies elastic drift to estimate the real inelastic drift. :: Cd (deflection amplification factor)
+The modal combination rule preferred over SRSS when two mode frequencies are close together. :: CQC (complete quadratic combination)
+The pile shaft friction method for clay by Vijayvergiya and Focht that mixes effective and undrained stresses. :: Lambda method
+The nonlinear soil springs used to analyse laterally loaded piles. :: p–y curves
+The Superpave binder test that loads a small beam at low temperature to check thermal cracking. :: Bending beam rheometer (BBR)
+The Norwegian rock mass index calculated from RQD, joint sets, roughness, alteration, water and stress. :: Q-system (Barton)
+In Webster's optimum cycle formula C0 = (1.5L + 5)/(1 − Y), the quantity L. :: Total lost time per cycle
+Wardrop's second principle, where total travel time across the network is minimised. :: System optimum
+The mode choice model built on random utilities with Gumbel-distributed errors. :: Multinomial logit model
+The disinfection law saying that kill rate depends on disinfectant concentration and contact time. :: Chick–Watson law
+The equation linking bacterial growth rate to substrate concentration, used in activated sludge design. :: Monod equation
+The equation for the dissolved-oxygen sag curve in a river below a sewage outfall. :: Streeter–Phelps equation
+The flood routing method for river reaches with storage S = K[xI + (1 − x)O]. :: Muskingum method
+The empirical rock mass failure criterion using the parameters mb, s and a. :: Hoek–Brown criterion
+The scale factor on the central meridian of each UTM zone. :: 0.9996
+Chloride ingress into concrete, used to predict when rebar starts to corrode, is usually modelled with this law. :: Fick's second law of diffusion
+The Toronto researchers whose modified compression field theory underlies the general shear method in codes. :: Vecchio and Collins
+The legal rule that an owner who causes delay cannot hold the contractor to the original completion date. :: Prevention principle
 This bending moment diagram is for a simply supported beam. What loading gives a triangle that peaks at midspan? {img:bmd-point.svg} :: A single point load at midspan (largest moment PL/4)
 A simply supported beam has this parabolic bending moment diagram. What loading causes it? {img:bmd-udl.svg} :: A uniformly distributed load (largest moment wL²/8)
 Name this graphical method for finding principal stresses σ₁ and σ₂. {img:mohr-circle.svg} :: Mohr's circle

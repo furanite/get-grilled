@@ -106,6 +106,14 @@ The person who writes a will. :: The testator
 Handing property to someone free of charge during one's lifetime. :: A gift (hibah)
 Keeping one's own information private. :: Privacy
 A law's official number and date are found in this government publication in Saudi Arabia. :: Umm al-Qura (the official gazette)
+Latin: "Each one", used to divide equally per person. :: Per capita
+Latin: "By the year", yearly. :: Per annum
+Latin: "And the rest". :: Et cetera
+The English judge famous for "Lord Denning MR" rulings. :: Lord Denning
+The Saudi equivalent of the official gazette. :: Umm al-Qura
+The Arabic legal term for a ruling that is obligatory. :: Wajib (fard)
+The Arabic legal term for a ruling that is disliked. :: Makruh
+The Arabic legal term for a ruling that is forbidden. :: Haram (mahzur)
 
 ## 200
 Latin: "You shall have the body", the right to challenge unlawful detention. :: Habeas corpus
@@ -136,35 +144,30 @@ Latin: "A person not welcome". :: Persona non grata
 Latin: "Agreements must be kept". :: Pacta sunt servanda
 Latin: "Who will guard the guards?" :: Quis custodiet ipsos custodes
 Latin: "Ignorance of the law is no excuse". :: Ignorantia juris non excusat
-Latin: "Let justice be done though the heavens fall". :: Fiat justitia ruat caelum
-Latin: "The safety of the people is the supreme law". :: Salus populi suprema lex esto
 Latin: "Hear the other side". :: Audi alteram partem
 Latin: "No one should be a judge in his own cause". :: Nemo judex in causa sua
 Latin: "Before the war", used for earlier conditions. :: Status quo ante bellum
-Latin: a case dismissed "with prejudice" means this. :: Can't be brought again
+A case dismissed "with prejudice" means this. :: Can't be brought again
 Latin: "On the face of it", at first sight. :: Prima facie
 Latin: "From the beginning". :: Ab initio
 Latin: "For the time being". :: Pro tempore (pro tem)
 Latin: "For the good", free legal work. :: Pro bono
 Latin: "Under the rule", a matter before a court. :: Sub judice
 Latin: "Of one's own right", the right to represent oneself. :: Sui juris
-Latin: "A written order", like a court command. :: A writ
+The legal term for a formal written court order telling someone to do or stop doing something. :: A writ
 Latin: "Under penalty", an order to bring evidence. :: Subpoena
 Latin: "We command", an order to an official to act. :: Mandamus
-Latin: "Necessity knows no law". :: Necessitas non habet legem
 Latin: "To be more fully informed", a writ of review. :: Certiorari
 Latin: "Of its own kind", unique. :: Sui generis
-Latin: "Things remaining as they are". :: Rebus sic stantibus
 Latin: "The law of nations". :: Jus gentium
 Latin: "Law about going to war". :: Jus ad bellum
 Latin: "Law in war". :: Jus in bello
 Latin: "Compelling law" from which no exception is allowed. :: Jus cogens
 Latin: "The land belonged to no one". :: Terra nullius
-Latin: "As you possess", used for borders. :: Uti possidetis
 Latin: "Towards all", obligations owed to everyone. :: Erga omnes
 French legal term: "an accomplished fact". :: Fait accompli
 French legal term "force majeure" means this. :: Superior force (an event beyond control)
-French legal term for a cancelled marriage. :: Annulment
+The legal term for declaring a marriage void, as if it never existed. :: Annulment
 The Arabic legal maxim "No harm and no reciprocating harm". :: La darar wa la dirar
 The Arabic legal maxim "Custom is given legal weight". :: Al-'adah muhakkamah
 The Arabic legal maxim "Necessities permit prohibitions". :: Al-darurat tubih al-mahzurat
@@ -186,8 +189,6 @@ The Arabic legal term for a judge's discretionary punishment. :: Ta'zir
 The Arabic legal term for retaliation. :: Qisas
 The Arabic legal term for blood money. :: Diyah
 The Arabic legal term for compensation for damage. :: Ta'wid (daman)
-The Arabic legal term for a legal capacity to have rights. :: Ahliyyat al-wujub
-The Arabic legal term for capacity to act. :: Ahliyyat al-ada'
 The Arabic legal term for a legal entity. :: Shakhsiyyah i'tibariyyah
 The Arabic legal term for a contract of sale. :: Bay'
 The Arabic legal term for lease. :: Ijarah
@@ -205,9 +206,34 @@ The Arabic legal term for jurisdiction. :: Ikhtisas
 The Arabic legal term for a legal deadline. :: Mi'ad (muhlah)
 The Arabic legal term for a hearing session. :: Jalsah
 The Arabic legal term for the official court record. :: Mahdar (dabt)
-Latin: "Each one", used to divide equally per person. :: Per capita
-Latin: "By the year", yearly. :: Per annum
-Latin: "And the rest". :: Et cetera
+The US Supreme Court has this many justices. :: Nine
+The three branches of government. :: Legislative, executive and judicial
+The legal principle that everyone is under the law. :: The rule of law
+The Saudi legislative advisory body. :: The Shura Council
+Saudi laws are issued by this instrument. :: A royal decree
+The Arabic legal term for a power of attorney. :: Wakalah
+The legal term for a person who holds property for another's benefit. :: A trustee
+The Islamic institution often compared to the trust. :: Waqf
+The person who sets up a waqf. :: Waqif
+The legal term for an official forgiveness of a group of offenders. :: Amnesty
+The Arabic legal term for maintenance. :: Nafaqah
+The Arabic legal term for custody of a young child. :: Hadanah
+The Arabic legal term for a witness's testimony. :: Shahadah
+The English legal saying "an Englishman's home is his ___". :: Castle
+The 1215 charter that limited the English king's power. :: Magna Carta
+The US amendment on freedom of speech and religion. :: The First Amendment
+The Code of Hammurabi came from this ancient kingdom. :: Babylon
+The Arabic legal term for a ruling that is recommended. :: Mandub (mustahabb)
+The Arabic legal term for a ruling that is permitted. :: Mubah
+The Arabic legal term for a valid act. :: Sahih
+The Arabic legal term for a void act. :: Batil
+The Arabic legal term for a command. :: Amr
+The Arabic legal term for a prohibition. :: Nahy
+The Arabic legal term for the Supreme Court. :: Al-Mahkamah al-'Ulya
+The Arabic legal term for the Court of Appeal. :: Mahkamat al-Isti'naf
+The Saudi Ministry of Justice's electronic court system. :: Najiz
+The term for legal rules that come from religion. :: Religious law
+The hadith "Delay by a rich person in paying a debt is ___". :: Injustice (zulm)
 
 ## 300
 The legal term for a person who brings an appeal. :: The appellant
@@ -266,16 +292,13 @@ The formal title for a senior barrister in England. :: King's Counsel (KC)
 A judge in the English High Court is addressed as this. :: My Lord (or My Lady)
 The chief judge of England and Wales. :: The Lady (or Lord) Chief Justice
 The head of the US Supreme Court. :: The Chief Justice
-The US Supreme Court has this many justices. :: Nine
 The written opinion of a judge who disagrees with the majority. :: A dissenting opinion
 A judge's opinion that agrees with the result but not the reasons. :: A concurring opinion
 The legal term for a court's power to review laws against the constitution. :: Judicial review
 The US case that set up judicial review in 1803. :: Marbury v Madison
 The legal term for separation of government into three branches. :: Separation of powers
-The three branches of government. :: Legislative, executive and judicial
 The French thinker who wrote "The Spirit of the Laws" on separation of powers. :: Montesquieu
 The English thinker who wrote "Two Treatises of Government". :: John Locke
-The legal principle that everyone is under the law. :: The rule of law
 The British jurist who described the rule of law in 1885. :: A. V. Dicey
 The legal theory that law is what a sovereign commands. :: Legal positivism
 The legal theory that law must follow moral principles. :: Natural law
@@ -287,12 +310,7 @@ The legal theory that law is what judges actually do. :: Legal realism
 The American judge who said "The life of the law has not been logic: it has been experience". :: Oliver Wendell Holmes Jr.
 The English judge who created the "neighbour principle" in negligence. :: Lord Atkin
 The famous case of a snail in a ginger beer bottle. :: Donoghue v Stevenson (1932)
-Donoghue v Stevenson happened in this Scottish town. :: Paisley
-The English judge famous for "Lord Denning MR" rulings. :: Lord Denning
-The Saudi equivalent of the official gazette. :: Umm al-Qura
 The Saudi body that reviews draft laws before the Council of Ministers. :: The Bureau of Experts at the Council of Ministers
-The Saudi legislative advisory body. :: The Shura Council
-Saudi laws are issued by this instrument. :: A royal decree
 The Saudi platform that publishes laws and regulations. :: The Laws and Regulations portal (Bureau of Experts)
 The Saudi platform for public consultation on draft laws. :: Istitlaa
 The Arabic legal term for an implementing regulation. :: La'ihah tanfidhiyyah
@@ -302,7 +320,6 @@ The Arabic legal term for a circular. :: Ta'mim
 The Arabic legal term for a judicial principle. :: Mabda' qada'i
 The Arabic legal term for a claim statement. :: Sahifat al-da'wa
 The Arabic legal term for a defence memorandum. :: Mudhakkirat al-difa'
-The Arabic legal term for a power of attorney. :: Wakalah
 The Arabic legal term for an attestation of inheritance. :: Sakk hasr al-wirathah
 The Saudi document that lists the legal heirs. :: Sakk hasr al-wirathah (heirs' deed)
 The Saudi deed of ownership of land is called this. :: Sakk (title deed)
@@ -310,6 +327,19 @@ The legal term for a written law's short official name. :: Its short title
 The legal term for the part of a law that defines words. :: The definitions (interpretation) section
 The legal term for the opening part of a law that states its aims. :: The preamble
 The legal term for a law's clause that ends it after a time unless renewed. :: A sunset clause
+The US Bill of Rights is the first this many amendments. :: Ten
+The US amendment against self-incrimination. :: The Fifth Amendment
+The US case that ended school segregation. :: Brown v Board of Education (1954)
+The Islamic legal term for the "objectives of Sharia". :: Maqasid al-Shari'ah
+The five essentials protected by maqasid: religion, life, intellect, lineage and this. :: Property
+The five rulings together are called this. :: Al-ahkam al-khamsah (al-ahkam al-taklifiyyah)
+The Arabic legal term for a concession, such as shortening prayer while travelling. :: Rukhsah
+The Arabic legal term for a legally responsible person. :: Mukallaf
+The Arabic legal term for an obligation on everyone individually. :: Fard 'ayn
+The Arabic legal term for an obligation on the community as a whole. :: Fard kifayah
+The verse "Do not say 'uff' to them" shows by a fortiori that this is forbidden. :: Hitting parents (any harm to them)
+The legal term "fatwa" differs from "qada'" because a fatwa is this. :: Not binding (it informs; a judgment binds)
+The Saudi platform that issues electronic powers of attorney. :: Najiz
 
 ## 400
 The legal term "estoppel" means this. :: A party is stopped from denying what it said or did before
@@ -318,12 +348,9 @@ The legal maxim of equity: "He who comes to equity must come with ___". :: Clean
 The legal maxim of equity: "Equity follows ___". :: The law
 The legal maxim of equity: "Delay defeats ___". :: Equity
 The legal maxim of equity: "Equity looks on that as done which ought to be ___". :: Done
-The legal term for a person who holds property for another's benefit. :: A trustee
 The legal term for a trust created by a court to prevent unfairness. :: A constructive trust
 The English court that once dealt with equity cases. :: The Court of Chancery
 The English laws of 1873-75 that merged the courts of law and equity. :: The Judicature Acts
-The Islamic institution often compared to the trust. :: Waqf
-The person who sets up a waqf. :: Waqif
 The manager of a waqf. :: Nazir (mutawalli)
 A waqf for family members. :: Waqf ahli (dhurri)
 A waqf for charity. :: Waqf khayri
@@ -342,7 +369,6 @@ The legal term for joint owners with separate shares. :: Tenants in common
 The legal term for a court's right to declare what the law is in a dispute. :: A declaratory judgment
 The legal term for an order to stop a lower court from acting beyond its power. :: Prohibition
 The legal term for a pardon from a head of state. :: Clemency
-The legal term for an official forgiveness of a group of offenders. :: Amnesty
 The legal term for delaying a sentence. :: A reprieve (stay)
 The legal term for forgiving a debt. :: Waiver (release, ibra')
 The Arabic legal term for releasing a debtor from debt. :: Ibra'
@@ -363,8 +389,6 @@ The Arabic legal term for the waiting period of a widow. :: 'Iddat al-wafat
 The Arabic legal term for a revocable divorce. :: Talaq raj'i
 The Arabic legal term for an irrevocable divorce. :: Talaq ba'in
 The Arabic legal term for a court divorce at the wife's request for harm. :: Faskh (tafriq lil-darar)
-The Arabic legal term for maintenance. :: Nafaqah
-The Arabic legal term for custody of a young child. :: Hadanah
 The Arabic legal term for guardianship over a minor's property. :: Wilayat al-mal
 The Arabic legal term for a guardian appointed by a will. :: Wasi
 The Arabic legal term for the share fixed in the Quran for an heir. :: Fard
@@ -381,7 +405,6 @@ Under the Saudi Enforcement Law, an "enforcement deed" includes judgments, chequ
 The Arabic legal term for an injunction. :: Amr qada'i (ijra' waqti)
 The Arabic legal term for a temporary measure. :: Ijra' waqti (urgent measure)
 The Arabic legal term for an expert's report. :: Taqrir al-khabir
-The Arabic legal term for a witness's testimony. :: Shahadah
 The Arabic legal term for witnesses' reliability. :: 'Adalah
 The process of checking witnesses' reliability. :: Tazkiyah
 The Arabic legal term for refusing to take an oath. :: Nukul
@@ -400,7 +423,6 @@ The legal term for a government decision that is unreasonable to a high degree. 
 The English case of 1948 that set the unreasonableness test. :: Associated Provincial Picture Houses v Wednesbury Corporation
 The legal term for a reasonable expectation that a public body will keep a promise. :: Legitimate expectation
 The three grounds of judicial review in the GCHQ case: illegality, irrationality and this. :: Procedural impropriety
-The GCHQ case was decided in this year. :: 1984
 The English law term for a fair hearing rule. :: Natural justice
 The French highest administrative court. :: The Conseil d'État
 The French highest court for civil and criminal cases. :: The Cour de cassation
@@ -409,9 +431,17 @@ The French legal term "jurisprudence" means this. :: Case law
 The German legal term "Rechtsstaat" means this. :: The rule of law state
 The German term for the constitution of 1949. :: The Grundgesetz (Basic Law)
 The German Federal Constitutional Court is in this city. :: Karlsruhe
-The legal term for an independent official who handles public complaints against government bodies. :: An ombudsman
+Latin: a hearing held "in the chamber", in private, with the public excluded. :: In camera
 The legal term for the US Supreme Court's order agreeing to hear a case. :: A writ of certiorari
 The legal term for a law that stays in force even though no one uses it. :: A dead letter
+Latin: "Let justice be done though the heavens fall". :: Fiat justitia ruat caelum
+Latin: "The safety of the people is the supreme law". :: Salus populi suprema lex esto
+Latin: "Necessity knows no law". :: Necessitas non habet legem
+Latin: "Things remaining as they are". :: Rebus sic stantibus
+Latin: "As you possess", used for borders. :: Uti possidetis
+The Arabic legal term for a legal capacity to have rights. :: Ahliyyat al-wujub
+The Arabic legal term for capacity to act. :: Ahliyyat al-ada'
+Latin: "To a willing person, no injury is done", a defence in tort. :: Volenti non fit injuria
 
 ## 500
 The Roman law term for a contract formed by words in question and answer. :: Stipulatio
@@ -425,46 +455,25 @@ The medieval Italian law school that revived Roman law. :: Bologna
 The medieval scholar who wrote notes (glosses) on Roman law in Bologna. :: Accursius (the Glossators)
 The English book "Commentaries on the Laws of England" was written by this jurist. :: William Blackstone
 The "Blackstone ratio": better that this many guilty go free than one innocent suffer. :: Ten
-The English legal saying "an Englishman's home is his ___". :: Castle
 The English case of 1765 against general warrants by the King's messengers. :: Entick v Carrington
-The 1215 charter that limited the English king's power. :: Magna Carta
 The English Bill of Rights was passed in this year. :: 1689
-The US Bill of Rights is the first this many amendments. :: Ten
-The US amendment against self-incrimination. :: The Fifth Amendment
-The US amendment on freedom of speech and religion. :: The First Amendment
 The US amendment on search and seizure. :: The Fourth Amendment
 The US amendment on equal protection, passed after the Civil War. :: The Fourteenth Amendment
-The US case that ended school segregation. :: Brown v Board of Education (1954)
-The Code of Hammurabi came from this ancient kingdom. :: Babylon
 The Code of Hammurabi was carved on a stone pillar called this. :: A stele
 The Hammurabi stele is now kept in this museum. :: The Louvre
 The Code of Hammurabi has about this many laws. :: 282
 The earliest known law code, older than Hammurabi's. :: The Code of Ur-Nammu
 The Ur-Nammu code came from this ancient city. :: Ur
-The Islamic legal term for the "objectives of Sharia". :: Maqasid al-Shari'ah
-The five essentials protected by maqasid: religion, life, intellect, lineage and this. :: Property
 The Arabic legal term for a judge's personal opinion based on fairness. :: Istihsan
 The Arabic legal term for blocking means to harm. :: Sadd al-dhara'i'
 The Arabic legal term for presuming continuity. :: Istishab
 The Arabic legal term for the reason behind a ruling used in analogy. :: 'Illah
 The Arabic legal term for the original case in analogy. :: Asl
 The Arabic legal term for the new case in analogy. :: Far'
-The Arabic legal term for a ruling that is obligatory. :: Wajib (fard)
-The Arabic legal term for a ruling that is recommended. :: Mandub (mustahabb)
-The Arabic legal term for a ruling that is permitted. :: Mubah
-The Arabic legal term for a ruling that is disliked. :: Makruh
-The Arabic legal term for a ruling that is forbidden. :: Haram (mahzur)
-The five rulings together are called this. :: Al-ahkam al-khamsah (al-ahkam al-taklifiyyah)
 The Arabic legal term for rulings about conditions, causes and barriers. :: Al-ahkam al-wad'iyyah
-The Arabic legal term for a concession, such as shortening prayer while travelling. :: Rukhsah
 The Arabic legal term for the original strict rule. :: 'Azimah
-The Arabic legal term for a valid act. :: Sahih
-The Arabic legal term for a void act. :: Batil
 The Hanafi legal term for a defective but not void act. :: Fasid
-The Arabic legal term for a legally responsible person. :: Mukallaf
 The Arabic legal term for legal responsibility. :: Taklif
-The Arabic legal term for an obligation on everyone individually. :: Fard 'ayn
-The Arabic legal term for an obligation on the community as a whole. :: Fard kifayah
 The Arabic legal term for a ruling from a clear text. :: Mansus
 The Arabic legal term for a matter that has no text. :: Maskut 'anhu
 The Arabic legal term for the apparent meaning. :: Zahir
@@ -473,37 +482,28 @@ The Arabic legal term for a general word. :: 'Amm
 The Arabic legal term for a specific word. :: Khass
 The Arabic legal term for an absolute word. :: Mutlaq
 The Arabic legal term for a qualified word. :: Muqayyad
-The Arabic legal term for a command. :: Amr
-The Arabic legal term for a prohibition. :: Nahy
 The Arabic legal term for the implied meaning of a text. :: Mafhum
 The Arabic legal term for the explicit meaning of a text. :: Mantuq
 The Arabic legal term for the opposite implied meaning. :: Mafhum al-mukhalafah
 The Arabic legal term for the stronger implied meaning (a fortiori). :: Mafhum al-muwafaqah
-The verse "Do not say 'uff' to them" shows by a fortiori that this is forbidden. :: Hitting parents (any harm to them)
 The Arabic legal term for preferring one evidence over another. :: Tarjih
 The Arabic legal term for reconciling two texts. :: Al-jam' (jam' bayn al-adillah)
 The Arabic legal term for a scholar's preferred view in a school. :: Al-mu'tamad (al-rajih)
 The Hanbali term for the school's main view. :: Al-madhhab
 The Shafi'i term for a stronger view of al-Shafi'i ﵀ himself. :: Al-azhar (or al-mashhur)
 The Hanafi term for a book of fatwas that settled rulings. :: Kutub al-fatawa
-The legal term "fatwa" differs from "qada'" because a fatwa is this. :: Not binding (it informs; a judgment binds)
 The Arabic legal term for a judge's appointment letter in early Islam. :: 'Ahd (letter of appointment)
 The Arabic legal term for the chief judge. :: Qadi al-qudat
 The Arabic legal term for the public prosecutor in Saudi Arabia. :: Al-Na'ib al-'Amm
 The Arabic legal term for the Board of Grievances. :: Diwan al-Mazalim
-The Arabic legal term for the Supreme Court. :: Al-Mahkamah al-'Ulya
-The Arabic legal term for the Court of Appeal. :: Mahkamat al-Isti'naf
 The Arabic legal term for the court of first instance. :: Al-mahkamah al-ibtida'iyyah
 The Arabic legal term for the personal status court. :: Mahkamat al-ahwal al-shakhsiyyah
 The Arabic legal term for the enforcement court. :: Mahkamat al-tanfidh
 The Arabic legal term for a notary in Saudi Arabia. :: Kitabat al-'adl (now licensed notaries)
 The Saudi system of licensed private notaries started in this year. :: 2018
 The Arabic legal term for a family's reconciliation office in court. :: Maktab al-sulh (reconciliation office)
-The Saudi platform that issues electronic powers of attorney. :: Najiz
-The Saudi Ministry of Justice's electronic court system. :: Najiz
 The Saudi "Taradhi" platform is for this. :: Online amicable settlement
 The term for a legal system that mixes several sources, such as Islamic law and civil law. :: A mixed (hybrid) legal system
-The term for legal rules that come from religion. :: Religious law
 The term for legal rules developed by communities without the state. :: Customary law
 The Arabic term for tribal customary law. :: 'Urf (al-'urf al-qabali)
 The Arabic legal term for a custodian who holds disputed property until judgment. :: 'Adl (or haris qada'i)
@@ -512,8 +512,38 @@ The Arabic legal term for bankruptcy in classical fiqh. :: Iflas (taflis)
 The Arabic legal term for a debtor's being barred from his property. :: Hajr
 The Arabic legal term for a debtor who can't pay. :: Mu'sir
 The Quran verse that tells creditors to give a debtor in hardship time is in this surah. :: Surat al-Baqarah (verse 280)
-The hadith "Delay by a rich person in paying a debt is ___". :: Injustice (zulm)
 The Arabic legal term for delay in paying debt by a rich person. :: Matl al-ghani
+Donoghue v Stevenson happened in this Scottish town. :: Paisley
+The GCHQ case was decided in this year. :: 1984
+Latin: "A new intervening act" that breaks the chain of causation. :: Novus actus interveniens
+Latin: "No action arises from a disgraceful cause", the illegality defence. :: Ex turpi causa non oritur actio
+Latin maxim of interpretation: a later general law does not override an earlier specific one. :: Generalia specialibus non derogant
+Latin maxim of interpretation: a later law overrides an earlier law that conflicts with it. :: Lex posterior derogat legi priori
+Latin: "No punishment without law", the principle of legality in criminal law. :: Nulla poena sine lege
+Latin: "Not twice for the same thing", the rule against being tried twice. :: Ne bis in idem (non bis in idem)
+The doctrine that applies a charitable gift whose purpose has failed to the nearest similar purpose. :: Cy-près
+The 1868 English case of strict liability after a reservoir burst into a neighbour's mine shafts. :: Rylands v Fletcher
+The Caparo test for a duty of care needs foreseeability of harm, proximity, and that a duty would be this. :: Fair, just and reasonable
+The 1843 English rules on insanity: the accused did not know the nature of the act or that it was wrong. :: The M'Naghten rules
+The test from a 1957 case: a doctor is not negligent if a responsible body of medical opinion would act the same way. :: The Bolam test
+Latin: "Incapable of wrong", the presumption that a young child cannot commit a crime. :: Doli incapax
+The Norman French plea that the accused has already been acquitted of the same offence. :: Autrefois acquit
+The doctrine letting a court decline a case because another country's court is clearly more appropriate. :: Forum non conveniens
+The conflict-of-laws doctrine where the foreign law chosen by the forum's rules refers the case back to the forum. :: Renvoi
+The Latin name for the conflict-of-laws rule that a tort is governed by the law of the place where it happened. :: Lex loci delicti
+The Latin name for the rule that land is governed by the law of the place where it lies. :: Lex situs (lex rei sitae)
+Latin: a decision made "through lack of care", ignoring a binding statute or precedent, which need not be followed. :: Per incuriam
+Latin for an official or arbitrator whose power is spent once the decision has been made. :: Functus officio
+Latin "by what warrant", the writ that challenges a person's right to hold a public office. :: Quo warranto
+An injunction granted to stop a wrong that is threatened but has not yet happened. :: A quia timet injunction
+The English philosopher who coined the words "codification" and "international". :: Jeremy Bentham
+The English jurist who defined law as commands of a sovereign backed by sanctions. :: John Austin
+The American jurist whose "The Morality of Law" set out eight principles of legality. :: Lon L. Fuller
+In Hohfeld's scheme of jural relations, the correlative of a power is this. :: A liability
+The German jurist who founded the historical school, seeing law as an expression of the Volksgeist. :: Friedrich Carl von Savigny
+The 1927 international court case holding that states may act unless a rule of international law forbids it. :: The Lotus case (France v Turkey)
+Latin for deciding a case on what is fair and good, which the ICJ may do only if the parties agree. :: Ex aequo et bono
+Besides state practice, customary international law needs this belief that the practice is legally required. :: Opinio juris
 
 ## translate
 Habeas corpus (Latin) :: You shall have the body

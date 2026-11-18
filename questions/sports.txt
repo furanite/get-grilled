@@ -90,8 +90,6 @@ The sport of lifting heavy barbells. :: Weightlifting
 The winter sport of sliding down snow on two long boards. :: Skiing
 The sport where you climb rock walls, an Olympic sport since 2020. :: Sport climbing
 The board sport of rolling on four wheels, an Olympic sport since 2020. :: Skateboarding
-An ice hockey game has three periods of this many minutes each. :: 20
-The cricket team captain who won India the 2011 World Cup. :: MS Dhoni
 The term for six balls in cricket. :: An over
 The maximum runs from one hit in cricket without overthrows. :: Six
 The sport where 'try' is a score worth five points. :: Rugby union
@@ -101,9 +99,22 @@ The country where judo was invented. :: Japan
 The country where taekwondo was invented. :: South Korea
 The country where cricket was first played in its modern form. :: England
 The country where basketball was invented. :: The United States
-The person who invented basketball in 1891. :: James Naismith
 The sport where you can win by a knockout. :: Boxing
 The equipment that a tennis player hits the ball with. :: Racket
+The event in athletics where you vault over a bar using a long pole. :: Pole vault
+The tennis tournament played on grass in London. :: Wimbledon
+The country that will host the 2026 FIFA World Cup with Canada and Mexico. :: The United States
+The only player to win three World Cups. :: Pelé
+The football term for a goal scored against your own team. :: Own goal
+The marathon distance in kilometres. :: 42.195 km
+The Swiss tennis player who won 20 Grand Slam singles titles. :: Roger Federer
+The tennis player with the most French Open titles. :: Rafael Nadal
+The famous Saudi-hosted horse race first run in 2020. :: Saudi Cup
+The traditional Saudi sword dance performed at festivals. :: Al-Ardah
+The sport of gymnastics on a 10 cm wide beam. :: Balance beam
+The colour of the highest belt in karate and judo. :: Black (with dan grades)
+The famous off-road rally first ran from Paris to this West African capital, which gave the rally its name. :: Dakar
+The famous 'Ali shuffle' was used by this boxer. :: Muhammad Ali
 
 ## 200
 The country that won the first FIFA World Cup in 1930. :: Uruguay
@@ -159,7 +170,6 @@ The record time for the 100 metres set by Usain Bolt in 2009. :: 9.58 seconds
 The athlete who won nine Olympic golds in track and field, from 1984 to 1996. :: Carl Lewis
 The gymnast who scored the first perfect 10 at the Olympics in 1976. :: Nadia Comăneci
 The American gymnast with the most world medals. :: Simone Biles
-The event in athletics where you vault over a bar using a long pole. :: Pole vault
 The Swedish pole vaulter who keeps breaking the world record. :: Armand Duplantis
 The event combining ten track and field events. :: Decathlon
 The event combining seven track and field events for women. :: Heptathlon
@@ -178,7 +188,6 @@ The F1 race held in Bahrain is at this circuit. :: Bahrain International Circuit
 The F1 race in Abu Dhabi is held at this circuit. :: Yas Marina Circuit
 The Saudi Arabian Grand Prix circuit. :: Jeddah Corniche Circuit
 The planned Saudi F1 circuit at Qiddiya near Riyadh. :: Qiddiya Speed Park
-The tennis tournament played on grass in London. :: Wimbledon
 The tennis Grand Slam played in Melbourne. :: Australian Open
 The tennis Grand Slam played in New York. :: US Open
 The colour players must wear at Wimbledon. :: White
@@ -188,7 +197,6 @@ The Tunisian tennis player who reached three Grand Slam finals. :: Ons Jabeur
 The WTA Finals were held in this Saudi city from 2024. :: Riyadh
 The Next Gen ATP Finals were held in this Saudi city from 2023. :: Jeddah
 The basketball player called 'King James'. :: LeBron James
-The NBA player who scored 100 points in one game in 1962. :: Wilt Chamberlain
 The NBA team of Michael Jordan's six titles. :: Chicago Bulls
 The NBA player who became the all-time top scorer in 2023. :: LeBron James
 The basketball shot worth three points is taken from beyond this. :: The three-point line (arc)
@@ -206,6 +214,25 @@ The Saudi-backed golf league launched in 2022. :: LIV Golf
 The famous golfer with 15 major titles. :: Tiger Woods
 The legendary Saudi goalkeeper with over 170 international caps. :: Mohamed Al-Deayea
 The Saudi striker called 'the Arabian Pelé', top scorer in Saudi national team history. :: Majed Abdullah
+The plastic horn famous at the 2010 World Cup. :: Vuvuzela
+The player who headbutted Marco Materazzi in the 2006 final. :: Zinedine Zidane
+The country that beat Brazil 7–1 in the 2014 semi-final. :: Germany
+The first player to win the Ballon d'Or eight times. :: Lionel Messi
+The club with the most Champions League titles. :: Real Madrid
+The boxer called 'Iron Mike'. :: Mike Tyson
+The African club that has won the CAF Champions League a record number of times. :: Al Ahly
+The sport played on horseback with mallets. :: Polo
+The athlete who won Olympic gold in the 100 m, 200 m and 4×100 m relay in three Games in a row. :: Usain Bolt
+The swimmer who won eight golds at the 2008 Olympics. :: Michael Phelps
+The Olympic swimming pool length. :: 50 metres
+The racket sport played with a glass-walled court, popular in Spain and the Gulf. :: Padel
+The American football position that throws most passes. :: Quarterback
+The baseball player who hit 714 home runs and was called 'the Babe'. :: Babe Ruth
+The F1 race known for its tunnel and harbour. :: Monaco Grand Prix
+The player with the most international goals in men's football. :: Cristiano Ronaldo
+The Saudi domestic cup for clubs named after the king. :: King's Cup (Custodian of the Two Holy Mosques Cup)
+The chess move where the king and rook move together. :: Castling
+The city that hosted the first modern Olympic Games in 1896. :: Athens
 
 ## 300
 The year Saudi Arabia won its first AFC Asian Cup. :: 1984
@@ -218,20 +245,14 @@ The Saudi club that won the 2019 AFC Champions League. :: Al-Hilal
 The record number of consecutive wins set by Al-Hilal in 2023, a world record for a top-flight club. :: 34
 The Saudi Pro League top scorer in 2023–24, with 35 goals. :: Cristiano Ronaldo
 The Serbian striker who joined Al-Hilal from Fulham in 2023. :: Aleksandar Mitrović
-The country that will host the 2026 FIFA World Cup with Canada and Mexico. :: The United States
 The number of teams at the 2026 FIFA World Cup. :: 48
 The country that has reached the most World Cup finals. :: Germany
-The only player to win three World Cups. :: Pelé
 The player who has played the most World Cup matches. :: Lionel Messi
 The first World Cup held in Asia, in 2002, was co-hosted by Japan and this country. :: South Korea
 The first World Cup held in Africa was in this year. :: 2010
 The official ball of the 2010 World Cup, criticised for its flight. :: Jabulani
-The plastic horn famous at the 2010 World Cup. :: Vuvuzela
-The player who headbutted Marco Materazzi in the 2006 final. :: Zinedine Zidane
-The country that beat Brazil 7–1 in the 2014 semi-final. :: Germany
 The 'Miracle of Bern' was this country's 1954 World Cup win. :: West Germany
 The 'Maracanazo' was Uruguay's 1950 win over this country. :: Brazil
-The first player to win the Ballon d'Or eight times. :: Lionel Messi
 The first African player to win the Ballon d'Or, in 1995. :: George Weah
 The country George Weah later led as president. :: Liberia
 The Egyptian player who won the African Footballer of the Year twice in a row, in 2017 and 2018. :: Mohamed Salah
@@ -240,15 +261,12 @@ The club that won the 2015–16 Premier League against 5000–1 odds. :: Leicest
 The English club that went unbeaten in the 2003–04 Premier League. :: Arsenal
 The Italian club that won the treble in 2010 under José Mourinho. :: Inter Milan
 The Champions League final comeback in 2005 from 3–0 down at half-time. :: Liverpool v AC Milan (Istanbul)
-The club with the most Champions League titles. :: Real Madrid
 The number of Champions League/European Cup titles Real Madrid has, as of 2025. :: 15
 The trophy for the Champions League is nicknamed this, for its handles. :: Big Ears
 The first club to win the European Cup five times in a row. :: Real Madrid
 The football position also called the 'number 10'. :: Attacking midfielder (playmaker)
 The football formation with four defenders, three midfielders and three forwards. :: 4-3-3
-The football term for a goal scored against your own team. :: Own goal
 The football term for a shot that bends around the wall. :: Curler (bending free kick)
-The marathon distance in kilometres. :: 42.195 km
 The legend behind the marathon is the run from Marathon to this city. :: Athens
 The record for the men's marathon, set by Kelvin Kiptum in 2023, is about this. :: 2:00:35
 The athlete who has won the most Olympic medals in total, 28. :: Michael Phelps
@@ -264,8 +282,6 @@ The Saudi woman who competed in the 800 metres at London 2012. :: Sarah Attar
 The first Saudi woman to climb Mount Everest, in 2013. :: Raha Moharrak
 The first person to climb Mount Everest with Tenzing Norgay, in 1953. :: Edmund Hillary
 The highest mountain in each continent together are called this. :: The Seven Summits
-The Swiss tennis player who won 20 Grand Slam singles titles. :: Roger Federer
-The tennis player with the most French Open titles. :: Rafael Nadal
 The tennis player who won a 'Golden Slam' in 1988. :: Steffi Graf
 The longest tennis match, at Wimbledon 2010, lasted this long. :: 11 hours 5 minutes
 The two players in the longest Wimbledon match. :: John Isner and Nicolas Mahut
@@ -280,7 +296,6 @@ The cricket team that has won the most Cricket World Cups. :: Australia
 The cricket ground called the 'home of cricket'. :: Lord's
 The largest cricket stadium in the world, in India. :: Narendra Modi Stadium
 The Indian T20 league founded in 2008. :: Indian Premier League (IPL)
-The boxer called 'Iron Mike'. :: Mike Tyson
 The boxer who retired unbeaten at 50–0. :: Floyd Mayweather Jr.
 The boxing weight class above cruiserweight. :: Heavyweight
 The mixed martial arts organisation founded in 1993. :: UFC
@@ -295,7 +310,6 @@ The 'Monaco of the Middle East' street circuit hosted the first Saudi F1 race in
 The Qatari driver who has won the Dakar Rally car class five times. :: Nasser Al-Attiyah
 The Saudi driver who won the Dakar Rally car class in 2025. :: Yazeed Al-Rajhi
 The Spanish driver who won the 2024 Dakar Rally at age 61. :: Carlos Sainz Sr.
-The famous Saudi-hosted horse race first run in 2020. :: Saudi Cup
 The racecourse in Riyadh that hosts the Saudi Cup. :: King Abdulaziz Racetrack
 The horse race in Saudi Arabia's Saudi Cup is run on this surface. :: Dirt
 The prize money of the Saudi Cup is about this much. :: About $20 million
@@ -303,11 +317,24 @@ The famous race for Arabian horses' endurance riding, 160 km, popular in the Gul
 The Gulf ruler who won world endurance titles and owns Godolphin. :: Sheikh Mohammed bin Rashid Al Maktoum
 The Saudi camel race festival with the richest camel races, held in Taif. :: Crown Prince Camel Festival
 The tiny robots that ride racing camels in the Gulf instead of children. :: Robot jockeys
-The traditional Saudi sword dance performed at festivals. :: Al-Ardah
 The Saudi Esports World Cup was first held in Riyadh in this year. :: 2024
 The football tournament won by Saudi Arabia's under-23 team in 2022. :: AFC U-23 Asian Cup
 The Argentine coach who led Saudi Arabia at the 1994 World Cup. :: Jorge Solari
 The country that knocked Saudi Arabia out of the 1994 World Cup's round of 16. :: Sweden
+An ice hockey game has three periods of this many minutes each. :: 20
+The cricket team captain who won India the 2011 World Cup. :: MS Dhoni
+The person who invented basketball in 1891. :: James Naismith
+The city where FIFA has its headquarters. :: Zurich
+The country that played in every World Cup. :: Brazil
+The Saudi player who played at four World Cups, from 1994 to 2006. :: Sami Al-Jaber
+The British distance runner who won the 5,000 and 10,000 m at London 2012 and Rio 2016. :: Mo Farah
+The golfer who won the career Grand Slam at 24 in 2000. :: Tiger Woods
+The boxer who was the youngest heavyweight champion, at 20. :: Mike Tyson
+The team that won the first Cricket World Cup, in 1975. :: West Indies
+The Manchester United stadium known as the "Theatre of Dreams". :: Old Trafford
+The country that won Euro 2016, beating hosts France in the final. :: Portugal
+The Tour de France green jersey is awarded for this classification. :: Points classification
+The cricket dismissal when the ball would have hit the stumps but strikes the batter's leg, shortened to three letters. :: LBW (leg before wicket)
 
 ## 400
 The FIFA World Cup winner in 1966, on home soil. :: England
@@ -329,18 +356,15 @@ The German who scored the winner in the 2014 World Cup final. :: Mario Götze
 The English player who scored the most Premier League goals. :: Alan Shearer
 The player who won the Champions League with three different clubs, including Ajax, Real Madrid and Milan. :: Clarence Seedorf
 The manager who won the Champions League a record five times. :: Carlo Ancelotti
-The country whose club competition is the Copa Libertadores. :: South America (CONMEBOL)
+The continent whose top club competition is the Copa Libertadores. :: South America (CONMEBOL)
 The Argentine club whose stadium is La Bombonera. :: Boca Juniors
 The Brazilian stadium that hosted two World Cup finals. :: Maracanã
 The year Al-Hilal reached the FIFA Club World Cup final, losing to Real Madrid. :: 2023 (played in February 2023)
-The African club that has won the CAF Champions League a record number of times. :: Al Ahly
 The Moroccan club that won the 2022 CAF Champions League. :: Wydad AC
 The country that won the 2023 AFC Asian Cup, hosted at home. :: Qatar
 The country that won the 2023 Africa Cup of Nations. :: Côte d'Ivoire
 The Japanese club that won the 2022 AFC Champions League. :: Urawa Red Diamonds
-The sport played on horseback with mallets. :: Polo
 The ancient Persian origin of polo was called this. :: Chovgan
-The athlete who won Olympic gold in the 100 m, 200 m and 4×100 m relay in three Games in a row. :: Usain Bolt
 The world record for the men's 200 metres. :: 19.19 seconds
 The women's 100 m world record holder since 1988. :: Florence Griffith-Joyner
 The first person to run a mile in under four minutes. :: Roger Bannister
@@ -349,8 +373,6 @@ The Ethiopian runner who won the 1960 Olympic marathon barefoot. :: Abebe Bikila
 The high jump technique where athletes go over backwards. :: Fosbury Flop
 The long jump record of 8.95 metres set in 1991 belongs to this athlete. :: Mike Powell
 The swimmer who won seven golds at the 1972 Olympics. :: Mark Spitz
-The swimmer who won eight golds at the 2008 Olympics. :: Michael Phelps
-The Olympic swimming pool length. :: 50 metres
 The Tunisian swimmer who won gold in the 400 m freestyle in Tokyo. :: Ahmed Hafnaoui
 The Tunisian swimmer who won Olympic gold in 2008 and 2012. :: Oussama Mellouli
 The Egyptian athlete who won gold in modern pentathlon at Paris 2024. :: Ahmed Elgendy
@@ -359,9 +381,7 @@ The Qatari high jumper who shared gold at Tokyo 2020. :: Mutaz Essa Barshim
 The athlete who shared the Tokyo 2020 high jump gold with Barshim. :: Gianmarco Tamberi
 The Moroccan runner who won the steeplechase at Tokyo 2020 and Paris 2024. :: Soufiane El Bakkali
 The gymnast who has the most Olympic and world medals combined. :: Simone Biles
-The sport of gymnastics on a 10 cm wide beam. :: Balance beam
 The judo term for a full point that ends a match. :: Ippon
-The colour of the highest belt in karate and judo. :: Black (with dan grades)
 The sumo wrestler's highest rank. :: Yokozuna
 The martial art from Brazil mixing dance and fighting. :: Capoeira
 The martial art from Thailand called the 'art of eight limbs'. :: Muay Thai
@@ -382,7 +402,6 @@ The tennis player who won Wimbledon in 2023 and 2024, from Spain. :: Carlos Alca
 The Italian tennis player who won the Australian Open in 2024 and 2025. :: Jannik Sinner
 The country that dominates world squash rankings in the 2020s. :: Egypt
 The Egyptian squash player who won the 2019 PSA World Championship. :: Ali Farag
-The racket sport played with a glass-walled court, popular in Spain and the Gulf. :: Padel
 The NBA team that Hakeem Olajuwon led to two titles. :: Houston Rockets
 The NBA's career leader in assists. :: John Stockton
 The NBA team with the most titles, 18 by 2024. :: Boston Celtics
@@ -402,19 +421,26 @@ The New Zealand rugby team's pre-match dance. :: Haka
 The New Zealand national rugby team's nickname. :: All Blacks
 The ice hockey player called 'The Great One'. :: Wayne Gretzky
 The ice hockey player who broke Gretzky's goal record in 2025. :: Alex Ovechkin
-The American football position that throws most passes. :: Quarterback
 The quarterback with seven Super Bowl wins. :: Tom Brady
-The baseball player who hit 714 home runs and was called 'the Babe'. :: Babe Ruth
 The Japanese baseball star who both pitches and hits for the Dodgers. :: Shohei Ohtani
 The F1 driver with the most race wins in a single season, 19 in 2023. :: Max Verstappen
 The youngest F1 world champion, at 23 in 2010. :: Sebastian Vettel
 The F1 team with the most constructors' titles. :: Ferrari
-The F1 race known for its tunnel and harbour. :: Monaco Grand Prix
+The NBA player who scored 100 points in one game in 1962. :: Wilt Chamberlain
+The country that surprised Europe by winning Euro 2004. :: Greece
+The only two countries to win the FIFA World Cup twice in a row. :: Italy and Brazil
+The Brazilian who won the 2007 Ballon d'Or, the last winner before the Messi–Ronaldo era. :: Kaká
+The Kenyan runner who set the 800 metres world record of 1:40.91 at London 2012. :: David Rudisha
+The Jamaican sprinter who won the women's Olympic 100 metres in 2008 and 2012. :: Shelly-Ann Fraser-Pryce
+The golf term for three under par on a single hole. :: Albatross (double eagle)
+The cricket delivery aimed to land right at the batter's feet. :: Yorker
+The Egyptian playmaker nicknamed "the Magician" who starred for Al Ahly in the 2000s. :: Mohamed Aboutrika
+The Saudi club that won the AFC Champions League in both 2004 and 2005. :: Al-Ittihad
+The Swedish player who won Wimbledon five times in a row, from 1976 to 1980. :: Björn Borg
 
 ## 500
 The year FIFA was founded. :: 1904
 The city where FIFA was founded. :: Paris
-The city where FIFA has its headquarters. :: Zurich
 The Frenchman after whom the World Cup trophy was first named. :: Jules Rimet
 The country that kept the Jules Rimet trophy after a third win in 1970. :: Brazil
 The dog that found the stolen Jules Rimet trophy in London in 1966. :: Pickles
@@ -423,13 +449,10 @@ The fastest goal in World Cup history, in 11 seconds in 2002, scored by this Tur
 The record score in a World Cup match, Hungary beat El Salvador by this score in 1982. :: 10–1
 The record international score, 31–0, was Australia's win over this team in 2001. :: American Samoa
 The player who scored 13 goals at a single World Cup, in 1958. :: Just Fontaine
-The country that played in every World Cup. :: Brazil
 The year the World Cup was first shown in colour on TV, in Mexico. :: 1970
 The Iranian striker who held the men's international goals record with 109 until Ronaldo passed him. :: Ali Daei
-The player with the most international goals in men's football. :: Cristiano Ronaldo
 The Canadian player with the most international goals overall. :: Christine Sinclair
 The Saudi player who scored Saudi Arabia's first-ever World Cup goal, against the Netherlands in 1994. :: Fuad Anwar
-The Saudi player who played at four World Cups, from 1994 to 2006. :: Sami Al-Jaber
 The country Saudi Arabia beat 2–1 in 1994 for its first World Cup win. :: Morocco
 The country Saudi Arabia beat 1–0 in 1994 to reach the round of 16. :: Belgium
 The Saudi player who scored the winning goal against Egypt at the 2018 World Cup. :: Salem Al-Dawsari
@@ -437,7 +460,6 @@ The number of AFC Champions League titles Al-Hilal had won by 2021. :: Four
 The Al-Hilal coach who won the 2021 AFC Champions League. :: Leonardo Jardim
 The Saudi Pro League club from Al-Ahsa that won the league in 2012–13. :: Al-Fateh
 The Buraidah club that won the 2019 King's Cup. :: Al-Taawoun
-The Saudi domestic cup for clubs named after the king. :: King's Cup (Custodian of the Two Holy Mosques Cup)
 The modern Olympic Games' first champion, in the triple jump in 1896. :: James Connolly
 The Greek shepherd who won the first modern Olympic marathon. :: Spyridon Louis
 The year women first competed at the modern Olympics. :: 1900
@@ -465,7 +487,6 @@ The first Saudi athlete to compete at the Winter Olympics, in alpine skiing in 2
 The Paralympic Games began from a 1948 event at this English hospital. :: Stoke Mandeville
 The doctor who founded the Stoke Mandeville Games. :: Ludwig Guttmann
 The Ethiopian runner who won 10,000 m gold in 1996 and 2000. :: Haile Gebrselassie
-The British distance runner who won the 5,000 and 10,000 m at London 2012 and Rio 2016. :: Mo Farah
 The country Mo Farah was born in. :: Somalia
 The athlete who holds the women's 400 m world record since 1985. :: Marita Koch
 The athlete who set the men's 400 m world record of 43.03 in 2016. :: Wayde van Niekerk
@@ -483,7 +504,6 @@ The tennis team competition for women's national teams, renamed in 2020. :: Bill
 The 1973 'Battle of the Sexes' match was won by this player. :: Billie Jean King
 The tennis player who won the 'Channel Slam' of French Open and Wimbledon in 2024. :: Carlos Alcaraz
 The first Arab woman to reach a Grand Slam singles final, at Wimbledon 2022. :: Ons Jabeur
-The golfer who won the career Grand Slam at 24 in 2000. :: Tiger Woods
 The golfer who completed the career Grand Slam by winning the 2025 Masters. :: Rory McIlroy
 The oldest golf major. :: The Open Championship
 The golf course called the 'home of golf' in Scotland. :: St Andrews (Old Course)
@@ -499,16 +519,23 @@ The 'triple crown of motorsport' includes the Monaco GP, the Le Mans 24 Hours an
 The only driver to win the Triple Crown of Motorsport. :: Graham Hill
 The Saudi rally driver who won the 2025 Dakar in cars was co-driven by this German navigator. :: Timo Gottschalk
 The Dakar Rally moved to Saudi Arabia from this continent. :: South America
-The famous off-road rally first ran from Paris to this West African capital, which gave the rally its name. :: Dakar
 The chess player who became world champion at 22 in 1985. :: Garry Kasparov
 The first world chess champion, in 1886. :: Wilhelm Steinitz
 The Saudi chess federation hosted the World Rapid and Blitz Championships in Riyadh in this year. :: 2017
 The chess opening that begins 1. e4 c5. :: Sicilian Defence
-The chess move where the king and rook move together. :: Castling
 The ancient board game from India that became chess. :: Chaturanga
 The Persian name of chess, from which 'checkmate' comes. :: Shatranj (shah mat, 'the king is helpless')
-The famous 'Ali shuffle' was used by this boxer. :: Muhammad Ali
-The boxer who was the youngest heavyweight champion, at 20. :: Mike Tyson
 The boxing promoter of the Rumble in the Jungle. :: Don King
-The city that hosted the first modern Olympic Games in 1896. :: Athens
 The Brazilian footballer known simply as Garrincha played this position. :: Right winger
+The country that won the first Africa Cup of Nations, in 1957. :: Egypt
+The first Asian team to reach a World Cup quarter-final, in 1966. :: North Korea
+The first Asian country to play at a World Cup, in 1938 as the Dutch East Indies. :: Indonesia
+The country that won the first Arabian Gulf Cup, in 1970. :: Kuwait
+The FIFA youth tournament Saudi Arabia won in 1989, beating hosts Scotland in the final. :: FIFA U-16 World Championship
+The tournament first held in Riyadh in 1992 that later became the FIFA Confederations Cup. :: King Fahd Cup
+The 40-year-old goalkeeper who captained Italy to the 1982 World Cup title. :: Dino Zoff
+The American whose 8.90 m long jump at the 1968 Mexico City Olympics stood as the world record for nearly 23 years. :: Bob Beamon
+The off-spinner's delivery that turns the "wrong" way, made famous by Pakistan's Saqlain Mushtaq. :: Doosra
+The Real Madrid striker who scored in five European Cup finals in a row, from 1956 to 1960. :: Alfredo Di Stéfano
+The Uruguayan who scored the winning goal against Brazil in the 1950 "Maracanazo". :: Alcides Ghiggia
+The first World Cup penalty shoot-out, in 1982, was between West Germany and this country. :: France

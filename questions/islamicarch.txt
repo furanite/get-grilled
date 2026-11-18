@@ -40,13 +40,9 @@ Beautiful handwriting used to decorate mosques. :: Calligraphy
 Curving patterns of leaves and vines in Islamic art. :: Arabesque
 Repeating patterns of stars and polygons. :: Geometric patterns
 Small coloured tiles set in patterns on walls. :: Mosaic (tilework)
-Honeycomb-like decoration under domes and arches. :: Muqarnas
 Wooden lattice screens on windows. :: Mashrabiya
-A garden divided into four parts by water channels. :: A chahar bagh (four-part garden)
 A fountain for washing in a mosque courtyard. :: An ablution fountain
 The large hall in a mosque where people pray. :: The prayer hall
-Rows of columns in a mosque prayer hall. :: A hypostyle hall
-A tall vaulted hall open on one side, common in Persian mosques. :: An iwan
 A building for Islamic learning. :: A madrasa
 A tomb with a dome. :: A mausoleum (qubba)
 A traveller's inn on trade routes. :: A caravanserai
@@ -70,16 +66,12 @@ The mosque in Islamabad shaped like a tent. :: The Faisal Mosque
 The mosque in Casablanca with the world's tallest minaret for many years. :: The Hassan II Mosque
 The mosque in Jeddah that seems to float on the sea. :: The Floating Mosque (Al-Rahmah Mosque)
 The mosque in Riyadh near Qasr Al-Hokm. :: The Imam Turki bin Abdullah Grand Mosque
-The famous minaret in Samarra shaped like a spiral. :: The Malwiya
-The world's tallest brick minaret, in Delhi. :: The Qutb Minar
 The mosque in Damascus built by the Umayyads. :: The Umayyad Mosque
 The famous mosque in Cairo, home of a great university. :: Al-Azhar Mosque
 The famous university-mosque in Fes, said to be the oldest university. :: Al-Qarawiyyin
 The woman who founded Al-Qarawiyyin. :: Fatimah al-Fihri ﵀
-Al-Qarawiyyin was founded in this year. :: 859
 The famous mosque in Kairouan, Tunisia. :: The Great Mosque of Kairouan (Mosque of 'Uqbah)
 The famous mosque in Mali made of mud. :: The Great Mosque of Djenné
-The mud bricks of the Djenné mosque are re-plastered every year in this festival. :: Crépissage
 The "Blue Mosque" in Istanbul was built for this sultan. :: Sultan Ahmed I
 The Ottoman architect of the Süleymaniye Mosque. :: Mimar Sinan
 The old mosque in Hagia Sophia's place was first a church. Its name. :: Hagia Sophia (Ayasofya)
@@ -87,25 +79,44 @@ Islamic art usually avoids pictures of these in mosques. :: Living beings (peopl
 Mosques often have carpets with lines to keep these straight. :: Rows of worshippers (saff)
 The Arabic word for a row of worshippers. :: Saff
 The famous Persian city with blue-tiled mosques around a great square. :: Isfahan
-The great square of Isfahan. :: Naqsh-e Jahan Square
 The Uzbek city with the Registan square. :: Samarkand
-The Registan is surrounded by this many madrasas. :: Three
 The Indian Mughal emperor who built the Taj Mahal. :: Shah Jahan
 The Taj Mahal was built in memory of this wife. :: Mumtaz Mahal
 The Mughal fort in Delhi made of red sandstone. :: The Red Fort
 The great Mughal mosque in Delhi. :: Jama Masjid
-The Mughal mosque in Lahore. :: The Badshahi Mosque
-The Mughal tomb in Delhi that inspired the Taj Mahal. :: Humayun's Tomb
-The palace in Granada's highest part with gardens. :: The Generalife
 The famous courtyard in the Alhambra with a fountain on 12 lions. :: The Court of the Lions
-The Alhambra was built by this dynasty. :: The Nasrids
 The Great Mosque of Cordoba was later turned into this. :: A cathedral
 The red-and-white striped arches use stone and this. :: Brick
-The Saudi mosque in Al-Jouf named after Umar ibn al-Khattab ﵁. :: The Mosque of Umar in Dumat al-Jandal
 The old mosques of Najd are built of this. :: Mud brick
-The mosque at the heart of At-Turaif in Diriyah. :: The Imam Muhammad bin Saud Mosque
 The program by the Crown Prince to restore historic mosques in Saudi Arabia. :: The Prince Mohammed bin Salman Project for Developing Historical Mosques
 The Saudi mosque architecture styles include Najdi, Hejazi, Southern and this. :: Eastern (and others)
+The Seljuk Turks brought this four-iwan plan to mosques in Iran. :: The four-iwan plan
+The Topkapı Palace was the home of Ottoman sultans in this city. :: Istanbul
+The Masjid al-Qiblatayn in Madinah is famous because the qiblah changed there from this city. :: Jerusalem
+The mosque in Madinah where the qiblah changed. :: Masjid al-Qiblatayn
+The famous mosque in Istanbul with six minarets, facing Hagia Sophia. :: The Blue Mosque (Sultan Ahmed Mosque)
+This Mughal emperor built the Taj Mahal. :: Shah Jahan
+The Taj Mahal is mostly built from this white stone. :: Marble
+The Quba Mosque is in this city. :: Madinah
+The Sheikh Zayed Grand Mosque is in this city. :: Abu Dhabi
+The Companion who first gave the adhan. :: Bilal ibn Rabah ﵁
+When the Quraysh rebuilt the Ka'bah, our Beloved and our master, the Prophet Muhammad ﷺ settled a dispute over placing this. :: The Black Stone
+The kiswah is made in a factory in this city. :: Makkah
+The hypostyle plan of early mosques copied the house-mosque of our Beloved and our master, the Prophet Muhammad ﷺ in this city. :: Madinah (Al-Masjid an-Nabawi)
+The Great Mosque of Xi'an is famous for this style. :: Chinese style
+The great mosque in Delhi built by Shah Jahan. :: Jama Masjid
+The Spanish city whose great mosque became a cathedral in 1236. :: Cordoba
+The Great Mosque of Djenné is in this country. :: Mali
+The courtyard in the Alhambra with a fountain held up by twelve stone animals. :: The Court of the Lions
+A covered market in Iran is called this. :: A bazaar
+The roadside inn for traders and their camels. :: A caravanserai
+The Arabic name for the courtyard of a mosque. :: Sahn
+Coral stone from the Red Sea was used to build old houses in this Saudi city. :: Jeddah
+The Najdi style of building uses this main material. :: Mud brick (adobe)
+The King Fahd Glorious Quran Printing Complex is in this city. :: Madinah
+The Sheikh Lotfollah Mosque's cream-coloured dome seems to turn this colour as the light changes. :: Pink
+Ahmad ibn Tulun was the governor of this land for the Abbasids. :: Egypt
+The Al-Masmak Fort is in this city. :: Riyadh
 
 ## 200
 The Dome of the Rock was built by this Umayyad caliph. :: Abd al-Malik ibn Marwan
@@ -117,37 +128,27 @@ The Umayyad Mosque's mosaics show these. :: Landscapes, trees and buildings (no 
 The famous Umayyad desert palace in Jordan with painted baths. :: Qusayr 'Amra
 The Umayyad desert palace near Jericho. :: Khirbat al-Mafjar (Hisham's Palace)
 The Great Mosque of Cordoba was begun by this Umayyad ruler in 785. :: Abd al-Rahman I
-The Great Mosque of Cordoba's prayer hall has about this many columns. :: About 850
-The Great Mosque of Cordoba's mihrab is famous for its mosaics given by this Byzantine emperor's craftsmen. :: Nikephoros II Phokas
 The Abbasid capital with the spiral minaret. :: Samarra
-The Great Mosque of Samarra was built by this caliph. :: Al-Mutawakkil
 The mosque in Cairo with a spiral minaret like Samarra. :: The Mosque of Ibn Tulun
 The Mosque of Ibn Tulun is built mainly of this. :: Brick (with stucco)
 The famous Fatimid mosque in Cairo, founded in 970. :: Al-Azhar
 The Mamluk complex in Cairo with a huge iwan, built by Sultan Hasan. :: The Mosque-Madrasa of Sultan Hasan
 The Mamluk tomb complex famous for its stone dome carvings in the Northern Cemetery. :: The complex of Qaytbay
 The Mamluks decorated buildings with alternating stripes of stone called this. :: Ablaq
-The Seljuk Turks brought this four-iwan plan to mosques in Iran. :: The four-iwan plan
 The Great Mosque of Isfahan has this kind of plan. :: The four-iwan plan
 The Persian mosque in Isfahan with no minarets, built for the royal women. :: The Sheikh Lotfollah Mosque
 The great Safavid mosque on Naqsh-e Jahan Square. :: The Shah Mosque (Imam Mosque)
 The Safavid palace on Naqsh-e Jahan Square with a high porch. :: Ali Qapu
 The Timurid mausoleum in Samarkand. :: The Gur-e Amir
 The Timurid ruler buried in the Gur-e Amir. :: Timur (Tamerlane)
-The Ilkhanid mausoleum in Soltaniyeh with a huge double dome. :: The Mausoleum of Öljeitü
 The Ottoman architect Mimar Sinan worked under this sultan for most of his career. :: Suleiman the Magnificent
-Sinan called this his apprentice work. :: The Şehzade Mosque
 Sinan called this his journeyman work. :: The Süleymaniye Mosque
 Sinan called this his masterpiece. :: The Selimiye Mosque in Edirne
-The Selimiye Mosque's dome is about this wide. :: About 31 metres
 Ottoman mosques are known for a big central dome and these. :: Half domes and pencil minarets
 The slim pointed minarets of Ottoman mosques are called this. :: Pencil minarets
 The Ottoman town of tiles famous for blue-and-white ceramics. :: İznik
-The Topkapı Palace was the home of Ottoman sultans in this city. :: Istanbul
 The Mughal emperor who built Fatehpur Sikri. :: Akbar
 The great gate of Fatehpur Sikri. :: Buland Darwaza
-The Taj Mahal's chief architect is believed to be this man. :: Ustad Ahmad Lahauri
-The Taj Mahal's white marble came from this place. :: Makrana
 The Taj Mahal took about this many years to build. :: About 20 (1632–1653)
 The Taj Mahal stands at the end of this kind of garden. :: A chahar bagh
 The inlay of precious stones in the Taj Mahal. :: Pietra dura (parchin kari)
@@ -161,23 +162,13 @@ The Seville cathedral tower that was once a minaret. :: The Giralda
 The Giralda was built by this dynasty. :: The Almohads
 The minaret of the Kutubiyya Mosque is in this city. :: Marrakesh
 The Hassan Tower is an unfinished minaret in this city. :: Rabat
-The architect of the Hassan II Mosque in Casablanca. :: Michel Pinseau
-The Hassan II Mosque's minaret is this tall. :: 210 metres
 The minaret now taller than Hassan II's, in Algeria. :: The Djamaa El Djazaïr minaret
-The Djamaa El Djazaïr minaret is about this tall. :: 265 metres
 The Sheikh Zayed Grand Mosque has one of the world's largest hand-knotted carpets, made in this country. :: Iran
-The Sheikh Zayed Grand Mosque opened in this year. :: 2007
-The Faisal Mosque in Islamabad was finished in this year. :: 1986
-The Faisal Mosque was designed by this Turkish architect. :: Vedat Dalokay
-The Jeddah "Island Mosque" was designed by this Egyptian architect. :: Abdel-Wahed El-Wakil
-Abdel-Wahed El-Wakil was a student of this architect. :: Hassan Fathy ﵀
 The King Fahd expansion of Al-Masjid an-Nabawi added these to shade the courtyards. :: Giant umbrellas
 The domes on the roof of Al-Masjid an-Nabawi do this to let in air and light. :: Slide open
 The King Abdullah expansion of the Grand Mosque in Makkah added this to the north. :: A huge new prayer area (third expansion)
 The Saudi project to widen the mataf around the Ka'bah. :: The mataf expansion
 The mataf is this. :: The area around the Ka'bah for tawaf
-The Masjid al-Qiblatayn in Madinah is famous because the qiblah changed there from this city. :: Jerusalem
-The mosque in Madinah where the qiblah changed. :: Masjid al-Qiblatayn
 The mosque at Mount 'Arafah where the Hajj sermon is given. :: Masjid Namirah
 The mosque in Mina where pilgrims pray. :: Masjid al-Khayf
 The mosque in Muzdalifah. :: Al-Mash'ar al-Haram
@@ -193,23 +184,41 @@ The biggest palace in At-Turaif. :: Salwa Palace
 The Saudi fort in Riyadh stormed by King Abdulaziz in 1902. :: Al-Masmak Fort
 The material of Al-Masmak Fort. :: Mud brick
 The Saudi palace in Al-Ahsa with a dome-shaped mosque inside. :: Ibrahim Palace
-Qasr Ibrahim in Hofuf was built by the Ottomans in this century. :: The 16th century
-The famous mosque in Istanbul with six minarets, facing Hagia Sophia. :: The Blue Mosque (Sultan Ahmed Mosque)
 The coloured tiles inside the Blue Mosque come from this Ottoman town. :: İznik
 This Andalusian palace's name means "the red one" in Arabic. :: The Alhambra (al-Hamra')
 The famous forest of red-and-white striped arches is in this Spanish building. :: The Mezquita (Great Mosque of Cordoba)
-This Mughal emperor built the Taj Mahal. :: Shah Jahan
-The Taj Mahal is mostly built from this white stone. :: Marble
 The Taj Mahal stands on the bank of this river. :: The Yamuna
 The Dome of the Rock stands on this hill in Jerusalem. :: Al-Haram ash-Sharif (Temple Mount)
-The Quba Mosque is in this city. :: Madinah
-The Sheikh Zayed Grand Mosque is in this city. :: Abu Dhabi
 The Hassan II Mosque is in this Moroccan city. :: Casablanca
 The Faisal Mosque is in this city. :: Islamabad
 The mosque in Istanbul built by Mimar Sinan for Suleiman the Magnificent. :: The Süleymaniye Mosque
 The Arabic word "qubba" means this part of a building. :: A dome
 The wooden latticed screen in Hijazi houses that lets air in and keeps privacy. :: A mashrabiya (rawshan)
 The Arabic word for a tower from which the call to prayer is given. :: Mi'dhanah (minaret)
+The Istiqlal Mosque, the largest in Southeast Asia, is in this city. :: Jakarta
+The Putra Mosque is in this Malaysian city. :: Putrajaya
+The Sultan Qaboos Grand Mosque is in this city. :: Muscat
+The Abdullatif Al Fozan Award is given for this kind of architecture. :: Mosque architecture
+The Al-Rajhi Grand Mosque, one of the largest in Saudi Arabia, is in this city. :: Riyadh
+The Great Mosque of Kairouan is in this country. :: Tunisia
+The famous scholar-traveller who described the mosques of his time, from Tangier. :: Ibn Battuta ﵀
+The ribbed melon-shaped dome of the Gur-e Amir is covered in this colour of tile. :: Blue (turquoise)
+The Friday Mosque (Masjid-e Jameh) of Isfahan is famous for showing this plan. :: The four-iwan plan
+The Mughal mosque in Delhi's old city built from red sandstone and white marble. :: Jama Masjid
+The Ottoman complex of a mosque with its school, kitchen, hospital and baths around it. :: Külliye
+The tall rectangular gateway framing an arched iwan entrance in Persian mosques. :: Pishtaq
+The Egyptian rooftop scoop that catches the cool breeze and sends it down into the house. :: Malqaf
+The sloping carved marble slab over which water trickles to cool a room or courtyard. :: Salsabil
+The Arabic name for a large congregational mosque used for Friday prayer. :: Jami' (masjid jami')
+The open prayer ground, often outside the town, used for the Eid prayers. :: Musalla
+The screened enclosure near the mihrab once reserved for the ruler. :: Maqsura
+The raised platform in a mosque from which the muballigh repeats the imam's words. :: Dikka
+The Persian name for the interlacing star-and-polygon patterns of straight lines in Islamic art. :: Girih
+The covered arcade that runs around the courtyard of a mosque. :: Riwaq
+The tent-like fabric-roofed terminal at Jeddah airport built for pilgrims. :: The Hajj Terminal
+The reception room for guests in a traditional Saudi or Gulf house. :: Majlis
+The entrance that turns a corner so passers-by cannot see into a courtyard house. :: A bent entrance
+The famous coral-stone house in Jeddah's Al-Balad where King Abdulaziz stayed in 1925. :: Bayt Nasif
 
 ## 300
 The first mosque of our Beloved and our master, the Prophet Muhammad ﷺ in Madinah was built with these materials. :: Mud brick walls, palm-trunk columns and a palm-frond roof
@@ -217,7 +226,6 @@ The first mosque in Madinah had a shaded area for poor Companions called this. :
 The Companions who lived in al-Suffah were called this. :: Ahl al-Suffah
 The first minbar of our Beloved and our master, the Prophet Muhammad ﷺ had this many steps. :: Three
 The tree trunk our Beloved and our master, the Prophet Muhammad ﷺ used to lean on before the minbar, which wept. :: The weeping palm trunk (al-jidh')
-The Companion who first gave the adhan. :: Bilal ibn Rabah ﵁
 The Companion who saw the adhan in a dream. :: Abdullah ibn Zayd ﵁
 The caliph who first expanded Al-Masjid an-Nabawi. :: Umar ibn al-Khattab ﵁
 The caliph who rebuilt Al-Masjid an-Nabawi with carved stone and teak. :: Uthman ibn Affan ﵁
@@ -225,21 +233,17 @@ The Umayyad caliph who rebuilt Al-Masjid an-Nabawi with mosaics and added the fi
 The Umayyad governor of Madinah who carried out al-Walid's rebuilding. :: Umar ibn Abd al-Aziz ﵀
 The first concave mihrab is said to have been added in Al-Masjid an-Nabawi under this governor. :: Umar ibn Abd al-Aziz ﵀
 The Ottoman sultan who rebuilt much of Al-Masjid an-Nabawi in the 1800s. :: Sultan Abdulmejid I
-The Ottoman sultan's rebuilding of Al-Masjid an-Nabawi took about this long. :: 12 years (1849–1861)
 The first expansion of Al-Masjid al-Haram after the time of our Beloved and our master, the Prophet Muhammad ﷺ was by this caliph. :: Umar ibn al-Khattab ﵁
 The caliph who added the first roofed arcades to Al-Masjid al-Haram. :: Uthman ibn Affan ﵁ (later Abbasid caliphs added more)
 The Abbasid caliph who made a major expansion of the Grand Mosque in Makkah. :: Al-Mahdi
 The Ottoman domes over the old porticos of the Grand Mosque were built under this sultan. :: Selim II (with Murad III)
 The Ottoman architect linked to the Grand Mosque porticos. :: Mimar Sinan
 The Ka'bah was rebuilt by the Quraysh when our Beloved and our master, the Prophet Muhammad ﷺ was this age. :: About 35
-When the Quraysh rebuilt the Ka'bah, our Beloved and our master, the Prophet Muhammad ﷺ settled a dispute over placing this. :: The Black Stone
 The Companion who rebuilt the Ka'bah on Ibrahim's foundations in 64 AH. :: Abdullah ibn al-Zubayr ﵁
 The Ka'bah was last fully rebuilt in this year after floods. :: 1630 (1040 AH)
 The Ottoman sultan who ordered the 1630 rebuilding. :: Murad IV
 The Ka'bah is about this tall. :: About 14 metres
-The kiswah is made in a factory in this city. :: Makkah
 The kiswah factory is called this. :: The King Abdulaziz Complex for the Holy Kaaba Kiswa
-The kiswah uses about this much silk. :: About 670 kg (dyed black)
 The kiswah's embroidered band is called this. :: The hizam (belt)
 The curtain on the door of the Ka'bah. :: The sitarah (burqu')
 The Quba Mosque was rebuilt in 1986 by this architect. :: Abdel-Wahed El-Wakil
@@ -254,13 +258,11 @@ The Great Mosque of Kufa was founded under this Companion. :: Sa'd ibn Abi Waqqa
 The Mosque of 'Amr ibn al-'As ﵁ is in this city. :: Cairo (Fustat)
 The Mosque of 'Amr ibn al-'As ﵁ was founded in this year. :: 641–642
 The first mosques in Basra and Kufa had walls marked by this method. :: A spear (arrow) thrown to set the boundary
-The hypostyle plan of early mosques copied the house-mosque of our Beloved and our master, the Prophet Muhammad ﷺ in this city. :: Madinah (Al-Masjid an-Nabawi)
 The "Arab plan" mosque has a courtyard and this. :: A hypostyle prayer hall
 The Ottoman plan mosque has a big central dome and this. :: A forecourt and half domes
 The Iranian plan mosque has a courtyard with these. :: Four iwans
 The Indian plan mosque has three domes over the prayer hall and this. :: A large courtyard
 The Chinese mosques look like this kind of building. :: Chinese temples (with pagoda-like minarets)
-The Great Mosque of Xi'an is famous for this style. :: Chinese style
 The mosques of West Africa use mud and these wooden sticks out of the walls. :: Toron
 The torons on Djenné's mosque are used for this. :: Scaffolding for re-plastering
 The term for the band of Quran verses in tiles or stone around a building. :: An inscription band (frieze)
@@ -270,10 +272,7 @@ The cursive calligraphy style used in many mosque inscriptions. :: Thuluth
 The Persian calligraphy style with hanging letters. :: Nasta'liq
 The calligraphy style used in most printed Qurans. :: Naskh
 The Ottoman calligraphy style used for the sultan's signature. :: Diwani (the tughra)
-The famous Ottoman calligrapher known as "the Qibla of calligraphers". :: Şeyh Hamdullah ﵀
-The famous calligrapher who wrote the big roundels in Hagia Sophia. :: Kazasker Mustafa İzzet Efendi ﵀
 The large roundels in Hagia Sophia bear the names of Allah, our Beloved and our master, the Prophet Muhammad ﷺ, the four caliphs and these two. :: Al-Hasan and al-Husayn رضوان الله عليهم
-The calligrapher who wrote much of the Quran verses in Al-Masjid an-Nabawi in the 1800s. :: Abdullah Zühdü Efendi ﵀
 The Syrian calligrapher who wrote the Madinah Mushaf. :: Uthman Taha
 The muqarnas comes from vaulting in this region in the 10th–11th century. :: Iran and Iraq (eastern Islamic lands)
 The squinch is an arch across a corner that turns this into an octagon. :: A square
@@ -283,7 +282,7 @@ The bulb-shaped dome in Mughal buildings. :: An onion dome
 The small domed kiosks on Mughal roofs. :: Chhatris
 The arch shaped like the edge of a keel, used in Fatimid Cairo. :: A keel arch
 The cusped arch with many small lobes, used in Mughal palaces. :: A multifoil (cusped) arch
-The arch of two curves meeting at a point, common in Persia. :: A four-centred arch
+The pointed arch drawn from four arcs, two tight ones at the sides and two flatter ones meeting at the top, common in Persia. :: A four-centred arch
 The building element of many tiny arches stacked like honeycomb. :: Muqarnas
 The Fatimid mosque in Cairo with a famous carved façade, al-Aqmar. :: Al-Aqmar Mosque
 The Mamluk city gate of Cairo with twin minarets above. :: Bab Zuwayla
@@ -300,8 +299,6 @@ The Moroccan carved cedar wood. :: Cedar carving (on ceilings and doors)
 The courtyard house with a garden in Morocco. :: A riad
 The courtyard house in Damascus. :: Bayt (Damascene house)
 The Persian house's open hall facing the courtyard. :: Talar (iwan)
-The great mosque in Delhi built by Shah Jahan. :: Jama Masjid
-The Spanish city whose great mosque became a cathedral in 1236. :: Cordoba
 The Ottoman mosque in Edirne that Mimar Sinan called his masterpiece. :: The Selimiye Mosque
 Mimar Sinan called this mosque his "apprentice work". :: The Şehzade Mosque
 This Mamluk sultan's madrasa-mosque in Cairo has huge iwans around a courtyard. :: Sultan Hasan
@@ -311,24 +308,42 @@ The famous Registan square with three madrasas is in this city. :: Samarkand
 The three madrasas of the Registan are Ulugh Beg, Sher-Dor and this one. :: Tilya-Kori
 Timur's mausoleum in Samarkand. :: The Gur-e Amir
 The Ibn Tulun Mosque in Cairo is famous for being built mainly from this. :: Brick (covered in stucco)
-The Great Mosque of Djenné is in this country. :: Mali
 The Kalyan Minaret stands in this city. :: Bukhara
 The tomb of the Samanids in Bukhara famous for patterned brickwork. :: The Samanid Mausoleum
-The courtyard in the Alhambra with a fountain held up by twelve stone animals. :: The Court of the Lions
 The garden palace next to the Alhambra. :: The Generalife
 The Moroccan tilework made of small cut glazed pieces. :: Zellige
 A building with many columns holding up a flat roof is called this. :: Hypostyle
-A covered market in Iran is called this. :: A bazaar
-The roadside inn for traders and their camels. :: A caravanserai
-The Arabic name for the courtyard of a mosque. :: Sahn
 The vaulted hall open on one side, common in Persian mosques. :: An iwan
 The four-part Persian garden divided by water channels. :: A chahar bagh
 The Hijazi style of tall coral-stone houses with wooden windows is famous in this old district of Jeddah. :: Al-Balad
-Coral stone from the Red Sea was used to build old houses in this Saudi city. :: Jeddah
-The Najdi style of building uses this main material. :: Mud brick (adobe)
 The triangular openings in Najdi mud walls are for this. :: Ventilation and decoration
 The UNESCO site in Diriyah with palaces of the first Saudi state. :: At-Turaif
 The famous painted house walls in Asir are a women's art called this. :: Al-Qatt Al-Asiri
+Honeycomb-like decoration under domes and arches. :: Muqarnas
+A garden divided into four parts by water channels. :: A chahar bagh (four-part garden)
+Rows of columns in a mosque prayer hall. :: A hypostyle hall
+A tall vaulted hall open on one side, common in Persian mosques. :: An iwan
+The famous minaret in Samarra shaped like a spiral. :: The Malwiya
+The world's tallest brick minaret, in Delhi. :: The Qutb Minar
+The great square of Isfahan. :: Naqsh-e Jahan Square
+The Registan is surrounded by this many madrasas. :: Three
+The Mughal mosque in Lahore. :: The Badshahi Mosque
+The Mughal tomb in Delhi that inspired the Taj Mahal. :: Humayun's Tomb
+The palace in Granada's highest part with gardens. :: The Generalife
+The Alhambra was built by this dynasty. :: The Nasrids
+The Saudi mosque in Al-Jouf named after Umar ibn al-Khattab ﵁. :: The Mosque of Umar in Dumat al-Jandal
+The mosque at the heart of At-Turaif in Diriyah. :: The Imam Muhammad bin Saud Mosque
+The Iranian desert city famous for wind catchers. :: Yazd
+The Persian water system of underground channels. :: Qanat
+The dome support that turns a square into a circle using curved triangles. :: A pendentive
+The dome support that uses an arch across a corner. :: A squinch
+The Timurid habit of placing a tall outer dome over a lower inner one. :: A double-shell dome
+The famous street in Fatimid Cairo lined with medieval buildings. :: Al-Mu'izz Street
+The Mamluk striped masonry of light and dark stone is called this. :: Ablaq
+The Gol Gumbaz is famous for this sound effect in its gallery. :: A whispering gallery
+The Sheikh Zayed Grand Mosque's main hall has one of the world's largest hand-knotted carpets, made in this country. :: Iran
+The Algiers mosque with the world's tallest minaret. :: Djamaa El Djazaïr
+The Hijazi wooden window boxes are called this in Jeddah. :: Rawashin
 
 ## 400
 The minaret of Jam in Afghanistan was built by this dynasty. :: The Ghurids
@@ -389,23 +404,17 @@ The Great Mosque of Xi'an was founded in this dynasty. :: The Tang (rebuilt in t
 The Niujie Mosque is in this city. :: Beijing
 The Kul Sharif Mosque is in this Russian city. :: Kazan
 The Sultan Omar Ali Saifuddien Mosque is in this country. :: Brunei
-The Istiqlal Mosque, the largest in Southeast Asia, is in this city. :: Jakarta
 The Istiqlal Mosque was designed by this architect. :: Friedrich Silaban
-The Putra Mosque is in this Malaysian city. :: Putrajaya
 The Crystal Mosque is in this Malaysian state. :: Terengganu
 The Grand Mosque of Kuwait opened in this year. :: 1986
 The State Mosque of Qatar is named after this scholar. :: Imam Muhammad ibn Abd al-Wahhab
 The Al-Fateh Grand Mosque is in this country. :: Bahrain
-The Sultan Qaboos Grand Mosque is in this city. :: Muscat
 The Sultan Qaboos Grand Mosque's carpet was made in this country. :: Iran
 The Saudi mosque in Riyadh with a famous modern design by the architect Rasem Badran. :: The Imam Turki bin Abdullah Grand Mosque
 Rasem Badran is an architect from this country. :: Jordan
 The Imam Turki bin Abdullah Mosque won the Aga Khan Award in this year. :: 1995
-The King Fahd Glorious Quran Printing Complex is in this city. :: Madinah
-The Abdullatif Al Fozan Award is given for this kind of architecture. :: Mosque architecture
 The Abdullatif Al Fozan Award was first given in this cycle year. :: 2014 (cycle 2011–2014)
 The mosque in Riyadh's KAFD with a sculptural design. :: The KAFD Grand Mosque
-The Al-Rajhi Grand Mosque, one of the largest in Saudi Arabia, is in this city. :: Riyadh
 The Ottoman architect who built the Blue Mosque, a student of Sinan. :: Sedefkâr Mehmed Agha
 The Taj Mahal's chief architect is usually named as this person. :: Ustad Ahmad Lahauri
 The Spanish caliph who began Madinat al-Zahra near Cordoba. :: Abd al-Rahman III
@@ -413,7 +422,6 @@ The dynasty that built most of the Alhambra palaces. :: The Nasrids
 The minaret of Seville's great mosque became this bell tower. :: The Giralda
 The Koutoubia Mosque is in this city. :: Marrakesh
 The Almohad minaret in Rabat left unfinished. :: The Hassan Tower
-The Great Mosque of Kairouan is in this country. :: Tunisia
 The 'Uqbah Mosque in Kairouan is linked to this Companion who founded the city. :: 'Uqbah ibn Nafi' ﵁
 The Mamluk Sultan whose complex in Cairo includes a hospital (bimaristan). :: Qalawun
 The mosque on Cairo's citadel built in Ottoman style in the 1800s. :: The Mosque of Muhammad Ali
@@ -437,18 +445,28 @@ The Umayyad caliph who built the Great Mosque of Damascus. :: Al-Walid I
 The Abbasid round city of Baghdad was founded by this caliph. :: Al-Mansur
 The Mamluk tomb-mosque complex in Cairo's Northern Cemetery known for its carved stone dome. :: The complex of Qaytbay
 The Egyptian architect who designed New Gourna with mud brick. :: Hassan Fathy ﵀
+Al-Qarawiyyin was founded in this year. :: 859
+The Great Mosque of Cordoba's prayer hall has about this many columns. :: About 850
+The Great Mosque of Samarra was built by this caliph. :: Al-Mutawakkil
+The Ilkhanid mausoleum in Soltaniyeh with a huge double dome. :: The Mausoleum of Öljeitü
+Sinan called this his apprentice work. :: The Şehzade Mosque
+The Taj Mahal's chief architect is believed to be this man. :: Ustad Ahmad Lahauri
+The Hassan II Mosque's minaret is this tall. :: 210 metres
+The Djamaa El Djazaïr minaret is about this tall. :: 265 metres
+The Sheikh Zayed Grand Mosque opened in this year. :: 2007
+The Faisal Mosque in Islamabad was finished in this year. :: 1986
+The Jeddah "Island Mosque" was designed by this Egyptian architect. :: Abdel-Wahed El-Wakil
+Abdel-Wahed El-Wakil was a student of this architect. :: Hassan Fathy ﵀
+Qasr Ibrahim in Hofuf was built by the Ottomans in this century. :: The 16th century
 
 ## 500
 The famous Persian dome chamber built by the Seljuk vizier Nizam al-Mulk in the Great Mosque of Isfahan. :: The south dome (Nizam al-Mulk's dome)
 The north dome of the Great Mosque of Isfahan, admired for its proportions, is called this. :: The Gonbad-e Khaki (Taj al-Mulk dome)
 The Persian architect Ali Akbar Isfahani designed this mosque. :: The Shah Mosque in Isfahan
-The Sheikh Lotfollah Mosque's dome colour changes from cream to this pink in the light. :: Pink
 The Shah Mosque's dome makes this famous effect: sound echoes many times under it. :: A multiple echo
 The Persian mosque in Shiraz known for its coloured glass. :: The Nasir al-Mulk Mosque
 The Persian Jameh Mosque of Yazd has the tallest this in Iran. :: Portal minarets
-The Iranian desert city famous for wind catchers. :: Yazd
 The Dowlat Abad Garden in Yazd has one of the tallest wind catchers, about this tall. :: About 33 metres
-The Persian water system of underground channels. :: Qanat
 The Persian Garden is on UNESCO's list as a site of this many gardens. :: Nine
 The Mughal gardens in Kashmir include Shalimar Bagh, built by this emperor. :: Jahangir
 The Shalimar Gardens in Lahore were built by this emperor. :: Shah Jahan
@@ -489,7 +507,6 @@ The Hall of the Ambassadors' ceiling shows this. :: The seven heavens (star patt
 The Alhambra's Court of the Myrtles has this long pool. :: A reflecting pool
 The Alhambra's walls carry this phrase hundreds of times. :: "Wa la ghaliba illa Allah" (there is no victor but Allah)
 The Mosque of Cordoba's maqsura in front of the mihrab was built under this caliph. :: Al-Hakam II
-The famous scholar-traveller who described the mosques of his time, from Tangier. :: Ibn Battuta ﵀
 The Andalusian traveller who described Makkah and Madinah in the 12th century. :: Ibn Jubayr ﵀
 The Egyptian historian who wrote about Cairo's buildings in "Al-Khitat". :: Al-Maqrizi ﵀
 The British scholar who wrote "Early Muslim Architecture". :: K. A. C. Creswell
@@ -504,13 +521,7 @@ The great Ottoman calligrapher of the 1500s, teacher of the naskh style. :: Şey
 The square Kufic made with bricks is called this in Persian. :: Banna'i
 The Persian name for the seven-colour painted tile method. :: Haft-rangi
 The Persian name for cut tile mosaic. :: Mo'arrag
-The dome support that turns a square into a circle using curved triangles. :: A pendentive
-The dome support that uses an arch across a corner. :: A squinch
-The Timurid habit of placing a tall outer dome over a lower inner one. :: A double-shell dome
-The ribbed melon-shaped dome of the Gur-e Amir is covered in this colour of tile. :: Blue (turquoise)
 The Fatimid gate in Cairo where the heads of enemies were once shown. :: Bab Zuwayla
-The famous street in Fatimid Cairo lined with medieval buildings. :: Al-Mu'izz Street
-The Mamluk striped masonry of light and dark stone is called this. :: Ablaq
 The Ottoman mosque in Istanbul with the most famous İznik tile panels in its interior, built by Sinan for a Grand Vizier. :: The Rüstem Pasha Mosque
 The mosque in Sinan's work that is shaped by an octagon of piers under one dome. :: The Selimiye Mosque
 The Selimiye's main dome is about this wide. :: About 31 metres
@@ -518,31 +529,37 @@ The first Ottoman imperial mosque built in Istanbul after 1453. :: The Fatih Mos
 The Abbasid caliph who built the Great Mosque of Samarra. :: Al-Mutawakkil
 The second spiral-minaret mosque in Samarra. :: The Mosque of Abu Dulaf
 The Mosque of Ibn Tulun's minaret has this kind of outside stair. :: A spiral (outside) stair
-Ahmad ibn Tulun was the governor of this land for the Abbasids. :: Egypt
 The Mezquita in Cordoba was enlarged by Al-Hakam II, who added this richly decorated part. :: The mihrab (and maqsura)
 The dome over the mihrab area at Cordoba uses these crossing arches. :: Interlaced ribs
 The Almoravid-era dome in Marrakesh, one of the few left from that time. :: The Almoravid Qubba (Qubba Ba'adiyyin)
 The Christian art style in Spain that copied Islamic forms after the Reconquista. :: Mudéjar
 The Seljuk caravanserai near Aksaray on the Silk Road. :: Sultan Han
 The Persian four-iwan plan spread under this dynasty in the 11th–12th centuries. :: The Seljuks
-The Friday Mosque (Masjid-e Jameh) of Isfahan is famous for showing this plan. :: The four-iwan plan
 The Ilkhanid capital with the Öljeitü mausoleum. :: Soltaniyeh
 The Indian sultanate capital with the Gol Gumbaz. :: Bijapur
-The Gol Gumbaz is famous for this sound effect in its gallery. :: A whispering gallery
-The Mughal mosque in Delhi's old city built from red sandstone and white marble. :: Jama Masjid
 The material used for Mughal inlay of coloured stones in marble is called this in Persian. :: Parchin kari (pietra dura)
-The Sheikh Zayed Grand Mosque's main hall has one of the world's largest hand-knotted carpets, made in this country. :: Iran
 The Turkish architect who designed the Faisal Mosque in Islamabad. :: Vedat Dalokay
 The Egyptian architect of many Saudi mosques, including the Qiblatayn and Quba rebuilds. :: Abdel-Wahed El-Wakil
-The Algiers mosque with the world's tallest minaret. :: Djamaa El Djazaïr
 The French architect of the Hassan II Mosque. :: Michel Pinseau
 The Hassan II Mosque's minaret is about this tall. :: About 210 metres
-The Hijazi wooden window boxes are called this in Jeddah. :: Rawashin
-The Najdi palace in Hofuf with a domed mosque and Ottoman features. :: Ibrahim Palace (Qasr Ibrahim)
+The palace in Hofuf with a domed mosque and Ottoman features. :: Ibrahim Palace (Qasr Ibrahim)
 The Rijal Alma' village in Asir is known for houses built from this. :: Stone (layered with slate)
-The Al-Masmak Fort is in this city. :: Riyadh
 The Abbasid caliph who enlarged Al-Masjid al-Haram greatly in the 700s. :: Al-Mahdi
 The Ottoman sultan in whose time the Ka'bah was rebuilt after the flood of 1630. :: Murad IV
+The mud bricks of the Djenné mosque are re-plastered every year in this festival. :: Crépissage
+The Great Mosque of Cordoba's mihrab is famous for its mosaics given by this Byzantine emperor's craftsmen. :: Nikephoros II Phokas
+The Selimiye Mosque's dome is about this wide. :: About 31 metres
+The Taj Mahal's white marble came from this place. :: Makrana
+The architect of the Hassan II Mosque in Casablanca. :: Michel Pinseau
+The Faisal Mosque was designed by this Turkish architect. :: Vedat Dalokay
+The Ottoman sultan's rebuilding of Al-Masjid an-Nabawi took about this long. :: 12 years (1849–1861)
+The kiswah uses about this much silk. :: About 670 kg (dyed black)
+The famous Ottoman calligrapher known as "the Qibla of calligraphers". :: Şeyh Hamdullah ﵀
+The famous calligrapher who wrote the big roundels in Hagia Sophia. :: Kazasker Mustafa İzzet Efendi ﵀
+The calligrapher who wrote much of the Quran verses in Al-Masjid an-Nabawi in the 1800s. :: Abdullah Zühdü Efendi ﵀
+The Persian system of intersecting arches forming a star-patterned net under a dome or vault. :: Karbandi
+The number of tile shapes that Lu and Steinhardt found behind many girih patterns, in their 2007 study. :: Five
+The mud-brick vault built without formwork from leaning courses, revived by Hassan Fathy ﵀. :: The Nubian vault
 
 ## tf
 True or false? The Taj Mahal is a mosque. :: False (it is a tomb, with a mosque beside it)

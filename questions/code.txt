@@ -48,7 +48,6 @@ CSS stands for this. :: Cascading Style Sheets
 The language used to query databases. :: SQL
 The language made by Sun Microsystems with the slogan 'write once, run anywhere'. :: Java
 The language Apple introduced in 2014 for iPhone apps. :: Swift
-The language created by Dennis Ritchie at Bell Labs. :: C
 The extension of C created by Bjarne Stroustrup. :: C++
 The engineering software for matrix maths named 'matrix laboratory'. :: MATLAB
 The symbol used for comments in Python. :: # (hash)
@@ -95,8 +94,7 @@ AI stands for this. :: Artificial intelligence
 The test proposed in 1950 to judge whether a machine can think like a human. :: Turing test
 The scientist the Turing test is named after. :: Alan Turing
 The woman often called the first computer programmer. :: Ada Lovelace
-The machine Charles Babbage designed that Ada Lovelace wrote programs for. :: Analytical Engine
-A grid of rows and columns in a spreadsheet. :: Cells
+The boxes in a spreadsheet grid where rows and columns meet. :: Cells
 The spreadsheet program made by Microsoft. :: Excel
 The formula =SUM(A1:A3) does this. :: Adds cells A1 to A3
 The machine code that a CPU runs is made of these. :: Instructions in binary
@@ -104,6 +102,8 @@ A robot programmed with blocks in many school classrooms, made by LEGO. :: LEGO 
 A tiny single-board computer made for education in Britain. :: Raspberry Pi
 The open-source microcontroller board from Italy used in many student projects. :: Arduino
 QR in QR code stands for this. :: Quick Response
+The programming language created by Guido van Rossum and named after a comedy group. :: Python (after Monty Python)
+The Saudi Ministry of Interior platform for services like renewing passports and iqamas. :: Absher
 
 ## 200
 The value printed by print(len('hello')) in Python. :: 5
@@ -206,10 +206,24 @@ The company that created the Java language. :: Sun Microsystems
 The language used for statistics, with a one-letter name. :: R
 The popular Python library for numerical arrays. :: NumPy
 The popular Python library for data tables. :: pandas
-
-## 300
+The language created by Dennis Ritchie at Bell Labs. :: C
 The tool that tracks who changed which line of code and when. :: Version control (Git)
 Combining one Git branch's changes into another. :: Merge
+The structure that links blocks with hashes in cryptocurrencies. :: Blockchain
+The basic unit of quantum information. :: Qubit
+The rule for updating probabilities with new evidence. :: Bayes' theorem
+The Persian mathematician whose name gave us the word algorithm. :: Al-Khwarizmi
+The word algebra comes from 'al-jabr' in the title of a book by this scholar. :: Al-Khwarizmi
+The woman who wrote the first published computer program, for the Bernoulli numbers. :: Ada Lovelace
+The German cipher machine that Turing helped break. :: Enigma
+The Finnish student who started Linux in 1991. :: Linus Torvalds
+The Saudi university near Jeddah known for its high-performance computing centre and Shaheen supercomputer. :: KAUST
+The Saudi telecom company that changed its logo to lowercase letters in 2019. :: stc
+The national single sign-on system Saudi residents use for government services. :: Nafath
+The law saying that the number of transistors doubles roughly every two years. :: Moore's law
+The famous 1999 worry that dates stored with two digits would fail. :: Y2K bug
+
+## 300
 The Git command that copies a remote repository to your machine. :: git clone
 A request to merge your changes, reviewed on GitHub. :: Pull request
 The format that describes a regular pattern for matching text. :: Regular expression
@@ -242,7 +256,6 @@ The class of problems whose solutions can be checked quickly. :: NP
 The biggest open question in computer science, worth a million dollars. :: P versus NP
 A problem is NP-complete if it is in NP and this. :: NP-hard (every NP problem reduces to it)
 The first problem proven NP-complete. :: Boolean satisfiability (SAT)
-The theorem that proved SAT is NP-complete in 1971. :: Cook–Levin theorem
 The problem proved undecidable by Turing: will a program finish? :: Halting problem
 The abstract machine with an infinite tape that defines computability. :: Turing machine
 The simplest machine that recognises regular languages. :: Finite automaton
@@ -259,7 +272,6 @@ A bug where memory is allocated and never freed. :: Memory leak
 A bug where two threads change shared data at the same time and the result depends on timing. :: Race condition
 A lock that lets only one thread into a critical section. :: Mutex
 A situation where two processes wait on each other forever. :: Deadlock
-The four conditions for deadlock are named after this person. :: Coffman
 A counter used to control access to a shared resource, invented by Dijkstra. :: Semaphore
 The technique that lets a computer use disk as extra memory. :: Virtual memory
 Fixed-size blocks of virtual memory. :: Pages
@@ -308,6 +320,15 @@ Writing tests before writing the code. :: Test-driven development
 Automatically building and testing code on every change. :: Continuous integration
 A lightweight package that bundles an app and its dependencies, like Docker. :: Container
 The tool most used to run containers at scale. :: Kubernetes
+The machine Charles Babbage designed that Ada Lovelace wrote programs for. :: Analytical Engine
+The machine learning approach that learns from labelled examples. :: Supervised learning
+The machine learning approach that finds patterns in unlabelled data. :: Unsupervised learning
+The machine learning approach that learns from rewards and penalties. :: Reinforcement learning
+Grace Hopper popularised this word after finding a moth in a relay. :: Bug
+The pseudonymous creator of Bitcoin. :: Satoshi Nakamoto
+The highest award in computer science, often called its Nobel Prize. :: Turing Award
+The program that beat world chess champion Garry Kasparov in 1997. :: Deep Blue
+KAUST's supercomputer is named after this bird. :: Shaheen (peregrine falcon)
 
 ## 400
 The cache replacement policy that evicts the item used least often. :: LFU
@@ -350,16 +371,11 @@ The key exchange method that lets two parties agree a secret over a public chann
 The public-key method based on elliptic curves. :: Elliptic curve cryptography
 The protocol that secures HTTPS connections. :: TLS
 The attack that intercepts messages between two parties. :: Man-in-the-middle attack
-The structure that links blocks with hashes in cryptocurrencies. :: Blockchain
 The consensus method Bitcoin uses. :: Proof of work
 A function that is easy to compute but hard to reverse. :: One-way function
 The algorithm that factors numbers quickly on a quantum computer. :: Shor's algorithm
 The quantum search algorithm with a square-root speed-up. :: Grover's algorithm
-The basic unit of quantum information. :: Qubit
 The quantum effect that links two qubits' states. :: Entanglement
-The machine learning approach that learns from labelled examples. :: Supervised learning
-The machine learning approach that finds patterns in unlabelled data. :: Unsupervised learning
-The machine learning approach that learns from rewards and penalties. :: Reinforcement learning
 The algorithm used to train neural networks by passing errors backwards. :: Backpropagation
 The optimisation method that steps against the gradient. :: Gradient descent
 A model that fits training data too closely and fails on new data. :: Overfitting
@@ -377,7 +393,6 @@ The measure of a classifier's true positives among predicted positives. :: Preci
 The measure of true positives among actual positives. :: Recall
 The harmonic mean of precision and recall. :: F1 score
 The plot of true positive rate against false positive rate. :: ROC curve
-The rule for updating probabilities with new evidence. :: Bayes' theorem
 The algorithm that finds the longest common subsequence uses this technique. :: Dynamic programming
 The edit distance between two strings, counting insertions, deletions and substitutions. :: Levenshtein distance
 The string search algorithm that never moves backwards in the text, using a failure table. :: Knuth–Morris–Pratt
@@ -410,31 +425,31 @@ The language created at Google in 2009 with goroutines. :: Go
 The programming principle that says a class should have only one reason to change. :: Single responsibility principle
 The five object-oriented design principles known by this acronym. :: SOLID
 The pattern of passing a class its dependencies instead of creating them inside. :: Dependency injection
+The theorem that proved SAT is NP-complete in 1971. :: Cook–Levin theorem
+The tree that answers prefix-sum queries and point updates in O(log n) using the lowest set bit. :: Fenwick tree (binary indexed tree)
+The cache write policy that updates main memory only when a modified block is evicted. :: Write-back
+The garbage collection method that frees objects when their count drops to zero, but fails on cycles. :: Reference counting
+The pre-emptive scheduling algorithm that always runs the job with the least time left. :: Shortest remaining time first (SRTF)
+The anomaly where giving FIFO page replacement more frames causes more page faults. :: Belady's anomaly
 
 ## 500
 The Unix command line tool whose name means 'global regular expression print'. :: grep
 The first computer virus to spread widely on PCs, written in Pakistan in 1986. :: Brain
-The programming language created by Guido van Rossum and named after a comedy group. :: Python (after Monty Python)
-The Persian mathematician whose name gave us the word algorithm. :: Al-Khwarizmi
 Al-Khwarizmi worked at this famous centre of learning in Baghdad. :: House of Wisdom (Bayt al-Hikma)
-The word algebra comes from 'al-jabr' in the title of a book by this scholar. :: Al-Khwarizmi
 The 9th-century Arab scholar who wrote the first known work on cryptanalysis using frequency analysis. :: Al-Kindi
 The Banu Musa brothers of Baghdad described this early programmable machine in the 9th century. :: An automatic flute player
 The engineer who built a programmable castle clock and musical robot band in 1206. :: Al-Jazari
 The weaving loom controlled by punched cards, invented in 1804. :: Jacquard loom
-The woman who wrote the first published computer program, for the Bernoulli numbers. :: Ada Lovelace
 The 1936 paper in which Turing defined his machine. :: On Computable Numbers
 The mathematician who invented lambda calculus. :: Alonzo Church
 The thesis that anything computable can be computed by a Turing machine. :: Church–Turing thesis
 The British code-breaking centre where Turing worked in WWII. :: Bletchley Park
-The German cipher machine that Turing helped break. :: Enigma
 The first programmable electronic computer, built at Bletchley Park in 1943–44. :: Colossus
 The first general-purpose electronic computer, finished in 1945 in the USA. :: ENIAC
 The mathematician who wrote the 1945 report describing the stored-program computer. :: John von Neumann
 The first practical stored-program computer, run at Cambridge in 1949. :: EDSAC
 The first stored-program computer, nicknamed 'Baby', ran in 1948 in this city. :: Manchester
 The computer scientist who invented the first compiler and helped create COBOL. :: Grace Hopper
-Grace Hopper popularised this word after finding a moth in a relay. :: Bug
 The first widely used high-level language, released by IBM in 1957. :: FORTRAN
 The engineer who led the team that created FORTRAN. :: John Backus
 The language created by John McCarthy in 1958, the second-oldest high-level language still used. :: Lisp
@@ -458,27 +473,18 @@ The engineer who sent the first email between networked computers and chose the 
 The year the World Wide Web was proposed at CERN. :: 1989
 The first widely popular graphical web browser, released in 1993. :: Mosaic
 The scientist who designed JavaScript in about ten days in 1995. :: Brendan Eich
-The Finnish student who started Linux in 1991. :: Linus Torvalds
 The founder of the GNU project and the Free Software Foundation. :: Richard Stallman
 The cryptographers who invented RSA in 1977. :: Rivest, Shamir and Adleman
-The pseudonymous creator of Bitcoin. :: Satoshi Nakamoto
 The mathematician whose 1948 paper founded information theory. :: Claude Shannon
 The unit of information Shannon named, a word suggested by John Tukey. :: Bit
-The highest award in computer science, often called its Nobel Prize. :: Turing Award
 The first woman to win the Turing Award, in 2006. :: Frances Allen
 The three 'godfathers of deep learning' who shared the 2018 Turing Award. :: Hinton, LeCun and Bengio
 The 2012 neural network that won ImageNet and started the deep learning boom. :: AlexNet
-The program that beat world chess champion Garry Kasparov in 1997. :: Deep Blue
 The DeepMind program that beat Go champion Lee Sedol in 2016. :: AlphaGo
 The DeepMind system that predicted protein structures and shared the 2024 Chemistry Nobel. :: AlphaFold
 The 2024 Nobel Prize in Physics went to Hopfield and this AI pioneer. :: Geoffrey Hinton
-The Saudi university near Jeddah known for its high-performance computing centre and Shaheen supercomputer. :: KAUST
-KAUST's supercomputer is named after this bird. :: Shaheen (peregrine falcon)
 The Saudi authority for data and AI, set up in 2019. :: SDAIA
 The Saudi Arabic large language model released by SDAIA. :: ALLaM
-The Saudi telecom company that changed its logo to lowercase letters in 2019. :: stc
-The national single sign-on system Saudi residents use for government services. :: Nafath
-The Saudi Ministry of Interior platform for services like renewing passports and iqamas. :: Absher
 The AI company launched by Saudi Arabia's Public Investment Fund in 2025. :: HUMAIN
 The Unicode block that includes the Arabic letters starts at this hexadecimal code point. :: U+0600
 The typographic feature that changes Arabic letter shapes by position in a word. :: Contextual shaping (joining)
@@ -486,7 +492,6 @@ The algorithm that orders mixed right-to-left and left-to-right text for display
 The ranking list of the world's 500 fastest supercomputers. :: TOP500
 The unit of computing speed measured as 10¹⁸ operations per second. :: Exaflop
 The first exascale supercomputer on the TOP500, at Oak Ridge in 2022. :: Frontier
-The law saying that the number of transistors doubles roughly every two years. :: Moore's law
 The 'law' that software gets slower faster than hardware gets faster. :: Wirth's law
 The adage that adding people to a late software project makes it later. :: Brooks's law
 Brooks's law comes from this 1975 book. :: The Mythical Man-Month
@@ -498,7 +503,6 @@ The 2017 ransomware that spread through an NSA exploit called EternalBlue. :: Wa
 The 2014 bug in OpenSSL that leaked server memory. :: Heartbleed
 The 2021 bug in a Java logging library that let attackers run code remotely. :: Log4Shell
 The 2018 CPU flaws that used speculative execution to leak data. :: Spectre and Meltdown
-The famous 1999 worry that dates stored with two digits would fail. :: Y2K bug
 The date in 2038 when 32-bit Unix time overflows. :: 19 January 2038
 Unix time counts seconds since this date. :: 1 January 1970
 The 1996 rocket that exploded because a 64-bit float was converted to a 16-bit integer. :: Ariane 5 (Flight 501)
@@ -512,3 +516,20 @@ The algorithm that sorts by randomly shuffling until sorted, as a joke. :: Bogos
 The number that ASCII 'DEL' has, the highest 7-bit value. :: 127
 The number of possible IPv4 addresses, roughly. :: About 4.3 billion
 The first domain name ever registered, in 1985. :: symbolics.com
+The four conditions for deadlock are named after this person. :: Coffman
+The probabilistic algorithm that estimates the number of distinct items using very little memory. :: HyperLogLog
+The deterministic linear-time selection algorithm that splits items into groups of five. :: Median of medians
+The Hopcroft–Karp algorithm solves this problem in O(E√V) time. :: Maximum bipartite matching
+The theorem that every non-trivial semantic property of programs is undecidable. :: Rice's theorem
+The lemma used to prove that a language such as aⁿbⁿ is not regular. :: Pumping lemma
+The type inference algorithm used in ML and Haskell. :: Hindley–Milner
+The cache coherence protocol named after its Modified, Exclusive, Shared and Invalid states. :: MESI
+The out-of-order execution algorithm with reservation stations, first used in the IBM System/360 Model 91. :: Tomasulo's algorithm
+The self-adjusting binary search tree that moves each accessed node to the root. :: Splay tree
+The randomised structure of layered linked lists with expected O(log n) search. :: Skip list
+The algorithm that finds the longest palindromic substring in linear time. :: Manacher's algorithm
+The multi-pattern string search algorithm that builds a trie with failure links. :: Aho–Corasick algorithm
+The algorithm that multiplies two large numbers using three half-size multiplications instead of four. :: Karatsuba algorithm
+The matrix multiplication algorithm that uses seven multiplications for 2 × 2 blocks instead of eight. :: Strassen's algorithm
+The consistency model in which each operation appears to take effect at one instant between its call and return. :: Linearizability
+The 1985 result that no deterministic consensus algorithm can be guaranteed in an asynchronous system with one faulty process. :: FLP impossibility

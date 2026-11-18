@@ -66,9 +66,7 @@ The phrase "Form follows function" is linked with this American architect. :: Lo
 The architect of the Guggenheim Museum in Bilbao. :: Frank Gehry
 The architect of the Guggenheim Museum in New York, with its spiral ramp. :: Frank Lloyd Wright
 The house built over a waterfall by Frank Lloyd Wright. :: Fallingwater
-The Swiss-French architect known as Le Corbusier was born with this name. :: Charles-Édouard Jeanneret
 The Iraqi-British architect called the "Queen of the Curve". :: Zaha Hadid
-Zaha Hadid designed this research centre in Riyadh. :: KAPSARC
 The Spanish architect of the Sagrada Família. :: Antoni Gaudí
 The Sagrada Família is in this city. :: Barcelona
 The Taj Mahal is in this Indian city. :: Agra
@@ -106,6 +104,7 @@ A Buddhist dome-shaped monument. :: A stupa
 The ancient Greek city centre and market. :: The agora
 The Roman city centre and market. :: The forum
 The ancient stepped temple towers of Mesopotamia. :: Ziggurats
+The engineer whose company built the Eiffel Tower. :: Gustave Eiffel
 
 ## 200
 The Roman writer whose "Ten Books on Architecture" is the oldest surviving work on the subject. :: Vitruvius
@@ -124,10 +123,8 @@ The carved panels between triglyphs on a Doric frieze. :: Metopes
 The grooved blocks on a Doric frieze. :: Triglyphs
 A statue of a woman used as a column. :: A caryatid
 The Erechtheion's porch has six of these. :: Caryatids
-The architects of the Parthenon. :: Ictinus and Callicrates
 The sculptor who oversaw the Parthenon's decoration. :: Phidias
 The Pantheon in Rome was rebuilt under this emperor. :: Hadrian
-The Pantheon's dome is this many metres across. :: About 43
 The architect of the dome of Florence Cathedral. :: Filippo Brunelleschi
 Brunelleschi is credited with rediscovering this drawing method. :: Linear perspective
 The Renaissance writer of "On the Art of Building". :: Leon Battista Alberti
@@ -189,33 +186,41 @@ The French architect of the Louvre Abu Dhabi. :: Jean Nouvel
 The dome of the Louvre Abu Dhabi casts this effect. :: A "rain of light"
 The Danish firm of Bjarke Ingels. :: BIG
 The Dutch architect who wrote "Delirious New York". :: Rem Koolhaas
-The architect of the Burj Khalifa's design firm, Skidmore, Owings & Merrill, was this person. :: Adrian Smith
-The Burj Khalifa's plan is based on this desert flower. :: Hymenocallis (spider lily)
 Burj Khalifa's height. :: 828 metres
 Burj Khalifa opened in this year. :: 2010
 The tower in Jeddah planned to be over 1,000 metres tall. :: Jeddah Tower
 The Makkah Royal Clock Tower is part of this complex. :: Abraj Al-Bait
 The first woman to win the Pritzker Prize. :: Zaha Hadid
-Zaha Hadid won the Pritzker Prize in this year. :: 2004
-The Pritzker Prize was first given in this year. :: 1979
-The first winner of the Pritzker Prize. :: Philip Johnson
 The Egyptian architect famous for mud-brick housing at New Gourna. :: Hassan Fathy ﵀
 Hassan Fathy's ﵀ famous book. :: Architecture for the Poor
-The Aga Khan Award for Architecture is given every this many years. :: Three
 The style of Tudor houses with exposed wooden frames. :: Half-timbered (Tudor)
 The Byzantine church in Istanbul later a mosque. :: Hagia Sophia
-The architects of Hagia Sophia. :: Anthemius of Tralles and Isidore of Miletus
-Hagia Sophia was finished in this year. :: 537
 The structural element that lets a round dome sit on a square base. :: Pendentives
 The Romanesque style is known for thick walls and these arches. :: Round arches
 The Gothic style began at this abbey near Paris. :: Saint-Denis
-The abbot who rebuilt Saint-Denis. :: Abbot Suger
 Ribbed vaults let Gothic church walls hold bigger openings of this kind. :: Windows
 The famous Gothic cathedral south-west of Paris with blue glass. :: Chartres
 The cathedral in Germany with twin spires that took over 600 years to finish. :: Cologne Cathedral
+The horizontal beam over a door or window. :: A lintel
+The tomb of King Mausolus gave us this word. :: Mausoleum
+The Doge's Palace is in this city. :: Venice
+The fortress-palace complex in Granada. :: The Alhambra
+The Saudi building tradition of the Najd region uses this material. :: Mud brick (adobe)
+The Saudi city project with a 170 km linear city. :: The Line (NEOM)
+The new Riyadh downtown project with a cube-shaped tower. :: The Mukaab
+The UNESCO-listed mud-brick district near Riyadh, seat of the first Saudi state, now restored by the Diriyah Gate project. :: Diriyah (At-Turaif)
+The architectural term for the open space in the middle of a Roman house. :: The atrium
+The Roman country house. :: A villa
+The ancient Greek sports building with a running track. :: A stadium
+The Faisal Mosque was named after this Saudi king. :: King Faisal ibn Abdulaziz
+The courtyards of Al-Masjid an-Nabawi in Madinah are shaded by these giant structures that open and close. :: Retractable umbrellas
+The Ishtar Gate came from this ancient city. :: Babylon
+The Khmer temple complex in Cambodia. :: Angkor Wat
+The Inca citadel high in the Andes. :: Machu Picchu
+The Chinese palace complex in Beijing. :: The Forbidden City
+The Chinese practice of placing buildings in harmony with nature. :: Feng shui
 
 ## 300
-The book by Vitruvius was rediscovered in this Swiss monastery in 1414. :: St Gallen
 The Renaissance architect who designed the Ospedale degli Innocenti. :: Filippo Brunelleschi
 Alberti's façade in Florence for this church. :: Santa Maria Novella
 Alberti designed this church in Mantua. :: Sant'Andrea
@@ -225,15 +230,12 @@ Palladio's famous church in Venice with a white classical front. :: San Giorgio 
 The English architect who brought Palladian ideas to England in the 1600s. :: Inigo Jones
 Inigo Jones designed this house in Greenwich. :: The Queen's House
 The Banqueting House in London was designed by this architect. :: Inigo Jones
-Wren's London church with a famous "wedding cake" steeple. :: St Bride's
 The English Baroque architect of Blenheim Palace. :: Sir John Vanbrugh
 The English Baroque architect who worked with Vanbrugh and Wren. :: Nicholas Hawksmoor
 The garden designer of Versailles. :: André Le Nôtre
 The roof type named after the French architect François Mansart. :: The mansard roof
 Name this roof type, with two slopes on each side, the lower one steep. {img:roof-mansard.svg} :: Mansard roof
 Name this roof type, with two slopes on each side, often seen on barns. {img:roof-gambrel.svg} :: Gambrel roof
-Name this simple roof type, with two slopes meeting at a ridge. {img:roof-gable.svg} :: Gable roof
-Name this roof type, sloping down on all four sides. {img:roof-hip.svg} :: Hip roof
 Name this roof type, with a single slope. {img:roof-shed.svg} :: Shed (skillion) roof
 The Prussian architect of the Altes Museum in Berlin. :: Karl Friedrich Schinkel
 The British Neoclassical architect of the Bank of England. :: Sir John Soane
@@ -260,7 +262,6 @@ The Dutch art and design movement of Mondrian and Rietveld. :: De Stijl
 Rietveld's house in Utrecht. :: The Rietveld Schröder House
 The Russian avant-garde movement in architecture of the 1920s. :: Constructivism
 Tatlin's unbuilt spiral tower for the Third International. :: Tatlin's Tower
-The Bauhaus director after Gropius, from 1928. :: Hannes Meyer
 The last Bauhaus director. :: Ludwig Mies van der Rohe
 The 1927 housing exhibition in Stuttgart. :: The Weissenhof Estate
 The international congresses of modern architecture founded in 1928. :: CIAM
@@ -305,19 +306,30 @@ Snøhetta designed this cultural centre in Dhahran. :: Ithra (King Abdulaziz Cen
 Ithra's design is inspired by these stones. :: Pebbles (stones bound together)
 The firm that designed the King Abdullah Petroleum Studies and Research Center. :: Zaha Hadid Architects
 The Al Faisaliah Tower was designed by this British architect. :: Norman Foster
-The year Al Faisaliah Tower was finished. :: 2000
 Name this type of arch, with an S-shaped curve on each side meeting in a point. {img:arch-ogee.svg} :: Ogee arch
 Name this type of opening, spanned by a straight lintel or flat arch. {img:arch-flat.svg} :: A flat arch (lintel)
-Name this roof type, typical of modern houses in hot dry places. {img:roof-flat.svg} :: Flat roof
-The roof shape in this picture. {img:roof-dome.svg} :: A dome
-The horizontal beam over a door or window. :: A lintel
 Building with posts and beams, as in Greek temples. :: Post and lintel (trabeated) construction
 Building with arches and vaults, as in Roman architecture. :: Arcuated construction
 The Greek word for a temple's inner room holding the statue. :: Naos (cella)
 A temple with columns on all four sides. :: Peripteral
+The Swiss-French architect known as Le Corbusier was born with this name. :: Charles-Édouard Jeanneret
+Zaha Hadid designed this research centre in Riyadh. :: KAPSARC
+The architects of the Parthenon. :: Ictinus and Callicrates
+The Pantheon's dome is this many metres across. :: About 43
+The first winner of the Pritzker Prize. :: Philip Johnson
+The Roman emperor who built the Domus Aurea after the great fire of Rome. :: Nero
+The Escorial palace-monastery is near this city. :: Madrid
+Three famous architects worked in Behrens's office: Gropius, Mies and this one. :: Le Corbusier
+The Ishtar Gate is covered with tiles of this colour. :: Blue
+The ancient city of Mohenjo-daro is in this modern country. :: Pakistan
+The great stone ruins in southern Africa that gave a country its name. :: Great Zimbabwe
+The Russian church in Moscow's Red Square with onion domes. :: St Basil's Cathedral
+Name this simple roof type, with two slopes meeting at a ridge. {img:roof-gable.svg} :: Gable roof
+Name this roof type, typical of modern houses in hot dry places. {img:roof-flat.svg} :: Flat roof
+The roof shape in this picture. {img:roof-dome.svg} :: A dome
+Name this roof type, sloping down on all four sides. {img:roof-hip.svg} :: Hip roof
 
 ## 400
-The tomb of King Mausolus gave us this word. :: Mausoleum
 The ancient Egyptian architect of the Step Pyramid. :: Imhotep
 The Step Pyramid is at this site. :: Saqqara
 The Pharaoh for whom the Step Pyramid was built. :: Djoser
@@ -334,8 +346,6 @@ The English cathedral with the tallest medieval spire still standing. :: Salisbu
 The French Gothic chapel in Paris with walls almost all of glass. :: Sainte-Chapelle
 The French cathedral with the highest Gothic choir vault, which collapsed in 1284. :: Beauvais Cathedral
 The medieval architect whose sketchbook survives from the 13th century. :: Villard de Honnecourt
-The Doge's Palace is in this city. :: Venice
-The fortress-palace complex in Granada. :: The Alhambra
 The Alhambra was built mainly under this dynasty. :: The Nasrids
 The Renaissance villa garden near Rome with many fountains. :: Villa d'Este
 The Mannerist palace by Giulio Romano in Mantua. :: Palazzo Te
@@ -386,7 +396,6 @@ The Egyptian architect of the expansion of the Two Holy Mosques in the 1980s. ::
 Mohamed Kamal Ismail ﵀ refused payment for this work. :: The expansion of the Two Holy Mosques
 The Saudi heritage village in Asir famous for painted interiors. :: Rijal Alma'
 The colourful wall painting of Asir women, on the UNESCO list. :: Al-Qatt Al-Asiri
-The Saudi building tradition of the Najd region uses this material. :: Mud brick (adobe)
 The triangular openings in Najdi walls are for this. :: Ventilation and light
 The Saudi heritage area in Al-Ahsa with palm groves and old buildings. :: Al-Ahsa Oasis
 The rock art site in Ha'il listed by UNESCO. :: Jubbah and Shuwaymis
@@ -394,22 +403,16 @@ The 2021 UNESCO listing in Saudi Arabia of a cultural area in the south-west. ::
 The ancient town of Dumat al-Jandal in Al-Jouf has this famous early mosque. :: The Mosque of Umar ibn al-Khattab ﵁
 The UNESCO site in Saudi Arabia added in 2023 with a natural reserve. :: The 'Uruq Bani Ma'arid
 The "Mirror" building at Al-'Ula, the largest mirrored building in the world. :: Maraya
-The Saudi city project with a 170 km linear city. :: The Line (NEOM)
-The new Riyadh downtown project with a cube-shaped tower. :: The Mukaab
 The design guidelines for Riyadh's new buildings based on Najdi style. :: The Salmani architectural style
 The King Salman Charter for Architecture and Urbanism was launched in this year. :: 2021
-The UNESCO-listed mud-brick district near Riyadh, seat of the first Saudi state, now restored by the Diriyah Gate project. :: Diriyah (At-Turaif)
 The Saudi Architecture and Design Commission was set up in this year. :: 2020
 The Roman engineer who wrote about aqueducts of Rome. :: Frontinus
 The term for a round church or building with a dome. :: A rotunda
 The term for a semicircular end of a church, behind the altar. :: The apse
 The crossing arm of a church that makes a cross plan. :: The transept
 The Latin cross plan has one arm longer; the Greek cross plan has arms this. :: Equal
-The architectural term for the open space in the middle of a Roman house. :: The atrium
 The Roman multi-storey apartment blocks. :: Insulae
-The Roman country house. :: A villa
 The ancient Greek covered walkway with columns. :: A stoa
-The ancient Greek sports building with a running track. :: A stadium
 The style of 19th-century buildings that mixed past styles. :: Eclecticism
 The term for copying old styles in new buildings. :: Revivalism (historicism)
 The term for the study of building in harmony with local climate and traditions. :: Vernacular architecture
@@ -417,12 +420,22 @@ The 1964 exhibition "Architecture Without Architects" was curated by this person
 The term for reusing an old building for a new purpose. :: Adaptive reuse
 The international charter on conserving monuments, 1964. :: The Venice Charter
 The international body for monuments and sites that advises UNESCO. :: ICOMOS
+The architect of the Burj Khalifa's design firm, Skidmore, Owings & Merrill, was this person. :: Adrian Smith
+The Burj Khalifa's plan is based on this desert flower. :: Hymenocallis (spider lily)
+Zaha Hadid won the Pritzker Prize in this year. :: 2004
+The Pritzker Prize was first given in this year. :: 1979
+The Aga Khan Award for Architecture is given every this many years. :: Three
+The architects of Hagia Sophia. :: Anthemius of Tralles and Isidore of Miletus
+Hagia Sophia was finished in this year. :: 537
+The abbot who rebuilt Saint-Denis. :: Abbot Suger
+Wren's London church with a famous "wedding cake" steeple. :: St Bride's
+The Bauhaus director after Gropius, from 1928. :: Hannes Meyer
+The year Al Faisaliah Tower was finished. :: 2000
 
 ## 500
 The architect of the Temple of Hatshepsut at Deir el-Bahari. :: Senenmut
 The ancient Greek theatre known for perfect acoustics. :: The Theatre of Epidaurus
 The architect of the Theatre of Epidaurus, according to Pausanias. :: Polykleitos the Younger
-The Roman emperor who built the Domus Aurea after the great fire of Rome. :: Nero
 The architect of Trajan's Forum. :: Apollodorus of Damascus
 The Roman temple in France that inspired Jefferson's Virginia Capitol. :: The Maison Carrée in Nîmes
 The Romanesque abbey in France whose great church was once the largest in Christendom. :: Cluny
@@ -434,7 +447,6 @@ The treatise "I quattro libri dell'architettura" was published in this year. :: 
 Sebastiano Serlio's books made this window type famous. :: The Serliana (Venetian or Palladian window)
 The French Renaissance château with a double-helix staircase. :: Château de Chambord
 The double-helix stair at Chambord is linked by legend to this artist. :: Leonardo da Vinci
-The Escorial palace-monastery is near this city. :: Madrid
 The Baroque architect of the Spanish Steps in Rome. :: Francesco de Sanctis
 The Baroque square in Rome built on an ancient stadium. :: Piazza Navona
 Bernini's fountain in Piazza Navona. :: The Fountain of the Four Rivers
@@ -444,10 +456,8 @@ The Scottish brothers famous for Neoclassical interiors. :: The Adam brothers (R
 The architect of the US Capitol's dome of 1866. :: Thomas U. Walter
 The French "Beaux-Arts" school taught design based on this kind of planning. :: Axial, symmetrical (classical) planning
 The architect of the Paris Opéra. :: Charles Garnier
-The engineer whose company built the Eiffel Tower. :: Gustave Eiffel
 The main engineers who designed the Eiffel Tower. :: Maurice Koechlin and Émile Nouguier
 The architect of the AEG Turbine Factory in Berlin. :: Peter Behrens
-Three famous architects worked in Behrens's office: Gropius, Mies and this one. :: Le Corbusier
 The Fagus Factory was designed by Gropius and this partner. :: Adolf Meyer
 The German Expressionist tower for Einstein in Potsdam. :: The Einstein Tower
 The architect of the Einstein Tower. :: Erich Mendelsohn
@@ -469,33 +479,22 @@ The Japanese partnership of Kazuyo Sejima and Ryue Nishizawa. :: SANAA
 SANAA designed the Rolex Learning Center in this city. :: Lausanne
 The Ottoman-Turkish architect Sedad Hakkı Eldem promoted this. :: The modern Turkish house style
 The Turkish architect of the Faisal Mosque in Islamabad. :: Vedat Dalokay
-The Faisal Mosque was named after this Saudi king. :: King Faisal ibn Abdulaziz
 The Faisal Mosque's design looks like this. :: A Bedouin tent
 The Egyptian architect Abdel-Wahed El-Wakil designed this Jeddah mosque on the sea. :: The Island Mosque
 Abdel-Wahed El-Wakil also designed this mosque near the Quba area in Madinah. :: The Quba Mosque (rebuilding)
-The courtyards of Al-Masjid an-Nabawi in Madinah are shaded by these giant structures that open and close. :: Retractable umbrellas
 The German firm that made the giant retractable umbrellas of Al-Masjid an-Nabawi. :: SL Rasch
 The architect of the Al-'Ula hotel "Sharaan" carved into rock. :: Jean Nouvel
 The ancient Greek architect Hippodamus is called the father of this. :: Urban planning (the grid plan)
 Hippodamus came from this city. :: Miletus
 The Hellenistic Altar of Zeus was taken to a Berlin museum from this city. :: Pergamon
-The Ishtar Gate came from this ancient city. :: Babylon
-The Ishtar Gate is covered with tiles of this colour. :: Blue
-The ancient city of Mohenjo-daro is in this modern country. :: Pakistan
-The Khmer temple complex in Cambodia. :: Angkor Wat
-The Inca citadel high in the Andes. :: Machu Picchu
-The great stone ruins in southern Africa that gave a country its name. :: Great Zimbabwe
 The mud-brick Great Mosque in Mali. :: The Great Mosque of Djenné
 The 14th-century mosque in Timbuktu built by Abu Ishaq al-Sahili. :: Djinguereber Mosque
 The Japanese shrine rebuilt every 20 years. :: Ise Grand Shrine
 The Japanese style of tea houses and simple beauty. :: Sukiya style
-The Chinese palace complex in Beijing. :: The Forbidden City
 The traditional Chinese courtyard house. :: Siheyuan
 The Korean traditional house. :: Hanok
 The Indian rock-cut caves with Buddhist and Hindu art near Aurangabad. :: Ajanta and Ellora
 The Indian treatise on traditional architecture and layout. :: Vastu Shastra
-The Chinese practice of placing buildings in harmony with nature. :: Feng shui
-The Russian church in Moscow's Red Square with onion domes. :: St Basil's Cathedral
 The Norwegian wooden churches of the Middle Ages. :: Stave churches
 The Gothic church in Milan famous for its forest of pinnacles. :: Milan Cathedral
 The architect of the Basilica of Superga in Turin. :: Filippo Juvarra
@@ -519,3 +518,18 @@ The Rockefeller Center's main tower was designed under this lead architect. :: R
 The architect of the Villa Tugendhat in Brno. :: Ludwig Mies van der Rohe
 The Gothic Revival architect of the Natural History Museum in London. :: Alfred Waterhouse
 The architect of the Royal Courts of Justice in London. :: George Edmund Street
+The book by Vitruvius was rediscovered in this Swiss monastery in 1414. :: St Gallen
+The Gothic vault with short decorative ribs that link other ribs rather than spring from the wall. :: Lierne vault
+Robert Hooke's rule "as hangs the flexible line, so but inverted will stand the rigid arch" describes this curve. :: Catenary
+The Roman wall facing of small square stones set diagonally in a net-like pattern. :: Opus reticulatum
+The Greek temple plan with a double row of columns all around the cella. :: Dipteral
+The Iranian city whose Friday Mosque is the classic early example of the four-iwan plan, from the 12th century. :: Isfahan
+The Mamluk and Syrian technique of alternating courses of light and dark stone. :: Ablaq
+The Umayyad desert bathhouse in Jordan whose dome is painted with a map of the zodiac. :: Qusayr 'Amra
+Le Corbusier's 1914 structural system of floor slabs, columns and a stair, with no load-bearing walls. :: Dom-ino system
+Adolf Loos's method of planning interlocking rooms at different levels by their importance. :: Raumplan
+The French teacher whose "Précis des leçons" (1802–05) taught design by combining elements on a grid. :: Jean-Nicolas-Louis Durand
+Louis Kahn divided buildings into served spaces and these. :: Servant spaces
+The kind of transparency Colin Rowe and Robert Slutzky contrasted with literal transparency. :: Phenomenal transparency
+The interlocking wooden bracket sets that support the eaves in traditional Chinese buildings. :: Dougong
+The Chinese building manual by Li Jie, published in 1103 under the Song dynasty. :: Yingzao Fashi
