@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState, type ReactNode } from 'react'
 import type { Lang, ThemeId } from '../lib/types'
 import type { Strings } from '../lib/i18n'
 import { THEMES, formatCountdown, heritageOpen, msUntilHeritage } from '../lib/themes'
@@ -16,9 +16,11 @@ interface Props {
   onResume: () => void
   onBuilder: () => void
   onStudy: () => void
+  /** More buttons under the main ones (practice, bracket, waiting screen and so on) */
+  more?: ReactNode
 }
 
-export default function Home({ t, lang, theme, setTheme, hasGame, onNew, onResume, onBuilder, onStudy }: Props) {
+export default function Home({ t, lang, theme, setTheme, hasGame, onNew, onResume, onBuilder, onStudy, more }: Props) {
   const [flipped, setFlipped] = useState(false)
   const [, tick] = useState(0)
   useEffect(() => {
@@ -81,6 +83,7 @@ export default function Home({ t, lang, theme, setTheme, hasGame, onNew, onResum
             {t.studyFiles}
           </button>
         </div>
+        {more && <div className="home-more">{more}</div>}
       </section>
 
       <section className="panel stack">

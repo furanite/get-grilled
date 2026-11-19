@@ -1,0 +1,151 @@
+/* Tie-breaker, game log, printed sheets, flags, bracket, waiting screen, practice, display options. */
+
+/* Results: the tie-breaker offer */
+.tie-offer{display:flex;flex-direction:column;align-items:center;gap:10px;padding:16px 20px;border-radius:16px;border:1px dashed var(--accent);max-width:560px}
+.tie-offer p{margin:0}
+
+/* Home: the second row of buttons */
+.home-more{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.home-more .btn{font-size:14px;padding:9px 16px}
+
+/* Clue card: flag button */
+.flag-btn{font-size:12.5px;color:var(--muted);margin-inline-start:6px}
+.flag-btn.on{color:var(--accent);text-decoration:none;font-weight:700}
+
+/* Game log */
+.log-panel{width:min(1000px,100%)}
+.log-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr));gap:10px;margin:12px 0 16px}
+.log-team{padding:12px 14px;border-radius:12px;border:1px solid color-mix(in oklab,var(--edge) 35%,transparent);display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 10px;align-items:baseline;min-width:0}
+.log-team>b{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.log-score{font-family:var(--fd);font-size:22px;color:var(--accent);font-variant-numeric:tabular-nums}
+.log-team dl{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 10px;margin:4px 0 0;font-size:13px}
+.log-team dt{color:var(--muted)}
+.log-team dd{margin:0;text-align:end;font-variant-numeric:tabular-nums;overflow:hidden;text-overflow:ellipsis}
+.log-scroll{overflow-x:auto;max-width:100%}
+.log-table{width:100%;border-collapse:collapse;font-size:13px}
+.log-table th,.log-table td{text-align:start;padding:6px 8px;border-bottom:1px solid color-mix(in oklab,var(--text) 12%,transparent);vertical-align:top}
+.log-table th{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.log-table .num{font-variant-numeric:tabular-nums;white-space:nowrap}
+.log-table td.neg{color:var(--accent2)}
+.log-table .log-q{min-width:220px;color:var(--muted)}
+.log-table .log-q em{color:var(--text);font-style:normal}
+.log-table tr.k-right td:nth-last-child(2),.log-table tr.k-tiebreak td:nth-last-child(2){color:var(--accent)}
+
+/* Extras dialogs */
+.extras-panel{width:min(620px,100%)}
+.view-opt{align-items:flex-start}
+.view-opt input{margin-top:3px;flex:none}
+.view-opt>span{display:flex;flex-direction:column;gap:2px}
+.news-list{display:grid;gap:8px;padding-inline-start:20px}
+.flag-list{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+.flag-list li{padding:12px 14px;border-radius:12px;border:1px solid color-mix(in oklab,var(--edge) 35%,transparent);display:grid;gap:6px;margin:0}
+.flag-list p{margin:0}
+.small{font-size:12.5px}
+
+/* Printing: only the sheet being printed, black on white */
+.print-root{display:none}
+@media print{
+  body{background:#fff!important;color:#000!important}
+  body>*:not(.print-root){display:none!important}
+  .print-root{display:block!important;color:#000;background:#fff;font-family:system-ui,-apple-system,'Segoe UI',Arial,sans-serif;font-size:11pt;line-height:1.4}
+  .print-root *{color:#000!important;background:none!important;box-shadow:none!important;text-shadow:none!important;animation:none!important}
+  .print-sheet h1{font-size:18pt;margin:0 0 4pt}
+  .print-sheet h2{font-size:14pt;margin:14pt 0 4pt;break-after:avoid}
+  .print-sheet h3{font-size:12pt;margin:10pt 0 2pt;break-after:avoid}
+  .print-sheet li{margin:0 0 5pt;break-inside:avoid}
+  .print-sheet .sheet-cat{break-inside:avoid}
+  .print-note{border:1px solid #000;padding:4pt 6pt}
+  .print-sheet .log-table{font-size:9pt}
+  .print-sheet .log-table th,.print-sheet .log-table td{border-bottom:1px solid #999}
+  .print-sheet .log-stats{grid-template-columns:repeat(4,1fr)}
+  .print-sheet .log-team{border:1px solid #999}
+  .print-sign{margin-top:24pt}
+  @page{margin:14mm}
+}
+
+/* Bracket */
+.bracket-screen textarea{min-height:160px;resize:vertical;font-family:var(--fb)}
+.bracket-setup{display:grid;gap:12px;max-width:560px}
+.bracket{display:grid;gap:12px;min-width:0}
+.bracket-div{margin:0;font-family:var(--fd)}
+.bracket-champ{margin:0;font-family:var(--fd);font-size:clamp(20px,3vw,32px)}
+.bracket-champ b{color:var(--accent)}
+.bracket-rounds{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(180px,1fr);gap:14px;overflow-x:auto;padding-bottom:6px}
+.bracket-round{display:flex;flex-direction:column;justify-content:space-around;gap:10px;min-width:0}
+.bracket-round h3{margin:0}
+.bracket-match{padding:10px 12px;border-radius:12px;border:1px solid color-mix(in oklab,var(--edge) 40%,transparent);background:color-mix(in oklab,var(--bg) 60%,transparent);display:grid;gap:4px}
+.bracket-match.decided{border-color:var(--accent)}
+.bracket-game{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.bracket-team{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bracket-team.won{color:var(--accent);font-weight:700}
+.bracket-team.won::before{content:"🏆 "}
+.bracket-team.out{opacity:.5;text-decoration:line-through}
+.bracket-team em{font-size:12px;color:var(--muted)}
+.bracket.big{width:min(1600px,96vw);margin:0 auto;padding:3vh 2vw}
+.bracket.big .bracket-div{font-size:clamp(28px,4vw,56px);text-align:center}
+.bracket.big .bracket-champ{text-align:center;font-size:clamp(28px,4vw,60px)}
+.bracket.big .bracket-team{font-size:clamp(16px,1.8vw,28px)}
+.bracket-edit{display:grid;gap:14px}
+.bracket-edit-round{display:grid;gap:8px}
+.bracket-edit-round h3{margin:0}
+.bracket-edit-match{display:grid;gap:8px;padding:12px 14px}
+
+/* Waiting screen */
+.lobby{position:relative}
+.lobby-in{gap:clamp(8px,1.6vh,18px)}
+.lobby-logos{display:flex;flex-wrap:wrap;gap:clamp(16px,3vw,48px);justify-content:center;align-items:center}
+.lobby-logos img{max-height:clamp(60px,13vh,150px);max-width:min(30vw,280px);object-fit:contain}
+.lobby-name{text-wrap:balance}
+.lobby-count{margin:0;font-family:var(--fd);font-size:clamp(22px,3.6vw,54px);font-variant-numeric:tabular-nums}
+.lobby-count b{color:var(--accent)}
+.lobby-rule{margin:0;max-width:min(900px,90vw);font-size:clamp(16px,2.2vw,30px);text-align:center;color:var(--text);animation:lobbyRule 8s var(--ease) both}
+@keyframes lobbyRule{0%{opacity:0;transform:translateY(8px)}8%,92%{opacity:1;transform:none}100%{opacity:0}}
+:root[data-reduce-fx="on"] .lobby-rule{animation:none}
+.lobby-form{display:grid;gap:14px;max-width:640px}
+.lobby-logo-row{gap:10px;align-items:center}
+.lobby-logo-edit{display:inline-flex;align-items:center;gap:4px;padding:4px;border-radius:10px;border:1px solid color-mix(in oklab,var(--edge) 40%,transparent)}
+.lobby-logo-edit img{height:44px;width:auto;max-width:120px;object-fit:contain}
+.lobby-add{cursor:pointer}
+.lobby-preview{position:relative;height:min(52vh,460px);border-radius:18px;overflow:hidden;border:1px solid color-mix(in oklab,var(--edge) 40%,transparent);pointer-events:none}
+.lobby-preview .aud-main{position:absolute;inset:0;min-height:0;height:100%;transform-origin:top left}
+.lobby-full{position:fixed;inset:0;z-index:60;background:var(--bg);display:flex}
+.lobby-full>.aud-main{flex:1}
+.lobby-exit{position:fixed;top:calc(12px + env(safe-area-inset-top,0px));inset-inline-end:calc(12px + env(safe-area-inset-right,0px));opacity:.35}
+.lobby-exit:hover,.lobby-exit:focus-visible{opacity:1}
+
+/* Practice */
+.practice-setup{display:grid;gap:16px}
+.practice-cats{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,220px),1fr));gap:6px 14px;max-height:340px;overflow:auto;padding:4px}
+.practice-card{display:flex;flex-direction:column;gap:16px;min-height:300px}
+.practice-card .q{flex:none}
+.practice-card .answer{clip-path:none}
+.practice-score{font-family:var(--fd);font-size:clamp(22px,3vw,34px);margin:0}
+.practice-score b{color:var(--accent)}
+.practice-review{display:grid;gap:8px}
+.practice-done{display:grid;gap:12px}
+
+/* Larger text: questions, answers, scores, category names and buttons, on every screen */
+:root[data-big="on"] body{font-size:17px}
+:root[data-big="on"] .q,:root[data-big="on"] .answer,:root[data-big="on"] .round-msg,:root[data-big="on"] .lobby-rule{zoom:1.2}
+:root[data-big="on"] .team b{font-size:16px}
+:root[data-big="on"] .team span{zoom:1.15}
+:root[data-big="on"] .cat .main,:root[data-big="on"] .cat .sub{zoom:1.15}
+:root[data-big="on"] .tile .v{zoom:1.12}
+:root[data-big="on"] .btn,:root[data-big="on"] .ghost,:root[data-big="on"] .label,:root[data-big="on"] .muted{zoom:1.1}
+
+/* Colour-blind friendly: blue for right, orange for wrong or taken away; team chips get a pattern each */
+:root[data-cb="on"]{--cb-good:#3d8bff;--cb-bad:#ff9a1f}
+:root[data-cb="on"] .judge .ok,:root[data-cb="on"] .btn.ok-btn{background:var(--cb-good);color:#fff}
+:root[data-cb="on"] .judge .no{background:var(--cb-bad);color:#1b1000}
+:root[data-cb="on"] .btn.bad{color:var(--cb-bad);border-color:var(--cb-bad)}
+:root[data-cb="on"] .team.neg span,:root[data-cb="on"] .adjust-score.neg,:root[data-cb="on"] .log-table td.neg,:root[data-cb="on"] .bad-text{color:var(--cb-bad)}
+:root[data-cb="on"] .marked-ok{outline:2px solid var(--cb-good)}
+:root[data-cb="on"] .marked-no{outline:2px dashed var(--cb-bad)}
+:root[data-cb="on"] .scores .team{border-width:2px}
+:root[data-cb="on"] .scores .team:nth-child(1){border-style:solid}
+:root[data-cb="on"] .scores .team:nth-child(2){border-style:dashed}
+:root[data-cb="on"] .scores .team:nth-child(3){border-style:dotted}
+:root[data-cb="on"] .scores .team:nth-child(4){border-style:double;border-width:4px}
+:root[data-cb="on"] .study-check{border-color:var(--cb-bad)}
+:root[data-cb="on"] .study-check.ok{border-color:var(--cb-good)}
+:root[data-cb="on"] .live-seat.on{border-color:var(--cb-good)}
