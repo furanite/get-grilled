@@ -258,7 +258,7 @@ export default function App() {
             <div className="row">
               {screen === 'home' && (
                 <button className="btn" onClick={() => setGuide('rules')} data-testid="rules-btn">
-                  Rules
+                  {lang === 'ur' ? 'قواعد' : lang === 'ar' ? 'القواعد' : 'Rules'}
                 </button>
               )}
               {HOST_EDITION && (
@@ -422,6 +422,7 @@ export default function App() {
       {!consented && <ConsentDialog lang={lang} setLang={setLang} reduceFx={reduceFx} setReduceFx={setReduceFx} onAccept={() => setConsented(true)} />}
       {consented && !legalView && screen === 'home' && guide === 'tips' && (
         <TipsDialog
+          lang={lang}
           onClose={closeGuide}
           onOpenFiles={() => {
             closeGuide()
@@ -429,7 +430,7 @@ export default function App() {
           }}
         />
       )}
-      {consented && !legalView && guide === 'rules' && <RulesDialog onClose={closeGuide} onTips={() => setGuide('tips')} />}
+      {consented && !legalView && guide === 'rules' && <RulesDialog lang={lang} onClose={closeGuide} onTips={() => setGuide('tips')} />}
       {consented && !legalView && dialog === 'view' && <ViewDialog t={t} lang={lang} view={view} setView={setView} onClose={() => setDialog(null)} />}
       {consented && !legalView && dialog === 'news' && <NewsDialog t={t} lang={lang} offline={offline} onClose={() => setDialog(null)} />}
       {consented && !legalView && dialog === 'flags' && <FlagsDialog t={t} lang={lang} pools={pools} setPool={setPool} onClose={() => setDialog(null)} />}

@@ -1,6 +1,6 @@
 import type { Lang } from './types'
 import { EXTRA_AR, EXTRA_EN } from './i18n-extra'
-import { UR, overlay } from './i18n-ur'
+import { UR, UR_MORE, overlay } from './i18n-ur'
 
 const en = {
   tagline: 'What does it mean to get questioned?',
@@ -401,7 +401,7 @@ const ar: typeof en = {
   resume: 'متابعة اللعبة',
   builder: 'منشئ الفئات',
   // English on purpose: no new Arabic text (owner's choice).
-  studyFiles: 'Question files',
+  studyFiles: 'ملفات الأسئلة',
   review: 'مراجعة العلماء',
   theme: 'المظهر',
   language: 'English',
@@ -788,7 +788,7 @@ const ar: typeof en = {
 }
 
 export type Strings = typeof en
-export const STRINGS: Record<Lang, Strings> = { en, ar, ur: overlay<Strings>(en, UR) }
+export const STRINGS: Record<Lang, Strings> = { en, ar, ur: overlay<Strings>(overlay<Strings>(en, UR), UR_MORE) }
 
 export function qCount(n: number, lang: Lang) {
   if (lang === 'ar') return `${num(n, lang)} سؤال`

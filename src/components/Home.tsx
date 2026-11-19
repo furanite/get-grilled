@@ -5,6 +5,7 @@ import { THEMES, formatCountdown, msUntilOpen, themeOpen } from '../lib/themes'
 import { burstAt } from '../lib/fx'
 import { Ambient, Flourish, FlourishAbove, Mark } from './Brand'
 import { clearPlace, currentPlace, requestExactPlace } from '../lib/place'
+import { ISLAMIC_THEME_LOCAL } from '../lib/islamic'
 import { APP_NAME, APP_NAME_AR, HAS_AR_NAME, ISLAMIC_SET, appName } from '../lib/edition'
 import { stopTune, titleTune } from '../lib/sound'
 
@@ -105,8 +106,8 @@ export default function Home({ t, lang, theme, setTheme, hasGame, onNew, onResum
               <button key={th.id} className="theme" aria-pressed={theme === th.id} disabled={locked} onClick={(e) => setTheme(th.id, e)} data-theme-id={th.id}>
                 <span className="sw" style={{ background: th.swatch }} />
                 <span style={{ minWidth: 0 }}>
-                  <b>{lang === 'en' ? th.name : th.nameAr}</b>
-                  <small>{th.blurb}</small>
+                  <b>{lang === 'en' ? th.name : lang === 'ur' ? ((ISLAMIC_SET ? ISLAMIC_THEME_LOCAL[th.id] : undefined)?.[1] ?? th.nameAr) : th.nameAr}</b>
+                  <small>{lang === 'en' ? th.blurb : ((ISLAMIC_SET ? ISLAMIC_THEME_LOCAL[th.id] : undefined)?.[lang === 'ar' ? 0 : 2] ?? th.blurb)}</small>
                   {locked && (
                     <span className="lock" style={{ display: 'block' }}>
                       🔒 {th.id === 'jumuah' ? t.lockedJumuah : th.id === 'mawlid' ? t.lockedMawlid : t.lockedUntil} {formatCountdown(msUntilOpen(th.id), lang)}

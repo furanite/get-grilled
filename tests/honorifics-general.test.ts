@@ -49,7 +49,7 @@ describe('honorifics for blessed religious figures', () => {
     for (const { at, text } of ur) {
       for (const m of text.matchAll(/ﷺ/g)) expect(/ہمارے حبیب اور ہمارے آقا نبیِ کریم محمد $/.test(text.slice(0, m.index)), at).toBe(true)
       for (const n of PROPHETS_UR) for (const m of text.matchAll(new RegExp(`(^|[\\s،(])${n}(?=[\\s،.۔)]|$)`, 'g'))) {
-        if (/سورۂ ?$/.test(text.slice(0, (m.index ?? 0) + m[1].length))) continue // a surah's name, like سورۂ یوسف
+        if (/سور(ۂ|ۂ) ?$/.test(text.slice(0, (m.index ?? 0) + m[1].length))) continue // a surah's name, like سورۂ یوسف
         expect(/^ [﵇﵈﵉]/.test(text.slice((m.index ?? 0) + m[0].length)), `${at}: ${n}`).toBe(true)
       }
     }

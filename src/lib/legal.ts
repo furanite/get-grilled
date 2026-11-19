@@ -1,6 +1,7 @@
 import type { Lang } from './types'
 import { APP_NAME as APP, APP_NAME_AR as APPA } from './edition'
 import photos from '../../questions/img/credits-full.json'
+import { consentUr, privacyUr, termsUr } from './legal-ur'
 
 /**
  * Owner details shown in the Terms, the Privacy Notice and the footer.
@@ -11,6 +12,7 @@ export const LEGAL = {
   ownerAr: 'Moinuddeen',
   effective: '19 November 2026',
   effectiveAr: '19 نوفمبر 2026',
+  effectiveUr: '19 نومبر 2026',
   year: 2026,
   /** Change this whenever the Terms or Privacy Notice change: everyone is asked to accept again. */
   termsVersion: '1.5',
@@ -155,8 +157,8 @@ const privacyAr: LegalDoc = {
   ],
 }
 
-export const TERMS: Record<Lang, LegalDoc> = { en: termsEn, ar: termsAr, ur: termsEn }
-export const PRIVACY: Record<Lang, LegalDoc> = { en: privacyEn, ar: privacyAr, ur: privacyEn }
+export const TERMS: Record<Lang, LegalDoc> = { en: termsEn, ar: termsAr, ur: termsUr(LEGAL.owner, LEGAL.termsVersion, LEGAL.effectiveUr, LEGAL.year, photoLines) }
+export const PRIVACY: Record<Lang, LegalDoc> = { en: privacyEn, ar: privacyAr, ur: privacyUr(LEGAL.termsVersion, LEGAL.effectiveUr) }
 
 const CONSENT_BASE = {
   en: {
@@ -214,8 +216,4 @@ const CONSENT_BASE = {
     reduceFx: 'تخفيف المؤثرات',
   },
 }
-/** Urdu readers see the consent words in English until a person has checked an Urdu version. */
-export const CONSENT_TEXT: Record<Lang, (typeof CONSENT_BASE)['en']> = {
-  ...CONSENT_BASE,
-  ur: { ...CONSENT_BASE.en, reduceFx: 'اثرات کم کریں', close: 'بند کریں', report: 'کسی جواب کو غلط سمجھتے ہیں؟ اپنے میزبان کو بتائیں۔ میزبان کا فیصلہ حتمی ہے۔' },
-}
+export const CONSENT_TEXT: Record<Lang, (typeof CONSENT_BASE)['en']> = { ...CONSENT_BASE, ur: consentUr }

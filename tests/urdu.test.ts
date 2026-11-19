@@ -30,9 +30,9 @@ describe('Urdu (Munaafasatul Ilm)', () => {
     expect(open).not.toMatch(/جواب/)
     expect(JSON.stringify(publicGame(game(), 'game', { c: 0, l: 2, revealed: true }))).toContain('جواب2')
   })
-  it('has every interface string, in Urdu where translated and English otherwise', () => {
+  it('has every interface string, fully in Urdu', () => {
     expect(STRINGS.ur.newGame).toBe('نیا کھیل')
-    expect(STRINGS.ur.buzz.connect).toBe(STRINGS.en.buzz.connect)
+    expect(STRINGS.ur.buzz.connect).toBe('بزر باکس جوڑیں')
     expect(Object.keys(STRINGS.ur).sort()).toEqual(Object.keys(STRINGS.en).sort())
   })
 })

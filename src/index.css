@@ -418,7 +418,7 @@ html.card-up .card,html.card-up .card *,html.card-up .card::before,html.card-up 
 :root[data-set="islamic"]{--girih:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60'%3E%3Cg fill='none' stroke='%23ffffff' stroke-opacity='.05' stroke-width='1'%3E%3Cpath d='M30 12 42.7 17.3 48 30 42.7 42.7 30 48 17.3 42.7 12 30 17.3 17.3Z'/%3E%3Cpath d='M17.3 12H42.7L48 17.3V42.7L42.7 48H17.3L12 42.7V17.3Z'/%3E%3Cpath d='M30 12V0M30 48V60M12 30H0M48 30H60'/%3E%3C/g%3E%3C/svg%3E")}
 :root[data-set="islamic"] body{background-image:var(--girih);background-size:60px 60px}
 /* The Arabic name in Ruq'ah calligraphy above the title. */
-.isl-callig{display:block;font-family:'GG Honorifics','Aref Ruqaa','El Messiri',serif;font-weight:700;font-size:clamp(30px,6.4cqw,64px);line-height:1.2;color:var(--accent);text-shadow:0 0 18px var(--glow);margin-bottom:.1em;animation:flFade 1s ease both}
+.isl-callig{display:block;font-family:'GG Signs','Aref Ruqaa','El Messiri',serif;font-weight:700;font-size:clamp(30px,6.4cqw,64px);line-height:1.2;color:var(--accent);text-shadow:0 0 18px var(--glow);margin-bottom:.1em;animation:flFade 1s ease both}
 .logo-card .isl-callig{font-size:clamp(28px,7cqw,66px)}
 .aud-title + .fl-wrap,.title-screen .isl-callig{font-size:clamp(40px,7vw,90px)}
 .fl-isl{width:min(62cqw,420px);height:auto;overflow:visible}
@@ -474,7 +474,7 @@ html.card-up .card,html.card-up .card *,html.card-up .card::before,html.card-up 
 .amb-jm .lt{position:absolute;top:0;translate:-50% 0;transform-origin:50% 0;filter:drop-shadow(0 0 10px rgba(255,236,180,.55));animation:lanternSway 8s ease-in-out infinite alternate;opacity:.9}
 @keyframes lanternSway{from{rotate:-2.5deg}to{rotate:2.5deg}}
 .amb-jm .sp i{position:absolute;width:3px;height:3px;border-radius:50%;background:#fff4dc;box-shadow:0 0 8px #f1d389;animation:flStarTw 6s ease-in-out infinite}
-.amb-word{position:absolute;left:50%;top:50%;translate:-50% -50%;white-space:nowrap;font-family:'GG Honorifics','Aref Ruqaa','El Messiri',serif;font-weight:700;font-size:clamp(90px,18vw,260px);color:var(--accent);opacity:.06;pointer-events:none}
+.amb-word{position:absolute;left:50%;top:50%;translate:-50% -50%;white-space:nowrap;font-family:'GG Signs','Aref Ruqaa','El Messiri',serif;font-weight:700;font-size:clamp(90px,18vw,260px);color:var(--accent);opacity:.06;pointer-events:none}
 @media (max-width:640px){.amb-jm .lt:nth-of-type(n+5){display:none}}
 
 /* ---------- Blessed Mawlid (Sunday Maghrib to Monday Maghrib) ---------- */
@@ -1222,5 +1222,25 @@ body{overflow-wrap:break-word}
 /* Urdu (Munaafasatul Ilm): Nastaliq letters are tall, so lines get more room. */
 html[lang="ur"] body{line-height:1.9}
 html[lang="ur"] .q{line-height:2.1}
-html[lang="ur"][data-set="islamic"] .q,html[lang="ur"][data-set="islamic"] .answer{font-family:var(--fd)}
 html[lang="ur"] .label,html[lang="ur"] .cat{letter-spacing:0;text-transform:none}
+/* Calligraphic lettering for titles, buttons and category names in some Islamic themes, by language (owner, 2026-11-19).
+   Clues keep their reading fonts. 'GG Signs' is the honorific-sign face alone, so in Urdu the Nastaliq letters that
+   ride on 'GG Honorifics' do not take over these styles. Qahiri is a geometric Kufic. */
+@font-face{font-family:'GG Signs';src:url('./assets/honorifics.woff2') format('woff2');unicode-range:U+FD40-FD4F,U+FDFA;font-display:swap;size-adjust:140%;ascent-override:72%;descent-override:22%}
+@font-face{font-family:'GG Qahiri';src:url('../node_modules/@fontsource/qahiri/files/qahiri-arabic-400-normal.woff2') format('woff2');font-display:swap;unicode-range:U+0600-065F,U+066A-06EF,U+06FA-06FF,U+0750-077F,U+08A0-08FF,U+FB50-FDF9,U+FDFB-FDFF,U+FE70-FEFF}
+@font-face{font-family:'GG Kufam';src:url('../node_modules/@fontsource/kufam/files/kufam-arabic-700-normal.woff2') format('woff2');font-display:swap;unicode-range:U+0600-065F,U+066A-06EF,U+06FA-06FF,U+0750-077F,U+08A0-08FF,U+FB50-FDF9,U+FDFB-FDFF,U+FE70-FEFF}
+@font-face{font-family:'GG Gulzar';src:url('../node_modules/@fontsource/gulzar/files/gulzar-arabic-400-normal.woff2') format('woff2');font-display:swap;unicode-range:U+0600-065F,U+066A-06EF,U+06FA-06FF,U+0750-077F,U+08A0-08FF,U+FB50-FDF9,U+FDFB-FDFF,U+FE70-FEFF}
+/* Arabic: Ruqʿah (Ottoman Tulip, Bosnian Kilim), Kufic (Night of Cordoba), geometric Kufic (Samarkand, Bukhara Suzani) */
+:root[data-set="islamic"][lang="ar"][data-theme="ember"],:root[data-set="islamic"][lang="ar"][data-theme="bosnia"]{--fd:'GG Signs','Aref Ruqaa','Marcellus',serif}
+:root[data-set="islamic"][lang="ar"][data-theme="amethyst"]{--fd:'GG Signs','GG Kufam','Marcellus',serif}
+:root[data-set="islamic"][lang="ar"][data-theme="rivals"],:root[data-set="islamic"][lang="ar"][data-theme="suzani"]{--fd:'GG Signs','GG Qahiri','El Messiri',serif}
+/* Geometric Kufic is for headings: small button text stays in a plain face so it reads at a glance */
+:root[data-set="islamic"][lang="ar"][data-theme="rivals"] :is(button,.btn),:root[data-set="islamic"][lang="ar"][data-theme="suzani"] :is(button,.btn){font-family:'GG Signs','El Messiri',serif}
+:root[data-set="islamic"][lang="ar"][data-theme="rivals"] .tile,:root[data-set="islamic"][lang="ar"][data-theme="suzani"] .tile{font-family:var(--fd)}
+/* Urdu: Ruqʿah (Ottoman Tulip, Bosnian Kilim), display Nastaliq (Mughal Marble, Nusantara Songket) */
+:root[data-set="islamic"][lang="ur"][data-theme="ember"],:root[data-set="islamic"][lang="ur"][data-theme="bosnia"]{--fd:'GG Signs','Aref Ruqaa','Marcellus',serif}
+:root[data-set="islamic"][lang="ur"][data-theme="mughal"],:root[data-set="islamic"][lang="ur"][data-theme="nusantara"]{--fd:'GG Signs','GG Gulzar','Marcellus',serif}
+/* Urdu clues and answers always read in Nastaliq, whatever the display lettering. */
+html[lang="ur"][data-set="islamic"] .q,html[lang="ur"][data-set="islamic"] .answer{font-family:var(--fb)}
+/* Arabic inside the Urdu site (a quoted ayah, an Arabic name) keeps Arabic letters, not Nastaliq. */
+html[lang="ur"] [lang="ar"]:not(.isl-callig){font-family:'GG Signs','IBM Plex Sans Arabic',system-ui,sans-serif}

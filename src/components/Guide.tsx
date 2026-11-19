@@ -1,9 +1,10 @@
 import { useRef } from 'react'
 import { useDialog } from './Legal'
-import { APP_NAME } from '../lib/edition'
+import { APP_NAME, APP_NAME_AR } from '../lib/edition'
+import type { Lang } from '../lib/types'
 
 /**
- * Two in-page pop-ups, English only by the owner's choice:
+ * Two in-page pop-ups, in English, Arabic and Urdu:
  * study tips (shown once to first-time visitors, after the Terms pop-up) and the rules of the game
  * (from the Rules button at the top of the title screen).
  */
@@ -87,6 +88,162 @@ const RULES: Section[] = [
   },
 ]
 
+const TIPS_UR: typeof TIPS = {
+  title: 'مل کر سیکھیں، مزے کے ساتھ',
+  intro: `${APP_NAME_AR} مطالعہ کے حلقے، کلاس یا گھر والوں کے لیے بہت موزوں ہے۔ مل کر دہرائی کے لیے اسے یوں استعمال کریں۔`,
+  sections: [
+    {
+      title: 'سوالات اپنے استاد سے لیں',
+      items: [
+        'اپنے استاد سے اپنی کلاس کی سوالات کی فائل مانگیں۔ یہ ایک چھوٹی سی فائل ہے جو ای میل، واٹس ایپ یا کلاس کے صفحے پر بھیجی جا سکتی ہے۔',
+        'شروع کی اسکرین پر "سوالات کی فائلیں" دبائیں، پھر "فائل کھولیں" اور اسے چنیں۔ کھیل ترتیب دیتے وقت اس کے موضوعات سب سے اوپر نظر آئیں گے۔',
+        'جب استاد اسی فائل کی نئی نقل بھیجیں تو اسے اسی طرح کھولیں۔ وہ پرانی کی جگہ لے لے گی۔',
+        'اساتذہ اور والدین: "سوالات کی فائلیں" دبائیں، پھر "فائل بنائیں"۔ آپ سوالات سیدھے اسپریڈشیٹ سے چسپاں کر سکتے ہیں۔',
+      ],
+    },
+    {
+      title: 'اسے دلچسپ بنائیں (اور یاد بھی رہے)',
+      items: [
+        'چھوٹی ٹیموں میں کھیلیں اور باری باری جواب دیں، تاکہ سب کو موقع ملے، سب سے چھوٹوں کو بھی۔',
+        'ہر جواب کے بعد کوئی اسے اپنے الفاظ میں سمجھائے۔ سمجھانا یاد رکھنے کا بہترین طریقہ ہے۔',
+        'شروع میں 100 اور 200 کے خانے کھیلیں۔ 500 والے تب کے لیے رکھیں جب سب پوری طرح تیار ہوں۔',
+        'جو سوالات آپ کے گروپ سے رہ گئے انہیں لکھ لیں اور اگلی بار دوبارہ کھیلیں۔',
+        'کوئی موضوع سیکھتے وقت ٹائمر بند رکھیں، اور امتحان کی مشق کے لیے چلا دیں۔',
+        'ہر رکن زمرہ ساز میں کسی سبق پر پانچ سوال لکھے۔ اچھے سوال لکھنا بھی دہرائی ہے۔',
+        'نشستیں مختصر رکھیں: ایک بورڈ، پھر وقفہ۔',
+        'فقہ کے سوالات کے لیے ترتیب میں اپنا فقہی مسلک چنیں۔ کوئی بات واضح نہ ہو تو کسی مستند استاد سے پوچھیں۔',
+        'نمبر صرف تفریح کے لیے ہیں۔ کھیل میں نرمی اور ادب رکھیں، اور جو سوال غلط لگے اس کے بارے میں استاد کو بتائیں۔',
+      ],
+    },
+  ],
+}
+
+const RULES_UR: Section[] = [
+  {
+    title: 'بورڈ',
+    items: [
+      'زیادہ سے زیادہ 6 زمرے اور 2 سے 4 ٹیمیں چنیں۔ ہر زمرے میں پانچ خانے ہیں، 100 (ابتدائی) سے 500 (ماہر) تک۔ مشکل خانوں کے نمبر زیادہ ہیں۔',
+      'ٹیمیں باری باری خانہ چنتی ہیں۔',
+      '"واپسی" چلی ہو تو آخری نمبر والی ٹیم اگلا خانہ چنتی ہے۔',
+    ],
+  },
+  {
+    title: 'جواب دینا',
+    items: [
+      'میزبان سوال پڑھ کر سناتا ہے۔ جواب سوال کی صورت میں دینا ضروری نہیں، اور انگریزی، عربی یا اردو سب ٹھیک ہیں۔',
+      'درست جواب: ٹیم کو خانے کے نمبر ملتے ہیں۔',
+      'غلط جواب: اگر "غلط جواب پر نمبر کاٹیں" چلا ہو تو ٹیم کے خانے جتنے نمبر کٹتے ہیں۔ دوسری ٹیمیں پھر بھی کوشش کر سکتی ہیں۔',
+      'اگر کوئی نہ بتا سکے تو میزبان جواب دکھاتا ہے اور کسی کو نمبر نہیں ملتے۔',
+    ],
+  },
+  {
+    title: 'خاص خانے',
+    items: [
+      'سنہری خانہ: دگنے نمبر۔',
+      'چھیننا: درست جواب دینے والی ٹیم یہ نمبر کسی دوسری ٹیم سے لے لیتی ہے۔',
+      'ناظرین: ناظرین میں سے کوئی اس ٹیم کی طرف سے جواب دیتا ہے جس نے خانہ چنا۔',
+      'لگاتار انعام: لگاتار تین درست جواب پر ٹیم کو 100 اضافی نمبر ملتے ہیں۔',
+    ],
+  },
+  {
+    title: 'بورڈ کے بعد',
+    items: [
+      'تیز راؤنڈ: 60 سیکنڈ کے فوری سوالات۔ ہر درست جواب پر 100 نمبر، اور کچھ نہیں کٹتا۔',
+      'آخری سوال: ہر ٹیم چھپ کر اپنا جواب لکھتی ہے۔ درست جواب والی ہر ٹیم کو 500 نمبر۔',
+    ],
+  },
+  {
+    title: 'جیت',
+    items: [
+      'آخر میں سب سے زیادہ نمبر والی ٹیم جیتتی ہے۔',
+      'اگر سب سے اوپر ٹیمیں برابر ہوں تو میزبان فیصلہ کن سوال کھیل سکتا ہے: صرف برابر ٹیموں کے لیے ایک ایک سوال، اور پہلا درست جواب 100 نمبر جیتتا ہے۔ غلط جواب پر کچھ نہیں کٹتا۔ سوال ختم ہو جائیں تو ٹیمیں پہلی پوزیشن میں شریک رہتی ہیں۔',
+      'میزبان کا فیصلہ حتمی ہے۔ میزبان ہاتھ سے نمبر درست کر سکتا ہے، مثلاً کسی فیصلے کے بدلنے پر۔ ہر جیتا اور کھویا نمبر کھیل کے ریکارڈ میں ہے، اس لیے راؤنڈ کے آخر میں اعتراض جانچا جا سکتا ہے۔',
+    ],
+  },
+]
+
+const TIPS_AR: typeof TIPS = {
+  title: 'نتعلّم معًا بطريقة ممتعة',
+  intro: `تصلح ${APP_NAME_AR} لحلقة العلم والفصل والأسرة. إليك طريقة استعمالها للمراجعة معًا.`,
+  sections: [
+    {
+      title: 'خذ الأسئلة من معلّمك',
+      items: [
+        'اطلب من معلّمك ملف الأسئلة الخاص بفصلك. هو ملف صغير واحد يُرسل بالبريد أو واتساب أو صفحة الفصل.',
+        'في شاشة البداية اضغط «ملفات الأسئلة» ثم «افتح ملفًا» واختره. تظهر موضوعاته في أعلى شاشة إعداد اللعبة.',
+        'إذا أرسل المعلّم نسخة أحدث من الملف نفسه فافتحها بالطريقة نفسها، فتحلّ محلّ القديمة.',
+        'للمعلّمين والآباء: اضغط «ملفات الأسئلة» ثم «أنشئ ملفًا». يمكنك لصق الأسئلة مباشرة من جدول بيانات.',
+      ],
+    },
+    {
+      title: 'اجعلها ممتعة (وراسخة في الذهن)',
+      items: [
+        'العبوا في فرق صغيرة وتناوبوا على الإجابة ليشارك الجميع، ومنهم الأصغر سنًّا.',
+        'بعد كل إجابة ليشرحها أحدكم بكلماته. الشرح أفضل طريق للحفظ.',
+        'ابدؤوا بمربعات ١٠٠ و٢٠٠ للإحماء، واتركوا مربعات ٥٠٠ لوقت التركيز.',
+        'اكتبوا الأسئلة التي أخطأتم فيها والعبوها مرة أخرى في المرة القادمة.',
+        'أوقفوا المؤقت وأنتم تتعلّمون موضوعًا، وشغّلوه للتدرّب على اختبار.',
+        'يكتب كل عضو خمسة أسئلة عن درس في منشئ الفئات. كتابة الأسئلة الجيدة مراجعة أيضًا.',
+        'اجعلوا الجلسات قصيرة: لوحة واحدة ثم استراحة.',
+        'في أسئلة الفقه اختر مذهبك الفقهي في الإعداد. وإذا أشكل شيء فاسأل معلّمًا مؤهّلًا.',
+        'النقاط للمتعة فقط. حافظوا على اللطف والأدب في اللعب، وأخبروا المعلّم بأي سؤال يبدو خطأً.',
+      ],
+    },
+  ],
+}
+
+const RULES_AR: Section[] = [
+  {
+    title: 'اللوحة',
+    items: [
+      'اختر حتى ٦ فئات ومن فريقين إلى ٤ فرق. لكل فئة خمسة مربعات، من ١٠٠ (إحماء) إلى ٥٠٠ (للمتمكّنين). المربعات الأصعب نقاطها أكثر.',
+      'تتناوب الفرق على اختيار المربعات.',
+      'إذا كان خيار «العودة» مفعّلًا، يختار الفريق الأخير المربع التالي.',
+    ],
+  },
+  {
+    title: 'الإجابة',
+    items: [
+      'يقرأ المقدّم السؤال. لا يلزم أن تكون الإجابة على صيغة سؤال، وتُقبل بالعربية أو الإنجليزية أو الأردية.',
+      'الإجابة الصحيحة: يربح الفريق نقاط المربع.',
+      'الإجابة الخاطئة: إذا كان خيار «خصم النقاط» مفعّلًا يخسر الفريق نقاط المربع، ويمكن للفرق الأخرى أن تحاول.',
+      'إذا لم يعرفها أحد يكشف المقدّم الإجابة ولا يسجّل أحد.',
+    ],
+  },
+  {
+    title: 'المربعات الخاصة',
+    items: [
+      'المربع الذهبي: نقاط مضاعفة.',
+      'الاستيلاء: الفريق الذي يجيب صحيحًا يأخذ النقاط من فريق آخر.',
+      'الجمهور: يجيب أحد الحضور عن الفريق الذي اختار المربع.',
+      'مكافأة التتابع: ثلاث إجابات صحيحة متتالية تمنح الفريق ١٠٠ نقطة إضافية.',
+    ],
+  },
+  {
+    title: 'بعد اللوحة',
+    items: [
+      'الجولة السريعة: ٦٠ ثانية من الأسئلة السريعة. ١٠٠ نقطة لكل إجابة صحيحة، ولا خصم.',
+      'السؤال الأخير: يكتب كل فريق إجابته سرًّا. ٥٠٠ نقطة لكل فريق يصيب.',
+    ],
+  },
+  {
+    title: 'الفوز',
+    items: [
+      'يفوز الفريق صاحب أكثر النقاط في النهاية.',
+      'إذا تعادلت الفرق في الصدارة يمكن للمقدّم أن يلعب جولة فاصلة: سؤال تلو سؤال للفرق المتعادلة فقط، وأول إجابة صحيحة تربح ١٠٠ نقطة. الإجابة الخاطئة لا تكلّف شيئًا. وإذا نفدت الأسئلة تقاسمت الفرق المركز الأول.',
+      'حكم المقدّم نهائي. ويمكنه تعديل النقاط يدويًّا، مثلًا بعد نقض حكم. كل نقطة رُبحت أو خُسرت مسجّلة في سجلّ اللعبة، فيمكن التحقق من أي اعتراض في نهاية الجولة.',
+    ],
+  },
+]
+
+const WORDS = {
+  en: { close: 'Close', openFiles: 'Open question files', gotIt: 'Got it, let’s play', howTo: 'How to play', studyTips: 'Study group tips' },
+  ar: { close: 'إغلاق', openFiles: 'افتح ملفات الأسئلة', gotIt: 'فهمت، لنلعب', howTo: 'طريقة اللعب', studyTips: 'نصائح لحلقة الدراسة' },
+  ur: { close: 'بند کریں', openFiles: 'سوالات کی فائلیں کھولیں', gotIt: 'سمجھ گئے، کھیلتے ہیں', howTo: 'کھیلنے کا طریقہ', studyTips: 'مطالعہ کے حلقے کے لیے مشورے' },
+}
+const pick = (lang?: Lang): Lang => (lang === 'ur' || lang === 'ar' ? lang : 'en')
+const rtl = (lang?: Lang) => pick(lang) !== 'en'
+
 function Sections({ list }: { list: Section[] }) {
   return (
     <>
@@ -104,15 +261,15 @@ function Sections({ list }: { list: Section[] }) {
   )
 }
 
-function GuideDialog({ id, title, children, actions, onClose }: { id: string; title: string; children: React.ReactNode; actions: React.ReactNode; onClose: () => void }) {
+function GuideDialog({ id, title, children, actions, onClose, lang }: { id: string; title: string; children: React.ReactNode; actions: React.ReactNode; onClose: () => void; lang?: Lang }) {
   const ref = useRef<HTMLDivElement>(null)
   useDialog(ref, onClose)
   return (
     <div className="legal-backdrop" onClick={(e) => e.target === e.currentTarget && onClose()}>
-      <div className="legal-panel guide" role="dialog" aria-modal="true" aria-labelledby={`${id}-title`} ref={ref} data-testid={id} dir="ltr" lang="en">
+      <div className="legal-panel guide" role="dialog" aria-modal="true" aria-labelledby={`${id}-title`} ref={ref} data-testid={id} dir={rtl(lang) ? 'rtl' : 'ltr'} lang={pick(lang)}>
         <div className="legal-head">
           <h1 id={`${id}-title`}>{title}</h1>
-          <button className="ghost" onClick={onClose} aria-label="Close">
+          <button className="ghost" onClick={onClose} aria-label={WORDS[pick(lang)].close}>
             ✕
           </button>
         </div>
@@ -124,48 +281,53 @@ function GuideDialog({ id, title, children, actions, onClose }: { id: string; ti
 }
 
 /** First-visit tips for studying together. Closing it in any way counts as seen. */
-export function TipsDialog({ onClose, onOpenFiles }: { onClose: () => void; onOpenFiles: () => void }) {
+export function TipsDialog({ onClose, onOpenFiles, lang }: { onClose: () => void; onOpenFiles: () => void; lang?: Lang }) {
+  const tips = { en: TIPS, ar: TIPS_AR, ur: TIPS_UR }[pick(lang)]
+  const w = WORDS[pick(lang)]
   return (
     <GuideDialog
       id="tips"
-      title={TIPS.title}
+      title={tips.title}
+      lang={lang}
       onClose={onClose}
       actions={
         <>
           <button className="btn alt" onClick={onOpenFiles} data-testid="tips-files">
-            Open question files
+            {w.openFiles}
           </button>
           <button className="btn" onClick={onClose} data-autofocus data-testid="tips-close">
-            Got it, let’s play
+            {w.gotIt}
           </button>
         </>
       }
     >
-      <p>{TIPS.intro}</p>
-      <Sections list={TIPS.sections} />
+      <p>{tips.intro}</p>
+      <Sections list={tips.sections} />
     </GuideDialog>
   )
 }
 
 /** The rules of the game, from the Rules button at the top of the title screen. */
-export function RulesDialog({ onClose, onTips }: { onClose: () => void; onTips: () => void }) {
+export function RulesDialog({ onClose, onTips, lang }: { onClose: () => void; onTips: () => void; lang?: Lang }) {
+  const w = WORDS[pick(lang)]
   return (
     <GuideDialog
       id="rules"
-      title="How to play"
+      title={w.howTo}
+      lang={lang}
       onClose={onClose}
       actions={
         <>
           <button className="btn alt" onClick={onTips} data-testid="rules-tips">
-            Study group tips
+            {w.studyTips}
           </button>
           <button className="btn" onClick={onClose} data-autofocus data-testid="rules-close">
-            Close
+            {w.close}
           </button>
         </>
       }
     >
-      <Sections list={RULES} />
+      <Sections list={{ en: RULES, ar: RULES_AR, ur: RULES_UR }[pick(lang)]} />
     </GuideDialog>
   )
 }
