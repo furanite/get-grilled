@@ -9,7 +9,7 @@ group: quran
 The number of surahs in the Qur'an. :: 114 || H: The Mushaf (standard count)
 The opening surah of the Qur'an. :: Surah al-Fatihah || H: The Mushaf
 The longest surah of the Qur'an. :: Surah al-Baqarah || H: The Mushaf
-The angel who brought the revelation to our Beloved Master ﷺ. :: Jibril ﵇ || H: Qur'an 2:97
+The angel ﵇ who brought the revelation to our Beloved Master ﷺ. :: Jibril ﵇ || H: Qur'an 2:97
 The month in which the Qur'an was first sent down. :: Ramadan || H: Qur'an 2:185
 The night better than a thousand months, in which the Qur'an was sent down. :: Laylat al-Qadr || H: Qur'an 97:1-3
 The language in which the Qur'an was revealed. :: Arabic || H: Qur'an 12:2
@@ -161,7 +161,7 @@ The surah that tells of our master Yunus ﵇ and the gourd plant. :: Surah al-Sa
 The surah that tells of our master Ibrahim ﵇ being told to sacrifice his son. :: Surah al-Saffat || H: Qur'an 37:102-107
 The surah that tells of our master Ayyub ﵇ striking the ground with his foot. :: Surah Sad || H: Qur'an 38:41-42
 The surah that has the verse "Today I have perfected your religion for you" (meaning). :: Surah al-Ma'idah || H: Qur'an 5:3
-The surah that has the verse "Allah and His angels send blessings on our Beloved Prophet ﷺ" (meaning). :: Surah al-Ahzab || H: Qur'an 33:56
+The surah that has the verse "Allah and His angels ﵈ send blessings on our Beloved Prophet ﷺ" (meaning). :: Surah al-Ahzab || H: Qur'an 33:56
 The surah that has the verse saying our Beloved Master Muhammad ﷺ is "the Seal of the Prophets" ﵈ (meaning). :: Surah al-Ahzab || H: Qur'an 33:40
 The surah that has the verse on hijab "draw their outer garments" (jalabib). :: Surah al-Ahzab || H: Qur'an 33:59
 The surah that commands fasting in Ramadan. :: Surah al-Baqarah || H: Qur'an 2:183-185
@@ -190,7 +190,6 @@ The Companion who recited Surah al-Rahman openly at the Ka'bah and was beaten fo
 The Companion our Beloved Prophet ﷺ praised for his voice, saying he was given a flute of the family of our master Dawud ﵇ (paraphrased). :: Abu Musa al-Ash'ari ﵁ || H: Sahih al-Bukhari
 The Companion whose recitation the angels ﵈ came down to hear like lamps in a cloud, by the hadith. :: Usayd ibn Hudayr ﵁ || H: Sahih al-Bukhari
 The surah Usayd ibn Hudayr ﵁ was reciting when the angels ﵈ came down to listen. :: Surah al-Baqarah || H: Sahih al-Bukhari
-The Companion our Beloved Prophet ﷺ asked to recite to Him ﷺ, who wept at Qur'an 4:41. :: 'Abdullah ibn Mas'ud ﵁ || H: Sahih al-Bukhari
 The number of sajdah (prostration) places in the Mushaf most widely printed today. :: 15 || H: The Mushaf (Madinah print)
 The Hanafi school counts this many obligatory sajdahs of recitation. :: 14 || H: Nur al-Idah
 A name for the opening surah, meaning "the Seven Oft-Repeated". :: al-Sab' al-Mathani || H: Qur'an 15:87; Sahih al-Bukhari

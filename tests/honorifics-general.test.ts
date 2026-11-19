@@ -35,7 +35,8 @@ describe('honorifics for blessed religious figures', () => {
     for (const { at, text } of ar) {
       for (const m of text.matchAll(/ﷺ/g)) {
         const before = text.slice(0, m.index)
-        expect(/(حبيبنا وسيدنا النبي محمد|رسول الله) $/.test(before), at).toBe(true)
+        // After a name or title, the full form; after a pronoun (the owner asked for the sign there too), anything else.
+        if (/(محمد|النبي|الرسول|المصطفى|أحمد) $/.test(before)) expect(/(حبيبنا وسيدنا النبي محمد|رسول الله) $/.test(before), at).toBe(true)
       }
       const rest = text.replace(/حبيبنا وسيدنا النبي محمد ﷺ/g, '').replace(/"النبي"/g, '')
       for (const m of rest.matchAll(/(^|[\s(])النبي(?=[\s.،]|$)/g)) {
@@ -47,7 +48,11 @@ describe('honorifics for blessed religious figures', () => {
   })
   it('Urdu: the Prophet is always "ہمارے حبیب اور ہمارے آقا نبیِ کریم محمد ﷺ", and every other prophet carries ﵇', () => {
     for (const { at, text } of ur) {
-      for (const m of text.matchAll(/ﷺ/g)) expect(/ہمارے حبیب اور ہمارے آقا نبیِ کریم محمد $/.test(text.slice(0, m.index)), at).toBe(true)
+      for (const m of text.matchAll(/ﷺ/g)) {
+        const before = text.slice(0, m.index)
+        // After a name or title, the full form; after a pronoun such as آپ, the sign alone.
+        if (/(محمد|نبی|نبیِ کریم|رسول|مصطفیٰ|احمد) $/.test(before)) expect(/(ہمارے حبیب اور ہمارے آقا نبیِ کریم محمد|رسول اللہ|رسول الله) $/.test(before), at).toBe(true)
+      }
       for (const n of PROPHETS_UR) for (const m of text.matchAll(new RegExp(`(^|[\\s،(])${n}(?=[\\s،.۔)]|$)`, 'g'))) {
         if (/سور(ۂ|ۂ) ?$/.test(text.slice(0, (m.index ?? 0) + m[1].length))) continue // a surah's name, like سورۂ یوسف
         expect(/^ [﵇﵈﵉]/.test(text.slice((m.index ?? 0) + m[0].length)), `${at}: ${n}`).toBe(true)
