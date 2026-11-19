@@ -905,6 +905,32 @@ try {
     await p2.context().close()
   })
 
+  await test('buzzer setup guide: linked from How to play, every picture and drawing loads, nothing is blocked', async () => {
+    const page = await newPage()
+    await page.goto(URL)
+    await page.getByTestId('rules-btn').click()
+    const href = await page.getByTestId('rules-buzzer-guide').getAttribute('href')
+    assert(href === 'buzzer-guide.html', 'guide link: ' + href)
+    const bad = []
+    page.on('response', (r) => r.status() >= 400 && bad.push(r.status() + ' ' + r.url()))
+    page.on('console', (m) => m.type() === 'error' && bad.push(m.text()))
+    await page.goto(URL + href)
+    await page.waitForSelector('#fix')
+    assert((await page.title()).includes('Buzzer Guide'), 'title: ' + (await page.title()))
+    assert((await page.locator('figure.diagram svg').count()) >= 8, 'drawings')
+    const srcs = await page.$$eval('img', (els) => els.map((e) => e.getAttribute('src')))
+    assert(srcs.length >= 9, 'pictures: ' + srcs.length)
+    for (const src of srcs) {
+      const r = await page.request.get(new globalThis.URL(src, URL + href).href)
+      assert(r.ok() && (r.headers()['content-type'] || '').startsWith('image/'), 'picture missing: ' + src)
+    }
+    for (const id of ['choose', 'parts', 'build', 'program', 'connect', 'pi', 'play', 'fix']) assert((await page.locator('#' + id).count()) === 1, 'part ' + id)
+    const w = await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)
+    assert(w, 'page scrolls sideways')
+    assert(bad.length === 0, bad.join(' | '))
+    await page.context().close()
+  })
+
   await test('rules: the Rules button on the title screen explains the game', async () => {
     const page = await newPage()
     await page.goto(URL)

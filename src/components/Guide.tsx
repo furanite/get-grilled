@@ -237,9 +237,9 @@ const RULES_AR: Section[] = [
 ]
 
 const WORDS = {
-  en: { close: 'Close', openFiles: 'Open question files', gotIt: 'Got it, let’s play', howTo: 'How to play', studyTips: 'Study group tips' },
-  ar: { close: 'إغلاق', openFiles: 'افتح ملفات الأسئلة', gotIt: 'فهمت، لنلعب', howTo: 'طريقة اللعب', studyTips: 'نصائح لحلقة الدراسة' },
-  ur: { close: 'بند کریں', openFiles: 'سوالات کی فائلیں کھولیں', gotIt: 'سمجھ گئے، کھیلتے ہیں', howTo: 'کھیلنے کا طریقہ', studyTips: 'مطالعہ کے حلقے کے لیے مشورے' },
+  en: { close: 'Close', openFiles: 'Open question files', gotIt: 'Got it, let’s play', howTo: 'How to play', studyTips: 'Study group tips', buzzers: 'Buzzers', buzzQ: 'Using a buzzer box or the Raspberry Pi?', buzzLink: 'Open the setup guide with pictures', buzzPrint: '(it prints too).' },
+  ar: { close: 'إغلاق', openFiles: 'افتح ملفات الأسئلة', gotIt: 'فهمت، لنلعب', howTo: 'طريقة اللعب', studyTips: 'نصائح لحلقة الدراسة', buzzers: 'الأجراس', buzzQ: 'تستخدم صندوق الأجراس أو جهاز راسبيري باي؟', buzzLink: 'افتح دليل التركيب المصوّر', buzzPrint: '(ويمكن طباعته).' },
+  ur: { close: 'بند کریں', openFiles: 'سوالات کی فائلیں کھولیں', gotIt: 'سمجھ گئے، کھیلتے ہیں', howTo: 'کھیلنے کا طریقہ', studyTips: 'مطالعہ کے حلقے کے لیے مشورے', buzzers: 'بزر', buzzQ: 'بزر باکس یا راسبیری پائی استعمال کر رہے ہیں؟', buzzLink: 'تصویروں والی ترتیب کی گائیڈ کھولیں', buzzPrint: '(اسے پرنٹ بھی کیا جا سکتا ہے)۔' },
 }
 const pick = (lang?: Lang): Lang => (lang === 'ur' || lang === 'ar' ? lang : 'en')
 const rtl = (lang?: Lang) => pick(lang) !== 'en'
@@ -328,6 +328,16 @@ export function RulesDialog({ onClose, onTips, lang }: { onClose: () => void; on
       }
     >
       <Sections list={{ en: RULES, ar: RULES_AR, ur: RULES_UR }[pick(lang)]} />
+      <section>
+        <h2>{w.buzzers}</h2>
+        <p>
+          {w.buzzQ}{' '}
+          <a href="buzzer-guide.html" target="_blank" rel="noopener" data-testid="rules-buzzer-guide">
+            {w.buzzLink}
+          </a>{' '}
+          {w.buzzPrint}
+        </p>
+      </section>
     </GuideDialog>
   )
 }
