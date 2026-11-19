@@ -9,13 +9,33 @@ export const APP_VERSION = JSON.parse(readFileSync(new URL('./package.json', imp
 
 export default function offlinePlugin() {
   let outDir = 'dist'
+  let env = {}
   return {
     name: 'offline-copy',
     apply: 'build',
     configResolved(c) {
       outDir = join(c.root, c.build.outDir)
+      env = c.env || {}
     },
     closeBundle() {
+      // The install details (name and icons), with the edition's own name.
+      const name = env.VITE_TITLE || env.VITE_APP_NAME || 'Get Grilled'
+      const manifest = {
+        name,
+        short_name: name,
+        description: env.VITE_DESCRIPTION || '',
+        start_url: './',
+        scope: './',
+        display: 'standalone',
+        background_color: env.VITE_BG || '#110920',
+        theme_color: env.VITE_BG || '#110920',
+        icons: [
+          { src: 'icon-192.png', sizes: '192x192', type: 'image/png' },
+          { src: 'icon-512.png', sizes: '512x512', type: 'image/png' },
+          { src: 'icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
+        ],
+      }
+      writeFileSync(join(outDir, 'manifest.webmanifest'), JSON.stringify(manifest, null, 2))
       const files = []
       const walk = (dir) => {
         for (const n of readdirSync(dir)) {
@@ -28,7 +48,7 @@ export default function offlinePlugin() {
         }
       }
       walk(outDir)
-      const keep = files.filter((f) => f !== 'sw.js' && f !== 'og.png' && !f.endsWith('.woff') && !f.startsWith('_') && f !== 'version.json').sort()
+      const keep = files.filter((f) => f !== 'sw.js' && !/^og(-.*)?\.png$/.test(f) && !f.endsWith('.woff') && !f.startsWith('_') && f !== 'version.json').sort()
       const hash = createHash('sha256')
       for (const f of keep) hash.update(f).update(readFileSync(join(outDir, f)))
       const list = ['./', ...keep.map((f) => './' + f)]
