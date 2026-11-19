@@ -57,8 +57,11 @@
   .print-note{border:1px solid #000;padding:4pt 6pt}
   .print-sheet .log-table{font-size:9pt}
   .print-sheet .log-table th,.print-sheet .log-table td{border-bottom:1px solid #999}
-  .print-sheet .log-stats{grid-template-columns:repeat(4,1fr)}
+  .print-sheet .log-stats{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
   .print-sheet .log-team{border:1px solid #999}
+  .print-sheet .log-team dl{grid-template-columns:auto minmax(0,1fr)}
+  .print-sheet .log-team dt{white-space:nowrap}
+  .print-sheet .log-team dd{white-space:normal;overflow:visible;overflow-wrap:break-word}
   .print-sign{margin-top:24pt}
   @page{margin:14mm}
 }
