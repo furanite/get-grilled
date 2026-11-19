@@ -277,7 +277,7 @@ export default function Review({ lang, notify, onBack }: { lang: Lang; notify: (
                 {x.held && <p className="review-held">{x.held === 'unchecked' ? t.heldU : t.heldF}</p>}
                 <p className="review-q" dir="auto" lang="en">{x.q}</p>
                 <p className="review-a" dir="auto" lang="en"><b>{t.answer}:</b> {x.a}</p>
-                {x.src && <p className="review-src" dir="auto" lang="en"><b>{t.source}:</b> {x.src}</p>}
+                {x.src && <p className="review-src" dir="auto" lang="en"><b>{t.source}:</b> <bdi>{x.src}</bdi></p>}
                 {x.reviews && x.reviews.length > 0 && (
                   <details className="review-past">
                     <summary>{t.others} ({x.reviews.length})</summary>

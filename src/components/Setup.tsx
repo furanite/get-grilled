@@ -270,7 +270,7 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
     return (
       <button key={c.id} className="cat-pick" aria-pressed={order >= 0} disabled={!playable || (order < 0 && picked.length >= limit)} onClick={() => toggle(c.id)} style={{ ['--d' as string]: `${i * 40}ms` }} data-cat={c.id}>
         <CatIcon id={c.builtIn ? c.id : 'custom'} />
-        <b>{namePair(c, lang)[0]}</b>
+        <b><bdi>{namePair(c, lang)[0]}</bdi></b>
         {namePair(c, lang)[1] && <small lang={/[؀-ۿ]/.test(namePair(c, lang)[1] ?? '') ? 'ar' : 'en'}>{namePair(c, lang)[1]}</small>}
         <small>
           {playable ? qCount(total({ counts }), lang) : t.incomplete}
@@ -308,7 +308,7 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
                 <button key={n.id} className="night" aria-pressed={night === n.id} onClick={() => applyNight(n)} data-night={n.id}>
                   <NightIcon n={n} />
                   <b dir="auto">{nameOf(n, lang)}</b>
-                  <small dir="auto">{lang === 'ar' && n.aboutAr ? n.aboutAr : n.about}</small>
+                  <small dir="auto">{(lang === 'ar' && n.aboutAr) || (lang === 'ur' && n.aboutUr) || n.about}</small>
                 </button>
               ))}
             </div>

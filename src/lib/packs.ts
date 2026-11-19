@@ -62,6 +62,7 @@ export interface Night {
   nameUr?: string
   about: string
   aboutAr?: string
+  aboutUr?: string
   cats: string[]
   teams?: string[]
   teamsAr?: string[]

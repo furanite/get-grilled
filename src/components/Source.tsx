@@ -8,7 +8,7 @@ export default function Source({ t, q }: { t: Strings; q: Pick<Question, 'kind' 
   return (
     <small className="src" dir="auto" data-testid="source">
       {label}
-      {q.src ? `: ${q.src}` : ''}
+      {q.src && <>: <bdi>{q.src}</bdi></>}
     </small>
   )
 }

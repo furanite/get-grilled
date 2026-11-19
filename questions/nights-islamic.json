@@ -2,7 +2,11 @@
   {
     "id": "mawlid-night",
     "name": "Blessed Mawlid Night",
+    "nameAr": "ليلة المولد المبارك",
+    "nameUr": "مولدِ مبارک کی رات",
     "about": "The Blessed Seerah in Makkah and Madinah, the Companions (رِضْوَانُ اللَّهِ عَلَيْهِمْ), hadith, character and tasawwuf.",
+    "aboutAr": "السيرة المباركة في مكة والمدينة، والصحابة (رِضْوَانُ اللَّهِ عَلَيْهِمْ)، والحديث، والأخلاق، والتصوف.",
+    "aboutUr": "مکہ اور مدینہ میں سیرتِ مبارکہ، صحابۂ کرام (رِضْوَانُ اللَّهِ عَلَيْهِمْ)، حدیث، اخلاق اور تصوف۔",
     "cats": [
       "isl-seerah-makkah",
       "isl-seerah-madinah",
@@ -25,7 +29,11 @@
   {
     "id": "ramadan",
     "name": "Ramadan Special",
+    "nameAr": "أمسية رمضان",
+    "nameUr": "رمضان خصوصی",
     "about": "Fasting, the Qur'an that was sent down in Ramadan, Complete the Ayah, charity and zakat, and the Blessed Seerah in Madinah.",
+    "aboutAr": "الصيام، والقرآن الذي أُنزل في رمضان، وأكمل الآية، والصدقة والزكاة، والسيرة المباركة في المدينة.",
+    "aboutUr": "روزہ، رمضان میں نازل ہونے والا قرآن، آیت مکمل کریں، صدقہ و زکوٰۃ، اور مدینہ میں سیرتِ مبارکہ۔",
     "cats": [
       "isl-sawm",
       "isl-quran",
@@ -47,7 +55,11 @@
   {
     "id": "hajj-season",
     "name": "Hajj and Eid al-Adha",
+    "nameAr": "الحج وعيد الأضحى",
+    "nameUr": "حج اور عید الاضحیٰ",
     "about": "Hajj, food and the udhiyah, the early Blessed Prophets ﵈, the Companions (رِضْوَانُ اللَّهِ عَلَيْهِمْ), Complete the Ayah and Islamic history.",
+    "aboutAr": "الحج، والطعام والأضحية، والأنبياء الأوائل ﵈، والصحابة (رِضْوَانُ اللَّهِ عَلَيْهِمْ)، وأكمل الآية، والتاريخ الإسلامي.",
+    "aboutUr": "حج، کھانا اور قربانی، ابتدائی انبیاءِ کرام ﵈، صحابۂ کرام (رِضْوَانُ اللَّهِ عَلَيْهِمْ)، آیت مکمل کریں اور اسلامی تاریخ۔",
     "cats": [
       "isl-hajj",
       "isl-food",
@@ -69,7 +81,11 @@
   {
     "id": "civilisation",
     "name": "Islamic Civilisation",
+    "nameAr": "الحضارة الإسلامية",
+    "nameUr": "اسلامی تہذیب",
     "about": "Picture questions on Islamic architecture, with history, scholars, the Companions (رِضْوَانُ اللَّهِ عَلَيْهِمْ), the Qur'an and Complete the Ayah.",
+    "aboutAr": "أسئلة مصوّرة عن العمارة الإسلامية، مع التاريخ والعلماء والصحابة (رِضْوَانُ اللَّهِ عَلَيْهِمْ) والقرآن وأكمل الآية.",
+    "aboutUr": "اسلامی فنِ تعمیر پر تصویری سوالات، ساتھ میں تاریخ، علماء، صحابۂ کرام (رِضْوَانُ اللَّهِ عَلَيْهِمْ)، قرآن اور آیت مکمل کریں۔",
     "cats": [
       "isl-architecture",
       "isl-history",
@@ -91,7 +107,11 @@
   {
     "id": "fiqh-night",
     "name": "Fiqh Night",
+    "nameAr": "ليلة الفقه",
+    "nameUr": "فقہ کی رات",
     "about": "Purification, prayer, fasting, zakat, food and drink, and money. Pick your madhhab on the setup screen.",
+    "aboutAr": "الطهارة والصلاة والصيام والزكاة والطعام والشراب والمال. اختر مذهبك في شاشة الإعداد.",
+    "aboutUr": "طہارت، نماز، روزہ، زکوٰۃ، کھانا پینا اور مال۔ ترتیب کی اسکرین پر اپنا مسلک چنیں۔",
     "cats": [
       "isl-taharah",
       "isl-salah",
@@ -113,7 +133,11 @@
   {
     "id": "family-night",
     "name": "Family Night",
+    "nameAr": "ليلة العائلة",
+    "nameUr": "خاندان کی رات",
     "about": "All six Kids categories, parents against children.",
+    "aboutAr": "فئات الأطفال الست كلها، الآباء ضد الأبناء.",
+    "aboutUr": "بچوں کے تمام چھ زمرے، والدین بمقابلہ بچے۔",
     "cats": [
       "kids-prophets",
       "kids-pillars",
@@ -139,7 +163,11 @@
   {
     "id": "hanafi-night",
     "name": "Hanafi Night",
+    "nameAr": "ليلة الحنفية",
+    "nameUr": "حنفی رات",
     "about": "The Hanafi school of Imam Abu Hanifah رحمة الله عليه: its imams and books, with cleanliness, prayer, fasting, zakat and Hajj by Hanafi rulings.",
+    "aboutAr": "مذهب الإمام أبي حنيفة رحمة الله عليه: أئمته وكتبه، مع الطهارة والصلاة والصيام والزكاة والحج على المذهب الحنفي.",
+    "aboutUr": "امام ابو حنیفہ رحمة الله عليه کا مسلک: اس کے ائمہ اور کتابیں، ساتھ میں حنفی احکام کے مطابق طہارت، نماز، روزہ، زکوٰۃ اور حج۔",
     "cats": [
       "isl-school-hanafi",
       "isl-taharah",
@@ -162,7 +190,11 @@
   {
     "id": "maliki-night",
     "name": "Maliki Night",
+    "nameAr": "ليلة المالكية",
+    "nameUr": "مالکی رات",
     "about": "The Maliki school of Imam Malik رحمة الله عليه: its imams and books, with cleanliness, prayer, fasting, zakat and Hajj by Maliki rulings.",
+    "aboutAr": "مذهب الإمام مالك رحمة الله عليه: أئمته وكتبه، مع الطهارة والصلاة والصيام والزكاة والحج على المذهب المالكي.",
+    "aboutUr": "امام مالک رحمة الله عليه کا مسلک: اس کے ائمہ اور کتابیں، ساتھ میں مالکی احکام کے مطابق طہارت، نماز، روزہ، زکوٰۃ اور حج۔",
     "cats": [
       "isl-school-maliki",
       "isl-taharah",
@@ -185,7 +217,11 @@
   {
     "id": "shafii-night",
     "name": "Shafi'i Night",
+    "nameAr": "ليلة الشافعية",
+    "nameUr": "شافعی رات",
     "about": "The Shafi'i school of Imam al-Shafi'i رحمة الله عليه: its imams and books, with cleanliness, prayer, fasting, zakat and Hajj by Shafi'i rulings.",
+    "aboutAr": "مذهب الإمام الشافعي رحمة الله عليه: أئمته وكتبه، مع الطهارة والصلاة والصيام والزكاة والحج على المذهب الشافعي.",
+    "aboutUr": "امام شافعی رحمة الله عليه کا مسلک: اس کے ائمہ اور کتابیں، ساتھ میں شافعی احکام کے مطابق طہارت، نماز، روزہ، زکوٰۃ اور حج۔",
     "cats": [
       "isl-school-shafii",
       "isl-taharah",
@@ -208,7 +244,11 @@
   {
     "id": "hanbali-night",
     "name": "Hanbali Night",
+    "nameAr": "ليلة الحنابلة",
+    "nameUr": "حنبلی رات",
     "about": "The Hanbali school of Imam Ahmad رحمة الله عليه: its imams and books, with cleanliness, prayer, fasting, zakat and Hajj by Hanbali rulings.",
+    "aboutAr": "مذهب الإمام أحمد رحمة الله عليه: أئمته وكتبه، مع الطهارة والصلاة والصيام والزكاة والحج على المذهب الحنبلي.",
+    "aboutUr": "امام احمد رحمة الله عليه کا مسلک: اس کے ائمہ اور کتابیں، ساتھ میں حنبلی احکام کے مطابق طہارت، نماز، روزہ، زکوٰۃ اور حج۔",
     "cats": [
       "isl-school-hanbali",
       "isl-taharah",
