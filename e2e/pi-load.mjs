@@ -10,7 +10,7 @@ import { mkdtempSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'nod
 import { join } from 'node:path'
 import { tmpdir } from 'node:os'
 
-const PORT = 4193
+const PORT = 4194 // not 4193: the screen-fit check for the audience window uses that one
 const PHONES = Number(process.env.PHONES || 150)
 const ROUNDS = Number(process.env.ROUNDS || 10)
 const TEAMS = 4

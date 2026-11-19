@@ -47,7 +47,11 @@ const cat = (id, name, nameAr) => ({ id, name, nameAr, builtIn: false, levels: [
 const CUSTOM = [cat('c-long', LONG_EN, LONG_AR), cat('c-word', ONE_WORD, 'تخطيط_كهربية_الدماغ'), cat('c-ar', LONG_AR, LONG_AR)]
 const TEAMS = ['The Unstoppable Thermodynamicists', 'Team Supercalifragilisticexpialidocious', 'فريق المهندسين المبدعين الأقوياء']
 
-const server = spawn('npx', ['vite', 'preview', '--port', String(PORT), '--strictPort'], { stdio: 'ignore' })
+// A server left over from an earlier run would answer instead of this build (and this one would fail to
+// start on the taken port), so the tests would quietly check old code: refuse to run then.
+if (await fetch(`http://localhost:${PORT}/`).then(() => true, () => false)) throw new Error(`Port ${PORT} is already in use (an old preview server?). Stop it and run again.`)
+// vite is started with node itself (not through npx), so server.kill() really stops it at the end.
+const server = spawn(process.execPath, ['node_modules/vite/bin/vite.js', 'preview', '--port', String(PORT), '--strictPort'], { stdio: 'ignore' })
 await new Promise((r) => setTimeout(r, 2500))
 const browser = await pw[BROWSER].launch()
 const report = []
