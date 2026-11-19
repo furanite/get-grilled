@@ -3,7 +3,8 @@
  * (Display options). Nothing is recorded or sent anywhere; the browser speaks the text on the device.
  *
  * Clues that name a Prophet or a Companion (they carry an honorific sign or phrase) are never read aloud:
- * the host reads those. The voice only ever narrates the clue text; it never speaks as any person.
+ * the host reads those. Nor are clues with vowelled Arabic or the ornate brackets (Qur'anic text, hadith wording):
+ * a machine voice must never recite or mangle the words of the Qur'an. The voice only ever narrates the clue text; it never speaks as any person.
  */
 let enabled = false
 export const setVoiceEnabled = (on: boolean) => {
@@ -15,8 +16,11 @@ export const voiceAvailable = () => typeof window !== 'undefined' && 'speechSynt
 /** Honorific signs (﵀ ﵁ ﵂ ﵃ ﵄ ﵇ ﵈ ...), ﷺ, and the honorifics written out. */
 const HONOURED = /[﵀-﵏ﷺﷻ]|عليه(?:ا|م)? السلام|رضي الله|رضوان الله|صلى الله عليه|peace be upon|may allah be pleased/i
 
+/** Vowel marks, Qur'anic annotation signs and the ornate parentheses that mark Qur'anic text. */
+const SACRED_TEXT = /[\u064B-\u065F\u0670\u06D6-\u06ED\uFD3E\uFD3F]/
+
 /** Whether read-aloud leaves this clue to the host. */
-export const hostReads = (text: string) => HONOURED.test(text)
+export const hostReads = (text: string) => HONOURED.test(text) || SACRED_TEXT.test(text)
 
 /** Text as it should be spoken: no picture markers or stray symbols. */
 const speakable = (text: string) => text.replace(/\{img:[^}]*\}/g, '').replace(/[_*#|]+/g, ' ').replace(/\s+/g, ' ').trim()

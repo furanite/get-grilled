@@ -173,6 +173,8 @@ describe('read-aloud', () => {
     expect(hostReads('The Blessed Prophet ﵇ who was swallowed by a big fish.')).toBe(true)
     expect(hostReads('Our Beloved and our master Muhammad ﷺ')).toBe(true)
     expect(hostReads('Abu Bakr ﵁ was the first caliph.')).toBe(true)
+    expect(hostReads('بِسۡمِ ٱللَّهِ …')).toBe(true)
+    expect(hostReads('Complete it: ﴿ قُلْ هُوَ ٱللَّهُ أَحَدٌ ﴾')).toBe(true)
     expect(hostReads('The month of fasting.')).toBe(false)
   })
 })
