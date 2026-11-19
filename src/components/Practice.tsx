@@ -6,7 +6,6 @@ import { num } from '../lib/i18n'
 import { applyPool } from '../lib/game'
 import { loadPack } from '../lib/packs'
 import { diagramSrc } from '../lib/diagram'
-import { photoCredit } from '../lib/photos'
 import { speakClue, stopSpeaking } from '../lib/voice'
 
 interface Props {
@@ -175,8 +174,8 @@ export default function Practice({ t, lang, index, custom, pools, onBack }: Prop
           </p>
           {card.q.img && (
             <div className="q-fig">
-              <img className={`q-img${photoCredit(card.q.img) ? ' photo' : ''}`} src={diagramSrc(card.q.img)} alt={t.diagramAlt} />
-              {photoCredit(card.q.img) && <p className="q-credit">{photoCredit(card.q.img)}</p>}
+              <img className={`q-img${card.q.credit ? ' photo' : ''}`} src={diagramSrc(card.q.img)} alt={t.diagramAlt} />
+              {card.q.credit && <p className="q-credit">{card.q.credit}</p>}
             </div>
           )}
           {shown ? (

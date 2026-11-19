@@ -18,7 +18,7 @@
     "e2e:extras": "vite build && node e2e/extras.mjs",
     "e2e:host": "vite build --mode host --outDir dist-host && node e2e/host.mjs",
     "build:site": "npm run build && npm run build:host && node scripts/make-site.mjs",
-    "build:islamic": "PACK_EDITION=islamic VITE_THEMESET=islamic VITE_APP_NAME='Munaafasatul Ilm' VITE_APP_NAME_AR='منافسة العلم' VITE_TITLE='Munaafasatul Ilm' npm run build:site",
+    "build:islamic": "PACK_EDITION=islamic VITE_THEMESET=islamic VITE_APP_NAME='Munaafasatul Ilm' VITE_APP_NAME_AR='منافسة العلم' VITE_TITLE='Munaafasatul Ilm' VITE_DESCRIPTION='An Islamic knowledge quiz for families, classes and masjid events, with a Kids collection.' VITE_SITE_URL='https://furanite.github.io/ilm-munaafasah/' VITE_OG_IMAGE='og-ilm.png' npm run build:site",
     "build:pi": "npm run build:islamic && node scripts/make-pi.mjs",
     "pack:pi": "node scripts/pack-pi.mjs",
     "pi": "node pi/server.mjs",

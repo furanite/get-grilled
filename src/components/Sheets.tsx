@@ -6,6 +6,7 @@ import type { Strings } from '../lib/i18n'
 import { num } from '../lib/i18n'
 import { standings } from '../lib/game'
 import { useDialog } from './Legal'
+import { APP_NAME } from '../lib/edition'
 
 /** What happened for one team over the game, worked out from the log. */
 export interface TeamStats {
@@ -240,7 +241,7 @@ export function LogSheet({ t, lang, game, onClose }: { t: Strings; lang: Lang; g
           <button type="button" className="ghost" onClick={print} data-testid="log-print">
             {t.log.print}
           </button>
-          <button type="button" className="ghost" onClick={() => downloadText(`get-grilled-log-${stamp()}-${safe(title)}.csv`, logCsv(t, game, lang))} data-testid="log-csv" disabled={!game.log?.length}>
+          <button type="button" className="ghost" onClick={() => downloadText(`${safe(APP_NAME).toLowerCase()}-log-${stamp()}-${safe(title)}.csv`, logCsv(t, game, lang))} data-testid="log-csv" disabled={!game.log?.length}>
             {t.log.csv}
           </button>
           <button type="button" className="btn" onClick={onClose} data-autofocus data-testid="log-close">
