@@ -357,7 +357,7 @@ The doctrine that a company can only act within its objects clause. :: Ultra vir
 The English case that set the ultra vires rule in 1875. :: Ashbury Railway Carriage v Riche
 The rule that outsiders can assume internal company procedures were followed. :: The indoor management rule (Turquand's case)
 The 1982 English case on when a company's payments to its directors are really gifts out of capital. :: Re Halt Garage (1964) Ltd (1982)
-The Islamic law view of a limited liability company was debated because of this issue. :: Limited liability (and legal personality)
+Scholars of Islamic law debated the limited liability company mostly because it gives the company this separate status of its own. :: Legal personality
 The modern scholar who argued Islamic law accepts legal personality through waqf and bayt al-mal. :: Mustafa al-Zarqa ﵀
 In Islamic law, bayt al-mal is an example of this. :: A legal entity (public treasury)
 The AAOIFI Shariah Standard on shares and bonds sets a debt limit for halal stock screening of this. :: 30% of market value
@@ -469,7 +469,7 @@ The IIFA's 2009 decision on organised tawarruq was taken in this city. :: Sharja
 The Saudi Commercial Courts Law limits claims for contract disputes to be filed within this many years. :: Five
 Under the Saudi Commercial Courts Law, appeal must usually be filed within this many days. :: 30
 The Saudi Commercial Court's first court was opened in this city. :: Riyadh
-Under the Saudi Commercial Courts Law, small claims are handled with this procedure. :: Small claims (single judge, faster)
+Under the Saudi Commercial Courts Law, low-value disputes go through this faster procedure with a single judge. :: Small claims procedure
 The Saudi law that set up Saudi Center for Commercial Arbitration rules. :: The SCCA Arbitration Rules
 Saudi Arabia's Arbitration Law is based on this model. :: The UNCITRAL Model Law
 The Saudi Arbitration Law requires arbitrators to have a degree in Sharia or law for this person. :: The sole arbitrator or the presiding arbitrator

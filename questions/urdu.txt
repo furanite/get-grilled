@@ -260,7 +260,7 @@ The Urdu word "shayar" means this, and comes from Arabic. :: Poet
 The Urdu word "sahib" comes from Arabic and means this. :: Master (sir)
 The Urdu word "maulana" comes from Arabic and means this. :: Our master
 The Urdu word "allama" is a title for this. :: A very learned scholar
-The famous Urdu saying "Sabr ka phal meetha" is linked to this Arabic idea. :: Sabr (patience)
+The Urdu saying '___ ka phal meetha hota hai' says the fruit of this virtue is sweet. :: Sabr (patience)
 The Urdu word "falsafa" comes from Arabic and Greek and means this. :: Philosophy
 The Urdu word "tib" or "tibb" comes from Arabic and means this. :: Medicine
 "Hakeem" in Urdu means this. :: A traditional doctor (wise man)
@@ -370,7 +370,7 @@ The famous poet of Urdu marsiya from Lucknow. :: Mir Anis ﵀
 The poem in praise of our Beloved and our master, the Prophet Muhammad ﷺ. :: Na't
 A short Urdu poem form with six-line stanzas, used by Hali. :: Musaddas
 A free poem without set rhyme in modern Urdu. :: Nazm (azad nazm)
-The long Urdu story with many tales, like "Dastan-e-Amir Hamza". :: Dastan
+The long Urdu genre of adventure tales, as told of Amir Hamza. :: Dastan
 The Urdu word "afsana" means this kind of writing. :: Short story
 The Urdu word "naval" (novel) is borrowed from this language. :: English
 The writer of the first Urdu novel "Mirat-ul-Uroos". :: Deputy Nazir Ahmad ﵀

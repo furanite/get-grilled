@@ -11,7 +11,7 @@ The piece of a linked list that holds one value and a link. :: Node
 The link in a linked list node that points to the following node. :: Next pointer
 The first node of a linked list. :: Head
 The last node of a linked list. :: Tail
-A stack of plates in a cafeteria works like this data structure. :: Stack
+A pile of cafeteria plates, where the last one put on is the first taken off, works like this data structure. :: Stack
 A line of people waiting at a bank works like this data structure. :: Queue
 Adding an item to the back of a queue. :: Enqueue
 Removing an item from the front of a queue. :: Dequeue

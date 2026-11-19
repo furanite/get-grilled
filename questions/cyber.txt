@@ -83,7 +83,7 @@ The famous 2017 ransomware that hit hospitals in the UK. :: WannaCry
 The cryptocurrency often demanded in ransomware attacks. :: Bitcoin
 The deep part of the internet reached with special software such as Tor. :: Dark web
 The browser that routes traffic through many relays to hide the user. :: Tor Browser
-A file's unique fingerprint made with a hash function. :: Hash
+The short fixed-length fingerprint of a file that SHA-256 produces. :: Hash (digest)
 A digital document that proves a website's identity. :: Digital certificate
 The lock icon in the browser means the connection is this. :: Encrypted
 Software that monitors a network for suspicious activity, shortened to three letters. :: IDS
@@ -201,7 +201,7 @@ The Saudi NCA framework of essential cybersecurity controls, shortened to three 
 The year Saudi Arabia established the National Cybersecurity Authority. :: 2017
 The Saudi law that protects personal data, shortened to four letters. :: PDPL
 The 1988 program that was the first worm to spread widely on the internet. :: Morris worm
-The 2000 email worm that spread with the subject line "ILOVEYOU". :: ILOVEYOU (Love Bug)
+The 2000 email worm from the Philippines that posed as a love letter. :: ILOVEYOU (Love Bug)
 The attack in which an attacker reuses a captured message to repeat an action. :: Replay attack
 The process of removing unneeded services and settings to reduce a system's attack surface. :: Hardening
 The sum of all the points where an attacker could try to get in. :: Attack surface

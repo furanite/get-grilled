@@ -8,7 +8,11 @@ const PORT = 4179
 const URL = `http://localhost:${PORT}/`
 const SHOTS = process.env.SHOTS || 'e2e/shots'
 mkdirSync(SHOTS, { recursive: true })
-const server = spawn('npx', ['vite', 'preview', '--port', String(PORT), '--strictPort'], { stdio: 'ignore' })
+// A server left over from an earlier run would answer instead of this build (and this one would fail to
+// start on the taken port), so the tests would quietly check old code: refuse to run then.
+if (await fetch(`http://localhost:${PORT}/`).then(() => true, () => false)) throw new Error(`Port ${PORT} is already in use (an old preview server?). Stop it and run again.`)
+// vite is started with node itself (not through npx), so server.kill() really stops it at the end.
+const server = spawn(process.execPath, ['node_modules/vite/bin/vite.js', 'preview', '--port', String(PORT), '--strictPort'], { stdio: 'ignore' })
 await new Promise((r) => setTimeout(r, 2500))
 
 const results = []

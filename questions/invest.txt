@@ -205,7 +205,7 @@ The return of a fund after all costs compared with its benchmark. :: Excess retu
 The standard deviation of a fund's return minus its benchmark's return. :: Tracking error
 The rule that a fund must not put more than a set share of its money in one company. :: Concentration (diversification) limit
 UK government bonds are often called these. :: Gilts
-Fama's three forms of market efficiency: weak, semi-strong and this. :: Strong
+Eugene Fama's form of market efficiency in which even insider information is already in share prices. :: Strong form
 The 2021 frenzy where retail investors pushed up this video game retailer's shares. :: GameStop
 The oil benchmark from the North Sea. :: Brent
 The US oil benchmark. :: WTI (West Texas Intermediate)
@@ -339,7 +339,7 @@ The Grossman-Stiglitz paradox says markets can't be perfectly efficient because 
 The 'limits to arbitrage' theory by Shleifer and Vishny in 1997 stresses this risk. :: Noise trader risk (and capital constraints)
 The famous pair of Royal Dutch and Shell shares that traded at different prices showed this. :: Limits to arbitrage (twin-share mispricing)
 The 2000 3Com and Palm spin-off was a famous example of this. :: Mispricing (the stub value was negative)
-The 'Monday effect' refers to returns being lower on this day. :: Monday
+The calendar anomaly in which share returns are lower at the start of the trading week. :: The Monday (weekend) effect
 Thaler's term for treating money differently depending on its source or use. :: Mental accounting
 The house money effect means investors take more risk after this. :: Gains
 The 'equity home bias' was described by French and Poterba in this year. :: 1991

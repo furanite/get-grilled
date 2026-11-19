@@ -214,7 +214,7 @@ The company that bought DeepMind in 2014. :: Google
 The company that invested 13 billion dollars in OpenAI by 2023. :: Microsoft
 The company that makes the Grok chatbot. :: xAI
 The OpenAI video generation model announced in 2024. :: Sora
-Anthropic's 2022 paper describing "superposition" in toy models: "Toy Models of ___". :: Superposition
+Anthropic's 2022 paper showed toy networks storing more features than they have neurons by overlapping them; the name of this effect. :: Superposition
 The famous feature found in that 2024 research tied to a bridge in San Francisco. :: Golden Gate Bridge
 
 ## 300
@@ -266,7 +266,7 @@ The benchmark of Python programming problems released by OpenAI in 2021. :: Huma
 The benchmark of real GitHub issues that coding agents must fix. :: SWE-bench
 The benchmark designed to be a final, very hard test of expert knowledge, released in 2025. :: Humanity's Last Exam
 The 2022 diffusion paper that made models practical by working in a compressed space. :: Latent diffusion
-The 2020 paper that showed diffusion models could rival GANs: "Denoising Diffusion Probabilistic ___". :: Models
+The 2020 paper by Ho, Jain and Abbeel that showed diffusion models could rival GANs, known by this four-letter short name. :: DDPM (Denoising Diffusion Probabilistic Models)
 The guidance method that mixes conditioned and unconditioned predictions to follow prompts more closely. :: Classifier-free guidance
 The 2013 generative model that learns a probabilistic latent space, shortened to three letters. :: VAE
 The trick that lets gradients flow through random sampling in a VAE. :: Reparameterisation trick

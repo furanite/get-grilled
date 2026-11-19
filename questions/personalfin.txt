@@ -103,7 +103,7 @@ A digital wallet app used to pay by phone. :: E-wallet
 The share of income Saudi households saved was one of the lowest in the G20. Vision 2030 aims to raise household savings to this share of income. :: 10%
 A savings rate of 20% means saving this share of take-home pay. :: One fifth
 Starting to save at 25 instead of 35 matters most because of this. :: Compounding (more time to grow)
-The 2024 Saudi Social Insurance Law took effect in July of this year. :: 2024
+The year the new Saudi Social Insurance Law took effect, in July. :: 2024
 A rule of thumb says hold your age as a percentage in bonds. The bond share at age 30. :: 30%
 The '30-day rule' says wait this long before a non-essential purchase. :: 30 days
 'Subscription creep' means slowly adding more of these. :: Monthly subscriptions

@@ -263,7 +263,7 @@ Breakers for medium voltage often quench the arc in this. :: Vacuum
 The relay that measures impedance to find how far away a fault is. :: Distance relay
 The distance relay zone that covers about 80% of the line instantly. :: Zone 1
 The relay curve that trips faster for bigger currents. :: Inverse time characteristic
-Current transformers step down this for relays and meters. :: Current
+These instrument transformers step a large line current down to a few amps for relays and meters. :: Current transformers (CTs)
 The danger when you open the secondary of a loaded current transformer. :: Very high voltage
 The relay that trips when frequency falls too low and sheds load. :: Underfrequency relay
 The equation describing a generator rotor's acceleration after a disturbance. :: Swing equation

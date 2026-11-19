@@ -414,7 +414,7 @@ The largest bay in the world. :: Bay of Bengal
 The island divided between Indonesia, Malaysia and Brunei. :: Borneo
 The island divided between Haiti and the Dominican Republic. :: Hispaniola
 The world's second-largest island, shared by Indonesia and one other country. :: New Guinea
-The island divided between Indonesia and Timor-Leste. :: Timor
+This island is shared by Indonesia and the country whose capital is Dili. :: Timor
 The world's most populous island. :: Java
 The archipelago in the Arabian Sea belonging to Yemen, famous for dragon's blood trees. :: Socotra
 The largest island in the Mediterranean. :: Sicily

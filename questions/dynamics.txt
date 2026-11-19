@@ -150,7 +150,7 @@ The method that turns a dynamics problem into a statics problem by adding −ma.
 A body that moves so that every line in it stays parallel to itself. :: Translation
 Motion where all points move in circles about a fixed axis. :: Rotation about a fixed axis
 The point in a body with zero velocity at an instant. :: Instantaneous centre of rotation
-A rigid link joining two pins in a mechanism, like a bar. :: Link
+In a mechanism, the general name for a rigid bar, such as a crank or coupler, joining two joints. :: Link
 The four-bar linkage's shortest link that can spin fully round. :: Crank
 The four-bar link that only swings back and forth. :: Rocker
 The rule that tells if a four-bar linkage will have a fully rotating link. :: Grashof condition

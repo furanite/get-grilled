@@ -233,7 +233,7 @@ The element named after the Sun, first found in the Sun's spectrum. :: Helium
 The element with the symbol W. :: Tungsten
 The element with the symbol Sn. :: Tin
 The element with the symbol Hg. :: Mercury
-The element whose isotope carbon-14 is used to date old organic objects. :: Carbon
+This element's isotope with mass number 14 is used to date old organic objects. :: Carbon
 The half-life of carbon-14 is about this many years. :: About 5,730 years
 The particles that are helium nuclei, given off in some radioactive decay. :: Alpha particles
 The high-energy electromagnetic rays given off by radioactive nuclei. :: Gamma rays

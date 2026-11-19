@@ -74,7 +74,7 @@ The famous mosque in Kairouan, Tunisia. :: The Great Mosque of Kairouan (Mosque 
 The famous mosque in Mali made of mud. :: The Great Mosque of Djenné
 The "Blue Mosque" in Istanbul was built for this sultan. :: Sultan Ahmed I
 The Ottoman architect of the Süleymaniye Mosque. :: Mimar Sinan
-The old mosque in Hagia Sophia's place was first a church. Its name. :: Hagia Sophia (Ayasofya)
+The great 6th-century church of Constantinople that became a mosque in 1453. :: Hagia Sophia (Ayasofya)
 Islamic art usually avoids pictures of these in mosques. :: Living beings (people and animals)
 Mosques often have carpets with lines to keep these straight. :: Rows of worshippers (saff)
 The Arabic word for a row of worshippers. :: Saff
@@ -153,7 +153,7 @@ The Taj Mahal took about this many years to build. :: About 20 (1632–1653)
 The Taj Mahal stands at the end of this kind of garden. :: A chahar bagh
 The inlay of precious stones in the Taj Mahal. :: Pietra dura (parchin kari)
 The Badshahi Mosque was built by this Mughal emperor. :: Aurangzeb
-The Mughal emperor buried in Humayun's Tomb. :: Humayun
+The second Mughal emperor, whose garden tomb in Delhi inspired the Taj Mahal. :: Humayun
 The Mosque of Cordoba's columns were reused from these older buildings. :: Roman and Visigothic buildings
 The Alhambra's walls of red stone gave it this Arabic name meaning "the red one". :: Al-Hamra'
 The Alhambra's Hall of the Two Sisters has a famous ceiling of this. :: Muqarnas
@@ -267,7 +267,7 @@ The mosques of West Africa use mud and these wooden sticks out of the walls. :: 
 The torons on Djenné's mosque are used for this. :: Scaffolding for re-plastering
 The term for the band of Quran verses in tiles or stone around a building. :: An inscription band (frieze)
 The calligraphy style with angular letters used in early Qurans and buildings. :: Kufic
-The square Kufic style used in brick patterns. :: Square (banna'i) Kufic
+The Kufic style built from bricks or tiles on a grid, so all its letters have right angles. :: Square (banna'i) Kufic
 The cursive calligraphy style used in many mosque inscriptions. :: Thuluth
 The Persian calligraphy style with hanging letters. :: Nasta'liq
 The calligraphy style used in most printed Qurans. :: Naskh

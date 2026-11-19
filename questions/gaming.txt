@@ -108,7 +108,7 @@ The PlayStation controller symbols are circle, cross, triangle and this. :: Squa
 The Xbox controller face buttons are A, B, X and this. :: Y
 Sonic collects these golden items. :: Rings
 The Pokémon whose name is a combination of "pika" (sparkle) and "chu" (squeak). :: Pikachu
-The Capcom game series with Mega Man's blue robot. :: Mega Man
+Capcom's blue robot hero of 1987, called Rockman in Japan. :: Mega Man
 The Apple product announced in 2007 as "an iPod, a phone, and an internet communicator". :: iPhone
 Apple's digital shop for iPhone apps, launched in 2008. :: The App Store
 Apple's face-recognition unlock introduced with the iPhone X. :: Face ID
@@ -149,7 +149,7 @@ The Tetris piece shaped like a straight line. :: The I piece
 The Nintendo handheld that sold Tetris to millions. :: Game Boy
 The game company behind Fortnite. :: Epic Games
 The game engine made by Epic Games. :: Unreal Engine
-The popular game engine named after "unity". :: Unity
+The popular game engine behind Pokémon Go and Hollow Knight, sharing its name with its company. :: Unity
 The game where you jump into a "Battle Bus". :: Fortnite
 The Roblox currency. :: Robux
 The Minecraft dimension full of lava and ghasts. :: The Nether
@@ -275,7 +275,7 @@ The name for a game's hidden message or joke left by developers. :: Easter egg
 The first known video game Easter egg was hidden in this Atari game in 1980. :: Adventure
 The orange bandicoot mascot of the early PlayStation. :: Crash Bandicoot
 The purple dragon PlayStation mascot. :: Spyro
-The furry Lombax hero of "Ratchet & Clank". :: Ratchet
+The furry Lombax hero who teams up with the robot Clank. :: Ratchet
 The Sony robot dog sold from 1999. :: Aibo
 The Tamagotchi was a digital pet from this country. :: Japan
 The Tamagotchi was made by this toy company. :: Bandai

@@ -111,7 +111,7 @@ The data structure the kernel keeps for each process, shortened to three letters
 Saving one process's state and loading another's. :: Context switch
 The Unix system call that creates a copy of the current process. :: fork
 The Unix system call that replaces a process's program with a new one. :: exec
-The system call a parent uses to wait for a child process to finish. :: wait
+The POSIX call a parent makes to pause until one of its child processes ends. :: wait() (or waitpid())
 A finished process whose parent has not yet collected its exit status. :: Zombie process
 A process whose parent has ended before it. :: Orphan process
 The way a program asks the kernel for a service, such as reading a file. :: System call
@@ -317,7 +317,7 @@ The licence of the Linux kernel. :: GPL version 2
 The year Linus Torvalds released Linux. :: 1991
 The university in Finland where Torvalds studied when he created Linux. :: University of Helsinki
 The teaching operating system by Andrew Tanenbaum that inspired Linux. :: MINIX
-The Unix system call that creates a pipe and returns two file descriptors. :: pipe
+The Unix system call that makes a one-way channel and returns two file descriptors, one to read and one to write. :: pipe()
 The file descriptor number of standard error. :: 2
 The Unix system call that duplicates a file descriptor onto a chosen number, used for redirection. :: dup2
 The number of the Linux runlevel that shuts the system down. :: 0

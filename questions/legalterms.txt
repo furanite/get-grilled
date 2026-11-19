@@ -109,7 +109,7 @@ A law's official number and date are found in this government publication in Sau
 Latin: "Each one", used to divide equally per person. :: Per capita
 Latin: "By the year", yearly. :: Per annum
 Latin: "And the rest". :: Et cetera
-The English judge famous for "Lord Denning MR" rulings. :: Lord Denning
+The Master of the Rolls from 1962 to 1982, famous for bold judgments in plain English. :: Lord Denning
 The Saudi equivalent of the official gazette. :: Umm al-Qura
 The Arabic legal term for a ruling that is obligatory. :: Wajib (fard)
 The Arabic legal term for a ruling that is disliked. :: Makruh
@@ -285,7 +285,7 @@ A judge's decision without a full trial because there is no real defence. :: Sum
 Dropping a case by the claimant. :: Discontinuance (withdrawal)
 A case ended because the court has no power or for a defect. :: Dismissal
 A claim with no real basis meant to annoy. :: A vexatious claim
-A lawyer's duty to the court above the client. :: Duty to the court
+A lawyer's highest duty, which comes before the duty to the client, is owed to this. :: The court
 The legal term for a lawyer's conflict between two clients. :: Conflict of interest
 The legal term for the ethics rules of lawyers. :: Professional conduct rules
 The formal title for a senior barrister in England. :: King's Counsel (KC)
@@ -346,8 +346,8 @@ The legal term "estoppel" means this. :: A party is stopped from denying what it
 The legal term "laches" means this. :: Unreasonable delay that bars a claim in equity
 The legal maxim of equity: "He who comes to equity must come with ___". :: Clean hands
 The legal maxim of equity: "Equity follows ___". :: The law
-The legal maxim of equity: "Delay defeats ___". :: Equity
-The legal maxim of equity: "Equity looks on that as done which ought to be ___". :: Done
+Finish the equity maxim: '___ defeats equity', so a claimant who waits too long can lose. :: Delay
+The equity maxim that treats a binding promise to sell land as if the sale had already happened. :: Equity looks on that as done which ought to be done
 The legal term for a trust created by a court to prevent unfairness. :: A constructive trust
 The English court that once dealt with equity cases. :: The Court of Chancery
 The English laws of 1873-75 that merged the courts of law and equity. :: The Judicature Acts

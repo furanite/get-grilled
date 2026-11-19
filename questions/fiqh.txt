@@ -55,7 +55,7 @@ A school of Islamic law. :: Madhhab
 The number of main Sunni schools of law. :: Four
 The school founded by Imam Abu Hanifah ﵀. :: Hanafi
 The school founded by Imam Malik ibn Anas ﵀. :: Maliki
-The school founded by Imam Muhammad ibn Idris al-Shafi'i ﵀. :: Shafi'i
+The school of law founded by Imam Muhammad ibn Idris ﵀, who taught in Baghdad and then Egypt. :: Shafi'i
 The school founded by Imam Ahmad ibn Hanbal ﵀. :: Hanbali
 The imam of Madinah who wrote "Al-Muwatta'". :: Imam Malik ibn Anas ﵀
 The imam whose large hadith collection is called "Al-Musnad". :: Imam Ahmad ibn Hanbal ﵀

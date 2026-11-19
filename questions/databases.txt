@@ -237,7 +237,7 @@ The textbook authors of "Fundamentals of Database Systems": Elmasri and this man
 The concurrency method that keeps old versions of rows so readers never block writers. :: MVCC (multiversion concurrency control)
 The locking protocol with a growing phase and a shrinking phase. :: Two-phase locking (2PL)
 The protocol that makes a transaction commit on all servers or none, using a coordinator. :: Two-phase commit (2PC)
-The two phases of two-phase commit: prepare and this. :: Commit
+In the 2PC protocol, the second phase, after 'prepare', that makes the change final everywhere. :: Commit
 The concurrency approach that assumes conflicts are rare and checks only at commit time. :: Optimistic concurrency control
 The graph used to detect deadlocks among transactions. :: Wait-for graph
 The property of a schedule that gives the same result as running transactions one after another. :: Serializability
@@ -342,7 +342,7 @@ The year the ARIES paper was published. :: 1992
 The 1995 paper "A Critique of ANSI SQL Isolation Levels" defined this isolation level. :: Snapshot isolation
 The two MIT researchers who formally proved the CAP theorem in 2002: Seth Gilbert and this woman. :: Nancy Lynch
 The 1985 result that consensus is impossible in an asynchronous system with one faulty process, known by three initials. :: FLP
-The Greek island whose fictional parliament Lamport used to explain Paxos. :: Paxos
+Lamport explained his consensus algorithm with the fictional parliament of a Greek island; the algorithm takes the island's name. :: Paxos
 The title of Lamport's paper introducing Paxos. :: The Part-Time Parliament
 The two authors of the Raft paper: Diego Ongaro and this man. :: John Ousterhout
 The Google lock service built on Paxos. :: Chubby
