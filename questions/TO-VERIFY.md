@@ -116,7 +116,7 @@ This file is rewritten by `npm run packs`.
 ## The Companions (رِضْوَانُ اللَّهِ عَلَيْهِمْ) (questions/isl-sahabah.txt)
 
 - **500**, line 240: The number of Companions ⁨(رِضْوَانُ اللَّهِ عَلَيْهِمْ)⁩ whose lives are in al-Isabah, roughly. **Answer:** About 12,000 _(Source: al-Isabah (Ibn Hajar); count to be checked)_
-- **500**, line 243: The cousin of our Beloved Prophet ﷺ, son of our master al-'Abbas ﵁, whose grave is honoured in Samarqand. **Answer:** Qutham ibn al-'Abbas ﵁ _(Source: al-Isabah (Ibn Hajar); place of death to be checked)_
+- **500**, line 243: The cousin of our Beloved Prophet ﷺ, son of our master al-'Abbas ﵁, whose grave is honoured in Samarqand. **Answer:** Qutham ibn al-'Abbas ﵁ _(Source: al-Isabah (Ibn Hajar); place of passing to be checked)_
 
 ## Fiqh: Prayer (Salah) (questions/isl-salah.txt)
 
