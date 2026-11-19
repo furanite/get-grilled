@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import type { Category, CategorySummary, Game, Lang, PoolEdit, Screen, ThemeId } from './lib/types'
-import { hasConsent, loadCustom, loadGame, loadPools, loadSettings, saveCustom, saveGame, savePools, saveSettings, saveTipsSeen, tipsSeen } from './lib/store'
-import { INTRO_MS, enterRound, finishIntro, isEmptyPool, nextRound, nextStage } from './lib/game'
+import { hasConsent, loadBracketRaw, loadCustom, loadFlags, loadGame, loadLobby, loadPools, loadSettings, loadView, saveBracketRaw, saveCustom, saveGame, saveLobby, savePools, saveSettings, saveTipsSeen, saveView, tipsSeen, type LobbyInfo, type ViewPrefs } from './lib/store'
+import { INTRO_MS, enterRound, finishIntro, isEmptyPool, nextRound, nextStage, startTie } from './lib/game'
 import { setSoundEnabled, sfx, unlockAudio } from './lib/sound'
 import { CONSENT_TEXT, LEGAL } from './lib/legal'
 import { ConsentDialog, Footer, LegalViewer } from './components/Legal'
@@ -19,6 +19,15 @@ import Results from './components/Results'
 import { Final, Lightning, ModeRound } from './components/Rounds'
 import Builder from './components/Builder'
 import { RoundIntro } from './components/Tournament'
+import { TieBreak } from './components/TieBreak'
+import BracketScreen from './components/BracketScreen'
+import LobbyScreen from './components/Lobby'
+import Practice from './components/Practice'
+import { FlagsDialog, NewsDialog, ViewDialog } from './components/Extras'
+import { type Bracket, cleanBracket, setWinner } from './lib/bracket'
+import { standings } from './lib/game'
+import { setVoiceEnabled } from './lib/voice'
+import { useOffline, useWakeLock } from './lib/offline'
 import type { VoteState } from './components/Vote'
 import StudyMaker from './components/StudyMaker'
 import { AudienceScreen, useAudienceWindow } from './components/Audience'
@@ -54,13 +63,46 @@ export default function App() {
   const [live, setLive] = useState<Live | null>(null)
   const [vote, setVote] = useState<VoteState | null>(null)
   const audience = useAudienceWindow(APP_NAME)
+  const [view, setViewState] = useState<ViewPrefs>(loadView)
+  const setView = (v: ViewPrefs) => {
+    setViewState(v)
+    saveView(v)
+  }
+  const [dialog, setDialog] = useState<'view' | 'news' | 'flags' | null>(null)
+  const [lobby, setLobbyState] = useState<LobbyInfo>(loadLobby)
+  const setLobby = (l: LobbyInfo) => {
+    setLobbyState(l)
+    if (!saveLobby(l)) notify(t.storageFull)
+  }
+  const [bracket, setBracketState] = useState<Bracket>(() => cleanBracket(loadBracketRaw(), STRINGS[initial.lang].bracket.divisions))
+  const setBracket = (b: Bracket) => {
+    setBracketState(b)
+    if (!saveBracketRaw(b)) notify(t.storageFull)
+  }
+  const [presetTeams, setPresetTeams] = useState<string[] | null>(null)
+  const offline = useOffline()
   const themeRef = useRef(theme)
   const t = STRINGS[lang]
   const liveHost = HOST_EDITION && isLiveServer()
   // On the Pi: send the projector and team tablets what the room may see.
   const crowd = useHostAudience()
-  usePublisher({ screen, game, live: screen === 'game' ? live : null, vote: screen === 'setup' ? vote : null, theme, lang, reduceFx, audience: crowd }, liveHost)
-  const inGame = screen === 'intro' || screen === 'game' || screen === 'mode' || screen === 'lightning' || screen === 'final' || screen === 'round'
+  usePublisher(
+    {
+      screen,
+      game,
+      live: screen === 'game' ? live : null,
+      vote: screen === 'setup' ? vote : null,
+      theme,
+      lang,
+      reduceFx,
+      audience: crowd,
+      display: { big: view.big, cb: view.cb },
+      lobby: screen === 'lobby' ? lobby : undefined,
+      bracket: screen === 'bracket' ? bracket.divisions[bracket.at] : undefined,
+    },
+    liveHost,
+  )
+  const inGame = screen === 'intro' || screen === 'game' || screen === 'mode' || screen === 'lightning' || screen === 'final' || screen === 'round' || screen === 'tiebreak'
 
   useEffect(() => {
     loadIndex().then(setIndex).catch((e: Error) => setIndexError(e.message))
@@ -75,6 +117,13 @@ export default function App() {
   }, [theme, lang, reduceFx, sound])
 
   useEffect(() => setSoundEnabled(sound), [sound])
+  useEffect(() => setVoiceEnabled(view.voice), [view.voice])
+  useLayoutEffect(() => {
+    document.documentElement.dataset.big = view.big ? 'on' : 'off'
+    document.documentElement.dataset.cb = view.cb ? 'on' : 'off'
+  }, [view.big, view.cb])
+  // Keep the host's screen (and the big screen's window) from going to sleep in the middle of a game.
+  useWakeLock(view.awake && (inGame || screen === 'lobby' || screen === 'results'), audience.win)
   // Browsers allow sound only after the person interacts with the page.
   useEffect(() => {
     const go = () => unlockAudio()
@@ -125,9 +174,31 @@ export default function App() {
       setScreen(nx === 'mode' ? 'mode' : nx === 'lightning' ? 'lightning' : 'final')
     } else setScreen('results')
   }
-  const stageScreen = (g: Game): Screen => (g.intro ? 'intro' : g.tournament?.intro ? 'round' : g.stage === 'mode' ? 'mode' : g.stage === 'lightning' ? 'lightning' : g.stage === 'final' ? 'final' : 'game')
+  const stageScreen = (g: Game): Screen => (g.tieState && g.tieState.winner === undefined ? 'tiebreak' : g.intro ? 'intro' : g.tournament?.intro ? 'round' : g.stage === 'mode' ? 'mode' : g.stage === 'lightning' ? 'lightning' : g.stage === 'final' ? 'final' : 'game')
 
   const notify = useCallback((text: string) => setToast({ text, id: Date.now() }), [])
+
+  /** The bracket game this game is, when the host started it from the bracket with the same teams. */
+  const bracketGame = (g: Game) => {
+    const lv = bracket.live
+    const m = lv && bracket.divisions[lv.d]?.rounds[lv.r]?.matches[lv.m]
+    if (!lv || !m || m.winner !== undefined) return null
+    const a = [...m.teams].sort().join('\n')
+    const b = g.teams.map((tm) => tm.name.trim()).sort().join('\n')
+    return a === b ? { ...lv, m: lv.m, teams: m.teams } : null
+  }
+  const recordBracket = (g: Game) => {
+    const bg = bracketGame(g)
+    const top = standings(g).filter((r) => r.rank === 1)
+    if (!bg || top.length !== 1) return
+    const w = bg.teams.indexOf(top[0].name.trim())
+    if (w < 0) return
+    const divisions = bracket.divisions.map((d, i) => (i === bg.d ? setWinner(d, bg.r, bg.m, w) : d))
+    setBracket({ ...bracket, divisions, at: bg.d, live: undefined })
+    notify(t.bracket.recorded)
+    setGame(null)
+    setScreen('bracket')
+  }
 
   const setTheme = (next: ThemeId, e?: { clientX: number; clientY: number }) => {
     if (next === theme) return
@@ -219,6 +290,9 @@ export default function App() {
               <button className="ghost sound-btn" aria-pressed={!sound} aria-label={sound ? t.soundOn : t.soundOff} title={sound ? t.soundOn : t.soundOff} onClick={() => setSound(!sound)} data-testid="sound">
                 <span aria-hidden="true">{sound ? '🔊' : '🔇'}</span>
               </button>
+              <button className="ghost" onClick={() => setDialog('view')} data-testid="view-open">
+                {t.view.open}
+              </button>
               <button className="ghost" aria-pressed={reduceFx} onClick={() => setReduceFx(!reduceFx)} data-testid="reduce-fx">
                 {CONSENT_TEXT[lang].reduceFx}
               </button>
@@ -229,7 +303,31 @@ export default function App() {
           </header>
 
           {screen === 'home' && (
-            <Home t={t} lang={lang} theme={theme} setTheme={setTheme} hasGame={!!game} onNew={() => setScreen('setup')} onResume={() => game && setScreen(stageScreen(game))} onBuilder={() => setScreen('builder')} onStudy={() => setScreen('study')} onReview={() => setScreen('review')} />
+            <Home t={t} lang={lang} theme={theme} setTheme={setTheme} hasGame={!!game} onNew={() => setScreen('setup')} onResume={() => game && setScreen(stageScreen(game))} onBuilder={() => setScreen('builder')}
+              onStudy={() => setScreen('study')}
+              onReview={() => setScreen('review')}
+              more={
+                <>
+                  <button className="btn alt" onClick={() => setScreen('practice')} data-testid="practice-open">
+                    {t.practice.open}
+                  </button>
+                  <button className="btn alt" onClick={() => setScreen('bracket')} data-testid="bracket-open">
+                    {t.bracket.open}
+                  </button>
+                  <button className="btn alt" onClick={() => setScreen('lobby')} data-testid="lobby-open">
+                    {t.lobby.open}
+                  </button>
+                  {loadFlags().length > 0 && (
+                    <button className="btn alt" onClick={() => setDialog('flags')} data-testid="flags-open">
+                      ⚑ {t.flag.open} ({loadFlags().length})
+                    </button>
+                  )}
+                  <button className="ghost" onClick={() => setDialog('news')} data-testid="news-open">
+                    {t.news.open}
+                  </button>
+                </>
+              }
+            />
           )}
           {screen === 'setup' && (
             <Setup
@@ -239,9 +337,11 @@ export default function App() {
               indexError={indexError}
               custom={custom}
               pools={pools}
-              onBack={() => setScreen('home')}
+              onBack={() => setScreen(presetTeams ? 'bracket' : 'home')}
+              presetTeams={presetTeams ?? undefined}
               onVote={setVote}
               onStart={(g) => {
+                setPresetTeams(null)
                 setGame(g)
                 setScreen(g.intro ? 'intro' : g.tournament ? 'round' : 'game')
               }}
@@ -291,6 +391,27 @@ export default function App() {
                 setGame(null)
                 setScreen('home')
               }}
+              onTie={() => {
+                setGame((g) => startTie(g))
+                setScreen('tiebreak')
+              }}
+              onBracket={bracketGame(game) ? () => recordBracket(game) : undefined}
+            />
+          )}
+          {screen === 'tiebreak' && game?.tieState && <TieBreak t={t} lang={lang} game={game} setGame={setGame} onDone={() => setScreen('results')} />}
+          {screen === 'practice' && <Practice t={t} lang={lang} index={index} custom={custom} pools={pools} onBack={() => setScreen('home')} />}
+          {screen === 'lobby' && <LobbyScreen t={t} lang={lang} theme={theme} info={lobby} setInfo={setLobby} onBack={() => setScreen('home')} notify={notify} />}
+          {screen === 'bracket' && (
+            <BracketScreen
+              t={t}
+              lang={lang}
+              bracket={bracket}
+              setBracket={setBracket}
+              onBack={() => setScreen('home')}
+              onPlay={(teams) => {
+                setPresetTeams(teams)
+                setScreen('setup')
+              }}
             />
           )}
           {screen === 'review' && <Review lang={lang} notify={notify} onBack={() => setScreen('home')} />}
@@ -310,9 +431,12 @@ export default function App() {
         />
       )}
       {consented && !legalView && guide === 'rules' && <RulesDialog onClose={closeGuide} onTips={() => setGuide('tips')} />}
+      {consented && !legalView && dialog === 'view' && <ViewDialog t={t} lang={lang} view={view} setView={setView} onClose={() => setDialog(null)} />}
+      {consented && !legalView && dialog === 'news' && <NewsDialog t={t} lang={lang} offline={offline} onClose={() => setDialog(null)} />}
+      {consented && !legalView && dialog === 'flags' && <FlagsDialog t={t} lang={lang} pools={pools} setPool={setPool} onClose={() => setDialog(null)} />}
       {consented && legalView && <LegalViewer which={legalView} lang={lang} onClose={() => setLegalView(null)} />}
       {HOST_EDITION && audience.win && audience.root && (
-        <AudienceScreen win={audience.win} root={audience.root} t={t} lang={lang} theme={theme} reduceFx={reduceFx} screen={screen} game={game} live={screen === 'game' ? live : null} vote={screen === 'setup' ? vote : null} />
+        <AudienceScreen win={audience.win} root={audience.root} t={t} lang={lang} theme={theme} reduceFx={reduceFx} screen={screen} game={game} live={screen === 'game' ? live : null} vote={screen === 'setup' ? vote : null} display={view} lobby={screen === 'lobby' ? lobby : undefined} bracket={screen === 'bracket' ? bracket.divisions[bracket.at] : undefined} />
       )}
       {toast && (
         <div className="toast" key={toast.id} role="status" onAnimationEnd={() => setToast(null)}>

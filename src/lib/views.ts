@@ -7,6 +7,8 @@
 import type { Clue, Game, Lang, ModeItem, Question, Screen, ThemeId } from './types'
 import type { Live } from './edition'
 import type { VoteState } from '../components/Vote'
+import type { LobbyInfo } from './store'
+import type { Division } from './bracket'
 
 /** Everything a screen in the room needs to draw what the projector shows. */
 export interface PublicView {
@@ -19,6 +21,12 @@ export interface PublicView {
   reduceFx: boolean
   /** Audience phones: playing along, and whether the projector shows the join QR code */
   audience?: { on: boolean; showJoin: boolean }
+  /** Larger text and colour-blind friendly colours, as the host set them */
+  display?: { big: boolean; cb: boolean }
+  /** The waiting screen, while the host has it up */
+  lobby?: LobbyInfo
+  /** The bracket division on show, while the host has the bracket open */
+  bracket?: Division
 }
 
 const HIDDEN = ''
@@ -91,6 +99,16 @@ export function publicGame(game: Game, screen: Screen, live: Live | null): Game 
       }),
     }
   }
+
+  if (game.tiebreak) {
+    const st = game.tieState
+    g.tiebreak = game.tiebreak.map((item, i) => {
+      const open = screen === 'tiebreak' && st && st.i === i && st.shown
+      return { cat: item.cat, q: !open ? blankQ(item.q) : st.revealed ? { ...item.q } : noAnswer(item.q) }
+    })
+  }
+  // The game log holds every question and answer already asked; the room doesn't need it.
+  delete g.log
 
   if (game.tournament) {
     g.tournament = {

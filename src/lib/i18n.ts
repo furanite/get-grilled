@@ -1,4 +1,5 @@
 import type { Lang } from './types'
+import { EXTRA_AR, EXTRA_EN } from './i18n-extra'
 
 const en = {
   tagline: 'What does it mean to get questioned?',
@@ -389,6 +390,7 @@ const en = {
     showJoin: 'Show the join QR code on the projector',
     help: 'Phones answer each question with four choices; after the reveal the projector shows how the room answered. No names are asked for.',
   },
+  ...EXTRA_EN,
 }
 
 const ar: typeof en = {
@@ -781,6 +783,7 @@ const ar: typeof en = {
     showJoin: 'أظهر رمز الانضمام على شاشة العرض',
     help: 'يجيب الجمهور عن كل سؤال من أربعة خيارات، وبعد الكشف تعرض الشاشة كيف أجابت القاعة. لا تُطلب أي أسماء.',
   },
+  ...EXTRA_AR,
 }
 
 export const STRINGS = { en, ar }

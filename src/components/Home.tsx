@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState, type ReactNode } from 'react'
 import type { Lang, ThemeId } from '../lib/types'
 import type { Strings } from '../lib/i18n'
 import { THEMES, formatCountdown, msUntilOpen, themeOpen } from '../lib/themes'
@@ -19,9 +19,11 @@ interface Props {
   onBuilder: () => void
   onStudy: () => void
   onReview: () => void
+  /** More buttons under the main ones (practice, bracket, waiting screen and so on) */
+  more?: ReactNode
 }
 
-export default function Home({ t, lang, theme, setTheme, hasGame, onNew, onResume, onBuilder, onStudy, onReview }: Props) {
+export default function Home({ t, lang, theme, setTheme, hasGame, onNew, onResume, onBuilder, onStudy, onReview, more }: Props) {
   // The Islamic site shows its Arabic name on the back of the logo instead of the Get Grilled tagline.
   const tagline = HAS_AR_NAME ? APP_NAME_AR : t.tagline
   const [flipped, setFlipped] = useState(false)
@@ -91,6 +93,7 @@ export default function Home({ t, lang, theme, setTheme, hasGame, onNew, onResum
             </button>
           )}
         </div>
+        {more && <div className="home-more">{more}</div>}
       </section>
 
       <section className="panel stack">

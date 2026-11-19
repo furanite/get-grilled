@@ -15,6 +15,11 @@ import { VoteBoard, type VoteState } from './Vote'
 import TileIntro from './TileIntro'
 import TeamIntro from './TeamIntro'
 import { ISLAMIC_SET, appName, type Live } from '../lib/edition'
+import { TieBreakView } from './TieBreak'
+import { LobbyView } from './Lobby'
+import { BracketBoard } from './BracketScreen'
+import type { LobbyInfo } from '../lib/store'
+import type { Division } from '../lib/bracket'
 import { setFavicon } from '../lib/favicon'
 import { Ambient, CatIcon, Flourish, FlourishAbove, Mark } from './Brand'
 import { diagramSrc } from '../lib/diagram'
@@ -118,12 +123,17 @@ interface Props {
   live: Live | null
   /** The category vote, while the host runs it from the setup screen */
   vote?: VoteState | null
+  display?: { big: boolean; cb: boolean }
+  lobby?: LobbyInfo
+  bracket?: Division
 }
 
 /** What the room sees: the board, the scores, and the clue. The answer appears only after the host reveals it. */
-export function AudienceScreen({ win, root, t, lang, theme, reduceFx, screen, game, live, vote }: Props) {
+export function AudienceScreen({ win, root, t, lang, theme, reduceFx, screen, game, live, vote, display, lobby, bracket }: Props) {
   const html = win.document.documentElement
   html.dataset.theme = theme
+  html.dataset.big = display?.big ? 'on' : 'off'
+  html.dataset.cb = display?.cb ? 'on' : 'off'
   setFavicon(win.document, theme)
   html.dataset.reduceFx = reduceFx ? 'on' : 'off'
   // The Islamic look and the Qur'an font (with every Uthmani mark) apply in the audience window too.
@@ -131,11 +141,11 @@ export function AudienceScreen({ win, root, t, lang, theme, reduceFx, screen, ga
   html.lang = lang
   html.dir = lang === 'ar' ? 'rtl' : 'ltr'
 
-  return createPortal(<AudienceView t={t} lang={lang} theme={theme} screen={screen} game={game} live={live} vote={vote ?? null} win={win} />, root)
+  return createPortal(<AudienceView t={t} lang={lang} theme={theme} screen={screen} game={game} live={live} vote={vote ?? null} win={win} lobby={lobby} bracket={bracket} />, root)
 }
 
 /** What the room sees. Also drawn by the projector and team tablets on the Pi (noHelp: no projector tip). */
-export function AudienceView({ t, lang, theme, screen, game, live, vote, win, noHelp }: { t: Strings; lang: Lang; theme: ThemeId; screen: Screen; game: Game | null; live: Live | null; vote: VoteState | null; win: Window; noHelp?: boolean }) {
+export function AudienceView({ t, lang, theme, screen, game, live, vote, win, noHelp, lobby, bracket }: { t: Strings; lang: Lang; theme: ThemeId; screen: Screen; game: Game | null; live: Live | null; vote: VoteState | null; win: Window; noHelp?: boolean; lobby?: LobbyInfo; bracket?: Division }) {
   const [helpShown, setHelpShown] = useState(!noHelp)
   const helpTimer = useRef<number>()
   useEffect(() => {
@@ -181,6 +191,33 @@ export function AudienceView({ t, lang, theme, screen, game, live, vote, win, no
         {help}
         <RoundCard t={t} lang={lang} game={game} big />
       </main>
+    )
+  }
+
+  if (screen === 'lobby' && lobby) {
+    return (
+      <>
+        {help}
+        <LobbyView t={t} lang={lang} theme={theme} info={lobby} win={win} />
+      </>
+    )
+  }
+
+  if (screen === 'bracket' && bracket?.rounds.length) {
+    return (
+      <main className="aud-main" data-testid="audience">
+        {help}
+        <BracketBoard t={t} lang={lang} d={bracket} big />
+      </main>
+    )
+  }
+
+  if (screen === 'tiebreak' && game?.tieState) {
+    return (
+      <>
+        {help}
+        <TieBreakView t={t} lang={lang} game={game} />
+      </>
     )
   }
 

@@ -7,7 +7,7 @@ import TileIntro from './TileIntro'
 import { VALUES } from '../lib/types'
 import type { Strings } from '../lib/i18n'
 import { num } from '../lib/i18n'
-import { STREAK_AT, adjustScore, answerRight, answerWrong, clueSeconds, isFinished, lastPlace, markUsed, nextRound, score, tileKey, turnTeam } from '../lib/game'
+import { STREAK_AT, addLog, adjustScore, answerRight, answerWrong, clueSeconds, isFinished, lastPlace, markUsed, nextRound, score, tileKey, turnTeam } from '../lib/game'
 import { roundTitle } from './Tournament'
 import { createPortal } from 'react-dom'
 import AdjustScores, { type Adjustment } from './AdjustScores'
@@ -19,6 +19,9 @@ import { GameClock, TimerBar, type Clock } from './Timer'
 import { sfx, stopSuspense, suspense } from '../lib/sound'
 import { qLen } from '../lib/qlen'
 import { BuzzOrder, type BuzzView, useBuzzRound } from './Buzzers'
+import { BackupSheet, LogSheet, usePrintJob } from './Sheets'
+import { loadFlags, saveFlags } from '../lib/store'
+import { speakClue, stopSpeaking } from '../lib/voice'
 
 interface Props {
   t: Strings
@@ -40,8 +43,12 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
   const [open, setOpen] = useState<Open | null>(null)
   const [intro] = useState(() => game.used.length === 0)
   const [adjusting, setAdjusting] = useState(false)
+  const [showLog, setShowLog] = useState(false)
+  const [printing, printBackup] = usePrintJob()
   const [confirmEnd, setConfirmEnd] = useState(false)
   const [adjustLog, setAdjustLog] = useState<Adjustment[]>([])
+  // Whether the open tile has had a right answer, so closing it without one goes in the log as "nobody".
+  const gotRight = useRef(false)
   const boardRef = useRef<HTMLDivElement>(null)
   const cols = game.cats.length
   const left = cols * 5 - game.used.length
@@ -110,9 +117,13 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
   /** Right: points, the streak bonus, and applause for big wins. Wrong: the streak ends and points come off if the host chose that. */
   const judgeClue = (team: number, right: boolean, c: number, l: number) => {
     const clue = game.clues[c][l]
+    const about = { cat: game.cats[c]?.name, value: clue.value, q: clue.q, a: clue.a }
     if (right) {
+      gotRight.current = true
       const r = answerRight(game, team, clue.value)
-      setGame(r.game)
+      let g = addLog(r.game, { kind: 'right', team, delta: clue.value, ...about })
+      if (r.bonus) g = addLog(g, { kind: 'bonus', team, delta: r.bonus, cat: about.cat, value: clue.value })
+      setGame(g)
       sfx.right()
       celebrate(team, true)
       if (r.bonus) {
@@ -123,6 +134,7 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
     } else {
       let g = answerWrong(game, team)
       if (game.settings.deduct) g = score(g, team, -clue.value)
+      g = addLog(g, { kind: 'wrong', team, delta: game.settings.deduct ? -clue.value : 0, ...about })
       setGame(g)
       sfx.wrong()
       if (game.settings.deduct) celebrate(team, false)
@@ -139,14 +151,14 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
     const before = game.teams[team]?.score
     const next = adjustScore(game, team, delta)
     if (next.teams[team]?.score === before) return
-    setGame(next)
+    setGame(addLog(next, { kind: 'adjust', team, delta: Math.round(delta) }))
     sfx.soft()
     setAdjustLog((l) => [...l, { team, delta }])
   }
   const undoAdjust = () => {
     const last = adjustLog[adjustLog.length - 1]
     if (!last) return
-    setGame((g) => adjustScore(g, last.team, -last.delta))
+    setGame((g) => addLog(adjustScore(g, last.team, -last.delta), { kind: 'adjust', team: last.team, delta: -Math.round(last.delta) }))
     setAdjustLog((l) => l.slice(0, -1))
   }
 
@@ -168,6 +180,12 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
           <button className="ghost" onClick={() => setAdjusting(true)} disabled={!!open} data-testid="adjust-open">
             {t.adjust}
           </button>
+          <button className="ghost" onClick={() => setShowLog(true)} disabled={!!open} data-testid="log-open">
+            {t.log.open}
+          </button>
+          <button className="ghost" onClick={printBackup} disabled={!!open} data-testid="backup-print" title={t.sheet.note}>
+            {t.sheet.print}
+          </button>
           {confirmEnd ? (
             <span className="end-confirm" role="group" aria-label={t.endGame}>
               <span className="end-q">{moreRounds ? t.endRoundConfirm : t.endConfirm}</span>
@@ -185,6 +203,8 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
           )}
         </div>
       </div>
+      {printing && <BackupSheet t={t} lang={lang} game={game} />}
+      {showLog && createPortal(<LogSheet t={t} lang={lang} game={game} onClose={() => setShowLog(false)} />, document.body)}
       {adjusting &&
         createPortal(
           <AdjustScores t={t} lang={lang} game={game} log={adjustLog} onAdjust={adjust} onUndo={undoAdjust} onClose={() => setAdjusting(false)} />,
@@ -219,6 +239,7 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
                     data-tile={tileKey(i, l)}
                     onClick={(e) => {
                       if (open) return
+                      gotRight.current = false
                       const cl = game.clues[i][l]
                       setCardState({ revealed: false, clock: null, intro: !!(cl.golden || cl.special) })
                       setOpen({ c: i, l, el: e.currentTarget })
@@ -279,9 +300,9 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
           timeUp={timeUp}
           onState={setCardState}
           onJudge={(team, right) => judgeClue(team, right, open.c, open.l)}
-          onSteal={(from) => {
+          onSteal={(from, by) => {
             const clue = game.clues[open.c][open.l]
-            setGame((g) => score(g, from, -clue.value))
+            setGame((g) => addLog(score(g, from, -clue.value), { kind: 'steal', team: from, delta: -clue.value, by, cat: g.cats[open.c]?.name, value: clue.value, q: clue.q }))
             sfx.steal()
             celebrate(from, false)
           }}
@@ -290,7 +311,12 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
             if (used) {
               const tile = open.el
               tile.classList.add('used')
-              setGame((g) => markUsed(g, open.c, open.l))
+              const clue = game.clues[open.c][open.l]
+              const nobody = !gotRight.current
+              setGame((g) => {
+                const m = markUsed(g, open.c, open.l)
+                return nobody && m !== g ? addLog(m, { kind: 'nobody', team: -1, delta: 0, cat: g.cats[open.c]?.name, value: clue.value, q: clue.q, a: clue.a }) : m
+              })
             }
           }}
         />
@@ -306,7 +332,7 @@ interface CardProps {
   open: Open
   onJudge: (team: number, right: boolean) => void
   /** Steal tile: take the clue's points from this team (the team that answered already has them). */
-  onSteal: (from: number) => void
+  onSteal: (from: number, by: number) => void
   onClose: (used: boolean) => void
   onState: (s: { revealed: boolean; clock: Clock | null; intro: boolean; buzz: BuzzView | null; aud: AudView | null }) => void
   timeUp: boolean
@@ -326,6 +352,19 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
   const q = lang === 'ar' && clue.qAr ? clue.qAr : clue.q
   const a = lang === 'ar' && clue.aAr ? clue.aAr : clue.a
   const timerSecs = clueSeconds(game.settings, open.l, clue)
+  const [flagged, setFlagged] = useState(() => loadFlags().some((f) => f.id === clue.id && f.catId === cat.id))
+  const flag = () => {
+    const list = loadFlags()
+    if (flagged) saveFlags(list.filter((f) => !(f.id === clue.id && f.catId === cat.id)))
+    else saveFlags([...list, { id: clue.id, catId: cat.id, cat: cat.name, level: open.l, q: clue.q, a: clue.a, at: Date.now() }])
+    setFlagged(!flagged)
+  }
+  // Read-aloud (when switched on): the clue is read once it is on show.
+  useEffect(() => {
+    if (intro || phase !== 'open') return
+    speakClue(q, lang)
+    return () => stopSpeaking()
+  }, [intro, phase, q, lang])
 
   // The card sits at its full size and position the whole time; opening and closing only move and scale it from and
   // to the tile (a transform), so the browser never lays out or repaints the page while it animates.
@@ -562,7 +601,7 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
                   {game.teams.map((tm, i) =>
                     i === stealer ? null : (
                       <button key={i} className="btn bad" data-steal={i} onClick={() => {
-                        onSteal(i)
+                        onSteal(i, stealer)
                         close(true)
                       }}>
                         {tm.name} −{num(clue.value, lang)}
@@ -624,7 +663,10 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
             </p>
           )}
           <p className="report" data-testid="report">
-            {CONSENT_TEXT[lang].report}
+            {CONSENT_TEXT[lang].report}{' '}
+            <button type="button" className={`linkish flag-btn${flagged ? ' on' : ''}`} onClick={flag} aria-pressed={flagged} data-testid="flag">
+              ⚑ {flagged ? t.flag.done : t.flag.button}
+            </button>
           </p>
         </div>
       </div>

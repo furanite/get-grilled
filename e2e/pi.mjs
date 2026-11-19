@@ -36,7 +36,7 @@ function assert(c, msg) {
 const browser = await chromium.launch()
 async function newPage(viewport = { width: 1280, height: 800 }) {
   const ctx = await browser.newContext({ viewport })
-  await ctx.addInitScript(() => localStorage.setItem('gg.consent.v1', JSON.stringify({ version: '1.4', date: '2026-11-11T00:00:00Z' })))
+  await ctx.addInitScript(() => localStorage.setItem('gg.consent.v1', JSON.stringify({ version: '1.5', date: '2026-11-11T00:00:00Z' })))
   await ctx.addInitScript(() => localStorage.setItem('gg.tipsSeen.ilm.v1', 'true'))
   const page = await ctx.newPage()
   await page.addLocatorHandler(page.getByTestId('intro-next'), async (b) => b.click(), { noWaitAfter: true })

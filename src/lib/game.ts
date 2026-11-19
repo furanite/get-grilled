@@ -1,4 +1,4 @@
-import { ROUND_MODES, TOUR_KINDS, VALUES, type Category, type Clue, type Game, type GameSettings, type Madhhab, type ModeItem, type PoolEdit, type Question, type RoundMode, type Special, type Stage, type TileCounts, type TourRound, type TourStep } from './types'
+import { ROUND_MODES, TOUR_KINDS, VALUES, type Category, type Clue, type Game, type GameSettings, type LogEntry, type Madhhab, type ModeItem, type PoolEdit, type Question, type RoundMode, type Special, type Stage, type TileCounts, type TourRound, type TourStep } from './types'
 import { isDiagram } from './diagram'
 
 export type Rng = () => number
@@ -115,6 +115,11 @@ export const FINAL_VALUE = 500
 export const FINAL_SECS = 30
 export const STREAK_AT = 3
 export const STREAK_BONUS = 100
+/** Points for winning the tie-breaker, and how many sudden-death questions a game keeps back. */
+export const TIE_VALUE = 100
+export const TIE_MAX = 5
+/** The game log keeps this many lines at most, so a saved game can't grow without end. */
+export const LOG_MAX = 1500
 
 function shuffle<T>(arr: T[], rng: Rng): T[] {
   const a = [...arr]
@@ -266,6 +271,20 @@ export function createGame(
     if (list.length >= 5) game.lightning = list
     else game.settings.lightning = false
   }
+  // Sudden-death questions for a tie at the top: middle levels, one category after another, never on the board.
+  const tie: NonNullable<Game['tiebreak']> = []
+  const tiePools = cats.map((cat) => shuffle(fresh(cat, [2, 3]), rng))
+  for (let round = 0; tie.length < TIE_MAX && tiePools.some((p) => p.length > round); round++)
+    tiePools.forEach((p, ci) => {
+      if (tie.length < TIE_MAX && p[round]) {
+        const { id, name, nameAr } = cats[ci]
+        tie.push({ cat: { id, name, nameAr }, q: { ...p[round] } })
+        // Kept back, not marked as played: most games never need them.
+        onBoard.add(p[round].id)
+        taken.add(clueKey(p[round]))
+      }
+    })
+  if (tie.length) game.tiebreak = tie
   return { game, used: nextUsed, taken }
 }
 
@@ -518,6 +537,54 @@ export function nextStage(game: Game, after: Stage): Stage | null {
 
 export function isFinished(game: Game) {
   return game.used.length >= game.cats.length * 5
+}
+
+/** Adds a line to the game log (newest last). */
+export function addLog(game: Game, e: Omit<LogEntry, 'at' | 'round'>): Game {
+  const line: LogEntry = { ...e, at: Date.now() }
+  if (game.tournament) line.round = game.tournament.at + 1
+  return { ...game, log: [...(game.log ?? []), line].slice(-LOG_MAX) }
+}
+
+/** The teams level in first place, when more than one team is there and the tie-breaker hasn't settled it. */
+export function tiedLeaders(game: Game): number[] {
+  if (game.teams.length < 2 || game.tieState?.winner !== undefined) return []
+  const top = Math.max(...game.teams.map((t) => t.score))
+  const at = game.teams.map((t, i) => (t.score === top ? i : -1)).filter((i) => i >= 0)
+  return at.length > 1 ? at : []
+}
+
+/** Starts the tie-breaker between the teams level at the top. */
+export function startTie(game: Game): Game {
+  const teams = tiedLeaders(game)
+  if (!teams.length || !game.tiebreak?.length) return game
+  return { ...game, tieState: { i: 0, teams, shown: false, revealed: false, wrong: [] } }
+}
+
+/** The tie-breaker's winner: gets TIE_VALUE points, which puts them ahead. */
+export function winTie(game: Game, team: number): Game {
+  const st = game.tieState
+  if (!st || st.winner !== undefined || !st.teams.includes(team)) return game
+  const item = game.tiebreak?.[st.i]
+  let g = score(game, team, TIE_VALUE)
+  g = addLog(g, { kind: 'tiebreak', team, delta: TIE_VALUE, cat: item?.cat.name, value: TIE_VALUE, q: item?.q.q, a: item?.q.a })
+  return { ...g, tieState: { ...st, revealed: true, winner: team } }
+}
+
+/** A tied team missed the tie-breaker question (no points come off). */
+export function missTie(game: Game, team: number): Game {
+  const st = game.tieState
+  if (!st || st.winner !== undefined || !st.teams.includes(team) || st.wrong.includes(team)) return game
+  const item = game.tiebreak?.[st.i]
+  const g = addLog(game, { kind: 'tiebreak', team, delta: 0, cat: item?.cat.name, value: TIE_VALUE, q: item?.q.q, a: item?.q.a })
+  return { ...g, tieState: { ...st, wrong: [...st.wrong, team] } }
+}
+
+/** The next sudden-death question, when nobody got this one. Returns the game unchanged when none are left. */
+export function nextTie(game: Game): Game {
+  const st = game.tieState
+  if (!st || st.winner !== undefined || st.i + 1 >= (game.tiebreak?.length ?? 0)) return game
+  return { ...game, tieState: { ...st, i: st.i + 1, shown: false, revealed: false, wrong: [] } }
 }
 
 /** Teams sorted by score, with ties sharing a rank. */

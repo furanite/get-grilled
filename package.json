@@ -1,7 +1,7 @@
 {
   "name": "get-grilled",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.5.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -15,6 +15,7 @@
     "build:host": "tsc -b && vite build --mode host --outDir dist-host",
     "fit": "vite build && node e2e/fit.mjs",
     "fit:host": "vite build --mode host --outDir dist-host && node e2e/fit-host.mjs",
+    "e2e:extras": "vite build && node e2e/extras.mjs",
     "e2e:host": "vite build --mode host --outDir dist-host && node e2e/host.mjs",
     "build:site": "npm run build && npm run build:host && node scripts/make-site.mjs",
     "build:islamic": "PACK_EDITION=islamic VITE_THEMESET=islamic VITE_APP_NAME='Munaafasatul Ilm' VITE_APP_NAME_AR='منافسة العلم' VITE_TITLE='Munaafasatul Ilm' npm run build:site",

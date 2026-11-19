@@ -26,6 +26,8 @@ interface Props {
   onStart: (g: Game) => void
   /** The category vote as it goes, for the audience window (null when there is none) */
   onVote?: (v: VoteState | null) => void
+  /** Team names to start with (a game from the competition bracket) */
+  presetTeams?: string[]
 }
 
 type CollectionId = 'university' | 'islamic' | 'kids'
@@ -79,7 +81,7 @@ function NightIcon({ n }: { n: Night }) {
   return <CatIcon id={ISLAMIC_SET && islamicIconSvg(isl) ? isl : nightIconId(n.id)} />
 }
 
-export default function Setup({ t, lang, index, indexError, custom, pools, onBack, onStart, onVote }: Props) {
+export default function Setup({ t, lang, index, indexError, custom, pools, onBack, onStart, onVote, presetTeams }: Props) {
   const [tour, setTour] = useState(false)
   const [planKey, setPlanKey] = useState<'short' | 'full' | 'custom'>('full')
   const [customPlan, setCustomPlan] = useState<TourStep[] | null>(null)
@@ -88,9 +90,9 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
   const [picked, setPicked] = useState<string[]>([])
   const [closed, setClosed] = useState<PackGroup[]>([])
   const [coll, setColl] = useState<CollectionId>('university')
-  const [teams, setTeams] = useState<string[]>(DEFAULT_TEAMS[lang])
+  const [teams, setTeams] = useState<string[]>(() => (presetTeams?.length ? presetTeams.slice(0, 4) : DEFAULT_TEAMS[lang]))
   const [introOn, setIntroOn] = useState(false)
-  const [details, setDetails] = useState<TeamDetails[]>(() => DEFAULT_TEAMS[lang].map(blankDetails))
+  const [details, setDetails] = useState<TeamDetails[]>(() => (presetTeams?.length ? presetTeams.slice(0, 4) : DEFAULT_TEAMS[lang]).map(blankDetails))
   const editDetails = (i: number, f: (d: TeamDetails) => TeamDetails) => setDetails((all) => all.map((d, j) => (j === i ? f(d) : d)))
   const [timer, setTimer] = useState(30)
   const [levelTimers, setLevelTimers] = useState<(number | null)[]>([null, null, null, null, null])

@@ -204,6 +204,41 @@ export interface Game {
   mult?: number
   /** A tournament: several rounds of different kinds, with scores carried from one to the next */
   tournament?: Tournament
+  /** Sudden-death questions kept back for a tie at the top, each with its category */
+  tiebreak?: { cat: { id: string; name: string; nameAr?: string }; q: Question }[]
+  tieState?: TieState
+  /** Every point won or lost, in order, for the game log and the judges' sheet */
+  log?: LogEntry[]
+}
+
+/** Where the tie-breaker is: which question, whether it is on show, its answer shown, who missed it, and who won. */
+export interface TieState {
+  i: number
+  /** The teams level at the top when the tie-breaker started */
+  teams: number[]
+  shown: boolean
+  revealed: boolean
+  wrong: number[]
+  winner?: number
+}
+
+/** What a line of the game log records. */
+export type LogKind = 'right' | 'wrong' | 'nobody' | 'bonus' | 'steal' | 'adjust' | 'lightning' | 'mode' | 'final' | 'tiebreak'
+
+/** One line of the game log: a team (or -1 for nobody), the points it won or lost, and the question. */
+export interface LogEntry {
+  at: number
+  kind: LogKind
+  team: number
+  delta: number
+  cat?: string
+  value?: number
+  q?: string
+  a?: string
+  /** Tournament round number (1 = first), when there is one */
+  round?: number
+  /** Steal tiles: the team that answered and took the points */
+  by?: number
 }
 
 /** Kinds of tournament round: a board, a board at double points, a special round, the lightning round, the final question. */
@@ -241,4 +276,4 @@ export type IslamicOnlyTheme = 'rawdah' | 'jumuah' | 'mawlid' | PrayerTheme | Cu
 export type BaseThemeId = Exclude<ThemeId, IslamicOnlyTheme>
 export type ThemeId = 'amethyst' | 'emerald' | 'neon' | 'onyx' | 'rivals' | 'ember' | 'heritage' | IslamicOnlyTheme
 export type Lang = 'en' | 'ar'
-export type Screen = 'home' | 'setup' | 'intro' | 'game' | 'mode' | 'lightning' | 'final' | 'results' | 'builder' | 'round' | 'review' | 'study'
+export type Screen = 'home' | 'setup' | 'intro' | 'game' | 'mode' | 'lightning' | 'final' | 'results' | 'builder' | 'round' | 'review' | 'study' | 'tiebreak' | 'practice' | 'bracket' | 'lobby'

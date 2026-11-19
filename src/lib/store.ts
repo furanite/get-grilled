@@ -1,4 +1,4 @@
-import type { Category, Game, Lang, Madhhab, ModeItem, PoolEdit, Question, ThemeId, TourRound, Tournament } from './types'
+import type { Category, Game, Lang, LogEntry, LogKind, Madhhab, ModeItem, PoolEdit, Question, ThemeId, TourRound, Tournament } from './types'
 import { ROUND_MODES, TOUR_KINDS } from './types'
 import { isDiagram } from './diagram'
 import { isClueSecs } from './game'
@@ -15,6 +15,11 @@ const KEYS = {
   studyDraft: 'gg.studyDraft.v1',
   // Its own key: both sites share one web address, and each has its own tips.
   tipsSeen: 'gg.tipsSeen.ilm.v1',
+  // The Islamic site's own flagged questions, waiting screen, bracket and display options (the sites share one address).
+  flags: 'gg.flags.ilm.v1',
+  lobby: 'gg.lobby.ilm.v1',
+  bracket: 'gg.bracket.ilm.v1',
+  view: 'gg.view.ilm.v1',
 }
 
 function load<T>(key: string, fallback: T): T {
@@ -172,6 +177,46 @@ export function cleanGameExtras(g: Game): Game {
   const tour = cleanTournament(g.tournament, n)
   if (tour) out.tournament = tour
   else delete out.tournament
+  // Tie-breaker questions and where it is
+  const tb = Array.isArray(g.tiebreak)
+    ? (g.tiebreak as unknown[]).flatMap((x) => {
+        const q = isObj(x) ? cleanQuestion(x.q) : null
+        if (!isObj(x) || !q || !isObj(x.cat) || !isStr(x.cat.id) || !isStr(x.cat.name)) return []
+        return [{ cat: { id: x.cat.id, name: x.cat.name, ...(isStr(x.cat.nameAr) ? { nameAr: x.cat.nameAr } : {}) }, q }]
+      })
+    : []
+  if (tb.length) out.tiebreak = tb
+  else delete out.tiebreak
+  const ts = g.tieState as unknown
+  const team = (v: unknown): v is number => num(v) && Number.isInteger(v) && v >= 0 && v < n
+  if (out.tiebreak && isObj(ts) && num(ts.i) && ts.i >= 0 && ts.i < out.tiebreak.length && Array.isArray(ts.teams) && ts.teams.length > 1 && ts.teams.every(team))
+    out.tieState = {
+      i: Math.floor(ts.i),
+      teams: ts.teams as number[],
+      shown: ts.shown === true,
+      revealed: ts.revealed === true,
+      wrong: Array.isArray(ts.wrong) ? (ts.wrong as unknown[]).filter(team) : [],
+      ...(team(ts.winner) ? { winner: ts.winner } : {}),
+    }
+  else delete out.tieState
+  const log = Array.isArray(g.log) ? (g.log as unknown[]).map((e) => cleanLog(e, n)).filter((e): e is LogEntry => !!e) : []
+  if (log.length) out.log = log.slice(-1500)
+  else delete out.log
+  return out
+}
+
+const LOG_KINDS: LogKind[] = ['right', 'wrong', 'nobody', 'bonus', 'steal', 'adjust', 'lightning', 'mode', 'final', 'tiebreak']
+function cleanLog(e: unknown, teams: number): LogEntry | null {
+  if (!isObj(e) || !LOG_KINDS.includes(e.kind as LogKind)) return null
+  const n = (v: unknown): v is number => typeof v === 'number' && Number.isFinite(v)
+  if (!n(e.at) || !n(e.delta) || !n(e.team) || !Number.isInteger(e.team) || e.team < -1 || e.team >= teams) return null
+  const out: LogEntry = { at: e.at, kind: e.kind as LogKind, team: e.team, delta: e.delta }
+  if (isStr(e.cat)) out.cat = e.cat.slice(0, 80)
+  if (n(e.value)) out.value = e.value
+  if (isStr(e.q)) out.q = e.q.slice(0, 600)
+  if (isStr(e.a)) out.a = e.a.slice(0, 300)
+  if (n(e.round)) out.round = e.round
+  if (n(e.by) && Number.isInteger(e.by) && e.by >= 0 && e.by < teams) out.by = e.by
   return out
 }
 
@@ -241,3 +286,78 @@ export const loadMadhhab = (): Madhhab => {
   return v === 'h' || v === 'm' || v === 's' || v === 'b' ? v : ''
 }
 export const saveMadhhab = (m: Madhhab) => save(KEYS.madhhab, m)
+/** A question the host flagged during a game as wrong or unclear, to check later. */
+export interface Flag {
+  /** The question's id, the category it came from, and its level (0 = 100 ... 4 = 500) */
+  id: string
+  catId: string
+  cat: string
+  level: number
+  q: string
+  a: string
+  at: number
+  note?: string
+  /** Set once the host has taken it out of play */
+  out?: boolean
+}
+export const FLAGS_MAX = 300
+export function loadFlags(): Flag[] {
+  const raw = load<unknown>(KEYS.flags, [])
+  if (!Array.isArray(raw)) return []
+  return raw
+    .filter((f): f is Record<string, unknown> => isObj(f) && isStr(f.id) && isStr(f.catId) && isStr(f.cat) && isStr(f.q) && isStr(f.a) && typeof f.level === 'number' && typeof f.at === 'number')
+    .map((f) => ({
+      id: f.id as string,
+      catId: f.catId as string,
+      cat: (f.cat as string).slice(0, 80),
+      level: Math.max(0, Math.min(4, Math.floor(f.level as number))),
+      q: (f.q as string).slice(0, 600),
+      a: (f.a as string).slice(0, 300),
+      at: f.at as number,
+      ...(isStr(f.note) ? { note: f.note.slice(0, 300) } : {}),
+      ...(f.out === true ? { out: true } : {}),
+    }))
+    .slice(-FLAGS_MAX)
+}
+export const saveFlags = (f: Flag[]) => save(KEYS.flags, f.slice(-FLAGS_MAX))
+
+/** Display options for this device: larger text, colour-blind friendly colours, read-aloud, keep the screen awake. */
+export interface ViewPrefs {
+  big: boolean
+  cb: boolean
+  voice: boolean
+  awake: boolean
+}
+export function loadView(): ViewPrefs {
+  const r = load<unknown>(KEYS.view, {})
+  const o = isObj(r) ? r : {}
+  return { big: o.big === true, cb: o.cb === true, voice: o.voice === true, awake: o.awake !== false }
+}
+export const saveView = (v: ViewPrefs) => save(KEYS.view, v)
+
+/** The waiting screen's words, start time and logos. */
+export interface LobbyInfo {
+  name: string
+  sub: string
+  /** Start time as "HH:MM" today, or empty */
+  start: string
+  logos: string[]
+  rules: boolean
+}
+export const LOGO_MAX_BYTES = 300_000
+export function loadLobby(): LobbyInfo {
+  const r = load<unknown>(KEYS.lobby, {})
+  const o = isObj(r) ? r : {}
+  const logos = Array.isArray(o.logos) ? (o.logos as unknown[]).filter((x): x is string => isStr(x) && /^data:image\/(png|jpeg|webp|gif|svg\+xml);base64,/.test(x) && x.length < LOGO_MAX_BYTES * 1.4).slice(0, 4) : []
+  return {
+    name: isStr(o.name) ? o.name.slice(0, 80) : '',
+    sub: isStr(o.sub) ? o.sub.slice(0, 120) : '',
+    start: isStr(o.start) && /^\d\d:\d\d$/.test(o.start) ? o.start : '',
+    logos,
+    rules: o.rules !== false,
+  }
+}
+export const saveLobby = (l: LobbyInfo) => save(KEYS.lobby, l)
+
+export const loadBracketRaw = (): unknown => load<unknown>(KEYS.bracket, null)
+export const saveBracketRaw = (b: unknown) => save(KEYS.bracket, b)

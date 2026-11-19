@@ -80,8 +80,9 @@ const RULES: Section[] = [
   {
     title: 'Winning',
     items: [
-      'The team with the most points at the end wins. Equal scores share the place.',
-      'The host’s ruling is final. The host can fix a score by hand, for example after a ruling is overturned.',
+      'The team with the most points at the end wins.',
+      'If teams are level at the top, the host can play a tie-breaker: one question at a time for the tied teams only, and the first right answer wins 100 points. A wrong answer costs nothing. If the questions run out, the teams share first place.',
+      'The host’s ruling is final. The host can fix a score by hand, for example after a ruling is overturned. Every point won and lost is in the game log, so a challenge can be checked at the end of a round.',
     ],
   },
 ]

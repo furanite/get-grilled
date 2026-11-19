@@ -4,7 +4,7 @@ import { TypedFinalAnswers } from './LiveHost'
 import type { Game, Lang, ModeItem, RoundMode } from '../lib/types'
 import type { Strings } from '../lib/i18n'
 import { num } from '../lib/i18n'
-import { FINAL_SECS, FINAL_VALUE, LIGHTNING_SECS, LIGHTNING_VALUE, MODE_VALUE, cluePoints, cluesOf, oddItems, score } from '../lib/game'
+import { FINAL_SECS, FINAL_VALUE, LIGHTNING_SECS, LIGHTNING_VALUE, MODE_VALUE, addLog, cluePoints, cluesOf, oddItems, score } from '../lib/game'
 import { diagramSrc } from '../lib/diagram'
 import { HOST_EDITION } from '../lib/edition'
 import { TimerBar } from './Timer'
@@ -82,7 +82,10 @@ export function Lightning({ t, lang, game, setGame, onDone, hasFinal }: Props) {
       if (!running || team >= game.teams.length) return
       sfx.right()
       pop(team)
-      setGame((g) => next(score(g, team, LIGHTNING_VALUE)))
+      setGame((g) => {
+        const lq = g.lightning?.[(g.lightningState ?? { i: 0 }).i]
+        return next(addLog(score(g, team, LIGHTNING_VALUE), { kind: 'lightning', team, delta: LIGHTNING_VALUE, value: LIGHTNING_VALUE, q: lq?.q, a: lq?.a }))
+      })
     },
     [running, game.teams.length, setGame, next],
   )
@@ -187,7 +190,8 @@ export function Final({ t, lang, game, setGame, onDone }: Props) {
     setGame((g) => {
       const s = g.finalState ?? st
       const marks = g.teams.map((_, i) => (i === team ? right : s.marks[i] ?? null))
-      return { ...(delta ? score(g, team, delta) : g), finalState: { ...s, marks } }
+      const scored = addLog(delta ? score(g, team, delta) : g, { kind: 'final', team, delta, cat: f.cat.name, value: FINAL_VALUE, q: f.q.q, a: f.q.a })
+      return { ...scored, finalState: { ...s, marks } }
     })
   }
 
@@ -355,7 +359,7 @@ export function ModeRound({ t, lang, game, setGame, onDone, hasFinal }: Props) {
       if (!item || done || team >= game.teams.length) return
       sfx.right()
       pop(team)
-      setGame((g) => step(score(g, team, worth)))
+      setGame((g) => step(addLog(score(g, team, worth), { kind: 'mode', team, delta: worth, cat: item.cat, value: worth, q: item.q, a: item.a })))
     },
     [item, done, game.teams.length, setGame, step, worth],
   )
