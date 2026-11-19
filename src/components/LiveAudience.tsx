@@ -8,6 +8,7 @@ import { type AudState, answerAudience, getHostLive, joinAudience, joinUrl, useA
 import { isLiveServer, useHostAudience } from './LiveHost'
 import { setFavicon } from '../lib/favicon'
 import { Mark } from './Brand'
+import { setDocLang } from '../lib/lang'
 
 
 /**
@@ -27,7 +28,7 @@ export function useAudienceRound({ game, c, l, intro, revealed, secs, lang }: { 
     if (!on || intro || revealed || sent.current) return
     sent.current = true
     let gone = false
-    void clueChoices(game, c, l, lang === 'ar' ? 'ar' : 'en').then((m) => {
+    void clueChoices(game, c, l, lang).then((m) => {
       if (gone || !m) return
       setMade({ choices: m.choices, correct: m.correct })
       getHostLive().audRound({ id, kind: 'clue', q: m.q, choices: m.choices, secs: secs > 0 ? secs + 1 : 600 })
@@ -159,8 +160,7 @@ export function AudiencePhone({ fallbackLang }: { fallbackLang: Lang }) {
   useEffect(() => {
     const html = document.documentElement
     html.dataset.theme = theme
-    html.lang = lang
-    html.dir = lang === 'ar' ? 'rtl' : 'ltr'
+    setDocLang(html, lang)
     document.body.classList.add('audience-body', 'phone-body')
     setFavicon(document, theme)
   }, [theme, lang])

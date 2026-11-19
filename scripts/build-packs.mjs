@@ -84,7 +84,7 @@ export function parsePack(text, file = 'pack') {
       if (cur < 0) errors.push(`${at} unknown level "${v}"`)
       return
     }
-    const m = /^(id|name|nameAr|group):\s*(.+)$/.exec(line)
+    const m = /^(id|name|nameAr|nameUr|group):\s*(.+)$/.exec(line)
     if (m && cur < 0) { meta[m[1]] = m[2].trim(); return }
     if (cur < 0) { errors.push(`${at} question before any "## level" heading`); return }
     const [body, tagText, extra] = line.split(/\s\|\|\s/)
@@ -187,7 +187,7 @@ export function questionKey({ q, img }) {
 const digits = (s) => (s.replace(/[\u0660-\u0669]/g, (d) => String(d.charCodeAt(0) - 0x660)).match(/\d+/g) ?? []).sort().join(',')
 
 // Reads an Arabic file and pairs it with the parsed English levels.
-export function mergeArabic(levels, text, file = 'ar') {
+export function mergeArabic(levels, text, file = 'ar', keys = ['qAr', 'aAr'], label = 'Arabic') {
   const errors = []
   const ar = LEVELS.map(() => [])
   let cur = -1
@@ -203,17 +203,17 @@ export function mergeArabic(levels, text, file = 'ar') {
     if (cur < 0) { errors.push(`${at} line before any "## level" heading`); return }
     const parts = line.split(/(?<=^|\s)::(?=\s|$)/)
     if (parts.length !== 2 || !parts[0].trim() || !parts[1].trim()) { errors.push(`${at} needs "clue :: answer"`); return }
-    ar[cur].push({ qAr: parts[0].trim(), aAr: parts[1].trim(), at })
+    ar[cur].push({ q: parts[0].trim(), a: parts[1].trim(), at })
   })
   const out = levels.map((lvl, li) => {
     if (ar[li].length !== lvl.length) {
-      errors.push(`${file}: level ${LEVELS[li]} has ${ar[li].length} Arabic lines but ${lvl.length} English questions`)
+      errors.push(`${file}: level ${LEVELS[li]} has ${ar[li].length} ${label} lines but ${lvl.length} English questions`)
       return lvl
     }
     return lvl.map((qa, qi) => {
       const t = ar[li][qi]
-      if (digits(qa.a) !== digits(t.aAr)) errors.push(`${t.at} numbers in the answer differ from the English (${qa.a}), lines may be out of step`)
-      return { ...qa, qAr: t.qAr, aAr: t.aAr }
+      if (digits(qa.a) !== digits(t.a)) errors.push(`${t.at} numbers in the answer differ from the English (${qa.a}), lines may be out of step`)
+      return { ...qa, [keys[0]]: t.q, [keys[1]]: t.a }
     })
   })
   return { levels: out, errors }
@@ -307,6 +307,14 @@ function main() {
       levels = m.levels
       arCount = levels.reduce((s, l) => s + l.length, 0)
     }
+    // Urdu (Munaafasatul Ilm only): questions/ur/<file>, one line per question, same order as the English.
+    const urPath = join(srcDir, 'ur', f)
+    if (existsSync(urPath)) {
+      const m = mergeArabic(levels, readFileSync(urPath, 'utf8'), `ur/${f}`, ['qUr', 'aUr'], 'Urdu')
+      errors = errors.concat(m.errors)
+      if (m.errors.length) continue
+      levels = m.levels
+    }
     const respect = RESPECT_GROUPS.includes(meta.group) || undefined
     if (respect) {
       // The scholar review list holds every line, including ones held back, with what reviewers said so far.
@@ -333,9 +341,9 @@ function main() {
     // doesn't change which question a saved "already played" or "taken out of play" mark points to.
     levels = levels.map((l) => l.map((x) => ({ ...x, qk: questionKey(x) })))
     if (modes) modes = Object.fromEntries(Object.entries(modes).map(([m, l]) => [m, l.map((x) => ({ ...x, qk: questionKey(x) }))]))
-    const pack = { id: meta.id, name: toSigns(meta.name), nameAr: meta.nameAr, group: meta.group, respect, levels, ...(modes ? { modes } : {}) }
+    const pack = { id: meta.id, name: toSigns(meta.name), nameAr: meta.nameAr, ...(meta.nameUr ? { nameUr: meta.nameUr } : {}), group: meta.group, respect, levels, ...(modes ? { modes } : {}) }
     writeFileSync(join(outDir, `${meta.id}.json`), JSON.stringify(pack))
-    const entry = { id: meta.id, name: toSigns(meta.name), nameAr: meta.nameAr, group: meta.group, counts: levels.map((l) => l.length) }
+    const entry = { id: meta.id, name: toSigns(meta.name), nameAr: meta.nameAr, ...(meta.nameUr ? { nameUr: meta.nameUr } : {}), group: meta.group, counts: levels.map((l) => l.length) }
     if (modes) entry.modes = Object.fromEntries(Object.entries(modes).map(([m, l]) => [m, l.length]))
     // How many picture questions the category has, for the picture round
     const pics = levels.reduce((n, l) => n + l.filter((q) => q.img).length, 0)

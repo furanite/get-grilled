@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import type { Lang } from '../lib/types'
+import { dirOf } from '../lib/lang'
 
 /**
  * Scholar review: lets 'ulama check every line of the Islamic and Kids collections for correctness
@@ -30,7 +31,7 @@ function save(s: Saved) {
   try { localStorage.setItem(KEY, JSON.stringify(s)) } catch { /* storage full or blocked: the download still works */ }
 }
 
-const TEXT = {
+const TEXT_BASE = {
   en: {
     title: 'Scholar review',
     intro: "For 'ulama and qualified teachers: check each question and its answer for correctness (creed, fiqh, hadith grading, facts and sources) and for adab (respect for Allah, the Blessed Prophets (عليهم السلام), our Beloved Prophet ﷺ, the Companions (رِضْوَانُ اللَّهِ عَلَيْهِم) and the scholars).",
@@ -100,6 +101,7 @@ const TEXT = {
     big: 'هذا الملف أكبر من أن يكون ملف مراجعة (أكثر من ٢ ميغابايت).',
   },
 }
+const TEXT = { ...TEXT_BASE, ur: TEXT_BASE.en }
 
 const reviewed = (v?: Verdict) => !!v && (v.correct !== undefined || v.adab !== undefined)
 const hasIssue = (v?: Verdict) => !!v && (v.correct === 'issue' || v.adab === 'issue')
@@ -178,7 +180,7 @@ export default function Review({ lang, notify, onBack }: { lang: Lang; notify: (
   }
 
   return (
-    <main className="review stack" dir={lang === 'ar' ? 'rtl' : 'ltr'} data-testid="review">
+    <main className="review stack" dir={dirOf(lang)} data-testid="review">
       <section className="panel stack">
         <div className="row" style={{ justifyContent: 'space-between' }}>
           <h1 className="review-title">{t.title}</h1>

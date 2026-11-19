@@ -22,6 +22,7 @@ import { BuzzOrder, type BuzzView, useBuzzRound } from './Buzzers'
 import { BackupSheet, LogSheet, usePrintJob } from './Sheets'
 import { loadFlags, saveFlags } from '../lib/store'
 import { speakClue, stopSpeaking } from '../lib/voice'
+import { qOf, aOf, nameOf, namePair } from '../lib/lang'
 
 interface Props {
   t: Strings
@@ -215,7 +216,7 @@ export default function Board({ t, lang, game, setGame, onEnd, onLive }: Props) 
         <div className="board-scroll">
           <div className="board" ref={boardRef} style={{ gridTemplateColumns: `repeat(${cols},minmax(0,var(--colmax)))`, ['--cols' as string]: cols }}>
             {game.cats.map((c, i) => {
-              const [main, sub] = lang === 'ar' && c.nameAr ? [c.nameAr, c.name] : [c.name, c.nameAr]
+              const [main, sub] = namePair(c, lang)
               return (
                 <div className="cat" key={'h' + i} style={{ ['--d' as string]: intro ? `${i * 60}ms` : '0ms' }}>
                   <CatIcon id={c.id} />
@@ -349,8 +350,8 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
   // Golden, Steal and Audience tiles first say what they are; the question (and its timer) comes after Next.
   const [intro, setIntro] = useState(() => !!(clue.golden || clue.special))
   const cat = game.cats[open.c]
-  const q = lang === 'ar' && clue.qAr ? clue.qAr : clue.q
-  const a = lang === 'ar' && clue.aAr ? clue.aAr : clue.a
+  const q = qOf(clue, lang)
+  const a = aOf(clue, lang)
   const timerSecs = clueSeconds(game.settings, open.l, clue)
   const [flagged, setFlagged] = useState(() => loadFlags().some((f) => f.id === clue.id && f.catId === cat.id))
   const flag = () => {
@@ -554,7 +555,7 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
       <div ref={ref} className={`card${phase === 'open' ? ' open' : ''}${phase === 'closing' ? ' closing' : ''}${clue.golden && phase === 'open' ? ' golden' : ''}${cat.respect ? ' calm' : ''}`} role="dialog" aria-modal="true" aria-label={cat.name} data-testid="clue">
         <div className="card-in">
           <div className="meta">
-            <span className="meta-cat"><CatIcon id={cat.id} />{lang === 'ar' && cat.nameAr ? cat.nameAr : cat.name}</span>
+            <span className="meta-cat"><CatIcon id={cat.id} />{nameOf(cat, lang)}</span>
             <span className="row">
               {clue.golden && <span className="pill g">{t.golden}</span>}
               {clue.special === 'steal' && <span className="pill steal">{t.steal}</span>}

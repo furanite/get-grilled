@@ -105,7 +105,7 @@ export default function Home({ t, lang, theme, setTheme, hasGame, onNew, onResum
               <button key={th.id} className="theme" aria-pressed={theme === th.id} disabled={locked} onClick={(e) => setTheme(th.id, e)} data-theme-id={th.id}>
                 <span className="sw" style={{ background: th.swatch }} />
                 <span style={{ minWidth: 0 }}>
-                  <b>{lang === 'ar' ? th.nameAr : th.name}</b>
+                  <b>{lang === 'en' ? th.name : th.nameAr}</b>
                   <small>{th.blurb}</small>
                   {locked && (
                     <span className="lock" style={{ display: 'block' }}>

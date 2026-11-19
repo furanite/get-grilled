@@ -1,4 +1,4 @@
-import type { ThemeId } from './types'
+import type { Lang, ThemeId } from './types'
 import { ISLAMIC_SET } from './edition'
 import { ISLAMIC_THEME_TEXT } from './islamic'
 import { currentPlace } from './place'
@@ -147,10 +147,11 @@ export function msUntilHeritage(now = new Date()) {
   return target.getTime() - riyadh.getTime()
 }
 
-export function formatCountdown(ms: number, lang: 'en' | 'ar') {
+export function formatCountdown(ms: number, lang: Lang) {
   const d = Math.floor(ms / 86400_000)
   const h = Math.floor((ms % 86400_000) / 3600_000)
   const m = Math.floor((ms % 3600_000) / 60_000)
   if (lang === 'ar') return `${d} يوم ${h} ساعة ${m} دقيقة`
+  if (lang === 'ur') return `${d} دن ${h} گھنٹے ${m} منٹ`
   return `${d}d ${h}h ${m}m`
 }

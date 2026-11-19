@@ -25,6 +25,7 @@ import { Ambient, CatIcon, Flourish, FlourishAbove, Mark } from './Brand'
 import { diagramSrc } from '../lib/diagram'
 import { GameClock, TimerBar } from './Timer'
 import { qLen } from '../lib/qlen'
+import { setDocLang, qOf, aOf, nameOf, namePair } from '../lib/lang'
 
 /**
  * Opens a second browser window that the host drags onto the projector.
@@ -138,8 +139,7 @@ export function AudienceScreen({ win, root, t, lang, theme, reduceFx, screen, ga
   html.dataset.reduceFx = reduceFx ? 'on' : 'off'
   // The Islamic look and the Qur'an font (with every Uthmani mark) apply in the audience window too.
   if (ISLAMIC_SET) html.dataset.set = 'islamic'
-  html.lang = lang
-  html.dir = lang === 'ar' ? 'rtl' : 'ltr'
+  setDocLang(html, lang)
 
   return createPortal(<AudienceView t={t} lang={lang} theme={theme} screen={screen} game={game} live={live} vote={vote ?? null} win={win} lobby={lobby} bracket={bracket} />, root)
 }
@@ -309,12 +309,12 @@ export function AudienceView({ t, lang, theme, screen, game, live, vote, win, no
           {st?.startedAt && !st.done && q ? (
             <div className="round-card" key={st.i}>
               <TimerBar clock={{ start: st.startedAt, total: LIGHTNING_SECS }} total={LIGHTNING_SECS} lang={lang} timeUpText={t.timeUp} big />
-              <p className="q" dir="auto" data-len={qLen(lang === 'ar' && q.qAr ? q.qAr : q.q)} data-testid="audience-lightning-q">
-                {lang === 'ar' && q.qAr ? q.qAr : q.q}
+              <p className="q" dir="auto" data-len={qLen(qOf(q, lang))} data-testid="audience-lightning-q">
+                {qOf(q, lang)}
               </p>
               {st.revealed ? (
                 <div className="answer show" dir="auto">
-                  {lang === 'ar' && q.aAr ? q.aAr : q.a}
+                  {aOf(q, lang)}
                 </div>
               ) : (
                 <div className="answer aud-hidden" aria-hidden="true" />
@@ -332,7 +332,7 @@ export function AudienceView({ t, lang, theme, screen, game, live, vote, win, no
   if (screen === 'final' && game?.final) {
     const st = game.finalState ?? { step: 'cat', marks: [] }
     const f = game.final
-    const cat = lang === 'ar' && f.cat.nameAr ? f.cat.nameAr : f.cat.name
+    const cat = nameOf(f.cat, lang)
     return (
       <main className="aud-main round" data-testid="audience-final">
         {help}
@@ -354,8 +354,8 @@ export function AudienceView({ t, lang, theme, screen, game, live, vote, win, no
                 <span className="label">
                   <CatIcon id={f.cat.id} /> {cat}
                 </span>
-                <p className="q" dir="auto" data-len={qLen(lang === 'ar' && f.q.qAr ? f.q.qAr : f.q.q)} data-testid="audience-final-q">
-                  {lang === 'ar' && f.q.qAr ? f.q.qAr : f.q.q}
+                <p className="q" dir="auto" data-len={qLen(qOf(f.q, lang))} data-testid="audience-final-q">
+                  {qOf(f.q, lang)}
                 </p>
               </>
             )}
@@ -367,7 +367,7 @@ export function AudienceView({ t, lang, theme, screen, game, live, vote, win, no
             )}
             {st.step === 'answer' && (
               <div className="answer show" dir="auto" data-testid="audience-final-a">
-                {lang === 'ar' && f.q.aAr ? f.q.aAr : f.q.a}
+                {aOf(f.q, lang)}
               </div>
             )}
           </div>
@@ -409,7 +409,7 @@ export function AudienceView({ t, lang, theme, screen, game, live, vote, win, no
         )}
         <div className="board" style={{ gridTemplateColumns: `repeat(${game.cats.length},minmax(0,var(--colmax)))`, ['--cols' as string]: game.cats.length, minWidth: 0 }}>
           {game.cats.map((c, i) => {
-            const [main, sub] = lang === 'ar' && c.nameAr ? [c.nameAr, c.name] : [c.name, c.nameAr]
+            const [main, sub] = namePair(c, lang)
             return (
               <div className="cat" key={'h' + i}>
                 <CatIcon id={c.id} />
@@ -449,7 +449,7 @@ export function AudienceView({ t, lang, theme, screen, game, live, vote, win, no
         <div className="aud-clue" data-testid="audience-clue" key={tileKey(live!.c, live!.l)} ref={holdStill}>
           <FitBox className={`aud-card${clue.golden ? ' golden' : ''}${cat.respect ? ' calm' : ''}`} deps={[live!.c, live!.l, live!.revealed, live!.intro, lang]}>
             <div className="meta">
-              <span className="meta-cat"><CatIcon id={cat.id} />{lang === 'ar' && cat.nameAr ? cat.nameAr : cat.name}</span>
+              <span className="meta-cat"><CatIcon id={cat.id} />{nameOf(cat, lang)}</span>
               <span className="row">
                 {clue.golden && <span className="pill g">{t.golden}</span>}
                 {clue.special === 'steal' && <span className="pill steal">{t.steal}</span>}
@@ -461,8 +461,8 @@ export function AudienceView({ t, lang, theme, screen, game, live, vote, win, no
               <TileIntro t={t} clue={clue} big />
             ) : (
               <>
-                <p className="q" dir="auto" data-len={qLen(lang === 'ar' && clue.qAr ? clue.qAr : clue.q)} data-testid="audience-question">
-                  {lang === 'ar' && clue.qAr ? clue.qAr : clue.q}
+                <p className="q" dir="auto" data-len={qLen(qOf(clue, lang))} data-testid="audience-question">
+                  {qOf(clue, lang)}
                 </p>
                 {clue.img && (
                 <div className="q-fig">
@@ -471,8 +471,8 @@ export function AudienceView({ t, lang, theme, screen, game, live, vote, win, no
                 </div>
               )}
                 {live!.revealed ? (
-                  <div className="answer show" dir="auto" data-len={(lang === 'ar' && clue.aAr ? clue.aAr : clue.a).length > 60 ? 'l' : undefined} data-testid="audience-answer">
-                    {lang === 'ar' && clue.aAr ? clue.aAr : clue.a}
+                  <div className="answer show" dir="auto" data-len={(aOf(clue, lang)).length > 60 ? 'l' : undefined} data-testid="audience-answer">
+                    {aOf(clue, lang)}
                     <Source t={t} q={clue} />
                   </div>
                 ) : (

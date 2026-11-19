@@ -207,7 +207,7 @@ export function createGame(
   const taken = new Set<string>()
   const clues = drawBoard(cats, settings, nextUsed, rng, 1, taken)
   const game: Game = {
-    cats: cats.map(({ id, name, nameAr, respect }) => ({ id, name, nameAr, ...(respect ? { respect } : {}) })),
+    cats: cats.map(({ id, name, nameAr, nameUr, respect }) => ({ id, name, nameAr, ...(nameUr ? { nameUr } : {}), ...(respect ? { respect } : {}) })),
     clues,
     teams: teamNames.map((name) => ({ name: name.trim() || 'Team', score: 0 })),
     used: [],
@@ -251,8 +251,8 @@ export function createGame(
       if (!pool.length) continue
       const q = pick(pool, rng)
       take(q, cats[ci].id)
-      const { id, name, nameAr } = cats[ci]
-      game.final = { cat: { id, name, nameAr }, q: { ...q } }
+      const { id, name, nameAr, nameUr } = cats[ci]
+      game.final = { cat: { id, name, nameAr, ...(nameUr ? { nameUr } : {}) }, q: { ...q } }
       break
     }
     if (!game.final) game.settings.final = false
@@ -277,8 +277,8 @@ export function createGame(
   for (let round = 0; tie.length < TIE_MAX && tiePools.some((p) => p.length > round); round++)
     tiePools.forEach((p, ci) => {
       if (tie.length < TIE_MAX && p[round]) {
-        const { id, name, nameAr } = cats[ci]
-        tie.push({ cat: { id, name, nameAr }, q: { ...p[round] } })
+        const { id, name, nameAr, nameUr } = cats[ci]
+        tie.push({ cat: { id, name, nameAr, ...(nameUr ? { nameUr } : {}) }, q: { ...p[round] } })
         // Kept back, not marked as played: most games never need them.
         onBoard.add(p[round].id)
         taken.add(clueKey(p[round]))
@@ -375,7 +375,7 @@ export function createTournament(
       const cats = groups[b % groups.length]
       const mult = st.kind === 'double' ? 2 : 1
       const clues = b === 0 ? game.clues.map((col) => col.map((q) => ({ ...q, value: q.value * mult }))) : drawBoard(cats, settings, used, rng, mult, taken)
-      rounds.push({ kind: st.kind, cats: cats.map(({ id, name, nameAr }) => ({ id, name, nameAr })), clues })
+      rounds.push({ kind: st.kind, cats: cats.map(({ id, name, nameAr, nameUr }) => ({ id, name, nameAr, ...(nameUr ? { nameUr } : {}) })), clues })
       b++
     } else if (st.kind === 'mode') {
       let items: ModeItem[] | null = null

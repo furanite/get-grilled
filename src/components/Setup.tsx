@@ -14,6 +14,7 @@ import { roundTitle } from './Tournament'
 import { sfx } from '../lib/sound'
 import { loadNights, loadPack, type Night } from '../lib/packs'
 import { loadMadhhab, loadUsed, saveMadhhab, saveUsed } from '../lib/store'
+import { nameOf, namePair } from '../lib/lang'
 
 interface Props {
   t: Strings
@@ -61,7 +62,7 @@ function fitPlan(plan: TourStep[], offered: RoundMode[]): TourStep[] {
 const stepKey = (r: TourStep) => (r.kind === 'mode' ? `mode:${r.mode}` : r.kind)
 const keyStep = (k: string): TourStep => (k.startsWith('mode:') ? { kind: 'mode', mode: k.slice(5) as RoundMode } : { kind: k as TourStep['kind'] })
 
-const DEFAULT_TEAMS = { en: ['Team 1', 'Team 2', 'Team 3'], ar: ['الفريق ١', 'الفريق ٢', 'الفريق ٣'] }
+const DEFAULT_TEAMS = { en: ['Team 1', 'Team 2', 'Team 3'], ar: ['الفريق ١', 'الفريق ٢', 'الفريق ٣'], ur: ['ٹیم 1', 'ٹیم 2', 'ٹیم 3'] }
 
 
 const blankDetails = (): TeamDetails => ({ members: Array.from({ length: 4 }, () => ({ name: '', role: '' })), captain: null, fact: '' })
@@ -269,8 +270,8 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
     return (
       <button key={c.id} className="cat-pick" aria-pressed={order >= 0} disabled={!playable || (order < 0 && picked.length >= limit)} onClick={() => toggle(c.id)} style={{ ['--d' as string]: `${i * 40}ms` }} data-cat={c.id}>
         <CatIcon id={c.builtIn ? c.id : 'custom'} />
-        <b>{lang === 'ar' && c.nameAr ? c.nameAr : c.name}</b>
-        {c.nameAr && <small lang={lang === 'ar' ? 'en' : 'ar'}>{lang === 'ar' ? c.name : c.nameAr}</small>}
+        <b>{namePair(c, lang)[0]}</b>
+        {namePair(c, lang)[1] && <small lang={/[؀-ۿ]/.test(namePair(c, lang)[1] ?? '') ? 'ar' : 'en'}>{namePair(c, lang)[1]}</small>}
         <small>
           {playable ? qCount(total({ counts }), lang) : t.incomplete}
         </small>
@@ -298,7 +299,7 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
               {chosenNight ? <NightIcon n={chosenNight} /> : <CatIcon id={ISLAMIC_SET ? 'isl-nights' : 'nights'} />}
               <b>{t.nights}</b>
               <small>
-                {chosenNight ? (lang === 'ar' && chosenNight.nameAr ? chosenNight.nameAr : chosenNight.name) : `${num(nights.length, lang)} ${t.nightsCount}`}
+                {chosenNight ? (nameOf(chosenNight, lang)) : `${num(nights.length, lang)} ${t.nightsCount}`}
               </small>
             </summary>
             <p className="muted nights-help">{t.nightsHelp}</p>
@@ -306,7 +307,7 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
               {nights.map((n) => (
                 <button key={n.id} className="night" aria-pressed={night === n.id} onClick={() => applyNight(n)} data-night={n.id}>
                   <NightIcon n={n} />
-                  <b dir="auto">{lang === 'ar' && n.nameAr ? n.nameAr : n.name}</b>
+                  <b dir="auto">{nameOf(n, lang)}</b>
                   <small dir="auto">{lang === 'ar' && n.aboutAr ? n.aboutAr : n.about}</small>
                 </button>
               ))}
@@ -389,7 +390,7 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
         ))}
         {teams.length < 4 && (
           <button className="ghost" style={{ alignSelf: 'start' }} onClick={() => {
-            setTeams([...teams, `${lang === 'ar' ? 'الفريق' : 'Team'} ${num(teams.length + 1, lang)}`])
+            setTeams([...teams, `${lang === 'ar' ? 'الفريق' : lang === 'ur' ? 'ٹیم' : 'Team'} ${num(teams.length + 1, lang)}`])
             setDetails([...details, blankDetails()])
           }}>
             + {t.addTeam}

@@ -16,6 +16,8 @@ const en = lines('').filter(({ at }) => !/^(isl|kids)-/.test(at))
 const enAll = lines('')
 const ar = existsSync(join(dir, 'ar')) ? lines('ar/') : []
 
+const ur = existsSync(join(dir, 'ur')) ? lines('ur/') : []
+const PROPHETS_UR = ['آدم', 'نوح', 'ابراہیم', 'اسماعیل', 'اسحاق', 'یعقوب', 'یوسف', 'موسیٰ', 'ہارون', 'داؤد', 'سلیمان', 'یونس', 'ایوب', 'زکریا', 'یحییٰ', 'عیسیٰ', 'ہود', 'صالح', 'شعیب', 'لوط', 'ادریس', 'الیاس', 'الیسع', 'ذوالکفل']
 const COMPANIONS_EN = ['Abu Bakr', 'Umar ibn al-Khattab', 'Uthman ibn Affan', 'Ali ibn Abi Talib', 'Muawiya', 'Khalid ibn al-Walid', 'Amr ibn al-As', 'Salman al-Farisi', "Ka'b ibn Zuhayr", 'Hassan ibn Thabit']
 const COMPANIONS_AR = ['أبو بكر الصديق', 'أبي بكر', 'عمر بن الخطاب', 'عثمان بن عفان', 'علي بن أبي طالب', 'معاوية بن أبي سفيان', 'خالد بن الوليد', 'عمرو بن العاص', 'سلمان الفارسي', 'كعب بن زهير', 'حسان بن ثابت']
 const esc = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
@@ -38,7 +40,17 @@ describe('honorifics for blessed religious figures', () => {
       const rest = text.replace(/حبيبنا وسيدنا النبي محمد ﷺ/g, '').replace(/"النبي"/g, '')
       for (const m of rest.matchAll(/(^|[\s(])النبي(?=[\s.،]|$)/g)) {
         const after = rest.slice((m.index ?? 0) + m[0].length)
-        expect(/^ (سليمان|شعيب) [﵇﵈]/.test(after), at).toBe(true)
+        // "النبي الكريم ﵇" (the Blessed Prophet ﵇) is the Kids collection's way of asking about a prophet.
+        expect(/^ (سليمان|شعيب) [﵇﵈]|^ الكريم [﵇﵈]/.test(after), at).toBe(true)
+      }
+    }
+  })
+  it('Urdu: the Prophet is always "ہمارے حبیب اور ہمارے آقا نبیِ کریم محمد ﷺ", and every other prophet carries ﵇', () => {
+    for (const { at, text } of ur) {
+      for (const m of text.matchAll(/ﷺ/g)) expect(/ہمارے حبیب اور ہمارے آقا نبیِ کریم محمد $/.test(text.slice(0, m.index)), at).toBe(true)
+      for (const n of PROPHETS_UR) for (const m of text.matchAll(new RegExp(`(^|[\\s،(])${n}(?=[\\s،.۔)]|$)`, 'g'))) {
+        if (/سورۂ ?$/.test(text.slice(0, (m.index ?? 0) + m[1].length))) continue // a surah's name, like سورۂ یوسف
+        expect(/^ [﵇﵈﵉]/.test(text.slice((m.index ?? 0) + m[0].length)), `${at}: ${n}`).toBe(true)
       }
     }
   })
@@ -56,6 +68,6 @@ describe('honorifics for blessed religious figures', () => {
     for (const { at, text } of ar) if (text.includes('عمر بن عبد العزيز')) expect(text, at).toContain('عمر بن عبد العزيز ﵀')
   })
   it('no honorific is written out in words (the signs are used instead)', () => {
-    for (const { at, text } of [...enAll, ...ar]) expect(/may Allah (be pleased|have mercy)|peace be upon (him|them)\b(?! you)|رضي الله عن|رضوان الله|رحمه(م)? الله|عليه(م)? السلام|صلى الله عليه/.test(text), at).toBe(false)
+    for (const { at, text } of [...enAll, ...ar, ...ur]) expect(/may Allah (be pleased|have mercy)|peace be upon (him|them)\b(?! you)|رضي الله عن|رضوان الله|رحمه(م)? الله|عليه(م)? السلام|صلى الله عليه/.test(text), at).toBe(false)
   })
 })

@@ -1,5 +1,6 @@
 import type { Lang } from './types'
 import { EXTRA_AR, EXTRA_EN } from './i18n-extra'
+import { UR, overlay } from './i18n-ur'
 
 const en = {
   tagline: 'What does it mean to get questioned?',
@@ -786,11 +787,12 @@ const ar: typeof en = {
   ...EXTRA_AR,
 }
 
-export const STRINGS = { en, ar }
 export type Strings = typeof en
+export const STRINGS: Record<Lang, Strings> = { en, ar, ur: overlay<Strings>(en, UR) }
 
 export function qCount(n: number, lang: Lang) {
   if (lang === 'ar') return `${num(n, lang)} سؤال`
+  if (lang === 'ur') return `${n} سوالات`
   return `${n} ${n === 1 ? 'question' : 'questions'}`
 }
 

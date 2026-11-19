@@ -4,6 +4,7 @@ import type { Strings } from '../lib/i18n'
 import { num } from '../lib/i18n'
 import { MAX_ADJUST } from '../lib/game'
 import { useDialog } from './Legal'
+import { dirOf } from '../lib/lang'
 
 export interface Adjustment {
   team: number
@@ -34,7 +35,7 @@ export default function AdjustScores({ t, lang, game, log, onAdjust, onUndo, onC
 
   return (
     <div className="legal-backdrop" onClick={(e) => e.target === e.currentTarget && onClose()}>
-      <div className="legal-panel adjust-panel" role="dialog" aria-modal="true" aria-labelledby="adjust-title" ref={ref} data-testid="adjust" dir={lang === 'ar' ? 'rtl' : 'ltr'} lang={lang}>
+      <div className="legal-panel adjust-panel" role="dialog" aria-modal="true" aria-labelledby="adjust-title" ref={ref} data-testid="adjust" dir={dirOf(lang)} lang={lang}>
         <div className="legal-head">
           <h1 id="adjust-title">{t.adjust}</h1>
         </div>

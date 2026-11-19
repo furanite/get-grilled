@@ -3,6 +3,7 @@ import type { Lang } from '../lib/types'
 import type { Strings } from '../lib/i18n'
 import { CatIcon } from './Brand'
 import { sfx } from '../lib/sound'
+import { nameOf } from '../lib/lang'
 
 /** A category on the vote's shortlist. */
 export interface VoteCat {
@@ -31,7 +32,7 @@ export const votersFor = (t: Strings, teams: string[]): Voter[] => [
   { kind: 'host', name: t.voteHost },
 ]
 
-const catName = (c: VoteCat, lang: Lang) => (lang === 'ar' && c.nameAr ? c.nameAr : c.name)
+const catName = (c: VoteCat, lang: Lang) => (nameOf(c, lang))
 
 /** The shortlist with each category's picker on it. Shared by the host screen and the audience window. */
 export function VoteBoard({ t, lang, vote, onPick, big }: { t: Strings; lang: Lang; vote: VoteState; onPick?: (id: string) => void; big?: boolean }) {

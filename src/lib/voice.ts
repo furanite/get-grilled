@@ -25,7 +25,7 @@ export const hostReads = (text: string) => HONOURED.test(text) || SACRED_TEXT.te
 /** Text as it should be spoken: no picture markers or stray symbols. */
 const speakable = (text: string) => text.replace(/\{img:[^}]*\}/g, '').replace(/[_*#|]+/g, ' ').replace(/\s+/g, ' ').trim()
 
-export function speakClue(text: string, lang: 'en' | 'ar') {
+export function speakClue(text: string, lang: 'en' | 'ar' | 'ur') {
   if (!enabled || !voiceAvailable() || !text || hostReads(text)) return
   const say = speakable(text)
   if (!say) return
@@ -33,10 +33,11 @@ export function speakClue(text: string, lang: 'en' | 'ar') {
     const synth = window.speechSynthesis
     synth.cancel()
     const u = new SpeechSynthesisUtterance(say)
-    const want = lang === 'ar' || /[؀-ۿ]/.test(say) ? 'ar' : 'en'
+    const script = /[؀-ۿ]/.test(say)
+    const want = lang === 'ur' && script ? 'ur' : lang === 'ar' || script ? 'ar' : 'en'
     const v = synth.getVoices().find((x) => x.lang.toLowerCase().startsWith(want) && x.default) ?? synth.getVoices().find((x) => x.lang.toLowerCase().startsWith(want))
     if (v) u.voice = v
-    u.lang = v?.lang ?? (want === 'ar' ? 'ar-SA' : 'en-GB')
+    u.lang = v?.lang ?? (want === 'ar' ? 'ar-SA' : want === 'ur' ? 'ur-PK' : 'en-GB')
     u.rate = 0.9
     synth.speak(u)
   } catch {

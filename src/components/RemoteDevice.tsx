@@ -7,6 +7,7 @@ import { setFavicon } from '../lib/favicon'
 import { AudienceView } from './Audience'
 import { JoinCard } from './LiveAudience'
 import { Mark } from './Brand'
+import { setDocLang } from '../lib/lang'
 
 type Step = 'claiming' | 'feed' | 'taken' | 'invalid'
 
@@ -40,8 +41,7 @@ export default function RemoteDevice({ fallbackLang }: { fallbackLang: Lang }) {
     html.dataset.reduceFx = view?.reduceFx ? 'on' : 'off'
     html.dataset.big = view?.display?.big ? 'on' : 'off'
     html.dataset.cb = view?.display?.cb ? 'on' : 'off'
-    html.lang = lang
-    html.dir = lang === 'ar' ? 'rtl' : 'ltr'
+    setDocLang(html, lang)
     document.body.classList.add('audience-body')
     setFavicon(document, theme)
   }, [theme, lang, view?.reduceFx, view?.display?.big, view?.display?.cb])

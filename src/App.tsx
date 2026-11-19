@@ -37,6 +37,8 @@ import { Mark } from './components/Brand'
 import { HostLink } from './components/HostLink'
 import { BuzzButton } from './components/Buzzers'
 import { DevicesButton, SignOut, isLiveServer, useHostAudience, usePublisher } from './components/LiveHost'
+import { setDocLang } from './lib/lang'
+import { LangSwitch } from './components/LangSwitch'
 
 export default function App() {
   const initial = useMemo(loadSettings, [])
@@ -136,8 +138,7 @@ export default function App() {
   }, [])
 
   useEffect(() => {
-    document.documentElement.lang = lang
-    document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr'
+    setDocLang(document.documentElement, lang)
   }, [lang])
 
   // Leave the Heritage theme when Friday afternoon ends, but never in the middle of a game.
@@ -296,9 +297,7 @@ export default function App() {
               <button className="ghost" aria-pressed={reduceFx} onClick={() => setReduceFx(!reduceFx)} data-testid="reduce-fx">
                 {CONSENT_TEXT[lang].reduceFx}
               </button>
-              <button className="ghost" onClick={() => setLang(lang === 'en' ? 'ar' : 'en')} lang={lang === 'en' ? 'ar' : 'en'}>
-                {t.language}
-              </button>
+              <LangSwitch lang={lang} setLang={setLang} />
             </div>
           </header>
 

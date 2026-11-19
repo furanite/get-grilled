@@ -7,6 +7,7 @@ import { HOST_EDITION } from '../lib/edition'
 import { CatIcon } from './Brand'
 import { sfx } from '../lib/sound'
 import { burstAt } from '../lib/fx'
+import { qOf, aOf, nameOf } from '../lib/lang'
 
 interface Props {
   t: Strings
@@ -82,9 +83,9 @@ export function TieBreak({ t, lang, game, setGame, onDone }: Props) {
       </main>
     )
   }
-  const cat = lang === 'ar' && item.cat.nameAr ? item.cat.nameAr : item.cat.name
-  const q = lang === 'ar' && item.q.qAr ? item.q.qAr : item.q.q
-  const a = lang === 'ar' && item.q.aAr ? item.q.aAr : item.q.a
+  const cat = nameOf(item.cat, lang)
+  const q = qOf(item.q, lang)
+  const a = aOf(item.q, lang)
 
   return (
     <main className="round stack" data-testid="tiebreak">
@@ -177,7 +178,7 @@ export function TieBreakView({ t, lang, game }: { t: Strings; lang: Lang; game: 
   const st = game.tieState
   const item = st ? game.tiebreak?.[st.i] : undefined
   if (!st || !item) return null
-  const cat = lang === 'ar' && item.cat.nameAr ? item.cat.nameAr : item.cat.name
+  const cat = nameOf(item.cat, lang)
   return (
     <main className="aud-main round" data-testid="audience-tiebreak">
       <h1 className="round-title">{t.tb.title}</h1>
@@ -189,14 +190,14 @@ export function TieBreakView({ t, lang, game }: { t: Strings; lang: Lang; game: 
           </span>
           {st.shown && item.q.q ? (
             <p className="q" dir="auto" data-testid="audience-tie-q">
-              {lang === 'ar' && item.q.qAr ? item.q.qAr : item.q.q}
+              {qOf(item.q, lang)}
             </p>
           ) : (
             <p className="round-msg">{t.tb.help}</p>
           )}
           {st.revealed && item.q.a ? (
             <div className="answer show" dir="auto" data-testid="audience-tie-a">
-              {lang === 'ar' && item.q.aAr ? item.q.aAr : item.q.a}
+              {aOf(item.q, lang)}
             </div>
           ) : (
             <div className="answer aud-hidden" aria-hidden="true" />

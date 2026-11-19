@@ -35,6 +35,8 @@ function blankQ<T extends Question | ModeItem>(q: T): T {
   const out = { ...q, q: HIDDEN, a: HIDDEN } as T
   delete (out as Question).qAr
   delete (out as Question).aAr
+  delete (out as Question).qUr
+  delete (out as Question).aUr
   delete out.img
   delete (out as ModeItem).v
   delete (out as ModeItem).k
@@ -44,6 +46,7 @@ function blankQ<T extends Question | ModeItem>(q: T): T {
 function noAnswer<T extends Question | ModeItem>(q: T): T {
   const out = { ...q, a: HIDDEN } as T
   delete (out as Question).aAr
+  delete (out as Question).aUr
   delete (out as ModeItem).v
   return out
 }

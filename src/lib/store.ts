@@ -1,6 +1,7 @@
 import type { Category, Game, Lang, LogEntry, LogKind, Madhhab, ModeItem, PoolEdit, Question, ThemeId, TourRound, Tournament } from './types'
 import { ROUND_MODES, TOUR_KINDS } from './types'
 import { isDiagram } from './diagram'
+import { URDU } from './edition'
 import { isClueSecs } from './game'
 import { cleanDraft, type StudyDraft } from './studyset'
 
@@ -61,7 +62,7 @@ export const loadSettings = (): Settings => {
   const r = isObj(raw) ? raw : {}
   return {
     theme: THEME_IDS.includes(r.theme as ThemeId) ? (r.theme as ThemeId) : 'amethyst',
-    lang: r.lang === 'ar' ? 'ar' : 'en',
+    lang: r.lang === 'ar' || (r.lang === 'ur' && URDU) ? r.lang : 'en',
     reduceFx: r.reduceFx === true,
     sound: r.sound !== false,
   }
@@ -73,6 +74,8 @@ function cleanQuestion(v: unknown): Question | null {
   const q: Question = { id: v.id, q: v.q, a: v.a }
   if (isStr(v.qAr)) q.qAr = v.qAr
   if (isStr(v.aAr)) q.aAr = v.aAr
+  if (isStr(v.qUr)) q.qUr = v.qUr
+  if (isStr(v.aUr)) q.aUr = v.aUr
   if (isDiagram(v.img)) q.img = v.img
   if (isClueSecs(v.secs)) q.secs = v.secs
   return q
@@ -85,6 +88,7 @@ export function cleanCategories(raw: unknown): Category[] {
     const levels = c.levels.map((l) => (Array.isArray(l) ? l.map(cleanQuestion).filter((q): q is Question => !!q) : []))
     const cat: Category = { id: c.id, name: c.name, builtIn: false, levels }
     if (isStr(c.nameAr)) cat.nameAr = c.nameAr
+    if (isStr(c.nameUr)) cat.nameUr = c.nameUr
     if (isObj(c.set) && isStr(c.set.id) && isStr(c.set.title)) cat.set = { id: c.set.id, title: c.set.title }
     out.push(cat)
   }
@@ -149,7 +153,7 @@ export function cleanGameExtras(g: Game): Game {
   else delete out.lightningState
   const f = g.final as unknown
   const fq = isObj(f) ? cleanQuestion(f.q) : null
-  if (isObj(f) && fq && isObj(f.cat) && isStr(f.cat.id) && isStr(f.cat.name)) out.final = { cat: { id: f.cat.id, name: f.cat.name, ...(isStr(f.cat.nameAr) ? { nameAr: f.cat.nameAr } : {}) }, q: fq }
+  if (isObj(f) && fq && isObj(f.cat) && isStr(f.cat.id) && isStr(f.cat.name)) out.final = { cat: { id: f.cat.id, name: f.cat.name, ...(isStr(f.cat.nameAr) ? { nameAr: f.cat.nameAr } : {}), ...(isStr(f.cat.nameUr) ? { nameUr: f.cat.nameUr } : {}) }, q: fq }
   else delete out.final
   const fs = g.finalState as unknown
   if (isObj(fs) && (fs.step === 'cat' || fs.step === 'q' || fs.step === 'answer') && Array.isArray(fs.marks) && fs.marks.length === n)
@@ -182,7 +186,7 @@ export function cleanGameExtras(g: Game): Game {
     ? (g.tiebreak as unknown[]).flatMap((x) => {
         const q = isObj(x) ? cleanQuestion(x.q) : null
         if (!isObj(x) || !q || !isObj(x.cat) || !isStr(x.cat.id) || !isStr(x.cat.name)) return []
-        return [{ cat: { id: x.cat.id, name: x.cat.name, ...(isStr(x.cat.nameAr) ? { nameAr: x.cat.nameAr } : {}) }, q }]
+        return [{ cat: { id: x.cat.id, name: x.cat.name, ...(isStr(x.cat.nameAr) ? { nameAr: x.cat.nameAr } : {}), ...(isStr(x.cat.nameUr) ? { nameUr: x.cat.nameUr } : {}) }, q }]
       })
     : []
   if (tb.length) out.tiebreak = tb
@@ -247,7 +251,7 @@ function cleanTournament(raw: unknown, teams: number): Tournament | null {
     if (kind === 'board' || kind === 'double') {
       const board = { cats: r.cats, clues: r.clues, teams: Array.from({ length: teams }, () => ({ name: 'x', score: 0 })), used: [], settings: {} }
       if (!isValidGame(board)) return null
-      rounds.push({ kind, cats: board.cats.map((c) => ({ id: c.id, name: c.name, ...(isStr(c.nameAr) ? { nameAr: c.nameAr } : {}) })), clues: board.clues })
+      rounds.push({ kind, cats: board.cats.map((c) => ({ id: c.id, name: c.name, ...(isStr(c.nameAr) ? { nameAr: c.nameAr } : {}), ...(isStr(c.nameUr) ? { nameUr: c.nameUr } : {}) })), clues: board.clues })
     } else if (kind === 'mode') {
       if (!(ROUND_MODES as readonly unknown[]).includes(r.mode) || !Array.isArray(r.items)) return null
       const items = cleanItems(r.items)

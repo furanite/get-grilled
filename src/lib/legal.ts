@@ -155,10 +155,10 @@ const privacyAr: LegalDoc = {
   ],
 }
 
-export const TERMS: Record<Lang, LegalDoc> = { en: termsEn, ar: termsAr }
-export const PRIVACY: Record<Lang, LegalDoc> = { en: privacyEn, ar: privacyAr }
+export const TERMS: Record<Lang, LegalDoc> = { en: termsEn, ar: termsAr, ur: termsEn }
+export const PRIVACY: Record<Lang, LegalDoc> = { en: privacyEn, ar: privacyAr, ur: privacyEn }
 
-export const CONSENT_TEXT = {
+const CONSENT_BASE = {
   en: {
     title: `Welcome to ${APP}`,
     intro: 'Before you play, please read and accept our Terms.',
@@ -213,4 +213,9 @@ export const CONSENT_TEXT = {
     report: 'هل تظن أن الإجابة خاطئة؟ أخبر مقدّم اللعبة، وقراره نهائي.',
     reduceFx: 'تخفيف المؤثرات',
   },
+}
+/** Urdu readers see the consent words in English until a person has checked an Urdu version. */
+export const CONSENT_TEXT: Record<Lang, (typeof CONSENT_BASE)['en']> = {
+  ...CONSENT_BASE,
+  ur: { ...CONSENT_BASE.en, reduceFx: 'اثرات کم کریں', close: 'بند کریں', report: 'کسی جواب کو غلط سمجھتے ہیں؟ اپنے میزبان کو بتائیں۔ میزبان کا فیصلہ حتمی ہے۔' },
 }

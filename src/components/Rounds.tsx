@@ -12,6 +12,7 @@ import { CatIcon } from './Brand'
 import { sfx } from '../lib/sound'
 import { burstAt } from '../lib/fx'
 import { qLen } from '../lib/qlen'
+import { qOf, aOf, nameOf } from '../lib/lang'
 
 interface Props {
   t: Strings
@@ -62,8 +63,8 @@ export function Lightning({ t, lang, game, setGame, onDone, hasFinal }: Props) {
   }, [timeOut, setGame])
 
   const q = list[st.i]
-  const text = q ? (lang === 'ar' && q.qAr ? q.qAr : q.q) : ''
-  const ans = q ? (lang === 'ar' && q.aAr ? q.aAr : q.a) : ''
+  const text = q ? (qOf(q, lang)) : ''
+  const ans = q ? (aOf(q, lang)) : ''
 
   const next = useCallback(
     (g: Game): Game => {
@@ -177,7 +178,7 @@ export function Final({ t, lang, game, setGame, onDone }: Props) {
   const st = game.finalState ?? { step: 'cat' as const, marks: game.teams.map(() => null) }
   const set = (patch: Partial<typeof st>) => setGame((g) => ({ ...g, finalState: { ...(g.finalState ?? st), ...patch } }))
   if (!f) return null
-  const cat = lang === 'ar' && f.cat.nameAr ? f.cat.nameAr : f.cat.name
+  const cat = nameOf(f.cat, lang)
 
   const mark = (team: number, right: boolean) => {
     const prev = st.marks[team] ?? null
@@ -230,8 +231,8 @@ export function Final({ t, lang, game, setGame, onDone }: Props) {
               <span className="label">
                 <CatIcon id={f.cat.id} /> {cat}
               </span>
-              <p className="q" dir="auto" data-len={qLen(lang === 'ar' && f.q.qAr ? f.q.qAr : f.q.q)} data-testid="final-q">
-                {lang === 'ar' && f.q.qAr ? f.q.qAr : f.q.q}
+              <p className="q" dir="auto" data-len={qLen(qOf(f.q, lang))} data-testid="final-q">
+                {qOf(f.q, lang)}
               </p>
             </>
           )}
@@ -242,7 +243,7 @@ export function Final({ t, lang, game, setGame, onDone }: Props) {
               <TypedFinalAnswers t={t} game={game} showText={false} />
               {HOST_EDITION && (
                 <div className="answer peek" dir="auto" data-peek={t.hostOnly}>
-                  {lang === 'ar' && f.q.aAr ? f.q.aAr : f.q.a}
+                  {aOf(f.q, lang)}
                 </div>
               )}
               <button
@@ -260,7 +261,7 @@ export function Final({ t, lang, game, setGame, onDone }: Props) {
           {st.step === 'answer' && (
             <>
               <div className="answer show" dir="auto" data-testid="final-a">
-                {lang === 'ar' && f.q.aAr ? f.q.aAr : f.q.a}
+                {aOf(f.q, lang)}
               </div>
               <p className="muted">{t.finalMark}</p>
               <TypedFinalAnswers t={t} game={game} showText />

@@ -4,8 +4,9 @@ interface PackFile {
   id: string
   name: string
   nameAr?: string
+  nameUr?: string
   respect?: boolean
-  levels: { q: string; a: string; qAr?: string; aAr?: string; kind?: 'H' | 'D' | 'F'; src?: string; img?: string; credit?: string; sch?: string; qk?: string }[][]
+  levels: { q: string; a: string; qAr?: string; aAr?: string; qUr?: string; aUr?: string; kind?: 'H' | 'D' | 'F'; src?: string; img?: string; credit?: string; sch?: string; qk?: string }[][]
   modes?: Partial<Record<ItemMode, ModeItem[]>>
 }
 
@@ -20,6 +21,7 @@ export function packToCategory(p: PackFile): Category {
     id: p.id,
     name: p.name,
     nameAr: p.nameAr,
+    ...(p.nameUr ? { nameUr: p.nameUr } : {}),
     builtIn: true,
     ...(p.respect ? { respect: true } : {}),
     levels: p.levels.map((lvl, li) => lvl.map(({ qk, ...x }, qi): Question => ({ id: `${p.id}-${li}-${qk ?? qi}`, ...x }))),
@@ -57,6 +59,7 @@ export interface Night {
   id: string
   name: string
   nameAr?: string
+  nameUr?: string
   about: string
   aboutAr?: string
   cats: string[]

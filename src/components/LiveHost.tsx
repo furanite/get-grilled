@@ -9,6 +9,7 @@ import { type PublicView, publicView } from '../lib/views'
 import { useDialog } from './Legal'
 import { Mark } from './Brand'
 import type { ThemeId } from '../lib/types'
+import { dirOf } from '../lib/lang'
 
 /** Set once at start-up: whether a Get Grilled Live server is behind this page. */
 let liveServer = false
@@ -165,7 +166,7 @@ export function DevicesPanel({ t, lang, game, onClose }: { t: Strings; lang: Lan
   const sorted = [...seats].sort((a, b) => (a.kind === b.kind ? a.index - b.index : a.kind === 'team' ? -1 : 1))
   return (
     <div className="legal-backdrop" onClick={(e) => e.target === e.currentTarget && onClose()}>
-      <div className="legal-panel live-panel" role="dialog" aria-modal="true" aria-labelledby="devices-title" ref={ref} data-testid="devices" dir={lang === 'ar' ? 'rtl' : 'ltr'} lang={lang}>
+      <div className="legal-panel live-panel" role="dialog" aria-modal="true" aria-labelledby="devices-title" ref={ref} data-testid="devices" dir={dirOf(lang)} lang={lang}>
         <div className="legal-head">
           <h1 id="devices-title">{t.live.devicesTitle}</h1>
         </div>

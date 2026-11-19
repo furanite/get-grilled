@@ -4,7 +4,8 @@
  * preferring the same level. Answers of any question drawn for this game are never used, so the
  * phones can't give away the answers to tiles still on the board.
  */
-import type { Category, Game } from './types'
+import type { Category, Game, Lang } from './types'
+import { qOf } from './lang'
 import { loadPack } from './packs'
 import { loadCustom } from './store'
 
@@ -99,13 +100,14 @@ async function categoryPool(id: string): Promise<Category | null> {
 }
 
 /** The options for clue (c, l) of the game, with which one is right. */
-export async function clueChoices(g: Game, c: number, l: number, lang: 'en' | 'ar'): Promise<{ q: string; choices: string[]; correct: number } | null> {
+export async function clueChoices(g: Game, c: number, l: number, lang: Lang): Promise<{ q: string; choices: string[]; correct: number } | null> {
   const clue = g.clues[c]?.[l]
   if (!clue) return null
-  const ar = lang === 'ar' && !!clue.aAr
-  const right = ar ? clue.aAr! : clue.a
+  // Choices come from the same language as the clue's answer (Arabic or Urdu when the clue has it).
+  const key = lang === 'ar' && clue.aAr ? 'aAr' : lang === 'ur' && clue.aUr ? 'aUr' : 'a'
+  const right = clue[key] ?? clue.a
   const cat = await categoryPool(g.cats[c].id)
-  const pool = cat ? cat.levels.map((lv) => lv.map((q) => (ar ? q.aAr ?? '' : q.a))) : [[], [], [], [], []]
+  const pool = cat ? cat.levels.map((lv) => lv.map((q) => (key === 'a' ? q.a : q[key] ?? ''))) : [[], [], [], [], []]
   // A small category may not have enough: fall back to the other categories' pools.
   let made = makeChoices(right, pool, l, gameAnswers(g), clue.id)
   if (made.choices.length < 4) {
@@ -113,10 +115,10 @@ export async function clueChoices(g: Game, c: number, l: number, lang: 'en' | 'a
       if (other.id === g.cats[c].id || made.choices.length >= 4) continue
       const o = await categoryPool(other.id)
       if (!o) continue
-      const merged = pool.map((lv, i) => [...lv, ...o.levels[i].map((q) => (ar ? q.aAr ?? '' : q.a))])
+      const merged = pool.map((lv, i) => [...lv, ...o.levels[i].map((q) => (key === 'a' ? q.a : q[key] ?? ''))])
       made = makeChoices(right, merged, l, gameAnswers(g), clue.id)
     }
   }
   if (made.choices.length < 2) return null
-  return { q: ar && clue.qAr ? clue.qAr : clue.q, ...made }
+  return { q: qOf(clue, lang), ...made }
 }

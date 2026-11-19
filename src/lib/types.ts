@@ -8,6 +8,9 @@ export interface Question {
   a: string
   qAr?: string
   aAr?: string
+  /** Urdu (Munaafasatul Ilm) */
+  qUr?: string
+  aUr?: string
   /** Source tag: H = historical or sourced fact, D = dramatised, F = fictional. */
   kind?: 'H' | 'D' | 'F'
   src?: string
@@ -38,6 +41,7 @@ export interface Category {
   id: string
   name: string
   nameAr?: string
+  nameUr?: string
   builtIn: boolean
   /** Religious content: shown without spins or shakes, with its source after the answer. */
   respect?: boolean
@@ -87,6 +91,7 @@ export interface CategorySummary {
   id: string
   name: string
   nameAr?: string
+  nameUr?: string
   group?: PackGroup
   builtIn: boolean
   counts: number[]
@@ -173,7 +178,7 @@ export interface FinalState {
 }
 
 export interface Game {
-  cats: { id: string; name: string; nameAr?: string; respect?: boolean }[]
+  cats: { id: string; name: string; nameAr?: string; nameUr?: string; respect?: boolean }[]
   /** clues[category][level] */
   clues: Clue[][]
   teams: Team[]
@@ -191,7 +196,7 @@ export interface Game {
   lightning?: Question[]
   lightningState?: LightningState
   /** The final question and the category it comes from */
-  final?: { cat: { id: string; name: string; nameAr?: string }; q: Question }
+  final?: { cat: { id: string; name: string; nameAr?: string; nameUr?: string }; q: Question }
   finalState?: FinalState
   /** The special round's items and where it is */
   modeRound?: { mode: RoundMode; items: ModeItem[] }
@@ -205,7 +210,7 @@ export interface Game {
   /** A tournament: several rounds of different kinds, with scores carried from one to the next */
   tournament?: Tournament
   /** Sudden-death questions kept back for a tie at the top, each with its category */
-  tiebreak?: { cat: { id: string; name: string; nameAr?: string }; q: Question }[]
+  tiebreak?: { cat: { id: string; name: string; nameAr?: string; nameUr?: string }; q: Question }[]
   tieState?: TieState
   /** Every point won or lost, in order, for the game log and the judges' sheet */
   log?: LogEntry[]
@@ -255,7 +260,7 @@ export interface TourStep {
 /** One round of a tournament in play, with what it was drawn with when the game was made. */
 export interface TourRound extends TourStep {
   /** Board rounds: the categories and the clues */
-  cats?: { id: string; name: string; nameAr?: string }[]
+  cats?: { id: string; name: string; nameAr?: string; nameUr?: string }[]
   clues?: Clue[][]
   /** Special rounds: the items */
   items?: ModeItem[]
@@ -275,5 +280,5 @@ export type CultureTheme = 'mughal' | 'sahel' | 'swahili' | 'nusantara' | 'zelli
 export type IslamicOnlyTheme = 'rawdah' | 'jumuah' | 'mawlid' | PrayerTheme | CultureTheme
 export type BaseThemeId = Exclude<ThemeId, IslamicOnlyTheme>
 export type ThemeId = 'amethyst' | 'emerald' | 'neon' | 'onyx' | 'rivals' | 'ember' | 'heritage' | IslamicOnlyTheme
-export type Lang = 'en' | 'ar'
+export type Lang = 'en' | 'ar' | 'ur'
 export type Screen = 'home' | 'setup' | 'intro' | 'game' | 'mode' | 'lightning' | 'final' | 'results' | 'builder' | 'round' | 'review' | 'study' | 'tiebreak' | 'practice' | 'bracket' | 'lobby'

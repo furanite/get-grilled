@@ -7,6 +7,7 @@ import { num } from '../lib/i18n'
 import { standings } from '../lib/game'
 import { useDialog } from './Legal'
 import { APP_NAME } from '../lib/edition'
+import { dirOf, qOf, aOf, nameOf, localeOf } from '../lib/lang'
 
 /** What happened for one team over the game, worked out from the log. */
 export interface TeamStats {
@@ -53,7 +54,7 @@ export function teamStats(game: Game): TeamStats[] {
   return out
 }
 
-const clock = (at: number, lang: Lang) => new Date(at).toLocaleTimeString(lang === 'ar' ? 'ar-SA-u-nu-latn' : 'en-GB', { hour: '2-digit', minute: '2-digit' })
+const clock = (at: number, lang: Lang) => new Date(at).toLocaleTimeString(localeOf(lang), { hour: '2-digit', minute: '2-digit' })
 
 /** One log line in words: "Right", "Wrong", "Steal from", and so on. */
 export function kindText(t: Strings, e: LogEntry): string {
@@ -228,7 +229,7 @@ export function LogSheet({ t, lang, game, onClose }: { t: Strings; lang: Lang; g
   const [printing, print] = usePrintJob()
   return (
     <div className="legal-backdrop" onClick={(e) => e.target === e.currentTarget && onClose()}>
-      <div className="legal-panel log-panel" role="dialog" aria-modal="true" aria-labelledby="log-title" ref={ref} data-testid="log" dir={lang === 'ar' ? 'rtl' : 'ltr'} lang={lang}>
+      <div className="legal-panel log-panel" role="dialog" aria-modal="true" aria-labelledby="log-title" ref={ref} data-testid="log" dir={dirOf(lang)} lang={lang}>
         <div className="legal-head">
           <h1 id="log-title">{t.log.title}</h1>
         </div>
@@ -250,12 +251,12 @@ export function LogSheet({ t, lang, game, onClose }: { t: Strings; lang: Lang; g
         </div>
       </div>
       {printing && <PrintArea>
-        <div className="print-sheet" dir={lang === 'ar' ? 'rtl' : 'ltr'}>
+        <div className="print-sheet" dir={dirOf(lang)}>
           <h1>
             {t.log.title}: {title}
           </h1>
           <p>
-            {new Date(game.startedAt).toLocaleString(lang === 'ar' ? 'ar-SA-u-nu-latn' : 'en-GB')}
+            {new Date(game.startedAt).toLocaleString(localeOf(lang))}
           </p>
           <StatsGrid t={t} lang={lang} game={game} />
           <LogTable t={t} lang={lang} game={game} />
@@ -270,17 +271,17 @@ export function LogSheet({ t, lang, game, onClose }: { t: Strings; lang: Lang; g
 
 /** Every question the game drew, with its answer, on paper: a backup in case the laptop fails, and a sheet for the judges. */
 export function BackupSheet({ t, lang, game }: { t: Strings; lang: Lang; game: Game }) {
-  const qa = (q: Question) => [lang === 'ar' && q.qAr ? q.qAr : q.q, lang === 'ar' && q.aAr ? q.aAr : q.a]
+  const qa = (q: Question) => [qOf(q, lang), aOf(q, lang)]
   const boards = game.tournament
     ? game.tournament.rounds.flatMap((r, k) => (r.cats && r.clues ? [{ title: `${t.roundWord} ${k + 1}`, cats: r.cats, clues: r.clues }] : []))
     : [{ title: '', cats: game.cats, clues: game.clues }]
   const modeItems = game.tournament ? game.tournament.rounds.flatMap((r) => r.items ?? []) : (game.modeRound?.items ?? [])
   return (
     <PrintArea>
-      <div className="print-sheet backup" dir={lang === 'ar' ? 'rtl' : 'ltr'}>
+      <div className="print-sheet backup" dir={dirOf(lang)}>
         <h1>{t.sheet.title}</h1>
         <p>
-          {game.teams.map((tm) => tm.name).join(' · ')} · {new Date(game.startedAt).toLocaleDateString(lang === 'ar' ? 'ar-SA-u-nu-latn' : 'en-GB')}
+          {game.teams.map((tm) => tm.name).join(' · ')} · {new Date(game.startedAt).toLocaleDateString(localeOf(lang))}
         </p>
         <p className="print-note">{t.sheet.note}</p>
         {boards.map((b, bi) => (
@@ -288,7 +289,7 @@ export function BackupSheet({ t, lang, game }: { t: Strings; lang: Lang; game: G
             {b.title && <h2>{b.title}</h2>}
             {b.cats.map((c, ci) => (
               <div className="sheet-cat" key={ci}>
-                <h3>{lang === 'ar' && c.nameAr ? c.nameAr : c.name}</h3>
+                <h3>{nameOf(c, lang)}</h3>
                 <ol>
                   {b.clues[ci].map((cl, l) => {
                     const [q, a] = qa(cl)

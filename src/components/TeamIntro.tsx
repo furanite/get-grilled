@@ -313,7 +313,7 @@ export default function TeamIntro({ game, theme, t, lang, host, full, onNext, on
                   {t.intro.skip}
                 </button>
                 <button className="ti-hostbtn ti-go" onClick={onNext} data-testid="teams-next">
-                  {intro.i < n - 1 ? t.intro.next : t.intro.showAll} {lang === 'ar' ? '◂' : '▸'}
+                  {intro.i < n - 1 ? t.intro.next : t.intro.showAll} {lang !== 'en' ? '◂' : '▸'}
                 </button>
               </span>
             </div>

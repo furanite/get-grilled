@@ -1219,3 +1219,8 @@ body{overflow-wrap:break-word}
 .phone-choice.right{border-color:#3ddc84;box-shadow:0 0 0 2px #3ddc84 inset;opacity:1}
 .phone-choice.wrong{border-color:#ff5a5a;box-shadow:0 0 0 2px #ff5a5a inset}
 .phone-n{font-variant-numeric:tabular-nums;color:var(--muted);font-size:14px}
+/* Urdu (Munaafasatul Ilm): Nastaliq letters are tall, so lines get more room. */
+html[lang="ur"] body{line-height:1.9}
+html[lang="ur"] .q{line-height:2.1}
+html[lang="ur"][data-set="islamic"] .q,html[lang="ur"][data-set="islamic"] .answer{font-family:var(--fd)}
+html[lang="ur"] .label,html[lang="ur"] .cat{letter-spacing:0;text-transform:none}

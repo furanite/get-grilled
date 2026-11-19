@@ -2,6 +2,7 @@ import { useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
 import type { Lang } from '../lib/types'
 import { useDialog } from './Legal'
+import { dirOf } from '../lib/lang'
 
 /**
  * "Host version" button for the one-screen edition. Every click explains how the two versions differ,
@@ -12,7 +13,7 @@ import { useDialog } from './Legal'
  */
 export const HOST_URL: string = import.meta.env.VITE_HOST_URL || './host/'
 
-const TEXT = {
+const TEXT_BASE = {
   en: {
     button: 'Host version',
     title: 'One screen or two?',
@@ -56,6 +57,7 @@ const TEXT = {
     stay: 'ابقَ هنا',
   },
 } as const
+const TEXT = { ...TEXT_BASE, ur: { ...TEXT_BASE.en, button: 'میزبان ورژن' } }
 
 export function HostLink({ lang, href = HOST_URL }: { lang: Lang; href?: string }) {
   const [open, setOpen] = useState(false)
@@ -76,7 +78,7 @@ function HostInfo({ lang, href, onClose }: { lang: Lang; href: string; onClose: 
   const x = TEXT[lang]
   return (
     <div className="legal-backdrop" onClick={(e) => e.target === e.currentTarget && onClose()}>
-      <div className="legal-panel host-info" role="dialog" aria-modal="true" aria-labelledby="host-info-title" ref={ref} data-testid="host-info" dir={lang === 'ar' ? 'rtl' : 'ltr'} lang={lang}>
+      <div className="legal-panel host-info" role="dialog" aria-modal="true" aria-labelledby="host-info-title" ref={ref} data-testid="host-info" dir={dirOf(lang)} lang={lang}>
         <div className="legal-head">
           <h1 id="host-info-title">{x.title}</h1>
         </div>

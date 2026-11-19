@@ -8,6 +8,7 @@ import { type Flag, type ViewPrefs, loadFlags, saveFlags } from '../lib/store'
 import { voiceAvailable } from '../lib/voice'
 import { useDialog } from './Legal'
 import { downloadText } from './Sheets'
+import { dirOf } from '../lib/lang'
 
 /** The app's version, stamped at build time from package.json. */
 export const APP_VERSION: string = typeof __APP_VERSION__ === 'string' ? __APP_VERSION__ : 'dev'
@@ -17,7 +18,7 @@ function Panel({ id, title, lang, onClose, children, actions, testid }: { id: st
   useDialog(ref, onClose)
   return (
     <div className="legal-backdrop" onClick={(e) => e.target === e.currentTarget && onClose()}>
-      <div className="legal-panel extras-panel" role="dialog" aria-modal="true" aria-labelledby={id} ref={ref} data-testid={testid} dir={lang === 'ar' ? 'rtl' : 'ltr'} lang={lang}>
+      <div className="legal-panel extras-panel" role="dialog" aria-modal="true" aria-labelledby={id} ref={ref} data-testid={testid} dir={dirOf(lang)} lang={lang}>
         <div className="legal-head">
           <h1 id={id}>{title}</h1>
         </div>

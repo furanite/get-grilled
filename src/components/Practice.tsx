@@ -7,6 +7,7 @@ import { applyPool } from '../lib/game'
 import { loadPack } from '../lib/packs'
 import { diagramSrc } from '../lib/diagram'
 import { speakClue, stopSpeaking } from '../lib/voice'
+import { qOf, aOf, nameOf } from '../lib/lang'
 
 interface Props {
   t: Strings
@@ -52,7 +53,7 @@ export default function Practice({ t, lang, index, custom, pools, onBack }: Prop
     const built = (index ?? []).map((c) => ({ id: c.id, name: c.name, nameAr: c.nameAr }))
     return [...mine, ...built.sort((a, b) => a.name.localeCompare(b.name))]
   }, [index, custom])
-  const label = (c: { name: string; nameAr?: string }) => (lang === 'ar' && c.nameAr ? c.nameAr : c.name)
+  const label = (c: { name: string; nameAr?: string }) => (nameOf(c, lang))
   const shownCats = find.trim() ? all.filter((c) => (c.name + ' ' + (c.nameAr ?? '')).toLowerCase().includes(find.trim().toLowerCase())) : all
 
   const start = async (from?: Card[]) => {
@@ -83,7 +84,7 @@ export default function Practice({ t, lang, index, custom, pools, onBack }: Prop
   }
 
   const card = deck?.[i]
-  const qText = card ? (lang === 'ar' && card.q.qAr ? card.q.qAr : card.q.q) : ''
+  const qText = card ? (qOf(card.q, lang)) : ''
   useEffect(() => {
     if (!qText) return
     speakClue(qText, lang)
@@ -137,9 +138,9 @@ export default function Practice({ t, lang, index, custom, pools, onBack }: Prop
               <ol className="practice-review">
                 {missed.map((c, k) => (
                   <li key={k}>
-                    <span dir="auto">{lang === 'ar' && c.q.qAr ? c.q.qAr : c.q.q}</span>
+                    <span dir="auto">{qOf(c.q, lang)}</span>
                     <br />
-                    <i dir="auto">→ {lang === 'ar' && c.q.aAr ? c.q.aAr : c.q.a}</i>
+                    <i dir="auto">→ {aOf(c.q, lang)}</i>
                   </li>
                 ))}
               </ol>
@@ -161,7 +162,7 @@ export default function Practice({ t, lang, index, custom, pools, onBack }: Prop
   }
 
   if (deck && card) {
-    const a = lang === 'ar' && card.q.aAr ? card.q.aAr : card.q.a
+    const a = aOf(card.q, lang)
     return (
       <main className="stack practice" data-testid="practice">
         {head}

@@ -7,6 +7,7 @@ import { type Place, type Press, MAX_BUTTONS, answering, buzzOrder } from '../li
 import { getBox, serialSupported, setBuzzSettings, useBoxEvents, useBoxState, useBuzzSettings } from '../lib/buzzer'
 import { sfx } from '../lib/sound'
 import { useDialog } from './Legal'
+import { dirOf } from '../lib/lang'
 
 /** What the clue card and the big screen show about the buzzers. */
 export interface BuzzView {
@@ -188,7 +189,7 @@ export function BuzzPanel({ t, lang, teams, onClose }: { t: Strings; lang: Lang;
 
   return (
     <div className="legal-backdrop" onClick={(e) => e.target === e.currentTarget && onClose()}>
-      <div className="legal-panel buzz-panel" role="dialog" aria-modal="true" aria-labelledby="buzz-title" ref={ref} data-testid="buzz-panel" dir={lang === 'ar' ? 'rtl' : 'ltr'} lang={lang}>
+      <div className="legal-panel buzz-panel" role="dialog" aria-modal="true" aria-labelledby="buzz-title" ref={ref} data-testid="buzz-panel" dir={dirOf(lang)} lang={lang}>
         <div className="legal-head">
           <h1 id="buzz-title">{t.buzz.title}</h1>
         </div>

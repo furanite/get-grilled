@@ -9,6 +9,7 @@ import { uid } from '../lib/store'
 import { burstAt } from '../lib/fx'
 import { diagramSrc, fileToDiagram } from '../lib/diagram'
 import { mergeOpened, parseQuestionFile } from '../lib/studyset'
+import { nameOf } from '../lib/lang'
 
 interface Props {
   t: Strings
@@ -116,7 +117,7 @@ export default function Builder({ t, lang, index, custom, setCustom, pools, setP
     const inPlay = sum(poolCounts(counts, edit))
     return (
       <button key={c.id} className="cat-item" aria-current={selected === c.id} onClick={() => setSelected(c.id)} data-cat-item={c.id}>
-        <b>{lang === 'ar' && c.nameAr ? c.nameAr : c.name}</b>
+        <b>{nameOf(c, lang)}</b>
         <small>{edit ? `${num(inPlay, lang)} ${t.inPlay}` : qCount(sum(counts), lang)}</small>
       </button>
     )
@@ -148,7 +149,7 @@ export default function Builder({ t, lang, index, custom, setCustom, pools, setP
       <div className="builder-top">
         <button className="btn alt back-btn" onClick={onBack} data-testid="builder-back">
           <span aria-hidden="true" className="back-arrow">
-            {lang === 'ar' ? '→' : '←'}
+            {lang !== 'en' ? '→' : '←'}
           </span>{' '}
           {t.back}
         </button>
@@ -354,7 +355,7 @@ function Editor({ t, lang, cat, index, pool, onPool, onChange, onDuplicate, onEx
     <div className="stack">
       <div className="row" style={{ justifyContent: 'space-between' }}>
         {builtIn ? (
-          <h2>{lang === 'ar' && cat.nameAr ? cat.nameAr : cat.name}</h2>
+          <h2>{nameOf(cat, lang)}</h2>
         ) : (
           <div className="stack" style={{ gap: 8, flex: 1, minWidth: 0 }}>
             <input className="input" id="cat-name" value={cat.name} maxLength={40} aria-label={t.catName} onChange={(e) => onChange({ ...cat, name: e.target.value })} style={{ fontFamily: 'var(--fd)', fontSize: 22 }} />
@@ -622,7 +623,7 @@ function Borrow({ t, lang, index, target, level, setLevel, existing, onAdd }: Bo
               <option value="">{t.borrowPick}</option>
               {sources.map((c) => (
                 <option key={c.id} value={c.id}>
-                  {lang === 'ar' && c.nameAr ? c.nameAr : c.name}
+                  {nameOf(c, lang)}
                 </option>
               ))}
             </select>

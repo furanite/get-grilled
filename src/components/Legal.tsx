@@ -2,6 +2,8 @@ import { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import type { Lang } from '../lib/types'
 import { CONSENT_TEXT, LEGAL, PRIVACY, TERMS, type LegalDoc } from '../lib/legal'
 import { saveConsent } from '../lib/store'
+import { dirOf } from '../lib/lang'
+import { LangSwitch } from './LangSwitch'
 
 type View = 'summary' | 'terms' | 'privacy'
 
@@ -98,12 +100,12 @@ export function ConsentDialog({ lang, setLang, reduceFx, setReduceFx, onAccept }
 
   return (
     <div className="legal-backdrop">
-      <div className="legal-panel" role="dialog" aria-modal="true" aria-labelledby="consent-title" ref={ref} data-testid="consent" dir={lang === 'ar' ? 'rtl' : 'ltr'} lang={lang}>
+      <div className="legal-panel" role="dialog" aria-modal="true" aria-labelledby="consent-title" ref={ref} data-testid="consent" dir={dirOf(lang)} lang={lang}>
         <div className="legal-head">
           <h1 id="consent-title">{view === 'summary' ? c.title : view === 'terms' ? TERMS[lang].title : PRIVACY[lang].title}</h1>
-          <button className="ghost" onClick={() => setLang(lang === 'en' ? 'ar' : 'en')} lang={lang === 'en' ? 'ar' : 'en'} data-testid="consent-lang">
-            {lang === 'en' ? 'العربية' : 'English'}
-          </button>
+          <span className="lang-switch">
+            <LangSwitch lang={lang} setLang={setLang} testid="consent-lang" />
+          </span>
         </div>
         <div className="legal-body">
           {view === 'summary' ? (
@@ -193,7 +195,7 @@ export function LegalViewer({ which, lang, onClose }: { which: 'terms' | 'privac
   const doc = which === 'terms' ? TERMS[lang] : PRIVACY[lang]
   return (
     <div className="legal-backdrop" onClick={(e) => e.target === e.currentTarget && onClose()}>
-      <div className="legal-panel" role="dialog" aria-modal="true" aria-label={doc.title} ref={ref} data-testid="legal-viewer" dir={lang === 'ar' ? 'rtl' : 'ltr'} lang={lang}>
+      <div className="legal-panel" role="dialog" aria-modal="true" aria-label={doc.title} ref={ref} data-testid="legal-viewer" dir={dirOf(lang)} lang={lang}>
         <div className="legal-body">
           <DocView doc={doc} lang={lang} />
         </div>
