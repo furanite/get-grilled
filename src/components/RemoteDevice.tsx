@@ -38,11 +38,13 @@ export default function RemoteDevice({ fallbackLang }: { fallbackLang: Lang }) {
     const html = document.documentElement
     html.dataset.theme = theme
     html.dataset.reduceFx = view?.reduceFx ? 'on' : 'off'
+    html.dataset.big = view?.display?.big ? 'on' : 'off'
+    html.dataset.cb = view?.display?.cb ? 'on' : 'off'
     html.lang = lang
     html.dir = lang === 'ar' ? 'rtl' : 'ltr'
     document.body.classList.add('audience-body')
     setFavicon(document, theme)
-  }, [theme, lang, view?.reduceFx])
+  }, [theme, lang, view?.reduceFx, view?.display?.big, view?.display?.cb])
 
   const message = (text: string, sub?: string, testid = 'device-msg') => (
     <main className="live-gate" data-testid={testid}>
@@ -91,7 +93,7 @@ export default function RemoteDevice({ fallbackLang }: { fallbackLang: Lang }) {
         </header>
       )}
       {team === null && feed.status === 'lost' && <span className="pill bad remote-lost">{t.live.lost}</span>}
-      <AudienceView t={t} lang={lang} theme={theme} screen={view.screen} game={game} live={view.live} vote={view.vote} win={window} noHelp={team !== null} />
+      <AudienceView t={t} lang={lang} theme={theme} screen={view.screen} game={game} live={view.live} vote={view.vote} win={window} noHelp={team !== null} lobby={view.lobby} bracket={view.bracket} />
       {finalQ && <FinalAnswerBox t={t} key={game!.finalState?.startedAt ?? 0} />}
       {seat.kind === 'screen' && view.audience?.showJoin && (
         <div className="join-overlay">
