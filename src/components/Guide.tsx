@@ -168,6 +168,16 @@ export function RulesDialog({ onClose, onTips }: { onClose: () => void; onTips: 
       }
     >
       <Sections list={RULES} />
+      <section>
+        <h2>Buzzers</h2>
+        <p>
+          Using a buzzer box or the Raspberry Pi?{' '}
+          <a href="buzzer-guide.html" target="_blank" rel="noopener" data-testid="rules-buzzer-guide">
+            Open the setup guide with pictures
+          </a>{' '}
+          (it prints too).
+        </p>
+      </section>
     </GuideDialog>
   )
 }

@@ -722,6 +722,13 @@ body{overflow-wrap:break-word}
 .buzz-map li.hit{border-color:var(--accent);box-shadow:0 0 18px -6px var(--glow)}
 .buzz-hit{font-size:12px;color:var(--accent);text-align:end}
 .buzz-tie-set{display:flex;align-items:center;gap:10px;margin-top:10px}
+.buzz-howto{margin:4px 0 12px;padding:10px 14px;border:1px solid color-mix(in oklab,var(--edge) 60%,transparent);border-radius:10px}
+.buzz-howto summary{cursor:pointer;font-weight:600}
+.buzz-howto ol{margin:10px 0 6px;padding-inline-start:22px;display:grid;gap:10px}
+.buzz-howto li{font-size:14px;line-height:1.5}
+.buzz-howto li img{display:block;width:100%;max-width:520px;height:auto;margin-top:6px;border-radius:8px;background:#fff}
+.buzz-howto p{margin:4px 0 0}
+.buzz-howto a{color:var(--accent)}
 .buzz-tie-set input{width:90px}
 .muted.small{font-size:13px;margin:4px 0 0}
 .buzz-bar{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:10px 0 4px}

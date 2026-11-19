@@ -158,6 +158,35 @@ export function BuzzButton({ t, lang, teams }: { t: Strings; lang: Lang; teams: 
   )
 }
 
+/** Illustrated set-up steps inside the Buzzers panel, with a link to the full printable guide. Open until the box is connected. */
+function BuzzHowTo({ t, connected, needsFlag }: { t: Strings; connected: boolean; needsFlag: boolean }) {
+  const steps: [string, string | null][] = [
+    [t.buzz.how1, 'panel-laptop'],
+    ...(needsFlag ? ([[t.buzz.howFlag, 'panel-flag']] as [string, string][]) : []),
+    [t.buzz.how2, null],
+    [t.buzz.how3, null],
+    [t.buzz.how4, 'panel-players'],
+  ]
+  return (
+    <details className="buzz-howto" open={!connected} data-testid="buzz-howto">
+      <summary>{t.buzz.howTitle}</summary>
+      <ol>
+        {steps.map(([text, pic]) => (
+          <li key={text}>
+            <span>{text}</span>
+            {pic && <img src={`buzzer-guide/${pic}.webp`} alt="" loading="lazy" />}
+          </li>
+        ))}
+      </ol>
+      <p className="small">
+        <a href="buzzer-guide.html" target="_blank" rel="noopener" data-testid="buzz-guide">
+          {t.buzz.guideFull}
+        </a>
+      </p>
+    </details>
+  )
+}
+
 /** Connect the box, test each team's button, and set which button belongs to which team. */
 export function BuzzPanel({ t, lang, teams, onClose }: { t: Strings; lang: Lang; teams: Team[]; onClose: () => void }) {
   const ref = useRef<HTMLDivElement>(null)
@@ -209,6 +238,7 @@ export function BuzzPanel({ t, lang, teams, onClose }: { t: Strings; lang: Lang;
               </button>
             ))}
           </div>
+          <BuzzHowTo t={t} connected={box.status === 'connected' || box.sim} needsFlag={!serialSupported() && !box.sim && insecureChrome()} />
           {box.status === 'connected' && <p className="muted">{t.buzz.test}</p>}
           <ul className="buzz-map">
             {names.slice(0, count).map((name, team) => {

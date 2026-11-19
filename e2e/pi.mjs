@@ -114,6 +114,7 @@ try {
     await startGame(host)
     await host.getByTestId('devices-open').click()
     await host.waitForSelector('[data-testid="seat-team-2"]')
+    assert((await host.getByTestId('devices-guide').getAttribute('href')) === 'buzzer-guide.html#pi', 'Devices links to the setup guide')
     assert((await host.locator('[data-testid^="seat-team-"]').count()) === 3, 'three team seats')
     assert((await host.getByTestId('seat-team-0').getAttribute('data-state')) === 'waiting', 'not joined yet')
     await host.getByTestId('seat-team-0').getByTestId('seat-qr').click()
