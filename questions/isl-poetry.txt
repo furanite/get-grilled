@@ -1,6 +1,7 @@
 id: isl-poetry
 name: Arabic poetry
 nameAr: الشعر العربي
+nameUr: عربی شاعری
 group: arabic
 
 ## 100

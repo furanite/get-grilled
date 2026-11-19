@@ -1,6 +1,7 @@
 id: isl-iman
 name: Pillars of faith
 nameAr: أركان الإيمان
+nameUr: ایمان کے ارکان
 group: aqidah
 # Creed follows the Ash'ari and Maturidi schools of Ahl al-Sunnah wal-Jama'ah, keeping to points they share.
 

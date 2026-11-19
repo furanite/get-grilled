@@ -1,6 +1,7 @@
 id: isl-akhlaq
 name: Akhlaq and Adab
 nameAr: الأخلاق والآداب
+nameUr: اخلاق و آداب
 group: tazkiyah
 
 ## 100

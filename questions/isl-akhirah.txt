@@ -1,6 +1,7 @@
 id: isl-akhirah
 name: The unseen and the Hereafter
 nameAr: الغيب والآخرة
+nameUr: غیب اور آخرت
 group: aqidah
 
 ## 100

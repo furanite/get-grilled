@@ -1,6 +1,7 @@
 id: isl-nahw
 name: Nahw (grammar)
 nameAr: النحو
+nameUr: نحو (عربی گرامر)
 group: arabic
 
 ## 100

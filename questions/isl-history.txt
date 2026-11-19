@@ -1,6 +1,7 @@
 id: isl-history
 name: Islamic history
 nameAr: التاريخ الإسلامي
+nameUr: اسلامی تاریخ
 group: islamichistory
 
 ## 100

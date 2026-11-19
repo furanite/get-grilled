@@ -1,6 +1,7 @@
 id: isl-kinship
 name: Fiqh: Kinship and family
 nameAr: الفقه: صلة الرحم والأسرة
+nameUr: فقہ: صلہ رحمی اور خاندان
 group: fiqh
 # Fiqh files keep to points the four Sunni schools agree on. Where they differ, the clue names the school.
 

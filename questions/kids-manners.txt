@@ -1,6 +1,7 @@
 id: kids-manners
 name: Good Manners (Adab)
 nameAr: الآداب
+nameUr: اچھے آداب
 group: kids
 # For children. Hadith are paraphrased and labelled, never quoted word for word.
 

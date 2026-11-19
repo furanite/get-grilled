@@ -1,6 +1,7 @@
 id: kids-quran
 name: My Qur'an
 nameAr: قرآني
+nameUr: میرا قرآن
 group: kids
 # For children. Short surahs and simple facts. Meanings are paraphrased, never quoted as the Qur'an's words.
 

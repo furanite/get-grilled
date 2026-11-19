@@ -1,6 +1,7 @@
 id: kids-calendar
 name: Months, Eids and Special Days
 nameAr: الشهور والأعياد
+nameUr: مہینے، عیدیں اور خاص دن
 group: kids
 # For children. Hijri dates first, then CE.
 

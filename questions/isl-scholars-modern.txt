@@ -1,6 +1,7 @@
 id: isl-scholars-modern
 name: Contemporary scholars
 nameAr: علماء معاصرون
+nameUr: معاصر علماء
 group: islamichistory
 # Sunni scholars of the last century and today. Those who have passed away carry رحمة الله عليه (رحمة الله عليها for a woman); living scholars carry حفظه الله.
 # No Wahhabi, Deobandi, Muslim Brotherhood or sectarian figures. Dates: hijri first, then CE.

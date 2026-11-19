@@ -1,6 +1,7 @@
 id: isl-scholars
 name: Scholars of Islam
 nameAr: علماء الإسلام
+nameUr: علمائے اسلام
 group: islamichistory
 # Every Sunni scholar's name carries رحمة الله عليه (رحمة الله عليها for a woman). Dates: hijri first, then CE.
 

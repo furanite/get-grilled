@@ -1,6 +1,7 @@
 id: isl-quran
 name: The Qur'an
 nameAr: القرآن الكريم
+nameUr: قرآنِ کریم
 group: quran
 # Style rules for every Islamic and kids file are in questions/ISLAMIC-STYLE.md.
 

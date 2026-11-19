@@ -1,6 +1,7 @@
 id: isl-tasawwuf
 name: Tasawwuf and Ihsan
 nameAr: التصوف والإحسان
+nameUr: تصوف اور احسان
 group: tazkiyah
 
 ## 100

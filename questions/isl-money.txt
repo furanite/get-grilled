@@ -1,6 +1,7 @@
 id: isl-money
 name: Fiqh: Money and trade
 nameAr: الفقه: المال والمعاملات
+nameUr: فقہ: مال اور معاملات
 group: fiqh
 # Fiqh files keep to points the four Sunni schools agree on. Where they differ, the clue names the school.
 

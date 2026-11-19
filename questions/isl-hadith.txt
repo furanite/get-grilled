@@ -1,6 +1,7 @@
 id: isl-hadith
 name: Hadith books and narrators
 nameAr: كتب الحديث ورواته
+nameUr: حدیث کی کتابیں اور راوی
 group: hadith
 
 ## 100

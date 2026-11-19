@@ -1,6 +1,7 @@
 id: isl-balagha
 name: Balagha (rhetoric)
 nameAr: البلاغة
+nameUr: بلاغت
 group: arabic
 
 ## 100

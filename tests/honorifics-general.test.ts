@@ -65,7 +65,8 @@ describe('honorifics for blessed religious figures', () => {
   })
   it('Umar ibn Abd al-Aziz carries ﵀', () => {
     for (const { at, text } of en) if (text.includes('Umar ibn Abd al-Aziz')) expect(text, at).toContain('Umar ibn Abd al-Aziz ﵀')
-    for (const { at, text } of ar) if (text.includes('عمر بن عبد العزيز')) expect(text, at).toContain('عمر بن عبد العزيز ﵀')
+    // Munaafasatul Ilm writes رحمة الله عليه out in full (the owner's rule for that site); Get Grilled uses the sign.
+    for (const { at, text } of ar) if (text.includes('عمر بن عبد العزيز')) expect(text, at).toMatch(/^ar\/(isl|kids)-/.test(at) ? /عمر بن عبد العزيز رحمة الله عليه/ : /عمر بن عبد العزيز ﵀/)
   })
   it('no honorific is written out in words (the signs are used instead)', () => {
     for (const { at, text } of [...enAll, ...ar, ...ur]) expect(/may Allah (be pleased|have mercy)|peace be upon (him|them)\b(?! you)|رضي الله عن|رضوان الله|رحمه(م)? الله|عليه(م)? السلام|صلى الله عليه/.test(text), at).toBe(false)

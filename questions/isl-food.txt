@@ -1,6 +1,7 @@
 id: isl-food
 name: Fiqh: Food and Drink
 nameAr: الفقه: الأطعمة والأشربة
+nameUr: فقہ: کھانے اور مشروبات
 group: fiqh
 # Fiqh files keep to points the four Sunni schools agree on. Where they differ, the clue names the school.
 

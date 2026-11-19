@@ -1,6 +1,7 @@
 id: isl-salah
 name: Fiqh: Prayer (Salah)
 nameAr: الفقه: الصلاة
+nameUr: فقہ: نماز
 group: fiqh
 # Fiqh files keep to points the four Sunni schools agree on. Where they differ, the clue names the school.
 

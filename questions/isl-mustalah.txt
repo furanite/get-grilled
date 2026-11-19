@@ -1,6 +1,7 @@
 id: isl-mustalah
 name: Mustalah al-Hadith
 nameAr: مصطلح الحديث
+nameUr: مصطلح الحدیث
 group: hadith
 
 ## 100

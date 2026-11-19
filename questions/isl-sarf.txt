@@ -1,6 +1,7 @@
 id: isl-sarf
 name: Sarf (morphology)
 nameAr: الصرف
+nameUr: علمِ صرف
 group: arabic
 
 ## 100

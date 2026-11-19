@@ -1,6 +1,7 @@
 id: isl-school-maliki
 name: The Maliki School
 nameAr: المذهب المالكي
+nameUr: مالکی مذہب
 group: fiqh
 # The Maliki madhhab: its imams, books, terms and well-known rulings. Every ruling here is the school's relied-upon (mashhur) view.
 # Every Sunni scholar's name carries رحمة الله عليه. Dates: hijri first, then CE.

@@ -1,6 +1,7 @@
 id: isl-tafsir
 name: Tafsir and Ulum al-Qur'an
 nameAr: التفسير وعلوم القرآن
+nameUr: تفسیر اور علوم القرآن
 group: quran
 
 ## 100

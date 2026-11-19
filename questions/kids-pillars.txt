@@ -1,6 +1,7 @@
 id: kids-pillars
 name: My Deen: Islam and Iman
 nameAr: ديني: الإسلام والإيمان
+nameUr: میرا دین: اسلام اور ایمان
 group: kids
 
 ## 100

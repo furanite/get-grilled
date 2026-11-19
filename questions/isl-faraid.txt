@@ -1,6 +1,7 @@
 id: isl-faraid
 name: Fiqh: Inheritance (Fara'id)
 nameAr: الفقه: الفرائض والمواريث
+nameUr: فقہ: وراثت (فرائض)
 group: fiqh
 # Fiqh files keep to points the four Sunni schools agree on. Where they differ, the clue names the school.
 

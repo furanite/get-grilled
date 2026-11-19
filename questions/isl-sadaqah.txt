@@ -1,6 +1,7 @@
 id: isl-sadaqah
 name: Fiqh: Sadaqah (charity)
 nameAr: الفقه: الصدقة
+nameUr: فقہ: صدقہ
 group: fiqh
 # Fiqh files keep to points the four Sunni schools agree on. Where they differ, the clue names the school.
 

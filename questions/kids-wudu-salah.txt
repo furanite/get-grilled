@@ -1,6 +1,7 @@
 id: kids-wudu-salah
 name: Wudu and Salah
 nameAr: الوضوء والصلاة
+nameUr: وضو اور نماز
 group: kids
 # For children. Simple points all four schools agree on, unless a school is named.
 

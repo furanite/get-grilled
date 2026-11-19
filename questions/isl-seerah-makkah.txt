@@ -1,6 +1,7 @@
 id: isl-seerah-makkah
 name: Blessed Seerah: the Makkan years
 nameAr: السيرة: العهد المكي
+nameUr: سیرتِ مبارکہ: مکی دور
 group: prophets
 # Dates: hijri first (BH = before the Hijrah), then CE. The Prophet ﷺ and His ﷺ Companions are never drawn or voiced.
 

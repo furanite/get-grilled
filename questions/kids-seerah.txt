@@ -1,6 +1,7 @@
 id: kids-seerah
 name: Our Beloved Prophet ﷺ
 nameAr: نبينا ﷺ
+nameUr: ہمارے پیارے نبی ﷺ
 group: kids
 # For children. The Prophet ﷺ and the Companions are never drawn or voiced. Dates are hijri first, then CE.
 

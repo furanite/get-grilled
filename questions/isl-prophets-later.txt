@@ -1,6 +1,7 @@
 id: isl-prophets-later
 name: Blessed Prophets ﵈: Ya'qub to 'Isa ﵉
 nameAr: الأنبياء ﵈: من يعقوب إلى عيسى ﵉
+nameUr: انبیاءِ کرام ﵈: سیدنا یعقوب ﵇ سے سیدنا عیسیٰ ﵇ تک
 group: prophets
 # Every Prophet's name carries ﵇. No Prophet is ever drawn or voiced.
 

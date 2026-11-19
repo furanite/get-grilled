@@ -1,6 +1,7 @@
 id: isl-usul
 name: Usul al-Fiqh
 nameAr: أصول الفقه
+nameUr: اصولِ فقہ
 group: fiqh
 
 ## 100

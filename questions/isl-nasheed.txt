@@ -1,6 +1,7 @@
 id: isl-nasheed
 name: Nasheeds, Ilahis and Naats
 nameAr: الأناشيد والمدائح النبوية
+nameUr: نشید، الٰہی اور نعت
 group: nasheed
 # Praise of our Beloved Prophet ﷺ across the Muslim world: Arabia, the Levant and Egypt, Africa, Turkey and the Balkans, Persia and Central Asia, South Asia and Southeast Asia.
 # Only titles and well-known opening words are quoted; nothing else is quoted. Weak reports are named as weak.
@@ -166,7 +167,7 @@ Amir Khusraw رحمة الله عليه is buried in this city, near his shaykh.
 Pir Mehr Ali Shah رحمة الله عليه passed away in this year. :: 1356 AH / 1937 CE || H: Standard history
 Shah 'Abd al-Latif Bhittai رحمة الله عليه passed away in this year. :: 1165 AH / 1752 CE || H: Standard history
 The language of "Shah jo Risalo". :: Sindhi || H: Standard history
-Muhsin Kakorvi's رحمة الله عليه famous naat qasidah is called "Madih-e Khair al-Mursalin", meaning this. :: Praise of the Best of the Messengers ﵈ || H: Kulliyat-e Muhsin
+Muhsin Kakorvi's رحمة الله عليه famous naat qasidah is called "Madih-e Khair al-Mursalin", meaning this. :: Praise of our Beloved Prophet Muhammad ﷺ, the best of the Messengers ﵈ || H: Kulliyat-e Muhsin
 The Urdu poet Amir Mina'i رحمة الله عليه wrote this naat collection. :: Mahamid-e Khatam al-Nabiyyin || H: Standard reference
 Kiai 'Ali Manshur رحمة الله عليه, who wrote Sholawat Badar, lived in this region of East Java. :: Banyuwangi (and Tuban) || H?: Standard reference; check
 The Hadrami scholars who came to the Malay world often brought this Blessed Mawlid of Say'un with them. :: Simt al-Durar || H: Standard reference

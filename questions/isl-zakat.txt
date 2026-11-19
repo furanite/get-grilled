@@ -1,6 +1,7 @@
 id: isl-zakat
 name: Fiqh: Zakat
 nameAr: الفقه: الزكاة
+nameUr: فقہ: زکوٰة
 group: fiqh
 # Fiqh files keep to points the four Sunni schools agree on. Where they differ, the clue names the school.
 

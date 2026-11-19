@@ -1,6 +1,7 @@
 id: isl-school-shafii
 name: The Shafi'i School
 nameAr: المذهب الشافعي
+nameUr: شافعی مذہب
 group: fiqh
 # The Shafi'i madhhab: its imams, books, terms and well-known rulings. Every ruling here is the school's relied-upon (mu'tamad) view.
 # Every Sunni scholar's name carries رحمة الله عليه. Dates: hijri first, then CE.

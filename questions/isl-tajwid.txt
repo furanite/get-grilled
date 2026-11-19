@@ -1,6 +1,7 @@
 id: isl-tajwid
 name: Tajwid
 nameAr: التجويد
+nameUr: تجوید
 group: quran
 
 ## 100

@@ -1,6 +1,7 @@
 id: isl-sahabah
 name: The Companions (رِضْوَانُ اللَّهِ عَلَيْهِمْ)
 nameAr: الصحابة (رِضْوَانُ اللَّهِ عَلَيْهِمْ)
+nameUr: صحابۂ کرام (رِضْوَانُ اللَّهِ عَلَيْهِمْ)
 group: islamichistory
 # Every single Companion's name carries ﵁ or ﵂; several Companions carry (رِضْوَانُ اللَّهِ عَلَيْهِمْ) written out. No Companion is ever drawn or voiced.
 

@@ -15,7 +15,7 @@ export const COMPANION_SIGNS = [
 
 // Arabic written inside English text: kept on one line (no-break spaces) and isolated (U+2068 … U+2069),
 // so the brackets and words stay in order when the line wraps.
-const WRITTEN = /\((رِضْوَانُ اللَّهِ عَلَيْ(?:هِمْ|هِمَا|هِنَّ)|عليهن السلام)\)|رحمة الله (?:عليه|عليها|عليهما|عليهم)/g
+const WRITTEN = /\((رِضْوَانُ اللَّهِ عَلَيْ(?:هِمْ|هِمَا|هِنَّ)|عليهن السلام)\)|رحمة الله (?:عليهما|عليهم|عليها|عليه)/g
 const keep = (m) => '\u2068' + m.replace(/ /g, '\u00A0') + '\u2069'
 
 export function toSigns(s) {

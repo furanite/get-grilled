@@ -1,6 +1,7 @@
 id: isl-school-hanafi
 name: The Hanafi School
 nameAr: المذهب الحنفي
+nameUr: حنفی مسلک
 group: fiqh
 # The Hanafi madhhab: its imams, books, terms and well-known rulings. Every ruling here is the school's relied-upon view (mu'tamad).
 # Every Sunni scholar's name carries رحمة الله عليه. Dates: hijri first, then CE.

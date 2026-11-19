@@ -1,6 +1,7 @@
 id: isl-hajj
 name: Fiqh: Hajj and Umrah
 nameAr: الفقه: الحج والعمرة
+nameUr: فقہ: حج اور عمرہ
 group: fiqh
 # Fiqh files keep to points the four Sunni schools agree on. Where they differ, the clue names the school.
 # Text only: no picture of Makkah, Madinah or the holy sites is ever shown.
