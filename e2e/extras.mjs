@@ -239,6 +239,7 @@ try {
     await page.getByTestId('view-done').click()
     assert((await page.evaluate(() => document.documentElement.dataset.big)) === 'on', 'big text not on')
     await page.reload()
+    await page.waitForFunction(() => document.documentElement.dataset.cb === 'on', null, { timeout: 5000 }).catch(() => {})
     assert((await page.evaluate(() => document.documentElement.dataset.cb)) === 'on', 'colour-blind colours not remembered')
     noErrors(page)
   })
