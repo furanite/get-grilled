@@ -366,6 +366,12 @@ try {
     // The practice box shows as connected; each team's button tests in the panel.
     await page.getByTestId('buzz-open').click()
     assert((await page.getByTestId('buzz-status').textContent()).includes('Practice box'), 'practice box status')
+    assert((await page.getByTestId('buzz-guide').getAttribute('href')) === 'buzzer-guide.html', 'Buzzers panel links to the setup guide')
+    assert((await page.getByTestId('buzz-howto').getAttribute('open')) === null, 'set-up steps fold away once the box is connected')
+    for (const src of await page.$$eval('[data-testid="buzz-howto"] img', (els) => els.map((e) => e.getAttribute('src')))) {
+      const r = await page.request.get(URL + src)
+      assert(r.ok() && (r.headers()['content-type'] || '').startsWith('image/'), 'set-up picture missing: ' + src)
+    }
     await page.evaluate(() => window.ggBuzz.press(1))
     await page.waitForSelector('[data-testid="buzz-map-1"].hit')
     await page.getByTestId('buzz-done').click()

@@ -170,7 +170,12 @@ export function DevicesPanel({ t, lang, game, onClose }: { t: Strings; lang: Lan
           <h1 id="devices-title">{t.live.devicesTitle}</h1>
         </div>
         <div className="legal-body">
-          <p className="muted">{t.live.devicesHelp}</p>
+          <p className="muted">
+            {t.live.devicesHelp}{' '}
+            <a href="buzzer-guide.html#pi" target="_blank" rel="noopener" data-testid="devices-guide">
+              {t.buzz.guide}
+            </a>
+          </p>
           {!game && <p className="muted small">{t.live.noGame}</p>}
           <ul className="live-seats">
             {sorted.map((s) => (
