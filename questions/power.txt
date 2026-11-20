@@ -441,9 +441,9 @@ The Dubai solar park where ACWA Power built the world's tallest solar power towe
 The quantity whose per-unit value is the same on both sides of an ideal transformer when the bases follow its turns ratio. :: Impedance
 For a balanced three-phase fault, only this sequence network carries current. :: Positive sequence
 The common distribution transformer vector group with a delta HV winding and an earthed star LV winding leading by 30°. :: Dyn11
-The transformation that turns three-phase machine quantities into direct and quadrature axes fixed to the rotor. :: Park (dq0) transformation
 The 'V curves' of a synchronous machine plot armature current against this. :: Field (excitation) current
 In this three-phase connection, the line voltage is how many times the phase voltage? {img:three-phase-wye.svg} :: √3 (about 1.73)
+The first nuclear reactor, built under the stands of a Chicago stadium. :: Chicago Pile-1
 
 ## 500
 The year Edison opened the Pearl Street power station in New York. :: 1882
@@ -463,7 +463,6 @@ The Welsh scientist who invented the fuel cell in 1839. :: William Grove
 The NASA programmes that used fuel cells for power in the 1960s. :: Gemini and Apollo
 The three scientists who won the 2019 Chemistry Nobel for lithium-ion batteries. :: Goodenough, Whittingham and Yoshino
 The Japanese company that first sold lithium-ion batteries in 1991. :: Sony
-The first nuclear reactor, built under the stands of a Chicago stadium. :: Chicago Pile-1
 The world's first commercial-scale nuclear power station, opened in 1956 in England. :: Calder Hall
 The US admiral called the father of the nuclear navy, whose PWR design spread to power plants. :: Hyman Rickover
 The Austrian-born physicist who, with Otto Frisch, explained fission in 1939. :: Lise Meitner
@@ -546,3 +545,4 @@ The two extra factors that turn the four-factor formula into the six-factor form
 The effect that cuts reactor power as fuel heats up, by widening the U-238 absorption resonances. :: Doppler broadening
 The delayed neutron fraction β for U-235 fission, roughly. :: About 0.65%
 Reactivity equal to the delayed neutron fraction is called this unit. :: One dollar
+The transformation that turns three-phase machine quantities into direct and quadrature axes fixed to the rotor. :: Park (dq0) transformation

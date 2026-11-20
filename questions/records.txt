@@ -195,7 +195,6 @@ The largest invertebrate. :: The colossal squid
 The animal with the longest migration. :: The Arctic tern
 The loudest land animal. :: The howler monkey
 The animal with the strongest bite. :: The saltwater crocodile
-The insect with the longest lifespan is a queen of this kind. :: Termite
 The most venomous snake on land. :: The inland taipan
 The deadliest animal to humans. :: The mosquito
 The only country to play at every men's World Cup. :: Brazil
@@ -220,6 +219,7 @@ The highest-grossing film of all time. :: Avatar (2009)
 The most visited website in the world after Google. :: YouTube
 The largest city in the Arabian Peninsula by population. :: Riyadh
 The country that exports the most crude oil. :: Saudi Arabia
+The most populous city in the Arab world. :: Cairo
 
 ## 300
 The height of Jabal Sawda, Saudi Arabia's highest peak, roughly. :: About 3,000 metres
@@ -287,7 +287,6 @@ The largest island in Asia. :: Borneo
 The largest island in Africa. :: Madagascar
 The largest country made up of islands. :: Indonesia
 The largest landlocked country. :: Kazakhstan
-The most populous city in the Arab world. :: Cairo
 The most populous Muslim-majority country. :: Indonesia
 The country with the youngest population by median age. :: Niger
 The country with the oldest population by median age. :: Monaco
@@ -322,6 +321,7 @@ The hardest substance in the human body. :: Tooth enamel
 The largest artery in the human body. :: The aorta
 The South American vulture often called the largest flying bird by weight and wingspan combined. :: The Andean condor
 The deepest lake in Africa and the second deepest in the world. :: Lake Tanganyika
+The insect with the longest lifespan is a queen of this kind. :: Termite
 
 ## 400
 The tallest statue in the world, in India. :: The Statue of Unity

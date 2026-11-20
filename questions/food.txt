@@ -111,6 +111,8 @@ The stimulant in coffee and tea. :: Caffeine
 The sweet food whose English name comes from the Arabic "sukkar". :: Sugar
 The drink whose English name comes from Arabic "qahwa" via Turkish. :: Coffee
 The meal before dawn in Ramadan. :: Suhoor
+The vitamin found in high amounts in oranges. :: Vitamin C
+The red-skinned fruit full of juicy seeds, called rumman in Arabic. :: Pomegranate
 
 ## 200
 The country famous for paella. :: Spain
@@ -168,7 +170,6 @@ The Italian hard cheese grated on pasta. :: Parmesan (Parmigiano-Reggiano)
 The leavening agent that makes bread rise. :: Yeast
 The protein in wheat that gives dough its stretch. :: Gluten
 The process of heating milk to kill germs. :: Pasteurisation
-The vitamin found in high amounts in oranges. :: Vitamin C
 The cooking method of submerging food in hot oil. :: Deep frying
 The cooking method of cooking food in a sealed bag in a water bath. :: Sous vide
 The French term for cooking quickly in a little fat. :: Sauté
@@ -179,7 +180,6 @@ The type of rice used for risotto. :: Arborio
 The long-grain fragrant rice from India and Pakistan. :: Basmati
 The long-grain fragrant rice from Thailand. :: Jasmine rice
 The tropical fruit used to make the sweet Brazilian paste 'goiabada'. :: Guava
-The red-skinned fruit full of juicy seeds, called rumman in Arabic. :: Pomegranate
 The purple vegetable called "eggplant" in the US. :: Aubergine
 The yellow summer squash called courgette in Britain. :: Zucchini
 The root used to make wasabi's cheaper substitute. :: Horseradish

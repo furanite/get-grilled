@@ -260,7 +260,6 @@ The value of 0! (zero factorial). :: 1
 17 squared. :: 289
 19 squared. :: 361
 21 squared. :: 441
-24 squared. :: 576
 35 squared. :: 1,225
 45 squared. :: 2,025
 50 squared. :: 2,500
@@ -328,7 +327,6 @@ The average of the numbers 1 to 99. :: 50
 The number of multiples of 7 between 1 and 100. :: 14
 The number of leap years from 2001 to 2100 inclusive. :: 24
 Twelve percent of 250. :: 30
-Seventeen percent of 300. :: 51
 Eight is what percentage of 32? :: 25 percent
 45 is 15 percent of this number. :: 300
 The decimal for 7/8. :: 0.875
@@ -352,6 +350,8 @@ The value of e to the power iπ plus 1, in Euler's identity. :: 0
 The area of a circle with circumference 2π. :: π
 A clock gains 5 minutes every hour. Hours until it is 1 hour ahead. :: 12
 A bacteria colony doubles every minute and fills a jar in 60 minutes. Minutes to half fill it. :: 59
+Pi to 5 decimal places. :: 3.14159
+The probability of rolling a total of 7 with two dice. :: 1/6
 
 ## 400
 37 times 37. :: 1,369
@@ -412,14 +412,12 @@ The number of ways to arrange the letters of LEVEL. :: 30
 The number of different 3-digit numbers using digits 1 to 9 without repeating. :: 504
 The number of binary strings of length 8. :: 256
 The number of subsets of a set with 5 elements. :: 32
-The probability of rolling a total of 7 with two dice. :: 1/6
 The probability of getting at least one head in three coin flips. :: 7/8
 The probability that two cards drawn from a deck are both aces. :: 1/221
 The expected value of one roll of a fair six-sided die. :: 3.5
 The number of minutes in a leap year. :: 527,040
 The number of seconds in a week. :: 604,800
 The number of degrees in 1 radian, to the nearest degree. :: 57
-Pi to 5 decimal places. :: 3.14159
 The square root of 2 to 3 decimal places. :: 1.414
 The golden ratio to 3 decimal places. :: 1.618
 Euler's number e to 3 decimal places. :: 2.718
@@ -454,6 +452,8 @@ The number of trailing zeros in 40 factorial. :: 9
 The number of positive divisors of 72. :: 12
 The angle between clock hands at 3:15. :: 7.5 degrees
 The number of ways to arrange the letters of COFFEE. :: 180
+24 squared. :: 576
+Seventeen percent of 300. :: 51
 
 ## 500
 The smallest number that is the sum of two cubes in two different ways. :: 1,729

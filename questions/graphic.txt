@@ -420,6 +420,7 @@ The French engineer whose curves are used in vector drawing. :: Pierre Bézier
 Bézier worked for this car maker. :: Renault
 The font Microsoft Office switched to as its new default in 2023. :: Aptos
 The "point" used in desktop publishing is exactly this fraction of an inch. :: 1/72
+The colour depth of an image with 24 bits. :: 8 bits per channel (three channels)
 
 ## 400
 The ratio of the A-series paper sides. :: 1 to the square root of 2
@@ -523,7 +524,6 @@ The curved part of letters like b and p. :: The bowl
 The free end of the curved stroke at the top of a lowercase a. :: The terminal
 The type measure across a column. :: The measure (line length)
 The ideal line length for easy reading in characters. :: About 45 to 75 characters
-Hanging punctuation outside the text edge is done to keep this neat. :: The optical margin (alignment)
 The "rivers" in justified text are these. :: Gaps of white space running down the lines
 A quote mark that is curly, not straight. :: A typographic (smart) quote
 A straight mark used for feet or minutes, often mistaken for a quote. :: A prime
@@ -549,7 +549,6 @@ The number used to measure colour difference in print checks. :: Delta E
 A Delta E below about this is hard for the eye to see. :: 1 (about 1–2)
 Gamma correction of about 2.2 is used for screens in this standard. :: sRGB
 The number of colours an 8-bit-per-channel RGB screen can show. :: About 16.7 million
-The colour depth of an image with 24 bits. :: 8 bits per channel (three channels)
 The CSS colour function that uses lightness, chroma and hue with even steps. :: OKLCH
 The colour Pantone 448 C was called this in news reports in 2016. :: The ugliest colour in the world
 The Pantone suffix C stands for this. :: Coated paper
@@ -643,6 +642,7 @@ Instructions inside a font that adjust outlines to the pixel grid at small sizes
 The kind of Bézier curves used in TrueType outlines. :: Quadratic
 The inner, top, outer and bottom margins of the classic 2:3 book page built with the Van de Graaf canon are in this ratio. :: 2:3:4:6
 The Gestalt principle that elements moving in the same direction are seen as one group. :: Common fate
+Hanging punctuation outside the text edge is done to keep this neat. :: The optical margin (alignment)
 
 ## tf
 True or false? Vector images get blurry when you enlarge them. :: False (raster images do; vectors stay sharp)

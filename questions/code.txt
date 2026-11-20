@@ -222,6 +222,7 @@ The Saudi telecom company that changed its logo to lowercase letters in 2019. ::
 The national single sign-on system Saudi residents use for government services. :: Nafath
 The law saying that the number of transistors doubles roughly every two years. :: Moore's law
 The famous 1999 worry that dates stored with two digits would fail. :: Y2K bug
+The highest award in computer science, often called its Nobel Prize. :: Turing Award
 
 ## 300
 The Git command that copies a remote repository to your machine. :: git clone
@@ -242,9 +243,7 @@ A heap is commonly used to build this abstract data type. :: Priority queue
 The sorting algorithm that uses a heap. :: Heapsort
 A self-balancing binary search tree that uses rotations and colours. :: Red–black tree
 A self-balancing binary search tree named after two Soviet inventors. :: AVL tree
-The tree used by databases and file systems for fast disk lookups. :: B-tree
 A tree for storing strings by their prefixes. :: Trie
-A data structure that tracks which elements belong to which sets. :: Union–find (disjoint set)
 A probabilistic structure that can say 'definitely not' or 'maybe' for membership. :: Bloom filter
 The technique of storing results of subproblems to avoid repeat work. :: Dynamic programming (memoisation)
 The algorithm strategy that makes the best local choice at each step. :: Greedy algorithm
@@ -294,9 +293,7 @@ The CPU technique of guessing which way a branch will go. :: Branch prediction
 The architecture where programs and data share the same memory. :: Von Neumann architecture
 The architecture with separate memories for instructions and data. :: Harvard architecture
 The law that limits speed-up from parallel computing by the serial fraction. :: Amdahl's law
-Two's complement of 8-bit 00000001 is this. :: 11111111
 The range of an 8-bit signed two's complement integer. :: −128 to 127
-The IEEE standard for floating-point numbers. :: IEEE 754
 0.1 + 0.2 does not equal 0.3 exactly in floating point because of this. :: Binary rounding error
 The special floating-point value that means 'not a number'. :: NaN
 The bit-level operation that flips every bit. :: NOT (bitwise complement)
@@ -326,9 +323,12 @@ The machine learning approach that finds patterns in unlabelled data. :: Unsuper
 The machine learning approach that learns from rewards and penalties. :: Reinforcement learning
 Grace Hopper popularised this word after finding a moth in a relay. :: Bug
 The pseudonymous creator of Bitcoin. :: Satoshi Nakamoto
-The highest award in computer science, often called its Nobel Prize. :: Turing Award
 The program that beat world chess champion Garry Kasparov in 1997. :: Deep Blue
 KAUST's supercomputer is named after this bird. :: Shaheen (peregrine falcon)
+The year the World Wide Web was proposed at CERN. :: 1989
+The 2024 Nobel Prize in Physics went to Hopfield and this AI pioneer. :: Geoffrey Hinton
+The cellular automaton invented by John Conway in 1970. :: Game of Life
+The neural network type designed for images, using filters. :: Convolutional neural network
 
 ## 400
 The cache replacement policy that evicts the item used least often. :: LFU
@@ -336,7 +336,6 @@ The technique of sending the same request again after a delay that grows each ti
 The number of bits in an IPv6 address. :: 128
 The theorem that a distributed system can guarantee only two of consistency, availability and partition tolerance. :: CAP theorem
 The algorithm for agreement in distributed systems designed to be easier to understand than Paxos. :: Raft
-The consensus algorithm by Leslie Lamport, named after a Greek island. :: Paxos
 The problem of reaching agreement when some participants may lie. :: Byzantine generals problem
 The clocks that order events in a distributed system by counting. :: Lamport clocks
 Vector clocks can detect this, which Lamport clocks cannot. :: Concurrent events
@@ -381,7 +380,6 @@ The optimisation method that steps against the gradient. :: Gradient descent
 A model that fits training data too closely and fails on new data. :: Overfitting
 The technique that randomly turns off neurons during training. :: Dropout
 The activation function max(0, x). :: ReLU
-The neural network type designed for images, using filters. :: Convolutional neural network
 The neural network architecture behind modern language models, using attention. :: Transformer
 The 2017 paper that introduced the transformer. :: Attention Is All You Need
 The method that splits data into k parts to test a model. :: K-fold cross-validation
@@ -402,7 +400,6 @@ The theorem that the maximum flow equals the minimum cut. :: Max-flow min-cut th
 The algorithm that finds strongly connected components with one DFS and low-link values. :: Tarjan's algorithm
 The algorithm that ranks web pages by links, used by early Google. :: PageRank
 The lossless compression method that gives short codes to common symbols. :: Huffman coding
-The compression family behind ZIP and GIF that uses a dictionary of repeated strings. :: Lempel–Ziv (LZ77/LZW)
 The lossy image compression standard based on the discrete cosine transform. :: JPEG
 The error-detecting code that adds a remainder from polynomial division. :: CRC (cyclic redundancy check)
 The error-correcting code that can fix any single-bit error with parity bits. :: Hamming code
@@ -425,12 +422,15 @@ The language created at Google in 2009 with goroutines. :: Go
 The programming principle that says a class should have only one reason to change. :: Single responsibility principle
 The five object-oriented design principles known by this acronym. :: SOLID
 The pattern of passing a class its dependencies instead of creating them inside. :: Dependency injection
-The theorem that proved SAT is NP-complete in 1971. :: Cook–Levin theorem
 The tree that answers prefix-sum queries and point updates in O(log n) using the lowest set bit. :: Fenwick tree (binary indexed tree)
 The cache write policy that updates main memory only when a modified block is evicted. :: Write-back
 The garbage collection method that frees objects when their count drops to zero, but fails on cycles. :: Reference counting
 The pre-emptive scheduling algorithm that always runs the job with the least time left. :: Shortest remaining time first (SRTF)
 The anomaly where giving FIFO page replacement more frames causes more page faults. :: Belady's anomaly
+A data structure that tracks which elements belong to which sets. :: Union–find (disjoint set)
+The IEEE standard for floating-point numbers. :: IEEE 754
+The tree used by databases and file systems for fast disk lookups. :: B-tree
+Two's complement of 8-bit 00000001 is this. :: 11111111
 
 ## 500
 The Unix command line tool whose name means 'global regular expression print'. :: grep
@@ -470,7 +470,6 @@ The scientist who demonstrated the mouse and hypertext in 'The Mother of All Dem
 The packet-switched network that became the internet, started in 1969. :: ARPANET
 The two engineers who designed TCP/IP. :: Vint Cerf and Bob Kahn
 The engineer who sent the first email between networked computers and chose the @ sign. :: Ray Tomlinson
-The year the World Wide Web was proposed at CERN. :: 1989
 The first widely popular graphical web browser, released in 1993. :: Mosaic
 The scientist who designed JavaScript in about ten days in 1995. :: Brendan Eich
 The founder of the GNU project and the Free Software Foundation. :: Richard Stallman
@@ -482,7 +481,6 @@ The three 'godfathers of deep learning' who shared the 2018 Turing Award. :: Hin
 The 2012 neural network that won ImageNet and started the deep learning boom. :: AlexNet
 The DeepMind program that beat Go champion Lee Sedol in 2016. :: AlphaGo
 The DeepMind system that predicted protein structures and shared the 2024 Chemistry Nobel. :: AlphaFold
-The 2024 Nobel Prize in Physics went to Hopfield and this AI pioneer. :: Geoffrey Hinton
 The Saudi authority for data and AI, set up in 2019. :: SDAIA
 The Saudi Arabic large language model released by SDAIA. :: ALLaM
 The AI company launched by Saudi Arabia's Public Investment Fund in 2025. :: HUMAIN
@@ -509,7 +507,6 @@ The 1996 rocket that exploded because a 64-bit float was converted to a 16-bit i
 The 1999 Mars probe lost because one team used imperial units and another metric. :: Mars Climate Orbiter
 The radiation therapy machine whose software race condition caused deadly overdoses in the 1980s. :: Therac-25
 The esoteric programming language with only eight commands and a rude name. :: Brainf*ck
-The cellular automaton invented by John Conway in 1970. :: Game of Life
 The pseudo-random number generator widely used in Python and MATLAB. :: Mersenne Twister
 The famous inverse square root trick with the constant 0x5F3759DF came from this game. :: Quake III Arena
 The algorithm that sorts by randomly shuffling until sorted, as a joke. :: Bogosort
@@ -533,3 +530,6 @@ The algorithm that multiplies two large numbers using three half-size multiplica
 The matrix multiplication algorithm that uses seven multiplications for 2 × 2 blocks instead of eight. :: Strassen's algorithm
 The consistency model in which each operation appears to take effect at one instant between its call and return. :: Linearizability
 The 1985 result that no deterministic consensus algorithm can be guaranteed in an asynchronous system with one faulty process. :: FLP impossibility
+The theorem that proved SAT is NP-complete in 1971. :: Cook–Levin theorem
+The consensus algorithm by Leslie Lamport, named after a Greek island. :: Paxos
+The compression family behind ZIP and GIF that uses a dictionary of repeated strings. :: Lempel–Ziv (LZ77/LZW)

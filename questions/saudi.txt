@@ -118,6 +118,7 @@ The Saudi value added tax rate since 2020. :: 15%
 The tower in Al Khobar built to hold water, now a landmark. :: Khobar Water Tower
 The Saudi city historically known as Yathrib. :: Madinah
 The Half Moon Bay is a famous beach near this city. :: Al Khobar (south of Dhahran)
+Minoru Yamasaki also designed this famous New York building that fell in 2001. :: World Trade Center
 
 ## 200
 The Saudi riyal is divided into 100 of these. :: Halalas
@@ -163,7 +164,6 @@ The Aramco housing camp in Dhahran where many expatriates lived. :: Dhahran Camp
 The well in Dammam where commercial oil was first found in Saudi Arabia. :: Dammam Well No. 7
 The year oil was struck at Dammam Well No. 7. :: 1938
 Dammam Well No. 7 was nicknamed this. :: Prosperity Well
-The Bedouin guide who helped Aramco geologists find oil fields. :: Khamis bin Rimthan
 King Abdulaziz opened the first oil shipment valve in this year. :: 1939
 The famous Al-Ahsa landmark mountain with cool caves. :: Jabal Al-Qarah
 Al-Ahsa Oasis was listed by UNESCO in this year. :: 2018
@@ -211,7 +211,6 @@ The Saudi karateka who won silver at the Tokyo 2020 Olympics. :: Tareg Hamedi
 The Saudi club that signed Karim Benzema in 2023. :: Al-Ittihad
 The Eastern Province club that signed Jordan Henderson in 2023. :: Al-Ettifaq
 Saudi Arabia's longer coastline is on this sea. :: Red Sea
-Minoru Yamasaki also designed this famous New York building that fell in 2001. :: World Trade Center
 The king who ruled from 2005 to 2015. :: King Abdullah
 The king who ruled from 1982 to 2005. :: King Fahd
 King Salman became king in this year. :: 2015
@@ -225,6 +224,7 @@ The Nabataean capital was Petra; their southern city in Saudi Arabia is this. ::
 The pre-Islamic market town near Taif famous for poetry contests. :: Souq Okaz
 The Saudi singer known as 'the artist of the Arabs'. :: Mohammed Abdu
 The Eastern Province's Salwa Bay borders this country. :: Qatar
+Saudi Arabia hosted the 2023 FIFA Club World Cup in this city. :: Jeddah
 
 ## 300
 The year Saudi Arabia joined the World Trade Organization. :: 2005
@@ -255,11 +255,9 @@ One barrel of oil is about this many litres. :: About 159
 The process Aramco uses to inject water around fields to keep pressure up. :: Peripheral water injection
 The 'smart field' technology Aramco uses to monitor wells in real time. :: Intelligent fields
 The world's largest single-site oil processing plant, near Dhahran. :: Abqaiq
-The offshore gas field that was Aramco's first non-associated offshore gas development. :: Karan
 The largest crude oil terminal in the world, on the Gulf between Dammam and Jubail. :: Ras Tanura (with Ju'aymah)
 The offshore loading platform near Ras Tanura used for very large tankers. :: Ju'aymah Terminal
 The name of the Saudi national shipping company. :: Bahri
-The world's largest shipyard project being built at Ras Al-Khair. :: King Salman International Complex for Maritime Industries
 Ras Al-Khair hosts Ma'aden's processing of these two main minerals. :: Phosphate and aluminium
 The railway that carries phosphate and bauxite from the north to Ras Al-Khair. :: North–South Railway
 The rail link planned to connect Riyadh to Jeddah through the Kingdom. :: Saudi Landbridge
@@ -301,7 +299,6 @@ The architect of the Kingdom Centre in Riyadh. :: Ellerbe Becket (with Omrania)
 The architect of Al Faisaliah Tower. :: Norman Foster
 Saudi Arabia's first skyscraper, finished in 2000. :: Al Faisaliah Tower
 The 170 m tower in Riyadh, opened in 1978, built to carry the city's television signal. :: Riyadh TV Tower
-The Saudi Ministry of Foreign Affairs building in Riyadh was designed by this Danish architect. :: Henning Larsen
 The water towers of Riyadh designed by Sune Lindström. :: Riyadh Water Tower
 The large dam in Bisha, Asir region, completed in 2009. :: King Fahd Dam
 The world's largest single desalination plant by capacity is in this Saudi city. :: Ras Al-Khair (or Jubail)
@@ -327,6 +324,9 @@ The title of the King of Saudi Arabia that refers to the two holy mosques. :: Cu
 The longest valley in Saudi Arabia. :: Wadi Al-Rummah
 The Saudi region whose capital is Buraydah. :: Al-Qassim
 The title of the Saudi national anthem, adopted in 1950. :: Aash al-Malik ("Long live the King")
+Zamil Group, a major Eastern Province company, is headquartered in this city. :: Al Khobar
+The King Fahd Specialist Hospital in the Eastern Province is in this city. :: Dammam
+The Bedouin guide who helped Aramco geologists find oil fields. :: Khamis bin Rimthan
 
 ## 400
 The 1934 treaty that ended the war between Saudi Arabia and Yemen. :: Treaty of Taif
@@ -358,13 +358,11 @@ The Saudi oil field discovered in 1940 near Abqaiq. :: Abqaiq field
 The oil field discovered in 1948 that confirmed Ghawar as a giant. :: Ain Dar
 Aramco's oil production first passed one million barrels a day in this year. :: 1958
 Aramco's largest-ever single-day production record of about 12 million barrels was set in this year. :: 2020
-The Saudi oil company that operates in the neutral zone with Kuwait. :: Aramco Gulf Operations Company (AGOC)
 Saudi Arabia's proven oil reserves are about this many billion barrels. :: About 260 billion
 The percentage of Saudi Arabia's government revenue that came from oil in the early 2010s was about this. :: Around 90%
 The Saudi crude price benchmark for Asia is set relative to this. :: Oman/Dubai average
 The Fadhili gas plant is in this province. :: Eastern Province
 The Aramco Jazan Refinery is linked to this economic city. :: Jazan City for Primary and Downstream Industries
-The former name of Saudi Aramco's Jubail refinery, once a joint venture with Shell. :: SASREF
 Ma'aden's phosphate mine near the northern border. :: Al Jalamid (and Umm Wu'al)
 Ma'aden's bauxite mine in Qassim region. :: Al Ba'itha
 Saudi Arabia's oldest known gold mine, worked since ancient times. :: Mahd adh-Dhahab
@@ -406,7 +404,6 @@ The Saudi plan to host 150 million visits by this year. :: 2030
 The Saudi tourism authority's slogan. :: Visit Saudi
 Riyadh's bid for Expo 2030 won the November 2023 vote with this many votes out of 165. :: 119
 The FIFA vote that confirmed Saudi Arabia as 2034 host was held in this year. :: 2024
-Saudi Arabia hosted the 2023 FIFA Club World Cup in this city. :: Jeddah
 The Saudi Grand Prix street circuit is called this. :: Jeddah Corniche Circuit
 The Saudi Pro League began its big star signings in this year. :: 2023
 The Saudi esports event held in Riyadh with a huge prize pool since 2024. :: Esports World Cup
@@ -429,6 +426,9 @@ The old covered market in Hofuf, one of the oldest souqs in the Eastern Province
 The year the Saudi Basic Law of Governance was issued. :: 1992
 The year the Saudi Council of Ministers was set up. :: 1953
 The second city of the Al-Ahsa oasis, next to Hofuf. :: Al-Mubarraz
+The offshore gas field that was Aramco's first non-associated offshore gas development. :: Karan
+The Saudi Ministry of Foreign Affairs building in Riyadh was designed by this Danish architect. :: Henning Larsen
+The world's largest shipyard project being built at Ras Al-Khair. :: King Salman International Complex for Maritime Industries
 
 ## 500
 The cost of building the King Fahd Causeway, roughly, in US dollars. :: About $800 million
@@ -497,10 +497,8 @@ The Saudi poet-diplomat who wrote 'An Apartment Called Freedom' and was ambassad
 Ghazi Al-Gosaibi was born in this Eastern Province city. :: Al-Ahsa (Hofuf)
 Ghazi Al-Gosaibi's first ministerial post, in 1975. :: Minister of Industry and Electricity
 The famous Saudi merchant families of the Eastern Province include the Kanoo, Al-Gosaibi and this family. :: Al-Zamil
-Zamil Group, a major Eastern Province company, is headquartered in this city. :: Al Khobar
 The Eastern Province's first hospital built by Aramco in Dhahran opened in this decade. :: 1940s
 The Johns Hopkins Aramco Healthcare joint venture started in this year. :: 2014
-The King Fahd Specialist Hospital in the Eastern Province is in this city. :: Dammam
 The Saudi university hospital in Al Khobar run by Imam Abdulrahman bin Faisal University. :: King Fahd Hospital of the University
 The Al Khobar shopping mall and tower near the corniche. :: Al Rashid Mall
 The planned canal along the Qatar border was named this project. :: Salwa Canal (Salwa Marine Canal)
@@ -531,3 +529,5 @@ The British official who drew the borders of Najd with Kuwait and Iraq at Uqair 
 The British political agent in Kuwait killed while with Ibn Saud's forces at the Battle of Jarrab in 1915. :: William Shakespear
 The southernmost area of the Ghawar field, developed in three stages from 1996 to 2006. :: Haradh
 The 1950 agreement under which Aramco's profits were split evenly with the Saudi government. :: The 50/50 profit-sharing agreement
+The Saudi oil company that operates in the neutral zone with Kuwait. :: Aramco Gulf Operations Company (AGOC)
+The former name of Saudi Aramco's Jubail refinery, once a joint venture with Shell. :: SASREF

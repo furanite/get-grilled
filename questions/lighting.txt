@@ -193,7 +193,6 @@ The colour space made by the CIE in 1976 with L, a and b. :: CIELAB
 The international lighting body. :: CIE (International Commission on Illumination)
 The colour said to be the most popular favourite in many surveys. :: Blue
 The colour of "International Klein Blue" was patented by this artist. :: Yves Klein
-The red pigment made from crushed insects. :: Carmine (cochineal)
 The blue pigment once made from crushed lapis lazuli. :: Ultramarine
 Lapis lazuli was mined mainly in this country. :: Afghanistan
 The purple dye from sea snails, worn by emperors. :: Tyrian purple
@@ -224,6 +223,7 @@ Einstein's 1905 paper on light as quanta explained this effect. :: The photoelec
 The colour of the hottest stars. :: Blue
 Fireflies make light by this process. :: Bioluminescence
 The person who lit gas street lamps by hand each evening. :: A lamplighter
+The kiswah is embroidered with threads of these metals. :: Gold and silver
 
 ## 300
 Newton named this many colours in the spectrum. :: Seven
@@ -240,7 +240,6 @@ The viral 2015 photo where people argued about blue/black or white/gold. :: The 
 The "dress" debate happens because of this. :: Different assumptions about the lighting (colour constancy)
 The term for colours appearing stable under changing light. :: Colour constancy
 The term for the slight shift to blue sensitivity in dim light. :: The Purkinje effect
-The effect named after Helmholtz and Kohlrausch is about saturated colours looking this. :: Brighter
 The CIE 1931 chromaticity diagram is shaped like this. :: A horseshoe (tongue)
 The curve on the chromaticity diagram showing colours of hot objects. :: The Planckian (black body) locus
 The term for the colour temperature of a lamp that isn't a hot body. :: Correlated colour temperature (CCT)
@@ -326,6 +325,7 @@ The colour scheme of a base colour plus the two colours on either side of its co
 The colour scheme of four colours forming a rectangle on the colour wheel. :: Tetradic (double-complementary)
 The streaks, rings or haze in a photo caused by bright light scattering inside the lens. :: Lens flare
 The number in the lamp cap code "E27" gives the screw base's diameter in this unit. :: Millimetres
+The red pigment made from crushed insects. :: Carmine (cochineal)
 
 ## 400
 The photometric quantity of light power weighted by the eye's sensitivity. :: Luminous flux
@@ -386,7 +386,6 @@ The colour "Baker-Miller pink" was tested in prisons to do this. :: Calm aggress
 The colour green in hospitals' surgical gowns reduces this. :: Afterimages of red blood
 The Kruithof curve links light level and this. :: Colour temperature (pleasing combinations)
 The Kruithof curve says low light levels look best with this kind of light. :: Warm light
-The kiswah is embroidered with threads of these metals. :: Gold and silver
 The blue tiles of the Blue Mosque in Istanbul come from this town. :: İznik
 The Shah Mosque in Isfahan is famous for this colour of tiles. :: Blue (turquoise and cobalt)
 The Persian blue-green colour named after a stone. :: Turquoise
@@ -428,6 +427,7 @@ The Pantone Colour of the Year for 2023. :: Viva Magenta
 The yellow pigment made from the urine of cows fed mango leaves. :: Indian yellow
 The unit of solid angle used in defining the lumen. :: Steradian
 A camera sensor's Bayer filter has twice as many pixels of this colour as of the others. :: Green
+The effect named after Helmholtz and Kohlrausch is about saturated colours looking this. :: Brighter
 
 ## 500
 The ancient Greek philosopher who said colours come from mixing light and dark. :: Aristotle

@@ -395,7 +395,6 @@ The highest mountain in Saudi Arabia. :: Jabal Sawda (or Jabal Ferwa)
 The mountain range along the western Arabian Peninsula. :: The Sarawat Mountains
 The mountain range in Oman. :: The Hajar Mountains
 The mountain in Ras Al Khaimah with the highest point in the UAE. :: Jebel Jais
-The highest mountain in South Korea, on Jeju Island. :: Hallasan
 The mountain range across northern Spain and southern France. :: The Pyrenees
 The mountain range that forms Italy's spine. :: The Apennines
 The large plateau north of the Himalayas. :: Tibetan Plateau
@@ -427,6 +426,7 @@ The capital of Nicaragua. :: Managua
 The longest river in Canada, flowing to the Arctic Ocean. :: The Mackenzie River
 The strait that separates Tasmania from mainland Australia. :: Bass Strait
 The coastal desert of south-western Africa, often called the oldest desert in the world. :: The Namib Desert
+The country with the ancient city of Baalbek. :: Lebanon
 
 ## 500
 The capital of Burkina Faso. :: Ouagadougou
@@ -500,7 +500,6 @@ The country with the ancient city of Persepolis. :: Iran
 The country with the ancient city of Carthage. :: Tunisia
 The country with the ancient city of Leptis Magna. :: Libya
 The country with the ancient city of Palmyra. :: Syria
-The country with the ancient city of Baalbek. :: Lebanon
 The country with the ancient city of Ephesus. :: Turkey
 The country with Angkor Wat. :: Cambodia
 The country with the Mayan city of Chichén Itzá. :: Mexico
@@ -529,3 +528,4 @@ The long arc of red sand that links the Nafud with the Empty Quarter in Saudi Ar
 The large sand desert in northern Saudi Arabia, around Ha'il and Al-Jawf. :: An-Nafud (the Great Nafud)
 The point in the ocean farthest from any land. :: Point Nemo
 The largest landlocked country in the world. :: Kazakhstan
+The highest mountain in South Korea, on Jeju Island. :: Hallasan

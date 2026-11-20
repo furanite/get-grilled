@@ -13,7 +13,6 @@ The UN Charter was signed in this year. :: 1945
 The UN body where every member country has one vote. :: The General Assembly
 The UN body responsible for international peace and security. :: The Security Council
 The number of permanent members of the UN Security Council. :: Five
-The total number of members of the UN Security Council. :: 15
 The power of a permanent member to block a Security Council decision. :: The veto
 The head of the UN's administration. :: The Secretary-General
 The UN Secretary-General since 2017. :: António Guterres
@@ -103,6 +102,7 @@ The canal that links the Red Sea and the Mediterranean. :: The Suez Canal
 The 1945 Nuremberg trials tried leaders of this country. :: Nazi Germany
 The 1946 convention that set up the IWC regulates the hunting of these animals. :: Whales (whaling)
 The first Arab and Muslim in space, a Saudi prince. :: Prince Sultan bin Salman
+The strait between Oman and Iran. :: The Strait of Hormuz
 
 ## 200
 The ICJ's founding statute is part of this document. :: The UN Charter
@@ -175,7 +175,6 @@ The body that manages the seabed beyond national control. :: The International S
 The sea area out to 24 nautical miles where customs laws can be enforced. :: The contiguous zone
 The right of ships to pass through territorial waters without stopping. :: Innocent passage
 The right of ships and planes to pass through international straits. :: Transit passage
-The strait between Oman and Iran. :: The Strait of Hormuz
 The strait between Yemen and Djibouti. :: Bab al-Mandab
 The treaty that set up the Antarctic as a place of peace and science. :: The Antarctic Treaty (1959)
 The 1967 treaty on outer space. :: The Outer Space Treaty
@@ -219,6 +218,7 @@ The ICC issued an arrest warrant in 2023 for this country's president. :: Russia
 The 2005 Hariri assassination was in this city. :: Beirut
 Saudi Arabia sent its first female astronaut to space in this year. :: 2023
 Saudi Arabia's first female astronaut. :: Rayyanah Barnawi
+The total number of members of the UN Security Council. :: 15
 
 ## 300
 The ICJ's first contentious case. :: The Corfu Channel case (UK v Albania)

@@ -213,6 +213,7 @@ Star names like Betelgeuse, Aldebaran and Altair come from this language. :: Ara
 The word "safari" comes, through Swahili, from the Arabic word for this. :: A journey (safar)
 This 14th-century Moroccan traveller covered about 120,000 km, far more than Marco Polo. :: Ibn Battuta
 The common Cavendish banana is a clone because it has no working these. :: Seeds
+In 1938, a radio play of "The War of the Worlds" caused some people to believe this. :: Aliens had invaded
 
 ## 300
 The longest-living known land animal today, a Seychelles giant tortoise on St Helena, is named this. :: Jonathan
@@ -316,6 +317,7 @@ The small dot over a lowercase "i" is called this. :: A tittle
 The real name of the # symbol. :: Octothorpe
 This Arab inventor tried to fly in 9th-century Córdoba using wings of feathers. :: Abbas ibn Firnas
 The softest mineral on the Mohs scale, which you can scratch with a fingernail. :: Talc
+The 1883 eruption of this volcano was heard about 4,800 km away. :: Krakatoa
 
 ## 400
 This huge amphibian from China can grow to almost 2 metres long. :: Chinese giant salamander
@@ -377,7 +379,6 @@ In 1518, people in Strasbourg did this uncontrollably for weeks. :: Danced (the 
 In 1859, the strongest solar storm on record, which set telegraph lines on fire, was named this. :: The Carrington Event
 The US once planned to set off a nuclear bomb on this, in Project A119. :: The Moon
 This ancient Greek device is called the world's first computer. :: Antikythera mechanism
-In 1938, a radio play of "The War of the Worlds" caused some people to believe this. :: Aliens had invaded
 The Great Emu War of 1932 was fought in this country, and the emus won. :: Australia
 The 17th-century "Tulip Mania" happened in this country. :: The Netherlands
 The "Year Without a Summer" in 1816 was caused by this volcano. :: Mount Tambora
@@ -414,7 +415,6 @@ Ancient Lydia, in modern Turkey, made the first coins from this metal. :: Electr
 The island of Yap used giant stone discs as this. :: Money
 The unit of currency used in Ancient Greece. :: Drachma
 The word "salary" comes from the Latin word for this seasoning. :: Salt
-In medieval Europe, a "moment" was a unit of time lasting about this long. :: 90 seconds
 This animal's milk is over 60 percent fat, among the richest of any mammal. :: Hooded seal
 This tree in California is the tallest known living tree, over 115 metres. :: Hyperion
 This country has the most official languages, with 16. :: Zimbabwe
@@ -496,7 +496,6 @@ The word "tariff" comes from the Arabic "ta'rif", meaning this. :: Notification
 The quietest room ever measured, at Microsoft's lab, is about this loud. :: About −20 decibels
 The deepest scuba dive on record, about 332 metres, was made by Ahmed Gabr from this country. :: Egypt
 The Google executive who made a record skydive from about 41 km up in 2014. :: Alan Eustace
-The 1883 eruption of this volcano was heard about 4,800 km away. :: Krakatoa
 This 1908 explosion over Siberia flattened about 80 million trees. :: The Tunguska event
 The largest meteorite ever found, lying where it fell in Namibia. :: Hoba meteorite
 The Wabar craters, with iron meteorite fragments, lie in this Saudi desert. :: The Empty Quarter
@@ -523,3 +522,4 @@ This green sea slug keeps chloroplasts stolen from algae and can live on sunligh
 This metal melts at about 30°C, so a spoon made of it vanishes in hot tea. :: Gallium
 The "sailing stones" of Death Valley's Racetrack Playa were shown in 2014 to be pushed by this. :: Thin sheets of ice driven by wind
 The "living root bridges" of Meghalaya, India, are grown over decades from the roots of this tree. :: Rubber fig (Ficus elastica)
+In medieval Europe, a "moment" was a unit of time lasting about this long. :: 90 seconds

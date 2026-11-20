@@ -119,6 +119,8 @@ The grinning cat in 'Alice in Wonderland' is named after this English county. ::
 Mad as a March ___: this animal acts oddly in spring. :: Hare
 The Arabic word "sabr" means this. :: Patience
 The Arabic proverb "Al-'ilm nur" says knowledge is this. :: Light
+"Laughter is the best ___." :: Medicine
+"Kill two birds with one stone" means this. :: Achieve two things with one action
 
 ## 200
 To "pull someone's leg" means to do this. :: Tease or joke with them
@@ -152,7 +154,6 @@ A "wet blanket" is this kind of person. :: Someone who spoils the fun
 A "back-seat driver" is this kind of person. :: Someone who gives unwanted advice
 An "early bird" is this kind of person. :: Someone who gets up or arrives early
 A "smart cookie" is this kind of person. :: A clever person
-A "big cheese" is this kind of person. :: An important person
 A "cold fish" is this kind of person. :: An unfriendly, unemotional person
 A "copycat" is this kind of person. :: Someone who imitates others
 A "lone wolf" is this kind of person. :: Someone who prefers to be alone
@@ -194,7 +195,6 @@ To "cut corners" means this. :: Do something cheaply or carelessly
 To "bark up the wrong tree" means this. :: Blame or pursue the wrong thing
 To "let sleeping dogs lie" means this. :: Don't stir up old trouble
 To "kill time" means this. :: Pass time while waiting
-To "make ends meet" means this. :: Earn just enough to live
 To "learn the ropes" means this. :: Learn how to do a job
 To "go down in flames" means this. :: Fail spectacularly
 To be "over the moon" means this. :: Very happy
@@ -213,7 +213,6 @@ To "see the light" means this. :: Finally understand
 To "hold your tongue" means this. :: Stay quiet
 To "blow off steam" means this. :: Release stress or anger
 To "jump the gun" means this. :: Act too soon
-To "beat a dead horse" means this. :: Keep arguing a settled point
 To "have butterflies in your stomach" means this. :: Feel nervous
 To "be on cloud nine" means this. :: Be extremely happy
 To "be fit as a fiddle" means this. :: Be in good health
@@ -236,6 +235,7 @@ The Arabic proverb "Akram min Hatim" means more generous than this man. :: Hatim
 "Cry wolf" comes from this Aesop fable. :: The Boy Who Cried Wolf
 "Slow and steady wins the race" comes from this Aesop fable. :: The Tortoise and the Hare
 "Giraffe" comes from this Arabic word for the animal. :: Zarafa
+"Opportunity knocks but ___." :: Once
 
 ## 300
 "A bird in the hand is worth two" here. :: In the bush
@@ -275,10 +275,8 @@ Finish the saying about forgiving past quarrels: 'Let ___ be ___'. :: Bygones
 "Laugh and the world laughs with you; weep and you weep ___." :: Alone
 "Where there's a will, there's a ___." :: Way
 "You reap what you ___." :: Sow
-"Opportunity knocks but ___." :: Once
 "Patience is a ___." :: Virtue
 "Variety is the spice of ___." :: Life
-"Laughter is the best ___." :: Medicine
 "One man's trash is another man's ___." :: Treasure
 "The proof of the pudding is in the ___." :: Eating
 "Out of the frying pan and into the ___." :: Fire
@@ -288,7 +286,6 @@ Finish the saying about forgiving past quarrels: 'Let ___ be ___'. :: Bygones
 "Rome wasn't built in a day" means this. :: Great things take time
 "Don't put the cart before the horse" means this. :: Do things in the right order
 "Let sleeping dogs lie" is about avoiding this. :: Stirring up old trouble
-"Kill two birds with one stone" means this. :: Achieve two things with one action
 "The early bird catches the worm" means this. :: Those who start early succeed
 "Every cloud has a silver lining" means this. :: Every bad situation has some good
 "Too many cooks spoil the broth" means this. :: Too many people in charge ruin a task
@@ -338,6 +335,9 @@ The idiom for something done quickly with no rest: in one ___. :: Fell swoop
 "The best things in life are ___." :: Free
 "Something is rotten in the state of Denmark" is from this play. :: Hamlet
 "Cut your coat according to your ___." :: Cloth
+To "beat a dead horse" means this. :: Keep arguing a settled point
+To "make ends meet" means this. :: Earn just enough to live
+A "big cheese" is this kind of person. :: An important person
 
 ## 400
 The idiom "red tape", meaning bureaucracy, comes from the ribbon once used to tie these. :: Official documents
