@@ -148,11 +148,19 @@ export interface GameSettings {
   final?: boolean
   /** A special round after the board */
   mode?: RoundMode
+  /** Overall difficulty: which question levels each board row draws from (missing = standard) */
+  difficulty?: Difficulty
 }
+
+/** Overall difficulty the host picks. Points stay the same; only the questions behind them change. */
+export const DIFFICULTIES = ['easy', 'balanced', 'standard', 'hard'] as const
+export type Difficulty = (typeof DIFFICULTIES)[number]
 
 /** Counts of special tiles the host asked for (used only when the game is made). */
 export interface TileCounts {
   golden: number
+  /** Overall difficulty (see GameSettings) */
+  difficulty?: Difficulty
   steal?: number
   crowd?: number
 }

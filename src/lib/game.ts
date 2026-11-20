@@ -1,4 +1,4 @@
-import { ROUND_MODES, TOUR_KINDS, VALUES, type Category, type Clue, type Game, type GameSettings, type LogEntry, type Madhhab, type ModeItem, type PoolEdit, type Question, type RoundMode, type Special, type Stage, type TileCounts, type TourRound, type TourStep } from './types'
+import { DIFFICULTIES, ROUND_MODES, TOUR_KINDS, VALUES, type Category, type Difficulty, type Clue, type Game, type GameSettings, type LogEntry, type Madhhab, type ModeItem, type PoolEdit, type Question, type RoundMode, type Special, type Stage, type TileCounts, type TourRound, type TourStep } from './types'
 import { isDiagram } from './diagram'
 
 export type Rng = () => number
@@ -8,15 +8,36 @@ function pick<T>(arr: T[], rng: Rng): T {
 }
 
 /**
+ * Which question levels each board row (100 to 500) draws from, for each overall difficulty.
+ * Easy: the 100 and 200 rows both come from the easiest questions and every row above is one level easier.
+ * Balanced: each row mixes its own level with the one below it (the 100 row stays at the easiest).
+ * Standard: each row draws from its own level, as written.
+ * Hard: every row is one level harder and the top two rows both come from the hardest questions.
+ * The points on the tiles never change.
+ */
+export const ROW_LEVELS: Record<Difficulty, number[][]> = {
+  easy: [[0], [0], [1], [2], [3]],
+  balanced: [[0], [0, 1], [1, 2], [2, 3], [3, 4]],
+  standard: [[0], [1], [2], [3], [4]],
+  hard: [[1], [2], [3], [4], [4]],
+}
+/** Missing means standard, so games saved before the setting existed play as they did. */
+export const rowLevels = (d?: Difficulty) => ROW_LEVELS[d && (DIFFICULTIES as readonly string[]).includes(d) ? d : 'standard']
+const uniq = (...rows: number[][]) => rows.flat().filter((x, i, xs) => xs.indexOf(x) === i)
+
+/**
  * Picks one question per level, preferring ones not in `used`.
  * When every question in a level has been used, that level starts over.
  * Returns the picked questions and the updated used list for this category.
  */
-export function drawCategory(cat: Category, used: string[], rng: Rng = Math.random, taken?: Set<string>): { picks: Question[]; used: string[] } {
+export function drawCategory(cat: Category, used: string[], rng: Rng = Math.random, taken?: Set<string>, rows: number[][] = ROW_LEVELS.standard): { picks: Question[]; used: string[] } {
   let usedSet = new Set(used)
   const picks: Question[] = []
-  cat.levels.forEach((pool) => {
+  // `rows` says which level each row draws from; two rows may share a level, and never get the same question.
+  rows.map((ls) => ls.flatMap((l) => cat.levels[l] ?? [])).forEach((pool) => {
     if (pool.length === 0) throw new Error(`Category "${cat.name}" has an empty level`)
+    const notPicked = pool.filter((q) => !picks.includes(q))
+    if (notPicked.length) pool = notPicked
     let fresh = pool.filter((q) => !usedSet.has(q.id))
     if (fresh.length === 0) {
       const ids = new Set(pool.map((q) => q.id))
@@ -180,7 +201,7 @@ export function drawBoard(cats: Category[], tiles: TileCounts, used: Record<stri
   const golden = chooseGolden(cats.length, tiles.golden, rng)
   const specials = chooseSpecials(cats.length, golden, tiles, rng)
   return cats.map((cat, c) => {
-    const { picks, used: u } = drawCategory(cat, used[cat.id] ?? [], rng, taken)
+    const { picks, used: u } = drawCategory(cat, used[cat.id] ?? [], rng, taken, rowLevels(tiles.difficulty))
     used[cat.id] = u
     return picks.map((q, l) => {
       const isGold = golden.has(`${c}-${l}`)
@@ -205,6 +226,8 @@ export function createGame(
   if (teamNames.length < 2 || teamNames.length > 4) throw new Error('Play with 2 to 4 teams')
   const nextUsed = { ...usedByCat }
   const taken = new Set<string>()
+  // The lightning round, final and tie-breaker follow the overall difficulty too.
+  const rows = rowLevels(settings.difficulty)
   const clues = drawBoard(cats, settings, nextUsed, rng, 1, taken)
   const game: Game = {
     cats: cats.map(({ id, name, nameAr, nameUr, respect }) => ({ id, name, nameAr, ...(nameUr ? { nameUr } : {}), ...(respect ? { respect } : {}) })),
@@ -247,7 +270,7 @@ export function createGame(
   }
   if (game.settings.final) {
     for (const ci of shuffle(cats.map((_, i) => i), rng)) {
-      const pool = fresh(cats[ci], [4])
+      const pool = fresh(cats[ci], rows[4])
       if (!pool.length) continue
       const q = pick(pool, rng)
       take(q, cats[ci].id)
@@ -258,8 +281,8 @@ export function createGame(
     if (!game.final) game.settings.final = false
   }
   if (game.settings.lightning) {
-    // Short, quick questions: the two easiest levels, a few from every category in turn.
-    const perCat = cats.map((cat) => shuffle(fresh(cat, [0, 1]), rng))
+    // Short, quick questions: the levels behind the 100 and 200 rows, a few from every category in turn.
+    const perCat = cats.map((cat) => shuffle(fresh(cat, uniq(rows[0], rows[1])), rng))
     const list: Question[] = []
     for (let round = 0; list.length < LIGHTNING_MAX && perCat.some((p) => p.length > round); round++)
       perCat.forEach((p, ci) => {
@@ -271,9 +294,9 @@ export function createGame(
     if (list.length >= 5) game.lightning = list
     else game.settings.lightning = false
   }
-  // Sudden-death questions for a tie at the top: middle levels, one category after another, never on the board.
+  // Sudden-death questions for a tie at the top: the levels behind the 300 and 400 rows, one category after another, never on the board.
   const tie: NonNullable<Game['tiebreak']> = []
-  const tiePools = cats.map((cat) => shuffle(fresh(cat, [2, 3]), rng))
+  const tiePools = cats.map((cat) => shuffle(fresh(cat, uniq(rows[2], rows[3])), rng))
   for (let round = 0; tie.length < TIE_MAX && tiePools.some((p) => p.length > round); round++)
     tiePools.forEach((p, ci) => {
       if (tie.length < TIE_MAX && p[round]) {
@@ -445,6 +468,7 @@ function cleanSettings(s: GameSettings): GameSettings {
   if (typeof s.gameMinutes === 'number' && s.gameMinutes > 0 && s.gameMinutes <= 600) out.gameMinutes = Math.round(s.gameMinutes)
   for (const k of ['streak', 'comeback', 'lightning', 'final'] as const) if (s[k] === true) out[k] = true
   if (s.mode && (ROUND_MODES as readonly string[]).includes(s.mode)) out.mode = s.mode
+  if (s.difficulty && s.difficulty !== 'standard' && (DIFFICULTIES as readonly string[]).includes(s.difficulty)) out.difficulty = s.difficulty
   return out
 }
 

@@ -324,6 +324,8 @@ try {
     assert(await page.locator('.tile').count() === 10, 'expected 10 tiles')
     const golden = await page.evaluate(() => JSON.parse(localStorage.getItem('gg.game.ilm.v1')).clues.flat().filter((c) => c.golden).length)
     assert(golden === 1, 'expected 1 golden tile, got ' + golden)
+    const diff = await page.evaluate(() => { const k = Object.keys(localStorage).find((x) => /^gg\.game\./.test(x)); return JSON.parse(localStorage.getItem(k)).settings.difficulty })
+    assert(diff === 'balanced', 'expected Balanced by default, got ' + diff)
     const val = (k) => page.evaluate((k) => { const [c, l] = k.split('-').map(Number); return JSON.parse(localStorage.getItem('gg.game.ilm.v1')).clues[c][l].value }, k)
 
     // Wrong for team 1 (deducts), then right for team 2
