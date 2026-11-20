@@ -50,7 +50,7 @@ The legal age of adulthood for most purposes in Saudi Arabia. :: 18
 The Personal Status Law sets this age for marriage; younger marriages need a court's approval. :: 18
 The Saudi law that covers marriage, divorce, custody and inheritance, passed in 2022. :: Personal Status Law
 The Saudi law of 2023 that sets general rules for contracts and harm. :: Civil Transactions Law
-The Saudi law of 2022 that sets rules on witnesses and documents in court. :: Law of Evidence
+The Saudi law, in force since 2022, that sets rules on witnesses and documents in court. :: Law of Evidence
 The Saudi law that governs work in the private sector. :: Labour Law
 Women in Saudi Arabia were allowed to drive from this year. :: 2018
 The Saudi automated traffic camera system. :: Saher
@@ -136,7 +136,7 @@ The four big new laws announced by the Crown Prince in February 2021. :: Persona
 The Saudi Personal Status Law took effect in this year. :: 2022
 The Saudi Law of Evidence took effect in this year. :: 2022
 The Saudi Civil Transactions Law took effect in December of this year. :: 2023
-The fourth announced law, still being prepared, covers this. :: Discretionary (ta'zir) penalties
+The fourth of the new laws announced in 2021 covers this. :: Discretionary (ta'zir) penalties
 The Saudi Center for Commercial Arbitration began operating in this year. :: 2016
 The Saudi Companies Law in force took effect in this year. :: 2023
 The Saudi Bankruptcy Law took effect in this year. :: 2018
@@ -150,7 +150,7 @@ Big amendments to the Saudi Labour Law took effect in February of this year. :: 
 To work as a lawyer in Saudi Arabia you need a licence from this ministry. :: Ministry of Justice
 The Saudi Premium Residency Law was issued in this year. :: 2019
 The Bureau of Experts at the Council of Ministers mainly reviews these. :: Draft laws and regulations
-The first Grand Mufti of Saudi Arabia. :: Sheikh Muhammad ibn Ibrahim Al ash-Sheikh ﵀
+The first Grand Mufti of Saudi Arabia. :: Sheikh Muhammad ibn Ibrahim Al ash-Sheikh
 In 2010 King Abdullah limited fatwas on public matters to members of this body. :: Council of Senior Scholars (and approved scholars)
 The Saudi Code of Criminal Procedure says a suspect can't be held more than this many hours without being brought to the investigator. :: 24
 The Saudi Code of Criminal Procedure gives the accused the right to this kind of help. :: A lawyer (legal representative)
@@ -290,7 +290,7 @@ The kafala system refers to this. :: Sponsorship of foreign workers by employers
 The Saudi 'Musaned' platform is for this. :: Hiring domestic workers
 The Saudi General Authority for Awqaf Law was issued in this year. :: 2016
 The Saudi Authority for Intellectual Property is known by these letters. :: SAIP
-SAIP was set up in this year. :: 2018
+SAIP was set up in this year. :: 2017
 The Saudi Copyright Law was issued in this year. :: 2003
 Saudi patents are now registered with this body. :: SAIP
 The Saudi 'Ministry of Media' licences publications under this law. :: Printed Materials and Publication Law
@@ -309,7 +309,7 @@ The term for the losing party paying the winner's legal costs, now allowed in Sa
 The Saudi commercial courts can order this party to pay lawyers' fees. :: The losing party
 Royal decrees in Saudi Arabia are numbered with this letter in front, such as "M/51". :: M (meem)
 The Saudi law against harassment was issued in this year. :: 2018
-The Saudi law that protects personal data took full effect in this year. :: 2023
+The Saudi law that protects personal data came into force in this year. :: 2023
 The first Saudi women received lawyers' licences in this year. :: 2013
 A person who saw something and tells the court. :: Witness
 Taking someone's property by force or without right. :: Ghasb (usurpation)
@@ -320,7 +320,7 @@ The Saudi government website that publishes laws and regulations. :: Bureau of E
 The capital of the second Saudi state. :: Riyadh
 The first constitution-like document of the Hijaz in 1926. :: Al-Ta'limat al-Asasiyyah lil-Mamlakah al-Hijaziyyah
 King Faisal set up the Ministry of Justice in this year. :: 1970
-The first Saudi Minister of Justice. :: Sheikh Muhammad ibn Ali al-Harakan ﵀
+The first Saudi Minister of Justice. :: Sheikh Muhammad ibn Ali al-Harakan
 King Abdulaziz ordered judges to rely on six main Hanbali books in this year. :: 1928 (1347 AH)
 One of the main Hanbali books judges use, written by al-Buhuti ﵀. :: Kashshaf al-Qina' (or Sharh Muntaha al-Iradat)
 The Hanbali book "Al-Iqna'" was written by this scholar. :: Al-Hajjawi ﵀
@@ -422,7 +422,7 @@ The Saudi Traffic Law in force was issued in this year. :: 2007
 The Saudi Human Rights Commission was set up in this year. :: 2005
 
 ## 500
-The Shura Council's first Speaker after its 1993 revival. :: Sheikh Muhammad ibn Jubayr ﵀
+The Shura Council's first Speaker after its 1993 revival. :: Sheikh Muhammad ibn Jubayr
 The Saudi Minister of Justice appointed in 2015. :: Dr Walid Al-Samaani
 The first President of the Saudi Supreme Court after it was set up. :: Sheikh Abdulrahman Al-Kelya
 The first Attorney General of Saudi Arabia after the 2017 renaming. :: Sheikh Saud Al-Mujib
@@ -461,7 +461,7 @@ The hadd for false accusation of zina is this. :: Eighty lashes
 The term for the crime of highway robbery in Islamic law. :: Hirabah
 The rule that "hudud are averted by ___". :: Doubts (shubuhat)
 The hadith "Avert the hudud by doubts" is linked with this principle. :: Benefit of the doubt for the accused
-The Saudi rules for implementing ta'zir penalties are being codified in this planned law. :: Penal Code for Discretionary Sanctions
+The 2021 announcement of new Saudi laws included this code for ta'zir penalties. :: Penal Code for Discretionary Sanctions
 Article 2 of the Saudi Criminal Procedure Law bans arrest except under the law and bans this kind of treatment. :: Physical or mental harm (torture or degrading treatment)
 The Saudi Court of Appeal in criminal cases sits in panels of three; in death penalty cases it sits with this many. :: Five
 The Saudi Supreme Court sits in panels of three, but death penalty cases need this many judges. :: Five
@@ -519,7 +519,7 @@ The Saudi Code of Law Practice (lawyers' law) was issued in this year. :: 2001
 The independent National Society for Human Rights was set up in this year. :: 2004
 The Saudi Arabian Citizenship System dates from this year. :: 1954 (1374 AH)
 The Council of Senior Scholars was set up in this year. :: 1971
-The Saudi Commercial Register Law of 2025 replaced the old law from this year. :: 1996 (1416 AH)
+The Saudi Commercial Register Law of 2025 replaced the old law from this year. :: 1995 (1416 AH)
 The Arabic term for a killing with something not usually deadly, between intentional and accidental. :: Shibh al-'amd (quasi-intentional)
 The Arabic term for capacity to hold rights and duties, as opposed to capacity to act (ahliyyat al-ada'). :: Ahliyyat al-wujub
 

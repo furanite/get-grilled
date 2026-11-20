@@ -248,7 +248,7 @@ An operation that completes in one step with no possible interruption. :: Atomic
 Reading a 16-bit variable on an 8-bit AVR in main while an ISR changes it can give this. :: A torn (corrupted) value
 The RTOS problem where a low-priority task holding a mutex blocks a high-priority task. :: Priority inversion
 The RTOS fix where the low-priority task temporarily gets high priority. :: Priority inheritance
-The Mars rover that suffered priority inversion in 1997. :: Mars Pathfinder
+The 1997 Mars lander mission whose software suffered priority inversion. :: Mars Pathfinder
 The RTOS scheduling where the highest-priority ready task always runs. :: Preemptive priority scheduling
 Giving each task a turn of fixed time. :: Round-robin (time slicing)
 The scheduling theory that gives shorter-period tasks higher priority. :: Rate-monotonic scheduling

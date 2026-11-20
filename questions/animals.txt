@@ -101,7 +101,7 @@ The fierce sea predator with rows of teeth. :: Shark
 The dangerous shark that is the biggest predatory fish. :: Great white shark
 The animal with black spots that is the fastest on land. :: Cheetah
 The big cat with rosette spots that climbs trees with its food. :: Leopard
-The striped dog-like animal known for its 'laugh'. :: Hyena
+The dog-like scavenger of Africa known for its 'laugh'. :: Hyena (spotted hyena)
 The long-eared animal that hops and is said to love carrots. :: Rabbit
 The big furry animal that sleeps through winter and loves honey. :: Bear
 
@@ -174,7 +174,7 @@ The famous gold fish kept in ponds, from China. :: Goldfish (and koi)
 The large sea mammal that eats seagrass and is found in the Red Sea and Gulf. :: Dugong
 The large whale famous for its songs. :: Humpback whale
 The whale with a long tusk, called the unicorn of the sea. :: Narwhal
-The toothed whale that dives the deepest and has the largest brain. :: Sperm whale
+The toothed whale with the largest brain of any animal. :: Sperm whale
 The tiny shrimp-like animals that blue whales eat. :: Krill
 The animal with three hearts and blue blood. :: Octopus
 The animal with ten arms that squirts ink. :: Squid

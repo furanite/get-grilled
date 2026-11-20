@@ -115,7 +115,7 @@ The Turkish word "döner" means this. :: Turning (rotating)
 The Turkish word "kebap" means this. :: Grilled or roasted meat
 The thin Turkish flatbread with minced meat, called "Turkish pizza". :: Lahmacun
 The Turkish salty yoghurt drink. :: Ayran
-The Turkish letter with a dot-less i, written "ı". :: Dotless i
+The name of the Turkish letter "ı", unlike the dotted "i". :: Dotless i (noktasız ı)
 The Turkish letter "ç" sounds like this English sound. :: "ch" (as in church)
 The Turkish letter "ş" sounds like this English sound. :: "sh" (as in ship)
 The Turkish letter "c" sounds like this English sound. :: "j" (as in jam)
@@ -441,7 +441,7 @@ The Turkish idiom "Su gibi" means this. :: Fluently (like water)
 Yunus Emre's famous line "Gelin tanış olalım" asks people to do this. :: Come and get to know one another
 Yunus Emre's famous line about loving creation "for the sake of the Creator". :: Yaratılanı severiz Yaratandan ötürü
 Yunus Emre's tomb is claimed by several towns, and the best-known is in this area. :: Eskişehir (Sarıköy)
-The year 2021 was named by UNESCO as the anniversary year of this poet. :: Yunus Emre ﵀ (700th year of his death)
+The year 2021 was named by UNESCO as the anniversary year of this poet. :: Yunus Emre ﵀ (700th year of his passing)
 Mehmet Akif Ersoy's ﵀ collection of poems. :: Safahat
 The Turkish national anthem was adopted in this year. :: 1921
 The Turkish national anthem begins with these words. :: Korkma (Do not fear)
@@ -633,7 +633,7 @@ Görüşürüz :: See you
 Kitap | Kalem | Fikir | Ekmek :: Ekmek (the others come from Arabic)
 Otobüs | Tren | Kuaför | Kapı :: Kapı (the others come from French)
 Baklava | Lokum | Künefe | Ayran :: Ayran (the others are sweets)
-Yunus Emre | Fuzuli | Baki | Ghalib :: Ghalib (the others wrote in Turkish)
+Yunus Emre | Fuzuli | Baki | Mirza Ghalib :: Mirza Ghalib (the others wrote in Turkish)
 Ankara | Istanbul | Konya | Tabriz :: Tabriz (the others are in Turkey)
 Ç | Ş | Ğ | Q :: Q (the others are letters of the Turkish alphabet)
 

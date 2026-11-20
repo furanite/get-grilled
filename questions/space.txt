@@ -109,7 +109,7 @@ The Islamic months begin when this is seen after sunset. :: The new crescent moo
 The prayer times depend on the position of this. :: The Sun
 The red colour of the Moon in a total lunar eclipse is often called this. :: Blood moon
 The star in the Little Dipper's handle that marks north. :: Polaris
-The Artemis II mission planned to fly four astronauts around this. :: The Moon
+The four-person Artemis II mission flies around this. :: The Moon
 
 ## 200
 The largest moon of Saturn, with a thick atmosphere. :: Titan
@@ -434,7 +434,7 @@ The 'New General Catalogue' of nebulae and galaxies is known by these letters. :
 The astronomer who first described 'black stars' that light could not escape, in 1783. :: John Michell
 The physicist who first solved Einstein's equations for a black hole in 1916. :: Karl Schwarzschild
 The solution for a spinning black hole was found by this mathematician in 1963. :: Roy Kerr
-The first black hole confirmed, an X-ray source in Cygnus. :: Cygnus X-1
+The first black hole confirmed, an X-ray binary found in 1964 and the subject of a Hawking–Thorne bet. :: Cygnus X-1
 The bet between Stephen Hawking and Kip Thorne was about this object. :: Cygnus X-1
 The limit above which a neutron star collapses into a black hole. :: Tolman–Oppenheimer–Volkoff limit
 The type of supernova used as 'standard candles' to measure the universe. :: Type Ia supernova
@@ -469,7 +469,7 @@ The Moon's slight rocking that lets us see about 59% of its surface. :: Libratio
 The Mars-sized body thought to have hit the early Earth. :: Theia
 The period of many impacts about 4 billion years ago. :: Late Heavy Bombardment
 The idea that the giant planets moved early in the Solar System's history. :: Nice model
-The point where the Earth's orbit crosses the ecliptic plane's line with the equator in March. :: Vernal equinox (First Point of Aries)
+The point where the Sun's path (the ecliptic) crosses the celestial equator in March. :: Vernal equinox (First Point of Aries)
 The coordinate on the sky like longitude. :: Right ascension
 The coordinate on the sky like latitude. :: Declination
 The time based on the stars rather than the Sun. :: Sidereal time
@@ -512,7 +512,7 @@ The galaxy cluster whose collision gave strong visual evidence for dark matter. 
 The large structure of galaxies first mapped in 1989, a 'wall' of galaxies. :: Great Wall (CfA2 Great Wall)
 The huge empty regions between galaxy filaments. :: Cosmic voids
 The rare star type that may be the brightest stars of the early universe. :: Population III stars
-The record-distant galaxy confirmed by Webb in 2024. :: JADES-GS-z14-0
+The galaxy confirmed by Webb in 2024 as the most distant then known, at redshift about 14.3. :: JADES-GS-z14-0
 The Space Shuttle flight STS-51-G carried the first Arab astronaut and launched this satellite for Arabsat. :: Arabsat-1B
 The luminosity at which outward radiation pressure on ionised gas balances a star's gravity. :: Eddington luminosity (limit)
 Far from a galaxy's centre, Keplerian motion predicts orbital speed falling as radius to this power, unlike the flat curves seen. :: −1/2

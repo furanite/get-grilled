@@ -199,7 +199,7 @@ The insect with the longest lifespan is a queen of this kind. :: Termite
 The most venomous snake on land. :: The inland taipan
 The deadliest animal to humans. :: The mosquito
 The only country to play at every men's World Cup. :: Brazil
-The top scorer in men's World Cup history, with 16 goals. :: Miroslav Klose
+The top scorer in men's World Cup history up to and including 2022, with 16 goals. :: Miroslav Klose
 The country that has won the AFC Asian Cup the most times. :: Japan
 The number of times Saudi Arabia has won the AFC Asian Cup. :: Three
 Saudi Arabia's famous 2022 World Cup win was against this team. :: Argentina
@@ -233,10 +233,10 @@ The largest pyramid by volume, in Mexico. :: The Great Pyramid of Cholula
 The highest road in the world that cars can use. :: Umling La (India)
 The highest railway in the world. :: Qinghai–Tibet Railway
 The longest railway in the world. :: The Trans-Siberian Railway
-The fastest train in regular passenger service, a maglev in China. :: Shanghai Maglev
+The maglev train in China that reached 431 km/h in regular passenger service. :: Shanghai Maglev
 The fastest train speed on rails ever, 574.8 km/h, set by this French train. :: TGV
-The fastest roller coaster in the world, at Ferrari World Abu Dhabi. :: Formula Rossa
-The tallest roller coaster planned at Qiddiya near Riyadh. :: Falcon's Flight
+The roller coaster at Ferrari World Abu Dhabi that became the world's fastest in 2010, at 240 km/h. :: Formula Rossa
+The roller coaster at Six Flags Qiddiya City, near Riyadh, built to be the tallest in the world. :: Falcons Flight
 The tallest Ferris wheel in the world, in Dubai. :: Ain Dubai
 Chile, the longest north-south country, is about this long. :: About 4,300 km
 The country that crosses the most time zones on the mainland. :: Russia
@@ -265,7 +265,7 @@ The most reactive metal. :: Caesium
 The closest star to the Sun. :: Proxima Centauri
 The nearest large galaxy to the Milky Way. :: The Andromeda Galaxy
 The first woman in space. :: Valentina Tereshkova
-The highest altitude a human has reached, on Apollo 13. :: About 400,000 km from Earth
+The record distance from Earth reached by humans, set by Apollo 13 in 1970. :: About 400,000 km from Earth
 The speed of light, roughly. :: About 300,000 km per second
 The most powerful earthquake ever recorded, in Chile in 1960. :: Magnitude 9.5 (Valdivia)
 The deadliest earthquake in recorded history, in China in 1556. :: Shaanxi earthquake
@@ -333,7 +333,7 @@ The shortest scheduled flight, between two Scottish islands. :: Westray to Papa 
 The duration of the shortest scheduled flight, Westray to Papa Westray. :: About 1.5 minutes
 The largest airline by fleet size. :: American Airlines
 The largest dam in the world by power output. :: The Three Gorges Dam
-The largest offshore wind farm in the world, off England. :: Hornsea
+The giant offshore wind farm off Yorkshire, England, whose second phase was the world's largest when it opened in 2022. :: Hornsea
 The largest desalination plant in the world, in Saudi Arabia. :: Ras Al-Khair
 The largest hospital in the world by beds, in China. :: The First Affiliated Hospital of Zhengzhou University
 The largest school in the world by students, in India. :: City Montessori School, Lucknow
@@ -416,7 +416,7 @@ The deepest metro station in the world, in Kyiv. :: Arsenalna
 The Riyadh Metro, one of the longest driverless systems, is about this long. :: 176 km
 The hotel planned in Makkah to have the most rooms in the world. :: Abraj Kudai
 The longest sea wall in the world, in South Korea. :: Saemangeum Seawall
-The biggest stadium in the world, in North Korea. :: Rungrado 1st of May Stadium
+The biggest stadium in the world by seating capacity, a cricket ground in Ahmedabad, India. :: Narendra Modi Stadium
 The largest tree by volume. :: General Sherman (giant sequoia)
 The coldest place on Earth, in Antarctica. :: Vostok Station (East Antarctic Plateau)
 The wettest place on Earth, in India. :: Mawsynram
@@ -426,7 +426,7 @@ The largest ship ever built, a supertanker. :: Seawise Giant (Knock Nevis)
 The largest cruise ship as of 2024. :: Icon of the Seas
 The longest cave system in the world. :: Mammoth Cave
 The largest cave passage in the world, in Vietnam. :: Son Doong
-The men's marathon world record, set by Kelvin Kiptum in 2023, roughly. :: 2 hours 0 minutes 35 seconds
+The men's marathon world record Kelvin Kiptum set in Chicago in 2023, roughly. :: 2 hours 0 minutes 35 seconds
 The Kenyan runner who became the first woman to run a marathon under 2 hours 10 minutes, in Chicago in 2024. :: Ruth Chepngetich
 The men's 200 m world record. :: 19.19 seconds
 The South African who has held the men's 400 m world record since 2016. :: Wayde van Niekerk
@@ -508,7 +508,7 @@ The largest gold nugget ever found, in Australia in 1869. :: The Welcome Strange
 The largest cut diamond from the Cullinan, set in the British sceptre. :: The Great Star of Africa (Cullinan I)
 The aircraft with the largest wingspan ever flown. :: Stratolaunch (Roc)
 The heaviest aircraft ever built, destroyed in 2022. :: Antonov An-225 Mriya
-The tallest dam in the world, in China. :: Jinping-I Dam
+The 305 m dam in Sichuan, China, that became the world's tallest when it was finished in 2014. :: Jinping-I Dam
 The largest artificial lake by volume, between Zambia and Zimbabwe. :: Lake Kariba
 The longest canal in the world, in China. :: The Grand Canal
 The narrow strait at the southern end of the Red Sea. :: Bab-el-Mandeb

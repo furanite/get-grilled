@@ -412,7 +412,7 @@ The IBM researcher who showed in 1969 that FIFO can get worse with more frames. 
 The two inventors of the LFS log-structured file system in 1991: Rosenblum and this man. :: John Ousterhout
 The Sun network file system released in 1984, shortened to three letters. :: NFS
 The Google distributed file system paper published in 2003. :: Google File System (GFS)
-The Plan 9 idea that everything, including the network, is a file. :: Everything is a file
+The Unix design idea, pushed further by Plan 9, that devices, processes and even the network are reached through the file system. :: Everything is a file
 The Bell Labs operating system that followed Unix, named after a film. :: Plan 9
 The text encoding invented by Ken Thompson and Rob Pike for Plan 9 in 1992. :: UTF-8
 The epoch from which Unix time counts. :: 1 January 1970

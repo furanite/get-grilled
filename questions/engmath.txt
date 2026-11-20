@@ -46,7 +46,7 @@ The volume of a cylinder of radius r and height h. :: πr²h
 The area of a triangle with base b and height h. :: ½bh
 The slope of the line y = 3x + 2. :: 3
 The y-intercept of y = 3x + 2. :: 2
-The general form of a straight line. :: y = mx + c
+The slope-intercept form of a straight line. :: y = mx + c
 The roots of a quadratic are found with this formula. :: Quadratic formula
 The roots of x² − 9 = 0. :: 3 and −3
 The roots of x² − 5x + 6 = 0. :: 2 and 3

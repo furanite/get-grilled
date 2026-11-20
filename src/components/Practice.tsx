@@ -85,11 +85,12 @@ export default function Practice({ t, lang, index, custom, pools, onBack }: Prop
 
   const card = deck?.[i]
   const qText = card ? (lang === 'ar' && card.q.qAr ? card.q.qAr : card.q.q) : ''
+  const allText = card ? [card.q.q, card.q.qAr ?? ''].join('\n') : ''
   useEffect(() => {
     if (!qText) return
-    speakClue(qText, lang)
+    speakClue(qText, lang, allText.split('\n'))
     return () => stopSpeaking()
-  }, [qText, lang])
+  }, [qText, lang, allText])
 
   const mark = (got: boolean) => {
     setMarks((m) => [...m, got])

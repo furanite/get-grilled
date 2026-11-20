@@ -152,8 +152,8 @@ Latin: "On the face of it", at first sight. :: Prima facie
 Latin: "From the beginning". :: Ab initio
 Latin: "For the time being". :: Pro tempore (pro tem)
 Latin: "For the good", free legal work. :: Pro bono
-Latin: "Under the rule", a matter before a court. :: Sub judice
-Latin: "Of one's own right", the right to represent oneself. :: Sui juris
+Latin: "Under a judge", a matter before a court. :: Sub judice
+Latin: "Of one's own right", having full legal capacity to manage one's own affairs. :: Sui juris
 The legal term for a formal written court order telling someone to do or stop doing something. :: A writ
 Latin: "Under penalty", an order to bring evidence. :: Subpoena
 Latin: "We command", an order to an official to act. :: Mandamus
@@ -381,7 +381,7 @@ The legal term for setting off two debts against each other. :: Set-off (muqassa
 The Arabic legal term for set-off. :: Muqassah
 The legal term for replacing an old obligation with a new one. :: Novation (tajdid)
 The legal term for a right that moves to another person who paid. :: Subrogation (hulul)
-The legal term for property found that belongs to no one known. :: Treasure trove (luqatah in Islamic law)
+The legal term for valuables found hidden in the ground whose owner is unknown. :: Treasure trove (rikaz in Islamic law)
 The Arabic legal term for a found item. :: Luqatah
 The Arabic legal term for a foundling child. :: Laqit
 The legal term for adoption, which Islamic law replaces with sponsorship. :: Kafalah (fostering)
@@ -586,4 +586,4 @@ Qiyas | Ijma' | Ijtihad | Mahr :: Mahr (the others are methods or sources of law
 It comes from Latin for "you shall have the body". | It protects against unlawful detention. | England's 1679 Act made it famous. | A prisoner uses it to be brought before a judge. :: Habeas corpus
 This Arabic word also names a scholar's non-binding opinion. | It is issued by a mufti. | It answers a question on Islamic law. :: Fatwa
 It began in Scotland with a snail. | Lord Atkin set out the "neighbour principle". | It is the foundation of the law of negligence. :: Donoghue v Stevenson
-It is Saudi Arabia's official gazette. | It is named after the Makkah calendar. | New laws are published in it. :: Umm al-Qura
+It is Saudi Arabia's official gazette. | Its name is a title of Makkah. | New laws are published in it. :: Umm al-Qura

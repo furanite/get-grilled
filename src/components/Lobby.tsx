@@ -6,12 +6,16 @@ import { LOGO_MAX_BYTES, type LobbyInfo } from '../lib/store'
 import { HOST_EDITION } from '../lib/edition'
 import { Ambient, Flourish, FlourishAbove, Mark } from './Brand'
 
-/** Seconds until "HH:MM" today, or null when no time is set or it has passed. */
-function secsUntil(start: string, now: number): number | null {
+/**
+ * Seconds until "HH:MM", or null when no time is set or it has passed. A time more than 12 hours ago is taken as
+ * tomorrow's, so a waiting screen put up at 23:30 for a 00:15 start still counts down.
+ */
+export function secsUntil(start: string, now: number): number | null {
   const m = /^(\d\d):(\d\d)$/.exec(start)
   if (!m) return null
   const d = new Date(now)
   d.setHours(+m[1], +m[2], 0, 0)
+  if (now - d.getTime() > 12 * 3600_000) d.setDate(d.getDate() + 1)
   const s = Math.round((d.getTime() - now) / 1000)
   return s > 0 ? s : null
 }

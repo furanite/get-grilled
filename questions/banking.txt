@@ -57,7 +57,7 @@ A code sent to your phone to confirm a payment. :: One-time password (OTP)
 Proving your identity with a password plus a code. :: Two-factor authentication
 The rule that banks must check who their customers are. :: Know your customer (KYC)
 Hiding the source of money made from crime. :: Money laundering
-A bank's most important customers' savings, protected by a government scheme. :: Insured deposits
+A bank customer's savings, up to a set limit, protected by a government scheme. :: Insured deposits
 A run on a bank happens when many customers try to do this at once. :: Withdraw their money
 The Italian family whose bank funded the Renaissance in Florence. :: Medici
 The country famous for bank secrecy, home of UBS. :: Switzerland
@@ -65,7 +65,7 @@ The Swiss bank founded in 1856 that was taken over in 2023. :: Credit Suisse
 The largest US bank by assets. :: JPMorgan Chase
 The largest bank in Saudi Arabia by assets. :: Saudi National Bank (SNB)
 The largest Islamic bank in the world by assets, based in Riyadh. :: Al Rajhi Bank
-The bank card company with a blue and yellow logo, used worldwide. :: Visa
+The card network that began as Bank of America's BankAmericard. :: Visa
 The card company with red and yellow circles. :: Mastercard
 The card company known for charge cards and the centurion. :: American Express
 A short form of "automated teller machine". :: ATM
@@ -89,7 +89,7 @@ The Bangladeshi founder of the Grameen Bank who won the Nobel Peace Prize in 200
 The international bank code used to identify banks for transfers. :: SWIFT code (BIC)
 The Belgian-based network banks use to send payment messages. :: SWIFT
 A payment app used to send money between people with a phone number in Saudi Arabia. :: Digital wallet (e.g. STC Pay, urpay)
-Saudi Arabia's national payments company, Saudi ___. :: Saudi Payments
+The national company, owned by the Saudi Central Bank, that runs mada and SARIE. :: Saudi Payments
 The Saudi riyal's fixed rate against the US dollar. :: 3.75
 A bank that follows Sharia rules and avoids interest. :: Islamic bank
 The Arabic word for interest, which Islamic banks avoid. :: Riba
@@ -160,7 +160,7 @@ A bank's promise to pay if a customer fails to meet an obligation. :: Bank guara
 A short-term loan that 'bridges' a gap until other money arrives. :: Bridge loan
 Finance for importing and exporting goods. :: Trade finance
 Documents showing goods have been loaded on a ship. :: Bill of lading
-The bank in a letter of credit that pays the exporter. :: Advising (or confirming) bank
+The bank that adds its own promise to pay the exporter under a letter of credit. :: Confirming bank
 Finance where a bank buys a company's invoices. :: Factoring
 A bank that lends to governments for development, based in Washington. :: World Bank
 The fund that lends to countries in balance-of-payments trouble. :: IMF (International Monetary Fund)
@@ -446,7 +446,7 @@ The value of the original TARP fund. :: 700 billion dollars
 The UK's 2013 rule separating retail banking from investment banking. :: Ring-fencing (Vickers reforms)
 The Liikanen report proposed separation of banking in this region. :: The European Union
 The number of Basel Committee 'Core Principles for Effective Banking Supervision'. :: 29
-The Basel Committee issued principles for Islamic bank regulation together with this body. :: IFSB (Islamic Financial Services Board)
+The body that issued Core Principles for Islamic Finance Regulation, modelled on the Basel Core Principles. :: IFSB (Islamic Financial Services Board)
 The IFSB is based in this city. :: Kuala Lumpur
 The IFSB capital adequacy standard for Islamic banks, revised in 2021. :: IFSB-23
 The 'alpha factor' in IFSB capital rules reflects risk passed to these account holders. :: Profit-sharing investment account holders
@@ -507,7 +507,7 @@ Charles Ponzi ran his scheme in this US city. :: Boston
 The concept of 'deposit insurance' was first introduced nationally in the US in this year. :: 1933 (FDIC created by the Banking Act of 1933)
 The Bank for International Settlements was founded in 1930 to handle these payments. :: German First World War reparations
 The BIS is sometimes called this. :: The central bank of central banks
-The 1974 'Basel Concordat' set out how home and host supervisors share oversight of these. :: Foreign bank branches and subsidiaries
+The 1975 'Basel Concordat' set out how home and host supervisors share oversight of these. :: Foreign bank branches and subsidiaries
 The Bank of England was nationalised in this year. :: 1946
 The Bank of England gained independence to set interest rates in this year. :: 1997
 The 1951 agreement that freed the Fed from pegging Treasury yields. :: Treasury-Fed Accord

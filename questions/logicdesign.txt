@@ -241,7 +241,7 @@ FPGAs load their bitstream at power-up from this kind of chip. :: Configuration 
 The FPGA design flow after synthesis. :: Place and route (implementation)
 The file that tells the tools which FPGA pins to use. :: Constraints file (XDC or SDC)
 AMD's (Xilinx's) FPGA design software. :: Vivado
-Intel's (Altera's) FPGA design software. :: Quartus
+Altera's (once Intel's) FPGA design software. :: Quartus
 The free Verilog simulator often used with GTKWave. :: Icarus Verilog
 The waveform file format produced by Verilog simulations. :: VCD (value change dump)
 The programmable logic devices made of AND–OR arrays, before FPGAs. :: PALs and GALs (PLDs)
@@ -334,8 +334,8 @@ Name this storage element, which copies its input to Q on the clock edge. {img:d
 ## 400
 The FPGA family names from AMD (Xilinx): Spartan, Artix, Kintex and this high end. :: Virtex
 The AMD (Xilinx) family, launched in 2011, that puts Arm cores and FPGA fabric on one chip. :: Zynq (SoC FPGA)
-The Intel (Altera) low-cost FPGA family. :: Cyclone
-The Intel (Altera) high-end FPGA family. :: Stratix
+The Altera (once Intel) low-cost FPGA family. :: Cyclone
+The Altera (once Intel) high-end FPGA family. :: Stratix
 The FPGA company with the low-power iCE40 family. :: Lattice Semiconductor
 The open-source toolchain project that first reverse-engineered the iCE40 bitstream. :: Project IceStorm
 The open-source place-and-route tool used with Yosys. :: nextpnr
@@ -419,7 +419,7 @@ The AMD (Xilinx) primitive for double-data-rate outputs. :: ODDR
 The timing constraint command that defines a clock in SDC and XDC files. :: create_clock
 The constraint that says when data arrives at an input pin relative to a clock. :: set_input_delay
 An AMD LUT used as a compact shift register. :: SRL (SRL16 or SRLC32E)
-The logic unit in Intel's high-end FPGAs, larger than a simple LE. :: ALM (adaptive logic module)
+The logic unit in Altera's high-end FPGAs, larger than a simple LE. :: ALM (adaptive logic module)
 The Verilog construct that builds many copies of hardware with a loop at compile time. :: generate block
 The Verilog keyword for compile-time constants passed into modules. :: parameter
 The VHDL equivalent of Verilog parameters. :: Generics

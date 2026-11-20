@@ -246,7 +246,7 @@ The damping ratio of a series RLC circuit. :: (R/2)√(C/L)
 The theorem that turns a delta network into an equivalent star. :: Delta–wye (Δ–Y) transformation
 Each star resistor from equal delta resistors R equals this. :: R/3
 The bridge circuit used to measure an unknown resistance precisely. :: Wheatstone bridge
-A Wheatstone bridge is balanced when the ratios of opposite arms are this. :: Equal
+A Wheatstone bridge is balanced when the products of opposite arms are this. :: Equal
 The oscillator that uses an RC bridge and an op-amp to make a sine wave. :: Wien bridge oscillator
 The condition for oscillation: loop gain of one and this total phase shift. :: 0° (or 360°)
 The criterion that states those oscillation conditions. :: Barkhausen criterion
@@ -435,7 +435,7 @@ The engineer who invented the fully electronic television system. :: Philo Farns
 The engineer who co-developed the Yagi–Uda antenna with Hidetsugu Yagi. :: Shintaro Uda
 The pioneer of radar whose 1935 Daventry experiment showed aircraft could be detected. :: Robert Watson-Watt
 The engineer who showed in his 1937 master's thesis that Boolean algebra could design switching circuits. :: Claude Shannon
-The engineers who built the first point-contact transistor at Bell Labs in 1947. :: Bardeen, Brattain and Shockley
+The two engineers who built the first point-contact transistor at Bell Labs in 1947. :: John Bardeen and Walter Brattain
 The year the three transistor inventors won the Nobel Prize in Physics. :: 1956
 The Texas Instruments engineer who built the first integrated circuit in 1958. :: Jack Kilby
 The Fairchild engineer who invented the planar silicon integrated circuit in 1959. :: Robert Noyce
@@ -486,7 +486,7 @@ The coaxial cable was patented by this engineer in 1880. :: Oliver Heaviside
 The engineers who wrote the 1974 paper on scaling MOSFETs. :: Robert Dennard and colleagues
 Robert Dennard also invented this memory cell in 1966. :: One-transistor DRAM cell
 The Japanese engineer who invented flash memory at Toshiba. :: Fujio Masuoka
-The Japanese engineer who invented the efficient blue LED, winning the 2014 Nobel Prize. :: Shuji Nakamura
+The Japanese engineer at Nichia who developed the bright blue GaN LED in 1993, sharing the 2014 Nobel Prize. :: Shuji Nakamura
 The material used in efficient blue LEDs. :: Gallium nitride (GaN)
 The engineer who made the first visible-spectrum (red) LED in 1962. :: Nick Holonyak
 The figure of merit that compares power MOSFETs by on-resistance times gate charge. :: RDS(on) × Qg

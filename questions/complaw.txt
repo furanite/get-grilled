@@ -180,7 +180,7 @@ The ICC court of arbitration is based in this city. :: Paris
 The "Lex Mercatoria" means this. :: The law merchant (customs of traders)
 The UN body that drafts model trade laws. :: UNCITRAL
 A company with a value over 1 billion dollars before listing. :: A unicorn
-The Saudi fintech unicorn for "buy now, pay later". :: Tabby
+The "buy now, pay later" unicorn founded in the UAE that moved its headquarters to Riyadh. :: Tabby
 A company formed to hold a single deal or asset. :: A special purpose vehicle (SPV)
 The legal right of an existing shareholder to buy new shares first. :: Pre-emption right
 A shareholder who owns most of the shares. :: A majority shareholder
@@ -295,7 +295,7 @@ The Saudi rule requiring a mandatory offer when a shareholder reaches this stake
 A shareholder owning 5% or more of a Saudi listed company must do this. :: Disclose it
 The Saudi stock market's daily price limit for most shares. :: 10% up or down
 In Saudi Arabia, the regulator of banks and insurance companies. :: SAMA (insurance moved to the Insurance Authority)
-The Saudi Insurance Authority was set up in this year. :: 2023
+The Saudi Insurance Authority took over insurance supervision from SAMA in this year. :: 2023
 The Saudi law requiring health insurance for private sector workers. :: The Cooperative Health Insurance Law
 The Saudi law that set up cooperative insurance companies. :: The Cooperative Insurance Companies Control Law (2003)
 The Islamic insurance model used in Saudi Arabia is called this. :: Cooperative insurance (takaful)
@@ -426,7 +426,7 @@ Medieval English market courts were called "piepowder" courts, from French words
 The UNCITRAL Model Law on International Commercial Arbitration was adopted in this year. :: 1985
 Salomon made these items. :: Boots (and shoes)
 Goods classes in the Nice Classification run from 1 to this. :: 34
-Saudi digital banks licensed in 2021 included STC Bank, Saudi Digital Bank and this. :: D360 Bank
+Saudi digital banks licensed in 2021 were STC Bank and this one. :: Saudi Digital Bank
 
 ## 500
 The Saudi Companies Law 2022 lets shareholders agree on "drag-along" rights and this matching kind. :: Tag-along rights

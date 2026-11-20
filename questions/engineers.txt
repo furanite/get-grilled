@@ -110,7 +110,7 @@ The French sculptor who designed the Statue of Liberty. :: Frédéric Auguste Ba
 The engineer who designed the Brooklyn Bridge. :: John Roebling
 The engineer who finished the Brooklyn Bridge after his father's death. :: Washington Roebling
 The woman who managed the Brooklyn Bridge's construction for her sick husband. :: Emily Warren Roebling
-The engineer who built the Suez Canal. :: Ferdinand de Lesseps
+The French diplomat who led the building of the Suez Canal. :: Ferdinand de Lesseps
 The Suez Canal opened in this year. :: 1869
 The army engineer who completed the Panama Canal, opened in 1914. :: George Washington Goethals
 The engineer who built the Golden Gate Bridge. :: Joseph Strauss
@@ -460,9 +460,9 @@ The engineer who invented the hydraulic crane and founded Armstrong Whitworth. :
 William Armstrong's house Cragside was the first in the world lit by this. :: Hydroelectric power
 The engineer who built the Eddystone Lighthouse in 1759 using interlocking stones. :: John Smeaton
 John Smeaton was the first to call himself this. :: A civil engineer
-The world's first engineering society, founded in London in 1818. :: Institution of Civil Engineers (ICE)
+The world's first professional engineering institution, founded in London in 1818. :: Institution of Civil Engineers (ICE)
 The first president of the Institution of Civil Engineers. :: Thomas Telford
-The world's oldest engineering school, founded in Paris in 1747. :: École des Ponts et Chaussées
+The world's oldest civil engineering school, founded in Paris in 1747. :: École des Ponts et Chaussées
 The French engineer who wrote a prize-winning study of friction in 1781. :: Charles-Augustin de Coulomb
 The engineer whose 1840s experiments with bridges showed the strength of wrought iron tubes. :: William Fairbairn
 The German engineer who built the Z3, the first working programmable computer, in 1941. :: Konrad Zuse

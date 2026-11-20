@@ -143,7 +143,7 @@ The river that flows through Vienna and Budapest. :: The Danube
 The river sacred to Hindus that flows through Varanasi. :: The Ganges
 The longest river in Asia. :: The Yangtze
 The highest mountain in Africa. :: Mount Kilimanjaro
-The highest mountain in North America. :: Denali
+The highest mountain in North America. :: Denali (Mount McKinley)
 The volcano in Japan that is its highest mountain. :: Mount Fuji
 The volcano that buried Pompeii in 79 CE. :: Mount Vesuvius
 The largest lake in Africa. :: Lake Victoria
@@ -479,7 +479,7 @@ The British territory at the southern tip of Spain. :: Gibraltar
 The year East Timor (Timor-Leste) became independent. :: 2002
 The deepest canyon in the world by some measures, in Tibet. :: Yarlung Tsangpo Grand Canyon
 The world's largest sand island, in Queensland. :: K'gari (Fraser Island)
-The highest navigable pass in the Himalayas linking Pakistan and China by road. :: Khunjerab Pass
+The high mountain pass in the Karakoram linking Pakistan and China by road. :: Khunjerab Pass
 The road that crosses the Khunjerab Pass. :: Karakoram Highway
 The pass between Afghanistan and Pakistan famous in history. :: Khyber Pass
 The active volcano in Sicily, Europe's tallest active volcano. :: Mount Etna

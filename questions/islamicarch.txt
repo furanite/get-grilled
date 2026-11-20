@@ -90,7 +90,7 @@ The red-and-white striped arches use stone and this. :: Brick
 The old mosques of Najd are built of this. :: Mud brick
 The program by the Crown Prince to restore historic mosques in Saudi Arabia. :: The Prince Mohammed bin Salman Project for Developing Historical Mosques
 The Saudi mosque architecture styles include Najdi, Hejazi, Southern and this. :: Eastern (and others)
-The Seljuk Turks brought this four-iwan plan to mosques in Iran. :: The four-iwan plan
+The Seljuk Turks brought this mosque plan, with four vaulted halls around a courtyard, to Iran. :: The four-iwan plan
 The Topkapı Palace was the home of Ottoman sultans in this city. :: Istanbul
 The Masjid al-Qiblatayn in Madinah is famous because the qiblah changed there from this city. :: Jerusalem
 The mosque in Madinah where the qiblah changed. :: Masjid al-Qiblatayn
@@ -271,7 +271,7 @@ The Kufic style built from bricks or tiles on a grid, so all its letters have ri
 The cursive calligraphy style used in many mosque inscriptions. :: Thuluth
 The Persian calligraphy style with hanging letters. :: Nasta'liq
 The calligraphy style used in most printed Qurans. :: Naskh
-The Ottoman calligraphy style used for the sultan's signature. :: Diwani (the tughra)
+The Ottoman calligraphy style developed for court decrees in the chancery. :: Diwani
 The large roundels in Hagia Sophia bear the names of Allah, our Beloved and our master, the Prophet Muhammad ﷺ, the four caliphs and these two. :: Al-Hasan and al-Husayn رضوان الله عليهم
 The Syrian calligrapher who wrote the Madinah Mushaf. :: Uthman Taha
 The muqarnas comes from vaulting in this region in the 10th–11th century. :: Iran and Iraq (eastern Islamic lands)
@@ -285,7 +285,7 @@ The cusped arch with many small lobes, used in Mughal palaces. :: A multifoil (c
 The pointed arch drawn from four arcs, two tight ones at the sides and two flatter ones meeting at the top, common in Persia. :: A four-centred arch
 The building element of many tiny arches stacked like honeycomb. :: Muqarnas
 The Fatimid mosque in Cairo with a famous carved façade, al-Aqmar. :: Al-Aqmar Mosque
-The Mamluk city gate of Cairo with twin minarets above. :: Bab Zuwayla
+The Fatimid city gate of Cairo with twin Mamluk minarets above. :: Bab Zuwayla
 The famous Cairo street of mosques and madrasas. :: Al-Mu'izz Street
 The Mamluk hospital complex of Sultan Qalawun. :: The Qalawun complex (bimaristan)
 The Cairo citadel built by Salah al-Din ﵀. :: The Citadel of Cairo (Saladin Citadel)

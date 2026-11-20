@@ -120,7 +120,7 @@ The English word for a graveyard monster, from the Arabic "ghul". :: Ghoul
 The Swahili word "kitabu" comes from this Arabic word. :: Kitab
 The language the Azerbaijanis speak, written in Latin since 1991. :: Azerbaijani
 The tool traditionally used in Arabic calligraphy, cut from reed. :: Qalam
-The Nabati poetry TV competition from Abu Dhabi, "The Poet of the Million". :: Sha'ir al-Milyun
+The Nabati poetry TV competition from Abu Dhabi with a top prize of a million dirhams. :: Sha'ir al-Milyun
 The Arabic term for the "rules" of Quranic recitation. :: Tajwid
 The first words of the Saudi national anthem. :: Sari'i lil-majd wal-'alya'
 The word for a language with no living speakers but still studied, like Latin. :: Dead language (extinct, classical)
@@ -195,10 +195,10 @@ The word for the smallest unit of sound that changes meaning in a language. :: P
 The longest-running English dictionary, with first edition completed in 1928. :: Oxford English Dictionary
 The author of the first great English dictionary in 1755. :: Samuel Johnson
 The American who wrote a famous dictionary in 1828 and changed "colour" to "color". :: Noah Webster
-The classic Arabic dictionary "Lisan al-Arab" was compiled by this scholar. :: Ibn Manzur
+The classic Arabic dictionary "Lisan al-Arab" was compiled by this scholar. :: Ibn Manzur ﵀
 The founder of Arabic grammar, traditionally credited, who invented the dots for vowels. :: Abu al-Aswad al-Du'ali
 The scholar who wrote the first Arabic dictionary, "Kitab al-Ayn". :: Al-Khalil ibn Ahmad
-The Persian scholar whose "Al-Kitab" is the founding book of Arabic grammar. :: Sibawayh
+The Persian scholar whose "Al-Kitab" is the founding book of Arabic grammar. :: Sibawayh ﵀
 The marks added above or below Arabic letters for short vowels. :: Harakat (tashkeel)
 The Arabic mark that doubles a letter. :: Shadda
 The Arabic mark that shows no vowel. :: Sukun
@@ -220,7 +220,7 @@ The fictional language spoken by Klingons was created for this series. :: Star T
 The fictional language of elves created by Tolkien. :: Elvish (Quenya and Sindarin)
 The word for a pen name used by a writer. :: Pseudonym (nom de plume)
 The word for a phrase whose meaning is not literal, like "break a leg". :: Idiom
-The word "candy" comes from this Arabic word, via Persian. :: Qandi
+The word "candy" comes, via French, from this Arabic word, itself from Persian "qand". :: Qandi
 The word "mattress" comes from this Arabic word meaning a place where something is thrown. :: Matrah
 The word "tariff" comes from this Arabic word meaning notification. :: Ta'rif
 The word "assassin" comes from this Arabic word. :: Hashashin
@@ -369,7 +369,7 @@ The constructed language for Game of Thrones' Dothraki was created by this lingu
 The American linguist known for "universal grammar". :: Noam Chomsky
 The Swiss linguist who founded modern structural linguistics. :: Ferdinand de Saussure
 The hypothesis that language shapes thought, named after two linguists. :: Sapir-Whorf hypothesis
-The 14th-century Arab historian who wrote on language in his "Muqaddimah". :: Ibn Khaldun
+The 14th-century Arab historian who wrote on language in his "Muqaddimah". :: Ibn Khaldun ﵀
 The name for a language that develops from a pidgin and becomes native. :: Creole
 The simplified mixed language used between groups with no common language. :: Pidgin
 The language that was the lingua franca of the Near East before Arabic. :: Aramaic
@@ -411,10 +411,10 @@ The King Salman centre in Riyadh devoted to the Arabic language is called this. 
 The international Arabic poetry TV competition from Abu Dhabi. :: Prince of Poets (Amir al-Shu'ara)
 The style of Gulf vernacular poetry. :: Nabati poetry
 The famous pre-Islamic market where poets competed, near Ta'if. :: Souq Ukaz
-The Arabic grammarian whose book "Alfiyya" taught grammar in a thousand verses. :: Ibn Malik
+The Arabic grammarian whose book "Alfiyya" taught grammar in a thousand verses. :: Ibn Malik ﵀
 The grammar school of Basra had a famous rival school in this city. :: Kufa
 The Arabic science of rhetoric and eloquence. :: Balagha
-The Arabic dictionary "Al-Qamus al-Muhit" was compiled by this scholar. :: Al-Fayruzabadi
+The Arabic dictionary "Al-Qamus al-Muhit" was compiled by this scholar. :: Al-Fayruzabadi ﵀
 The English word "racket" (in tennis) comes from this Arabic word for the palm of the hand. :: Raha
 The English word "elixir" comes from this Arabic word. :: Al-iksir
 The English word "arsenal" comes from this Arabic phrase meaning "house of manufacture". :: Dar al-sina'a
@@ -491,7 +491,7 @@ The most widely used Quran recitation today, from Kufa through Hafs. :: Hafs 'an
 The Quran recitation used in much of North and West Africa. :: Warsh 'an Nafi'
 The script of the Madinah Mushaf's calligrapher, Uthman Taha. :: Naskh
 The Syrian calligrapher who wrote the Madinah Mushaf. :: Uthman Taha
-The Arabic dictionary "Taj al-Arus", the largest classical dictionary, was compiled by this scholar. :: Murtada al-Zabidi
+The Arabic dictionary "Taj al-Arus", the largest classical dictionary, was compiled by this scholar. :: Murtada al-Zabidi ﵀
 The oldest Arabic language academy, founded in Damascus in this year. :: 1919
 The Arabic Language Academy of Cairo, nicknamed "the Academy of the Immortals", was founded in this year. :: 1932
 The Egyptian writer called "the Dean of Arabic Literature", blind from childhood. :: Taha Hussein
@@ -500,7 +500,7 @@ The Saudi female novelist of "Girls of Riyadh". :: Rajaa Alsanea
 The Saudi novelist who won the 2010 International Prize for Arabic Fiction for "Throwing Sparks". :: Abdo Khal
 The poetry of the pre-Islamic "brigand poets" is called this, after the poets' name. :: Sa'alik poetry
 The pre-Islamic brigand poet famous for "Lamiyyat al-Arab". :: Al-Shanfara
-The pre-Islamic poetess famous for elegies for her brother Sakhr. :: Al-Khansa
+The poetess, later a Companion, famous for her elegies for her brother Sakhr. :: Al-Khansa ﵂
 The poet who praised our Beloved and our master, the Prophet Muhammad ﷺ in "Banat Su'ad". :: Ka'b ibn Zuhayr ﵁
 The love poet of the Umayyad era who loved Layla, called "Majnun". :: Qays ibn al-Mulawwah
 The Umayyad poets famous for their poetry duels (naqa'id): Jarir and this rival. :: Al-Farazdaq
@@ -529,7 +529,7 @@ The Arabic "emphatic" letters like ص and ط are made with this tongue movement.
 The French writer of "The Little Prince", one of the most translated books in the world. :: Antoine de Saint-Exupéry
 The ancient Greek historian who wrote that Egyptian priests told of a king testing which language babies speak first. :: Herodotus
 The Pharaoh in Herodotus' language experiment. :: Psamtik I
-The scholar of Basra whose "Al-Kitab" is called "the Quran of grammar". :: Sibawayh
+The scholar of Basra whose "Al-Kitab" is called "the Quran of grammar". :: Sibawayh ﵀
 The Arabic name for the letter "hamza" comes from a root meaning this. :: To press (or prick)
 The reconstructed common ancestor of languages from Hindi to English, never written down. :: Proto-Indo-European
 The class of Arabic nouns, like "Ahmad" and "masajid", that take no tanwin and take fatha in the genitive. :: Mamnu' min al-sarf (diptotes)

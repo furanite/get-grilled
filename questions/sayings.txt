@@ -72,7 +72,7 @@ Someone who is very fast is as quick as ___. :: Lightning (or a flash)
 To be very happy is to be as happy as a ___. :: Clam (or lark)
 Something very sweet is as sweet as ___. :: Honey (or sugar)
 Someone very hungry could eat a ___. :: Horse
-To get out of bed in a bad mood is to get up on the wrong side of the ___. :: Bed
+To get up in a bad mood is to get up on the wrong side of the ___. :: Bed
 To tell someone to go well in a performance, you say break a ___. :: Leg
 To be the boss is to call the ___. :: Shots
 To rest after hard work is to put your these up. :: Feet
@@ -106,17 +106,17 @@ A friend in need is a friend ___. :: Indeed
 Slow and steady wins the ___. :: Race
 "Look on the bright ___." :: Side
 "There's no place like ___." :: Home
-"Rule of thumb" comes from using this to measure things roughly. :: The thumb
-The idiom 'spill the ___' may come from ancient Greek voting by dropping these into a jar. :: Beans
-"Achilles' heel" comes from Greek myth; Achilles was hit here by an arrow. :: His heel
-"Sandwich" is named after this earl. :: The Earl of Sandwich
+Rule of ___: a rough guide, from measuring things with a body part. :: Thumb
+The idiom 'spill the ___' comes, by a popular but unproven story, from ancient Greek voting by dropping these into a jar. :: Beans
+In Greek myth, Achilles could be wounded only here, where an arrow struck him. :: His heel
+The food named after the 4th Earl of Sandwich, who is said to have eaten it at the card table. :: The sandwich
 The Arabic proverb "Al-waqt ka al-sayf" compares time to this. :: A sword
 The Arabic proverb "Man jadda wajada" means this. :: Whoever strives, finds (succeeds)
 The Arabic proverb "Idha kana al-kalam min fidda, fa al-sukut min ___." :: Gold
 The Arabic proverb "Lil-hitan adhan" says the walls have these. :: Ears
 The Arabic proverb "Yad wahida la tusaffiq" says one hand cannot do this. :: Clap
 The grinning cat in 'Alice in Wonderland' is named after this English county. :: Cheshire
-"Mad as a March hare" refers to this animal's odd behaviour in spring. :: The hare
+Mad as a March ___: this animal acts oddly in spring. :: Hare
 The Arabic word "sabr" means this. :: Patience
 The Arabic proverb "Al-'ilm nur" says knowledge is this. :: Light
 
@@ -222,9 +222,9 @@ To "be a piece of cake" means this. :: Be very easy
 "Barking dogs seldom" do this. :: Bite
 "Don't bite the hand that" does this. :: Feeds you
 "Break a leg" is a good-luck wish used in this world. :: Theatre
-"To go berserk" comes from these fierce Norse warriors. :: Berserkers
+"To go berserk" comes from Norse warriors said to fight in a trance wearing the skin of this animal. :: A bear
 The poet who wrote that the best companion in time is a book. :: Al-Mutanabbi
-"Pasteurise" comes from this French scientist. :: Louis Pasteur
+Pasteurising heats milk to kill these, a method named after a French scientist. :: Germs (bacteria)
 "Mind your own beeswax" is a jokey version of this phrase. :: Mind your own business
 "Let them eat cake" is wrongly linked to this French queen. :: Marie Antoinette
 "Carpe diem" means this. :: Seize the day
@@ -341,7 +341,7 @@ The idiom for something done quickly with no rest: in one ___. :: Fell swoop
 
 ## 400
 The idiom "red tape", meaning bureaucracy, comes from the ribbon once used to tie these. :: Official documents
-"Bite the bullet" may come from soldiers doing this during surgery without anaesthetic. :: Biting on a bullet
+"Bite the bullet" may come from soldiers biting on a bullet during this. :: Surgery without anaesthetic
 "Mind your Ps and Qs" may come from this trade, where the letters were easily confused. :: Printing (typesetting)
 "Saved by the bell" is often linked to this sport, where a bell ends the round. :: Boxing
 "Hands down", meaning easily, comes from this sport where a jockey could relax his hands. :: Horse racing
@@ -350,9 +350,9 @@ The idiom "red tape", meaning bureaucracy, comes from the ribbon once used to ti
 "By and large" comes from this activity. :: Sailing
 "Learn the ropes" comes from new sailors learning these. :: Ship's rigging ropes
 "Cut to the chase" comes from this industry, skipping to the action scene. :: Film (silent movies)
-"Steal someone's thunder" comes from a playwright whose stage effect for this was copied. :: Thunder sound effect
+The English playwright whose stage thunder effect was copied, giving us "steal someone's thunder". :: John Dennis
 "Bury the hatchet" comes from a custom of these North American people making peace. :: Native Americans
-"Let the cat out of the bag" may come from a trick of selling this animal in a bag instead of a pig. :: A cat
+"Let the cat out of the bag" may come from a market trick where a cat was sold in a bag in place of this animal. :: A pig (piglet)
 "Mad as a hatter" may come from hat makers poisoned by this metal. :: Mercury
 "Barking up the wrong tree" comes from hunting dogs chasing animals like this. :: Raccoons
 "A baker's dozen" means this many. :: Thirteen
@@ -379,14 +379,14 @@ The idiom "red tape", meaning bureaucracy, comes from the ribbon once used to ti
 "A laconic reply" comes from this Greek region, known for short replies. :: Laconia (Sparta)
 "A marathon effort" comes from the run of a messenger from Marathon to this city. :: Athens
 "Draconian laws" are very harsh, named after this Athenian lawmaker. :: Draco
-"Boycott" comes from the name of this English land agent in Ireland. :: Charles Boycott
+"Boycott" was first used against Charles Boycott, a land agent, in this country. :: Ireland
 "Silhouette" is named after this French finance minister. :: Étienne de Silhouette
 "Cardigan" is named after this British earl. :: The Earl of Cardigan
 "Saxophone" is named after this inventor. :: Adolphe Sax
 "Guillotine" is named after this French doctor. :: Joseph-Ignace Guillotin
 "Nicotine" is named after this French diplomat. :: Jean Nicot
-"Diesel" is named after this engineer. :: Rudolf Diesel
-"Braille" is named after this French teacher. :: Louis Braille
+Rudolf Diesel, who gave his name to an engine, was born in Paris to parents from this country. :: Germany (Bavaria)
+Louis Braille, who gave his name to the raised-dot script, was hurt in the accident that blinded him at this age. :: Three
 The Arabic proverb "Time is like a sword" ends: if you do not cut it, it will do this. :: Cut you
 The Arabic proverb "Al-sabr miftah al-faraj" says patience is the key to this. :: Relief
 The Arabic proverb "Al-jar qabl al-dar" says to choose this before the house. :: The neighbour
@@ -513,7 +513,7 @@ The original Sanskrit collection that "Kalila wa Dimna" comes from. :: The Panch
 The witty folk character "Juha" is known in Turkey as this. :: Nasreddin Hodja
 The Arab poet famous for wise proverbs in verse, including "I am the one whose writing the blind could see". :: Al-Mutanabbi
 "Majma' al-Amthal", a giant collection of Arabic proverbs, was compiled by this scholar. :: Al-Maydani
-"Freelance" was first used for a medieval soldier for hire who carried this weapon. :: A lance
+"Freelance" was coined by this novelist in "Ivanhoe" (1819) for a medieval soldier for hire. :: Sir Walter Scott
 "Deadline" first meant a line around a prison camp that prisoners must not do this to. :: Cross
 The "mare" in "nightmare" was originally this. :: An evil spirit that sat on sleepers
 "Clue" comes from "clew", meaning this. :: A ball of thread

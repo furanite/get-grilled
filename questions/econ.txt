@@ -377,7 +377,7 @@ The 'socialist calculation debate' argued planners can't set prices without this
 The Russian-born economist who developed the GDP accounts in the US in the 1930s. :: Simon Kuznets
 The Ibn Khaldun ﵀ idea that high tax rates reduce revenue, centuries before Laffer. :: Lower rates bring more revenue (the Laffer idea)
 Ibn Khaldun ﵀ wrote that a state's life follows this many generations. :: Three (about 120 years)
-The 14th-century Egyptian scholar who blamed bad copper money for inflation in his book "Ighathat al-Ummah". :: Al-Maqrizi ﵀
+The Mamluk-era Egyptian scholar who blamed bad copper money for inflation in his book "Ighathat al-Ummah". :: Al-Maqrizi ﵀
 The scholar who wrote that prices are set by supply and demand, in "Al-Hisbah". :: Ibn Taymiyyah
 The 11th-century scholar who wrote about money and trade in "Ihya' Ulum al-Din". :: Al-Ghazali ﵀
 The Saudi oil minister from 1962 to 1986. :: Ahmed Zaki Yamani
@@ -471,7 +471,7 @@ The 'Edgeworth box' is used to show this. :: Exchange between two people (Pareto
 'Marshallian demand' holds income fixed; 'Hicksian demand' holds this fixed. :: Utility
 The 'Shapley value' in game theory divides this fairly. :: The gains from cooperation
 Lloyd Shapley and this economist won the 2012 Nobel for market design. :: Alvin Roth
-Roth helped design the US system matching kidney donors and this. :: Medical residents to hospitals (and kidney exchanges)
+Roth helped redesign the US system that matches medical residents to these. :: Hospitals (he also helped design kidney exchanges)
 The 'Gale-Shapley algorithm' solves this problem. :: Stable matching (the marriage problem)
 The 'Vickrey auction' is a sealed-bid auction where the winner pays this. :: The second-highest bid
 The 2020 economics Nobel went to Milgrom and Wilson for improvements to this. :: Auction theory

@@ -271,7 +271,7 @@ It is the anagram of "eleven plus two". :: Twelve plus one
 It is the anagram of "conversation". :: Voices rant on
 It is the longest common English word you can type using only the top row of a keyboard. :: Typewriter
 It is the only English number whose letters are in alphabetical order. :: Forty
-It is the first number, counting up, whose English spelling contains the letter "a". :: One thousand
+It is the first number, counting up, whose English spelling (written without "and", US style) contains the letter "a". :: One thousand
 It is the English word that has three consecutive pairs of double letters besides "bookkeeper". :: Bookkeeping
 A sentence that uses every letter of the alphabet at least once is called this. :: A pangram
 "The quick brown fox jumps over the lazy dog" is famous for being this. :: A pangram
