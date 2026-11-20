@@ -44,7 +44,8 @@ function release(version, built, { signWith = key.privatePem, tamper = false, fi
   let bundle = packBundle(f)
   const name = `gg-pi-${version}.ggpkg`
   const manifest = makeManifest({ version, built, commit: 'test', bundleName: name, bundle })
-  if (tamper) bundle = packBundle({ ...f, 'site/index.html': Buffer.from('<h1>changed</h1>') })
+  // Same size, one byte changed: a size check alone can't catch it, only the signed hash
+  if (tamper) (bundle = Buffer.from(bundle))[bundle.length >> 1] ^= 1
   return { tag: `pi-${version}`, files: { 'manifest.json': manifest, 'manifest.sig': Buffer.from(signManifest(manifest, signWith)), [name]: bundle } }
 }
 
