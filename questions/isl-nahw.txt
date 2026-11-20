@@ -82,7 +82,7 @@ The object that comes after "with" (waw al-ma'iyyah). :: Maf'ul ma'ahu || H: al-
 The exception after "illa" is called this. :: Mustathna || H: al-Ajurrumiyyah
 The particle "la" that denies a whole kind, as in "la ilaha illa Allah". :: La al-nafiyah lil-jins || H: al-Ajurrumiyyah
 The noun after "la al-nafiyah lil-jins" is in this state. :: Mabni 'ala al-fath || H: al-Ajurrumiyyah
-The noun that names the doer of a passive verb. :: Na'ib al-fa'il || H: al-Ajurrumiyyah
+The noun in raf' that takes the place of the dropped doer after a passive verb, as in "kutiba al-darsu". :: Na'ib al-fa'il || H: al-Ajurrumiyyah
 Nouns that cannot take tanwin or kasrah, called this. :: Mamnu' min al-sarf (diptote) || H: Alfiyyat Ibn Malik
 A diptote takes this in place of kasrah in the genitive. :: Fathah || H: Alfiyyat Ibn Malik
 The particles that make two present verbs jussive in a condition, like "in". :: Adawat al-shart || H: al-Ajurrumiyyah
@@ -143,8 +143,8 @@ The Kufan view: the original of derivation is this. :: The verb || H: al-Insaf (
 Ibn Hisham رحمة الله عليه said whoever studies "Mughni al-Labib" needs nothing else, describing it as a book on this. :: Particles and the rules of sentences || H: Mughni al-Labib, introduction
 The Kufan grammarian reported to have said he would pass away with something still in his heart about "hatta". :: al-Farra' رحمة الله عليه || H?: Mughni al-Labib (Ibn Hisham); to be checked
 The verb "laysa" is called this, because it does not change form. :: Fi'l jamid || H: Qatr al-Nada (Ibn Hisham)
-In al-Mas'alah al-Zunburiyyah, Sibawayh رحمة الله عليه held "fa-idha huwa hiya"; al-Kisa'i رحمة الله عليهما also allowed this. :: "Fa-idha huwa iyyaha" || H: Mughni al-Labib (Ibn Hisham)
-The Basran grammarian, student of al-Khalil, who wrote "Ma'ani al-Qur'an" and taught Sibawayh's رحمة الله عليهما book. :: al-Akhfash al-Awsat رحمة الله عليه || H?: Bughyat al-Wu'at (al-Suyuti); to be checked
+In al-Mas'alah al-Zunburiyyah, Sibawayh رحمة الله عليه held "fa-idha huwa hiya"; al-Kisa'i رحمة الله عليه also allowed this. :: "Fa-idha huwa iyyaha" || H: Mughni al-Labib (Ibn Hisham)
+The Basran grammarian, student of al-Khalil, who wrote "Ma'ani al-Qur'an" and taught Sibawayh's رحمة الله عليه book. :: al-Akhfash al-Awsat رحمة الله عليه || H?: Bughyat al-Wu'at (al-Suyuti); to be checked
 Al-Mubarrad's رحمة الله عليه great book of grammar. :: al-Muqtadab || H: al-Muqtadab
 The Kufan grammarian of Baghdad, rival of al-Mubarrad رحمة الله عليه, who wrote al-Fasih. :: Tha'lab رحمة الله عليه || H: Bughyat al-Wu'at (al-Suyuti)
 Ibn al-Sarraj's رحمة الله عليه book that set out grammar's principles in order. :: al-Usul fil-Nahw || H: al-Usul fil-Nahw

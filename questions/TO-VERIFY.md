@@ -67,7 +67,7 @@ This file is rewritten by `npm run packs`.
 
 - **500**, line 135: The commentary on al-Ajurrumiyyah by Khalid al-Azhari ⁨رحمة الله عليه⁩. **Answer:** Sharh al-Azhariyyah _(Source: Title to be checked)_
 - **500**, line 144: The Kufan grammarian reported to have said he would pass away with something still in his heart about "hatta". **Answer:** al-Farra' ⁨رحمة الله عليه⁩ _(Source: Mughni al-Labib (Ibn Hisham); to be checked)_
-- **500**, line 147: The Basran grammarian, student of al-Khalil, who wrote "Ma'ani al-Qur'an" and taught Sibawayh's ⁨رحمة الله عليهما⁩ book. **Answer:** al-Akhfash al-Awsat ⁨رحمة الله عليه⁩ _(Source: Bughyat al-Wu'at (al-Suyuti); to be checked)_
+- **500**, line 147: The Basran grammarian, student of al-Khalil, who wrote "Ma'ani al-Qur'an" and taught Sibawayh's ⁨رحمة الله عليه⁩ book. **Answer:** al-Akhfash al-Awsat ⁨رحمة الله عليه⁩ _(Source: Bughyat al-Wu'at (al-Suyuti); to be checked)_
 
 ## Nasheeds, Ilahis and Naats (questions/isl-nasheed.txt)
 
