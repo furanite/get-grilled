@@ -24,7 +24,7 @@ await new Promise((ok) => server.stdout.on('data', (d) => String(d).includes('on
 const browser = await chromium.launch({ args: [`--host-resolver-rules=MAP ${lanHost} 127.0.0.1`] })
 async function newPage(viewport = { width: 1280, height: 800 }) {
   const ctx = await browser.newContext({ viewport, deviceScaleFactor: 1 })
-  await ctx.addInitScript(() => localStorage.setItem('gg.consent.v1', JSON.stringify({ version: '1.4', date: '2026-11-10T00:00:00Z' })))
+  await ctx.addInitScript(() => localStorage.setItem('gg.consent.ilm.v1', JSON.stringify({ version: '1.4', date: '2026-11-10T00:00:00Z' })))
   await ctx.addInitScript((k) => localStorage.setItem(k, 'true'), tipsKey)
   const page = await ctx.newPage()
   await page.addLocatorHandler(page.getByTestId('intro-next'), async (b) => b.click(), { noWaitAfter: true })

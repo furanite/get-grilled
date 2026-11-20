@@ -63,10 +63,10 @@ async function run(size, lang, theme) {
   await ctx.addInitScript(([custom, lang, theme]) => {
     if (sessionStorage.getItem('fit.seeded')) return
     sessionStorage.setItem('fit.seeded', '1')
-    localStorage.setItem('gg.consent.v1', JSON.stringify({ version: '9', date: '2026-11-10T00:00:00Z' }))
+    localStorage.setItem('gg.consent.ilm.v1', JSON.stringify({ version: '9', date: '2026-11-10T00:00:00Z' }))
     localStorage.setItem('gg.tipsSeen.ilm.v1', 'true') // the first-visit study tips would cover the screen
-    localStorage.setItem('gg.settings.v1', JSON.stringify({ theme, lang, reduceFx: true, sound: false }))
-    localStorage.setItem('gg.custom.v1', JSON.stringify(custom))
+    localStorage.setItem('gg.settings.ilm.v1', JSON.stringify({ theme, lang, reduceFx: true, sound: false }))
+    localStorage.setItem('gg.custom.ilm.v1', JSON.stringify(custom))
   }, [CUSTOM, lang, theme])
   const page = await ctx.newPage()
   // Heritage only opens on Friday afternoons in Riyadh.
@@ -115,7 +115,7 @@ async function run(size, lang, theme) {
     await check('clue')
     await page.getByTestId('reveal').click(); await page.waitForTimeout(600); await check('clue answer')
     await page.getByTestId('back').click(); await page.waitForTimeout(800)
-    const g = await page.evaluate(() => JSON.parse(localStorage.getItem('gg.game.v1')))
+    const g = await page.evaluate(() => JSON.parse(localStorage.getItem('gg.game.ilm.v1')))
     const sp = g.clues.flatMap((col, c) => col.map((x, l) => (x.special || x.golden ? `${c}-${l}` : null))).find(Boolean)
     if (sp) {
       await tap(`[data-tile="${sp}"]`); await page.waitForSelector('.card.open'); await page.waitForTimeout(900)
@@ -128,7 +128,7 @@ async function run(size, lang, theme) {
     for (let i = 0; i < 6 && !(await page.getByTestId('winner').count()); i++) {
       await page.waitForTimeout(600)
       for (const id of ['lightning-skip', 'mode-skip']) if (await page.getByTestId(id).count()) { await check(id.split('-')[0] + ' round'); await page.getByTestId(id).click() }
-      if (await page.getByTestId('final').count()) { await check('final question'); await page.evaluate(() => { const g = JSON.parse(localStorage.getItem('gg.game.v1')); g.finalState = { step: 'answer', marks: g.teams.map(() => null) }; localStorage.setItem('gg.game.v1', JSON.stringify(g)) }); await page.reload(); await page.getByRole('button', { name: /resume|متابعة|استئناف/i }).first().click(); await page.getByTestId('final-done').click() }
+      if (await page.getByTestId('final').count()) { await check('final question'); await page.evaluate(() => { const g = JSON.parse(localStorage.getItem('gg.game.ilm.v1')); g.finalState = { step: 'answer', marks: g.teams.map(() => null) }; localStorage.setItem('gg.game.ilm.v1', JSON.stringify(g)) }); await page.reload(); await page.getByRole('button', { name: /resume|متابعة|استئناف/i }).first().click(); await page.getByTestId('final-done').click() }
     }
     await page.waitForSelector('[data-testid="winner"]'); await page.waitForTimeout(1200)
     await check('results')

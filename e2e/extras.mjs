@@ -32,7 +32,7 @@ const VERSION = JSON.parse(readFileSync('package.json', 'utf8')).version
 async function newPage(opts = {}) {
   const ctx = await browser.newContext({ viewport: { width: 1280, height: 860 }, acceptDownloads: true, ...opts })
   await ctx.addInitScript(() => {
-    if (!localStorage.getItem('gg.consent.v1')) localStorage.setItem('gg.consent.v1', JSON.stringify({ version: '1.5', date: '2026-11-19T00:00:00Z' }))
+    if (!localStorage.getItem('gg.consent.ilm.v1')) localStorage.setItem('gg.consent.ilm.v1', JSON.stringify({ version: '1.5', date: '2026-11-19T00:00:00Z' }))
     localStorage.setItem('gg.tipsSeen.ilm.v1', 'true')
     // Printing opens a window the test can't close; count the calls and keep what was on paper instead.
     window.__printed = []
@@ -139,7 +139,7 @@ try {
     await page.getByTestId('backup-print').click()
     await page.waitForFunction(() => window.__printed.length === 1)
     const printed = await page.evaluate(() => window.__printed[0])
-    const game = await page.evaluate(() => JSON.parse(localStorage.getItem('gg.game.v1')))
+    const game = await page.evaluate(() => JSON.parse(localStorage.getItem('gg.game.ilm.v1')))
     for (const col of game.clues) for (const c of col) assert(printed.includes(c.a), 'answer missing from the backup sheet: ' + c.a)
     noErrors(page)
   })
@@ -157,7 +157,7 @@ try {
     await page.click('.brand')
     await page.getByTestId('flags-open').click()
     await page.getByTestId('flag-out-0').click()
-    const pools = await page.evaluate(() => JSON.parse(localStorage.getItem('gg.pools.v1')))
+    const pools = await page.evaluate(() => JSON.parse(localStorage.getItem('gg.pools.ilm.v1')))
     assert(pools[flags[0].catId].off[2].includes(flags[0].id), 'question not taken out of play')
     noErrors(page)
   })

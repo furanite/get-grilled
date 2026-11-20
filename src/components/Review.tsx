@@ -17,7 +17,7 @@ interface Item { id: string; level: string; q: string; a: string; kind?: string;
 interface PackReview { id: string; name: string; group: string; items: Item[] }
 interface IndexRow { id: string; name: string; group: string; total: number }
 
-const KEY = 'gg.review.v1'
+const KEY = 'gg.review.ilm.v1'
 const base = import.meta.env.BASE_URL
 
 function load(): Saved {

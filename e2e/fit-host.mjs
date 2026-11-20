@@ -50,10 +50,10 @@ async function run(lang, theme) {
   await ctx.addInitScript(([custom, lang, theme]) => {
     if (localStorage.getItem('fit.seeded')) return
     localStorage.setItem('fit.seeded', '1')
-    localStorage.setItem('gg.consent.v1', JSON.stringify({ version: '1.1', date: '2026-11-10T00:00:00Z' }))
+    localStorage.setItem('gg.consent.ilm.v1', JSON.stringify({ version: '1.1', date: '2026-11-10T00:00:00Z' }))
     localStorage.setItem('gg.tipsSeen.ilm.v1', 'true') // the first-visit study tips would cover the screen
-    localStorage.setItem('gg.settings.v1', JSON.stringify({ theme, lang, reduceFx: true, sound: false }))
-    localStorage.setItem('gg.custom.v1', JSON.stringify(custom))
+    localStorage.setItem('gg.settings.ilm.v1', JSON.stringify({ theme, lang, reduceFx: true, sound: false }))
+    localStorage.setItem('gg.custom.ilm.v1', JSON.stringify(custom))
   }, [CUSTOM, lang, theme])
   const page = await ctx.newPage()
   if (theme === 'heritage') await page.clock.setSystemTime(new Date('2026-11-13T10:00:00Z'))

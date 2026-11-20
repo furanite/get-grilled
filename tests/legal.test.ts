@@ -19,14 +19,14 @@ describe('consent record', () => {
     expect(hasConsent('1.1')).toBe(false)
   })
   it('ignores a damaged record', () => {
-    localStorage.setItem('gg.consent.v1', '{"version":3}')
+    localStorage.setItem('gg.consent.ilm.v1', '{"version":3}')
     expect(loadConsent()).toBeNull()
-    localStorage.setItem('gg.consent.v1', 'not json')
+    localStorage.setItem('gg.consent.ilm.v1', 'not json')
     expect(loadConsent()).toBeNull()
   })
   it('Reduce effects is off by default and kept with the settings', () => {
     expect(loadSettings().reduceFx).toBe(false)
-    localStorage.setItem('gg.settings.v1', JSON.stringify({ theme: 'neon', lang: 'ar', reduceFx: true }))
+    localStorage.setItem('gg.settings.ilm.v1', JSON.stringify({ theme: 'neon', lang: 'ar', reduceFx: true }))
     expect(loadSettings()).toEqual({ theme: 'neon', lang: 'ar', reduceFx: true, sound: true })
   })
 })

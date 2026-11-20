@@ -25,7 +25,7 @@ function assert(c, msg) { if (!c) throw new Error(msg) }
 const browser = await chromium.launch()
 async function hostPage() {
   const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 } })
-  await ctx.addInitScript(() => localStorage.setItem('gg.consent.v1', JSON.stringify({ version: '1.5', date: '2026-11-11T00:00:00Z' })))
+  await ctx.addInitScript(() => localStorage.setItem('gg.consent.ilm.v1', JSON.stringify({ version: '1.5', date: '2026-11-11T00:00:00Z' })))
   await ctx.addInitScript(() => localStorage.setItem('gg.tipsSeen.ilm.v1', 'true'))
   const page = await ctx.newPage()
   await page.addLocatorHandler(page.getByTestId('intro-next'), async (b) => b.click(), { noWaitAfter: true })
@@ -191,7 +191,7 @@ try {
     await page.evaluate(async () => {
       const pack = await (await fetch('packs/digital.json')).json()
       const off = [pack.levels[0].map((q, i) => (q.img ? null : `digital-0-${q.qk ?? i}`)).filter(Boolean), [], [], [], []]
-      localStorage.setItem('gg.pools.v1', JSON.stringify({ digital: { off, extra: [[], [], [], [], []] } }))
+      localStorage.setItem('gg.pools.ilm.v1', JSON.stringify({ digital: { off, extra: [[], [], [], [], []] } }))
     })
     await page.reload()
     const aud = await openAudience(page)

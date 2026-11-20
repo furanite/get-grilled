@@ -267,7 +267,7 @@ export function useBoxState(): BoxState {
   return useSyncExternalStore(b.subscribe, b.get, b.get)
 }
 
-const KEY = 'gg.buzz.v1'
+const KEY = 'gg.buzz.ilm.v1'
 export function loadBuzzSettings(): BuzzSettings {
   try {
     return cleanBuzzSettings(JSON.parse(localStorage.getItem(KEY) ?? 'null'))

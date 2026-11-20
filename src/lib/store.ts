@@ -5,23 +5,66 @@ import { URDU } from './edition'
 import { isClueSecs } from './game'
 import { cleanDraft, type StudyDraft } from './studyset'
 
+// Get Grilled and this site are served from one web address (furanite.github.io), so the browser gives them one
+// shared storage. Every key here is this site's own, so a game, Terms acceptance or setting from one site never
+// turns up on the other. (Older copies of this site used Get Grilled's keys: see moveFromSharedKeys below.)
 const KEYS = {
-  settings: 'gg.settings.v1',
-  custom: 'gg.custom.v1',
-  used: 'gg.used.v1',
-  game: 'gg.game.v1',
-  consent: 'gg.consent.v1',
-  pools: 'gg.pools.v1',
-  madhhab: 'gg.madhhab.v1',
-  studyDraft: 'gg.studyDraft.v1',
-  // Its own key: both sites share one web address, and each has its own tips.
+  settings: 'gg.settings.ilm.v1',
+  custom: 'gg.custom.ilm.v1',
+  used: 'gg.used.ilm.v1',
+  game: 'gg.game.ilm.v1',
+  consent: 'gg.consent.ilm.v1',
+  pools: 'gg.pools.ilm.v1',
+  madhhab: 'gg.madhhab.ilm.v1',
+  studyDraft: 'gg.studyDraft.ilm.v1',
   tipsSeen: 'gg.tipsSeen.ilm.v1',
-  // The Islamic site's own flagged questions, waiting screen, bracket and display options (the sites share one address).
   flags: 'gg.flags.ilm.v1',
   lobby: 'gg.lobby.ilm.v1',
   bracket: 'gg.bracket.ilm.v1',
   view: 'gg.view.ilm.v1',
 }
+
+/** The keys this site shared with Get Grilled before it had its own. */
+export const SHARED_KEYS = {
+  settings: 'gg.settings.v1',
+  custom: 'gg.custom.v1',
+  used: 'gg.used.v1',
+  game: 'gg.game.v1',
+  pools: 'gg.pools.v1',
+  madhhab: 'gg.madhhab.v1',
+  studyDraft: 'gg.studyDraft.v1',
+} as const
+
+/** A saved game is this site's when every category is an Islamic or Kids one, or one the host made. */
+export const isOwnGame = (raw: string | null) => {
+  try {
+    const g = JSON.parse(raw ?? 'null') as { cats?: { id?: unknown }[] } | null
+    return !!g && Array.isArray(g.cats) && g.cats.length > 0 && g.cats.every((c) => typeof c?.id === 'string' && /^(isl-|kids-|c-)/.test(c.id))
+  } catch {
+    return false
+  }
+}
+
+/**
+ * Once, on the first visit after the keys changed: copies this site's things from the shared keys to its own.
+ * The Terms acceptance is NOT copied (each site asks for its own Terms), and a saved game is copied only when it
+ * is an Islamic or Kids game. The shared keys are left alone, because they belong to Get Grilled too.
+ */
+export function moveFromSharedKeys(store: Pick<Storage, 'getItem' | 'setItem'> = localStorage) {
+  try {
+    if (store.getItem('gg.moved.ilm.v1')) return
+    for (const [name, oldKey] of Object.entries(SHARED_KEYS) as [keyof typeof SHARED_KEYS, string][]) {
+      const raw = store.getItem(oldKey)
+      if (raw === null || store.getItem(KEYS[name]) !== null) continue
+      if (name === 'game' && !isOwnGame(raw)) continue
+      store.setItem(KEYS[name], raw)
+    }
+    store.setItem('gg.moved.ilm.v1', '1')
+  } catch {
+    // Storage blocked or full: the site starts fresh, which is safe.
+  }
+}
+moveFromSharedKeys(typeof localStorage === 'undefined' ? { getItem: () => '1', setItem: () => {} } : localStorage)
 
 function load<T>(key: string, fallback: T): T {
   try {

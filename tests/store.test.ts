@@ -32,7 +32,7 @@ describe('storage', () => {
   })
 
   it('survives corrupted data and blocked storage', () => {
-    localStorage.setItem('gg.custom.v1', '{not json')
+    localStorage.setItem('gg.custom.ilm.v1', '{not json')
     expect(loadCustom()).toEqual([])
     const get = vi.spyOn(Storage.prototype, 'getItem').mockImplementation(() => {
       throw new Error('blocked')
@@ -80,18 +80,18 @@ describe('text helpers', () => {
 
 describe('corrupted or tampered saved data never breaks loading', () => {
   it('settings fall back field by field', () => {
-    localStorage.setItem('gg.settings.v1', '{"theme":"bogus","lang":"fr","reduceFx":"yes"}')
+    localStorage.setItem('gg.settings.ilm.v1', '{"theme":"bogus","lang":"fr","reduceFx":"yes"}')
     expect(loadSettings()).toEqual({ theme: 'amethyst', lang: 'en', reduceFx: false, sound: true })
-    localStorage.setItem('gg.settings.v1', 'null')
+    localStorage.setItem('gg.settings.ilm.v1', 'null')
     expect(loadSettings().theme).toBe('amethyst')
-    localStorage.setItem('gg.settings.v1', '{"theme":"neon","lang":"ar","reduceFx":true}')
+    localStorage.setItem('gg.settings.ilm.v1', '{"theme":"neon","lang":"ar","reduceFx":true}')
     expect(loadSettings()).toEqual({ theme: 'neon', lang: 'ar', reduceFx: true, sound: true })
   })
   it('custom categories drop bad entries and keep good ones', () => {
-    localStorage.setItem('gg.custom.v1', '{"x":1}')
+    localStorage.setItem('gg.custom.ilm.v1', '{"x":1}')
     expect(loadCustom()).toEqual([])
     const good = { id: 'c-1', name: 'Mine', builtIn: true, levels: [[{ id: 'q', q: 'Q', a: 'A' }, null, 5], [], [], [], []] }
-    localStorage.setItem('gg.custom.v1', JSON.stringify([null, 5, { id: 'a' }, { id: 'b', name: 'x', levels: 'nope' }, good]))
+    localStorage.setItem('gg.custom.ilm.v1', JSON.stringify([null, 5, { id: 'a' }, { id: 'b', name: 'x', levels: 'nope' }, good]))
     const cats = loadCustom()
     expect(cats).toHaveLength(1)
     expect(cats[0].builtIn).toBe(false)
@@ -99,14 +99,14 @@ describe('corrupted or tampered saved data never breaks loading', () => {
   })
   it('a malformed saved game is ignored', () => {
     for (const bad of ['[]', '{"cats":[{"id":"x"}],"teams":null}', '{"cats":[],"clues":[],"teams":[],"used":[],"settings":{}}', 'not json']) {
-      localStorage.setItem('gg.game.v1', bad)
+      localStorage.setItem('gg.game.ilm.v1', bad)
       expect(loadGame()).toBeNull()
     }
   })
   it('a malformed list of played questions is ignored', () => {
-    localStorage.setItem('gg.used.v1', '"str"')
+    localStorage.setItem('gg.used.ilm.v1', '"str"')
     expect(loadUsed()).toEqual({})
-    localStorage.setItem('gg.used.v1', '{"a":["x",1],"b":3}')
+    localStorage.setItem('gg.used.ilm.v1', '{"a":["x",1],"b":3}')
     expect(loadUsed()).toEqual({ a: ['x'] })
   })
 })
@@ -118,7 +118,7 @@ describe('question pools and diagrams', () => {
     savePools({ x: { off: [['a'], [], [], [], []], extra: [[], [{ id: 'e1', q: 'Q', a: 'A' }], [], [], []] } })
     expect(loadPools().x.off[0]).toEqual(['a'])
     expect(loadPools().x.extra[1][0].q).toBe('Q')
-    localStorage.setItem('gg.pools.v1', '{"x":{"off":"nope","extra":[[{"q":1}]]},"y":5}')
+    localStorage.setItem('gg.pools.ilm.v1', '{"x":{"off":"nope","extra":[[{"q":1}]]},"y":5}')
     expect(loadPools()).toEqual({ x: { off: [[], [], [], [], []], extra: [[], [], [], [], []] } })
   })
   it('keeps a valid diagram on a saved question and drops a bad one', async () => {
@@ -127,5 +127,58 @@ describe('question pools and diagrams', () => {
     const cats = cleanCategories([{ id: 'c', name: 'C', levels: [[{ id: '1', q: 'q', a: 'a', img: good }, { id: '2', q: 'q', a: 'a', img: 'javascript:alert(1)' }], [], [], [], []] }])
     expect(cats[0].levels[0][0].img).toBe(good)
     expect(cats[0].levels[0][1].img).toBeUndefined()
+  })
+})
+
+// Get Grilled and Munaafasatul Ilm share one web address, so one browser storage: each site must keep to its own keys.
+describe('own storage keys, apart from Get Grilled', async () => {
+  const { moveFromSharedKeys, hasConsent, isOwnGame } = await import('../src/lib/store')
+  const mem = () => {
+    const m = new Map<string, string>()
+    return { m, getItem: (k: string) => m.get(k) ?? null, setItem: (k: string, v: string) => void m.set(k, v) }
+  }
+  const game = (ids: string[]) => JSON.stringify({ cats: ids.map((id) => ({ id, name: id })) })
+
+  it('never reads or writes Get Grilled\'s game, Terms acceptance or settings', () => {
+    localStorage.clear()
+    localStorage.setItem('gg.consent.v1', JSON.stringify({ version: '1.5', date: '2026-11-19T00:00:00Z' }))
+    localStorage.setItem('gg.game.v1', game(['code', 'ai']))
+    expect(hasConsent('1.5')).toBe(false)
+    expect(loadGame()).toBeNull()
+    saveSettings({ theme: 'mughal', lang: 'ur', reduceFx: false, sound: true })
+    expect(localStorage.getItem('gg.settings.v1')).toBeNull()
+  })
+
+  it('moves this site\'s things across once, but never the Terms acceptance or a Get Grilled game', () => {
+    const s = mem()
+    s.setItem('gg.consent.v1', '{"version":"1.5","date":"x"}')
+    s.setItem('gg.settings.v1', '{"theme":"mughal"}')
+    s.setItem('gg.custom.v1', '[]')
+    s.setItem('gg.game.v1', game(['code', 'isl-salah']))
+    moveFromSharedKeys(s)
+    expect(s.m.get('gg.consent.ilm.v1')).toBeUndefined()
+    expect(s.m.get('gg.game.ilm.v1')).toBeUndefined()
+    expect(s.m.get('gg.settings.ilm.v1')).toBe('{"theme":"mughal"}')
+    expect(s.m.get('gg.custom.ilm.v1')).toBe('[]')
+    // Left in place for Get Grilled
+    expect(s.m.get('gg.settings.v1')).toBe('{"theme":"mughal"}')
+    // Only once: later changes on Get Grilled stay there
+    s.setItem('gg.madhhab.v1', '"h"')
+    moveFromSharedKeys(s)
+    expect(s.m.get('gg.madhhab.ilm.v1')).toBeUndefined()
+  })
+
+  it('moves an Islamic or Kids game, and never overwrites this site\'s own', () => {
+    const s = mem()
+    s.setItem('gg.game.v1', game(['isl-salah', 'kids-prophets', 'c-abc123']))
+    moveFromSharedKeys(s)
+    expect(s.m.get('gg.game.ilm.v1')).toBe(game(['isl-salah', 'kids-prophets', 'c-abc123']))
+    const t = mem()
+    t.setItem('gg.settings.v1', 'old')
+    t.setItem('gg.settings.ilm.v1', 'mine')
+    moveFromSharedKeys(t)
+    expect(t.m.get('gg.settings.ilm.v1')).toBe('mine')
+    expect(isOwnGame('{bad')).toBe(false)
+    expect(isOwnGame(game([]))).toBe(false)
   })
 })
