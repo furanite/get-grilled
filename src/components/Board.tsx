@@ -363,9 +363,9 @@ function ClueCard({ t, lang, game, open, onJudge, onSteal, onClose, onState, tim
   // Read-aloud (when switched on): the clue is read once it is on show.
   useEffect(() => {
     if (intro || phase !== 'open') return
-    speakClue(q, lang)
+    speakClue(q, lang, [clue.q, clue.qAr])
     return () => stopSpeaking()
-  }, [intro, phase, q, lang])
+  }, [intro, phase, q, lang, clue])
 
   // The card animates with transform only (no layout work per frame): it sits at its open size and place,
   // and toTile() is the transform that shrinks it back onto its tile.

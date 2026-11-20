@@ -255,9 +255,12 @@ function cleanTournament(raw: unknown, teams: number): Tournament | null {
   return { rounds, at, intro: raw.intro === true }
 }
 
+/** Munaafasatul Ilm shares this web address (furanite.github.io), and older copies of it saved its game under this
+ *  key. Its Islamic and Kids games belong to that site, so they are never resumed here. */
+const fromIslamicSite = (g: Game) => g.cats.every((c) => /^(isl|kids)-/.test(c.id))
 export const loadGame = (): Game | null => {
   const g = load<unknown>(KEYS.game, null)
-  return isValidGame(g) ? cleanGameExtras(g) : null
+  return isValidGame(g) && !fromIslamicSite(g) ? cleanGameExtras(g) : null
 }
 export const saveGame = (g: Game | null) => save(KEYS.game, g)
 

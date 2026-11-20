@@ -129,3 +129,14 @@ describe('question pools and diagrams', () => {
     expect(cats[0].levels[0][1].img).toBeUndefined()
   })
 })
+
+describe('sharing a web address with Munaafasatul Ilm', () => {
+  it('never resumes an Islamic or Kids game an older copy of that site left in the shared storage', () => {
+    localStorage.clear()
+    const g = (id: string) => ({ cats: [{ id, name: id }], clues: [[100, 200, 300, 400, 500].map((value, l) => ({ id: `0-${l}`, q: 'q', a: 'a', value, golden: false }))], teams: [{ name: 'A', score: 0 }], used: [], settings: { timer: 30, deduct: false }, startedAt: 1 })
+    localStorage.setItem('gg.game.v1', JSON.stringify(g('isl-salah')))
+    expect(loadGame()).toBeNull()
+    localStorage.setItem('gg.game.v1', JSON.stringify(g('code')))
+    expect(loadGame()?.cats[0].id).toBe('code')
+  })
+})
