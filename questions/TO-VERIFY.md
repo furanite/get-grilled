@@ -167,7 +167,7 @@ This file is rewritten by `npm run packs`.
 
 - **300**, line 121: The verse that, by the most famous view, was the last of the rulings on riba to come down. **Answer:** Qur'an 2:278-279 _(Source: Sahih al-Bukhari (report of Ibn 'Abbas on the verse of riba); wording to check)_
 - **300**, line 127: The term for a word that occurs only once in the Qur'an. **Answer:** Hapax (farid) _(Source: Term to be checked with a Qur'an sciences teacher)_
-- **400**, line 163: The Hanafi scholar who wrote Ahkam al-Qur'an, d. 370 AH / 981 CE. **Answer:** Abu Bakr al-Jassas ⁨رحمة الله عليه⁩ _(Source: Ahkam al-Qur'an (al-Jassas); some biographers say al-Jassas leaned to Mu'tazili views, so check before using)_
+- **400**, line 163: The Hanafi scholar who wrote Ahkam al-Qur'an and passed away in 370 AH / 981 CE. **Answer:** Abu Bakr al-Jassas ⁨رحمة الله عليه⁩ _(Source: Ahkam al-Qur'an (al-Jassas); some biographers say al-Jassas leaned to Mu'tazili views, so check before using)_
 - **400**, line 188: The tafsir by Ibn 'Abd al-Salam ⁨رحمة الله عليه⁩, the "Sultan of the Scholars", is a summary of this (meaning). **Answer:** al-Mawardi's ⁨رحمة الله عليه⁩ tafsir al-Nukat wal-'Uyun _(Source: Check which tafsir Ibn 'Abd al-Salam summarised)_
 - **400**, line 193: The tafsir of al-Baydawi ⁨رحمة الله عليه⁩ was finished in this city. **Answer:** Tabriz _(Source: Check: al-Baydawi passed away in Tabriz; where he finished it is uncertain)_
 - **500**, line 244: The tafsir "Tafsir al-Mawahib al-'Aliyyah" (in Persian) is by this Herat scholar. **Answer:** Husayn Wa'iz al-Kashifi _(Source: Check his creed before giving an honorific)_

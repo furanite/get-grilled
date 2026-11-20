@@ -140,8 +140,8 @@ The tafsir "Lata'if al-Isharat" is by this Sufi scholar of Nishapur. :: Abu al-Q
 The tafsir of Sahl al-Tustari رحمة الله عليه is one of the first of this kind. :: Ishari (Sufi) tafsir || H: Standard reference
 Al-Suyuti رحمة الله عليه lists the Companions (رِضْوَانُ اللَّهِ عَلَيْهِمْ) known for tafsir: the four Caliphs, Ibn Mas'ud, Ibn 'Abbas, Ubayy, Zayd, Abu Musa and this one. :: 'Abdullah ibn al-Zubayr (رِضْوَانُ اللَّهِ عَلَيْهِمَا) || H: al-Suyuti, al-Itqan
 Al-Suyuti رحمة الله عليه says the Caliph from whom most tafsir is reported is this one. :: Our master 'Ali ibn Abi Talib ﵁ || H: al-Suyuti, al-Itqan
-The Successor known for tafsir in Kufah, student of Ibn Mas'ud's ﵁ students, d. 96 AH. :: Ibrahim al-Nakha'i رحمة الله عليه || H: Standard biography
-The Successor of Basrah, great preacher and mufassir, d. 110 AH / 728 CE. :: al-Hasan al-Basri رحمة الله عليه || H: Standard biography
+The Successor known for tafsir in Kufah, student of Ibn Mas'ud's ﵁ students, who passed away in 96 AH. :: Ibrahim al-Nakha'i رحمة الله عليه || H: Standard biography
+The Successor of Basrah, great preacher and mufassir, who passed away in 110 AH / 728 CE. :: al-Hasan al-Basri رحمة الله عليه || H: Standard biography
 Zayd ibn Aslam رحمة الله عليه taught tafsir in this city. :: Madinah || H: Standard biography
 The famous early tafsir by Muqatil ibn Sulayman is treated with this by the hadith scholars. :: Caution (his narrations are weak) || H: Standard criticism (al-Dhahabi, Mizan)
 The tafsir by narrations of 'Abd al-Razzaq al-San'ani رحمة الله عليه is from this region. :: Yemen || H: Standard biography
@@ -160,8 +160,8 @@ The Ash'ari scholar of tafsir who wrote al-Tafsir al-Kabir and debated the philo
 ## 400
 The term for verses that were revealed more than once. :: Ma nazala mukarraran || H: al-Itqan (al-Suyuti)
 The scholar who wrote al-Durr al-Manthur, a tafsir by narrations. :: Jalal al-Din al-Suyuti رحمة الله عليه || H: al-Durr al-Manthur
-The Hanafi scholar who wrote Ahkam al-Qur'an, d. 370 AH / 981 CE. :: Abu Bakr al-Jassas رحمة الله عليه || H?: Ahkam al-Qur'an (al-Jassas); some biographers say al-Jassas leaned to Mu'tazili views, so check before using
-The Maliki scholar who wrote Ahkam al-Qur'an, d. 543 AH / 1148 CE. :: Abu Bakr ibn al-'Arabi رحمة الله عليه || H: Ahkam al-Qur'an (Ibn al-'Arabi)
+The Hanafi scholar who wrote Ahkam al-Qur'an and passed away in 370 AH / 981 CE. :: Abu Bakr al-Jassas رحمة الله عليه || H?: Ahkam al-Qur'an (al-Jassas); some biographers say al-Jassas leaned to Mu'tazili views, so check before using
+The Maliki scholar who wrote Ahkam al-Qur'an and passed away in 543 AH / 1148 CE. :: Abu Bakr ibn al-'Arabi رحمة الله عليه || H: Ahkam al-Qur'an (Ibn al-'Arabi)
 The Shafi'i scholar who wrote Ahkam al-Qur'an, known as al-Kiya al-Harrasi رحمة الله عليه, passed away in this century AH. :: 6th century AH (504 AH / 1110 CE) || H: Wafayat al-A'yan (Ibn Khallikan)
 The term for a verse whose wording stays but whose ruling was replaced. :: Naskh al-hukm duna al-tilawah || H: al-Itqan (al-Suyuti)
 The Maturidi scholar who wrote Ta'wilat Ahl al-Sunnah. :: Abu Mansur al-Maturidi رحمة الله عليه || H: Ta'wilat Ahl al-Sunnah
@@ -172,7 +172,7 @@ The tafsir by Imam al-Khazin رحمة الله عليه. :: Lubab al-Ta'wil || H
 The principle that the lesson is in the general wording, not the specific cause (paraphrased). :: al-'Ibrah bi-'umum al-lafz la bi-khusus al-sabab || H: al-Itqan (al-Suyuti)
 The book by al-Suyuti رحمة الله عليه on words in the Qur'an that came into Arabic from other languages. :: al-Muhadhdhab fima Waqa'a fil-Qur'an min al-Mu'arrab || H: al-Muhadhdhab (al-Suyuti)
 The study of the links between verses and surahs. :: 'Ilm al-Munasabat || H: Nazm al-Durar (al-Biqa'i)
-The scholar who wrote Nazm al-Durar on the links between verses and surahs, d. 885 AH / 1480 CE. :: Burhan al-Din al-Biqa'i رحمة الله عليه || H: Nazm al-Durar (al-Biqa'i)
+The scholar who wrote Nazm al-Durar on the links between verses and surahs and passed away in 885 AH / 1480 CE. :: Burhan al-Din al-Biqa'i رحمة الله عليه || H: Nazm al-Durar (al-Biqa'i)
 The study of the unusual words of the Qur'an. :: Gharib al-Qur'an || H: al-Mufradat (al-Raghib al-Isfahani)
 The dictionary of Qur'anic words by al-Raghib al-Isfahani رحمة الله عليه. :: al-Mufradat fi Gharib al-Qur'an || H: al-Mufradat
 The verses about the ruling of zihar came down about Khawlah bint Tha'labah ﵂ and her husband. :: Aws ibn al-Samit ﵁ || H: Sunan Abi Dawud; Tafsir al-Tabari
@@ -186,14 +186,14 @@ The term for a brief verse explained in detail elsewhere. :: Mujmal and mubayyan
 The term for what a verse means by its direct wording. :: Mantuq || H: al-Suyuti, al-Itqan
 The term for what a verse implies beyond its wording. :: Mafhum || H: al-Suyuti, al-Itqan
 The tafsir by Ibn 'Abd al-Salam رحمة الله عليه, the "Sultan of the Scholars", is a summary of this (meaning). :: al-Mawardi's رحمة الله عليه tafsir al-Nukat wal-'Uyun || H?: Check which tafsir Ibn 'Abd al-Salam summarised
-The scholar who wrote "al-Kashf 'an Wujuh al-Qira'at" explaining readings, d. 437 AH. :: Makki ibn Abi Talib رحمة الله عليه || H: Standard reference
+The scholar who wrote "al-Kashf 'an Wujuh al-Qira'at" explaining readings and passed away in 437 AH. :: Makki ibn Abi Talib رحمة الله عليه || H: Standard reference
 The study of the different meanings a word can have in the Qur'an. :: al-Wujuh wal-Naza'ir || H: al-Suyuti, al-Itqan
 The book "al-Wujuh wal-Naza'ir" is attributed to this early mufassir. :: Muqatil ibn Sulayman || H: Standard reference
 The Qur'an's style of turning from third person to second person is called this. :: Iltifat || H: al-Zarkashi, al-Burhan
 The tafsir of al-Baydawi رحمة الله عليه was finished in this city. :: Tabriz || H?: Check: al-Baydawi passed away in Tabriz; where he finished it is uncertain
 Al-Baydawi رحمة الله عليه was a judge in this city. :: Shiraz || H: Standard biography
-The Ottoman scholar whose gloss on al-Baydawi رحمة الله عليه is famous, d. 951 AH. :: Shaykh Zadah (Muhyi al-Din) رحمة الله عليه || H: Standard biography
-The Indian scholar who wrote "al-Tafsir al-Mazhari", d. 1225 AH / 1810 CE. :: Qadi Thana' Allah Panipati رحمة الله عليه || H: Standard reference
+The Ottoman scholar whose gloss on al-Baydawi رحمة الله عليه is famous, who passed away in 951 AH. :: Shaykh Zadah (Muhyi al-Din) رحمة الله عليه || H: Standard biography
+The Indian scholar who wrote "al-Tafsir al-Mazhari" and passed away in 1225 AH / 1810 CE. :: Qadi Thana' Allah Panipati رحمة الله عليه || H: Standard reference
 The tafsir "al-Siraj al-Munir" is by this Shafi'i scholar of Egypt. :: al-Khatib al-Shirbini رحمة الله عليه || H: Standard reference
 The tafsir by Abu al-Layth al-Samarqandi رحمة الله عليه is called this. :: Bahr al-'Ulum || H: Standard reference
 Abu al-Layth al-Samarqandi رحمة الله عليه followed this school of fiqh. :: Hanafi || H: Standard biography
@@ -219,14 +219,14 @@ The teacher of al-Suyuti رحمة الله عليه who wrote on Qur'an sciences
 The Companion who said there is no verse but he knew where and about what it was revealed (paraphrased). :: 'Abdullah ibn Mas'ud ﵁ || H: Sahih al-Bukhari, Virtues of the Qur'an
 The Successor and student of Ibn 'Abbas (رِضْوَانُ اللَّهِ عَلَيْهِمَا), known for tafsir, martyred by al-Hajjaj in 95 AH / 714 CE. :: Sa'id ibn Jubayr رحمة الله عليه || H: Siyar A'lam al-Nubala' (al-Dhahabi)
 The Successor, student of Ibn 'Abbas (رِضْوَانُ اللَّهِ عَلَيْهِمَا), known for tafsir and fiqh, d. about 105 AH / 723 CE. :: 'Ikrimah رحمة الله عليه || H: Siyar A'lam al-Nubala' (al-Dhahabi)
-The Successor of Basrah, known for tafsir, d. 117 AH / 735 CE, who was born blind. :: Qatadah ibn Di'amah رحمة الله عليه || H: Siyar A'lam al-Nubala' (al-Dhahabi)
+The Successor of Basrah, known for tafsir, who passed away in 117 AH / 735 CE, who was born blind. :: Qatadah ibn Di'amah رحمة الله عليه || H: Siyar A'lam al-Nubala' (al-Dhahabi)
 The kind of naskh where both wording and ruling were lifted. :: Naskh al-tilawah wal-hukm || H: al-Itqan (al-Suyuti)
 The famous verse of Surah al-Ahzab on "the trust" offered to the heavens, earth and mountains. :: Qur'an 33:72 || H: Qur'an 33:72
-The scholar of Maliki fiqh and Ash'ari creed who wrote al-Tahrir wal-Tanwir, d. 1393 AH / 1973 CE. :: Muhammad al-Tahir ibn 'Ashur رحمة الله عليه || H: al-Tahrir wal-Tanwir
+The scholar of Maliki fiqh and Ash'ari creed who wrote al-Tahrir wal-Tanwir and passed away in 1393 AH / 1973 CE. :: Muhammad al-Tahir ibn 'Ashur رحمة الله عليه || H: al-Tahrir wal-Tanwir
 The commentary (hashiyah) on al-Baydawi by Shihab al-Din al-Khafaji رحمة الله عليه. :: 'Inayat al-Qadi || H: Kashf al-Zunun (Hajji Khalifah)
 The term for a verse that seems to contradict another until both are understood. :: Mushkil al-Qur'an || H: Ta'wil Mushkil al-Qur'an (Ibn Qutaybah)
-The scholar who wrote Ta'wil Mushkil al-Qur'an, d. 276 AH / 889 CE. :: Ibn Qutaybah رحمة الله عليه || H: Ta'wil Mushkil al-Qur'an
-The author of I'rab al-Qur'an, the Egyptian grammarian d. 338 AH / 950 CE. :: Abu Ja'far al-Nahhas رحمة الله عليه || H: I'rab al-Qur'an (al-Nahhas)
+The scholar who wrote Ta'wil Mushkil al-Qur'an and passed away in 276 AH / 889 CE. :: Ibn Qutaybah رحمة الله عليه || H: Ta'wil Mushkil al-Qur'an
+The author of I'rab al-Qur'an, the Egyptian grammarian who passed away in 338 AH / 950 CE. :: Abu Ja'far al-Nahhas رحمة الله عليه || H: I'rab al-Qur'an (al-Nahhas)
 Imam Abu Ja'far al-Nahhas رحمة الله عليه wrote a famous book on this subject. :: al-Nasikh wal-Mansukh || H: al-Nasikh wal-Mansukh (al-Nahhas)
 The kind of tafsir that studies the sound and order of verses to show their beauty. :: Balaghi (rhetorical) tafsir || H: Dala'il al-I'jaz ('Abd al-Qahir al-Jurjani)
 The scholar of rhetoric whose Dala'il al-I'jaz explained the Qur'an's inimitability through word order (nazm). :: 'Abd al-Qahir al-Jurjani رحمة الله عليه || H: Dala'il al-I'jaz
