@@ -25,8 +25,12 @@ export const hostReads = (text: string) => HONOURED.test(text) || SACRED_TEXT.te
 /** Text as it should be spoken: no picture markers or stray symbols. */
 const speakable = (text: string) => text.replace(/\{img:[^}]*\}/g, '').replace(/[_*#|]+/g, ' ').replace(/\s+/g, ' ').trim()
 
-export function speakClue(text: string, lang: 'en' | 'ar' | 'ur') {
-  if (!enabled || !voiceAvailable() || !text || hostReads(text)) return
+/**
+ * Reads `text` aloud. `versions` are the clue's other languages: if any of them names a Prophet or Companion or
+ * holds Qur'anic text, the host reads it, even if this language's wording happens to leave the sign out.
+ */
+export function speakClue(text: string, lang: 'en' | 'ar' | 'ur', versions: (string | undefined)[] = []) {
+  if (!enabled || !voiceAvailable() || !text || [text, ...versions].some((v) => v && hostReads(v))) return
   const say = speakable(text)
   if (!say) return
   try {

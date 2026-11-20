@@ -3,7 +3,7 @@ import { TIE_MAX, TIE_VALUE, addLog, createGame, missTie, nextTie, score, standi
 import { cleanGameExtras } from '../src/lib/store'
 import { publicGame } from '../src/lib/views'
 import { champion, cleanBracket, drawHeats, group, newDivision, roundName, setWinner } from '../src/lib/bracket'
-import { hostReads } from '../src/lib/voice'
+import { hostReads, setVoiceEnabled, speakClue } from '../src/lib/voice'
 import { STRINGS } from '../src/lib/i18n'
 import type { Category, Game } from '../src/lib/types'
 // Sheets.tsx imports React components; the pure helpers are what's tested here.
@@ -176,5 +176,23 @@ describe('read-aloud', () => {
     expect(hostReads('بِسۡمِ ٱللَّهِ …')).toBe(true)
     expect(hostReads('Complete it: ﴿ قُلْ هُوَ ٱللَّهُ أَحَدٌ ﴾')).toBe(true)
     expect(hostReads('The month of fasting.')).toBe(false)
+  })
+
+  it('checks every language of a clue: a translation without the sign is still left to the host', () => {
+    const said: string[] = []
+    const g = globalThis as unknown as Record<string, unknown>
+    g.window = { speechSynthesis: { cancel() {}, getVoices: () => [], speak: (u: { text: string }) => said.push(u.text) } }
+    g.SpeechSynthesisUtterance = class { text: string; constructor(t: string) { this.text = t } }
+    try {
+      setVoiceEnabled(true)
+      speakClue('الملك الذي نزل بالوحي.', 'ar', ['The angel ﵇ who brought the revelation.', 'الملك الذي نزل بالوحي.'])
+      expect(said).toEqual([])
+      speakClue('شهر الصيام.', 'ar', ['The month of fasting.'])
+      expect(said).toEqual(['شهر الصيام.'])
+    } finally {
+      setVoiceEnabled(false)
+      delete g.window
+      delete g.SpeechSynthesisUtterance
+    }
   })
 })
