@@ -3,6 +3,7 @@ import { TIE_MAX, TIE_VALUE, addLog, createGame, missTie, nextTie, score, standi
 import { cleanGameExtras } from '../src/lib/store'
 import { publicGame } from '../src/lib/views'
 import { champion, cleanBracket, drawHeats, group, newDivision, roundName, setWinner } from '../src/lib/bracket'
+import { secsUntil } from '../src/components/Lobby'
 import { hostReads, setVoiceEnabled, speakClue } from '../src/lib/voice'
 import { STRINGS } from '../src/lib/i18n'
 import type { Category, Game } from '../src/lib/types'
@@ -194,5 +195,18 @@ describe('read-aloud', () => {
       delete g.window
       delete g.SpeechSynthesisUtterance
     }
+  })
+})
+
+describe('waiting screen countdown', () => {
+  const at = (h: number, m: number) => new Date(2026, 10, 20, h, m, 0, 0).getTime()
+  it('counts down to a time later today, and stops once it has passed', () => {
+    expect(secsUntil('19:30', at(19, 0))).toBe(1800)
+    expect(secsUntil('19:00', at(19, 5))).toBeNull()
+    expect(secsUntil('', at(19, 5))).toBeNull()
+  })
+  it('takes a time just after midnight as tomorrow\'s', () => {
+    expect(secsUntil('00:15', at(23, 30))).toBe(45 * 60)
+    expect(secsUntil('01:00', at(22, 30))).toBe(150 * 60)
   })
 })
