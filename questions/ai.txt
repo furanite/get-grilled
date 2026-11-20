@@ -282,9 +282,9 @@ The factor that reduces the value of future rewards in reinforcement learning. :
 The framework of states, actions, rewards and transitions behind reinforcement learning, shortened to three letters. :: MDP
 The family of methods that learn a policy and a value function together. :: Actor–critic
 The search method used by AlphaGo that combines random play-outs with a tree. :: Monte Carlo tree search
-The mathematician who proposed the "Chinese room" argument against strong AI. :: John Searle
+The philosopher who proposed the "Chinese room" argument against strong AI. :: John Searle
 The early robot at SRI that could plan its own actions. :: Shakey
-The 1980s expert system from Stanford that diagnosed blood infections. :: MYCIN
+The 1970s expert system from Stanford that diagnosed blood infections. :: MYCIN
 The Japanese government project of the 1980s to build AI computers using logic programming. :: Fifth Generation Computer Systems
 The 1997 chess match was the second between Kasparov and Deep Blue; Kasparov won the first in this year. :: 1996
 The Go move in game 2 against Lee Sedol that experts first thought was a mistake. :: Move 37

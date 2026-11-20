@@ -334,7 +334,7 @@ The geometric sans-serif typeface designed by Paul Renner. :: Futura
 The British typeface by Eric Gill based on Johnston. :: Gill Sans
 The serif font designed by Stanley Morison for a newspaper. :: Times New Roman
 The English printer whose 1750s typeface is still popular. :: John Baskerville
-The Dutch-style serif font Microsoft made for screens with Matthew Carter. :: Georgia
+The transitional serif font, inspired by Scotch Roman types, that Microsoft made for screens with Matthew Carter. :: Georgia
 The sans-serif font Matthew Carter designed for screens, released in 1996. :: Verdana
 The font made for US highway signs. :: Highway Gothic
 The typeface designed in the 1970s for the signs of Charles de Gaulle Airport. :: Frutiger
@@ -520,7 +520,7 @@ The double-storey g has a lower loop called this. :: The loop
 The horizontal stroke in A and H. :: The crossbar
 The main upright stroke of a letter. :: The stem
 The curved part of letters like b and p. :: The bowl
-A shape where the curve meets the stem at the top of an a. :: The terminal
+The free end of the curved stroke at the top of a lowercase a. :: The terminal
 The type measure across a column. :: The measure (line length)
 The ideal line length for easy reading in characters. :: About 45 to 75 characters
 Hanging punctuation outside the text edge is done to keep this neat. :: The optical margin (alignment)
@@ -533,8 +533,8 @@ The typeface used in many film posters, based on Roman capitals. :: Trajan
 The typeface family designed by Erik Spiekermann for the German post office. :: FF Meta
 The typeface by Tobias Frere-Jones and Jonathan Hoefler based on US building signs. :: Gotham
 Gotham became famous through this 2008 election campaign. :: The Obama campaign
-The typeface designed by Matthew Carter for Microsoft that copies a 1700s style. :: Georgia
-The Dutch designer who made the Fedra and many Arabic-Latin type families. :: Peter Bil'ak
+The typeface designed by Matthew Carter for Microsoft that draws on Scotch Roman types of the 1800s. :: Georgia
+The Slovak-born type designer, based in The Hague, who made Fedra and many Arabic-Latin type families. :: Peter Bil'ak
 The open-source Arabic font family with a Kufi style from Google Fonts. :: Noto Kufi Arabic
 The Saudi body in charge of design, architecture and fashion. :: The Architecture and Design Commission
 The year Saudi Arabia named the "Year of Arabic Calligraphy". :: 2020 (extended to 2021)
@@ -583,7 +583,7 @@ The Unicode block for Arabic Presentation Forms is used for this. :: Old fixed l
 The Unicode code point for the Arabic letter alif. :: U+0627
 The Unicode sign ﷺ, written after the name of our Beloved and our master, the Prophet Muhammad ﷺ, is in this block. :: Arabic Presentation Forms-A
 The Arabic typesetting idea where letters stack on each other at the start of words. :: Vertical ligatures (stacking)
-The "Kufi" Arabic of the Fatimid era with knotted letters. :: Floriated (foliated) Kufic
+The "Kufi" Arabic of the Fatimid era with leaf and flower ornaments on its letters. :: Floriated (foliated) Kufic
 The Arabic script used on Ottoman official records for speed. :: Siyakat (and Diwani)
 The great Ottoman calligrapher Hâfız Osman ﵀ is famous for writing many copies of this. :: The Quran (mushaf)
 The calligrapher Hamid Aytaç ﵀ was from this country. :: Turkey

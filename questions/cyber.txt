@@ -183,7 +183,7 @@ The password-cracking tool named after a famous ripper. :: John the Ripper
 The fast GPU password-cracking tool. :: Hashcat
 The Linux distribution made for penetration testing. :: Kali Linux
 Collecting public information about a target before an attack, shortened to five letters. :: OSINT
-Rules attackers or defenders write to match malware patterns, named after a fruit. :: YARA rules
+Rules defenders write to match malware patterns, whose name is a joke acronym ("Yet Another Ridiculous Acronym"). :: YARA rules
 Testing in which the tester knows nothing about the system's internals. :: Black-box testing
 Testing in which the tester has full access to source code. :: White-box testing
 Sending random or malformed input to find crashes. :: Fuzzing

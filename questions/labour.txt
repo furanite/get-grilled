@@ -124,7 +124,7 @@ A Saudi female worker who resigns within six months of marriage or three months 
 Under Article 77, compensation for an indefinite contract is this many days' wage per year of service. :: 15
 Under Article 77, the minimum compensation is this many months' wages. :: Two
 The Saudi Labour Law requires a written contract in this language. :: Arabic
-In Saudi Arabia, a Saudi worker's fixed-term contract becomes indefinite after this many renewals or four years. :: Three
+Under the original 2005 Saudi Labour Law, a Saudi worker's fixed-term contract became indefinite after this many renewals or four years. :: Three
 In Saudi Arabia, a worker may not work more than this many hours in a row without a break. :: Five
 Breaks for rest, prayer and meals in Saudi Arabia must total at least this long per day. :: 30 minutes
 In Saudi Arabia, hours spent at work including breaks may not exceed this many per day. :: Twelve
@@ -218,7 +218,7 @@ Under the Saudi Labour Law, a worker can't be transferred to another city if thi
 Under the Saudi Labour Law, the employer pays the costs of these for foreign workers. :: Recruitment, iqama, work permit and return ticket
 Under the Saudi Labour Law, a worker who dies at work: the end-of-service award goes to this. :: His heirs
 Under the Saudi Labour Law, a woman may not be dismissed during this. :: Maternity leave (and during illness from pregnancy)
-Under the Saudi Labour Law, a nursing mother may take this each day for a year. :: One hour of nursing breaks
+Under the Saudi Labour Law, a nursing mother may take this each day for 24 months after birth. :: Up to one hour of nursing breaks
 Employers with this many women workers or more must provide a nursery in Saudi Arabia. :: 50 (with children under six, at least ten)
 Under the Saudi Labour Law, a Saudi woman can work night shifts. True or false? :: True (with conditions)
 The Saudi term for a worker who leaves his employer illegally. :: Huroob (absconding)
@@ -356,10 +356,10 @@ The famous 1911 factory fire in New York that led to safety laws. :: The Triangl
 The 2013 Bangladesh factory collapse that killed over 1,100 workers. :: Rana Plaza
 The international agreement on building safety after Rana Plaza. :: The Bangladesh Accord
 The "Ricardian" theory that wages tend to subsistence level is called this. :: The iron law of wages
-The unemployment rate of Saudis reached a record low in this year. :: 2024
+The year Saudi unemployment first fell to about 7%, the original Vision 2030 target. :: 2024
 Saudi women's labour force participation passed this target of Vision 2030 early. :: 30%
 The Saudi Vision 2030 target for women's labour force participation was raised to this. :: 40%
-The Saudi Vision 2030 target for Saudi unemployment. :: 7%
+The original Saudi Vision 2030 target for Saudi unemployment, since lowered to 5%. :: 7%
 The Saudi "Liqaat" events are this. :: Job fairs (meetings between employers and job seekers)
 The Saudi General Organization for Social Insurance was founded in this year. :: 1969
 The Saudi Public Pension Agency merged into GOSI in this year. :: 2021

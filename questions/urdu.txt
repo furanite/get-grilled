@@ -233,7 +233,7 @@ Iqbal's famous song "Saare Jahan Se Achha" was written for this land before Paki
 Iqbal's idea of strong selfhood is called this. :: Khudi
 The national anthem of Pakistan was written by this poet. :: Hafeez Jalandhari ﵀
 The national anthem of Pakistan is written in this style of Urdu. :: Highly Persianised Urdu
-The poet called "Khuda-e-Sukhan", the god of poetry, from Delhi and Lucknow. :: Mir Taqi Mir ﵀
+The poet called "Khuda-e-Sukhan", the god of poetry, from Delhi and Lucknow. :: Mir Taqi Mir
 The reformer poet who wrote "Musaddas-e-Hali". :: Altaf Hussain Hali ﵀
 The scholar who founded the college that became Aligarh Muslim University. :: Sir Syed Ahmad Khan ﵀
 The famous woman poet of Pakistan known for "Khushboo". :: Parveen Shakir ﵀
@@ -288,9 +288,9 @@ The Urdu word "top" for a cannon comes from this language. :: Turkish
 The Urdu word "baji" (elder sister) has roots in this language. :: Turkish
 The Urdu word "kamra" (room) comes from this European language. :: Portuguese
 The Urdu word "chabi" (key) comes from this European language. :: Portuguese
-The Urdu word "mez" (table) comes from this European language. :: Portuguese
+The Urdu word "girja" (church) comes from this European language. :: Portuguese
 The Urdu word "almari" (cupboard) comes from this European language. :: Portuguese
-The Urdu word "botal" (bottle) comes from this language. :: English
+The Urdu word "botal" (bottle) is usually traced to this European language. :: Portuguese (botelha; English "bottle" is a cousin)
 The Urdu word "ahl" comes from Arabic and means this. :: People (family)
 The Urdu word "akhlaq" means this, and comes from Arabic. :: Manners (morals)
 The Urdu word "adab" means this. :: Literature (and good manners)
@@ -366,7 +366,7 @@ The suffix "-baz" in "dhokebaz" means this. :: Someone who does (player of)
 "Shahenshah" means this. :: King of kings (emperor)
 The poetic form of four-line poems, like Khayyam's. :: Rubai
 The long poem mourning the martyrs of Karbala in Urdu. :: Marsiya
-The famous poet of Urdu marsiya from Lucknow. :: Mir Anis ﵀
+The famous poet of Urdu marsiya from Lucknow. :: Mir Anis
 The poem in praise of our Beloved and our master, the Prophet Muhammad ﷺ. :: Na't
 A short Urdu poem form with six-line stanzas, used by Hali. :: Musaddas
 A free poem without set rhyme in modern Urdu. :: Nazm (azad nazm)
@@ -374,7 +374,7 @@ The long Urdu genre of adventure tales, as told of Amir Hamza. :: Dastan
 The Urdu word "afsana" means this kind of writing. :: Short story
 The Urdu word "naval" (novel) is borrowed from this language. :: English
 The writer of the first Urdu novel "Mirat-ul-Uroos". :: Deputy Nazir Ahmad ﵀
-The writer of "Umrao Jaan Ada". :: Mirza Hadi Ruswa ﵀
+The writer of "Umrao Jaan Ada". :: Mirza Hadi Ruswa
 The Hindu writer who wrote many Urdu stories before writing in Hindi. :: Munshi Premchand
 The poet of "Bang-e-Dra", his first Urdu collection. :: Allama Muhammad Iqbal ﵀
 Iqbal's Urdu book "Bal-e-Jibril" means this. :: Gabriel's Wing
@@ -460,7 +460,7 @@ The Urdu prose writer of "Bagh-o-Bahar" at Fort William College. :: Mir Amman �
 Fort William College, where early Urdu prose was printed, was in this city. :: Calcutta (Kolkata)
 The magazine started by Sir Syed to reform Muslim society. :: Tahzib-ul-Akhlaq
 Sir Syed's college at Aligarh was first called this. :: Muhammadan Anglo-Oriental College
-The Urdu dictionary "Farhang-e-Asifiya" was made in this city. :: Hyderabad (Deccan)
+The Urdu dictionary "Farhang-e-Asifiya" was named after the ruler of this state, its patron. :: Hyderabad (the Nizam, Asaf Jah)
 The Urdu Dictionary Board that made a 22-volume dictionary is in this city. :: Karachi
 The first university to teach all subjects in Urdu, founded 1918. :: Osmania University
 Osmania University is in this city. :: Hyderabad
@@ -579,7 +579,7 @@ The Urdu word "mushaira" comes from the Arabic root for this. :: Poetry (shi'r)
 The Urdu word "qasida" is a long poem of this kind. :: Praise (an ode)
 The famous Urdu qasida writer of the Mughal court before Ghalib. :: Mirza Muhammad Rafi Sauda ﵀
 The Urdu term "masnavi" means a long poem with this rhyme pattern. :: Rhyming couplets (each couplet rhymes on its own)
-The Urdu love masnavi "Sihr-ul-Bayan" was written by this poet. :: Mir Hasan ﵀
+The Urdu love masnavi "Sihr-ul-Bayan" was written by this poet. :: Mir Hasan
 The finest couplet of a ghazal is given this name. :: Bait-ul-ghazal (shah bait)
 The Urdu verse form of several couplets that continue one thought, without an opening rhyming couplet. :: Qita
 The Urdu poetic device of using two words that sound alike but differ in meaning. :: Tajnees (pun)
@@ -627,7 +627,7 @@ Ghazal | Nazm | Rubai | Kabab :: Kabab (the others are kinds of poems)
 Ghalib | Iqbal | Mir | Rumi :: Rumi (the others wrote famous Urdu poetry)
 Lahore | Karachi | Peshawar | Delhi :: Delhi (the others are in Pakistan)
 Zabar | Zer | Pesh | Matla :: Matla (the others are vowel marks)
-Chabi | Mez | Kamra | Kitab :: Kitab (the others came from Portuguese)
+Chabi | Almari | Kamra | Kitab :: Kitab (the others came from Portuguese)
 
 ## clues
 Sialkot | Lahore | Khudi | Poet of the East :: Allama Muhammad Iqbal ﵀

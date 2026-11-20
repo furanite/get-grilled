@@ -487,7 +487,7 @@ The buckling coefficient of a long plate in shear with simply supported edges. :
 The critical buckling stress of a thin cylinder under axial load is about 0.6Et divided by this. :: The radius
 The knockdown factor applied to cylinder buckling in NASA SP-8007 accounts for this. :: Imperfections
 The lowest natural frequency of a simply supported beam depends on √(EI/m) divided by this. :: L²
-The engineer whose method of successive approximations finds natural frequencies of beams. :: Lord Rayleigh (Rayleigh's method)
+The physicist whose energy method estimates the lowest natural frequency of beams. :: Lord Rayleigh (Rayleigh's method)
 The theorem that the Rayleigh quotient is stationary at eigenvectors. :: Rayleigh's principle
 The Japanese engineer called the father of earthquake-resistant design, whose bank building survived the 1923 Kanto earthquake. :: Tachu Naito
 The theory that predicts dynamic amplification of loads suddenly applied to an elastic system. :: Dynamic load factor of 2

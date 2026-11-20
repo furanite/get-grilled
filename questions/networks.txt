@@ -521,7 +521,7 @@ The number of priority levels the 802.1p field in a VLAN tag allows. :: 8
 The default administrative distance of OSPF on Cisco routers. :: 110
 The default administrative distance of external BGP on Cisco routers. :: 20
 The default administrative distance of RIP on Cisco routers. :: 120
-The number of round trips needed to fetch a web page over a new TCP connection with TLS 1.2 before the first byte of HTTP data arrives, counting the TCP handshake. :: 3
+The number of round trips spent setting up a new TCP connection plus a full TLS 1.2 handshake before the browser can send its HTTP request. :: 3
 The number of the RFC that defined IPv4. :: 791
 The number of the RFC that defined TCP in 1981. :: 793
 The number of the RFC that defines UDP. :: 768

@@ -65,7 +65,7 @@ The maroon-and-white flag belongs to this Gulf country. :: Qatar
 The country whose flag has red, white, green, and black with a vertical red bar. :: UAE
 The famous Egyptian singer called "the Star of the East". :: Umm Kulthum
 The famous Lebanese singer called "the Ambassador to the Stars". :: Fairuz
-The Egyptian footballer who plays for Liverpool. :: Mohamed Salah
+The Egyptian footballer who won the Premier League Golden Boot with Liverpool. :: Mohamed Salah
 The Saudi football team won against this country at the 2022 World Cup in a famous upset. :: Argentina
 The country that hosted the 2022 FIFA World Cup. :: Qatar
 The country that will host the 2034 FIFA World Cup. :: Saudi Arabia
@@ -188,7 +188,7 @@ The Qatari national airline. :: Qatar Airways
 The Saudi national airline. :: Saudia
 The famous Moroccan football club from Casablanca, rival of Raja. :: Wydad
 The Egyptian club that has won the most CAF Champions League titles. :: Al Ahly
-The Algerian-born French footballer who won the 1998 World Cup. :: Zinedine Zidane
+The French footballer of Algerian descent who won the 1998 World Cup. :: Zinedine Zidane
 The Moroccan runner who holds the 1500 m world record. :: Hicham El Guerrouj
 The Moroccan coach who led the team to the 2022 World Cup semi-final. :: Walid Regragui
 The Arab country that won the 2021 FIFA Arab Cup. :: Algeria
@@ -258,7 +258,7 @@ The gas field shared between Qatar and Iran, the world's largest. :: North Field
 The Saudi oil minister who led OPEC policy in the 1970s. :: Ahmed Zaki Yamani
 The year of the Arab oil embargo. :: 1973
 The Moroccan traveller who journeyed for nearly 30 years in the 14th century. :: Ibn Battuta
-The Tunisian scholar who wrote the "Muqaddimah". :: Ibn Khaldun
+The Tunisian scholar who wrote the "Muqaddimah". :: Ibn Khaldun ﵀
 The Andalusian philosopher known as Averroes. :: Ibn Rushd
 The mathematician of Baghdad whose name gave us "algorithm". :: Al-Khwarizmi
 The Arab scholar of Basra called "the father of optics". :: Ibn al-Haytham
@@ -327,7 +327,7 @@ The capital of Mauritania. :: Nouakchott
 The Egyptian city at the Mediterranean end of the Suez Canal. :: Port Said
 
 ## 400
-The founder of the Umayyad dynasty. :: Mu'awiya ibn Abi Sufyan
+The founder of the Umayyad dynasty. :: Mu'awiya ibn Abi Sufyan ﵁
 The Umayyad caliph who built the Dome of the Rock. :: Abd al-Malik ibn Marwan
 The year the Dome of the Rock was completed. :: 691
 The Umayyad caliph who built the Great Mosque of Damascus. :: Al-Walid I
@@ -523,9 +523,9 @@ The UNESCO-listed Omani irrigation channels. :: Aflaj
 The Omani fort that is a UNESCO site, on the edge of the Hajar mountains. :: Bahla Fort
 The Mauritanian iron ore train is one of the longest in the world, running to this port. :: Nouadhibou
 The Basran scholar traditionally credited with first marking vowels on Arabic script with dots. :: Abu al-Aswad al-Du'ali
-The grammarian whose book, known simply as "al-Kitab", is the first great work of Arabic grammar. :: Sibawayh
+The grammarian whose book, known simply as "al-Kitab", is the first great work of Arabic grammar. :: Sibawayh ﵀
 The Oman-born scholar of Basra who wrote the first Arabic dictionary, "Kitab al-'Ayn", and founded Arabic prosody. :: Al-Khalil ibn Ahmad al-Farahidi
-The Mamluk-era historian whose "al-Khitat" describes the districts and buildings of Cairo. :: Al-Maqrizi
+The Mamluk-era historian whose "al-Khitat" describes the districts and buildings of Cairo. :: Al-Maqrizi ﵀
 The Andalusian traveller whose "Rihla" described his Hajj journey of 1183 to 1185. :: Ibn Jubayr
 The Andalusian botanist from Málaga who wrote a great encyclopedia of simple medicines. :: Ibn al-Baytar
 The Damascus-born physician who described the pulmonary circulation of the blood in the 13th century. :: Ibn al-Nafis

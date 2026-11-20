@@ -9,7 +9,7 @@ The title of the kings of ancient Egypt. :: Pharaoh
 The boy pharaoh whose tomb was found almost untouched in 1922. :: Tutankhamun
 The writing system of ancient Egypt that used pictures. :: Hieroglyphs
 The stone that helped scholars read hieroglyphs. :: The Rosetta Stone
-The ancient city whose army hid inside a wooden horse, according to legend. :: Troy (the Greeks hid inside)
+The ancient city whose enemies hid inside a wooden horse to capture it, according to legend. :: Troy (the Greeks hid inside)
 The ancient Greek city famous for its warriors. :: Sparta
 The ancient Greek city famous for democracy. :: Athens
 The sporting games first held at Olympia in ancient Greece. :: The Olympic Games
@@ -270,7 +270,7 @@ The slave-soldier dynasty that ruled Egypt and Syria from 1250 to 1517. :: The M
 The Mongol leader who sacked Baghdad was a grandson of this ruler. :: Genghis Khan
 The Turco-Mongol conqueror who built a capital at Samarkand. :: Timur (Tamerlane)
 The Ottoman sultan captured by Timur at Ankara in 1402. :: Bayezid I
-The Moroccan scholar who wrote the Muqaddimah. :: Ibn Khaldun
+The North African scholar, born in Tunis, who wrote the Muqaddimah. :: Ibn Khaldun ﵀
 The Andalusian philosopher known in Europe as Averroes. :: Ibn Rushd
 The Persian polymath known in Europe as Avicenna. :: Ibn Sina
 The ruler of Mali famous for his lavish pilgrimage to Makkah in 1324. :: Mansa Musa

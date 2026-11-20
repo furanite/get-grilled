@@ -186,7 +186,7 @@ The new downtown project in Riyadh with a huge cube building. :: New Murabba (Th
 The Saudi city that hosted the G20 Summit (virtually) in 2020. :: Riyadh
 The world expo Riyadh will host in 2030. :: Expo 2030
 The NEOM mountain resort planned for skiing and winter sports. :: Trojena
-The Saudi standards body. :: SASO (Saudi Standards, Metrology and Quality Organization)
+The Saudi body, known by four letters, that sets product standards and runs conformity marks. :: SASO
 The Saudi body that licenses engineers. :: Saudi Council of Engineers
 The agency that runs the national weather and environment services. :: National Center for Meteorology
 The highest temperature in Saudi summers in the Eastern Province often goes above this. :: 50 °C
@@ -397,14 +397,14 @@ The Saudi Shura Council has this many members. :: 150
 Saudi Arabia's population is about this many million. :: About 35 million
 The Eastern Province's population is about this many million. :: About 5 million
 The Saudi Census in 2022 found the median age was about this. :: About 29
-Vision 2030 aims to raise the non-oil share of exports to this percentage. :: 50%
+Vision 2030 aims to raise non-oil exports to this share of non-oil GDP. :: 50%
 Vision 2030 aims to lift home ownership to this percentage. :: 70%
 Vision 2030 aims for renewables to supply this share of electricity. :: About 50%
 The Saudi Green Initiative aims for net-zero emissions by this year. :: 2060
 The Middle East Green Initiative plans to plant this many trees across the region. :: 50 billion
 The Saudi plan to host 150 million visits by this year. :: 2030
 The Saudi tourism authority's slogan. :: Visit Saudi
-The 2024 Saudi Expo bid won with this many votes out of 165. :: 119
+Riyadh's bid for Expo 2030 won the November 2023 vote with this many votes out of 165. :: 119
 The FIFA vote that confirmed Saudi Arabia as 2034 host was held in this year. :: 2024
 Saudi Arabia hosted the 2023 FIFA Club World Cup in this city. :: Jeddah
 The Saudi Grand Prix street circuit is called this. :: Jeddah Corniche Circuit
@@ -431,7 +431,7 @@ The year the Saudi Council of Ministers was set up. :: 1953
 The second city of the Al-Ahsa oasis, next to Hofuf. :: Al-Mubarraz
 
 ## 500
-The cost of building the King Fahd Causeway, roughly, in US dollars. :: About $1.2 billion
+The cost of building the King Fahd Causeway, roughly, in US dollars. :: About $800 million
 The British prime minister King Abdulaziz met in Egypt in February 1945. :: Winston Churchill
 The SOCAL negotiator who signed the 1933 concession in Jeddah. :: Lloyd Hamilton
 Construction of the King Fahd Causeway began in this year. :: 1981
@@ -484,7 +484,7 @@ The oldest known Arabic inscription, in the Nabataean script near Al-Ula, dated 
 The ancient incense trade route ran through this western Saudi region. :: Hejaz
 The famous pre-Islamic poems hung on the Kaaba, according to tradition. :: Mu'allaqat
 The Bedouin poetry form in colloquial Arabic. :: Nabati poetry
-The Saudi national poet who wrote many national songs, also known as Badr bin Abdulmohsen. :: Prince Badr bin Abdulmohsen
+The Saudi prince and poet known as "the Engineer of Words", who wrote many national songs. :: Prince Badr bin Abdulmohsen
 The Saudi singer known as 'the Voice of the Earth'. :: Talal Maddah
 The first Saudi feature film to be shot entirely in Saudi Arabia, by Haifaa al-Mansour. :: Wadjda
 The Saudi film festival held in Jeddah since 2021. :: Red Sea International Film Festival

@@ -399,12 +399,12 @@ The inventor of the internet's packet switching idea in the UK. :: Donald Davies
 The American who independently developed packet switching at RAND. :: Paul Baran
 The early network, started in 1969, that grew into the internet. :: ARPANET
 The first message sent over ARPANET was meant to be "LOGIN" but the system crashed after these two letters. :: LO
-The inventor of the first web search engine, Archie, in 1990. :: Alan Emtage
+The inventor of the first internet search engine, Archie, in 1990. :: Alan Emtage
 The cryptographers who invented the RSA encryption system. :: Rivest, Shamir and Adleman
 The pair who invented public-key key exchange in 1976. :: Diffie and Hellman
 The inventor of the hypertext idea and the word "hypertext". :: Ted Nelson
 The inventor of the Game Boy, who also created the Ultra Hand toy. :: Gunpei Yokoi
-The first commercial video game arcade machine, made by Atari in 1972. :: Pong
+The first commercially successful video arcade game, made by Atari in 1972. :: Pong
 The co-founder of Atari who created Pong's company. :: Nolan Bushnell
 The Scottish engineer who patented a pneumatic tyre in 1845, before Dunlop. :: Robert William Thomson
 The Belgian engineer who built the first commercially successful dynamo in 1871. :: Zénobe Gramme
@@ -449,7 +449,7 @@ The Muslim pharmacist who wrote a huge book of medicines and plants from Málaga
 The 9th-century Iraqi scholar who wrote a famous book on animals, "Kitab al-Hayawan". :: Al-Jahiz
 The scientist who first described the "camera obscura" image in detail and explained why it is upside down. :: Ibn al-Haytham
 The Muslim engineer whose water-raising machine, the saqiya, used this mechanism. :: Gears driven by an animal
-The 12th-century Damascus clock built at the Umayyad Mosque gate was made by this engineer. :: Ridwan al-Sa'ati
+The engineer who repaired and described the Damascus clock at the Umayyad Mosque gate in a treatise of 1203. :: Ridwan al-Sa'ati
 The Chinese invention, first made in the 3rd century, used to drill deep brine wells with bamboo. :: Percussion drilling (cable drilling)
 The earliest known printed book with a date, from 868 CE, is a copy of this Buddhist text. :: The Diamond Sutra
 The Korean metal moveable-type book printed in 1377, the oldest surviving one. :: Jikji

@@ -26,7 +26,7 @@ A collection of investments held by one person or fund. :: Portfolio
 The yearly income from an investment as a share of its price. :: Yield
 Buying shares hoping their price will go up. :: Going long
 Selling borrowed shares hoping to buy them back cheaper. :: Short selling
-The three-letter code used to identify a listed share, such as AAPL. :: Ticker symbol
+The short letter code used to identify a listed share, such as AAPL. :: Ticker symbol
 The precious yellow metal often bought as a safe haven. :: Gold
 The world's most traded commodity, also called "black gold". :: Crude oil
 The world's first cryptocurrency, launched in 2009. :: Bitcoin

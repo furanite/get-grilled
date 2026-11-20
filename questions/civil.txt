@@ -194,7 +194,7 @@ The hour with the highest traffic of the day. :: Peak hour
 Hourly volume divided by four times the busiest 15-minute volume. :: Peak hour factor
 The time for one full sequence of signal phases. :: Cycle length
 The classic formula for optimal signal cycle length. :: Webster's formula
-The vehicle used to set standard pavement loads. :: Equivalent single axle load (ESAL)
+The standard axle-load unit used to express mixed traffic for pavement design. :: Equivalent single axle load (ESAL)
 The standard axle load used in pavement design. :: 80 kN (18,000 lb)
 The rutting and cracking test grade system for asphalt binders. :: Superpave performance grade (PG)
 The deformation of asphalt into grooves along wheel paths, worse in hot climates. :: Rutting

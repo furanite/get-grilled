@@ -112,7 +112,7 @@ The capital of Tajikistan. :: Dushanbe
 The Iranian currency. :: The rial
 The famous Persian poet of Shiraz, author of the Divan of love poems. :: Hafez ﵀
 The Persian poet of Shiraz who wrote the Gulistan and the Bustan. :: Saadi ﵀
-The poet who wrote the Shahnameh, the Persian Book of Kings. :: Ferdowsi ﵀
+The poet who wrote the Shahnameh, the Persian Book of Kings. :: Ferdowsi
 The great scholar-poet who wrote the Masnavi. :: Mawlana Jalal al-Din Rumi ﵀
 The Persian city of poets with the tombs of Hafez and Saadi. :: Shiraz
 The Persian city with the famous Naqsh-e Jahan Square. :: Isfahan
@@ -390,14 +390,14 @@ Hafez's ﵀ real name. :: Shams al-Din Muhammad
 "Hafez" is a title meaning this. :: One who has memorised the Quran
 Many Iranians use the Divan of Hafez ﵀ for this custom. :: Fal-e Hafez (seeking a reading)
 The Divan of Hafez ﵀ is famous for this form of poem. :: The ghazal
-Ferdowsi ﵀ was born near this city in Khorasan. :: Tus
-Ferdowsi ﵀ spent about this many years writing the Shahnameh. :: About 30 years
+Ferdowsi was born near this city in Khorasan. :: Tus
+Ferdowsi spent about this many years writing the Shahnameh. :: About 30 years
 The Shahnameh has about this many couplets. :: About 50,000
 The greatest hero of the Shahnameh. :: Rostam
 Rostam's horse in the Shahnameh. :: Rakhsh
 The tragic story of Rostam fighting his son. :: Rostam and Sohrab
 The wise bird that raised the hero Zal in the Shahnameh. :: The Simurgh
-Ferdowsi ﵀ is famous for writing the Shahnameh with very few words from this language. :: Arabic
+Ferdowsi is famous for writing the Shahnameh with very few words from this language. :: Arabic
 The poet who wrote "The Conference of the Birds". :: Farid al-Din Attar ﵀
 In "The Conference of the Birds", the birds search for this king. :: The Simurgh
 The number of birds that reach the end of the journey. :: Thirty (si murgh)
@@ -422,7 +422,7 @@ Ibn Sina's ﵀ famous medical book. :: The Canon of Medicine (al-Qanun fi al-Tib
 Sibawayh ﵀, the great grammarian of Arabic, was of this background. :: Persian
 Sibawayh's ﵀ great work is simply called this. :: Al-Kitab (The Book)
 Imam Muslim ﵀ was from this Persian city. :: Nishapur
-The scholar who wrote "Tafsir al-Kashshaf", from Khwarazm. :: Al-Zamakhshari ﵀
+The scholar who wrote "Tafsir al-Kashshaf", from Khwarazm. :: Al-Zamakhshari
 Imam Abu Hanifa ﵀ was of this family background. :: Persian
 Salman al-Farisi ﵁ came from near this Persian city. :: Isfahan
 The Arabic phrase "Salman minna ahl al-bayt" was said about this Companion. :: Salman al-Farisi ﵁
@@ -480,7 +480,7 @@ The longest night of the year celebrated in Iran. :: Shab-e Yalda
 The poet whose verses people often read on Shab-e Yalda. :: Hafez ﵀
 The Persian word "yalda" comes from Syriac and means this. :: Birth
 The Persian classical music system of modes. :: Dastgah
-The Persian lute with a long neck and a pear-shaped body. :: Tar (or setar)
+The Persian long-necked lute with a small pear-shaped body and, despite its name, four strings. :: Setar
 The Persian hammered dulcimer. :: Santur
 The Persian word "setar" means this. :: Three strings
 The Persian word "dotar" means this. :: Two strings
@@ -649,7 +649,7 @@ Merci | Otobus | Ketab | Televizion :: Ketab (the others come from French)
 Nowruz | Yalda | Sizdah Bedar | Eid al-Fitr :: Eid al-Fitr (the others are Persian seasonal traditions)
 
 ## clues
-Tus | Book of Kings | Rostam | 30 years :: Ferdowsi ﵀
+Tus | Book of Kings | Rostam | 30 years :: Ferdowsi
 Shiraz | Gulistan | Bustan | Bani Adam :: Saadi ﵀
 Shiraz | Divan | Ghazals | Lisan al-Ghayb :: Hafez ﵀
 Thirty birds | Simurgh | Nishapur | Conference :: Farid al-Din Attar ﵀

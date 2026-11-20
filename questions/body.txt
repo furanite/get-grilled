@@ -493,7 +493,7 @@ The animal believed to pass MERS to humans. :: Camel (dromedary)
 The Egyptian virologist who first isolated MERS in Jeddah. :: Ali Mohamed Zaki
 The disease eradicated in 2011, the second after smallpox, which affected cattle. :: Rinderpest
 The Guinea worm disease is close to eradication thanks to a campaign led by this former US president. :: Jimmy Carter
-The Scottish doctor who discovered that a lack of vitamin C caused scurvy in a 1747 trial. :: James Lind
+The Scottish doctor whose 1747 trial showed that citrus fruit cures scurvy. :: James Lind
 The Dutch scientist who showed that beriberi was caused by polished rice, Nobel 1929. :: Christiaan Eijkman
 The doctor who mapped the 1854 London cholera outbreak to a water pump. :: John Snow
 The street of that cholera pump. :: Broad Street
@@ -519,7 +519,7 @@ The soft spots on a baby's skull. :: Fontanelles
 The protein that carries oxygen in muscle tissue. :: Myoglobin
 The bone at the base of the skull with the large hole the spinal cord passes through. :: Occipital bone
 The large hole at the base of the skull. :: Foramen magnum
-The doctors who shared the 2005 Nobel for discovering it: Marshall and this man. :: Robin Warren
+The doctors who shared the 2005 Nobel for finding that Helicobacter pylori causes stomach ulcers: Marshall and this man. :: Robin Warren
 The rare blood type nicknamed "golden blood". :: Rh-null
 The hormone released by the heart's atria that makes the kidneys pass more sodium, lowering blood pressure. :: ANP (atrial natriuretic peptide)
 The stomach-lining cells that secrete hydrochloric acid. :: Parietal cells
