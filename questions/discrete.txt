@@ -243,7 +243,6 @@ The coefficient of x³y² in (x + y)^5. :: 10
 The coefficient of x²y²z in (x + y + z)^5. :: 30
 The generalisation of the binomial theorem to more than two terms. :: Multinomial theorem
 The generating function for the sequence 1, 1, 1, 1, …. :: 1/(1 − x)
-The generating function for the Fibonacci numbers starting 0, 1. :: x/(1 − x − x²)
 The exponential generating function for the sequence 1, 1, 1, …. :: e^x
 The characteristic equation of a(n) = 5a(n−1) − 6a(n−2). :: r² − 5r + 6 = 0
 The general solution of a(n) = 5a(n−1) − 6a(n−2). :: a(n) = A·2^n + B·3^n
@@ -317,6 +316,7 @@ The number of Hamiltonian cycles in K₄, ignoring starting point and direction.
 Which set operation on A and B does the shaded region show? {img:venn-symmetric.svg} :: Symmetric difference (A △ B)
 The closed form for the Fibonacci numbers, named after a French mathematician. :: Binet's formula
 In the Königsberg bridges problem, the number of land masses touched by an odd number of bridges. :: 4
+The number of ways to choose 5 items from 20. :: 15,504
 
 ## 400
 The number of antisymmetric relations on a set with 3 elements. :: 216
@@ -416,9 +416,9 @@ The value of 2^(2^5) + 1 has this prime factor found by Euler. :: 641
 The theorem by Wilson: (p − 1)! ≡ this mod p for prime p. :: −1
 The number of labelled simple graphs on 4 vertices. :: 64
 The theorem that names Euclid's algorithm's worst case after a French mathematician, from 1844. :: Lamé's theorem
-The number of ways to choose 5 items from 20. :: 15,504
 The number of integers from 1 to 1000 divisible by 3, 5 or 7. :: 543
 The coefficient of x²y³ in (2x + y)⁵. :: 40
+The generating function for the Fibonacci numbers starting 0, 1. :: x/(1 − x − x²)
 
 ## 500
 The number of partial orders on a 4-element set. :: 219

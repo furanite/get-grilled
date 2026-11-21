@@ -241,7 +241,6 @@ The thermal diffusivity equals k divided by this. :: ρcp
 The correlation Nu = 0.023 Re^0.8 Pr^n for turbulent pipe flow is named after these. :: Dittus–Boelter
 Laminar flow in a pipe changes to turbulent above a Reynolds number of about this. :: 2,300
 The Nusselt number for fully developed laminar flow in a tube with constant wall heat flux. :: 4.36
-The Nusselt number for fully developed laminar flow in a tube with constant wall temperature. :: 3.66
 The heat exchanger method based on effectiveness and NTU. :: ε–NTU method
 NTU stands for this. :: Number of transfer units
 The ratio of actual heat transfer to the maximum possible in an exchanger. :: Effectiveness
@@ -337,6 +336,7 @@ The German engineer who founded modern heat transfer theory with dimensionless a
 The Austrian physicist who found the T⁴ radiation law experimentally in 1879. :: Josef Stefan
 The German physicist who discovered thermoelectricity in 1821. :: Thomas Johann Seebeck
 The 'heat death of the universe' idea follows from this law. :: Second law
+The industrial process to make ammonia that depends on high-pressure equilibrium thermodynamics. :: Haber–Bosch process
 
 ## 400
 The equation of state written as a power series in density. :: Virial equation of state
@@ -390,7 +390,6 @@ The Stanton number equals Nusselt divided by this. :: Re × Pr
 The turbulent heat transfer correlation more accurate than Dittus–Boelter for wide ranges. :: Gnielinski correlation
 The boiling curve was first described in 1934 by this Japanese engineer. :: Shiro Nukiyama
 The correlation for nucleate pool boiling heat flux. :: Rohsenow correlation
-The engineer who derived the theory of the critical heat flux by hydrodynamic instability. :: Novak Zuber
 The theory of laminar film condensation on a vertical plate. :: Nusselt's film condensation theory
 Condensation that forms droplets instead of a film gives this much higher heat transfer. :: Several times (up to about 10×) higher
 The instability between a heavy fluid above a light one that matters in film boiling. :: Rayleigh–Taylor instability
@@ -439,6 +438,7 @@ The dimensionless ratio of momentum diffusivity to mass diffusivity. :: Schmidt 
 The dimensionless product of the Reynolds and Prandtl numbers, comparing advection with conduction. :: Péclet number
 The Joule–Thomson coefficient of an ideal gas. :: Zero
 In a counterflow heat exchanger whose two fluids have equal heat capacity rates, the temperature difference along its length does this. :: Stays constant
+The Nusselt number for fully developed laminar flow in a tube with constant wall temperature. :: 3.66
 
 ## 500
 The French physicist whose 1908 experiments on Brownian motion won him the 1926 Nobel Prize. :: Jean Perrin
@@ -448,7 +448,6 @@ The English chemist whose 1802 law described thermal expansion of gases, publish
 The French physicist who measured specific heats of gases precisely for the 1847 steam tables. :: Henri Victor Regnault
 The engineer who wrote the 1859 Manual of the Steam Engine and Other Prime Movers. :: William Rankine
 The physicist who first measured the speed of molecules with a rotating drum experiment in 1920. :: Otto Stern
-The industrial process to make ammonia that depends on high-pressure equilibrium thermodynamics. :: Haber–Bosch process
 The highest air temperature officially recorded on Earth, in Death Valley in 1913. :: 56.7 °C
 The temperature of the Earth's core, roughly. :: About 5,000 to 6,000 °C
 The world's first nuclear power plant to supply a grid opened in 1954 in this Soviet town. :: Obninsk
@@ -541,3 +540,4 @@ In a heat recovery steam generator, the smallest gap between the gas leaving the
 The gas liquefaction process that adds a work-producing expansion engine to the Linde process. :: Claude process
 The critical Rayleigh number for the onset of convection in a fluid layer with two free surfaces. :: 27π⁴/4 (about 657.5)
 The typical COP of a single-effect lithium bromide–water absorption chiller. :: About 0.7
+The engineer who derived the theory of the critical heat flux by hydrodynamic instability. :: Novak Zuber

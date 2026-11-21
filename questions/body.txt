@@ -299,7 +299,6 @@ The disease spread by rats' fleas that caused the Black Death. :: Plague
 The clusters of cells in the pancreas that make hormones. :: Islets of Langerhans
 The woman whose X-ray image helped reveal DNA's structure. :: Rosalind Franklin
 The project that mapped all human genes, completed in 2003. :: Human Genome Project
-The genetic material passed only from mother to child. :: Mitochondrial DNA
 The genetic blood disorder common in the Gulf in which red cells are sickle-shaped. :: Sickle cell disease
 The genetic blood disorder that reduces haemoglobin, also common in the region. :: Thalassaemia
 The premarital test made mandatory in Saudi Arabia in 2004 screens for these disorders. :: Sickle cell and thalassaemia
@@ -328,13 +327,13 @@ The Andalusian philosopher-physician known in Europe as Averroes. :: Ibn Rushd
 The bones in the wrist are called this. :: Carpals
 The bones in the ankle are called this. :: Tarsals
 The kneecap's medical name. :: Patella
+The word "quarantine" comes from the Italian for this number of days. :: 40
 
 ## 400
 The total length of the small intestine in an adult, roughly, in metres. :: 6
 The surface area of the lungs, roughly the size of this sports court. :: Tennis court
 The number of lobes in the right lung. :: 3
 The number of lobes in the left lung. :: 2
-The notch in the left lung that makes room for the heart. :: Cardiac notch
 The substance that stops alveoli from collapsing, lacking in premature babies. :: Surfactant
 The part of the brain that controls body temperature and hunger. :: Hypothalamus
 The brain's relay station for sensory signals. :: Thalamus
@@ -357,7 +356,6 @@ The structure of the inner ear that senses balance. :: Semicircular canals
 The decibel level above which long exposure can damage hearing. :: 85
 The sense of the body's position in space. :: Proprioception
 The sense of smell's scientific name. :: Olfaction
-The number of taste receptor cells that make up a typical taste bud, roughly. :: 50 to 100
 The kidney hormone that tells the body to make red blood cells. :: Erythropoietin (EPO)
 The hormone from the pituitary that controls water balance. :: ADH (antidiuretic hormone, vasopressin)
 The hormone that controls calcium levels, from four small glands in the neck. :: Parathyroid hormone
@@ -430,6 +428,8 @@ The U-shaped part of the nephron that helps concentrate urine. :: Loop of Henle
 The bone cells that break down old bone. :: Osteoclasts
 The iron-storage protein measured in blood to check the body's iron stores. :: Ferritin
 The tiny hair-like structures lining the airways that sweep mucus upwards. :: Cilia
+The hormone detected by pregnancy tests. :: hCG (human chorionic gonadotropin)
+The genetic material passed only from mother to child. :: Mitochondrial DNA
 
 ## 500
 The number of alveoli in a pair of adult lungs, roughly. :: About 480 million
@@ -470,7 +470,6 @@ The Dutch inventor of the electrocardiogram, Nobel 1924. :: Willem Einthoven
 The surgeon who did the first successful open-heart operation with a heart-lung machine in 1953. :: John Gibbon
 The hole between the atria in a fetus that closes after birth. :: Foramen ovale
 The blood vessel in a fetus that bypasses the lungs, closing after birth. :: Ductus arteriosus
-The hormone detected by pregnancy tests. :: hCG (human chorionic gonadotropin)
 The cell type that eats bacteria and dead cells, its name means "big eater". :: Macrophage
 The most common type of white blood cell. :: Neutrophil
 The scientist who discovered phagocytosis by poking starfish larvae with thorns. :: Ã‰lie Metchnikoff
@@ -500,7 +499,6 @@ The street of that cholera pump. :: Broad Street
 The bacterium that causes cholera. :: Vibrio cholerae
 The two types of the influenza surface proteins that give flu strains names like H1N1. :: Haemagglutinin and neuraminidase
 The bacterium that causes plague. :: Yersinia pestis
-The word "quarantine" comes from the Italian for this number of days. :: 40
 The Andalusian scholar Ibn al-Khatib wrote that the plague spread by this. :: Contagion (contact)
 The 9th-century Baghdad physician who chose a hospital site by hanging meat in different districts. :: Al-Razi
 The Andalusian physician who first described the scabies mite and wrote "Al-Taysir". :: Ibn Zuhr (Avenzoar)
@@ -532,3 +530,5 @@ The effect in which haemoglobin releases oxygen more easily in acidic, high-COâ‚
 The enzyme in red blood cells that rapidly turns carbon dioxide and water into carbonic acid. :: Carbonic anhydrase
 The theory that muscles contract as actin and myosin filaments slide past each other. :: Sliding filament theory
 The stretch sensors in the carotid sinus and aortic arch that monitor blood pressure. :: Baroreceptors
+The number of taste receptor cells that make up a typical taste bud, roughly. :: 50 to 100
+The notch in the left lung that makes room for the heart. :: Cardiac notch

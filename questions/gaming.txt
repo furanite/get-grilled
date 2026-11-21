@@ -176,7 +176,6 @@ The Japanese company behind Final Fantasy and Dragon Quest. :: Square Enix
 The Japanese company that made Elden Ring and Dark Souls. :: FromSoftware
 The Polish company behind The Witcher and Cyberpunk 2077. :: CD Projekt Red
 The Saudi state fund that bought a stake in Nintendo in 2022. :: The Public Investment Fund (PIF)
-The Saudi-owned group that bought Scopely, maker of Monopoly Go, in 2023. :: Savvy Games Group
 The company that bought ESL and FACEIT, merging them into ESL FACEIT Group. :: Savvy Games Group
 The Saudi esports club that has won many trophies, named after a falcon. :: Team Falcons
 The Saudi FIFA player who won the 2018 FIFA eWorld Cup. :: Mosaad Aldossary (Msdossary)
@@ -190,7 +189,6 @@ The Japanese company that made the Walkman. :: Sony
 The Apple music player launched in 2001. :: iPod
 The year the first iPhone was released. :: 2007
 The year the first iPad was released. :: 2010
-The company that made the first Android phone, the T-Mobile G1. :: HTC
 Google's own phone brand. :: Pixel
 Samsung's phone with an S Pen stylus. :: Galaxy Note
 Samsung's folding phone line. :: Galaxy Z Fold (and Z Flip)
@@ -229,6 +227,8 @@ The program whose surprising "Move 37" in 2016 stunned Go player Lee Sedol. :: A
 The actor who voiced Mario in the 2023 film. :: Chris Pratt
 "Pokémon" is short for this. :: Pocket Monsters
 The unbreakable block at the bottom of a Minecraft world. :: Bedrock
+The colourful Mario Kart track set in space, with no barriers. :: Rainbow Road
+The Google DeepMind AI that beat Lee Sedol at Go in 2016. :: AlphaGo
 
 ## 300
 The Japanese company that made playing cards before video games, founded in 1889. :: Nintendo
@@ -272,7 +272,6 @@ The surprise of the first Metroid game was that Samus was this. :: A woman
 The famous speedrunning term for finishing a game as fast as possible using glitches. :: Speedrun (any%)
 The event where speedrunners raise money for charity twice a year. :: Games Done Quick
 The name for a game's hidden message or joke left by developers. :: Easter egg
-The first known video game Easter egg was hidden in this Atari game in 1980. :: Adventure
 The orange bandicoot mascot of the early PlayStation. :: Crash Bandicoot
 The purple dragon PlayStation mascot. :: Spyro
 The furry Lombax hero who teams up with the robot Clank. :: Ratchet
@@ -324,13 +323,14 @@ Nintendo's toy figures that unlock content using NFC chips. :: Amiibo
 The board game where players buy streets and build houses and hotels. :: Monopoly
 The game company Bungie made this series before Destiny. :: Halo
 The chess computer that beat Garry Kasparov in 1997. :: Deep Blue
-The Google DeepMind AI that beat Lee Sedol at Go in 2016. :: AlphaGo
 The two detachable controllers that slide onto the sides of the Nintendo Switch. :: Joy-Con
 The AI companion who guides Master Chief in the Halo series. :: Cortana
 The Sony game series in which the Spartan warrior Kratos battles gods. :: God of War
 The building in Pokémon towns where trainers battle the leader to win a badge. :: Gym
 The full name of the video cable standard "HDMI". :: High-Definition Multimedia Interface
 Microsoft's Xbox subscription service that gives access to a large library of games. :: Game Pass
+The Saudi-owned group that bought Scopely, maker of Monopoly Go, in 2023. :: Savvy Games Group
+The company that made the first Android phone, the T-Mobile G1. :: HTC
 
 ## 400
 The year Nintendo was founded. :: 1889
@@ -403,7 +403,6 @@ The company whose founder is Lei Jun. :: Xiaomi
 The founder of Huawei. :: Ren Zhengfei
 The Taiwanese company that makes most of the world's advanced chips. :: TSMC
 The Dutch company that makes the machines that print advanced chips. :: ASML
-The colourful Mario Kart track set in space, with no barriers. :: Rainbow Road
 The first Mario Kart game, released on the SNES in 1992. :: Super Mario Kart
 The 1991 Zelda game on the SNES. :: A Link to the Past
 The "Tetris effect" describes this. :: Seeing game patterns in your mind after playing a lot
@@ -433,6 +432,7 @@ Nvidia's AI upscaling technology that raises frame rates, shortened to four lett
 The Nintendo-linked studio that created Kirby and the first Super Smash Bros. :: HAL Laboratory
 The planet where Kirby's home, Dream Land, is found. :: Popstar
 The name of Master Chief's powered armour in Halo. :: MJOLNIR
+The first known video game Easter egg was hidden in this Atari game in 1980. :: Adventure
 
 ## 500
 The first video game, often credited to physicist William Higinbotham in 1958, was this. :: Tennis for Two

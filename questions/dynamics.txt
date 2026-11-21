@@ -436,6 +436,7 @@ The exact period of a simple pendulum at large amplitude is given by this specia
 Rayleigh's method adds this fraction of a uniform spring's mass to the end mass. :: One third
 The damping ratio that gives about 4.3% overshoot in a second-order step response. :: About 0.707 (1/√2)
 A wheelbarrow is an example of the lever class drawn here. Which class is it? {img:lever-2.svg} :: Second-class lever
+Engineers now blame the Tacoma Narrows collapse on this, not simple resonance. :: Aeroelastic flutter
 
 ## 500
 The astronomer who paid to publish Newton's Principia. :: Edmond Halley
@@ -501,7 +502,6 @@ The structural engineer of the Citicorp Center who ordered the secret repairs. :
 The Boston tower that lost windows in the 1970s and was later fitted with tuned mass dampers. :: John Hancock Tower
 The French suspension bridge that collapsed in 1850 as a battalion of soldiers crossed it. :: Angers Bridge (Basse-Chaîne Bridge)
 The 1831 English bridge collapse that led the British Army to order troops to break step on bridges. :: Broughton Suspension Bridge
-Engineers now blame the Tacoma Narrows collapse on this, not simple resonance. :: Aeroelastic flutter
 The Tacoma Narrows Bridge collapsed in a wind of about this speed. :: About 65 km/h (40 mph)
 The 1959 and 1960 Lockheed Electra crashes came from this propeller and engine instability. :: Whirl flutter
 The NACA engineer whose 1948 report predicted roll (inertia) coupling in fast jets. :: William H. Phillips

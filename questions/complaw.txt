@@ -323,6 +323,7 @@ The person who takes the steps to form a new company before it is incorporated. 
 A contract made on behalf of a company before it legally exists. :: Pre-incorporation contract
 The part of share capital that shareholders have promised but the company has not yet asked them to pay. :: Uncalled capital
 The minimum number of members who must be present for a meeting's decisions to be valid. :: Quorum
+The WTO replaced GATT in this year. :: 1995
 
 ## 400
 The Saudi Companies Law 2022 lets an LLC convert to a joint stock company by this decision. :: A partners' resolution
@@ -354,7 +355,6 @@ The legal principle allowing courts to treat a group of companies as one in some
 The English case of 2013 that limited piercing the veil to evasion. :: Prest v Petrodel Resources
 The English case where a company was used to avoid a non-compete clause. :: Gilford Motor Co v Horne (1933)
 The doctrine that a company can only act within its objects clause. :: Ultra vires
-The English case that set the ultra vires rule in 1875. :: Ashbury Railway Carriage v Riche
 The rule that outsiders can assume internal company procedures were followed. :: The indoor management rule (Turquand's case)
 The 1982 English case on when a company's payments to its directors are really gifts out of capital. :: Re Halt Garage (1964) Ltd (1982)
 Scholars of Islamic law debated the limited liability company mostly because it gives the company this separate status of its own. :: Legal personality
@@ -494,7 +494,6 @@ The WTO's 13th Ministerial Conference was held in this city. :: Abu Dhabi
 The first WTO Ministerial Conference was held in this city. :: Singapore
 The Doha Round of trade talks began in this year. :: 2001
 The GATT was signed in this year. :: 1947
-The WTO replaced GATT in this year. :: 1995
 The Uruguay Round ended in this city's agreement. :: Marrakesh
 The Marrakesh Agreement was signed in this year. :: 1994
 The principle that WTO members must treat all members equally. :: Most-favoured-nation (MFN)
@@ -529,3 +528,4 @@ The 1973 House of Lords case allowing a "quasi-partnership" company to be wound 
 The UK shareholder remedy under section 994 of the Companies Act 2006. :: Unfair prejudice petition
 The 1919 Michigan case in which shareholders forced Ford to pay a special dividend, a classic on shareholder primacy. :: Dodge v Ford Motor Co
 The 1996 Delaware case that set directors' duty to make sure the company has reporting and compliance systems. :: In re Caremark
+The English case that set the ultra vires rule in 1875. :: Ashbury Railway Carriage v Riche

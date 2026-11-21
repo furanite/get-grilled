@@ -159,7 +159,6 @@ The most venomous snake on land, from Australia. :: Inland taipan
 The longest venomous snake. :: King cobra
 The longest snake in the world. :: Reticulated python
 The snake in Arabia with horns above its eyes. :: Horned viper
-The reptile from New Zealand often called a 'living fossil'. :: Tuatara
 The turtle that is the largest, with a leathery shell. :: Leatherback turtle
 The sea turtle that nests on Saudi and Omani beaches, named for its green fat. :: Green turtle
 The fish famous for swimming upstream to breed. :: Salmon
@@ -221,6 +220,7 @@ The process where an animal grows a new tail or limb. :: Regeneration
 The order of mammals that includes humans, apes and lemurs. :: Primates
 The traditional Bedouin term for a female camel prized for milk. :: Naqa
 The island with the most unique mammals, like lemurs and fossas. :: Madagascar
+The shark species seen near Saudi Arabia's Red Sea reefs, the largest fish. :: Whale shark
 
 ## 300
 The scientific name for the domestic dog's wild ancestor. :: Canis lupus (grey wolf)
@@ -235,7 +235,6 @@ The breathing organs of fish. :: Gills
 The organ that lets many fish float at the right depth. :: Swim bladder
 The line of sense organs along a fish's side. :: Lateral line
 The skeleton of a shark is made of this. :: Cartilage
-The sense that sharks use to detect electric fields. :: Electroreception (ampullae of Lorenzini)
 The way bats and dolphins find things using sound. :: Echolocation
 The way snakes 'smell' with their tongues uses this organ. :: Jacobson's organ (vomeronasal organ)
 The heat-sensing pits of some snakes let them see this. :: Infrared (body heat)
@@ -295,7 +294,6 @@ The Arabian camel breed famous for racing, from Oman. :: Omani camel
 The famous camel beauty contest in Saudi Arabia. :: King Abdulaziz Camel Festival
 The Gulf waters are home to the largest population of this sea mammal outside Australia. :: Dugong
 The shark that has a hammer-shaped head. :: Hammerhead shark
-The shark species seen near Saudi Arabia's Red Sea reefs, the largest fish. :: Whale shark
 The animal whose horn is made of keratin, like hair. :: Rhinoceros
 The animal whose tusks are long teeth. :: Elephant
 The animal known for 'laughing' calls that is actually a skilled hunter. :: Spotted hyena
@@ -323,6 +321,8 @@ The name for a group of crows. :: Murder
 The change from a caterpillar to a butterfly, or a tadpole to a frog. :: Metamorphosis
 Animals that eat both plants and meat. :: Omnivores
 The deep winter sleep of animals such as bears and hedgehogs. :: Hibernation
+The cat that was found in Arabia, hunting with dogs and called the 'hunting leopard'. :: Cheetah
+The reptile from New Zealand often called a 'living fossil'. :: Tuatara
 
 ## 400
 The scientific name of the Arabian oryx. :: Oryx leucoryx
@@ -353,7 +353,6 @@ The world's smallest primate. :: Madame Berthe's mouse lemur
 The tiny Indonesian fish, among the smallest vertebrates, that lives in peat swamps. :: Paedocypris
 The frog that is the most poisonous, from Colombia. :: Golden poison frog
 The largest frog in the world. :: Goliath frog
-The amphibian group with no legs that looks like worms. :: Caecilians
 The 'four-eyed fish' can see above and below water at once; its genus is this. :: Anableps
 The ability of clownfish to change from male to female is called this. :: Sequential hermaphroditism
 The fish that is a 'living fossil' rediscovered in 1938. :: Coelacanth
@@ -425,6 +424,7 @@ The insect order of butterflies and moths, meaning "scale wings". :: Lepidoptera
 The organs at the tip of a spider's abdomen that produce silk. :: Spinnerets
 Laying eggs in other birds' nests so they raise the young, as cuckoos do. :: Brood parasitism
 The small hard tip on a baby bird's beak used to break out of the egg. :: Egg tooth
+The sense that sharks use to detect electric fields. :: Electroreception (ampullae of Lorenzini)
 
 ## 500
 The scientific name of the cheetah. :: Acinonyx jubatus
@@ -483,7 +483,6 @@ The Saudi stud farm in Dirab that preserves pure Arabian horses. :: King Abdulaz
 The world's oldest known breed of domesticated dog, linked to Arabian hunting. :: Saluki
 The lion subspecies that once lived in Iraq and Iran and now survives only in India. :: Asiatic lion
 The Indian forest where the last Asiatic lions live. :: Gir Forest
-The cat that was found in Arabia, hunting with dogs and called the 'hunting leopard'. :: Cheetah
 The Asiatic cheetah now survives only in this country. :: Iran
 The bird of prey that migrates over Saudi Arabia in huge numbers each autumn, the steppe eagle, breeds in this region. :: Central Asia (Kazakhstan and Russia)
 The 'Red Sea's island' famous for nesting seabirds and turtles in Saudi waters. :: Farasan Islands
@@ -527,3 +526,4 @@ The bird family of the hoopoe, a crested bird mentioned in the Qur'an. :: Upupid
 The Red Sea is home to over this many species of fish. :: About 1,200
 The stinging cells of jellyfish and corals that fire tiny harpoon-like threads. :: Cnidocytes (nematocysts)
 The countercurrent net of blood vessels that saves heat in the legs of penguins and other animals. :: Rete mirabile
+The amphibian group with no legs that looks like worms. :: Caecilians

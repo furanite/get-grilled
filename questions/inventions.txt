@@ -111,6 +111,7 @@ The ancient Greek inventor of the screw pump, who shouted "Eureka!". :: Archimed
 The ISS stands for this. :: International Space Station
 The company founded by Jeff Bezos in 1994 as an online bookshop. :: Amazon
 The Saudi giga-project city designed as a 170-km linear city called "The Line". :: NEOM
+The Romans built these to carry water to their cities. :: Aqueducts
 
 ## 200
 The year the Wright brothers first flew at Kitty Hawk. :: 1903
@@ -221,7 +222,6 @@ The Chinese invention of moveable type in clay, made by Bi Sheng. :: Moveable ty
 The ancient Chinese invention used to steer ships, at the back of the boat. :: The sternpost rudder
 The Chinese invention, a wheeled barrow with one wheel. :: The wheelbarrow
 The ancient Roman building material that let them build domes like the Pantheon. :: Concrete
-The Romans built these to carry water to their cities. :: Aqueducts
 The Persian invention of underground water channels used in deserts. :: Qanat
 The Persian invention of wind towers to cool houses. :: Badgir (windcatcher)
 The ancient invention for lifting water using a long pole and counterweight, used in Egypt. :: Shaduf
@@ -315,6 +315,7 @@ The Chinese inventor of the seismoscope with dragons and toads, in 132 CE. :: Zh
 The inventor of instant noodles, who launched Chicken Ramen in Japan in 1958. :: Momofuku Ando
 The sheet of carbon one atom thick first isolated at Manchester in 2004 with sticky tape. :: Graphene
 The fencing invention Joseph Glidden patented in 1874 that closed off the open range in the American West. :: Barbed wire
+The ancient aflaj water channel system is famous in this Gulf country. :: Oman
 
 ## 400
 The Mesopotamian civilisation credited with the first known wheel, around 3500 BCE. :: Sumer
@@ -509,7 +510,6 @@ The battle of 751 after which papermaking is said to have spread west. :: The Ba
 The first paper mill in Baghdad was set up around this year. :: 794
 The Gulf Arabic name for a wind tower that cools a house. :: Barjeel
 The traditional Najdi building material made of sun-dried earth and straw. :: Mud brick (adobe)
-The ancient aflaj water channel system is famous in this Gulf country. :: Oman
 The Nabataeans of Petra and Hegra stored rainwater in these carved stone tanks. :: Cisterns
 The famous ancient well in the Saudi oasis of Tayma. :: Bir Haddaj
 The German physicist who invented the cathode-ray tube display in 1897. :: Karl Ferdinand Braun

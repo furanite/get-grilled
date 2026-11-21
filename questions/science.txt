@@ -224,6 +224,7 @@ The Greek scientist who discovered the law of buoyancy. :: Archimedes
 The protein that carries oxygen in red blood cells. :: Haemoglobin
 The neurotransmitter linked to reward and pleasure. :: Dopamine
 The hottest air temperature officially recorded on Earth was in this place. :: Death Valley (Furnace Creek)
+The southern lights are called this. :: Aurora australis
 
 ## 300
 The element with the highest melting point. :: Tungsten
@@ -327,7 +328,6 @@ The energy needed to start a reaction. :: Activation energy
 The chemist who won the 1999 Nobel for femtochemistry. :: Ahmed Zewail
 The physicist who described black hole radiation in 1974. :: Stephen Hawking
 The principle that faster-moving fluid has lower pressure. :: Bernoulli's principle
-The method invented by Kary Mullis to copy DNA quickly. :: PCR (polymerase chain reaction)
 The theory that infectious diseases are caused by microbes. :: Germ theory
 The effect that makes winds curve because of Earth's rotation. :: Coriolis effect
 The name for coral losing its algae in hot water. :: Coral bleaching
@@ -401,7 +401,6 @@ The Abbasid scientist known for early chemistry, called Geber in Latin. :: Jabir
 The Persian physician who first told measles and smallpox apart. :: Al-Razi (Rhazes)
 The layer of the Earth's atmosphere where the Northern Lights happen. :: Thermosphere (ionosphere)
 The particles from the Sun that cause the auroras. :: Solar wind (charged particles)
-The southern lights are called this. :: Aurora australis
 The scale for measuring hurricanes from 1 to 5. :: Saffir–Simpson scale
 The scale for measuring tornado strength. :: Enhanced Fujita scale
 The circulation of ocean water driven by temperature and salt. :: Thermohaline circulation
@@ -427,12 +426,13 @@ The cell organelle that packages and ships proteins. :: Golgi apparatus
 The theory of how continents float and move on the mantle was confirmed by this 1960s discovery. :: Seafloor spreading
 The law that the total pressure of a gas mixture equals the sum of the partial pressures. :: Dalton's law
 The constant, about 1.38 × 10⁻²³ J/K, that links a particle's energy to temperature. :: Boltzmann constant
-The particle emitted together with an electron in beta-minus decay. :: Antineutrino (electron antineutrino)
 The organelle full of digestive enzymes that breaks down worn-out cell parts. :: Lysosome
 The gaseous plant hormone that ripens fruit. :: Ethylene
 The main nitrogen waste excreted by birds and reptiles. :: Uric acid
 The Indian physicist who won the 1930 Nobel Prize for discovering a kind of light scattering. :: C. V. Raman
 The thin, iridium-rich clay layer that marks the extinction of the dinosaurs. :: K–Pg boundary
+The type of quark found with the 'up' quark in protons and neutrons. :: Down quark
+The method invented by Kary Mullis to copy DNA quickly. :: PCR (polymerase chain reaction)
 
 ## 500
 The element with the symbol Sb. :: Antimony
@@ -466,7 +466,6 @@ The value of the speed of light in a vacuum in metres per second, exactly. :: 29
 The physicist who first measured the charge of the electron with oil drops. :: Robert Millikan
 The scientist who predicted antimatter in 1928. :: Paul Dirac
 The force carried by gluons. :: The strong nuclear force
-The type of quark found with the 'up' quark in protons and neutrons. :: Down quark
 The heaviest known elementary particle, found in 1995. :: Top quark
 The Indian physicist after whom bosons are named. :: Satyendra Nath Bose
 The effect where electrons tunnel through barriers they could not classically cross. :: Quantum tunnelling
@@ -535,3 +534,4 @@ Peter Mitchell's theory that cells make ATP using a proton gradient across a mem
 The Danish seismologist who discovered Earth's solid inner core in 1936. :: Inge Lehmann
 The seismic body waves that cannot pass through Earth's liquid outer core. :: S-waves (shear waves)
 The bacterial enzymes that cut DNA at specific sequences, key tools of genetic engineering. :: Restriction enzymes
+The particle emitted together with an electron in beta-minus decay. :: Antineutrino (electron antineutrino)

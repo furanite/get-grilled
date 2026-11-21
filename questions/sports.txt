@@ -242,7 +242,6 @@ The French coach who led Saudi Arabia to its 2022 win over Argentina. :: Hervé 
 The Jeddah club that won the 2022–23 Saudi Pro League. :: Al-Ittihad
 The Jeddah club that won the AFC Champions League Elite in 2025. :: Al-Ahli
 The Saudi club that won the 2019 AFC Champions League. :: Al-Hilal
-The record number of consecutive wins set by Al-Hilal in 2023-24, a world record for a top-flight club. :: 34
 The Saudi Pro League top scorer in 2023–24, with 35 goals. :: Cristiano Ronaldo
 The Serbian striker who joined Al-Hilal from Fulham in 2023. :: Aleksandar Mitrović
 The number of teams at the 2026 FIFA World Cup. :: 48
@@ -335,6 +334,7 @@ The Manchester United stadium known as the "Theatre of Dreams". :: Old Trafford
 The country that won Euro 2016, beating hosts France in the final. :: Portugal
 The Tour de France green jersey is awarded for this classification. :: Points classification
 The cricket dismissal when the ball would have hit the stumps but strikes the batter's leg, shortened to three letters. :: LBW (leg before wicket)
+The country that kept the Jules Rimet trophy after a third win in 1970. :: Brazil
 
 ## 400
 The FIFA World Cup winner in 1966, on home soil. :: England
@@ -350,7 +350,6 @@ The Italian striker who won the Golden Boot and the World Cup in 1982. :: Paolo 
 The Cameroonian forward who danced at the 1990 World Cup aged 38. :: Roger Milla
 The Brazilian striker known as 'R9', top scorer at the 2002 World Cup. :: Ronaldo Nazário
 The Croatian midfielder who won the Ballon d'Or in 2018. :: Luka Modrić
-The goalkeeper who is the only one to win the Ballon d'Or, in 1963. :: Lev Yashin
 The Spanish midfielder who scored the winner in the 2010 World Cup final. :: Andrés Iniesta
 The German who scored the winner in the 2014 World Cup final. :: Mario Götze
 The English player who scored the most Premier League goals. :: Alan Shearer
@@ -430,19 +429,19 @@ The NBA player who scored 100 points in one game in 1962. :: Wilt Chamberlain
 The country that surprised Europe by winning Euro 2004. :: Greece
 The only two countries to win the FIFA World Cup twice in a row. :: Italy and Brazil
 The Brazilian who won the 2007 Ballon d'Or, the last winner before the Messi–Ronaldo era. :: Kaká
-The Kenyan runner who set the 800 metres world record of 1:40.91 at London 2012. :: David Rudisha
 The Jamaican sprinter who won the women's Olympic 100 metres in 2008 and 2012. :: Shelly-Ann Fraser-Pryce
 The golf term for three under par on a single hole. :: Albatross (double eagle)
 The cricket delivery aimed to land right at the batter's feet. :: Yorker
 The Egyptian playmaker nicknamed "the Magician" who starred for Al Ahly in the 2000s. :: Mohamed Aboutrika
 The Saudi club that won the AFC Champions League in both 2004 and 2005. :: Al-Ittihad
 The Swedish player who won Wimbledon five times in a row, from 1976 to 1980. :: Björn Borg
+The year the Olympic Games were cancelled because of World War I. :: 1916
+The record number of consecutive wins set by Al-Hilal in 2023-24, a world record for a top-flight club. :: 34
 
 ## 500
 The year FIFA was founded. :: 1904
 The city where FIFA was founded. :: Paris
 The Frenchman after whom the World Cup trophy was first named. :: Jules Rimet
-The country that kept the Jules Rimet trophy after a third win in 1970. :: Brazil
 The dog that found the stolen Jules Rimet trophy in London in 1966. :: Pickles
 The first player sent off in a World Cup final. :: Pedro Monzón
 The fastest goal in World Cup history, in 11 seconds in 2002, scored by this Turkish player. :: Hakan Şükür
@@ -476,7 +475,6 @@ The Egyptian wrestler who won Greco-Roman gold at Athens 2004. :: Karam Gaber
 The Kuwaiti shooter who won gold competing as an Independent Olympic Athlete at Rio 2016. :: Fehaid Al-Deehani
 The first Emirati Olympic gold medallist, a shooter in 2004. :: Sheikh Ahmed bin Hasher Al Maktoum
 The Jordanian taekwondo athlete who won Jordan's first Olympic gold in 2016. :: Ahmad Abughaush
-The year the Olympic Games were cancelled because of World War I. :: 1916
 The Olympic Games that were the first held in South America. :: Rio de Janeiro 2016
 The first Olympic Games shown live on TV worldwide by satellite. :: Tokyo 1964
 The athlete who lit the Olympic cauldron at Atlanta 1996. :: Muhammad Ali
@@ -539,3 +537,5 @@ The off-spinner's delivery that turns the "wrong" way, made famous by Pakistan's
 The Real Madrid striker who scored in five European Cup finals in a row, from 1956 to 1960. :: Alfredo Di Stéfano
 The Uruguayan who scored the winning goal against Brazil in the 1950 "Maracanazo". :: Alcides Ghiggia
 The first World Cup penalty shoot-out, in 1982, was between West Germany and this country. :: France
+The Kenyan runner who set the 800 metres world record of 1:40.91 at London 2012. :: David Rudisha
+The goalkeeper who is the only one to win the Ballon d'Or, in 1963. :: Lev Yashin

@@ -235,7 +235,6 @@ The CPU utilisation bound for rate-monotonic scheduling as the number of tasks g
 The utilisation up to which EDF can always meet all deadlines on one processor, as a percentage. :: 100
 The software-only mutual exclusion algorithm for two threads using a flag array and a turn variable. :: Peterson's algorithm
 The first known correct software solution to mutual exclusion for two processes, credited by Dijkstra. :: Dekker's algorithm
-The mutual exclusion algorithm for many processes that works like taking a numbered ticket. :: Lamport's bakery algorithm
 The atomic hardware instruction that reads a value and sets it to 1 in one step. :: Test-and-set
 The atomic instruction that writes a new value only if the current value matches an expected one. :: Compare-and-swap (CAS)
 The problem with compare-and-swap when a value changes from A to B and back to A. :: ABA problem
@@ -337,6 +336,7 @@ The initial value of the "mutex" semaphore in the bounded-buffer solution. :: 1
 The x86 ring in which the kernel runs. :: Ring 0
 The x86 ring in which user programs run. :: Ring 3
 The memory error detector created by Julian Seward. :: Valgrind
+The Sun network file system released in 1984, shortened to three letters. :: NFS
 
 ## 400
 The year Thompson and Ritchie received the Turing Award. :: 1983
@@ -410,7 +410,6 @@ The 1971 paper that set out the four conditions for deadlock: Coffman and others
 The computer scientist who proposed the working set model in 1968. :: Peter Denning
 The IBM researcher who showed in 1969 that FIFO can get worse with more frames. :: László Bélády
 The two inventors of the LFS log-structured file system in 1991: Rosenblum and this man. :: John Ousterhout
-The Sun network file system released in 1984, shortened to three letters. :: NFS
 The Google distributed file system paper published in 2003. :: Google File System (GFS)
 The Unix design idea, pushed further by Plan 9, that devices, processes and even the network are reached through the file system. :: Everything is a file
 The Bell Labs operating system that followed Unix, named after a film. :: Plan 9
@@ -439,6 +438,7 @@ The BSD file system technique that keeps metadata consistent by ordering disk wr
 The BSD Fast File System idea of keeping a file's inode and data blocks close together in disk regions. :: Cylinder groups
 The page table design for large address spaces in which the virtual page number is hashed into a table. :: Hashed page table
 The problem in which many processes wake up for one event, but only one of them can proceed. :: Thundering herd problem
+The mutual exclusion algorithm for many processes that works like taking a numbered ticket. :: Lamport's bakery algorithm
 
 ## 500
 The average turnaround time, in milliseconds, under round robin with a quantum of 4 for jobs of 24, 3 and 3 ms arriving at time 0 in that order. :: 15.67

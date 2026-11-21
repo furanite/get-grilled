@@ -284,7 +284,6 @@ Board made of oriented wood strands. :: OSB (oriented strand board)
 The insect that damages timber in hot regions. :: Termites
 The fungus that rots wet timber. :: Dry rot (and wet rot)
 The protective treatment of timber with chemicals under pressure. :: Pressure treatment
-The Saudi stone used in old Jeddah houses. :: Coral stone (manqabi)
 The traditional Najdi roofs use tamarisk or palm trunk beams covered with this. :: Palm fronds and mud
 Traditional Najdi walls are thicker at the bottom for this reason. :: Stability (and heat)
 The plaster made of lime and used in old buildings. :: Lime plaster
@@ -316,7 +315,6 @@ A stone placed at the corner of a building, often with a date. :: A cornerstone 
 The ceremony of placing the last beam on top of a building. :: Topping out
 The term for the wet mix of cement and water before sand and stone are added. :: Cement paste
 Paint that protects steel from fire by swelling. :: Intumescent paint
-Stone cut into blocks for building. :: Ashlar (dressed stone)
 The Italian engineer who studied beam strength in "Two New Sciences". :: Galileo Galilei
 A column that fails by crushing rather than by buckling because it is short and thick. :: A short (stocky) column
 The truss whose verticals and diagonals form a K shape in each panel. :: K truss
@@ -325,6 +323,8 @@ A groove cut in a concrete slab so that shrinkage cracks form along it. :: A con
 A mass of masonry built against a wall to resist the outward thrust of an arch or vault. :: A buttress
 Name this bridge type. {img:lm-golden-gate.jpg} :: A suspension bridge (the Golden Gate)
 A frame whose beam-column joints are rigid, so it resists sideways loads by bending. :: Moment-resisting (rigid) frame
+The 2021 Surfside condominium collapse was in this US state. :: Florida
+The Ottoman architect who built domes larger and lighter on half-domes. :: Mimar Sinan
 
 ## 400
 The modulus of elasticity of steel is about this. :: 200 GPa
@@ -357,7 +357,6 @@ A beam much deeper than usual, such as a transfer beam. :: A deep beam
 A thick slab or beam that moves column loads to a different grid below. :: A transfer structure
 A tall-building system where outrigger trusses link the core to outer columns. :: Outrigger system
 The Abraj Al-Bait Clock Tower is about this tall. :: 601 metres
-The clock faces of the Makkah clock tower are about this wide. :: 43 metres
 The architect of the Jeddah Tower. :: Adrian Smith + Gordon Gill
 Concrete pumped to record heights at Burj Khalifa reached about this height. :: 600 metres
 High-strength concrete in tall buildings has strength above this. :: 60 MPa (some above 80)
@@ -388,7 +387,6 @@ The German timber-frame style with exposed beams. :: Fachwerk
 The Japanese technique of joining timber without nails. :: Japanese joinery (sashimono, tsugite)
 The famous wooden temple in Nara, among the largest wooden buildings. :: Tōdai-ji
 The tallest wooden pagoda in Japan is at this temple. :: Tō-ji (Kyoto)
-Japanese pagodas survive earthquakes partly thanks to this central post. :: The shinbashira
 The ancient method of building walls of stacked stones without mortar. :: Dry stone walling
 Huge stones fitted together without mortar by the Inca. :: Polygonal masonry (ashlar)
 The thin brick vault built without formwork, used in Iran and by Hassan Fathy ﵀. :: The Nubian vault
@@ -423,10 +421,12 @@ The Burj Khalifa's shape was tuned to "confuse the wind" by doing this. :: Chang
 The Shanghai Tower twists by about this many degrees to cut wind load. :: 120
 The French engineer who developed prestressed concrete. :: Eugène Freyssinet
 The gardener who patented reinforced concrete pots in 1867. :: Joseph Monier
-The Italian engineer of the Palazzetto dello Sport in Rome. :: Pier Luigi Nervi
 The "trussed tube" with big X braces was used in this Chicago tower. :: The John Hancock Center
 The longest bridge in the world. :: The Danyang-Kunshan Grand Bridge
 The moment at each end of a beam fixed at both ends, carrying a uniform load w over span L. :: wL²/12
+Type III cement is used for this. :: High early strength
+Stone cut into blocks for building. :: Ashlar (dressed stone)
+The Saudi stone used in old Jeddah houses. :: Coral stone (manqabi)
 
 ## 500
 The Roman concrete of the Pantheon's dome uses lighter stones near the top, such as this. :: Pumice
@@ -434,7 +434,6 @@ The Pantheon's dome is unreinforced and still the largest of its kind. :: The la
 The dome of Florence Cathedral was built without centring by using this brick pattern. :: Herringbone brickwork
 Brunelleschi's dome is made of two shells, inner and outer, joined by these. :: Ribs
 The dome of Hagia Sophia collapsed partly in this year after an earthquake. :: 558
-The Ottoman architect who built domes larger and lighter on half-domes. :: Mimar Sinan
 Mimar Sinan called this mosque his masterpiece. :: The Selimiye Mosque in Edirne
 The Gol Gumbaz in India has one of the largest domes, built on this structural trick. :: Intersecting arches (pendentives)
 The famous "whispering gallery" is in this London cathedral. :: St Paul's Cathedral
@@ -465,7 +464,6 @@ The steel cable test standard for prestressing strand. :: ASTM A416
 The ASTM standard for Portland cement. :: ASTM C150
 The type of cement that resists sulphate attack, often used in the Gulf. :: Sulphate-resisting cement (Type V)
 Type I Portland cement is called this. :: Ordinary Portland cement
-Type III cement is used for this. :: High early strength
 The chemical compound in cement that gives early strength. :: Tricalcium silicate (C3S)
 The compound in cement linked to sulphate attack. :: Tricalcium aluminate (C3A)
 The main product of cement hydration that gives strength. :: Calcium silicate hydrate (C-S-H)
@@ -489,7 +487,6 @@ The bridge collapse that the ring worn by Canadian engineers is said to recall. 
 The Silver Bridge in the US collapsed in 1967 because of a crack in this part. :: An eyebar
 The Sampoong Department Store collapsed in this city in 1995. :: Seoul
 The Rana Plaza collapse of 2013 was in this country. :: Bangladesh
-The 2021 Surfside condominium collapse was in this US state. :: Florida
 The Kansas City Hyatt walkway collapse involved hanger rods and this change. :: A switch from one continuous rod to two rods
 The engineer who blew the whistle on the Citicorp Center's wind weakness. :: William LeMessurier
 The Citicorp Center's columns are placed in this unusual position. :: At the middle of each side
@@ -529,3 +526,6 @@ The central zone of a section inside which a compressive load causes no tension 
 A concrete beam in which the steel yields before the concrete crushes, giving warning before failure. :: Under-reinforced
 The ACI factor, 0.85 for concrete up to 28 MPa, that relates stress-block depth to neutral axis depth. :: β₁ (beta one)
 The classic frame analysis method that writes each end moment in terms of joint rotations and sway. :: Slope-deflection method
+Japanese pagodas survive earthquakes partly thanks to this central post. :: The shinbashira
+The Italian engineer of the Palazzetto dello Sport in Rome. :: Pier Luigi Nervi
+The clock faces of the Makkah clock tower are about this wide. :: 43 metres

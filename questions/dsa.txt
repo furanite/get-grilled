@@ -217,6 +217,7 @@ The computer scientist who published Shell sort in 1959. :: Donald Shell
 The value of 2¹⁰. :: 1,024
 The number of binary strings of length 8. :: 256
 The number of permutations of 5 items. :: 120
+The number of ways to choose 3 items from 10. :: 120
 
 ## 300
 The data structure that gives O(log n) search, insert and delete using towers of linked lists and coin flips. :: Skip list
@@ -319,7 +320,6 @@ The number of edges in a complete graph with 10 vertices. :: 45
 The number of nodes in a perfect binary tree with 4 levels. :: 15
 The recurrence T(n) = 2T(n/2) + n solves to this. :: Θ(n log n)
 The postfix form of the expression (2 + 3) × 4. :: 2 3 + 4 ×
-The number of ways to choose 3 items from 10. :: 120
 The formula V − E + F = 2 for planar graphs is named after this mathematician. :: Leonhard Euler
 The bit operation that swaps two integers without a temporary variable, used three times. :: XOR
 

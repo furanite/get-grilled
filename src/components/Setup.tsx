@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react'
 import { CatIcon } from './Brand'
 import { nightIconId } from '../lib/caticons'
-import type { Category, CategorySummary, Game, Lang, PackGroup, PoolEdit, RoundMode, TourStep } from '../lib/types'
-import { ROUND_MODES, VALUES } from '../lib/types'
+import type { Category, CategorySummary, Difficulty, Game, Lang, PackGroup, PoolEdit, RoundMode, TourStep } from '../lib/types'
+import { DIFFICULTIES, ROUND_MODES, VALUES } from '../lib/types'
 import type { Strings } from '../lib/i18n'
 import { num, qCount } from "../lib/i18n"
 import { applyPool, boardRounds, cleanPlan, CLUE_SECS, createGame, createTournament, FACT_MAX, GAME_MINUTES, isPlayable, MAX_MEMBERS, MEMBER_MAX, MODE_COUNT, poolCounts, preferPictures, ROLE_MAX, splitCategories, TOUR_MAX_CATS, TOUR_MAX_ROUNDS, TOUR_PLANS, withIntro, type TeamDetails } from '../lib/game'
@@ -72,6 +72,7 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
   const [introOn, setIntroOn] = useState(false)
   const [details, setDetails] = useState<TeamDetails[]>(() => (presetTeams?.length ? presetTeams.slice(0, 4) : DEFAULT_TEAMS[lang]).map(blankDetails))
   const editDetails = (i: number, f: (d: TeamDetails) => TeamDetails) => setDetails((all) => all.map((d, j) => (j === i ? f(d) : d)))
+  const [difficulty, setDifficulty] = useState<Difficulty>('balanced')
   const [timer, setTimer] = useState(30)
   const [levelTimers, setLevelTimers] = useState<(number | null)[]>([null, null, null, null, null])
   const [gameMinutes, setGameMinutes] = useState(0)
@@ -159,7 +160,7 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
         .map((c) => (chosenNight?.pictures ? preferPictures(c) : c))
       const bad = cats.find((c) => !isPlayable(c))
       if (bad) throw new Error(`“${bad.name}” ${t.incomplete}`)
-      const tiles = { timer, deduct, golden, levelTimers, gameMinutes, ...(extras ? { steal, crowd, streak, comeback } : {}) }
+      const tiles = { timer, deduct, golden, levelTimers, gameMinutes, ...(difficulty !== 'standard' ? { difficulty } : {}), ...(extras ? { steal, crowd, streak, comeback } : {}) }
       let made: ReturnType<typeof createGame>
       if (tour) {
         const modes = plan.flatMap((r) => (r.kind === 'mode' && r.mode ? [r.mode] : []))
@@ -451,6 +452,17 @@ export default function Setup({ t, lang, index, indexError, custom, pools, onBac
             </>
           )}
         </fieldset>
+        <label className="field">
+          <span className="label">{t.difficulty}</span>
+          <select className="input" id="difficulty" value={difficulty} onChange={(e) => setDifficulty(e.target.value as Difficulty)} data-testid="difficulty">
+            {DIFFICULTIES.map((d) => (
+              <option key={d} value={d}>
+                {t.diffNames[d]}
+              </option>
+            ))}
+          </select>
+          <small className="muted">{t.diffHelp[difficulty]}</small>
+        </label>
         <label className="field">
           <span className="label">{t.timer}</span>
           <select className="input" id="timer" value={timer} onChange={(e) => setTimer(+e.target.value)}>
