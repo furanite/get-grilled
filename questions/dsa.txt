@@ -244,7 +244,7 @@ The Big O of the Bellman–Ford algorithm. :: O(VE)
 Bellman–Ford reports this when a cycle's total weight is below zero. :: Negative cycle
 The algorithm that finds strongly connected components with one depth-first search and a stack. :: Tarjan's algorithm
 The algorithm that finds strongly connected components with two depth-first searches. :: Kosaraju's algorithm
-A vertex whose removal disconnects a graph. :: Articulation point (cut vertex)
+A vertex whose removal disconnects a graph. :: Cut vertex (articulation point)
 An edge whose removal disconnects a graph. :: Bridge
 The maximum flow from source to sink equals the capacity of this. :: Minimum cut
 The method of finding maximum flow by repeatedly pushing flow along augmenting paths. :: Ford–Fulkerson method

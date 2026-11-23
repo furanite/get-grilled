@@ -3,7 +3,7 @@ name: Commercial & Company Law
 group: law
 
 ## 100
-A business owned and run by one person. :: A sole proprietorship
+A business owned and run by one person. :: Sole proprietorship (sole trader)
 A business owned by two or more people who share profits. :: A partnership
 A business that is a separate legal person from its owners. :: A company (corporation)
 The owners of a company. :: Shareholders
@@ -67,9 +67,9 @@ A company that owns other companies. :: A holding company (parent)
 A business started by entrepreneurs, often with new technology. :: A startup
 Money invested in startups for a share. :: Venture capital
 A joint project between two companies. :: A joint venture
-The Saudi stock exchange. :: Tadawul (Saudi Exchange)
+The Saudi stock exchange. :: Saudi Exchange (Tadawul)
 The Saudi authority that regulates the stock market. :: The Capital Market Authority (CMA)
-Saudi Arabia's central bank. :: SAMA (Saudi Central Bank)
+Saudi Arabia's central bank. :: Saudi Central Bank (SAMA)
 The Saudi authority that protects competition. :: The General Authority for Competition
 A company that controls almost all of a market. :: A monopoly
 Companies secretly agreeing to fix prices. :: A cartel (price fixing)

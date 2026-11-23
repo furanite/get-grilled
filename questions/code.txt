@@ -163,8 +163,8 @@ The Python function that gives the number of items in a list. :: len()
 The result of 7 // 2 in Python. :: 3
 The result of 2 ** 3 in Python. :: 8
 The result of 'ab' * 3 in Python. :: 'ababab'
-The value of True and False in Python. :: False
-The value of True or False in Python. :: True
+What the Python expression "True and False" evaluates to. :: False
+What the Python expression "True or False" evaluates to. :: True
 Python uses this, instead of braces, to group code blocks. :: Indentation
 A variable that can be used anywhere in a program. :: Global variable
 A database table row is also called this. :: Record

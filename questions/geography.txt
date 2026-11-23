@@ -234,7 +234,7 @@ The capital of Venezuela. :: Caracas
 The capital of Cuba. :: Havana
 The capital of Bangladesh. :: Dhaka
 The capital of Libya. :: Tripoli
-The capital of Yemen. :: Sanaa
+The capital of Yemen. :: Sana'a
 The capital of Mauritania. :: Nouakchott
 The capital of Somalia. :: Mogadishu
 The capital of Finland. :: Helsinki
@@ -443,7 +443,7 @@ The capital of South Sudan. :: Juba
 The capital of the Comoros. :: Moroni
 The capital of Sierra Leone. :: Freetown
 The capital of Liberia. :: Monrovia
-The capital of Guinea-Bissau. :: Bissau
+The capital of the small West African country, once a Portuguese colony, that lies between Senegal and Guinea. :: Bissau
 The capital of Bhutan. :: Thimphu
 The capital of Timor-Leste. :: Dili
 The capital of Kiribati. :: South Tarawa

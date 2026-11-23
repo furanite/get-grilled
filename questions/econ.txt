@@ -24,8 +24,8 @@ The government's plan for spending and taxes. :: Budget
 When a government spends more than it collects. :: Budget deficit
 When a government collects more than it spends. :: Budget surplus
 The total amount a government owes. :: National debt (public debt)
-Selling goods to other countries. :: Exports
-Buying goods from other countries. :: Imports
+Selling goods to other countries. :: Exporting
+Buying goods from other countries. :: Importing
 Exports minus imports. :: Balance of trade (net exports)
 A tax on imported goods. :: Tariff
 A limit on the amount of a good that can be imported. :: Quota

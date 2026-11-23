@@ -20,7 +20,7 @@ A lamp that stands on the floor. :: A floor lamp
 A light hanging from the ceiling on a cord. :: A pendant
 A light with many arms hanging from the ceiling. :: A chandelier
 A light fixed to a wall. :: A wall sconce
-Lights set into the ceiling. :: Downlights (recessed lights)
+Lights set into the ceiling. :: Recessed lights (downlights)
 A light on a track that can be pointed. :: A track light (spotlight)
 A narrow beam of light on one object. :: A spotlight
 Light for the whole room. :: General (ambient) lighting

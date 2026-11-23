@@ -437,7 +437,7 @@ The brightness of a surface as the eye sees it, measured in candelas per square 
 The usual recommended illuminance for general office desk work, in lux. :: About 500 lux
 The space-planning measure comparing usable floor area to the total floor area. :: Net-to-gross (efficiency) ratio
 Name this proportion shown with squares and a spiral. {img:golden-spiral.svg} :: The golden ratio (golden spiral)
-Itten's colour wheel has this many colours. :: Twelve
+Itten's colour wheel has this many colours. :: 12
 
 ## 500
 The Roman architect whose book has a section on wall paintings and decoration. :: Vitruvius

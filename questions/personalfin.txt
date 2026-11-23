@@ -68,7 +68,7 @@ A slip that shows your pay and deductions. :: Payslip
 A lump sum of extra pay given for good work. :: Bonus
 The yearly increase in salary. :: Raise (pay rise)
 A loan to buy a home. :: Home finance (mortgage)
-A loan to buy a car. :: Car finance
+A loan to buy a car. :: Car loan (auto finance)
 The money paid upfront when buying a home with finance. :: Down payment
 Renting means paying this to a landlord. :: Rent
 A written agreement between a tenant and landlord. :: Lease (tenancy contract)

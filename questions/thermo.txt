@@ -20,7 +20,7 @@ The instrument that measures temperature. :: Thermometer
 The instrument that measures air pressure. :: Barometer
 Standard atmospheric pressure in kilopascals. :: 101.325 kPa
 One bar is roughly equal to this. :: Atmospheric pressure (100 kPa)
-The three common states of matter. :: Solid, liquid, gas
+The three common states of matter. :: Solid, liquid and gas
 The change from solid to liquid. :: Melting
 The change from liquid to gas. :: Evaporation (boiling)
 The change from gas to liquid. :: Condensation
