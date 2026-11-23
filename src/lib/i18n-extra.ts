@@ -166,6 +166,7 @@ export const EXTRA_EN = {
     offline: 'Works offline: once this page has loaded, the game keeps working without internet.',
     offlineReady: 'Ready to play offline',
     items: [
+      'Overall difficulty: choose Easy, Balanced, Standard or Hard when you set up a game. Points stay the same.',
       'Tie-breaker: when teams finish level at the top, one sudden-death question decides the winner.',
       'Game log: every point won and lost, with team stats. Print it or download it as a spreadsheet.',
       'Backup sheet: print the board’s questions and answers before the game, in case a screen fails.',
@@ -342,6 +343,7 @@ export const EXTRA_AR: typeof EXTRA_EN = {
     offline: 'يعمل دون إنترنت: بعد تحميل هذه الصفحة مرة، تستمر اللعبة دون اتصال.',
     offlineReady: 'جاهزة للعب دون إنترنت',
     items: [
+      'مستوى الصعوبة العام: اختر سهل أو متوازن أو عادي أو صعب عند إعداد اللعبة. النقاط كما هي.',
       'كسر التعادل: إذا تعادلت الفرق في الصدارة، يحسم سؤال واحد بنظام الموت المفاجئ الفائز.',
       'سجل اللعبة: كل نقطة كُسبت أو خُسرت مع إحصاءات الفرق. اطبعه أو نزّله جدول بيانات.',
       'الورقة الاحتياطية: اطبع أسئلة اللوحة وإجاباتها قبل اللعب تحسّبًا لتعطّل الشاشة.',

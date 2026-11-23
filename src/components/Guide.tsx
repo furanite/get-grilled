@@ -46,6 +46,7 @@ const RULES: Section[] = [
     title: 'The board',
     items: [
       'Pick up to 6 categories and 2 to 4 teams. Each category has five tiles, from 100 (warm-up) to 500 (expert). Harder tiles are worth more.',
+      'The host chooses the overall difficulty when setting up: Easy, Balanced, Standard or Hard. The points on the tiles stay the same; only how hard the questions behind them are changes.',
       'A random team picks first, then the turn passes round the teams one at a time.',
       'With Comeback on, the team in last place picks the next tile instead.',
     ],
