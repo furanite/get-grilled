@@ -15,6 +15,8 @@ const EN = [
 const AR = ['شرموط\\S*', 'قحب\\S*', 'منيوك\\S*', 'منيك\\S*', 'كسمك', 'كس أمك', 'طيز\\S*', 'عرص', 'معرص', 'خول', 'زبي', 'يلعن أبو\\S*', 'ابن الكلب', 'يا حمار', 'يا كلب', 'يا غبي', 'حقير']
 const UR = ['چوتیا\\S*', 'بہن ?چود\\S*', 'ماں ?چود\\S*', 'گانڈو', 'حرامزاد\\S*', 'حرامی', 'رنڈی\\S*', 'کنجر\\S*', 'کمین\\S*', 'الو کا پٹھا', 'بے ?غیرت']
 const en = new RegExp(`(?<![A-Za-z])(${EN.join('|')})(?![A-Za-z])`, 'i')
+// Censored or run-together forms (Brainf*ck, f**k, sh*t, b!tch) are just as unwelcome.
+const masked = /(fuck|f[*#@!]+c?k|f[*#@!]*u[*#@!]+k|sh[*#@!]+t|b[*#@!]+tch|[a-z]{2}[*#@!]+ck(?![a-z]))/i
 const arUr = new RegExp(`(?<![\\u0600-\\u06FF])(${[...AR, ...UR].join('|')})(?![\\u0600-\\u06FF])`)
 
 // Haram food and drink stay out of the Food packs (fiqh and law packs may still name them, as rulings).
@@ -33,7 +35,7 @@ const lines = files.flatMap((p) => readFileSync(p, 'utf8').split('\n').map((text
 
 describe('clean language (owner, 2026-11-23)', () => {
   it('no curse words, slurs or crude words in English', () => {
-    expect(lines.filter((l) => en.test(l.text)).map((l) => `${l.at} | ${l.text.slice(0, 160)}`)).toEqual([])
+    expect(lines.filter((l) => en.test(l.text) || masked.test(l.text)).map((l) => `${l.at} | ${l.text.slice(0, 160)}`)).toEqual([])
   })
 
   it('no curse words, slurs or crude words in Arabic or Urdu', () => {
@@ -48,6 +50,8 @@ describe('clean language (owner, 2026-11-23)', () => {
 
   it('the checker catches a planted word and leaves look-alike names alone', () => {
     expect(en.test('What the shit is this')).toBe(true)
+    for (const w of ['Brainf*ck', 'Brainfuck', 'f**k', 'sh*t', 'b!tch']) expect(masked.test(w), w).toBe(true)
+    expect(masked.test('CIELAB (L*a*b*) and a*b product')).toBe(false)
     expect(en.test('Charles Dickens wrote this. Scunthorpe. Clifford Cocks. assess the cockpit.')).toBe(false)
     expect(arUr.test('يا حمار')).toBe(true)
     expect(arUr.test('الحمار حيوان أليف')).toBe(false)
