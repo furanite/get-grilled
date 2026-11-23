@@ -1,13 +1,31 @@
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
+
+/** How much of the game is stored on this device for playing without internet. */
+export interface OfflineState {
+  /** The app itself is stored: the page opens without internet */
+  ready: boolean
+  /** Question packs stored, out of how many there are (a pack is stored the first time it is used) */
+  packs: { have: number; total: number } | null
+  /** Storing every pack is under way */
+  busy: boolean
+  /** Some packs could not be fetched on the last try */
+  failed: boolean
+  /** Stores every question pack now, for a host who will play without internet */
+  storeAll: () => void
+}
 
 /**
- * Works offline: once the page has loaded over the internet, a service worker (public/sw.js, with the list of
- * files written at build time) keeps a copy of the app, its question packs, pictures and sounds, so the game
- * still opens and plays if the venue's Wi-Fi drops. Only on https or localhost (the Pi's plain-http network
- * doesn't need it: the Pi is the server). Returns whether the copy is ready.
+ * Works offline: once the page has loaded over the internet, a service worker (sw.js, with the list of
+ * files written at build time) keeps a copy of the app and its sounds, so the game still opens if the
+ * venue's Wi-Fi drops. Each question pack is stored the first time it is used, and the host can store all
+ * of them with one button; pictures are stored when first shown. Only on https or localhost (the Pi's
+ * plain-http network doesn't need it: the Pi is the server).
  */
-export function useOffline(): boolean {
+export function useOffline(): OfflineState {
   const [ready, setReady] = useState(false)
+  const [packs, setPacks] = useState<OfflineState['packs']>(null)
+  const [busy, setBusy] = useState(false)
+  const [failed, setFailed] = useState(false)
   useEffect(() => {
     if (!('serviceWorker' in navigator) || !isSecureContext || import.meta.env.DEV) return
     // On the Pi the server is in the room; caching there would only make updates slower to show.
@@ -15,14 +33,22 @@ export function useOffline(): boolean {
     if (location.protocol !== 'https:' && !new URLSearchParams(location.search).has('sw')) return
     let stop = false
     const onMsg = (e: MessageEvent) => {
-      if (e.data?.type === 'gg-cached' && !stop) setReady(true)
+      if (stop) return
+      const d = e.data as { type?: string; packs?: { have: number; total: number }; done?: boolean; failed?: number } | null
+      if (d?.type !== 'gg-cached' && d?.type !== 'gg-packs') return
+      if (d.type === 'gg-cached') setReady(true)
+      if (d.packs && typeof d.packs.have === 'number' && typeof d.packs.total === 'number') setPacks(d.packs)
+      if (d.done) {
+        setBusy(false)
+        setFailed(!!d.failed)
+      }
     }
     navigator.serviceWorker.addEventListener('message', onMsg)
     navigator.serviceWorker
       .register('./sw.js', { scope: './' })
       .then(async (reg) => {
         await navigator.serviceWorker.ready
-        // Ask the worker whether everything is stored (it fills the cache when it installs).
+        // Ask the worker what is stored (it fills the cache when it installs).
         ;(reg.active ?? reg.waiting ?? reg.installing)?.postMessage({ type: 'gg-status' })
       })
       .catch(() => {})
@@ -31,8 +57,18 @@ export function useOffline(): boolean {
       navigator.serviceWorker.removeEventListener('message', onMsg)
     }
   }, [])
-  return ready
+  const storeAll = useCallback(() => {
+    const sw = navigator.serviceWorker?.controller
+    if (!sw) return
+    setBusy(true)
+    setFailed(false)
+    sw.postMessage({ type: 'gg-all' })
+  }, [])
+  return { ready, packs, busy, failed, storeAll }
 }
+
+/** Asks the worker for a fresh count of what is stored (the answer arrives through useOffline). */
+export const refreshOffline = () => navigator.serviceWorker?.controller?.postMessage({ type: 'gg-status' })
 
 /** Keeps the screen on while `on` (and the big-screen window too, when it is open). Browsers without it just carry on. */
 export function useWakeLock(on: boolean, extra?: Window | null) {

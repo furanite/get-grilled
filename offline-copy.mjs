@@ -1,5 +1,6 @@
 // Works offline: after the build, writes sw.js (from scripts/sw-template.js) with the list of files to store:
-// the app, fonts, sounds and question packs. Pictures are stored when first shown. The version is a hash of
+// the app, fonts and sounds. Question packs are stored when first used (or all together when the host asks),
+// and pictures when first shown. The version is a hash of
 // the files, so any change makes a new copy. Used by vite.config.ts.
 import { readFileSync, readdirSync, statSync, writeFileSync } from 'node:fs'
 import { join, relative } from 'node:path'
@@ -51,9 +52,21 @@ export default function offlinePlugin() {
       const keep = files.filter((f) => f !== 'sw.js' && !/^og(-.*)?\.png$/.test(f) && !f.endsWith('.woff') && !f.startsWith('_') && f !== 'version.json').sort()
       const hash = createHash('sha256')
       for (const f of keep) hash.update(f).update(readFileSync(join(outDir, f)))
-      const list = ['./', ...keep.map((f) => './' + f)]
+      // Question packs are stored the first time each is used (or all at once when the host asks), so a
+      // first visit doesn't download every category. The list of categories (packs/index.json) is always stored.
+      // Only the categories themselves wait; the list of themed nights and anything else in packs/ is stored at once.
+      let ids = []
+      try {
+        ids = JSON.parse(readFileSync(join(outDir, 'packs', 'index.json'), 'utf8')).map((c) => c.id)
+      } catch {
+        /* no packs in this build */
+      }
+      const packFiles = new Set(ids.map((id) => `packs/${id}.json`))
+      const isPack = (f) => packFiles.has(f)
+      const list = ['./', ...keep.filter((f) => !isPack(f)).map((f) => './' + f)]
+      const packs = keep.filter(isPack).map((f) => './' + f)
       const tpl = readFileSync(new URL('./scripts/sw-template.js', import.meta.url), 'utf8')
-      writeFileSync(join(outDir, 'sw.js'), tpl.replace('__VERSION__', hash.digest('hex').slice(0, 12)).replace('__FILES__', JSON.stringify(list)))
+      writeFileSync(join(outDir, 'sw.js'), tpl.replace('__VERSION__', hash.digest('hex').slice(0, 12)).replace('__FILES__', JSON.stringify(list)).replace('__PACKS__', JSON.stringify(packs)))
     },
   }
 }

@@ -1152,6 +1152,9 @@ try {
     await page.selectOption('[data-plan-pick="3"]', 'double')
     assert(await page.locator('#lightning').count() === 0, 'tournament hides the single-game closing rounds')
     await page.screenshot({ path: `${SHOTS}/tournament-setup.png`, fullPage: true })
+    // No steal or audience tiles here: when tile 0-0 happened to be one, the card waited for the host's
+    // pick instead of closing, and this test failed about one run in five.
+    for (const id of ['#steal', '#crowd']) if (await page.locator(id).count()) await page.selectOption(id, '0')
     await page.getByTestId('start').click()
     await page.waitForSelector('[data-testid="round-card"]')
     const title = async () => (await page.textContent('[data-testid="round-title"]')).trim()
