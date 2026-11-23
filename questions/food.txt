@@ -161,7 +161,7 @@ The Swiss dish of melted cheese for dipping bread. :: Fondue
 The Belgian food sold in cones with mayonnaise. :: Fries (frites)
 The British dish of fried fish served with chips. :: Fish and chips
 The American dessert of baked apples in pastry. :: Apple pie
-The Italian cured ham. :: Prosciutto
+The Italian dessert of set sweetened cream, its name meaning "cooked cream". :: Panna cotta
 The blue cheese from Italy. :: Gorgonzola
 The French sheep's-milk blue cheese aged in the Combalou caves. :: Roquefort
 The Dutch cheese with a red wax coat. :: Edam
@@ -254,7 +254,7 @@ The emulsion sauce of egg yolk, butter, and lemon, used on eggs Benedict. :: Hol
 The mix of butter and flour used to thicken sauces. :: Roux
 The French mix of diced onion, carrot, and celery. :: Mirepoix
 The Italian word for pasta cooked "to the tooth". :: Al dente
-The Japanese breaded pork cutlet. :: Tonkatsu
+The Japanese breaded and fried chicken cutlet, often served with curry sauce. :: Chicken katsu
 The Japanese battered and deep-fried seafood and vegetables. :: Tempura
 The Japanese raw fish served without rice. :: Sashimi
 The thick Japanese wheat noodles. :: Udon
@@ -290,7 +290,7 @@ The Saudi coffee is lightly roasted and served in small cups called this. :: Fin
 The Moroccan pastry pie of pigeon or chicken dusted with sugar. :: Pastilla (bastilla)
 The Tunisian hot chilli paste. :: Harissa
 The Moroccan soup traditionally eaten to break the fast. :: Harira
-The French dish of beef stewed in red wine from Burgundy. :: Boeuf bourguignon
+The French pastry of thin puff-pastry layers and cream, its name meaning "a thousand leaves". :: Mille-feuille
 The French vegetable stew from Provence. :: Ratatouille
 The French fish stew from Marseille. :: Bouillabaisse
 The French sweet egg dish that rises in the oven. :: Soufflé
@@ -356,7 +356,7 @@ The gas released by the bacteria that make the holes in Swiss cheese. :: Carbon 
 The Spanish sheep's milk cheese from La Mancha. :: Manchego
 The Cypriot cheese that can be grilled without melting. :: Halloumi
 The hard, salty sheep's milk cheese from the region around Rome. :: Pecorino Romano
-The cured Spanish ham from black Iberian pigs. :: Jamón ibérico
+The Spanish nougat made from almonds and honey. :: Turrón
 The type of vinegar aged in barrels in Modena. :: Balsamic vinegar
 The Southeast Asian sauce made from fermented anchovies. :: Fish sauce
 The Korean fermented chilli paste. :: Gochujang
@@ -501,7 +501,7 @@ The English blue cheese that is "the king of English cheeses". :: Stilton
 The year feta got protected EU status. :: 2002
 The EU label that protects names like Champagne and Parmigiano-Reggiano. :: PDO (Protected Designation of Origin)
 The age in months that Parmigiano-Reggiano must be aged at minimum. :: 12
-The Spanish ham from acorn-fed Iberian pigs is called this grade. :: Bellota
+The Spanish blue cheese ripened in limestone caves in the mountains of Asturias. :: Cabrales
 The caviar species that produces the most expensive caviar. :: Beluga
 The sea where most wild beluga caviar came from. :: Caspian Sea
 The Japanese dish of fermented fish and rice, the ancestor of sushi. :: Narezushi
@@ -517,8 +517,8 @@ The Icelandic dish of fermented shark. :: Hákarl
 The Swedish fermented herring in cans. :: Surströmming
 The Sardinian cheese containing live insect larvae. :: Casu marzu
 The Korean royal court dish of marinated grilled beef. :: Bulgogi
-The ancient Egyptians paid pyramid workers partly in bread and this drink. :: Beer
-The ancient Mesopotamian goddess of beer. :: Ninkasi
+Herodotus wrote that the Great Pyramid recorded the silver spent feeding its workers radishes, garlic and this. :: Onions
+The oldest known written recipes, Babylonian stews on clay tablets, are kept at this US university. :: Yale
 The dish of rice cooked with meat and spices that the word "pilaf" comes from, in Persian. :: Polow
 The Afghan national rice dish with carrots and raisins. :: Kabuli pulao
 The ancient grain our Beloved and our master, the Prophet Muhammad ﷺ recommended in a broth called "talbina". :: Barley
