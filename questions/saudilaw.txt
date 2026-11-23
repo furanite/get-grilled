@@ -205,6 +205,7 @@ The Arabic term for a void contract. :: Batil
 The Arabic term for killing by mistake, which brings diyah but not qisas. :: Qatl al-khata'
 The Saudi programme, launched in 2011, that rates private companies by their share of Saudi employees. :: Nitaqat
 The Arabic term for a lease or hire contract. :: Ijarah
+The waiting period after divorce or the husband's death. :: 'Iddah
 
 ## 300
 The Basic Law article that names the Quran and Sunnah as the source of the state's authority. :: Article 7
@@ -249,8 +250,6 @@ The Saudi Law of Evidence lists admission, witnesses, writing, digital evidence 
 Under the Saudi Law of Evidence, a contract above this amount must be proven in writing. :: 100,000 riyals
 Under the Law of Evidence, digital evidence has the same force as this. :: Written (official) evidence
 The Saudi Law of Evidence has this many articles. :: 129
-The Saudi Personal Status Law has this many articles. :: 252
-The Saudi Civil Transactions Law has this many articles. :: 721
 The Civil Transactions Law's general rule that "harm must be removed" applies to this. :: Liability for harmful acts (torts)
 The Civil Transactions Law time limit for most claims is this many years. :: 10
 The Civil Transactions Law time limit for harm claims runs from the day the victim learns of the harm, up to this many years. :: Three (and 10 years from the act)
@@ -259,7 +258,6 @@ Under the Personal Status Law, a mother has custody of a child until this age. :
 Under the Personal Status Law, a child of 15 may choose which parent to live with. The name for this choice. :: Takhyir (choice)
 A wife's divorce through returning her dowry is called this. :: Khul'
 A divorce by a judge's ruling for harm or failure to pay maintenance. :: Faskh (judicial annulment)
-The waiting period after divorce or the husband's death. :: 'Iddah
 The waiting period after a husband's death is this long. :: Four months and ten days
 The marriage gift a husband must give his wife. :: Mahr
 The marriage contract in Saudi Arabia must be registered with this ministry. :: Ministry of Justice
@@ -420,6 +418,8 @@ The Saudi Protection from Abuse Law was issued in this year. :: 2013
 The Saudi Juveniles Law was issued in this year. :: 2018
 The Saudi Traffic Law in force was issued in this year. :: 2007
 The Saudi Human Rights Commission was set up in this year. :: 2005
+The Saudi Personal Status Law has this many articles. :: 252
+The Saudi Civil Transactions Law has this many articles. :: 721
 
 ## 500
 The Shura Council's first Speaker after its 1993 revival. :: Sheikh Muhammad ibn Jubayr

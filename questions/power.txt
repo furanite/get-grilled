@@ -332,7 +332,6 @@ The German physicist who derived the maximum wind turbine efficiency in 1919. ::
 The Italian physicist who led the first man-made nuclear chain reaction in 1942. :: Enrico Fermi
 The 1979 US nuclear accident in Pennsylvania. :: Three Mile Island
 The Tesla patent purchase in 1888 was made by this industrialist. :: George Westinghouse
-The Grand Ethiopian Renaissance Dam is on this river. :: Blue Nile
 London's Holborn Viaduct power station of 1882 was built by this inventor's company. :: Thomas Edison
 The 1973 event that quadrupled oil prices and sparked worldwide energy research. :: Oil embargo (1973 oil crisis)
 The Saudi electric car brand formed by PIF and Foxconn. :: Ceer
@@ -444,6 +443,7 @@ The common distribution transformer vector group with a delta HV winding and an 
 The 'V curves' of a synchronous machine plot armature current against this. :: Field (excitation) current
 In this three-phase connection, the line voltage is how many times the phase voltage? {img:three-phase-wye.svg} :: √3 (about 1.73)
 The first nuclear reactor, built under the stands of a Chicago stadium. :: Chicago Pile-1
+The Grand Ethiopian Renaissance Dam is on this river. :: Blue Nile
 
 ## 500
 The year Edison opened the Pearl Street power station in New York. :: 1882

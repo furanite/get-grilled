@@ -212,9 +212,9 @@ The Arabic name of the Pleiades. :: Al-Thurayya
 The star nearest to Earth after the Sun, by itself. :: Proxima Centauri
 The NASA mission that sent the first close-up images of Pluto. :: New Horizons
 The Space Shuttle's main engines burned liquid hydrogen and this. :: Liquid oxygen
+The astronomer who placed the Sun at the centre of the Solar System in 1543. :: Nicolaus Copernicus
 
 ## 300
-The astronomer who placed the Sun at the centre of the Solar System in 1543. :: Nicolaus Copernicus
 The astronomer whose laws showed planets move in ellipses. :: Johannes Kepler
 The Danish astronomer whose careful observations Kepler used. :: Tycho Brahe
 The Greek astronomer whose Earth-centred model was used for 1,400 years. :: Ptolemy

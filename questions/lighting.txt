@@ -203,7 +203,6 @@ The first synthetic dye, made by William Perkin in 1856. :: Mauveine (mauve)
 The Dutch painter famous for paintings of pure primary colours and grids. :: Piet Mondrian
 The Russian painter of "Black Square". :: Kazimir Malevich
 The artist of colour-field paintings with big soft rectangles. :: Mark Rothko
-The Bauhaus artist who wrote "Interaction of Color". :: Josef Albers
 Albers's series of paintings of squares inside squares. :: Homage to the Square
 The colour a brand uses again and again so people know it. :: A brand colour
 The colour of Saudi Aramco's logo. :: Blue and green
@@ -428,6 +427,7 @@ The yellow pigment made from the urine of cows fed mango leaves. :: Indian yello
 The unit of solid angle used in defining the lumen. :: Steradian
 A camera sensor's Bayer filter has twice as many pixels of this colour as of the others. :: Green
 The effect named after Helmholtz and Kohlrausch is about saturated colours looking this. :: Brighter
+The Bauhaus artist who wrote "Interaction of Color". :: Josef Albers
 
 ## 500
 The ancient Greek philosopher who said colours come from mixing light and dark. :: Aristotle

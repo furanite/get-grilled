@@ -288,7 +288,6 @@ Islamic star patterns are often built with this tool and a straightedge. :: A co
 The colour harmony made from one hue plus the two hues next to its complement. :: Split-complementary
 The colour theorist who wrote "Interaction of Color" in 1963. :: Josef Albers
 Albers taught at the Bauhaus and then at this US college. :: Black Mountain College (and later Yale)
-The German poet who wrote a "Theory of Colours" in 1810. :: Goethe
 The scientist who made the first colour circle from his work with prisms. :: Isaac Newton
 Newton split white light into this many named colours. :: Seven
 The Bauhaus teacher who wrote "The Art of Color". :: Johannes Itten
@@ -541,6 +540,7 @@ The year Saudi Arabia named the "Year of Arabic Calligraphy". :: 2020 (extended 
 The minimum contrast ratio WCAG asks for normal text at level AA. :: 4.5 to 1
 The font made for the London Underground in 1916. :: Johnston
 The UK road-sign font designed by Kinneir and Calvert. :: Transport
+The German poet who wrote a "Theory of Colours" in 1810. :: Goethe
 
 ## 500
 In the CIELAB colour space, "a" goes from green to this colour. :: Red

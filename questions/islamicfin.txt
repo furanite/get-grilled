@@ -161,7 +161,6 @@ The contract of 'Umar ibn al-Khattab ﵁ at Khaybar, keeping land and giving its
 The 'cash waqf' allowed in the Ottoman Empire endowed this. :: Money (cash)
 A waqf whose income goes to the founder's family first. :: Family waqf (waqf ahli or dhurri)
 A waqf for the public good. :: Charitable waqf (waqf khayri)
-The manager of a waqf. :: Nazir (mutawalli)
 The rule that zakat on trade goods is assessed on this value at the end of the year. :: Market value
 Zakat on a business's stock in trade is called this. :: Zakat on trade goods ('urud al-tijarah)
 Zakat is not due on items for personal use, such as these. :: A house, car or clothes for personal use
@@ -313,6 +312,7 @@ The Arabic name for a credit sale paid in instalments. :: Bay' al-taqsit
 In Hanafi fiqh, a contract sound in its essence but flawed in a description or condition. :: Fasid
 A contract that is void from its root, such as a sale of something forbidden. :: Batil
 According to the Shafi'i and Hanbali schools, zakat al-Fitr becomes due at this moment. :: Sunset on the last day of Ramadan
+The manager of a waqf. :: Nazir (mutawalli)
 
 ## 400
 The Arabic legal term for the "illah" of riba in food items according to the Shafi'i school. :: Being food (ta'm)

@@ -355,6 +355,8 @@ The structural engineer who led Burj Khalifa's design at SOM. :: Bill Baker
 The height of the Burj Khalifa, to the nearest metre. :: 828 m
 The NEOM mountain resort designed for outdoor skiing in Saudi Arabia. :: Trojena
 The tensile fabric roof terminal at Jeddah airport designed for pilgrims, completed in 1981. :: Hajj Terminal
+The Danish architect of the Sydney Opera House. :: Jørn Utzon
+The French diplomat who led the building of the Suez Canal. :: Ferdinand de Lesseps
 
 ## 400
 The equation for consolidation in one dimension was published by Terzaghi in this year. :: 1925
@@ -510,7 +512,6 @@ The 1,400 km pilgrim road from Kufa to Makkah named after her. :: Darb Zubaida
 The 1908 railway from Damascus to Madinah. :: Hejaz Railway
 The Hejaz Railway's main station building in Madinah is now this. :: Museum
 The US Army engineer who completed the Panama Canal in 1914 as chief engineer. :: George Washington Goethals
-The French diplomat who led the building of the Suez Canal. :: Ferdinand de Lesseps
 The Dutch sea defence project after the 1953 flood. :: Delta Works
 The Chinese dam on the Yangtze that is also the world's largest power station. :: Three Gorges Dam
 The Egyptian dam completed in 1970 that formed Lake Nasser. :: Aswan High Dam
@@ -531,7 +532,6 @@ The inventor whose safety elevator, shown in 1853, made skyscrapers practical. :
 The Empire State Building was built in roughly this long. :: About 13 months (410 days)
 The name of the Golden Gate Bridge's famous colour. :: International Orange
 The nickname of the Sydney Harbour Bridge. :: The Coathanger
-The Danish architect of the Sydney Opera House. :: Jørn Utzon
 The Anglo-Danish engineer whose firm solved the Sydney Opera House shells. :: Ove Arup
 The pipeline that carried Saudi oil across Arabia to Lebanon from 1950. :: Tapline (Trans-Arabian Pipeline)
 Saudi Arabia's East–West crude pipeline runs from Abqaiq to this Red Sea port. :: Yanbu

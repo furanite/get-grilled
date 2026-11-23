@@ -223,6 +223,7 @@ The national single sign-on system Saudi residents use for government services. 
 The law saying that the number of transistors doubles roughly every two years. :: Moore's law
 The famous 1999 worry that dates stored with two digits would fail. :: Y2K bug
 The highest award in computer science, often called its Nobel Prize. :: Turing Award
+The DeepMind program that beat Go champion Lee Sedol in 2016. :: AlphaGo
 
 ## 300
 The Git command that copies a remote repository to your machine. :: git clone
@@ -326,7 +327,6 @@ The pseudonymous creator of Bitcoin. :: Satoshi Nakamoto
 The program that beat world chess champion Garry Kasparov in 1997. :: Deep Blue
 KAUST's supercomputer is named after this bird. :: Shaheen (peregrine falcon)
 The year the World Wide Web was proposed at CERN. :: 1989
-The 2024 Nobel Prize in Physics went to Hopfield and this AI pioneer. :: Geoffrey Hinton
 The cellular automaton invented by John Conway in 1970. :: Game of Life
 The neural network type designed for images, using filters. :: Convolutional neural network
 
@@ -426,11 +426,11 @@ The tree that answers prefix-sum queries and point updates in O(log n) using the
 The cache write policy that updates main memory only when a modified block is evicted. :: Write-back
 The garbage collection method that frees objects when their count drops to zero, but fails on cycles. :: Reference counting
 The pre-emptive scheduling algorithm that always runs the job with the least time left. :: Shortest remaining time first (SRTF)
-The anomaly where giving FIFO page replacement more frames causes more page faults. :: Belady's anomaly
 A data structure that tracks which elements belong to which sets. :: Union–find (disjoint set)
 The IEEE standard for floating-point numbers. :: IEEE 754
 The tree used by databases and file systems for fast disk lookups. :: B-tree
 Two's complement of 8-bit 00000001 is this. :: 11111111
+The 2024 Nobel Prize in Physics went to Hopfield and this AI pioneer. :: Geoffrey Hinton
 
 ## 500
 The Unix command line tool whose name means 'global regular expression print'. :: grep
@@ -479,7 +479,6 @@ The unit of information Shannon named, a word suggested by John Tukey. :: Bit
 The first woman to win the Turing Award, in 2006. :: Frances Allen
 The three 'godfathers of deep learning' who shared the 2018 Turing Award. :: Hinton, LeCun and Bengio
 The 2012 neural network that won ImageNet and started the deep learning boom. :: AlexNet
-The DeepMind program that beat Go champion Lee Sedol in 2016. :: AlphaGo
 The DeepMind system that predicted protein structures and shared the 2024 Chemistry Nobel. :: AlphaFold
 The Saudi authority for data and AI, set up in 2019. :: SDAIA
 The Saudi Arabic large language model released by SDAIA. :: ALLaM
@@ -533,3 +532,4 @@ The 1985 result that no deterministic consensus algorithm can be guaranteed in a
 The theorem that proved SAT is NP-complete in 1971. :: Cook–Levin theorem
 The consensus algorithm by Leslie Lamport, named after a Greek island. :: Paxos
 The compression family behind ZIP and GIF that uses a dictionary of repeated strings. :: Lempel–Ziv (LZ77/LZW)
+The anomaly where giving FIFO page replacement more frames causes more page faults. :: Belady's anomaly

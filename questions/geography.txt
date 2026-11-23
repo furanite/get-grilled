@@ -222,6 +222,7 @@ The largest country in the world with no permanent rivers. :: Saudi Arabia
 The largest continuous sand desert, in Arabia. :: Rub' al Khali
 The country with the ancient city of Babylon. :: Iraq
 The Egyptian city at the southern tip of Sinai, a resort on the Red Sea. :: Sharm El Sheikh
+The capital of Afghanistan. :: Kabul
 
 ## 300
 The capital of Vietnam. :: Hanoi
@@ -231,7 +232,6 @@ The capital of Peru. :: Lima
 The capital of Chile. :: Santiago
 The capital of Venezuela. :: Caracas
 The capital of Cuba. :: Havana
-The capital of Afghanistan. :: Kabul
 The capital of Bangladesh. :: Dhaka
 The capital of Libya. :: Tripoli
 The capital of Yemen. :: Sanaa

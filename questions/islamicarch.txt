@@ -273,7 +273,6 @@ The Persian calligraphy style with hanging letters. :: Nasta'liq
 The calligraphy style used in most printed Qurans. :: Naskh
 The Ottoman calligraphy style developed for court decrees in the chancery. :: Diwani
 The large roundels in Hagia Sophia bear the names of Allah, our Beloved and our master, the Prophet Muhammad ﷺ, the four caliphs and these two. :: Al-Hasan and al-Husayn رضوان الله عليهم
-The Syrian calligrapher who wrote the Madinah Mushaf. :: Uthman Taha
 The muqarnas comes from vaulting in this region in the 10th–11th century. :: Iran and Iraq (eastern Islamic lands)
 The squinch is an arch across a corner that turns this into an octagon. :: A square
 The triangular piece of a dome that sits on a square, used in Ottoman mosques. :: A pendentive
@@ -458,6 +457,7 @@ The Faisal Mosque in Islamabad was finished in this year. :: 1986
 The Jeddah "Island Mosque" was designed by this Egyptian architect. :: Abdel-Wahed El-Wakil
 Abdel-Wahed El-Wakil was a student of this architect. :: Hassan Fathy ﵀
 Qasr Ibrahim in Hofuf was built by the Ottomans in this century. :: The 16th century
+The Syrian calligrapher who wrote the Madinah Mushaf. :: Uthman Taha
 
 ## 500
 The famous Persian dome chamber built by the Seljuk vizier Nizam al-Mulk in the Great Mosque of Isfahan. :: The south dome (Nizam al-Mulk's dome)

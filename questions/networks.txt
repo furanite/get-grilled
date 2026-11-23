@@ -76,7 +76,6 @@ The address 127.0.0.1 refers to this. :: Localhost (your own computer)
 The newer version of IP with much longer addresses. :: IPv6
 The older, most widely used version of IP. :: IPv4
 The number of bits in an IPv4 address. :: 32
-The number of bits in an IPv6 address. :: 128
 A number that identifies a particular service on a computer, such as 80 for web. :: Port
 The standard port for HTTP. :: 80
 The standard port for HTTPS. :: 443
@@ -330,6 +329,7 @@ The number of bits per symbol in 1024-QAM, used by Wi-Fi 6. :: 10
 The number of bits per symbol in 4096-QAM, used by Wi-Fi 7. :: 12
 The attack named after the 2014 bug in OpenSSL's heartbeat extension. :: Heartbleed
 The submarine cable owned by Google that links the US and Spain, named after an American computer pioneer. :: Grace Hopper
+The number of bits in an IPv6 address. :: 128
 
 ## 400
 The first message sent over ARPANET was meant to be "LOGIN" but only these two letters arrived. :: LO

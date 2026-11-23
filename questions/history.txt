@@ -27,7 +27,6 @@ The Chinese emperor buried with the Terracotta Army. :: Qin Shi Huang
 The trade route that linked China with the Mediterranean. :: The Silk Road
 The Italian traveller who wrote about his visit to Kublai Khan's China. :: Marco Polo
 The Mongol leader who founded the largest land empire in history. :: Genghis Khan
-The Moroccan traveller who journeyed for nearly 30 years in the 14th century. :: Ibn Battuta
 The year our Beloved and our master, the Prophet Muhammad ﷺ migrated from Makkah to Madinah, starting the Hijri calendar. :: 622 CE
 The migration from Makkah to Madinah is called this. :: The Hijrah
 The first caliph after our Beloved and our master, the Prophet Muhammad ﷺ. :: Abu Bakr al-Siddiq ﵁
@@ -102,7 +101,6 @@ The early writing system of Mesopotamia pressed into clay. :: Cuneiform
 The ancient people who invented the earliest known writing, in southern Iraq. :: The Sumerians
 The Persian king who founded the Achaemenid Empire. :: Cyrus the Great
 The ancient Phoenician city in Tunisia that fought Rome. :: Carthage
-The Carthaginian general who crossed the Alps with elephants. :: Hannibal
 The ancient Greek philosopher who taught Alexander the Great. :: Aristotle
 The terrorist attacks in the United States on 11 September happened in this year. :: 2001
 The website launched in 2004 that became the largest social network. :: Facebook
@@ -237,6 +235,7 @@ The Libyan resistance leader against Italy, executed in 1931. :: Omar Mukhtar
 The 1968 student protests famously shook this European capital in May. :: Paris
 The 1971 war that led to Bangladesh's independence was between India and this country. :: Pakistan
 The Ottoman sultan who ordered ships dragged overland into the Golden Horn in 1453. :: Mehmed II
+The Moroccan traveller who journeyed for nearly 30 years in the 14th century. :: Ibn Battuta
 
 ## 300
 The first known empire in history, founded by Sargon in Mesopotamia. :: The Akkadian Empire
@@ -339,6 +338,7 @@ The Italian navigator whose first name gave the Americas their name. :: Amerigo 
 The Indonesian volcano whose 1815 eruption caused the "Year Without a Summer" in 1816. :: Mount Tambora
 The Inca emperor captured by Francisco Pizarro at Cajamarca in 1532. :: Atahualpa
 The Aztec emperor who received Hernán Cortés in Tenochtitlan in 1519. :: Moctezuma II
+The Carthaginian general who crossed the Alps with elephants. :: Hannibal
 
 ## 400
 The ancient Sumerian city-state ruled by Gilgamesh, according to legend. :: Uruk

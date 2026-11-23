@@ -41,7 +41,6 @@ The number sequence 0, 1, 1, 2, 3, 5, 8, often used to teach recursion. :: Fibon
 The next number after 0, 1, 1, 2, 3, 5, 8 in the Fibonacci sequence. :: 13
 The value of 5 factorial. :: 120
 The puzzle of moving a stack of discs between three pegs, used to teach recursion. :: Tower of Hanoi
-The minimum number of moves to solve the Tower of Hanoi with 3 discs. :: 7
 The data structure of key and value pairs called a dictionary in Python. :: Map (dictionary)
 The part of a key–value pair used to look up the value. :: Key
 A collection that holds no duplicate items. :: Set
@@ -215,7 +214,6 @@ The checksum formula for credit card numbers invented by Hans Peter Luhn. :: Luh
 The man who described the Fenwick tree in 1994. :: Peter Fenwick
 The computer scientist who published Shell sort in 1959. :: Donald Shell
 The value of 2¹⁰. :: 1,024
-The number of binary strings of length 8. :: 256
 The number of permutations of 5 items. :: 120
 The number of ways to choose 3 items from 10. :: 120
 
@@ -238,7 +236,6 @@ The sorted array of all suffixes of a string, a space-saving alternative to a su
 The linear-time string search algorithm that uses a failure table to avoid re-checking. :: Knuth–Morris–Pratt (KMP)
 The string search algorithm that compares from the end of the pattern and skips ahead. :: Boyer–Moore
 The algorithm that searches for many patterns at once using a trie with failure links. :: Aho–Corasick
-The algorithm that finds the longest palindromic substring in linear time. :: Manacher's algorithm
 The heap that supports decrease-key in O(1) amortised time, speeding up Dijkstra's algorithm. :: Fibonacci heap
 The Big O of Dijkstra's algorithm using a Fibonacci heap. :: O(E + V log V)
 The Big O of Dijkstra's algorithm using a binary heap. :: O((V + E) log V)
@@ -322,6 +319,9 @@ The recurrence T(n) = 2T(n/2) + n solves to this. :: Θ(n log n)
 The postfix form of the expression (2 + 3) × 4. :: 2 3 + 4 ×
 The formula V − E + F = 2 for planar graphs is named after this mathematician. :: Leonhard Euler
 The bit operation that swaps two integers without a temporary variable, used three times. :: XOR
+The number of primes below 100. :: 25
+The number of binary strings of length 8. :: 256
+The minimum number of moves to solve the Tower of Hanoi with 3 discs. :: 7
 
 ## 400
 The author of "The Art of Computer Programming", first volume published in 1968. :: Donald Knuth
@@ -424,6 +424,7 @@ The number of solutions to the eight queens puzzle. :: 92
 The computer scientist who described the skip list in 1989. :: William Pugh
 The offline query ordering trick for range queries, named after a Chinese competitive programmer. :: Mo's algorithm
 The string search algorithm that compares rolling hashes of the pattern and each window of the text. :: Rabin–Karp algorithm
+The algorithm that finds the longest palindromic substring in linear time. :: Manacher's algorithm
 
 ## 500
 The fewest nodes an AVL tree of height 4 can have, counting a single node as height 0. :: 12
@@ -493,7 +494,6 @@ The card game that gives its name to an algorithm for the longest increasing sub
 The maximum subarray sum of −2, 1, −3, 4, −1, 2, 1, −5, 4. :: 6
 The greatest common divisor of 1,071 and 462. :: 21
 The number of division steps Euclid's algorithm takes on consecutive Fibonacci numbers is the worst case, proved by this French mathematician in 1844. :: Gabriel Lamé
-The number of primes below 100. :: 25
 The Big O of the Sieve of Eratosthenes. :: O(n log log n)
 The value of log₂ of one million, rounded to the nearest whole number. :: 20
 The shortest path length from corner to opposite corner of a cube graph, in edges. :: 3

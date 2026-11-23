@@ -225,6 +225,7 @@ The protein that carries oxygen in red blood cells. :: Haemoglobin
 The neurotransmitter linked to reward and pleasure. :: Dopamine
 The hottest air temperature officially recorded on Earth was in this place. :: Death Valley (Furnace Creek)
 The southern lights are called this. :: Aurora australis
+The three primary colours of light. :: Red, green and blue
 
 ## 300
 The element with the highest melting point. :: Tungsten
@@ -277,7 +278,6 @@ The rate of doing work. :: Power
 The quantity that is mass times velocity. :: Momentum
 The bending of waves around obstacles. :: Diffraction
 The colour you get by mixing red and green light. :: Yellow
-The three primary colours of light. :: Red, green and blue
 The lens that is thicker in the middle and brings light together. :: Convex (converging) lens
 The eye problem where you see near things clearly but far things blurry. :: Short-sightedness (myopia)
 The device that changes the voltage of alternating current. :: Transformer

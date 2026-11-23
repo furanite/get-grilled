@@ -168,7 +168,6 @@ The fish that can give an electric shock of hundreds of volts. :: Electric eel
 The flat fish that hides on the sea floor and has a stinging tail. :: Stingray
 The largest ray, which can be 7 metres wide. :: Manta ray
 The fish whose male carries the eggs in a pouch. :: Seahorse
-The deep-sea fish with a glowing lure on its head. :: Anglerfish
 The famous gold fish kept in ponds, from China. :: Goldfish (and koi)
 The large sea mammal that eats seagrass and is found in the Red Sea and Gulf. :: Dugong
 The large whale famous for its songs. :: Humpback whale
@@ -425,6 +424,7 @@ The organs at the tip of a spider's abdomen that produce silk. :: Spinnerets
 Laying eggs in other birds' nests so they raise the young, as cuckoos do. :: Brood parasitism
 The small hard tip on a baby bird's beak used to break out of the egg. :: Egg tooth
 The sense that sharks use to detect electric fields. :: Electroreception (ampullae of Lorenzini)
+The deep-sea fish with a glowing lure on its head. :: Anglerfish
 
 ## 500
 The scientific name of the cheetah. :: Acinonyx jubatus
