@@ -505,7 +505,7 @@ Unix time counts seconds since this date. :: 1 January 1970
 The 1996 rocket that exploded because a 64-bit float was converted to a 16-bit integer. :: Ariane 5 (Flight 501)
 The 1999 Mars probe lost because one team used imperial units and another metric. :: Mars Climate Orbiter
 The radiation therapy machine whose software race condition caused deadly overdoses in the 1980s. :: Therac-25
-The esoteric programming language with only eight commands and a rude name. :: Brainf*ck
+The esoteric programming language whose programs look like abstract paintings, named after a Dutch painter. :: Piet
 The pseudo-random number generator widely used in Python and MATLAB. :: Mersenne Twister
 The famous inverse square root trick with the constant 0x5F3759DF came from this game. :: Quake III Arena
 The algorithm that sorts by randomly shuffling until sorted, as a joke. :: Bogosort

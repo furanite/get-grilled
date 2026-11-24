@@ -100,7 +100,7 @@ The coding standard that sets names, spacing and layout rules. :: Style guide (c
 Naming that joins words with capitals, like userName. :: camelCase
 Naming that joins words with underscores, like user_name. :: snake_case
 The principle "Don't Repeat Yourself", shortened. :: DRY
-The principle "Keep It Simple, Stupid", shortened. :: KISS
+The design rule "keep it simple", known by this four-letter acronym. :: KISS
 The principle "You Aren't Gonna Need It", shortened. :: YAGNI
 Old code that is hard to change but still in use. :: Legacy code
 Shortcuts in code that will cost extra work later. :: Technical debt
