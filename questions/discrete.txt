@@ -108,7 +108,6 @@ Which set operation on A and B does the shaded region show? {img:venn-intersecti
 Which set operation on A and B does the shaded region show? {img:venn-union.svg} :: Union (A ∪ B)
 
 ## 200
-The number of subsets of a set with 5 elements. :: 32
 The number of non-empty proper subsets of a set with 4 elements. :: 14
 The size of A × B when A has 3 elements and B has 4. :: 12
 The set A × B of all ordered pairs is called this. :: Cartesian product
@@ -317,6 +316,7 @@ Which set operation on A and B does the shaded region show? {img:venn-symmetric.
 The closed form for the Fibonacci numbers, named after a French mathematician. :: Binet's formula
 In the Königsberg bridges problem, the number of land masses touched by an odd number of bridges. :: 4
 The number of ways to choose 5 items from 20. :: 15,504
+The number of subsets of a set with 5 elements. :: 32
 
 ## 400
 The number of antisymmetric relations on a set with 3 elements. :: 216

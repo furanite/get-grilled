@@ -226,6 +226,8 @@ Wood from trees like pine and cedar. :: Softwood
 The Islamic woodwork of turned wooden pieces in lattice screens. :: Mashrabiya (turned wood)
 The Riyadh restaurant in the glass globe at the top of Al Faisaliah Tower. :: The Globe
 The concept of designing products and spaces for people with all abilities. :: Universal design
+A colour mixed with white. :: A tint
+A colour mixed with black. :: A shade
 
 ## 300
 The international standard paper size for floor plans often used. :: A1 or A3
@@ -309,8 +311,6 @@ The 8-pointed star in Islamic patterns is made from this many squares. :: Two
 The Arabic name of the eight-pointed star made of two squares. :: Khatam (Rub el Hizb shape)
 The colour theory term for how light or dark a colour is. :: Value
 The colour theory term for how strong or pure a colour is. :: Saturation (chroma)
-A colour mixed with white. :: A tint
-A colour mixed with black. :: A shade
 A colour mixed with grey. :: A tone
 The Pantone Colour of the Year is announced in this month. :: December
 The Pantone Colour of the Year 2025. :: Mocha Mousse
@@ -334,6 +334,7 @@ The term for the arrangement of windows on a façade. :: Fenestration
 The black wood that gave the ébéniste his name. :: Ebony
 The Danish chair designer whose Y-shaped back chair is called the Wishbone. :: Hans Wegner
 Name this star shape, common in Islamic patterns. {img:pattern-star8.svg} :: An eight-pointed star
+The measure of how well a light shows true colours. :: CRI (colour rendering index)
 
 ## 400
 The famous interior designer known as the first professional decorator in America. :: Elsie de Wolfe
@@ -398,7 +399,6 @@ The colour said to raise appetite, used in restaurants. :: Red (and orange)
 The colour temperature of warm white light. :: About 2700 to 3000 kelvin
 The colour temperature of cool daylight. :: About 5000 to 6500 kelvin
 Name this scale, from warm to cool light. {img:colour-temperature.svg} :: Colour temperature (kelvin)
-The measure of how well a light shows true colours. :: CRI (colour rendering index)
 A CRI above this is good for homes and shops. :: 90
 The unit of light falling on a surface. :: Lux
 The unit of light from a source. :: Lumen
@@ -437,6 +437,7 @@ The brightness of a surface as the eye sees it, measured in candelas per square 
 The usual recommended illuminance for general office desk work, in lux. :: About 500 lux
 The space-planning measure comparing usable floor area to the total floor area. :: Net-to-gross (efficiency) ratio
 Name this proportion shown with squares and a spiral. {img:golden-spiral.svg} :: The golden ratio (golden spiral)
+Itten's colour wheel has this many colours. :: 12
 
 ## 500
 The Roman architect whose book has a section on wall paintings and decoration. :: Vitruvius
@@ -471,7 +472,6 @@ The German association of 1907 that linked art and industry. :: The Deutscher We
 The Bauhaus workshop where Marianne Brandt made metal teapots and lamps. :: The metal workshop
 The Bauhaus weaver famous for textiles who became a known artist. :: Anni Albers
 The Bauhaus teacher of the famous colour course. :: Johannes Itten
-Itten's colour wheel has this many colours. :: Twelve
 The German poet who wrote a "Theory of Colours" in 1810. :: Johann Wolfgang von Goethe
 The French chemist whose law of simultaneous contrast influenced painters and designers. :: Michel Eugène Chevreul
 The Bauhaus artist who wrote "Interaction of Color". :: Josef Albers

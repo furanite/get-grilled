@@ -136,7 +136,6 @@ The trade-off between a model being too simple and too sensitive to data. :: Bia
 The table of true positives, false positives, true negatives and false negatives. :: Confusion matrix
 Of all items predicted positive, the fraction that really are. :: Precision
 Of all items that really are positive, the fraction the model found. :: Recall
-The harmonic mean of precision and recall. :: F1 score
 The curve of true positive rate against false positive rate. :: ROC curve
 The area under the ROC curve, shortened to three letters. :: AUC
 The statistical method for predicting a yes/no outcome with an S-shaped curve. :: Logistic regression
@@ -319,6 +318,7 @@ The distance usually used to compare sentence embeddings, ignoring their length.
 The number of matches in the 2016 AlphaGo–Lee Sedol series that AlphaGo won. :: 4
 The 2023 paper "Sparks of Artificial General Intelligence" studied this model. :: GPT-4
 The 2016 paper "Concrete Problems in AI ___". :: Safety
+The harmonic mean of precision and recall. :: F1 score
 
 ## 400
 The year of the Dartmouth Summer Research Project on Artificial Intelligence. :: 1956

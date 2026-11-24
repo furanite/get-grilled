@@ -15,11 +15,9 @@ The capital of Kuwait. :: Kuwait City
 The capital of Qatar. :: Doha
 The capital of Bahrain. :: Manama
 The capital of Oman. :: Muscat
-The capital of Yemen. :: Sana'a
 The capital of Morocco. :: Rabat
 The capital of Tunisia. :: Tunis
 The capital of Algeria. :: Algiers
-The capital of Libya. :: Tripoli
 The capital of Sudan. :: Khartoum
 The famous river that flows through Egypt. :: Nile
 The ancient tombs built for pharaohs near Cairo. :: Pyramids
@@ -223,6 +221,8 @@ The first Saudi university, founded in Riyadh in 1957. :: King Saud University
 The year Saudi women were first allowed to drive. :: 2018
 The first Saudi woman ambassador, sent to the US in 2019. :: Princess Reema bint Bandar
 The Egyptian president assassinated in 1981. :: Anwar Sadat
+The capital of Libya. :: Tripoli
+The capital of Yemen. :: Sana'a
 
 ## 300
 The dynasty that ruled from Damascus from 661 to 750. :: Umayyad

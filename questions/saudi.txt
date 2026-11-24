@@ -207,7 +207,6 @@ The body, set up in 2018 as a commission, that runs the Kingdom's space programm
 The Saudi city that hosts the headquarters of the GCC Secretariat. :: Riyadh
 The Saudi city with the headquarters of the Organisation of Islamic Cooperation. :: Jeddah
 The first Saudi woman to compete at the Olympics, in judo in 2012. :: Wojdan Shaherkani
-The Saudi karateka who won silver at the Tokyo 2020 Olympics. :: Tareg Hamedi
 The Saudi club that signed Karim Benzema in 2023. :: Al-Ittihad
 The Eastern Province club that signed Jordan Henderson in 2023. :: Al-Ettifaq
 Saudi Arabia's longer coastline is on this sea. :: Red Sea
@@ -327,6 +326,7 @@ The title of the Saudi national anthem, adopted in 1950. :: Aash al-Malik ("Long
 Zamil Group, a major Eastern Province company, is headquartered in this city. :: Al Khobar
 The King Fahd Specialist Hospital in the Eastern Province is in this city. :: Dammam
 The Bedouin guide who helped Aramco geologists find oil fields. :: Khamis bin Rimthan
+The Saudi karateka who won silver at the Tokyo 2020 Olympics. :: Tareg Hamedi
 
 ## 400
 The 1934 treaty that ended the war between Saudi Arabia and Yemen. :: Treaty of Taif

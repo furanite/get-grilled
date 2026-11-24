@@ -108,7 +108,6 @@ The Persian new year festival on the spring equinox. :: Nowruz
 The word "Nowruz" means this. :: New day
 The capital of Iran. :: Tehran
 The capital of Afghanistan. :: Kabul
-The capital of Tajikistan. :: Dushanbe
 The Iranian currency. :: The rial
 The famous Persian poet of Shiraz, author of the Divan of love poems. :: Hafez ﵀
 The Persian poet of Shiraz who wrote the Gulistan and the Bustan. :: Saadi ﵀
@@ -408,6 +407,7 @@ Nizam al-Mulk ﵀ founded these famous schools. :: The Nizamiyya schools
 "Dushanbe" means this day of the week in Persian. :: Monday
 "Ghorbanet beram" is a warm phrase that literally means this. :: May I be sacrificed for you
 The Saadi ﵀ line beginning "Bani Adam a'za-ye yekdigarand" means this. :: The children of Adam are limbs of one body
+The capital of Tajikistan. :: Dushanbe
 
 ## 400
 The great Persian scholar al-Biruni ﵀ came from this region. :: Khwarazm

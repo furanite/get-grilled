@@ -12,6 +12,8 @@ https://furanite.github.io/ilm-munaafasah/ (repository `furanite/ilm-munaafasah`
 
 - **Board:** up to 6 categories, 5 levels (100 to 500), 2 to 4 teams, golden tiles, optional deductions.
   Each category draws one question per level at random and avoids repeats across games.
+- **Overall difficulty:** Easy, Balanced (the default), Standard or Hard. Points stay the same; the setting
+  changes which question levels each row draws from.
 - **Categories:** 68 built-in, grouped as Engineering, CCES, General, Finance & Economics, Law,
   Architecture & Design, and Languages & Humanities. 16 have Arabic clues; the rest are English only.
   Picture questions use drawings made for the game and credited Wikimedia Commons photos.

@@ -61,7 +61,20 @@ async function run(lang, theme) {
     await page.goto(URL)
     // Accept the Terms pop-up if this edition's Terms version is newer than the one we saved.
     if (await page.getByTestId('consent-agree').count()) { await page.getByTestId('consent-agree').check(); await page.getByTestId('consent-accept').click() }
-    const [aud] = await Promise.all([ctx.waitForEvent('page'), page.getByTestId('audience-toggle').click()])
+    // Safari's engine now and then never reports the new window on the first try (the job then timed out).
+    // Wait a short while for it, and if it hasn't come, close whatever half-opened and ask again.
+    let aud = null
+    for (let attempt = 0; attempt < 3 && !aud; attempt++) {
+      const opened = ctx.waitForEvent('page', { timeout: 10000 }).catch(() => null)
+      await page.getByTestId('audience-toggle').click()
+      aud = await opened
+      if (!aud) {
+        aud = ctx.pages().find((p) => p !== page) ?? null
+        // Still nothing: if the button now reads as "open", press it once more to close before the next try.
+        if (!aud && (await page.getByTestId('audience-toggle').getAttribute('aria-pressed')) === 'true') await page.getByTestId('audience-toggle').click()
+      }
+    }
+    if (!aud) throw new Error('the audience window did not open after three tries')
     await aud.waitForSelector('[data-testid="audience"]')
     aud.on('pageerror', (e) => errors.push(`audience ${lang}/${theme}: ${e.message}`))
     const check = async (stage) => {
