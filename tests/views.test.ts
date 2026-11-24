@@ -37,6 +37,37 @@ describe('what other devices may see', () => {
     expect(s).not.toMatch(/c1|TF/)
   })
 
+  it('never sends a question\'s real id, where it came from, or the secret final\'s category', () => {
+    // Real ids are made from the category and the clue's words, and the question files are public,
+    // so a real id on a team tablet would be enough to look up the question and its answer.
+    const g = game()
+    g.clues = g.clues.map((col, c) => col.map((clue, l) => ({ ...clue, id: `science-${l}-REALID${c}${l}` })))
+    g.lightning = g.lightning!.map((q, i) => ({ ...q, id: `science-0-REALIDL${i}` }))
+    g.final = { cat: { id: 'secretcat', name: 'SECRETCAT' }, q: { ...g.final!.q, id: 'science-4-REALIDF' } }
+    g.modeRound = { mode: 'tf', items: [{ id: 'science-tf-REALIDM0', q: 'M0', a: 'True', v: 1, cat: 'SRCNAME', from: 'science' }, { id: 'science-tf-REALIDM1', q: 'M1', a: 'False', v: 0, cat: 'SRCNAME', from: 'science' }] }
+    g.tiebreak = [{ cat: { id: 'tbcat', name: 'TBCAT' }, q: { id: 'science-2-REALIDT', q: 'TBQ', a: 'TBANS' } }]
+    g.tieState = { i: 0, teams: [0, 1], shown: false, revealed: false, wrong: [] }
+    const screens = ['game', 'lightning', 'final', 'mode', 'tiebreak', 'results'] as const
+    for (const screen of screens) {
+      for (const live of [null, { c: 1, l: 3, revealed: false }, { c: 1, l: 3, revealed: true }]) {
+        const s = text(publicGame(g, screen, screen === 'game' ? live : null))
+        expect(s, screen).not.toContain('REALID')
+        expect(s, screen).not.toContain('"from"')
+        if (screen !== 'final') expect(s, screen).not.toMatch(/secretcat/i)
+        if (screen !== 'tiebreak') expect(s, screen).not.toMatch(/tbcat/i)
+      }
+    }
+    // Hidden special-round items don't say which category they came from; the one on show does.
+    const mode = publicGame(g, 'mode', null)
+    expect(mode.modeRound!.items[0].cat).toBe('SRCNAME')
+    expect(mode.modeRound!.items[1].cat).toBeUndefined()
+    // Each tile still has its own code, so screens can tell them apart.
+    const ids = publicGame(g, 'game', null).clues.flat().map((c) => c.id)
+    expect(new Set(ids).size).toBe(ids.length)
+    // The final's category appears once the final is on screen.
+    expect(publicGame(g, 'final', null).final!.cat.name).toBe('SECRETCAT')
+  })
+
   it('shows the open question but not its answer, then the answer after the reveal', () => {
     const open = publicGame(game(), 'game', { c: 1, l: 3, revealed: false })
     expect(open.clues[1][3].q).toBe('Q13')

@@ -72,6 +72,8 @@ async function run(size, lang, theme) {
   // Heritage only opens on Friday afternoons in Riyadh.
   if (theme === 'heritage') await page.clock.setSystemTime(new Date('2026-11-13T10:00:00Z'))
   page.on('pageerror', (e) => errors.push(`${size}/${lang}/${theme}: ${e.message}`))
+  // If the browser loses the page, say so: the error that follows only says "closed".
+  page.on('crash', () => console.log('CRASH', size, lang, theme, 'the browser reported that the page crashed'))
   const tag = `${BROWSER} ${size} ${lang} ${theme}`
   const check = async (screen) => {
     await page.waitForTimeout(500)
@@ -171,7 +173,15 @@ async function run(size, lang, theme) {
 
 try {
   for (const size of sizes) for (const lang of langs) for (const theme of themes) {
-    try { await run(size, lang, theme) } catch (e) { errors.push(`${size}/${lang}/${theme}: ${String(e.message || e).split('\n')[0]}`); console.log('ERROR', size, lang, theme, String(e.message || e).split('\n')[0]) }
+    // A page the browser itself lost (crashed or closed under the test) is played once more from the
+    // start, and the loss is printed. A second loss, or any other error, fails the run.
+    for (let attempt = 1; ; attempt++) {
+      try { await run(size, lang, theme); break } catch (e) {
+        const msg = String(e.message || e).split('\n')[0]
+        if (attempt === 1 && /has been closed|crashed/i.test(msg) && browser.isConnected()) { console.log('RETRY', size, lang, theme, msg); continue }
+        errors.push(`${size}/${lang}/${theme}: ${msg}`); console.log('ERROR', size, lang, theme, msg); break
+      }
+    }
   }
 } finally {
   await browser.close()

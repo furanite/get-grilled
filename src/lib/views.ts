@@ -3,6 +3,10 @@
  * projector, team tablets and audience phones get a copy with every question that isn't on show
  * blanked out, and every answer blanked until the host reveals it. Golden, Steal and Audience
  * tiles stay secret until they are opened.
+ *
+ * A question's own id is never sent either: it is made from the category and the clue's words, and the
+ * question files are public, so a real id would let anyone look the question and its answer up. Every
+ * question goes out under a plain position code instead (board tile "t2-3", lightning "l4", ...).
  */
 import type { Clue, Game, Lang, ModeItem, Question, Screen, ThemeId } from './types'
 import type { Live } from './edition'
@@ -31,8 +35,18 @@ export interface PublicView {
 
 const HIDDEN = ''
 
+/** The same question under a position code in place of its real id; where it came from is left out too. */
+function recode<T extends Question | ModeItem>(q: T, code: string): T {
+  const out = { ...q, id: code } as T
+  delete (out as ModeItem).from
+  return out
+}
+
+const NO_CAT = { id: '', name: '' }
+
 function blankQ<T extends Question | ModeItem>(q: T): T {
   const out = { ...q, q: HIDDEN, a: HIDDEN } as T
+  delete (out as ModeItem).cat
   delete (out as Question).qAr
   delete (out as Question).aAr
   delete (out as Question).qUr
@@ -51,7 +65,7 @@ function noAnswer<T extends Question | ModeItem>(q: T): T {
   return out
 }
 
-const hiddenClue = (c: Clue): Clue => ({ id: c.id, q: HIDDEN, a: HIDDEN, value: c.value, golden: false })
+const hiddenClue = (c: Clue, code: string): Clue => ({ id: code, q: HIDDEN, a: HIDDEN, value: c.value, golden: false })
 
 /** The game as the room may see it right now. */
 export function publicGame(game: Game, screen: Screen, live: Live | null): Game {
@@ -59,16 +73,18 @@ export function publicGame(game: Game, screen: Screen, live: Live | null): Game 
   const onBoard = screen === 'game' && live
   g.clues = game.clues.map((col, c) =>
     col.map((clue, l) => {
-      if (!onBoard || live.c !== c || live.l !== l) return hiddenClue(clue)
+      const code = `t${c}-${l}`
+      if (!onBoard || live.c !== c || live.l !== l) return hiddenClue(clue, code)
       // The open tile: what kind of tile it is shows at once; the question after Next; the answer after the reveal.
-      const shown: Clue = live.intro ? { ...hiddenClue(clue), golden: clue.golden, special: clue.special } : { ...clue }
+      const shown: Clue = live.intro ? { ...hiddenClue(clue, code), golden: clue.golden, special: clue.special } : { ...clue, id: code }
       return live.revealed && !live.intro ? shown : noAnswer(shown)
     }),
   )
 
   if (game.lightning) {
     const st = game.lightningState
-    g.lightning = game.lightning.map((q, i) => {
+    g.lightning = game.lightning.map((real, i) => {
+      const q = recode(real, `l${i}`)
       if (screen !== 'lightning' || !st?.startedAt || st.done || st.i !== i) return blankQ(q)
       return st.revealed ? { ...q } : noAnswer(q)
     })
@@ -78,7 +94,9 @@ export function publicGame(game: Game, screen: Screen, live: Live | null): Game 
     const step = game.finalState?.step ?? 'cat'
     const showQ = screen === 'final' && step !== 'cat'
     const showA = screen === 'final' && step === 'answer'
-    g.final = { cat: game.final.cat, q: showA ? { ...game.final.q } : showQ ? noAnswer(game.final.q) : blankQ(game.final.q) }
+    const fq = recode(game.final.q, 'f')
+    // The secret final's category stays secret too until the final is on screen.
+    g.final = { cat: screen === 'final' ? game.final.cat : NO_CAT, q: showA ? fq : showQ ? noAnswer(fq) : blankQ(fq) }
   }
 
   if (game.modeRound) {
@@ -86,7 +104,8 @@ export function publicGame(game: Game, screen: Screen, live: Live | null): Game 
     const { mode, items } = game.modeRound
     g.modeRound = {
       mode,
-      items: items.map((item, i) => {
+      items: items.map((real, i) => {
+        const item = recode(real, `m${i}`)
         if (screen !== 'mode' || !st || st.done || st.i !== i) return blankQ(item)
         if (st.revealed) return { ...item }
         const open = noAnswer(item)
@@ -106,8 +125,10 @@ export function publicGame(game: Game, screen: Screen, live: Live | null): Game 
   if (game.tiebreak) {
     const st = game.tieState
     g.tiebreak = game.tiebreak.map((item, i) => {
-      const open = screen === 'tiebreak' && st && st.i === i && st.shown
-      return { cat: item.cat, q: !open ? blankQ(item.q) : st.revealed ? { ...item.q } : noAnswer(item.q) }
+      const current = screen === 'tiebreak' && st && st.i === i
+      const open = current && st.shown
+      const q = recode(item.q, `b${i}`)
+      return { cat: current ? item.cat : NO_CAT, q: !open ? blankQ(q) : st.revealed ? q : noAnswer(q) }
     })
   }
   // The game log holds every question and answer already asked; the room doesn't need it.

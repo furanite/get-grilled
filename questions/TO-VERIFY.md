@@ -102,8 +102,8 @@ This file is rewritten by `npm run packs`.
 
 ## The Qur'an (questions/isl-quran.txt)
 
-- **500**, line 232: The word said to mark the middle of the Qur'an by letters. **Answer:** Wal-yatalattaf (18:19) _(Source: Commonly stated in works on Qur'an counts)_
-- **500**, line 243: The number of schools of verse-counting usually listed (Madinan first and second, Makkan, Kufan, Basran, Damascene...). **Answer:** 6 _(Source: al-Dani, al-Bayan fi 'Add Ay al-Qur'an; some count Damascus and Hims apart, making 7)_
+- **500**, line 233: The word said to mark the middle of the Qur'an by letters. **Answer:** Wal-yatalattaf (18:19) _(Source: Commonly stated in works on Qur'an counts)_
+- **500**, line 244: The number of schools of verse-counting usually listed (Madinan first and second, Makkan, Kufan, Basran, Damascene...). **Answer:** 6 _(Source: al-Dani, al-Bayan fi 'Add Ay al-Qur'an; some count Damascus and Hims apart, making 7)_
 
 ## Fiqh: Sadaqah (charity) (questions/isl-sadaqah.txt)
 

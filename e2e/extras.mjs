@@ -265,13 +265,35 @@ try {
       return false
     }, null, { timeout: 30000 })
     await page.reload()
+    // Question packs are not all downloaded on a first visit: only the ones used so far are stored.
+    const packsStored = () => page.evaluate(async () => {
+      let n = 0
+      for (const k of await caches.keys()) n += (await (await caches.open(k)).keys()).filter((r) => /\/packs\/(?!index\.json|nights)[^/]+\.json$/.test(r.url)).length
+      return n
+    })
+    const total = (await (await fetch(URL + 'packs/index.json')).json()).length
+    assert((await packsStored()) < total, 'a first visit should not download every question pack')
+    // A category played online is stored, and still plays offline.
+    await setupGame(page, 2)
+    await openTile(page, '0-0')
+    assert((await packsStored()) >= 2, 'the two packs that were used should be stored')
     await page.context().setOffline(true)
     await page.reload()
     await page.waitForSelector('[data-testid="logo"]')
+    await page.evaluate(() => (localStorage.removeItem('gg.game.v1'), localStorage.removeItem('gg.game.ilm.v1')))
+    await page.reload()
     await setupGame(page, 2)
     await openTile(page, '0-0')
     assert((await page.getByTestId('question').textContent()).length > 3, 'no question offline')
     await page.context().setOffline(false)
+    // The host's button stores every category.
+    await page.evaluate(() => (localStorage.removeItem('gg.game.v1'), localStorage.removeItem('gg.game.ilm.v1')))
+    await page.reload()
+    await page.waitForFunction(() => !!navigator.serviceWorker.controller, null, { timeout: 30000 })
+    await page.getByTestId('news-open').click()
+    await page.getByTestId('offline-all').click()
+    await page.waitForFunction((t) => document.querySelector('[data-testid="offline-count"]')?.textContent?.startsWith('✓'), null, { timeout: 60000 })
+    assert((await packsStored()) === total, `every pack should be stored: ${await packsStored()} of ${total}`)
   })
 } finally {
   await browser?.close()

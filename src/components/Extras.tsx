@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import type { Lang, PoolEdit } from '../lib/types'
 import { VALUES } from '../lib/types'
 import type { Strings } from '../lib/i18n'
@@ -6,6 +6,7 @@ import { num } from '../lib/i18n'
 import { emptyPool } from '../lib/game'
 import { type Flag, type ViewPrefs, loadFlags, saveFlags } from '../lib/store'
 import { voiceAvailable } from '../lib/voice'
+import { type OfflineState, refreshOffline } from '../lib/offline'
 import { useDialog } from './Legal'
 import { downloadText } from './Sheets'
 import { dirOf } from '../lib/lang'
@@ -64,7 +65,11 @@ export function ViewDialog({ t, lang, view, setView, onClose }: { t: Strings; la
 }
 
 /** What's new in this version, and whether the game is ready to work offline. */
-export function NewsDialog({ t, lang, offline, onClose }: { t: Strings; lang: Lang; offline: boolean; onClose: () => void }) {
+export function NewsDialog({ t, lang, offline, onClose }: { t: Strings; lang: Lang; offline: OfflineState; onClose: () => void }) {
+  // A fresh count each time the window opens: packs used since the page loaded are stored too.
+  useEffect(refreshOffline, [])
+  const { packs } = offline
+  const all = !!packs && packs.have >= packs.total
   return (
     <Panel
       id="news-title"
@@ -80,7 +85,7 @@ export function NewsDialog({ t, lang, offline, onClose }: { t: Strings; lang: La
     >
       <p className="muted">
         {t.news.version} {APP_VERSION}
-        {offline ? ` · ✓ ${t.news.offlineReady}` : ''}
+        {offline.ready ? ` · ✓ ${t.news.offlineReady}` : ''}
       </p>
       <ul className="news-list">
         {t.news.items.map((s, i) => (
@@ -88,6 +93,19 @@ export function NewsDialog({ t, lang, offline, onClose }: { t: Strings; lang: La
         ))}
       </ul>
       <p className="muted small">{t.news.offline}</p>
+      {offline.ready && packs && packs.total > 0 && (
+        <p className="row offline-all" style={{ gap: 12, flexWrap: 'wrap', alignItems: 'center' }}>
+          {!all && (
+            <button className="ghost" onClick={offline.storeAll} disabled={offline.busy} data-testid="offline-all">
+              {offline.busy ? t.news.offlineBusy : t.news.offlineAll}
+            </button>
+          )}
+          <span className="muted small" role="status" data-testid="offline-count">
+            {all ? `✓ ${t.news.offlineAllDone}` : `${num(packs.have, lang)} / ${num(packs.total, lang)} ${t.news.offlineCount}`}
+            {offline.failed && !all ? ` · ${t.news.offlineFailed}` : ''}
+          </span>
+        </p>
+      )}
     </Panel>
   )
 }

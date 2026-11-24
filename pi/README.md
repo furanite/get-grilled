@@ -44,7 +44,9 @@ Wi-Fi router of your own, a network cable, and a computer to prepare the card.
 
 ### 2. The Pi's card
 
-1. On your computer, open **Raspberry Pi Imager** and choose **Raspberry Pi OS Lite (64-bit)**.
+1. On your computer, open **Raspberry Pi Imager** and choose **Raspberry Pi OS Lite (64-bit)**, the current
+   release. The installer needs Node.js 20 or newer, which the current release brings; older releases
+   bring Node.js 18, which no longer gets security fixes, and the installer stops there.
 2. In its settings (the gear or "Edit settings"): set a user name and a strong password, your time
    zone, and turn on SSH for now. Leave the Pi's own Wi-Fi empty: it uses the cable.
 3. Write the card, put it in the Pi, plug the Pi into the router by cable, and switch it on.

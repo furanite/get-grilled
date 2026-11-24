@@ -49,6 +49,7 @@ const RULES: Section[] = [
     title: 'The board',
     items: [
       'Pick up to 6 categories and 2 to 4 teams. Each category has five tiles, from 100 (warm-up) to 500 (expert). Harder tiles are worth more.',
+      'The host chooses the overall difficulty when setting up: Easy, Balanced, Standard or Hard. The points on the tiles stay the same; only how hard the questions behind them are changes.',
       'Teams take turns picking a tile.',
       'With Comeback on, the team in last place picks the next tile.',
     ],
@@ -123,6 +124,7 @@ const RULES_UR: Section[] = [
     title: 'بورڈ',
     items: [
       'زیادہ سے زیادہ 6 زمرے اور 2 سے 4 ٹیمیں چنیں۔ ہر زمرے میں پانچ خانے ہیں، 100 (ابتدائی) سے 500 (ماہر) تک۔ مشکل خانوں کے نمبر زیادہ ہیں۔',
+      'میزبان کھیل ترتیب دیتے وقت مجموعی مشکل چنتا ہے: آسان، متوازن، معیاری یا مشکل۔ خانوں کے نمبر وہی رہتے ہیں؛ صرف ان کے پیچھے سوالات کی مشکل بدلتی ہے۔',
       'ٹیمیں باری باری خانہ چنتی ہیں۔',
       '"واپسی" چلی ہو تو آخری نمبر والی ٹیم اگلا خانہ چنتی ہے۔',
     ],
@@ -197,6 +199,7 @@ const RULES_AR: Section[] = [
     title: 'اللوحة',
     items: [
       'اختر حتى ٦ فئات ومن فريقين إلى ٤ فرق. لكل فئة خمسة مربعات، من ١٠٠ (إحماء) إلى ٥٠٠ (للمتمكّنين). المربعات الأصعب نقاطها أكثر.',
+      'يختار المقدّم مستوى الصعوبة العام عند إعداد اللعبة: سهل أو متوازن أو عادي أو صعب. تبقى نقاط المربعات كما هي، ويتغيّر فقط مدى صعوبة الأسئلة التي خلفها.',
       'تتناوب الفرق على اختيار المربعات.',
       'إذا كان خيار «العودة» مفعّلًا، يختار الفريق الأخير المربع التالي.',
     ],

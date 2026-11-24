@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Sets up a Raspberry Pi to run Munaafasatul Ilm Live at every start-up, locked down.
-# Run on Raspberry Pi OS Lite (Bookworm or newer), from a copy of the repository:
+# Run on the current Raspberry Pi OS Lite (Trixie or newer, which brings Node.js 20), from a copy of the repository:
 #   sudo bash pi/install.sh [--keep-ssh]
 # Safe to run again: it updates the set-up in place and keeps the PIN, the links and the versions.
 set -euo pipefail
@@ -23,7 +23,8 @@ say "Installing Node.js and the firewall"
 apt-get update -qq
 apt-get install -y -qq nodejs nftables avahi-daemon >/dev/null
 NODE_MAJOR=$(node -p 'process.versions.node.split(".")[0]')
-[ "$NODE_MAJOR" -ge 18 ] || { echo "Node.js 18 or newer is needed (found $(node -v))."; exit 1; }
+# Node.js 18 no longer gets security fixes, so the older Raspberry Pi OS (Bookworm) is not accepted.
+[ "$NODE_MAJOR" -ge 20 ] || { echo "Node.js 20 or newer is needed (found $(node -v)). Write the card again with the current Raspberry Pi OS Lite, which brings it."; exit 1; }
 NODE=$(command -v node)
 
 say "Creating the ilm user and folders"
